@@ -1,0 +1,63 @@
+---
+keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
+description: Använd mätvärden i en XT-aktivitet (Adobe Target Experience Targeting) för att avgöra när ett besök lyckas.
+title: Ange mått
+solution: Target,standard
+uuid: 5b2f6613-0773-4614-9d39-d9a408566969
+translation-type: tm+mt
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+
+---
+
+
+# Ange mått{#set-metrics}
+
+Använd mätvärden i en XT-aktivitet (Experience Targeting) för att avgöra när ett besök lyckas.
+
+Mer information om framgångsmått finns i [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+
+1. Ange aktivitetens mål.
+1. Välj ett [framgångsmått](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+
+   ![Välj framgångsmått](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
+
+   På [!UICONTROL Select Metrics] sidan visas de framgångsmått du kan välja för din aktivitet. Resultaten delas in i följande kategorier:
+
+   * Konvertering
+   * Intäkter
+   * Engagemang
+   Du kan använda vilken som helst av de färdiga mätvärdena för framgång eller skapa ett anpassat framgångsmått. Du kan också markera ett framgångsmått som ett primärt mått. Rapporter och Experience Cloud-kort visar som standard det primära måttet, om ett sådant har angetts.
+1. Ange inställningarna för mätvärden.
+
+   Vilka inställningar som är tillgängliga beror på vilket framgångsmått du använder.
+
+   Om det här alternativet är aktiverat ger [!UICONTROL Estimated Value of the Conversion]fältet (inte tillgängligt för sidbakgrundsmätningar) ett värde för ditt mål. Detta värde gör att Target kan beräkna en uppskattad ökning av intäkterna. Detta fält är valfritt; Inkrementella intäkter för icke-intäktsmått kan dock inte beräknas utan detta. Datatypen är valuta. Det här fältet visas progressivt efter att användaren har indikerat vilken åtgärd som har vidtagits för att uppnå målet. Mer information finns i [Beräkna Lyft i intäkter](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) .
+
+   Korrekt konfigurering av framgångsmått är avgörande för att ni ska få de data ni förväntar er.
+
+   Mer information finns i [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+1. (Valfritt) Lägg till ytterligare mått.
+1. Klicka **[!UICONTROL Continue]** när du är klar med mätvärdena.
+Observera att följande tecken inte tillåts när du namnger eller byter namn på ett mätresultat:
+
+   | Tecken | Beskrivning |
+   |--- |--- |
+   | `/` | Snedstreck |
+   | `?` | Frågetecken |
+   | `#` | Nummertecken |
+   | `:` | Colon |
+   | `=` | Lika med |
+   | `+` | Plus |
+   | `-` | Minus |
+   | `@` | Vid tecken |
+
+## Utbildningsvideo: Aktivitetsmått (7:43) ![Självstudiekursidentitet](/help/assets/tutorial.png)
+
+
+Den här videon innehåller information om hur du arbetar med framgångsmått.
+
+* Förstå målvärden
+* Förstå och bygga mått för konvertering, intäkter och engagemang
+* Bygg ett klickspårningsmått
+
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
