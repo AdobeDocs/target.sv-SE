@@ -1,0 +1,49 @@
+---
+keywords: implementation;mbox.js;dom manipulation library;target.js;visual experience composer;iframe;angular sites;single page applications;single page app;SPA
+description: Information som hjälper din tekniska personal att förstå mbox.js-implementeringen och hur den kan påverka din webbplats.
+title: Vad mbox.js gör
+subtopic: Getting Started
+topic: Standard
+uuid: 5529d620-4a33-479c-871f-18dcd59abb07
+translation-type: tm+mt
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+
+---
+
+
+# Vad mbox.js gör{#what-mbox-js-does}
+
+Information som hjälper din tekniska personal att förstå mbox.js-implementeringen och hur den kan påverka din webbplats.
+
+Target Standard kräver [!DNL mbox.js] version 58 eller senare. Instruktioner om hur du hämtar och uppdaterar [!DNL mbox.js]finns i [Mbox Implementation](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+
+I Target Standard [!DNL mbox.js] anropas en annan JavaScript-fil [!DNL target.js]. [!DNL Target.js] finns hos Adobe och uppdateras automatiskt av Adobe. Det finns inget du behöver göra för att uppdatera [!DNL target.js]och det finns inga klientspecifika anpassningar.
+
+[!DNL Target.js] skapar en mbox som anropas `target-global-mbox` i sidans `<head>` avsnitt.
+
+[!DNL Target.js] anropas från [!DNL mbox.js] en rad med JavaScript-kod som läggs till i [!UICONTROL Extra JavaScript] fältet i [!DNL mbox.js]. Det enda sättet att inaktivera [!DNL target.js] är att inte ta med den här kodraden, vilket även inaktiverar [!DNL Target].
+
+[!DNL Target.js] har två funktioner i [!DNL Target]:
+
+* DOM-manipulering
+* Aktiverar visuella element för [!UICONTROL Visual Experience Composer]
+
+## DOM-manipulering {#section_169F8D4C077948DCB4F891ABBB03FF63}
+
+[!DNL Target.js] styr DOM-manipuleringsbiblioteket som används av Standard. Om du vill visa innehållet på en webbplats, [!DNL target.js] referenser [!DNL sizzle.js] (version 1.10.8-pre). [!DNL Sizzle.js] aktiverar HTML-elementväljarna. Förutom [!DNL sizzle.js]används endast systemspecifikt JavaScript. Ingen jquery krävs.
+
+Dessutom används följande utdrag för att avfråga DOM:
+`https://github.com/dperini/ContentLoaded`
+
+## Target.js och Visual Experience Composer {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
+
+När du använder [!UICONTROL Visual Experience Composer] för att konfigurera en upplevelse för en aktivitet öppnas webbsidan i en iFrame. När iFrame har lästs in skickar Standard ett HTML5 `postMessage` -API-anrop. [!DNL Target.js] identifierar eventuella `postMessage` anrop och inkluderar följande JavaScript-bibliotek på webbplatsen:
+
+* För generering av miniatyrbilder: [!DNL https://html2canvas.hertzen.com/]
+* För korsdomänfråga: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], som används för att skicka meddelanden mellan iFrames. Dessa skript gör att Adobe kan skicka data mellan sidorna.
+
+## Överväganden för vinkelwebbplatser och ensidiga program {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+
+Om du implementerar Target på en Angular-plats eller i ett Single-Page Application (SPA) bör du använda biblioteket at.js i stället för mbox.js.
+
+Mer information finns [i implementeringen](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)av at.js.
