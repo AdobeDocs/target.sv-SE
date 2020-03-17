@@ -1,0 +1,48 @@
+---
+keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
+description: Specialiserade rapporter är tillgängliga för användare av Automated Personalization.
+title: Automatiserade sammanfattningsrapporter för personalisering
+uuid: 959b6814-9686-4741-8a79-5957e64f6209
+translation-type: tm+mt
+source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
+
+---
+
+
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary Reports{#automated-personalization-summary-reports}
+
+Specialiserade rapporter är tillgängliga för användare av Automated Personalization.
+
+>[!NOTE]
+>
+>Automatiserad personalisering ingår i [!DNL Target Premium] lösningen. Det ingår inte [!DNL Target Standard] utan en [Target Premium-licens](/help/c-intro/intro.md#premium).
+
+1. Klicka **[!UICONTROL Activities]** på önskad [!UICONTROL Automated Personalization] aktivitet i listan och klicka sedan på **[!UICONTROL Reports]** fliken.
+
+   Om du har många aktiviteter kan du filtrera listan genom att välja [!UICONTROL Automated Personalization] i [!UICONTROL Type] listrutan.
+
+1. (Valfritt) Klicka på [!UICONTROL Download] ikonen för att hämta sammanfattningsvyn (till exempel för att jämföra trafik med styrning och mål) uppdelat efter alla tillgängliga framgångsmått.
+
+[!UICONTROL Automated Personalization] innehåller följande rapporter:
+
+## Aktivitetsnivårapport {#section_6F72FC5C790B4492B3DCECBFFA971337}
+
+I rapporten jämförs den sammanlagda prestandan för att använda en [!UICONTROL Activity Level] [!UICONTROL Automated Personalization] algoritm med slumpmässigt hanterat innehåll (kontroll).
+
+![Aktivitetsnivårapport](/help/c-reports/assets/box_plot_ap.png)
+
+Standardreglerna för resultattolkning för A/B-tester gäller fortfarande, inklusive lyft, förtroende, trender, varaktighet och så vidare. Mer information om hur du tolkar resultat finns i [Om konverteringsgraden](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+
+## Erbjudandenivårapport {#section_CAA6409879E349C6906E2BE8156D87A1}
+
+I rapporten [!UICONTROL Offer Level] för Random Forest Experience jämförs resultatet för varje algoritmtillämpat erbjudande med samma slumpmässiga erbjudande (Control). Erbjudandena bör därför inte jämföras med varandra i denna vy.
+
+Klicka på upplevelsealgoritmen (Slumpmässig skog eller kontroll) för att visa rapporten Erbjudandenivå.
+
+![](assets/ap_OfferLevelRpt.png)
+
+Erbjudandena kan visas i rapportgrupper och dessa kan komprimeras och utökas. Välj [!UICONTROL Reporting Group] i listrutan om du vill visa sammanställd information efter rapporteringsgrupper, i stället för efter erbjudanden.
+
+>[!NOTE]
+>
+>Klockikonen indikerar att algoritmmodellen fortfarande byggs. Kryssmarkeringsikonen anger att basalgoritmen har upprättats.
