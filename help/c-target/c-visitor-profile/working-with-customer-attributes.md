@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
+source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
 
 ---
 
@@ -148,7 +148,11 @@ Mer information om hur du använder kundattribut i [!DNL Target]finns i följand
 
 ## Problem som kunderna ofta stöter på {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-Följande problem kan uppstå när du arbetar med kundattribut och [!DNL Target]:
+Följande problem kan uppstå när du arbetar med kundattribut och [!DNL Target].
+
+>[!NOTE]
+>
+>Problem 1 och 2 orsakar ungefär 60 procent av problemen i det här området. Problem 3 orsakar ungefär 30 procent av problemen. Problem 4 orsakar ungefär 5 procent av problemen. De återstående 5 % beror på diverse fel.
 
 ### Utgåva 1: Kundattribut tas bort eftersom profilen är för stor
 
@@ -177,10 +181,6 @@ Tänk på följande implementeringsproblem:
 ### Utgåva 6: Kundattribut importeras inte till [!DNL Target]
 
 Om du inte hittar kundattributsdata i Target kontrollerar du att importen inträffade inom de *x* -dagar där *x* är värdet för målbesökarens [profillivstid](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagar som standard).
-
->[!NOTE]
->
->Problem 1 och 2 ovan orsakar ungefär 60 procent av problemen i det här området. Problem 3 orsakar ungefär 30 procent av problemen. Problem 4 orsakar ungefär 5 procent av problemen. De återstående 5 % beror på diverse fel.
 
 ## Utbildningsvideo: Ladda upp offlinedata med {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![självstudiekursen för kundattribut](/help/assets/tutorial.png)
 
