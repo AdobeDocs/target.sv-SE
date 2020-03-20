@@ -5,7 +5,7 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för de senaste eller kommande [!DNL Adobe Target] versionerna.
 
-**Senast uppdaterad: 9 mars 2020**
+**Senast uppdaterad: 20 mars 2020**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
    Genom att flytta alla kunder till at.js kan våra ingenjörer och supporttekniker ge dig nya funktioner och erbjuda den support du förväntar dig av Adobe.
 
 
-## Target Standard/Premium 20.2.1 (17 mars 2020)
+## Target Standard/Premium 20.2.1 (23 mars 2020)
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 * Implementerade säkerhetsförbättringar i Content Security Policy (CSP). (TGT-36190)
 * Korrigerade ett problem som gjorde att &quot;NaN%&quot; visades när procentfältet för attributviktning drog åt vänster. (TGT-36211)
 * Löste lokaliseringsproblem så att gränssnittstext på olika språk visas korrekt.
-* Följande Adobe Analytics-mått stöds inte längre för Analytics for Target (A4T) från och med Target-versionen från mars 2020:
-   * averagevisitdepth
-   * botar
-* Följande mått stöds inte längre och konverteras automatiskt till nya versioner av måttet första gången en användare ändrar en aktivitet som innehåller måttet:
+* Vi har standardiserat listan med tillgängliga mätvärden från Adobe Analytics for Target-aktiviteter (A4T) genom att ta bort Adobe Analytics-mått som inte stöds i den aktuella versionen av Adobe Analytics API:er. Detta gör att vi kan utöka vår A4T-support i framtida Adobe Target-versioner.
 
-   | Inaktuellt mått | Nytt mått |
+   Följande ändringar har gjorts:
+
+   * &quot;Genomsnittlig tid spenderad på sidan&quot; har ersatts med &quot;Genomsnittlig tid spenderad på webbplatsen.&quot; Alla aktiviteter som använder detta som mått för det primära målmåttet kommer att ha &quot;Genomsnittlig tid spenderad på platsen&quot; (Obs! anges i minuter i stället för sekunder) väljs som primärt målmått nästa gång aktiviteten redigeras.
+   * &quot;Besökare&quot; har ersatts med &quot;unika besökare&quot;. Alla aktiviteter som använder det här måttet som primärt målmått kommer att ha &quot;Unika besökare&quot; valt som primärt målmått nästa gång aktiviteten redigeras.
+
+* Följande mått har tagits bort och kan inte längre väljas som primärt målmått när en ny A4T-aktivitet skapas.
+
+   | Inaktuella mått | Föreslagna ersättningsmått |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (Obs! mätt i minuter i stället för sekunder) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Dagliga besökare, timbesökare, månatliga besökare, kvartalsbesök, veckobesökare och årsbesök | Unika besökare |
+   | Genomsnittligt besöksdjup | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+   | Bots | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+   | Kraschfrekvens för mobiler, genomsnittlig tidigare sessionslängd för mobilappar, genomsnittlig rankning för mobilappsbutik, kraschfrekvens för mobilappsprestanda, genomsnittlig klassificering för mobilappsbutik | Ej tillämpligt. Ej rekommenderat som primärt målmått |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
