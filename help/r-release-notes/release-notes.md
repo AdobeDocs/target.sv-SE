@@ -5,7 +5,7 @@ title: 'Versionsinformation om Adobe Target (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Summit har blivit en virtuell händelse! Adobe tar alla steg framåt med e
 
 Om du vill registrera dig för kostnadsfri åtkomst till hela det digitala evenemanget går du till [The Digital Experience Conference: Summit](https://www.adobe.com/summit.html) page.
 
-## Target Standard/Premium 20.2.1 (17 mars 2020)
+## Target Standard/Premium 20.2.1 (23 mars 2020)
 
 >[!IMPORTANT]
 >
@@ -57,40 +57,43 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 * Implementerade säkerhetsförbättringar i Content Security Policy (CSP). (TGT-36190)
 * Korrigerade ett problem som gjorde att &quot;NaN%&quot; visades när procentfältet för attributviktning drog åt vänster. (TGT-36211)
 * Löste lokaliseringsproblem så att gränssnittstext på olika språk visas korrekt.
-* Följande Adobe Analytics-mått stöds inte längre för Analytics for Target (A4T) från och med Target-versionen från mars 2020:
-   * averagevisitdepth
-   * botar
-* Följande mått stöds inte längre och konverteras automatiskt till nya versioner av måttet första gången en användare ändrar en aktivitet som innehåller måttet:
+* Vi har standardiserat listan med tillgängliga mätvärden från Adobe Analytics for Target-aktiviteter (A4T) genom att ta bort Adobe Analytics-mått som inte stöds i den aktuella versionen av Adobe Analytics API:er. Detta gör att vi kan utöka vår A4T-support i framtida Adobe Target-versioner.
 
-   | Inaktuellt mått | Nytt mått |
+   Följande ändringar har gjorts:
+
+   * &quot;Genomsnittlig tid spenderad på sidan&quot; har ersatts med &quot;Genomsnittlig tid spenderad på webbplatsen.&quot; Alla aktiviteter som använder detta som mått för det primära målmåttet kommer att ha &quot;Genomsnittlig tid spenderad på platsen&quot; (Obs! anges i minuter i stället för sekunder) väljs som primärt målmått nästa gång aktiviteten redigeras.
+   * &quot;Besökare&quot; har ersatts med &quot;unika besökare&quot;. Alla aktiviteter som använder det här måttet som primärt målmått kommer att ha &quot;Unika besökare&quot; valt som primärt målmått nästa gång aktiviteten redigeras.
+
+* Följande mått har tagits bort och kan inte längre väljas som primärt målmått när en ny A4T-aktivitet skapas.
+
+   | Inaktuella mått | Föreslagna ersättningsmått |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (Obs! mätt i minuter i stället för sekunder) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Dagliga besökare, timbesökare, månatliga besökare, kvartalsbesök, veckobesökare och årsbesök | Unika besökare |
+   | Genomsnittligt besöksdjup | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+   | Bots | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+   | Kraschfrekvens för mobiler, genomsnittlig tidigare sessionslängd för mobilappar, genomsnittlig rankning för mobilappsbutik, kraschfrekvens för mobilappsprestanda, genomsnittlig klassificering för mobilappsbutik | Ej tillämpligt. Ej rekommenderat som primärt målmått |
 
 ## Adobe Experience Cloud-navigering (22 februari 2019)
 
 * När du loggar in på [!DNL Adobe Experience Cloud]sidan kommer du till den nya rubriknavigeringen. Den ser ut ungefär som den tidigare navigeringen med det svarta fältet högst upp, men har följande förbättringar:
 
    * Enklare att växla mellan [!DNL Identity Management System] (IMS)-organisationer eller till en annan lösning.
-   * Förbättrad användarhjälp: Sökresultaten är bland annat resultat från [!DNL Target] produktdokumentationen, communityforum och mer videoinnehåll, vilket gör det enklare att få tillgång till mer innehåll för att få ut så mycket som möjligt [!DNL Target]. Vi har också lagt till en funktion för feedback direkt på [!UICONTROL Help] menyn, vilket gör det enklare att rapportera problem eller dela med dig av dina idéer.
+   * Förbättrad användarhjälp: Sökresultaten är bland annat resultat från [!DNL Target] produktdokumentationen, communityforum och mer videoinnehåll, vilket gör det enklare att få tillgång till mer innehåll för att få ut så mycket som möjligt [!DNL Target]. Vi har också lagt till en funktion för feedback direkt på [!UICONTROL Hjälp] -menyn, som gör det enklare att rapportera problem eller dela med dig av dina idéer.
 
    * Förbättrad feedback för NPS (Net Promoter Score) så att undersökningen inte stör arbetsflödet.
    * Förbättrat inloggningsflöde. Tidigare landade alla [!DNL Target] kunder på landningssidan Target efter att ha klickat på [!DNL Target] ikonen i sidhuvudet. På den här sidan kan kunderna sedan gå vidare med [!DNL Target Standard/Premium], [!DNL Search&Promote]eller [!DNL Recommendations Classic]enligt nedan:
 
       ![Landningssida](/help/r-release-notes/assets/landing.png)
 
-      Vi eliminerade den här landningssidan för alla våra kunder. Du kommer nu alltid direkt till [!UICONTROL Activities List] sidan genom att klicka på [!DNL Target] ikonen i det nya sidhuvudsnavigeringsfältet.
+      Vi eliminerade den här landningssidan för alla våra kunder. Du dirigeras nu alltid direkt till sidan [!UICONTROL Aktivitetslista] genom att klicka på [!DNL Target] ikonen i det nya sidhuvudsnavigeringsfältet.
 
-      Om du använder [!DNL Recommendations Classic]kan du antingen gå direkt till lösningen eller gå från den korta länken som skapas på [!UICONTROL Recommendations] fliken enligt nedan:
+      Om du använder [!DNL Recommendations Classic]kan du antingen gå direkt till lösningen eller gå från den korta länken på fliken [!UICONTROL Rekommendationer] , som visas nedan:
 
       ![Recs Classic deep link](/help/r-release-notes/assets/recs-classic.png)
 
       Om du använder [!DNL Search&Promote]måste du gå direkt till URL:en [för sökning och befordran](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1). Sökvägen som ska nås [!DNL Search&Promote] inifrån [!DNL Adobe Target] har tagits bort helt.
 
-   * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i [!UICONTROL Notifications] listrutan i sidhuvudet.
+   * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i listrutan [!UICONTROL Meddelanden] i sidhuvudet.
    >[!NOTE]
    >
    >Som en del av utrullningen av det nya navigeringsfältet kommer du även att märka vissa URL-ändringar. Alla tidigare länkar med bokmärken fortsätter att fungera, men vi rekommenderar att du bokmärker nya länkar för snabbare öppning.
