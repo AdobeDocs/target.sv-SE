@@ -5,7 +5,7 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -18,16 +18,13 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 20 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Anges att Target Standard/Premium 20.2.1 kommer att vara den 23 mars 2020. |
 | 13 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterade antalet&quot;Målgrupper, återanvändbara per konto&quot;. |
-| 12 mars | [Versionsinformation](/help/r-release-notes/release-notes.md#summit) | Ytterligare registreringsinformation för kostnadsfri åtkomst till den digitala Summit på webben. |
-| 11 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Anger att målversionen av Standard/Premium 20.2.1 kommer att vara den 17 mars 2020. |
+| 12 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md#summit) | Ytterligare registreringsinformation för kostnadsfri åtkomst till den digitala Summit på webben. |
 | 9 mars | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ytterligare information har lagts till i avsnittet&quot;Ersättning av den senaste oktetten med IP-adresser&quot;. |
 |  | [Arbeta med attribut för flera värden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Uppdaterat kodexempel i *Skicka en flervärdesparameter i JavaScript*. |
 |  | [Anpassade entitetsattribut](/help/c-recommendations/c-products/custom-entity-attributes.md) | Lagt till kodexempel i *Använda API:er* under *Implementera attribut* med flera värden. |
-|  | [Versionsinformation](/help/r-release-notes/release-notes.md) | Anger att det här releasedatumet ännu inte har fastställts. |
 | 4 mars | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Hela ämnet har uppdaterats med omfattande revideringar av avsnittet&quot;Bästa praxis&quot;. |
-|  | [Versionsinformation](/help/r-release-notes/release-notes.md) | Anger att det här frisläppningsdatumet ännu inte har fastställts. |
-|  | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om föråldrade och ändrade mätvärden när Target for Analytics (A4T) används. |
 | 21 februari | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om den nya navigeringen i Adobe Experience Cloud. |
 | 20 februari | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Beskrivningen av `enabled` inställningen har uppdaterats. Tillagd information för följande inställningar: `pageLoadEnabled` och `viewsEnabled`. |
 | 19 februari | [Versionsinformation](/help/r-release-notes/release-notes.md) | Lagt till information om den kommande borttagningen av mbox.js-biblioteket. |
@@ -61,7 +58,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 9 januari 2020 | [TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Uppdaterad text.<br>Efter den 1 mars 2020 stöder Adobe Target inte längre TLS 1.1-kryptering för Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), aktivitetsleverans, API:er osv. Uppgradera till TLS 1.2 före 1 mars 2020 för att undvika problem. |
 | 6 januari 2020 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett känt fel har lagts till om status för feed för anpassade villkor. |
 | 19 december 2019 | [Versionsinformation - Mål-Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Lagt till information om version 1.1.0. |
-| 12 december 2019 | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat avsnitt med vanliga frågor och svar. |
+| 11 december 2019 | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat avsnitt med vanliga frågor och svar. |
 |  | [Tolka autofördelningsrapporter](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ändrade namn på ämnet och lade till följande avsnitt: &quot;Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter.&quot; |
 | 11 december 2019 | [Mål och målgrupper Frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nya frågor och svar: &quot;Hur utvärderar Target URL:er när det gäller målinriktning?&quot; |
 | 10 december 2019 | [Målgrupper](/help/r-troubleshooting-target/target-limits.md) | Mappningsparameteravsnittet har uppdaterats. |
@@ -162,13 +159,13 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Uppdaterad anteckning som anger hur lång tid det tar att slutföra klassificeringsprocessen. |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Uppdaterad anteckning som anger hur lång tid det tar att slutföra klassificeringsprocessen. |
 |  | [Sekretess- och dataskyddsbestämmelser](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Uppdaterat ämne som innehåller information om California Consumer Privacy Act (CCPA). |
-|  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Uppdaterat övervägande om att använda [!UICONTROL Activity Impressions] och [!UICONTROL Activity Conversions] mäta i [!DNL Analysis Workspace]. |
+|  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Uppdaterat övervägande om att använda [!UICONTROL aktivitetsimpressioner] och [!UICONTROL aktivitetskonverteringsstatistik] i [!DNL Analysis Workspace]. |
 | 1 augusti 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Viktigt meddelande om API-stöd för Enterprise Permissions har lagts till. |
 |  | [Ge Adobe I/O-integrationer åtkomst till arbetsytor och tilldela roller](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Nytt ämne. |
 | 31 juli 2019 | [Introduktion till rekommendationer](/help/c-recommendations/introduction-to-recommendations.md) | Nytt ämne. |
 |  | [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Anteckning har lagts till i nyligen visade objekt. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Ett känt fel har lagts till med länkar för förhandsgranskning av Activity QA. |
-| 29 juli 2019 | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Nya frågor och svar: &quot;Varför innehåller mina [!UICONTROL Experience Targeting] (XT)-rapporter mätvärden för kontrollupplevelser?&quot; |
+| 29 juli 2019 | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Nya frågor och svar: &quot;Varför innehåller XT-rapporter ( [!UICONTROL Experience Targeting] ) mätvärden för kontrollupplevelser?&quot; |
 | 24 juli 2019 | [Uppgraderar från at.js 1.*x* to at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Nytt avsnitt har lagts till: Stöd [för domänövergripande spårning i at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention (ITP) 2.*x *](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Nytt ämne. |
 |  | [Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md#status) | Nytt avsnitt har lagts till: &quot;Vi ser rekommendationserbjudandets status.&quot; |
@@ -188,9 +185,9 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om den kommande Target 19.7.1-versionen (23 juli 2019).<br>Observera att informationen kan komma att ändras. |
 | 8 juli 2019 | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tillagd information som förklarar varför du bör använda CNAME. |
 | 28 juni 2019 | [Kända problem och lösta](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[problemFörväntade datavariationer mellan Target och Analytics när A4](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[TRedirect offers-A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Lagt till information om ett känt fel som gör att ett begränsat antal kunder använder omdirigeringar med A4T för att se en högre andel träffar. |
-| 26 juni 2019 | [Alternativ för visuell upplevelse](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Lagt till information om [!UICONTROL Background] alternativet under *Stilar*. |
-|  | [Visual Experience Composer för Single Page App (SPA)](/help/c-experiences/spa-visual-experience-composer.md) | Lagt till information om [!UICONTROL Clone] åtgärden. |
-|  | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Lagt till information om [!UICONTROL Selected Elements] panelen. |
+| 26 juni 2019 | [Alternativ för visuell upplevelse](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Lagt till information om alternativet [!UICONTROL Bakgrund] under *Format*. |
+|  | [Visual Experience Composer för Single Page App (SPA)](/help/c-experiences/spa-visual-experience-composer.md) | Lagt till information om [!UICONTROL klonåtgärden] . |
+|  | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Lagt till information om panelen [!UICONTROL Valda element] . |
 |  | [Visual Experience Composer för Single Page App (SPA)](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nytt avsnitt: &quot;Inställningar för sidleverans för SPA VEC.&quot; |
 |  | [Välj kontroll för din automatiska personalisering eller Automatisk målaktivitet](/help/c-activities/t-automated-personalization/experience-as-control.md) | Nytt ämne. |
 |  | [Google Chrome SameSite cookie-principer](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Nytt ämne. |
@@ -318,7 +315,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade den preliminära versionsinformationen för Target 19.4.1- och Target 19.4.2-utgåvorna, båda planerade i april 2019. |
 | 4 april 2019 | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lade till preliminär versionsinformation för Target 19.4.1 och Target 19.4.2, båda planerade i april 2019. |
 | 30 mars 2019 | [Gränser](/help/r-troubleshooting-target/target-limits.md#excludedid) | Lagt till information om gränserna för parametern `excludedID` mbox. |
-| 29 mars 2019 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till: &quot;På SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder under [!UICONTROL Modifications] panelen om du avbryter inläsningen.&quot;<br>Följande kända fel har flyttats till avsnittet Lösta problem: &quot;v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som skapats via Target så att de ligger i standardarbetsytan.&quot; |
+| 19 mars 2019 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till: &quot;På SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder på panelen [!UICONTROL Modifications] om du avbryter inläsningen.&quot;<br>Följande kända fel har flyttats till avsnittet Lösta problem: &quot;v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som skapats via Target så att de ligger i standardarbetsytan.&quot; |
 | 28 mars 2019 | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Följande nya avsnitt har lagts till:<ul><li>[Avbryt inläsning av en sida i VEC.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Redigera en sida medan sidan läses in eller när sidan inte kan läsas in](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
 |  | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Nytt avsnitt: &quot;[Navigera mellan element med DOM-sökvägen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).&quot; |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | Ett aktuellt känt fel som uppstår när du avbryter inläsningen av en sida i VEC har lagts till. |
@@ -371,7 +368,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Felsöka at.js med Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | Observera att Adobe Experience Cloud Debugger Network Request och Mbox Trace inte stöds ännu för at.js 2.x. |
 |  | [at.js cookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Nytt ämne. |
 |  | [Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) | Nytt ämne. |
-|  | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | <ul><li>Lagt till information om hur du använder åtgärden för att lägga till rekommendationer till en upplevelse i en A/B-test eller Experience Targeting-aktivitet. [!UICONTROL Insert Before, Insert After, or Replace With]</li><li>Lagt till information om hur du använder åtgärden för att lägga till AEM Experience Fragments i en upplevelse. [!UICONTROL Insert Before or Insert After]</li></ul> |
+|  | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | <ul><li>Lagt till information om hur du använder åtgärden [!UICONTROL Infoga före, Infoga efter eller Ersätt med] för att lägga till rekommendationer i en upplevelse i en A/B-test eller Experience Targeting-aktivitet.</li><li>Lagt till information om hur du använder åtgärden [!UICONTROL Infoga före eller Infoga efter] för att lägga till AEM Experience Fragments i en upplevelse.</li></ul> |
 |  | [Hjälptillägg för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Nytt ämne. |
 |  | [Integritet och allmänna dataskyddsförordningen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) | Mindre redigeringar och information om Opt-in-funktioner samt at.js 1.7.0 och at.js 2.x. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Lade till kända problem med mål-API:er. |
@@ -394,7 +391,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.4 har lagts till. |
+| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.3 har lagts till. |
 | 10 januari 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Datum då Target fullständigt kommer att fasa ut stödet för TLS 1.0-kryptering: 20 februari 2019. |
 | 9 januari 2019 | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Lagt till information om rekommendationer för att infoga före, infoga efter och ersätta med rader. |
 |  | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (förhandsversion)](/help/r-release-notes/target-release-notes.md)<br>[Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Information om hur Target och Adobe Marketing Cloud upphör att fungera i Microsoft Internet Explorer 11 från och med mars 2019 har lagts till. |
