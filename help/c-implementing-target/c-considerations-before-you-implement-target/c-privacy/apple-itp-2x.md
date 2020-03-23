@@ -5,7 +5,7 @@ title: Stöd för Adobe Target och Apple ITP
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -21,9 +21,9 @@ Dessa versioner av ITP innehåller följande begränsningar:
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Klickade på cookies på klienten som placerats i webbläsaren med API:t till ett sjudagars förfallodatum. `document.cookie`<br>Sändes 21 februari 2019. |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Drastiskt reducerade 7- dagars utgångsvärdet till en dag.<br>Utgiven 24 april 2019. |
 
-## Vilken inverkan har jag som Adobe Target-kund?
+## Vilken inverkan har jag som Adobe Target-kund? {#impact}
 
-[!DNL Target] innehåller JavaScript-bibliotek som du kan använda på dina sidor för att [!DNL Target] leverera personalisering i realtid till besökarna. Det finns tre JavaScript-målbibliotek ([at.js 1).*x* och at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)och[mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) som placerar cookies på klientsidan[!DNL Target]i besökarnas webbläsare via`document.cookie`API. Detta innebär att[!DNL Target]cookies påverkas av Apples ITP 2.1 och 2.2 och upphör att gälla efter sju dagar (med ITP 2.1) och efter en dag (med ITP 2.2).
+[!DNL Target] innehåller JavaScript-bibliotek som du kan använda på dina sidor för att [!DNL Target] leverera personalisering i realtid till besökarna. Det finns tre Target JavaScript-bibliotek ([at.js 1.x och at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)och [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) som placerar [!DNL Target] cookies på klientsidan i besökarnas webbläsare via `document.cookie` API:t. Detta innebär att [!DNL Target] cookies påverkas av Apples ITP 2.1 och 2.2 och upphör att gälla efter sju dagar (med ITP 2.1) och efter en dag (med ITP 2.2).
 
 Apple ITP 2.1 och 2.1 påverkar [!DNL Target] följande områden:
 
@@ -31,6 +31,8 @@ Apple ITP 2.1 och 2.1 påverkar [!DNL Target] följande områden:
 | --- | --- |
 | Möjlig ökning av antalet unika besökare | Eftersom förfallotiden är inställd på sju dagar (med ITP 2.1) och en dag (med ITP 2.2) kan det hända att antalet unika besökare i webbläsarna Safari ökar. Om dina besökare återbesöker din domän efter sju dagar (ITP 2.1) eller en dag (ITP 2.2) [!DNL Target] tvingas att placera en ny [!DNL Target] cookie på din domän i stället för den utgångna cookien. Den nya [!DNL Target] cookie-filen innebär en ny unik besökare även om användaren är densamma. |
 | Minskade uppslagsperioder för [!DNL Target] aktiviteter | Besöksprofiler för aktiviteter kan ha en reducerad uppslagsperiod för beslut. [!DNL Target] [!DNL Target] cookies används för att identifiera en besökare och lagra användarprofilattribut för personalisering. Eftersom cookies kan upphöra att gälla på Safari efter sju dagar (ITP 2.1) eller en dag (ITP 2.2), kan de användarprofildata som var knutna till den rensade [!DNL Target] [!DNL Target] cookien inte användas för beslut. |
+| Profilskript baserade på 3rdPartyID | Eftersom förfallotiden är inställd på sju dagar (med ITP 2.1) och en dag (med ITP 2.2) kommer [profilskript](/help/c-target/c-visitor-profile/profile-parameters.md) som baseras på cookien från tredje partID sluta fungera när de går ut. |
+| QA/Preview URLs in iOS devices | Eftersom förfallofönstret är inställt på sju dagar (med ITP 2.1) och en dag (med ITP 2.2) kommer URL:er för [QA/Preview](/help/c-activities/c-activity-qa/activity-qa.md) sluta fungera när de upphör att gälla eftersom URL:erna baseras på cookien för tredje partsID. |
 
 ## Påverkas min nuvarande implementering av [!DNL Target] ?
 
