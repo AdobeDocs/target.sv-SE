@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -25,23 +25,23 @@ Information om åtkomst [!DNL Adobe Target] från [!DNL Adobe Experience Cloud]s
 
    ![Målikon](/help/c-intro/assets/appmenu-target-new.png)
 
-1. Click **[!UICONTROL Launch]** on the [!DNL Target] card.
+1. Klicka på **[!UICONTROL Starta]** på [!DNL Target] kortet.
 
    ![Målstart](/help/c-intro/assets/target-launch-new.png)
 
-1. (Valfritt) Om du vill ange [!DNL Target] som standardvy när du loggar in [!DNL Experience Cloud]**[!UICONTROL Edit Profile]** klickar du under din profilavatar och anger sedan din inställning för landningssida.
+1. (Valfritt) Om du vill ange [!DNL Target] som standardvy när du loggar in [!DNL Experience Cloud]klickar du på **[!UICONTROL Redigera profil]** under din profilavatar och anger sedan din inställning för landningssida.
 
    ![Landningssida](/help/c-intro/assets/pagepref-new.png)
 
 ## Ändra standardspråk för målgränssnittet {#language}
 
-1. När du har loggat in på [!DNL Adobe Experience Cloud ] eller [!DNL Target]klickar du på din profilavatar och sedan på **[!UICONTROL Edit Profile]**.
+1. När du har loggat in på [!DNL Adobe Experience Cloud ] eller [!DNL Target]klickar du på din profilavatar och sedan på **[!UICONTROL Redigera profil]**.
 
    ![Redigera profil](/help/c-intro/assets/change-language.png)
 
-1. Klicka på **[!UICONTROL Edit Personal Information]**.
+1. Klicka på **[!UICONTROL Redigera personlig information]**.
 
-1. Klicka på **[!UICONTROL Communication]** fliken i den övre menyraden.
+1. Klicka på fliken **[!UICONTROL Kommunikation]** i den övre menyraden.
 
    ![Önskade språk](/help/c-intro/assets/prefered-language.png)
 
@@ -62,7 +62,7 @@ Information om åtkomst [!DNL Adobe Target] från [!DNL Adobe Experience Cloud]s
    * Traditionell kinesiska
    * Koreanska
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Spara]**.
 
 1. Logga ut från [!DNL Adobe Experience Cloud] eller [!DNL Target]logga sedan in igen för att ändringarna ska börja gälla.
 
@@ -101,4 +101,4 @@ Den här videon innehåller information om [!DNL Adobe Target] i [!DNL Experienc
 * Länka ditt Target-konto till Adobe Experience Cloud
 * Ange Adobe Target som standardlandningssida
 
->[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM)
+>[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)
