@@ -5,7 +5,7 @@ title: Introduktion till Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni beh�
 
 I följande videofilmer får du en grundläggande förståelse för hur Target, tillsammans med andra Adobe Experience Cloud-lösningar, kan hjälpa din organisation att uppnå sina mål:
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 Lösningen innehåller flera [!DNL Adobe Target] komponenter:
 
@@ -30,7 +30,7 @@ Lösningen innehåller flera [!DNL Adobe Target] komponenter:
 
 ## Målstandard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] är en startpunkt för [!DNL Adobe Target] att hjälpa er att visuellt skapa och hantera A/B-tester och regelbaserade målinriktningsaktiviteter, och koppla samman med Adobe Experience Cloud. [!DNL Target Standard] har stöd för anpassad kodinfogning både i och utanför [!UICONTROL Visual Experience Composer] arbetsflödet. [!DNL Target Standard] erbjuder en förenklad implementeringsstrategi med digitala resurser: bara en enda kodrad på varje sida hanterar all kommunikation som krävs mellan webbplatsen och [!DNL Adobe Target].
+[!DNL Target Standard] är en startpunkt för [!DNL Adobe Target] att hjälpa er att visuellt skapa och hantera A/B-tester och regelbaserade målinriktningsaktiviteter, och koppla samman med Adobe Experience Cloud. [!DNL Target Standard] har stöd för anpassad kodinfogning både i och utanför arbetsflödet för [!UICONTROL Visual Experience Composer] . [!DNL Target Standard] erbjuder en förenklad implementeringsstrategi med digitala resurser: bara en enda kodrad på varje sida hanterar all kommunikation som krävs mellan webbplatsen och [!DNL Adobe Target].
 
 De bästa metoderna för branschen är inbyggda [!DNL Target Standard]i och har utformats för att användas av både nya och erfarna användare. Ni kan dela data och resultat och enkelt samarbeta med andra teammedlemmar som använder [!DNL Adobe Experience Cloud].
 
@@ -76,14 +76,14 @@ En rekommendation avgör hur en produkt föreslås till en kund, beroende på ku
 
 ### Rekommendationer som ett erbjudande
 
-[Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) gör att du kan inkludera rekommendationer i aktiviteter [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT).
+[Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) gör att du kan inkludera rekommendationer i [!UICONTROL A/B-tester] (inklusive [!UICONTROL Automatisk allokering] och [!UICONTROL Automatiskt mål]) och [!UICONTROL Experience Targeting] -aktiviteter (XT).
 
 Den här funktionen öppnar upp helt nya funktioner, som:
 
 * Testa och målinrikta rekommendationer och innehåll som inte är rekommendationer inom samma aktivitet.
 * Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning olika rekommendationer ska ges.
-* Skicka automatiskt trafik till den bästa rekommenderade upplevelsen med [!UICONTROL Auto-Allocate].
-* Tilldela besökare dynamiskt skräddarsydda rekommendationer baserat på deras profil med [!UICONTROL Auto-Target].
+* Använd Automatisk [!UICONTROL allokering]för att automatiskt få ut trafik till de bästa rekommendationsupplevelserna.
+* Tilldela besökare dynamiskt anpassade rekommendationer baserat på deras profil med hjälp av [!UICONTROL Automatisk målgruppsanpassning].
 
 ### Enterprise-användarbehörigheter
 
