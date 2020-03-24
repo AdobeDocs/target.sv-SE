@@ -5,7 +5,7 @@ title: Aktivera blandat innehåll i webbläsaren
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -40,7 +40,7 @@ Se [Den här sidan har osäkert innehåll](https://support.google.com/chrome/ans
 
 Om du använder VEC med den senaste versionen av Chrome (version 79.0.3945.117 eller senare) måste du uppdatera platsinställningarna. Besökare på webbplatsen behöver inte utföra dessa steg.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 I videon ovan beskrivs de steg som krävs:
 
@@ -69,12 +69,12 @@ Som standard blockerar Firebox sidor som blandar säkert och osäkert innehåll.
 
 Internet Explorer blockerar som standard sidor som blandar säkert och osäkert innehåll. Vi rekommenderar att du ändrar den här inställningen permanent till Target.
 
-1. I Internet Explorer klickar du på inställningsikonen > **[!UICONTROL Internet Options]**.
-1. Öppna [!UICONTROL Security] fliken.
-1. Markera **[!UICONTROL Internet]** och klicka sedan på **[!UICONTROL Custom Level]**.
-1. Välj **[!UICONTROL Miscellaneous]**.
-1. Under [!UICONTROL Miscellaneous], aktivera **[!UICONTROL Display Mixed Content]**.
-1. Klicka på **[!UICONTROL OK]** > **[!UICONTROL Yes]** > **[!UICONTROL Apply]**.
+1. I Internet Explorer klickar du på inställningsikonen > **[!UICONTROL Internetalternativ]**.
+1. Öppna fliken [!UICONTROL Säkerhet] .
+1. Välj **[!UICONTROL Internet]** och klicka sedan på **[!UICONTROL Anpassad nivå]**.
+1. Välj **[!UICONTROL Övrigt]**.
+1. Under [!UICONTROL Övrigt]aktiverar du **[!UICONTROL Visa blandat innehåll]**.
+1. Klicka på **[!UICONTROL OK]** > **[!UICONTROL Ja]** > **[!UICONTROL Använd]**.
 
 Vi rekommenderar att du startar om datorn när du har ändrat den här inställningen.
 
