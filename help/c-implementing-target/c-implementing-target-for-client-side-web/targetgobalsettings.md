@@ -5,7 +5,7 @@ title: Information om funktionen targetGlobalSettings() för JavaScript-bibliote
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 ---
 
@@ -44,10 +44,12 @@ Du kan åsidosätta följande inställningar:
 | optoutEnabled | Boolean | false | Anger om Target ska anropa API- `isOptedOut()` funktionen för besökare. Detta är en del av aktiveringen av Device Graph. |
 | selectorsPollingTimeout | Nummer | 5000 ms = 5 s | I at.js 0.9.6 introducerade Target den här nya inställningen som kan åsidosättas via `targetGlobalSettings`.<br>`selectorsPollingTimeout` visar hur länge klienten är beredd att vänta på att alla element som identifieras av väljarna ska visas på sidan.<br>Aktiviteter som skapas via Visual Experience Composer (VEC) har erbjudanden som innehåller väljare. |
 | dataProviders | Se&quot;Data Providers&quot; nedan. | Se&quot;Data Providers&quot; nedan. | Se&quot;Data Providers&quot; nedan. |
+| cspScriptNonce | Se&quot;Säkerhetspolicy för innehåll&quot; nedan. | Se&quot;Säkerhetspolicy för innehåll&quot; nedan. | Se&quot;Säkerhetspolicy för innehåll&quot; nedan. |
+| cspStyleNonce | Se&quot;Säkerhetspolicy för innehåll&quot; nedan. | Se&quot;Säkerhetspolicy för innehåll&quot; nedan. | Se&quot;Säkerhetspolicy för innehåll&quot; nedan. |
 
 ## Användning {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Inställningar]** > **[!UICONTROL Implementering]** > **[!UICONTROL Redigera at.js-inställningar]** > **[!UICONTROL Kodinställningar]** > **[!UICONTROL Bibliotekshuvud]**.
 
 I fältet Bibliotekshuvud kan du ange JavaScript utan formulär. Anpassningskoden ska se ut ungefär som i följande exempel:
 
@@ -175,6 +177,29 @@ Tänk på följande när du arbetar med `dataProviders` inställningen:
 
 * Om dataleverantörerna som läggs till `window.targetGlobalSettings.dataProviders` är asynkrona körs de parallellt. Besökar-API-begäran körs parallellt med funktioner som lagts till för `window.targetGlobalSettings.dataProviders` att ge en minimal väntetid.
 * at.js försöker inte cachelagra data. Om dataleverantören bara hämtar data en gång, bör dataleverantören se till att data cachelagras och, när providerfunktionen anropas, hantera cachedata för det andra anropet.
+
+## Skyddsprofil för innehåll {#content-security}
+
+at.js 2.3.0+ stöder inställning av Content Security Policy-noces för SCRIPT- och STYLE-taggar som läggs till på sidan DOM när levererade Target-erbjudanden används.
+
+Strängarna SCRIPT och STYLE ska anges i `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` motsvarande, före inläsningen av .js 2.3.0+. Se ett exempel nedan:
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+
+När `cspScriptNonce` och `cspStyleNonce` inställningar har angetts anger at.js 2.3.0+ dessa som nonce-attribut för alla SCRIPT- och STYLE-taggar som läggs till i DOM när Target-erbjudanden tillämpas.
 
 ## serverState {#server-state}
 
