@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 Med svarstoken kan du automatiskt generera målspecifik information (kampanjinformation, användarprofilinformation, geoinformation och så vidare) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale)
 
-Adobe Target Classic hade en funktion som kallas serverplugin-program som gör att du kan skicka JavaScript som körs med ett mbox-svar. Svarstoken liknar plugin-program: kan du visa målspecifik information som du kan använda någon annanstans. Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett mbox-svar. För att göra det aktiverar du bara en variabel med växeln så skickas variabeln med mbox-svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i förhandsgranskningsläge.
+Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett mbox-svar. För att göra det aktiverar du bara en variabel med växeln så skickas variabeln med mbox-svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i förhandsgranskningsläge.
 
 En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-program levererar JavaScript till sidan som körs vid leverans, ger svarstoken ett objekt som sedan kan läsas och hanteras med händelseavlyssnare. Mer information finns [i anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js och exemplen senare i den här artikeln. Responstoken är säkrare och bör underlätta utveckling och underhåll av tredjepartsintegreringar.
 
@@ -34,7 +34,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 
    Mer information finns i [Hämta på.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Klicka [!DNL Target]på **[!UICONTROL Setup]** > **[!UICONTROL Response Tokens]**.
+1. I [!DNL Target]klickar du på **[!UICONTROL Inställningar]** > **[!UICONTROL Svarstoken]**.
 
    ![](assets/response_tokens.png)
 
@@ -64,7 +64,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 
 1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via ett mbox-anrop och därför inte har lästs in i målgränssnittet, kan du använda knappen Skapa för att lägga till profilen i användargränssnittet.
 
-   Klicka **[!UICONTROL Create]** och ange tokennamnet. Klicka sedan **[!UICONTROL Activate]**.
+   Klicka på **[!UICONTROL Skapa]**, ange tokennamnet och klicka sedan på **[!UICONTROL Aktivera]**.
 
    ![](assets/response_token_create.png)
 
