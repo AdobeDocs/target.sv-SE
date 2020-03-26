@@ -4,7 +4,7 @@ title: Adobe Target-ordlista
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -145,7 +145,7 @@ Mätningen av besökarens intresse för en webbplats, mätt som tid på webbplat
 
 **förbättrad upplevelsedisposition**
 
-Detta [!UICONTROL Enhanced Experience Composer] är ett tillägg till [!UICONTROL Visual Experience Composer] som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar [!DNL Target] implementeringen. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer]provar du på [!UICONTROL Enhanced Experience Composer].
+Den [!UICONTROL förbättrade Experience Composer] är ett tillägg till [!UICONTROL Visual Experience Composer] som hjälper er att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar [!DNL Target] implementeringen. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer]kan du prova [!UICONTROL Förbättrad Experience Composer].
 
 **Enterprise-användarbehörigheter**
 
@@ -161,7 +161,7 @@ En deltagare är en besökare som uppfyller kriterierna för att delta i en akti
 
 **miljö**
 
-Värdar paketeras i miljöer för enkel hantering. De förinställda värdgrupperna är Produktion, Förproduktion och Utveckling. Du kan dock lägga till nya värdgrupper och byta namn på befintliga värdgrupper. Miljöer kallades &quot;värdgrupper&quot; i [!DNL Target Classic].
+Värdar paketeras i miljöer för enkel hantering. De förinställda värdgrupperna är Produktion, Förproduktion och Utveckling. Du kan dock lägga till nya värdgrupper och byta namn på befintliga värdgrupper.
 
 **upplevelse**
 
