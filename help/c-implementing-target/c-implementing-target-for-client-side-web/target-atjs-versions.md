@@ -5,7 +5,7 @@ title: versionsinformation för at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,6 +17,20 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 >[!IMPORTANT]
 >
 >Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
+
+## at.js version 2.3.0 (25 mars 2020)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
+
+* Stöd för inställning av innehållets säkerhetspolicyundantag för SCRIPT- och STYLE-taggar som läggs till på sidan DOM när levererade Target-erbjudanden tillämpas. Kunderna kan ställa in `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` se till att at.js kan ställa in motsvarande skript och style tag nonces på tillämpade erbjudanden. Mer information finns i [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) .
+* Ett problem har korrigerats vid kompilering av at.js med Google Closure-kompilatorn för Google Tag Manager-distribution.
+* Du har bytt namn på cookien at.js från `check` till `at_check` för att undvika kollisioner med kundernas implementeringar.
+
+## at.js version 1.8.1 (25 mars 2020)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
+
+* Du har bytt namn på cookien at.js från `check` till `at_check` för att undvika kollisioner med kundernas implementeringar.
 
 ## at.js version 2.2.0 (10 oktober 2019)
 
@@ -54,7 +68,7 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 * Korrigerade ett problem som hindrade meddelandet från att `triggerView()` utlösas även om det inte finns några sparade vyer. (TNT-32614)
 * Korrigerade ett problem som orsakade ett fel på grund av användningen av decodeURIcomponent som orsakade problem när URL:en innehåller en felformaterad frågesträngsparameter. (TNT-32710)
 * Beacon-flaggan är nu inställd på &quot;true&quot; i samband med leveransbegäranden som skickas via `Navigator.sendBeacon()` API. (TNT-32683)
-* Korrigerade ett problem som hindrade rekommendationserbjudanden från att visas på webbplatser för ett fåtal kunder. Kunderna kunde se erbjudandeinnehållet i API-anropet, men erbjudandet tillämpades inte på webbplatsen. (TNT-32680)
+* Ett problem som hindrade rekommendationserbjudanden från att visas på webbplatser för ett fåtal kunder har korrigerats. Kunderna kunde se erbjudandeinnehållet i API-anropet, men erbjudandet tillämpades inte på webbplatsen. (TNT-32680)
 * Korrigerade ett problem som gjorde att klickspårning över flera upplevelser inte fungerade som förväntat. (TNT-32644)
 * Korrigerade ett problem som förhindrade at at at.js från att använda det andra måttet efter att återgivningen av det första måttet misslyckades. (TNT-32628)
 * Korrigerade ett problem vid överföring `mboxThirdPartyId` med `targetPageParams` funktionen som gjorde att nyttolasten för begäran inte fanns i frågeparametrarna eller i nyttolasten för begäran. (TNT-32613)
@@ -217,7 +231,7 @@ at.js version 1.3.0 finns nu att köpa.
 
    Mer information finns i [Dataproviders](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
-* AT.js-begäranden använder nu GET, men det växlar till POST när URL-storleken överskrider 2 048 tecken. Det finns en ny egenskap med namnet `urlSizeLimit` där du kan öka storleksgränsen om det behövs. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik.
+* AT.js-begäranden använder nu GET, men det växlar till POST när URL-storleken överskrider 2 048 tecken. Det finns en ny egenskap med namnet `urlSizeLimit` där du kan öka storleksgränsen vid behov. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik.
 * Target tvingar nu till att `mbox` nyckeln i `adobe.target.applyOffer(options)` funktionen används. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target har korrekt validering och att kunderna använder funktionen korrekt.
 * at.js har förbättrat funktionerna för händelsespårning och klickning. at.js använder `navigator.sendBeacon()` för att skicka händelsespårningsdata och återgår till synkron XHR när `navigator.sendBeacon()` inte stöds. Detta gäller oftast Internet Explorer 10 och 11 samt vissa versioner av Safari. Safari kommer att lägga till stöd för `navigator.sendBeacon()` i den kommande iOS 11.3-versionen.
 * at.js kan nu återge erbjudanden även när en sida öppnas i bakgrundsflikar. Vissa målkunder stötte på ett problem när de `requestAnimationFrame()` inaktiverades på grund av webbläsarbegränsningsbeteendet för bakgrundsflikar.
@@ -322,7 +336,7 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
    En lista med tillåtna specialtecken finns i [at.js Configurations](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
 * En tillagd `secureOnly` inställning som anger om at.js ska använda enbart HTTPS eller tillåtas växla mellan HTTP och HTTPS baserat på sidprotokollet. Det här är en avancerad inställning som har standardvärdet False och kan åsidosättas via `targetGlobalSettings`.
-* Alternativet [!UICONTROL Legacy Browser Support] finns i version 0.9.3 och tidigare av at.js. Det här alternativet togs bort i at.js version 0.9.4.
+* Alternativet [!UICONTROL Stöd] för äldre webbläsare finns i version 0.9.3 och tidigare av .js. Det här alternativet togs bort i at.js version 0.9.4.
 
 ## at.js Version 0.9.3 {#section_DF13BC1D7C994AE7A36B81937A699DF4}
 
@@ -346,7 +360,7 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
 
 * Tillhandahåller en timeout för besökar-ID-tjänsten på at.js, som är oberoende av tjänstens egen timeout.
 * Korrigerar ett fel i 0.9.0 som påverkade implementeringar med at.js på vissa sidor och mbox.js på andra sidor.
-* Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar aktiviteter om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
+* Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar aktiviteter om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna fältet [!UICONTROL Spårningsserver] tomt på sidan [!UICONTROL Mål och inställningar] .
 
 ## at.js Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
