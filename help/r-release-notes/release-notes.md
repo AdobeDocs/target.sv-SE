@@ -5,7 +5,7 @@ title: 'Versionsinformation om Adobe Target (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -43,6 +43,15 @@ Adobe Summit har blivit en virtuell händelse! Adobe tar alla steg framåt med e
 * **Toppvärde i framtiden**: Besök vår speciella gäst Chelsea Handler och se den senaste experimentella tekniken från våra labb - på Adobe Sneaks.
 
 Om du vill registrera dig för kostnadsfri åtkomst till hela det digitala evenemanget går du till [The Digital Experience Conference: Summit](https://www.adobe.com/summit.html) page.
+
+## Target at.js (25 mars 2020)
+
+Följande nya versioner av JavaScript-biblioteken Target at.js är tillgängliga:
+
+* at.js version 2.3.0
+* at.js version 1.8.1
+
+Mer information finns [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)för at.js.
 
 ## Target Standard/Premium 20.2.1 (23 mars 2020)
 
