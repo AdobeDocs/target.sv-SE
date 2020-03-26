@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -46,8 +46,6 @@ Platser är viktiga för aktiviteter och upplevelser. Du avgör om någon plats 
 * Logga besökarbeteende.
 
 I [!DNL Target Standard]kan en plats vara vilket element som helst på en sida, förutsatt att sidan innehåller en enda kodrad som aktiveras [!DNL Target] i `<head>` avsnittet på varje sida som du vill spåra. Den här kodraden anropar de JavaScript-bibliotek som behövs för att samla in information och leverera riktade upplevelser till besökarna.
-
-Se [Fördelarna med at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) för mer information om skillnaderna mellan platsimplementering i [!DNL Target Standard] och mbox-implementering i [!DNL Target Classic].
 
 Platserna kombineras med målgrupperna för att ge ett nästan oändligt antal alternativ för målgruppsinformation till era kunder. Om en besökare aldrig har besökt webbplatsen tidigare kan du visa en rabattkupong för nya kunder. På samma sätt kan sidan ändras så att den visar erbjudanden som är mer optimerade för återkommande kunder.
 
