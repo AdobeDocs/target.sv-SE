@@ -4,16 +4,14 @@ description: Adobe Target kan integreras med dina webbsidor med hjälp av JavaSc
 title: Så här fungerar målinriktning
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # Så här fungerar målinriktning{#how-targeting-works}
 
-Adobe Target kan integreras med dina webbsidor med hjälp av JavaScript-biblioteket at.js eller mbox.js.
-
-[!DNL Target Classic] använda rutor runt varje område på sidan där du vill visa riktat innehåll eller samla in data. Dessa kryssrutor är inte obligatoriska i [!DNL Target Standard]. I stället behöver du bara köra optimeringsaktiviteterna i ett JavaScript-bibliotek på varje sida.
+Adobe Target kan integreras med dina webbsidor med hjälp av JavaScript-biblioteket at.js eller mbox.js. Ett JavaScript-bibliotek som refereras på varje sida är allt du behöver för att köra optimeringsaktiviteterna.
 
 Varje gång en besökare begär en målaktiverad sida [!DNL Target] använder följande process för att leverera erbjudanden:
 
