@@ -5,7 +5,7 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -18,6 +18,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 30 mars | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Ett känt fel som påverkar at.js-versionerna före kl. 2.2.0 har lagts till. Detta orsakade att klickspårning inte rapporterade konverteringar i A4T (Analytics for Target) när Adobe Analytics-koden inte fanns på sidelementen. |
+|  | versionsinformation för at.js | Följande information har lagts till i informationen för at.js version 2.2.0:<ul><li>Korrigerade ett problem som orsakade klickspårning för att inte rapportera konverteringar i A4T (Analytics for Target) när Adobe Analytics-kod inte fanns på sidelement.</li></ul> |
 | 25 mars | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om följande nya versioner av at.js:<ul><li>at.js version 2.3.0</li><li>at.js version 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Följande nya rader har lagts till i avsnittet Inställningar:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Följande nya avsnitt har lagts till:<ul><li>Skyddsprofil för innehåll</li></ul> |
 | 24 mars | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Lagt till information om påverkan för följande:<ul><li>Profilskript baserade på 3rdPartyID</li><li>QA/Preview URLs in iOS devices</li></ul> |
@@ -61,9 +63,9 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 9 januari 2020 | [TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Uppdaterad text.<br>Efter den 1 mars 2020 stöder Adobe Target inte längre TLS 1.1-kryptering för Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), aktivitetsleverans, API:er osv. Uppgradera till TLS 1.2 före 1 mars 2020 för att undvika problem. |
 | 6 januari 2020 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett känt fel har lagts till om status för feed för anpassade villkor. |
 | 19 december 2019 | [Versionsinformation - Mål-Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Lagt till information om version 1.1.0. |
-| 11 december 2019 | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat avsnitt med vanliga frågor och svar. |
+| 12 december 2019 | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat avsnitt med vanliga frågor och svar. |
 |  | [Tolka autofördelningsrapporter](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ändrade namn på ämnet och lade till följande avsnitt: &quot;Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter.&quot; |
-| 12 december 2019 | [Mål och målgrupper Frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nya frågor och svar: &quot;Hur utvärderar Target URL:er när det gäller målinriktning?&quot; |
+| 11 december 2019 | [Mål och målgrupper Frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nya frågor och svar: &quot;Hur utvärderar Target URL:er när det gäller målinriktning?&quot; |
 | 10 december 2019 | [Målgrupper](/help/r-troubleshooting-target/target-limits.md) | Mappningsparameteravsnittet har uppdaterats. |
 |  | [Kriterier](/help/c-recommendations/c-algorithms/algorithms.md) | Meddelande om stöd för funktionen Villkorsanvändning har lagts till. |
 | 5 december 2019 | [Webbplatssidor](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Uppdaterat ämne. |
@@ -394,7 +396,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.4 har lagts till. |
+| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.3 har lagts till. |
 | 10 januari 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Datum då Target fullständigt kommer att fasa ut stödet för TLS 1.0-kryptering: 20 februari 2019. |
 | 9 januari 2019 | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Lagt till information om rekommendationer för att infoga före, infoga efter och ersätta med rader. |
 |  | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (förhandsversion)](/help/r-release-notes/target-release-notes.md)<br>[Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Information om hur Target och Adobe Marketing Cloud upphör att fungera i Microsoft Internet Explorer 11 från och med mars 2019 har lagts till. |
