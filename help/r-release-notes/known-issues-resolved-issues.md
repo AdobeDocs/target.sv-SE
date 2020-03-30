@@ -4,7 +4,7 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända fel och lösta problem i Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -42,17 +42,17 @@ Diagramrapporten för en Auto-Target-aktivitet kan inte återges för&quot;diffe
 
 ### Avbryt inläsning av en sida i VEC {#cancel}
 
-* Följande kända fel uppstår för närvarande när inläsningen av en [!UICONTROL A/B Test] - eller [!UICONTROL Experience Targeting] (XT)-aktivitet i VEC som innehåller en omdirigerings-URL avbryts.
+* Följande kända fel uppstår för närvarande när inläsningen av en [!UICONTROL A/B-test] eller XT-aktivitet ( [!UICONTROL Experience Targeting] ) i VEC avbryts som innehåller en omdirigerings-URL.
 
-   När du avbryter sidinläsningen visas panelen i VEC i steg ett av de guidade arbetsflödena i tre delar och omdirigering till URL-mallen används på upplevelsen (till exempel &quot;Experience B&quot;). [!UICONTROL Modifications] När du går vidare till steg två eller tre och sedan går tillbaka till steg ett, inträffar följande situation.
+   När du avbryter inläsningen av en sida visas panelen [!UICONTROL Ändringar] i VEC-fönstret i steg ett av de guidade arbetsflödena i tre delar och mallen för omdirigering till URL används på upplevelsen (till exempel &quot;Upplevelse B&quot;). När du går vidare till steg två eller tre och sedan går tillbaka till steg ett, inträffar följande situation.
 
-   I&quot;Experience B&quot; återges som standard den avbrutna mallen för webbplatsinläsning och panelen är tillgänglig, vilket inte bör vara fallet eftersom en omdirigering till URL-mallen används. [!UICONTROL Modifications] Omdirigering till URL-mallen ska visas.
+   På&quot;Experience B&quot; återger mallen för webbplatsinläsning som har avbrutits som standard och panelen [!UICONTROL Ändringar] är tillgänglig, vilket inte bör vara fallet eftersom en omdirigering har gjorts till URL-mallen. Omdirigering till URL-mallen ska visas.
 
    Så här visar du det korrekta tillståndet för upplevelsen i VEC:
 
-   Om du byter till en annan upplevelse och sedan växlar tillbaka till&quot;Experience B&quot; [!DNL Target] visas omdirigeringsmallen för URL som används på den här upplevelsen och [!UICONTROL Modifications] panelen är inte tillgänglig. (TGT-32138)
+   Om du byter till en annan upplevelse och sedan växlar tillbaka till&quot;Experience B&quot; [!DNL Target] visas omdirigeringsmallen för URL som används på den här upplevelsen och panelen [!UICONTROL Ändringar] är inte tillgänglig. (TGT-32138)
 
-* Om du avbryter inläsningen av SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder under [!UICONTROL Modifications] panelen.
+* Om du avbryter inläsningen av SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder på panelen [!UICONTROL Modifications] .
 
 ### Stöd för Enterprise Permissions i mål-API:er {#api}
 
@@ -77,6 +77,7 @@ I en MVT-aktivitet är vinnaren som visas i tabellen och diagrammet inte konsekv
 
 Följande är kända problem med at.js:
 
+* Om du använder version at.js före 2.2.0 rapporterar klickspårning inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) av at.js om du får det här problemet.
 * Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-programmet [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) inte fungerar som det ska.
 
    Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet. (TNT-33366)
@@ -91,7 +92,7 @@ Följande är kända problem med at.js:
 
    Problemet gäller endast rekommendationer som använder VEC.
 
-   **Tillfällig lösning**: Inaktivera alternativet [!UICONTROL Filter Incompatible Criteria] i [!UICONTROL Recommendations > Settings]. När du har inaktiverat den här inställningen visas alla villkor (kompatibla och inkompatibla) i sökaren. (TGT-25949)
+   **Tillfällig lösning**: Inaktivera alternativet [!UICONTROL Filtrera inkompatibla villkor] i [!UICONTROL Rekommendationer > Inställningar]. När du har inaktiverat den här inställningen visas alla villkor (kompatibla och inkompatibla) i sökaren. (TGT-25949)
 
 * Mboxes som inte aktiveras i Microsoft Explorer 11-webbläsare efter uppgradering till at.js version 1.0 på grund av interaktionen mellan at.js och Visitor API 2.2.0. Problemet berör at.js version 0.9.6 och senare. (TNT-27600)
 * at.js kanske inte fungerar med Cordova/Hybrid-appar eftersom cookies från första part inte stöds i dem för närvarande. (TNT-26166)
@@ -106,9 +107,9 @@ Biblioteket mbox.js har inte stöd för mallspråk på klientsidan, till exempel
 
 ### Implementering: Automatisk generering av global mbox
 
-På fliken Implementering ([!UICONTROL Setup > Implementation]) är [!UICONTROL Global Mbox Auto Create] fältet&quot;false&quot; som standard för en nyligen etablerad klientorganisation.
+På fliken Implementering ([!UICONTROL Inställningar > Implementering]) är fältet [!UICONTROL Global Mbox Auto Create] (Global Mbox Auto Create) som standard&quot;false&quot; för en nyligen etablerad klientorganisation.
 
-När mbox.js laddas ned för första gången efter etableringen ställs fältet in på &quot;true&quot; i den hämtade mbox.js-filen och i [!UICONTROL Global Mbox Auto Create] backend-filen, men det visas som &quot;false&quot; på [!DNL Target] [!UICONTROL Implementation] sidan i användargränssnittet tills sidan uppdateras (när sidan har uppdaterats blir statusen &quot;true&quot;).
+När mbox.js laddas ned för första gången efter etableringen är fältet [!UICONTROL Global Mbox Auto Create] inställt på &quot;true&quot; i den hämtade filen mbox.js och i [!DNL Target] serverdelen, men det kommer att fortsätta visas som &quot;false&quot; på sidan [!UICONTROL Implementering] i användargränssnittet tills sidan uppdateras (när sidan har uppdaterats blir statusen &quot;true&quot;.)
 
 at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad klientorganisation. Om mbox.js laddas ned först laddas även global\_mbox\_autocreate is set to &quot;true&quot; och at.js ned `global_mbox_autocreate = true`. (TGT-15929)
 
