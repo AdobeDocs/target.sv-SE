@@ -5,7 +5,7 @@ title: Uppgradera från Adobe Target at.js version 1.*x* till at.js version 2.*x
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -246,7 +246,7 @@ Det globala mbox-konceptet introducerades för att ge [!DNL Target] information 
 
 ### Spelar det globala mbox-namnet i at.js längre någon roll?
 
-Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Setup > Implementation > Edit at.js Settings]. Den här inställningen används av [!DNL Target] edge-servrarna för att översätta execute > pageLoad till det globala mbox-namnet som visas i [!DNL Target] gränssnittet. Detta gör att kunderna kan fortsätta att använda serversidans API:er, den formulärbaserade dispositionen, profilskript och skapa målgrupper med hjälp av den globala mbox-namnet. Vi rekommenderar att du även ser till att samma globala mbox-namn är konfigurerat på [!UICONTROL Setup > Preferences] sidan om du fortfarande har sidor som använder at.js 1.*x* eller mbox.js, som på följande bilder.
+Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Setup > Implementation > Edit at.js Settings]. Den här inställningen används av [!DNL Target] edge-servrarna för att översätta execute > pageLoad till det globala mbox-namnet som visas i [!DNL Target] gränssnittet. Detta gör att kunderna kan fortsätta att använda serversidans API:er, den formulärbaserade dispositionen, profilskript och skapa målgrupper med hjälp av den globala mbox-namnet. Vi rekommenderar att du även kontrollerar att samma globala mbox-namn är konfigurerat på sidan [!UICONTROL Inställningar > Inställningar] om du fortfarande har sidor som använder at.js 1.*x* eller mbox.js, som på följande bilder.
 
 ![Dialogrutan Ändra at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -286,7 +286,11 @@ I Target lagras tredjeparts-cookie i `<CLIENTCODE>.tt.omtrdc.net`. Den första p
 
 I at.js 2.*x*, HTTP GET används inte längre och i stället används HTTP POST. HTTP POST används nu via at.js 2.*x* för att skicka JSON-nyttolaster till edge-servrar. Detta innebär att omdirigeringsbegäran för att kontrollera om en webbläsare stöder cookies från tredje part nu avbryts. Detta beror på att HTTP GET-begäranden är idempotenta transaktioner, medan HTTP POST är icke-idempotent och inte får upprepas godtyckligt. Därför kan du spåra korsdomäner i at.js 2.*x* stöds inte längre. Endast i js 1.*x* har färdiga funktioner för domänövergripande spårning.
 
-Om du vill använda domänövergripande spårning måste du installera [ECID-biblioteket v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) i kombination med at.js 2.*x*. ECID-biblioteket finns för att hantera beständiga ID:n som används för att identifiera en besökare även mellan domäner. Efter installation av ECID-biblioteket v4.3.0+ och at.js 2.*x* kan du skapa aktiviteter som spänner över unika domäner samt spåra användare.
+Om du vill använda domänövergripande spårning måste du installera [ECID-biblioteket v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) i kombination med at.js 2.*x*. ECID-biblioteket finns för att hantera beständiga ID:n som används för att identifiera en besökare även mellan domäner.
+
+>[!NOTE]
+>
+>Efter installation av ECID-biblioteket v4.3.0+ och at.js 2.*x* kan du skapa aktiviteter som spänner över unika domäner samt spåra användare. Det är viktigt att komma ihåg att den här funktionen fungerar först när sessionen har upphört.
 
 ### Automatisk generering av global Mbox stöds
 
