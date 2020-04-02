@@ -5,7 +5,7 @@ title: Hur JavaScript-biblioteket Adobe Target at.js fungerar
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -70,7 +70,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | Steg | Beskrivning | Utlysning | Beskrivning |
 |--- |--- |--- |--- |
 | 1 | Samtalet returnerar [!DNL Experience Cloud ID] (MCID) om användaren är autentiserad. ett annat samtal synkroniserar kund-ID:t. | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext. |
-| 3 | En global mbox-begäran görs med alla konfigurerade parametrar, MCID, SDID och kund-ID (valfritt). | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från [!UICONTROL Audience Library] (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Audience Manager]osv.).<br>Kundattribut skickas till [!DNL Profile Store] i en gruppbearbetning. |
+| 3 | En global mbox-begäran görs med alla konfigurerade parametrar, MCID, SDID och kund-ID (valfritt). | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från [!UICONTROL målgruppsbiblioteket] (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Audience Manager]osv.).<br>Kundattribut skickas till [!DNL Profile Store] i en gruppbearbetning. |
 | 5 | Baserat på URL-adressen, mbox-parametrar och profildata bestämmer du vilka aktiviteter och upplevelser som ska returneras till besökaren [!DNL Target] . | 6 | Målinriktat innehåll skickas tillbaka till sidan, och eventuellt även profilvärden för ytterligare personalisering.<br>Upplevelsen visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 7 | [!DNL Analytics] data skickas till datainsamlingsservrar. | 8 | [!DNL Target] data matchas mot [!DNL Analytics] data via SDID och bearbetas till [!DNL Analytics] rapportlagringen.<br>[!DNL Analytics] data kan sedan visas både [!DNL Analytics] och [!DNL Target] via [!DNL Analytics for Target] (A4T)-rapporter. |
 
@@ -91,7 +91,7 @@ Viktigt:
 * at.js ger inga garantier i ordningen för fjärrexekvering av skript eftersom dessa läses in asynkront.
 * Textbundna skript får inte ha några beroenden till fjärrskript eftersom de läses in och körs senare.
 
-## Utbildningsvideo: at.js 2.x Architecture Chart ![Overview badge](/help/assets/overview.png) ![Overview badge](/help/assets/overview.png)
+## Utbildningsvideo: at.js 2.x Architecture Chart ![Overview badge](/help/assets/overview.png)
 
 at.js 2.x förbättrar Adobe Target stöd för SPA och kan integreras med andra Experience Cloud-lösningar. Den här videon förklarar hur allt hänger ihop.
 
