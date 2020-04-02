@@ -5,7 +5,7 @@ title: Implementering av enkelsidigt program i Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -68,7 +68,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    Först måste vi installera på .js 2.x. Den här versionen av at.js utvecklades med SPA i åtanke. Tidigare versioner av at.js och mbox.js har inte stöd för Adobe Target Views och VEC for SPA.
 
-   Hämta på.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Setup > Implementation]. at.js 2.x kan också distribueras via Adobe Launch. Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
+   Ladda ned på .js 2.x via Adobe Target-gränssnittet i [!UICONTROL Konfigurera > Implementering]. at.js 2.x kan också distribueras via Adobe Launch. Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
 
 1. Implementera at.js 2.x&#39;s new function, `triggerView()` på era sajter.
 
@@ -78,7 +78,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    | Parameter | Typ | Obligatoriskt? | Validering | Beskrivning |
    | --- | --- | --- | --- | --- |
-   | viewName | Sträng | Ja | 1. Inga efterföljande blanksteg.<br>2. Kan inte vara tom.<br>3. Visningsnamnet måste vara unikt för alla sidor.<br>4. **Varning**: Vynamnet får inte börja eller sluta med &#39;`/`&#39;. Detta beror på att kunden vanligtvis extraherar visningsnamnet från URL-sökvägen. För oss är&quot;home&quot; och&quot;`/home`&quot; annorlunda.<br>5. **Varning**: Samma vy bör inte aktiveras flera gånger i följd med `{page: true}` alternativet. | Ange valfritt namn som en strängtyp som du vill representera din vy. Det här visningsnamnet visas på VEC-panelen [!UICONTROL Modifications] så att marknadsförare kan skapa åtgärder och köra A/B- och XT-aktiviteter. |
+   | viewName | Sträng | Ja | 1. Inga efterföljande blanksteg.<br>2. Kan inte vara tom.<br>3. Visningsnamnet måste vara unikt för alla sidor.<br>4. **Varning**: Vynamnet får inte börja eller sluta med &#39;`/`&#39;. Detta beror på att kunden vanligtvis extraherar visningsnamnet från URL-sökvägen. För oss är&quot;home&quot; och&quot;`/home`&quot; annorlunda.<br>5. **Varning**: Samma vy bör inte aktiveras flera gånger i följd med `{page: true}` alternativet. | Ange valfritt namn som en strängtyp som du vill representera din vy. Det här visningsnamnet visas på panelen [!UICONTROL Modifieringar] i VEC så att marknadsförare kan skapa åtgärder och köra A/B- och XT-aktiviteter för dem. |
    | alternativ | Objekt | Nej |  |  |
    | alternativ > sida | Boolean | Nej |  | **TRUE**: Standardvärdet för sidan är true. När `page=true`det är klart skickas meddelanden till edge-servrarna för att öka antalet intryckta.<br>**FALSE **: När`page=false`visas inga meddelanden för ökat antal inläsningar. Detta bör användas när du endast vill återge en komponent på en sida med ett erbjudande. |
 
@@ -274,15 +274,15 @@ Om ovanstående steg följs bör du ha en robust A4T-lösning för SPA.
 
 Följande videofilmer innehåller mer information:
 
-### Så här fungerar at.js 2.x
+### Om hur at.js 2.x fungerar ![ikonen Översikt](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) Märket ![Översikt](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .
 
-### Implementera at.js 2.x i en SPA
+### Implementera at.js 2.x med ett SPA- ![självstudiemärke](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) badge ![för självstudiekurs](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
 Mer information finns i [Implementera Adobe Target&#39;s at.js 2.x i ett Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
 
