@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
 
 ---
 
@@ -35,10 +35,10 @@ Information som hjälper dig att ange flera inställningar på sidan med at.js-i
 >
 >Du kan åsidosätta inställningarna i at.js-biblioteket i stället för att konfigurera inställningarna i gränssnittet för Target Standard/Premium eller genom att använda REST API:er. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-Så här öppnar du [!UICONTROL Settings] sidan:
+Så här öppnar du [!UICONTROL sidan Inställningar] :
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
-1. Välj **[!UICONTROL at.js]** > **[!UICONTROL Edit at.js Settings]**.
+1. Klicka på **[!UICONTROL Inställningar]** > **[!UICONTROL Implementering]**.
+1. Välj **[!UICONTROL at.js]** > **[!UICONTROL Redigera at.js-inställningar]**.
 
 ## Inställningar för innehållsleverans {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -89,9 +89,9 @@ ov2/c_target-configure-atjs.xml
 
 Så här hämtar du [!DNL at.js] från [!DNL Target] gränssnittet:
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
+1. Klicka på **[!UICONTROL Inställningar]** > **[!UICONTROL Implementering]**.
 1. Välj **[!UICONTROL at.js]**.
-1. Klicka på **[!UICONTROL Download at.js]**.
+1. Klicka på **[!UICONTROL Hämta på.js]**.
 
 ## Hämta at.js med Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
@@ -99,7 +99,7 @@ Hämta [!DNL at.js] med API:t.
 
 1. Hämta din klientkod.
 
-   Klientkoden finns längst upp på sidan **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** i [!DNL Target] gränssnittet.
+   Klientkoden finns högst upp på sidan **[!UICONTROL Inställningar]** > **[!UICONTROL Implementering]** > **[!UICONTROL Redigera at.js-inställningar]** i [!DNL Target] gränssnittet.
 
 1. Hämta ditt administratörsnummer.
 
@@ -126,7 +126,7 @@ Hämta [!DNL at.js] med API:t.
    Läs in den här URL:en med följande struktur:
 
    ```
-   https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
+   https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
    * Ersätt `admin number` med ditt administratörsnummer.
@@ -202,9 +202,9 @@ En typisk implementering av Target som inte använder en tagghanterare som [Adob
 Tänk på följande viktiga punkter:
 
 * HTML5-dokumenttypen (t.ex. `<!doctype html>`) bör användas. Dokumenttyper som inte stöds eller äldre kan göra att Target inte kan göra en begäran.
-* Föranslutning och Förhämtning är alternativ som kan hjälpa webbsidorna att läsas in snabbare. Om du använder dessa konfigurationer måste du ersätta `<client code>` med din egen klientkod, som du kan få från **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** .
+* Föranslutning och Förhämtning är alternativ som kan hjälpa webbsidorna att läsas in snabbare. Om du använder dessa konfigurationer måste du ersätta `<client code>` med din egen klientkod, som du kan få på sidan **[!UICONTROL Inställningar]** > **[!UICONTROL Implementering]** > **[!UICONTROL Redigera at.js-inställningar]** .
 * Om du har ett datalager är det optimalt att definiera så mycket som möjligt av det på `<head>` sidorna innan at.js läses in. Den här placeringen ger maximal möjlighet att utnyttja informationen i Target för personalisering.
-* Särskilda Target-funktioner, till exempel `targetPageParams()`, `targetPageParamsAll()`Data Providers, och `targetGlobalSettings()` ska definieras efter datalagret och innan at.js läses in. De kan också sparas i avsnittet på [!UICONTROL Library Header] sidan och sparas som en del av [!UICONTROL Edit at.js Settings] at.js-biblioteket. Mer information om de här funktionerna finns i [funktionerna](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)at.js.
+* Särskilda Target-funktioner, till exempel `targetPageParams()`, `targetPageParamsAll()`Data Providers, och `targetGlobalSettings()` ska definieras efter datalagret och innan at.js läses in. De kan också sparas i delen [!UICONTROL Library Header] på sidan [!UICONTROL Edit at.js Settings] och sparas som en del av biblioteket at.js. Mer information om de här funktionerna finns i [funktionerna](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)at.js.
 * Om du använder hjälpbibliotek för JavaScript, till exempel jQuery, kan du inkludera dem före Target så att du kan utnyttja deras syntax och metoder när du skapar Target-upplevelser.
 * Inkludera at.js på `<head>` sidorna.
 
