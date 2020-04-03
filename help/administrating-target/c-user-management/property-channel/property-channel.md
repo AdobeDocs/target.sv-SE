@@ -5,7 +5,7 @@ title: Enterprise-användarbehörigheter
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -22,15 +22,15 @@ Enterprise-användarbehörigheter är ett sätt att formellt administrera föret
 >
 >Target-implementeringen kan använda vilken version som helst av at.js eller mbox.js.
 
-Du kan se om din organisation har en Standard- eller Premium-licens genom att klicka på [!UICONTROL Setup] länken överst i [!DNL Target] användargränssnittet.
+Du kan se om din organisation har en Standard- eller Premium-licens genom att klicka på länken [!UICONTROL Inställningar] överst i [!DNL Target] användargränssnittet.
 
-* **[!DNL Target Standard]Kunder **: Om du ser[!UICONTROL Users]fliken ([!UICONTROL Setup > Users]) har din organisation en[!DNL Target Standard]licens.[!DNL Target Standard]-användare ska följa instruktionerna i[Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md)för att lägga till användare och tilldela behörigheter i Adobe Admin Console.
+* **[!DNL Target Standard]Kunder **: Om du ser fliken[!UICONTROL Användare]([!UICONTROL Inställningar > Användare]) har din organisation en[!DNL Target Standard]licens.[!DNL Target Standard]-användare ska följa instruktionerna i[Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md)för att lägga till användare och tilldela behörigheter i Adobe Admin Console.
 
-   [!DNL Target Standard] visas följande felmeddelande när användaren klickar på [!UICONTROL Properties] fliken. Det är inget fel med [!DNL Target]. [!DNL Target Standard] -användare inte har tillgång till [!DNL Target Premium][!UICONTROL Enterprise Permissions] funktionen.
+   [!DNL Target Standard] visas följande felmeddelande när du klickar på fliken [!UICONTROL Egenskaper] . Det är inget fel med [!DNL Target]. [!DNL Target Standard] -användare inte har tillgång till [!DNL Target Premium] Enterprise Permissions  -funktionen.
 
    ![Felmeddelande](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **[!DNL Target Premium]Kunder **: Om du ser[!UICONTROL Properties]fliken ([!UICONTROL Setup > Properties]) har din organisation en[!DNL Target Premium]licens.[!DNL Target Premium]ska kunderna följa instruktionerna i den här artikeln och i[Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Kunder **: Om du ser fliken[!UICONTROL Egenskaper]([!UICONTROL Inställningar > Egenskaper]) har din organisation en[!DNL Target Premium]licens.[!DNL Target Premium]ska kunderna följa instruktionerna i den här artikeln och i[Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Innan du kommer igång med företagsbehörigheter
 
@@ -99,15 +99,15 @@ När du skapar en ny aktivitet skapas den i den markerade arbetsytan. Du kommer 
 
 ## Behörighetsöversikt {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-I följande information förklaras hur behörigheter tillämpades tidigare i [!DNL Target] och hur de tillämpades med [!UICONTROL Properties] funktionerna och [!UICONTROL Permissions] .
+Följande information förklarar hur behörigheter tillämpades tidigare i [!DNL Target] och hur de tillämpas med funktionerna [!UICONTROL Egenskaper] och [!UICONTROL Behörigheter] .
 
-Med den nya [!UICONTROL Permissions] funktionen kan du skapa olika projekt (så kallade&quot;produktprofiler&quot; i [!DNL Adobe Admin Console for Enterprise]) så att du kan tilldela olika behörigheter till en enskild användare som bestämmer den användarens åtkomstbehörighet för varje projekt. Dessa distinkta projekt kan jämföras med hur rapportsviterna fungerar i [!DNL Adobe Analytics]. Varje projekt kan ha specifika användare med specifika roller som gäller för en uppsättning egenskaper. Resultatet är att kunderna kan begränsa åtkomst till vy, redigering och godkännande för sina användare baserat på region, miljö (dev/stage/prod), kanal eller andra anpassade kriterier, vilket visas nedan:
+Med de nya funktionerna [!UICONTROL Behörigheter] kan du skapa olika projekt (så kallade&quot;produktprofiler&quot; i [!DNL Adobe Admin Console for Enterprise]) så att du kan tilldela olika behörigheter till en enskild användare som bestämmer den användarens åtkomstbehörighet för varje projekt. Dessa distinkta projekt kan jämföras med hur rapportsviterna fungerar i [!DNL Adobe Analytics]. Varje projekt kan ha specifika användare med specifika roller som gäller för en uppsättning egenskaper. Resultatet är att kunderna kan begränsa åtkomst till vy, redigering och godkännande för sina användare baserat på region, miljö (dev/stage/prod), kanal eller andra anpassade kriterier, vilket visas nedan:
 
 ![](assets/permissions.png)
 
 En viss användare kan till exempel ha åtkomst till&quot;godkännande&quot; på amerikanska webbplatser, men bara visa åtkomst på den europeiska mobilappen. Samma användare kanske inte har tillgång till ens de aktiviteter som erbjuds på webb- och mobilsajter i APAC-regionen.
 
-Den aktuella [!DNL Target] [!UICONTROL Permissions] modellen har tre behörighetsroller (observatör, redigerare och godkännare), vilket visas på följande bild:
+Den aktuella [!DNL Target][!UICONTROL behörighetsmodellen] har tre behörighetsroller (observatör, redigerare och godkännare), vilket visas på följande bild:
 
 ![](assets/permissions_1.png)
 
@@ -123,7 +123,7 @@ Observera att varje användares roll gäller för alla sidor, egenskaper och web
 
 ![](assets/permissions_2.png)
 
-Den nya [!DNL Target][!UICONTROL Permissions] modellen har samma tre behörighetsroller (observatör, redigerare och godkännare). Du kan dock tilldela en användares behörigheter roller separat för enskilda sidor, egenskaper eller platser, vilket visas nedan:
+Den nya [!DNL Target][!UICONTROL behörighetsmodellen] har samma tre behörighetsroller (observatör, redigerare och godkännare). Du kan dock tilldela en användares behörigheter roller separat för enskilda sidor, egenskaper eller platser, vilket visas nedan:
 
 ![](assets/permissions_3.png)
 
@@ -186,7 +186,7 @@ Efter en omorganisering, med hjälp av personerna i illustrationerna ovan, kan d
 
 Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target] användargränssnittet.
 
-* **Listruta för arbetsyta (produktprofil):** Den nedrullningsbara listan Arbetsyta visas högst upp på sidorna [!UICONTROL Activities], [!UICONTROL Audiences]och [!UICONTROL Offers] . Välj önskad arbetsyta för att filtrera listan så att endast objekt i den markerade arbetsytan visas.
+* **Listruta för arbetsyta (produktprofil):** Listrutan Arbetsyta visas högst upp på sidorna [!UICONTROL Verksamheter], [!UICONTROL Publiker]och [!UICONTROL Erbjudanden] . Välj önskad arbetsyta för att filtrera listan så att endast objekt i den markerade arbetsytan visas.
 
    ![](assets/workspace_drop-down.png)
 
@@ -196,7 +196,7 @@ Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target] anvä
 
 * **Målgrupper:** När du skapar en ny målgrupp skapas den i den markerade arbetsytan.
 * **Skapa erbjudande:** När du skapar ett nytt erbjudande skapas det i den valda arbetsytan.
-* **Sidan Egenskaper (Inställningar > Egenskaper):** Du kan använda [!UICONTROL Search] rutan, [!UICONTROL Channel]och [!UICONTROL Product Profile] alternativen för att filtrera [!UICONTROL Property] listan.
+* **Sidan Egenskaper (Inställningar > Egenskaper):** Du kan använda [!UICONTROL sökrutan] , alternativen [!UICONTROL Kanal]och [!UICONTROL Produktprofil] för att filtrera [!UICONTROL egenskapslistan] .
 
    ![](assets/properties_list.png)
 
@@ -272,7 +272,7 @@ När en besökare öppnar Page1 i en webbläsare omdirigeras han eller hon till 
 
 Om omdirigeringssidan och aktivitets-URL:en tillhör samma egenskap fungerar klickningsspåren som förväntat. Mer information finns i [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Utbildningsvideo: Märk {#section_2FA080303A064242B63FF16CFA6DB31D} över ![videoöversikt för företagsbehörigheter](/help/assets/overview.png)
+## Utbildningsvideo: Märk ![över utbildningsvideon Enterprise Permissions Overview](/help/assets/overview.png)
 
 Utbildningsmål:
 
