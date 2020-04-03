@@ -28,7 +28,7 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | user.daysSinceLastVisit |  |
 | user.browser | Användaragenten |
 | user.header | Alla `user.header` profiler är inbyggda från rubrikdata för Mbox-begäran |
-| user.header(&#39;x-Cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forward-for&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>OBS! Huvudet user.header(&#39;x-Cluster-client-ip&#39;) fungerar inte i nyare AWS-kanter.<br>Du kan få detta på flera sätt, till exempel [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172. |
+| user.header(&#39;x-Cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forward-for&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>Du kan få detta på flera sätt, till exempel [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172.<br>OBS! Den här rubriken fungerar inte i nyare AWS-kanter. Använd `user.header('x-forwarded-for')` istället. |
 | user.header(&#39;host&#39;) | Värdnamn för webbplats |
 | user.header(&#39;cookie&#39;) | Data för besöks-cookie |
 | user.header(&#39;user-agent&#39;) | Användaragent för besökare |
