@@ -5,7 +5,7 @@ title: Profil och variabel ordlista
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -18,17 +18,17 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 
 | Profil | Anteckningar |
 |--- |--- |
-| user.<br>activeActivitiesuser.activeCampaigns | Returnera kampanj-ID:t för alla kampanjer/aktiviteter som användaren befinner sig i, även om han eller hon inte har interagerat med kampanjen/aktiviteten i den aktuella sessionen. |
+| user.activeActivities<br>user.activeCampaigns | Returnera kampanj-ID:t för alla kampanjer/aktiviteter som användaren befinner sig i, även om han eller hon inte har interagerat med kampanjen/aktiviteten i den aktuella sessionen. |
 | user.pcId |  |
 | user.sessionId |  |
 | user.categoryAffinity |  |
-| user.categoryAffinties | Returnera en array med tillhörigheter som en besökare har fyllt i |
+| user.categoryAffinities | Returnera en array med tillhörigheter som en besökare har fyllt i |
 | user.isFirstSession |  |
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | Användaragenten |
 | user.header | Alla `user.header` profiler är inbyggda från rubrikdata för Mbox-begäran |
-| user.header(&#39;x-Cluster-client-ip&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>Du kan få detta på flera sätt, till exempel [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172. |
+| user.header(&#39;x-Cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forward-for&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>OBS! Huvudet user.header(&#39;x-Cluster-client-ip&#39;) fungerar inte i nyare AWS-kanter.<br>Du kan få detta på flera sätt, till exempel [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172. |
 | user.header(&#39;host&#39;) | Värdnamn för webbplats |
 | user.header(&#39;cookie&#39;) | Data för besöks-cookie |
 | user.header(&#39;user-agent&#39;) | Användaragent för besökare |
@@ -45,7 +45,7 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Mbox-parametrar som görs beständiga på grund av deras profil.  prefix. |
 | profile.browserTime | Besökarens lokala webbläsartid. Skapa ett nytt datumobjekt i profilskriptet för systemtid |
-| profile.AverageDaysBetweenVisits |  |
+| profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
 | parameter= | Allmän term för ytterligare värden som skickas med en mbox, vanligtvis som namn/värde-par. Inte beständig såvida den inte har gjorts med `profile.parameter` eller `user.parameter`. |
 
