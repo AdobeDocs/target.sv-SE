@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Produktdokumentation för Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -15,10 +15,6 @@ source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 [!DNL Adobe Target] är den [!DNL Adobe Experience Cloud] lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 
 **Senast uppdaterad: 2 april 2020 ([Se vad som ändrats](r-release-notes/doc-change.md))**
-
->[!IMPORTANT]
->
->Adobe Summit har blivit en virtuell händelse! Adobe gör allt för att lyckas med en digital upplevelse! Den här liveupplevelsen kommer att innehålla vår huvudadress för Keynote, mini-keynotes med de senaste trenderna och framstegen, insikter om branschledarnas framgångar och sessioner. Om du vill registrera dig för kostnadsfri åtkomst till hela det digitala evenemanget går du till [The Digital Experience Conference: Summit](https://www.adobe.com/summit.html) page.
 
 Följande avsnitt pekar på användbara länkar i den här guiden, ordnade efter målgrupp baserat på typiska jobbfunktioner:
 
