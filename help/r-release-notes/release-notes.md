@@ -5,7 +5,7 @@ title: 'Versionsinformation om Adobe Target (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -33,16 +33,6 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
    >
 * Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
-
-## Summit Live: Digital Experience Conference {#summit}
-
-Adobe Summit har blivit en virtuell händelse! Adobe tar alla steg framåt med en livebaserad digital upplevelse från och med 31 mars 2020. Den här liveupplevelsen kommer att innehålla vår huvudadress för Keynote, mini-keynotes med de senaste trenderna och framstegen, insikter om branschledarnas framgångar och sessioner.
-
-* **Se inledningsanförandet live**: Lyssna på trender och nya produkter som förändrar branschen från bekvämligheten var du än är.
-* **Upptäck fler än 100 nyheter vid behov:** Få kostnadsfri tillgång till över hundra on demand-seminarier från Adobe, kunder och partners.
-* **Toppvärde i framtiden**: Besök vår speciella gäst Chelsea Handler och se den senaste experimentella tekniken från våra labb - på Adobe Sneaks.
-
-Om du vill registrera dig för kostnadsfri åtkomst till hela det digitala evenemanget går du till [The Digital Experience Conference: Summit](https://www.adobe.com/summit.html) page.
 
 ## Target at.js (25 mars 2020)
 
