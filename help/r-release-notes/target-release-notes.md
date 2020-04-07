@@ -5,32 +5,22 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 ---
 
 
 # Versionsinformation för mål (prerelease){#target-release-notes-prerelease}
 
-Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för de senaste eller kommande [!DNL Adobe Target] versionerna.
+Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
 **Senast uppdaterad: 25 mars 2020**
 
+Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
+
 >[!NOTE]
 >
->* Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande. Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på de här sidorna kan vara densamma, eller så kan den variera beroende på när releaserna släpps.
-   >
-   >
-* Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
-   >
-   >
-* **Ändringar** i TLS-stödet: Från och med 1 mars 2020 kommer Target att inaktivera stödet för kryptering med TLS 1.1 och TLS 1.0. TLS (Transport Layer Security) är det vanligaste säkerhetsprotokoll som används idag för webbläsare och andra program som kräver att data utbyts på ett säkert sätt över ett nätverk. Den här ändringen krävs för att uppfylla den allmänt accepterade standarden för säkerhetsefterlevnad i TLS 1.2 eller senare. Kontrollera vilken TLS-version du använder just nu. Om versionen är lägre än 1.2 implementerar du ändringarna före 1 mars 2020 för att fortsätta använda Target som förväntat.
-   >
-   >   
-   Detaljerad information om möjliga konsekvenser och vilka åtgärder du kan behöva vidta för att uppdatera implementeringen finns i [TLS-krypteringsändringar](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)(Transport Layer Security).
-   >
-   >
-* **borttagning** av mbox.js: 30 augusti 2020 kommer Adobe Target inte längre att ha stöd för mbox.js-biblioteket. Efter 30 augusti 2020 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där Target-aktiviteter körs. Vi rekommenderar att alla kunder migrerar till den senaste versionen av at.js-biblioteket före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>* **borttagning** av mbox.js: 30 augusti 2020 kommer Adobe Target inte längre att ha stöd för mbox.js-biblioteket. Efter 30 augusti 2020 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där Target-aktiviteter körs. Vi rekommenderar att alla kunder migrerar till den senaste versionen av at.js-biblioteket före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
    >
    >   
    Även om mbox.js stöds för närvarande har vi inte tillhandahållit några funktionsuppdateringar för det här biblioteket sedan juli 2017. Den nyare at.js har många fördelar jämfört med mbox.js. Bland annat har at.js förbättrat sidinläsningstiderna för webbimplementeringar, förbättrat säkerheten och erbjuder bättre implementeringsalternativ för enkelsidiga program.
