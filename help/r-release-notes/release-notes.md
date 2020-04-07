@@ -5,7 +5,7 @@ title: 'Versionsinformation om Adobe Target (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
+source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 ---
 
@@ -16,23 +16,16 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 >[!NOTE]
 >
->* **Ändringar** i TLS-stödet: Från och med 1 mars 2020 kommer Target att inaktivera stödet för kryptering med TLS 1.1 och TLS 1.0. TLS (Transport Layer Security) är det vanligaste säkerhetsprotokoll som används idag för webbläsare och andra program som kräver att data utbyts på ett säkert sätt över ett nätverk. Den här ändringen krävs för att uppfylla den allmänt accepterade standarden för säkerhetsefterlevnad i TLS 1.2 eller senare. Kontrollera vilken TLS-version du använder just nu. Om versionen är lägre än 1.2 implementerar du ändringarna före 1 mars 2020 för att fortsätta använda Target som förväntat.
-   >
-   >   
-   Detaljerad information om möjliga konsekvenser och vilka åtgärder du kan behöva vidta för att uppdatera implementeringen finns i [TLS-krypteringsändringar](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)(Transport Layer Security).
-   >
-   >
-* **borttagning** av mbox.js: 30 augusti 2020 kommer Adobe Target inte längre att ha stöd för mbox.js-biblioteket. Efter 30 augusti 2020 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där Target-aktiviteter körs. Vi rekommenderar att alla kunder migrerar till den senaste versionen av at.js-biblioteket före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>* **borttagning** av mbox.js: 30 augusti 2020 kommer Adobe Target inte längre att ha stöd för mbox.js-biblioteket. Efter 30 augusti 2020 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där Target-aktiviteter körs. Vi rekommenderar att alla kunder migrerar till den senaste versionen av at.js-biblioteket före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
    >
    >   
    Även om mbox.js stöds för närvarande har vi inte tillhandahållit några funktionsuppdateringar för det här biblioteket sedan juli 2017. Den nyare at.js har många fördelar jämfört med mbox.js. Bland annat har at.js förbättrat sidinläsningstiderna för webbimplementeringar, förbättrat säkerheten och erbjuder bättre implementeringsalternativ för enkelsidiga program.
    >
    >   
    Genom att flytta alla kunder till at.js kan våra ingenjörer och supporttekniker ge dig nya funktioner och erbjuda den support du förväntar dig av Adobe.
-   >
-   >
-* Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
+
+Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
 ## Target at.js (25 mars 2020)
 
