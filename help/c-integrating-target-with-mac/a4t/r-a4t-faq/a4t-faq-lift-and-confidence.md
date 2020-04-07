@@ -5,7 +5,7 @@ title: Lyft och tillförsikt - A4T FAQ
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: b5191230c76135d5299754e72c9651d018086e60
 
 ---
 
@@ -28,7 +28,13 @@ Konfidensnivån är sannolikheten för att den uppmätta konverteringsgraden ski
 
 ## Varför kan jag inte se lyft och självförtroende för beräknade mätvärden? {#section_D3E44E24782A409DBD88AE4D1595CB58}
 
-Lyft och förtroende kan för närvarande inte genereras för beräknade värden. I de flesta fall bör detta dock inte vara något problem eftersom lyften normaliseras genom normaliseringsmåttet. Om du t.ex. väljer ökning för order och normaliseringsmåttet är besök, beräknas ökningen utifrån förhållandet mellan de två, vilket är konverteringsgraden.
+Lyft och förtroende stöds för närvarande inte med beräknade värden. I de flesta fall bör detta emellertid inte vara något problem eftersom den konverteringsgrad som beräknas i A4T-rapporten redan är ett beräknat mått där nämnaren är det normaliserande måttet (instanser, besök, besökare). Om du till exempel väljer ordermåttet och normaliseringsmåttet är besökare, beräknas konverteringsgraden (order/besökare) automatiskt genom A4T-rapportering. Det resulterande lyftmåttet visar skillnaden i konverteringsgraden mellan textupplevelserna jämfört med standardvärdet.
+
+De flesta beräknade mätvärden för optimering kan delas in i en av två kategorier: aggregerade mätvärden och andra konverteringsberäkningar, som Average Order Value (AOV).
+
+Sammanställningsvärden används när en organisation använder unika händelser för att fånga upp olika&quot;smak&quot; i den sparade konverteringen. Om du till exempel har som mål att befordra inskickade formulär för lead och har 10 olika formulär för lead, kan ett företag skapa unika händelser för att räkna varje typ av formulärkonvertering. För att se den totala kvantiteten av alla formulär som skickats in för lead måste de skapa ett enkelt beräknat mått för att lägga ihop alla. Ett bättre och modernare sätt att spåra detta är att implementera en enda lead-inlämningshändelse i Analytics och sedan använda en eVar för att samla in typen av lead-formulär. Om du använder den här metoden krävs färre variabler och det elimineras behovet av att samla in enskilda värden, och du har fortfarande möjlighet att se en helhetsbild för konvertering av lead-formulär och dela upp dem efter typ av lead-formulär med eVar. Detta eliminerar också behovet av aggregerade mätvärden vid utvärdering av prestandan för en Target-aktivitet.
+
+Ett annat vanligt beräknat mätvärde, Average Order Value, stöds för närvarande inte med lyft och självförtroende eftersom det normaliserade måttet inte är standard (instanser, besök, besökare). Rekommendationen är i stället att hålla ett öga på de två påverkande mätvärdena för AOV, Intäkter per besökare och konverteringsgrad.
 
 ## Hur hanterar A4T tillförlitlighetsberäkningar? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
