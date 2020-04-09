@@ -5,7 +5,7 @@ title: Gränser
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -98,12 +98,6 @@ För GET-begäranden gäller att den realistiska gränsen för backend är 5 kB,
 **Gräns**: 256 tecken.
 
 Värden som är längre än detta trunkeras.
-
-## Inkorgsprofiler i en mbox-begäran
-
-**Gräns**: 50 profiler.
-
-Alla profiler efter 50 ignoreras.
 
 ## Profilnamn i mbox
 
