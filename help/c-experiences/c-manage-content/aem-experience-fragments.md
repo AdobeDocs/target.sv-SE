@@ -5,7 +5,7 @@ title: Adobe Experience Manager (AEM) Experience fragment i Adobe Target
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: f243e0a74d5f4d91e399e1e64a0e0aa545517ee8
 
 ---
 
@@ -16,13 +16,13 @@ Information om hur du använder upplevelsefragment som skapats i [!DNL Adobe Exp
 
 >[!NOTE]
 >
->Den här funktionen kräver att du är en [!DNL Adobe Experience Manager] AEM-kund. Mer information finns i [Krav](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)nedan.
+>Den här funktionen kräver att du är en [!DNL Adobe Experience Manager] ([!DNL AEM]) kund. Mer information finns i [Krav](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)nedan.
 
 ## Översikt {#section_95A91830530F493B81C5C9CDB9B783EA}
 
-Genom att använda upplevelsefragment som skapats i AEM i [!DNL Target] -aktiviteter kan ni kombinera enkelheten och kraften i AEM med kraftfulla funktioner för automatiserad intelligens (AI) och maskininlärning (ML) i [!DNL Target] att testa och personalisera upplevelser i stor skala.
+Genom att använda upplevelsefragment som skapats i [!DNL AEM] aktiviteter kan ni kombinera användarvänligheten och kraften i [!DNL Target] med kraftfulla funktioner för automatiserad intelligens (AI) och maskininlärning (ML) i [!DNL AEM] [!DNL Target] att testa och personalisera upplevelser i stor skala.
 
-AEM samlar allt innehåll och alla resurser på en central plats för att understödja er personaliseringsstrategi. Med AEM kan ni enkelt skapa innehåll för datorer, surfplattor och mobila enheter på ett och samma ställe utan att skriva kod. Du behöver inte skapa sidor för alla enheter. AEM justerar automatiskt varje upplevelse med ditt innehåll.
+[!DNL AEM] sammanför allt innehåll och alla resurser på en central plats för att understödja er personaliseringsstrategi. [!DNL AEM] gör att du enkelt kan skapa innehåll för datorer, surfplattor och mobila enheter på en plats utan att skriva kod. Du behöver inte skapa sidor för alla enheter. [!DNL AEM] anpassar automatiskt varje upplevelse med ditt innehåll.
 
 [!DNL Target] Med kan ni leverera personaliserade upplevelser i stor skala baserat på en kombination av regelbaserade och AI-drivna maskininlärningsstrategier som innehåller beteendevariabler, sammanhangsbaserade variabler och offlinevariabler. Med [!DNL Target] er kan ni enkelt konfigurera och köra [A/B-tester](/help/c-activities/t-test-ab/test-ab.md) och [multivariata](/help/c-activities/c-multivariate-testing/multivariate-testing.md) -aktiviteter (MVT) för att fastställa de bästa erbjudandena, innehållet och upplevelserna.
 
@@ -30,55 +30,55 @@ Experience fragments utgör ett stort steg framåt för att länka samman inneh�
 
 ## Krav {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-Du måste ha tillgång till upplevelsefragmentfunktionerna i [!DNTarget]. Dessutom måste du använda AEM 6.3 med lämpligt Service Pack eller AEM 6.4 (eller senare). Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
+Du måste ha tillgång till upplevelsefragmentfunktionerna i [!DNTarget]. Dessutom måste du använda [!DNL AEM] 6.3 med lämpligt Service Pack eller [!DNL AEM] 6.4 (eller senare). Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
 
-* Adobe Experience Manager 6.4 (eller senare).
-* Adobe Experience Manager 6.3 SP2 (eller senare).
-* Adobe Target Standard- eller Adobe Target Premium-konto.
+* [!DNL Adobe Experience Manager] 6.4 (eller senare).
+* [!DNL Adobe Experience Manager] 6.3 SP2 (eller senare).
+* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] konto.
 * Kontakta kundtjänst [för](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Adobe Target om du vill aktivera integreringen och få autentiseringsinformation.
 
-## Skapa och konfigurera Experience Fragments i AEM {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
+## Skapa och konfigurera upplevelsefragment i [!DNL AEM]{#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-För att kunna använda AEM Experience fragments i [!DNL Target]måste du utföra följande steg:
+För att kunna använda [!DNL AEM] upplevelsefragment i [!DNL Target]måste du utföra följande steg:
 
-### Steg 1: Integrera AEM med Target
+### Steg 1: Integrera [!DNL AEM] med [!DNL Target]
 
 Mer information finns i:
 
-* **AEM 6.3**: Välj [Adobe Analytics och Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) i _Adobe Experience Manager 6.3_ -dokumentationen.
-* **AEM 6.4**: Välj [Adobe Analytics och Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) i _Adobe Experience Manager 6.4_ -dokumentationen.
-* **AEM 6.5**: Välj [Adobe Analytics och Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) i *Adobe Experience Manager 6.5* -dokumentationen.
+* **[!DNL AEM]6.3 **: Välj[Adobe Analytics och Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)i_Adobe Experience Manager 6.3 _-dokumentationen.
+* **[!DNL AEM]6.4 **: Välj[Adobe Analytics och Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)i_Adobe Experience Manager 6.4 _-dokumentationen.
+* **[!DNL AEM]6.5 **: Välj[Adobe Analytics och Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)i *Adobe Experience Manager 6.5*-dokumentationen.
 
 ### Steg 2: Skapa upplevelsefragmentet
 
-Upplevelsefragment skapas i AEM. Mer information finns i:
+Upplevelsefragment skapas i [!DNL AEM]. Mer information finns i:
 
-* **AEM 6.3**: [Experience Fragments](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) i *Adobe Experience Manager 6.3* -dokumentationen.
-* **AEM 6.4**: [Experience Fragments](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in the *Adobe Experience Manager 6.4* documentation.
-* **AEM 6.5**: [Experience Fragments](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) i *Adobe Experience Manager 6.5* -dokumentationen.
+* **[!DNL AEM]6.3 **:[Experience Fragments](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)i *Adobe Experience Manager 6.3*-dokumentationen.
+* **[!DNL AEM]6.4 **:[Experience Fragments](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)in the *Adobe Experience Manager 6.4*documentation.
+* **[!DNL AEM]6.5 **:[Experience Fragments](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)i *Adobe Experience Manager 6.5*-dokumentationen.
 
-### Steg 3: Konfigurera AEM för att dela upplevelsefragmentet med Target
+### Steg 3: Konfigurera [!DNL AEM] att dela upplevelsefragmentet med [!DNL Target]
 
-1. I AEM väljer du önskat upplevelsefragment eller tillhörande mapp och klickar sedan på **[!UICONTROL Properties]**.
-2. Klicka på **[!UICONTROL Cloud Services]** fliken och välj sedan i **[!UICONTROL Cloud Service Configuration]** listrutan **[!UICONTROL Adobe Target]**.
+1. I [!DNL AEM]markerar du det önskade upplevelsefragmentet eller den mapp som innehåller det och klickar sedan på **[!UICONTROL Egenskaper]**.
+2. Klicka på fliken **[!UICONTROL Cloud Services]** och välj sedan **[!UICONTROL Adobe Target]** i listrutan **[!UICONTROL Cloud Service Configuration]**.
 
    >[!NOTE]
    >
    >I föregående steg förutsätts att någon i organisationen har skapat [!DNL Adobe Target] konfigurationen.
 
-3. Klicka på **[!UICONTROL Save & Close]**.
+3. Klicka på **[!UICONTROL Spara och stäng]**.
 
-### Steg 4: Publicera upplevelsefragmentet och exportera det till Target
+### Steg 4: Publicera upplevelsefragmentet och exportera det till [!DNL Target]
 
-Beroende på din AEM-version finns följande länkar för stegvisa instruktioner:
+Beroende på vilken version du har kan du läsa följande länkar för steg-för-steg-instruktioner: [!DNL AEM]
 
-* **AEM 6.3**: Exportera [ett Experience Fragment till Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) i *Adobe Experience Manager 6.3* -dokumentationen.
-* **AEM 6.4**: Exportera [ett Experience Fragment till Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) i *Adobe Experience Manager 6.4* -dokumentationen.
-* **AEM 6.5**: Exportera [ett Experience Fragment till Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) i *Adobe Experience Manager 6.5* -dokumentationen.
+* **[!DNL AEM]6.3 **: Exportera[ett Experience Fragment till Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)i *Adobe Experience Manager 6.3*-dokumentationen.
+* **[!DNL AEM]6.4 **: Exportera[ett Experience Fragment till Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)i *Adobe Experience Manager 6.4*-dokumentationen.
+* **[!DNL AEM]6.5 **: Exportera[ett Experience Fragment till Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)i *Adobe Experience Manager 6.5*-dokumentationen.
 
-## Använda upplevelsefragment i målaktiviteter {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Använda upplevelsefragment i DNL Target-aktiviteter {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
-När du har utfört de föregående åtgärderna visas upplevelsefragmentet på [!UICONTROL Offers] sidan i Target.
+När du har utfört de föregående åtgärderna visas upplevelsefragmentet på sidan [!UICONTROL Erbjudanden] i [!DNL Target].
 
 >[!NOTE]
 >
@@ -86,32 +86,32 @@ När du har utfört de föregående åtgärderna visas upplevelsefragmentet på 
 
 >[!IMPORTANT]
 >
->Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att huvudversionen av upplevelsefragmentet finns kvar i AEM. Du kan inte redigera upplevelsefragmentet i Target.
+>Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att huvudversionen för upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 
-Du kan hovra över ett upplevelsefragment i listan och sedan klicka på ikonen Visa ![vy](assets/icon_info.png) för att visa ytterligare information om upplevelsefragmentet, inklusive dess URL för offentlig leverans av erbjudanden, dess AEM-sökväg och en djup länk för att öppna upplevelsefragmentet i AEM.
+Du kan hovra över ett upplevelsefragment i listan och sedan klicka på [!UICONTROL ikonen] Visa ![ikonen](assets/icon_info.png) Visa för att se ytterligare information om upplevelsefragmentet, inklusive dess URL för offentlig leverans av erbjudanden och dess [!DNL AEM] sökväg.
 
-Du kan använda Experience Fragments i [!DNL Target] aktiviteter med [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) eller den [formulärbaserade Experience Composer](/help/c-experiences/form-experience-composer.md).
+Du kan använda upplevelsefragment i [!DNL Target] aktiviteter med [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) eller den [formulärbaserade Experience Composer](/help/c-experiences/form-experience-composer.md).
 
 >[!NOTE]
 >
 >Om du vill utnyttja [!DNL Target] AI- och ML-funktionerna fullt ut kan du välja [Automatisk allokering](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) eller [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) när du skapar ett A/B-test.
 
-**Så här använder du Experience Fragments med VEC:**
+**Så här använder du upplevelsefragment med VEC:**
 
-1. När du [!DNL Target]skapar eller redigerar en upplevelse i [Visual Experience Composer](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)klickar du på den plats på sidan där du vill infoga AEM-innehåll. Välj sedan önskat alternativ för att visa [!UICONTROL Choose an Experience Fragment] listan.
+1. När du [!DNL Target]skapar eller redigerar en upplevelse i [Visual Experience Composer](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)klickar du på den plats på sidan där du vill infoga [!DNL AEM] innehåll. Välj sedan önskat alternativ för att visa listan [!UICONTROL Välj ett Experience Fragment] .
 
-   * [!UICONTROL Insert Before]
-   * [!UICONTROL Insert After]
-   * [!UICONTROL Swap with Experience Fragment]
-   I [!UICONTROL Experience Fragment] listan visas allt innehåll som har skapats i AEM och som nu är tillgängligt inifrån [!DNL Target].
+   * [!UICONTROL Infoga före]
+   * [!UICONTROL Infoga efter]
+   * [!UICONTROL Växla med Experience Fragment]
+   I listan [!UICONTROL Experience Fragment] visas allt innehåll som skapats i [!DNL AEM] som nu är internt tillgängligt inifrån [!DNL Target].
 
    >[!NOTE]
    >
-   >Alternativet [!UICONTROL Swap with Experience Fragment] är inte tillgängligt för bilder. Om du vill använda det här alternativet med en bild klickar du på behållarelementet som innehåller den önskade bilden.
+   >Alternativet [!UICONTROL Växla med Experience Fragment] är inte tillgängligt för bilder. Om du vill använda det här alternativet med en bild klickar du på behållarelementet som innehåller den önskade bilden.
 
    ![](assets/experience_fragment_list.png)
 
-1. Välj önskat upplevelsefragment och klicka sedan på **[!UICONTROL Done]**.
+1. Välj önskat upplevelsefragment och klicka sedan på **[!UICONTROL Klar]**.
 1. Slutför konfigurationen av aktiviteten.
 
    Mer information om hur du konfigurerar de olika aktivitetstyperna finns i följande avsnitt:
@@ -124,27 +124,31 @@ Du kan använda Experience Fragments i [!DNL Target] aktiviteter med [Visual Exp
    * **Multivariata tester (MVT):** [Skapa ett multivariattest](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Rekommendationer:** [Skapa en rekommendationsaktivitet](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-**Så här använder du Experience Fragments med den formulärbaserade Experience Composer:**
+**Så här använder du upplevelsefragment med den formulärbaserade Experience Composer:**
 
-1. När du skapar eller redigerar en [!DNupplevelse i den]formulärbaserade Experience Composer [i](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)l Target **[!UICONTROL Change Experience Fragment]** väljer du den plats på sidan där du vill infoga AEM-innehåll och sedan väljer du [!UICONTROL Choose an Experience Fragment] att visalistan.
+1. När du skapar eller redigerar en upplevelse i den [!DNformulärbaserade Experience Composer]i [l Target](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)väljer du den plats på sidan där du vill infoga [!DNL AEM] innehåll. Välj sedan **[!UICONTROL Ändra upplevelsefragment]** för att visa listan [!UICONTROL Välj ett] upplevelsefragment.
 
    ![](assets/experience_fragment_list.png)
 
-   I [!UICONTROL Experience Fragment] listan visas allt innehåll som har skapats i AEM och som nu är tillgängligt inifrån [!DNL Target].
+   I listan [!UICONTROL Experience Fragment] visas allt innehåll som skapats i [!DNL AEM] som nu är internt tillgängligt inifrån [!DNL Target].
 
-1. Välj önskat upplevelsefragment och klicka sedan på **[!UICONTROL Save]**.
+1. Välj önskat upplevelsefragment och klicka sedan på **[!UICONTROL Spara]**.
 1. Slutför konfigurationen av aktiviteten.
 
 ## Överväganden {#considerations}
 
 * [!DNL Target] letar efter upplevelsefragment som ska importeras var tionde minut. Det importerade upplevelsefragmentet bör vara tillgängligt inom [!DNL Target] tio minuter, men den här tidsramen bör korta av framgången.
-* Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att huvudversionen av upplevelsefragmentet finns kvar i AEM. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
+* Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att huvudversionen för upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 * Du kan importera JSON-erbjudanden som upplevelsefragment till [!DNL Target]. Erbjudandena importeras dock som HTML-erbjudanden. JSON-erbjudanden (upplevelsefragment) stöds för närvarande inte helt i [!DNL Target] användargränssnittet.
 
-## Utbildningsvideo: Använda AEM Experience Fragments med Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} Tutorial ![badge](/help/assets/overview.png)
+## Utbildningsvideo: Använda DNL AEM Experience fragments med Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 I följande video visas hur du konfigurerar och använder upplevelsefragment:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+>[!NOTE]
+>
+>Funktionen [!DNL AEM] för deplink, som diskuterades 4:54, har tagits bort.
 
 Mer information finns i [Använda Experience Fragments med Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) på sidan *AEM Sites Videos and Tutorials* .
