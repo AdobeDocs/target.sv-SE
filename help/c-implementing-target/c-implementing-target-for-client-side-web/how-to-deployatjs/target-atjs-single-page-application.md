@@ -5,7 +5,7 @@ title: Implementering av enkelsidigt program i Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ I dessa exempel används JavaScript-kod, men allt detta kan förenklas om du anv
 
 Om ovanstående steg följs bör du ha en robust A4T-lösning för SPA.
 
-## Bästa praxis för implementering
+## Bästa praxis för implementering {#bp}
 
 Med API:erna för at.js 2.x kan du anpassa din [!DNL Target] implementering på många sätt, men det är viktigt att du följer rätt ordning på åtgärderna under den här processen.
 
