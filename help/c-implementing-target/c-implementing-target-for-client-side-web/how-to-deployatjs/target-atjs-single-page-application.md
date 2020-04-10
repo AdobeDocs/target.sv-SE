@@ -5,7 +5,7 @@ title: Implementering av enkelsidigt program i Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
+source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
 
 ---
 
@@ -269,6 +269,34 @@ document.addEventListener("at-view-end", function(e) {
 I dessa exempel används JavaScript-kod, men allt detta kan förenklas om du använder en tagghanterare, till exempel [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 Om ovanstående steg följs bör du ha en robust A4T-lösning för SPA.
+
+## Bästa praxis för implementering
+
+Med API:erna för at.js 2.x kan du anpassa din [!DNL Target] implementering på många sätt, men det är viktigt att du följer rätt ordning på åtgärderna under den här processen.
+
+Följande information beskriver den ordning i vilken du måste följa när du läser in ett Single Page-program för första gången i en webbläsare och för eventuella vyändringar som sker senare.
+
+### Operationsordning för inledande sidinläsning
+
+| Steg | Åtgärd | Detaljer |
+| --- | --- | --- |
+| 1 | Läs in VisitorAPI JS | Det här biblioteket ansvarar för att tilldela besökaren ett ECID. Detta ID används senare av andra [!DNL Adobe] lösningar på webbsidan. |
+| 2 | Load at.js 2.x | at.js 2.x läser in alla nödvändiga API:er som du använder för att implementera [!DNL Target] begäranden och vyer. |
+| 3 | Kör [!DNL Target] begäran | Om du har ett datalager rekommenderar vi att du läser in viktiga data som måste skickas till [!DNL Target] innan du kör en [!DNL Target] begäran. På så sätt kan du använda `targetPageParams` för att skicka alla data som du vill använda för målinriktning. Du måste se till att du begär execute > pageLoad samt prefetch > views i detta API-anrop. Om du har angett `pageLoadEnabled` och `viewsEnabled`sedan automatiskt utför både execute > pageLoad och prefetch > views med Step 2; I annat fall måste du använda API:t för att göra den här begäran. `getOffers()` |
+| 4 | Utlysning `triggerView()` | Eftersom den [!DNL Target] begäran du initierade i steg 3 kan returnera upplevelser för både sidinläsning och vyer, måste du se till att `triggerView()` anropas efter att [!DNL Target] begäran har returnerats och att erbjudandena i cachen har tillämpats. Du får bara utföra det här steget en gång per vy. |
+| 5 | Anropa [!DNL Analytics] sidvyfyren | Den här beacon skickar det SDID som är associerat med steg 3 och 4 till [!DNL Analytics] för datasammanfogning. |
+| 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA-ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att säkerställa att [!DNL Target] upplevelserna tillämpas igen efter att SPA-ramverket har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att se till att [!DNL Target] upplevelserna finns kvar i dina SPA-vyer. |
+
+### Ordning för åtgärder för ändring av SPA-vyn (ingen helsidesinläsning)
+
+| Steg | Åtgärd | Detaljer |
+| --- | --- | --- |
+| 1 | Utlysning `visitor.resetState()` | Detta API säkerställer att SDID genereras om för den nya vyn när den läses in. |
+| 2 | Uppdatera cache genom att anropa `getOffer()` API | Detta är ett valfritt steg att ta om den här vyändringen kan kvalificera den aktuella besökaren för fler [!DNL Target] aktiviteter eller diskvalificera dem från aktiviteter. Nu kan du även välja att skicka ytterligare data till [!DNL Target] för att aktivera ytterligare målinriktningsfunktioner. |
+| 3 | Utlysning `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target] begäran och tillämpa erbjudandena på cachen innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
+| 4 | Utlysning `triggerView()` | Om du inte har kört steg 2 kan du utföra det här steget så snart du slutför steg 1. Om du har kört steg 2 och steg 3 bör du hoppa över det här steget. Du får bara utföra det här steget en gång per vy. |
+| 5 | Anropa [!DNL Analytics] sidvyfyren | Den här beacon skickar det SDID som är associerat med steg 2, 3 och 4 till [!DNL Analytics] för datasammanfogning. |
+| 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA-ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att säkerställa att [!DNL Target] upplevelserna tillämpas igen efter att SPA-ramverket har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att se till att [!DNL Target] upplevelserna finns kvar i dina SPA-vyer. |
 
 ## Utbildningsvideor
 
