@@ -4,7 +4,7 @@ title: Adobe Target-ordlista
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ En engagemangstyp som representerar den tid som har ägnats åt besöket (i seku
 Alla hänvisande sidans och sidans URL-variabler skickas automatiskt till en mbox när sidan med mbox visas av någon besökare. Dessa URL-variabler är sedan tillgängliga för användning via visningsmål eller segmentfilter i rapporter.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**besök**
+
+Ett besök kallas ibland för en session. Ett besök avslutas efter 30 minuters inaktivitet, vilket innebär att det har gått minst 30 minuter mellan serverförfrågningar till Target.
 
 **besökare**
 
