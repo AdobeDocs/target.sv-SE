@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ I stället för att svara på alla förfrågningar om målinriktning från en en
 >
 >[!DNL Adobe Target] för närvarande inte har något Edge-nätverk i Kina och slutanvändarnas prestanda kommer att fortsätta vara begränsade för [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge-noder i landet går det långsamt att återge webbplatser med [!DNL Target] driftsatt programvara och sidinläsningen påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target] redigeringsgränssnittet.
 
+Om du vill kan du vitlista kantanteckningar i mål. Mer information finns i [Vitlista Målkantsnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md).
+
 ## Skyddad användarupplevelse {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe ser till att infrastrukturen för målinriktning blir så tillförlitlig som möjligt och fungerar. Men om kommunikationen bryts ned mellan slutanvändarens webbläsare och Adobes servrar kan det orsaka avbrott i innehållsleveransen.
@@ -131,7 +133,7 @@ Google uppmuntrar till användartestning och har i sin dokumentation angett att 
 Mer information finns i följande Google-resurser:
 
 * [Webbplatstestning och Google Search](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentera och insvepning](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [Experimentera och insvepning](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 Riktlinjer presenterades i ett blogginlägg [från](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) Google Webmaster Central. Även om inlägget är från 2012 är det fortfarande Googles senaste uttalande i frågan och riktlinjerna är fortfarande relevanta.
 
