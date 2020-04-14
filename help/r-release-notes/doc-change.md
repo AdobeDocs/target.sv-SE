@@ -5,7 +5,7 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -18,6 +18,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 14 april | [Vitlista Målkantsvärdar](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nytt ämne. |
 | 10 april | [Implementering av Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nytt avsnitt har lagts till: &quot;Bästa praxis för implementering.&quot; |
 | 7 april | [Lyft och tillförsikt - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Uppdaterad text för&quot;Varför kan jag inte se lyft och självförtroende för beräknade mätvärden?&quot; |
 | 2 april | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Lagt till information om hur du använder `user.header('x-forwarded-for')` med nyare AWS-kanter för att hämta användarnas IP-adresser. |
@@ -322,9 +323,9 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 5 april 2019 | [Adobe Target Basics webbinarium: Introduktion till rekommendationer](/help/c-recommendations/recommendations.md#intro-to-recs) | Länk har lagts till i inspelningen av webbseminariet&quot;Introduction to Recommendations&quot;. |
 |  | [Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Uppdaterad JavaScript-kod för QA-bokmärkesaktiviteten. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade den preliminära versionsinformationen för Target 19.4.1- och Target 19.4.2-utgåvorna, båda planerade i april 2019. |
-| 4 april 2019 | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lade till preliminär versionsinformation för Target 19.4.1 och Target 19.4.2, båda planerade i april 2019. |
+| 4 april 2019 | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lade till preliminär versionsinformation för Target 19.4.1- och Target 19.4.2-utgåvorna, båda planerade i april 2019. |
 | 30 mars 2019 | [Gränser](/help/r-troubleshooting-target/target-limits.md#excludedid) | Lagt till information om gränserna för parametern `excludedID` mbox. |
-| 29 mars 2019 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till: &quot;På SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder på panelen [!UICONTROL Modifications] om du avbryter inläsningen.&quot;<br>Följande kända fel har flyttats till avsnittet Lösta problem: &quot;v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som skapats via Target så att de ligger i standardarbetsytan.&quot; |
+| 19 mars 2019 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till: &quot;På SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder på panelen [!UICONTROL Modifications] om du avbryter inläsningen.&quot;<br>Följande kända fel har flyttats till avsnittet Lösta problem: &quot;v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som skapats via Target så att de ligger i standardarbetsytan.&quot; |
 | 28 mars 2019 | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Följande nya avsnitt har lagts till:<ul><li>[Avbryt inläsning av en sida i VEC.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Redigera en sida medan sidan läses in eller när sidan inte kan läsas in](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
 |  | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Nytt avsnitt: &quot;[Navigera mellan element med DOM-sökvägen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).&quot; |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | Ett aktuellt känt fel som uppstår när du avbryter inläsningen av en sida i VEC har lagts till. |
@@ -400,7 +401,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.3 har lagts till. |
+| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.4 har lagts till. |
 | 10 januari 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Datum då Target fullständigt kommer att fasa ut stödet för TLS 1.0-kryptering: 20 februari 2019. |
 | 9 januari 2019 | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Lagt till information om rekommendationer för att infoga före, infoga efter och ersätta med rader. |
 |  | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (förhandsversion)](/help/r-release-notes/target-release-notes.md)<br>[Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Information om hur Target och Adobe Marketing Cloud upphör att fungera i Microsoft Internet Explorer 11 från och med mars 2019 har lagts till. |
@@ -427,7 +428,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 29 november 2018 | [ Uppskatta den trafik som krävs för ett lyckat test](../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) | Mindre textuppdateringar och uppdaterade bilder. |
 | 27 november 2018 | [ Verksamhet ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) | Uppdaterad text och bilder. |
 |  | [ Profilskriptattribut ](../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2) | Observera att Target har en begränsning på 1 000 profilskript per konto. |
-| 15 november 2018 | [ Versionsinformation om målversion (aktuell) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ Versionsinformation om målversion (prerelease) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ på .js ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Information om at.js version 1.6.3 har lagts till. |
+| 15 november 2018 | [ Versionsinformation om målversion (aktuell) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ Versionsinformation om målversion (prerelease) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ på .js ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Information om at.js version 1.6.4 har lagts till. |
 |  | [ Insikter om personalisering - rapporter ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) | Nya ämnen har lagts till i de nya personaliseringsinsikterna:  Automatiska segment och viktiga attribut. |
 | 14 november 2018 | Versionsinformation 18.11.1 [ Målversion (aktuell) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
