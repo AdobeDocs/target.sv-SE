@@ -5,18 +5,18 @@ title: Vitlista Adobe Target-kantnoder
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
 
 ---
 
 
 # Vitlista Målkantsnoder
 
-Information och en uppdaterad lista över värdar som hjälper dig att vitlista kanterna i Adobe Target.
+Information och en uppdaterad lista över värdar som hjälper dig att vitlista Adobes [!DNL Target] kanter.
 
-En kant är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen. Varje edge-nod har all information som krävs för att svara på användarens innehållsförfrågan och för att spåra analysdata på den begäran. Användarförfrågningar dirigeras till närmaste kantnod. Mer information finns [i Edge Network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) i *How Adobe Target works*.
+En kant är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen. Varje edge-nod har all information som krävs för att svara på användarens innehållsförfrågan och för att spåra analysdata på den begäran. Användarförfrågningar dirigeras till närmaste kantnod. Mer information finns [i Edge Network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) i *How Adobe[!DNL Target]works*.
 
-Om du vill kan du vitlista kantnoder för mål.
+Om du vill kan du vitlista [!DNL Target] kantnoder.
 
 Följande lista innehåller de aktuella värdarna:
 
