@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -78,27 +78,27 @@ Eftersom alla aktivitetstyper ännu inte har stöd för A4T rekommenderar vi att
 
 ## Exempel på A4T-rapporter {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Om du vill visa A4T-rapporter i [!DNL Target]klickar du **[!UICONTROL Activities]** på önskad aktivitet i listan som använder [!DNL Analytics] som rapportkälla > och sedan på **[!UICONTROL Reports]** fliken.
+Om du vill visa A4T-rapporter i [!DNL Target]klickar du på **[!UICONTROL Aktiviteter]**, på önskad aktivitet i listan som använder [!DNL Analytics] som rapportkälla > och sedan på fliken **[!UICONTROL Rapporter]** .
 
 >[!NOTE]
 >
->Du kan använda den [!UICONTROL Reporting Source] nedrullningsbara listan högst upp på [!UICONTROL Activities] sidan om du bara vill visa aktiviteter som använder [!DNL Analytics] som rapportkälla.
+>Du kan använda listrutan [!UICONTROL Rapporteringskälla] högst upp på sidan [!UICONTROL Aktiviteter] om du bara vill visa aktiviteter som använder [!DNL Analytics] som rapportkälla.
 
-Du kan växla mellan tabellvyn och [!UICONTROL Graph View] rapporten genom att klicka på lämplig ikon längst upp till höger i rapporten.
+Du kan växla mellan tabellvyn och [!UICONTROL diagramvyn] för rapporten genom att klicka på lämplig ikon längst upp till höger i rapporten.
 
-Följande bild visar hur en A4T-rapport ser ut [!UICONTROL Graph View] i [!UICONTROL Report Metric] listrutan med tillgängliga [!DNL Analytics] målvärden:
+Följande bild visar [!UICONTROL diagramvyn] för en A4T-rapport med listrutan [!UICONTROL Rapporttecken] som visar tillgängliga [!DNL Analytics] målvärden:
 
 ![](assets/a4t_report_graph1.png)
 
-Följande bild visar hur en A4T-rapport ser ut [!UICONTROL Graph View] i [!UICONTROL Audience] listrutan med tillgängliga [!DNL Analytics] målgrupper:
+Följande bild visar [!UICONTROL Diagramvyn] för en A4T-rapport med listrutan [!UICONTROL Målgrupp] som visar tillgängliga [!DNL Analytics] målgrupper:
 
 ![](assets/a4t_report_graph2.png)
 
-Följande bild visar hur en A4T- [!UICONTROL Table View] rapport ser ut:
+Följande bild visar [!UICONTROL tabellvyn] för en A4T-rapport:
 
 ![](assets/a4t_report_table.png)
 
-Om du vill visa rapporten i [!DNL Analytics] stället för i [!DNL Target]klickar du **[!UICONTROL View in Analytics]** längst upp i rapporten.
+Om du vill visa rapporten i [!DNL Analytics] stället för i [!DNL Target]klickar du på **[!UICONTROL Visa i Analytics]** längst upp i rapporten.
 
 ## Analys och mål: Självstudiekurs om metodtips för analys {#section_3438E6E77A464424B717A4FD333B84B2}
 
@@ -118,7 +118,7 @@ I den här videon förklaras hur du använder Adobe Analytics som en rapportkäl
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analys/målintegrering (A4T) (40:33) !![Tutorial badge](/help/assets/tutorial.png
+### Analys/målintegrering (A4T) (40:33) - ![självstudiemärke](/help/assets/tutorial.png)
 
 Den här videon handlar om inspelningen av&quot; [kontorstid](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av Adobes kundtjänstteam.
 
