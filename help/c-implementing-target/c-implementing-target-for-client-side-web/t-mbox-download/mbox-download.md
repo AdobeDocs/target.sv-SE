@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: e5948d70eff9a3ec8205eb69591325bd55e37855
 
 ---
 
@@ -19,7 +19,11 @@ Du kan använda en av två biblioteksreferenser: [!DNL mbox.js] eller [!DNL at.j
 
 >[!NOTE]
 >
->Biblioteket mbox.js stöds fortfarande, men det kommer inte att finnas några funktionsuppdateringar. Alla kunder bör migrera till at.js. Mer information finns i [Migrera till at.js från mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>**borttagning** av mbox.js: 30 augusti 2020 kommer Adobe Target inte längre att ha stöd för mbox.js-biblioteket. Efter 30 augusti 2020 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där Target-aktiviteter körs. Vi rekommenderar att alla kunder migrerar till den senaste versionen av at.js-biblioteket före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>
+>Även om mbox.js stöds för närvarande har vi inte tillhandahållit några funktionsuppdateringar för det här biblioteket sedan juli 2017. Den nyare at.js har många fördelar jämfört med mbox.js. Bland annat har at.js förbättrat sidinläsningstiderna för webbimplementeringar, förbättrat säkerheten och erbjuder bättre implementeringsalternativ för enkelsidiga program.
+>
+>Genom att flytta alla kunder till at.js kan våra ingenjörer och supporttekniker ge dig nya funktioner och erbjuda den support du förväntar dig av Adobe.
 
 Den enda referensen till [!DNL mbox.js] på varje sida innehåller de bibliotek som behövs för alla dina aktiviteter. [!DNL mbox.js] anropar [!DNL Target] från varje sida som refererar till [!DNL mbox.js] filen. Detta gör [!DNL Target] att du kan göra följande:
 
@@ -38,4 +42,4 @@ Du behöver inte underhålla olika aktivitetsspecifika versioner av filen.
    `<script src="/ *``*/ *`katalogskript`*/mbox.js"></script>`
 
    Där ` *``*/ *`katalogskript`*` är den katalog där du sparade din [!DNL mbox.js] fil efter att ha hämtat den.
-Om du redan har mbox-filer på sidan från en äldre implementering kan dessa mbox-filer fortfarande användas i det nya gränssnittet. Den uppdaterade [!DNL mbox.js] filen krävs fortfarande, men du kan välja de här rutorna för aktiviteter och redigera dem med hjälp av [!UICONTROL Visual Experience Composer].
+Om du redan har mbox-filer på sidan från en äldre implementering kan dessa mbox-filer fortfarande användas i det nya gränssnittet. Den uppdaterade [!DNL mbox.js] filen krävs fortfarande, men dessa kryssrutor kan väljas för aktiviteter och redigeras med [!UICONTROL Visual Experience Composer].
