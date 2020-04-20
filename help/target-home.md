@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Produktdokumentation för Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 ---
 
@@ -14,7 +14,11 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 [!DNL Adobe Target] är den [!DNL Adobe Experience Cloud] lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 14 april 2020 ([Se vad som ändrats](r-release-notes/doc-change.md))**
+**Senast uppdaterad: 20 april 2020 ([Se vad som ändrats](r-release-notes/doc-change.md))**
+
+>[!NOTE]
+>
+>I och med den kommande utfasningen av mbox.js den 30 augusti 2020, David Son, är Adobe Target Product Manager värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Mer information finns i [Adobe Target SKompetensverktyg: Utvecklarchatt, migrera Adobe Target mbox.js till at.js](/help/r-release-notes/release-notes.md#skill-builder).
 
 Följande avsnitt pekar på användbara länkar i den här guiden, ordnade efter målgrupp baserat på typiska jobbfunktioner:
 
