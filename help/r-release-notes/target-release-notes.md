@@ -5,7 +5,7 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: a6de4442ff6b3c8ad3eb18a8105f71458e43f097
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 20 april 2020**
+**Senast uppdaterad: 21 april 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -49,6 +49,77 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 * Ett problem som gjorde att vissa användare inte kunde ta bort objekt från en rekommendationskatalog har korrigerats. (TGT-36455)
 * Ett problem har korrigerats som gjorde att användare inte kunde spara rekommendationskriterier för en flersidig aktivitet. (TGT-36249)
 * Korrigerade ett visningsfel som medförde att en rekommendationsalgoritm visade &quot;hämtningsresultat&quot; under en längre period. (TGT-36550 &amp; TGT-36551)
+
+## Ändringar i API:t för gruppstatus v2 (4 maj 2020)
+
+I versionen från 4 maj returnerar status för profilgrupp endast feldata på radnivå som går framåt (data om lyckade åtgärder returneras inte). Misslyckade profil-ID:n returneras av API:t som fortsätter.
+
+Föregående och nya API-svar är följande:
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**För närvarande ser vi svaret som:**
+
+`https://mboxedge17.tt.omtrdc.net/m2/amazonwebservicesinc/v2/profile/batchStatus?batchId=amazonwebservicesinc-1585929692655-59449976`
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**Efter 4 maj kommer svaret att vara:**
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
