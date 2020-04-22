@@ -5,7 +5,7 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
 
 ---
 
@@ -18,6 +18,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 22 april | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Nytt avsnitt har lagts till: API:t för *gruppstatus v2 ändras (4 maj 2020).* |
 | 20 april | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Nytt avsnitt har lagts till: *Adobe Target SKompetensverktyg: Utvecklarchatt, migrera Adobe Target mbox.js till at.js.* |
 | 14 april | [Vitlista Målkantsvärdar](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nytt ämne. |
 | 10 april | [Implementering av Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nytt avsnitt har lagts till: &quot;Bästa praxis för implementering.&quot; |
@@ -71,7 +72,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 19 december 2019 | [Versionsinformation - Mål-Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Lagt till information om version 1.1.0. |
 | 12 december 2019 | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat avsnitt med vanliga frågor och svar. |
 |  | [Tolka autofördelningsrapporter](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ändrade namn på ämnet och lade till följande avsnitt: &quot;Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter.&quot; |
-| 12 december 2019 | [Mål och målgrupper Frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nya frågor och svar: &quot;Hur utvärderar Target URL:er när det gäller målinriktning?&quot; |
+| 11 december 2019 | [Mål och målgrupper Frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nya frågor och svar: &quot;Hur utvärderar Target URL:er när det gäller målinriktning?&quot; |
 | 10 december 2019 | [Målgrupper](/help/r-troubleshooting-target/target-limits.md) | Mappningsparameteravsnittet har uppdaterats. |
 |  | [Kriterier](/help/c-recommendations/c-algorithms/algorithms.md) | Meddelande om stöd för funktionen Villkorsanvändning har lagts till. |
 | 5 december 2019 | [Webbplatssidor](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Uppdaterat ämne. |
@@ -341,7 +342,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [](/help/r-troubleshooting-target/target-limits.md)<br>[LimitsCustom-entitetsattribut](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) | Lagt till information om gränser för anpassade entitetsattribut. |
 |  | [Mål och målgrupper Frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings-that-represent-numbers) | Uppdaterad text. |
 |  | [Skapa nya villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#custom) | Ett nytt avsnitt som förklarar hur du skapar profilbaserade grupperingar för popularitetsalgoritmer har lagts till: &quot;Använd en anpassad rekommendationsnyckel.&quot; |
-| 19 mars 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om at.js, version 2.0.1 och 1.7.1. |
+| 29 mars 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om at.js, version 2.0.1 och 1.7.1. |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Följande frågor och svar har lagts till: &quot;Stöder A4T virtuella rapportsviter?&quot; |
 | 18 mars 2019 | [Versionsinformation för målversion (prerelease)](/help/r-release-notes/target-release-notes.md) och [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js, version 2.0.1 och 1.7.1. |
 |  | [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#section_92AB4820A5624C669D9A1F1B6220D4FA) och [Customer-attribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Tillagt: Du kan inte skicka följande tecken i `mbox3rdPartyID`: plustecken (+) och snedstreck (/). |
@@ -402,7 +403,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.3 har lagts till. |
+| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.4 har lagts till. |
 | 10 januari 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Datum då Target fullständigt kommer att fasa ut stödet för TLS 1.0-kryptering: 20 februari 2019. |
 | 9 januari 2019 | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Lagt till information om rekommendationer för att infoga före, infoga efter och ersätta med rader. |
 |  | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (förhandsversion)](/help/r-release-notes/target-release-notes.md)<br>[Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Information om hur Target och Adobe Marketing Cloud upphör att fungera i Microsoft Internet Explorer 11 från och med mars 2019 har lagts till. |
@@ -429,7 +430,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 29 november 2018 | [ Uppskatta den trafik som krävs för ett lyckat test](../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) | Mindre textuppdateringar och uppdaterade bilder. |
 | 27 november 2018 | [ Verksamhet ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) | Uppdaterad text och bilder. |
 |  | [ Profilskriptattribut ](../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2) | Observera att Target har en begränsning på 1 000 profilskript per konto. |
-| 15 november 2018 | [ Versionsinformation om målversion (aktuell) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ Versionsinformation om målversion (prerelease) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ på .js ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Information om at.js version 1.6.4 har lagts till. |
+| 15 november 2018 | [ Versionsinformation om målversion (aktuell) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ Versionsinformation om målversion (prerelease) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ på .js ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Information om at.js version 1.6.3 har lagts till. |
 |  | [ Insikter om personalisering - rapporter ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) | Nya ämnen har lagts till i de nya personaliseringsinsikterna:  Automatiska segment och viktiga attribut. |
 | 14 november 2018 | Versionsinformation 18.11.1 [ Målversion (aktuell) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
