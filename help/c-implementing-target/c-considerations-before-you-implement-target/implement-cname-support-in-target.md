@@ -5,7 +5,7 @@ title: CNAME och Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8267de6c27566ec397651d3bfc88aad0818ed8d2
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -20,9 +20,9 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
 1. Adobes certifikatutfärdare (DigiCert) måste verifiera att Adobe har behörighet att generera certifikat under din domän.
 
-   DigiCert anropar den här processen DCV ( [Domain Control Validation)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/), och Adobe kommer inte att kunna generera ett certifikat under din domän förrän den här processen har slutförts för minst en av nedanstående DCV-metoder:
+   DigiCert anropar den här processen DCV ( [Domain Control Validation)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/), och Adobe kommer inte att kunna generera ett certifikat under din domän förrän den här processen har slutförts för minst en av följande DCV-metoder:
 
-   * Den snabbaste DCV-metoden är __DNS CNAME-metoden__, där du lägger till en DNS CNAME-post (som innehåller en token) till domänen som pekar på DigiCert DCV-värdnamn (dcv.digicert.com). Den här CNAME-posten anger för DigitalCert att Adobe har behörighet att generera certifikatet. Adobe Client Care skickar instruktionerna med nödvändiga DNS-poster. Ett exempel:
+   * Den snabbaste DCV-metoden är DNS CNAME-metoden, där du lägger till en DNS CNAME-post (som innehåller en token) i domänen som pekar på DigiCert-värdnamnet (`dcv.digicert.com`) för DCV. Den här CNAME-posten anger för DigitalCert att Adobe har behörighet att generera certifikatet. Adobe Client Care skickar instruktionerna med nödvändiga DNS-poster. Ett exempel:
 
       ```
       3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
@@ -30,13 +30,13 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
       >[!NOTE]
       >
-      >Dessa DCV-tokens upphör att gälla efter 30 dagar. Adobe Client Care kommer då att kontakta dig med uppdaterade tokens. Innan du skickar din begäran måste du förbereda dig för att göra de här DNS-ändringarna på alla begärda domäner för att du ska kunna åtgärda din CNAME-begäran så snabbt som möjligt.
+      >* Dessa DCV-tokens upphör att gälla efter 30 dagar. Adobe Client Care kommer då att kontakta dig med uppdaterade tokens. Innan du skickar din begäran bör du förbereda dig för att göra de här DNS-ändringarna på alla begärda domäner så att du kan lösa din CNAME-begäran så snabbt som möjligt.
+         >
+         >
+      * Om din domän har [DNS CAA-poster](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)måste du lägga till `digicert.com` om den inte redan har lagts till. Den här DNS-posten anger vilka certifikatutfärdare som har behörighet att utfärda certifikat för domänen. Den resulterande DNS-posten skulle se ut så här: `example.com. IN CAA 0 issue "digicert.com"`. Du kan använda [verktygslådan](https://toolbox.googleapps.com/apps/dig/#CAA) i G Suite för att avgöra om rotdomänen har en befintlig CAA-post. Du kan läsa mer om hur DigitalCert hanterar CAA-poster [här](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check).
 
-      >[!NOTE]
-      >
-      >Om din domän har [DNS CAA-poster](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)måste du lägga till `digicert.com` om den inte redan har lagts till. Den här DNS-posten anger vilka certifikatutfärdare som har behörighet att utfärda certifikat för domänen. Den resulterande DNS-posten skulle se ut så här: `example.com. IN CAA 0 issue "digicert.com"`. Du kan använda [verktygslådan](https://toolbox.googleapps.com/apps/dig/#CAA) i G Suite för att avgöra om rotdomänen har en befintlig CAA-post. Du kan läsa mer om hur DigitalCert hanterar CAA-poster [här](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check).
 
-   * DigiCert kommer också att försöka med __e-postmetoden__, där de skickar e-post till adresser som finns i domänens WHOIS-information, samt förbestämda e-postadresser (admin, administratör, webbmaster, värddator och postmaster `@[domain_name]`). Mer information finns i dokumentationen [för](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV-metoder.
+   * DigiCert testar också e-postmetoden, i vilken det skickar e-postmeddelanden till adresser som finns i domänens WHOIS-information och till förbestämda e-postadresser (admin, administratör, webbmaster, värdmaster och postmaster `@[domain_name]`). Mer information finns i dokumentationen [för](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV-metoder.
 
       DigiCert ger följande rekommendation för att påskynda DCV-e-postprocessen:
 
@@ -58,13 +58,13 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
 Följande information besvarar vanliga frågor om att begära och implementera CNAME-stöd i [!DNL Target]:
 
-### Kan jag uppge mitt eget certifikat (även kallat &quot;gipscertifikat&quot;)? I så fall, hur är det?
+### Kan jag tillhandahålla mitt eget certifikat (även&quot;insert-your-own-certificate&quot; eller&quot;BYOC&quot;)? I så fall, hur är det?
 
-Ja, du kan ange ett eget certifikat, men __det rekommenderas__ inte. Hanteringen av SSL-certifikatets livscykel är mycket enklare för både Adobe och kunden när Adobe köper och kontrollerar certifikatet. SSL-certifikaten måste förnyas varje år, vilket innebär att Adobe Client Care måste kontakta dig varje år för att skicka ett nytt certifikat till Adobe i tid. Vissa kunder kan få svårt att producera ett förnyat certifikat i tid varje år, vilket äventyrar deras [!DNL Target] implementering eftersom webbläsare kommer att neka anslutningar när certifikatet upphör att gälla.
+Ja, du kan ange ett eget certifikat; rekommenderas dock inte. Hanteringen av SSL-certifikatets livscykel är mycket enklare för både Adobe och dig när Adobe köper och kontrollerar certifikatet. SSL-certifikaten måste förnyas varje år, vilket innebär att Adobe Client Care måste kontakta dig varje år för att skicka ett nytt certifikat till Adobe i tid. Vissa kunder kan få svårt att producera ett förnyat certifikat varje år, vilket äventyrar deras [!DNL Target] implementering eftersom webbläsare kommer att neka anslutningar när certifikatet upphör att gälla.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Observera att om du begär en CNAME-implementering med [!DNL Target] egna certifikat så ansvarar du för att ge förnyade certifikat till Adobe Client Care varje år. Om du tillåter att ditt CNAME-certifikat upphör att gälla innan Adobe kan distribuera ett förnyat certifikat kommer det att resultera i ett driftstopp för din specifika [!DNL Target] implementering.
+>Tänk på att om du begär en CNAME-implementering med [!DNL Target] ditt eget certifikat ansvarar du för att ge förnyade certifikat till Adobe Client Care varje år. Om du tillåter att ditt CNAME-certifikat upphör att gälla innan Adobe kan distribuera ett förnyat certifikat kommer det att resultera i ett driftstopp för din specifika [!DNL Target] implementering.
 
 1. Hoppa över steg 1 ovan, men slutför steg 2 och 3. När du öppnar en kundtjänstbiljett från Adobe (steg 3) ska du tala om för dem att du kommer att ge dem ett eget certifikat.
 
@@ -78,13 +78,13 @@ Ja, du kan ange ett eget certifikat, men __det rekommenderas__ inte. Hanteringen
 
 ### Hur länge till mitt nya SSL-certifikat upphör att gälla?
 
-Certifikat som utfärdats före den 1 september 2020 kommer att vara tvååriga certifikat. Certifikat som utfärdas den 1 september 2020 och senare är 1-årscertifikat. Du kan läsa mer om övergången till ettårscertifikat [här](https://www.digicert.com/position-on-1-year-certificates).
+Certifikat som utfärdats före den 1 september 2020 är tvååriga certifikat. Certifikat som utfärdas den 1 september 2020 eller senare kommer att vara ettåriga certifikat. Du kan läsa mer om övergången till ettårscertifikat [här](https://www.digicert.com/position-on-1-year-certificates).
 
 ### Vilka värdnamn ska jag välja? Hur många värdnamn per domän ska jag välja?
 
 [!DNL Target] CNAME-implementeringar kräver bara ett värdnamn per domän i SSL-certifikatet och i kundens DNS, så det är vad vi rekommenderar. Vissa kunder kan behöva ytterligare värdnamn per domän för sina egna syften (till exempel testning i mellanlagring), vilket stöds.
 
-De flesta kunder väljer ett värdnamn som `target.example.com`det, så det är vad vi rekommenderar, men valet är i slutändan ditt. Var noga med att inte begära ett värdnamn för en befintlig DNS-post, eftersom det skulle orsaka en konflikt och fördröja hanteringen av din [!DNL Target] CNAME-begäran.
+De flesta kunder väljer ett värdnamn som `target.example.com`det, så det är vad vi rekommenderar, men valet är i slutändan ditt. Var noga med att inte begära ett värdnamn för en befintlig DNS-post, eftersom det skulle orsaka en konflikt och fördröja matchningen av din [!DNL Target] CNAME-begäran.
 
 ### Jag har redan en CNAME-implementering för [!DNL Adobe Analytics], kan vi använda samma certifikat eller värdnamn?
 
@@ -100,7 +100,7 @@ Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x]
 
 ### Kan Adobe/DigiCert skicka DCV-e-postmeddelanden till en annan e-postadress `<someone>@example.com`?
 
-Nej, DigiCert (eller någon certifikatutfärdare) tillåter inte att endast personer med en e-postadress under en domän auktoriserar ett SSL-certifikat under samma domän, såvida inte den e-postadressen också ingår i domänens WHOIS-information eller den förbestämda listan med adresser (se ovan). Detta garanterar att endast behöriga personer kan godkänna DCV för en viss domän. Om detta inte är möjligt för dig rekommenderar vi att du använder DNS CNAME DCV-metoden (se ovan).
+Nej, DigiCert (eller någon certifikatutfärdare) tillåter inte att endast personer med en e-postadress under en domän auktoriserar ett SSL-certifikat under samma domän, såvida inte den e-postadressen också ingår i domänens WHOIS-information eller den förbestämda listan med adresser (se ovan). Detta garanterar att bara behöriga personer kan godkänna DCV för en viss domän. Om detta inte är möjligt för dig rekommenderar vi att du använder DNS CNAME DCV-metoden (se ovan).
 
 ### Hur verifierar jag att CNAME-implementeringen är klar för trafik?
 
@@ -150,4 +150,4 @@ Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradstermina
 
    >[!NOTE]
    >
-   >Om det här kommandot misslyckas men kommandot ovan `validateEdgeFpsslSni` lyckas kanske du måste vänta tills DNS-uppdateringarna är helt spridda. DNS-poster har en associerad [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) som anger cachens förfallotid för DNS-svar för dessa poster, så du kan behöva vänta minst så länge som dina TTL-värden är aktiva. Du kan använda `dig target.example.com` kommandot eller [verktygslådan](https://toolbox.googleapps.com/apps/dig/#CNAME) för G Suite för att söka efter särskilda TTL-värden.
+   >Om det här kommandot misslyckas men kommandot ovan `validateEdgeFpsslSni` lyckas kanske du måste vänta tills DNS-uppdateringarna är helt spridda. DNS-poster har en associerad [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) som anger cacheförfallotid för DNS-svar för dessa poster, så du kan behöva vänta minst så länge som dina TTL-värden är aktiva. Du kan använda `dig target.example.com` kommandot eller [verktygslådan](https://toolbox.googleapps.com/apps/dig/#CNAME) för G Suite för att leta upp dina specifika TTL-filer.
