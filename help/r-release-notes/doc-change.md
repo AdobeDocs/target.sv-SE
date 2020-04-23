@@ -5,7 +5,7 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -18,6 +18,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 23 april | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
 | 22 april | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Nytt avsnitt har lagts till: API:t för *gruppstatus v2 ändras (4 maj 2020).* |
 | 20 april | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Nytt avsnitt har lagts till: *Adobe Target SKompetensverktyg: Utvecklarchatt, migrera Adobe Target mbox.js till at.js.* |
 | 14 april | [Vitlista Målkantsvärdar](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nytt ämne. |
@@ -70,7 +71,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 9 januari 2020 | [TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Uppdaterad text.<br>Efter den 1 mars 2020 stöder Adobe Target inte längre TLS 1.1-kryptering för Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), aktivitetsleverans, API:er osv. Uppgradera till TLS 1.2 före 1 mars 2020 för att undvika problem. |
 | 6 januari 2020 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett känt fel har lagts till om status för feed för anpassade villkor. |
 | 19 december 2019 | [Versionsinformation - Mål-Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Lagt till information om version 1.1.0. |
-| 12 december 2019 | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat avsnitt med vanliga frågor och svar. |
+| 11 december 2019 | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat avsnitt med vanliga frågor och svar. |
 |  | [Tolka autofördelningsrapporter](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ändrade namn på ämnet och lade till följande avsnitt: &quot;Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter.&quot; |
 | 11 december 2019 | [Mål och målgrupper Frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nya frågor och svar: &quot;Hur utvärderar Target URL:er när det gäller målinriktning?&quot; |
 | 10 december 2019 | [Målgrupper](/help/r-troubleshooting-target/target-limits.md) | Mappningsparameteravsnittet har uppdaterats. |
@@ -325,7 +326,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 5 april 2019 | [Adobe Target Basics webbinarium: Introduktion till rekommendationer](/help/c-recommendations/recommendations.md#intro-to-recs) | Länk har lagts till i inspelningen av webbseminariet&quot;Introduction to Recommendations&quot;. |
 |  | [Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Uppdaterad JavaScript-kod för QA-bokmärkesaktiviteten. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade den preliminära versionsinformationen för Target 19.4.1- och Target 19.4.2-utgåvorna, båda planerade i april 2019. |
-| 4 april 2019 | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lade till preliminär versionsinformation för Target 19.4.1- och Target 19.4.2-utgåvorna, båda planerade i april 2019. |
+| 4 april 2019 | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lade till preliminär versionsinformation för Target 19.4.1 och Target 19.4.2, båda planerade i april 2019. |
 | 30 mars 2019 | [Gränser](/help/r-troubleshooting-target/target-limits.md#excludedid) | Lagt till information om gränserna för parametern `excludedID` mbox. |
 | 29 mars 2019 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till: &quot;På SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder på panelen [!UICONTROL Modifications] om du avbryter inläsningen.&quot;<br>Följande kända fel har flyttats till avsnittet Lösta problem: &quot;v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som skapats via Target så att de ligger i standardarbetsytan.&quot; |
 | 28 mars 2019 | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Följande nya avsnitt har lagts till:<ul><li>[Avbryt inläsning av en sida i VEC.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Redigera en sida medan sidan läses in eller när sidan inte kan läsas in](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
