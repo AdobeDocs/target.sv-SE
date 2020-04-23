@@ -5,14 +5,14 @@ title: CNAME och Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
+source-git-commit: 8267de6c27566ec397651d3bfc88aad0818ed8d2
 
 ---
 
 
 # CNAME och Adobe Target {#cname-and-adobe-target}
 
-Instruktioner om hur du arbetar med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i [!DNL Adobe Target]. För att på bästa sätt hantera annonsblockeringsproblem, eller ITP-relaterade cookie-regler, används en CNAME så att samtal görs till en domän som ägs av kunden i stället för till en domän som ägs av Adobe.
+Instruktioner för hur du arbetar med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i [!DNL Adobe Target]. För att på bästa sätt hantera annonsblockeringsproblem, eller ITP-relaterade cookie-regler, används en CNAME så att samtal görs till en domän som ägs av kunden i stället för till en domän som ägs av Adobe.
 
 ## Begär CNAME-stöd
 
@@ -20,22 +20,32 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
 1. Adobes certifikatutfärdare (DigiCert) måste verifiera att Adobe har behörighet att generera certifikat under din domän.
 
-   DigiCert anropar den här processen DCV ( [Domain Control Validation](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) ), och Adobe kommer inte att kunna generera något certifikat under din domän förrän processen är slutförd.
+   DigiCert anropar den här processen DCV ( [Domain Control Validation)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/), och Adobe kommer inte att kunna generera ett certifikat under din domän förrän den här processen har slutförts för minst en av nedanstående DCV-metoder:
 
-   I DCV används några metoder, och det finns några saker du kan göra innan du öppnar en Adobe Client Care-biljett (steg 3) för att snabba upp DCV-processen:
+   * Den snabbaste DCV-metoden är __DNS CNAME-metoden__, där du lägger till en DNS CNAME-post (som innehåller en token) till domänen som pekar på DigiCert DCV-värdnamn (dcv.digicert.com). Den här CNAME-posten anger för DigitalCert att Adobe har behörighet att generera certifikatet. Adobe Client Care skickar instruktionerna med nödvändiga DNS-poster. Ett exempel:
 
-   * DigiCert kommer först att testa e-postmetoden, där de skickar e-post till adresser som finns i domänens WHOIS-information, samt förbestämda e-postadresser (admin, administratör, webbmaster, värdmaster och postmaster `@[domain_name]`). Mer information finns i dokumentationen [för](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV-metoder.
+      ```
+      3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
+      ```
+
+      >[!NOTE]
+      >
+      >Dessa DCV-tokens upphör att gälla efter 30 dagar. Adobe Client Care kommer då att kontakta dig med uppdaterade tokens. Innan du skickar din begäran måste du förbereda dig för att göra de här DNS-ändringarna på alla begärda domäner för att du ska kunna åtgärda din CNAME-begäran så snabbt som möjligt.
+
+      >[!NOTE]
+      >
+      >Om din domän har [DNS CAA-poster](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)måste du lägga till `digicert.com` om den inte redan har lagts till. Den här DNS-posten anger vilka certifikatutfärdare som har behörighet att utfärda certifikat för domänen. Den resulterande DNS-posten skulle se ut så här: `example.com. IN CAA 0 issue "digicert.com"`. Du kan använda [verktygslådan](https://toolbox.googleapps.com/apps/dig/#CAA) i G Suite för att avgöra om rotdomänen har en befintlig CAA-post. Du kan läsa mer om hur DigitalCert hanterar CAA-poster [här](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check).
+
+   * DigiCert kommer också att försöka med __e-postmetoden__, där de skickar e-post till adresser som finns i domänens WHOIS-information, samt förbestämda e-postadresser (admin, administratör, webbmaster, värddator och postmaster `@[domain_name]`). Mer information finns i dokumentationen [för](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV-metoder.
 
       DigiCert ger följande rekommendation för att påskynda DCV-e-postprocessen:
 
       &quot;Kontrollera att din registrator/WHOIS-leverantör inte har maskerat eller tagit bort [relevanta e-postadresser]. Om de är det, ta reda på om de tillhandahåller ett sätt (t.ex. anonymiserad e-postadress, webbformulär) för dig att tillåta [certifikatutfärdare] att få tillgång till din domäns WHOIS-data.&quot;
 
-   * Om DCV-e-postmetoden inte är ett alternativ för dig är nästa metod DNS TXT-metoden, där du lägger till en DNS TXT-post i domänen med ett hash-värde. Denna TXT-post anger för DigitalCert att Adobe har behörighet att generera certifikatet. Om du behöver använda den här metoden ska du meddela Adobe Client Care när du öppnar en biljett (steg 3). Detta snabbar upp DCV-processen.
-
 1. Skapa en CNAME-post i domänens DNS som pekar på det vanliga värdnamnet `clientcode.tt.omtrdc.net`. Om klientkoden till exempel är namngiven kund och det värdnamn som föreslås är `target.example.com`, bör din DNS CNAME-post se ut ungefär så här:
 
    ```
-   target.example.com  IN  CNAME  cnamecustomer.tt.omtrdc.net.
+   target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
    ```
 
 1. Öppna en [Adobe Client Care-biljett där du får CNAME-support](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C) för dina [!DNL Target] samtal.
@@ -46,11 +56,15 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
 ## Vanliga frågor
 
-Följande information besvarar vanliga frågor om att begära och implementera CNAM-stöd i [!DNL Target]:
+Följande information besvarar vanliga frågor om att begära och implementera CNAME-stöd i [!DNL Target]:
 
-### Kan jag tillhandahålla mitt eget certifikat? I så fall, hur är det?
+### Kan jag uppge mitt eget certifikat (även kallat &quot;gipscertifikat&quot;)? I så fall, hur är det?
 
-Ja, du kan ange ett eget certifikat för att göra det:
+Ja, du kan ange ett eget certifikat, men __det rekommenderas__ inte. Hanteringen av SSL-certifikatets livscykel är mycket enklare för både Adobe och kunden när Adobe köper och kontrollerar certifikatet. SSL-certifikaten måste förnyas varje år, vilket innebär att Adobe Client Care måste kontakta dig varje år för att skicka ett nytt certifikat till Adobe i tid. Vissa kunder kan få svårt att producera ett förnyat certifikat i tid varje år, vilket äventyrar deras [!DNL Target] implementering eftersom webbläsare kommer att neka anslutningar när certifikatet upphör att gälla.
+
+>[!NOTE]
+>
+>Observera att om du begär en CNAME-implementering med [!DNL Target] egna certifikat så ansvarar du för att ge förnyade certifikat till Adobe Client Care varje år. Om du tillåter att ditt CNAME-certifikat upphör att gälla innan Adobe kan distribuera ett förnyat certifikat kommer det att resultera i ett driftstopp för din specifika [!DNL Target] implementering.
 
 1. Hoppa över steg 1 ovan, men slutför steg 2 och 3. När du öppnar en kundtjänstbiljett från Adobe (steg 3) ska du tala om för dem att du kommer att ge dem ett eget certifikat.
 
@@ -61,6 +75,16 @@ Ja, du kan ange ett eget certifikat för att göra det:
 1. Skicka det nya offentliga certifikatet till Adobe. Adobe-representanter kommer att distribuera det offentliga certifikatet på sina produktionsservrar.
 
 1. Slutför steg 4 när Adobe Client Care har meddelat dig att implementeringen är klar.
+
+### Hur länge till mitt nya SSL-certifikat upphör att gälla?
+
+Certifikat som utfärdats före den 1 september 2020 kommer att vara tvååriga certifikat. Certifikat som utfärdas den 1 september 2020 och senare är 1-årscertifikat. Du kan läsa mer om övergången till ettårscertifikat [här](https://www.digicert.com/position-on-1-year-certificates).
+
+### Vilka värdnamn ska jag välja? Hur många värdnamn per domän ska jag välja?
+
+[!DNL Target] CNAME-implementeringar kräver bara ett värdnamn per domän i SSL-certifikatet och i kundens DNS, så det är vad vi rekommenderar. Vissa kunder kan behöva ytterligare värdnamn per domän för sina egna syften (till exempel testning i mellanlagring), vilket stöds.
+
+De flesta kunder väljer ett värdnamn som `target.example.com`det, så det är vad vi rekommenderar, men valet är i slutändan ditt. Var noga med att inte begära ett värdnamn för en befintlig DNS-post, eftersom det skulle orsaka en konflikt och fördröja hanteringen av din [!DNL Target] CNAME-begäran.
 
 ### Jag har redan en CNAME-implementering för [!DNL Adobe Analytics], kan vi använda samma certifikat eller värdnamn?
 
@@ -74,6 +98,10 @@ ITP-problem kan lösas för Target med bara en CNAME för analys. Du behöver ba
 
 Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
+### Kan Adobe/DigiCert skicka DCV-e-postmeddelanden till en annan e-postadress `<someone>@example.com`?
+
+Nej, DigiCert (eller någon certifikatutfärdare) tillåter inte att endast personer med en e-postadress under en domän auktoriserar ett SSL-certifikat under samma domän, såvida inte den e-postadressen också ingår i domänens WHOIS-information eller den förbestämda listan med adresser (se ovan). Detta garanterar att endast behöriga personer kan godkänna DCV för en viss domän. Om detta inte är möjligt för dig rekommenderar vi att du använder DNS CNAME DCV-metoden (se ovan).
+
 ### Hur verifierar jag att CNAME-implementeringen är klar för trafik?
 
 Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradsterminal med bas och vändning 7.49+):
@@ -83,7 +111,7 @@ Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradstermina
    ```
    function validateEdgeFpsslSni {
        domain=$1
-       for edge in mboxedge{17,21,22,26,{28..33}}.tt.omtrdc.net; do
+       for edge in mboxedge{17,21,22,26,{28..32},34,35,37,38}.tt.omtrdc.net; do
            echo "$edge: $(curl -sSv --connect-to $domain:443:$edge:443 https://$domain 2>&1 | grep subject:)"
        done
    }
@@ -108,7 +136,10 @@ Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradstermina
    mboxedge30.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge31.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge32.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge33.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge34.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge35.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge37.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge38.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    ```
 
 1. Validera din nya DNS CNAME med en annan skrivbegäran som även ska visa `CN=target.example.com`:
@@ -119,4 +150,4 @@ Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradstermina
 
    >[!NOTE]
    >
-   >Om det här kommandot misslyckas men kommandot ovan `validateEdgeFpsslSni` lyckas kanske du måste vänta tills DNS-uppdateringarna är helt spridda.
+   >Om det här kommandot misslyckas men kommandot ovan `validateEdgeFpsslSni` lyckas kanske du måste vänta tills DNS-uppdateringarna är helt spridda. DNS-poster har en associerad [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) som anger cachens förfallotid för DNS-svar för dessa poster, så du kan behöva vänta minst så länge som dina TTL-värden är aktiva. Du kan använda `dig target.example.com` kommandot eller [verktygslådan](https://toolbox.googleapps.com/apps/dig/#CNAME) för G Suite för att söka efter särskilda TTL-värden.
