@@ -4,7 +4,7 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända fel och lösta problem i Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -20,6 +20,20 @@ Information om kända fel i den här versionen av Target. Innehåller även info
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 I följande avsnitt listas kända problem för [!DNL Target]:
+
+### Rapportering och extrema order
+
+Från 25 november 2019 till 26 april 2020 uppstod ett problem på en målserver som ledde till att extrema ordervärden räknades in i intäktsbaserade rapportvärden (AOV, RPV). Från 19 december 2019 till 23 april 2020 har en annan server drabbats av samma problem. Problemet påverkade inte alla Target-servrar eller alla Target-kunder.
+
+Du påverkades *inte* om:
+
+* Målimplementeringen använder olika servrar.
+* Dina rapporter uteslöt inte extrema order.
+* Du använde ett konverteringsmått för att mäta dina aktiviteter.
+* Dina målaktiviteter använder Analytics för Target (A4T).
+* Du bor i Asien-Stillahavsområdet (APAC).
+
+Om du vill ta reda på om det här problemet påverkar implementeringen av Target kontaktar du [kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Sidleverans {#page-delivery}
 
