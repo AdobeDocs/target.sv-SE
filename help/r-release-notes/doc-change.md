@@ -5,7 +5,7 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -18,6 +18,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 29 april | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett känt problem har lagts till för rapportering av extrema order. |
 | 28 april | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Information om hur du använder `user.header('x-forwarded-for')` med nyare AWS-kanter för att hämta användarnas IP-adresser har tagits bort. Det här kommandot fungerar nu med nyare AWS-kanter. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Ändrad till 6 maj för målversionen av Standard/Premium (20.4.1). |
 | 23 april | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
@@ -345,7 +346,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [](/help/r-troubleshooting-target/target-limits.md)<br>[LimitsCustom-entitetsattribut](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) | Lagt till information om gränser för anpassade entitetsattribut. |
 |  | [Mål och målgrupper Frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings-that-represent-numbers) | Uppdaterad text. |
 |  | [Skapa nya villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#custom) | Ett nytt avsnitt som förklarar hur du skapar profilbaserade grupperingar för popularitetsalgoritmer har lagts till: &quot;Använd en anpassad rekommendationsnyckel.&quot; |
-| 19 mars 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om at.js, version 2.0.1 och 1.7.1. |
+| 29 mars 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om at.js, version 2.0.1 och 1.7.1. |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Följande frågor och svar har lagts till: &quot;Stöder A4T virtuella rapportsviter?&quot; |
 | 18 mars 2019 | [Versionsinformation för målversion (prerelease)](/help/r-release-notes/target-release-notes.md) och [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js, version 2.0.1 och 1.7.1. |
 |  | [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#section_92AB4820A5624C669D9A1F1B6220D4FA) och [Customer-attribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Tillagt: Du kan inte skicka följande tecken i `mbox3rdPartyID`: plustecken (+) och snedstreck (/). |
@@ -406,7 +407,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.4 har lagts till. |
+| 16 januari 2019 | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[om version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 1.6.3 har lagts till. |
 | 10 januari 2019 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Datum då Target fullständigt kommer att fasa ut stödet för TLS 1.0-kryptering: 20 februari 2019. |
 | 9 januari 2019 | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Lagt till information om rekommendationer för att infoga före, infoga efter och ersätta med rader. |
 |  | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md)<br>[Versionsinformation om mål (förhandsversion)](/help/r-release-notes/target-release-notes.md)<br>[Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Information om hur Target och Adobe Marketing Cloud upphör att fungera i Microsoft Internet Explorer 11 från och med mars 2019 har lagts till. |
