@@ -5,7 +5,7 @@ title: Resurser och kontaktinformation
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
+source-git-commit: f85b9887559792628151998673b7fc95e0d9145a
 
 ---
 
@@ -113,7 +113,7 @@ Beroende på din lösningskonfiguration kanske vissa alternativ som beskrivs i d
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Vi välkomnar alla förslag och all feedback om den här lösningen. Förbättrade idéer och förslag för Analytics-sviten [kan läggas till i vårt kundinformationsutbyte](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3).
+Vi välkomnar alla förslag och all feedback om den här lösningen. Förbättrade idéer och förslag kan läggas till i [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Klicka på fliken [!UICONTROL Ideas] .
 
 ### Juridik {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
