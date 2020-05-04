@@ -5,7 +5,7 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 28 april 2020**
+**Senast uppdaterad: 4 maj 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -53,7 +53,7 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 * Korrigerade ett visningsfel som medförde att en rekommendationsalgoritm visade &quot;hämtningsresultat&quot; under en längre period. (TGT-36550 &amp; TGT-36551)
 * Uppdaterade många gränssnittssträngar som är lokaliserade på olika språk.
 
-## Ändringar i API:t för gruppstatus v2 (4 maj 2020)
+## Ändringar i API:t för gruppstatus v2 (12 maj 2020)
 
 I versionen från 4 maj returnerar status för profilgrupp endast feldata på radnivå som går framåt (data om lyckade åtgärder returneras inte). Misslyckade profil-ID:n returneras av API:t som fortsätter.
 
