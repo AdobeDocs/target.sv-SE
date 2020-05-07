@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: Information om funktionen targetGlobalSettings() för JavaScript-biblioteket at.js i Adobe Target.
 title: Information om funktionen targetGlobalSettings() för JavaScript-biblioteket at.js i Adobe Target.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Du kan åsidosätta följande inställningar:
 
 | Inställningar | Typ | Standardvärde | Beskrivning |
 |--- |--- |--- |--- |
-| serverState | Se &quot;serverState&quot; nedan. | Se &quot;serverState&quot; nedan. | Se &quot;serverState&quot; nedan. |
+| serverState | Se&quot;Hybrid personalization&quot; nedan. | Se&quot;Hybrid personalization&quot; nedan. | Se&quot;Hybrid personalization&quot; nedan. |
 | clientCode | Sträng | Värde angivet via användargränssnitt | Representerar klientkod |
 | serverDomain | Sträng | Värde angivet via användargränssnitt | Representerar server för målkant |
 | cookieDomain | Sträng | Om möjligt inställd på toppnivådomän | Representerar domänen som används när cookies sparas |
@@ -39,7 +42,7 @@ Du kan åsidosätta följande inställningar:
 | bodyHidingEnabled | Boolean | true | Används för att styra flimmer när `target-global-mbox` används för att leverera erbjudanden som skapats i Visual Experience Composer , även kallat visuella erbjudanden |
 | imsOrgId | Sträng | IMS-ORG-ID | Representerar IMS ORG ID |
 | secureOnly | Boolean | false | Anger om at.js endast ska använda HTTPS eller tillåtas växla mellan HTTP och HTTPS baserat på sidprotokollet. |
-| overrideMboxEdgeServer | Boolean | true (true med början från at.js version 1.6.2) | Anger om vi ska använda `<clientCode>.tt.omtrdc.net` domän eller `mboxedge<clusterNumber>.tt.omtrdc.net` domän.<br>Om det här värdet är true sparas `mboxedge<clusterNumber>.tt.omtrdc.net` domänen i en cookie |
+| overrideMboxEdgeServer | Boolean | true (true med början från at.js version 1.6.2) | Anger om vi ska använda `<clientCode>.tt.omtrdc.net` domän eller `mboxedge<clusterNumber>.tt.omtrdc.net` domän.<br>Om det här värdet är true sparas domänen i en cookie-fil `mboxedge<clusterNumber>.tt.omtrdc.net` . Fungerar för närvarande inte med [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | Nummer | 1860000 => 31 minuter | Anger den cookie-livstid som innehåller `mboxedge<clusterNumber>.tt.omtrdc.net` värdet. |
 | optoutEnabled | Boolean | false | Anger om Target ska anropa API- `isOptedOut()` funktionen för besökare. Detta är en del av aktiveringen av Device Graph. |
 | selectorsPollingTimeout | Nummer | 5000 ms = 5 s | I at.js 0.9.6 introducerade Target den här nya inställningen som kan åsidosättas via `targetGlobalSettings`.<br>`selectorsPollingTimeout` visar hur länge klienten är beredd att vänta på att alla element som identifieras av väljarna ska visas på sidan.<br>Aktiviteter som skapas via Visual Experience Composer (VEC) har erbjudanden som innehåller väljare. |
@@ -49,7 +52,7 @@ Du kan åsidosätta följande inställningar:
 
 ## Användning {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Inställningar]** > **[!UICONTROL Implementering]** > **[!UICONTROL Redigera at.js-inställningar]** > **[!UICONTROL Kodinställningar]** > **[!UICONTROL Bibliotekshuvud]**.
+Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 I fältet Bibliotekshuvud kan du ange JavaScript utan formulär. Anpassningskoden ska se ut ungefär som i följande exempel:
 
@@ -201,7 +204,7 @@ window.targetGlobalSettings = {
 
 När `cspScriptNonce` och `cspStyleNonce` inställningar har angetts anger at.js 2.3.0+ dessa som nonce-attribut för alla SCRIPT- och STYLE-taggar som läggs till i DOM när Target-erbjudanden tillämpas.
 
-## serverState {#server-state}
+## Hybrid-personalisering {#server-state}
 
 `serverState` är en inställning som är tillgänglig i at.js v2.2+ som kan användas för att optimera sidprestanda när en hybridintegrering av Target implementeras. Hybrid-integrering innebär att du använder både at.js v2.2+ på klientsidan och leverans-API:t eller en Target SDK på serversidan för att leverera upplevelser. `serverState` ger at.js v2.2+ möjlighet att tillämpa upplevelser direkt från innehåll som hämtas på serversidan och returneras till klienten som en del av den sida som skickas.
 
