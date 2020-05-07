@@ -5,7 +5,10 @@ title: Aktivitets-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1477'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +75,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
    Du kan också tvinga dig ut manuellt genom att läsa in en sida på webbplatsen med parametern `at_preview_token` med ett tomt värde (till exempel `https://www.mysite.com/?at_preview_token=`).
 
 * Om du angav &quot;URL is&quot; när du skapade aktivitetsförbättringarna i den formulärbaserade dispositionen [eller alternativen för](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) sidleverans i Visual Experience Composer) [](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)fungerar inte QA-URL:en eftersom Activity QA lägger till URL-parametrar. Du löser det här problemet genom att klicka på QA-URL:en för att gå till webbplatsen, ta bort de tillagda parametrarna från URL:en och sedan läsa in den nya URL:en.
-* Om du har .js 1.*x*, eller mbox.js, Activity QA-läget är inte tilltalande om du använder Safari eller en annan webbläsare som blockerar cookies från tredje part. I dessa fall måste du lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till.
+* Om du har .js 1.*x*, eller mbox.js, Activity QA-läget är inte tilltalande om du använder Safari eller en annan webbläsare som blockerar cookies från tredje part. I dessa fall måste du lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till. Detsamma gäller om du har implementerat [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
 * Om en aktivitet använder flera upplevelsemålgrupper (till exempel en amerikansk och brittisk webbplats som ingår i samma aktivitet) genereras inte QA-länkar för de fyra kombinationerna (Experience A/ US Site, Experience A/ UK Site, Experience B/ US Site, Experience B/ UK Site). Endast två QA-länkar (Experience A och Experience B) skapas, och användarna måste kvalificera sig för att rätt målgrupp ska kunna se sidan. En QA-person i Storbritannien kunde inte se den amerikanska webbplatsen.
 * Alla `at_preview` parametrar och värden är redan URL-kodade. För det mesta fungerar allt som förväntat. Vissa kunder kan dock ha belastningsutjämnare eller webbservrar som försöker koda frågesträngsparametrarna igen.
 
