@@ -5,7 +5,10 @@ title: CNAME och Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 0%
 
 ---
 
@@ -90,9 +93,9 @@ De flesta kunder väljer ett värdnamn som `target.example.com`det, så det är 
 
 Nej, [!DNL Target] kräver ett separat värdnamn och certifikat.
 
-### Påverkas min nuvarande implementering av Target av ITP 2.1 eller 2.2?
+### Påverkas min nuvarande implementering av Target av ITP 2.x?
 
-I en Safari-webbläsare navigerar du till den webbplats där du har ett Target JavaScript-bibliotek. Om du ser en Target-cookie som angetts i samband med en CNAME, till exempel `analytics.company.com`, påverkas du inte av ITP 2.1 eller 2.2.
+I en Safari-webbläsare navigerar du till den webbplats där du har ett Target JavaScript-bibliotek. Om du ser en Target-cookie som angetts i samband med en CNAME, till exempel `analytics.company.com`, påverkas du inte av ITP 2.x.
 
 ITP-problem kan lösas för Target med bara en CNAME för analys. Du behöver bara ett separat mål-CNAME om det gäller annonsblockerande scenarier där Target är blockerat.
 
