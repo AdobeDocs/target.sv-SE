@@ -5,7 +5,10 @@ title: 'Versionsinformation om Adobe Target (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 >[!NOTE]
 >
->* **borttagning** av mbox.js: 30 augusti 2020 kommer Adobe Target inte längre att ha stöd för mbox.js-biblioteket. Efter 30 augusti 2020 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där Target-aktiviteter körs. Vi rekommenderar att alla kunder migrerar till den senaste versionen av at.js-biblioteket före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Se *Adobe Target SKompetensverktyg: Utvecklarchatt, migrera Adobe Target mbox.js till at.js* nedan om du vill ha information om hur du registrerar dig för en kommande utvecklarchatt om det här ämnet.
+>* **borttagning** av mbox.js: 30 augusti 2020 kommer Adobe Target inte längre att ha stöd för mbox.js-biblioteket. Efter 30 augusti 2020 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där Target-aktiviteter körs. Vi rekommenderar att alla kunder migrerar till den senaste versionen av at.js-biblioteket före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Se *Adobe Target SKompetensverktyg: Utvecklarchatt: migrera Adobe Target mbox.js till at.js* nedan för mer information.
    >
    >   
    Även om mbox.js stöds för närvarande har vi inte tillhandahållit några funktionsuppdateringar för det här biblioteket sedan juli 2017. Den nyare at.js har många fördelar jämfört med mbox.js. Bland annat har at.js förbättrat sidinläsningstiderna för webbimplementeringar, förbättrat säkerheten och erbjuder bättre implementeringsalternativ för enkelsidiga program.
@@ -29,11 +32,7 @@ Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
 ## Adobe Target-verktyget för kompetensutveckling: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
-Träffa David Son, Adobe Target Product Manager, och berätta om fördelarna med att migrera mbox.js till at.js. Hör de senaste at.js-uppdateringarna, läs om de förbättrade funktionerna och hur de är anpassade till större trender inom teknologiområdet, samt några praktiska tips som ser till att du får ut så mycket av Target när du migrerar från mbox.js till at.js. Adobe Target-utvecklare vill inte missa detta!
-
-Tisdag 5 maj 08:00 - 09:00 (PDT)
-
-[Anmäl dig nu!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+I och med den kommande utfasningen av mbox.js den 30 augusti 2020 var David Son, var Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Under de närmaste 30 dagarna kan du [visa inspelningen](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)av webbinariet.
 
 ## Target at.js (25 mars 2020)
 
@@ -77,23 +76,23 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 
 * När du loggar in på [!DNL Adobe Experience Cloud]sidan kommer du till den nya rubriknavigeringen. Den ser ut ungefär som den tidigare navigeringen med det svarta fältet högst upp, men har följande förbättringar:
 
-   * Enklare växling mellan [!DNL Identity Management System] (IMS) organisationer eller en annan lösning.
-   * Förbättrad användarhjälp: Sökresultaten är bland annat resultat från [!DNL Target] produktdokumentationen, communityforum och mer videoinnehåll, vilket gör det enklare att få tillgång till mer innehåll för att få ut så mycket som möjligt [!DNL Target]. Vi har också lagt till en funktion för feedback direkt på [!UICONTROL Hjälp] -menyn, som gör det enklare att rapportera problem eller dela med dig av dina idéer.
+   * Enklare att växla mellan [!DNL Identity Management System] (IMS)-organisationer eller till en annan lösning.
+   * Förbättrad användarhjälp: Sökresultaten är bland annat resultat från [!DNL Target] produktdokumentationen, communityforum och mer videoinnehåll, vilket gör det enklare att få tillgång till mer innehåll för att få ut så mycket som möjligt [!DNL Target]. Vi har också lagt till en funktion för feedback direkt på [!UICONTROL Help] menyn, vilket gör det enklare att rapportera problem eller dela med dig av dina idéer.
 
    * Förbättrad feedback för NPS (Net Promoter Score) så att undersökningen inte stör arbetsflödet.
    * Förbättrat inloggningsflöde. Tidigare landade alla [!DNL Target] kunder på landningssidan Target efter att ha klickat på [!DNL Target] ikonen i sidhuvudet. På den här sidan kan kunderna sedan gå vidare med [!DNL Target Standard/Premium], [!DNL Search&Promote]eller [!DNL Recommendations Classic]enligt nedan:
 
       ![Landningssida](/help/r-release-notes/assets/landing.png)
 
-      Vi eliminerade den här landningssidan för alla våra kunder. Du dirigeras nu alltid direkt till sidan [!UICONTROL Aktivitetslista] genom att klicka på [!DNL Target] ikonen i det nya sidhuvudsnavigeringsfältet.
+      Vi eliminerade den här landningssidan för alla våra kunder. Du kommer nu alltid direkt till [!UICONTROL Activities List] sidan genom att klicka på [!DNL Target] ikonen i det nya sidhuvudsnavigeringsfältet.
 
-      Om du använder [!DNL Recommendations Classic]kan du antingen gå direkt till lösningen eller gå från den korta länken på fliken [!UICONTROL Rekommendationer] , som visas nedan:
+      Om du använder [!DNL Recommendations Classic]kan du antingen gå direkt till lösningen eller gå från den korta länken som skapas på [!UICONTROL Recommendations] fliken enligt nedan:
 
       ![Recs Classic deep link](/help/r-release-notes/assets/recs-classic.png)
 
       Om du använder [!DNL Search&Promote]måste du gå direkt till URL:en [för sökning och befordran](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1). Sökvägen som ska nås [!DNL Search&Promote] inifrån [!DNL Adobe Target] har tagits bort helt.
 
-   * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i listrutan [!UICONTROL Meddelanden] i sidhuvudet.
+   * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i [!UICONTROL Notifications] listrutan i sidhuvudet.
    >[!NOTE]
    >
    >Som en del av utrullningen av det nya navigeringsfältet kommer du även att märka vissa URL-ändringar. Alla tidigare länkar med bokmärken fortsätter att fungera, men vi rekommenderar att du bokmärker nya länkar för snabbare öppning.
