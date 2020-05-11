@@ -5,7 +5,10 @@ title: Integrera rekommendationer med e-post
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1420'
+ht-degree: 0%
 
 ---
 
@@ -104,7 +107,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Krävs för vissa typer av kriterier: vy/vy, vy/köpt, köpt/köpt) | *entity_id* | Produkt-ID som rekommendationen baseras på, till exempel en övergiven produkt i kundvagnen eller ett tidigare köp.<br>Om villkoret kräver det måste anropet till rawbox innehålla `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Om `entity.id` skickas rekommenderas att även skicka den här parametern för att förhindra att begäran ökar antalet tallied-sidvisningar för ett objekt, så att man inte skevar produktvybaserade algoritmer. |  |
 | `entity.categoryId`<br>(Krävs för vissa typer av kriterier: mest visade per kategori och bästsäljare per kategori) | *category_id* | Den kategori som rekommendationen baseras på, till exempel de främsta säljarna i en kategori.<br>Om villkoret kräver det måste anropet till rawbox innehålla `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Om `mboxNoRedirect` parametern inte finns bör `mboxDefault` den vara en absolut URL som returnerar standardinnehåll om ingen rekommendation är tillgänglig. Det kan vara en bild eller annat statiskt innehåll.<br>Om `mboxNoRedirect` parametern finns `mboxDefault` kan det vara vilken text som helst som anger att det inte finns några rekommendationer, till exempel `no_content`.<br>E-postleverantören måste hantera det fall där värdet returneras och infoga standard-HTML i e-postmeddelandet. |  |
+| `mboxDefault` | *`https://www.default.com`* | Om `mboxNoRedirect` parametern inte finns bör `mboxDefault` den vara en absolut URL som returnerar standardinnehåll om ingen rekommendation är tillgänglig. Det kan vara en bild eller annat statiskt innehåll.<br>Om `mboxNoRedirect` parametern finns `mboxDefault` kan det vara vilken text som helst som anger att det inte finns några rekommendationer, till exempel `no_content`.<br>E-postleverantören måste hantera det fall där värdet returneras och infoga standard-HTML i e-postmeddelandet. <br> Observera att om domänen som används i URL:en inte är vitlistad kan du utsättas för en risk för ett Open Redirect-fel. `mboxDefault` För att undvika obehörig användning av omdirigeringslänkar eller `mboxDefault` av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standardomdirigerings-URL-domänerna. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Värdar](https://developers.adobetarget.com/api/#server-side-delivery). |  |
 | `mboxHost` | *mbox_host* | Det här är domänen som läggs till i standardmiljön (värdgruppen) när anropet utlöses. |  |
 | `mboxPC` | Tom | (Krävs för rekommendationer som använder en besökarprofil.)<br>Om inget&quot;thirdPartyId&quot; har angetts genereras ett nytt tntId som returneras som en del av svaret. Annars förblir den tom.<br>**Obs **: Var noga med att ange det unika värdet`mboxSession`och`mboxPC`för varje e-postmottagare (dvs. för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svaret ta lång tid eller misslyckas på grund av det stora antalet händelser som genereras i en enskild profil. | 1 &lt; Längd &lt; 128<br>Får inte innehålla mer än ett enda &quot;.&quot; (punkt).<br>Den enda tillåtna punkten är för profilplatsens suffix. |
 
