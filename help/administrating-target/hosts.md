@@ -5,7 +5,7 @@ title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: 81d6ce3e9c83fb4cce26644b45321e7492392bea
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 0%
@@ -125,7 +125,7 @@ Så här skapar du en vitlista:
 
 Om ett mbox-anrop görs till en obehörig värd besvaras samtalet med `/* no display - unauthorized mbox host */`.
 
-Om du använder funktionen ubox i [!DNL Target]bör du tänka på att den här vitlistan även styr listan över domäner som [omdirigeringarna](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om vitlistan inte anges kan Adobe inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
+Om du använder funktionen ubox i [!DNL Target]bör du tänka på att den här vitlistan även styr listan över domäner som [omdirigerarna](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om vitlistan inte anges kan Adobe inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
 
 Vitlistan har företräde framför miljöer. Du bör rensa bort alla värdar innan du använder vitlistefunktionen. Då visas bara de värdar som är tillåtna i vitlistan i värdlistan. Du kan sedan flytta värdarna till den önskade miljön.
 
