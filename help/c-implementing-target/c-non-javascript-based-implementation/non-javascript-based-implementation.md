@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -36,4 +36,4 @@ Annonser och omdirigerare kan användas med alla typer av aktiviteter. I följan
 * Om du vill använda cookies från första part på själva AdBox måste du skicka mBox-sessionen i URL:en. Kontakta din kontorepresentant för att göra detta.
 * Om du vill använda cookies från första part för att spåra annonsklickningar skickar du mbox-sessionen i URL:en. Kontakta din kontorepresentant för att göra detta.
 * Om du vill använda mer än en AdBox på samma sida måste du skicka Mbox-sessionen i URL:en. Kontakta din kontorepresentant för att göra detta. Du kan ha en AdBox- och en Redirector-länk på samma sida (eftersom Redirector finns på en andra sida).
-* Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standarddomänerna för omdirigering av URL. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Värdar](/help/administrating-target/hosts.md).
+* Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standarddomänerna för omdirigering av URL. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*.
