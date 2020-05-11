@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
 title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1741'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ När en mbox-begäran tas emot från nya webbplatser eller domäner visas alltid
 
 Målet begränsar inte en värd som kan skicka och ta emot rutor, så när nya servrar eller domäner kommer upp fungerar de automatiskt (såvida du inte har ställt in en vitlista eller svartlista). Detta möjliggör även annonstestning på olika domäner som du inte vet eller inte kan förutse.
 
-Om du vill hantera värdar och miljöer klickar du på **[!UICONTROL Konfigurera]** > **[!UICONTROL Värdar]**.
+Om du vill hantera värdar och miljöer klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
@@ -44,15 +47,15 @@ Följande villkor måste vara uppfyllda för att en värd ska kunna identifieras
 
 * Sidan med mbox måste visas i en webbläsare
 
-När sidan har visats listas värden i listan [!UICONTROL Värdar] , vilket gör att du kan hantera den i en miljö samt förhandsgranska och starta aktiviteter och tester.
+När sidan har visats listas värden i [!UICONTROL Hosts] listan så att du kan hantera den i en miljö samt förhandsgranska och starta aktiviteter och tester.
 
 >[!NOTE] {class=&quot;- topic/note &quot;
 >
 >Detta inkluderar alla personliga utvecklingsservrar.
 
-Kontrollera att värden känns igen när en värd har lagts till i [!UICONTROL värdlistan] .
+Kontrollera att värden känns igen när en värd har lagts till i [!UICONTROL Host] listan.
 
-1. Klicka på **[!UICONTROL Konfigurera]** > **[!UICONTROL Värdar]**.
+1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Hosts]**.
 1. Uppdatera webbläsaren om värden inte visas.
 Som standard placeras en nyligen identifierad värd i produktionsmiljön. Det här är den säkraste miljön eftersom den inte tillåter att inaktiva aktiviteter kan ses från dessa värdar.
 1. (Villkorligt) Flytta värden till utvecklings- eller mellanlagringsmiljön.
@@ -66,29 +69,29 @@ Som standard placeras en nyligen identifierad värd i produktionsmiljön. Det h�
 Information som hjälper dig att hantera värdar och miljöer (värdgrupper), inklusive att ange standardvärden för rapportering, skapa vitlistor, ändra en miljös namn, flytta en värd till en annan miljö och ta bort en värd eller miljö.
 
 
-Du öppnar listan [!UICONTROL Värdar] genom att klicka på **[!UICONTROL Inställningar]** > **[!UICONTROL Värdar]**.
+Du öppnar [!UICONTROL Hosts] listan genom att klicka **[!UICONTROL Setup]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
 ## Filtrera, sortera eller söka i värdlistan {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Om du vill filtrera [!UICONTROL värdlistorna] efter miljö klickar du på listrutan **[!UICONTROL Alla]** och väljer sedan önskad miljö (Produktion, Förproduktion, Utveckling eller en anpassad miljö som du har skapat).
+Om du vill filtrera [!UICONTROL Hosts] listorna efter miljö klickar du på **[!UICONTROL All]** listrutan och väljer sedan önskad miljö (produktion, mellanlagring, utveckling eller en anpassad miljö som du har skapat).
 
-Om du vill sortera listan [!UICONTROL Värdar] klickar du på en kolumnrubrik (Namn, Miljö eller Senast begärd) för att sortera listan i stigande eller fallande ordning.
+Om du vill sortera listan klickar du på en kolumnrubrik (Namn, Miljö eller Senast begärd) för att sortera listan i stigande eller fallande ordning. [!UICONTROL Hosts]
 
-Om du vill söka i listan [!UICONTROL Värdar] skriver du en sökterm i sökrutan.
+Om du vill söka i [!UICONTROL Hosts] listan skriver du ett sökord i sökrutan.
 
 ## Välj flera värdar {#section_EF3B458475184B7EA997C3559714397C}
 
-Om du vill välja flera värdar markerar du kryssrutorna bredvid kolumnen [!UICONTROL Namn] för önskade värdar. Du kan sedan flytta eller ta bort alla markerade värdar.
+Om du vill välja flera värdar markerar du kryssrutorna bredvid [!UICONTROL Name] kolumnen för önskade värdar. Du kan sedan flytta eller ta bort alla markerade värdar.
 
 ## Skapa en miljö {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Klicka på fliken [!UICONTROL Miljö] i listan **[!UICONTROL Värdar]** .
-1. Klicka på **[!UICONTROL Skapa miljö]**.
+1. Klicka på [!UICONTROL Hosts] fliken i **[!UICONTROL Environments]** listan.
+1. Klicka på **[!UICONTROL Create Environment]**.
 1. Ange ett beskrivande namn för miljön.
-1. Ange önskat aktivt läge för miljön: [!UICONTROL Aktiva aktiviteter] eller [!UICONTROL Aktiva och inaktiva aktiviteter].
-1. Klicka på **[!UICONTROL Spara]**.
+1. Ange önskat aktivt läge för miljön: [!UICONTROL Active Activities] eller [!UICONTROL Active and Inactive Activities].
+1. Klicka på **[!UICONTROL Save]**.
 
 ## Ange standardvärd för rapportering {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
@@ -98,9 +101,9 @@ Om du använder Produktion som standard läggs alla okända värdar automatiskt 
 
 Så här anger du standardmiljön för rapportering:
 
-1. Klicka på fliken [!UICONTROL Inställningar] i listan **[!UICONTROL Värdar]** .
-1. Välj standardvärden i listrutan **[!UICONTROL Miljöinställningar]** .
-1. Klicka på **[!UICONTROL Spara]**.
+1. Klicka på [!UICONTROL Hosts] fliken i **[!UICONTROL Settings]** listan.
+1. Välj standardvärden i **[!UICONTROL Environment Settings]** listrutan.
+1. Klicka på **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -108,19 +111,21 @@ Så här anger du standardmiljön för rapportering:
 
 ## Skapa vitlistor som anger värdar som är auktoriserade att skicka mbox-anrop till mål. {#section_0AF7F56C386A42C381AF704DEF08D5CC}
 
-Du kan skapa en vitlista som anger värdar (domäner) som har behörighet att skicka mbox-anrop till [!DNL Target]. Alla andra värdar som genererar anrop får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller ett mbox-anrop med [!DNL Target] i produktionsmiljön och har tillgång till alla aktiva och godkända aktiviteter. Om detta inte är det önskade sättet kan du i stället använda vitlistan för att registrera specifika värdar som kan ringa mbox-samtal och ta emot [!DNL Target] innehåll. Alla värdar fortsätter att visas i listan [!UICONTROL Värdar] , och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva kampanjer.
+Du kan skapa en vitlista som anger värdar (domäner) som har behörighet att skicka mbox-anrop till [!DNL Target]. Alla andra värdar som genererar anrop får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller ett mbox-anrop med [!DNL Target] i produktionsmiljön och har tillgång till alla aktiva och godkända aktiviteter. Om detta inte är det önskade sättet kan du i stället använda vitlistan för att registrera specifika värdar som kan ringa mbox-samtal och ta emot [!DNL Target] innehåll. Alla värdar kommer att fortsätta att visas i [!UICONTROL Hosts] listan, och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva kampanjer.
 
 Så här skapar du en vitlista:
 
-1. Klicka på fliken [!UICONTROL Inställningar] i listan **[!UICONTROL Värdar]** .
-1. Markera **[!UICONTROL kryssrutan Aktivera auktoriserade värdar för innehållsleverans]** .
-1. Lägg till önskade värdar i rutan **[!UICONTROL Värd innehåller]** efter behov.
+1. Klicka på [!UICONTROL Hosts] fliken i **[!UICONTROL Settings]** listan.
+1. Markera **[!UICONTROL Enable Authorized Hosts for Content Delivery]** kryssrutan.
+1. Lägg till önskade värdar i **[!UICONTROL Host Contains]** rutan efter behov.
 
    Flera värdar kan listas, var och en på sin egen rad.
 
-1. Klicka på **[!UICONTROL Spara]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 Om ett mbox-anrop görs till en obehörig värd besvaras samtalet med `/* no display - unauthorized mbox host */`.
+
+Om du använder funktionen ubox i [!DNL Target]bör du tänka på att den här vitlistan även styr listan över domäner som [omdirigeringarna](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om vitlistan inte anges kan Adobe inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
 
 Vitlistan har företräde framför miljöer. Du bör rensa bort alla värdar innan du använder vitlistefunktionen. Då visas bara de värdar som är tillåtna i vitlistan i värdlistan. Du kan sedan flytta värdarna till den önskade miljön.
 
@@ -128,28 +133,28 @@ Ibland visas domäner från andra platser i dina miljöer. En domän visas i lis
 
 I de fall där `mboxHost` skickas i ett API-anrop registreras konverteringen för den miljö som skickas. Om ingen miljö skickas används standardvärdet Production som värd i anropet.
 
-Du kan också skapa en svart lista som anger värdar (domäner) än vad som inte kan skicka mbox-anrop till [!DNL Target] genom att lägga till önskade värdar i rutan [!UICONTROL Värden innehåller] inte.
+Du kan också skapa en svart lista som anger värdar (domäner) än vad som inte kan skicka mbox-anrop till [!DNL Target] genom att lägga till önskade värdar i [!UICONTROL Host Does Not Contain] rutan.
 
 ## Ändra namnet på en miljö {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Klicka på fliken [!UICONTROL Miljö] i listan **[!UICONTROL Värdar]** .
-1. Håll markören över den önskade miljön och klicka sedan på **[!UICONTROL Redigera]** -ikonen.
+1. Klicka på [!UICONTROL Hosts] fliken i **[!UICONTROL Environments]** listan.
+1. Håll muspekaren över den önskade miljön och klicka sedan på **[!UICONTROL Edit]** -ikonen.
 1. Ändra miljönamnet.
-1. Klicka på **[!UICONTROL Spara]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 ## Flytta en värd till en annan miljö {#section_9F52549958BD485EB74FE78C32773D2A}
 
-1. I listan [!UICONTROL Värdar] hovrar du över värden som du vill flytta.
-1. Klicka på ikonen **[!UICONTROL Flytta]** .
+1. Håll markören över den värddator som du vill flytta från listan [!UICONTROL Hosts] .
+1. Klicka på **[!UICONTROL Move]** ikonen.
 1. Välj önskad miljö i listrutan och klicka sedan på bockmarkeringsikonen.
 
 ## Ta bort en värd {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Du kan ta bort en värd när den inte längre behövs.
 
-1. I listan [!UICONTROL Värdar] håller du pekaren över den värd som du vill ta bort.
-1. Klicka på ikonen **[!UICONTROL Ta bort]** .
-1. Bekräfta borttagningen genom att klicka på **[!UICONTROL Ta bort]** .
+1. Håll markören över den värddator som du vill ta bort från [!UICONTROL Hosts] listan.
+1. Klicka på **[!UICONTROL Delete]** ikonen.
+1. Klicka **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
 >[!NOTE]
 >
@@ -159,10 +164,10 @@ Du kan ta bort en värd när den inte längre behövs.
 
 Du kan ta bort en miljö när den inte längre behövs.
 
-1. Klicka på fliken [!UICONTROL Miljö] i listan **[!UICONTROL Värdar]** .
+1. Klicka på [!UICONTROL Hosts] fliken i **[!UICONTROL Environments]** listan.
 1. Håll pekaren över den miljö du vill ta bort.
-1. Klicka på ikonen **[!UICONTROL Ta bort]** .
-1. Bekräfta borttagningen genom att klicka på **[!UICONTROL Ta bort]** .
+1. Klicka på **[!UICONTROL Delete]** ikonen.
+1. Klicka **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
 >[!NOTE]
 >
@@ -176,13 +181,13 @@ Prova följande felsökningstips om du får problem med värdarna:
 
 **Värden visas inte i mbox-listan för ditt konto.**
 
-* Uppdatera sidan [!UICONTROL Värdar] i webbläsaren.
+* Uppdatera [!UICONTROL Hosts] sidan i webbläsaren.
 * Bekräfta att mbox-koden är korrekt, inklusive [!DNL mbox.js] referensen.
 * Försök att bläddra till en av mapparna på värden. Det är möjligt att ingen mbox på värden renderades i en webbläsare.
 
-**Slumpmässiga eller okända domäner visas i[!UICONTROL värdlistan].**
+**Slumpmässiga eller okända domäner visas i[!UICONTROL Host]listan.**
 
-En domän visas i den här listan om ett anrop görs från domänen. [!DNL Target] Ofta kan du se domäner från spindelmotorer, översättarplatser eller lokala diskenheter. Om den listade domänen inte är en som teamet använder kan du ta bort den genom att klicka på [!UICONTROL Ta bort] .
+En domän visas i den här listan om ett anrop görs från domänen. [!DNL Target] Ofta kan du se domäner från spindelmotorer, översättarplatser eller lokala diskenheter. Om den listade domänen inte är en som ditt team använder kan du klicka för [!UICONTROL Delete] att ta bort den.
 
 **Min mbox-anrop returnerar /* ingen skärm - oauktoriserad mbox-värd */.**
 
@@ -206,8 +211,8 @@ Om du inte ser dina produkter bör du kontrollera att du använder rätt värdgr
 
 Miljöfiltret är tillgängligt från följande platser i målgränssnittet:
 
-* Katalogsökning ([!UICONTROL Rekommendationer > Katalogsökning])
-* Dialogrutan Skapa samling ([!UICONTROL Rekommendationer > Samlingar > Skapa ny])
-* Dialogrutan Uppdatera samling ([!UICONTROL Rekommendationer > Samlingar > Redigera])
-* Dialogrutan Skapa undantag ([!UICONTROL Rekommendationer > Undantag > Skapa nytt])
-* Dialogrutan Uppdatera undantag ([!UICONTROL Rekommendationer > Undantag > Redigera])
+* Katalogsökning ([!UICONTROL Recommendations > Catalog Search])
+* Dialogrutan Skapa samling ([!UICONTROL Recommendations > Collections > Create New])
+* Dialogrutan Uppdatera samling ([!UICONTROL Recommendations > Collections > Edit])
+* Dialogrutan Skapa undantag ([!UICONTROL Recommendations > Exclusions > Create New])
+* Dialogrutan Uppdatera undantag ([!UICONTROL Recommendations > Exclusions > Edit])
