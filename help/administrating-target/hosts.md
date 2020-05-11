@@ -5,7 +5,7 @@ title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Om du vill hantera värdar och miljöer klickar du på **[!UICONTROL Setup]** > 
 
 ![](assets/hosts_list.png)
 
-## Identifiera värdar {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Känna igen värdar {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 Information om villkoren som måste uppfyllas för [!DNL Target] att en värd ska identifieras och läggas till i listan Värdar.
 
@@ -73,7 +73,7 @@ Du öppnar [!UICONTROL Hosts] listan genom att klicka **[!UICONTROL Setup]** > *
 
 ![](assets/hosts_list.png)
 
-## Filtrera, sortera eller söka i värdlistan {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filtrera, sortera eller söka i listan Värdar {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Om du vill filtrera [!UICONTROL Hosts] listorna efter miljö klickar du på **[!UICONTROL All]** listrutan och väljer sedan önskad miljö (produktion, mellanlagring, utveckling eller en anpassad miljö som du har skapat).
 
@@ -93,7 +93,7 @@ Om du vill välja flera värdar markerar du kryssrutorna bredvid [!UICONTROL Nam
 1. Ange önskat aktivt läge för miljön: [!UICONTROL Active Activities] eller [!UICONTROL Active and Inactive Activities].
 1. Klicka på **[!UICONTROL Save]**.
 
-## Ange standardvärd för rapportering {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Ange standardvärden för rapportering {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Du kan välja den miljö som du vill använda som standard för alla aktivitetsrapporter.
 
@@ -109,7 +109,7 @@ Så här anger du standardmiljön för rapportering:
 >
 >[!DNL Recommendations] -användare måste återskapa sin beteendedatabas och produktdatabas om värdar byter värdgrupper.
 
-## Skapa vitlistor som anger värdar som är auktoriserade att skicka mbox-anrop till mål. {#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target. {#whitelist}
 
 Du kan skapa en vitlista som anger värdar (domäner) som har behörighet att skicka mbox-anrop till [!DNL Target]. Alla andra värdar som genererar anrop får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller ett mbox-anrop med [!DNL Target] i produktionsmiljön och har tillgång till alla aktiva och godkända aktiviteter. Om detta inte är det önskade sättet kan du i stället använda vitlistan för att registrera specifika värdar som kan ringa mbox-samtal och ta emot [!DNL Target] innehåll. Alla värdar kommer att fortsätta att visas i [!UICONTROL Hosts] listan, och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva kampanjer.
 
