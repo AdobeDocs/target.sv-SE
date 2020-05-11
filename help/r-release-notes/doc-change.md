@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
 workflow-type: tm+mt
-source-wordcount: '7525'
+source-wordcount: '7578'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 11 maj | [Värdar](/help/administrating-target/hosts.md) | Lagt till information om hur du använder funktionen ubox med omdirigeringar och vitlistor. |
+|  | [Arbeta med regissörer](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
+|  | [Integrera rekommendationer med e-post](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
+|  | [E-post: implementera mål](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
 | 7 maj | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | I och med den kommande utfasningen av mbox.js den 30 augusti 2020 var David Son, var Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Det finns en länk där du kan titta på webbinariet de kommande 30 dagarna. |
 |  | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Uppdaterade avsnittet &quot;Överväganden&quot;. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Uppdaterad&quot;overrideMboxEdgeServer&quot;-rad under&quot;Settings&quot;. |
@@ -337,7 +341,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 5 april 2019 | [Adobe Target Basics webbinarium: Introduktion till rekommendationer](/help/c-recommendations/recommendations.md#intro-to-recs) | Länk har lagts till i inspelningen av webbseminariet&quot;Introduction to Recommendations&quot;. |
 |  | [Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Uppdaterad JavaScript-kod för QA-bokmärkesaktiviteten. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade den preliminära versionsinformationen för Target 19.4.1- och Target 19.4.2-utgåvorna, båda planerade i april 2019. |
-| 4 april 2019 | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lade till preliminär versionsinformation för Target 19.4.1 och Target 19.4.2, båda planerade i april 2019. |
+| 4 april 2019 | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lade till preliminär versionsinformation för Target 19.4.1- och Target 19.4.2-utgåvorna, båda planerade i april 2019. |
 | 30 mars 2019 | [Gränser](/help/r-troubleshooting-target/target-limits.md#excludedid) | Lagt till information om gränserna för parametern `excludedID` mbox. |
 | 29 mars 2019 | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till: &quot;På SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder under [!UICONTROL Modifications] panelen om du avbryter inläsningen.&quot;<br>Följande kända fel har flyttats till avsnittet Lösta problem: &quot;v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som skapats via Target så att de ligger i standardarbetsytan.&quot; |
 | 28 mars 2019 | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Följande nya avsnitt har lagts till:<ul><li>[Avbryt inläsning av en sida i VEC.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Redigera en sida medan sidan läses in eller när sidan inte kan läsas in](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
