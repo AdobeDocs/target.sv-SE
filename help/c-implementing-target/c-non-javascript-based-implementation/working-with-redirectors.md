@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Innan du kan använda en omdirigering måste du skapa den.
 
    * Var `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` är standarddestinationen.
 
-      Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standarddomänerna för omdirigering av URL. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Värdar](/help/administrating-target/hosts.md).
+      Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standarddomänerna för omdirigering av URL. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*.
 
       Detta måste vara URL-kodat och måste vara en absolut referens. Du kan använda [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) för att snabbt koda dina URL:er.|
 
@@ -90,7 +90,7 @@ Innan du kan använda en omdirigering måste du skapa den.
 
 1. Skicka den fullständiga URL:en för omdirigeraren till ditt Display Ad Network som annonsmål.
 
-## Använd en omdirigerare för att skicka kostnader per klick och intäkt per klick {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Använd en omdirigering för att skicka kostnader per klick och intäkt per klick {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Information om hur du använder en omdirigering för att plocka kostnader per klick och intäkter per klick.
 
