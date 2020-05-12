@@ -5,9 +5,9 @@ title: Integrera rekommendationer med e-post
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -70,12 +70,12 @@ Ställ in en [!DNL Recommendations] aktivitet i [!DNL Adobe Target]med alternati
 
 E-postsystemet du använder bör kunna hantera följande scenarier:
 
-**Ett giltigt svar har tagits emot, men det finns inga rekommendationer.**
+### Ett giltigt svar togs emot, men det finns inga rekommendationer
 
 * I det här fallet är svaret det som anges som mboxDefault-parametervärde. Se förklaringen nedan om den här parametern.
 * E-postprovidern bör ha ett HTML-standardblock med rekommendationer att använda i det här fallet.
 
-**Målservern gör timeout och returnerar utan data.**
+### Målservern gör timeout och returnerar utan data
 
 * I det här fallet returnerar målservern följande innehåll:
 
@@ -87,13 +87,13 @@ E-postsystemet du använder bör kunna hantera följande scenarier:
    * Kasta bort just det mejlet och fortsätt till nästa.
    * Köa just den e-postadressen och kör misslyckade e-postmeddelanden som en batch i slutet av den första körningen.
 
-**URL för exempelbegäran:**
+### URL för exempelbegäran
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-**Obligatoriska parametrar:**
+### Obligatoriska parametrar: {#reqparams}
 
 >[!NOTE]
 >
@@ -107,11 +107,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Krävs för vissa typer av kriterier: vy/vy, vy/köpt, köpt/köpt) | *entity_id* | Produkt-ID som rekommendationen baseras på, till exempel en övergiven produkt i kundvagnen eller ett tidigare köp.<br>Om villkoret kräver det måste anropet till rawbox innehålla `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Om `entity.id` skickas rekommenderas att även skicka den här parametern för att förhindra att begäran ökar antalet tallied-sidvisningar för ett objekt, så att man inte skevar produktvybaserade algoritmer. |  |
 | `entity.categoryId`<br>(Krävs för vissa typer av kriterier: mest visade per kategori och bästsäljare per kategori) | *category_id* | Den kategori som rekommendationen baseras på, till exempel de främsta säljarna i en kategori.<br>Om villkoret kräver det måste anropet till rawbox innehålla `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Om `mboxNoRedirect` parametern inte finns bör `mboxDefault` den vara en absolut URL som returnerar standardinnehåll om ingen rekommendation är tillgänglig. Det kan vara en bild eller annat statiskt innehåll.<br>Om `mboxNoRedirect` parametern finns `mboxDefault` kan det vara vilken text som helst som anger att det inte finns några rekommendationer, till exempel `no_content`.<br>E-postleverantören måste hantera det fall där värdet returneras och infoga standard-HTML i e-postmeddelandet. <br> Observera att om domänen som används i URL:en inte är vitlistad kan du utsättas för en risk för ett Open Redirect-fel. `mboxDefault` För att undvika obehörig användning av omdirigeringslänkar eller `mboxDefault` av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standardomdirigerings-URL-domänerna. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*. |  |
+| `mboxDefault` | *`https://www.default.com`* | Om `mboxNoRedirect` parametern inte finns bör `mboxDefault` den vara en absolut URL som returnerar standardinnehåll om ingen rekommendation är tillgänglig. Det kan vara en bild eller annat statiskt innehåll.<br>Om `mboxNoRedirect` parametern finns `mboxDefault` kan det vara vilken text som helst som anger att det inte finns några rekommendationer, till exempel `no_content`.<br>E-postleverantören måste hantera det fall där värdet returneras och infoga standard-HTML i e-postmeddelandet. <br> *Bästa praxis* för säkerhet: Observera att om domänen som används i URL:en inte är vitlistad kan du utsättas för en risk för ett Open Redirect-fel. `mboxDefault` För att undvika obehörig användning av omdirigeringslänkar eller `mboxDefault` av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standardomdirigerings-URL-domänerna. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*. |  |
 | `mboxHost` | *mbox_host* | Det här är domänen som läggs till i standardmiljön (värdgruppen) när anropet utlöses. |  |
 | `mboxPC` | Tom | (Krävs för rekommendationer som använder en besökarprofil.)<br>Om inget&quot;thirdPartyId&quot; har angetts genereras ett nytt tntId som returneras som en del av svaret. Annars förblir den tom.<br>**Obs **: Var noga med att ange det unika värdet`mboxSession`och`mboxPC`för varje e-postmottagare (dvs. för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svaret ta lång tid eller misslyckas på grund av det stora antalet händelser som genereras i en enskild profil. | 1 &lt; Längd &lt; 128<br>Får inte innehålla mer än ett enda &quot;.&quot; (punkt).<br>Den enda tillåtna punkten är för profilplatsens suffix. |
 
-**Valfria parametrar**:
+### Valfria parametrar
 
 | Parameter | Värde | Beskrivning | Validering |
 |--- |--- |--- |--- |
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Valfritt) | 1 | Som standard dirigeras anroparen om när inget slutbart innehåll hittas. Används för att inaktivera standardbeteendet. |  |
 | `mbox3rdPartyId` | *xxx* | Använd det här alternativet om du har ett eget besökar-ID som du kan använda för att målinrikta profiler. |  |
 
-**Potentiella målserversvar**:
+### Potentiella målserversvar
 
 | Svar | Beskrivning |
 |--- |--- |
@@ -132,7 +132,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 ## Alternativ 3: Använda mallen Endast nedladdning {#section_518C279AF0094BE780F4EA40A832A164}
 
-Ställ in en rekommendation som vanligt, men välj bara **nedladdning** i presentationsavsnittet i stället för en mall- och mbox-kombination. I ESP anger du sedan för ESP vilket rekommendation-ID du har skapat. ESP får åtkomst till rekommendationsdata via API. Dessa data visar vilka artiklar som bör rekommenderas för en viss kategori eller nyckelartikel, t.ex. artiklar i en övergiven kundvagn. ESP lagrar dessa data, kopplar dem till sitt eget utseende, visar information om varje objekt och levererar det i e-postmeddelandena.
+Ange en rekommendation som vanligt, men välj bara **nedladdning** i presentationsavsnittet i stället för en mall- och mbox-kombination. I ESP anger du sedan för ESP vilket rekommendation-ID du har skapat. ESP får åtkomst till rekommendationsdata via API. Dessa data visar vilka artiklar som bör rekommenderas för en viss kategori eller nyckelartikel, t.ex. artiklar i en övergiven kundvagn. ESP lagrar dessa data, kopplar dem till sitt eget utseende, visar information om varje objekt och levererar det i e-postmeddelandena.
 
 Med det här alternativet kan rekommendationsservern inte direkt spåra prestanda för en rekommendation eller dela trafik mellan flera algoritm-/mallkombinationer. Rekommendationerna är inte heller knutna till någon besökarprofil.
 
