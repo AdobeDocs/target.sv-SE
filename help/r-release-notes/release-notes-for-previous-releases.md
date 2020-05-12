@@ -5,7 +5,10 @@ title: Versionsinformation för tidigare versioner
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+workflow-type: tm+mt
+source-wordcount: '29079'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +22,69 @@ Versionsinformation för tidigare Target-versioner, inklusive versionsinformatio
 >Se Versionsinformation om [Target (aktuell)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2020
+
+### Target at.js (25 mars 2020)
+
+Följande nya versioner av JavaScript-biblioteken Target at.js är tillgängliga:
+
+* at.js version 2.3.0
+* at.js version 1.8.1
+
+Mer information finns [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)för at.js.
+
+### Target Standard/Premium 20.2.1 (23 mars 2020)
+
+>[!IMPORTANT]
+>
+>Se informationen ovan om borttagningen av mbox.js.
+
+Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
+
+* Korrigerade ett problem som hindrade kunder från att välja en samling när de gjorde en katalogsökning. (TGT-36230)
+* Korrigerade ett problem där ett villkor som skapats via API, men som inte refererats av en aktivitet som skapats i målgränssnittet, felaktigt kunde tas bort från gränssnittet. (TGT-35917)
+* Implementerade säkerhetsförbättringar i Content Security Policy (CSP). (TGT-36190)
+* Korrigerade ett problem som gjorde att &quot;NaN%&quot; visades när procentfältet för attributviktning drog åt vänster. (TGT-36211)
+* Löste lokaliseringsproblem så att gränssnittstext på olika språk visas korrekt.
+* Vi har standardiserat listan med tillgängliga mätvärden från Adobe Analytics for Target-aktiviteter (A4T) genom att ta bort Adobe Analytics-mått som inte stöds i den aktuella versionen av Adobe Analytics API:er. Detta gör att vi kan utöka vår A4T-support i framtida Adobe Target-versioner.
+
+   Följande ändringar har gjorts:
+
+   * &quot;Genomsnittlig tid spenderad på sidan&quot; har ersatts med &quot;Genomsnittlig tid spenderad på webbplatsen.&quot; Alla aktiviteter som använder detta som mått för det primära målmåttet kommer att ha &quot;Genomsnittlig tid spenderad på platsen&quot; (Obs! anges i minuter i stället för sekunder) väljs som primärt målmått nästa gång aktiviteten redigeras.
+   * &quot;Besökare&quot; har ersatts med &quot;unika besökare&quot;. Alla aktiviteter som använder det här måttet som primärt målmått kommer att ha &quot;Unika besökare&quot; valt som primärt målmått nästa gång aktiviteten redigeras.
+
+* Följande mått har tagits bort och kan inte längre väljas som primärt målmått när en ny A4T-aktivitet skapas.
+
+   | Inaktuella mått | Föreslagna ersättningsmått |
+   |--- |--- |
+   | Dagliga besökare, timbesökare, månatliga besökare, kvartalsbesök, veckobesökare och årsbesök | Unika besökare |
+   | Genomsnittligt besöksdjup | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+   | Bots | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+   | Kraschfrekvens för mobiler, genomsnittlig tidigare sessionslängd för mobilappar, genomsnittlig rankning för mobilappsbutik, kraschfrekvens för mobilappsprestanda, genomsnittlig klassificering för mobilappsbutik | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+
+### Adobe Experience Cloud-navigering (22 februari 2019)
+
+* När du loggar in på [!DNL Adobe Experience Cloud]sidan kommer du till den nya rubriknavigeringen. Den ser ut ungefär som den tidigare navigeringen med det svarta fältet högst upp, men har följande förbättringar:
+
+   * Enklare att växla mellan [!DNL Identity Management System] (IMS)-organisationer eller till en annan lösning.
+   * Förbättrad användarhjälp: Sökresultaten är bland annat resultat från [!DNL Target] produktdokumentationen, communityforum och mer videoinnehåll, vilket gör det enklare att få tillgång till mer innehåll för att få ut så mycket som möjligt [!DNL Target]. Vi har också lagt till en funktion för feedback direkt på [!UICONTROL Help] menyn, vilket gör det enklare att rapportera problem eller dela med dig av dina idéer.
+
+   * Förbättrad feedback för NPS (Net Promoter Score) så att undersökningen inte stör arbetsflödet.
+   * Förbättrat inloggningsflöde. Tidigare landade alla [!DNL Target] kunder på landningssidan Target efter att ha klickat på [!DNL Target] ikonen i sidhuvudet. På den här sidan kan kunderna sedan gå vidare med [!DNL Target Standard/Premium], [!DNL Search&Promote]eller [!DNL Recommendations Classic]enligt nedan:
+
+      ![Landningssida](/help/r-release-notes/assets/landing.png)
+
+      Vi eliminerade den här landningssidan för alla våra kunder. Du kommer nu alltid direkt till [!UICONTROL Activities List] sidan genom att klicka på [!DNL Target] ikonen i det nya sidhuvudsnavigeringsfältet.
+
+      Om du använder [!DNL Recommendations Classic]kan du antingen gå direkt till lösningen eller gå från den korta länken som skapas på [!UICONTROL Recommendations] fliken enligt nedan:
+
+      ![Recs Classic deep link](/help/r-release-notes/assets/recs-classic.png)
+
+      Om du använder [!DNL Search&Promote]måste du gå direkt till URL:en [för sökning och befordran](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1). Sökvägen som ska nås [!DNL Search&Promote] inifrån [!DNL Adobe Target] har tagits bort helt.
+
+   * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i [!UICONTROL Notifications] listrutan i sidhuvudet.
+   >[!NOTE]
+   >
+   >Som en del av utrullningen av det nya navigeringsfältet kommer du även att märka vissa URL-ändringar. Alla tidigare länkar med bokmärken fortsätter att fungera, men vi rekommenderar att du bokmärker nya länkar för snabbare öppning.
 
 ### Target Standard/Premium 20.1.1 (4 februari 2020)
 
@@ -59,29 +125,29 @@ Mer information finns i [Versionsinformation - Mål-Java SDK](/help/c-implementi
 
 | Funktion/förbättring | Beskrivning |
 | --- | --- |
-| ![Premium badge](/help/assets/premium.png) User-Based Recommendations<br>(24 oktober 2019) | Rekommenderar objekt baserat på besökarens webbläsarhistorik, visning och inköp. De här objekten kallas vanligtvis&quot;Rekommenderas för dig&quot;.<br>Med dessa kriterier kan ni leverera personaliserat innehåll och personaliserade upplevelser till både nya och återkommande besökare. Listan med rekommendationer vägs mot besökarens senaste aktivitet och uppdateras under sessionen och blir mer personlig när besökaren surfar på webbplatsen.<br>Mer information finns i&quot;Användarbaserade rekommendationer&quot; i [Villkor/algoritmer](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
+| ![Premium badge](/help/assets/premium.png) User-Based Recommendations<br>(24 oktober 2019) | Rekommenderar objekt baserat på varje besökares webbsurfning, visning och inköpshistorik. De här objekten kallas vanligtvis&quot;Rekommenderas för dig&quot;.<br>Med dessa kriterier kan ni leverera personaliserat innehåll och personaliserade upplevelser till både nya och återkommande besökare. Listan med rekommendationer vägs mot besökarens senaste aktivitet och uppdateras under sessionen och blir mer personlig när besökaren surfar på webbplatsen.<br>Mer information finns i&quot;Användarbaserade rekommendationer&quot; i [Villkor/algoritmer](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
 **Adobe Experience Cloud-navigering**
 
 * När du loggar in på [!DNL Adobe Experience Cloud]sidan kommer du till den nya rubriknavigeringen. Den ser ut ungefär som den tidigare navigeringen med det svarta fältet högst upp, men har följande förbättringar:
 
    * Enklare att växla mellan [!DNL Identity Management System] (IMS)-organisationer eller till en annan lösning.
-   * Förbättrad användarhjälp: Sökresultaten är bland annat resultat från [!DNL Target] produktdokumentationen, communityforum och mer videoinnehåll, vilket gör det enklare att få tillgång till mer innehåll för att få ut så mycket som möjligt [!DNL Target]. Vi har också lagt till en funktion för feedback direkt på [!UICONTROL Hjälp] -menyn, som gör det enklare att rapportera problem eller dela med dig av dina idéer.
+   * Förbättrad användarhjälp: Sökresultaten är bland annat resultat från [!DNL Target] produktdokumentationen, communityforum och mer videoinnehåll, vilket gör det enklare att få tillgång till mer innehåll för att få ut så mycket som möjligt [!DNL Target]. Vi har också lagt till en funktion för feedback direkt på [!UICONTROL Help] menyn, vilket gör det enklare att rapportera problem eller dela med dig av dina idéer.
 
    * Förbättrad feedback för NPS (Net Promoter Score) så att undersökningen inte stör arbetsflödet.
    * Förbättrat inloggningsflöde. Tidigare landade alla [!DNL Target] kunder på landningssidan Target efter att ha klickat på [!DNL Target] ikonen i sidhuvudet. På den här sidan kan kunderna sedan gå vidare med [!DNL Target Standard/Premium], [!DNL Search&Promote]eller [!DNL Recommendations Classic]enligt nedan:
 
       ![Landningssida](/help/r-release-notes/assets/landing.png)
 
-      Vi eliminerade den här landningssidan för alla våra kunder. Du dirigeras nu alltid direkt till sidan [!UICONTROL Aktivitetslista] genom att klicka på [!DNL Target] ikonen i det nya sidhuvudsnavigeringsfältet.
+      Vi eliminerade den här landningssidan för alla våra kunder. Du kommer nu alltid direkt till [!UICONTROL Activities List] sidan genom att klicka på [!DNL Target] ikonen i det nya sidhuvudsnavigeringsfältet.
 
-      Om du använder [!DNL Recommendations Classic]kan du antingen gå direkt till lösningen eller gå från den korta länken på fliken [!UICONTROL Rekommendationer] , som visas nedan:
+      Om du använder [!DNL Recommendations Classic]kan du antingen gå direkt till lösningen eller gå från den korta länken som skapas på [!UICONTROL Recommendations] fliken enligt nedan:
 
       ![Recs Classic deep link](/help/r-release-notes/assets/recs-classic.png)
 
       Om du använder [!DNL Search&Promote]måste du gå direkt till URL:en [för sökning och befordran](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1). Sökvägen som ska nås [!DNL Search&Promote] inifrån [!DNL Adobe Target] har tagits bort helt.
 
-   * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i listrutan [!UICONTROL Meddelanden] i sidhuvudet.
+   * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i [!UICONTROL Notifications] listrutan i sidhuvudet.
    >[!NOTE]
    >
    >De här funktionerna kommer inte att lanseras samtidigt och kommer inte heller att lanseras för alla kunder tillsammans. Vi kommer att lansera de här funktionerna under de kommande veckorna, från och med version [!DNL Target Standard/Premium] 19.10.1 (22 oktober 2019).
@@ -161,9 +227,9 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 
 | Funktion/förbättring | Beskrivning |
 | --- | --- |
-| Visual Experience Composer (VEC) | **Nya alternativ** på menyn VEC: När du klickar på ett sidelement i VEC visar en meny de alternativ som är tillgängliga för den elementtypen.<ul><li>Nu kan du använda alternativet [!UICONTROL Stilar > Bakgrund] för att ändra bakgrundsbilden och färgen för det markerade elementet. (TGT-15001)</li></ul>Se *Stilar* i Alternativ för [visuell upplevelse](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Förbättrad **klickspårning: Vi har förbättrat processen för att konfigurera klickspårning i VEC och SPA (Single Page Application) VEC.<ul><li>När du markerar element som ska användas i klickspårning visas namnen på alla tillgängliga element på panelen Ändringar till höger, vilket gör det snabbt och enkelt att markera de önskade elementen.</li><li>På sidan [!UICONTROL Mål och inställningar] i det guidade arbetsflödet i tre delar visas ett tal som representerar antalet element som valts för klickspårning. Du kan hålla muspekaren över det här talet för att se namnen på alla markerade element. (TGT-33878)</li></ul>Se [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md). |
+| Visual Experience Composer (VEC) | **Nya alternativ** på menyn VEC: När du klickar på ett sidelement i VEC visar en meny de alternativ som är tillgängliga för den elementtypen.<ul><li>Nu kan du använda alternativet för [!UICONTROL Styles > Background] att ändra bakgrundsbilden och färgen för det markerade elementet. (TGT-15001)</li></ul>Se *Stilar* i Alternativ för [visuell upplevelse](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Förbättrad **klickspårning: Vi har förbättrat processen för att konfigurera klickspårning i VEC och SPA (Single Page Application) VEC.<ul><li>När du markerar element som ska användas i klickspårning visas namnen på alla tillgängliga element på panelen Ändringar till höger, vilket gör det snabbt och enkelt att markera de önskade elementen.</li><li>På sidan [!UICONTROL Goals & Settings] för det guidade arbetsflödet med tre delar visas ett tal som representerar antalet element som har valts för klickspårning. Du kan hålla muspekaren över det här talet för att se namnen på alla markerade element. (TGT-33878)</li></ul>Se [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md). |
 | Single Page App Visual Experience Composer (SPA VEC) | **Guidat arbetsflöde**: Ett nytt guidat arbetsflöde hjälper dig att förstå hur inställningar för sidleverans ska konfigureras för att köra och köra en aktivitet för din Single Page-app. (TGT-33718)<br> Se [Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)för Single Page-program (SPA).<br>**Klonändringar **: Du kan nu definiera en ändring med SPA VEC och sedan klona ändringen för användning i andra vyer i Single Page App. (TGT-33882)<br>Se[Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)för Single Page-program (SPA). |
-| ![Premium badge](/help/assets/premium.png) Automated Personalization (AP) &amp; Auto-Target | **Specifik upplevelse som kontroll**: Du kan välja en upplevelse som ska användas som kontroll när du skapar en AP- eller Auto-Target-aktivitet. Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen. Det nuvarande kontrollalternativet (slumpmässigt hanterade upplevelser) kommer även i fortsättningen att vara tillgängligt. (TGT-32801, TGT-26572 och TGT-26571)<br>Se [Välja kontroll för din automatiska personalisering eller Automatisk målaktivitet](/help/c-activities/t-automated-personalization/experience-as-control.md). Observera att det finns ett [känt problem](/help/r-release-notes/known-issues-resolved-issues.md) med den här funktionen.<br>**Insikter om personalisering - rapporter **: Den marknadsföringsvänliga namngivningen för attribut när en besökare ser en viss del av innehållet på en viss plats ger mer meningsfull information. (TGT-33421 och TGT-34957)<br>Se[Datainsamling för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/ap-data.md). |
+| ![Premium badge](/help/assets/premium.png) Automated Personalization (AP) &amp; Auto-Target | **Specifik upplevelse som kontroll**: Du kan välja en upplevelse som ska användas som kontroll när du skapar en AP- eller Auto-Target-aktivitet. Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen. Det nuvarande kontrollalternativet (slumpmässigt hanterade upplevelser) är fortfarande tillgängligt. (TGT-32801, TGT-26572 och TGT-26571)<br>Se [Välja kontroll för din automatiska personalisering eller Automatisk målaktivitet](/help/c-activities/t-automated-personalization/experience-as-control.md). Observera att det finns ett [känt problem](/help/r-release-notes/known-issues-resolved-issues.md) med den här funktionen.<br>**Insikter om personalisering - rapporter **: Den marknadsföringsvänliga namngivningen för attribut när en besökare ser en viss del av innehållet på en viss plats ger mer meningsfull information. (TGT-33421 och TGT-34957)<br>Se[Datainsamling för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/ap-data.md). |
 | ![Rekommendationer för](/help/assets/premium.png) Premium-emblem | Du kan använda reglaget Rekommendera tidigare inköpta artiklar när du skapar logiken för nyligen visade objekt. (TGT-34030)<br>Mer information finns i [Senast visade objekt](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) i Skapa villkor. |
 | Google Chrome SameSite cookie-principer | Google meddelade nyligen att från och med Chrome 76, som är tilldelad till 30 juli 2019, måste utvecklare uttryckligen ange vilka cookies som kan användas på olika webbplatser och vilka cookies som kan spåra användare.<br>I takt med att branschen strävar efter att skapa en säkrare webbsajt för konsumenterna är Target helt engagerat i att leverera personaliserade upplevelser och samtidigt uppfylla och överträffa besökarnas förväntningar på integritetsskydd.<br>Se [Google Chrome-cookie-principer](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)för samma webbplats. |
 
@@ -204,14 +270,14 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 
 | Funktion/förbättring | Beskrivning |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] | VEC ( [!UICONTROL Visual Experience Composer] ) innehåller följande förbättringar som gör arbetet snabbare och effektivare:<ul><li>DOM-sökvägsfunktionen är nu tillgänglig när du ställer in klickspårning.<br>Mer information finns i [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Använd formatpanelen om du vill visa eller redigera värdet för befintliga format för det markerade elementet. Du kan också lägga till ytterligare format.<br>Du öppnar formatpanelen genom att klicka på ett sidelement i VEC och sedan klicka på [!UICONTROL Redigera] > [!UICONTROL Format].<br>Panelen Format visas till höger om VEC. Panelen innehåller en lista med format som du kan använda för att redigera eller lägga till i det markerade elementet. Med en CSS-redigerare i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.<br>Mer information finns i [Stilar](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) i Alternativ för *Visual Experience Composer*.</li><li>RTF-redigeraren har nu stöd för kapslade HTML5-element.<br>HTML5-specifikationer tillåter nya kombinationer av taggar för kapsling. Den tidigare versionen av RTF-redigeraren hade inte stöd för ny kapsling av taggar enligt HTML5-specifikationen. Därför hanterades inte kapslade element som valdes i VEC korrekt, vilket ledde till oönskade HTML-ändringar. (TGT-33618)<br>Mer information finns i [Redigera text/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) i alternativen för *Visual Experience Composer*.</li> |
+| [!UICONTROL Visual Experience Composer] | ( [!UICONTROL Visual Experience Composer] VEC) innehåller följande förbättringar som gör arbetet snabbare och effektivare:<ul><li>DOM-sökvägsfunktionen är nu tillgänglig när du ställer in klickspårning.<br>Mer information finns i [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Använd formatpanelen om du vill visa eller redigera värdet för befintliga format för det markerade elementet. Du kan också lägga till ytterligare format.<br>Du öppnar formatpanelen genom att klicka på ett sidelement i VEC och sedan klicka på [!UICONTROL Edit] > [!UICONTROL Styles].<br>Panelen Format visas till höger om VEC. Panelen innehåller en lista med format som du kan använda för att redigera eller lägga till i det markerade elementet. Med en CSS-redigerare i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.<br>Mer information finns i [Stilar](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) i Alternativ för *Visual Experience Composer*.</li><li>RTF-redigeraren har nu stöd för kapslade HTML5-element.<br>HTML5-specifikationer tillåter nya kombinationer av taggar för kapsling. Den tidigare versionen av RTF-redigeraren hade inte stöd för ny kapsling av taggar enligt HTML5-specifikationen. Därför hanterades inte kapslade element som valdes i VEC korrekt, vilket ledde till oönskade HTML-ändringar. (TGT-33618)<br>Mer information finns i [Redigera text/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) i alternativen för *Visual Experience Composer*.</li> |
 
 #### Förbättring, korrigeringar och ändringar
 
-* Vi förbättrade arbetsflödet när du tog bort resurser med VEC. Borttagna resurser tas nu bort från [!UICONTROL offertbiblioteket] och från [!DNL Scene7] (om tillämpligt). Borttagna resurser visas inte längre i sökresultaten. (TGT-31981)
+* Vi förbättrade arbetsflödet när du tog bort resurser med VEC. Borttagna resurser tas nu bort från [!UICONTROL Offers library] och från [!DNL Scene7] (om tillämpligt). Borttagna resurser visas inte längre i sökresultaten. (TGT-31981)
 * Du kan nu ta bort resursmappar även om de innehåller bilder (mappar som inte är tomma). (TGT-33265)
 
-   Tidigare gick det inte att ta bort en mapp som inte är tom från målbildens Erbjudande ([!UICONTROL Erbjudanden] > [!UICONTROL Bilderbjudanden]). Du får då ett meddelande om att mappen inte är tom. när du försöker ta bort mappen från användargränssnittet.  Med den här funktionen lägger vi till en funktion som gör att du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i målgränssnittet och i användargränssnittet för Adobe Experience Cloud-resurser.
+   Tidigare gick det inte att ta bort en mapp som inte är tom från målbildens Erbjudandebibliotek ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Du får då ett meddelande om att mappen inte är tom. när du försöker ta bort mappen från användargränssnittet.  Med den här funktionen lägger vi till en funktion som gör att du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i målgränssnittet och i användargränssnittet för Adobe Experience Cloud-resurser.
 
    * Mappar som inte är tomma i bilderbjudandebiblioteket kan tas bort. Om inga referenser finns till alla bilder i mappen i någon aktivitet tas hela mappen och dess innehåll bort. Om det finns referenser till vissa bilder i mappen i någon aktivitet, tas alla bilder som inte refereras bort, men refererade bilder och mappar som innehåller dessa bilder behålls.
    * Rendering av bildeerbjudanden i Image Asset-väljaren går snabbare och effektivare.
@@ -219,7 +285,7 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 
 * Vi förbättrade återgivningen av bilderbjudandena i Assets-väljaren. Nu går det snabbare och effektivare att visa och välja ut bilderbjudanden. (TGT-32897)
 * Vi förbättrade hanteringen av omdirigeringar till URL:er när du avbryter inläsningen av en sida i VEC. (TGT-33815)
-* När du har valt en samling [!UICONTROL rekommendationer] i samlingsväljaren måste du nu klicka på knappen [!UICONTROL Spara] . Det här arbetsflödet är förenligt med andra arbetsflöden i [!DNL Target]. (TGT-33205)
+* När du har valt en [!UICONTROL Recommendations] samling i samlingsväljaren måste du nu klicka på [!UICONTROL Save] knappen. Det här arbetsflödet är förenligt med andra arbetsflöden i [!DNL Target]. (TGT-33205)
 * Korrigerade ett problem som fick en liten uppsättning Insights-rapporter att returnera 0 % konverteringsgrader istället för de faktiska konverteringsnivåerna. (TNT-32125)
 
 ### [!DNL Target] Standard/Premium 19.4.1 (15 april 2019) {#release-19-4-1}
@@ -281,7 +347,7 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 | --- | --- |
 | Visual Experience Composer för enkelsidig app | Med Visual Experience Composer (VEC) för Single Page Apps (SPA) kan marknadsförare skapa tester och personalisera innehåll på SPA på ett sätt som gör det själv utan kontinuerliga utvecklingsberoenden. VEC kan användas för att skapa aktiviteter på de vanligaste ramverken, som React och Angular. (TGT-27916)<br>Mer information finns i [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) och Integrering [av](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Single Page-program.<br>Förutom i ovanstående artikel finns det många ämnen som rör SPA och at.js som handlar om den här funktionen och hur den ska implementeras. Mer information finns i [Dokumentationsändringar](/help/r-release-notes/doc-change.md). |
 | Visual Experience Composer | Visual Experience Composer (VEC) innehåller följande förbättringar som gör arbetet snabbare och effektivare:<ul><li>Nu kan du använda alternativen Infoga före och Infoga efter i VEC när du infogar [AEM-upplevelsefragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md). Se Alternativ för [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>Med [!DNL Adobe Target] webbläsartillägget VEC Helper för Google Chrome kan du läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-webbupplevelser. Se [Hjälptillägg](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)för Visual Experience Composer. (TGT-32746)</li></ul> |
-| ![Premium](/help/assets/premium.png)<br>badgeRekommendationer i [!UICONTROL A/B-tester] och [!UICONTROL aktiviteter för] målgruppsanpassning | Nu kan du inkludera rekommendationer i [!UICONTROL A/B-tester] (inklusive [!UICONTROL Automatisk fördelning] och [!UICONTROL Automatisk målning]) och [!UICONTROL Experience Targeting] -aktiviteter (XT). Detta öppnar upp helt nya funktioner, som:<ul><li>Testa och målinrikta rekommendationer och innehåll som inte är rekommendationer inom samma aktivitet.</li><li>Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning olika rekommendationer ska ges.</li><li>Använd Automatisk [!UICONTROL allokering]för att automatiskt få ut trafik till de bästa rekommendationsupplevelserna.</li><li>Tilldela besökare dynamiskt skräddarsydda rekommendationer baserat på deras individuella profiler med hjälp av [!UICONTROL Automatiskt mål].</li></ul>Kom igång genom att skapa en [!UICONTROL A/B-test] eller [!UICONTROL Experience Targeting] -aktivitet med VEC och använda åtgärden [!UICONTROL Infoga före], [!UICONTROL Infoga efter]eller [!UICONTROL Ersätt med] för att lägga till rekommendationer i en upplevelse. (RECS-6166)<br>Mer information finns i [Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md). |
+| ![Premium](/help/assets/premium.png)<br>badgeRekommendationer inom [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] aktiviteter | Nu kan du inkludera rekommendationer inuti [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter. Detta öppnar upp helt nya funktioner, som:<ul><li>Testa och målinrikta rekommendationer och innehåll som inte är rekommendationer inom samma aktivitet.</li><li>Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning olika rekommendationer ska ges.</li><li>Skicka automatiskt trafik till den bästa rekommenderade upplevelsen med [!UICONTROL Auto-Allocate].</li><li>Tilldela besökare dynamiskt skräddarsydda rekommendationer baserat på deras individuella profiler med [!UICONTROL Auto-Target].</li></ul>Om du vill komma igång skapar du en [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting] aktivitet med VEC och använder [!UICONTROL Insert Before], [!UICONTROL Insert After]eller [!UICONTROL Replace With] åtgärd för att lägga till rekommendationer i en upplevelse. (RECS-6166)<br>Mer information finns i [Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md). |
 | ![Premium](/help/assets/premium.png)<br>badgeStöd för Enterprise Permissions i Target API:er | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) :er kommer nu att till fullo utnyttja samma funktioner för företagsbehörigheter som finns i målgränssnittet. Från och med **21 februari 2019** kan systemadministratörer programmässigt komma åt rapportdata samt skapa och hantera aktiviteter, erbjudanden och målgrupper inom alla arbetsytor. Dessa åtgärder var tidigare begränsade till standardarbetsytan. Stöd för Automated Personalization (AP)-aktiviteter kommer i en kommande version.<br>**Obs!**Det finns ett[känt problem](/help/r-release-notes/known-issues-resolved-issues.md#api)med den här funktionen. |
 
 **Förbättring, korrigeringar och ändringar**
@@ -304,8 +370,8 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 
 | Funktion/förbättring | Beskrivning |
 | --- | --- |
-| ![Target Premium](/help/assets/premium.png)<br/>[!UICONTROL badgeEnterprise Permissions] support in [!DNL Target] APIs | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) :er kommer nu att till fullo utnyttja samma funktioner för företagsbehörigheter som finns i målgränssnittet. Från och med **21 februari 2019** kan systemadministratörer programmässigt komma åt rapportdata samt skapa och hantera aktiviteter, erbjudanden och målgrupper inom alla arbetsytor. Dessa åtgärder var tidigare begränsade till standardarbetsytan. Stöd för Automated Personalization (AP)-aktiviteter kommer i en kommande version. |
-| ![Target Premium](/help/assets/premium.png)<br/>[!UICONTROL badgeRecommendations]: filtrera samlingar och uteslutningar efter miljö (värdgrupp) | Nu kan du förhandsgranska innehållet i [!UICONTROL Rekommendationer] och undantag för en vald miljö (värdgrupp).<br/>När du tidigare visade en samling eller ett undantag var de visade objekten resultat för standardvärdgruppen (anges i [!UICONTROL Rekommendationer > Inställningar > Standardvärdgrupp]).<br/>När du skapar eller uppdaterar en samling eller ett undantag kan du nu använda [!UICONTROL miljöväljaren] och välja miljön för att förhandsgranska resultaten. Det nya [!UICONTROL miljöfiltret] sparar tid och kraft eftersom du inte längre behöver navigera till sidan [!UICONTROL Inställningar] för att välja rätt standardvärdgrupp innan du skapar eller redigerar samlingar och undantag.<br/>**Obs!**När du har ändrat den valda miljön måste du klicka på[!UICONTROL Sök]för att uppdatera de returnerade resultaten.<br/>Det nya[!UICONTROL miljöfiltret]finns på följande platser i[!DNL Target]användargränssnittet:<ul><li>[!UICONTROL Katalogsökning] ([!UICONTROL Rekommendationer > Katalogsökning])</li><li>[!UICONTROL Dialogrutan Skapa samling] ([!UICONTROL Rekommendationer > Samlingar > Skapa ny])</li><li>[!UICONTROL Uppdatera samling] , dialogruta ([!UICONTROL Rekommendationer > Samlingar > Redigera])</li><li>[!UICONTROL Dialogrutan Skapa undantag] ([!UICONTROL Rekommendationer > Undantag > Skapa nytt])</li><li>[!UICONTROL Dialogrutan Uppdatera undantag] ([!UICONTROL Rekommendationer > Undantag > Redigera])</li></ul><br>Mer information finns i följande avsnitt:<uL><li>[Samlingar](/help/c-recommendations/c-products/collections.md)</li><li>[Undantag](/help/c-recommendations/c-products/exclusions.md)</li><li>[Katalogsökning](/help/c-recommendations/c-products/catalog-search.md)</li><li>[Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Rekommendationer: filtrera samlingar och uteslutningar efter miljö (värdgrupp)](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Stöd för Target Premium-emblem](/help/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] i API: [!DNL Target] er | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) :er kommer nu att till fullo utnyttja samma funktioner för företagsbehörigheter som finns i målgränssnittet. Från och med **21 februari 2019** kan systemadministratörer programmässigt komma åt rapportdata samt skapa och hantera aktiviteter, erbjudanden och målgrupper inom alla arbetsytor. Dessa åtgärder var tidigare begränsade till standardarbetsytan. Stöd för Automated Personalization (AP)-aktiviteter kommer i en kommande version. |
+| ![Target Premium-märke](/help/assets/premium.png)<br/>[!UICONTROL Recommendations]: filtrera samlingar och uteslutningar efter miljö (värdgrupp) | Nu kan du förhandsgranska innehållet i samlingar och [!UICONTROL Recommendations] undantag för en vald miljö (värdgrupp).<br/>När du tidigare visade en samling eller ett undantag var de visade objekten resultat för standardvärdgruppen (anges i [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>När du skapar eller uppdaterar en samling eller ett undantag kan du nu använda väljaren för att välja miljön för att förhandsgranska resultaten. [!UICONTROL Environment] Det nya [!UICONTROL Environment] filtret sparar tid och arbete eftersom du inte längre behöver navigera till [!UICONTROL Settings] sidan för att välja rätt standardvärdgrupp innan du skapar eller redigerar samlingar och undantag.<br/>**Obs!**När du har ändrat den valda miljön måste du klicka för[!UICONTROL Search]att uppdatera de returnerade resultaten.<br/>Det nya[!UICONTROL Environment]filtret finns på följande platser i[!DNL Target]användargränssnittet:<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] dialogruta ([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] dialogruta ([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] dialogruta ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] dialogruta ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>Mer information finns i följande avsnitt:<uL><li>[Samlingar](/help/c-recommendations/c-products/collections.md)</li><li>[Undantag](/help/c-recommendations/c-products/exclusions.md)</li><li>[Katalogsökning](/help/c-recommendations/c-products/catalog-search.md)</li><li>[Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Rekommendationer: filtrera samlingar och uteslutningar efter miljö (värdgrupp)](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **Förbättring, korrigeringar och ändringar**
 
@@ -338,7 +404,7 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 
 ### Target Standard/Premium 18.11.1 (12 november 2018) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
-Standard-/ [!DNL Target] Premium-versionen den 12 november innehåller backend-förbättringar, korrigeringar och ändringar. Rapporten [!UICONTROL Personalization Insights] blir tillgänglig den 14 november.
+Standard-/ [!DNL Target] Premium-versionen den 12 november innehåller backend-förbättringar, korrigeringar och ändringar. Rapporterna [!UICONTROL Personalization Insights] kommer att finnas tillgängliga den 14 november.
 
 <table id="table_EF529199D1C741F7BDBC9C41A37B7D26"> 
  <thead> 
@@ -394,11 +460,11 @@ Den här [!DNL Target] versionen innehåller följande förbättringar, korriger
 
 * Förbättrad hantering av målgrupper som refereras i målaktiviteter som har tagits bort i Adobe Audience Manager (AAM). (TGT-23338)
 
-   * Om en målgrupp togs bort i AAM visas en varningsikon både i [!UICONTROL målgruppslistan] och i målgruppsväljaren. Ett verktygstips i gränssnittet anger också att målgruppen togs bort i AAM.
+   * Om en målgrupp har tagits bort i AAM visas en varningsikon både i [!UICONTROL Audience] listan och i målgruppsväljaren. Ett verktygstips i gränssnittet anger också att målgruppen togs bort i AAM.
    * Om du försöker kombinera flera målgrupper med en borttagen målgrupp, eller om du försöker spara en aktivitet som refererar till en borttagen målgrupp, visas ett varningsmeddelande.
    Se [Om målgrupper](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html).
 
-* Ett problem som gjorde att användare i vissa situationer inte kunde skapa en aktivitet när Adobe Analytics valdes som rapportkälla på [!UICONTROL inställningssidan] har åtgärdats. Användarna såg meddelandet&quot;Välj en rapportsserie&quot; trots att de inte fick möjligheten att välja rapportsviten. (TGT-31968)
+* Ett problem som gjorde att användare i vissa situationer inte kunde skapa en aktivitet när Adobe Analytics valdes som rapportkälla på [!UICONTROL Setup] sidan har åtgärdats. Användarna såg meddelandet&quot;Välj en rapportsserie&quot; trots att de inte fick möjligheten att välja rapportsviten. (TGT-31968)
 
 ### Plattform (19 oktober 2018)
 
@@ -1375,7 +1441,7 @@ Den här [!DNL Target] versionen innehåller följande kundtillvända förbättr
 
 Den här [!DNL Target] versionen innehåller följande förbättringar och korrigeringar som riktas mot kunden: (nummer inom parentes är avsedda för internt bruk hos Adobe):
 
-* Förbättrat arbetsflöde när en användares session tar slut när användaren skapar eller redigerar en aktivitet eller ett erbjudande. [!DNL Target] När användaren klickar på [!UICONTROL Spara]visas det meddelande som har upphört att gälla för sessionen, men när användaren har loggat in igen visas en dialogruta som informerar användaren om att inloggningen lyckades och användargränssnittet finns kvar på samma sida [!DNL Target] utan dataförlust.
+* Förbättrat arbetsflöde när en användares session tar slut när användaren skapar eller redigerar en aktivitet eller ett erbjudande. [!DNL Target] När användaren klickar [!UICONTROL Save]visas det meddelande som har gått ut för sessionen, men efter inloggningen visas en dialogruta som informerar användaren om att inloggningen lyckades och användargränssnittet finns kvar på samma sida [!DNL Target] utan dataförlust.
 
    Om en användare utför en intermittent åtgärd på en [!DNL Target] sida och får en timeout för sessionen, dirigeras användaren till inloggningen på nytt och dirigeras sedan till den sista sidan som arbetats på i [!DNL Target] användargränssnittet.
 
@@ -1606,47 +1672,47 @@ Den här versionen innehåller följande funktioner och förbättringar:
 
 Den här [!DNL Target] versionen innehåller följande förbättringar och korrigeringar: :
 
-* Användargränssnittet har uppdaterats för att stödja omdirigeringserbjudanden i aktiviteter där [!DNL Target] Analytics for Target  (A4T) används som rapportkälla. Den här funktionen kräver [!DNL at.js] 0.9.6, som kommer att vara tillgänglig snart.
+* Användargränssnittet har uppdaterats för att ge stöd åt omdirigeringserbjudanden i aktiviteter som använder [!DNL Target] [!UICONTROL Analytics for Target] (A4T) som rapportkälla. Den här funktionen kräver [!DNL at.js] 0.9.6, som kommer att vara tillgänglig snart.
 * Användargränssnittet [!DNL Target] uppdaterades på vissa platser:
 
-   * I rapporter och aktiviteter finns det vissa alternativ ( [!UICONTROL Redigera], [!UICONTROL Dela till feed], [!UICONTROL Visa URL:er]för upplevelse osv.) går nu att komma åt genom att klicka på ikonen [!UICONTROL Fler alternativ] ( ![](assets/icon_more_options.png)
+   * I rapporter och aktiviteter finns det vissa alternativ ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs]osv.) går nu att komma åt genom att klicka på [!UICONTROL More Options] ikonen (  ![](assets/icon_more_options.png)
 
       ).
-   * I biblioteket [!UICONTROL Erbjudanden] visas nu erbjudanden i en lista i stället för som kort. Andra mindre gränssnittsändringar gjordes i gränssnittet för [!UICONTROL erbjudandebiblioteket] .
+   * Erbjudandena visas nu i en lista i stället för som kort i [!UICONTROL Offers] biblioteket. Andra mindre gränssnittsändringar gjordes i hela [!UICONTROL Offers] bibliotekets användargränssnitt.
 
-* Avsevärt förbättrade prestanda för [!UICONTROL aktivitets] - och [!UICONTROL målgruppslistorna] . Inläsningstiderna för sökresultaten returneras också avsevärt snabbare.
-* &quot;Vyer&quot; är nu &quot;besök&quot; i [!UICONTROL erbjudandenivårapporten] för [!UICONTROL automatiserade] personaliseringsrapporter.
-* [!DNL Target] stöder nu byte av miljöer (värdgrupper) för [!UICONTROL automatiserade] personaliseringsaktiviteter.
-* [!UICONTROL Automatiserade personaliseringsaktiviteter] har nu stöd för värdgrupper.
+* Avsevärt förbättrade prestanda på [!UICONTROL Activity] - och [!UICONTROL Audience] listorna. Inläsningstiderna för sökresultaten returneras också avsevärt snabbare.
+* &quot;Vyer&quot; är nu &quot;Besök&quot; i dialogrutan [!UICONTROL Offer Level Report] för [!UICONTROL Automated Personalization] rapporter.
+* [!DNL Target] stöder nu byte av miljöer (värdgrupper) för [!UICONTROL Automated Personalization] aktiviteter.
+* [!UICONTROL Automated Personalization] aktiviteter har nu stöd för värdgrupper.
 
 ### Target Standard/Premium 17.2.1 (21 februari 2017) {#section_FC6412353DE64E848FFD5E8EFF72C7C7}
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 med FP-11577 (eller senare) har nu stöd för [!DNL at.js] implementeringar med integreringen av [!UICONTROL Adobe Target Cloud-tjänster] . Mer information finns i [Funktionspaket](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) och [Integrera med Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) i *dokumentationen för Adobe Experience Manager 6.2* .
+>[!DNL Adobe Experience Manager] 6.2 med FP-11577 (eller senare) har nu stöd för [!DNL at.js] implementeringar med [!UICONTROL Adobe Target Cloud Services] integrering. Mer information finns i [Funktionspaket](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) och [Integrera med Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) i *dokumentationen för Adobe Experience Manager 6.2* .
 
 Den här [!DNL Target] versionen fokuserar på användbarhets- och prestandaförbättringar och innehåller följande förbättringar och korrigeringar (nummer inom parentes är avsedda för intern Adobe-användning):
 
 * Ytterligare alternativ har lagts till på Hjälp-menyn som du kan komma åt från det övre högra hörnet av [!DNL Target] användargränssnittet. Nya alternativ: &quot;Bloggar&quot; och &quot;Videor&quot;. Alternativet&quot;Adobe Experience Cloud Status&quot; är nu&quot;Adobe Target Standard/Premium Status&quot;. (TGT-22629)
-* När du tar bort en målgrupp [!DNL Target] visas en lista med aktiviteter som refererar till den målgruppen. Användarna kan klicka på varje aktivitet i listan för att visa sidan [!UICONTROL Översikt] . (TGT-17997)
+* När du tar bort en målgrupp [!DNL Target] visas en lista med aktiviteter som refererar till den målgruppen. Användarna kan klicka på varje aktivitet i listan för att visa [!UICONTROL Overview] sidan. (TGT-17997)
 * Förbättrad `user.activeCampaigns` för att returnera kampanj-ID för alla kampanjer/aktiviteter som användaren är inne i, även om han eller hon inte har interagerat med kampanjen/aktiviteten i den aktuella sessionen. (TNT-26237)
-* Knappen [!UICONTROL Skapa aktivitet] på sidan [!UICONTROL Aktiviteter] är nu aktiv innan alla aktivitetsnamn har lästs in i listan. Tack vare den här förbättringen kan användare skapa nya aktiviteter snabbare, särskilt när kontot har många konfigurerade aktiviteter. (TGT-21470)
+* Knappen [!UICONTROL Create Activity] på [!UICONTROL Activities] sidan är nu aktiv innan alla aktivitetsnamn har lästs in i listan. Tack vare den här förbättringen kan användare skapa nya aktiviteter snabbare, särskilt när kontot har många konfigurerade aktiviteter. (TGT-21470)
 * Förbättrade e-postfunktioner (Enhanced Experience Composer, EEC) för att förbättra inläsningstiden för webbplatser som kör HTTPS och som nås via proxy. Målet hämtar inte längre statiska resurser via proxy. (TGT-21793)
-* Förbättrade prestanda på sidan [!UICONTROL Mål och inställningar] , särskilt inläsningstid när många mätvärden har definierats för en aktivitet. (TGT-21654)
-* Ett verktygstips har lagts till på sidan [!UICONTROL Mål och inställningar] för alla aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) och som informerar användarna om att det inte krävs någon spårningsserver om aktivitetens sidor har lästs in på .js (version 0.9.1 eller senare) eller mbox.js (version 61 eller senare). (TGT-22607)
-* Måttnamnen visas nu på sidan [!UICONTROL Mål och inställningar] utan att användarna behöver expandera varje mätvärde för att kunna visa hela måttnamnet. Tack vare den här förbättringen kan användarna redigera mätvärden snabbare och effektivare. (TGT-21276)
+* Förbättrade prestanda på [!UICONTROL Goals & Settings] sidan, särskilt inläsningstid när många mätvärden har definierats för en aktivitet. (TGT-21654)
+* Ett verktygstips har lagts till på [!UICONTROL Goals & Settings] sidan för alla aktiviteter med [!UICONTROL Analytics for Target] (A4T) som informerar användarna om att det inte krävs någon spårningsserver om aktivitetens sidor har lästs in på .js (version 0.9.1 eller senare) eller mbox.js (version 61 eller senare). (TGT-22607)
+* Måttnamnen visas nu på [!UICONTROL Goals & Settings] sidan utan att användarna behöver expandera varje mätvärde för att kunna se hela måttnamnet. Tack vare den här förbättringen kan användarna redigera mätvärden snabbare och effektivare. (TGT-21276)
 * Nu kan du använda [!DNL Recommendations] inkluderingsregler på anpassade villkor (som överförs via CSV), precis som andra villkor. (TGT-21896)
-* Förbättrat användargränssnitt och användbarhet för [!UICONTROL offertsidan] , särskilt när du skapar eller hanterar mappar och skapar erbjudanden. (TGT-22509 och TGT-22187)
-* Förbättrad användarupplevelse i [!UICONTROL Visual Experience Composer] (VEC) när du markerar objekt som ska döljas.
+* Förbättrat användargränssnitt och användbarhet för [!UICONTROL Offers] sidan, särskilt när du skapar eller hanterar mappar och skapar erbjudanden. (TGT-22509 och TGT-22187)
+* Förbättrad användarupplevelse i [!UICONTROL Visual Experience Composer] (VEC) när du väljer objekt som ska döljas.
 (TGT-2224)
-* Förbättrade användarupplevelser när du skapar aktiviteter med den [!UICONTROL formulärbaserade Experience Composer]. När du väljer en mbox-plats förblir valideringsramen markerad efter att du klickat på [!UICONTROL Nästa]. (TGT-2221)
+* Förbättrade användarupplevelser när du skapar aktiviteter med [!UICONTROL Form-Based Experience Composer]. När du väljer en mbox-plats förblir valideringsramen markerad efter att du klickat [!UICONTROL Next]. (TGT-2221)
 * Förbättrade nedladdade rapporter för att skilja mellan aktiva och raderade erbjudanden. (TGT-22449)
 * Korrigerade ett problem som förhindrade att äldre resurser visades i listan över oändligt rullningsbara resurser i huvudanvändargränssnittet för tjänsten Experience Cloud Assets. (TGT-19733)
 * Korrigerade ett problem där den extrema orderinställningen inte respekteras i hämtade CSV-rapporter. (TGT-21871)
-* Ett problem har korrigerats där extrema order inte markerades korrekt i den hämtade [!UICONTROL Order]DetailsCSV-rapporten. (TGT-22500)
-* Korrigerade ett problem som gjorde att fel ordertid visades i den hämtade CSV-rapporten för [!UICONTROL kampanjgranskning] , trots att rapporten visade rätt orderdatum. (TNT-26469)
-* Ett problem som gjorde att alternativet [!UICONTROL Inaktivera JavaScript] inte fungerade korrekt på flersidiga aktiviteter har åtgärdats. (TGT-15130)
-* Om du använder den formulärbaserade Experience Composer med en annan ruta än den automatiskt skapade globala mbox ( `target-global-mbox`), och sedan väljer ett interaktionsmått som framgångsmått, ökas måtten bara på sidor där mbox används i aktiviteten. Om din mbox är `homepage_mbox`så är måttet [!UICONTROL Sidor per besök] antalet träffar för `homepage_mbox` besöket.
+* Ett problem har korrigerats där extrema order inte markerades korrekt i den hämtade [!UICONTROL Order Details]CSV-rapporten. (TGT-22500)
+* Korrigerade ett problem som gjorde att fel ordertid visades i den hämtade [!UICONTROL Campaign Audit] CSV-rapporten, trots att rapporten visade rätt orderdatum. (TNT-26469)
+* Korrigerade ett problem som förhindrade att alternativet kunde användas korrekt på flersidiga aktiviteter. [!UICONTROL Disable JavaScript] (TGT-15130)
+* Om du använder den formulärbaserade Experience Composer med en annan ruta än den automatiskt skapade globala mbox ( `target-global-mbox`), och sedan väljer ett interaktionsmått som framgångsmått, ökas måtten bara på sidor där mbox används i aktiviteten. Om din mbox till exempel är `homepage_mbox`är [!UICONTROL Pages Per Visit] måttet antalet träffar till användaren `homepage_mbox` under besöket.
 
    Om detta inte är vad du vill ha kan du lägga till en annan plats till aktiviteten och tilldela den globala mbox till den platsen och ge den standardinnehåll. Den här lösningen kopplar den globala mbox till aktiviteten och gör att Target kan räkna måttet för rapportering.
 
@@ -1868,7 +1934,7 @@ Den här versionen innehåller följande förbättringar:
 
 **Kända fel**
 
-* Alternativet [!UICONTROL Återge med JavaScript] stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer.
+* Alternativet stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer. [!UICONTROL Render Using JavaScript]
 
 ### Ändringar av målplattform (september 2016) {#section_1955146045A247D393DB824669A2A916}
 
@@ -1933,7 +1999,7 @@ Den här versionen innehåller följande förbättringar:
 
 **Kända fel**
 
-* Alternativet [!UICONTROL Återge med JavaScript] stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer.
+* Alternativet stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer. [!UICONTROL Render Using JavaScript]
 
 ### Ändringar av målplattform (augusti 2016) {#section_8D8BA8C628E747338C84564EC34CE0FD}
 
@@ -2008,7 +2074,7 @@ Den här versionen innehåller följande förbättringar:
 
 Följande kända fel har rapporterats:
 
-* En del av gränssnittstexten för funktionen [!UICONTROL Kategoritillhörighet] visas endast på engelska. Text på andra språk kommer att vara tillgänglig i september- [!DNL Target] versionen.
+* En del av gränssnittstexten för [!UICONTROL Category Affinity] funktionen visas endast på engelska. Text på andra språk kommer att vara tillgänglig i september- [!DNL Target] versionen.
 
 ### Ändringar av målplattform (juli 2016) {#section_09C18773707B4059852A41C764F817E4}
 
@@ -2047,11 +2113,11 @@ Adobe Target Standard/Premium 16.7.1 (21 juli 2016) innehåller följande funkti
    <td colname="col1"> Prioritetsinställningar för aktiviteter </td> 
    <td colname="col2"> <p>Du kan nu ange prioritetsnivåer för aktiviteter från 0-999 för att få bättre kontroll över vilken aktivitet som visas om flera aktiviteter tilldelas till samma plats med samma målgrupp. </p> <p>Det här alternativet måste aktiveras i <span class="wintitle"> Inställningar </span> &gt; <span class="wintitle"> Inställningar </span> . </p> <p>Det finjusterade prioritetsalternativet gäller för A/B-tester, automatiserad personalisering, Experience Targeting och Multivariate Test-aktiviteter. </p> <p>Mer information finns i följande avsnitt: </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
-      <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B-test: </b> Mål och <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> inställningar </a> </li> 
-      <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automatiserad personalisering: </b><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automatiserad personalisering </a> </li> 
-      <li id="li_84B893C214994246AB36E28E84C51460"><b>Experience Targeting: </b> Mål och <a href="../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> inställningar </a> </li> 
-      <li id="li_26533B659C0E49D6A6D3B3FEBE9CA930"><b>Multivariata tester: </b> Mål och <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> inställningar </a> </li> 
-      <li id="li_FBACF2B73B2E491BBB85618153AC4568"><b>Verksamheter: </b><a href="../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local"> Aktivitetsinställningar </a> </li> 
+      <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B-test: </b> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Mål och inställningar </a> </li> 
+      <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automatiserad personalisering: </b> <a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automatiserad personalisering </a> </li> 
+      <li id="li_84B893C214994246AB36E28E84C51460"><b>Experience Targeting: </b> <a href="../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Mål och inställningar </a> </li> 
+      <li id="li_26533B659C0E49D6A6D3B3FEBE9CA930"><b>Multivariata tester: </b> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Mål och inställningar </a> </li> 
+      <li id="li_FBACF2B73B2E491BBB85618153AC4568"><b>Verksamheter: </b> <a href="../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local"> Aktivitetsinställningar </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -2111,7 +2177,7 @@ Den här versionen innehåller följande korrigeringar:
 Följande kända fel har rapporterats:
 
 * När&quot;Inaktivera JavaScript&quot; har valts för sida A i en flersidig aktivitet inaktiveras JavaScript överallt, även om&quot;Inaktivera JavaScript&quot; inte har valts på andra sidor.
-* Problem med URL:er för förhandsgranskning av upplevelser för upplevelser med en omdirigering. Du kan lösa det genom att klicka på **[!UICONTROL Konfigurera]** i Experience Composer, välja **[!UICONTROL Flera målgrupper]** och lägga till **[!UICONTROL Alla besökare]** som den enda målgruppen. Fortsätt spara aktiviteten. Detta påverkar inte leveransen av din aktivitet, men tillåter förhandsgranskning. Detta kommer att korrigeras i juli-versionen av Adobe Target.
+* Problem med URL:er för förhandsgranskning av upplevelser för upplevelser med en omdirigering. Du kan komma runt problemet genom att klicka **[!UICONTROL Configure]** på, välja **[!UICONTROL Multiple Audiences]** och lägga till **[!UICONTROL All visitors]** som den enda målgruppen i Experience Composer. Fortsätt spara aktiviteten. Detta påverkar inte leveransen av din aktivitet, men tillåter förhandsgranskning. Detta kommer att korrigeras i juli-versionen av Adobe Target.
 
 * Dokumentationen visar det förväntade beteendet för kryssrutan Omdirigerings-URL. På grund av ett fel visas dock inte kryssrutan som vald som standard. Den här defekten kommer snart att åtgärdas.
 
@@ -2198,7 +2264,7 @@ Förbättringar har gjorts för att förbättra A4T-provisioneringsprocessen.
 Följande kända fel har rapporterats:
 
 * När&quot;Inaktivera JavaScript&quot; har valts för sida A i en flersidig aktivitet inaktiveras JavaScript överallt, även om&quot;Inaktivera JavaScript&quot; inte har valts på andra sidor.
-* Problem med URL:er för förhandsgranskning av upplevelser för upplevelser med en omdirigering. Du kan lösa det genom att klicka på **[!UICONTROL Konfigurera]** i Experience Composer, välja **[!UICONTROL Flera målgrupper]** och lägga till **[!UICONTROL Alla besökare]** som den enda målgruppen. Fortsätt spara aktiviteten. Detta påverkar inte leveransen av din aktivitet, men tillåter förhandsgranskning. Detta kommer att korrigeras i juli-versionen av Adobe Target.
+* Problem med URL:er för förhandsgranskning av upplevelser för upplevelser med en omdirigering. Du kan komma runt problemet genom att klicka **[!UICONTROL Configure]** på, välja **[!UICONTROL Multiple Audiences]** och lägga till **[!UICONTROL All visitors]** som den enda målgruppen i Experience Composer. Fortsätt spara aktiviteten. Detta påverkar inte leveransen av din aktivitet, men tillåter förhandsgranskning. Detta kommer att korrigeras i juli-versionen av Adobe Target.
 
 ### New Target Implementation Library, kl. 0.8.0 (5 maj 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2366,7 +2432,7 @@ Följande kända fel har rapporterats:
 * Uppdateringen Chrome version 48 orsakade ett problem som gör att Visual Experience Composer inte fungerar korrekt i Chrome. Google arbetar på en lösning. Mer information finns på [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Så här undviker du problemet:
 
    * Använd Firefox eller Internet Explorer.
-   * Aktivera Förbättrad Experience Composer, som kan konfigureras via fliken **[!UICONTROL Inställningar]** > **[!UICONTROL Inställningar]** .
+   * Aktivera Förbättrad Experience Composer, som kan konfigureras från fliken **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** .
 
 ### Adobe Target Standard/Premium 16.2.1 (18 februari 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2388,7 +2454,7 @@ Följande kända fel har rapporterats:
 * Uppdateringen Chrome version 48 orsakade ett problem som gör att Visual Experience Composer inte fungerar korrekt i Chrome. Google arbetar på en lösning. Mer information finns på [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Så här undviker du problemet:
 
    * Använd Firefox eller Internet Explorer.
-   * Aktivera Förbättrad Experience Composer, som kan konfigureras via fliken **[!UICONTROL Inställningar]** > **[!UICONTROL Inställningar]** .
+   * Aktivera Förbättrad Experience Composer, som kan konfigureras från fliken **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** .
 
 ### Adobe Target Standard/Premium 16.1.1 (28 januari 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2466,7 +2532,7 @@ Följande kända fel har rapporterats:
 * Uppdateringen Chrome version 48 orsakade ett problem som gör att Visual Experience Composer inte fungerar korrekt i Chrome. Google arbetar på en lösning. Mer information finns på [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Så här undviker du problemet:
 
    * Använd Firefox eller Internet Explorer.
-   * Aktivera Förbättrad Experience Composer, som kan konfigureras via fliken **[!UICONTROL Inställningar]** > **[!UICONTROL Inställningar]** .
+   * Aktivera Förbättrad Experience Composer, som kan konfigureras från fliken **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** .
 
 ## Utgåvor 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -2697,7 +2763,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automatiserad personalisering </p> <p>Målgruppsanpassning på erbjudandenivå </p> </td> 
-   <td colname="col2"> <p>Marknadsförarna kan tillämpa målinriktningsregler på erbjudanden i Automatiserad personalisering. Gör det möjligt att utesluta vissa erbjudanden från att visas för en viss grupp personer. </p> <p>Se <a href="../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E" format="dita" scope="local"> Mål-AP-erbjudanden </a>. </p> </td> 
+   <td colname="col2"> <p>Gör att marknadsförare kan tillämpa målinriktningsregler på erbjudanden i Automatiserad personalisering. Gör det möjligt att utesluta vissa erbjudanden från att visas för en viss grupp personer. </p> <p>Se <a href="../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E" format="dita" scope="local"> Mål-AP-erbjudanden </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>Visa antal aktiviteter som använder design </p> </td> 
@@ -3109,7 +3175,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
 
 | Funktion/förbättring | Beskrivning |
 |---|---|
-| Tillåt infogning och redigering av JavaScript | Lagt till möjligheten att redigera och injicera egen JavaScript i upplevelseredigeraren när du väljer **[!UICONTROL Redigera HTML]** på Åtgärder-menyn. |
+| Tillåt infogning och redigering av JavaScript | Lagt till möjligheten att redigera och injicera egen JavaScript i upplevelseredigeraren när du väljer **[!UICONTROL Edit HTML]** på Åtgärder-menyn. |
 | Automatisk målgruppsimport | Publiken importeras automatiskt i bakgrunden när en användare öppnar målgruppslistan och de importerade målgrupperna är mer än tio minuter gamla. |
 | Ökad storlek på HTML-erbjudanden än vad som kan synkroniseras till [!DNL Target Classic] | Ökade den tidigare gränsen på 64 kB till 256 kB. |
 
@@ -3132,9 +3198,9 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 **Korrigeringar**
 
 * Ett problem har korrigerats där rapportdiagrammet inte genererades vid navigering mellan aktiviteter.
-* Ett problem har korrigerats där markerade länkar inte markerades som markerade när användare klickade på **[!UICONTROL Välj länk]** på sidan [!UICONTROL Mål och inställningar] .
+* Ett problem har korrigerats där markerade länkar inte markerades som markerade när användare klickade **[!UICONTROL Select Link]** på [!UICONTROL Goals and Settings] sidan.
 
-* Ett fel som gjorde att en ny aktivitet inte kunde visas i [!UICONTROL aktivitetslistan] när den aktiverades på sidan [!UICONTROL Översikt] har åtgärdats.
+* Korrigerade ett fel som förhindrade att en ny aktivitet visas i [!UICONTROL Activity List] efter att den aktiverats på [!UICONTROL Overview] sidan.
 
 * Ett problem som gjorde att användare inte kunde välja en länk för klickspårning har åtgärdats.
 * Korrigerade ett problem som fick dubblerade erbjudanden att visas i en rapport på erbjudandenivå.
@@ -3161,7 +3227,7 @@ Den här versionen innehåller följande nya funktioner:
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="keyword"> Automatiserad personalisering (Target Premium) </span> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Automatiserad personalisering </span> ger avancerade maskininlärningsalgoritmer som kan skapa personaliserade upplevelser och förbättrade konverteringsgrader för digitala upplevelser. </p> <p> <p>Obs!  <span class="keyword"> Automatiserad personalisering </span> ingår i <span class="keyword"> Target Premium- </span> lösningen. Det ingår inte i <span class="keyword"> Target Standard </span> utan <span class="keyword"> Target Premium- </span> licens. Om du har en <span class="keyword"> Target Standard- </span> eller <span class="keyword"> Target Premium- </span> licens använder du <span class="keyword"> Target- </span> kortet i Adobe Experience Cloud. </p> </p> <p>Implementera en fil på webbplatsen och aktivera möjligheten att peka och klicka på valfritt innehåll och sedan visuellt skapa och välja ytterligare innehållsalternativ för det området. Sedan avgör modelleringssystemet automatiskt vilken del av innehållet som ska levereras till varje enskild person baserat på alla beteendedata som systemet har om besökaren. Denna möjlighet ger en personaliserad upplevelse för varje besökare. Marknadsföraren behöver inte köra ett test, sedan analysera resultaten och därefter leverera en vinnare innan optimeringen ger resultat. </p> <p> <span class="keyword"> Automatiserad personalisering </span> ger: </p> 
+   <td colname="col2"> <p> <span class="keyword"> Automatiserad personalisering </span> ger avancerade maskininlärningsalgoritmer som kan skapa personaliserade upplevelser och förbättrade konverteringsgrader för digitala upplevelser. </p> <p> <p>Obs!  <span class="keyword"> Automatiserad personalisering </span> finns som en del av <span class="keyword"> Target Premium- </span> lösningen. Det ingår inte i <span class="keyword"> Target Standard </span> utan <span class="keyword"> Target Premium- </span> licens. Om du har en <span class="keyword"> Target Standard- </span> eller <span class="keyword"> Target Premium- </span> licens använder du <span class="keyword"> Target- </span> kortet i Adobe Experience Cloud. </p> </p> <p>Implementera en fil på webbplatsen och aktivera möjligheten att peka och klicka på valfritt innehåll och sedan visuellt skapa och välja ytterligare innehållsalternativ för det området. Sedan avgör modelleringssystemet automatiskt vilken del av innehållet som ska levereras till varje enskild person baserat på alla beteendedata som systemet har om besökaren. Denna möjlighet ger en personaliserad upplevelse för varje besökare. Marknadsföraren behöver inte köra ett test, sedan analysera resultaten och därefter leverera en vinnare innan optimeringen ger resultat. </p> <p> <span class="keyword"> Automatiserad personalisering </span> ger: </p> 
     <ul id="ul_9EF654B10FFA46169EE2E033683BA82E"> 
      <li id="li_8D201BF8F37B4B2489D039A0340E065E">Två maskininlärningsalgoritmer: 
       <ul id="ul_E1DF69071C9047EEA692B5EF01176E4B"> 
@@ -3182,8 +3248,8 @@ Den här versionen innehåller följande nya funktioner:
 
 **Korrigeringar**
 
-* Korrigerade ett problem där vissa delade målgrupper som har tagits bort fortfarande visas i [!UICONTROL publiklistan] .
-* Korrigerade ett fel där en oväntad [!UICONTROL Spara] -dialogruta visades i Internet Explorer 10.
+* Korrigerade ett problem där vissa delade målgrupper som har tagits bort fortfarande visas i [!UICONTROL Audiences] listan.
+* Korrigerade ett fel där en oväntad [!UICONTROL Save] dialogruta visades i Internet Explorer 10.
 * Korrigerade ett synkroniseringsfel när en kampanj sparades.
 * Ett problem har korrigerats där målgruppen för en upplevelse inte visades i rapporter.
 * Korrigerade ett problem som förhindrade att måttlistorna i [!DNL Target] och [!DNL Analytics] matchade.
@@ -3383,7 +3449,7 @@ Den här versionen innehåller följande kända fel. Dessa problem kommer att å
 * Ett synkroniseringsfel uppstår om geomålgrupper skapas i målstandard när geopositionering är inaktiverat i Avancerat mål.
 * Det går inte att byta ut en bild när det finns referenser till bilden i CSS.
 * Klickspårning fungerar inte för element som har ordnats om med Visual Experience Composer. Undvik att ställa in klickspårning för omsorterade element tills felet har åtgärdats.
-* Användare kan inte välja åtgärden **[!UICONTROL Ta bort]** för innehåll som är omslaget i en mbox.
+* Användare kan inte välja **[!UICONTROL Remove]** åtgärd för innehåll som är omslaget i en mbox.
 
 ### Adobe Target Standard 1.2 (31 oktober 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3415,7 +3481,7 @@ Den här versionen innehåller följande funktion:
 
 | Funktion | Beskrivning |
 |---|---|
-| [!DNL mbox.js] ladda ned från Target Standard | Det går nu att hämta [!DNL mbox.js] filen direkt från **[!UICONTROL Inställningar]** > **[!UICONTROL Implementering]** i Target Standard-gränssnittet. Tidigare var det nödvändigt att ladda ned filen från Target Advanced eller be din kontorepresentant eller konsult om det. |
+| [!DNL mbox.js] ladda ned från Target Standard | Det går nu att hämta [!DNL mbox.js] filen direkt från **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** i gränssnittet Target Standard. Tidigare var det nödvändigt att ladda ned filen från Target Advanced eller be din kontorepresentant eller konsult om det. |
 
 Den här versionen innehåller följande korrigeringar och förbättringar:
 
