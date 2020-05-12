@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '7578'
+source-wordcount: '7618'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumentationen.
 
-## Adobe Target Standard/Premium 20.2.1 (19 februari 2020)
+## Adobe Target Standard/Premium 20.4.1 (6 maj 2020)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
@@ -29,6 +29,12 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Uppdaterade avsnittet &quot;Överväganden&quot;. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Uppdaterad&quot;overrideMboxEdgeServer&quot;-rad under&quot;Settings&quot;. |
 | 6 maj | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Ytterligare information om ITP 2.3. |
+|  | [Versionsinformation](/help/r-release-notes/release-notes.md): 20.4.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
+
+## Adobe Target Standard/Premium 20.2.1 (19 februari 2020)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
 | 4 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Nya frågor och svar: &quot;Varför är trafiken delad mellan mina upplevelser ojämn i min A/B- eller MVT-aktivitet?&quot; |
 | 29 april | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett känt problem har lagts till för rapportering av extrema order. |
 | 28 april | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Information om hur du använder `user.header('x-forwarded-for')` med nyare AWS-kanter för att hämta användarnas IP-adresser har tagits bort. Det här kommandot fungerar nu med nyare AWS-kanter. |
