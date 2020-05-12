@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Annonser och omdirigerare kan användas med alla typer av aktiviteter. I följan
 | AdBox | Returnerar olika bilder till annonsen | Ändra innehållet i en annons | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | omdirigeringserbjudande | URL för en bild |
 | Omdirigerare | Omdirigerar en besökare till en annan webbsida | Ändra en annons landningssida | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | omdirigeringserbjudande | URL för en sida |
 
+## Bästa praxis för säkerhet {#security}
+
+Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standarddomänerna för omdirigering av URL. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*.
+
 ## Begränsningar {#section_38F559DCF1324271926608BCD4AB1227}
 
 * Det finns ingen tidsgräns på klientsidan som med standardrutor. Om Target är helt nedtryckt kommer besökare på annonsen inte att se innehåll, inte ens standard.
@@ -36,4 +40,3 @@ Annonser och omdirigerare kan användas med alla typer av aktiviteter. I följan
 * Om du vill använda cookies från första part på själva AdBox måste du skicka mBox-sessionen i URL:en. Kontakta din kontorepresentant för att göra detta.
 * Om du vill använda cookies från första part för att spåra annonsklickningar skickar du mbox-sessionen i URL:en. Kontakta din kontorepresentant för att göra detta.
 * Om du vill använda mer än en AdBox på samma sida måste du skicka Mbox-sessionen i URL:en. Kontakta din kontorepresentant för att göra detta. Du kan ha en AdBox- och en Redirector-länk på samma sida (eftersom Redirector finns på en andra sida).
-* Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standarddomänerna för omdirigering av URL. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*.
