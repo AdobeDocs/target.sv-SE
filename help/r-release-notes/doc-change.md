@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '7627'
+source-wordcount: '7641'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 14 maj | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om ändringar i API v2 för profilbatchstatus. |
 | 13 maj | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Avsnittet&quot;Kända begränsningar&quot; har lagts till. |
 | 11 maj | [Värdar](/help/administrating-target/hosts.md) | Lagt till information om hur du använder funktionen ubox med omdirigeringar och vitlistor. |
 |  | [Arbeta med regissörer](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
