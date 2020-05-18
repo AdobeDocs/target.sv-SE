@@ -4,7 +4,10 @@ description: Activity URL (Aktivitets-URL) bestämmer vilken sida som används i
 title: Aktivitets-URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Ange aktivitets-URL när du uppmanas att göra det när [aktiviteten skapas](/he
 >
 >[!DNL Target] skiljer inte mellan URL-protokoll ( [!DNL https] och [!DNL http]). Resultatet blir att [!DNL `https://www.adobe.com`] och [!DNL `http://www.adobe.com`] båda matchar.
 
-Som standard öppnar [!UICONTROL Visual Experience Composer] (VEC) den sida som anges i [kontoinställningarna](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Du kan ange en annan sida när du skapar en aktivitet.
+Som standard öppnar [!UICONTROL Visual Experience Composer] (VEC) den sida som anges i inställningarna [för](/help/administrating-target/visual-experience-composer-set-up.md)Visual Experience Composer. Du kan ange en annan sida när du skapar en aktivitet.
 
 Om du vill visa en annan sida efter att VEC-filen har öppnats klickar du på **[!UICONTROL Configure]** ikonen, väljer **[!UICONTROL Page Delivery]** och anger sedan URL-adressen.
 
