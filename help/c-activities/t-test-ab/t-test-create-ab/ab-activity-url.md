@@ -5,7 +5,10 @@ title: Aktivitets-URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Ange aktivitets-URL när du uppmanas att göra det när aktiviteten skapas. Skri
 
 ## Ange en annan URL
 
-Som standard [!UICONTROL Visual Experience Composer] öppnas sidan som anges i inställningarna för [målkonto](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Du kan ange en annan sida när du skapar en aktivitet.
+Som standard [!UICONTROL Visual Experience Composer] öppnas sidan som anges i inställningarna för [](/help/administrating-target/visual-experience-composer-set-up.md)Visual Experience Composer. Du kan ange en annan sida när du skapar en aktivitet.
 
 Om du vill visa en annan sida efter att [!UICONTROL Visual Experience Composer] öppnas klickar du på **[!UICONTROL Configure]** kugghjulsikonen och väljer sedan **[!UICONTROL Page Delivery]**. Ange URL-adressen i fältet Aktivitets-URL.
 
