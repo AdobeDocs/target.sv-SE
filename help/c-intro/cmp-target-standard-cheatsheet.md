@@ -5,7 +5,10 @@ title: Vanliga frågor om måloptimering och personalisering
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +105,7 @@ Detta är möjligt med inställningen Primärt mål i steg 3 i det guidade arbet
 
 **Kan jag schemalägga en aktivitet att börja och sluta vid en fast tidpunkt?**
 
-Använd funktionen [Schemaläggning i steget Mål och inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
+Använd [schemaläggningsfunktionen i steget Mål och inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
 
 Kom ihåg att aktivera aktiviteten. Endast aktiva aktiviteter följer det angivna schemat. När slutdatumet har nåtts försätts aktiviteten i tillståndet Avslutat.
 
@@ -253,7 +256,7 @@ Vi har en [omdirigerings-URL-funktion](../c-experiences/c-manage-content/offer-r
 
 **Varför sker inte innehållsleverans i min QA-process?**
 
-Det är möjligt att din plats kan ha dynamiska ID:n, duplicerade ID:n eller dynamiska klasser för element. Du kan behöva utvärdera webbplatsinställningarna på kontonivå (eller på aktivitetsnivå om problemet är specifikt för en domän eller sida). Se [CSS-väljare](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Det är möjligt att din plats kan ha dynamiska ID:n, duplicerade ID:n eller dynamiska klasser för element. Du kan behöva utvärdera webbplatsinställningarna på kontonivå (eller på aktivitetsnivå om problemet är specifikt för en domän eller sida). Se [CSS-väljare](/help/administrating-target/visual-experience-composer-set-up.md#css).
 
 **Varför ser jag inte det önskade erbjudandet/upplevelsen och ser i stället någon annan aktivitet?**
 
