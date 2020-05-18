@@ -5,7 +5,10 @@ title: Ange mått
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Mer information om framgångsmått finns i [Success Metrics](../../../c-activiti
 
    Vilka inställningar som är tillgängliga beror på vilket framgångsmått du använder.
 
-   Om det här alternativet är aktiverat ger [!UICONTROL Estimated Value of the Conversion]fältet (inte tillgängligt för sidbakgrundsmätningar) ett värde för ditt mål. Detta värde gör att Target kan beräkna en uppskattad ökning av intäkterna. Detta fält är valfritt; Inkrementella intäkter för icke-intäktsmått kan dock inte beräknas utan detta. Datatypen är valuta. Det här fältet visas progressivt efter att användaren har indikerat vilken åtgärd som har vidtagits för att uppnå målet. Mer information finns i [Beräkna Lyft i intäkter](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) .
+   Om det här alternativet är aktiverat ger [!UICONTROL Estimated Value of the Conversion]fältet (inte tillgängligt för sidbakgrundsmätningar) ett värde för ditt mål. Detta värde gör att Target kan beräkna en uppskattad ökning av intäkterna. Detta fält är valfritt; Inkrementella intäkter för icke-intäktsmått kan dock inte beräknas utan detta. Datatypen är valuta. Det här fältet visas progressivt efter att användaren har indikerat vilken åtgärd som har vidtagits för att uppnå målet. Mer information finns i [Beräkna Lyft i intäkter](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) .
 
    Korrekt konfigurering av framgångsmått är avgörande för att ni ska få de data ni förväntar er.
 
