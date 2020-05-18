@@ -5,7 +5,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +53,7 @@ Mer information om Experience Targeting, ett användningsscenario och utbildning
 
 1. Ange din [aktivitets-URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)och klicka sedan på **[!UICONTROL Next]**.
 
-   Om ditt konto är [konfigurerat med en standard-URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)visas den URL:en som standard. Om det behövs kan du ändra från standardadressen till en annan URL.
+   Om ditt konto är [konfigurerat med en standard-URL](/help/administrating-target/visual-experience-composer-set-up.md)visas den URL:en som standard. Om det behövs kan du ändra från standardadressen till en annan URL.
 
    VEC-filen öppnas och den sida som anges i URL-adressen visas.
 
