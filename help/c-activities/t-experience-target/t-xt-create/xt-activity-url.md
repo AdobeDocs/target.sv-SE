@@ -4,7 +4,10 @@ description: Aktivitets-URL:en bestämmer vilken sida som används i aktiviteten
 title: Aktivitets-URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Aktivitets-URL:en bestämmer vilken sida som används i aktiviteten Experience T
    >
    >[!DNL Target] skiljer inte mellan URL-protokoll ( [!DNL https] och [!DNL http]). Resultatet blir att [!DNL `https://www.adobe.com`] och [!DNL `http://www.adobe.com`] båda matchar.
    >
-   >Som standard öppnar VEC- eller Form-Based Experience Experience Composer sidan som anges i [kontoinställningarna](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Du kan ange en annan sida när du skapar en aktivitet.
+   >Som standard öppnar VEC- eller Form-Based Experience Experience Composer den sida som anges i [Visual Experience Composer-inställningarna](/help/administrating-target/visual-experience-composer-set-up.md). Du kan ange en annan sida när du skapar en aktivitet.
    >
    >Om du anger en URL för en plats som inte innehåller JavaScript-koden för målstandard kan du inte markera sidelement.
 
