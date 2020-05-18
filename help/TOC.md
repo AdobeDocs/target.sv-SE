@@ -5,7 +5,10 @@ user-guide-title: Hjälp för Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 0%
 
 ---
 
@@ -33,9 +36,15 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 + Administrera mål {#administer}
    + [Administrera målöversikt](administrating-target/administrating-target.md)
    + [Administratörssteg](administrating-target/start-target.md)
-   + Ange inställningar {#preferences}
-      + [Inställningar](administrating-target/r-target-account-preferences/target-account-preferences.md)
-      + [Uppskattad ökning av intäkter](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Konfigurera Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
+   + Rapportering {#reporting}
+      + [Konfigurera rapportering](/help/administrating-target/reporting.md)
+      + [Uppskattar Lyft i intäkt](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Dynamisk integrering med Media Classic](administrating-target/scene7-settings.md)
+   + [Implementering](/help/administrating-target/implementation.md)
+   + [Värdar](administrating-target/hosts.md)
+   + [Miljö](/help/administrating-target/environments.md)
+   + [Svarstoken](administrating-target/response-tokens.md)
    + Hantera användare {#manage-users}
       + [Användarhantering](administrating-target/c-user-management/user-management.md)
       + Användare {#users}
@@ -45,9 +54,6 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
          + [Enterprise-användarbehörigheter](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurera företagsbehörigheter](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Ge Adobe I/O-integrationer åtkomst till arbetsytor och tilldela roller](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamisk integrering med Media Classic](administrating-target/scene7-settings.md)
-   + [Värdar](administrating-target/hosts.md)
-   + [Svarstoken](administrating-target/response-tokens.md)
 + Implementera mål {#implement-target}
    + [Implementera målöversikt](c-implementing-target/implementing-target.md)
    + Innan du implementerar {#before-implement}
