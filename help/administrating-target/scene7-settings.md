@@ -1,18 +1,21 @@
 ---
 description: Target Standard kan integreras med Adobe Dynamic Media Classic (tidigare Scene7) för att ge DAM (Digital Asset Management) i innehållsbiblioteket.
-title: Dynamisk integrering med Media Classic
+title: Integrering med Dynamic Media Classic
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 0%
 
 ---
 
 
 # Dynamisk integrering med Media Classic{#scene-settings}
 
-Target Standard kan integreras med Adobe Dynamic Media Classic (tidigare Scene7) för att ge DAM (Digital Asset Management) i innehållsbiblioteket.
+Target kan integreras med Adobe Dynamic Media Classic (tidigare Scene7) för att ge DAM (Digital Asset Management) i innehållsbiblioteket.
 
 >[!NOTE]
 >
@@ -28,7 +31,8 @@ Observera att lagrings-URL:en och de slutliga publicerings-URL:erna för bilder 
 
 Om du vill integrera med Dynamic Media Classic (Scene7) måste du ange följande information.
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Scene7 Settings]**.
+1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+
 1. Ange följande kontoinformation för Dynamic Media Classic:
 
    **Region:** Regionen för ditt Dynamic Media-konto: Nordamerika, Europa eller Asien.
@@ -38,4 +42,5 @@ Om du vill integrera med Dynamic Media Classic (Scene7) måste du ange följande
    **E-postadress:** E-postadressen som används för att logga in på Dynamic Media Classic (Scene7).
 
    **Lösenord:** Lösenordet som används för att logga in på Dynamic Media Classic (Scene7).
+
 1. Klicka på **[!UICONTROL Submit]**.
