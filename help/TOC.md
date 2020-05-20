@@ -5,9 +5,9 @@ user-guide-title: Hjälp för Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1404'
 ht-degree: 0%
 
 ---
@@ -256,7 +256,6 @@ ht-degree: 0%
       + [Använd aktivitets-QA med leverans på serversidan](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + Audiences {#audiences}
    + [Översikt över målgrupper](c-target/target.md)
-   + [Så här fungerar målinriktning](c-target/target-how-target-works.md)
    + Skapa målgrupper {#create-audiences}
       + [Skapa](c-target/c-audiences/audiences.md)
       + [Bygg målgrupper i Target](c-target/c-audiences/create-audience.md)
