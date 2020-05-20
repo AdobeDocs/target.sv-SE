@@ -5,7 +5,10 @@ title: Vanliga frågor och svar om Adobe Target för mobilappar
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -34,14 +37,6 @@ Nej, du behöver inte at.js för att använda SDK:n för mobilen. at.js är Java
 
 För Adobe Target Standard-kunder kan du endast använda våra mobila SDK:er för A/B Test- och Experience Targeting-aktiviteter (XT). Om du vill använda rekommendationer eller AI-funktioner i mobilappen behöver du en [Adobe Target Premium](/help/c-intro/intro.md#premium) -licens.
 
-## Kan jag utnyttja målgrupper från Adobe Audience Manager (AAM) i VEC för mobilappar?
-
-Ja, Adobe Experience Platform Mobile SDK:er är byggda för [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html), [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html), [Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)och Target. Era målgrupper i Audience Manager delas med [!DNL Target].
-
 ## Finns det någon mobilappsintegrering mellan mobilaktiviteterna Adobe Experience Manager (AEM) och Target?
 
 Det står på vår färdplan, men det finns ingen tidslinje än. För närvarande kan du dela JSON- [upplevelsefragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md) från AEM till Target och det kan finnas möjlighet att sedan använda dem i en mobilappsaktivitet.
-
-## Kan jag lägga till fler bilder med VEC eller endast ändra befintliga bilder?
-
-Du kan för närvarande bara ändra befintliga bilder.
