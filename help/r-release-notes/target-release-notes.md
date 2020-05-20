@@ -5,9 +5,9 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 14 maj 2020**
+**Senast uppdaterad: 20 maj 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -36,9 +36,12 @@ Information om den aktuella versionen finns i [Versionsinformation](release-note
 
 I och med den kommande utfasningen av mbox.js den 30 augusti 2020 var David Son, var Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Under de närmaste 30 dagarna kan du [visa inspelningen](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)av webbinariet.
 
-## Target Standard/Premium 20.5.1 (10 juni 2020)
+## Target Standard/Premium 20.6.1 (10 juni 2020)
 
-Information om den här versionen kommer att publiceras här.
+| Funktion/förbättring | Beskrivning |
+| --- | --- |
+| Utgivarroll | Den nya rollen liknar den nuvarande observationsrollen (kan visa aktiviteter, men kan inte skapa eller redigera dem). Utgivarrollen har dock ytterligare behörighet för aktiva aktiviteter. |
+| Administrationssida<br>Tidigare &quot;Inställningar&quot;. | Sidan Inställningar har bytt namn till Administration och gränssnittet för alla menyalternativ har uppdaterats för att förbättra arbetsflödet och göra det enklare att använda.<br>Tillgängliga menyalternativ är:<ul><li>Visual Experience Composer</li><li>Rapportering</li><li>Inställningar för Scene7</li><li>Implementering</li><li>Egenskaper</li><li>Värdar</li><li>Miljö</li><li>Svarstoken</li><li>Användare</li></ul> |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
