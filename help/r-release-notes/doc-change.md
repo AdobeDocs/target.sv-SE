@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 20 maj | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om den kommande versionen av Target Standard/Premium 20.6.1 (10 juni 2020). |
+|  | [Värdar](/help/administrating-target/hosts.md) | Anteckning har lagts till i avsnittet&quot;Bästa praxis för säkerhet&quot;. |
 | 14 maj | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om ändringar i API v2 för profilbatchstatus. |
 | 13 maj | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Avsnittet&quot;Kända begränsningar&quot; har lagts till. |
 | 11 maj | [Värdar](/help/administrating-target/hosts.md) | Lagt till information om hur du använder funktionen ubox med omdirigeringar och vitlistor. |
