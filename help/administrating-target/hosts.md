@@ -5,9 +5,9 @@ title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,10 @@ Ibland visas domäner från andra platser i dina miljöer. En domän visas i lis
 I de fall där `mboxHost` skickas i ett API-anrop registreras konverteringen för den miljö som skickas. Om ingen miljö skickas blir värddatorn i anropet som standard [!UICONTROL Production].
 
 Du kan också skapa en svart lista som anger värdar (domäner) än vad som inte kan skicka mbox-anrop till [!DNL Target] genom att lägga till önskade värdar i [!UICONTROL Host Does Not Contain] rutan.
+
+>[!NOTE]
+>
+>Eftersom listan Godkända värdar används för både mbox-värdar och standardomdirigeringsvärdar måste du lägga till alla befintliga domäner som är godkända för att använda Adobe Target Javascript SDK (at.js) *OCH* alla domäner som används i ubox-standardomdirigeringsadresser. Du måste även lägga till nya liknande domäner i vitlistan i framtiden.
 
 ## Ta bort en värd {#section_F56355BA4BC54B078A1A8179BC954632}
 
