@@ -5,7 +5,10 @@ title: Information om funktionen adobe.target.applyOffers(options) för JavaScri
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cd76bab4b3dbb73c57655403230aac09ddbd2a05
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 0%
 
 ---
 
