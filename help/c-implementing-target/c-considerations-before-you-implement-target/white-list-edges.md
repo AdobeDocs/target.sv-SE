@@ -5,7 +5,10 @@ title: Vitlista Adobe Target-kantnoder
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +33,7 @@ Följande lista innehåller de aktuella värdarna:
 * `mboxedge26.tt.omtrdc.net`
 * `mboxedge28.tt.omtrdc.net`
 * `mboxedge29.tt.omtrdc.net`
+* `mboxedge30.tt.omtrdc.net`
 * `mboxedge31.tt.omtrdc.net`
 * `mboxedge32.tt.omtrdc.net`
 * `mboxedge34.tt.omtrdc.net`
