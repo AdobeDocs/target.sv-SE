@@ -6,7 +6,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 0%
 
 ---
 
@@ -35,20 +38,19 @@ Du måste vara medlem i en eller flera [!DNL Experience Cloud] grupper som har �
 
 Mer information finns i [Hantera Experience Cloud-användare och -produkter](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Utför följande uppgifter i [!DNL Adobe Analytics]:
 
 ### Konfigurera åtkomst till Analytics-rapportsviten
 
-Innan du skapar eller visar rapporter för en analysdriven aktivitet måste du vara medlem i **[!UICONTROL All Report Access]** gruppen eller medlem i en grupp som har tillgång till minst en rapport i rapportsviten som du vill använda. Om du inte kan visa rapporter bör du kontrollera att du är medlem i någon av dessa grupper.
+Innan du skapar eller visar rapporter för en [!DNL Analytics]aktiverad aktivitet måste du vara medlem i **[!UICONTROL All Report Access]** gruppen, eller medlem i en grupp som har tillgång till minst en rapport i rapportsviten som du vill använda. Om du inte kan visa rapporter bör du kontrollera att du är medlem i någon av dessa grupper.
 
 Mer information finns i [Produktprofiler och grupper](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### Konfigurera åtkomst till webbtjänståtkomstgruppen
 
-Du måste tillhöra webbtjänståtkomstgruppen i [!DNL Adobe Analytics] för att kunna använda [!DNL Analytics] som rapportkälla för [!DNL Target].
+Du måste tillhöra webbtjänståtkomstgruppen i [!DNL Analytics] för att kunna använda [!DNL Analytics] som rapportkälla för [!DNL Target].
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
