@@ -5,7 +5,10 @@ title: Profilattribut i Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+workflow-type: tm+mt
+source-wordcount: '2388'
+ht-degree: 0%
 
 ---
 
@@ -75,6 +78,8 @@ Tänk på följande:
 * Spara variabler som kan nås nästa gång skriptet körs (på nästa mbox-begäran) med `user.setLocal('variable_name', 'value')`. Referera variabeln med `user.getLocal('variable_name')`. Detta är användbart i situationer där du vill referera till datumet och tiden för den senaste begäran.
 * Parametrar och värden är skiftlägeskänsliga. Matcha skiftläget för de parametrar och värden som du får under aktiviteten eller testet.
 * Mer JavaScript-syntax finns i avsnittet&quot;JavaScript-referens för skriptprofilparametrar&quot; nedan.
+* Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificeras för den aktiviteten.
+* Profilskript kan inte tas bort medan de används i en aktivitet.
 
 ## Visa informationskort för profilskript {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -207,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 
 Skapar en variabel som heter `frequency`och initierar den till antingen det tidigare värdet eller 0, om det inte fanns något tidigare värde. Om mbox-namnet är `orderThankyouPage`returneras det stegvisa värdet.
 
-**Namn:** *user.monetärtValue*
+**Namn:** *user.monetärValue*
 
 ```
 var monetaryValue = user.get('monetaryValue') || 0;
