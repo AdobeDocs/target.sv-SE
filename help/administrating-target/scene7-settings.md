@@ -5,9 +5,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Observera att lagrings-URL:en och de slutliga publicerings-URL:erna för bilder 
 Om du vill integrera med Dynamic Media Classic (Scene7) måste du ange följande information.
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+
+   ![Scene7 page](/help/administrating-target/assets/scene7.png)
 
 1. Ange följande kontoinformation för Dynamic Media Classic:
 
