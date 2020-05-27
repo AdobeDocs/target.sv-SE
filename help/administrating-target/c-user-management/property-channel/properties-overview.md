@@ -5,14 +5,17 @@ title: Konfigurera företagsbehörigheter
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '1350'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Konfigurera företagsbehörigheter{#configure-enterprise-permissions}
 
-Information om de uppgifter som krävs för att lägga till användare i Target-implementeringen. skapa arbetsytor, användargrupper och egenskaper, uppdatera målinsimplementeringen så att den innehåller `at_property` parametern; och ange roller och behörigheter.
+Information om de uppgifter som krävs för att lägga till användare i [!DNL Target] implementeringen. skapa arbetsytor, användargrupper och egenskaper, uppdatera din [!DNL Target] implementering så att den innehåller `at_property` parametern; och ange roller och behörigheter.
 
 >[!NOTE]
 >
@@ -29,13 +32,14 @@ I följande tabell visas de uppgifter du bör utföra för att skapa egenskaper 
 | 5: Uppdatera implementeringen så att den inkluderar `at_property` parametern | [!DNL Target] UI, at.js-funktioner, [!DNL Adobe Launch]eller [!DNL Dynamic Tag Management] |
 | 6: Ange roller och behörigheter | [!DNL Adobe Admin Console for Enterprise] |
 
-För de uppgifter som utförs i Adobe Admin Console for Enterprise får du tillgång till konsolen genom att göra följande:
+För de uppgifter som utförs i [!DNL Adobe Admin Console for Enterprise]programmet får du åtkomst till konsolen genom att följa dessa steg:
 
-1. Gå till [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > logga in med ditt Adobe ID, om du inte redan har loggat in.
+1. I Adobe Target klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**.
 
    eller
 
-   Om du redan är inloggad på Experience Cloud går du till [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)och klickar sedan på [!UICONTROL App] ikonen i det övre navigeringsfältet > klicka **[!UICONTROL Admin]** på till höger.
+   Gå till [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > logga in med ditt Adobe ID, om du inte redan har loggat in.
+
 
 1. (Villkorligt) Om du har åtkomst till [!DNL Admin Console for Enterprise] för mer än en organisation klickar du på användaravataren i det högra hörnet eller det övre navigeringsfältet och väljer önskad organisation.
 
@@ -50,13 +54,13 @@ När du börjar använda den nya [!UICONTROL Properties] funktionen måste all a
 
 Med en arbetsyta (produktprofil) kan en organisation tilldela en viss uppsättning användare till en viss uppsättning egenskaper. På många sätt liknar en arbetsyta en rapportserie i [!DNL Analytics].
 
-Organisationer kan börja dra nytta av funktionerna för Enterprise-behörigheter genom att skapa nya arbetsytor i Admin Console, tilldela Target-egenskaper till dessa arbetsytor och flytta användare från konfigurationen för standardarbetsytan till dessa nyare, begränsade arbetsytor.
+Organisationer kan börja dra nytta av funktionerna för Enterprise-behörigheter genom att skapa nya arbetsytor i [!DNL Admin Console], tilldela [!DNL Target] egenskaper till dessa arbetsytor och flytta användare från konfigurationen Standardarbetsyta till dessa nyare, begränsade arbetsytor.
 
 Kunderna kan använda dessa arbetsytor för att åtskilja olika team per region, affärsenhet, per platsavsnitt eller via någon annan metod de väljer.
 
 Användare kan ingå i flera arbetsytor och kan till och med ha olika roller inom varje arbetsyta.
 
-1. Klicka på Admin Console **[!UICONTROL Products]** och välj sedan namnet på önskad produkt.
+1. I [!DNL Admin Console]klickar du på **[!UICONTROL Products]** och väljer sedan namnet på önskad produkt.
 
    ![arbetsyta](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -77,7 +81,7 @@ Användare kan ingå i flera arbetsytor och kan till och med ha olika roller ino
 >[!NOTE]
 >Se utbildningsvideon nedan för mer information om hur du konfigurerar arbetsytor.
 
-### Hämta ditt arbetsyte-ID {#workspace-id}
+### Hämta arbetsytans ID {#workspace-id}
 
 Du måste skicka arbetsytans ID för att kunna utnyttja företagsbehörigheter i [mål-API:er](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
@@ -101,27 +105,26 @@ Egenskaperna tillhör specifika kanaler (webb, mobil, e-post och API/annan).
 
 **Tips**: Se utbildningsvideon nedan för mer information om hur du skapar egenskaper.
 
-1. I [!DNL Target]klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Properties]** för att visa [!UICONTROL Properties] listan.
+1. I [!DNL Target]klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Properties]** för att visa [!UICONTROL Properties] listan.
 1. Klicka på **Skapa egenskap**.
 
    ![Ny egenskap, dialogruta](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
    Fyll i fälten:
 
-   * **Kanal:** Välj önskad kanal för egenskapen: Webb, Mobilapp, E-post eller Annat/API (t.ex. en digitalbox eller PlayStation-konsol).
-   * **Namn (obligatoriskt):** Ange ett beskrivande namn för egenskapen.
+   * **Egenskapsnamn (obligatoriskt):** Ange ett beskrivande namn för egenskapen.
    * **Beskrivning:** Ange en valfri beskrivning för egenskapen.
+   * **Kanal:** Välj önskad kanal för egenskapen: Webb, Mobilapp, E-post eller Annat/API (t.ex. en digitalbox eller PlayStation-konsol).
 
-1. Klicka **[!UICONTROL Generate Code]** för att generera koden som du använder när du utför stegen i [5: Uppdatera implementeringen så att parametern](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property inkluderas.
-1. Kopiera koden till Urklipp.
+1. Klicka **[!UICONTROL Copy]** för att kopiera koden till Urklipp som du använder när du utför stegen i [5: Uppdatera implementeringen så att parametern](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property inkluderas.
 1. Klicka **[!UICONTROL Save]** när du är klar.
 
 >[!NOTE]
 >Se utbildningsvideon nedan för mer information om hur du skapar egenskaper.
 
-## Steg 5: Uppdatera implementeringen så att parametern at_property inkluderas {#section_9B17A59807A94712BE642942442EBBC8}
+## Steg 5: Uppdatera implementeringen så att den inkluderar parametern at_property {#section_9B17A59807A94712BE642942442EBBC8}
 
-Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste du lägga till `at_property` parametern till alla anrop som pekar på Mål (mbox, api osv.).
+Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste du lägga till `at_property` parametern till alla anrop som träffar [!DNL Target] (mbox, api osv.).
 
 **Så här hämtar du`at_property`parameterkoden:**
 
@@ -129,7 +132,7 @@ Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste 
 
    eller
 
-   I [!DNL Target]klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Properties]** för att visa [!UICONTROL Properties] listan.
+   I [!DNL Target]klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Properties]** för att visa [!UICONTROL Properties] listan.
 
    1. Håll muspekaren över [!UICONTROL Last Updated] kolumnen för den önskade egenskap som ska visas och klicka på [!UICONTROL Code] -ikonen.
 
@@ -139,7 +142,7 @@ Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste 
 
       ![Egenskapskod](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
-1. Uppdatera implementeringen av Target med implementeringskoden som du fick i föregående steg.
+1. Uppdatera implementeringen [!DNL Target] med implementeringskoden som du fick i föregående steg.
 
    Det finns flera sätt att uppdatera din [!DNL Target] implementering. Följande metoder kan till exempel användas för webbsidor:
 
