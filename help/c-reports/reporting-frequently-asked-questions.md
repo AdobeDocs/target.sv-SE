@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Lista med vanliga frågor om rapportering i Adobe Target.
 title: Vanliga frågor om rapportering för Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,27 @@ ht-degree: 0%
 # Vanliga frågor om rapportering{#reporting-faq}
 
 Lista med vanliga frågor om rapportering i [!DNL Target].
+
+## Hur räknas värdena för nya besökare och återkommande besökare?
+
+Tänk på följande:
+
+**Nya besökare**: En besökare inkluderas i segmentet Nya besökare om något av följande villkor uppfylls:
+
+* Det är besökarens första besök på webbplatsen.
+* Det är besökarens första besök sedan cookies rensades.
+* Det är besökarens första besök på webbplatsen sedan [besökarprofilens livstid](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) har gått ut.
+
+**Returnerande besökare**: Besökaren inkluderas i segmentet Återkommande besökare om användaren tidigare besökt webbplatsen, lämnat den i minst 30 minuter och återgått till webbplatsen igen med samma cookies. Så länge en besökare återvänder inom sin profillivstid blir de en återkommande besökare.
+
+Om dessa två segment används för en aktivitet, kommer segmenten Nya besökare och Återkommande besökare inte alltid att öka det totala antalet besökare.
+
+Tänk på följande exempel med tanke på villkoren ovan för nya besökare och återkommande besökare:
+
+* En besökare besöker webbplatsen för första gången och räknas som ny besökare.
+* Besökaren återvänder till webbplatsen när villkoren för återkommande besökare är uppfyllda och räknas som återkommande besökare.
+
+Den här besökaren räknas som en enskild besökare i aktivitetens totala besökarantal även om den räknas både i segmenten för nya besökare och återkommande besökare.
 
 ## Varför innehåller mina [!UICONTROL Experience Targeting] (XT)-rapporter mätvärden för kontrollupplevelser?
 
