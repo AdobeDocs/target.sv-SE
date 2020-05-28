@@ -5,9 +5,9 @@ title: Vanliga frågor om rapportering för Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Lista med vanliga frågor om rapportering i [!DNL Target].
 
 ## Hur räknas värdena för nya besökare och återkommande besökare?
 
-Tänk på följande:
+Följande information förklarar hur nya besökare och återkommande besökare räknas och ger exempel på varför summan av dessa två segment inte alltid är lika med antalet besökare totalt.
 
 **Nya besökare**: En besökare inkluderas i segmentet Nya besökare om något av följande villkor uppfylls:
 
@@ -31,16 +31,16 @@ Tänk på följande:
 
 Om dessa två segment används för en aktivitet, kommer segmenten Nya besökare och Återkommande besökare inte alltid att öka det totala antalet besökare.
 
-Tänk på följande exempel med tanke på villkoren ovan för nya besökare och återkommande besökare:
+Ta följande exempel som exempel, med de villkor som anges ovan för nya besökare och återkommande besökare:
 
 * En besökare besöker webbplatsen för första gången och räknas som ny besökare.
 * Besökaren återvänder till webbplatsen när villkoren för återkommande besökare är uppfyllda och räknas som återkommande besökare.
 
 Den här besökaren räknas som en enskild besökare i aktivitetens totala besökarantal även om den räknas både i segmenten för nya besökare och återkommande besökare.
 
-Skillnaden mellan antalet nya besökare och återkommande besökare beror också på hur du konfigurerar aktivitetens [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md):
+Skillnaden mellan antalet nya besökare och återkommande besökare beror också på hur du konfigurerar aktivitetens [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md).
 
-Titta på följande exempel:
+Exempel:
 
 Ett antal nya besökare besöker er webbplats och är kvalificerade för en aktivitet. Dessa nya besökare räknas in i segmentet Nya besökare. Alla dessa besökare registrerade också ett besök i den aktiviteten.
 
