@@ -4,7 +4,10 @@ description: Med mobilvisningsrutor kan du förhandsgranska hur dina aktiviteter
 title: Mobila visningsrutor för responsiva upplevelser
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1249'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ Nedan visas visningsrutor och upplösningar för vissa populära enheter. Kom ih
 | Google Pixel | 411w x 731h | 1080w x 1920h |
 | Google Pixel XL | 411w x 731h | 1440w x 2560h |
 | Google Pixel 2 | 411w x 731h | 1080w x 1920h |
-| Google Pixel 2 XL | 411w x 731h | 1440w x 2560h |
+| Google Pixel 2 XL | 411w x 823h | 1440w x 2880h |
 | Samsung Galaxy Note 5 | 480w x 853h | 1440w x 2560h |
 | LG G G5 | 480w x 853h | 1440w x 2560h |
 | Ett plus 3 | 480w x 853h | 1080w x 1920h |
@@ -120,7 +123,7 @@ Lägg till mobila visningsrutor i Target-aktiviteterna för att skapa responsiva
 1. Om du vill kan du växla mellan stående och liggande läge genom att klicka på orienteringsikonen.
 
    * Stående: ![Stående](/help/c-experiences/c-visual-experience-composer/assets/viewport_portrait.png)
-   * Liggande: ![Ligcaper](/help/c-experiences/c-visual-experience-composer/assets/viewport_landscape.png)
+   * Liggande: ![Landskapare](/help/c-experiences/c-visual-experience-composer/assets/viewport_landscape.png)
 
 ## Användningsfall: Mål för två iPhone-versioner {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
