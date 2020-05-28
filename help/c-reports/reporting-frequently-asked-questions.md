@@ -5,9 +5,9 @@ title: Vanliga frågor om rapportering för Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ Tänk på följande exempel med tanke på villkoren ovan för nya besökare och 
 * Besökaren återvänder till webbplatsen när villkoren för återkommande besökare är uppfyllda och räknas som återkommande besökare.
 
 Den här besökaren räknas som en enskild besökare i aktivitetens totala besökarantal även om den räknas både i segmenten för nya besökare och återkommande besökare.
+
+Skillnaden mellan antalet nya besökare och återkommande besökare beror också på hur du konfigurerar aktivitetens [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md):
+
+Titta på följande exempel:
+
+Ett antal nya besökare besöker er webbplats och är kvalificerade för en aktivitet. Dessa nya besökare räknas in i segmentet Nya besökare. Alla dessa besökare registrerade också ett besök i den aktiviteten.
+
+En del besökare nådde konverteringsmåttet, som konfigurerades som&quot;Ökningsantal, frigör användare och tillåter återinträde&quot;. Anta att vissa av dessa användare når konverteringsmåttet flera gånger, så ökar inte konverteringsmåttet. Med tanke på konfigurationen kan vissa användare dock komma till konverteringsmåttet och sedan gå tillbaka till startsidan och kvalificera sig för aktiviteten igen för att registrera ett nytt besök.
 
 ## Varför innehåller mina [!UICONTROL Experience Targeting] (XT)-rapporter mätvärden för kontrollupplevelser?
 
