@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 1 juni | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
+| 1 juni | [Målmeddelanden](/help/r-release-notes/target-announcements.md) | En ny sida har lagts till för att informera om kommande Target-evenemang. |
+|  | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
 | 28 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande nya frågor och svar har lagts till: <ul><li>Hur räknas värdena för nya besökare och återkommande besökare?</li></ul> |
 | 27 maj | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om stöd för analys för målaktiviteter (A4T) för Automatisk allokering. |
 | 26 maj | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Följande information har lagts till: &quot;Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.&quot; |
