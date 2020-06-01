@@ -4,9 +4,9 @@ description: Med mobilvisningsrutor kan du förhandsgranska hur dina aktiviteter
 title: Mobila visningsrutor för responsiva upplevelser
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,10 @@ Nedan visas visningsrutor och upplösningar för vissa populära enheter. Kom ih
 | iPhone 8 | 375w x 667h | 750w x 1 334h |
 | iPhone 7 Plus | 414w x 736h | 1080w x 1920h |
 | iPhone 7 | 375w x 667h | 750w x 1 334h |
+| iPhone 6s Plus | 414w x 736h | 1080w x 1920h |
+| iPhone 6s | 375w x 667h | 750w x 1 334h |
+| iPhone 6 Plus | 414w x 736h | 1080w x 1920h |
 | iPhone 6 | 375w x 667h | 750w x 1 334h |
-| iPhone 6s | 414w x 736h | 1080w x 1920h |
 | iPad Pro | 1024w x 1366h | 2048w x 2732h |
 | Tredje och fjärde generationen iPad | 768w x 1 024h | 1536w x 2048h |
 | iPad Air 1 &amp; 2 | 768w x 1 024h | 1536w x 2048h |
