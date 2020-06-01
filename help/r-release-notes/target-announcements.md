@@ -4,7 +4,7 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ Följ produktcheferna Tamer Myna och Mark Tuyay när de visar upp verkliga berä
 * Automatisera inmatning av innehåll i målrekommendationer
 * Spåra prestanda för rekommenderat innehåll och korrelera med leadgenerering
 
-Torsdagen den 4 juni 2010:00 till 10:45. (EST)
+**Torsdagen den 4 juni 2020**
+
+**10.00 till 10.45 (EST)**
 
 Gå till [registreringssidan på Adobe Experience Leagas webbplats](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
 
