@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ Information om kommande evenemang, inklusive Target SKill Builder-sessioner, utv
 
 ## Adobe Target-verktyget för kompetensutveckling: Hur `Adobe.com` använder Adobe Sensei AI för att personalisera upplevelser?
 
-Som en av de största B2E-webbplatserna på internet har `Adobe.com` till fullo anammat sin roll som&quot;Customer Zero&quot; för Adobe Experience Cloud, och har antagit alla lösningar för både B2B- och B2C-användningsfall globalt. Personalisering är en viktig del av framgången på Adobe.com, eftersom den är en digital destination som levererar en mängd olika personligheter, bland annat praktiska kreatörer, marknadsförare som inte är tekniska och mycket tekniska IT-köpare.
+**Torsdagen den 4 juni 2020**
+
+**10.00 till 10.45 (EST)**
+
+Som en av de största B2E-webbplatserna på internet har `Adobe.com` till fullo anammat sin roll som&quot;Customer Zero&quot; för Adobe Experience Cloud, och har antagit alla lösningar för både B2B- och B2C-användningsfall globalt. Personalisering är en viktig förutsättning för framgång för en digital destination som levererar en mängd olika personligheter, bland annat praktiska kreatörer, marknadsförare som inte är tekniska och djupgående tekniska IT-köpare. `Adobe.com`
 
 Följ produktcheferna Tamer Myna och Mark Tuyay när de visar upp verkliga berättelser om hur personalisering fungerar `Adobe.com`. I det här webbinariet får du lära dig att:
 
@@ -26,10 +30,6 @@ Följ produktcheferna Tamer Myna och Mark Tuyay när de visar upp verkliga berä
 * Använd flytande upplevelser för att skala rekommenderat innehåll i `Adobe.com`
 * Automatisera inmatning av innehåll i målrekommendationer
 * Spåra prestanda för rekommenderat innehåll och korrelera med leadgenerering
-
-**Torsdagen den 4 juni 2020**
-
-**10.00 till 10.45 (EST)**
 
 Gå till [registreringssidan på Adobe Experience Leagas webbplats](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
 
