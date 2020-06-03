@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
+source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +29,7 @@ Utöver den allmänna rapporteringsinformationen i detta avsnitt och dess undera
 | Typ av aktivitet | Detaljer |
 |--- |--- |
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | För att förstå lyft och förtroende samt de statistiska metoder som används i [!DNL Target], se [Planera ett A/B-test](/help/c-activities/t-test-ab/sample-size-determination.md). |
+| [Tolka autofördelningsrapporter](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Tolka resultaten av en automatisk fördelning av A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i målgränssnittet. |
 | [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) (AT) | Information om [!UICONTROL Summary] rapporten för AT-aktiviteter. Mer information finns i [Sammanfattningsrapport](/help/c-reports/auto-target-summary-report.md)för Automatiskt mål.<br>Information om de två [!UICONTROL Personalization Insights] rapporterna för AT- och AP-aktiviteter: [!UICONTROL Automated Segments] rapportera och [!UICONTROL Important Attributes] rapportera. Mer information finns i [Insikter om personalisering](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [Automatiserad personalisering](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Information om de två [!UICONTROL Automated Personalization Summary] rapporterna för AP-aktiviteter: [!UICONTROL Activity Level] rapportera och [!UICONTROL Offer Level] rapportera. Mer information finns i [Automatiserade sammanfattningsrapporter](/help/c-reports/reports-ap.md)för personalisering.<br>Information om de två [!UICONTROL Personalization Insights] rapporterna för AT- och AP-aktiviteter: [!UICONTROL Automated Segments] rapportera och [!UICONTROL Important Attributes] rapportera. Mer information finns i [Insikter om personalisering](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [Multivariata tester](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Information om de två rapporterna för MVT-aktiviteter: [!UICONTROL Experience Performance] rapportera och [!UICONTROL Location Contribution] rapportera. Mer information finns i [Experience Performance Report](/help/c-reports/experience-performance-report.md) (MVT) och [Location Contribution Report](/help/c-reports/location-contribution-report.md) (MVT). |
