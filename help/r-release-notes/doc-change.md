@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 5 juni | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Ytterligare information om Adobe Target Coffee Break från 10 juni. |
+|  | [Lyft och tillförsikt - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Varför kan jag inte se lyft och självförtroende för beräknade mätvärden?&quot; |
 | 4 juni | [A4T-rapportering](/help/c-integrating-target-with-mac/a4t/reporting.md) | Uppdaterade avsnittet Rapporter i analys. |
 | 1 juni | [Målmeddelanden](/help/r-release-notes/target-announcements.md) | En ny sida har lagts till för att informera om kommande Target-evenemang. |
 |  | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
