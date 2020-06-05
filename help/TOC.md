@@ -5,9 +5,9 @@ user-guide-title: Hjälp för Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 + [Produktdokumentation för Adobe Target](target-home.md)
 + Versionsinformation för mål {#release-notes}
-   + [Målmeddelanden](/help/r-release-notes/target-announcements.md)
+   + [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md)
    + [Versionsinformation för mål (aktuell)](r-release-notes/release-notes.md)
    + [Versionsinformation för mål (prerelease)](r-release-notes/target-release-notes.md)
    + [Target Insider-nyhetsbrev](/help/r-release-notes/target-insider-newsletter.md)
