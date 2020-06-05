@@ -5,7 +5,10 @@ title: Lyft och tillförsikt - A4T FAQ
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
+source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 0%
 
 ---
 
@@ -28,13 +31,14 @@ Konfidensnivån är sannolikheten för att den uppmätta konverteringsgraden ski
 
 ## Varför kan jag inte se lyft och självförtroende för beräknade mätvärden? {#lift-confidence}
 
-Lyft och förtroende stöds för närvarande inte med beräknade värden. I de flesta fall bör detta emellertid inte vara något problem eftersom den konverteringsgrad som beräknas i A4T-rapporten redan är ett beräknat mått där nämnaren är det normaliserande måttet (instanser, besök eller besökare). Om du till exempel väljer ordermåttet och normaliseringsmåttet är besökare, beräknas konverteringsgraden (order/besökare) automatiskt genom A4T-rapportering. Det resulterande lyftmåttet visar skillnaden i konverteringsgraden mellan textupplevelserna jämfört med standardvärdet.
+Beräknade mätvärden stöds för närvarande inte för lyftnings- och förtroendefunktioner. Detta beror på att Analytics beräknar mätvärden på aggregeringsnivå, snarare än på besökarnivå. Särskilt förtroendet är en beräkning på besökarnivå.
 
-De flesta beräknade mätvärdena för optimering kan delas in i en av två kategorier: aggregerade mått eller andra konverteringsberäkningar, t.ex. genomsnittligt ordervärde (AOV).
+Icke-beräknade (standard) händelser stöds i lift och Confidence. De blir täljare i lyftfunktionen. täljaren kan inte vara en beräkning i sig. Nämnaren är normaliseringsmåtten (visningar, besök eller besökare). Exempel på standardhändelser är order, intäkter, aktivitetskonverteringar, anpassade händelser 1-1000 osv. Det innebär att vanliga optimeringsvärden, som konversationsfrekvens (beställningar/besökare) och RPV (intäkt/besökare), stöds för lyft och förtroende.
 
-Sammanställningsvärden används när en organisation använder unika händelser för att fånga upp olika&quot;smak&quot; i den sparade konverteringen. Om du till exempel vill befordra inskickade formulär och har tio olika formulär kan du skapa unika händelser för att räkna varje typ av formulärkonvertering. Om du vill se den totala kvantiteten av alla formulär som skickats in för lead måste du skapa ett enkelt beräknat mått för att lägga ihop dem. Ett bättre och modernare sätt att spåra detta är att implementera en enda lead-submit-händelse i Analytics och sedan använda en eVar för att samla in typen av lead-formulär. Metoden kräver färre variabler och eliminerar behovet av att samla in enskilda värden, och du kan fortfarande se en helhetsbild av konverteringen av lead-form och dela upp den efter typ av lead-formulär med eVar. Detta eliminerar också behovet av aggregerade mätvärden vid utvärdering av prestandan för en Target-aktivitet.
+Exempel på mätvärden eller användningsfall som inte stöds är:
 
-Ett annat vanligt beräknat mätvärde, Average Order Value, stöds för närvarande inte med lyft och självförtroende eftersom det normaliserade måttet inte är ett standardmått (instanser, besök eller besökare). Rekommendationen är i stället att hålla ett öga på de två påverkande mätvärdena för AOV, Intäkter per besökare och konverteringsgrad.
+* Genomsnittligt ordervärde (intäkt/order, per besökare). AOV stöds inte eftersom täljaren är ett beräknat mått. Rekommendationen är i stället att beakta de två påverkande värdena för AOV - Intäkter per besökare och konverteringsgrad.
+* Beräknade mått som är summan av standardhändelser. Du kan t.ex. spåra tio olika leadformulär i tio olika händelser och sedan lägga ihop dem för att få ett totalt antal leadinskick. En rekommenderad metod för att spåra dessa händelser är att implementera en enda lead-överföringshändelse i Analytics och sedan använda en eVar för att samla in typen av lead-formulär. Om du använder den här metoden krävs färre variabler och du ser till att du kan använda ett enda lead-överföringsmått för lift- och Confidence-funktioner.
 
 ## Hur hanterar A4T tillförlitlighetsberäkningar? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
