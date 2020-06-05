@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ David Son, [!DNL Target] Product Manager, kommer att besvara alla dina frågor. 
 
 * at.js
 * Mobil
-* Alloy
+* Adobe Experience Platform - AEP Web SDK (gammal)
 * API:er
 
 Men du kan ställa frågor om Target.
