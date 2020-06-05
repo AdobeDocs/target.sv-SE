@@ -6,9 +6,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,30 @@ När [!UICONTROL Select] åtgärden används och du sorterar efter *tävlingsbid
 >
 >Rapporter som drivs av [!DNL Target] har en latens på fyra minuter. För aktiviteter som drivs av A4T kan det i både rapporten [!DNL Target] och [!DNL Analytics] rapporten ta upp till 24 timmar efter att aktiviteten ursprungligen sparats innan rapportdata kan delas upp efter upplevelser. De data som samlas in under dessa första 24 timmar är fortfarande korrekta och tilldelas rätt upplevelse.
 
-## Rapporter i analyser {#section_F6884872DC864AE7913587FAED4CD11C}
+## Rapporter i analyser {#analytics}
 
-I [!DNL Analytics]klickar du på **[!UICONTROL Target]** > **[!UICONTROL Target Activities]** i den vänstra menyn. I [!DNL Target]aktivitetens rapporter visas automatiskt [!DNL Analytics] data, mått och segment. Data visas i dessa rapporter ungefär en timme efter det att de samlats in från platsen. Alla mätvärden, målgrupper och värden i rapporterna kommer från rapportsviten som du valde när du konfigurerade aktiviteten.
+I [!DNL Analytics]finns det flera dimensioner och mätvärden som är tillgängliga efter att A4T-integreringen har aktiverats.
 
-I [!DNL Analytics]kan du använda [!UICONTROL Target Activities] rapporten för att visa resultatet av din [!DNL Target] aktivitet. Test&amp;Target-rapporter (äldre) innehåller information om den gamla formatsidintegreringen för Test&amp;Target-plugin och innehåller inte [!DNL Analytics] information om [!DNL Target] data. Visa information om era [!UICONTROL Activities] upplevelser i [!DNL Target] rapporten. Klicka **[!UICONTROL Metrics]** och välj sedan **[!UICONTROL Target]** måtttyp. Det finns två mätvärden för rapporten:
+### Dimensioner
 
-* **Aktivitetsposter:** Matchar inmatningsnumret i [!DNL Target] rapporten.
-* **Aktivitetskonverteringar:** Matchar numret för anpassade konverteringar i [!DNL Target] rapporten.
+* [!UICONTROL Analytics for Target] - Det överordnade ID som skickas via integreringen. Dimensionens format är `Activity ID:Experience ID:3rd ID`. Dimensionerna nedan är klassificeringar av den här dimensionen.
+* [!UICONTROL Target Activities]
+* [!UICONTROL Target Experiences]
+* [!UICONTROL Target Activity] > [!UICONTROL Experience]
+* [!UICONTROL 3rd ID] - kan ignoreras
 
->[!NOTE]
->
->[!DNL Target] lift and trust details are also available in [!DNL Analytics]. Mer information finns i [MålLyft och förtroende](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) i *guiden* för analyskomponenter.
+### Mått
+
+* [!UICONTROL Activity Impressions] - Matchar [!UICONTROL Entrants] talet i [!DNL Target] rapporten.
+* [!UICONTROL Activity Conversions] - Matchar [!UICONTROL Custom Conversions] talet i [!DNL Target] rapporten.
+
+Använd i [!DNL Analysis Workspace]stället [!UICONTROL Analytics for Target] panelen för att analysera dina [!DNL Target] aktiviteter och upplevelser med ökad och ökad tillförsikt. Mer information finns i [Analytics for Target-panelen (A4T)](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) i *Analytics-verktygshandboken*.
 
 >[!IMPORTANT]
 >
 >Om din [!UICONTROL Target Activities] rapport i [!DNL Analytics] listan&quot;ospecificerad&quot; istället för att visa dina aktiviteter, krävs en uppdatering av ditt provisionerade konto. Kontakta kundtjänst för att lösa problemet.
+
+Om du vill ha detaljerad information och exempel öppnar du [Analytics &amp; Target: Självstudiekursen Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) , som tillhandahålls av Adobe Experience League.
 
 ## Rapporter i mål {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -65,12 +73,6 @@ När [!DNL Analytics] används som rapportkälla visar rapporter i [!DNL Target]
 Du kan använda måttet eller målgruppen för rapporten i [!DNL Target] efter att aktiviteten har startats, eller till och med efter att testet har slutförts. Du behöver inte veta exakt vad du vill mäta i förväg.
 
 Klicka för att visa den fullständiga [!DNL Analytics] rapporten direkt från aktivitetsrapportsidan.
-
-## Rapporter på analysarbetsytan {#reports-in-analysis-workspace}
-
-Du kan använda [!DNL Adobe Analysis Workspace] för att fördjupa och visualisera data eller upptäcka dolda insikter under ytan.
-
-Om du vill ha detaljerad information och exempel öppnar du [Analytics &amp; Target: Självstudiekursen](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)Best Practices for Analysis, från [!DNL Adobe Experience League].
 
 ## Skapa aktivitet {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
