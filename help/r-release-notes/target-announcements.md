@@ -4,34 +4,38 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 
-# Målmeddelanden
+# Målmeddelanden och evenemang
 
 Information om kommande evenemang, inklusive Target SKill Builder-sessioner, utvecklarchats, webbinarier och Target Coffee Break-sessioner.
 
-## Adobe Target-verktyget för kompetensutveckling: Hur `Adobe.com` använder Adobe Sensei AI för att personalisera upplevelser?
+## Adobe Target Community Q&amp;A Coffee Break
 
-**Torsdagen den 4 juni 2020**
+**Onsdagen den 10 juni 2020**
 
-**10.00 till 10.45 (EST)**
+**10.00 till 11.00 (PST)**
 
-Som en av de största B2E-webbplatserna på internet har `Adobe.com` till fullo anammat sin roll som&quot;Customer Zero&quot; för Adobe Experience Cloud, och har antagit alla lösningar för både B2B- och B2C-användningsfall globalt. Personalisering är en viktig förutsättning för framgång för en digital destination som levererar en mängd olika personligheter, bland annat praktiska kreatörer, marknadsförare som inte är tekniska och djupgående tekniska IT-köpare. `Adobe.com`
+Välkommen till vårt kommande [!DNL Adobe Target] Community Q&amp;A Coffee Break! Detta är en del av en serie som vi nyligen har startat för att våra interna experter ska kunna interagera direkt med dig på våra forumtrådar för en&quot;Coffee Break&quot;. Se det som en motsvarighet till ett AMA (Fråga mig vad som helst) eller som en twitter-chatt. [!DNL Adobe Target]
 
-Följ produktcheferna Tamer Myna och Mark Tuyay när de visar upp verkliga berättelser om hur personalisering fungerar `Adobe.com`. I det här webbinariet får du lära dig att:
+David Son, [!DNL Target] Product Manager, kommer att besvara alla dina frågor. David har följande expertområden:
 
-* Håll innehållet relevant och uppdaterat utan att behöva göra manuella uppdateringar
-* Använd flytande upplevelser för att skala rekommenderat innehåll i `Adobe.com`
-* Automatisera inmatning av innehåll i målrekommendationer
-* Spåra prestanda för rekommenderat innehåll och korrelera med leadgenerering
+* at.js
+* Mobil
+* Alloy
+* API:er
 
-Gå till [registreringssidan på Adobe Experience Leagas webbplats](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
+Men du kan ställa frågor om Target.
+
+Du behöver bara vara inloggad på [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) för att kunna delta.
+
+[Anmäl dig här](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Target-verktyget för kompetensutveckling: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
