@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 5 juni | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Ytterligare information om Adobe Target Coffee Break från 10 juni. |
+| 4 juni | [A4T-rapportering](/help/c-integrating-target-with-mac/a4t/reporting.md) | Uppdaterade avsnittet Rapporter i analys. |
 | 1 juni | [Målmeddelanden](/help/r-release-notes/target-announcements.md) | En ny sida har lagts till för att informera om kommande Target-evenemang. |
 |  | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
 | 28 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande nya frågor och svar har lagts till: <ul><li>Hur räknas värdena för nya besökare och återkommande besökare?</li></ul> |
