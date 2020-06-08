@@ -5,7 +5,7 @@ title: Vanliga frågor om måloptimering och personalisering
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '2904'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Prova den [felsökningsinformation](../c-experiences/c-visual-experience-compose
 
 Vi har också en [formulärbaserad metod](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) som kan häva blockeringen.
 
-Läs också när och varför [Förbättrad Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) kan vara användbart. Du kan behöva kontakta IT-avdelningen för att [vitlista Adobes proxyservrar](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) också.
+Läs också när och varför [Förbättrad Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) kan vara användbart. Du kan behöva kontakta IT-avdelningen för att [även tillåta Adobes proxyservrar](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) .
 
 **Jag har en responsiv sajt. Hur vet jag att jag tänker använda nyckelenheter när jag skapar en aktivitet?**
 
