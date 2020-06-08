@@ -1,11 +1,11 @@
 ---
-keywords: implement;implementing;whitelist;white list;edge;edges
-description: Vitlista Adobe Target-kantnoder
-title: Vitlista Adobe Target-kantnoder
+keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
+description: Tillåt kantnoder i Adobe Target
+title: Tillåt kantnoder i Adobe Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 ---
 
 
-# Vitlista Målkantsnoder
+# Tillåt kantnoder för mål
 
-Information och en uppdaterad lista över värdar som hjälper dig att vitlista Adobes [!DNL Target] kanter.
+Information och en uppdaterad lista över värdar som hjälper dig att göra Adobe- [!DNL Target] kanter tillgängliga.
 
 En kant är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen. Varje edge-nod har all information som krävs för att svara på användarens innehållsförfrågan och för att spåra analysdata på den begäran. Användarförfrågningar dirigeras till närmaste kantnod. Mer information finns [i Edge Network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) i *How Adobe[!DNL Target]works*.
 
-Om du vill kan du vitlista [!DNL Target] kantnoder.
+Om du vill kan du tillåta [!DNL Target] kantnoder.
 
 Följande lista innehåller de aktuella värdarna:
 
