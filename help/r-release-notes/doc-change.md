@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 8 juni | [Mål för mobilappar - frågor och svar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile bara en funktionalitet i Adobe Target Premium Product SKU?&quot; |
+|  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Ytterligare information om Adobe Target Coffee Break från 10 juni. |
 |  | [Lyft och tillförsikt - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Varför kan jag inte se lyft och självförtroende för beräknade mätvärden?&quot; |
 | 4 juni | [A4T-rapportering](/help/c-integrating-target-with-mac/a4t/reporting.md) | Uppdaterade avsnittet Rapporter i analys. |
