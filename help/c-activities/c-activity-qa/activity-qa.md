@@ -5,7 +5,7 @@ title: Aktivitets-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
    Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att alla förhandsgranskningsparametrar listas i en lista så att dessa värden inte förändras på något sätt.
 
-   I följande tabell visas de parametrar som kan vitlistas i din domän:
+   I följande tabell visas de parametrar som kan tillåtas i din domän:
 
    | Parameter | Typ | Värde | Beskrivning |
    |--- |--- |--- |--- |
