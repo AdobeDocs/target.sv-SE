@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
@@ -60,11 +60,11 @@ Innan du kan använda en omdirigering måste du skapa den.
 
       >[!IMPORTANT]
       >
-      >Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att vitlista standarddomänerna för omdirigering av URL. Målet använder värdar för att vitlista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*.
+      >Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåta standarddomäner för omdirigering av URL. Målet använder värdar för att tillåta domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa tillståndslistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*.
 
 
 1. Validera omdirigeraren.
-   1. *Bästa praxis* för säkerhet: Se till att domänen som används i omdirigeraren är vitlistad, vilket anges ovan. Om du använder en domän som inte är vitlistad blockerar Adobe alla anrop till den domänen för att förhindra att skadliga aktörer använder omdirigeraren för att omdirigera till potentiellt skadliga domäner.
+   1. *Bästa praxis* för säkerhet: Se till att domänen som används i omdirigeraren är tillåten enligt vad som anges ovan. Om du använder en domän som inte är tillåten, blockerar Adobe alla anrop till den domänen för att förhindra att skadliga aktörer använder omdirigeraren för att omdirigera till potentiellt skadliga domäner.
    1. Infoga URL:en för omdirigeraren i en webbläsare och uppdatera.
    1. Logga in på ditt konto, uppdatera din mbox-lista och verifiera att den nya omdirigeraren är listad som en mbox.
 1. Om du ska testa olika destinationer för en annons skapar du [Omdirigeringserbjudanden](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
