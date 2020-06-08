@@ -105,7 +105,7 @@ Detta är möjligt med inställningen Primärt mål i steg 3 i det guidade arbet
 
 **Kan jag schemalägga en aktivitet att börja och sluta vid en fast tidpunkt?**
 
-Använd [schemaläggningsfunktionen i steget Mål och inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
+Använd funktionen [Schemaläggning i steget Mål och inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
 
 Kom ihåg att aktivera aktiviteten. Endast aktiva aktiviteter följer det angivna schemat. När slutdatumet har nåtts försätts aktiviteten i tillståndet Avslutat.
 
