@@ -5,7 +5,10 @@ title: Aktivera mål i SDK
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Lägg till Adobe Mobile Services SDK i din app.
 
    Öppna Mobiltjänster i Experience Cloud och gå sedan till **[!UICONTROL Manage App Settings]** > **[!UICONTROL SDK Target Options]**.
 
-   Lägg till din Target-klientkod och tidsgräns. Klientkoden är unik för ditt konto eller företag. Tidsgränsen är tiden i antal sekunder tills Target väntar på ett svar innan standardinnehållet visas. Kontrollera att **[!UICONTROL Use HTTPS]** alternativet är markerat på sidan Hantera appinställningar i Adobe Mobile Services. Om HTTPS inte är aktiverat blockeras alla anrop i iOS9+ om du inte vitlistar målservern.
+   Lägg till din Target-klientkod och tidsgräns. Klientkoden är unik för ditt konto eller företag. Tidsgränsen är tiden i antal sekunder tills Target väntar på ett svar innan standardinnehållet visas. Kontrollera att **[!UICONTROL Use HTTPS]** alternativet är markerat på sidan Hantera appinställningar i Adobe Mobile Services. Om HTTPS inte är aktiverat blockeras alla anrop i iOS9+ om du inte tillåter det.
 
    ![](assets/mobile-clientcode.png)
 
