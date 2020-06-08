@@ -1,11 +1,11 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
 title: Miljö
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -27,7 +27,7 @@ En miljö, standardmiljön, är förnamngiven [!UICONTROL Production]. Den här 
 
 När en mbox-begäran tas emot från nya webbplatser eller domäner visas alltid dessa nya domäner i [!UICONTROL Production] miljön. Miljöns inställningar kan inte ändras, så okända eller nya webbplatser kan garanterat bara se innehåll som är aktivt och klart. [!UICONTROL Production] Med värdhantering kan du enkelt säkerställa kvaliteten på nya aktiviteter och innehåll i test-, staging- och utvecklingsmiljöer innan du aktiverar aktiviteterna.
 
-[!DNL Target] begränsar inte en värd som kan skicka och ta emot rutor, så när nya servrar eller domäner kommer upp fungerar de automatiskt (såvida du inte har skapat en vitlista eller svartlista). Detta möjliggör även annonstestning på olika domäner som du inte vet eller inte kan förutse.
+[!DNL Target] begränsar inte en värd som kan skicka och ta emot mbox, så när nya servrar eller domäner kommer upp fungerar de automatiskt (såvida du inte har konfigurerat en lista över tillåtna servrar eller blocklistor). Detta möjliggör även annonstestning på olika domäner som du inte vet eller inte kan förutse.
 
 Om du vill hantera miljöer klickar du **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
