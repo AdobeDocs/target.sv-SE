@@ -1,10 +1,13 @@
 ---
-keywords: IP address;IP addresses;whitelist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
+keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: Lista med IP-adresser som används i Recommendations-servrar för feed-bearbetning i Oregon-datacenter för att hjälpa dig konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 title: IP-adresser som används av rekommendationsservrar för flödeshantering
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -13,13 +16,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Lista med IP-adresser som används i Recommendations-servrar för feed-bearbetning i Oregon-datacenter för att hjälpa dig konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 
-[!DNL Target] [!UICONTROL Recommendations] aktiviteter använder följande IP-adresser som finns i Oregon-datacentret vid åtkomst till kundens FTP-servrar (se länken nedan för att se den senaste informationen):
+[!DNL Target] [!UICONTROL Recommendations] För aktiviteter används följande IP-adresser som finns i Oregon-datacentret vid åtkomst till kundens FTP-servrar (se länken nedan för att få den senaste informationen):
 
 | CIDR-notering | Inledande IP | Avslutande IP |
 |---|---|---|
 | 192.243.242.0/24 | 192.243.242.0 | 192.243.242.255 |
 
-[!DNL Target] API: [!UICONTROL Recommendations] er använder följande IP-adresser som finns i Oregon-datacentret (se länken nedan för att se den senaste informationen):
+[!DNL Target] [!UICONTROL Recommendations] API:er använder följande IP-adresser som finns i Oregon-datacentret (kontrollera att länken nedan innehåller den senaste informationen):
 
 | CIDR-notering | Inledande IP | Avslutande IP |
 |---|---|---|
