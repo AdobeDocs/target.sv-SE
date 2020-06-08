@@ -5,7 +5,10 @@ title: Omdirigeringserbjudanden - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +76,7 @@ Parametrarna läggs automatiskt till i omdirigerings-URL:erna när de inbyggda o
 
 ## Mina webbservrar tar bort de här parametrarna från mina URL:er, vad ska jag göra? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Du måste arbeta med IT-avdelningen för att få parametrarna ( `adobe_mc_sdid` och `adobe_mc_ref`) vitlistade.
+Du måste arbeta med IT-avdelningen för att få parametrarna ( `adobe_mc_sdid` och `adobe_mc_ref`) tilldelade.
 
 ## Vad händer om jag inte använder A4T med min omdirigeringsaktivitet och inte vill att de här extra parametrarna ska läggas till i mina URL:er? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,7 +90,7 @@ Om du använder A4T och omdirigeringserbjudanden lägger Target till parametrarn
 
 På grund av den här dubbla kodningen när besökar-API:t försöker avkoda `adobe_mc_sdid` värdet går det inte att extrahera SDID-värdet och generera ett nytt SDID. Detta leder till att felaktiga SDID-värden skickas till Target och Analytics, och du kommer att se en ojämn delning för omdirigeringar i Analytics-rapporter.
 
-Vi rekommenderar att du talar med IT-avdelningen för att försäkra dig om att `adobe_mc_ref` och `adobe_mc_sdid` är listade så att dessa värden inte förändras på något sätt.
+Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att `adobe_mc_ref` och `adobe_mc_sdid` får tillåtelser så att dessa värden inte förändras på något sätt.
 
 ## Varför måste den refererande URL:en skickas till den nya sidan? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
@@ -99,4 +102,4 @@ Med [!DNL at.js] version 0.9.6 (eller senare) och [!DNL AppMeasurement.js] 2.1 (
 
 ## Kan jag använda anpassade omdirigeringserbjudanden/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
-Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T). Ur [!DNL Target] perspektiv är HTML-erbjudanden ogenomskinliga: [!DNL Target] vet inte om en viss del av HTML innehåller JavaScript som initierar en omdirigering.
+Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T). Ur [!DNL Target] perspektiv är HTML-erbjudanden ogenomskinliga: [!DNL Target] kan inte veta att en viss del av HTML innehåller JavaScript som initierar en omdirigering.
