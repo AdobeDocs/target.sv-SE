@@ -1,10 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;whitelist;white list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
+keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
 title: Felsöka Visual Experience Composer och Enhanced Experience Composer
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
