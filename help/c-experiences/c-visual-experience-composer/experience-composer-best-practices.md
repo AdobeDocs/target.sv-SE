@@ -5,7 +5,10 @@ title: Visuell Experience Composer - bästa praxis och begränsningar
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2442'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +35,9 @@ Om du vill aktivera Förbättrad Experience Composer på kontonivån klickar du 
 
 Om du vill aktivera Förbättrad Experience Composer på aktivitetsnivå när du skapar en aktivitet i Visual Experience Composer klickar du på [!UICONTROL Configure > URL]och växlar sedan till På-position.
 
-**Du kan vitlista vissa IP-adresser om Förbättrad Visual Experience Composer inte läses in på säkra sidor på din webbplats.**
+**Du kan tillåta vissa IP-adresser om Förbättrad Visual Experience Composer inte läses in på säkra sidor på din webbplats.**
 
-Problem med att läsa in den utökade Visual Experience Composer kan åtgärdas genom att vitlista följande IP-adresser. De här IP-adresserna är till för Adobes server och används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på din webbplats behöver inte dessa IP-adresser i listan över godkända adresser.
+Problem med att läsa in den utökade Visual Experience Composer kan åtgärdas genom att följande IP-adresser tillåts. De här IP-adresserna är till för Adobes server och används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på platsen behöver inte dessa tillåtna IP-adresser.
 
 USA: 52.55.99.45, 54.80.158.92 och 54.204.197.253
 
