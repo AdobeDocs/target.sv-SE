@@ -1,11 +1,11 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
 title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -27,7 +27,7 @@ En miljö, standardmiljön, är förnamngiven [!UICONTROL Production]. Den här 
 
 När en mbox-begäran tas emot från nya webbplatser eller domäner visas alltid dessa nya domäner i [!UICONTROL Production] miljön. Miljöns inställningar kan inte ändras, så okända eller nya webbplatser kan garanterat bara se innehåll som är aktivt och klart. [!UICONTROL Production] Med värdhantering kan du enkelt säkerställa kvaliteten på nya aktiviteter och innehåll i test-, staging- och utvecklingsmiljöer innan du aktiverar aktiviteterna.
 
-[!DNL Target] begränsar inte en värd som kan skicka och ta emot rutor, så när nya servrar eller domäner kommer upp fungerar de automatiskt (såvida du inte har skapat en vitlista eller svartlista). Detta möjliggör även annonstestning på olika domäner som du inte vet eller inte kan förutse.
+[!DNL Target] begränsar inte en värd som kan skicka och ta emot mbox, så när nya servrar eller domäner kommer upp fungerar de automatiskt (såvida du inte har konfigurerat en lista över tillåtna servrar eller blocklistor). Detta möjliggör även annonstestning på olika domäner som du inte vet eller inte kan förutse.
 
 Om du vill hantera värdar klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -70,11 +70,11 @@ Om du vill sortera [!UICONTROL Hosts] listan klickar du på en kolumnrubrik ([!U
 
 Om du vill söka i [!UICONTROL Hosts] listan skriver du ett sökord i [!UICONTROL Search Hosts] rutan.
 
-## Skapa vitlistor som anger värdar som har behörighet att skicka mbox-anrop till Target. {#whitelist}
+## Skapa tillståndslistor som anger värdar som har behörighet att skicka mbox-anrop till Target. {#whitelist}
 
-Du kan skapa en vitlista som anger värdar (domäner) som har behörighet att skicka mbox-anrop till [!DNL Target]. Alla andra värdar som genererar anrop får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller ett mbox-anrop med [!DNL Target] i produktionsmiljön och har tillgång till alla aktiva och godkända aktiviteter. Om detta inte är det önskade sättet kan du i stället använda vitlistan för att registrera specifika värdar som kan ringa mbox-samtal och ta emot [!DNL Target] innehåll. Alla värdar kommer att fortsätta att visas i [!UICONTROL Hosts] listan, och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva kampanjer.
+Du kan skapa en allowlist som anger värdar (domäner) som har behörighet att skicka mbox-anrop till [!DNL Target]. Alla andra värdar som genererar anrop får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller ett mbox-anrop med [!DNL Target] i produktionsmiljön och har tillgång till alla aktiva och godkända aktiviteter. Om detta inte är det önskade sättet kan du använda listan allowlist för att registrera specifika värdar som är berättigade att ringa mbox-samtal och ta emot [!DNL Target] innehåll. Alla värdar kommer att fortsätta att visas i [!UICONTROL Hosts] listan, och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva kampanjer.
 
-Så här skapar du en vitlista:
+Så här skapar du en lista över tillåtna användare:
 
 1. From the [!UICONTROL Hosts] list, click **[!UICONTROL Authorize Hosts]**.
 1. Aktivera **[!UICONTROL Enable Authorized Hosts for content delivery]** växlingsknappen.
@@ -92,9 +92,9 @@ Om ett mbox-anrop görs till en obehörig värd besvaras samtalet med `/* no dis
 
 >[!IMPORTANT]
 >
->**Bästa praxis** för säkerhet: Om du använder funktionen ubox i [!DNL Target]bör du tänka på att den här vitlistan även styr listan över domäner som [omdirigerarna](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om vitlistan inte anges kan Adobe inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
+>**Bästa praxis** för säkerhet: Om du använder funktionen ubox i [!DNL Target]bör du tänka på att denna allowlist även styr listan över domäner som [omdirigeringarna](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om allowlist lämnas ospecificerad kan Adobe inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
 >
->Vitlistan har företräde framför miljöer. Du bör rensa bort alla värdar innan du använder vitlistefunktionen. Då visas bara de värdar som är tillåtna i vitlistan i värdlistan. Du kan sedan flytta värdarna till den önskade miljön.
+>Tillåtningslistan har företräde framför miljöer. Du bör rensa bort alla värdar innan du använder funktionen för tillåtna värdar. Då visas bara de värdar som tillåts i listan över tillåtna värdar. Du kan sedan flytta värdarna till den önskade miljön.
 
 Ibland visas domäner från andra platser i dina miljöer. En domän visas i listan om domänen gör ett anrop till at.js eller mbox.js. Om någon t.ex. kopierar en av dina webbsidor till sin server, visas den domänen i din miljö. Du kan också se domäner från spindelmotorer, översättarplatser eller lokala diskenheter.
 
@@ -104,7 +104,7 @@ Du kan också skapa en svart lista som anger värdar (domäner) än vad som inte
 
 >[!NOTE]
 >
->Eftersom listan Godkända värdar används för både mbox-värdar och standardomdirigeringsvärdar måste du lägga till alla befintliga domäner som är godkända för att använda Adobe Target Javascript SDK (at.js) *OCH* alla domäner som används i ubox-standardomdirigeringsadresser. Du måste även lägga till nya liknande domäner i vitlistan i framtiden.
+>Eftersom listan Godkända värdar används för både mbox-värdar och standardomdirigeringsvärdar måste du lägga till alla befintliga domäner som är godkända för att använda Adobe Target Javascript SDK (at.js) *OCH* alla domäner som används i ubox-standardomdirigeringsadresser. Du måste även lägga till nya liknande domäner i listan över tillåtna domäner i framtiden.
 
 ## Ta bort en värd {#section_F56355BA4BC54B078A1A8179BC954632}
 
