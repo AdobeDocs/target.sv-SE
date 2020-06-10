@@ -5,9 +5,9 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
+source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 4 juni 2020**
+**Senast uppdaterad: 10 juni 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -41,7 +41,6 @@ Information om den aktuella versionen finns i [Versionsinformation](release-note
 | --- | --- |
 | Analyser för målstöd (A4T) för automatisk allokering av aktiviteter | I juniversionen har autofördelningstester stöd för [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). Tack vare den här integreringen kan ni använda Auto-Allocates multiväpnade bandit-funktion för att dirigera trafik till vinnande upplevelser, samtidigt som ni använder Adobe Analytics-målstatistik och/eller Adobe Analytics-rapporter och analysfunktioner. Om du redan har [implementerat A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) för användning med A/B Test- och Experience Targeting-aktiviteter är allt klart! |
 | Utgivarroll | Den nya rollen liknar den nuvarande observationsrollen (kan visa aktiviteter, men kan inte skapa eller redigera dem). Utgivarrollen har dock ytterligare behörighet att aktivera aktiviteter. |
-| Administrationssida<br>Tidigare &quot;Inställningar&quot;. | Sidan Inställningar har bytt namn till Administration och gränssnittet för alla menyalternativ har uppdaterats för att förbättra arbetsflödet och göra det enklare att använda.<br>Tillgängliga menyalternativ är:<ul><li>Visual Experience Composer</li><li>Rapportering</li><li>Inställningar för Scene7</li><li>Implementering</li><li>Egenskaper</li><li>Värdar</li><li>Miljö</li><li>Svarstoken</li><li>Användare</li></ul> |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
