@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 1%
@@ -110,7 +110,7 @@ I stället för att svara på alla förfrågningar om målinriktning från en en
 >
 >[!DNL Adobe Target] för närvarande inte har något Edge-nätverk i Kina och slutanvändarnas prestanda kommer att fortsätta vara begränsade för [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge-noder i landet går det långsamt att återge webbplatser med [!DNL Target] driftsatt programvara och sidinläsningen påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target] redigeringsgränssnittet.
 
-Om du vill kan du tillåta kantanteckningar i Target. Mer information finns i [allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md).
+Om du vill kan du tillåta kantanteckningar i Target. Mer information finns i [allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
 ## Skyddad användarupplevelse {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
