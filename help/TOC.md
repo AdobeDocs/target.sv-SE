@@ -5,7 +5,7 @@ user-guide-title: Hjälp för Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
          + [Google Chrome SameSite cookie-principer](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [CSP-direktiv (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Tillåt kantnoder för mål](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+         + [Tillåt kantnoder för mål](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metoder för att hämta data till Target {#methods}
          + [Metoder](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-inställningar](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
