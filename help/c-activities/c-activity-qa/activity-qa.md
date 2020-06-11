@@ -5,7 +5,7 @@ title: Aktivitets-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
    På grund av den här dubbla kodningen kan inte Target extrahera rätt tokenvärde när vi försöker avkoda `at_preview_token`koden, vilket resulterar i att förhandsvisningen inte fungerar.
 
-   Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att alla förhandsgranskningsparametrar listas i en lista så att dessa värden inte förändras på något sätt.
+   Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att alla förhandsgranskningsparametrar är tillåtna så att dessa värden inte förändras på något sätt.
 
    I följande tabell visas de parametrar som kan tillåtas i din domän:
 
