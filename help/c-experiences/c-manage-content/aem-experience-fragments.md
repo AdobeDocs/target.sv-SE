@@ -5,7 +5,7 @@ title: Adobe Experience Manager (AEM) Experience fragment i Adobe Target
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 4e1b4d31ba28e21513d314041add5231c9a3062a
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -89,7 +89,7 @@ När du har utfört de föregående åtgärderna visas upplevelsefragmentet på 
 
 >[!IMPORTANT]
 >
->Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att huvudversionen för upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
+>Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att den &quot;primära&quot; versionen för upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 
 Du kan hovra över ett upplevelsefragment i listan och sedan klicka på [!UICONTROL View] ikonen ![Visa](assets/icon_info.png) för att se ytterligare information om upplevelsefragmentet, inklusive dess URL för offentlig leverans av erbjudanden och dess [!DNL AEM] sökväg.
 
@@ -141,7 +141,7 @@ Du kan använda upplevelsefragment i [!DNL Target] aktiviteter med [Visual Exper
 ## Överväganden {#considerations}
 
 * [!DNL Target] letar efter upplevelsefragment som ska importeras var tionde minut. Det importerade upplevelsefragmentet bör vara tillgängligt inom [!DNL Target] tio minuter, men den här tidsramen bör korta av framgången.
-* Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att huvudversionen för upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
+* Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att den &quot;primära&quot; versionen för upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 * Du kan importera JSON-erbjudanden som upplevelsefragment till [!DNL Target]. Erbjudandena importeras dock som HTML-erbjudanden. JSON-erbjudanden (upplevelsefragment) stöds för närvarande inte helt i [!DNL Target] användargränssnittet.
 
 ## Utbildningsvideo: Använda AEM Experience fragments med Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
