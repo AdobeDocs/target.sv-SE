@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Annonser och omdirigerare kan användas med alla typer av aktiviteter. I följan
 
 ## Bästa praxis för säkerhet {#security}
 
-Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåta standarddomäner för omdirigering av URL. Målet använder värdar för att tillåta domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa tillståndslistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#whitelist) i *Hosts*.
+Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåta standarddomäner för omdirigering av URL. Målet använder värdar för att tillåta domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa tillståndslistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) i *Hosts*.
 
 ## Begränsningar {#section_38F559DCF1324271926608BCD4AB1227}
 
