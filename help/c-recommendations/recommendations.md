@@ -4,7 +4,10 @@ description: Rekommendationsaktiviteter i Adobe Target visar automatiskt produkt
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: f9bd8faa62acb78f2b605702386ec97747e36556
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
@@ -57,4 +60,4 @@ I den här videon förklaras vilka aktivitetstyper som finns i [!DNL Target Stan
 
 Webbseminariet *Introduction to Recommendations* (Introduktion till rekommendationer) innehåller en fördjupad genomgång av hur du kan utnyttja fördelarna med [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target] aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till [!DNL Target] användargränssnittet för att få en stegvis översikt över hur du skapar en [!DNL Recommendations] aktivitet.
 
-[Introduktion till rekommendationer](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduktion till rekommendationer](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
