@@ -5,7 +5,7 @@ title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Om du vill sortera [!UICONTROL Hosts] listan klickar du på en kolumnrubrik ([!U
 
 Om du vill söka i [!UICONTROL Hosts] listan skriver du ett sökord i [!UICONTROL Search Hosts] rutan.
 
-## Skapa tillståndslistor som anger värdar som har behörighet att skicka mbox-anrop till Target. {#whitelist}
+## Skapa tillståndslistor som anger värdar som har behörighet att skicka mbox-anrop till Target. {#allowlist}
 
 Du kan skapa en allowlist som anger värdar (domäner) som har behörighet att skicka mbox-anrop till [!DNL Target]. Alla andra värdar som genererar anrop får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller ett mbox-anrop med [!DNL Target] i produktionsmiljön och har tillgång till alla aktiva och godkända aktiviteter. Om detta inte är det önskade sättet kan du använda listan allowlist för att registrera specifika värdar som är berättigade att ringa mbox-samtal och ta emot [!DNL Target] innehåll. Alla värdar kommer att fortsätta att visas i [!UICONTROL Hosts] listan, och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva kampanjer.
 
