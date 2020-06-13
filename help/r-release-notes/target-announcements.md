@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
+source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -15,27 +15,6 @@ ht-degree: 0%
 # Målmeddelanden och evenemang
 
 Information om kommande evenemang, inklusive Target SKill Builder-sessioner, utvecklarchats, webbinarier och Target Coffee Break-sessioner.
-
-## Adobe Target Community Q&amp;A Coffee Break
-
-**Onsdagen den 10 juni 2020**
-
-**10.00 till 11.00 (PST)**
-
-Välkommen till vårt kommande [!DNL Adobe Target] Community Q&amp;A Coffee Break! Detta är en del av en serie som vi nyligen har startat för att våra interna experter ska kunna interagera direkt med dig på våra forumtrådar för en&quot;Coffee Break&quot;. Se det som en motsvarighet till ett AMA (Fråga mig vad som helst) eller som en twitter-chatt. [!DNL Adobe Target]
-
-David Son, [!DNL Target] Product Manager, kommer att besvara alla dina frågor. David har följande expertområden:
-
-* at.js
-* Mobil
-* Adobe Experience Platform - AEP Web SDK (gammal)
-* API:er
-
-Men du kan ställa frågor om Target.
-
-Du behöver bara vara inloggad på [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) för att kunna delta.
-
-[Anmäl dig här](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Target-verktyget för kompetensutveckling: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
