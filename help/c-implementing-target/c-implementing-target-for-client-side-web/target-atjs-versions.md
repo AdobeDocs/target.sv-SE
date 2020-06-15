@@ -5,7 +5,10 @@ title: versionsinformation för at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+workflow-type: tm+mt
+source-wordcount: '3940'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +21,27 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 >
 >Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) är det bästa sättet att uppgradera at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch] katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i användarhandboken för *Experience Platform Launch*.
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) är det bästa sättet att uppgradera at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch] katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i användarhandboken *för* Experience Platform Launch.
+
+## kl. 1.8.2 (15 juni 2020)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande korrigering:
+
+* Korrigerade ett problem vid användning av CNAME och kantåsidosättning, at.js 1.*x* kan felaktigt skapa serverdomänen, vilket resulterade i att [!DNL Target] begäran misslyckades. (TNT-35064)
+
+## kl. 2.3.1 (15 juni 2020)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
+
+* Inställningen kan åsidosättas `deviceIdLifetime` via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
+* Korrigerade ett problem vid användning av CNAME och kantåsidosättning, at.js 2.*x* kan felaktigt skapa serverdomänen, vilket resulterade i att [!DNL Target] begäran misslyckades. (TNT-35065)
+* Korrigerade ett problem när tillägget v2 och [!DNL Target] tillägget v2 användes och [!DNL Launch][!DNL Adobe Analytics] tillägget [!DNL Launch] fördröjde [!DNL Target][!DNL Analytics] `sendBeacon` anropet. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js version 2.3.0 (25 mars 2020)
 
 Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
 
-* Stöd för inställning av innehållets säkerhetspolicyundantag för SCRIPT- och STYLE-taggar som läggs till på sidan DOM när levererade Target-erbjudanden tillämpas. Kunderna kan ställa in `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` se till att at.js kan ställa in motsvarande skript och style tag nonces på tillämpade erbjudanden. Mer information finns i [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) .
+* Stöd för inställning av innehållets säkerhetspolicy för SCRIPT- och STYLE-taggar som läggs till på sidan DOM när levererade Target-erbjudanden tillämpas. Kunderna kan ställa in `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` se till att at.js kan ställa in motsvarande skript och style tag nonces på tillämpade erbjudanden. Mer information finns i [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) .
 * Ett problem har korrigerats vid kompilering av at.js med Google Closure-kompilatorn för Google Tag Manager-distribution.
 * Du har bytt namn på cookien at.js från `check` till `at_check` för att undvika kollisioner med kundernas implementeringar.
 
@@ -38,7 +55,7 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 
 Den här versionen av at.js innehåller följande förbättringar och korrigeringar:
 
-* Korrigerade ett problem där klickspårning inte rapporterade konverteringar i A4T (Analytics for Target) när Adobe Analytics-kod inte fanns på sidelement.
+* Korrigerade ett problem där klickspårning inte rapporterade konverteringar i Analytics för Target (A4T) när Adobe Analytics-kod inte fanns på sidelement.
 * Förbättrade prestanda när du använder både Experience Cloud ID Service (ECID) v4.4 och at.js 2.2 på dina webbsidor.
 * Tidigare gjorde ECID två blockerande anrop innan at.js kunde hämta upplevelser. Detta har reducerats till ett enda samtal, vilket avsevärt förbättrar prestandan.
 
@@ -46,7 +63,7 @@ Den här versionen av at.js innehåller följande förbättringar och korrigerin
    >
    >Uppgradera ditt ECID Launch-tillägg till v4.4 för att utnyttja prestandaförbättringarna.
 
-* at.js version 2.2 innehåller även en ny inställning som kallas `serverState`. Den här inställningen kan användas för att optimera sidprestanda när en blandad integrering av Target implementeras. Hybrid-integrering innebär att du använder både at.js v2.2+ på klientsidan och leverans-API:t eller en Target SDK på serversidan för att leverera upplevelser. `serverState` ger at.js v2.2+ möjlighet att tillämpa upplevelser direkt från innehåll som hämtas på serversidan och returneras till klienten som en del av den sida som skickas. Mer information finns i&quot;serverState&quot; i [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js version 2.2 innehåller även en ny inställning som kallas `serverState`. Den här inställningen kan användas för att optimera sidprestanda när en hybridintegrering av Target implementeras. Hybrid-integrering innebär att du använder både at.js v2.2+ på klientsidan och leverans-API:t eller en Target SDK på serversidan för att leverera upplevelser. `serverState` ger at.js v2.2+ möjlighet att tillämpa upplevelser direkt från innehåll som hämtas på serversidan och returneras till klienten som en del av den sida som skickas. Mer information finns i&quot;serverState&quot; i [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js version 1.8.0 (10 oktober 2019)
 
@@ -71,7 +88,7 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 * Korrigerade ett problem som hindrade meddelandet från att `triggerView()` utlösas även om det inte finns några sparade vyer. (TNT-32614)
 * Korrigerade ett problem som orsakade ett fel på grund av användningen av decodeURIcomponent som orsakade problem när URL:en innehåller en felformaterad frågesträngsparameter. (TNT-32710)
 * Beacon-flaggan är nu inställd på &quot;true&quot; i samband med leveransbegäranden som skickas via `Navigator.sendBeacon()` API. (TNT-32683)
-* Korrigerade ett problem som hindrade rekommendationserbjudanden från att visas på webbplatser för ett fåtal kunder. Kunderna kunde se erbjudandeinnehållet i API-anropet, men erbjudandet tillämpades inte på webbplatsen. (TNT-32680)
+* Ett problem som hindrade rekommendationserbjudanden från att visas på webbplatser för ett fåtal kunder har korrigerats. Kunderna kunde se erbjudandeinnehållet i API-anropet, men erbjudandet tillämpades inte på webbplatsen. (TNT-32680)
 * Korrigerade ett problem som gjorde att klickspårning över flera upplevelser inte fungerade som förväntat. (TNT-32644)
 * Korrigerade ett problem som förhindrade at at at.js från att använda det andra måttet efter att återgivningen av det första måttet misslyckades. (TNT-32628)
 * Korrigerade ett problem vid överföring `mboxThirdPartyId` med `targetPageParams` funktionen som gjorde att nyttolasten för begäran inte fanns i frågeparametrarna eller i nyttolasten för begäran. (TNT-32613)
@@ -87,7 +104,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
 
 * **Loggning** av analys på klientsidan: Ge kunderna full kontroll över hur de vill skicka analysdata till Adobe Analytics, oavsett om det gäller klient- eller serversidan.
 
-   Mer information finns i Logga [för](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) klientanalys i *Innan du implementerar*.
+   Mer information finns i Logga [i Analytics på](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) klientsidan i *Innan du implementerar*.
 
 * **Skicka meddelanden**: Tillåt utvecklare att skicka meddelanden när en upplevelse återges av koden i stället för att använda `applyOffer()` eller `applyOffers()`.
 
@@ -102,7 +119,7 @@ Det här är en underhållsrelease och innehåller följande förbättringar och
 (Numren inom parentes är avsedda för internt [!DNL Adobe] bruk.)
 
 * Korrigerade ett konkurrensvillkor i DOM-avsökningskoden som orsakade JavaScript-undantag för vissa kunder. (TNT-31869)
-* Meddelanden om att vyer har renderats har kopplats bort från händelsehanterare för klickspårning. Inledningsvis skickade inte Target meddelanden om klickhändelsehanterare som tillhör en återgiven vy inte kunde bifogas. Målet skickar nu ett vymeddelande även när klickelementen inte hittas. (TNT-31969)
+* Meddelanden om att vyer har renderats har kopplats bort från händelsehanterare för klickspårning. Till att börja med skickade Target inga meddelanden om klickhändelsehanterare som hör till en återgiven vy inte kunde bifogas. Target skickar nu ett vymeddelande även när klickelementen inte hittas. (TNT-31969)
 * Korrigerade ett problem som gjorde att omdirigeringsflaggan för händelsen som slutfördes alltid hade angetts till true. (TNT-31907)
 * Korrigerade ett problem som gjorde att VEC-ändringsåtgärden loggades som lyckad, även när element saknades. (TNT-31924)
 * Korrigerade ett problem som gjorde att meddelanden till vissa kunder inte innehöll egenskapstoken för företagsbehörigheter. (TNT-31999)
@@ -188,7 +205,7 @@ Här är förbättringarna och korrigeringarna som ingick i at.js version 1.6.1:
 * Ändras så att det finns ett undantag när en omdirigeringssida kvalificerar sig för en omdirigeringsaktivitet. (TNT-30532)
 * Korrigerade ett problem som förhindrade att rätt tidsgräns för begäran spreds från API-begäran getOffer(). (TNT-30498)
 * Korrigerade ett fel som förhindrade att cookies sparades i .js 1.6.0 när filprotokollet användes. (TNT-30454)
-* Korrigerade ett problem som fick det att verka som om inte alla upplevelser levererades med omdirigeringar när Analytics for Target (A4T) användes. (TNT-30444)
+* Korrigerade ett fel som fick det att verka som om inte alla upplevelser levererades med omdirigeringar när Analytics for Target (A4T) användes. (TNT-30444)
 * Korrigerade ett problem som gjorde att sidan doldes efter att Target-anropet lyckades. (TNT-30358)
 
 Här är förbättringarna och korrigeringarna som ingår i at.js version 1.6.0:
@@ -235,9 +252,9 @@ at.js version 1.3.0 finns nu att köpa.
    Mer information finns i [Dataproviders](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
 * AT.js-begäranden använder nu GET, men det växlar till POST när URL-storleken överskrider 2 048 tecken. Det finns en ny egenskap med namnet `urlSizeLimit` där du kan öka storleksgränsen vid behov. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik.
-* Target tvingar nu till att `mbox` nyckeln i `adobe.target.applyOffer(options)` funktionen används. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target har korrekt validering och att kunderna använder funktionen korrekt.
+* Target kräver nu att `mbox` nyckeln i `adobe.target.applyOffer(options)` funktionen används. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target valideras korrekt och att kunderna använder funktionen korrekt.
 * at.js har förbättrat funktionerna för händelsespårning och klickning. at.js använder `navigator.sendBeacon()` för att skicka händelsespårningsdata och återgår till synkron XHR när `navigator.sendBeacon()` inte stöds. Detta gäller oftast Internet Explorer 10 och 11 samt vissa versioner av Safari. Safari kommer att lägga till stöd för `navigator.sendBeacon()` i den kommande iOS 11.3-versionen.
-* at.js kan nu återge erbjudanden även när en sida öppnas i bakgrundsflikar. Vissa målkunder stötte på ett problem när de `requestAnimationFrame()` inaktiverades på grund av webbläsarbegränsningsbeteendet för bakgrundsflikar.
+* at.js kan nu återge erbjudanden även när en sida öppnas i bakgrundsflikar. Vissa Target-kunder stötte på ett problem när `requestAnimationFrame()` inaktiverades på grund av webbläsarbegränsningsbeteendet för bakgrundsflikar.
 * Den här versionen innehåller många prestandaförbättringar, bland annat kortare anropsstackar vid inspektion av en Chrome CPU-profil.
 * at.js 1.3.0 stöder inte längre innehållsleverans i Microsoft Internet Explorer 9. En lista över webbläsare som stöds finns i [Webbläsare](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)som stöds. Framöver utförs alla begäranden via CORS `XMLHttpRequest` utan JSONP-begäranden. Den här förändringen förbättrar säkerheten avsevärt.
 
@@ -251,8 +268,8 @@ at.js version 1.3.0 finns nu att köpa.
 
 [!DNL at.js] version 1.2.2 finns nu tillgänglig.
 
-* Korrigerade ett problem som returnerade ett JavaScript-fel när målbiblioteket lästes in på en sida i QUIRKS-läge. (TNT-28312)
-* Korrigerade ett problem som gjorde att klickspårning i Target bröt samtalet om insamling av analysdata. (TNT-28261)
+* Korrigerade ett problem som returnerade ett JavaScript-fel när Target-biblioteket lästes in på en sida i QUIRKS-läge. (TNT-28312)
+* Korrigerade ett problem som gjorde att Target klickspårning bröt Analytics datainsamlingsanrop. (TNT-28261)
 * Korrigerade ett problem som orsakade `getOffer() params` att fel uppstod när `targetPageParams()` en tom sträng returnerades. (TNT-28359)
 * Ett problem med generering av sessions-ID har korrigerats när endast x användes. (TNT-28361)
 
@@ -260,14 +277,14 @@ at.js version 1.3.0 finns nu att köpa.
 
 [!DNL at.js] version 1.2.1 finns nu tillgänglig.
 
-* Ett problem har korrigerats när klickspårning på en länk med target=&quot;_blank&quot; förhindrade att Target öppnade länken på en ny flik.
+* Ett problem som orsakade att Target inte kunde öppna länken på en ny flik korrigerades när användaren klickade på spårning på en länk med target=&quot;_blank&quot;.
 
 ## at.js Version 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
 [!DNL at.js] version 1.2 finns nu som en underhållsrelease som innehåller de flesta felkorrigeringar.
 
 * Korrigerade ett problem som förhindrade standardåtgärder för specialfall för klickspårning. (TNT-28089)
-* Korrigerade ett problem när klickspårning på en länk med `target="_blank"` vilket förhindrade Target från att öppna länken på en ny flik. (TNT-28072)
+* Korrigerade ett problem när klickspårning på en länk med `target="_blank"` som gjorde att Target inte kunde öppna länken på en ny flik. (TNT-28072)
 * IP-adresser kan användas som cookie-domän. (TNT-28002)
 * Korrigerade ett problem som orsakade flimmer i omdirigeringserbjudanden med en global mbox eller andra regionala mbox. (TNT-27978)
 * Korrigerade ett problem i konfigurationen av Experience Targeting-aktivitet som misslyckades i VEC vid växling mellan Browse och Compose. (TNT-27942)
@@ -301,7 +318,7 @@ Följande förbättringar och korrigeringar ingår i .js version 1.0:
 * Fel-/felrapportering för anpassade händelser under aktivitetsleverans.
 * Åtgärda prestandaproblem i Microsoft Internet Explorer 11.
 * Åtgärda funktionsavvikelser som kan orsaka fel på vissa webbplatser. `getOffer()`
-* Läs in målbiblioteket asynkront. Mer information finns i [at.js Vanliga frågor](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+* Läs in Target-biblioteket asynkront. Mer information finns i [at.js Vanliga frågor](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## at.js Version 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -320,7 +337,7 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
 * Stöd för omdirigeringserbjudande för A4T. När du har hämtat och installerat [!DNL at.js] version 0.9.6 kan du använda omdirigeringserbjudanden i aktiviteter som använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Target] (A4T). Förutom [!DNL at.js] version 0.9.6 finns det andra minimikrav som måste uppfyllas för att din implementering ska kunna använda omdirigeringserbjudanden och A4T. Mer information och ytterligare viktig information som du bör känna till finns i [Omdirigeringserbjudanden - A4T Frågor och svar](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Före [!DNL at.js] 0.9.6, när besökar-API:t fanns på sidan och inställningen var för aggressiv, kunde Target hamna i en situation där inga MCID-data skickades i `visitorApiTimeout` [!DNL Target] begäran. Detta kan leda till problem som stygga träffar i [!DNL Analytics] när A4T används.
 
-   Detta beteende har ändrats i [!DNL at.js] 0.9.6, även om inställningen `visitorApiTimeout` är 1 ms, försöker Target samla in data för SDID, spårningsservrar och kund-ID:n och skicka data för Target-begäran.
+   Detta beteende har ändrats i [!DNL at.js] `visitorApiTimeout` 0.9.6, även om inställningen är 1 ms, kommer Target att försöka samla in data för SDID, spårningsservrar och kund-ID:n och skicka dessa data i Target begäran.
 
 * Inställningen har `selectorsPollingTimeout` lagts till. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Formatet på svaret från `getOffer()` har ändrats. Mer information finns i [adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
@@ -339,7 +356,7 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
    En lista med tillåtna specialtecken finns i [at.js Configurations](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
 * En tillagd `secureOnly` inställning som anger om at.js ska använda enbart HTTPS eller tillåtas växla mellan HTTP och HTTPS baserat på sidprotokollet. Det här är en avancerad inställning som har standardvärdet False och kan åsidosättas via `targetGlobalSettings`.
-* Alternativet [!UICONTROL Stöd] för äldre webbläsare finns i version 0.9.3 och tidigare av .js. Det här alternativet togs bort i at.js version 0.9.4.
+* Alternativet [!UICONTROL Legacy Browser Support] finns i version 0.9.3 och tidigare av at.js. Det här alternativet togs bort i at.js version 0.9.4.
 
 ## at.js Version 0.9.3 {#section_DF13BC1D7C994AE7A36B81937A699DF4}
 
@@ -355,7 +372,7 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
 
 * En `optoutEnabled` inställning har lagts till för att aktivera eller inaktivera Device Graph-avanmälan. Om den här inställningen är inställd på `true` och besökaren har valt bort spårning, kommer besökarens webbläsare inte att göra några mbox-anrop. Device Graph är för närvarande i Beta. Den här inställningen är som standard `false` men måste anges till `true` om du använder Device Graph. Ett liknande alternativ är en del av mbox.js v61.
 * Stöd har lagts till `CustomEvent` för meddelandefunktionen. Tidigare gick det inte att använda händelsemeddelandefunktionen at.js via vanliga DOM-API:er, till exempel `document.addEventListener()`. Nu kan du använda `document.addEventListener()` för att prenumerera på at.js-händelser, som request-händelser och innehållsrenderingshändelser.
-* Ett problem som rör erbjudanden som har skapats i Visual Experience Composer (VEC) har korrigerats. Före den här versionen dolde Target väljarna och gömde dem bara när alla väljare matchade. I at.js 0.9.2 Target tas väljarna bort så snart de matchar.
+* Ett problem som rör erbjudanden som har skapats i Visual Experience Composer (VEC) har korrigerats. Före den här versionen dolde Target väljarna och gömde dem bara när alla väljare matchade. I at.js 0.9.2 döljer Target väljarna så fort de matchar.
 
 ## at.js Version 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
 
@@ -363,11 +380,11 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
 
 * Tillhandahåller en timeout för besökar-ID-tjänsten på at.js, som är oberoende av tjänstens egen timeout.
 * Korrigerar ett fel i 0.9.0 som påverkade implementeringar med at.js på vissa sidor och mbox.js på andra sidor.
-* Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar aktiviteter om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna fältet [!UICONTROL Spårningsserver] tomt på sidan [!UICONTROL Mål och inställningar] .
+* Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
 
 ## at.js Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
-**Målversion:** 16.6.1
+**Target Release:** 16.6.1
 
 **Datum:** 23 juni 2016
 
