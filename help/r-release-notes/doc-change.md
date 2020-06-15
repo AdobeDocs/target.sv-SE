@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 15 juni | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 | 8 juni | [Mål för mobilappar - frågor och svar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile bara en funktionalitet i Adobe Target Premium Product SKU?&quot; |
