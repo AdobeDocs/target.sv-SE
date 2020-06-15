@@ -1,13 +1,13 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits;updates
-description: På den här sidan visas viktiga ändringar i Adobe Target-dokumentationen, som har beställts i releaser.
+description: På den här sidan visas viktiga ändringar som gjorts i dokumentationen för Adobe Target. Ändringarna är ordnade efter lanseringar.
 title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,31 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 15 juni | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
+| 15 juni | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
-| 8 juni | [Mål för mobilappar - frågor och svar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile bara en funktionalitet i Adobe Target Premium Product SKU?&quot; |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+| 8 juni | [Vanliga frågor om Target för mobilappar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile endast en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
-| 5 juni | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Ytterligare information om Adobe Target Coffee Break från 10 juni. |
+| 5 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om den 10 juni Adobe Target Coffee Break har lagts till. |
 |  | [Lyft och tillförsikt - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Varför kan jag inte se lyft och självförtroende för beräknade mätvärden?&quot; |
-| 4 juni | [A4T-rapportering](/help/c-integrating-target-with-mac/a4t/reporting.md) | Uppdaterade avsnittet Rapporter i analys. |
-| 1 juni | [Målmeddelanden](/help/r-release-notes/target-announcements.md) | En ny sida har lagts till för att informera om kommande Target-evenemang. |
+| 4 juni | [A4T-rapportering](/help/c-integrating-target-with-mac/a4t/reporting.md) | Uppdaterade avsnittet Rapporter i Analytics. |
+| 1 juni | [Target-meddelanden](/help/r-release-notes/target-announcements.md) | En ny sida med information om kommande evenemang från Target har lagts till. |
 |  | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
 | 28 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande nya frågor och svar har lagts till: <ul><li>Hur räknas värdena för nya besökare och återkommande besökare?</li></ul> |
-| 27 maj | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om stöd för analys för målaktiviteter (A4T) för Automatisk allokering. |
+| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
 | 26 maj | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Följande information har lagts till: &quot;Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.&quot; |
-| 21 maj | [Tillåt kantnoder för mål](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Tillagd `mboxedge30.tt.omtrdc.net` i listan. |
-| 20 maj | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om den kommande versionen av Target Standard/Premium 20.6.1 (10 juni 2020). |
+| 21 maj | [Tillåt kantnoder i Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Tillagd `mboxedge30.tt.omtrdc.net` i listan. |
+| 20 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om den kommande Target Standarden/Premium 20.6.1-utgåvan (10 juni 2020) har lagts till. |
 |  | [Värdar](/help/administrating-target/hosts.md) | Anteckning har lagts till i avsnittet&quot;Bästa praxis för säkerhet&quot;. |
-| 14 maj | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om ändringar i API v2 för profilbatchstatus. |
+| 14 maj | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om ändringar i API v2 för profilbatchstatus. |
 | 13 maj | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Avsnittet&quot;Kända begränsningar&quot; har lagts till. |
 | 11 maj | [Värdar](/help/administrating-target/hosts.md) | Lagt till information om hur du använder funktionen ubox med omdirigeringar och tillståndslistor. |
 |  | [Arbeta med regissörer](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
 |  | [Integrera rekommendationer med e-post](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
-|  | [E-post: implementera mål](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
-| 7 maj | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | I och med den kommande utfasningen av mbox.js den 30 augusti 2020 var David Son, var Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Det finns en länk där du kan titta på webbinariet de kommande 30 dagarna. |
+|  | [E-post: implementera Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
+| 7 maj | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | I och med den kommande utfasningen av mbox.js den 30 augusti 2020 var David Son, Adobe Target Product Manager, nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Det finns en länk där du kan titta på webbinariet de kommande 30 dagarna. |
 |  | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Uppdaterade avsnittet &quot;Överväganden&quot;. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Uppdaterad&quot;overrideMboxEdgeServer&quot;-rad under&quot;Settings&quot;. |
 | 6 maj | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Ytterligare information om ITP 2.3. |
@@ -56,21 +58,21 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 4 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Nya frågor och svar: &quot;Varför är trafiken delad mellan mina upplevelser ojämn i min A/B- eller MVT-aktivitet?&quot; |
 | 29 april | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett känt problem har lagts till för rapportering av extrema order. |
 | 28 april | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Information om hur du använder `user.header('x-forwarded-for')` med nyare AWS-kanter för att hämta användarnas IP-adresser har tagits bort. Det här kommandot fungerar nu med nyare AWS-kanter. |
-|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Ändrad till 6 maj för målversionen av Standard/Premium (20.4.1). |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ändrad till 6 maj för Target Standard-/Premium-versionen (20.4.1). |
 | 23 april | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
-| 22 april | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Nytt avsnitt har lagts till: *Ändringar i API:t för gruppstatus (4 maj 2020).* |
-| 20 april | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Nytt avsnitt har lagts till: *Adobe Target-verktyget för kompetensutveckling: Utvecklarchatt, migrera Adobe Target mbox.js till at.js.* |
-| 14 april | [Tillåt kantvärdar för mål](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nytt ämne. |
+| 22 april | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Nytt avsnitt har lagts till: *Ändringar i API:t för gruppstatus (4 maj 2020).* |
+| 20 april | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Nytt avsnitt har lagts till: *Adobe Target Swledge Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js.* |
+| 14 april | [Tillåt Target edge hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nytt ämne. |
 | 10 april | [Implementering av Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nytt avsnitt har lagts till: &quot;Bästa praxis för implementering.&quot; |
 | 7 april | [Lyft och tillförsikt - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Uppdaterad text för&quot;Varför kan jag inte se lyft och självförtroende för beräknade mätvärden?&quot; |
 | 2 april | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Lagt till information om hur du använder `user.header('x-forwarded-for')` med nyare AWS-kanter för att hämta användarnas IP-adresser. |
 |  | [Uppgraderar från at.js 1.*x* to at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Följande anmärkning har lagts till:<ul><li>Efter installation av ECID-biblioteket v4.3.0+ och at.js 2.*x* kan du skapa aktiviteter som spänner över unika domäner samt spåra användare. Det är viktigt att komma ihåg att den här funktionen fungerar först när sessionen har upphört.</li></ul> |
-| 30 mars | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Ett känt fel som påverkar at.js-versionerna före kl. 2.2.0 har lagts till. Detta orsakade att klickspårning inte rapporterade konverteringar i A4T (Analytics for Target) när Adobe Analytics-koden inte fanns på sidelementen. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Följande information har lagts till i informationen för at.js version 2.2.0:<ul><li>Korrigerade ett problem som orsakade klickspårning för att inte rapportera konverteringar i A4T (Analytics for Target) när Adobe Analytics-kod inte fanns på sidelement.</li></ul> |
+| 30 mars | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Ett känt fel som påverkar at.js-versionerna före kl. 2.2.0 har lagts till. Detta orsakade att klickspårning inte rapporterade konverteringar i Analytics för Target (A4T) när Adobe Analytics-kod inte fanns på sidelement. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Följande information har lagts till i informationen för at.js version 2.2.0:<ul><li>Korrigerade ett problem som orsakade klickspårning för att inte rapportera konverteringar i Analytics för Target (A4T) när Adobe Analytics-kod inte fanns på sidelementen.</li></ul> |
 | 25 mars | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om följande nya versioner av at.js:<ul><li>at.js version 2.3.0</li><li>at.js version 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Följande nya rader har lagts till i avsnittet Inställningar:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Följande nya avsnitt har lagts till:<ul><li>Skyddsprofil för innehåll</li></ul> |
 | 24 mars | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Lagt till information om påverkan för följande:<ul><li>Profilskript baserade på 3rdPartyID</li><li>QA/Preview URLs in iOS devices</li></ul> |
-| 20 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Anges att Target Standard/Premium 20.2.1 kommer att vara den 23 mars 2020. |
+| 20 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Anger att Target Standard/Premium 20.2.1-utgåvan kommer att vara 23 mars 2020. |
 | 13 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterade antalet&quot;Målgrupper, återanvändbara per konto&quot;. |
 | 12 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md#summit) | Ytterligare registreringsinformation för kostnadsfri åtkomst till den digitala Summit på webben. |
 | 9 mars | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ytterligare information har lagts till i avsnittet&quot;Ersättning av den senaste oktetten med IP-adresser&quot;. |
