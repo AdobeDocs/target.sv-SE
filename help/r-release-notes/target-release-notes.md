@@ -5,9 +5,9 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ Information om den aktuella versionen finns i [Target Versionsinformation](relea
 
 ### Förbättring, korrigeringar och ändringar
 
-* Förbättrat användargränssnitt i Target för att göra det enklare att ange den globala mbox-versionen. (TGT-15280)
 * Korrigerade ett problem som gjorde att &quot;besökarmåttet&quot; lagrades i aktivitetens definition i stället för &quot;UniqueVisitors&quot;. (TGT-37098)
 * Korrigerade ett fel i [!DNL Target] användargränssnittet som fick den lodräta rullningslisten att inte fungera korrekt på [!UICONTROL Audiences] sidan. (TGT-36968)
 
