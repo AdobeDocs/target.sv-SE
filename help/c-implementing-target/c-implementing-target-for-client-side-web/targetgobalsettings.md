@@ -1,13 +1,13 @@
 ---
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
-description: Information om funktionen targetGlobalSettings() för JavaScript-biblioteket at.js i Adobe Target.
-title: Information om funktionen targetGlobalSettings() för JavaScript-biblioteket at.js i Adobe Target.
+description: Information om funktionen targetGlobalSettings() för JavaScript-biblioteket Adobe Target at.js.
+title: Information om funktionen targetGlobalSettings() för JavaScript-biblioteket Adobe Target at.js.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,10 @@ Du kan åsidosätta följande inställningar:
 * **Standardvärde**: 63244800000 ms = 2 år
 * **Beskrivning**: Hur lång tid `deviceId` sparas i cookies.
 
+>[!NOTE]
+>
+>Inställningen deviceIdLifetime kan åsidosättas i version 2.3.1 eller senare av at.js.
+
 ### aktiverad
 
 * **Typ**: Boolean
@@ -157,7 +161,7 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Sträng
 * **Standardvärde**: Värdet anges via användargränssnittet.
-* **Beskrivning**: Representerar målkantsservern.
+* **Beskrivning**: Representerar Target edge-servern.
 
 ### serverState
 
@@ -210,7 +214,7 @@ Följande videofilmer innehåller mer information:
 | Video | Beskrivning |
 |--- |--- |
 | [Använda Data Providers i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Data Providers är en funktion som gör att du enkelt kan skicka data från tredje part till Target. En tredje part kan vara en vädertjänst, en datahanteringsplattform eller till och med en egen webbtjänst. Sedan kan ni använda dessa data för att skapa målgrupper, målinnehåll och berika besökarprofilen. |
-| [Implementera dataleverantörer i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Implementeringsinformation och exempel på hur du använder funktionen DataProviders i Adobe Target för att hämta data från tredjepartsdataleverantörer och skicka dem i Target-begäran. |
+| [Implementera dataleverantörer i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Implementeringsinformation och exempel på hur du använder funktionen Adobe Target dataProviders för att hämta data från tredjepartsleverantörer och skicka dem i Target-begäran. |
 
 Inställningen `window.targetGlobalSettings.dataProviders` är en array med dataleverantörer.
 
@@ -241,9 +245,9 @@ window.targetGlobalSettings = {
 };
 ```
 
-Efter at.js-processer `window.targetGlobalSettings.dataProviders`innehåller Target-begäran en ny parameter: `t1=1`.
+Efter at.js-processerna `window.targetGlobalSettings.dataProviders`innehåller Target-begäran en ny parameter: `t1=1`.
 
-Följande är ett exempel om parametrarna som du vill lägga till i Target-begäran hämtas från en tredjepartstjänst, till exempel Bluekai, Demandbase o.s.v.:
+Följande är ett exempel om parametrarna som du vill lägga till i Target-begäran hämtas från en tredjepartstjänst som Bluekai, Demandbase o.s.v.:
 
 ```
 var blueKaiDataProvider = { 
@@ -264,9 +268,9 @@ window.targetGlobalSettings = {
 };
 ```
 
-Efter at.js-processer `window.targetGlobalSettings.dataProviders`innehåller Target-begäran ytterligare parametrar: `t1=1`, `t2=2` och `t3=3`.
+Efter at.js-processerna `window.targetGlobalSettings.dataProviders`innehåller Target-begäran ytterligare parametrar: `t1=1`, `t2=2` och `t3=3`.
 
-I följande exempel används dataleverantörer för att samla in väder-API-data och skicka dem som parametrar i en Target-begäran. Target-begäran kommer att ha ytterligare parametrar, till exempel `country` och `weatherCondition`.
+I följande exempel används dataleverantörer för att samla in API-data för väder och skicka dem som parametrar i en Target-begäran. Target-begäran kommer att innehålla ytterligare parametrar, till exempel `country` och `weatherCondition`.
 
 ```
 var weatherProvider = { 
@@ -316,7 +320,7 @@ Tänk på följande när du arbetar med `dataProviders` inställningen:
 
 ## Skyddsprofil för innehåll {#content-security}
 
-at.js 2.3.0+ stöder inställning av Content Security Policy-noces för SCRIPT- och STYLE-taggar som läggs till på sidan DOM när levererade Target-erbjudanden används.
+at.js 2.3.0+ stöder inställning av Content Security Policy-noces för SCRIPT- och STYLE-taggar som läggs till på sidan DOM vid tillämpning av levererade Target-erbjudanden.
 
 Strängarna SCRIPT och STYLE ska anges i `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` motsvarande, före inläsningen av .js 2.3.0+. Se ett exempel nedan:
 
@@ -339,13 +343,13 @@ När `cspScriptNonce` och `cspStyleNonce` inställningar har angetts anger at.js
 
 ## Hybrid-personalisering {#server-state}
 
-`serverState` är en inställning som är tillgänglig i at.js v2.2+ som kan användas för att optimera sidprestanda när en hybridintegrering av Target implementeras. Hybrid-integrering innebär att du använder både at.js v2.2+ på klientsidan och leverans-API:t eller en Target SDK på serversidan för att leverera upplevelser. `serverState` ger at.js v2.2+ möjlighet att tillämpa upplevelser direkt från innehåll som hämtas på serversidan och returneras till klienten som en del av den sida som skickas.
+`serverState` är en inställning i at.js v2.2+ som kan användas för att optimera sidprestanda när en hybridintegrering av Target implementeras. Hybrid-integrering innebär att du använder både at.js v2.2+ på klientsidan och leverans-API:t eller en Target SDK på serversidan för att leverera upplevelser. `serverState` ger at.js v2.2+ möjlighet att tillämpa upplevelser direkt från innehåll som hämtas på serversidan och returneras till klienten som en del av den sida som skickas.
 
 ### Krav
 
 Du måste ha en hybridintegrering av [!DNL Target].
 
-* **Serversidan**:  Du måste använda det nya [leverans-API:t](https://developers.adobetarget.com/api/delivery-api/) eller [mål-SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
+* **Serversidan**:  Du måste använda det nya [leverans-API:t](https://developers.adobetarget.com/api/delivery-api/) eller [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
 * **Klientsidan**: Du måste använda [at.js version 2.2 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Kodexempel
