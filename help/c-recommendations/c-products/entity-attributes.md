@@ -4,7 +4,10 @@ description: Använd entitetsattribut för att skicka produkt- eller innehållsi
 title: Entitetsattribut
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
+source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+workflow-type: tm+mt
+source-wordcount: '1006'
+ht-degree: 0%
 
 ---
 
@@ -169,13 +172,13 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!NOTE]
 >
->Angivna värden för entitetsattribut upphör att gälla efter 61 dagar. Det innebär att du bör se till att det senaste värdet för varje entitetsattribut skickas till Målrekommendationer minst en gång i månaden för varje objekt i katalogen.
+>Angivna värden för entitetsattribut upphör att gälla efter 61 dagar. Det innebär att du bör se till att det senaste värdet för varje entitetsattribut skickas till Target Recommendations minst en gång i månaden för varje objekt i din katalog.
 
 Rekommendationer skickar `productId` eller `productPurchasedId` (kallas `entity.id` i koden) som används i algoritmerna.
 
 >[!NOTE]
 >
->`entity.id` måste matcha den `productPurchasedId` som skickas till orderbekräftelsesidan och den som `productId` används i Adobe Analytics-produktrapporter).
+>`entity.id` måste matcha den `productPurchasedId` som skickas till orderbekräftelsesidan och den som `productId` används i produktrapporter för Adobe Analytics).
 
 De flesta fördefinierade parametrar accepterar bara ett enda värde, med nya värden som skriver över gamla värden. Parametern `categoryId` kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nya `categoryId` värden skriver inte över befintliga värden, utan läggs till under entitetsuppdateringen (högst 250 tecken).
 
@@ -194,35 +197,25 @@ I allmänhet kan visningsinformationsrutan se ut som i följande exempel om du a
  
 mboxCreate('productPage', 
  
-'entity.id= 
-<b>67833</b>', 
+'entity.id=67833', 
  
-'entity.name= 
-<b>GIANTS VS ROCKIES 5/12</b>', 
+'entity.name=GIANTS VS ROCKIES 5/12', 
  
-'entity.categoryId= 
-<b>BASEBALL, GIANTS, SF BAY AREA</b>', 
+'entity.categoryId=BASEBALL, GIANTS, SF BAY AREA', 
  
-'entity.pageUrl= 
-<b>../baseball/giants-tix/giantsvrockies5.12.2000-67833</b>', 
+'entity.pageUrl=../baseball/giants-tix/giantsvrockies5.12.2000-67833', 
  
-'entity.venue= 
-<b>AT&T PARK</b>', 
+'entity.venue=AT&T PARK', 
  
-'entity.secondary= 
-<b>ROCKIES</b>', 
+'entity.secondary=ROCKIES', 
  
-'entity.thumbnailUrl= 
-<b>../baseball/giants-tix/giants-136px.gif</b>', 
+'entity.thumbnailUrl=../baseball/giants-tix/giants-136px.gif', 
  
-'entity.message= 
-<b>FAMILY SPECIAL</b>', 
+'entity.message=FAMILY SPECIAL', 
  
-'entity.value= 
-<b>15.99</b>', 
+'entity.value=15.99', 
  
-'entity.inventory= 
-<b>1</b>' 
+'entity.inventory=1' 
  
 ); 
  
