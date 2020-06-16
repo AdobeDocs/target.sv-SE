@@ -1,10 +1,13 @@
 ---
 keywords: integration;roles;user permissions;admin console
-description: Information om hur du ger befintliga Adobe I/O-integreringar åtkomst till alla arbetsytor med önskad roll i Adobe Target
+description: Information om hur man ger befintliga Adobe I/O-integreringar åtkomst till alla arbetsytor med önskad roll i Adobe Target
 title: Ge Adobe I/O-integrationer åtkomst till arbetsytor och tilldela roller i Adobe Target
 subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->Egenskaper och behörigheter är tillgängliga som en del av [Target Premium](/help/c-intro/intro.md#premium) -lösningen. De finns inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
+>Egenskaper och behörigheter ingår i [Target Premium](/help/c-intro/intro.md#premium) . De finns inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
 
 Funktionen gör det enklare att [!UICONTROL Enterprise Permissions] effektivt skala optimeringsprogram mellan olika team. Även om funktionen var tillgänglig i [!DNL Target] användargränssnittet saknade administratörs-API:erna motsvarande stöd fram till tidigare år 2019. I [!DNL Target] februari 2019 uppdaterade Adobe Admin API:erna så att du kan använda integrationskontot för att få tillgång till alla arbetsytor som skapats i organisationen. Tidigare var Admin API:er begränsade till standardarbetsytan, men uppdateringen från februari 2019 gav åtkomst till alla arbetsytor med [!UICONTROL Approver] åtkomst.
 
@@ -57,7 +60,9 @@ Uppdateringen stöder följande användningsexempel:
 
 1. Välj önskad roll för arbetsytan i den **[!UICONTROL Product Role]** nedrullningsbara listan:
 
-   * [!UICONTROL Approver]
-   * [!UICONTROL Editor]
-   * [!UICONTROL Observer]
-   ![Välj produktprofilsroll](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | Roll | Beskrivning |
+   |--- |--- |
+   | Godkännare | Kan skapa, redigera och aktivera eller stoppa aktiviteter. |
+   | Redigerare | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. |
+   | Observer | Kan visa aktiviteter, men kan inte skapa eller redigera dem. |
+   | Utgivare | Liknar observationsrollen (kan visa aktiviteter, men kan inte skapa eller redigera dem). Utgivarrollen har dock ytterligare behörighet att aktivera aktiviteter. |
