@@ -5,9 +5,9 @@ title: Konfigurera företagsbehörigheter
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # ![PREMIUM](/help/assets/premium.png) Konfigurera företagsbehörigheter{#configure-enterprise-permissions}
 
 Information om de uppgifter som krävs för att lägga till användare i [!DNL Target] implementeringen. skapa arbetsytor, användargrupper och egenskaper, uppdatera din [!DNL Target] implementering så att den innehåller `at_property` parametern; och ange roller och behörigheter.
+
+>[!NOTE]
+>
+>Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 >[!NOTE]
 >
