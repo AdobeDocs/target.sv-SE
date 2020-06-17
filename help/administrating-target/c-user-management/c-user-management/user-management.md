@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Användare{#users}
 
 Du kan lägga till användare och hantera deras behörigheter i [!DNL Adobe Admin Console].
+
+>[!NOTE]
+>
+>Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 >[!NOTE]
 >
@@ -79,7 +83,7 @@ Systemadministratörsanvändare måste lägga till användare i systemet. Använ
 
    ![Standardarbetsyta](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-   På [!UICONTROL Users] fliken visas alla användare på den arbetsytan.
+   På [!UICONTROL Users] fliken visas alla användare på arbetsytan.
 
    ![konfigurationsanvändare](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
