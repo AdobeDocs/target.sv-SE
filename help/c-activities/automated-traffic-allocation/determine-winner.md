@@ -1,20 +1,27 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Fastställ en vinnare i en automatisk fördelning av A/B-aktivitet genom att visa indikatorer i målgränssnittet.
+description: Bestäm en vinnare i en automatisk fördelning av A/B-aktivitet genom att visa indikatorer i Target användargränssnitt.
 title: Identifiera en vinnare
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 0%
 
 ---
 
 
 # Tolka autofördelningsrapporter {#determine-a-winner}
 
-Tolka resultaten av en automatisk fördelning av A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i målgränssnittet.
+Tolka resultaten av en automatisk fördelning av A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i Target användargränssnitt.
 
 Många marknadsförare gör misstag genom att i förväg deklarera en vinnande upplevelse innan resultatet visar på den tydliga vinnaren. Vi har nu gjort det enklare för dig att avgöra vinnaren.
+
+>[!NOTE]
+>
+>Allmän information om hur du deklarerar en vinnare finns i [Tio vanliga A/B-testfall och hur du undviker dem](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identifiera den vinnande upplevelsen {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -24,7 +31,7 @@ När du använder [!UICONTROL Auto-Allocate] funktionen [!DNL Target] visas ett 
 
 När en klar vinnare deklareras visas [!DNL Target] &quot;Vinnare: Experience X.&quot;
 
-![](assets/auto_traffic_winner.png)
+![](assets/winner.png)
 
 >[!NOTE]
 >
@@ -40,17 +47,9 @@ Kolumnen Konfidentiellt i en Automatisk allokering-aktivitet (se nedan) visar sa
 
 Normala A/B-tester beräknar tillförlitlighet baserat på p-värden. Autoallokera använder inte p-värden. P-värden &quot;löst&quot; beräknar sannolikheten för att en viss upplevelse skiljer sig från kontrollen. Dessa p-värden kan bara användas för att avgöra om en upplevelse kan skilja sig från kontrollen. Dessa värden kan inte användas för att avgöra om en upplevelse skiljer sig från en annan upplevelse (inte kontroll).
 
-Följande bild visar en aktivitet som ännu inte har någon vinnare:
-
-![](assets/no_winner.png)
-
-Följande bild visar en aktivitet som har en vinnare:
-
-![](assets/winner_found.png)
-
 >[!IMPORTANT]
 >
->Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av [beräknaren](https://docs.adobe.com/content/target-microsite/testcalculator.html)av provstorleken för Adobe Target. Målet tar inte hänsyn till en områdes grundläggande konverteringsgrad och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i Beräkna [provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyg](https://docs.adobe.com/content/target-microsite/testcalculator.html)för provstorlek. Target tar inte hänsyn till den grundläggande konverteringsgraden för en webbplats och andra viktiga aspekter som matas in i beräkningen för att avgöra aktivitetens varaktighet. Det innebär att Target kan visa en vinnare tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i Beräkna [provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter {#lift-confidence}
 
