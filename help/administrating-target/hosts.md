@@ -5,9 +5,9 @@ title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Värdar{#hosts}
 
 Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
+
+>[!NOTE]
+>
+>Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Det främsta målet med värdhantering är att se till att inget inaktivt innehåll av misstag visas på webbplatser. Med värdhantering kan du också separera rapportdata efter [miljö](/help/administrating-target/environments.md).
 
@@ -104,7 +108,7 @@ Du kan också skapa en svart lista som anger värdar (domäner) än vad som inte
 
 >[!NOTE]
 >
->Eftersom listan Godkända värdar används för både mbox-värdar och standardomdirigeringsvärdar måste du lägga till alla befintliga domäner som är godkända för att använda Adobe Target Javascript SDK (at.js) *OCH* alla domäner som används i ubox-standardomdirigeringsadresser. Du måste även lägga till nya liknande domäner i listan över tillåtna domäner i framtiden.
+>Eftersom listan Godkända värdar används för både mbox-värdar och standardomdirigeringsvärdar måste du lägga till alla befintliga domäner som är godkända för att använda Adobe Target Javascript SDK (at.js) *OCH* alla domäner som används i Ubox-standardomdirigeringsadresser. Du måste även lägga till nya liknande domäner i listan över tillåtna domäner i framtiden.
 
 ## Ta bort en värd {#section_F56355BA4BC54B078A1A8179BC954632}
 
