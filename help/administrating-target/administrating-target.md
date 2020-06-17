@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 86b2f0eba5c995967b93b516c224140cc4771420
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Administrera Target{#administer-target}
 
 Information som hjälper dig att konfigurera Adobe Target, inklusive inställningar, implementering, användarhantering, egenskaper, Scene7-inställningar, värdhantering och svarstoken.
+
+>[!NOTE]
+>
+>Ämnena i det här avsnittet, som listas nedan, har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-utgåvan (juli 2020). Den mesta av informationen som presenteras i dessa ämnen gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Om du vill komma åt [!UICONTROL Setup] menyalternativen klickar du **[!UICONTROL Administration]** i den övre menyraden och sedan på den önskade fliken till vänster:
 
