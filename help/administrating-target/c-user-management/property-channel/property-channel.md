@@ -5,9 +5,9 @@ title: Enterprise-användarbehörigheter
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2924'
+source-wordcount: '2972'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,11 @@ När en besökare öppnar Page1 i en webbläsare omdirigeras han eller hon till 
 
 Om omdirigeringssidan och aktivitets-URL:en tillhör samma egenskap fungerar klickningsspåren som förväntat. Mer information finns i [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Utbildningsvideo: Märk ![över utbildningsvideon Enterprise Permissions Overview](/help/assets/overview.png)
+## Utbildningsvideor
+
+I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
+
+### Utbildningsvideo: Märk ![över utbildningsvideon Enterprise Permissions Overview](/help/assets/overview.png)
 
 Utbildningsmål:
 
@@ -289,3 +293,14 @@ Utbildningsmål:
 * Olika egenskapsexempel som din organisation kan ta hänsyn till
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### Kontorstid: Target Premium Workspaces
+
+Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av Adobes kundtjänstteam.
+
+* Skapa en arbetsyta (produktprofil)
+* Skapa egenskaper
+* Lägga till användare
+* Uppdaterar implementering
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
