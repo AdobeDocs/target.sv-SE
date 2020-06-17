@@ -5,7 +5,10 @@ title: Automatisk allokering
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3022'
+ht-degree: 0%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # Automatisk allokering{#auto-allocate}
 
 Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig.
-
->[!IMPORTANT]
->
->Autoallokering stöder inte [!DNL Target for Analytics] (A4T)-rapportering.
 
 När du [skapar en A/B-aktivitet med det guidade arbetsflödet](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)i tre steg kan du välja [!UICONTROL Auto-Allocate to Best Experience] alternativet.
 
@@ -30,9 +29,9 @@ Automatisk fördelning minskar kostnaderna och kostnaderna för att fastställa 
 
 Automatisk tilldelning flyttar besökare mot vinnande upplevelser gradvis, i stället för att kräva att ni väntar tills en aktivitet upphör för att avgöra en vinnare. Ni tjänar på att lyfta snabbare eftersom aktivitetsdeltagare som skulle ha skickats till mindre framgångsrika upplevelser visas som potentiella vinnare.
 
-Ett normalt A/B-test i Target visar endast parvisa jämförelser av utmanare med kontroll. Om en aktivitet till exempel har en upplevelse: A, B, C och D där A är kontrollen, skulle ett normalt A/B-test jämföra A mot B, A mot C och A mot D.
+Ett normalt A/B-test i Target visar endast parvisa jämförelser av utmanare med kontroll. Om en aktivitet till exempel har en upplevelse: A, B, C och D där A är kontrollen, skulle ett normalt Target A/B-test jämföra A med B, A mot C och A mot D.
 
-I sådana tester använder de flesta produkter, inklusive Target, en students t-test för att skapa p-value-based trust. Detta konfidensvärde används sedan för att avgöra om utmanaren är tillräckligt olik kontrollen. Target utför dock inte automatiskt de implicita jämförelser (B mot C, B mot D och C mot D) som krävs för att hitta den&quot;bästa&quot; upplevelsen. Därför måste marknadsföraren manuellt analysera resultaten för att fastställa den&quot;bästa&quot; upplevelsen.
+I sådana tester använder de flesta produkter, inklusive Target, Students t-test för att skapa ett p-value-baserat förtroende. Detta konfidensvärde används sedan för att avgöra om utmanaren är tillräckligt olik kontrollen. Target utför dock inte automatiskt de implicita jämförelser (B jämfört med C, B jämfört med D och C jämfört med D) som krävs för att hitta den&quot;bästa&quot; upplevelsen. Därför måste marknadsföraren manuellt analysera resultaten för att fastställa den&quot;bästa&quot; upplevelsen.
 
 Med Automatisk allokering utförs alla implicita jämförelser mellan upplevelser och skapar en&quot;sann&quot; vinnare. Det finns ingen uppfattning om&quot;kontroll&quot; i testet.
 
@@ -63,7 +62,7 @@ Den övergripande logiken bakom Automatisk allokering innefattar både uppmätta
 * 80 % av besökarna tilldelas enligt den intelligenta logik som beskrivs nedan.
 * 20 % av besökarna är slumpmässigt tilldelade till alla upplevelser för att anpassa sig till föränderligt besökarbeteende.
 
-Den flerbeväpnade bankstrategin gör att vissa upplevelser blir fria att utforska samtidigt som upplevelserna som fungerar väl utnyttjas. Fler nya besökare får bättre prestanda samtidigt som de behåller möjligheten att reagera på förändrade förhållanden. Dessa modeller uppdateras minst en gång i timmen för att säkerställa att modellen reagerar på de senaste data.
+Den flerbeväpnade bankstrategin gör att vissa upplevelser blir fria att utforska samtidigt som de upplevelser som fungerar väl utnyttjas. Fler nya besökare får bättre prestanda samtidigt som de behåller möjligheten att reagera på förändrade förhållanden. Dessa modeller uppdateras minst en gång i timmen för att säkerställa att modellen reagerar på de senaste data.
 
 När fler besökare går in i aktiviteten börjar vissa upplevelser bli mer framgångsrika och mer trafik skickas till de framgångsrika upplevelserna. 20 % av trafiken fortsätter att trafikeras slumpmässigt för att utforska alla upplevelser. Om en av de lågpresterande upplevelserna börjar prestera bättre tilldelas den upplevelsen mer trafik. Eller om framgången för en högpresterande aktivitet minskar, fördelas mindre trafik till den upplevelsen. Om en händelse till exempel får besökarna att leta efter olika uppgifter på mediewebbplatsen, eller om en helgförsäljning på din butikswebbplats ger olika resultat.
 
@@ -75,7 +74,7 @@ Bilden visar hur den trafik som tilldelats varje upplevelse fortskrider under fl
 
 | Ansökningstillfälle | Beskrivning |
 |--- |--- |
-| ![Varm rund](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Varm rund (0)**: Under uppvärmningsomgången får varje upplevelse samma trafiktilldelning tills varje upplevelse i aktiviteten har minst 1 000 besökare och 50 konverteringar.<ul><li>Upplev A=25 %</li><li>Upplevelse B=25 %</li><li>Upplev C=25 %</li><li>Upplevelse D=25 %</li></ul>När varje upplevelse har fått 1 000 besökare och 50 konverteringar startar Target automatiserad trafiktilldelning. Alla allokeringar sker i runda och två upplevelser väljs ut för varje runda.<br>Endast två upplevelser går framåt i nästa runda: D och C.<br>Framgången innebär att de två upplevelserna fördelas lika mellan 80 % av trafiken, medan de två andra upplevelserna fortsätter att delta, men endast är en del av den 20 % slumpmässiga trafikfördelningen när nya besökare kommer in i aktiviteten.<br>Alla allokeringar uppdateras varje timme (visas med avrundningar längs x-axeln ovan). Efter varje omgång jämförs de kumulativa uppgifterna. |
+| ![Varm rund](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Varm rund (0)**: Under uppvärmningsomgången får varje upplevelse samma trafiktilldelning tills varje upplevelse i aktiviteten har minst 1 000 besökare och 50 konverteringar.<ul><li>Upplev A=25 %</li><li>Upplevelse B=25 %</li><li>Upplev C=25 %</li><li>Upplevelse D=25 %</li></ul>När varje upplevelse har fått 1 000 besökare och 50 konverteringar börjar Target automatiserad trafiktilldelning. Alla allokeringar sker i runda och två upplevelser väljs ut för varje runda.<br>Endast två upplevelser går framåt i nästa runda: D och C.<br>Framgången innebär att de två upplevelserna fördelas lika mellan 80 % av trafiken, medan de två andra upplevelserna fortsätter att delta, men endast är en del av den 20 % slumpmässiga trafikfördelningen när nya besökare kommer in i aktiviteten.<br>Alla allokeringar uppdateras varje timme (visas med avrundningar längs x-axeln ovan). Efter varje omgång jämförs de kumulativa uppgifterna. |
 | ![Ansökningstillfälle 1](/help/c-activities/automated-traffic-allocation/assets/aa-phase-1.png) | **Rund 1**: Under denna runda fördelas 80 % av trafiken till upplevelserna C och D (40 % vardera). 20 % av trafiken fördelas slumpmässigt till upplevelserna A, B, C och D (5 % var). Under denna runda fungerar upplevelsen A bra.<ul><li>Algoritmen väljer upplevelsen D för att gå vidare till nästa omgång eftersom den har den högsta konverteringsgraden (vilket anges i varje aktivitets lodräta skala).</li><li>Algoritmen väljer upplevelsen A för att gå vidare eftersom den har den högsta övre gränsen för Bernsteins 95-procentiga konfidensintervall för de återstående upplevelserna.</li></ul>Upplevelserna D och A går framåt. |
 | ![Ansökningstillfälle 2](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **Rund 2**: Under denna runda fördelas 80 % av trafiken till upplevelserna A och D (40 % vardera). 20 % av trafiken fördelas slumpmässigt, vilket innebär att A, B, C och D var och en får 5 % av trafiken. Under denna runda fungerar upplevelse B bra.<ul><li>Algoritmen väljer upplevelsen D för att gå vidare till nästa omgång eftersom den har den högsta konverteringsgraden (vilket anges i varje aktivitets lodräta skala).</li><li>Algoritmen väljer upplevelsen B för att gå vidare eftersom den har den högsta övre gränsen för Bernsteins 95-procentiga konfidensintervall för de återstående upplevelserna.</li></ul>Upplevelserna D och B går framåt. |
 | ![Ansökningstillfälle 3](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **Rund 3**: Under denna runda fördelas 80 % av trafiken till upplevelserna B och D (40 % vardera). 20 % av trafiken fördelas slumpmässigt, vilket innebär att A, B, C och D var och en får 5 % av trafiken. Under denna runda fortsätter upplevelse D att fungera bra och upplevelsen C fungerar bra.<ul><li>Algoritmen väljer upplevelsen D för att gå vidare till nästa omgång eftersom den har den högsta konverteringsgraden (vilket anges i varje aktivitets lodräta skala).</li><li>Algoritmen väljer upplevelsen C för att gå vidare eftersom den har den högsta övre gränsen för Bernsteins 95-procentiga konfidensintervall för de återstående upplevelserna.</li></ul>Upplevelserna D och C går framåt. |
@@ -91,10 +90,6 @@ När modellen för en automatisk fördelning-aktivitet är klar (varje upplevels
 * Ändra alternativ på panelen Avancerade inställningar
 
 ## Caveats {#section_5C83F89F85C14FD181930AA420435E1D}
-
-**Automatisk allokering av A/B-aktiviteter stöds inte längre i A4T (Analytics for Target)**
-
-I version 16.10.1.0 (25 oktober 2016) stöder inte Target Analytics som en rapportkälla för automatisk allokering av A/B-aktiviteter som fortsätter framåt. Alla aktiva autofördelade A/B-aktiviteter med A4T aktiverat växlas till manuellt läge (lika trafiktilldelning).
 
 **Funktionen Automatisk allokering fungerar bara med en avancerad måttinställning: Öka antal och behåll användare i aktivitet**
 
@@ -131,6 +126,10 @@ Dessa kan skeva resultaten i ett autofördelningstest mer än i ett A/B-test eft
    &quot;30 % av försäljningen upphör idag&quot; signalerar till exempel att besökaren konverterar idag, men&quot;50 % rabatt på första köpet&quot; skapar inte samma känsla av snabbhet.
 
 ## Vanliga frågor {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+** Har Analytics för Target (A4T) stöd för automatisk fördelning av aktiviteter?
+
+Ja. Mer information finns i Stöd för [Analytics for Target (A4T) för automatisk fördelning av aktiviteter](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) när *aktiviteter skapas*.
 
 **Omfördelas återkommande besökare automatiskt till högpresterande upplevelser?**
 
@@ -195,7 +194,7 @@ Den här videon innehåller information om hur du ställer in trafikallokering.
 
 ### Skapa A/B-tester (8:36) ![självstudiemärke](/help/assets/tutorial.png)
 
-I den här videon visas hur du skapar ett A/B-test med det guidade arbetsflödet i tre steg för Target. Automatiserad trafikallokering diskuteras från 4:45.
+I den här videon visas hur du skapar ett A/B-test med ett guidat arbetsflöde i Target i tre steg. Automatiserad trafikallokering diskuteras från 4:45.
 
 * Skapa en A/B-aktivitet i Adobe Target
 * Allokera trafik med manuell, delad eller automatisk trafikallokering
