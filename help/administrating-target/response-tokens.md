@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 # Svarstoken{#response-tokens}
 
-Med svarstoken kan du automatiskt få ut Target-specifik information (kampanjinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale)
+Med svarstoken kan du automatiskt få ut Target-specifik information (kampanjinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale).
+
+>[!NOTE]
+>
+>Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett mbox-svar. För att göra det aktiverar du bara en variabel med växeln så skickas variabeln med mbox-svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i förhandsgranskningsläge.
 
