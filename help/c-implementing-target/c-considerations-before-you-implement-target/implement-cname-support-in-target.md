@@ -5,9 +5,9 @@ title: CNAME och Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
 1. Avgör listan med värdnamn som du behöver för ditt SSL-certifikat (se Vanliga frågor och svar).
 
-1. För varje värdnamn skapar du en CNAME-post i din DNS som pekar på ditt vanliga [!DNL Target] värdnamn `clientcode.tt.omtrdc.net`. Om klientkoden till exempel är namngiven kund och det värdnamn som föreslås är `target.example.com`, bör din DNS CNAME-post se ut ungefär så här:
+1. För varje värdnamn skapar du en CNAME-post i din DNS som pekar på ditt vanliga [!DNL Target] värdnamn `clientcode.tt.omtrdc.net`.
+
+   Om klientkoden till exempel är &quot;namnkund&quot; och det värdnamn som föreslås är `target.example.com`, bör din DNS CNAME-post se ut ungefär så här:
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -31,10 +33,10 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobes certifikatutfärdare, DigitalCert, kan inte utfärda ett certifikat förrän detta steg är klart. Därför kan Adobe inte uppfylla din begäran om en CNAME-implementering förrän detta steg är klart.
+   >* Adobes certifikatutfärdare, DigiCert, kan inte utfärda ett certifikat förrän det här steget har slutförts. Därför kan Adobe inte fullfölja din begäran om CNAME-implementering förrän detta steg är klart.
 
 
-1. Fyll i följande formulär och inkludera det när du [öppnar en Adobe Client Care-biljett som begär CNAME-support](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C):
+1. Fyll i följande formulär och inkludera det när du [öppnar en Adobe Client Care-biljett som begär CNAME-support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe- [!DNL Target] kundkod:
    * Värdnamn för SSL-certifikat (exempel: `target.example.com target.example.org`):
@@ -48,7 +50,7 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
 1. Om Adobe köper certifikatet arbetar Adobe tillsammans med DigiCert för att köpa och distribuera certifikatet på Adobes produktionsservrar.
 
-   Om kunden köper certifikatet (BYOC) skickar Adobe Client Care tillbaka den CSR-begäran (Certificate Signing Request) som du måste använda när du köper certifikatet via den valfria certifikatutfärdaren. När certifikatet har utfärdats måste du skicka en kopia av certifikatet och eventuella mellanliggande certifikat tillbaka till Adobe Client Care för distribution.
+   Om kunden köper certifikatet (BYOC) skickar Adobe Client Care CSR-filen (Certificate Signing Request) till dig, som du måste använda när du köper certifikatet via den valfria certifikatutfärdaren. När certifikatet har utfärdats måste du skicka en kopia av certifikatet och eventuella mellanliggande certifikat tillbaka till Adobe Client Care för distribution.
 
    Adobe Client Care meddelar dig när implementeringen är klar.
 
@@ -90,7 +92,7 @@ Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x]
 
 ### Vilken typ av tjänstavbrott kan jag förvänta mig när CNAME-implementeringen distribueras?
 
-Det uppstår inga avbrott i tjänsten när certifikatet distribueras (inklusive certifikatförnyelse). När du ändrar värdnamnet i implementeringskoden för Target (`serverDomain` i at.js) till det nya CNAME-värdnamnet (`target.example.com`), kommer webbläsare att behandla återkommande besökare som nya besökare och deras profildata kommer att gå förlorade eftersom den tidigare cookien inte är tillgänglig under det gamla värdnamnet (`clientcode.tt.omtrdc.net`) på grund av säkerhetsmodeller för webbläsare. Det här är en engångsstörning bara på den första brytningen till den nya CNAME. Certifikatförnyelser har inte samma effekt eftersom värdnamnet inte ändras.
+Det uppstår inga avbrott i tjänsten när certifikatet distribueras (inklusive certifikatförnyelse). När du ändrar värdnamnet i din [!DNL Target] implementeringskod (`serverDomain` i at.js) till det nya CNAME-värdnamnet (`target.example.com`), kommer webbläsare att behandla återkommande besökare som nya besökare och deras profildata kommer att gå förlorade eftersom den tidigare cookien inte är tillgänglig under det gamla värdnamnet (`clientcode.tt.omtrdc.net`) på grund av säkerhetsmodeller i webbläsaren. Detta är en engångsavbrott endast på den initiala brytningen till den nya CNAME. Certifikatförnyelser har inte samma effekt eftersom värdnamnet inte ändras.
 
 ### Vilken nyckeltyp och certifikatsignaturalgoritm kommer att användas för min CNAME-implementering?
 
