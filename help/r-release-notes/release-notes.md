@@ -5,9 +5,9 @@ title: 'Versionsinformation för Adobe Target (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -33,99 +33,27 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
+## Target Standard/Premium 20.5.1 (17 juni 2020)
+
+| Funktion/förbättring | Beskrivning |
+| --- | --- |
+| Stöd för aktiviteter i Analytics for Target (A4T) [!UICONTROL Auto-Allocate] | [!UICONTROL Auto-Allocate] nu stöder [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Tack vare den här integreringen kan ni använda den [!UICONTROL Auto-Allocate] flerarmade bankfunktionen för att driva trafik till vinnande upplevelser, samtidigt som ni använder [!UICONTROL Adobe Analytics] målmätvärden och/eller [!UICONTROL Adobe Analytics] rapporterings- och analysfunktioner.<br>Om du redan har [implementerat A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) för användning med A/B Test- och Experience Targeting-aktiviteter är allt klart!<br>Mer information finns i Stöd för [Analytics for Target (A4T) för automatisk fördelning av aktiviteter](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) när *aktiviteter skapas*. |
+| [!UICONTROL Publisher] roll | Den nya rollen liknar den aktuella [!UICONTROL Observer] rollen (kan visa aktiviteter, men kan inte skapa eller redigera dem). Rollen har dock [!UICONTROL Publisher] ytterligare behörighet att aktivera aktiviteter.<br>Mer information finns i: <ul><li>**Target Standard-användare**: [Ange roller och behörigheter](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) i *Användare*.</li><li>**Användare** av Target Premium: [Steg 6: Ange roller och behörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) i *Konfigurera företagsbehörigheter*.</li></ul> |
+| Stöd för A4T i [!DNL Analysis Workspace]<br>juni 2020 | [!UICONTROL Anaytics for Target] (A4T) stöds nu i [!DNL Analysis Workspace]. Med [!UICONTROL Analytics for Target (A4T) panel] verktyget kan ni analysera era [!DNL Adobe Target] aktiviteter och upplevelser i [!DNL Analysis Workspace].<br>Mer information finns i [Rapporter i Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) i *A4T-rapportering* och panelen [A4T (](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Target) i *Analytics-handboken*. |
+
+### Förbättringar, korrigeringar och ändringar
+
+* Korrigerade ett problem som gjorde att &quot;besökarmåttet&quot; lagrades i aktivitetens definition i stället för &quot;UniqueVisitors&quot;. (TGT-37098)
+* Korrigerade ett fel i [!DNL Target] användargränssnittet som fick den lodräta rullningslisten att inte fungera korrekt på [!UICONTROL Audiences] sidan. (TGT-36968)
+
 ## Versioner av typen at.js 1.8.2 och at.js 2.3.1 (15 juni 2020)
 
 Följande förbättringar och korrigeringar har gjorts i biblioteken [!DNL Target] at.js:
 
 | Funktion/förbättring | Beskrivning |
 | --- | --- |
-| at.js 1.8.2 | Den här versionen av at.js är en underhållsrelease och innehåller följande korrigering:<ul><li>Korrigerade ett problem vid användning av CNAME och kantåsidosättning, at.js 1.*x* kan felaktigt skapa serverdomänen, vilket resulterade i att [!DNL Target] begäran misslyckades. (TNT-35064)</li></ul>Mer information finns [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)för at.js. |
+| at.js 1.8.2 | Den här versionen av at.js är en underhållsversion och innehåller följande korrigering:<ul><li>Korrigerade ett problem vid användning av CNAME och kantåsidosättning, at.js 1.*x* kan felaktigt skapa serverdomänen, vilket resulterade i att [!DNL Target] begäran misslyckades. (TNT-35064)</li></ul>Mer information finns [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)för at.js. |
 | at.js 2.3.1 | Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:<ul><li>Inställningen kan åsidosättas `deviceIdLifetime` via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Korrigerade ett problem vid användning av CNAME och kantåsidosättning, at.js 2.*x* kan felaktigt skapa serverdomänen, vilket resulterade i att [!DNL Target] begäran misslyckades. (TNT-35065)</li><li>Korrigerade ett problem när tillägget v2 och [!DNL Target] tillägget v2 användes och [!DNL Launch][!DNL Adobe Analytics] tillägget [!DNL Launch] fördröjde [!DNL Target][!DNL Analytics] `sendBeacon` anropet. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Mer information finns [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)för at.js. |
-
-## Ändringar i API:t för gruppstatus v2 (14 maj 2020)
-
-I versionen från 20 maj returnerar status för profilgrupp endast feldata på radnivå som går framåt (data om lyckade åtgärder returneras inte). Misslyckade profil-ID:n returneras av API:t som fortsätter.
-
-Föregående och nya API-svar är följande:
-
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
-
-**För närvarande ser vi svaret som:**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>1514187733806-729395</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>1573612762055-214017</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-**Efter 4 maj kommer svaret att vara:**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-## Target Standard/Premium 20.4.1 (6 maj 2020)
-
-Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
-
-* Korrigerade ett problem som felaktigt kvalificerade en enhet och webbläsartyp för en målgrupp. (TGT-36266)
-* Korrigerade ett problem som förhindrade rapportdata från att visas när de visades på skärmar som var mindre än 963 pixlar breda. (TGT-36549)
-* Ett problem som orsakade att Automatisk personalisering inte kunde återges korrekt har åtgärdats. (TGT-36619)
-* Ett problem har korrigerats som gjorde att inkompatibla mått kunde väljas i Automatisk allokering och Automatisk Target-aktiviteter som använder Analytics för Target (A4t). (TGT-36646)
-* Korrigerade ett problem som gjorde att vissa alternativ i Visual Experience Composer (VEC) inte visades korrekt. (TGT-36571)
-* Korrigerade ett fel i Target-gränssnittet som fick andra rekommendationer att erbjuda förhandsvisningar för att visa det redigerade innehållet efter att en användare har ersatt innehållet i en enda upplevelse. (TGT-36053 &amp; TGT-36894)
-* Ett problem som gjorde att vissa användare inte kunde ta bort objekt från en rekommendationskatalog har korrigerats. (TGT-36455)
-* Ett problem har korrigerats som gjorde att användare inte kunde spara rekommendationskriterier för en flersidig aktivitet. (TGT-36249)
-* Korrigerade ett problem som gjorde att alternativknapparna för datakällan för beteendedata försvann när villkoret redigerades en andra gång i rad. (TGT-36796)
-* Korrigerade ett visningsfel som medförde att en rekommendationsalgoritm visade &quot;hämtningsresultat&quot; under en längre period. (TGT-36550 &amp; TGT-36551)
-* Uppdaterade många gränssnittssträngar som är lokaliserade på olika språk.
 
 ## Ytterligare versionsinformation
 
