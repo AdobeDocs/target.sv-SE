@@ -5,9 +5,9 @@ title: Miljö
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Miljö
 
 Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
+
+>[!NOTE]
+>
+>Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Det främsta målet med värdhantering är att se till att inget inaktivt innehåll av misstag visas på webbplatser. Med värdhantering kan du också separera rapportdata efter miljö.
 
@@ -88,7 +92,7 @@ Om du inte ser dina produkter bör du kontrollera att du använder rätt värdgr
 >[!NOTE]
 >När du har ändrat den valda miljön måste du klicka på Sök för att uppdatera de returnerade resultaten.
 
-Filtret är tillgängligt från följande platser i målgränssnittet: [!UICONTROL Environment]
+Filtret är tillgängligt från följande platser i användargränssnittet för Target: [!UICONTROL Environment]
 
 * Katalogsökning ([!UICONTROL Recommendations > Catalog Search])
 * Dialogrutan Skapa samling ([!UICONTROL Recommendations > Collections > Create New])
