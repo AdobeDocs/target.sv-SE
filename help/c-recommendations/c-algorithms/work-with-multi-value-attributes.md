@@ -3,7 +3,10 @@ keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-va
 description: Information om hur du arbetar med ett flervärdesfält i Adobe Target Recommendations med hjälp av särskilda flervärdesoperatorer.
 title: Arbeta med attribut med flera värden i Adobe Target Recommendations
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +70,7 @@ Följande operatorer är tillgängliga för användning med entitets-, profil- o
 
 >[!NOTE]
 >
->Stöd för dynamisk matchning av attribut med flera värden är för närvarande bara tillgängligt i villkor när en matchningsregel för profilattribut eller parameterattribut (mbox) används vid jämförelse av ett enskilt värde från vänster sida till en höger sida med flera värden. Stöd för kampanjer, matchning av enhetsattribut och för listor till vänster om inkluderingsregler kommer att finnas i början av 2020.
+>Stöd för dynamisk matchning av attribut med flera värden är för närvarande bara tillgängligt i villkor när en matchningsregel för profilattribut eller parameterattribut (mbox) används vid jämförelse av ett enskilt värde från vänster sida till en höger sida med flera värden. Flervärdesattribut stöds för närvarande inte i kampanjer, entitetsattributmatchning eller för listor till vänster om inkluderingsregler.
 
 
 ### Exempel: Uteslut nyligen bevakade objekt
