@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 17 juni | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
-|  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
+|  | [Svarstoken](/help/administrating-target/response-tokens.md) | Lagt till information om svarstoken för trafiktilldelningsmetod för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] aktiviteter. |
+|  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
 |  | [Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Lagt till information om den nya [!UICONTROL Publisher] rollen under *Ange roller och behörigheter*. |
 |  | [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Lagt till information om den nya [!UICONTROL Publisher] rollen under *steg 6: Ange roller och behörigheter*. |
 |  | [Enterprise-användarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Länk till *kontorstid: Target Premium Workspaces-session*. |
@@ -32,11 +33,11 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 15 juni | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+| 15 juni | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 | 8 juni | [Vanliga frågor om Target för mobilappar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile endast en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om den 10 juni Adobe Target Coffee Break har lagts till. |
