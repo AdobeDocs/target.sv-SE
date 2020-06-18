@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
    |  | `profile.categoryAffinities` | Returnerar en array med besökarens fem populäraste kategorier som strängar. |
    | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Information om den aktuella aktiviteten. Observera att&quot;option&quot; är lika med&quot;offer&quot;. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Se [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) för mer information om hur du använder geolokalisering i aktiviteter. |
+   | Trafikallokeringsmetod<br>gäller endast [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] aktiviteter. | `experience.trafficAllocationId` | Returnerar 0 om en besökare har fått en upplevelse av att vara i&quot;kontrolltrafik&quot; och 1 om en besökare har fått en upplevelse av den&quot;riktade&quot; trafikfördelningen. |
+   |  | `experience.trafficAllocationType` | Returnera&quot;control&quot; respektive&quot;target&quot;. |
 
    Attribut för användarprofiler och kundattribut visas också i listan.
 
