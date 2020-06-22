@@ -5,7 +5,7 @@ title: Enterprise-användarbehörigheter
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 984a58373c1a19fa4faf9041b5e3fb0c523fa4b5
 workflow-type: tm+mt
 source-wordcount: '2972'
 ht-degree: 0%
@@ -219,7 +219,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 
    * Visual Experience Composer
    * Rapportering
-   * Inställningar för Scene7
+   * Scene7 Configuration
    * Implementering
    * Egenskaper
    * Värdar
