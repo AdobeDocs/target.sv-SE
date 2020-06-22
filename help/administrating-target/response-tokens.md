@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
 source-wordcount: '1557'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Svarstoken{#response-tokens}
 
-Med svarstoken kan du automatiskt få ut Target-specifik information (kampanjinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale).
+Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Target] (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale).
 
 >[!NOTE]
 >
 >Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
-Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett mbox-svar. För att göra det aktiverar du bara en variabel med växeln så skickas variabeln med mbox-svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i förhandsgranskningsläge.
+Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett mbox-svar. För att göra det aktiverar du bara en variabel med växeln så skickas variabeln med mbox-svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i [!UICONTROL Preview] läge.
 
 En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-program levererar JavaScript till sidan som körs vid leverans, ger svarstoken ett objekt som sedan kan läsas och hanteras med händelseavlyssnare. Mer information finns [i anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js och exemplen senare i den här artikeln. Responstoken är säkrare och bör underlätta utveckling och underhåll av tredjepartsintegreringar.
 
