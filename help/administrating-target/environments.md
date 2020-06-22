@@ -5,9 +5,9 @@ title: Miljö
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,11 @@ Organisera sajter och förproduktionsmiljöer för enkel hantering och separat r
 >
 >Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
-Det främsta målet med värdhantering är att se till att inget inaktivt innehåll av misstag visas på webbplatser. Med värdhantering kan du också separera rapportdata efter miljö.
-
-En [värd](/help/administrating-target/hosts.md) är en webbserver (eller webbdomän) varifrån du underhåller innehåll under valfri fas i projektet. Alla värdar som betjänar en mbox känns igen.
-
 Värdar paketeras i miljöer för enkel hantering. Du kan till exempel ha dussintals värdar grupperade i två eller tre miljöer. De förinställda miljöerna omfattar [!UICONTROL Production], [!UICONTROL Staging]och [!UICONTROL Development]. Du kan lägga till nya miljöer och byta namn på dina miljöer om du vill.
 
 En miljö, standardmiljön, är förnamngiven [!UICONTROL Production]. Den här standardmiljön kan inte tas bort, även om du byter namn på den. [!DNL Target] förutsätter att det är här du kommer att utföra slutgiltiga, godkända aktiviteter och tester.
 
 När en mbox-begäran tas emot från nya webbplatser eller domäner visas alltid dessa nya domäner i [!UICONTROL Production] miljön. Miljöns inställningar kan inte ändras, så okända eller nya webbplatser kan garanterat bara se innehåll som är aktivt och klart. [!UICONTROL Production] Med värdhantering kan du enkelt säkerställa kvaliteten på nya aktiviteter och innehåll i test-, staging- och utvecklingsmiljöer innan du aktiverar aktiviteterna.
-
-[!DNL Target] begränsar inte en värd som kan skicka och ta emot mbox, så när nya servrar eller domäner kommer upp fungerar de automatiskt (såvida du inte har konfigurerat en lista över tillåtna servrar eller blocklistor). Detta möjliggör även annonstestning på olika domäner som du inte vet eller inte kan förutse.
 
 Om du vill hantera miljöer klickar du **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
@@ -60,8 +54,7 @@ Så här anger du standardmiljön för rapportering:
 
 ## Ändra namnet på en miljö {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Klicka på [!UICONTROL Environment] fliken i **[!UICONTROL Environments]** listan.
-1. Klicka på **[!UICONTROL Edit]** ikonen.
+1. Klicka på [!UICONTROL Environment] ikonen i **[!UICONTROL Edit]** listan.
 1. Ändra miljönamnet.
 1. Klicka på **[!UICONTROL Save]**.
 
