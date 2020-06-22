@@ -5,7 +5,7 @@ title: Implementera Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Implementering
 
-Innan du börjar använda [!DNL Adobe Target]bör du implementera den på din webbplats, förstå några grundläggande begrepp och termer, känna till hur [!DNL Target] fungerar och integreras med din infrastruktur och förstå hur besökarna spåras av [!DNL Target] systemet.
+Innan du börjar använda [!DNL Adobe Target]bör du implementera den på din webbplats, förstå några grundläggande begrepp och termer; känna till hur [!DNL Target] fungerar och integreras med er infrastruktur, och förstå hur besökarna spåras av [!DNL Target] systemet.
 
 Mer information finns i de olika avsnitten under [Implementera Target](/help/c-implementing-target/implementing-target.md).
 
