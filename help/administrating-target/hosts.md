@@ -5,9 +5,9 @@ title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,6 @@ Organisera sajter och förproduktionsmiljöer för enkel hantering och separat r
 Det främsta målet med värdhantering är att se till att inget inaktivt innehåll av misstag visas på webbplatser. Med värdhantering kan du också separera rapportdata efter [miljö](/help/administrating-target/environments.md).
 
 En värd är en webbserver (eller webbdomän) varifrån du underhåller innehåll under någon del av projektet. Alla värdar som betjänar en mbox känns igen.
-
-Värdar paketeras i miljöer för enkel hantering. Du kan till exempel ha dussintals värdar grupperade i två eller tre miljöer. De förinställda miljöerna omfattar [!UICONTROL Production], [!UICONTROL Staging]och [!UICONTROL Development]. Du kan lägga till nya miljöer och byta namn på dina miljöer om du vill.
-
-En miljö, standardmiljön, är förnamngiven [!UICONTROL Production]. Den här standardmiljön kan inte tas bort, även om du byter namn på den. [!DNL Target] förutsätter att det är här du kommer att utföra slutgiltiga, godkända aktiviteter och tester.
-
-När en mbox-begäran tas emot från nya webbplatser eller domäner visas alltid dessa nya domäner i [!UICONTROL Production] miljön. Miljöns inställningar kan inte ändras, så okända eller nya webbplatser kan garanterat bara se innehåll som är aktivt och klart. [!UICONTROL Production] Med värdhantering kan du enkelt säkerställa kvaliteten på nya aktiviteter och innehåll i test-, staging- och utvecklingsmiljöer innan du aktiverar aktiviteterna.
 
 [!DNL Target] begränsar inte en värd som kan skicka och ta emot mbox, så när nya servrar eller domäner kommer upp fungerar de automatiskt (såvida du inte har konfigurerat en lista över tillåtna servrar eller blocklistor). Detta möjliggör även annonstestning på olika domäner som du inte vet eller inte kan förutse.
 
@@ -62,7 +56,7 @@ Kontrollera att värden känns igen när en värd har lagts till i [!UICONTROL H
 
    Som standard placeras en nyligen identifierad värd i [!UICONTROL Production] miljön. Det här är den säkraste miljön eftersom den inte tillåter att inaktiva aktiviteter kan ses från dessa värdar.
 
-1. (Villkorligt) Klicka på flyttningsikonen ( ![flyttningsikonen](/help/administrating-target/assets/icon-move.png) ) för att flytta värden till [!UICONTROL Development], [!UICONTROL Staging]eller till någon annan miljö.
+1. (Villkorligt) Klicka på **[!UICONTROL Move]** ikonen ( ![flyttningsikonen](/help/administrating-target/assets/icon-move.png) ) för att flytta värden till [!UICONTROL Development], [!UICONTROL Staging]eller annan miljö.
 
 >[!NOTE]
 >
@@ -122,8 +116,6 @@ Du kan ta bort en värd när den inte längre behövs.
 >Värden listas igen om någon bläddrar till en sida i kartong på värden.
 
 ## Felsökning av värdar {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-Bästa tillvägagångssätt för att hantera och felsöka värdar i [!DNL Adobe Target].
 
 Prova följande felsökningstips om du får problem med värdarna:
 
