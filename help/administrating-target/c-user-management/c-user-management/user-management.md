@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,18 @@ Du kommer inte att se den nya användaren på [!UICONTROL Users] sidan förrän 
 Som standard får alla [!DNL Target] användare observatörsbehörigheter.
 
 Administratörsanvändare identifieras i [!UICONTROL Users] listan. Kontakta en av systemadministratörsanvändarna om du behöver ändra åtkomstnivån.
+
+## Visa användarinformation inifrån Target
+
+Du kan visa en lista över dina nuvarande användare i din Target-miljö, inklusive deras roller per arbetsyta och e-postadresser direkt inifrån Target.
+
+Om du vill visa sidan Användare klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
+
+![Användarlista från Target](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+
+>[!NOTE]
+>
+>Om du vill hantera en befintlig användare eller lägga till nya användare måste du använda [!UICONTROL Adobe Admin Console]enligt anvisningarna nedan.
 
 ## Få tillgång till Adobe Admin Console {#access}
 
