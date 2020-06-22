@@ -4,9 +4,9 @@ description: Konfigurera Adobe Target Visual Experience Composer (VEC) genom att
 title: Konfigurera Adobe Target Visual Experience Composer
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Konfigurera Visual Experience Composer
 
 Konfigurera [!DNL Adobe Target] VEC ( [!UICONTROL Visual Experience Composer] Mobile Viport configuration) genom att ange dess allmänna inställningar, konfiguration för mobilvisningsruta och CSS-väljare.
+
+>[!NOTE]
+>
+>Ämnena i det här avsnittet, som listas nedan, har uppdaterats för att ge dig en smygtopp vid de användargränssnittsändringar som kommer i version [!DNL Target Standard/Premium] 20.6.1 (juli 2020). Den mesta av informationen som presenteras i dessa ämnen gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Du öppnar konfigurationssidan genom att klicka [!UICONTROL Visual Experience Composer] > **[!UICONTROL Administration]** **[!UICONTROL Visual Experience Composer].**
 
@@ -38,15 +42,15 @@ Ange den standardwebbadress som används av [!UICONTROL Visual Experience Compos
 
 ### Aktivera Förbättrad Experience Composer
 
-Möjliggör redigering på iFrame-busting-webbplatser med blandat innehåll. Vissa webbplatser kanske inte är kompatibla med den förbättrade versionen. Avmarkera det här alternativet om du vill återgå till den ursprungliga Visual Experience Composer. Aktivitetsleverans på webbplatser påverkas inte av det här valet.
+Möjliggör redigering på iFrame-busting-webbplatser med blandat innehåll. Vissa webbplatser kanske inte är kompatibla med den förbättrade versionen. Avmarkera det här alternativet om du vill återgå till originalet [!UICONTROL Visual Experience Composer]. Aktivitetsleverans på webbplatser påverkas inte av det här valet.
 
 Mer information finns i [Felsöka Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Du kan också aktivera Förbättrad Experience Composer på aktivitetsnivå.
+Du kan även aktivera [!UICONTROL Enhanced Experience Composer] på aktivitetsnivå.
 
 ### Läs in blandat innehåll
 
-Aktivera blandat innehåll när du öppnar en webbplats med Enhanced Experience Composer (EEC). Om du aktiverar det här alternativet undviker du den extra kostnaden för att läsa in statiska resurser via [!DNL Target] proxyservrar.
+Aktivera blandat innehåll när du öppnar en webbplats med [!UICONTROL Enhanced Experience Composer] (EEC). Om du aktiverar det här alternativet undviker du den extra kostnaden för att läsa in statiska resurser via [!DNL Target] proxyservrar.
 
 Det här alternativet är användbart om du till exempel:
 
