@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 23 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Coffee Break från 24 juni har lagts till. |
+|  | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Observera att du inte bör skapa beroende profilskript som använder resultatet av ett profilskript i ett annat profilskript. |
 | 17 juni | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
 |  | [Svarstoken](/help/administrating-target/response-tokens.md) | Lagt till information om svarstoken för trafiktilldelningsmetod för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] aktiviteter. |
 |  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
@@ -37,7 +39,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 | 8 juni | [Vanliga frågor om Target för mobilappar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile endast en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om den 10 juni Adobe Target Coffee Break har lagts till. |
@@ -46,7 +48,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 1 juni | [Target-meddelanden](/help/r-release-notes/target-announcements.md) | En ny sida med information om kommande evenemang från Target har lagts till. |
 |  | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
 | 28 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande nya frågor och svar har lagts till: <ul><li>Hur räknas värdena för nya besökare och återkommande besökare?</li></ul> |
-| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
+| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
 | 26 maj | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Följande information har lagts till: &quot;Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.&quot; |
 | 21 maj | [Tillåt kantnoder i Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Tillagd `mboxedge30.tt.omtrdc.net` i listan. |
 | 20 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om den kommande Target Standarden/Premium 20.6.1-utgåvan (10 juni 2020) har lagts till. |
