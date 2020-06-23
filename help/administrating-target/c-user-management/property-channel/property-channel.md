@@ -5,7 +5,7 @@ title: Enterprise-användarbehörigheter
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 984a58373c1a19fa4faf9041b5e3fb0c523fa4b5
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
 source-wordcount: '2972'
 ht-degree: 0%
