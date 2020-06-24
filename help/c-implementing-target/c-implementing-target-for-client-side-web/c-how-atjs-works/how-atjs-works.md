@@ -5,9 +5,9 @@ title: Hur JavaScript-biblioteket Adobe Target at.js fungerar
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1106'
 ht-degree: 2%
 
 ---
@@ -66,6 +66,14 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | 5 | Analytics-data skickas till datainsamlingsservrar. |
 | 6 | Target data matchas mot Analytics-data via SDID och bearbetas till Analytics rapporteringslager. Analytics data kan sedan visas i både Analytics och Target via A4T-rapporter. |
 
+### at.js 2.x Architecture Chart ![Overview badge](/help/assets/overview.png)
+
+at.js 2.x förbättrar Adobe Target stöd för SPA och kan integreras med andra Experience Cloud-lösningar. Den här videon förklarar hur allt hänger ihop.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .
+
 ## at.js 1.x-diagram
 
 ![Target flow - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
@@ -76,6 +84,19 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | 3 | En global mbox-begäran görs med alla konfigurerade parametrar, MCID, SDID och kund-ID (valfritt). | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från [!UICONTROL Audience Library] (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Audience Manager]osv.).<br>Kundattribut skickas till [!DNL Profile Store] i en gruppbearbetning. |
 | 5 | Baserat på URL-adressen, mbox-parametrar och profildata bestämmer du vilka aktiviteter och upplevelser som ska returneras till besökaren [!DNL Target] . | 6 | Målinriktat innehåll skickas tillbaka till sidan, och eventuellt även profilvärden för ytterligare personalisering.<br>Upplevelsen visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 7 | [!DNL Analytics] data skickas till datainsamlingsservrar. | 8 | [!DNL Target] data matchas mot [!DNL Analytics] data via SDID och bearbetas till [!DNL Analytics] rapportlagringen.<br>[!DNL Analytics] data kan sedan visas både [!DNL Analytics] och [!DNL Target] via [!DNL Analytics for Target] (A4T)-rapporter. |
+
+### Kontorstid: at.js tips and overview (26 juni 2019) ![Tutorial badge](/help/assets/tutorial.png)
+
+Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av Adobes kundtjänstteam.
+
+* Fördelar med att använda at.js
+* at.js-inställningar
+* Hantering av flimmer
+* Felsöka på.js
+* Kända fel
+* Vanliga frågor
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
 
 ## How at.js renders offers with HTML content {#render}
 
@@ -93,28 +114,3 @@ Viktigt:
 
 * at.js ger inga garantier i ordningen för fjärrexekvering av skript eftersom dessa läses in asynkront.
 * Textbundna skript får inte ha några beroenden till fjärrskript eftersom de läses in och körs senare.
-
-## Utbildningsvideor
-
-I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
-
-### at.js 2.x Architecture Chart ![Overview badge](/help/assets/overview.png)
-
-at.js 2.x förbättrar Adobe Target stöd för SPA och kan integreras med andra Experience Cloud-lösningar. Den här videon förklarar hur allt hänger ihop.
-
->[!VIDEO](https://video.tv.adobe.com/v/26250)
-
-Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .
-
-### Kontorstid: at.js tips and overview (26 juni 2019) ![Tutorial badge](/help/assets/tutorial.png)
-
-Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av Adobes kundtjänstteam.
-
-* Fördelar med att använda at.js
-* at.js-inställningar
-* Hantering av flimmer
-* Felsöka på.js
-* Kända fel
-* Vanliga frågor
-
->[!VIDEO](https://video.tv.adobe.com/v/27959)
