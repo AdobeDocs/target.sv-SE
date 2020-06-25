@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,13 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 25 juni | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.6.1 (juli 2020). |
 | 23 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Coffee Break från 24 juni har lagts till. |
 |  | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Observera att du inte bör skapa beroende profilskript som använder resultatet av ett profilskript i ett annat profilskript. |
 |  | [Hur at.js fungerar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Följande video har lagts till: Kontorstid: at.js tips och översikt |
 | 17 juni | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
 |  | [Svarstoken](/help/administrating-target/response-tokens.md) | Lagt till information om svarstoken för trafiktilldelningsmetod för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] aktiviteter. |
-|  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
+|  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
 |  | [Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Lagt till information om den nya [!UICONTROL Publisher] rollen under *Ange roller och behörigheter*. |
 |  | [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Lagt till information om den nya [!UICONTROL Publisher] rollen under *steg 6: Ange roller och behörigheter*. |
 |  | [Enterprise-användarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Länk till *kontorstid: Target Premium Workspaces-session*. |
