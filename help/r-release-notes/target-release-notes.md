@@ -5,9 +5,9 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -59,30 +59,6 @@ Som en del av den här uppdateringen kan du enkelt utföra många åtgärder med
 * Förhindra besökarens IP-adresser av sekretesskäl (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
 * Visa den befintliga listan över användare per arbetsyta och deras roller innan du hanterar dem i Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
 * Sök och filtrera alla tabeller i [!UICONTROL Administration] avsnittet.
-
-Några viktiga förändringar är:
-
-* **[!UICONTROL Visual Experience Composer]sida **: Med den här nya sidan (**[!UICONTROL Administration]**>**[!UICONTROL Visual Experience Composer]**) kan du:
-
-   * Konfigurera allmänna inställningar för VEC (ange standard-URL, aktivera [!UICONTROL Enhanced Experience Composer], läsa in blandat innehåll och generera ögonblicksbilder av upplevelser i aktivitetsflödesdiagrammet)
-   * Konfigurera mobila visningsportar
-   * Konfigurera CSS-väljare
-
-* **[!UICONTROL Reporting]sida **: På den här nya sidan (**[!UICONTROL Administration]**>**[!UICONTROL Reporting]**) kan du konfigurera allmänna inställningar för[!DNL Target]rapportering som gäller för hela ditt[!DNL Target]konto.
-
-   Tillgängliga inställningar:
-
-   * Den [!DNL Adobe Experience Cloud] lösning som ska användas för rapportering
-   * Tidszonen som ska användas för rapportering
-   * Valutan som ska användas för rapportering
-   * IP-adresser som ska uteslutas från rapportering
-   * Anger om en uppskattad ökning av intäkterna ska visas vid rapportering
-   * Om finjusterade prioriteringar ska aktiveras
-
-* Den föregående [!UICONTROL Hosts] sidan har delats upp i två nya sidor:
-
-   * [!UICONTROL Hosts]
-   * [!UICONTROL Environments]
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
