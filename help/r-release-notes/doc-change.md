@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 25 juni | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.6.1 (juli 2020). |
+|  | [Target - dokumentationsöversikt](/help/r-release-notes/target-documentation.md) | Nytt ämne som beskriver olika [!DNL Target] dokumentationskällor. |
 | 23 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Coffee Break från 24 juni har lagts till. |
 |  | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Observera att du inte bör skapa beroende profilskript som använder resultatet av ett profilskript i ett annat profilskript. |
 |  | [Hur at.js fungerar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Följande video har lagts till: Kontorstid: at.js tips och översikt |
@@ -50,7 +51,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 1 juni | [Target-meddelanden](/help/r-release-notes/target-announcements.md) | En ny sida med information om kommande evenemang från Target har lagts till. |
 |  | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
 | 28 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande nya frågor och svar har lagts till: <ul><li>Hur räknas värdena för nya besökare och återkommande besökare?</li></ul> |
-| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
+| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
 | 26 maj | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Följande information har lagts till: &quot;Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.&quot; |
 | 21 maj | [Tillåt kantnoder i Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Tillagd `mboxedge30.tt.omtrdc.net` i listan. |
 | 20 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om den kommande Target Standarden/Premium 20.6.1-utgåvan (10 juni 2020) har lagts till. |
