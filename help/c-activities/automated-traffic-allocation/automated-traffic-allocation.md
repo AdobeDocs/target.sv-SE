@@ -5,9 +5,9 @@ title: Automatisk allokering
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3022'
+source-wordcount: '3009'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Den övergripande logiken bakom Automatisk allokering innefattar både uppmätta
 * 80 % av besökarna tilldelas enligt den intelligenta logik som beskrivs nedan.
 * 20 % av besökarna är slumpmässigt tilldelade till alla upplevelser för att anpassa sig till föränderligt besökarbeteende.
 
-Den flerbeväpnade bankstrategin gör att vissa upplevelser blir fria att utforska samtidigt som de upplevelser som fungerar väl utnyttjas. Fler nya besökare får bättre prestanda samtidigt som de behåller möjligheten att reagera på förändrade förhållanden. Dessa modeller uppdateras minst en gång i timmen för att säkerställa att modellen reagerar på de senaste data.
+Den flerbeväpnade bankstrategin gör att vissa upplevelser blir fria att utforska samtidigt som upplevelserna som fungerar väl utnyttjas. Fler nya besökare får bättre prestanda samtidigt som de behåller möjligheten att reagera på förändrade förhållanden. Dessa modeller uppdateras minst en gång i timmen för att säkerställa att modellen reagerar på de senaste data.
 
 När fler besökare går in i aktiviteten börjar vissa upplevelser bli mer framgångsrika och mer trafik skickas till de framgångsrika upplevelserna. 20 % av trafiken fortsätter att trafikeras slumpmässigt för att utforska alla upplevelser. Om en av de lågpresterande upplevelserna börjar prestera bättre tilldelas den upplevelsen mer trafik. Eller om framgången för en högpresterande aktivitet minskar, fördelas mindre trafik till den upplevelsen. Om en händelse till exempel får besökarna att leta efter olika uppgifter på mediewebbplatsen, eller om en helgförsäljning på din butikswebbplats ger olika resultat.
 
@@ -83,7 +83,7 @@ Bilden visar hur den trafik som tilldelats varje upplevelse fortskrider under fl
 
 Om aktiviteten bara har två upplevelser får båda samma trafik tills Target hittar en upplevelse med 90 % förtroende. Då tilldelas 70 % av trafiken till vinnaren och 30 % till förloraren. När upplevelsen når 95 % av förtroendet tilldelas 100 % av trafiken till vinnaren och 0 % till förloraren.
 
-När modellen för en automatisk fördelning-aktivitet är klar (varje upplevelse har minst 1 000 besökare och 50 konverteringar) tillåts inte följande åtgärder från gränssnittet:
+När en [!UICONTROL Auto-Allocate] aktivitet har aktiverats tillåts inte följande åtgärder från användargränssnittet:
 
 * Växla läget&quot;Trafikallokering&quot; till&quot;Manuell&quot;
 * Ändra målmåttstyp
