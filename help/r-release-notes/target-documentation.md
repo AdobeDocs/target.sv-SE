@@ -4,7 +4,7 @@ description: Adobe Target-dokumentationen finns i flera format, inklusive övers
 title: Target-meddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Här följer en kort beskrivning av de vanligaste dokumentationstyperna som är 
 | --- | --- |
 | [Adobe Target produktdokumentation](/help/target-home.md)<br>(Denna guide) | Översikt över information, steg och skärmbilder som fokuserar på interaktion med [!DNL Target] via användargränssnittet. I den här handboken beskrivs alla tillgängliga åtgärder och alternativ, inklusive&quot;gotchas&quot; som ska undvikas. Det här är den mest detaljerade resursen för att arbeta med [!DNL Target] användargränssnittet. |
 | [Självstudiekurser för Adobe Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | Videofilmer och självstudiekurser som hjälper dig att lära dig de många komponenterna i [!DNL Target]. |
-| [Adobe Experience League Target videobibliotek](https://guided.adobe.com/#recommended/solutions/target) | En samling instruktionsvideor och självstudiekurser som visar vilka funktioner som finns [!DNL Target] på [!DNL Adobe Target Experience League] sidan. |
+| [Adobe Experience League Target innehållsbibliotek](https://guided.adobe.com/#recommended/solutions/target) | En samling instruktionsvideor och självstudiekurser som visar vilka funktioner som finns [!DNL Target] på [!DNL Adobe Target Experience League] sidan. |
 | [Target-dokumentation för Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Information om hur du implementerar [!DNL Target] med [!DNL Adobe Experience Platform Launch]den nya generationens tagghanteringsplattform från [!DNL Adobe]. Detta är den metod som rekommenderas för implementering [!DNL Target]. |
 | [Adobe Customer Care Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Information om&quot;Kontorstid&quot;, ett initiativ som leds av Adobes kundtjänstteam. Dessa sessioner är avsedda att informera såväl som hjälpa deltagare att felsöka problem och ge tips och råd för att lyckas med [!DNL Adobe Experience Cloud] lösningarna, inklusive [!DNL Target]. |
 | [Target basics webbinarier](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registreringsinformation och länkar till tidigare sessioner i [!DNL Target] Basics Webinar Series, en Customer Success Webinar Series som kommer från gemenskapen. |
