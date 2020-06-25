@@ -5,9 +5,9 @@ title: Hur JavaScript-biblioteket Adobe Target at.js fungerar
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | 5 | Analytics-data skickas till datainsamlingsservrar. |
 | 6 | Target data matchas mot Analytics-data via SDID och bearbetas till Analytics rapporteringslager. Analytics data kan sedan visas i både Analytics och Target via A4T-rapporter. |
 
-### at.js 2.x Architecture Chart ![Overview badge](/help/assets/overview.png)
+### Video - at.js 2.x - arkitekturdiagram
 
 at.js 2.x förbättrar Adobe Target stöd för SPA och kan integreras med andra Experience Cloud-lösningar. Den här videon förklarar hur allt hänger ihop.
 
@@ -85,7 +85,7 @@ Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.co
 | 5 | Baserat på URL-adressen, mbox-parametrar och profildata bestämmer du vilka aktiviteter och upplevelser som ska returneras till besökaren [!DNL Target] . | 6 | Målinriktat innehåll skickas tillbaka till sidan, och eventuellt även profilvärden för ytterligare personalisering.<br>Upplevelsen visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 7 | [!DNL Analytics] data skickas till datainsamlingsservrar. | 8 | [!DNL Target] data matchas mot [!DNL Analytics] data via SDID och bearbetas till [!DNL Analytics] rapportlagringen.<br>[!DNL Analytics] data kan sedan visas både [!DNL Analytics] och [!DNL Target] via [!DNL Analytics for Target] (A4T)-rapporter. |
 
-### Kontorstid: at.js tips and overview (26 juni 2019) ![Tutorial badge](/help/assets/tutorial.png)
+### Video - kontorstid: at.js tips och översikt (26 juni 2019)
 
 Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av Adobes kundtjänstteam.
 
