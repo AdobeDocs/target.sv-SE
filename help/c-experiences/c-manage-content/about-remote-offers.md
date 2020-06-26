@@ -5,7 +5,10 @@ title: Skapa fjärrerbjudanden
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 1%
 
 ---
 
@@ -43,8 +46,8 @@ Några exempel på fjärrerbjudanden är:
 
    | Alternativ | Beskrivning |
    |--- |--- |
-   | Cachelagrad | Innehållet i ett cachelagrat fjärrerbjudande levereras från Target.<br>Varannan timme [!DNL Target] hämtar innehållet på fjärr-URL:en och lagrar sedan innehållet inuti Target. När besökare läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av Target.<br>Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad på toTarget inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.<br>Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande. |
-   | Dynamisk | Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från Target.<br>Du kanske inte vill att innehållet ska cachelagras regelbundet och sedan levereras av Target när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt, eller olika, för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka för [!UICONTROL Add Parameter] att lägga till en eller flera mbox- eller request-parametrar. |
+   | Cachelagrad | Innehållet i ett cachelagrat fjärrerbjudande levereras från Target.<br>Varannan timme [!DNL Target] hämtar innehållet på fjärr-URL:en och lagrar sedan innehållet inuti Target. När besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av Target.<br>Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad på toTarget inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.<br>Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande. |
+   | Dynamisk | Ett dynamiskt fjärrerbjudande erbjuds via innehållshantering eller andra system i stället för från Target.<br>Du kanske inte vill att innehållet ska cachelagras regelbundet och sedan levereras av Target när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt, eller olika, för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka för [!UICONTROL Add Parameter] att lägga till en eller flera mbox- eller request-parametrar. |
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -78,6 +81,6 @@ Med hjälp av matrisen för val av fjärrerbjudande kan du bestämma vilken typ 
 | Innehållsuppdateringar | Cachelagras varannan timme | Uppdateras omedelbart efter varje begäran |
 | Inläsningstid | Snabbare | Långsammare på grund av behandling av begäran |
 | Kan se JavaScript på sidan | Ja | Nej, men kan skicka via URL |
-| Erbjudandena kan omfatta JavaScript | Ja | Nej |
+| Erbjudandena kan omfatta JavaScript | Ja | Ja |
 | Erbjudandets URL | Absolut eller relativt | Relativ |
 | Begär dator | Adobes servrar | Besökarens dator som bär besökarens cookies |
