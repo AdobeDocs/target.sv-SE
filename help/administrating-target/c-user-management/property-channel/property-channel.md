@@ -5,9 +5,9 @@ title: Enterprise-användarbehörigheter
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '2972'
+source-wordcount: '2975'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Egenskaper liknar till sin natur de i [!DNL Adobe Platform Launch] och med att d
 
 En webbegenskap är ett bibliotek med regler och en inbäddningskod. En webbegenskap kan vara vilken gruppering som helst av en eller flera domäner och underdomäner.
 
-Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en parameter med ett anrop (mbox, api, osv.) till [!DNL Target].
+Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en parameter med ett anrop (Target-samtal, api-anrop osv.) till [!DNL Target].
 
 Egenskaperna tillhör specifika kanaler (webb, mobil, e-post eller API/annan).
 
@@ -244,7 +244,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
    * Aktiviteter, målgrupper, koderbjudanden, bilderbjudanden eller andra resurser som skapats med följande lösningar eller metoder kan inte styras av modellen Enterprise Permissions, men kommer att ingå i standardarbetsytan: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services och resurser som skapats via API. Resurser som skapas via API omfattar aktiviteter, målgrupper, koderbjudanden och bilderbjudanden).
    * Bilderbjudanden (resurser som lagras under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kan för närvarande inte styras av Enterprise Permissions-modellen.
    * clickTracking and redirects fungerar bara när mållänken eller målsidan är en del av en egenskap som ingår i aktiviteten. ClickTracking fungerar kanske inte heller när `targetPageParams()` funktionen används. Det `targetPageParamsAll()` är den rekommenderade funktionen.
-   [!DNL Target] kräver för närvarande att det finns en `at_property` token på alla sidor där spårning sker. Om variabeln (1) inte finns, (2) inte upptäcks vid tidpunkten för aktivitetsinställningen (inom VEC) eller (3) inte skickas till ClickTracking-rutan via `targetPageParamsAll()` -funktionen, ökas inte mätvärdet och visas som &quot;0&quot;.
+   [!DNL Target] kräver för närvarande att det finns en `at_property` token på alla sidor där spårning sker. Om variabeln (1) inte finns, (2) inte identifieras vid tidpunkten för aktivitetsinställningen (i VEC) eller (3) inte skickas till clickTracking Target-anropet via `targetPageParamsAll()` funktionen, ökas inte mätvärdet och visas som &quot;0&quot;.
 
    Detsamma gäller för aktiviteter som använder omdirigeringar. Målsidan måste ha en `at_property` token och identifieras när konfigurationen görs i VEC.
 
