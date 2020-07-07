@@ -5,9 +5,9 @@ title: Konfigurera företagsbehörigheter
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefe
 
 ## Steg 4. Skapa egenskaper {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en parameter med ett anrop (mbox, api, osv.) till Target.
+Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en parameter med ett anrop (Target-samtal, api-anrop osv.) till Target.
 
 Egenskaperna tillhör specifika kanaler (webb, mobil, e-post och API/annan).
 
@@ -128,7 +128,7 @@ Egenskaperna tillhör specifika kanaler (webb, mobil, e-post och API/annan).
 
 ## Steg 5: Uppdatera implementeringen så att den inkluderar parametern at_property {#section_9B17A59807A94712BE642942442EBBC8}
 
-Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste du lägga till `at_property` parametern till alla anrop som träffar [!DNL Target] (mbox, api osv.).
+Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste du lägga till `at_property` parametern till alla samtal som faller [!DNL Target] (Target-samtal, api-samtal osv.).
 
 **Så här hämtar du`at_property`parameterkoden:**
 
@@ -184,7 +184,7 @@ Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste 
 
 1. Klicka på **[!UICONTROL Users]**.
 
-   På [!UICONTROL Users] fliken visas alla användare på arbetsytan.
+   På [!UICONTROL Users] fliken visas alla användare på den arbetsytan.
 
    ![konfigurationsanvändare](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
