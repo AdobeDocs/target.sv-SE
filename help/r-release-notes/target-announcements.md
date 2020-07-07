@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Target-meddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,21 @@ ht-degree: 0%
 
 Information om kommande evenemang, inklusive Target SKill Builder-sessioner, utvecklarchatt, webbinarier och Target Coffee Break-sessioner.
 
-## Adobe Target - Frågor och svar - Kaffebrytning
+## Adobe Target Community Q&amp;A Coffee Break
 
-* **onsdagen den 24 juni 2020**
-* **10.00 till 11.00 (PDT)**
+* **Onsdag 8 juli**
+* **10.00 - 11.00 (PST)**
 
-Vi kommer att förenas med Ram Parthasarathy, även kallad @ram_adobe, Principal Product Manager för [!DNL Adobe Experience Cloud]. Ram loggas in på webben [!DNL Adobe Target Community] för att chatta direkt med dig om dina [!DNL Target] frågor som rör hans expertområden:
+Rob Hornick, Senior Adobe Target Product Manager, kommer tillsammans med oss. Han loggar in på Adobe Target Community för att chatta direkt med dig om dina Target-frågor som gäller hans expertområden:
 
-* Allmänna [!DNL Target] ämnen
-* Nästa bästa erbjudande
-* Avtalsbeslut
+* Personalisering
+* Maskininlärning och artificiell intelligens
+* Rekommendationer
+* Automatisk allokering
+* Auto-Target
+* Automatiserad personalisering
 
-Registrera dig [på Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286).
+Registrera dig [på Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558).
 
 ## Adobe Target Swledge Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
