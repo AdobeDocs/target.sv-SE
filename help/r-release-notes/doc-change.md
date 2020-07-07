@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 7 juli | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Ytterligare information om 8 Adobe Target Coffee Break. |
 | 25 juni | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.6.1 (juli 2020). |
 |  | [Target - dokumentationsöversikt](/help/r-release-notes/target-documentation.md) | Nytt ämne som beskriver olika [!DNL Target] dokumentationskällor. |
 | 23 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Coffee Break från 24 juni har lagts till. |
@@ -53,12 +54,12 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 28 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande nya frågor och svar har lagts till: <ul><li>Hur räknas värdena för nya besökare och återkommande besökare?</li></ul> |
 | 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
 | 26 maj | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Följande information har lagts till: &quot;Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.&quot; |
-| 21 maj | [Tillåt kantnoder i Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Tillagd `mboxedge30.tt.omtrdc.net` i listan. |
+| 21 maj | [Tillåtelselista Target kantnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Tillagd `mboxedge30.tt.omtrdc.net` i listan. |
 | 20 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om den kommande Target Standarden/Premium 20.6.1-utgåvan (10 juni 2020) har lagts till. |
 |  | [Värdar](/help/administrating-target/hosts.md) | Anteckning har lagts till i avsnittet&quot;Bästa praxis för säkerhet&quot;. |
 | 14 maj | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om ändringar i API v2 för profilbatchstatus. |
 | 13 maj | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Avsnittet&quot;Kända begränsningar&quot; har lagts till. |
-| 11 maj | [Värdar](/help/administrating-target/hosts.md) | Lagt till information om hur du använder funktionen ubox med omdirigeringar och tillståndslistor. |
+| 11 maj | [Värdar](/help/administrating-target/hosts.md) | Lagt till information om hur du använder funktionen ubox med omdirigeringar och tillåtelselista. |
 |  | [Arbeta med regissörer](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
 |  | [Integrera rekommendationer med e-post](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
 |  | [E-post: implementera Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
@@ -79,7 +80,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 23 april | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
 | 22 april | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Nytt avsnitt har lagts till: *Ändringar i API:t för gruppstatus (4 maj 2020).* |
 | 20 april | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Nytt avsnitt har lagts till: *Adobe Target Swledge Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js.* |
-| 14 april | [Tillåt Target edge hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nytt ämne. |
+| 14 april | [Tillåtelselista Target edge hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nytt ämne. |
 | 10 april | [Implementering av Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nytt avsnitt har lagts till: &quot;Bästa praxis för implementering.&quot; |
 | 7 april | [Lyft och tillförsikt - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Uppdaterad text för&quot;Varför kan jag inte se lyft och självförtroende för beräknade mätvärden?&quot; |
 | 2 april | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Lagt till information om hur du använder `user.header('x-forwarded-for')` med nyare AWS-kanter för att hämta användarnas IP-adresser. |
