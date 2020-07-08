@@ -1,11 +1,11 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Använd Adobe Target QA-URL:er för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
+description: Använd Adobe Target QA-URL:er för att utföra enkel QA-analys från början till slut med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata.
 title: Aktivitets-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Aktivitets-QA {#activity-qa}
 
-Använd QA-URL:er i Adobe Target för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata.
+Använd QA-URL:er i Adobe Target för att enkelt utföra en heltäckande verksamhets-QA med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata.
 
 ## Översikt {#section_11B761A522A14E61978275772210A4C2}
 
@@ -24,8 +24,8 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 * Länkar att dela med teammedlemmar som aldrig behöver ändras eller behöver genereras om, oavsett vilka uppdateringar som gjorts för upplevelserna eller aktiviteterna. På så sätt kan du testa dina aktiviteter fullt ut under hela användarresan.
 * Målgruppsvillkor kan respekteras så att marknadsförarna kan testa målinriktningskriterier eller ignorera målinriktningskriterier för att få QA att visa hur upplevelserna ser ut utan att behöva uppfylla målgruppsvillkoren.
 * QA-rapportering samlas in så att marknadsförarna kan bekräfta att mätvärdena ökar som förväntat och att QA-rapportdata hålls åtskilda från produktionsrapporter (för icke-A4T-rapportering).
-* Möjlighet att förgranska en upplevelse separat eller tillsammans med andra aktiva aktiviteter som uppfyller leveranskriterierna (sida/mbox/målgrupp).
-* Möjlighet att köra QA under hela användarresan. Du kan komma åt din webbplats en gång med QA-länken och sedan bläddra på hela webbplatsen i Activity QA. Du är kvar i Activity QA tills du avslutar sessionen eller tills du använder [QA Target-bokmärket](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) för att tvinga dig ut ur Activity QA. Den här funktionen är särskilt användbar om du har en aktivitet som sträcker sig över flera webbsidor.
+* Möjlighet att förgranska en upplevelse separat eller tillsammans med andra aktiva aktiviteter som uppfyller leveranskriterierna (page/Target request/publiken).
+* Möjlighet att köra QA under hela användarresan. Du kan komma åt din webbplats en gång med QA-länken och sedan bläddra på hela webbplatsen i Activity QA. Du är kvar i Activity QA tills du avslutar sessionen eller tills du använder Target-bokmärket [QA](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) för att tvinga dig ut ur Activity QA. Den här funktionen är särskilt användbar om du har en aktivitet som sträcker sig över flera webbsidor.
 
    >[!NOTE]
    >
@@ -45,7 +45,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
       Om den här inställningen har växlats till&quot;av&quot;-positionen, kan du klicka på länkarna för att visa upplevelserna oavsett om du kvalificerar dig eller inte. När du utför QA kan du växla fram och tillbaka mellan att kräva eller inte kräva att målgruppsanpassningen respekteras.
 
-   * **Visa standardinnehåll för alla andra aktiviteter:** Om det här alternativet är aktiverat visas standardinnehåll för alla andra aktiviteter (förhandsvisningen visas till exempel separat utan att alla andra aktiva aktiviteter på samma sida/ruta beaktas).
+   * **Visa standardinnehåll för alla andra aktiviteter:** Om det här alternativet växlas till&quot;på&quot;-positionen visas standardinnehåll för alla andra aktiviteter (till exempel visas förhandsvisningen separat utan att alla andra aktiva aktiviteter på samma sida/[!DNL Target] begäran beaktas).
 
       Om den här inställningen är inaktiverad bör du tänka på följande:
 
@@ -69,8 +69,8 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 * URL:er för verksamhets-QA är tillgängliga med aktiviteter med Analytics som rapportkälla (A4T). Träffar som genereras när QA utförs med Activity QA kommer att flöda till samma rapportsvit där aktivitetens data kommer att flöda även efter att aktiviteten publiceras.
 * Aktivitets-QA visar inte innehåll för arkiverade aktiviteter eller aktiviteter som ligger efter deras slutdatum. Om du inaktiverar en avslutad aktivitet måste du spara aktiviteten igen för att Activity QA ska fungera.
 * Aktiviteter som importeras till Target Standard/Premium (till exempel från Target Classic) stöder inte QA-URL:er.
-* I aktiviteterna Automatisk allokering, Automatiskt mål och Rekommendationer påverkas inte modellen av de besök som har hämtats i Aktivitets-QA.
-* Eftersom Aktivitets-QA är klumpigt måste din målsession förfalla när du har bläddrat på en webbplats i Activity QA, eller du måste ha släppt Target från Activity QA innan du kan visa webbplatsen som en vanlig besökare. Använd [Target QA-bokmärket](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) för att tvinga dig ut ur Activity QA.
+* I Automatisk allokering, Automatisk-Target och Rekommendationer påverkas inte modellen av de besök som gjorts i Aktivitets-QA.
+* Eftersom Aktivitets-QA fortfarande gäller måste din Target-session förfalla när du har bläddrat på en webbplats i Activity QA, eller du måste låta Target släppa dig från Activity QA innan du kan visa webbplatsen som en vanlig besökare. Använd [Target QA-bokmärket](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) för att tvinga dig ut ur Activity QA.
 
    Du kan också tvinga dig ut manuellt genom att läsa in en sida på webbplatsen med parametern `at_preview_token` med ett tomt värde (till exempel `https://www.mysite.com/?at_preview_token=`).
 
@@ -81,18 +81,18 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
    På grund av den här dubbla kodningen kan inte Target extrahera rätt tokenvärde när vi försöker avkoda `at_preview_token`koden, vilket resulterar i att förhandsvisningen inte fungerar.
 
-   Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att alla förhandsgranskningsparametrar är tillåtna så att dessa värden inte förändras på något sätt.
+   Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att alla förhandsgranskningsparametrar är tillåtelselistad så att dessa värden inte förändras på något sätt.
 
-   I följande tabell visas de parametrar som kan tillåtas i din domän:
+   I följande tabell visas de parametrar som kan tillåtelselistad i din domän:
 
    | Parameter | Typ | Värde | Beskrivning |
    |--- |--- |--- |--- |
    | `at_preview_token` | Krypterad sträng | Obligatoriskt. inget standardvärde | En krypterad entitet som innehåller listan över kampanj-ID:n som tillåts att köras i QA-läge. |
    | `at_preview_index` | Sträng | Tom | Parameterns format är `<campaignIndex>` eller `<campaignIndex>_< experienceIndex>`<br>Båda indexen börjar med 1. |
    | `at_preview_listed_activities_only` | Boolean (true/false) | Standardvärde: false | Om värdet är&quot;true&quot; bearbetas alla kampanjer som anges i `at_preview_index` parametrarna.<br>Om värdet är &quot;false&quot; bearbetas alla kampanjer från sidan, även om de inte har angetts i förhandsgranskningstoken. |
-   | `at_preview_evaluate_as_true_audience_ids` | Sträng | Tom | Understreckavgränsad (&quot;_&quot;) lista med segmentId-s som alltid (på mål- och rapporteringsnivå) ska utvärderas som &quot;true&quot; i mbox-begärans omfång. |
+   | `at_preview_evaluate_as_true_audience_ids` | Sträng | Tom | Understrykningsavgränsad (&quot;_&quot;) lista med segment-ID:n som alltid (på mål- och rapporteringsnivå) ska utvärderas som &quot;true&quot; i omfattningen av [!DNL Target] begäran. |
    | `_AT_Debug` | Sträng | Fönster eller konsol | Konsolloggning eller nytt fönster. |
    | `adobe_mc_ref` |  |  | Skickar den refererande URL-adressen för standardsidan till den nya sidan. När det används med `AppMeasurement.js` version 2.1 (eller senare) [!DNL Adobe Analytics] används det här parametervärdet som den refererande URL:en på den nya sidan. |
    | `adobe_mc_sdid` |  |  | Skickar [!DNL Supplemental Data Id] (SDID) och [!DNL Experience Cloud Org Id] från standardsidan till den nya sidan för att Analytics for Target (A4T) ska sammanfoga Target-begäran på standardsidan med Analytics-begäran på den nya sidan. |
 
-* Gränssnittet för mål-QA-läge visar bara den första URL:en för en upplevelse i en flersidig aktivitet. Anta att du skapar ett resetest och att du går från URL1 till URL2. Om du vill gå till URL2 separat kopierar du alla URL-parametrar som finns mot URL1 och använder dem på URL2 efter att du har placerat ett &quot;?&quot; precis som i URL1.
+* Gränssnittet för Target QA-läge visar bara den första URL:en för en upplevelse i en flersidig aktivitet. Anta att du skapar ett resetest och att du går från URL1 till URL2. Om du vill gå till URL2 separat kopierar du alla URL-parametrar som finns mot URL1 och använder dem på URL2 efter att du har placerat ett &quot;?&quot; precis som i URL1.
