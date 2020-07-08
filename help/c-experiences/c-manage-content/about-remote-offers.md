@@ -5,7 +5,7 @@ title: Skapa fjärrerbjudanden
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Använd fjärrerbjudanden för att lagra innehåll utanför Target som Target re
 
 >[!NOTE]
 >
->Fjärrerbjudanden kan bara skapas i den formulärbaserade dispositionen. Innehållet kommer att injiceras i mbox-placeringarna, så de passar troligtvis inte för en global mbox.
+>Fjärrerbjudanden kan bara skapas i den formulärbaserade dispositionen. Innehållet kommer att injiceras på [!DNL Target] begärandeplatserna, så de lämpar sig troligtvis inte för en global [!DNL Target] begäran.
 >
 >[!DNL Target Classic] innehåller liknande funktioner: [!UICONTROL Offer on Your Site] och [!UICONTROL Offer Outside Test&Target].
 
@@ -47,7 +47,7 @@ Några exempel på fjärrerbjudanden är:
    | Alternativ | Beskrivning |
    |--- |--- |
    | Cachelagrad | Innehållet i ett cachelagrat fjärrerbjudande levereras från Target.<br>Varannan timme [!DNL Target] hämtar innehållet på fjärr-URL:en och lagrar sedan innehållet inuti Target. När besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av Target.<br>Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad på toTarget inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.<br>Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande. |
-   | Dynamisk | Ett dynamiskt fjärrerbjudande erbjuds via innehållshantering eller andra system i stället för från Target.<br>Du kanske inte vill att innehållet ska cachelagras regelbundet och sedan levereras av Target när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt, eller olika, för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka för [!UICONTROL Add Parameter] att lägga till en eller flera mbox- eller request-parametrar. |
+   | Dynamisk | Ett dynamiskt fjärrerbjudande erbjuds via innehållshantering eller andra system i stället för från Target.<br>Du kanske inte vill att innehållet ska cachelagras regelbundet och sedan levereras av Target när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt, eller olika, för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka [!UICONTROL Add Parameter] för att lägga till en eller flera [!DNL Target] begäranden eller frågeparametrar. |
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -55,7 +55,7 @@ Några exempel på fjärrerbjudanden är:
 
 Bästa tillvägagångssätt för att använda fjärrerbjudanden i dina aktiviteter:
 
-* Om ditt erbjudande finns i samma domän som kryssrutorna kan du med hjälp av alternativet [!UICONTROL Cached] använda relativa URL:er för att beskriva din erbjudandeplats.
+* Om ditt erbjudande finns i samma domän som [!DNL Target] förfrågningarna kan du med [!UICONTROL Cached] alternativet använda relativa URL:er för att beskriva din erbjudandeplats.
 
    Det innebär att när du flyttar din aktivitet från testservrarna till produktionen blir innehållet automatiskt tillgängligt utan att du behöver ändra URL-adressen manuellt.
 
