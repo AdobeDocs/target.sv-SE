@@ -3,7 +3,10 @@ description: Ibland blir aktiviteterna inte som förväntat. Här är några pot
 title: Felsöka automatisk personalisering
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +39,7 @@ Det finns flera faktorer som krävs för att en AP-aktivitet ska kunna generera 
 
 ## Min URL för AP-aktivitet visar erbjudandeinnehåll på felaktiga sidor. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-I AP läggs URL- och malltestreglerna till i mbox-postbegränsningen (till exempel target-global-mbox), där de bara utvärderas en gång. När en användare kvalificerar sig för en kampanj utvärderas inte reglerna för målinriktning på mbox-nivå på nytt. Målgruppen läggs dock till i reglerna för målinriktning mot plats.
+I AP läggs URL- och malltestningsreglerna till i den begärda [!DNL Target] postbegränsningen (till exempel target-global-mbox), där de bara utvärderas en gång. När en användare kvalificerar sig för en aktivitet utvärderas inte Target regler för målinriktning på begärandenivå på nytt. Målgruppen läggs dock till i reglerna för målinriktning mot plats.
 
 **Lösning:** Lägg till nödvändiga mallregler som kampanjens målgrupp. Målgruppsutvärdering sker vid varje begäran/anrop.
 
