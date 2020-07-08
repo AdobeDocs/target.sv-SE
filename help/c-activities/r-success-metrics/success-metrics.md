@@ -1,12 +1,12 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: I Adobe Target är framgångsmätningar förkonfigurerade för både rapportering och spårning.
-title: Framgångsmått i Adobe Target
+description: I Adobe Target är framgångsmått förkonfigurerade för både rapportering och spårning.
+title: Framgångsstatistik i Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Framgångsmått{#success-metrics}
 
-I Adobe Target är framgångsmätningar förkonfigurerade för både rapportering och spårning.
+I Adobe Target är framgångsmått förkonfigurerade för både rapportering och spårning.
 
 Framgångsmått är parametrar som används för att mäta en aktivitets framgång. Framgångsstatistik innehåller viktiga affärsåtgärder som gör det möjligt att avgöra hur framgångsrik en viss upplevelse eller ett visst erbjudande är i en Target-aktivitet. Du kan till exempel bestämma om ett nytt erbjudande ökar intäkterna per besökare eller lägger till en artikel i en kundvagn. Framgångsstatistik kan vara användbar för att upptäcka problem med registrering, beställning eller inköpskanaler, men också helt enkelt med besökarens eller kundens engagemang.
 
@@ -26,7 +26,7 @@ Inkomstmått som är inställda på Ökningsantal och behåller användaren i ak
 
 >[!NOTE]
 >
->Standardbeteendet för aktiviteter som använder [Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) är&quot;Ökningsantal och behåll användaren i aktiviteten&quot; med&quot;En gång per deltagare&quot;.
+>Standardbeteendet för aktiviteter där [Analytics används som rapportkälla](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) är&quot;Ökningsantal och behåll användaren i aktiviteten&quot; med&quot;En gång per deltagare&quot;.
 
 Följande framgångsmått finns:
 
@@ -35,14 +35,14 @@ Följande framgångsmått finns:
 | Konvertering | Konverteringsbaserad | Konvertering är när en besökare utför en åtgärd på webbplatsen som du har definierat (klickade på en knapp, visade en sida, slutförde en undersökning eller gjorde ett köp). En konvertering kan antingen räknas en gång per besökare eller varje gång en besökare slutför en konvertering. |
 | Intäkter | Konverteringsbaserad | Intäkter från besöket. Du kan välja mellan följande intäktsmått:<ul><li>Intäkter per besökare (RPV)</li><li>Genomsnittligt ordervärde (AOV)</li><li>Total försäljning</li></ul> |
 | Sidvyer | Engagement-based | Varje unikt besök räknas som en konvertering. |
-| Tid på plats | Engagement-based | Den tid som har tillbringats i besöket (i sekunder) från den punkt där besökaren ser aktivitetens första visningsruta till den sista sidans laddning med en mbox i sessionen. |
-| Anpassad poängsättning | Engagement-based | Sammanställd poäng baserad på det värde som tilldelats de sidor som besöks på webbplatsen, från den punkt där besökaren först ser aktivitetens första visningsruta. |
+| Tid på plats | Engagement-based | Den tid som tillbringats i besöket (i sekunder) från den punkt där besökaren ser aktivitetens första Target-begäran till den sista sidans inläsning med en begäran i sessionen. |
+| Anpassad poängsättning | Engagement-based | Sammanställd poäng baserad på det värde som tilldelats de sidor som besöks på webbplatsen, från den punkt där besökaren först ser aktivitetens första [!DNL Target] visningsbegäran. |
 
 För interaktionsbaserade mätvärden (till skillnad från för konverteringsbaserade och intäktsbaserade mätvärden) måste besökarna omkvalificera sig för aktiviteten vid varje besök för att öka antalet för den sessionen. Det associerade måttet börjar öka efter omkvalificering och stannar i slutet av varje besökares session. En session avslutas efter 30 minuters inaktivitet. Därför kommer du inte att se resultat direkt under testningen, men alla resultat från den sessionen är tillgängliga inom några minuter efter att sessionen avslutats.
 
 Ni kan också skapa anpassade framgångsmått.
 
-När du har valt framgångsmått väljer du den åtgärd som en besökare ska utföra för att uppnå målet. Välj till exempel ett konverteringsmått, ange att det ska räknas en gång per besökare och ange om det ska lyckas när en besökare visar en viss sida (eller en uppsättning sidor), visar en viss ruta eller klickar på en viss länk.
+När du har valt framgångsmått väljer du den åtgärd som en besökare ska utföra för att uppnå målet. Välj till exempel ett konverteringsmått, ange att det ska räknas en gång per besökare och ange om resultatet ska uppnås när en besökare visar en viss sida (eller en uppsättning sidor), visar en viss [!DNL Target] begäran eller klickar på en viss länk.
 
 Om det här alternativet är aktiverat ger det beräknade värdet för ett konverteringsfält (inte tillgängligt för sidpoängsmått) ett värde för ditt mål, men inte för andra mått. Detta värde gör det möjligt [!DNL Target] att beräkna en uppskattad ökning av intäkterna. Detta fält är valfritt; Inkrementella intäkter för icke-intäktsmått kan dock inte beräknas utan detta. För alla intäktsmått (Intäkt per besökare, Genomsnittligt ordervärde, Total försäljning och Beställningar) används Intäkt per besökare i uppskattningen. Datatypen är valuta. Mer information finns i [Beräkna Lyft i intäkter](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) .
 
