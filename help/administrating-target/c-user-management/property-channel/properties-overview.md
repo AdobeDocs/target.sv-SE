@@ -5,7 +5,7 @@ title: Konfigurera företagsbehörigheter
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 0%
@@ -78,6 +78,7 @@ Användare kan ingå i flera arbetsytor och kan till och med ha olika roller ino
 
       * Skapa nya arbetsytor i [!DNL Admin Console for Enterprise].
       * Tilldela Target-egenskaper till arbetsytorna.
+
    Du kan använda dessa arbetsytor för att dela upp åtkomsten till olika team efter region, affärsenhet, webbplatsavsnitt eller via någon annan metod som du väljer. Användare kan ingå i flera arbetsytor och ha olika roller inom varje arbetsyta.
 
 1. Följ instruktionerna i [Skapa och hantera produktkonfigurationer](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) i *Enterprise-användarhandboken*.
@@ -152,7 +153,7 @@ Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste 
 
    * **Via en global parameter i[!DNL Adobe Launch]:**
 
-      Mer information finns i [Lägg till globala Mbox-parametrar](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) i *Adobe Experience Platform Launch* -dokumentationen.
+      Mer information finns i [Lägg till globala Target-parametrar](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) i *Adobe Experience Platform Launch* -dokumentationen.
 
    * **Via en global parameter i[!DNL Dynamic Tag Management]:**
 
