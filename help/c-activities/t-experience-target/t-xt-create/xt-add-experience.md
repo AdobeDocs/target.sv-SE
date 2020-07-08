@@ -1,11 +1,14 @@
 ---
 keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: Adobe Target Visual Experience Composer (VEC) ger ett visuellt gränssnitt för att redigera upplevelser på din sida i en XT-aktivitet (Experience Targeting).
+description: Adobe Target Visual Experience Composer (VEC) är ett visuellt gränssnitt som du kan använda för att redigera upplevelser på din sida i en XT-aktivitet (Experience Targeting).
 title: Skapa upplevelse
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '932'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Med [!UICONTROL Visual Experience Composer] (VEC) kan du redigera upplevelserna 
 
    När du håller muspekaren över elementen på sidan markeras elementen. Alla markerade element kan ändras med VEC. En lista med åtgärder som kan utföras på ett element för att ändra upplevelsen finns i Alternativ för [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Om du skapade en mbox på sidan med [!DNL Target Classic]visas den mbox som ett element som visar mbox-namnet och kan ändras som vilket element som helst.
+   Om du skapade en [!DNL Target] begäran på sidan med [!DNL Target Classic], visas den [!DNL Target] begäran som ett element som visar begäransnamnet och kan ändras som vilket element som helst.
 
    >[!NOTE]
    >
@@ -42,7 +45,7 @@ Med [!UICONTROL Visual Experience Composer] (VEC) kan du redigera upplevelserna 
    >
    >Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera publiker](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   När du skapar en målgrupp kan du välja en plats (mbox) och ange parametrar för den platsen. Under [!UICONTROL Custom] (Skapa publik > Lägg till regel > Anpassad) markerar du rutan och anger önskade parametrar.
+   När du skapar en målgrupp kan du välja en plats och ange parametrar för den platsen. Under [!UICONTROL Custom] (Skapa publik > Lägg till regel > Anpassad) markerar du platsen och anger önskade parametrar.
 
    >[!NOTE]
    >
