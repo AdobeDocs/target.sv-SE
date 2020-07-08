@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 
    | Typ | Parameter | Anteckningar |
    |--- |--- |--- |
-   | Inbyggda profiler | `profile.activeActivities` | Returnerar en matris för `activityIds` besökaren som är kvalificerad för. Det ökar efterhand som användarna kvalificerar sig. På en sida med två rutor som levererar två olika aktiviteter, kommer den andra mbox att innehålla båda aktiviteterna. |
+   | Inbyggda profiler | `profile.activeActivities` | Returnerar en matris för `activityIds` besökaren som är kvalificerad för. Det ökar efterhand som användarna kvalificerar sig. På en sida med två [!DNL Target] begäranden som levererar två olika aktiviteter, innehåller den andra begäran till exempel båda aktiviteterna. |
    |  | `profile.isFirstSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.isNewSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.daysSinceLastVisit` | Returnerar antalet dagar sedan besökarens senaste besök. |
@@ -71,7 +71,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
    >
    >Parametrar med specialtecken visas inte i listan. Endast alfanumeriska tecken och understreck stöds.
 
-1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via ett mbox-anrop och därför inte har lästs in i användargränssnittet i Target, kan du använda [!UICONTROL Add Response Token] knappen för att lägga till profilen i användargränssnittet.
+1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via en [!DNL Target] begäran och därför inte har lästs in i användargränssnittet i Target, kan du använda [!UICONTROL Add Response Token] knappen för att lägga till profilen i användargränssnittet.
 
    Klicka **[!UICONTROL Add Response Token]** och ange tokennamnet. Klicka sedan **[!UICONTROL Activate]**.
 
@@ -79,7 +79,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 
 1. Skapa en aktivitet.
 
-Använd anpassade [at.js-händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) för att lyssna efter mbox-svaret och läsa svarstoken.
+Använd anpassade [at.js-händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) för att lyssna efter [!DNL Target] svaret och läsa svarstoken.
 
 I följande kodexempel läggs en anpassad händelsehanterare till direkt på HTML-sidan: [!DNL at.js]
 
@@ -136,15 +136,15 @@ Svarstoken visas, men at.js kan inte använda dem.
 
 **Vad händer om jag använder at.js 1.1 (eller senare) på vissa sidor på min webbplats men mbox.js på andra sidor?**
 
-Svarstoken levereras till [!DNL at.js] mbox-svaren, men inte till [!DNL mbox.js] svaren.
+Svarstoken levereras till [!DNL at.js] Target-svaren, men inte till [!DNL mbox.js] svaren.
 
 **Kan jag ha både Target Classic-plugin-program och svarstoken aktiva samtidigt?**
 
 Insticksprogram och svarstoken kommer att finnas tillgängliga parallellt. plugin-program kommer dock att bli inaktuella i framtiden.
 
-**Levereras svarstoken via alla mbox-svar eller endast via mbox-meddelanden som levererar en aktivitet?**
+**Levereras svarstoken via alla[!DNL Target]svar eller endast via[!DNL Target]svar som levererar en aktivitet?**
 
-Svarstoken levereras endast genom rutor som levererar en aktivitet.
+Svarstoken levereras endast genom [!DNL Target] svar som levererar en aktivitet.
 
 **Mitt Target Classic-plugin innehåller JavaScript. Hur replikerar jag funktionaliteten med svarstoken?**
 
