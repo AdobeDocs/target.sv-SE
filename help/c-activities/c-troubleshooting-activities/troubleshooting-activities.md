@@ -5,7 +5,10 @@ title: Felsöka aktiviteter
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +19,13 @@ Om din aktivitet inte visas på din webbplats kan du hitta lösningen med hjälp
 
 >[!NOTE]
 >
->Förutom följande felsökningsinformation finns mer information i [Felsökningsmål](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) om länkar till ytterligare felsökningsämnen, vanliga frågor och svar samt annan användbar information om felsökningsaktiviteter och andra funktioner i [!DNL Adobe Target].
+>Förutom följande felsökningsinformation finns mer information i [Felsökning för Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) om länkar till ytterligare felsökningsämnen, vanliga frågor och svar samt annan användbar information om felsökningsaktiviteter och andra funktioner i [!DNL Adobe Target].
 
 Följande avsnitt innehåller problem som du kan stöta på när du föreslår lösningar.
 
-## Jag skapade en aktivitet med målgränssnittet och kan inte uppdatera den via API.
+## Jag skapade en aktivitet med Target UI och kan inte uppdatera den via API.
 
-Aktiviteter som skapas med målgränssnittet bör uppdateras via målgränssnittet. Aktiviteter som skapas via API ska uppdateras via API. Om du ursprungligen skapade en aktivitet med API, till exempel, men sedan redigerar aktiviteten via målgränssnittet, uppdateras inte alla ändringar. Alla ändringar lagras på serverdelen och kan uppdateras genom att du gör ett annat API-anrop.
+Aktiviteter som skapas med Target användargränssnitt bör uppdateras via Target användargränssnitt. Aktiviteter som skapas via API ska uppdateras via API. Om du till exempel ursprungligen skapade en aktivitet med API, men sedan redigerar aktiviteten via Target-gränssnittet, uppdateras inte alla ändringar. Alla ändringar lagras på serverdelen och kan uppdateras genom att du gör ett annat API-anrop.
 
 Det bästa är att försöka uppdatera aktiviteten med samma metod (UI eller API) som användes för att skapa aktiviteten från början.
 
@@ -76,7 +79,7 @@ Kontrollera att aktiviteten är slutförd och att den har aktiverats.
 När du har lagts till som användare i Target måste du ha rollen Godkännare för att kunna skapa aktiviteter.
 
 * Be administratören för ditt konto att göra dig till godkännare.
-* Om du är administratör ger du dig själv rollen Godkännare från Konfigurera > Användare i Målstandard.
+* Om du är administratör ger du dig själv rollen Godkännare från Konfigurera > Användare i Target Standard.
 
    Se [Tilldela dig själv rollen](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)Godkännare.
 
@@ -88,7 +91,7 @@ När du har lagts till som användare i Target måste du ha rollen Godkännare f
 
 * Återskapa aktiviteten.
 
-Mer information om hur sidändringar påverkar Target möjlighet att visa finns i [Scenarier](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)för sidändring.
+Mer information om hur sidändringar påverkar Target visningsmöjligheter finns i [Scenarier](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)för sidändring.
 
 ## Sidans struktur ändras under sidinläsning (vid körning).
 
@@ -101,7 +104,7 @@ Mer information om hur sidändringar påverkar Target möjlighet att visa finns 
 * Uppdatera sidkoden så att varje element som ska testas identifieras unikt (med ett id).
 * Sluta dynamiskt ändra klassen eller jämställda objekt enligt beskrivningen ovan.
 
-Mer information om hur sidändringar påverkar Target möjlighet att visa finns i [Scenarier](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)för sidändring.
+Mer information om hur sidändringar påverkar Target visningsmöjligheter finns i [Scenarier](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)för sidändring.
 
 ## Mbox.js öppnar all efterföljande kod från huvudet och in i kroppen.
 
@@ -126,7 +129,7 @@ Mer information om hur sidändringar påverkar Target möjlighet att visa finns 
 
 ## Ett felmeddelande visas när du tar bort ett profilskript.
 
-**Validera:** Om du tar bort ett profilskript från Target Standard/Premium visas felmeddelandet&quot;Failed to delete profile script&quot;.
+**Validera:** Om du tar bort ett profilskript från Target Standard/Premium visas felmeddelandet&quot;Det gick inte att ta bort profilskriptet&quot;.
 
 **Alternativ:**
 
@@ -135,10 +138,10 @@ Gör något av följande:
 * Ta bort igen. Meddelandet om att åtgärden lyckades visas.
 * Vänta i ungefär 10 minuter innan Target Standard-/Premium-importeraren körs. Importverktyget uppdaterar profillistan med skript.
 
-## Vissa ajax-anrop fungerar inte.
+## Vissa ajax- [!DNL Target] samtal fungerar inte.
 
-**Obs!** Flera ajax-anrop med samma mbox-namn men olika parametrar fungerar inte på samma sida. Endast den första samtalet kommer att göras.
+**Obs!** Flera ajax- [!DNL Target] anrop med samma namn men olika parametrar fungerar inte på samma sida. Endast den första samtalet kommer att göras.
 
-## Du har aktiverat en aktivitet med mål-API:t, men aktiviteten visar statusen Inaktiv i målgränssnittet.
+## Du har aktiverat en aktivitet med Target API, men aktiviteten visar statusen för [!UICONTROL Inactive] i Target användargränssnitt.
 
-När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användargränssnittet med Target-API:t, kan det ta upp till tio minuter att uppdatera gränssnittet.
+När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användargränssnittet med Target API, kan det ta upp till tio minuter innan uppdateringen skickas till användargränssnittet.
