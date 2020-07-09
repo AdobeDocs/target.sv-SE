@@ -1,11 +1,14 @@
 ---
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: Egna parametrar är mbox-parametrar. Om du skickar några mbox-parametrar till mboxes, eller använder funktionen targetPageParams, visas de parametrarna här för användning i målgrupper.
-title: Anpassade parametrar i Adobe Target
+title: Egna parametrar i Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +29,7 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter får du inte 
 
    * När du skapar en ny målgrupp väljer du ett parameternamn i listan, börjar skriva de första tecknen i det önskade parameternamnet eller skriver det fullständiga namnet på det önskade parameternamnet.
    * Om du kommer ihåg mbox-namnet, men inte parameternamnet, använder du kryssrutan för att filtrera på en känd mbox som skickar den önskade parametern.
+
    Om du använder någon av metoderna finns det ingen länk mellan mbox och parametern. Publiken kommer att arbeta baserat på parametern i alla mbox som skickar den parametern.
 
    Om du redigerar en befintlig målgrupp visas filtervillkoren med namnet på mbox som angavs när målgruppen skapades.
@@ -35,6 +39,7 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter får du inte 
    * Innehåller (skiftlägesokänslig)
    * Innehåller inte (skiftlägesokänslig)
    * Lika med
+
    ![Anpassad parametermålgrupp](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. Ange varje värde på en ny rad.
@@ -45,12 +50,12 @@ Publiken har ett popup-kort [med](../../../c-target/c-audiences/audiences.md#sec
 
 >[!NOTE]
 >
->För anpassade målgrupper som skapats före målversionen 18.5.1 (22 maj 2018) visas inte mbox-namnen i publikens definitionskort. Du måste spara om den anpassade målgruppen för att få mbox-namnet som ska visas på kortet.
+>För anpassade målgrupper som skapats före Target 18.5.1 (22 maj 2018) visas inte mbox-namnen i publikens definitionskort. Du måste spara om den anpassade målgruppen för att få mbox-namnet som ska visas på kortet.
 
 ## Överväganden {#considerations}
 
 * Målgrupper och aktiviteter utvärderas för en viss ruta. Om till exempel den globala mbox skickar en viss parameter, men den regionala mbox inte gör det, kommer aktiviteten/målgruppen som anger den parametern inte att kvalificeras för i den regionala mbox.
-* Målinriktning utvärderas inte för interna mbox-parametrar, som mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId och mboxVersion.
+* Målinriktning utvärderas inte för interna mbox-parametrar, som mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId och mboxVersion.
 
 ## Utbildningsvideo: Skapa märket för ![självstudiekurser för publiker](/help/assets/tutorial.png)
 
