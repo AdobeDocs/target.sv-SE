@@ -5,7 +5,10 @@ title: Konverteringsgrad
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1596'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Följande bild visar diagramrubriken för en exempelaktivitet med [!UICONTROL Co
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >I alla data ignoreras dubblettorder om en order `orderID` skickas. Revideringsrapporten innehåller en lista över ignorerade dubblettorder.
 
@@ -63,7 +66,7 @@ Konverteringar och kontinuerliga variabler för Target-baserade mätvärden, som
 * **Konvertering:** Antingen ja eller nej
 * **Alla andra:** Värden över ett intervall
 
-Du kan utföra offlineberäkningar för Analytics för Target (A4T), men det kräver ett steg med dataexport i [!DNL Analytics]. Mer information finns i&quot;Utföra offlineberäkningar för analys av mål (A4T)&quot; nedan.
+Du kan utföra offlineberäkningar för Analytics för Target (A4T), men det kräver ett steg med dataexport i [!DNL Analytics]. Mer information finns i&quot;Utföra offlineberäkningar för Analytics för Target (A4T)&quot; nedan.
 
 ### Konfidensnivå {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
@@ -104,17 +107,17 @@ Konfidensintervallet ** är ett intervall inom vilket det sanna värdet kan hitt
 
 Den [nedladdade CSV-rapporten](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) innehåller endast rådata och inte beräknade värden, t.ex. intäkter per besökare, lyft eller konfidensgrad som används för A/B-tester.
 
-Om du vill beräkna dessa beräknade värden hämtar du målets [Excel-fil för beräkning](/help/assets/complete_confidence_calculator.xlsx) av fullständig säkerhet för att ange aktivitetens värde, eller läser de [statistiska beräkningar som används av Target](/help/assets/statistical-calculations.pdf).
+Om du vill beräkna dessa beräknade värden hämtar du Target [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel-filen för att ange aktivitetens värde, eller läser de [statistiska beräkningar som används av Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
->Den här räknaren används för målbaserad rapportering och inte för A4T-rapportering.
+>Den här kalkylatorn är avsedd för Target-baserad rapportering och inte för A4T-rapportering.
 
-## Utföra offlineberäkningar för analys av mål (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Utföra offlineberäkningar för Analytics för Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 Du kan utföra offlineberäkningar för A4T, men det krävs ett steg med dataexport i [!DNL Analytics].
 
-För A4T använder vi Students t-test-beräkning för kontinuerliga variabler (i stället för binära värden). I Analytics spåras alltid en besökare, och alla åtgärder som vidtas räknas. Om besökaren köper flera gånger eller besöker ett framgångsmått flera gånger räknas de ytterligare träffarna. Detta gör mätvärdet till en kontinuerlig variabel. För att kunna utföra Students t-test-beräkning krävs&quot;summan av kvadrater&quot;. Den här kan hämtas från [!DNL Analytics]. Om du vill få summan av kvadratdata måste du utföra en export på besökarnivå för det mätresultat som du optimerar för, under en provtidsperiod.
+För A4T använder vi Students t-test-beräkning för kontinuerliga variabler (i stället för binära värden). I Analytics spåras alltid en besökare och alla åtgärder som vidtas räknas. Om besökaren köper flera gånger eller besöker ett framgångsmått flera gånger räknas de ytterligare träffarna. Detta gör mätvärdet till en kontinuerlig variabel. För att kunna utföra Students t-test-beräkning krävs&quot;summan av kvadrater&quot;. Den här kan hämtas från [!DNL Analytics]. Om du vill få summan av kvadratdata måste du utföra en export på besökarnivå för det mätresultat som du optimerar för, under en provtidsperiod.
 
 Om du till exempel optimerar till sidvisningar per besökare, kan du exportera ett exempel på det totala antalet sidvisningar per besökare för en viss tidsperiod, kanske några dagar (ett par tusen datapunkter är allt du behöver). Därefter fyrkantiga varje värde och summerar summan (operationsordningen är viktig här). Värdet&quot;summan av kvadrater&quot; används sedan i Complete Confidence Calculator. Använd avsnittet &quot;intäkt&quot; i kalkylbladet för dessa värden.
 
@@ -124,16 +127,16 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 1. Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Fyll i fälten på **[!UICONTROL Data Warehouse Request]** fliken.
 
-   Mer information om de olika fälten finns i&quot;Beskrivning av datalager&quot; i [datalagret](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
+   Mer information om de olika fälten finns i Data warehouse beskrivningar i [Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
    | Fält | Instruktioner |
    |--- |--- |
    | Namn på begäran | Ange ett namn för din begäran. |
-   | Rapportdatum | Ange en tidsperiod och granularitet.<br>Som bästa praxis bör du inte välja mer än en timme eller dag med data för din första förfrågan.  Datalagerfiler tar längre tid att bearbeta längre tid än vad som begärts, så det är alltid en god vana att begära data för en liten tidsperiod först för att vara säker på att filen returnerar det förväntade resultatet. Gå sedan till Request Manager, duplicera din begäran och be om fler data vid andra gången. Om du växlar granularitet till något annat än &quot;Inget&quot; ökar filstorleken drastiskt.<br>![Datalager](/help/c-reports/assets/datawarehouse.png) |
+   | Rapportdatum | Ange en tidsperiod och granularitet.<br>Som bästa praxis bör du inte välja mer än en timme eller dag med data för din första förfrågan.  Data warehouse-filer tar längre tid att bearbeta längre tid än vad som begärts, så det är alltid en god vana att begära data för en liten tidsperiod först för att vara säker på att filen returnerar det förväntade resultatet. Gå sedan till Request Manager, duplicera din begäran och be om fler data vid andra gången. Om du växlar granularitet till något annat än &quot;Inget&quot; ökar filstorleken drastiskt.<br>![Data warehouse](/help/c-reports/assets/datawarehouse.png) |
    | Tillgängliga segment | Använd ett segment efter behov. |
-   | Uppdelningar | Välj önskade mått:  Standard är körklar (OTB), medan Custom innehåller eVars &amp; Props. Vi rekommenderar att du använder&quot;besökar-ID&quot; om information på besöks-ID-nivå behövs, i stället för&quot;Experience Cloud Visitor-ID&quot;.<ul><li>Besökar-ID är det sista ID som används av Analytics. Det blir antingen ett ID (om kunden är äldre) eller ett MID (om kunden är ny eller rensad på cookies sedan besökar-ID-tjänsten för MC startades).</li><li>Experience Cloud Visitor ID kommer endast att anges för kunder som är nya eller rensade cookies sedan besöks-ID-tjänsten startades.</li></ul> |
+   | Uppdelningar | Välj önskade mått:  Standard är körklar (OTB), medan Custom innehåller eVars &amp; Props. Vi rekommenderar att du använder&quot;besökar-ID&quot; om information på besökar-ID-nivå behövs, i stället för&quot;Experience Cloud Visitor-ID&quot;.<ul><li>Besökar-ID är det sista ID som används av Analytics. Det blir antingen ett ID (om kunden är äldre) eller ett MID (om kunden är ny eller rensad på cookies sedan besökar-ID-tjänsten för MC startades).</li><li>Experience Cloud Visitor-ID kommer endast att anges för kunder som är nya eller rensade cookies sedan besöks-ID-tjänsten startades.</li></ul> |
    | Mått | Välj önskade mätvärden. Standard är OTB, medan Anpassad innehåller anpassade händelser. |
-   | Förhandsgranska rapport | Granska inställningarna innan du schemalägger rapporten.<br>![Datalager 2](/help/c-reports/assets/datawarehouse2.png) |
+   | Förhandsgranska rapport | Granska inställningarna innan du schemalägger rapporten.<br>![Data warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | Schemalägg leverans | Ange en e-postadress som filen ska skickas till, ge filen ett namn och välj sedan [!UICONTROL Send Immediately].<br>Obs! Filen kan levereras via FTP under [!UICONTROL Advanced Delivery Options]<br>![Schedule Delivery](/help/c-reports/assets/datawarehouse3.png). |
 
 1. Klicka på **[!UICONTROL Request this Report]**.
@@ -144,8 +147,8 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 
 Mer information om [!DNL Data Warehouse]finns i följande länkar i [!DNL Analytics] hjälpdokumentationen:
 
-* [Skapa en begäran om datalager](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Bästa praxis för datalager](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Skapa en begäran från Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data warehouse bästa praxis](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Räkningsmetod {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -155,12 +158,12 @@ Räkningsmetod stöds för följande aktivitetstyper:
 
 * A/B-test
 
-   Ett undantag är att A/B-aktiviteter med Automatiskt mål endast stöder standardmetoden för Besök.
+   Ett undantag är att Auto-Target A/B-aktiviteter bara stöder standardmetoden för Besök-räkning.
 
 * Experience Targeting (XT)
 * Multivariata tester (MVT)
 
-   För MVT-elementets bidragsrapport stöder inte Target aktivitetsexponeringar för intäktsmätningstyper.
+   För MVT-elementets bidragsrapport stöder inte Target aktivitetsexponeringar för intäktsmetriska typer.
 
 * Rekommendationer
 
@@ -180,6 +183,6 @@ Du kan visa rapporter med följande beräkningsmetoder:
 
    Ett enda besök kan innehålla flera visningar av till exempel din hemsida.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Antalet bestäms vanligtvis av cookies och sessionsaktivitet. Om du når den sista konverteringspunkten för en aktivitet och sedan anger aktiviteten igen, betraktas du som en ny deltagare och ett nytt besök i aktiviteten. Detta gäller även om ditt PCID och dina värden inte ändras `sessionID` .
