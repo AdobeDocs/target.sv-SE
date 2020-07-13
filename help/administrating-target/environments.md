@@ -5,7 +5,7 @@ title: Miljö
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -76,6 +76,7 @@ Du kan ta bort en miljö när den inte längre behövs.
 Du kan förhandsgranska innehållet i Recommendations-samlingar och undantag för en vald miljö (värdgrupp).
 
 >[!NOTE]
+>
 >Rekommendationsaktiviteter finns som en del av Premium- [!DNL Target] lösningen. De finns inte i [!DNL Target] Standard utan en [!DNL Target] Premium-licens.
 
 En miljö kan användas för att separera tillgängliga objekt i katalogen för olika användningsområden. Du kan till exempel använda värdgrupper för [!UICONTROL Development] och [!UICONTROL Production] miljöer, olika varumärken eller olika platser. Som standard baseras förhandsgranskningsresultaten i Katalogsökning, Samlingar och Undantag på standardvärdgruppen. (Du kan också välja en annan värdgrupp om du vill förhandsgranska resultaten med hjälp av miljöfiltret.) Som standard är nyligen tillagda objekt tillgängliga i alla värdgrupper om inte ett miljö-ID anges när objektet skapas eller uppdateras. Levererade rekommendationer beror på värdgruppen som anges i begäran.
