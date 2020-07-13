@@ -5,7 +5,10 @@ title: Skapa omdirigeringserbjudanden
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ Omdirigeringserbjudandet gör att en webbläsare dirigerar om till en ny sida.
 
 Det kan finnas två helt olika sidor att testa i stället för att bara ändra innehållsdelar på en sida. I det här fallet jämför ditt A/B-test sidan A med sida B. Skapa en A/B-testkampanj med två upplevelser: den ena pekar på standardsidan A och den andra på sidan B. Erbjudandet är konfigurerat för att dirigera om besökaren till en annan sida.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Du kan inte använda omdirigeringserbjudanden i aximbox ( `mboxUpdate`).
 >
@@ -26,7 +29,7 @@ Mer information om hur du konfigurerar en upplevelse som dirigeras om finns i [O
 
 Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. Den använder `window.location.replace();` metoden, så sidan som besökaren omdirigeras från lagras inte i webbläsarhistoriken. På så sätt kan besökaren fortfarande använda bakåtknappen i sin webbläsare.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Om du vill skicka referensvärdet för landningssidan rekommenderar vi att du använder ett HTML-erbjudande i stället för ett omdirigeringserbjudande.
 
@@ -51,7 +54,7 @@ Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. 
 
    Om du använder cookie-konfigurationen från första och tredje part behöver du inte skicka mbox-sessions-ID när du korsar domäner. Den är beständig på cookie-filen från tredje part, så den är inte nödvändig i URL-adressen.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Fråga din implementeringskonsult innan du startar dessa tester.
 
@@ -59,7 +62,7 @@ Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. 
 
 Den här videon innehåller information om hur du hanterar innehåll.
 
-* Anslutning mellan [Experience Cloud-resursbiblioteket](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
+* Anslutning mellan [Experience Cloud och Target Content Library](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
 * Anpassade HTML-erbjudanden
 * Anpassat HTML-erbjudande i Visual Experience Composer
 
