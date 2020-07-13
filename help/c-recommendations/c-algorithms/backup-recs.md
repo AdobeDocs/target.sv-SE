@@ -4,7 +4,10 @@ description: Om du använder funktionen för rekommendation av säkerhetskopia k
 title: Använd en rekommendation för säkerhetskopiering
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +33,7 @@ Denna låsningsprocess innebär att rekommendationer för säkerhetskopiering vi
 
 Utan att behöva buckalisera rekommendationerna för säkerhetskopiering skulle det ha varit möjligt att visa det 499:e mest visade objektet, följt av det 200:e mest visade objektet, följt av det 380:e mest visade objektet och så vidare. Med låsningsprocessen säkerställs att de mest visade objekten rekommenderas först.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Om du grupperar dina objekt i kataloger används även katalogen i de säkerhetskopieringsrekommendationer som genereras för varje algoritm i rekommendationen, så endast objekt i katalogen inkluderas i säkerhetskopieringsrekommendationen.
 
