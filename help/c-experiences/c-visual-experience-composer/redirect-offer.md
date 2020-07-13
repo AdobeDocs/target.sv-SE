@@ -5,7 +5,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Omdirigeringserbjudanden har några begränsningar:
 * För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T Frågor och svar](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * När du använder den formulärbaserade Experience Composer ska omdirigeringserbjudanden inte användas i rutor som är en del av sidan. Ett omdirigeringserbjudande får endast användas från en script-tagg som är en del av HTML-koden `<head>`. Du bör alltid använda autoskapa och ange omdirigeringserbjudandet för den globala mbox.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Om du vill skicka referensvärdet för landningssidan rekommenderar vi att du använder ett HTML-erbjudande i stället för ett omdirigeringserbjudande.
 
