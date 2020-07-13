@@ -1,12 +1,15 @@
 ---
 keywords: Implementation;mbox.js non javascript;mbox;adbox
-description: Använd en AdBox för att leverera bilder i en implementering utanför webbplatsen med Adobe Target.
+description: Använd en AdBox för att leverera bilder utanför webbplatsen med Adobe Target.
 title: Skapa en Adbox för en bild med Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +46,7 @@ Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade impl
 
 1. Skapa [omdirigeringserbjudanden](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) för varje alternativ bild.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;
+   >[!NOTE]
    >
    >AdBoxes måste läsas in med ett omdirigeringserbjudande eller standarderbjudandet. Andra erbjudandetyper fungerar inte. Eftersom AdBox är en URL kan den bara visa de URL:er som den tar emot, så endast omdirigeringserbjudandet fungerar.
 
