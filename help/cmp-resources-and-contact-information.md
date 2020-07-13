@@ -5,7 +5,7 @@ title: Resurser och kontaktinformation
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: ce885c24a44aa1ebd5ed48f14bc68105e665dc88
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Om du har frågor kan du ställa frågor till experterna i [Experience Cloud-com
 
 Om du har tekniska problem eller vill logga ett fel kan du kontakta kundtjänst. Ring 1-800-497-0335 om du vill kontakta kundtjänst. Avgiftsfria nummer utanför USA finns på [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) . När du blir ombedd att välja ett alternativ för produkten trycker du på 3 för att kontakta Target team.
 
-Skicka e-post till Kundtjänst [!DNL tt-support@adobe.com].
+Skicka e-post till Kundtjänst [!DNL customercare@adobe.com].
 
 Om du vill få tillgång till din snabbaste utgåva bör du ha följande grundläggande information tillgänglig när du kontaktar oss:
 
