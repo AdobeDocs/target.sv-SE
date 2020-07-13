@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Det finns två metoder för att tilldela en spets till en sida:
 
    Med den här metoden läggs det angivna värdet till i poängen för varje [!DNL Target] begäran på sidan. Om du till exempel skickar parametern `?mboxPageValue=10`och det finns tre [!DNL Target] förfrågningar på sidan, blir poängen för sidan 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Target-begäranden som finns ovanför aktivitetens första [!DNL Target] visningsbegäran inkluderas inte i poängen.
 
 Det bästa sättet är att tilldela värden i [!DNL Target] begäran. På så sätt kan du vara exakt i de värden som du mäter, beroende på innehållet i varje begäran.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >För enklare underhåll kan du konfigurera webbplatsens tilldelningar av sidpoängsvärden i [!DNL at.js] - eller [!DNL mbox.js] filen med viss villkorsstyrd JavaScript-logik. På så sätt slipper du lägga till mer kod på sidorna. Kontakta din kontokonsult om du behöver hjälp.
 
