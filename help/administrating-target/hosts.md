@@ -5,9 +5,9 @@ title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Följande villkor måste vara uppfyllda för att en värd ska identifieras och l
 
 När sidan har visats listas värden i [!UICONTROL Hosts] listan så att du kan hantera den i en miljö, samt förhandsgranska och starta aktiviteter och tester.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Detta inkluderar alla personliga utvecklingsservrar.
 
