@@ -1,10 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Kriterier i Adobe Target Recommendations är regler som avgör vilka produkter som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
-title: Kriterier i Adobe Target Recommendations
+description: Kriterierna i Adobe Target rekommendationer är regler som avgör vilka produkter som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
+title: Kriterier i rekommendationer från Adobe Target
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1593'
+ht-degree: 0%
 
 ---
 
@@ -82,10 +85,10 @@ Anta till exempel att du vill visa de mest säljande artiklarna från en använd
 | Tillhörighet till webbplats | Rekommenderar objekt baserat på säkerheten för en relation mellan objekt. Du kan konfigurera det här villkoret för att avgöra hur mycket data som krävs innan en rekommendation presenteras med skjutreglaget Inkluderingsregler. Om du t.ex. väljer väldigt stark så rekommenderas de produkter som ger störst säkerhet för en matchning.<br>Om du till exempel anger en mycket stark tillhörighet och din design innehåller fem objekt, varav tre uppfyller tröskelvärdet för anslutningsstyrkan, visas inte de två objekten som inte uppfyller kraven på minsta styrka i dina rekommendationer och ersätts av dina definierade säkerhetskopieringsobjekt. Objekt med den starkaste tillhörigheten visas först.<br>Vissa kunder med olika produktsamlingar och olika webbplatsbeteenden kan få det bästa resultatet om de ställer in en svag webbplatstillhörighet. |
 | De viktigaste säljarna | De artiklar som ingår i de mest slutförda beställningarna. Flera enheter av samma artikel i en enda order räknas som en order. |
 | Mest visade | De objekt eller medier som visas oftast. |
-| Senast visade objekt/media | Objekt som har visats nyligen av besökaren. När du använder det här villkoret bör du uppdatera Target-designen för att hantera fall där tomma rekommendationer visas när det inte finns tillräckligt med tidigare visade objekt att visa. |
+| Senast visade objekt/media | Objekt som har visats nyligen av besökaren. När du använder det här villkoret bör du uppdatera Target-designen för att hantera fall där tomma rekommendationer skulle visas när det inte finns tillräckligt med tidigare visade objekt att visa. |
 | Användarbaserade rekommendationer | Rekommenderar objekt baserat på varje besökares webbsurfning, visning och inköpshistorik. De här objekten kallas vanligtvis&quot;Rekommenderas för dig&quot;.<br>Med dessa kriterier kan ni leverera personaliserat innehåll och personaliserade upplevelser till både nya och återkommande besökare. Listan med rekommendationer vägs mot besökarens senaste aktivitet och uppdateras under sessionen och anpassas mer när användaren bläddrar på webbplatsen.<br>Både vyer och inköp används för att avgöra vilka objekt som rekommenderas. Den angivna rekommendationsnyckeln (t.ex. Aktuellt objekt) används för att tillämpa eventuella inkluderingsregelfilter som du väljer. Du kan till exempel:<ul><li>Uteslut objekt som inte uppfyller vissa kriterier (produkter ur lager, artiklar som publicerats för mer än 30 dagar sedan, filmer med klassificering R o.s.v.)</li><li>Begränsa inkluderade objekt till en enda kategori eller till den aktuella kategorin</li></ul> |
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Om du kör en rekommendation och ändrar villkoren för den kommer du att förlora dina rapportdata.
 
