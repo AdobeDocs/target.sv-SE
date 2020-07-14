@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 14 juli | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[Automatisk Target](/help/c-activities/auto-target-to-optimize.md)<br><br>[och Automatiserad personalisering - frågor och svar](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Vanliga frågor och svar har lagts till som rekommenderar att du inte ska ändra målmåttet genom en aktivitet. |
 | 7 juli | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Ytterligare information om 8 Adobe Target Coffee Break. |
 | 25 juni | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.6.1 (juli 2020). |
 |  | [Target - dokumentationsöversikt](/help/r-release-notes/target-documentation.md) | Nytt ämne som beskriver olika [!DNL Target] dokumentationskällor. |
@@ -29,7 +30,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Hur at.js fungerar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Följande video har lagts till: Kontorstid: at.js tips och översikt |
 | 17 juni | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
 |  | [Svarstoken](/help/administrating-target/response-tokens.md) | Lagt till information om svarstoken för trafiktilldelningsmetod för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] aktiviteter. |
-|  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
+|  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
 |  | [Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Lagt till information om den nya [!UICONTROL Publisher] rollen under *Ange roller och behörigheter*. |
 |  | [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Lagt till information om den nya [!UICONTROL Publisher] rollen under *steg 6: Ange roller och behörigheter*. |
 |  | [Enterprise-användarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Länk till *kontorstid: Target Premium Workspaces-session*. |
