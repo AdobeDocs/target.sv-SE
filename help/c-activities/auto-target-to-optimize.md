@@ -1,10 +1,13 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
-title: Automatiskt mål
+title: Auto-Target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '3283'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +46,7 @@ Följande termer är användbara vid diskussion [!UICONTROL Auto-Target]:
 | Villkor | Definition |
 |---|---|
 | Flerarmad bandit | En flerarmad bandit-strategi för optimering balanserar undersökande inlärning och utnyttjande av det inlärningen. |
-| Slumpmässig skog | Random Forest är en ledande maskininlärningsstrategi. I datavetenskap är det en ensemble klassificering, eller regressionsmetod, som fungerar genom att ett stort antal beslutsträd byggs utifrån besöks- och besöksattribut. Inom Target används Slumpmässig skog för att fastställa vilken erfarenhet som förväntas ha störst sannolikhet för konvertering (eller högsta intäkt per besök) för varje enskild besökare. Mer information om Slumpmässig skog i Target finns i [Slumpmässig skogsalgoritm](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
+| Slumpmässig skog | Random Forest är en ledande maskininlärningsstrategi. I datavetenskap är det en ensemble klassificering, eller regressionsmetod, som fungerar genom att ett stort antal beslutsträd byggs utifrån besöks- och besöksattribut. Inom Target används Random Forest för att fastställa vilken erfarenhet som förväntas ha störst sannolikhet för konvertering (eller högsta intäkt per besök) för varje enskild besökare. Mer information om Slumpmässig skog i Target finns i [Slumpmässig skogsalgoritm](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
 | Thompson Sampling | Målet för Thompson Sampling är att fastställa vilken upplevelse som är bäst totalt sett (icke-personaliserad), samtidigt som man minimerar&quot;kostnaden&quot; för att hitta den upplevelsen. Thompson-urvalet väljer alltid en vinnare, även om det inte finns någon statistisk skillnad mellan två upplevelser. Mer information finns i [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Så här [!UICONTROL Auto-Target] fungerar {#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -52,9 +55,9 @@ Lär dig mer om underliggande data och algoritmer [!UICONTROL Auto-Target] och A
 
 | Villkor | Detaljer |
 |--- |--- |
-| [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Målets huvudsakliga personaliseringsalgoritm som används både i [!UICONTROL Auto-Target] och i Automated Personalization är Random Forest. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Random Forest i det automatiserade personaliseringssystemet är en klassificering, eller regressionsmetod, som fungerar genom att en mängd beslutsträd byggs ut under utbildningstiden. |
-| [Överför data för målets algoritmer för personalisering](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Det finns flera sätt att mata in data för [!UICONTROL Auto-Target] och automatiserade personaliseringsmodeller. |
-| [Datainsamling för målets personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/ap-data.md) | Målets personaliseringsalgoritmer samlar automatiskt in en mängd olika data. |
+| [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Target huvudsakliga personaliseringsalgoritm som används i både [!UICONTROL Auto-Target] och Automatiserad personalisering är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Random Forest i det automatiserade personaliseringssystemet är en klassificering, eller regressionsmetod, som fungerar genom att en mängd beslutsträd byggs ut under utbildningstiden. |
+| [Överför data för Target personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Det finns flera sätt att mata in data för [!UICONTROL Auto-Target] och automatiserade personaliseringsmodeller. |
+| [Datainsamling för Target personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/ap-data.md) | Target personaliseringsalgoritmer samlar automatiskt in en mängd olika data. |
 
 ## Bestämma trafikallokering {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -76,7 +79,7 @@ I den [!UICONTROL Custom Allocation] nedrullningsbara listan kan du välja mella
 
 Om du vill justera kontrollprocenten klickar du på ikonerna i kolumnen Allokering. Du kan inte minska kontrollgruppen till mindre än 10 %.
 
-![Ändra automatiskt måltrafikallokering](/help/c-activities/assets/auto-target-control.png)
+![Ändra automatisk trafikallokering för Target](/help/c-activities/assets/auto-target-control.png)
 
 Du kan [välja en specifik upplevelse som ska användas som kontroll](/help/c-activities/t-automated-personalization/experience-as-control.md) eller så kan du använda alternativet Slumpmässig upplevelse.
 
@@ -112,13 +115,13 @@ Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto
 
 * Mer information om parametrarna som används i [!UICONTROL Auto-Target] och Automatiserad personalisering finns i [Automatiserad datainsamling](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)för personalisering.
 
-**Target använder automatiskt alla delade Experience Cloud-målgrupper för att skapa personaliseringsmodeller.**
+**Target använder automatiskt alla gemensamma målgrupper i Experience Cloud för att skapa personaliseringsmodeller.**
 
 * Du behöver inte göra något specifikt för att lägga till målgrupper i modellen. Mer information om hur du använder Experience Cloud-målgrupper med Target finns i [Experience Cloud-målgrupper](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **Marknadsförarna kan överföra offlinedata, benägenhetspoäng eller andra anpassade data för att skapa personaliseringsmodeller.**
 
-* Läs mer om hur du [överför data för Automatisk målanpassning och Automatiserad personalisering](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* Läs mer om hur du [överför data för automatisk Target och Automated Personalization](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 ## Hur skiljer sig [!UICONTROL Auto-Target] från automatiserad personalisering? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -138,15 +141,17 @@ Exempelvis [!UICONTROL Auto-Target]kan enkla reglage användas för att förstå
 **[!UICONTROL Auto-Target]har ett omfattande ramverk för onlinetestning.**
 
 * Flerarmsbanken ingår i ett större ramverk för onlinetestning, som gör det möjligt för våra datavetare och forskare att förstå fördelarna med sina kontinuerliga förbättringar i verkliga förhållanden.
-* I framtiden kommer den här testbädden att göra det möjligt för oss att öppna vår maskininlärningsplattform för våra dataskunniga kunder så att de kan ta in sina egna modeller för att förstärka Target-modellerna.
+* I framtiden kommer denna testbädd att göra det möjligt för oss att öppna vår maskininlärningsplattform för våra datatillgängliga kunder så att de kan ta in sina egna modeller för att förstärka Target modeller.
 
-## Rapportering och [!UICONTROL Auto-Target]{#section_42EE7F5E65E84F89A872FE9921917F76}
+## Rapportering och [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Mer information finns i [Automatisk målsammanfattning](../c-reports/auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) i [rapportavsnittet](../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) .
+Mer information finns i [Sammanfattningsrapport](../c-reports/auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) för automatisk Target i [rapportavsnittet](../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) .
 
-## Automatisk målanpassning av vanliga frågor {#section_5C120A2B11D14D9BAF767BBAB50FED23}
+## Vanliga frågor och svar om Auto-Target {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-**Vilka är de bästa sätten att konfigurera en[!UICONTROL Auto-Target]aktivitet?**
+Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Target] aktiviteter:
+
+### Vilka är de bästa sätten att konfigurera en [!UICONTROL Auto-Target] aktivitet?
 
 * Bestäm om affärsvärdet för ett framgångsmått för Intäkter per besök är värt de extra trafikkraven. RPV behöver vanligtvis minst 1 000 konverteringar per upplevelse för att en aktivitet ska fungera jämfört med konvertering.
 * Bestäm allokeringen mellan kontroll och personaliserade upplevelser innan du påbörjar aktiviteten utifrån era mål.
@@ -159,15 +164,15 @@ Mer information finns i [Automatisk målsammanfattning](../c-reports/auto-target
 
 * Försök att inte göra några större ändringar av upplevelserna under aktivitetens gång.
 
-**Är kryssmarkeringarna som anger att en modell har skapats för den upplevelseuppdateringen om rapportens datumintervall ändras?**
+### Är kryssmarkeringarna som anger att en modell har skapats för den upplevelseuppdateringen om rapportens datumintervall ändras?
 
 Nej, bockmarkeringar för modellgenerering visar endast de modeller som är byggda hittills. Det finns inget sätt att gå tillbaka och se när en modell är klar.
 
-**Om en besökare INTE ser aktiviteten och konverterar, räknas konverteringen i min aktivitet?[!UICONTROL Auto-Target]**
+### Om en besökare INTE ser aktiviteten och konverterar, räknas konverteringen i min aktivitet? [!UICONTROL Auto-Target]
 
 Nej, endast besökare som är kvalificerade för och visar [!UICONTROL Auto-Target] aktiviteten räknas i rapporteringen.
 
-**Min[!UICONTROL Auto-Target]aktivitet verkar inte generera något lyft. Vad är det som pågår?**
+### Min [!UICONTROL Auto-Target] aktivitet verkar inte generera något lyft. Vad är det som pågår?
 
 Det krävs fyra faktorer för att en aktivitet ska kunna generera en lyft: [!UICONTROL Auto-Target]
 
@@ -180,13 +185,13 @@ Det bästa sättet att agera är att först se till att det innehåll och de pla
 
 Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet kommer att fungera. Personalisering kan förstås fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på att erbjudandena/platserna inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
 
-**När ska jag stoppa min[!UICONTROL Auto-Target]aktivitet?**
+### När ska jag stoppa min [!UICONTROL Auto-Target] aktivitet?
 
 [!UICONTROL Auto-Target] kan användas som&quot;alltid on&quot;-personalisering som hela tiden optimeras. Särskilt för omogna innehåll finns inget behov av att stoppa din [!UICONTROL Auto-Target] aktivitet.
 
 Om du vill göra väsentliga ändringar i innehållet i din [!UICONTROL Auto-Target] aktivitet är det bästa sättet att starta en ny aktivitet så att andra användare inte förväxlar eller relaterar tidigare resultat med annat innehåll.
 
-**Hur länge ska jag vänta på att modeller ska byggas?**
+### Hur länge ska jag vänta på att modeller ska byggas?
 
 Hur lång tid det tar för modeller att bygga in din [!UICONTROL Auto-Target] aktivitet beror vanligtvis på trafiken till de valda aktivitetsplatserna och hur framgångsrik aktiviteten är.
 
@@ -195,23 +200,29 @@ Exempelvis [!UICONTROL Auto-Target]kan enkla reglage användas för att förstå
 * **När konverteringen är din framgångsfaktor:** 1 000 besök och minst 50 konverteringar per dag och upplevelse. Dessutom måste aktiviteten ha minst 7 000 besök och 350 konverteringar.
 * **När intäkt per besök är ditt framgångsmått:** 1 000 besök och minst 50 konverteringar per dag och upplevelse. Dessutom måste aktiviteten ha minst 1 000 konverteringar per upplevelse. RPV kräver vanligtvis mer data för att bygga modeller på grund av den högre datavariationen som vanligtvis finns i besöksintäkterna jämfört med konverteringsgraden.
 
-**En modell är inbyggd i min aktivitet. Är besöken till den upplevelsen personaliserade?**
+### En modell är inbyggd i min aktivitet. Är besöken till den upplevelsen personaliserade?
 
 Nej, det måste finnas minst två modeller i din aktivitet för att personaliseringen ska kunna börja.
 
-**När kan jag börja titta på resultaten av min[!UICONTROL Auto-Target]aktivitet?**
+### När kan jag börja titta på resultaten av min [!UICONTROL Auto-Target] aktivitet?
 
 Du kan börja titta på resultatet av ditt [!UICONTROL Auto-Target] test när du har minst två upplevelser med modeller byggda (grön bock) för upplevelsen som har modeller skapade.
 
-**Kan jag ange en specifik upplevelse som ska användas som kontroll?**
+### Kan jag ange en specifik upplevelse som ska användas som kontroll?
 
-Du kan välja en upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)- eller [Auto-Target](/help/c-activities/auto-target-to-optimize.md) -aktivitet (AT).
+Du kan välja en upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)- eller [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT)-aktivitet.
 
 Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen.
 
 Mer information finns i [Använda en viss upplevelse som kontroll](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
-## Felsökning [!UICONTROL Auto-Target]{#section_23995AB813F24525AF294D20A20875C8}
+### Kan jag ändra målmåttet genom en Auto-Target-aktivitet? {#change-metric}
+
+Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med [!DNL Target] användargränssnittet bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
+
+Denna rekommendation gäller för [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]och [!UICONTROL Automated Personalization] aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
+
+## Felsökning [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
 Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utmaningar du kan ställas inför när du använder [!UICONTROL Auto-Target]och några förslag på lösningar.
 
@@ -247,7 +258,7 @@ När ett konverteringsmått (vare sig optimeringsmål eller postmål) har konver
 
 Det finns till exempel en aktivitet med ett konverteringsmått (C1) och ett ytterligare mått (A1). A1 är beroende av C1. När en besökare går in i aktiviteten för första gången och villkoren för konvertering av A1 och C1 inte konverteras, konverteras inte mätvärdena A1 på grund av beroendet av framgångsmått. Om besökaren konverterar C1 och sedan konverterar A1 konverteras A1 fortfarande inte eftersom besökaren släpps när C1 konverteras.
 
-## Utbildningsvideo: Om märket ![Översikt över aktiviteter automatiskt som mål](/help/assets/overview.png)
+## Utbildningsvideo: Om ikonen ![Översikt över aktiviteter automatiskt i Target](/help/assets/overview.png)
 
 I den här videon förklaras hur du konfigurerar en [!UICONTROL Auto-Target] A/B-aktivitet.
 
