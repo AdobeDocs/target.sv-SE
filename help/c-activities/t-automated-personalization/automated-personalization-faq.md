@@ -4,7 +4,10 @@ description: Lista med vanliga frågor och svar om Automated Personalization (AP
 title: Vanliga frågor om automatiserad personalisering
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1757'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ Lista med vanliga frågor och svar om Automated Personalization (AP).
 
 ## Kan jag ange en specifik upplevelse som ska användas som kontroll?
 
-Du kan välja en upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)- eller [Auto-Target](/help/c-activities/auto-target-to-optimize.md) -aktivitet (AT).
+Du kan välja en upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)- eller [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT)-aktivitet.
 
 Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen.
 
@@ -27,7 +30,7 @@ Det finns inget körklart alternativ för att jämföra AP med en standardupplev
 
 ## Vilka är de bästa sätten att skapa en automatiserad personaliseringsaktivitet? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Om du vill anpassa en sida med låg trafik eller vill göra strukturella ändringar av den upplevelse du personaliserar bör du överväga att använda Automatiskt mål i stället för Automatiserad personalisering. Se [Automatisk målning för personaliserade upplevelser](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+* Om du vill personalisera en sida med låg trafik, eller vill göra strukturella ändringar av den upplevelse du personaliserar, bör du överväga att använda Auto-Target istället för Automatiserad personalisering. Se [Automatisk-Target för personaliserade upplevelser](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 * Överväg att slutföra en A/B-aktivitet mellan de erbjudanden och platser som du planerar att använda i din automatiserade personaliseringsaktivitet för att säkerställa att platserna och erbjudandena påverkar optimeringsmålet. Om en A/B-aktivitet inte uppvisar någon större skillnad kommer Automated Personalization troligen inte heller att generera någon lyft.
 
    * Om ett A/B...N-test inte visar några statistiskt signifikanta skillnader mellan upplevelserna, är det troligt att de erbjudanden du överväger inte skiljer sig tillräckligt mycket från varandra, påverkar de valda platserna inte framgångsmätningen eller så är optimeringsmålet för långt i konverteringstratten för att påverkas av dina valda erbjudanden.
@@ -50,11 +53,11 @@ Det finns inget körklart alternativ för att jämföra AP med en standardupplev
 
 ## Vilka begränsningar finns det för automatiserad personalisering? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Target har en hård gräns på 30 000 upplevelser, men fungerar som bäst när färre än 10 000 upplevelser skapas.
+Target har en hård begränsning på 30 000 upplevelser, men fungerar som bäst när det skapas färre än 10 000 upplevelser.
 
 ## Hur implementeras målinriktning på erbjudandenivå? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
-När varje besökare anländer bestäms de möjliga erbjudandena som besökaren kan se av reglerna för målinriktning på erbjudandenivå. Algoritmen väljer sedan det erbjudande som modellen förutser ska ha den bästa förväntade intäkten eller möjligheten till konvertering bland dessa erbjudanden. Observera att målgruppsanpassning påverkar effekten av Target maskininlärningsalgoritmer och därför bör användas så sparsamt som möjligt.
+När varje besökare anländer bestäms de möjliga erbjudandena som besökaren kan se av reglerna för målinriktning på erbjudandenivå. Algoritmen väljer sedan det erbjudande som modellen förutser ska ha den bästa förväntade intäkten eller möjligheten till konvertering bland dessa erbjudanden. Observera att målgruppsanpassning påverkar effektiviteten i Target maskininlärningsalgoritmer och därför bör användas så sparsamt som möjligt.
 
 ## Min aktivitet lyfter inte. Vad är det som pågår? {#section_BFA07C8C258F45318F73A461B8F32737}
 
@@ -103,3 +106,9 @@ Granska din aktivitetskonfiguration och se om det finns några ändringar du vil
 ## Varför ser besökarna upplevelser för en AP-aktivitet som de inte ska se? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 Automatiserade personaliseringsaktiviteter utvärderas en gång per session. Om det finns aktiva sessioner som har kvalificerat sig för en viss upplevelse och nu har nya erbjudanden lagts till, kommer användarna att se det nya innehållet tillsammans med tidigare erbjudanden. Eftersom de tidigare har kvalificerat sig för de här upplevelserna skulle de fortfarande se dem under hela sessionen. Om du vill utvärdera detta vid varje sidbesök bör du byta till aktivitetstypen Experience Targeting (XT).
+
+## Kan jag ändra målmåttet på mellanvägen genom en automatiserad personaliseringsaktivitet? {#change-metric}
+
+Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med [!DNL Target] användargränssnittet bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
+
+Denna rekommendation gäller för [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]och [!UICONTROL Automated Personalization] aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
