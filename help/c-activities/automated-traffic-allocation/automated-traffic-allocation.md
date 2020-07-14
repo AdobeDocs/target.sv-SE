@@ -5,9 +5,9 @@ title: Automatisk allokering
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3102'
 ht-degree: 0%
 
 ---
@@ -127,55 +127,63 @@ Dessa kan skeva resultaten i ett autofördelningstest mer än i ett A/B-test eft
 
 ## Vanliga frågor {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-** Har Analytics för Target (A4T) stöd för automatisk fördelning av aktiviteter?
+Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Allocate] aktiviteter:
+
+### Har Analytics för Target (A4T) stöd för automatisk fördelning av aktiviteter?
 
 Ja. Mer information finns i Stöd för [Analytics for Target (A4T) för automatisk fördelning av aktiviteter](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) när *aktiviteter skapas*.
 
-**Omfördelas återkommande besökare automatiskt till högpresterande upplevelser?**
+### Omfördelas återkommande besökare automatiskt till högpresterande upplevelser?
 
 Nej. Endast nya besökare tilldelas automatiskt. Återkommande besökare ser sin ursprungliga upplevelse. Detta skyddar A/B-testets giltighet.
 
-**Hur behandlar algoritmen falska positiv?**
+### Hur behandlar algoritmen falska positiv?
 
 Algoritmen garanterar 95 % konfidensgrad eller 5 % falskt positiv frekvens om du väntar tills vinnarmärket visas.
 
-**När börjar den automatiska fördelningen av trafik?**
+### När börjar den automatiska fördelningen av trafik?
 
 Algoritmen börjar fungera efter att alla upplevelser i aktiviteten har minst 1 000 besökare och 50 konverteringar.
 
-**Hur aggressivt utnyttjar algoritmen?**
+### Hur aggressivt utnyttjar algoritmen?
 
 80 % av trafiken betjänas med autotilldelning och 20 % av trafiken betjänas slumpmässigt. När en vinnare har identifierats hamnar alla 80 % av trafiken på den, medan alla upplevelser fortsätter att få viss trafik som en del av 20 %, inklusive den vinnande upplevelsen.
 
-**Visas förlorade upplevelser överhuvudtaget?**
+### Visas förlorade upplevelser överhuvudtaget?
 
 Ja. Den multiväpnade banken ser till att minst 20 % av trafiken reserveras för att utforska förändrade mönster eller konverteringsgrader för alla upplevelser.
 
-**Vad händer med aktiviteter med långa konverteringsförseningar?**
+### Vad händer med aktiviteter med långa konverteringsförseningar?
 
 Så länge alla upplevelser som optimeras har liknande fördröjningar är beteendet detsamma som en aktivitet med snabbare konverteringscykel, även om det tar längre tid att nå tröskelvärdet på 50 konverteringar innan trafikallokeringsprocessen börjar.
 
-**Hur skiljer sig Automatisk fördelning från Automatisk personalisering?**
+### Hur skiljer sig Automatisk fördelning från Automatisk personalisering?
 
 Automatiserad personalisering använder varje besökares profilattribut för att fastställa den bästa upplevelsen. På så sätt optimeras inte bara aktiviteten, utan även personaliseras för användaren.
 
 Auto-Allocate är å andra sidan ett A/B-test som skapar en sammanställd vinnare (den mest populära upplevelsen, men inte nödvändigtvis den mest effektiva upplevelsen för varje besökare).
 
-**Ökar återkommande besökare konverteringsgraden på min framgångsstatistik?**
+### Ökar återkommande besökare konverteringsgraden på min framgångsstatistik?
 
 För närvarande är logiken en fördel för besökare som snabbt konverterar eller besöker oftare. Detta beror på att besökarna tillfälligt ökar den totala konverteringsgraden för den upplevelse de tillhör. Algoritmen justerar sig ofta, så ökningen av konverteringsgraden förstärks vid varje ögonblicksbild. Om webbplatsen får många besökare kan deras konverteringar öka den totala konverteringsgraden för den upplevelse de tillhör. Det finns en bra möjlighet att återkommande besökare fördelas slumpmässigt, och i så fall jämnas den sammanlagda effekten (ökad lyft) ut. Om du vill minska den här effekten bör du överväga att ändra beräkningsmetoden för framgångsmåttet så att endast en gång per deltagare räknas.
 
-**Kan jag använda beräkningsverktyget för provstorlek när jag använder Automatisk allokering för att beräkna hur lång tid aktiviteten tar för att identifiera vinnaren?**
+### Kan jag använda beräkningsverktyget för provstorlek när jag använder Automatisk allokering för att beräkna hur lång tid aktiviteten tar för att identifiera vinnaren?
 
 Du kan använda den befintliga [beräknaren](https://docs.adobe.com/content/target-microsite/testcalculator.html) för exempelstorlek för att få en uppskattning av hur länge testet kommer att köras. (Precis som vid traditionell A/B-testning ska du tillämpa Bonferroni-korrigering om du testar fler än två erbjudanden eller mer än ett konverteringsmått/-hypotes.) Observera att den här räknaren är utformad för traditionell A/B-testning med fast horisont och endast ger en uppskattning. Det är valfritt att använda beräkningsverktyget för en autoallokeringsaktivitet eftersom autoallokering deklarerar en vinnare åt dig - du behöver inte välja en fast tidpunkt för att kunna se testresultaten - de angivna värdena är alltid statistiskt giltiga. I våra experiment har vi hittat följande:
 * När du testar exakt två upplevelser hittar Automatisk tilldelning en vinnare snabbare än en testning med fast horisont (d.v.s. den tidsram som anges av beräknaren för samplingsstorlek) när prestandaskalskillnaden mellan upplevelserna är stor, men det kan kräva extra tid för att identifiera en vinnare när prestandaskalskillnaden mellan upplevelserna är liten. I dessa fall skulle tester med fast horisont normalt ha avslutats utan ett statistiskt signifikant resultat.
 * När du testar mer än två upplevelser hittar Automatisk tilldelning en vinnare snabbare än vid fasta tidsperioder (d.v.s. den tidsram som anges av beräknaren för provstorlek) när en upplevelse är helt perfekt för alla andra upplevelser. När två eller flera upplevelser båda&quot;vinner&quot; jämfört med andra upplevelser men är nära sammankopplade med varandra, kan Automatisk tilldelning kräva extra tid för att avgöra vilken som är bäst. I dessa fall skulle tester med fast horisont normalt ha avslutats genom att dra slutsatsen att de&quot;vinnande&quot; upplevelserna var bättre än de lågpresterande upplevelserna, men inte ha identifierat vilken som var bäst.
 
-**Bör jag ta bort en underpresterande upplevelse från en autoallokeringsaktivitet för att snabba upp processen att fastställa en vinnare?**
+### Bör jag ta bort en underpresterande upplevelse från en autoallokeringsaktivitet för att snabba upp processen att fastställa en vinnare?
 
 Det finns ingen anledning att ta bort en underpresterande upplevelse. Automatisk allokering ger automatiskt bättre prestanda och ger sämre prestanda. Att lämna en underpresterande upplevelse i aktiviteten påverkar inte i någon större utsträckning hastigheten för att avgöra en vinnare.
 
 20 % av besökarna är slumpmässigt tilldelade till alla upplevelser. Mängden trafik som ger en underpresterande upplevelse är minimal (20 % dividerat med antalet upplevelser).
+
+### Kan jag ändra målmåttet genom en autoallokeringsaktivitet? {#change-metric}
+
+Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med [!DNL Target] användargränssnittet bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
+
+Denna rekommendation gäller för [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]och [!UICONTROL Automated Personalization] aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
 
 ## Utbildningsvideor {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
