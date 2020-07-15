@@ -5,9 +5,9 @@ user-guide-title: Hjälp om Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
          + [Google Chrome SameSite cookie-principer](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [CSP-direktiv (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Tillåt kantnoder i Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Tillåtelselista Target kantnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metoder för att hämta data till Target {#methods}
          + [Metoder](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-inställningar](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -202,6 +202,7 @@ ht-degree: 0%
    + Automatisk allokering {#auto-allocate}
       + [Automatisk allokering](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Automatisk allokering ger snabbare testresultat och högre intäkter än ett manuellt test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Auto-Target](c-activities/auto-target-to-optimize.md)
    + Automatiserad personalisering {#automated-personalization}
       + [Översikt över automatisk personalisering](c-activities/t-automated-personalization/automated-personalization.md)
