@@ -5,9 +5,9 @@ title: Automatisk allokering
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3124'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,10 @@ När en [!UICONTROL Auto-Allocate] aktivitet har aktiverats tillåts inte följa
 * Växla läget&quot;Trafikallokering&quot; till&quot;Manuell&quot;
 * Ändra målmåttstyp
 * Ändra alternativ på panelen Avancerade inställningar
+
+## Se hur Automatisk allokering fungerar
+
+Mer information finns i [Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
 
 ## Caveats {#section_5C83F89F85C14FD181930AA420435E1D}
 
