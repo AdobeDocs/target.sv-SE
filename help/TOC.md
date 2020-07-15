@@ -5,9 +5,9 @@ user-guide-title: Hjälp om Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: f2cd428fa16bd1a6b3c677f862f163bd8b66ef41
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -202,7 +202,7 @@ ht-degree: 0%
    + Automatisk allokering {#auto-allocate}
       + [Automatisk allokering](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Automatisk allokering ger snabbare testresultat och högre intäkter än ett manuellt test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Auto-Target](c-activities/auto-target-to-optimize.md)
    + Automatiserad personalisering {#automated-personalization}
       + [Översikt över automatisk personalisering](c-activities/t-automated-personalization/automated-personalization.md)
