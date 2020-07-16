@@ -1,44 +1,41 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
-description: Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
+description: Adobe Target är Adobe Experience Cloud-lösningen som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 title: Introduktion till Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+workflow-type: tm+mt
+source-wordcount: '959'
+ht-degree: 0%
 
 ---
 
 
 # Introduktion till Target{#introduction-to-target}
 
-Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
-
-I följande videofilmer får du en grundläggande förståelse för hur Target, tillsammans med andra Adobe Experience Cloud-lösningar, kan hjälpa din organisation att uppnå sina mål:
-
->[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
-
->[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
+Adobe Target är Adobe Experience Cloud-lösningen som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 
 Lösningen innehåller flera [!DNL Adobe Target] komponenter:
 
 | Komponent | Beskrivning |
 |--- |--- |
-| Målstandard | Innehåller ett visuellt gränssnitt för att skapa och hantera A/B-tester och regelbaserade målinriktningsaktiviteter. |
-| Mål Premium | Lägger till premiumfunktioner i Target Standard-gränssnittet. |
+| Target Standard | Innehåller ett visuellt gränssnitt för att skapa och hantera A/B-tester och regelbaserade målinriktningsaktiviteter. |
+| Target Premium | Lägger till premiumfunktioner i Target Standardens gränssnitt. |
 | Klassiska rekommendationer | Visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter på din webbplats. |
 
-## Målstandard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] är en startpunkt för [!DNL Adobe Target] att hjälpa er att visuellt skapa och hantera A/B-tester och regelbaserade målinriktningsaktiviteter, och koppla samman med Adobe Experience Cloud. [!DNL Target Standard] har stöd för anpassad kodinfogning både i och utanför arbetsflödet för [!UICONTROL Visual Experience Composer] . [!DNL Target Standard] erbjuder en förenklad implementeringsstrategi med digitala resurser: bara en enda kodrad på varje sida hanterar all kommunikation som krävs mellan webbplatsen och [!DNL Adobe Target].
+[!DNL Target Standard] är en startpunkt för [!DNL Adobe Target] att hjälpa er att visuellt skapa och hantera A/B-tester och regelbaserade målinriktningsaktiviteter, och koppla samman med Adobe Experience Cloud. [!DNL Target Standard] har stöd för anpassad kodinfogning både i och utanför [!UICONTROL Visual Experience Composer] arbetsflödet. [!DNL Target Standard] erbjuder en förenklad implementeringsstrategi med digitala resurser: bara en enda kodrad på varje sida hanterar all kommunikation som krävs mellan webbplatsen och [!DNL Adobe Target].
 
 De bästa metoderna för branschen är inbyggda [!DNL Target Standard]i och har utformats för att användas av både nya och erfarna användare. Ni kan dela data och resultat och enkelt samarbeta med andra teammedlemmar som använder [!DNL Adobe Experience Cloud].
 
-## Mål Premium {#premium}
+## Target Premium {#premium}
 
 [!DNL Target Premium] är en avancerad [!DNL Target] licens som ger [!DNL Target Standard]extra premiumfunktioner.
 
-Exempel på målpremiumavsnitt i den här hjälpen är Premium-märket överst på sidan:
+Target Premium innehåller ett Premium-märke högst upp på sidan:
 
 ![Premium-märke](/help/assets/premium.png)
 
@@ -48,13 +45,13 @@ Target Premium innehåller följande premiumfunktioner:
 
 [Automatiserad personalisering](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ger avancerade algoritmer för maskininlärning för att skapa personaliserade upplevelser och förbättrade konverteringsgrader för digitala upplevelser.
 
-Automatiserad personalisering (tidigare Test&amp;Target 1:1) registrerar besökaraktivitet på webbplatsen och skapar en profil för besökare så att innehållet kan riktas till liknande besökare. Den spårar svaren på innehåll, både för enskilda personer och för hela befolkningen, och använder sedan avancerade modelleringsmetoder för att automatiskt rikta sig till varje individ genom att redovisa allt som är känt om besökaren.
+Automatiserad personalisering (tidigare Test&amp;Target 1:1) registrerar besökaraktivitet på webbplatsen och skapar en profil över besökare så att innehåll kan riktas till liknande besökare. Den spårar svaren på innehåll, både för enskilda personer och för hela befolkningen, och använder sedan avancerade modelleringsmetoder för att automatiskt rikta sig till varje individ genom att redovisa allt som är känt om besökaren.
 
 Automatiserad personalisering lär sig på egen hand och kräver minsta möjliga mänskliga analys. Helt automatiserat lär man sig kontinuerligt. Systemet bygger modeller och lär sig automatiskt vilka produkter en enskild besökare är mest intresserad av. Varje gång en besökare interagerar med webbplatsen samlas information in och lagras i besökarprofilen. Det finns flera tillgängliga algoritmer som ger den bästa modellen för ditt system.
 
-### Automatiskt mål
+### Auto-Target
 
-[Automatisk målgruppsanpassning för personaliserade upplevelser](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest anpassade upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.
+[Automatisk Target för personaliserade upplevelser](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest anpassade upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.
 
 ### Rekommendationer
 
@@ -76,14 +73,14 @@ En rekommendation avgör hur en produkt föreslås till en kund, beroende på ku
 
 ### Rekommendationer som ett erbjudande
 
-[Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) gör att du kan inkludera rekommendationer i [!UICONTROL A/B-tester] (inklusive [!UICONTROL Automatisk allokering] och [!UICONTROL Automatiskt mål]) och [!UICONTROL Experience Targeting] -aktiviteter (XT).
+[Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) gör att du kan inkludera rekommendationer i aktiviteter [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT).
 
 Den här funktionen öppnar upp helt nya funktioner, som:
 
 * Testa och målinrikta rekommendationer och innehåll som inte är rekommendationer inom samma aktivitet.
 * Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning olika rekommendationer ska ges.
-* Använd Automatisk [!UICONTROL allokering]för att automatiskt få ut trafik till de bästa rekommendationsupplevelserna.
-* Tilldela besökare dynamiskt anpassade rekommendationer baserat på deras profil med hjälp av [!UICONTROL Automatisk målgruppsanpassning].
+* Skicka automatiskt trafik till den bästa rekommenderade upplevelsen med [!UICONTROL Auto-Allocate].
+* Tilldela besökare dynamiskt skräddarsydda rekommendationer baserat på deras profil med [!UICONTROL Auto-Target].
 
 ### Enterprise-användarbehörigheter
 
@@ -103,7 +100,7 @@ Bygg ett optimerings- och personaliseringsprogram på Adobe Target med detta vä
 
 ## Utbildningsvideo: Aktivitetstyper (9:03) ![Översikt](/help/assets/overview.png)
 
-I följande video förklaras vilka aktivitetstyper som är tillgängliga i [!DNL Target Standard/Premium] och hur du kan uppnå webbplatsmålen med Target trestegsguidade arbetsflöde.
+I följande video förklaras vilka aktivitetstyper som är tillgängliga i [!DNL Target Standard/Premium] och hur Target trestegsguidade arbetsflöde kan hjälpa dig att uppnå dina webbplatsmål.
 
 * Beskriv de typer av aktiviteter som ingår i Adobe Target
 * Välj lämplig aktivitetstyp för att uppnå dina mål
