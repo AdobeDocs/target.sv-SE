@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 17 juli | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Coffee Break från 22 juli har lagts till. |
 | 15 juli | [Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Nytt ämne. |
 | 14 juli | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[Automatisk Target](/help/c-activities/auto-target-to-optimize.md)<br><br>[och Automatiserad personalisering - frågor och svar](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Vanliga frågor och svar har lagts till som rekommenderar att du inte ska ändra målmåttet genom en aktivitet. |
 | 7 juli | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Ytterligare information om 8 Adobe Target Coffee Break. |
@@ -42,10 +43,10 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 15 juni | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 | 8 juni | [Vanliga frågor om Target för mobilappar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile endast en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om den 10 juni Adobe Target Coffee Break har lagts till. |
