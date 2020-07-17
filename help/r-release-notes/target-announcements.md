@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Target-meddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,15 @@ ht-degree: 0%
 # Target notiser och event
 
 Information om kommande evenemang, inklusive Target SKill Builder-sessioner, utvecklarchatt, webbinarier och Target Coffee Break-sessioner.
+
+## Adobe Target Community Coffee Break with Jon Tehero
+
+* **10.00 till 11.00 (PST)**
+* **onsdagen den 22 juli 2020**
+
+Jon Tehero, Group Product Manager for Digital Experience, kommer tillsammans med oss, som kommer att logga in i Adobe Target Community för att chatta direkt med dig för att besvara dina brännande Adobe Target frågor som rör hans expertområden.
+
+[Anmäl dig till Adobe Target Community](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/).
 
 ## Adobe Target Swledge Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
