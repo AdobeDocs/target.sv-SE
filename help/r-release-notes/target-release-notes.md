@@ -5,7 +5,7 @@ title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
+source-git-commit: 26447c745cf56f3e04ad477bc05446e5d8ab76c1
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 13 juli 2020**
+**Senast uppdaterad: 22 juli 2020**
 
 Information om den aktuella versionen finns i [Target Versionsinformation](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -35,7 +35,7 @@ Information om den aktuella versionen finns i [Target Versionsinformation](relea
 * **Target-meddelanden**: På Target webbplats för information om kommande evenemang, som sessioner med Target SKill Builder, chats för utvecklare, webbinarier och Target Coffee Break. Mer information finns i [Target-meddelanden](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.7.1 (21 juli 2020)
+## Target Standard/Premium 20.7.1 (22 juli 2020)
 
 Den här versionen innehåller följande förbättringar:
 
