@@ -5,7 +5,7 @@ title: Visuell Experience Composer - bästa praxis och begränsningar
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 0%
@@ -31,13 +31,13 @@ Placera mbox.js i slutet av `<head>` avsnittet utan ytterligare deklarationer. I
 
 **Du kan aktivera Förbättrad Experience Composer på kontonivå (aktiverat för alla aktiviteter som skapas i kontot) eller på den enskilda aktivitetsnivån.**
 
-Om du vill aktivera Förbättrad Experience Composer på kontonivån klickar du på [!UICONTROL Setup > Preferences]och växlar sedan till På-position.
+Om du vill aktivera Förbättrad Experience Composer på kontonivån klickar du på [!UICONTROL Administration > Visual Experience Composer]och växlar sedan till På-position.
 
 Om du vill aktivera Förbättrad Experience Composer på aktivitetsnivå när du skapar en aktivitet i Visual Experience Composer klickar du på [!UICONTROL Configure > URL]och växlar sedan till På-position.
 
-**Du kan tillåta vissa IP-adresser om Förbättrad Visual Experience Composer inte läses in på säkra sidor på din webbplats.**
+**Du kan tillåtslista vissa IP-adresser om Förbättrad Visual Experience Composer inte läses in på säkra sidor på din webbplats.**
 
-Problem med att läsa in den utökade Visual Experience Composer kan åtgärdas genom att följande IP-adresser tillåts. De här IP-adresserna är till för Adobes server och används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på platsen behöver inte dessa tillåtna IP-adresser.
+Problem med att läsa in den utökade Visual Experience Composer kan lösas genom att du tillåtslista följande IP-adresser. De här IP-adresserna är till för Adobes server och används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på webbplatsen behöver inte tillåtelselistad IP-adresser.
 
 USA: 52.55.99.45, 54.80.158.92 och 54.204.197.253
 
@@ -49,7 +49,7 @@ Asien-Stillahavsområdet (APAC): 52.193.67.35, 54.199.198.109 och 54.199.241.57
 
 Allt som finns omedelbart inuti body-elementet ska ha ett unikt ID. Om nya element infogas i brödtexten och koden flyttas runt, är det lättare att identifiera åtminstone de överordnade elementen.
 
-Adobe Target kräver inga ID:n, men med ID:n blir upplevelserna som skapas med upplevelsedispositionen tillförlitligare. Target använder CSS-väljare för att ändra innehållet när upplevelsen levereras. När du redigerar en upplevelse fäster Visual Experience Composer väljaren till det närmaste överordnade objektet med ett id-attribut som inte är null till det HTML-element som ändras. Därför är det inte tillrådligt att använda någon mekanism, inklusive JavaScript-bibliotek, som ställer in eller ändrar HTML ID-attribut. Dessa ID:n kan vara tillgängliga för Target Experience Composer för att skapa aktiviteter, men om JavaScript ändrar ID:n är det ID som användes när upplevelsen skapades kanske inte tillgängligt när upplevelsen körs. Om ett ID inte är tillgängligt misslyckas väljaren som är förankrad till ID:t.
+Adobe Target behöver inga ID, men om du använder ID:n blir upplevelserna som skapas med upplevelsedispositionen tillförlitligare. Target använder CSS-väljare för att ändra innehållet när upplevelsen levereras. När du redigerar en upplevelse fäster Visual Experience Composer väljaren till det närmaste överordnade objektet med ett id-attribut som inte är null till det HTML-element som ändras. Därför är det inte tillrådligt att använda någon mekanism, inklusive JavaScript-bibliotek, som ställer in eller ändrar HTML ID-attribut. Även om dessa ID:n kan vara tillgängliga för Target Experience Composer för att skapa aktiviteter kan ID:n som användes när upplevelsen skapades inte vara tillgängliga när upplevelsen körs om JavaScript ändrar ID:n. Om ett ID inte är tillgängligt misslyckas väljaren som är förankrad till ID:t.
 
 **Namnge CSS-klasser så att de är lätta att identifiera.**
 
@@ -253,7 +253,7 @@ Om du byter ut en bild i ett mbox-element och sedan försöker ändra storlek p�
 
 **När du har bytt ut en bild kan du inte välja åtgärden Redigera.**
 
-När du har bytt bild kan du inte redigera Scene7-webbadressen.
+När du har bytt bild kan du inte redigera Scene7-URL:en.
 
 **HTML-element med extern källa kan inte redigeras.**
 
