@@ -1,34 +1,37 @@
 ---
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
-description: Med Visual Experience Composer (VEC) för Single Page Apps (SPA) i Adobe Target kan marknadsförare skapa tester och personalisera innehåll i SPA på ett sätt som gör det möjligt för dig utan kontinuerliga utvecklingsberoenden. VEC kan användas för att skapa aktiviteter på de vanligaste ramverken, som React och Angular.
+description: Med Visual Experience Composer (VEC) för Single Page Apps (SPA) i Adobe Target kan marknadsförare skapa tester och personalisera innehåll på SPA på ett sätt som gör det möjligt för dig utan kontinuerliga utvecklingsberoenden. VEC kan användas för att skapa aktiviteter på de vanligaste ramverken, som React och Angular.
 title: Visual Experience Composer för Single Page App (SPA)
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3648'
+ht-degree: 0%
 
 ---
 
 
 # Visual Experience Composer för Single Page App (SPA) {#single-page-app-spa-visual-experience-composer}
 
-Dessutom [!DNL Adobe Target]ger [!UICONTROL Visual Experience Composer] (VEC) marknadsförarna möjlighet att skapa aktiviteter och personalisera upplevelser som kan levereras dynamiskt på traditionella flersidiga program via Adobe Target globala mbox. Detta är dock beroende av att du hämtar erbjudanden vid sidinläsning eller efterföljande serveranrop, vilket introducerar fördröjning, vilket visas i diagrammet nedan. Detta arbetssätt fungerar inte så bra med SPA (Single Page Applications) eftersom det försämrar användarupplevelsen och programmets prestanda.
+Dessutom [!DNL Adobe Target]ger [!UICONTROL Visual Experience Composer] (VEC) marknadsförarna möjlighet att skapa aktiviteter och personalisera upplevelser som kan levereras dynamiskt på traditionella flersidiga program via Adobe Target global mbox. Detta är dock beroende av att du hämtar erbjudanden vid sidinläsning eller efterföljande serveranrop, vilket introducerar fördröjning, vilket visas i diagrammet nedan. Detta arbetssätt fungerar inte så bra med SPA (Single Page Applications) eftersom det försämrar användarupplevelsen och programmets prestanda.
 
 ![Traditionell livscykel jämfört med SPA-livscykel](/help/c-experiences/assets/trad-vs-spa.png)
 
 I den senaste versionen presenterar vi nu VEC för SPA. Med VEC for SPA kan marknadsförarna skapa tester och personalisera innehåll på SPA på ett sätt som gör det själv utan kontinuerliga utvecklingsberoenden. VEC kan användas för att skapa [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter på populära ramverk som React och Angular.
 
-## Adobe Target Views and Single Page Applications
+## Adobe Target-vyer och Single Page-program
 
-Adobe Target VEC for SPAs utnyttjar det nya konceptet Views: en logisk grupp visuella element som tillsammans utgör en SPA-upplevelse. En SPA kan därför betraktas som en övergång genom vyer i stället för URL-adresser, baserat på användarinteraktioner. En vy kan vanligtvis representera en hel plats eller grupperade visuella element inom en plats.
+Adobe Target VEC för SPA utnyttjar det nya konceptet Views: en logisk grupp visuella element som tillsammans utgör en SPA-upplevelse. En SPA kan därför betraktas som en övergång genom vyer i stället för URL-adresser, baserat på användarinteraktioner. En vy kan vanligtvis representera en hel plats eller grupperade visuella element inom en plats.
 
 Om du vill förklara vad Vyer är kan du navigera på den hypotetiska e-handelsplatsen som implementeras i React och utforska några exempel på Vyer. Klicka på länkarna nedan för att öppna den här webbplatsen på en ny webbläsarflik.
 
-**Länk:[Hemsida](https://target.enablementadobe.com/react/demo/#/)**
+**Länk:[Hemwebbplats](https://target.enablementadobe.com/react/demo/#/)**
 
 ![hemsida](/help/c-experiences/assets/home.png)
 
-När vi navigerar till hemsidan ser vi omedelbart en hjältebild som främjar en påskförsäljning samt de senaste produkterna som säljer på webbplatsen. I det här fallet kan en vy definieras som hela hemsidan. Detta är praktiskt att notera eftersom vi kommer att gå vidare med detta i avsnittet Implementera Adobe Target-vyer nedan.
+När vi navigerar till hemsidan ser vi omedelbart en hjältebild som främjar en påskförsäljning samt de senaste produkterna som säljer på webbplatsen. I det här fallet kan en vy definieras som hela hemsidan. Detta är praktiskt att notera eftersom vi kommer att gå vidare med detta i avsnittet om Vyer i Adobe Target som ska implementeras nedan.
 
 **Länk:[Produktwebbplats](https://target.enablementadobe.com/react/demo/#/products)**
 
@@ -56,17 +59,17 @@ Nu kanske marknadsförarna vill köra ett A/B-test för att se om en ändring av
 
 ## Implementera Adobe Target-vyer
 
-Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i Target för att göra det möjligt för marknadsförare att köra A/B- och XT-tester på SPA-program via VEC. Detta kräver en engångsinstallation av utvecklare. Låt oss gå igenom stegen för att konfigurera detta.
+Nu när vi har gått igenom vad Adobe Target Views är kan vi utnyttja detta koncept i Target för att göra det möjligt för marknadsförare att köra A/B- och XT-tester på SPA-program via VEC. Detta kräver en engångsinstallation av utvecklare. Låt oss gå igenom stegen för att konfigurera detta.
 
 1. Installera på .js 2.x.
 
-   Först måste vi installera på .js 2.x. Den här versionen av at.js utvecklades med SPA i åtanke. Tidigare versioner av at.js och mbox.js har inte stöd för Adobe Target Views och VEC for SPA.
+   Först måste vi installera på .js 2.x. Den här versionen av at.js utvecklades med SPA i åtanke. Tidigare versioner av at.js och mbox.js har inte stöd för Adobe Target-vyer och VEC för SPA.
 
    ![Dialogrutan Implementeringsinformation](/help/c-experiences/assets/imp-200.png)
 
-   Ladda ned at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Setup > Implementation]. at.js 2.x kan också distribueras via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
+   Ladda ned at.js 2.x via användargränssnittet för Adobe Target i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tilläggen för Adobe Target är dock för närvarande inte aktuella och stöds inte.
 
-1. Implementera funktionen at.js 2.x: trigger [View()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) på dina platser.
+1. Implementera funktionen at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) på dina platser.
 
    När du har definierat vyerna för SPA där du vill köra ett A/B- eller XT-test implementerar du funktionen at.js 2.x med vyerna som skickas som en parameter. `triggerView()` Detta gör att marknadsförarna kan använda VEC för att utforma och köra A/B- och XT-tester för de vyer som definierats. Om `triggerView()` funktionen inte är definierad för dessa vyer kommer VEC inte att identifiera vyerna och marknadsförarna kan därför inte använda VEC för att utforma och köra A/B- och XT-tester.
 
@@ -80,7 +83,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    Nu ska vi gå igenom några exempel på hur funktionen i React för vår hypotetiska SPA för e-handel kan anropas: `triggerView()`
 
-   **Länk:[Hemsida](https://target.enablementadobe.com/react/demo/#/)**
+   **Länk:[Hemwebbplats](https://target.enablementadobe.com/react/demo/#/)**
 
    ![hemreaktion-1](/help/c-experiences/assets/react1.png)
 
@@ -111,7 +114,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Länk:[Produkter](https://target.enablementadobe.com/react/demo/#/products)**
+   **Länk:[Produktwebbplats](https://target.enablementadobe.com/react/demo/#/products)**
 
    Nu ska vi titta på ett exempel som är lite mer komplicerat. Som marknadsförare vill vi personalisera produktraden genom att ändra prisetikettens färg till röd efter att en användare klickat på knappen Läs in mer.
 
@@ -314,19 +317,19 @@ Med andra ord har at.js 2.x stöd för ett sätt att hämta vyer, åtgärder och
 
 Ja, at.js 2.x stöder A4T för SPA via `triggerView()` funktionen eftersom du har implementerat Adobe Analytics och Experience Cloud Visitor ID Service. Se diagrammet nedan med stegvisa beskrivningar.
 
-![Målflöde](/help/c-experiences/assets/atjs-spa-flow.png)
+![Target Flow](/help/c-experiences/assets/atjs-spa-flow.png)
 
 | Steg | Beskrivning |
 | --- | --- |
 | 1 | `triggerView()` anropas i SPA för att återge en vy och använda åtgärder för att ändra visuella element som är kopplade till vyn. |
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
-| 4 | En meddelandebegäran skickas till målprofilsarkivet för att räkna besökaren i aktiviteten och ökningsvärdena. |
-| 5 | Analysdata skickas till datainsamlingsservrar. |
-| 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
+| 4 | En meddelandebegäran skickas till Target Profile Store för att räkna besökaren i aktiviteten och öka mätvärdena. |
+| 5 | Analytics-data skickas till datainsamlingsservrar. |
+| 6 | Target data matchas mot Analytics-data via SDID och bearbetas till Analytics rapporteringslager. Analytics data kan sedan visas i både Analytics och Target via A4T-rapporter. |
 
 >[!NOTE]
->Om du inte vill skicka meddelanden till Adobe Analytics för att göra avläsningar varje gång en vy aktiveras, skickar du `{page: false}` till `triggerView()` funktionen så att avtrycksräkningen inte ökar när en vy aktiveras flera gånger för en komponent som återges kontinuerligt. Exempel:
+>Om du inte vill skicka meddelanden till Adobe Analytics för att göra avtrycksräkning varje gång en vy aktiveras, skickar du `{page: false}` till `triggerView()` funktionen så att avtrycksräkning inte ökar när en vy aktiveras flera gånger för en komponent som återges kontinuerligt. Exempel:
 >
 >`adobe.target.triggerView(“PRODUCTS-PAGE-2”, {page:false})`
 
@@ -339,20 +342,20 @@ Ja, at.js 2.x stöder A4T för SPA via `triggerView()` funktionen eftersom du ha
 | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja |
 | [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) | Ja |
 | [Multivariata tester](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Nej |
-| [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) | Nej |
+| [Auto-Target](/help/c-activities/auto-target-to-optimize.md) | Nej |
 | [Automatiserad personalisering](/help/c-activities/t-automated-personalization/automated-personalization.md) | Nej |
 | [Rekommendationer](/help/c-recommendations/recommendations.md) | Nej |
 
-**Om vi installerade på .js 2.x och implementerade`triggerView()`på våra webbplatser, hur kör vi A/B-aktiviteter med Automatiskt mål eftersom SPA VEC inte stöder Auto-Target?**
+**Om vi installerade på .js 2.x och implementerade`triggerView()`på våra webbplatser, hur kör vi automatiska Target A/B-aktiviteter eftersom SPA VEC inte stöder Auto-Target?**
 
-Om du vill använda A/B-aktiviteter som mål automatiskt kan du flytta alla åtgärder som ska köras vid sidinläsningshändelse i VEC. Håll muspekaren över varje åtgärd och klicka på [!UICONTROL Move to Page Load Event] knappen. När du har gjort det kan du i nästa steg välja Automatiskt mål som metod för trafikallokering.
+Om du vill använda automatiska Target A/B-aktiviteter kan du flytta alla åtgärder som ska köras vid sidinläsningshändelse i VEC. Håll muspekaren över varje åtgärd och klicka på [!UICONTROL Move to Page Load Event] knappen. När du har gjort det kan du i nästa steg välja Auto-Target som trafikallokeringsmetod.
 
 ## Integrationer som stöds
 
 | Integrering | Stöds? |
 | --- | --- |
-| [Analyser för mål (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
-| [Experience Cloud-målgrupper](/help/c-integrating-target-with-mac/mmp.md) | Ja |
+| [Analytics för Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
+| [Experience Cloud målgrupper](/help/c-integrating-target-with-mac/mmp.md) | Ja |
 | [Kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ja |
 | [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
@@ -370,13 +373,13 @@ Om du vill använda A/B-aktiviteter som mål automatiskt kan du flytta alla åtg
 
 ## Inställningar för sidleverans för SPA VEC {#page-delivery-settings}
 
-[!UICONTROL Page Delivery] Med inställningar kan du konfigurera regler för att avgöra när en Target-aktivitet ska kvalificera sig och köras för en målgrupp.
+[!UICONTROL Page Delivery] gör att du kan konfigurera regler för att avgöra när en Target-aktivitet ska kvalificera sig och köras för en viss målgrupp.
 
 Om du vill få tillgång till [!UICONTROL Page Delivery] alternativen i VEC:s tredelade guidade arbetsflöde för att skapa aktiviteter går du från **[!UICONTROL Experiences]** steget till **[!UICONTROL Configure]** (kugghjulsikonen) > **[!UICONTROL Page Delivery]**.
 
 ![Dialogrutan Alternativ för sidleverans](/help/c-experiences/assets/page-delivery.png)
 
-Som definieras av [!UICONTROL Page Delivery] inställningarna ovan kvalificerar och körs en Target-aktivitet när en besökare når direkt på `https://www.adobe.com` eller *när en besökare når en URL som innehåller* `https://www.adobe.com/products`. Detta fungerar perfekt för alla flersidiga program där varje interaktion med sidan anropar en sidomladdning, där at.js hämtar de aktiviteter som är kvalificerade för den URL som användaren navigerar till.
+En Target-aktivitet kvalificerar och körs t.ex. enligt inställningarna [!UICONTROL Page Delivery] ovan när en besökare kommer direkt till `https://www.adobe.com` eller *när en besökare kommer till en URL som innehåller* `https://www.adobe.com/products`. Detta fungerar perfekt för alla flersidiga program där varje interaktion med sidan anropar en sidomladdning, där at.js hämtar de aktiviteter som är kvalificerade för den URL som användaren navigerar till.
 
 Eftersom SPA-program fungerar på olika sätt måste dock [!UICONTROL Page Delivery] inställningarna konfigureras på ett sätt som gör att alla åtgärder kan tillämpas på vyerna enligt definitionen i SPA VEC-aktiviteten.
 
@@ -395,9 +398,9 @@ Med exemplet ovan i åtanke, vad som händer när vi konfigurerar [!UICONTROL Pa
 
 ![Dialogrutan Sidleverans](/help/c-experiences/assets/spa-page-delivery.png)
 
-Följande bild visar begäran om målflöde - sidinläsning i at.js 2.*x*:
+Följande bild visar Target Flow - Page Load-begäran i at.js 2.*x*:
 
-![Målflöde - begäran om sidinläsning at.js 2.0](/help/c-experiences/assets/page-load-request.png)
+![Target Flow - at.js 2.0 page Load Request](/help/c-experiences/assets/page-load-request.png)
 
 **Användarresa nr 1**
 
