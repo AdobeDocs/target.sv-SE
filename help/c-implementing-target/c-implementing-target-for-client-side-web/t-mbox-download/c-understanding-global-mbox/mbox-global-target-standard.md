@@ -1,19 +1,22 @@
 ---
 keywords: global mbox;target classic;use global mbox from target classic
-description: Som standard skapar Target Standard en global mbox med namnet target-global-mbox, som används för att köra aktiviteter som skapats i Target Standard. Om du redan har skapat en global mbox på sidorna för dina tidigare implementeringar kan du använda den mbox-filen för dina Target Standard-aktiviteter.
+description: Som standard skapas en global mbox med namnet target-global-mbox, som används för att köra aktiviteter som skapas i Target Standard. Om du redan har skapat en global mbox på dina sidor för dina tidigare implementeringar kan du använda den mbox för dina Target Standarder.
 title: Använd en global mbox från en äldre implementering
 subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 0%
 
 ---
 
 
 # Använd en global mbox från en äldre implementering{#use-a-global-mbox-from-a-legacy-implementation}
 
-Som standard skapar Target Standard en global mbox med namnet target-global-mbox, som används för att köra aktiviteter som skapats i Target Standard. Om du redan har skapat en global mbox på sidorna för dina tidigare implementeringar kan du använda den mbox-filen för dina Target Standard-aktiviteter.
+Som standard skapas en global mbox med namnet target-global-mbox, som används för att köra aktiviteter som skapas i Target Standard. Om du redan har skapat en global mbox på dina sidor för dina tidigare implementeringar kan du använda den mbox för dina Target Standarder.
 
 >[!NOTE]
 >
@@ -21,7 +24,7 @@ Som standard skapar Target Standard en global mbox med namnet target-global-mbox
 
 Om du vill använda din befintliga globala mbox för både [!DNL Target Standard] och den gamla implementeringen måste du ange några parametrar.
 
-1. Gå till [!DNL Target Standard]och klicka sedan på **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
+1. Gå till [!DNL Target Standard]och klicka sedan på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    Som standard [!UICONTROL Auto Create Global Mbox] är aktiverad och den anpassade globala mbox namnges `target-global-mbox`.
 1. Om du vill använda en befintlig mbox inaktiverar du [!UICONTROL Auto Create Global Mbox]och anger namnet på en tidigare skapad global mbox i [!UICONTROL Custom Global Mbox] fältet.
@@ -33,8 +36,8 @@ Om du vill använda din befintliga globala mbox för både [!DNL Target Standard
 1. Hämta den nya filen mbox.js och referera till den på din webbplats.
 
    När du har uppdaterat din produktionsplats med den nya filen mbox.js är du redo att ange dina inställningar.
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
-1. I [!UICONTROL Custom Global Mbox] fältet anger du namnet på den globala mbox du valde på sidan Implementering.
+1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. I [!UICONTROL Global Mbox] fältet anger du namnet på den globala mbox du valde på sidan Implementering.
 1. Klicka på **[!UICONTROL Submit]**.
 
    Alla befintliga aktiviteter uppdateras till att använda den angivna globala mbox, inklusive aktiviteter som tidigare har skapats och implementerats.
