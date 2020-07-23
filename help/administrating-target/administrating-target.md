@@ -6,21 +6,17 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
 
-# Administrera Target{#administer-target}
+# Administrera Target - översikt{#administer-target}
 
 Information som kan hjälpa dig att administrera [!DNL Adobe Target], inklusive konfigurationsinställningar för Visual Experience Composer (VEC), rapportering, konfiguration av Scene7, implementering, värdar, miljöer, svarstoken och användare.
-
->[!NOTE]
->
->Ämnena i det här avsnittet, som listas nedan, har uppdaterats för att ge dig en smygtopp vid de användargränssnittsändringar som kommer i version [!DNL Target Standard/Premium] 20.6.1 (juli 2020). Den mesta av informationen som presenteras i dessa ämnen gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Om du vill komma åt [!UICONTROL Administration] menyalternativen klickar du **[!UICONTROL Administration]** i den övre menyraden och sedan på den önskade fliken till vänster:
 
