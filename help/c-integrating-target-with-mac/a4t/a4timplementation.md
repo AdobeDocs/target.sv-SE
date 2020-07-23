@@ -1,10 +1,10 @@
 ---
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Flera steg krävs när Adobe Analytics implementeras som rapportkälla för Target (A4T).
-title: Analyser för Target-implementering
+title: Implementering av Analytics för Target
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Analyser för Target-implementering{#analytics-for-target-implementation}
+# Implementering av Analytics för Target{#analytics-for-target-implementation}
 
 Flera steg krävs när du implementerar [!DNL Adobe Analytics] som rapportkälla för [!DNL Target] (A4T).
 
@@ -30,17 +30,17 @@ Kraven för användarkontot måste uppfyllas innan du kan skapa en [!DNL Analyti
 
 ## Steg 3: Implementera tjänsten Experience Cloud Visitor ID
 
-Med besökar-ID-tjänsten kan du identifiera användare i olika [!DNL Adobe Experience Cloud] lösningar. Du måste implementera eller migrera till den version av Experience Cloud Visitor ID som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Med besökar-ID-tjänsten kan du identifiera användare i olika [!DNL Adobe Experience Cloud] lösningar. Du måste implementera eller migrera till den version av Experience Cloud Visitor-ID som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Se [Implementera Experience Cloud ID-tjänsten för mål](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) i dokumentationen för *Experience Cloud Visitor ID-tjänsten* .
+Se [Implementera Experience Cloud ID-tjänsten för Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) i dokumentationen för *Experience Cloud Visitor ID-tjänsten* .
 
 ## Steg 4: Uppdatera AppMeasurement för JavaScript eller s_code
 
 Du måste implementera eller migrera till den version av appMeasurement.js som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Information om nya implementeringar finns i Översikt över [JavaScript-implementering](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) i *Analytics-implementeringshandboken*.
+Information om nya implementeringar finns i Översikt över [JavaScript-implementering](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) i *Analytics Implementeringshandbok*.
 
-Information om en migrering finns i [Migrera till AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) i *Analytics-implementeringshandboken*.
+Information om migrering finns i [Migrera till AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) i *Analytics Implementeringshandbok*.
 
 ## Steg 5: Ladda ned och uppdatera på .js eller mbox.js
 
@@ -171,7 +171,7 @@ Vi rekommenderar att du tar bort den tidigare integreringen för att förenkla i
 
 ## Steg 10: Aktivera alternativen för att använda Analytics som rapportkälla för Target
 
-I [!DNL Target]klickar du på **[!UICONTROL Setup > Preferences]** och väljer antingen **[!UICONTROL Select per activity]** eller **[!UICONTROL Adobe Analytics]** för att aktivera alternativen.
+I [!DNL Target]klickar du på **[!UICONTROL Administation > Visual Experience Composer]** och väljer antingen **[!UICONTROL Select per activity]** eller **[!UICONTROL Adobe Analytics]** för att aktivera alternativen.
 
 * **[!UICONTROL Select per activity]** gör att du kan välja mellan [!DNL Target] och [!DNL Analytics] när du skapar varje aktivitet.
 * **[!UICONTROL Adobe Analytics]** anger [!DNL Analytics] som rapportkälla för alla aktiviteter som du skapar.
