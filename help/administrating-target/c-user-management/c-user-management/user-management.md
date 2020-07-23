@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 # Användare{#users}
 
 Du kan lägga till användare och hantera deras behörigheter i [!DNL Adobe Admin Console].
-
->[!NOTE]
->
->Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 >[!NOTE]
 >
@@ -95,7 +91,7 @@ Systemadministratörsanvändare måste lägga till användare i systemet. Använ
 
    ![Standardarbetsyta](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-   På [!UICONTROL Users] fliken visas alla användare på arbetsytan.
+   På [!UICONTROL Users] fliken visas alla användare på den arbetsytan.
 
    ![konfigurationsanvändare](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
@@ -121,5 +117,9 @@ Utbildningsmål:
    * Lägga till användare i arbetsytor
    * Lägga till egenskaper i arbetsytor
 * Förstå standardarbetsytor
+
+>[!NOTE]
+>
+>Gränssnittet för [!DNL Target][!UICONTROL Administration] menyer (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
