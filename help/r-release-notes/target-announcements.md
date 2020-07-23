@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Target-meddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -14,16 +14,30 @@ ht-degree: 0%
 
 # Target notiser och event
 
-Information om kommande evenemang, inklusive Target SKill Builder-sessioner, utvecklarchatt, webbinarier och Target Coffee Break-sessioner.
+Kommentarer och information om kommande evenemang, inklusive Target SKill Builder-sessioner, utvecklarchatt, webbinarier och Target Coffee Break-sessioner.
 
-## Adobe Target Community Coffee Break with Jon Tehero
+## Adobe har återigen utnämnts till ledare i Gartner Magic Quadrant for Personalization Engines
 
-* **10.00 till 11.00 (PST)**
-* **onsdagen den 22 juli 2020**
+Adobe utsågs ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra. [Läs om det på Adobes blogg](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
-Jon Tehero, Group Product Manager for Digital Experience, kommer tillsammans med oss, som kommer att logga in i Adobe Target Community för att chatta direkt med dig för att besvara dina brännande Adobe Target frågor som rör hans expertområden.
+## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
-[Anmäl dig till Adobe Target Community](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/).
+* **08:00 - 09:00. (PDT)**
+* **Torsdag 6 augusti 2020**
+
+McKinsey Digital rapporterar att&quot;vi har vunnit fem år framåt när det gäller digital användning inom konsumenter och företag på ungefär åtta veckor.&quot; *
+
+Kundernas krav utvecklas snabbt, och HSBC har anammat optimering med Adobe Target för att snabbt testa och personalisera nya kundresor, vilket minskar utvecklingen och lanseringarna från sex månader till en vecka!
+
+Gå med i Adobe och HSBC på vårt webbinarium och lär dig mer om:
+
+* Hur HSBC:s optimerings- och personaliseringssatsningar snabbar upp förändringar i organisationen
+* Hur AI och Analytics snabbar upp sina satsningar och ger tydliga, betydande effekter för verksamheten
+* Hur HSBC har byggt upp ett framgångsrikt program i stor skala med 3 000+ aktiviteter
+
+[Anmäl dig till det här](https://hsbc-targetai.experienceleague.adobeevents.com/)spännande webbseminariet.
+
+*McKinsey-artikel: &quot;[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, maj 2020
 
 ## Adobe Target Swledge Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
