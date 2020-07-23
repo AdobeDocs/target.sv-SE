@@ -4,7 +4,7 @@ description: Visningsproblem kan ibland uppstå i Visual Experience Composer (VE
 title: Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
 
-## Stöder Target iframes på flera nivåer?
+## Har Target stöd för iframes på flera nivåer?
 
-Målet stöder inte iframes på flera nivåer. Om webbplatsen läser in en iframe som har en underordnad iframe, samverkar Target-biblioteken (at.js och mbox.js) endast med den överordnade iframe-instansen. Målbiblioteken samverkar inte med den underordnade iframe-instansen.
+Target stöder inte iframes på flera nivåer. Om webbplatsen läser in en iframe som har en underordnad iframe, samverkar Target-bibliotek (at.js och mbox.js) endast med den överordnade iframe-instansen. Target-bibliotek interagerar inte med den underordnade iframe-instansen.
 
 Som en tillfällig lösning kan du lägga till en sida i upplevelsen med URL:en för den underordnade iframe-instansen.
 
@@ -67,7 +67,7 @@ Om samma DOM-element-ID används för flera element på sidan ändras alla eleme
 
 ## Jag kan inte redigera upplevelser för en iFrame-busting-sajt. (VEC och EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Problemet kan åtgärdas genom att du aktiverar Förbättrad Experience Composer. Klicka **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** och markera sedan kryssrutan som aktiverar Förbättrad Experience Composer. Förbättrad Experience Composer använder en Adobe-hanterad proxy för att läsa in sidan för redigering. Det gör att du kan redigera på iFrame-busting-webbplatser och redigera på webbplatser och sidor där du ännu inte har lagt till Adobe Target-kod. Aktiviteterna levererar inte till webbplatsen förrän koden har lagts till. Vissa webbplatser kanske inte läses in via Förbättrad Experience Composer. I så fall kan du avmarkera det här alternativet för att läsa in Visual Experience Composer via en iFrame. []
+Problemet kan åtgärdas genom att du aktiverar Förbättrad Experience Composer. Klicka **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** och markera sedan kryssrutan som aktiverar Förbättrad Experience Composer. Förbättrad Experience Composer använder en Adobe-hanterad proxy för att läsa in sidan för redigering. Detta gör att du kan redigera på iFrame-busting-webbplatser och redigera på webbplatser och sidor där du ännu inte har lagt till Adobe Target-kod. Aktiviteterna levererar inte till webbplatsen förrän koden har lagts till. Vissa webbplatser kanske inte läses in via Förbättrad Experience Composer. I så fall kan du avmarkera det här alternativet för att läsa in Visual Experience Composer via en iFrame. []
 
 >[!NOTE]
 >
