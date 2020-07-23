@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
@@ -24,14 +27,15 @@ Använd Aktivitetsinställningar för att hantera mål, prioritet och varaktighe
 
    Prioriteten används om flera aktiviteter tilldelas till samma plats med samma målgrupp. Om två eller flera aktiviteter har tilldelats platsen visas aktiviteten med den högsta prioriteten.
 
-   Om det här alternativet inte är aktiverat i [!UICONTROL Setup] (standard) anger du en prioritet: Låg, Medel eller Hög.
+   Om det här alternativet inte är aktiverat i [!UICONTROL Administration] > [!UICONTROL Reporting] (standardvärdet) anger du en prioritet: Låg, Medel eller Hög.
 
-   Om du vill aktivera finkorniga prioriteringar klickar du på [!UICONTROL Setup]och växlar sedan [!UICONTROL Enable Fine-Grained Priorities] alternativet till läget &quot;På&quot;.
+   Om du vill aktivera finkorniga prioriteringar klickar du [!UICONTROL Administration] > [!UICONTROL Reporting]och växlar sedan [!UICONTROL Enable Fine-Grained Priorities] alternativet till läget &quot;På&quot;.
 
    Om det här alternativet är aktiverat anger du ett värde mellan 0 och 999:
 
    * 0 = Låg
    * 999 = Hög
+
    För aktiviteter som skapats i tidigare versioner av [!DNL Target Standard/Premium]konverteras låg prioritet till 0, Medel konverteras till 5 och Hög konverteras till 10. Du kan justera dessa värden om det behövs.
 
    >[!NOTE]
