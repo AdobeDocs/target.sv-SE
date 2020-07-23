@@ -4,7 +4,10 @@ description: Information som hjälper dig att ange flera inställningar på sida
 title: Konfigurera mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 2%
 
 ---
 
@@ -23,17 +26,17 @@ Följande inställningar är tillgängliga:
 
 Klientkoden för ditt konto.
 
-När du visar [!UICONTROL Setup > Implementation > Edit Mbox.js Settings]den visas klientkoden högst upp för ditt konto.
+När du visar [!UICONTROL Administration > Implementation]den visas klientkoden högst upp för ditt konto.
 
 ## Timeout
 
-Timeout för målbegäran.
+Timeout för Target-begäran.
 
-Vid visning [!UICONTROL Setup > Implementation > Edit Mbox.js Settings]är Timeout efter komprimeringsnivå tidsgränsen för målbegäran. Som standard är det här värdet 15 sekunder, men vi rekommenderar att du anger ett värde mellan 2 sekunder och 5 sekunder.
+Vid visning [!UICONTROL Administration > Implementation]är timeout-inställningen (sekunder) tidsgränsen för din Target-begäran. Som standard är det här värdet 15 sekunder, men vi rekommenderar att du anger ett värde mellan 2 sekunder och 5 sekunder.
 
 ## XDomain
 
-Avgör om webbläsaren ställer in cookies i din egen domän (cookies från första part), målets domän eller både och.
+Avgör om webbläsaren ställer in cookies i din egen domän (cookies från första part), Target domän eller både och.
 
 Om du ändrar den här inställningen påverkas både mbox.js och at.js.
 
@@ -80,9 +83,9 @@ Inkluderar eventuellt ytterligare JavaScript som du vill köra på varje sida.
 
 Aktiverar plugin-programmet Analytics Target.
 
-Om det här alternativet är aktiverat genererar Analytics-plugin-programmet plugin-kod i mbox.js. Detta skickar Analytics-tagginformation till Target-servrar som en mbox-begäran på varje sida som taggas med Analytics.
+Om det här alternativet är aktiverat genereras plugin-programkod i mbox.js i Analytics. Detta skickar tagginformation från Analytics till Target-servrar som en mbox-begäran på varje sida som taggas med Analytics.
 
-Observera att plugin-programmet Analytics fortfarande måste refereras till på sidan.
+Observera att plugin-programmet för Analytics fortfarande måste refereras till på sidan.
 
 ## secureOnly
 
