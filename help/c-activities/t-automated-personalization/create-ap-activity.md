@@ -5,7 +5,10 @@ title: Skapa en automatiserad personaliseringsaktivitet
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Arbetsflödet för automatiserad personaliseringsaktivitet skiljer sig från arbetsflödet för de andra aktivitetstyperna.
 
-1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]** i listan Standardaktiviteter för mål.
+1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]** i listan Target Standarder.
 
    ![Skapa aktivitet: Automatiserad personalisering](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
@@ -32,7 +35,7 @@ Arbetsflödet för automatiserad personaliseringsaktivitet skiljer sig från arb
    >
    >Alternativet [!UICONTROL Choose Workplace] i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.]
 
-1. (Villkorligt) Om du är en Target Premium-kund [väljer du en arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Villkorligt) Om du använder Target Premium [väljer du en arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Verifiera eller ange aktivitets-URL:en och klicka sedan på **[!UICONTROL Next]**.
 
@@ -101,9 +104,9 @@ Arbetsflödet för automatiserad personaliseringsaktivitet skiljer sig från arb
 
    ![Alternativ för rapportgrupp](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
 
-   Det är viktigt att förstå att rapportgrupper påverkar hur Target bygger sina modeller. Därför rekommenderar vi att du bara använder rapporteringsgrupper om du tänker ersätta eller lägga till nya erbjudanden medan aktiviteten är aktiv. Om ett nytt erbjudande införs i en liveaktivitet kan man genom att lägga in det nya erbjudandet i en grupp med befintliga liknande erbjudanden använda de data som redan samlats in för de andra erbjudandena i gruppen för att lära sig mer om det nya erbjudandet. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp.
+   Det är viktigt att förstå att rapporteringsgrupperna påverkar hur Target bygger sina modeller. Därför rekommenderar vi att du bara använder rapporteringsgrupper om du tänker ersätta eller lägga till nya erbjudanden medan aktiviteten är aktiv. Om ett nytt erbjudande införs i en liveaktivitet kan man genom att lägga in det nya erbjudandet i en grupp med befintliga liknande erbjudanden använda de data som redan samlats in för de andra erbjudandena i gruppen för att lära sig mer om det nya erbjudandet. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp.
 
-   Mer information om att rikta ett erbjudande till specifika målgrupper finns i [Target AP Offers](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+   Mer information om att rikta ett erbjudande till specifika målgrupper finns i [Target AP-erbjudanden](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 1. (Villkorligt) Klicka **[!UICONTROL Exclusion Groups]** för att välja de kombinationer av element som du vill utesluta från aktiviteten.
 
@@ -117,7 +120,7 @@ Arbetsflödet för automatiserad personaliseringsaktivitet skiljer sig från arb
 
 1. Klicka **[!UICONTROL Done]** när du är klar med inställningarna för aktiviteten.
 
-1. Steget **Målinriktning** ser bekant ut om du har använt andra typer av Target-aktiviteter. Här kan du välja en målgrupp och ange hur många besökare som ska se kontrollupplevelsen genom att klicka på **[!UICONTROL Custom Allocation]** listrutan och sedan klicka på **Nästa**.
+1. Steget **Riktning** ser bekant ut om du har använt andra aktivitetstyper hos Target. Här kan du välja en målgrupp och ange hur många besökare som ska se kontrollupplevelsen genom att klicka på **[!UICONTROL Custom Allocation]** listrutan och sedan klicka på **Nästa**.
 
    I den [!UICONTROL Custom Allocation] nedrullningsbara listan kan du välja mellan följande alternativ:
 
@@ -144,7 +147,7 @@ Arbetsflödet för automatiserad personaliseringsaktivitet skiljer sig från arb
    |--- |--- |
    | Namn | Namnge aktiviteten. Ge aktiviteten ett namn som är tillräckligt beskrivande för att teammedlemmarna ska kunna känna igen den i aktivitetslistan.  Läs igenom tabellen ovan för att se vilka tecken som inte tillåts i ett aktivitetsnamn. |
    | Syfte | (Valfritt) Ange målet för provningen. Målet hjälper dig att komma ihåg syftet med aktiviteten. |
-   | Prioritet | Beroende på dina inställningar varierar gränssnittet och alternativen för prioritet. Du kan använda de äldre inställningarna Låg, Medel eller Hög, eller aktivera finkorniga prioriteringar mellan 0 och 999.<br>Prioriteten används om flera aktiviteter tilldelas till samma plats med samma målgrupp. Om två eller flera aktiviteter har tilldelats platsen visas aktiviteten med den högsta prioriteten.<br>Om det här alternativet inte är aktiverat i installationsprogrammet (standardinställningen) anger du en prioritet: Låg, Medel eller Hög.<br>Om du vill aktivera finkorniga prioriteringar klickar du på [!UICONTROL Setup]och växlar sedan [!UICONTROL Enable Fine-Grained Priorities] alternativet till läget &quot;På&quot;.<br>Om det här alternativet är aktiverat anger du ett värde mellan 0 och 999:<ul><li>0 = Låg</li><li>999 = Hög</li></ul>För aktiviteter som skapats i tidigare versioner av Target Standard/Premium konverteras låg prioritet till 0, Medel konverteras till 5 och Hög konverteras till 10. Du kan justera dessa värden om det behövs.<br>**Obs **: Innan du kan inaktivera det här alternativet efter att ha använt finkorniga prickar måste alla prioriteter återställas till 0, 5 och 10. |
+   | Prioritet | Beroende på dina inställningar varierar gränssnittet och alternativen för prioritet. Du kan använda de äldre inställningarna Låg, Medel eller Hög, eller aktivera finkorniga prioriteringar mellan 0 och 999.<br>Prioriteten används om flera aktiviteter tilldelas till samma plats med samma målgrupp. Om två eller flera aktiviteter har tilldelats platsen visas aktiviteten med den högsta prioriteten.<br>Om det här alternativet inte är aktiverat i [!UICONTROL Administration] > [!UICONTROL Reporting] (standardvärdet) anger du en prioritet: Låg, Medel eller Hög.<br>Om du vill aktivera finkorniga prioriteringar klickar du [!UICONTROL Administration] > [!UICONTROL Reporting]och växlar sedan [!UICONTROL Enable Fine-Grained Priorities] alternativet till läget &quot;På&quot;.<br>Om det här alternativet är aktiverat anger du ett värde mellan 0 och 999:<ul><li>0 = Låg</li><li>999 = Hög</li></ul>För aktiviteter som skapats i tidigare versioner av Target Standard/Premium konverteras låg prioritet till 0, Medel konverteras till 5 och Hög konverteras till 10. Du kan justera dessa värden om det behövs.<br>**Obs **: Innan du kan inaktivera det här alternativet efter att ha använt finkorniga prickar måste alla prioriteter återställas till 0, 5 och 10. |
    | Varaktighet | Ange start- och slutdatum för aktiviteten. |
    | Optimeringsmål | Ange optimeringsmålet, som består av två parametrar:<ul><li>Vad du vill mäta med aktiviteten</li><li>En deltagares åtgärd som visar att målet har uppnåtts.</li></ul>Du kan välja att namnge optimeringsmålet genom att markera de tre punkterna till höger om Mitt primära mål. Automatiserade personaliseringsaktiviteter kan mäta konvertering, RPV och AOV. Du kan konvertera genom att visa en sida eller en mbox. Klickningar kan också spåras.<br>Det primära målet blir också det modelleringsmått som används av modelleringssystemet för att beräkna hur framgångsrik upplevelsen är.<br>Besökare kan behållas i aktiviteten för spårningsändamål när modelleringsmålet har uppnåtts. En Automatiserad personaliseringsaktivitet används till exempel ofta för att förbättra klickfrekvensen, och detta anges som modelleringsmål. Men det är viktigt att se hur ökade klickfrekvenser leder till slutgiltig konvertering, så att det är viktigt att spåra genom den slutliga konverteringen.<br>Du kan ange beroende av flera mätvärden tillsammans med flexibiliteten att välja om mätvärdet ska nås eller inte för att antalet ska öka.<br>Du måste definiera båda (eller flera) framgångsmått innan du kan göra en beroende av en annan.<br>Alternativet Lägg till beroende gör att framgångsmåttet ökar om ett annat framgångsmått har nåtts eller inte har nåtts.<br>Så här lägger du till ett beroende:<ol><li>När du har lagt till ytterligare mätvärden klickar du [!UICONTROL Advanced Settings] under menyn med tre punkter till höger om Ytterligare mål.</li><li>Klicka på [!UICONTROL Add Dependency] alternativet längst ned i [!UICONTROL Reporting Settings] avsnittet.</li><li>Dra och släpp önskade mätvärden från den vänstra rutan till den högra rutan och klicka sedan på [!UICONTROL Reached] för att växla mellan [!UICONTROL Reached] och [!UICONTROL Not Reached]</li></ol>Du kan redigera eller ta bort beroenden när du har lagt till dem. |
    | Konverteringsmått | Som standard är konverteringsmåttet samma som optimeringsmålmåttet. Du kan dock definiera ett separat konverteringsmått genom att avmarkera [!UICONTROL Same as Optimization Goal] alternativet. |
