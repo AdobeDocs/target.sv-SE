@@ -5,9 +5,9 @@ title: Enterprise-användarbehörigheter
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2975'
+source-wordcount: '3027'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan se om din organisation har en Standard- eller Premium-licens genom att kl
 
 * **[!DNL Target Standard]Kunder **: Om du ser[!UICONTROL Users]fliken ([!UICONTROL Adminitration > Users]) (och inte[!UICONTROL Properties]fliken) har din organisation en[!DNL Target Standard]licens.[!DNL Target Standard]-användare ska följa instruktionerna i[Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md)för att lägga till användare och tilldela behörigheter i[!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Kunder **: Om du ser[!UICONTROL Properties]fliken ([!UICONTROL Setup > Properties]) och[!UICONTROL Users]fliken har din organisation en[!DNL Target Premium]licens.[!DNL Target Premium]ska kunderna följa instruktionerna i den här artikeln och i[Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Kunder **: Om du ser[!UICONTROL Properties]fliken ([!UICONTROL Administration > Properties]) och[!UICONTROL Users]fliken har din organisation en[!DNL Target Premium]licens.[!DNL Target Premium]ska kunderna följa instruktionerna i den här artikeln och i[Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Innan du börjar använda företagsbehörigheter
 
@@ -199,7 +199,7 @@ Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target] anvä
 
 * **Målgrupper:** När du skapar en ny målgrupp skapas den i den markerade arbetsytan.
 * **Skapa erbjudande:** När du skapar ett nytt erbjudande skapas det i den valda arbetsytan.
-* **Sidan Egenskaper (Inställningar > Egenskaper):** Du kan använda rutan [!UICONTROL Search] för att söka i [!UICONTROL Property] listan.
+* **Sidan Egenskaper (Administration > Egenskaper):** Du kan använda rutan [!UICONTROL Search] för att söka i [!UICONTROL Property] listan.
 
    ![](assets/properties_list.png)
 
@@ -244,6 +244,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
    * Aktiviteter, målgrupper, koderbjudanden, bilderbjudanden eller andra resurser som skapats med följande lösningar eller metoder kan inte styras av modellen Enterprise Permissions, men kommer att ingå i standardarbetsytan: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services och resurser som skapats via API. Resurser som skapas via API omfattar aktiviteter, målgrupper, koderbjudanden och bilderbjudanden).
    * Bilderbjudanden (resurser som lagras under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kan för närvarande inte styras av Enterprise Permissions-modellen.
    * clickTracking and redirects fungerar bara när mållänken eller målsidan är en del av en egenskap som ingår i aktiviteten. ClickTracking fungerar kanske inte heller när `targetPageParams()` funktionen används. Det `targetPageParamsAll()` är den rekommenderade funktionen.
+
    [!DNL Target] kräver för närvarande att det finns en `at_property` token på alla sidor där spårning sker. Om variabeln (1) inte finns, (2) inte identifieras vid tidpunkten för aktivitetsinställningen (i VEC) eller (3) inte skickas till clickTracking Target-anropet via `targetPageParamsAll()` funktionen, ökas inte mätvärdet och visas som &quot;0&quot;.
 
    Detsamma gäller för aktiviteter som använder omdirigeringar. Målsidan måste ha en `at_property` token och identifieras när konfigurationen görs i VEC.
@@ -302,5 +303,9 @@ Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som le
 * Skapa egenskaper
 * Lägga till användare
 * Uppdaterar implementering
+
+>[!NOTE]
+>
+>Gränssnittet för [!DNL Target][!UICONTROL Administration] menyer (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
