@@ -5,9 +5,9 @@ title: Implementera Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ Innan du börjar använda [!DNL Adobe Target]bör du implementera den på din we
 Mer information finns i de olika avsnitten under [Implementera Target](/help/c-implementing-target/implementing-target.md).
 
 Information om inställningarna på den här sidan finns på [Implementera Target utan tagghanterare](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
-
->[!NOTE]
->
->Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 >[!NOTE]
 >
