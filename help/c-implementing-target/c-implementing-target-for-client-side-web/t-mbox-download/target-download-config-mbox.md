@@ -1,23 +1,26 @@
 ---
 keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
-description: Target Standard och Premium använder en modifierad version av Adobe Target-filen mbox.js.
+description: Target Standard och Premium använder en modifierad version av filen Adobe Target mbox.js.
 title: Ladda ned mbox.js
 subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 0%
 
 ---
 
 
 # Ladda ned mbox.js{#download-mbox-js}
 
-Target Standard och Premium använder en modifierad version av Adobe Target-filen mbox.js.
+Target Standard och Premium använder en modifierad version av filen Adobe Target mbox.js.
 
 Om du vill använda [!DNL Adobe Target][!UICONTROL Visual Experience Editor]måste du inkludera ytterligare en rad JavaScript som en del av [!DNL mbox.js] filen.
 
-1. Klicka **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** i [!DNL Target Standard].
+1. Klicka **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** i [!DNL Target Standard].
 1. Klicka **[!UICONTROL Download mbox.js]** och följ anvisningarna för att spara filen.
 1. (Villkorligt) Om du använder [!DNL mbox.js] version 60 eller senare kan du konfigurera biblioteket så att sidinnehållet automatiskt döljs som standard tills rutor läses in för att minska flimret på responsiva webbplatser.
 
