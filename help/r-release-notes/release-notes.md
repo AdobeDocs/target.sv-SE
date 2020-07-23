@@ -5,9 +5,9 @@ title: 'Versionsinformation för Adobe Target (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,12 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 
 Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
+
+## .js 2.3.2 (24 juli 2020)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande korrigering:
+
+* Korrigerade ett fel när ett skript eller en kod lägger till standardegenskap i fönstret eller dokumentet.
 
 ## Target Standard/Premium 20.7.1 (27 juli 2020)
 
