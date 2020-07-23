@@ -1,11 +1,14 @@
 ---
 keywords: targetPageParams;targetpageparams;pageParams;pageparams;page params;page parameters;at.js;functions;function
-description: Information om funktionen targetPageParams() för JavaScript-biblioteket at.js i Adobe Target.
-title: Information om funktionen targetPageParams() för JavaScript-biblioteket at.js i Adobe Target.
+description: Information om funktionen targetPageParams() för JavaScript-biblioteket Adobe Target at.js.
+title: Information om funktionen targetPageParams() för JavaScript-biblioteket Adobe Target at.js.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Med den här metoden kan du bifoga parametrar till den globala mbox utanför begärandekoden.
 
-Den här funktionen är mycket användbar om du vill ta med samma uppsättning parametrar för flera mbox-anrop. Funktionen måste definieras av kunden. Den ska returnera en array med parametrar som bara skickas till den globala mbox-begäran. Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Den här funktionen är mycket användbar om du vill ta med samma uppsättning parametrar för flera mbox-anrop. Funktionen måste definieras av kunden. Den ska returnera en array med parametrar som bara skickas till den globala mbox-begäran. Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
 
 Du kan skicka in parametrar till target-global-mbox med hjälp av `targetPageParams()` funktionen på något av följande sätt:
 
