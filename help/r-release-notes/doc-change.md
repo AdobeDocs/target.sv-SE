@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,15 @@ ht-degree: 0%
 # Dokumentationsändringar{#documentation-changes}
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumentationen.
+
+## Adobe Target Standard/Premium 20.7.1 (27 juli 2020)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 27 juli | [Administrera Target](/help/administrating-target/administrating-target.md) | Uppdaterad text i alla länkade ämnen på den här sidan för att återspegla de nya gränssnittsändringarna för [!UICONTROL Administration] sidorna. |
+|  | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Gör följande ändringar: <ul><li>Lagt till registreringsinformation för följande webbinarium: &quot;Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala.&quot;</li><li>Lagt till information om att Adobe återigen har utsetts till ledare i Gartners Magic Quadrant for Personalization Engines.</li></ul> |
+|  | [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) | Tydligare information i steg 4: Välj en plats. |
+|  | [Versionsinformation](/help/r-release-notes/release-notes.md): 20.7.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe Target Standard/Premium 20.5.1 (17 juni 2020)
 
@@ -43,10 +52,10 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 15 juni | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 | 8 juni | [Vanliga frågor om Target för mobilappar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile endast en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om den 10 juni Adobe Target Coffee Break har lagts till. |
@@ -55,7 +64,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 1 juni | [Target-meddelanden](/help/r-release-notes/target-announcements.md) | En ny sida med information om kommande evenemang från Target har lagts till. |
 |  | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
 | 28 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande nya frågor och svar har lagts till: <ul><li>Hur räknas värdena för nya besökare och återkommande besökare?</li></ul> |
-| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
+| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
 | 26 maj | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Följande information har lagts till: &quot;Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.&quot; |
 | 21 maj | [Tillåtelselista Target kantnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Tillagd `mboxedge30.tt.omtrdc.net` i listan. |
 | 20 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om den kommande Target Standarden/Premium 20.6.1-utgåvan (10 juni 2020) har lagts till. |
