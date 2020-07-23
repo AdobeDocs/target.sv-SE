@@ -5,9 +5,9 @@ title: Värdar
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # Värdar{#hosts}
 
 Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
-
->[!NOTE]
->
->Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i [!DNL Target] Standard/Premium 20.6.1-utgåvan (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Det främsta målet med värdhantering är att se till att inget inaktivt innehåll av misstag visas på webbplatser. Med värdhantering kan du också separera rapportdata efter [miljö](/help/administrating-target/environments.md).
 
@@ -98,7 +94,7 @@ Ibland visas domäner från andra platser i dina miljöer. En domän visas i lis
 
 I de fall där `mboxHost` skickas i ett API-anrop registreras konverteringen för den miljö som skickas. Om ingen miljö skickas blir värddatorn i anropet som standard [!UICONTROL Production].
 
-Du kan också skapa en denylist som anger värdar (domäner) än vad som inte kan skicka [!DNL Target] begäranden till [!DNL Target] genom att lägga till önskade värdar i [!UICONTROL Host Does Not Contain] rutan.
+Du kan också skapa ett blockeringslista som anger värdar (domäner) än vad som inte kan skicka [!DNL Target] begäranden till [!DNL Target] genom att lägga till önskade värdar i [!UICONTROL Host Does Not Contain] rutan.
 
 >[!NOTE]
 >
