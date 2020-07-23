@@ -5,9 +5,9 @@ title: Information om funktionen targetGlobalSettings() för JavaScript-bibliote
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ Du kan åsidosätta följande inställningar:
 
 ## Användning {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 I fältet Bibliotekshuvud kan du ange JavaScript utan formulär. Anpassningskoden ska se ut ungefär som i följande exempel:
 
@@ -472,7 +472,7 @@ Tänk på följande när du använder `serverState`:
 
 * Vid användning av `serverState `erbjudanden tar at.js hänsyn till `pageLoadEnabled` och `viewsEnabled` inställningar, t.ex. kommer sidinläsningserbjudanden inte att gälla om `pageLoadEnabled` inställningen är false.
 
-   Aktivera de här inställningarna genom att aktivera växlingen i **[UICONTROL-inställningar > Implementering > Redigera inställningar > Sidinläsning aktiverad]**.
+   Aktivera de här inställningarna genom att aktivera växlingen i **[UICONTROL Administration > Implementering > Redigera > Sidinläsning aktiverad]**.
 
    ![Inställningar för sidinläsning aktiverat](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
