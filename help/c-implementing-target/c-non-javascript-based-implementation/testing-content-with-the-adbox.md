@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,8 @@ Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade impl
 
    * Var `myClientCode` är företagets kundkod. Ditt företags klientkod är endast liten och har inga specialtecken.
 
-      * **at.js**: Klientkoden finns längst upp på [!UICONTROL Setup > Implementation > Edit at.js Settings] sidan i [!DNL Target] gränssnittet.
+      Klientkoden finns längst upp på [!UICONTROL Administation > Implementation] sidan i [!DNL Target] gränssnittet.
 
-      * **mbox.js**: Klientkoden finns längst upp på [!UICONTROL Setup > Implementation > Edit Mbox.js Settings] sidan.
    * Var `image` är samtalstypen. I det här fallet är det en bild.
 
    * Där `emailHeroImage123_320x200` är namnet på AdBox.
@@ -42,7 +41,6 @@ Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade impl
    * Var `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` är mbox standardinnehåll. Det här måste vara en bild.
 
       Detta måste vara URL-kodat och måste vara en absolut referens. Du kan använda [HTML URL-kodningsreferens](https://www.w3schools.com/tags/ref_urlencode.asp) för att snabbt koda dina URL-adresser.
-
 
 1. Skapa [omdirigeringserbjudanden](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) för varje alternativ bild.
 
