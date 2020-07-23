@@ -4,9 +4,9 @@ description: Konfigurera Adobe Target Visual Experience Composer (VEC) genom att
 title: Konfigurera Adobe Target Visual Experience Composer
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 0%
 # Konfigurera Visual Experience Composer
 
 Konfigurera [!DNL Adobe Target] VEC ( [!UICONTROL Visual Experience Composer] Mobile Viport configuration) genom att ange dess allmänna inställningar, konfiguration för mobilvisningsruta och CSS-väljare.
-
->[!NOTE]
->
->Ämnena i det här avsnittet, som listas nedan, har uppdaterats för att ge dig en smygtopp vid de användargränssnittsändringar som kommer i version [!DNL Target Standard/Premium] 20.6.1 (juli 2020). Den mesta av informationen som presenteras i dessa ämnen gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Du öppnar konfigurationssidan genom att klicka [!UICONTROL Visual Experience Composer] > **[!UICONTROL Administration]** **[!UICONTROL Visual Experience Composer].**
 
@@ -104,5 +100,9 @@ Du kan åsidosätta den här inställningen per aktivitet (klicka på [!UICONTRO
 Den här videon innehåller information om kontoinställningar.
 
 * Beskriv de kontoinställningar som är tillgängliga i [!DNL Target Standard]
+
+>[!NOTE]
+>
+>Gränssnittet för [!DNL Target][!UICONTROL Administration] menyer (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
