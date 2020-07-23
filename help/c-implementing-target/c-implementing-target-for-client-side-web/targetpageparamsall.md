@@ -1,11 +1,14 @@
 ---
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;page parameters;at.js;functions;function
-description: Information om funktionen targetPageParamsAll() för JavaScript-biblioteket för Adobe Target at.js.
-title: Information om funktionen targetPageParamsAll() för JavaScript-biblioteket för Adobe Target at.js.
+description: Information om funktionen targetPageParamsAll() för JavaScript-biblioteket Adobe Target at.js.
+title: Information om funktionen targetPageParamsAll() för JavaScript-biblioteket Adobe Target at.js.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Med den här metoden kan du bifoga parametrar till alla rutor utanför begärandekoden.
 
-Detta är mycket användbart om du vill inkludera samma uppsättning parametrar för flera mbox-anrop. Funktionen måste definieras av kunden. Den ska returnera en array med parametrar som skickas till alla mbox-begäranden på sidan. Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Detta är mycket användbart om du vill inkludera samma uppsättning parametrar för flera mbox-anrop. Funktionen måste definieras av kunden. Den ska returnera en array med parametrar som skickas till alla mbox-begäranden på sidan. Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 Du kan skicka in parametrar till target-global-mbox med funktionen targetPageParamsAll() på något av följande sätt:
 
