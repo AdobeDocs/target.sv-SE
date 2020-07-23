@@ -4,9 +4,9 @@ description: Med mobilvisningsrutor kan du förhandsgranska hur dina aktiviteter
 title: Mobila visningsrutor för responsiva upplevelser
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1328'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ På olika webbplatser visas visningsstorlekar för populära enheter. Se t.ex. [
 
 Om du vill leverera en aktivitet till personer på en viss enhet väljer du lämplig målgrupp för den enheten i aktivitetsdiagrammet. Använd Mobile Web Composer för att redigera sidan i aktiviteten för den enheten. Om du vill köra en aktivitet i hela den digitala upplevelsen och försäkra dig om att den ser bra ut på alla enheter ska du inte använda målgruppsanpassning och använda mobila visningsrutor för att förhandsgranska aktiviteten på varje skärmstorlek.
 
-Om du har en responsiv webbplats är webbplatsen vanligtvis utformad för att öppnas i en annan vy när den används av en enhet med en viss skärmstorlek. De skärmstorlekar som utlöser de nya vyerna kallas *CSS-brytpunkter*. Spara dina CSS-brytpunkter i Target så att du kan förhandsgranska upplevelserna för varje vy som du definierar. Var och en av dessa upplevelser visas i en mobil visningsruta i Target-gränssnittet. Öppna vyn för varje skärmstorlek genom att klicka på visningsrutan längst upp på skärmen.
+Om du har en responsiv webbplats är webbplatsen vanligtvis utformad för att öppnas i en annan vy när den används av en enhet med en viss skärmstorlek. De skärmstorlekar som utlöser de nya vyerna kallas *CSS-brytpunkter*. Spara dina CSS-brytpunkter i Target så att du kan förhandsgranska upplevelserna för varje vy du definierar. Var och en av dessa upplevelser visas i en mobilvisningsruta i Target gränssnitt. Öppna vyn för varje skärmstorlek genom att klicka på visningsrutan längst upp på skärmen.
 
 Om webbplatsen inte är responsiv kan du fortfarande använda Mobile Web Composer för att visa en webbplats om aktiviteten är avsedd för en viss enhet.
 
@@ -86,12 +86,12 @@ Om webbplatsen inte är responsiv kan du fortfarande använda Mobile Web Compose
 
 Konfigurera de mobila visningsrutor som du vill göra tillgängliga när du skapar dina upplevelser.
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
-1. Klicka på för att lägga till en mobil visningsruta i avsnittet Konfiguration av mobila visningsrutor på sidan Kontoinställningar. **[!UICONTROL Add new]**
+1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. Klicka på för att lägga till en mobil visningsruta i avsnittet Konfiguration av mobila visningsrutor på sidan Kontoinställningar. **[!UICONTROL Add]**
 
    Om du vill ändra konfigurationen för en befintlig mobilvisningsruta markerar du den visningsrutan och klickar sedan på ikonen Redigera (penna).
 
-   ![](assets/viewpoert_add.png)
+   ![Lägg till visningsruta](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
 1. Ange ett namn för mobilvisningsrutan.
 
@@ -111,12 +111,13 @@ Konfigurera de mobila visningsrutor som du vill göra tillgängliga när du skap
    * Windows
    * Symbian
    * Blackberry
-   Om du använder [Förbättrad Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) och väljer ett operativsystem emulerar Target den enheten när du visar sidan. Om till exempel Android ser annorlunda ut och känns annorlunda än iOS på din responsiva webbplats imiterar Target det beteendet.
+
+   Om du använder [Förbättrad Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) och väljer ett operativsystem emulerar Target den enheten när du visar sidan. Om till exempel Android ser annorlunda ut och känns annorlunda än iOS på din responsiva webbplats liknar Target det beteendet.
 1. Klicka på **[!UICONTROL Save]**.
 
 ## Skapa responsiv upplevelse {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Lägg till mobila visningsrutor i Target-aktiviteterna för att skapa responsiva upplevelser för mobila skärmar.
+Lägg till mobila visningsrutor i dina Target-aktiviteter för att skapa responsiva upplevelser för mobilskärmar.
 
 1. Skapa en aktivitet.
 1. I Visual Experience Composer klickar du på **[!UICONTROL Settings]** kugghjulsikonen och väljer sedan **[!UICONTROL Add Mobile Viewports]**.
@@ -135,12 +136,12 @@ Lägg till mobila visningsrutor i Target-aktiviteterna för att skapa responsiva
    * Stående: ![Stående](/help/c-experiences/c-visual-experience-composer/assets/viewport_portrait.png)
    * Liggande: ![Landskapare](/help/c-experiences/c-visual-experience-composer/assets/viewport_landscape.png)
 
-## Användningsfall: Mål för två iPhone-versioner {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
+## Användningsfall: Target Två iPhone-versioner {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-Det här användningsexemplet visar hur du konfigurerar upplevelser för två iPhone-versioner, iPhone 6 och iPhone 6 Plus, med funktionen för mobila visningsrutor i Target Standard.
+Det här användningsexemplet visar hur du konfigurerar upplevelser för två iPhone-versioner, iPhone 6 och iPhone 6 Plus, med funktionen för mobila visningsrutor i Target Standarden.
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** i Målstandard.
-1. Skapa mobila visningsrutor för iPhone 6 och iPhone 6 Plus i avsnittet Konfiguration av mobilvisningsruta på sidan Inställningar.
+1. I Target klickar du på **[!UICONTROL Administration]**.
+1. Skapa mobila visningsrutor för iPhone 6 och iPhone 6 Plus i avsnittet Konfiguration av mobilvisningsruta.
 
    Använd följande inställningar för varje visningsruta:
 
@@ -151,7 +152,7 @@ Det här användningsexemplet visar hur du konfigurerar upplevelser för två iP
 
    ![](assets/iphoneviewportconfig.png)
 
-1. Skapa en aktivitet med den upplevelse du vill använda som målgrupp.
+1. Skapa en aktivitet med den upplevelse du vill använda i Target.
 1. Välj den upplevelse du vill rikta dig till besökare som kommer åt din webbplats från en iPhone 6 eller iPhone 6 Plus.
 1. När du väljer mål klickar du på **[!UICONTROL Create Audience]** och konfigurerar sedan en målgrupp enligt bilden nedan:
 
@@ -171,14 +172,14 @@ I följande demovideo finns information om hur du använder Visual Experience Co
 
 * Byta namn på och duplicera en upplevelse
 * Skapa en omdirigeringsupplevelse
-* Anpassa en aktivitet till en enskild URL-adress eller en grupp URL-adresser
+* Target en aktivitet till en enskild URL eller en grupp URL-adresser
 * Skapa en flersidig aktivitet
 * Förgranska och skapa upplevelser för responsiva webbplatser
 * Använda övertäckningar för att markera typer av element
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Kontoinställningar i märket ![Översikt över Adobe Target](/help/assets/overview.png)
+### Kontoinställningar på märket ![Översikt över Adobe Target](/help/assets/overview.png)
 
 Den här videon innehåller information om hur du ställer in mobila visningsrutor i kontoinställningarna, med början vid 4:40 i videon.
 
