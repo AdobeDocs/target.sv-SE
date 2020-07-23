@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 0%
 
 ---
 
@@ -17,10 +20,11 @@ Information som hjälper dig att anpassa en global mbox för både at.js och mbo
 
 1. Redigera mbox.js.
 
-   Gå till **[!UICONTROL Target]** > **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
+   Gå till **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * För mbox.js, klicka **[!UICONTROL Edit mbox.js Settings]**.
    * Välj [!DNL at.js]under Implementeringsmetod **[!UICONTROL at.js]** och klicka sedan på **[!UICONTROL Edit mbox.js Settings]**.
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. Redigera [!DNL mbox.js] eller [!DNL at.js].
