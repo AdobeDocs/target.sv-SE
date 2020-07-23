@@ -5,7 +5,10 @@ title: Elementväljare som används i Visual Experience Composer
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ En elementväljare är ett CSS-uttryck som kan identifiera ett eller flera eleme
 
 Grundläggande information om CSS-väljare finns i dokumentet [Väljare](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) i Mozilla Developer Network (MDN).
 
-Du kan ange om element-ID:n som klassas eller element-ID:n ska användas i dina kontoinställningar. Klicka **[!UICONTROL Setup > Preferences]** och välj sedan dina CSS-väljare.
+Du kan ange om element-ID:n som klassas eller element-ID:n ska användas i dina kontoinställningar. Klicka **[!UICONTROL Administration > Visual Experience Composer]** och välj sedan dina CSS-väljare.
 
 ![](assets/css_selectors.png)
 
@@ -28,7 +31,7 @@ Mer information om när du ska använda CSS-väljare och när du ska använda un
 
 ## Så här genererar Adobe Target en väljare för ett element {#section_D89D954BCBFB486CA081BE183776A475}
 
-Målet använder en enkel algoritm för att skapa en väljare. Här följer en kort beskrivning av genereringslogiken:
+Target använder en enkel algoritm för att skapa en väljare. Här följer en kort beskrivning av genereringslogiken:
 
 1. Om ett element till exempel har ett id `id="container"`är väljaren för elementet `#container`.
 
@@ -47,9 +50,9 @@ Målet använder en enkel algoritm för att skapa en väljare. Här följer en k
    </div>
    ```
 
-1. Om ett element innehåller ett klassattribut försöker Target utnyttja den första klassen i alla klasser som finns i elementet.
+1. Om ett element innehåller ett klassattribut försöker Target utnyttja den första klassen i några klasser som finns i elementet.
 
-   Målet försöker tolka det överordnade elementet tills det hittar `<HTML>` elementet eller ett element med ett id. När ett element innehåller ett id och väljaren beräknas på dess underordnade underordnade objekt, bidrar elementets id till väljaren.
+   Target försöker tolka det överordnade elementet tills det hittar `<HTML>` elementet eller ett element med ett id. När ett element innehåller ett id och väljaren beräknas på dess underordnade underordnade objekt, bidrar elementets id till väljaren.
 
    Exempel:
 
@@ -96,6 +99,6 @@ Målet använder en enkel algoritm för att skapa en väljare. Här följer en k
 I ovanstående process:
 
 * Du kan använda valfri CSS-väljare så länge den unikt identifierar ett element i DOM.
-* Metoden ovan används av Target. Målet tillåter inte att du använder det här tillvägagångssättet. Du kan lägga till valfri väljare förutsatt att punkt 1 är sann.
+* Metoden ovan används av Target. Target tillåter inte att du använder detta tillvägagångssätt. Du kan lägga till valfri väljare förutsatt att punkt 1 är sann.
 * Du kan använda valfritt attribut i väljaren. I det här dokumentet används endast klassnamn som exempel.
 
