@@ -6,9 +6,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,14 @@ Eftersom mboxTrace och mboxDebug kan visa kampanjdata och profildata för extern
 
 Så här hämtar du auktoriseringstoken:
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
-1. Markera **[!UICONTROL mbox.js]** eller **[!UICONTROL at.js]**.
-1. Klicka på **[!UICONTROL Generate Authentication Token]**.
+1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Klicka på i avsnittet Felsökningsverktyg **[!UICONTROL Generate New Authentication Token]**.
 
-   ![Generera auktoriseringstoken](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![Generera ny autentiseringstoken](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. Lägg till den genererade variabeln som en parameter i URL-adressen för att aktivera ett av de avancerade felsökningsverktygen.
 
-   ![Auktoriseringstoken](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![Auktoriseringstoken](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
