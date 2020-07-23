@@ -5,7 +5,10 @@ title: Mål och inställningar
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 0%
 
 ---
 
@@ -36,9 +39,9 @@ Beroende på dina inställningar varierar gränssnittet och alternativen för pr
 
 Prioriteten används om flera aktiviteter tilldelas till samma plats med samma målgrupp. Om två eller flera aktiviteter har tilldelats platsen visas aktiviteten med den högsta prioriteten.
 
-Om det här alternativet inte är aktiverat i installationsprogrammet (standardinställningen) anger du en prioritet: Låg, Medel eller Hög.
+Om det här alternativet inte är aktiverat i S[!UICONTROL Administration] > [!UICONTROL Reporting] (standardvärdet) anger du en prioritet: Låg, Medel eller Hög.
 
-Om du vill aktivera finkorniga prioriteringar klickar du på Inställningar och växlar sedan alternativet Aktivera finkorniga prioriteringar till På-positionen.
+Om du vill aktivera finkorniga prioriteringar klickar du på [!UICONTROL Administration] > [!UICONTROL Reporting]och växlar sedan alternativet Aktivera finkorniga prioriteringar till På-positionen.
 
 Om det här alternativet är aktiverat anger du ett värde mellan 0 och 999:
 
@@ -61,11 +64,11 @@ Följande inställningar är tillgängliga:
 
 ### Rapporteringslösning
 
-Ange om data samlas in från Adobe Target eller från Adobe Analytics. Se [Adobe Analytics som rapportkälla för Target](/help/c-integrating-target-with-mac/a4t/a4t.md) om du vill veta mer om skillnaderna mellan rapporteringslösningarna och fördelarna med var och en av dem.
+Ange om data ska samlas in från Adobe Target eller från Adobe Analytics. Se [Adobe Analytics som rapportkälla för Target](/help/c-integrating-target-with-mac/a4t/a4t.md) om du vill veta mer om skillnaderna mellan rapporteringslösningarna och fördelarna med dem.
 
-När du väljer Analytics som rapportkälla för Target väljer du en Analytics-rapportsserie som tar emot Target-aktivitetsdata. För att göra detta väljer du först något av Analytics-företagen som ditt konto är knutet till och väljer sedan lämplig rapportsvit för aktiviteten. Endast rapportsviter som har etablerats för att ansluta till Adobe Target kan väljas. Om du inte ser de rapportsviter du förväntar dig kan du först logga ut och logga in på Adobe Experience Cloud för att försöka igen. Kontakta kundtjänst om rapportsviten fortfarande saknas i listan.
+När du väljer Analytics som rapportkälla för Target väljer du en Analytics-rapportsvit som ska ta emot Target aktivitetsdata. För att göra detta väljer du först ett av Analytics-företagen som ditt konto är knutet till och väljer sedan lämplig rapportsvit för aktiviteten. Endast rapportsviter som har etablerats för att ansluta till Adobe Target kan väljas. Om du inte ser de rapportsviter du förväntar dig kan du först logga ut och logga in på Adobe Experience Cloud för att försöka igen. Kontakta kundtjänst om rapportsviten fortfarande saknas i listan.
 
-Analyser för Target kräver en spårningsserver för att kunna rapportera resultaten korrekt. En standardspårningsserver visas i fältet Spårningsserver. Om du använder mer än en spårningsserver bör du kontrollera att du inkluderar rätt spårningsserver i det här fältet. Mer information finns i [Använda en analysspårningsserver](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) .
+Analytics för Target kräver en spårningsserver för att kunna rapportera resultaten korrekt. En standardspårningsserver visas i fältet Spårningsserver. Om du använder mer än en spårningsserver bör du kontrollera att du inkluderar rätt spårningsserver i det här fältet. Mer information finns i [Använda en Analytics Tracking Server](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) .
 
 Om en rapporteringslösning anges i dina kontoinställningar används den angivna lösningen och den här inställningen syns inte.
 
@@ -79,19 +82,19 @@ Välj den åtgärd som en besökare ska utföra för att uppnå målet. Välj ti
 
 >[!NOTE]
 >
->Om rapporteringslösningen är inställd på Analytics (Analyser) är det enda tillgängliga målmåttet Konvertering. Analysmått kan inte väljas som mål.
+>Om rapporteringslösningen är inställd på Analytics är det enda tillgängliga målmåttet Konvertering. Analytics-mått kan inte väljas som mål.
 
 När du väljer ett framgångsmått visas en väljare. Använd den här väljaren för att välja de specifika värdena för framgångsmåttet.
 
 Om det här alternativet är aktiverat ger det beräknade värdet i konverteringsfältet (inte tillgängligt för sidpoängsmått) ett värde för ditt mål, men inte för andra mått. Detta värde gör att Target kan beräkna en uppskattad ökning av intäkterna. Detta fält är valfritt; Inkrementella intäkter för icke-intäktsmått kan dock inte beräknas utan detta. För alla intäktsmått (Intäkt per besökare, Genomsnittligt ordervärde, Total försäljning och Beställningar) används Intäkt per besökare i uppskattningen. Datatypen är valuta.
 
-När aktivitetsmålet har uppnåtts fortsätter besökaren att se aktivitetsinnehållet, såvida inte besökaren kvalificerar sig för en aktivitet med högre prioritet. Om besökaren når målet igen räknas det som en annan konvertering. Observera att detta inte är standardbeteendet i Target Classic, som räknar besökare som nya om de ser testet igen.
+När aktivitetsmålet har uppnåtts fortsätter besökaren att se aktivitetsinnehållet, såvida inte besökaren kvalificerar sig för en aktivitet med högre prioritet. Om besökaren når målet igen räknas det som en annan konvertering. Observera att detta inte är standardbeteendet i Target Classic, som räknar besökarna som nya om de ser testet igen.
 
 ### Ytterligare mått
 
 Skapa fler framgångsmått.
 
-Den här inställningen är inte tillgänglig om rapporteringslösningen är inställd på Analytics. I det här fallet används de mått som definierats för Analytics-rapportsviten.
+Den här inställningen är inte tillgänglig om rapporteringslösningen är inställd på Analytics. I det här fallet används de mått som definierats för Analytics rapportsserie.
 
 Målgrupper för rapportering
 
@@ -166,7 +169,7 @@ Den här videon innehåller information om aktivitetsinställningar.
 
 ### Skapa multivariata tester (9:25) ![självstudiemärke](/help/assets/tutorial.png)
 
-I den här videon visas hur du skapar ett multivariata test med det guidade arbetsflödet i tre steg för Target. Mål och inställningar diskuteras från kl. 7.00.
+I den här videon visas hur du skapar ett multivariata test med ett guidat arbetsflöde i Target i tre steg. Mål och inställningar diskuteras från kl. 7.00.
 
 * Definiera och utforma ett multivariat test
 * Skapa ett multivariata test
