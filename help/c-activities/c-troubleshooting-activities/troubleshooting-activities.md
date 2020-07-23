@@ -5,9 +5,9 @@ title: Felsöka aktiviteter
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Kontrollera att aktiviteten är slutförd och att den har aktiverats.
 När du har lagts till som användare i Target måste du ha rollen Godkännare för att kunna skapa aktiviteter.
 
 * Be administratören för ditt konto att göra dig till godkännare.
-* Om du är administratör ger du dig själv rollen Godkännare från Konfigurera > Användare i Target Standard.
+* Om du är administratör kan du ge dig själv rollen Godkännare från **[!UICONTROL Administration]** > **[!UICONTROL Users]** i Target.
 
    Se [Tilldela dig själv rollen](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)Godkännare.
 
