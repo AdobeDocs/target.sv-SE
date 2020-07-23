@@ -5,9 +5,9 @@ title: Miljö
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # Miljö
 
 Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
-
->[!NOTE]
->
->Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Värdar paketeras i miljöer för enkel hantering. Du kan till exempel ha dussintals värdar grupperade i två eller tre miljöer. De förinställda miljöerna omfattar [!UICONTROL Production], [!UICONTROL Staging]och [!UICONTROL Development]. Du kan lägga till nya miljöer och byta namn på dina miljöer om du vill.
 
