@@ -5,9 +5,9 @@ title: Profilattribut i Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
 * **Lägg till profilskript som svarstoken till felsökningsprofilskript:**
 
-   I Target klickar du **[!UICONTROL Setup]** på, klickar **[!UICONTROL Response Tokens]** och aktiverar sedan det profilskript som du vill felsöka.
+   I Target klickar du **[!UICONTROL Administration]** på, klickar **[!UICONTROL Response Tokens]** och aktiverar sedan det profilskript som du vill felsöka.
 
    När du läser in en sida för webbplatsen med Target på den innehåller en del av svaret från Target ditt värde för det angivna profilskriptet, vilket visas nedan:
 
@@ -166,7 +166,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
 * **Använd mboxTrace Debugging Tool för att felsöka profilskript.**
 
-   Den här metoden kräver en auktoriseringstoken som du kan generera genom att klicka på **[!UICONTROL Target]** > **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]**.
+   Den här metoden kräver en auktoriseringstoken som du kan generera genom att klicka **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** i [!UICONTROL Debugger tools] avsnittet.
 
    Sedan lägger du till de här två parametrarna i sidans URL efter &quot;?&quot;: `mboxTrace=window&authorization=YOURTOKEN`.
 
