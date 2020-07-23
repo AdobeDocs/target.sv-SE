@@ -1,18 +1,21 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
-description: Information om funktionen adobe.target.getOffer(options) för JavaScript-biblioteket för Adobe Target at.js.
-title: Information om funktionen adobe.target.getOffer(options) för JavaScript-biblioteket för Adobe Target at.js.
+description: Information om funktionen adobe.target.getOffer(options) för JavaScript-biblioteket Adobe Target at.js.
+title: Information om funktionen adobe.target.getOffer(options) för JavaScript-biblioteket Adobe Target at.js.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
 
 # adobe.target.getOffer(options)
 
-Den här funktionen utlöser en begäran om att få ett Target-erbjudande.
+Den här funktionen skickar en förfrågan om att få ett Target-erbjudande.
 
 Använd med `adobe.target.applyOffer()` för att bearbeta svaret eller använd din egen hantering av lyckade resultat. Alternativparametern är obligatorisk och har följande struktur:
 
@@ -22,7 +25,7 @@ Använd med `adobe.target.applyOffer()` för att bearbeta svaret eller använd d
 | parametrar | Objekt | Nej | Mbox-parametrar. Ett objekt med nyckelvärdepar som har följande struktur:<br>`{ "param1": "value1", "param2": "value2"}` |
 | framgång |  -funktion | Ja | Återanrop som ska köras när vi får ett svar från servern. Callback-funktionen för lyckade försök får en enda parameter som representerar en array med objekt för erbjudanden. Här är ett exempel på lyckad återanrop:<br>`function handleSuccess(response){......}`<br>Se svar nedan för mer information. |
 | fel |  -funktion | Ja | Återanrop som ska utföras när ett fel inträffar. Det finns några fall som anses felaktiga:<ul><li>HTTP-statuskoden skiljer sig från 200 OK</li><li>Svaret kan inte tolkas. Vi har till exempel dåligt konstruerat JSON eller HTML i stället för JSON.</li><li>Svaret innehåller felnyckeln. Ett undantag utlöstes till exempel på kanten som en begäran inte kunde behandlas korrekt. Ett fel kan uppstå när en mbox är blockerad och vi inte kan hämta något innehåll för den, osv. Återanropsfunktionen för fel får två parametrar: status och fel. Här är ett exempel på ett fel vid återanrop: `function handleError(status, error){......}`</li></ul>Mer information finns i Felsvar nedan. |
-| timeout | Nummer | Nej | Timeout i millisekunder. Om inget anges används standardtidsgränsen i at.js.<br>Standardtidsgränsen kan anges från [!DNL Target] användargränssnittet under [!UICONTROL Setup > Implementation > Edit Mbox.js Settings > Timeout]. |
+| timeout | Nummer | Nej | Timeout i millisekunder. Om inget anges används standardtidsgränsen i at.js.<br>Standardtidsgränsen kan anges från [!DNL Target] användargränssnittet under [!UICONTROL Administration > Implementation]. |
 
 ## Exempel {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
