@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 # Svarstoken{#response-tokens}
 
 Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Target] (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale).
-
->[!NOTE]
->
->Informationen i det här avsnittet har uppdaterats för att ge dig en smygtopp vid de gränssnittsändringar som kommer i Target Standard-/Premium 20.6.1-versionen (juli 2020). Huvuddelen av den information som presenteras i detta avsnitt gäller det aktuella användargränssnittet. alternativen kan dock finnas på något olika platser.
 
 Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett Target-svar. För att göra det aktiverar du bara en variabel med växeln så skickas variabeln med Target-svar som kan valideras i nätverksanrop. Svarstoken fungerar även i [!UICONTROL Preview] läge.
 
@@ -116,7 +112,7 @@ Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händ
    });
    ```
 
-Du kan lägga till följande kodutdrag på bibliotekets sidfot [på konfigurationssidan](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js om du vill att allt ska vara en enda fil.
+Du kan lägga till följande utdrag på bibliotekets sidfot [på konfigurationssidan](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) at.js om du vill att allt ska vara en enda fil.
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -291,5 +287,9 @@ Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom a
 ## Utbildningsvideo: Responstoken och at.js Custom Events {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Tutorial badge](/help/assets/tutorial.png)
 
 Titta på följande video och lär dig hur du använder svarstoken och anpassade at.js-händelser för att dela profilinformation från Target till tredjepartssystem.
+
+>[!NOTE]
+>
+>Gränssnittet för [!DNL Target][!UICONTROL Administration] menyer (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
