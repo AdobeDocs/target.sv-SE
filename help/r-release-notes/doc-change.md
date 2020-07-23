@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 27 juli | [Administrera Target](/help/administrating-target/administrating-target.md) | Uppdaterad text i alla länkade ämnen på den här sidan för att återspegla de nya gränssnittsändringarna för [!UICONTROL Administration] sidorna. |
 |  | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Gör följande ändringar: <ul><li>Lagt till registreringsinformation för följande webbinarium: &quot;Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala.&quot;</li><li>Lagt till information om att Adobe återigen har utsetts till ledare i Gartners Magic Quadrant for Personalization Engines.</li></ul> |
 |  | [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) | Tydligare information i steg 4: Välj en plats. |
+| 24 juli | <br>[versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.3.2. |
 |  | [Versionsinformation](/help/r-release-notes/release-notes.md): 20.7.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe Target Standard/Premium 20.5.1 (17 juni 2020)
@@ -64,7 +65,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 1 juni | [Target-meddelanden](/help/r-release-notes/target-announcements.md) | En ny sida med information om kommande evenemang från Target har lagts till. |
 |  | [Mobila visningsrutor för responsiva upplevelser](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Uppdaterade visningsrutans dimensioner och upplösningar för Apple iPhone 11, Apple iPhone SE och Google Pixel 2 XL. |
 | 28 maj | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande nya frågor och svar har lagts till: <ul><li>Hur räknas värdena för nya besökare och återkommande besökare?</li></ul> |
-| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
+| 27 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
 | 26 maj | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Följande information har lagts till: &quot;Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.&quot; |
 | 21 maj | [Tillåtelselista Target kantnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Tillagd `mboxedge30.tt.omtrdc.net` i listan. |
 | 20 maj | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om den kommande Target Standarden/Premium 20.6.1-utgåvan (10 juni 2020) har lagts till. |
