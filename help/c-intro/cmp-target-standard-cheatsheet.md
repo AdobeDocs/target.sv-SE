@@ -1,43 +1,43 @@
 ---
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
-description: En lista med vanliga frågor om funktionerna i Adobe Target samt information och länkar för mer information.
-title: Vanliga frågor om måloptimering och personalisering
+description: En lista med vanliga frågor och svar om hur du använder funktionerna i Adobe Target, samt information och länkar för mer information.
+title: Target optimering och personalisering - frågor och svar
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2908'
 ht-degree: 0%
 
 ---
 
 
-# Vanliga frågor om måloptimering och personalisering{#target-optimization-and-personalization-faq}
+# Target optimering och personalisering - frågor och svar{#target-optimization-and-personalization-faq}
 
-En lista med vanliga frågor om funktionerna i Adobe Target samt information och länkar för mer information.
+En lista med vanliga frågor och svar om hur du använder funktionerna i Adobe Target, samt information och länkar för mer information.
 
 ## Allmän information {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**Hur kan jag se hur andra kunder har använt Adobe Target för att få bättre resultat?**
+**Hur kan jag se hur andra kunder har utnyttjat Adobe Target för att få bättre resultat?**
 
-Här är bara några av våra [nöjda kunder](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Se hur kunder som ni har utnyttjat Target för att förbättra optimering och personalisering för att nå affärsmålen.
+Här är bara några av våra [nöjda kunder](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Se hur kunder som ni har använt Target för att förbättra optimering och personalisering för att nå affärsmålen.
 
 Observera att vissa av dessa fallstudier har använt funktioner från Adobe Target Premium.
 
-**Var kan jag lära mig mer om de senaste Target-funktionerna?**
+**Var kan jag läsa om de senaste funktionerna i Target?**
 
 Läs våra [versionsinformation](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) om du vill veta mer om den senaste versionen. Information om alla våra [tidigare versioner](../r-release-notes/release-notes-for-previous-releases.md) finns också tillgänglig online.
 
-**Har Adobe något användarforum där jag kan hitta svar och mer information om Target?**
+**Har Adobe något forum där jag kan hitta svar och mer information om Target?**
 
-Ta en titt på [Target Community Forum](../cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), där vi hjälper kunderna, men ännu viktigare är att vi tycker om Adobe Target-yrkesverksamma som du själv. Ett communityn och forumets framgång är trots allt beroende av att medlemmarna aktivt deltar. Bli en del av communityn och bidra och sök svar på dina frågor.
+Ta en titt på [Target Community Forum](../cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), där vi hjälper kunder, men ännu viktigare är att vi tycker om yrkesverksamma i Adobe Target som du själv kan hjälpa varandra. Ett communityn och forumets framgång är trots allt beroende av att medlemmarna aktivt deltar. Bli en del av communityn och bidra och sök svar på dina frågor.
 
 **Vilka webbläsare stöder Target?**
 
-Mer information finns i [tabellen Webbläsare](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) som stöds. Observera att det finns två aspekter: Stöd för Target Standard/Premium Experience Cloud-gränssnittet och stöd för slutanvändares webbläsare på datorer/enheter.
+Mer information finns i [tabellen Webbläsare](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) som stöds. Observera att det finns två aspekter: Stöd för gränssnittet Target Standard/Premium Experience Cloud och slutanvändarens webbläsare på stationära datorer/enheter.
 
-## JavaScript-bibliotek som mål (at.js och mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Target JavaScript Libraries (at.js och mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **Vilken JavaScript-implementeringsfil ska jag använda, at.js eller mbox.js?**
 
@@ -63,11 +63,11 @@ Använd våra [rapporter för att fastställa den vinnande upplevelsen](../c-act
 
 **Kan jag utföra en aktivitet med en nivå av personalisering som en integrerad del av aktiviteten?**
 
-Ta en titt på [A/B-testning med alternativet Automatiskt mål](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) .
+Ta en titt på [A/B-testning med alternativet Auto-Target](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) .
 
 **Hur vet jag vilken typ av aktivitet som passar mina behov bäst?**
 
-Läs [Verksamhetsguiden](../c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) för målaktiviteter om du vill veta mer om de olika alternativen i Adobe Target.
+Läs [Target aktivitetsguide](../c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) för att få en förståelse för scenarierna där vart och ett av de alternativ som Adobe Target erbjuder är rimligt.
 
 Se även till att överväga [Rekommendationer](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
@@ -93,7 +93,7 @@ I det här fallet kan du alltså välja &quot;Ökningsantal, Frigör användare 
 
 **Jag vill till exempel överväga mål B när användaren har uppnått mål A så att jag kan spåra nummer för en viss tratt.**
 
-Target har ett robust sätt att uppnå detta med vår funktion Metrics Dependency. Lägg bara [till beroenden till andra framgångsmått](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Du har alternativ som &quot;Nekat&quot; och &quot;Inte nått&quot; tillsammans med möjlighet att kombinera mätvärden på flera sätt för att skapa valfri kombination.
+Target har ett robust sätt att uppnå detta med vår funktion för metriskt beroende. Lägg bara [till beroenden till andra framgångsmått](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Du har alternativ som &quot;Nekat&quot; och &quot;Inte nått&quot; tillsammans med möjlighet att kombinera mätvärden på flera sätt för att skapa valfri kombination.
 
 **Hur kan jag vara tydlig med hur man skapar en verksamhet för att uppnå mina mål?**
 
@@ -105,7 +105,7 @@ Detta är möjligt med inställningen Primärt mål i steg 3 i det guidade arbet
 
 **Kan jag schemalägga en aktivitet att börja och sluta vid en fast tidpunkt?**
 
-Använd funktionen [Schemaläggning i steget Mål och inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
+Använd [schemaläggningsfunktionen i steget Mål och inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
 
 Kom ihåg att aktivera aktiviteten. Endast aktiva aktiviteter följer det angivna schemat. När slutdatumet har nåtts försätts aktiviteten i tillståndet Avslutat.
 
@@ -121,7 +121,7 @@ Detta är också möjligt. Du [använder bara alternativet Spara till att göra 
 
 Använd vår [kraftfulla QA Mode-funktion](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) för att utföra QA. Du kan dela länkar med ditt QA-team och även testa aktiviteten från början till slut, inklusive rapportering, för att vara helt säker på att den fungerar som den ska och som den har testats när aktiviteten är aktiv.
 
-**Hur kan jag använda Target beslutskraft för att få en upplevelse/ett erbjudande som kan användas i SPA (Single Page Applications) eller serverintegration?**
+**Hur kan jag använda Target beslutskraft för att få en upplevelse/ett erbjudande som kan användas i SPA-program (Single Page Applications) eller serverintegration?**
 
 Utnyttja de kraftfulla [formulärbaserade aktiviteterna](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) med [JSON-erbjudanden](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) för att uppnå dina mål.
 
@@ -129,12 +129,12 @@ Utnyttja de kraftfulla [formulärbaserade aktiviteterna](../c-experiences/form-e
 
 **Kan jag ange prioritetsordning för några aktiviteter?**
 
-Använd inställningen Prioritet som finns i steg 3 i det guidade arbetsflödet i tre delar (Mål- och inställningssidan) för att [definiera aktiviteternas](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)prioritet.
+Använd inställningen Prioritet som finns i steg 3 i det guidade arbetsflödet i Target tredelar (sidan Mål och inställningar) för att [definiera aktiviteternas](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)prioritet.
 
 Det finns två alternativ:
 
 * Standard, med tre nivåer (låg/medel/hög)
-* Anpassad, med ett intervall från 0 till 999. För Anpassad aktiverar du funktionen Finkorniga prioriteringar ( Inställningar > Inställningar).
+* Anpassad, med ett intervall från 0 till 999. För Anpassad aktiverar du funktionen Finkorniga prioriteringar (Administration > Visuell Experience Composer).
 
 ## Audiences {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -158,13 +158,13 @@ Prova funktionen [](../c-target/c-visitor-profile/profile-parameters.md#concept_
 
 **Kan jag starta en aktivitet med ett färre antal besökare?**
 
-Använd procentallokeringskontrollerna som finns i [steg 2 i det guidade arbetsflödet för tre delar (målsidan)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) för att bestämma hur du vill konfigurera aktiviteten.
+Använd de procentfördelningskontroller som är tillgängliga i [steg 2 i det guidade arbetsflödet i Target tredelade (målsidan)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) för att bestämma hur du vill ställa in aktiviteten.
 
 **Jag har också Adobe Analytics och vill utnyttja det med Target. Vilka nyckelfunktioner får jag genom att integrera de två lösningarna?**
 
 Ta en titt på följande aspekter av produkten:
 
-* [Analyser för mål (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics för Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Kundattribut](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 * [Målgrupper](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
@@ -190,7 +190,7 @@ Prova den [felsökningsinformation](../c-experiences/c-visual-experience-compose
 
 Vi har också en [formulärbaserad metod](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) som kan häva blockeringen.
 
-Läs också när och varför [Förbättrad Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) kan vara användbart. Du kan behöva kontakta IT-avdelningen för att [även tillåta Adobes proxyservrar](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) .
+Läs också när och varför [Förbättrad Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) kan vara användbart. Du kan behöva kontakta IT-avdelningen för att [tillåtslista Adobes proxyservrar](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) också.
 
 **Jag har en responsiv sajt. Hur vet jag att jag tänker använda nyckelenheter när jag skapar en aktivitet?**
 
@@ -198,7 +198,7 @@ Prova funktionen [Mobilvisningsportar](../c-experiences/c-visual-experience-comp
 
 **Jag har flera domäner. En av domänerna måste ha Förbättrad Experience Composer aktiverat, medan andra måste ha det inaktiverat. Hur kan jag göra såhär?**
 
-Du kan alltid använda alternativet [Förbättrad Experience Composer på aktivitetsnivå](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) för att åsidosätta standardinställningen ( Inställningar > Inställningar).
+Du kan alltid använda alternativet [Förbättrad Experience Composer på aktivitetsnivå](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) för att åsidosätta standardinställningen (Administration > Visuell Experience Composer).
 
 **Varför visas inte ett alternativ för att byta bilder?**
 
@@ -224,13 +224,13 @@ Använd funktionerna Disponera och Bläddra för att navigera till valfri sida o
 
 ![](assets/vec2.png)
 
-**Hur kan jag gå till den upplevelse jag väljer från steg 2 i det guidade arbetsflödet i tre delar (målsida)?**
+**Hur kan jag gå till den upplevelse jag väljer från steg 2 i Target tredelade guidade arbetsflöde (målsida)?**
 
 Klicka på miniatyrbilden framför upplevelsenamnet i steg 2 så får du en bättre upplevelse.
 
 ![](assets/thumbnail_experiences.png)
 
-**Jag är en tidigare Target Classic-användare. Kan jag utnyttja mina lådor för vissa syften?**
+**Jag är tidigare Target Classic-användare. Kan jag utnyttja mina lådor för vissa syften?**
 
 Använd [formulärbaserad metod](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) för att skapa aktiviteter.
 
@@ -266,13 +266,13 @@ Använd vår [felsökare](../c-activities/c-troubleshooting-activities/content-t
 
 Utnyttja de kraftfulla [formulärbaserade aktiviteterna](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) med [JSON-erbjudanden](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) för att uppnå dina mål.
 
-## Rapporter (inklusive analyser för Target - A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
+## Rapporter (inklusive Analytics för Target - A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
 **Jag har också Adobe Analytics och vill utnyttja det med Target. Vilka nyckelfunktioner får jag genom att integrera de två lösningarna?**
 
 Ta en titt på följande aspekter av produkten:
 
-* [Analyser för mål (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics för Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Kundattribut](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
@@ -287,11 +287,11 @@ Du kan lägga till 50 sådana segment och även programpunkten (aktivitetspost e
 
 Observera att Target samlar in data i det här avseendet från den tidpunkt du lägger till dessa målgrupper, så om du missar att lägga till segment innan du kör testet har du inte tur.
 
-**Jag kan inte definiera målgrupper innan jag kör aktiviteten. Den här aspekten av att rapportera målgrupper i Target-aktiviteter är begränsande.**
+**Jag kan inte definiera målgrupper innan jag kör aktiviteten. Jag tycker att den här aspekten av att rapportera målgrupper i Target aktiviteter är begränsande.**
 
 **Vad kan jag göra för att förenkla den här processen?**
 
-Här är [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) användbart. Om ni har Adobe Analytics väljer ni bara källan som Analytics, vilket eliminerar denna begränsning. Nu kan ni göra analyser för alla typer av målgrupper, och ni behöver inte definiera de rapporterande målgrupperna direkt.
+Här är [Analytics för Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) . Om du har Adobe Analytics väljer du bara Analytics som källa, vilket eliminerar denna begränsning. Nu kan ni göra analyser för alla typer av målgrupper, och ni behöver inte definiera de rapporterande målgrupperna direkt.
 
 **Kan jag utföra offlinerapporteringsberäkningar?**
 
@@ -303,31 +303,31 @@ Gör de här ändringarna med [inställningsfunktionen på rapportsidan](../c-re
 
 **Hur ska jag tolka rapporter?**
 
-Vi har försökt att göra rapporter så intuitiva som möjligt med funktioner som [konfidensintervall, lyft, signifikans/säkerhet och flera mätvärden, tabell- och diagramvyer, löpande genomsnitt med mera](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) för att möjliggöra kraftfull, men enkel rapportanalys. Det är tydligt att ni kan undersöka Analytics om ni använder [Analytics for Target-aktiviteter (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) för ytterligare analys av målgrupper.
+Vi har försökt att göra rapporter så intuitiva som möjligt med funktioner som [konfidensintervall, lyft, signifikans/säkerhet och flera mätvärden, tabell- och diagramvyer, löpande genomsnitt med mera](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) för att möjliggöra kraftfull, men enkel rapportanalys. Det är tydligt att du kan undersöka Analytics om du använder [Analytics för Target-aktiviteter (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) för ytterligare analys av målgrupper.
 
 ## Svarstoken {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**Kan jag genomföra en integrering med ett tredjepartssystem, som Google Analytics eller ClickTale, för att skicka aktivitetsinformationen till en slutanvändare för analys?**
+**Kan jag genomföra en integrering med ett tredjepartssystem som Google Analytics eller ClickTale för att skicka aktivitetsinformationen till en slutanvändare för analys?**
 
 Vi har också en lösning på det med vår [svarstoken-funktion](../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 
 ## Felsökning {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
-**Hur vet jag tillgänglighetsstatus för Adobe Target?**
+**Hur kan jag veta tillgänglighetsstatus för Adobe Target?**
 
-Använd [Adobe System Status-sidan](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) för att visa status för Adobe-produkter och Experience Cloud-lösningar, inklusive Target. På den här sidan kan du avgöra om de problem du kan råka ut för beror på systemuppdateringar eller rutinunderhåll.
+På [Adobe System Status-sidan](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) kan du se status för Adobes produkter och Experience Cloud-lösningar, inklusive Target. På den här sidan kan du avgöra om de problem du kan råka ut för beror på systemuppdateringar eller rutinunderhåll.
 
 **Har du en felsökningsguide?**
 
-Vi beklagar att du har problem. Gå till [Felsökningsmål](../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) för länkar till många felsökningsämnen.
+Vi beklagar att du har problem. Se [Felsökning av Target](../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) för länkar till många felsökningsfrågor.
 
-## Målmobilappar {#section_07BA89F2C38747158ECD5B153274AEAF}
+## Target mobilappar {#section_07BA89F2C38747158ECD5B153274AEAF}
 
 **Vi har en mobil SKU. Kan jag skapa mobilaktiviteter?**
 
-För optimering och personalisering på mobilen måste ni använda [formulärbaserade aktiviteter](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) tillsammans med [Adobe SDK](../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Läs mer om [Target for mobile apps](../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
+För optimering och personalisering på mobilen måste ni använda [formulärbaserade aktiviteter](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) tillsammans med [Adobe SDK](../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Läs mer om [Target för mobilappar](../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
 
-## Mål-API:er {#section_714E85EFF6E3400389EF2E40D538E1DA}
+## Target API:er {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Var kan jag läsa mer om Target API:er?**
 
