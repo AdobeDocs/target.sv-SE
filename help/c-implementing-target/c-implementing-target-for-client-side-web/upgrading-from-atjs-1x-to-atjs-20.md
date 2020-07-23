@@ -1,16 +1,19 @@
 ---
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
-description: Detaljerad information om hur du uppgraderar från Adobe Target kl. 1.js.*x* till at.js version 2.0.0
+description: Detaljerad information om hur du uppgraderar från Adobe Target at.js 1.*x* till at.js version 2.0.0
 title: Uppgradera från Adobe Target at.js version 1.*x* till at.js version 2.*x*
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2733'
+ht-degree: 0%
 
 ---
 
 
-# Uppgraderar från at.js 1.*x* to at.js 2.*x*{#upgrading-from-atjs-1x-to-atjs-200}
+# Uppgraderar från at.js 1.*x* to at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
 
 Den senaste versionen av at.js i [!DNL Adobe Target] innehåller funktionsrika uppsättningar som gör det möjligt för ditt företag att utföra personalisering på nästa generations klientteknologier. Den nya versionen fokuserar på att uppgradera at.js för att få harmonisk interaktion med Single page applications (SPA).
 
@@ -24,22 +27,22 @@ Här är några fördelar med att använda at.js 2.*x* som inte finns i tidigare
 
 Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*x* with Views och hur detta förbättrar SPA-integreringen. För att få en bättre introduktion till de koncept som används i at.js 2.*x*, se Implementering [av](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Single Page-program.
 
-![Målflöde med at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Target flödar med at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Utlysning | Detaljer |
 | --- | --- |
 | 1 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad. ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett alternativ som gör att fragment för att dölja kan implementeras på sidan. |
 | 3 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
-| 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från målgruppsbiblioteket (till exempel målgrupper som delas från Adobe Analytics, Audience Management osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
+| 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, etc.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
 | 5 | Baserat på parametrar för URL-begäran och profildata bestämmer du vilka aktiviteter och upplevelser som ska returneras till besökaren för den aktuella sidan och framtida vyer. [!DNL Target] |
 | 6 | Målinriktat innehåll skickas tillbaka till sidan, eventuellt med profilvärden för ytterligare personalisering.<br>Målinriktat innehåll på den aktuella sidan visas så snabbt som möjligt utan att du behöver flimra standardinnehållet.<br>Målanpassat innehåll för vyer som visas som ett resultat av användaråtgärder i en SPA som cachas i webbläsaren så att det kan tillämpas direkt utan ett extra serveranrop när vyerna aktiveras via `triggerView()`. |
-| 7 | Analysdata skickas till datainsamlingsservrar. |
-| 8 | Målinriktade data matchas mot analysdata via SDID och bearbetas till lagringsplatsen för analysrapporter.<br>Analysdata kan sedan visas i både Analytics- och Target-rapporter via Analytics for Target-rapporter (A4T). |
+| 7 | Analytics data skickas till datainsamlingsservrar. |
+| 8 | Målinriktade data matchas mot Analytics-data via SDID och bearbetas till Analytics rapportlagring.<br>Analytics-data kan sedan visas i både Analytics och Target via Analytics for Target-rapporter (A4T). |
 
 Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett serveranrop, oavsett var i SPA-filen `triggerView()` implementeras. `triggerView()` skickar också en meddelandebegäran till [!DNL Target] backend-objektet för att öka antalet och registrera antalet visningar.
 
-![Målflöde vid .js 2.*x* triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Target flow at.js 2.*x* triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Utlysning | Detaljer |
 | --- | --- |
@@ -47,10 +50,10 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target] Profile Store för att räkna besökaren i aktiviteten och ökningsvärdena. |
-| 5 | Analysdata skickas till datainsamlingsservrar. |
-| 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
+| 5 | Analytics-data skickas till datainsamlingsservrar. |
+| 6 | Target data matchas mot Analytics-data via SDID och bearbetas till Analytics rapporteringslager. Analytics data kan sedan visas i både Analytics och Target via A4T-rapporter. |
 
-## Driftsätt på js 2.*x*{#deploy-atjs-200}
+## Driftsätt på js 2.*x* {#deploy-atjs-200}
 
 1. Driftsätt på js 2.*x* via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
 
@@ -60,7 +63,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 
    eller
 
-   Ladda ned på.js 2 manuellt.*x* med Target-användargränssnittet och distribuera det med den [metod du väljer](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
+   Ladda ned på.js 2 manuellt.*x* med Target UI och distribuera det med [valfri](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)metod.
 
 ## Borttagna at.js-funktioner
 
@@ -223,7 +226,7 @@ Ja, besökarprofilen bevaras på olika sidor med olika versioner och bibliotek. 
 
 at.js 2.*x* använder ett nytt API, som vi kallar leverans-API. Om du vill felsöka om at.js anropar [!DNL Target] edge-servern korrekt kan du filtrera fliken Nätverk i webbläsarens utvecklingsverktyg till &quot;delivery&quot;, &quot;`tt.omtrdc.net`&quot; eller din klientkod. Du kommer också att märka att [!DNL Target] en JSON-nyttolast skickas i stället för nyckelvärdepar.
 
-### Global målruta används inte längre
+### Target Global Mbox används inte längre
 
 I at.js 2.*x* visas inte längre&quot;`target-global-mbox`&quot; synligt i nätverksanropen. I stället har vi ersatt syntaxen&quot;`target-global-mbox`&quot; med&quot;`execute > pageLoad`&quot; i JSON-nyttolasten som skickas till [!DNL Target] servrarna, vilket visas nedan:
 
@@ -246,7 +249,7 @@ Det globala mbox-konceptet introducerades för att ge [!DNL Target] information 
 
 ### Spelar det globala mbox-namnet i at.js längre någon roll?
 
-Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Setup > Implementation > Edit at.js Settings]. Den här inställningen används av [!DNL Target] edge-servrarna för att översätta execute > pageLoad till det globala mbox-namnet som visas i [!DNL Target] gränssnittet. Detta gör att kunderna kan fortsätta att använda serversidans API:er, den formulärbaserade dispositionen, profilskript och skapa målgrupper med hjälp av den globala mbox-namnet. Vi rekommenderar att du även kontrollerar att samma globala mbox-namn är konfigurerat på sidan [!UICONTROL Inställningar > Inställningar] om du fortfarande har sidor som använder at.js 1.*x* eller mbox.js, som på följande bilder.
+Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Den här inställningen används av [!DNL Target] edge-servrarna för att översätta execute > pageLoad till det globala mbox-namnet som visas i [!DNL Target] gränssnittet. Detta gör att kunderna kan fortsätta att använda serversidans API:er, den formulärbaserade dispositionen, profilskript och skapa målgrupper med hjälp av den globala mbox-namnet. Vi rekommenderar att du även ser till att samma globala mbox-namn är konfigurerat på [!UICONTROL Administration > Visual Experience Composer] sidan om du fortfarande har sidor som använder at.js 1.*x* eller mbox.js, som på följande bilder.
 
 ![Dialogrutan Ändra at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -276,15 +279,15 @@ Ja, eftersom execute > pageLoad behandlas på [!DNL Target] edge-servrar som `ta
 
 ### Stöd för spårning mellan domäner i at.js 2.x {#cross-domain}
 
-Spårning mellan domäner gör det möjligt att sammanfoga besökare i olika domäner. Eftersom en ny cookie måste skapas för varje domän är det svårt att spåra besökare när de navigerar från en domän till en domän. För att uppnå domänövergripande spårning använder [!DNL Target] en cookie från tredje part för att spåra besökare över domäner. På så sätt kan du skapa en Target-aktivitet som sträcker sig över flera domäner `siteA.com` och `siteB.com` besökarna behåller samma upplevelse när de navigerar mellan olika domäner. Den här funktionen är kopplad till Target cookie-beteende från tredje part och från första part.
+Spårning mellan domäner gör det möjligt att sammanfoga besökare i olika domäner. Eftersom en ny cookie måste skapas för varje domän är det svårt att spåra besökare när de navigerar från en domän till en domän. För att uppnå domänövergripande spårning använder [!DNL Target] en cookie från tredje part för att spåra besökare över domäner. På så sätt kan du skapa en Target-aktivitet som spänner över `siteA.com` och `siteB.com` besökarna behåller samma upplevelse när de navigerar mellan unika domäner. Den här funktionen är kopplad till Target cookie-beteende från tredje part och från första part.
 
 >[!NOTE]
 >
 >Spårning mellan domäner stöds inte i paketet at.js 2.*x*. Spårning mellan domäner stöds i at.js 2.*x* via Experience Cloud ID-biblioteket (ECID) v4.3.0+.
 
-I Target lagras tredjeparts-cookie i `<CLIENTCODE>.tt.omtrdc.net`. Den första partens cookie lagras i `clientdomain.com`. Den första begäran returnerar HTTP-svarshuvuden som försöker ange cookies från tredje part som heter `mboxSession` och `mboxPC`som, medan en omdirigeringsbegäran skickas tillbaka med en extra parameter (`mboxXDomainCheck=true`). Om webbläsaren accepterar cookies från tredje part inkluderar omdirigeringsbegäran dessa cookies och upplevelsen returneras. Det här arbetsflödet är möjligt eftersom vi använder metoden HTTP GET.
+I Target lagras cookie-filen från tredje part i `<CLIENTCODE>.tt.omtrdc.net`. Den första partens cookie lagras i `clientdomain.com`. Den första begäran returnerar HTTP-svarshuvuden som försöker ange cookies från tredje part som heter `mboxSession` och `mboxPC`som, medan en omdirigeringsbegäran skickas tillbaka med en extra parameter (`mboxXDomainCheck=true`). Om webbläsaren accepterar cookies från tredje part inkluderar omdirigeringsbegäran dessa cookies och upplevelsen returneras. Det här arbetsflödet är möjligt eftersom vi använder metoden HTTP GET.
 
-I at.js 2.*x*, HTTP GET används inte längre och i stället används HTTP POST. HTTP POST används nu via at.js 2.*x* för att skicka JSON-nyttolaster till edge-servrar. Detta innebär att omdirigeringsbegäran för att kontrollera om en webbläsare stöder cookies från tredje part nu avbryts. Detta beror på att HTTP GET-begäranden är idempotenta transaktioner, medan HTTP POST är icke-idempotent och inte får upprepas godtyckligt. Därför kan du spåra korsdomäner i at.js 2.*x* stöds inte längre. Endast i js 1.*x* har färdiga funktioner för domänövergripande spårning.
+I at.js 2.*x*, HTTP GET används inte längre och i stället används HTTP POST. HTTP POST används nu via at.js 2.*x* för att skicka JSON-nyttolaster till Target Edge-servrar. Detta innebär att omdirigeringsbegäran för att kontrollera om en webbläsare stöder cookies från tredje part nu avbryts. Detta beror på att HTTP GET-begäranden är idempotenta transaktioner, medan HTTP POST är icke-idempotent och inte får upprepas godtyckligt. Därför kan du spåra korsdomäner i at.js 2.*x* stöds inte längre. Endast i js 1.*x* har färdiga funktioner för domänövergripande spårning.
 
 Om du vill använda domänövergripande spårning måste du installera [ECID-biblioteket v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) i kombination med at.js 2.*x*. ECID-biblioteket finns för att hantera beständiga ID:n som används för att identifiera en besökare även mellan domäner.
 
@@ -298,7 +301,7 @@ Den här inställningen anger at.js 2.*x* för att skicka en begäran till [!DNL
 
 ### Namn på global Mbox stöds
 
-Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Setup > Implementation > Edit at.js Settings]. Den här inställningen används av [!DNL Target] edge-servrarna för att översätta execute > pageLoad till det inmatade globala mbox-namnet. Detta gör att kunderna kan fortsätta att använda serversidans API:er, den formulärbaserade dispositionen, profilskript och skapa målgrupper som har den globala mbox som mål.
+Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Administration > Implementation > Edit]. Den här inställningen används av [!DNL Target] edge-servrarna för att översätta execute > pageLoad till det inmatade globala mbox-namnet. Detta gör att kunderna kan fortsätta att använda serversidans API:er, den formulärbaserade dispositionen, profilskript och skapa målgrupper som har den globala mbox som mål.
 
 ### Gäller de anpassade händelserna at.js nedan för `triggerView()` eller gäller de bara `applyOffer()` eller `applyOffers()`?
 
@@ -340,7 +343,7 @@ I följande tabeller beskrivs at.js. 2.*x* -kompatibilitet med olika aktivitetst
 | --- | --- |
 | A/B-test | Ja |
 | Automatisk allokering | Ja |
-| Automatiskt mål | Ja |
+| Auto-Target | Ja |
 | Experience Targeting | Ja |
 | Multivariata tester | Ja |
 | Automatiserad personalisering | Ja |
@@ -348,13 +351,13 @@ I följande tabeller beskrivs at.js. 2.*x* -kompatibilitet med olika aktivitetst
 
 >[!NOTE]
 >
->Automatiskt mål-aktiviteter stöds i at.js 2.*x* och VEC när alla ändringar tillämpas på `Page Load Event`. När ändringar läggs till i vissa vyer stöds endast aktiviteterna A/B Test, Auto-Allocate och Experience Targeting (XT).
+>Automatiska Target-aktiviteter stöds i at.js 2.*x* och VEC när alla ändringar tillämpas på `Page Load Event`. När ändringar läggs till i vissa vyer stöds endast aktiviteterna A/B Test, Auto-Allocate och Experience Targeting (XT).
 
 ### Integreringar {#integrations}
 
 | Typ | Stöds? |
 | --- | --- |
-| Analyser för mål (A4T) | Ja |
+| Analytics för Target (A4T) | Ja |
 | Målgrupper | Ja |
 | Kundattribut | Ja |
 | AEM Experience Fragments | Ja |
@@ -363,7 +366,7 @@ I följande tabeller beskrivs at.js. 2.*x* -kompatibilitet med olika aktivitetst
 | Revisor | Regler har ännu inte uppdaterats för kl. 2.js.*x* |
 | Dynamic Tag Manager (DTM) | Ja |
 | Anmäl dig | Nej. Stöd för deltagande i [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) stöds i [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
-| AEM Förbättrad personalisering med Adobe Target | Nej |
+| AEM Förbättrad personalisering från Adobe Target | Nej |
 
 ### Funktioner
 
@@ -432,7 +435,7 @@ Används för [Enterprise-användarbehörigheter](/help/administrating-target/c-
 
 (at.js 1.*x* -parameter)
 
-Domänen för sidan där målbiblioteket körs.
+Domänen för den sida där Target-biblioteket körs.
 
 at.js 2.*x* JSON-nyttolast:
 
@@ -640,7 +643,7 @@ at.js 2.*x* JSON-nyttolast:
 
 (at.js 1.*x* -parameter)
 
-Kundens tredje parts-ID som används för att länka olika mål-ID:n.
+Kundens tredje parts-ID som används för att länka olika Target-ID:n.
 
 at.js 2.*x* JSON-nyttolast:
 
@@ -676,7 +679,7 @@ at.js 2.*x* JSON-nyttolast:
 
 (at.js 1.*x* -parameter)
 
-Analysspårningsserver. Ska passera in i `experienceCloud > analytics > trackingServer`.
+Analytics spårningsserver. Ska passera in i `experienceCloud > analytics > trackingServer`.
 
 at.js 2.*x* JSON-nyttolast:
 
@@ -695,7 +698,7 @@ at.js 2.*x* JSON-nyttolast:
 
 (at.js 1.*x* -parameter)
 
-Analysspårningsservern är säker. Ska passera in i `experienceCloud > analytics > trackingServerSecure`.
+Analytics spårningsserver säkert. Ska passera in i `experienceCloud > analytics > trackingServerSecure`.
 
 at.js 2.*x* JSON-nyttolast:
 
@@ -733,7 +736,7 @@ at.js 2.*x* JSON-nyttolast:
 
 (at.js 1.*x* -parameter)
 
-Audience Manager-blob. Ska passera in i `experienceCloud > audienceManager > blob`.
+Audience Manager blob. Ska passera in i `experienceCloud > audienceManager > blob`.
 
 at.js 2.*x* JSON-nyttolast:
 
