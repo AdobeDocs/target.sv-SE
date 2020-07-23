@@ -1,10 +1,13 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extension;browser
-description: Information om hur du använder webbläsartillägget Adobe Target Visual Experience Composer (VEC) Helper för att läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-upplevelser.
+description: Information om hur du använder webbläsartillägget Adobe Target Visual Experience Composer (VEC) för att läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-upplevelser.
 title: Hjälptillägg för Adobe Target Visual Experience Composer (VEC)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +54,7 @@ Följande bild visar VEC Helper där du tillfrågas om du vill att den ska injic
 
    Tänk på att den här flaggan är en global inställning. Flaggan är aktiverad eller inaktiverad för alla webbplatser som öppnas i VEC. Om du t.ex. anger den här flaggan som ON och öppnar en webbplats som redan har implementerats med at.js får du ett meddelande om att at.js redan har lästs in. Vi räknar med att de flesta kunder redan har at.js implementerat på sina sidor och att de kommer att använda standardinställningen OFF.
 
-* Tillägget läser in den senaste versionen av at.js som är tillgänglig från [!DNL Target UI] i [!UICONTROL Setup > Implementation].
+* Tillägget läser in den senaste versionen av at.js som är tillgänglig från [!DNL Target UI] i [!UICONTROL Administration > Implementation].
 * När du använder tillägget för att injicera at.js i [QA-läge](/help/c-activities/c-activity-qa/activity-qa.md)måste du ha en annan flik i Chrome öppen. Denna Chrome-flik måste autentiseras i samma [!DNL Adobe Experience Cloud] organisation som du skapade aktiviteten i.
 * Följande meddelanden hjälper dig att hålla dig informerad:
 
