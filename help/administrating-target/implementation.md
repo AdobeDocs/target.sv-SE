@@ -5,9 +5,9 @@ title: Implementera Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: b8eb49876c3759223eb5d6979678f6c6b24963e9
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ Innan du börjar använda [!DNL Adobe Target]bör du implementera den på din we
 
 Mer information finns i de olika avsnitten under [Implementera Target](/help/c-implementing-target/implementing-target.md).
 
-Information om inställningarna på den här sidan finns på [Implementera Target utan tagghanterare](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
-
 >[!NOTE]
 >
 >[!DNL Adobe Experience Platform Launch] är den metod som ska implementeras [!DNL Target]. [!DNL Launch] ger kunderna ett enkelt sätt att driftsätta och hantera alla analys-, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser. Mer information finns i [Implementera Target med Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
-Du öppnar [!UICONTROL Implementation] sidan genom att klicka **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Du öppnar [!UICONTROL Implementation] sidan genom att klicka **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+
+1. Mer information om inställningarna på den här sidan finns i [Implementera Target utan en tagghanterare](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
 
 ![Implementeringssida](/help/administrating-target/assets/implementation.png)
