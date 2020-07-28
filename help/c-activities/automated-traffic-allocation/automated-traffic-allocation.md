@@ -5,9 +5,9 @@ title: Automatisk allokering
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3124'
+source-wordcount: '3310'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ Med Automatisk allokering utförs alla implicita jämförelser mellan upplevelse
 
 Automatisk allokering tilldelar nya besökare till upplevelser på ett intelligent sätt tills konfidensintervallet för den bästa upplevelsen inte överlappar den för någon annan upplevelse. Vanligtvis kan den här processen ge upphov till falska positiva resultat, men autoallokering använder konfidensintervall som baseras på [Bernstein-integriteten](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) som kompenserar för upprepade utvärderingar. I nuläget har vi en sann vinnare. När autoallokering upphör, förutsatt att det inte finns något stort tidsberoende för besökare som kommer till sidan, finns det minst 95 % chans att autoallokering returnerar en upplevelse vars verkliga respons inte är sämre än 1 % (relativ) mindre än det verkliga svaret från den vinnande upplevelsen.
 
-## Använda autofördelning jämfört med A/B eller Automatiserad personalisering {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Använd autofördelning jämfört med A/B eller Automated Personalization {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Använd **Automatisk fördelning** när du vill optimera din aktivitet från början och identifiera de vinnande upplevelserna så snabbt som möjligt. Genom att leverera högpresterande upplevelser oftare ökar den totala aktivitetsprestandan.
 * Använd ett standardtest **[för](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**A/B när du vill karakterisera prestandan för alla upplevelser innan du optimerar webbplatsen. Ett A/B-test hjälper er att rangordna alla era upplevelser, medan Automated Traffic Allocation hittar de bästa resultaten men inte garanterar differentiering mellan de lägre prestandan.
-* Använd [Automatiserad personalisering](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) när ni vill ha optimeringsalgoritmer av högsta komplexitet, till exempel maskininlärningsmodeller som bygger upp prognoser baserade på enskilda profilattribut. Automatiserad trafikallokering tittar på det sammanlagda beteendet för upplevelser (precis som standard-A/B-tester) och skiljer inte mellan besökarna.
+* Använd [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) när du vill ha optimeringsalgoritmer av högsta komplexitet, till exempel maskininlärningsmodeller som bygger prognoser baserade på enskilda profilattribut. Automatiserad trafikallokering tittar på det sammanlagda beteendet för upplevelser (precis som standard-A/B-tester) och skiljer inte mellan besökarna.
 
 ## Viktiga fördelar {#section_0913BF06F73C4794862561388BBDDFF0}
 
@@ -161,9 +161,9 @@ Ja. Den multiväpnade banken ser till att minst 20 % av trafiken reserveras för
 
 Så länge alla upplevelser som optimeras har liknande fördröjningar är beteendet detsamma som en aktivitet med snabbare konverteringscykel, även om det tar längre tid att nå tröskelvärdet på 50 konverteringar innan trafikallokeringsprocessen börjar.
 
-### Hur skiljer sig Automatisk fördelning från Automatisk personalisering?
+### Hur skiljer sig Automatisk fördelning från Automated Personalization?
 
-Automatiserad personalisering använder varje besökares profilattribut för att fastställa den bästa upplevelsen. På så sätt optimeras inte bara aktiviteten, utan även personaliseras för användaren.
+Automated Personalization använder varje besökares profilattribut för att fastställa den bästa upplevelsen. På så sätt optimeras inte bara aktiviteten, utan även personaliseras för användaren.
 
 Auto-Allocate är å andra sidan ett A/B-test som skapar en sammanställd vinnare (den mest populära upplevelsen, men inte nödvändigtvis den mest effektiva upplevelsen för varje besökare).
 
@@ -188,6 +188,18 @@ Det finns ingen anledning att ta bort en underpresterande upplevelse. Automatisk
 Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med [!DNL Target] användargränssnittet bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
 
 Denna rekommendation gäller för [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]och [!UICONTROL Automated Personalization] aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
+
+### Kan jag använda alternativet Återställ rapportdata när jag kör en autoallokeringsaktivitet?
+
+Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Auto-Allocate] aktiviteter. Även om det tar bort synliga rapportdata tas inte alla utbildningsposter bort från [!UICONTROL Auto-Allocate] modellen. I stället för att använda [!UICONTROL Reset Report Data] alternativet för [!UICONTROL Auto-Allocate] aktiviteter skapar du en ny aktivitet och inaktiverar den ursprungliga aktiviteten. (Obs! Denna vägledning gäller även [!UICONTROL Auto-Target] verksamhet och [!UICONTROL Automated Personalization] verksamhet.)
+
+### Hur bygger Automatisk tilldelning modeller med hänsyn till miljöer?
+
+[!UICONTROL Auto-Allocate] bygger modeller som bygger på trafik- och konverteringsbeteenden som registreras endast i standardmiljön. Som standard är [!UICONTROL Production] standardmiljön, men den kan ändras i Target [Administration > Miljöer](/help/administrating-target/environments.md).
+
+Om en träff inträffar i en annan (icke-standardmiljö) kommer trafiken att fördelas enligt det observerade konverteringsbeteendet i standardmiljön. Resultatet av den träffen (konvertering eller icke-konvertering) registreras för rapportändamål men beaktas inte i [!UICONTROL Auto-Allocate] modellen.
+
+När du väljer en annan miljö visar rapporten trafik och konverteringar för den miljön. Den standardmiljö som väljs för en rapport är alltid det kontoövergripande standardvärde som valts. Standardmiljön kan inte anges per aktivitet.
 
 ## Utbildningsvideor {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
