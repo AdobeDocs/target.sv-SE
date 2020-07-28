@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,11 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 28 juli | [Insikter-rapporter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)om personalisering,rapport<br>[om](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatiska segment<br>och [viktiga attribut](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Uppdaterad text i anteckningen. |
+|  | [Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Lagt till information om Internet Explorer och okända element. |
+|  | [Kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Uppdaterat följande stycke:<br>[!DNL Adobe] garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till [!DNL Experience Cloud] och därför vara tillgängliga för användning i [!DNL Target]. I vår nuvarande design finns det en möjlighet att en liten andel data (upp till 0,1 % av stora tillverkningssatser) inte tas med. |
 | 27 juli | [Administrera Target](/help/administrating-target/administrating-target.md) | Uppdaterad text i alla länkade ämnen på den här sidan för att återspegla de nya gränssnittsändringarna för [!UICONTROL Administration] sidorna. |
-|  | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Gör följande ändringar: <ul><li>Lagt till registreringsinformation för följande webbinarium: &quot;Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala.&quot;</li><li>Lagt till information om att Adobe återigen har utsetts till ledare i Gartners Magic Quadrant for Personalization Engines.</li></ul> |
+|  | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Gör följande ändringar: <ul><li>Lagt till registreringsinformation för följande webbinarium: &quot;Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala.&quot;</li><li>Lagt till information om att Adobe ännu en gång utnämnts till ledare i Gartners Magic Quadrant for Personalization Engines.</li></ul> |
 |  | [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) | Tydligare information i steg 4: Välj en plats. |
 | 24 juli | <br>[versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.3.2. |
 |  | [Versionsinformation](/help/r-release-notes/release-notes.md): 20.7.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
@@ -42,7 +45,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Hur at.js fungerar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Följande video har lagts till: Kontorstid: at.js tips och översikt |
 | 17 juni | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
 |  | [Svarstoken](/help/administrating-target/response-tokens.md) | Lagt till information om svarstoken för trafiktilldelningsmetod för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] aktiviteter. |
-|  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Lagt till information om stöd för Analytics for Target (A4T) för Automatisk allokering av aktiviteter. |
+|  | [Skapa aktivitet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Ytterligare information om stöd för Analytics for Target (A4T) för automatisk fördelning av aktiviteter. |
 |  | [Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Lagt till information om den nya [!UICONTROL Publisher] rollen under *Ange roller och behörigheter*. |
 |  | [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Lagt till information om den nya [!UICONTROL Publisher] rollen under *steg 6: Ange roller och behörigheter*. |
 |  | [Enterprise-användarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Länk till *kontorstid: Target Premium Workspaces-session*. |
@@ -56,7 +59,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 | 8 juni | [Vanliga frågor om Target för mobilappar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile endast en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om den 10 juni Adobe Target Coffee Break har lagts till. |
@@ -74,7 +77,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 13 maj | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Avsnittet&quot;Kända begränsningar&quot; har lagts till. |
 | 11 maj | [Värdar](/help/administrating-target/hosts.md) | Lagt till information om hur du använder funktionen ubox med omdirigeringar och tillåtelselista. |
 |  | [Arbeta med regissörer](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
-|  | [Integrera rekommendationer med e-post](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
+|  | [Integrera Recommendations med e-post](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
 |  | [E-post: implementera Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
 | 7 maj | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | I och med den kommande utfasningen av mbox.js den 30 augusti 2020 var David Son, Adobe Target Product Manager, nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Det finns en länk där du kan titta på webbinariet de kommande 30 dagarna. |
 |  | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Uppdaterade avsnittet &quot;Överväganden&quot;. |
@@ -99,7 +102,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 2 april | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Lagt till information om hur du använder `user.header('x-forwarded-for')` med nyare AWS-kanter för att hämta användarnas IP-adresser. |
 |  | [Uppgraderar från at.js 1.*x* to at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Följande anmärkning har lagts till:<ul><li>Efter installation av ECID-biblioteket v4.3.0+ och at.js 2.*x* kan du skapa aktiviteter som spänner över unika domäner samt spåra användare. Det är viktigt att komma ihåg att den här funktionen fungerar först när sessionen har upphört.</li></ul> |
 | 30 mars | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Ett känt fel som påverkar at.js-versionerna före kl. 2.2.0 har lagts till. Detta orsakade att klickspårning inte rapporterade konverteringar i Analytics för Target (A4T) när Adobe Analytics-kod inte fanns på sidelement. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Följande information har lagts till i informationen för at.js version 2.2.0:<ul><li>Korrigerade ett problem som orsakade klickspårning för att inte rapportera konverteringar i Analytics för Target (A4T) när Adobe Analytics-kod inte fanns på sidelementen.</li></ul> |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Följande information har lagts till i informationen för at.js version 2.2.0:<ul><li>Korrigerade ett problem som orsakade klickspårning för att inte rapportera konverteringar i Analytics för Target (A4T) när Adobe Analytics-kod inte fanns på sidelement.</li></ul> |
 | 25 mars | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om följande nya versioner av at.js:<ul><li>at.js version 2.3.0</li><li>at.js version 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Följande nya rader har lagts till i avsnittet Inställningar:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Följande nya avsnitt har lagts till:<ul><li>Skyddsprofil för innehåll</li></ul> |
 | 24 mars | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Lagt till information om påverkan för följande:<ul><li>Profilskript baserade på 3rdPartyID</li><li>QA/Preview URLs in iOS devices</li></ul> |
