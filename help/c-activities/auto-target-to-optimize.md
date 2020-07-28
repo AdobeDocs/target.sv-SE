@@ -4,9 +4,9 @@ title: Auto-Target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3423'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,22 @@ När du [skapar en A/B-aktivitet med det guidade arbetsflödet](../c-activities/
 
 Med [!UICONTROL Auto-Target] alternativet i A/B-aktivitetsflödet kan ni utnyttja maskininlärning för att personalisera baserat på en uppsättning marknadsföringsdefinierade upplevelser med ett enda klick. [!UICONTROL Auto-Target] är utformat för att ge maximal optimering, jämfört med traditionell A/B-testning eller automatisk fördelning, genom att avgöra vilken upplevelse som ska visas för varje besökare. Till skillnad från en A/B-aktivitet där målet är att hitta en enskild vinnare avgör [!UICONTROL Auto-Target] automatiskt den bästa upplevelsen för en viss besökare (baserat på hans eller hennes profil och annan sammanhangsbaserad information) för att leverera en mycket personaliserad upplevelse.
 
-På samma sätt som Automatiserad personalisering [!UICONTROL Auto-Target] använder en slumpmässig skogsalgoritm, en ledande metod för datavetenskap, för att fastställa den bästa upplevelsen som ska visas för en besökare. Eftersom [!UICONTROL Auto-Target] kan anpassa sig till förändringar i besökarnas beteende kan det köras permanent för att ge lyft. Detta kallas ibland för &quot;alltid på&quot;-läge.
+På samma sätt som i Automated Personalization [!UICONTROL Auto-Target] används en slumpmässig skogsalgoritm, en metod som är unik för datavetenskap, för att fastställa den bästa upplevelsen som ska visas för en besökare. Eftersom [!UICONTROL Auto-Target] kan anpassa sig till förändringar i besökarnas beteende kan det köras permanent för att ge lyft. Detta kallas ibland för &quot;alltid på&quot;-läge.
 
 Till skillnad från en A/B-aktivitet där upplevelseallokeringen för en viss besökare är snäv, [!UICONTROL Auto-Target] optimerar det angivna verksamhetsmålet för varje besök. Som i [!UICONTROL Auto Personalization]reserverar [!UICONTROL Auto-Target]som standard en del av aktivitetens trafik som en kontrollgrupp för att mäta lyft. Besökarna i kontrollgruppen får en slumpmässig erfarenhet av aktiviteten.
 
+## Överväganden
+
 Det finns några viktiga saker att tänka på när du använder [!UICONTROL Auto-Target]:
 
-* Du kan inte växla en specifik aktivitet från [!UICONTROL Auto-Target] till Automatiserad personalisering, och vice versa.
+* Du kan inte växla en viss aktivitet från [!UICONTROL Auto-Target] till Automated Personalization, och vice versa.
 * Du kan inte växla från manuell trafikallokering (traditionellt A/B-test) till [!UICONTROL Auto-Target], och vice versa, efter att en aktivitet är aktiv.
-* När du använder värdar och miljöer (värdgrupper) skapas modeller endast för produktionsmiljön. Alla miljöer bidrar till att skapa modeller för&quot;produktionskampanjer&quot;.
+* En modell är byggd för att identifiera den personaliserade strategins prestanda jämfört med slumpvis betjänad trafik jämfört med att skicka all trafik till den övergripande vinnande upplevelsen. Den här modellen hanterar endast träffar och konverteringar i standardmiljön.
+
+   Trafik från en andra uppsättning modeller byggs för varje modellgrupp (AP) eller upplevelse (AT). För var och en av dessa modeller beaktas träffar och konverteringar i alla miljöer.
+
+   Förfrågningar kommer därför att hanteras enligt samma modell, oavsett miljö, men den stora trafikmångfalden bör komma från standardmiljön för att säkerställa att den identifierade övergripande vinnande upplevelsen överensstämmer med det verkliga beteendet.
+
 * Ni måste använda minst två upplevelser.
 
 ## Terminologi {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -51,12 +58,12 @@ Följande termer är användbara vid diskussion [!UICONTROL Auto-Target]:
 
 ## Så här [!UICONTROL Auto-Target] fungerar {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
-Lär dig mer om underliggande data och algoritmer [!UICONTROL Auto-Target] och Automatiserad personalisering via länkarna nedan:
+Läs mer om underliggande data och algoritmer [!UICONTROL Auto-Target] och Automated Personalization på länkarna nedan:
 
 | Villkor | Detaljer |
 |--- |--- |
-| [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Target huvudsakliga personaliseringsalgoritm som används i både [!UICONTROL Auto-Target] och Automatiserad personalisering är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Random Forest i det automatiserade personaliseringssystemet är en klassificering, eller regressionsmetod, som fungerar genom att en mängd beslutsträd byggs ut under utbildningstiden. |
-| [Överför data för Target personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Det finns flera sätt att mata in data för [!UICONTROL Auto-Target] och automatiserade personaliseringsmodeller. |
+| [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Target huvudsakliga personaliseringsalgoritm som används i både [!UICONTROL Auto-Target] och Automated Personalization är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Random Forest i det automatiserade personaliseringssystemet är en klassificering, eller regressionsmetod, som fungerar genom att en mängd beslutsträd byggs ut under utbildningstiden. |
+| [Överför data för Target personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Det finns flera sätt att mata in data för [!UICONTROL Auto-Target] och Automated Personalization-modeller. |
 | [Datainsamling för Target personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/ap-data.md) | Target personaliseringsalgoritmer samlar automatiskt in en mängd olika data. |
 
 ## Bestämma trafikallokering {#section_AB3656F71D2D4C67A55A24B38092958F}
@@ -83,15 +90,15 @@ Om du vill justera kontrollprocenten klickar du på ikonerna i kolumnen Allokeri
 
 Du kan [välja en specifik upplevelse som ska användas som kontroll](/help/c-activities/t-automated-personalization/experience-as-control.md) eller så kan du använda alternativet Slumpmässig upplevelse.
 
-## När ska ni välja [!UICONTROL Auto-Target] framför Automatiserad personalisering? {#section_BBC4871C87944DD7A8B925811A30C633}
+## När ska du välja [!UICONTROL Auto-Target] framför Automated Personalization? {#section_BBC4871C87944DD7A8B925811A30C633}
 
-Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto-Target] framför Automatiserad personalisering:
+Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto-Target] framför Automated Personalization:
 
 * Om ni vill definiera hela upplevelsen i stället för enskilda erbjudanden som automatiskt kombineras för att skapa en upplevelse.
 * Om du vill utnyttja alla funktioner i Visual Experience Composer (VEC) som inte stöds av [!UICONTROL Auto Personalization]: den anpassade kodredigeraren, flera olika upplevelsemålgrupper med mera.
-* Om du vill göra strukturella ändringar på sidan i olika upplevelser. Om du till exempel vill ändra ordningen på elementen på startsidan är det bättre att använda [!UICONTROL Auto-Target] än Automatiserad personalisering.
+* Om du vill göra strukturella ändringar på sidan i olika upplevelser. Om du t.ex. vill ändra ordningen på elementen på startsidan är det bättre att använda [!UICONTROL Auto-Target] dem än Automated Personalization.
 
-## Vad har [!UICONTROL Auto-Target] ni gemensamt med automatiserad personalisering? {#section_2A601F482F9A44E38D4B694668711319}
+## Vad har [!UICONTROL Auto-Target] jag gemensamt med Automated Personalization? {#section_2A601F482F9A44E38D4B694668711319}
 
 **Algoritmen optimerar för ett positivt resultat vid varje besök.**
 
@@ -113,7 +120,7 @@ Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto
 
 **Target samlar automatiskt in information om besökare för att skapa personaliseringsmodeller.**
 
-* Mer information om parametrarna som används i [!UICONTROL Auto-Target] och Automatiserad personalisering finns i [Automatiserad datainsamling](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)för personalisering.
+* Mer information om parametrarna som används i [!UICONTROL Auto-Target] och Automated Personalization finns i [Automated Personalization Data Collection](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
 **Target använder automatiskt alla gemensamma målgrupper i Experience Cloud för att skapa personaliseringsmodeller.**
 
@@ -121,13 +128,13 @@ Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto
 
 **Marknadsförarna kan överföra offlinedata, benägenhetspoäng eller andra anpassade data för att skapa personaliseringsmodeller.**
 
-* Läs mer om hur du [överför data för automatisk Target och Automated Personalization](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* Läs mer om [överföring av data för Auto-Target och Automated Personalization](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
-## Hur skiljer sig [!UICONTROL Auto-Target] från automatiserad personalisering? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
+## Hur skiljer sig [!UICONTROL Auto-Target] det från Automated Personalization? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
 **[!UICONTROL Auto-Target]ofta kräver mindre trafik än Automated Personalization för att bygga en personaliserad modell.**
 
-Även om mängden trafik *per upplevelse* som krävs för [!UICONTROL Auto-Target] eller [!UICONTROL Auto Personalization] modeller att bygga är densamma, finns det vanligtvis fler upplevelser i en automatiserad personaliseringsaktivitet än en [!UICONTROL Auto-Target] aktivitet. Om du till exempel har en [!UICONTROL Auto Personalization] aktivitet där du har skapat två erbjudanden per plats med två platser, skulle det finnas fyra (2 = 4) totala upplevelser i aktiviteten (utan undantag). Med [!UICONTROL Auto-Target]hjälp av kan ni ange upplevelse 1 som inkluderar erbjudande 1 på plats 1 och erbjudande 2 på plats 2, och upplevelse 2 som inkluderar erbjudande 1 på plats 1 och erbjudande 2 på plats 2. Eftersom [!UICONTROL Auto-Target] ni kan välja att göra flera ändringar i en upplevelse kan ni minska antalet totala upplevelser i er aktivitet.
+Även om mängden trafik *per upplevelse* som krävs för att bygga [!UICONTROL Auto-Target] eller [!UICONTROL Auto Personalization] modeller är densamma, finns det vanligtvis fler upplevelser i en Automated Personalization-aktivitet än i en [!UICONTROL Auto-Target] aktivitet. Om du till exempel har en [!UICONTROL Auto Personalization] aktivitet där du har skapat två erbjudanden per plats med två platser, skulle det finnas fyra (2 = 4) totala upplevelser i aktiviteten (utan undantag). Med [!UICONTROL Auto-Target]hjälp av kan ni ange upplevelse 1 som inkluderar erbjudande 1 på plats 1 och erbjudande 2 på plats 2, och upplevelse 2 som inkluderar erbjudande 1 på plats 1 och erbjudande 2 på plats 2. Eftersom [!UICONTROL Auto-Target] ni kan välja att göra flera ändringar i en upplevelse kan ni minska antalet totala upplevelser i er aktivitet.
 
 Exempelvis [!UICONTROL Auto-Target]kan enkla reglage användas för att förstå trafikkraven:
 
@@ -210,7 +217,7 @@ Du kan börja titta på resultatet av ditt [!UICONTROL Auto-Target] test när du
 
 ### Kan jag ange en specifik upplevelse som ska användas som kontroll?
 
-Du kan välja en upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)- eller [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT)-aktivitet.
+Du kan välja en upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) - (AP) eller [Auto-Target](/help/c-activities/auto-target-to-optimize.md) -aktivitet (AT).
 
 Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen.
 
@@ -221,6 +228,10 @@ Mer information finns i [Använda en viss upplevelse som kontroll](/help/c-activ
 Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med [!DNL Target] användargränssnittet bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
 
 Denna rekommendation gäller för [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]och [!UICONTROL Automated Personalization] aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
+
+### Kan jag använda alternativet Återställ rapportdata när jag kör en Auto-Target-aktivitet?
+
+Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Auto-Target] aktiviteter. Även om det tar bort synliga rapportdata tas inte alla utbildningsposter bort från [!UICONTROL Auto-Target] modellen. I stället för att använda [!UICONTROL Reset Report Data] alternativet för [!UICONTROL Auto-Target] aktiviteter skapar du en ny aktivitet och inaktiverar den ursprungliga aktiviteten. (Obs! Denna vägledning gäller även [!UICONTROL Auto-Allocate] verksamhet och [!UICONTROL Automated Personalization] verksamhet.)
 
 ## Felsökning [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -265,7 +276,7 @@ I den här videon förklaras hur du konfigurerar en [!UICONTROL Auto-Target] A/B
 När du är klar med kursen bör du kunna:
 
 * Definiera [!UICONTROL Auto-Target] testning
-* Jämför och kontrast [!UICONTROL Auto-Target] med automatiserad personalisering
+* Jämför och kontrast [!UICONTROL Auto-Target] med Automated Personalization
 * Skapa [!UICONTROL Auto-Target] aktiviteter
 
 >[!VIDEO](https://video.tv.adobe.com/v/18558)
