@@ -1,12 +1,15 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: Information om hur du använder kunddata från CRM-databaser (customer relationship management) för innehåll i Adobe Target med hjälp av kundattribut i bastjänsten för Adobe Experience Cloud People.
+description: Information om hur man använder kunddata från CRM-databaser (customer relationship management) för innehåll i Adobe Target med hjälp av kundattribut i Adobe Experience Cloud persontjänst.
 title: Kundattribut i Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 0%
 
 ---
 
@@ -27,13 +30,13 @@ Data som skickas till [!DNL Experience Cloud] är tillgängliga för alla [!DNL 
 
 Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
 
-* Det finns vissa krav som du måste uppfylla innan du kan använda funktionen [!UICONTROL Kundattribut] i [!DNL People] bastjänsten. Mer information finns i&quot;Krav för överföring av kundattribut&quot; i [Kundattribut](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) i produktdokumentationen *för* Experience Cloud och bastjänster.
+* Du måste uppfylla vissa krav innan du kan använda [!UICONTROL Customer attributes] funktionen i [!DNL People] bastjänsten. Mer information finns i&quot;Krav för överföring av kundattribut&quot; i [Kundattribut](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) i produktdokumentationen för *Experience Cloud och bastjänster*.
 
    >[!NOTE]
    >
    >[!DNL at.js] (valfri version) eller [!DNL mbox.js] version 58 eller senare krävs.
 
-* Adobe garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till [!DNL Experience Cloud] och därmed vara tillgängliga för användning i [!DNL Target]. I vår nuvarande design finns det en möjlighet att en liten andel data inte tas med.
+* [!DNL Adobe] garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till [!DNL Experience Cloud] och därför vara tillgängliga för användning i [!DNL Target]. I vår nuvarande design finns det en möjlighet att en liten andel data (upp till 0,1 % av stora tillverkningssatser) inte tas med.
 * Livslängden för kundattributdata som importeras från [!DNL Experience Cloud] till [!DNL Target] beror på besökarprofilens livstid, som är 14 dagar som standard. Mer information finns i [Livstid](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)för besökarprofiler.
 * Om `vst.*` parametrarna är det enda som identifierar besökaren, kommer den befintliga autentiserade profilen inte att hämtas så länge som `authState` är OAUENTICATED (0). Profilen spelas endast upp om `authState` ändras till AUTENTISERAD (1).
 
@@ -43,11 +46,11 @@ Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
 
 ## Få åtkomst till kundattribut i huvudtjänsten Personer
 
-1. I [!DNL Adobe Experience Cloud]klickar du på menyikonen ( ![menyikonen](/help/c-target/c-visitor-profile/assets/menu-icon.png) ) och sedan på **[!UICONTROL Personer]**.
+1. I [!DNL Adobe Experience Cloud]klickar du på menyikonen ( ![menyikonen](/help/c-target/c-visitor-profile/assets/menu-icon.png) ) och sedan på **[!UICONTROL People]**.
 
    ![Folk](/help/c-target/c-visitor-profile/assets/people.png)
 
-1. Klicka på fliken **[!UICONTROL Kundattribut]** .
+1. Klicka på **[!UICONTROL Customer Attributes]** fliken.
 
    ![Fliken Kundattribut](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
@@ -57,7 +60,7 @@ Utför följande steg för att använda CRM-data i [!DNL Target]:
 
 ![crm-arbetsflöde](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detaljerade instruktioner för hur du utför följande uppgifter finns i [Skapa en kundattributkälla och överför datafilen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen *för* Experience Cloud och Core Services.
+Detaljerade anvisningar för hur du utför följande uppgifter finns i [Skapa en kundattributkälla och överför datafilen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen *för* Experience Cloud och bastjänster.
 
 1. Skapa en datafil.
 
@@ -81,15 +84,16 @@ Detaljerade instruktioner för hur du utför följande uppgifter finns i [Skapa 
 
    Datafilen måste uppfylla kraven för filöverföring och får inte överstiga 100 MB. Om filen är för stor eller om du har data som behöver överföras regelbundet kan du FTP-överföra filerna i stället.
 
-   * **HTTPS:** Du kan dra och släppa CSV-datafilen eller klicka på **[!UICONTROL Bläddra]** för att överföra den från filsystemet.
-   * **FTP:** Klicka på FTP-länken för att [överföra filen via FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Första steget är att ange ett lösenord för den av Adobe tillhandahållna FTP-servern. Ange lösenordet och klicka sedan på **[!UICONTROL Klar]**.
+   * **HTTPS:** Du kan dra och släppa .csv-datafilen eller klicka på **[!UICONTROL Browse]** för att överföra den från filsystemet.
+   * **FTP:** Klicka på FTP-länken för att [överföra filen via FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Det första steget är att ange ett lösenord för FTP-servern som tillhandahålls av Adobe. Ange lösenordet och klicka sedan på **[!UICONTROL Done]**.
+
    Överför nu CSV-/ZIP-/GZIP-filen till FTP-servern. När filöverföringen är klar skapar du en ny fil med samma namn och filnamnstillägget .fin. Överför den här tomma filen till servern. Detta anger att överföringen är slut och datafilen börjar bearbetas [!DNL Experience Cloud] .
 
 1. Validera schemat.
 
    Med valideringsprocessen kan du mappa visningsnamn och beskrivningar till överförda attribut (strängar, heltal, tal och så vidare). Mappa varje attribut till rätt datatyp, visningsnamn och beskrivning.
 
-   Klicka på **[!UICONTROL Spara]** när schemavalideringen är klar. Filens överföringstid varierar beroende på storleken.
+   Klicka **[!UICONTROL Save]** när schemavalideringen är klar. Filens överföringstid varierar beroende på storleken.
 
    ![Validera schema](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
@@ -97,7 +101,7 @@ Detaljerade instruktioner för hur du utför följande uppgifter finns i [Skapa 
 
 1. Konfigurera prenumerationer och aktivera attributkällan.
 
-   Klicka på **[!UICONTROL Lägg till prenumeration]** och välj sedan lösningen för att prenumerera på dessa attribut. [När du konfigurerar prenumerationer](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) anges dataflödet mellan [!DNL Experience Cloud] och lösningar. Genom att aktivera attributkällan kan data flöda till prenumererade lösningar. De kundposter som du har överfört matchas med inkommande ID-signaler från webbplatsen eller tillämpningen.
+   Klicka **[!UICONTROL Add Subscription]** och välj sedan lösningen för att prenumerera på attributen. [När du konfigurerar prenumerationer](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) anges dataflödet mellan [!DNL Experience Cloud] och lösningar. Genom att aktivera attributkällan kan data flöda till prenumererade lösningar. De kundposter som du har överfört matchas med inkommande ID-signaler från webbplatsen eller tillämpningen.
 
    ![Konfigurera lösning](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -115,9 +119,9 @@ Du kan använda kundattribut på [!DNL Target] följande sätt:
 
 ### Skapa målgrupper
 
-I [!DNL Target]kan du välja ett kundattribut under [!UICONTROL Besöksprofil] när du skapar en målgrupp. Alla kundattribut har prefixet &lt; data_source_name > i listan. Kombinera dessa attribut efter behov med andra dataattribut för att skapa målgrupper.
+I [!DNL Target]kan du välja ett kundattribut i [!UICONTROL Visitor Profile] sektionen när du skapar en målgrupp. Alla kundattribut har prefixet &lt; data_source_name > i listan. Kombinera dessa attribut efter behov med andra dataattribut för att skapa målgrupper.
 
-![Målgrupp](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
+![Target Audience](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
 ### Skapa profilskript med hjälp av variabler
 
@@ -137,13 +141,13 @@ Skicka `mbox3rdPartyId` som en parameter till den globala mbox inuti `targetPage
 </script>
 ```
 
-### Använda Experience Cloud ID Service
+### Använda Experience Cloud ID-tjänsten
 
-Om du använder Experience Cloud ID-tjänsten måste du ange ett kund-ID och autentiseringstillstånd för att använda kundattribut vid målanpassning. Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) i hjälpen *för* Experience Cloud Identity Service.
+Om du använder tjänsten Experience Cloud ID måste du ange ett kundID och autentiseringstillstånd för att använda kundattribut vid målanpassning. Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) i hjälpen *för* Experience Cloud Identity Service.
 
 Mer information om hur du använder kundattribut i [!DNL Target]finns i följande resurser:
 
-* [Skapa en källa för kundattribut och överför datafilen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen för *Experience Cloud*
+* [Skapa en källa för kundattribut och ladda upp datafilen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen för *Experience Cloud*
 * [Kundattribut: Ju mer du vet, desto bättre kontakt](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) får du i bloggen om *digital marknadsföring*
 
 ## Problem som kunderna ofta stöter på {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -180,7 +184,7 @@ Tänk på följande implementeringsproblem:
 
 ### Utgåva 6: Kundattribut importeras inte till [!DNL Target]
 
-Om du inte hittar kundattributsdata i Target kontrollerar du att importen inträffade inom de *x* -dagar där *x* är värdet för målbesökarens [profillivstid](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagar som standard).
+Om du inte hittar kundattributsdata i Target kontrollerar du att importen inträffade inom de *x* -dagar där *x* är Target [Visitor-profilens livstidsvärde](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagar som standard).
 
 ## Utbildningsvideo: Ladda upp offlinedata med {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![självstudiekursen för kundattribut](/help/assets/tutorial.png)
 
