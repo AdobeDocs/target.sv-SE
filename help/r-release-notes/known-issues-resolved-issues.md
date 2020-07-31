@@ -4,9 +4,9 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända problem och lösta problem i Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
+source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Information om kända fel i den här versionen av Target. Innehåller även info
 
 >[!NOTE]
 >
->Utgivningsnumren inom parentes är avsedda för intern Adobe-användning.
+>Utgivningsnumren inom parentes är avsedda för Adobe.
 
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
@@ -36,7 +36,7 @@ Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) vid
 
 Följande är kända problem med omdirigeringserbjudanden:
 
-* Under vissa omständigheter har ett begränsat antal kunder rapporterat större variationer i trafikdistributionen när ett omdirigeringserbjudande används i aktiviteter som konfigurerats med Analytics för Target (A4T). Adobes tekniker arbetar för närvarande med detta problem.
+* Under vissa omständigheter har ett begränsat antal kunder rapporterat större variationer i trafikdistributionen när ett omdirigeringserbjudande används i aktiviteter som konfigurerats med Analytics för Target (A4T). Ingenjörer från Adobe arbetar för närvarande med detta problem.
 * Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) i stället för att utföra förhandsgranskning och QA. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)
 
 ### Diagramrapport för en Auto-Target-aktivitet kan inte återges när en anpassad upplevelse används som kontroll
@@ -59,17 +59,17 @@ Diagramrapporten för en Auto-Target-aktivitet kan inte återges för &quot;diff
 
 ### Stöd för Enterprise Permissions i Target API:er {#api}
 
-Koderbjudanden som skapas från Target-gränssnittet i offertbiblioteket kan visas på standardarbetsytan om listan med erbjudanden hämtas med GET API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta där de skapades, oavsett om de hämtas med GET API:er eller från Target UI.
+Koderbjudanden som skapas från Target-gränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta där de skapades, oavsett om de hämtas med GET-API:er eller från Target gränssnitt.
 
-### Rekommendationer
+### Recommendations
 
-Följande är kända problem med rekommendationsaktiviteter:
+Följande är kända problem med Recommendations-aktiviteter:
 
 * Enheterna har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. (IRI-857)
 * Övertäckningarna &quot;Användningsinformation&quot; för villkor och design återspeglar inte deras användning i A/B- och Experience Targeting-aktiviteter (TGT-34331)
-* Rekommendationer i A/B- och Experience Targeting-aktiviteter visar ingen visuell förhandsgranskning av rekommendationsfältet (TGT-33426)
+* Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsvisning av Recommendations-fältet (TGT-33426)
 * Samlingar, uteslutningar, villkor och designer som skapats via API är inte synliga i Target användargränssnitt och kan bara redigeras via API. (TGT-35777)
-* Rekommendationsaktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
+* Recommendations-aktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
 * Den feed-status för anpassade kriterier som visas i kriterielistan (kortvyn) uppdateras var tionde minut och kan i sällsynta fall vara mer än tio minuter gammal. Statusen som visas i redigeringsvyn för anpassade kriterier hämtas i realtid och är alltid uppdaterad. (TGT-35896, TGT-36173)
 
 ### Multivariata testaktiviteter (MVT)
@@ -80,7 +80,7 @@ I en MVT-aktivitet är vinnaren som visas i tabellen och diagrammet inte konsekv
 
 Följande är kända problem med at.js:
 
-* Med version at.js före 2.2.0 rapporterar click tracking inte konverteringar i Analytics för Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) av at.js om du får det här problemet.
+* Med version at.js före 2.2.0 rapporterar click tracking inte konverteringar i Analytics för Target (A4T) om Adobe Analytics-kod inte finns i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) av at.js om du får det här problemet.
 * Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse), kanske inte upplevelsen räknas med i rapporter, Analytics för Target (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-programmet [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) inte fungerar som det ska.
 
    Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet. (TNT-33366)
@@ -93,7 +93,7 @@ Följande är kända problem med at.js:
 
    När du använder at.js är kryssrutan Kompatibilitet dold, så du kan inte se inkompatibla algoritmer.
 
-   Problemet gäller endast rekommendationer som använder VEC.
+   Problemet gäller endast Recommendations-aktiviteter som använder VEC.
 
    **Tillfällig lösning**: Inaktivera alternativet [!UICONTROL Filter Incompatible Criteria] i [!UICONTROL Recommendations > Settings]. När du har inaktiverat den här inställningen visas alla villkor (kompatibla och inkompatibla) i sökaren. (TGT-25949)
 
@@ -136,6 +136,10 @@ Kunder kan inte utföra CRUD-åtgärder på Automatisk allokering av aktiviteter
 
 Den 10 maj 2020 uppdaterade vi våra GEO-leverantörsfiler, som innehöll vissa inkonsekvenser. Vissa värden som innehåller kommatecken lades till. Även om värden i befintliga målgrupper inte hade något kommatecken. Alla våra leveransservrar påverkades inte av den här ändringen. Därför har de målgrupper som använder sådana värden kanske inte kvalificerat alla korrekta besökare mellan 10 maj och 22 juli 2020.
 
+### Bild 0ffers visar etiketten &quot;Processing&quot;
+
+Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetiketten&quot; i flera timmar efter att bilderna har överförts. I de flesta fall är detta bara ett problem med etiketten: bilderbjudandena kan fortfarande användas i aktiviteter och levereras. I vissa fall kanske det inte finns något bilderbjudande för åtgärden Ersätt innehåll > Bild. Om detta inträffar bör du ladda upp bilderbjudandet igen och kontrollera efter några timmar om du vill se om bilderbjudandet kan ersättas. (TGT-37458)
+
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan är lösta flyttas de till följande avsnitt och ytterligare anteckningar läggs till om det behövs.
@@ -154,13 +158,13 @@ Du påverkades *inte* om:
 
 Kontakta [kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)för att avgöra om problemet påverkade din Target-rapportering.
 
-### Rekommendationer
+### Recommendations
 
-* Rekommendationsfeed-indexet kan visa &quot;Väntar på index&quot; om objekten i flödet är desamma som i föregående körning. Produktens intag påverkas inte. (RECS-6663)
+* Recommendations-flödesindex kan visa&quot;Väntar på index&quot; om objekten i flödet är desamma som i föregående körning. Produktens intag påverkas inte. (RECS-6663)
 
    Problemet har åtgärdats i Target 19.4.2.
 
-* Rekommendationsflöden tar längre tid att bearbeta än förväntat. (COR-2836)
+* Det tar längre tid än förväntat att bearbeta Recommendations-flöden. (COR-2836)
 
    Åtgärdat i Target 16.10.1.
 
@@ -211,9 +215,9 @@ Aktiviteter på standardarbetsytan som tas bort via API visas fortfarande i Targ
 
 Fastställd 25 oktober 2018
 
-### Automatiserad personalisering (AP) på anbudsnivå
+### Automated Personalization (AP) rapportering på erbjudandenivå
 
-När du klickar på målupplevelsen i en rapport för en automatiserad personalisering (AP) för att visa rapporter på erbjudandenivå ser du för närvarande tomma resultat, ett felmeddelande eller en snurrande ikon. (TNT-30695)
+När du klickar på den riktade upplevelsen i en Automated Personalization-aktivitetsrapport (AP) för att visa rapporter på erbjudandenivå visas för närvarande tomma resultat, ett felmeddelande eller en snurrande ikon. (TNT-30695)
 
 Fastställd 27 september 2018.
 
@@ -223,13 +227,13 @@ Om du läser in VEC på nytt i steg 1 i det guidade arbetsflödet i tre steg med
 
 Detta korrigerades i version 18.9.1.
 
-### Rekommendationsaktivitet som använder en regel för attributbefordran
+### Recommendations-aktivitet som använder en regel för attributbefordran
 
-När du redigerar eller kopierar en rekommendationsaktivitet som använder en attributbefordringsregel visas felet&quot;Saknat fält&quot; när du klickar på Spara.
+När du redigerar eller kopierar en Recommendations-aktivitet som använder en attributbefordringsregel visas felet&quot;Saknat fält&quot; när du klickar på Spara.
 
 Detta korrigerades i version 17.8.1.
 
-### Rekommendationer för säkerhetskopiering
+### Säkerhetskopiera Recommendations
 
 Säkerhetskopieringsrekommendationer visar felaktigt Aktiverat på kort för nyligen visade objekt i Target-gränssnittet. (TGT-29308)
 
@@ -254,7 +258,7 @@ Som en del av migreringen av företagsbehörigheter flyttades all användarhante
 Som ett resultat av migreringen finns det två möjliga problem du bör vara medveten om:
 
 * Användare som inte är administratörer har fått ett e-postmeddelande som anger att de nu har åtkomst till Adobe Target. Detta anger att migreringen har slutförts för din organisation. Själva e-postmeddelandet kan ignoreras.
-* Efter migreringen har det förekommit rapporter om att tidigare inaktiverade användare återkommer i Adobe Admin Console. Detta kan vara ett problem för din organisation om användare med funktionshinder i Adobe Admin Console fortfarande fanns med på din användarlista i Target före migreringen. Vi rekommenderar att administratörer granskar listan över användare i Admin Console för att validera åtkomsten.
+* Efter migreringen har det förekommit rapporter om att tidigare inaktiverade användare återkommer i Adobe Admin Console. Detta kan vara ett problem för din organisation om användare med funktionshinder i Adobe Admin Console fortfarande fanns med i din användarlista i Target före migreringen. Vi rekommenderar att administratörer granskar listan över användare i Admin Console för att validera åtkomsten.
 
 Problemet korrigerades den 30 augusti 2017
 
@@ -296,7 +300,7 @@ Rapporteringsdata för andra mätvärden kan fortfarande användas eftersom de i
 
 Åtgärdat i Target 17.4.3-snabbkorrigeringen.
 
-### Erbjudanden: A/B- och Experience Targeting-aktiviteter (XT)
+### Offers: A/B and Experience Targeting (XT) activities
 
 Leveransen och förhandsgranskningen påverkades för erbjudanden i A/B- och XT-aktiviteter som har minst två upplevelser och som antingen har skapats eller redigerats med formulärbaserad Experience Composer mellan fredagen den 28 april (kl. 19.00 PT) och måndagen den 1 maj (kl. 21.15 PT). Endast erbjudanden med standardinnehåll visades.
 
@@ -310,13 +314,13 @@ En korrigering av problemet gjordes i version 0.9.6 av at.js.
 
 ### Rapporter
 
-Möjligheten att visa flera mätvärden i en rapport, som ingår i Target 17.3.1 (30 mars 2017), har tagits bort på grund av oväntat beteende. Den här funktionen kommer att vara tillgänglig igen i en kommande version.
+The ability to view multiple metrics in a report, included in the Target 17.3.1 release (March 30, 2017) has been removed due to unexpected behavior. Den här funktionen kommer att vara tillgänglig igen i en kommande version.
 
 Möjligheten att visa flera mätvärden i en rapport ingick i Target 17.4.1-utgåvan (27 april 2017).
 
-### Erbjudanden
+### Offers
 
-Bilder som tas bort från bilderbjudandebiblioteket ( Erbjudanden \> Bilderbjudanden ) visas fortfarande i användargränssnittet. I en kommande version kommer dessa borttagna bilder inte längre att visas. Under tiden visas borttagna bilder i användargränssnittet, men har statusen Borttaget. (TGT-23793)
+Bilder som tas bort från bilderbjudandebiblioteket ( Erbjudanden \> Bilderbjudanden ) visas fortfarande i användargränssnittet. In an upcoming release, these deleted images will no longer display. In the meantime, deleted images display in the UI, but have a status of Deleted . (TGT-23793)
 
 Fixed in the Target 17.4.1 release (27 april 2017).
 
@@ -324,7 +328,7 @@ Fixed in the Target 17.4.1 release (27 april 2017).
 
 För nyligen visade villkor leder entitetsbaserade dynamiska regler inte till någon rekommendation om parametern entity.id inte skickas i mbox-begäran. (RECS-6241)
 
-Problemet har åtgärdats efter rekommendationerna (22 mars 2018). Efter rekommendationsutgåvan hoppar Target över entitetsbaserade dynamiska regler om entity.id inte skickas i mbox-begäran.
+Problemet har åtgärdats efter Recommendations-utgåvan (22 mars 2018). Efter Recommendations-versionen hoppar Target över entitetsbaserade dynamiska regler om entity.id inte skickas i mbox-begäran.
 
 ### at.js
 
@@ -334,9 +338,9 @@ Fixed in the Target 17.3.1 release (30 mars 2017).
 
 ### Globala undantagsregler
 
-Det tar 10-20 minuter för globala undantagsregler att sprida sig till förstklassiga rekommendationer. (RECS-5270)
+Globala undantagsregler tar 10-20 minuter att sprida sig till Premium Recommendations. (RECS-5270)
 
-Fixed in the Recommendations 17.2.2.0 release (6 mars 2017).
+Åtgärdat i Recommendations 17.2.2.0-utgåvan (6 mars 2017).
 
 ### Rapportering från Analytics för Target (A4T)
 
