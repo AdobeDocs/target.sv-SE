@@ -1,11 +1,11 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits;updates
+keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: På den här sidan visas viktiga ändringar som gjorts i dokumentationen för Adobe Target. Ändringarna är ordnade efter lanseringar.
 title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
+source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
 workflow-type: tm+mt
 source-wordcount: '1687'
 ht-degree: 0%
@@ -64,7 +64,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 | 8 juni | [Vanliga frågor om Target för mobilappar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile endast en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om den 10 juni Adobe Target Coffee Break har lagts till. |
