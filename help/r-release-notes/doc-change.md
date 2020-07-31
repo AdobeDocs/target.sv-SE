@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 31 juli | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett nytt känt fel har lagts till: &quot;Bilderbjudanden med etiketten &quot;Bearbetar&quot;.&quot; |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Kodexempel har lagts till för `getoffers()` att utföra pageLoad. |
 |  | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Lagt till registreringsinformation om det kommande Adobe Target Community Coffee Break den 5 augusti. |
 | 28 juli | [Insikter-rapporter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)om personalisering,rapport<br>[om](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatiska segment<br>och [viktiga attribut](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Uppdaterad text i anteckningen överst i avsnitten. |
 |  | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Följande frågor och svar har lagts till:<ul><li>Kan jag använda alternativet Återställ rapportdata när jag kör en autoallokeringsaktivitet?</li><li>Hur bygger Automatisk tilldelning modeller med hänsyn till miljöer?</li></ul> |
@@ -61,7 +62,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 15 juni | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
