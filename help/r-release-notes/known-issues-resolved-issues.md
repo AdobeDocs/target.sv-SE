@@ -4,7 +4,7 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända problem och lösta problem i Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
+source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
 workflow-type: tm+mt
 source-wordcount: '3327'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Diagramrapporten för en Auto-Target-aktivitet kan inte återges för &quot;diff
 
 ### Stöd för Enterprise Permissions i Target API:er {#api}
 
-Koderbjudanden som skapas från Target-gränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta där de skapades, oavsett om de hämtas med GET-API:er eller från Target gränssnitt.
+Koderbjudanden som skapas från Target-gränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan över erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta där de skapades, oavsett om de hämtas med GET-API:er eller från Target gränssnitt.
 
 ### Recommendations
 
@@ -136,7 +136,7 @@ Kunder kan inte utföra CRUD-åtgärder på Automatisk allokering av aktiviteter
 
 Den 10 maj 2020 uppdaterade vi våra GEO-leverantörsfiler, som innehöll vissa inkonsekvenser. Vissa värden som innehåller kommatecken lades till. Även om värden i befintliga målgrupper inte hade något kommatecken. Alla våra leveransservrar påverkades inte av den här ändringen. Därför har de målgrupper som använder sådana värden kanske inte kvalificerat alla korrekta besökare mellan 10 maj och 22 juli 2020.
 
-### Bild 0ffers visar etiketten &quot;Processing&quot;
+### Bild med etiketten &quot;Bearbetar&quot;
 
 Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetiketten&quot; i flera timmar efter att bilderna har överförts. I de flesta fall är detta bara ett problem med etiketten: bilderbjudandena kan fortfarande användas i aktiviteter och levereras. I vissa fall kanske det inte finns något bilderbjudande för åtgärden Ersätt innehåll > Bild. Om detta inträffar bör du ladda upp bilderbjudandet igen och kontrollera efter några timmar om du vill se om bilderbjudandet kan ersättas. (TGT-37458)
 
@@ -300,7 +300,7 @@ Rapporteringsdata för andra mätvärden kan fortfarande användas eftersom de i
 
 Åtgärdat i Target 17.4.3-snabbkorrigeringen.
 
-### Offers: A/B and Experience Targeting (XT) activities
+### Erbjudanden: A/B- och Experience Targeting-aktiviteter (XT)
 
 Leveransen och förhandsgranskningen påverkades för erbjudanden i A/B- och XT-aktiviteter som har minst två upplevelser och som antingen har skapats eller redigerats med formulärbaserad Experience Composer mellan fredagen den 28 april (kl. 19.00 PT) och måndagen den 1 maj (kl. 21.15 PT). Endast erbjudanden med standardinnehåll visades.
 
@@ -314,13 +314,13 @@ En korrigering av problemet gjordes i version 0.9.6 av at.js.
 
 ### Rapporter
 
-The ability to view multiple metrics in a report, included in the Target 17.3.1 release (March 30, 2017) has been removed due to unexpected behavior. Den här funktionen kommer att vara tillgänglig igen i en kommande version.
+Möjligheten att visa flera mätvärden i en rapport, som ingår i Target 17.3.1 (30 mars 2017), har tagits bort på grund av oväntat beteende. Den här funktionen kommer att vara tillgänglig igen i en kommande version.
 
 Möjligheten att visa flera mätvärden i en rapport ingick i Target 17.4.1-utgåvan (27 april 2017).
 
-### Offers
+### Erbjudanden
 
-Bilder som tas bort från bilderbjudandebiblioteket ( Erbjudanden \> Bilderbjudanden ) visas fortfarande i användargränssnittet. In an upcoming release, these deleted images will no longer display. In the meantime, deleted images display in the UI, but have a status of Deleted . (TGT-23793)
+Bilder som tas bort från bilderbjudandebiblioteket ( Erbjudanden \> Bilderbjudanden ) visas fortfarande i användargränssnittet. I en kommande version kommer dessa borttagna bilder inte längre att visas. Under tiden visas borttagna bilder i användargränssnittet, men har statusen Borttaget. (TGT-23793)
 
 Fixed in the Target 17.4.1 release (27 april 2017).
 
