@@ -1,11 +1,14 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
-description: Information om funktionen adobe.target.getOffers(options) för JavaScript-biblioteket för Adobe Target at.js.
-title: Information om funktionen adobe.target.getOffers() för JavaScript-biblioteket för Adobe Target at.js.
+description: Information om funktionen adobe.target.getOffers(options) för JavaScript-biblioteket Adobe Target at.js.
+title: Information om funktionen adobe.target.getOffers() för JavaScript-biblioteket Adobe Target at.js.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +39,7 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 | Begäran > id > thirdPartyId | Nej | Maximal storlek = 128 |  |  |
 | Request > experienceCloud | Nej |  |  |
 | Request > experienceCloud > analytics | Nej |  | Integrering med Adobe Analytics |
-| Request > experienceCloud > analytics > log | Nej | Följande måste implementeras på sidan:<ul><li>Tjänst för besökar-ID</li><li>Appmeasurement.js</li></ul> | Följande värden stöds:<br>**client_side **: När det anges returneras en analyslast till anroparen som ska användas för att skicka till Adobe Analytics via API:t för datainmatning.<br>**server_side**: Det här är standardvärdet där Target- och Analytics-serverdelen använder SDID för att sammanfoga anropen i rapporteringssyfte. |
+| Request > experienceCloud > analytics > log | Nej | Följande måste implementeras på sidan:<ul><li>Tjänst för besökar-ID</li><li>Appmeasurement.js</li></ul> | Följande värden stöds:<br>**client_side **: När det anges returneras en analyslast till anroparen som ska användas för att skicka till Adobe Analytics via API:t för datainmatning.<br>**server_side**: Det här är standardvärdet där Target och Analytics backend använder SDID för att sammanfoga anropen i rapporteringssyfte. |
 | Begäran > förhämtning | Nej |  |  |
 | Request > prefetch > views | Nej | Maximalt antal 50<br>Namnet får inte<br>vara tomtNamn längd `<=` 128<br>Värdets längd `<=` 5000<br>Namnet får inte börja med &quot;profile&quot;<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Ange parametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
 | Request > prefetch > views > profileParameters | Nej | Maximalt antal 50<br>Namnet får inte<br>vara tomtNamn längd `<=` 128<br>Värdets längd `<=` 5000<br>Namnet får inte börja med &quot;profile&quot; | Ange profilparametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
@@ -183,7 +186,7 @@ adobe.target.getOffers({
 }
 ```
 
-Nyttolasten kan sedan vidarebefordras till Adobe Analytics via API:t för [datainfogning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Nyttolasten kan sedan vidarebefordras till Adobe Analytics via API:t för [datainmatning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Hämta och återge data från flera rutor via getOffers() och applyOffers() {#multiple}
 
@@ -263,3 +266,9 @@ I `request > prefetch > mboxes` avsnittet finns det tre olika rutor. Om begäran
 I det här exemplet används variabeln count för att skapa CSS-väljarna. I ett verkligt scenario kan du använda en annan mappning mellan CSS-väljaren och mbox.
 
 Observera att det här exemplet använder `prefetch > mboxes`men du kan också använda `execute > mboxes`. Om du använder prefetch i `getOffers()`måste du också använda prefetch i `applyOffers()` anropet.
+
+## Anropa samtal `getOffers()` för att utföra en pageLoad
+
+I följande exempel visas hur du utför en pageLoad med getOffers() med at.js 2.*x*
+
+adobe.target.getOffers({request: {execute: {pageLoad: {parameters: {}}});
