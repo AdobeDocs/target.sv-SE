@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Target-meddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,20 @@ Kommentarer och information om kommande evenemang, inklusive Target SKill Builde
 
 ## Adobe har återigen utnämnts till ledare i Gartner Magic Quadrant for Personalization Engines
 
-Adobe utsågs ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra. [Läs om det på Adobes blogg](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra. [Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Adobe Target Community Coffee Break
+
+* **10.00 - 11.00 (PDT)**
+* **Onsdagen den 5 augusti 2020**
+
+Vi kommer att gå samman med Cristinel Anastasoaie, produktchef för Adobe Target, som kommer att vara inloggad i Adobe Target Community för att chatta direkt med dig för att besvara dina brända Adobe Target frågor som rör hans expertområden:
+
+* Adobe Target användargränssnitt
+* Integreringar med Adobe Target
+* Enterprise permissions and workspaces
+
+[Registrera dig i Adobe Target Community.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
@@ -29,7 +42,7 @@ McKinsey Digital rapporterar att&quot;vi har vunnit fem år framåt när det gä
 
 Kundernas krav utvecklas snabbt, och HSBC har anammat optimering med Adobe Target för att snabbt testa och personalisera nya kundresor, vilket minskar utvecklingen och lanseringarna från sex månader till en vecka!
 
-Gå med i Adobe och HSBC på vårt webbinarium och lär dig mer om:
+Gå med Adobe och HSBC i webbinariet och lär dig mer:
 
 * Hur HSBC:s optimerings- och personaliseringssatsningar snabbar upp förändringar i organisationen
 * Hur AI och Analytics snabbar upp sina satsningar och ger tydliga, betydande effekter för verksamheten
