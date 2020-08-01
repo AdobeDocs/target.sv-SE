@@ -5,9 +5,9 @@ title: Information om funktionen adobe.target.getOffers() för JavaScript-biblio
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -271,4 +271,14 @@ Observera att det här exemplet använder `prefetch > mboxes`men du kan också a
 
 I följande exempel visas hur du utför en pageLoad med getOffers() med at.js 2.*x*
 
-adobe.target.getOffers({request: {execute: {pageLoad: {parameters: {}}});
+```
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {
+                parameters: {}
+            }
+        }
+    }
+});
+```
