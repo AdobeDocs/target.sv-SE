@@ -4,9 +4,9 @@ description: I Adobe Target är framgångsmått förkonfigurerade för både rap
 title: Framgångsstatistik i Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Du kan också använda de avancerade inställningarna för att skapa beroende fr
 
 En testkonvertering kan till exempel bara vara giltig om en besökare klickar på erbjudandet eller når en viss sida innan konverteringen.
 
-Beroende framgångsmått stöds i A/B-testning, automatiserad personalisering, Experience Targeting och Multivariate-testning. Rekommendationsaktiviteter stöder för närvarande inte beroende framgångsmått.
+Beroende framgångsmått stöds i A/B-testning, Automated Personalization, Experience Targeting och Multivariate-testning. Recommendations-aktiviteter stöder för närvarande inte beroende framgångsmått.
 
 >[!NOTE]
 >
 >Beroende framgångsmått konverteras inte i följande fall:
 
 * Om du skapar ett cirkelberoende där metrisk1 är beroende av metrisk2 och metrisk2 är beroende av metrisk1, kan inget av dem konverteras.
-* Automatiserade personaliseringsaktiviteter frigör användare och startar om aktiviteten när konverteringsmåtten nås, så att inga mätvärden som är beroende av konverteringsmåttet konverteras.
+* Automated Personalization-aktiviteter frigör användare och startar om aktiviteten när konverteringsmåtten nås, så att inga mått som är beroende av konverteringsmåttet konverteras.
 
 Använd de avancerade inställningarna för att avgöra vad som händer när en användare når målmåttet. I följande tabell visas de tillgängliga alternativen.
 
@@ -82,6 +82,10 @@ Använd de avancerade inställningarna för att avgöra vad som händer när en 
 | Öka antal och behåll användaren i aktiviteten | Ange hur antalet ska ökas:<ul><li>En gång per deltagare (standard)</li><li>Vid varje intryck, exklusive siduppdatering</li><li>På varje intryck</li></ul> |
 | Ökning av antal, släpp användare och tillåt återinträde | Välj den upplevelse besökaren ser om de återupptar aktiviteten:<ul><li>Samma upplevelse (standard)</li><li>Slumpmässig upplevelse</li><li>Osynlig upplevelse</li></ul> |
 | Ökning av antalet, släpp användare och hindra användaren från att registrera sig igen | Bestäm vad användaren ser i stället för aktivitetsinnehållet:<ul><li>Samma upplevelse, utan spårning (standard)</li><li>Standardinnehåll eller annat aktivitetsinnehåll</li></ul> |
+
+>[!NOTE]
+>
+>Om du konfigurerar ett mätvärde till något av [!UICONTROL Increment Count] alternativen (som nämns ovan) ökas mätvärdet korrekt en gång per deltagare endast på besökarnivå. Antalet mätvärden ökar en gång per besök för varje ny session på besöksnivå.
 
 ## Utbildningsvideo: Aktivitetsmått
 
