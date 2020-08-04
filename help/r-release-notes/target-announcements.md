@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Target-meddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 [Anmäl dig till det här](https://hsbc-targetai.experienceleague.adobeevents.com/)spännande webbseminariet.
 
 *McKinsey-artikel: &quot;[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, maj 2020
+
+## Webbseminarium: Personaliseringsstrategier med hjälp av artificiell intelligens och Adobe Target
+
+* **08:00 - 09:00. (PDT)**
+* **Torsdag 13 augusti 2020**
+
+[Anmäl dig till det här](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)webbinariet.
 
 ## Adobe Target Swledge Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
