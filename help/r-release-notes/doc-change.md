@@ -5,9 +5,9 @@ title: Dokumentationen ändras i produktdokumentationen för Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 4 augusti | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Lagt till registreringsinformation om webbseminariet&quot;Personalization Strategies Using Artificial Intelligence and Adobe Target&quot; som ska läggas in den 13 augusti. |
 | 3 augusti | [Framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md) | En kommentar som klargör vad [!UICONTROL Increment Count] alternativen betyder för besökare jämfört med besök. |
 | 31 juli | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett nytt känt fel har lagts till: &quot;Bilderbjudanden med etiketten &quot;Bearbetar&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Kodexempel har lagts till för `getoffers()` att utföra pageLoad. |
@@ -62,11 +63,11 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 15 juni | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+| 15 juni | [Versionsinformation om Target (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 |  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+|  | [Versionsinformation för Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 | 8 juni | [Vanliga frågor om Target för mobilappar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile endast en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Target notiser och event](/help/r-release-notes/target-announcements.md) | Information om den 10 juni Adobe Target Coffee Break har lagts till. |
