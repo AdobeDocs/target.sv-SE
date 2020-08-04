@@ -5,9 +5,9 @@ title: Aktivera blandat innehåll i webbläsaren
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Nya webbläsare kan blockera visningen av en sida eller visa varningsmeddelanden
 
 Om [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Target] försöker öppna en sida som innehåller blandat innehåll visas ett meddelande som visar hur du inaktiverar blockering i webbläsaren så att du kan öppna en HTTP-webbplats eller en plats med blandade anrop (HTTPS och HTTP).
 
-![](assets/mixed_content_warning.gif)
+![varning om blandat innehåll](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 Tidigare kunde du utföra några åtgärder i steg 1 i det guidade arbetsflödet i tre steg när du skapade aktiviteter när blandat innehåll inte tilläts. [!DNL Target] blockerar nu åtgärder i steg 1. När det här meddelandet visas måste du aktivera blandat innehåll innan du kan fortsätta skapa aktiviteten.
 
