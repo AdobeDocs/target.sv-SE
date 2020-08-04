@@ -1,14 +1,14 @@
 ---
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
-description: Adobe Target och leverans av innehåll har testats i en rad olika webbläsare och enheter.
+description: Adobe Target program- och innehållsleverans har testats i en rad olika webbläsare och enheter.
 title: Webbläsare som stöds
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Mer information om TLS finns i Krypteringsändringar för [TLS (Transport Layer 
 
 ## [!DNL Target] Standard-/Premium-gränssnitt {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-Gränssnittet [!DNL [!DNL Target]] Standard/Premium] har stöd för följande webbläsare och enheter:
+Gränssnittet har stöd [!DNL Target] för följande webbläsare och enheter:
 
 | Enhetstyp | Webbläsarversion |
 |--- |--- |
@@ -36,7 +36,7 @@ Materialet har testats i följande webbläsare och enheter:
 | Enhetstyp | Webbläsarversion |
 |--- |--- |
 | Windows | <ul><li>Internet Explorer 9 och 10. Testad i emuleringsläge.<br>**Obs **: at.js 1.3.0 (och senare) stöder inte längre innehållsleverans i Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Krom (senaste, senaste minus 1)</li><li>Firefox (senaste, senaste minus 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (Latest)<br>**Note **: Mer information om hur Safari hanterar cookies från första och tredje part finns i[Target Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (senaste, senaste minus 1)</li><li>Krom (senaste, senaste minus 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (Latest)<br>**Note **: Mer information om hur Safari hanterar cookies från första och tredje part finns i[Målcookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (senaste, senaste minus 1)</li><li>Krom (senaste, senaste minus 1)</li></ul> |
 | Mobil/surfplatta | <ul><li>Apple iOS (senaste)</li><li>Android-enheter och -surfplattor (Android 4 och senare)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Observera följande:
