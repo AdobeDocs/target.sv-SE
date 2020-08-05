@@ -4,7 +4,7 @@ title: Ta bort Adobe Target cookie
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -18,9 +18,10 @@ Du kan ta bort dina [!DNL Target] webbläsarcookies så att du kan validera alla
 
 Om det inte finns några [!DNL Target] cookies betraktas du som en ny besökare och får en ny upplevelse. Det finns flera sätt att ta bort dina [!DNL Target] cookies utan att ta bort alla dina webbläsarcookies.
 
-&lt;[!NOTE]
->Följande instruktioner är korrekta för de webbläsare och versioner som visas. Sök på Internet efter instruktioner om din webbläsare eller version.
+>[!NOTE]
 >
+>Följande instruktioner är korrekta för de webbläsare och versioner som visas. Sök på Internet efter instruktioner om din webbläsare eller version.
+
 ## Ta bort cookies från Google Chrome
 
 Version 84.0.4147.105
