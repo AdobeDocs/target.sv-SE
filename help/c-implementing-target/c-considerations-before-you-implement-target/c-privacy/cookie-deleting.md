@@ -4,9 +4,9 @@ title: Ta bort Adobe Target cookie
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 79bcd452a9faa0883272d2e686efd7c4ddfa34a2
+source-git-commit: 871250ecaadafa7e9b56fad7e211f258767e3c18
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Du kan ta bort din webbläsarcookie (mbox) så att du kan validera alla dina upplevelser under testningen. [!DNL Target]
 
-Om det inte finns någon [!DNL Target] cookie (mbox) betraktas du som en ny besökare och får en ny upplevelse. Det finns flera sätt att ta bort dina [!DNL Target] cookies utan att ta bort alla dina webbläsarcookies.
+Om det inte finns någon [!DNL Target] cookie (mbox) betraktas du som en ny besökare och får en ny upplevelse. Det finns flera sätt att ta bort din mbox utan att ta bort alla webbläsarcookies.
 
 >[!NOTE]
 >
@@ -36,6 +36,8 @@ Version 84.0.4147.105
 
 Version 79.0
 
+### Ta bort alla cookies som är associerade med `adobe.com`
+
 1. Klicka på **Firefox** -menyn > **Inställningar**.
 1. Klicka på fliken **Sekretess och säkerhet** .
 1. Klicka på **Hantera data** under **cookies och platsdata**.
@@ -43,7 +45,15 @@ Version 79.0
 
    >[!NOTE]
    >
-   >Detta tar bort alla cookies som är associerade med `adobe.com` platsen. Om du vill ta bort eller redigera enskilda cookies för en plats kan du göra det i [lagringsinspektören för utvecklingsverktygen](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector). Den cookie du ska ta bort har namnet&quot;mbox&quot;.
+   >Detta tar bort alla cookies som är associerade med `adobe.com` platsen. Om du vill ta bort en enskild cookie för en webbplats följer du instruktionerna nedan.
+
+### Ta bort en enskild cookie (mbox)
+
+1. I Firefox klickar du på **Verktyg** > **Webbutvecklare** > **Lagringsinspektör**.
+1. Klicka på fliken **Avancerat** .
+1. Navigera till den webbsida som innehåller den cookie som du vill ta bort.
+1. Expandera avsnittet **Cookies** och klicka sedan på `https://experience.adobe.com`.
+1. Högerklicka på **mbox** -cookien och klicka sedan på **Ta bort**.
 
 ## Ta bort målcookien från Microsoft Edge
 
@@ -59,14 +69,18 @@ Version 84.0.522.52
 
 Version 13.1.2
 
+### Ta bort alla cookies som är associerade med `adobe.com`
+
 1. Klicka på **Safari** -menyn > **Inställningar**.
 1. Klicka på fliken **Sekretess** .
 1. Klicka på **Hantera webbplatsdata**.
 1. Markera webbplatserna för de cookies som du vill ta bort och klicka sedan på **Ta bort**.
 
->[!NOTE]
->
->Detta tar bort alla cookies som är associerade med `adobe.com` platsen. Om du vill ta bort en enskild cookie för en webbplats följer du instruktionerna nedan:
+   >[!NOTE]
+   >
+   >Detta tar bort alla cookies som är associerade med `adobe.com` platsen. Om du vill ta bort en enskild cookie för en webbplats följer du instruktionerna nedan.
+
+### Ta bort en enskild cookie (mbox)
 
 1. Klicka på **Safari** -menyn > **Inställningar**.
 1. Klicka på fliken **Avancerat** .
