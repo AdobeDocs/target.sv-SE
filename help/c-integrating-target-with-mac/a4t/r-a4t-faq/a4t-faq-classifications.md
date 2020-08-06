@@ -5,24 +5,27 @@ title: Klassificeringar - A4T - vanliga frågor och svar
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 0%
 
 ---
 
 
 # Klassificeringar - A4T - vanliga frågor och svar{#classifications-a-t-faq}
 
-Det här avsnittet innehåller svar på frågor som ofta ställs om klassificeringar och hur Analytics används som rapportkälla för Target (A4T).
+Det här avsnittet innehåller svar på frågor som ofta ställs om klassificeringar och som används [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
 
 ## Hur matchar jag värdet efter åtgärd med ett aktivitetsnamn när jag har hämtat klassificeringar med hjälp av Klassificeringsimporteraren? {#section_6045DAC488B248418F430E663C38D001}
 
 Du kan hämta klassificeringarna för A4T/TNT-strängen från Admin Tools [Classification Importer](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html). Variabeln kallas&quot;TNT&quot; i exportlistan. De hämtade data innehåller egna namn för aktiviteter, upplevelser och så vidare.
 
-Den här sökfilen är användbar för kunder som tar emot Adobes dataflöde för klickströmmar. Filen innehåller egna namn för kolumnerna `post_tnt` och `post_tnt_action` .
+Den här uppslagsfilen är användbar för kunder som tar emot dataflöde från Adobe clickstream. Filen innehåller egna namn för kolumnerna `post_tnt` och `post_tnt_action` .
 
 TNT-variabelns strängformat är `activityID:experienceID:targettype|event`.
 
-* targetType är alltid 0 för A4T.
+* måltyp = 0 (kontroll/slumpmässig) eller 1 (riktad) för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter.
 * Händelse = 0 representerar en upplevelseingång.
 * Händelse = 1 representerar ett upplevelsebesök.
 * Händelse = 2 representerar ett aktivitetsintryck.
