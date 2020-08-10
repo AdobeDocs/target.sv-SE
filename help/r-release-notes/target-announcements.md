@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,16 @@ Kommentarer och information om kommande evenemang, inklusive Target SKill Builde
 
 Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra. [Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
-## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
+## Webbseminarium: Personaliseringsstrategier med hjälp av artificiell intelligens och Adobe Target
 
 * **08:00 - 09:00. (PDT)**
-* **Torsdag 6 augusti 2020**
+* **Torsdag 13 augusti 2020**
+
+[Anmäl dig till det här](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)webbinariet.
+
+## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
+
+* **Under de kommande 30 dagarna kan du klicka här för att visa[webbinariet Recording](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital rapporterar att&quot;vi har vunnit fem år framåt när det gäller digital användning inom konsumenter och företag på ungefär åtta veckor.&quot; *
 
@@ -38,13 +44,6 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 [Anmäl dig till det här](https://hsbc-targetai.experienceleague.adobeevents.com/)spännande webbseminariet.
 
 *McKinsey-artikel: &quot;[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, maj 2020
-
-## Webbseminarium: Personaliseringsstrategier med hjälp av artificiell intelligens och Adobe Target
-
-* **08:00 - 09:00. (PDT)**
-* **Torsdag 13 augusti 2020**
-
-[Anmäl dig till det här](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)webbinariet.
 
 ## Adobe Target Experience Builder: Developer chat, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
