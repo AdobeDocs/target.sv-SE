@@ -5,9 +5,9 @@ title: CNAME och Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
+source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # CNAME och Adobe Target {#cname-and-adobe-target}
 
-Instruktioner för hur du arbetar med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i [!DNL Adobe Target]. För att på bästa sätt hantera annonsblockeringsproblem, eller ITP-relaterade cookie-regler, används en CNAME så att samtal görs till en domän som ägs av kunden i stället för till en domän som ägs av Adobe.
+Instruktioner för hur du arbetar med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i [!DNL Adobe Target]. För att på bästa sätt hantera annonsblockeringsproblem, eller ITP-relaterade cookie-policyer, används en CNAME så att anrop görs till en domän som ägs av kunden i stället för till en domän som ägs av Adobe.
 
 ## Begär CNAME-stöd
 
@@ -33,14 +33,14 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobes certifikatutfärdare, DigiCert, kan inte utfärda ett certifikat förrän det här steget har slutförts. Därför kan Adobe inte fullfölja din begäran om CNAME-implementering förrän detta steg är klart.
+   >* AdobeCertificateAuthority, DigiCert, kan inte utfärda ett certifikat förrän det här steget har slutförts. Därför kan Adobe inte uppfylla din begäran om CNAME-implementering förrän det här steget är klart.
 
 
-1. Fyll i följande formulär och inkludera det när du [öppnar en Adobe Client Care-biljett som begär CNAME-support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. Fyll i följande formulär och inkludera det när du [öppnar en Adobe Client Care-biljett som begär CNAME-stöd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe- [!DNL Target] kundkod:
+   * Adobe [!DNL Target] -klientkod:
    * Värdnamn för SSL-certifikat (exempel: `target.example.com target.example.org`):
-   * Inköpare av SSL-certifikat (Adobe rekommenderas, se Frågor och svar): Adobe/kund
+   * Inköpare av SSL-certifikat (Adobe rekommenderas starkt, se Vanliga frågor och svar): Adobe/kund
    * Om kunden köper certifikatet (även kallat BYOC), fyll i dessa ytterligare uppgifter:
       * Certifikatorganisation (exempel: Exempel på Company Inc):
       * Organisationsenhet för certifikat (valfritt, exempel: Marknadsföring):
@@ -48,13 +48,13 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
       * Certifikatstatus/region (exempel: Kalifornien):
       * Ort för certifikat (exempel: San Jose):
 
-1. Om Adobe köper certifikatet arbetar Adobe tillsammans med DigiCert för att köpa och distribuera certifikatet på Adobes produktionsservrar.
+1. Om Adobe köper certifikatet arbetar Adobe tillsammans med DigiCert för att köpa och distribuera certifikatet på Adobe produktionsservrar.
 
-   Om kunden köper certifikatet (BYOC) skickar Adobe Client Care CSR-filen (Certificate Signing Request) till dig, som du måste använda när du köper certifikatet via den valfria certifikatutfärdaren. När certifikatet har utfärdats måste du skicka en kopia av certifikatet och eventuella mellanliggande certifikat tillbaka till Adobe Client Care för distribution.
+   Om kunden köper certifikatet (BYOC) skickar Adobe Client Care CSR-begäran (Certificate Signing Request) till dig, som du måste använda när du köper certifikatet via den valfria certifikatutfärdaren. När certifikatet har utfärdats måste du skicka en kopia av certifikatet och eventuella mellanliggande certifikat tillbaka till Adobe Client Care för distribution.
 
    Adobe Client Care meddelar dig när implementeringen är klar.
 
-1. När du har slutfört de föregående uppgifterna och Adobe Client Care har meddelat dig att implementeringen är klar, måste du uppdatera `serverDomain` till nya CNAME i at.js.
+1. När du har slutfört de föregående åtgärderna och Adobe Client Care har meddelat dig att implementeringen är klar, måste du uppdatera `serverDomain` till nya CNAME i at.js.
 
 ## Vanliga frågor
 
@@ -66,7 +66,7 @@ Ja, du kan ange ett eget certifikat; rekommenderas dock inte. Hanteringen av SSL
 
 >[!IMPORTANT]
 >
->Tänk på att om du begär en CNAME-implementering med [!DNL Target] ditt eget certifikat ansvarar du för att ge förnyade certifikat till Adobe Client Care varje år. Om du tillåter att ditt CNAME-certifikat upphör att gälla innan Adobe kan distribuera ett förnyat certifikat kommer det att resultera i ett driftstopp för din specifika [!DNL Target] implementering.
+>Tänk på att om du begär en CNAME-implementering med [!DNL Target] egna certifikat ansvarar du för att ge förnyade certifikat till Adobe Client Care varje år. Om du tillåter att ditt CNAME-certifikat upphör att gälla innan Adobe kan distribuera ett förnyat certifikat kommer det att resultera i ett driftavbrott för din specifika [!DNL Target] implementering.
 
 ### Hur länge till mitt nya SSL-certifikat upphör att gälla?
 
@@ -86,7 +86,7 @@ Nej, [!DNL Target] kräver ett separat värdnamn och certifikat.
 
 I en Safari-webbläsare navigerar du till den webbplats där du har ett Target JavaScript-bibliotek. Om du ser en Target-cookie som angetts i samband med en CNAME, till exempel `analytics.company.com`, påverkas du inte av ITP 2.x.
 
-ITP-problem kan lösas för Target med bara en Analytics CNAME. Du behöver bara en separat Target CNAME om det gäller annonsblockerande scenarier där Target blockeras.
+ITP-problem kan lösas för Target med bara en CNAME för analys. Du behöver bara ett separat mål-CNAME om det gäller annonsblockerande scenarier där Target är blockerat.
 
 Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
@@ -146,3 +146,4 @@ Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradstermina
 
 * QA-läget kommer inte att fastna när du har CNAME och at.js 1.x eftersom det är baserat på en cookie från tredje part. Du kan komma runt problemet genom att lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till. QA-läget är fast när du har CNAME och at.js 2.x.
 * För närvarande fungerar inte inställningen som den ska med CNAME. `overrideMboxEdgeServer` Detta bör anges som `false` för att undvika misslyckade begäranden.
+* När du använder CNAME blir det mer sannolikt att storleken på cookie-huvudet för Target-anrop ökar. Vi rekommenderar att kakstorleken hålls under 8 kB.
