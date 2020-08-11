@@ -4,9 +4,9 @@ description: Med mobilvisningsrutor kan du förhandsgranska hur dina Adobe Targe
 title: Mobilvisningsrutor för responsiva upplevelser
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -148,27 +148,27 @@ Lägg in mobila visningsrutor i era aktiviteter för att skapa responsiva upplev
 
 ## Användningsfall: Använd två iPhone-versioner {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-Det här användningsexemplet visar hur du konfigurerar upplevelser för två iPhone-versioner: iPhone 11 Pro Max och iPhone SE.
+Det här användningsexemplet visar hur du konfigurerar upplevelser för två iPhone-versioner: iPhone 6 och iPhone 6 Plus.
 
-1. Klicka på Mål **[!UICONTROL Administration]**.
-1. I **[!UICONTROL Mobile viewport configuration]** avsnittet skapar du mobila visningsrutor för iPhone 11 Pro Max och iPhone SE.
+1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. I **[!UICONTROL Mobile Viewport Configuration]** avsnittet skapar du mobila visningsrutor för iPhone 6 och iPhone 6 Plus.
 
    Använd följande inställningar för varje visningsruta:
 
    | Namn | Bredd | Höjd | Operativsystem |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone 6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. Skapa en aktivitet med den upplevelse du vill rikta dig till.
-1. Välj den upplevelse du vill rikta dig till besökare som kommer åt webbplatsen från en iPhone 11 Pro Max eller iPhone SE.
+1. Välj den upplevelse du vill rikta dig till besökare som kommer åt din webbplats från en iPhone 6 eller iPhone 6 Plus.
 1. När du väljer mål klickar du på **[!UICONTROL Create Audience]** och konfigurerar sedan en målgrupp enligt bilden nedan:
 
    ![](assets/iphoneaudiences.png)
 
-   Eftersom telefonen kan roteras till liggande format och både höjd och bredd måste vara större än 320 samtidigt, skapas ett villkor som endast iPhone 11 Pro Max och iPhone SE kan uppfylla när de kombineras med iPhone-enhetsmodellen.
+   Eftersom telefonen kan roteras till liggande format och både höjd och bredd måste vara större än 320 samtidigt skapas ett villkor som bara 6 plus 6 kan uppfylla när den kombineras med iPhone-enhetsmodellen.
 1. Klicka på **[!UICONTROL Save]**.
 1. Fortsätt att konfigurera aktiviteten som vanligt.
 
