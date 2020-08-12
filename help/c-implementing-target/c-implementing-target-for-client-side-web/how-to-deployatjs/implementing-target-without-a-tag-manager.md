@@ -1,12 +1,13 @@
 ---
 keywords: implement target;implementation;implement at.js;tag manager
 description: Information om hur du implementerar Adobe Target utan att använda en tagghanterare (Adobe Launch eller Dynamic Tag Management).
-title: Implementera Target utan tagghanterare
+title: Implementera mål utan tagghanterare
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 4%
@@ -14,13 +15,13 @@ ht-degree: 4%
 ---
 
 
-# Implementera Target utan tagghanterare{#implement-target-without-a-tag-manager}
+# Implementera mål utan tagghanterare{#implement-target-without-a-tag-manager}
 
 Information om implementering [!DNL Adobe Target] utan tagghanterare ([!DNL Adobe Launch] eller [!DNL Dynamic Tag Manager]).
 
 >[!NOTE]
 >
->[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den bästa metoden för att implementera Target och biblioteket at.js. Följande information gäller inte när Adobe Launch används för att implementera Target.
+>[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den bästa metoden för att implementera Target och biblioteket at.js. Följande information gäller inte när du använder Adobe Launch för att implementera Target.
 
 Du öppnar [!UICONTROL Implementation] sidan genom att klicka **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -34,7 +35,7 @@ Du kan ange följande inställningar på den här sidan:
 
 >[!NOTE]
 >
->Du kan åsidosätta inställningarna i at.js-biblioteket i stället för att konfigurera inställningarna i användargränssnittet för Target Standard/Premium eller genom att använda REST API:er. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>Du kan åsidosätta inställningarna i at.js-biblioteket i stället för att konfigurera inställningarna i gränssnittet för Target Standard/Premium eller genom att använda REST API:er. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Kontoinformation
 
@@ -42,7 +43,7 @@ Du kan visa följande kontoinformation. Dessa inställningar kan inte ändras.
 
 | Inställning | Beskrivning |
 | --- | --- |
-| Klientkod | Klientkoden är en klientspecifik teckensekvens som ofta krävs när Target API:er används. |
+| Klientkod | Klientkoden är en klientspecifik teckensekvens som ofta krävs när du använder mål-API:er. |
 | IMS-organisations-ID | Detta ID kopplar implementeringen till ditt [!DNL Adobe Experience Cloud] konto. |
 
 ## Implementeringsmetoder
@@ -115,13 +116,13 @@ Instruktioner för att hämta biblioteket via [!DNL Target] gränssnittet eller 
 
 >[!NOTE]
 >
->* [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den bästa metoden för att implementera Target och biblioteket at.js. Följande information gäller inte när Adobe Launch används för att implementera Target.
+>* [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den bästa metoden för att implementera Target och biblioteket at.js. Följande information gäller inte när du använder Adobe Launch för att implementera Target.
    >
    >
 * Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns [i versionsinformationen](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)för at.js.
 
 
-### Hämta at.js via Target gränssnitt {#section_1F5EE401C2314338910FC57F9592894E}
+### Hämta at.js med Target-gränssnittet {#section_1F5EE401C2314338910FC57F9592894E}
 
 Så här hämtar du [!DNL at.js] från [!DNL Target] gränssnittet:
 
@@ -170,7 +171,7 @@ Hämta [!DNL at.js] med API:t.
 
    >[!IMPORTANT]
    >
-   >Target-teamet har endast två versioner av [!DNL at.js]- den aktuella och den andra senaste versionen. Uppgradera [!DNL at.js] om det behövs för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns [i versionsinformationen](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)för at.js.
+   >Target-teamet underhåller endast två versioner av [!DNL at.js]- den aktuella versionen och den andra senaste versionen. Uppgradera [!DNL at.js] om det behövs för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns [i versionsinformationen](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)för at.js.
 
    När du läser in den här URL:en börjar hämtningen av den anpassade [!DNL at.js] filen.
 
@@ -240,8 +241,8 @@ Tänk på följande viktiga punkter:
 * HTML5-dokumenttypen (t.ex. `<!doctype html>`) bör användas. Dokumenttyper som inte stöds eller äldre kan göra att Target inte kan göra en begäran.
 * Föranslutning och Förhämtning är alternativ som kan hjälpa webbsidorna att läsas in snabbare. Om du använder dessa konfigurationer måste du ersätta `<client code>` med din egen klientkod, som du kan få från sidan **[!UICONTROL Administration]** > **[!UICONTROL Implementation] .
 * Om du har ett datalager är det optimalt att definiera så mycket som möjligt av det på `<head>` sidorna innan at.js läses in. Den här placeringen ger maximal möjlighet att utnyttja informationen i Target för personalisering.
-* Särskilda Target-funktioner, som `targetPageParams()`, `targetPageParamsAll()`Data Providers, och `targetGlobalSettings()` ska definieras efter datalagret och innan at.js läses in. De kan också sparas i avsnittet på [!UICONTROL Library Header] sidan och sparas som en del av [!UICONTROL Edit at.js Settings] at.js-biblioteket. Mer information om de här funktionerna finns i [funktionerna](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)at.js.
-* Om du använder hjälpbibliotek för JavaScript, t.ex. jQuery, bör du inkludera dem före Target så att du kan utnyttja deras syntax och metoder när du skapar Target-upplevelser.
+* Särskilda Target-funktioner, till exempel `targetPageParams()`, `targetPageParamsAll()`Data Providers, och `targetGlobalSettings()` ska definieras efter datalagret och innan at.js läses in. De kan också sparas i avsnittet på [!UICONTROL Library Header] sidan och sparas som en del av [!UICONTROL Edit at.js Settings] at.js-biblioteket. Mer information om de här funktionerna finns i [funktionerna](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)at.js.
+* Om du använder hjälpbibliotek för JavaScript, till exempel jQuery, kan du inkludera dem före Target så att du kan utnyttja deras syntax och metoder när du skapar Target-upplevelser.
 * Inkludera at.js på `<head>` sidorna.
 
 ## Spåra konverteringar {#task_E85D2F64FEB84201A594F2288FABF053}
@@ -250,7 +251,7 @@ I rutan Orderbekräftelse registreras detaljer om beställningar på er webbplat
 
 >[!NOTE]
 >
->Om användare gör inköp på din webbplats rekommenderar vi att du implementerar en orderbekräftelseruta även om du använder Analytics för Target (A4T) för din rapportering.
+>Om användarna gör inköp på webbplatsen rekommenderar vi att du implementerar en orderbekräftelseruta även om du använder Analytics for Target (A4T) för din rapportering.
 
 1. Infoga mbox-skriptet efter modellen nedan på sidan med orderinformation.
 1. Ersätt ORD I VERSALA BOKSTÄVER med antingen dynamiska eller statiska värden från katalogen.
