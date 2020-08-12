@@ -1,20 +1,24 @@
 ---
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
-description: Flera inställningar kan användas för att beskriva och styra en rekommendationsaktivitet i Adobe Target.
-title: Rekommendationer Aktivitetsinställningar i Adobe Target
+description: Flera inställningar kan användas för att beskriva och styra en Recommendations-aktivitet i Adobe Target.
+title: Recommendations aktivitetsinställningar i Adobe Target
+feature: null
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
 
-# ![Aktivitetsinställningar för PREMIUM](/help/assets/premium.png) Recommendations{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) -inställningar för Recommendations-aktivitet{#recommendations-activity-settings}
 
 Information om de inställningar du kan använda för att beskriva och styra en [!UICONTROL Recommendations] aktivitet.
 
-![Sidan Rekommendationer och inställningar](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
+![Recommendations Goals &amp; Settings page](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 I följande avsnitt beskrivs de tillgängliga inställningarna för en [!UICONTROL Recommendations] aktivitet.
 
