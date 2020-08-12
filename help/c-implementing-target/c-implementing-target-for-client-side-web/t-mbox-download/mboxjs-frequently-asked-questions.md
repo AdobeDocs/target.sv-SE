@@ -2,10 +2,14 @@
 keywords: mbox.js faq;mbox.js frequently asked questions;document.write;tt.omtrdc.net;parser blocking
 description: Svar på vanliga frågor om mbox.js.
 title: mbox.js Vanliga frågor
+feature: null
 subtopic: Getting Started
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +36,7 @@ I moderna webbläsare sparas inte cookies om du använder dessa domäner om du i
 
 ## Vad är domänen tt.omtrdc.net som anrop från målservern går till? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
-[!DNL tt.omtrdc.net] är domännamnet för Adobes EDGE-nätverk, som används för att ta emot alla serveranrop för Target.
+[!DNL tt.omtrdc.net] är domännamnet för Adobe EDGE-nätverket, som används för att ta emot alla serveranrop för Target.
 
 ## Varför använder inte at.js och mbox.js flaggorna HttpOnly och Secure cookie? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
