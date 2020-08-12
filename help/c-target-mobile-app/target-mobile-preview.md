@@ -2,10 +2,14 @@
 keywords: qa;preview;preview link;mobile;mobile preview
 description: Använd länken för förhandsgranskning av mobilmaterial för att enkelt skapa heltäckande QA för mobilappsaktiviteter och registrera dig för olika upplevelser direkt på din enhet utan några särskilda testenheter.
 title: Använda länken för förhandsgranskning för mobila enheter i Adobe Target Mobile
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +20,7 @@ Använd länken för förhandsgranskning av mobilmaterial för att enkelt skapa 
 
 >[!NOTE]
 >
->Mobilförhandsvisningsfunktionen kräver att du hämtar och installerar rätt 4.14-version (eller senare) av Adobe Mobile SDK.
+>För funktionen för förhandsgranskning för mobila enheter krävs att du hämtar och installerar rätt version av version 4.14 (eller senare) av Adobe Mobile SDK.
 
 ## Översikt {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -24,12 +28,12 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
 ## Förutsättningar {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **Använd en version av SDK som stöds:** Mobilförhandsvisningsfunktionen kräver att du hämtar och installerar lämplig 4.14-version (eller senare) av Adobe Mobile SDK i dina motsvarande appar.
+1. **Använd en version av SDK som stöds:** För funktionen för förhandsgranskning för mobila enheter måste du hämta och installera lämplig version av 4.14 (eller senare) av Adobe Mobile SDK i dina motsvarande program.
 
    Anvisningar om hur du hämtar rätt SDK finns i:
 
-   * **iOS:** [Innan du börjar](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) i hjälpen *för* mobiltjänster.
-   * **Android:** [Innan du börjar](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) i hjälpen *för Android för* Mobile Services.
+   * **iOS:** [Innan du börjar](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) i *hjälpen* för iOS-mobiltjänster.
+   * **Android:** [Innan du börjar](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) i Android-hjälpen *för* Mobile Services.
 
 1. **Konfigurera ett URL-schema:** Förhandsgranskningslänken använder ett URL-schema för att öppna programmet. Du måste ange ett unikt URL-schema för förhandsgranskningen.
 
@@ -118,7 +122,8 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
 1. Välj den kombination av upplevelser som du vill se och klicka sedan på **[!UICONTROL Launch Experiences]**.
 
-   |![mobilförhandsvisning 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobilförhandsvisning 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobilförhandsvisning 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)||![mobilförhandsgranskning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobilförhandsgranskning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobilförhandsgranskning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
+   |![mobilförhandsvisning 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobilförhandsvisning 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobilförhandsvisning 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
+|![mobilförhandsgranskning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobilförhandsgranskning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobilförhandsgranskning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
 
 ## Begränsningar {#section_4E9BDED0F718485292527EFB508305BD}
 
