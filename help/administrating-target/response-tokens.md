@@ -1,12 +1,13 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Med svarstoken kan du automatiskt få ut Target-specifik information (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale)
+description: Med svarstoken kan du automatiskt generera målspecifik information (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale)
 title: Svarstoken i Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Target] (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale).
 
-Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett Target-svar. För att göra det aktiverar du bara en variabel med växeln så skickas variabeln med Target-svar som kan valideras i nätverksanrop. Svarstoken fungerar även i [!UICONTROL Preview] läge.
+Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett Target-svar. Om du vill göra det aktiverar du bara en variabel med växeln så skickas variabeln med Target-svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i [!UICONTROL Preview] läge.
 
 En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-program levererar JavaScript till sidan som körs vid leverans, ger svarstoken ett objekt som sedan kan läsas och hanteras med händelseavlyssnare. Mer information finns [i anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js och exemplen senare i den här artikeln. Responstoken är säkrare och bör underlätta utveckling och underhåll av tredjepartsintegreringar.
 
@@ -26,7 +27,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 >
 >Svarstoken är tillgängliga med at.js 1.1 eller senare. Svarstoken stöds inte med mbox.js.
 
-| Target Library används | Föreslagna funktionsmakron |
+| Målbibliotek som används | Föreslagna funktionsmakron |
 |--- |--- |
 | at.js | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Mer information om nya funktioner i varje version av at.js finns i [versionsuppgifterna](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som är beroende av interna metoder som finns i mbox.js, men inte i at.js, levereras men kommer att misslyckas. Mer information finns i [at.js Begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 | mbox.js | Plugin-program stöds och levereras även fortsättningsvis med mbox.js.<br>Kunder som använder mbox.js och plugins uppmuntras att gå över till at.js och svarstoken. Mer information om fördelarna med att använda at.js framför mbox.js finns i [at.js Vanliga frågor](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Mer information om migrering finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Efter borttagningen av Target Classic (november 2017) kan du behöva kontakta Client Care för att redigera eller inaktivera befintliga plugin-program. Du bör ha granskat dina plugin-program innan Target Classic har tagits bort och inaktiverats för oönskade plugin-program.<br>Du kan inte skapa nya plugin-program i Target Standard/Premium. Använd i stället svarstoken.<br>Gamla SiteCatalyst-plugin-program ska inaktiveras och ersättas med [Adobe Analytics som rapportkälla för Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). ttMeta-plugin-programmet bör inaktiveras och ersättas med [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
@@ -67,7 +68,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
    >
    >Parametrar med specialtecken visas inte i listan. Endast alfanumeriska tecken och understreck stöds.
 
-1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via en [!DNL Target] begäran och därför inte har lästs in i användargränssnittet i Target, kan du använda [!UICONTROL Add Response Token] knappen för att lägga till profilen i användargränssnittet.
+1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via en [!DNL Target] begäran och därför inte har lästs in i målgränssnittet, kan du använda knappen för att lägga till profilen i användargränssnittet [!UICONTROL Add Response Token] .
 
    Klicka **[!UICONTROL Add Response Token]** och ange tokennamnet. Klicka sedan **[!UICONTROL Activate]**.
 
@@ -96,11 +97,11 @@ I följande kodexempel läggs en anpassad händelsehanterare till direkt på HTM
 </html>
 ```
 
-Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händelsehanterare med Adobe Dynamic Tag Manager (DTM):
+Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händelsehanterare med hjälp av DTM (Dynamic Tag Manager) i Adobe:
 
 1. Logga in på DTM.
 1. Bläddra till rätt egenskap.
-1. Öppna Target.
+1. Öppna målverktyget.
 
    Eftersom DTM inte stöder at.js internt måste du använda kodredigeraren.
 
@@ -112,7 +113,7 @@ Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händ
    });
    ```
 
-Du kan lägga till följande utdrag på bibliotekets sidfot [på konfigurationssidan](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) at.js om du vill att allt ska vara en enda fil.
+Du kan lägga till följande kodutdrag på bibliotekets sidfot [på konfigurationssidan](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js om du vill att allt ska vara en enda fil.
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -124,7 +125,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 **Vilken roll krävs för att aktivera eller inaktivera svarstoken?**
 
-Svarstoken kan bara aktiveras eller inaktiveras av användare med rollen Target Admin.
+Svarstoken kan bara aktiveras eller inaktiveras av användare med rollen Måladministratör.
 
 **Vad händer om jag kör på .js 1.0 eller tidigare?**
 
@@ -148,7 +149,7 @@ När du migrerar till svarstoken måste den här typen av JavaScript finnas i ko
 
 **Varför visas inte min profil-/kundattributparameter i svarstokenlistan?**
 
-Target uppdaterar normalt parametrar var 15:e minut. Uppdateringen är beroende av användaråtgärder och data uppdateras bara när du visar svarstokensidan. Om parametrarna inte visas i svarstokenlistan kan det bero på att Target ännu inte har uppdaterat data.
+Målet uppdaterar normalt parametrar var 15:e minut. Uppdateringen är beroende av användaråtgärder och data uppdateras bara när du visar svarstokensidan. Om parametrarna inte visas i svarstokenlistan kan det bero på att Target ännu inte har uppdaterat data.
 
 Om parametern innehåller något annat än icke-alfanumeriska tecken eller någon annan symbol än understreck, visas inte parametern i listan. För närvarande stöds endast alfanumeriska tecken och understreck.
 
@@ -156,7 +157,7 @@ Om parametern innehåller något annat än icke-alfanumeriska tecken eller någo
 
 Svarstoken extraherar information från användarprofiler och skickar sedan informationen. Om du tar bort ett profilskript eller en parameter innebär det inte att informationen har tagits bort från användarprofilerna. Användarprofilerna kommer fortfarande att ha data som motsvarar profilskriptet. Svarstoken fortsätter att leverera innehållet. För användare som inte har den informationen sparad i sina profiler, eller för nya besökare, kommer denna token inte att levereras eftersom informationen inte finns i deras profiler.
 
-Target stänger inte av token automatiskt. Om du tar bort ett profilskript och inte längre vill att variabeln ska levereras, måste du inaktivera variabeln själv.
+Målet kommer inte att inaktivera token automatiskt. Om du tar bort ett profilskript och inte längre vill att variabeln ska levereras, måste du inaktivera variabeln själv.
 
 **Jag har bytt namn på mitt profilskript, men varför är den token som använder skriptet fortfarande aktiv med det gamla namnet?**
 
@@ -164,11 +165,11 @@ Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats f
 
 **Om mina attribut har ändrats, när kommer de att tas bort från listan?**
 
-Target uppdaterar attribut med jämna mellanrum. Alla attribut som inte är aktiverade tas bort vid nästa uppdatering. Om du däremot har ett attribut som har aktiverats och tagits bort (du har t.ex. tagit bort ett profilskript som användes som en token), kommer det skriptet inte att tas bort från attributlistan förrän du inaktiverar det. Target tar bara bort de inaktiverade attributen från listan när de tas bort eller byter namn.
+Target utför en uppdatering av attribut med regelbundna intervall. Alla attribut som inte är aktiverade tas bort vid nästa uppdatering. Om du däremot har ett attribut som har aktiverats och tagits bort (du har t.ex. tagit bort ett profilskript som användes som en token), kommer det skriptet inte att tas bort från attributlistan förrän du inaktiverar det. Mål tar bara bort de inaktiverade attributen från listan när de tas bort eller byter namn.
 
 ## Skicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
-Google Analytics kan skickas via at.js genom att lägga till följande kod på HTML-sidan:
+Google Analytics kan skicka data via at.js genom att lägga till följande kod på HTML-sidan:
 
 ```
 <script type="text/javascript"> 
