@@ -1,10 +1,14 @@
 ---
 description: Definitioner av termer.
 title: Adobe Target-ordlista
+feature: null
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2279'
+ht-degree: 1%
 
 ---
 
@@ -61,7 +65,7 @@ Auto-Target använder avancerad maskininlärning för att identifiera flera hög
 
 **automatiserad personalisering**
 
-Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika varianter till varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva konverteringar.
+Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika varianter av varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva konverteringar.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -145,7 +149,7 @@ Mätningen av besökarens intresse för en webbplats, mätt som tid på webbplat
 
 **förbättrad upplevelsedisposition**
 
-Den [!UICONTROL förbättrade Experience Composer] är ett tillägg till [!UICONTROL Visual Experience Composer] som hjälper er att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar [!DNL Target] implementeringen. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer]kan du prova [!UICONTROL Förbättrad Experience Composer].
+Detta [!UICONTROL Enhanced Experience Composer] är ett tillägg till [!UICONTROL Visual Experience Composer] som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar [!DNL Target] implementeringen. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer]provar du på [!UICONTROL Enhanced Experience Composer].
 
 **Enterprise-användarbehörigheter**
 
@@ -153,7 +157,7 @@ Ett sätt att formellt administrera åtkomst för användare i hela företaget t
 
 **entitetsattribut**
 
-Anpassade parametrar som används för att skicka produkt- eller innehållsinformation till rekommendationer.
+Egna parametrar som används för att skicka produkt- eller innehållsinformation till Recommendations.
 
 **entré**
 
