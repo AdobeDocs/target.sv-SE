@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Adobe Target.
 title: Gränser
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +24,7 @@ Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek,
 >
 >När de gränser som anges som&quot;rekommenderas&quot; närmar sig eller överskrids kan prestandan bli långsam. Långsamma inläsningstider för gränssnittet kan också orsakas av en mycket komplex aktivitet, som många målgrupper, mål och upplevelser, allt i en och samma aktivitet.
 >
->Mycket komplexa aktiviteter bör granskas med Adobe Consulting och testas i en begränsad miljö innan de släpps till produktion.
+>Mycket komplexa verksamheter bör granskas med Adobe Consulting och testas i en begränsad miljö innan de släpps till produktion.
 
 ## Verksamhet
 
@@ -79,9 +83,9 @@ Anpassade attribut för entiteter med flera värden får inte innehålla fler ä
 
 ## excludeIds {#excludedid}
 
-**Gräns**: 5 kB för POST-begäranden. 2 083 tecken minus längden på URL:en för GET-begäranden.
+**Gräns**: 5 kB för förfrågningar om POST. 2 083 tecken minus längden på URL:en för GET-begäranden.
 
-För GET-begäranden gäller att den realistiska gränsen för backend är 5 kB, men eftersom Microsoft Internet Explorer begränsar URL:en till 2 083 tecken är den realistiska gränsen 2 083 tecken minus URL:ens aktuella längd.
+För GET-förfrågningar gäller att även om gränsen för backend är 5 kB, eftersom Microsoft Internet Explorer begränsar URL:en till 2 083 tecken, är den realistiska gränsen 2 083 tecken minus URL:ens aktuella längd.
 
 ## Experience names
 
@@ -91,7 +95,7 @@ För GET-begäranden gäller att den realistiska gränsen för backend är 5 kB,
 
 **Gräns**: 2 000 upplevelser per aktiviteten Experience Targeting (XT), A/B Test, Multivariate Test (MVT) och Auto-Target.
 
-30 000 upplevelser per aktivitet med Automated Personalization (AP).
+30 000 upplevelser per Automated Personalization-aktivitet (AP).
 
 ## Attributvärde för profil i rutan
 
@@ -196,7 +200,7 @@ Allt längre trunkeras av systemet.
 
 **Rekommenderad gräns för totalt antal profilskript per konto**: 2 000
 
-**Rekommendationer för att begränsa komplexiteten** i profilskript: Profilskript kan köra ett begränsat antal instruktioner. Mer information finns i [God praxis](/help/c-target/c-visitor-profile/profile-parameters.md#best) i *Profilattribut*.
+**Recommendations för att begränsa komplexiteten** i profilskript: Profilskript kan köra ett begränsat antal instruktioner. Mer information finns i [God praxis](/help/c-target/c-visitor-profile/profile-parameters.md#best) i *Profilattribut*.
 
 ## Egenskaper
 
@@ -210,7 +214,7 @@ Allt längre trunkeras av systemet.
 
 **Rekommenderad gräns**: 2 000 tecken.
 
-Beroende på storleken på den kodade strängen, som kan vara mycket längre än Raw-strängen. Om strängen är för stor misslyckas den innan den når Adobe Target.
+Beroende på storleken på den kodade strängen, som kan vara mycket längre än Raw-strängen. Om strängen är för stor misslyckas den innan den kommer till Adobe Target.
 
 ## Skriptprofilnamn
 
