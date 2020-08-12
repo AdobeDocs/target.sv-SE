@@ -1,22 +1,26 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;sitecatalyst;campaign>recipe;test&target;integration
-description: Det här avsnittet innehåller svar på frågor som ofta ställs om den äldre integreringen mellan SiteCatalyst och Test&Target och om hur Analytics används som rapportkälla för Target (A4T).
-title: Integrering mellan äldre SiteCatalyst och Test&Target - Vanliga frågor om A4T
+description: Det här avsnittet innehåller svar på frågor som ofta ställs om den gamla integreringen mellan SiteCatalyst och Test&Target och hur Analytics används som rapportkälla för Target (A4T).
+title: Integrering mellan äldre SiteCatalyst till Test&Target - Vanliga frågor om A4T
+feature: null
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 0%
 
 ---
 
 
-# Integrering mellan äldre SiteCatalyst och Test&amp;Target - Vanliga frågor om A4T{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}
+# Integrering mellan äldre SiteCatalyst till Test&amp;Target - Vanliga frågor om A4T{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}
 
-Det här avsnittet innehåller svar på frågor som ofta ställs om den äldre integreringen mellan SiteCatalyst och Test&amp;Target och om hur Analytics används som rapportkälla för Target (A4T).
+Det här avsnittet innehåller svar på frågor som ofta ställs om den gamla integreringen mellan SiteCatalyst och Test&amp;Target och hur Analytics används som rapportkälla för Target (A4T).
 
 ## Varför visas en aktivitetsrapport och en Campaign>Recept-rapport i Analytics? {#section_ECF18A7E759A4E7F93553DB187A677E9}
 
-Integreringen SiteCatalyst till Test&amp;Target (den gamla integreringen) och Analytics för Target (A4T) skiljer sig åt.
+Integreringen mellan SiteCatalyst och Test&amp;Target (den gamla integreringen) och Analytics för Target (A4T) skiljer sig åt.
 
 Aktivitetsrapporten är avsedd för den nyare A4T-integreringen.
 
