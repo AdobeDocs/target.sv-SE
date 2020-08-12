@@ -1,15 +1,19 @@
 ---
-description: I en automatiserad personaliseringsaktivitet kan ni rikta erbjudanden till specifika målgrupper.
-title: Automatiserade personaliseringserbjudanden
+description: I en Automated Personalization-aktivitet kan ni rikta erbjudanden till specifika målgrupper.
+title: Automated Personalization erbjudanden
+feature: null
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Target Automatiserad personalisering erbjuder{#target-automated-personalization-offers}
+# ![PREMIUM](/help/assets/premium.png) Target Automated Personalization erbjuder{#target-automated-personalization-offers}
 
 I en Automated Personalization-aktivitet (AP) kan ni rikta erbjudanden till specifika målgrupper.
 
@@ -26,7 +30,7 @@ I det här scenariot skulle besökare 1 se Erbjudande 1 (eftersom han eller hon 
 
 ## Ställ in målinriktningsregler
 
-1. Skapa en [automatiserad personaliseringsaktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) som innehåller de erbjudanden du vill rikta in dig på.
+1. Skapa en [Automated Personalization-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) som innehåller de erbjudanden du vill rikta in dig på.
 1. När du har ställt in erbjudandena för aktiviteten i Visual Experience Composer klickar du på **[!UICONTROL Manage Content]**.
 
    ![Hantera innehåll](/help/c-activities/t-automated-personalization/assets/manage-content.png)
