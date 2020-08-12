@@ -1,11 +1,15 @@
 ---
 keywords: at.js;2.0;1.x;cookies
-description: Information om hur cookies hanteras i Adobe Target at.js 2.x och at.js 1.x
+description: Information om hur Adobe Target at.js 2.x och at.js 1.x hanterar cookies
 title: Adobe Target at.js cookies
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +32,7 @@ Spårning mellan domäner gör det möjligt att se sessioner på två relaterade
 
 I at.js 1.*x*, cookie-filen från tredje part lagrades i `[CLIENTCODE].tt.omtrdc.net` domänen och cookie-filen från första part lagrades i `clientdomain.com`. Den första begäran returnerade HTTP-svarshuvuden som försökte ange cookies från tredje part med namnet `mboxSession` och `mboxPC`, medan en omdirigeringsbegäran skickas tillbaka med en extra parameter (`mboxXDomainCheck=true`). Om webbläsaren accepterade cookies från tredje part inkluderar omdirigeringsbegäran dessa cookies och erbjudandet returnerades. Det här arbetsflödet var möjligt eftersom at.js 1.*x* använde HTTP GET-metoden.
 
-I at.js 2.x används emellertid inte längre HTTP GET utan HTTP POST. HTTP POST används nu via at.js för att skicka JSON-nyttolaster till [!DNL Target] edge-servrar i stället för nyckelvärdesparametrar. Detta innebär att omdirigeringsbegäran för att kontrollera om en webbläsare stöder cookies från tredje part nu avbryts. Detta beror på att HTTP GET-begäranden är idempotenta transaktioner medan HTTP POST är icke-idempotent och inte får upprepas godtyckligt.
+I at.js 2.x används emellertid inte längre HTTP-GET utan HTTP-POST. HTTP-POST används nu via at.js för att skicka JSON-nyttolaster till [!DNL Target] edge-servrar i stället för nyckelvärdesparametrar. Detta innebär att omdirigeringsbegäran för att kontrollera om en webbläsare stöder cookies från tredje part nu avbryts. Detta beror på att HTTP GET-begäranden är idempotenta transaktioner medan HTTP-POST är icke-idempotent och inte får upprepas godtyckligt.
 
 Därför stöds varken cookies från tredje part eller korsdomänsspårning i at.js 2.0.0.
 
@@ -38,7 +42,7 @@ För at.js version 1.*x*, cookie-beteendet beror på om det är en cookie från 
 
 ### När cookies från tredje part ska användas
 
-Platskonfigurationen avgör vilka cookies du vill använda. Det är praktiskt att förstå hur Target fungerar när man försöker förstå cookies från första part och tredje part. Mer information finns i [Så fungerar](/help/c-intro/how-target-works.md) Adobe Target.
+Platskonfigurationen avgör vilka cookies du vill använda. Det är praktiskt att förstå hur Target fungerar när man försöker förstå cookies från första part och tredje part. Mer information finns i [Så här fungerar](/help/c-intro/how-target-works.md) Adobe Target.
 
 Det finns tre huvudsakliga användningsområden för cookies:
 
@@ -130,7 +134,7 @@ Tänk på följande:
 | Cookies | Detaljer |
 |--- |--- |
 | Första parts domäner | Detta är standardimplementeringen för Target-kunder.  &quot;mbox&quot;-cookies anges i kundens domän. |
-| Spårning från tredje part | Spårning från tredje part är viktigt för annonsering och målgruppsanvändning i Target och i Adobe Audience Manager (AAM).  Spårning från tredje part kräver serveröverskridande skripttekniker (cross-site scripting).  Målet använder två cookies, &quot;mboxSession&quot; och &quot;mboxPC&quot;, som angetts i `clientcode.tt.omtrd.net` domänen. |
+| Spårning från tredje part | Spårning från tredje part är viktigt för reklam och riktad marknadsföring i Target och i Adobe Audience Manager (AAM).  Spårning från tredje part kräver serveröverskridande skripttekniker (cross-site scripting).  Målet använder två cookies, &quot;mboxSession&quot; och &quot;mboxPC&quot;, som angetts i `clientcode.tt.omtrd.net` domänen. |
 
 ### Vad är Apples uppläggning?
 
@@ -144,11 +148,11 @@ Från Apple:
 |--- |--- |
 | Förebyggande av intelligent spårning | Mer information finns i [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) på webbplatsen WebKit Open Source Web Browser Engine. |
 | Cookies | Hur Safari hanterar cookies:<ul><li>Cookies från tredje part som inte finns på en domän som användaren kommer åt direkt sparas aldrig. Det här beteendet är inte nytt. Cookies från tredje part stöds redan i Safari.</li><li>Cookies från tredje part som anges på en domän som användaren kommer åt direkt rensas efter 24 timmar.</li><li>cookies från första part rensas efter 30 dagar om den förstahandsdomänen har klassificerats som spårning av användare på olika webbplatser. Problemet kan gälla stora företag som skickar användare till olika domäner online. Apple har inte klargjort hur dessa domäner kommer att klassificeras eller hur en domän kan avgöra om de har klassificerats som spårning av användare på olika platser.</li></ul> |
-| Machine Learning för att identifiera domäner som är olika platser | Från Apple:<br>Machine Learning Classifier: En maskininlärningsmodell används för att klassificera vilka av de främsta privatkontrollerade domänerna som kan spåra användarens webbplats, baserat på den insamlade statistiken. Av de olika insamlade uppgifterna visade det sig att tre vektorer har en stark signal för klassificering baserat på nuvarande spårningspraxis: underresurs under antal unika domäner, underbildruta under antal unika domäner och antal unika domäner som omdirigeras till. All datainsamling och klassificering sker på enheten.<br>Men om användaren interagerar med example.com som den översta domänen, som ofta kallas förstahandsdomän, anser Intelligent Tracking Prevention att det är en signal om att användaren är intresserad av webbplatsen och tillfälligt anpassar sitt beteende enligt den här tidslinjen:<br>Om användaren interagerade med example.com de senaste 24 timmarna är cookies tillgängliga när `example.com` användaren är en tredje part. Detta gör att du kan logga in med mitt X-konto på Y-inloggningsscenarier.<ul><li>Domäner som besöktes som toppnivådomäner påverkas inte. Exempel på platser som OKTA</li><li>Identifierar domäner som är underdomäner eller underramar till den aktuella sidan över flera unika domäner.</li></ul> |
+| Maskininlärning för att identifiera domäner som är flera platser | Från Apple:<br>Machine Learning Classifier: En maskininlärningsmodell används för att klassificera vilka av de främsta privatkontrollerade domänerna som kan spåra användarens webbplats, baserat på den insamlade statistiken. Av de olika insamlade uppgifterna visade det sig att tre vektorer har en stark signal för klassificering baserat på nuvarande spårningspraxis: underresurs under antal unika domäner, underbildruta under antal unika domäner och antal unika domäner som omdirigeras till. All datainsamling och klassificering sker på enheten.<br>Men om användaren interagerar med example.com som den översta domänen, som ofta kallas förstahandsdomän, anser Intelligent Tracking Prevention att det är en signal om att användaren är intresserad av webbplatsen och tillfälligt anpassar sitt beteende enligt den här tidslinjen:<br>Om användaren interagerade med example.com de senaste 24 timmarna är cookies tillgängliga när `example.com` användaren är en tredje part. Detta gör att du kan logga in med mitt X-konto på Y-inloggningsscenarier.<ul><li>Domäner som besöktes som toppnivådomäner påverkas inte. Exempel på platser som OKTA</li><li>Identifierar domäner som är underdomäner eller underramar till den aktuella sidan över flera unika domäner.</li></ul> |
 
 ### Hur kommer Adobe att påverkas?
 
 | Funktioner som påverkas | Detaljer |
 |--- |--- |
-| Stöd för avanmälan | Apples WebKit tracking changes break opt out support.<br>Målavanmälan använder en cookie i `clientcode.tt.omtrdc.net` domänen. Mer information finns i [Sekretess](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Målet har stöd för två avanmälningar:<ul><li>En per klient (klienten hanterar länken för avanmälan).</li><li>En via Adobe som gör att användaren slipper alla Target-funktioner för alla kunder.</li></ul>Båda metoderna använder cookie-filen från tredje part. |
+| Stöd för avanmälan | Apples WebKit tracking changes break opt out support.<br>Målavanmälan använder en cookie i `clientcode.tt.omtrdc.net` domänen. Mer information finns i [Sekretess](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Målet har stöd för två avanmälningar:<ul><li>En per klient (klienten hanterar länken för avanmälan).</li><li>Ett via Adobe som gör att användaren slipper alla Target-funktioner för alla kunder.</li></ul>Båda metoderna använder cookie-filen från tredje part. |
 | Verksamheter som riktar sig till | Kunderna kan välja [längd](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) på profilens livstid för sina Target-konton, upp till 90 dagar. Orsaken är att om kontots profillivslängd är längre än 30 dagar och cookie-filen rensas eftersom kundens domän har markerats som spårning av användare på alla webbplatser, påverkas beteendet för Safari-besökare i följande områden i Target:<br>**Target Reports **: Om en Safari-användare går in i en aktivitet returneras efter 30 dagar och konverteras sedan räknas användaren som två besökare och en konvertering.<br>Detta beteende är detsamma för aktiviteter som använder Analytics som rapportkälla (A4T).<br>**Profil- och aktivitetsmedlemskap**:<ul><li>Profildata raderas när cookie-filen från första part förfaller.</li><li>Aktivitetsmedlemskapet raderas när cookie-filen från första part förfaller.</li><li> Målet fungerar inte i Safari för konton som använder en cookie-implementering från tredje part eller en cookie-implementering från första och tredje part. Observera att det här beteendet inte är nytt. Safari har inte tillåtit cookies från tredje part på ett tag.</li></ul><br>**Förslag **: Om det finns en oro för att kunddomänen kan markeras som en spårning av besökare mellan sessioner, är det säkraste att ange profilens livstid till 30 dagar eller färre i Target. På så sätt spåras användare på samma sätt i Safari och alla andra webbläsare. |
