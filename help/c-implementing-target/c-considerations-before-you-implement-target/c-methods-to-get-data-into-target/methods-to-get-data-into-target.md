@@ -2,11 +2,15 @@
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: Information om de olika metoder du kan använda för att hämta data till Target, inklusive sidparametrar, profilattribut på sidan, skriptprofilattribut, DataProvider, API för bulkprofiluppdatering, API för single profile update och kundattribut.
 title: Metoder för att hämta data till Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +37,7 @@ Exempel:
 
 ### Exempel på användningsfall
 
-**Produktsidor**: Skicka information om den specifika produkten som visas (så fungerar rekommendationerna)
+**Produktsidor**: Skicka information om den specifika produkten som visas (så här fungerar Recommendations)
 
 **Beställningsinformation**: Skicka order-ID, orderTotal o.s.v. för ordersamling
 
@@ -79,7 +83,7 @@ Parametrar i mboxSkapa kod:
 
 ### Länkar till relevant information
 
-Rekommendationer: [Implementering enligt sidtyp](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
+Recommendations: [Implementering enligt sidtyp](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
 
 Orderbekräftelse: [Spåra konverteringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
 
@@ -220,12 +224,12 @@ Flera exempel finns i [Data Providers](/help/c-implementing-target/c-implementin
 
 ### Länkar till relevant information
 
-Dokumentation: [Dataproviders](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
+Dokumentation: [Dataleverantörer](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
 
 ### Utbildningsvideor:
 
 * [Använda Data Providers i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementera dataleverantörer i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Implementera Data Providers i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API för gruppprofilsuppdatering {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -233,7 +237,7 @@ Via API skickar du en CSV-fil till Target med uppdateringar av besökarprofilen 
 
 Det här alternativet liknar kundattribut med några skillnader:
 
-* Kundattribut använder en FTP-överföring medan API:t för uppdatering av målgruppsprofil använder ett HTTP POST-API.
+* Kundattribut använder en FTP-överföring medan API:t för uppdatering av målgruppsprofil använder ett API för HTTP-POST.
 * Data för kundattribut kan delas med Analytics. Det går bara att använda gruppprofilsuppdatering i Target.
 * Kundattribut har ännu inte stöd för att skapa en profil för ett användarmål. API:t för uppdatering av gruppprofil uppdaterar bara befintliga målprofiler.
 * Kundattribut kräver att Experience Cloud ID (ECID) används. API:t för uppdatering av gruppprofil kräver antingen TNT-ID eller `mbox3rdPartyId`.
@@ -303,17 +307,17 @@ GET och POST stöds. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mbox
 
 ## Customer Attributes {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
 
-Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. När du väl har överfört data kan du utnyttja dem i Adobe Analytics och Adobe Target.
+Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts.
 
 Målgruppen Standard-kunder kan utnyttja fem attribut, Target Premium-kunder kan utnyttja 200 attribut.
 
 ### Format
 
-En CSV-fil med Experience Cloud ID (ECID) och attributnamn/värde-par överförs via FTP eller manuellt i Experience Cloud-gränssnittet.
+En CSV-fil med Experience Cloud ID (ECID) och attributnamn/värde-par överförs via FTP eller manuellt i användargränssnittet för Experience Cloud.
 
 ### Exempel på användningsfall
 
-CRM-systemet eller något annat internt system lagrar värdefull information som du vill dela med Adobe Experience Cloud, inklusive Target och Analytics.
+CRM-systemet eller andra interna system lagrar värdefull information som du vill dela med Adobe Experience Cloud, inklusive Target och Analytics.
 
 ### Fördelar med metoden
 
