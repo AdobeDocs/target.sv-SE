@@ -4,9 +4,9 @@ description: Information om Adobe Target API:er, inklusive API:erna för adminis
 title: Adobe Target API - översikt
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 84cd5d41655baaaadeba63954858730ce956e039
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Target API - översikt
 
-Adobe Target API:er kan grupperas efter typ.
+[!DNL Adobe Target] API:er kan grupperas efter typ.
 
 | API-typ | Vad du kan göra | Hämta länk | Andra praktiska länkar |
 | --- | --- | --- |--- |
@@ -25,6 +25,12 @@ Adobe Target API:er kan grupperas efter typ.
 
 >[!NOTE]
 >
->Observera skillnaden mellan **admin-API:er** (inklusive [!DNL Recommendations] API:er), som gör att du kan konfigurera olika aspekter av Adobe Target jämfört med **leverans-API:er**, som du kan använda för att hämta innehåll. Admin-API:er kräver autentisering, men leverans-API:er gör det inte.
+>Det finns viktiga skillnader mellan [!DNL Target] Admin API:er (inklusive [!DNL Recommendations] API:er) och [!DNL Target] Delivery API:er:
 >
->Om du vill använda Adobe Target Admin API:er måste du först konfigurera autentiseringen med Adobe I/O. Mer information finns i [Konfigurera autentisering](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) i *Adobe Target Tutorials*.
+>* Med Admin API:er kan du konfigurera olika aspekter av [!DNL Target] som du också kan konfigurera i [!DNL Target] användargränssnittet. Admin-API:er kräver autentisering.
+   >
+   >
+* Med leverans-API:er kan du hämta innehåll. Leverans-API:er kräver inte autentisering.
+>
+>
+Om du vill använda [!DNL Target] Admin API:er måste du först konfigurera autentiseringen med Adobe I/O. Mer information finns i [Konfigurera autentisering](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) i *Adobe Target Tutorials*.
