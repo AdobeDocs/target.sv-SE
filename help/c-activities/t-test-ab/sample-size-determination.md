@@ -2,9 +2,13 @@
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: Ett lyckat A/B-test kräver ett tillräckligt antal besökare (provstorlek) för att förbättra konverteringsgraden, men hur vet du hur länge ett A/B-test ska köras? Den här artikeln innehåller information om Automatisk fördelning av aktiviteter och Beräkna målprovstorlek som hjälper dig att se till att din aktivitet har tillräckligt många besökare för att uppnå dina mål.
 title: Hur länge ska du köra ett A/B-test?
+feature: null
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3108'
+ht-degree: 0%
 
 ---
 
@@ -33,11 +37,11 @@ Target innehåller verktyg som hjälper dig att se till att din aktivitet har en
 
 * **Beräkna målprovstorlek:** Om du väljer att använda ett manuellt A/B-test i stället för Automatisk allokering, kan du med hjälp av Beräkna för provstorlek fastställa vilken provstorlek som behövs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är mycket användbart. Det är valfritt att använda beräkningsverktyget för en autoallokeringsaktivitet eftersom autoallokering kommer att deklarera en vinnare åt dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
 
-## Adobe Target Sample Size Calculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Beräkna exempelstorlek för Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Innan du konfigurerar A/B-testet kan du komma åt [exempelstorleksberäknaren](https://docs.adobe.com/content/target-microsite/testcalculator.html)för Adobe Target.
+Innan du konfigurerar A/B-testet kan du använda Adobe Target [beräkningsverktyg](https://docs.adobe.com/content/target-microsite/testcalculator.html)för samplingsstorlek.
 
-![Adobe Target Sample Size Calculator](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Beräkna exempelstorlek för Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 Det är viktigt att fastställa en lämplig provstorlek (antal besökare) innan ett A/B-test utförs, för att fastställa den tid som testet bör tillåtas köras innan resultaten utvärderas. Genom att övervaka testet tills statistisk signifikans uppnås underskattas konfidensintervallet avsevärt, vilket gör testet otillförlitligt. Det intuitiva bakom detta resultat är att om ett statistiskt signifikant resultat påträffas stoppas testet och en vinnare deklareras. Om resultatet inte är statistiskt signifikant får testet dock fortsätta. Detta förfarande gynnar starkt det positiva resultatet, vilket ökar den falskt positiva frekvensen och därmed förvränger testets effektiva signifikansnivå.
 
