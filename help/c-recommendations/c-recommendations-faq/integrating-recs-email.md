@@ -1,11 +1,12 @@
 ---
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
-description: Information om hur man integrerar e-post med rekommendationer.
-title: Integrera rekommendationer med e-post
+description: Information om hur man integrerar e-post med Recommendations.
+title: Integrera Recommendations med e-post
+feature: null
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 0%
@@ -13,17 +14,17 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Integrera rekommendationer med e-post{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) Integrera Recommendations med e-post{#integrate-recommendations-with-email}
 
-Information om hur man integrerar e-post med rekommendationer.
+Information om hur man integrerar e-post med Recommendations.
 
 E-postleverantörens funktioner avgör vilken metod som ska användas. Din kontoansvarige eller konsult kan hjälpa dig att välja det alternativ som passar dig bäst.
 
 ## Alternativ 1: Använda leverans-API {#section_9F00D271BABA4B7390B461F4C44EC319}
 
-Leverans-API:t är en POST-begäran som fungerar med e-post vid byggtid. Det här alternativet är den rekommenderade metoden för e-post under byggtid.
+Leverans-API:t är en begäran om POST som fungerar med e-post vid byggtid. Det här alternativet är den rekommenderade metoden för e-post under byggtid.
 
-De flesta e-postklienter tillåter inte POST-begäranden. Därför rekommenderas inte denna API för användning i öppet läge. Vissa e-postklienter, som Gmail eller Outlook, kan cachelagra innehållet eller blockera bilden och kräva att mottagaren aktivt tillåter att bilden återges.
+De flesta e-postklienter tillåter inte förfrågningar från POSTER. Därför rekommenderas inte denna API för användning i öppet läge. Vissa e-postklienter, som Gmail eller Outlook, kan cachelagra innehållet eller blockera bilden och kräva att mottagaren aktivt tillåter att bilden återges.
 
 Du kan inte returnera standardinnehåll med leverans-API:t.
 
@@ -52,7 +53,7 @@ curl -X POST \
 }'
 ```
 
-Var `clientcode` är din Target-klientkod?
+Var `clientcode` är din målklientkod?
 
 >[!NOTE]
 >
@@ -66,7 +67,7 @@ En sandlåda liknar en mbox-begäran, men för icke-webbmiljöer, som e-postleve
 
 >[!NOTE]
 >
->När du använder en radruta och [!DNL Target]läser du det viktiga säkerhetsmeddelandet under [Skapa släpplistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist).
+>När du använder en radruta och [!DNL Target]läser du det viktiga säkerhetsmeddelandet under [Skapa tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist).
 
 Med den här metoden kan du följa upp hur rekommendationerna fungerar i e-postmeddelanden, testa dem på det vanliga sättet med en rekommendation och fortsätta spåra dem på webbplatsen.
 
@@ -79,9 +80,9 @@ E-postsystemet du använder bör kunna hantera följande scenarier:
 * I det här fallet är svaret det som anges som mboxDefault-parametervärde. Se förklaringen nedan om den här parametern.
 * E-postprovidern bör ha ett HTML-standardblock med rekommendationer att använda i det här fallet.
 
-### Target-servern gör timeout och returnerar utan data
+### Målservern gör timeout och returnerar utan data
 
-* I så fall returnerar Target-servern följande innehåll:
+* I det här fallet returnerar målservern följande innehåll:
 
    `//ERROR: application server timeout`
 
@@ -105,13 +106,13 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Parameter | Värde | Beskrivning | Validering |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | Kundens kod som används i Rekommendationer. Din Adobe-konsult kan ge detta värde. |  |
+| `client_code` | *client_code* | Kundens kod som används i Recommendations. Din Adobe-konsult kan ge det här värdet. |  |
 | `mbox` | *mboxName* | Det mbox-namn som används för mål. | Samma validering som för alla mbox-anrop.<br>Högst 250 tecken.<br>Kan inte innehålla något av följande tecken: `', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | inaktiverad | Förhindrar att svaret ställer in en cookie i icke-webbmiljöer. |  |
 | `entity.id`<br>(Krävs för vissa typer av kriterier: vy/vy, vy/köpt, köpt/köpt) | *entity_id* | Produkt-ID som rekommendationen baseras på, till exempel en övergiven produkt i kundvagnen eller ett tidigare köp.<br>Om villkoret kräver det måste anropet till rawbox innehålla `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Om `entity.id` skickas rekommenderas att även skicka den här parametern för att förhindra att begäran ökar antalet tallied-sidvisningar för ett objekt, så att man inte skevar produktvybaserade algoritmer. |  |
 | `entity.categoryId`<br>(Krävs för vissa typer av kriterier: mest visade per kategori och bästsäljare per kategori) | *category_id* | Den kategori som rekommendationen baseras på, till exempel de främsta säljarna i en kategori.<br>Om villkoret kräver det måste anropet till rawbox innehålla `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Om `mboxNoRedirect` parametern inte finns bör `mboxDefault` den vara en absolut URL som returnerar standardinnehåll om ingen rekommendation är tillgänglig. Det kan vara en bild eller annat statiskt innehåll.<br>Om `mboxNoRedirect` parametern finns `mboxDefault` kan det vara vilken text som helst som anger att det inte finns några rekommendationer, till exempel `no_content`.<br>E-postleverantören måste hantera det fall där värdet returneras och infoga standard-HTML i e-postmeddelandet. <br> **Bästa praxis** för säkerhet: Observera att om domänen som används i URL:en inte tillåts kan du utsättas för en risk för ett Open Redirect-fel. `mboxDefault` För att undvika obehörig användning av omdirigeringslänkar eller `mboxDefault` av tredje part rekommenderar vi att du använder&quot;auktoriserade värdar&quot; för att tillåta standarddomäner för omdirigering av URL. Target använder värdar för att tillåta domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa tillståndslistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) i *värdar*. |  |
+| `mboxDefault` | *`https://www.default.com`* | Om `mboxNoRedirect` parametern inte finns bör `mboxDefault` den vara en absolut URL som returnerar standardinnehåll om ingen rekommendation är tillgänglig. Det kan vara en bild eller annat statiskt innehåll.<br>Om `mboxNoRedirect` parametern finns `mboxDefault` kan det vara vilken text som helst som anger att det inte finns några rekommendationer, till exempel `no_content`.<br>E-postleverantören måste hantera det fall där värdet returneras och infoga standard-HTML i e-postmeddelandet. <br> **Bästa praxis** för säkerhet: Observera att om domänen som används i URL:en inte är tillåtslista kan du utsättas för en risk för ett Open Redirect-fel. `mboxDefault` För att undvika obehörig användning av omdirigeringslänkar eller `mboxDefault` av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåtslista standarddomänerna för omdirigering av URL. Target använder värdar för att tillåtslista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa Tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) i *Hosts*. |  |
 | `mboxHost` | *mbox_host* | Det här är domänen som läggs till i standardmiljön (värdgruppen) när anropet utlöses. |  |
 | `mboxPC` | Tom | (Krävs för rekommendationer som använder en besökarprofil.)<br>Om inget&quot;thirdPartyId&quot; har angetts genereras ett nytt tntId som returneras som en del av svaret. Annars förblir den tom.<br>**Obs **: Var noga med att ange det unika värdet`mboxSession`och`mboxPC`för varje e-postmottagare (dvs. för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svaret ta lång tid eller misslyckas på grund av det stora antalet händelser som genereras i en enskild profil. | 1 &lt; Längd &lt; 128<br>Får inte innehålla mer än ett enda &quot;.&quot; (punkt).<br>Den enda tillåtna punkten är för profilplatsens suffix. |
 
@@ -119,11 +120,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Parameter | Värde | Beskrivning | Validering |
 |--- |--- |--- |--- |
-| `mboxPC`<br>(Valfritt) | *mboxPCId* | Target besökar-ID. Använd det här värdet om du vill spåra en användares fullständiga cirkel tillbaka till webbplatsen vid flera besök eller när du använder en användarprofilsparameter.<br>Detta värde måste vara användarens faktiska Adobe Target-PCID, som skulle exporteras från webbplatsen till din CRM. E-postleverantören hämtar detta ID från CRM eller Data warehouse och använder det som värde för den här parametern.<br>Värdet är också användbart för att spåra besökares webbplatsbeteende vid flera besök för mätspårning när en rekommendation ingår i en A/B-aktivitet. `mboxPC`<br>**Obs **: Var noga med att ange det unika värdet`mboxSession`och`mboxPC`för varje e-postmottagare (dvs. för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svaret ta lång tid eller misslyckas på grund av det stora antalet händelser som genereras i en enskild profil. | 1 &lt; Längd &lt; 128<br>Får inte innehålla mer än ett enda &quot;.&quot; (punkt).<br>Den enda tillåtna punkten är för profilplatsens suffix. |
+| `mboxPC`<br>(Valfritt) | *mboxPCId* | Målbesökar-ID. Använd det här värdet om du vill spåra en användares fullständiga cirkel tillbaka till webbplatsen vid flera besök eller när du använder en användarprofilsparameter.<br>Detta värde måste vara det faktiska Adobe Target PCID för användaren, som skulle exporteras från webbplatsen till din CRM. E-postleverantören hämtar detta ID från CRM eller Data warehouse och använder det som värde för den här parametern.<br>Värdet är också användbart för att spåra besökares webbplatsbeteende vid flera besök för mätspårning när en rekommendation ingår i en A/B-aktivitet. `mboxPC`<br>**Obs **: Var noga med att ange det unika värdet`mboxSession`och`mboxPC`för varje e-postmottagare (dvs. för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svaret ta lång tid eller misslyckas på grund av det stora antalet händelser som genereras i en enskild profil. | 1 &lt; Längd &lt; 128<br>Får inte innehålla mer än ett enda &quot;.&quot; (punkt).<br>Den enda tillåtna punkten är för profilplatsens suffix. |
 | `mboxNoRedirect`<br>(Valfritt) | 1 | Som standard dirigeras anroparen om när inget slutbart innehåll hittas. Används för att inaktivera standardbeteendet. |  |
 | `mbox3rdPartyId` | *xxx* | Använd det här alternativet om du har ett eget besökar-ID som du kan använda för att målinrikta profiler. |  |
 
-### Potentiella Target-serversvar
+### Potentiella målserversvar
 
 | Svar | Beskrivning |
 |--- |--- |
