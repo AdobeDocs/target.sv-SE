@@ -2,9 +2,13 @@
 keywords: recommendations;frequently asked questions;faq
 description: Lista med vanliga frågor och svar om rekommendationsdesign.
 title: Vanliga frågor om design
+feature: null
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 0%
 
 ---
 
@@ -45,8 +49,8 @@ Version 1.7 utan ytterligare verktyg eller bibliotek tillagda i. Det finns grund
 
 ## Hur ersätter jag ett befintligt enhetsvärde med ett tomt värde? Till exempel måste ett objekts entity.message rensas när en kampanj avslutas. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Att skicka ett hårt blanksteg i JavaScript verkar göra detta. Låt utvecklarna skicka in `\u00A0` som värde. Exempel: `entity.message=\u00A0`.Du kan överväga att använda det som standardvärde när det inte finns något värde i stället för ett null-värde.
+Att skicka ett hårt blanksteg i JavaScript verkar göra detta. Låt utvecklarna skicka in `\u00A0` som värde. Exempel: `entity.message=\u00A0`Du kan överväga att använda det som standardvärde när det inte finns något värde i stället för ett null-värde.
 
-## Kan jag använda ett profilskript i en rekommendationsdesign? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Kan jag använda ett profilskript i en Recommendations-design? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
 Ja. Du måste dock lägga till ett omvänt snedstreck (\) före $ i profilskriptets namn.
