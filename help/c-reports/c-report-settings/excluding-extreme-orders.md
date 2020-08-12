@@ -1,10 +1,14 @@
 ---
 keywords: Target;reports;report settings;extreme orders;extreme values
-description: Du kan utesluta extrema värden från att påverka rapporter i Adobe Target så att några ovanliga order inte påverkar dina aktivitetsresultat. Ett exempel på en ovanlig beställning kan vara en coach som köper uniformer för ett helt team i stället för att köpa individuella uniformer åt enskilda köpare.
+description: Du kan utesluta extrema värden från att påverka rapporter i Adobe Target så att några ovanliga order inte påverkar aktivitetsresultaten. Ett exempel på en ovanlig beställning kan vara en coach som köper uniformer för ett helt team i stället för att köpa individuella uniformer åt enskilda köpare.
 title: Exkludera extrema värden i Adobe Target-rapporter
+feature: null
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
