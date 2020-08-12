@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rapporter när Analytics används som rapportkälla för Target (A4T).
 title: Visa rapporter - A4T FAQ
+feature: null
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 1%
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rapporter när du använder [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
 
-## Kan jag visa mina målaktivitetsdata i Analysis Workspace? {#workspace}
+## Kan jag visa mina Target-aktivitetsdata i Analysis Workspace? {#workspace}
 
 Ni kan använda [!DNL Analysis Workspace] för att analysera era [!DNL Target] aktiviteter och upplevelser. Med [Analytics for Target-panelen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) kan ni se lyft och självförtroende för så många som tre framgångsmått. Du kan också fördjupa dig i tabeller och visualiseringar.
 
@@ -48,7 +49,7 @@ Tänk på följande:
 * Alla mätvärden ovan utlöses när en användare kvalificerar sig för en aktivitet och innehållet returneras från [!DNL [!DNL Target]]. Det behöver inte innebära att användaren såg erbjudandet. Om en aktivitetsupplevelse är under förskjutningen och användaren inte rullar nedåt på sidan, har erbjudandet levererats av användaren [!DNL Target] men inte av användaren.
 * [!UICONTROL Activity Impressions] (mätt med [!DNL Target]) och [!UICONTROL Instances] (mätt med [!DNL Analytics]) är lika, såvida det inte finns flera mbox-anrop på samma sida i samma aktivitet. Detta gör [!UICONTROL Activity Impressions] att flera räknas, men bara en enda [!UICONTROL Instance].
 
-## Varför är&quot;aktivitetsavtryck&quot; och&quot;aktivitetskonverteringar&quot; högre i Analysis Workspace än i Reports &amp; Analytics? {#sametouch}
+## Varför är&quot;aktivitetsintryck&quot; och&quot;aktivitetskonverteringar&quot; högre i Analysis Workspace än i Rapporter och analyser? {#sametouch}
 
 [!DNL Reports & Analytics] tillämpar en attribueringsmodell med samma tryckning på &quot;aktivitetsavtryck&quot; och &quot;aktivitetskonverteringar&quot; medan [!DNL Analysis Workspace] visar rådatamätningar, som kan visas som inflaterade på grund av [!DNL Target] dimensionens beständighet.
 
@@ -68,13 +69,13 @@ Efter klassificeringsperioden visas data i dessa rapporter ungefär en timme eft
 
 Den [!DNL Target] variabel som skickas till [!DNL Analytics] har en 90-dagars standardförfalloperiod. Den här förfalloperioden kan justeras av kundtjänst om det behövs. Den här inställningen är global för alla aktiviteter, så den bör inte justeras för ett fall.
 
-Du kan se [!DNL Target] variabler som skickas till [!DNL Analytics] efter förfalloperioden eftersom förfallotiden är 90 dagar, men bara om användaren aldrig ser någon annan A4T-aktiverad [!DNL Target] aktivitet. Om en användare kommer tillbaka till webbplatsen dag 45 och ser en annan aktivitet, har hela A4T eVar-värdet återställts till 90 dagar. Det innebär att den första kampanjen från dag 1 nu kan vara beständig i upp till 45 + 90 = 135 dagar. Om användaren kommer tillbaka kan du komma till den punkt där du ser mätvärden som skickas till [!DNL Analytics] i din rapportering från mycket äldre aktiviteter. När användare tar bort cookies och inte återvänder till webbplatsen kommer siffrorna i den aktiviteten att tas bort, men du kommer fortfarande att se dem.
+Du kan se [!DNL Target] variabler som skickas till [!DNL Analytics] efter förfalloperioden eftersom förfallotiden är 90 dagar, men bara om användaren aldrig ser någon annan A4T-aktiverad [!DNL Target] aktivitet. Om en användare kommer tillbaka till webbplatsen dag 45 och ser en annan aktivitet, har A4T-eVar värde återställts till 90 dagar. Det innebär att den första kampanjen från dag 1 nu kan vara beständig i upp till 45 + 90 = 135 dagar. Om användaren kommer tillbaka kan du komma till den punkt där du ser mätvärden som skickas till [!DNL Analytics] i din rapportering från mycket äldre aktiviteter. När användare tar bort cookies och inte återvänder till webbplatsen kommer siffrorna i den aktiviteten att tas bort, men du kommer fortfarande att se dem.
 
 Det innebär att aktiviteter fortsätter att få sidvisningar, besök och så vidare i upp till 90 dagar efter att aktiviteten avslutas för besökare som blev en del av aktiviteten medan den var aktiv. Om du tittar på [!UICONTROL Activity Impressions] måtten ska du dock inte se några intryck när aktiviteten är slut.
 
-Detta är normalt och förväntat beteende. A4T-variabeln fungerar som alla andra eVar - värdet associeras med användaren tills det når förfallotidsperioden (90 dagar). Om en aktivitet bara är aktiv i två veckor kommer därför värdet fortfarande att associeras med användaren under minst de kommande 90 dagarna.
+Detta är normalt och förväntat beteende. A4T-variabeln fungerar på samma sätt som andra eVar. Värdet associeras med användaren tills det når förfallotidsperioden (90 dagar). Om en aktivitet bara är aktiv i två veckor kommer därför värdet fortfarande att associeras med användaren under minst de kommande 90 dagarna.
 
-Bästa praxis är att endast visa rapporter för den aktiviteten för den tidsperiod som aktiviteten var aktiv. Datumen bör anges korrekt som standard när du visar aktiviteten i [!DNL Analytics], så om du inte manuellt har förlängt datumet bör detta inte vara något problem ur rapporteringssynpunkt.
+Bästa praxis är att endast visa rapporter för den aktiviteten för den tidsperiod som aktiviteten var aktiv. Datumen bör anges korrekt som standard när du visar aktiviteten i [!DNL Analytics], så om du inte manuellt har förlängt datumet bör det inte vara något problem ur rapporteringssynpunkt.
 
 Låt oss till exempel anta att variabeln A4T upphör att gälla efter 90 dagar och vårt test är aktivt från 1 januari till 15 januari.
 
@@ -97,7 +98,7 @@ Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren
 | XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
-Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. 90-dagars förfallotid för det första eVar-värdet återställs den 1 april, så vi kommer att se det när vi rapporterar. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
+Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så vi kommer att se det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
@@ -107,7 +108,7 @@ Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor oc
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target] rapporter gäller att eftersom du inte placerar en [!DNL Target] aktivitet mot en annan aktivitet för att se vilken som blir mer framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Ni jämför resultaten av två objekt i en enda aktivitet, och det är inte möjligt för en användare att se olika upplevelser i samma aktivitet så att ni inte behöver bekymra er om korskontaminering av orderkrediter.
 
-Mer information finns i [Konverteringsvariabler (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) i *administrationshandboken* för Analytics.
+Mer information finns i [Konverteringsvariabler (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) i *administratörshandboken* för Analytics.
 
 ## Varför beräknas siffror för de unika besökarvärdena olika i Analytics och Analytics for Target (A4T)? {#section_0C3B648AB54041F9A2AA839D51791883}
 
