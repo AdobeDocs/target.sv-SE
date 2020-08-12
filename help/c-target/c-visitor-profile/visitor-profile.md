@@ -2,11 +2,15 @@
 keywords: Overview and Reference
 description: Besöksprofiler innehåller information om hur besökarna använder dina sidor och andra optimerade platser för innehåll
 title: Besökarprofiler
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Besöksprofiler innehåller information om hur besökarna använder dina sidor och andra optimerade platser för innehåll
 
-Om Target används tillsammans med andra Adobe Marketing Suite-lösningar, som Adobe Analytics, delar Experience Cloud-målgrupper besökarinformation mellan olika lösningar.
+Om Target används tillsammans med andra Adobe Marketing Suite-lösningar, som Adobe Analytics, delar målgrupper besöksinformation mellan olika lösningar.
 
 Som standard lagras information om målprofilen i en cookie från en enda part. Konfigurationen kan enkelt ändras för att även hantera cookies från tredje part.
 
