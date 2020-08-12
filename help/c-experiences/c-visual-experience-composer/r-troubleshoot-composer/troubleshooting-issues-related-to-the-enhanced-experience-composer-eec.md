@@ -2,9 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: Visningsproblem kan ibland uppstå i Enhanced Experience Composer (EEC) under vissa förhållanden.
 title: Felsökning av problem relaterade till Förbättrad Experience Composer
+feature: null
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -18,9 +19,9 @@ Visningsproblem kan ibland uppstå i Enhanced Experience Composer (EEC) under vi
 
 ## EEG läser inte in en intern QA-URL som inte är tillgänglig på offentlig IP. (endast EEG) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Detta kan åtgärdas genom att följande IP-adresser tillåts listas. De här IP-adresserna är till för Adobes server och används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på platsen behöver inte dessa tillåtna IP-adresser
+Detta kan du lösa genom att tillåtslista följande IP-adresser. De här IP-adresserna är för Adobe-servern som används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på platsen behöver inte dessa IP-adresser tillåtslista
 
-Be IT-avdelningen om tillåtelse att ange följande IP-adresser:
+Be IT-teamet att tillåtslista följande IP-adresser:
 
 | Län | IP-adresser | Värdnamn |
 |--- |--- |--- |
@@ -38,15 +39,15 @@ Följande är orsaker till att du kan se det här felmeddelandet och åtgärda p
 
 * **Problem:** Din webbplatsdomän (ISP) blockerar Förbättrad Experience Composer.
 
-   **Åtgärda:** Tillåt de IP-adresser som anges ovan.
+   **Åtgärda:** Tillåtslista de IP-adresser som anges ovan.
 
-* **Problem:** IP-adresserna är tillåtna, men din webbplats stöder inte TLS version 1.2. Målet använder för närvarande standardkonfigurationen 1.2. Före mål 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [TLS (Transport Layer Security) Krypteringsändringar](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Problem:** IP-adresserna är tillåtslista men din webbplats stöder inte TLS version 1.2. Målet använder för närvarande standardkonfigurationen 1.2. Före mål 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [TLS (Transport Layer Security) Krypteringsändringar](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **Lösning:** Se följande fråga (Förbättrad Visual Experience Composer läses inte in på säkra sidor på min webbplats som använder TLS 1.2).
 
 ## EEC laddas inte på säkra sidor på min webbplats som använder TLS 1.0. (endast EEG) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Du kan se felmeddelandet som beskrivs ovan i&quot;Den förbättrade Visual Experience Composer läses inte in på säkra sidor på min webbplats.&quot; om IP-adresserna ovan tillåts men din webbplats inte stöder TLS version 1.2. Målet använder för närvarande standardkonfigurationen 1.2. Före mål 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [TLS (Transport Layer Security) Krypteringsändringar](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Du kan se felmeddelandet som beskrivs ovan i&quot;Den förbättrade Visual Experience Composer läses inte in på säkra sidor på min webbplats.&quot; om IP-adresserna ovan är tillåtslista men webbplatsen inte stöder TLS version 1.2. Målet använder för närvarande standardkonfigurationen 1.2. Före mål 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [TLS (Transport Layer Security) Krypteringsändringar](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Så här kontrollerar du TLS-versionen på din webbplats med Firefox (andra webbläsare har liknande steg):
 
