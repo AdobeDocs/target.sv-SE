@@ -2,10 +2,14 @@
 keywords: remote offer;create remote offer
 description: Skapa JSON-erbjudanden i erbjudandebiblioteket för användning i den formulärbaserade Experience Composer.
 title: Skapa JSON-erbjudanden
+feature: null
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
