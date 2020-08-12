@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Information som hjälper dig att ange de element som du vill ska visas i rapporten. Rapportinställningarna kan sparas för senare bruk.
 title: Rapportinställningar
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1813'
+ht-degree: 0%
 
 ---
 
@@ -161,8 +165,8 @@ Du kan visa rapporten i olika format, beroende på aktivitetstypen. Välj önska
 
 * **Tabellvy**: Klicka på **[!UICONTROL Table View]** ikonen om du vill visa rapporten som en tabell.
 * **Diagramvy**: Klicka på **[!UICONTROL Graph View]** ikonen om du vill visa rapporten som ett diagram.
-* **Automatiska segment**:(Endast tillgängligt för aktiviteterna Automated Personalization (AP) och Auto-Target (AT).) Klicka på ikonen **[!UICONTROL Automated Segments] för att visa rapporten [om](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatiserade segment.
-* **Viktiga attribut**: (Endast tillgängligt för aktiviteterna Automated Personalization (AP) och Auto-Target (AT).) Klicka på ikonen **[!UICONTROL Important Attributes] för att visa [rapporten](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Viktiga attribut.
+* **Automatiska segment**:(Endast tillgängligt för Automated Personalization- (AP) och AT-aktiviteter (Auto-Target).) Klicka på ikonen **[!UICONTROL Automated Segments] för att visa rapporten [om](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatiserade segment.
+* **Viktiga attribut**: (Endast tillgängligt för Automated Personalization-aktiviteter (AP) och Automatiskt mål-aktiviteter (AT).) Klicka på ikonen **[!UICONTROL Important Attributes] för att visa [rapporten](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Viktiga attribut.
 
 ## Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -213,7 +217,7 @@ Markera önskad diagramvy:
 
 (Endast tillgängligt när du visar rapporten i diagramvyn)
 
-Du kan välja beräkningsmetod för diagram i rapporter. Observera att detta inte stöds för Automated Personalization (AP)-aktiviteter.
+Du kan välja beräkningsmetod för diagram i rapporter. Observera att detta inte stöds för Automated Personalization-aktiviteter (AP).
 
 Om du vill öppna alternativet Räkningsmetod när du visar en rapport i grafikläge klickar du på **[!UICONTROL My Primary Goal]** listrutan och väljer sedan beräkningsmetoden.
 
@@ -235,10 +239,10 @@ Det finns fyra lägen för Automatiskt mål-aktiviteter: Daily Control, Daily Ta
 
 Standardordningen som diagrammet ritas i är följande:
 
-* **A/B-tester (inklusive automatisk fördelning och automatiserad personalisering)**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
+* **A/B-tester (inklusive autoallokering och Automated Personalization)**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
 * **Experience Targeting (XT)**: Upplevelseordning i aktiviteten.
 * **Multivariata tester (MVT)**: I bokstavsordning efter upplevelsenamn.
-* **Rekommendationer**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
+* **Recommendations**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
 
 När du arbetar med alternativen för Räkningsmetod bör du tänka på följande:
 
