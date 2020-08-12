@@ -2,9 +2,10 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen.
 title: Anpassa en design med Snabb
+feature: null
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
@@ -128,7 +129,7 @@ Du kan också använda `algorithm.name` och `algorithm.dayCount` som variabler i
 Som standard hanteras alla entitetsattribut som strängvärden i snabbmeddelandemallar. Du kanske vill behandla ett entitetsattribut som ett numeriskt värde för att utföra en matematisk åtgärd eller jämföra det med ett annat numeriskt värde. Så här behandlar du ett entitetsattribut som ett numeriskt värde:
 
 1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller ett dubbelvärde
-1. Kontrollera att det entitetsattribut du vill använda inte är tomt (krävs för att Target Recommendations mallparser ska kunna validera och spara mallen)
+1. Kontrollera att det entitetsattribut du vill använda inte är tomt (krävs för att Recommendations malltolk ska kunna validera och spara mallen)
 1. Skicka entitetsattributet till `parseInt` - eller `parseDouble` -metoden för dummy-variabeln som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde
 1. Utför matematisk åtgärd eller jämförelse på det nya numeriska värdet
 
