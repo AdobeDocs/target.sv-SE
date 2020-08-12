@@ -2,11 +2,15 @@
 keywords: Overview and Reference
 description: Som standard lagras besöksprofiler i 14 dagar. Profilens livslängd kan förlängas.
 title: Livslängd för besökarprofil
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Som standard upphör en besökarprofil att gälla efter 14 dagars inaktivitet för den besökaren. Profilens livslängd kan förlängas.
 
-[Kontakta kundtjänst eller en Adobe-konsult](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att förlänga profilens livstid utan extra kostnad. Livslängden kan anges till så många som 90 dagar.
+[Kontakta kundtjänst eller din Adobe-konsult](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att förlänga profilens livstid utan extra kostnad. Livslängden kan anges till så många som 90 dagar.
 
 Det [!DNL Target] JavaScript-bibliotek som du använder ( [!DNL at.js] eller [!DNL mbox.js]) avgör om du behöver hämta en ny fil eller inte:
 
