@@ -1,12 +1,13 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
-description: Om sidan inte visar det förväntade innehållet kan du utföra några steg för att felsöka innehållsleverans i Adobe Target.
+description: Om sidan inte visar det förväntade innehållet kan du utföra några steg för att felsöka innehållsleveransen i Adobe Target.
 title: Felsöka innehållsleverans i Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -65,9 +66,9 @@ En del av informationen innehåller matchade och omatchade segment- och mål-ID:
 * **Omatchad**: Begäran var inte berättigad i denna inbjudan för dessa segment eller mål.
 * **Matchad**: Begäran kvalificerad för de angivna segmenten eller målen.
 
-**Använda mboxTrace på rekommendationssidor**: Om du lägger till mboxTrace som en frågeparameter på sidor med rekommendationer ersätts designen Recommendations på sidan med ett mboxTrace-informationsfönster, som visar detaljerad information om dina rekommendationer, inklusive:
+**Använda mboxTrace på Recommendations-sidor**: Om du lägger till mboxTrace som en frågeparameter på sidor med rekommendationer ersätts Recommendations-designen på sidan med ett mboxTrace-informationsfönster, som visar detaljerad information om dina rekommendationer, inklusive:
 
-* Rekommendationer som returnerats jämfört med rekommendationer som begärts
+* Recommendations returnerade jämfört med begärda rekommendationer
 * Nyckeln som används och om den genererar rekommendationer
 * Villkorsgenererade rekommendationer jämfört med rekommendationer för säkerhetskopiering
 * Villkorskonfiguration
@@ -76,7 +77,7 @@ En del av informationen innehåller matchade och omatchade segment- och mål-ID:
 
 Du behöver inte inkludera `=console`, `=json`eller `=window` i frågeparametern. När du är klar med informationen för mboxTrace lägger du till `=disable` och trycker **[!UICONTROL Enter]** för att återgå till det normala visningsläget.
 
-Webbplatsens normala funktion och utseende påverkas inte av mboxTrace. Besökarna kommer att se din vanliga rekommendationsdesign.
+Webbplatsens normala funktion och utseende påverkas inte av mboxTrace. Besökarna ser din vanliga Recommendations-design.
 
 ## mboxDebug {#mboxdebug}
 
@@ -88,12 +89,12 @@ Om du vill använda mboxDebug lägger du till en mboxDebug-parameter i slutet av
 
 | URL-parametrar | Syfte |
 |--- |--- |
-| `mboxDebug=1` | FelsökningOm du lägger till den här parametern till en URL med definierade Target-begäranden öppnas ett popup-fönster med värdefull felsökningsinformation.<br> Cookie-information, PCid- och sessions-ID-värden skrivs ut och alla URL:er visas. Klicka på en URL för en begäran från Target för att visa svaret på den [!DNL Target] förfrågan. Mer information finns i [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | FelsökningOm du lägger till den här parametern till en URL med definierade Target-begäranden öppnas ett popup-fönster med värdefull felsökningsinformation.<br> Cookie-information, PCid- och sessions-ID-värden skrivs ut och alla URL:er visas. Klicka på en URL för en målbegäran för att visa svaret på den [!DNL Target] begäran. Mer information finns i [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Ändra cookien |
 | `mboxDisable=1` | Inaktivera kryssrutor på sidan |
 | `mboxDebug=x-profile` | Visa profiler. |
 | `mboxDebug=x-time` | Visa svarstid för varje [!DNL Target] begäran |
-| `mboxOverride.browserIp=<Insert IP address>` | Testa<br>geotargetingTesta geolokalisering med den här URL-parametern. Ange en IP-adress som värde för det här attributet, och Test&amp;Target-målet utvärderar den IP-adressen så att den matchar eventuell geolokalisering eller segmentering som angetts i en kampanj. |
+| `mboxOverride.browserIp=<Insert IP address>` | Testa<br>geotargetingTesta geolokalisering med den här URL-parametern. Ange en IP-adress som värde för det här attributet, och Test&amp;Target-målet utvärderar den IP-adressen så att den matchar alla geografiska mål och segmenteringar som angetts i en kampanj. |
 
 >[!NOTE]
 >
@@ -101,17 +102,17 @@ Om du vill använda mboxDebug lägger du till en mboxDebug-parameter i slutet av
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud Debugger gör det snabbt och enkelt att förstå er Target-implementering. Du kan snabbt visa bibliotekskonfigurationen, granska förfrågningar för att se till att dina anpassade parametrar skickas korrekt, aktivera konsolloggning och inaktivera alla Target-förfrågningar. Logga in på Experience Cloud och använd det kraftfulla MboxTrace-verktyget för att granska din aktivitet och dina målgruppskvalifikationer liksom din besökarprofil.
+Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur Target-implementeringen fungerar. Du kan snabbt visa bibliotekskonfigurationen, granska förfrågningar för att se till att dina anpassade parametrar skickas korrekt, aktivera konsolloggning och inaktivera alla Target-förfrågningar. Logga in på Experience Cloud och använd det kraftfulla MboxTrace-verktyget för att granska din aktivitet och dina målgruppskvalifikationer liksom din besökarprofil.
 
 Mer information finns i utbildningsvideorna nedan:
 
-Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud-felsökaren](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Om target.js inte kan läsas in under leverans {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
-Mbox.js skickar en cookie med namnet&quot;em-disabled&quot; till besökaren om target.js inte kan läsas in under leveransen. Denna cookie förhindrar att erbjudanden som skapats med Visual Experience Composer återges på webbplatsen. Besökare med denna cookie ser varken testinnehållet eller räknas in i aktivitetsrapporterna. Allt annat innehåll (från kampanjer i Target Classic till exempel) fortsätter att läsas in. Cookien har en livstid på 30 min från tidpunkten då inläsningen misslyckades.
+Mbox.js skickar en cookie med namnet&quot;em-disabled&quot; till besökaren om target.js inte kan läsas in under leveransen. Denna cookie förhindrar att erbjudanden som skapats med Visual Experience Composer återges på webbplatsen. Besökare med denna cookie ser varken testinnehållet eller räknas in i aktivitetsrapporterna. Allt annat innehåll (från kampanjer i till exempel Target Classic) fortsätter att läsas in. Cookien har en livstid på 30 min från tidpunkten då inläsningen misslyckades.
 
-## De viktigaste säljarna visas inte i Rekommendationer {#section_3920C857270A406C80BE6CBAC8221ECD}
+## De största säljarna visas inte i Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 Anropet *`SiteCatalyst: purchase`* kan inte användas för trafikdata för inköpsalgoritmen. Använd *`orderConfirmPage`* samtalet i stället.
 
@@ -121,7 +122,7 @@ Formulärbaserade aktiviteter som skapats med [!DNL Target Standard/Premium] kan
 
 ## Anpassad kod ger inte det förväntade resultatet i Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
-Target stöder inte längre IE 8.
+Target har inte längre stöd för IE 8.
 
 ## JavaScript-innehåll som levereras av den globala [!DNL Target] begäran läses inte in när mbox.js används. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
@@ -129,15 +130,15 @@ Uppgradera till [!DNL mbox.js] version 58 eller senare.
 
 mbox.js version 58 och senare kör icke-JavaScript-innehåll för den globala [!DNL Target] begäran omedelbart efter att HTML- `BODY` -taggen finns. JavaScript-innehåll inuti `<script>` -taggar för den globala [!DNL Target] begäran körs efter att `DOMContentLoaded` händelsen har utlösts. Den här ordningen för innehållsleverans säkerställer att JavaScript-innehåll för den globala [!DNL Target] begäran levereras och återges korrekt.
 
-## Target Cookie hämtar inte uppsättning {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Målcookie hämtar inte uppsättning {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Om din webbplats har en underdomän, till exempel [!DNL us.domain.com]men du behöver den cookie-fil som är inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]), måste du åsidosätta `cookieDomain` inställningen. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Om platsen har en underdomän, till exempel [!DNL us.domain.com]men du behöver ha Target-cookien inställd [!DNL domain.com] (i stället för [!DNL us.domain.com]), måste du åsidosätta `cookieDomain` inställningen. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-## Target-innehåll flimrar eller visas inte om ett element också är en del av AEM-personaliseringen. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## Målinnehållet flimrar eller visas inte om ett element också ingår i AEM. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-Om ett DOM-element är en del av anpassning efter Adobe Experience Manager (AEM) och en Target-aktivitet kan Target-innehåll flimra eller inte visas.
+Om ett DOM-element är en del av Adobe Experience Manager (AEM) personalisering, och en Target-aktivitet, kan målinnehållet flimra eller inte visas.
 
-Du kan åtgärda detta genom att inaktivera AEM-personalisering på sidor där Target körs.
+Du kan åtgärda detta genom att inaktivera AEM på sidor där Target körs.
 
 ## Omdirigerings- och fjärrerbjudanden levereras inte på grund av en ogiltig URL. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -151,7 +152,7 @@ För fjärrerbjudanden kan [!DNL Target] svaret innehålla `/* invalid remote of
 
 Du kan kontrollera [!DNL Target] svaret i webbläsaren eller med mboxTrace. Mer information om giltiga URL:er finns på [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) .
 
-## Target-förfrågningar utlöses inte på min webbplats.
+## Målförfrågningar utlöses inte på min webbplats.
 
 at.js utlöser inte Target-begäranden om du använder en ogiltig doctype. at.js kräver dokumenttypen HTML 5.
 
@@ -163,7 +164,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Grundläggande ![självstudiekurs för Target-felsökning](/help/assets/tutorial.png)
+### Grundläggande ![självstudiekursetikett för målfelsökning](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
