@@ -2,10 +2,11 @@
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
 title: Miljö
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Du kan ta bort en miljö när den inte längre behövs.
 >
 >Du kan inte ta bort [!UICONTROL Production] miljön, men du kan byta namn på den.
 
-## Rekommendationer: filtrera samlingar och uteslutningar efter miljö (värdgrupp)
+## Recommendations: filtrera samlingar och uteslutningar efter miljö (värdgrupp)
 
 ![Premium-märke](/help/assets/premium.png)
 
@@ -73,16 +74,16 @@ Du kan förhandsgranska innehållet i Recommendations-samlingar och undantag fö
 
 >[!NOTE]
 >
->Rekommendationsaktiviteter finns som en del av Premium- [!DNL Target] lösningen. De finns inte i [!DNL Target] Standard utan en [!DNL Target] Premium-licens.
+>Recommendations-aktiviteter ingår i Premium- [!DNL Target] lösningen. De finns inte i [!DNL Target] Standard utan en [!DNL Target] Premium-licens.
 
 En miljö kan användas för att separera tillgängliga objekt i katalogen för olika användningsområden. Du kan till exempel använda värdgrupper för [!UICONTROL Development] och [!UICONTROL Production] miljöer, olika varumärken eller olika platser. Som standard baseras förhandsgranskningsresultaten i Katalogsökning, Samlingar och Undantag på standardvärdgruppen. (Du kan också välja en annan värdgrupp om du vill förhandsgranska resultaten med hjälp av miljöfiltret.) Som standard är nyligen tillagda objekt tillgängliga i alla värdgrupper om inte ett miljö-ID anges när objektet skapas eller uppdateras. Levererade rekommendationer beror på värdgruppen som anges i begäran.
 
-Om du inte ser dina produkter bör du kontrollera att du använder rätt värdgrupp. Om du t.ex. har konfigurerat din rekommendation att använda en mellanlagringsmiljö och du har angett mellanlagringsgruppen som värdgrupp kan du behöva återskapa dina samlingar i mellanlagringsmiljön för att produkterna ska kunna visas. Om du vill se vilka produkter som är tillgängliga i respektive miljö använder du Katalogsökning för varje miljö. Du kan också förhandsgranska innehållet i Rekommendationer-samlingar och undantag för en vald miljö (värdgrupp).
+Om du inte ser dina produkter bör du kontrollera att du använder rätt värdgrupp. Om du t.ex. har konfigurerat din rekommendation att använda en mellanlagringsmiljö och du har angett mellanlagringsgruppen som värdgrupp kan du behöva återskapa dina samlingar i mellanlagringsmiljön för att produkterna ska kunna visas. Om du vill se vilka produkter som är tillgängliga i respektive miljö använder du Katalogsökning för varje miljö. Du kan också förhandsgranska innehållet i Recommendations-samlingar och undantag för en vald miljö (värdgrupp).
 
 >[!NOTE]
 >När du har ändrat den valda miljön måste du klicka på Sök för att uppdatera de returnerade resultaten.
 
-Filtret är tillgängligt från följande platser i användargränssnittet för Target: [!UICONTROL Environment]
+Filtret är tillgängligt från följande platser i målgränssnittet: [!UICONTROL Environment]
 
 * Katalogsökning ([!UICONTROL Recommendations > Catalog Search])
 * Dialogrutan Skapa samling ([!UICONTROL Recommendations > Collections > Create New])
