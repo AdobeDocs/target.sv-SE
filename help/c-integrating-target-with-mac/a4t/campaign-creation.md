@@ -2,10 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Du kan konfigurera en aktivitet i Target Standard/Premium så att Adobe Analytics används som rapportkälla (A4T).
 title: Skapa aktivitet
+feature: null
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Att skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] som rapportk
 
 1. Ange spårningsservern.
 
-   Se [Använda en Analytics Tracking Server](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
+   Se [Använda en analysspårningsserver](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
 1. Definiera upplevelsen.
 1. Ange aktivitetsmålet.
@@ -57,7 +58,7 @@ Att skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] som rapportk
 
    >[!NOTE]
    >
-   >Du kan skicka ett anpassat Target-baserat mått till [!DNL Analytics] i stället för att bara förlita dig på [!DNL Analytics] data. Du kan till exempel övervaka när du klickar på en sida, som vanligtvis inte spåras av [!DNL Analytics]. Det här anpassade måttet skickas [!DNL Analytics] automatiskt från [!DNL Target] servern och visas som&quot;[!DNL Target] konverteringsmåttet&quot; i mätväljaren i [!DNL Analytics]. Konverteringsmåttet [!DNL Target] är tomt om du väljer att använda [!DNL Analytics] mått.
+   >Du kan skicka ett anpassat målbaserat mått till [!DNL Analytics] i stället för att bara förlita dig på [!DNL Analytics] data. Du kan till exempel övervaka när du klickar på en sida, som vanligtvis inte spåras av [!DNL Analytics]. Det här anpassade måttet skickas [!DNL Analytics] automatiskt från [!DNL Target] servern och visas som&quot;[!DNL Target] konverteringsmåttet&quot; i mätväljaren i [!DNL Analytics]. Konverteringsmåttet [!DNL Target] är tomt om du väljer att använda [!DNL Analytics] mått.
 
    Att du anger ett mål innebär inte att du inte kan använda ett annat mått när du utvärderar testresultat. Målet är dock en påminnelse om det som du vill förbättra med aktiviteten.
 
@@ -69,9 +70,9 @@ Att skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] som rapportk
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Stöd för Analytics for Target (A4T) för automatisk allokering av aktiviteter {#a4t-aa}
+## Analyser för målstöd (A4T) för automatisk allokering av aktiviteter {#a4t-aa}
 
-Vi har uppgraderat integreringen mellan Adobe Target och Adobe Analytics, som kallas [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Vi har uppgraderat integreringen mellan Adobe Target och Adobe Analytics, så kallad [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 [!UICONTROL Auto-Allocate] nu support [!UICONTROL Analytics for Target]. Tack vare den här integreringen kan ni använda funktionen för autoallokering av flera beväpnade bandit för att driva trafik till vinnande upplevelser, samtidigt som ni använder [!DNL Adobe Analytics] målstatistik och/eller [!DNL Adobe Analytics] rapporterings- och analysfunktioner. Om du redan har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)är du redo att börja!
 
@@ -114,7 +115,7 @@ Följande måtttyper stöds inte som primära målmått:
    >
    >Det kan vara möjligt att välja [!DNL Analytics] interaktions- och intäktsmått som det primära målmåttet eftersom [!DNL Target] inte kan identifiera alla interaktions- och intäktsmått från [!DNL Analytics]. Var försiktig när du bara väljer binomial konverteringsstatistik eller anpassade händelser från [!DNL Analytics].
 
-* Beräknade värden för Adobe Analytics
+* Adobe Analytics beräknade värden
 
 ### Begränsningar och anteckningar
 
