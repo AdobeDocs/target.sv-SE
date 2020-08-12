@@ -2,10 +2,14 @@
 keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox
 description: Implementera Target genom att referera till Target-biblioteken (at.js eller mbox.js) på dina webbsidor.
 title: Förstå målbiblioteken i JavaScript
+feature: null
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
@@ -46,9 +50,9 @@ I följande avsnitt beskrivs åtgärdssekvensen för nya och återkommande besö
 1. Om den globala mbox-skaparen är aktiverad, JavaScript-målbiblioteket:
 
    * Instansierar Visitor-objektet.
-   * Målbiblioteket försöker hämta Experience Cloud Visitor ID-data.
+   * Målbiblioteket försöker hämta Experience Cloud Visitor-ID-data.
    * Eftersom det här är en ny besökare skickar Visitor-API:t en korsdomänbegäran till demdex.net.
-   * När Experience Cloud Visitor ID-data har hämtats skickas en begäran till Target.
+   * När data för Experience Cloud Visitor-ID har hämtats skickas en begäran till Target.
 
 ### Returnerande besökare
 
@@ -57,10 +61,10 @@ I följande avsnitt beskrivs åtgärdssekvensen för nya och återkommande besö
 1. Om den globala mbox-skaparen är aktiverad, JavaScript-målbiblioteket:
 
    * Instansierar Visitor-objektet.
-   * Målbiblioteket försöker hämta Experience Cloud Visitor ID-data.
+   * Målbiblioteket försöker hämta Experience Cloud Visitor-ID-data.
    * Besökar-API:t hämtar data från cookies.
-   * När Experience Cloud Visitor ID-data har hämtats skickas en begäran till Target.
+   * När data för Experience Cloud Visitor-ID har hämtats skickas en begäran till Target.
 
 >[!NOTE]
 >
->För nya besökare måste Target gå igenom tråden flera gånger när besökar-API:t finns för att se till att Target-begäranden innehåller Experience Cloud-data för besökare-ID. För återkommande besökare går Target bara till Target för att hämta det personaliserade innehållet.
+>För nya besökare måste Target gå igenom tråden flera gånger när besökar-API:t finns för att se till att Target-begäranden innehåller data för Experience Cloud Visitor-ID:t. För återkommande besökare går Target bara till Target för att hämta det personaliserade innehållet.
