@@ -2,11 +2,12 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: Aktivera eller inaktivera autentisering för batchuppdateringar via API och generera en profilautentiseringstoken.
 title: Profil-API-inställningar
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Aktivera eller inaktivera autentisering för batchuppdateringar via API och gene
 
 För ökad säkerhet kan du kräva att API-anropet för gruppuppdatering kräver att en giltig åtkomsttoken skickas i huvudet för begäran. Användare med [!UICONTROL Approver] behörigheter kan generera och aktivera autentiseringstoken för profil-API.
 
-**Så här kräver du autentisering och genererar en åtkomsttoken med hjälp av Target-gränssnittet:**
+**Så här kräver du autentisering och genererar en åtkomsttoken med hjälp av målgränssnittet:**
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 1. Under **[!UICONTROL Profile API]** skjutreglaget **[!UICONTROL Require Authentication]** växlar du till aktiverad eller inaktiverad position.
