@@ -1,47 +1,48 @@
 ---
 keywords: Experience Cloud;sign in
-description: Instruktioner för att få tillgång till Adobe Target från Adobe Experience Cloud.
-title: Åtkomstmål från Adobe Experience Cloud
+description: Instruktioner om hur du kommer åt Adobe Target från Adobe Experience Cloud.
+title: Access Target från Adobe Experience Cloud
 subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 0%
 
 ---
 
 
-# Åtkomstmål från Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Access Target från Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
 
 Information om åtkomst [!DNL Adobe Target] från [!DNL Adobe Experience Cloud]sidan, inställning av standardstartsida och ändring av språket i [!DNL Target] användargränssnittet.
 
-## Logga in på Adobe Target och ange din standardvy
+## Logga in på Adobe Target och ange standardvyn
 
-1. När du har loggat in på [!DNL Experience Cloud]filen klickar du på appikonen i navigeringsfältet.
+1. Logga in på [Adobe Experience Cloud](https://experience.adobe.com/).
+
+1. Klicka på **[!UICONTROL App icon]** i navigeringsfältet och klicka sedan på **[!UICONTROL Target]**.
+
+   Du kan också klicka på [!DNL Target] panelen i huvudfönstret för att komma åt [!DNL Target] (eller någon annan [!DNL Adobe Experience Cloud] lösning som du har tillgång till).
 
    ![programikon](/help/c-intro/assets/appmenu-new.png)
 
-1. Klicka på [!DNL Target] ikonen på App-menyn.
-
-   ![Målikon](/help/c-intro/assets/appmenu-target-new.png)
-
-1. Klicka på **[!UICONTROL Starta]** på [!DNL Target] kortet.
-
-   ![Målstart](/help/c-intro/assets/target-launch-new.png)
-
-1. (Valfritt) Om du vill ange [!DNL Target] som standardvy när du loggar in [!DNL Experience Cloud]klickar du på **[!UICONTROL Redigera profil]** under din profilavatar och anger sedan din inställning för landningssida.
+1. (Valfritt) Om du vill ange [!DNL Target] som standardvy när du loggar in [!DNL Experience Cloud]**[!UICONTROL Edit Profile]** klickar du under din profilavatar och anger sedan din inställning för landningssida.
 
    ![Landningssida](/help/c-intro/assets/pagepref-new.png)
 
 ## Ändra standardspråk för målgränssnittet {#language}
 
-1. När du har loggat in på [!DNL Adobe Experience Cloud ] eller [!DNL Target]klickar du på din profilavatar och sedan på **[!UICONTROL Redigera profil]**.
+1. När du har loggat in på [!DNL Adobe Experience Cloud ] eller [!DNL Target]klickar du på din profilavatar och sedan på **[!UICONTROL Edit Preferences]**.
 
    ![Redigera profil](/help/c-intro/assets/change-language.png)
 
-1. Klicka på **[!UICONTROL Redigera personlig information]**.
+1. Klicka **[!UICONTROL Adobe Account]** för att komma åt din [!DNL Adobe] profil.
 
-1. Klicka på fliken **[!UICONTROL Kommunikation]** i den övre menyraden.
+   ![Adobe](/help/c-intro/assets/adobe-account.png)
+
+1. Klicka på **[!UICONTROL Notifications]** fliken i den övre menyraden och klicka sedan på **[!UICONTROL Preferences]** fliken till vänster.
 
    ![Önskade språk](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ Information om åtkomst [!DNL Adobe Target] från [!DNL Adobe Experience Cloud]s
 
 1. Välj ditt första (primära) språk och välj sedan ett andra språk om du vill.
 
-   Gränssnittet [!DNL Target] finns på följande språk:
+   Gränssnittet [!DNL Target] finns på följande språk: men meddelanden finns på fler språk:
 
    * Engelska
    * Spanska
@@ -62,13 +63,13 @@ Information om åtkomst [!DNL Adobe Target] från [!DNL Adobe Experience Cloud]s
    * Traditionell kinesiska
    * Koreanska
 
-1. Klicka på **[!UICONTROL Spara]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 1. Logga ut från [!DNL Adobe Experience Cloud] eller [!DNL Target]logga sedan in igen för att ändringarna ska börja gälla.
 
 ## Ändra språket för målproduktdokumentationen {#doc-lang}
 
-Operativsystemet eller webbläsarinställningarna bör identifiera det språk du föredrar och visa dokumentationen på det språket (om tillgängligt). Måldokumentationen översätts automatiskt och synkroniseras med den engelska versionen inom några timmar efter ändringar i den engelska dokumentationen.
+Operativsystemet eller webbläsarinställningarna bör identifiera det språk du föredrar och visa dokumentationen på det språket (om tillgängligt). [!DNL Target] Dokumentationen översätts automatiskt och synkroniseras med den engelska versionen inom några timmar efter ändringar i den engelska dokumentationen.
 
 Du kan snabbt ändra språket till den ursprungliga engelska versionen genom att klicka på länken i sidhuvudet.
 
@@ -91,12 +92,12 @@ Dokumentationen finns på följande språk: [!DNL Target]
 * Traditionell kinesiska
 * Koreanska
 
-## Utbildningsvideo: Adobe Target i ikonen Experience Cloud (4:59) ![Overview](/help/assets/overview.png)
+## Utbildningsvideo: Adobe Target i Experience Cloud (4:59) ![Översikt](/help/assets/overview.png)
 
 Den här videon innehåller information om [!DNL Adobe Target] i [!DNL Experience Cloud].
 
-* Beskriv och förstå värdet av Adobe Experience Cloud
-* Logga in på Adobe Experience Cloud med ditt Adobe ID eller skapa ett Adobe ID
+* Beskriv och förstå Adobe Experience Cloud värde
+* Logga in på Adobe Experience Cloud med din Adobe ID eller skapa en Adobe ID
 * Bjud in en ny användare till Adobe Experience Cloud
 * Länka ditt Target-konto till Adobe Experience Cloud
 * Ange Adobe Target som standardlandningssida
