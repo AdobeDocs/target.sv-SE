@@ -1,10 +1,14 @@
 ---
 keywords: at.js;sdk;node.js;release;updates;sdks;server side;serverside;server-side;nodejs
-description: Versionsinformation om Adobe Target-serversidans API:er.
+description: Versionsinformation om Adobe Target serversides-API:er.
 title: Versionsinformation om Adobe Target Node.js SDK.
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +23,7 @@ Denna Node.js SDK hjälper dig att enkelt integrera [!DNL Target] med andra [!DN
 
 Node.js SDK introducerar bästa praxis och eliminerar komplexitet när de integreras med [!DNL Target] via vårt API, så att era tekniker kan fokusera på affärslogik.
 
-Läs mer om Target Node.js SDK i Adobe Tech Blog - [Open Sourcing the New Adobe Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc).
+Läs mer om Target Node.js SDK i Adobe Tech Blog - [Öppna Sourcing the New Adobe Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc).
 
 ## Version 1.0.0 (9 oktober 2019)
 
