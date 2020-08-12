@@ -2,10 +2,14 @@
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: Skapa en mapp för objekt i offertbiblioteket.
 title: Skapa erbjudandemapp
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +24,7 @@ Skapa en mapp för objekt i offertbiblioteket.
 
    | Fält | Beskrivning |
    |--- |--- |
-   | Titel (Gäller endast bilder) | Ange ett beskrivande namn för mappen. Du kan t.ex. inkludera vilken typ av innehåll det ska innehålla.<br>Namnet får inte innehålla följande tecken:<br>Percent-tecken `%`<br>Forward-snedstreck `/`<br>Omvänt snedstreck `\`<br>Kolon `:`<br>Asterisk `*`<br>frågetecken `?`<br>Dubbla citattecken `"`<br>Kvadratisk `[`<br>hakparentes `]`<br>plustecken: `+`<br>Pipe: `|`<br>Period: `.`<br>Nummertecken: `#`<br>Klammerparentes: `{`<br>Klammerparenteser `}`<br>(cirkumflex) `^`<br>Semikolon `;`<br>Du kan använda ett bindestreck ( `- `) i stället för dessa tecken. |
+   | Titel (Gäller endast bilder) | Ange ett beskrivande namn för mappen. Du kan t.ex. inkludera vilken typ av innehåll det ska innehålla.<br>Namnet får inte innehålla följande tecken:<br>Percent-tecken `%`<br>Forward-snedstreck `/`<br>Omvänt snedstreck `\`<br>Kolon `:`<br>Asterisk `*`<br>frågetecken `?`<br>Dubbla citattecken `"`<br>Kvadratisk `[`<br>hakparentes `]`<br>plustecken: `+`<br>Cirkel: `|`<br>Punkt: `.`<br>Nummertecken: `#`<br>Klammerparentes: `{`<br>Klammerparenteser `}`<br>`^`<br>Semikolon `;`<br>Du kan använda ett bindestreck ( `- `) i stället för dessa tecken. |
    | Namn (Gäller både kod och bilderbjudanden) | Redigera namnet om du vill. |
    | Privat (Gäller endast för bilder) | Anger att mappen är privat så att bara du kan se den och dess innehåll. |
    | Kan sorteras om i listvyn (Gäller endast bilder) | Anger att du och andra kan ändra ordningen på mappens position i listvyn.<br>Om du vill växla mellan kortvyn och listvyn klickar du på ikonen för kortvyn eller listvyn i det övre högra hörnet av innehållsbiblioteket. Du kan också välja Visa inställningar för att inkludera eller exkludera kolumner i listvyn. |
