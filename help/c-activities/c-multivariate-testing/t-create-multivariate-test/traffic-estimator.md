@@ -1,10 +1,14 @@
 ---
 description: Eftersom ett multivariata test jämför flera upplevelser är det viktigt att veta hur mycket trafik som krävs för att få meningsfulla resultat. Trafikuppskattningen använder statistik om er sida och antalet upplevelser som testas för att uppskatta mängden trafik och hur länge testet ska pågå.
 title: Uppskatta den trafik som krävs för ett lyckat test
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 0%
 
 ---
 
@@ -41,6 +45,7 @@ Trafikberäkningsverktyget ger även feedback som talar om för dig om du har ti
    * [!UICONTROL Typical Conversion Rate]: Konverteringsgraden uttrycks i procent utifrån din uppskattning eller tidigare data från analyssystemet
    * [!UICONTROL Estimated Visitors Per Day]: Det här är antalet besökare som sannolikt kommer att visa den här sidan baserat på målinriktningskriterierna. Detta kan baseras på era analysdata.
    * [!UICONTROL Test Duration]: Antalet dagar som du vill att aktiviteten ska köras.
+
    Trafikuppskattningen använder dessa statistik för att avgöra vilka justeringar som krävs för att köra ett lyckat test.
 
    I närheten av överkanten av trafikberäkningsverktyget beräknas de värden du anger och resultatet visas.
@@ -53,6 +58,7 @@ Trafikberäkningsverktyget ger även feedback som talar om för dig om du har ti
 
    * Minska antalet kombinationer av erbjudanden och antalet platser.
    * Öka testets varaktighet.
+
    Justera siffrorna tills Traffic Estimator säger att du har tillräckligt med trafik och utforma sedan testet därefter.
 
    ![](assets/estimatorok.png)
