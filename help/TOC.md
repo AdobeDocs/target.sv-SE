@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1439'
 ht-degree: 0%
 
 ---
@@ -394,5 +394,5 @@ ht-degree: 0%
    + [Felsök mål](r-troubleshooting-target/troubleshooting-target.md)
    + [Gränser](r-troubleshooting-target/target-limits.md)
 + Mål-API:er {#apis}
-   + [Förstå mål-API:er](/help/api/api-overview.md)
+   + [Adobe Target API - översikt](/help/api/api-overview.md)
 + [Resurser och kontaktinformation](cmp-resources-and-contact-information.md)
