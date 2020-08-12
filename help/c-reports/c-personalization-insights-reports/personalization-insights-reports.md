@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Två specialrapporter är tillgängliga för användare av Automated Personalization (AP) och Auto-Target (AT)-aktiviteter, rapporterna Automated Segments och Viktiga attribut.
 title: Insikter om personalisering - rapporter
+feature: null
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -50,20 +51,20 @@ Två [!UICONTROL Personalization Insights] rapporter finns:
 
 ## Tolka attribut i personaliseringsinsikter {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
-Det finns två typer av attribut som visas i [!UICONTROL Personalization Insights] rapporter som används i dina AP- eller Auto Target-modeller:
+Det finns två typer av attribut som visas i [!UICONTROL Personalization Insights] rapporter som används i dina AP- eller Automatiskt mål-modeller:
 
-* **Attribut som samlas in automatiskt av Target:** [!DNL Target] använder en basdatauppsättning för att bygga sina personaliseringsalgoritmer i AP- och AT-aktiviteter som återspeglas i personaliseringsinsikter. Se [Datainsamling för Target personaliseringsalgoritmer](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) för datatyper, exempelattribut och deras [!UICONTROL Personalization Insights] namnkonvention. Observera att även om dessa attribut beaktas kanske inte alla dessa attribut används i den slutliga modellen för en enskild aktivitet.
-* **Attribut som skickas till Target:** Se [Överföra data för Target personaliseringsalgoritmer](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Attribut som samlas in automatiskt av Target:** [!DNL Target] använder en basdatauppsättning för att bygga sina personaliseringsalgoritmer i AP- och AT-aktiviteter som återspeglas i personaliseringsinsikter. Se [Datainsamling för Target&#39;s Personalization Algorithms](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) för datatyper, exempelattribut och deras [!UICONTROL Personalization Insights] namnkonvention. Observera att även om dessa attribut beaktas kanske inte alla dessa attribut används i den slutliga modellen för en enskild aktivitet.
+* **Attribut som skickas till mål:** Se [Överföra data för målalgoritmer](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)för personalisering.
 
 [!DNL Target] erbjuder många sätt för dig att skicka in ytterligare data för [!DNL Target] att berika den basdatauppsättning som används för att skapa dess personaliseringsalgoritmer i AP- och AT-aktiviteter:
 
 | Datatyp | Beskrivning | Namnkonvention för datatyp |
 |--- |--- |--- |
-| Profilattribut, inklusive profilskript, API för profiluppdatering och profilattribut på sidan | All information som du har valt att inkludera i Target användarprofil.<br>Den här informationen kan komma från profilskript, information som har överförts med API:t för profiluppdatering eller parametrar för profiler i mbox som har prefixet &quot;profile&quot;. | `Custom - Profile - [parameter name]` |
+| Profilattribut, inklusive profilskript, API för profiluppdatering och profilattribut på sidan | All information som du har valt att inkludera i Target-användarprofilen.<br>Den här informationen kan komma från profilskript, information som har överförts med API:t för profiluppdatering eller parametrar för profiler i mbox som har prefixet &quot;profile&quot;. | `Custom - Profile - [parameter name]` |
 | Sidparametrar (kallas även&quot;mbox parameters&quot;) | Namn/värde-par som skickas direkt via sidkod som inte lagras i besökarens profil för framtida bruk. | `Custom - Mbox Parameter - [parameter name]` |
 | Kundattribut | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. | `Custom - Customer Attributes - [parameter name]` |
-| Delade målgrupper (Adobe Audience Manager eller Adobe Analytics) | Målgrupper som skapats via Adobe Audience Manager eller Adobe Analytics och som delas med Target. | `Custom - Experience Cloud Segment - [segment name]` |
-| Målgrupper/segment för rapportering i aktivitet | Målgrupper som definieras i din AP- eller Auto Target-aktivitet under konfigurationen i&quot;Mål och mätvärden&quot;. | `Custom - Reporting Segment - [segment name]` |
+| Delade målgrupper (Adobe Audience Manager eller Adobe Analytics) | Målgrupper skapade med Adobe Audience Manager eller Adobe Analytics och som delas med Target. | `Custom - Experience Cloud Segment - [segment name]` |
+| Målgrupper/segment för rapportering i aktivitet | Målgrupper som definieras i din AP- eller Automatiskt mål-aktivitet under konfiguration i&quot;Mål och mått&quot;. | `Custom - Reporting Segment - [segment name]` |
 
 ## Utbildningsvideo: Använda ![självstudiekursen Personalization Insights Reports](/help/assets/tutorial.png)
 
