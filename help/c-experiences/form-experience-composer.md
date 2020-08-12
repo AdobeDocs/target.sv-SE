@@ -2,10 +2,11 @@
 keywords: form-based experience composer;form-based composer;refinements
 description: Med den formulärbaserade Experience Composer kan du skapa upplevelser som inte är visuella.
 title: Formulärbaserad Experience Composer
+feature: null
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -17,18 +18,18 @@ ht-degree: 2%
 
 Den formulärbaserade Experience Composer är en icke-visuell upplevelse och erbjuder ett gränssnitt som är användbart när det gäller att skapa upplevelser som kan användas i A/B-tester, Experience Targeting, Automated Personalization och Recommendations när den visuella upplevelsedispositionen inte är tillgänglig eller praktisk att använda. Du kan till exempel använda den formulärbaserade dispositionen för att skapa upplevelser och erbjudanden för e-post, kioskdatorer och röstassistenter.
 
-Om du skapar en rekommendationsaktivitet finns det inga upplevelser. Välj kriterier och design. Om du väljer flera kriterier eller designer genererar Target automatiskt upplevelserna.
+Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj kriterier och design. Om du väljer flera kriterier eller designer genererar Target automatiskt upplevelserna.
 
 1. Klicka **[!UICONTROL Create Activity]** och välj sedan den typ av aktivitet som du vill skapa.
 
-   Den formulärbaserade Experience Composer är tillgänglig för A/B-tester, Experience Targeting, Automated Personalization och Recommendations.
+   Den formulärbaserade Experience Composer är tillgänglig för A/B-tester, Experience Targeting, Automated Personalization och Recommendations-aktiviteter.
 1. Välj **[!UICONTROL Form-Based Experience Composer]** i [!UICONTROL New Activity]dialogrutan.
 
    Formulärbaserad Experience Composer öppnas.
 
    ![](assets/location_refinements.png)
 
-   Den här skärmen är annorlunda om du skapar en rekommendationsaktivitet. Rekommendationsaktiviteter omfattar inte upplevelser.
+   Den här skärmen är annorlunda om du skapar en Recommendations-aktivitet. Recommendations verksamhet omfattar inte upplevelser.
 1. Namnge aktiviteten.
 1. Välj en plats.
 
@@ -85,13 +86,13 @@ Om du skapar en rekommendationsaktivitet finns det inga upplevelser. Välj krite
    1. Skriv eller klistra in JSON-koden i rutan Kod.
    1. Klicka på [!UICONTROL Save].
 
-   För en rekommendationsaktivitet visas alternativet Lägg till rekommendation i listrutan Innehåll. Klicka **[!UICONTROL Add Recommendation]** och välj sedan sidtyp. Följ sedan de vanliga stegen som definieras i gränssnittet för att [skapa en Rekommendationer-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   För en Recommendations-aktivitet visas alternativet Lägg till rekommendation i listrutan Innehåll. Klicka **[!UICONTROL Add Recommendation]** och välj sedan sidtyp. Följ sedan de vanliga stegen som definieras i gränssnittet för att [skapa en Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
-   När du väljer rekommendationskriterier i den formulärbaserade Experience Composer finns det nu en direktlänk till det valda kriteriekortet så att du snabbt och enkelt kan redigera villkoren.
+   När du väljer Recommendations-villkor i den formulärbaserade Experience Composer finns det nu en direktlänk till det valda kriteriekortet så att du snabbt och enkelt kan redigera villkoren.
 
    ![](assets/change_criteria.png)
 
-   Från målsidan i Target trestegsbaserade guidade arbetsflöde:
+   Från målsidan i det guidade arbetsflödet i tre steg:
 
    ![](assets/change_criteria_2.png)
 
@@ -100,7 +101,7 @@ Om du skapar en rekommendationsaktivitet finns det inga upplevelser. Välj krite
 
 * [Skapa ett A/B-test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [Skapa en upplevelseinriktad aktivitet](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Skapa en rekommendationsaktivitet](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Skapa en Recommendations-aktivitet](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Utbildningsvideo: Formulärbaserad ![självstudiekurs för disposition](/help/assets/tutorial.png)
 
