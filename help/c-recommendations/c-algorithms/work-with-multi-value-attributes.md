@@ -2,8 +2,9 @@
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Information om hur du arbetar med ett flervärdesfält i Adobe Target Recommendations med hjälp av särskilda flervärdesoperatorer.
 title: Arbeta med attribut med flera värden i Adobe Target Recommendations
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -119,7 +120,7 @@ JSON API-representation av inkluderingsregeln:
 
 ### Exempel: API-generering av villkor som rekommenderar objekt från en användares favoriter
 
-Kriterier med flervärdesfiltreringsregler, som alla villkor, kan skapas via Adobe I/O API:er. Ett exempel på API-anrop för att skapa ett villkor där entitetsattributet `id` finns i mbox-parameterlistan `favorites` finns här:
+Kriterier som använder flervärdesfiltreringsregler, precis som alla villkor, kan skapas via Adobe I/O-API:er. Ett exempel på API-anrop för att skapa ett villkor där entitetsattributet `id` finns i mbox-parameterlistan `favorites` finns här:
 
 ```
 curl -X POST \
