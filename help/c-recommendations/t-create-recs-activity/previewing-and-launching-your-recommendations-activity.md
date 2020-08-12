@@ -1,25 +1,29 @@
 ---
 keywords: Recommendations;offer;preview;launch
-description: 'När du har skapat aktiviteten Rekommendationer, A/B-test eller XT (Experience Targeting) som innehåller erbjudanden från Adobe Target Recommendations, vill du förhandsgranska den för att se till att resultaten är tillgängliga innan du startar aktiviteten. Med Target Recommendations kan du förhandsgranska dina rekommendationer på flera olika sätt. '
-title: 'När du har skapat aktiviteten Rekommendationer, A/B-test eller XT (Experience Targeting) som innehåller erbjudanden från Adobe Target Recommendations, vill du förhandsgranska den för att se till att resultaten är tillgängliga innan du startar aktiviteten. Med Target Recommendations kan du förhandsgranska dina rekommendationer på flera olika sätt. '
+description: 'När du har skapat en Recommendations-, A/B Test- eller Experience Targeting-aktivitet (XT) som innehåller Adobe Target Recommendations-erbjudanden måste du förhandsgranska den för att se om det finns några tillgängliga resultat innan du startar aktiviteten. Med Target Recommendations kan du förhandsgranska dina rekommendationer på flera olika sätt. '
+title: 'När du har skapat en Recommendations-, A/B Test- eller Experience Targeting-aktivitet (XT) som innehåller Adobe Target Recommendations-erbjudanden måste du förhandsgranska den för att se om det finns några tillgängliga resultat innan du startar aktiviteten. Med Target Recommendations kan du förhandsgranska dina rekommendationer på flera olika sätt. '
+feature: null
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1329'
+ht-degree: 0%
 
 ---
 
 
-# Förhandsgranska och starta aktiviteten Rekommendationer
+# Förhandsgranska och starta din Recommendations-aktivitet
 
-När du har skapat din [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]eller [!UICONTROL Experience Targeting] (XT)-aktivitet som innehåller [rekommendationer](/help/c-recommendations/recommendations-as-an-offer.md), vill du förhandsgranska dina rekommendationer för att se till att resultaten är tillgängliga innan du startar aktiviteten. [!DNL Target Recommendations] erbjuder flera sätt att förhandsgranska dina rekommendationer.
+När du har skapat din [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]eller [!UICONTROL Experience Targeting] (XT)-aktivitet som innehåller [Recommendations-erbjudanden](/help/c-recommendations/recommendations-as-an-offer.md), vill du förhandsgranska dina rekommendationer för att se till att resultaten är tillgängliga innan du startar aktiviteten. [!DNL Target Recommendations] erbjuder flera sätt att förhandsgranska dina rekommendationer.
 
-## Kontrollera algoritmstatus för rekommendationer
+## Kontrollerar Recommendations-algoritmstatus
 
 När du har skapat en aktivitet [!DNL Recommendations] kör en algoritm för att generera rekommendationer. Den här algoritmen kan ta några timmar att köra.
 
 Du kan kontrollera om algoritmen har körts färdigt i [!UICONTROL Activity] översiktsdiagrammet, där villkorsstatusen visas. Följande bild visar statusen i aktivitetsdiagrammet på en [!DNL Recommendations] aktivitets [!UICONTROL Overview] sida:
 
-![Översikt över aktiviteten Rekommendationer](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
+![Översikt över Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
 Följande bild visar statusen på en [!UICONTROL A/B Test] - eller XT-aktivitets [!UICONTROL Overview] sida:
 
@@ -41,7 +45,7 @@ Beteendedatakällan har störst inverkan på bearbetningstiden, enligt följande
 
 ### mboxes
 
-Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en omkörning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en omkörning är slutförd. Om en algoritm inte ändras kommer den automatiskt att köras igen med [!DNL Target] 12-48 timmars intervall, beroende på det valda dataområdet.
+Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en omkörning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en omkörning är slutförd. Om en algoritm inte ändras körs den automatiskt igen med [!DNL Target] 12-48 timmars intervall, beroende på det valda dataområdet.
 
 ### Adobe Analytics
 
@@ -55,7 +59,7 @@ Om villkoren använder [!DNL Adobe Analytics] som beteendedatakälla beror tiden
 >
 >[!UICONTROL Recently Viewed Items] kräver att ingen offlinealgoritm körs och resultaten är omedelbart tillgängliga. [!UICONTROL Top Viewed] och [!UICONTROL Top Sellers] algoritmer baserade på mbox-data ger i allmänhet resultat mycket snabbt på grund av den enklare beräkning som krävs. Detta kan vara bra alternativ när du vill förhandsgranska en designändring eller bekräfta att beteendedata samlas in korrekt.
 
-## Använda QA-länkar för att förhandsgranska rekommendationer
+## Använda QA-länkar för att förhandsgranska Recommendations
 
 När algoritmen har resultat klara kan du förhandsgranska dessa resultat med [QA-länkfunktionen](/help/c-activities/c-activity-qa/activity-qa.md) i [!DNL Adobe Target]. QA-länkar är tillgängliga i avsnittet [!UICONTROL Activity QA] på sidan Activity overview:
 
@@ -97,7 +101,7 @@ Från vänster till höger finns en lista med rekommenderade objekt, i det här 
 >
 >Resultathämtningar är inte tillgängliga för aktiviteter som innehåller en [!UICONTROL User-Based Recommendations] algoritm. Resultathämtningar är inte tillgängliga för villkor som använder logiken för [!UICONTROL Recently-Viewed Items] rekommendationer.
 
-## Aktivera aktiviteten Rekommendationer
+## Aktivera din Recommendations-aktivitet
 
 Klicka på listrutepilen bredvid statusen på [!UICONTROL Activity Overview] fliken och välj sedan **[!UICONTROL Activate]**.
 
@@ -113,7 +117,7 @@ Efter några sekunder till några minuter ändras statusen till [!UICONTROL Live
 
 Observera att du även kan inaktivera eller arkivera aktiviteten med samma nedrullningsbara lista.
 
-## Undvika avbrott när du ändrar inställningar för rekommendationer
+## Undvik avbrott vid ändring av Recommendations-inställningar
 
 Om du ändrar [!DNL Recommendations] samlingar, villkor, kampanjer eller designinställningar i en aktiv aktivitet kan algoritmresultaten bli ogiltiga och algoritmens status ändras till [!UICONTROL Results Not Ready].
 
