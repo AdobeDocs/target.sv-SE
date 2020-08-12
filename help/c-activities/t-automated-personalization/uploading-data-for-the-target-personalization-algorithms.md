@@ -1,9 +1,13 @@
 ---
 description: Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller.
 title: Överför data för Target-personaliseringsalgoritmer
+feature: null
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
@@ -12,9 +16,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller.
 
-Det finns flera sätt att mata in data i personaliseringsalgoritmerna Automated Personalization (AP) och Auto-Target. Förutom metoderna i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)används även delade målgrupper i Experience Cloud (Adobe Analytics, Audience Management) och rapportmålgrupper i aktiviteter i våra algoritmer.
+Det finns flera sätt att ange data i personaliseringsalgoritmerna Automated Personalization (AP) och Auto-Target. Förutom metoderna i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)används även delade målgrupper (Adobe Analytics, Audience Management) och målgrupper i aktivitetsrapporter i våra algoritmer.
 
-Mer information om de data som samlas in automatiskt och används av algoritmerna Automatiserad personalisering och Automatisk målanpassning finns i [Automatiserad datainsamling](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)för personalisering.
+Mer information om de data som samlas in och används automatiskt av personaliseringsalgoritmer i Automated Personalization och Automatiskt mål finns i [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
 ## Bästa praxis {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
 
