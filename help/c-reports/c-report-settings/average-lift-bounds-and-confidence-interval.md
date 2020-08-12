@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: Rapporterna innehåller flera datapunkter och visualiseringsrepresentationer som hjälper dig att förstå de lyftgränser och den konfidensnivå som är kopplad till din aktivitet. På så sätt kan du bättre avgöra en vinnare.
 title: Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse
+feature: null
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 0%
 
 ---
 
