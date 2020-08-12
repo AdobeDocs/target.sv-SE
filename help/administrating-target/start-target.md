@@ -1,12 +1,16 @@
 ---
 keywords: Administration;approver role;approver
-description: Det här avsnittet innehåller de första stegen som Adobe Target-administratörer ska utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
+description: Det här avsnittet innehåller de första stegen som Adobe Target-administratörer bör utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
 title: Administratörssteg
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +23,7 @@ Det här avsnittet innehåller de första steg som [!DNL Target] administratöre
 
 En systemadministratör i måste lägga till dig som användare i [!DNL Adobe Admin Console] [!DNL Target] genom att bjuda in dig. Systemadministratören bör sedan lägga till dig i en eller flera rollspecifika grupper. Båda dessa åtgärder utförs i [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Mer information finns i [Hantera Experience Cloud-användare och -produkter](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) i hjälpen *för* Experience Cloud och bastjänsterna.
+Mer information finns i [Hantera användare och produkter](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) i Experience Cloud i hjälpen *för* Experience Cloud och bastjänster.
 
 Du får en inbjudan via e-post när systemadministratören har utfört dessa steg.
 
@@ -28,9 +32,9 @@ Du får en inbjudan via e-post när systemadministratören har utfört dessa ste
 När du har fått inbjudan att gå med i [!DNL Adobe Experience Cloud]programmet godkänner du inbjudan, loggar in och accepterar licensavtalet (EULA).
 
 1. Acceptera inbjudan till [!DNL Adobe Experience Cloud].
-1. Om du inte redan har ett Adobe-ID uppmanas du att skapa ett.
+1. Om du inte redan har en Adobe ID uppmanas du att skapa en.
 
-   Om du har ett Adobe-ID identifieras ditt Adobe-ID och du uppmanas att logga in.
+   Om du har en Adobe ID känner din Adobe ID igen sig och du uppmanas att logga in.
 1. Godkänn användningsvillkoren.
 1. Granska sammanfattningen av vad du har gjort hittills och klicka sedan på **[!UICONTROL Continue to Experience Cloud]**.
 1. Logga in på Adobe Experience Cloud och klicka **[!UICONTROL Link Account]**.
