@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Du kan lägga till användare och hantera deras behörigheter i Adobe Admin Console.
 title: Användare
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Du kan lägga till användare och hantera deras behörigheter i [!DNL Adobe Admi
 >
 Mer information om hur du hanterar användare och behörigheter finns i [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) i användarhandboken *för* Enterprise &amp; Teams.
 
-När du börjar med [!DNL Adobe Target]hittar du ID:n (som slutar på Adobe.com) som är förifyllda i ditt [!DNL Adobe Experience Cloud] konto. Dessa ID:n är till för medlemmar i [!DNL Adobe] team så att de kan hjälpa dig med ditt nya konto och använda det [!DNL Adobe Target]om du behöver hjälp. Kontakta Adobe-teamet på det vanliga sättet för att få hjälp.
+När du börjar med [!DNL Adobe Target]hittar du ID:n (som slutar på Adobe.com) som är förifyllda i ditt [!DNL Adobe Experience Cloud] konto. Dessa ID:n är till för medlemmar i [!DNL Adobe] team så att de kan hjälpa dig med ditt nya konto och använda det [!DNL Adobe Target]om du behöver hjälp. Kontakta era Adobe-team på vanligt sätt för att få hjälp.
 
 Du kommer inte att se den nya användaren på [!UICONTROL Users] sidan förrän användaren loggar in med sitt [!DNL Adobe Experience Cloud] konto och sedan loggar in på [!DNL Target Standard/Premium].
 
@@ -41,11 +42,11 @@ Administratörsanvändare identifieras i [!UICONTROL Users] listan. Kontakta en 
 
 ## Visa användarinformation inifrån Target
 
-Du kan visa en lista över dina nuvarande användare i din Target-miljö, inklusive deras roller per arbetsyta och e-postadresser direkt inifrån Target.
+Du kan visa en lista över dina nuvarande användare i målmiljön, inklusive deras roller per arbetsyta och e-postadresser direkt inifrån Target.
 
 Om du vill visa sidan Användare klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 
-![Användarlista från Target](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+![Användarlista från mål](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -53,13 +54,13 @@ Om du vill visa sidan Användare klickar du på **[!UICONTROL Administration]** 
 
 ## Få tillgång till Adobe Admin Console {#access}
 
-För uppgifter som utförs i Adobe Admin Console får du tillgång till konsolen genom att följa dessa steg:
+För uppgifter som utförs i Adobe Admin Console går du till konsolen genom att följa dessa steg:
 
 1. From within [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Users]** > **[!UICONTROL Users Management]**.
 
    eller
 
-   Gå till [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/)och logga sedan in med ditt Adobe ID om du inte redan har loggat in.
+   Gå till [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/)och logga sedan in med din Adobe ID om du inte redan har loggat in.
 
 1. (Villkorligt) Om du har åtkomst till [!DNL Admin Console for Enterprise] för mer än en organisation klickar du på användaravataren i det högra hörnet eller det övre navigeringsfältet och väljer önskad organisation.
 
@@ -72,7 +73,7 @@ All användarhantering måste utföras i [!DNL Adobe Admin Console for Enterpris
 
 ## Skapa användargrupper {#user-groups}
 
-Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer osv. och sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att tilldela en ny teammedlem alla behörigheter som krävs för olika Adobe-produkter kan vara lika enkelt som att lägga till dem i en viss användargrupp.
+Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer osv. och sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att utse en ny teammedlem kan vara lika enkelt som att lägga till dem i en viss användargrupp.
 
 1. [I Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)klickar du på **[!UICONTROL Users]** > **[!UICONTROL User Groups]** för att skapa nya användargrupper eller för att redigera befintliga grupper.
 1. Följ instruktionerna i [Hantera användare och grupper på Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) i användarhandboken för *Enterprise*.
@@ -83,7 +84,7 @@ Endast systemadministratörer kan ange användarroller i [!DNL Target]. En stand
 
 Systemadministratörsanvändare måste lägga till användare i systemet. Användare läggs inte till automatiskt. De bjuds in via e-post från [!DNL Experience Cloud] och måste bekräfta sina e-postadresser innan deras konton registreras.
 
-1. [I Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)klickar du på **[!UICONTROL Products]** och väljer sedan önskat produktnamn.
+1. [Klicka på Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL Products]** och välj sedan önskat produktnamn.
 
    ![Fliken Produkter](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -108,11 +109,11 @@ Systemadministratörsanvändare måste lägga till användare i systemet. Använ
 
 Mer information finns i [Hantera produktbehörigheter och roller i Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) i användarhandboken *för* Enterprise.
 
-## Utbildningsvideo: Hur du konfigurerar ![självstudiekursen för Target Workspaces](/help/assets/tutorial.png)
+## Utbildningsvideo: Hur du konfigurerar ![självstudiekursen för målarbetsytor](/help/assets/tutorial.png)
 
 Utbildningsmål:
 
-* Få åtkomst till Adobe Admin Console från gränssnittet Adobe Target (tre sätt)
+* Få åtkomst till Adobe Admin Console från Adobe Target gränssnitt (tre sätt)
 * Konfigurera en arbetsyta i Adobe Admin Console
    * Lägga till användare i arbetsytor
    * Lägga till egenskaper i arbetsytor
