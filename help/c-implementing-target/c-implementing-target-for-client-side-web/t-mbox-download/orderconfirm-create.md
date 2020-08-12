@@ -2,10 +2,14 @@
 keywords: order confirmation;orderConfirmPage
 description: I rutan Orderbekräftelse registreras detaljer om beställningar på er webbplats och du kan rapportera baserat på intäkter och order. I rutan Orderbekräftelse kan du också skapa rekommendationsalgoritmer, till exempel"Personer som köpt produkten x har också köpt produkten y".
 title: Skapa en orderbekräftelseruta - mbox.js
+feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 19%
 
 ---
 
