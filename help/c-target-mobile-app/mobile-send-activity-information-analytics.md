@@ -1,10 +1,14 @@
 ---
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
-description: I det här avsnittet beskrivs hur du skickar aktivitetsinformation för Adobe Target-mobilappar till Adobe Analytics för postad hoc-segmentering.
-title: Skicka aktivitetsinformation för Adobe Target till Adobe Analytics
+description: I det här avsnittet beskrivs hur du skickar aktivitetsinformation för Adobe Target-mobilappar till Adobe Analytics för postAhoc-segmentering.
+title: Skicka Adobe Target aktivitetsinformation till Adobe Analytics
+feature: null
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +22,7 @@ I det här avsnittet beskrivs hur du skickar aktivitetsinformation för [!DNL Ta
 * Den här integreringen kräver att [!DNL Analytics] och [!DNL Target] implementeras med mobil-SDK.
 * Se till att rapportsviten är aktiverad för att ta emot aktivitetsinformation från [!DNL Target].
 
-   Detta görs vanligtvis genom att lägga till [!DNL Target] klientkoden i [!DNL Analytics] rapportsviten. Detta kan redan vara aktiverat om du använder integreringen SiteCatalyst-Test&amp;Target för webbaktiviteter. Kontakta Adobe Client Care om du har några frågor om det här steget.
+   Detta görs vanligtvis genom att lägga till [!DNL Target] klientkoden i [!DNL Analytics] rapportsviten. Detta kan redan vara aktiverat om du använder integreringen SiteCatalyst-Test&amp;Target för webbaktiviteter. Kontakta Adobe kundtjänst om du har några frågor om det här steget.
 
 1. Hämta aktivitetsinformationen.
 
