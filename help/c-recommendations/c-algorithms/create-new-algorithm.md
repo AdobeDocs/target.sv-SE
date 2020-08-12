@@ -1,16 +1,20 @@
 ---
 description: Kriterierna styr innehållet i dina Adobe Recommendations-aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
 title: Skapa villkor
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3345'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) - skapa villkor{#create-criteria}
+# ![PREMIUM](/help/assets/premium.png) Skapa villkor{#create-criteria}
 
-Kriterierna styr innehållet i dina rekommendationer. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
+Kriterierna styr innehållet i dina Recommendations-aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
 
 ## Skapa villkor {#task_8A9CB465F28D44899F69F38AD27352FE}
 
@@ -34,7 +38,7 @@ Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa s
 
    Detta är det&quot;interna&quot; namnet som används för att beskriva kriterierna. Du kanske vill kalla villkoren för&quot;Produkter med högsta marginal&quot;, men du vill inte att den titeln ska visas offentligt. Se nästa steg för att ange den offentliga titeln.
 
-1. Skriv en offentlig sida **[!UICONTROL Display Title]** som ska visas på sidan för rekommendationer som använder det här villkoret.
+1. Ange en offentlig sida **[!UICONTROL Display Title]** som ska visas på sidan för alla Recommendations som använder det här villkoret.
 
    Du kan till exempel visa&quot;Personer som visade det här&quot; eller&quot;Liknande produkter&quot; när du använder det här villkoret för att visa rekommendationer.
 
@@ -47,6 +51,7 @@ Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa s
    * [!UICONTROL Retail/Ecommerce]
    * [!UICONTROL Lead Generation/B2B/Financial Services]
    * [!UICONTROL Media/Publishing]
+
    Andra kriteriealternativ ändras beroende på vilken vertikal du väljer.
 
 1. Välj en **[!UICONTROL Page Type]**.
@@ -94,6 +99,7 @@ Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa s
    * [!UICONTROL Enable Partial Design Rendering]
    * [!UICONTROL Show Backup Recommendations]
    * [!UICONTROL Recommend Previously Purchased Items]
+
    Den här inställningen baseras på `productPurchasedId`. Det är användbart om du säljer artiklar som normalt bara köps en gång, t.ex. kajaker. Om du säljer artiklar som personer kommer tillbaka för att köpa igen, till exempel schampo eller andra personliga artiklar, bör du inaktivera det här alternativet.
 
 1. Sätt din egen **[!UICONTROL Inclusion rules]**.
@@ -122,12 +128,12 @@ Om villkoren använder [!DNL Adobe Analytics] som beteendedatakälla beror tiden
 
 ## Basera rekommendationen på en rekommendationsnyckel {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
-Rekommendationer baserade på tangenter använder besökarbeteendesammanhang för att visa relevanta resultat.
+Recommendations baserat på tangenter använder besökarbeteendekontext för att visa relevanta resultat.
 
-Det finns två typer av rekommendationer:
+Det finns två typer av Recommendations:
 
 * **Popularitet:** Visar objekt enligt Mest visade, Mest sålda och Mät upp. Nyckeln är tom för popularitetskriterier.
-* **Nyckelbaserad:** Innefattar resten av kriterierna. Rekommendationer ger en mängd olika alternativ när det gäller nyckeltypen. Alternativen varierar från&quot;aktuellt objekt&quot; till&quot;profilparametrar&quot;, vilket gör att du kan ställa in nyckelvärdena för programmering att rekommendera. Du kan testa flera villkor mot varandra genom att basera varje villkor på en annan nyckel.
+* **Nyckelbaserad:** Innefattar resten av kriterierna. Recommendations erbjuder en mängd olika alternativ när det gäller nyckeltypen. Alternativen varierar från&quot;aktuellt objekt&quot; till&quot;profilparametrar&quot;, vilket gör att du kan ställa in nyckelvärdena för programmering att rekommendera. Du kan testa flera villkor mot varandra genom att basera varje villkor på en annan nyckel.
 
 Varje villkor definieras på en egen flik. Trafiken fördelas jämnt mellan olika kriterietester. Med andra ord, om du har två kriterier, delas trafiken lika mellan dem. Om du har två kriterier och två designer, delas trafiken jämnt mellan de fyra kombinationerna. Du kan också ange en procentandel besökare som ser standardinnehållet för jämförelse. I så fall ser den angivna procentandelen besökare standardinnehållet och resten delas mellan dina kriterier och designkombinationer.
 
@@ -140,7 +146,7 @@ Varje villkor definieras på en egen flik. Trafiken fördelas jämnt mellan olik
 
 Rekommendationen avgörs av det objekt som besökaren för närvarande visar.
 
-Rekommendationer visar andra objekt som kan intressera besökare som är intresserade av det angivna objektet.
+Recommendations visar andra objekt som kan intressera besökare som är intresserade av det angivna objektet.
 
 När det här alternativet är markerat måste `entity.id` värdet skickas som en parameter i visningsrutan.
 
@@ -162,7 +168,7 @@ Använd INTE på null-sökresultatsidor.
 
 Rekommendationen avgörs av den produktkategori som besökaren för närvarande visar.
 
-Rekommendationer visar objekt i den angivna produktkategorin.
+Recommendations visar objekt i den angivna produktkategorin.
 
 När det här alternativet är markerat måste `entity.categoryId` värdet skickas som en parameter till visningsrutan.
 
@@ -209,7 +215,7 @@ Du kan basera rekommendationer på värdet för ett anpassat profilattribut. Ant
 
 Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara [!DNL Recommendations] hur du vill att matchningen till en entitet ska ske. Anta till exempel att du vill visa de främsta säljartiklarna från en besökares favoritvarumärke.
 
-1. Välj det anpassade profilattributet i **[!UICONTROL Recommendation Key]** listrutan (till exempel &quot;Favoritmärke&quot;).
+1. Välj ditt anpassade profilattribut i **[!UICONTROL Recommendation Key]** listrutan (till exempel &quot;Favoritmärke&quot;).
 
 1. Välj sedan den **[!UICONTROL Recommendation Logic]** du vill använda med den här nyckeln (till exempel&quot;Top Sellers&quot;).
 
@@ -305,7 +311,7 @@ Allmänna sidor, t.ex. hemsidor eller landningssidor och annonser utanför webbp
 
 ### Popularitet
 
-Rekommendationen avgörs av hur populära objekten på webbplatsen är. Populariteten omfattar de främsta säljarna och de vanligaste i kartong-data och, om ni använder Adobe Analytics, alla mätvärden som finns i produktrapporten. Objekten rangordnas baserat på den rekommendationslogik du väljer.
+Rekommendationen avgörs av hur populära objekten på webbplatsen är. Populariteten omfattar bland annat de främsta säljarna och de mest visade uppgifterna i mbox och, om du använder Adobe Analytics, alla mätvärden som finns i produktrapporten. Objekten rangordnas baserat på den rekommendationslogik du väljer.
 
 **Logic (villkor)**
 
@@ -411,7 +417,7 @@ Om du aktiverar **[!UICONTROL Show Backup Recommendations]**&#x200B;är alternat
 
 ![](assets/Recs_ContentControls.png)
 
-| Delvis designåtergivning | Rekommendationer för säkerhetskopiering | Resultat |
+| Delvis designåtergivning | Säkerhetskopiera Recommendations | Resultat |
 |--- |--- |--- |
 | Handikappade | Handikappade | Om färre rekommendationer returneras än vad designen kräver ersätts rekommendationsdesignen med standardinnehåll och inga rekommendationer visas. |
 | Aktiverad | Handikappade | Designen återges, men kan innehålla tomt utrymme om färre rekommendationer returneras än vad designanropen kräver. |
@@ -422,7 +428,7 @@ Om du aktiverar **[!UICONTROL Show Backup Recommendations]**&#x200B;är alternat
 
 Använd [!UICONTROL Content Similarity] regler för att göra rekommendationer baserat på objekt- eller medieattribut.
 
-Innehållslikhet jämför nyckelord för objektattribut och gör rekommendationer baserat på hur många nyckelord olika objekt har gemensamt. Rekommendationer som baseras på innehållets likhet kräver inte tidigare data för att ge starka resultat.
+Innehållslikhet jämför nyckelord för objektattribut och gör rekommendationer baserat på hur många nyckelord olika objekt har gemensamt. Recommendations baserat på innehållets likhet kräver inte tidigare data för att ge ett starkt resultat.
 
 Att använda innehållets likhet för att generera rekommendationer är särskilt effektivt för nya objekt, som troligen inte kommer att visas i rekommendationer med *Personer som har tittat på det här, som har tittat på det* och annan logik som baseras på tidigare beteende. Ni kan också använda innehållets likhet för att generera användbara rekommendationer för nya besökare som inte har några tidigare inköp eller andra historiska data.
 
@@ -438,7 +444,7 @@ Som standard är alla attribut inställda på *Baslinje*. Du behöver inte skapa
 >
 >Algoritmen för innehållets likhet kan använda slumpmässig sampling för att beräkna likhet mellan objekt. Därför kan likhetsgraderingar mellan objekt variera mellan olika algoritmkörningar.
 
-## Utbildningsvideo: Skapa villkor i ![självstudiekursen Rekommendationer (12:33)](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa villkor i Recommendations (12:33) ![självstudiemärke](/help/assets/tutorial.png)
 
 Den här videon innehåller följande information:
 
