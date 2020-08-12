@@ -1,11 +1,15 @@
 ---
 keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Definiera en målgrupp för att jämföra två profilattribut för målpublikbiblioteket eller för en målgrupp som bara är aktiv. Med operatorer, till exempel större än, mindre än eller lika med, kan du definiera en målgrupp för att dynamiskt jämföra värdena för två olika profilattribut.
-title: Skapa en målgrupp för jämförelse av profilattribut i Adobe Target
+title: Skapa en målgrupp för profilattributsjämförelse i Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +29,7 @@ Målgrupper definieras av regler som bestämmer vem som är inkluderad eller ute
 Låt oss anta att du arbetar för ett möbelföretag och överförde två kundbenägenhetspoängen till Target:
 
 * Sannolikheten att köpa möbler till matsalar under de kommande 90 dagarna
-* Sannolikhet att köpa möbler för vardagsrumsmöbler under de kommande 90 dagarna
+* Sannolikheten att köpa möbler för vardagsrumsmöbler under de kommande 90 dagarna
 
 Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än sannolikheten att köpa möbler för vardagsrum. Target skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för denna målgrupp.
 
