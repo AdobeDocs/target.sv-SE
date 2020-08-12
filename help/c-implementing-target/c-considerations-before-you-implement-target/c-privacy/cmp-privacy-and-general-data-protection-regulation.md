@@ -2,10 +2,14 @@
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar er organisation och Adobe Target.
 title: Information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar er organisation och Adobe Target.
+feature: null
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2274'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +24,7 @@ Den 25 maj 2018 trädde Europeiska unionens allmänna dataskyddsprogram i kraft.
 
 När [!DNL Adobe] tillhandahåller programvara och tjänster till ett företag [!DNL Adobe] fungerar som databehandlare för alla personuppgifter som bearbetas och lagras som en del av tillhandahållandet av dessa tjänster. Som databehandlare behandlar [!DNL Adobe] personuppgifter i enlighet med ditt företags tillstånd och instruktioner (till exempel enligt vad som anges i ditt avtal med [!DNL Adobe]).
 
-Som personuppgiftsansvariga avgör du vilka personuppgifter som [!DNL Adobe] bearbetas och lagras åt dig. Om du använder [!DNL Adobe Experience Cloud] lösningar [!DNL Adobe] kan lagra personuppgifter för dig, beroende på vilka lösningar du använder och vilken information du väljer att skicka till ditt [!DNL Adobe Experience Cloud] konto. En detaljerad lista över exempel finns i [Adobe Experience Cloud Privacy](https://www.adobe.com/privacy/marketing-cloud.html#collect).
+Som personuppgiftsansvariga avgör du vilka personuppgifter som [!DNL Adobe] bearbetas och lagras åt dig. Om du använder [!DNL Adobe Experience Cloud] lösningar [!DNL Adobe] kan lagra personuppgifter för dig, beroende på vilka lösningar du använder och vilken information du väljer att skicka till ditt [!DNL Adobe Experience Cloud] konto. En detaljerad lista över exempel finns i [Adobe Experience Cloud Integritet](https://www.adobe.com/privacy/marketing-cloud.html#collect).
 
 [!DNL Adobe Experience Cloud] tillhandahålla GDPR-förberedda API:er för datacentraler som gör att de kan utföra följande uppgifter:
 
@@ -29,7 +33,7 @@ Som personuppgiftsansvariga avgör du vilka personuppgifter som [!DNL Adobe] bea
 
 Mer information finns i:
 
-* [Adobe General Data Protection Regulation API webbplats](https://www.adobe.io/apis/cloudplatform/gdpr.html)
+* [Adobe webbplats för API:t för allmänna dataskyddsförordningen](https://www.adobe.io/apis/cloudplatform/gdpr.html)
 * [GDPR-dokumentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
 
 ## California Consumer Privacy Act (CCPA) - översikt
@@ -105,7 +109,7 @@ Det finns tre scenarier att tänka på när du använder Opt-In:
 
 Vanliga frågor och svar om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav som är specifika för Target.
 
-### Vad har Adobe för policy för dessa regler? {#section_A6849628D6524C80A6E16946DC5D25A9}
+### Vad är Adobe policy för dessa regler? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
 [!DNL Adobe] uppfyller eller genomför redan våra skyldigheter som databehandlare. Vi har en stark grund för certifierade säkerhets- och integritetskontroller utifrån design och har gjort produktförbättringar före tidsfristen i maj 2018. Företagskunder ansvarar för att implementera dessa förbättringar samt att uppdatera nödvändiga policyer och procedurer.
 
@@ -113,7 +117,7 @@ Vanliga frågor och svar om EU:s allmänna dataskyddsförordning (GDPR), Kalifor
 
 Nej, [!DNL Adobe] är ett centralt sätt att hjälpa datakontroller att uppfylla sina GDPR- och CCPA-krav. Datakontroller behöver inte gå direkt till varje lösning.
 
-Alla GDPR- och CCPA-förfrågningar över olika [!DNL Experience Cloud] lösningar, inklusive [!DNL Target]dessa, kommer att göras via ett centralt Adobe-API, som för närvarande kallas GDPR API. API:t slutför sedan begäran i Data Controller- [!DNL Experience Cloud] lösningspaketet.
+Alla GDPR- och CCPA-förfrågningar över olika [!DNL Experience Cloud] lösningar, inklusive [!DNL Target]dessa, kommer att göras via ett centralt Adobe-API, som för närvarande kallas GDPR-API. API:t slutför sedan begäran i Data Controller- [!DNL Experience Cloud] lösningspaketet.
 
 ### Vilken information kommer våra kunder att [!DNL Adobe] kunna radera som svar på en begäran från en registrerade/användare? {#section_4B51D00924EC4166B2442218B69214F0}
 
@@ -129,13 +133,13 @@ Sammanställda eller anonyma data (t.ex. rapportdata) som inte identifierar en v
 
 | Användar-ID | Typ av namnutrymmes-ID | Namnområdes-ID | Definition |
 |--- |--- |--- |--- |
-| Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud-ID, tidigare kallat besökar-ID eller Marketing Cloud-ID. Du kan använda JavaScript-API:t för att hitta detta ID (se informationen nedan). |
+| Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud-id, f.d. besökar-ID eller Marketing Cloud-ID. Du kan använda JavaScript-API:t för att hitta detta ID (se informationen nedan). |
 | TnT ID/Cookie ID(TNTID) | Standard | 9 | Målidentifieraren anges som en cookie i besökarens webbläsare. Du kan använda JavaScript-API:t för att hitta detta ID (se informationen nedan). |
 | Tredjeparts-ID/CRM-ID (TREDJEPARTYID) | Målspecifik | Ej tillämpligt | Om du tillhandahåller Target tillsammans med din CRM eller annan unik identifieringsinformation för dina kunder. |
 
 >[!NOTE]
 >
->Även om [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies [!DNL Target] från första part för GDPR och CCPA.
+>Även om [!DNL Target] [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies från första part för GDPR och CCPA.
 
 ### Hur [!DNL Target] hanterar vi samtyckeshantering? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
@@ -145,7 +149,7 @@ GDPR och CCPA ändras inte när du behöver få samtycke, utan hur du får det. 
 
 [!DNL Target] ger support för tillvalsfunktioner via [!DNL Launch] för att ge support för er strategi för samtyckeshantering. Med avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen aktiveras. Det finns också ett alternativ [!DNL Launch] för att förgodkänna [!DNL Target] -taggen. Vi rekommenderar att du använder [!DNL Launch] för att hantera anmälan. Det finns ytterligare detaljkontroll för [!DNL Launch] att dölja vissa delar av sidan före [!DNL Target] starten som kan vara till hjälp för att dra nytta av er strategi för samtycke.
 
-Mer information om GDPR, CCPA och [!DNL Launch]finns [i Adobe Privacy JavaScript Library och GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Se även avsnittet om deltagande *i* Adobe Target och Experience Platform Launch ovan.
+Mer information om GDPR, CCPA och [!DNL Launch]finns [i Adobe Privacy JavaScript Library och GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Se även avsnittet om deltagande *för* Adobe Target och Experience Platform Launch ovan.
 
 ### Skickar AdobePrivacy.js information till GDPR-API:t? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -153,13 +157,13 @@ Mer information om GDPR, CCPA och [!DNL Launch]finns [i Adobe Privacy JavaScript
 
 ### Vad tar removeIdentities bort? {#section_D3A1591EA1B84C499CE1563DEAF32448}
 
-[!DNL removeIdentities] tar *bara* bort dessa identiteter från webbläsaren, och det beror bara på om [!DNL Adobe] lösningen har implementerat den.
+[!DNL removeIdentities] *tar bara* bort dessa identiteter från webbläsaren, och det beror bara på om [!DNL Adobe] lösningen har implementerat den.
 
 Tar till exempel [!DNL Target] bort cookies som lagrar sina ID:n, men [!DNL Adobe Audience Manager] (AAM) tar inte bort det demdex-ID som lagras i en cookie från tredje part.
 
 ### Vilken information behöver inkluderas i en Target GDPR- eller CCPA-begäran? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
-Utöver kraven från den centrala integritetstjänsten [!DNL Target] innehåller ett giltigt GDPR- eller CCPA-meddelande:
+Utöver kraven från den centrala Privacy Servicen [!DNL Target] innehåller ett giltigt GDPR- eller CCPA-meddelande:
 
 ```
 { 
