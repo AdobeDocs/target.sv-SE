@@ -2,11 +2,12 @@
 keywords: Analytics as reporting source;a4t;A4T
 description: Krav för användarkonton för att skapa en Adobe Analytics-baserad aktivitet i Adobe Target (A4T).
 title: Krav på användarbehörighet
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -24,11 +25,11 @@ Dina användarkonton måste konfigureras enligt beskrivningen i följande avsnit
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-Utför följande uppgifter på [!DNL Adobe Experience Cloud] Admin Console [](https://adminconsole.adobe.com):
+Utför följande uppgifter i [!DNL Adobe Experience Cloud][Admin Console](https://adminconsole.adobe.com):
 
-### Länka lösningskonton till ditt Adobe ID
+### Länka lösningskonton till din Adobe ID
 
-Dina [!DNL Analytics] - och [!DNL Target] användarkonton måste länkas till ditt Adobe-ID.
+Dina [!DNL Analytics] - och [!DNL Target] användarkonton måste länkas till din Adobe ID.
 
 Mer information finns i [Organisationer och kontolänkning](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
@@ -36,7 +37,7 @@ Mer information finns i [Organisationer och kontolänkning](https://docs.adobe.c
 
 Du måste vara medlem i en eller flera [!DNL Experience Cloud] grupper som har åtkomst till [!DNL Analytics] och [!DNL Target].
 
-Mer information finns i [Hantera Experience Cloud-användare och -produkter](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Mer information finns i [Hantera användare och produkter](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)i Experience Cloud.
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
