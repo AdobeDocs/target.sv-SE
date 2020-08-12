@@ -1,18 +1,22 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: Med funktionerna i Adobe Target kan ni personalisera innehåll till specifika målgrupper och testa siddesign
-title: Med funktionerna i Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign.
+description: Med funktionerna i Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign
+title: Med Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign.
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2069'
+ht-degree: 1%
 
 ---
 
 
 # Verksamhet{#activities}
 
-Med funktionerna i Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign.
+Med Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign.
 
 Du kan till exempel utforma en aktivitet som testar två olika landningssidor, en som markerar information om damernas sommarskor och en annan landningssida som markerar mer allmänna sommarkläder. Aktiviteten avgör vilka villkor som styr när var och en av dessa landningssidor visas och vilka mått som avgör vilken sida som blir mest framgångsrik. Aktiviteten är konfigurerad att starta och avsluta när vissa villkor uppfylls, till exempel mellan specifika datum, eller att starta när aktiviteten har godkänts och att sluta när den har inaktiverats.
 
@@ -20,7 +24,7 @@ När du utformar en aktivitet bör du planera noggrant. Bestäm när aktiviteten
 
 ## Typ av aktivitet
 
-Målet innehåller flera aktivitetstyper. Följande tabell innehåller en översikt över varje aktivitetstyp med länkar som hjälper dig att lära dig mer. För att du bättre ska kunna välja den bästa aktivitetstypen har vi även skapat [Adobe Target Activity Guide](/help/c-activities/target-activities-guide.md).
+Målet innehåller flera aktivitetstyper. Följande tabell innehåller en översikt över varje aktivitetstyp med länkar som hjälper dig att lära dig mer. För att du bättre ska kunna välja den bästa aktivitetstypen har vi också skapat [Adobe Target aktivitetshandbok](/help/c-activities/target-activities-guide.md).
 
 | Typ av aktivitet | Beskrivning |
 |--- |--- |
@@ -30,8 +34,8 @@ Målet innehåller flera aktivitetstyper. Följande tabell innehåller en övers
 | [Använda analysdata](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Du kan konfigurera en aktivitet som ska användas [!DNL Adobe Analytics] som rapportkälla. Den här aktivitetstypen kräver att du länkar ditt [!DNL Adobe Experience Cloud] konto till både [!DNL Analytics] och [!DNL Target]. |
 | [Multivariata tester](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Med multivariata tester (MVT) jämförs kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och det element som har störst påverkan på aktivitetens framgång identifieras. |
 | [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.<br>**Obs!**Ni kan nu inkludera[rekommendationer i aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md)som rör Experience Targeting. Den här funktionen kräver att du har en[Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personaliseringTarget Premium](/help/assets/premium.png) | Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika varianter till varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva konverteringar. |
-| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | En rekommendation avgör hur en produkt föreslås för en webbplatsanvändare, beroende på den användarens aktiviteter på webbplatsen.<br>Du kanske till exempel vill uppmuntra personer som köper en ryggsäck att överväga att köpa vandrande skor och trikåpoler. Du kan skapa en rekommendation som visar objekt som ofta köpts tillsammans med hjälp av algoritmen&quot;Personer som köpte det här&quot;. Eller så kanske du vill uppmuntra besökarna att spendera mer tid på din mediewebbplats genom att rekommendera liknande video som den de tittar på, med algoritmen&quot;Personer som såg det här&quot;.<br>**Obs!**Nu kan du inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Se[Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md). |
+| [Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personaliseringTarget Premium](/help/assets/premium.png) | Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika varianter av varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva konverteringar. |
+| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | En rekommendation avgör hur en produkt föreslås för en webbplatsanvändare, beroende på den användarens aktiviteter på webbplatsen.<br>Du kanske till exempel vill uppmuntra personer som köper en ryggsäck att överväga att köpa vandrande skor och trikåpoler. Du kan skapa en rekommendation som visar objekt som ofta köpts tillsammans med hjälp av algoritmen&quot;Personer som köpte det här&quot;. Eller så kanske du vill uppmuntra besökarna att spendera mer tid på din mediewebbplats genom att rekommendera liknande video som den de tittar på, med algoritmen&quot;Personer som såg det här&quot;.<br>**Obs!**Nu kan du inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Se[Recommendations som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Aktivitetslista {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -49,7 +53,7 @@ Listan Verksamheter innehåller en översikt över alla aktiviteter:
 | Namn | Namnet på aktiviteten. |
 | URL | URL:en visas med ljusare text under namnet.<br>URL:en för aktiviteten identifierar var aktiviteten visas. Detta hjälper dig att snabbt identifiera en aktivitet och avgöra om en viss sida redan har ett test som körs på den.<br>Om ett test körs på flera URL-adresser, visar en länk hur många fler URL-adresser som används. Klicka på länken för att visa den fullständiga listan med URL:er för den aktiviteten.<br>Du kan söka baserat på URL. Använd listrutan bredvid sökrutan och markera [!UICONTROL Search URL]. |
 | Status | Aktivitetens status kan vara något av följande:<ul><li>**Live**: Aktiviteten körs.</li><li>**Utkast**: Aktivitetsinställningarna har startats men aktiviteten är inte klar att köras än.</li><li>**Schemalagd**: Aktiviteten är klar att aktiveras när angivet startdatum och angiven starttid kommer.</li><li>**Inaktiv**: Aktiviteten har pausats eller inaktiverats.</li><li>**Synkroniserar**: Aktiviteten har sparats och synkroniseras till målleveransnätverket.</li><li>**Avslutat**: Aktivitetens angivna slutdatum och sluttid har nåtts och aktiviteten betjänas inte längre.</li><li>**Arkiverad**: Aktiviteten har arkiverats. Du kan aktivera en arkiverad aktivitet och använda den igen.</li></ul>**Obs**: När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användargränssnittet med API-metoder, kan det ta upp till tio minuter innan uppdateringen skickas till användargränssnittet. |
-| Källa | Visar var aktiviteten skapades:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Källa | Visar var aktiviteten skapades:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe mobiltjänster (AMS)</li></ul> |
 | Egenskap | Visar aktivitetens [egenskap](/help/administrating-target/c-user-management/property-channel/property-channel.md) . |
 | Uppskattat lyft i intäkt | Visar den förväntade intäktsökningen om 100 % av publiken ser den vinnande upplevelsen.<br>Beräknas med följande formel:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Talet avrundas till en decimal, max, om det kondenserade formuläret bara har en siffra före decimaltalet. Till exempel: 1,6 miljoner USD, 60 000 USD, 900 USD, 8,5 kB, 205<br>krDen här kolumnen visar &quot;—&quot; för aktiviteter som inte har tillräckligt med data för att ringa till ett vinnarprogram eller som inte har någon kostnadsberäkning.<br>Mer information finns i [Beräkna Lyft i intäkter](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) . |
 | Senast uppdaterad | Det datum då aktiviteten senast uppdaterades och av vem. |
@@ -104,7 +108,7 @@ Du kan filtrera efter följande alternativ. Om inget är markerat i varje katego
 
 | Filterkategori | Filter |
 |--- |--- |
-| Typ | A/B-test: [Manuell](/help/c-activities/t-test-ab/test-ab.md), [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)och [Automatisk](/help/c-activities/auto-target-to-optimize.md).<br>[Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[personaliseringUpplev](/help/c-activities/t-experience-target/experience-target.md)<br>[målanpassningMultivariata](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[testrekommendationer](/help/c-recommendations/recommendations.md) |
+| Typ | A/B-test: [Manuell](/help/c-activities/t-test-ab/test-ab.md), [Automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)och [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md).<br>[Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[personaliseringUpplev](/help/c-activities/t-experience-target/experience-target.md)<br>[målanpassningMultivariata](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[testrekommendationer](/help/c-recommendations/recommendations.md) |
 | Status | <br><br><br><br><br><br>LiveDraftScheduledInactiveSyncingEndedArchived |
 | Rapporteringskälla | <br>TargetAnalytics |
 | Experience Composer | <br>VisualForm-Based |
