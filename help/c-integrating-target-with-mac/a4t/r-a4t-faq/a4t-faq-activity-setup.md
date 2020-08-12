@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om aktivitetsinställningar och hur Analytics används som rapportkälla för Target (A4T).
 title: Aktivitetsinställningar - vanliga A4T-frågor
+feature: null
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -23,13 +24,13 @@ En fullständig lista finns i&quot;Aktivitetstyper som stöds&quot; i [Adobe Ana
 
 ## Jag har just skapat en aktivitet. Varför ser jag inga data som kommer in? {#section_9F8092BE4225442896F926540292F221}
 
-När en aktivitet skapas skickar Target en klassificeringsfil till Analytics. Även om Analytics hämtar in och bearbetar data visas de inte i rapporterna förrän klassificeringsfilen har uppdaterats. Detta kan ta upp till 24 timmar. Om du inte ser dina data inom 48 timmar kan du [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Om du vet att du kommer att starta en aktivitet kan du skapa aktiviteten några dagar i förväg och klassificeringarna skickas när aktiviteten sparas. På så sätt visas data i rapporterna när programmet startas. Observera att det tar 45-90 minuter för data att behandlas i Analytics.
+När en aktivitet skapas skickar Target en klassificeringsfil till Analytics. Även om Analytics hämtar in och bearbetar data, visas de inte i rapporterna förrän klassificeringsfilen har uppdaterats. Detta kan ta upp till 24 timmar. Om du inte ser dina data inom 48 timmar kan du [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Om du vet att du kommer att starta en aktivitet kan du skapa aktiviteten några dagar i förväg och klassificeringarna skickas när aktiviteten sparas. På så sätt visas data i rapporterna när programmet startas. Observera att det tar 45-90 minuter för data att behandlas i Analytics.
 
 ## Varför kan jag inte välja Analytics som rapportkälla när jag skapar en ny aktivitet? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 Du kan ändra alternativen för rapportinställningar i Administration.
 
-1. Klicka på Adobe Target **[!UICONTROL Administration]**.
+1. I Adobe Target klickar du på **[!UICONTROL Administration]**.
 1. In the **[!UICONTROL Experience Cloud solution used for reporting]** drop-down list, click **[!UICONTROL Select per Activity]**.
 
 ![](assets/select-per-activity.png)
