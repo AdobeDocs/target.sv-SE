@@ -1,11 +1,12 @@
 ---
 keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: Adobe Target Visual Experience Composer (VEC) är ett visuellt gränssnitt som du kan använda för att redigera upplevelser på din sida i en XT-aktivitet (Experience Targeting).
+description: Adobe Target Visual Experience Composer (VEC) ger ett visuellt gränssnitt för att redigera upplevelser på din sida i en XT-aktivitet (Experience Targeting).
 title: Skapa upplevelse
+feature: null
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
