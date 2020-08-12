@@ -2,11 +2,15 @@
 keywords: reports;download reports;csv;success metrics;order details
 description: Hämta data i CSV-format för snabb import till Excel, Access eller andra dataanalysprogram med Adobe Target.
 title: Hämta data i en CSV-fil med Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -17,15 +21,16 @@ Ladda ned data i CSV-format för snabb import till Excel, Access eller andra dat
 
 Så här hämtar du data i en CSV-fil:
 
-1. Klicka på **[!UICONTROL Aktiviteter]** och sedan på önskad aktivitet i listan.
+1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet i listan.
 
-   Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Rapporteringskälla], [!UICONTROL Experience Composer], [!UICONTROL Metrisk typ] och¥Activity Source¥.
+   Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer][!UICONTROL Metrics Type]och [!UICONTROL Activity Source] .
 
-1. Klicka på fliken **[!UICONTROL Rapporter]** .
-1. Klicka på ikonen **[!UICONTROL Hämta]** och välj sedan en rapporttyp som ska hämtas för analys i Excel och andra verktyg.
+1. Klicka på **[!UICONTROL Reports]** fliken.
+1. Klicka på **[!UICONTROL Download]** ikonen och välj sedan en rapporttyp att hämta för analys i Excel och andra verktyg.
 
-   * [!UICONTROL Exportera rapporter till CSV]
-   * [!UICONTROL Exportera beställningsinformation till CSV]
+   * [!UICONTROL Export Reports to CSV]
+   * [!UICONTROL Export Order Details to CSV]
+
    ![Hämtningsalternativ](/help/c-reports/assets/download-options.png)
 
 ## Exportera rapport till CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -60,11 +65,11 @@ I rapporten Orderdetaljer visas information om dina beställningar, inklusive:
 
 * Upplevelse
 
-   I rapporten [!UICONTROL Orderdetaljer] för [!UICONTROL A/B-test], [!UICONTROL Experience Targeting] (XT) och [!UICONTROL Multivariate Test] (MVT) innehåller kolumnen [!UICONTROL Experience] `localId`upplevelsen. Detta är det värde som matas ut från `$campaign.recipe.id` in offer-tokens.
+   I [!UICONTROL Order Details] rapporten för [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting] (XT) och [!UICONTROL Multivariate Test] (MVT)-aktiviteter innehåller [!UICONTROL Experience] kolumnen upplevelsen `localId`. Detta är det värde som matas ut från `$campaign.recipe.id` in offer-tokens.
 
-   Det finns ingen [!UICONTROL Experience] -kolumn för [!UICONTROL Automated Personalization] (AP)-aktiviteter. Den aktuella kolumnen [!UICONTROL Algoritmnamn] har ersatts med&quot;Kontroll&quot; och&quot;Målterminologi&quot;, vilket visas på andra ställen i [!DNL Target].
+   Det finns ingen [!UICONTROL Experience] kolumn för [!UICONTROL Automated Personalization] (AP)-aktiviteter. Den aktuella [!UICONTROL Algorithm Name] kolumnen har ersatts med &quot;Kontroll&quot; respektive &quot;Riktad&quot; terminologi, vilket visas någon annanstans i [!DNL Target].
 
-   Det fanns ingen effekt på [!UICONTROL rekommendationsaktiviteterna] .
+   Ingen påverkan på [!UICONTROL Recommendations] verksamheten.
 
 >[!NOTE]
 >
@@ -82,7 +87,7 @@ I rapporten Orderdetaljer visas information om dina beställningar, inklusive:
 
 Följande information gäller för nedladdningsalternativet:
 
-* Du kan hämta båda rapporterna för A/B-test, Automated Personalization, Experience Targeting och Multivariate. Du kan inte hämta rapporten Success Metrics för rekommendationsaktiviteter.
+* Du kan hämta båda rapporterna för A/B-tester, Automated Personalization, Experience Targeting och Multivariate-aktiviteter. Du kan inte hämta rapporten Success Metrics för rekommendationsaktiviteter.
 * Hämtningsalternativet är inte tillgängligt för aktiviteter av typen A/B och Experience Targeting som har skapats före målversion 15.7.1 (juli 2015).
 * Erfarenheter utan tillhörande data registreras inte i den hämtade rapporten.
 * Publiker som används i gränssnittet för målrapportering överförs inte till hämtningsrapporten.
