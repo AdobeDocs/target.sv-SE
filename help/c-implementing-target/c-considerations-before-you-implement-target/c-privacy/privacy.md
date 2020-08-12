@@ -2,11 +2,15 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target har aktiverat processer och inställningar som gör att du kan använda Target i enlighet med gällande datasekretesslagstiftning.
 title: Integritet
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +25,7 @@ IP-adressen till en besökare på din webbplats överförs till ett Adobe Data P
 
 ## Ersättning av den senaste oktetten med IP-adresser {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe har utvecklat en ny inställning för&quot;sekretess per design&quot; som kan aktiveras av Adobe Client Care för Adobe Target. När den här inställningen är aktiverad döljs den sista oktetten (den sista delen) i IP-adressen omedelbart när IP-adressen samlas in av Adobe. Denna anonymisering utförs innan någon behandling av IP-adressen utförs, inklusive före en valfri geosökning av IP-adressen.
+Adobe har utvecklat en ny inställning för &quot;sekretess by design&quot; som kan aktiveras av Adobe Client Care för Adobe Target. När den här inställningen är aktiverad döljs den sista oktetten (den sista delen) i IP-adressen omedelbart när IP-adressen samlas in av Adobe. Denna anonymisering utförs innan någon behandling av IP-adressen utförs, inklusive före en valfri geosökning av IP-adressen.
 
 När den här funktionen är aktiverad görs IP-adressen tillräckligt anonym så att den inte längre kan identifieras som personlig information. Därför kan Adobe Target användas i enlighet med lagstiftningen om datasekretess i länder som inte tillåter insamling av personuppgifter. Att få information på stadsnivå kommer sannolikt att påverkas avsevärt av att IP-adressen döljs. Att få information på region- och landsnivå bör endast få en liten inverkan.
 
@@ -35,7 +39,7 @@ Målet tar emot den fullständiga IP-adressen och döljer den (om den är instä
 
 >[!NOTE]
 >
->[Kontakta Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att fastställa vilken inställning du använder eller för att aktivera funktionen för IP-förfalskning.
+>[Kontakta Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att avgöra vilken inställning du använder eller för att aktivera funktionen för IP-förfalskning.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -58,4 +62,4 @@ Besökare som klickar på den här länken tas inte med i några mbox-förfrågn
 
 ## Sekretess- och dataskyddsbestämmelser
 
-Mer information om EU:s allmänna dataskyddsförordning (GDPR), California Consumer Privacy Act (CCPA) och andra internationella integritetskrav finns i [Sekretess- och dataskyddsbestämmelser](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) , samt hur dessa bestämmelser påverkar din organisation och Adobe Target.
+Se [Sekretess- och dataskyddsbestämmelser](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) för information om EU:s allmänna dataskyddsförordning (GDPR), California Consumer Privacy Act (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar din organisation och Adobe Target.
