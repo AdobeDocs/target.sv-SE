@@ -2,10 +2,11 @@
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: Egna parametrar är mbox-parametrar. Om du skickar några mbox-parametrar till mboxes, eller använder funktionen targetPageParams, visas de parametrarna här för användning i målgrupper.
 title: Egna parametrar i Adobe Target
+feature: null
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Publiken har ett popup-kort [med](../../../c-target/c-audiences/audiences.md#sec
 
 >[!NOTE]
 >
->För anpassade målgrupper som skapats före Target 18.5.1 (22 maj 2018) visas inte mbox-namnen i publikens definitionskort. Du måste spara om den anpassade målgruppen för att få mbox-namnet som ska visas på kortet.
+>För anpassade målgrupper som skapats före målversionen 18.5.1 (22 maj 2018) visas inte mbox-namnen i publikens definitionskort. Du måste spara om den anpassade målgruppen för att få mbox-namnet som ska visas på kortet.
 
 ## Överväganden {#considerations}
 
