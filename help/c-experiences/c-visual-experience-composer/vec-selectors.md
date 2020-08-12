@@ -2,10 +2,11 @@
 keywords: Experience Targeting;Landing Page Test
 description: En elementväljare är ett CSS-uttryck som kan identifiera ett eller flera element.
 title: Elementväljare som används i Visual Experience Composer
+feature: null
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Mer information om när du ska använda CSS-väljare och när du ska använda un
 
 ## Så här genererar Adobe Target en väljare för ett element {#section_D89D954BCBFB486CA081BE183776A475}
 
-Target använder en enkel algoritm för att skapa en väljare. Här följer en kort beskrivning av genereringslogiken:
+Målet använder en enkel algoritm för att skapa en väljare. Här följer en kort beskrivning av genereringslogiken:
 
 1. Om ett element till exempel har ett id `id="container"`är väljaren för elementet `#container`.
 
@@ -50,9 +51,9 @@ Target använder en enkel algoritm för att skapa en väljare. Här följer en k
    </div>
    ```
 
-1. Om ett element innehåller ett klassattribut försöker Target utnyttja den första klassen i några klasser som finns i elementet.
+1. Om ett element innehåller ett klassattribut försöker Target utnyttja den första klassen i alla klasser som finns i elementet.
 
-   Target försöker tolka det överordnade elementet tills det hittar `<HTML>` elementet eller ett element med ett id. När ett element innehåller ett id och väljaren beräknas på dess underordnade underordnade objekt, bidrar elementets id till väljaren.
+   Målet försöker tolka det överordnade elementet tills det hittar `<HTML>` elementet eller ett element med ett id. När ett element innehåller ett id och väljaren beräknas på dess underordnade underordnade objekt, bidrar elementets id till väljaren.
 
    Exempel:
 
@@ -99,6 +100,6 @@ Target använder en enkel algoritm för att skapa en väljare. Här följer en k
 I ovanstående process:
 
 * Du kan använda valfri CSS-väljare så länge den unikt identifierar ett element i DOM.
-* Metoden ovan används av Target. Target tillåter inte att du använder detta tillvägagångssätt. Du kan lägga till valfri väljare förutsatt att punkt 1 är sann.
+* Metoden ovan används av Target. Målet tillåter inte att du använder det här tillvägagångssättet. Du kan lägga till valfri väljare förutsatt att punkt 1 är sann.
 * Du kan använda valfritt attribut i väljaren. I det här dokumentet används endast klassnamn som exempel.
 
