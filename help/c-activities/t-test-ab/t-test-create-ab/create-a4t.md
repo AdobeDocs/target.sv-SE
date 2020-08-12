@@ -1,17 +1,21 @@
 ---
 keywords: Targeting;analytics;tracking server
-description: Du kan konfigurera en aktivitet i Target Standard så att Adobe Analytics används som rapportkälla (A4T).
+description: Du kan konfigurera en aktivitet i Target Standard så att den använder Adobe Analytics som rapportkälla (A4T).
 title: Använda analysdata
+feature: null
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '532'
+ht-degree: 0%
 
 ---
 
 
 # Använda analysdata{#using-analytics-data}
 
-Du kan konfigurera en aktivitet i Target Standard så att Adobe Analytics används som rapportkälla (A4T).
+Du kan konfigurera en aktivitet i Target Standard så att den använder Adobe Analytics som rapportkälla (A4T).
 
 Mer information om hur du konfigurerar Analytics som datakälla för Target finns i [Adobe Analytics som rapportkälla för Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
@@ -27,7 +31,7 @@ Analyser för Target kräver en spårningsserver för att kunna rapportera resul
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar aktiviteter om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
+>Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
 
 När du konfigurerar aktivitet efter att ha konfigurerat Analytics som rapportkälla finns det inget alternativ för att konfigurera målgrupper för rapportering. Analyssegment finns i rapporten om målaktiviteter.
 
