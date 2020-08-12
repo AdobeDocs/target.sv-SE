@@ -1,11 +1,12 @@
 ---
 keywords: Overview and Reference
-description: Använd Target med Adobe Campaign för att optimera e-postinnehåll.
+description: Använd Target tillsammans med Adobe Campaign för att optimera e-postinnehåll.
 title: Integrera Target med Adobe Campaign
+feature: null
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: c652be30b0dfede94457f402a8b540a35096bdb4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -21,12 +22,12 @@ Om du vill optimera e-postinnehållet, till exempel för att visa olika erbjudan
 
 Integrationen äger rum när e-postmeddelandet öppnas. När kunden öppnar e-postmeddelandet görs ett anrop [!DNL Target] och en dynamisk version av innehållet visas. Innehållet består av en statisk bild som stöds av alla webbläsare. [!DNL Target] spårar reaktionen på erbjudandet på målgrupps- eller sessionsnivå och att data finns tillgängliga i [!DNL Target] rapporter.
 
-Target kan spåra följande data:
+Målet kan spåra följande data:
 
 * Användaragent
 * IP-adress
 * Geografisk plats
-* Segment som är kopplat till besökarens ID i Target (som måste godkännas enligt lag)
+* Segment som är associerat med besökarens ID i Target (med förbehåll för juridiskt godkännande)
 * Data från [!DNL Campaign] Datamart
 
 Det finns flera begränsningar:
@@ -40,7 +41,7 @@ Det finns flera begränsningar:
    * The rawbox and the experience in [!DNL Target]
    >[!NOTE]
    >
-   >När du använder en radruta och [!DNL Target]läser du det viktiga säkerhetsmeddelandet under [Skapa släpplistor som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist).
+   >När du använder en radruta och [!DNL Target]läser du det viktiga säkerhetsmeddelandet under [Skapa tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist).
 
    * Leveransen i [!DNL Campaign]
 
@@ -59,7 +60,7 @@ Innan du använder [!DNL Adobe Campaign] för att konfigurera dina riktade e-pos
 
 Starta aktiviteten i [!DNL Target] innan du ställer in [!DNL Campaign] delen av integreringen.
 
-## Inkludera ett Target-erbjudande i ett Adobe Campaign-e-postmeddelande {#section_B201BBE27A704E18AF0D553F35695837}
+## Inkludera ett målerbjudande i ett Adobe Campaign-e-postmeddelande {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Skapa ett e-postmeddelande i [!DNL Adobe Campaign].
 1. Klicka på **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]** i e-postegenskaperna.
