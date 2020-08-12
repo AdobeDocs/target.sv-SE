@@ -1,16 +1,20 @@
 ---
-description: Hur Target skapar och svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av Experience Cloud Visitor ID finns och om besökar-ID finns.
+description: Det sätt på vilket Target gör och svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av besökar-ID:t för Experience Cloud finns och om besökar-ID:t finns.
 title: Målsidesmetoder med mbox.js biblioteksversion
+feature: null
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '861'
+ht-degree: 0%
 
 ---
 
 
 # Målsidesmetoder med mbox.js biblioteksversion{#target-page-methods-by-mbox-js-library-version}
 
-Hur Target skapar och svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av Experience Cloud Visitor ID finns och om besökar-ID finns.
+Det sätt på vilket Target gör och svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av besökar-ID:t för Experience Cloud finns och om besökar-ID:t finns.
 
 >[!NOTE]
 >
