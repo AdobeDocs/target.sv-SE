@@ -1,26 +1,30 @@
 ---
 keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
-description: Hantera undantag genom att skapa exkluderingsgrupper, exklusive dubblerade erbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i Adobe Target Automated Personalization (AP)-aktiviteter.
+description: Hantera uteslutningar genom att skapa exkluderingsgrupper, exklusive dubbletterbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i Adobe Target Automated Personalization (AP)-aktiviteter.
 title: Hantera undantag
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 0%
 
 ---
 
 
 # ![Premium-märke](/help/assets/premium.png) Hantera undantag{#manage-exclusions}
 
-Hantera uteslutningar genom att skapa exkluderingsgrupper, exklusive dubblerade erbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i aktiviteter för automatiserad personalisering (AP).
+Hantera uteslutningar genom att skapa exkluderingsgrupper, exklusive dubbletterbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i Automated Personalization-aktiviteter (AP).
 
 ## Skapa exkluderingsgrupper {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
-Skapa exkluderingsgrupper i Automated Personalization (AP)-aktiviteter för att säkerställa att upplevelser med de angivna erbjudandena automatiskt utesluts.
+Skapa exkluderingsgrupper i Automated Personalization(AP)-aktiviteter för att säkerställa att upplevelser med de angivna erbjudandena automatiskt utesluts.
 
 Uteslutningsgrupper är ett bra sätt att se till att inkompatibla erbjudanden inte visas på samma plats på olika platser. Anta till exempel att du har två erbjudanden: den ena ger 20 % rabatt på alla varor och den andra 15 % rabatt. Ni vill aldrig att dessa två erbjudanden ska presenteras för besökare i samma upplevelse. Om du lägger till dessa två erbjudanden i en exkluderingsgrupp kan du se till att så aldrig blir fallet.
 
-Du kan också begränsa vilka målgrupper som kan se specifika erbjudanden i AP-aktiviteter. Mer information finns i [Automatiserad personalisering](/help/c-activities/t-automated-personalization/ap-target-offers.md).
+Du kan också begränsa vilka målgrupper som kan se specifika erbjudanden i AP-aktiviteter. Mer information finns i [erbjudanden](/help/c-activities/t-automated-personalization/ap-target-offers.md)för Target Automated Personalization.
 
 **Så här skapar du en exkluderingsgrupp:**
 
@@ -62,7 +66,7 @@ Klicka **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]** och sedan 
 
 ## Exkludera specifika upplevelser {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Exkludera specifika upplevelser om du vill utesluta vissa erbjudandekombinationer från din automatiserade personaliseringsaktivitet.
+Exkludera specifika upplevelser om du vill utesluta vissa erbjudandekombinationer från din Automated Personalization-aktivitet.
 
 Det kan finnas vissa kombinationer som inte fungerar bra tillsammans, eller så kanske du begränsar antalet testade upplevelser för att minska trafikkraven för din aktivitet.
 
@@ -90,7 +94,7 @@ Det kan finnas vissa kombinationer som inte fungerar bra tillsammans, eller så 
 
 ## Uteslut standardinnehåll {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-I vissa fall kanske du inte vill inkludera ditt standardinnehåll som en del av din automatiska personaliseringsaktivitet. Hur du kommer åt den här inställningen skiljer sig från hur du skapar exkluderingsgrupper. Du kan använda den här metoden om du bara vill ha ett erbjudande (som skiljer sig från ditt standardinnehåll) på en plats som en del av din AP-aktivitet.
+I vissa fall kanske du inte vill inkludera ditt standardinnehåll som en del av din Automated Personalization-aktivitet. Hur du kommer åt den här inställningen skiljer sig från hur du skapar exkluderingsgrupper. Du kan använda den här metoden om du bara vill ha ett erbjudande (som skiljer sig från ditt standardinnehåll) på en plats som en del av din AP-aktivitet.
 
 Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och känslan hos resten av sidan så att det passar de erbjudanden du testar med din AP-aktivitet. Anta till exempel att du vill matcha färgpaletten för erbjudandena som du testar, att du kan ändra bakgrundsfärgen för sidan och utesluta standardbakgrundsfärgen.
 
