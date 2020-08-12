@@ -1,11 +1,12 @@
 ---
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Använd mätvärden i en XT-aktivitet (Adobe Target Experience Targeting) för att avgöra när ett besök lyckas.
+description: Använd mätvärden i en XT-aktivitet (Adobe Target Experience Targeting) för att avgöra när ett besök är lyckat.
 title: Ange mått
+feature: null
 solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -29,6 +30,7 @@ Mer information om framgångsmått finns i [Success Metrics](../../../c-activiti
    * Konvertering
    * Intäkter
    * Engagemang
+
    Du kan använda vilken som helst av de färdiga mätvärdena för framgång eller skapa ett anpassat framgångsmått. Du kan också markera ett framgångsmått som ett primärt mått. Rapporter och Experience Cloud-kort visar som standard det primära måttet, om ett sådant har angetts.
 1. Ange inställningarna för mätvärden.
 
