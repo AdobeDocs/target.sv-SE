@@ -1,11 +1,15 @@
 ---
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
-description: Svar på vanliga frågor om Adobe Target at.js JavaScript-biblioteket.
+description: Svar på vanliga frågor om Adobe Target JavaScript-bibliotek at.js.
 title: Adobe Target at.js Frågor och svar
+feature: null
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2656'
+ht-degree: 0%
 
 ---
 
@@ -45,9 +49,9 @@ I följande avsnitt beskrivs åtgärdssekvensen för nya och återkommande besö
 1. Om den globala mbox-skaparen är aktiverad, JavaScript-målbiblioteket:
 
    * Instansierar Visitor-objektet.
-   * Målbiblioteket försöker hämta Experience Cloud Visitor ID-data.
+   * Målbiblioteket försöker hämta Experience Cloud Visitor-ID-data.
    * Eftersom det här är en ny besökare skickar Visitor-API:t en korsdomänbegäran till demdex.net.
-   * När Experience Cloud Visitor ID-data har hämtats skickas en begäran till Target.
+   * När data för Experience Cloud Visitor-ID har hämtats skickas en begäran till Target.
 
 ### Returnerande besökare
 
@@ -56,13 +60,13 @@ I följande avsnitt beskrivs åtgärdssekvensen för nya och återkommande besö
 1. Om den globala mbox-skaparen är aktiverad, JavaScript-målbiblioteket:
 
    * Instansierar Visitor-objektet.
-   * Målbiblioteket försöker hämta Experience Cloud Visitor ID-data.
+   * Målbiblioteket försöker hämta Experience Cloud Visitor-ID-data.
    * Besökar-API:t hämtar data från cookies.
-   * När Experience Cloud Visitor ID-data har hämtats skickas en begäran till Target.
+   * När data för Experience Cloud Visitor-ID har hämtats skickas en begäran till Target.
 
 >[!NOTE]
 >
->För nya besökare måste Target gå igenom tråden flera gånger när besökar-API:t finns för att se till att Target-begäranden innehåller Experience Cloud-data för besökare-ID. För återkommande besökare går Target bara till Target för att hämta det personaliserade innehållet.
+>För nya besökare måste Target gå igenom tråden flera gånger när besökar-API:t finns för att se till att Target-begäranden innehåller data för Experience Cloud Visitor-ID:t. För återkommande besökare går Target bara till Target för att hämta det personaliserade innehållet.
 
 ## Varför verkar det som om jag ser längre svarstider efter en uppgradering från en tidigare version av at.js till version 1.0.0? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
@@ -87,7 +91,7 @@ Med versionen at.js 1.0.0 kan du läsa in målbiblioteket asynkront.
 
 Så här läser du in at.js asynkront:
 
-* Det rekommenderade sättet är via en tagghanterare som Adobe Launch eller Adobe Dynamic Tag Manager (DTM). Mer information finns i lektionen [Lägg till Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) i självstudiekursen [Implementera Experience Cloud på webbplatser med Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) .
+* Det rekommenderade sättet är via en tagghanterare som Adobe Launch eller Adobe Dynamic Tag Manager (DTM). Mer information finns i lektionen [Lägg till Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) i [Implementera Experience Cloud på webbplatser med Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) .
 * Du kan också läsa in at.js asynkront genom att lägga till attributet async i script-taggen som läser in at.js. Du bör använda något sådant:
 
    ```
@@ -107,15 +111,15 @@ Att läsa in at.js asynkront är ett bra sätt att undvika att blockera webbläs
 
 Du kan undvika flimmer genom att använda ett fragment som döljer sidan (eller vissa delar) och sedan visar den efter at.js och den globala begäran har lästs in helt. Utdraget måste läggas till innan at.js läses in.
 
-Om du distribuerar at.js via en asynkron Launch-implementering måste du se till att inkludera det fragment som döljs direkt på sidorna, före koden Launch Embed (Starta inbäddning), enligt beskrivningen i avsnittet [Lägg till fragmentet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) för fördöljning av mål i [Implementera Experience Cloud på webbplatser med självstudiekursen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)Launch.
+Om du distribuerar at.js via en asynkron Launch-implementering måste du se till att inkludera det preddolda fragmentet direkt på dina sidor, före koden Launch Embed (Starta inbäddning), enligt beskrivningen i avsnittet [Lägg till fragmentet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) för fördöljning av mål i [Implementera Experience Cloud på webbplatser med startsjälvstudiekursen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 Om du distribuerar at.js via en synkron DTM-implementering kan det fördolda fragmentet läggas till via en sidinläsningsregel som aktiveras högst upp på sidan.
 
 Mer information finns i [Hantera flimmer](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
-## Är at.js kompatibelt med Adobe Experience Manager-integreringen (AEM)? {#section_6177AE10542344239753764C6165FDDC}
+## Är at.js kompatibelt med Adobe Experience Manager (AEM)? {#section_6177AE10542344239753764C6165FDDC}
 
-[!DNL Adobe Experience Manager] 6.2 med FP-11577 (eller senare) har nu stöd för [!DNL at.js] implementeringar med [!UICONTROL Adobe Target Cloud Services] integrering. Mer information finns i [Funktionspaket](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) och [Integrera med Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) i *dokumentationen för Adobe Experience Manager 6.2* .
+[!DNL Adobe Experience Manager] 6.2 med FP-11577 (eller senare) har nu stöd för [!DNL at.js] implementeringar med [!UICONTROL Adobe Target Cloud Services] integrering. Mer information finns i [Funktionspaket](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) och [Integrera med Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) i dokumentationen för *Adobe Experience Manager 6.2* .
 
 ## Hur förhindrar jag sidinläsningsflimmer med at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
@@ -211,7 +215,7 @@ Följande är möjliga rotorsaker om du ser det här varningsmeddelandet:
 
 ## Vad är domänen tt.omtrdc.net som anrop från målservern går till? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
-[!DNL tt.omtrdc.net] är domännamnet för Adobes EDGE-nätverk, som används för att ta emot alla serveranrop för Target.
+[!DNL tt.omtrdc.net] är domännamnet för Adobe EDGE-nätverket, som används för att ta emot alla serveranrop för Target.
 
 ## Varför använder inte at.js och mbox.js flaggorna HttpOnly och Secure cookie? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
