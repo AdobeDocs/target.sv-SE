@@ -1,17 +1,21 @@
 ---
 keywords: recommendations;recommendations activity;criteria
-description: Välj de kriterier som ska användas i aktiviteten Adobe Target Recommendations.
+description: Välj de kriterier som ska användas i din Adobe Target Recommendations-aktivitet.
 title: Välj villkor
+feature: null
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Select-villkor{#select-criteria}
 
-Välj de [kriterier](/help/c-recommendations/c-algorithms/algorithms.md) som ska användas i aktiviteten Rekommendationer. Kriterier är regler som bestämmer vilka produkter som ska rekommenderas utifrån en fördefinierad uppsättning besökarbeteenden.
+Välj [villkor](/help/c-recommendations/c-algorithms/algorithms.md) som ska användas i din Recommendations-aktivitet. Kriterier är regler som bestämmer vilka produkter som ska rekommenderas utifrån en fördefinierad uppsättning besökarbeteenden.
 
 Du kan testa flera rekommendationstyper mot varandra genom att lägga till fler än ett villkor.
 
