@@ -1,18 +1,22 @@
 ---
 keywords: experience;control;automated personalization;auto-target
-description: Välj en upplevelse som ska användas som kontroll när du skapar en Automated Personalization (AP) eller Auto-Target-aktivitet i Adobe Target.
+description: Välj en upplevelse som ska användas som kontroll när du skapar en Automated Personalization- (AP) eller Auto-Target-aktivitet i Adobe Target.
 title: Använd en specifik upplevelse som kontroll i Adobe Target
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Välj kontrollen för din automatiska personalisering eller Automatisk målaktivitet
+# ![PREMIUM](/help/assets/premium.png) Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet
 
-Du kan välja en slumpmässigt hanterad upplevelse eller en specifik upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) - eller [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT)-aktivitet.
+Du kan välja en slumpmässigt hanterad upplevelse eller en specifik upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) - (AP) eller [Auto-Target](/help/c-activities/auto-target-to-optimize.md) -aktivitet (AT).
 
 Med den här funktionen kan du dirigera kontrolltrafiken till relevanta upplevelser, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Du kan sedan utvärdera prestandarapporter för den personaliserade trafiken mot kontrolltrafiken till den kontrollen.
 
