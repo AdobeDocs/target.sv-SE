@@ -1,25 +1,29 @@
 ---
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Använd Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
-title: Skapa en rekommendationsaktivitet
+title: Skapa en Recommendations-aktivitet
+feature: null
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Skapa en rekommendationsaktivitet{#create-a-recommendations-activity}
+# ![PREMIUM](/help/assets/premium.png) Skapa en Recommendations-aktivitet{#create-a-recommendations-activity}
 
 Använd Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
 
 1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
-   ![Skapa rekommendationsaktivitet](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
+   ![Skapa Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
 1. Välj **[!UICONTROL Visual (Default)]** vid behov.
 
-   ![Skapa aktivitet för rekommendationer, dialogruta](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
+   ![Skapa Recommendations Activity (dialogruta)](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
    Om du föredrar att använda formulärbaserad Experience Composer väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) .
 
@@ -45,7 +49,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
 1. Klicka på ett element på sidan och om det finns rekommendationer för var elementet finns klickar du på **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** eller **[!UICONTROL Insert Recommendations After]**.
 
-   ![Rekommendationsalternativ](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    Om du ersätter ett element med rekommendationer tas det aktuella innehållet bort och ersätts med dina rekommendationer.
 
@@ -61,6 +65,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
    * Sökresultatsida
    * Tack
    * Övriga
+
    ![Välj alternativ för sidtyp](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
 1. Markera ett eller flera [villkor](/help/c-recommendations/c-algorithms/algorithms.md).
@@ -69,13 +74,13 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    >[!NOTE]
    >
-   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för att aktuella artikel/aktuella kategorirekommendationer ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du **[!UICONTROL Compatible]** kryssrutan. Alternativet kanske inte visas, beroende på dina rekommendationer ( [!UICONTROL Compatible] > **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för att aktuella artikel/aktuella kategorirekommendationer ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du **[!UICONTROL Compatible]** kryssrutan. Det [!UICONTROL Compatible] här alternativet kanske inte visas beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![Välj villkor, dialogruta](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    Om du väljer flera villkor delas trafiken jämnt mellan de valda villkoren. Om du till exempel har valt två villkor och din aktivitet är utformad för att visa standardinnehåll för 20 % av aktivitetsinspelarna, så ser 40 % av aktivitetsinspelarna rekommendationerna som styrs av respektive villkor. Det finns inget alternativ för att ändra procentsatserna för varje villkor.
 
-   * Om du vill söka efter ett befintligt villkor (till exempel om ett stort antal villkorskort visas) skriver du in sökfältet tills det önskade villkoret visas, markerar villkoret och klickar sedan på **[!UICONTROL Next]**.
+   * Om du vill söka efter ett befintligt villkor (t.ex. om ett stort antal villkorskort visas) skriver du i sökfältet tills det önskade villkoret visas, markerar villkoret och klickar sedan på **[!UICONTROL Next]**.
 
       Vissa villkor ingår [!DNL Recommendations]. Du och ditt team kan också skapa egna kriterier.
 
@@ -114,7 +119,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
 1. Granska din [!DNL Recommendations] aktivitet i flödesdiagrammet och gör nödvändiga ändringar.
 
-   ![Flödesdiagram för rekommendationer](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![Recommendations-flödesdiagram](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    Flödesdiagrammet leder dig genom stegen för att välja målgrupp för aktiviteten, skapa upplevelser och specificera framgångsmått.
 
@@ -139,7 +144,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 1. Klicka **[!UICONTROL Next]** när du är klar.
 1. Ange dina aktivitetsinställningar.
 
-   Skriv till exempel ett namn (obligatoriskt) och mål (valfritt) för aktiviteten. Mer information om inställningarna finns i [Rekommendationer och aktivitetsinställningar](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Skriv till exempel ett namn (obligatoriskt) och mål (valfritt) för aktiviteten. Mer information om inställningarna finns i [Recommendations aktivitetsinställningar](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >
@@ -153,7 +158,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    * Aktivera aktiviteten
    * Redigera aktiviteten
-   * Fäst aktiviteten på din Experience Cloud-board
+   * Fäst aktiviteten på ditt Experience Cloud-bord
    * Visa dina upplevelse-URL:er
    * Hämta data
    * Ändra procentandelen aktivitetsdeltagare som ser kontrollupplevelsen
@@ -165,6 +170,6 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    Aktivitetskonflikter inträffar när flera aktiviteter är inställda på att leverera innehåll till samma sida, vilket kan göra att oväntat innehåll visas.
 
-## Utbildningsvideo: Skapa ett ![självstudiemärke för aktiviteten Rekommendationer (7:15)](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa en Recommendations-aktivitet (7:15) - ![självstudiemärke](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
