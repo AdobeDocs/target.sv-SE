@@ -2,9 +2,13 @@
 keywords: recommendations design;create design;copy design
 description: En design definierar hur rekommendationer visas på en sida.
 title: Skapa en design
+feature: null
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 1%
 
 ---
 
@@ -80,7 +84,7 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
        }  
    ```
 
-1. Ställ in en formulärbaserad rekommendationsaktivitet som använder den här designen.
+1. Skapa en formulärbaserad Recommendations-aktivitet som använder den här designen.
 
    1. Navigera till sidan Aktiviteter.
    1. Klicka på **[!UICONTROL Create Activity]**.
@@ -110,7 +114,7 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 | Parameter | Värde |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Målklientkod (finns på ../target/products.html#recsSettings > Recommendations API Token > Klientkod. |
-| `[YOUR_MBOX_NAME]` | Det namn du har valt i avsnittet &quot;locations&quot; i de formulärbaserade rekommendationerna, i det här fallet Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | Det namn du har valt i avsnittet &quot;locations&quot; i den formulärbaserade Recommendations, i det här fallet Sample_Recs_Response. |
 | `[ENTITY_ID`] | Objektets namn `entity.id` i katalogen. |
 | `[AT_PROPERTY_TOKEN]` | (Valfritt) Lägg till om du har valt en egenskap (ingår i Enterprise Permissions) under aktivitetsinställningarna. |
 
@@ -266,7 +270,7 @@ Du kan också skicka ytterligare information i svaret. Följande kodfil är ett 
     }  
 ```
 
-## Utbildningsvideo: Skapa egna designer i ikonen Rekommendationer (3:20) ![Översikt](/help/assets/overview.png)
+## Utbildningsvideo: Skapa egna designer i Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 Den här videon innehåller följande information:
 
