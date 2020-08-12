@@ -2,11 +2,12 @@
 keywords: Goal &Settings;objective;priority;duration
 description: Använd Aktivitetsinställningar för att hantera mål, prioritet och varaktighet för dina aktiviteter.
 title: Aktivitetsinställningar
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -53,10 +54,10 @@ Använd Aktivitetsinställningar för att hantera mål, prioritet och varaktighe
 Sidan innehåller ytterligare inställningar som varierar beroende på vilken typ av aktivitet du skapar. [!UICONTROL Goal & Settings] Mer information om de här inställningarna finns i din aktivitetstyp:
 
 * [A/B-test](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Automatiserad personalisering](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+* [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
 * [Experience Targeting](../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Multivariata tester](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Rekommendationer](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+* [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## Utbildningsvideo: Aktivitetsinställningar - ![självstudiemärke](/help/assets/tutorial.png)
 
