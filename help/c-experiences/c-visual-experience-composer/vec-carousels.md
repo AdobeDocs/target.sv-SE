@@ -2,11 +2,15 @@
 keywords: Visual Experience Composer;VEC;carousel
 description: I det här avsnittet beskrivs hur du skapar en karusell som kan redigeras i Visual Experience Composer (VEC).
 title: Skapa Carousel som fungerar i Visual Experience Composer
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
