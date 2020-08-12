@@ -1,17 +1,21 @@
 ---
 keywords: Recommendations
-description: Eftersom en AP-aktivitet (Automated Personalization) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan för varje upplevelse.
-title: Förhandsgranska upplevelser för en Automated Personalization (AP)-aktivitet i Adobe Target Visual Experience Composer
+description: Eftersom en Automated Personalization-aktivitet (AP) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan för varje upplevelse.
+title: Förhandsgranska upplevelser för en Automated Personalization-aktivitet (AP) i Adobe Target Visual Experience Composer
+feature: null
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Preview-upplevelser för automatiserad personalisering i Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
+# ![PREMIUM](/help/assets/premium.png) Preview-upplevelser för Automated Personalization i Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Eftersom en AP-aktivitet (Automated Personalization) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan för varje upplevelse.
+Eftersom en Automated Personalization-aktivitet (AP) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan för varje upplevelse.
 
 1. Klicka på i Visual Experience Composer **[!UICONTROL Preview]**.
 
@@ -37,7 +41,7 @@ Eftersom en AP-aktivitet (Automated Personalization) jämför flera erbjudanden 
 
    Om du vill utesluta flera upplevelser markerar du kryssrutorna för de önskade upplevelserna och klickar sedan på **[!UICONTROL Exclude]** ikonen längst upp till höger i listan.
 
-   Som standard ingår alla upplevelser i aktiviteten Automatiserad personalisering. Om du vill ta med en upplevelse som har uteslutits håller du pekaren över upplevelsen och klickar på **[!UICONTROL Include]** -ikonen.
+   Som standard inkluderas alla upplevelser i Automated Personalization-aktiviteten. Om du vill ta med en upplevelse som har uteslutits håller du pekaren över upplevelsen och klickar på **[!UICONTROL Include]** -ikonen.
 
    Om du vill inkludera flera upplevelser som har uteslutits markerar du kryssrutorna för de önskade upplevelserna och klickar sedan på **[!UICONTROL Include]** ikonen längst upp till höger i listan.
 
