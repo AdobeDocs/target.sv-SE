@@ -1,10 +1,14 @@
 ---
 description: Trafikberäkningsverktyget ger dig feedback som visar om du har tillräckligt med trafik för att din aktivitet ska lyckas.
 title: Uppskatta den trafik som krävs för att lyckas
+feature: null
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Trafikberäkningsverktyget ger dig feedback som visar om du har tillräckligt med trafik för att din aktivitet ska lyckas.
 
-Eftersom en automatiserad personaliseringsaktivitet använder flera kombinationer av erbjudanden är det viktigt att veta hur mycket trafik som krävs för att få meningsfulla resultat. Trafikuppskattningen använder statistik om er sida och antalet upplevelser som testas för att uppskatta mängden trafik och hur lång tid som krävs för att aktiviteten ska lyckas.
+Eftersom en Automated Personalization-aktivitet använder flera kombinationer av erbjudanden är det viktigt att veta hur mycket trafik som krävs för att uppnå meningsfulla resultat. Trafikuppskattningen använder statistik om er sida och antalet upplevelser som testas för att uppskatta mängden trafik och hur lång tid som krävs för att aktiviteten ska lyckas.
 
 Traffic Estimator avgör om det finns tillräckligt med trafik för att generera personaliserade modeller genom att jämföra sidornas uppskattade visningar och typiska konverteringsgrad. Det bästa är om du väljer en lyckad aktivitet med rätt samplingsstorlek, så att det anpassade innehållet är klart inom 50 % av aktivitetens varaktighet eller 14 dagar, beroende på vilket värde som är lägst. Detta ger tillräckligt med tid för att få personaliserat innehåll och lära sig vilket innehåll som ska levereras.
 
@@ -33,6 +37,7 @@ Kom ihåg att Target levererar upplevelser slumpmässigt tills personaliseringsa
    * Normal konverteringsgrad: Konverteringsgraden uttrycks som en procentandel, baserat på din uppskattning eller tidigare data från analyssystemet.
    * Beräknade besök per dag: Detta är antalet besök per dag från besökare som kan visa aktiviteten, baserat på målinriktningskriterierna. Detta kan baseras på era analysdata. Observera att det här numret ska vara besök, inte unika besökare.
    * Testvaraktighet: Antalet dagar som du vill att aktiviteten ska köras.
+
    Trafikuppskattningen använder dessa statistik för att avgöra vilka justeringar som krävs för att köra ett lyckat test.
 
    I närheten av överkanten av trafikberäkningsverktyget beräknas de värden du anger och resultatet visas.
@@ -43,9 +48,10 @@ Kom ihåg att Target levererar upplevelser slumpmässigt tills personaliseringsa
 
    Om du inte har tillräckligt med trafik kan du göra något av följande:
 
-   * Överväg att använda Automatisk målanpassning i stället för Automatiserad personalisering för att skapa upplevelser med flera olika erbjudandeändringar i en upplevelsevariant.
-   * Minska antalet erbjudandekombinationer i din automatiserade personaliseringsaktivitet.
+   * Överväg att använda Auto-Target i stället för Automated Personalization för att skapa upplevelser med flera olika erbjudandeändringar i en upplevelsevariant.
+   * Minska antalet erbjudandekombinationer i er Automated Personalization-aktivitet.
    * Öka aktivitetens varaktighet.
+
    Justera siffrorna tills Traffic Estimator säger att du har tillräckligt med trafik och utforma sedan testet därefter.
 
    ![](assets/ap_est_yes.png)
