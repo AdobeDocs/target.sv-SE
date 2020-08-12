@@ -2,10 +2,14 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Information om förändringar i hur Adobe och Target använder TLS (Transport Layer Security) för att upprätthålla högsta säkerhetsstandard och främja säkerheten för kunddata.
 title: TLS-krypteringsändringar (Transport Layer Security)
+feature: null
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1233'
+ht-degree: 0%
 
 ---
 
@@ -14,11 +18,11 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 Information om förändringar i hur Adobe och Adobe Target använder TLS (Transport Layer Security) för att upprätthålla högsta säkerhetsstandard och främja säkerheten för kunddata.
 
-TLS (Transport Layer Security) är det vanligaste säkerhetsprotokoll som används idag för webbläsare och andra program som kräver att data utbyts på ett säkert sätt över ett nätverk. Adobe har standarder för säkerhetsefterlevnad som kräver att äldre protokoll upphör att gälla och kräver att TLS 1.2 används för att få den senaste och säkraste versionen att använda.
+TLS (Transport Layer Security) är det vanligaste säkerhetsprotokoll som används idag för webbläsare och andra program som kräver att data utbyts på ett säkert sätt över ett nätverk. Adobe har standarder för att uppfylla säkerhetskraven som kräver att äldre protokoll upphör att gälla och kräver att TLS 1.2 används för att få den senaste och säkraste versionen att använda.
 
 >[!IMPORTANT]
 >
->Efter den 1 mars 2020 stöder Adobe Target inte längre TLS 1.1-kryptering för Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), aktivitetsleverans, API:er osv. Uppgradera till TLS 1.2 före 1 mars 2020 för att undvika problem.
+>Efter den 1 mars 2020 har Adobe Target inte längre stöd för TLS 1.1-kryptering för Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), aktivitetsleverans, API:er osv. Uppgradera till TLS 1.2 före 1 mars 2020 för att undvika problem.
 
 Vi förväntar oss inte att detta ska ha någon större inverkan på kunddata eller rapportering.
 
@@ -56,7 +60,7 @@ När du planerar för den här ändringen bör du tänka på följande (observer
 
 Mer information om vilka webbläsare som stöds och vilka versioner som stöds finns i [Webbläsare](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)som stöds.
 
-## Adobe Target-API:er {#section_88797FA5434049EC89F908853CC76903}
+## Adobe Target API:er {#section_88797FA5434049EC89F908853CC76903}
 
 Från och med 1 mars 2020 har mål-API:er inte längre stöd för TLS 1.1-kryptering. Kunder som har åtkomst till API bör verifiera att de inte kommer att påverkas.
 
