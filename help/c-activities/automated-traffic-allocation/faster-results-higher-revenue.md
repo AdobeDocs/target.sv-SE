@@ -2,9 +2,10 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: Med Automatisk tilldelning identifieras en vinnare bland två eller fler upplevelser och fler kunder tilldelas automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 title: Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
