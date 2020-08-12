@@ -1,11 +1,12 @@
 ---
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
-description: Information om hur du skapar egenskaper och använder funktionerna för egenskaper och behörigheter, som gör att Target-administratörer kan skapa separata arbetsytor (produktprofiler) i Target och sedan tilldela användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser baserat på dessa arbetsytor.
+description: Information om hur du skapar egenskaper och använder funktionerna Egenskaper och Behörigheter som gör att måladministratörer kan skapa separata arbetsytor (produktprofiler) i Target och sedan tilldela användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser baserat på dessa arbetsytor.
 title: Enterprise-användarbehörigheter
+feature: null
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3027'
 ht-degree: 0%
@@ -47,7 +48,7 @@ Egenskaper liknar till sin natur de i [!DNL Adobe Platform Launch] och med att d
 
 En webbegenskap är ett bibliotek med regler och en inbäddningskod. En webbegenskap kan vara vilken gruppering som helst av en eller flera domäner och underdomäner.
 
-Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en parameter med ett anrop (Target-samtal, api-anrop osv.) till [!DNL Target].
+Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en parameter med ett anrop (Target call, api call, etc.) till [!DNL Target].
 
 Egenskaperna tillhör specifika kanaler (webb, mobil, e-post eller API/annan).
 
@@ -81,7 +82,7 @@ Alla användarroller och åtkomst till alla [!DNL Target] funktioner är desamma
 
 ### Användargrupper
 
-Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer osv. och sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att tilldela en ny teammedlem alla behörigheter som krävs för olika Adobe-produkter kan vara lika enkelt som att lägga till dem i en viss användargrupp.
+Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer osv. och sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att utse en ny teammedlem kan vara lika enkelt som att lägga till dem i en viss användargrupp.
 
 ### Roller och behörigheter
 
@@ -147,7 +148,7 @@ Följande användningsexempel kan vara användbara för att förstå hur egenska
 Om du är en del av en flernationell organisation kan du ha en arbetsyta för dina europeiska webbsidor, egenskaper eller webbplatser och en annan arbetsyta för dina amerikanska webbsidor, egenskaper eller webbplatser.
 Efter en omorganisering, med hjälp av de profiler som visas på bilderna ovan, kan du skapa arbetsytor och behörigheter som liknar följande:
 
-* **Jan**: Jan är chef för optimering vid Center of Excellence för sin organisations amerikanska webbsidor, egendomar och webbplatser. Hon har troligen systemadministratörsbehörighet i Adobe Experience Cloud.
+* **Jan**: Jan är chef för optimering vid Center of Excellence för sin organisations amerikanska webbsidor, egendomar och webbplatser. Hon har antagligen systemadministratörsbehörighet i Adobe Experience Cloud.
 
    I sin roll har hon godkännarbehörighet för den amerikanska hemsidan och den amerikanska webbplatsen. Med godkännarbehörighet kan hon skapa, redigera och aktivera eller stoppa aktiviteter.
 
@@ -171,7 +172,7 @@ Om du är en del av en organisation med flera varumärken kan du ha en separat a
 
 Efter en omorganisering, med hjälp av personerna i illustrationerna ovan, kan du skapa projekt och behörigheter som liknar följande:
 
-* **Jan**: Jan är chef för optimeringen vid Center of Excellence för en sjukvårdsorganisation som är verksam på sjukhus- och konsumentproduktioner. Hon har troligen systemadministratörsbehörighet i Adobe Experience Cloud.
+* **Jan**: Jan är chef för optimeringen vid Center of Excellence för en sjukvårdsorganisation som är verksam på sjukhus- och konsumentproduktioner. Hon har antagligen systemadministratörsbehörighet i Adobe Experience Cloud.
 
    I sin roll har hon godkännarbehörighet för webbplatsen. Med godkännarbehörighet kan hon skapa, redigera och aktivera eller stoppa aktiviteter.
 
@@ -179,13 +180,13 @@ Efter en omorganisering, med hjälp av personerna i illustrationerna ovan, kan d
 
 * **Ernie**: Ernie är marknadschef för organisationen med ansvar för marknadsföring på konsumentproduktområdet.
 
-   Eftersom Ernie är ganska ny i organisationen och lite oerfaren av Target har han redigeringsbehörighet för konsumentwebbplatsen. Med redigerarbehörigheter kan Ernie skapa och redigera aktiviteter innan de är aktiva, men han kan inte godkänna att en aktivitet startas. Någon med godkännanderättigheter för konsumentwebbplatsen, men inte Jan i det här scenariot, måste godkänna aktiviteten innan den kan tas i produktion.
+   Eftersom Ernie är ganska ny i organisationen och lite oerfaren av Target har han redigeringsbehörigheter för konsumentwebbplatsen. Med redigerarbehörigheter kan Ernie skapa och redigera aktiviteter innan de är aktiva, men han kan inte godkänna att en aktivitet startas. Någon med godkännanderättigheter för konsumentwebbplatsen, men inte Jan i det här scenariot, måste godkänna aktiviteten innan den kan tas i produktion.
 
    Eftersom Ernie inte har någon roll som gör det nödvändigt att han ser webbplatsen kan han inte se aktiviteter för den sajten.
 
 * **Diana**: Diana är nu analytiker för organisationen och har fått observationsbehörigheter för sjukhuswebbplatsen och konsumentwebbplatsen som ger henne skrivskyddad åtkomst till aktiviteter. Diana kan visa aktiviteter, men kan inte skapa eller redigera dem.
 
-## Kontaktpunkter för Target UI-egenskap och behörigheter {#section_3414371393BB42999A268628B5456EC9}
+## Kontaktpunkter för gränssnittsegenskaper och behörigheter {#section_3414371393BB42999A268628B5456EC9}
 
 Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target] användargränssnittet.
 
@@ -231,27 +232,27 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 * När du visar målgrupper från [!DNL Audiences] sidan läses sidan in långsammare än förväntat. Om du interagerar med sökfältet på något sätt visas målgrupperna snabbare. Det här är ett känt fel och kommer att korrigeras i en kommande uppdatering. Problemet påverkar inte valet av målgrupper när aktiviteten skapas.
 * Följande resurser ingår i den nya Enterprise Permissions-modellen:
 
-   * Aktiviteter, målgrupper och koderbjudanden som skapats i Target Standard/Premium när kunden har aktiverats för tillstånd. (Obs! måste ha rätt till Target Premium.)
+   * Aktiviteter, målgrupper och koderbjudanden som skapats i Target Standard/Premium när kunden har aktiverats för tillstånd. (Obs! kunder måste ha rätt till Target Premium.)
    * Egenskaper kan läggas till i befintliga aktiviteter på standardarbetsytan; Detta kan dock komma att ändras.
-   * Endast nya resurser (som aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium (när Enterprise Permissions är aktiverat) kan begränsas av behörigheter.
-   * Externa resurser är bara tillgängliga för användare på standardarbetsytan. En användares roll på standardarbetsytan gäller globalt (för alla Target-begäranden och alla Target-resurser).
+   * Endast nya resurser (till exempel aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium (efter att Enterprise Permissions (Enterprise Permissions)) har aktiverats kan begränsas av behörigheter.
+   * Externa resurser är bara tillgängliga för användare på standardarbetsytan. En användares roll i standardarbetsytan används globalt (för alla Target-begäranden och alla Target-resurser).
 
 * Följande resurser ingår *inte* i den nya Enterprise Permissions-modellen:
 
    * Bilderbjudanden
-   * Alla resurser för rekommendationer, inklusive kriteriebibliotek, designbibliotek, katalog, inställningar för rekommendationer.
-   * Befintliga resurser (som aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium innan Enterprise Permissions aktiverades kan kopieras men inte flyttas till andra arbetsytor.
+   * Alla Recommendations-resurser, inklusive kriteriebibliotek, designbibliotek, katalog, Recommendations Setup.
+   * Befintliga resurser (t.ex. aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium innan Enterprise-behörigheter aktiverades kan kopieras, men kan inte flyttas till andra arbetsytor.
    * Aktiviteter, målgrupper, koderbjudanden, bilderbjudanden eller andra resurser som skapats med följande lösningar eller metoder kan inte styras av modellen Enterprise Permissions, men kommer att ingå i standardarbetsytan: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services och resurser som skapats via API. Resurser som skapas via API omfattar aktiviteter, målgrupper, koderbjudanden och bilderbjudanden).
    * Bilderbjudanden (resurser som lagras under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kan för närvarande inte styras av Enterprise Permissions-modellen.
    * clickTracking and redirects fungerar bara när mållänken eller målsidan är en del av en egenskap som ingår i aktiviteten. ClickTracking fungerar kanske inte heller när `targetPageParams()` funktionen används. Det `targetPageParamsAll()` är den rekommenderade funktionen.
 
-   [!DNL Target] kräver för närvarande att det finns en `at_property` token på alla sidor där spårning sker. Om variabeln (1) inte finns, (2) inte identifieras vid tidpunkten för aktivitetsinställningen (i VEC) eller (3) inte skickas till clickTracking Target-anropet via `targetPageParamsAll()` funktionen, ökas inte mätvärdet och visas som &quot;0&quot;.
+   [!DNL Target] kräver för närvarande att det finns en `at_property` token på alla sidor där spårning sker. Om variabeln (1) inte finns, (2) inte identifieras vid tidpunkten för aktivitetsinställningen (i VEC) eller (3) inte skickas till anropet clickTracking Target via `targetPageParamsAll()` -funktionen, ökas inte mätvärdet och visas som &quot;0&quot;.
 
    Detsamma gäller för aktiviteter som använder omdirigeringar. Målsidan måste ha en `at_property` token och identifieras när konfigurationen görs i VEC.
 
-   I en framtida version kommer Target att arbeta med sidor där det inte finns någon `at_property` token eller sidor där det finns en annan `at_property` token.
+   I en framtida version kommer Target att fungera på sidor där det inte finns någon `at_property` token eller på sidor där det finns en annan `at_property` token.
 
-* Funktionen Enterprise-användarbehörigheter stöds inte i [Adobe I/O API-anrop](https://developers.adobetarget.com).
+* Funktionen Enterprise-användarbehörigheter stöds inte i API-anrop [för](https://developers.adobetarget.com)Adobe.
 
 ## Vanliga frågor {#faqs}
 
@@ -295,9 +296,9 @@ Utbildningsmål:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Kontorstid: Target Premium Workspaces
+### Kontorstid: Arbetsytor för Target Premium
 
-Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av Adobes kundtjänstteam.
+Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
 * Skapa en arbetsyta (produktprofil)
 * Skapa egenskaper
