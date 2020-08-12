@@ -1,11 +1,12 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;functions;function
-description: Information om funktionen adobe.target.applyOffers(options) för JavaScript-biblioteket för Adobe Target at.js.
-title: Information om funktionen adobe.target.applyOffers(options) för JavaScript-biblioteket för Adobe Target at.js.
+description: Information om funktionen adobe.target.applyOffers(options) för JavaScript-biblioteket i Adobe Target at.js.
+title: Information om funktionen adobe.target.applyOffers(options) för JavaScript-biblioteket i Adobe Target at.js.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cd76bab4b3dbb73c57655403230aac09ddbd2a05
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
