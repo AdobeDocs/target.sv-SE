@@ -1,17 +1,21 @@
 ---
 keywords: at.js;api;release;updates;apis;sdks;server side;serverside;server-side;api;delivery api
-description: Versionsinformation om Adobe Target-serversidans API:er.
-title: Versionsinformation om Adobe Target-serversidans API:er.
+description: Versionsinformation om Adobe Target serversides-API:er.
+title: Versionsinformation om Adobe Target serversides-API:er.
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
 
 # Versionsinformation - Målserversidans API:er
 
-Versionsinformation om [Adobe Target-API:erna](https://developers.adobetarget.com/api/delivery-api/)på serversidan.
+Versionsinformation om [Adobe Target server-side API](https://developers.adobetarget.com/api/delivery-api/).
 
 ## V1/leverans (9 oktober 2019)
 
