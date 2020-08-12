@@ -2,11 +2,15 @@
 keywords: Overview and Reference;webkit
 description: Cookie-beteendet beror på om det är en cookie från en annan leverantör, en cookie från en annan tillverkare med en cookie från en annan leverantör eller en cookie från en annan tillverkare.
 title: mbox.js cookies
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1565'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +66,7 @@ Den första partens cookie lagras i [!DNL clientdomain.com], där `clientdomain`
 
 >[!NOTE]
 >
->Den [!DNL AMCV_###@AdobeOrg] första partens cookie ställs alltid in med Experience Cloud Visitor-ID:t.
+>Den [!DNL AMCV_###@AdobeOrg] första partens cookie anges alltid med Experience Cloud Visitor-ID:t.
 
 ## Cookie-beteende från tredje part {#section_4C3A83990BF8415BB1806602D84AED48}
 
@@ -116,7 +120,7 @@ Cookien har ett antal värden för att hantera hur besökarna upplever kampanjer
 | Cookies | Detaljer |
 |--- |--- |
 | Första parts domäner | Detta är standardimplementeringen för Target-kunder.  &quot;mbox&quot;-cookies anges i kundens domän. |
-| Spårning från tredje part | Spårning från tredje part är viktigt för annonsering och målgruppsanvändning i Target och i Adobe Audience Manager (AAM).  Spårning från tredje part kräver serveröverskridande skripttekniker (cross-site scripting).  Målet använder två cookies, &quot;mboxSession&quot; och &quot;mboxPC&quot;, som angetts i `clientcode.tt.omtrd.net` domänen. |
+| Spårning från tredje part | Spårning från tredje part är viktigt för reklam och riktad marknadsföring i Target och i Adobe Audience Manager (AAM).  Spårning från tredje part kräver serveröverskridande skripttekniker (cross-site scripting).  Målet använder två cookies, &quot;mboxSession&quot; och &quot;mboxPC&quot;, som angetts i `clientcode.tt.omtrd.net` domänen. |
 
 
 **Vad är Apples uppläggning?**
@@ -137,5 +141,5 @@ Från Apple:
 
 | Funktioner som påverkas | Detaljer |
 |--- |--- |
-| Stöd för avanmälan | Apples WebKit tracking changes break opt out support.<br>Målavanmälan använder en cookie i `clientcode.tt.omtrdc.net` domänen. Mer information finns i [Sekretess](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Målet har stöd för två avanmälningar:<ul><li>En per klient (klienten hanterar länken för avanmälan).</li><li>En via Adobe som gör att användaren slipper alla Target-funktioner för alla kunder.</li></ul>Båda metoderna använder cookie-filen från tredje part. |
+| Stöd för avanmälan | Apples WebKit tracking changes break opt out support.<br>Målavanmälan använder en cookie i `clientcode.tt.omtrdc.net` domänen. Mer information finns i [Sekretess](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Målet har stöd för två avanmälningar:<ul><li>En per klient (klienten hanterar länken för avanmälan).</li><li>Ett via Adobe som gör att användaren slipper alla Target-funktioner för alla kunder.</li></ul>Båda metoderna använder cookie-filen från tredje part. |
 | Verksamheter som riktar sig till | Kunderna kan välja [längd](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) på profilens livstid för sina Target-konton, upp till 90 dagar. Orsaken är att om kontots profillivslängd är längre än 30 dagar och cookie-filen rensas eftersom kundens domän har markerats som spårning av användare på alla webbplatser, påverkas beteendet för Safari-besökare i följande områden i Target:<br>**Target Reports **: Om en Safari-användare går in i en aktivitet returneras efter 30 dagar och konverteras sedan räknas användaren som två besökare och en konvertering.<br>Detta beteende är detsamma för aktiviteter som använder Analytics som rapportkälla (A4T).<br>**Profil- och aktivitetsmedlemskap**:<ul><li>Profildata raderas när cookie-filen från första part förfaller.</li><li>Aktivitetsmedlemskapet raderas när cookie-filen från första part förfaller.</li><li> Målet fungerar inte i Safari för konton som använder en cookie-implementering från tredje part eller en cookie-implementering från första och tredje part. Observera att det här beteendet inte är nytt. Safari har inte tillåtit cookies från tredje part på ett tag.</li></ul><br>**Förslag **: Om det finns en oro för att kunddomänen kan markeras som en spårning av besökare mellan sessioner, är det säkraste att ange profilens livstid till 30 dagar eller färre i Target. På så sätt spåras användare på samma sätt i Safari och alla andra webbläsare. |
