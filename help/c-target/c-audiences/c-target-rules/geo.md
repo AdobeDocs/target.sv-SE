@@ -1,12 +1,16 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
-description: Använd målgrupper i Adobe Target för att rikta in er på användare utifrån deras geografiska plats, inklusive land, stat/provins, ort, postnummer, DMA eller mobiloperatör.
+description: Använd Adobe Target målgrupper för att rikta in er på användare baserat på deras geografiska plats, inklusive land, stat/provins, ort, postnummer, DMA eller mobiloperatör.
 title: Geo
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 2%
 
 ---
 
@@ -33,6 +37,7 @@ Med parametrar för geografisk plats kan ni inrikta er på aktiviteter och upple
    * Longitud
    * DMA
    * Mobiloperatör
+
    En besökares IP-adress skickas med en mbox-begäran, en gång per besök (session), för att matcha parametrar för geomål för den besökaren.
 
    För mobiloperatör [!DNL Target] används IP-adressregistreringsdata (som äger IP-adressblocket) för att avgöra vilket mobilföretag som är lämpligt med MCC ( [Mobile Country Codes) och MNC (Mobile Network Codes)](https://www.mcc-mnc.com).
@@ -102,7 +107,7 @@ Använd till exempel:
 * `${profile.geolocation.latitude}`
 * `${profile.geolocation.longitude}`
 
-## Vanliga frågor om geolokalisering {#section_DD308A53AF0F48FA8C81423580561FE7}
+## Geotargeting FAQ {#section_DD308A53AF0F48FA8C81423580561FE7}
 
 **Hur anger jag latitud och longitud?**
 
@@ -113,7 +118,7 @@ Använd till exempel:
 
 **Hur fungerar målinriktning mot geo för mobila enheter?**
 
-De flesta mobilanvändare får tillgång till innehåll via WiFi, vilket innebär att målets IP-baserade geoanpassning är lika exakt som på en stationär dator. Celltornbaserade anslutningar kan vara mindre exakta eftersom besökarens IP-adress baseras på tornet där signalen hämtas. Vissa problem med geolokalisering för mobiler kan lösas med [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+De flesta mobilanvändare får tillgång till innehåll via WiFi, vilket innebär att målets IP-baserade geoanpassning är lika korrekt som på en stationär dator. Celltornbaserade anslutningar kan vara mindre exakta eftersom besökarens IP-adress baseras på tornet där signalen hämtas. Vissa problem med geolokalisering för mobiler kan lösas med [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Hur hanterar geo besökare från AOL?**
 
