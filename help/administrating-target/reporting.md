@@ -2,9 +2,10 @@
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
 description: Konfigurera Adobe Target Visual Experience Composer (VEC) genom att ange dess allmänna inställningar, konfiguration av mobilvisningsruta och CSS-väljare.
 title: Konfigurera rapportering i Adobe Target
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Konfigurera rapportering i Target
+# Konfigurera rapportering i mål
 
 Konfigurera allmänna inställningar som ska användas vid [!DNL Adobe Target] rapportering som gäller för hela ditt [!DNL Target] konto.
 
@@ -20,7 +21,7 @@ Du öppnar konfigurationssidan genom att klicka [!UICONTROL Reporting] > **[!UIC
 
 Du kan ange följande inställningar på den här sidan:
 
-* Adobe Experience Cloud-lösningen som ska användas för rapportering
+* Den Adobe Experience Cloud-lösning som ska användas för rapportering
 * Tidszonen som ska användas för rapportering
 * Valutan som ska användas för rapportering
 * IP-adresser som ska uteslutas från rapportering
@@ -29,7 +30,7 @@ Du kan ange följande inställningar på den här sidan:
 
 >[!NOTE]
 >
->Observera att tidszonen, valutan och IP-adresserna för att exkludera inställningar gäller för aktiviteter som använder [!DNL Target] rapportering. Dessa inställningar gäller inte för aktiviteter där [Analytics för Target (A4T)] används som rapportkälla (/help/c-integrating-target-with-mac/a4t/a4t.md).
+>Observera att tidszonen, valutan och IP-adresserna för att exkludera inställningar gäller för aktiviteter som använder [!DNL Target] rapportering. Dessa inställningar gäller inte för aktiviteter där [Analytics for Target (A4T)] används som rapportkälla (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ![Rapporteringssida](/help/administrating-target/assets/reporting.png)
 
@@ -44,7 +45,7 @@ Tänk på följande när du väljer rapportkälla:
 * Om rapportkällan anges **[!DNL Target]** här, får du inte aktivera en aktivitet som använder [!DNL Analytics] som rapportkälla. Du måste ändra rapportkällan till [!DNL Target] i din aktivitet eller ändra rapportkällan till **[!UICONTROL Select per activity]** i **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * Om rapportkällan anges **[!DNL Analytics]** här, får du inte aktivera en aktivitet som använder [!DNL Target] som rapportkälla (rapportkällan anges som **[!UICONTROL Target per activity])**. Du måste ändra rapportkällan till[!DNL Analytics]i din aktivitet eller ändra rapporteringsmotorn till **[!UICONTROL Select per activity]**i**[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * Om rapportkällan är **[!UICONTROL Select per activity]** här kan du skapa, aktivera och inaktivera aktiviteter som stöds av den valda rapportkällan. En matris med aktiviteter som stöds finns i [Aktivitetstyper](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) som stöds i *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) skapande, aktivering och inaktivering av aktivitet tillåts oavsett vald rapportkälla. Automatiserade personaliseringsaktiviteter stöds inte när du väljer [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Även om du anger [!DNL Analytics] som rapportkälla [!DNL Target] används den som rapportkälla för automatiserade personaliseringsaktiviteter. Mer information finns i [Aktivitetstyper](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) som stöds i *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
+* [!UICONTROL Automated Personalization] (AP) skapande, aktivering och inaktivering av aktivitet tillåts oavsett vald rapportkälla. Automated Personalization-aktiviteter stöds inte när du väljer [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Även om du anger [!DNL Analytics] som rapportkälla [!DNL Target] används den som rapportkälla för Automated Personalization-aktiviteter. Mer information finns i [Aktivitetstyper](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) som stöds i *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
 
 ## Tidszon för rapportering
 
@@ -54,7 +55,7 @@ Ange den tidszon som ska användas för rapportering.
 
 Ange valutan som ska användas för rapportering.
 
-## IP-adresser som ska uteslutas från Target rapporteringsdata
+## IP-adresser som ska uteslutas från målrapporteringsdata
 
 Ange de IP-adresser som du vill utesluta från rapportdata. Att utesluta interna företagsadresser är till exempel ett bra sätt att se till att dina rapporteringsdata återspeglar kundinteraktioner på din webbplats.
 
