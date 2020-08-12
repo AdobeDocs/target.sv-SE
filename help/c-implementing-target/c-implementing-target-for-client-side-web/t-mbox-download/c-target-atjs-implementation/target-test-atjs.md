@@ -1,9 +1,13 @@
 ---
 description: Information om hur man på ett säkert sätt distribuerar at.js till en icke-produktionsmiljö.
 title: Distribuera at.js till en icke-produktionsmiljö
+feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +20,7 @@ Information om teknikerna för säker driftsättning i at.js till en icke-produk
 
 Om du använder DTM kan du enkelt spara at.js i Adobe Target Tool-konfigurationen.
 
-När du har sparat biblioteket använder du DTM Switch-verktyget för att testa det mot din produktionskod. Detta gör det också enkelt för dina Adobe-konsulter att ge support.
+När du har sparat biblioteket använder du DTM Switch-verktyget för att testa det mot din produktionskod. Detta gör det också enkelt för dina Adobe-konsulter att ge dig support.
 
 Mer information finns i [alternativ 3: Implementera Target manuellt med målbiblioteket för JavaScript, som finns hos DTM](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) , i *Best Practices för implementering av Adobe Target med hjälp av guiden för dynamisk tagghantering* .
 
@@ -28,13 +32,13 @@ Mer information finns i [alternativ 3: Implementera Target manuellt med målbibl
 
 [Ärligt talat](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) är det ett kostnadsfritt Chrome-tillägg som gör att du kan omdirigera begäranden till en alternativ URL.
 
-Du distribuerar at.js till en URL och använder sedan True för att mappa din aktuella mbox.js-fils-URL till den nya at.js-URL:en. När webbplatsen sedan försöker läsa in mbox.js läses den in på .js i stället. Detta gör det också enklare för Adobe att ge support.
+Du distribuerar at.js till en URL och använder sedan True för att mappa din aktuella mbox.js-fils-URL till den nya at.js-URL:en. När webbplatsen sedan försöker läsa in mbox.js läses den in på .js i stället. Detta gör det också enklare för Adobe att ge stöd.
 
 ## Distribuera till en utvecklings-, staging- eller QA-miljö
 
 Om du har mbox.js i din kodbas och enkelt kan uppdatera dina kodmiljöer kan du distribuera at at.js till en av dina lägre miljöer.
 
-För bättre support från Adobe distribuerar du filen i en miljö som Adobe har åtkomst till.
+Om du vill ha bättre stöd från Adobe ska du distribuera filen i en miljö som Adobe har åtkomst till.
 
 ## Använd Charles eller Fiddler för att mappa till en lokal fil
 
