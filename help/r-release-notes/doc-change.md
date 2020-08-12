@@ -5,9 +5,9 @@ title: Dokumentationen ändras i Adobe Target produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
+source-git-commit: 118ca52beebcc11795b381f7f1fdcea305d2005f
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 12 augusti | [Förstå målgränssnittet](/help/c-intro/understand-the-target-ui.md) | Nytt ämne. |
 | 10 augusti | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tillagd text som anger att storleken på cookie-huvudet kommer att öka när CNAME används. |
 |  | [Integrera Target med Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | Nytt ämne. |
 |  | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Länk har lagts till för att visa följande arkiverade webbinarium: &quot;Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala.&quot; |
@@ -74,7 +75,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
-|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 | 8 juni | [Mål för mobilappar - frågor och svar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile bara en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Coffee Break från 10 juni har lagts till. |
