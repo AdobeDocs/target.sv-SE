@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: Använd en omdirigerare på liknande sätt som du använder en mbox i dina tester.
 title: Arbeta med regissörer
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -59,13 +60,13 @@ Innan du kan använda en omdirigering måste du skapa den.
 
       >[!IMPORTANT]
       >
-      >Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåtslista standarddomänerna för omdirigering av URL. Target använder värdar för att tillåtslista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa Tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) i *värdar*.
+      >Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåtslista standarddomänerna för omdirigering av URL. Target använder värdar för att tillåtslista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa Tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) i *Hosts*.
 
 1. Validera omdirigeraren.
-   1. *Bästa praxis* för säkerhet: Se till att domänen som används i omdirigeraren är tillåtelselistad, vilket anges ovan. Om du använder en domän som inte är tillåtelselistad kommer Adobe att blockera alla anrop till den domänen för att förhindra att skadliga aktörer använder omdirigeraren för att dirigera om till potentiellt skadliga domäner.
+   1. *Bästa praxis* för säkerhet: Se till att domänen som används i omdirigeraren är tillåtslista, vilket anges ovan. Om du använder en domän som inte är tillåtslista kommer Adobe att blockera alla anrop till den domänen för att förhindra att skadliga aktörer använder omdirigeraren för att dirigera om till potentiellt skadliga domäner.
    1. Infoga URL:en för omdirigeraren i en webbläsare och uppdatera.
    1. Logga in på ditt konto, uppdatera din mbox-lista och verifiera att den nya omdirigeraren är listad som en mbox.
-1. Om du ska testa olika destinationer för en annons skapar du [omdirigeringserbjudanden](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
+1. Om du ska testa olika destinationer för en annons skapar du [Omdirigeringserbjudanden](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
 1. Skapa kampanjen.
 
    Se [Icke-JavaScript-baserade implementeringar](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) för rätt konfiguration för att uppnå dina mål.
