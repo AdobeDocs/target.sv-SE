@@ -1,21 +1,25 @@
 ---
 keywords: Targeting
-description: Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Random Forest. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Random Forest i Automated Personalization är en klassifikations- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
+description: Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Slumpmässig skog i Automated Personalization är en klassificerings- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
 title: Slumpmässig skogsalgoritm
+feature: null
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1456'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Slumpmässig skogsalgoritm{#random-forest-algorithm}
 
-Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Random Forest. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Random Forest i Automated Personalization är en klassifikations- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
+Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Slumpmässig skog i Automated Personalization är en klassificerings- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
 
 När man tänker på statistik kan man komma ihåg en enda regressionsmodell som används för att förutsäga ett resultat. Den senaste datavetenskapliga forskningen tyder på att&quot;unika metoder&quot;, där flera modeller skapas från samma datauppsättning och sedan kombineras på ett intelligent sätt, ger bättre resultat än vad man kan förutsäga enbart utifrån en modell.
 
-Algoritmen Random Forest är den viktigaste underliggande personaliseringsalgoritmen som används i Automated Personalization och Auto-Target-aktiviteter. Random Forest kombinerar hundratals beslutsträd för att komma fram till en bättre förutsägelse än ett enskilt träd.
+Algoritmen Random Forest är den viktigaste underliggande personaliseringsalgoritmen som används i Automated Personalization- och Auto-Target-aktiviteter. Random Forest kombinerar hundratals beslutsträd för att komma fram till en bättre förutsägelse än ett enskilt träd.
 
 ## Vad är ett beslutsträd? {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -48,7 +52,7 @@ Beslutsträd kan vara ett kraftfullt statistiskt verktyg. De har dock vissa nack
 
 **Så här bygger du modeller**
 
-I följande diagram sammanfattas hur modeller byggs för Automatisk målanpassning eller Automatiserad personalisering:
+I följande diagram sammanfattas hur modeller byggs för Automatisk målgrupps- eller Automated Personalization-aktiviteter:
 
 ![](assets/random_forest_flow.png)
 
@@ -58,7 +62,7 @@ I följande diagram sammanfattas hur modeller byggs för Automatisk målanpassni
 1. Målet kontrollerar om modellen uppfyller ett tröskelvärde för kvalitetspoäng
 1. Target push the model to production to personalize future trafik
 
-Target använder data som samlas in automatiskt, samt anpassade data som tillhandahålls av er, för att skapa sina personaliseringsalgoritmer. Dessa modeller förutser den bästa upplevelsen eller det bästa erbjudandet att visa för besökarna. I allmänhet skapas en modell per upplevelse (om det är en Automatisk målaktivitet) eller per erbjudande (om det är en automatiserad personaliseringsaktivitet). Sedan väljer Target att visa den upplevelse eller det erbjudande som ger det högsta förväntade framgångsmåttet (t.ex. konverteringsgrad). Dessa modeller måste utbildas i slumpmässigt utvalda besök innan de kan användas för förutsägelse. När en aktivitet börjar visas därför även de besökare som är i den personaliserade gruppen slumpmässigt olika upplevelser eller erbjudanden tills personaliseringsalgoritmerna är klara.
+Target använder data som samlas in automatiskt, samt anpassade data som tillhandahålls av er, för att skapa sina personaliseringsalgoritmer. Dessa modeller förutser den bästa upplevelsen eller det bästa erbjudandet att visa för besökarna. I allmänhet skapas en modell per upplevelse (om det är en Auto-Target-aktivitet) eller per erbjudande (om det är en Automated Personalization-aktivitet). Sedan väljer Target att visa den upplevelse eller det erbjudande som ger det högsta förväntade framgångsmåttet (t.ex. konverteringsgrad). Dessa modeller måste utbildas i slumpmässigt utvalda besök innan de kan användas för förutsägelse. När en aktivitet börjar visas därför även de besökare som är i den personaliserade gruppen slumpmässigt olika upplevelser eller erbjudanden tills personaliseringsalgoritmerna är klara.
 
 Varje modell måste valideras för att vara säker på att den är bra på att förutsäga besökarnas beteende innan den används i din aktivitet. Modellerna valideras utifrån deras AUC (arean under kurvan). På grund av behovet av validering beror den exakta tidpunkten då en modell kommer att börja leverera personaliserade upplevelser på detaljerna i informationen. I praktiken, och för trafikplaneringssyften, tar det vanligtvis mer än det minsta antalet konverteringar innan varje modell är giltig.
 
