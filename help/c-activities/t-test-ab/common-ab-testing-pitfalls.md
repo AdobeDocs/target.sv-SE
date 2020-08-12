@@ -2,9 +2,13 @@
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
 description: A/B-tester utgör ryggraden i de flesta optimeringsprogram för digital marknadsföring och hjälper marknadsförare att erbjuda optimerade och målinriktade upplevelser till sina besökare och kunder. I det här avsnittet beskrivs nio av de största fallgropar som företag kan räkna med när de utför A/B-tester i Adobe Target. Det innehåller även sätt att undvika dem, så att ditt företag kan få större avkastning genom sina testsatsningar och ha större förtroende för de rapporterade A/B-testresultaten.
 title: Nio vanliga A/B-testfall och hur man undviker dem
+feature: null
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 91cfd46500e1f245750c651f254ee560b04b0795
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3918'
+ht-degree: 0%
 
 ---
 
