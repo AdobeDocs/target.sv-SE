@@ -1,11 +1,12 @@
 ---
 keywords: Target Standard;at.js;implementation
-description: at.js-biblioteket är ett nytt implementeringsbibliotek för Adobe Target som utformats för både vanliga webbimplementeringar och enkelsidiga program.
+description: at.js-biblioteket är ett nytt implementeringsbibliotek för Adobe Target som är utformat för både vanliga webbimplementeringar och enkelsidiga program.
 title: Migrera från mbox.js till at.js
+feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: d7c9f8c21a6acf195d416ad37d70c0b72d671ebc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Bland annat [!DNL at.js] förbättrar inläsningstiden för webbimplementeringar
 
 >[!NOTE]
 >
->Adobe Experience Manager (AEM) 6.2 med FP-11577 (eller senare) har stöd för at.js-implementeringar med integrering av Adobe Target Cloud Services. Mer information finns i [Funktionspaket](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) och [Integrera med Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) i dokumentationen *för* Adobe Experience Manager 6.2.
+>Adobe Experience Manager (AEM) 6.2 med FP-11577 (eller senare) stöder at.js-implementeringar med integrering av Adobe Target-Cloud Services. Mer information finns i [Funktionspaket](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) och [Integrera med Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) i dokumentationen *för* Adobe Experience Manager 6.2.
 
 ## Fördelar med at.js {#benefits}
 
@@ -44,7 +45,7 @@ Du kan använda [!DNL at.js] var du än använder [!DNL mbox.js].
 
 Biblioteket innehåller flera förbättringar av [!DNL at.js] [!DNL mbox.js] biblioteket, bland annat:
 
-* Helt asynkron kommunikation via AJAX mellan domäner
+* Helt asynkron kommunikation via AJAX
 
    >[!IMPORTANT]
    >
@@ -62,7 +63,7 @@ Biblioteket innehåller flera förbättringar av [!DNL at.js] [!DNL mbox.js] bib
 
 ## Utbildningsvideo: at.js - brickan Advantages and Implementation Best Practices ![Overview](/help/assets/overview.png)
 
-Den här videon handlar om inspelningen av&quot; [kontorstid](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av Adobes kundtjänstteam.
+Den här videon är en inspelning av&quot; [Office Hours](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
 * Så fungerar biblioteket at.js
 * Fördelarna med at.js jämfört med mbox.js
