@@ -2,11 +2,15 @@
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
 description: Information om sidan Modifications (Ändringar) där du kan visa ändringar på sidan och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
 title: Ändringar
+feature: null
 subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2068'
+ht-degree: 0%
 
 ---
 
@@ -79,6 +83,7 @@ Använd sidan Ändringar för att:
 
    * Om inga tidigare ändringar av upplevelsen har gjorts klickar du på **[!UICONTROL Add Modification]** knappen längst ned på [!UICONTROL Modifications] panelen till höger.
    * Om det finns tidigare ändringar för upplevelsen klickar du på +-ikonen längst upp på [!UICONTROL Modifications] panelen till höger.
+
    På panelen Ändringar visas:
 
    ![](assets/codeeditor_page_mods_add.png)
