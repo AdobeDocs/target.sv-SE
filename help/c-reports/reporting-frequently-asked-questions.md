@@ -2,10 +2,11 @@
 keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Lista med vanliga frågor om rapportering i Adobe Target.
 title: Vanliga frågor om rapportering för Adobe Target
+feature: null
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
