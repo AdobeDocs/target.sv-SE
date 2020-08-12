@@ -1,15 +1,19 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: Lista med vanliga frågor och svar om Adobe Target Recommendations-aktiviteter.
-title: Adobe Target Recommendations FAQ
+title: Vanliga frågor om Adobe Target Recommendations
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1917'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations FAQ{#recommendations-faq}
+# ![PREMIUM](/help/assets/premium.png) Recommendations - Frågor och svar{#recommendations-faq}
 
 Lista med vanliga frågor och svar om Adobe Target Recommendations-aktiviteter.
 
@@ -48,7 +52,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Varför är inte alla villkor, inklusive anpassade kriterier, tillgängliga för markering när en rekommendationsaktivitet skapas? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Varför är inte alla villkor, inklusive anpassade kriterier, tillgängliga för val när du skapar en Recommendations-aktivitet? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 De tillgängliga villkoren baseras på den aktuella kategorin. När du skapar rekommendationserbjudanden visar algoritmväljaren villkor baserat på kategori-ID.
 
@@ -81,7 +85,7 @@ Följande lista innehåller specialfall där alternativet Mål inte visar [!UICO
 * Inget mbox-anrop utlöses från sidan (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Målparametrar har inte definierats.
 
-## Vad ska jag göra om en samling i Rekommendationer blir noll (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Vad ska jag göra om en samling i Recommendations blir noll (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Tänk på följande information om du ser en samling gå till noll som tidigare inte var noll:
 
@@ -132,9 +136,9 @@ Target inför en postgräns på 50 MB på applikationsnivå. det är dock bara n
 
 Du kan försöka att skicka 50 000 produkter i ett enda samtal. Om det inte fungerar bör du dela upp det i grupper. Vi rekommenderar oftast att kunderna delar upp sina samtal i 5 000 eller 10 000 produktgrupper för att minska sannolikheten för en timeout på grund av systembelastning.
 
-## Måste jag ange mbox-namnet när jag skapar rekommendationer, kampanjer eller testregler för mallar? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Måste jag ange mbox-namnet när jag skapar Recommendations-kriterier, kampanjer eller testregler för mallar? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-När du skapar en regel för rekommendationskriterier, kampanjer eller malltestning som baseras på en mbox-parameter, uppmanas du `mboxParameter` inte längre till `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
+När du skapar Recommendations-villkor, -kampanjer eller -malltestningsregel som baseras på en mbox-parameter, uppmanas du `mboxParameter` inte längre till `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
 
 Så här väljer du önskad parameter:
 
@@ -145,9 +149,9 @@ Om du använder någon av metoderna finns det ingen länk mellan mbox och parame
 
 Om du redigerar ett befintligt villkor, en befordran eller en malltestregel visas filtervillkoren med namnet på mbox som angavs när du skapade.
 
-## Varför kan jag inte spara min tidigare Rekommendationer-aktivitet efter att jag har definierat en ny målgrupp? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Varför kan jag inte spara min gamla Recommendations-aktivitet efter att ha definierat en ny publik? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Se till att målgruppen har ett unikt namn. Om du gav publiken samma namn som en befintlig publik kan du inte spara din tidigare Rekommendationer-aktivitet (en Rekommendationsaktivitet som skapades före oktober 2016).
+Se till att målgruppen har ett unikt namn. Om du gav målgruppen samma namn som en befintlig målgrupp kan du inte spara din tidigare Recommendations-aktivitet (en Recommendations-aktivitet som skapades före oktober 2016).
 
 ## Vilken är den maximala storleken för en CSV-fil för en feed-överföring? {#section_20F1AF4839A447B9889B246D6E873538}
 
@@ -169,7 +173,7 @@ Om du vill exkludera `entityIds`lägger du till `&excludes=${mbox.excludedIds}` 
 
 Som standard är den här funktionen aktiverad för nya rekommendationer. Befintliga rekommendationer måste sparas för att stödja enheter som utesluts dynamiskt.
 
-## Vad betyder NO_CONTENT-svaret som ibland returneras i innehållspårningen Recommendations?
+## Vad betyder NO_CONTENT-svaret som ibland returneras i Recommendations innehållsspårning?
 
 NO_CONTENT returneras när rekommendationer inte är tillgängliga för den begärda algoritmen och tangentkombinationen. I allmänhet inträffar detta när säkerhetskopiering är inaktiverat för algoritmen och ett eller flera av följande är också sant:
 
