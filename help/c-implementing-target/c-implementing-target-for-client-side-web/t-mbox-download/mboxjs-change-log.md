@@ -2,10 +2,14 @@
 keywords: mbox.js changes;mbox.js versions
 description: På den här sidan visas ändringar för varje version av mbox.js.
 title: versionsinformation för mbox.js
+feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2316'
+ht-degree: 0%
 
 ---
 
@@ -51,10 +55,10 @@ mbox.js version 61 innehåller följande förbättringar:
 * Följande information gäller bara om du har Visitor API på sidan:
 
    * [!DNL mbox.js] version 61 åsidosätter inte `loadTimeout` egenskapen för Visitor API. Klienter kan använda `visitorApiTimeout` + `visitorApiPageDisplayTimeout` för att styra integreringen av Visitor API.
-   * Lagt till en `optoutEnabled` inställning som stöder framtida avanmälningsfunktioner i Adobe Experience Cloud. Standardvärdet är false. Om den här egenskapen är aktiverad körs alla begäranden asynkront mot [!DNL /ajax] slutpunkten, precis som version 60.
+   * Lagt till en `optoutEnabled` inställning som stöder framtida avanmälningsfunktioner för Adobe Experience Cloud. Standardvärdet är false. Om den här egenskapen är aktiverad körs alla begäranden asynkront mot [!DNL /ajax] slutpunkten, precis som version 60.
    * Dölj brödtext är inaktiverat som standard. Målet använder endast dolt innehåll när den globala mbox-autoskapa är aktiverad och dolt innehåll är aktiverat.
-   * Om det inte finns några cookies för Experience Cloud Visitor ID körs alla begäranden asynkront mot [!DNL /ajax] den första sidinläsningen. Vid inläsning av den andra sidan använder Target det normala flödet eftersom det redan finns Visitor-ID-värden.
-   * Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar aktiviteter om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
+   * Om det inte finns några Experience Cloud Visitor ID-cookies utförs alla begäranden asynkront mot [!DNL /ajax] den första sidinläsningen. Vid inläsning av den andra sidan använder Target det normala flödet eftersom det redan finns Visitor-ID-värden.
+   * Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
 
 ## mbox.js version 60 {#section_3BDAB885FA13444A8D35940A4BFF5825}
 
@@ -88,7 +92,7 @@ När du döljer sidan används formatmärkord för att lägga till och ta bort f
 
 **DTM-användare:** Observera att detta förhindrar att du använder alternativet för automatisk import eftersom det inte finns något sätt att spara ovanstående konfiguration i målgränssnittet. Du måste använda instruktionerna ovan och sedan klistra in innehållet i kodrutan i alternativet Anpassad värdtjänst.
 
-Om det finns en fil i version 60 för tjänsten Experience Cloud Visitor ID, begärs även alla kryssrutor via en AJAX-slutpunkt. [!DNL visitorAPI.js] Detta är nödvändigt eftersom API-metoder för Visitor är asynkrona. En fördel med det här arbetssättet är att startåtergivningstiden minskar dramatiskt, eftersom mbox-begäranden inte blockerar återgivningen. Det innebär dock också att allt innehåll i erbjudandet körs asynkront, så all erbjudandekod måste skrivas i enlighet med detta. [!DNL Target] Erbjudanden som innehåller `document.write` och annan kod som förutsätter att den kommer att köras vid första sidinläsningen kommer inte att köras som förväntat.
+I version 60 efterfrågas även alla kryssrutor via en AJAX slutpunkt om filen finns för Experience Cloud Visitor ID-tjänsten. [!DNL visitorAPI.js] Detta är nödvändigt eftersom API-metoder för Visitor är asynkrona. En fördel med det här arbetssättet är att startåtergivningstiden minskar dramatiskt, eftersom mbox-begäranden inte blockerar återgivningen. Det innebär dock också att allt innehåll i erbjudandet körs asynkront, så all erbjudandekod måste skrivas i enlighet med detta. [!DNL Target] Erbjudanden som innehåller `document.write` och annan kod som förutsätter att den kommer att köras vid första sidinläsningen kommer inte att köras som förväntat.
 
 * asynkrona V60-anrop
 
@@ -171,7 +175,7 @@ Följande funktionalitet stöds inte i mbox.js version 57:
 
 mbox.js version 57 innehåller även viktiga korrigeringar:
 
-* Korrigerade ett problem som gjorde att plugin-programmet SiteCatalyst inte fungerade i mbox.js v56.
+* Korrigerade ett fel som gjorde att plugin-programmet SiteCatalyst inte fungerade i mbox.js v56.
 * Korrigerade ett problem som resulterade i extra JavaScript-fel på grund av omfångsändring.
 * Återställ ändringar i konstruktorn för mboxFactory.
 
@@ -187,7 +191,7 @@ mbox.js version 57 innehåller även viktiga korrigeringar:
 
 Följande ändringar har gjorts i den här versionen:
 
-* Ändringar av Premium Recommendations som har stöd för att skicka parametrar till den globala mbox-mappen
+* Ändringar för Premium Recommendations som har stöd för att skicka parametrar till global mbox
 * Lägger till en 5 sekunders timeout i inläsningsanropet för target.js. Om filen inte läses in återges sidan och inga målstandardaktiviteter visas.
 * Flyttade &quot;extra JavaScript&quot; som skulle köras före global mbox
 
@@ -219,7 +223,7 @@ Följande ändringar har gjorts i den här versionen:
 
 ## mbox version 54
 
-**Målversion:** 14.9.1
+**Målversion:** 14.9.2
 
 **Releasedatum:** 30 september 2014
 
@@ -277,13 +281,13 @@ mbox.js har nu stöd för att använda ett anpassat globalt mbox-namn för Targe
 
 ## mbox version 46
 
-Komplett stöd för Experience Cloud besöks-ID-tjänsten för Target Standard-implementeringen av en enda kodrad. Detta möjliggör integrering med Adobe Analytics på serversidan och den delade Experience Cloud-profilen.
+Komplett stöd för Experience Cloud besökar-ID-tjänsten för Target Standard-implementering med en enda kodrad. Detta möjliggör integrering av Adobe Analytics på serversidan och den delade Experience Cloud-profilen.
 
 Ett problem med att leverera innehåll i IE10 i dokumentläge har korrigerats.
 
 ## mbox version 45
 
-Komplett stöd för besökar-ID-tjänsten i Experience Cloud har lagts till. Detta möjliggör integrering med Adobe Analytics på serversidan och den delade Experience Cloud-profilen.
+Fullt stöd för besökar-ID-tjänsten i Experience Cloud har lagts till. Detta möjliggör integrering av Adobe Analytics på serversidan och den delade Experience Cloud-profilen.
 
 ## mbox version 44
 
@@ -297,7 +301,7 @@ Stöd för Target Standard har lagts till.
 
 ## mbox version 42
 
-Utökat initialt stöd för den delade besökar-ID-tjänsten i Experience Cloud.
+Utökat initialt stöd för Experience Cloud delad besökar-ID-tjänst.
 
 ## mbox version 41
 
@@ -311,11 +315,11 @@ Utökat initialt stöd för den delade besökar-ID-tjänsten i Experience Cloud.
 
 * Fast SiteCalyst-plugin som alltid ska använda Ajax-fogaren
 
-   Före den här ändringen fanns det vissa situationer för användare av plugin-programmet Test&amp;Target till SiteCatalyst där ett dokument.write som skulle tömma sidan skulle kunna aktiveras, beroende på när plugin-programmet lästes in.
+   Före den här ändringen fanns det vissa situationer för användare av plugin-programmet Test&amp;Target till SiteCatalyst där ett dokument.write som skulle kunna tömma sidan skulle kunna utlösas, beroende på när plugin-programmet lästes in.
 
 ## mbox version 38
 
-Stöd för sidbaserad SiteCatalyst i Test&amp;Target-integrering (måste aktiveras)
+Stöd för sidbaserad integrering mellan SiteCatalyst och Test&amp;Target (måste vara aktiverat)
 
 ## mbox version 37
 
