@@ -2,10 +2,14 @@
 keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: När du klickar på ett sidelement i Adobe Target Visual Experience Composer (VEC) visas de alternativ som är tillgängliga för den elementtypen på en meny.
 title: Alternativ för Adobe Target Visual Experience Composer (VEC)
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2359'
+ht-degree: 0%
 
 ---
 
@@ -109,6 +113,7 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
 
    * Auto
    * Värde (dra i skjutreglaget för att ange marginalen eller ange antalet pixlar för varje marginal)
+
    Marginalen har stöd för positiva och negativa värden.
 
    Target har också stöd för andra storleksenheter, som rem, pc, em, etc. Mer information om de här enheterna finns i CSS-tips och -tricks för [webbformatmallar](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,6 +137,7 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
    * Kantlinjeformat (ingen, dold, prickad, streckad, heldragen eller dubbel)
    * Kantfärg (ange färgkoden eller använd färgväljaren)
    * Kantbredd (dra reglaget för att välja en kantbredd eller ange bredden i pixlar)
+
    Kantlinje har stöd för breddskalor från 0 och framåt.
 
    Target har också stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), som rem, pc, em, etc.
@@ -147,10 +153,12 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
    * Absolut
    * Fäst
    * Fast
+
    Klicka på listruteikonen för varje position för att välja bland följande alternativ:
 
    * Auto
    * Värde (dra skjutreglaget för att placera elementet eller ange antalet pixlar som du vill flytta elementet)
+
    Position stöder positiva och negativa värden.
 
    Target har också stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), som rem, pc, em, etc.
@@ -226,7 +234,7 @@ Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkon
 
 #### Rekommendation
 
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
+Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
 
 #### Experience Fragment
 
@@ -250,7 +258,7 @@ Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkon
 
 #### Rekommendation
 
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
+Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
 
 #### Experience Fragment
 
@@ -262,9 +270,9 @@ Följande alternativ är tillgängliga:
 
 #### Bild
 
-Välj en annan bild i innehållsbiblioteket. De bilder som är tillgängliga för växling omfattar de bilder som har överförts till Experience Cloud-resursmappen eller överförts till innehållsbiblioteket i Target.
+Välj en annan bild i innehållsbiblioteket. De bilder som är tillgängliga för växling omfattar de bilder som har överförts till resursmappen Experience Cloud eller som har överförts till innehållsbiblioteket i Target.
 
-När den inledande aktiviteten skapas är den URL som visas inte den URL som används för leverans. När aktiviteten synkroniseras uppdateras URL:en till en produktionsscen7-URL.
+När den inledande aktiviteten skapas är den URL som visas inte den URL som används för leverans. Vid aktivitetssynkronisering uppdateras den URL:en till en Scene7-produktionswebbadress.
 
 Den inledande URL:en kan till exempel se ut som i följande exempel:
 
@@ -274,9 +282,9 @@ Efter aktivitetssynkronisering kan leverans-URL:en se ut som i följande exempel
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-Rekommendationer har stöd för Ersätt med i DIV-, SECTION- och Article-taggar.
+Recommendations stöder Ersätt med i DIV-, SECTION- och Article-taggar.
 
-**Obs!** För att kunna byta ut bilder måste du ha ett Adobe Scene7 Publishing System-konto.
+**Obs!** Du måste ha ett Adobe Scene7 Publishing System-konto för att kunna byta bilder.
 
 #### HTML-erbjudande
 
@@ -288,7 +296,7 @@ Ett HTML-erbjudande kan vara upp till 256 kB stort.
 
 #### Rekommendation
 
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
+Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
 
 #### Experience Fragment
 
