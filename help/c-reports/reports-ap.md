@@ -1,21 +1,25 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Specialiserade rapporter är tillgängliga för användare av Automated Personalization.
-title: Automatiserade sammanfattningsrapporter för personalisering
+title: Automated Personalization Sammanfattningsrapporter
+feature: null
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary Reports{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization Sammanfattningsrapporter{#automated-personalization-summary-reports}
 
 Specialiserade rapporter är tillgängliga för användare av Automated Personalization.
 
 >[!NOTE]
 >
->Automatiserad personalisering ingår i [!DNL Target Premium] lösningen. Det ingår inte [!DNL Target Standard] utan en [Target Premium-licens](/help/c-intro/intro.md#premium).
+>Automated Personalization ingår i [!DNL Target Premium] lösningen. Det ingår inte [!DNL Target Standard] utan en [Target Premium-licens](/help/c-intro/intro.md#premium).
 
 1. Klicka **[!UICONTROL Activities]** på önskad [!UICONTROL Automated Personalization] aktivitet i listan och klicka sedan på **[!UICONTROL Reports]** fliken.
 
