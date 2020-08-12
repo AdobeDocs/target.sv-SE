@@ -1,18 +1,22 @@
 ---
 keywords: Recommendations;intro;introduction;webinar;demo
-description: Introduktion till Adobe Target Recommendations-aktiviteter som automatiskt visar produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer. Rekommendationer hjälper kunderna att hänvisa till relevanta objekt som de annars kanske inte känner till.
-title: Introduktion till rekommendationer i Adobe Target
+description: Introduktion till Adobe Target Recommendations-aktiviteter som automatiskt visar produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
+title: Introduktion till Recommendations-aktiviteter i Adobe Target
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -introduktion till rekommendationer
+# ![PREMIUM](/help/assets/premium.png) Introduktion till Recommendations
 
-Texten i den här artikeln kommer från webbinariet *Introduction to Recommendations* , som du kan visa i sin helhet nedan.
+Texten i den här artikeln är från *Introduction to Recommendations* webbinar, som du kan visa i sin helhet nedan.
 
-Webbseminariet *Introduction to Recommendations* (Introduktion till rekommendationer) innehåller en fördjupad genomgång av hur du kan utnyttja fördelarna med [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target] aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till [!DNL Target] användargränssnittet för att få en stegvis översikt över hur du skapar en [!DNL Recommendations] aktivitet.
+Introduktionen *till Recommendations* webbinarium innehåller en fördjupad genomgång av hur du kan utnyttja fördelarna med [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target] aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till [!DNL Target] användargränssnittet för att få en stegvis översikt över hur du skapar en [!DNL Recommendations] aktivitet.
 
 ## Introduktion
 
@@ -33,9 +37,9 @@ Marknadsförarna använder [!DNL Adobe Target] för att skapa personaliserade up
 ![Bild som visar hur Target levererar rekommendationer på olika platser](/help/c-recommendations/assets/intro-3.png)
 
 * **Publicering**: Webbutgivare använder [!DNL Target Recommendations] för att rekommendera artiklar till besökare och öka engagemanget.
-* **Videosjälvstudiekurser**: använder [!DNL Adobe Creative Cloud] för [!DNL Target] att rekommendera videokurser för Photoshop-användare i Photoshop.
+* **Video Tutorials**: [!DNL Adobe Creative Cloud] använder [!DNL Target] för att rekommendera videokurser för Photoshop-användare i Photoshop.
 * **Spel**: Spelföretag använder [!DNL Target] för att rekommendera spel och innehåll för användare på sina konsoler.
-* **B2B-försäljning**: Företag [som bedriver affärsverksamhet använder Target för att rekommendera videor, rapporter och blogginlägg till B2B-prospects. leverera nedladdningar, och ge hjälp till befintliga kunder](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **B2B-försäljning**: [Företag kan använda Target för att rekommendera videor, rapporter och blogginlägg till B2B-prospects. leverera nedladdningar, och ge hjälp till befintliga kunder](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
 * **Resa**: [En tysk resebokförare använder Target för att rekommendera hotell och mycket annat till resenärer](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
@@ -53,7 +57,7 @@ Stora rekommendationer bör vara relevanta och personaliserade. Det innebär att
 * **Sofistikerade modeller** för att förstå miljontals objekt i katalogen och interaktionshändelser. [!DNL Target] har sofistikerade maskininlärningsfunktioner som byggts under ett decennium av erfarenhet och vi hanterar miljarder rekommendationer per år.
 * **Användarsammanhang** för att säkerställa att rekommendationerna är aktuella och relevanta för användarna. Du vill inte rekommendera videon som någon just tittade på eller skjortan som någon just lagt till i kundvagnen. Målets omfattande användarprofil kan användas i rekommendationer för att säkerställa personalisering.
 
-## Implementera rekommendationer för mål
+## Implementera Recommendations som mål
 
 Börja med en strategi.
 
@@ -111,7 +115,7 @@ Skicka information om användaren och sammanhanget vid interaktionen för [!DNL 
 
 Förutom användarbeteende i sammanställning måste du skicka [!DNL Target] den specifika kontext där rekommendationer visas. Detta inkluderar information om sidan och information från användarprofilen. [!DNL Target] använder den här informationen för att göra personaliserade rekommendationer. På en återförsäljarwebbplats vill du t.ex. veta vilken produkt och produktkategori besökaren tittar på just nu. Du vill också veta mer om den användaren (favoritmärke, favoritproduktkategori, lojalitetsnivå osv.). Den här informationen är viktig för att [!DNL Target] kunna filtrera objekt och förbättra personaliseringen av rekommendationer.
 
-## Bygg din första rekommendationsaktivitet
+## Bygg din första Recommendations-aktivitet
 
 Vad är en [!DNL Recommendations] aktivitet?
 
@@ -171,7 +175,7 @@ Baserat på dessa tangenter väljer du önskad logik för rekommendation:
 
 Ingår i paketet och [!DNL Target] innehåller en portfölj med algoritmer.
 
-![Portfölj med algoritmbilder](/help/c-recommendations/assets/intro-15.png)
+![Portfolio i algoritmbild](/help/c-recommendations/assets/intro-15.png)
 
 * **Popularitetsbaserade algoritmer** är bland annat Most Viewed och Top Sellers.
 * **Innehållsbaserade algoritmer** är bland annat Likhet.
@@ -189,8 +193,8 @@ I innehållskontexten kanske du vill utesluta filmer som besökaren tidigare har
 
 ## Demo
 
-När du har slutfört de uppgifter som illustreras i rekommendationstratten som beskrivs ovan, får du din slutgiltiga rekommendation. Om du vill se en produktdemonstration [!DNL Target]på webbseminariet ** Adobe Target Basics börjar du klockan 21:00, som är länkat till nedan.
+När du har slutfört de uppgifter som illustreras i rekommendationstratten som beskrivs ovan, får du din slutgiltiga rekommendation. För att se en produktdemonstration [!DNL Target]på insidan börjar filmen 21:00 i *Adobe Target Basics Webinar* som är länkad till nedan.
 
-## Adobe Target Basics webbinarium: Introduktion till rekommendationer {#intro-to-recs}
+## Adobe Target Basics Webinar: Introduktion till Recommendations {#intro-to-recs}
 
-[Introduktion till rekommendationer](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduktion till Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
