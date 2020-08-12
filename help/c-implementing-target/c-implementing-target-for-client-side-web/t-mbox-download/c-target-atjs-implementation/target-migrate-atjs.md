@@ -2,10 +2,14 @@
 keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: Att migrera från mbox.js till at.js är en enkel process.
 title: Migrera till at.js från mbox.js
+feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '826'
+ht-degree: 0%
 
 ---
 
@@ -42,22 +46,24 @@ Följ de här stegen för att migrera från [!DNL mbox.js] till [!DNL at.js] och
    * mboxCookieDomain()
    * Extra Javascript
    * Andra platser
+
    De flesta [mbox.js-objekten och -metoderna](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (till exempel `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`och andra) stöds inte. Det kan finnas alternativa metoder för att uppnå det du försöker göra.
 
    **Har du någon[!DNL mbox.js]av dina webbsidor?**
 
    Du kan inte använda både [!DNL at.js] och [!DNL mbox.js] på samma webbsida. Du kan dock använda de två JavaScript-biblioteken på två olika sidor på samma webbplats.
 
-   Mbox cookie är huvudsättet som Adobe knyter ihop besökaren från sida till sida. Som en del av QA-processen bör du bekräfta att cookien bevaras och läses korrekt när besökaren går fram och tillbaka mellan sidor med [!DNL at.js] och de med [!DNL mbox.js]. Se till att samma `mboxPC` värden och `mboxSession` värden skickas i mbox-anropen, oavsett vilket avsnitt av webbplatsen ( [!DNL at.js] eller [!DNL mbox.js]) besökaren först får och vilket avsnitt som ursprungligen ställer in cookien. Om du använder cookies från tredje part i din implementering måste du se till att dessa värden är desamma som när du bläddrar på webbplatsen.
+   Mbox-cookie är huvudsättet som Adobe sammanfogar besökaren från sida till sida. Som en del av QA-processen bör du bekräfta att cookien bevaras och läses korrekt när besökaren går fram och tillbaka mellan sidor med [!DNL at.js] och de med [!DNL mbox.js]. Se till att samma `mboxPC` värden och `mboxSession` värden skickas i mbox-anropen, oavsett vilket avsnitt av webbplatsen ( [!DNL at.js] eller [!DNL mbox.js]) besökaren först får och vilket avsnitt som ursprungligen ställer in cookien. Om du använder cookies från tredje part i din implementering måste du se till att dessa värden är desamma som när du bläddrar på webbplatsen.
 
    **Kan ni integrera[!DNL Target]med andra Adobe-lösningar?**
 
    * Analyser (A4T)
    * Analyser (äldre integration)
-   * AAM (backend)
-   * AAM (legacy Front)
+   * AAM (serverdel)
+   * AAM (äldre front)
    * AEM
    * Data Workbench
+
    Vissa av de äldre integreringarna stöds inte av [!DNL at.js]. Mer information finns på sidan [Integrationer](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) .
 
    **Kan du integrera[!DNL Target]med andra verktyg från tredje part?**
@@ -67,6 +73,7 @@ Följ de här stegen för att migrera från [!DNL mbox.js] till [!DNL at.js] och
    * Demandbase
    * Click-tale
    * Övriga
+
    Dessa integreringar kan behöva justeras för att fungera med [!DNL at.js]. Mer information finns på sidan [Integrationer](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) .
 
    **Använder du en tagghanterare?**
@@ -75,11 +82,12 @@ Följ de här stegen för att migrera från [!DNL mbox.js] till [!DNL at.js] och
    * Upptäck
    * Tealium
    * Signal/BrightTag
+
    Mer information finns i [at.js Integrations](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39).
 
    >[!NOTE]
    >
-   >Om du för närvarande inte använder en tagghanterare för att distribuera [!DNL Target]kan det nu vara ett bra tillfälle att fundera över det. Adobes [Dynamic Tag Management](https://dtm.adobe.com) är kostnadsfri för [!DNL Target] kunderna och är den metod som rekommenderas för driftsättning [!DNL Target]. Mer information finns i [Bästa metoder för att implementera Adobe Target med dynamisk tagghantering](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).
+   >Om du för närvarande inte använder en tagghanterare för att distribuera [!DNL Target]kan det nu vara ett bra tillfälle att fundera över det. Adobe [Dynamic Tag Management](https://dtm.adobe.com) är kostnadsfri för [!DNL Target] kunderna och är den metod som rekommenderas för driftsättning [!DNL Target]. Mer information finns i [Bästa metoder för att implementera Adobe Target med dynamisk tagghantering](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).
 
 1. Kontrollera att alla aktuella aktiviteter och integreringar fungerar som förväntat.
 
