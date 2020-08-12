@@ -1,11 +1,15 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
-description: Information om funktionen adobe.target.sendNotifications(options) för Adobe Target-JavaScript-biblioteket at.js.
-title: Information om funktionen adobe.target.sendNotifications(options) för Adobe Target-JavaScript-biblioteket at.js.
+description: Information om funktionen adobe.target.sendNotifications(options) för JavaScript-biblioteket för Adobe Target at.js.
+title: Information om funktionen adobe.target.sendNotifications(options) för JavaScript-biblioteket för Adobe Target at.js.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 0%
 
 ---
 
@@ -117,4 +121,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics, `getOffers()` med enbart prefetch och `sendNotifications()`måste Analytics-begäran skickas när den `sendNotifications()` har körts. Syftet med detta är att säkerställa att SDID som genereras av `sendNotifications()` matchar SDID som skickas till Analytics och Target.
+>Om du använder Adobe Analytics, `getOffers()` med endast förhämtning och `sendNotifications()`, måste Analytics-begäran aktiveras efter `sendNotifications()` att den har körts. Syftet med detta är att säkerställa att SDID som genereras av `sendNotifications()` matchar SDID som skickas till Analytics och Target.
