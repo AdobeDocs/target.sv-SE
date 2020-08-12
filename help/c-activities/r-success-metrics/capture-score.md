@@ -1,12 +1,13 @@
 ---
 keywords: capture score;score
-description: Mätvärdet för Capture Score-engagemang beräknar en sammanställd poäng baserad på det värde som tilldelats de sidor som besöks på webbplatsen, från den punkt besökaren först ser kampanjens första Target Request.
+description: Mätvärdet för Capture Score-engagemang beräknar en sammanställd poäng baserad på värdet som tilldelats till de sidor som besöks på webbplatsen, från den punkt besökaren först ser kampanjens första begäran om målvisning.
 title: Hämtningspoäng
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Det finns två metoder för att tilldela en spets till en sida:
 
 >[!NOTE]
 >
->Target-begäranden som finns ovanför aktivitetens första [!DNL Target] visningsbegäran inkluderas inte i poängen.
+>Målbegäranden som finns ovanför aktivitetens första visningsbegäran [!DNL Target] inkluderas inte i poängen.
 
 Det bästa sättet är att tilldela värden i [!DNL Target] begäran. På så sätt kan du vara exakt i de värden som du mäter, beroende på innehållet i varje begäran.
 
