@@ -2,9 +2,10 @@
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: Information om kända fel i den här versionen av Adobe Target. Innehåller även information om problem som har lösts.
 title: Kända fel och lösta problem i Adobe Target
+feature: null
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3396'
 ht-degree: 0%
