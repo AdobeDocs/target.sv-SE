@@ -2,10 +2,14 @@
 keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
 description: Om du vill använda Target i din mobilapp skapar du en plats och ett framgångsmått.
 title: iOS - skapa en målplats och ett framgångsmått
+feature: null
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Om du vill använda Target i din mobilapp skapar du en plats och ett framgångsmått.
 
-Det här avsnittet innehåller exempelkod som kan användas som mall för ditt program. Exemplen i det här avsnittet innehåller kod för iOS. Samma mönster gäller för Android. Android-specifik syntax finns i [Android SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html) Guide.
+Det här avsnittet innehåller exempelkod som kan användas som mall för ditt program. Exemplen i det här avsnittet innehåller kod för iOS. Samma mönster gäller för Android. Android-specifik syntax finns i [Android SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html) guide.
 
 >[!NOTE]
 >
@@ -56,7 +60,7 @@ Det finns två primära metoder för att skapa en målplats i din app och göra 
    | Parameter | Beskrivning |
    |---|---|
    | `targetLoadRequest:myRequest` | Ersätt `myRequest` med namnet på din `targetLocation` i appen. |
-   | `NSString *content` | Ersätt innehåll med det faktiska innehållet som kommer tillbaka från Adobe. Strängen kan vara XML, JSON eller en oformaterad sträng. Använd det här avsnittet av koden för att definiera variabler, ange bildsökvägar, visa styrenhetsflöden, transaktionspunkter eller annat som du vill göra. Målet returnerar innehållet som anges i användargränssnittet i exakt samma format. |
+   | `NSString *content` | Ersätt innehåll med det faktiska innehåll som kommer tillbaka från Adobe. Strängen kan vara XML, JSON eller en oformaterad sträng. Använd det här avsnittet av koden för att definiera variabler, ange bildsökvägar, visa styrenhetsflöden, transaktionspunkter eller annat som du vill göra. Målet returnerar innehållet som anges i användargränssnittet i exakt samma format. |
    | `heroImage.image = [UIImage imageNamed:content];` | Till exempel: Ta innehåll och ange vägen till en hjältebild. |
 
 1. Skapa ett framgångsmått.
