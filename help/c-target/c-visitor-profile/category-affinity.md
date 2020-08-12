@@ -1,11 +1,15 @@
 ---
 keywords: affinity;category affinity
-description: Kategoritillhörighetsfunktionen i Adobe Target fångar automatiskt in de kategorier som en användare besöker och beräknar sedan användarens tillhörighet för kategorin så att den kan anpassas och segmenteras. Detta bidrar till att säkerställa att innehållet är riktat till besökare som är mest benägna att agera på den informationen.
+description: Med kategoritillhörighetsfunktionen i Adobe Target hämtas automatiskt de kategorier som en användare besöker och sedan beräknas användarens tillhörighet för kategorin så att den kan anpassas och segmenteras. Detta bidrar till att säkerställa att innehållet är riktat till besökare som är mest benägna att agera på den informationen.
 title: Använd kategoritillhörighet i Adobe Target
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 3%
 
 ---
 
@@ -28,11 +32,11 @@ Du kan använda `user.categoryAffinities[]` i ett profilskript för att returner
 
 >[!IMPORTANT]
 >
->Det attribut som används för Adobe Target-algoritmen för kategoritillhörighet skiljer sig från det `user.categoryId` `entity.categoryId` attribut som används för Adobe Target Recommendations rekommendationer för produkt och innehåll. `user.categoryId` krävs för att spåra en användares favoritkategori. `entity.categoryId` krävs för att basera rekommendationer på den aktuella sidans eller det aktuella objektets kategori. Skicka båda värdena till Adobe Target om du vill använda båda funktionerna.
+>Attributet som används för Adobe Target algoritm för kategoritillhörighet skiljer sig från det `user.categoryId` `entity.categoryId` attribut som används för Adobe Target Recommendations rekommendationer för produkter och innehåll. `user.categoryId` krävs för att spåra en användares favoritkategori. `entity.categoryId` krävs för att basera rekommendationer på den aktuella sidans eller det aktuella objektets kategori. Skicka båda värdena till Adobe Target om du vill använda båda funktionerna.
 
 ## Affärsärende för kategoritillhörighet {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-En besökares aktivitet i en session, t.ex. vilken kategori han eller hon tittar oftast, kan användas för målinriktning vid efterföljande besök. Varje kategorisida som en besökare visar under en session hämtas, och hans eller hennes favoritkategori beräknas utifrån en nyhet och frekvensmodell. Varje gång besökaren återgår till startsidan kan hjältebildområdet användas för att visa innehåll som är relaterat till användarens favoritkategori.
+En besökares aktivitet i en session, t.ex. vilken kategori han eller hon tittar oftast, kan användas för målinriktning vid efterföljande besök. Varje kategorisida som en besökare visar under en session hämtas, och hans eller hennes favoritkategori beräknas utifrån en nyhet och frekvensmodell. Varje gång besökaren återgår till startsidan kan hjältebildområdet användas för att visa innehåll som hör till användarens favoritkategori.
 
 ## Exempel på att använda kategoritillhörighet {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -128,6 +132,7 @@ Detta avsnitt innehåller följande information:
    * Tredje kategorin
    * Fjärde kategorin
    * Femte kategorin
+
    Alternativen &quot;Favoritkategori&quot; och &quot;Första kategori&quot; är likvärdiga.
 
 1. Välj utvärderaren:
