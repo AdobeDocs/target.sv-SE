@@ -2,11 +2,15 @@
 keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
 description: I det här avsnittet beskrivs några vanliga problem som har uppstått när Analytics används som rapportkälla för Target (A4T).
 title: Felsöka integreringen med Analytics och Target (A4T)
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +37,7 @@ Det finns flera orsaker till detta:
 
 >[!NOTE]
 >
->Ibland visas data korrekt i rapporter, men återgår sedan till&quot;ospecificerad&quot; eftersom en ny aktivitet har lagts till som inte har slutfört klassificeringen. Kom ihåg att det i allmänhet tar mellan 24 och 72 timmar att klassificera rapporter efter att de sparats första gången.
+>Ibland visas data korrekt i rapporter, men återgår sedan till&quot;ospecificerad&quot; eftersom en ny aktivitet har lagts till som inte har slutfört klassificeringen. Kom ihåg att det i allmänhet tar mellan 24 och 72 timmar att klassificera rapporter efter det att du sparat dem första gången.
 >
 >Inga data förloras när de listas som&quot;ospecificerade&quot;. Data tilldelas korrekt till lämplig aktivitet eller upplevelse efter att klassificeringen har körts.
 
@@ -51,13 +55,13 @@ A4T-aktiviteter kräver att en analysspårningsserver anges. Se [Använda en Ana
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar aktiviteter om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
+>Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
 
 ## Mina analyssegment visas inte i Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Kontrollera att du har rätt behörigheter innan du börjar skapa A4T-aktiviteter:
 
-* Du måste tillhöra gruppen Web Services Access i Adobe Analytics för att kunna använda Analytics som rapportkälla för Target.
+* Du måste tillhöra webbtjänståtkomstgruppen i Adobe Analytics för att kunna använda Analytics som rapportkälla för Target.
 * Du måste vara medlem i en eller flera Experience Cloud-grupper som har tillgång till Analytics och Target.
 * Verifiera att Analytics och Target visas i avsnittet Marketing Apps i den vänstra navigeringen.
 
