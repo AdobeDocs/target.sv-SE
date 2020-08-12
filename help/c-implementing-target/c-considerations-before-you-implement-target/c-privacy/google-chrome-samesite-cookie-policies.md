@@ -2,11 +2,15 @@
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Information om Adobe Target och IETF-standarden SameSite som introducerades med Google Chrome version 80.
 title: Cookie-policyer för Adobe Target och Google's SameSite
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2033'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Google börjar som standard att införa nya cookie-principer för användare som börjar med Chrome 80, som kommer att släppas i början av 2020. I den här artikeln förklaras allt du behöver veta om de nya reglerna för cookie-filer för samma webbplats, hur de [!DNL Adobe Target] stöds och hur du kan använda dem [!DNL Target] för att följa de nya reglerna för cookie-filer för samma webbplats i Google Chrome.
 
-Från och med Chrome 80 måste webbutvecklare uttryckligen ange vilka cookies som kan användas på olika webbplatser. Detta är den första av många meddelanden som Google planerar att göra för att förbättra integriteten och säkerheten på webben.
+Från och med Chrome 80 måste webbutvecklare uttryckligen ange vilka cookies som kan användas på olika webbplatser. Det här är den första av många meddelanden som Google planerar att göra för att förbättra sekretess och säkerhet på webben.
 
 Med tanke på att Facebook har varit på frammarsch när det gäller sekretess och säkerhet har andra stora aktörer som Apple, och nu Google, snabbt dragit nytta av möjligheten att skapa nya identiteter som integritets- och säkerhetsvakter. Apple ledde paketet genom att först meddela ändringar av cookie-reglerna tidigt i år via ITP 2.1 och nyligen ITP 2.2. I ITP 2.1 blockerar Apple helt cookies från tredje part och sparar cookies som skapats i webbläsaren i endast sju dagar. I ITP 2.2 sparas cookies i endast en dag. Googles kungörelse är inte alls lika aggressiv som Apples, men det är det första steget mot samma slutmål. Mer information om Apples policy finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
