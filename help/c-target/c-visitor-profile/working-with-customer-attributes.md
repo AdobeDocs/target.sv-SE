@@ -2,11 +2,12 @@
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: Information om hur man använder kunddata från CRM-databaser (customer relationship management) för innehåll i Adobe Target med hjälp av kundattribut i Adobe Experience Cloud persontjänst.
 title: Kundattribut i Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -121,7 +122,7 @@ Du kan använda kundattribut på [!DNL Target] följande sätt:
 
 I [!DNL Target]kan du välja ett kundattribut i [!UICONTROL Visitor Profile] sektionen när du skapar en målgrupp. Alla kundattribut har prefixet &lt; data_source_name > i listan. Kombinera dessa attribut efter behov med andra dataattribut för att skapa målgrupper.
 
-![Target Audience](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
+![Målgrupp](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
 ### Skapa profilskript med hjälp av variabler
 
@@ -184,7 +185,7 @@ Tänk på följande implementeringsproblem:
 
 ### Utgåva 6: Kundattribut importeras inte till [!DNL Target]
 
-Om du inte hittar kundattributsdata i Target kontrollerar du att importen inträffade inom de *x* -dagar där *x* är Target [Visitor-profilens livstidsvärde](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagar som standard).
+Om du inte hittar kundattributsdata i Target kontrollerar du att importen inträffade inom de *x* -dagar där *x* är värdet för målbesökarens [profillivstid](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagar som standard).
 
 ## Utbildningsvideo: Ladda upp offlinedata med {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![självstudiekursen för kundattribut](/help/assets/tutorial.png)
 
