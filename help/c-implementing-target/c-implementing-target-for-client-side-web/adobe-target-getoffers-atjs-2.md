@@ -1,11 +1,12 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
-description: Information om funktionen adobe.target.getOffers(options) för JavaScript-biblioteket Adobe Target at.js.
-title: Information om funktionen adobe.target.getOffers() för JavaScript-biblioteket Adobe Target at.js.
+description: Information om funktionen adobe.target.getOffers(options) för JavaScript-biblioteket i Adobe Target at.js.
+title: Information om funktionen adobe.target.getOffers() för JavaScript-biblioteket för Adobe Target at.js.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -39,7 +40,7 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 | Begäran > id > thirdPartyId | Nej | Maximal storlek = 128 |  |  |
 | Request > experienceCloud | Nej |  |  |
 | Request > experienceCloud > analytics | Nej |  | Integrering med Adobe Analytics |
-| Request > experienceCloud > analytics > log | Nej | Följande måste implementeras på sidan:<ul><li>Tjänst för besökar-ID</li><li>Appmeasurement.js</li></ul> | Följande värden stöds:<br>**client_side **: När det anges returneras en analyslast till anroparen som ska användas för att skicka till Adobe Analytics via API:t för datainmatning.<br>**server_side**: Det här är standardvärdet där Target och Analytics backend använder SDID för att sammanfoga anropen i rapporteringssyfte. |
+| Request > experienceCloud > analytics > log | Nej | Följande måste implementeras på sidan:<ul><li>Tjänst för besökar-ID</li><li>Appmeasurement.js</li></ul> | Följande värden stöds:<br>**client_side **: När det anges returneras en analyslast till anroparen som ska användas för att skicka till Adobe Analytics via API:t för datainmatning.<br>**server_side**: Det här är standardvärdet där Target- och Analytics-serverdelen använder SDID för att sammanfoga anropen i rapporteringssyfte. |
 | Begäran > förhämtning | Nej |  |  |
 | Request > prefetch > views | Nej | Maximalt antal 50<br>Namnet får inte<br>vara tomtNamn längd `<=` 128<br>Värdets längd `<=` 5000<br>Namnet får inte börja med &quot;profile&quot;<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Ange parametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
 | Request > prefetch > views > profileParameters | Nej | Maximalt antal 50<br>Namnet får inte<br>vara tomtNamn längd `<=` 128<br>Värdets längd `<=` 5000<br>Namnet får inte börja med &quot;profile&quot; | Ange profilparametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
