@@ -1,16 +1,20 @@
 ---
 keywords: automated personalization;Audiences;ensemble;random forest
-description: Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva lyft.
-title: Automatiserad personalisering
+description: Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje enskild besökare baserat på deras individuella kundprofil, för att anpassa innehåll och driva lyft.
+title: Automated Personalization
+feature: null
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Automatisk personalisering{#automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization{#automated-personalization}
 
 [!UICONTROL Automated Personalization] (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje enskild besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva på lyft.
 
@@ -56,11 +60,11 @@ Random Forest är en ledande maskininlärningsstrategi. I datavetenskapen är de
 
 **Target samlar automatiskt in information om besökare för att skapa personaliseringsmodeller.**
 
-* Mer information om attributen som används i [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization]finns i [Automatiserad datainsamling](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)för personalisering.
+* Mer information om attributen som används i [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization]finns i [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
 **Target använder automatiskt alla[!DNL Adobe Experience Cloud]delade målgrupper för att skapa personaliseringsmodeller.**
 
-* Ni behöver inte göra något specifikt för att lägga till målgrupper i modellen. Mer information om hur du använder [!DNL Experience Cloud Audiences] med [!DNL Target]finns i [Experience Cloud-målgrupper](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
+* Ni behöver inte göra något specifikt för att lägga till målgrupper i modellen. Mer information om hur du använder [!DNL Experience Cloud Audiences] med [!DNL Target]finns i [Experience Cloud Publiker](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
 
 **Marknadsförarna kan överföra offlinedata, benägenhetspoäng eller andra anpassade data för att bygga personaliseringsmodeller.**
 
@@ -70,7 +74,7 @@ Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört v�
 * [Profilparametrar](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 * [API:er på serversidan för profiluppdatering](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 
-Mer information om de data som samlas in automatiskt och används av [!UICONTROL Automated Personalization] och [!UICONTROL Auto-Target] personaliseringsalgoritmer finns i [Automatiserad datainsamling](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)för personalisering.
+Mer information om de data som samlas in automatiskt och används av [!UICONTROL Automated Personalization] - och [!UICONTROL Auto-Target] personaliseringsalgoritmer finns i [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
 ## ![Översikt](/help/assets/overview.png) utbildningsvideo: Typ av aktivitet
 
