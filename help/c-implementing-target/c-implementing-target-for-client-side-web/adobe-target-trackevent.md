@@ -1,11 +1,15 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
-description: Information om funktionen adobe.target.trackEvent(options) för Adobe Target-JavaScript-biblioteket at.js.
-title: Information om funktionen adobe.target.trackEvent(options) för Adobe Target-JavaScript-biblioteket at.js.
+description: Information om funktionen adobe.target.trackEvent(options) för Adobe Target JavaScript-biblioteket at.js.
+title: Information om funktionen adobe.target.trackEvent(options) för Adobe Target JavaScript-biblioteket at.js.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
 
