@@ -1,10 +1,11 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
-description: Information om rapporten Viktiga attribut, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och Auto-Target-aktiviteter (AT).
+description: Information om rapporten Viktiga attribut, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och AutoTarget-aktiviteter (AT).
 title: Viktiga attributrapporter
+feature: null
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1562'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # ![Rapport om PREMIUM](/help/assets/premium.png) Viktiga attribut{#important-attributes-report}
 
-Information om rapporten Viktiga attribut, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och Auto-Target-aktiviteter (AT).
+Information om rapporten Viktiga attribut, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och AutoTarget-aktiviteter (AT).
 
 >[!NOTE]
 >
@@ -39,13 +40,13 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
 ## Öppna rapporten Viktiga attribut {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klicka på **[!UICONTROL Activities]** och sedan på önskad [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) - eller [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) -aktivitet i listan.
+1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet för [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller [Automatiskt mål](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) i listan.
 
    Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer][!UICONTROL Metrics Type]och [!UICONTROL Activity Source] .
 
 1. Klicka på **[!UICONTROL Reports]**.
 
-   Sammanfattningsrapporten [Automated Personalization Summary](/help/c-reports/reports-ap.md) eller [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) visas med information om hur dina aktiviteter fungerar, som representeras av ikonen för första skärmen. De två ytterligare ikonerna representerar de två personaliseringsinsikterna: Automatiska segment och viktiga attribut. Observera att Auto-Target har en extra diagramikon för den grafiska vyn av [!UICONTROL Summary] rapporten.
+   Sammanfattningsrapporten för [Automated Personalization](/help/c-reports/reports-ap.md) eller [Automatisk målsammanfattning](/help/c-reports/auto-target-summary-report.md) visas med information om hur dina aktiviteter fungerar, vilket visas med ikonen för första skärmen. De två ytterligare ikonerna representerar de två personaliseringsinsikterna: Automatiska segment och viktiga attribut. Observera att Automatiskt mål har en extra diagramikon för den grafiska vyn av [!UICONTROL Summary] rapporten.
 
    ![](assets/personalization_insights.png)
 
@@ -84,8 +85,8 @@ I följande tabell beskrivs hur du tolkar rapporten och dess element:
 
 | Element | Detaljer |
 |--- |--- |
-| Stolpdiagram | Med det flerfärgade stapeldiagrammet längst upp på skärmen kan du visualisera dessa relativa prioritetsklasser och mappa till punktens färg bredvid respektive attribut i tabellen. Du kan också hovra över en viss färg i stapeldiagrammet för att se vilket attribut det representerar.  Viktigt-poängen för de 100 översta attributen ökar till 100 %. Mer information om hur du lägger till fler attribut som Target personaliseringsmodeller kan använda finns i [Överföra data för Target personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
-| Diagram över modellattribut | Modellattributsrankningen innehåller de 10 viktigaste attributen som var viktiga för hur Target personaliseringsmodell bestämde vilket innehåll som skulle visas för varje besökare. Viktigt-poängen visar, i förhållande till de 100 viktigaste attributen, hur viktigt ett visst attribut har varit för Target personaliseringsmodeller i den här aktiviteten. |
+| Stolpdiagram | Med det flerfärgade stapeldiagrammet längst upp på skärmen kan du visualisera dessa relativa prioritetsklasser och mappa till punktens färg bredvid respektive attribut i tabellen. Du kan också hovra över en viss färg i stapeldiagrammet för att se vilket attribut det representerar.  Viktigt-poängen för de 100 översta attributen ökar till 100 %. Mer information om hur du lägger till fler attribut som Target personaliseringsmodeller kan använda finns i [Överföra data för målets personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Diagram över modellattribut | Model Attribute Ranking innehåller de 10 viktigaste attributen som var viktigast för hur Target personaliseringsmodell bestämde vilket innehåll som skulle visas för varje besökare. Viktigt-poängen visar, i förhållande till de 100 viktigaste attributen, hur viktigt ett specifikt attribut var för Target personaliseringsmodeller i den här aktiviteten. |
 
 ## Vanliga frågor om viktiga attribut {#section_740910A52FA646B4AC9452F98C2F5719}
 
@@ -101,7 +102,7 @@ Det finns flera anledningar till att rapporterna kanske inte är tillgängliga f
 
 Ett attribut är information om en besökare eller hans eller hennes specifika besök som används av personaliseringsalgoritmerna för att lära sig att personalisera trafik. Ett attribut kan till exempel vara webbläsartyp, plats, tidpunkt på besöksdagen och så vidare.
 
-Mer information om vilka attribut som [!DNL Target] används i personaliseringsmodellerna finns i [Datainsamling för Target personaliseringsalgoritmer](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). Mer information om hur du överför nya attribut till Target för användning i Target personaliseringsmodeller finns i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Mer information om vilka attribut som [!DNL Target] används i dess anpassningsmodeller finns i [Datainsamling för Target&#39;s Personalization Algorithms](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). Mer information om hur du överför nya attribut till Target för användning i Target-personaliseringsmodeller finns i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 **Är informationen i[!UICONTROL Automated Segments]och[!UICONTROL Important Attributes]rapporter densamma som i CSV-nedladdningen?**
 
@@ -143,4 +144,4 @@ Det kan vara bra att veta hur modellen fungerar som en trafiktjänst. Var och en
 * Identifiera underpresterande innehåll.
 * Förstå vilka attribut som var viktigast för hur modellen lärde sig.
 * Se vilka attribut som används i personaliseringsmodellerna och hur viktiga de är.
-* Identifiera möjligheter för ytterligare datapunkter som ni kan skicka in till Target för att ytterligare informera er personalisering.
+* Identifiera möjligheter för ytterligare datapunkter som ni kan skicka till Target för att ytterligare informera er personalisering.
