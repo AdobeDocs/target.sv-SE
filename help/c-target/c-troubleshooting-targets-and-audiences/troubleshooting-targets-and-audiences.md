@@ -2,17 +2,21 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Lista med vanliga frågor och svar om målinriktning och målgrupper.
 title: Mål och målgrupper Frågor och svar
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '931'
+ht-degree: 1%
 
 ---
 
 
 # Mål och målgrupper Frågor och svar{#targets-and-audiences-faq}
 
-Lista med vanliga frågor och svar om målinriktning och målgrupper.
+Lista med vanliga frågor och svar om upplevelseanpassning och målgrupper.
 
 ## Hur utvärderar Target URL:er när det gäller målinriktning? {#url}
 
@@ -97,7 +101,7 @@ Vissa målgrupper är fördefinierade, till exempel&quot;Nya besökare&quot; och
 
 ## Varför ser besökarna upplevelser för en AP-aktivitet som de inte ska se? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-Automatiserade personaliseringsaktiviteter utvärderas en gång per session. Om det finns aktiva sessioner som har kvalificerat sig för en viss upplevelse och nu har nya erbjudanden lagts till, kommer användarna att se det nya innehållet tillsammans med tidigare erbjudanden. Eftersom de tidigare har kvalificerat sig för de här upplevelserna skulle de fortfarande se dem under hela sessionen. Om du vill utvärdera detta vid varje sidbesök bör du byta till aktivitetstypen Experience Targeting (XT).
+Automated Personalization-aktiviteter utvärderas en gång per session. Om det finns aktiva sessioner som har kvalificerat sig för en viss upplevelse och nu har nya erbjudanden lagts till, kommer användarna att se det nya innehållet tillsammans med tidigare erbjudanden. Eftersom de tidigare har kvalificerat sig för de här upplevelserna skulle de fortfarande se dem under hela sessionen. Om du vill utvärdera detta vid varje sidbesök bör du byta till aktivitetstypen Experience Targeting (XT).
 
 ## Varför återspeglas ändringar som görs i målgrupper som skapats via API inte i målgränssnittet? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
