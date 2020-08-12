@@ -2,9 +2,10 @@
 keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
 title: Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer
+feature: null
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 0%
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
 
-## Har Target stöd för iframes på flera nivåer?
+## Stöder Target iframes på flera nivåer?
 
-Target stöder inte iframes på flera nivåer. Om webbplatsen läser in en iframe som har en underordnad iframe, samverkar Target-bibliotek (at.js och mbox.js) endast med den överordnade iframe-instansen. Target-bibliotek interagerar inte med den underordnade iframe-instansen.
+Målet stöder inte iframes på flera nivåer. Om webbplatsen läser in en iframe som har en underordnad iframe, samverkar Target-biblioteken (at.js och mbox.js) endast med den överordnade iframe-instansen. Målbiblioteken samverkar inte med den underordnade iframe-instansen.
 
 Som en tillfällig lösning kan du lägga till en sida i upplevelsen med URL:en för den underordnade iframe-instansen.
 
@@ -71,7 +72,7 @@ Problemet kan åtgärdas genom att du aktiverar Förbättrad Experience Composer
 
 >[!NOTE]
 >
->Dina lokalt lagrade sidor eller sidor som inte är tillgängliga utanför ditt nätverk är inte tillgängliga för Adobes proxyserver och kan inte öppnas i EEG. De här sidorna kan vara mellanlagrings-URL:er, UAT-URL:er (User Acceptance Testing) eller lokala värdsidor.
+>Dina lokalt lagrade sidor eller sidor som inte är tillgängliga utanför nätverket är inte tillgängliga för proxyservern i Adobe och kan inte öppnas i EEG. De här sidorna kan vara mellanlagrings-URL:er, UAT-URL:er (User Acceptance Testing) eller lokala värdsidor.
 
 ## Jag vill konfigurera tester på sidor som inte har mbox/target-implementeringen klar ännu. (VEC och EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
@@ -90,6 +91,6 @@ Om du ser detta problem:
 
    * För kursiv text ändrar du elementen `<em>` till `<i>`.
 
-## Vid automatiserad personaliseringsaktivitet är bildbytet brutet i VEC eller EEC. (VEC och EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
+## När det gäller Automated Personalization-aktiviteter är bildbytet brutet i VEC eller EEC. (VEC och EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 Om du lägger till ett bilderbjudande på en plats får du hela dimensionen av det ursprungliga bildutrymmet i VEC eller EEC. Vid leverans är bilden inte utökad och visas som den är, så det påverkar inte leveransen.
