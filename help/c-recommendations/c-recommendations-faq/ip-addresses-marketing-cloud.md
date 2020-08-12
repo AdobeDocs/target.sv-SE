@@ -1,10 +1,11 @@
 ---
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
-description: Lista med IP-adresser som används i Recommendations-servrar för feed-bearbetning i Oregon-datacenter för att hjälpa dig konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
-title: IP-adresser som används av rekommendationsservrar för flödeshantering
+description: Lista med IP-adresser som används i Recommendations servrar för bearbetning av feeds i Oregon-datacenter för att hjälpa dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
+title: IP-adresser som används av Recommendations feed-bearbetningsservrar
+feature: null
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -12,9 +13,9 @@ ht-degree: 3%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) IP-adresser som används av rekommendationsservrar för flödeshantering{#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![PREMIUM](/help/assets/premium.png) IP-adresser som används av Recommendations servrar för bearbetning av feed{#ip-addresses-used-by-recommendations-feed-processing-servers}
 
-Lista med IP-adresser som används i Recommendations-servrar för feed-bearbetning i Oregon-datacenter för att hjälpa dig konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
+Lista med IP-adresser som används i Recommendations servrar för bearbetning av feeds i Oregon-datacenter för att hjälpa dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 
 [!DNL Target] [!UICONTROL Recommendations] För aktiviteter används följande IP-adresser som finns i Oregon-datacentret vid åtkomst till kundens FTP-servrar (se länken nedan för att få den senaste informationen):
 
