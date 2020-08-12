@@ -2,10 +2,14 @@
 keywords: mvt;multivariate test;location contribution report
 description: Platsbidragsrapporten visar resultatet för varje element och varje erbjudande.
 title: Platsavgiftsrapport
+feature: null
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 0%
 
 ---
 
