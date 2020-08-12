@@ -2,10 +2,11 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Information om omdirigeringserbjudanden i Adobe Target som gör att en webbläsare dirigerar om till en ny sida.
 title: Skapa omdirigeringserbjudanden
+feature: null
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 1%
@@ -62,7 +63,7 @@ Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. 
 
 Den här videon innehåller information om hur du hanterar innehåll.
 
-* Anslutning mellan [Experience Cloud och Target Content Library](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
+* Anslutning mellan [Experience Cloud-resursbiblioteket](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
 * Anpassade HTML-erbjudanden
 * Anpassat HTML-erbjudande i Visual Experience Composer
 
