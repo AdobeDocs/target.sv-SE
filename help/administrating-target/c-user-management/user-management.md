@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Information om hur du hanterar användare i Target Standard och hanterar Enterprise Properties och Permissions i Target Premium.
 title: Användarhantering
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -28,6 +29,7 @@ Du kan se om din organisation har en Standard- eller Premium-licens genom att kl
 
    * Fliken visas [!UICONTROL Users] ( [!UICONTROL Administration] > [!UICONTROL Users] )
    * Du kommer *inte* att se [!UICONTROL Properties] fliken ( [!UICONTROL Administration] > [!UICONTROL Properties] )
+
    [!DNL Target] Standardkunder bör följa instruktionerna i [Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md) för att lägga till användare och tilldela behörigheter i Adobe Admin Console.
 
 * **Premium-kunder:** Om din organisation har en [!DNL Target] Premium-licens följer du följande i målgränssnittet:
