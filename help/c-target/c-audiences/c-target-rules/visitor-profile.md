@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: Skapa målgrupper i Adobe Target för att inrikta er på besökare som uppfyller specifika profilparametrar.
 title: Besökarprofil
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +34,7 @@ Skapa målgrupper för målgrupper som uppfyller specifika profilparametrar.
    * Första sidan av sessionen
    * Inte första sidan i sessionen
    * Kategoritillhörighet
+
    En besökarprofil skapas i det lokala edge-minnet för varje mbox-anrop med nya `mboxPC`. Efter 30 minuters inaktivitet sparas profilen i måldatabasen och är tillgänglig från andra kanter.
 
    När en besökare loggar in mitt i sessionen och får en `3rdpartyId`fil blir alla tidigare inlästa profilattribut som är kopplade till `3rdPartyId` den omedelbart tillgängliga.
