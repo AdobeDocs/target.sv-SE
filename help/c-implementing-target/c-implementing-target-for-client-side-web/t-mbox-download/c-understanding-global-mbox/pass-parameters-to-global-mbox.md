@@ -2,11 +2,15 @@
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: JavaScript-funktionen targetPageParams används för att skicka parametrar till den globala mbox-filen. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/kontext ska skickas till Target.
 title: Skicka parametrar till en global mbox
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 JavaScript-funktionen targetPageParams används för att skicka parametrar till den globala mbox-filen. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/kontext ska skickas till Target.
 
-I en Recommendations-aktivitet använder du till exempel parametrarna för att representera den aktuella produkten eller kategorin som visas.
+I en Recommendations-aktivitet kan du till exempel använda parametrarna för att representera den aktuella produkten eller kategorin som visas.
 
 Koden som anropar JavaScript-funktionen måste komma före den globala mbox på sidan, oavsett om den globala mbox utlöses som en del av mbox.js eller inkluderas manuellt i sidkoden.
 
@@ -39,7 +43,7 @@ Du måste definiera JavaScript-funktionen innan du lägger till den globala mbox
 p1=v1&p2=v2&p3=hello%20world
 ```
 
-* Namn: `targetPageParams`
+* Name: `targetPageParams`
 * Returvärde: en&quot;&amp;&quot;-avgränsad parameter med URL-kodade parametervärden.
 
    Exempel:
