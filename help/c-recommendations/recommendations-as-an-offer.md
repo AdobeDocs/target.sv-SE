@@ -1,14 +1,18 @@
 ---
 keywords: Recommendations;offer
-description: Adobe Recommendations as an offer in A/B Tests (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) actions
-title: Adobe Recommendations as an offer in A/B Tests (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) actions
+description: Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting)
+title: Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting)
+feature: null
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '507'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations as an offer
+# ![PREMIUM](/help/assets/premium.png) Recommendations som erbjudande
 
 Nu kan du inkludera rekommendationer inuti [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
 
@@ -109,14 +113,14 @@ Det finns två sätt att ta bort ett rekommendationserbjudande:
 
 ### Visa rekommendationserbjudandets status {#status}
 
-Rekommendationserbjudandets (algoritm) status visas längst ned på [!UICONTROL Overview] sidan för A/B-tester och XT-aktiviteter som innehåller rekommendationer:
+Rekommendationserbjudandets (algoritm) status visas längst ned på [!UICONTROL Overview] sidan för A/B Test- och XT-aktiviteter som innehåller Recommendations:
 
 * Resultatförberedda
 * Resultaten är inte klara
 * Feed-fel
 
-![Status för rekommendationserbjudanden](/help/c-recommendations/assets/recs-offer-status.png)
+![Recommendations erbjudandestatus](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Utbildningsvideo: Rekommendationer som ett ![emblem i Översikt över erbjudande](/help/assets/overview.png)
+## Utbildningsvideo: Recommendations som ![skylt för erbjudandeöversikt](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
