@@ -1,11 +1,12 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Bestäm en vinnare i en automatisk fördelning av A/B-aktivitet genom att visa indikatorer i Target användargränssnitt.
+description: Fastställ en vinnare i en automatisk fördelning av A/B-aktivitet genom att visa indikatorer i målgränssnittet.
 title: Identifiera en vinnare
+feature: null
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Tolka autofördelningsrapporter {#determine-a-winner}
 
-Tolka resultaten av en automatisk fördelning av A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i Target användargränssnitt.
+Tolka resultaten av en automatisk fördelning av A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i målgränssnittet.
 
 Många marknadsförare gör misstag genom att i förväg deklarera en vinnande upplevelse innan resultatet visar på den tydliga vinnaren. Vi har nu gjort det enklare för dig att avgöra vinnaren.
 
@@ -49,7 +50,7 @@ Normala A/B-tester beräknar tillförlitlighet baserat på p-värden. Autoalloke
 
 >[!IMPORTANT]
 >
->Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyg](https://docs.adobe.com/content/target-microsite/testcalculator.html)för provstorlek. Target tar inte hänsyn till den grundläggande konverteringsgraden för en webbplats och andra viktiga aspekter som matas in i beräkningen för att avgöra aktivitetens varaktighet. Det innebär att Target kan visa en vinnare tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i Beräkna [provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyg](https://docs.adobe.com/content/target-microsite/testcalculator.html)för provstorlek. Målet tar inte hänsyn till en områdes grundläggande konverteringsgrad och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i Beräkna [provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter {#lift-confidence}
 
