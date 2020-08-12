@@ -2,9 +2,13 @@
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
 description: Du kan visa profilvärden och aktivitetsinformation direkt i ett HTML- eller JSON-erbjudande.
 title: Överför dynamiska data till erbjudanden
+feature: null
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 0%
 
 ---
 
@@ -46,15 +50,15 @@ Följande värden kan vara &quot;token replace&quot;:
 
 Logga information i konsolen i felsökningssyfte som `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Mer information om rekommendationsdesigner finns i ytterligare exempel i [Designöversikt](/help/c-recommendations/c-design-overview/design-overview.md).
+För Recommendations-design finns ytterligare exempel i [Designöversikt](/help/c-recommendations/c-design-overview/design-overview.md).
 
 **Implementering**
 
-Använd syntaxen för profilparametrar som skickas till en mbox: `${profile.parameter}` För profilparametrar som skapats i ett profilskript använder du syntaxen:
+Använd syntaxen för profilparametrar som skickas till en mbox: `${profile.parameter}` Använd syntaxen för profilparametrar som skapats i ett profilskript:
 
 `${user.parameter}`
 
-När du använder dynamiska attribut i en rekommendationsdesign måste du infoga ett omvänt snedstreck (&#39;\&#39;) före dollartecknet (&#39;$&#39;) för att det dynamiska värdet ska återges korrekt: `\${user.endpoint.lastViewedEntity}`
+När du använder dynamiska attribut i en Recommendations-design måste du infoga ett omvänt snedstreck (&#39;\&#39;) före dollartecknet (&#39;$&#39;) för att det dynamiska värdet ska återges korrekt: `\${user.endpoint.lastViewedEntity}`
 
 Variablerna ersätts med värdet på serversidan, så det behövs inga citattecken eller andra JavaScript för att visningen ska bli korrekt.
 
