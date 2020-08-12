@@ -1,11 +1,15 @@
 ---
 keywords: troubleshoot target;troubleshooting target
-description: Lista med ämnen som kan hjälpa dig att lösa problem i Adobe Target, inklusive felsökningsämnen, vanliga frågor och svar och andra användbara ämnen.
+description: Lista med ämnen som kan hjälpa dig att lösa problem i Adobe Target, inklusive felsökningsfrågor, vanliga frågor och svar samt andra användbara ämnen.
 title: Felsöka Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
@@ -29,10 +33,10 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 * [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Automatisk målgruppsanpassning för personaliserade upplevelser](/help/c-activities/auto-target-to-optimize.md)
 
-### Automatiserad personalisering (AP)
+### Automated Personalization (AP)
 
-* [Vanliga frågor om automatiserad personalisering](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [Felsökning av automatiserad personalisering](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Automated Personalization FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Felsökning av Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 
 ### Multivariata tester (MVT)
 
@@ -40,15 +44,15 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 * [Felsökning av multivariata tester](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [Uppskatta den trafik som krävs för ett lyckat test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Rekommendationer
+### Recommendations
 
-* [Rekommendationer - frågor och svar](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Vanliga frågor om design](/help/c-recommendations/c-design-overview/template-faq.md)
 
 ## Analys- och Target-integrering (A4T)
 
 * [Felsökning Analytics och Target-integrering](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* &quot;Office Hours&quot;, en video som leds av Adobes kundtjänstteam. Se [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
+* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 * A4T Frågor och svar
    * [Minimera antalet uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [Inledande etablering - Vanliga frågor om A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -111,7 +115,7 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 * [Felsöka at.js med Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [at.js-begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* &quot;Office Hours&quot;, en video som leds av Adobes kundtjänstteam. Se [implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)av at.js.
+* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)av at.js.
 
 ### mbox.js
 
@@ -153,4 +157,4 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 * [Felsöka Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Bästa praxis och begränsningar för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Ändringar](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* &quot;Office Hours&quot;, en video som leds av Adobes kundtjänstteam. Se [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
+* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
