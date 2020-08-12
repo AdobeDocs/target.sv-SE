@@ -1,10 +1,14 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-description: Använd feeds för att importera enheter till Adobe Recommendations. Enheter kan skickas med CSV-filer, Googles produktsökningsformat och/eller Adobe Analytics-produktklassificeringar.
+description: Använd feeds för att importera enheter till Adobe Recommendations. Enheter kan skickas med CSV-filer, Googles produktsökningsformat och/eller Adobe Analytics produktklassificeringar.
 title: Feeds
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2433'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +48,7 @@ Sidan Feeds innehåller följande kolumner:
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
-Du kan skapa en `.csv` fil med Adobes egna CSV-överföringsformat. Filen innehåller visningsinformation om de reserverade och anpassade attributen för dina produkter. Om du vill överföra attribut som är specifika för implementeringen ersätter du `CustomN` i rubrikraden med namnet på det attribut som du vill använda. I exemplet nedan `entity.Custom1` har ersatts med: `entity.availability`. Du kan sedan överföra filen till [!DNL Recommendations] servern satsvis.
+Du kan skapa en `.csv` fil med det CSV-överföringsformat som finns i Adobe. Filen innehåller visningsinformation om de reserverade och anpassade attributen för dina produkter. Om du vill överföra attribut som är specifika för implementeringen ersätter du `CustomN` i rubrikraden med namnet på det attribut som du vill använda. I exemplet nedan `entity.Custom1` har ersatts med: `entity.availability`. Du kan sedan överföra filen till [!DNL Recommendations] servern satsvis.
 
 Att använda CSV-formatet har följande fördelar jämfört med Google Feed-formatet:
 
@@ -94,7 +98,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-Google Product Search-flödestypen använder Google-formatet. Detta skiljer sig från Adobes egna CSV-överföringsformat.
+Google Product Search-flödestypen använder Google-formatet. Detta skiljer sig från det CSV-överföringsformat som finns i Adobe.
 
 Om du har en befintlig Google-produktfeed kan du använda den som din importfil.
 
@@ -102,11 +106,11 @@ Om du har en befintlig Google-produktfeed kan du använda den som din importfil.
 >
 >Google-data behöver inte användas. [!DNL Recommendations] använder bara samma format som Google. Du kan använda den här metoden för att överföra data som du har och använda de tillgängliga schemafunktionerna. Du måste dock behålla Googles fördefinierade attributnamn när du konfigurerar filen.
 
-De flesta återförsäljare överför produkter till Google, så när en besökare använder Googles produktsökning kommer deras produkter att visas. [!DNL Recommendations] följer Googles specifikation exakt för entitetsfeeds. Enhetsfeeds kan skickas till [!DNL Recommendations] via [!DNL .xml], [!DNL .txt]eller [!DNL .tsv]med de [attribut som definieras av Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Resultaten är sökbara på [Googles shoppingsidor](https://www.google.com/prdhp).
+De flesta återförsäljare överför produkter till Google, så när en besökare använder Googles produktsökning kommer deras produkter att visas. [!DNL Recommendations] följer Googles specifikation exakt för entitetsfeeds. Enhetsfeeds kan skickas till [!DNL Recommendations] via [!DNL .xml], [!DNL .txt]eller [!DNL .tsv]med de [attribut som definieras av Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Resultaten är sökbara på [Googles shoppingsidor](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
->POST-metoden måste vara tillåten på servern som är värd för Googles feed-innehåll.
+>Metoden POST måste vara tillåten på den server som är värd för Googles feed-innehåll.
 
 Eftersom [!DNL Recommendations] användare redan har konfigurerat [!DNL .xml] eller [!DNL .txt] feeds att skicka till Google via URL eller FTP, accepterar entitetsfeeds produktdata och använder dem för att skapa rekommendationskatalogen. Ange var denna feed finns och rekommendationsservern hämtar data.
 
@@ -197,11 +201,11 @@ Produktklassificeringen Analytics är den enda klassificeringen som är tillgän
 
 >[!IMPORTANT]
 >
->Innan du importerar entitetsdata till rekommendationer med hjälp av produktklassificeringar i Analytics bör du vara medveten om att detta inte är den rekommenderade metoden.
+>Innan du importerar entitetsdata till Recommendations med hjälp av produktklassificeringar i Analytics bör du vara medveten om att detta inte är den rekommenderade metoden.
 >
 > Var uppmärksam på följande kavattar:
 >* Uppdateringar av entitetsattribut medför en ytterligare fördröjning på upp till 24 timmar.
->* Target stöder endast produktklassificeringar. Analysproduktens SKU måste mappas till samma nivå som rekommendationerna `entity.id`. Anpassade analysklassificeringar kan utformas med Adobes konsulttjänster. Kontakta din kontoansvarige med frågor.
+>* Target stöder endast produktklassificeringar. Analysproduktens SKU måste mappas till samma nivå som Recommendations `entity.id`. Anpassade analysklassificeringar kan utformas med Adobe konsulttjänster. Kontakta din kontoansvarige med frågor.
 
 
 ## Skapa feed {#steps}
@@ -218,6 +222,7 @@ Skapa ett flöde för att infoga information om dina produkter eller tjänster i
    * CSV
    * Google produktfeed
    * Analysklassificeringar
+
    Mer information om CSV- och Google Product Feed-typerna finns i [Feeds - översikt](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Du kan också [hämta en CSV-handbok](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) för modellen så att du kan formatera flödet korrekt.
 
 1. (Villkorligt) Om du har valt **[!UICONTROL CSV]** eller **[!UICONTROL Google Product Feed]** anger du platsen där flödet kan nås.
@@ -291,7 +296,7 @@ Om du vill uppdatera en feed (till exempel för att ändra din flödeskonfigurat
 
 >[!IMPORTANT]
 >
->Överförda enheter upphör att gälla efter 61 dagar. Det innebär att din feed-fil ska laddas upp minst var 60:e dag för att undvika avbrott i dina rekommendationer. Om ett objekt inte ingår i en feed-fil (eller någon annan metod för enhetsuppdatering) minst en gång var 60:e dag, är objektet inte längre relevant och tas bort från katalogen.
+>Överförda enheter upphör att gälla efter 61 dagar. Det innebär att din feed-fil ska laddas upp minst var 60:e dag för att undvika avbrott i dina rekommendationer. Om ett objekt inte ingår i en feed-fil (eller någon annan metod för entitetsuppdatering) minst en gång var 60:e dag, blir objektet inte längre relevant och tas bort från katalogen.
 
 ### Indikatorer för matningsstatus {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -323,7 +328,7 @@ Statusen ska vara gul eftersom indexet ska ha körts för ungefär en dag och en
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Förstå flöden i rekommendationer (3:01) ![Översikt, märke](/help/assets/overview.png)
+### Förstå feeds i Recommendations (3:01) ![Overview badge](/help/assets/overview.png)
 
 Den här videon innehåller följande information:
 
