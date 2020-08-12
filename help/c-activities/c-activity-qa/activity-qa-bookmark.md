@@ -2,10 +2,14 @@
 keywords: qa;preview;bookmarklet;preview links
 description: Information som hjälper dig att använda Adobe Target QA-bokmärket för att tvinga Target att släppa dig från QA-läget.
 title: Activity QA bookmarklet för Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 1%
 
 ---
 
