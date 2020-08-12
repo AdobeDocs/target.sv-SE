@@ -1,19 +1,23 @@
 ---
 keywords: Overview and Reference;act
-description: Information om viktiga begrepp som hjälper dig att förstå funktionerna och funktionerna i Adobe Target.
+description: Information om viktiga koncept som hjälper dig att förstå Adobe Target funktioner.
 title: Målgrupper
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 2%
 
 ---
 
 
 # Målgrupper{#target-key-concepts}
 
-Information om viktiga begrepp som hjälper dig att förstå funktionerna och funktionerna i Adobe Target.
+Information om viktiga koncept som hjälper dig att förstå Adobe Target funktioner.
 
 ## Verksamheter och tester {#section_BEA0A0C51A8847579B566060206DE7E8}
 
@@ -23,7 +27,7 @@ Du kan till exempel utforma en aktivitet som testar två olika landningssidor, e
 
 När du utformar en aktivitet bör du planera noggrant. Bestäm när aktiviteten ska starta och hur länge den ska vara. Ange sedan era erbjudanden och tilldela målgrupper till var och en av dem.
 
-Målet innehåller flera aktivitetstyper. Följande tabell innehåller en översikt över varje aktivitetstyp med länkar som hjälper dig att lära dig mer. För att du bättre ska kunna välja den bästa aktivitetstypen har vi även skapat [Adobe Target Activity Guide](/help/c-activities/target-activities-guide.md).
+Målet innehåller flera aktivitetstyper. Följande tabell innehåller en översikt över varje aktivitetstyp med länkar som hjälper dig att lära dig mer. För att du bättre ska kunna välja den bästa aktivitetstypen har vi också skapat [Adobe Target aktivitetshandbok](/help/c-activities/target-activities-guide.md).
 
 | Typ av aktivitet | Beskrivning |
 |--- |--- |
@@ -33,8 +37,8 @@ Målet innehåller flera aktivitetstyper. Följande tabell innehåller en övers
 | [Använda analysdata](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Du kan konfigurera en aktivitet som ska användas [!DNL Adobe Analytics] som rapportkälla. Den här aktivitetstypen kräver att du länkar ditt [!DNL Adobe Experience Cloud] konto till både [!DNL Analytics] och [!DNL Target]. |
 | [Multivariata tester](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Med multivariata tester (MVT) jämförs kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och det element som har störst påverkan på aktivitetens framgång identifieras. |
 | [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.<br>**Obs!**Ni kan nu inkludera[rekommendationer i aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md)som rör Experience Targeting. Den här funktionen kräver att du har en[Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personaliseringTarget Premium](/help/assets/premium.png) | Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika varianter till varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva konverteringar. |
-| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | En rekommendation avgör hur en produkt föreslås för en webbplatsanvändare, beroende på den användarens aktiviteter på webbplatsen.<br>Du kanske till exempel vill uppmuntra personer som köper en ryggsäck att överväga att köpa vandrande skor och trikåpoler. Du kan skapa en rekommendation som visar objekt som ofta köpts tillsammans med hjälp av algoritmen&quot;Personer som köpte det här&quot;. Eller så kanske du vill uppmuntra besökarna att spendera mer tid på din mediewebbplats genom att rekommendera liknande video som den de tittar på, med algoritmen&quot;Personer som såg det här&quot;.<br>**Obs!**Nu kan du inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Se[Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md). |
+| [Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personaliseringTarget Premium](/help/assets/premium.png) | Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika varianter av varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva konverteringar. |
+| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | En rekommendation avgör hur en produkt föreslås för en webbplatsanvändare, beroende på den användarens aktiviteter på webbplatsen.<br>Du kanske till exempel vill uppmuntra personer som köper en ryggsäck att överväga att köpa vandrande skor och trikåpoler. Du kan skapa en rekommendation som visar objekt som ofta köpts tillsammans med hjälp av algoritmen&quot;Personer som köpte det här&quot;. Eller så kanske du vill uppmuntra besökarna att spendera mer tid på din mediewebbplats genom att rekommendera liknande video som den de tittar på, med algoritmen&quot;Personer som såg det här&quot;.<br>**Obs!**Nu kan du inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Se[Recommendations som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Platser {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -117,7 +121,7 @@ I den här videon förklaras vilka aktivitetstyper som finns i [!DNL Target Stan
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Använda målgrupper i Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
+### Using Audiences in Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
 
 I den här videon förklaras hur du använder målgrupper i [!DNL Target Standard/Premium].
 
