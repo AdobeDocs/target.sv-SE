@@ -1,21 +1,25 @@
 ---
 keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
-description: Information som hjälper dig att välja mellan aktiviteterna Recommendations Classic och Recommendations i Target Premium.
-title: Rekommendationer, klassiska jämfört med rekommendationer i Target Premium
+description: Information som hjälper dig att välja mellan Recommendations Classic- och Recommendations-aktiviteter i Target Premium.
+title: Recommendations Classic jämfört med Recommendations-aktiviteter i Target Premium
+feature: null
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations Classic vs. Recommendations - aktiviteterna i Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![PREMIUM](/help/assets/premium.png) Recommendations Classic jämfört med Recommendations-aktiviteter i Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
 
-Information som hjälper dig att välja mellan aktiviteterna Recommendations Classic och Recommendations i Target Premium.
+Information som hjälper dig att välja mellan Recommendations Classic- och Recommendations-aktiviteter i Target Premium.
 
 >[!NOTE]
 >
->Rekommendationsaktiviteter finns tillgängliga som en del av [!DNL Target Premium] lösningen. De finns inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
+>Recommendations-aktiviteter ingår i [!DNL Target Premium] lösningen. De finns inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
 
 I den klassiska [!DNL Recommendations] produkten visades rekommendationer genom att en mbox för datainsamling skapades på en sida och sedan lades en visningsruta till på en specifik sidplats. Med [!DNL Recommendations] aktiviteten i [!DNL Target Premium] kan du samla in besöksinformation och skapa rekommendationer var som helst på sidan utan att du behöver skapa en mbox för varje plats där du vill rekommendera produkter eller innehåll. En enkel JavaScript-referens i sidhuvudet ger rekommendationer var som helst på sidan. Använd den här JavaScript-referensen för att skicka nycklar till den globala [!DNL Target] rutan, till exempel `entity.id` - och `entity.categoryId` -nycklarna.
 
@@ -25,7 +29,7 @@ I den klassiska [!DNL Recommendations] produkten visades rekommendationer genom 
 
 Aktiviteten [!DNL Recommendations] i [!DNL Target] förbättras [!DNL Recommendations Classic] inom följande huvudområden:
 
-## Rekommendationer som ett erbjudande
+## Recommendations som erbjudande
 
 Du kan inkludera rekommendationer inuti [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
 
@@ -38,7 +42,7 @@ Den här funktionen öppnar upp helt nya funktioner, som:
 
 Om du vill komma igång skapar du en [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting] aktivitet med hjälp av [!UICONTROL Visual Experience Composer] och använder [!UICONTROL Insert Before], [!UICONTROL Insert After]eller [!UICONTROL Replace With] åtgärd för att lägga till rekommendationer i en upplevelse.
 
-Mer information finns i [Rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
+Mer information finns i [Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
 
 ## Kriterier {#section_117709846DAA404580EBE879FFCBD9BA}
 
@@ -64,7 +68,7 @@ Du kan förhandsgranska dina rekommendationer när du har konfigurerat dem och g
 
 ## Målinriktning {#section_93295EA0DBA14210B8518AF4802A459F}
 
-Det [!DNL Recommendations Classic]fanns sex målinriktningsalternativ. Rekommendationsaktiviteter använder målets alla målgruppsalternativ. Definiera en målgrupp med antingen [!DNL Target] eller andra [!DNL Adobe Experience Cloud] målgrupper (till exempel [!DNL Audience Manager] och [!DNL Analytics]), välj sedan hur många aktivitetsdeltagare som ska se varje design och hur många procent som ska se kontrollen.
+Det [!DNL Recommendations Classic]fanns sex målinriktningsalternativ. Recommendations-aktiviteter utnyttjar Target alla sina målinriktningsalternativ. Definiera en målgrupp med antingen [!DNL Target] eller andra [!DNL Adobe Experience Cloud] målgrupper (till exempel [!DNL Audience Manager] och [!DNL Analytics]), välj sedan hur många aktivitetsdeltagare som ska se varje design och hur många procent som ska se kontrollen.
 
 ![](assets/overview_targeting.png)
 
