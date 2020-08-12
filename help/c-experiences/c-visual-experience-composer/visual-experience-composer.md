@@ -1,9 +1,10 @@
 ---
 description: Information om hur du använder Visual Experience Composer (VEC) i Adobe Target.
 title: Adobe Target Visual Experience Composer (VEC)
+feature: null
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -19,7 +20,7 @@ VEC är ett WYSIWYG-användargränssnitt som gör det enkelt att skapa och testa
 
 VEC är en av huvudfunktionerna i [!DNL Adobe Target]. Med VEC kan marknadsförare och designers skapa och ändra innehåll med ett visuellt gränssnitt. Många designalternativ kan göras utan att koden behöver redigeras direkt. Det går också att redigera HTML och JavaScript med de redigeringsalternativ som finns i dispositionen.
 
-På fliken Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** kan du ange standardwebbadressen för Visual Experience Composer.
+På fliken Mål **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** kan du ange standardwebbadressen för Visual Experience Composer.
 
 ![Standardinställningar för VEC-URL](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -35,7 +36,7 @@ Du kan använda de nedrullningsbara menyerna längst upp på sidan för att visa
 
 >[!NOTE]
 >
->Ändringar av strukturen på en sida som påverkar platserna som används i en aktivitet som skapas på den sidan kan orsaka problem med upplevelseredigering. Om en plats har ändrats utanför VEC kanske Target inte kan hitta platsen där innehållet ändrades.
+>Ändringar av strukturen på en sida som påverkar platserna som används i en aktivitet som skapas på den sidan kan orsaka problem med upplevelseredigering. Om en plats har ändrats utanför VEC kanske inte Target kan hitta platsen där innehållet ändrades.
 
 När du flyttar musen runt sidan följer markören en sammanhangsberoende ruta som markerar elementen på sidan.
 
@@ -123,7 +124,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 * Byta namn på och duplicera en upplevelse
 * Skapa en omdirigeringsupplevelse
-* Target en aktivitet till en enskild URL eller en grupp URL-adresser
+* Anpassa en aktivitet till en enskild URL-adress eller en grupp URL-adresser
 * Skapa en flersidig aktivitet
 * Förgranska och skapa upplevelser för responsiva webbplatser
 * Använda övertäckningar för att markera typer av element
@@ -132,7 +133,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 ### Kontorstid: badge för Visual Experience Composer ![Tutorial](/help/assets/tutorial.png)
 
-Den här videon handlar om inspelningen av&quot; [kontorstid](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av Adobes kundtjänstteam.
+Den här videon är en inspelning av&quot; [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
 * Hur VEC fungerar
 * Hur man undviker vanliga problem med VEC
