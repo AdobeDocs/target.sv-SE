@@ -2,17 +2,21 @@
 keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
 description: Information om förväntade dataavvikelser mellan Target och Adobe Analytics när Analytics inte används som rapportkälla (A4T), vilket eliminerar helt olika datavariationer.
 title: Förväntade datavarianser när A4T inte används
+feature: null
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 0%
 
 ---
 
 
 # Förväntade datavariationer mellan Target och Analytics när A4T används och inte används{#expected-data-variances-when-not-using-a-t}
 
-Information om förväntade dataavvikelser mellan [!DNL Target] och Adobe [!DNL Analytics] vid *användning* och *inte* användning av Analytics som rapportkälla (A4T). A4T minskar datavariansen avsevärt.
+Information om förväntade dataavvikelser mellan [!DNL Target] och Adobe [!DNL Analytics] när *Analytics används* och *inte* används som rapportkälla (A4T). A4T minskar datavariansen avsevärt.
 
 ## Förväntad datavarians vid användning av A4T {#expected-using-a4t}
 
@@ -24,7 +28,7 @@ Här följer några scenarier där du kan få en förväntad datavariation:
 
    Om ett omdirigeringstest har ställts in i Target för att dela upp trafik 50/50 (eller 25/25/25/25, osv.), är det inte säkert att användarbeteendet delas jämnt. Om du ser en ojämn delning innebär det helt enkelt att en grupp användare inte kunde genomföra ett Analytics-anrop på landningssidan mer än vad de andra grupperna gjorde. Det här misslyckandet med att köra Analytics-anropet för en grupp gjorde att Target-träffen för den användaren uteslöts, vilket skapade ojämnheten.
 
-   Detta är något vi hoppas kunna ta itu med i framtiden när vi arbetar mot A4T på Adobe Experience Platform. Våra team arbetar på hur de bäst hanterar de olika händelser som inträffar vid olika tidpunkter på sidan.
+   Det här är något vi hoppas kunna ta upp i framtiden när vi arbetar mot A4T på Adobe Experience Platform. Våra team arbetar på hur de bäst hanterar de olika händelser som inträffar vid olika tidpunkter på sidan.
 
    >[!NOTE]
    >
@@ -34,7 +38,7 @@ Här följer några scenarier där du kan få en förväntad datavariation:
 
    En fullständig lista över aktivitetstyper som stöder A4T finns i [Aktivitetstyper](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)som stöds.
 
-## Förväntad datavarians när *inte A4T används*{#expected-not-using-a4t}
+## Förväntad datavarians när *inte A4T används* {#expected-not-using-a4t}
 
 Variationer på 15-20 % är normala, även med liknande datauppsättningar. System som räknas olika kan ge mycket större dataavvikelser, upp till 35-50 %. I vissa fall kan avvikelserna vara ännu högre.
 
