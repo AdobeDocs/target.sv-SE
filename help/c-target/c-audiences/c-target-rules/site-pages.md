@@ -2,10 +2,14 @@
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
 description: Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
 title: Webbplatssidor i Adobe Target
+feature: null
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '838'
+ht-degree: 0%
 
 ---
 
@@ -60,6 +64,7 @@ Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
       * Domän på översta nivån
       * Bana
       * Hash-fragment (#)
+
       >[!NOTE]
       >
       >Objektet återställs vid en underdomänsändring eller direkt URL-ersättning. `landing.url`
@@ -97,6 +102,7 @@ Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
       * Användaragent
       * Via
       * Varning
+
    Om du väljer [!UICONTROL Current Page], [!UICONTROL Previous Page]eller [!UICONTROL Landing Page]så är alternativen [!UICONTROL Domain] och [!UICONTROL Query] tillgängliga. Tänk på följande när du väljer dessa alternativ:
 
    * **Domän:** Sidans fullständiga domän. När du anger en domän bör du använda &quot;contains&quot;. &quot;Domän är lika med facebook.com&quot; accepterar inte `m.facebook.com` eller `www.facebook.com`. &quot;Domänen innehåller facebook.com&quot; accepterar alla varianter av facebook.com.
@@ -132,7 +138,7 @@ enligt nedan:
    * Använd en [A/B-testaktivitet](/help/c-activities/t-test-ab/test-ab.md) i stället för en landningssidaktivitet. A/B-testaktiviteter byter inte upplevelser för samma besökare.
    * Använd en [besökarprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) i stället.
 
-* När du använder &quot;begin/ends with&quot;-utvärderare för strängar som innehåller kommatecken, ska du tänka på att dessa utvärderas som en array med värden där varje värde som avgränsas med kommatecken utvärderas. Om vi till exempel har värdet för en rubrik: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` uppfyller villkoren:
+* När du använder &quot;begin/ends with&quot;-utvärderare för strängar som innehåller kommatecken, ska du tänka på att dessa utvärderas som en array med värden där varje värde som avgränsas med kommatecken utvärderas. Om vi till exempel har värdet för en rubrik: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` den uppfyller följande villkor:
    * börjar med zh,
    * börjar med en,
    * slutar med 0,7,
