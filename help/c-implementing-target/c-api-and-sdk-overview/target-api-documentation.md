@@ -1,20 +1,24 @@
 ---
 keywords: api;adobe i/o
-description: Information som hjälper dig att använda övergång från äldre Target-API:er till nya API:er i Adobe I/O.
+description: Information som hjälper dig att använda övergång från äldre Target-API:er till nya API:er på Adobe I/O.
 title: Övergång från äldre Target-API:er till Adobe I/O
+feature: null
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 0%
 
 ---
 
 
 # Övergång från äldre Target-API:er till Adobe I/O{#transition-from-target-legacy-apis-to-adobe-i-o}
 
-Information som hjälper dig att använda övergång från äldre Target-API:er till nya API:er i Adobe I/O.
+Information som hjälper dig att använda övergång från äldre Target-API:er till nya API:er på Adobe I/O.
 
-När Adobe Target Classic har tagits bort har även de API:er som är anslutna till ditt Target Classic-konto gjorts otillgängliga. Det här dokumentet hjälper dig att övergå dina gamla API-baserade integreringar till Target-API:erna som drivs av Adobe I/O.
+När Adobe Target Classic har tagits bort har även de API:er som är anslutna till ditt Target Classic-konto gjorts otillgängliga. Det här dokumentet hjälper dig att övergå dina gamla API-baserade integreringar till mål-API:erna som drivs av Adobe I/O.
 
 Mer information om Target API-dokumentationen finns i [Target API:er och NodeJS SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
@@ -32,9 +36,9 @@ De äldre API:erna kommer att tas bort när du stänger Target Classic:
 | Datum | Detaljer |
 |--- |--- |
 | 17 oktober 2017 | Alla API-metoder som utför en write-åtgärd (`saveCampaign`, `copyCampaign`, `saveHTMLOfferContent`och `setCampaignState`) har tagits bort.<br>Detta är samma datum som när alla användarkonton för Target Classic var skrivskyddade. |
-| 14 november 2017 | De återstående API:erna har tagits bort. Det här är det datum då användargränssnittet för Target Classic togs bort |
+| 14 november 2018 | De återstående API:erna har tagits bort. Det här är det datum då användargränssnittet för Target Classic togs bort |
 
-Rekommendationer i klassiska API:er påverkas inte av den här tidslinjen.
+Recommendations Classic-API:er påverkas inte av den här tidslinjen.
 
 ## Likvärdiga metoder {#section_DDB42CCC172545B09CB728D794CC466B}
 
@@ -66,4 +70,4 @@ Kontakta din Customer Success Manager om du behöver ett undantag.
 
 ## Hjälp {#section_591F850E2B7A4342B1C233693425415C}
 
-Kontakta Adobe Target Client Care (tt-support@adobe.com) om du har några frågor eller behöver hjälp med att gå över till de nya Target-API:erna i Adobe I/O.
+Kontakta Adobe Target Client Care (tt-support@adobe.com) om du har några frågor eller behöver hjälp med att gå över till de nya mål-API:erna på Adobe.
