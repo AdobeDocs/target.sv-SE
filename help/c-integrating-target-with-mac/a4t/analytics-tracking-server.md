@@ -2,9 +2,10 @@
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: Om du använder en äldre version av at.js eller mbox.js måste du ange en analysspårningsserver för aktiviteter som använder Analytics för Target (A4T).
 title: Använda en analysspårningsserver
+feature: null
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Felsökaren bör visas på en sida där aktiviteten kommer att levereras för at
 
 1. Öppna sidan som du skapar aktiviteten på [!DNL Adobe Experience Cloud Debugger].
 
-   Om du inte har installerat felsökaren läser du [Installera Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
+   Om du inte har installerat felsökningsprogrammet läser du [Installera Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -35,6 +36,7 @@ Felsökaren bör visas på en sida där aktiviteten kommer att levereras för at
    * (för CNAME-implementeringar)
    * (för implementeringar som inte är installerade på RDC)
    * (för implementering av RDC)
+
    *Företag* representerar [!DNL Analytics] företagsnamnet, *mått* är ett exempel på ett CNAME-värde och *d1* är ett exempel på ett [!DNL Analytics] datacenter.
 1. Kopiera allt innehåll i fältet.
 1. Klistra in spårningsserverinformationen i fältet i [!UICONTROL Reporting Settings] delen av [!UICONTROL Goal & Settings] **[!UICONTROL Tracking Server]** aktivitetens skärm.
