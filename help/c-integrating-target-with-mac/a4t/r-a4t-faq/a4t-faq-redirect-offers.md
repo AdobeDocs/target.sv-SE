@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om att använda omdirigeringserbjudanden när Analytics används som rapportkälla för Target (A4T).
 title: Omdirigeringserbjudanden - A4T FAQ
+feature: null
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -69,14 +70,14 @@ Följande frågesträngsparametrar är associerade med omdirigeringserbjudanden:
 
 | Parameter | Beskrivning |
 |--- |--- |
-| `adobe_mc_sdid` | Parametern skickar `adobe_mc_sdid` tilläggs-ID (SDID) och Experience Cloud-organisations-ID från standardsidan till den nya sidan så att A4T kan sammanfoga målbegäran på standardsidan med Analytics-begäran på den nya sidan. |
+| `adobe_mc_sdid` | Parametern skickar `adobe_mc_sdid` SDID (Additional Data Id) och Experience Cloud Org Id från standardsidan till den nya sidan så att A4T kan sammanfoga Target-begäran på standardsidan med Analytics-begäran på den nya sidan. |
 | `adobe_mc_ref` | Parametern skickar den refererande URL-adressen för standardsidan till den nya sidan. `adobe_mc_ref` När det används med AppMeasurement.js version 2.1 (eller senare) använder Analytics det här parametervärdet som den refererande URL:en på den nya sidan. |
 
 Parametrarna läggs automatiskt till i omdirigerings-URL:erna när de inbyggda omdirigeringserbjudandena i VEC och formulärbaserad Experience Composer används när besökar-ID-tjänsten implementeras på sidan. Om du använder din egen anpassade omdirigeringskod i VEC eller formulärbaserad disposition måste du se till att skicka de här parametrarna med din anpassade kod.
 
 ## Mina webbservrar tar bort de här parametrarna från mina URL:er, vad ska jag göra? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Du måste arbeta med IT-avdelningen för att få parametrarna ( `adobe_mc_sdid` och `adobe_mc_ref`) tilldelade.
+Du måste samarbeta med IT-avdelningen för att få dessa parametrar ( `adobe_mc_sdid` och `adobe_mc_ref`) tillåtslista.
 
 ## Vad händer om jag inte använder A4T med min omdirigeringsaktivitet och inte vill att de här extra parametrarna ska läggas till i mina URL:er? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -90,7 +91,7 @@ Om du använder A4T och omdirigeringserbjudanden lägger Target till parametrarn
 
 På grund av den här dubbla kodningen när besökar-API:t försöker avkoda `adobe_mc_sdid` värdet går det inte att extrahera SDID-värdet och generera ett nytt SDID. Detta leder till att felaktiga SDID-värden skickas till Target och Analytics, och du kommer att se en ojämn delning för omdirigeringar i Analytics-rapporter.
 
-Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att `adobe_mc_ref` och `adobe_mc_sdid` får tillåtelser så att dessa värden inte förändras på något sätt.
+Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att `adobe_mc_ref` och `adobe_mc_sdid` tillåtslista så att dessa värden inte förändras på något sätt.
 
 ## Varför måste den refererande URL:en skickas till den nya sidan? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
