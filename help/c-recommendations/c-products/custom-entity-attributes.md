@@ -2,9 +2,13 @@
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Använd anpassade entitetsattribut med ett eller flera värden för att definiera ytterligare information om objekt i din katalog.
 title: Anpassade entitetsattribut
+feature: null
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +56,7 @@ När ett anpassat attribut har skickats som en giltig JSON-array behandlas attri
 
 >[!NOTE]
 >
->Om du vill ändra ett attribut från flera värden till ett enda värde måste du ta bort katalogen och överföra korrigerade produktdata. När du tar bort katalogen tas inte de historiska data som är kopplade till dina produkt-ID:n bort. Mer information finns i [Ta bort alla objekt från systemet](../../assets/adobe-recommendations-classic.pdf) i dokumentationen till *Adobe Recommendations Classic* .
+>Om du vill ändra ett attribut från flera värden till ett enda värde måste du ta bort katalogen och överföra korrigerade produktdata. När du tar bort katalogen tas inte de historiska data som är kopplade till dina produkt-ID:n bort. Mer information finns i [Ta bort alla objekt från systemet](../../assets/adobe-recommendations-classic.pdf) i *Adobe Recommendations Classic* -dokumentationen.
 
 **Begränsningar**:
 
@@ -127,7 +131,7 @@ Du kan skicka flervärdesattribut med leverans-API:t i en mbox-parameter som ett
   }
 ```
 
-Se dokumentationen [för](http://developers.adobetarget.com/api/recommendations) Adobe Recommendations API för information om hur du använder enhets-API:erna Delivery och Save.
+Mer information om hur du använder enhets-API:erna Delivery och Save finns i dokumentationen [för](http://developers.adobetarget.com/api/recommendations) Adobe Recommendations API.
 
 ## Använda operatorer med attribut för flera värden {#section_83C2288A805242D9A02EBC4F07DEE945}
 
