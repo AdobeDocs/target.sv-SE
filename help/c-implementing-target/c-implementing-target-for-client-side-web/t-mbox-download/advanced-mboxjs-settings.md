@@ -2,9 +2,10 @@
 keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Information som hjälper dig att ange flera inställningar på sidan med inställningar för mbox.js.
 title: Konfigurera mbox.js
+feature: null
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 2%
@@ -30,13 +31,13 @@ När du visar [!UICONTROL Administration > Implementation]den visas klientkoden 
 
 ## Timeout
 
-Timeout för Target-begäran.
+Timeout för målbegäran.
 
-Vid visning [!UICONTROL Administration > Implementation]är timeout-inställningen (sekunder) tidsgränsen för din Target-begäran. Som standard är det här värdet 15 sekunder, men vi rekommenderar att du anger ett värde mellan 2 sekunder och 5 sekunder.
+Vid visning [!UICONTROL Administration > Implementation]är timeout (sekunder) inställningen för målbegäran som timeout. Som standard är det här värdet 15 sekunder, men vi rekommenderar att du anger ett värde mellan 2 sekunder och 5 sekunder.
 
 ## XDomain
 
-Avgör om webbläsaren ställer in cookies i din egen domän (cookies från första part), Target domän eller både och.
+Avgör om webbläsaren ställer in cookies i din egen domän (cookies från första part), målets domän eller både och.
 
 Om du ändrar den här inställningen påverkas både mbox.js och at.js.
 
@@ -79,13 +80,13 @@ return &quot;YOUR-DOMAIN&quot;;
 
 Inkluderar eventuellt ytterligare JavaScript som du vill köra på varje sida.
 
-## SiteCatalyst-plugin
+## SiteCatalyst plug-in
 
 Aktiverar plugin-programmet Analytics Target.
 
-Om det här alternativet är aktiverat genereras plugin-programkod i mbox.js i Analytics. Detta skickar tagginformation från Analytics till Target-servrar som en mbox-begäran på varje sida som taggas med Analytics.
+Om det här alternativet är aktiverat genererar Analytics-plugin-programmet plugin-kod i mbox.js. Detta skickar Analytics-tagginformation till Target-servrar som en mbox-begäran på varje sida som taggas med Analytics.
 
-Observera att plugin-programmet för Analytics fortfarande måste refereras till på sidan.
+Observera att plugin-programmet Analytics fortfarande måste refereras till på sidan.
 
 ## secureOnly
 
