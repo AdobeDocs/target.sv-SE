@@ -2,18 +2,22 @@
 keywords: at.js;functions;javascript library
 description: Lista över funktioner som kan användas med JavaScript-biblioteket at.js i Adobe Target.
 title: Funktioner i Adobe Target at.js
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 0%
 
 ---
 
 
 # Funktionerna at.js{#at-js-functions}
 
-Lista över funktioner som kan användas med Adobe Target at.js JavaScript-biblioteket. Klicka på länkarna i kolumnen Funktion för mer information och exempel.
+Lista över funktioner som kan användas med Adobe Target at.js JavaScript-bibliotek. Klicka på länkarna i kolumnen Funktion för mer information och exempel.
 
 |  -funktion | Detaljer |
 | --- | --- | 
