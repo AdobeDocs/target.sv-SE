@@ -1,11 +1,12 @@
 ---
 description: Använd det här alternativet när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
 title: Omdirigera till en URL
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
