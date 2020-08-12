@@ -1,10 +1,14 @@
 ---
 keywords: Targeting;audience filter;audiences;filter
-description: Målgruppsfilter i Adobe Target (eller målgrupper) är grupper med besökare som delar en specifik egenskap eller uppsättning egenskaper.
+description: Målgruppsfilter i Adobe Target (eller målgrupper) är grupper med besökare som delar en viss egenskap eller uppsättning egenskaper.
 title: Målgruppsfilter för rapportering i Adobe Target
+feature: null
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '482'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +37,6 @@ I följande avsnitt finns mer information om hur du skapar och rapporterar om m�
 | Skapa lämplig aktivitet eller test. | [Verksamheter och tester](/help/c-intro/target-key-concepts.md) |
 | Skapa målgrupper, om det behövs. | [Skapa en publik](/help/c-target/c-audiences/create-audience.md) |
 | Kombinera flera målgrupper, om det behövs. | [Kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md) |
-| Använd målgrupper på aktivitetens sida med mål och inställningar. | A/B-test: [Mål och](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>inställningarAutomatiserad personalisering:  [Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>personaliseringUpplevelser: [Mål och](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>inställningarMultivariattest:  [Mål och](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>inställningarRekommendationer: [Rekommendationer](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>aktivitetsinställningarAktivitetsinställningar: [Aktivitetsinställningar](/help/c-activities/activity-settings.md) |
+| Använd målgrupper på aktivitetens sida med mål och inställningar. | A/B-test: [Mål och](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>inställningarAutomatiserad personalisering:  [Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>personaliseringUpplevelseanpassning: [Mål och](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>inställningarMultivariata tester:  [Mål och](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>inställningarRekommendationer: [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>aktivitetsinställningarAktivitetsinställningar: [Aktivitetsinställningar](/help/c-activities/activity-settings.md) |
 | Visa rapporter med information om era målgruppsfilter. | [Rapportinställningar](/help/c-reports/c-report-settings/report-settings.md) |
 
