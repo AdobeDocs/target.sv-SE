@@ -2,9 +2,13 @@
 keywords: at.js;sdk;release;updates;sdks;server side;serverside;server-side;java;java sdk
 description: Versionsinformation om Adobe Target Java SDK.
 title: Versionsinformation om Adobe Target Java SDK.
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 0%
 
 ---
 
