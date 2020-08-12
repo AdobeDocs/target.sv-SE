@@ -2,10 +2,11 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
 title: Värdar
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 0%
@@ -88,7 +89,7 @@ Om en [!DNL Target] begäran görs på en obehörig värd besvaras samtalet med 
 >
 >**Bästa praxis** för säkerhet: Om du använder funktionen ubox i [!DNL Target]bör du tänka på att den här tillåtelselista även styr listan över domäner som [omdirigeringarna](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista lämnas ospecificerat kan [!DNL Adobe] inte verifiera omdirigerings-URL:er och skydda mot potentiella skadliga omdirigeringar.
 >
->tillåtelselista har företräde framför miljöer. Du bör rensa bort alla värdar innan du använder funktionen tillåtelselista, så visas bara de värdar som tillåts av tillåtelselista i din värdlista. Du kan sedan flytta värdarna till den önskade miljön.
+>Tillåtelselista har företräde framför miljöer. Du bör rensa bort alla värdar innan du använder funktionen tillåtelselista, så visas bara de värdar som tillåts av tillåtelselista i din värdlista. Du kan sedan flytta värdarna till den önskade miljön.
 
 Ibland visas domäner från andra platser i dina miljöer. En domän visas i listan om domänen gör ett anrop till at.js eller mbox.js. Om någon t.ex. kopierar en av dina webbsidor till sin server, visas den domänen i din miljö. Du kan också se domäner från spindelmotorer, översättarplatser eller lokala diskenheter.
 
