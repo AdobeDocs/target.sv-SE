@@ -1,12 +1,13 @@
 ---
 keywords: Click tracking;track clicks;clicks;AppMeasurement
-description: Med Target kan du spåra klick på olika element som framgångsmått.
+description: Med Target kan du spåra klick på ett element som ett framgångsmått.
 title: Klickspårning
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # Klickspårning{#click-tracking}
 
-Med Target kan du spåra klick på olika element som framgångsmått.
+Med Target kan du spåra klick på ett element som ett framgångsmått.
 
 >[!NOTE]
 >
@@ -39,7 +40,7 @@ När en aktivitetsdeltagare klickar på ett markerat element räknas det klicket
 
 ## Panelen Markerade element {#selected-elements}
 
-För A/B-test, Experience Targeting (XT), Automated Personalization (AP) och Multivariate Test (MVT) visas en [!UICONTROL Selected Elements] panel med alla valda element för klickspårning till höger.
+För A/B-tester, Experience Targeting (XT), Automated Personalization (AP) och Multivariate Test (MVT) visas en [!UICONTROL Selected Elements] panel med alla markerade element för klickspårning till höger.
 
 ![Panelen Markerade element](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
@@ -90,7 +91,7 @@ Det finns flera saker att tänka på när du markerar element:
    | $ | Dollar-tecken |
    | `[ ]` | Fyrkantiga parenteser |
 
-* Om du använder [!DNL at.js] klickspårning och även använder Analytics AppMeasurement, avbryts alla andra klickhändelsehanterare när du [!DNL at.js] klickar på spårning. Därför körs aldrig klickhanteraren för AppMeasurement.
+* Om du använder [!DNL at.js] klickspårning och även använder Analytics AppMeasurement, avbryts alla andra klickhändelsehanterare när du klickar på spårning [!DNL at.js] . Därför körs aldrig klickhanteraren för AppMeasurement.
 
    [!DNL at.js] har specialhantering för klickspårning när det underliggande elementet är en `A` (link)-tagg eller - `FORM` -tagg.
 
@@ -98,13 +99,14 @@ Det finns flera saker att tänka på när du markerar element:
 
    1. Anropa `event.preventDefault()`.
 
-   1. Starta Target.
+   1. Fire Target-begäran.
 
-   1. Kör standardbeteendet om Target begär att programmet ska lyckas eller göra ett felanrop:
+   1. Kör standardbeteendet om Target-begäran lyckas eller om ett fel uppstår:
 
       * `A` (link)-tagg: Standardbeteendet är att navigera till den URL som definieras av HREF-attributet.
       * `FORM` tagg: Standardbeteendet är att skicka formuläret.
-   Detta standardbeteende kan störa Analytics klickspårning. Om du använder Analytics bör du förlita dig på Analytics för klickspårning i stället för på Target.
+
+   Detta standardbeteende kan störa klickspårningen i Analytics. Om ni använder Analytics bör ni förlita er på Analytics för klickspårning i stället för Target.
 
 * Klickspårning registreras inte på sidor där sid- och aktivitets-URL:en tillhör olika egenskaper. Enterprise-användarbehörigheter är en Target Premium-funktion. Mer information finns i [Enterprise-användarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
