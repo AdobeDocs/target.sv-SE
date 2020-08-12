@@ -2,9 +2,10 @@
 keywords: Targeting;experience;add experience;experience add
 description: Visual Experience Composer (VEC) i Adobe Target ger ett visuellt gränssnitt för att redigera upplevelserna på din sida.
 title: Lägg till upplevelse
+feature: null
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Mer information om upplevelser finns i [Erfarenheter](../../../c-experiences/exp
 
    När du håller muspekaren över elementen på sidan markeras elementen. Alla markerade element kan ändras med Experience Composer.
 
-   Om du har skapat en [!DNL Target] begäran på sidan med Target Classic (tidigare Test&amp;Target) visas den [!DNL Target] som ett element som visar begäransnamnet och kan ändras som vilket element som helst.
+   Om du skapade en [!DNL Target] begäran på sidan med Target Classic (tidigare Test&amp;Target), visas den [!DNL Target] begäran som ett element som visar begäransnamnet och kan ändras som vilket element som helst.
 
    En lista över åtgärder som kan utföras på ett element på den sida som visas för att ändra upplevelsen finns i Alternativ för [visuella Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
