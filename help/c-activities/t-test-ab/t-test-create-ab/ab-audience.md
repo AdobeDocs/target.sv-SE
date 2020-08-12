@@ -2,10 +2,14 @@
 keywords: audience;select audience;choose audience;Selectors
 description: Publiken avgör vilka besökare som läggs in i din aktivitet.
 title: Välj målgrupp
+feature: null
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +50,7 @@ Du kan också välja att låta Target [tilldela trafik automatiskt](../../../c-a
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Använda målgrupper i Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
+### Using Audiences in Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
 
 I den här videon förklaras hur du använder målgrupper i [!DNL Target Standard/Premium].
 
