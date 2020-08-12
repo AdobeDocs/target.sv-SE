@@ -1,18 +1,22 @@
 ---
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
-description: Målgrupperna i Adobe Target avgör vilka som får se innehåll och upplevelser i en riktad aktivitet.
+description: Publiken i Adobe Target avgör vilka som får se innehåll och upplevelser i en målinriktad aktivitet.
 title: Skapa målgrupper i Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 0%
 
 ---
 
 
 # Skapa målgrupper{#create-audiences}
 
-Målgrupperna i Adobe Target avgör vilka som får se innehåll och upplevelser i en riktad aktivitet.
+Publiken i Adobe Target avgör vilka som får se innehåll och upplevelser i en målinriktad aktivitet.
 
 Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. När du riktar in dig på en aktivitet kan du antingen välja en återanvändbar målgrupp i [!UICONTROL Audiences] listan, [skapa en aktivitetsspecifik målgrupp](/help/c-target/creating-activity-only-audience.md) och rikta in den på den eller [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa en ad hoc-målgrupp.
 
@@ -35,7 +39,7 @@ Listan innehåller alla målgrupper som du kan använda i dina aktiviteter. [!UI
 
 När du arbetar med målgrupper som ursprungligen skapades i AAM får du ett varningsmeddelande från Target om du refererar till en målgrupp i Target-aktiviteter som senare har tagits bort i AAM.
 
-* Om en målgrupp har tagits bort i AAM visas en varningsikon både i [!UICONTROL Audience] listan och i målgruppsväljaren. Ett verktygstips i gränssnittet anger också att målgruppen togs bort i AAM.
+* Om en målgrupp togs bort i AAM visas en varningsikon både i [!UICONTROL Audience] listan och i målgruppsväljaren. Ett verktygstips i användargränssnittet anger också att målgruppen togs bort i AAM.
 * Om du försöker kombinera flera målgrupper med en borttagen målgrupp, eller om du försöker spara en aktivitet som refererar till en borttagen målgrupp, visas ett varningsmeddelande.
 
 Du kan också ange anpassade profilparametrar och `user.` parametrar som mål. När du lägger till en målgrupp klickar du på **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]** och väljer sedan den parameter som du vill använda som mål för aktiviteten. Om den önskade parametern inte visas har parametern inte utlösts av en mbox. Andra anpassade mbox-parametrar finns i den [!UICONTROL Custom Parameters] nedrullningsbara listan.
@@ -62,7 +66,7 @@ Om en målgrupp kombineras med en annan målgrupp och den kombinerade målgruppe
 
 ![](assets/audience_definition_list_usage.png)
 
-Följande målgruppsdefinitionskort är för en publik som importerats från Adobe Experience Cloud. I det här fallet importerades målgruppen från Adobe Audience Manager (AAM).
+Följande grafikkort är avsett för en publik som importerats från Adobe Experience Cloud. I det här fallet importerades målgruppen från Adobe Audience Manager (AAM).
 
 ![Fliken Användning på Audience Definition-kort](assets/audience_definition_mc.png)
 
@@ -71,7 +75,7 @@ Följande information finns för de importerade publiktyperna:
 | Målgruppstyp | Detaljer |
 |--- |--- |
 | Mobila målgrupper | Marknadsföringsnamn, leverantör och modell.<br>Operatorn `matches | does not match` visas i stället för `equals | does not equal`<br>![Importerad mobil publik](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Besökarnas beteendemönster | **user.categoryAffinity:** `categoryAffinity` med `FAVORITE` parameter.<br>![Övervakning](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**av importerad kategoritillhörighet:**Övervakningstjänsten är lika med true.<br>**Ingen övervakningstjänst:** Övervakningstjänsten är lika med false.<br>![Importerad övervakning](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Besökarnas beteendemönster | **user.categoryAffinity:** `categoryAffinity` med `FAVORITE` parameter.<br>![Tillhörighetsövervakning](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**för importerad kategori:**Övervakningstjänsten är lika med true.<br>**Ingen övervakningstjänst:** Övervakningstjänsten är lika med false.<br>![Importerad övervakning](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Målgrupper som använder operatorn NOT | **Enkel regel:** Target visar målgruppen i formatet `[All Visitor AND [NOT [rule]`. En NOT-regel visas med AND med `AllVisitor` målgrupp.<br>![Importerad publik ej](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Tänk på följande när du arbetar med importerade målgrupper:
