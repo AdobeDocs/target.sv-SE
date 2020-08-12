@@ -2,10 +2,14 @@
 keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om att dela mätvärden, målgrupper och rapporter när Analytics används som rapportkälla för Target (A4T).
 title: Dela mått, målgrupper och rapporter - A4T FAQ
+feature: null
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
