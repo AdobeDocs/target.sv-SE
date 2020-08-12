@@ -2,10 +2,11 @@
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Använd mätvärden i en A/B-aktivitet för att avgöra när ett besök lyckas.
 title: Ange mått
+feature: null
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -29,6 +30,7 @@ Mer information om framgångsmått finns i [Success Metrics](../../../c-activiti
    * Konvertering
    * Intäkter
    * Engagemang
+
    Du kan använda vilken som helst av de färdiga mätvärdena för framgång eller skapa ett anpassat framgångsmått. Du kan också markera ett framgångsmått som ett primärt mått. Rapporter och Experience Cloud-kort visar som standard det primära måttet, om ett sådant har angetts.
 1. Ange inställningarna för mätvärden.
 
