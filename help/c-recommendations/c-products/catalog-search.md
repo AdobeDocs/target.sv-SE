@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: Katalogsökningen i Adobe Target hjälper dig att hitta produkterna eller innehållet i din katalog.
 title: Katalogsökning i Adobe Target
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 0%
 
 ---
 
