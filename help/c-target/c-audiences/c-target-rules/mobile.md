@@ -1,11 +1,15 @@
 ---
 keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
-description: Skapa målgrupper i Adobe Target för att rikta in er på mobila enheter baserat på parametrar som mobil enhet, typ av enhet, enhetsleverantör, skärmdimensioner (i pixlar) med mera.
-title: Mobila målgrupper i Adobe Target
+description: Skapa målgrupper i Adobe Target för att inrikta er på mobila enheter baserat på parametrar som mobilenhet, typ av enhet, enhetsleverantör, skärmdimensioner (i pixlar) med mera.
+title: Mobilanvändare i Adobe Target
+feature: null
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 0%
 
 ---
 
@@ -52,6 +56,7 @@ Kunder som använder en anpassad integrering (som inte använder at.js eller Mob
    * OS
    * Skärmhöjd (px)
    * Skärmbredd (px)
+
    >[!NOTE]
    >
    >På grund av de nya ändringarna som introducerades i iOS 12.2 påverkas skapandet av en målgrupp med regler definierade av Device Marketing Name och Device Model som anger iPhone Models. Vi kan inte längre rikta in oss på användare som har iPhone med iOS 12.2 installerat. Men om de användarna inte har iOS 12.2 fortsätter iPhone-modellens mål att fungera korrekt.
