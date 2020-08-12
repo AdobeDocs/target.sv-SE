@@ -1,11 +1,12 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
-description: Systemdiagram i Adobe Target som visar flödet av anrop och information som skickas eller samlas in för en automatiskt skapad global mbox med at.js.
-title: Hur JavaScript-biblioteket Adobe Target at.js fungerar
+description: Adobe Target systemdiagram som visar flödet av anrop och information som skickas eller samlas in för en automatiskt skapad global mbox med at.js.
+title: Hur Adobe Target JavaScript-bibliotek fungerar
+feature: null
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -23,7 +24,7 @@ I en implementering av [!DNL Adobe Target][!DNL Target] på klientsidan leverera
 
 Biblioteket [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) at.js är det nya implementeringsbiblioteket för Target. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js är det rekommenderade implementeringsbiblioteket och uppdateras ofta med nya funktioner. Vi rekommenderar att alla kunder implementerar eller migrerar till den [senaste versionen av at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
-Mer information finns i [Target JavaScript-bibliotek](/help/c-intro/how-target-works.md#libraries).
+Mer information finns i [Mål-JavaScript-bibliotek](/help/c-intro/how-target-works.md#libraries).
 
 I den implementering som [!DNL Target] visas nedan har följande [!DNL Adobe Experience Cloud] lösningar implementerats: Analytics, Target och Audience Manager. Dessutom implementeras följande bastjänster från Experience Cloud: Adobe Launch, Audiences och Visitor ID Service.
 
@@ -40,22 +41,22 @@ Från en högnivåvy finns det några skillnader mellan de två versionerna:
 
 Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.x med Vyer och hur detta förbättrar SPA-integreringen. För att få en bättre introduktion till de koncept som används i at.js 2.x, se Implementering av [Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Target flow with at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Målflöde med at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Steg | Detaljer |
 | --- | --- |
 | 1 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad. ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett valfritt predhide-fragment implementerat på sidan. |
 | 3 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
-| 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, etc.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
+| 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
 | 5 | Baserat på parametrar för URL-begäran och profildata bestämmer du vilka aktiviteter och upplevelser som ska returneras till besökaren för den aktuella sidan och framtida vyer. [!DNL Target] |
 | 6 | Målinriktat innehåll skickas tillbaka till sidan, eventuellt med profilvärden för ytterligare personalisering.<br>Målinriktat innehåll på den aktuella sidan visas så snabbt som möjligt utan att du behöver flimra standardinnehållet.<br>Målanpassat innehåll för vyer som visas som ett resultat av användaråtgärder i en SPA cachelagras i webbläsaren så att det kan tillämpas direkt utan ett extra serveranrop när vyerna aktiveras via `triggerView()`. |
-| 7 | Analytics data skickas till datainsamlingsservrar. |
-| 8 | Målinriktade data matchas mot Analytics-data via SDID och bearbetas till Analytics rapportlagring.<br>Analytics-data kan sedan visas i både Analytics och Target via Analytics for Target-rapporter (A4T). |
+| 7 | Analysdata skickas till datainsamlingsservrar. |
+| 8 | Målinriktade data matchas mot analysdata via SDID och bearbetas till lagringsplatsen för analysrapporter.<br>Analysdata kan sedan visas i både Analytics- och Target-rapporter via Analytics for Target-rapporter (A4T). |
 
 Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett serveranrop, oavsett var i SPA-filen `triggerView()` implementeras. `triggerView()` skickar också en meddelandebegäran till [!DNL Target] backend-objektet för att öka antalet och registrera antalet visningar. Mer information om at.js för SPA med vyer finns i Implementering [av](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Single Page-program.
 
-![Target flow at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Målflöde at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Steg | Detaljer |
 | --- | --- |
@@ -63,8 +64,8 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target] Profile Store för att räkna besökaren i aktiviteten och ökningsvärdena. |
-| 5 | Analytics-data skickas till datainsamlingsservrar. |
-| 6 | Target data matchas mot Analytics-data via SDID och bearbetas till Analytics rapporteringslager. Analytics data kan sedan visas i både Analytics och Target via A4T-rapporter. |
+| 5 | Analysdata skickas till datainsamlingsservrar. |
+| 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
 
 ### Video - at.js 2.x - arkitekturdiagram
 
@@ -76,7 +77,7 @@ Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.co
 
 ## at.js 1.x-diagram
 
-![Target flow - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Målflöde - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Steg | Beskrivning | Utlysning | Beskrivning |
 |--- |--- |--- |--- |
@@ -87,7 +88,7 @@ Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.co
 
 ### Video - kontorstid: at.js tips och översikt (26 juni 2019)
 
-Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av Adobes kundtjänstteam.
+Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
 * Fördelar med att använda at.js
 * at.js-inställningar
