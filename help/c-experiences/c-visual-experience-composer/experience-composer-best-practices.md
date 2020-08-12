@@ -2,10 +2,11 @@
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: Med hjälp av bästa praxis kan ni få era upplevelser att fungera som förväntat. Det finns även andra tips och begränsningar som du bör känna till när du använder Visual Experience Composer (VEC).
 title: Visuell Experience Composer - bästa praxis och begränsningar
+feature: null
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Om du vill aktivera Förbättrad Experience Composer på aktivitetsnivå när du
 
 **Du kan tillåtslista vissa IP-adresser om Förbättrad Visual Experience Composer inte läses in på säkra sidor på din webbplats.**
 
-Problem med att läsa in den utökade Visual Experience Composer kan lösas genom att du tillåtslista följande IP-adresser. De här IP-adresserna är till för Adobes server och används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på webbplatsen behöver inte tillåtelselistad IP-adresser.
+Problem med att läsa in den utökade Visual Experience Composer kan lösas genom att du tillåtslista följande IP-adresser. De här IP-adresserna är för Adobe-servern som används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på webbplatsen behöver inte tillåtslista dessa IP-adresser.
 
 USA: 52.55.99.45, 54.80.158.92 och 54.204.197.253
 
@@ -49,7 +50,7 @@ Asien-Stillahavsområdet (APAC): 52.193.67.35, 54.199.198.109 och 54.199.241.57
 
 Allt som finns omedelbart inuti body-elementet ska ha ett unikt ID. Om nya element infogas i brödtexten och koden flyttas runt, är det lättare att identifiera åtminstone de överordnade elementen.
 
-Adobe Target behöver inga ID, men om du använder ID:n blir upplevelserna som skapas med upplevelsedispositionen tillförlitligare. Target använder CSS-väljare för att ändra innehållet när upplevelsen levereras. När du redigerar en upplevelse fäster Visual Experience Composer väljaren till det närmaste överordnade objektet med ett id-attribut som inte är null till det HTML-element som ändras. Därför är det inte tillrådligt att använda någon mekanism, inklusive JavaScript-bibliotek, som ställer in eller ändrar HTML ID-attribut. Även om dessa ID:n kan vara tillgängliga för Target Experience Composer för att skapa aktiviteter kan ID:n som användes när upplevelsen skapades inte vara tillgängliga när upplevelsen körs om JavaScript ändrar ID:n. Om ett ID inte är tillgängligt misslyckas väljaren som är förankrad till ID:t.
+Adobe Target behöver inga ID, men om du använder ID:n blir upplevelserna som skapas med upplevelsedispositionen tillförlitligare. Target använder CSS-väljare för att ändra innehållet när upplevelsen levereras. När du redigerar en upplevelse fäster Visual Experience Composer väljaren till det närmaste överordnade objektet med ett id-attribut som inte är null till det HTML-element som ändras. Därför är det inte tillrådligt att använda någon mekanism, inklusive JavaScript-bibliotek, som ställer in eller ändrar HTML ID-attribut. Dessa ID:n kan vara tillgängliga för Target Experience Composer för att skapa aktiviteter, men om JavaScript ändrar ID:n är det ID som användes när upplevelsen skapades kanske inte tillgängligt när upplevelsen körs. Om ett ID inte är tillgängligt misslyckas väljaren som är förankrad till ID:t.
 
 **Namnge CSS-klasser så att de är lätta att identifiera.**
 
