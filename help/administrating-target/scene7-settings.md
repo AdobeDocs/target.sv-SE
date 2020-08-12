@@ -1,11 +1,12 @@
 ---
-description: Target Standard kan integreras med Adobe Dynamic Media Classic (tidigare Scene7) för att ge DAM (Digital Asset Management) i innehållsbiblioteket.
+description: Target Standard kan integreras med Adobe Dynamic Media Classic (tidigare Scene7) för att tillhandahålla DAM (Digital Asset Management) i innehållsbiblioteket.
 title: Integrering med Dynamic Media Classic
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Scene7-konfiguration {#scene-settings}
 
-Target kan integreras med [!DNL Adobe Dynamic Media Classic] (tidigare [!DNL Scene7]) Digital Asset Management (DAM) i innehållsbiblioteket.
+Target kan integreras med [!DNL Adobe Dynamic Media Classic] (tidigare [!DNL Scene7]) för att ge DAM (Digital Asset Management) i innehållsbiblioteket.
 
 >[!NOTE]
 >
