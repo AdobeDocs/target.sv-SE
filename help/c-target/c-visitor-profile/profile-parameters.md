@@ -2,10 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Profilattribut är parametrar som är specifika för besökaren. Dessa attribut lagras i besökarens profil för att ge information om besökaren som kan användas i dina Adobe Target-aktiviteter.
 title: Profilattribut i Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Profilattribut är parametrar som är specifika för en besökare. Dessa attribut lagras i besökarens profil för att ge information om besökaren som kan användas i dina aktiviteter.
 
-En användarprofil innehåller demografisk information och beteendeinformation om en besökare på en webbsida, t.ex. ålder, kön, köpta produkter, sista besökstillfället och så vidare, som Target använder för att anpassa det innehåll som besökaren ska använda.
+En användarprofil innehåller demografisk information och beteendeinformation om en besökare på en webbsida, t.ex. ålder, kön, köpta produkter, sista besökstillfället och så vidare, som Target använder för att anpassa innehållet som det är avsett för besökaren.
 
 När en besökare surfar på webbplatsen, eller när besökaren återgår till en annan session, kan de sparade profilattributen i profilen användas för att rikta innehåll eller logginformation för segmentfiltrering.
 
@@ -35,7 +36,7 @@ Så här ställer du in profilattribut:
 
    | Parametertyp | Beskrivning |
    |--- |--- |
-   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Obs **: Target har en gräns på 50 unika profilattribut per mbox-anrop. Om du behöver skicka mer än 50 profilattribut till Target kan du skicka dem med API-metoden för profiluppdatering. Mer information finns i[Profiluppdatering i Adobe Target API-dokumentationen](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Obs **: Målet har en gräns på 50 unika profilattribut per mbox-anrop. Om du behöver skicka mer än 50 profilattribut till Target kan du skicka dem med API-metoden för profiluppdatering. Mer information finns i[Profiluppdatering i Adobe Target API-dokumentationen](http://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Definieras direkt med ett JavaScript-kodfragment. Dessa kan lagra summor som förbrukas av konsumenten och körs på varje mbox-begäran. Se Profilskriptattribut nedan. |
 
 ## Profilskriptattribut {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -44,7 +45,7 @@ Definiera ett profilskriptattribut med tillhörande JavaScript-kodfragment.
 
 Du kan använda profilskript för att hämta besökarattribut vid flera besök. Profilskript är kodfragment som definieras i Target med en form av JavaScript på serversidan. Du kan till exempel använda ett profilskript för att ta reda på hur ofta en besökare besöker webbplatsen och när de senast besöktes.
 
-Profilskript är inte desamma som profilparametrar. Profilparametrar samlar in information om besökare som använder mbox-kodimplementeringen i Target.
+Profilskript är inte desamma som profilparametrar. Profilparametrar samlar in information om besökare som använder mbox-kodimplementeringen för Target.
 
 ## Skapa profilskript {#section_CB02F8B97CAF407DA84F7591A7504810}
 
@@ -104,11 +105,11 @@ På fliken [!UICONTROL Script Usage] visas de aktiviteter (och deras arbetsytor)
 > * Innehållet eller erbjudandet som används i aktiviteten använder skriptvariabler (antingen ett infogat erbjudande inom aktiviteten eller ett erbjudande inom erbjudandebiblioteket).
 
 
-## Target inaktiverar profilskript i vissa situationer {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
+## Målet inaktiverar profilskript i vissa situationer {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
 [!DNL Target] inaktiverar automatiskt profilskript i vissa situationer, t.ex. om det tar för lång tid att köra dem eller om de har för många instruktioner.
 
-När ett profilskript är inaktiverat visas en gul varningsikon bredvid profilskriptet i Target-gränssnittet, vilket visas nedan:
+När ett profilskript är inaktiverat visas en gul varningsikon bredvid profilskriptet i målgränssnittet, vilket visas nedan:
 
 ![](assets/profile_script_invalid.png)
 
@@ -120,7 +121,7 @@ Vanliga orsaker till att systemet inaktiverar profilskript är:
 
 * En odefinierad variabel som refereras.
 * Ett ogiltigt värde refereras. Detta beror ofta på att URL-värden refereras och andra användarindata inte validerats korrekt.
-* För många JavaScript-instruktioner används. Target har en gräns på 2 000 JavaScript-instruktioner per skript, men detta kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Det innebär att alla anrop till en funktion kräver 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
+* För många JavaScript-instruktioner används. Målet har en gräns på 2 000 JavaScript-instruktioner per skript, men detta kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Det innebär att alla anrop till en funktion kräver 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
 * Följande objekt är inte markerade i avsnittet om [bästa praxis](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) nedan.
 
 ## God praxis {#best}
@@ -132,7 +133,7 @@ Följande riktlinjer är avsedda att hjälpa dig att skriva förenklade profilsk
 * Använd strängbaserade redigeringsfunktioner jämfört med reguljära uttryck.
 * Använd begränsat för slingor kontra öppna slut för eller while-slingor.
 * Högst 1 300 tecken eller 50 upprepningar av slingor.
-* Använd inte fler än 2 000 JavaScript-instruktioner. Target har en gräns på 2 000 JavaScript-instruktioner per skript, men detta kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
+* Använd inte fler än 2 000 JavaScript-instruktioner. Målet har en gräns på 2 000 JavaScript-instruktioner per skript, men detta kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
 * Tänk inte bara på skriptprestanda, utan även på den kombinerade prestandan för alla skript. Vi rekommenderar sammanlagt färre än 5 000 instruktioner. Att räkna antalet instruktioner är inte uppenbart, men det viktiga att notera är att skript som överskrider 2 000 instruktioner automatiskt inaktiveras. Antalet aktiva profilskript får inte överstiga 300. Varje skript körs med varje enskilt mbox-anrop. Kör bara så många skript som behövs.
 * I ett regex med en punktstjärna i början (t.ex.: `/.*match/`, `/a|.*b/`) behövs nästan aldrig. Regex-sökningen startar från alla positioner i en sträng (om den inte är bunden till `^`), så punktstjärnan antas redan. Skriptkörningen kan avbrytas om en sådan regex matchas med tillräckligt många indata (vilket kan vara så lågt som flera hundra tecken).
 * Om allt misslyckas omsluter du skriptet i en try/catch.
@@ -158,9 +159,9 @@ Följande metoder kan användas för att felsöka profilskript:
 
 * **Lägg till profilskript som svarstoken till felsökningsprofilskript:**
 
-   I Target klickar du **[!UICONTROL Administration]** på, klickar **[!UICONTROL Response Tokens]** och aktiverar sedan det profilskript som du vill felsöka.
+   Klicka **[!UICONTROL Administration]** på Mål **[!UICONTROL Response Tokens]** och aktivera sedan det profilskript som du vill felsöka.
 
-   När du läser in en sida för webbplatsen med Target på den innehåller en del av svaret från Target ditt värde för det angivna profilskriptet, vilket visas nedan:
+   När du läser in en sida för webbplatsen med Target på den kommer en del av svaret från Target att innehålla ditt värde för det angivna profilskriptet, vilket visas nedan:
 
    ![](assets/debug_profile_script_1.png)
 
