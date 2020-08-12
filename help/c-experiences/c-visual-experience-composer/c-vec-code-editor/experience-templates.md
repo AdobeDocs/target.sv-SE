@@ -2,11 +2,15 @@
 keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
 description: Information om Adobe Target Experience Templates som kan användas i anpassad kod. Target Experience Templates är förkodade exempel med konfigurerbara indata som används för att köra vanliga marknadsföringsfall.
 title: Experience Templates
+feature: null
 subtopic: Code Editor
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 0%
 
 ---
 
