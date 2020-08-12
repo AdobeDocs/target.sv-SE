@@ -2,9 +2,13 @@
 keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
 description: Det finns vissa skillnader mellan at.js och mbox.js. I det här avsnittet beskrivs några skillnader och begränsningar som hjälper dig att lyckas med at.js.
 title: at.js Begränsningar
+feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +38,7 @@ Eftersom alla rutor nu är asynkrona blockerar de inte sidåtergivning eller ret
 
 * Om du använder en global mbox i den [formulärbaserade Experience Composer](../../../../c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22)ska du tänka på att HTML-erbjudanden bara ska innehålla `<script>`-, `<style>`- och `<link>` -taggar.
 
-   Under leveransen filtreras alla andra HTML-taggar bort när globala mbox-erbjudanden tillämpas [!DNL at.js] . Global Mbox-erbjudanden gäller HTML HEAD, som inte tillåter DIV, SPAN o.s.v. Det `<div>test</div>` går till exempel inte att använda eftersom `<div>` -taggen bara kan användas inuti HTML BODY.
+   Under leveransen filtreras alla andra HTML-taggar bort när globala mbox-erbjudanden tillämpas [!DNL at.js] . Global Mbox-erbjudanden gäller för HTML HEAD, vilket inte tillåter DIV, SPAN o.s.v. Det `<div>test</div>` går till exempel inte att använda eftersom `<div>` -taggen bara kan användas inuti HTML BODY.
 
 * Äldre sidbaserad [!DNL Target] till [!DNL Analytics] integration fungerar inte.
 
