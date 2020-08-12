@@ -2,9 +2,10 @@
 keywords: Targeting
 description: Aktivitets-URL:en bestämmer vilken sida som används i aktiviteten Experience Targeting och som öppnas i Adobe Target Visual Experience Composer (VEC) eller Form-Based Experience Composer när aktiviteten har designats.
 title: Aktivitets-URL
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -44,6 +45,7 @@ Aktivitets-URL:en bestämmer vilken sida som används i aktiviteten Experience T
    * Hash-fragment (#)
    * Fråga
    * mbox-parameter
+
    Ytterligare regler kan kopplas till aktivitets-URL:en med AND eller OR. Alla regler som du lägger till utvärderas mot varandra med AND.
 
 1. Klicka **[!UICONTROL Save]** när du är klar.
