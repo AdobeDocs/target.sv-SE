@@ -2,9 +2,13 @@
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Skapa målgrupper i Adobe Target för att inrikta er på besökare baserat på den sökmotor eller landningssida som hänvisar dem till er webbplats.
 title: Måltrafikkällor i Adobe Target
+feature: null
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
@@ -32,6 +36,7 @@ Du kan kombinera flera trafikkällor för att skapa en komplex målarregel.
    * Referenssida: URL
    * Referenssida: Domän
    * Referenssida: Fråga
+
    Beroende på vad du väljer kan du behöva ange ytterligare information (utvärderare och/eller värden).
 
 1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
