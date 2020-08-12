@@ -2,10 +2,11 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: I vissa webbläsare blockeras visningen av en sida om säkert innehåll blandas med osäkert innehåll.
 title: Aktivera blandat innehåll i webbläsaren
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
