@@ -2,9 +2,13 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Överför en CSV-fil för att anpassa dina rekommendationer.
 title: Överför anpassade villkor
+feature: null
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +78,7 @@ Kontakta kundtjänst om du vill aktivera inställningen för att ignorera befint
 
 Anpassade villkorsfeeds uppdateras en gång var 24:e timme.
 
-Du kan se överförings- och synkroniseringsstatusen för dina anpassade villkorsuppladdningar längst ned på varje kriteriekort på sidan Rekommendationer > Kriterier. Du kan även se statusen i dialogrutan Redigera när du redigerar egna villkor.
+Du kan se överförings- och synkroniseringsstatusen för dina anpassade villkorsuppladdningar längst ned på varje kriteriekort på sidan Recommendations > Villkor. Du kan även se statusen i dialogrutan Redigera när du redigerar egna villkor.
 
 Flödet för en felfri överföring ska vara Schemalagd > Hämta feedfil > Importera > Slutförd.
 
@@ -89,7 +93,7 @@ Följande felmeddelanden är möjliga om Target stöter på ett problem med öve
 | Katalogen hittades inte | Ange en katalog som finns på servern. |
 | Filen hittades inte | Ange namnet på en fil som finns på servern i den angivna katalogen. |
 
-## Utbildningsvideo: Skapa villkor i ![självstudiekursen Rekommendationer (12:33)](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa villkor i Recommendations (12:33) ![självstudiemärke](/help/assets/tutorial.png)
 
 Den här videon innehåller följande information (information om hur du överför anpassade villkor börjar vid 11:43):
 
