@@ -1,19 +1,23 @@
 ---
 keywords: global mbox;implement mbox.js;implement at.js
-description: Information om den globala mbox, ett namn som används för att hänvisa till det enda serveranropet som gjordes högst upp på varje webbsida i Adobe Target-implementeringen.
+description: Information om den globala mbox, ett namn som används för att hänvisa till det enda serveranropet som gjordes högst upp på varje webbsida i din Adobe Target-implementering.
 title: Förstå den globala mbox
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
 
 # Förstå den globala mbox{#understand-the-global-mbox}
 
-Information om den globala mbox, ett namn som används för att hänvisa till det enda serveranropet som gjordes högst upp på varje webbsida i Adobe Target-implementeringen.
+Information om den globala mbox, ett namn som används för att hänvisa till det enda serveranropet som gjordes högst upp på varje webbsida i din Adobe Target-implementering.
 
 Som standard heter den globala mbox [!DNL target-global-mbox]. Den kan vid behov få ett nytt namn för ditt konto.
 
