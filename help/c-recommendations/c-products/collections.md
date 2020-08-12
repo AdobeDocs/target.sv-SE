@@ -2,9 +2,13 @@
 keywords: collection;Targeting
 description: En samling är en uppsättning produkter eller artiklar i Adobe Target som är berättigade till en rekommendation.
 title: Samlingar i Adobe Target
+feature: null
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +43,7 @@ Skapa en samling för att ordna de produkter som du vill visa i dina rekommendat
 
    ![Samlingslista](assets/collections_list.png)
 
-   &quot;Antal objekt&quot; som rapporteras för varje samling i listvyn är antalet produkter som matchar reglerna för den samlingen i den konfigurerade [!UICONTROL Collections] standardvärdgruppen [](/help/administrating-target/hosts.md) Recommendations (miljö). Se [Inställningar](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att ändra standardvärdgruppen.
+   Antalet objekt som rapporteras för varje samling i listvyn är antalet produkter som matchar reglerna för den samlingen i den konfigurerade Recommendations- [!UICONTROL Collections] standardvärdgruppen [](/help/administrating-target/hosts.md) (miljö). Se [Inställningar](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 
@@ -71,7 +75,7 @@ När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel 
 >
 >Funktionen för avancerad sökning är inte skiftlägeskänslig; men de produkter som returneras vid leveranstillfället bygger på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte.
 
-## Utbildningsvideo: Skapa samlingar och uteslutningar i ![självstudiemärket Rekommendationer (7:05)](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa samlingar och undantag i Recommendations (7:05) ![självstudiemärke](/help/assets/tutorial.png)
 
 Den här videon innehåller följande information:
 
