@@ -1,10 +1,11 @@
 ---
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
-description: Rekommendationsaktiviteter i Adobe Target visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Rekommendationer hjälper kunderna att hänvisa till relevanta objekt som de annars kanske inte känner till.
+description: Recommendations-aktiviteter i Adobe Target visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
 title: Adobe Target Recommendations
+feature: null
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: f9bd8faa62acb78f2b605702386ec97747e36556
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-Rekommendationsaktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Rekommendationer hjälper kunderna att hänvisa till relevanta objekt som de annars kanske inte känner till.
+Recommendations-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
 
 >[!NOTE]
 >
 >[!DNL Recommendations] aktiviteter finns tillgängliga som en del av [Target Premium-lösningen](/help/c-intro/intro.md#premium). De finns inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
 >
->Om du har [!DNL Recommendations Classic]en sådan finns mer information om de två lösningarna i [Rekommendationer, klassiska och Rekommendationer Aktiviteter i Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) .
+>Om du har [!DNL Recommendations Classic]det läser du [Recommendations Classic jämfört med Recommendations Activity i Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) för mer information om de två lösningarna.
 
 [!DNL Recommendations] hjälper er att optimera och anpassa realtidsförslag för olika kanaler, appar, sidor, e-postmeddelanden och andra leveransalternativ för att öka engagemanget och konverteringsgraden samtidigt som ni minskar hanteringen.
 
@@ -56,8 +57,8 @@ I den här videon förklaras vilka aktivitetstyper som finns i [!DNL Target Stan
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics webbinarium: Introduktion till ikonen {#intro-to-recs} för ![självstudiekurser om rekommendationer](/help/assets/tutorial.png)
+## Adobe Target Basics Webinar: Introduktion till Recommendations {#intro-to-recs} ![Tutorial badge](/help/assets/tutorial.png)
 
-Webbseminariet *Introduction to Recommendations* (Introduktion till rekommendationer) innehåller en fördjupad genomgång av hur du kan utnyttja fördelarna med [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target] aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till [!DNL Target] användargränssnittet för att få en stegvis översikt över hur du skapar en [!DNL Recommendations] aktivitet.
+Introduktionen *till Recommendations* webbinarium innehåller en fördjupad genomgång av hur du kan utnyttja fördelarna med [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target] aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till [!DNL Target] användargränssnittet för att få en stegvis översikt över hur du skapar en [!DNL Recommendations] aktivitet.
 
-[Introduktion till rekommendationer](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduktion till Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
