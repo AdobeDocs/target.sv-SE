@@ -2,9 +2,10 @@
 keywords: Recommendations
 description: Flera ändringar görs i datainsamlingsprocessen när Analytics aktiveras som rapportkälla för Target (A4T).
 title: Innan du implementerar Adobe Analytics som rapportkälla för Adobe Target (A4T)
+feature: null
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
