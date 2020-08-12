@@ -1,18 +1,22 @@
 ---
 keywords: automated personalization;offer;reporting;group;reporting group
-description: Information om hur du använder rapportgrupper i Automated Personalization (AP)-aktiviteter i Adobe Target.
-title: Erbjud rapportgrupper i Automated Personalization (AP)-aktiviteter i Adobe Target
+description: Information om hur du använder rapportgrupper i Automated Personalization-aktiviteter (AP) i Adobe Target.
+title: Erbjud rapportgrupper i Automated Personalization-aktiviteter (AP) i Adobe Target
+feature: null
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Erbjud rapportgrupper i Automatisk personalisering{#offer-reporting-groups-in-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Erbjud rapporteringsgrupper i Automated Personalization{#offer-reporting-groups-in-automated-personalization}
 
-Information om hur du använder rapportgrupper i [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)-aktiviteter.
+Information om hur du använder rapportgrupper i [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) -aktiviteter.
 
 Rapportgrupper utför två nyckelfunktioner:
 
@@ -21,7 +25,7 @@ Rapportgrupper utför två nyckelfunktioner:
 
 När du använder rapporteringsgrupper skapar [!DNL Target] bara en personaliseringsmodell för varje rapporteringsgrupp i stället för varje erbjudande i din AP-aktivitet med hjälp av data från alla erbjudanden i den gruppen.
 
-Om din aktivitetsinställning inte har tillräckligt med data för att en personaliseringsmodell ska kunna skapas per erbjudande, kan rapporteringsgrupper bidra till att minska datakraven för att använda Automatiserad personalisering. Rapporteringsgrupper kan också bidra till att lösa problemet med att&quot;kalla igång&quot; för nya erbjudanden genom att gruppera liknande erbjudanden så att varje modell får mer data att utbilda sig på. Modelleringsgrupper kan också användas för aktiviteter där nya erbjudanden regelbundet introduceras i din AP-aktivitet.
+Om din aktivitetsinställning inte har tillräckligt med data för att en personaliseringsmodell ska kunna skapas per erbjudande kan rapporteringsgrupper bidra till att minska datakraven för att använda Automated Personalization. Rapporteringsgrupper kan också bidra till att lösa problemet med att&quot;kalla igång&quot; för nya erbjudanden genom att gruppera liknande erbjudanden så att varje modell får mer data att utbilda sig på. Modelleringsgrupper kan också användas för aktiviteter där nya erbjudanden regelbundet introduceras i din AP-aktivitet.
 
 Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i en grupp. Det bästa sättet är att gruppera erbjudanden som liknande grupper av besökare svarar på på liknande sätt. Med andra ord, grupperbjudanden med liknande konverteringsgrader. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp. Att gruppera alla erbjudanden eller grupperingserbjudanden med mycket olika konverteringsgrader minskar troligen personaliseringsmodellernas effektivitet [!DNL Target] .
 
