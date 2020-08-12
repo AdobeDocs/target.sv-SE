@@ -1,10 +1,11 @@
 ---
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
-description: Använd entitetsattribut för att skicka produkt- eller innehållsinformation till rekommendationer.
+description: Använd entitetsattribut för att skicka produkt- eller innehållsinformation till Recommendations.
 title: Entitetsattribut
+feature: null
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) -enhetsattribut{#entity-attributes}
 
-Använd entitetsattribut för att skicka produkt- eller innehållsinformation till rekommendationer.
+Använd entitetsattribut för att skicka produkt- eller innehållsinformation till Recommendations.
 
 ## Tillgängliga variabler
 
@@ -174,11 +175,11 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 >
 >Angivna värden för entitetsattribut upphör att gälla efter 61 dagar. Det innebär att du bör se till att det senaste värdet för varje entitetsattribut skickas till Target Recommendations minst en gång i månaden för varje objekt i din katalog.
 
-Rekommendationer skickar `productId` eller `productPurchasedId` (kallas `entity.id` i koden) som används i algoritmerna.
+Recommendations skickar `productId` eller `productPurchasedId` (kallas `entity.id` i koden) som används i algoritmerna.
 
 >[!NOTE]
 >
->`entity.id` måste matcha den `productPurchasedId` som skickas till orderbekräftelsesidan och den som `productId` används i produktrapporter för Adobe Analytics).
+>`entity.id` måste matcha den `productPurchasedId` som skickas till orderbekräftelsesidan och den som `productId` används i Adobe Analytics produktrapporter).
 
 De flesta fördefinierade parametrar accepterar bara ett enda värde, med nya värden som skriver över gamla värden. Parametern `categoryId` kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nya `categoryId` värden skriver inte över befintliga värden, utan läggs till under entitetsuppdateringen (högst 250 tecken).
 
@@ -186,7 +187,7 @@ I allmänhet kan visningsinformationsrutan se ut som i följande exempel om du a
 
 >[!NOTE]
 >
->Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till Recommendations med at.js 2.*x*, använd [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ett exempel finns i [Planera och implementera rekommendationer](/help/c-recommendations/plan-implement.md).
+>Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till Recommendations med at.js 2.*x*, använd [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ett exempel finns i [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md).
 
 >[!NOTE]
 >
