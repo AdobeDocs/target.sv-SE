@@ -2,9 +2,13 @@
 keywords: content library;assets;search;smart collections;search folder;filter
 description: Sök efter resurser med nyckelord och spara sökmappar, smarta samlingar, som uppdateras automatiskt med sökresultat.
 title: Söka efter innehåll och skapa smarta samlingar
+feature: null
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
