@@ -2,10 +2,14 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit;visitor;partial hit;orphaned;orphan;partial-hit
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om uppblåst besöks- och besökarantal när Analytics används som rapportkälla för Target (A4T).
 title: Uppblåst besök och besökarantal - A4T - vanliga frågor
+feature: null
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +32,7 @@ Mer information finns i [Minimera antalet uppblåsta besök och besökare i A4T]
 
 ## Jag ser en topp i besök. Hur vet jag om de har orsakats av deldataträffar? {#section_28506672C6224ED18AC74F6A02F6F811}
 
-Du kan kontakta [Adobes kundtjänst](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att få fram en rapport om partiella data. Den här informationen är inte tillgänglig direkt i [!DNL Analytics] användargränssnittet.
+Du kan kontakta [Adobe kundtjänst](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att hämta en rapport om partiella data. Den här informationen är inte tillgänglig direkt i [!DNL Analytics] användargränssnittet.
 
 ## Vilka är de potentiella orsakerna till deldataträffar? {#section_C4BB9925CE6444BE8CB9FBEFE5085546}
 
