@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
 description: Lista med vanliga frågor och svar om globala kryssrutor.
 title: Vanliga frågor och svar om Global Mbox
+feature: null
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +22,7 @@ Lista med vanliga frågor och svar om globala kryssrutor.
 
 Endast en global mbox stöds för hela kontot.
 
-Du kan begränsa var dina aktiviteter körs genom att lägga till URL-regler till dina aktiviteter. Mer information finns i [Inkludera samma upplevelse på liknande sidor](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
+Du kan begränsa var dina aktiviteter körs genom att lägga till URL-regler i dina aktiviteter. Mer information finns i [Inkludera samma upplevelse på liknande sidor](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
 Du kan också skicka en parameter på sidan med [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) och sedan välja de parametrarna i avsnittet Konfigurera URL i [!UICONTROL Visual Experience Composer] (VEC) eller genom att lägga till parametrarna som&quot;förbättringar&quot; i den formulärbaserade Experience Composer.
 
