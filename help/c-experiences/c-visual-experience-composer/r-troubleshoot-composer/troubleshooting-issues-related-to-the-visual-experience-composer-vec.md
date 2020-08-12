@@ -2,9 +2,10 @@
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) under vissa förhållanden.
 title: Felsökning av problem relaterade till Visual Experience Composer
+feature: null
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -16,11 +17,11 @@ ht-degree: 0%
 
 Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) under vissa förhållanden.
 
-## När jag öppnar min webbplats i Visual Experience Composer läses inte Target-biblioteken in. (endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## När jag öppnar min webbplats i Visual Experience Composer läses inte målbiblioteken in. (endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target lägger till två parametrar (`mboxEdit=1` och `mboxDisable=1`) när webbplatsen öppnas i Visual Experience Composer.
 
-Om din webbplats (särskilt Single Page Apps) trimmar dina parametrar eller tar bort dem när du navigerar från en sida till en annan (utan att behöva läsa in en sida på nytt) så bryts Target-funktionen och Target-biblioteken läses inte in.
+Om webbplatsen (särskilt Single Page Apps) trimmar bort eller tar bort parametrar när du navigerar från en sida till en annan (utan att behöva läsa in en sida på nytt) så bryter Target-funktionen och Target-biblioteken läses inte in.
 Undvik problemet genom att se till att du inte trimmar eller tar bort de här två parametrarna.
 
 ## Min sida öppnas inte i EEG eller laddas långsamt. Aktiviteter och upplevelser läses in långsamt i VEC. (endast VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
@@ -122,4 +123,4 @@ Kontrollera att den här inställningen är aktiverad och hämta sedan och uppda
 
 ## VEC-värdet visas som brutet när jag använder bläddringsläge. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Om du använder bläddringsläget och har åtkomst till en URL som inte har target.js eller som innehåller ett frame-buster-huvud, visas visuella Experience Composer som brutna. På grund av säkerhetsproblem i webbläsaren kan Target inte komma åt den URL du navigerade till.
+Om du använder bläddringsläget och har åtkomst till en URL som inte har target.js eller som innehåller ett frame-buster-huvud, visas visuella Experience Composer som brutna. På grund av säkerhetsproblem i webbläsaren kan inte Target komma åt den URL du navigerade till.
