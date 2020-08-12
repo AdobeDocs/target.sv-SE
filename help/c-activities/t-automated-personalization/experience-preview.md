@@ -1,28 +1,32 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: URL:er för förhandsgranskning kan genereras för Target Automated Personalization-aktiviteter för att visa upplevelseinnehåll direkt på din webbplats innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
-title: Förhandsgranska automatiserade personaliseringsaktiviteter med förhandsgransknings-URL:er
+title: Förhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelse
+feature: null
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Preview Automated Personalization tasks with experience preview URLs{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUM](/help/assets/premium.png) Förhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelse{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 URL:er för förhandsgranskning kan genereras för Target Automated Personalization-aktiviteter för att visa upplevelseinnehåll direkt på din webbplats innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
 
 >[!NOTE]
 >
->URL:er för förhandsgranskning av automatiserad personalisering skiljer sig från QA-läget för aktivitet. I läget Activity QA kan du skapa aktivitets-URL:er för andra typer av aktiviteter. Mer information finns i [Aktivitets-QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
+>URL:er för förhandsgranskning för Automated Personalization skiljer sig från QA-läget för aktivitet. I läget Activity QA kan du skapa aktivitets-URL:er för andra typer av aktiviteter. Mer information finns i [Aktivitets-QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
 >
 >URL:er för förhandsgranskning av AP-aktiviteter är bara tillgängliga när du använder at.js 1.x. URL:er för förhandsgranskning för AP-aktiviteter stöds för närvarande inte för at.js 2.x.
 
 Använd URL:er för förhandsgranskning av upplevelser för att dela upplevelser med teammedlemmar och till QA-upplevelser i olika webbläsare och miljöer, utan att skapa en separat QA-aktivitet. Den här funktionen är särskilt användbar om en webbplats är komplex eller om dina säkerhetsprofiler inte tillåter att webbplatsen visas i en simulator.
 
-1. Skapa en [automatiserad personaliseringsaktivitet](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller klicka på aktiviteten för att öppna den.
+1. Skapa en [Automated Personalization-aktivitet](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller klicka på aktiviteten för att öppna den.
 
    Aktiviteten behöver inte vara aktiv för att kunna förhandsgranska en upplevelse.
 1. Klicka på de tre lodräta prickarna på sammanfattningssidan och klicka sedan på **[!UICONTROL View Experience URLs]**.
@@ -30,6 +34,7 @@ Använd URL:er för förhandsgranskning av upplevelser för att dela upplevelser
 
    * Om du använder Visual Experience Composer anges den standardwebbadress du angav för aktiviteten automatiskt och en länk skapas för varje upplevelse i din aktivitet. Du kan ändra den här URL-adressen och lägga till andra om du vill.
    * Om du använder formulärbaserad Experience Composer anges ingen standard-URL automatiskt. Om du inte redan har skapat URL:er för förhandsgranskning av upplevelse klickar du på **Lägg till ny URL**. Du måste ange alla URL-adresser som du vill förhandsgranska samt ett namn för varje URL-adress.
+
    Du kan lägga till flera URL-adresser, vilket är användbart när du kör ett flersidigt test eller ett malltest, och du vill förhandsgranska aktiviteten på mer än en sida.
 
    Ett modalt fönster visar länkar till era upplevelser på er webbplats för att få en&quot;riktig förhandsvisning&quot; av upplevelserna utanför Target Visual Experience Composer. Du måste dela länkarna från meddelandet för att kunna dela förhandsgranskningen. Det går inte att klicka på en länk och sedan kopiera den resulterande URL-adressen från sidan eftersom URL-adressen innehåller en parameter som bara visar sidan korrekt när du öppnar sidan från länken i meddelandet. I stället kopierar du texten i det modala fönstret och mejlar hela texten till teamet.
