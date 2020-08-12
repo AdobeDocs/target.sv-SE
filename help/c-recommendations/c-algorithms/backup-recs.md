@@ -2,9 +2,10 @@
 keywords: recommendation;backup;back up
 description: Om du använder funktionen för rekommendation av säkerhetskopia kommer eventuella rekommendationer som inte har tillräckligt många rekommenderade objekt inte att visa standardinnehåll. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 title: Använd en rekommendation för säkerhetskopiering
+feature: null
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
