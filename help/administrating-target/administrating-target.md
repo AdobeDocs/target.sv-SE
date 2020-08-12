@@ -2,11 +2,12 @@
 keywords: setting up;setup;set-up;set up;administration
 description: Information som hjälper dig att konfigurera Adobe Target, inklusive inställningar, implementering, användarhantering, egenskaper, Scene7-konfiguration, värdhantering och svarstoken.
 title: Administrera Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 ---
 
 
-# Administrera Target - översikt{#administer-target}
+# Administrera målöversikt{#administer-target}
 
-Information som kan hjälpa dig att administrera [!DNL Adobe Target], inklusive konfigurationsinställningar för Visual Experience Composer (VEC), rapportering, konfiguration av Scene7, implementering, värdar, miljöer, svarstoken och användare.
+Information som kan hjälpa dig att administrera, inklusive konfigurationsinställningar för Visual Experience Composer (VEC), rapportering, Scene7-konfiguration, implementering, värdar, miljöer, svarstoken och användare. [!DNL Adobe Target]
 
 Om du vill komma åt [!UICONTROL Administration] menyalternativen klickar du **[!UICONTROL Administration]** i den övre menyraden och sedan på den önskade fliken till vänster:
 
