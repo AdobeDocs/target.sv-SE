@@ -2,11 +2,11 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: På den här sidan visas viktiga ändringar i Adobe Target-dokumentationen, som har beställts i releaser.
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
-feature: null
+feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 0%
@@ -74,7 +74,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 15 juni | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
@@ -118,7 +118,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 10 april | [Implementering av Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nytt avsnitt har lagts till: &quot;Bästa praxis för implementering.&quot; |
 | 7 april | [Lyft och tillförsikt - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Uppdaterad text för&quot;Varför kan jag inte se lyft och självförtroende för beräknade mätvärden?&quot; |
 | 2 april | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Lagt till information om hur du använder `user.header('x-forwarded-for')` med nyare AWS-kanter för att hämta användarnas IP-adresser. |
-|  | [Uppgraderar från at.js 1.*x* to at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Följande anmärkning har lagts till:<ul><li>Efter installation av ECID-biblioteket v4.3.0+ och at.js 2.*x* kan du skapa aktiviteter som spänner över unika domäner samt spåra användare. Det är viktigt att komma ihåg att den här funktionen fungerar först när sessionen har upphört.</li></ul> |
+|  | [Uppgraderar från at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Följande anmärkning har lagts till:<ul><li>Efter installation av ECID-biblioteket v4.3.0+ och at.js 2.*x* kan du skapa aktiviteter som spänner över unika domäner samt spåra användare. Det är viktigt att komma ihåg att den här funktionen fungerar först när sessionen har upphört.</li></ul> |
 | 30 mars | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Ett känt fel som påverkar at.js-versionerna före kl. 2.2.0 har lagts till. Detta orsakade att klickspårning inte rapporterade konverteringar i A4T (Analytics for Target) när Adobe Analytics-kod inte fanns på sidelement. |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Följande information har lagts till i informationen för at.js version 2.2.0:<ul><li>Korrigerade ett problem som orsakade klickspårning för att inte rapportera konverteringar i A4T (Analytics for Target) när Adobe Analytics-kod inte fanns på sidelement.</li></ul> |
 | 25 mars | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om följande nya versioner av at.js:<ul><li>at.js version 2.3.0</li><li>at.js version 1.8.1</li></ul> |
