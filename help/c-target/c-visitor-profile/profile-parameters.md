@@ -2,11 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Profilattribut är parametrar som är specifika för besökaren. Dessa attribut lagras i besökarens profil för att ge information om besökaren som kan användas i dina Adobe Target-aktiviteter.
 title: Profilattribut i Adobe Target
-feature: null
+feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Så här ställer du in profilattribut:
 
    | Parametertyp | Beskrivning |
    |--- |--- |
-   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Obs **: Målet har en gräns på 50 unika profilattribut per mbox-anrop. Om du behöver skicka mer än 50 profilattribut till Target kan du skicka dem med API-metoden för profiluppdatering. Mer information finns i[Profiluppdatering i Adobe Target API-dokumentationen](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Obs**: Målet har en gräns på 50 unika profilattribut per mbox-anrop. Om du behöver skicka mer än 50 profilattribut till Target kan du skicka dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i Adobe Target API-dokumentationen](http://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Definieras direkt med ett JavaScript-kodfragment. Dessa kan lagra summor som förbrukas av konsumenten och körs på varje mbox-begäran. Se Profilskriptattribut nedan. |
 
 ## Profilskriptattribut {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
