@@ -2,10 +2,10 @@
 keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
 description: Adobe Experience Platform Launch är nästa generation av tagghanteringsplattform från Adobe och är den bästa metoden att implementera Adobe Target. Launch ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser.
 title: Implementera mål med Adobe Launch
-feature: null
+feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
