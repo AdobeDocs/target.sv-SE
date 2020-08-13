@@ -2,11 +2,11 @@
 keywords: implement;at.js;javascript library
 description: Information om hur du distribuerar Adobe Target JavaScript-biblioteket, at.js, med Adobe Launch, utan en tagghanterare eller med hjälp av Adobe Dynamic Tag Management (DTM).
 title: Så här distribuerar du at.js
-feature: null
+feature: client-side
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
