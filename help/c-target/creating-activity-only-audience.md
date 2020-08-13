@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
 description: Skapa målgrupper som bara är aktiva inifrån Adobe Target trestegsbaserade guidade arbetsflöde när du skapar en aktivitet. Dessa ad hoc-målgrupper kan användas på andra platser inom samma aktivitet, men lagras inte i publikbiblioteket för användning i andra aktiviteter.
 title: Skapa en målgrupp som bara är aktiv i Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
