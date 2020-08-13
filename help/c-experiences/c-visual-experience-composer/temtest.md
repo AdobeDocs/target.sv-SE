@@ -2,10 +2,10 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Om du använder en sidmall för att skapa en struktur för sidorna, eller om sidorna innehåller liknande element, kan du med den här funktionen testa variationer i liknande strukturerade sidelement.
 title: Inkludera samma upplevelse på liknande sidor
-feature: null
+feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
