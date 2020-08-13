@@ -2,11 +2,11 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Information om hur JavaScript-biblioteket Adobe Target at.js förhindrar flimmer vid inläsning av sidor eller appar.
 title: Hur Adobe Target at.js hanterar flimmer
-feature: null
+feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Följande bild visar anropet Dölj brödtext och Visa brödtext i båda at.js 1.
 
 ![Målflöde: at.js page load request](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x ***
+**at.js 1.*x***
 
 ![](assets/target-flow2.png)
 
