@@ -2,12 +2,12 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: Aktivera eller inaktivera autentisering för batchuppdateringar via API och generera en profilautentiseringstoken.
 title: Profil-API-inställningar
-feature: null
+feature: api
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
