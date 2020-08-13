@@ -2,11 +2,11 @@
 keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
 description: Du kan skicka ytterligare information om platsen eller användaren till Target som namnvärdespar.
 title: iOS - skicka anpassade användardata
-feature: null
+feature: mobile implementation
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
