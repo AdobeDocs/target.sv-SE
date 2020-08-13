@@ -2,10 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Två specialrapporter är tillgängliga för användare av Automated Personalization (AP) och Auto-Target (AT)-aktiviteter, rapporterna Automated Segments och Viktiga attribut.
 title: Insikter om personalisering - rapporter
-feature: null
+feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
