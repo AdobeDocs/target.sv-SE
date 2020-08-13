@@ -2,11 +2,11 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: På den här sidan visas profiler, variabler och parametrar som är användbara i profilskript.
 title: Profil och variabel ordlista
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -88,7 +88,7 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | mbox3rdPartyId | En mbox-parameter för att synkronisera ett kund-ID till Target mboxPCID. Ett kund-ID är ett ID som ditt företag använder för att spåra besökare, till exempel ett CRM-ID, ett medlems-ID eller något liknande. Detta ID kan sedan användas för att lägga till information via profilens API:er och [kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | I varje mbox-anrop tilldelas sidan ett värde. |
 | mboxDebug | Används endast för felsökningsinformation. Tillagd på sid-URL:en där mbox.js letar efter den. |
-| mboxOverride.browserIp | Ställer in en annan region än den faktiska platsen så att du kan testa hur någonting skulle se ut på en annan plats.<br>**Obs!**Parametrar för mboxOverride ska bara användas när aktiviteten testas och inte i produktionen. Om du använder någon av parametrarna mboxOverride kan det orsaka rapporteringsavvikelser när du använder[Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T). Du bör använda[Activity QA-läget](/help/c-activities/c-activity-qa/activity-qa.md)när du testar för att kontrollera att din aktivitet fungerar som förväntat innan du flyttar aktiviteten till din livemiljö. |
+| mboxOverride.browserIp | Ställer in en annan region än den faktiska platsen så att du kan testa hur någonting skulle se ut på en annan plats.<br>**Obs!** Parametrar för mboxOverride ska bara användas när aktiviteten testas och inte i produktionen. Om du använder någon av parametrarna mboxOverride kan det orsaka rapporteringsavvikelser när du använder [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Du bör använda [Activity QA-läget](/help/c-activities/c-activity-qa/activity-qa.md) när du testar för att kontrollera att din aktivitet fungerar som förväntat innan du flyttar aktiviteten till din livemiljö. |
 
 ## Customer Attributes {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
