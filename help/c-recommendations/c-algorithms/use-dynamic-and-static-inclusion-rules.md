@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: Information om hur du skapar inkluderingsregler i Adobe Target Recommendations för villkor och kampanjer och lägger till ytterligare dynamiska eller statiska filtreringsregler för att få bättre resultat.
 title: Använd dynamiska och statiska inkluderingsregler i Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 0%
@@ -41,7 +41,7 @@ I följande tabell visas olika filtreringsalternativ för både villkor och kamp
 |--- |--- |--- |
 | **Dynamisk filtrering** | **Matchning av enhetsattribut:** Filtrera dynamiskt genom att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användarna har interagerat med.<br>Rekommendera t.ex. endast objekt som matchar det aktuella objektets varumärke. | är<br>lika med inte<br>lika med<br><br>mellan behållare,<br>innehåller inte<br>avslutningar<br>med värdet<br>presenterar värdet inte<br>som är större än eller lika<br>med mindre än eller lika med |
 |  | **Matchning av profilattribut:** Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i användarens profil.<br>Rekommendera t.ex. endast objekt som matchar besökarens favoritvarumärke. | är lika med<br> inte<br><br>lika med, innehåller inte<br>innehåll<br>som<br>är större än eller lika med<br>tois mindre än eller lika med<br>tois mellan |
-|  | **Parametermatchning:** Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).<br>Rekommendera t.ex. endast innehåll som matchar sidparametern&quot;branschsida&quot;.<br>**Viktigt:**Om aktiviteten skapades före 31 oktober 2016 misslyckas leveransen om det använder filtret Parametermatchning. Så här undviker du problemet:<ul><li>Skapa en ny aktivitet och lägg till dina villkor i den.</li><li>Använd ett villkor som inte innehåller filtret Parametermatchning.</li><li>Ta bort filtret &quot;Parametermatchning&quot; från villkoren.</li></ul> | är<br>lika med inte<br><br>lika med-behållare<br>innehåller inte<br>sammandragningar<br>med värdet större än eller lika med<br>för mindre än eller lika med<br>foton mellan |
+|  | **Parametermatchning:** Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).<br>Rekommendera t.ex. endast innehåll som matchar sidparametern&quot;branschsida&quot;.<br>**Viktigt:** Om aktiviteten skapades före 31 oktober 2016 misslyckas leveransen om det använder filtret Parametermatchning. Så här undviker du problemet:<ul><li>Skapa en ny aktivitet och lägg till dina villkor i den.</li><li>Använd ett villkor som inte innehåller filtret Parametermatchning.</li><li>Ta bort filtret &quot;Parametermatchning&quot; från villkoren.</li></ul> | är<br>lika med inte<br><br>lika med-behållare<br>innehåller inte<br>sammandragningar<br>med värdet större än eller lika med<br>för mindre än eller lika med<br>foton mellan |
 | **Filtrera efter värde** | **Statiskt filter:** Ange manuellt ett eller flera statiska värden som ska filtreras.<br>Rekommendera t.ex. endast innehåll med MPAA-klassificeringen &quot;G&quot; eller &quot;PG&quot;. | är<br>lika med inte<br><br>lika med-behållare,<br>innehåller inte<br>avslutningar<br>med värdet är<br>presentationsvärdet inte<br>större än eller lika med<br>foton mindre än eller lika med |
 
 >[!NOTE]
