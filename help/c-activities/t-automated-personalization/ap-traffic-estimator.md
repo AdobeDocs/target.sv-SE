@@ -1,11 +1,11 @@
 ---
 description: Trafikberäkningsverktyget ger dig feedback som visar om du har tillräckligt med trafik för att din aktivitet ska lyckas.
 title: Uppskatta den trafik som krävs för att lyckas
-feature: null
+feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
