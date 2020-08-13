@@ -2,11 +2,11 @@
 keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: På sidan Mål och inställningar anger du information om målet för testet.
 title: Mål och inställningar
-feature: null
+feature: mvt
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
