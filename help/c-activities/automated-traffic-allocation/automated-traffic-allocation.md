@@ -2,11 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: Med Automatisk tilldelning identifieras en vinnare bland två eller fler upplevelser och fler kunder tilldelas automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 title: Automatisk allokering
-feature: auto-allocate
+feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3310'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Den övergripande logiken bakom Automatisk allokering innefattar både uppmätta
 * 80 % av besökarna tilldelas enligt den intelligenta logik som beskrivs nedan.
 * 20 % av besökarna är slumpmässigt tilldelade till alla upplevelser för att anpassa sig till föränderligt besökarbeteende.
 
-Den flerbeväpnade bankstrategin gör att vissa upplevelser blir fria att utforska samtidigt som de upplevelser som fungerar väl utnyttjas. Fler nya besökare får bättre prestanda samtidigt som de behåller möjligheten att reagera på förändrade förhållanden. Dessa modeller uppdateras minst en gång i timmen för att säkerställa att modellen reagerar på de senaste data.
+Den flerbeväpnade bankstrategin gör att vissa upplevelser blir fria att utforska samtidigt som upplevelserna som fungerar väl utnyttjas. Fler nya besökare får bättre prestanda samtidigt som de behåller möjligheten att reagera på förändrade förhållanden. Dessa modeller uppdateras minst en gång i timmen för att säkerställa att modellen reagerar på de senaste data.
 
 När fler besökare går in i aktiviteten börjar vissa upplevelser bli mer framgångsrika och mer trafik skickas till de framgångsrika upplevelserna. 20 % av trafiken fortsätter att trafikeras slumpmässigt för att utforska alla upplevelser. Om en av de lågpresterande upplevelserna börjar prestera bättre tilldelas den upplevelsen mer trafik. Eller om framgången för en högpresterande aktivitet minskar, fördelas mindre trafik till den upplevelsen. Om en händelse till exempel får besökarna att leta efter olika uppgifter på mediewebbplatsen, eller om en helgförsäljning på din butikswebbplats ger olika resultat.
 
