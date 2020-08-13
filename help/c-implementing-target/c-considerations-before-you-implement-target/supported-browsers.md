@@ -2,12 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target program- och innehållsleverans har testats i en rad olika webbläsare och enheter.
 title: Webbläsare som stöds
-feature: null
+feature: reference general
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -36,8 +36,8 @@ Materialet har testats i följande webbläsare och enheter:
 
 | Enhetstyp | Webbläsarversion |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 och 10. Testad i emuleringsläge.<br>**Obs **: at.js 1.3.0 (och senare) stöder inte längre innehållsleverans i Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Krom (senaste, senaste minus 1)</li><li>Firefox (senaste, senaste minus 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (Latest)<br>**Note **: Mer information om hur Safari hanterar cookies från första och tredje part finns i[Målcookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (senaste, senaste minus 1)</li><li>Krom (senaste, senaste minus 1)</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 och 10. Testad i emuleringsläge.<br>**Obs**: at.js 1.3.0 (och senare) stöder inte längre innehållsleverans i Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Krom (senaste, senaste minus 1)</li><li>Firefox (senaste, senaste minus 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (Latest)<br>**Note**: Mer information om hur Safari hanterar cookies från första och tredje part finns i [Målcookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (senaste, senaste minus 1)</li><li>Krom (senaste, senaste minus 1)</li></ul> |
 | Mobil/surfplatta | <ul><li>Apple iOS (senaste)</li><li>Android-enheter och -surfplattor (Android 4 och senare)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Observera följande:
