@@ -2,11 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Med Visual Experience Composer (VEC) för Single Page Apps (SPA) i Adobe Target kan marknadsförare skapa tester och personalisera innehåll i SPA på ett sätt som gör det möjligt för dig utan kontinuerliga utvecklingsberoenden. VEC kan användas för att skapa aktiviteter på de vanligaste ramverken, som React och Angular.
 title: Visual Experience Composer för Single Page App (SPA)
-feature: null
+feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3648'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
    | --- | --- | --- | --- | --- |
    | viewName | Sträng | Ja | 1. Inga efterföljande blanksteg.<br>2. Kan inte vara tom.<br>3. Visningsnamnet måste vara unikt för alla sidor.<br>4. **Varning**: Vynamnet får inte börja eller sluta med &#39;`/`&#39;. Detta beror på att kunden vanligtvis extraherar visningsnamnet från URL-sökvägen. För oss är&quot;home&quot; och&quot;`/home`&quot; annorlunda.<br>5. **Varning**: Samma vy bör inte aktiveras flera gånger i följd med `{page: true}` alternativet. | Ange valfritt namn som en strängtyp som du vill representera din vy. Det här visningsnamnet visas på VEC-panelen [!UICONTROL Modifications] så att marknadsförare kan skapa åtgärder och köra A/B- och XT-aktiviteter. |
    | alternativ | Objekt | Nej |  |  |
-   | alternativ > sida | Boolean | Nej |  | **TRUE**: Standardvärdet för sidan är true. När `page=true`det är klart skickas meddelanden till edge-servrarna för att öka antalet intryckta.<br>**FALSE **: När`page=false`visas inga meddelanden för ökat antal inläsningar. Detta bör användas när du endast vill återge en komponent på en sida med ett erbjudande. |
+   | alternativ > sida | Boolean | Nej |  | **TRUE**: Standardvärdet för sidan är true. När `page=true`det är klart skickas meddelanden till edge-servrarna för att öka antalet intryckta.<br>**FALSE**: När `page=false`visas inga meddelanden för ökat antal inläsningar. Detta bör användas när du endast vill återge en komponent på en sida med ett erbjudande. |
 
    Nu ska vi gå igenom några exempel på hur funktionen i React för vår hypotetiska SPA för e-handel kan anropas: `triggerView()`
 
@@ -209,8 +209,8 @@ I följande tabell beskrivs de olika åtgärderna:
 | --- | --- |
 | Information | Visar information om åtgärden. |
 | Redigera | Gör att du kan redigera åtgärdens egenskaper direkt. |
-| Klona | Klona åtgärden till en eller flera vyer som finns på [!UICONTROL Modifications] panelen eller till en eller flera vyer som du har bläddrat till och navigerat till i VEC. Åtgärden behöver inte nödvändigtvis finnas på [!UICONTROL Modifications] panelen.<br>**Obs **: När en klonåtgärd har utförts måste du navigera till VEC via för[!UICONTROL Browse]att se om den klonade åtgärden var en giltig åtgärd. Om åtgärden inte kan tillämpas på vyn visas ett fel. |
-| Flytta | Flyttar åtgärden till en sidinläsningshändelse eller någon annan vy som redan finns på panelen Ändringar.<br>[!UICONTROL Page Load Event] - alla åtgärder som motsvarar sidans load-händelse tillämpas på den första sidinläsningen i webbprogrammet.<br>**Obs **! När flyttningen är klar måste du navigera till vyn i VEC via Browse för att se om flyttningen var en giltig åtgärd. Om åtgärden inte kan användas i vyn visas ett fel |
+| Klona | Klona åtgärden till en eller flera vyer som finns på [!UICONTROL Modifications] panelen eller till en eller flera vyer som du har bläddrat till och navigerat till i VEC. Åtgärden behöver inte nödvändigtvis finnas på [!UICONTROL Modifications] panelen.<br>**Obs**: När en klonåtgärd har utförts måste du navigera till VEC via för [!UICONTROL Browse] att se om den klonade åtgärden var en giltig åtgärd. Om åtgärden inte kan tillämpas på vyn visas ett fel. |
+| Flytta | Flyttar åtgärden till en sidinläsningshändelse eller någon annan vy som redan finns på panelen Ändringar.<br>[!UICONTROL Page Load Event] - alla åtgärder som motsvarar sidans load-händelse tillämpas på den första sidinläsningen i webbprogrammet.<br>**Obs** ! När flyttningen är klar måste du navigera till vyn i VEC via Browse för att se om flyttningen var en giltig åtgärd. Om åtgärden inte kan användas i vyn visas ett fel |
 | Ta bort | Tar bort åtgärden. |
 
 >[!NOTE]
