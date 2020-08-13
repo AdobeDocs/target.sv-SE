@@ -2,10 +2,10 @@
 keywords: visitor profile;target visitor profile
 description: Skapa målgrupper i Adobe Target för att inrikta er på besökare som uppfyller specifika profilparametrar.
 title: Besökarprofil
-feature: null
+feature: audiences
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
