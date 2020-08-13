@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om aktivitetsinställningar och hur Analytics används som rapportkälla för Target (A4T).
 title: Aktivitetsinställningar - vanliga A4T-frågor
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
