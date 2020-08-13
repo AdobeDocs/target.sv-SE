@@ -1,11 +1,15 @@
 ---
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Du kan skapa målgrupper i Adobe Target för målanvändare som använder en viss webbläsare eller särskilda webbläsaralternativ när de besöker din sida.
-title: Webbläsaralternativ i Adobe Target-målgrupper
+title: Webbläsaralternativ i Adobe Target
+feature: null
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
