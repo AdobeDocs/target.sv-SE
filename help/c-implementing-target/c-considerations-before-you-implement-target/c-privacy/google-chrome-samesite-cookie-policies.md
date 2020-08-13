@@ -2,12 +2,12 @@
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Information om Adobe Target och IETF-standarden SameSite som introducerades med Google Chrome version 80.
 title: Cookie-policyer för Adobe Target och Google's SameSite
-feature: null
+feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Om du vill veta vad du behöver göra för att fortsätta [!DNL Target] arbeta f
 | mbox.js med endast cookie från första part. | Ingen påverkan. | Ingen påverkan om du inte använder spårning mellan domäner. |
 | mbox.js med spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda protokollet HTTPS. |
 | at.js 1.*x* med cookie från första part. | Ingen påverkan. | Ingen påverkan om du inte använder spårning mellan domäner. |
-| at.js 1.*x* med spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda HTTPS-protokollet. |
+| at.js 1.*x* med spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda protokollet HTTPS. |
 | at.js 2.*x* | Ingen påverkan. | Ingen påverkan. |
 
 ## Vad behöver Target göra?
