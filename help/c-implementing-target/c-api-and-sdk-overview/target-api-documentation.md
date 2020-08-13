@@ -2,11 +2,11 @@
 keywords: api;adobe i/o
 description: Information som hjälper dig att använda övergång från äldre Target-API:er till nya API:er på Adobe I/O.
 title: Övergång från äldre Target-API:er till Adobe I/O
-feature: null
+feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -36,7 +36,7 @@ De äldre API:erna kommer att tas bort när du stänger Target Classic:
 | Datum | Detaljer |
 |--- |--- |
 | 17 oktober 2017 | Alla API-metoder som utför en write-åtgärd (`saveCampaign`, `copyCampaign`, `saveHTMLOfferContent`och `setCampaignState`) har tagits bort.<br>Detta är samma datum som när alla användarkonton för Target Classic var skrivskyddade. |
-| 14 november 2018 | De återstående API:erna har tagits bort. Det här är det datum då användargränssnittet för Target Classic togs bort |
+| 14 november 2017 | De återstående API:erna har tagits bort. Det här är det datum då användargränssnittet för Target Classic togs bort |
 
 Recommendations Classic-API:er påverkas inte av den här tidslinjen.
 
