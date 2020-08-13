@@ -2,11 +2,11 @@
 keywords: at.js releases;at.js versions
 description: Information om ändringar i varje version av at.js.
 title: versionsinformation för at.js
-feature: null
+feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3971'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 
 ## kl. 1.8.2 (15 juni 2020)
 
-Den här versionen av at.js är en underhållsrelease och innehåller följande korrigering:
+Den här versionen av at.js är en underhållsversion och innehåller följande korrigering:
 
 * Korrigerade ett problem vid användning av CNAME och kantåsidosättning, at.js 1.*x* kan felaktigt skapa serverdomänen, vilket resulterade i att [!DNL Target] begäran misslyckades. (TNT-35064)
 
@@ -167,7 +167,7 @@ Mer information finns i [Uppgradera från funktionen](/help/c-implementing-targe
 >
 >Om du behöver stöd för Adobe Opt-in för [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) måste du för närvarande använda at.js 1.7.0 eller at.js 2.1.0.
 
-## at.js Version 1.3.0 {#at-js-170}
+## at.js Version 1.7.0 {#at-js-170}
 
 at.js 1.7.0 har stöd för Adobe Opt-In. Adobe Opt-In är ett sätt att förenkla integreringen av Adobe-lösningar med plattformar för samtyckeshantering.
 
@@ -241,7 +241,7 @@ at.js version 1.5.0 finns nu att köpa.
      scheduler = setTimeout
    ```
 
-## at.js Version 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js Version 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js version 1.3.0 finns nu att köpa.
 
@@ -408,7 +408,7 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
 
 * Nytt at.js-meddelande]-API.
 
-   Målet med det här meddelandesystemet är att ge mer insikt i vad som [!DNL at.js] sker på sidan och när det uppstår problem. Ett vanligt problem med VEC är att en IT-release ändrar sidan, en VEC-väljare avbryter och att testet slutar leverera innehållet korrekt. Ett mål med det här meddelandesystemet är att göra det här leveransproblemet känt på sidan, så att utvecklare kan komma åt informationen, skicka den till ett system som [!DNL Adobe Analytics]och varningar kan skickas till företagsägarna om att testet har avbrutits.
+   Målet med det här meddelandesystemet är att ge mer insikt i vad som [!DNL at.js] görs på sidan och när det uppstår problem. Ett vanligt problem med VEC är att en IT-release ändrar sidan, en VEC-väljare avbryter och att testet slutar leverera innehållet korrekt. Ett mål med det här meddelandesystemet är att göra det här leveransproblemet känt på sidan, så att utvecklare kan komma åt informationen, skicka den till ett system som [!DNL Adobe Analytics]och varningar kan skickas till företagsägarna om att testet har avbrutits.
 
 * Ny `targetGlobalSettings()` API-metod.
 
