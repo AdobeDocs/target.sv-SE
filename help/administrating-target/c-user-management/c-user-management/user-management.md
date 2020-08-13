@@ -2,12 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Du kan lägga till användare och hantera deras behörigheter i Adobe Admin Console.
 title: Användare
-feature: null
+feature: user management
 subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 0%
@@ -24,10 +24,10 @@ Du kan lägga till användare och hantera deras behörigheter i [!DNL Adobe Admi
 >[!UICONTROL Properties] och [!UICONTROL Permissions] funktionaliteten finns som en del av [!DNL Target] Premium-lösningen. De finns inte i [!DNL Target] Standard utan en [!DNL Target] Premium-licens.
 >Du kan se om din organisation har en Standard- eller Premium-licens genom att klicka på [!UICONTROL Administration] länken överst i [!DNL Target] användargränssnittet.
 >
->* **[!DNL Target]Standardkunder **: Om du ser[!UICONTROL Users]fliken ([!UICONTROL Administration > Users]) (och inte **[!UICONTROL Properties]**fliken) har din organisation en[!DNL Target]standardlicens. [!DNL Target Standard-kunder bör följa instruktionerna i den här artikeln för att lägga till användare och tilldela behörigheter i[!DNL Adobe Admin Console].
+>* **[!DNL Target]Standardkunder**: Om du ser [!UICONTROL Users] fliken ([!UICONTROL Administration > Users]) (och inte **[!UICONTROL Properties]** fliken) har din organisation en [!DNL Target] standardlicens. [!DNL Target Standard-kunder bör följa instruktionerna i den här artikeln för att lägga till användare och tilldela behörigheter i [!DNL Adobe Admin Console].
    >
    >
-* **[!DNL Target]Premiumkunder **: Om du ser[!UICONTROL Users]fliken och[!UICONTROL Properties]fliken ([!UICONTROL Administration > Properties]) har din organisation en[!DNL Target]Premium-licens.[!DNL Target]Premium-kunder bör följa instruktionerna i[Enterprise-användarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md)och[Konfigurera Enterprise-behörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md)för att lägga till användare och tilldela behörigheter i[!DNL Adobe Admin Console].
+* **[!DNL Target]Premiumkunder**: Om du ser [!UICONTROL Users] fliken och [!UICONTROL Properties] fliken ([!UICONTROL Administration > Properties]) har din organisation en [!DNL Target] Premium-licens. [!DNL Target] Premium-kunder bör följa instruktionerna i [Enterprise-användarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md) och [Konfigurera Enterprise-behörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md) för att lägga till användare och tilldela behörigheter i [!DNL Adobe Admin Console].
 >
 >
 Mer information om hur du hanterar användare och behörigheter finns i [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) i användarhandboken *för* Enterprise &amp; Teams.
