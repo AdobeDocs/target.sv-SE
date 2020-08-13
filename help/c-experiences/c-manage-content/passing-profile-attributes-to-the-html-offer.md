@@ -2,10 +2,10 @@
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
 description: Du kan visa profilvärden och aktivitetsinformation direkt i ett HTML- eller JSON-erbjudande.
 title: Överför dynamiska data till erbjudanden
-feature: null
+feature: offers
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
