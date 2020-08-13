@@ -2,11 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Information om de uppgifter som krävs för att lägga till användare i din Adobe Target-implementering. skapa arbetsytor, användargrupper och egenskaper, uppdatera målinsimplementeringen så att den innehåller parametern at_property; och ange roller och behörigheter.
 title: Konfigurera företagsbehörigheter
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
