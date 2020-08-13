@@ -2,11 +2,11 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Information om hur du använder Adobe Target at.js 2.x för att implementera SPA (Single Page Applications).
 title: Implementering av Single Page-program i Adobe Target
-feature: null
+feature: implementation general
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2749'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
    | --- | --- | --- | --- | --- |
    | viewName | Sträng | Ja | 1. Inga efterföljande blanksteg.<br>2. Kan inte vara tom.<br>3. Visningsnamnet måste vara unikt för alla sidor.<br>4. **Varning**: Vynamnet får inte börja eller sluta med &#39;`/`&#39;. Detta beror på att kunden vanligtvis extraherar visningsnamnet från URL-sökvägen. För oss är&quot;home&quot; och&quot;`/home`&quot; annorlunda.<br>5. **Varning**: Samma vy bör inte aktiveras flera gånger i följd med `{page: true}` alternativet. | Ange valfritt namn som en strängtyp som du vill representera din vy. Det här visningsnamnet visas på VEC-panelen [!UICONTROL Modifications] så att marknadsförare kan skapa åtgärder och köra A/B- och XT-aktiviteter. |
    | alternativ | Objekt | Nej |  |  |
-   | alternativ > sida | Boolean | Nej |  | **TRUE**: Standardvärdet för sidan är true. När `page=true`det är klart skickas meddelanden till edge-servrarna för att öka antalet intryckta.<br>**FALSE **: När`page=false`visas inga meddelanden för ökat antal inläsningar. Detta bör användas när du endast vill återge en komponent på en sida med ett erbjudande. |
+   | alternativ > sida | Boolean | Nej |  | **TRUE**: Standardvärdet för sidan är true. När `page=true`det är klart skickas meddelanden till edge-servrarna för att öka antalet intryckta.<br>**FALSE**: När `page=false`visas inga meddelanden för ökat antal inläsningar. Detta bör användas när du endast vill återge en komponent på en sida med ett erbjudande. |
 
    Nu ska vi gå igenom några exempel på hur funktionen i React för vår hypotetiska SPA för e-handel kan anropas: `triggerView()`
 
