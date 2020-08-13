@@ -1,11 +1,11 @@
 ---
 description: Information om hur du implementerar Adobe Target för klientwebben.
 title: Implementera Adobe Target för webben på klientsidan
-feature: null
+feature: client-side
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
