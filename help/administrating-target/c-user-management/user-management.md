@@ -2,12 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Information om hur du hanterar användare i Target Standard och hanterar Enterprise Properties och Permissions i Target Premium.
 title: Användarhantering
-feature: null
+feature: user management
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
