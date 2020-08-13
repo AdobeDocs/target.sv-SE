@@ -2,10 +2,10 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: Använd sekvenser med upp till fem kriterier för att få bättre kontroll över de objekt som visas i dina Recommendations-aktiviteter.
 title: Skapa villkorssekvenser
-feature: null
+feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
