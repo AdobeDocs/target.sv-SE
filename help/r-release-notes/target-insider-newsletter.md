@@ -2,9 +2,9 @@
 keywords: insider newsletter;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;whitepaper;white paper
 description: Adobe Target Insider är ett månatligt nyhetsbrev för medlemmar i Adobe Target community. Läs om produktuppdateringar och framtida planer, tips och tricks för personalisering och optimering, nöjda kunder, kommande event, informationsfyllda rapporter, populära blogginlägg med mera.
 title: 'Adobe Target Insider - nyhetsbrev '
-feature: null
+feature: release notes
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2148'
 ht-degree: 0%
