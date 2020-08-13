@@ -2,11 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Information om hur du skapar egenskaper och använder funktionerna Egenskaper och Behörigheter som gör att måladministratörer kan skapa separata arbetsytor (produktprofiler) i Target och sedan tilldela användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser baserat på dessa arbetsytor.
 title: Enterprise-användarbehörigheter
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3027'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Enterprise-användarbehörigheter är ett sätt att formellt administrera föret
 
 Du kan se om din organisation har en Standard- eller Premium-licens genom att klicka på [!UICONTROL Administration] länken överst i [!DNL Target] användargränssnittet.
 
-* **[!DNL Target Standard]Kunder **: Om du ser[!UICONTROL Users]fliken ([!UICONTROL Adminitration > Users]) (och inte[!UICONTROL Properties]fliken) har din organisation en[!DNL Target Standard]licens.[!DNL Target Standard]-användare ska följa instruktionerna i[Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md)för att lägga till användare och tilldela behörigheter i[!DNL Adobe Admin Console].
+* **[!DNL Target Standard]Kunder**: Om du ser [!UICONTROL Users] fliken ([!UICONTROL Adminitration > Users]) (och inte [!UICONTROL Properties] fliken) har din organisation en [!DNL Target Standard] licens. [!DNL Target Standard]-användare ska följa instruktionerna i [Användare](/help/administrating-target/c-user-management/c-user-management/user-management.md) för att lägga till användare och tilldela behörigheter i [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Kunder **: Om du ser[!UICONTROL Properties]fliken ([!UICONTROL Administration > Properties]) och[!UICONTROL Users]fliken har din organisation en[!DNL Target Premium]licens.[!DNL Target Premium]ska kunderna följa instruktionerna i den här artikeln och i[Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Kunder**: Om du ser [!UICONTROL Properties] fliken ([!UICONTROL Administration > Properties]) och [!UICONTROL Users] fliken har din organisation en [!DNL Target Premium] licens. [!DNL Target Premium] ska kunderna följa instruktionerna i den här artikeln och i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Innan du börjar använda företagsbehörigheter
 
