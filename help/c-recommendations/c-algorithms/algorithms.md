@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Kriterierna i Adobe Target Recommendations är regler som avgör vilka produkter som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
 title: Kriterier i Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Anta till exempel att du vill visa de mest säljande artiklarna från en använd
 
 | Kriterier | Beskrivning |
 |--- |--- |
-| Objekt/media med liknande attribut | Rekommenderar objekt eller media som liknar objekt eller media baserat på den aktuella sidaktiviteten eller tidigare besökares beteende.<br>**Obs!**Om du väljer Objekt/Media med liknande attribut kan du ange likhetsregler för innehåll. |
+| Objekt/media med liknande attribut | Rekommenderar objekt eller media som liknar objekt eller media baserat på den aktuella sidaktiviteten eller tidigare besökares beteende.<br>**Obs!** Om du väljer Objekt/Media med liknande attribut kan du ange likhetsregler för innehåll. |
 | Folk som tittade på det här, såg det | Rekommenderar objekt som oftast visas i samma session som det angivna objektet visas. |
 | Folk som såg det här, köpte det | Rekommenderar artiklar som oftast köps i samma session som det angivna objektet visas. Detta villkor returnerar andra produkter som köpts efter att ha tittat på den här produkten. Den angivna produkten ingår inte i resultatmängden. |
 | Folk som köpte den här, köpte den där | Rekommenderar artiklar som oftast köps av kunder samtidigt som det angivna objektet. |
