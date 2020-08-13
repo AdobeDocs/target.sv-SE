@@ -2,10 +2,10 @@
 keywords: multivariate test;mvt;experience performance report
 description: Experience Performance-rapporten visar hur varje upplevelse i aktiviteten fungerar. Den här rapporten innehåller information om antalet deltagare, konverteringsgraden, lyften och förtroendet.
 title: Experience Performance Report (MVT)
-feature: null
+feature: reports
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -27,7 +27,7 @@ I rapportens övre del visas mätvärden, start- och slutdatum samt målgrupp so
 >
 >Målgrupps- och mätväljarna är bara tillgängliga om Analytics används som rapportkälla.
 
-Därefter visar ett linjediagram en visuell jämförelse av varje upplevelse med specifika tidsintervall. I det här diagrammet kan du se hur bra varje upplevelse fungerar och hur dagens tid påverkar prestandan.
+Därefter visar ett linjediagram en visuell jämförelse av varje upplevelse med specifika tidsintervall. I det här diagrammet kan du se hur väl varje upplevelse fungerar och hur dagens tid påverkar prestandan.
 
 Ni kan visa de bästa fem, värsta fem eller alla upplevelser. De bästa och värsta fem bestäms genom lift och innehåller en sjätte upplevelse som visar kontrollen för jämförelse. Det rekommenderas att ni ser de bästa och värsta fem för att avgöra hur framgångsrika era upplevelser är. Om du visar alla blir det svårt att extrahera den önskade informationen, och inte alla upplevelser kan visas i diagrammet. Använd Visa alla om du vill se en specifik upplevelse som inte är den bästa eller värsta av fem.
 
