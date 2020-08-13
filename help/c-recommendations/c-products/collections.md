@@ -2,10 +2,10 @@
 keywords: collection;Targeting
 description: En samling är en uppsättning produkter eller artiklar i Adobe Target som är berättigade till en rekommendation.
 title: Samlingar i Adobe Target
-feature: null
+feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
