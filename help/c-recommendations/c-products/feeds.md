@@ -2,10 +2,10 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Använd feeds för att importera enheter till Adobe Recommendations. Enheter kan skickas med CSV-filer, Googles produktsökningsformat och/eller Adobe Analytics produktklassificeringar.
 title: Feeds
-feature: null
+feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2433'
 ht-degree: 0%
@@ -288,7 +288,7 @@ Följande är möjliga statusvärden för en feed:
 | Väntar på hämtning | Målet förbereds för hämtning av feed-filen. |
 | Hämtar feedfil | Målet hämtar feedfilen. |
 | Importerar objekt | Målet importerar objekt från feed-filen. |
-| Feed importerades vid *tidpunkten* | Målet har importerat feed-filen till innehållsleveranssystemet. Ändringar av objektattribut har gjorts i innehållsleveranssystemet och kommer inom kort att återspeglas i levererade rekommendationer. Om du inte ser de förväntade ändringarna försöker du igen inom kort och uppdaterar sidan med rekommendationer.<br>*Anm. 1:*Om ändringar i ett objekts attribut leder till att ett objekt utesluts från rekommendationerna, återspeglas uteslutningen omedelbart. Om ett objekt läggs till nyligen, eller om attributändringar resulterar i att ett objekt* inte längre *utesluts från rekommendationerna, kommer det inte att återspeglas förrän nästa algoritmuppdatering, som sker inom 24 timmar.<br>*Anmärkning 2:* När den här statusen visas kanske inte uppdateringarna visas i användargränssnittet för katalogsökning än. En separat status visas i Katalogsökning som anger den senaste gången den sökbara katalogen uppdaterades. |
+| Feed importerades vid *tidpunkten* | Målet har importerat feed-filen till innehållsleveranssystemet. Ändringar av objektattribut har gjorts i innehållsleveranssystemet och kommer inom kort att återspeglas i levererade rekommendationer. Om du inte ser de förväntade ändringarna försöker du igen inom kort och uppdaterar sidan med rekommendationer.<br>*Anm. 1:* Om ändringar i ett objekts attribut leder till att ett objekt utesluts från rekommendationerna, återspeglas uteslutningen omedelbart. Om ett objekt läggs till nyligen, eller om attributändringar resulterar i att ett objekt *inte längre* utesluts från rekommendationerna, kommer det inte att återspeglas förrän nästa algoritmuppdatering, som sker inom 24 timmar.<br>*Anmärkning 2:* När den här statusen visas kanske inte uppdateringarna visas i användargränssnittet för katalogsökning än. En separat status visas i Katalogsökning som anger den senaste gången den sökbara katalogen uppdaterades. |
 | Det gick inte att indexera | Indexåtgärden misslyckades. Försök igen. |
 | Servern hittades inte | FTP- eller URL-platserna är ogiltiga eller går inte att nå på annat sätt. |
 
