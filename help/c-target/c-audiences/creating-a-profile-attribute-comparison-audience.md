@@ -2,11 +2,11 @@
 keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Definiera en målgrupp för att jämföra två profilattribut för målpublikbiblioteket eller för en målgrupp som bara är aktiv. Med operatorer, till exempel större än, mindre än eller lika med, kan du definiera en målgrupp för att dynamiskt jämföra värdena för två olika profilattribut.
 title: Skapa en målgrupp för profilattributsjämförelse i Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
