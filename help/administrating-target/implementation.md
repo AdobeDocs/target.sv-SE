@@ -2,11 +2,11 @@
 keywords: implement;implementing
 description: Innan du börjar använda Adobe Target bör du implementera det på din webbplats, förstå några grundläggande begrepp och termer, känna till hur Target fungerar och integreras med din infrastruktur och förstå hur besökarna spåras av Target-systemet.
 title: Implementera mål
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
