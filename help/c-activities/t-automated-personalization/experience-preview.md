@@ -2,11 +2,11 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: URL:er för förhandsgranskning kan genereras för Target Automated Personalization-aktiviteter för att visa upplevelseinnehåll direkt på din webbplats innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
 title: Förhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelse
-feature: null
+feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
