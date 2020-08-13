@@ -2,10 +2,10 @@
 keywords: Recommendations
 description: Scenerna i det här avsnittet visar hur ändringar som gjorts på sidan påverkar Target förmåga att visa en upplevelse.
 title: Scenarier för sidändring
-feature: null
+feature: vec
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
