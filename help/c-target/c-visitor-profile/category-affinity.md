@@ -2,11 +2,11 @@
 keywords: affinity;category affinity
 description: Med kategoritillhörighetsfunktionen i Adobe Target hämtas automatiskt de kategorier som en användare besöker och sedan beräknas användarens tillhörighet för kategorin så att den kan anpassas och segmenteras. Detta bidrar till att säkerställa att innehållet är riktat till besökare som är mest benägna att agera på den informationen.
 title: Använd kategoritillhörighet i Adobe Target
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Du kan använda `user.categoryAffinities[]` i ett profilskript för att returner
 
 ## Affärsärende för kategoritillhörighet {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-En besökares aktivitet i en session, t.ex. vilken kategori han eller hon tittar oftast, kan användas för målinriktning vid efterföljande besök. Varje kategorisida som en besökare visar under en session hämtas, och hans eller hennes favoritkategori beräknas utifrån en nyhet och frekvensmodell. Varje gång besökaren återgår till startsidan kan hjältebildområdet användas för att visa innehåll som hör till användarens favoritkategori.
+En besökares aktivitet i en session, t.ex. vilken kategori han eller hon tittar oftast, kan användas för målinriktning vid efterföljande besök. Varje kategorisida som en besökare visar under en session hämtas, och hans eller hennes favoritkategori beräknas utifrån en nyhet och frekvensmodell. Varje gång besökaren återgår till startsidan kan hjältebildområdet användas för att visa innehåll som är relaterat till användarens favoritkategori.
 
 ## Exempel på att använda kategoritillhörighet {#section_A4AC0CA550924CB4875F4F4047554C18}
 
