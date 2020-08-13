@@ -1,10 +1,10 @@
 ---
 description: Adobe Mobile SDK kontaktar målservern för att få innehållet tillsammans med andra datapunkter för att visa rätt upplevelse för användaren.
 title: Hur Target fungerar i mobilappar
-feature: null
+feature: mobile implementation
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Mobile SDK kontaktar målservern för att få innehållet tillsammans med 
 
 En *målplats* kallas också en mbox. En identifierad plats i appen är aktiverad för testning eller personalisering (till exempel välkomstmeddelandet på startskärmen). Dessa platser identifieras när testet skapas.
 
-Ett *[framgångsmått](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)*är en åtgärd som utförs av användaren och som identifierar om en viss aktivitet lyckades (som att registrera sig, göra ett köp, boka en biljett och så vidare).
+Ett *[framgångsmått](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)* är en åtgärd som utförs av användaren och som identifierar om en viss aktivitet lyckades (som att registrera sig, göra ett köp, boka en biljett och så vidare).
 
 ![](assets/mobile-target-location.png)
 
