@@ -2,11 +2,11 @@
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar er organisation och Adobe Target.
 title: Information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar er organisation och Adobe Target.
-feature: null
+feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2274'
 ht-degree: 0%
@@ -139,7 +139,7 @@ Sammanställda eller anonyma data (t.ex. rapportdata) som inte identifierar en v
 
 >[!NOTE]
 >
->Även om [!DNL Target] [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies från första part för GDPR och CCPA.
+>Även om [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies [!DNL Target] från första part för GDPR och CCPA.
 
 ### Hur [!DNL Target] hanterar vi samtyckeshantering? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
