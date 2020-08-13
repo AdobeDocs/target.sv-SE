@@ -1,10 +1,10 @@
 ---
 description: Kriterierna styr innehållet i dina Adobe Recommendations-aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
 title: Skapa villkor
-feature: null
+feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3345'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Skapa villkor{#create-criteria}
+# ![PREMIUM](/help/assets/premium.png) - skapa villkor{#create-criteria}
 
 Kriterierna styr innehållet i dina Recommendations-aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
 
