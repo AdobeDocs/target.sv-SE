@@ -2,12 +2,12 @@
 keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: Information om hur du implementerar Target i icke-JavaScript-scenarier, som att använda en AdBox eller Redirector.
 title: Mål för e-postimplementering
-feature: null
+feature: email implementation
 subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
