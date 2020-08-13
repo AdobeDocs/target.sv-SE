@@ -2,11 +2,11 @@
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse och maximera intäkterna från era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 title: Introduktion till Adobe Target
-feature: null
+feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
@@ -68,7 +68,7 @@ En rekommendation avgör hur en produkt föreslås till en kund, beroende på ku
 
 ### Recommendations som erbjudande
 
-[Med Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) kan ni inkludera rekommendationer inuti [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
+[Med Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) kan ni inkludera rekommendationer i aktiviteter [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT).
 
 Den här funktionen öppnar upp helt nya funktioner, som:
 
