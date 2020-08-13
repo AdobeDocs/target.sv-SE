@@ -2,10 +2,10 @@
 keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Information om hur du använder webbläsartillägget Adobe Target Visual Experience Composer (VEC) för att läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-upplevelser.
 title: Hjälptillägg för Adobe Target Visual Experience Composer (VEC)
-feature: null
+feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
