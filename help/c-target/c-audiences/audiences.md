@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Publiken i Adobe Target avgör vilka som får se innehåll och upplevelser i en målinriktad aktivitet.
 title: Skapa målgrupper i Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Följande information finns för de importerade publiktyperna:
 | Målgruppstyp | Detaljer |
 |--- |--- |
 | Mobila målgrupper | Marknadsföringsnamn, leverantör och modell.<br>Operatorn `matches | does not match` visas i stället för `equals | does not equal`<br>![Importerad mobil publik](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Besökarnas beteendemönster | **user.categoryAffinity:** `categoryAffinity` med `FAVORITE` parameter.<br>![Tillhörighetsövervakning](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**för importerad kategori:**Övervakningstjänsten är lika med true.<br>**Ingen övervakningstjänst:** Övervakningstjänsten är lika med false.<br>![Importerad övervakning](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Besökarnas beteendemönster | **user.categoryAffinity:** `categoryAffinity` med `FAVORITE` parameter.<br>![Tillhörighetsövervakning ](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**för importerad kategori:** Övervakningstjänsten är lika med true.<br>**Ingen övervakningstjänst:** Övervakningstjänsten är lika med false.<br>![Importerad övervakning](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Målgrupper som använder operatorn NOT | **Enkel regel:** Target visar målgruppen i formatet `[All Visitor AND [NOT [rule]`. En NOT-regel visas med AND med `AllVisitor` målgrupp.<br>![Importerad publik ej](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Tänk på följande när du arbetar med importerade målgrupper:
