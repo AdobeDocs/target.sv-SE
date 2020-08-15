@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -476,6 +476,8 @@ Tänk på följande när du använder `serverState`:
    Aktivera de här inställningarna genom att aktivera växlingen i **[UICONTROL Administration > Implementering > Redigera > Sidinläsning aktiverad]**.
 
    ![Inställningar för sidinläsning aktiverat](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+* Om du använder `serverState` och använder `<script>` -taggar i det returnerade innehållet måste du se till att HTML-innehållet använder `<\/script>` i stället för `</script>`. Om du använder `</script>`tolkar webbläsaren slutet `</script>` på ett infogat SCRIPT och den kan komma att bryta HTML-sidan.
 
 ### Ytterligare resurser
 
