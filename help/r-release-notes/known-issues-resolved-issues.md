@@ -5,9 +5,9 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3417'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) vid
 ### Länkar för förhandsgranskning av aktivitet i QA {#preview}
 
 [Länkar för förhandsgranskning](/help/c-activities/c-activity-qa/activity-qa.md) av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Det bör fungera att försöka göra om förhandsvisningslänkarna. Om du vill förhindra att detta fortsätter att hända arkiverar du sparade aktiviteter som inte längre används aktivt. (TNT-32697)
+
+### QA-läge för Recommendations-aktiviteter
+
+Ett känt fel förhindrar förhandsgranskning om villkoren som används i aktiviteten är artikelbaserade eller kategoribaserade. (TNT-37455)
 
 ### Omdirigeringserbjudanden {#redirect}
 
