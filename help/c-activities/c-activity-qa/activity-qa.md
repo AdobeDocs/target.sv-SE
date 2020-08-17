@@ -6,9 +6,9 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 ## Överväganden {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Länken visas på [!UICONTROL Activity QA] [!UICONTROL Overview] sidan med alla aktivitetstyper utom Automated Personalization (AP). Du kan använda [förhandsgranskningslänkar](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) för AP-aktiviteter.
+* Länkar för förhandsgranskning av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Det bör fungera att försöka göra om förhandsvisningslänkarna. Om du vill förhindra att detta fortsätter att hända arkiverar du sparade aktiviteter som inte längre används aktivt.
 * URL:er för verksamhets-QA är tillgängliga med aktiviteter med Analytics som rapportkälla (A4T). Träffar som genereras när QA utförs med Activity QA kommer att flöda till samma rapportsvit där aktivitetens data kommer att flöda även efter att aktiviteten publiceras.
 * Aktivitets-QA visar inte innehåll för arkiverade aktiviteter eller aktiviteter som ligger efter deras slutdatum. Om du inaktiverar en avslutad aktivitet måste du spara aktiviteten igen för att Activity QA ska fungera.
 * Aktiviteter som importeras till Target Standard/Premium (till exempel från Target Classic) stöder inte QA-URL:er.
