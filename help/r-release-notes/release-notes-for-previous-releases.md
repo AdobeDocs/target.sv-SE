@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
 workflow-type: tm+mt
-source-wordcount: '29798'
+source-wordcount: '29244'
 ht-degree: 0%
 
 ---
@@ -1457,13 +1457,6 @@ Den här [!DNL Target] versionen innehåller följande kundtillvända förbättr
       <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Ändringarna görs för att säkerställa att klickspårning inte stör synlighetsegenskapen. Klickspårningselement markeras med <span class="codeph"> CSS-klassen at-element-click-tracking i </span> stället för <span class="codeph"> at-element-marker </span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>18 juli 2017</b> </p> <p> <span class="filepath"> mbox.js </span> version 63 är nu tillgänglig. Mer information finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local"> Hämta mbox.js </a>. </p> <p>Följande förbättringar och korrigeringar finns i <span class="filepath"> mbox.js </span> version 63: </p> <p> 
-     <ul id="ul_F876FABA804A459D84387102DC38B7DC"> 
-      <li id="li_E840AFDFAD394F5E9CDF52FABCA27EF7">Korrigerar ett problem med SDID-generering när <span class="codeph"> mboxDefine() </span> och <span class="codeph"> mboxUpdate() används </span>. Detta påverkar bara klienter som har Visitor API på sidan. </li> 
-     </ul> </p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -1581,41 +1574,6 @@ Den här [!DNL Target] versionen innehåller följande förbättringar och korri
    `marketingCloudMetadata(remoteModifiedBy)`
 
    Det här importjobbet körs när aktivitetssidan öppnas, med en maximal fördröjning på tio minuter. (KB-1526)
-
-### Ändringar av målplattform (18 juli 2017) {#section_08A2B80060FE4833B1BDD12D1AF5E3D6}
-
-<table id="table_17607030DA7948819F73FA9F2B22AB5B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Ändra </th> 
-   <th colname="col2" class="entry"> Detaljer </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>18 juli 2017</b> </p> <p> <span class="filepath"> mbox.js </span> version 63 är nu tillgänglig. Mer information finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local"> Hämta mbox.js </a>. </p> <p>Följande förbättringar och korrigeringar finns i <span class="filepath"> mbox.js </span> version 63: </p> <p> 
-     <ul id="ul_6C88DB6332A94858B278F7F846E2F8EB"> 
-      <li id="li_597D15CAD9DA44008FEC01E6BB3CB9A7">Korrigerar ett problem med SDID-generering när <span class="codeph"> mboxDefine() </span> och <span class="codeph"> mboxUpdate() används </span>. Detta påverkar bara klienter som har Visitor API på sidan. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>7 juli 2017</b> </p> <p> <span class="filepath"> at.js </span> version 1.0 är nu tillgänglig. Mer information finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Hämta på.js </a>. </p> <p>Följande förbättringar och korrigeringar finns i <span class="filepath"> at.js </span> version 1.0: </p> <p> 
-     <ul id="ul_4407D3923CE34CD8AD7120A2580A34DF"> 
-      <li id="li_34C8D0572A0340DF99294DD33E352D2C"> <p>Stöd för asynkron inläsning av at.js för snabbare sidinläsning. </p> </li> 
-      <li id="li_BC944624B3104418854140484E682D69"> <p>Stöd för att fördölja sidinnehåll när at.js läses in asynkront. </p> </li> 
-      <li id="li_F9D0AD095A2A425CB78772DDE8FCCF97"> <p>Bättre felmeddelanden när innehållsleverans är inaktiverad. </p> </li> 
-      <li id="li_4B32468665A34FC0AF66C1CD15DE7AFC"> <p>Prestandaförbättringar när du levererar flera aktiviteter. </p> </li> 
-      <li id="li_48EAD25A4077411E954CCCDB95058924"> <p>Stöd för YUI-kompressor. </p> </li> 
-      <li id="li_3598B4223C0A478D956A7EC618BFBCD6"> <p>Fel-/felrapportering för anpassade händelser under aktivitetsleverans. </p> </li> 
-      <li id="li_28A5DDF1A9D64D66BF8BD0E89E5BD69B"> <p>Åtgärda prestandaproblem i Microsoft Internet Explorer 11. </p> </li> 
-      <li id="li_BB1C11A76FB14341AB7699F2C7753377"> <p>Korrigera för <span class="codeph"> funktionen getOffer() som </span> ger ett fel på vissa webbplatser. </p> </li> 
-      <li id="li_4C7F3DE9A0A346C38E9EDCE21C83843D"> <p>Läs in målbiblioteket asynkront. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Target Standard/Premium 17.6.2 (22 juni 2017) {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -1846,14 +1804,6 @@ Den här [!DNL Target] versionen fokuserar på användbarhets- och prestandaför
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>Alternativet <span class="wintitle"> Stöd för äldre webbläsare </span> finns i <span class="codeph"> .js- </span> version 0.9.3 och tidigare. Det här alternativet har tagits bort i <span class="codeph"> at.js </span> version 0.9.4. </p> <p>Mer information finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> at.js Configurations </a>. </p> </li> 
      </ul> </p> <p>Detaljerad information om ändringarna i varje version av <span class="codeph"> at.js </span>finns <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> i versionsinformationen för at.js </a>. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mbox.js </span> version 62 </p> </td> 
-   <td colname="col2"> <p>18 januari 2017 </p> <p> <span class="codeph"> mbox.js </span> version 62 innehåller följande förbättringar och korrigeringar: </p> <p> 
-     <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
-      <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>Flimmerproblem i omdirigeringsaktiviteter som visas i Google Chrome-webbläsare har korrigerats. (TNT-24928) </p> </li> 
-      <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p>Lagt till en <span class="codeph"> säkerOnly- </span> inställning som anger om <span class="codeph"> mbox.js </span> ska använda enbart HTTPS eller tillåtas växla mellan HTTP och HTTPS baserat på sidprotokollet. Det här är en avancerad inställning som har standardvärdet False. (TNT-26183) </p> <p>Mer information finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local"> Konfigurera mbox.js </a>. </p> </li> 
-     </ul> </p> <p>Mer information om ändringarna i varje version av <span class="codeph"> mbox.js </span>finns i <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external"> mbox.js Versionsinformation </a>. </p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -2018,7 +1968,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
  <tbody> 
   <tr> 
    <td colname="col1"> Kombinera målgrupper </td> 
-   <td colname="col2"> <p>Kombinera olika målgrupper (inklusive <span class="keyword"> Adobe Experience Cloud </span> och <span class="keyword"> Target </span> ) snabbt och enkelt under arbetsflödet för att skapa aktiviteter. </p> <p>Du kan till exempel inrikta dig på alla lojalitetskunder genom att inkludera ett specifikt <span class="keyword"> Audience Manager- </span> segment för lojalitetsstatus och kombinera det med ett <span class="keyword"> Target- </span> segment bestående av personer som registrerade sig för ditt lojalitetsprogram under den aktuella sessionen, i stället för att skapa en tredje permanent målgrupp. </p> <p>Mer information finns i <a href="../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Kombinera flera publiker </a>. </p> </td> 
+   <td colname="col2"> <p>Kombinera flera olika målgrupper (inklusive <span class="keyword"> Adobe Experience Cloud </span> -målgrupper och <span class="keyword"> målgrupper) </span> direkt under arbetsflödet för att skapa aktiviteter. </p> <p>Du kan till exempel inrikta dig på alla lojalitetskunder genom att inkludera ett specifikt <span class="keyword"> Audience Manager- </span> segment för lojalitetsstatus och kombinera det med ett <span class="keyword"> Target- </span> segment bestående av personer som registrerade sig för ditt lojalitetsprogram under den aktuella sessionen, i stället för att skapa en tredje permanent målgrupp. </p> <p>Mer information finns i <a href="../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Kombinera flera publiker </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Rikta besökarna under en viss tidsperiod </td> 
@@ -2083,7 +2033,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
  <tbody> 
   <tr> 
    <td colname="col1"> Kombinera målgrupper </td> 
-   <td colname="col2"> <p>Kombinera olika målgrupper (inklusive <span class="keyword"> Adobe Experience Cloud </span> och <span class="keyword"> Target </span> ) snabbt och enkelt under arbetsflödet för att skapa aktiviteter. </p> <p>Du kan till exempel inrikta dig på alla lojalitetskunder genom att inkludera ett specifikt <span class="keyword"> Audience Manager- </span> segment för lojalitetsstatus och kombinera det med ett <span class="keyword"> Target- </span> segment bestående av personer som registrerade sig för ditt lojalitetsprogram under den aktuella sessionen, i stället för att skapa en tredje permanent målgrupp. </p> <p>Mer information finns i <a href="../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Kombinera flera publiker </a>. </p> </td> 
+   <td colname="col2"> <p>Kombinera flera olika målgrupper (inklusive <span class="keyword"> Adobe Experience Cloud </span> -målgrupper och <span class="keyword"> målgrupper) </span> direkt under arbetsflödet för att skapa aktiviteter. </p> <p>Du kan till exempel inrikta dig på alla lojalitetskunder genom att inkludera ett specifikt <span class="keyword"> Audience Manager- </span> segment för lojalitetsstatus och kombinera det med ett <span class="keyword"> Target- </span> segment bestående av personer som registrerade sig för ditt lojalitetsprogram under den aktuella sessionen, i stället för att skapa en tredje permanent målgrupp. </p> <p>Mer information finns i <a href="../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Kombinera flera publiker </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Rikta besökarna under en viss tidsperiod </td> 
@@ -2111,27 +2061,6 @@ Den här versionen innehåller följande förbättringar:
 **Kända fel**
 
 * Alternativet stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer. [!UICONTROL Render Using JavaScript]
-
-### Ändringar av målplattform (augusti 2016) {#section_8D8BA8C628E747338C84564EC34CE0FD}
-
-<table id="table_0035B0D7ECD444C68B1B6CB0F150C55E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Ändra </th> 
-   <th colname="col2" class="entry"> Detaljer </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> version 61 </p> </td> 
-   <td colname="col2"> <p>23 augusti 2016 </p> <p> <span class="filepath"> mbox.js </span> version 61 innehåller följande ändringar i augusti-versionen: </p> <p> 
-     <ul id="ul_DC4E5AB3B48A4D2D9B08B6CDA5DFE8FB"> 
-      <li id="li_B52F3AE60D324C2A8FAD03C1495F26D7"> <p> <span class="filepath"> mbox.js </span> version 61 är nu standardnedladdning i <span class="keyword"> användargränssnitten </span> Target Standard/Premium <span class="keyword"> och </span> Target Classic. </p> </li> 
-      <li id="li_41C2D2E552BF4F8E8A4375AF368F7728"> <p>Lagt till en <span class="codeph"> optoutEnabled- </span> inställning som stöder framtida avanmälningsfunktioner i Adobe Experience Cloud. Standardvärdet är false. Om den här egenskapen är aktiverad körs alla begäranden asynkront mot <span class="filepath"> /ajax- </span> slutpunkten, precis som version 60. </p> </li> 
-     </ul> </p> <p>Mer information om alla ändringar i <span class="filepath"> mbox.js </span> version 61 finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> mbox.js Versionsinformation </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Adobe Target Standard/Premium 16.8.1 (23 augusti 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
@@ -2200,10 +2129,6 @@ Följande kända fel har rapporterats:
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> version 0.9.1 </p> </td> 
    <td colname="col2"> <p>14 juli 2016 </p> <p> <span class="filepath"> at.js </span> version 0.9.1 finns nu att köpa. </p> <p>Mer information finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> .js Versionsinformation </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> version 61 </p> </td> 
-   <td colname="col2"> <p>28 juli 2016 </p> <p> <span class="codeph"> mbox.js </span> version 61 finns nu att ladda ned. Version 61 är för närvarande inte standardnedladdning. </p> <p>Mer information finns i Versionsinformation <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> för mbox.js </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2399,16 +2324,6 @@ Tänk på följande när du implementerar at.js:
 * Asynkron implementering innebär att äldre integreringar som plugin-programmet Test&amp;Target till SiteCatalyst kanske inte fungerar.
 * Mål-plugin-program som refererar till mbox.js-objekt och -metoder stöds inte.
 * Alla anrop till Target görs via XMLHTTPRequest och innehållet returneras via JSON.
-
-### Ändringar av målplattform {#section_8295A808A4CE405C9DA2893E7935238E}
-
-* [Mbox.js version 60](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#section_3BDAB885FA13444A8D35940A4BFF5825) är nu standardnedladdning.
-* Mbox.js-versioner tidigare än 50 testas inte längre aktivt. Om implementeringen ännu inte har uppdaterats ser du till att ytterligare kvalitetskontroller utförs för all leverans av Target-innehåll och rapporteringssamling.
-* Flash-kampanjer och andra Flash-relaterade objekt har tagits bort från Target.
-* Internet Explorer 10 stöds inte längre i Target-gränssnittet.
-* Stöd för innehållsleverans i Internet Explorer 8, 9 och 10 förväntas sluta i en kommande version.
-
-   Den aktiva testningen kommer att avbrytas i en framtida version för dessa webbläsare efter att Microsoft har slutat att ha aktivt stöd för dessa webbläsare. Target kommer att fortsätta leverera innehåll till dessa webbläsare, men du bör testa innehållsleverans och datainsamling för rapporter.
 
 ### Adobe Target Standard/Premium 16.4.1 Fix (5 maj 2016) {#section_70552F61E83140C7B4D2A245198B630E}
 
@@ -3175,9 +3090,6 @@ Den här versionen innehåller följande korrigeringar:
 **Kända fel**
 
 * Målbaserade konverteringshändelser för multivariata tester i Target Standard/Premium rapporteras inte när Analytics används som rapportkälla för Target. Problemet förväntas bli åtgärdat snart.
-* mbox.js version 56 flyttade avsnittet &quot;extra JavaScript&quot; så att det körs före global mbox.
-
-   Alla inställningar i v56+ har namnavstånd. Om det finns funktioner som deklarerats i &quot;extra JavaScript&quot; måste de föregås av ett fönster. Se [mbox.js Ändringslogg](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html).
 
 ### Adobe Target 15.2.1 (19 februari 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
