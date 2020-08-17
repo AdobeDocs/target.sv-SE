@@ -5,9 +5,9 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '3378'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,7 @@ I följande avsnitt listas kända problem för [!DNL Target]:
 
 ### Sidleverans {#page-delivery}
 
-Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) vid [sidleverans](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), läggs extra blanksteg till före reglerna. Detta är en kosmetisk fråga som inte påverkar målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35916)
-
-### Länkar för förhandsgranskning av aktivitet i QA {#preview}
-
-[Länkar för förhandsgranskning](/help/c-activities/c-activity-qa/activity-qa.md) av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Det bör fungera att försöka göra om förhandsvisningslänkarna. Om du vill förhindra att detta fortsätter att hända arkiverar du sparade aktiviteter som inte längre används aktivt. (TNT-32697)
+Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) vid [sidleverans](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), läggs extra blanksteg till före reglerna. Detta är en kosmetisk fråga som inte påverkar målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35920)
 
 ### QA-läge för Recommendations-aktiviteter
 
@@ -43,10 +39,6 @@ Följande är kända problem med omdirigeringserbjudanden:
 
 * Under vissa omständigheter har ett begränsat antal kunder rapporterat större variationer i trafikdistributionen när ett omdirigeringserbjudande används i aktiviteter som konfigurerats med Analytics for Target (A4T). Ingenjörer från Adobe arbetar för närvarande med detta problem.
 * Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) i stället för att utföra förhandsgranskning och QA. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)
-
-### Diagramrapporten för en Automatisk målaktivitet kan inte återges när en anpassad upplevelse används som kontroll
-
-Diagramrapporten för en Auto-Target-aktivitet kan inte återges för&quot;differentiella&quot; lägen (genomsnittlig Lyft och daglig lyft) om det inte finns några data (0 besök) för någon upplevelse. Detta kan inträffa under det första steget i en aktivitet om kontrollupplevelsen är anpassad. För de andra lägena (Running Average Control och Targeted, Daily Control och Targeted samt Visits) fungerar det bra. Så snart det finns vissa data (besök som inte är noll) återges rapporten som förväntat.
 
 ### Avbryt inläsning av en sida i VEC {#cancel}
 
@@ -85,7 +77,7 @@ I en MVT-aktivitet är vinnaren som visas i tabellen och diagrammet inte konsekv
 
 Följande är kända problem med at.js:
 
-* Om du använder tidigare at.js-versioner än 2.2.0 rapporterar click tracking inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) av at.js om du får det här problemet.
+* Om du använder version at.js före 2.2.0 rapporterar click tracking inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) av at.js om du får det här problemet.
 * Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-programmet [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) inte fungerar som det ska.
 
    Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet. (TNT-33366)
@@ -106,12 +98,6 @@ Följande är kända problem med at.js:
 * at.js kanske inte fungerar med Cordova/Hybrid-appar eftersom cookies från första part inte stöds i dem för närvarande. (TNT-26166)
 
    **Tillfällig lösning**: Konfigurera at.js med alternativet&quot;x-only&quot; aktiverat och skicka `mboxThirdPartyId` in anrop för att hantera användare.
-
-### mbox.js
-
-Biblioteket mbox.js har inte stöd för mallspråk på klientsidan, till exempel Handlebars och Mustache. At.js-biblioteket *stöder* dessa språk.
-
-**Obs**: Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementering: Automatisk generering av global mbox
 
@@ -148,6 +134,18 @@ Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetik
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan är lösta flyttas de till följande avsnitt och ytterligare anteckningar läggs till om det behövs.
+
+### Diagramrapporten för en Automatisk målaktivitet kan inte återges när en anpassad upplevelse används som kontroll
+
+Diagramrapporten för en Auto-Target-aktivitet kan inte återges för&quot;differentiella&quot; lägen (genomsnittlig Lyft och daglig lyft) om det inte finns några data (0 besök) för någon upplevelse. Detta kan inträffa under det första steget i en aktivitet om kontrollupplevelsen är anpassad. För de andra lägena (Running Average Control och Targeted, Daily Control och Targeted samt Visits) fungerar det bra. Så snart det finns vissa data (besök som inte är noll) återges rapporten som förväntat.
+
+Problemet har åtgärdats i version 19.7.1 av Target.
+
+### mbox.js
+
+Biblioteket mbox.js har inte stöd för mallspråk på klientsidan, till exempel Handlebars och Mustache. At.js-biblioteket *stöder* dessa språk.
+
+**Obs**: Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Rapportering och extrema order
 
