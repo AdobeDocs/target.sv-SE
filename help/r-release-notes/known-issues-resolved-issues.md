@@ -5,7 +5,7 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
 workflow-type: tm+mt
 source-wordcount: '3378'
 ht-degree: 0%
@@ -54,10 +54,6 @@ Följande är kända problem med omdirigeringserbjudanden:
 
 * Om du avbryter inläsningen av SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder under [!UICONTROL Modifications] panelen.
 
-### Stöd för Enterprise Permissions i mål-API:er {#api}
-
-Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
-
 ### Recommendations
 
 Följande är kända problem med Recommendations-aktiviteter:
@@ -99,14 +95,6 @@ Följande är kända problem med at.js:
 
    **Tillfällig lösning**: Konfigurera at.js med alternativet&quot;x-only&quot; aktiverat och skicka `mboxThirdPartyId` in anrop för att hantera användare.
 
-### Implementering: Automatisk generering av global mbox
-
-På fliken Implementering ([!UICONTROL Administration > Implementation]) är [!UICONTROL Global Mbox Auto Create] fältet&quot;false&quot; som standard för en nyligen etablerad klientorganisation.
-
-När mbox.js laddas ned för första gången efter etableringen ställs fältet in på &quot;true&quot; i den hämtade mbox.js-filen och i [!UICONTROL Global Mbox Auto Create] backend-filen, men det visas som &quot;false&quot; på [!DNL Target] [!UICONTROL Implementation] sidan i användargränssnittet tills sidan uppdateras (när sidan har uppdaterats blir statusen &quot;true&quot;).
-
-at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad klientorganisation. Om mbox.js laddas ned först laddas även global\_mbox\_autocreate is set to &quot;true&quot; och at.js ned `global_mbox_autocreate = true`. (TGT-15929)
-
 ### Framgångsmått
 
 Framgångsmått med det avancerade alternativet &quot;Hur kommer antalet att ökas&quot; inställt på &quot;varje intryck&quot; eller &quot;varje intryck (exklusive uppdateringar)&quot; kan inte användas som ett framgångsmått som ett annat mätvärde är beroende av.
@@ -146,6 +134,18 @@ Problemet har åtgärdats i version 19.7.1 av Target.
 Biblioteket mbox.js har inte stöd för mallspråk på klientsidan, till exempel Handlebars och Mustache. At.js-biblioteket *stöder* dessa språk.
 
 **Obs**: Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+
+### Implementering: Automatisk generering av global mbox
+
+På fliken Implementering ([!UICONTROL Administration > Implementation]) är [!UICONTROL Global Mbox Auto Create] fältet&quot;false&quot; som standard för en nyligen etablerad klientorganisation.
+
+När mbox.js laddas ned för första gången efter etableringen ställs fältet in på &quot;true&quot; i den hämtade mbox.js-filen och i [!UICONTROL Global Mbox Auto Create] backend-filen, men det visas som &quot;false&quot; på [!DNL Target] [!UICONTROL Implementation] sidan i användargränssnittet tills sidan uppdateras (när sidan har uppdaterats blir statusen &quot;true&quot;).
+
+at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad klientorganisation. Om mbox.js laddas ned först laddas även global\_mbox\_autocreate is set to &quot;true&quot; och at.js ned `global_mbox_autocreate = true`. (TGT-15929)
+
+### Stöd för Enterprise Permissions i mål-API:er {#api}
+
+Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
 
 ### Rapportering och extrema order
 
