@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 15 juni | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+| 15 juni | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om stöd för A4T i [!DNL Target Standard/Premium] version 20.5.1 (17 juni 2020) har uppdaterats [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime` inställningen. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
@@ -99,7 +99,6 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Arbeta med regissörer](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
 |  | [Integrera Recommendations med e-post](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
 |  | [E-post: implementera mål](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Lagt till information om hur du använder värdar för att undvika Open Redirect-sårbarheter. |
-| 7 maj | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | I och med den kommande utfasningen av mbox.js den 30 augusti 2020 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Det finns en länk där du kan titta på webbinariet de kommande 30 dagarna. |
 |  | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Uppdaterade avsnittet &quot;Överväganden&quot;. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Uppdaterad&quot;overrideMboxEdgeServer&quot;-rad under&quot;Settings&quot;. |
 | 6 maj | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Ytterligare information om ITP 2.3. |
@@ -115,7 +114,6 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Ändrad till 6 maj för målversionen av Standard/Premium (20.4.1). |
 | 23 april | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Uppdaterat ämne. |
 | 22 april | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Nytt avsnitt har lagts till: *Ändringar i API:t för gruppstatus (4 maj 2020).* |
-| 20 april | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Nytt avsnitt har lagts till: *Adobe Target Experience Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js.* |
 | 14 april | [Tillåtelselista Target-kantvärdar](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nytt ämne. |
 | 10 april | [Implementering av Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nytt avsnitt har lagts till: &quot;Bästa praxis för implementering.&quot; |
 | 7 april | [Lyft och tillförsikt - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Uppdaterad text för&quot;Varför kan jag inte se lyft och självförtroende för beräknade mätvärden?&quot; |
@@ -135,7 +133,6 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 4 mars | [Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md) | Hela ämnet har uppdaterats med omfattande revideringar av avsnittet&quot;Bästa praxis&quot;. |
 | 21 februari | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om den nya navigeringen i Adobe Experience Cloud. |
 | 20 februari | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Beskrivningen av `enabled` inställningen har uppdaterats. Tillagd information för följande inställningar: `pageLoadEnabled` och `viewsEnabled`. |
-| 19 februari | [Versionsinformation](/help/r-release-notes/release-notes.md) | Lagt till information om den kommande borttagningen av mbox.js-biblioteket. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Anteckning som `mboxOverride.browserIp` stöds i at.js 1 har lagts till.*Endast x* . |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Tydlig text som förklarar vilka versioner av at.js som Target-teamet stöder. |
 |  | [Versionsinformation](/help/r-release-notes/release-notes.md): 20.2.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
