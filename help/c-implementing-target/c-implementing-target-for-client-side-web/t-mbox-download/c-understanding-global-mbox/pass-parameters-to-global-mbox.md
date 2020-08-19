@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 # Skicka parametrar till en global mbox{#pass-parameters-to-a-global-mbox}
 
-JavaScript-funktionen targetPageParams används för att skicka parametrar till den globala mbox-filen. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/kontext ska skickas till Target.
+JavaScript- `targetPageParams` funktionen används för att skicka parametrar till den globala mbox-filen. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/sammanhang ska skickas till [!DNL Target].
 
-I en Recommendations-aktivitet kan du till exempel använda parametrarna för att representera den aktuella produkten eller kategorin som visas.
+I en [!DNL Recommendations] aktivitet använder du till exempel parametrarna för att representera den aktuella produkten eller kategorin som visas.
 
-Koden som anropar JavaScript-funktionen måste komma före den globala mbox på sidan, oavsett om den globala mbox utlöses som en del av mbox.js eller inkluderas manuellt i sidkoden.
+Koden som anropar JavaScript-funktionen måste komma före den globala mbox på sidan, oavsett om den globala mbox utlöses som en del av at.js eller inkluderas manuellt i sidkoden.
 
 >[!NOTE]
 >
->Om du vill lägga till parametrar i alla mbox på sidan, inte bara i den globala mbox, använder du funktionen [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) (endast at.js).
+>Om du vill lägga till parametrar i alla mbox på sidan, inte bara i den globala mbox, använder du funktionen [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) .
 
 Du kan skicka in parametrar till `target-global-mbox` att använda `targetPageParams()` funktionen på något av följande sätt:
 
