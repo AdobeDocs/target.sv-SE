@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Förstå den globala mbox{#understand-the-global-mbox}
 
-Information om den globala mbox, ett namn som används för att hänvisa till det enda serveranropet som gjordes högst upp på varje webbsida i din Adobe Target-implementering.
+Information om den globala mbox, ett namn som används för att referera till det enskilda serveranropet som görs högst upp på varje webbsida i din [!DNL Adobe Target] implementering.
 
-Som standard heter den globala mbox [!DNL target-global-mbox]. Den kan vid behov få ett nytt namn för ditt konto.
+Som standard heter den globala mbox `target-global-mbox`. Den kan vid behov få ett nytt namn för ditt konto.
 
 Det finns flera skillnader mellan en vanlig mbox (icke-global mbox) och den globala mbox, inklusive:
 
