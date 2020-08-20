@@ -5,9 +5,9 @@ title: Mobilvisningsrutor för responsiva upplevelser
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -119,6 +119,10 @@ Konfigurera de mobila visningsrutor som du vill göra tillgängliga när du skap
    Om du använder [Förbättrad Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) och väljer ett operativsystem emuleras den enheten när du visar sidan [!DNL Target] . Om till exempel Android ser annorlunda ut och känns annorlunda än iOS på din responsiva webbplats liknar det beteendet. [!DNL Target]
 
 1. Klicka på **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Om du försöker ta bort en mobil visningsruta som används visas följande meddelande: &quot;Den här visningsrutan är för närvarande associerad med en eller flera aktiviteter. Du måste ta bort visningsrutan från dessa aktiviteter innan du kan ta bort den.&quot;
 
 ## Skapa en responsiv upplevelse {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
