@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Det finns flera saker att tänka på när du markerar element:
    Mer information finns i [Navigera element med DOM-sökvägen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i Alternativ för *Visual Experience Composer*.
 
 * Du kan bläddra till en annan sida för att spåra klick på en sida där du kanske inte ändrar innehåll. Den här sidan måste inkluderas i aktiviteten med [flersidesfunktionen](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) och [!DNL at.js] eller [!DNL mbox.js] implementeras på den.
-* Om du markerar mer än ett element, och en deltagare klickar på något av de valda elementen, räknas klickningen. Om du vill räkna varje objekt för sig anger du individuella framgångsmått för varje element.
+* Om du markerar mer än ett element, och en deltagare klickar på något av de valda elementen, räknas klickningen. Om du vill räkna varje objekt för sig anger du individuella framgångsmått för varje element. Om du vill räkna ett objekt genom att klicka på flera element på en sida redigerar du CSS-elementväljaren så att den matchar flera element.
 * Se till att du väljer den elementnivå som du vill spåra. Om du till exempel anger en knapp måste du markera länken och inte knapptexten.
 * Klickhändelser skickas till [!DNL Target] på samma sida som klickningen.
 * Om klickspårningsmåttet är målmåttet för en A4T-aktivitet måste besökaren klicka på det här elementet inom 60 sekunder från inläsningen för att mätvärdet ska kunna spåras.
