@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 20 augusti | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har lagts till: &quot;Hur påverkar de nyligen meddelade reglerna för tillämpning av cookies i Google Chrome SameSite VEC och EEC?&quot; |
+|  | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Följande text har uppdaterats: &quot;Om du markerar mer än ett element och en deltagare klickar på något av de valda elementen räknas klickningen. Om du vill räkna varje objekt för sig anger du individuella framgångsmått för varje element. Om du vill räkna ett objekt genom att klicka på flera element på en sida redigerar du CSS-elementväljaren så att den matchar flera element.&quot; |
+|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.9.1 (2 september 2020). |
 | 14 augusti | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett känt problem med kvalitetskontrollen har lagts till i Recommendations-aktiviteter. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Text som anger att om du använder `serverState` och använder `<script>` -taggar i det returnerade innehållet måste du se till att HTML-innehållet använder `<\/script>` i stället för `</script>`. |
 | 12 augusti | [Förstå målgränssnittet](/help/c-intro/understand-the-target-ui.md) | Nytt ämne. |
