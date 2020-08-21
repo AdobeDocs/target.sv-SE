@@ -5,9 +5,9 @@ title: Felsökning av problem relaterade till Visual Experience Composer och Enh
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Med de senaste ändringarna (augusti 2020) har alla användare med webbläsarver
 * EEC fungerar *inte* för alla användare eftersom det inte går att ange attributet SameSite för cookies `adobemc.com domain`. Utan det här attributet kommer webbläsaren att avvisa dessa cookies, vilket gör att EEG misslyckas.
 
 Adobe har skickat ett uppdaterat VEC Helper-tillägg till Google Chrome Store. Det här tillägget skriver över cookie-attributen för att ställa in `SameSite="none"` attributet vid behov. Det [uppdaterade tillägget finns här](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+För dina egna webbplatscookies måste du ange cookies efter namn. Växla skjutreglaget till [!UICONTROL Cookie] den aktuella positionen och ange sedan cookien efter namn.
+
+![VEC Helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
 
 ### Alternativ och tillfälliga lösningar
 
