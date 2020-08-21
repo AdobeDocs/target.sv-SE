@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -57,7 +57,7 @@ I den här videon förklaras vilka aktivitetstyper som finns i [!DNL Target Stan
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics Webinar: Introduktion till Recommendations {#intro-to-recs} ![Tutorial badge](/help/assets/tutorial.png)
+## Adobe Target Basics Webinar: Introduktion till Recommendations ![självstudiekurs](/help/assets/tutorial.png) {#intro-to-recs}
 
 Introduktionen *till Recommendations* webbinarium innehåller en fördjupad genomgång av hur du kan utnyttja fördelarna med [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target] aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till [!DNL Target] användargränssnittet för att få en stegvis översikt över hur du skapar en [!DNL Recommendations] aktivitet.
 
