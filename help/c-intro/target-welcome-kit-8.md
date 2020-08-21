@@ -4,9 +4,9 @@ description: Adobe Target welcome kit - Kapitel 8
 title: Adobe Target welcome kit - Kapitel 8
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Om du har en aktivitet och får fantastiska resultat måste du dela dessa result
 
 När du förmedlar dessa resultat kan det vara bra att rikta in dig på dem på samma sätt som du berättar en historia. Gör det intressant och tydligt förklara vad det har testats eller personaliserats och varför och vad resultatet var. Använd det språk och den terminologi som de som granskar resultaten förstår.
 
-Vi har inkluderat en mall för verkställande sammanfattningsresultat i Microsoft PowerPoint (se nedan). Ge det ett nytt varumärke med organisationens färgschema och logotyp och använd det för att presentera resultatet från ditt första test eller personaliseringsarbete. Precis som med aktivitetsplaneraren ingår den i välkomstpaketet som en fristående fil, men vi har även lagt till en bild av den här, tillsammans med ett exempel på vilken typ av information som ska inkluderas i varje område i mallen.
+Vi har inkluderat en mall [för](/help/assets/executive-summary.zip) verkställande sammanfattningsresultat i Microsoft PowerPoint. Ge det ett nytt varumärke med organisationens färgschema och logotyp och använd det för att presentera resultatet från ditt första test eller personaliseringsarbete. Precis som med aktivitetsplaneraren ingår den i välkomstpaketet som en fristående fil, men vi har även lagt till en bild av den här, tillsammans med ett exempel på vilken typ av information som ska inkluderas i varje område i mallen.
 
 ![Sammanfattningsrapport](/help/c-intro/assets/executive-summary-report.png)
