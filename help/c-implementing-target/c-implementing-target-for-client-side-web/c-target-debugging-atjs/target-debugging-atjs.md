@@ -6,7 +6,7 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -26,14 +26,14 @@ Mer information finns i dokumentationen [till](https://docs.adobe.com/content/he
 
 I följande videofilmer får du hjälp med felsökningsprocessen:
 
-### Lägg till märket Adobe Experience Cloud Debugger Extension {#section_8CD96F76E397476193529573F3199615} ![Overview](/help/assets/overview.png)
+### Lägg till märket Adobe Experience Cloud Debugger Extension ![Overview](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Grundläggande målfelsökning med hjälp av märket {#section_AB2814A994DC4A86BABDD0441343D911} Adobe Experience Cloud Debugger ![Overview](/help/assets/overview.png)
+### Grundläggande målfelsökning med märket Adobe Experience Cloud Debugger ![Overview](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211} Overview- ![märke](/help/assets/overview.png)
+### Mbox Trace ![Overview-märke](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
