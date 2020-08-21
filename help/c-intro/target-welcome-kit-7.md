@@ -4,9 +4,9 @@ description: Adobe Target welcome kit - Kapitel 7
 title: Adobe Target welcome kit - Kapitel 7
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ När ni kommer på idén med testning bör ni tänka på att ni borde kunna för
 
 ## Planera din aktivitet med aktivitetsplaneraren
 
-Vi har tagit med följande aktivitetsplanerare som en fristående PDF-fil (se nedan) som du kan spara och använda om och om igen. För att kunna utföra en effektiv aktivitet måste du fylla i varje område i planeringsområdet. Använd det här verktyget när du och andra brainstormar idéer för testning och personalisering.
+Vi har tagit med [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) som en fristående PDF som du kan spara och använda om och om igen. För att kunna utföra en effektiv aktivitet måste du fylla i varje område i planeringsområdet. Använd det här verktyget när du och andra brainstormar idéer för testning och personalisering.
 
 ![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 
