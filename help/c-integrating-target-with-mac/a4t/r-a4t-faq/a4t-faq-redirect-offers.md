@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Vi rekommenderar att du talar med IT-avdelningen för att säkerställa att `ado
 
 ## Varför måste den refererande URL:en skickas till den nya sidan? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Anta att en besökare klickar på en länk på [!DNL `www.google.com`] din hemsida ( [!DNL `www.mysite.com/index.html]`) där en omdirigeringsaktivitet är aktiv och sedan omdirigeras till en ny sida ( [!DNL `www.mysite.com/index2.html`]).
+Anta att en besökare klickar på en länk på [!DNL `www.google.com`] din hemsida (`www.mysite.com/index.html`) där en omdirigeringsaktivitet finns och sedan omdirigeras till en ny sida (`www.mysite.com/index2.html`).
 
 Tidigare skulle begäran på den [!DNL Analytics] nya sidan rapportera en refererande URL till [!DNL `www.mysite.com/index.html`] istället för [!DNL `www.google.com`]. Detta orsakade felaktiga rapporter i [!DNL Analytics] samband med refererande URL:er (till exempel marknadsföringskanalrapporter). Rapporterna hade förlorat det faktum att du kom till webbplatsen från [!DNL `www.google.com`].
 
