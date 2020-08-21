@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -313,7 +313,7 @@ Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Administration 
 
 Ja, de anpassade händelserna at.js gäller `triggerView()` också.
 
-### Det står att när jag ringer `triggerView()` med `{“page” : “true”}`kommer det att skicka ett meddelande till [!DNL Target] backend-objektet och öka intrycket. Gör det även att profilskripten körs?
+### Det står när jag anropar `triggerView()` med &amp;lbrace;`“page” : “true”`&amp;rbrace;, det skickar ett meddelande till [!DNL Target] serverdelen och ökar intrycket. Gör det även att profilskripten körs?
 
 När ett förhämtningsanrop görs till [!DNL Target] serverdelen körs profilskripten. Därefter krypteras profildata som påverkas och skickas tillbaka till klientsidan. När `triggerView()` det `{"page": "true"}` anropas skickas ett meddelande tillsammans med de krypterade profildata. Detta är när [!DNL Target] backend-objektet dekrypterar profildata och lagrar dem i databaserna.
 
