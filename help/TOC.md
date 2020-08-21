@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,9 @@ ht-degree: 0%
       + [Kapitel 4: Tips för att använda Target](/help/c-intro/target-welcome-kit-4.md)
       + [Kapitel 5: Inspiration för testning och personalisering](/help/c-intro/target-welcome-kit-5.md)
       + [Kapitel 6: Enkelt undvika fallfall](/help/c-intro/target-welcome-kit-6.md)
+      + [Kapitel 7: Skapa och kör din första Target-aktivitet](/help/c-intro/target-welcome-kit-7.md)
+      + [Kapitel 8: Kommunicera aktivitetsresultat](/help/c-intro/target-welcome-kit-8.md)
+      + [Kapitel 9: Nästa steg och resurser](/help/c-intro/target-welcome-kit-9.md)
    + [Ordlista](c-intro/glossary.md)
    + [Så här fungerar Adobe Target](c-intro/how-target-works.md)
    + [Utbildning och certifiering](c-intro/training-and-certification.md)
