@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Om du aktiverar inställningen när du konfigurerar at.js kommer at.js att ange 
 
 Med Opacitet 0 döljs sidinnehållet för att förhindra flimmer, men webbläsaren återger sidan och läser in alla nödvändiga resurser som CSS, bilder osv.
 
-Om opacitet 0 inte fungerar i implementeringen kan du även hantera flimmer genom att anpassa `bodyHiddenStyle` och ställa in den på `body {visibility:hidden !important}`. Du kan använda antingen värdebrödtext `{opacity:0 !important`} eller `body {visibility:hidden !important}`den som passar bäst för dina specifika omständigheter.
+Om opacitet 0 inte fungerar i implementeringen kan du även hantera flimmer genom att anpassa `bodyHiddenStyle` och ställa in den på `body {visibility:hidden !important}`. Du kan använda antingen värdebrödtext `{opacity:0 !important}` eller `body {visibility:hidden !important}`, beroende på vilket som fungerar bäst för dina specifika omständigheter.
 
 Följande bild visar anropet Dölj brödtext och Visa brödtext i båda at.js 1.*x* och at.js 2.x.
 
