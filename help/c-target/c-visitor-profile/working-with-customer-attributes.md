@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -187,7 +187,7 @@ Tänk på följande implementeringsproblem:
 
 Om du inte hittar kundattributsdata i Target kontrollerar du att importen inträffade inom de *x* -dagar där *x* är värdet för målbesökarens [profillivstid](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagar som standard).
 
-## Utbildningsvideo: Ladda upp offlinedata med {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![självstudiekursen för kundattribut](/help/assets/tutorial.png)
+## Utbildningsvideo: Ladda upp offlinedata med ![självstudiekursen för kundattribut](/help/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
 I den här videon visas hur du importerar CRM-data offline, helpdesk-data, försäljningsdata och andra marknadsföringsdata till [!DNL Experience Cloud People] tjänsten och associerar dem med besökare med deras kända ID:n.
 
