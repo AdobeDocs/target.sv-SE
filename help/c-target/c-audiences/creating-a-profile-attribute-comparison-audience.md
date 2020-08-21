@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Målgrupper definieras av regler som bestämmer vem som är inkluderad eller ute
 Låt oss anta att du arbetar för ett möbelföretag och överförde två kundbenägenhetspoängen till Target:
 
 * Sannolikheten att köpa möbler till matsalar under de kommande 90 dagarna
-* Sannolikheten att köpa möbler för vardagsrumsmöbler under de kommande 90 dagarna
+* Sannolikhet att köpa möbler för vardagsrumsmöbler under de kommande 90 dagarna
 
 Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än sannolikheten att köpa möbler för vardagsrum. Target skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för denna målgrupp.
 
@@ -60,7 +60,7 @@ Mer information finns i [Metoder för att hämta data till Target](../../c-imple
 
    ![](assets/propensity_score_4.png)
 
-## Utbildningsemblem {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} för ![videoöversikt](/help/assets/overview.png)
+## Utbildningsemblem ![för videoöversikt](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Titta på följande video för mer information och ett scenario där du kan använda den här funktionen:
 
