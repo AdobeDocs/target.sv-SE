@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '2274'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Det finns tre scenarier att tänka på när du använder Opt-In:
 
 1. **Taggen[!DNL Target]godkänns på förhand[!DNL Launch](eller den registrerade som tidigare godkänts[!DNL Target]):** Taggen [!DNL Target] sparas inte för samtycke och fungerar som förväntat.
 1. **Taggen[!DNL Target]är INTE förgodkänd och`bodyHidingEnabled`är FALSE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Efter det att samtycke mottagits [!DNL Target] anropas det och personaliserat innehåll är tillgängligt för den registrerade (besökaren). Eftersom endast standardinnehåll är tillgängligt före samtycke är det viktigt att utnyttja en lämplig strategi, till exempel en välkomstsida som täcker alla delar av sidan eller innehåll som kan personaliseras. Detta garanterar att upplevelsen är enhetlig för den registrerade (besökaren).
-1. **Taggen[!DNL Target]är INTE förgodkänd och`bodyHidingEnabled`är TRUE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Men eftersom `bodyHidingEnabled` är inställt på true `bodyHiddenStyle` avgör vilket innehåll på sidan som döljs tills [!DNL Target] -taggen aktiveras (eller så avvisar den registrerade möjligheten att välja, vilket innebär att standardinnehåll visas). Som standard `bodyHiddenStyle` anges till `body { opacity:0;`}, vilket döljer HTML-body-taggen. Den rekommenderade sidkonfigurationen visas nedan så att hela sidans innehåll, förutom dialogrutan för hantering av samtycke, döljs genom att sidans innehåll placeras i en behållare och dialogrutan för hantering av samtycke i en separat behållare. Den här inställningen konfigureras [!DNL Target] så att endast sidinnehållsbehållaren döljs. Mer information om hur du konfigurerar de här inställningarna finns i [Startdokumentationen](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
+1. **Taggen[!DNL Target]är INTE förgodkänd och`bodyHidingEnabled`är TRUE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Men eftersom `bodyHidingEnabled` är inställt på true `bodyHiddenStyle` avgör vilket innehåll på sidan som döljs tills [!DNL Target] -taggen aktiveras (eller så avvisar den registrerade möjligheten att välja, vilket innebär att standardinnehåll visas). Som standard `bodyHiddenStyle` anges till `body { opacity:0;}`, vilket döljer HTML-body-taggen. Den rekommenderade sidkonfigurationen visas nedan så att hela sidans innehåll, förutom dialogrutan för hantering av samtycke, döljs genom att sidans innehåll placeras i en behållare och dialogrutan för hantering av samtycke i en separat behållare. Den här inställningen konfigureras [!DNL Target] så att endast sidinnehållsbehållaren döljs. Mer information om hur du konfigurerar de här inställningarna finns i [Startdokumentationen](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
    Rekommenderad sidinställning för scenario 3 är:
 
@@ -139,7 +139,7 @@ Sammanställda eller anonyma data (t.ex. rapportdata) som inte identifierar en v
 
 >[!NOTE]
 >
->Även om [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies [!DNL Target] från första part för GDPR och CCPA.
+>Även om [!DNL Target] [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies från första part för GDPR och CCPA.
 
 ### Hur [!DNL Target] hanterar vi samtyckeshantering? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
