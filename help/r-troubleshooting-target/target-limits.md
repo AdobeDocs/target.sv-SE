@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek,
 
 ## Namn på kundattribut
 
-**Gräns**: 128 tecken.
+**Gräns**: 250 tecken genom feed eller API.
 
 ## ID för kundattributalias
 
