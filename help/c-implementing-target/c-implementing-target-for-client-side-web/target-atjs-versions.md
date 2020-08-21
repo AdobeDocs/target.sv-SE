@@ -6,7 +6,7 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '3971'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 
 ## kl. 1.8.2 (15 juni 2020)
 
-Den här versionen av at.js är en underhållsversion och innehåller följande korrigering:
+Den här versionen av at.js är en underhållsrelease och innehåller följande korrigering:
 
 * Korrigerade ett problem vid användning av CNAME och kantåsidosättning, at.js 1.*x* kan felaktigt skapa serverdomänen, vilket resulterade i att [!DNL Target] begäran misslyckades. (TNT-35064)
 
@@ -241,7 +241,7 @@ at.js version 1.5.0 finns nu att köpa.
      scheduler = setTimeout
    ```
 
-## at.js Version 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js Version 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js version 1.3.0 finns nu att köpa.
 
@@ -406,9 +406,9 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
 
    * Befintliga tillägg (t.ex. AngularJS-tillägg) måste uppdateras för att använda `registerExtension()` metoden.
 
-* Nytt at.js-meddelande]-API.
+* Nytt meddelande-API för at.js.
 
-   Målet med det här meddelandesystemet är att ge mer insikt i vad som [!DNL at.js] görs på sidan och när det uppstår problem. Ett vanligt problem med VEC är att en IT-release ändrar sidan, en VEC-väljare avbryter och att testet slutar leverera innehållet korrekt. Ett mål med det här meddelandesystemet är att göra det här leveransproblemet känt på sidan, så att utvecklare kan komma åt informationen, skicka den till ett system som [!DNL Adobe Analytics]och varningar kan skickas till företagsägarna om att testet har avbrutits.
+   Målet med det här meddelandesystemet är att ge mer insikt i vad som [!DNL at.js] sker på sidan och när det uppstår problem. Ett vanligt problem med VEC är att en IT-release ändrar sidan, en VEC-väljare avbryter och att testet slutar leverera innehållet korrekt. Ett mål med det här meddelandesystemet är att göra det här leveransproblemet känt på sidan, så att utvecklare kan komma åt informationen, skicka den till ett system som [!DNL Adobe Analytics]och varningar kan skickas till företagsägarna om att testet har avbrutits.
 
 * Ny `targetGlobalSettings()` API-metod.
 
