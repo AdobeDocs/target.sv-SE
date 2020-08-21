@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 0%
@@ -285,7 +285,7 @@ Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom a
 </script>
 ```
 
-## Utbildningsvideo: Responstoken och at.js Custom Events {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Tutorial badge](/help/assets/tutorial.png)
+## Utbildningsvideo: Responstoken och at.js Custom Events ![Tutorial badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Titta på följande video och lär dig hur du använder svarstoken och anpassade at.js-händelser för att dela profilinformation från Target till tredjepartssystem.
 
