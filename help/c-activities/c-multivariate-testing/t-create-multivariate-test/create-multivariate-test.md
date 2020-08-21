@@ -5,7 +5,7 @@ title: Skapa ett multivariata test
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -39,7 +39,7 @@ MVT ( [!UICONTROL Multivariate Test] page-first report) tar en sida i taget. Tes
    >
    >Felsökningsinformation om VEC finns i [Felsökning i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)om det uppstår problem.
    >
-   >Alternativet [!UICONTROL Choose Workplace] i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.]
+   >Alternativet [!UICONTROL Choose Workplace] i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
 
 1. (Villkorligt) Om du är en Target Premium-kund [väljer du en arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -100,7 +100,7 @@ MVT ( [!UICONTROL Multivariate Test] page-first report) tar en sida i taget. Tes
 
    ![](assets/estimator2.png)
 
-1. Klicka **[!UICONTROL Next]** för att gå till [!UICONTROL Targeting] sidan.]
+1. Klicka **[!UICONTROL Next]** för att gå till [!UICONTROL Targeting] sidan.
 
 1. Välj målgrupp och procentandel kvalificerade besökare som du vill ange aktiviteten för.
 
