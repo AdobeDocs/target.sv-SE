@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,17 @@ ht-degree: 0%
    + [Versionsinformation för tidigare versioner](r-release-notes/release-notes-for-previous-releases.md)
 + Introduktion {#introduction}
    + [Introduktion till Target](c-intro/intro.md)
-   + [Adobe Target welcome kit](/help/c-intro/target-welcome-kit.md)
    + [Access Target från Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Målgrupper](c-intro/target-key-concepts.md)
    + [Förstå målgränssnittet](/help/c-intro/understand-the-target-ui.md)
+   + Adobe Target welcome kit {#welcome}
+      + [Översikt över välkomstpaketet för Adobe Target](/help/c-intro/target-welcome-kit.md)
+      + [Kapitel 1: Introduktion](/help/c-intro/target-welcome-kit-1.md)
+      + [Kapitel 2: Adobe Target i korthet](/help/c-intro/target-welcome-kit-2.md)
+      + [Kapitel 3: Utveckla testnings- och personaliseringsidéer](/help/c-intro/target-welcome-kit-3.md)
+      + [Kapitel 4: Tips för att använda Target](/help/c-intro/target-welcome-kit-4.md)
+      + [Kapitel 5: Inspiration för testning och personalisering](/help/c-intro/target-welcome-kit-5.md)
+      + [Kapitel 6: Enkelt undvika fallfall](/help/c-intro/target-welcome-kit-6.md)
    + [Ordlista](c-intro/glossary.md)
    + [Så här fungerar Adobe Target](c-intro/how-target-works.md)
    + [Utbildning och certifiering](c-intro/training-and-certification.md)
