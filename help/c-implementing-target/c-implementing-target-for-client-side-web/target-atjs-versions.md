@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '3971'
+source-wordcount: '3970'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 
 ## .js 2.3.2 (24 juli 2020)
 
-Den här versionen av at.js är en underhållsrelease och innehåller följande korrigering:
+Den här versionen av at.js är en underhållsversion och innehåller följande korrigering:
 
 * Korrigerade ett fel när ett skript eller en kod lägger till standardegenskap i fönstret eller dokumentet.
 
 ## kl. 1.8.2 (15 juni 2020)
 
-Den här versionen av at.js är en underhållsrelease och innehåller följande korrigering:
+Den här versionen av at.js är en underhållsversion och innehåller följande korrigering:
 
 * Korrigerade ett problem vid användning av CNAME och kantåsidosättning, at.js 1.*x* kan felaktigt skapa serverdomänen, vilket resulterade i att [!DNL Target] begäran misslyckades. (TNT-35064)
 
@@ -175,7 +175,7 @@ Mer information om Adobe deltagande finns i [Sekretess och allmänna dataskyddsf
 
 Den här versionen åtgärdar också ett problem där Target kan åsidosätta omdirigerings-URL-parametrar med parametrar som kommer från omdirigerings-URL:en.
 
->[! ANMÄRKNING]
+>[!NOTE]
 >
 >Om du behöver stöd för Adobe-deltagande för GDPR måste du för närvarande använda at.js 1.7.0 eller 2.1.0.<br>En lista över alla versioner finns [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.
 
@@ -241,7 +241,7 @@ at.js version 1.5.0 finns nu att köpa.
      scheduler = setTimeout
    ```
 
-## at.js Version 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js Version 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js version 1.3.0 finns nu att köpa.
 
