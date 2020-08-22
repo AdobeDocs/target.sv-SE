@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Kapitel 4
-title: Adobe Target welcome kit - Kapitel 4
+description: Adobe Target welcome kit - Kapitel 4 - Tips för att använda Target
+title: Adobe Target welcome kit - Kapitel 4 - Tips för att använda Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Se [Svarstoken](/help/administrating-target/response-tokens.md) för steg-för-s
 
 ## Tips 4: Bygg målgrupper utifrån dessa nyckelvariabler för att öka värdet av er aktivitet.
 
-När du skapar målgrupper för målinriktning eller testning av kampanjer och erbjudanden ska du först ta hänsyn till följande variabler:
+När du skapar målgrupper för målinriktning eller testning av kampanjer och erbjudanden ska du först ta hänsyn till följande:
 
 * Beteende. Mönster för webbplatsbesök och inköpsmönster
 * Referent. Referera till webbplatser och kampanjer
@@ -92,7 +92,7 @@ Se [Inkludera samma upplevelse på liknande sidor](/help/c-experiences/c-visual-
 
 Om ni riktar in er på ett segment som ni vet inte riktar in er på igen - till exempel kunder som drabbats av ett oväntat väderläge - kan ni få jobbet gjort utan att ni behöver lära er mer om målgruppsbiblioteket. Det gör det enklare att hitta målgrupper som du använder om och om igen.
 
-Se [Skapa en målgrupp](/help/c-target/creating-activity-only-audience.md) som endast kan användas för aktivitet för stegvisa instruktioner.
+Se [Skapa en målgrupp](/help/c-target/creating-activity-only-audience.md) som bara innehåller aktiviteter för stegvisa instruktioner.
 
 **Mycket önskad kapacitet**: Våra kunder bad oss att göra det möjligt att förhindra att enstaka målgrupper sparas automatiskt i målgruppsbiblioteket. Nu behöver de inte längre ta bort målgrupper manuellt för att hålla sina bibliotek organiserade.
 
@@ -110,11 +110,11 @@ Många marknadsförare lanserar optimeringsprogram för målgruppssegmentering o
 * Vilken konverteringsgrad har sidan?
 * Hur länge tror du att du behöver köra testet innan du kan kalla det fullständigt?
 
-**Tips**: Använd måtträknaren [för målets](https://docs.adobe.com/content/target-microsite/testcalculator.html) exempelstorlek för att avgöra vilken provstorlek som behövs för att testet ska lyckas.
+**Tips**: Använd måtträknaren [för målets](https://docs.adobe.com/content/target-microsite/testcalculator.html) exempelstorlek för att avgöra vilken provstorlek som krävs för att testet ska lyckas.
 
 ## Tips 12: Utforma enklare tester för att vara säker på att du kan skapa och implementera dem.
 
-Efter att ha övervägt alla aspekter av hur du utformar ett test kan en plan bli mycket komplex. Baserat på var ert företag är med testning och er grupps förmåga att utforma, koda, genomföra och analysera resultaten, kan ni avgöra om testet verkar för ambitiöst. Om så är fallet, var beredd att minska dess omfattning och komplexitet. Bättre att börja litet än att inte göra testet alls. Du kan inte ge en slagkraftig lyft om du aldrig startar testet. Det är viktigt att balansera teamets ambitioner med realiteterna i era resurser och förmågor.
+Efter att ha övervägt alla aspekter av hur du utformar ett test kan en plan bli mycket komplex. Baserat på var ert företag är med testning och er grupps förmåga att utforma, koda, genomföra och analysera resultaten, kan ni avgöra om testet verkar för ambitiöst. Om så är fallet, var beredd att minska dess omfattning och komplexitet. Bättre att börja litet än att inte göra testet alls. Man kan inte ge en slagkraftig lyft om man aldrig startar testet. Det är viktigt att balansera teamets ambitioner med realiteterna i era resurser och förmågor.
 
 ## Tips 13: Dela upp komplexa tester i mindre testaktiviteter så att de blir möjliga att genomföra.
 
