@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Kapitel 5
-title: Adobe Target welcome kit - Kapitel 5
+description: Adobe Target welcome kit - Kapitel 5 - Inspiration for testing and personalization activity
+title: Adobe Target welcome kit - Kapitel 5 - Inspiration for testing and personalization activity
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Kapitel 5: Inspiration för testning och personalisering.
 
-Dessa idéer om testning och personalisering, inspirerade av verkliga aktiviteter som våra kunder har lyft konverteringsgraden och intäkterna, är värda att testa och inspirera till dina egna [!DNL Target] aktiviteter. Även om idén inte passar just er organisation, med lite kreativitet och brainstorming, bör ni överväga att utveckla en aktivitet som bygger på testets eller personaliseringens anda.
+Dessa idéer om testning och personalisering, som inspireras av verkliga aktiviteter som utförs av våra kunder och som har höjt konverteringsgraden och intäkterna, är värda att testa eller använda som inspiration för dina egna [!DNL Target] aktiviteter. Även om idén inte passar just er organisation, med lite kreativitet och brainstorming, bör ni överväga att utveckla en aktivitet som bygger på testets eller personaliseringens anda.
 
 ## Idea 1: Testa personalisering av kundresan.
 
