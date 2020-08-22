@@ -5,9 +5,9 @@ title: Felsökning av problem relaterade till Visual Experience Composer
 feature: vec
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Om varken Visual Experience Composer eller Enhanced Experience Composer fungerar
 >Utöver följande information kan du använda webbläsartillägget [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) Adobe Target VEC Helper för Google Chrome.
 
 
->[!Note]
+>[!NOTE]
 >
 >Dessa plugin-program bör endast användas i samband med VEC-redigering.
 >
