@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Kapitel 6
-title: Adobe Target welcome kit - Kapitel 6
+description: Adobe Target välkomstkit - Kapitel 6 - Enkelt att undvika fallgropar
+title: Adobe Target välkomstkit - Kapitel 6 - Enkelt att undvika fallgropar
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 Det bästa med att starta optimerings- och personaliseringsprogrammet nu är att de som har gjort det ett tag redan har upptäckt många av de misstag som är enkla att göra. Genom att känna till de här fallgroparna kan du enkelt undvika dem eller åtgärda dem.
 
-Se [Tio vanliga A/B-testfall och hur du undviker dem](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) för detaljerad information. Förutom de idéer som presenteras i den artikeln bör du ha den här korta listan till hands för att undvika eller åtgärda de här vanliga testnings- och personaliseringsfallgroparna.
+>[!NOTE]
+>
+>Se [Tio vanliga A/B-testfall och hur du undviker dem](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) för detaljerad information. Förutom de idéer som presenteras i den artikeln bör du ha den här korta listan till hands för att undvika eller åtgärda de här vanliga testnings- och personaliseringsfallgroparna.
 
 | Pitfall | Lösning |
 | --- | --- |
@@ -31,4 +33,4 @@ Se [Tio vanliga A/B-testfall och hur du undviker dem](/help/c-activities/t-test-
 | En aktivitet före resultaten är statistiskt signifikant. | Verifiera testets varaktighet med hjälp av Adobe- [beräkningsverktyget](https://docs.adobe.com/content/target-microsite/testcalculator.html)för samplingsstorlek. |
 | Tar emot negativa eller platta resultat från en [!DNL Target] aktivitet. | Bekräfta att aktiviteten är värd att testa. |
 | Det är inte svårt att koda den vinnande upplevelsen. | Använd aktivitetsdata för att visa värde för att köpa in för hårdkodning. |
-| Att inte dela med sig av resultat utanför testteamet. | Utvidga kommunikationen så att den omfattar lunch och inlärning, utveckla en programkontrollpanel och boka möten med intressenter. |
+| Att inte dela med sig av resultat utanför testteamet. | Utvidga kommunikationen så att den omfattar lunch och inlärning, utveckla en programkontrollpanel och schemalägg möten med intressenter. |
