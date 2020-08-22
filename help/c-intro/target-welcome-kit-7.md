@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Kapitel 7
-title: Adobe Target welcome kit - Kapitel 7
+description: Adobe Target welcome kit - Kapitel 7 - Skapa och kör din första Target-aktivitet
+title: Adobe Target welcome kit - Kapitel 7 - Skapa och kör din första Target-aktivitet
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,9 @@ När ni kommer på idén med testning bör ni tänka på att ni borde kunna för
 
 ## Planera din aktivitet med aktivitetsplaneraren
 
-Vi har tagit med [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) som en fristående PDF som du kan spara och använda om och om igen. För att kunna utföra en effektiv aktivitet måste du fylla i varje område i planeringsområdet. Använd det här verktyget när du och andra brainstormar idéer för testning och personalisering.
+Vi har tagit med [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) som en fristående PDF som du kan spara och använda om och om igen. Klicka på länken för att visa PDF-filen. Högerklicka för att ladda ned PDF-filen.
+
+För att kunna utföra en effektiv aktivitet måste du fylla i varje område i planeringsområdet. Använd det här verktyget när du och andra brainstormar idéer för testning och personalisering.
 
 ![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 
