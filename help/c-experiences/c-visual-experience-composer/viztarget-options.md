@@ -6,9 +6,9 @@ feature: vec
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Följande alternativ är tillgängliga:
 
 Förutom HTML-kod kan du redigera och mata in egen JavaScript.
 
-Det finns flera alternativ för formatering av formaterad text när du redigerar text och HTML för [!UICONTROL A/B] - och [!UICONTROL Experience Targeting] -aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och redigeringsvyn för HTML.
+Det finns flera alternativ för formatering av formaterad text när du redigerar text och HTML för [!UICONTROL A/B] - och [!UICONTROL Experience Targeting] -aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och den avancerade redigeringsvyn för HTML.
 
 Följande HTML5-taggar kan kapslas:
 
@@ -200,7 +200,7 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
 
    Tänk på att CSS Editor endast visar information för den aktuella sessionen. Om du sparar ändringarna och sedan öppnar redigeraren igen visas inte information om den tidigare ändringen i redigeraren, även om du väljer samma element igen.
 
-   >[!Iviktig]
+   >[!IMPORTANT]
    >
    >Du kan använda en bakgrundsbild med CSS Editor, men det kan orsaka flimmer. Testa ändringarna före driftsättningen.
 
