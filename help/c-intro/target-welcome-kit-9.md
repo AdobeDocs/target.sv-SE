@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target welcome kit - Kapitel 9
-title: Adobe Target welcome kit - Kapitel 9
+description: Adobe Target welcome kit - Kapitel 9 - Nästa steg och resurser
+title: Adobe Target welcome kit - Kapitel 9 - Nästa steg och resurser
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Vi har sammanställt en ordnad lista med värdefull information som hjälper er 
 * **Adobe Target Tutorials**: Lär dig grunderna eller förfina dina färdigheter. Se sidan [](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)Adobe Target Tutorials.
 * **Adobe Target On-Demand Training**: Utforska de olika Target-kurserna vi erbjuder. Se sidan [Utbildning och självstudiekurser](https://helpx.adobe.com/learning.html?promoid=KAUDK) för Adobe.
 * **Adobe Target Videos:** Binge tittar på videoklippen för att se [!DNL Target] hur de fungerar. Se [Utbildningsvideor om Adobe Target Standard och Premium](/help/c-intro/target-standard-premium-training-videos.md)
-* **Webinar Series**: Adobe Target Basics. Delta i vår Customer Success-webbinarium som utforskar grunderna för optimering med Adobe Target-användare. Se [Grundläggande målwebbseminarier](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
+* **Webinar Series**: Adobe Target Basics. Gå med i vår Customer Success-webbinarium som utforskar grunderna för optimering med Adobe Target-användare. Se [Grundläggande målwebbseminarier](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
 * **Adobe Kundtjänst:**&quot;Kontorstid&quot; är ett initiativ som leds av kundtjänstteamet på Adobe. Dessa sessioner är avsedda att informera såväl som hjälpa deltagare att felsöka problem och ge tips och råd för att lyckas med [!DNL Adobe Experience Cloud] lösningarna, inklusive [!DNL Target]. Se [Adobe Kundtjänst](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **Adobe Summit**: Delta i årets största professionella event för digitala marknadsförare.
    * [Adobe Summit](https://summit.adobe.com/na/) (Nordamerika)
