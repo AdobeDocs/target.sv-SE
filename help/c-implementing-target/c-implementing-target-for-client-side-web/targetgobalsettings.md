@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Du kan åsidosätta följande inställningar:
 ### cookieDomain
 
 * **Typ**: Sträng
-* **Standardvärde**: Ange om möjligt domänens högsta nivå.
+* **Standardvärde**: Ange om möjligt till toppnivådomänen.
 * **Beskrivning**: Representerar domänen som används när cookies sparas.
 
 ### crossDomain
@@ -473,7 +473,7 @@ Tänk på följande när du använder `serverState`:
 
 * Vid användning av `serverState `erbjudanden tar at.js hänsyn till `pageLoadEnabled` och `viewsEnabled` inställningar, t.ex. kommer sidinläsningserbjudanden inte att gälla om `pageLoadEnabled` inställningen är false.
 
-   Aktivera de här inställningarna genom att aktivera växlingen i **[UICONTROL Administration > Implementering > Redigera > Sidinläsning aktiverad]**.
+   Aktivera de här inställningarna genom att aktivera växlingsknappen **[!UICONTROL Administration]>[!UICONTROL Implementation]>[!UICONTROL Edit]>[!UICONTROL Page Load Enabled]**.
 
    ![Inställningar för sidinläsning aktiverat](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
