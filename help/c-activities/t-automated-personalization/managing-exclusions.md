@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Det kan finnas vissa kombinationer som inte fungerar bra tillsammans, eller så 
 
    ![Uteslut upplevelsen genom att hovra](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Du kan också gruppexkludera/inkludera upplevelser genom att markera kryssrutan för de relevanta upplevelserna och sedan klicka på ikonen **[UICONTROL-exkludera]** i dialogrutans övre högra hörn. Ikonen visas [!UICONTROL Exclude] när en eller flera upplevelser kontrolleras.
+   Du kan också gruppexkludera/inkludera upplevelser genom att markera kryssrutan för de relevanta upplevelserna och sedan klicka på **[!UICONTROL Exclude]** ikonen i dialogrutans övre högra hörn. Ikonen visas [!UICONTROL Exclude] när en eller flera upplevelser kontrolleras.
 
    ![Gruppexkludera upplevelser](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
