@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1931'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 24 augusti | [Framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Uppdaterat avsnittet Avancerade inställningar. |
 | 21 augusti | [Översikt över välkomstpaketet för Adobe Target](/help/c-intro/target-welcome-kit.md) | Nya artiklar och underämnen. |
 | 20 augusti | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har lagts till: &quot;Hur påverkar de nyligen meddelade reglerna för tillämpning av cookies i Google Chrome SameSite VEC och EEC?&quot; |
 |  | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Följande text har uppdaterats: &quot;Om du markerar mer än ett element och en deltagare klickar på något av de valda elementen räknas klickningen. Om du vill räkna varje objekt för sig anger du individuella framgångsmått för varje element. Om du vill räkna ett objekt genom att klicka på flera element på en sida redigerar du CSS-elementväljaren så att den matchar flera element.&quot; |
@@ -130,7 +131,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 24 mars | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Lagt till information om påverkan för följande:<ul><li>Profilskript baserade på 3rdPartyID</li><li>QA/Preview URLs in iOS devices</li></ul> |
 | 20 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Anges att Target Standard/Premium 20.2.1 kommer att vara den 23 mars 2020. |
 | 13 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterade antalet&quot;Målgrupper, återanvändbara per konto&quot;. |
-| 12 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md#summit) | Ytterligare registreringsinformation för kostnadsfri åtkomst till den digitala Summit på webben. |
+| 12 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md#summit) | Registreringsinformation har lagts till för kostnadsfri åtkomst till den digitala Summit-konferensen online. |
 | 9 mars | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ytterligare information har lagts till i avsnittet&quot;Ersättning av den senaste oktetten med IP-adresser&quot;. |
 |  | [Arbeta med attribut för flera värden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Uppdaterat kodexempel i *Skicka en flervärdesparameter i JavaScript*. |
 |  | [Anpassade entitetsattribut](/help/c-recommendations/c-products/custom-entity-attributes.md) | Lagt till kodexempel i *Använda API:er* under *Implementera attribut* med flera värden. |
