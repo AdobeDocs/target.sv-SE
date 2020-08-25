@@ -4,9 +4,9 @@ title: Adobe Target Visual Experience Composer (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ VEC är en av huvudfunktionerna i [!DNL Adobe Target]. Med VEC kan marknadsföra
 
 På fliken Mål **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** kan du ange standardwebbadressen för Visual Experience Composer.
 
-![Standardinställningar för VEC-URL](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
+![Standardinställningar för VEC URL](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
 Den här URL:en avgör var du börjar när du öppnar VEC. Om du inte anger något standardvärde börjar du med en tom sida när du öppnar redigeraren och anger en URL vid den tidpunkten.
 
@@ -36,7 +36,7 @@ Du kan använda de nedrullningsbara menyerna längst upp på sidan för att visa
 
 >[!NOTE]
 >
->Ändringar av strukturen på en sida som påverkar platserna som används i en aktivitet som skapas på den sidan kan orsaka problem med upplevelseredigering. Om en plats har ändrats utanför VEC kanske inte Target kan hitta platsen där innehållet ändrades.
+>Ändringar i strukturen för en sida som påverkar platserna som används i en aktivitet som skapas på den sidan kan orsaka problem med upplevelseredigering. Om en plats har ändrats utanför VEC kanske inte Target kan hitta platsen där innehållet ändrades.
 
 När du flyttar musen runt sidan följer markören en sammanhangsberoende ruta som markerar elementen på sidan.
 
@@ -46,7 +46,7 @@ Klicka på **[!UICONTROL Overlays]** ikonen om du vill ändra hur högdagern vis
 
 ![Ändra inställningar för övertäckning](/help/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Klicka på ett markerat element för en meny med alternativ som är tillgängliga för den elementtypen. Du kan t.ex. klicka på en bild och välja **[!UICONTROL Edit > Text/HTML]** att ändra texten eller klicka på en knapp och ändra bakgrundsfärgen. Du kan använda knapparna längst upp till vänster på sidan för att växla mellan att aktivera och inaktivera övertäckningarna.
+Klicka på ett markerat element för en meny med alternativ som är tillgängliga för den elementtypen. Du kan till exempel klicka på en bild och välja **[!UICONTROL Edit > Text/HTML]** att ändra texten eller klicka på en knapp och ändra bakgrundsfärgen. Du kan använda knapparna längst upp till vänster på sidan för att växla mellan att aktivera och inaktivera övertäckningarna.
 
 Du kan också klicka **[!UICONTROL Browse]** och sedan navigera till en sida som är tillgänglig från den primära sidan, till exempel en leveranssida eller en kundvagn, och testa ändringarna på den sidan. Du kan även komma åt sidelement som är tillgängliga när du hovrar, till exempel utfällbara menyer och minikort. När du har bläddrat klart till sidan klickar du på **[!UICONTROL Compose]** för att redigera upplevelsen. Du kanske vill ändra designen för en rullgardinsmeny eller en karusell med bilder.
 
@@ -91,7 +91,7 @@ Några orsaker till varför du kanske vill avbryta sidinläsning i VEC är:
 * Du vill lägga till fler testregler för mallar i villkoren för sidleverans
 * Du vill åsidosätta växlingsknappen för den globala funktionen Enhanced Experience Composer (EEC) när du läser in en sida via EEC, eller så kan endast iframe-funktionerna variera sida för sida
 
-När du har avbrutit sidinläsningen i VEC kan du växla mellan upplevelserna i aktiviteten utan att vänta på att sidan ska läsas in. Om du vill visa sidan i VEC igen måste du klicka på knappen **[!UICONTOL Läs in]** igen.
+När du har avbrutit sidinläsningen i VEC kan du växla mellan upplevelserna i aktiviteten utan att vänta på att sidan ska läsas in. Om du vill visa sidan i VEC igen måste du klicka på **[!UICONTROL Reload]** knappen.
 
 >[!IMPORTANT]
 >
