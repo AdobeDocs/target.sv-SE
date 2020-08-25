@@ -5,9 +5,9 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ I det här scenariot skulle besökare 1 se Erbjudande 1 (eftersom han eller hon 
 
 1. Välj önskat erbjudande(n) och välj de målgrupper du vill ska vara berättigade att se erbjudandet.
 
-   Om du vill ange målinriktning för ett enskilt erbjudande för du muspekaren över det önskade erbjudandet och klickar sedan på **[!UICONTORL målikonen]** .
+   Om du vill ange målinriktning för ett enskilt erbjudande för du muspekaren över önskat erbjudande och klickar sedan på **[!UICONTROL Targeting]** ikonen .
 
    Om du vill ange mål för flera erbjudanden markerar du kryssrutorna för de önskade erbjudandena och klickar sedan på **[!UICONTROL Targeting] -ikonen som visas längst upp till höger i listan.
 
