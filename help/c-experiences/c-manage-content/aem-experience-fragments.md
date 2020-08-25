@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Experience fragments utgör ett stort steg framåt för att länka samman inneh�
 
 ## Krav {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-Du måste ha tillgång till upplevelsefragmentfunktionerna i [!DNTarget]. Dessutom måste du använda [!DNL AEM] 6.3 med lämpligt Service Pack eller [!DNL AEM] 6.4 (eller senare). Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
+Du måste ha tillgång till funktionerna för upplevelsefragment i [!DNL Target]. Dessutom måste du använda [!DNL AEM] 6.3 med lämpligt Service Pack eller [!DNL AEM] 6.4 (eller senare). Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
 
 * [!DNL Adobe Experience Manager] 6.4 (eller senare).
 * [!DNL Adobe Experience Manager] 6.3 SP2 (eller senare).
@@ -131,7 +131,7 @@ Du kan använda upplevelsefragment i [!DNL Target] aktiviteter med [Visual Exper
 
 **Så här använder du upplevelsefragment med den formulärbaserade Experience Composer:**
 
-1. När du skapar eller redigerar en upplevelse i den [!DNformulärbaserade Experience Composer]i [l Target](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)väljer du den plats på sidan där du vill infoga [!DNL AEM] innehåll och sedan väljer du **[!UICONTROL Change Experience Fragment]** att visa [!UICONTROL Choose an Experience Fragment] listan.
+1. När du [!DNL Target]skapar eller redigerar en upplevelse i den [formulärbaserade Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)i markerar du den plats på sidan där du vill infoga [!DNL AEM] innehåll och väljer sedan **[!UICONTROL Change Experience Fragment]** att visa [!UICONTROL Choose an Experience Fragment] listan.
 
    ![](assets/experience_fragment_list.png)
 
