@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 0%
@@ -59,9 +59,9 @@ Aktuella målsessioner inkluderar:
 
 Dessutom finns det sessioner om Target, och det finns andra sessioner för andra Adobe-lösningar, bland annat Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager med flera.
 
-## Kontakta Adobe Client Care {#reference_ACA3391A00EF467B87930A450050077C}
+## Kontakta Adobe kundtjänst {#reference_ACA3391A00EF467B87930A450050077C}
 
-Kundtjänst är redo att hjälpa dig att lösa eventuella problem som kan uppstå. Den här sidan innehåller den information du behöver när du kontaktar Client Care för att få en lösning.
+Kundtjänst är redo att hjälpa dig att lösa eventuella problem som kan uppstå. Den här sidan innehåller den information du behöver när du kontaktar kundtjänst för att få en lösning.
 
 ### Grundläggande information {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
