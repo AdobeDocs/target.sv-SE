@@ -4,9 +4,9 @@ description: Genom att använda Adobe Analytics som beteendedatakälla kan kunde
 title: Använda Adobe Analytics med Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -95,10 +95,10 @@ Utför följande åtgärder om alla förutsättningar finns på plats:
    >Kontakta [!DNL Adobe Analytics] teamet innan du utför det här steget.
 
    * **Typ**: FTP
-   * **Värd**: xxx.yyy.com
-   * **Sökväg**: Din målklientkod
-   * **Användarnamn**: xxxyyy
-   * **Lösenord**: xxxxxxxxxxx
+   * **Värd**: `xxx.yyy.com`
+   * **Sökväg**: Din [!DNL Target] klientkod
+   * **Användarnamn**: Ange ditt användarnamn
+   * **Lösenord**: Ange ditt lösenord
 
    Skärmbilden är endast avsedd som referens. Distributionen kommer att ha olika autentiseringsuppgifter. Kontakta [!DNL Adobe Analytics] teamet eller kundtjänst medan du utför det här steget.
 
