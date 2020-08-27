@@ -4,15 +4,15 @@ title: Skapa villkor
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3355'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) - skapa villkor{#create-criteria}
+# ![PREMIUM](/help/assets/premium.png) Skapa villkor{#create-criteria}
 
 Kriterierna styr innehållet i dina Recommendations-aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
 
@@ -89,6 +89,8 @@ Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa s
 1. Välj önskat **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] eller [!UICONTROL Analytics].
 
    Välj önskad rapportsvit om du väljer [!UICONTROL Analytics]det.
+
+   Mer information finns i [Använda Adobe Analytics med Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 1. Ange dina **[!UICONTROL Content]** regler.
 
@@ -215,7 +217,7 @@ Du kan basera rekommendationer på värdet för ett anpassat profilattribut. Ant
 
 Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara [!DNL Recommendations] hur du vill att matchningen till en entitet ska ske. Anta till exempel att du vill visa de främsta säljartiklarna från en besökares favoritvarumärke.
 
-1. Välj ditt anpassade profilattribut i **[!UICONTROL Recommendation Key]** listrutan (till exempel &quot;Favoritmärke&quot;).
+1. Välj det anpassade profilattributet i **[!UICONTROL Recommendation Key]** listrutan (till exempel &quot;Favoritmärke&quot;).
 
 1. Välj sedan den **[!UICONTROL Recommendation Logic]** du vill använda med den här nyckeln (till exempel&quot;Top Sellers&quot;).
 
