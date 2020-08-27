@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ Det [!DNL Target] JavaScript-bibliotek som du använder ( [!DNL at.js] eller [!D
 
 Förfallodatumet återställs inte för befintliga profiler. Om en tidigare besökare inte återvänder på 15 dagar upphör den profilen att gälla. Om en tidigare besökare återgår innan den ursprungliga tvåveckorsprofilen går ut återställs profilen till den utökade livstiden. Alla nya besökarprofiler ställs in på den utökade profilens livstid.
 
-Om du har två webbplatser under en klientkod och en besökare besöker båda platserna, ställs profilen in på den senaste platsens livstid. Om till exempel Plats 1 har en 84-dagars profillivstid och Plats 2 har en 14-dagars livstid, och besökaren besöker Plats 1 och sedan Plats 2, kommer besökarens profil att upphöra om 14 dagars inaktivitet. Om besökaren besöker Plats 1 efter besök på Plats 2 kommer profilen att upphöra om 84 dagars inaktivitet.
+I följande scenario antar du att en eller båda platserna implementeras med mbox.js, vilket kräver en koduppdatering efter att profilen har uppdaterats. Om båda platserna har en klientkod och en besökare besöker båda platserna, ställs profilen in på den senaste platsens livstid. Om till exempel Plats 1 har en 84-dagars profillivstid och Plats 2 har en 14-dagars livstid, och besökaren besöker Plats 1 och sedan Plats 2, kommer besökarens profil att upphöra om 14 dagars inaktivitet. Om besökaren besöker Plats 1 efter besök på Plats 2 kommer profilen att upphöra om 84 dagars inaktivitet.
