@@ -5,9 +5,9 @@ title: Skapa en Recommendations-aktivitet
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
    >
    >Felsökningsinformation om VEC finns i [Felsökning i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)om det uppstår problem.
    >
-   >Alternativet [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.]
+   >Alternativet [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
 
 1. (Villkorligt) Om du är [Target Premium-kund](/help/c-intro/intro.md#premium)väljer du en [arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -43,7 +43,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
    >
    >[!DNL Target] skiljer inte mellan URL-protokoll ( [!DNL https] och [!DNL http]). Resultatet blir att [!DNL `http://www.adobe.com`] och [!DNL `https://wwww.adobe.com`] båda matchar.
 
-   Aktivitets-URL är den sida där rekommendationerna ska visas.
+   Aktivitets-URL är den sida där rekommendationerna visas.
 
    När du klickar [!UICONTROL Next]öppnas VEC och sidan visas. Du kan ersätta ett aktuellt element med rekommendationer eller infoga rekommendationer.
 
