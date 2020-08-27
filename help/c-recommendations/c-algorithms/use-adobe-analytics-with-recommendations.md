@@ -4,7 +4,7 @@ description: Genom att använda Adobe Analytics som beteendedatakälla kan kunde
 title: Använda Adobe Analytics med Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
+source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
