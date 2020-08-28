@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 28 augusti | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Uppdaterade följande:<ul><li>Tillagd i avsnittet Kända fel: &quot;Rapportering - För närvarande ökar konverteringarna på olika sätt beroende på vilken målgrupp som används.&quot;</li><li>Tillagd i avsnittet Lösta problem: &quot;Sidor som inte läses in i Visual Experience Composer (VEC) eller Enhanced Experience Composer (EEC) när Google Chrome version 80+ används.&quot;</li></ul> |
+|  | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Inaktuellt datum för mbox.js har ändrats från 30 augusti 2020 till 18 januari 2021. |
 | 26 augusti | [Använd Adobe Analytics med Recommendations som mål](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nytt ämne. |
 | 24 augusti | [Framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Uppdaterat avsnittet Avancerade inställningar. |
 | 21 augusti | [Översikt över välkomstpaketet för Adobe Target](/help/c-intro/target-welcome-kit.md) | Nya artiklar och underämnen. |
