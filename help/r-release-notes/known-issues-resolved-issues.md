@@ -5,9 +5,9 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3629'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,22 @@ Information om kända fel i den här versionen av Target. Innehåller även info
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 I följande avsnitt listas kända problem för [!DNL Target]:
+
+### Rapportering
+
+Konverteringar ökar för närvarande på olika sätt beroende på vilken målgrupp som används.
+
+Om antalet konverteringar till exempel är inställt på ökningen &quot;En gång per post:&quot; för samma besökare
+
+* Målgrupp: &quot;Alla kvalificerade besökare&quot; för konverteringar på besöksnivå ökar endast en gång. Detta är det förväntade beteendet.
+* Målgrupp: &quot;Nya besökare&quot; för konverteringar på besöksnivå ökar felaktigt varje gång, i stället för att bara öka en gång. Detta är inte det förväntade beteendet.
+
+Om antalet konverteringar är inställt på ökning &quot;Vid varje intryck:&quot;
+
+* Målgrupp: &quot;Alla kvalificerade besökare&quot; för konverteringar på besökarnivå ökar felaktigt bara en gång i stället för att öka varje gång. Detta är inte det förväntade beteendet.
+* Målgrupp: &quot;Nya besökare&quot; ökar antalet konverteringar på besökarnivå varje gång. Detta är det förväntade beteendet.
+
+Observera att det här problemet endast är relaterat till [!DNL Target] rapportering. Detta är inte något problem när [!UICONTROL Analytics for Target] (A4T)-rapportering används.
 
 ### Sidleverans {#page-delivery}
 
