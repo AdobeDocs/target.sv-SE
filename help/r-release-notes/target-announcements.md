@@ -5,7 +5,7 @@ title: Målmeddelanden
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -48,4 +48,4 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 
 ## Adobe Target Experience Builder: Developer chat, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
-I och med den kommande utfasningen av mbox.js den 30 augusti 2020 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Under de närmaste 30 dagarna kan du [visa inspelningen](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)av webbinariet.
+I och med den kommande utfasningen av mbox.js den 18 januari 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Under de närmaste 30 dagarna kan du [visa inspelningen](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)av webbinariet.
