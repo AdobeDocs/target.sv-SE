@@ -5,9 +5,9 @@ title: Hjälptillägg för Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,9 @@ Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC:
 * Webbplatsen ligger i en iframe.
 * at.js-biblioteket är ännu inte implementerat på webbplatsen.
 * Kundens QA- och/eller scensajt är inte tillgänglig för omvärlden (webbplatsen är intern).
+* Du använder Google Chrome 80+ med förbättrade efterlevnadsprinciper för cookie-appar för samma webbplats. Mer information finns i [Hur påverkar den nyligen lanserade policyn för Google Chrome SameSite-cookie reglerna VEC och EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsning som kunderna nu förlitar sig på [!DNL Target][!UICONTROL Enhanced Experience Composer] eller tredjepartstillägg, som True
+VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsning som kunderna nu förlitar sig på [!DNL Target] [!UICONTROL Enhanced Experience Composer] eller tillägg från tredje part, som TrueSant.
 
 Fördelar med att använda VEC Helper-tillägget:
 
