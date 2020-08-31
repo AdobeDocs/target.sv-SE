@@ -4,9 +4,9 @@ description: Genom att använda Adobe Analytics som beteendedatakälla kan kunde
 title: Använda Adobe Analytics med Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ För att snabbt kunna fatta beslut om vilken datakälla som ska användas, om de
 
 ### Steg för distribution
 
-Om alla förutsättningar finns på plats måste Adobe Target Recommendations-teamet utföra följande uppgifter:
+Om alla förutsättningar finns på plats, måste [!DNL Adobe Target Recommendations] teamet utföra följande uppgifter:
 
->[VIKTIGT]
+>[!IMPORTANT]
 >
->Stegen nedan är till för illustrativa ändamål. Observera att en medlem i Recommendations-teamet för närvarande måste utföra dessa steg. [Kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om du vill ha mer information.
+>Stegen nedan är endast avsedda som illustrationer. En medlem i gruppen måste för närvarande utföra dessa steg. [!DNL Recommendations] [Kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om du vill ha mer information.
 
 1. I [!DNL Target]klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** för att hämta din [!DNL Target] klientkod.
 
