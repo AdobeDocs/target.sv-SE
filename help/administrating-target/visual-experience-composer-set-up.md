@@ -5,7 +5,7 @@ title: Konfigurera Adobe Target Visual Experience Composer
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Följande inställningar är tillgängliga:
 
 Ange den standardwebbadress som används av [!UICONTROL Visual Experience Composer]. Det här är standardsidan, till exempel hemsidan, som används när du skapar en upplevelse för varje ny aktivitet. Om du inte anger någon standardwebbadress (URL) måste du ange en webbadress (URL) för varje aktivitet när du skapar den.
 
-### Aktivera Förbättrad Experience Composer
+### Aktivera Förbättrad Experience Composer {#eec}
 
 Möjliggör redigering på iFrame-busting-webbplatser med blandat innehåll. Vissa webbplatser kanske inte är kompatibla med den förbättrade versionen. Avmarkera det här alternativet om du vill återgå till originalet [!UICONTROL Visual Experience Composer]. Aktivitetsleverans på webbplatser påverkas inte av det här valet.
 
