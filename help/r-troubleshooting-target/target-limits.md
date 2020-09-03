@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek,
 * **Maximal filstorlek för varje överföring med HTTP-metoden**: 100 MB.
 * **maximal filstorlek för varje överföring med FTP-metoden**: 4 GB.
 * **Antal attribut som tillåts prenumerera**: 5 for [!DNL Target Standard] och 200 for [!DNL Target Premium].
+
+## Enheter
+
+Det högsta antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99.
 
 ## Anpassade attribut för entitet
 
