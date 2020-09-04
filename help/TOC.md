@@ -6,7 +6,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 0%
@@ -159,10 +159,10 @@ ht-degree: 0%
       + [Mål för mobilappar - frågor och svar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Använd platstjänst](/help/c-target-mobile-app/use-location-service.md)
    + Serversida: implementera mål {#server-side}
+      + [Serversida: implementera målöversikt](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Versionsinformation - Målserversidans API:er](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Versionsinformation - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Versionsinformation - Mål-Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
-      + [Serversida: implementera målöversikt](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Övergång från äldre Target-API:er till Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-post: implementera mål {#implement-email}
       + [E-post: implementera målöversikt](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
