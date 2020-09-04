@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Flimmer inträffar när standardinnehåll visas för besökare innan det ersätt
 
 ## Använda en automatiskt skapad global mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Om du aktiverar inställningen [Skapa global Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) automatiskt när du konfigurerar at.js hanterar at.js flimmer genom att ändra opacitetsinställningen när sidan läses in. När at.js läses in ändras opacitetsinställningen för <body> -element till&quot;0&quot;, vilket gör sidan osynlig för besökare. När ett svar från Target har tagits emot, eller om ett fel med Target-begäran upptäcks, återställer at opacitet till&quot;1&quot;. Detta garanterar att besökaren bara ser sidan efter att innehållet i dina aktiviteter har tillämpats.
+Om du aktiverar inställningen [Skapa global Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) automatiskt när du konfigurerar at.js hanterar at.js flimmer genom att ändra opacitetsinställningen när sidan läses in. När at.js läses in ändras opacitetsinställningen för `<body>` elementet till &quot;0&quot;, vilket gör sidan till att börja med osynlig för besökarna. När ett svar från Target har tagits emot, eller om ett fel med Target-begäran upptäcks, återställer at opacitet till&quot;1&quot;. Detta garanterar att besökaren bara ser sidan när innehållet i dina aktiviteter har tillämpats.
 
 Om du aktiverar inställningen när du konfigurerar at.js kommer at.js att ange HTML BODY-formatopaciteten till 0. När ett svar från Target har tagits emot återställer at.js opaciteten för HTML BODY till 1.
 
