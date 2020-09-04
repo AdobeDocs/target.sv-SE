@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 4%
@@ -184,7 +184,6 @@ En typisk implementering av Target som inte använder en tagghanterare som [Adob
 ```
 <!doctype html> 
 <html> 
- 
 <head> 
     <meta charset="utf-8"> 
     <title>Title of the Page</title> 
@@ -227,12 +226,10 @@ En typisk implementering av Target som inte använder en tagghanterare som [Adob
     <!--Target's JavaScript SDK, at.js--> 
     <script src="at.js"></script> 
     <!--/at.js--> 
-</head> 
- 
+</head>
 <body> 
     The default content of the page 
 </body> 
- 
 </html>
 ```
 
