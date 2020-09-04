@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -158,7 +158,7 @@ Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste 
 
       Mer information finns i [Globala parametrar - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) i produktdokumentationen för *dynamisk tagghantering*.
 
-   * **Via funktionen targetPageParams():** Placera följande kod i <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -taggar, ovanför referensen at.js eller mbox.js.
+   * **Via funktionen targetPageParams():** Placera följande kod i `<head>` -taggarna ovanför referensen at.js eller mbox.js.
 
       ![](assets/property_token_1.png)
 
@@ -182,7 +182,7 @@ Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste 
 
 1. Klicka på **[!UICONTROL Users]**.
 
-   På [!UICONTROL Users] fliken visas alla användare på den arbetsytan.
+   På [!UICONTROL Users] fliken visas alla användare på arbetsytan.
 
    ![konfigurationsanvändare](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
