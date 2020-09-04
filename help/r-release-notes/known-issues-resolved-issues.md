@@ -5,9 +5,9 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3629'
+source-wordcount: '3676'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Observera att det här problemet endast är relaterat till [!DNL Target] rapport
 ### Sidleverans {#page-delivery}
 
 Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) vid [sidleverans](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), läggs extra blanksteg till före reglerna. Detta är en kosmetisk fråga som inte påverkar målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35920)
+
+### Länkar för QA-förhandsgranskning
+
+Länkar för förhandsgranskning av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Det bör fungera att försöka göra om förhandsvisningslänkarna. Arkivera sparade aktiviteter som inte längre används aktivt för att förhindra att problemet fortsätter att inträffa. (TNT-37294)
 
 ### QA-läge för Recommendations-aktiviteter
 
