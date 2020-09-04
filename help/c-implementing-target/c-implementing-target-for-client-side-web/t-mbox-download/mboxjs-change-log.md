@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 0%
@@ -147,9 +147,9 @@ Mbox.js version 58 och senare verkställer icke-JavaScript-innehåll för den gl
 
 Följande ändringar har gjorts i den här versionen:
 
-* Automatiskt skapat globalt mbox-svar för Target Standard använder inte längre document.write() eller skapar en <div> -element.
+* Automatiskt skapat globalt mbox-svar för Target Standard använder inte längre document.write() eller skapar ett `<div>` element.
 
-   Detta tar bort kravet på att filen mbox.js ska vara det sista objektet i <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> på sidan. Stark QA rekommenderas vid uppgradering till den nya versionen.
+   Detta tar bort kravet på att filen mbox.js ska vara det sista objektet på `<head>` sidan. Stark QA rekommenderas vid uppgradering till den nya versionen.
 
    Den här förändringen kan leda till beteendeförändringar när vissa erbjudandetyper levereras. Här är de specifika villkor som kommer att behöva beaktas:
 
@@ -160,9 +160,9 @@ Följande ändringar har gjorts i den här versionen:
 
       `<script src='external-url' async='true'></script>`
 
-      Observera att `async` attributet har begränsat stöd i Internet Explorer (se informationen här: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) så att du inte ska ta med besökare som använder äldre IE-versioner från tester som innehåller dessa skript från tredje part.
+      Observera att `async` attributet har begränsat stöd i Internet Explorer (se här: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) så att du inte ska ta med besökare som använder äldre IE-versioner från tester som innehåller dessa skript från tredje part.
 
-* Åtgärdade problem som rapporterades i version 56 på grund av ändringar i avsnittet Extra JavaScript i mbox.js. All kod i avsnittet Extra JavaScript är tillgänglig igen i det globala omfånget.
+* Åtgärdade problem som rapporterades i version 56 på grund av ändringar i Extra JavaScript-avsnittet i mbox.js. All kod i avsnittet Extra JavaScript är tillgänglig igen i det globala omfånget.
 
 Följande funktionalitet stöds inte i mbox.js version 57:
 
@@ -175,7 +175,7 @@ Följande funktionalitet stöds inte i mbox.js version 57:
 
 mbox.js version 57 innehåller även viktiga korrigeringar:
 
-* Korrigerade ett fel som gjorde att plugin-programmet SiteCatalyst inte fungerade i mbox.js v56.
+* Korrigerade ett problem som gjorde att plugin-programmet SiteCatalyst inte fungerade i mbox.js v56.
 * Korrigerade ett problem som resulterade i extra JavaScript-fel på grund av omfångsändring.
 * Återställ ändringar i konstruktorn för mboxFactory.
 
@@ -227,7 +227,7 @@ Följande ändringar har gjorts i den här versionen:
 
 **Releasedatum:** 30 september 2014
 
-Ändrar den globala mbox-implementeringen till AJAX från document.write. Detta tar bort kravet på att mbox.js-filen ska vara det sista objektet på sidans <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -avsnitt. Den här versionen är bara tillgänglig via API. Kunderna kan hämta den och använda den här mbox.js-filen. Vissa webbplatser använder innehållsflimmer med den här implementeringen, så validera integreringen på din webbplats.
+Ändrar den globala mbox-implementeringen till AJAX från document.write. Detta tar bort kravet på att filen mbox.js ska vara det sista objektet i sidans `<head>` avsnitt. Den här versionen är bara tillgänglig via API. Kunderna kan hämta den och använda den här mbox.js-filen. Vissa webbplatser använder innehållsflimmer med den här implementeringen, så validera integreringen på din webbplats.
 
 ## mbox version 53
 
