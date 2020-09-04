@@ -5,9 +5,9 @@ title: Hjälptillägg för Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 Med [!DNL Adobe Target] webbläsartillägget [!UICONTROL Visual Experience Composer] (VEC) Helper för Google Chrome kan du läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-webbupplevelser.
 
-Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC:
+>[!NOTE]
+>
+>VEC Helper-webbläsaren är ett Chrome-tillägg. Det här tillägget är inte nödvändigt när du använder Mozilla Firefox.
+
+## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 
 * Webbplatsen har strikta säkerhetsprinciper.
 * Webbplatsen ligger i en iframe.
@@ -27,7 +31,7 @@ Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC:
 
 VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsning som kunderna nu förlitar sig på med [!DNL Target] Förbättrad [upplevelsedisposition](/help/administrating-target/visual-experience-composer-set-up.md#eec) eller tillägg från tredje part, som True.
 
-Fördelar med att använda VEC Helper-tillägget:
+## Fördelar med att använda VEC Helper-tillägget
 
 * Alla iframe-rubriker, som X-Frame-Options och Content-Security-Policy, tas implicit bort från webbplatsen. Du behöver inte längre skapa komplicerade regler för att göra detta.
 * Om en webbsida ännu inte innehåller JavaScript-biblioteket [!DNL Target] at.js kan du använda tillägget för att mata in biblioteket så att du kan skapa upplevelser för webbplatsen. Du kan sedan skapa aktiviteter och köra frågor och svar med hjälp av förhandsgranskningslänkar.
