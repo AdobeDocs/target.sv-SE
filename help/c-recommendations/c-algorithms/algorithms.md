@@ -5,15 +5,15 @@ title: Kriterier i Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1598'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -kriterier{#criteria}
+# ![PREMIUM](/help/assets/premium.png) -kriterier
 
 Kriterier är regler som bestämmer vilka produkter som ska rekommenderas utifrån en fördefinierad uppsättning besökarbeteenden.
 
@@ -107,10 +107,10 @@ Klicka på **[!UICONTROL Algorithm Info]** fliken för att visa allmän informat
 
 ![Fliken Algoritminformation](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Klicka på **[!UICONTROL Algorithm Usage]** fliken för att visa en lista över aktiviteter som refererar till de valda villkoren. Kortet innehåller aktiva och inaktiva aktiviteter. Klicka på listrutan Aktiva aktiviteter eller Inaktiviteter för att visa hela listan med aktiviteter som refererar till det villkoret. Du kan klicka på aktivitetslänken för att öppna aktiviteten för redigering.
+Klicka på **[!UICONTROL Algorithm Usage]** fliken för att visa en lista över aktiviteter som refererar till de valda villkoren. Kortet innehåller aktiva, inaktiva och utkastsaktiviteter. Klicka på listrutan Aktiva aktiviteter/Inaktiva aktiviteter/Utkastaktiviteter för att visa hela listan med aktiviteter som refererar till det villkoret. Du kan klicka på aktivitetslänken för att öppna aktiviteten för redigering.
 
 ![Fliken Algoritmanvändning](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->Den här [!UICONTROL Algorithm Usage] funktionen stöds för närvarande endast för Recommendations-aktiviteter. Den här funktionen stöds för närvarande inte för A/B Test- och Experience Targeting-aktiviteter (XT) som innehåller [rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
+>Den här [!UICONTROL Algorithm Usage] funktionen stöds för närvarande endast för Recommendations-aktiviteter. Den här funktionen stöds för närvarande inte för A/B-tester, autoallokering, automål och XT-aktiviteter (Experience Targeting) som innehåller [rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
