@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 31 augusti 2020**
+**Senast uppdaterad: 9 september 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -38,6 +38,12 @@ Information om den aktuella versionen finns i [Versionsinformation](release-note
    >
 * **Målmeddelanden**: På sidan med målmeddelanden hittar du information om kommande evenemang, bland annat om sessioner i Target SKill Builder, chats för utvecklare, webbinarier och sessioner med Target Coffee Break. Mer information finns i [Målmeddelanden](/help/r-release-notes/target-announcements.md).
 
+
+## Target Standard/Premium 20.8.2 (10 september 2020)
+
+| Funktion | Detaljer |
+| --- | --- |
+| Kontrollera rekommendationsplatser inom villkorssekvenser | Med villkorssekvenser kan du nu styra antalet platser som tas upp av varje rekommendationsvillkor, vilket gör att du kan blanda och matcha olika typer av objekt eller olika algoritmlogik.<br>Mer information finns i [Skapa villkorssekvenser](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
 
 ## Target Standard/Premium 20.8.1 (2 september 2020)
 
