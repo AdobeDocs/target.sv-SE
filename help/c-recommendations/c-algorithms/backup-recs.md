@@ -5,7 +5,7 @@ title: Använd en rekommendation för säkerhetskopiering
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Utan att behöva buckalisera rekommendationerna för säkerhetskopiering skulle 
 >
 >Om du grupperar dina objekt i kataloger används även katalogen i de säkerhetskopieringsrekommendationer som genereras för varje algoritm i rekommendationen, så endast objekt i katalogen inkluderas i säkerhetskopieringsrekommendationen.
 
-Alla objekt som utesluts av globala undantagsregler används inte som rekommendation för säkerhetskopiering.
+Objekt som utesluts av globala undantagsregler används inte som rekommendation för säkerhetskopiering.
 
 Rekommendationer för säkerhetskopiering är aktiverade som standard och fyller i de extra platserna i en mall med ett slumpmässigt urval av de vanligaste objekten på platsen.
 
@@ -46,4 +46,4 @@ Dubbletter tas bort från grupper med rekommendationer.
 
 Att använda rekommendationer för säkerhetskopiering är vanligtvis en del av diskussionen med implementeringsteamet under din första konfiguration. Kontakta din kontoansvarige om du vill ändra inställningen för rekommenderad säkerhetskopiering efter implementeringen.
 
-Om Aktivera partiell designåtergivning (se [Innehållsinställningar](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) inte är aktiverat och mallen inte visas, visas antingen rekommendationen eller standardinnehållet.
+Om Aktivera partiell designåtergivning (se [Innehållsinställningar](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)) inte är aktiverat och mallen inte visas, visas antingen rekommendationen eller standardinnehållet.
