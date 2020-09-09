@@ -4,9 +4,9 @@ title: Skapa villkor
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3487'
 ht-degree: 0%
 
 ---
@@ -14,31 +14,37 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Skapa villkor{#create-criteria}
 
-Kriterierna styr innehållet i dina Recommendations-aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
+Kriterierna styr innehållet i dina [!UICONTROL Recommendations] aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
 
-## Skapa villkor {#task_8A9CB465F28D44899F69F38AD27352FE}
+## Skapa nya villkor
 
-Kriterierna styr innehållet i dina [!DNL Recommendations] aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
+I följande avsnitt beskrivs hur du skapar nya villkor.
+
+### Öppna skärmen Skapa nya villkor
 
 Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa skärmalternativ varierar beroende på hur du kommer till skärmen.
 
-* När du skapar en [!DNL Recommendations] aktivitet klickar du **[!UICONTROL Create New]** på [!UICONTROL Select Criteria] skärmen. Du kan spara dina nya villkor och använda dem med andra [!DNL Recommendations] aktiviteter.
-* När du redigerar en [!DNL Recommendations] aktivitet klickar du i en [!UICONTROL Recommendations Location] ruta på sidan och väljer **[!UICONTROL Change Criteria]**. Klicka på på [!UICONTROL Select Criteria] skärmen **[!UICONTROL Create New]**. Du kan spara dina nya villkor och använda dem med andra [!DNL Recommendations] aktiviteter.
-* Klicka på på skärmen **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotek **[!UICONTROL Create Criteria]**. Kriterierna som du skapar här blir automatiskt tillgängliga för alla [!DNL Recommendations] aktiviteter.
+* På skärmen **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotek klickar du **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Kriterierna som du skapar här blir automatiskt tillgängliga för alla [!DNL Recommendations] aktiviteter.
+* När du skapar en [!DNL Recommendations] aktivitet klickar du **[!UICONTROL Create Criteria]** på [!UICONTROL Select Criteria] skärmen. Du kan spara dina nya villkor och använda dem med andra [!DNL Recommendations] aktiviteter.
+* När du redigerar en [!DNL Recommendations] aktivitet klickar du i en [!UICONTROL Recommendations Location] ruta på sidan och väljer **[!UICONTROL Change Criteria]**. Klicka på på [!UICONTROL Select Criteria] skärmen **[!UICONTROL Create Criteria]**. Du kan spara dina nya villkor och använda dem med andra [!DNL Recommendations] aktiviteter.
 
-1. Klicka på **[!UICONTROL Create Criteria]** eller **[!UICONTROL Create New]**.
+Följande steg förutsätter att du kommer åt [!UICONTROL Create New Criteria] skärmen med den första metoden: på **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** biblioteksskärmen.
 
-   ![Knappen Skapa villkor](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Välj **[!UICONTROL Create Criteria]**.
+1. Klicka på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
    ![Skapa nya villkor](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### Fyll i avsnittet Grundläggande information
 
 1. Skriv ett **[!UICONTROL Criteria Name]**.
 
    Detta är det&quot;interna&quot; namnet som används för att beskriva kriterierna. Du kanske vill kalla villkoren för&quot;Produkter med högsta marginal&quot;, men du vill inte att den titeln ska visas offentligt. Se nästa steg för att ange den offentliga titeln.
 
-1. Ange en offentlig sida **[!UICONTROL Display Title]** som ska visas på sidan för alla Recommendations som använder det här villkoret.
+   ![Avsnittet Grundläggande information](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+
+1. Skriv en offentlig sida **[!UICONTROL Display Title]** som ska visas på sidan för rekommendationer som använder det här villkoret.
 
    Du kan till exempel visa&quot;Personer som visade det här&quot; eller&quot;Liknande produkter&quot; när du använder det här villkoret för att visa rekommendationer.
 
@@ -72,7 +78,11 @@ Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa s
    >
    >Om du väljer **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** kan du ange regler för [innehållets likhet](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
+### Ange alternativ för datakälla
+
 1. Ange **[!UICONTROL Data Range]** för att bestämma tidsintervallet för tillgängliga historiska användarbeteendedata som ska användas när du avgör vilka rekommendationer som ska visas.
+
+   ![Reglaget för dataområde](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    Om det finns mycket trafik och beteenden på platsen ändras ofta väljer du ett kortare datafönster. Ett kortare fönster gör [!DNL Recommendations] att ni kan reagera bättre på förändringar på marknaden och i er verksamhet. Ett kortare fönster innebär till exempel att besökarnas beteendeförändringar [!DNL Recommendations] upptäcks när besökarna börjar handla säsongsenligt, till exempel köp på skolstarten eller jul, och att man rekommenderar artiklar som passar dessa shoppingsäsonger.
 
@@ -86,45 +96,63 @@ Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa s
    * En månad
    * Två månader
 
-1. Välj önskat **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] eller [!UICONTROL Analytics].
+1. (Villkorligt) Markera önskat **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] eller [!UICONTROL Analytics].
+
+   ![Avsnittet Beteendedatakälla](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    Välj önskad rapportsvit om du väljer [!UICONTROL Analytics]det.
 
-   Mer information finns i [Använda Adobe Analytics med Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   Mer information finns i [Adobe Analytics](#analytics) nedan och [Använda Adobe Analytics med Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. Ange dina **[!UICONTROL Content]** regler.
+### Ange innehållsinställningar
 
-   Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte fyller din design. Om din design t.ex. har plats för fem objekt, men dina villkor bara leder till att tre objekt rekommenderas, kan du lämna det återstående utrymmet tomt eller använda rekommendationer för säkerhetskopiering för att fylla det extra utrymmet.
+Ange dina [!UICONTROL Content] regler.
 
-   Välj lämpliga växlar:
+Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte fyller din design. Om din design t.ex. har plats för fem objekt, men dina villkor bara leder till att tre objekt rekommenderas, kan du lämna det återstående utrymmet tomt eller använda rekommendationer för säkerhetskopiering för att fylla det extra utrymmet.
 
-   * [!UICONTROL Enable Partial Design Rendering]
-   * [!UICONTROL Show Backup Recommendations]
-   * [!UICONTROL Recommend Previously Purchased Items]
+![Innehållsavsnitt](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   Den här inställningen baseras på `productPurchasedId`. Det är användbart om du säljer artiklar som normalt bara köps en gång, t.ex. kajaker. Om du säljer artiklar som personer kommer tillbaka för att köpa igen, till exempel schampo eller andra personliga artiklar, bör du inaktivera det här alternativet.
+1. (Valfritt) Skjut **[!UICONTROL Partial Design Rendering]** växlingsknappen till&quot;på&quot;-positionen.
 
-1. Sätt din egen **[!UICONTROL Inclusion rules]**.
+   Så många kortplatser som möjligt kommer att fyllas, men designmallen kan innehålla tomt utrymme för återstående kortplatser.
+
+1. (Valfritt) Skjut **[!UICONTROL Show Backup Recommendations]** växlingsknappen till&quot;på&quot;-positionen.
+
+   Fyll eventuella återstående tomma platser i designen med ett slumpmässigt urval av de mest visade produkterna från hela webbplatsen.
+
+   Mer information finns i [Använda en rekommendation](/help/c-recommendations/c-algorithms/backup-recs.md)för säkerhetskopiering.
+
+1. (Villkorligt) Om du valde **[!UICONTROL Show Backup Recommendations]** i föregående steg kan du aktivera **[!UICONTROL Apply inclusion rules to backup recommendations]**.
 
    Inkluderingsregler avgör vilka objekt som ska inkluderas i dina rekommendationer. Vilka alternativ som är tillgängliga beror på var du arbetar vertikalt.
 
    Mer information finns i [Inkluderingsregler](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Konfigurera **[!UICONTROL Attribute weighting]**.
+1. (Valfritt) Skjut **[!UICONTROL Recommend Previously Purchased Items]** växlingsknappen till&quot;på&quot;-positionen.
 
-   Du kan lägga till flera regler för att&quot;knuffa&quot; algoritmen baserat på viktig beskrivning eller metadata om innehållskatalogen. Du kan t.ex. använda en högre viktning på artiklar som säljs så att de visas oftare i rekommendationen.
+   Den här inställningen baseras på `productPurchasedId`. Det är användbart om du säljer artiklar som normalt bara köps en gång, t.ex. kajaker. Om du säljer artiklar som personer kommer tillbaka för att köpa igen, till exempel schampo eller andra personliga artiklar, bör du inaktivera det här alternativet.
 
-   Se [Attributviktning](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
+### Ange inkluderingsregler
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+![Inkluderingsregler](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
-   Om du skapar en ny [!UICONTROL Recommendations] aktivitet eller redigerar en befintlig, är **[!UICONTROL Save criteria for later]** kryssrutan markerad som standard. Om du inte vill använda villkoren i andra aktiviteter avmarkerar du kryssrutan innan du sparar.
+Mer information finns i [Använda dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Adobe Analytics
+### Ange attributvikt
+
+Du kan lägga till flera regler för att&quot;knuffa&quot; algoritmen baserat på viktig beskrivning eller metadata om innehållskatalogen. Du kan t.ex. använda en högre viktning på artiklar som säljs så att de visas oftare i rekommendationen.
+
+Se [Attributviktning](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
+
+När du är klar klickar du på **[!UICONTROL Save]**.
+
+Om du skapar en ny [!UICONTROL Recommendations] aktivitet eller redigerar en befintlig, är **[!UICONTROL Save criteria for later]** kryssrutan markerad som standard. Om du inte vill använda villkoren i andra aktiviteter avmarkerar du kryssrutan innan du sparar.
+
+### Adobe Analytics {#analytics}
 
 Om villkoren använder [!DNL Adobe Analytics] som beteendedatakälla beror tiden för villkorstillgänglighet på om den valda rapportsviten och uppslagsfönstret har använts för andra villkor när de har skapats.
 
-* **Installation** av engångsrapportsviter: Första gången en rapportsvit används med ett visst fönster för sökning efter dataintervall kan det [!DNL Target Recommendations] ta mellan två och sju dagar att helt hämta beteendedata för den valda rapportsviten från [!DNL Analytics]. Den här tidsramen beror på systeminläsningen [!DNL Analytics] .
+* **Installation** av engångsrapportsviter: Första gången en rapportsvit används med ett visst fönster för sökning efter dataintervall kan det [!DNL Target Recommendations] ta mellan två och sju dagar att helt hämta beteendedata för den valda rapportsviten från [!DNL Analytics]. Den här tidsramen beror på [!DNL Analytics] systeminläsningen.
 * **Nya eller redigerade villkor med hjälp av ett rapportpaket** som redan är tillgängligt: När du skapar ett nytt villkor eller redigerar ett befintligt villkor, och om den valda rapportsviten redan har använts med [!DNL Target Recommendations]ett dataintervall som är lika med eller mindre än det valda dataområdet, blir data omedelbart tillgängliga och ingen engångsinställning krävs. I det här fallet, eller om en algoritms inställningar redigeras utan att den valda rapportsviten eller dataintervallet ändras, körs eller körs om inom 12 timmar.
 * **Pågående algoritmkörningar**: Data flödar från [!DNL Analytics] till [!DNL Target Recommendations] dag. Om en användare till exempel tittar på en produkt skickas ett spårningsanrop för produktvyn till den [!UICONTROL Viewed Affinity] här rekommendationen i [!DNL Analytics] nära realtid. Data [!DNL Analytics] skickas till [!DNL Target] tidigt nästa dag och [!DNL Target] kör algoritmen på mindre än 12 timmar.
 
