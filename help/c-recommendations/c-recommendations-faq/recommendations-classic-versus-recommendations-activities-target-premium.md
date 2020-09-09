@@ -5,7 +5,7 @@ title: Recommendations Classic jämfört med Recommendations-aktiviteter i Targe
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Mer information finns i [Recommendations som erbjudande](/help/c-recommendations
 
 Kriterierna är förkonfigurerade och sorterade efter vertikaler, sidtyper och implementering i branschen. Du kan t.ex. söka efter de kriterier som gäller för vertikal försäljning, för användning på en produktsida, och visa produkter från en viss kategori (som definieras av `entity.categoryID` parametern).
 
-Mer information om hur du använder och skapar villkor finns i [Kriterier](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Mer information om hur du använder och skapar villkor finns i [Kriterier](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Arbetsflöde {#section_76B4A26297BF422382DE2C79A2713D3C}
 
