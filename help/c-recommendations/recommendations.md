@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -44,7 +44,7 @@ En rekommendation avgör hur en produkt föreslås för en besökare, beroende p
 | Öka den tid besökarna lägger på er mediematerial genom att rekommendera mediematerial som liknar det de tittar på. | Skapa en rekommendation som föreslår andra videoklipp med villkoret&quot;Personer som visade det här&quot;. |
 | Föreslå att kunder som har tittat på information om sparplaner på din bank även läser om IRA-konton. | Visa andra produkter som köpts in efter att ha tittat på en produkt utan att visa den första produkten i rekommendationerna, med hjälp av&quot;personer som tittade på den här produkten även har köpt&quot;-kriterierna. |
 
-Mer information om dessa och andra [!DNL Recommendations] villkor finns i [Kriterier](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Mer information om dessa och andra [!DNL Recommendations] villkor finns i [Kriterier](../c-recommendations/c-algorithms/algorithms.md).
 
 ## Villkor
 
