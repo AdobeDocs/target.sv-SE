@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,12 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 
 Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
+
+## Target Standard/Premium 20.8.2 (10 september 2020)
+
+| Funktion | Detaljer |
+| --- | --- |
+| Kontrollera rekommendationsplatser inom villkorssekvenser | Med villkorssekvenser kan du nu styra antalet platser som tas upp av varje rekommendationsvillkor, vilket gör att du kan blanda och matcha olika typer av objekt eller olika algoritmlogik.<br>Mer information finns i [Skapa villkorssekvenser](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
 
 ## Target Standard/Premium 20.8.1 (2 september 2020)
 
