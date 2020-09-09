@@ -5,9 +5,9 @@ title: Skapa villkorssekvenser
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create Criteria Seque
 
    Tillsammans används de vertikala metoderna och sidtyperna i branschen för att kategorisera de sparade villkorssekvenserna, vilket gör det enklare att återanvända sekvenser för andra [!UICONTROL Recommendations] aktiviteter.
 
-## Skapa villkorssekvenser
+## Skapa sekvens {#sequence}
 
 Sekvensordningen definierar i vilken ordning en design fylls. Om Villkor 1 inte har tillräckligt många rekommendationer för att fylla din design fylls de återstående platserna med villkor 2 och så vidare.
 
@@ -84,11 +84,27 @@ Sekvensordningen definierar i vilken ordning en design fylls. Om Villkor 1 inte 
 
 1. Välj ett villkor på [!UICONTROL Select Criteria] skärmen.
 
+   Du kan använda sökrutan och listrutorna för filter för att hitta önskat villkor.
+
    ![Välj villkor](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. Klicka på **[!UICONTROL Add]**.
 
-1. Fortsätt lägga till villkor i sekvensen. Du kan lägga till upp till fem villkor i en sekvens.
+1. (Valfritt) Skjut **[!UICONTROL Limit the number of items returned]** växlingsknappen till&quot;på&quot;-positionen och ange sedan antalet objekt (mellan 1 och 50).
+
+   ![Begränsa antalet returnerade objekt](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   Du kan förstå värdet av [!UICONTROL Limit the number of items returned] alternativet på följande sätt:
+
+   * **Användningsfall 1**: Du vill ha en blandning av olika typer av objekt i ett enda rekommendationsfack. Du kan till exempel visa en blandning av ytterkläder (schaket) och överdelar (skjortor, T-shirts). För att uppnå detta ska du använda en samling för aktiviteten som innehåller alla möjliga produkttyper du vill ha i platserna i designen. Ange sedan dina första kriterier med ett statiskt filter som begränsar kriterierna så att de bara omfattar ytterkläder, och ange dina andra kriterier med ett statiskt filter som begränsar kriterierna så att de bara omfattar toppar. Lägg slutligen till båda villkoren i en villkorssekvens och begränsa det första villkoret till 2 kortplatser.
+
+      Rekommendationsfältet kan se ut så här på din webbplats:
+
+      ![Rekommendationsfack för produkter](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **Användningsfall 2**: Du vill ha en blandning av både alternativa objekt och kompletterande objekt. Ange ett villkor för att använda en visad/visad algoritm och använd ett dynamiskt filter som begränsar de rekommenderade objekten till det aktuella objektets kategori. Ställ in det andra villkoret för att använda en visad/köpt algoritm och använd ett dynamiskt filter som endast innehåller rekommenderade objekt som inte matchar det aktuella objektets kategori. Lägg slutligen till båda villkoren i en sekvens och begränsa det första villkoret till två kortplatser.
+
+1. Fortsätt lägga till ytterligare villkor i sekvensen. Du kan lägga till upp till fem villkor i en sekvens.
 
 ## Ange innehåll för säkerhetskopiering
 
@@ -115,8 +131,6 @@ När du skapar en villkorssekvens ignoreras rekommendationer för säkerhetskopi
 1. Klicka på **[!UICONTROL Save]**.
 
    Villkorssekvensen visas i kriterielistan.
-
-   ![](assets/CriteriaSequenceCard.png)
 
    Mer information om alternativ för rekommendationslogik finns i [Kriterier](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
