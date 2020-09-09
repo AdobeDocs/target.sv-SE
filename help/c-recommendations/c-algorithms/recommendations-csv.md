@@ -5,9 +5,9 @@ title: Överför anpassade villkor
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,10 @@ Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa s
    Mer information om att basera villkor på en nyckel finns i [Basera rekommendationen på en rekommendationsnyckel](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 1. Ange dina **[!UICONTROL Content]** regler.
 
-   Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte fyller din design. Om din design t.ex. har plats för fem objekt, men dina villkor bara leder till att tre objekt rekommenderas, kan du lämna det återstående utrymmet tomt eller använda rekommendationer för säkerhetskopiering för att fylla det extra utrymmet. Välj lämpliga reglage. Se [Innehållsinställningar](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
+   Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte fyller din design. Om din design t.ex. har plats för fem objekt, men dina villkor bara leder till att tre objekt rekommenderas, kan du lämna det återstående utrymmet tomt eller använda rekommendationer för säkerhetskopiering för att fylla det extra utrymmet. Välj lämpliga reglage. Se [Ange innehållsinställningar](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 1. Sätt din egen **[!UICONTROL Inclusion Rules]**.
 
-   Inkluderingsregler hjälper dig att begränsa de objekt som visas i dina rekommendationer. Se [Inkluderingsregler](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Markera **[!UICONTROL Location]** innehållet i CSV-filen.
+   Inkluderingsregler hjälper dig att begränsa de objekt som visas i dina rekommendationer. Se [Ange inkluderingsregler](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). 1. Markera **[!UICONTROL Location]** innehållet i CSV-filen.
 
    CSV-filen måste vara korrekt formaterad för att överföringen ska lyckas. Klicka **[!UICONTROL Download the CSV template]** för att hämta en korrekt formaterad CSV-fil.
 
