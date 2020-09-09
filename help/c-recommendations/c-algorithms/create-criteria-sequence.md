@@ -5,7 +5,7 @@ title: Skapa villkorssekvenser
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -118,7 +118,7 @@ När du skapar en villkorssekvens ignoreras rekommendationer för säkerhetskopi
 
    Så många kortplatser som möjligt kommer att fyllas, men designmallen kan innehålla tomt utrymme för återstående kortplatser.
 
-1. (Valfritt) Segmentera **[!UICONTROL Backup Recommendations]** växlingen till&quot;på&quot;-positionen.
+1. (Valfritt) Skjut **[!UICONTROL Backup Recommendations]** växlingsknappen till&quot;på&quot;-positionen.
 
    Fyll eventuella återstående tomma platser i designen med ett slumpmässigt urval av de mest visade produkterna från hela webbplatsen.
 
