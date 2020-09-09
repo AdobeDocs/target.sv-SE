@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '29049'
+source-wordcount: '29043'
 ht-degree: 0%
 
 ---
@@ -758,7 +758,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>Visa en lista med aktiviteter som refererar till ett valt villkor på kriteriekortet. Kortet innehåller aktiva och inaktiva aktiviteter. (TGT-27672) </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>Från aktivitetsdiagrammet visas nu kriteriekorten när resultaten är klara att visas. (TGT-27673) </p> <p>Se <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterier </a>. </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>Från aktivitetsdiagrammet visas nu kriteriekorten när resultaten är klara att visas. (TGT-27673) </p> <p>Se <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Kriterier </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1002,7 +1002,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
          <li id="li_7D71E48016B1446995493EBBF7D32447"> <p>CONTENT_RENDERING_REDIRECT </p> </li> 
         </ul> </p> <p>Mer information finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD" format="dita" scope="local"> anpassade at.js-händelser </a>. </p> </li> 
       <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>Du kan utöka en at.js-begäran med ytterligare parametrar från dataleverantörer. Dataleverantörer ska läggas till i <span class="codeph"> window.targetGlobalSettings </span> under nyckeln <span class="codeph"> dataProviders </span>. </p> <p>Mer information finns i"Data Providers" i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() </a>. </p> </li> 
-      <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>at.js-begäranden använder nu GET, men den växlar till POST när URL-storleken överstiger 2 048 tecken. Det finns en ny egenskap med namnet <span class="codeph"> urlSizeLimit </span> där du kan öka storleksgränsen om det behövs. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik. </p> </li> 
+      <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>at.js-begäranden använder nu GET, men kommer att växla till POST när URL-storleken överstiger 2 048 tecken. Det finns en ny egenskap med namnet <span class="codeph"> urlSizeLimit </span> där du kan öka storleksgränsen om det behövs. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik. </p> </li> 
       <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>Target tvingar nu till att mbox- <span class="codeph"> nyckeln i </span> funktionen adobe.target.applyOffer(options) <span class="codeph"> </span> används. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target har korrekt validering och att kunderna använder funktionen korrekt. </p> <p>Mer information finns i <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245" format="dita" scope="local"> adobe.target.applyOffer(options) </a> . </p> </li> 
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js har förbättrat funktionerna för händelsespårning och klickning. at.js använder <span class="codeph"> navigator.sendBeacon() </span> för att skicka händelsespårningsdata och återgår till synkron XHR när <span class="codeph"> navigator.sendBeacon() inte </span> stöds. Detta gäller oftast Internet Explorer 10 och 11 samt vissa versioner av Safari. Safari kommer att lägga till stöd för <span class="codeph"> navigator.sendBeacon() </span> i iOS 11.3. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>at.js kan nu återge erbjudanden även när en sida öppnas i bakgrundsflikar. Vissa målkunder stötte på ett problem när <span class="codeph"> requestAnimationFrame() </span> inaktiverades på grund av webbläsarbegränsningsbeteendet för bakgrundsflikar. </p> </li> 
@@ -1055,7 +1055,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Anpassade kriterier kan nu konfigureras, precis som andra villkor i rekommendationer. </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>Du kan använda samlingar, uteslutningar och inkluderingar (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra villkor. Samlingar och undantag stöds redan. Den här versionen innehåller tillägg. </p> </li> 
-     </ul> </p> <p>Mer information finns i <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterier </a>. </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>Mer information finns i <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Kriterier </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: Inkluderingsregler, samlingar och undantag för nyligen visade villkor </p> </td> 
@@ -1063,7 +1063,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>Det går nu att konfigurera nyligen visade villkor, precis som andra villkor i rekommendationerna. </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>Du kan använda samlingar, uteslutningar och inkluderingar (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra villkor. Samlingar och undantag stöds redan. Den här versionen innehåller tillägg. </p> </li> 
-     </ul> </p> <p>Mer information finns i <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterier </a>. </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>Mer information finns i <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Kriterier </a>. </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target Extension for Adobe Launch </p> </td> 
@@ -1186,7 +1186,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
 Den här [!DNL Target] versionen innehåller följande kundtillvända förbättringar, korrigeringar och ändringar:
 
 * Nu kan du bläddra på sidan och ordna om upplevelserna i steg 2 i det guidade arbetsflödet i tre steg när du skapar aktiviteter. (TGT-27652)
-* Du kan högerklicka på en aktivitet i aktivitetslistan för att öppna aktiviteten på en ny flik. I Firefox högerklickar du till exempel på önskad aktivitet > Öppna länk på ny flik. (TGT-27409)
+* Du kan högerklicka på en aktivitet i aktivitetslistan för att öppna aktiviteten på en ny flik. I Firefox kan du till exempel högerklicka på önskad aktivitet > Öppna länk på ny flik. (TGT-27409)
 * Förbättrade prestanda på sidan Design (Recommendations > Designs). Snabbheten för att visa och söka efter design har förbättrats. (TGT-21792)
 * at.js är nu standardimplementeringsalternativet som ska hämtas. (TGT-24676)
 * URL-verifiering tillåter nu användning av dubbla bindestreck i URL:en. Tidigare gick det inte att läsa in en URL med dubbla bindestreck i Visual Experience Composer (VEC). (TGT-28176)
@@ -2623,7 +2623,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Exkludera tidigare köp </p> </td> 
-   <td colname="col2"> <p>Målet utesluter nu automatiskt tidigare inköpta artiklar från en besökares rekommendationer. Det här alternativet kan inaktiveras för alla villkor. </p> <p>Alla körklara villkor har nu det här alternativet aktiverat, inklusive de som användes i aktiviteter som kördes före den här versionen. Om du inte vill utesluta tidigare inköp bör du redigera dessa aktiviteter. </p> <p>Se <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Inkluderingsregler </a>. </p> </td> 
+   <td colname="col2"> <p>Målet utesluter nu automatiskt tidigare inköpta artiklar från en besökares rekommendationer. Det här alternativet kan inaktiveras för alla villkor. </p> <p>Alla körklara villkor har nu det här alternativet aktiverat, inklusive de som användes i aktiviteter som kördes före den här versionen. Om du inte vill utesluta tidigare inköp bör du redigera dessa aktiviteter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Attributviktning </p> </td> 
@@ -2646,7 +2646,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
       <li id="li_901D4AAF7BE244FCB9277DC7EDD91E32">Anpassade attribut som matchar en angiven entitet.id och använder objekt med liknande attribut </li> 
       <li id="li_49D52B0182F346E982C11A0C2DA50B4F">Senast visade objekt med liknande attribut </li> 
       <li id="li_2DBAF32476AC435EB57D08D96CB55683">Mest visade objekt med liknande attribut </li> 
-     </ul> </p> <p>Se <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Inkluderingsregler </a>. </p> </td> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nya filter för aktivitetslista </td> 
@@ -2665,7 +2665,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
       <li id="li_1B44AB35B045416B8D8B72C428750822">Mer innehåll som detta </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">Fler bildspel som det här </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">Fler produkter som detta </li> 
-     </ul> </p> <p>Se <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterier </a>. </p> </td> 
+     </ul> </p> <p>Se <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Kriterier </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Förbättring: Förbättrad rapportinformation som visas när Analytics används som rapportkälla. </td> 
@@ -2998,7 +2998,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
    <td colname="col1" class="premium"> <p class="Premium"> Funktionen Recommendations Classic stöds nu i Recommendations Premium </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
-      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Delvis mallåtergivning <p>Se <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local"> Innehållsinställningar </a>. </p> </li> 
+      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Delvis mallåtergivning <p>Se <a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local"> Innehållsinställningar </a>. </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> Ange regler för säkerhetskopiering enligt villkor </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> Stöd för FTPS för produktflöden</li> 
       <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Anpassade algoritmer visas nu automatiskt som villkor</li> 
