@@ -4,7 +4,7 @@ description: Adobe Target welcome kit - Kapitel 1 - Introduktion
 title: Adobe Target welcome kit - Kapitel 1 - Introduktion
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -29,3 +29,4 @@ Om du granskar detta välkomstpaket har du redan beslutat att bygga ditt optimer
 Nu vill vi se till att du börjar använda det på rätt sätt, direkt.
 
 Vi har skapat ett välkomstpaket med viktig information, verktyg och resurser som hjälper dig att förbereda dig för och starta din första [!DNL Target] aktivitet. På lång sikt utgör innehållet också grunden för ett framgångsrikt optimerings- och personaliseringsprogram.
+
