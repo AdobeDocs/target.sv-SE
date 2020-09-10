@@ -5,7 +5,7 @@ title: Planera och implementera Recommendations
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Vad du behöver veta innan du skapar en [!DNL Recommendations] aktivitet.
 |--- |--- |--- |
 | ![Steg 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-bibliotek | Varje sida kräver en referens till at.js version 0.9.1 (eller senare) eller mbox.js version 55 (eller senare). Det här implementeringssteget krävs på alla sidor där en Target-aktivitet ska användas och kan innehålla nycklar som ett produkt- eller kategori-ID.<BR>Mer information om at.js finns [i implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)av at.js.<br>Mer information om mbox.js finns i Implementering av [Mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
 | ![Steg 2](/help/c-recommendations/assets/step2_red.png) | Tangenter | Nyckeln avgör vilken typ av produkt eller innehåll som visas i dina rekommendationer. Nyckeln kan till exempel vara en produktkategori. Se [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-| ![Steg 3](/help/c-recommendations/assets/step3_red.png) | Attribut | Attribut ger mer specifik information om de produkter som du vill visa. Du kanske vill visa produkter inom ett visst prisintervall, eller artiklar som uppfyller ett lagertröskelvärde. Attribut kan anges i mbox eller via en [feed](/help/c-recommendations/c-products/feeds.md).<br>Se [[Ange inkluderingsregler](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). |
+| ![Steg 3](/help/c-recommendations/assets/step3_red.png) | Attribut | Attribut ger mer specifik information om de produkter som du vill visa. Du kanske vill visa produkter inom ett visst prisintervall, eller artiklar som uppfyller ett lagertröskelvärde. Attribut kan anges i mbox eller via en [feed](/help/c-recommendations/c-products/feeds.md).<br>Se [Ange inkluderingsregler](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). |
 | ![Steg 4](/help/c-recommendations/assets/step4_red.png) | Undantag | Undantag avgör vilka specifika objekt som inte visas i dina rekommendationer.<br>Se [Undantag](/help/c-recommendations/c-products/exclusions.md). |
 | ![Steg 5](/help/c-recommendations/assets/step5_red.png) | Inköpsinformation | Inköpsinformationen innehåller information om inköpta artiklar och beställningen när köpet har slutförts. |
 
