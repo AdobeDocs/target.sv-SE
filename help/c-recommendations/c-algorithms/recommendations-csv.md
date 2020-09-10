@@ -5,7 +5,7 @@ title: Överför anpassade villkor
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa s
    Tillsammans används de vertikala metoderna och sidtyperna för att kategorisera de sparade villkoren, vilket gör det enklare att återanvända villkor för andra [!UICONTROL Recommendations] aktiviteter.
 1. Välj en **[!UICONTROL Recommendation Key]**.
 
-   Mer information om att basera villkor på en nyckel finns i [Basera rekommendationen på en rekommendationsnyckel](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Mer information om att basera villkor på en nyckel finns i [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 1. Ange dina **[!UICONTROL Content]** regler.
 
    Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte fyller din design. Om din design t.ex. har plats för fem objekt, men dina villkor bara leder till att tre objekt rekommenderas, kan du lämna det återstående utrymmet tomt eller använda rekommendationer för säkerhetskopiering för att fylla det extra utrymmet. Välj lämpliga reglage. Se [Ange innehållsinställningar](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
