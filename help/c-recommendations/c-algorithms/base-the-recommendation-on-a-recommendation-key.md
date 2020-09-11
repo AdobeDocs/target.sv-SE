@@ -5,9 +5,9 @@ title: Basera rekommendationen på en rekommendationsnyckel
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2727'
 ht-degree: 0%
 
 ---
@@ -231,7 +231,20 @@ Rekommendationen avgörs av hur populära objekten på webbplatsen är. Populari
 
 Använder besökarens historik (spridningssessioner) för att presentera de senaste *x* -objekten som besökaren har visat, baserat på antalet platser i designen.
 
-Kriterierna för nyligen visade objekt returnerar nu resultat som är specifika för en viss [miljö](/help/administrating-target/hosts.md). Om två platser tillhör olika miljöer och en besökare växlar mellan de två platserna, visar varje plats endast nyligen visade objekt från rätt plats. Om två platser finns i samma miljö och en besökare växlar mellan de två platserna, kommer besökaren att se samma nyligen visade objekt för båda platserna.
+Kriteriet Senast visade objekt returnerar resultat som är specifika för en viss [miljö](/help/administrating-target/hosts.md). Om två platser tillhör olika miljöer och en besökare växlar mellan de två platserna, visar varje plats endast nyligen visade objekt från rätt plats. Om två platser finns i samma miljö och en besökare växlar mellan de två platserna, kommer besökaren att se samma nyligen visade objekt för båda platserna.
+
+>[!NOTE]
+>
+>Du kan inte använda kriterierna för [!UICONTROL Recently Viewed Items] att säkerhetskopiera rekommendationer.
+
+[!UICONTROL Recently Viewed Items]/Media kan filtreras så att endast objekt med ett visst attribut visas.
+
+* Senast visade villkor kan konfigureras, precis som andra villkor i rekommendationerna.
+* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [uteslutningar](/help/c-recommendations/c-products/exclusions.md)och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra villkor.
+
+Möjliga användningsområden:
+
+Ett flernationellt företag med flera företag kan ha besökarvisningsobjekt över flera digitala resurser. I det här fallet kan du begränsa antalet senast visade objekt så att de bara visas för respektive egenskap som de visades i. Detta förhindrar att nyligen visade objekt visas på en annan digital egenskaps webbplats.
 
 #### Var kan du använda på din webbplats?
 
@@ -239,7 +252,7 @@ Kriterierna för nyligen visade objekt returnerar nu resultat som är specifika 
 
 >[!NOTE]
 >
->Nyligen visade objekt respekterar både de globala inställningarna Uteslutningar och den valda samlingsinställningen för aktiviteten. Om ett objekt utesluts av ett globalt undantag, eller inte ingår i den valda samlingen, visas det inte. Därför bör inställningen&quot;Alla samlingar&quot; användas i allmänhet när du använder ett villkor för nyligen visade objekt.
+>[!UICONTROL Recently Viewed Items] respekterar både globala inställningar för undantag och den valda samlingsinställningen för aktiviteten. Om ett objekt utesluts av ett globalt undantag, eller inte ingår i den valda samlingen, visas det inte. När du använder ett [!UICONTROL Recently Viewed Items] villkor bör därför inställningen &quot;Alla samlingar&quot; användas.
 
 ## Rekommendationslogik
 
