@@ -5,9 +5,9 @@ title: Basera rekommendationen på en rekommendationsnyckel
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '2542'
+source-wordcount: '2627'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Varje villkor definieras på en egen flik. Trafiken fördelas jämnt mellan olik
 
 Följande rekommendationsnycklar är tillgängliga i [!UICONTROL Recommendation Key] listrutan:
 
-### Aktuellt objekt
+### Aktuellt objekt {#current-item}
 
 Rekommendationen avgörs av det objekt som besökaren för närvarande visar.
 
@@ -54,7 +54,7 @@ När det här alternativet är markerat måste `entity.id` värdet skickas som e
 * Sidor med en artikel, t.ex. produktsidor.
 * Använd INTE på null-sökresultatsidor.
 
-### Aktuell kategori
+### Aktuell kategori {#current-category}
 
 Rekommendationen avgörs av den produktkategori som besökaren för närvarande visar.
 
@@ -133,7 +133,29 @@ Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste d
 
    ![Skapa ny villkorsdialogruta 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Senast köpta artikel
+### Favoritkategori {#favorite-category}
+
+Rekommendationen avgörs av den kategori som har fått mest aktivitet, med samma metod som används för&quot;mest visade objekt&quot; förutom att kategorier räknas i stället för produkter.
+
+Detta bestäms av kriterier för aktuell frekvens och frekvens som fungerar enligt följande:
+
+* 10 poäng för den första kategorivyn
+* 5 poäng för varje efterföljande vy
+
+De kategorier som besöktes för första gången får 10 poäng. Fem poäng ges för efterföljande besök i samma kategori. Vid varje besök minskas inaktuella kategorier som har visats tidigare med 1.
+
+Om du till exempel visar kategori A och sedan kategori B i en session blir resultatet A: 9 B: 10. Om du visar samma objekt i nästa session ändras värdena till A: 20 B: 9.
+
+#### Logic (villkor)
+
+* [!UICONTROL Top Sellers]
+* [!UICONTROL Most Viewed]
+
+#### Var kan du använda på din webbplats?
+
+* Allmänna sidor, t.ex. hemsidor eller landningssidor och annonser utanför webbplatsen.
+
+### Senast köpta artikel {#last-purchased}
 
 Rekommendationen avgörs av den sista artikeln som köptes av varje unik besökare. Detta hämtas automatiskt, så inga värden behöver skickas till sidan.
 
@@ -150,7 +172,7 @@ Rekommendationen avgörs av den sista artikeln som köptes av varje unik besöka
 * Startsida, Min kontosida, annonser på annan plats.
 * Använd INTE på produktsidor eller sidor som är relevanta för inköp.
 
-### Senast visade objekt
+### Senast visade objekt {#last-viewed}
 
 Rekommendationen avgörs av det sista objektet som visades av varje unik besökare. Detta hämtas automatiskt, så inga värden behöver skickas till sidan.
 
@@ -167,7 +189,7 @@ Rekommendationen avgörs av det sista objektet som visades av varje unik besöka
 * Startsida, Min kontosida, annonser på annan plats.
 * Använd INTE på produktsidor eller sidor som är relevanta för inköp.
 
-### Mest visade objekt
+### Mest visade objekt {#most-viewed}
 
 Rekommendationen avgörs av det objekt som har visats oftast, med samma metod som används för favoritkategorin.
 
@@ -191,29 +213,7 @@ Om du till exempel visar surfboardA och sedan surfboardB i en session blir resul
 
 * Allmänna sidor, t.ex. hemsidor eller landningssidor och annonser utanför webbplatsen.
 
-### Favoritkategori
-
-Rekommendationen avgörs av den kategori som har fått mest aktivitet, med samma metod som används för&quot;mest visade objekt&quot; förutom att kategorier räknas i stället för produkter.
-
-Detta bestäms av kriterier för aktuell frekvens och frekvens som fungerar enligt följande:
-
-* 10 poäng för den första kategorivyn
-* 5 poäng för varje efterföljande vy
-
-De kategorier som besöktes för första gången får 10 poäng. Fem poäng ges för efterföljande besök i samma kategori. Vid varje besök minskas inaktuella kategorier som har visats tidigare med 1.
-
-Om du till exempel visar kategori A och sedan kategori B i en session blir resultatet A: 9 B: 10. Om du visar samma objekt i nästa session ändras värdena till A: 20 B: 9.
-
-#### Logic (villkor)
-
-* [!UICONTROL Top Sellers]
-* [!UICONTROL Most Viewed]
-
-#### Var kan du använda på din webbplats?
-
-* Allmänna sidor, t.ex. hemsidor eller landningssidor och annonser utanför webbplatsen.
-
-### Popularitet
+### Popularitet {#popularity}
 
 Rekommendationen avgörs av hur populära objekten på webbplatsen är. Populariteten omfattar bland annat de främsta säljarna och de mest visade uppgifterna i mbox och, om du använder Adobe Analytics, alla mätvärden som finns i produktrapporten. Objekten rangordnas baserat på den rekommendationslogik du väljer.
 
@@ -247,7 +247,7 @@ Kriterierna för nyligen visade objekt returnerar nu resultat som är specifika 
 
 Följande rekommendationslogik (villkor) finns i den [!UICONTROL Recommendation Logic] nedrullningsbara listan:
 
-### Objekt/media med liknande attribut
+### Objekt/media med liknande attribut {#similar-attributes}
 
 Rekommenderar objekt eller media som liknar objekt eller media baserat på den aktuella sidaktiviteten eller tidigare besökares beteende.
 
@@ -264,7 +264,7 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Senast visade objekt
 * Mest visade objekt
 
-### Mest visade
+### Mest visade {#most-viewed-logic}
 
 Visar de objekt eller medier som visas oftast på platsen.
 
@@ -277,9 +277,11 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Favoritkategori
 * Popularitet
 
-### Folk som köpte den här, köpte den där
+### Folk som köpte den här, köpte den där {#bought-bought}
 
 Rekommenderar artiklar som oftast köps av kunder samtidigt som det angivna objektet.
+
+Den här logiken returnerar andra produkter som köpts efter att ha köpt den här. den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en kundvagnssammanfattning, som t.ex. visar artiklar som andra köpare också har köpt. Om besökaren till exempel köper en kostym kan rekommendationen visa ytterligare objekt som andra besökare har köpt tillsammans med kostymen, som slipsar, klädskor och kufflänkar. När besökarna granskar sina inköp ger ni dem ytterligare rekommendationer.
 
@@ -291,9 +293,11 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Senast visade objekt
 * Mest visade objekt
 
-### Folk som såg det här, köpte det
+### Folk som såg det här, köpte det {#viewed-bought}
 
 Rekommenderar artiklar som oftast köps i samma session som det angivna objektet visas. Detta villkor returnerar andra produkter som köpts efter att ha tittat på den här produkten. Den angivna produkten ingår inte i resultatmängden.
+
+Den här logiken returnerar andra produkter som köpts efter att ha tittat på den här. den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en produktsida, som till exempel visar objekt som andra besökare som visade det köpta objektet. Om besökaren till exempel tittar på en fiskepunkt kan rekommendationen visa ytterligare saker som andra besökare har köpt, som t.ex. kryssrutor för taggar, skölder och fiskekurser. När besökarna besöker er webbplats kan ni ge dem ytterligare inköpsrekommendationer.
 
@@ -305,9 +309,11 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Senast visade objekt
 * Mest visade objekt
 
-### Folk som tittade på det här, såg det
+### Folk som tittade på det här, såg det {#viewed-viewed}
 
 Rekommenderar objekt som oftast visas i samma session som det angivna objektet visas.
+
+Den här logiken returnerar andra produkter som visas när du har tittat på den här. den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du skapa ytterligare konverteringsmöjligheter genom att rekommendera objekt som andra besökare som tittade på ett objekt också kan se. Besökare som tittar på cyklar på er webbplats kan till exempel också titta på cykelhjälmar, cykelkit, lås osv. Du kan skapa en rekommendation med hjälp av den här logiken som föreslår andra produkter som hjälper dig att öka intäkterna.
 
@@ -319,13 +325,15 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Senast visade objekt
 * Mest visade objekt
 
-### Tillhörighet till webbplats
+### Tillhörighet till webbplats {#site-affinity}
 
 Rekommenderar objekt baserat på säkerheten för en relation mellan objekt. Du kan konfigurera det här villkoret för att avgöra hur mycket data som krävs innan en rekommendation presenteras med skjutreglaget Inkluderingsregler. Om du t.ex. väljer väldigt stark så rekommenderas de produkter som ger störst säkerhet för en matchning.
 
 Om du till exempel anger en mycket stark tillhörighet och din design innehåller fem objekt, varav tre uppfyller tröskelvärdet för anslutningsstyrkan, visas inte de två objekten som inte uppfyller kraven på minsta styrka i dina rekommendationer och ersätts av dina definierade säkerhetskopieringsobjekt. Objekt med den starkaste tillhörigheten visas först.
 
 En webbutik kan t.ex. rekommendera artiklar i efterföljande besök som en besökare har visat intresse för under tidigare sessioner. Aktivitet för varje besökares session hämtas för att beräkna en tillhörighet baserat på en nyhet och frekvensmodell. När den här besökaren återgår till din webbplats används tillhörighet för att visa rekommendationer baserat på tidigare åtgärder på din webbplats.
+
+Vissa kunder med olika produktsamlingar och olika webbplatsbeteenden kan få det bästa resultatet om de ställer in en svag webbplatstillhörighet.
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
@@ -334,7 +342,7 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Senast visade objekt
 * Mest visade objekt
 
-### De viktigaste säljarna
+### De viktigaste säljarna {#top-sellers}
 
 Visar de artiklar som ingår i de mest slutförda beställningarna. Flera enheter av samma artikel i en enda order räknas som en order.
 
@@ -345,7 +353,7 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Favoritkategori
 * Popularitet
 
-### Användarbaserad Recommendations
+### Användarbaserad Recommendations {#user-based}
 
 Rekommenderar objekt baserat på besökarens webbläsarhistorik, visning och inköp. De här objekten kallas vanligtvis&quot;Rekommenderas för dig&quot;.
 
