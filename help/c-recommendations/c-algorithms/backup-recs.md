@@ -1,13 +1,13 @@
 ---
 keywords: recommendation;backup;back up
-description: Om du använder funktionen för rekommendation av säkerhetskopia kommer eventuella rekommendationer som inte har tillräckligt många rekommenderade objekt inte att visa standardinnehåll. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
+description: Om du använder funktionen för rekommenderad säkerhetskopiering i Adobe Target kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 title: Använd en rekommendation för säkerhetskopiering
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Använd rekommendation för säkerhetskopiering{#use-a-backup-recommendation}
 
-Om du använder funktionen för rekommendation av säkerhetskopia kommer eventuella rekommendationer som inte har tillräckligt många rekommenderade objekt inte att visa standardinnehåll. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
+Om du använder funktionen för rekommenderad säkerhetskopiering i Adobe Target kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 
 Om du inte använder en rekommendation för säkerhetskopiering och en rekommendation inte har tillräckligt många objekt för att fylla skärmen, visas standardinnehållet för användaren.
 
