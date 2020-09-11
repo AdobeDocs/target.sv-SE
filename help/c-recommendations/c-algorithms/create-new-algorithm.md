@@ -5,9 +5,9 @@ title: Skapa villkor
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2265'
+source-wordcount: '2297'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,13 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create New Criteria] 
 
    Beskrivningen bör hjälpa dig att identifiera villkoren och kan innehålla information om syftet med kriterierna.
 
-1. Välj en **[!UICONTROL Industry Vertical]**:
+1. Välj en vertikal bransch baserat på målen för dina rekommendationer.
 
-   * [!UICONTROL Retail/Ecommerce]
-   * [!UICONTROL Lead Generation/B2B/Financial Services]
-   * [!UICONTROL Media/Publishing]
+   | Branschvertikal | Mål |
+   |--- |--- |
+   | Detaljhandel/e-handel | Konvertering som resulterar i inköp |
+   | Leadgenerering/B2B/Finansiella tjänster | Konvertering utan köp |
+   | Media/publicering | Engagemang |
 
    Andra kriteriealternativ ändras beroende på vilken vertikal du väljer.
 
