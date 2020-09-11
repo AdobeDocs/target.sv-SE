@@ -5,9 +5,9 @@ title: Överför anpassade villkor
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1794'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,13 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create New Criteria] 
 
    Beskrivningen bör hjälpa dig att identifiera villkoren och kan innehålla information om syftet med kriterierna.
 
-1. Välj en **[!UICONTROL Industry Vertical]**:
+1. Välj en vertikal bransch baserat på målen för dina rekommendationer.
 
-   * [!UICONTROL Retail/Ecommerce]
-   * [!UICONTROL Lead Generation/B2B/Financial Services]
-   * [!UICONTROL Media/Publishing]
+   | Branschvertikal | Mål |
+   |--- |--- |
+   | Detaljhandel/e-handel | Konvertering som resulterar i inköp |
+   | Leadgenerering/B2B/Finansiella tjänster | Konvertering utan köp |
+   | Media/publicering | Engagemang |
 
    Andra kriteriealternativ ändras beroende på vilken vertikal du väljer.
 
