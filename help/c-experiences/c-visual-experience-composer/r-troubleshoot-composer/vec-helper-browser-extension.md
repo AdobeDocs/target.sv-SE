@@ -5,9 +5,9 @@ title: Hjälptillägg för Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,9 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
 
 * Alla iframe-rubriker, som X-Frame-Options och Content-Security-Policy, tas implicit bort från webbplatsen. Du behöver inte längre skapa komplicerade regler för att göra detta.
 * Om en webbsida ännu inte innehåller JavaScript-biblioteket [!DNL Target] at.js kan du använda tillägget för att mata in biblioteket så att du kan skapa upplevelser för webbplatsen. Du kan sedan skapa aktiviteter och köra frågor och svar med hjälp av förhandsgranskningslänkar.
+
+   Observera att när du använder Enhanced Experience Composer (EEC) injiceras inte at.js, men funktionen SameSite Cookie finns fortfarande. Om du vill mata in at.js på webbsidan stänger du av EEC.
+
 * [Mobila visningsportar](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) stöds även utan [!UICONTROL Enhanced Experience Composer] (EEC).
 * Kunder som inte är tidigare [!DNL Target] kan använda tillägget för att experimentera med [!DNL Target] , även om deras IT-utvecklare ännu inte har implementerat [!DNL Target] på sina webbplatser.
 * Partners som betjänar flera kunders webbplatser och [!DNL Target] konton har nu en enkel mekanism som stöder VEC-inläsning, i stället för att hantera flera regler i tredjepartsverktyg.
