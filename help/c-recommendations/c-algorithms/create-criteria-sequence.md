@@ -5,9 +5,9 @@ title: Skapa villkorssekvenser
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,17 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create Criteria Seque
 
    Beskrivningen bör hjälpa dig att identifiera villkorssekvensen och kan innehålla information om dess syfte.
 
-1. Välj en **[!UICONTROL Industry Vertical]**.
+1. Välj en vertikal bransch baserat på målen för dina rekommendationer.
 
-   Standardbranschens lodräta [](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) version visas automatiskt.
+   | Branschvertikal | Mål |
+   |--- |--- |
+   | Detaljhandel/e-handel | Konvertering som resulterar i inköp |
+   | Leadgenerering/B2B/Finansiella tjänster | Konvertering utan köp |
+   | Media/publicering | Engagemang |
+
+   Standardbranschens lodräta stil visas automatiskt.
+
+   Andra kriteriealternativ ändras beroende på vilken vertikal du väljer.
 
 1. Välj en **[!UICONTROL Page Type]**.
 
