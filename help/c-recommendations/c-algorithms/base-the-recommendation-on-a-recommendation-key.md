@@ -5,9 +5,9 @@ title: Basera rekommendationen på en rekommendationsnyckel
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
+source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2542'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,23 @@ När det här alternativet är markerat måste `entity.categoryId` värdet skick
 Rekommendationen bestäms av ett objekt som lagras i en besökarprofil, med hjälp av någon av användarna.*x* eller profil.*x* -attribut.
 
 När det här alternativet är markerat måste `entity.id` värdet finnas i profilattributet.
+
+När du baserar rekommendationer på anpassade attribut måste du välja det anpassade attributet och sedan välja rekommendationstypen.
+
+Du kan filtrera i realtid ovanpå dina egna villkor. Du kan t.ex. begränsa dina rekommenderade objekt till endast de som finns i en besökares favoritkategori eller varumärke. Detta ger dig möjlighet att kombinera offlineberäkningar med realtidsfiltrering.
+
+Den här funktionen innebär att du kan använda [!DNL Target] för att lägga till personalisering ovanpå dina offlineberäknade rekommendationer eller anpassade kuraterade listor. Detta kombinerar styrkan hos era datavetare och er forskning med Adobe provad och sann leverans, filtrering vid körning, A/B-testning, målgruppsanpassning, rapportering, integreringar med mera.
+
+Med tillägg av inkluderingsregler på anpassade kriterier förvandlas annars statiska rekommendationer till dynamiska rekommendationer baserade på besökarens intressen.
+
+* Anpassade villkor kan konfigureras, precis som andra villkor i rekommendationer.
+* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [uteslutningar](/help/c-recommendations/c-products/exclusions.md)och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra villkor.
+
+Möjliga användningsområden:
+
+* Du vill rekommendera filmer från en anpassad lista, men bara om besökaren inte redan har tittat på dem.
+* Du vill köra en offlinealgoritm och använda resultaten för att ge bättre rekommendationer, men du måste se till att objekt som inte finns i lager aldrig rekommenderas.
+* Du vill bara ta med objekt från besökarens favoritkategori.
 
 #### Logic (villkor)
 
@@ -226,11 +243,15 @@ Kriterierna för nyligen visade objekt returnerar nu resultat som är specifika 
 
 ## Rekommendationslogik
 
+[!DNL Target Recommendations] använder sofistikerade algoritmer för att avgöra när en besökares åtgärder uppfyller kriterierna som anges i din aktivitet. Rekommendationsnyckeln avgör vilka alternativ för rekommendationslogik som är tillgängliga.
+
 Följande rekommendationslogik (villkor) finns i den [!UICONTROL Recommendation Logic] nedrullningsbara listan:
 
-### Objekt med liknande attribut
+### Objekt/media med liknande attribut
 
-Innehållslikhet jämför nyckelord för objektattribut och gör rekommendationer baserat på hur många nyckelord olika objekt har gemensamt. Recommendations baserat på innehållets likhet kräver inte tidigare data för att ge ett starkt resultat.
+Rekommenderar objekt eller media som liknar objekt eller media baserat på den aktuella sidaktiviteten eller tidigare besökares beteende.
+
+Om du väljer Objekt/Media med liknande attribut kan du ange regler för innehållets likhet.
 
 Att använda innehållets likhet för att generera rekommendationer är särskilt effektivt för nya objekt, som troligen inte visas i rekommendationer med Personer som har tittat på det här, Visat det och annan logik som baseras på tidigare beteende. Ni kan också använda innehållets likhet för att generera användbara rekommendationer för nya besökare som inte har några tidigare inköp eller andra historiska data.
 
@@ -245,9 +266,9 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 
 ### Mest visade
 
-Visar de mest visade objekten på webbplatsen.
+Visar de objekt eller medier som visas oftast på platsen.
 
-Med den här logiken kan du visa rekommendationer baserat på de mest visade objekten på webbplatsen för att öka konverteringsgraden för andra objekt. En mediewebbplats kan till exempel visa rekommendationer på sin hemsida för sina populäraste videor för att uppmuntra besökare att titta på ytterligare videor.
+Med den här logiken kan du visa rekommendationer baserat på de mest visade objekten på webbplatsen för att öka konverteringsgraden för andra objekt. En mediewebbplats kan till exempel visa rekommendationer på sin hemsida för sina mest visade videor för att uppmuntra besökarna att titta på ytterligare videor.
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
@@ -258,9 +279,9 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 
 ### Folk som köpte den här, köpte den där
 
-Visar objekt som andra besökare även har köpt och som har köpt det valda objektet.
+Rekommenderar artiklar som oftast köps av kunder samtidigt som det angivna objektet.
 
-Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en kundvagnssammanfattning, som t.ex. visar artiklar som andra köpare också har köpt. Om besökaren t.ex. köper en kostym kan rekommendationen visa ytterligare objekt som andra besökare har köpt, t.ex. slipsar, klädskor och kufflänkar. När besökarna granskar sina inköp ger ni dem ytterligare inköpsrekommendationer.
+Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en kundvagnssammanfattning, som t.ex. visar artiklar som andra köpare också har köpt. Om besökaren till exempel köper en kostym kan rekommendationen visa ytterligare objekt som andra besökare har köpt tillsammans med kostymen, som slipsar, klädskor och kufflänkar. När besökarna granskar sina inköp ger ni dem ytterligare rekommendationer.
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
@@ -272,9 +293,9 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 
 ### Folk som såg det här, köpte det
 
-Visar andra objekt som köpts av besökare som visade det markerade objektet.
+Rekommenderar artiklar som oftast köps i samma session som det angivna objektet visas. Detta villkor returnerar andra produkter som köpts efter att ha tittat på den här produkten. Den angivna produkten ingår inte i resultatmängden.
 
-Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en produktsida, som till exempel visar objekt som andra besökare som visade det köpta objektet. Om besökaren till exempel tittar på en fiskepunkt kan rekommendationen visa ytterligare objekt som andra besökare tittar på objektet som köpts, som t.ex. kryssrutor, torn och fiskekurser. När besökarna besöker er webbplats kan ni ge dem ytterligare inköpsrekommendationer.
+Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en produktsida, som till exempel visar objekt som andra besökare som visade det köpta objektet. Om besökaren till exempel tittar på en fiskepunkt kan rekommendationen visa ytterligare saker som andra besökare har köpt, som t.ex. kryssrutor för taggar, skölder och fiskekurser. När besökarna besöker er webbplats kan ni ge dem ytterligare inköpsrekommendationer.
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
@@ -286,9 +307,9 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 
 ### Folk som tittade på det här, såg det
 
-Visar objekt som andra besökare också visade som visade det markerade objektet.
+Rekommenderar objekt som oftast visas i samma session som det angivna objektet visas.
 
-Med den här logiken kan du skapa ytterligare konverteringsmöjligheter genom att rekommendera objekt som andra besökare som tittade på ett objekt också kan se. Besökare som tittar på cyklar på er webbplats kan till exempel också titta på cykelhjälmar, cykelkit, lås osv. Du kan skapa en rekommendation med hjälp av den här logiken som föreslår andra produkter.
+Med den här logiken kan du skapa ytterligare konverteringsmöjligheter genom att rekommendera objekt som andra besökare som tittade på ett objekt också kan se. Besökare som tittar på cyklar på er webbplats kan till exempel också titta på cykelhjälmar, cykelkit, lås osv. Du kan skapa en rekommendation med hjälp av den här logiken som föreslår andra produkter som hjälper dig att öka intäkterna.
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
@@ -300,9 +321,11 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 
 ### Tillhörighet till webbplats
 
-Visar artiklar som använder en Adobe-algoritm för att rekommendera andra artiklar baserat på kriterier som produktsidor, inköp och kundvagnsaktiviteter (lägga till eller ta bort artiklar, visa kundvagnen osv.)
+Rekommenderar objekt baserat på säkerheten för en relation mellan objekt. Du kan konfigurera det här villkoret för att avgöra hur mycket data som krävs innan en rekommendation presenteras med skjutreglaget Inkluderingsregler. Om du t.ex. väljer väldigt stark så rekommenderas de produkter som ger störst säkerhet för en matchning.
 
-En onlinebutik kan t.ex. rekommendera artiklar som en besökare har visat intresse för under tidigare sessioner i efterföljande besök. Aktivitet för varje besökares session hämtas för att beräkna en affinitetspoäng baserat på en nyhet och frekvensmodell. När den här besökaren återgår till din webbplats används tillhörighet för att visa rekommendationer baserat på tidigare åtgärder på din webbplats.
+Om du till exempel anger en mycket stark tillhörighet och din design innehåller fem objekt, varav tre uppfyller tröskelvärdet för anslutningsstyrkan, visas inte de två objekten som inte uppfyller kraven på minsta styrka i dina rekommendationer och ersätts av dina definierade säkerhetskopieringsobjekt. Objekt med den starkaste tillhörigheten visas först.
+
+En webbutik kan t.ex. rekommendera artiklar i efterföljande besök som en besökare har visat intresse för under tidigare sessioner. Aktivitet för varje besökares session hämtas för att beräkna en tillhörighet baserat på en nyhet och frekvensmodell. När den här besökaren återgår till din webbplats används tillhörighet för att visa rekommendationer baserat på tidigare åtgärder på din webbplats.
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
@@ -313,11 +336,31 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 
 ### De viktigaste säljarna
 
-Visar de mest säljande objekten på webbplatsen baserat på besökarkonverteringar.
+Visar de artiklar som ingår i de mest slutförda beställningarna. Flera enheter av samma artikel i en enda order räknas som en order.
 
-Med den här logiken kan du skapa rekommendationer för populära objekt på din webbplats för att öka konverteringen. Den här logiken passar särskilt bra för förstagångsbesökare på er webbplats.
+Med den här logiken kan du skapa rekommendationer för de mest säljande artiklarna på webbplatsen för att öka konverteringsgraden och intäkterna. Den här logiken passar särskilt bra för förstagångsbesökare på er webbplats.
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
 * Favoritkategori
 * Popularitet
+
+### Användarbaserad Recommendations
+
+Rekommenderar objekt baserat på besökarens webbläsarhistorik, visning och inköp. De här objekten kallas vanligtvis&quot;Rekommenderas för dig&quot;.
+
+Med dessa kriterier kan ni leverera personaliserat innehåll och personaliserade upplevelser till både nya och återkommande besökare. Listan med rekommendationer vägs mot besökarens senaste aktivitet och uppdateras under sessionen och anpassas mer när användaren bläddrar på webbplatsen.
+
+Både vyer och inköp används för att avgöra vilka objekt som rekommenderas. Den angivna rekommendationsnyckeln (t.ex. Aktuellt objekt) används för att tillämpa eventuella infogningsregelfilter som du väljer.
+
+Du kan till exempel:
+
+* Uteslut objekt som inte uppfyller vissa kriterier (produkter ur lager, artiklar som publicerats för mer än 30 dagar sedan, filmer med klassificering R och så vidare).
+* Begränsa inkluderade objekt till en enda kategori eller till den aktuella kategorin.
+
+Den här logiken kan användas med följande rekommendationsnycklar:
+
+* Aktuellt objekt
+* Senast köpta artikel
+* Senast visade objekt
+* Mest visade objekt
