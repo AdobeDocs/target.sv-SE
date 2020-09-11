@@ -4,7 +4,7 @@ description: Information om hur du arbetar med ett flervärdesfält i Adobe Targ
 title: Arbeta med attribut med flera värden i Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -72,7 +72,6 @@ Följande operatorer är tillgängliga för användning med entitets-, profil- o
 >[!NOTE]
 >
 >Stöd för dynamisk matchning av attribut med flera värden är för närvarande bara tillgängligt i villkor när en matchningsregel för profilattribut eller parameterattribut (mbox) används vid jämförelse av ett enskilt värde från vänster sida till en höger sida med flera värden. Flervärdesattribut stöds för närvarande inte i kampanjer, entitetsattributmatchning eller för listor till vänster om inkluderingsregler.
-
 
 ### Exempel: Uteslut nyligen bevakade objekt
 
