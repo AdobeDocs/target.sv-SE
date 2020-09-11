@@ -1,13 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Kriterierna i Adobe Target Recommendations är regler som avgör vilka produkter som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
+description: Kriterierna i Adobe Target är regler som avgör vilka produkter eller vilket innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
 title: Kriterier i Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) -kriterier
 
-Kriterier är regler som bestämmer vilka produkter som ska rekommenderas utifrån en fördefinierad uppsättning besökarbeteenden.
+Kriterier i [!DNL Adobe Target] är regler som bestämmer vilka produkter eller innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden. Kriterierna kan baseras på populära trender, en besökares aktuella och tidigare beteenden eller liknande produkter och innehåll. Du kan testa flera rekommendationstyper mot varandra genom att lägga till flera villkor.
 
-Kriterierna avgör vilken åtgärd som resulterar i vilken rekommendation. Du kan testa flera rekommendationstyper mot varandra genom att lägga till flera villkor.
+I följande avsnitt beskrivs mer om villkorsnycklar och den rekommendationslogik du kan använda för varje nyckel. Klicka på länkarna för mer detaljerad information.
 
 ## Branschvertikal {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-Du väljer en vertikal bransch baserat på målen för dina rekommendationer. Beroende på vilken vertikal du väljer
+När du skapar villkor väljer du en bransch vertikalt baserad på syftet med dina rekommendationer.
 
 | Branschvertikal | Mål |
 |--- |--- |
@@ -29,9 +29,15 @@ Du väljer en vertikal bransch baserat på målen för dina rekommendationer. Be
 | Leadgenerering/B2B/Finansiella tjänster | Konvertering utan köp |
 | Media/publicering | Engagemang |
 
+Andra kriteriealternativ ändras beroende på vilken vertikal du väljer i branschen. Du kan ställa in branschstandarden vertikalt på **[!UICONTROL Recommendations > Settings]** sidan eller ange branschvertikalt för varje villkor.
+
 ## Rekommendationsnyckel {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 Den rekommendationsnyckel du väljer avgör typen av villkor. Det finns flera kriterietyper som visas som kriteriekort när du ställer in en [!DNL Recommendations] aktivitet.
+
+![Kriteriesida](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+I följande tabell förklaras de olika kriterietyperna och tillhörande nycklar. Klicka på länkarna för mer detaljerad information om varje tangent.
 
 | Villkorstyp | Tangenter |
 |--- |--- |
@@ -39,7 +45,7 @@ Den rekommendationsnyckel du väljer avgör typen av villkor. Det finns flera kr
 | Egen | Rekommendera objekt baserat på anpassade attribut.<ul><li>[Anpassat attribut](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>När du baserar rekommendationer på anpassade attribut måste du välja det anpassade attributet och sedan välja rekommendationstypen. |
 | Tidigare beteende | Rekommendera objekt baserat på hur besökarna tidigare har svarat på ett objekt. Exempelvis har de som köpt ett visst varumärke större chans att köpa ett annat varumärke.<ul><li>[Senast köpta artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Senast visade objekt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Mest visade objekt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Favoritkategori](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | Popularitet | Rekommendera de populäraste objekten, till exempel de populäraste videoklippen i en relaterad kategori eller de produkter som har visats oftast på din webbplats.<ul><li>[Popularitet](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| Senast visade objekt | Rekommendera de objekt som en besökare senast har tittat på, t.ex. de objekt en besökare tittade på när han eller hon senast besökte din webbplats, eller de artiklar som är mest aktuella just nu.<br>Algoritmen Senast visade objekt returnerar resultat som är specifika för en besökares aktivitet i en [miljö](/help/administrating-target/hosts.md). Om två webbplatser tillhör olika miljöer och en besökare växlar mellan de två platserna, kommer algoritmen endast att returnera nyligen visade objekt från rätt plats.<br>Den här villkorstypen begränsas inte av samlingar.<ul><li>[Senast visade objekt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**Obs!** Du kan inte använda villkoret Senast visade objekt för att få säkerhetskopieringsrekommendationer.<br>Nyligen visade objekt/media kan filtreras så att endast objekt med ett visst attribut visas.<ul><li>Senast visade villkor kan konfigureras, precis som andra villkor i rekommendationerna.</li><li>Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [uteslutningar](/help/c-recommendations/c-products/exclusions.md)och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra villkor.</li></ul>Möjliga användningsområden:<ul><li>Ett flernationellt företag med flera företag kan ha besökarvisningsobjekt över flera digitala resurser. I det här fallet kan du begränsa antalet senast visade objekt så att de bara visas för respektive egenskap som de visades i. Detta förhindrar att nyligen visade objekt visas på en annan digital egenskaps webbplats.</li></ul> |
+| [Senast visade objekt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Rekommendera objekt som en besökare har visat senast, t.ex. de objekt en besökare tittade på när han eller hon senast besökte din webbplats, eller de artiklar som är mest aktuella just nu. |
 
 ## Använda en anpassad rekommendationsnyckel {#custom-key}
 
