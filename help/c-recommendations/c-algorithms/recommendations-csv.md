@@ -5,7 +5,7 @@ title: Överför anpassade villkor
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create New Criteria] 
 
 1. (Villkorligt) Fyll i informationen i avsnittet [Inkluderingsregler](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) .
 
-1. (Villkorlig fyllning i informationen i avsnittet [Attributviktning](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) .
+1. (Villkorligt) Fyll i informationen i avsnittet [Attributviktning](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) .
 
 1. I **[!UICONTROL Upload CSV]** avsnittet markerar du **[!UICONTROL Location]** innehållet i CSV-filen.
 
