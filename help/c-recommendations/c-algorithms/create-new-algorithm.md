@@ -5,7 +5,7 @@ title: Skapa villkor
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2297'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create New Criteria] 
    >
    >Om du väljer **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** kan du ange regler för [innehållets likhet](#similarity).
 
-## Datakälla
+## Datakälla {#data-source}
 
 1. Ange **[!UICONTROL Data Range]** för att bestämma tidsintervallet för tillgängliga historiska användarbeteendedata som ska användas när du avgör vilka rekommendationer som ska visas.
 
@@ -224,7 +224,7 @@ Så här skapar du en enkel inkluderingsregel, som tidigare nämnts, som endast 
 
 Mer information finns i [Använda dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## Attributviktning
+## Attributviktning {#weighting}
 
 Du kan lägga till flera regler för att&quot;knuffa&quot; algoritmen baserat på viktig information eller metadata om innehållskatalogen så att vissa objekt lättare visas.
 
