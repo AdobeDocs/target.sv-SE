@@ -5,9 +5,9 @@ title: Överför anpassade villkor
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
-source-wordcount: '1794'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # ![Egna villkor för PREMIUM](/help/assets/premium.png) -överföring{#upload-custom-criteria}
 
 Överför en CSV-fil för att anpassa dina rekommendationer.
-
-## Öppna skärmen Skapa nya villkor
 
 Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa skärmalternativ varierar beroende på hur du kommer till skärmen.
 
@@ -31,138 +29,19 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create New Criteria] 
 
 1. Klicka på **[!UICONTROL Create Criteria]** > **[!UICONTROL Upload Custom Criteria]**.
 
-1. Konfigurera informationen i följande avsnitt.
+1. Fyll i informationen under [Grundläggande information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) .
 
-## Grundläggande information {#info}
+1. Fyll i informationen i avsnittet [Datakälla](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) .
 
-1. Skriv ett **[!UICONTROL Criteria Name]**.
+1. Fyll i informationen i [innehållsavsnittet](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) .
 
-   Detta är det&quot;interna&quot; namnet som används för att beskriva kriterierna. Du kanske vill kalla villkoren för&quot;Produkter med högsta marginal&quot;, men du vill inte att den titeln ska visas offentligt. Se nästa steg för att ange den offentliga titeln.
+1. (Villkorligt) Fyll i informationen i avsnittet [Innehållslikhet](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) .
 
-   ![Avsnittet Grundläggande information](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+1. (Villkorligt) Fyll i informationen i avsnittet [Inkluderingsregler](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) .
 
-1. Skriv en offentlig sida **[!UICONTROL Display Title]** som ska visas på sidan för rekommendationer som använder det här villkoret.
+1. (Villkorlig fyllning i informationen i avsnittet [Attributviktning](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) .
 
-   Du kan till exempel visa&quot;Personer som visade det här&quot; eller&quot;Liknande produkter&quot; när du använder det här villkoret för att visa rekommendationer.
-
-1. Ange en kort **[!UICONTROL Description]** av villkoren.
-
-   Beskrivningen bör hjälpa dig att identifiera villkoren och kan innehålla information om syftet med kriterierna.
-
-1. Välj en vertikal bransch baserat på målen för dina rekommendationer.
-
-   | Branschvertikal | Mål |
-   |--- |--- |
-   | Detaljhandel/e-handel | Konvertering som resulterar i inköp |
-   | Leadgenerering/B2B/Finansiella tjänster | Konvertering utan köp |
-   | Media/publicering | Engagemang |
-
-   Andra kriteriealternativ ändras beroende på vilken vertikal du väljer.
-
-1. Välj en **[!UICONTROL Page Type]**.
-
-   Du kan välja flera sidtyper.
-
-   Tillsammans används de vertikala metoderna och sidtyperna för att kategorisera de sparade villkoren, vilket gör det enklare att återanvända villkor för andra [!DNL Recommendations] aktiviteter.
-
-1. Välj en **[!UICONTROL Recommendation Key]**.
-
-   Mer information om att basera villkor på en nyckel finns i [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
-
-1. Markera **[!UICONTROL Recommendation Logic]**.
-
-   Mer information om alternativ för rekommendationslogik finns i [Kriterier](../../c-recommendations/c-algorithms/algorithms.md).
-
-   >[!NOTE]
-   >
-   >Om du väljer **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** kan du ange regler för [innehållets likhet](#similarity).
-
-## Innehåll {#content}
-
-Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte uppfyller [rekommendationsdesignen](/help/c-recommendations/c-design-overview/design-overview.md). Kriterierna kan returnera färre rekommendationer än vad din design kräver [!DNL Recommendations] . Om din design till exempel har platser för fyra objekt, men dina villkor bara leder till att två objekt rekommenderas, kan du lämna de återstående platserna tomma eller använda rekommendationer för säkerhetskopiering för att fylla de extra platserna.
-
-![Innehållsavsnitt](/help/c-recommendations/c-algorithms/assets/content.png)
-
-1. (Valfritt) Skjut **[!UICONTROL Partial Design Rendering]** växlingsknappen till&quot;på&quot;-positionen.
-
-   Så många kortplatser som möjligt kommer att fyllas, men designmallen kan innehålla tomt utrymme för återstående kortplatser. Om det här alternativet är inaktiverat och det inte finns tillräckligt med innehåll för att fylla alla tillgängliga platser, kommer inga rekommendationer att visas och standardinnehåll visas i stället.
-
-   Aktivera det här alternativet om du vill att rekommendationer ska hanteras med tomma platser. Använd rekommendationer för säkerhetskopiering om du vill att rekommendationsplatserna ska fyllas med innehåll baserat på dina kriterier med tomma platser fyllda med liknande eller populärt innehåll från platsen, vilket förklaras i nästa steg.
-
-1. (Valfritt) Skjut **[!UICONTROL Show Backup Recommendations]** växlingsknappen till&quot;på&quot;-positionen.
-
-   Fyll eventuella återstående tomma platser i designen med ett slumpmässigt urval av de mest visade produkterna från hela webbplatsen.
-
-   Genom att använda rekommendationer för säkerhetskopiering försäkrar du dig om att din rekommendationsdesign fyller alla tillgängliga platser. Anta att du har en design på 4 x 1 enligt nedan:
-
-   ![4 x 1-design](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   Anta att dina kriterier gör att bara två objekt rekommenderas. Om du aktiverar [!UICONTROL Partial Design Rendering] alternativet fylls de två första platserna i, men de återstående två platserna förblir tomma. Om du aktiverar [!UICONTROL Show Backup Recommendations] alternativet fylls de två första kortplatserna i baserat på dina angivna villkor och de återstående två kortplatserna fylls i baserat på dina rekommendationer för säkerhetskopiering.
-
-   I följande matris visas det resultat du får se när du använder alternativen [!UICONTROL Partial Design Rendering] och [!UICONTROL Backup Recommendations] :
-
-   | Delvis designåtergivning | Säkerhetskopiera Recommendations | Resultat |
-   |--- |--- |--- |
-   | Handikappade | Handikappade | Om färre rekommendationer returneras än vad designen kräver ersätts rekommendationsdesignen med standardinnehåll och inga rekommendationer visas. |
-   | Aktiverad | Handikappade | Designen återges, men kan innehålla tomt utrymme om färre rekommendationer returneras än vad designanropen kräver. |
-   | Aktiverad | Aktiverad | Rekommendationer för säkerhetskopiering fyller i tillgängliga designfack och återger designen helt.<br>Om inkluderingsregler tillämpas på rekommendationer för säkerhetskopiering, begränsas antalet kvalificerade rekommendationer för säkerhetskopiering till den punkt där designen inte kan fyllas, återges designen delvis.<br>Om villkoret inte returnerar några rekommendationer, och inkluderingsreglerna begränsar rekommendationerna för säkerhetskopiering till noll, ersätts designen med standardinnehåll. |
-   | Handikappade | Aktiverad | Rekommendationer för säkerhetskopiering fyller i tillgängliga designfack och återger designen helt.<br>Om inkluderingsregler tillämpas på rekommendationer för säkerhetskopiering, begränsas antalet kvalificerade rekommendationer för säkerhetskopiering till den punkt där designen inte kan fyllas, ersätts designen med standardinnehåll och inga rekommendationer visas. |
-
-   Mer information finns i [Använda en rekommendation](/help/c-recommendations/c-algorithms/backup-recs.md)för säkerhetskopiering.
-
-1. (Villkorligt) Om du valde **[!UICONTROL Show Backup Recommendations]** i föregående steg kan du aktivera **[!UICONTROL Apply inclusion rules to backup recommendations]**.
-
-   Inkluderingsregler avgör vilka objekt som tas med i dina rekommendationer. Vilka alternativ som är tillgängliga beror på var du arbetar vertikalt.
-
-   Mer information finns i [Ange inkluderingsregler](#inclusion) nedan.
-
-1. (Valfritt) Skjut **[!UICONTROL Recommend Previously Purchased Items]** växlingsknappen till&quot;på&quot;-positionen.
-
-   Den här inställningen baseras på `productPurchasedId`. Standardbeteendet är att inte rekommendera tidigare inköpta artiklar. I de flesta fall vill du inte marknadsföra artiklar som en kund nyligen har köpt. Det är användbart om du säljer artiklar som normalt bara köps en gång, t.ex. kajaker. Om du säljer artiklar som personer återkommer till att köpa igen upprepade gånger, som schampo eller andra personliga artiklar, bör du aktivera det här alternativet.
-
-## Inkluderingsregler {#inclusion}
-
-Det finns flera alternativ som du kan använda för att begränsa de objekt som visas i dina rekommendationer. Du kan använda inkluderingsregler när du skapar villkor eller kampanjer.
-
-![Inkluderingsregler](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
-
-Inkluderingsregler är frivilliga. Men om du ställer in dessa uppgifter får du bättre kontroll över vilka objekt som visas i dina rekommendationer. Varje detalj som du konfigurerar förminskar visningsvillkoren ytterligare.
-
-Du kan t.ex. välja att bara visa damskor som har en inventering på mer än 50 och ett pris mellan 25 och 45 dollar. Du kan också väga varje attribut så att de objekt som är viktigast för ditt företag visas med största sannolikhet.
-
-Som ett annat exempel kan du välja att visa nya jobb för besökare som besöker webbplatsen endast från vissa städer och som har rätt högskoleutbildning.
-
-Inkluderingsregelalternativen varierar beroende på bransch-vertikal. Som standard tillämpas inkluderingsregler på rekommendationer för säkerhetskopiering.
-
->[!IMPORTANT]
->
->Du bör använda inkluderingsregler med försiktighet. De är användbara om er organisation till exempel har regler som kräver att ett varumärke inte rekommenderas medan ett annat varumärke visas. Men den här funktionen kostar en möjlighet. Du kan förlora en procentandel av en ökning genom att begränsa vissa objekt från att inte visas när de normalt visas av aktivitetskriterierna.
-
-Inkluderingsreglerna kombineras med en AND. Alla regler måste uppfyllas för att ett objekt ska kunna inkluderas i en rekommendation.
-
-Så här skapar du en enkel inkluderingsregel, som tidigare nämnts, som endast visar damskor som har en inventering på mer än 50 och ett pris på mellan 25 och 45 dollar:
-
-1. Ange ett prisintervall för de produkter som du vill rekommendera.
-1. Ange det minsta lagerbeloppet för de produkter som du vill rekommendera.
-1. Konfigurera rekommendationen så att endast objekt visas när de uppfyller vissa villkor.
-
-   ![](assets/Recs_InclusionRules.png)
-
-   Du kan ange att objekt bara ska inkluderas när ett av attributen i listan uppfyller eller inte matchar ett eller flera angivna villkor.
-
-   Vilka utvärderare som är tillgängliga beror på vilket värde du väljer i den första listrutan. Du kan lista flera objekt. Dessa objekt utvärderas med OR.
-
-   Flera regler kombineras med en AND.
-
-   >[!NOTE]
-   >
-   >Det här alternativet begränsar de objekt som visas i rekommendationen. Det påverkar inte vilka sidor som rekommendationen visas på. Om du vill begränsa var rekommendationen visas markerar du sidorna i upplevelsedispositionen.
-
-Mer information finns i [Använda dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
-
-## Överför CSV
-
-1. Markera **[!UICONTROL Location]** innehållet i CSV-filen.
+1. I **[!UICONTROL Upload CSV]** avsnittet markerar du **[!UICONTROL Location]** innehållet i CSV-filen.
 
    ![Överför CSV-avsnitt](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
