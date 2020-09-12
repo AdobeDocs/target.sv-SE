@@ -1,13 +1,13 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
 description: Använd sekvenser med upp till fem kriterier för att få bättre kontroll över de objekt som visas i dina Adobe Target Recommendations-aktiviteter.
 title: Skapa villkorssekvenser
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ Dina villkorssekvenser kan variera i ordning beroende på sidtypen, vilket visas
 | Produktsida | <ol><li>Baserat på aktuellt objekt, från samma varumärke</li><li>Baserat på aktuellt objekt, från alla varumärken</li><li>Baserat på innehållets likhet</li><li>Baserat på de främsta säljarna</li><li>Baserat på de mest visade objekten på webbplatsen</li></ol> |
 | Startsida | <ol><li>Baserat på besökarens senaste köp </li><li>Baserat på besökarens favoritobjekt</li><li>Baserat på besökarens favoritkategori</li><li>Baserat på de främsta säljarna</li><li>Baserat på de mest visade sidorna på webbplatsen</li></ol> |
 
-## Öppna skärmen Skapa villkorssekvens
+## Skapa en villkorssekvens
+
+Du skapar villkorssekvenser från [!UICONTROL Create Criteria Sequence] skärmen.
 
 Det finns flera sätt att nå [!UICONTROL Create Criteria Sequence] skärmen. Vissa skärmalternativ varierar beroende på hur du kommer till skärmen.
 
@@ -48,55 +50,19 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create Criteria Seque
 
    ![](assets/CreateCriteriaSequence.png)
 
-## Fyll i informationsavsnittet
-
-1. Skriv ett **[!UICONTROL Name]** för sekvensen.
-
-   Det här är det&quot;interna&quot; namnet som används för att beskriva villkorssekvensen. Besökare på platsen kommer inte att se det här namnet.
-
-   ![Skapa villkorssekvensinformationsavsnitt](/help/c-recommendations/c-algorithms/assets/criteria-sequence-info.png)
-
-1. Skriv in en offentlig sida **[!UICONTROL Generic Display Title]** som ska visas på sidan om flera villkor i sekvensen används för att fylla i [!UICONTROL Recommendations] designen.
-
-   Du kanske vill ersätta&quot;Kunder som tittade på det här även visade..&quot;. med&quot;Recommended for You&quot; om designen kan innehålla objekt som baseras på mer än en [!UICONTROL Recommendations] nyckel.
-
-1. Ange en kort **[!UICONTROL Description]** av villkorssekvensen.
-
-   Beskrivningen bör hjälpa dig att identifiera villkorssekvensen och kan innehålla information om dess syfte.
-
-1. Välj en vertikal bransch baserat på målen för dina rekommendationer.
-
-   | Branschvertikal | Mål |
-   |--- |--- |
-   | Detaljhandel/e-handel | Konvertering som resulterar i inköp |
-   | Leadgenerering/B2B/Finansiella tjänster | Konvertering utan köp |
-   | Media/publicering | Engagemang |
-
-   Standardbranschens lodräta stil visas automatiskt.
-
-   Andra kriteriealternativ ändras beroende på vilken vertikal du väljer.
-
-1. Välj en **[!UICONTROL Page Type]**.
-
-   Du kan välja flera sidtyper.
-
-   Tillsammans används de vertikala metoderna och sidtyperna i branschen för att kategorisera de sparade villkorssekvenserna, vilket gör det enklare att återanvända sekvenser för andra [!UICONTROL Recommendations] aktiviteter.
-
-## Skapa sekvens {#sequence}
-
-Sekvensordningen definierar i vilken ordning en design fylls. Om Villkor 1 inte har tillräckligt många rekommendationer för att fylla din design fylls de återstående platserna med villkor 2 och så vidare.
+1. Fyll i informationen under [Grundläggande information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) .
 
 1. Klicka i **[!UICONTROL Criteria Sequence]** avsnittet **[!UICONTROL Add Criteria]**.
 
+   Sekvensordningen definierar i vilken ordning en design fylls. Om Villkor 1 inte har tillräckligt många rekommendationer för att fylla din design fylls de återstående platserna med villkor 2 och så vidare.
+
    ![Lägg till villkor](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. Välj ett villkor på [!UICONTROL Select Criteria] skärmen.
+1. Markera ett villkor på [!UICONTROL Select Criteria] skärmen och klicka sedan på **[!UICONTROL Add]**.
 
    Du kan använda sökrutan och listrutorna för filter för att hitta önskat villkor.
 
    ![Välj villkor](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
-
-1. Klicka på **[!UICONTROL Add]**.
 
 1. (Valfritt) Skjut **[!UICONTROL Limit the number of items returned]** växlingsknappen till&quot;på&quot;-positionen och ange sedan antalet objekt (mellan 1 och 50).
 
@@ -114,27 +80,7 @@ Sekvensordningen definierar i vilken ordning en design fylls. Om Villkor 1 inte 
 
 1. Fortsätt lägga till ytterligare villkor i sekvensen. Du kan lägga till upp till fem villkor i en sekvens.
 
-## Ange innehåll för säkerhetskopiering
-
-Välj vilket innehåll som returneras när det inte finns tillräckligt med rekommendationer för att fylla designmallen.
-
-När du skapar en villkorssekvens ignoreras rekommendationer för säkerhetskopiering och partiella designåtergivningsinställningar för de enskilda villkoren som utgör sekvensen. Om du vill använda rekommendationer för säkerhetskopiering och partiell designåtergivning måste du aktivera dem för sekvensen. Välj lämpliga reglage. Om du väljer att tillåta rekommendationer för säkerhetskopiering kan du också välja om inkluderingsregler ska tillämpas på säkerhetskopiorna.
-
-![Säkerhetskopiera innehållsinställningar](/help/c-recommendations/c-algorithms/assets/backup-content-settings.png)
-
-1. (Valfritt) Skjut **[!UICONTROL Partial Design Rendering]** växlingsknappen till&quot;på&quot;-positionen.
-
-   Så många kortplatser som möjligt kommer att fyllas, men designmallen kan innehålla tomt utrymme för återstående kortplatser.
-
-1. (Valfritt) Skjut **[!UICONTROL Backup Recommendations]** växlingsknappen till&quot;på&quot;-positionen.
-
-   Fyll eventuella återstående tomma platser i designen med ett slumpmässigt urval av de mest visade produkterna från hela webbplatsen.
-
-   Mer information finns i [Använda en rekommendation](/help/c-recommendations/c-algorithms/backup-recs.md)för säkerhetskopiering.
-
-1. (Villkorligt) Om du valde **[!UICONTROL Backup Recommendations]** i föregående steg kan du markera **[!UICONTROL Apply inclusion rules to backup recommendations]**.
-
-   Mer information finns i [Använda dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+1. Aktivera alternativ för [innehåll](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)för säkerhetskopiering.
 
 1. Klicka på **[!UICONTROL Save]**.
 
