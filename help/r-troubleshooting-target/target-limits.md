@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,9 @@ Det högsta antalet enheter som kan refereras i en design, antingen hårdkodade 
 
 ## Anpassade attribut för entitet
 
-**Gräns**: Den maximala längden beror på språket.
+Du kan inkludera upp till 100 anpassade entitetsattribut
+
+**Gräns**: Den maximala teckenlängden beror på språket.
 
 * 15 000 tecken (språk med ett värde, en och två byte)
 * 500 värden, 100 tecken per värde (flervärde)
