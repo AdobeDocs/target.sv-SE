@@ -1,13 +1,14 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Använd anpassade entitetsattribut med ett eller flera värden för att definiera ytterligare information om objekt i din katalog.
-title: Anpassade entitetsattribut
+title: Anpassade entitetsattribut i Adobe Target
 feature: entities
+mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) -attribut för anpassad entitet{#custom-entity-attributes}
 
-Använd anpassade entitetsattribut med ett eller flera värden för att definiera ytterligare information om objekt i din katalog.
+Använd anpassade entitetsattribut för ett och flera värden i [!DNL Adobe Target Recommendations] för att definiera ytterligare information om objekt i din katalog.
 
 ## Gränser {#limits}
 
@@ -33,15 +34,11 @@ Anpassade entitetsattribut kan innehålla ett eller flera värden. Entitetsattri
 
 Ett anpassat entitetsattribut med ett enda värde formateras på samma sätt som ett fördefinierat entitetsattribut med ett enda värde:
 
-```
-entity.genre=genre1
-```
+`entity.genre=genre1`
 
 Ett anpassat entitetsattribut med flera värden måste skickas som en giltig JSON-matris:
 
-```
-entity.genre=[“genre1”, “genre2”]
-```
+`entity.genre=[“genre1”, “genre2”]`
 
 Exempel på giltiga JSON-arrayer som stöds av [!DNL Recommendations]:
 
@@ -104,7 +101,7 @@ Samma katalog kommer att se ut så här i ett kalkylblad:
 
 ![](assets/multi-value_example_excel.png)
 
-När du konverterar till [!DNL .csv] format lägger kalkylbladsprogrammet till dubbla citattecken runt cellinnehållet för att förhindra att kommatecken i cellen fungerar som kolumnavgränsare. Det lägger också till citattecken runt JSON-strängvärden som du inkluderar i anpassade attribut med flera värden. Det kan göra det okomplicerat att arbeta direkt med råfilen. Exempel:
+När du konverterar till CSV-format lägger kalkylbladsprogrammet till citattecken runt cellinnehållet för att förhindra att kommatecken i cellen fungerar som kolumnavgränsare. Det lägger också till citattecken runt JSON-strängvärden som du inkluderar i anpassade attribut med flera värden. Det kan göra det okomplicerat att arbeta direkt med råfilen. Exempel:
 
 * Kalkylblad: `["1","2","3"]`
 * Råformat: `"[""1"",""2"",""3""]"`
@@ -139,27 +136,118 @@ När du använder operatorer för anpassade attribut med flera värden i inklude
 
 I följande exempel är regeln `message contains abc`.
 
-Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde innehåller `abc`.
-
-Fall 2: `entity.genre = ["abcde","de","ef"]`. Resultatet är sant eftersom ett värde innehåller `abc`.
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde innehåller `abc`.
+* Fall 2: `entity.genre = ["abcde","de","ef"]`. Resultatet är sant eftersom ett värde innehåller `abc`.
 
 För negativa operatorer måste alla attributvärden skickas (booleskt *och*). Om operatorn till exempel är `notEquals`, blir resultatet *false* om något värde matchar.
 
-I tabellen nedan finns information om operatorbeteende i inkluderingsregler för algoritmer, katalogregler och exkluderingsregler.
+I följande avsnitt finns information om operatorbeteende i algoritminkluderingsregler, katalogregler och exkluderingsregler.
 
-| Operator | Beteende | Exempel |
-|--- |--- |--- |
-| Lika med | Om något attributvärde är lika med indatavärdet, blir resultatet true. | `genre equals abc`<br>Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde är lika med `abc`.<br>Fall 2: `entity.genre = ["abc", "de", "ef"]`. Resultatet är sant eftersom ett värde är lika med `abc`.<br>Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är false eftersom `abc` det inte är lika med något element i listan. |
-| Är inte lika med | Om inget attributvärde är lika med indatavärdet blir resultatet true. | `genre not equals abc`<br>Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde är lika med `abc`.<br>Fall 2: `entity.genre = ["abc", "de", "ef"]`. Resultatet är false eftersom ett värde är lika med `abc`.<br>Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är sant eftersom det inte `abc`är lika med något element i listan. |
-| Innehåller | Om något värde för attributet innehåller indatavärdet, blir resultatet true. | `genre contains abc`<br>Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde innehåller `abc`.<br>Fall 2: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är sant eftersom ett värde innehåller `abc`. |
-| Innehåller inte | Om inget värde för attributet innehåller indatavärdet blir true. | `genre does not contain abc`<br>Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde innehåller `abc`.<br>Fall 2: `entity.genre = ["abcde", "de", "ef"]`. Regeln resulterar i false eftersom ett värde innehåller`abc`. |
-| Börjar med | Om ett värde för ett attribut börjar med indatavärdet blir true. | `genre starts with abc`<br>Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde börjar med `abc`.<br>Fall 2: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är sant eftersom ett värde börjar med `abc`.<br>Fall 3: `entity.genre = ["ab", "de", "abc"]`. Resultatet är sant eftersom ett värde börjar med `abc` (inte nödvändigtvis det första elementet i listan). |
-| Slutar med | Om ett värde för ett attribut slutar med indatavärdet blir true. | `genre ends with abc`<br>Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde slutar med `abc`.<br>Fall 2: `entity.genre = ["deabc", "de", "ef"]`. Resultatet är sant eftersom ett värde slutar med `abc`. |
-| Större än eller lika med (endast numeriska värden) | Attributvärdet konverteras till det dubbla. Attribut som inte kan konverteras hoppas över när regeln körs.<br>Efter bearbetning blir alla attributvärden som är större än eller lika med indatavärdet true. | `price greater than or equal to 100`<br>Fall 1: `entity.price = ["10", "20", "45"]`. Resultatet är false eftersom inget värde är större än eller lika med 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.<br>Fall 2: `entity.price = ["100", "101", "90", "80"]`. Resultatet är sant eftersom två värden är större än eller lika med 100. |
-| Mindre än eller lika med (endast numeriska värden) | Attributvärdet konverteras till det dubbla. Attribut som inte kan konverteras hoppas över när regeln körs.<br>Efter bearbetning blir alla attributvärden som är mindre än eller lika med indatavärdet true. | `price less than or equal to 100`<br>Fall 1: `entity.price = ["101", "200", "141"]`. Resultatet är false eftersom inget värde är mindre än eller lika med 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.<br>Fall 2: `entity.price = ["100", "101", "90", "80"]`. Resultatet är sant eftersom två värden är mindre än eller lika med 100. |
-| Matchar dynamiskt (endast tillgängligt i objektbaserade algoritmer) | Om något attributvärde matchar indatavärdet blir true. | `genre matches abc`<br> Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde matchar `abc`.<br>Fall 2: `entity.genre = ["abc", "de", "ef"]`. Resultatet är sant eftersom ett värde matchar `abc`. |
-| Matchar inte dynamiskt (endast tillgängligt i objektbaserade algoritmer) | Om något attributvärde matchar indatavärdet blir resultatet false. | `genre does not match abc`<br>Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde matchar `abc`.<br>Fall 2: `entity.genre = ["abc", "de", "ef"]`. Regeln resulterar i false eftersom ett värde matchar `abc`. |
-| Dynamiskt omfång (endast tillgängligt i objektbaserade algoritmer, endast numeriska värden) | Om ett numeriskt attributvärde ligger inom det angivna intervallet blir värdet true. | `price dynamically ranges in 80% to 120% of 100`<br>Fall 1: `entity.price = ["101", "200", "125"]`. Resultatet är sant eftersom `101` det ligger mellan 80 % och 120 % av 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.<br>Fall 2: `entity.price = ["130", "191", "60", "75"]`. Resultatet är false eftersom inget värde ligger i intervallet 80 % till 120 % av 100. |
+### Lika med
+
+Om något attributvärde är lika med indatavärdet, blir resultatet true.
+
+Exempel: `genre equals abc`
+
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde är lika med `abc`.
+* Fall 2: `entity.genre = ["abc", "de", "ef"]`. Resultatet är sant eftersom ett värde är lika med `abc`.
+* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är false eftersom `abc` det inte är lika med något element i listan.
+
+### Är inte lika med
+
+Om inget attributvärde är lika med indatavärdet blir resultatet true.
+
+Exempel: `genre not equals abc`
+
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde är lika med `abc`.
+* Fall 2: `entity.genre = ["abc", "de", "ef"]`. Resultatet är false eftersom ett värde är lika med `abc`.
+* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är sant eftersom det inte `abc`är lika med något element i listan.
+
+### Innehåller
+
+Om något värde för attributet innehåller indatavärdet, blir resultatet true.
+
+Exempel: `genre contains abc`
+
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde innehåller `abc`.
+* Fall 2: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är sant eftersom ett värde innehåller `abc`.
+
+### Innehåller inte
+
+Om inget värde för attributet innehåller indatavärdet blir true.
+
+Exempel: `genre does not contain abc`
+
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde innehåller `abc`.
+* Fall 2: `entity.genre = ["abcde", "de", "ef"]`. Regeln resulterar i false eftersom ett värde innehåller`abc`.
+
+### Börjar med
+
+Om ett värde för ett attribut börjar med indatavärdet blir true.
+
+Exempel: `genre starts with abc`
+
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde börjar med `abc`.
+* Fall 2: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är sant eftersom ett värde börjar med `abc`.
+* Fall 3: `entity.genre = ["ab", "de", "abc"]`. Resultatet är sant eftersom ett värde börjar med `abc` (inte nödvändigtvis det första elementet i listan).
+
+### Slutar med
+
+Om ett värde för ett attribut slutar med indatavärdet blir true.
+
+Exempel: `genre ends with abc`
+
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde slutar med `abc`.
+* Fall 2: `entity.genre = ["deabc", "de", "ef"]`. Resultatet är sant eftersom ett värde slutar med `abc`.
+
+### Större än eller lika med (endast numeriska värden)
+
+Attributvärdet konverteras till det dubbla. Attribut som inte kan konverteras hoppas över när regeln körs.
+
+Efter bearbetning blir alla attributvärden som är större än eller lika med indatavärdet true.
+
+Exempel: `price greater than or equal to 100`
+
+* Fall 1: `entity.price = ["10", "20", "45"]`. Resultatet är false eftersom inget värde är större än eller lika med 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.
+* Fall 2: `entity.price = ["100", "101", "90", "80"]`. Resultatet är sant eftersom två värden är större än eller lika med 100.
+
+### Mindre än eller lika med (endast numeriska värden)
+
+Attributvärdet konverteras till det dubbla. Attribut som inte kan konverteras hoppas över när regeln körs.
+
+Efter bearbetning blir alla attributvärden som är mindre än eller lika med indatavärdet true.
+
+Exempel: `price less than or equal to 100`
+
+* Fall 1: `entity.price = ["101", "200", "141"]`. Resultatet är false eftersom inget värde är mindre än eller lika med 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.
+* Fall 2: `entity.price = ["100", "101", "90", "80"]`. Resultatet är sant eftersom två värden är mindre än eller lika med 100.
+
+### Matchar dynamiskt (endast tillgängligt i objektbaserade algoritmer)
+
+Om något attributvärde matchar indatavärdet blir true.
+
+Exempel: `genre matches abc`
+
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde matchar `abc`.
+* Fall 2: `entity.genre = ["abc", "de", "ef"]`. Resultatet är sant eftersom ett värde matchar `abc`.
+
+### Matchar inte dynamiskt (endast tillgängligt i objektbaserade algoritmer)
+
+Om något attributvärde matchar indatavärdet blir resultatet false.
+
+Exempel: `genre does not match abc`
+
+* Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde matchar `abc`.
+* Fall 2: `entity.genre = ["abc", "de", "ef"]`. Regeln resulterar i false eftersom ett värde matchar `abc`.
+
+### Dynamiskt omfång (endast tillgängligt i objektbaserade algoritmer, endast numeriska värden)
+
+Om ett numeriskt attributvärde ligger inom det angivna intervallet blir resultatet sant.
+
+Exempel: `price dynamically ranges in 80% to 120% of 100`
+
+* Fall 1: `entity.price = ["101", "200", "125"]`. Resultatet är sant eftersom `101` det ligger mellan 80 % och 120 % av 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.
+* Fall 2: `entity.price = ["130", "191", "60", "75"]`. Resultatet är false eftersom inget värde ligger i intervallet 80 % till 120 % av 100.
 
 >[!NOTE]
 >
