@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,12 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 
 Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
+
+## Target Standard/Premium 20.8.3 (15 september 2020)
+
+| Funktion | Detaljer |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Analytics for Target-stöd (A4T) för Automatisk målaktivitet | [!UICONTROL Auto-Target] Nu har aktiviteter stöd för [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Tack vare den här integreringen kan ni använda algoritmen för [!UICONTROL Auto-Target] maskininlärning för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och sammanhang.<br>Om du redan har [implementerat A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) för användning med A/B Test- och Experience Targeting-aktiviteter är allt klart!<br>Mer information finns i [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation*. |
 
 ## Target Standard/Premium 20.8.2 (10 september 2020)
 
