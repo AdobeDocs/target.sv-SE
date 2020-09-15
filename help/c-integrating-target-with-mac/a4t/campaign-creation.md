@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -76,10 +76,10 @@ Vi har uppgraderat integreringen mellan Adobe Target och Adobe Analytics, så ka
 
 Med den här integreringen kan du:
 
-* Använd [Automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)av multiväpnade bandit-funktioner för att driva trafik till vinnande upplevelser.
-* Använd [Auto-Target](/help/c-activities/auto-target-to-optimize.md):s unika maskininlärningsalgoritm för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och sammanhang.
+* Använd [Automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)av multiväpnade bandit-funktioner för att driva trafik till vinnande upplevelser
+* Använd [Auto-Target](/help/c-activities/auto-target-to-optimize.md):s unika maskininlärningsalgoritm för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och sammanhang
 
-Samtidigt som ni använder ett [!DNL Adobe Analytics] målmätvärde och [!DNL Adobe Analytics]de omfattande rapporterings- och analysfunktionerna.
+och samtidigt använda ett [!DNL Adobe Analytics] målmätvärde och [!DNL Adobe Analytics]de omfattande rapporterings- och analysfunktionerna.
 
 Om du redan har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)behövs ingen ytterligare konfiguration!
 
@@ -95,11 +95,13 @@ Så här kommer du igång:
 1. Välj ett primärt målmått.
 
    * Välj **[!UICONTROL Conversion]** att använda [!DNL Adobe Target] för att ange optimeringsmålet.
-   * Välj **[!UICONTROL Use an Analytics metric]** och välj sedan ett mätvärde [!DNL Analytics] som ska användas som optimeringsmål. Du kan använda ett användbart [!DNL Analytics] konverteringsmått eller en [!DNL Analytics] anpassad händelse.
+   * Välj **[!UICONTROL Use an Analytics metric]** och välj sedan ett mätvärde [!DNL Analytics] som ska användas som optimeringsmål. Du kan använda ett värde för out-of-box- [!DNL Analytics] konvertering eller en [!DNL Analytics] anpassad händelse.
 
 1. Spara och aktivera aktiviteten.
 
    [!UICONTROL Auto-Allocate] kommer att använda de valda mätvärdena för att optimera aktiviteten och locka besökarna till upplevelsen som maximerar målmätningen.
+
+   eller
 
    [!UICONTROL Auto-Target] kommer att använda de valda mätvärdena för att optimera aktiviteten och leda besökarna till en personaliserad, bästa upplevelse.
 
@@ -128,11 +130,11 @@ Följande måtttyper stöds inte som primära målmått:
 
 ### Begränsningar och anteckningar
 
-* Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller vice versa när en aktivitet har aktiverats.
+* Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller vice versa efter att en aktivitet har aktiverats.
 * Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. [!DNL Target] normaliserar automatiskt konverteringsmåtten per besök för att ta hänsyn till ojämn trafikfördelning, så det är inte nödvändigt att använda ett beräknat mätvärde för att utföra normaliseringen.
 * [!DNL Target] använder attribueringsmodellen&quot;Same Touch&quot; i A4T-implementeringen [!UICONTROL Auto-Allocate] .
 * [!UICONTROL Auto-Allocate] modellerna fortsätter att träna varannan timme som vanligt.
-* [!UICONTROL Auto-Target] modellerna fortsätter att träna var 24:e timme som vanligt. Konverteringshändelsedata som kommer från [!DNL Analytics] fördröjs dock med ytterligare 6 till 24 timmar. Detta innebär att trafikfördelningen sker genom [!DNL Target] att de senaste händelser som registrerats i [!DNL Adobe Analytics]. Detta kommer att få störst effekt inom de första 48 timmarna efter det att en aktivitet först har aktiverats. Aktivitetens prestanda kommer att mer noggrant spegla [!DNL Adobe Analytics] konverteringsbeteendet efter fem dagar. Du bör överväga att använda [!UICONTROL Auto-Allocate] istället [!UICONTROL Auto-Target] för korttidsaktiviteter där den största trafiken sker inom de första fem dagarna av aktivitetens livstid.
+* [!UICONTROL Auto-Target] modellerna fortsätter att träna var 24:e timme som vanligt. Konverteringshändelsedata som kommer från [!DNL Analytics] fördröjs dock med ytterligare 6 till 24 timmar. Förseningen innebär att trafiken distribueras genom [!DNL Target] att de senaste händelser som registreras i [!DNL Analytics]spåras. Detta kommer att få störst effekt inom de första 48 timmarna efter det att en aktivitet först har aktiverats. Aktivitetens prestanda kommer att mer noggrant spegla [!DNL Analytics] konverteringsbeteendet efter fem dagar. Du bör överväga att använda [!UICONTROL Auto-Allocate] istället [!UICONTROL Auto-Target] för korttidsaktiviteter där den största trafiken sker inom de första fem dagarna av aktivitetens livstid.
 * När du använder [!DNL Analytics] som datakälla för en [!UICONTROL Auto-Target] aktivitet anses sessionerna vara avslutade efter sex timmar. Konverteringar som inträffar efter sex timmar räknas inte.
 
 Mer information finns i [Attribution models and lookback windows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) i *Analytics Tools Guide*.
