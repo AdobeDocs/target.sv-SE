@@ -5,9 +5,9 @@ title: Katalogsökning i Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Du kan söka efter objekt i katalogen med hjälp av en enkel sökning eller en a
 
 Du kan använda [!UICONTROL Advanced Search] för att förfina sökresultaten ytterligare eller för att spara sökresultaten som en [samling](/help/c-recommendations/c-products/collections.md) eller [exkludering](/help/c-recommendations/c-products/exclusions.md).
 
-1. Klicka på **[!UICONTROL Advanced Search]**.
+1. Klicka på **[!UICONTROL Advanced Search]** länken.
 
    ![Sidan Avancerad sökning](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ All information om det objektet tas bort från katalogindexet. Objektet tas enda
 
 ## Uppdatera katalogen
 
-Katalogens index skapas automatiskt när du överför din första feed och uppdateras enligt det angivna schemat.
+Katalogens index skapas automatiskt när du överför din första feed och uppdateras enligt det [angivna schemat](/help/c-recommendations/c-products/feeds.md#steps).
 
 Katalogen uppdateras automatiskt när uppdateringar tas emot via feedsfiler, API eller mbox-uppdateringar. Uppdateringarna slutförs normalt på en timme. Om uppdateringar pågår visas den tid då den senaste uppdateringen startades. Om inga uppdateringar pågår visas den tid då den senaste uppdateringen startades och avslutades.
 
@@ -118,7 +118,7 @@ Du kan skapa [samlingar](/help/c-recommendations/c-products/collections.md) elle
 
 1. Utför en [avancerad sökning](#advanced-search).
 
-1. (Valfritt) Klicka **[!UICONTROL Save As]** och sedan på **[!UICONTROL Collection]** eller **[!UICONTROL Exclusion]**.
+1. Klicka **[!UICONTROL Save As]** och sedan på **[!UICONTROL Collection]** eller **[!UICONTROL Exclusion]**.
 
    ![Alternativ för Spara som](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -150,6 +150,8 @@ Du kan lägga till fler filteransikten på [!UICONTROL Catalog Search] sidan.
 
 1. Markera önskade sökfaktorer (ID, namn, meddelande, osv.).
 
+   ![Lägg till filter](/help/c-recommendations/c-products/assets/add-filters.png)
+
 Tänk på att de ytterligare filteransiktena endast är tillgängliga i den aktuella sessionen.
 
 ### Ändra kolumner
@@ -166,4 +168,4 @@ Du kan tillfälligt ändra de aktiva kolumnerna på [!UICONTROL Catalog Search] 
 
    Du kan också klicka på borttagningsikonen ( x ) bredvid den kolumn som du vill flytta från det aktiva till det inaktiva avsnittet.
 
-Tänk på att de ändringar du gör endast gäller den aktuella sessionen.
+Kom ihåg att alla ändringar du gör endast gäller den aktuella sessionen.
