@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 15 september | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om Target Standard/Premium 20.8.3, som innehåller stöd för Analytics for Target (A4T) för Automatiskt mål-aktiviteter. Stöd för Automatisk allokering har lagts till i en tidigare version. |
+|  | [Analyser för målaktiviteter (A4T) har stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). | Lagt till information om A4T-stöd i Automatiskt mål-aktiviteter. |
+|  | [Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Uppdaterad text som indikerar att metoden att manuellt tvinga dig ut ur QA-läget genom att läsa in en sida på webbplatsen med parametern `at_preview_token` och ett tomt värde gäller för at.js 1.*Endast x* . |
+|  | [Katalogsökning](/help/c-recommendations/c-products/catalog-search.md) | Hela ämnet har uppdaterats. |
 | 10 september | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om Target Standard/Premium 20.9.2 som innehåller följande nya funktion: Kontrollera rekommendationsplatserna i villkorssekvenser. |
 |  | [Skapa villkorssekvenser](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Lagt till information om funktionen &quot;Begränsa antalet returnerade objekt&quot;. |
 | 9 september | [Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Lagt till JavaScript-kod för användning med at.js 2.*x*. |
