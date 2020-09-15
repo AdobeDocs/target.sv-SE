@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -63,8 +63,8 @@ I följande tabell visas vilka aktivitetstyper som stöds [!DNL Analytics] som r
 | Typ av aktivitet | A4T-kompatibel? | Anteckningar, om tillämpligt |
 |--- |--- |--- |
 | A/B-aktivitet med manuell trafikdelning | Ja |  |
-| A/B-aktivitet med automatisk fördelning | Ja | Se [Analytics for Target-stöd (A4T) för Automatisk allokering av aktiviteter](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
-| A/B-aktivitet med automål | Nej |  |
+| A/B-aktivitet med automatisk fördelning | Ja | Se [Analytics for Target-stöd (A4T) för aktiviteterna](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)Automatisk allokering och Automatisk målgruppsanpassning. |
+| A/B-aktivitet med automål | Ja | Se [Analytics for Target-stöd (A4T) för aktiviteterna](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)Automatisk allokering och Automatisk målgruppsanpassning. |
 | Experience Targeting (XT) | Ja |  |
 | Multivariata tester (MVT) | Ja | Kräver mbox-baserat målmätningsmål för att få fram [!UICONTROL Element Contribution] rapporten.  Rapporten [!UICONTROL Element Contribution] stöder för närvarande inte [!DNL Analytics] mått. |
 | Automated Personalization-aktivitet (AP) | Nej |  |
@@ -104,7 +104,7 @@ Följande bild visar hur en A4T- [!UICONTROL Table View] rapport ser ut:
 
 Om du vill visa rapporten i [!DNL Analytics] stället för i [!DNL Target]klickar du **[!UICONTROL View in Analytics]** längst upp i rapporten.
 
-## Analys och mål: Självstudiekurs om metodtips för analys {#section_3438E6E77A464424B717A4FD333B84B2}
+## Analytics &amp; Target: Självstudiekurs om metodtips för analys {#section_3438E6E77A464424B717A4FD333B84B2}
 
 Öppna [Analytics &amp; Target: Självstudiekursen Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) , från [!DNL Adobe Experience League].
 
