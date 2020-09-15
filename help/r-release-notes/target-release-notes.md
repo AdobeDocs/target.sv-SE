@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 9 september 2020**
+**Senast uppdaterad: 15 september 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -38,6 +38,12 @@ Information om den aktuella versionen finns i [Versionsinformation](release-note
    >
 * **Målmeddelanden**: På sidan med målmeddelanden hittar du information om kommande evenemang, bland annat om sessioner i Target SKill Builder, chats för utvecklare, webbinarier och sessioner med Target Coffee Break. Mer information finns i [Målmeddelanden](/help/r-release-notes/target-announcements.md).
 
+
+## Target Standard/Premium 20.8.3 (15 september 2020)
+
+| Funktion | Detaljer |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Analytics for Target-stöd (A4T) för Automatisk målaktivitet | [!UICONTROL Auto-Target] Nu har aktiviteter stöd för [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Tack vare den här integreringen kan ni använda algoritmen för [!UICONTROL Auto-Target] maskininlärning för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och sammanhang.<br>Om du redan har [implementerat A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) för användning med A/B Test- och Experience Targeting-aktiviteter är allt klart!<br>Mer information finns i [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation*. |
 
 ## Target Standard/Premium 20.8.2 (10 september 2020)
 
