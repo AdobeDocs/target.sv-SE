@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+Du kan också manuellt tvinga dig ut ur QA-läget genom att läsa in en sida på webbplatsen med parametern `at_preview_token` med ett tomt värde.
+
+Exempel:
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## Activity QA bookmarklet for at.js 2.*x*
 
 Till skillnad från at.js 1.*x*, at.js 2.*x* stöder inte cookies från tredje part, och QA-läget är bara klisterlöst för förstahandsdomänen (genom en cookie som har angetts av at.js). I at.js 2.*x*, session i QA-läge hanteras bara på klientsidan och inga QA-lägescookies skickas till Target.
@@ -70,8 +76,3 @@ javascript:(
 
 Klicka på bokmärket i webbläsarens verktygsfält.
 
-Du kan också manuellt tvinga dig ut ur QA-läget genom att läsa in en sida på webbplatsen med parametern `at_preview_token` med ett tomt värde.
-
-Exempel:
-
-`https://www.mysite.com/?at_preview_token=`
