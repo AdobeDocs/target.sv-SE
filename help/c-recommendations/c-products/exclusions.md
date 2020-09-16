@@ -5,9 +5,9 @@ title: Undantag i Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 # Undantag{#exclusions}
 
-Skapa en exkluderingslista för att förhindra att objekt rekommenderas.
+Skapa ett undantag i [!DNL Adobe Target Recommendations] för att förhindra att produkter eller innehåll rekommenderas för besökare.
+
+Ett undantag är en delmängd av produkter eller innehåll som inte bör rekommenderas för besökarna. Du kan t.ex. använda undantag för att förhindra att produkter eller innehåll visas i rekommendationer som har upphört eller som är av känslig natur (t.ex. filmer med en gradering som inte passar alla åldrar).
 
 >[!IMPORTANT]
 >
 >Statiska och dynamiska exkluderingsregler är kraftfulla funktioner som kan hjälpa er med marknadsföringen. Detaljerad information, exempel och användningsscenarier finns i [Använd regler](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)för dynamisk och statisk infogning.
 
-**Så här skapar du ett undantag:**
+## Skapa ett undantag
 
 1. Klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** för att visa listan över befintliga undantag.
 
@@ -49,7 +51,7 @@ Du kan också skapa undantag med Avancerad sökning på katalogsökningssidan ( 
 
 ![Spara som](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel klicka på [!UICONTROL Save As] > [!UICONTROL Exclusion]. Mer information finns i [Katalogsökning](/help/c-recommendations/c-products/catalog-search.md).
+När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel klicka på [!UICONTROL Save As] > [!UICONTROL Exclusion]. Mer information finns i [Katalogsökning](/help/c-recommendations/c-products/catalog-search.md#save-as).
 
 >[!IMPORTANT]
 >
