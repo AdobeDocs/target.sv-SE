@@ -5,9 +5,9 @@ title: Samlingar i Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,29 @@ När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel 
 >
 >Funktionen för avancerad sökning är inte skiftlägeskänslig; men de produkter som returneras vid leveranstillfället bygger på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte.
 
+## Redigera, kopiera eller ta bort en samling
+
+Håll muspekaren över önskad samling i listan och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
+
+![Hovringsikoner för en samling](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+Du kan kopiera en befintlig samling för att skapa en dubblettsamling som du sedan kan ändra. På så sätt kan du skapa ett liknande undantag utan ansträngning.
+
+Observera att samlingar är tillgängliga för hela kontot. Tänk på detta innan du tar bort en samling. Borttagna samlingar kan inte återställas.
+
 ## Använda en samling i en Recommendations-aktivitet
 
 1. Skapa en samling med någon av metoderna ovan.
 
 1. Klicka **[!UICONTROL Activities]** och [skapa en ny Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) -aktivitet eller redigera en befintlig aktivitet.
 
-1. På **[!UICONTROL Experiences]** sidan (steg 2 i det guidade arbetsflödet i tre delar) klickar du på den plats där du placerade ut rekommendationerna och klickar sedan på **[!UICONTROL Change Collection]**.
+1. När du har valt ett villkor och en design visas sidan där [!UICONTROL Options] du har valt önskad samling.
+
+   ![Välj samlingsalternativ](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. (Villkorligt) Om du vill ändra en befintlig samlingsinställning klickar du på en plats där du har placerat rekommendationer på sidan (steg 2 i det guidade arbetsflödet med tre delar), **[!UICONTROL Experiences]** **[!UICONTROL Change Collection]** och väljer sedan önskad samling.
 
    ![Ändra samlingsalternativ](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. Markera sedan önskad samling på **[!UICONTROL Add Collection]** sidan.
 
 ## Utbildningsvideo: Skapa samlingar och undantag i Recommendations (7:05) ![självstudiemärke](/help/assets/tutorial.png)
 
