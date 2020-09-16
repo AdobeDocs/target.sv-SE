@@ -5,9 +5,9 @@ title: Undantag i Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,17 @@ ht-degree: 0%
 
 # Undantag{#exclusions}
 
-Skapa ett undantag i [!DNL Adobe Target Recommendations] för att förhindra att produkter eller innehåll rekommenderas för besökare.
+Skapa ett undantag i [!DNL Adobe Target Recommendations] för att förhindra att produkter eller innehåll rekommenderas för besökare. Ett undantag är en delmängd av produkter eller innehåll som inte bör rekommenderas för besökare.
 
-Ett undantag är en delmängd av produkter eller innehåll som inte bör rekommenderas för besökare. Du kan t.ex. använda undantag för att förhindra att produkter eller innehåll visas i rekommendationer som har upphört eller som är av känslig natur (t.ex. filmer med en gradering som inte passar för alla baserat på innehållsklassificeringar).
+Undantag är tillgängliga för hela kontot. Till skillnad från samlingar, där du anger en specifik samling för varje upplevelse när du skapar en [!UICONTROL Recommendations] aktivitet, gäller undantag för alla aktiviteter på kontot. Det finns inget alternativ för att tilldela en exkluderingsgrupp när en aktivitet skapas.
 
-Undantag är tillgängliga för hela kontot.
+Några exempel på hur du skulle kunna använda undantag är:
+
+* Produkter som har upphört
+* Fall-/vinterkatalog är nu den enda katalogen som ska finnas online. Objekt från sommarkatalogen går inte längre att köpa.
+* Objekt som kan vara olämpliga att rekommendera på de flesta sidor/skärmar (vuxna produkter, NC-17-filmer osv.)
+* Produkter med ofullständiga metadatafält (miniatyrbild, pris eller andra viktiga metadata saknas)
+* Produkter som aldrig bör rekommenderas (det kanske finns en SKU i systemet för något, men det är inte en köpbar artikel, eller kanske en falsk SKU för att QA-teamet ska simulera ett köp utan att faktiskt beställa något, osv.)
 
 >[!IMPORTANT]
 >
