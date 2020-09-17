@@ -5,9 +5,9 @@ title: Skapa en design
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ Den här bilden visar en egen design:
 
 Du kan skapa en design under aktivitetsskapandet i Visual Experience Composer (VEC) eller från designbiblioteket utanför aktivitetsskapandet. I följande avsnitt antas du skapa designer från biblioteket, men stegen är liknande.
 
-## Skapa en design baserad på en standarddesign
+## Skapa designer
+
+Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
+
+### Skapa en design baserad på en standarddesign
 
 1. Klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** för att visa [!UICONTROL Designs] biblioteket.
 
@@ -56,9 +60,9 @@ Du kan skapa en design under aktivitetsskapandet i Visual Experience Composer (V
 
 1. (Villkorligt) Redigera designen **[!UICONTROL Code]** efter behov.
 
-   I rekommendationsdesignen används designspråket Velocity med öppen källkod. Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org).
+   I rekommendationsdesignen används designspråket Velocity med öppen källkod. Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org) och i [Anpassa en design med Snabb](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   En design kan vara HTML eller icke-HTML. HTML-design kapslas som standard med en <div> -tagg för klickspårning i en webbmiljö. Icke-HTML-design är avsedd för icke-webbaserade miljöer där klickspårning inte är möjlig.
+   En design kan vara HTML eller icke-HTML. HTML-design kapslas som standard med en <div> -tagg för klickspårning i en webbmiljö. Icke-HTML-design är avsedd för icke-webbaserade miljöer där klickspårning inte är möjlig. Dra [!UICONTROL HTML Design] växlingsknappen till&quot;av&quot;-positionen för att använda annan kod än HTML.
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ Du kan skapa en design under aktivitetsskapandet i Visual Experience Composer (V
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Skapa en egen design
+### Skapa en egen design
 
 1. Klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** för att visa [!UICONTROL Designs] biblioteket.
 
@@ -81,6 +85,18 @@ Du kan skapa en design under aktivitetsskapandet i Visual Experience Composer (V
    Mer information finns i steg 4 ovan.
 
 1. Klicka på **[!UICONTROL Save]**.
+
+## Redigera, kopiera eller ta bort en design
+
+Kom ihåg att du inte kan redigera eller kopiera en standarddesign; du kan bara kopiera standarddesigner.
+
+Håll pekaren över önskad design i [!UICONTROL Design] biblioteket och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
+
+![Hovringsikoner för en design](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+Du kan kopiera en befintlig design och skapa en dubblettdesign som du sedan kan ändra. Det gör att du kan skapa en liknande design enklare.
+
+Observera att det finns design för hela kontot. Tänk på detta innan du tar bort en design. Borttagna designer kan inte återställas.
 
 ## JSON-exempel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
