@@ -5,10 +5,10 @@ title: Skapa en design
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 1%
 
 En design definierar hur rekommendationer visas på en sida.
 
-Du kan skapa en [!UICONTROL Recommendations] design med hjälp av en standarddesign eller genom att skapa en anpassad design. På **[!UICONTROL Recommendations > Designs]** skärmen visas både standarddesignkort och eventuella designer som du har skapat. Det går inte att redigera eller ta bort standarddesigner.
+Du kan skapa en [!UICONTROL Recommendations] design med hjälp av en standarddesign eller genom att skapa en anpassad design. På **[!UICONTROL Recommendations > Designs]** skärmen visas både standarddesignkort och alla designer som har skapats på ditt konto.
 
-1. På **[!UICONTROL Recommendations > Designs]** skärmen för du musen över kortet för den design du vill skapa.
+Tänk på följande när du arbetar med design:
+
+* Du kan skapa en rekommendationsdesign med hjälp av en standarddesign eller skapa en anpassad design.
+* Du kan inte redigera eller ta bort en standarddesign.
+* Du kan redigera, kopiera eller ta bort en anpassad design.
+* Om du vill skapa en design baserad på en standarddesign måste du först kopiera designen och sedan redigera kopian.
+
+Bilden visar standarddesignen 1 x 4:
+
+![1 x 4 standarddesign](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+Den här bilden visar en egen design:
+
+![Egen design](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+Du kan skapa en design under aktivitetsskapandet i Visual Experience Composer (VEC) eller från designbiblioteket utanför aktivitetsskapandet. I följande avsnitt antas du skapa designer från biblioteket, men stegen är liknande.
+
+## Skapa en design baserad på en standarddesign
+
+1. Klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** för att visa [!UICONTROL Designs] biblioteket.
+
+   ![Designbibliotek](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. För muspekaren över kortet för den design du vill skapa och klicka sedan på **[!UICONTROL Copy]** ikonen .
 
    ![](assets/Card_CopyDesign.png)
 
-1. Om du vill kopiera och redigera en befintlig symbol klickar du på **[!UICONTROL Copy]** -ikonen.
-
-   eller
-
-   Om du vill skapa en egen design klickar du **[!UICONTROL Create Design]** på **[!UICONTROL Recommendations > Designs]** skärmen.
+   Dialogrutan visas [!UICONTROL Create Design] .
 
    ![](assets/createDesign.png)
 
-1. Lägg till en **[!UICONTROL Content Name]**.
+1. På **[!UICONTROL Information]** panelen lägger du till en **[!UICONTROL Content Name]** och valfri förhandsvisningsbild som ska visas på designkortet.
 
-   När du använder en standarddesign visas designnamnet och &quot;Kopiera&quot; i **[!UICONTROL Content Name]** fältet. Du kan redigera namnet. 1. (Valfritt) Klicka för att välja en bild som ska visas på designkortet.
-1. Redigera designen **[!UICONTROL Code]**.
+   När du använder en standarddesign visas designnamnet och &quot;Kopiera&quot; i **[!UICONTROL Content Name]** fältet. Du kan redigera namnet. Du kan också välja en bild som ska visas på designkortet.
+
+1. (Villkorligt) Redigera designen **[!UICONTROL Code]** efter behov.
 
    I rekommendationsdesignen används designspråket Velocity med öppen källkod. Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org).
 
@@ -42,7 +62,23 @@ Du kan skapa en [!UICONTROL Recommendations] design med hjälp av en standarddes
 
    >[!NOTE]
    >
-   >Det högsta antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99.
+   >Det maximala antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99.
+
+1. Klicka på **[!UICONTROL Save]**.
+
+## Skapa en egen design
+
+1. Klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** för att visa [!UICONTROL Designs] biblioteket.
+
+1. Klicka på **[!UICONTROL Create Design]**.
+
+   Om du vill basera din nya anpassade design på en befintlig design håller du musen över den önskade designen och klickar sedan på [!UICONTROL Copy] -ikonen. Du kan sedan redigera kopian för att skapa en ny anpassad design.
+
+1. Lägg till en **[!UICONTROL Content Name]** och valfri förhandsvisningsbild.
+
+1. (Villkorligt) Redigera designen **[!UICONTROL Code]** efter behov.
+
+   Mer information finns i steg 4 ovan.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -51,11 +87,12 @@ Du kan skapa en [!UICONTROL Recommendations] design med hjälp av en standarddes
 I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigureras via den formulärbaserade redigeraren.
 
 1. Skapa en design i designbiblioteket eller i det formulärbaserade arbetsflödet. Om du försöker göra detta i Visual Experience Composer-arbetsflödet (VEC) kan du inte skapa något annat än en HTML-design, som är inkapslad i en `<div>` klickningsspårning.
+
 1. Kontrollera att alternativet &quot;HTML-design&quot; är inaktiverat:
 
    ![](assets/html_design_toggle.png)
 
-1. Följande kod är ett exempel nedan på vad du kan klistra in i din design:
+1. Följande kod är ett exempel på vad du kan klistra in i din design:
 
    ```
        #* 
@@ -84,24 +121,22 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
        }  
    ```
 
-1. Skapa en formulärbaserad Recommendations-aktivitet som använder den här designen.
+1. Skapa en formulärbaserad [!DNL Recommendations] aktivitet som använder den här designen.
 
-   1. Navigera till sidan Aktiviteter.
-   1. Klicka på **[!UICONTROL Create Activity]**.
-   1. Välj **[!UICONTROL Recommendations]**.
-   1. Under **[!UICONTROL Choose Experience Composer]** väljer du **[!UICONTROL Form]**.
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+   1. Under **[!UICONTROL Choose Experience Composer]** markerar du **[!UICONTROL Form]** och klickar sedan på **[!UICONTROL Next]**.
    1. Ange texten under platsen: &quot;Sample_Recs_response&quot;
    1. Under **[!UICONTROL Default Content]** klickar du på nedpilen och sedan på **[!UICONTROL Add Recommendation]**.
    1. Välj en sidtyp. Detta avgör den inledande filtreringen för nästa skärm.
    1. Välj ett villkorskort och klicka sedan på **[!UICONTROL Next]**.
-   1. Markera designen som du skapade i föregående steg och klicka sedan på **[!UICONTROL Save]**.
+   1. Markera designen som du skapade i föregående steg och klicka sedan på **[!UICONTROL Next]**.
    1. Slutför installationsprocessen.
    1. Klicka på högerpilen bredvid **[!UICONTROL Inactive]** och välj sedan **[!UICONTROL Activate]**.
 
 1. När din aktivitet har konfigurerats och aktiverats kan du ställa in en exempelbegäran för att få tillbaka det rena JSON-svaret.
 
-   Från den tidpunkt du sparar aktiviteten måste Target skapa en modell som stöder den valda villkorskonfigurationen. Beroende på ett antal faktorer kan detta ta en stund. Resultaten visas när modellen har byggts.
+   Från den tidpunkt du sparar aktiviteten [!DNL Target] måste du skapa en modell som stöder den valda villkorskonfigurationen. Beroende på ett antal faktorer kan detta ta en stund. Resultaten visas när modellen har byggts.
 
    Exempel:
 
@@ -111,12 +146,12 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 
    där
 
-| Parameter | Värde |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Målklientkod (finns på ../target/products.html#recsSettings > Recommendations API Token > Klientkod. |
-| `[YOUR_MBOX_NAME]` | Det namn du har valt i avsnittet &quot;locations&quot; i den formulärbaserade Recommendations, i det här fallet Sample_Recs_Response. |
-| `[ENTITY_ID` | Objektets namn `entity.id` i katalogen. |
-| `[AT_PROPERTY_TOKEN]` | (Valfritt) Lägg till om du har valt en egenskap (ingår i Enterprise Permissions) under aktivitetsinställningarna. |
+   | Parameter | Värde |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Målklientkod (finns på ../target/products.html#recsSettings > Recommendations API Token > Klientkod. |
+   | `[YOUR_MBOX_NAME]` | Det namn du har valt i avsnittet &quot;locations&quot; i den formulärbaserade Recommendations, i det här fallet Sample_Recs_Response. |
+   | `[ENTITY_ID` | Objektets namn `entity.id` i katalogen. |
+   | `[AT_PROPERTY_TOKEN]` | (Valfritt) Lägg till om du har valt en egenskap (ingår i Enterprise Permissions) under aktivitetsinställningarna. |
 
 När algoritmen har körts och du har fått resultat bör svaret se ut ungefär så här:
 
@@ -130,7 +165,7 @@ Du kan också skicka tillbaka en enkel kommaavgränsad lista med objekt genom at
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Du kan också skicka ytterligare information i svaret. Följande kodfil är ett mer komplext exempel som returnerar mycket mer än enhets-ID:n med associerade platser (ordning). Det här designexemplet returnerar även aktivitetsinformation, målprofilinformation (om det är tillämpligt) och andra `entity.attributes` associerade med de returnerade objekten.
+Du kan också skicka ytterligare information i svaret. Följande kodfil är ett mer komplext exempel som returnerar mycket mer än enhets-ID:n med associerade platser (ordning). I det här designexemplet returneras även aktivitetsinformation, målprofilinformation (om tillämpligt) och andra `entity.attributes` som är kopplade till de returnerade objekten.
 
 ```
     {   
