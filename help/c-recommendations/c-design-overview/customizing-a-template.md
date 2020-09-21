@@ -1,13 +1,13 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen.
+description: Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i Adobe Target Recommendations.
 title: Anpassa en design med Snabb
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Anpassa en design med Snabb{#customize-a-design-using-velocity}
 
-Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen.
+Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i [!DNL Adobe Target Recommendations].
 
 ## Översikt över hastighet {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -65,7 +65,7 @@ Om du använder ett profilskript i din design måste $ före skriptnamnet escape
 
 >[!NOTE]
 >
->Det högsta antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99. Mallskriptlängden kan innehålla upp till 65 000 tecken.
+>Det maximala antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99. Mallskriptlängden kan innehålla upp till 65 000 tecken.
 
 Om du till exempel vill ha en design som visar något liknande:
 
@@ -128,12 +128,12 @@ Du kan också använda `algorithm.name` och `algorithm.dayCount` som variabler i
 
 Som standard hanteras alla entitetsattribut som strängvärden i snabbmeddelandemallar. Du kanske vill behandla ett entitetsattribut som ett numeriskt värde för att utföra en matematisk åtgärd eller jämföra det med ett annat numeriskt värde. Så här behandlar du ett entitetsattribut som ett numeriskt värde:
 
-1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller ett dubbelvärde
-1. Kontrollera att det entitetsattribut du vill använda inte är tomt (krävs för att Recommendations malltolk ska kunna validera och spara mallen)
-1. Skicka entitetsattributet till `parseInt` - eller `parseDouble` -metoden för dummy-variabeln som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde
-1. Utför matematisk åtgärd eller jämförelse på det nya numeriska värdet
+1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller dubbelvärde.
+1. Kontrollera att det entitetsattribut du vill använda inte är tomt (krävs för att Recommendations mallparser för Target ska kunna validera och spara mallen).
+1. Skicka entitetsattributet till `parseInt` - eller `parseDouble` -metoden för dummy-variabeln som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde.
+1. Utför matematisk åtgärd eller jämförelse på det nya numeriska värdet.
 
-**Exempel: Beräkna ett rabattpris**
+### Exempel: Beräkna ett rabattpris
 
 Anta att du vill minska det visade priset för en artikel med $0,99 för att tillämpa en rabatt. Du kan använda följande metod för att uppnå detta resultat:
 
@@ -148,7 +148,7 @@ Anta att du vill minska det visade priset för en artikel med $0,99 för att til
 #end
 ```
 
-**Exempel: Välja hur många stjärnor som ska visas baserat på ett objekts klassificering**
+### Exempel: Välja hur många stjärnor som ska visas baserat på ett objekts klassificering
 
 Anta att du vill visa ett lämpligt antal stjärnor baserat på ett objekts numeriska genomsnittliga kundomdöme. Du kan använda följande metod för att uppnå detta resultat:
 
@@ -173,7 +173,7 @@ Anta att du vill visa ett lämpligt antal stjärnor baserat på ett objekts nume
 #end
 ```
 
-**Exempel: Beräkna tiden i timmar och minuter baserat på en artikels längd i minuter**
+### Exempel: Beräkna tiden i timmar och minuter baserat på en artikels längd i minuter
 
 Anta att du lagrar längden på en film i minuter, men vill visa längden i timmar och minuter. Du kan använda följande metod för att uppnå detta resultat:
 
