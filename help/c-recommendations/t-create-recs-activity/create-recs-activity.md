@@ -5,9 +5,9 @@ title: Skapa en Recommendations-aktivitet
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,15 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
 1. Klicka på ett element på sidan och om det finns rekommendationer för var elementet finns klickar du på **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** eller **[!UICONTROL Insert Recommendations After]**.
 
+   Besökare på webbplatsen kan bara se det rekommenderade innehållet om de är berättigade till rekommendationen. Besökare som inte är kvalificerade för rekommendationen kommer att se standardinnehållet.
+
    ![Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   Om du ersätter ett element med rekommendationer tas det aktuella innehållet bort och ersätts med dina rekommendationer.
+   * **[!UICONTROL Replace w/ Recommendations]**: Om du ersätter ett element med rekommendationer tas det aktuella innehållet bort och ersätts med dina rekommendationer. När besökare besöker din webbplats och är kvalificerade för rekommendationen, ser de rekommenderade objekten i det angivna området i stället för det befintliga innehållet.
+   * **[!UICONTROL Insert Recommendations Before]**: Om du infogar rekommendationer före det markerade elementet placeras det rekommenderade innehållet före det elementet. Beroende på hur sidan är uppbyggd visas rekommendationen ovanför eller till vänster om det markerade elementet.
+   * **[!UICONTROL Insert Recommendations After]**: Om du infogar rekommendationer efter det markerade elementet placeras det rekommenderade innehållet efter det elementet. Beroende på hur sidan är uppbyggd visas rekommendationen nedanför eller till höger om det markerade elementet.
+
+   Med det här **[!UICONTROL Expand Selection]** alternativet kan du expandera den valda platsen (överordnad behållare) så att du enklare kan identifiera och ta med de önskade sidelementen.
 
 1. Välj en sidtyp.
 
@@ -70,7 +76,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
 1. Markera ett eller flera [villkor](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Kriterierna visas som kort som visar information om varje villkor. Som standard visas villkor som är kompatibla med vertikalt i branschen och den sidtyp som du har valt på skärmen. [!UICONTROL Select Criteria] Du kan ändra de här alternativen om du vill visa andra villkor.
+   Kriterierna visas som kort som visar information om varje villkor. Som standard visas villkor som är kompatibla med vertikalt i branschen och den sidtyp som du valde i föregående steg på skärmen. [!UICONTROL Select Criteria] Du kan ändra de här alternativen om du vill visa andra villkor.
 
    >[!NOTE]
    >
@@ -105,6 +111,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 1. Klicka på **[!UICONTROL Next]**.
 
    Du kan lägga till kampanjer i dina rekommendationer. Mer information om att lägga till kampanjer framför och under finns i [Lägga till kampanjer](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+
 1. Klicka på **[!UICONTROL Save]**.
 
    VEC-skärmen visar rekommendationsdesignen på din sida.
@@ -158,7 +165,8 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    * Aktivera aktiviteten
    * Redigera aktiviteten
-   * Fäst aktiviteten på ditt Experience Cloud-bord
+   * Dela aktiviteten med din Experience Cloud-feed
+   * Fråga aktiviteten
    * Visa dina upplevelse-URL:er
    * Hämta data
    * Ändra procentandelen aktivitetsdeltagare som ser kontrollupplevelsen
@@ -166,6 +174,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
    * Visa koden för dina designer
 
 1. (Valfritt) Öppna [!UICONTROL Reports] sidan om du vill visa rapporten som visar hur din [!DNL Recommendations] aktivitet fungerar.
+
 1. (Valfritt) Öppna [!UICONTROL Collisions] sidan om du vill visa [aktivitetskonflikter](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) som kan uppstå.
 
    Aktivitetskonflikter inträffar när flera aktiviteter är inställda på att leverera innehåll till samma sida, vilket kan göra att oväntat innehåll visas.
