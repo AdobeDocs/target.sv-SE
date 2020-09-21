@@ -5,7 +5,7 @@ title: Skapa en design
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
    I rekommendationsdesignen används designspråket Velocity med öppen källkod. Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org) och i [Anpassa en design med Snabb](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   En design kan vara HTML eller icke-HTML. HTML-design kapslas som standard med en <div> -tagg för klickspårning i en webbmiljö. Icke-HTML-design är avsedd för icke-webbaserade miljöer där klickspårning inte är möjlig. Dra [!UICONTROL HTML Design] växlingsknappen till&quot;av&quot;-positionen för att använda annan kod än HTML.
+   En design kan vara HTML eller icke-HTML. HTML-design kapslas som standard med en `<div>` -tagg för att möjliggöra klickspårning i en webbmiljö. Icke-HTML-design är avsedd för icke-webbaserade miljöer där klickspårning inte är möjlig. Dra [!UICONTROL HTML Design] växlingsknappen till&quot;av&quot;-positionen för att använda annan kod än HTML.
 
    >[!NOTE]
    >
