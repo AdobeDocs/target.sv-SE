@@ -1,13 +1,13 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: Lista med vanliga frågor och svar om rekommendationsdesign.
+description: Lista med vanliga frågor och svar om Adobe Target rekommendationer.
 title: Vanliga frågor om design
 feature: designs
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # ![Vanliga frågor om PREMIUM](/help/assets/premium.png) -design {#design-faq}
 
-Lista med vanliga frågor och svar om rekommendationsdesign.
+Lista med vanliga frågor och svar om design av rekommendationer [!DNL Adobe Target] .
 
 ## Det rekommenderade objektets pris visar inte båda värdena till höger om decimalkommat. Hur visar jag dem?
 
 Som standard kommer numeriska värden (till exempel `entity.value`) som returneras i designmallar inte att visa efterföljande nollor efter decimalkommat. Om ett objekt till exempel är $35.00, `entity.value` är lika med 35 och bara 35 visas på sidan, inte $35.00.
 
-Det finns två alternativ för att åtgärda problemet.
+Det finns två alternativ för att åtgärda problemet:
 
 * Du kan använda Velocity-skript eller Javascript om du vill formatera det returnerade värdet.
 
@@ -37,7 +37,7 @@ Kategori-ID kan inte visas i designen. Eftersom flera kategorier kan lagras vet 
 
 ## Hur ska jag ändra en design för att få en omedelbar uppdatering? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-Det tar en stund att uppdatera den design som används. Om du vill ändra designen direkt skapar du en ny design, markerar den i kampanjen och sparar rekommendationen.
+Det tar en stund att uppdatera den design som används. Om du vill ändra designen direkt skapar du en ny design, markerar den i aktiviteten och sparar rekommendationen.
 
 ## Hur samlar jag in viktig information som ska visas i designen? Exempel: Om vi vill visa nyckelproduktens kategori, hur skulle jag koda det värdet i snabbdesignen? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -49,7 +49,7 @@ Version 1.7 utan ytterligare verktyg eller bibliotek tillagda i. Det finns grund
 
 ## Hur ersätter jag ett befintligt enhetsvärde med ett tomt värde? Till exempel måste ett objekts entity.message rensas när en kampanj avslutas. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Att skicka ett hårt blanksteg i JavaScript verkar göra detta. Låt utvecklarna skicka in `\u00A0` som värde. Exempel: `entity.message=\u00A0`Du kan överväga att använda det som standardvärde när det inte finns något värde i stället för ett null-värde.
+Att skicka i ett JavaScript-baserat hårt blanksteg verkar göra detta. Låt utvecklarna skicka in `\u00A0` som värde. Exempel: `entity.message=\u00A0`. Du kan överväga att använda det som standardvärde när det inte finns något värde i stället för ett null-värde.
 
 ## Kan jag använda ett profilskript i en Recommendations-design? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
