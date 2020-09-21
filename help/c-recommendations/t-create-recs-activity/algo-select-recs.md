@@ -5,7 +5,7 @@ title: Välj villkor
 feature: recs creation
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Select-villkor{#select-criteria}
 
-Välj [villkor](/help/c-recommendations/c-algorithms/algorithms.md) som ska användas i din Recommendations-aktivitet. Kriterier är regler som bestämmer vilka produkter som ska rekommenderas utifrån en fördefinierad uppsättning besökarbeteenden.
+Välj [villkor](/help/c-recommendations/c-algorithms/algorithms.md) som ska användas i din [!DNL Adobe Target Recommendations] aktivitet. Kriterier är regler som bestämmer vilka produkter som ska rekommenderas utifrån en fördefinierad uppsättning besökarbeteenden.
 
 Du kan testa flera rekommendationstyper mot varandra genom att lägga till fler än ett villkor.
 
@@ -25,18 +25,18 @@ Om du väljer flera villkor delas trafiken jämnt mellan de valda villkoren. Om 
 
    Vissa villkor ingår [!DNL Recommendations]. Du och ditt team kan också skapa egna kriterier.
 
-* Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa nya villkor](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa nya villkor](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
 
 **Så här väljer du villkor:**
 
-1. När du [skapar en ny rekommendation](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)letar du reda på och väljer ett eller flera villkor i **[!UICONTROL Criteria]** dialogrutan.
+1. När du [skapar en ny rekommendation](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)letar du reda på och väljer ett eller flera villkor i **[!UICONTROL Select Criteria]** dialogrutan.
 
    ![Välj villkor, dialogruta](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 
    Du kan använda [!UICONTROL Industry Type] filtret, [!UICONTROL Page Type] filtret och [!UICONTROL Compatible] kryssrutan för att filtrera listan med villkor. Dessa alternativ hjälper dig att hitta de önskade villkoren.
 
-   * **Branschtyp:** Branschtypen används för att kategorisera [!DNL Recommendations] kriterier. Om du vill ändra branschens standardinställningar i lodrät riktning klickar du på **[!UICONTROL Settings]** och väljer önskad **[!UICONTROL Industry Vertical]** standardinställning.
+   * **Branschtyp:** Branschtypen används för att kategorisera [!DNL Recommendations] kriterier. Om du vill ändra branschens standardinställningar i lodrät riktning klickar du på **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** och väljer önskad **[!UICONTROL Industry Vertical]** standardinställning.
    * **Sidtyp:** Sidtypen hjälper dig att kategorisera dina rekommendationer. Det finns också inbyggda villkor som kan väljas för varje sidtyp.
-   * **Kompatibel:** Visa endast de villkor där den valda sidan skickar de data som krävs. Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för att aktuella artikel/aktuella kategorirekommendationer ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du **[!UICONTROL Compatible]** kryssrutan. Det här alternativet kan inaktiveras eller aktiveras i din dator [!DNL Target] [!UICONTROL Preferences].
+   * **Kompatibel:** Visa endast de villkor där den valda sidan skickar de data som krävs. Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för att aktuella artikel/aktuella kategorirekommendationer ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du **[!UICONTROL Compatible]** kryssrutan. Det här alternativet kan inaktiveras eller aktiveras i inställningarna: **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
 
 1. Klicka **[!UICONTROL Next]** för att visa dialogrutan [Välj design](/help/c-recommendations/c-design-overview/design-overview.md) .
