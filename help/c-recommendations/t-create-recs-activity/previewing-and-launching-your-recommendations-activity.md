@@ -5,7 +5,7 @@ title: 'När du har skapat en Recommendations-, A/B Test- eller Experience Targe
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Beteendedatakällan har störst inverkan på bearbetningstiden, enligt följande
 
 ### mboxes
 
-Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en omkörning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en omkörning är slutförd. Om en algoritm inte ändras körs den automatiskt igen med [!DNL Target] 12-48 timmars intervall, beroende på det valda dataområdet.
+Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en ny körning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en ny körning är slutförd. Om en algoritm inte ändras körs den automatiskt igen med [!DNL Target] 12-48 timmars intervall, beroende på det valda dataområdet.
 
 ### Adobe Analytics
 
@@ -75,11 +75,11 @@ Om du använder en QA-länk kan du förhandsgranska rekommendationerna på sidan
 
 >[!NOTE]
 >
->Mål-QA-läget är&quot;klisterlöst&quot; och sparas i en cookie. Om du inte avslutar QA-läget kommer du att fortsätta se QA-resultaten på hela webbplatsen. Om du vill avsluta QA-läget använder du [bokmärket](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* Mål-QA-läget är&quot;klisterlöst&quot; och sparas i en cookie. Om du inte avslutar QA-läget kommer du att fortsätta se QA-resultaten på hela webbplatsen. Om du vill avsluta QA-läget använder du [bokmärket](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+   >
+   >
+* När du är i QA-läge kommer surfning av webbplatsen inte att påverka din profils [!UICONTROL Recently Viewed Items] eller [!UICONTROL Recently Purchased Items].&quot; Detta beteende sker genom design för att undvika oavsiktlig förorening av produktionsbeteendedata. Om du vill förhandsgranska resultat från ett [!UICONTROL Recently Viewed Items] eller [!UICONTROL User-Based Recommendations] villkor bläddrar du först till webbplatsen utanför QA-läget och använder sedan samma session för att öppna en länk för QA-läge.
 
->[!NOTE]
->
->I QA-läge kommer surfning av webbplatsen inte att påverka din profils [!UICONTROL Recently Viewed Items] eller [!UICONTROL Recently Purchased Items]&quot; Det här beteendet sker som design för att undvika oavsiktlig förorening av produktionsbeteendedata. Om du vill förhandsgranska resultat från ett [!UICONTROL Recently Viewed Items] eller [!UICONTROL User-Based Recommendations] villkor bläddrar du först till webbplatsen utanför QA-läget och använder sedan samma session för att öppna en länk för QA-läge.
 
 ## Använda CSV-nedladdning för att förhandsgranska rekommendationer
 
