@@ -6,9 +6,9 @@ feature: recs creation
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) -inställningar för Recommendations-aktivitet{#recommendations-activity-settings}
 
-Information om de inställningar du kan använda för att beskriva och styra en [!UICONTROL Recommendations] aktivitet.
+Information om de inställningar du kan använda för att beskriva och styra en [!UICONTROL Recommendations] aktivitet i [!DNL Adobe Target].
 
 ![Recommendations Goals &amp; Settings page](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -37,7 +37,7 @@ Följande tecken tillåts inte i aktivitetsnamn:
 `-`
 `@`
 
-Om du anger ett [!UICONTROL Recommendations] aktivitetsnamn som redan finns för en annan aktivitet i [!UICONTROL Recommendations Classic]synkroniseras den nya aktiviteten igen med ett nytt namn. Det nya namnet är det ursprungliga namnet som har lagts till med en tidsstämpel för att göra det unikt. Det nya namnet visas både i Target Standard/Premium och [!UICONTROL Recommendations Classic].
+Om du anger ett [!UICONTROL Recommendations] aktivitetsnamn som redan finns för en annan aktivitet i [!UICONTROL Recommendations Classic]synkroniseras den nya aktiviteten igen med ett nytt namn. Det nya namnet är det ursprungliga namnet som har lagts till med en tidsstämpel för att göra det unikt. Det nya namnet visas både i [!DNL Target Standard/Premium] och [!UICONTROL Recommendations Classic].
 
 ## Syfte
 
@@ -57,7 +57,7 @@ Aktiviteten kan starta när den är aktiverad eller du kan ange ett specifikt da
 
 ## Rapportinställningar
 
-* **Rapporteringskälla:** Välj rapportkälla: Adobe Target eller [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ändra inte rapportkällan efter att aktiviteten har publicerats. Om du ändrar rapportkällan efter att en aktivitet har publicerats blir rapporteringen inkonsekvent.
+* **Rapporteringskälla:** Välj rapportkälla: [!DNL Adobe Target] eller [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ändra inte rapportkällan efter att aktiviteten har publicerats. Om du ändrar rapportkällan efter att en aktivitet har publicerats blir rapporteringen inkonsekvent.
 * **Målmått:** Välj det framgångsmått som avgör om aktiviteten lyckas eller inte.
 * **Ytterligare mått:** Konfigurera ytterligare framgångsmått som ska användas i dina rapporter.
 * **Målgrupper för rapportering:** Definiera målgrupper som kan användas vid filtrering av rapporter.
