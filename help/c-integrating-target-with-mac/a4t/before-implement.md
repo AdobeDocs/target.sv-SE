@@ -5,9 +5,9 @@ title: Innan du implementerar Adobe Analytics som rapportkälla för Adobe Targe
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 75fa021c00940c87cf4b2bfa0e2875bb396079a1
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Innan du bestämmer dig för att använda den här integreringen ska du granska 
 
 >[!IMPORTANT]
 >
->Innan du kan börja använda A4T måste du begära att ditt konto etableras för integreringen. Använd [det här formuläret](https://www.adobe.com/go/audiences) för att begära etablering.
+>Innan du kan börja använda A4T måste du begära att ditt konto etableras för integreringen. Använd formuläret [för provisionering av](https://www.adobe.com/go/audiences) Marketing Cloud-integrering för att begära att bli etablerad.
 
 Den här A4T-integreringen kräver att du implementerar följande biblioteksversioner (eller nyare), beroende på om du vill använda omdirigeringserbjudanden med A4T eller inte:
 
@@ -82,3 +82,15 @@ Kontrollera att det kompletterande ID:t finns i [!DNL Analytics] träffar när d
 Som standard när at.js, [!DNL Experience Cloud Visitor ID Service]och appMeasurement.js finns på sidan, [!DNL Analytics] [!DNL Target] och sammanfogar händelser korrekt för rapporterings- och analysändamål i bakänden så länge som rätt kompletterande ID finns på sidan, vilket nämns ovan. Du behöver inte hantera och utföra ytterligare åtgärder för att A4T ska fungera korrekt.
 
 Det finns dock situationer då du kanske vill ha större kontroll över när och hur analysdata som är relaterade [!DNL Target] till ska skickas [!DNL Analytics] för rapportering. Ni kanske har ett internt analysverktyg som ni kan använda internt, men också vill skicka analysdata till [!DNL Analytics] via den interna analysprodukten så att andra medlemmar i organisationen kan fortsätta att använda [!DNL Analytics] som en visuell rapportkälla. Se [steg 7: Se at.js eller mbox.js på alla webbplatssidor](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) i *Analytics for Target Implementation* för mer information.
+
+## Delade målgrupper
+
+När du fyller i formuläret [för tillhandahållande av](https://www.adobe.com/go/audiences)Marketing Cloud-integrationer ska du vara medveten om följande viktiga information om [!UICONTROL Shared Audiences] alternativet som anges under&quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
+
+![Formulär för förfrågningar](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
+
+När ni begär [!UICONTROL Shared Audiences]det aktiverar ni [!UICONTROL Target] och [!UICONTROL Adobe Audience Manager] (AAM) att dela information, i det här fallet målgrupper.
+
+>[!IMPORTANT]
+>
+>Denna integrering mellan [!UICONTROL Target] och AAM medför extra kostnader. Du faktureras för varje [!UICONTROL Target] samtal i AAM.
