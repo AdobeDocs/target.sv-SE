@@ -5,7 +5,7 @@ title: Implementera mål med Adobe Launch
 feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -29,7 +29,7 @@ I följande tabell visas de olika källorna där du kan få mer information om L
 | [Adobe - startdokumentation](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Information om driftsättning och hantering av alla analys-, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser. |
 | [Adobe Target Extension Documentation](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Information om hur du implementerar Target med Launch. |
 
-## Fördelar med att implementera at.js med Target Launch Extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Fördelar med att implementera at.js med tillägget Target Launch {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 Följande fördelar gäller bara om du använder Adobe Launch för att implementera at.js. Därför rekommenderar vi starkt att du använder Adobe Launch i stället för DTM eller en manuell implementering av at.js.
 
