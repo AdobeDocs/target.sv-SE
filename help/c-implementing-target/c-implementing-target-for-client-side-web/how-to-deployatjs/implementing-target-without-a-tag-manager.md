@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: f3877d05d583bdb4690a2638efd874bbfff6154e
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1514'
 ht-degree: 4%
 
 ---
@@ -56,10 +56,12 @@ Följande inställningar kan konfigureras på panelen Implementeringsmetoder:
 >
 >De här inställningarna används för alla [!DNL Target] .js-bibliotek. När du har gjort ändringar i [!UICONTROL Implementation methods] avsnittet måste du hämta biblioteket och uppdatera det i implementeringen.
 
-|Sidinläsning är aktiverat (skapa global mbox automatiskt)|Välj om du vill bädda in det globala mbox-anropet i at.js-filen så att det automatiskt aktiveras vid varje sidinläsning.|
-|Global mbox|Välj ett namn för den globala mbox. Som standard är namnet target-global-mbox.<br>Specialtecken, inklusive et-tecken (&amp;), kan användas i mbox-namn med at.js.|
-|Timeout (sekunder)|Om [!DNL Target] inte svarar på innehåll inom den angivna perioden, inträffar serveranropet och standardinnehållet visas. Ytterligare anrop fortsätter att utföras under besökarens session. Standardvärdet är 5 sekunder.<br>I at.js-biblioteket används timeoutinställningen i `XMLHttpRequest`. Tidsgränsen startar när begäran utlöses och avbryts när [!DNL Target] ett svar hämtas från servern. For more information, see [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) on the Mozilla Developer Network.<br>Om den angivna tidsgränsen inträffar innan svaret tas emot, visas standardinnehåll och besökaren kan räknas som deltagare i en aktivitet eftersom all datainsamling sker på [!DNL Target] kanten. Om begäran når [!DNL Target] kanten räknas besökaren.<br>Tänk på följande när du konfigurerar timeoutinställningen:<ul><li>Om värdet är för lågt kan användarna se standardinnehåll oftast, men besökaren kan räknas som deltagare i aktiviteten.</li><li>Om värdet är för högt kan besökarna se tomma områden på webbsidan eller tomma sidor om du använder dolt innehåll under längre tidsperioder.</li></ul>Om du vill få en bättre förståelse för svarstiderna i mbox kan du titta på fliken Nätverk i webbläsarens utvecklingsverktyg. Du kan också använda verktyg för övervakning av webbprestanda från tredje part, till exempel Catchpoint.<br>**Obs**: Inställningen [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) ser till att [!DNL Target] inte väntar på Visitor API-svar för länge. Den här inställningen och Timeout-inställningen för at.js som beskrivs här påverkar inte varandra.|
-|Profilens livstid|Den här inställningen avgör hur långa besökarprofiler som lagras. Som standard lagras profiler i två veckor. Denna kan ökas upp till 90 dagar.<br>Kontakta [kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html)om du vill ändra inställningen för Profilens livstid.|
+| Inställning | Beskrivning |
+| --- | --- |
+| Sidinläsning aktiverad (skapa en global mbox automatiskt) | Välj om du vill bädda in det globala mbox-anropet i filen at.js så att det automatiskt utlöses vid varje sidinläsning. |
+| Global mbox | Välj ett namn för den globala mbox-filen. Som standard är namnet target-global-mbox.<br>Specialtecken, inklusive et-tecken (&amp;), kan användas i mbox-namn med at.js. |
+| Timeout (sekunder) | Om [!DNL Target] inte svarar med innehåll inom den angivna perioden, inträffar serveranropet och standardinnehållet visas. Ytterligare anrop fortsätter att utföras under besökarens session. Standardvärdet är 5 sekunder.<br>I at.js-biblioteket används timeoutinställningen i `XMLHttpRequest`. Tidsgränsen startar när begäran utlöses och avbryts när [!DNL Target] ett svar hämtas från servern. For more information, see [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) on the Mozilla Developer Network.<br>Om den angivna tidsgränsen inträffar innan svaret tas emot, visas standardinnehåll och besökaren kan räknas som deltagare i en aktivitet eftersom all datainsamling sker på [!DNL Target] kanten. Om begäran når [!DNL Target] kanten räknas besökaren.<br>Tänk på följande när du konfigurerar timeoutinställningen:<ul><li>Om värdet är för lågt kan användarna se standardinnehåll oftast, men besökaren kan räknas som deltagare i aktiviteten.</li><li>Om värdet är för högt kan besökarna se tomma områden på webbsidan eller tomma sidor om du använder dolt innehåll under längre tidsperioder.</li></ul>Om du vill få en bättre förståelse för svarstiderna i mbox kan du titta på fliken Nätverk i webbläsarens utvecklingsverktyg. Du kan också använda verktyg för övervakning av webbprestanda från tredje part, till exempel Catchpoint.<br>**Obs**: Inställningen [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) ser till att [!DNL Target] inte väntar på Visitor API-svar för länge. Den här inställningen och Timeout-inställningen för at.js som beskrivs här påverkar inte varandra. |
+| Profilens livstid | Den här inställningen avgör hur långa besökarprofiler lagras. Som standard lagras profiler i två veckor. Denna kan ökas upp till 90 dagar.<br>Om du vill ändra inställningen för Profilens livstid kontaktar du [kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html). |
 
 ### Huvudsaklig implementeringsmetod
 
