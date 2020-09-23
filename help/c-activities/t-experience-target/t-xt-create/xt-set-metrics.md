@@ -3,10 +3,10 @@ keywords: experience targeting;xt;metrics;set metrics;goal metric;activity setti
 description: Använd mätvärden i en XT-aktivitet (Adobe Target Experience Targeting) för att avgöra när ett besök är lyckat.
 title: Ange mått
 feature: xt
-solution: Target,standard
+solution: Target
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
