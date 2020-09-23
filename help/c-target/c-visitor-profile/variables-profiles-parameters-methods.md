@@ -6,9 +6,9 @@ feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 
 | Profil | Anteckningar |
 |--- |--- |
-| user.activeActivities<br>user.activeCampaigns | Returnera kampanj-ID:t för alla kampanjer/aktiviteter som användaren befinner sig i, även om han eller hon inte har interagerat med kampanjen/aktiviteten i den aktuella sessionen. |
+| user.activeActivities<br>user.activeCampaigns | Returnera kampanj-ID:t för alla kampanjer/aktiviteter som användaren befinner sig i, även om han/hon inte har interagerat med kampanjen/aktiviteten i den aktuella sessionen. |
 | user.pcId |  |
 | user.sessionId |  |
 | user.categoryAffinity |  |
@@ -32,7 +32,7 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | user.daysSinceLastVisit |  |
 | user.browser | Användaragenten |
 | user.header | Alla `user.header` profiler är inbyggda från rubrikdata för Mbox-begäran |
-| user.header(&#39;x-Cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forward-for&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>Du kan få detta på flera sätt, till exempel [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172. |
+| user.header(&#39;x-forward-for&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>Du kan få detta på flera sätt, till exempel [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172.<br>Obs! user.header(&#39;x-Cluster-client-ip&#39;) har tagits bort. |
 | user.header(&#39;host&#39;) | Värdnamn för webbplats |
 | user.header(&#39;cookie&#39;) | Data för besöks-cookie |
 | user.header(&#39;user-agent&#39;) | Användaragent för besökare |
