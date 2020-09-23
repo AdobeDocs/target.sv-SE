@@ -3,10 +3,10 @@ keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;suc
 description: Använd mätvärden i ett multivariattest för att avgöra när ett besök är lyckat.
 title: Ange mått
 feature: mvt
-solution: Target,standard
+solution: Target
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
