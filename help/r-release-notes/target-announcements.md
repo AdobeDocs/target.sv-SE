@@ -5,9 +5,9 @@ title: Målmeddelanden
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,6 @@ Kommentarer och information om kommande evenemang, inklusive Target SKill Builde
 ## Adobe har återigen utnämnts till ledare i Gartner Magic Quadrant for Personalization Engines
 
 Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra. [Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
-
-## Webbseminarium: Personaliseringsstrategier med hjälp av artificiell intelligens och Adobe Target
-
-* **08:00 - 09:00. (PDT)**
-* **Torsdag 13 augusti 2020**
-
-[Anmäl dig till det här](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)webbinariet.
 
 ## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
