@@ -5,7 +5,7 @@ title: Versionsinformation om Adobe Target Node.js SDK.
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 21c49efb4b5de0ae14215712f4ec87b4759f29e1
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -39,7 +39,7 @@ I följande avsnitt finns mer information om version 1.0.0 av Target Node.js SDK
    Vi introducerar en inställning som kallas `serverState` som innehåller upplevelser som hämtats via servern, så att at.js v2.2+ inte gör ytterligare ett serveranrop för att hämta upplevelserna. Med den här metoden optimeras sidans laddningsprestanda.
 
 * Open sourced on GitHub as [Target Node.js SDK](https://github.com/adobe/target-nodejs-sdk).
-* Ny [sendNotifications()-API-metod](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientsendnotifications) för att skicka visade/klickade meddelanden till [!DNL Target] för innehåll som är förhämtat via [getOffers()](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers).
+* Ny [sendNotifications()-API-metod](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications) för att skicka visade/klickade meddelanden till [!DNL Target] för innehåll som är förhämtat via [getOffers()](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications).
 * Förenklad vy för att skapa API-förfrågningar, med automatisk ifyllning av interna fält med standardvärden (t.ex. `request.id``request.context`).
 * Validering av SDK API-metodargument.
 * Uppdaterade README-, samplings- och enhetstester.
@@ -50,13 +50,13 @@ I följande avsnitt finns mer information om version 1.0.0 av Target Node.js SDK
 
 * Projektet har bytt namn till `target-nodejs-sdk`.
 * Större omfaktorisering, som ersätter Target BatchMbox v2 API med Target View Delivery v1 API.
-* [create() API-metodargument](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientcreate) har ändrats, vilket tar bort redundant kapsling (se gammal metoddeklaration [här](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate)).
-* [API-metodargumenten](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) getOffers() har ändrats (se gammal metoddeklaration [här](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers)).
-* API- `getTargetCookieName()` metoden har ersatts med en `TargetCookieName` åtkomstmetod. Se [Hjälpmedel](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)för TargetClient-verktyget.
-* API- `getTargetLocationHintCookieName()` metoden har ersatts med en `TargetLocationHintCookieName` åtkomstmetod.  Se [Hjälpmedel](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)för TargetClient-verktyget.
+* [create() API-metodargument](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientcreate) har ändrats, vilket tar bort redundant kapsling (se gammal metoddeklaration [här](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate)).
+* [API-metodargumenten](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) getOffers() har ändrats (se gammal metoddeklaration [här](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers)).
+* API- `getTargetCookieName()` metoden har ersatts med en `TargetCookieName` åtkomstmetod. Se [Hjälpmedel](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)för TargetClient-verktyget.
+* API- `getTargetLocationHintCookieName()` metoden har ersatts med en `TargetLocationHintCookieName` åtkomstmetod.  Se [Hjälpmedel](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)för TargetClient-verktyget.
 
 ### Borttagen
 
 * Stöd för Target BatchMbox v2 API.
-* API-metoden [](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) getOffer() har tagits bort. Använd i stället API-metoden [](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) getOffers().
+* API-metoden [](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) getOffer() har tagits bort. Använd i stället API-metoden [](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) getOffers().
 
