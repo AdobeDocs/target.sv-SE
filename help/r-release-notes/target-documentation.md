@@ -5,9 +5,9 @@ title: Målmeddelanden
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Här följer en kort beskrivning av de vanligaste dokumentationstyperna som är 
 | [Adobe Experience Platform Launch Target-dokumentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Information om hur du implementerar [!DNL Target] med [!DNL Adobe Experience Platform Launch]den nya generationens tagghanteringsplattform från [!DNL Adobe]. Detta är den metod som rekommenderas för implementering [!DNL Target]. |
 | [Adobe kundtjänsttimmar](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Information om&quot;Kontorstid&quot;, ett initiativ som leds av kundtjänstteamet på Adobe. Dessa sessioner är avsedda att informera såväl som hjälpa deltagare att felsöka problem och ge tips och råd för att lyckas med [!DNL Adobe Experience Cloud] lösningarna, inklusive [!DNL Target]. |
 | [Grundläggande om webbseminarier](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registreringsinformation och länkar till tidigare sessioner i [!DNL Target] Basics Webinar Series, en Customer Success Webinar Series som kommer från gemenskapen. |
+| [Adobe Target-utvecklare](http://developers.adobetarget.com/) | Information om Adobe Target Developers webbplats hjälper dig att implementera [!DNL Target] på klientprogram, serverprogram, mobilappar, IoT och mycket annat. Du kan också exportera dina [!DNL Target] data till tredjepartslösningar. |
 | [Ange Recommendations API:er](https://developers.adobetarget.com/api/recommendations/) | Information om de [!UICONTROL Recommendations] API:er som gör att du programmässigt kan interagera med [!DNL Target] rekommendationsservrar. Dessa API:er kan integreras med en rad programstackar för att utföra funktioner som du vanligtvis gör via [!DNL Target] gränssnittet. |
 | [API:er för leverans på serversidan](https://developers.adobetarget.com/api/delivery-api/) | Information om de resurser som utgör Adobe Target Delivery API. |
 | [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) | Information om Node.js SDK, ett avancerat programutvecklingspaket som eliminerar svårigheterna med att hantera cookies, sessioner och integrering med [!DNL Adobe Experience Cloud] lösningar som [!DNL Target], [!DNL Adobe Analytics], [!DNL Experience Cloud Visitor ID Service]och [!DNL Audience Manager]. |
