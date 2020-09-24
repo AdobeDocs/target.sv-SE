@@ -1,5 +1,5 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
 description: Adobe Target kan integreras med webbplatser via ett av två JavaScript-bibliotek. at.js eller mbox.js
 title: Så här fungerar Adobe Target
 feature: intro
@@ -7,15 +7,15 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2398'
 ht-degree: 1%
 
 ---
 
 
-# Så här fungerar Adobe Target{#how-adobe-target-works}
+# Så här fungerar Adobe Target
 
 Information om hur Adobe Target fungerar, inklusive information om Target JavaScript-bibliotek (at.js och mbox.js) och de olika aktivitetstyperna som ingår i Target.
 
@@ -91,27 +91,47 @@ Recommendations-aktiviteter visar automatiskt produkter eller innehåll som kan 
 
 ## Edge Network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-&quot;Edge&quot; är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen.
+En&quot;Edge&quot; är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen.
 
-För att förbättra svarstiderna är Edge-miljöerna bara värdar för aktivitetslogik och cachelagrad profil och erbjuder information. Activity- och innehållsdatabaser, [!DNL Analytics] data, API:er och marknadsföringsanvändargränssnitt finns i Adobe centrala datamiljöer. Uppdateringar skickas sedan till Edge-noderna. De centrala miljöerna och Edge-noderna synkroniseras automatiskt för att kontinuerligt uppdatera cachade aktivitetsdata. 1:1-modellering lagras också på varje kant, så dessa mer komplexa begäranden kan också bearbetas på Edge.
+För att förbättra svarstiderna är Target Edges värd endast för aktivitetslogik, cachelagrade profiler och erbjudandeinformation.
 
-Varje Edge-nod har all information som krävs för att svara på användarens innehållsbegäran och spårar analysdata på denna begäran. Användarförfrågningar dirigeras till närmaste Edge-nod.
+Aktivitets- och innehållsdatabaser, [!DNL Analytics] data, API:er och marknadsföringsanvändargränssnitt finns i Adobe centrala kluster. Uppdateringar skickas sedan till målkanterna. Central Clusters och Edge Clusters synkroniseras automatiskt för att kontinuerligt uppdatera cachade aktivitetsdata. Alla 1:1-modelleringar lagras också på varje kant, så dessa mer komplexa begäranden kan också bearbetas på kanten.
 
-![Karta med kärnwebbplatser och edge-sajter](assets/edge_network.png)
+Varje Edge Cluster har all information som krävs för att svara på användarens begäran om innehåll och spåra analysdata på begäran. Användarförfrågningar dirigeras till närmaste Edge-kluster.
 
-Källan till den här bilden är [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+Mer information finns i [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
 
-Adobe Target-lösningen ligger på datacenter som ägs av Adobe och som hyrs ut av Adobe över hela världen. Administratörsservrar ligger helt och hållet i datacenter som ägs av Adobe i London, Singapore och på olika platser i USA, inklusive Oregon och Virginia. Edge-servrar lagras både på servrar som ägs av Adobe och på servrar som hyrs via Adobe i Amazon AWS i London, Hong Kong SAR i Kina, Singapore, Tokyo och Sydney.
+Lösningen finns på datacenter som ägs av Adobe och som hyrs ut av Adobe över hela världen. [!DNL Adobe Target]
 
-Admin Server-platser innehåller både en datainsamlingscentral och en datacentral. Edge-platserna innehåller bara ett datainsamlingscenter. Varje rapportsvit tilldelas ett specifikt databehandlingscenter.
+Platserna för centrala kluster innehåller både en datainsamlingscentral och en datacentral. Edge Cluster-platser innehåller bara ett datainsamlingscenter. Varje rapportsvit tilldelas ett specifikt databehandlingscenter.
 
-I stället för att svara på alla förfrågningar om målinriktning från en enda plats behandlas förfrågningar av den edge-miljö som är närmast besökaren, vilket minskar effekten av nätverks-/Internetresetid.
+Data för kundwebbplatsaktivitet samlas in av de närmaste sju Edge-kluster och dirigeras till en kunds förbestämda mål för Central Cluster (en av tre platser: Oregon, Dublin, Singapore) för beredning. Besökarprofildata lagras på det Edge Cluster-område som ligger närmast besökaren (platserna är bland annat Central Cluster-platserna och Virginia, Amsterdam, Sydney, Tokyo och Hong Kong).
+
+I stället för att svara på alla förfrågningar om målinriktning från en enda plats behandlas förfrågningar av det Edge-kluster som ligger närmast besökaren, vilket minskar effekten av nätverks-/Internetresetid.
+
+Target Central Clusters, som finns på Amazon Web Services (AWS), finns i:
+
+* Oregon, USA
+* Dublin, Irland
+* Republiken Singapore
+
+Edge-målkluster, som finns på AWS, finns i:
+
+* Mumbai, Indien
+* Tokyo, Japan
+* Virginia, USA
+* Oregon, USA
+* Sydney, Australien
+* Dublin, Irland
+* Republiken Singapore
+
+Tjänsten [!DNL Target Recommendations] ligger i ett [!DNL Adobe] datacenter i Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] för närvarande inte har något Edge-nätverk i Kina och slutanvändarnas prestanda kommer att fortsätta vara begränsade för [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge-noder i landet går det långsamt att återge webbplatser med [!DNL Target] driftsatt programvara och sidinläsningen påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target] redigeringsgränssnittet.
+>[!DNL Adobe Target] för närvarande inte har något Edge Cluster i Kina och slutanvändarnas prestanda kommer att fortsätta vara begränsade för [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge Clusters i landet går det långsamt att återge webbplatser med [!DNL Target] driftsatt programvara och belastningen på sidorna påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target] redigeringsgränssnittet.
 
-Om du vill kan du tillåtslista kantanteckningar för mål. Mer information finns i [tillåtslista målkantnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
+Om du vill kan du tillåtslista Kluster för målkant. Mer information finns i [tillåtslista målkantnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
 ## Skyddad användarupplevelse {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
