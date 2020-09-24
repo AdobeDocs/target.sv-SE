@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2330'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 24 september | [Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Koden för QA-bokmärket för aktivitet för at.js 2 har uppdaterats.*x*. |
 | 23 september | [Använda en analysspårningsserver](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Hela avsnittet med information från [!DNL Adobe Experience Platform Debugger] och webbläsarens utvecklingsverktyg har uppdaterats. |
 |  | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Uppdaterade raden &quot;user.header(&#39;x-forward-for&#39;)&quot; för att ange att &quot;user.header(&#39;x-Cluster-client-ip&#39;)&quot; har tagits bort. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.9.1 (30 september 2020). |
