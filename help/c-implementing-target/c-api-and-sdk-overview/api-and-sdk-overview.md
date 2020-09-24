@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,12 @@ Java SDK är ett avancerat programutvecklingspaket som eliminerar svårigheterna
 
 * **Stöd för förhämtning och meddelanden som gör att du kan optimera prestanda via cachning**: Du kan använda JavaSDK för att hämta upplevelser och cacha dem lokalt på Java-servern i syfte att minimera serveranrop till [!DNL Target] och optimera programprestanda.
 * **Möjlighet att hämta VEC-skapade aktiviteter**: Hämta VEC-skapade aktiviteter på serversidan. Svaret som innehåller VEC-skapade aktiviteter har väljare som kan användas för att i förväg dölja endast delar av sidan som behöver vara personaliserade. Detta bidrar till att optimera sidans [första innehållsangivelse](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) , som är en viktig nyckeltal för att ditt företag ska få en hög poäng i [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -systemet.
+
+## Adobe Target-utvecklare
+
+Länk: [Adobe Target-utvecklare](http://developers.adobetarget.com/)
+
+På webbplatsen för Adobe Target-utvecklare kan du implementera [!DNL Target] program på klientsidan, program på serversidan, mobilappar, IoT och mycket mer. Du kan också exportera dina [!DNL Target] data till tredjepartslösningar.
 
 ## Ange Recommendations API:er
 
