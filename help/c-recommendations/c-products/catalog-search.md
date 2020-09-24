@@ -5,9 +5,9 @@ title: Katalogsökning i Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -169,3 +169,13 @@ Du kan tillfälligt ändra de aktiva kolumnerna på [!UICONTROL Catalog Search] 
    Du kan också klicka på borttagningsikonen ( x ) bredvid den kolumn som du vill flytta från det aktiva till det inaktiva avsnittet.
 
 Kom ihåg att alla ändringar du gör endast gäller den aktuella sessionen.
+
+## Vanliga frågor {#faq}
+
+Se följande vanliga frågor och svar för hjälp med [!UICONTROL Catalog Search] funktionen:
+
+### Varför visas inte rätt resultat vid katalogsökning när jag söker efter ett anpassat attribut med ett numeriskt värde?
+
+När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
+
+För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill ändra något [öppnar du ett kundärende](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till attributen som behöver typen ändrad från sträng till numerisk.
