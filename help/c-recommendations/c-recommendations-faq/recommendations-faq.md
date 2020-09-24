@@ -5,9 +5,9 @@ title: Vanliga frågor om Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,13 @@ ht-degree: 0%
 
 Lista med vanliga frågor och svar om Adobe Target Recommendations-aktiviteter.
 
-## Hur lång tid tar det att uppdatera objekt i min katalog ska återspeglas på min webbplats?
+## Varför visas inte rätt resultat vid katalogsökning när jag söker efter ett anpassat attribut med ett numeriskt värde?
+
+När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
+
+För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill ändra något [öppnar du ett kundärende](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till attributen som behöver typen ändrad från sträng till numerisk.
+
+## Hur lång tid tar det för uppdateringar av objekt i min katalog att återspeglas på min webbplats?
 
 När du har importerat en feed-fil, eller efter att ha tagit emot enhetsuppdateringar via API eller mbox, visas följande ändringar under 60 minuter:
 
@@ -31,7 +37,7 @@ Följande ändringar återspeglas inte förrän nästa algoritmkörning inträff
 * Artikelattribut som används i en kampanj baserat på ett attribut eller en samling som är associerad med aktiviteten.
 * Artikelkategori som objektet visas i för en&quot;Aktuell kategori&quot; eller&quot;Favoritkategori&quot; i algoritmen Top Sellers eller Most Viewed.
 * Rankning av rekommenderade objekt när attributet ändras är ett anpassat attribut som används som anpassad nyckel för en algoritm.
-* Rankning av rekommenderade objekt baserat på ändrade attribut när rekommendationslogiken är &quot;Objekt med liknande attribut&quot; när &quot;Likhetsfaktor för innehåll&quot; används eller när &quot;Attributviktningsfaktorer&quot; används.
+* Rankning av rekommenderade objekt baserat på ändrade attribut när rekommendationslogiken är&quot;Objekt med liknande attribut&quot; när&quot;Likhetsfaktorn för innehåll&quot; används, eller när&quot;Attributviktningsfaktorer&quot; används.
 
 >[!NOTE]
 >
@@ -97,7 +103,7 @@ Tänk på följande information om du ser en samling gå till noll som tidigare 
 * Är ditt index aktuellt? Gå till [!DNL /target/products.html#productSearch] och kontrollera hur många timmar som indexet är gammalt (t.ex. &quot;För 3 timmar sedan&quot;). Du kan uppdatera indexet efter behov.
 * Har du ändrat något i feeden eller datalagret som resulterade i att dina enheter inte längre matchade samlingsreglerna? Se till att CASE-filen överensstämmer (skiftlägeskänslig).
 * Kördes din feed korrekt? Har någon ändrat FTP-katalogen, lösenordet osv.?
-* Target gör sitt bästa för att få leveransen att uppdateras (på kundens sida/app) så snabbt som möjligt. Men vi måste också tillhandahålla en viss representation i användargränssnittet för marknadsföraren. Vi behöver inte nödvändigtvis fördröja leveransuppdateringar för att vänta på att gränssnittsuppdateringarna ska vara synkroniserade. Du kan använda [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) för att se vad som finns i systemet när en begäran kommer in.
+* Target gör sitt bästa för att få leveransen att uppdateras (på kundens sida/app) så snabbt som möjligt. Men vi måste också tillhandahålla viss representation i användargränssnittet för marknadsföraren. Vi behöver inte nödvändigtvis fördröja leveransuppdateringar för att vänta på att gränssnittsuppdateringarna ska vara synkroniserade. Du kan använda [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) för att se vad som finns i systemet när en begäran kommer in.
 
 ## Vad är skillnaden mellan allmän attributviktning och innehållets likhetsspecifika attributviktning? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
