@@ -5,9 +5,9 @@ title: Använda en analysspårningsserver
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,9 @@ Utvecklarverktygen ska visas på en sida där aktiviteten levereras för att sä
 
 1. Klicka på **[!UICONTROL Network]** fliken.
 
-1. Filtrera efter&quot;/ss&quot; för att visa analysförfrågningar.
+1. Filtrera för `/ss,` att visa analysförfrågningar.
 
-   ![Kromutvecklarverktyg](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
+   ![Verktyg för Chrome-utvecklare med /ss-sökning](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    Spårningsservern är värdnamnet för begäran.
 
