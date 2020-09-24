@@ -1,13 +1,13 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: Om du använder en äldre version av at.js eller mbox.js måste du ange en analysspårningsserver för aktiviteter som använder Analytics för Target (A4T).
 title: Använda en analysspårningsserver
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Felsökaren bör visas på en sida där aktiviteten kommer att levereras för at
    * **CNAME-implementeringar**: `sstats.adobe.com` är ett exempel på en CNAME-förstahandsspårningsserver för en https-begäran (säker). `stats.adobe.com` är ett exempel på en CNAME-förstapartsbegäran för en http-sida (osäker).
 
 1. Kopiera allt innehåll i fältet.
+
 1. Klistra in spårningsserverinformationen i fältet i **[!UICONTROL Reporting Settings]** delen av **[!UICONTROL Goal & Settings]** **[!UICONTROL Tracking Server]** aktivitetens skärm.
 
    >[!NOTE]
@@ -69,4 +70,12 @@ Utvecklarverktygen ska visas på en sida där aktiviteten levereras för att sä
    * **Spårningsserver** för första part: Om värdnamnet för begäran matchar den domän du är på är det en förstapartsspårningsserver. Om du till exempel är på `adobe.com`är `adobe.com` den första part-spårningsservern.
    * **Spårningsserver** från tredje part: En spårningsserver från tredje part är vanligtvis `[company].sc.omtrdc.net` där företaget är namnet på ditt företag, men avslutas alltid `sc.omtrdc.net`.
    * **CNAME-implementeringar**: `sstats.adobe.com` är ett exempel på en CNAME-förstahandsspårningsserver för en https-begäran (säker). `stats.adobe.com` är ett exempel på en CNAME-förstapartsbegäran för en http-sida (osäker).
+
+1. Kopiera allt innehåll i fältet.
+
+1. Klistra in spårningsserverinformationen i fältet i **[!UICONTROL Reporting Settings]** delen av **[!UICONTROL Goal & Settings]** **[!UICONTROL Tracking Server]** aktivitetens skärm.
+
+   >[!NOTE]
+   >
+   >Du måste välja [!UICONTROL Analytics as the Reporting Source] att aktiviteten ska vara [!UICONTROL Tracking Server] tillgänglig.
 
