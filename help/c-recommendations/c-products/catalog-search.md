@@ -5,9 +5,9 @@ title: Katalogsökning i Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,12 @@ Du kan söka efter objekt i katalogen med hjälp av en enkel sökning eller en a
    Observera att du kan använda funktionen för automatisk komplettering av sökningar. På följande bild returneras alla produkter som innehåller ordet &quot;cykel&quot; när du skriver &quot;bik&quot;.
 
    ![Automatisk sökning slutförd](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
+   >
+   >För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill ändra något [öppnar du ett kundärende](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till attributen som behöver typen ändrad från sträng till numerisk.
 
 1. Du kan också använda filter för att hitta önskad produkt. I följande exempel expanderar du [!UICONTROL Collections] ansiktet och väljer Cykelverktyg, så visas alla cykelverktyg i katalogvisningen.
 
@@ -170,12 +176,3 @@ Du kan tillfälligt ändra de aktiva kolumnerna på [!UICONTROL Catalog Search] 
 
 Kom ihåg att alla ändringar du gör endast gäller den aktuella sessionen.
 
-## Vanliga frågor {#faq}
-
-Se följande vanliga frågor och svar för hjälp med [!UICONTROL Catalog Search] funktionen:
-
-### Varför visas inte rätt resultat vid katalogsökning när jag söker efter ett anpassat attribut med ett numeriskt värde?
-
-När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
-
-För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill ändra något [öppnar du ett kundärende](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till attributen som behöver typen ändrad från sträng till numerisk.
