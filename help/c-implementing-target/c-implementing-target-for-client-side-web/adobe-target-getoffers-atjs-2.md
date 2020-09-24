@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -268,7 +268,7 @@ I det här exemplet används variabeln count för att skapa CSS-väljarna. I ett
 
 Observera att det här exemplet använder `prefetch > mboxes`men du kan också använda `execute > mboxes`. Om du använder prefetch i `getOffers()`måste du också använda prefetch i `applyOffers()` anropet.
 
-## Anropa samtal `getOffers()` för att utföra en pageLoad
+## Anrop `getOffers()` att utföra en pageLoad
 
 I följande exempel visas hur du utför en pageLoad med getOffers() med at.js 2.*x*
 
