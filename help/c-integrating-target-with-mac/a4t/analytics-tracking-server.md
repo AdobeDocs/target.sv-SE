@@ -5,7 +5,7 @@ title: Använda en analysspårningsserver
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Använda en analysspårningsserver{#use-an-analytics-tracking-server}
+# Använda en analysspårningsserver
 
 Om du använder en äldre version av at.js eller mbox.js måste du ange en analysspårningsserver för aktiviteter som använder [!DNL Analytics] för [!DNL Target] (A4T).
 
@@ -25,7 +25,7 @@ Om du använder en äldre version av at.js eller mbox.js måste du ange en analy
 
 För att säkerställa att data från [!DNL Target] går till rätt plats i [!DNL Analytics]A4T kräver A4T att en analysspårningsserver skickas i alla anrop till Modstats från [!DNL Target]. För implementeringar som använder flera spårningsservrar kan du använda [!DNL Adobe Experience Platform Debugger] eller webbläsarens utvecklingsverktyg för att fastställa rätt spårningsserver för din aktivitet.
 
-## Hämta analysspårningsservern med Adobe Experience Platform Debugger
+## Hämta Analytics-spårningsservern med Adobe Experience Platform Debugger
 
 Felsökaren bör visas på en sida där aktiviteten kommer att levereras för att säkerställa att du väljer rätt spårningsserver. Du kan också ange en standardspårningsserver för varje konto. Kontakta kundtjänst om du vill ange eller ändra standardinställningen.
 
@@ -51,7 +51,7 @@ Felsökaren bör visas på en sida där aktiviteten kommer att levereras för at
    >
    >Du måste välja [!UICONTROL Analytics as the Reporting Source] att aktiviteten ska vara [!UICONTROL Tracking Server] tillgänglig.
 
-## Hämta analysspårningsservern med hjälp av webbläsarens utvecklingsverktyg
+## Hämta Analytics tracking-servern med hjälp av webbläsarens Developer Tools
 
 Utvecklarverktygen ska visas på en sida där aktiviteten levereras för att säkerställa att du väljer rätt spårningsserver. Du kan också ange en standardspårningsserver för varje konto. Kontakta kundtjänst om du vill ange eller ändra standardinställningen.
 
@@ -61,7 +61,7 @@ Utvecklarverktygen ska visas på en sida där aktiviteten levereras för att sä
 
 1. Klicka på **[!UICONTROL Network]** fliken.
 
-1. Filtrera för `/ss,` att visa analysförfrågningar.
+1. Filtrera för `/ss,` att visa Analytics-begäranden.
 
    ![Verktyg för Chrome-utvecklare med /ss-sökning](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
