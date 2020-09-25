@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: Du kan skapa målgrupper i Adobe Target baserat på nätverksinformation.
-title: Skapa målgrupper i Adobe Target baserat på nätverksinformation.
+title: Nätverksalternativ i Adobe Target
 feature: audiences
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
