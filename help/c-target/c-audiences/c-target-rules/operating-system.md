@@ -1,14 +1,14 @@
 ---
 keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
 description: Du kan rikta in dig på besökare som använder ett visst operativsystem.
-title: Operativsystem
+title: Alternativ för operativsystem i Adobe Target
 feature: audiences
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
