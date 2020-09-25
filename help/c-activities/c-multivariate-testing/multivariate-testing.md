@@ -5,9 +5,9 @@ title: Multivariata tester
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Multivariata tester hjälper dig också att hitta sammansatta effekter mellan tv
 
 I Target är varje kombination en upplevelse. I multivariata tester jämförs varje upplevelse så att du kan ta reda på vilka kombinationer som är mest framgångsrika. Samtidigt samlas data in och analyseras för att förstå hur varje plats och erbjudanden påverkar mätresultatet.
 
-![](assets/multivariate.png){width=&quot;672px&quot;}
+![](assets/multivariate.png)
 
 På grund av antalet kombinationer som kan genereras kräver ett multivariat-test mer tid och trafik än ett A/B-test. Sidan måste få tillräckligt mycket trafik för att kunna ge statistiskt signifikanta resultat för varje upplevelse. För att få användbara resultat måste du förstå hur mycket trafik sidan tar emot och testa det optimala antalet kombinationer för rätt tidsåtgång för att få önskat resultat. Target [Traffic Estimator](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan hjälpa dig att utforma ett test som fungerar med trafiken. Innan du använder Traffic Estimator bör du ha bra statistik som visar hur många visningar och konverteringar sajten normalt tar emot. Ta hänsyn till era trafiknivåer per dag. Ju fler upplevelser en aktivitet har, desto mer trafik måste aktiviteten omfatta, eller hur länge den måste köras. Om trafiken inte är särskilt hög bör du testa ett litet antal kombinationer; I annat fall kan den tid som krävs för att skapa meningsfulla testresultat vara för lång för att vara användbar.
 
