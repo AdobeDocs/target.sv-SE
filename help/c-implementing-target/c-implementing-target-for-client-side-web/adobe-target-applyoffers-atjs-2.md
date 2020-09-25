@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;functions;function
 description: Information om funktionen adobe.target.applyOffers(options) för JavaScript-biblioteket i Adobe Target at.js.
-title: Information om funktionen adobe.target.applyOffers(options) för JavaScript-biblioteket i Adobe Target at.js.
+title: adobe.target.applyOffers(options) - at.js 2.x
 feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Med den här funktionen kan du tillämpa mer än ett erbjudande som har hämtats
 | response > execute > mboxes > mbox > metrics > eventToken | Token för klickningshändelse. |
 | response > execute > mboxes > mbox > metrics > type | &quot;click&quot; |
 | response > execute > mboxes > mbox > metrics | Innehåller en lista med `clickThrough` mätvärden. |
-| response > execute > mbox > mbox > mbox | Namnet på mbox. |
+| response > execute > mboxes > mbox > mbox | Namnet på mbox. |
 | response > execute > mboxes > mbox >index | Anger att svaret är för mbox med detta index från begäran. |
 | response > execute > mboxes > mbox > analytics > payload | Analysens nyttolast för integrering på klientsidan som ska skickas till Analytics när mbox har tillämpats. (Se avsnittet A4T-aktiverade kampanjer.) |
 | response > execute > mbox | Lista över körda rutor. |
