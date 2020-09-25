@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '3027'
 ht-degree: 0%
@@ -123,6 +123,7 @@ Varje roll har olika behörighetsnivåer:
 | Redigerare | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. |
 | Observer | Kan visa aktiviteter, men kan inte skapa eller redigera dem. |
 | Utgivare | Liknar observationsrollen (kan visa aktiviteter, men kan inte skapa eller redigera dem). Utgivarrollen har dock ytterligare behörighet att aktivera aktiviteter. |
+
 Observera att varje användares roll gäller för alla sidor, egenskaper och webbplatser i ditt konto som innehåller [!DNL Target] taggar, vilket visas nedan:
 
 ![](assets/permissions_2.png)
@@ -180,7 +181,7 @@ Efter en omorganisering, med hjälp av personerna i illustrationerna ovan, kan d
 
 * **Ernie**: Ernie är marknadschef för organisationen med ansvar för marknadsföring på konsumentproduktområdet.
 
-   Eftersom Ernie är ganska ny i organisationen och lite oerfaren av Target har han redigeringsbehörigheter för konsumentwebbplatsen. Med redigerarbehörigheter kan Ernie skapa och redigera aktiviteter innan de är aktiva, men han kan inte godkänna att en aktivitet startas. Någon med godkännanderättigheter för konsumentwebbplatsen, men inte Jan i det här scenariot, måste godkänna aktiviteten innan den kan tas i produktion.
+   Eftersom Ernie är ganska ny i organisationen och lite oerfaren av Target har han redigeringsbehörigheter för konsumentwebbplatsen. Med redigerarbehörigheter kan Ernie skapa och redigera aktiviteter innan de är aktiva, men han kan inte godkänna att en aktivitet startas - någon med godkännanderättigheter för konsumentwebbplatsen, men inte Jan i det här scenariot, måste godkänna aktiviteten innan den kan tas i produktion.
 
    Eftersom Ernie inte har någon roll som gör det nödvändigt att han ser webbplatsen kan han inte se aktiviteter för den sajten.
 
