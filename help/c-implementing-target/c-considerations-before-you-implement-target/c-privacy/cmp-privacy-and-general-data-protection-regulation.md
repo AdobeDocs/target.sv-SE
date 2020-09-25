@@ -1,14 +1,14 @@
 ---
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar er organisation och Adobe Target.
-title: Information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar er organisation och Adobe Target.
+title: Sekretess- och dataskyddsbestämmelser
 feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
 workflow-type: tm+mt
-source-wordcount: '2274'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Som personuppgiftsansvariga avgör du vilka personuppgifter som [!DNL Adobe] bea
 
 [!DNL Adobe Experience Cloud] tillhandahålla GDPR-förberedda API:er för datacentraler som gör att de kan utföra följande uppgifter:
 
-* Åtkomst till information om registrerade som lagras i [!DNL Target]
+* Åtkomst till information om registrerade personer som lagras i [!DNL Target]
 * Ta bort information om registrerade som lagras i [!DNL Target]
 
 Mer information finns i:
@@ -139,11 +139,11 @@ Sammanställda eller anonyma data (t.ex. rapportdata) som inte identifierar en v
 
 >[!NOTE]
 >
->Även om [!DNL Target] [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies från första part för GDPR och CCPA.
+>Även om [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies [!DNL Target] från första part för GDPR och CCPA.
 
 ### Hur [!DNL Target] hanterar vi samtyckeshantering? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
-GDPR och CCPA ändras inte när du behöver få samtycke, utan hur du får det. Varje kunds strategi för samtycke är beroende av dess datainsamling och dataanvändning samt av dess integritetspolicy. Hantering av samtycke stöds inte av och bör inte göras via [!DNL Target] GDPR och CCPA.
+GDPR och CCPA ändras inte när du behöver få samtycke, utan hur du får det. Varje kunds strategi för samtycke är beroende av dess datainsamling och dataanvändning samt av dess integritetspolicy. Samtyckeshantering stöds inte av och bör inte göras via [!DNL Target] GDPR och CCPA.
 
 [!DNL Adobe] erbjuder för närvarande inte någon lösning för hantering av samtycke, men det finns olika verktyg på marknaden som kan hantera vissa av de nya kraven. Mer information om sekretessverktyg i allmänhet, inklusive medgivandeansvariga, finns i [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) på webbplatsen *International Association of Privacy Professionals (iaap)* .
 
@@ -207,15 +207,15 @@ Utöver kraven från den centrala Privacy Servicen [!DNL Target] innehåller ett
 | Status för begäran | Målsvarsmeddelande | Scenario |
 |--- |--- |--- |
 | Bearbetar | Bearbetar | Målet tog emot GDPR- eller CCPA-begäran och bearbetar den. |
-| Slutförd | Ej tillämpligt - företagskontexten är inte tillämplig | IMS-ID:t i GDPR- eller CCPA-begäran mappas inte till någon målklient.<br>Observera att vissa företag har flera IMS-ID:n. Du måste skicka det IMS-ID där Target har etablerats. |
+| Slutförd | Ej tillämpligt - företagskontexten är inte tillämplig | IMS-ID:t i GDPR- eller CCPA-begäran mappas inte till någon målklient.<br>Observera att vissa företag har flera IMS ID:n. Du måste skicka det IMS-ID där Target har etablerats. |
 | Slutförd | Ej tillämpligt - användarkontexten hittades inte | Det ID som anges i GDPR- eller CCPA-begäran för den specifika besökaren eller den angivna registrerade personen finns inte i målprofilens arkiv.<br>Observera att det här resultatet också returneras om du försöker skicka en typ av namnområdes-ID som inte stöds av Target (se ovan för vilka ID som stöds). |
 | Fel | Felmeddelande (informationen beror på feltypen) | Ett fel uppstod vid hämtning eller borttagning av den begärda dataobjektprofilen.<br>Ett fel uppstod vid överföring till Azure för åtkomstbegäran. |
 
 ### Vilket svar skickar Target till GDPR API för en åtkomstbegäran? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
-Svar på begäran om åtkomst av data innehåller en sammanfattning av profilen för den berörda besökaren [!DNL Target] . Observera att denna retur skickas till [!DNL Experience Cloud] GDPR API, som i sin tur skickar ett svar till Data Controllers.
+Svar på begäran om åtkomst av data innehåller en sammanfattning av den aktuella besökarens [!DNL Target] profil. Observera att denna retur skickas till [!DNL Experience Cloud] GDPR API, som i sin tur skickar ett svar till Data Controllers.
 
-Ett exempel på ett API-svar för [!DNL Target] åtkomst kan se ut så här:
+Ett exempel på [!DNL Target] åtkomst-API-svar kan se ut så här:
 
 ```
 { 
