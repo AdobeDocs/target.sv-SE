@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Dubbla citattecken måste undantas. Det `"[""test"", ""value""]"` är till exemp
 
 Du kan ta med upp till 500 värden i ett flervärdesattribut.
 
-**Använda targetPageParams**
+### Använda targetPageParams
 
 I följande exempel visas hur du använder `targetPageParams`
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**Använda CSV**
+### Använda CSV
 
 Du kan hantera dina CSV-filer i Raw-format med en textredigerare eller använda kalkylbladsprogram.
 
@@ -108,7 +108,7 @@ När du konverterar till CSV-format lägger kalkylbladsprogrammet till citatteck
 
 Var försiktig när du redigerar en CSV-fil med Raw-katalog direkt.
 
-**Använda API:er**
+### Använda API:er
 
 Du kan skicka flervärdesattribut med leverans-API:t i en mbox-parameter som ett strängvärde som innehåller en escape-matris.
 
@@ -261,7 +261,6 @@ Exempel:
 
 När `entity.genre=["genre1","genre2"]` refereras i en design som `$entity<N>.genre`blir resultatet `genre1, genre2`.
 
->[!MORELIKETHIS]
->
->* [Entitetsattribut](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## Relaterade ämnen:
 
+* [Entitetsattribut](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
