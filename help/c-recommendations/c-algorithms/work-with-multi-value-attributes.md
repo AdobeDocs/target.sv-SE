@@ -4,7 +4,7 @@ description: Information om hur du arbetar med ett flervärdesfält i Adobe Targ
 title: Arbeta med attribut med flera värden i Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: af7e7d1fa0e1d56f86d63187a10b3b8f31ca62c8
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -89,7 +89,7 @@ JSON API-representation av inkluderingsregeln:
     "attribute": "id",
     "operation": "isNotContainedInList",
     "source": {
-        "name": " user.lastWatchedMovies",
+        "name": "user.lastWatchedMovies",
         "type": "PROFILE"
     }
 } 
