@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,10 @@ Listan med rapportsviter som visas i Target Standard/Premium är listan med rapp
 
 ## Jag ser inte så mycket data i rapporter som förväntat. {#section_75002584FA63456D8D9086172925DD8D}
 
-Granska implementeringen, särskilt på sidor där besökarna är berättigade till upplevelser, och se till att ID:n för kompletterande data matchar i [!DNL Target] och [!DNL Analytics] i samtal. I [!DNL Target] anropet finns det kompletterande ID:t i `mboxMCSDID` parametern. I [!DNL Analytics] anropet finns det kompletterande ID:t i `sdid` parametern.
+Granska implementeringen, särskilt på sidor där besökarna är berättigade till upplevelser, och se till att ID:n för kompletterande data matchar i [!DNL Target] och [!DNL Analytics] i samtal.
+
+* **at.js 1.x**: I [!DNL Target] anropet finns det kompletterande ID:t i `mboxMCSDID` parametern. I [!DNL Analytics] anropet finns det kompletterande ID:t i `sdid` parametern.
+* **at.js 2.x**: Det extra ID:t returneras som värde i HTTP-huvudet `experienceCloud.analytics.supplementalDataId`.
 
 Om det inte finns något ytterligare data-ID i [!DNL Target] anropet bekräftar du att [!DNL VisitorAPI.js] filen har lästs in före [!DNL at.js] eller [!DNL mbox.js]. Om det inte finns något ytterligare data-ID i [!DNL Analytics] samtalet bekräftar du att [!DNL Target] samtalet utlöses före [!DNL Analytics] samtalet.
 
