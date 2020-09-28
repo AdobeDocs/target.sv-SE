@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,12 @@ Granska implementeringen, särskilt på sidor där besökarna är berättigade t
 
 * **at.js 1.x**: I [!DNL Target] anropet finns det kompletterande ID:t i `mboxMCSDID` parametern. I [!DNL Analytics] anropet finns det kompletterande ID:t i `sdid` parametern.
 * **at.js 2.x**: Det extra ID:t returneras som värde i HTTP-huvudet `experienceCloud.analytics.supplementalDataId`.
+
+Det enklaste sättet att undersöka det kompletterande ID:t är att använda Adobe Experience Platform Debugger.
+
+Om du inte har installerat felsökaren läser du [Introduktion till Adobe Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+
+![Felsökning](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
 Om det inte finns något ytterligare data-ID i [!DNL Target] anropet bekräftar du att [!DNL VisitorAPI.js] filen har lästs in före [!DNL at.js] eller [!DNL mbox.js]. Om det inte finns något ytterligare data-ID i [!DNL Analytics] samtalet bekräftar du att [!DNL Target] samtalet utlöses före [!DNL Analytics] samtalet.
 
