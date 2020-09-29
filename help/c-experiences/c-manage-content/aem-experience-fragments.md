@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: e846109c476f98b4adc09d8b9dd2c2ef039b5ef7
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ Du kan använda upplevelsefragment i [!DNL Target] aktiviteter med [Visual Exper
 * [!DNL Target] letar efter upplevelsefragment som ska importeras var tionde minut. Det importerade upplevelsefragmentet bör vara tillgängligt inom [!DNL Target] tio minuter, men den här tidsramen bör korta av framgången.
 * Experience fragment importeras för närvarande till [!DNL Target] som ett HTML-erbjudande. Observera att den &quot;primära&quot; versionen för upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 * Du kan importera JSON-erbjudanden som upplevelsefragment till [!DNL Target]. Erbjudandena importeras dock som HTML-erbjudanden. JSON-erbjudanden (upplevelsefragment) stöds för närvarande inte helt i [!DNL Target] användargränssnittet.
+* Du kan inte skapa upplevelsefragment med Adobe IO. Du måste skapa upplevelsefragment med AEM, vilket förklaras ovan.
 
 ## Utbildningsvideo: Använda AEM upplevelsefragment med Adobe Target ![självstudiemärke](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
