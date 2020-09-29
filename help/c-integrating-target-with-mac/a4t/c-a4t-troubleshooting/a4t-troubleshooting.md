@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Listan med rapportsviter som visas i Target Standard/Premium är listan med rapp
 Granska implementeringen, särskilt på sidor där besökarna är berättigade till upplevelser, och se till att ID:n för kompletterande data matchar i [!DNL Target] och [!DNL Analytics] i samtal.
 
 * **at.js 1.x**: I [!DNL Target] anropet finns det kompletterande ID:t i `mboxMCSDID` parametern. I [!DNL Analytics] anropet finns det kompletterande ID:t i `sdid` parametern.
-* **at.js 2.x**: Det extra ID:t returneras som värde i HTTP-huvudet `experienceCloud.analytics.supplementalDataId`.
+* **at.js 2.x**: I [!DNL Target] anropet returneras det extra ID:t i HTTP-huvudet som värde för `experienceCloud.analytics.supplementalDataId`. I [!DNL Analytics] anropet finns det kompletterande ID:t i `sdid` parametern.
 
 Det enklaste sättet att undersöka det kompletterande ID:t är att använda Adobe Experience Platform Debugger.
 
