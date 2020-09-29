@@ -5,7 +5,7 @@ title: Entitetsattribut
 feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: ed4f132dbf1ac8614f4aac8bd29b39b3dfbce2fe
+source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) -enhetsattribut{#entity-attributes}
 
-Använd entitetsattribut för att skicka produkt- eller innehållsinformation till Â.
+Använd entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Adobe Target Recommendations].
 
 [!DNL Recommendations] skickar `productId` eller `productPurchasedId` (kallas `entity.id` i koden) som används i algoritmerna.
 
