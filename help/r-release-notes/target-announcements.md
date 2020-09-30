@@ -5,9 +5,9 @@ title: Målmeddelanden
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ Kommentarer och information om kommande evenemang, inklusive Target SKill Builde
 ## Adobe har återigen utnämnts till ledare i Gartner Magic Quadrant for Personalization Engines
 
 Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra. [Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Webbseminarium: Adaptiv, finjusterad personalisering i skala med Adobe Target och Analytics
+
+* **Tisdagen den 27 oktober 2020**
+* **8 am PT | 10 am CT | 11.00 ET**
+* **Varaktighet: 60 minuter**
+
+Digitala implementeringar ökar redan nu, vilket gör att helt nya kundsegment kan digitaliseras och de förväntar sig mycket av att hitta det de behöver och få exceptionell vård och kundservice. Personalisering är en nödvändig förutsättning för att ni ska kunna anpassa er till en omedelbar förändring och utveckla ert företag inför framtiden.
+
+På det här webbinariet kommer vi att visa hur [!DNL Adobe Target] kan vidta åtgärder med förtroende för [!DNL Analytics] insikter och målgruppssegment, vilket säkerställer att företag i olika branscher snabbt kan utveckla sin verksamhet med hjälp av AI-baserad personalisering, med en fullständig bild av hur de presterar i Analytics-förbättrad rapportering.
+
+På det här webbinariet får du lära dig:
+
+* Hur den unika integrationen mellan servrar och servrar [!DNL Adobe Analytics] [!DNL Adobe Target] möjliggör en enhetlig profil, målgrupper och rapportering för snabb prestandadriven personalisering
+* Tips och tricks om hur företag sparar timmar i&quot;analysparalys&quot; och personaliserar snabbt sina kritiska kundinteraktioner i stor skala
+
+[Anmäl dig här för detta spännande event.](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
 
 ## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
