@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
 workflow-type: tm+mt
-source-wordcount: '29015'
+source-wordcount: '29558'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,40 @@ Versionsinformation för tidigare Target-versioner, inklusive versionsinformatio
 >Se Versionsinformation om [Target (aktuell)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2020
+
+### Target Standard/Premium 20.8.3 (15 september 2020)
+
+| Funktion | Detaljer |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Analytics for Target-stöd (A4T) för Automatisk målaktivitet | [!UICONTROL Auto-Target] Nu har aktiviteter stöd för [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Tack vare den här integreringen kan ni använda algoritmen för [!UICONTROL Auto-Target] maskininlärning för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och sammanhang.<br>Om du redan har [implementerat A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) för användning med A/B Test- och Experience Targeting-aktiviteter är allt klart!<br>Mer information finns i [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation*. |
+
+### Target Standard/Premium 20.8.2 (10 september 2020)
+
+| Funktion | Detaljer |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Control-rekommendationer, platser inom villkorssekvenser | Med villkorssekvenser kan du nu styra antalet platser som tas upp av varje rekommendationsvillkor, vilket gör att du kan blanda och matcha olika typer av objekt eller olika algoritmlogik.<br>Mer information finns i [Skapa villkorssekvenser](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
+
+### Target Standard/Premium 20.8.1 (2 september 2020)
+
+Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
+
+* Korrigerade ett problem som orsakade att fel visades när de nya [!UICONTROL Administration] sidorna lästes in efter bytet av organisationer. (TGT-37730)
+* Korrigerade ett visningsproblem som gjorde att fel klientkod visades på [!UICONTROL Administration > Implementation] sidan. (TGT-37849)
+* Korrigerade ett fel som ibland förhindrade användare från att använda redigeringsfunktionerna i [!UICONTROL Visual Experience Composer] (VEC) efter att ha läst in VEC. (TGT-37162)
+* Korrigerade ett problem som förhindrade att sidor lästes in i VEC och Enhanced Experience Composer (EEC) trots att VEC Helper-tillägget installerades. Detta berodde på ändringar i Google Chrome 80+. Ladda ned det [uppdaterade VEC Helper-tillägget](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md). (TGT-37893)
+* Korrigerade ett problem som ibland förhindrade användare från att hämta at.js från [!UICONTROL Administration > Implementation] sidan efter att ha bytt organisation. (TGT-37668)
+* Nedladdningsknappen at.js är nu inaktiverad vid inläsning för att förhindra att flera begäranden skickas om användare klickar på nedladdningsknappen flera gånger. [!DNL Target] (TGT-37633)
+* Korrigerade ett problem i [!UICONTROL Experience Targeting] (XT)-aktiviteter som gjorde att upplevelser visade &quot;hämtningsresultat&quot; under en längre tid. (TGT-37684)
+* Förbättrad navigering och funktionalitet för användare som bara använder tangentbordet. (TGT-34479 &amp; TGT-34473)
+* Etiketter har lagts till i användargränssnittet för att underlätta för användare som använder hjälpmedelstekniker. (TGT-34480)
+* Förbättrade felmeddelandet när en mobil visningsruta som används i en aktivitet tas bort. Felmeddelandet visas nu: &quot;Den här visningsrutan är för närvarande associerad med en eller flera aktiviteter. Du måste ta bort visningsrutan från dessa aktiviteter innan du kan ta bort den.&quot; (TGT-37030)
+* Stöd har lagts till i VEC för klickspårning på en CSS-väljare som matchar mer än ett element på sidan. (TGT-37323)
+* Ett problem som gjorde att vissa användare inte kunde visa [!UICONTROL Activity] listan har korrigerats. Följande felmeddelande visades: &quot;Det gick inte att hämta URL-förslag.&quot; Felet uppstod för användare som använder vagnreturer i FirstName (FirstName/r/n) i Adobe Backend-systemet. (TGT-37330)
+* Korrigerade ett problem som gjorde att användare inte kunde visa [!UICONTROL Activity] sidan om arbetsytans namn (som anges i [!UICONTROL Adobe Admin Console for Enterprise]) innehåller en apostrof. (TGT-37709)
+* Korrigerade ett fel i [!UICONTROL Auto-Allocate] aktiviteter när optimerings- och konverteringsmått valdes, där ett felmeddelande felaktigt informerade användarna om att de skulle välja en rapportserie, trots att en rapportserie redan hade angetts. (TGT-37689)
+* Korrigerade ett problem som ibland orsakade att mätvärden på [!UICONTROL Goals and Settings] sidan blev tomma efter att du navigerade till [!UICONTROL Targeting] sidan och sedan tillbaka. (TGT-37691)
+* Korrigerade ett problem som orsakade ett felaktigt värde för senaste ändring för [!DNL Recommendations] villkor. (TGT-37666)
+* Korrigerade ett problem som gjorde att mbox-ID:n visades i listrutan Mboxes i stället för i mbox-namn. (TGT-37739)
 
 ### .js 2.3.2 (24 juli 2020)
 
@@ -1186,7 +1220,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
 Den här [!DNL Target] versionen innehåller följande kundtillvända förbättringar, korrigeringar och ändringar:
 
 * Nu kan du bläddra på sidan och ordna om upplevelserna i steg 2 i det guidade arbetsflödet i tre steg när du skapar aktiviteter. (TGT-27652)
-* Du kan högerklicka på en aktivitet i aktivitetslistan för att öppna aktiviteten på en ny flik. I Firefox högerklickar du till exempel på önskad aktivitet > Öppna länk på ny flik. (TGT-27409)
+* Du kan högerklicka på en aktivitet i aktivitetslistan för att öppna aktiviteten på en ny flik. I Firefox kan du till exempel högerklicka på önskad aktivitet > Öppna länk på ny flik. (TGT-27409)
 * Förbättrade prestanda på sidan Design (Recommendations > Designs). Snabbheten för att visa och söka efter design har förbättrats. (TGT-21792)
 * at.js är nu standardimplementeringsalternativet som ska hämtas. (TGT-24676)
 * URL-verifiering tillåter nu användning av dubbla bindestreck i URL:en. Tidigare gick det inte att läsa in en URL med dubbla bindestreck i Visual Experience Composer (VEC). (TGT-28176)
