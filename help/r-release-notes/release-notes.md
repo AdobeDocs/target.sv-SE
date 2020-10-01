@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 0%
