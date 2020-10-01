@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
