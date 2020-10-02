@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: d2c733b83fc0f53abd72e6279bb51e296d7a5840
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -130,10 +130,18 @@ Följande måtttyper stöds inte som primära målmått:
 
 ### Begränsningar och anteckningar
 
+**Automatisk fördelning och Automatisk målgruppsanpassning**
+
 * Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller vice versa efter att en aktivitet har aktiverats.
 * Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. [!DNL Target] normaliserar automatiskt konverteringsmåtten per besök för att ta hänsyn till ojämn trafikfördelning, så det är inte nödvändigt att använda ett beräknat mätvärde för att utföra normaliseringen.
 * [!DNL Target] använder attribueringsmodellen&quot;Same Touch&quot; i A4T-implementeringen [!UICONTROL Auto-Allocate] .
+
+**Automatisk allokering**
+
 * [!UICONTROL Auto-Allocate] modellerna fortsätter att träna varannan timme som vanligt.
+
+**Automatiskt mål**
+
 * [!UICONTROL Auto-Target] modellerna fortsätter att träna var 24:e timme som vanligt. Konverteringshändelsedata som kommer från [!DNL Analytics] fördröjs dock med ytterligare 6 till 24 timmar. Förseningen innebär att trafiken distribueras genom [!DNL Target] att de senaste händelser som registreras i [!DNL Analytics]spåras. Detta kommer att få störst effekt inom de första 48 timmarna efter det att en aktivitet först har aktiverats. Aktivitetens prestanda kommer att mer noggrant spegla [!DNL Analytics] konverteringsbeteendet efter fem dagar. Du bör överväga att använda [!UICONTROL Auto-Allocate] istället [!UICONTROL Auto-Target] för korttidsaktiviteter där den största trafiken sker inom de första fem dagarna av aktivitetens livstid.
 * När du använder [!DNL Analytics] som datakälla för en [!UICONTROL Auto-Target] aktivitet anses sessionerna vara avslutade efter sex timmar. Konverteringar som inträffar efter sex timmar räknas inte.
 
