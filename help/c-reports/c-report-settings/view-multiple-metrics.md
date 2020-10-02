@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;multiple metrics;metrics
+keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
 description: Välj flera mätvärden som ska visas i en rapport med Adobe Target.
 title: Visa flera mätvärden i en rapport med Adobe Target
 feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 # Visa flera mätvärden i en rapport{#view-multiple-metrics-in-a-report}
 
-Välj flera mätvärden som ska visas i en rapport.
+Du kan välja flera mätvärden att visa i en [!DNL Adobe Target] rapport.
 
 Tänk på följande när du arbetar med flera mätvärden i rapporter:
 
-* Det går endast att visa flera mätvärden för [A/B-tester](/help/c-activities/t-test-ab/test-ab.md) och XT-aktiviteter ( [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) ).
+* Det går endast att visa flera mätvärden för [A/B-tester](/help/c-activities/t-test-ab/test-ab.md), [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md)och [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) -aktiviteter (XT).
 * Du kan inte lägga till fler än 20 mätvärden i en rapport för en aktivitet som använder [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Du kan lägga till så många mätvärden som du har i din aktivitet i rapporter för aktiviteter som *inte* använder A4T.
 * Du kan inte använda alternativet [](/help/c-reports/downloading-data-in-csv-file.md) Hämta för att hämta rapporter till CSV om du har valt flera mätvärden. Du måste bara välja ett mått för att aktivera [!UICONTROL Download] alternativet.
-* Du kan inte visa flera mått för aktiviteter som skapats före målversionen från juli 2015 (30 juli 2015).
+* Du kan inte visa flera värden för aktiviteter som skapats före juli 2015- [!DNL Target] versionen (30 juli 2015).
 
 **Så här väljer du flera mätvärden som ska visas i rapporten:**
 
@@ -43,10 +43,10 @@ Tänk på följande när du arbetar med flera mätvärden i rapporter:
 
    Det måste finnas minst ett mått i [!UICONTROL Shown Metrics] listan.
 
-   Du kan ändra måtten genom att dra och släppa dem i önskad ordning i [!UICONTROL Shown Metrics] listan. Den valda ordningen visas i tabellvyn och diagramvyn. Om du vill ta bort ett mätresultat från [!UICONTROL Shown Metrics] listan håller du muspekaren över mätvärdet och klickar sedan på **X** -ikonen.
+   Du kan ändra måtten genom att dra och släppa dem i önskad ordning i [!UICONTROL Shown Metrics] listan. Den valda ordningen återspeglas i [!UICONTROL Table View] och [!UICONTROL Graph View]. Om du vill ta bort ett mätresultat från [!UICONTROL Shown Metrics] listan håller du muspekaren över mätvärdet och klickar sedan på **X** -ikonen.
 
 1. Klicka **[!UICONTROL Save]** när du är klar.
-1. (Villkorligt) Håll muspekaren över kolumnrubriken för ett mätresultat när du visar rapporten i tabellvyn så att en blå pil visas. Klicka på pilen för att expandera tabellen så att den visas [!UICONTROL Lift] och [!UICONTROL Confidence] för det måttet.
+1. (Villkorligt) Håll muspekaren över kolumnrubriken för ett mätresultat när du visar rapporten i [!UICONTROL Table View]och visa en blå pil. Klicka på pilen för att expandera tabellen så att den visas [!UICONTROL Lift] och [!UICONTROL Confidence] för det måttet.
 
    ![](assets/multiple_metrics_table.png)
 
