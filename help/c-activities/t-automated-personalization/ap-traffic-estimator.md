@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -69,4 +69,4 @@ Tänk på följande vanliga frågor och svar när du arbetar med [!UICONTROL Tra
 
 Under vissa omständigheter kan trafiken vara tillräckligt stor för att en personaliserad modell ska kunna byggas, men trafiken kan informera om [!DNL Target] att det inte finns någon meningsfull skillnad mellan den personaliserade modellen och slumpmässigt. Även om modellen är inbyggd [!DNL Target] och testad kommer den inte att distribueras eftersom modellen inte är betydligt bättre än slumpmässig.
 
-En möjlig orsak till att modellen inte är bättre än sällan är att erbjudandena inte skiljer sig nämnvärt från varandra. Om så är fallet kan du försöka öka skillnaderna i erbjudanden genom att göra dem mer visuellt annorlunda eller genom att ändra själva innehållet.
+En möjlig orsak till att modellen inte är bättre än slumpmässigt kan vara att erbjudandena inte skiljer sig nämnvärt från varandra. Om så är fallet kan du försöka öka skillnaderna i erbjudanden genom att göra dem mer visuellt annorlunda eller genom att ändra själva innehållet.
