@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 1c4c634fe80ba3a91ee3245871fc27c8a8684067
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Information om åtkomst [!DNL Adobe Target] från [!DNL Adobe Experience Cloud]s
 
    ![programikon](/help/c-intro/assets/appmenu-new.png)
 
-1. (Valfritt) Om du vill ange [!DNL Target] som standardvy när du loggar in [!DNL Experience Cloud]**[!UICONTROL Edit Profile]** klickar du under din profilavatar och anger sedan din inställning för landningssida.
+1. (Valfritt) Om du vill ange [!DNL Target] som standardvy när du loggar in [!DNL Experience Cloud]klickar du **[!UICONTROL Edit Profile]** under din profilavatar och anger sedan din inställning för landningssida.
 
    ![Landningssida](/help/c-intro/assets/pagepref-new.png)
 
@@ -92,15 +92,3 @@ Dokumentationen finns på följande språk: [!DNL Target]
 * Förenklad kinesiska
 * Traditionell kinesiska
 * Koreanska
-
-## Utbildningsvideo: Adobe Target i Experience Cloud (4:59) ![Översikt](/help/assets/overview.png)
-
-Den här videon innehåller information om [!DNL Adobe Target] i [!DNL Experience Cloud].
-
-* Beskriv och förstå Adobe Experience Cloud värde
-* Logga in på Adobe Experience Cloud med din Adobe ID eller skapa en Adobe ID
-* Bjud in en ny användare till Adobe Experience Cloud
-* Länka ditt Target-konto till Adobe Experience Cloud
-* Ange Adobe Target som standardlandningssida
-
->[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)
