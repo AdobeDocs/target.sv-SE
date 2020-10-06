@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Specialiserade rapporter är tillgängliga för användare av Automated Personalization.
+description: Specialiserade rapporter är tillgängliga för användare av Automated Personalization-aktiviteter i Adobe Target.
 title: Automated Personalization Sammanfattningsrapporter
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization Sammanfattningsrapporter{#automated-personalization-summary-reports}
 
-Specialiserade rapporter är tillgängliga för användare av Automated Personalization.
+Specialiserade rapporter är tillgängliga för användare av aktiviteter [!UICONTROL Automated Personalization] i [!DNL Adobe Target].
 
 >[!NOTE]
 >
->Automated Personalization ingår i [!DNL Target Premium] lösningen. Det ingår inte [!DNL Target Standard] utan en [Target Premium-licens](/help/c-intro/intro.md#premium).
+>[!UICONTROL Automated Personalization] finns som en del av [!DNL Target Premium] lösningen. Det ingår inte [!DNL Target Standard] utan en [Target Premium-licens](/help/c-intro/intro.md#premium).
 
 1. Klicka **[!UICONTROL Activities]** på önskad [!UICONTROL Automated Personalization] aktivitet i listan och klicka sedan på **[!UICONTROL Reports]** fliken.
 
@@ -41,7 +41,7 @@ Standardreglerna för resultattolkning för A/B-tester gäller fortfarande, inkl
 
 I rapporten [!UICONTROL Offer Level] för Random Forest Experience jämförs resultatet för varje algoritmtillämpat erbjudande med samma slumpmässiga erbjudande (Control). Erbjudandena bör därför inte jämföras med varandra i denna vy.
 
-Klicka på upplevelsealgoritmen (Slumpmässig skog eller kontroll) för att visa rapporten Erbjudandenivå.
+Klicka på upplevelsealgoritmen (Slumpmässig skog eller kontroll) för att visa [!UICONTROL Offer Level] rapporten.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -50,3 +50,19 @@ Erbjudandena kan visas i rapportgrupper och dessa kan komprimeras och utökas. V
 >[!NOTE]
 >
 >Klockikonen indikerar att algoritmmodellen fortfarande byggs. Kryssmarkeringsikonen anger att basalgoritmen har upprättats.
+
+## Automatiska segment
+
+Klicka på [!UICONTROL Automated Segments] ikonen. Den här rapporten visar hur olika besökare svarar annorlunda på erbjudanden/upplevelser i din AP/AT-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av Target personaliseringsmodeller svarade på erbjudandena/upplevelserna i aktiviteten.
+
+![Ikon för automatiserade segment](/help/c-reports/assets/icon-automated-sements-ap.png)
+
+Mer information finns i [rapporten](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)Automatiska segment.
+
+## Viktiga attribut
+
+Klicka på [!UICONTROL Important Attributes] ikonen. Den här rapporten visar hur olika attribut är viktigare (eller mindre) i olika aktiviteter för hur modellen bestämmer sig för att personalisera. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse.
+
+![Ikon för viktiga attribut](/help/c-reports/assets/icon-important-attributes-ap.png)
+
+Mer information finns i [rapporten](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Viktiga attribut.
