@@ -6,7 +6,7 @@ seo-description: Adobe Target är en Adobe Experience Cloud-lösning som innehå
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] är den [!DNL Adobe Experience Cloud] lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen så att ni kan maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 1 oktober 2020 ([se vad som ändrats](r-release-notes/doc-change.md))**
+**Senast uppdaterad: 7 oktober 2020 ([se vad som ändrats](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
