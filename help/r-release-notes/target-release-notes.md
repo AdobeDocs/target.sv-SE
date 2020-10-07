@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 23 september 2020**
+**Senast uppdaterad: 7 oktober 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -39,13 +39,13 @@ Information om den aktuella versionen finns i [Versionsinformation](release-note
 * **Målmeddelanden**: På sidan med målmeddelanden hittar du information om kommande evenemang, bland annat om sessioner i Target SKill Builder, chats för utvecklare, webbinarier och sessioner med Target Coffee Break. Mer information finns i [Målmeddelanden](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.9.1 (30 september 2020)
+## Target Standard/Premium 20.10.1 (27 oktober 2020)
 
-Den här underhållsversionen innehåller följande förbättringar, korrigeringar och ändringar:
+Den här versionen innehåller följande nya funktioner:
 
-* Förbättrad navigering och funktionalitet för användare som bara använder tangentbordet. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
-* Etiketter har lagts till i användargränssnittet för att underlätta för användare som använder hjälpmedelstekniker. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
-* Förbättrad text och färgkontrast för bilder och text i användargränssnittet. (TGT-34513)
+| Funktion | Detaljer |
+| --- | --- |
+| Beslut på enheten | Med enhetsbeslut kan både marknadsförare och produktutvecklare leverera experimentella och maskininlärningsdrivna personaliseringar från en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet. Med beslut på enheter kan marknadsförare och nu produktutvecklare testa och optimera upplevelser direkt inifrån en användarenhet, minska beslut och lasttider till nästan noll för sammanhangsbaserade realtidsupplevelser.<br>Med enhetsspecifika beslut kan ni sammanställa alla instruktioner för personalisering och experiment på&quot;optimeringsartefakter&quot;, som laddas på kundenheter. Dessa nolllatenser-artefakter ger marknadsförarna en-till-en-personalisering, beteendeåtermarknadsföring och rekommendationer av produkter och innehåll i realtid, samtidigt som utvecklare och produktägare får direkt kodåtkomst för att testa användarupplevelser och mål- och fasproduktlanseringar, vilket förbättrar i realtid. Och eftersom enhetsbeslut kan kopplas till [!DNL Adobe Experience Cloud] [!DNL Target] produkter får användarna snabb analys och snabbare upplevelseiterationer. |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
