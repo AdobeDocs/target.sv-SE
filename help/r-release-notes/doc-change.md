@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '2484'
+source-wordcount: '2497'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 7 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.10.1. |
 | 1 oktober | [Uppskatta den trafik som krävs för att lyckas](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Avsnittet Vanliga frågor och svar har lagts till. |
 | 30 september | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande webbinarium:<ul><li>Adaptiv, finjusterad personalisering i skala med Adobe Target och Analytics</li></ul> |
 |  | [Versionsinformation](/help/r-release-notes/release-notes.md): 20.9.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
