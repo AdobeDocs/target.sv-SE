@@ -5,9 +5,9 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3680'
 ht-degree: 0%
 
 ---
@@ -24,22 +24,6 @@ Information om kända fel i den här versionen av Target. Innehåller även info
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 I följande avsnitt listas kända problem för [!DNL Target]:
-
-### Rapportering
-
-Konverteringar ökar för närvarande på olika sätt beroende på vilken målgrupp som används.
-
-Om antalet konverteringar till exempel är inställt på ökningen &quot;En gång per post:&quot; för samma besökare
-
-* Målgrupp: &quot;Alla kvalificerade besökare&quot; för konverteringar på besöksnivå ökar endast en gång. Detta är det förväntade beteendet.
-* Målgrupp: &quot;Nya besökare&quot; för konverteringar på besöksnivå ökar felaktigt varje gång, i stället för att bara öka en gång. Detta är inte det förväntade beteendet.
-
-Om antalet konverteringar är inställt på ökning &quot;Vid varje intryck:&quot;
-
-* Målgrupp: &quot;Alla kvalificerade besökare&quot; för konverteringar på besökarnivå ökar felaktigt bara en gång i stället för att öka varje gång. Detta är inte det förväntade beteendet.
-* Målgrupp: &quot;Nya besökare&quot; ökar antalet konverteringar på besökarnivå varje gång. Detta är det förväntade beteendet.
-
-Observera att det här problemet endast är relaterat till [!DNL Target] rapportering. Detta är inte något problem när [!UICONTROL Analytics for Target] (A4T)-rapportering används.
 
 ### Sidleverans {#page-delivery}
 
@@ -142,6 +126,24 @@ Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetik
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan är lösta flyttas de till följande avsnitt och ytterligare anteckningar läggs till om det behövs.
+
+### Rapportering
+
+Konverteringar ökar för närvarande på olika sätt beroende på vilken målgrupp som används.
+
+Om antalet konverteringar till exempel är inställt på ökningen &quot;En gång per post:&quot; för samma besökare
+
+* Målgrupp: &quot;Alla kvalificerade besökare&quot; för konverteringar på besöksnivå ökar endast en gång. Detta är det förväntade beteendet.
+* Målgrupp: &quot;Nya besökare&quot; för konverteringar på besöksnivå ökar felaktigt varje gång, i stället för att bara öka en gång. Detta är inte det förväntade beteendet.
+
+Om antalet konverteringar är inställt på ökning &quot;Vid varje intryck:&quot;
+
+* Målgrupp: &quot;Alla kvalificerade besökare&quot; för konverteringar på besökarnivå ökar felaktigt bara en gång i stället för att öka varje gång. Detta är inte det förväntade beteendet.
+* Målgrupp: &quot;Nya besökare&quot; ökar antalet konverteringar på besökarnivå varje gång. Detta är det förväntade beteendet.
+
+Observera att det här problemet endast är relaterat till [!DNL Target] rapportering. Detta är inte något problem när [!UICONTROL Analytics for Target] (A4T)-rapportering används.
+
+Problemet löstes.
 
 ### Sidor som inte läses in i Visual Experience Composer (VEC) eller Enhanced Experience Composer (EEC) när Google Chrome version 80+ används
 
