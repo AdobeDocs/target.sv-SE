@@ -5,9 +5,9 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4abd3678914c3866b08f56c5594df285cd903e08
+source-git-commit: 72ea4544313bcfd1d39c1a4ce63bb41fcad699c5
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3757'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetik
 
 Eftersom kända problem ovan är lösta flyttas de till följande avsnitt och ytterligare anteckningar läggs till om det behövs.
 
-### Automatisk målrapportering (#at-metrics)
+### Automatisk målrapportering {#at-metrics}
 
 Ett problem som påverkade [!DNL Adobe Target Premium] användarnas [!UICONTROL Auto-Target] rapportering har åtgärdats från och med 15 september 2:30. (PDT) till 6 oktober kl. 9.25. (PDT). När du visar rapporter om påverkad konverteringsstatistik (konfigurerad med antingen alternativet [!UICONTROL Viewed a page]&quot; eller&quot;[!UICONTROL Clicked on mbox]&quot;) rapporteras konverteringsgraden felaktigt. Det finns för närvarande inget känt leveransproblem.
 
