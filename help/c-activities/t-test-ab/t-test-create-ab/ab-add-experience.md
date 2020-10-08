@@ -5,7 +5,7 @@ title: Lägg till upplevelse
 feature: ab
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 9213d4c09cd6fa8cf76ca5325d1bcf3c12ad72f1
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Mer information om upplevelser finns i [Erfarenheter](../../../c-experiences/exp
    >
    >Om du levererar en bild från en annan källa än din huvudsida (till exempel en bild som finns på akamai.net och som finns på dell.com) visas inte den bilden i miniatyrbilden för sidan som visas i flödesdiagrammet.
 
-1. Klicka **[!UICONTROL Save]** när du är klar med designen av upplevelsen.
+1. Klicka **[!UICONTROL Save]** när du är klar med designen.
 
 ## Byt namn på upplevelsen
 
