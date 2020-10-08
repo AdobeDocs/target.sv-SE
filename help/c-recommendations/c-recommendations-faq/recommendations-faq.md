@@ -5,7 +5,7 @@ title: Vanliga frågor om Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 0%
@@ -198,3 +198,4 @@ NO_CONTENT returneras när rekommendationer inte är tillgängliga för den beg�
 * Delvis mallåtergivning är inaktiverat och det finns inte tillräckligt med resultat för att fylla mallen.
 
    Detta inträffar vanligtvis när du har en regel för dynamisk inkludering, som innebär att många objekt filtreras bort från de möjliga resultaten. Du kan undvika detta genom att aktivera säkerhetskopieringar och inte tillämpa inkluderingsregeln på säkerhetskopieringar, eller använda villkoren i följd med ett mindre aggressivt filtrerat villkor.
+
