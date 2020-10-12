@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '2595'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | --- | --- | --- |
 | 12 oktober | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Uppdaterat [Hämta den auktoriseringstoken som ska användas med felsökningsverktyg](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) för att ange den behörighetsnivå som du måste generera en autentiseringstoken. |
 |  | [Profil-API-inställningar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Uppdaterat ämne för att ange behörighetsnivån som du måste generera en autentiseringstoken. |
+|  | [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) | En riktig framgångsberättelse med Auto-Target har lagts till. |
 |  | [Inkludera samma upplevelse på liknande sidor](/help/c-experiences/c-visual-experience-composer/temtest.md) | Avsnittet som förklarar hur samma aktivitet återges i hela domänen har lagts till. |
 | 8 oktober | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Följande lösta problem har lagts till:<ul><li>[Automatisk målrapportering](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Följande problem har flyttats från avsnittet Kända fel till avsnittet Lösta problem:<ul><li>[Rapportering](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Hybrid-implementering](/help/c-implementing-target/hybrid-implementation.md) | Nytt ämne. |
