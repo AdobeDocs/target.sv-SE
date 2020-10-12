@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,18 @@ mboxDebug är särskilt användbart när du konfigurerar [!DNL Target] på sidan
 ## Hämta den auktoriseringstoken som ska användas med felsökningsverktyg {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Eftersom mboxTrace och mboxDebug kan visa kampanjdata och profildata för externa parter krävs en auktoriseringstoken. Auktoriseringstoken kan hämtas i [!DNL Target] användargränssnittet. Token gäller i sex timmar.
+
+Du måste ha någon av följande användarbehörigheter för att generera en autentiseringstoken:
+
+* Åtminstone [!UICONTROL Editor] tillstånd (eller [!UICONTROL Approver])
+
+   Mer information för [!DNL Target Standard] kunder finns i [Ange roller och behörigheter](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) i *Användare*. Mer information om [!DNL Target Premium] kunder finns i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* Administratörsroll på arbetsyta/produktprofilnivå
+
+   Arbetsytor är bara tillgängliga för [!DNL Target Premium] kunder. Mer information finns i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* Administratörsrättigheter (systemadministratörsbehörighet) på [!DNL Adobe Target] produktnivå
 
 Så här hämtar du auktoriseringstoken:
 
@@ -53,7 +65,7 @@ Följande parametrar är tillgängliga:
 | `?mboxTrace=window` | Skriver ut i ett popup-fönster som en JSON-sträng |
 | `?mboxTrace=disable` | Inaktiverar spårningssessionsläge |
 
-**Exempel på mboxTrace Call**
+**Exempel på mboxTrace-anrop**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -66,7 +78,7 @@ En del av informationen innehåller matchade och omatchade segment- och mål-ID:
 * **Omatchad**: Begäran var inte berättigad i denna inbjudan för dessa segment eller mål.
 * **Matchad**: Begäran kvalificerad för de angivna segmenten eller målen.
 
-**Använda mboxTrace på Recommendations-sidor**: Om du lägger till mboxTrace som en frågeparameter på sidor med rekommendationer ersätts Recommendations-designen på sidan med ett mboxTrace-informationsfönster, som visar detaljerad information om dina rekommendationer, inklusive:
+**Använda mboxTrace på rekommendationssidor**: Om du lägger till mboxTrace som en frågeparameter på sidor med rekommendationer ersätts Recommendations-designen på sidan med ett mboxTrace-informationsfönster, som visar detaljerad information om dina rekommendationer, inklusive:
 
 * Recommendations returnerade jämfört med begärda rekommendationer
 * Nyckeln som används och om den genererar rekommendationer
@@ -130,9 +142,9 @@ Uppgradera till [!DNL mbox.js] version 58 eller senare.
 
 mbox.js version 58 och senare kör icke-JavaScript-innehåll för den globala [!DNL Target] begäran omedelbart efter att HTML- `BODY` -taggen finns. JavaScript-innehåll inuti `<script>` -taggar för den globala [!DNL Target] begäran körs efter att `DOMContentLoaded` händelsen har utlösts. Den här ordningen för innehållsleverans säkerställer att JavaScript-innehåll för den globala [!DNL Target] begäran levereras och återges korrekt.
 
-## Målcookie hämtar inte uppsättning {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Målcookie har inte angetts {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Om platsen har en underdomän, till exempel [!DNL us.domain.com]men du behöver ha Target-cookien inställd [!DNL domain.com] (i stället för [!DNL us.domain.com]), måste du åsidosätta `cookieDomain` inställningen. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Om platsen har en underdomän, till exempel [!DNL us.domain.com]men du behöver ha Target-cookien inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]), måste du åsidosätta `cookieDomain` inställningen. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Målinnehållet flimrar eller visas inte om ett element också ingår i AEM. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
