@@ -2,15 +2,15 @@
 product: target
 audience: end-user
 user-guide-title: Adobe Target Guide
-breadcrumb-title: Target Guide
-user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+breadcrumb-title: Målguide
+user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -178,7 +178,7 @@ ht-degree: 0%
       + [Innan du implementerar](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analyser för Target-implementering](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Krav på användarbehörighet](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [Skapa aktivitet](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [Skapa en aktivitet som använder Analytics som rapportkälla](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [Använda en analysspårningsserver](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T-rapportering](c-integrating-target-with-mac/a4t/reporting.md)
       + Felsöka integreringen med Analytics och Target (A4T) {#troubleshoot-a4t}
@@ -334,7 +334,7 @@ ht-degree: 0%
       + [Omdirigera till en URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Skapa Carousel som fungerar i Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Formulärbaserad Experience Composer](c-experiences/form-experience-composer.md)
-   + [Visual Experience Composer för Single Page App (SPA)](c-experiences/spa-visual-experience-composer.md)
+   + [Visual Experience Composer (SPA) med en sida](c-experiences/spa-visual-experience-composer.md)
    + Erbjudanden {#offers}
       + [Översikt över erbjudanden](c-experiences/c-manage-content/manage-content.md)
       + [Skapa erbjudandemapp](c-experiences/c-manage-content/create-content-folder.md)
