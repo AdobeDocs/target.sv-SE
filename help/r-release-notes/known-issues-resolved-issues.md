@@ -5,15 +5,15 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2092247f235233d9628dc001a5e898df0aa9da8c
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '3757'
+source-wordcount: '3860'
 ht-degree: 0%
 
 ---
 
 
-# Kända problem och lösta problem{#known-issues-and-resolved-issues}
+# Kända problem och lösta problem
 
 Information om kända fel i den här versionen av Target. Innehåller även information om problem som har lösts.
 
@@ -24,6 +24,12 @@ Information om kända fel i den här versionen av Target. Innehåller även info
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 I följande avsnitt listas kända problem för [!DNL Target]:
+
+### Analyser för målvärden (A4T) för aktiviteterna Automatisk fördelning och Automatisk målanpassning
+
+Det finns ett känt fel i [!DNL Target] användargränssnittet som gör att användare kan välja interaktions- och intäktsmått som inte stöds som det primära målmåttet för optimering av [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter. Konverteringsmått stöds. interaktions- och intäktsmått stöds *inte* . Om du väljer mått för engagemang eller intäktsmål skapas ingen optimeringsmodell (även om målgränssnittet tillåter att du väljer målmått som inte stöds).
+
+En lista över målvärden som stöds och inte stöds finns i [Målmått](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) som stöds i *Skapa en aktivitet som använder Analytics som rapportkälla*. (TNT-38409)
 
 ### Sidleverans {#page-delivery}
 
@@ -56,7 +62,7 @@ Följande är kända problem med omdirigeringserbjudanden:
 
    Om du byter till en annan upplevelse och sedan växlar tillbaka till&quot;Experience B&quot; [!DNL Target] visas omdirigeringsmallen för URL som används på den här upplevelsen och [!UICONTROL Modifications] panelen är inte tillgänglig. (TGT-32138)
 
-* Om du avbryter inläsningen av SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder under [!UICONTROL Modifications] panelen.
+* Om du avbryter inläsningen för SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder under [!UICONTROL Modifications] panelen.
 
 ### Recommendations
 
