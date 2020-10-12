@@ -1,26 +1,26 @@
 ---
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Du kan konfigurera en aktivitet i Target Standard/Premium så att Adobe Analytics används som rapportkälla (A4T).
-title: Skapa aktivitet
+title: Skapa en aktivitet som använder A4T som rapportkälla
 feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e501100ba149472169f11072fd1663095dd40612
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
 
 
-# Skapa aktivitet{#activity-creation}
+# Skapa en aktivitet som använder Analytics som rapportkälla
 
 Du kan konfigurera en aktivitet i [!DNL Target] som ska användas [!DNL Adobe Analytics] som rapportkälla (A4T).
 
 Innan du ställer in en aktivitet som använder [!DNL Analytics] som rapportkälla måste du fastställa målet för aktiviteten, till exempel att förbättra intäkterna per besökare eller öka antalet klick i kundvagnen. Välj ett slutligt framgångsmått för aktiviteten. Även om du kan välja ytterligare mått när som helst i [!DNL Analytics]måste du ändå ange ett visst mått som testet ska påverka.
 
-## Skapa en aktivitet som använder Analytics som rapportkälla
+## Skapa aktiviteten
 
 Att skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] som rapportkälla liknar att skapa en vanlig [!DNL Target] aktivitet, med några viktiga skillnader. Du kan till exempel inte välja ett segment för rapportering när du skapar aktiviteten eftersom alla segment som är tillgängliga i [!DNL Analytics] kan användas när du visar en rapport.
 
