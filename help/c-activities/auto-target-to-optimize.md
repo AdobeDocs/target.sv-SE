@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: Auto-Target i Adobe Target använder avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser för att personalisera innehåll och driva konverteringar. Auto-Target levererar den mest skräddarsydda upplevelsen till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler.
 title: Automatiskt mål
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3639'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Auto-Target{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) Auto-Target
 
 [!UICONTROL Auto-Target] använder avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser för att personalisera innehåll och driva konverteringar. Auto-Target levererar den mest skräddarsydda upplevelsen till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler.
 
@@ -21,11 +22,19 @@ ht-degree: 0%
 >
 >[!UICONTROL Auto-Target] finns som en del av [!DNL Target Premium] lösningen. Den här funktionen är inte tillgänglig i [!DNL Target Standard] utan [!DNL Target Premium] licens. Mer information om de avancerade funktionerna i den här licensen finns i [Target Premium](/help/c-intro/intro.md).
 
+## Goda erfarenheter i verkligheten med Auto-Target {#success}
+
+En stor klädhandlare använde nyligen en aktivitet med tio produktkategoribaserade upplevelser (plus slumpmässig kontroll) för att leverera rätt innehåll till varje besökare. [!UICONTROL Auto-Target] &quot;[!UICONTROL Add to Cart]&quot; valdes som primärt optimeringsmått. De riktade upplevelserna hade en genomsnittlig ökning på 29,09 %. Efter att ha skapat [!UICONTROL Auto-Target] modellerna var aktiviteten satt till 90 % personaliserade upplevelser.
+
+På bara tio dagar uppnåddes mer än 1 700 000 dollar i lyft.
+
+Fortsätt läsa för att lära dig hur ni kan använda [!UICONTROL Auto-Target] för att öka lyft och intäkter för er organisation.
+
+## Översikt {#section_972257739A2648AFA7E7556B693079C9}
+
 När du [skapar en A/B-aktivitet med det guidade arbetsflödet](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)i tre steg kan du välja att fördela trafik med [!UICONTROL Auto-Target For Personalized Experiences] alternativet:
 
 ![Automatisk målgruppsanpassning för personaliserade upplevelser](/help/c-activities/assets/auto-target-ui-new.png)
-
-## Översikt {#section_972257739A2648AFA7E7556B693079C9}
 
 Med [!UICONTROL Auto-Target] alternativet i A/B-aktivitetsflödet kan ni utnyttja maskininlärning för att personalisera baserat på en uppsättning marknadsföringsdefinierade upplevelser med ett enda klick. [!UICONTROL Auto-Target] är utformat för att ge maximal optimering, jämfört med traditionell A/B-testning eller automatisk fördelning, genom att avgöra vilken upplevelse som ska visas för varje besökare. Till skillnad från en A/B-aktivitet där målet är att hitta en enskild vinnare avgör [!UICONTROL Auto-Target] automatiskt den bästa upplevelsen för en viss besökare (baserat på hans eller hennes profil och annan sammanhangsbaserad information) för att leverera en mycket personaliserad upplevelse.
 
@@ -117,7 +126,7 @@ Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto
 
 * Detta kan vara konverteringsbaserat eller intäktsbaserat (mer specifikt Intäkter per besök).
 
-**Algoritmen stöder inte användning[!DNL Analytics]som datakälla eller rapportslutpunkt.**
+**Algoritmen stöder inte användning [!DNL Analytics] som datakälla eller rapportslutpunkt.**
 
 **Target samlar automatiskt in information om besökare för att skapa personaliseringsmodeller.**
 
@@ -241,7 +250,7 @@ Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTR
 
 Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utmaningar du kan ställas inför när du använder [!UICONTROL Auto-Target]och några förslag på lösningar.
 
-**Min[!UICONTROL Auto-Target]aktivitet tar för lång tid att skapa modeller.**
+**Min [!UICONTROL Auto-Target] aktivitet tar för lång tid att skapa modeller.**
 
 Det finns flera ändringar av aktivitetsinställningarna som kan minska den förväntade tiden att skapa modeller, bland annat antalet upplevelser i din [!UICONTROL Auto-Target] aktivitet, trafiken till din webbplats och det valda framgångsmåttet.
 
@@ -252,7 +261,7 @@ Det finns flera ändringar av aktivitetsinställningarna som kan minska den för
 * Finns det några upplevelser du kan släppa från din aktivitet? Om du minskar antalet upplevelser i en aktivitet minskar tiden för att skapa modeller.
 * Finns det någon sida med högre trafik där den här aktiviteten skulle bli mer framgångsrik? Ju mer trafik och konverteringar ni har på er aktivitetsplats, desto snabbare blir modellerna.
 
-**Min[!UICONTROL Auto-Target]aktivitet genererar ingen hiss.**
+**Min [!UICONTROL Auto-Target] aktivitet genererar ingen hiss.**
 
 Det krävs fyra faktorer för att en AP-aktivitet ska kunna generera lyft:
 
