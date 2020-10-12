@@ -6,7 +6,7 @@ seo-description: Adobe Target är en Adobe Experience Cloud-lösning som innehå
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] är den [!DNL Adobe Experience Cloud] lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen så att ni kan maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 8 oktober 2020 ([Se vad som ändrats](r-release-notes/doc-change.md))**
+**Senast uppdaterad: 12 oktober 2020 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 
 ## Utvecklare {#developers}
 
-- [Implementeringsmål](c-implementing-target/implementing-target.md): Beskriver hur du implementerar [!DNL Target] på webbplatser, mobilappar, SPA (Single-Page Apps) och iOT/OTT-plattformar.
+- [Implementeringsmål](c-implementing-target/implementing-target.md): Beskriver hur du implementerar [!DNL Target] på webbplatser, mobilappar, appar för en sida (SPA) och iOT/OTT-plattformar.
 - [Målserversides-API:er](https://developers.adobetarget.com/api/delivery-api/): Beskriver de resurser som utgör Adobe Target Delivery API.
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Beskriver hur du distribuerar på målservern. Denna Node.js SDK hjälper er att enkelt integrera Target med andra Adobe Experience Cloud-lösningar.
 - [Mål-Java SDK](https://github.com/adobe/target-java-sdk): Beskriver hur du distribuerar på målservern. Denna Java SDK hjälper dig att enkelt integrera Target med andra Adobe Experience Cloud-lösningar.
