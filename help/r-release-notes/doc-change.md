@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2595'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 12 oktober | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Uppdaterat [Hämta den auktoriseringstoken som ska användas med felsökningsverktyg](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) för att ange den behörighetsnivå som du måste generera en autentiseringstoken. |
+|  | [Profil-API-inställningar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Uppdaterat ämne för att ange behörighetsnivån som du måste generera en autentiseringstoken. |
+|  | [Inkludera samma upplevelse på liknande sidor](/help/c-experiences/c-visual-experience-composer/temtest.md) | Avsnittet som förklarar hur samma aktivitet återges i hela domänen har lagts till. |
 | 8 oktober | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Följande lösta problem har lagts till:<ul><li>[Automatisk målrapportering](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Följande problem har flyttats från avsnittet Kända fel till avsnittet Lösta problem:<ul><li>[Rapportering](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Hybrid-implementering](/help/c-implementing-target/hybrid-implementation.md) | Nytt ämne. |
 | 7 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.10.1. |
