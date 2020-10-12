@@ -1,27 +1,27 @@
 ---
 keywords: implementation;api;profile;profile api settings;authentication token
-description: Aktivera eller inaktivera autentisering för batchuppdateringar via API och generera en profilautentiseringstoken.
-title: Profil-API-inställningar
+description: Aktivera eller inaktivera autentisering för batchuppdateringar via Adobe Target API:er och generera en profilautentiseringstoken.
+title: Profil-API-inställningar i Adobe Target
 feature: api
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 
-# Profil-API-inställningar{#profile-api-settings}
+# Profil-API-inställningar
 
-Aktivera eller inaktivera autentisering för batchuppdateringar via API och generera en profilautentiseringstoken.
+Aktivera eller inaktivera autentisering för batchuppdateringar via Adobe Target API:er och generera en profilautentiseringstoken.
 
-[!DNL Adobe Target] skapar och underhåller en profil för varje enskild användare. Den här profilen lagras i [!DNL Target] edge-klustret och uppdateras i realtid efter varje besök, men du kan uppdatera en profil individuellt eller gruppvis via API.
+[!DNL Adobe Target] skapar och underhåller en profil för varje enskild användare. Den här profilen lagras i [!DNL Target] edge-klustret och uppdateras i realtid efter varje besök. Du kan dock uppdatera en profil individuellt eller gruppvis via API.
 
-För ökad säkerhet kan du kräva att API-anropet för gruppuppdatering kräver att en giltig åtkomsttoken skickas i huvudet för begäran. Användare med [!UICONTROL Approver] behörigheter kan generera och aktivera autentiseringstoken för profil-API.
+För ökad säkerhet kan du kräva att API-anropet för gruppuppdatering kräver att en giltig åtkomsttoken skickas i huvudet för begäran.
 
 **Så här kräver du autentisering och genererar en åtkomsttoken med hjälp av målgränssnittet:**
 
@@ -30,12 +30,23 @@ För ökad säkerhet kan du kräva att API-anropet för gruppuppdatering kräver
 
    ![](assets/profile_api_settings.png)
 
-1. (Villkorligt) Om du har aktiverat autentiseringskrav klickar du på **[!UICONTROL Generate New Pfofile Authentication Token]**.
+1. (Villkorligt) Om du har aktiverat autentiseringskrav klickar du på **[!UICONTROL Generate New Profile Authentication Token]**.
 
    ![](assets/profile_api_settings_2.png)
 
    Token förfaller enligt den tid som anges i [!UICONTROL Expires In] rutan.
 
+   Du måste ha någon av följande användarbehörigheter för att generera en autentiseringstoken:
+
+   * Åtminstone [!UICONTROL Editor] tillstånd (eller [!UICONTROL Approver])
+
+      Mer information för [!DNL Target Standard] kunder finns i [Ange roller och behörigheter](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) i *Användare*. Mer information om [!DNL Target Premium] kunder finns i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+   * Administratörsroll på arbetsyta/produktprofilnivå
+
+      Arbetsytor är bara tillgängliga för [!DNL Target Premium] kunder. Mer information finns i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+   * Administratörsrättigheter (systemadministratörsbehörighet) på [!DNL Adobe Target] produktnivå
    >[!NOTE]
    >
    >Du kan också generera en profilautentiseringstoken via API. Mer information finns i [Profiler](https://developers.adobetarget.com/api/#profiles) på webbplatsen [för](https://developers.adobetarget.com/)Adobe Target-utvecklare.
