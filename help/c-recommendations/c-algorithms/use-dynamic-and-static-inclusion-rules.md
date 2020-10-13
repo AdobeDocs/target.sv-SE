@@ -6,9 +6,9 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '2091'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,25 @@ I följande tabell visas olika filtreringsalternativ för både villkor och kamp
 
 ### Dynamisk filtrering
 
+Dynamiska inkluderingsregler är kraftfullare än statiska inkluderingsregler och ger bättre resultat och engagemang. Tänk på följande:
+
+* Dynamiska inkluderingsregler ger rekommendationer genom att matcha ett attribut i en användares profilparameter eller i ett mbox-anrop.
+
+   Du kan t.ex. skapa en rekommendation för de mest populära villkoren och sedan filtrera bort eventuella, i realtid, mot ett attribut som skickas när användaren öppnar en sida där rekommendationerna visas.
+
+* Använd statiska regler för att begränsa vilka objekt som ska tas med i rekommendationen (i stället för samlingar).
+
+* Du kan skapa så många dynamiska inkluderingsregler som behövs. Inkluderingsreglerna kopplas till en AND-operator. Alla regler måste uppfyllas för att ett objekt ska kunna inkluderas i en rekommendation.
+
 Följande alternativ är tillgängliga för dynamisk filtrering:
 
 #### Matchande entitetsattribut
 
 Filtrera dynamiskt genom att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användarna har interagerat med.
 
-Rekommendera t.ex. endast objekt som matchar det aktuella objektets varumärke.
+Rekommendera till exempel endast objekt som matchar det aktuella objektets varumärke som i följande exempel:
+
+Om rutan på en Varumärkeslandningssida returneras `entity.brand=Nike`returneras endast Nike-produkter och visas på den sidan. På samma sätt returneras endast Adidas-produkter på varumärkets landningssida för Adidas. Med den här typen av regel för dynamisk inkludering behöver användaren bara ange en rekommendationsregel som returnerar relevanta varumärkesresultat på alla varumärkessidor i stället för att ange en samling eller ett statiskt filter som matchar varje varumärkesnamn.
 
 Tillgängliga operatorer:
 
@@ -66,31 +78,79 @@ Tillgängliga operatorer:
 
 Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i användarens profil.
 
-Rekommendera t.ex. endast objekt som matchar besökarens favoritvarumärke.
+Använd [!UICONTROL Profile Attribute Matching] när du vill visa rekommendationer som matchar ett värde som lagras i besökarens profil, till exempel storlek eller favoritmärke.
 
-Tillgängliga operatorer:
+I följande exempel visas hur du kan använda [!UICONTROL Profile Attribute Matching]:
 
-* är lika med
-* är inte lika med
-* innehåller
-* innehåller inte
-* börjar med
-* slutar med
-* är större än eller lika med
-* är mindre än eller lika med
-* är mellan
+* Ett företag som säljer glasögon lagrar besökarens favoritfärg som &quot;valnöt&quot;. För just den besökaren har vi skapat en rekommendation som bara returnerar ögongruppsbildrutor som matchar&quot;valnöt&quot; i färg.
+* En profilparameter kan definieras för en besökares kläder (t.ex. liten, mellanstor eller stor) när de navigerar på företagets webbplats. En rekommendation kan ställas in för att matcha profilparametern och returnera produkter som bara är specifika för användarens önskade klädstorlek.
+
+Låt oss titta på ett exempel för att rekommendera kläder som matchar den klädstorlek som angetts i besökarens profil.
+
+Produktsidan skickas `entity.size` i mbox-anropet (röd pil i bilden nedan).
+
+Du kan skapa ett [profilskript](/help/c-target/c-visitor-profile/profile-parameters.md) för att hämta besökarens profilattribut och värden från den sista sidan som besökaren besökte.
+
+Exempel:
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Profilskriptet hämtar `entity.size` värdet från rutan `target-global-mbox` och returnerar det som ett profilattribut med namnet `user.size` (blå pil i bilden nedan).
+
+![storleksanrop](/help/c-recommendations/c-algorithms/assets/size.png)
+
+När du skapar rekommendationskriterierna klickar du på [!UICONTROL Add Filtering Rule]och väljer [!UICONTROL Profile Attribute Matching].
+
+![Bild på matchning av profilattribut](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Om din `user.size` profil har lästs in i [!DNL Target]visas den i listrutan för matchning när du ställer in regeln så att den matchar värdet som skickades i mbox-anropet (`size`) till profilskriptnamnet (`user.size`).
+
+Du kan sedan välja &quot;size&quot; &quot;equals&quot; (storlek) som är lika med värdet/texten i &quot;user.size&quot; för din profilattributsmatchning.
+
+När profilattributreglerna har skapats filtrerar de bort alla rekommendationer som har attribut som inte matchar besökarens lagrade profilattribut.
+
+Ett visuellt exempel på hur profilattributsmatchning påverkar rekommendationer finns på en webbplats som säljer fans.
+
+När en besökare klickar på olika bilder av fans på den här webbplatsen anger varje sida parameterns värde baserat på om storleken på fläkten i bilden är liten eller stor. `entity.size`
+
+Anta att du har skapat ett profilskript för att spåra och räkna antalet gånger som värdet för `entity.size` är inställt på small kontra large.
+
+Om besökaren sedan kommer tillbaka till hemsidan, kommer han eller hon att se filtrerade rekommendationer baserat på om användaren klickade på fler små fans eller stora fans.
+
+Recommendations bygger på en webbplats där fler små fans finns:
+
+![rekommendationer för små fans](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations bygger på fler stora fans på webbplatsen:
+
+![rekommendationer för stora fläktar](/help/c-recommendations/c-algorithms/assets/large-fans.png)
 
 #### Parametermatchning
 
 Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).
 
-Rekommendera t.ex. endast innehåll som matchar sidparametern&quot;branschsida&quot;.
+Rekommendera t.ex. bara innehåll som matchar parametern&quot;branschsida&quot; eller andra parametrar som enhetsdimensioner eller geolokalisering, som i följande exempel.
 
-Viktigt: Om aktiviteten skapades före 31 oktober 2016 misslyckas leveransen om det använder filtret Parametermatchning. Så här undviker du problemet:
+* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och endast rekommendera mobila enheter och tillbehör.
+* Regionala geopositioneringsparametrar kan användas för att returnera rekommendationer för verktyg under vintern. Snöblåsare och andra verktyg för att minska snön kan rekommenderas för besökare i områden där det snöar men inte för besökare i områden där det inte snöar.
 
-* Skapa en ny aktivitet och lägg till dina villkor i den.
-* Använd ett villkor som inte innehåller filtret Parametermatchning.
-* Ta bort filtret &quot;Parametermatchning&quot; från villkoren.
+>[!NOTE]
+>
+>Om aktiviteten skapades före 31 oktober 2016 misslyckas leveransen om det använder filtret Parametermatchning. Så här undviker du problemet:
+>
+>* Skapa en ny aktivitet och lägg till dina villkor i den.
+>* Använd ett villkor som inte innehåller filtret Parametermatchning.
+>* Ta bort filtret &quot;Parametermatchning&quot; från villkoren.
+
 
 Tillgängliga operatorer:
 
