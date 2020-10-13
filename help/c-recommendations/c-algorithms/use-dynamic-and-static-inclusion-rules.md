@@ -6,9 +6,9 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 2d7435c420326a7eb1a59c95befa87b06c7614c8
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2081'
 ht-degree: 0%
 
 ---
@@ -66,59 +66,12 @@ Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i anvä
 
 Använd [!UICONTROL Profile Attribute Matching] när du vill visa rekommendationer som matchar ett värde som lagras i besökarens profil, till exempel storlek eller favoritmärke.
 
-I följande exempel visas hur du kan använda [!UICONTROL Profile Attribute Matching]:
+Följande scenarier visar hur du kan använda [!UICONTROL Profile Attribute Matching]:
 
 * Ett företag som säljer glasögon lagrar besökarens favoritfärg som &quot;valnöt&quot;. För just den besökaren har vi skapat en rekommendation som bara returnerar ögongruppsbildrutor som matchar&quot;valnöt&quot; i färg.
 * En profilparameter kan definieras för en besökares kläder (t.ex. liten, mellanstor eller stor) när de navigerar på företagets webbplats. En rekommendation kan ställas in för att matcha profilparametern och returnera produkter som bara är specifika för användarens önskade klädstorlek.
 
-Låt oss titta på ett exempel för att rekommendera kläder som matchar den klädstorlek som angetts i besökarens profil.
-
-Produktsidan skickas `entity.size` i mbox-anropet (röd pil i bilden nedan).
-
-Du kan skapa ett [profilskript](/help/c-target/c-visitor-profile/profile-parameters.md) för att hämta besökarens profilattribut och värden från den sista sidan som besökaren besökte.
-
-Exempel:
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-Profilskriptet hämtar `entity.size` värdet från rutan `target-global-mbox` och returnerar det som ett profilattribut med namnet `user.size` (blå pil i bilden nedan).
-
-![storleksanrop](/help/c-recommendations/c-algorithms/assets/size.png)
-
-När du skapar rekommendationskriterierna klickar du på [!UICONTROL Add Filtering Rule]och väljer [!UICONTROL Profile Attribute Matching].
-
-![Bild på matchning av profilattribut](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Om din `user.size` profil har lästs in i [!DNL Target]visas den i listrutan för matchning när du ställer in regeln så att den matchar värdet som skickades i mbox-anropet (`size`) till profilskriptnamnet (`user.size`).
-
-Du kan sedan välja &quot;size&quot; &quot;equals&quot; (storlek) som är lika med värdet/texten i &quot;user.size&quot; för din profilattributsmatchning.
-
-När profilattributreglerna har skapats filtrerar de bort alla rekommendationer som har attribut som inte matchar besökarens lagrade profilattribut.
-
-Ett visuellt exempel på hur profilattributsmatchning påverkar rekommendationer finns på en webbplats som säljer fans.
-
-När en besökare klickar på olika bilder av fans på den här webbplatsen anger varje sida parameterns värde baserat på om storleken på fläkten i bilden är liten eller stor. `entity.size`
-
-Anta att du har skapat ett profilskript för att spåra och räkna antalet gånger som värdet för `entity.size` är inställt på small kontra large.
-
-Om besökaren sedan kommer tillbaka till hemsidan, kommer han eller hon att se filtrerade rekommendationer baserat på om användaren klickade på fler små fans eller stora fans.
-
-Recommendations bygger på en webbplats där fler små fans finns:
-
-![rekommendationer för små fans](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-Recommendations bygger på fler stora fans på webbplatsen:
-
-![rekommendationer för stora fläktar](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+Mer exempel och instruktioner finns i Exempel på matchning av [profilattribut](#section_9873E2F22E094E479569D05AD5BB1D40) nedan.
 
 #### Parametermatchning
 
@@ -126,7 +79,7 @@ Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begä
 
 Rekommendera t.ex. bara innehåll som matchar parametern&quot;branschsida&quot; eller andra parametrar som enhetsdimensioner eller geolokalisering, som i följande exempel.
 
-* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och bara rekommendera mobila enheter och tillbehör.
+* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och endast rekommendera mobila enheter och tillbehör.
 * Regionala geopositioneringsparametrar kan användas för att returnera rekommendationer för verktyg under vintern. Snöblåsare och andra verktyg för att minska snön kan rekommenderas för besökare i områden där det snöar men inte för besökare i områden där det inte snöar.
 
 >[!NOTE]
@@ -253,11 +206,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### Exempel 3: Rekommendera kläder som matchar besökarens storlek
+
+Låt oss titta på ett exempel för att rekommendera kläder som matchar den klädstorlek som angetts i besökarens profil.
+
+Produktsidan skickas `entity.size` i mbox-anropet (röd pil i bilden nedan).
+
+Du kan skapa ett [profilskript](/help/c-target/c-visitor-profile/profile-parameters.md) för att hämta besökarens profilattribut och värden från den sista sidan som besökaren besökte.
+
+Exempel:
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Profilskriptet hämtar `entity.size` värdet från rutan `target-global-mbox` och returnerar det som ett profilattribut med namnet `user.size` (blå pil i bilden nedan).
+
+![storleksanrop](/help/c-recommendations/c-algorithms/assets/size.png)
+
+När du skapar rekommendationskriterierna klickar du på [!UICONTROL Add Filtering Rule]och väljer [!UICONTROL Profile Attribute Matching].
+
+![Bild på matchning av profilattribut](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Om din `user.size` profil har lästs in i [!DNL Target]visas den i listrutan för matchning när du ställer in regeln så att den matchar värdet som skickades i mbox-anropet (`size`) till profilskriptnamnet (`user.size`).
+
+Du kan sedan välja &quot;size&quot; &quot;equals&quot; (storlek) som är lika med värdet/texten i &quot;user.size&quot; för din profilattributsmatchning.
+
+När profilattributreglerna har skapats filtrerar de bort alla rekommendationer som har attribut som inte matchar besökarens lagrade profilattribut.
+
+### Exempel 4: Rekommendera objekt baserat på storlek
+
+Ett visuellt exempel på hur profilattributsmatchning påverkar rekommendationer finns på en webbplats som säljer fans.
+
+När en besökare klickar på olika bilder av fans på den här webbplatsen anger varje sida parameterns värde baserat på om storleken på fläkten i bilden är liten eller stor. `entity.size`
+
+Anta att du har skapat ett profilskript för att spåra och räkna antalet gånger som värdet för `entity.size` är inställt på small kontra large.
+
+Om besökaren sedan kommer tillbaka till hemsidan, kommer han eller hon att se filtrerade rekommendationer baserat på om användaren klickade på fler små fans eller stora fans.
+
+Recommendations bygger på en webbplats där fler små fans finns:
+
+![rekommendationer för små fans](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations bygger på fler stora fans på webbplatsen:
+
+![rekommendationer för stora fläktar](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## Exempel på matchning av enhetsattribut
 
 [!UICONTROL Entity Attribute Matching] I kan du endast rekommendera de objekt som matchar ett attribut från det objekt som användaren för närvarande visar, det objekt som användaren senast visade, det objekt som användaren senast köpte, det objekt som användaren oftast visade eller från ett objekt som sparats i ett anpassat attribut i besökarens profil, som i exemplen nedan.
 
-### Exempel 3: Merförsäljning av en dyrare produkt
+### Exempel 5: Merförsäljning av en dyrare produkt
 
 Anta att du är en klädhandlare och vill uppmuntra användarna att överväga högre priser och därmed mer lönsamma artiklar. Du kan använda operatorerna &quot;equals&quot; och &quot;is between&quot; för att marknadsföra dyrare objekt från samma kategori och samma varumärke. En skohandlare kan till exempel marknadsföra dyrare skor i ett försök att sälja in en besökare som tittar på skor.
 
@@ -272,7 +278,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### Exempel 4: Marknadsföring av privata märkesprodukter
+### Exempel 6: Marknadsföring av privata märkesprodukter
 
 Du kan blanda dynamiska och statiska filter för att marknadsföra privata etikettprodukter. Ett kontorsföretag kan till exempel marknadsföra tonerkassetter för företagets varumärke för att få en mer lönsam försäljning för en besökare som tittar på toner - och marknadsföra pennor från företagets varumärke för att få en mer lönsam försäljning för en besökare som tittar på pennor.
 
