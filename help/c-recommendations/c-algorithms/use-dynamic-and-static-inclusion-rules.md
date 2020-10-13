@@ -6,9 +6,9 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2056'
 ht-degree: 0%
 
 ---
@@ -59,20 +59,6 @@ Filtrera dynamiskt genom att jämföra en pool med potentiella rekommendationsob
 Rekommendera till exempel endast objekt som matchar det aktuella objektets varumärke som i följande exempel:
 
 Om rutan på en Varumärkeslandningssida returneras `entity.brand=Nike`returneras endast Nike-produkter och visas på den sidan. På samma sätt returneras endast Adidas-produkter på varumärkets landningssida för Adidas. Med den här typen av regel för dynamisk inkludering behöver användaren bara ange en rekommendationsregel som returnerar relevanta varumärkesresultat på alla varumärkessidor i stället för att ange en samling eller ett statiskt filter som matchar varje varumärkesnamn.
-
-Tillgängliga operatorer:
-
-* är lika med
-* är inte lika med
-* är mellan
-* innehåller
-* innehåller inte
-* börjar med
-* slutar med
-* värde finns
-* värdet finns inte
-* är större än eller lika med
-* är mindre än eller lika med
 
 #### Matchning av profilattribut
 
@@ -140,7 +126,7 @@ Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begä
 
 Rekommendera t.ex. bara innehåll som matchar parametern&quot;branschsida&quot; eller andra parametrar som enhetsdimensioner eller geolokalisering, som i följande exempel.
 
-* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och endast rekommendera mobila enheter och tillbehör.
+* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och bara rekommendera mobila enheter och tillbehör.
 * Regionala geopositioneringsparametrar kan användas för att returnera rekommendationer för verktyg under vintern. Snöblåsare och andra verktyg för att minska snön kan rekommenderas för besökare i områden där det snöar men inte för besökare i områden där det inte snöar.
 
 >[!NOTE]
