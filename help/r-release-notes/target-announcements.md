@@ -5,9 +5,9 @@ title: Målmeddelanden
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ Kommentarer och information om kommande evenemang, inklusive Target SKill Builde
 ## Adobe har återigen utnämnts till ledare i Gartner Magic Quadrant for Personalization Engines
 
 Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra. [Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target
+
+Nu mer än någonsin har marknadsförare, produktägare och utvecklare fått i uppgift att optimera den övergripande kundupplevelsen på webbplatser, i appar och på alla andra sätt de har kontakt med sina kunder. Flera verktyg med vattentäta skott och komplicerade implementeringar gör det inte enklare.
+
+På det här webbinariet diskuterar Adobe Target produktexperter hur rörliga optimeringsbeslut för kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.
+
+* **Tisdagen den 10 november 2020**
+* **10 am PT | 12:00 CT | 1:00 ET**
+
+[Anmäl dig här för detta spännande event.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webbseminarium: Adaptiv, finjusterad personalisering i skala med Adobe Target och Analytics
 
@@ -40,7 +51,7 @@ På det här webbinariet får du lära dig:
 
 ## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
-* **Under de kommande 30 dagarna kan du klicka här för att visa[webbinariet Recording](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **Under de kommande 30 dagarna kan du klicka här för att visa [webbinariet Recording](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital rapporterar att&quot;vi har vunnit fem år framåt när det gäller digital användning inom konsumenter och företag på ungefär åtta veckor.&quot; *
 
