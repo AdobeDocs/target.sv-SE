@@ -5,9 +5,9 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 31bbee408ef4490ecd3a66223e895802ba9f88e5
+source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
 workflow-type: tm+mt
-source-wordcount: '3862'
+source-wordcount: '3859'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ I följande avsnitt listas kända problem för [!DNL Target]:
 
 ### Analyser för målvärden (A4T) för aktiviteterna Automatisk fördelning och Automatisk målanpassning
 
-Det finns ett känt fel i [!DNL Target] användargränssnittet som gör att användare kan välja interaktions- och intäktsmått som inte stöds som det primära målmåttet för optimering av [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter. Konverteringsmått stöds. interaktions- och intäktsmått stöds *inte* . Om du väljer mått för engagemang eller intäktsmål (t.ex. order) kommer ingen optimeringsmodell att skapas (även om [!DNL Target] användargränssnittet för närvarande tillåter dig att välja målvärden som inte stöds).
+Det finns ett känt fel i [!DNL Target] användargränssnittet som gör att användare kan välja interaktions- och intäktsmått som inte stöds som det primära målmåttet för optimering av [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter. Konverteringsmått stöds. interaktions- och intäktsmått stöds *inte* . Om du väljer mått för engagemang eller intäktsmål kommer ingen optimeringsmodell att skapas (även om [!DNL Target] användargränssnittet tillåter att du väljer målvärden som inte stöds).
 
 En lista över målvärden som stöds och inte stöds finns i [Målmått](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) som stöds i *Skapa en aktivitet som använder Analytics som rapportkälla*. (TNT-38409)
 
