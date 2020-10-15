@@ -1,14 +1,14 @@
 ---
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-description: Med Automatisk tilldelning identifieras en vinnare bland två eller fler upplevelser och fler kunder tilldelas automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
+description: Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 title: Automatisk allokering
 feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3343'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,9 @@ Bilden visar hur den trafik som tilldelats varje upplevelse fortskrider under fl
 | ![Ansökningstillfälle 4](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **Rund 4**: Under denna runda fördelas 80 % av trafiken till upplevelserna C och D (40 % vardera). 20 % av trafiken fördelas slumpmässigt, vilket innebär att A, B, C och D var och en får 5 % av trafiken. Under denna runda fungerar upplevelse C bra.<ul><li>Algoritmen väljer upplevelsen C för att gå vidare till nästa omgång eftersom den har den högsta konverteringsgraden (vilket anges i varje aktivitets lodräta skala).</li><li>Algoritmen väljer upplevelsen D för att gå vidare eftersom den har den högsta övre gränsen för Bernsteins 95-procentiga konfidensintervall för de återstående upplevelserna.</li></ul>Upplevelserna C och D går framåt. |
 | ![Rund n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Rund n**: När aktiviteten utvecklas börjar en högpresterande upplevelse uppstå, och processen fortsätter tills det finns en vinnande upplevelse. När konfidensintervallet för den upplevelse som har den högsta konverteringsgraden inte överlappar andra upplevelsers konfidensintervall, kallas det vinnaren och ett [märke visas på aktivitetens sida](/help/c-activities/automated-traffic-allocation/determine-winner.md) och i aktivitetslistan.<ul><li>Algoritmen väljer upplevelsen C som klar vinnare</li></ul>I nuläget betjänar algoritmen 80 % av trafiken till upplevelsen C, medan 20 % av trafiken fortfarande betjänas slumpmässigt för alla upplevelser (A, B, C och D). C får totalt 85 % av trafiken. Om det osannolika skulle inträffa att vinnarens konfidensintervall börjar överlappa igen, kommer algoritmen att återgå till beteendet för runda 4 ovan.<br>**Viktigt**: Om du valde en vinnare manuellt tidigare i processen hade det varit enkelt att välja fel upplevelse. Av den anledningen är det bäst att vänta tills algoritmen bestämmer vinnarupplevelsen. |
 
-Om aktiviteten bara har två upplevelser får båda samma trafik tills Target hittar en upplevelse med 90 % förtroende. Då tilldelas 70 % av trafiken till vinnaren och 30 % till förloraren. När upplevelsen når 95 % av förtroendet tilldelas 100 % av trafiken till vinnaren och 0 % till förloraren.
+>[!NOTE]
+>
+>Om en aktivitet bara har två upplevelser får båda upplevelserna samma trafik tills de [!DNL Target] hittar en vinnande upplevelse med 75 % förtroende. Då tilldelas vinnaren 2/3 av trafiken och 1/3 till förloraren. När upplevelsen når 95 % av förtroendet tilldelas vinnaren 90 % av trafiken och 10 % tilldelas förloraren. Vi upprätthåller alltid viss trafik som skickas till&quot;förlorande&quot; upplevelsen för att undvika falska positiva utfall i det långa loppet (d.v.s. bevara lite utforskande).
 
 När en [!UICONTROL Auto-Allocate] aktivitet har aktiverats tillåts inte följande åtgärder från användargränssnittet:
 
