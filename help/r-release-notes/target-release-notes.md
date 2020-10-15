@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 14 oktober 2020**
+**Senast uppdaterad: 15 oktober 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -55,9 +55,10 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 
    ![Senast uppdaterad vid illustration av kolumner och filter](/help/r-release-notes/assets/column-and-filter.png)
 
-* Förbättrad navigering och funktionalitet för användare som bara använder tangentbordet.
-* Etiketter har lagts till i användargränssnittet för att underlätta för användare som använder hjälpmedelstekniker.
-* Förbättrad text och färgkontrast för bilder och text i användargränssnittet.
+* Uppdateringar gjordes för att göra målgränssnittet kompatibelt med [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A och AA Success Criteria (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
+* Förbättrad CSP (Content Security Policy). (TGT-37035)
+* Introducerade ett sätt att ange klientkoden som en parameter för kunder som använder CNAME. (TNT-38571)
+
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
