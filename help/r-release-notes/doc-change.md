@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2708'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 15 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade förhandsversionsinformationen för Target Standard/Premium 20.10.1 (27 oktober 2020). |
 | 14 oktober | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | En anteckning om trafiktilldelning för en Automatisk allokering-aktivitet med endast två upplevelser har lagts till. |
 | 13 oktober | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande live-webbinarium som planeras äga rum den 10 november 2020:<ul><li>Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target</li></ul> |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om följande live-webbinarium som planeras äga rum den 10 november 2020:<ul><li>Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target</li></ul> |
