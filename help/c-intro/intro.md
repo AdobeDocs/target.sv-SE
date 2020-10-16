@@ -68,7 +68,7 @@ En rekommendation avgör hur en produkt föreslås till en kund, beroende på ku
 
 ### Recommendations som erbjudande
 
-[Med Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) kan ni inkludera rekommendationer i aktiviteter [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT).
+[Med Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md) kan ni inkludera rekommendationer inuti [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
 
 Den här funktionen öppnar upp helt nya funktioner, som:
 
