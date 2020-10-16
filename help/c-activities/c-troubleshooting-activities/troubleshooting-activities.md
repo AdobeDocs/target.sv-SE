@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Mer information om hur sidändringar påverkar Target möjlighet att visa finns 
 
 ## Mbox.js öppnar all efterföljande kod från huvudet och in i kroppen.
 
-**Validera:** Visa källan för att avgöra om en deklaration följer efter filen mbox.js före stängningen </body> -tagg.
+**Validera:** Visa källan för att avgöra om en deklaration följer filen mbox.js före den avslutande `</body>` -taggen.
 
 **Alternativ:**
 
