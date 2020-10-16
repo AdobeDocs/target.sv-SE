@@ -5,7 +5,7 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3859'
 ht-degree: 0%
@@ -240,7 +240,7 @@ v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som
 
 Problemet löstes.
 
-### at.js
+### at.js {#at-js-2}
 
 Mboxes som inte aktiveras i Microsoft Explorer 11-webbläsare efter uppgradering till at.js version 1.0 på grund av interaktionen mellan at.js och Visitor API 2.2.0. Problemet berör at.js version 0.9.6 och senare. (TNT-27600)
 
@@ -252,7 +252,7 @@ Det går för närvarande inte att söka efter en sträng som innehåller specia
 
 Fastställd i november 2018.
 
-### at.js
+### at.js {#at-js-3}
 
 När du använder at.js version 1.6.0 sker omdirigeringar av Analytics for Target (A4T), men utan aktivitetskvalificering.
 
@@ -294,7 +294,7 @@ När en rapporterande målgrupps namn som används i en Automatiskt mål-aktivit
 
 Problemet korrigerades i Target 18.5.1 (22 maj 2018).
 
-### at.js
+### at.js {#at-js-4}
 
 Algoritmen för extrahering av toppnivådomänen som ska användas när cookies sparas har ändrats i at.js version 0.9.6. På grund av den här ändringen kan cookies inte sparas i adresser som använder IP. För det mesta används IP-adresser i testsyfte, men som tillfälliga lösningar kan du använda DNS-poster, justera värdfilen i en lokal ruta eller använda funktionen targetGlobalSettings() at.js för att infoga ett kodfragment som stöder IP-adresser.
 
@@ -335,7 +335,7 @@ Den första utgåvan korrigerades i Target 17.3.1-utgåvan (mars 2017).
 
 Den andra utgåvan korrigerades i Target 17.6.1-versionen (juni 2017).
 
-### at.js
+### at.js {#at-js-5}
 
 Sedan Target 17.4.1 släpptes (27 april 2017) levereras inte erbjudandeinnehållet när du använder åtgärden Infoga bild i Visual Experience Composer (VEC) när du använder biblioteket at at.js.
 
@@ -355,7 +355,7 @@ Leveransen och förhandsgranskningen påverkades för erbjudanden i A/B- och XT-
 
 Åtgärdat i målsnabbkorrigering 17.4.3.
 
-### at.js
+### at.js {#at-js-6}
 
 Följande åtgärder gjorde att erbjudandet inte kunde levereras när du använde Visual Experience Composer (VEC) och at.js: Flytta och ordna om.
 
@@ -379,7 +379,7 @@ För nyligen visade villkor leder entitetsbaserade dynamiska regler inte till n�
 
 Problemet har åtgärdats efter Recommendations-utgåvan (22 mars 2018). Efter Recommendations-versionen hoppar Target över entitetsbaserade dynamiska regler om entity.id inte skickas i mbox-begäran.
 
-### at.js
+### at.js {#at-js-7}
 
 När användare försöker hämta at.js från sidan Implementeringsinformation efter att ha uppdaterat at.js-inställningarna hämtas mbox.js i stället för at.js. (TGT-23069)
 
