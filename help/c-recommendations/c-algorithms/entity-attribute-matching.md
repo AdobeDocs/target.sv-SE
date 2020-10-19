@@ -4,9 +4,9 @@ description: Filtrera dynamiskt i Adobe Target Recommendations genom att jämfö
 title: Filtrera efter entitetsattributmatchning i dynamiska inkluderingsregler i Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 0%
 
 Filtrera dynamiskt i [!DNL Adobe Target] genom [!DNL Recommendations] att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användaren har interagerat med.
 
+>[!NOTE]
+>
+>Processen [för att skapa och använda inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) för kriterier och kampanjer är liknande, liksom användningsexempel och exempel.
+
 Rekommendera till exempel endast objekt som matchar det aktuella objektets varumärke som i följande exempel:
 
 Om rutan på en Varumärkeslandningssida returneras `entity.brand=Nike`returneras endast Nike-produkter och visas på den sidan. På samma sätt returneras endast Adidas-produkter på varumärkets landningssida för Adidas. Med den här typen av regel för dynamisk inkludering behöver användaren bara ange en rekommendationsregel som returnerar relevanta varumärkesresultat på alla varumärkessidor i stället för att ange en samling eller ett statiskt filter som matchar varje varumärkesnamn.
+
+Observera att du måste skicka `entity.brand` i mbox på landningssidorna för att det ska fungera.
 
 ## Exempel på matchning av enhetsattribut
 
@@ -29,6 +35,24 @@ Om rutan på en Varumärkeslandningssida returneras `entity.brand=Nike`returnera
 * Objektet som användaren senast köpte
 * Det objekt som användaren mest visade
 * Ett objekt som lagras i ett anpassat attribut i besökarens profil
+
+### Rekommendera objekt baserat på varumärke
+
+När entitetsattributreglerna har skapats filtrerar de bort alla rekommendationer med attribut som inte matchar det enhetsvärde som skickats på sidan.
+
+I följande exempel visas rekommendationer för att matcha produktvarumärket som visas på sidan:
+
+När du besöker en sida som innehåller en Nike-produkt, ställer sidan in värdet för `entity.brand` parametern till &quot;Nike&quot;.
+
+![Exempel på Target-anrop](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+
+I rekommendationerna på sidan visas endast Nike-produkter.
+
+![Nikes rekommendationer](/help/c-recommendations/c-algorithms/assets/nike.png)
+
+Om du sedan visar en Adidas-produktsida återställs `entity.brand` värdet till &quot;Adidas&quot; och du ser Adidas-produkter som rekommenderas på Adidas-produktsidor.
+
+![Adidas-rekommendationer](/help/c-recommendations/c-algorithms/assets/adidas.png)
 
 ### Merförsäljning av en dyrare produkt
 
