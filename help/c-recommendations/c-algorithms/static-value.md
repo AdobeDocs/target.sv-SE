@@ -4,9 +4,9 @@ description: Ange manuellt ett eller flera statiska värden som ska filtreras me
 title: Filtrera efter statiska värden i inkluderingsregler i Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -14,22 +14,9 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) - statiskt filter
 
-Ange manuellt ett eller flera statiska värden som ska filtreras med inkluderingsregler i Adobe Target Recommendations.
+Ange manuellt ett eller flera statiska värden som du vill filtrera med inkluderingsregler i [!DNL Adobe Target] [!DNL Recommendations].
 
 Rekommendera t.ex. endast innehåll med MPAA-klassificeringen &quot;G&quot; eller &quot;PG&quot;.
-
-Tillgängliga operatorer:
-
-* är lika med
-* är inte lika med
-* innehåller
-* innehåller inte
-* börjar med
-* slutar med
-* värde finns
-* värdet finns inte
-* är större än eller lika med
-* är mindre än eller lika med
 
 >[!NOTE]
 >
