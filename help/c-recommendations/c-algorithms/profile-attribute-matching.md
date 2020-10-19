@@ -4,9 +4,9 @@ description: Filtrera dynamiskt i Adobe Target Recommendations genom att jämfö
 title: Filtrera efter profilattributmatchning i dynamiska inkluderingsregler i Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra artiklar (entiteter) med ett värde i användarens profil.
 
 Använd [!UICONTROL Profile Attribute Matching] när du vill visa rekommendationer som matchar ett värde som lagras i besökarens profil, till exempel storlek eller favoritmärke.
+
+>[!NOTE]
+>
+>Processen [för att skapa och använda inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) för kriterier och kampanjer är liknande, liksom användningsexempel och exempel.
 
 Följande scenarier visar hur du kan använda [!UICONTROL Profile Attribute Matching]:
 
@@ -72,7 +76,7 @@ Profilskriptet hämtar `entity.size` värdet från rutan `target-global-mbox` oc
 
 ![storleksanrop](/help/c-recommendations/c-algorithms/assets/size.png)
 
-När du skapar rekommendationskriterierna klickar du på [!UICONTROL Add Filtering Rule]och väljer [!UICONTROL Profile Attribute Matching].
+När du skapar rekommendationskriterierna klickar du på **[!UICONTROL Add Filtering Rule]** och väljer **[!UICONTROL Profile Attribute Matching]**.
 
 ![Bild på matchning av profilattribut](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ Om din `user.size` profil har lästs in i [!DNL Target]visas den i listrutan fö
 
 Du kan sedan välja &quot;size&quot; &quot;equals&quot; (storlek) som är lika med värdet/texten i &quot;user.size&quot; för din profilattributsmatchning.
 
+![Exempel på storlek](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 När profilattributreglerna har skapats filtrerar de bort alla rekommendationer som har attribut som inte matchar besökarens lagrade profilattribut.
 
 ### Rekommendera objekt baserat på storlek
 
-Ett visuellt exempel på hur profilattributsmatchning påverkar rekommendationer finns på en webbplats som säljer fans.
+Ett visuellt exempel på hur profilattributsmatchning påverkar rekommendationer finns på en webbplats som säljer elektriska fläktar.
 
 När en besökare klickar på olika bilder av fans på den här webbplatsen anger varje sida parameterns värde baserat på om storleken på fläkten i bilden är liten eller stor. `entity.size`
 
