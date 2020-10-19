@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -384,7 +384,12 @@ ht-degree: 0%
       + [Skapa villkorssekvenser](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Överför anpassade villkor](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+      + Dynamiska och statiska inkluderingsregler {#dynamic-static}
+         + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Matchande entitetsattribut](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Matchning av profilattribut](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Parametermatchning](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Statiskt filter](/help/c-recommendations/c-algorithms/static-value.md)
       + [Använd en rekommendation för säkerhetskopiering](c-recommendations/c-algorithms/backup-recs.md)
       + [Arbeta med attribut för flera värden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Använd Adobe Analytics med Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
