@@ -4,9 +4,9 @@ description: Filtrera dynamiskt i Adobe Target Recommendations genom att jämfö
 title: Filtrera efter parametermatchning i dynamiska inkluderingsregler i Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begä
 Rekommendera t.ex. bara innehåll som matchar parametern&quot;branschsida&quot; eller andra parametrar som enhetsdimensioner eller geolokalisering, som i följande exempel.
 
 * Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och endast rekommendera mobila enheter och tillbehör.
+* Skapa en rekommendationsregel som endast returnerar de mest sålda mobiltelefonerna som matchar eller överskrider skärmhöjden på den mobila enhet som besökaren använder för att visa sidan.
 * Regionala geopositioneringsparametrar kan användas för att returnera rekommendationer för verktyg under vintern. Snöblåsare och andra verktyg för att minska snön kan rekommenderas för besökare i områden där det snöar men inte för besökare i områden där det inte snöar.
 
 >[!NOTE]
@@ -30,14 +31,16 @@ Rekommendera t.ex. bara innehåll som matchar parametern&quot;branschsida&quot; 
 >* Ta bort filtret &quot;Parametermatchning&quot; från villkoren.
 
 
-Tillgängliga operatorer:
+## Exempel på parametermatchning
 
-* är lika med
-* är inte lika med
-* innehåller
-* innehåller inte
-* börjar med
-* slutar med
-* är större än eller lika med
-* är mindre än eller lika med
-* är mellan
+[!UICONTROL Parameter Matching] I kan du rekommendera innehåll som matchar sidparametrarna eller besökarens parametrar, till exempel enhetsdimensioner eller geolokalisering, som i följande exempel:
+
+[!DNL Recommendations] kan matcha parametervärden som skickas i [!DNL Target] anropet. I det här fallet upptäcker [!DNL Target] att en besökare använder en mobil enhet, baserat på de parametrar för skärmhöjd och -bredd som skickas i [!DNL Target] anropet, och rekommenderar endast objekt som är mobila enheter.
+
+Titta på följande exempel på Target-anrop:
+
+![Målsamtal](/help/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+
+På sidan som besökaren tittar på ser han eller hon produkter för mobila enheter.
+
+![Produkter för mobila enheter](/help/c-recommendations/c-algorithms/assets/phones.png)
