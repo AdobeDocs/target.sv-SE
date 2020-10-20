@@ -4,9 +4,9 @@ description: Filtrera dynamiskt i Adobe Target Recommendations genom att jämfö
 title: Filtrera efter profilattributmatchning i dynamiska inkluderingsregler i Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Följande scenarier visar hur du kan använda [!UICONTROL Profile Attribute Matc
 
 Du kan till exempel använda alternativet för att skapa en regel som bara rekommenderar objekt där varumärket är lika med värdet eller texten som lagras i [!UICONTROL Profile Attribute Matching] `profile.favoritebrand`. Om en besökare tittar på kortkommandon från ett visst varumärke är det bara rekommendationer som motsvarar användarens favoritvarumärke (värdet som lagras i `profile.favoritebrand` besökarens profil) som visas.
 
+![Favoritmärke](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
+
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
@@ -46,47 +48,12 @@ Anta att du försöker matcha jobb till arbetssökande. Du vill bara rekommender
 
 Du kan använda inkluderingsregler för att matcha en jobbsökares plats från besökarens profil till en jobblista, som i följande exempel:
 
+![Användarens ort](/help/c-recommendations/c-algorithms/assets/city.png)
+
 ```
 Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
-
-### Rekommendera kläder som matchar besökarens storlek
-
-Låt oss titta på ett exempel för att rekommendera kläder som matchar den klädstorlek som angetts i besökarens profil.
-
-Produktsidan skickas `entity.size` i mbox-anropet (röd pil i bilden nedan).
-
-Du kan skapa ett [profilskript](/help/c-target/c-visitor-profile/profile-parameters.md) för att hämta besökarens profilattribut och värden från den sista sidan som besökaren besökte.
-
-Exempel:
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-Profilskriptet hämtar `entity.size` värdet från rutan `target-global-mbox` och returnerar det som ett profilattribut med namnet `user.size` (blå pil i bilden nedan).
-
-![storleksanrop](/help/c-recommendations/c-algorithms/assets/size.png)
-
-När du skapar rekommendationskriterierna klickar du på **[!UICONTROL Add Filtering Rule]** och väljer **[!UICONTROL Profile Attribute Matching]**.
-
-![Bild på matchning av profilattribut](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Om din `user.size` profil har lästs in i [!DNL Target]visas den i listrutan för matchning när du ställer in regeln så att den matchar värdet som skickades i mbox-anropet (`size`) till profilskriptnamnet (`user.size`).
-
-Du kan sedan välja &quot;size&quot; &quot;equals&quot; (storlek) som är lika med värdet/texten i &quot;user.size&quot; för din profilattributsmatchning.
-
-![Exempel på storlek](/help/c-recommendations/c-algorithms/assets/example-size.png)
-
-När profilattributreglerna har skapats filtrerar de bort alla rekommendationer som har attribut som inte matchar besökarens lagrade profilattribut.
 
 ### Rekommendera objekt baserat på storlek
 
