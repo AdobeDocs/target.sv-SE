@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3639'
+source-wordcount: '3626'
 ht-degree: 0%
 
 ---
@@ -125,8 +125,6 @@ Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto
 **Algoritmen optimerar kontinuerligt för ett enda målmått.**
 
 * Detta kan vara konverteringsbaserat eller intäktsbaserat (mer specifikt Intäkter per besök).
-
-**Algoritmen stöder inte användning [!DNL Analytics] som datakälla eller rapportslutpunkt.**
 
 **Target samlar automatiskt in information om besökare för att skapa personaliseringsmodeller.**
 
