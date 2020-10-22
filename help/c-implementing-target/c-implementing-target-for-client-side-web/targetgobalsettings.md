@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Du kan åsidosätta följande inställningar:
 * **Standardvärde**: true (true med början från at.js version 1.6.2)
 * **Beskrivning**: Anger om vi ska använda `<clientCode>.tt.omtrdc.net` domän eller `mboxedge<clusterNumber>.tt.omtrdc.net` domän.
 
-   Om det här värdet är true sparas domänen i en cookie-fil `mboxedge<clusterNumber>.tt.omtrdc.net` . Fungerar för närvarande inte med [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   Om det här värdet är true sparas domänen i en cookie-fil `mboxedge<clusterNumber>.tt.omtrdc.net` . För närvarande fungerar inte med [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) när du använder at.js-versioner före at.js 1.8.2 och at.js 2.3.1. Om det här är ett problem för dig kan du [uppdatera at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) till en nyare version som stöds.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -467,13 +467,13 @@ Tänk på följande när du använder `serverState`:
    * VEC-skapade aktiviteter som körs vid sidinläsning.
    * Förhämtade vyer.
 
-      Om SPA används med [!DNL Target] Vyer och `triggerView()` i API:t at.js, cachelagrar at.js v2.2 innehållet för alla vyer som är förhämtade på servern och använder dessa så fort varje Vy aktiveras via `triggerView()`, återigen utan att några ytterligare innehållshämtande anrop till Target aktiveras.
+      Om [!DNL Target] vyer och API:t at.js SPA används, cachelagras innehållet för alla vyer som är förhämtade på serversidan `triggerView()` i at.js, och dessa används så snart varje vy aktiveras via `triggerView()`, återigen utan att några ytterligare innehållshämtande anrop till Target aktiveras.
 
    * **Obs**:  För närvarande stöds inte lådor som har hämtats på serversidan i `serverState`.
 
 * Vid användning av `serverState `erbjudanden tar at.js hänsyn till `pageLoadEnabled` och `viewsEnabled` inställningar, t.ex. kommer sidinläsningserbjudanden inte att gälla om `pageLoadEnabled` inställningen är false.
 
-   Aktivera de här inställningarna genom att aktivera växlingsknappen **[!UICONTROL Administration]>[!UICONTROL Implementation]>[!UICONTROL Edit]>[!UICONTROL Page Load Enabled]**.
+   Aktivera de här inställningarna genom att aktivera växlingsknappen **[!UICONTROL Administration]> [!UICONTROL Implementation] > [!UICONTROL Edit] >[!UICONTROL Page Load Enabled]**.
 
    ![Inställningar för sidinläsning aktiverat](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
@@ -484,4 +484,4 @@ Tänk på följande när du använder `serverState`:
 Mer information om hur `serverState` fungerar finns i följande resurser:
 
 * [Exempelkod](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [Exempelprogram för Single Page Application (SPA) med `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [Exempelprogram för SPA med `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
