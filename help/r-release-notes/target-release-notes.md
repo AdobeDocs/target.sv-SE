@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 * Uppdateringar gjordes för att göra målgränssnittet kompatibelt med [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A och AA Success Criteria (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
 * Förbättrad CSP (Content Security Policy). (TGT-37035)
 * Introducerade ett sätt att ange klientkoden som en parameter för kunder som använder CNAME. (TNT-38571)
-
+* [!DNL Adobe Experience Cloud] går nu till [!DNL Experience League]. Under oktober kommer alla versionsinformation, artiklar, videoklipp och självstudiekurser att flyttas från sin nuvarande plats `docs.adobe.com` till [!DNL Experience League]. Detta säkerställer att allt utbildningsmaterial, självhjälp, hjälpmedel och communityinnehåll hanteras från ett och samma ställe. När den här ändringen inträffar behöver du inte göra något eftersom alla länkar kommer att omdirigeras till [!DNL Experience League]. Vi uppdaterar versionsinformationen när hämtningen börjar.
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
