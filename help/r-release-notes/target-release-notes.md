@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: b6d3a241362592d5034f9db6141b459db7c6739b
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 15 oktober 2020**
+**Senast uppdaterad: 23 oktober 2020**
 
 Information om den aktuella versionen finns i [Versionsinformation](release-notes.md)för mål. Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
 
@@ -45,7 +45,7 @@ Den här versionen innehåller följande nya funktioner:
 
 | Funktion | Detaljer |
 | --- | --- |
-| Beslut på enheten | Med enhetsbeslut kan både marknadsförare och produktutvecklare leverera experimentella och maskininlärningsdrivna personaliseringar från en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet. Med beslut på enheter kan marknadsförare och nu produktutvecklare testa och optimera upplevelser direkt inifrån en användarenhet, minska beslut och lasttider till nästan noll för sammanhangsbaserade realtidsupplevelser.<br>Med enhetsspecifika beslut kan ni sammanställa alla instruktioner för personalisering och experiment på&quot;optimeringsartefakter&quot;, som laddas på kundenheter. Dessa nolllatenser-artefakter ger marknadsförarna en-till-en-personalisering, beteendeåtermarknadsföring och rekommendationer av produkter och innehåll i realtid, samtidigt som utvecklare och produktägare får direkt kodåtkomst för att testa användarupplevelser och mål- och fasproduktlanseringar, vilket förbättrar i realtid. Och eftersom enhetsbeslut kan kopplas till [!DNL Adobe Experience Cloud] [!DNL Target] produkter får användarna snabb analys och snabbare upplevelseiterationer.<br>**Anmäl dig nu till ett live webbinarium.** Följ Adobe Target produktexperter och diskutera hur rörliga beslut om optimering av kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.<ul><li>10 november 2020</li><li>10.00 PT/12.00 CT/1.00 ET</li><li>[Registrera dig här](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| Enhetsbeslut | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. Och eftersom enhetsspecifika beslut kan kopplas till [!DNL Adobe Experience Cloud] produkter får användarna snabb analys och snabbare upplevelseiterationer [!DNL Target] .<br>**Anmäl dig nu till ett live webbinarium.** Följ Adobe Target produktexperter och diskutera hur rörliga beslut om optimering av kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.<ul><li>10 november 2020</li><li>10.00 PT/12.00 CT/1.00 ET</li><li>[Registrera dig här](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
 
