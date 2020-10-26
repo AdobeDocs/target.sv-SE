@@ -5,7 +5,7 @@ title: Översikt över målsäkerhet
 feature: privacy and security
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -21,4 +21,4 @@ På Adobe tar vi säkerheten i er digitala upplevelse på stort allvar. Säkerhe
 
 Dessutom hjälper vårt samarbete med partners, ledande forskare, säkerhetsforskningsinstitutioner och andra branschorganisationer oss att hålla oss uppdaterade med de senaste hoten och säkerhetsluckorna och vi införlivar regelbundet avancerad säkerhetsteknik i de produkter och tjänster vi erbjuder.
 
-Mer information finns i [Adobe Target Security Overview](https://wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+Mer information finns i [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
