@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Aktivitets- och innehållsdatabaser, [!DNL Analytics] data, API:er och marknadsf
 
 Varje Edge Cluster har all information som krävs för att svara på användarens begäran om innehåll och spåra analysdata på begäran. Användarförfrågningar dirigeras till närmaste Edge-kluster.
 
-Mer information finns i [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+Mer information finns i [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
 
 Lösningen finns på datacenter som ägs av Adobe och som hyrs ut av Adobe över hela världen. [!DNL Adobe Target]
 
@@ -108,6 +108,8 @@ Platserna för centrala kluster innehåller både en datainsamlingscentral och e
 Data för kundwebbplatsaktivitet samlas in av de närmaste sju Edge-kluster och dirigeras till en kunds förbestämda mål för Central Cluster (en av tre platser: Oregon, Dublin, Singapore) för beredning. Besökarprofildata lagras på det Edge Cluster-område som ligger närmast besökaren (platserna är bland annat Central Cluster-platserna och Virginia, Amsterdam, Sydney, Tokyo och Hong Kong).
 
 I stället för att svara på alla förfrågningar om målinriktning från en enda plats behandlas förfrågningar av det Edge-kluster som ligger närmast besökaren, vilket minskar effekten av nätverks-/Internetresetid.
+
+![Karta över typer av målservrar](/help/c-intro/assets/target-servers.png)
 
 Target Central Clusters, som finns på Amazon Web Services (AWS), finns i:
 
