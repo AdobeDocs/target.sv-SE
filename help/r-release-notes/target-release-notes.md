@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Den här versionen innehåller följande nya funktioner:
 
 | Funktion | Detaljer |
 | --- | --- |
-| Enhetsbeslut | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. Och eftersom enhetsspecifika beslut kan kopplas till [!DNL Adobe Experience Cloud] produkter får användarna snabb analys och snabbare upplevelseiterationer [!DNL Target] .<br>**Anmäl dig nu till ett live webbinarium.** Följ Adobe Target produktexperter och diskutera hur rörliga beslut om optimering av kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.<ul><li>10 november 2020</li><li>10.00 PT/12.00 CT/1.00 ET</li><li>[Registrera dig här](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| Enhetsbeslut | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. Och eftersom enhetsspecifika beslut kan kopplas till [!DNL Adobe Experience Cloud] produkter får användarna snabb analys och snabbare upplevelseiterationer [!DNL Target] .<br>Mer information finns i *[Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* i *Adobe Target SDKs Guide*.<br>**Anmäl dig nu till ett live webbinarium.** Följ Adobe Target produktexperter och diskutera hur rörliga beslut om optimering av kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.<ul><li>10 november 2020</li><li>10.00 PT/12.00 CT/1.00 ET</li><li>[Registrera dig här](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
 
