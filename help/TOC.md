@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,6 @@ ht-degree: 0%
       + [Använd platstjänst](/help/c-target-mobile-app/use-location-service.md)
    + Serversida: implementera mål {#server-side}
       + [Serversida: implementera målöversikt](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Versionsinformation - Målserversidans API:er](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Versionsinformation - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Versionsinformation - Mål-Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Övergång från äldre Target-API:er till Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + [Hybrid-implementering](/help/c-implementing-target/hybrid-implementation.md)
    + E-post: implementera mål {#implement-email}
