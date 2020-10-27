@@ -6,7 +6,7 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
 workflow-type: tm+mt
 source-wordcount: '2862'
 ht-degree: 0%
@@ -22,7 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 28 oktober | [Serversida: implementera mål](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Länk har lagts till i den nya *[Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)* -portalen. |
+| 27 oktober | [Serversida: implementera mål](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Länk har lagts till i den nya *[Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)* -portalen. |
 |  | [Skapa en aktivitet som använder Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Tillagd information som anger att om du använder `analyticsLogging = client_side`måste du skicka `sessionId` värdet till [!DNL Analytics] när du använder Analytics som rapportkälla (A4T) med Auto-Target-aktiviteter. |
 |  | [Analyser för Target-implementering](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Tillagd information som anger att du även måste vidarebefordra sessions-ID för [!UICONTROL Auto-Allocate] - och [!UICONTROL Auto-Target] aktiviteter som använder `analyticsLogging = client_side`. |
 |  | [Versionsinformation](/help/r-release-notes/release-notes.md): 20.10.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
