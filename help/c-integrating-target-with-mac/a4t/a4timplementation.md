@@ -5,9 +5,9 @@ title: Analyser för Target-implementering
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -43,21 +43,21 @@ Information om nya implementeringar finns i Översikt över [JavaScript-implemen
 
 Information om en migrering finns i [Migrera till AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) i *Analytics-implementeringshandboken*.
 
-## Steg 5: Ladda ned och uppdatera på .js eller mbox.js
+## Steg 5: Ladda ned och uppdatera på js
 
-Du måste implementera eller migrera till den version av at.js eller mbox.js som krävs med ditt produktionskonto. Koden behöver inte ändras.
+Du måste implementera eller migrera till den version av at.js som krävs med ditt produktionskonto. Koden behöver inte ändras.
 
 Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-## Steg 6: Host at.js eller mbox.js
+## Steg 6: Host at.js
 
-Om du tidigare distribuerade at at.js eller mbox.js kan du ersätta den befintliga filen med den uppdaterade versionen. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Om du tidigare distribuerade at at.js kan du ersätta den befintliga filen med den uppdaterade versionen. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 Annars kan den här filen lagras tillsammans med Visitor ID-tjänsten och AppMeasurement för JavaScript-filer. Dessa filer måste finnas på en webbserver som är tillgänglig för alla sidor på platsen. Du behöver sökvägen till de här filerna i nästa steg.
 
-## Steg 7: Referens till at.js eller mbox.js på alla webbplatssidor {#step7}
+## Steg 7: Referens vid .js på alla webbplatssidor {#step7}
 
-Inkludera at.js eller mbox.js under VisitorAPI.js genom att lägga till följande kodrad i taggen på varje sida:
+Inkludera at.js under VisitorAPI.js genom att lägga till följande kodrad i taggen på varje sida:
 
 For at.js:
 
@@ -66,14 +66,7 @@ For at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-För mbox.js:
-
-```
-<script language="JavaScript" type="text/javascript"
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
-```
-
-Det är viktigt att VisitorAPI.js läses in före at.js eller mbox.js. Om du uppdaterar en befintlig at.js- eller mbox.js-fil kontrollerar du att inläsningsordningen är korrekt.
+Det är viktigt att VisitorAPI.js läses in före at.js. Om du uppdaterar en befintlig at.js- eller mbox.js-fil kontrollerar du att inläsningsordningen är korrekt.
 
 Det sätt som inställningarna är klara att konfigureras för [!DNL Target] och [!DNL Analytics] integration från ett implementeringsperspektiv är att använda det SDID som skickas från sidan för att sammanfoga [!DNL Target] och [!DNL Analytics] begära automatiskt.
 
@@ -98,7 +91,7 @@ Den här konfigurationen har en global effekt, vilket innebär att alla anrop fr
 }
 ```
 
-Nyttolasten kan sedan vidarebefordras till Analytics via API:t för [datainmatning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Nyttolasten kan sedan vidarebefordras till Analytics via API:t för [datainmatning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Observera att för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] för aktiviteter måste du även vidarebefordra sessions-ID. Mer information finns i [Adobe Analytics for Target (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) i *Adobe Target Delivery API Guide*
 
 Om en global inställning inte önskas och en mer on demand-metod är att föredra kan du använda funktionen [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) för att uppnå detta genom att skicka in **analyticsLogging: &quot;client_side&quot;**. Analysens nyttolast returneras bara för det här anropet och [!DNL Target] backend-objektet vidarebefordrar inte nyttolasten till [!DNL Analytics]. Om du väljer det här sättet returnerar inte alla at.js- [!DNL Target] begäranden nyttolasten som standard, utan bara när det önskas och anges.
 
@@ -162,7 +155,7 @@ Nyttolasten kan sedan vidarebefordras till [!DNL Analytics] via API:t för [data
 
 Läs in sidorna när du har uppdaterat JavaScript-biblioteken för att bekräfta att `mboxMCSDID` parametervärdena i [!DNL Target] anrop matchar `sdid` parametervärdet i [!DNL Analytics] sidvisningsanropet.
 
-Detta är särskilt viktigt att kunna bekräfta i SPA (Single Page Applications) där samtalsordningen inte alltid är förutsägbar.
+Det är särskilt viktigt att du bekräftar detta i Single Page Applications (SPA), där det inte alltid går att förutse hur samtal ordnas.
 
 **Obs!** Matchningen av dessa värden krävs för att A4T ska fungera korrekt.
 
