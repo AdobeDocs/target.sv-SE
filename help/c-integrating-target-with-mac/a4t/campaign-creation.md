@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,9 @@ Vi har uppgraderat integreringen mellan Adobe Target och Adobe Analytics, så ka
 Med den här integreringen kan du:
 
 * Använd [Automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)av multiväpnade bandit-funktioner för att driva trafik till vinnande upplevelser
-* Använd [Auto-Target](/help/c-activities/auto-target-to-optimize.md):s unika maskininlärningsalgoritm för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och sammanhang
+* Använd [Auto-Target](/help/c-activities/auto-target-to-optimize.md):s unika maskininlärningsalgoritm för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och kontext, samtidigt som ni använder [!DNL Adobe Analytics] målmätvärden och [!DNL Adobe Analytics]de omfattande rapporterings- och analysfunktionerna.
 
-och samtidigt använda ett [!DNL Adobe Analytics] målmätvärde och [!DNL Adobe Analytics]de omfattande rapporterings- och analysfunktionerna.
-
-Om du redan har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)behövs ingen ytterligare konfiguration!
+Kontrollera att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side`måste du också skicka `sessionId` värdet till [!DNL Analytics]. Mer information finns i [Adobe Analytics for Target (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) i *Adobe Target Delivery API Guide*
 
 Så här kommer du igång:
 
