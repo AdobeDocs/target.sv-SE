@@ -1,14 +1,14 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Information om Adobe Target server-side delivery API:er, Node.js SDK och Target Recommendations API:er.
+description: Information om Adobe Target server-side delivery API:er, SDK:er och Target Recommendations API:er.
 title: Information om Adobe Target server-side delivery API:er, Node.js SDK och Target Recommendations API:er.
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Serversida: implementera mål{#server-side-implement-target}
 
-Information om [!DNL Adobe Target] leverans-API:er på serversidan, Node.js SDK och API: [!DNL Target Recommendations] er.
+Information om [!DNL Adobe Target] server-side delivery API:er, SDK:er och API: [!DNL Target Recommendations] er.
 
 Följande process utförs i en implementering på serversidan av [!DNL Target]:
 
@@ -26,6 +26,10 @@ Följande process utförs i en implementering på serversidan av [!DNL Target]:
 1. Servern bestämmer vilken upplevelse som ska levereras till klientenheten för att den ska kunna återges.
 
 Upplevelsen behöver inte visas i en webbläsare. Upplevelsen kan visas i ett e-postmeddelande eller i en kioskdator, via en röstassistent eller via någon annan icke-visuell upplevelse eller icke-webbläsarbaserad enhet. Eftersom servern sitter mellan klienten och [!DNL Target]är den här typen av implementering också idealisk om du behöver större kontroll och säkerhet eller har komplexa serverprocesser som du vill köra på servern.
+
+>[!NOTE]
+>
+>En förstagångsbesökare kan bara initieras på klientsidan. En förstagångsbesökare *kan inte* initieras på serversidan.
 
 I följande avsnitt finns mer information om de olika API:erna och NodeJS SDK:
 
