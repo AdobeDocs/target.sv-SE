@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
+source-git-commit: a5a84e96ea3498140f4e0c9af4f75ec674bbf4b8
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Här är API-informationen:
 
 | Nyckel | Typ | Obligatoriskt | Beskrivning |
 |--- |--- |--- |--- |
-| mbox | Sträng | Ja | Mbox <br>**nameNote**: Om ett trackEvent()-anrop utlöses med ett mbox-namn som redan har utlösts på sidan, återställs SDID för trackEvent() och skiljer sig från Target-anropen på sidan. Om du däremot startar ett trackEvent()-anrop med ett annat mbox-namn blir SDID för trackEvent()-anropen konsekvent med anropet till Page Load Request/triggerView() på sidan. |
+| mbox | Sträng | Ja | Mbox <br>**nameNote**: Om ett trackEvent()-anrop utlöses med ett mbox-namn som redan har utlösts på sidan, återställs SDID för trackEvent() och skiljer sig från Target-anropen på sidan. Om du däremot startar ett trackEvent()-anrop med ett annat mbox-namn, blir SDID för anropet trackEvent() konsekvent med anropet till Page Load Request/triggerView() på sidan. |
 | väljare | Sträng | Nej | CSS-väljare som används för att hitta HTML-elementen. Händelseavlyssnarna bifogas till de hittade elementen. |
 | type | Sträng | Nej | Representerar en registrerad händelsetyp. Det kan vara både HTML-kända händelser som: klicka, musknappen o.s.v. samt anpassade HTML-händelser. |
 | preventDefault | Boolean | Nej | Anger om det ska användas `event.preventDefault()` i händelseavlyssnaråteranropet. Standardvärdet är false.<br>**Obs**: Endast `form[submit] and `[en klickning]stöds. Andra scenarier stöds inte på grund av komplexitet och ett stort antal scenarier som ska stödjas. |
