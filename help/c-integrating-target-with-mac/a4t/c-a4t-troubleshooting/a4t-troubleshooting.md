@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,11 @@ Detta är ett känt problem.
 
 ## Rapportsviten som jag behöver visas inte. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Listan med rapportsviter som visas i Target Standard/Premium är listan med rapportsviter som har konfigurerats för Analytics som rapportkälla för Target. Det innebär att du kanske inte ser alla rapporteringsprogram du har.
+Listan med rapportsviter i [!DNL Target Standard/Premium] är listan med rapportsviter som har konfigurerats för [!DNL Analytics] att vara rapportkälla för [!DNL Target] (A4T). Det innebär att du kanske inte ser alla rapporteringsprogram du har.
 
-Om du använder flera rapportkällor MÅSTE rapportsviterna också finnas i standardrapportkälluppsättningen i Target. Annars visas inte rapportsviterna.
+Om du använder flera rapportkällor måste rapportsviterna också finnas i standardrapportkälluppsättningen i [!DNL Target] . annars visas inte rapportsviterna.
 
-Om du fortfarande inte ser den rapportserie du söker bör du kontakta kundtjänst för att aktivera den.
+Om du fortfarande inte ser den rapportserie du söker kan du kontakta [kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att aktivera den.
 
 ## Jag ser inte så mycket data i rapporter som förväntat. {#section_75002584FA63456D8D9086172925DD8D}
 
