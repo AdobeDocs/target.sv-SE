@@ -5,7 +5,7 @@ title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '3859'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Ett känt fel förhindrar förhandsgranskning om villkoren som används i aktivi
 Följande är kända problem med omdirigeringserbjudanden:
 
 * Under vissa omständigheter har ett begränsat antal kunder rapporterat större variationer i trafikdistributionen när ett omdirigeringserbjudande används i aktiviteter som konfigurerats med Analytics for Target (A4T). Ingenjörer från Adobe arbetar för närvarande med detta problem.
-* Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) i stället för att utföra förhandsgranskning och QA. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)
+* Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](/help/c-activities/c-activity-qa/activity-qa.md) i stället för att utföra förhandsgranskning och QA. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)
 
 ### Avbryt inläsning av en sida i VEC {#cancel}
 
