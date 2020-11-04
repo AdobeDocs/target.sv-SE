@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -99,7 +99,7 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
 1. (Valfritt, för AB-aktiviteter, Automated Personalization och Experience Targeting) Om du vill upprepa den här processen för ytterligare platser klickar du på **[!UICONTROL Add Location]** och konfigurerar platsen och innehållet.
 1. Klicka **[!UICONTROL Next]** och slutför sedan stegen för att skapa aktiviteten som vanligt för din aktivitetstyp.
 
-* [Skapa ett A/B-test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
+* [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Skapa en upplevelseinriktad aktivitet](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Skapa en Recommendations-aktivitet](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
