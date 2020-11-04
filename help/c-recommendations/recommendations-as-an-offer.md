@@ -4,7 +4,7 @@ description: Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Au
 title: Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting)
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Om du vill komma igång skapar du en [!UICONTROL A/B Test] eller [!UICONTROL Exp
 
    >[!NOTE]
    >
-   >För A/B-tester måste du komma ihåg att du kan välja alternativet [Automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) för att automatiskt överföra trafik till de bästa rekommendationerna eller alternativet [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) för att tilldela besökare anpassade rekommendationer baserat på deras profil.
+   >För A/B-tester måste du komma ihåg att du kan välja alternativet [Automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) för att automatiskt överföra trafik till de bästa rekommendationerna eller alternativet [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) för att tilldela besökare anpassade rekommendationer baserat på deras profil.
 
 1. När du skapar en [upplevelse](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)klickar du på elementet som du vill lägga till en rekommendation till som ett erbjudande, väljer **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]** eller **[!UICONTROL Replace With]** väljer åtgärd och sedan [!UICONTROL Recommendation].
 
@@ -78,13 +78,13 @@ Det finns två sätt att redigera konfigurationen för ett erbjudande:
    * [Ändra villkor](/help/c-recommendations/c-algorithms/algorithms.md)
    * [Ändra design](/help/c-recommendations/c-design-overview/design-overview.md)
    * [Ändra samling](/help/c-recommendations/c-products/collections.md)
-   * [Ändra erbjudande](/help/c-recommendations/t-create-recs-activity/adding-promotions.md)
+   * [Ändra kampanj](/help/c-recommendations/t-create-recs-activity/adding-promotions.md)
 
 1. Redigera.
 
 ### Redigera ett rekommendationserbjudande med hjälp av panelen Ändringar
 
-1. Klicka på [!UICONTROL Modifications] ikonen **(`</>`)** för att visa [ändringspanelen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) .
+1. Klicka på [!UICONTROL Modifications] ikonen **( `</>` )** för att visa [ändringspanelen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) .
 1. Håll muspekaren över önskat funktionsmakro och klicka sedan på **[!UICONTROL Edit]** -ikonen.
 
    ![Panelen Ändringar](/help/c-recommendations/assets/recs-offer-modifications.png)
