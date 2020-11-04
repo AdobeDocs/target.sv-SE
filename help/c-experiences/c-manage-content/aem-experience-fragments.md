@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: e846109c476f98b4adc09d8b9dd2c2ef039b5ef7
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Du kan använda upplevelsefragment i [!DNL Target] aktiviteter med [Visual Exper
 
    * **A/B-test:** [Skapa ett A/B-test](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
    * **Automatisk fördelning:** [Automatisk allokering](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **Automatiskt mål:** [Automatisk målgruppsanpassning för personaliserade upplevelser](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)
+   * **Automatiskt mål:** [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md)
    * **Automated Personalization (AP):** [Skapa en Automated Personalization-aktivitet](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Experience Targeting (XT):** [Skapa en upplevelseinriktad aktivitet](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Multivariata tester (MVT):** [Skapa ett multivariata test](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
