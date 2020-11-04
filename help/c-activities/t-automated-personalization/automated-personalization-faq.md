@@ -5,9 +5,9 @@ title: Automated Personalization FAQ
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Det finns inget körklart alternativ för att jämföra AP med en standardupplev
 
 ## Vilka är de bästa sätten att skapa en Automated Personalization-aktivitet? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Om du vill anpassa en sida med låg trafik eller vill göra strukturella ändringar av den upplevelse du personaliserar bör du överväga att använda Automatiskt mål i stället för Automated Personalization. Se [Automatisk målning för personaliserade upplevelser](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+* Om du vill anpassa en sida med låg trafik eller vill göra strukturella ändringar av den upplevelse du personaliserar bör du överväga att använda Automatiskt mål i stället för Automated Personalization. Se [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md).
 * Överväg att slutföra en A/B-aktivitet mellan de erbjudanden och platser som du planerar att använda i din Automated Personalization-aktivitet för att säkerställa att de platser och erbjudanden påverkar optimeringsmålet. Om en A/B-aktivitet inte uppvisar någon större skillnad kommer Automated Personalization sannolikt inte heller att generera någon lyft.
 
    * Om ett A/B...N-test inte visar några statistiskt signifikanta skillnader mellan upplevelserna, är det troligt att de erbjudanden du överväger inte skiljer sig tillräckligt mycket från varandra, påverkar de valda platserna inte framgångsmätningen eller så är optimeringsmålet för långt i konverteringstratten för att påverkas av dina valda erbjudanden.
