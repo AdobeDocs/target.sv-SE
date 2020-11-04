@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Det innehåll som visas för besökarna beror på vilken typ av aktivitet du ska
 
 ### A/B-test
 
-Mer information finns i [Skapa ett A/B-test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) .
+Mer information finns i [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) .
 
 Innehållet som visas i ett grundläggande A/B-test väljs slumpmässigt bland de resurser som du tilldelar till aktiviteten, enligt de procentsatser som du väljer för varje upplevelse. Som ett resultat av denna slumpmässiga uppdelning av trafiken kan det ta en hel del inledande trafik innan procentandelarna ens tar slut. Om du till exempel skapar två upplevelser väljs startupplevelsen slumpmässigt. Om trafiken är liten är det möjligt att andelen besökare kan skevas mot en upplevelse. När trafiken ökar bör procentsatserna bli mer lika.
 
@@ -59,7 +59,7 @@ Med Automatisk allokering identifieras en vinnare av två eller flera upplevelse
 
 ### Automatiskt mål (AT)
 
-Mer information finns i [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) .
+Mer information finns i [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) .
 
 Auto-Target använder avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest skräddarsydda upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.
 
