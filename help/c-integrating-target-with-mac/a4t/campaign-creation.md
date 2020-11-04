@@ -6,7 +6,7 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Vi har uppgraderat integreringen mellan Adobe Target och Adobe Analytics, så ka
 Med den här integreringen kan du:
 
 * Använd [Automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)av multiväpnade bandit-funktioner för att driva trafik till vinnande upplevelser
-* Använd [Auto-Target](/help/c-activities/auto-target-to-optimize.md):s unika maskininlärningsalgoritm för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och kontext, samtidigt som ni använder [!DNL Adobe Analytics] målmätvärden och [!DNL Adobe Analytics]de omfattande rapporterings- och analysfunktionerna.
+* Använd [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md):s unika maskininlärningsalgoritm för att välja den bästa upplevelsen för varje besökare utifrån deras profil, beteende och kontext, samtidigt som ni använder [!DNL Adobe Analytics] målmätvärden och [!DNL Adobe Analytics]de omfattande rapporterings- och analysfunktionerna.
 
 Kontrollera att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side`måste du också skicka `sessionId` värdet till [!DNL Analytics]. Mer information finns i [Analytics for Target-rapportering](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) (A4T) i guiden för *Adobe Target SDK* .
 
