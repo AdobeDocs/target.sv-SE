@@ -5,7 +5,7 @@ title: Rapport över automatiserade segment
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-akti
 
 ## Åtkomst till rapporten Automated Segments {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet för [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller [Automatiskt mål](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) i listan.
+1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet för [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) i listan.
 
    Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer]och [!UICONTROL Metrics Type][!UICONTROL Activity Source] .
 
@@ -145,19 +145,19 @@ Det finns flera möjliga orsaker till varför du kan se fler besök i ett erbjud
 * Aktiviteter med låg volym där vissa erbjudanden/upplevelser inte har några modeller byggda, eller där modeller har skapats tidigare för vissa erbjudanden/upplevelser än andra.
 * Riktlinjer för ett specifikt erbjudande som begränsar vilka besökare som kan se vilka erbjudanden/upplevelser som finns.
 
-**Är informationen i[!UICONTROL Automated Segments]och[!UICONTROL Important Attributes]rapporter densamma som i CSV-nedladdningen?**
+**Är informationen i [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter densamma som i CSV-nedladdningen?**
 
 Nej, UI-rapporten innehåller urvalsinformation. CSV-nedladdningen innehåller ytterligare information. Nedladdningen av rapporten Automated Segment Insights innehåller ytterligare automatiserade segment utöver de främsta segmenten som ingår i användargränssnittet, tillsammans med hur dessa segment fungerade i förhållande till era erbjudanden eller upplevelser. Rapporten Viktiga attribut innehåller de 100 viktigaste besökarattributen och deras relativa betydelse, medan användargränssnittet endast innehåller de 10 viktigaste besökarattributen.
 
-**Kan jag se[!UICONTROL Personalization Insights]efter ett anpassat datumintervall?**
+**Kan jag se [!UICONTROL Personalization Insights] efter ett anpassat datumintervall?**
 
 Insikter-rapportering om personalisering (både [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes]) är bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar, 45 dagar, 60 dagar och 90 dagar. Med dessa fasta datumintervall kan du [!UICONTROL Personalization Insights] använda tillräckligt många data för att minska sannolikheten för att du får insikter från ett kort mönster i din aktivitet. Du kan välja de här varaktigheterna för ett slutdatum (där dessa data är tillräckligt många för att aktiviteten ska klara varaktigheten).
 
-**Hur[!UICONTROL Personalization Insights]skapas?**
+**Hur [!UICONTROL Personalization Insights] skapas?**
 
 [!UICONTROL Personalization Insights] skapas med en patentsökt teknik i Adobe som kallas MAGIX (Model Agnostic Global Interpretable Förklarations). Du kan läsa mer om MAGIX i Adobe forskningsteamets publicerade rapport på [webbplatsen](https://arxiv.org/abs/1706.07160)arXiv.org.
 
-**Varför matchar inte den totala besökstrafiken i rapporten min AP- eller AT-sammanfattning/prestandarapport[!UICONTROL Automated Segments]?**
+**Varför matchar inte den totala besökstrafiken i rapporten min AP- eller AT-sammanfattning/prestandarapport [!UICONTROL Automated Segments] ?**
 
 Rapporterna [!UICONTROL Personalization Insights] innehåller endast besökare som såg en del av innehållet som valdes ut av Target personaliseringsmodeller (dvs. inte kontrolltrafik eller trafik som betjänas av den övergripande vinnarmodellen). Denna trafiktyp kallas för&quot;personaliserad&quot; trafik. Den sammanfattande prestandarapporten i AP/AT omfattar kontroll kontra&quot;riktad&quot; trafik. Målstyrd trafik omfattar personaliserad trafik, liksom trafik som betjänades med den övergripande vinnarmodellen och viss slumpmässigt betjänad trafik som brukade lära sig mer.
 
@@ -165,7 +165,7 @@ Rapporterna [!UICONTROL Personalization Insights] innehåller endast besökare s
 
 Nej, det finns överlappning mellan de automatiserade segmenten.
 
-**Är[!UICONTROL Personalization Insights]det möjligt för intäktsbaserade modelleringsmål/primärt mål?**
+**Är [!UICONTROL Personalization Insights] det möjligt för intäktsbaserade modelleringsmål/primärt mål?**
 
 För närvarande [!UICONTROL Personalization Insights] är endast tillgängligt för målaktiviteter för konverteringsoptimering. Vi kommer att lägga till stöd för intäktsoptimeringsmålaktiviteter i en kommande release.
 
