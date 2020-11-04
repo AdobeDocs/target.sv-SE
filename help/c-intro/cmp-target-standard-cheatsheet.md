@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
-description: En lista med vanliga frågor och svar om hur du använder funktionerna i Adobe Target samt information och länkar för mer information.
+description: En lista med vanliga frågor om hur du använder funktionerna i Adobe Target, samt information och länkar för mer information.
 title: Vanliga frågor om måloptimering och personalisering
 feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Vanliga frågor om måloptimering och personalisering{#target-optimization-and-personalization-faq}
 
-En lista med vanliga frågor och svar om hur du använder funktionerna i Adobe Target samt information och länkar för mer information.
+En lista med vanliga frågor om hur du använder funktionerna i Adobe Target, samt information och länkar för mer information.
 
 ## Allmän information {#section_CE5713B5AAC341C9A75586C107797FA3}
 
@@ -64,7 +64,7 @@ Använd våra [rapporter för att fastställa den vinnande upplevelsen](../c-act
 
 **Kan jag utföra en aktivitet med en nivå av personalisering som en integrerad del av aktiviteten?**
 
-Ta en titt på [A/B-testning med alternativet Automatiskt mål](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) .
+Ta en titt på [alternativet Automatisk målning](/help/c-activities/auto-target-to-optimize.md) .
 
 **Hur vet jag vilken typ av aktivitet som passar mina behov bäst?**
 
@@ -86,7 +86,7 @@ Prova funktionen [](../c-experiences/c-visual-experience-composer/multipage-acti
 
 **Hur kan jag säkerställa att en användare aldrig kommer in i aktiviteten igen när ett mål (primär eller sekundär) har uppnåtts och i stället ser en annan aktivitet gå framåt?**
 
-Detta är enkelt att uppnå genom att använda alternativet [Avancerade inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) som finns för varje mål. Du kan välja vad som ska hända när användaren har nått målet och hur du vill att räkningen ska ökas.
+Det är enkelt att uppnå detta genom att använda alternativet [Avancerade inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) för varje mål. Du kan välja vad som ska hända när användaren har nått målet och hur du vill att räkningen ska ökas.
 
 I det här fallet kan du alltså välja &quot;Ökningsantal, Frigör användare och fält från återinträde&quot; tillsammans med &quot;Standardinnehåll/annat aktivitetsinnehåll&quot; för att uppnå målet. Se även andra alternativ.
 
@@ -106,7 +106,7 @@ Detta är möjligt med inställningen Primärt mål i steg 3 i det guidade arbet
 
 **Kan jag schemalägga en aktivitet att börja och sluta vid en fast tidpunkt?**
 
-Använd [schemaläggningsfunktionen i steget Mål och inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
+Använd funktionen [Schemaläggning i steget Mål och inställningar](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
 
 Kom ihåg att aktivera aktiviteten. Endast aktiva aktiviteter följer det angivna schemat. När slutdatumet har nåtts försätts aktiviteten i tillståndet Avslutat.
 
@@ -122,7 +122,7 @@ Detta är också möjligt. Du [använder bara alternativet Spara till att göra 
 
 Använd vår [kraftfulla QA Mode-funktion](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) för att utföra QA. Du kan dela länkar med ditt QA-team och även testa aktiviteten från början till slut, inklusive rapportering, för att vara helt säker på att den fungerar som den ska och som den har testats när aktiviteten är aktiv.
 
-**Hur kan jag använda Target beslutskraft för att få en upplevelse/ett erbjudande som kan användas i SPA (Single Page Applications) eller serverintegration?**
+**Hur kan jag använda Target beslutskraft för att få en upplevelse/ett erbjudande som kan användas i Single Page Applications (SPA) eller serverintegration?**
 
 Utnyttja de kraftfulla [formulärbaserade aktiviteterna](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) med [JSON-erbjudanden](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) för att uppnå dina mål.
 
@@ -263,7 +263,7 @@ Det är möjligt att din plats kan ha dynamiska ID:n, duplicerade ID:n eller dyn
 
 Använd vår [felsökare](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) och sök efter [aktivitetskonflikter](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
-**Kan jag använda Target beslutskraft för att få en upplevelse/ett erbjudande som kan användas i SPA-program (Single Page Applications) eller serverintegration?**
+**Kan jag använda Target beslutskraft för att få en upplevelse/ett erbjudande som kan användas i Single Page-program (SPA) eller integreringar på serversidan?**
 
 Utnyttja de kraftfulla [formulärbaserade aktiviteterna](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) med [JSON-erbjudanden](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) för att uppnå dina mål.
 
