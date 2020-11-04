@@ -5,7 +5,7 @@ title: Rapportinställningar
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 0%
@@ -265,7 +265,7 @@ Standardordningen som diagrammet ritas i är följande:
 
 När du arbetar med alternativen för Räkningsmetod bör du tänka på följande:
 
-* För [Automatiskt mål-aktiviteter](/help/c-activities/auto-target-to-optimize.md)finns det inget alternativ för att välja &quot;Besökare&quot; som beräkningsmetod. Automatiskt mål är den enda aktivitetstypen som du inte kan rita upp av besökare.
+* För [Automatiskt mål-aktiviteter](/help/c-activities/auto-target/auto-target-to-optimize.md)finns det inget alternativ för att välja &quot;Besökare&quot; som beräkningsmetod. Automatiskt mål är den enda aktivitetstypen som du inte kan rita upp av besökare.
 * För aktiviteter som använder [Analytics som rapportkälla (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)kan du inte rita in Besök eller Impression kumulativt.
 
 ## Arbeta med diagram som har mer än 16 upplevelser i aktiviteten
