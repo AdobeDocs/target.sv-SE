@@ -6,19 +6,19 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
 workflow-type: tm+mt
-source-wordcount: '3343'
+source-wordcount: '3344'
 ht-degree: 0%
 
 ---
 
 
-# Automatisk allokering{#auto-allocate}
+# Automatisk allokering - översikt
 
 Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig.
 
-När du [skapar en A/B-aktivitet med det guidade arbetsflödet](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)i tre steg kan du välja [!UICONTROL Auto-Allocate to Best Experience] alternativet.
+När du skapar en A/B-aktivitet med det guidade arbetsflödet i tre steg kan du välja [!UICONTROL Auto-Allocate to best experience] alternativet.
 
 ## Utmaningen {#section_85D5A03637204BACA75E19646162ACFF}
 
