@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1555'
 ht-degree: 0%
 
 ---
@@ -205,7 +205,7 @@ ht-degree: 0%
       + [Hur länge ska du köra ett A/B-test?](c-activities/t-test-ab/sample-size-determination.md)
       + [Tio vanliga A/B-testfall och hur man undviker dem](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Skapa ett A/B-test {#create}
-         + [Skapa ett test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [Skapa ett A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Lägg till upplevelse](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Välj målgrupp](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 0%
          + [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Målgrupper med olika upplevelser i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Automatisk allokering {#auto-allocate}
-      + [Automatisk allokering](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Automatisk allokering - översikt](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Skapa en automatiskt fördelad aktivitet](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
       + [Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Automatiskt mål](c-activities/auto-target-to-optimize.md)
