@@ -6,9 +6,9 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 På samma sätt [!UICONTROL Auto-Target]använder [!UICONTROL Automated Personalization] en slumpmässig skogsalgoritm, en ledande metod för ensemble i datavetenskap, som sin huvudsakliga personaliseringsalgoritm för att fastställa den bästa upplevelsen för att visa en besökare. [!UICONTROL Automated Personalization] kan vara värdefullt i testfasen. Det är också användbart att låta maskininlärning avgöra vilket innehåll som är mest effektivt när man riktar in sig på olika besökare. Med tiden lär sig algoritmen att förutsäga det mest effektiva innehållet och visar det innehåll som troligast uppnår dina mål.
 
-Mer information om hur [!UICONTROL Automated Personalization] skiljer sig [!UICONTROL Auto-Target]finns i [Automatiskt mål för personaliserade upplevelser](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+Mer information om hur [!UICONTROL Automated Personalization] skiljer sig [!UICONTROL Auto-Target]finns i [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md).
 
 Marknadsförarna implementerar en fil på sin webbplats, vilket gör att de kan peka och klicka på valfritt innehåll och sedan visuellt skapa och välja ytterligare innehållsalternativ för det området med hjälp av VEC ([!UICONTROL Visual Experience Composer]). Sedan bestämmer algoritmen automatiskt vilken del av innehållet som ska levereras till varje enskild besökare baserat på alla beteendedata som systemet har om besökaren, vilket ger en personaliserad upplevelse. Eftersom [!UICONTROL Automated Personalization] kan anpassa sig till förändringar i besökarnas beteende kan det köras utan ett fast slutdatum för att ge kontinuerlig lyft och personalisering. Detta kallas ibland för &quot;alltid på&quot;-läge. Marknadsföraren behöver inte köra ett test, analysera resultaten och sedan leverera en vinnare innan optimeringen genomförs, vilket är en standardordning för åtgärder för att implementera resultatet av en standard A/B-aktivitet.
 
@@ -52,7 +52,7 @@ Random Forest är en ledande maskininlärningsstrategi. I datavetenskapen är de
 
 * Multiarm bandit säkerställer att modellen alltid &quot;spenderar&quot; en liten del av trafiken för att fortsätta lära sig genom hela aktivitetens livstid och för att förhindra att tidigare inlärda trender utnyttjas i alltför stor utsträckning.
 * De underliggande modellerna byggs om var 24:e timme med hjälp av de senaste besökarbeteendedata för att säkerställa att Target alltid utnyttjar förändrade besökarinställningar.
-* Om algoritmen inte kan avgöra vilka upplevelser som vinner för enskilda besökare, växlar den automatiskt till att visa den övergripande upplevelsen av bästa resultat, samtidigt som den fortsätter att leta efter personaliserade vinnare. Den bästa upplevelsen med [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Om algoritmen inte kan avgöra vilka upplevelser som vinner för enskilda besökare, växlar den automatiskt till att visa den övergripande prestandaoptimerade upplevelsen, samtidigt som den fortsätter att leta efter personaliserade vinnare. Den bästa upplevelsen med [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 **Modellen optimerar kontinuerligt ett enskilt målmått.**
 
@@ -62,7 +62,7 @@ Random Forest är en ledande maskininlärningsstrategi. I datavetenskapen är de
 
 * Mer information om attributen som används i [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization]finns i [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
-**Target använder automatiskt alla[!DNL Adobe Experience Cloud]delade målgrupper för att skapa personaliseringsmodeller.**
+**Target använder automatiskt alla [!DNL Adobe Experience Cloud] delade målgrupper för att skapa personaliseringsmodeller.**
 
 * Ni behöver inte göra något specifikt för att lägga till målgrupper i modellen. Mer information om hur du använder [!DNL Experience Cloud Audiences] med [!DNL Target]finns i [Experience Cloud Publiker](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
 
@@ -74,7 +74,7 @@ Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört v�
 * [Profilparametrar](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 * [API:er på serversidan för profiluppdatering](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 
-Mer information om de data som samlas in automatiskt och används av [!UICONTROL Automated Personalization] - och [!UICONTROL Auto-Target] personaliseringsalgoritmer finns i [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
+Mer information om de data som samlas in automatiskt och används av [!UICONTROL Automated Personalization] och [!UICONTROL Auto-Target] personaliseringsalgoritmer finns i [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
 ## ![Översikt](/help/assets/overview.png) utbildningsvideo: Typ av aktivitet
 
