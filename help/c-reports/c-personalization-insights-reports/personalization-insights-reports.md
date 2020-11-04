@@ -5,7 +5,7 @@ title: Insikter om personalisering - rapporter
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -rapporter om personaliseringsinsikter{#personalization-insights-reports}
+# ![PREMIUM](/help/assets/premium.png) Insights - rapporter om personalisering{#personalization-insights-reports}
 
 Två specialrapporter är tillgängliga för användare av [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) aktiviteter: rapporter [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter.
 
@@ -53,8 +53,8 @@ Två [!UICONTROL Personalization Insights] rapporter finns:
 
 Det finns två typer av attribut som visas i [!UICONTROL Personalization Insights] rapporter som används i dina AP- eller Automatiskt mål-modeller:
 
-* **Attribut som samlas in automatiskt av Target:** [!DNL Target] använder en basdatauppsättning för att bygga sina personaliseringsalgoritmer i AP- och AT-aktiviteter som återspeglas i personaliseringsinsikter. Se [Datainsamling för Target&#39;s Personalization Algorithms](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) för datatyper, exempelattribut och deras [!UICONTROL Personalization Insights] namnkonvention. Observera att även om dessa attribut beaktas kanske inte alla dessa attribut används i den slutliga modellen för en enskild aktivitet.
-* **Attribut som skickas till mål:** Se [Överföra data för målalgoritmer](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)för personalisering.
+* **Attribut som samlas in automatiskt av Target:** [!DNL Target] använder en basdatauppsättning för att bygga sina personaliseringsalgoritmer i AP- och AT-aktiviteter som återspeglas i personaliseringsinsikter. Se [Datainsamling för Target&#39;s Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md) för datatyper, exempelattribut och deras [!UICONTROL Personalization Insights] namnkonvention. Observera att även om dessa attribut beaktas kanske inte alla dessa attribut används i den slutliga modellen för en enskild aktivitet.
+* **Attribut som skickas till mål:** Se [Överföra data för målalgoritmer](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)för personalisering.
 
 [!DNL Target] erbjuder många sätt för dig att skicka in ytterligare data för [!DNL Target] att berika den basdatauppsättning som används för att skapa dess personaliseringsalgoritmer i AP- och AT-aktiviteter:
 
