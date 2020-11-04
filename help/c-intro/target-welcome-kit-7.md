@@ -4,7 +4,7 @@ description: Adobe Target welcome kit - Kapitel 7 - Skapa och kör din första T
 title: Adobe Target welcome kit - Kapitel 7 - Skapa och kör din första Target-aktivitet
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Exempel: Ett flygbolag riktar in sig på platinanivåns medlemmar med ett specia
 
 ## Flöde 3: Tillämpning av AI och automatisering för att personalisera i stor skala för enskilda besökare
 
-Du kan ställa in en AI-driven aktivitet för att leverera den bästa upplevelsen av flera av besökarna genom att välja [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) i det andra steget i arbetsflödet för A/B-testkonfiguration. Att använda Automatiskt mål tillsammans med din första aktivitet kan vara mycket användbart när du inte vet vilken upplevelse som får genklang för olika besökare. Med Auto-Target kan ni låta maskininlärning utvärdera och poängsätta prediktiva attribut i realtid och avgöra vilka attribut hos era besökare som är viktigast för att avgöra vilken upplevelse de ska leverera.
+Du kan ställa in en AI-driven aktivitet för att leverera den bästa upplevelsen av flera av besökarna genom att välja [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) i det andra steget i arbetsflödet för A/B-testkonfiguration. Att använda Automatiskt mål tillsammans med din första aktivitet kan vara mycket användbart när du inte vet vilken upplevelse som får genklang för olika besökare. Med Auto-Target kan ni låta maskininlärning utvärdera och poängsätta prediktiva attribut i realtid och avgöra vilka attribut hos era besökare som är viktigast för att avgöra vilken upplevelse de ska leverera.
 
 Exempel: Ett telco som säljer flera telefonvarumärken och mobilmodeller aktiverar Auto-Target för att använda automatisering och maskininlärning för att avgöra vilket av fyra olika upplevelser eller erbjudanden på startskärmen för hemsidan eller mobilappen som passar bäst för många olika besökare.
 
