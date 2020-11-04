@@ -1,15 +1,15 @@
 ---
 keywords: Analytics as reporting source;a4t;A4T
-description: Krav för användarkonton för att skapa en Adobe Analytics-baserad aktivitet i Adobe Target (A4T).
+description: Krav för användarkonto för att skapa en Adobe Analytics-baserad aktivitet i Adobe Target (A4T).
 title: Krav på användarbehörighet
 feature: a4t implementation
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,11 @@ Utför följande uppgifter i [!DNL Adobe Analytics]:
 
 ### Konfigurera åtkomst till Analytics-rapportsviten
 
-Innan du skapar eller visar rapporter för en [!DNL Analytics]aktiverad aktivitet måste du vara medlem i **[!UICONTROL All Report Access]** gruppen, eller medlem i en grupp som har tillgång till minst en rapport i rapportsviten som du vill använda. Om du inte kan visa rapporter bör du kontrollera att du är medlem i någon av dessa grupper.
+Om du vill använda A4T på en viss rapportserie måste du ha tillgång till den rapportsviten. Klicka på en [!UICONTROL Admin Console]produktprofil och klicka sedan på [!DNL Analytics] [!UICONTROL Permissions] fliken om du vill få tillgång till den i . Du kan sedan se vilka rapportsviter profilen har åtkomst till. Se till att den rapportserie som du vill ha tillgång till i [!DNL Target] är en av de som finns i produktprofilen som du är en del av.
 
-Mer information finns i [Produktprofiler och grupper](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+Följande bild är ett exempel på en produktprofil som har tillgång till alla rapportsviter:
 
-### Konfigurera åtkomst till webbtjänståtkomstgruppen
-
-Du måste tillhöra webbtjänståtkomstgruppen i [!DNL Analytics] för att kunna använda [!DNL Analytics] som rapportkälla för [!DNL Target].
+![Behörighetsfliken Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
