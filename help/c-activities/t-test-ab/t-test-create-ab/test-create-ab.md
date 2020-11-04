@@ -1,24 +1,32 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity
-description: Använd Visual Experience Composer i Target för att skapa ditt test direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
+keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
+description: Använd Visual Experience Composer i Adobe Target för att skapa A/B-testaktivitet direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
 title: Skapa ett A/B-test
 feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 85dc58da0425bfbbea2b2892ab617152c0184d0b
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
 
-# Skapa ett A/B-test{#create-an-a-b-test}
+# Skapa ett A/B-test
 
-Använd Visual Experience Composer i Target för att skapa ditt test direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
+Använd [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Adobe Target] för att skapa din [!UICONTROL A/B Test] aktivitet direkt på en [!DNL Target]aktiverad sida och för att ändra delar av sidan i [!DNL Target].
 
-1. From the [!UICONTROL Activities] list, click **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
+>[!NOTE]
+>
+>Förutom den manuella (standard) [!UICONTROL A/B Test] -aktiviteten (som beskrivs i det här avsnittet), finns det ytterligare två typer av [!DNL Target] [!UICONTROL A/B Test] aktiviteter: [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target].
+>
+>Se [Typer av A/B-testningsaktiviteter](/help/c-activities/t-test-ab/test-ab.md#types) i *A/B-testöversikt*.
+
+Så här skapar du en manuell [!UICONTROL A/B Test] aktivitet:
+
+1. From the **[!UICONTROL Activities]** list, click **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
    ![Listrutan Skapa aktivitet](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -28,23 +36,23 @@ Använd Visual Experience Composer i Target för att skapa ditt test direkt på 
    >
    >Mer information om de olika aktivitetstyperna finns i [Verksamheter](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) och i guiden [](/help/c-activities/target-activities-guide.md)Målaktiviteter.
 
-   ![Skapa A/B-testaktivitet](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
-
 1. Välj **[!UICONTROL Visual (Default)]** vid behov.
 
-   Om du föredrar att använda formulärbaserad Experience Composer väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) .
+   ![Skapa A/B-testaktivitet](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+
+   Om du föredrar att använda [!UICONTROL Form-Based Experience Composer]väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) .
 
    >[!NOTE]
    >
-   >Förutom VEC och Form-Based Experience Composer erbjuder Target Single Page Application VEC och VEC for Mobile Apps. Mer information om de olika dispositionerna finns i [Erfarenheter och erbjudanden](/help/c-experiences/experiences.md).
+   >Förutom VEC och [!UICONTROL Form-Based Experience Composer]finns [!DNL Target] Single Page Application VEC. Mer information om de olika dispositionerna finns i [Erfarenheter och erbjudanden](/help/c-experiences/experiences.md).
    >
    >Felsökningsinformation om VEC finns i [Felsökning i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)om det uppstår problem.
    >
-   >Alternativet [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
+   >Alternativet [!UICONTROL Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en [!UICONTROL Target Standard] licens om du inte ser det här alternativet.
 
 1. (Villkorligt) Om du är [Target Premium-kund](/help/c-intro/intro.md#premium)väljer du en [arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Ange din [aktivitets-URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)och klicka sedan på **[!UICONTROL Next]**.
+1. Ange din [aktivitets-URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)och klicka sedan på **[!UICONTROL Next]**.
 
    Om ditt konto är konfigurerat med en standardwebbadress (URL) visas den URL:en som standard. Du kan ändra från standard till en annan URL.
 
@@ -82,9 +90,10 @@ Använd Visual Experience Composer i Target för att skapa ditt test direkt på 
    ![A/B Test Targeting step](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
 
    Flödesdiagrammet leder dig genom stegen för att välja målgrupp för aktiviteten och skapa upplevelser.
-1. Klicka på redigeringsikonen i [!UICONTROL Audience] rutan och [välj sedan målgrupp](../../../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) för din aktivitet.
 
-   Som standard är målgruppen Alla besökare.
+1. Klicka på redigeringsikonen (tre lodräta ellipser) i [!UICONTROL Audience] rutan, klicka **[!UICONTROL Replace Audience]** och [välj målgrupp](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) för aktiviteten.
+
+   Som standard är målgruppen inställd på [!UICONTROL All Visitors].
 
 1. Välj den procentandel kvalificerade besökare som du vill ange aktiviteten för.
 
@@ -102,24 +111,24 @@ Använd Visual Experience Composer i Target för att skapa ditt test direkt på 
 
    * **[!UICONTROL Auto-allocate to best experience]**: De flesta aktivitetspartners dirigeras automatiskt till högpresterande upplevelser. Vissa besökare tilldelas alla upplevelser för att kunna utforska upplevelser och för att identifiera förändringar i prestandatender. Se [Automatiserad trafikallokering](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-   * **[!UICONTROL Auto-target for personalized experiences]**: Target använder avancerade maskininlärningsalgoritmer för att automatiskt rikta in sig på besökare med den bästa upplevelsen för att maximera era era mål. Mer information finns i Optimera [med Automatiskt mål](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
-   Du kan också klicka för **[!UICONTROL Add Experience]** att lägga till en annan upplevelse till aktiviteten.
+   * **[!UICONTROL Auto-target for personalized experiences]**: [!DNL Target] använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare. Mer information finns i [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md).
+   Du kan också klicka för **[!UICONTROL Add]** att lägga till en annan upplevelse till aktiviteten.
 
-1. När du är nöjd med dina målgrupps- och upplevelseval klickar du för **[!UICONTROL Next]** att gå över till det tredje steget i det guidade arbetsflödet i tre steg.
+1. När du är nöjd med din publik, dina upplevelseval och dina val av trafiktilldelning klickar du för **[!UICONTROL Next]** att gå över till det tredje steget i det guidade arbetsflödet i tre steg.
 
-1. Ange [mål och inställningar](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) för aktiviteten.
+1. Ange [mål och inställningar](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) för aktiviteten.
 
    ![A/B-aktivitetsinställningar](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save & Close]** eller **[!UICONTROL Save]**.
 
-När du har skapat aktiviteten visas information om aktiviteten på fliken Översikt, inklusive ett diagram över aktiviteten.
+När du har skapat aktiviteten visas information om aktiviteten på [!UICONTROL Overview] fliken, inklusive ett diagram över aktiviteten.
 
 ## Utbildningsvideo: Skapa A/B-tester (8:36) ![självstudiemärke](/help/assets/tutorial.png)
 
 I den här videon visas hur du skapar ett A/B-test med ett guidat arbetsflöde i tre steg. [!DNL Target]
 
-* Skapa en A/B-aktivitet i Adobe Target
+* Skapa en [!UICONTROL A/B Test] aktivitet i [!DNL Adobe Target]
 * Allokera trafik med manuell, delad eller automatisk trafikallokering
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
