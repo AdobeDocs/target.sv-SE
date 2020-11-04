@@ -4,7 +4,7 @@ description: Välkomstkit för Adobe Target - Kapitel 2 - Ett ögonblick
 title: Välkomstkit för Adobe Target - Kapitel 2 - Ett ögonblick
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Testning och personalisering är de två vanligaste funktionerna som [!DNL Targe
 
 I en testaktivitet jämför du en variant av en digital upplevelse med en eller flera andra varianter för att upptäcka att en sådan som får de flesta besökare att vidta önskad åtgärd. [!DNL Target] erbjuder följande testfunktioner: A/B-testning, multivariata tester (MVT) och automatisk fördelning.
 
-Med en personaliseringsaktivitet kan ni leverera en digital upplevelse som är skräddarsydd för en viss grupp besökare eller för varje enskild besökare. [!DNL Target] erbjuder följande personaliseringsfunktioner: Upplev Target, Auto-Target, Automated Personalization och Recommendations.
+Med en personaliseringsaktivitet levererar ni en digital upplevelse som är skräddarsydd för en viss grupp besökare eller för varje enskild besökare. [!DNL Target] erbjuder följande personaliseringsfunktioner: Upplev Target, Auto-Target, Automated Personalization och Recommendations.
 
 Mer information om när och hur du använder varje funktion finns i [Verksamhetstyper](/help/c-activities/target-activities-guide.md)för mål.
 
@@ -30,7 +30,7 @@ Mer information om när och hur du använder varje funktion finns i [Verksamhets
 | --- | --- |
 | A/B-testning | Jämför två eller flera varianter av era upplevelser eller erbjudanden på er webbplats eller andra kontaktytor för digitala kunder för att se vilken variation som förbättrar de viktigaste affärsåtgärderna under en förspecificerad testperiod. A/B-tester är väl lämpade för stora förändringar, som nya webbsideslayouter, olika strategier för webbplatsnavigering eller drastiskt olika behandlingar av enskilda element i en digital upplevelse som kopiera, bilder och knappar för att ringa in. [Läs mer](/help/c-activities/t-test-ab/test-ab.md). |
 | Automatisk allokering | Identifiera den bästa upplevelsen av två eller fler upplevelser och omfördela automatiskt mer trafik till vinnaren för att öka konverteringsgraden medan testet fortsätter att köras och lära sig mer. Använder artificiell intelligens från [!DNL Adobe Sensei]. [Läs mer](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| Automatiskt mål<br>(Premium) | Utnyttja Adobe Sensei AI i [!DNL Target] för att fastställa och leverera den bästa upplevelsen av flera till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler. Automatisk målgruppsanpassning möjliggör personalisering i stor skala. [Läs mer](/help/c-activities/auto-target-to-optimize.md). |
+| Automatiskt mål<br>(Premium) | Utnyttja Adobe Sensei AI i [!DNL Target] för att fastställa och leverera den bästa upplevelsen av flera till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler. Automatisk målgruppsanpassning möjliggör personalisering i stor skala. [Läs mer](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Använd avancerade maskininlärningsalgoritmer och automatisering som bygger på [!DNL Adobe Sensei] att granska olika kombinationer av bilder, text och andra element i ett erbjudande och leverera den bästa kombinationen till varje besökare baserat på vilka affärsmål som bäst uppnås, till exempel ökad konvertering eller intäkt per besökare. [Läs mer](/help/c-activities/t-automated-personalization/automated-personalization.md). |
 | Experience Targeting (XT) | Leverera innehåll till en viss målgrupp baserat på en uppsättning användardefinierade regler och kriterier. **[!UICONTROL Experience Targeting]** är värdefullt för att rikta en specifik upplevelse eller innehåll till en viss målgrupp när ni förstår att en målgrupp är värdefull och har en bra uppfattning om vilken upplevelse som får genklang med dem. [Läs mer](/help/c-activities/t-experience-target/experience-target.md). |
 | Multivariate Testing (MVT) | Jämför alla möjliga kombinationer av olika element på sidan eller i den digitala upplevelsen, till exempel tre olika bakgrundsbilder, två varianter av text och två olika knappfärger. MVT avgör vilken kombination som fungerar bäst för en viss målgrupp och vilka element som påverkar resultatet mest. [Läs mer](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
@@ -42,7 +42,7 @@ Du kan använda [!DNL Target] för att testa och personalisera digitala upplevel
 
 | Kanal | Detaljer |
 | --- | --- |
-| Webbplats | [!DNL Target] kan användas för att köra A/B-testning, Multivariate Testing, Experience Targeting, Auto-Allocate, Auto-Target, Automated Personalization och Recommendations på sidor av era flersidiga, SPA-baserade (Single page application) och mobilwebbplatser för att förbättra besökarens och kundens engagemang, öka konverteringarna och öka intäkterna. |
+| Webbplats | [!DNL Target] kan användas för att köra A/B-testning, Multivariate Testing, Experience Targeting, Auto-Allocate, Auto-Target, Automated Personalization och Recommendations på sidor av era flersidiga, single page-applikationer (SPA) och mobilsajter för att förbättra besökarens och kundens engagemang, öka konverteringarna och öka intäkterna. |
 | Mobil webb | [!DNL Target] kan användas för att köra alla de aktivitetstyper som du kör på din webbplats på dina mobilsidor för att på liknande sätt förbättra besökares och kunders engagemang, öka konverteringarna och öka intäkterna. |
 | Mobilapp | [!DNL Target] kan användas för att testa och personalisera mobilappsupplevelser baserat på användarbeteende och mobilsammanhang. [!DNL Target] Med kan ni leverera interaktioner som engagerar och konverterar genom iterativ testning samt Experience Targeting och AI-driven personalisering. Om du vill använda [!DNL Target] i din mobilapp måste du använda Adobe Mobile Services SDK. |
 | IoT/Everywhere | [!DNL Target] erbjuder en implementering på serversidan så att du kan använda samma funktioner för testning och personalisering i aktiviteter som du använder på din traditionella webbplats, mobilwebbplats och mobilappar i e-postmeddelanden och på kontaktytor som saknar webbläsare eller som inte använder JavaScript-kod. Du kan till exempel testa och anpassa kioskdatorer, digitalboxar, spelkonsoler, röstassistenter och andra icke-traditionella kontaktytor. |
