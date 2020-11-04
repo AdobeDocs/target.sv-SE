@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Ni testar två upplevelser, en geofylld banderoll jämfört med en allmän bande
 
 I det här fallet behöver du geospecifika versioner av upplevelsen, så att du kan testa den riktade upplevelsen mot en icke-geografisk kontroll.
 
-1. [Skapa en A/B-aktivitet](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) som vanligt.
+1. [Skapa en A/B-aktivitet](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) som vanligt.
 
    När du konfigurerar en upplevelse som ska ha flera versioner väljer du målgrupp för varje version, vilket visas i följande steg.
 
