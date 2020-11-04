@@ -5,7 +5,7 @@ title: Viktiga attributrapporter
 feature: reports
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1562'
 ht-degree: 0%
@@ -40,7 +40,7 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
 ## Öppna rapporten Viktiga attribut {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet för [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) i listan.
+1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet för [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) i listan.
 
    Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer][!UICONTROL Metrics Type]och [!UICONTROL Activity Source] .
 
@@ -95,14 +95,14 @@ I följande tabell beskrivs hur du tolkar rapporten och dess element:
 Det finns flera anledningar till att rapporterna kanske inte är tillgängliga för din aktivitet ännu: [!UICONTROL Personalization Insights]
 
 * 15 dagar har inte gått sedan du aktiverade aktiviteten. Automatiserade segment och viktiga attributrapporter är inte tillgängliga förrän tidigast 15 dagar efter att du har påbörjat aktiviteten. Under den inledande perioden kommer du inte att kunna komma åt dessa rapporter eller klicka på ikonerna Automatiserade segment och Viktiga attribut.
-* Din aktivitet har inte haft tillräckligt med trafik under den angivna tidsramen. Efter 15 dagar kommer rapporter om automatiserade segment och viktiga attribut att finnas tillgängliga, förutsatt att det finns [tillräckligt med personaliserad trafik](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) i din aktivitet för att skapa personaliseringsmodeller.
+* Din aktivitet har inte haft tillräckligt med trafik under den angivna tidsramen. Efter 15 dagar kommer rapporter om automatiserade segment och viktiga attribut att finnas tillgängliga, förutsatt att det finns [tillräckligt med personaliserad trafik](/help/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) i din aktivitet för att skapa personaliseringsmodeller.
 * Din aktivitet har ett intäktsoptimeringsmål. För närvarande [!UICONTROL Personalization Insights] är endast tillgängligt för målaktiviteter för konverteringsoptimering. Vi kommer att lägga till stöd för intäktsoptimeringsmålaktiviteter i en kommande release.
 
 **Vad är ett attribut?**
 
 Ett attribut är information om en besökare eller hans eller hennes specifika besök som används av personaliseringsalgoritmerna för att lära sig att personalisera trafik. Ett attribut kan till exempel vara webbläsartyp, plats, tidpunkt på besöksdagen och så vidare.
 
-Mer information om vilka attribut som [!DNL Target] används i dess anpassningsmodeller finns i [Datainsamling för Target&#39;s Personalization Algorithms](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). Mer information om hur du överför nya attribut till Target för användning i Target-personaliseringsmodeller finns i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Mer information om vilka attribut som [!DNL Target] används i dess anpassningsmodeller finns i [Datainsamling för Target&#39;s Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target-personaliseringsmodeller finns i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 **Är informationen i [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter densamma som i CSV-nedladdningen?**
 
