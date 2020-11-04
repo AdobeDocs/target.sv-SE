@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Information som hjälper dig att använda [!DNL Target] QA-bokmärket för att t
 
 ## Activity QA bookmarklet for at.js 1.*x*
 
-Eftersom [QA-läget](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) är fast måste din [!DNL Target] session förfalla när du har bläddrat på en webbplats i QA-läge, annars måste du ha [!DNL Target] släppt dig från QA-läge innan du kan visa webbplatsen som en vanlig besökare. Använd QA- [!DNL Target] bokmärket för att tvinga dig ut ur QA-läget.
+Eftersom [QA-läget](/help/c-activities/c-activity-qa/activity-qa.md) är fast måste din [!DNL Target] session förfalla när du har bläddrat på en webbplats i QA-läge, annars måste du ha [!DNL Target] släppt dig från QA-läge innan du kan visa webbplatsen som en vanlig besökare. Använd QA- [!DNL Target] bokmärket för att tvinga dig ut ur QA-läget.
 
 Om du vill använda [!DNL Target] QA-bokmärket skapar du ett bokmärke som innehåller följande JavaScript-kod och lägger till den i webbläsarens bokmärkesverktygsfält:
 
