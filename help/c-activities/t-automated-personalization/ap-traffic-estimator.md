@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Kom ihåg att [!DNL Target] leverera upplevelser slumpmässigt tills personalise
 
    Om du inte har tillräckligt med trafik kan du göra något av följande:
 
-   * Överväg att använda en [Auto-Target](/help/c-activities/auto-target-to-optimize.md) -aktivitet i stället för [!UICONTROL Automated Personalization] att skapa upplevelser med flera olika erbjudandeändringar i en upplevelsevariant.
+   * Överväg att använda en [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) -aktivitet i stället för [!UICONTROL Automated Personalization] att skapa upplevelser med flera olika erbjudandeändringar i en upplevelsevariant.
    * Minska antalet erbjudandekombinationer inom er [!UICONTROL Automated Personalization] verksamhet.
    * Öka aktivitetens varaktighet.
 
