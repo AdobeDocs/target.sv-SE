@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Använd våra [rapporter för att fastställa den vinnande upplevelsen](../c-act
 
 **Kan jag utföra en aktivitet med en nivå av personalisering som en integrerad del av aktiviteten?**
 
-Ta en titt på [alternativet Automatisk målning](/help/c-activities/auto-target-to-optimize.md) .
+Ta en titt på [alternativet Automatisk målning](/help/c-activities/auto-target/auto-target-to-optimize.md) .
 
 **Hur vet jag vilken typ av aktivitet som passar mina behov bäst?**
 
@@ -120,7 +120,7 @@ Detta är också möjligt. Du [använder bara alternativet Spara till att göra 
 
 **Hur kan jag förhandsgranska och göra kvalitetskontroll av en aktivitet som jag just har skapat?**
 
-Använd vår [kraftfulla QA Mode-funktion](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) för att utföra QA. Du kan dela länkar med ditt QA-team och även testa aktiviteten från början till slut, inklusive rapportering, för att vara helt säker på att den fungerar som den ska och som den har testats när aktiviteten är aktiv.
+Använd vår [kraftfulla QA Mode-funktion](/help/c-activities/c-activity-qa/activity-qa.md) för att utföra QA. Du kan dela länkar med ditt QA-team och även testa aktiviteten från början till slut, inklusive rapportering, för att vara helt säker på att den fungerar som den ska och som den har testats när aktiviteten är aktiv.
 
 **Hur kan jag använda Target beslutskraft för att få en upplevelse/ett erbjudande som kan användas i Single Page Applications (SPA) eller serverintegration?**
 
@@ -167,7 +167,7 @@ Ta en titt på följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Kundattribut](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [Målgrupper](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Målgrupper](/help/c-integrating-target-with-mac/mmp.md)
 
 ## Erfarenheter {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ Ta en titt på följande aspekter av produkten:
 
 * [Kundattribut](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [Målgrupper](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Målgrupper](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **Kan jag segmentera och tona ned rapporteringen för flera användarsegment?**
