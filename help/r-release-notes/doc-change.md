@@ -6,7 +6,7 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 0%
@@ -42,7 +42,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om följande live-webbinarium som planeras äga rum den 10 november 2020:<ul><li>Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target</li></ul> |
 | 12 oktober | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Uppdaterat [Hämta den auktoriseringstoken som ska användas med felsökningsverktyg](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) för att ange den behörighetsnivå som du måste generera en autentiseringstoken. |
 |  | [Profil-API-inställningar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Uppdaterat ämne för att ange behörighetsnivån som du måste generera en autentiseringstoken. |
-|  | [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) | En riktig framgångsberättelse med Auto-Target har lagts till. |
+|  | [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) | En riktig framgångsberättelse med Auto-Target har lagts till. |
 |  | [Inkludera samma upplevelse på liknande sidor](/help/c-experiences/c-visual-experience-composer/temtest.md) | Avsnittet som förklarar hur samma aktivitet återges i hela domänen har lagts till. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>Analyser för målvärden (A4T) för aktiviteterna Automatisk fördelning och Automatisk målanpassning</li></ul> |
 | 8 oktober | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Följande lösta problem har lagts till:<ul><li>[Automatisk målrapportering](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Följande problem har flyttats från avsnittet Kända fel till avsnittet Lösta problem:<ul><li>[Rapportering](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
@@ -95,7 +95,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | 10 augusti | [CNAME och Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tillagd text som anger att storleken på cookie-huvudet kommer att öka när CNAME används. |
 |  | [Integrera Target med Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | Nytt ämne. |
 |  | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Länk har lagts till för att visa följande arkiverade webbinarium: &quot;Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala.&quot; |
-| 6 augusti | [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md#how-long) | Uppdaterad text för följande vanliga frågor och svar: &quot;Hur länge ska jag vänta på att modeller ska byggas?&quot; |
+| 6 augusti | [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md#how-long) | Uppdaterad text för följande vanliga frågor och svar: &quot;Hur länge ska jag vänta på att modeller ska byggas?&quot; |
 |  | [Klassificeringar - A4T - vanliga frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Texten för måltyp har uppdaterats. |
 | 5 augusti | [Ta bort målcookien](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Hela ämnet har uppdaterats. |
 | 4 augusti | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till registreringsinformation om webbseminariet&quot;Personalization Strategies Using Artificial Intelligence and Adobe Target&quot; som ska visas den 13 augusti. |
@@ -106,7 +106,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 |  | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till registreringsinformation om det kommande Adobe Target Community Coffee Break den 5 augusti. |
 | 28 juli | [Insikter-rapporter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)om personalisering,rapport<br>[om](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatiska segment<br>och [viktiga attribut](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Uppdaterad text i anteckningen överst i avsnitten. |
 |  | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Följande frågor och svar har lagts till:<ul><li>Kan jag använda alternativet Återställ rapportdata när jag kör en autoallokeringsaktivitet?</li><li>Hur bygger Automatisk tilldelning modeller med hänsyn till miljöer?</li></ul> |
-|  | [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) | Följande frågor och svar har lagts till:<ul><li>Kan jag använda alternativet Återställ rapportdata när jag kör en Automatisk målaktivitet?</li></ul>Updated text in the &quot;Considerations&quot; section. |
+|  | [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) | Följande frågor och svar har lagts till:<ul><li>Kan jag använda alternativet Återställ rapportdata när jag kör en Automatisk målaktivitet?</li></ul>Updated text in the &quot;Considerations&quot; section. |
 |  | [Vanliga frågor om Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Följande frågor och svar har lagts till:<ul><li>Kan jag använda alternativet Återställ rapportdata när jag kör en Automated Personalization-aktivitet?</li><li>Hur bygger Automated Personalization modeller för olika miljöer?</li></ul> |
 |  | [Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Lagt till information om Internet Explorer och okända element. |
 |  | [Kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Uppdaterat följande stycke:<br>[!DNL Adobe] garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till [!DNL Experience Cloud] och därför vara tillgängliga för användning i [!DNL Target]. I vår nuvarande design finns det en möjlighet att en liten andel data (upp till 0,1 % av stora tillverkningssatser) inte tas med. |
@@ -122,7 +122,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | --- | --- | --- |
 | 17 juli | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Coffee Break, 22 juli. |
 | 15 juli | [Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Nytt ämne. |
-| 14 juli | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[Automatisk målanpassning](/help/c-activities/auto-target-to-optimize.md)<br><br>[och Automatisk personalisering - frågor och svar](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Vanliga frågor och svar har lagts till som rekommenderar att du inte ska ändra målmåttet genom en aktivitet. |
+| 14 juli | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[Automatisk målanpassning](/help/c-activities/auto-target/auto-target-to-optimize.md)<br><br>[och Automatisk personalisering - frågor och svar](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Vanliga frågor och svar har lagts till som rekommenderar att du inte ska ändra målmåttet genom en aktivitet. |
 | 7 juli | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Ytterligare information om Adobe Target Coffee Break från juli 8. |
 | 25 juni | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.6.1 (juli 2020). |
 |  | [Översikt över måldokumentation](/help/r-release-notes/target-documentation.md) | Nytt ämne som beskriver olika [!DNL Target] dokumentationskällor. |
