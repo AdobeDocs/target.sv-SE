@@ -5,7 +5,7 @@ title: Automated Personalization FAQ
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Lista med vanliga frågor och svar om Automated Personalization (AP).
 
 ## Kan jag ange en specifik upplevelse som ska användas som kontroll?
 
-Du kan välja en upplevelse som ska användas som kontroll när du skapar en aktivitet för [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) eller [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md) (AT).
+Du kan välja en upplevelse som ska användas som kontroll när du skapar en aktivitet för [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) eller [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen.
 
@@ -31,7 +31,7 @@ Det finns inget körklart alternativ för att jämföra AP med en standardupplev
 
 ## Vilka är de bästa sätten att skapa en Automated Personalization-aktivitet? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Om du vill anpassa en sida med låg trafik eller vill göra strukturella ändringar av den upplevelse du personaliserar bör du överväga att använda Automatiskt mål i stället för Automated Personalization. Se [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md).
+* Om du vill anpassa en sida med låg trafik eller vill göra strukturella ändringar av den upplevelse du personaliserar bör du överväga att använda Automatiskt mål i stället för Automated Personalization. Se [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * Överväg att slutföra en A/B-aktivitet mellan de erbjudanden och platser som du planerar att använda i din Automated Personalization-aktivitet för att säkerställa att de platser och erbjudanden påverkar optimeringsmålet. Om en A/B-aktivitet inte uppvisar någon större skillnad kommer Automated Personalization sannolikt inte heller att generera någon lyft.
 
    * Om ett A/B...N-test inte visar några statistiskt signifikanta skillnader mellan upplevelserna, är det troligt att de erbjudanden du överväger inte skiljer sig tillräckligt mycket från varandra, påverkar de valda platserna inte framgångsmätningen eller så är optimeringsmålet för långt i konverteringstratten för att påverkas av dina valda erbjudanden.
@@ -79,7 +79,7 @@ Mer information finns i [Felsöka Automated Personalization](../../c-activities/
 
 ### Hur tilldelar Automated Personalization trafiken? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-Automated Personalization dirigerar besökarna till den upplevelse som har den högsta prognosen för framgång baserat på de senaste modellerna av [Slumpmässig skog](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) som skapats för varje modell. Denna prognos baseras på besökarens specifika information och besökskontext.
+Automated Personalization dirigerar besökarna till den upplevelse som har den högsta prognosen för framgång baserat på de senaste modellerna av [Slumpmässig skog](/help/c-activities/t-automated-personalization/algo-random-forest.md) som skapats för varje modell. Denna prognos baseras på besökarens specifika information och besökskontext.
 
 Anta till exempel att en AP-aktivitet har två platser med två erbjudanden vardera. På den första platsen har erbjudande A en prognostiserad konverteringsgrad på 3 % för en viss besökare, och erbjudande B har en prognostiserad konverteringsgrad på 1 %. På den andra platsen har Offer C en prognostiserad konverteringsgrad på 2 % för samma besökare och Offer D har en prognostiserad konverteringsgrad på 5 %. Därför skulle Automated Personalization ge besökaren en upplevelse av Erbjudande A och Erbjudande D.
 
