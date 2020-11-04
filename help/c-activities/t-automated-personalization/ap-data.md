@@ -5,7 +5,7 @@ title: Datainsamling för Adobe Target personaliseringsalgoritmer
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Target samlar automatiskt in och använder en mängd olika data för att bygga sina personaliseringsalgoritmer i Automated Personalization- (AP) och Auto-Target-aktiviteter (AT). När en besökare kommer in i AP- eller AT-aktiviteten skickas en ögonblicksbild av informationen till en uppsättning&quot;utbildningsposter&quot; (de besökardata som personaliseringsalgoritmerna kommer att lära sig om).
 
-Mer information om målpersonaliseringsalgoritmer finns i [Slumpmässig skogsalgoritm](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Mer information om målpersonaliseringsalgoritmer finns i [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-I följande tabell visas de data som samlats in av Automated Personalization och Auto-Target som standard, utan att marknadsföraren behöver göra något, liksom namnkonventionen som används för att ange dessa attribut i [personaliseringsinsikter](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Du kan när som helst utöka indatauppsättningen. Mer information om hur du överför ytterligare data finns i [Överföra data för målpersonaliseringsalgoritmerna](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+I följande tabell visas de data som samlats in av Automated Personalization och Auto-Target som standard, utan att marknadsföraren behöver göra något, liksom namnkonventionen som används för att ange dessa attribut i [personaliseringsinsikter](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Du kan när som helst utöka indatauppsättningen. Mer information om hur du överför ytterligare data finns i [Överföra data för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Datatyp | Beskrivning | Namnkonvention för datatyp | Exempelattribut |
 | --- | --- | --- | --- |
@@ -102,7 +102,7 @@ Följande avsnitt innehåller detaljerad information om de olika datatyperna, in
 | Besökarprofil - Impressions of Location/Content | Anger antalet visningar för en viss plats/innehållskombination i en viss aktivitet. | Dubbel (endast positivt heltal) 1, 2, 3 osv. |
 | Besöksprofil - senaste målinteraktion | Anger tiden för senaste interaktion med Target. Interaktion sker vid varje [!DNL Target] begäran eftersom den aktuella implementeringen av [!DNL Target] uppdaterar profilen vid varje begäran. | Dubbla, millisekunder |
 | Besökarprofil - Sidor som visas före aktivitet | Anger det totala antalet sidvisningar (visningar), inklusive aktuellt besök/session tills besökaren går in i aktiviteten. | Dubbel (endast positivt heltal) 1, 2, 3 osv. |
-| Besöksprofil - sidvyer i aktuellt besök | Anger antalet sidvisningar under det aktuella besöket/sessionen tills besökaren går in i aktiviteten. Mer exakt, antalet visningar. De här intrycken är inte riktiga sidvyer, utan det är det antal gånger som begäran har nått Target. Målet kan inte skilja mellan tidsgränser eller andra orsaker till att användaren inte tog emot eller visade innehållet. | Dubbel (endast positivt heltal) |
+| Besöksprofil - sidvyer i aktuellt besök | Anger antalet sidvisningar under det aktuella besöket/sessionen tills besökaren går in i aktiviteten. Mer exakt, antalet visningar. Dessa visningar är inte riktiga sidvyer, utan det är det antal gånger som begäran har nått Target. Målet kan inte skilja mellan tidsgränser eller andra orsaker till att användaren inte tog emot eller visade innehållet. | Dubbel (endast positivt heltal) |
 | Besöksprofil - start av aktuellt besök | Anger den tidpunkt då det aktuella besöket/sessionen med Target påbörjades. Besöken hos Target kan initieras utan att någon aktivitet behöver utföras. Allt som krävs är ett anrop till en [!DNL Target] begäran. En besökare kan ta en stund tills aktiviteten aktiveras och ögonblicksbilden tas. | Dubbla, millisekunder |
 | Besöksprofil - början på det senaste besöket | Anger tidpunkten för när det senaste besöket/sessionen med Target startades. Det här attributet uppdateras när sessionen förfaller.<br>Om detta är den första sessionen för besökaren resulterar det i `LAST_SESSION_START = 0.` | Dubbla, millisekunder |
 | Besöksprofil - tid sedan senaste besök vid första starten av aktiviteten | Anger längden mellan föregående session och tiden då användaren går in i aktiviteten och ögonblicksbilden utförs. | Dubbla, millisekunder |
