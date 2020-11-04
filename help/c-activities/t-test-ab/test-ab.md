@@ -5,7 +5,7 @@ title: Översikt över A/B-test
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Förutom den manuella [!UICONTROL A/B Test] aktiviteten (som beskrivs i detta av
 | --- | --- |
 | [!UICONTROL Manual A/B Test] | Jämför två eller flera upplevelser för att se vilken som är bäst på att förbättra konverteringarna under en fördefinierad testperiod.<br>I det här avsnittet beskrivs hur du ställer in en manuell [!UICONTROL A/B Test] aktivitet, men stegen för de andra typerna av [!UICONTROL A/B Test] aktiviteter är liknande. |
 | [!UICONTROL Auto-Allocate] | Identifierar en vinnare bland två eller fler upplevelser och dirigerar sedan om trafiken till vinnaren, vilket ökar konverteringsgraden när testet körs och lär sig.<br>Om du vill veta mer om fördelarna med att använda en automatisk fördelning läser du [Automatisk fördelning](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) i *Hur länge ska du köra en A/B-test* - och [Automatisk fördelning-översikt](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| ![Premium-märke](/help/assets/premium.png) [!UICONTROL Auto-Target] | Använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare.<br>Mer information finns i [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md). |
+| ![Premium-märke](/help/assets/premium.png) [!UICONTROL Auto-Target] | Använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare.<br>Mer information finns i [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 
 Mer information om vilken av dessa [!UICONTROL A/B Test] aktiviteter som passar dig finns i PDF-filen med handboken om interaktiva [Adobe Target-aktiviteter](/help/c-activities/target-activities-guide.md).
 
