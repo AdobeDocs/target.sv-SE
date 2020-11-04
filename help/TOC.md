@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,10 @@ ht-degree: 0%
       + [Skapa en automatiskt fördelad aktivitet](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
       + [Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [Automatiskt mål](c-activities/auto-target-to-optimize.md)
+   + Automatiskt mål {#auto-target}
+      + [Översikt över Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Skapa en Automatisk målaktivitet](/help/c-activities/auto-target/create-auto-target.md)
+      + [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization - översikt](c-activities/t-automated-personalization/automated-personalization.md)
       + [Slumpmässig skogsalgoritm](c-activities/t-automated-personalization/algo-random-forest.md)
