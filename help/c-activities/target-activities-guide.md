@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Ladda ned en interaktiv PDF som beskriver de olika aktivitetstyperna i Adobe Tar
 |--- |--- |
 | ![](/help/c-activities/assets/icon_ab.png)<br/>ikonManuellt A/B-test | Jämför två eller flera upplevelser för att se vilken som är bäst på att förbättra konverteringarna under en fördefinierad testperiod.  Mer information finns i [A/B-test](/help/c-activities/t-test-ab/test-ab.md). |
 | ![Automatisk](/help/c-activities/assets/icon_auto_allocate.png)<br/>tilldelning av ikonAutomatisk allokering | Identifierar en vinnare bland två eller fler upplevelser och dirigerar sedan om trafiken till vinnaren, vilket ökar konverteringsgraden när testet körs och lär sig.  Mer information finns i [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| ![Ikon](/help/c-activities/assets/icon_auto_target.png)<br/>ATAuto-Target | Använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare.  Mer information finns i [Automatisk målanpassning för personaliserade upplevelser](/help/c-activities/auto-target-to-optimize.md). |
+| ![Ikon](/help/c-activities/assets/icon_auto_target.png)<br/>ATAuto-Target | Använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare.  Mer information finns i [Automatisk målanpassning för personaliserade upplevelser](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 | ![Ikon-](/help/c-activities/assets/icon_ap.png)<br/>APAutomatiserad personalisering (AP) | Använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att kombinera specifika erbjudanden eller meddelanden och sedan matcha olika erbjudandevariationer för besökarna utifrån deras individuella kundprofiler.  Mer information finns i [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md). |
 | ![Ikon](/help/c-activities/assets/icon_mvt.png)<br/>MVTMultivariate Testing (MVT) | Jämför kombinationer av erbjudanden mellan element på en sida för att se vilken kombination som fungerar bäst för en viss målgrupp. Identifierar även vilket element på sidan som bäst förbättrar konverteringarna under en fördefinierad testperiod.  Mer information finns i [Multivariata Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | ![Ikon](/help/c-activities/assets/icon_xt.png)<br/>XTEperience Targeting (XT) | Levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier. Mer information finns i [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md). |
