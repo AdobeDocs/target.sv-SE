@@ -5,7 +5,7 @@ title: Visa flera mätvärden i en rapport med Adobe Target
 feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Du kan välja flera mätvärden att visa i en [!DNL Adobe Target] rapport.
 
 Tänk på följande när du arbetar med flera mätvärden i rapporter:
 
-* Det går endast att visa flera mätvärden för [A/B-tester](/help/c-activities/t-test-ab/test-ab.md), [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Automatiskt mål](/help/c-activities/auto-target-to-optimize.md)och [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) -aktiviteter (XT).
+* Det går endast att visa flera mätvärden för [A/B-tester](/help/c-activities/t-test-ab/test-ab.md), [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md)och [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) -aktiviteter (XT).
 * Du kan inte lägga till fler än 20 mätvärden i en rapport för en aktivitet som använder [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Du kan lägga till så många mätvärden som du har i din aktivitet i rapporter för aktiviteter som *inte* använder A4T.
 * Du kan inte använda alternativet [](/help/c-reports/downloading-data-in-csv-file.md) Hämta för att hämta rapporter till CSV om du har valt flera mätvärden. Du måste bara välja ett mått för att aktivera [!UICONTROL Download] alternativet.
 * Du kan inte visa flera värden för aktiviteter som skapats före juli 2015- [!DNL Target] versionen (30 juli 2015).
