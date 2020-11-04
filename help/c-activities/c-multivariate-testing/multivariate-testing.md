@@ -5,15 +5,15 @@ title: Multivariata tester
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1439'
 ht-degree: 0%
 
 ---
 
 
-# Multivariata tester{#multivariate-test}
+# Översikt över multivariata tester
 
 [!UICONTROL Multivariate Testing] (MVT) i [!DNL Adobe Target] jämförelser av kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och identifiera vilket element som bäst påverkar aktivitetens framgång.
 
