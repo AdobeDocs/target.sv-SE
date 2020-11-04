@@ -1,12 +1,12 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
-description: URL:er för förhandsgranskning kan genereras för Target Automated Personalization-aktiviteter för att visa upplevelseinnehåll direkt på din webbplats innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
+description: URL:er för förhandsgranskning av upplevelser kan genereras för Automated Personalization-aktiviteter för att visa innehåll direkt på webbplatsen innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
 title: Förhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelse
 feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Förhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelse{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
-URL:er för förhandsgranskning kan genereras för Target Automated Personalization-aktiviteter för att visa upplevelseinnehåll direkt på din webbplats innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
+URL:er för förhandsgranskning av upplevelser kan genereras för Automated Personalization-aktiviteter för att visa innehåll direkt på webbplatsen innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
 
 >[!NOTE]
 >
->URL:er för förhandsgranskning för Automated Personalization skiljer sig från QA-läget för aktivitet. I läget Activity QA kan du skapa aktivitets-URL:er för andra typer av aktiviteter. Mer information finns i [Aktivitets-QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
+>URL:er för förhandsgranskning för Automated Personalization skiljer sig från QA-läget för aktivitet. I läget Activity QA kan du skapa aktivitets-URL:er för andra typer av aktiviteter. Mer information finns i [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md).
 >
 >URL:er för förhandsgranskning av AP-aktiviteter är bara tillgängliga när du använder at.js 1.x. URL:er för förhandsgranskning för AP-aktiviteter stöds för närvarande inte för at.js 2.x.
 
@@ -29,7 +29,7 @@ Använd URL:er för förhandsgranskning av upplevelser för att dela upplevelser
 1. Skapa en [Automated Personalization-aktivitet](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller klicka på aktiviteten för att öppna den.
 
    Aktiviteten behöver inte vara aktiv för att kunna förhandsgranska en upplevelse.
-1. Klicka på de tre lodräta prickarna på sammanfattningssidan och klicka sedan på **[!UICONTROL View Experience URLs]**.
+1. Klicka på de tre lodräta prickarna på sammanfattningssidan för aktivitet och klicka sedan på **[!UICONTROL View Experience URLs]**.
 1. Granska och/eller ange dina URL-adresser.
 
    * Om du använder Visual Experience Composer anges den standardwebbadress du angav för aktiviteten automatiskt och en länk skapas för varje upplevelse i din aktivitet. Du kan ändra den här URL-adressen och lägga till andra om du vill.
