@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 * Målgruppsvillkor kan respekteras så att marknadsförarna kan testa målinriktningskriterier eller ignorera målinriktningskriterier för att få QA att visa hur upplevelserna ser ut utan att behöva uppfylla målgruppsvillkoren.
 * QA-rapportering samlas in så att marknadsförarna kan bekräfta att mätvärdena ökar som förväntat och att QA-rapportdata hålls åtskilda från produktionsrapporter (för icke-A4T-rapportering).
 * Möjlighet att förgranska en upplevelse separat eller tillsammans med andra aktiva aktiviteter som uppfyller leveranskriterierna (sid/målbegäran/målgrupp).
-* Möjlighet att köra QA under hela användarresan. Du kan komma åt din webbplats en gång med QA-länken och sedan bläddra på hela webbplatsen i Activity QA. Du är kvar i Activity QA tills du avslutar sessionen eller tills du använder [QA Target-bokmärket](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) för att tvinga dig ut ur Activity QA. Den här funktionen är särskilt användbar om du har en aktivitet som sträcker sig över flera webbsidor.
+* Möjlighet att köra QA under hela användarresan. Du kan komma åt din webbplats en gång med QA-länken och sedan bläddra på hela webbplatsen i Activity QA. Du är kvar i Activity QA tills du avslutar sessionen eller tills du använder [QA Target-bokmärket](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) för att tvinga dig ut ur Activity QA. Den här funktionen är särskilt användbar om du har en aktivitet som sträcker sig över flera webbsidor.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
       Om den här inställningen är inaktiverad bör du tänka på följande:
 
-      * Om det förekommer kollisioner mellan den aktivitet du testar och andra aktiva aktiviteter gäller [normala prioriteringsregler](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) . På grund av detta kan det hända att du inte kan se aktiviteten som du tänker göra till en kvalitetskontroll.
+      * Om det förekommer kollisioner mellan den aktivitet du testar och andra aktiva aktiviteter gäller [normala prioriteringsregler](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) . På grund av detta kan det hända att du inte kan se aktiviteten som du tänker göra till en kvalitetskontroll.
       * Ökning av mätvärden för de visade aktiviteterna, men endast i QA-rapporteringsmiljön.
 
 1. Klicka **[!UICONTROL Done]** för att spara ändringarna.
@@ -66,17 +66,17 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
 ## Överväganden {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* Länken visas på [!UICONTROL Activity QA] [!UICONTROL Overview] sidan med alla aktivitetstyper utom Automated Personalization (AP). Du kan använda [förhandsgranskningslänkar](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) för AP-aktiviteter.
+* Länken visas på [!UICONTROL Activity QA] [!UICONTROL Overview] sidan med alla aktivitetstyper utom Automated Personalization (AP). Du kan använda [förhandsgranskningslänkar](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) för AP-aktiviteter.
 * Länkar för förhandsgranskning av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Det bör fungera att försöka göra om förhandsvisningslänkarna. Om du vill förhindra att detta fortsätter att hända arkiverar du sparade aktiviteter som inte längre används aktivt.
 * URL:er för verksamhets-QA är tillgängliga med aktiviteter med Analytics som rapportkälla (A4T). Träffar som genereras när QA utförs med Activity QA kommer att flöda till samma rapportsvit där aktivitetens data kommer att flöda även efter att aktiviteten publiceras.
 * Aktivitets-QA visar inte innehåll för arkiverade aktiviteter eller aktiviteter som ligger efter deras slutdatum. Om du inaktiverar en avslutad aktivitet måste du spara aktiviteten igen för att Activity QA ska fungera.
 * Aktiviteter som importeras till Target Standard/Premium (till exempel från Target Classic) stöder inte QA-URL:er.
 * I Automatisk allokering, Automatiskt mål och Recommendations-aktiviteter påverkas inte modellen av de besök som gjorts i Aktivitets-QA.
-* Eftersom Aktivitets-QA är klumpigt måste din målsession förfalla när du har bläddrat på en webbplats i Activity QA, eller du måste ha släppt Target från Activity QA innan du kan visa webbplatsen som en vanlig besökare. Använd [Target QA-bokmärket](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) för att tvinga dig ut ur Activity QA.
+* Eftersom Aktivitets-QA är klumpigt måste din målsession förfalla när du har bläddrat på en webbplats i Activity QA, eller du måste ha släppt Target från Activity QA innan du kan visa webbplatsen som en vanlig besökare. Använd [Target QA-bokmärket](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) för att tvinga dig ut ur Activity QA.
 
    Du kan också tvinga dig ut manuellt genom att läsa in en sida på webbplatsen med parametern `at_preview_token` med ett tomt värde (till exempel `https://www.mysite.com/?at_preview_token=`).
 
-* Om du angav &quot;URL is&quot; när du skapade aktivitetsförbättringarna i den formulärbaserade dispositionen [eller alternativen för](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) sidleverans i Visual Experience Composer) [](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)fungerar inte QA-URL:en eftersom Activity QA lägger till URL-parametrar. Du löser det här problemet genom att klicka på QA-URL:en för att gå till webbplatsen, ta bort de tillagda parametrarna från URL:en och sedan läsa in den nya URL:en.
+* Om du angav &quot;URL is&quot; när du skapade aktivitetsförbättringarna i den formulärbaserade dispositionen [eller alternativen för](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) sidleverans i Visual Experience Composer) [](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)fungerar inte QA-URL:en eftersom Activity QA lägger till URL-parametrar. Du löser det här problemet genom att klicka på QA-URL:en för att gå till webbplatsen, ta bort de tillagda parametrarna från URL:en och sedan läsa in den nya URL:en.
 * Om du har .js 1.*x*, eller mbox.js, Activity QA-läget är inte tilltalande om du använder Safari eller en annan webbläsare som blockerar cookies från tredje part. I dessa fall måste du lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till. Detsamma gäller om du har implementerat [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
 * Om en aktivitet använder flera upplevelsemålgrupper (till exempel en amerikansk och brittisk webbplats som ingår i samma aktivitet) genereras inte QA-länkar för de fyra kombinationerna (Experience A/ US Site, Experience A/ UK Site, Experience B/ US Site, Experience B/ UK Site). Endast två QA-länkar (Experience A och Experience B) skapas, och användarna måste kvalificera sig för att rätt målgrupp ska kunna se sidan. En QA-person i Storbritannien kunde inte se den amerikanska webbplatsen.
 * Alla `at_preview` parametrar och värden är redan URL-kodade. För det mesta fungerar allt som förväntat. Vissa kunder kan dock ha belastningsutjämnare eller webbservrar som försöker koda frågesträngsparametrarna igen.
@@ -89,7 +89,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
    | Parameter | Typ | Värde | Beskrivning |
    |--- |--- |--- |--- |
-   | `at_preview_token` | Krypterad sträng | Obligatoriskt. inget standardvärde | En krypterad entitet som innehåller listan över kampanj-ID:n som tillåts att köras i QA-läge. |
+   | `at_preview_token` | Krypterad sträng | Obligatoriskt. inget standardvärde | En krypterad entitet som innehåller listan över kampanj-ID:n som tillåts köras i QA-läge. |
    | `at_preview_index` | Sträng | Tom | Parameterns format är `<campaignIndex>` eller `<campaignIndex>_< experienceIndex>`<br>Båda indexen börjar med 1. |
    | `at_preview_listed_activities_only` | Boolean (true/false) | Standardvärde: false | Om värdet är&quot;true&quot; bearbetas alla kampanjer som anges i `at_preview_index` parametrarna.<br>Om värdet är &quot;false&quot; bearbetas alla kampanjer från sidan, även om de inte har angetts i förhandsgranskningstoken. |
    | `at_preview_evaluate_as_true_audience_ids` | Sträng | Tom | Understrykningsavgränsad (&quot;_&quot;) lista med segment-ID:n som alltid (på mål- och rapporteringsnivå) ska utvärderas som &quot;true&quot; i omfattningen av [!DNL Target] begäran. |
