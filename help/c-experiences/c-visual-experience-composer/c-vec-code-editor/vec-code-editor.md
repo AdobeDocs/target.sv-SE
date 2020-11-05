@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Information om sidan Modifications (Ändringar) där du kan visa ändringar på sidan och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
 
-På sidan Ändringar visas alla ändringar som har gjorts på sidan i Visual Experience Composer (VEC). Du kan göra ytterligare ändringar genom att klicka på varje element på sidan och [välja en åtgärd](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Varje ändring du gör visas som en separat åtgärd eller ett separat element i [!UICONTROL Modifications] listan. Du kan också lägga till ändringar, bland annat följande ändringstyper: CSS-väljare, Mbox. och anpassad kod.
+På sidan Ändringar visas alla ändringar som har gjorts på sidan i Visual Experience Composer (VEC). Du kan göra ytterligare ändringar genom att klicka på varje element på sidan och [välja en åtgärd](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Varje ändring du gör visas som en separat åtgärd eller ett separat element i [!UICONTROL Modifications] listan. Du kan också lägga till ändringar, bland annat följande ändringstyper: CSS-väljare, Mbox. och anpassad kod.
 
 ## Översikt över ändringar {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ Använd sidan Ändringar för att:
 
    >[!NOTE]
    >
-   >Skapa eller redigera ett HTML-erbjudande om du vill öppna panelen Modifications i den formulärbaserade Experience Composer. Mer information finns i [Formulärbaserad Experience Composer](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
+   >Skapa eller redigera ett HTML-erbjudande om du vill öppna panelen Modifications i den formulärbaserade Experience Composer. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
    Sidan öppnas och skärmen delas upp mellan det visuella läget till vänster och panelen Ändringar till höger. [!UICONTROL Modifications] Klicka på [!UICONTROL Dock] ikonen om du vill docka panelen Ändringar lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. Observera att Experience A i följande bild inte har några tidigare ändringar.
 
@@ -191,7 +191,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
 
 * Lägg till Adobe Target Experience Templates för användning i anpassad kod. Target Experience Templates är förkodade exempel med konfigurerbara indata som används för att köra vanliga marknadsföringsfall. Dessa Experience Templates är kostnadsfria för utvecklare och marknadsförare som en startpunkt för vanliga användningsfall, antingen via VEC eller den formulärbaserade Experience Composer. Användningsexempel är ljusbord, karuseller, räkningar med mera.
 
-   Mer information finns i [Experience Templates](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+   Mer information finns i [Experience Templates](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Bästa praxis för anpassad kod {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ Varje ändring skapar ett nytt element på panelen Ändringar. Eftersom den andr
 
 Om du lägger till ett element med text och sedan redigerar elementet med annan text i en separat åtgärd, visas båda åtgärderna som separata element på panelen Ändringar. När du redigerade elementet skapade du ett nytt element som ändrar det ursprungliga elementet som du skapade och som innehåller den redigerade texten. Om du sedan tar bort det ursprungliga elementet kommer den redigerade texten inte att kunna hitta det element som redigerades och kommer inte att visas. Det andra elementet finns kvar i listan med element, men det påverkar inte sidan eftersom elementet det ändras inte längre finns.
 
-***Ett element som jag skapade med`document.write`i ett skript visas inte där jag förväntade mig det.***
+***Ett element som jag skapade med `document.write` i ett skript visas inte där jag förväntade mig det.***
 
 Skript körs asynkront. Detta medför ofta att `document.write` åtgärder visas på fel plats på sidan. Adobe rekommenderar inte att du använder `document.write` i skript som skapas i den anpassade koden.
 
