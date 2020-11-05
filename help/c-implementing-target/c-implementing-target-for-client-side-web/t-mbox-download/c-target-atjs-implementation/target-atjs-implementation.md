@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Biblioteket innehåller flera förbättringar av [!DNL at.js] [!DNL mbox.js] bib
 
 ## Utbildningsvideo: at.js - brickan Advantages and Implementation Best Practices ![Overview](/help/assets/overview.png)
 
-Den här videon är en inspelning av&quot; [Office Hours](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
+Den här videon är en inspelning av&quot; [Office Hours](/help/cmp-resources-and-contact-information.md)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
 * Så fungerar biblioteket at.js
 * Fördelarna med at.js jämfört med mbox.js
