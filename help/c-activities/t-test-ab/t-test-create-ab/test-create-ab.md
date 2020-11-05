@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Så här skapar du en manuell [!UICONTROL A/B Test] aktivitet:
    >
    >Vilka aktivitetstyper som är tillgängliga beror på ditt [!DNL Target] konto. Vissa aktivitetstyper kanske inte visas i listan. Det [!UICONTROL Recommendations] är till exempel en [Target Premium-funktion](/help/c-intro/intro.md#premium).
    >
-   >Mer information om de olika aktivitetstyperna finns i [Verksamheter](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) och i guiden [](/help/c-activities/target-activities-guide.md)Målaktiviteter.
+   >Mer information om de olika aktivitetstyperna finns i [Verksamheter](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) och i guiden [](/help/c-activities/target-activities-guide.md)Målaktiviteter.
 
 1. Välj **[!UICONTROL Visual (Default)]** vid behov.
 
@@ -48,7 +48,7 @@ Så här skapar du en manuell [!UICONTROL A/B Test] aktivitet:
    >
    >Felsökningsinformation om VEC finns i [Felsökning i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)om det uppstår problem.
    >
-   >Alternativet [!UICONTROL Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en [!UICONTROL Target Standard] licens om du inte ser det här alternativet.
+   >Alternativet [[!UICONTROL Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en [!UICONTROL Target Standard] licens om du inte ser det här alternativet.
 
 1. (Villkorligt) Om du är [Target Premium-kund](/help/c-intro/intro.md#premium)väljer du en [arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -81,7 +81,7 @@ Så här skapar du en manuell [!UICONTROL A/B Test] aktivitet:
 
    I dialogrutan visas två [!UICONTROL Visual Experience Composer] flikar till vänster när du har skapat en ny aktivitet: Upplevelse A och upplevelse B. Upplevelse A är kontrollupplevelsen. Fokus ligger på fliken Experience B, som ni kan ändra efter behov. Experience B är den alternativa upplevelse ni kan lägga till i ert test. Ni kan lägga till flera upplevelser i testet. Du kan också ta bort Experience A från aktiviteten om du inte vill inkludera en standardwebbplatsupplevelse som ett alternativ.
 
-   Mer information om hur du lägger till och ändrar upplevelser i [!UICONTROL Visual Experience Composer]finns i [Lägg till upplevelse](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Om du vill ändra upplevelse B börjar du med steg 3.
+   Mer information om hur du lägger till och ändrar upplevelser i [!UICONTROL Visual Experience Composer]finns i [Lägg till upplevelse](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Om du vill ändra upplevelse B börjar du med steg 3.
 
 1. Klicka **[!UICONTROL Targeting]** längst upp i [!UICONTROL Visual Experience Composer] för att gå till nästa steg i det guidade arbetsflödet i tre steg.
 
@@ -109,7 +109,7 @@ Så här skapar du en manuell [!UICONTROL A/B Test] aktivitet:
 
    * **[!UICONTROL Manual (Default)]**: Ange hur många procent av deltagarna du vill se varje upplevelse. Ni kan dela upp procentsatserna jämnt mellan alla upplevelser eller ange högre eller lägre procenttal för varje upplevelse. Det totala antalet upplevelser måste vara 100 %.
 
-   * **[!UICONTROL Auto-allocate to best experience]**: De flesta aktivitetspartners dirigeras automatiskt till högpresterande upplevelser. Vissa besökare tilldelas alla upplevelser för att kunna utforska upplevelser och för att identifiera förändringar i prestandatender. Se [Automatiserad trafikallokering](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   * **[!UICONTROL Auto-allocate to best experience]**: De flesta aktivitetspartners dirigeras automatiskt till högpresterande upplevelser. Vissa besökare tilldelas alla upplevelser för att kunna utforska upplevelser och för att identifiera förändringar i prestandatender. Se [Automatiserad trafikallokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
    * **[!UICONTROL Auto-target for personalized experiences]**: [!DNL Target] använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare. Mer information finns i [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md).
    Du kan också klicka för **[!UICONTROL Add]** att lägga till en annan upplevelse till aktiviteten.
