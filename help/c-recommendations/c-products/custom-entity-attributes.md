@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -53,11 +53,11 @@ När ett anpassat attribut har skickats som en giltig JSON-array behandlas attri
 
 >[!NOTE]
 >
->Om du vill ändra ett attribut från flera värden till ett enda värde måste du ta bort katalogen och överföra korrigerade produktdata. När du tar bort katalogen tas inte de historiska data som är kopplade till dina produkt-ID:n bort. Mer information finns i [Ta bort alla objekt från systemet](../../assets/adobe-recommendations-classic.pdf) i *Adobe Recommendations Classic* -dokumentationen.
+>Om du vill ändra ett attribut från flera värden till ett enda värde måste du ta bort katalogen och överföra korrigerade produktdata. När du tar bort katalogen tas inte de historiska data som är kopplade till dina produkt-ID:n bort. Mer information finns i [Ta bort alla objekt från systemet](/help/assets/adobe-recommendations-classic.pdf) i *Adobe Recommendations Classic* -dokumentationen.
 
 **Begränsningar**:
 
-* Du kan inte använda fördefinierade entitetsattributnamn för anpassade entitetsattribut. (Se [Entitetsattribut](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* Du kan inte använda fördefinierade entitetsattributnamn för anpassade entitetsattribut. (Se [Entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
 * Attributet `entity.environment` är reserverat av systemet och kan inte användas för anpassade entitetsattribut. Försök att skicka `entity.environment` med `targetPageParams`, feeds eller API:er kommer att ignoreras.
 * Matriser måste innehålla en värdetyp. Matriser med blandade värden ( `["AB",1,true]`) stöds inte.
 * Ett attribut med flera värden som innehåller en kapslad JSON-array ( `[10,12,[1,2,3]]`) behandlas som ett attribut med ett enda värde.
@@ -263,4 +263,4 @@ När `entity.genre=["genre1","genre2"]` refereras i en design som `$entity<N>.ge
 
 ## Relaterade ämnen:
 
-* [Entitetsattribut](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [Entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
