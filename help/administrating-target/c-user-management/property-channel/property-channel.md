@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3027'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Du kan se om din organisation har en Standard- eller Premium-licens genom att kl
 
 >[!IMPORTANT]
 >
->Se till att du läser [avsnittet Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) nedan innan du fortsätter med företagsbehörigheter.
+>Se till att du läser [avsnittet Caveats](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) nedan innan du fortsätter med företagsbehörigheter.
 
 ## Termer och definitioner som används i detta avsnitt {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
@@ -261,7 +261,7 @@ Vanliga frågor om Enterprise permissions är:
 
 ### Kan jag flytta en aktivitet från en arbetsyta till en annan?
 
-Tyvärr kan du inte flytta aktiviteter från en arbetsyta till en annan. Du kan dock kopiera en aktivitet till valfri arbetsyta i vetskap om att rapportdata inte överförs. Mer information finns i&quot;Kopiera/redigera en aktivitet när du använder arbetsytor&quot; i [Kopiera/redigera en aktivitet när du använder arbetsytor](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
+Tyvärr kan du inte flytta aktiviteter från en arbetsyta till en annan. Du kan dock kopiera en aktivitet till valfri arbetsyta i vetskap om att rapportdata inte överförs. Mer information finns i&quot;Kopiera/redigera en aktivitet när du använder arbetsytor&quot; i [Kopiera/redigera en aktivitet när du använder arbetsytor](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 Aktiviteter som skapas före migreringen fortsätter att köras på samma sätt i standardarbetsytan, såvida de inte redigeras och tilldelas egenskaper. Aktiviteter under en viss arbetsyta följer egenskaper som tilldelats den arbetsytan och beteendet kanske därför inte ändras före migreringen.
 
