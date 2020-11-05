@@ -5,7 +5,7 @@ title: Undantag i Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
 >[!IMPORTANT]
 >
->Statiska och dynamiska exkluderingsregler är kraftfulla funktioner som kan hjälpa er med marknadsföringen. Detaljerad information, exempel och användningsscenarier finns i [Använd regler](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)för dynamisk och statisk infogning.
+>Statiska och dynamiska exkluderingsregler är kraftfulla funktioner som kan hjälpa er med marknadsföringen. Detaljerad information, exempel och användningsscenarier finns i [Använd regler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)för dynamisk och statisk infogning.
 
 ## Skapa ett undantag
 
@@ -37,7 +37,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
    ![](assets/exclusions_list.png)
 
-   &quot;Antal objekt&quot; som rapporteras för varje undantag i listvyn är antalet produkter som matchar reglerna för undantaget i den konfigurerade Recommendations- [!UICONTROL Exclusions] standardvärdgruppen [](/help/administrating-target/hosts.md) (miljön). Se [Inställningar](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att ändra standardvärdgruppen.
+   &quot;Antal objekt&quot; som rapporteras för varje undantag i listvyn är antalet produkter som matchar reglerna för undantaget i den konfigurerade Recommendations- [!UICONTROL Exclusions] standardvärdgruppen [](/help/administrating-target/hosts.md) (miljön). Se [Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Exclusion]**.
 
