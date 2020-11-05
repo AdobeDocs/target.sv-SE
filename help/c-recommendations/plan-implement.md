@@ -5,7 +5,7 @@ title: Planera och implementera Recommendations
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -111,7 +111,7 @@ function targetPageParams() {
 }
 ```
 
-Fler exempel på koden som du kan använda på olika typer av sidor finns i [Implementering enligt sidtyp](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
+Fler exempel på koden som du kan använda på olika typer av sidor finns i [Implementering enligt sidtyp](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
 
 ## Implementering enligt sidtyp {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 
@@ -119,7 +119,7 @@ Sidtypen påverkar [!DNL Recommendations] implementeringen.
 
 De typer av rekommendationer du vill presentera kan till exempel vara annorlunda på en produktsida än på en kategorisida eller din hemsida. För varje sida kan du köra specifika funktioner före mbox-anropet för att visa lämpliga rekommendationer.
 
-Mer information om attributen i exemplen finns i [Entitetsattribut](../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).
+Mer information om attributen i exemplen finns i [Entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).
 
 Giltig JSON-formatering krävs.
 
@@ -130,11 +130,11 @@ Funktionen `targetPageParams` som visas nedan är särskilt användbar om du anv
 Alla sidor som innehåller rekommendationer kräver antingen en [!DNL at.js] referens eller en [!DNL mbox.js] referens på sidan. Lägg till en av följande referenser på alla sidor med rekommendationer:
 
 ```
-<script src="../at.js /></script>
+<script src="/help/at.js /></script>
 ```
 
 ```
-<script src="../mbox.js /></script>
+<script src="/help/mbox.js /></script>
 ```
 
 Implementeringen kräver:
@@ -143,9 +143,9 @@ Implementeringen kräver:
 
 * [!DNL mbox.js] måste innehålla en referens till [!DNL target.js] (kräver [!DNL at.js] ingen referens till [!DNL target.js])
 
-Mer information om implementering [!DNL at.js]finns i [Distribuera at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
+Mer information om implementering [!DNL at.js]finns i [Distribuera at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
 
-Mer information om implementering [!DNL mbox.js]finns i Implementering av [Mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Mer information om implementering [!DNL mbox.js]finns i Implementering av [Mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
 Mer information om skillnaderna mellan de två Target JavaScript-biblioteken finns i [Fördelar med at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
@@ -198,8 +198,8 @@ function targetPageParams() {
 
 På sidan Tack kanske du vill visa ordersumman och beställnings-ID:t och visa de produkter som köpts, utan att rekommendera ytterligare artiklar. Du kan implementera en andra mbox för att hämta orderinformationen.
 
-* Om du använder at.js läser du [Spåra konverteringar](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* Om du använder mbox.js läser du [Skapa en mbox med orderbekräftelse - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
+* Om du använder at.js läser du [Spåra konverteringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Om du använder mbox.js läser du [Skapa en mbox med orderbekräftelse - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Inställningar {#concept_C1E1E2351413468692D6C21145EF0B84}
 
