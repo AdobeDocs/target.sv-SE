@@ -4,7 +4,7 @@ title: Adobe Target Visual Experience Composer (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Du kan också klicka **[!UICONTROL Browse]** och sedan navigera till en sida som
 >
 >Om ett hovringsläge är beroende av JavaScript kontrollerar du att **[!UICONTROL Disable JavaScript]** inte är markerat. JavaScript måste vara aktiverat för att du ska kunna redigera JavaScript-element.
 
-Information om de alternativ som är tillgängliga i VEC finns i Alternativ för [Visual Experience Composer](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Information om de alternativ som är tillgängliga i VEC finns i Alternativ för [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 Du kan göra vissa ändringar på en sida medan sidan läses in (eller när sidan inte kan läsas in), eller avbryta sidinläsningen i VEC. Mer information finns i:
 
@@ -133,7 +133,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 ### Kontorstid: badge för Visual Experience Composer ![Tutorial](/help/assets/tutorial.png)
 
-Den här videon är en inspelning av&quot; [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
+Den här videon är en inspelning av&quot; [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
 * Hur VEC fungerar
 * Hur man undviker vanliga problem med VEC
