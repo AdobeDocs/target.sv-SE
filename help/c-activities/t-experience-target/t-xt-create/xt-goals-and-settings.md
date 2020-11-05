@@ -6,7 +6,7 @@ feature: xt
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Ange om data samlas in från Adobe Target eller från Adobe Analytics. Se [Adobe
 
 När du väljer Analytics som rapportkälla för Target väljer du en Analytics-rapportsserie som tar emot Target-aktivitetsdata. För att göra detta väljer du först något av Analytics-företagen som ditt konto är knutet till och väljer sedan lämplig rapportsvit för aktiviteten. Endast rapportsviter som har etablerats för att ansluta till Adobe Target kan väljas. Om du inte ser de rapportsviter du förväntar dig kan du först logga ut och logga in på Adobe Experience Cloud för att försöka igen. Kontakta kundtjänst om rapportsviten fortfarande saknas i listan.
 
-Analyser för Target kräver en spårningsserver för att kunna rapportera resultaten korrekt. En standardspårningsserver visas i fältet Spårningsserver. Om du använder mer än en spårningsserver bör du kontrollera att du inkluderar rätt spårningsserver i det här fältet. Mer information finns i [Använda en analysspårningsserver](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) .
+Analyser för Target kräver en spårningsserver för att kunna rapportera resultaten korrekt. En standardspårningsserver visas i fältet Spårningsserver. Om du använder mer än en spårningsserver bör du kontrollera att du inkluderar rätt spårningsserver i det här fältet. Mer information finns i [Använda en analysspårningsserver](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) .
 
 Om en rapporteringslösning anges i dina kontoinställningar används den angivna lösningen och den här inställningen syns inte.
 
@@ -81,7 +81,7 @@ Om en rapporteringslösning anges i dina kontoinställningar används den angivn
 
 Välj den åtgärd som en besökare ska utföra för att uppnå målet. Välj till exempel ett konverteringsmått och ange sedan parametrarna som avgör när resultatet uppnås.
 
-Mer information om att ställa in mått finns i [Ange mått](../../../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB) .
+Mer information om att ställa in mått finns i [Ange mått](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB) .
 
 >[!NOTE]
 >
@@ -152,7 +152,7 @@ Det finns tre alternativ för vad som händer när en besökare når målmåttet
 * Välj Öka antal, Frigör användare och Tillåt återinträde om du vill ange vilken upplevelse användaren ser om han/hon återupptar aktiviteten.
 * Välj Öka antal, Frigör användare och fält från Inmatning igen om du vill ange vad användaren ser i stället för aktivitetsinnehållet.
 
-Mer information om avancerade inställningar finns i [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) .
+Mer information om avancerade inställningar finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) .
 
 ## Utbildningsvideo: Aktivitetsinställningar (3:02)
 
