@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -68,14 +68,14 @@ För uppgifter som utförs i Adobe Admin Console går du till konsolen genom att
 
 All användarhantering måste utföras i [!DNL Adobe Admin Console for Enterprise]. Alla dina befintliga användare i [!DNL Target] migreras dock från [!DNL Target] till [!DNL Admin Console for Enterprise].
 
-1. [I Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)klickar du på **[!UICONTROL Users]** > **[!UICONTROL Users]** för att skapa nya användare eller för att redigera befintliga användare.
+1. [I Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)klickar du på **[!UICONTROL Users]** > **[!UICONTROL Users]** för att skapa nya användare eller för att redigera befintliga användare.
 1. Följ instruktionerna i [Hantera användare och grupper på Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) i användarhandboken för *Enterprise*.
 
 ## Skapa användargrupper {#user-groups}
 
 Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer osv. och sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att utse en ny teammedlem kan vara lika enkelt som att lägga till dem i en viss användargrupp.
 
-1. [I Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)klickar du på **[!UICONTROL Users]** > **[!UICONTROL User Groups]** för att skapa nya användargrupper eller för att redigera befintliga grupper.
+1. [I Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)klickar du på **[!UICONTROL Users]** > **[!UICONTROL User Groups]** för att skapa nya användargrupper eller för att redigera befintliga grupper.
 1. Följ instruktionerna i [Hantera användare och grupper på Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) i användarhandboken för *Enterprise*.
 
 ## Ange roller och behörigheter {#roles-permissions}
@@ -84,7 +84,7 @@ Endast systemadministratörer kan ange användarroller i [!DNL Target]. En stand
 
 Systemadministratörsanvändare måste lägga till användare i systemet. Användare läggs inte till automatiskt. De bjuds in via e-post från [!DNL Experience Cloud] och måste bekräfta sina e-postadresser innan deras konton registreras.
 
-1. [Klicka på Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL Products]** och välj sedan önskat produktnamn.
+1. [Klicka på Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL Products]** och välj sedan önskat produktnamn.
 
    ![Fliken Produkter](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -92,7 +92,7 @@ Systemadministratörsanvändare måste lägga till användare i systemet. Använ
 
    ![Standardarbetsyta](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-   På [!UICONTROL Users] fliken visas alla användare på den arbetsytan.
+   På [!UICONTROL Users] fliken visas alla användare på arbetsytan.
 
    ![konfigurationsanvändare](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
