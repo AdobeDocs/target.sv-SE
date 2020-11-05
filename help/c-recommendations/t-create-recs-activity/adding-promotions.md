@@ -5,7 +5,7 @@ title: Lägg in kampanjer i Adobe Target Recommendations.
 feature: recs creation
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Lägg till framhävda objekt och styr placeringen av dem i dina Recommendations-
 
 >[!IMPORTANT]
 >
->Statiska och dynamiska exkluderingsregler är kraftfulla funktioner som kan hjälpa er med marknadsföringen. Detaljerad information, exempel och användningsscenarier finns i [Använd regler](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)för dynamisk och statisk infogning.
+>Statiska och dynamiska exkluderingsregler är kraftfulla funktioner som kan hjälpa er med marknadsföringen. Detaljerad information, exempel och användningsscenarier finns i [Använd regler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)för dynamisk och statisk infogning.
 
 När du skapar en [!DNL Recommendations] aktivitet kan du välja att ta med framhävda objekt i din [!DNL Recommendations] design. Kampanjer använder tillgängliga kortplatser i en design och har företräde framför villkorsresultat och rekommendationer för säkerhetskopiering. Om din design till exempel har sex platser och du använder två av dem för kampanjer, är fyra platser tillgängliga för artiklar som rekommenderas baserat på kriterier.
 
@@ -56,9 +56,9 @@ Du kan befordra specifika element, dynamiskt befordra element, befordra element 
 
    * Välj **[!UICONTROL Promote by attribute]** och lägg till regler för att definiera attributen för de objekt som du vill befordra.
 
-      Om du väljer Befordra efter attribut kan du skapa dynamiska matchningar. Mer information finns i [Använda dynamiska och statiska inkluderingsregler](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+      Om du väljer Befordra efter attribut kan du skapa dynamiska matchningar. Mer information finns i [Använda dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-   * Markera **[!UICONTROL Promote a collection]** och välj den samling med objekt som du vill befordra. Du kan skapa nya samlingar som du kan använda för kampanjer. Mer information finns i [Skapa en samling](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) .
+   * Markera **[!UICONTROL Promote a collection]** och välj den samling med objekt som du vill befordra. Du kan skapa nya samlingar som du kan använda för kampanjer. Mer information finns i [Skapa en samling](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) .
 
 1. Klicka på **[!UICONTROL Save.]**.
 
