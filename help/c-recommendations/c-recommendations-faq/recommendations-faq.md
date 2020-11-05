@@ -5,7 +5,7 @@ title: Vanliga frågor om Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Om platsen som du använder det här villkoret på inte innehåller kategori-ID:
 
 Om du använder en plats där kategori-ID finns i mbox, innehåller villkorsväljaren alla tillämpliga villkor.
 
-Målet har en inställning för [filterinkompatibla villkor](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att styra intelligent filtrering av algoritmväljaren.
+Målet har en inställning för [filterinkompatibla villkor](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att styra intelligent filtrering av algoritmväljaren.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Se till att målgruppen har ett unikt namn. Om du gav målgruppen samma namn som
 
 ## Vilken är den maximala storleken för en CSV-fil för en feed-överföring? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Det finns ingen hård gräns för antalet rader eller filstorleken för en feed CSV-filöverföring. Vi rekommenderar dock att CSV-filens storlek begränsas till 1 GB för att undvika fel under filöverföringen. Om filens storlek överstiger 1 GB bör den helst delas upp i flera feedsfiler. Det maximala antalet anpassade attributkolumner är 100 och anpassade attribut är begränsade till 4 096 tecken. Ytterligare begränsningar för längden på de kolumner som krävs finns på sidan [](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)Målbegränsningar.
+Det finns ingen hård gräns för antalet rader eller filstorleken för en feed CSV-filöverföring. Vi rekommenderar dock att CSV-filens storlek begränsas till 1 GB för att undvika fel under filöverföringen. Om filens storlek överstiger 1 GB bör den helst delas upp i flera feedsfiler. Det maximala antalet anpassade attributkolumner är 100 och anpassade attribut är begränsade till 4 096 tecken. Ytterligare begränsningar för längden på de kolumner som krävs finns på sidan [](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)Målbegränsningar.
 
 ## Kan jag utesluta en entitet dynamiskt?
 
