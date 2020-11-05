@@ -6,7 +6,7 @@ feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Information som hjälper dig att använda övergång från äldre Target-API:er 
 
 När Adobe Target Classic har tagits bort har även de API:er som är anslutna till ditt Target Classic-konto gjorts otillgängliga. Det här dokumentet hjälper dig att övergå dina gamla API-baserade integreringar till mål-API:erna som drivs av Adobe I/O.
 
-Mer information om Target API-dokumentationen finns i [Target API:er och NodeJS SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Mer information om Target API-dokumentationen finns i [Target API:er och NodeJS SDK](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
 ## Terminologi {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
