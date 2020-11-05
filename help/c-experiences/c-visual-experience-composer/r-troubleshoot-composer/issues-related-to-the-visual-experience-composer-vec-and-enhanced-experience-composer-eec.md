@@ -5,7 +5,7 @@ title: Felsökning av problem relaterade till Visual Experience Composer och Enh
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 0%
@@ -86,11 +86,11 @@ Som standard blockerar Visual Experience Composer JavaScript-element. Du kan arb
 
 Problemet inträffar när kunderna har en mbox.js-version som är tidigare än 57 (d.v.s. version 56 eller tidigare).
 
-Vi rekommenderar att alla VEC-användare uppgraderar till den [senaste versionen av mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A), eller åtminstone uppgraderar till version 57. Du bör också överväga [att göra övergången till at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+Vi rekommenderar att alla VEC-användare uppgraderar till den [senaste versionen av mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A), eller åtminstone uppgraderar till version 57. Du bör också överväga [att göra övergången till at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 ## När jag ändrar ett element på sidan ändras flera element. (VEC och EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
-Om samma DOM-element-ID används för flera element på sidan ändras alla element med det ID:t om du ändrar ett av elementen. För att förhindra detta bör ett ID bara användas en gång på varje sida. Det här är en vanlig HTML-praxis. Mer information finns i Scenarier för [sidändring](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Om samma DOM-element-ID används för flera element på sidan ändras alla element med det ID:t om du ändrar ett av elementen. För att förhindra detta bör ett ID bara användas en gång på varje sida. Det här är en vanlig HTML-praxis. Mer information finns i Scenarier för [sidändring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Jag kan inte redigera upplevelser för en iFrame-busting-sajt. (VEC och EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
