@@ -5,7 +5,7 @@ title: Insikter om personalisering - rapporter
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Två specialrapporter är tillgängliga för användare av [!UICONTROL Automated
 * [!UICONTROL Personalization Insights] -rapporter är bara tillgängliga om du [!UICONTROL Primary Goal] har valt dem i [!UICONTROL Report Metric] listrutan.
    >
    >
-* [!UICONTROL Personalization Insights] rapporter stöds endast i [standardmiljön](../../administrating-target/hosts.md) .
+* [!UICONTROL Personalization Insights] rapporter stöds endast i [standardmiljön](/help/administrating-target/hosts.md) .
    >
    >
 * [!UICONTROL Personalization Insights] Rapporterna genereras endast för aktiviteter som är i [!UICONTROL Live] status och har aktiverats och tagit emot trafik i minst 15 dagar.
