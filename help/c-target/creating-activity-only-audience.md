@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Målgrupper som bara är aktiva har följande fördelar:
 * Ni kan använda målgrupper som bara innehåller aktivitet för att skapa en målgrupp som ni bara vill använda en gång och inte vill lagra den i [!UICONTROL Audiences Library]. Detta förhindrar att [!UICONTROL Audiences Library] kunderna blir förvirrade av målgrupper som du aldrig vill använda igen.
 * Målgrupper som bara är aktiva visas inte i [!UICONTROL Audiences Library]. På grund av detta skyddas de från oönskade ändringar av andra i organisationen.
 
-1. När du skapar en [aktivitet](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)klickar du på de tre lodräta ellipserna på **[!UICONTROL Target]** sidan och sedan på **[!UICONTROL Replace Audience]**.
+1. När du skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)klickar du på de tre lodräta ellipserna på **[!UICONTROL Target]** sidan och sedan på **[!UICONTROL Replace Audience]**.
 
    ![Stegresultat](assets/edit_audience.png)
 
@@ -39,7 +39,7 @@ Målgrupper som bara är aktiva har följande fördelar:
 
 1. Välj en regeltyp.
 
-   Varje regeltyp har sina egna parametrar. Mer information om hur du konfigurerar varje typ av målgruppsregel finns i [Kategorier för målgrupper](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) .
+   Varje regeltyp har sina egna parametrar. Mer information om hur du konfigurerar varje typ av målgruppsregel finns i [Kategorier för målgrupper](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) .
 
 1. Definiera regelparametrarna.
 1. Klicka på **[!UICONTROL Save]**.
@@ -53,5 +53,5 @@ Tänk på följande när du arbetar med målgrupper som bara är aktiva:
 * Förfiningar av befintliga aktiviteter migreras till målgrupper som bara är aktiva.
 * Målgrupper som bara är aktiva har statusen [!UICONTROL Used] eller [!UICONTROL Unused]. Oanvända målgrupper med endast aktivitet visas tills aktiviteten sparas. Om aktiviteten inte används och du försöker spara den visas ett varningsmeddelande som talar om att oanvända målgrupper endast för aktiviteter kommer att tas bort.
 * Du kan visa information om målgruppsdefinitioner på ett popup-kort som du når från målgruppsväljaren utan att öppna målgruppen.
-* Ni kan [kombinera flera målgrupper](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa målgrupper som bara är aktiva.
+* Ni kan [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa målgrupper som bara är aktiva.
 
