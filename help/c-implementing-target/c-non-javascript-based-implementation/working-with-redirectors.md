@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Använd omdirigeraren för att göra följande:
 
 * Hitta den landningssida som leder till flest konverteringar
 
-Mer information om hur du bestämmer rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Mer information om hur du bestämmer rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Skapa en omdirigerare {#redirector}
 
@@ -66,10 +66,10 @@ Innan du kan använda en omdirigering måste du skapa den.
    1. *Bästa praxis* för säkerhet: Se till att domänen som används i omdirigeraren är tillåtslista, vilket anges ovan. Om du använder en domän som inte är tillåtslista kommer Adobe att blockera alla anrop till den domänen för att förhindra att skadliga aktörer använder omdirigeraren för att dirigera om till potentiellt skadliga domäner.
    1. Infoga URL:en för omdirigeraren i en webbläsare och uppdatera.
    1. Logga in på ditt konto, uppdatera din mbox-lista och verifiera att den nya omdirigeraren är listad som en mbox.
-1. Om du ska testa olika destinationer för en annons skapar du [Omdirigeringserbjudanden](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
+1. Om du ska testa olika destinationer för en annons skapar du [Omdirigeringserbjudanden](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
 1. Skapa kampanjen.
 
-   Se [Icke-JavaScript-baserade implementeringar](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) för rätt konfiguration för att uppnå dina mål.
+   Se [Icke-JavaScript-baserade implementeringar](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) för rätt konfiguration för att uppnå dina mål.
 1. Fullständig kvalitetskontroll av kampanjen.
 
    Skapa en dummy-sida med en `<a href>` som innehåller URL:en för omdirigeraren. Exempel:
