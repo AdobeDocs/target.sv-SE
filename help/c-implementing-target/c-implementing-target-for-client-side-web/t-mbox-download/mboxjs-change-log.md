@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 0%
@@ -22,11 +22,11 @@ På den här sidan visas ändringar för varje version av mbox.js.
 >
 >Vi rekommenderar att alla användare av mbox.js uppgraderar till version 57 eller senare. En del användare har stött på timeoutproblem när det inte `target.js` gick att läsa in. Version 57 åtgärdade problemet. Om du använder [!DNL Experience Cloud Visitor ID] tjänsten krävs dock version 58 eller senare.
 
-Hur Target svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av besökar-ID finns och om besökar-ID finns. Mer information finns i [Target Call Responses by Library Version](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+Hur Target svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av besökar-ID finns och om besökar-ID finns. Mer information finns i [Target Call Responses by Library Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
->Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## mbox.js version 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ I version 60 efterfrågas även alla kryssrutor via en AJAX slutpunkt om filen f
 
 * asynkrona V60-anrop
 
-   När du använder v60 med besökar-id-tjänsten görs alla mbox-anrop asynkront. Det här är en förändring från hur kryssrutor alltid har fungerat, så var försiktig om du uppgraderar till den här versionen. Granska avsnittet [Asynkrona överväganden](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) i [!DNL at.js] dokumentationen (använder [!DNL at.js] även asynkrona anrop) för att förstå några av riskerna.
+   När du använder v60 med besökar-id-tjänsten görs alla mbox-anrop asynkront. Det här är en förändring från hur kryssrutor alltid har fungerat, så var försiktig om du uppgraderar till den här versionen. Granska avsnittet [Asynkrona överväganden](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) i [!DNL at.js] dokumentationen (använder [!DNL at.js] även asynkrona anrop) för att förstå några av riskerna.
 * Nya besökarscenarier kan ha flimmer
 
    När du använder v58 till v60 med besökar-id-tjänsten väntar mbox-anrop på att besökar-ID:t ska anges innan utlösen (eller tills en timeout har inträffat). Detta sker vid inläsning av första sidan för en ny besökare.
