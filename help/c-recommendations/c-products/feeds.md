@@ -5,7 +5,7 @@ title: Feeds i Adobe Target Recommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -237,7 +237,7 @@ Skapa ett flöde för att infoga information om dina produkter eller tjänster i
    * Google produktfeed
    * Analysklassificeringar
 
-   Mer information om CSV- och Google Product Feed-typerna finns i [Feeds - översikt](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Du kan också [hämta en CSV-handbok](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) för modellen så att du kan formatera flödet korrekt.
+   Mer information om CSV- och Google Product Feed-typerna finns i [Feeds - översikt](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Du kan också [hämta en CSV-handbok](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) för modellen så att du kan formatera flödet korrekt.
 
 1. (Villkorligt) Om du har valt **[!UICONTROL CSV]** eller **[!UICONTROL Google Product Feed]** anger du platsen där flödet kan nås.
 
@@ -275,7 +275,7 @@ Skapa ett flöde för att infoga information om dina produkter eller tjänster i
 
 1. (Valfritt) Om du vill att flödet ska tillhöra en miljö (värdgrupp) väljer du värdgruppen.
 
-   Som standard tillhör feed alla värdgrupper. Detta garanterar att objekt i denna feed är tillgängliga i alla miljöer. Mer information finns i [Värdar](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+   Som standard tillhör feed alla värdgrupper. Detta garanterar att objekt i denna feed är tillgängliga i alla miljöer. Mer information finns i [Värdar](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Klicka på **[!UICONTROL Save]**.
 
