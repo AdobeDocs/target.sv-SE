@@ -5,7 +5,7 @@ title: Mobilvisningsrutor för responsiva upplevelser
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Förhandsvisningsfunktionen för mobilvisningsruta är utformad för responsiva 
 
 >[!NOTE]
 >
-> * Använd mobila visningsrutor om webbplatsen är responsiv och samma element på skrivbordssidan används på mobilsidan i en annan konfiguration. Om du har en separat mobilwebbplats med en separat struktur, till exempel `m.mysite.com`, ska du använda en [flersidig aktivitet](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) i stället.
+> * Använd mobila visningsrutor om webbplatsen är responsiv och samma element på skrivbordssidan används på mobilsidan i en annan konfiguration. Om du har en separat mobilwebbplats med en separat struktur, till exempel `m.mysite.com`, ska du använda en [flersidig aktivitet](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) i stället.
    >
    >
 * Mobila visningsrutor är inte tillgängliga om de överlappas av en övertäckning för omdirigeringserbjudanden.
@@ -116,7 +116,7 @@ Konfigurera de mobila visningsrutor som du vill göra tillgängliga när du skap
    * Symbian
    * Blackberry
 
-   Om du använder [Förbättrad Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) och väljer ett operativsystem emuleras den enheten när du visar sidan [!DNL Target] . Om till exempel Android ser annorlunda ut och känns annorlunda än iOS på din responsiva webbplats liknar det beteendet. [!DNL Target]
+   Om du använder [Förbättrad Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) och väljer ett operativsystem emuleras den enheten när du visar sidan [!DNL Target] . Om till exempel Android ser annorlunda ut och känns annorlunda än iOS på din responsiva webbplats liknar det beteendet. [!DNL Target]
 
 1. Klicka på **[!UICONTROL Save]**.
 
