@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. 
 
 Omdirigeringserbjudanden har några begränsningar:
 
-* För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T Frågor och svar](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T Frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * När du använder den formulärbaserade Experience Composer ska omdirigeringserbjudanden inte användas i rutor som är en del av sidan. Ett omdirigeringserbjudande får endast användas från en script-tagg som är en del av HTML-koden `<head>`. Du bör alltid använda autoskapa och ange omdirigeringserbjudandet för den globala mbox.
 
 >[!NOTE]
@@ -38,7 +38,7 @@ Så här skapar du ett omdirigeringserbjudande:
 
    ![](assets/exp_actions.png)
 
-1. Skriv URL-adressen.
+1. Ange URL-adressen.
 1. Om du vill kan du välja att inkludera aktuella frågeparametrar.
 
    Om det här alternativet är markerat, något efter ? i besökarens URL läggs till i omdirigerings-URL:en vid tidpunkten för omdirigeringen.
