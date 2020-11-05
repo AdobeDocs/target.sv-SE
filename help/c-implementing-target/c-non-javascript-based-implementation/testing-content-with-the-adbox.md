@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Använd en AdBox för att leverera bilder i en implementering utanför webbplats
 
 En AdBox är som en mbox, men den styrs av en URL i stället för JavaScript. AdBox skapas med en särskild AdBox-URL som läser in en &quot;ad&quot;-ruta (eller AdBox) i ditt Adobe-konto. Använd den här AdBox istället för mbox i dina aktiviteter. Använd AdBox-URL:en i stället för en direkt bildreferens i e-postmeddelanden eller andra icke-JavaScript-implementeringar.
 
-Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 1. Skapa AdBox-URL:
 
@@ -43,7 +43,7 @@ Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade impl
 
       Detta måste vara URL-kodat och måste vara en absolut referens. Du kan använda [HTML URL-kodningsreferens](https://www.w3schools.com/tags/ref_urlencode.asp) för att snabbt koda dina URL-adresser.
 
-1. Skapa [omdirigeringserbjudanden](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) för varje alternativ bild.
+1. Skapa [omdirigeringserbjudanden](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) för varje alternativ bild.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade impl
 
 1. Skapa aktiviteten.
 
-   Se [Icke-JavaScript-baserade implementeringar](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) för rätt inställningar för att uppnå dina mål.
+   Se [Icke-JavaScript-baserade implementeringar](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) för rätt inställningar för att uppnå dina mål.
 1. Slutför Frågor och svar om aktiviteten.
 
    Det bästa är att skapa en dummy-sida och verifiera att alla upplevelser, standardinnehåll och rapporter fungerar som förväntat i alla webbläsartyper, för alla dina miljöer.
