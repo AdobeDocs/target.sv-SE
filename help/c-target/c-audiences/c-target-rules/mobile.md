@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Enhetsidentifiering görs genom analys av strängar för användaragent. Vissa e
 
 Apple-enheter delar till exempel inte enhetsmodellspecifika tokens i användargränssnittet. Resultatet är att det inte går att identifiera iPhone-modeller (som iPhone 5S, iPhone SE, iPhone 6 och så vidare) med en enkel nyckelordsbaserad metod.
 
-För att lösa detta samlar Target in ytterligare data för att kunna identifiera iPhone och andra Apple-enheter korrekt med hjälp av följande parametrar:
+För att lösa detta samlar Target in ytterligare data för att korrekt identifiera iPhone och andra Apple-enheter med följande parametrar:
 
 | Parameter | Typ | Beskrivning |
 |--- |--- |--- |
@@ -36,7 +36,7 @@ För att lösa detta samlar Target in ytterligare data för att kunna identifier
 
 >[!NOTE]
 >
->Kunder som använder Mobile SDK behöver inte göra något för att utnyttja den här funktionen. Kunder som använder at.js måste [uppgradera till at.js version 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (eller senare).
+>Kunder som använder Mobile SDK behöver inte göra något för att utnyttja den här funktionen. Kunder som använder at.js måste [uppgradera till at.js version 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (eller senare).
 
 Du kan välja mer än en mobil enhetsegenskap. Flera markeringar förenas med en OR.
 
@@ -65,7 +65,7 @@ Kunder som använder en anpassad integrering (som inte använder at.js eller Mob
 
    >[!NOTE]
    >
-   >Du kan använda [Geo-inställningarna](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)som mål för mobiltelefonbäraren.
+   >Du kan använda [Geo-inställningarna](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)som mål för mobiltelefonbäraren.
 
 1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
 1. Klicka på **[!UICONTROL Save]**.
