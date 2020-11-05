@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Om du redan känner till DOM-sökvägen till väljaren kan du lägga till den ma
 
 ### Popup för hovring av markerade element
 
-När du har markerat flera element för klickspårning kan du klicka på [!UICONTROL Elements Selected] länken i aktivitetens [!UICONTROL Goals & Settings] steg för att visa den fullständiga listan med element som har markerats för klickspårning. Listan innehåller den fullständiga DOM-sökvägen för elementet som hjälper dig att validera att det markerade elementet ska användas för klickspårning.
+När du har markerat flera element för klickspårning kan du klicka på [!UICONTROL Elements Selected] länken i aktivitetens [!UICONTROL Goals & Settings] steg för att se hela listan med element som har markerats för klickspårning. Listan innehåller den fullständiga DOM-sökvägen för elementet som hjälper dig att validera att det markerade elementet ska användas för klickspårning.
 
 ![Länk för markerade element](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -76,7 +76,7 @@ Det finns flera saker att tänka på när du markerar element:
 
    Mer information finns i [Navigera element med DOM-sökvägen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i Alternativ för *Visual Experience Composer*.
 
-* Du kan bläddra till en annan sida för att spåra klick på en sida där du kanske inte ändrar innehåll. Den här sidan måste inkluderas i aktiviteten med [flersidesfunktionen](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) och [!DNL at.js] eller [!DNL mbox.js] implementeras på den.
+* Du kan bläddra till en annan sida för att spåra klick på en sida där du kanske inte ändrar innehåll. Den här sidan måste inkluderas i aktiviteten med [flersidesfunktionen](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) och [!DNL at.js] eller [!DNL mbox.js] implementeras på den.
 * Om du markerar mer än ett element, och en deltagare klickar på något av de valda elementen, räknas klickningen. Om du vill räkna varje objekt för sig anger du individuella framgångsmått för varje element. Om du vill räkna ett objekt genom att klicka på flera element på en sida redigerar du CSS-elementväljaren så att den matchar flera element.
 * Se till att du väljer den elementnivå som du vill spåra. Om du till exempel anger en knapp måste du markera länken och inte knapptexten.
 * Klickhändelser skickas till [!DNL Target] på samma sida som klickningen.
