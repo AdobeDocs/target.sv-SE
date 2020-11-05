@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Information om hur du använder upplevelsefragment som skapats i [!DNL Adobe Exp
 
 >[!NOTE]
 >
->Den här funktionen kräver att du är en [!DNL Adobe Experience Manager] ([!DNL AEM]) kund. Mer information finns i [Krav](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)nedan.
+>Den här funktionen kräver att du är en [!DNL Adobe Experience Manager] ([!DNL AEM]) kund. Mer information finns i [Krav](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)nedan.
 
 ## Översikt {#section_95A91830530F493B81C5C9CDB9B783EA}
 
@@ -98,11 +98,11 @@ Du kan använda upplevelsefragment i [!DNL Target] aktiviteter med [Visual Exper
 
 >[!NOTE]
 >
->Om du vill utnyttja [!DNL Target] AI- och ML-funktionerna fullt ut kan du välja [Automatisk allokering](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) eller [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) när du skapar ett A/B-test.
+>Om du vill utnyttja [!DNL Target] AI- och ML-funktionerna fullt ut kan du välja [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) eller [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) när du skapar ett A/B-test.
 
 **Så här använder du upplevelsefragment med VEC:**
 
-1. När du [!DNL Target]skapar eller redigerar en upplevelse i [Visual Experience Composer](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)klickar du på den plats på sidan där du vill infoga [!DNL AEM] innehåll. Välj sedan önskat alternativ för att visa [!UICONTROL Choose an Experience Fragment] listan.
+1. När du [!DNL Target]skapar eller redigerar en upplevelse i [Visual Experience Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)klickar du på den plats på sidan där du vill infoga [!DNL AEM] innehåll. Välj sedan önskat alternativ för att visa [!UICONTROL Choose an Experience Fragment] listan.
 
    * [!UICONTROL Insert Before]
    * [!UICONTROL Insert After]
@@ -122,16 +122,16 @@ Du kan använda upplevelsefragment i [!DNL Target] aktiviteter med [Visual Exper
    Mer information om hur du konfigurerar de olika aktivitetstyperna finns i följande avsnitt:
 
    * **A/B-test:** [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **Automatisk fördelning:** [Automatisk allokering](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **Automatisk fördelning:** [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **Automatiskt mål:** [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):** [Skapa en Automated Personalization-aktivitet](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **Experience Targeting (XT):** [Skapa en upplevelseinriktad aktivitet](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **Multivariata tester (MVT):** [Skapa ett multivariata test](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Recommendations:** [Skapa en Recommendations-aktivitet](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+   * **Automated Personalization (AP):** [Skapa en Automated Personalization-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **Experience Targeting (XT):** [Skapa en upplevelseinriktad aktivitet](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Multivariata tester (MVT):** [Skapa ett multivariata test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
+   * **Recommendations:** [Skapa en Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 **Så här använder du upplevelsefragment med den formulärbaserade Experience Composer:**
 
-1. När du [!DNL Target]skapar eller redigerar en upplevelse i den [formulärbaserade Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)i markerar du den plats på sidan där du vill infoga [!DNL AEM] innehåll och väljer sedan **[!UICONTROL Change Experience Fragment]** att visa [!UICONTROL Choose an Experience Fragment] listan.
+1. När du [!DNL Target]skapar eller redigerar en upplevelse i den [formulärbaserade Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)i markerar du den plats på sidan där du vill infoga [!DNL AEM] innehåll och väljer sedan **[!UICONTROL Change Experience Fragment]** att visa [!UICONTROL Choose an Experience Fragment] listan.
 
    ![](assets/experience_fragment_list.png)
 
