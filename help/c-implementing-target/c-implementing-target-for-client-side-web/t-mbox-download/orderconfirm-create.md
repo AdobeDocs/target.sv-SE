@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 19%
@@ -23,7 +23,7 @@ I rutan Orderbekräftelse registreras detaljer om beställningar på er webbplat
 >* Om användarna gör inköp på webbplatsen rekommenderar vi att du implementerar en orderbekräftelseruta även om du använder Analytics for Target (A4T) för din rapportering.
    >
    >
-* Du kan också skapa en orderbekräftelseruta för at.js 1.*x* med samma metod, Metoden är dock att föredra [!DNL at.js] . Mer information finns i [Spåra konverteringar](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Du kan också skapa en orderbekräftelseruta för at.js 1.*x* med samma metod, Metoden är dock att föredra [!DNL at.js] . Mer information finns i [Spåra konverteringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
 * Om du använder at.js 2.*x*, `mboxCreate` stöds inte längre. För orderbekräftelse med at.js 2.*x* använder du följande spårningsrelaterade API:er: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) och [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
