@@ -6,7 +6,7 @@ feature: mvt
 solution: Target
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 Använd mätvärden i ett multivariattest för att avgöra när ett besök är lyckat.
 
-Mer information om framgångsmått finns i [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Mer information om framgångsmått finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Ange aktivitetens mål.
-1. Välj ett [framgångsmått](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Välj ett [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Ange måttlista](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
@@ -40,7 +40,7 @@ Mer information om framgångsmått finns i [Success Metrics](../../../c-activiti
 
    Korrekt konfigurering av framgångsmått är avgörande för att ni ska få de data ni förväntar er.
 
-   Mer information finns i [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   Mer information finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. (Valfritt) Lägg till ytterligare mått.
 1. Klicka **[!UICONTROL Continue]** när du är klar med mätvärdena.
 Observera att följande tecken inte tillåts när du namnger eller byter namn på ett mätresultat:
