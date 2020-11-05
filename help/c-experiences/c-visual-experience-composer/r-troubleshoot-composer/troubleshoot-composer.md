@@ -5,7 +5,7 @@ title: Felsöka Visual Experience Composer och Enhanced Experience Composer
 feature: vec
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -21,7 +21,7 @@ VEC är en av huvudfunktionerna i Adobe Target. VEC är en redigerare som gör d
 
 EEC är en utökning av VEC som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar Target-implementeringen. Om du har problem med att öppna sidan i VEC kan du prova EEC.
 
-Mer information om VEC och EEC finns i [Erfarenheter](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Mer information om VEC och EEC finns i [Erfarenheter](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Observera att vissa problem påverkar både VEC och EEC och att vissa problem endast berör en av de två dispositionerna. Mer information finns på rätt sida.
 
