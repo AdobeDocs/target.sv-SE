@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 1%
@@ -148,7 +148,7 @@ Det går inte att spara aktiviteten om du överskrider någon av dessa gränser.
 
 Om du ökar antalet av dessa objekt i din aktivitet ökar även tiden det tar att synkronisera aktiviteten över målet.
 
-Mer information om begränsningar för Visual Experience Composer finns i Begränsningar för [Visual Experience Composer](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Mer information om begränsningar för Visual Experience Composer finns i Begränsningar för [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 ## Attribut som har importerats till Target för aktiviteter som har uppdaterats utanför Target {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
