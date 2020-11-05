@@ -6,7 +6,7 @@ feature: ab
 solution: Target
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 Använd mätvärden i en A/B-aktivitet för att avgöra när ett besök lyckas.
 
-Mer information om framgångsmått finns i [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Mer information om framgångsmått finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Ange aktivitetens mål.
-1. Välj ett [framgångsmått](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Välj ett [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Välj framgångsmått](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
@@ -40,7 +40,7 @@ Mer information om framgångsmått finns i [Success Metrics](../../../c-activiti
 
    Korrekt konfigurering av framgångsmått är avgörande för att ni ska få de data ni förväntar er.
 
-   Mer information finns i [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+   Mer information finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 1. (Valfritt) Lägg till ytterligare mått.
 1. Klicka **[!UICONTROL Continue]** när du är klar med mätvärdena.
 
