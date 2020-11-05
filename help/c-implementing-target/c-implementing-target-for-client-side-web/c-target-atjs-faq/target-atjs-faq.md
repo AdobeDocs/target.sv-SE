@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2656'
 ht-degree: 0%
@@ -123,7 +123,7 @@ Mer information finns i [Hantera flimmer](/help/c-implementing-target/c-implemen
 
 ## Hur förhindrar jag sidinläsningsflimmer med at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-I Target finns flera sätt att förhindra sidinläsningsflimmer. Mer information finns i [Förhindra flimmer med at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
+I Target finns flera sätt att förhindra sidinläsningsflimmer. Mer information finns i [Förhindra flimmer med at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
 
 ## Vilken är filstorleken för at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -153,7 +153,7 @@ Inte på samma sida. När du implementerar och testar [!DNL at.js]kan du dock k�
 
 ## Kan jag använda Target Visual Experience Composer i mina enkelsidiga program? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-Ja, du kan använda VEC för din SPA om du använder at.js 2.x. Mer information finns i [Enkelsidig (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
+Ja, du kan använda VEC för SPA om du använder at.js 2.x. Mer information finns i [Enkelsidig (SPA) visuell Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
 ## Kan jag använda Adobe Experience Cloud Debugger med at.js-implementeringar? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
@@ -167,11 +167,11 @@ Ja, precis som med mbox.js.
 
 Målgrupper använder ibland molnbaserade instanser med [!DNL Target] för testning eller enkla konceptbevis. Dessa domäner, och många andra, ingår i [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
 
-I moderna webbläsare sparas inte cookies om du använder dessa domäner om du inte anpassar inställningen med targetGlobalSettings(). `cookieDomain` Mer information finns i [Använda molnbaserade instanser med Target](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
+I moderna webbläsare sparas inte cookies om du använder dessa domäner om du inte anpassar inställningen med targetGlobalSettings(). `cookieDomain` Mer information finns i [Använda molnbaserade instanser med Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
 
 ## Kan IP-adresser användas som cookie-domän när du använder at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Ja, om du använder [at.js version 1.2 eller senare](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). Vi rekommenderar dock att du håller dig uppdaterad med den senaste versionen.
+Ja, om du använder [at.js version 1.2 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). Vi rekommenderar dock att du håller dig uppdaterad med den senaste versionen.
 
 >[!NOTE]
 >
@@ -208,10 +208,10 @@ Följande är möjliga rotorsaker om du ser det här varningsmeddelandet:
 * Sidan byggs dynamiskt och at.js kan inte hitta elementet.
 * Sidan byggs långsamt (på grund av ett långsamt nätverk) och at.js kan inte hitta väljaren i DOM.
 * Sidstrukturen som aktiviteten körs på har ändrats. Om du öppnar aktiviteten igen i Visual Experience Composer (VEC) bör du få ett varningsmeddelande. Du bör uppdatera aktiviteten så att alla nödvändiga element kan hittas.
-* Den underliggande sidan är en del av ett SPA-program (Single Page Application) eller sidan innehåller element som visas längre ned på sidan och [!DNL at.js] &quot;väljaravsökningsfunktionen&quot; kan inte hitta dessa element. Om du ökar `selectorsPollingTimeout` kan det hjälpa. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+* Den underliggande sidan är en del av ett Single Page-program (SPA) eller sidan innehåller element som visas längre ned på sidan och [!DNL at.js] &quot;väljaravsökningsfunktionen&quot; kan inte hitta dessa element. Om du ökar `selectorsPollingTimeout` kan det hjälpa. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Alla klickspårningsmått försöker lägga till sig själv på varje sida, oavsett vilken URL som måttet har ställts in på. Även om det är ofarligt visas många av dessa meddelanden.
 
-   Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns [i versionskommentarerna](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) at.js och [Hämta på.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns [i versionskommentarerna](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) at.js och [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 ## Vad är domänen tt.omtrdc.net som anrop från målservern går till? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
