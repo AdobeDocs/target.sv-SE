@@ -6,7 +6,7 @@ feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Det finns två sätt att rikta in sig på webbläsare:
 
 1. Klicka på **[!UICONTROL Select]** och välj sedan något av följande alternativ:
 
-   * **Typ:** Ange eller exkludera en viss webbläsare. Se [Text](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Språk:** Använd eller exkludera vissa webbläsare som är inställda på specifika språk. Se [Språk](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Version:** Ange eller exkludera vissa webbläsarversioner. Se [Version](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   * **Typ:** Ange eller exkludera en viss webbläsare. Se [Text](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Språk:** Använd eller exkludera vissa webbläsare som är inställda på specifika språk. Se [Språk](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Version:** Ange eller exkludera vissa webbläsarversioner. Se [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
 1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
 1. Klicka på **[!UICONTROL Save]**.
