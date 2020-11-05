@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Efter klassificeringsperioden visas data i dessa rapporter ungefär en timme eft
 
 Tänk på följande när du funderar på att använda A4T:
 
-* Om du vill använda [!DNL Analytics] som rapportkälla för [!DNL Target]måste både du och ditt företag ha tillgång till [!DNL Analytics] och till [!DNL Target]. [Kontakta din kontorepresentant](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver någon av lösningarna.
+* Om du vill använda [!DNL Analytics] som rapportkälla för [!DNL Target]måste både du och ditt företag ha tillgång till [!DNL Analytics] och till [!DNL Target]. [Kontakta din kontorepresentant](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver någon av lösningarna.
 * Rapporteringskällan anges för varje aktivitet. [!DNL Target] fortsätter att samla in data som ska användas vid rapportering och [!DNL Target] data är fortfarande tillgängliga om du föredrar att basera en aktivitet på data som samlats in av [!DNL Target].
 * Du måste använda en rapportkälla eller en annan. Du kan inte samla in data för en enskild aktivitet från båda källor.
 * När du använder A4T är alla framgångsmått som är tillgängliga för dina aktiviteter [!DNL Analytics] mätvärden. Måttet för ditt mål kan dock baseras på ett mbox-anrop. Du kan t.ex. använda Target-funktionen för klick-spårning som är klar att användas med A4T i stället för att behöva implementera [!DNL Analytics] klickspårningskod.
@@ -124,7 +124,7 @@ I den här videon förklaras hur du använder [!DNL Analytics] som rapportkälla
 
 ### Analys/målintegrering (A4T) (40:33) - ![självstudiemärke](/help/assets/tutorial.png)
 
-Den här videon är en inspelning av&quot; [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
+Den här videon är en inspelning av&quot; [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
 * Konfigurera och verifiera att integreringen fungerar
 * Hur integreringen fungerar
