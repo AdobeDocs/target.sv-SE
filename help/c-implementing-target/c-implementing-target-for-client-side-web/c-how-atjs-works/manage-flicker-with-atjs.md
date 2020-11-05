@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Flimmer inträffar när standardinnehåll visas för besökare innan det ersätt
 
 ## Använda en automatiskt skapad global mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Om du aktiverar inställningen [Skapa global Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) automatiskt när du konfigurerar at.js hanterar at.js flimmer genom att ändra opacitetsinställningen när sidan läses in. När at.js läses in ändras opacitetsinställningen för `<body>` elementet till &quot;0&quot;, vilket gör sidan till att börja med osynlig för besökarna. När ett svar från Target har tagits emot, eller om ett fel med Target-begäran upptäcks, återställer at opacitet till&quot;1&quot;. Detta garanterar att besökaren bara ser sidan när innehållet i dina aktiviteter har tillämpats.
+Om du aktiverar inställningen [Skapa global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) automatiskt när du konfigurerar at.js hanterar at.js flimmer genom att ändra opacitetsinställningen när sidan läses in. När at.js läses in ändras opacitetsinställningen för `<body>` elementet till &quot;0&quot;, vilket gör sidan till att börja med osynlig för besökarna. När ett svar från Target har tagits emot, eller om ett fel med Target-begäran upptäcks, återställer at opacitet till&quot;1&quot;. Detta garanterar att besökaren bara ser sidan när innehållet i dina aktiviteter har tillämpats.
 
 Om du aktiverar inställningen när du konfigurerar at.js kommer at.js att ange HTML BODY-formatopaciteten till 0. När ett svar från Target har tagits emot återställer at.js opaciteten för HTML BODY till 1.
 
@@ -110,7 +110,7 @@ body {opacity: 0 !important}
 
 ## Hantera flimmer i at.js 2.x för triggerView()
 
-När du använder `triggerView()` för att visa riktat innehåll i ditt SPA-program ingår funktionen för hantering av flimmer. Det innebär att fördold logik inte behöver läggas till manuellt. I stället döljer at.js 2.x platsen där din vy måste visas innan målinnehållet används.
+När du använder `triggerView()` för att visa riktat innehåll i SPA får du hjälp med att flimra hanteringen. Det innebär att fördold logik inte behöver läggas till manuellt. I stället döljer at.js 2.x platsen där din vy måste visas innan målinnehållet används.
 
 ## Hantera flimmer med getOffer() och applyOffer()
 
