@@ -5,7 +5,7 @@ title: Skapa villkor
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2297'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create New Criteria] 
 
 1. Markera **[!UICONTROL Recommendation Logic]**.
 
-   Mer information om alternativ för rekommendationslogik finns i [Kriterier](../../c-recommendations/c-algorithms/algorithms.md).
+   Mer information om alternativ för rekommendationslogik finns i [Kriterier](/help/c-recommendations/c-algorithms/algorithms.md).
 
    >[!NOTE]
    >
