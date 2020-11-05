@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Du kommer åt följande målgruppsdefinitionskort genom att klicka på ikonen Vi
 
 ![Verksamheter > Målgruppsdefinition](assets/audience_definition_list.png)
 
-Klicka på [!UICONTROL Audience Usage] fliken för att se andra aktiviteter som refererar till den målgruppen, om tillämpligt. På så sätt kan du undvika oavsiktlig påverkan på andra aktiviteter när du redigerar målgrupper. Informationen omfattar live-aktiviteter, inaktiva aktiviteter, arkiverade aktiviteter och synkroniseringsaktiviteter. Den här funktionen är tillgänglig för alla målgrupper (biblioteksmålgrupper och [målgrupper](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)som endast är aktiva).
+Klicka på [!UICONTROL Audience Usage] fliken för att se andra aktiviteter som refererar till den målgruppen, om tillämpligt. På så sätt kan du undvika oavsiktlig påverkan på andra aktiviteter när du redigerar målgrupper. Informationen omfattar live-aktiviteter, inaktiva aktiviteter, arkiverade aktiviteter och synkroniseringsaktiviteter. Den här funktionen är tillgänglig för alla målgrupper (biblioteksmålgrupper och [målgrupper](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)som endast är aktiva).
 
 Om en målgrupp kombineras med en annan målgrupp och den kombinerade målgruppen används för att skapa en aktivitet, kommer användarinformationen för båda målgrupperna att visa den nyskapade aktiviteten.
 
