@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 1%
@@ -50,8 +50,8 @@ De identifierade orsakerna till partiella data är bland annat följande:
 * **Feljusterade ID:n för rapportsviten (implementering):** Rapportsviten som angavs under aktivitetsinställningarna matchar inte rapportsviten på sidan där testet levereras. Detta ser ut som partiella data eftersom data inte kan förenas på [!DNL Analytics] servrar.
 * **Långsamma sidor:** Eftersom [!DNL Target] anrop är längst upp på sidan och [!DNL Analytics] anrop vanligtvis är längst ned på sidan ökar sannolikheten för att en besökare lämnar sidan efter att [!DNL Target] anropet utlösts, men före [!DNL Analytics] anropet, om sidan läses in långsamt. Detta kan vara särskilt problematiskt på mobilwebbplatser där anslutningarna ofta är långsammare.
 * **Sidfel:** Om det finns JavaScript-fel eller andra scenarier där var och en av kontaktytorna inte utlöses (Experience Cloud ID-tjänsten, Target och Analytics), resulterar partiella data.
-* **Omdirigeringserbjudande i[!DNL Target]aktivitet:** För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T Frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Gamla versioner av biblioteken:** Under det senaste året har Adobe gjort flera förbättringar av våra JavaScript-bibliotek ( [!DNL appMeasurement.js], `at.js/mbox.js`och `visitorAPI.js`) för att säkerställa att data skickas så effektivt som möjligt. Mer information om implementeringskrav finns i [Innan du implementerar](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Omdirigeringserbjudande i [!DNL Target] aktivitet:** För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T Frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
+* **Gamla versioner av biblioteken:** Under det senaste året har Adobe gjort flera förbättringar av våra JavaScript-bibliotek ( [!DNL appMeasurement.js], `at.js/mbox.js`och `visitorAPI.js`) för att säkerställa att data skickas så effektivt som möjligt. Mer information om implementeringskrav finns i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Vilka är de bästa sätten att minska partiella data? {#section_065C38501527451C8058278054A1818D}
 
@@ -70,7 +70,7 @@ Granska följande steg för att minska partiell datainsamling:
 
 ## Hur kan jag se historiska trender utan partiella data? {#section_4C9DED560FAD4428B362DDA2064897C3}
 
-Eftersom den här bearbetningen endast påverkar data efter releasedatum (14 november 2016) rekommenderar vi att du skapar ett segment för att exkludera partiella data om du vill justera dina historiska värden så att de matchar varandra.
+Eftersom den här bearbetningen endast påverkar data efter releasedatum (14 november 2016) rekommenderar vi att du skapar ett segment som inte innehåller vissa data om du vill justera dina historiska värden så att de matchar varandra.
 
 Följande information om den här ändringen innehåller instruktioner som hjälper dig att definiera segmentet och använda det på en virtuell rapportserie så att det här segmentet alltid tillämpas på dina [!DNL Analytics] vyer.
 
