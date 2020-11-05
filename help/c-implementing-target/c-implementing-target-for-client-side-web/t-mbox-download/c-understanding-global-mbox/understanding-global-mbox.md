@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -28,6 +28,6 @@ Det finns flera skillnader mellan en vanlig mbox (icke-global mbox) och den glob
 | En vanlig ruta figursätts vanligtvis runt innehåll med en `<DIV>` tagg. | Den globala rutan är tom och figursätts inte runt något innehåll. |
 | Innehåll från endast en aktivitet kan levereras i en vanlig mbox. | Innehåll från flera aktiviteter kan levereras som ett svar på en global mbox. |
 
-Om flera aktiviteter levereras via den globala mbox eller via flera vanliga mrutor, [!DNL Target] bestämmer du vilken prioritet [](../../../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) aktiviteten (eller aktiviteterna) ska levereras med till en webbsida.
+Om flera aktiviteter levereras via den globala mbox eller via flera vanliga mrutor, [!DNL Target] bestämmer du vilken prioritet [](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) aktiviteten (eller aktiviteterna) ska levereras med till en webbsida.
 
-Ytterligare data på sidnivå kan skickas till [!DNL Target] tillsammans med den globala mbox-filen med hjälp av `targetPageParams` funktionen. Detta liknar mbox-parameterfunktionen. Mer information finns i [Skicka parametrar till en global mbox](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Ytterligare data på sidnivå kan skickas till [!DNL Target] tillsammans med den globala mbox-filen med hjälp av `targetPageParams` funktionen. Detta liknar mbox-parameterfunktionen. Mer information finns i [Skicka parametrar till en global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
