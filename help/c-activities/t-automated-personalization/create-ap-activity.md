@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1981'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Arbetsflödet för Automated Personalization-aktiviteter skiljer sig från arbet
 
 1. (Villkorligt) Klicka för **[!UICONTROL Offers]** att markera innehållsdelar och tilldela dem till rapporteringsgrupper eller bara tillåta vissa besökare att se vissa erbjudanden med målinriktning.
 
-   Mer information finns i [Erbjud rapportgrupper i Automated Personalization](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Mer information finns i [Erbjud rapportgrupper i Automated Personalization](/help/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
 
    Använd listan för att filtrera erbjudanden efter plats. [!UICONTROL Location] Använd listan för att filtrera erbjudanden efter rapporteringsgrupper. [!UICONTROL Report Group] Du kan också använda [!UICONTROL Report Group] listan för att filtrera efter [!UICONTROL Unassigned Offers] så att du kan tilldela en rapporteringsgrupp till ett erbjudande som för närvarande inte är tilldelat någon rapporteringsgrupp.
 
@@ -107,7 +107,7 @@ Arbetsflödet för Automated Personalization-aktiviteter skiljer sig från arbet
 
    Det är viktigt att förstå att rapportgrupper påverkar hur Target bygger sina modeller. Därför rekommenderar vi att du bara använder rapporteringsgrupper om du tänker ersätta eller lägga till nya erbjudanden medan aktiviteten är aktiv. Om ett nytt erbjudande införs i en liveaktivitet kan man genom att lägga in det nya erbjudandet i en grupp med befintliga liknande erbjudanden använda de data som redan samlats in för de andra erbjudandena i gruppen för att lära sig mer om det nya erbjudandet. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp.
 
-   Mer information om att rikta ett erbjudande till specifika målgrupper finns i [Target AP Offers](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+   Mer information om att rikta ett erbjudande till specifika målgrupper finns i [Target AP Offers](/help/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 1. (Villkorligt) Klicka **[!UICONTROL Exclusion Groups]** för att välja de kombinationer av element som du vill utesluta från aktiviteten.
 
@@ -171,4 +171,4 @@ Arbetsflödet för Automated Personalization-aktiviteter skiljer sig från arbet
 
 När du har klickat **[!UICONTROL Create]** visas aktivitetssammanfattningen. Klicka på **Förhandsgranska upplevelser** för att förhandsgranska hur upplevelserna kommer att se ut när de levereras. Ett popup-fönster visas som du kan använda för att visa och dela länkar till dina AP-upplevelser på din webbplats för att få en&quot;riktig förhandsvisning&quot; av upplevelserna utanför Target Visual Experience Composer. Du måste dela länkarna från meddelandet för att kunna dela förhandsgranskningen. Det går inte att klicka på en länk och sedan kopiera URL-adressen direkt från sidan eftersom URL-adressen innehåller en parameter som bara visar sidan korrekt när du öppnar sidan från länken i meddelandet.
 
-Mer information om rapportering finns i [Automated Personalization-rapporter](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Mer information om rapportering finns i [Automated Personalization-rapporter](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
