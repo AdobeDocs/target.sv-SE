@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Om kontrollen är 0, finns ingen procentuell lyft.
 
 Detta tal representerar sannolikheten för att resultatet skulle dupliceras om testet kördes igen. Konfidensen avrundar till upp till 100,00 % när förtroendet är större än eller lika med 99,995 %.
 
-Se [Konfidensnivå och konfidensintervall](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Se [Konfidensnivå och konfidensintervall](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Butiksdata {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ Konfidensintervallet ** är ett intervall inom vilket det sanna värdet kan hitt
 
 ## Konfidenskalering och hur den utförs offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-Den [nedladdade CSV-rapporten](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) innehåller endast rådata och inte beräknade värden, t.ex. intäkter per besökare, lyft eller konfidensgrad som används för A/B-tester.
+Den [nedladdade CSV-rapporten](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) innehåller endast rådata och inte beräknade värden, t.ex. intäkter per besökare, lyft eller konfidensgrad som används för A/B-tester.
 
 Om du vill beräkna dessa beräknade värden hämtar du målets [Excel-fil för beräkning](/help/assets/complete_confidence_calculator.xlsx) av fullständig säkerhet för att ange aktivitetens värde, eller läser de [statistiska beräkningar som används av Target](/help/assets/statistical-calculations.pdf).
 
@@ -122,7 +122,7 @@ För A4T använder vi Students t-test-beräkning för kontinuerliga variabler (i
 
 Om du till exempel optimerar till sidvisningar per besökare, kan du exportera ett exempel på det totala antalet sidvisningar per besökare för en viss tidsperiod, kanske några dagar (ett par tusen datapunkter är allt du behöver). Därefter fyrkantiga varje värde och summerar summan (operationsordningen är viktig här). Värdet&quot;summan av kvadrater&quot; används sedan i Complete Confidence Calculator. Använd avsnittet &quot;intäkt&quot; i kalkylbladet för dessa värden.
 
-**Så här använder du dataexportfunktionen för att göra det[!DNL Analytics]:**
+**Så här använder du dataexportfunktionen för att göra det [!DNL Analytics] :**
 
 1. Logga in på [!DNL Adobe Analytics].
 1. Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
