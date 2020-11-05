@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Så här implementerar du ett enkelt A4T-fall med flera sidor:
 
 ## Hur vet jag om A4T är aktiverat på mitt Target-konto? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Innan du kan välja en rapportsserie när du definierar en Analytics-aktivitet behöver du både ett Analytics-användarkonto och ett Target-användarkonto. Dina användarkonton måste konfigureras enligt anvisningarna i dokumentationen. Se Krav för [användarbehörighet](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) .
+Innan du kan välja en rapportsserie när du definierar en Analytics-aktivitet behöver du både ett Analytics-användarkonto och ett Target-användarkonto. Dina användarkonton måste konfigureras enligt anvisningarna i dokumentationen. Se Krav för [användarbehörighet](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) .
 
 När du är medlem i en eller flera Experience Cloud-grupper som har tillgång till Analytics och Target och har tillgång till alla rapportsviter, bör du se alternativet att skapa ett A/B-test med Analytics under **[!UICONTROL Create Activity]**.
 
