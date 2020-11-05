@@ -5,7 +5,7 @@ title: Välj villkor
 feature: recs creation
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Om du väljer flera villkor delas trafiken jämnt mellan de valda villkoren. Om 
 
    Vissa villkor ingår [!DNL Recommendations]. Du och ditt team kan också skapa egna kriterier.
 
-* Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa nya villkor](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa nya villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
 
 **Så här väljer du villkor:**
 
-1. När du [skapar en ny rekommendation](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)letar du reda på och väljer ett eller flera villkor i **[!UICONTROL Select Criteria]** dialogrutan.
+1. När du [skapar en ny rekommendation](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)letar du reda på och väljer ett eller flera villkor i **[!UICONTROL Select Criteria]** dialogrutan.
 
    ![Välj villkor, dialogruta](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 
