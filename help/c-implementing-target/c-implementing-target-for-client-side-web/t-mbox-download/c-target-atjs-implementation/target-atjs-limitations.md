@@ -5,7 +5,7 @@ title: at.js Begränsningar
 feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -25,18 +25,18 @@ Det finns vissa skillnader mellan at.js och mbox.js. I det här avsnittet beskri
 
 ## Integreringar och plugin-program {#section_D92E31170176406AAC7B5005F03D3425}
 
-Vissa funktioner i [!DNL mbox.js] är inte tillgängliga i [!DNL at.js]. Interna [mbox.js-objekt och -metoder](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (som `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`m.fl.) stöds inte längre av [!DNL at.js] (exempel: `mboxFactoryDefault`). Detta är utformat för att avskräcka dig från att&quot;hacka&quot; [!DNL at.js] för att utveckla funktioner som inte stöds och som på lång sikt kan förlama en implementering och göra det omöjligt att uppgradera. De enda exponerade metoderna beskrivs på API-sidorna i den här dokumentationen. På grund av detta:
+Vissa funktioner i [!DNL mbox.js] är inte tillgängliga i [!DNL at.js]. Interna [mbox.js-objekt och -metoder](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (som `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`m.fl.) stöds inte längre av [!DNL at.js] (exempel: `mboxFactoryDefault`). Detta är utformat för att avskräcka dig från att&quot;hacka&quot; [!DNL at.js] för att utveckla funktioner som inte stöds och som på lång sikt kan förlama en implementering och göra det omöjligt att uppgradera. De enda exponerade metoderna beskrivs på API-sidorna i den här dokumentationen. På grund av detta:
 
-* Äldre, sidbaserade [integreringar](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) med andra Adobe-lösningar kanske inte fungerar och bör uppgraderas till nyare, serverbaserade integreringar.
-* [Anpassade plugin-program som utvecklats för mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) kanske inte fungerar om de inte har uppdaterats för [!DNL at.js].
+* Äldre, sidbaserade [integreringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) med andra Adobe-lösningar kanske inte fungerar och bör uppgraderas till nyare, serverbaserade integreringar.
+* [Anpassade plugin-program som utvecklats för mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) kanske inte fungerar om de inte har uppdaterats för [!DNL at.js].
 
-   Se till att du inkluderar eventuella [plugin-program](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) som en del av testningen.
+   Se till att du inkluderar eventuella [plugin-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) som en del av testningen.
 
 ## Asynkrona överväganden {#section_B586360A3DD34E2995AE25A18E3FB953}
 
 Eftersom alla rutor nu är asynkrona blockerar de inte sidåtergivning eller returnerar i den ordning som de utlöses.
 
-* Om du använder en global mbox i den [formulärbaserade Experience Composer](../../../../c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22)ska du tänka på att HTML-erbjudanden bara ska innehålla `<script>`-, `<style>`- och `<link>` -taggar.
+* Om du använder en global mbox i den [formulärbaserade Experience Composer](/help/c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22)ska du tänka på att HTML-erbjudanden bara ska innehålla `<script>`-, `<style>`- och `<link>` -taggar.
 
    Under leveransen filtreras alla andra HTML-taggar bort när globala mbox-erbjudanden tillämpas [!DNL at.js] . Global Mbox-erbjudanden gäller för HTML HEAD, vilket inte tillåter DIV, SPAN o.s.v. Det `<div>test</div>` går till exempel inte att använda eftersom `<div>` -taggen bara kan användas inuti HTML BODY.
 
