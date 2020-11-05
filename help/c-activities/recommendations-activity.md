@@ -4,7 +4,7 @@ title: Recommendations-aktivitet
 feature: recommendations general
 uuid: 63bd6640-e8fd-472e-bd42-0fa540a54f11
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -18,5 +18,5 @@ Recommendations-aktiviteter visar automatiskt produkter eller innehåll som kan 
 
 >[!NOTE]
 >
->Recommendations-dokumentationen har flyttats till sin egen avdelning. Se [Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+>Recommendations-dokumentationen har flyttats till sin egen avdelning. Se [Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
