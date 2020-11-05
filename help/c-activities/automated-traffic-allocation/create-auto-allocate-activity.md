@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Så här skapar du en [!UICONTROL Auto-Allocate] aktivitet:
    >
    >Felsökningsinformation om VEC finns i [Felsökning i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)om det uppstår problem.
    >
-   >Alternativet [!UICONTROL Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en [!UICONTROL Target Standard] licens om du inte ser det här alternativet.
+   >Alternativet [[!UICONTROL Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en [!UICONTROL Target Standard] licens om du inte ser det här alternativet.
 
 1. (Villkorligt) Om du är [Target Premium-kund](/help/c-intro/intro.md#premium)väljer du en [arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
