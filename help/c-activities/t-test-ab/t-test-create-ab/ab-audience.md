@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -20,15 +20,15 @@ Publiken avgör vilka besökare som läggs in i din aktivitet.
 
 >[!NOTE]
 >
->Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera publiker](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+>Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera publiker](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 Klicka på ikonen Redigera (tre lodräta ellipser) i [!UICONTROL Audience] rutan och klicka sedan på **[!UICONTROL Replace Audience]**.
 
 ![Alternativet Ersätt publik](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Målgrupper väljs ut från målgruppsbiblioteket eller så kan du skapa en målgrupp som bara är aktiv. Målgruppsbiblioteket innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är färdigbyggda som en del av Target. Du kan välja en målgrupp i biblioteket, [skapa en ny målgrupp](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)eller [skapa en målgrupp](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)som bara innehåller aktiviteter. För ett A/B-test utan specifik målgruppsanpassning väljer du standardinställningen Alla besökare.
+Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Målgrupper väljs ut från målgruppsbiblioteket eller så kan du skapa en målgrupp som bara är aktiv. Målgruppsbiblioteket innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är färdigbyggda som en del av Target. Du kan välja en målgrupp i biblioteket, [skapa en ny målgrupp](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)eller [skapa en målgrupp](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)som bara innehåller aktiviteter. För ett A/B-test utan specifik målgruppsanpassning väljer du standardinställningen Alla besökare.
 
-Observera att du även kan redigera eller kopiera en målgrupp genom att hålla markören över den önskade målgruppen i [!UICONTROL Choose Audience] dialogrutan, vilket visas nedan. Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringarna och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
+Observera att du även kan redigera eller kopiera en målgrupp genom att hålla markören över den önskade målgruppen i [!UICONTROL Choose Audience] dialogrutan, vilket visas nedan. Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringar och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
 
 ![Målgruppshovring](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
@@ -44,7 +44,7 @@ Du kan ange hur många procent kvalificerade besökare som ska inkluderas i akti
 
 ![Målgrupp i procent](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Du kan också välja att låta Target [tilldela trafik automatiskt](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Du kan också välja att låta Target [tilldela trafik automatiskt](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Utbildningsvideor
 
@@ -73,4 +73,4 @@ Den här videon innehåller information om hur du konfigurerar målgrupper.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-Mer information finns i [Publiker](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Mer information finns i [Publiker](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
