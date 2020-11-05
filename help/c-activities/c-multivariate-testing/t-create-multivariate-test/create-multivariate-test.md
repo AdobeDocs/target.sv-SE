@@ -5,7 +5,7 @@ title: Skapa ett multivariata test
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Med [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Target] är det enkelt att skapa ett test direkt på en Target-aktiverad sida och att ändra delar av sidan i [!DNL Target].
 
-Med redigeraren Peka och klicka på kan du välja valfri plats och lägga till flera erbjudanden.
+Med redigeraren för peka och klicka på Mål kan du välja valfri plats och lägga till flera erbjudanden.
 
 MVT ( [!UICONTROL Multivariate Test] page-first report) tar en sida i taget. Testet körs med andra ord på en specifik URL-adress med de upplevelser du utformar för sidan.
 
@@ -29,7 +29,7 @@ MVT ( [!UICONTROL Multivariate Test] page-first report) tar en sida i taget. Tes
    >
    >Vilka aktivitetstyper som är tillgängliga beror på ditt Target-konto. Vissa aktivitetstyper kanske inte visas i listan. Det [!UICONTROL Automated Personalization] är till exempel en [Target Premium-funktion](/help/c-intro/intro.md#premium).
    >
-   >Mer information om de olika aktivitetstyperna som finns i [!DNL Target] och skillnaderna mellan dem finns i [Verksamheter](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Se [Målaktivitetstyper](/help/c-activities/target-activities-guide.md) som hjälper dig att avgöra vilken typ av aktivitet som bäst passar dina behov.
+   >Mer information om de olika aktivitetstyperna som finns i [!DNL Target] och skillnaderna mellan dem finns i [Verksamheter](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Se [Målaktivitetstyper](/help/c-activities/target-activities-guide.md) som hjälper dig att avgöra vilken typ av aktivitet som bäst passar dina behov.
 
 1. Välj **[!UICONTROL Visual (Default)]** vid behov.
 
@@ -43,7 +43,7 @@ MVT ( [!UICONTROL Multivariate Test] page-first report) tar en sida i taget. Tes
 
 1. (Villkorligt) Om du är en Target Premium-kund [väljer du en arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Ange URL-adressen](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) för sidan som du vill testa och klicka sedan på **[!UICONTROL Next]**.
+1. [Ange URL-adressen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) för sidan som du vill testa och klicka sedan på **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ MVT ( [!UICONTROL Multivariate Test] page-first report) tar en sida i taget. Tes
    | - | Minus |
    | @ | Vid tecken |
 
-1. [Skapa erbjudandena på varje plats](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [Skapa erbjudandena på varje plats](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
    ![Dialogrutan Redigera text/HTML](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
@@ -88,7 +88,7 @@ MVT ( [!UICONTROL Multivariate Test] page-first report) tar en sida i taget. Tes
 
    ![Exkludera upplevelser](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
-1. [Använd Traffic Estimator](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) för att testa om din testplan är genomförbar.
+1. [Använd Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) för att testa om din testplan är genomförbar.
 
    ![Trafikindikator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
@@ -110,11 +110,11 @@ MVT ( [!UICONTROL Multivariate Test] page-first report) tar en sida i taget. Tes
 
    >[!NOTE]
    >
-   >Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera publiker](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera publiker](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [Granska testsammanfattningen](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) och gör eventuella ändringar. Klicka sedan på **[!UICONTROL Next]**.
+1. [Granska testsammanfattningen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) och gör eventuella ändringar. Klicka sedan på **[!UICONTROL Next]**.
 
-1. [Ange mål och inställningar](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) för testet.
+1. [Ange mål och inställningar](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) för testet.
 
 1. Klicka **[!UICONTROL Save and Close]** för att skapa aktiviteten.
 
