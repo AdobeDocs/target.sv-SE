@@ -5,7 +5,7 @@ title: Viktiga attributrapporter
 feature: reports
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1562'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Information om rapporten Viktiga attribut, en av de två specialrapporter som ä
 * [!UICONTROL Personalization Insights] -rapporter är bara tillgängliga om du [!UICONTROL Primary Goal] har valt dem i [!UICONTROL Report Metric] listrutan.
    >
    >
-* [!UICONTROL Personalization Insights] rapporter stöds endast i [standardmiljön](../../administrating-target/hosts.md) .
+* [!UICONTROL Personalization Insights] rapporter stöds endast i [standardmiljön](/help/administrating-target/hosts.md) .
    >
    >
 * [!UICONTROL Personalization Insights] Rapporterna genereras endast för aktiviteter som är i [!UICONTROL Live] status och har aktiverats och tagit emot trafik i minst 15 dagar.
@@ -40,7 +40,7 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
 ## Öppna rapporten Viktiga attribut {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet för [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) i listan.
+1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet för [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) i listan.
 
    Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer][!UICONTROL Metrics Type]och [!UICONTROL Activity Source] .
 
@@ -73,7 +73,7 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
    ![](assets/model_attribute_ranking_report.png)
 
 
-1. (Valfritt) [Hämta rapporten i CSV-format](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) för analys i Excel och andra verktyg.
+1. (Valfritt) [Hämta rapporten i CSV-format](/help/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) för analys i Excel och andra verktyg.
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Det finns flera anledningar till att rapporterna kanske inte är tillgängliga f
 
 Ett attribut är information om en besökare eller hans eller hennes specifika besök som används av personaliseringsalgoritmerna för att lära sig att personalisera trafik. Ett attribut kan till exempel vara webbläsartyp, plats, tidpunkt på besöksdagen och så vidare.
 
-Mer information om vilka attribut som [!DNL Target] används i dess anpassningsmodeller finns i [Datainsamling för Target&#39;s Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target-personaliseringsmodeller finns i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Mer information om vilka attribut som [!DNL Target] används i dess anpassningsmodeller finns i [Datainsamling för Target&#39;s Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target-personaliseringsmodeller finns i [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 **Är informationen i [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter densamma som i CSV-nedladdningen?**
 
