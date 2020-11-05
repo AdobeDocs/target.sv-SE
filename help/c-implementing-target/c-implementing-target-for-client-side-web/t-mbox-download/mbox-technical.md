@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Information som hjälper din tekniska personal att förstå mbox.js-implementeringen och hur den kan påverka din webbplats.
 
-Target Standard kräver [!DNL mbox.js] version 58 eller senare. Instruktioner om hur du hämtar och uppdaterar [!DNL mbox.js]finns i [Mbox Implementation](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Target Standard kräver [!DNL mbox.js] version 58 eller senare. Instruktioner om hur du hämtar och uppdaterar [!DNL mbox.js]finns i [Mbox Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
 I Target Standard [!DNL mbox.js] anropas en annan JavaScript-fil [!DNL target.js]. [!DNL Target.js] ligger hos Adobe och uppdateras automatiskt av Adobe. Det finns inget du behöver göra för att uppdatera [!DNL target.js]och det finns inga klientspecifika anpassningar.
 
 [!DNL Target.js] skapar en mbox som anropas `target-global-mbox` i sidans `<head>` avsnitt.
 
-[!DNL Target.js] anropas från [!DNL mbox.js] en rad med JavaScript-kod som läggs till i [!UICONTROL Extra JavaScript] fältet i [!DNL mbox.js]. Det enda sättet att inaktivera [!DNL target.js] är att inte inkludera den här kodraden, vilket även inaktiverar [!DNL Target].
+[!DNL Target.js] anropas från [!DNL mbox.js] en rad med JavaScript-kod som läggs till i [!UICONTROL Extra JavaScript] fältet i [!DNL mbox.js]. Det enda sättet att inaktivera [!DNL target.js] är att inte ta med den här kodraden, vilket även inaktiverar [!DNL Target].
 
 [!DNL Target.js] har två funktioner i [!DNL Target]:
 
@@ -48,6 +48,6 @@ När du använder [!UICONTROL Visual Experience Composer] för att konfigurera e
 
 ## Överväganden för vinkelwebbplatser och ensidiga program {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
-Om du implementerar Target på en Angular-plats eller i ett Single-Page Application (SPA) bör du använda biblioteket at.js i stället för mbox.js.
+Om du implementerar Target på en Angular-webbplats eller i ett Single-Page Application (SPA) bör du använda biblioteket at.js i stället för mbox.js.
 
-Mer information finns [i implementeringen](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)av at.js.
+Mer information finns [i implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)av at.js.
