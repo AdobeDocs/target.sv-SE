@@ -5,7 +5,7 @@ title: Automated Personalization FAQ
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Det finns inget körklart alternativ för att jämföra AP med en standardupplev
 
    * Om ett A/B...N-test inte visar några statistiskt signifikanta skillnader mellan upplevelserna, är det troligt att de erbjudanden du överväger inte skiljer sig tillräckligt mycket från varandra, påverkar de valda platserna inte framgångsmätningen eller så är optimeringsmålet för långt i konverteringstratten för att påverkas av dina valda erbjudanden.
 
-* Se till att du använder [Traffic Estimator](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) så att du får en uppfattning om hur lång tid det tar för personaliseringsmodeller att bygga in din Automated Personalization-aktivitet.
+* Se till att du använder [Traffic Estimator](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) så att du får en uppfattning om hur lång tid det tar för personaliseringsmodeller att bygga in din Automated Personalization-aktivitet.
 * Bestäm fördelningen mellan kontroll och mål innan du påbörjar aktiviteten utifrån dina mål.
 
    Det finns tre scenarier att tänka på baserat på målet för din aktivitet och vilken typ av kontroll du har valt:
@@ -75,7 +75,7 @@ Det krävs fyra faktorer för att en AP-aktivitet ska kunna generera lyft:
 
 Det bästa sättet att agera är att först se till att det innehåll och de platser som utgör aktivitetsupplevelserna verkligen gör skillnad i den totala svarsfrekvensen med hjälp av ett enkelt, icke-personaliserat A/B-test. Se till att beräkna provstorlekarna i förväg för att säkerställa att det finns tillräckligt med kraft för att se en rimlig lyft och köra A/B-provningen under en fast varaktighet utan att stoppa den eller göra några ändringar. Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet kommer att fungera. Personalisering kan förstås fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på att erbjudandena/platserna inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
 
-Mer information finns i [Felsöka Automated Personalization](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+Mer information finns i [Felsöka Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
 ### Hur tilldelar Automated Personalization trafiken? {#section_4369364F77804E0D9B78BEE551DA5659}
 
@@ -89,7 +89,7 @@ Automated Personalization kan användas som&quot;alltid on&quot;-personalisering
 
 ### Hur länge ska jag vänta på att modeller ska byggas? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-Hur lång tid det tar för modeller att bygga in din aktivitet beror vanligtvis på trafiken till de valda aktivitetsplatserna och hur framgångsrik aktiviteten är. Använd [Traffic Estimator](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) för att avgöra hur lång tid det kommer att ta för modeller att bygga in din aktivitet.
+Hur lång tid det tar för modeller att bygga in din aktivitet beror vanligtvis på trafiken till de valda aktivitetsplatserna och hur framgångsrik aktiviteten är. Använd [Traffic Estimator](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) för att avgöra hur lång tid det kommer att ta för modeller att bygga in din aktivitet.
 
 ### En modell är inbyggd i min aktivitet. Är besöken till den upplevelsen personaliserade? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
