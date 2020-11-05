@@ -5,7 +5,7 @@ title: Inkludera samma upplevelse på liknande sidor med Adobe Target
 feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Du kan till exempel använda den här funktionen för att göra något av följa
 
 Du kan ange sidor som innehåller ändringselementen eller tillämpa ändringen på hela platsen eller domänen.
 
-1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
 1. Om du vill ange på vilka sidor upplevelsen ska visas klickar du på kugghjulsikonen i [!UICONTROL Visual Experience Composer] (VEC) och väljer **[!UICONTROL Page Delivery]**.
 
@@ -90,7 +90,7 @@ Du kan överväga att använda mallregler för att återge samma aktivitet i hel
 * Att inkludera en global banderoll (till exempel COVID-19-meddelanden)
 * Om du vill delta i ett globalt erbjudande om fri frakt
 
-1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
 1. Om du vill ange den domän där upplevelsen ska visas klickar du på kugghjulsikonen i Visual Experience Composer och väljer sedan **[!UICONTROL Page Delivery]**.
 
