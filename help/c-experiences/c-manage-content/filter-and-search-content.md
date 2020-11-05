@@ -5,7 +5,7 @@ title: Söka efter innehåll och skapa smarta samlingar
 feature: offers
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -19,8 +19,8 @@ Sök efter resurser med nyckelord och spara sökmappar, smarta samlingar, som up
 
 Detta avsnitt innehåller följande information:
 
-* [Sök efter resurser efter nyckelord](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Spara smart samling](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
+* [Sök efter resurser efter nyckelord](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
+* [Spara smart samling](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
 ## Sök efter resurser efter nyckelord {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
