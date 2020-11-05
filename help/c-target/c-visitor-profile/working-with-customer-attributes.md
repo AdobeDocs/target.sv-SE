@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
    >[!DNL at.js] (valfri version) eller [!DNL mbox.js] version 58 eller senare krävs.
 
 * [!DNL Adobe] garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till [!DNL Experience Cloud] och därför vara tillgängliga för användning i [!DNL Target]. I vår nuvarande design finns det en möjlighet att en liten andel data (upp till 0,1 % av stora tillverkningssatser) inte tas med.
-* Livslängden för kundattributdata som importeras från [!DNL Experience Cloud] till [!DNL Target] beror på besökarprofilens livstid, som är 14 dagar som standard. Mer information finns i [Livstid](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)för besökarprofiler.
+* Livslängden för kundattributdata som importeras från [!DNL Experience Cloud] till [!DNL Target] beror på besökarprofilens livstid, som är 14 dagar som standard. Mer information finns i [Livstid](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)för besökarprofiler.
 * Om `vst.*` parametrarna är det enda som identifierar besökaren, kommer den befintliga autentiserade profilen inte att hämtas så länge som `authState` är OAUENTICATED (0). Profilen spelas endast upp om `authState` ändras till AUTENTISERAD (1).
 
    Om parametern till exempel används för att identifiera besökaren (där `vst.myDataSource.id` är datakällalias) och det inte finns något MCID eller tredjeparts-ID, kommer parametern `myDataSource` `vst.myDataSource.authState=0` inte att hämta profilen som kan ha skapats via en import av kundattribut. Om det önskade beteendet är att hämta den autentiserade profilen, måste `vst.myDataSource.authState` värdet vara 1 (AUTENTISERAD).
@@ -88,7 +88,7 @@ Detaljerade anvisningar för hur du utför följande uppgifter finns i [Skapa en
    * **HTTPS:** Du kan dra och släppa .csv-datafilen eller klicka på **[!UICONTROL Browse]** för att överföra den från filsystemet.
    * **FTP:** Klicka på FTP-länken för att [överföra filen via FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Det första steget är att ange ett lösenord för FTP-servern som tillhandahålls av Adobe. Ange lösenordet och klicka sedan på **[!UICONTROL Done]**.
 
-   Överför nu CSV-/ZIP-/GZIP-filen till FTP-servern. När filöverföringen är klar skapar du en ny fil med samma namn och filnamnstillägget .fin. Överför den här tomma filen till servern. Detta anger att överföringen är slut och datafilen börjar bearbetas [!DNL Experience Cloud] .
+   Överför nu CSV-/ZIP-/GZIP-filen till FTP-servern. När filöverföringen är klar skapar du en ny fil med samma namn och filnamnstillägget .fin. Överför den här tomma filen till servern. Detta anger att överföringen är avslutad och datafilen börjar bearbetas [!DNL Experience Cloud] .
 
 1. Validera schemat.
 
