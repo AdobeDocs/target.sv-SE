@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -47,7 +47,7 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter får du inte 
 1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
 1. Klicka på **[!UICONTROL Save]**.
 
-Publiken har ett popup-kort [med](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) definitionsinformation som visar parameternamnet i avsnittet Regler. Det finns ingen referens till mbox som används för filtrering.
+Publiken har ett popup-kort [med](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) definitionsinformation som visar parameternamnet i avsnittet Regler. Det finns ingen referens till mbox som används för filtrering.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Publiken har ett popup-kort [med](../../../c-target/c-audiences/audiences.md#sec
 ## Överväganden {#considerations}
 
 * Målgrupper och aktiviteter utvärderas för en viss ruta. Om till exempel den globala mbox skickar en viss parameter, men den regionala mbox inte gör det, kommer aktiviteten/målgruppen som anger den parametern inte att kvalificeras för i den regionala mbox.
-* Målinriktning utvärderas inte för interna mbox-parametrar, som mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId och mboxVersion.
+* Målinriktning utvärderas inte för interna mbox-parametrar, till exempel mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId och mboxVersion.
 
 ## Utbildningsvideo: Skapa märket för ![självstudiekurser för publiker](/help/assets/tutorial.png)
 
