@@ -6,7 +6,7 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 0%
@@ -45,11 +45,11 @@ Att skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] som rapportk
    * Du ser inte den rapportserie som du förväntar dig.
 
       Endast rapportsviter som har etablerats för att ansluta till [!DNL Target] är tillgängliga för urval. Om du inte ser de rapportsviter du förväntar dig kan du först logga ut och sedan logga in igen för att [!DNL Adobe Experience Cloud] försöka igen.
-   Om rapportsviten/-sviterna fortfarande saknas i listan, [kontakta kundtjänst](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   Om rapportsviten/-sviterna fortfarande saknas i listan, [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 1. Ange spårningsservern.
 
-   Se [Använda en analysspårningsserver](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
+   Se [Använda en analysspårningsserver](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
 1. Definiera upplevelsen.
 1. Ange aktivitetsmålet.
