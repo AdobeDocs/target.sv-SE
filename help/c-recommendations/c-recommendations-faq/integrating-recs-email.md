@@ -6,7 +6,7 @@ feature: recommendations general
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 0%
@@ -71,7 +71,7 @@ En sandlåda liknar en mbox-begäran, men för icke-webbmiljöer, som e-postleve
 
 Med den här metoden kan du följa upp hur rekommendationerna fungerar i e-postmeddelanden, testa dem på det vanliga sättet med en rekommendation och fortsätta spåra dem på webbplatsen.
 
-Ställ in en [!DNL Recommendations] aktivitet i [!DNL Adobe Target]med alternativet [Formulärbaserad Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) . För platsen väljer du namnet på den mbox som du har valt att använda i den rawbox-begäran som kommer från ESP. Välj en design med det utseende och den känsla du vill ha för e-postmeddelandet. När ESP skapar e-postmeddelanden ringer han/hon [!DNL Adobe Target] servrarna för varje ruta i varje e-postmeddelande som genereras. Din ESP måste ha ett sätt att inkludera den returnerade HTML-koden i e-postmeddelandet när den skickas.
+Ställ in en [!DNL Recommendations] aktivitet i [!DNL Adobe Target]med alternativet [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) . För platsen väljer du namnet på den mbox som du har valt att använda i den rawbox-begäran som kommer från ESP. Välj en design med det utseende och den känsla du vill ha för e-postmeddelandet. När ESP skapar e-postmeddelanden ringer han/hon [!DNL Adobe Target] servrarna för varje ruta i varje e-postmeddelande som genereras. Din ESP måste ha ett sätt att inkludera den returnerade HTML-koden i e-postmeddelandet när den skickas.
 
 E-postsystemet du använder bör kunna hantera följande scenarier:
 
@@ -141,4 +141,4 @@ Ställ in en rekommendation som vanligt, men välj bara **nedladdning** i presen
 
 Med det här alternativet kan rekommendationsservern inte direkt spåra prestanda för en rekommendation eller dela trafik mellan flera algoritm-/mallkombinationer. Rekommendationerna är inte heller knutna till någon besökarprofil.
 
-Mer information om hämtnings-API:t finns i [Äldre API:er > Hämta](../../assets/adobe-recommendations-classic.pdf).
+Mer information om hämtnings-API:t finns i [Äldre API:er > Hämta](/help/assets/adobe-recommendations-classic.pdf).
