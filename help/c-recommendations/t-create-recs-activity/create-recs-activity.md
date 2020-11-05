@@ -5,7 +5,7 @@ title: Skapa en Recommendations-aktivitet
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    >[!NOTE]
    >
-   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för att aktuella artikel/aktuella kategorirekommendationer ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du **[!UICONTROL Compatible]** kryssrutan. Det [!UICONTROL Compatible] här alternativet kanske inte visas beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för att aktuella artikel/aktuella kategorirekommendationer ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du **[!UICONTROL Compatible]** kryssrutan. Det [!UICONTROL Compatible] här alternativet kanske inte visas beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![Välj villkor, dialogruta](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -90,13 +90,13 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
       Vissa villkor ingår [!DNL Recommendations]. Du och ditt team kan också skapa egna kriterier.
 
-   * Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa villkor](../../c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
    * Du kan också gruppera villkor i sekvenser. Om du vill skapa en ny villkorssekvens klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Mer information finns i [Skapa villkorssekvens](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) .
 
 1. Klicka på **[!UICONTROL Next]**.
 1. Välj en [design](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   En design är en mall som bestämmer utseendet på platserna på sidan. [!DNL Target] innehåller flera förkonfigurerade designer. Du kan också skapa egna designer. Mer information finns i [Skapa en design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) och [Anpassa en design](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   En design är en mall som bestämmer utseendet på platserna på sidan. [!DNL Target] innehåller flera förkonfigurerade designer. Du kan också skapa egna designer. Mer information finns i [Skapa en design](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) och [Anpassa en design](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Välj design, dialogruta](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -106,11 +106,11 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
       Om du har valt flera villkor kan du bara välja en design.
 
-   * Om du vill skapa en egen design klickar du på **[!UICONTROL Create Design]** och fyller sedan i namnet och koden för den nya designen. Klicka **[!UICONTROL Next]**, markera eller överför en bild och klicka på **[!UICONTROL Done]** > **[!UICONTROL Done]**. Mer information om hur du skapar en ny design finns i [Skapa en design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Om du vill skapa en egen design klickar du på **[!UICONTROL Create Design]** och fyller sedan i namnet och koden för den nya designen. Klicka **[!UICONTROL Next]**, markera eller överför en bild och klicka på **[!UICONTROL Done]** > **[!UICONTROL Done]**. Mer information om hur du skapar en ny design finns i [Skapa en design](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klicka på **[!UICONTROL Next]**.
 
-   Du kan lägga till kampanjer i dina rekommendationer. Mer information om att lägga till kampanjer framför och under finns i [Lägga till kampanjer](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Du kan lägga till kampanjer i dina rekommendationer. Mer information om att lägga till kampanjer framför och under finns i [Lägga till kampanjer](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -136,7 +136,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
       >[!NOTE]
       >
-      >Förutom att välja en befintlig målgrupp kan ni [skapa en målgrupp](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) som bara är aktiv eller [kombinera flera målgrupper](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp.
+      >Förutom att välja en befintlig målgrupp kan ni [skapa en målgrupp](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) som bara är aktiv eller [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp.
 
       Som standard ser alla användare rekommendationerna. Men ni kan rikta rekommendationen till en viss målgrupp.
 
@@ -151,7 +151,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 1. Klicka **[!UICONTROL Next]** när du är klar.
 1. Ange dina aktivitetsinställningar.
 
-   Skriv till exempel ett namn (obligatoriskt) och mål (valfritt) för aktiviteten. Mer information om inställningarna finns i [Recommendations aktivitetsinställningar](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Skriv till exempel ett namn (obligatoriskt) och mål (valfritt) för aktiviteten. Mer information om inställningarna finns i [Recommendations aktivitetsinställningar](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >
