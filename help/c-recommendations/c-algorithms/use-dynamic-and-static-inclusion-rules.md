@@ -6,7 +6,7 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Information om hur du skapar inkluderingsregler för villkor och kampanjer i [!D
 
 ## Lägga till filtreringsregler i villkor {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-När du [skapar villkor](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)klickar du **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
+När du [skapar villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)klickar du **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
 
 ![](assets/inclusion_options_new.png)
 
@@ -32,7 +32,7 @@ Vilka alternativ som är tillgängliga varierar beroende på vilken bransch- och
 
 ## Lägga till filtreringsregler i kampanjer {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-När du [skapar en befordran](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)väljer du **[!UICONTROL Promote by Attribute]** och klickar sedan på **[!UICONTROL Add Filtering Rule]**.
+När du [skapar en befordran](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)väljer du **[!UICONTROL Promote by Attribute]** och klickar sedan på **[!UICONTROL Add Filtering Rule]**.
 
 ![](assets/inclusion_options.png)
 
