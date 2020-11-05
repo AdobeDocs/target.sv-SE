@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -33,7 +33,7 @@ När [!UICONTROL Select] åtgärden används och du sorterar efter *tävlingsbid
 
 >[!NOTE]
 >
->Rapporter som drivs av [!DNL Target] har en latens på fyra minuter. För aktiviteter som drivs av A4T kan det i både rapporten [!DNL Target] och [!DNL Analytics] rapporten ta upp till 24 timmar efter att aktiviteten ursprungligen sparats innan rapportdata kan delas upp efter upplevelser. De data som samlas in under dessa första 24 timmar är fortfarande korrekta och tilldelas rätt upplevelse.
+>Rapporter som drivs av [!DNL Target] har en latens på fyra minuter. För aktiviteter som drivs av A4T kan det i både [!DNL Target] - och [!DNL Analytics] -rapporterna ta upp till 24 timmar efter att aktiviteten ursprungligen sparats innan rapportdata kan delas upp efter upplevelser. De data som samlas in under dessa första 24 timmar är fortfarande korrekta och tilldelas rätt upplevelse.
 
 ## Rapporter i analyser {#analytics}
 
@@ -58,7 +58,7 @@ Använd i [!DNL Analysis Workspace]stället [!UICONTROL Analytics for Target] pa
 >
 >Om din [!UICONTROL Target Activities] rapport i [!DNL Analytics] listan&quot;ospecificerad&quot; istället för att visa dina aktiviteter, krävs en uppdatering av ditt provisionerade konto. Kontakta kundtjänst för att lösa problemet.
 
-Om du vill ha detaljerad information och exempel öppnar du [Analytics &amp; Target: Självstudiekursen Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) , som tillhandahålls av Adobe Experience League.
+Om du vill ha detaljerad information och exempel öppnar du [Analytics &amp; Target: Självstudiekursen Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) från Adobe Experience League.
 
 ## Rapporter i mål {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -83,4 +83,4 @@ När du skapar en aktivitet måste du ange ett mål för aktiviteten på [!UICON
 
 Du kan utföra offlineberäkningar för A4T, men det krävs ett steg med dataexport i [!DNL Analytics].
 
-Mer information finns i [Utföra offlineberäkningar för analys av mål (A4T)](../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Mer information finns i [Utföra offlineberäkningar för analys av mål (A4T)](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
