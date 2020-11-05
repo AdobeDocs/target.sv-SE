@@ -5,7 +5,7 @@ title: Översikt över A/B-test
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -33,7 +33,7 @@ När du konfigurerar A/B-testet kan du bestämma hur många procent besökare so
 
 >[!NOTE]
 >
->Mer information om hur du fastställer den optimala provstorleken för ett A/B-test finns i [Planera A/B-testet](../../c-activities/t-test-ab/sample-size-determination.md).
+>Mer information om hur du fastställer den optimala provstorleken för ett A/B-test finns i [Planera A/B-testet](/help/c-activities/t-test-ab/sample-size-determination.md).
 
 När antalet olika upplevelser överstiger fem och sträcker sig över två eller fler platser är det en bra idé att överväga ett [MVT-test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) innan du kör A/B-testerna. Multivariattestet visar vilka områden på sidan som mest sannolikt förbättrar konverteringen. Det här är de platser som en marknadsförare ska fokusera på. MVT-testet kan till exempel visa att uppmaningen att vidta åtgärder är den viktigaste platsen för att uppnå dina mål. När du har fastställt vilka platser och vilket innehåll som är mest användbart för att du ska kunna uppnå dina mål, kan du köra ett A/B-test för att ytterligare förfina resultaten, till exempel för att testa två specifika bilder mot varandra, eller för att jämföra ordalydelsen eller färgerna i en uppmaning till åtgärd. Genom att följa ett MVT-test med ett eller flera A/B-tester kan du fastställa vilket innehåll som är bäst för de resultat du vill ha.
 
