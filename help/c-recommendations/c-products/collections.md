@@ -5,7 +5,7 @@ title: Samlingar i Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
    ![Hovringsikoner: redigera, kopiera och ta bort](/help/c-recommendations/c-products/assets/hover-icons.png)
 
-   Antalet objekt som rapporteras för varje samling i listvyn är antalet produkter som matchar reglerna för den samlingen i den konfigurerade Recommendations- [!UICONTROL Collections] standardvärdgruppen [](/help/administrating-target/hosts.md) (miljö). Se [Inställningar](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att ändra standardvärdgruppen.
+   Antalet objekt som rapporteras för varje samling i listvyn är antalet produkter som matchar reglerna för den samlingen i den konfigurerade Recommendations- [!UICONTROL Collections] standardvärdgruppen [](/help/administrating-target/hosts.md) (miljö). Se [Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 
