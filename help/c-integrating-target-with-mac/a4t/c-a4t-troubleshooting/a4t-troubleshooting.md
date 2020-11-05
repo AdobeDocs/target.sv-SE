@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Det finns flera orsaker till detta:
 
 * Klassificeringsanropet från [!DNL Target] till [!DNL Analytics] misslyckades.
 
-   [Kontakta kundtjänst](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om du behöver hjälp.
+   [Kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om du behöver hjälp.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Det finns flera orsaker till detta:
 
 ## Mina analysdata visar ett uppblåst besöks- eller besökarantal sedan A4T startades. {#section_4BE374E573D44FB7918611699B74F58E}
 
-Mer information finns i [Minimera antalet uppblåsta besök och besökare i A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Mer information finns i [Minimera antalet uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## Den beräknade ökningen av intäktsmått visar inte korrekta data. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -51,7 +51,7 @@ Information om lyft och förtroende är inte tillgänglig i Analytics. De är do
 
 ## Aktiviteter visas inte i analysrapporter. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T-aktiviteter kräver att en analysspårningsserver anges. Se [Använda en Analytics Tracking Server](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för att se till att Analytics Tracking Server är korrekt konfigurerad.
+A4T-aktiviteter kräver att en analysspårningsserver anges. Se [Använda en Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för att se till att Analytics Tracking Server är korrekt konfigurerad.
 
 >[!NOTE]
 >
@@ -94,4 +94,4 @@ Om du inte har installerat felsökaren läser du [Introduktion till Adobe Experi
 
 Om det inte finns något ytterligare data-ID i [!DNL Target] anropet bekräftar du att [!DNL VisitorAPI.js] filen har lästs in före [!DNL at.js] eller [!DNL mbox.js]. Om det inte finns något ytterligare data-ID i [!DNL Analytics] samtalet bekräftar du att [!DNL Target] samtalet utlöses före [!DNL Analytics] samtalet.
 
-Mer information finns i [Analytics for Target Implementation](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) eller kontakta [kundtjänst](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+Mer information finns i [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) eller kontakta [kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
