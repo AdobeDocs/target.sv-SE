@@ -5,7 +5,7 @@ title: Rapportinställningar
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 0%
@@ -94,17 +94,17 @@ I följande lista beskrivs några situationer som kan göra att en förinställn
 
 ## Rapportmått {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Klicka på den **[!UICONTROL Report Metric]** nedrullningsbara listan för att välja ett annat [framgångsmått](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) eller flera mätvärden som ska visas i diagrammet.
+Klicka på den **[!UICONTROL Report Metric]** nedrullningsbara listan för att välja ett annat [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) eller flera mätvärden som ska visas i diagrammet.
 
 Som standard bestäms det primära måttet i inställningarna för framgångsmått när du skapar aktiviteten. Om du ändrar konfigurationen och sparar aktiviteten igen uppdateras det primära måttet för rapportering.
 
-Mer information om hur du väljer flera mätvärden att visa i rapporter finns i [Visa flera mätvärden i en rapport](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Mer information om hur du väljer flera mätvärden att visa i rapporter finns i [Visa flera mätvärden i en rapport](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Målgrupp {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 Klicka på [!UICONTROL Audience] listrutan för att ändra rapportens målgrupp.
 
-Mer information finns i [Publiker](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
+Mer information finns i [Publiker](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Datumintervall {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ Välj den kontrollupplevelse som ska användas vid beräkning och jämförelse a
 
 ### Miljö
 
-Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information finns i [Värdar](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information finns i [Värdar](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ### Återställ rapportdata
 
@@ -161,7 +161,7 @@ Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information 
 
 ### Exkludera extrema värden
 
-Växlingsknappen [!UICONTROL Exclude Extreme Values] gäller endast för aktiviteter med måtten Intäkter och engagemang. Mer information finns i [Exkludera extrema order](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+Växlingsknappen [!UICONTROL Exclude Extreme Values] gäller endast för aktiviteter med måtten Intäkter och engagemang. Mer information finns i [Exkludera extrema order](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Hämta {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Klicka på **[!UICONTROL Download]** ikonen om du vill hämta rapportdata i ett 
 
 ![Ikonen Hämta](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-Mer information finns i [Hämta data i en CSV-fil](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Mer information finns i [Hämta data i en CSV-fil](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Uppdatera {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ Du kan visa rapporten i olika format, beroende på aktivitetstypen. Välj önska
 
 Rapporterna innehåller flera datapunkter och visualiseringsrepresentationer som förstår vilka lyftgränser och konfidensnivåer din aktivitet har. På så sätt kan du bättre avgöra en vinnare.
 
-Mer information finns i [Jämka lyft, Lyft gränser och Konfidensintervall](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Mer information finns i [Jämka lyft, Lyft gränser och Konfidensintervall](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
 Tänk på följande:
 
