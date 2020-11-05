@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2248'
 ht-degree: 0%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 Det finns tre scenarier att tänka på när du använder Opt-In:
 
-1. **Taggen[!DNL Target]godkänns på förhand[!DNL Launch](eller den registrerade som tidigare godkänts[!DNL Target]):** Taggen [!DNL Target] sparas inte för samtycke och fungerar som förväntat.
-1. **Taggen[!DNL Target]är INTE förgodkänd och`bodyHidingEnabled`är FALSE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Efter det att samtycke mottagits [!DNL Target] anropas det och personaliserat innehåll är tillgängligt för den registrerade (besökaren). Eftersom endast standardinnehåll är tillgängligt före samtycke är det viktigt att utnyttja en lämplig strategi, till exempel en välkomstsida som täcker alla delar av sidan eller innehåll som kan personaliseras. Detta garanterar att upplevelsen är enhetlig för den registrerade (besökaren).
-1. **Taggen[!DNL Target]är INTE förgodkänd och`bodyHidingEnabled`är TRUE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Men eftersom `bodyHidingEnabled` är inställt på true `bodyHiddenStyle` avgör vilket innehåll på sidan som döljs tills [!DNL Target] -taggen aktiveras (eller så avvisar den registrerade möjligheten att välja, vilket innebär att standardinnehåll visas). Som standard `bodyHiddenStyle` anges till `body { opacity:0;}`, vilket döljer HTML-body-taggen. Den rekommenderade sidkonfigurationen visas nedan så att hela sidans innehåll, förutom dialogrutan för hantering av samtycke, döljs genom att sidans innehåll placeras i en behållare och dialogrutan för hantering av samtycke i en separat behållare. Den här inställningen konfigureras [!DNL Target] så att endast sidinnehållsbehållaren döljs. Mer information om hur du konfigurerar de här inställningarna finns i [Startdokumentationen](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
+1. **Taggen [!DNL Target] godkänns på förhand [!DNL Launch] (eller den registrerade som tidigare godkänts [!DNL Target]):** Taggen [!DNL Target] sparas inte för samtycke och fungerar som förväntat.
+1. **Taggen [!DNL Target] är INTE förgodkänd och `bodyHidingEnabled` är FALSE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Efter det att samtycke mottagits [!DNL Target] anropas det och personaliserat innehåll är tillgängligt för den registrerade (besökaren). Eftersom endast standardinnehåll är tillgängligt före samtycke är det viktigt att utnyttja en lämplig strategi, till exempel en välkomstsida som täcker alla delar av sidan eller innehåll som kan personaliseras. Detta garanterar att upplevelsen är enhetlig för den registrerade (besökaren).
+1. **Taggen [!DNL Target] är INTE förgodkänd och `bodyHidingEnabled` är TRUE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Men eftersom `bodyHidingEnabled` är inställt på true `bodyHiddenStyle` avgör vilket innehåll på sidan som döljs tills [!DNL Target] -taggen aktiveras (eller så avvisar den registrerade möjligheten att välja, vilket innebär att standardinnehåll visas). Som standard `bodyHiddenStyle` anges till `body { opacity:0;}`, vilket döljer HTML-body-taggen. Den rekommenderade sidkonfigurationen visas nedan så att hela sidans innehåll, förutom dialogrutan för hantering av samtycke, döljs genom att sidans innehåll placeras i en behållare och dialogrutan för hantering av samtycke i en separat behållare. Den här inställningen konfigureras [!DNL Target] så att endast sidinnehållsbehållaren döljs. Mer information om hur du konfigurerar de här inställningarna finns i [Startdokumentationen](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
    Rekommenderad sidinställning för scenario 3 är:
 
@@ -121,7 +121,7 @@ Alla GDPR- och CCPA-förfrågningar över olika [!DNL Experience Cloud] lösning
 
 ### Vilken information kommer våra kunder att [!DNL Adobe] kunna radera som svar på en begäran från en registrerade/användare? {#section_4B51D00924EC4166B2442218B69214F0}
 
-Informationen om en enskild besökare i [!DNL Target] finns i [!DNL Target] besökarprofilen. [!DNL Target] gör det möjligt för våra kunder att ta bort alla data som är kopplade till ett ID i deras besökarprofil. Exempel på profildataarkiv [!DNL Target] finns i [Besökarprofil](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+Informationen om en enskild besökare i [!DNL Target] finns i [!DNL Target] besökarprofilen. [!DNL Target] gör det möjligt för våra kunder att ta bort alla data som är kopplade till ett ID i deras besökarprofil. Exempel på profildataarkiv [!DNL Target] finns i [Besökarprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Sammanställda eller anonyma data (t.ex. rapportdata) som inte identifierar en viss individ, eller data som inte är kopplade till en viss individ (t.ex. innehållsdata), omfattas inte av en begäran om att ta bort användare.
 
@@ -296,7 +296,7 @@ Följande tabell innehåller en beskrivning av JSON-fälten för den illustrativ
 
 ### Har Target stöd för IP-förfalskning? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Sekretess](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Sekretess](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
 ### Behöver jag göra något för att förhindra att mina data delas eller säljs till tredje part?
 
