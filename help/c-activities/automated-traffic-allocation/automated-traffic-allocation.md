@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3344'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Automatisk allokering tilldelar nya besökare till upplevelser på ett intellige
 ## Använd autofördelning jämfört med A/B eller Automated Personalization {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Använd **Automatisk fördelning** när du vill optimera din aktivitet från början och identifiera de vinnande upplevelserna så snabbt som möjligt. Genom att leverera högpresterande upplevelser oftare ökar den totala aktivitetsprestandan.
-* Använd ett standardtest **[för](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** A/B när du vill karakterisera prestandan för alla upplevelser innan du optimerar webbplatsen. Ett A/B-test hjälper er att rangordna alla era upplevelser, medan Automated Traffic Allocation hittar de bästa resultaten men inte garanterar differentiering mellan de lägre prestandan.
-* Använd [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) när du vill ha optimeringsalgoritmer av högsta komplexitet, till exempel maskininlärningsmodeller som bygger prognoser baserade på enskilda profilattribut. Automatiserad trafikallokering tittar på det sammanlagda beteendet för upplevelser (precis som standard-A/B-tester) och skiljer inte mellan besökarna.
+* Använd ett standardtest **[för](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** A/B när du vill karakterisera prestandan för alla upplevelser innan du optimerar webbplatsen. Ett A/B-test hjälper er att rangordna alla era upplevelser, medan Automated Traffic Allocation hittar de bästa resultaten men inte garanterar differentiering mellan de lägre prestandan.
+* Använd [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) när du vill ha optimeringsalgoritmer av högsta komplexitet, till exempel maskininlärningsmodeller som bygger prognoser baserade på enskilda profilattribut. Automatiserad trafikallokering tittar på det sammanlagda beteendet för upplevelser (precis som standard-A/B-tester) och skiljer inte mellan besökarna.
 
 ## Viktiga fördelar {#section_0913BF06F73C4794862561388BBDDFF0}
 
