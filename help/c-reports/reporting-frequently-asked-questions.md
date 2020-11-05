@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -94,14 +94,14 @@ Så här ändrar du miljön för en aktivitetsrapport:
 
 1. Klicka på **[!UICONTROL Save]**.
 
-Mer information om miljöer finns i [Värdar](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Mer information om miljöer finns i [Värdar](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ## Varför är trafiken delad mellan mina upplevelser ojämn i min A/B- eller MVT-aktivitet? {#uneven}
 
-Jag ställer till exempel in att trafikuppdelningen ska vara 50/50 eller 25/25/25/25, men jag ser en oerhört annorlunda fördelning mellan upplevelserna i rapporten. Det finns många orsaker till ojämnt antal besökare vid [!DNL Target] rapportering:
+Till exempel anger jag att trafikuppdelningen ska vara 50/50 eller 25/25/25/25, men jag ser en oerhört annorlunda fördelning mellan upplevelserna i rapporten. Det finns många orsaker till ojämnt antal besökare vid [!DNL Target] rapportering:
 
 * När en [!DNL Target] aktivitet startas för första gången kan trafikdistributionen bli ojämn på grund av edge node-arkitekturen som [!DNL Target] använder för att optimera upplevelseleveransen. Det bästa sättet är att ge en aktivitet lite tid att samla in ytterligare data och distributionen normaliseras. Mer information om arkitektur och Edge-noder finns i [!DNL Adobe Target] Så fungerar [](/help/c-intro/how-target-works.md)Adobe Target.
-* Om du befinner dig i [!DNL Target] eller [!DNL Analytics] och använder **[!UICONTROL Visits]** mätvärdet, tänk på att [!DNL Target] det är ett besöksbaserat system och trafikfördelningen för ett A/B- eller MVT-test tilldelas på besökarnivå. Om du undersöker aktivitetsresultaten med hjälp av **[!UICONTROL Visits]** måtten kan trafikfördelningen därför bli ojämn eftersom vissa besökare kan ha flera besök. Besökare är standardmätvärdet för normalisering när aktivitetsprestanda utvärderas.
+* Om du befinner dig i [!DNL Target] eller [!DNL Analytics] och använder **[!UICONTROL Visits]** mätvärdet, tänk på att det [!DNL Target] är ett besöksbaserat system och trafikfördelningen för ett A/B- eller MVT-test tilldelas på besökarnivå. Om du undersöker aktivitetsresultaten med hjälp av **[!UICONTROL Visits]** måtten kan trafikfördelningen därför bli ojämn eftersom vissa besökare kan ha flera besök. Besökare är standardmätvärdet för normalisering när aktivitetsprestanda utvärderas.
 * Det bästa sättet att göra A/B- och MVT-tester är att se till att trafikspliterna är jämna. Genom att ändra trafikfördelningen mellan upplevelser (t.ex. från 90/10 till 50/50) under ett test kan besökarna bli ojämna över olika upplevelser. Den lägre trafikupplevelsen kanske aldrig &quot;hinner ikapp&quot;.
 * Om du följer ovanstående metodtips och trafikdelningen inte normaliseras över tid bör du kontrollera följande:
 
