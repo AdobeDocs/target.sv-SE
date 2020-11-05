@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Definiera en målgrupp för att jämföra två profilattribut för ditt [målgru
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig för kategorin [Besökarprofil](../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) .
+>Den här funktionen är endast tillgänglig för kategorin [Besökarprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) .
 
 ## Översikt {#section_303CBC78194D49A2A004945D425441E1}
 
@@ -29,11 +29,11 @@ Målgrupper definieras av regler som bestämmer vem som är inkluderad eller ute
 Låt oss anta att du arbetar för ett möbelföretag och överförde två kundbenägenhetspoängen till Target:
 
 * Sannolikheten att köpa möbler till matsalar under de kommande 90 dagarna
-* Sannolikhet att köpa möbler för vardagsrumsmöbler under de kommande 90 dagarna
+* Sannolikheten att köpa möbler för vardagsrumsmöbler under de kommande 90 dagarna
 
 Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än sannolikheten att köpa möbler för vardagsrum. Target skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för denna målgrupp.
 
-Mer information finns i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Mer information finns i [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 ## Skapa en målgrupp för profilattributsjämförelse {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
@@ -50,7 +50,7 @@ Mer information finns i [Metoder för att hämta data till Target](../../c-imple
 
    Jämförelsetypen för&quot;statiskt värde&quot; gör att du kan jämföra din besökarprofils attribut med specifika värden.
 
-   ![Propensitetspoäng 3](assets/propensity_score_3.png)
+   ![Propensivt poäng 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
