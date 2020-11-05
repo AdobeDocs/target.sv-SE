@@ -5,7 +5,7 @@ title: Hur länge ska du köra ett A/B-test?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3081'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Det är frestande att stoppa en aktivitet om ett av erbjudandena fungerar mycket
 
 >[!IMPORTANT]
 >
->Att stoppa en aktivitet i förtid är en av de tio största fallgropar som kan uppstå när du utför A/B-tester. Mer information finns i [Tio vanliga A/B-testfall och hur du undviker dem](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>Att stoppa en aktivitet i förtid är en av de tio största fallgropar som kan uppstå när du utför A/B-tester. Mer information finns i [Tio vanliga A/B-testfall och hur du undviker dem](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Target] innehåller verktyg som hjälper dig att se till att din aktivitet har en tillräckligt stor samplingsstorlek för att du ska kunna uppnå dina konverteringsmål: Automatisk allokering.
 
@@ -37,7 +37,7 @@ Lösningen är [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] minskar ko
 
 När du använder [!UICONTROL Auto-Allocate] funktionen [!DNL Target] visas ett emblem längst upp på aktivitetssidan som anger &quot;Ingen vinnare än&quot; tills aktiviteten når det minsta antalet konverteringar med tillräcklig säkerhet. [!DNL Target] deklarerar den vinnande upplevelsen genom att visa ett märke högst upp på aktivitetens sida.
 
-Mer information finns i Översikt över [Automatisk allokering](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Mer information finns i Översikt över [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Beräkna exempelstorlek för Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
