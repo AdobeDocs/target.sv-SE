@@ -5,7 +5,7 @@ title: Arbeta med innehåll i biblioteket
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Information om de uppgifter du kan utföra på en resurs i innehållsbiblioteket
 
 1. Klicka **[!UICONTROL Offer]** på **[!UICONTROL Code Offer]** - eller **[!UICONTROL Image Offer]** -fliken och leta sedan reda på resursen som du vill arbeta med.
 
-   Mer information om hur du söker i erbjudandebiblioteket och skapar smarta samlingar finns i [Filtrera och söka efter innehåll](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
+   Mer information om hur du söker i erbjudandebiblioteket och skapar smarta samlingar finns i [Filtrera och söka efter innehåll](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
 1. Håll markören över det objekt du vill arbeta med och välj sedan en åtgärd. Om du vill komma åt och utföra några av åtgärderna nedan måste du först klicka på ikonen Markera (bockmarkeringen) och sedan välja önskad åtgärd (till exempel Ta bort).
 
