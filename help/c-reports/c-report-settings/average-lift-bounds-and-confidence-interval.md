@@ -5,7 +5,7 @@ title: Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse
 feature: report settings
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Rapporterna innehåller flera datapunkter och visualiseringsrepresentationer som
 
 >[!NOTE]
 >
->Den här funktionen är bara tillgänglig när du visar rapporter i [!UICONTROL Table] vyn. Den här funktionen är inte tillgänglig för aktiviteter som använder [Analytics som rapportkälla (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Den här funktionen är bara tillgänglig när du visar rapporter i [!UICONTROL Table] vyn. Den här funktionen är inte tillgänglig för aktiviteter som använder [Analytics som rapportkälla (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Tolka data {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
