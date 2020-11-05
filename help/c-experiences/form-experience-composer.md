@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -41,11 +41,11 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
    >
    >Om du skapar en manuellt angiven plats när en aktivitet skapas skapas inte en ny plats automatiskt. Platsnamnet sparas bara i aktivitetens sammanhang. Platsen skapas när ett samtal om innehållsleverans sker. Efter den plats som skapas kommer den att vara tillgänglig för användning i andra aktiviteter, för att skapa målgrupper osv. från listrutan med tillgängliga platser.
 
-1. Klicka **[!UICONTROL Add Audience Refinements]** och välj sedan en eller flera [målgrupper](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) för aktiviteten.
+1. Klicka **[!UICONTROL Add Audience Refinements]** och välj sedan en eller flera [målgrupper](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) för aktiviteten.
 
    ![](assets/location_refinements_2.png)
 
-   I den formulärbaserade Experience Composer har förbättringarna ersatts med full målgruppsfunktionalitet. Förfiningar av befintliga aktiviteter har migrerats till målgrupper som bara är [aktiva](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   I den formulärbaserade Experience Composer har förbättringarna ersatts med full målgruppsfunktionalitet. Förfiningar av befintliga aktiviteter har migrerats till målgrupper som bara är [aktiva](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Välj den typ av innehåll som du vill ska visas på den platsen.
 
    ![](assets/form_content.png)
@@ -100,8 +100,8 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
 1. Klicka **[!UICONTROL Next]** och slutför sedan stegen för att skapa aktiviteten som vanligt för din aktivitetstyp.
 
 * [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [Skapa en upplevelseinriktad aktivitet](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Skapa en Recommendations-aktivitet](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Skapa en upplevelseinriktad aktivitet](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [Skapa en Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Utbildningsvideo: Formulärbaserad ![självstudiekurs för disposition](/help/assets/tutorial.png)
 
