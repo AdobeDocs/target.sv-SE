@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Se även [Ta bort målcookien](/help/c-implementing-target/c-considerations-befo
 
 ## När cookies från första eller tredje part ska användas {#section_F71B29420C004A7FA3B1921E619B326E}
 
-Din platskonfiguration avgör vilka cookies du vill använda. Det är praktiskt att förstå hur Target fungerar när man försöker förstå cookies från första och tredje part. Mer information finns i [How Adobe Target Works](../../../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584) .
+Din platskonfiguration avgör vilka cookies du vill använda. Det är praktiskt att förstå hur Target fungerar när man försöker förstå cookies från första och tredje part. Mer information finns i [How Adobe Target Works](/help/c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584) .
 
 Det finns tre huvudsakliga användningsområden för cookies:
 
@@ -39,7 +39,7 @@ Det finns tre huvudsakliga användningsområden för cookies:
 
 1. Användare överskrider domäner och du vill spåra och testa deras beteende i dessa domäner.
 
-   Exempel: En användare kommer till er webbplats för att handla men checkar ut genom Yahoo-butiker. Tre metoder (samarbeta med din kontorepresentant för att fastställa det bästa tillvägagångssättet):
+   Exempel: En användare kommer till er sajt för att handla men checkar ut genom Yahoos butiker. Tre metoder (samarbeta med din kontorepresentant för att fastställa det bästa tillvägagångssättet):
 
    * Aktivera cookies från första och tredje part.
    * Aktivera endast tredjepartscookie (mycket sällsynt, men har fördelen att inte ta bort cookie-filen från din domän).
@@ -142,4 +142,4 @@ Från Apple:
 | Funktioner som påverkas | Detaljer |
 |--- |--- |
 | Stöd för avanmälan | Apples WebKit tracking changes break opt out support.<br>Målavanmälan använder en cookie i `clientcode.tt.omtrdc.net` domänen. Mer information finns i [Sekretess](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Målet har stöd för två avanmälningar:<ul><li>En per klient (klienten hanterar länken för avanmälan).</li><li>Ett via Adobe som gör att användaren slipper alla Target-funktioner för alla kunder.</li></ul>Båda metoderna använder cookie-filen från tredje part. |
-| Verksamheter som riktar sig till | Kunderna kan välja [längd](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) på profilens livstid för sina Target-konton, upp till 90 dagar. Orsaken är att om kontots profillivslängd är längre än 30 dagar och cookie-filen rensas eftersom kundens domän har markerats som spårning av användare på alla webbplatser, påverkas beteendet för Safari-besökare i följande områden i Target:<br>**Target Reports **: Om en Safari-användare går in i en aktivitet returneras efter 30 dagar och konverteras sedan räknas användaren som två besökare och en konvertering.<br>Detta beteende är detsamma för aktiviteter som använder Analytics som rapportkälla (A4T).<br>**Profil- och aktivitetsmedlemskap**:<ul><li>Profildata raderas när cookie-filen från första part förfaller.</li><li>Aktivitetsmedlemskapet raderas när cookie-filen från första part förfaller.</li><li> Målet fungerar inte i Safari för konton som använder en cookie-implementering från tredje part eller en cookie-implementering från första och tredje part. Observera att det här beteendet inte är nytt. Safari har inte tillåtit cookies från tredje part på ett tag.</li></ul><br>**Förslag **: Om det finns en oro för att kunddomänen kan markeras som en spårning av besökare mellan sessioner, är det säkraste att ange profilens livstid till 30 dagar eller färre i Target. På så sätt spåras användare på samma sätt i Safari och alla andra webbläsare. |
+| Verksamheter som riktar sig till | Kunderna kan välja [längd](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) på profilens livstid för sina Target-konton, upp till 90 dagar. Orsaken är att om kontots profillivslängd är längre än 30 dagar och cookie-filen rensas eftersom kundens domän har markerats som spårning av användare på alla webbplatser, påverkas beteendet för Safari-besökare i följande områden i Target:<br>**Target Reports**: Om en Safari-användare går in i en aktivitet returneras efter 30 dagar och konverteras sedan räknas användaren som två besökare och en konvertering.<br>Detta beteende är detsamma för aktiviteter som använder Analytics som rapportkälla (A4T).<br>**Profil- och aktivitetsmedlemskap**:<ul><li>Profildata raderas när cookie-filen från första part förfaller.</li><li>Aktivitetsmedlemskapet raderas när cookie-filen från första part förfaller.</li><li> Målet fungerar inte i Safari för konton som använder en cookie-implementering från tredje part eller en cookie-implementering från första och tredje part. Observera att det här beteendet inte är nytt. Safari har inte tillåtit cookies från tredje part på ett tag.</li></ul><br>**Förslag**: Om det finns en oro för att kunddomänen kan markeras som en spårning av besökare mellan sessioner, är det säkraste att ange profilens livstid till 30 dagar eller färre i Target. På så sätt spåras användare på samma sätt i Safari och alla andra webbläsare. |
