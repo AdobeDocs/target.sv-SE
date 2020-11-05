@@ -5,7 +5,7 @@ title: Multivariata tester
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%
@@ -31,7 +31,7 @@ I Target är varje kombination en upplevelse. I multivariata tester jämförs va
 
 ![](assets/multivariate.png)
 
-På grund av antalet kombinationer som kan genereras kräver ett multivariat-test mer tid och trafik än ett A/B-test. Sidan måste få tillräckligt mycket trafik för att kunna ge statistiskt signifikanta resultat för varje upplevelse. För att få användbara resultat måste du förstå hur mycket trafik sidan tar emot och testa det optimala antalet kombinationer för rätt tidsåtgång för att få önskat resultat. Target [Traffic Estimator](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan hjälpa dig att utforma ett test som fungerar med trafiken. Innan du använder Traffic Estimator bör du ha bra statistik som visar hur många visningar och konverteringar sajten normalt tar emot. Ta hänsyn till era trafiknivåer per dag. Ju fler upplevelser en aktivitet har, desto mer trafik måste aktiviteten omfatta, eller hur länge den måste köras. Om trafiken inte är särskilt hög bör du testa ett litet antal kombinationer; I annat fall kan den tid som krävs för att skapa meningsfulla testresultat vara för lång för att vara användbar.
+På grund av antalet kombinationer som kan genereras kräver ett multivariat-test mer tid och trafik än ett A/B-test. Sidan måste få tillräckligt mycket trafik för att kunna ge statistiskt signifikanta resultat för varje upplevelse. För att få användbara resultat måste du förstå hur mycket trafik sidan tar emot och testa det optimala antalet kombinationer för rätt tidsåtgång för att få önskat resultat. Target [Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan hjälpa dig att utforma ett test som fungerar med trafiken. Innan du använder Traffic Estimator bör du ha bra statistik som visar hur många visningar och konverteringar sajten normalt tar emot. Ta hänsyn till era trafiknivåer per dag. Ju fler upplevelser en aktivitet har, desto mer trafik måste aktiviteten omfatta, eller hur länge den måste köras. Om trafiken inte är särskilt hög bör du testa ett litet antal kombinationer; I annat fall kan den tid som krävs för att skapa meningsfulla testresultat vara för lång för att vara användbar.
 
 ## MVT-terminologi {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -85,7 +85,7 @@ När du använder offlineberäkningskalkylbladet bör du tänka på följande:
 * Bygg upplevelserna i A/B-arbetsflödet med [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Du kan använda anpassad kod, redigera HTML, WYSIWYG eller valfri kombination.
 * När aktiviteten är över (baserat på beräkningsverktyget för samplingsstorlek) kan du köra resultaten i kalkylbladet för att få den andra informationen.
 
-Mer information om metodtips och metodtips finns i [Multivariera metodtips](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+Mer information om metodtips och metodtips finns i [Multivariera metodtips](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Utbildningsvideor:
 
