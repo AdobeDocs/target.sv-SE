@@ -5,7 +5,7 @@ title: Skapa villkorssekvenser
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create Criteria Seque
 
    Villkorssekvensen visas i kriterielistan.
 
-   Mer information om alternativ för rekommendationslogik finns i [Kriterier](../../c-recommendations/c-algorithms/algorithms.md).
+   Mer information om alternativ för rekommendationslogik finns i [Kriterier](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Utbildningsvideo: Skapa villkor i Recommendations (12:33) ![självstudiemärke](/help/assets/tutorial.png)
 
