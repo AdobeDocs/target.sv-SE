@@ -6,7 +6,7 @@ feature: vec
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Du kan ange om element-ID:n som klassas eller element-ID:n ska användas i dina 
 >
 >Elementklasser är tillgängliga som väljare i A/B Test-, Automated Personalization- och Multivariate Test-aktiviteter.
 
-Mer information om när du ska använda CSS-väljare och när du ska använda unika ID:n finns i [Visuell Experience Composer-metodtips och -begränsningar](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Mer information om när du ska använda CSS-väljare och när du ska använda unika ID:n finns i [Visuell Experience Composer-metodtips och -begränsningar](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 ## Så här genererar Adobe Target en väljare för ett element {#section_D89D954BCBFB486CA081BE183776A475}
 
