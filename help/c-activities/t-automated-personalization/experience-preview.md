@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -26,7 +26,7 @@ URL:er för förhandsgranskning av upplevelser kan genereras för Automated Pers
 
 Använd URL:er för förhandsgranskning av upplevelser för att dela upplevelser med teammedlemmar och till QA-upplevelser i olika webbläsare och miljöer, utan att skapa en separat QA-aktivitet. Den här funktionen är särskilt användbar om en webbplats är komplex eller om dina säkerhetsprofiler inte tillåter att webbplatsen visas i en simulator.
 
-1. Skapa en [Automated Personalization-aktivitet](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller klicka på aktiviteten för att öppna den.
+1. Skapa en [Automated Personalization-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller klicka på aktiviteten för att öppna den.
 
    Aktiviteten behöver inte vara aktiv för att kunna förhandsgranska en upplevelse.
 1. Klicka på de tre lodräta prickarna på sammanfattningssidan för aktivitet och klicka sedan på **[!UICONTROL View Experience URLs]**.
