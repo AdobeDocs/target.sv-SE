@@ -4,7 +4,7 @@ title: Överför data för Target-personaliseringsalgoritmer
 feature: ap
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller.
 
-Det finns flera sätt att ange data i personaliseringsalgoritmerna Automated Personalization (AP) och Auto-Target. Förutom metoderna i [Metoder för att hämta data till Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), används även delade målgrupper (Adobe Analytics, Audience Management) och målgrupper i aktivitetsrapporter i våra algoritmer.
+Det finns flera sätt att ange data i personaliseringsalgoritmerna Automated Personalization (AP) och Auto-Target. Förutom metoderna i [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), används även delade målgrupper (Adobe Analytics, Audience Management) och målgrupper i aktivitetsrapporter i våra algoritmer.
 
 Mer information om de data som samlas in och används automatiskt av personaliseringsalgoritmer i Automated Personalization och Automatiskt mål finns i [Automated Personalization Data Collection](/help/c-activities/t-automated-personalization/ap-data.md).
 
@@ -29,5 +29,5 @@ I följande lista visas de bästa sätten att överföra data för Target-person
 * Skicka inte ett unikt ID, till exempel ett sessions-ID, om det inte behövs.
 * Granska automatiskt vilka data Target samlar in ( [datainsamling för målets personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/ap-data.md)) så att du inte skickar duplicerad information. Target använder till exempel IP-adresser för att fastställa besökarnas postnummer. Denna information behöver inte skickas som en separat variabel.
 * Skicka inte flera värden i samma attribut/variabel. Om flera variabler är sammanfogade behandlar Target personaliseringsalgoritmer varje sträng som ett unikt värde, vilket minskar värdet på informationen för personalisering.
-* Använd en minnesvärd och meningsfull namnkonvention för att göra dina [personaliseringsinsikter](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) mer begripliga.
+* Använd en minnesvärd och meningsfull namnkonvention för att göra dina [personaliseringsinsikter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) mer begripliga.
 
