@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -48,7 +48,7 @@ För de uppgifter som utförs i [!DNL Adobe Admin Console for Enterprise]program
 
 När du börjar använda den nya [!UICONTROL Properties] funktionen måste all användarhantering utföras i [!DNL Adobe Admin Console for Enterprise]. Alla dina befintliga användare i [!DNL Target] migreras dock från [!DNL Target] till [!DNL Admin Console for Enterprise].
 
-1. [Klicka på fliken längst upp på Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)på **[!UICONTROL Users]** fliken **[!UICONTROL Add Users]** för att skapa nya användare eller redigera befintliga användare.
+1. [Klicka på fliken längst upp på Admin Console](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)på **[!UICONTROL Users]** fliken **[!UICONTROL Add Users]** för att skapa nya användare eller redigera befintliga användare.
 1. Följ instruktionerna i [Hantera användare och grupper på Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) i användarhandboken för *Enterprise*.
 
 ## Steg 2. Skapa en arbetsyta (produktprofil) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -118,7 +118,7 @@ Egenskaperna tillhör specifika kanaler (webb, mobil, e-post och API/annan).
    * **Beskrivning:** Ange en valfri beskrivning för egenskapen.
    * **Kanal:** Välj önskad kanal för egenskapen: Webb, Mobilapp, E-post eller Annat/API (t.ex. en digitalbox eller PlayStation-konsol).
 
-1. Klicka **[!UICONTROL Copy]** för att kopiera koden till Urklipp som du använder när du utför stegen i [5: Uppdatera implementeringen så att parametern](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property inkluderas.
+1. Klicka **[!UICONTROL Copy]** för att kopiera koden till Urklipp som du använder när du utför stegen i [5: Uppdatera implementeringen så att parametern](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property inkluderas.
 1. Klicka **[!UICONTROL Save]** när du är klar.
 
 >[!NOTE]
@@ -128,9 +128,9 @@ Egenskaperna tillhör specifika kanaler (webb, mobil, e-post och API/annan).
 
 Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste du lägga till `at_property` parametern till alla anrop som träffar [!DNL Target] (Target call, api call, etc.).
 
-**Så här hämtar du`at_property`parameterkoden:**
+**Så här hämtar du `at_property` parameterkoden:**
 
-1. (Villkorligt) Använd implementeringskoden som du skapade och sparade i Urklipp när du utför stegen i [4. Skapa egenskaper](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) och fortsätt till steg 2.
+1. (Villkorligt) Använd implementeringskoden som du skapade och sparade i Urklipp när du utför stegen i [4. Skapa egenskaper](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) och fortsätt till steg 2.
 
    eller
 
@@ -148,11 +148,11 @@ Om du vill använda funktionen för [!DNL Target] användarbehörigheter måste 
 
    Det finns flera sätt att uppdatera din [!DNL Target] implementering. Följande metoder kan till exempel användas för webbsidor:
 
-   * **Via en global parameter i[!DNL Adobe Launch]:**
+   * **Via en global parameter i [!DNL Adobe Launch]:**
 
       Mer information finns i [Lägga till globala målparametrar](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) i *Adobe Experience Platform Launch* -dokumentationen.
 
-   * **Via en global parameter i[!DNL Dynamic Tag Management]:**
+   * **Via en global parameter i [!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
