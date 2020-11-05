@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -49,7 +49,7 @@ När du har fått inbjudan att gå med i [!DNL Adobe Experience Cloud]programmet
    För närvarande har du inte skapat några grupper som du kan länka till.
 1. Om du vill kan du titta på videon som presenterar dig för [!DNL Adobe Experience Cloud].
 1. Om du vill se dina nya behörigheter och få tillgång till produkten loggar du ut ur [!DNL Adobe Experience Cloud]och loggar sedan in igen.
-1. Fortsätt till nästa steg och [tilldela dig själv rollen](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)Godkännare.
+1. Fortsätt till nästa steg och [tilldela dig själv rollen](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)Godkännare.
 
 ## Tilldela dig själv rollen Godkännare {#task_15CAA437A71444E2932B333D5E66A3C7}
 
