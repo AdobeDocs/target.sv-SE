@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 1%
@@ -75,7 +75,7 @@ Det innebär att aktiviteter fortsätter att få sidvisningar, besök och så vi
 
 Detta är normalt och förväntat beteende. A4T-variabeln fungerar på samma sätt som andra eVar. Värdet associeras med användaren tills det når förfallotidsperioden (90 dagar). Om en aktivitet bara är aktiv i två veckor kommer därför värdet fortfarande att associeras med användaren under minst de kommande 90 dagarna.
 
-Bästa praxis är att endast visa rapporter för den aktiviteten för den tidsperiod som aktiviteten var aktiv. Datumen bör anges korrekt som standard när du visar aktiviteten i [!DNL Analytics], så om du inte manuellt har förlängt datumet bör detta inte vara något problem ur rapporteringssynpunkt.
+Bästa praxis är att endast visa rapporter för den aktiviteten för den tidsperiod som aktiviteten var aktiv. Datumen bör anges korrekt som standard när du visar aktiviteten i [!DNL Analytics], så om du inte manuellt har förlängt datumet bör det inte vara något problem ur rapporteringssynpunkt.
 
 Låt oss till exempel anta att variabeln A4T upphör att gälla efter 90 dagar och vårt test är aktivt från 1 januari till 15 januari.
 
@@ -118,14 +118,14 @@ Mätvärdena skiljer sig åt i [!UICONTROL Unique Visitors] och [!DNL Analytics]
 
 Mätvärdet visar [!UICONTROL Unique Visitors] antalet personer som har exponerats för testet och som har besökt platsen under den angivna tidsperioden. Dessa personer är fortfarande en del av testet och bör räknas. Om du bara vill se antalet personer som exponerades under en vecka, kan du skapa ett segment med besökare som hade ett aktivitetsintryck och använda det på rapporten.
 
-Du kan korta ned tiden som variabeln [!DNL Target] kvarstår ned till en session; Men det är vanligtvis problematiskt för tester där konverteringshändelsen inte är så trolig att inträffa under samma session.
+Du kan korta ned tiden som variabeln [!DNL Target] kvarstår ned till en session; Men det är vanligtvis problematiskt för tester där konverteringshändelsen inte inträffar lika lätt under samma session.
 
 ## Varför räknas samma besökare ibland i flera olika upplevelser i Analytics? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 I följande lista förklaras varför samma besökare kunde räknas med i flera olika upplevelser i [!DNL Analytics]:
 
 * Profilen har [!DNL Target] gått ut, men [!DNL Analytics] cookien finns fortfarande kvar. I den här situationen utvärderar [!DNL Target] användaren på nytt, men [!DNL Analytics] anser att besökaren är samma person.
-* Om besökaren använder `mbox3rdPartyId`kan besökaren, när den anonyma besökaren slås samman med sin ID-profil från tredje part, [!DNL Target] få en annan upplevelse att matcha med ID:t från tredje part. Mer information finns i Synkronisering av [realtidsprofiler för mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
+* Om besökaren använder `mbox3rdPartyId`kan besökaren, när den anonyma besökaren slås samman med sin ID-profil från tredje part, [!DNL Target] få en annan upplevelse att matcha med ID:t från tredje part. Mer information finns i Synkronisering av [realtidsprofiler för mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * [!DNL Analytics] kan spåra olika enheter som samma besökare på ett annat sätt än att [!DNL Target] spåra dessa enheter: Inställningarna av ID:t från tredje part i [!DNL Target] skiljer sig från dem i Analytics.
 
 ## Stöder A4T virtuella rapportsviter?
