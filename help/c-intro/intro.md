@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Target Premium innehåller följande premiumfunktioner:
 
 ### Automated Personalization
 
-[Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) har avancerade algoritmer för maskininlärning för att skapa personaliserade upplevelser och förbättrade konverteringsgrader för digitala upplevelser.
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) har avancerade algoritmer för maskininlärning för att skapa personaliserade upplevelser och förbättrade konverteringsgrader för digitala upplevelser.
 
 Automatiserad personalisering (tidigare Test&amp;Target 1:1) registrerar besökaraktivitet på webbplatsen och skapar en besökarprofil så att innehåll kan riktas till liknande besökare. Den spårar svaren på innehåll, både för enskilda personer och för hela befolkningen, och använder sedan avancerade modelleringsmetoder för att automatiskt rikta sig till varje individ genom att redovisa allt som är känt om besökaren.
 
@@ -50,7 +50,7 @@ Automatiserad personalisering lär sig på egen hand och kräver minsta möjliga
 
 ### Recommendations
 
-[Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) -aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
+[Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) -aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
 
 En rekommendation avgör hur en produkt föreslås till en kund, beroende på kundens aktiviteter på webbplatsen. Exempel:
 
@@ -79,13 +79,13 @@ Den här funktionen öppnar upp helt nya funktioner, som:
 
 ### Enterprise-användarbehörigheter
 
-[Med funktionerna för Enterprise-användarbehörigheter](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) kan du skapa olika projekt (så kallade&quot;produktprofiler&quot; i [!DNL Adobe Admin Console for Enterprise]) så att du kan tilldela olika behörigheter till en enskild användare som anger vilken användares åtkomstbehörighet för varje projekt. Dessa distinkta projekt kan jämföras med hur rapportsviterna fungerar i [!DNL Adobe Analytics]. Varje projekt kan ha specifika användare med specifika roller som gäller för en uppsättning egenskaper. Resultatet blir att kunderna kan begränsa åtkomst till vy, redigering, godkännande och publicering för sina användare baserat på region, miljö (dev/stage/prod), kanal eller andra anpassade kriterier.
+[Med funktionerna för Enterprise-användarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) kan du skapa olika projekt (så kallade&quot;produktprofiler&quot; i [!DNL Adobe Admin Console for Enterprise]) så att du kan tilldela olika behörigheter till en enskild användare som anger vilken användares åtkomstbehörighet för varje projekt. Dessa distinkta projekt kan jämföras med hur rapportsviterna fungerar i [!DNL Adobe Analytics]. Varje projekt kan ha specifika användare med specifika roller som gäller för en uppsättning egenskaper. Resultatet blir att kunderna kan begränsa åtkomst till vy, redigering, godkännande och publicering för sina användare baserat på region, miljö (dev/stage/prod), kanal eller andra anpassade kriterier.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 [!DNL Recommendations Classic] visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter på din webbplats. Recommendations hjälper kunderna att dirigera till objekt de annars kanske inte känner till, vilket förbättrar försäljningen på er webbplats.
 
-Mer information finns i dokumentationen [till](../assets/adobe-recommendations-classic.pdf)Recommendations Classic.
+Mer information finns i dokumentationen [till](/help/assets/adobe-recommendations-classic.pdf)Recommendations Classic.
 
 ## Experience League: Adobe Target Welcome Kit {#kit}
 
