@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Genom att följa dessa standarder är det mindre troligt att du får oväntade p
 
 ## Bästa praxis {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**För mbox.js version 57 och senare, och för at.js, placerar du referensen mbox.js eller at.js högst upp på`<head>`sidan.**
+**För mbox.js version 57 och senare, och för at.js, placerar du referensen mbox.js eller at.js högst upp på `<head>` sidan.**
 
 Om du även använder Visitor API-tjänsten placerar du besökar-API-skriptet ovanför mbox.js eller at.js.
 
-**För versioner av mbox.js före version 57 ska du placera mbox.js-koden så lågt som möjligt i sidans`<head>`avsnitt.**
+**För versioner av mbox.js före version 57 ska du placera mbox.js-koden så lågt som möjligt i sidans `<head>` avsnitt.**
 
 Placera mbox.js i slutet av `<head>` avsnittet utan ytterligare deklarationer. I annat fall flyttas skript och länktaggar till `<body>` avsnittet.
 
@@ -99,9 +99,9 @@ Varje ändring skapar ett nytt element i Visual Experience Composer. Eftersom de
 
 Om du lägger till ett element med text och sedan redigerar elementet med annan text i en separat åtgärd, visas båda åtgärderna som separata element i kodredigeraren. När du redigerade elementet skapade du ett nytt element som ändrar det ursprungliga elementet som du skapade och som innehåller den redigerade texten. Om du sedan tar bort det ursprungliga elementet kommer den redigerade texten inte att kunna hitta det element som redigerades och kommer inte att visas. Det andra elementet finns kvar i listan med element, men det påverkar inte sidan eftersom elementet det ändras inte längre finns.
 
-Se [Elementväljare som används i Visual Experience Composer](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) .
+Se [Elementväljare som används i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) .
 
-**Använd`<b>`och`<i>`taggar när du formaterar textelement med textredigeraren.**
+**Använd `<b>` och `<i>` taggar när du formaterar textelement med textredigeraren.**
 
 * Använd i stället `<b>` för fetstil `<strong>`.
 * Använd `<i>` i stället för `<em>`för kursiv text.
@@ -112,7 +112,7 @@ Se [Elementväljare som används i Visual Experience Composer](../../c-experienc
 
 Vissa formulärfält kan vara obligatoriska för att skickas. Om du tar bort de formulärfälten kan det påverka inskickade data.
 
-**Inkludera inte`mboxCreate`skript.**
+**Inkludera inte `mboxCreate` skript.**
 
 Eftersom `mboxCreate` används `document.write`bör du inte ta med `mboxCreate` i skript. Använd `mboxDefine` och `mboxUpdate` för samma ändamål.
 
@@ -151,7 +151,7 @@ Du kan t.ex. inte ange text i kundvagnen som mål i VEC om koden är som följer
 
 I det här exemplet markeras hela ankarelementet i VEC, vilket påverkar andra element negativt om du väljer målinriktning.
 
-**Använd inte`top`variabler eller`self`variabler i JavaScript-kod.**
+**Använd inte `top` variabler eller `self` variabler i JavaScript-kod.**
 
 När Förbättrad Experience Composer är aktiverat uppdateras värdet för de översta variablerna och självvariablerna för att inaktivera iframe-publicering. Använd ett X-frame-options-huvud för att lägga till iframe busting i stället för anpassade JavaScript-koder.
 
@@ -161,7 +161,7 @@ Om du till exempel vill öppna www.abc.com används följande URL-parametrar:
 
 `www.abc.com?mboxEdit=1&mboxDisable=1`
 
-Dessa parametrar gör det möjligt att redigera i en iframe.
+Med de här parametrarna kan du redigera i en iframe.
 
 Kontrollera att webbplatsen läses in som förväntat när du har lagt till parametrar som dessa.
 
@@ -190,7 +190,7 @@ Tänk på följande när du använder Visual Experience Composer för att utform
 
 **Funktionen Flytta stöder inte z-index.**
 
-Eftersom det inte finns någon z-index-funktion kan det flyttade elementet inte flyttas över ett annat element. Mer information finns i [Begränsningar](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) .
+Eftersom det inte finns någon z-index-funktion kan det flyttade elementet inte flyttas över ett annat element. Mer information finns i [Begränsningar](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) .
 
 **Om du ändrar ordning på elementen påverkas klickspårningen.**
 
@@ -198,7 +198,7 @@ Om ett element som är markerat för klickspårning ordnas om ändras sökvägar
 
 Detta beror på att både koden för att leverera aktivitetsinnehållet och koden för att spåra klickningar ingår i en del kod som levereras till sidan. Om du bläddrar till en annan sida och ställer in klickspårning skickas aktivitetsinnehållskoden och klickspårningskoden till den sidan. Om klickspårningssidan har en liknande sidstruktur som den sida där testet körs, kan testinnehållet också visas på klickspårningssidan.
 
-**Det är inte säkert att infogning av ett element fungerar i en mbox`<div>`som är en.**
+**Det är inte säkert att infogning av ett element fungerar i en mbox `<div>` som är en.**
 
 Om en mbox innehåller ett erbjudande kan infogning av ett element visas som insertBefore och inte insertAfter, om mbox implementeras felaktigt.
 
@@ -224,7 +224,7 @@ Den yttre diven ska inte väljas i en upplevelse eftersom mbox som är hårdkoda
 
 Om du använder Förbättrad upplevelsedisposition på en icke-aktiv webbplats, till exempel en staging-miljö, kan du se timeout och få åtkomst till nekade fel om webbplatsen blockerar RIP.
 
-**När du lägger till flera sidor öppnas både upplärningslisten och sidlisten samtidigt. Det här minskar till slut bredden på Visual Experience Composer så att webbplatsen visas för optimeringar. Därför kan omflödningsbara platser börja se annorlunda ut än väntat i det reducerade utrymmet.**
+**När du lägger till flera sidor öppnas både upplärningslisten och sidlisten samtidigt. Detta minskar så småningom bredden på Visual Experience Composer så att webbplatsen visas för optimeringar. Därför kan omflödningsbara platser börja se annorlunda ut än väntat i det reducerade utrymmet.**
 
 Du kan kringgå problemet genom att komprimera upplevelsefältet och sidlisten genom att klicka på de vänstra ikonerna överst.
 
