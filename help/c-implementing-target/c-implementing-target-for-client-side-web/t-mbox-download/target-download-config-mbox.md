@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Om du vill använda [!DNL Adobe Target][!UICONTROL Visual Experience Editor]mås
 1. Klicka **[!UICONTROL Download mbox.js]** och följ anvisningarna för att spara filen.
 1. (Villkorligt) Om du använder [!DNL mbox.js] version 60 eller senare kan du konfigurera biblioteket så att sidinnehållet automatiskt döljs som standard tills rutor läses in för att minska flimret på responsiva webbplatser.
 
-   Mer information finns i&quot;Utelämna sidinläsningsflimmer&quot; i [mbox.js Avancerade inställningar](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
+   Mer information finns i&quot;Utelämna sidinläsningsflimmer&quot; i [mbox.js Avancerade inställningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
 
 1. Skapa [!DNL mbox.js] referensen på webbplatsen.
 
