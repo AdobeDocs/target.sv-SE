@@ -5,9 +5,9 @@ title: Skapa en design
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 
    | Parameter | Värde |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Målklientkod (finns på ../target/products.html#recsSettings > Recommendations API Token > Klientkod. |
+   | `[YOUR_CLIENT_CODE]` | Målklientkod (finns på /help/target/products.html#recsSettings > Recommendations API Token > Klientkod. |
    | `[YOUR_MBOX_NAME]` | Det namn du har valt i avsnittet &quot;locations&quot; i den formulärbaserade Recommendations, i det här fallet Sample_Recs_Response. |
    | `[ENTITY_ID` | Objektets namn `entity.id` i katalogen. |
    | `[AT_PROPERTY_TOKEN]` | (Valfritt) Lägg till om du har valt en egenskap (ingår i Enterprise Permissions) under aktivitetsinställningarna. |
