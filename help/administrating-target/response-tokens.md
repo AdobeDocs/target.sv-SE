@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 0%
@@ -36,7 +36,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 
 1. Kontrollera att du använder [!DNL at.js] version 1.1 eller senare.
 
-   Mer information finns i [Hämta på.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Mer information finns i [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. Klicka [!DNL Target]på **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -113,7 +113,7 @@ Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händ
    });
    ```
 
-Du kan lägga till följande kodutdrag på bibliotekets sidfot [på konfigurationssidan](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js om du vill att allt ska vara en enda fil.
+Du kan lägga till följande kodutdrag på bibliotekets sidfot [på konfigurationssidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js om du vill att allt ska vara en enda fil.
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Svarstoken levereras till [!DNL at.js] Target-svaren, men inte till [!DNL mbox.j
 
 Insticksprogram och svarstoken kommer att finnas tillgängliga parallellt. plugin-program kommer dock att bli inaktuella i framtiden.
 
-**Levereras svarstoken via alla[!DNL Target]svar eller endast via[!DNL Target]svar som levererar en aktivitet?**
+**Levereras svarstoken via alla [!DNL Target] svar eller endast via [!DNL Target] svar som levererar en aktivitet?**
 
 Svarstoken levereras endast genom [!DNL Target] svar som levererar en aktivitet.
 
