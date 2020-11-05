@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >[!DNL Recommendations] aktiviteter finns tillgängliga som en del av [Target Premium-lösningen](/help/c-intro/intro.md#premium). De finns inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
 >
->Om du har [!DNL Recommendations Classic]det läser du [Recommendations Classic jämfört med Recommendations Activity i Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) för mer information om de två lösningarna.
+>Om du har [!DNL Recommendations Classic]det läser du [Recommendations Classic jämfört med Recommendations Activity i Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) för mer information om de två lösningarna.
 
 [!DNL Recommendations] hjälper er att optimera och anpassa realtidsförslag för olika kanaler, appar, sidor, e-postmeddelanden och andra leveransalternativ för att öka engagemanget och konverteringsgraden samtidigt som ni minskar hanteringen.
 
@@ -44,7 +44,7 @@ En rekommendation avgör hur en produkt föreslås för en besökare, beroende p
 | Öka den tid besökarna lägger på er mediematerial genom att rekommendera mediematerial som liknar det de tittar på. | Skapa en rekommendation som föreslår andra videoklipp med villkoret&quot;Personer som visade det här&quot;. |
 | Föreslå att kunder som har tittat på information om sparplaner på din bank även läser om IRA-konton. | Visa andra produkter som köpts in efter att ha tittat på en produkt utan att visa den första produkten i rekommendationerna, med hjälp av&quot;personer som tittade på den här produkten även har köpt&quot;-kriterierna. |
 
-Mer information om dessa och andra [!DNL Recommendations] villkor finns i [Kriterier](../c-recommendations/c-algorithms/algorithms.md).
+Mer information om dessa och andra [!DNL Recommendations] villkor finns i [Kriterier](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Villkor
 
