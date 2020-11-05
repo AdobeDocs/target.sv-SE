@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Här följer några scenarier där du kan få en förväntad datavariation:
 
 * Anta att du skapar en automatiskt fördelad aktivitet som är öppen för alla besökare på en viss sida. Eftersom Automatisk allokering inte stöder A4T, samlas alla aktivitetsdata in av [!DNL Target]. Du kanske förväntar dig att besökarna i aktiviteten i rapporten ska matcha besökarna till den sidan i [!DNL Target] [!DNL Analytics] rapporteringen för samma datumintervall. Detta är ett scenario där den avvikelse som beskrivs nedan förväntas.
 
-   En fullständig lista över aktivitetstyper som stöder A4T finns i [Aktivitetstyper](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)som stöds.
+   En fullständig lista över aktivitetstyper som stöder A4T finns i [Aktivitetstyper](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)som stöds.
 
 ## Förväntad datavarians när *inte A4T används* {#expected-not-using-a4t}
 
