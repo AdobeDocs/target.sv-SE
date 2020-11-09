@@ -3,10 +3,8 @@ keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: Att migrera från mbox.js till at.js är en enkel process.
 title: Migrera till at.js från mbox.js
 feature: null
-topic: Standard
-uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
