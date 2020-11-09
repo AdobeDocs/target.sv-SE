@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 0%
 
 ---
@@ -237,7 +237,7 @@ Använd [formulärbaserad metod](/help/c-experiences/form-experience-composer.md
 
 **Kan jag säkerställa att samma upplevelse visas på ett enhetligt sätt på alla enheter som en användare kan ha?**
 
-Ta en titt på vår [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) som gör att du kan länka flera enheter av en användare på ett bestämt och troligt sätt via en Co-op.
+Ta en titt på vår [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) som gör att du kan länka flera enheter av en användare på ett bestämt och troligt sätt via en Co-op.
 
 Om du är i Co-op aktiverar en enkel flagga på sidan Mål och inställningar funktionen. Rapporteringen ändras nu även till att återspegla personer i stället för besökare. Tala med din Adobe-kontakt om du vill ha mer information om den här funktionen eftersom den inte är tillgänglig i alla regioner.
 
