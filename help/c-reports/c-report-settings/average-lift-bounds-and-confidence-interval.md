@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;environment;lift;lift bound;variance;co
 description: Rapporterna innehåller flera datapunkter och visualiseringsrepresentationer som hjälper dig att förstå vilka lyftgränser och konfidensnivå som är kopplade till din Adobe Target-aktivitet, så att du kan avgöra en vinnare på ett mer korrekt sätt.
 title: Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse
 feature: report settings
-uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
