@@ -4,10 +4,8 @@ description: Använd Adobe Target målgrupper för att rikta in er på användar
 title: Geoalternativ i Adobe Target målgrupper
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 2%
@@ -149,7 +147,7 @@ Du måste rensa dina cookies innan du gör det här.
 
 Puerto Rico, Hong Kong och andra territorier behandlas som separata&quot;Country&quot;-värden.
 
-**Fångar[!DNL Target](och lagrar) information som Zip-koder när aktiviteten är inriktad på geolokalisering med målgruppsfunktioner?**
+**Fångar [!DNL Target] (och lagrar) information som Zip-koder när aktiviteten är inriktad på geolokalisering med målgruppsfunktioner?**
 
 Nej, [!DNL Target] använder endast geo-data under hela sessionen, och data ignoreras.
 
