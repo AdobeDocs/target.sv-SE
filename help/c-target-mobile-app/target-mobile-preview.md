@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
    Anvisningar om hur du hämtar rätt SDK finns i:
 
-   * **iOS:** [Innan du börjar](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) i *hjälpen* för iOS-mobiltjänster.
-   * **Android:** [Innan du börjar](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) i Android-hjälpen *för* Mobile Services.
+   * **iOS:** [Innan du börjar](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) i *hjälpen* för iOS-mobiltjänster.
+   * **Android:** [Innan du börjar](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) i Android-hjälpen *för* Mobile Services.
 
 1. **Konfigurera ett URL-schema:** Förhandsgranskningslänken använder ett URL-schema för att öppna programmet. Du måste ange ett unikt URL-schema för förhandsgranskningen.
 
