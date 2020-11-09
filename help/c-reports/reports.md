@@ -3,10 +3,8 @@ keywords: reports;block ip address;block visitor from ip address;download report
 description: Rapporterna innehåller information om hur Adobe Target fungerar
 title: Rapporter
 feature: reports
-topic: Standard
-uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -74,7 +72,7 @@ Utöver den allmänna rapporteringsinformationen i detta avsnitt och dess undera
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | För att förstå lyft och förtroende samt de statistiska metoder som används i [!DNL Target], se [Planera ett A/B-test](/help/c-activities/t-test-ab/sample-size-determination.md). |
 | [Tolka autofördelningsrapporter](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Tolka resultaten av en [!UICONTROL Auto-Allocate] A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i [!DNL Target] användargränssnittet. |
 | [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) | Information om [!UICONTROL Summary] rapporten för AT-aktiviteter. Mer information finns i [Sammanfattningsrapport](/help/c-reports/auto-target-summary-report.md)för Automatiskt mål.<br>Information om de två [!UICONTROL Personalization Insights] rapporterna för AT- och AP-aktiviteter: [!UICONTROL Automated Segments] rapportera och [!UICONTROL Important Attributes] rapportera. Mer information finns i [Insikter om personalisering](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
-| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Information om de två [!UICONTROL Automated Personalization Summary] rapporterna för AP-aktiviteter: [!UICONTROL Activity Level] rapportera och [!UICONTROL Offer Level] rapportera. Mer information finns i [Automated Personalization Sammanfattningsrapporter](/help/c-reports/reports-ap.md).<br>Information om de två [!UICONTROL Personalization Insights] rapporterna för AT- och AP-aktiviteter: [!UICONTROL Automated Segments] rapportera och [!UICONTROL Important Attributes] rapportera. Mer information finns i [Insikter om personalisering](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
+| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Information om de två [!UICONTROL Automated Personalization Summary] rapporterna för AP-aktiviteter: [!UICONTROL Activity Level] rapportera och [!UICONTROL Offer Level] rapportera. Mer information finns i Sammanfattningsrapporter [för](/help/c-reports/reports-ap.md)Automated Personalization.<br>Information om de två [!UICONTROL Personalization Insights] rapporterna för AT- och AP-aktiviteter: [!UICONTROL Automated Segments] rapportera och [!UICONTROL Important Attributes] rapportera. Mer information finns i [Insikter om personalisering](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [Multivariata tester](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Information om de två rapporterna för MVT-aktiviteter: [!UICONTROL Experience Performance] rapportera och [!UICONTROL Location Contribution] rapportera. Mer information finns i [Experience Performance Report](/help/c-reports/experience-performance-report.md) (MVT) och [Location Contribution Report](/help/c-reports/location-contribution-report.md) (MVT). |
 | [Adobe Analytics som rapportkälla för Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Information om hur du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Target]. A4T ger dig tillgång till [!DNL Analytics] rapporter för dina [!DNL Target] aktiviteter. Mer information finns i [Analytics for Target (A4T) Reporting](/help/c-reports/analytics-for-target-a4t-reporting.md). |
 
