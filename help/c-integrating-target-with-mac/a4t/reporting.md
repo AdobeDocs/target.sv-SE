@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ I [!DNL Analytics]finns det flera dimensioner och mätvärden som är tillgängl
 * [!UICONTROL Activity Impressions] - Matchar [!UICONTROL Entrants] talet i [!DNL Target] rapporten.
 * [!UICONTROL Activity Conversions] - Matchar [!UICONTROL Custom Conversions] talet i [!DNL Target] rapporten.
 
-Använd i [!DNL Analysis Workspace]stället [!UICONTROL Analytics for Target] panelen för att analysera dina [!DNL Target] aktiviteter och upplevelser med ökad och ökad tillförsikt. Mer information finns i [Analytics for Target-panelen (A4T)](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) i *Analytics-verktygshandboken*.
+Använd i [!DNL Analysis Workspace]stället [!UICONTROL Analytics for Target] panelen för att analysera dina [!DNL Target] aktiviteter och upplevelser med ökad och ökad tillförsikt. Mer information finns i [Analytics for Target-panelen (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) i *Analytics-verktygshandboken*.
 
 >[!IMPORTANT]
 >
