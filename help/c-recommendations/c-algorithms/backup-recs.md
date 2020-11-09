@@ -3,9 +3,8 @@ keywords: recommendation;backup;back up
 description: Om du använder funktionen för rekommenderad säkerhetskopiering i Adobe Target kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 title: Använd en rekommendation för säkerhetskopiering i Adobe Target Recommendations
 feature: criteria
-uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
