@@ -2,10 +2,8 @@
 description: Eftersom ett multivariata test jämför flera olika upplevelser på en sida är det bra att förhandsgranska sidan med varje upplevelse.
 title: Förhandsgranska upplevelser för ett multivariat test
 feature: mvt
-topic: Standard
-uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
