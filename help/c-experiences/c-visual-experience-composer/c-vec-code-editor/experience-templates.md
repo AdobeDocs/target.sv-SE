@@ -3,11 +3,8 @@ keywords: experience template;custom code;banner;lightbox;carousel;countdown;rib
 description: Information om Adobe Target Experience Templates som kan användas i anpassad kod. Target Experience Templates är förkodade exempel med konfigurerbara indata som används för att köra vanliga marknadsföringsfall.
 title: Experience Templates
 feature: vec
-subtopic: Code Editor
-topic: Standard
-uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -25,7 +22,7 @@ Följande mallar är för närvarande tillgängliga på Adobe Marketing Cloud Gi
 
 ## Banderoll Carousel med miniatyrbilder {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
 
-Banner Carousel med Thumbnails Experience template [](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) är en roterande karusell som ofta används på hemsidor och landningssidor eller andra sidor med stora volymer. Denna karusell roterar inte automatiskt genom bilderna och kan interagera direkt genom att klicka på de mindre bilderna under den primära bilden.
+Bannerkarusellen med [](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) miniatyrbilder är en roterande karusell som ofta används på hemsidor och landningssidor eller andra sidor med stora volymer. Denna karusell roterar inte automatiskt genom bilderna och kan interagera direkt genom att klicka på de mindre bilderna under den primära bilden.
 
 ![](assets/exp-template-banner-carousel-thumbnails.png)
 
