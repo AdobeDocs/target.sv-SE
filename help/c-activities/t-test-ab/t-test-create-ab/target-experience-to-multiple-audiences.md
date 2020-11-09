@@ -3,10 +3,8 @@ keywords: multiple audiences;experience versions;target experience versions
 description: Ni kan rikta olika versioner av samma upplevelse till olika målgrupper i A/B-aktiviteter. Du kan konfigurera flera målgrupper för en upplevelse i Visual Experience Composer eller i den formulärbaserade Experience Composer.
 title: Flera upplevelseversioner i ett A/B-test
 feature: ab
-topic: Standard
-uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
