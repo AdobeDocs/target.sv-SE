@@ -3,9 +3,8 @@ keywords: creating custom criteria;algorithms;criteria;recommendations criteria;
 description: Överför en CSV-fil för att anpassa dina rekommendationer.
 title: Överför anpassade villkor
 feature: criteria
-uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
