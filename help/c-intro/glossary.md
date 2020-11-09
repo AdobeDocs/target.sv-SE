@@ -2,10 +2,8 @@
 description: Definitioner av termer.
 title: Adobe Target-ordlista
 feature: intro
-topic: Standard
-uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2279'
 ht-degree: 1%
@@ -57,7 +55,7 @@ En grupp liknande aktivitetsdeltagare som kommer att se en riktad aktivitet.  En
 
 **Automatisk allokering**
 
-Med Automatisk tilldelning identifieras en vinnare bland två eller fler upplevelser och fler kunder tilldelas automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
+Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 
 **Automatiskt mål**
 
@@ -309,7 +307,7 @@ Ett rapportfilter som används för att visa rapporter som relaterar till ett vi
 
 **enkelsidigt program**
 
-Ett SPA-program (single page application) är ett webbprogram eller en webbplats som passar på en enda webbsida och ger en smidigare användarupplevelse, ungefär som ett skrivbordsprogram.
+Ett enkelsidigt program (SPA) är ett webbprogram eller en webbplats som passar på en enda webbsida och ger en smidigare användarupplevelse, ungefär som ett skrivbordsprogram.
 
 **framgångsmått**
 
