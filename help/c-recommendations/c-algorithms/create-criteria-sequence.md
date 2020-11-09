@@ -3,9 +3,8 @@ keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendation
 description: Använd sekvenser med upp till fem kriterier för att få bättre kontroll över de objekt som visas i dina Adobe Target Recommendations-aktiviteter.
 title: Skapa villkorssekvenser
 feature: criteria
-uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
