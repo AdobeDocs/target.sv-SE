@@ -5,9 +5,9 @@ title: Arbeta med innehåll i biblioteket
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Information om de uppgifter du kan utföra på en resurs i innehållsbiblioteket
 
 Den här videon innehåller information om hur du hanterar innehåll. (4:56)
 
-* Anslutning mellan [Experience Cloud-resursbiblioteket](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
+* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
 * Anpassade HTML-erbjudanden
 * Anpassat HTML-erbjudande i Visual Experience Composer
 
