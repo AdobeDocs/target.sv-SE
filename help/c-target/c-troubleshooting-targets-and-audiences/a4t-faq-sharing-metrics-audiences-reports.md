@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om att dela mä
 
 Ofta vill du skapa en testvy för olika användargrupper så att de enklare kan se testresultaten. I Analytics är det möjligt att skapa ett bokmärke som sparar den aktuella vyn av en rapport, inklusive mått, datumintervall, segment och andra data.
 
-Mer information finns i [Bokmärkeshantering](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html).
+Mer information finns i [Bokmärkeshantering](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
 
 ## Hur kan jag se till att mätvärden och segment delas med mitt optimeringsteam? {#section_38BCA134A2F64C21B670CBD4491B7099}
 
 Om du använder speciella mätvärden och segment med ett test kan du skapa en användargrupp för optimeringsteamet. Dela mätvärden och segment med gruppen i stället för enskilda medlemmar för att se till att alla har tillgång till segmenten och mätvärdena. Endast administratörer kan dela med grupper.
 
-Se [Dela segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) och [Dela beräknade värden](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Se [Dela segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) och [Dela beräknade värden](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
