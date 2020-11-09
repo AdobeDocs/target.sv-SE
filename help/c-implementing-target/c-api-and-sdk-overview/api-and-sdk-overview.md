@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,6 @@ Med dokumentationsportalen för SDK på [!DNL Adobe Target] serversidan kan du i
 
 ## Ange Recommendations API:er
 
-Länk: [Ange Recommendations API](https://developers.adobetarget.com/api/recommendations) och [Adobe Recommendations API - översikt](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html).
+Länk: [Ange Recommendations API](https://developers.adobetarget.com/api/recommendations) och [Adobe Recommendations API - översikt](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html).
 
 Med Recommendations API:er kan du programmässigt interagera med [!DNL Target] rekommendationsservrar. Dessa API:er kan integreras med en rad programstackar för att utföra funktioner som du vanligtvis gör via [!DNL Target] användargränssnittet.
