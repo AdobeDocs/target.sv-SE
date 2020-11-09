@@ -3,11 +3,8 @@ keywords: analytics tracking server;A4T;analytics segments;report suites;incorre
 description: I det här avsnittet beskrivs några vanliga problem som har uppstått när Analytics används som rapportkälla för Target (A4T).
 title: Felsöka integreringen med Analytics och Target (A4T)
 feature: a4t troubleshooting
-subtopic: Multivariate Test
-topic: Standard
-uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
