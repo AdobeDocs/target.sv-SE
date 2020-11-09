@@ -4,9 +4,9 @@ description: Genom att använda Adobe Analytics som beteendedatakälla kan kunde
 title: Använda Adobe Analytics med Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Ett [!DNL Target Recommendations] exempel på ett feed-format fungerar som guide
 >
 >Om det är en innehållsplats måste respektive innehållskomponenter behandlas som&quot;produkter&quot; och tillhörande attribut om innehållet (till exempel: författarnamn, publiceringsdatum, innehållstitel, månad för publicering osv.) måste skickas som attribut. Företaget bör besluta om huruvida det är fråga om en viss kategori, eller en viss typ av kategori, baserat på ärendekraven.
 
-Mer information om hur du ställer in produktvariabler finns i [produkterna](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) i *Analytics Implementation Guide*. Vissa av anteckningarna i den dokumentationen måste hanteras av det team som distribuerar den (exempel: Kategori). Rådfråga Adobe innan du utför denna åtgärd.
+Mer information om hur du ställer in produktvariabler finns i [produkterna](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) i *Analytics Implementation Guide*. Vissa av anteckningarna i den dokumentationen måste hanteras av det team som distribuerar den (exempel: Kategori). Rådfråga Adobe innan du utför denna åtgärd.
 
 ### Överväganden
 
