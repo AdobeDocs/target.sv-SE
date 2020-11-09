@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2735'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Uppgraderar från at.js 1.*x* to at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
 
-Den senaste versionen av at.js i [!DNL Adobe Target] innehåller funktionsrika uppsättningar som gör det möjligt för ditt företag att utföra personalisering på nästa generations klientteknologier. Den nya versionen fokuserar på att uppgradera at.js för att få harmonisk interaktion med Single page applications (SPA).
+Den senaste versionen av at.js i [!DNL Adobe Target] innehåller funktionsrika uppsättningar som gör det möjligt för ditt företag att utföra personalisering på nästa generations klientteknologier. Den nya versionen fokuserar på att uppgradera at.js för att få harmonisk interaktion med applikationer för en sida (SPA).
 
 Här är några fördelar med att använda at.js 2.*x* som inte finns i tidigare versioner:
 
 * Möjligheten att cachelagra alla erbjudanden vid sidinläsning för att minska antalet serveranrop till ett enda serveranrop.
 * Förbättra slutanvändarnas upplevelser enormt på er webbplats, eftersom erbjudandena visas direkt via cachen utan den fördröjning som traditionella serversamtal ger.
-* Enkel kodrad och engångskonfiguration för utvecklare som gör det möjligt för era marknadsförare att skapa och köra A/B- och XT-aktiviteter via VEC på era SPA.
+* Enkel kodrad och engångsinstallation av utvecklare så att era marknadsförare kan skapa och köra A/B- och XT-aktiviteter via VEC på era SPA.
 
 ## at.js 2.*x* -systemdiagram
 
-Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*x* with Views och hur detta förbättrar SPA-integreringen. För att få en bättre introduktion till de koncept som används i at.js 2.*x*, se Implementering [av](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Single Page-program.
+Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*x* with Views och hur detta förbättrar SPA. För att få en bättre introduktion till de koncept som används i at.js 2.*x*, se Implementering [av](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Single Page-program.
 
 ![Målflöde med at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -41,13 +41,13 @@ Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*x* with Vie
 | 7 | Analysdata skickas till datainsamlingsservrar. |
 | 8 | Målinriktade data matchas mot analysdata via SDID och bearbetas till lagringsplatsen för analysrapporter.<br>Analysdata kan sedan visas i både Analytics- och Target-rapporter via Analytics for Target-rapporter (A4T). |
 
-Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett serveranrop, oavsett var i SPA-filen `triggerView()` implementeras. `triggerView()` skickar också en meddelandebegäran till [!DNL Target] backend-objektet för att öka antalet och registrera antalet visningar.
+Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett serveranrop, oavsett var `triggerView()` de implementeras på SPA. `triggerView()` skickar också en meddelandebegäran till [!DNL Target] backend-objektet för att öka antalet och registrera antalet visningar.
 
 ![Målflöde vid .js 2.*x* triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Utlysning | Detaljer |
 | --- | --- |
-| 1 | `triggerView()` anropas i SPA för att återge vyn och tillämpa åtgärder för att ändra visuella element. |
+| 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target] Profile Store för att räkna besökaren i aktiviteten och ökningsvärdena. |
@@ -96,7 +96,7 @@ Kör en begäran och tillämpar erbjudandet på närmaste DIV med `mboxDefault` 
 </script>
 ```
 
-**at.js 2.*x*-motsvarighet**
+**at.js 2.*x* -motsvarighet**
 
 Ett alternativ till `mboxCreate(mbox, params)` är `getOffer()` och `applyOffer()`.
 
@@ -145,7 +145,7 @@ Skapar en intern mappning mellan ett element och ett mbox-namn, men kör inte be
 </script>
 ```
 
-**at.js 2.*x*-motsvarighet**:
+**at.js 2.*x* -motsvarighet**:
 
 Ett alternativ till `mboxDefine()` och `mboxUpdate` är `getOffer()` och `applyOffer()`, med alternativet väljare i `applyOffer()`. På så sätt kan du mappa erbjudandet till ett element med hjälp av en CSS-väljare, inte bara en med ett ID.
 
@@ -268,7 +268,7 @@ Ja, eftersom execute > pageLoad behandlas som på [!DNL Target] backend-objektet
 
 ### Om mina formulärbaserade aktiviteter är inriktade på `target-global-mbox`, kommer dessa aktiviteter att fortsätta att fungera?
 
-Ja, eftersom execute > pageLoad behandlas på [!DNL Target] edge-servrar som `target-global-mbox`.
+Ja, eftersom execute > pageLoad behandlas på [!DNL Target] edge-servrarna som `target-global-mbox`.
 
 ### Stöds och stöds inte i .js 2.*x* -inställningar
 
@@ -290,7 +290,7 @@ I Target lagras tredjeparts-cookie i `<CLIENTCODE>.tt.omtrdc.net`. Den första p
 
 I at.js 2.*x* används inte längre HTTP-GET, utan HTTP-POST. HTTP-POST används nu via at.js 2.*x* för att skicka JSON-nyttolaster till edge-servrar. Detta innebär att omdirigeringsbegäran för att kontrollera om en webbläsare stöder cookies från tredje part nu avbryts. Detta beror på att HTTP GET-begäranden är viktiga transaktioner, medan HTTP-POST är icke-idempotent och inte får upprepas godtyckligt. Därför kan du spåra korsdomäner i at.js 2.*x* stöds inte längre. Endast i js 1.*x* har färdiga funktioner för domänövergripande spårning.
 
-Om du vill använda domänövergripande spårning måste du installera [ECID-biblioteket v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) i kombination med at.js 2.*x*. ECID-biblioteket finns för att hantera beständiga ID:n som används för att identifiera en besökare även mellan domäner.
+Om du vill använda domänövergripande spårning måste du installera [ECID-biblioteket v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) i kombination med at.js 2.*x*. ECID-biblioteket finns för att hantera beständiga ID:n som används för att identifiera en besökare även mellan domäner.
 
 >[!NOTE]
 >
