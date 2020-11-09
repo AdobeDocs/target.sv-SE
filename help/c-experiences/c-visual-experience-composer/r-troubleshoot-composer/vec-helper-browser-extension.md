@@ -5,9 +5,9 @@ title: Hjälptillägg för Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
 
    * Mer information om korrigeringen för funktionen SameSite=None (Ingen) finns i&quot;Hur påverkar den nyligen lanserade policyn för Google Chrome SameSite-cookie implementeringen av VEC och EEC?&quot; i [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * Cookie-namnet är &quot;mbox&quot; och cookie-domänen är den andra och översta nivån i domänerna som du använder för mbox. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: `mycompany.com`. Mer information finns i [Adobe Target Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) i användarhandboken *för* Experience Cloud-gränssnittet.
+   * Cookie-namnet är &quot;mbox&quot; och cookie-domänen är den andra och översta nivån i domänerna som du använder för mbox. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: `mycompany.com`. Mer information finns i [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) i användarhandboken *för* Experience Cloud-gränssnittet.
 
 ## Anteckningar
 
