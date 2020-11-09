@@ -3,11 +3,8 @@ keywords: implementation;mbox.js;dom manipulation library;target.js;visual exper
 description: Information som hjälper din tekniska personal att förstå mbox.js-implementeringen och hur den kan påverka din webbplats.
 title: Vad mbox.js gör
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
