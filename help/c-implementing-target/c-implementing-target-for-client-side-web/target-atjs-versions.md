@@ -3,10 +3,8 @@ keywords: at.js releases;at.js versions
 description: Information om ändringar i varje version av at.js.
 title: versionsinformation för at.js
 feature: release notes
-subtopic: Getting Started
-uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3968'
 ht-degree: 0%
@@ -167,7 +165,7 @@ Mer information finns i [Uppgradera från funktionen](/help/c-implementing-targe
 >
 >Om du behöver stöd för Adobe Opt-in för [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) måste du för närvarande använda at.js 1.7.0 eller at.js 2.1.0.
 
-## at.js Version 1.7.0 {#at-js-170}
+## at.js Version 1.3.0 {#at-js-170}
 
 at.js 1.7.0 har stöd för Adobe Opt-In. Adobe Opt-In är ett sätt att förenkla integreringen av Adobe-lösningar med plattformar för samtyckeshantering.
 
@@ -241,7 +239,7 @@ at.js version 1.5.0 finns nu att köpa.
      scheduler = setTimeout
    ```
 
-## at.js Version 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js Version 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js version 1.3.0 finns nu att köpa.
 
@@ -259,7 +257,7 @@ at.js version 1.3.0 finns nu att köpa.
 
    Mer information finns i [Dataproviders](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
-* at.js-begäranden använder nu GET, men den växlar till POST när URL-storleken överstiger 2 048 tecken. Det finns en ny egenskap med namnet `urlSizeLimit` där du kan öka storleksgränsen vid behov. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik.
+* at.js-begäranden använder nu GET, men kommer att växla till POST när URL-storleken överstiger 2 048 tecken. Det finns en ny egenskap med namnet `urlSizeLimit` där du kan öka storleksgränsen vid behov. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik.
 * Target tvingar nu till att `mbox` nyckeln i `adobe.target.applyOffer(options)` funktionen används. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target har korrekt validering och att kunderna använder funktionen korrekt.
 * at.js har förbättrat funktionerna för händelsespårning och klickning. at.js använder `navigator.sendBeacon()` för att skicka händelsespårningsdata och återgår till synkron XHR när `navigator.sendBeacon()` inte stöds. Detta gäller oftast Internet Explorer 10 och 11 samt vissa versioner av Safari. Safari kommer att lägga till stöd för `navigator.sendBeacon()` i den kommande iOS 11.3-versionen.
 * at.js kan nu återge erbjudanden även när en sida öppnas i bakgrundsflikar. Vissa målkunder stötte på ett problem när de `requestAnimationFrame()` inaktiverades på grund av webbläsarbegränsningsbeteendet för bakgrundsflikar.
