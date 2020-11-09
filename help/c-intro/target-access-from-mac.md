@@ -3,13 +3,10 @@ keywords: Experience Cloud;sign in;language;default ui language;default language
 description: Instruktioner om hur du kommer åt Adobe Target från Adobe Experience Cloud.
 title: Access Target från Adobe Experience Cloud
 feature: intro
-subtopic: Getting Started
-topic: Standard
-uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 1c4c634fe80ba3a91ee3245871fc27c8a8684067
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
