@@ -6,10 +6,10 @@ feature: offers
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Du kan lägga till eller ta bort objekt från listan Bilderbjudanden.
 
 Den här videon innehåller information om hur du hanterar innehåll.
 
-* Anslutning mellan [Experience Cloud-resursbiblioteket](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
+* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
 * Anpassade HTML-erbjudanden
 * Anpassat HTML-erbjudande i Visual Experience Composer
 
