@@ -3,9 +3,8 @@ keywords: Targeting;audience;reporting;success metric
 description: Välj ett framgångsmått i Adobe Target som kvalificerar användaren för den rapporterande målgruppen.
 title: Använd en rapportpublik för att mäta framgångar i Adobe Target
 feature: success metrics
-uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
