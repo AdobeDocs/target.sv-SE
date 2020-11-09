@@ -3,11 +3,8 @@ keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dy
 description: JavaScript-funktionen targetPageParams används för att skicka parametrar till den globala mbox-filen. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/kontext ska skickas till Target.
 title: Skicka parametrar till en global mbox
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
