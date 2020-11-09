@@ -3,9 +3,8 @@ keywords: visual experience composer;vec;default url;enhanced experience compose
 description: Konfigurera Adobe Target Visual Experience Composer (VEC) genom att ange dess allmänna inställningar, konfiguration av mobilvisningsruta och CSS-väljare.
 title: Konfigurera Adobe Target Visual Experience Composer
 feature: administration general
-topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
