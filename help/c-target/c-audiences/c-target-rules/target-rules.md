@@ -3,9 +3,8 @@ keywords: Targeting;target categories;target conditions;audience manager;custom 
 description: Du kan använda en av flera kategorier som mål. Varje kategori fungerar som en flik som gör att du kan skapa målregler (eller grupper) för varje kategori.
 title: Kategorier för målgrupper
 feature: audiences
-uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
