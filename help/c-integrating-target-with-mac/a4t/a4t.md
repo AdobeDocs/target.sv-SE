@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ I följande tabell visas vilka aktivitetstyper som stöds [!DNL Analytics] som r
 | Multivariata tester (MVT) | Ja | Kräver mbox-baserat målmätningsmål för att få fram [!UICONTROL Element Contribution] rapporten.  Rapporten [!UICONTROL Element Contribution] stöder för närvarande inte [!DNL Analytics] mått. |
 | Automated Personalization-aktivitet (AP) | Nej |  |
 | Recommendations-aktivitet | Ja |  |
-| Mobilapp | Ja | Stöds med Mobile Services SDK, version 4.13.1 eller senare.  Mer information finns i dokumentationen [för](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)mobila tjänster. |
+| Mobilapp | Ja | Stöds med Mobile Services SDK, version 4.13.1 eller senare.  Mer information finns i dokumentationen [för](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)mobila tjänster. |
 | E-post | Nej |  |
 | Leverans-API på serversidan | Ja | Mer information finns i [Serversida: implementera Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | NodeJS SDK | Ja | Mer information finns i [Serversida: implementera Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
