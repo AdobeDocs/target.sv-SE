@@ -3,9 +3,8 @@ keywords: multivariate test;mvt;mvt plan;multivariate test plan
 description: Multivariata tester i Adobe Target kräver viss planering innan du kan skapa ett lyckat test.
 title: Planera ett multivariata test i Adobe Target
 feature: mvt
-uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
