@@ -3,10 +3,8 @@ keywords: qa;server side;server-side;preview;preview links
 description: Använd QA-URL:er med leverans på serversidan för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata.
 title: Använd aktivitets-QA med leverans på serversidan
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
