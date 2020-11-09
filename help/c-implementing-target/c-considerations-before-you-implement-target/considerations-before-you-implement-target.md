@@ -3,11 +3,8 @@ keywords: implement;implementing
 description: Tänk på vad du bör tänka på innan du implementerar Adobe Target.
 title: Innan du implementerar
 feature: implementation pre-reqs
-subtopic: Getting Started
-topic: Standard
-uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
