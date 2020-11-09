@@ -5,9 +5,9 @@ title: Implementera mål med Adobe Launch
 feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ I följande tabell visas de olika källorna där du kan få mer information om L
 
 | Resurs | Detaljer |
 |--- |--- |
-| [Implementera mål med hjälp av självstudiekursen för Adobe Target Extension](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Den här självstudiekursen innehåller stegvisa instruktioner för hur du implementerar Adobe Target på en webbplats med Launch. Du kan lägga till JavaScript-biblioteket at.js, bränna den globala mbox, lägga till parametrar och integrera med andra lösningar. Artikeln är en del av en större självstudiekurs som visar hur du implementerar Adobe Launch, samt andra Adobe Experience Cloud-lösningar. |
-| [Adobe - startdokumentation](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Information om driftsättning och hantering av alla analys-, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser. |
-| [Adobe Target Extension Documentation](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Information om hur du implementerar Target med Launch. |
+| [Implementera mål med hjälp av självstudiekursen för Adobe Target Extension](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Den här självstudiekursen innehåller stegvisa instruktioner för hur du implementerar Adobe Target på en webbplats med Launch. Du kan lägga till JavaScript-biblioteket at.js, bränna den globala mbox, lägga till parametrar och integrera med andra lösningar. Artikeln är en del av en större självstudiekurs som visar hur du implementerar Adobe Launch, samt andra Adobe Experience Cloud-lösningar. |
+| [Adobe - startdokumentation](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Information om driftsättning och hantering av alla analys-, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser. |
+| [Adobe Target Extension Documentation](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Information om hur du implementerar Target med Launch. |
 
 ## Fördelar med att implementera at.js med tillägget Target Launch {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
