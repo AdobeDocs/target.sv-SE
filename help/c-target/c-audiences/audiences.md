@@ -6,9 +6,9 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Publiken i Adobe Target avgör vilka som får se innehåll och upplevelser i en 
 
 Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. När du riktar in dig på en aktivitet kan du antingen välja en återanvändbar målgrupp i [!UICONTROL Audiences] listan, [skapa en aktivitetsspecifik målgrupp](/help/c-target/creating-activity-only-audience.md) och rikta in den på den eller [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa en ad hoc-målgrupp.
 
-Ni kan också använda målgruppsdata som samlats in av [!DNL Analytics] för målgruppsanpassning i realtid och personalisering i [!DNL Adobe Target] och andra [!DNL Experience Cloud] lösningar. Se [Målgrupper](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) i *användarhandboken* för bastjänsterna.
+Ni kan också använda målgruppsdata som samlats in av [!DNL Analytics] för målgruppsanpassning i realtid och personalisering i [!DNL Adobe Target] och andra [!DNL Experience Cloud] lösningar. Se [Målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *användarhandboken* för bastjänsterna.
 
 [!DNL Target] definierar två typer av målgrupper:
 
