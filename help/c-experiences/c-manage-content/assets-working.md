@@ -3,9 +3,8 @@ keywords: content library;assets;annotate;copy;delete asset;download asset;edit 
 description: Det finns ett antal åtgärder du kan utföra på en resurs i biblioteket.
 title: Arbeta med innehåll i biblioteket
 feature: offers
-uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
