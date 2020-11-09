@@ -3,10 +3,8 @@ keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-d
 description: Information om hur du uppgraderar från Adobe Target på .js 1.*x* till at.js version 2.0.0
 title: Uppgradera från Adobe Target at.js version 1.*x* till at.js version 2.*x*
 feature: client-side
-subtopic: Getting Started
-uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 0%
