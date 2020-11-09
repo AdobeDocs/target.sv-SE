@@ -3,11 +3,8 @@ keywords: google;samesite;cookies;chrome 80;ietf
 description: Information om Adobe Target och IETF-standarden SameSite som introducerades med Google Chrome version 80.
 title: Cookie-policyer för Adobe Target och Google's SameSite
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
-uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 0%
@@ -21,7 +18,7 @@ Google börjar som standard att införa nya cookie-principer för användare som
 
 Från och med Chrome 80 måste webbutvecklare uttryckligen ange vilka cookies som kan användas på olika webbplatser. Det här är den första av många meddelanden som Google planerar att göra för att förbättra sekretess och säkerhet på webben.
 
-Med tanke på att Facebook har varit på frammarsch när det gäller sekretess och säkerhet har andra stora aktörer som Apple, och nu Google, snabbt dragit nytta av möjligheten att skapa nya identiteter som integritets- och säkerhetsvakter. Apple ledde paketet genom att först meddela ändringar av cookie-reglerna tidigt i år via ITP 2.1 och nyligen ITP 2.2. I ITP 2.1 blockerar Apple helt cookies från tredje part och sparar cookies som skapats i webbläsaren i endast sju dagar. I ITP 2.2 sparas cookies i endast en dag. Googles kungörelse är inte alls lika aggressiv som Apples, men det är det första steget mot samma slutmål. Mer information om Apples policy finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Med tanke på att Facebook har funnits på plats när det gäller sekretess och säkerhet har andra stora aktörer som Apple, och nu Google, snabbt dragit nytta av möjligheten att skapa nya identiteter som integritets- och säkerhetskamrater. Apple ledde paketet genom att först meddela ändringar av cookie-reglerna tidigt i år via ITP 2.1 och nyligen ITP 2.2. I ITP 2.1 blockerar Apple helt cookies från tredje part och sparar cookies som skapats i webbläsaren i endast sju dagar. I ITP 2.2 sparas cookies i endast en dag. Googles kungörelse är inte alls lika aggressiv som Apples, men det är det första steget mot samma slutmål. Mer information om Apples policy finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ## Vad är cookies och hur används de?
 
@@ -91,9 +88,9 @@ Om du vill veta vad du behöver göra för att fortsätta [!DNL Target] arbeta f
 | JavaScript-målbibliotek | SameSite som standard-cookies = Aktiverad | Cookies utan SameSite måste vara säkra = Enabled |
 | --- | --- | --- |
 | mbox.js med endast cookie från första part. | Ingen påverkan. | Ingen påverkan om du inte använder spårning mellan domäner. |
-| mbox.js med spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda protokollet HTTPS. |
+| mbox.js med spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda HTTPS-protokollet. |
 | at.js 1.*x* med cookie från första part. | Ingen påverkan. | Ingen påverkan om du inte använder spårning mellan domäner. |
-| at.js 1.*x* med spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda protokollet HTTPS. |
+| at.js 1.*x* med spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda HTTPS-protokollet. |
 | at.js 2.*x* | Ingen påverkan. | Ingen påverkan. |
 
 ## Vad behöver Target göra?
