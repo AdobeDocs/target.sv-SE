@@ -3,11 +3,8 @@ keywords: Administration;approver role;approver
 description: Det här avsnittet innehåller de första stegen som Adobe Target-administratörer bör utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
 title: Administratörssteg
 feature: administration general
-subtopic: Getting Started
-topic: Standard
-uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
