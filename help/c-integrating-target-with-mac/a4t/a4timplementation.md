@@ -5,9 +5,9 @@ title: Analyser för Target-implementering
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Kraven för användarkontot måste uppfyllas innan du kan skapa en [!DNL Analyti
 
 Med besökar-ID-tjänsten kan du identifiera användare i olika [!DNL Adobe Experience Cloud] lösningar. Du måste implementera eller migrera till den version av Experience Cloud Visitor-ID som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Se [Implementera Experience Cloud ID-tjänsten för mål](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) i dokumentationen för *Experience Cloud Visitor ID-tjänsten* .
+Se [Implementera Experience Cloud ID-tjänsten för mål](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) i dokumentationen för *Experience Cloud Visitor ID-tjänsten* .
 
 ## Steg 4: Uppdatera AppMeasurement för JavaScript eller s_code
 
 Du måste implementera eller migrera till den version av appMeasurement.js som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Information om nya implementeringar finns i Översikt över [JavaScript-implementering](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) i *Analytics-implementeringshandboken*.
+Information om nya implementeringar finns i Översikt över [JavaScript-implementering](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) i *Analytics-implementeringshandboken*.
 
-Information om en migrering finns i [Migrera till AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) i *Analytics-implementeringshandboken*.
+Information om en migrering finns i [Migrera till AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) i *Analytics-implementeringshandboken*.
 
 ## Steg 5: Ladda ned och uppdatera på js
 
