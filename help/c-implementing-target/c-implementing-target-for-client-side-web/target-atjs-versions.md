@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3970'
+source-wordcount: '3968'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 >
 >Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) är det bästa sättet att uppgradera at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch] katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i användarhandboken *för* Experience Platform Launch.
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) är det bästa sättet att uppgradera at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch] katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i användarhandboken *för* Experience Platform Launch.
 
 ## .js 2.3.2 (24 juli 2020)
 
@@ -241,7 +241,7 @@ at.js version 1.5.0 finns nu att köpa.
      scheduler = setTimeout
    ```
 
-## at.js Version 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js Version 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js version 1.3.0 finns nu att köpa.
 
