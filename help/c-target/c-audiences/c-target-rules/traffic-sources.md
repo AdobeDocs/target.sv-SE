@@ -3,9 +3,8 @@ keywords: Targeting;traffic sources;target traffic sources;target search engine;
 description: Skapa målgrupper i Adobe Target för att inrikta er på besökare baserat på den sökmotor eller landningssida som hänvisar dem till er webbplats.
 title: Traffic Sources options in Adobe Target audiences
 feature: audiences
-uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
