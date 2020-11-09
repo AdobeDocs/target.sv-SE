@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Följ de här stegen för att migrera från [!DNL mbox.js] till [!DNL at.js] och
 
    >[!NOTE]
    >
-   >Om du för närvarande inte använder en tagghanterare för att distribuera [!DNL Target]kan det nu vara ett bra tillfälle att fundera över det. Adobe [Dynamic Tag Management](https://dtm.adobe.com) är kostnadsfri för [!DNL Target] kunderna och är den metod som rekommenderas för driftsättning [!DNL Target]. Mer information finns i [Bästa metoder för att implementera Adobe Target med dynamisk tagghantering](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).
+   >Om du för närvarande inte använder en tagghanterare för att distribuera [!DNL Target]kan det nu vara ett bra tillfälle att fundera över det. Adobe [Dynamic Tag Management](https://dtm.adobe.com) är kostnadsfri för [!DNL Target] kunderna och är den metod som rekommenderas för driftsättning [!DNL Target]. Mer information finns i [Bästa metoder för att implementera Adobe Target med dynamisk tagghantering](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
 
 1. Kontrollera att alla aktuella aktiviteter och integreringar fungerar som förväntat.
 
