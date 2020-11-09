@@ -1,12 +1,10 @@
 ---
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
-description: Information om hur du använder Adobe Target at.js 2.x för att implementera SPA (Single Page Applications).
+description: Information om hur du använder Adobe Target at.js 2.x för att implementera Single Page-program (SPA).
 title: Implementering av Single Page-program i Adobe Target
 feature: implementation general
-topic: standard
-uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2749'
 ht-degree: 1%
@@ -16,31 +14,31 @@ ht-degree: 1%
 
 # Implementering av Single Page-program{#single-page-application-implementation}
 
-Traditionella webbplatser arbetade på&quot;sida-till-sida&quot;-navigeringsmodeller, som annars kallas för flersidiga program, där webbplatsdesign var nära kopplad till webbadresser och övergångar mellan webbsidor krävde att sidan laddades. Moderna webbprogram, som SPA (Single Page Applications), använder i stället en modell som möjliggör snabb användning av webbläsargränssnittsåtergivning, som ofta är oberoende av sidomladdning. De här upplevelserna triggas ofta av kundinteraktioner som rullningar, klick och markörrörelser. I takt med att de moderna webbens paradigmer har utvecklats fungerar inte längre de traditionella generiska eventernas relevans, som sidladdning, för personalisering och experimenterande.
+Traditionella webbplatser arbetade på&quot;sida-till-sida&quot;-navigeringsmodeller, som annars kallas för flersidiga program, där webbplatsdesign var nära kopplad till webbadresser och övergångar mellan olika webbsidor kräver en sidladdning. Moderna webbprogram, som SPA (Single Page Applications), använder i stället en modell som möjliggör snabb användning av webbläsargränssnittsåtergivning, som ofta är oberoende av sidomladdning. De här upplevelserna triggas ofta av kundinteraktioner som rullningar, klick och markörrörelser. I takt med att de moderna webbens paradigmer har utvecklats fungerar inte längre de traditionella generiska eventernas relevans, som sidladdning, för personalisering och experimenterande.
 
-![Traditionell sidlivscykel jämfört med SPA-livscykel](/help/c-experiences/assets/trad-vs-spa.png)
+![Traditionell sidlivscykel jämfört med SPA livscykel](/help/c-experiences/assets/trad-vs-spa.png)
 
-at.js 2.x innehåller många funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker. Denna version är inriktad på att förbättra at.js för att få harmonisk interaktion med SPA.
+at.js 2.x innehåller många funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker. Den här versionen fokuserar på att förbättra at.js för att få harmonisk interaktion med SPA.
 
 Här är några fördelar med att använda at.js 2.x som inte finns i tidigare versioner:
 
 * Möjlighet att cachelagra alla erbjudanden vid sidinläsning för att minska antalet serveranrop till ett enda serveranrop.
-* Förbättra slutanvändarnas upplevelser avsevärt på er webbplats eftersom erbjudandena visas direkt via cachen utan fördröjning som introducerats av traditionella serversamtal.
-* En enkel kodrad och en engångskonfiguration för utvecklare som gör det möjligt för era marknadsförare att skapa och köra A/B- och Experience Targeting-aktiviteter (XT) via VEC på ert SPA.
+* Förbättra slutanvändarnas upplevelser enormt på er webbplats eftersom erbjudandena visas direkt via cachen utan fördröjning som introducerats av traditionella serversamtal.
+* En enkel kodrad och en engångskonfiguration för utvecklare som gör det möjligt för era marknadsförare att skapa och köra A/B- och Experience Targeting-aktiviteter (XT) via VEC på era SPA.
 
 ## Adobe Target Views and Single Page Applications
 
-Adobe Target VEC for SPAs utnyttjar det nya konceptet Views: en logisk grupp visuella element som tillsammans utgör en SPA-upplevelse. En SPA kan därför betraktas som en övergång genom vyer i stället för URL-adresser, baserat på användarinteraktioner. En vy kan vanligtvis representera en hel plats eller grupperade visuella element inom en plats.
+Adobe Target VEC for SPA utnyttjar det nya konceptet Views: en logisk grupp visuella element som tillsammans utgör en SPA. En SPA kan därför betraktas som en övergång via vyer i stället för URL-adresser som baseras på användarinteraktioner. En vy kan vanligtvis representera en hel plats eller grupperade visuella element inom en plats.
 
 Om du vill förklara vad Vyer är kan du navigera på den hypotetiska e-handelsplatsen som implementeras i React och utforska några exempel på Vyer. Klicka på länkarna nedan för att öppna den här webbplatsen på en ny webbläsarflik.
 
-**Länk:[Hemwebbplats](https://target.enablementadobe.com/react/demo/#/)**
+**Länk: [Hemwebbplats](https://target.enablementadobe.com/react/demo/#/)**
 
 ![hemsida](/help/c-experiences/assets/home.png)
 
 När vi navigerar till hemsidan ser vi omedelbart en hjältebild som marknadsför en påskförsäljning samt de senaste produkterna som säljer på webbplatsen. I det här fallet kan en vy definieras som hela hemsidan. Detta är praktiskt att notera eftersom vi kommer att gå vidare med detta i avsnittet Implementera Adobe Target-vyer nedan.
 
-**Länk:[Produktwebbplats](https://target.enablementadobe.com/react/demo/#/products)**
+**Länk: [Produktwebbplats](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![produktwebbplats](/help/c-experiences/assets/product-site.png)
 
@@ -54,7 +52,7 @@ I början av det här avsnittet definierade vi Vyer som hela webbplatsen eller t
 
 Vi väljer att klicka på knappen Läs in mer för att utforska fler produkter på webbplatsen. Webbplatsens URL ändras inte i det här fallet. Men en vy här kan bara representera den andra produktraden som visas ovan. Vynamnet kan kallas&quot;PRODUCTS-PAGE-2&quot;.
 
-**Länk:[Utcheckning](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Länk: [Utcheckning](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![utcheckningssida](/help/c-experiences/assets/checkout.png)
 
@@ -66,7 +64,7 @@ Nu kanske marknadsförarna vill köra ett A/B-test för att se om en ändring av
 
 ## Implementera Adobe Target-vyer
 
-Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i Target för att göra det möjligt för marknadsförare att köra A/B- och XT-tester på SPA-program via VEC. Detta kräver en engångsinstallation av utvecklare. Låt oss gå igenom stegen för att konfigurera detta.
+Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i Target för att göra det möjligt för marknadsförare att köra A/B- och XT-tester på SPA via VEC. Detta kräver en engångsinstallation av utvecklare. Låt oss gå igenom stegen för att konfigurera detta.
 
 1. Installera på .js 2.x.
 
@@ -76,7 +74,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
 1. Implementera at.js 2.x&#39;s new function, `triggerView()` på era sajter.
 
-   När du har definierat vyerna för SPA där du vill köra ett A/B- eller XT-test implementerar du funktionen at.js 2.x med vyerna som skickas som en parameter. `triggerView()` Detta gör att marknadsförarna kan använda VEC för att utforma och köra A/B- och XT-tester för de vyer som definierats. Om `triggerView()` funktionen inte är definierad för dessa vyer kommer VEC inte att identifiera vyerna och marknadsförarna kan därför inte använda VEC för att utforma och köra A/B- och XT-tester.
+   När du har definierat vyerna för SPA där du vill köra ett A/B- eller XT-test implementerar du funktionen at.js 2.x med `triggerView()` funktionen Views som skickas som en parameter. Detta gör att marknadsförarna kan använda VEC för att utforma och köra A/B- och XT-tester för de vyer som definierats. Om `triggerView()` funktionen inte är definierad för dessa vyer kommer VEC inte att identifiera vyerna och marknadsförarna kan därför inte använda VEC för att utforma och köra A/B- och XT-tester.
 
    **`adobe.target.triggerView(viewName, options)`**
 
@@ -86,9 +84,9 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
    | alternativ | Objekt | Nej |  |  |
    | alternativ > sida | Boolean | Nej |  | **TRUE**: Standardvärdet för sidan är true. När `page=true`det är klart skickas meddelanden till edge-servrarna för att öka antalet intryckta.<br>**FALSE**: När `page=false`visas inga meddelanden för ökat antal inläsningar. Detta bör användas när du endast vill återge en komponent på en sida med ett erbjudande. |
 
-   Nu ska vi gå igenom några exempel på hur funktionen i React för vår hypotetiska SPA för e-handel kan anropas: `triggerView()`
+   Nu ska vi gå igenom några exempel på hur funktionen i React för våra hypotetiska SPA för e-handel kan anropas: `triggerView()`
 
-   **Länk:[Hemwebbplats](https://target.enablementadobe.com/react/demo/#/)**
+   **Länk: [Hemwebbplats](https://target.enablementadobe.com/react/demo/#/)**
 
    ![hemreaktion-1](/help/c-experiences/assets/react1.png)
 
@@ -119,7 +117,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Länk:[Produktwebbplats](https://target.enablementadobe.com/react/demo/#/products)**
+**Länk: [Produktwebbplats](https://target.enablementadobe.com/react/demo/#/products)**
 
 Nu ska vi titta på ett exempel som är lite mer komplicerat. Som marknadsförare vill vi personalisera produktraden genom att ändra etikettfärgen&quot;Price&quot; till röd efter att en användare klickat på knappen Läs in mer.
 
@@ -148,7 +146,7 @@ Nu ska vi titta på ett exempel som är lite mer komplicerat. Som marknadsförar
  }
 ```
 
-**Länk:[Utcheckning](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Länk: [Utcheckning](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![reagera utcheckning](/help/c-experiences/assets/react6.png)
 
@@ -189,7 +187,7 @@ Nu kanske marknadsförarna vill göra ett A/B-test för att se om en ändring av
 
 ## at.js 2.x systemdiagram
 
-Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.x med Vyer och hur detta förbättrar SPA-integreringen. För att få en bättre introduktion till de koncept som används i at.js 2.x, se Implementering av [Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vyer och hur detta förbättrar SPA integrering. För att få en bättre introduktion till de koncept som används i at.js 2.x, se Implementering av [Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Målflöde med at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -204,13 +202,13 @@ Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.x med Vyer o
 | 7 | Analysdata skickas till datainsamlingsservrar. |
 | 8 | Målinriktade data matchas mot analysdata via SDID och bearbetas till lagringsplatsen för analysrapporter.<br>Analysdata kan sedan visas i både Analytics- och Target-rapporter via Analytics for Target-rapporter (A4T). |
 
-Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett serveranrop, oavsett var i SPA-filen `triggerView()` implementeras. `triggerView()` skickar också en meddelandebegäran till [!DNL Target] backend-objektet för att öka antalet och registrera antalet visningar.
+Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett serveranrop, oavsett var `triggerView()` de implementeras på SPA. `triggerView()` skickar också en meddelandebegäran till [!DNL Target] backend-objektet för att öka antalet och registrera antalet visningar.
 
 ![Målflöde at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Steg | Detaljer |
 | --- | --- |
-| 1 | `triggerView()` anropas i SPA för att återge vyn och tillämpa åtgärder för att ändra visuella element. |
+| 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target] Profile Store för att räkna besökaren i aktiviteten och ökningsvärdena. |
@@ -223,13 +221,13 @@ När du är klar med installationen på .js 2.x och lägger `triggerView()` till
 
 >[!NOTE]
 >
->VEC för SPA är i själva verket samma VEC som du använder på vanliga webbsidor, men det finns vissa ytterligare funktioner när du öppnar en app för en enstaka sida med `triggerView()` implementering.
+>VEC for SPA är i själva verket samma VEC som du använder på vanliga webbsidor, men vissa ytterligare funktioner är tillgängliga när du öppnar en app för en enstaka sida med `triggerView()` implementering.
 
 ## Använd TriggerView för att säkerställa att A4T fungerar korrekt med at.js 2.x och SPA {#triggerview}
 
 För att [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) ska fungera korrekt med at.js 2.x måste du skicka samma SDID i Target-begäran och i Analytics-begäran.
 
-Bästa praxis för SPA:
+Som bästa praxis för SPA:
 
 * Använd anpassade händelser för att meddela att något intressant händer i programmet
 * Starta en anpassad händelse innan vyn börjar rendera
@@ -289,9 +287,9 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 | 3 | Kör [!DNL Target] begäran | Om du har ett datalager rekommenderar vi att du läser in viktiga data som måste skickas till [!DNL Target] innan du kör en [!DNL Target] begäran. På så sätt kan du använda `targetPageParams` för att skicka alla data som du vill använda för målinriktning. Du måste se till att du begär execute > pageLoad samt prefetch > views i detta API-anrop. Om du har angett `pageLoadEnabled` och `viewsEnabled`sedan automatiskt utför både execute > pageLoad och prefetch > views med Step 2; I annat fall måste du använda API:t för att göra den här begäran. `getOffers()` |
 | 4 | Utlysning `triggerView()` | Eftersom den [!DNL Target] begäran du initierade i steg 3 kan returnera upplevelser för både sidinläsning och vyer, måste du se till att `triggerView()` anropas efter att [!DNL Target] begäran har returnerats och att erbjudandena har tillämpats på cachen. Du får bara utföra det här steget en gång per vy. |
 | 5 | Anropa [!DNL Analytics] sidvyfyren | Den här beacon skickar det SDID som är associerat med steg 3 och 4 till [!DNL Analytics] för datasammanfogning. |
-| 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA-ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att säkerställa att [!DNL Target] upplevelserna tillämpas igen efter att SPA-ramverket har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att se till att [!DNL Target] upplevelserna finns kvar i dina SPA-vyer. |
+| 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att se till att [!DNL Target] upplevelserna tillämpas igen när SPA har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att se till att [!DNL Target] upplevelserna finns kvar i dina SPA. |
 
-### Ordning för åtgärder för ändring av SPA-vyn (ingen helsidesinläsning)
+### Ordning för åtgärder för SPA (ingen helsidesinläsning)
 
 | Steg | Åtgärd | Detaljer |
 | --- | --- | --- |
@@ -300,7 +298,7 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 | 3 | Utlysning `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target] begäran och tillämpa erbjudandena på cachen innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
 | 4 | Utlysning `triggerView()` | Om du inte har kört steg 2 kan du utföra det här steget så snart du slutför steg 1. Om du har kört steg 2 och steg 3 bör du hoppa över det här steget. Du får bara utföra det här steget en gång per vy. |
 | 5 | Anropa [!DNL Analytics] sidvyfyren | Den här beacon skickar det SDID som är associerat med steg 2, 3 och 4 till [!DNL Analytics] för datasammanfogning. |
-| 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA-ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att säkerställa att [!DNL Target] upplevelserna tillämpas igen efter att SPA-ramverket har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att se till att [!DNL Target] upplevelserna finns kvar i dina SPA-vyer. |
+| 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att se till att [!DNL Target] upplevelserna tillämpas igen när SPA har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att se till att [!DNL Target] upplevelserna finns kvar i dina SPA. |
 
 ## Utbildningsvideor
 
@@ -312,13 +310,13 @@ Följande videofilmer innehåller mer information:
 
 Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .
 
-### Implementera at.js 2.x med ett SPA- ![självstudiemärke](/help/assets/tutorial.png)
+### Implementera at.js 2.x med ett SPA ![självstudiemärke](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Mer information finns i [Implementera Adobe Target at.js 2.x i ett Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
+Mer information finns i [Implementera Adobe Target at.js 2.x i ett Single Page-program (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
 
-### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
+### Använda märket VEC för SPA i Adobe Target ![Tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
