@@ -3,10 +3,8 @@ keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device
 description: Skapa målgrupper i Adobe Target för att inrikta er på mobila enheter baserat på parametrar som mobilenhet, typ av enhet, enhetsleverantör, skärmdimensioner (i pixlar) med mera.
 title: Mobilalternativ i Adobe Target
 feature: audiences
-topic: Standard
-uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -26,7 +24,7 @@ Enhetsidentifiering görs genom analys av strängar för användaragent. Vissa e
 
 Apple-enheter delar till exempel inte enhetsmodellspecifika tokens i användargränssnittet. Resultatet är att det inte går att identifiera iPhone-modeller (som iPhone 5S, iPhone SE, iPhone 6 och så vidare) med en enkel nyckelordsbaserad metod.
 
-För att lösa detta samlar Target in ytterligare data för att korrekt identifiera iPhone och andra Apple-enheter med följande parametrar:
+För att lösa detta samlar Target in ytterligare data för att kunna identifiera iPhone och andra Apple-enheter korrekt med hjälp av följande parametrar:
 
 | Parameter | Typ | Beskrivning |
 |--- |--- |--- |
