@@ -3,10 +3,8 @@ keywords: Overview and Reference
 description: Testsammanfattningen ger en visuell översikt över ditt multivariata test.
 title: Testsammanfattning
 feature: mvt
-topic: Standard
-uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
