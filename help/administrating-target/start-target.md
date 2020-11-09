@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Det här avsnittet innehåller de första steg som [!DNL Target] administratöre
 
 En systemadministratör i måste lägga till dig som användare i [!DNL Adobe Admin Console] [!DNL Target] genom att bjuda in dig. Systemadministratören bör sedan lägga till dig i en eller flera rollspecifika grupper. Båda dessa åtgärder utförs i [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Mer information finns i [Hantera användare och produkter](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) i Experience Cloud i hjälpen *för* Experience Cloud och bastjänster.
+Mer information finns i [Hantera användare och produkter](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) i Experience Cloud i hjälpen *för* Experience Cloud och bastjänster.
 
 Du får en inbjudan via e-post när systemadministratören har utfört dessa steg.
 
