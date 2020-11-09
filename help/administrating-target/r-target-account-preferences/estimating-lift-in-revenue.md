@@ -3,10 +3,8 @@ keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimat
 description: Target kan beräkna den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen.
 title: Uppskattad ökning av intäkter
 feature: administration general
-topic: Advanced,Standard,Classic
-uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -26,7 +24,7 @@ Den uppskattade lyftfunktionen är inaktiverad som standard. Den kan aktiveras i
 
 >[!IMPORTANT]
 >
->Den uppskattade hissen är endast en uppskattning. Dess korrekthet beror på ett antal faktorer, inklusive prognostiserade siffror om de aktuella trenderna fortsätter. Dessa värden är uppskattningar baserade på tidigare resultat och bör inte användas som ekonomisk vägledning. Framtida resultat kan variera.
+>Den uppskattade hissen är endast en uppskattning. Hur riktig den är beror på ett antal faktorer, bland annat på prognostiserade siffror om de aktuella trenderna fortsätter. Dessa värden är uppskattningar baserade på tidigare resultat och bör inte användas som ekonomisk vägledning. Framtida resultat kan variera.
 
 Denna uppskattning beräknar den lyft som den vinnande upplevelsen och det totala antalet besökare har uppnått under aktivitetens livstid, och visar den lyft som du kan uppnå om alla besökare ser den vinnande upplevelsen, om trenderna fortsätter som de har under testet.
 
