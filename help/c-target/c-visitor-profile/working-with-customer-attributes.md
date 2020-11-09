@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Företagskunddata som samlas in via flera olika källor och lagras i CRM-databas
 
 ## Översikt över kundattribut {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Kundattribut](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) i den [!DNL People] centrala tjänsten ingår i [!DNL Adobe Experience Cloud] och ger företagen ett verktyg för att överföra kunddata till [!DNL Experience Cloud] plattformen.
+[Kundattribut](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) i den [!DNL People] centrala tjänsten ingår i [!DNL Adobe Experience Cloud] och ger företagen ett verktyg för att överföra kunddata till [!DNL Experience Cloud] plattformen.
 
 Data som skickas till [!DNL Experience Cloud] är tillgängliga för alla [!DNL Experience Cloud] arbetsflöden. [!DNL Target] använder dessa data för att målinrikta returnerade kunder baserat på attribut. [!DNL Adobe Analytics] använder dessa attribut och kan användas för analys och segmentering.
 
@@ -31,7 +31,7 @@ Data som skickas till [!DNL Experience Cloud] är tillgängliga för alla [!DNL 
 
 Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
 
-* Du måste uppfylla vissa krav innan du kan använda [!UICONTROL Customer attributes] funktionen i [!DNL People] bastjänsten. Mer information finns i&quot;Krav för överföring av kundattribut&quot; i [Kundattribut](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) i produktdokumentationen för *Experience Cloud och bastjänster*.
+* Du måste uppfylla vissa krav innan du kan använda [!UICONTROL Customer attributes] funktionen i [!DNL People] bastjänsten. Mer information finns i&quot;Krav för överföring av kundattribut&quot; i [Kundattribut](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) i produktdokumentationen för *Experience Cloud och bastjänster*.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Utför följande steg för att använda CRM-data i [!DNL Target]:
 
 ![crm-arbetsflöde](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detaljerade anvisningar för hur du utför följande uppgifter finns i [Skapa en kundattributkälla och överför datafilen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen *för* Experience Cloud och bastjänster.
+Detaljerade anvisningar för hur du utför följande uppgifter finns i [Skapa en kundattributkälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen *för* Experience Cloud och bastjänster.
 
 1. Skapa en datafil.
 
@@ -86,7 +86,7 @@ Detaljerade anvisningar för hur du utför följande uppgifter finns i [Skapa en
    Datafilen måste uppfylla kraven för filöverföring och får inte överstiga 100 MB. Om filen är för stor eller om du har data som behöver överföras regelbundet kan du FTP-överföra filerna i stället.
 
    * **HTTPS:** Du kan dra och släppa .csv-datafilen eller klicka på **[!UICONTROL Browse]** för att överföra den från filsystemet.
-   * **FTP:** Klicka på FTP-länken för att [överföra filen via FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Det första steget är att ange ett lösenord för FTP-servern som tillhandahålls av Adobe. Ange lösenordet och klicka sedan på **[!UICONTROL Done]**.
+   * **FTP:** Klicka på FTP-länken för att [överföra filen via FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Det första steget är att ange ett lösenord för FTP-servern som tillhandahålls av Adobe. Ange lösenordet och klicka sedan på **[!UICONTROL Done]**.
 
    Överför nu CSV-/ZIP-/GZIP-filen till FTP-servern. När filöverföringen är klar skapar du en ny fil med samma namn och filnamnstillägget .fin. Överför den här tomma filen till servern. Detta anger att överföringen är avslutad och datafilen börjar bearbetas [!DNL Experience Cloud] .
 
@@ -102,7 +102,7 @@ Detaljerade anvisningar för hur du utför följande uppgifter finns i [Skapa en
 
 1. Konfigurera prenumerationer och aktivera attributkällan.
 
-   Klicka **[!UICONTROL Add Subscription]** och välj sedan lösningen för att prenumerera på attributen. [När du konfigurerar prenumerationer](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) anges dataflödet mellan [!DNL Experience Cloud] och lösningar. Genom att aktivera attributkällan kan data flöda till prenumererade lösningar. De kundposter som du har överfört matchas med inkommande ID-signaler från webbplatsen eller tillämpningen.
+   Klicka **[!UICONTROL Add Subscription]** och välj sedan lösningen för att prenumerera på attributen. [När du konfigurerar prenumerationer](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) anges dataflödet mellan [!DNL Experience Cloud] och lösningar. Genom att aktivera attributkällan kan data flöda till prenumererade lösningar. De kundposter som du har överfört matchas med inkommande ID-signaler från webbplatsen eller tillämpningen.
 
    ![Konfigurera lösning](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -144,11 +144,11 @@ Skicka `mbox3rdPartyId` som en parameter till den globala mbox inuti `targetPage
 
 ### Använda Experience Cloud ID-tjänsten
 
-Om du använder tjänsten Experience Cloud ID måste du ange ett kundID och autentiseringstillstånd för att använda kundattribut vid målanpassning. Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) i hjälpen *för* Experience Cloud Identity Service.
+Om du använder tjänsten Experience Cloud ID måste du ange ett kundID och autentiseringstillstånd för att använda kundattribut vid målanpassning. Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) i hjälpen *för* Experience Cloud Identity Service.
 
 Mer information om hur du använder kundattribut i [!DNL Target]finns i följande resurser:
 
-* [Skapa en källa för kundattribut och ladda upp datafilen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen för *Experience Cloud*
+* [Skapa en källa för kundattribut och ladda upp datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen för *Experience Cloud*
 * [Kundattribut: Ju mer du vet, desto bättre kontakt](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) får du i bloggen om *digital marknadsföring*
 
 ## Problem som kunderna ofta stöter på {#section_BE0F70E563F64294B17087DE2BC1E74C}
