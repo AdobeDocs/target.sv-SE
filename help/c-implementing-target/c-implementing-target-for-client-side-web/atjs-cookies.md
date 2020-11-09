@@ -3,10 +3,8 @@ keywords: at.js;2.0;1.x;cookies
 description: Information om hur Adobe Target at.js 2.x och at.js 1.x hanterar cookies
 title: Adobe Target at.js cookies
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -54,7 +52,7 @@ Det finns tre huvudsakliga användningsområden för cookies:
 
 1. Användare överskrider domäner och du vill spåra och testa deras beteende i dessa domäner.
 
-   Exempel: En användare kommer till er webbplats för att handla men checkar ut genom Yahoo-butiker. Tre metoder (samarbeta med din kontorepresentant för att fastställa det bästa tillvägagångssättet):
+   Exempel: En användare kommer till er sajt för att handla men checkar ut genom Yahoos butiker. Tre metoder (samarbeta med din kontorepresentant för att fastställa det bästa tillvägagångssättet):
 
    * Aktivera cookies från första och tredje part.
    * Aktivera endast tredjepartsprodukter (mycket sällsynt, men har fördelen att inte ta bort cookien at.js från domänen).
