@@ -6,9 +6,9 @@ feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Apple ITP 2.x påverkar [!DNL Target] följande områden:
 
 ## Påverkas min nuvarande implementering av [!DNL Target] ?
 
-I en Safari-webbläsare navigerar du till den webbplats där du har ett [!DNL Target] JavaScript-bibliotek. Om du ser en cookie som har angetts i samband med en CNAME, till exempel [!DNL Target] `analytics.company.com`, påverkas du inte av ITP 2.x.
+I en Safari-webbläsare navigerar du till den webbplats där du har ett [!DNL Target] JavaScript-bibliotek. Om du ser en cookie som har angetts i samband med en CNAME, t.ex. [!DNL Target] `analytics.company.com`, påverkas du inte av ITP 2.x.
 
 Om du använder Experience Cloud ID-biblioteket (ECID) förutom JavaScript-biblioteket Target, påverkas implementeringen av de sätt som anges i den här artikeln: [Safari ITP 2.1 - Inverkan för kunder](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)med Adobe Experience Cloud och Experience Platform.
 
@@ -53,13 +53,13 @@ Utför följande uppgifter för att minska verkningarna av framtida versioner av
 
    ECID-biblioteket möjliggör ett ramverk för identifiering av människor för Experience Cloud Core-lösningar. Med ECID-biblioteket kan du identifiera samma webbplatsbesökare och deras data i olika Experience Cloud-lösningar genom att tilldela permanenta och unika identifierare. ECID-biblioteket uppdateras ofta för att hjälpa dig att minska eventuella ITP-relaterade ändringar som påverkar implementeringen.
 
-   För ITP 2.x måste [ECID-bibliotek 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) användas för att reducera.
+   För ITP 2.x måste [ECID-bibliotek 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) användas för att reducera.
 
 1. Använd Adobe CNAME och registrera dig i Adobe Analytics program för hanterade certifikat.
 
    När du har installerat ECID-biblioteket 4.3.0+ kan du använda Adobe Analytics CNAME och Managed Certificate Program. Med det här programmet kan du utan kostnad implementera ett förstahandscertifikat för cookies från första part. Tack vare CNAME kan [!DNL Target] kunderna minska effekterna av ITP 2.x.
 
-   Om du inte utnyttjar CNAME kan du påbörja processen genom att prata med din kontorepresentant och registrera dig i [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
+   Om du inte utnyttjar CNAME kan du påbörja processen genom att prata med din kontorepresentant och registrera dig i [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
 
 När du har distribuerat ett Target JavaScript-bibliotek i samband med ECID-biblioteket v4.3.0+ och registrerat dig för programmet för hanterat certifikat i Adobe för att utnyttja CNAME får du en robust och långsiktig reduceringsplan för ITP-relaterade ändringar.
 
