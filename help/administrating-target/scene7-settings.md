@@ -1,4 +1,5 @@
 ---
+keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library
 description: Target Standard kan integreras med Adobe Dynamic Media Classic för att ge DAM (Digital Asset Management) i innehållsbiblioteket.
 title: Integrering med Dynamic Media Classic
 feature: administration general
@@ -6,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
+source-git-commit: b1dbed6f911cb4e8542855322022f75b7779878f
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # Scene7-konfiguration {#scene-settings}
 
-Target kan integreras med [!DNL Adobe Dynamic Media Classic] Digital Asset Management (DAM) i innehållsbiblioteket.
+[!DNL Target] kan integreras med [!DNL Adobe Dynamic Media Classic] DAM (Digital Asset Management) i [!UICONTROL Content Library].
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ Om du redan har ett [!DNL Dynamic Media] konto kan du ange dina befintliga auten
 
 >[!NOTE]
 >
->Ett begränsat, kostnadsfritt [!DNL Dynamic Media Classic] konto för Adobe Target stöds inte längre för nya kunder eller nya användare. Befintliga inloggningsuppgifter fungerar som vanligt.
+>Ett begränsat, kostnadsfritt [!DNL Dynamic Media Classic] konto för [!DNL Adobe Target] nya kunder eller nya användare stöds inte längre. Befintliga inloggningsuppgifter fungerar som vanligt.
 
 Om den här inställningen inte är konfigurerad är alternativet i arbetsflödet för att skapa aktivitet inte tillgängligt. [!UICONTROL Swap Image offer] När den här inställningen har konfigurerats är alternativet att byta/ändra bildeffekter tillgängligt både i [Visual Experience Composer (VEC) och i den formulärbaserade Experience Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Du kan sedan utnyttja bilderbjudandena med bilder som har överförts från [!DNL Adobe Experience Cloud] programmet för att användas i [!DNL Target] aktiviteter.
 
