@@ -3,11 +3,8 @@ keywords: Mobile Web Experience Editor
 description: Det här avsnittet innehåller förslag på hur du löser vissa problem som kan uppstå när du utformar ett MVT-test.
 title: Felsöka multivariata tester
 feature: mvt
-subtopic: Mobile Viewports
-topic: Standard
-uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
