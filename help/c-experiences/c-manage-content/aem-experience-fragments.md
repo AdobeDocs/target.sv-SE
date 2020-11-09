@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Upplevelsefragment skapas i [!DNL AEM]. Mer information finns i:
 Beroende på vilken version du har kan du läsa följande länkar för steg-för-steg-instruktioner: [!DNL AEM]
 
 * **[!DNL AEM]6.3**: [Exportera ett Experience Fragment till Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) i dokumentationen för *Adobe Experience Manager 6.3* .
-* **[!DNL AEM]6.4**: [Exportera ett Experience Fragment till Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) i dokumentationen för *Adobe Experience Manager 6.4* .
+* **[!DNL AEM]6.4**: [Exportera ett Experience Fragment till Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) i dokumentationen för *Adobe Experience Manager 6.4* .
 * **[!DNL AEM]6.5**: [Exportera ett Experience Fragment till Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) i dokumentationen för *Adobe Experience Manager 6.5* .
 
 ## Använda upplevelsefragment i målaktiviteter {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
@@ -157,4 +157,4 @@ I följande video visas hur du konfigurerar och använder upplevelsefragment:
 >
 >Funktionen [!DNL AEM] för deplink, som diskuterades 4:54, har tagits bort.
 
-Mer information finns i [Använda Experience Fragments med Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) på sidan *AEM Sites Videos och Tutorials* .
+Mer information finns i [Använda Experience Fragments med Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) på sidan *AEM Sites Videos och Tutorials* .
