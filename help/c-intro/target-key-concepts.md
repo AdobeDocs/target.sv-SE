@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1513'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,7 @@ Publiker kan sparas för återanvändning i flera aktiviteter eller skapas för 
 |--- |--- |
 | Återanvändbara målgrupper | Återanvändbara målgrupper kan väljas för alla aktiviteter. Om du ändrar en av dessa målgrupper ändras den för alla aktiviteter som använder den. |
 | Egna segment | Anpassade segment (kallas även kampanjspecifika segment) är specifika för en kampanj i Target Classic. De skapas som en del av kampanjen och kan inte återanvändas i andra kampanjer. |
-| Delade målgrupper | Målgrupper kan delas mellan olika [!DNL Adobe Experience Cloud] lösningar. Se [Publiker](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) för exempel. |
+| Delade målgrupper | Målgrupper kan delas mellan olika [!DNL Adobe Experience Cloud] lösningar. Se [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) för exempel. |
 
 Mer information om hur besökarprofilen spårar information om besökare på platsen finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
