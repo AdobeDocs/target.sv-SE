@@ -3,10 +3,8 @@ keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
 description: 'Information om realtidsprofil '
 title: Profilsynkronisering i realtid för mbox3rdPartyId i Adobe Target
 feature: visitor profiles
-topic: Standard
-uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -45,4 +43,4 @@ När besökaren loggar ut bevaras den sammanfogade profilen.
 
 Om sidan innehåller flera kryssrutor och endast vissa använder 3rdPartyID har Target inte en separat besökarprofil/kontext för varje besökarbegäran. Kontexten för 3rdPartyID har högre prioritet än PCID-kontexten. Det räcker med att en mbox skickar ett 3rdPartyId för att dess kontext ska få högre prioritet än PCID.
 
-Anta till exempel att en besökare kommer åt en sida innan han/hon loggar in och ser en upplevelse. Den globala mbox använder inte 3rdPartyID. Efter inloggning ser besökaren en av tre upplevelser med underordnade kryssrutor, varav vissa använder 3rdPartyID. Besökaren besöker olika sidor på webbplatsen och använder sedan knappen Bakåt för att gå tillbaka till huvudsidan som öppnats före inloggningen och ser en annan upplevelse. I det här scenariot skickades inte 3rdPartyID till den globala mbox, men en eller flera av de underordnade mbox skickades. 3rdPartyID prioriterades framför PCID.
+Anta till exempel att en besökare kommer åt en sida innan han/hon loggar in och ser en upplevelse. Den globala mbox använder inte 3rdPartyID. Efter inloggning ser besökaren en av tre upplevelser med underordnade kryssrutor, varav vissa använder 3rdPartyID. Besökaren besöker olika sidor på webbplatsen och använder sedan knappen Bakåt för att gå tillbaka till huvudsidan som öppnats före inloggningen och ser en annan upplevelse. I det här scenariot skickades inte 3rdPartyID till den globala mbox, men en eller flera av de underordnade mbox-adresserna gjorde det. 3rdPartyID prioriterades framför PCID.
