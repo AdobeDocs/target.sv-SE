@@ -3,10 +3,8 @@ keywords: automated personalization;offer;reporting;group;reporting group
 description: Information om hur du använder rapportgrupper i Automated Personalization-aktiviteter (AP) i Adobe Target.
 title: Erbjud rapportgrupper i Automated Personalization-aktiviteter (AP) i Adobe Target
 feature: reports
-topic: Advanced
-uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -25,7 +23,7 @@ Rapportgrupper utför två nyckelfunktioner:
 
 När du använder rapporteringsgrupper skapar [!DNL Target] bara en personaliseringsmodell för varje rapporteringsgrupp i stället för varje erbjudande i din AP-aktivitet med hjälp av data från alla erbjudanden i den gruppen.
 
-Om din aktivitetsinställning inte har tillräckligt med data för att en personaliseringsmodell ska kunna skapas per erbjudande kan rapporteringsgrupper bidra till att minska datakraven för att använda Automated Personalization. Rapporteringsgrupper kan också bidra till att lösa problemet med att&quot;kalla igång&quot; för nya erbjudanden genom att gruppera liknande erbjudanden så att varje modell får mer data att utbilda sig på. Modelleringsgrupper kan också användas för aktiviteter där nya erbjudanden regelbundet introduceras i din AP-aktivitet.
+Om din aktivitetsinställning inte har tillräckligt med data för att en personaliseringsmodell ska kunna skapas per erbjudande kan rapporteringsgrupper bidra till att minska datakraven för att använda Automated Personalization. Rapporteringsgrupper kan också bidra till att lösa problemet med att&quot;komma igång&quot; med nya erbjudanden genom att gruppera liknande erbjudanden så att varje modell får mer data att utbilda. Modelleringsgrupper kan också användas för aktiviteter där nya erbjudanden regelbundet introduceras i din AP-aktivitet.
 
 Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i en grupp. Det bästa sättet är att gruppera erbjudanden som liknande grupper av besökare svarar på på liknande sätt. Med andra ord, grupperbjudanden med liknande konverteringsgrader. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp. Att gruppera alla erbjudanden eller grupperingserbjudanden med mycket olika konverteringsgrader minskar troligen personaliseringsmodellernas effektivitet [!DNL Target] .
 
