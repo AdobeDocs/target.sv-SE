@@ -6,9 +6,9 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Information om hur du använder Adobe Experience Cloud Debugger-tillägget, vilk
 
 Du kan snabbt visa bibliotekskonfigurationen, granska förfrågningar för att se till att dina anpassade parametrar skickas korrekt, aktivera konsolloggning och inaktivera alla Target-förfrågningar. Logga in på Experience Cloud och använd det kraftfulla spårningsverktyget för Mbox för att kontrollera din aktivitet och dina målgruppskvalifikationer liksom din besökarprofil.
 
-Mer information finns i dokumentationen [till](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) Adobe Experience Cloud Debugger Extension. Information som är specifik för Target finns i [avsnittet Verktyg](https://docs.adobe.com/content/help/en/debugger/using/tools.html) .
+Mer information finns i dokumentationen [till](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) Adobe Experience Cloud Debugger Extension. Information som är specifik för Target finns i [avsnittet Verktyg](https://experienceleague.adobe.com/docs/debugger/using/tools.html) .
 
 ## Utbildningsvideor
 
