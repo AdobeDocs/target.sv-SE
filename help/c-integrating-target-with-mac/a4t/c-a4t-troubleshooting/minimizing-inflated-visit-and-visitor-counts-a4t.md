@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ I de flesta fall sammanfogas en [!DNL Target] träff med en [!DNL Analytics] tr�
 
 **Deldataträffar:** Ibland finns användarna inte kvar på en sida tillräckligt länge för att skicka ett [!DNL Analytics] samtal, men [!DNL Target] har ett korrekt MCID. Detta resulterar i träffar med delar av data (träffar utan [!DNL Analytics] sidvy). Om de här användarna kommer tillbaka till webbplatsen och visar en sida med [!DNL Analytics] kod räknas de som återkommande besökare. Det här är träffar som skulle ha gått förlorade om du bara hade [!DNL Analytics] kod på sidan. Vissa kunder vill inte ha data för de här träffarna eftersom de fyller upp vissa mätvärden (besök) och tömmer andra mätvärden (sidvisningar per besök, tid per besök och så vidare). Du kan även se besök utan sidvisningar. Det finns dock fortfarande giltiga skäl att behålla dessa data.
 
-Om du vill minimera träffar med delar av data kan du få sidan att läsas in snabbare, uppdatera till de senaste versionerna av biblioteken eller skapa en [virtuell rapportserie](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) som utesluter sådana träffar. Stegvisa instruktioner finns i [Skapa virtuella rapportsviter](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) i *Analytics Components Guide*.
+Om du vill minimera träffar med delar av data kan du få sidan att läsas in snabbare, uppdatera till de senaste versionerna av biblioteken eller skapa en [virtuell rapportserie](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) som utesluter sådana träffar. Stegvisa instruktioner finns i [Skapa virtuella rapportsviter](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) i *Analytics Components Guide*.
 
 Följande bild visar segmentdefinitionen för den virtuella rapportsviten:
 
@@ -99,7 +99,7 @@ När du skapar den virtuella rapportsviten anger du följande konfiguration för
 
 **Överblivna träffar:** I färre situationer finns användarna inte kvar på sidan tillräckligt länge för ett Analytics-anrop och Target fick inget korrekt MCID. Det här är vad vi definierar som &quot;föräldralösa&quot; träffar. Dessa träffar representerar kunder som sällan återvänder och som får besökarna att öka antalet besökare på ett felaktigt sätt.
 
-Om du vill minimera dessa &quot;överblivna&quot; träffar kan du skapa en [virtuell rapportsvit](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) som utesluter dessa träffar, vilket förklaras ovan.
+Om du vill minimera dessa &quot;överblivna&quot; träffar kan du skapa en [virtuell rapportsvit](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) som utesluter dessa träffar, vilket förklaras ovan.
 
 ## Vad betyder det för min [!DNL Target] rapportering? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
