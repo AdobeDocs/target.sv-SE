@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Utbildningsvideor är inbäddade i relevanta ämnen i den här handboken. Klicka
 
 En samling instruktionsvideor och självstudiekurser som visar vilka funktioner i Target som finns på [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) -sidan.
 
-![Experience League-videor](/help/c-intro/assets/experience-league.png)
+![Experience League videor](/help/c-intro/assets/experience-league.png)
 
 ## Adobe Target Tutorials {#tutorials}
 
-Videopresentationer av [!DNL Target] koncept och verktyg finns på [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) .
+Videopresentationer av [!DNL Target] koncept och verktyg finns på [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
 
 ![Adobe Target Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
