@@ -3,10 +3,8 @@ keywords: experience;visual experience composer;enhanced experience composer;for
 description: En upplevelse avgör vilket innehåll som visas när besökaren uppfyller målgruppskriterierna för en aktivitet.
 title: Erfarenheter och erbjudanden
 feature: experiences
-topic: Standard
-uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
