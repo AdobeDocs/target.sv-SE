@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;st
 description: A/B-tester utgör ryggraden i de flesta optimeringsprogram för digital marknadsföring och hjälper marknadsförare att erbjuda optimerade och målinriktade upplevelser till sina besökare och kunder. I det här avsnittet beskrivs nio av de största fallgropar som företag kan räkna med när de utför A/B-tester i Adobe Target. Det innehåller även sätt att undvika dem, så att ditt företag kan få större avkastning genom sina testsatsningar och ha större förtroende för de rapporterade A/B-testresultaten.
 title: Nio vanliga A/B-testfall och hur man undviker dem
 feature: ab
-uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 0%
@@ -75,7 +74,7 @@ Observera att om ni vill identifiera erbjudandet med den högsta konverteringsgr
 
 Statistisk effekt är sannolikheten för att ett test ska upptäcka en verklig skillnad i konverteringsgrad mellan olika erbjudanden. På grund av det slumpmässiga, eller som statistiker kallar det&quot;stokastiskt&quot;, typ av konverteringshändelser, kanske ett test inte visar en statistiskt signifikant skillnad, även när det finns en verklig skillnad i konverteringsgrad mellan två anbud i längden. Kalla det otur eller av en slump. Om det inte går att identifiera en verklig skillnad i konverteringsgraden kallas det för ett falskt negativ eller ett Type II-fel.
 
-Det finns två huvudfaktorer som avgör kraften i ett test. Den första är exempelstorleken, det vill säga antalet besökare som ingår i testet. Sekund är storleken på skillnaden i konverteringsgrad som du vill att testet ska identifiera. Kanske är detta ganska intuitivt, men om du bara är intresserad av att upptäcka stora skillnader i konverteringsgraden är det mycket större sannolikhet att testet faktiskt kommer att upptäcka så stora skillnader - som att upptäcka att du har en elefant i vardagsrummet jämfört med en fluga när du tittar igenom ett pappersdukrör. Längs de raderna är det mindre skillnad du vill identifiera, ju större samplingsstorleken är det, och därför är det dags att få den större samplingsstorleken.
+Det finns två huvudfaktorer som avgör kraften i ett test. Den första är exempelstorleken, det vill säga antalet besökare som ingår i testet. Sekund är storleken på skillnaden i konverteringsgrad som du vill att testet ska identifiera. Kanske är detta ganska intuitivt, men om du bara är intresserad av att upptäcka stora skillnader i konverteringsgraden är det mycket större sannolikhet att testet faktiskt kommer att upptäcka så stora skillnader - ungefär som att upptäcka att du har en elefant i vardagsrummet jämfört med en fluga när du tittar igenom ett handduksrör. Längs de raderna är det mindre skillnad du vill identifiera, ju större samplingsstorleken är det, och därför är det dags att få den större samplingsstorleken.
 
 Dagens marknadsförare understyr ett anmärkningsvärt antal tester. Med andra ord använder de en samplingsstorlek som är för liten. Det innebär att de har en liten chans att upptäcka sanna positiva effekter, även när det faktiskt finns en betydande skillnad i konverteringsgraden. Om du ständigt kör underdrivna tester kan antalet falska positiva vara jämförbart med, eller till och med dominera, antalet sanna positiva. Detta leder ofta till implementering av neutrala förändringar av en plats (tidsslöseri) eller förändringar som faktiskt minskar konverteringsgraden.
 
@@ -133,7 +132,7 @@ Ett annat exempel är om A/B-testets trafikallokering delas upp 50/50 och sedan 
 
 ## Pitfall 8: Saknar betydelse {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Andra oväntade saker kan hända om vi inte hinner köra ett test tillräckligt länge. Den här gången är problemet inte ett statistikproblem. det är bara en reaktion på besökarnas förändring. Om du ändrar en väletablerad del av din webbplats kan återkommande besökare i första hand engagera sig mindre i det nya erbjudandet på grund av ändringar i deras vanliga arbetsflöde. Detta kan tillfälligt leda till att ett överlägset nytt erbjudande fungerar mindre optimalt tills de återkommande besökarna vänjer sig vid det - ett lågt pris att betala med tanke på de långsiktiga vinster som det överlägsna erbjudandet ger.
+Andra oväntade saker kan hända om vi inte hinner köra ett test tillräckligt länge. Den här gången är problemet inte ett statistikproblem. det är bara en reaktion på besökarnas förändring. Om du ändrar en väletablerad del av din webbplats kan återkommande besökare i första hand få mindre kontakt med det nya erbjudandet på grund av ändringar i deras vanliga arbetsflöde. Detta kan tillfälligt leda till att ett överlägset nytt erbjudande fungerar mindre optimalt tills de återkommande besökarna vänjer sig vid det - ett lågt pris att betala med tanke på de långsiktiga vinster som det överlägsna erbjudandet ger.
 
 För att avgöra om det nya erbjudandet fungerar dåligt på grund av en ny effekt eller för att det är riktigt sämre kan ni segmentera era besökare i nya och återkommande besökare och jämföra konverteringsgraden. Om det bara är nyheten vinner det nya erbjudandet med nya besökare. När de återkommande besökarna vänjer sig vid de nya ändringarna vinner erbjudandet också.
 
@@ -173,5 +172,5 @@ Stegen nedan hjälper dig att undvika dessa fallgropar och fokusera på att få 
 * Bestäm en konfidensnivå innan testet börjar och följ detta tröskelvärde när du utvärderar resultaten efter att testet har avslutats.
 * Beräkna provstorleken (antal besökare) innan testet startas.
 * Vänta tills den beräknade provstorleken har nåtts innan testet stoppas.
-* Justera konfidensnivån när du segmenterar efter testet eller utvärderar mer än ett alternativ, t.ex. med korrigeringen av Bonferroni.
+* Justera konfidensnivån när du segmenterar efter testet eller utvärderar mer än ett alternativ, till exempel med korrigeringen av Bonferroni.
 
