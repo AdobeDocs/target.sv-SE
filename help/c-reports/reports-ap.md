@@ -3,9 +3,8 @@ keywords: Targeting;AP reports;automated personalization reports;activity level 
 description: Specialiserade rapporter är tillgängliga för användare av Automated Personalization-aktiviteter i Adobe Target.
 title: Automated Personalization Sammanfattningsrapporter
 feature: reports
-uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
