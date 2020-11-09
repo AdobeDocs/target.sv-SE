@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2656'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Med versionen at.js 1.0.0 kan du läsa in målbiblioteket asynkront.
 
 Så här läser du in at.js asynkront:
 
-* Det rekommenderade sättet är via en tagghanterare som Adobe Launch eller Adobe Dynamic Tag Manager (DTM). Mer information finns i lektionen [Lägg till Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) i [Implementera Experience Cloud på webbplatser med Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) .
+* Det rekommenderade sättet är via en tagghanterare som Adobe Launch eller Adobe Dynamic Tag Manager (DTM). Mer information finns i lektionen [Lägg till Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) i [Implementera Experience Cloud på webbplatser med Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) .
 * Du kan också läsa in at.js asynkront genom att lägga till attributet async i script-taggen som läser in at.js. Du bör använda något sådant:
 
    ```
@@ -111,7 +111,7 @@ Att läsa in at.js asynkront är ett bra sätt att undvika att blockera webbläs
 
 Du kan undvika flimmer genom att använda ett fragment som döljer sidan (eller vissa delar) och sedan visar den efter at.js och den globala begäran har lästs in helt. Utdraget måste läggas till innan at.js läses in.
 
-Om du distribuerar at.js via en asynkron Launch-implementering måste du se till att inkludera det preddolda fragmentet direkt på dina sidor, före koden Launch Embed (Starta inbäddning), enligt beskrivningen i avsnittet [Lägg till fragmentet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) för fördöljning av mål i [Implementera Experience Cloud på webbplatser med startsjälvstudiekursen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+Om du distribuerar at.js via en asynkron Launch-implementering måste du se till att inkludera det preddolda fragmentet direkt på dina sidor, före koden Launch Embed (Starta inbäddning), enligt beskrivningen i avsnittet [Lägg till fragmentet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) för fördöljning av mål i [Implementera Experience Cloud på webbplatser med startsjälvstudiekursen](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 Om du distribuerar at.js via en synkron DTM-implementering kan det fördolda fragmentet läggas till via en sidinläsningsregel som aktiveras högst upp på sidan.
 
