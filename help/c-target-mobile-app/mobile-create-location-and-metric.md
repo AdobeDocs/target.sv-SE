@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Om du vill använda Target i din mobilapp skapar du en plats och ett framgångsmått.
 
-Det här avsnittet innehåller exempelkod som kan användas som mall för ditt program. Exemplen i det här avsnittet innehåller kod för iOS. Samma mönster gäller för Android. Android-specifik syntax finns i [Android SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html) guide.
+Det här avsnittet innehåller exempelkod som kan användas som mall för ditt program. Exemplen i det här avsnittet innehåller kod för iOS. Samma mönster gäller för Android. Android-specifik syntax finns i [Android SDK 4.x for Experience Cloud Solutions](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/target-main.html) guide.
 
 >[!NOTE]
 >
->En lista med alla tillgängliga Target-metoder finns i dokumentationen [för](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-target-methods.html) Mobile.
+>En lista med alla tillgängliga Target-metoder finns i dokumentationen [för](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) Mobile.
 
 Det finns två primära metoder för att skapa en målplats i din app och göra en begäran:
 
