@@ -3,10 +3,8 @@ keywords: implement;at.js;javascript library
 description: Information om hur du distribuerar Adobe Target JavaScript-biblioteket, at.js, med Adobe Launch, utan en tagghanterare eller med hjälp av Adobe Dynamic Tag Management (DTM).
 title: Så här distribuerar du at.js
 feature: client-side
-topic: Standard
-uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -34,4 +32,4 @@ Du kan distribuera at.js på följande sätt:
 
    Mer information finns i dokumentationen till tagghanteraren från tredje part.
 
-Information om hur du implementerar Target när du använder SPA (Single Page Apps) finns i Implementering [av](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Single Page-program.
+Information om hur du implementerar Target när du använder Single Page-program (SPA) finns i Implementering av [Single Page-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
