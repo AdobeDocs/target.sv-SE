@@ -3,11 +3,8 @@ keywords: Goal &Settings;objective;priority;duration
 description: Använd Aktivitetsinställningar för att hantera mål, prioritet och varaktighet för dina aktiviteter.
 title: Aktivitetsinställningar
 feature: activities
-subtopic: Multivariate Test
-topic: Standard
-uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
