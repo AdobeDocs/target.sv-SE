@@ -3,10 +3,8 @@ keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;re
 description: Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
 title: Värdar
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 0%
@@ -122,10 +120,10 @@ Prova följande felsökningstips om du får problem med värdarna:
 * Bekräfta att begäran är korrekt, inklusive referensen at.js eller mbox.js. [!DNL Target]
 * Försök att bläddra till en av [!DNL Target] förfrågningarna på värden. Det är möjligt att ingen [!DNL Target] begäran på värden någonsin har återgetts i en webbläsare.
 
-**Slumpmässiga eller okända domäner visas i[!UICONTROL Host]listan.**
+**Slumpmässiga eller okända domäner visas i [!UICONTROL Host] listan.**
 
 En domän visas i den här listan om en begäran [!DNL Target] görs från domänen. Ofta kan du se domäner från spindelmotorer, översättarplatser eller lokala diskenheter. Om den listade domänen inte är en som ditt team använder kan du klicka för [!UICONTROL Delete] att ta bort den.
 
-**Min[!DNL Target]begäran returnerar /* ingen skärm - oauktoriserad mbox-värd */.**
+**Min [!DNL Target] begäran returnerar /* ingen skärm - oauktoriserad mbox-värd */.**
 
 Om en [!DNL Target] begäran görs på en obehörig värd, svarar begäran med /* no display - unauthorized mbox host */.
