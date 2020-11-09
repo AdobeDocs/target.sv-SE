@@ -3,9 +3,8 @@ keywords: integration;roles;user permissions;admin console
 description: Information om hur du ger befintliga Adobe I/O-integreringar åtkomst till alla arbetsytor med önskad roll i Adobe Target
 title: Ge Adobe I/O-integrationer åtkomst till arbetsytor och tilldela roller i Adobe Target
 feature: user management
-subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -21,7 +20,7 @@ ht-degree: 0%
 >
 >Egenskaper och behörigheter är tillgängliga som en del av [Target Premium](/help/c-intro/intro.md#premium) -lösningen. De finns inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
 
-Funktionen gör det enklare att [!UICONTROL Enterprise Permissions] effektivt skala optimeringsprogram mellan olika team. Även om funktionen var tillgänglig i [!DNL Target] användargränssnittet saknade administratörs-API:erna motsvarande stöd fram till tidigare år 2019. I [!DNL Target] februari 2019 uppdaterade Adobe Admin API:erna så att du kan använda integrationskontot för att komma åt alla arbetsytor som skapats i organisationen. Tidigare var Admin API:er begränsade till standardarbetsytan, men uppdateringen från februari 2019 gav åtkomst till alla arbetsytor med [!UICONTROL Approver] åtkomst.
+Funktionen gör det enklare att [!UICONTROL Enterprise Permissions] effektivt skala optimeringsprogram mellan olika team. Även om funktionen var tillgänglig i [!DNL Target] användargränssnittet saknade Admin API:erna motsvarande stöd fram till tidigare år 2019. I [!DNL Target] februari 2019 uppdaterade Adobe Admin API:erna så att du kan använda integrationskontot för att komma åt alla arbetsytor som skapats i organisationen. Tidigare var Admin API:er begränsade till standardarbetsytan, men uppdateringen från februari 2019 gav åtkomst till alla arbetsytor med [!UICONTROL Approver] åtkomst.
 
 Med versionen från [!DNL Target] september 2019 [!DNL Target] får [!UICONTROL Enterprise Permissions] kunderna följande åtkomstkontroller:
 
