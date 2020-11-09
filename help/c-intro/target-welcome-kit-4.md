@@ -4,9 +4,9 @@ description: Adobe Target welcome kit - Kapitel 4 - Tips för att använda Targe
 title: Adobe Target welcome kit - Kapitel 4 - Tips för att använda Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Ni kan personalisera upplevelser med [!DNL Target] data direkt vid leverans. Men
 
 Du kan till exempel koppla inköpsdata från ditt butikssystem till en besökarprofil. Det gör du genom att skapa en CSV-fil med upp till 200 offlinevariabler och antingen överföra den direkt till [!DNL Adobe Experience Cloud] via en filöverföring, eller använda FTP för att lagra och schemalägga filen så att den uppdateras regelbundet. När era kundattribut finns tillgängliga kan ni mappa dem till [!DNL Adobe Experience Cloud]lösningar som [!DNL Experience Cloud] och [!DNL Adobe Analytics] [!DNL Target] var de finns tillgängliga för analys, testning och personalisering.
 
-I [Anpassade attribut](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) finns stegvisa instruktioner.
+I [Anpassade attribut](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) finns stegvisa instruktioner.
 
 **Bra att veta**: Eftersom [!DNL Target] är en öppen och agnostisk plattform som fungerar bra med olika tekniker kan du lägga till CRM- eller köpta data på många olika sätt. Det innebär att du kan välja en metod som fungerar bäst för din organisation.
 
