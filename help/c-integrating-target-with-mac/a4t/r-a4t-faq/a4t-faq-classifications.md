@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;classification
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om klassificeringar och hur Analytics används som rapportkälla för Target (A4T).
 title: Klassificeringar - A4T - vanliga frågor och svar
 feature: a4t troubleshooting
-topic: Standard
-uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
