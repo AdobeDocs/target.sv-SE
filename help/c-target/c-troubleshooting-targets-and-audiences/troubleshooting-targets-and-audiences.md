@@ -1,12 +1,10 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
-description: Lista med vanliga frågor och svar om målinriktning och målgrupper.
+description: Lista med vanliga frågor och svar om upplevelseanpassning och målgrupper.
 title: Mål och målgrupper Frågor och svar
 feature: audiences
-topic: Standard
-uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -16,7 +14,7 @@ ht-degree: 1%
 
 # Mål och målgrupper Frågor och svar{#targets-and-audiences-faq}
 
-Lista med vanliga frågor och svar om målinriktning och målgrupper.
+Lista med vanliga frågor och svar om upplevelseanpassning och målgrupper.
 
 ## Hur utvärderar Target URL:er när det gäller målinriktning? {#url}
 
