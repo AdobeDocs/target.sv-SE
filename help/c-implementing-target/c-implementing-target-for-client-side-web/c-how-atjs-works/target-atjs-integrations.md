@@ -6,9 +6,9 @@ feature: client-side
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Om du har ett övertygande behov av en integrering som inte stöds eller nämns 
 | Integrering | Detaljer |
 |--- |--- |
 | Analyser för mål (A4T) | Se [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE). |
-| Profiler och målgrupper (P&amp;A) | Se [Målgrupper](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) i *användarhandboken* för bastjänsterna. |
-| Experience Cloud ID-tjänst | Se dokumentationen [för](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Cloud ID-tjänsten. |
+| Profiler och målgrupper (P&amp;A) | Se [Målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *användarhandboken* för bastjänsterna. |
+| Experience Cloud ID-tjänst | Se dokumentationen [för](https://experienceleague.adobe.com/docs/id-service/using/home.html)Adobe Experience Cloud ID-tjänsten. |
 | Adobe Launch | Launch är nästa generationens tagghanteringsplattform från Adobe och är den metod som rekommenderas för att implementera Adobe Target. Launch ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser.  Se [Implementera mål med hjälp av Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
-| Dynamic Tag Management (DTM) | Se [Bästa praxis för implementering av mål med hjälp av guiden](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)för dynamisk tagghantering.   Viktigt: [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den föredragna, aktuella metoden för implementering av Target och biblioteket at.js. Använd Launch för nya målimplementeringar. Följande guide gäller befintliga klienter som använder en DTM-implementering.   Tänk på följande när du använder en DTM-integrering: <ul><li>Bibliotekshantering: Använd värdalternativet&quot;Anpassad&quot; för att använda at.js. Automatisk hantering stöds för närvarande inte. </li></ul> |
+| Dynamic Tag Management (DTM) | Se [Bästa praxis för implementering av mål med hjälp av guiden](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)för dynamisk tagghantering.   Viktigt: [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den föredragna, aktuella metoden för implementering av Target och biblioteket at.js. Använd Launch för nya målimplementeringar. Följande guide gäller befintliga klienter som använder en DTM-implementering.   Tänk på följande när du använder en DTM-integrering: <ul><li>Bibliotekshantering: Använd värdalternativet&quot;Anpassad&quot; för att använda at.js. Automatisk hantering stöds för närvarande inte. </li></ul> |
 | Adobe Experience Manager (AEM) Cloud Service | Den AEM Cloud Servicen gör det möjligt att skapa A/B-tester och Experience Targeting-aktiviteter i det AEM arbetsflödet. Stöder at.js med Adobe Experience Manager 6.2 med FP-11577 (eller senare). Mer information finns i [Integrera med Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) och välja AEM. |
 | AEM Experience Fragments | Med upplevelsefragment som skapats i AEM i Target-aktiviteter kan ni kombinera användarvänligheten och kraften hos AEM med kraftfulla funktioner för automatiserad intelligens (AI) och maskininlärning (ML) i Target för att testa och personalisera upplevelser i stor skala.  AEM samlar allt innehåll och alla resurser på en central plats för att understödja er personaliseringsstrategi. AEM gör det enkelt att skapa innehåll för datorer, surfplattor och mobila enheter på en och samma plats utan att behöva skriva kod. Du behöver inte skapa sidor för alla enheter - AEM justerar automatiskt varje upplevelse med ditt innehåll.  Se [AEM upplevelsefragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8). |
 
