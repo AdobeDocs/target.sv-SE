@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om uppblåst besöks- och besökarantal när Analytics används som rapportkälla för Target (A4T).
 title: Uppblåst besök och besökarantal - A4T - vanliga frågor
 feature: a4t troubleshooting
-topic: Standard
-uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
