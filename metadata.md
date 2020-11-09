@@ -2,17 +2,15 @@
 cloud: experience-cloud
 product: target
 solution: Target
-solution-title: Läs mer & Support
-solution-hub-url: https://helpx.adobe.com/support/target.html
-solution-image: assets/target-icon-24.png
-getting-started-title: Komma igång
-getting-started-url: https://helpx.adobe.com/target/get-started.html
-tutorials-title: Självstudiekurser
-tutorials-url: https://helpx.adobe.com/target/kt/index/target-videos.html
-git-repo: https://github.com/AdobeDocs/target.en
+audience: end-user
+type: Documentation
+git-repo: https://git.corp.adobe.com/AdobeDocs/target.sv-SE
 index: true
 translation-type: tm+mt
-source-git-commit: 184f1dad7cab80f67af7a77664f1c1acd27059a4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -29,4 +27,4 @@ Filen metadata.md innehåller metadata på postnivå som skickas till TOC.md-fil
 | getting-started-url | Länk till hjälpsidan Komma igång |
 | tutorials-url | Länka till videosjälvstudiekurser - antingen hjälpstudiekurser eller självstudiekurser på engelska |
 | mini-toc-nivåer | Anger antalet rubriknivåer som visas i den högra listen. standard är 2 |
-| git-repo | Anger platsen för huvudrapporten för intern användning |
+| git-repo | Anger platsen för den överordnad rapporten för intern användning |
