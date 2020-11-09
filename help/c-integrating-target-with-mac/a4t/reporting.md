@@ -3,11 +3,8 @@ keywords: analytics for target;a4t;analytics as the reporting source
 description: Genom att använda Analytics som rapportkälla för Target (A4T) får ni tillgång till analysrapporter för era Target-aktiviteter.
 title: A4T-rapportering
 feature: a4t reports
-subtopic: Multivariate Test
-topic: Standard
-uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
