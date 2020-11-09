@@ -3,10 +3,8 @@ keywords: audience;audience rules;create audience;creating audience;targeting au
 description: Publiken i Adobe Target avgör vilka som får se innehåll och upplevelser i en målinriktad aktivitet.
 title: Skapa målgrupper i Adobe Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
