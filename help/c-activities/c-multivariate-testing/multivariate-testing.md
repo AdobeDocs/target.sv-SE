@@ -3,9 +3,8 @@ keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traff
 description: Multivariate Testing (MVT) i Adobe Target jämför kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och identifierar vilket element som bäst påverkar aktivitetens framgång.
 title: Multivariata tester
 feature: mvt
-uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%
