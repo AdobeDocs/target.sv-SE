@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -239,7 +239,7 @@ Det här alternativet liknar kundattribut med några skillnader:
 
 * Kundattribut använder en FTP-överföring medan API:t för uppdatering av målgruppsprofil använder ett API för HTTP-POST.
 * Data för kundattribut kan delas med Analytics. Det går bara att använda gruppprofilsuppdatering i Target.
-* Kundattribut har ännu inte stöd för att skapa en profil för ett användarmål. API:t för uppdatering av gruppprofil uppdaterar bara befintliga målprofiler.
+* Kundattribut som stöder att skapa en profil för ett användarmål har ännu inte setts. API:t för uppdatering av gruppprofil uppdaterar bara befintliga målprofiler.
 * Kundattribut kräver att Experience Cloud ID (ECID) används. API:t för uppdatering av gruppprofil kräver antingen TNT-ID eller `mbox3rdPartyId`.
 * Du kan inte skicka följande tecken i `mbox3rdPartyID`: plustecken (+) och snedstreck (/).
 
@@ -275,7 +275,7 @@ Se [Uppdatera profiler](https://developers.adobetarget.com/api/#updating-profile
 
 ## API för enkel profiluppdatering {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil
+Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i linje i API-anropet i stället för med en CSV-fil
 
 ### Format
 
@@ -337,8 +337,8 @@ Kräver implementering av Experience Cloud ID (ECID).
 
 ### Kodexempel
 
-Information finns i [Skapa en kundattributkälla och överför datafilen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+Information finns i [Skapa en kundattributkälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Länkar till relevant information
 
-[Skapa en kundattributskälla och överför datafilen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+[Skapa en kundattributskälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
