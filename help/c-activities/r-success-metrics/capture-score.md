@@ -3,11 +3,8 @@ keywords: capture score;score
 description: Mätvärdet för Capture Score-engagemang beräknar en sammanställd poäng baserad på värdet som tilldelats till de sidor som besöks på webbplatsen, från den punkt besökaren först ser kampanjens första begäran om målvisning.
 title: Hämtningspoäng
 feature: success metrics
-subtopic: Getting Started
-topic: Standard
-uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
