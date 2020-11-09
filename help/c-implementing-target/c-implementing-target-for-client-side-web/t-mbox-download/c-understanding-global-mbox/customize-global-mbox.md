@@ -3,11 +3,8 @@ keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
 description: Information som hjälper dig att anpassa en global mbox för at.js.
 title: Anpassa en global mbox
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
