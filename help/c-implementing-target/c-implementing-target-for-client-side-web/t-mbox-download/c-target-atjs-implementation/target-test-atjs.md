@@ -4,9 +4,9 @@ title: Distribuera at.js till en icke-produktionsmiljö
 feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Om du använder DTM kan du enkelt spara at.js i Adobe Target Tool-konfiguratione
 
 När du har sparat biblioteket använder du DTM Switch-verktyget för att testa det mot din produktionskod. Detta gör det också enkelt för dina Adobe-konsulter att ge dig support.
 
-Mer information finns i [alternativ 3: Implementera Target manuellt med målbiblioteket för JavaScript, som finns hos DTM](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) , i *Best Practices för implementering av Adobe Target med hjälp av guiden för dynamisk tagghantering* .
+Mer information finns i [alternativ 3: Implementera Target manuellt med målbiblioteket för JavaScript, som finns hos DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) , i *Best Practices för implementering av Adobe Target med hjälp av guiden för dynamisk tagghantering* .
 
 ## Använd Chrome-tillägget &quot;True&quot; för att mappa till en annan fil
 
