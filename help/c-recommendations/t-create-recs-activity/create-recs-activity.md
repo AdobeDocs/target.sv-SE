@@ -3,9 +3,8 @@ keywords: create recommendations;recommendations activity;new recommendations;re
 description: Använd Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
 title: Skapa en Recommendations-aktivitet
 feature: recs creation
-uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%
