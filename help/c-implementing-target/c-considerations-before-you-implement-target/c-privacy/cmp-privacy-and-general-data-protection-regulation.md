@@ -3,10 +3,8 @@ keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;californ
 description: Information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar er organisation och Adobe Target.
 title: Sekretess- och dataskyddsbestämmelser
 feature: privacy and security
-topic: Standard
-uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2248'
 ht-degree: 0%
