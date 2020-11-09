@@ -3,10 +3,8 @@ keywords: traffic estimator;automated personalization;ap
 description: Traffic Estimator ger dig feedback som visar om du har tillräckligt med trafik för att din Adobe Target-aktivitet ska lyckas.
 title: Uppskatta den trafik som krävs för att lyckas
 feature: ap
-topic: Standard
-uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
