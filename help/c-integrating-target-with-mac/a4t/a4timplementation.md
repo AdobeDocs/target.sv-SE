@@ -3,9 +3,8 @@ keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;re
 description: Flera steg krävs när Adobe Analytics implementeras som rapportkälla för Target (A4T).
 title: Analyser för Target-implementering
 feature: a4t implementation
-uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
