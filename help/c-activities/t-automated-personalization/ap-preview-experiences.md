@@ -3,9 +3,8 @@ keywords: Recommendations
 description: Eftersom en Automated Personalization-aktivitet (AP) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan för varje upplevelse.
 title: Förhandsgranska upplevelser för en Automated Personalization-aktivitet (AP) i Adobe Target Visual Experience Composer
 feature: ap
-uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
