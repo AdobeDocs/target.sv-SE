@@ -3,11 +3,8 @@ keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy
 description: Adobe Target har aktiverat processer och inställningar som gör att du kan använda Target i enlighet med gällande datasekretesslagstiftning.
 title: Integritet
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
-uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
