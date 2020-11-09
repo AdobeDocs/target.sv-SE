@@ -3,10 +3,8 @@ keywords: target documentation change log;documentation updates;new topics;edits
 description: På den här sidan visas viktiga ändringar i Adobe Target-dokumentationen, som har beställts i releaser.
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
-topic: Standard
-uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 0%
