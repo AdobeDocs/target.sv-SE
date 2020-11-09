@@ -3,10 +3,8 @@ keywords: visual experience composer;visual experience composer best practices;v
 description: Med hjälp av bästa praxis kan ni få era upplevelser att fungera som förväntat. Det finns även andra tips och begränsningar som du bör känna till när du använder Visual Experience Composer (VEC).
 title: Visuell Experience Composer - bästa praxis och begränsningar
 feature: vec
-topic: Classic
-uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 0%
