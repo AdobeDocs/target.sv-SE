@@ -3,9 +3,8 @@ keywords: Targeting
 description: Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Slumpmässig skog i Automated Personalization är en klassificerings- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
 title: Slumpmässig skogsalgoritm
 feature: ap
-uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
@@ -38,7 +37,7 @@ Den här åtgärden skulle resultera i det första skiktet i vårt beslutsträd:
 
 ![](assets/decsion_tree_1.png)
 
-Beslutsträdet frågar frågan:&quot;Vilken är den mest förutsägbara variabeln?&quot; I vårt exempel har vi bara två variabler, så svaret här är tydligt genus. Trädet kommer nu att försöka slutföra en liknande övning för att dela data *inom varje gren*. Först ska vi titta på grenarna 1111, 2222 och 33333. I dessa postnummer, om det finns en skillnad i konvertering mellan män och kvinnor, finns det två löv (män och kvinnor), och den här grenen skulle vara fullständig. I den andra grenen, 44444 och 5555, antar vi att det inte finns någon statistisk skillnad mellan hur kvinnor och män konverterar. I det här fallet blir den första grenen den sista delningen.
+Beslutsträdet frågar frågan:&quot;Vilken är den mest förutsägbara variabeln?&quot; I vårt exempel har vi bara två variabler, så svaret här är tydligt genus. Trädet kommer nu att söka efter en liknande övning för att dela data *inom varje gren*. Först ska vi titta på grenarna 1111, 2222 och 33333. I dessa postnummer, om det finns en skillnad i konvertering mellan män och kvinnor, finns det två löv (män och kvinnor), och den här grenen skulle vara fullständig. I den andra grenen, 44444 och 5555, antar vi att det inte finns någon statistisk skillnad mellan hur kvinnor och män konverterar. I det här fallet blir den första grenen den sista delningen.
 
 Vårt exempel skulle resultera i följande träd:
 
