@@ -3,9 +3,8 @@ keywords: time frame;start date;end date;start/end dates;timeframe;target schedu
 description: Du kan lägga till start-/slutdatum och sluttider för målanvändare som besöker webbplatsen under en viss tidsperiod. Du kan också ange alternativen Vecka och Dag-delning för att skapa återkommande mönster för målgruppsanpassning.
 title: Alternativ för tidsramar i Adobe Target-målgrupper
 feature: audiences
-uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
