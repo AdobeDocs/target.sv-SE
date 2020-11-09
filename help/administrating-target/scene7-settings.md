@@ -1,14 +1,14 @@
 ---
-description: Target Standard kan integreras med Adobe Dynamic Media Classic (tidigare Scene7) för att tillhandahålla DAM (Digital Asset Management) i innehållsbiblioteket.
+description: Target Standard kan integreras med Adobe Dynamic Media Classic för att ge DAM (Digital Asset Management) i innehållsbiblioteket.
 title: Integrering med Dynamic Media Classic
 feature: administration general
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 # Scene7-konfiguration {#scene-settings}
 
-Target kan integreras med [!DNL Adobe Dynamic Media Classic] (tidigare [!DNL Scene7]) för att ge DAM (Digital Asset Management) i innehållsbiblioteket.
+Target kan integreras med [!DNL Adobe Dynamic Media Classic] Digital Asset Management (DAM) i innehållsbiblioteket.
 
 >[!NOTE]
 >
 >Integrering [!DNL Target] med [!DNL Dynamic Media Classic] möjliggör leverans av resurser (som en del av aktiviteter) som överförts till mappen [!DNL Adobe Experience Cloud] assets. Den här integreringen tillåter inte åtkomst till alla resurser som överförts [!DNL Dynamic Media Classic] för leverans i [!DNL Target] aktiviteter.
 
 Om du redan har ett [!DNL Dynamic Media] konto kan du ange dina befintliga autentiseringsuppgifter. Om du inte har något konto kan du begära ett [!DNL Dynamic Media Classic] konto med begränsad användning utan extra kostnad från din [!DNL Adobe] representant. Det här kontot kan användas endast för ändamål som är begränsade för användning i [!DNL Target] . Den här tjänsten är tillgänglig för kunder med arbetsflöden som behöver funktioner för bildbyte.
+
+>[!NOTE]
+>
+>Ett begränsat, kostnadsfritt [!DNL Dynamic Media Classic] konto för Adobe Target stöds inte längre för nya kunder eller nya användare. Befintliga inloggningsuppgifter fungerar som vanligt.
 
 Om den här inställningen inte är konfigurerad är alternativet i arbetsflödet för att skapa aktivitet inte tillgängligt. [!UICONTROL Swap Image offer] När den här inställningen har konfigurerats är alternativet att byta/ändra bildeffekter tillgängligt både i [Visual Experience Composer (VEC) och i den formulärbaserade Experience Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Du kan sedan utnyttja bilderbjudandena med bilder som har överförts från [!DNL Adobe Experience Cloud] programmet för att användas i [!DNL Target] aktiviteter.
 
