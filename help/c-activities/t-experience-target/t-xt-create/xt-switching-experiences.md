@@ -3,10 +3,8 @@ keywords: priority;experience create;priority;experience;audience;experience;swi
 description: Information om hur besökare kan växla mellan upplevelser i en XT-aktivitet (Experience Targeting) allt eftersom deras profiler utvecklas.
 title: Switching Experiences in Experience Targeting
 feature: xt
-topic: Advanced,Standard,Classic
-uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -22,7 +20,7 @@ Information om hur besökare kan växla mellan upplevelser i en XT-aktivitet (Ex
 >
 >**21 september 2017**
 >
->I och med den 21 september 2017 ändrade Target hur användare placeras i upplevelser i XT-aktiviteter (Experience Targeting) (Landing Page campaign i Target Classic). För alla nya och befintliga aktiviteter måste användarna följa reglerna för målinriktning mot upplevelser för varje intryck för att kunna fortsätta att se upplevelsens innehåll och räknas i rapporter. Tidigare, om användaren inte längre är kvalificerad för någon upplevelse, skulle användaren fortsätta att se innehållet från och räknas i rapporter för den senaste upplevelsen som han/hon kvalificerat sig för.
+>I och med den 21 september 2017 ändrade Target det sätt på vilket användarna placerades i upplevelser i XT-aktiviteter (Experience Targeting) (landningssidkampanjer i Target Classic). För alla nya och befintliga aktiviteter måste användarna följa reglerna för målinriktning mot upplevelser för varje intryck för att kunna fortsätta att se upplevelsens innehåll och räknas i rapporter. Tidigare, om användaren inte längre är kvalificerad för någon upplevelse, skulle användaren fortsätta att se innehållet från och räknas i rapporter för den senaste upplevelsen som han/hon kvalificerat sig för.
 >
 >Den här ändringen inträffade automatiskt som en del av releasen för alla befintliga aktiviteter och för alla nya aktiviteter som skapats efter lanseringen. Om den föregående metoden (före den 21 september) önskas kan du skapa målgrupper med hjälp av profilskript så att användaren bara måste uppfylla ett villkor en gång för att kunna fortsätta inkräkta på den målgruppen i framtiden. Använd sedan dessa målgrupper för varje upplevelse i aktiviteten.
 
