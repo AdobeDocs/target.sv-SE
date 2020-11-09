@@ -3,10 +3,8 @@ keywords: custom events;at.js;request failed;request succeeded;content rendering
 description: Information om anpassade händelser för Adobe Target JavaScript-bibliotek at.js.
 title: at.js, anpassade händelser
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
