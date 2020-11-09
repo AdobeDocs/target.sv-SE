@@ -3,9 +3,8 @@ keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web des
 description: Med mobilvisningsrutor kan du förhandsgranska hur dina Adobe Target-aktiviteter visas på skärmar av olika storlek.
 title: Mobilvisningsrutor för responsiva upplevelser
 feature: vec
-uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
