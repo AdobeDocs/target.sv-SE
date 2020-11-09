@@ -3,9 +3,8 @@ keywords: segments;audiences;aam;audience manager;adobe audience manager;integra
 description: Med Target/Audience Manager-integreringen kan du skicka Audience Manager-segment till Adobe Target
 title: Integrera Target med Adobe Audience Manager (AAM)
 feature: aam
-topic: Standard
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
