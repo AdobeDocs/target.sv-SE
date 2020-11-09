@@ -3,10 +3,8 @@ keywords: Overview and Reference
 description: Använd Target tillsammans med Adobe Campaign för att optimera e-postinnehåll.
 title: Integrera Target med Adobe Campaign
 feature: campaign
-topic: Standard
-uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -20,7 +18,7 @@ Använd [!DNL Target] med [!DNL Adobe Campaign] för att optimera e-postinnehål
 
 Om du vill optimera e-postinnehållet, till exempel för att visa olika erbjudanden för manliga och kvinnliga mottagare, kan du skapa ett omdirigeringserbjudande i [!DNL Target]och sedan använda [!DNL Adobe Campaign] för att hantera e-posterbjudandena.
 
-Integrationen äger rum när e-postmeddelandet öppnas. När kunden öppnar e-postmeddelandet görs ett anrop [!DNL Target] och en dynamisk version av innehållet visas. Innehållet består av en statisk bild som stöds av alla webbläsare. [!DNL Target] spårar reaktionen på erbjudandet på målgrupps- eller sessionsnivå och att data finns tillgängliga i [!DNL Target] rapporter.
+Integrationen äger rum när e-postmeddelandet öppnas. När kunden öppnar e-postmeddelandet görs ett anrop [!DNL Target] och en dynamisk version av innehållet visas. Innehållet består av en statisk bild som stöds av alla webbläsare. [!DNL Target] spårar svaret på erbjudandet på målgrupps- eller sessionsnivå och att data finns tillgängliga i [!DNL Target] rapporter.
 
 Målet kan spåra följande data:
 
