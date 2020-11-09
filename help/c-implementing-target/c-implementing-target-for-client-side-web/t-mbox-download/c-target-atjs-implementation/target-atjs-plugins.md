@@ -3,10 +3,8 @@ keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mbox
 description: Information om vilka plugin-program som stöds och inte stöds för at.js för Adobe Target.
 title: at.js plugin-program för Adobe Target
 feature: null
-topic: Standard
-uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
