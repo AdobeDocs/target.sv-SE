@@ -3,11 +3,8 @@ keywords: Overview and Reference;webkit
 description: Cookie-beteendet beror på om det är en cookie från en annan leverantör, en cookie från en annan tillverkare med en cookie från en annan leverantör eller en cookie från en annan tillverkare.
 title: mbox.js cookies
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 0%
