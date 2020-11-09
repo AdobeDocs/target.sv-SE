@@ -4,9 +4,8 @@ description: Använd mätvärden i en XT-aktivitet (Adobe Target Experience Targ
 title: Ange mått
 feature: xt
 solution: Target
-uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
