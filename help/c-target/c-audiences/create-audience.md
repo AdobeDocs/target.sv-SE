@@ -3,10 +3,8 @@ keywords: audience;audience rules;create audience;creating audience
 description: Du kan skapa anpassade målgrupper och spara dem i målbiblioteket för att använda dem i dina aktiviteter. Ni kan kopiera en befintlig målgrupp som ni sedan kan redigera för att skapa en liknande målgrupp och kombinera flera målgrupper.
 title: Bygg målgrupper i Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
