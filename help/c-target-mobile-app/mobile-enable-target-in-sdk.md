@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Lägg till Adobe Mobile Services SDK i din app.
 
 1. Lägg till Adobe Mobile Services SDK i din app.
 
-   Instruktionerna finns under [Core Implementation och Lifecycle](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/dev-qs.html).
+   Instruktionerna finns under [Core Implementation och Lifecycle](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/dev-qs.html).
 
 1. Lägg till klientkod, tidsgräns och aktivera SSL.
 
