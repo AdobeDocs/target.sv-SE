@@ -5,9 +5,9 @@ title: Adobe Target API - översikt
 feature: api
 topic: APIs
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | API-typ | Vad du kan göra | Hämta länk | Andra praktiska länkar |
 | --- | --- | --- |--- |
-| Administratör | Skapa, ändra och ta bort aktiviteter, målgrupper, erbjudanden och andra objekt (inklusive [!DNL Recommendations] enheter, kriterier, design osv.). API: [!DNL Recommendations] erna är en typ av admin-API.) | <UL><li>[Target Admin API Postman Collection](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Använda Recommendations-API:er](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) i *Adobe Target Tutorials* |
+| Administratör | Skapa, ändra och ta bort aktiviteter, målgrupper, erbjudanden och andra objekt (inklusive [!DNL Recommendations] enheter, kriterier, design osv.). API: [!DNL Recommendations] erna är en typ av admin-API.) | <UL><li>[Target Admin API Postman Collection](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Använda Recommendations-API:er](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html) i *Adobe Target Tutorials* |
 | Leverans | Hämta optimerat och personaliserat innehåll från [!DNL Target] för leverans till slutanvändare. | [Target Delivery API Postman Collection](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
 | Rapportering | Exportera aktivitetsresultat och andra rapportresultat. | Rapporterings-API:er ingår i [Target Admin API Postman-samlingen](https://developers.adobetarget.com/api/#admin-postman-collection). |  |
 | Profil | Hämta och ändra användarprofiler som lagras i Adobe Target. | [Målprofil-API Postman Collection](https://developers.adobetarget.com/api/#profiles) |  |
@@ -34,4 +34,4 @@ ht-degree: 0%
 * Med leverans-API:er kan du hämta innehåll. Leverans-API:er kräver inte autentisering.
 >
 >
-Om du vill använda [!DNL Target] Admin API:er måste du först konfigurera autentiseringen med Adobe I/O. Mer information finns i [Konfigurera autentisering](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) i *Adobe Target Tutorials*.
+Om du vill använda [!DNL Target] Admin API:er måste du först konfigurera autentiseringen med Adobe I/O. Mer information finns i [Konfigurera autentisering](https://experienceleague.adobe.com/docs/target-learn/tutorials/apis/configure-io-target-integration.html) i *Adobe Target Tutorials*.
