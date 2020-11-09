@@ -3,11 +3,8 @@ keywords: Implementation;Mbox;download mbox.js;download api;mbox.js api
 description: Om du vill använda Target Standard eller Target Premium lägger du till en kodrad för att anropa mbox.js.
 title: mbox.js implementation
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
