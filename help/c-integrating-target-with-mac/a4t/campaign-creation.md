@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -145,4 +145,4 @@ Vissa begränsningar och anteckningar gäller för både Automatisk allokering o
 * [!UICONTROL Auto-Target] modellerna fortsätter att träna var 24:e timme som vanligt. Konverteringshändelsedata som kommer från [!DNL Analytics] fördröjs dock med ytterligare 6 till 24 timmar. Förseningen innebär att trafiken distribueras genom [!DNL Target] att de senaste händelser som registreras i [!DNL Analytics]spåras. Detta kommer att få störst effekt inom de första 48 timmarna efter det att en aktivitet först har aktiverats. Aktivitetens prestanda kommer att mer noggrant spegla [!DNL Analytics] konverteringsbeteendet efter fem dagar. Du bör överväga att använda [!UICONTROL Auto-Allocate] istället [!UICONTROL Auto-Target] för korttidsaktiviteter där den största trafiken sker inom de första fem dagarna av aktivitetens livstid.
 * När du använder [!DNL Analytics] som datakälla för en [!UICONTROL Auto-Target] aktivitet anses sessionerna vara avslutade efter sex timmar. Konverteringar som inträffar efter sex timmar räknas inte.
 
-Mer information finns i [Attribution models and lookback windows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) i *Analytics Tools Guide*.
+Mer information finns i [Attribution models and lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) i *Analytics Tools Guide*.
