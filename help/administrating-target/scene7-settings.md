@@ -4,9 +4,9 @@ description: Target Standard kan integreras med Adobe Dynamic Media Classic för
 title: Integrering med Dynamic Media Classic
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 76ab5aef33f5e9c5de08b33e83e459b588bb0fba
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Integrering [!DNL Target] med [!DNL Dynamic Media Classic] möjliggör leverans av resurser (som en del av aktiviteter) som överförts till mappen [!DNL Adobe Experience Cloud] assets. Den här integreringen tillåter inte åtkomst till alla resurser som överförts [!DNL Dynamic Media Classic] för leverans i [!DNL Target] aktiviteter.
 
-Om du redan har ett [!DNL Dynamic Media] konto kan du ange dina befintliga autentiseringsuppgifter. Om du inte har något konto kan du begära ett [!DNL Dynamic Media Classic] konto med begränsad användning utan extra kostnad från din [!DNL Adobe] representant. Det här kontot kan användas endast för ändamål som är begränsade för användning i [!DNL Target] . Den här tjänsten är tillgänglig för kunder med arbetsflöden som behöver funktioner för bildbyte.
+Om du redan har ett [!DNL Dynamic Media] konto kan du ange dina befintliga autentiseringsuppgifter.
 
 >[!NOTE]
 >
