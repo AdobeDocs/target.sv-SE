@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fb843aef10721d138fa652c818d90295b606247e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -27,30 +27,28 @@ Nu mer än någonsin har marknadsförare, produktägare och utvecklare fått i u
 På det här webbinariet diskuterar Adobe Target produktexperter hur rörliga optimeringsbeslut för kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.
 
 * **Tisdagen den 10 november 2020**
-* **10 am PT | 12:00 CT | 1:00 ET**
+* **10.00 PST | kl. 12 CST | 1:00 EST**
 
 [Anmäl dig här för detta spännande event.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
-## Webbseminarium: Adaptiv, finjusterad personalisering i skala med Adobe Target och Analytics
+## Adobe Target Community Q&amp;A Coffee Break
 
-* **Tisdagen den 27 oktober 2020**
-* **8 am PT | 10 am CT | 11.00 ET**
-* **Varaktighet: 60 minuter**
+* **onsdagen den 11 november 2020**
+* **8.00 PST**
 
-Digitala implementeringar ökar redan nu, vilket gör att helt nya kundsegment kan digitaliseras och de förväntar sig mycket av att hitta det de behöver och få exceptionell vård och kundservice. Personalisering är en nödvändig förutsättning för att ni ska kunna anpassa er till en omedelbar förändring och utveckla ert företag inför framtiden.
+Vår expert kommer att vara Senior [!DNL Adobe Target] Product Manager, David Son, som kommer att dela med sig av sina insikter och sin expertis inom följande områden:
 
-På det här webbinariet kommer vi att visa hur [!DNL Adobe Target] kan vidta åtgärder med förtroende för [!DNL Analytics] insikter och målgruppssegment, vilket säkerställer att företag i olika branscher snabbt kan utveckla sin verksamhet med hjälp av AI-baserad personalisering, med en fullständig bild av hur de presterar i Analytics-förbättrad rapportering.
+* Enhetsbeslut
+* At.js
+* Mobil
+* AEP Web SDK
+* API:er
 
-På det här webbinariet får du lära dig:
-
-* Hur den unika integrationen mellan servrar och servrar [!DNL Adobe Analytics] [!DNL Adobe Target] möjliggör en enhetlig profil, målgrupper och rapportering för snabb prestandadriven personalisering
-* Tips och tricks om hur företag sparar timmar i&quot;analysparalys&quot; och personaliserar snabbt sina kritiska kundinteraktioner i stor skala
-
-[Anmäl dig här för detta spännande event.](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
+[Anmäl dig här.](https://adobe.ly/2H3MBX9)
 
 ## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
-* **Under de kommande 30 dagarna kan du klicka här för att visa [webbinariet Recording](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **Du kan klicka här för att visa [webbinariet Inspelning](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital rapporterar att&quot;vi har vunnit fem år framåt när det gäller digital användning inom konsumenter och företag på ungefär åtta veckor.&quot; *
 
@@ -62,10 +60,8 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 * Hur AI och Analytics accelererar sina satsningar och ger tydliga, betydande effekter för verksamheten
 * Hur HSBC har byggt upp ett framgångsrikt program i stor skala med 3 000+ aktiviteter
 
-[Anmäl dig till det här](https://hsbc-targetai.experienceleague.adobeevents.com/)spännande webbseminariet.
-
 *McKinsey-artikel: &quot;[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, maj 2020
 
 ## Adobe Target Experience Builder: Developer chat, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
-I och med den kommande utfasningen av mbox.js den 18 januari 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Under de närmaste 30 dagarna kan du [visa inspelningen](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)av webbinariet.
+I och med den kommande utfasningen av mbox.js den 18 januari 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Du kan [visa webbinariet här](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
