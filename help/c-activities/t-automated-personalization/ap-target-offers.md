@@ -1,10 +1,11 @@
 ---
+keywords: automated personalization;offers
 description: I en Automated Personalization-aktivitet kan ni rikta erbjudanden till specifika målgrupper.
 title: Automated Personalization erbjudanden
 feature: ap
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 2%
