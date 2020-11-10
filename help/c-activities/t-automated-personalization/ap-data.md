@@ -4,21 +4,21 @@ description: Adobe Target samlar automatiskt in och använder en mängd olika da
 title: Datainsamling för Adobe Target personaliseringsalgoritmer
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Datainsamling för målpersonaliseringsalgoritmer{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) Datainsamling för målpersonaliseringsalgoritmer
 
-Target samlar automatiskt in och använder en mängd olika data för att bygga sina personaliseringsalgoritmer i Automated Personalization- (AP) och Auto-Target-aktiviteter (AT). När en besökare kommer in i AP- eller AT-aktiviteten skickas en ögonblicksbild av informationen till en uppsättning&quot;utbildningsposter&quot; (de besökardata som personaliseringsalgoritmerna kommer att lära sig om).
+[!DNL Adobe Target] samlar automatiskt in och använder en mängd olika data för att skapa sina personaliseringsalgoritmer i [!UICONTROL Automated Personalization] - (AP) och [!UICONTROL Auto-Target] (AT)-aktiviteter. När en besökare går in i en AP- eller AT-aktivitet skickas en ögonblicksbild av information till en uppsättning&quot;utbildningsposter&quot; (de besökardata som personaliseringsalgoritmerna kommer att lära sig).
 
 Mer information om målpersonaliseringsalgoritmer finns i [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-I följande tabell visas de data som samlats in av Automated Personalization och Auto-Target som standard, utan att marknadsföraren behöver göra något, liksom namnkonventionen som används för att ange dessa attribut i [personaliseringsinsikter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Du kan när som helst utöka indatauppsättningen. Mer information om hur du överför ytterligare data finns i [Överföra data för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+I följande tabell visas de data som samlats in av [!UICONTROL Automated Personalization] och [!UICONTROL Auto-Target] som standard, utan att marknadsföraren behöver göra något, liksom namnkonventionen som används för att ange dessa attribut i [personaliseringsinsikter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Du kan när som helst utöka indatauppsättningen. Mer information om hur du överför ytterligare data finns i [Överföra data för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Datatyp | Beskrivning | Namnkonvention för datatyp | Exempelattribut |
 | --- | --- | --- | --- |
