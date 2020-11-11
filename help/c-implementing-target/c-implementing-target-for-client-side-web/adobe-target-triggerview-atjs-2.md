@@ -4,9 +4,9 @@ description: Information om funktionen adobe.target.triggerView (viewName, optio
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Den här funktionen kan anropas när en ny sida läses in eller när en komponen
 | --- | --- | --- | --- |
 | viewName | Sträng | Ja | Ange valfritt namn som en strängtyp som du vill representera vyn. Vynamnet visas på VEC-panelen [!UICONTROL Modifications] där marknadsförare kan skapa åtgärder och köra A/B- och XT-aktiviteter. |
 | alternativ | Objekt | Nej |  |
-| alternativ > sida | Boolean | Nej | **TRUE:** Standardvärdet för sidan är true. När page=true skickas meddelanden till [!DNL Target] backend-objektet för att öka antalet intryckningar.<br>Om ingen aktivitetsupplevelse eller aktivitetsmått är associerad med vyn skickas inget meddelande.<br>**FALSE:** När page=false skickas inga meddelanden för ökat antal visningar. Detta bör användas när du endast vill återge en komponent på en sida med ett erbjudande. |
+| alternativ > sida | Boolean | Nej | **TRUE:** Standardvärdet för sidan är true. När page=true skickas meddelanden till [!DNL Target] backend-objektet för att öka antalet intryckningar.<br>Ett meddelande skickas alltid som standard när en `triggerView` anropas, förutom när alternativen > sida är inställda på false.<br>**FALSE:** När page=false skickas inga meddelanden för ökat antal visningar. Detta bör användas när du endast vill återge en komponent på en sida med ett erbjudande. |
 
 ## Exempel: True
 
