@@ -1,12 +1,12 @@
 ---
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
-description: JavaScript-funktionen targetPageParams används för att skicka parametrar till den globala mbox-filen. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/kontext ska skickas till Target.
+description: JavaScript-funktionen targetPageParams används för att skicka parametrar till den globala mbox-filen. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/sammanhang ska skickas till Adobe Target.
 title: Skicka parametrar till en global mbox
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Skicka parametrar till en global mbox{#pass-parameters-to-a-global-mbox}
 
-JavaScript- `targetPageParams` funktionen används för att skicka parametrar till den globala mbox-filen. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/sammanhang ska skickas till [!DNL Target].
+JavaScript- `targetPageParams` funktionen används för att skicka parametrar till den globala mbox i [!DNL Adobe Target]. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/sammanhang ska skickas till [!DNL Target].
 
 I en [!DNL Recommendations] aktivitet använder du till exempel parametrarna för att representera den aktuella produkten eller kategorin som visas.
 
@@ -34,7 +34,7 @@ Använd dessa tre metoder för att verifiera att parametrarna skickas korrekt. D
 
 Du måste definiera JavaScript-funktionen innan du lägger till den globala mbox-filen på sidan. Namnet måste vara `targetPageParams`.
 
-**Frågesträng**
+## Frågesträng
 
 ```
 p1=v1&p2=v2&p3=hello%20world
@@ -72,7 +72,7 @@ I det här exemplet skickas följande data till mbox-kanten:
 * p2=v2
 * p3=hello world
 
-**Array**
+## Array
 
 ```
 <!--window.-->targetPageParams = function() { 
@@ -88,7 +88,7 @@ I det här exemplet skickas följande data till mbox-kanten:
 * b=2
 * c=hello world
 
-**JSON**
+## JSON
 
 JSON är ett kraftfullt sätt att skicka parametrar. Target använder JSON-objektnycklarna för att förenkla komplicerade strukturer till enkla parametrar.
 
@@ -113,5 +113,5 @@ I det här exemplet skickas följande data till mbox-kanten:
 
 * a=1
 * b=2
-* `profile.age`=26
+* `profile.memberStatus`=Guld
 * `profile.country.city`=San Francisco
