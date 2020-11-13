@@ -4,9 +4,9 @@ description: Versionsinformationen innehåller information om funktioner, förb�
 title: 'Versionsinformation om Adobe Target (aktuell) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,12 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 
 Numren inom parentes är avsedda för intern [!DNL Adobe] användning.
+
+## kl. 2.3.3 (13 november 2020)
+
+Den här versionen av at.js är en underhållsversion och innehåller följande korrigering:
+
+* Korrigerade ett problem relaterat till lådklicksspårning och A4T.
 
 ## Target Standard/Premium 20.10.1 (27 oktober 2020)
 
