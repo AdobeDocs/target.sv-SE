@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '2922'
+source-wordcount: '2930'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 13 november | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.3.3. |
 | 10 november | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Ytterligare information om Adobe Target Community Q&amp;A Coffee Break som är planerad till 11 november. |
 | 3 november | [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Följande felsökningsämne har uppdaterats: &quot;Rapporten jag behöver visas inte.&quot; |
 | 28 oktober | [Serversida: implementera mål](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Observera att förstagångsbesökare bara kan initieras på klientsidan, inte på serversidan. |
