@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,6 @@ På det här webbinariet diskuterar Adobe Target produktexperter hur rörliga op
 * **10.00 PST | kl. 12 CST | 1:00 EST**
 
 [Anmäl dig här för detta spännande event.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-## Adobe Target Community Q&amp;A Coffee Break
-
-* **onsdagen den 11 november 2020**
-* **8.00 PST**
-
-Vår expert kommer att vara Senior [!DNL Adobe Target] Product Manager, David Son, som kommer att dela med sig av sina insikter och sin expertis inom följande områden:
-
-* Enhetsbeslut
-* At.js
-* Mobil
-* AEP Web SDK
-* API:er
-
-[Anmäl dig här.](https://adobe.ly/2H3MBX9)
 
 ## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
