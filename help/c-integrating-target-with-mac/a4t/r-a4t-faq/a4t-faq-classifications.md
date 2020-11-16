@@ -4,9 +4,9 @@ description: Det här avsnittet innehåller svar på frågor som ofta ställs om
 title: Klassificeringar - A4T - vanliga frågor och svar
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ TNT-variabelns strängformat är `activityID:experienceID:targettype|event`.
 * Händelse = 0 representerar en upplevelseingång.
 * Händelse = 1 representerar ett upplevelsebesök.
 * Händelse = 2 representerar ett aktivitetsintryck.
+* Händelse = 3-32766 representerar mått för lyckade analysresultat.
 * Händelse = 32767 representerar en aktivitetskonvertering.
 
 Du kan importera klassificeringsfilen ofta från användargränssnittet med en [webbläsarimport](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) eller en [FTP-import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Du kan också använda Engineering Services för att hämta filen som en uppslagstabell tillsammans med en datafeed i klickströmmen.
