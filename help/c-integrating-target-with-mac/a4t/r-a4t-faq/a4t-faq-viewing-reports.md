@@ -4,15 +4,15 @@ description: Det här avsnittet innehåller svar på frågor som ofta ställs om
 title: Visa rapporter - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2152'
 ht-degree: 1%
 
 ---
 
 
-# Visa rapporter - A4T FAQ{#view-reports-a-t-faq}
+# Visa rapporter - A4T FAQ
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rapporter när du använder [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
 
@@ -135,3 +135,16 @@ Virtuella rapportsviter ingår *inte* i [!UICONTROL Report Suite] listan och må
 Om du ändrar procentandelen för trafikallokering i en aktivitet efter aktivering kan det leda till inkonsekvent rapportering [!DNL Analytics] eftersom förändringen bara påverkar nya besökare. Återkommande besökare påverkas inte.
 
 Det bästa är att du stoppar den befintliga aktiviteten och sedan skapar en ny aktivitet i stället för att ändra procentandelen efter aktiveringen. Rapportering för den nya aktiviteten börjar med nya besökare och data från återkommande besökare orsakar inte inkonsekvent rapportering.
+
+## Hur räknas besök i Analytics och konverteringskrediter som allokeras i en Auto-Target-aktivitet som använder A4T?
+
+När en besökare kvalificerar sig för en aktivitet är all konverteringskrediter knuten till den aktiviteten i framtiden.
+
+Tänk på följande:
+
+* Om en konvertering sker utanför analysfönstret visas inte konverteringen i rapporter. Rapportfönstret ska börja från aktivitetens startdatum.
+* En besökare som inte är berättigad till aktiviteten kan öka antalet besökare i [!DNL Analytics], även om han eller hon kanske inte ser innehållet som levereras av aktiviteten.
+* Om en besökare kvalificerar sig för flera upplevelser i olika besök, tillskrivs konverteringskrediten den senaste upplevelsen.
+* Om en första aktivitet inträffar före analysfönstret räknas även efterföljande besök och konverteringar i analysfönstret. Detta kan dock förvränga [!DNL Analytics] rapporter.
+* Verksamheter bifogas och fungerar som listvariabler. Men upplevelserna skrivs över, men konverteringen tillskrivs den senast visade upplevelsen.
+* En besökare kan öka antalet besök för två olika upplevelser om besökaren återgår till aktiviteten vid ett efterföljande besök.
