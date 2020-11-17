@@ -4,9 +4,9 @@ description: Felsökning och vanliga frågor om Automatiskt mål i Adobe Target.
 title: Automatisk målsökning och vanliga frågor
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Target] aktiv
    * Om ett A/B-test inte visar några statistiskt signifikanta skillnader mellan upplevelserna, är det troligt att de erbjudanden du överväger inte skiljer sig tillräckligt mycket från varandra, att de platser du valde inte påverkar framgångsmåttet eller att optimeringsmålet är för långt i konverteringsprocessen för att påverkas av dina valda erbjudanden.
 
 * Försök att inte göra några större ändringar av upplevelserna under aktivitetens gång.
+
+### Rekommenderar du att vi använder Automatiskt mål med en delning av 90 (Kontroll)/10 (Mål) tills modellerna har byggts?
+
+Din optimala trafikallokeringsdelning beror på vad du vill uppnå.
+
+Om målet är att personalisera så mycket trafik som möjligt kan ni hålla er till 90 % målinriktning och 10 % kontroll över aktivitetens livstid. Om målet är att köra ett experiment där man jämför hur väl personaliserade algoritmer fungerar jämfört med kontrollen är en delning på 50/50 bäst.
 
 ### Är kryssmarkeringarna som anger att en modell har skapats för den upplevelseuppdateringen om rapportens datumintervall ändras?
 
