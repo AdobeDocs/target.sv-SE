@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2984'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 17 november | [Aktivitetsinställningar - vanliga A4T-frågor](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Följande frågor och svar har lagts till:<ul><li>Kan en besökare växla mellan målinriktade och kontrollerade upplevelser vid olika besök i en Auto-Target-aktivitet som använder A4T?</li><li>Rekommenderas det att vi använder den anpassade modellen för Automatiskt mål och A4T med en delning av 90 (Kontroll)/10 (Mål) tills modellerna byggs?</li></ul> |
+| 17 november | [Aktivitetsinställningar - vanliga A4T-frågor](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Följande frågor och svar har lagts till: &quot;Kan en besökare växla mellan målinriktade och kontrollerade upplevelser vid olika besök i en Auto-Target-aktivitet som använder A4T?&quot; |
+|  | [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Följande frågor och svar har lagts till: &quot;Rekommenderar du att vi använder Automatiskt mål med en delning på 90 (Kontroll)/10 (Mål) tills modellerna har byggts?&quot; |
 | 13 november | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.3.3. |
 | 10 november | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Ytterligare information om Adobe Target Community Q&amp;A Coffee Break som är planerad till 11 november. |
 | 3 november | [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Följande felsökningsämne har uppdaterats: &quot;Rapporten jag behöver visas inte.&quot; |
