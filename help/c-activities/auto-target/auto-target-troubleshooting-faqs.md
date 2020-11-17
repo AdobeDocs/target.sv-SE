@@ -1,12 +1,12 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Felsökning och vanliga frågor om Automatiskt mål i Adobe Target.
 title: Automatisk målsökning och vanliga frågor
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1783'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,15 @@ Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Target] aktiv
 
 Din optimala trafikallokeringsdelning beror på vad du vill uppnå.
 
-Om målet är att personalisera så mycket trafik som möjligt kan ni hålla er till 90 % målinriktning och 10 % kontroll över aktivitetens livstid. Om målet är att köra ett experiment där man jämför hur väl personaliserade algoritmer fungerar jämfört med kontrollen är en delning på 50/50 bäst.
+Om målet är att personalisera så mycket trafik som möjligt kan ni hålla er till 90 % målinriktning och 10 % kontroll över aktivitetens livstid. Om målet är att köra ett experiment där man jämför hur väl personaliserade algoritmer fungerar jämfört med kontrollen är en delning på 50/50 bäst under aktivitetens livstid.
 
-### Är kryssmarkeringarna som anger att en modell har skapats för den upplevelseuppdateringen om rapportens datumintervall ändras?
+Det bästa sättet är att behålla uppdelningen av trafikallokeringen under aktivitetens livstid så att besökarna inte växlar mellan målinriktade upplevelser och kontrollupplevelser.
 
-Nej, bockmarkeringar för modellgenerering visar endast de modeller som är byggda hittills. Det finns inget sätt att gå tillbaka och se när en modell är klar.
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### Om en besökare INTE ser aktiviteten och konverterar, räknas konverteringen i min aktivitet? [!UICONTROL Auto-Target]
 
