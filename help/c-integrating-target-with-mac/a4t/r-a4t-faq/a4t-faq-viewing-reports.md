@@ -4,9 +4,9 @@ description: Det här avsnittet innehåller svar på frågor som ofta ställs om
 title: Visa rapporter - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2187'
 ht-degree: 1%
 
 ---
@@ -138,11 +138,11 @@ Det bästa är att du stoppar den befintliga aktiviteten och sedan skapar en ny 
 
 ## Hur räknas besök i Analytics och konverteringskrediter som allokeras i en Auto-Target-aktivitet som använder A4T?
 
-När en besökare kvalificerar sig för, visar innehåll eller konverterar i en A4T-aktivitet, skickar händelsedata till [!DNL Target] , vilket gör det möjligt [!DNL Analytics]att attribuera konverteringshändelser och andra klickströmshändelser på sidan till relevanta [!DNL Analytics] [!DNL Target] aktiviteter och upplevelser.
+När en besökare kvalificerar sig för, visar innehåll eller konverterar i en A4T-aktivitet, skickar händelsedata till [!DNL Target] , vilket gör det möjligt [!DNL Analytics]att attribuera konverteringshändelser och andra klickströmshändelser som sker på sidan till relevanta [!DNL Analytics] [!DNL Target] aktiviteter och upplevelser.
 
 Här följer några saker du bör tänka på när du tittar på [!DNL Analytics] rapporter:
 
-* I allmänhet bör rapportfönstret alltid börja från aktivitetens startdatum.
+* Som en god praxis bör ditt rapporteringsfönster börja från aktivitetens startdatum.
 * Om en konvertering sker utanför rapportens fönster visas inte konverteringen i [!DNL Analytics].
-* När besökarna i den&quot;riktade&quot; delen av trafiken för aktiviteter kan se olika upplevelser från en session till nästa. Deras profil eller kontext har ändrats och [!UICONTROL Auto-Target] [!DNL Target]deras maskininlärningsalgoritmer avgör att de är mer benägna att konvertera en ny upplevelse. Detta skiljer sig från vanliga A/B-testningsaktiviteter, där upplevelserna är snäva mot besökarna vid olika besök.
-* Om en besökare ser flera upplevelser på flera besök, tillskrivs all konvertering alltid den senaste upplevelsen som besökaren såg. Besöken kommer dock att räknas upp för varje upplevelse som besökaren såg. Detta kan på ett konstlat sätt påverka konverteringsgraden per upplevelse när man visar upplevelser med&quot;[!UICONTROL Targeted]&quot;-dimensionen i [!DNL Adobe Analytics] rapporter.
+* När besökarna befinner sig i den&quot;riktade&quot; delen av trafiken för [!UICONTROL Auto-Target] aktiviteter kan de se olika upplevelser från en session till nästa. Om deras profil eller kontext till exempel har ändrats och [!DNL Target]maskininlärningsalgoritmerna avgör att de är mer benägna att konvertera på en ny upplevelse. När besökarna rör sig från upplevelse till upplevelse ökar besöksantalet för varje upplevelse som ses. Detta skiljer sig från vanliga A/B-testningsaktiviteter där upplevelserna är kladdiga för besökarna vid olika besök.
+* Om en besökare ser flera upplevelser på flera besök, tillskrivs all konvertering alltid den senaste upplevelsen som besökaren såg. Som vi nämnt ökas besöksantalet för varje upplevelse som besökaren såg. Detta kan på ett konstlat sätt påverka konverteringsgraden per upplevelse när man visar upplevelser med&quot;[!UICONTROL Targeted]&quot;-dimensionen i [!DNL Adobe Analytics] rapporter.
