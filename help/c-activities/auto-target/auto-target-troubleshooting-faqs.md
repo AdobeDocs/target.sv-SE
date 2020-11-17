@@ -4,7 +4,7 @@ description: Felsökning och vanliga frågor om Automatiskt mål i Adobe Target.
 title: Automatisk målsökning och vanliga frågor
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring 
 
 ### När ska jag stoppa min [!UICONTROL Auto-Target] aktivitet?
 
-[!UICONTROL Auto-Target] kan användas som&quot;alltid on&quot;-personalisering som hela tiden optimeras. Särskilt för omogna innehåll finns inget behov av att stoppa din [!UICONTROL Auto-Target] aktivitet.
+[!UICONTROL Auto-Target] kan användas som&quot;alltid on&quot;-personalisering som hela tiden optimeras. I synnerhet för omogna innehåll finns det inget behov av att stoppa din [!UICONTROL Auto-Target] aktivitet.
 
 Om du vill göra väsentliga ändringar i innehållet i din [!UICONTROL Auto-Target] aktivitet är det bästa sättet att starta en ny aktivitet så att andra användare inte förväxlar eller relaterar tidigare resultat med annat innehåll.
 
