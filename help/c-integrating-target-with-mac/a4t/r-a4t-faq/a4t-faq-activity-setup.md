@@ -4,9 +4,9 @@ description: Det här avsnittet innehåller svar på frågor som ofta ställs om
 title: Aktivitetsinställningar - vanliga A4T-frågor
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,3 @@ Om procentsatserna inte justeras efter medelaktiviteten skickas alltid en besök
 
 * Efter att ha befunnit sig i trafikens avsedda&quot;bucket&quot; kan besökaren få en annan upplevelse vid besök om maskininlärningsmodellerna visar att en annan upplevelse är relevant för det nya besöket.
 * Efter att ha tilldelats kontrollens&quot;bucket&quot; för trafik, kommer en besökare alltid att se samma upplevelse eftersom upplevelsetilldelningen baseras på en deterministisk pseudoslumpmässig hash av besökarens visitorId.
-
-## Rekommenderas det att vi använder den anpassade modellen för Automatiskt mål och A4T med en delning av 90 (Kontroll)/10 (Mål) tills modellerna byggs?
-
-Din optimala trafikallokeringsdelning beror på vad du vill uppnå.
-
-Om målet är att personalisera så mycket trafik som möjligt kan ni hålla er till 90 % målinriktning och 10 % kontroll över aktivitetens livstid. Om målet är att köra ett experiment där man jämför hur väl personaliserade algoritmer fungerar jämfört med kontrollen är en delning på 50/50 bäst.
-
