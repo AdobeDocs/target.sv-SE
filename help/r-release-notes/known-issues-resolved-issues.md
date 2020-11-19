@@ -4,9 +4,9 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Kända problem och lösta problem
 
-Information om kända fel i den här versionen av Target. Innehåller även information om problem som har lösts.
+Information om kända fel för [!DNL Adobe Target]. Innehåller även information om problem som har lösts.
 
 >[!NOTE]
 >
@@ -128,6 +128,12 @@ Den 10 maj 2020 uppdaterade vi våra GEO-leverantörsfiler, som innehöll vissa 
 
 Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetiketten&quot; i flera timmar efter att bilderna har överförts. I de flesta fall är detta bara ett problem med etiketten: bilderbjudandena kan fortfarande användas i aktiviteter och levereras. I vissa fall kanske det inte finns något bilderbjudande för åtgärden Ersätt innehåll > Bild. Om detta inträffar bör du ladda upp bilderbjudandet igen och kontrollera efter några timmar om du vill se om bilderbjudandet kan ersättas. (TGT-37458)
 
+### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i målgränssnittet.
+
+Rapporter som genererats för hämtning som CSV-filer är inkonsekventa om aktiviteten använder mer än ett mätvärde. Den hämtningsbara rapporten genereras endast baserat på rapportinställningarna och tar hänsyn till samma värde för andra mätvärden som används.
+
+Sanningens källa är alltid den rapport som visas i [!DNL Target] användargränssnittet.
+
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan är lösta flyttas de till följande avsnitt och ytterligare anteckningar läggs till om det behövs.
@@ -190,7 +196,7 @@ at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad kli
 
 ### Stöd för Enterprise Permissions i mål-API:er {#api}
 
-Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas på standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
+Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
 
 ### Rapportering och extrema order
 
