@@ -4,15 +4,15 @@ description: I Adobe Target är framgångsmått parametrar som används för att
 title: Framgångsstatistik i Adobe Target
 feature: success metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# Framgångsmått{#success-metrics}
+# Framgångsmått
 
 Resultatvärden är parametrar som används [!DNL Adobe Target] för att mäta en aktivitets framgång. Framgångsstatistik innehåller viktiga affärsåtgärder som gör det möjligt att avgöra hur framgångsrik en viss upplevelse eller ett visst erbjudande är i en [!DNL Target] aktivitet.
 
@@ -28,7 +28,7 @@ Inkomstmått som är inställda på&quot;[!UICONTROL Increment count & keep user
 
 >[!NOTE]
 >
->Standardbeteendet för aktiviteter som använder [Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) är&quot;[!UICONTROL Increment count & keep user in activity]&quot; med&quot;[!UICONTROL Once per entrant].&quot;
+>För aktiviteter som använder [Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) använder målmåttet alltid inställningarna[!UICONTROL Increment Count & Keep User in Activity]och[!UICONTROL On Every Impression]. Detta går *inte* att konfigurera.
 
 Följande framgångsmått finns:
 
@@ -105,7 +105,7 @@ Använd de avancerade inställningarna för att avgöra vad som händer när en 
 Välj önskat beteende:
 
 * En gång per deltagare
-* Vid varje intryck (exklusive siduppdatering)
+* Vid varje intryck (exklusive uppdatering av sidor)
 * På varje intryck
 
 ## Utbildningsvideo: Aktivitetsmått
