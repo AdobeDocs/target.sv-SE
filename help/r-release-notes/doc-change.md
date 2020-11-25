@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3010'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,9 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 24 november | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>[Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i målgränssnittet.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Följande lösta problem har lagts till:<ul><li>[Analyser för målrapportering (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [Måttdefinitioner - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Följande frågor och svar har lagts till: &quot;Varför har jag inte åtkomst till alternativen för Avancerade inställningar när jag konfigurerar min målkod?&quot; |
+|  | [Framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md) | Justerad text i anteckningen om aktiviteter som använder A4T. |
 | 17 november | [Aktivitetsinställningar - vanliga A4T-frågor](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Följande frågor och svar har lagts till: &quot;Kan en besökare växla mellan målinriktade och kontrollerade upplevelser vid olika besök i en Auto-Target-aktivitet som använder A4T?&quot; |
 |  | [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Följande frågor och svar har lagts till: &quot;Rekommenderar du att vi använder Automatiskt mål med en delning på 90 (Kontroll)/10 (Mål) tills modellerna har byggts?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Följande frågor och svar har lagts till: &quot;Hur räknas besök i Analytics och konverteringskrediter som allokeras i en Auto-Target-aktivitet som använder A4T?&quot; |
