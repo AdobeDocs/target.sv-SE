@@ -4,15 +4,15 @@ description: Det här avsnittet innehåller svar på frågor som ofta ställs om
 title: Måttdefinitioner - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 
-# Måttdefinitioner - A4T FAQ{#metric-definitions-a-t-faq}
+# Måttdefinitioner - A4T FAQ
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om metriska definitioner och som använder Analytics som rapportkälla för Target (A4T).
 
@@ -20,9 +20,15 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om metriska def
 
 Standardförfallotiden för aktiviteten är 90 dagar efter en besökares senaste interaktion med aktiviteten. Detta kan justeras av ClientCare vid behov. Den här inställningen är global för alla aktiviteter, så den bör inte justeras för ett fall.
 
-## Fungerar de avancerade alternativen för framgångsmått i Target med A4T? {#section_F060E3438F4144258BB95813EDEABDAA}
+## Varför har jag inte åtkomst till alternativen för Avancerade inställningar när jag konfigurerar min målkod? {#adv-settings}
 
-Dessa alternativ fungerar för närvarande inte med A4T.
+Alternativen [!UICONTROL Advanced Settings] är inte tillgängliga för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T).
+
+För aktiviteter som använder A4T kommer målmåttet alltid att använda inställningarna &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; och &quot;[!UICONTROL On Every Impression]&quot;. Detta går *inte* att konfigurera.
+
+För andra aktiviteter än A4T kan du använda alternativen [för](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) Avancerade inställningar för att hantera hur du mäter framgång. Du kan lägga till beroenden, välja om du vill behålla användaren i aktiviteten eller ta bort dem och om mätvärdet ska räknas en gång per deltagare eller vid varje intryck. Du får tillgång till alternativen i en icke-A4T-aktivitet genom att klicka på de lodräta ellipserna > [!UICONTROL Advanced Settings] [!UICONTROL Advanced Settings], vilket visas nedan:
+
+![Avancerade inställningar](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 ## Vad är beräknade mätvärden och hur ersätter de SiteCatalyst:Event-rutan som jag använde tidigare? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
