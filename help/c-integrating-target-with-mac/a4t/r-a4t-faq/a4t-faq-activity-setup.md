@@ -4,9 +4,9 @@ description: Det här avsnittet innehåller svar på frågor som ofta ställs om
 title: Aktivitetsinställningar - vanliga A4T-frågor
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om aktivitetsin
 ## Vilka aktivitetstyper stöder Analytics som rapportkälla (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 En fullständig lista finns i&quot;Aktivitetstyper som stöds&quot; i [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
+## Varför har jag inte åtkomst till Avancerade inställningar när jag konfigurerar mina måltider?
+
+För aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet alltid inställningarna &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; och &quot;[!UICONTROL On Every Impression]&quot;. Detta går *inte* att konfigurera.
+
+Mer information finns i&quot;När jag konfigurerar min målkod, varför kan jag inte komma åt alternativen för Avancerade inställningar?&quot; i [Metrisk definition - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Jag har just skapat en aktivitet. Varför ser jag inga data som kommer in? {#section_9F8092BE4225442896F926540292F221}
 
