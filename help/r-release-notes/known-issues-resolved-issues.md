@@ -4,9 +4,9 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '4232'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Den 10 maj 2020 uppdaterade vi våra GEO-leverantörsfiler, som innehöll vissa 
 
 Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetiketten&quot; i flera timmar efter att bilderna har överförts. I de flesta fall är detta bara ett problem med etiketten: bilderbjudandena kan fortfarande användas i aktiviteter och levereras. I vissa fall kanske det inte finns något bilderbjudande för åtgärden Ersätt innehåll > Bild. Om detta inträffar bör du ladda upp bilderbjudandet igen och kontrollera efter några timmar om du vill se om bilderbjudandet kan ersättas. (TGT-37458)
 
-### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i målgränssnittet.
+### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i målgränssnittet. {#csv}
 
 Rapporter som genererats för hämtning som CSV-filer är inkonsekventa om aktiviteten använder mer än ett mätvärde. Den hämtningsbara rapporten genereras endast baserat på rapportinställningarna och tar hänsyn till samma värde för andra mätvärden som används.
 
@@ -137,6 +137,37 @@ Sanningens källa är alltid den rapport som visas i [!DNL Target] användargrä
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan är lösta flyttas de till följande avsnitt och ytterligare anteckningar läggs till om det behövs.
+
+### Analyser för målrapportering (A4T)
+
+Följande problem relaterade till A4T har åtgärdats:
+
+* Ett problem som påverkade A4T-aktiviteter med hjälp av ett [!DNL Analytics] målmått som gjorde att A4T-rapporter visade en oväntad trafikdelning eller artificiellt uppblåsta konverteringar.
+
+   Detta problem påverkade A4T-rapportering under följande förhållanden:
+
+   * Aktiviteten skapades eller sparades mellan 15 september och 5 november 2020 (4:00 PST), och
+   * Aktiviteten hade ett [!DNL Analytics] mått valt som målmått.
+
+   [!DNL Target] korrekt uppdelad trafik under denna tid. En delning på 50/50 i aktivitetsinställningarna kan dock visas, till exempel som en delning på 90/10 i A4T-rapporter.
+
+   För aktiviteter som påverkas är rätt trafikdelning synlig för förstagångsbesökare av aktiviteten efter 5 november (4.00 PST). Nya aktiviteter som skapats eller sparats efter den här tiden kommer att rapportera trafikuppdelningen korrekt.
+
+* Ett problem som påverkade A4T-aktiviteter med ett [!DNL Target] målmått som fick A4T-rapporter att rapportera låga eller inga konverteringar.
+
+   >[!NOTE]
+   >
+   >Detta problem påverkade endast A4T-rapportering. Det påverkade inte aktivitetsleveransen.
+
+   Detta problem påverkade A4T-rapportering under följande förhållanden:
+
+   * A4T-aktiviteten var aktiv mellan 22 september och 11 november 2020 (2:30 PST) och
+   * Aktiviteten hade ett [!DNL Target] mätvärde valt som målmätvärde, och
+   * När en besökare når målhändelsen för aktiviteten (t.ex. [!UICONTROL Clicked an Element]) fanns det också en lägre prioritet för icke-A4T-aktivitet som matchade konverteringshändelsen. Detta kan inträffa om aktiviteten som inte är A4T antingen har konfigurerats med samma mått som A4T-aktiviteten eller om den har konfigurerats med &quot;any mbox&quot;-måttet.
+
+   Detta problem påverkade rapporteringen av A4T-aktiviteter som var aktiva mellan 22 september och 11 november 2020 (2:30 PST). Rapportering för påverkade A4T-aktiviteter visar konverteringar korrekt utanför det här datumintervallet. Rapportering för icke-A4T-aktiviteter påverkades inte.
+
+Om du har ytterligare frågor kan du kontakta din Customer Success Manager (CSM) eller [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
 ### Automatisk målrapportering {#at-metrics}
 
