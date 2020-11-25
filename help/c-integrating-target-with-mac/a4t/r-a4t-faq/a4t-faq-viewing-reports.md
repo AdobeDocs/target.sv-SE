@@ -4,9 +4,9 @@ description: Det här avsnittet innehåller svar på frågor som ofta ställs om
 title: Visa rapporter - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2244'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ Segment används oftast på den övre delen av en panel i segmentets släppzon. 
 Den [!DNL Target] variabel som skickas till [!DNL Analytics] har en 90-dagars standardförfalloperiod. (Obs! denna förfalloperiod kan justeras av kundtjänst om det behövs). När besökare navigerar på webbplatsen genom det här förfallofönstret är de en del av många [!DNL Target] aktiviteter, som alla samlas in i dimensionen.
 
 När ni segmenterar för att en aktivitet ska vara närvarande i en träff får ni alltså alla upplevelser som är en del av den aktiviteten *plus* alla andra upplevelser som är bestående i den träffen.
+
+## Varför har jag inte åtkomst till Avancerade inställningar när jag konfigurerar mina måltider?
+
+För aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet alltid inställningarna &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; och &quot;[!UICONTROL On Every Impression]&quot;. Detta går *inte* att konfigurera.
+
+Mer information finns i&quot;När jag konfigurerar min målkod, varför kan jag inte komma åt alternativen för Avancerade inställningar?&quot; i [Metrisk definition - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Bör jag använda besökare, besök eller aktivitetsuttryck som min normaliserande mätning (dvs. beräkningsmetod)? {#metrics}
 
