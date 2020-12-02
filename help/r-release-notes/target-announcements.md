@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,15 @@ Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner M
 
 Nu mer än någonsin har marknadsförare, produktägare och utvecklare fått i uppgift att optimera den övergripande kundupplevelsen på webbplatser, i appar och på alla andra sätt de har kontakt med sina kunder. Flera verktyg med vattentäta skott och komplicerade implementeringar gör det inte enklare.
 
-På det här webbinariet diskuterar Adobe Target produktexperter hur rörliga optimeringsbeslut för kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.
+I det här inspelade webbinariet diskuterar Adobe Target produktexperter hur flyttande beslut om optimering av kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.
 
-* **Tisdagen den 10 november 2020**
-* **10.00 PST | kl. 12 CST | 1:00 EST**
+>[!VIDEO](https://video.tv.adobe.com/v/328148)
 
 [Anmäl dig här för detta spännande event.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
-* **Du kan klicka här för att visa [webbinariet Inspelning](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **Klicka här för att visa [webbinariet](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital rapporterar att&quot;vi har vunnit fem år framåt när det gäller digital användning inom konsumenter och företag på ungefär åtta veckor.&quot; *
 
@@ -49,4 +48,6 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 
 ## Adobe Target Experience Builder: Developer chat, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
-I och med den kommande utfasningen av mbox.js den 18 januari 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js. Du kan [visa webbinariet här](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+I och med den kommande utfasningen av mbox.js den 18 januari 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js.
+
+[Se inspelningen av webbinariet här](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
