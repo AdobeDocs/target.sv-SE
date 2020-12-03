@@ -4,9 +4,9 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
 workflow-type: tm+mt
-source-wordcount: '4232'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,7 @@ Följande är kända problem med Recommendations-aktiviteter:
 * Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. (TGT-35777)
 * Recommendations-aktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
 * Den feed-status för anpassade kriterier som visas i kriterielistan (kortvyn) uppdateras var tionde minut och kan i sällsynta fall vara mer än tio minuter gammal. Statusen som visas i redigeringsvyn för anpassade kriterier hämtas i realtid och är alltid uppdaterad. (TGT-35896, TGT-36173)
+* Kriterier och designkort visar inte rätt antal aktiviteter där de används. Om kriterier eller design används i en AB-aktivitet, kommer aktiviteten inte att beaktas och kortet kan visa att designen/kriterierna inte används när den faktiskt används.
 
 ### Multivariata testaktiviteter (MVT)
 
@@ -272,7 +273,7 @@ De här problemen löstes.
 
 ### Mål-API:er
 
-v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som skapats via Target så att de ligger i standardarbetsytan. (TTTEAM-41957)
+v1-versionen av erbjudandets API:er på Adobe I/O hanterar alla erbjudanden som skapats med Target så att de ligger i standardarbetsytan. (TTTEAM-41957)
 
 Problemet löstes.
 
