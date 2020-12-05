@@ -4,7 +4,7 @@ description: Information om funktionen adobe.target.applyOffer(options) för Jav
 title: adobe.target.applyOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# adobe.target.applyOffer(options) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
+# adobe.target.applyOffer(options)
 
 Den här funktionen används för att tillämpa svarsinnehållet.
 
@@ -32,7 +32,7 @@ Alternativparametern är obligatorisk och har följande struktur:
 
 I följande exempel visas hur du använder `getOffer` och `applyOffer` tillsammans:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "mbox",   
   "success": function(offers) {           
