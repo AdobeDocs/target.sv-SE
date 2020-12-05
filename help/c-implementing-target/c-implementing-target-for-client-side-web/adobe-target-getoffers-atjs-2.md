@@ -4,9 +4,9 @@ description: Information om funktionen adobe.target.getOffers(options) för Java
 title: adobe.target.getOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 | Request > execute > mboxes > mbox > order > total | Nej | `>=` 0 | Hämta erbjudanden för en angiven mbox med de angivna ordersummorna. |
 | Request > execute > mboxes > mbox > order > purchaseProductIds | Nej | Inga tomma<br>värdenVarje värdes maximala längd = 50<br>Sammanfogad och separerad med<br>kommaProduct ID:s totala längd `<=` 250 | Hämta erbjudanden för en angiven mbox med angivet produkt-ID för beställning. |
 
-## Ring `getOffers()` för alla vyer
+## Anropa getOffers() för alla vyer
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
       prefetch: {
@@ -85,9 +85,9 @@ adobe.target.getOffers({
 });
 ```
 
-## Anropa `getOffers()` för att hämta de senaste vyerna med skickade parametrar och profilparametrar
+## Anropa getOffers() för att hämta de senaste vyerna med skickade parametrar och profilparametrar
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     "prefetch": {
@@ -106,9 +106,9 @@ adobe.target.getOffers({
 });
 ```
 
-## Anrop `getOffers()` till hämtning av mbox med parametrar och profilparametrar skickade.
+## Anropa getOffers() för att hämta mbox med parametrar och profilparametrar som skickats in.
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     execute: {
@@ -135,7 +135,7 @@ adobe.target.getOffers({
 
 ## Anropa getOffers() för att hämta analysnyttolasten från klientsidan
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 
 **Svar**:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
@@ -193,7 +193,7 @@ Med at.js 2.x kan du hämta flera mbox via `getOffers()` API. Du kan också häm
 
 I följande exempel visas en enkel HTML-sida med at.js 2.x implementerad:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -215,7 +215,7 @@ Anta att du har tre behållare som du vill ändra via innehåll som tagits emot 
 
 Koden för begäran och återgivning kan se ut som i följande exempel:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     prefetch: {
@@ -266,11 +266,11 @@ I det här exemplet används variabeln count för att skapa CSS-väljarna. I ett
 
 Observera att det här exemplet använder `prefetch > mboxes`men du kan också använda `execute > mboxes`. Om du använder prefetch i `getOffers()`måste du också använda prefetch i `applyOffers()` anropet.
 
-## Anrop `getOffers()` att utföra en pageLoad
+## Anropa getOffers() för att utföra pageLoad
 
 I följande exempel visas hur du utför en pageLoad med getOffers() med at.js 2.*x*
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
         execute: {
