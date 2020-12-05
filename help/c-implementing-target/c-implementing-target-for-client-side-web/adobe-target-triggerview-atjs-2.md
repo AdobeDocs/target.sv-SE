@@ -4,7 +4,7 @@ description: Information om funktionen adobe.target.triggerView (viewName, optio
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Den här funktionen kan anropas när en ny sida läses in eller när en komponen
 
 `triggerView()` anropa för att skicka ett meddelande till Target-backend för att öka aktivitetsinavbildningar och andra mätvärden.
 
-```
+```javascript
 adobe.target.triggerView("homeView")
 ```
 
@@ -38,6 +38,6 @@ adobe.target.triggerView("homeView")
 
 `triggerView()` anrop om att inte få meddelanden skickade till Target-backend för att göra en inläsning.
 
-```
+```javascript
 adobe.target.triggerView("homeView", {page: false})
 ```
