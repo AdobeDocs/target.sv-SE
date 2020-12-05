@@ -4,7 +4,7 @@ description: Information om funktionen adobe.target.getOffer(options) för JavaS
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Använd med `adobe.target.applyOffer()` för att bearbeta svaret eller använd d
 
 Lägga till parametrar med getOffer() och använd applyOffer() för lyckad hantering:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 Lägga till parametrar och profilparametrar med getOffer() och använd applyOffer() för lyckad hantering:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ Använda anpassad tidsgräns och anpassad hantering av lyckade resultat med getO
 
 &quot;YOUR_OWN_CUSTOM_HANDLING_FUNCTION&quot; är en platshållare för en funktion som kunden skulle definiera.
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ Svarsparametern som skickas till motringningen om att åtgärden lyckades är en
 
 ## Exempel
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
