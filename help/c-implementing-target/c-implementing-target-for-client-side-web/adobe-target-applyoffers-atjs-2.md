@@ -4,7 +4,7 @@ description: Information om funktionen adobe.target.applyOffers(options) för Ja
 title: adobe.target.applyOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Med den här funktionen kan du tillämpa mer än ett erbjudande som har hämtats
 
 ## Exempel på applyOffers()-anrop
 
-```
+```javascript
 adobe.target.applyOffers({response:{
   "execute": {
     "pageLoad": {
@@ -110,7 +110,7 @@ adobe.target.applyOffers({response:{
 
 ## Exempel på anrop till Promise-kedja med `getOffers()` och `applyOffers()`, eftersom dessa funktioner är Promise-baserade
 
-```
+```javascript
 adobe.target.getOffers({...})
 .then(response => adobe.target.applyOffers({ response: response }))
 .then(() => console.log("Success"))
