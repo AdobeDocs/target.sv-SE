@@ -4,7 +4,7 @@ description: Information om funktionen targetPageParams() för JavaScript-biblio
 title: targetPageParams()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Du kan skicka in parametrar till target-global-mbox med hjälp av `targetPagePar
 
 Et-avgränsad lista (värdena måste vara URL-kodade):
 
-```
+```javascript
 function targetPageParams() { 
     return "param1=value1&param2=value2&p3=hello%20world"; 
 }
@@ -36,7 +36,7 @@ function targetPageParams() {
 
 Array (värdena behöver inte vara URL-kodade):
 
-```
+```javascript
 targetPageParams = function() { 
      return ["a=1", "b=2", "c=hello world"]; 
 };
@@ -44,7 +44,7 @@ targetPageParams = function() {
 
 JSON (värdena behöver inte vara URL-kodade):
 
-```
+```javascript
 targetPageParams = function() { 
   return { 
     "a": 1, 
