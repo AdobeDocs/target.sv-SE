@@ -4,7 +4,7 @@ description: Information om funktionen adobe.target.sendNotifications(options) f
 title: adobe.target.sendNotifications(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Den här funktionen skickar ett meddelande till Target edge när en upplevelse �
 
 ## sendNotifications()-anrop efter återgivning av förhämtade kryssrutor
 
-```
+```javascript
 function createTokens(options) {
   return options.map(e => e.eventToken);
 }
