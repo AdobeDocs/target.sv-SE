@@ -4,7 +4,7 @@ description: Information om sidan Modifications (Ändringar) där du kan visa ä
 title: Ändringar
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
 
    Om du till exempel vill ändra ett elements färg:
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
 
    Så här definierar du en klass för ett övertäckningselement:
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
 
    Använd till exempel följande HTML-kodfragment för att skapa en övertäckning `<div>` med den CSS-klass som definieras ovan:
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * Växla på DOM-klar med jQuery
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
 
 * Växla på DOM-klar, ingen jQuery (stöder inte Internet Explorer 8)
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
 
    Fördelen med detta är att bytet sker tidigare än när det är DOM-klart. Plugin-programmet hanterar döljning och visning i förväg och kräver ett id för elementet.
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
 
 * Anpassad omdirigering som skickar befintliga parametrar, `s_tnt` param (för äldre integration till Analytics), referensparam och mbox-session
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
 
 Exempel:
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
