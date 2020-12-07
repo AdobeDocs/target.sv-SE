@@ -4,7 +4,7 @@ description: Skapa JSON-erbjudanden i erbjudandebiblioteket för användning i d
 title: Skapa JSON-erbjudanden
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -45,7 +45,7 @@ JSON-erbjudanden stöds endast i aktiviteter som skapats med den formulärbasera
 
 Här är ett exempel:
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 De åtgärder som skickas till motringningen är en objektmatris. Förutsatt att vi har ett enda JSON-erbjudande har det här innehållet:
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ De åtgärder som skickas till motringningen är en objektmatris. Förutsatt att
 
 Åtgärdsarrayen har följande struktur:
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ För att extrahera JSON-erbjudandet itererar du genom åtgärder och söker efte
 
 Låt oss säga att följande JSON-erbjudande levereras till din webbsida:
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ Låt oss säga att följande JSON-erbjudande levereras till din webbsida:
 
 I följande kod visas hur du kommer åt attributet &quot;greeting&quot;:
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
