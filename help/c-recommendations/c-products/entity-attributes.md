@@ -4,7 +4,7 @@ description: Använd entitetsattribut för att skicka produkt- eller innehållsi
 title: Entitetsattribut
 feature: entities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -40,7 +40,7 @@ I allmänhet kan visningsinformationsrutan se ut som i följande exempel om du a
 
 Alla entitetsparameterattribut är skiftlägeskänsliga.
 
-```
+```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
@@ -120,7 +120,7 @@ För kategoribaserade rekommendationer används ett kommatecken för att skilja 
 
 I följande kod är till exempel kategorin Vinnare indelad i flera underkategorier:
 
-```
+```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
@@ -223,7 +223,7 @@ Exempel: `'entity.event.detailsOnly=true'`
 
 I exemplen nedan uppdaterar det första mbox-anropet katalogen och beteendedata. Det andra mbox-anropet uppdaterar bara katalogen.
 
-```
+```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
