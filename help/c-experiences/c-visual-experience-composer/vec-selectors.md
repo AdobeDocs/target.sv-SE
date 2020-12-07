@@ -4,7 +4,7 @@ description: En elementväljare är ett CSS-uttryck som kan identifiera ett elle
 title: Elementväljare som används i Visual Experience Composer
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Målet använder en enkel algoritm för att skapa en väljare. Här följer en k
 
    Exempel:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- Selector is computed for this element -->
        <ul class="navigation">
@@ -55,7 +55,7 @@ Målet använder en enkel algoritm för att skapa en väljare. Här följer en k
 
    Exempel:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
@@ -78,7 +78,7 @@ Målet använder en enkel algoritm för att skapa en väljare. Här följer en k
 
    Exempel:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
