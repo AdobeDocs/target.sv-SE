@@ -4,7 +4,7 @@ description: Information om hur man integrerar e-post med Recommendations.
 title: Integrera Recommendations med e-post
 feature: recommendations general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Du kan inte returnera standardinnehåll med leverans-API:t.
 
 Följande kod är ett exempel på en API-leveransbegäran:
 
-```
+```javascript
 curl -X POST \ 
   'https://clientcode.tt.omtrdc.net/rest/v1/mbox/?client=clientcode' \ 
   -H 'authorization: Bearer 3423614b-4843-4664-83c4-c6c3f6c8869b' \ 
