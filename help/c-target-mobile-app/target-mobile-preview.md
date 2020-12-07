@@ -4,7 +4,7 @@ description: Använd länken för förhandsgranskning av mobilmaterial för att 
 title: Använda länken för förhandsgranskning för mobila enheter i Adobe Target Mobile
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
    Följande kodfragment är ett exempel:
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
    **Android:** I appen anropar du `Config.trackAdobeDeepLink(URL);` när anroparen uppmanas att öppna resursen med det URL-schema som angavs i föregående steg.
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
    Om du vill att Mobile Preview ska fungera för Android måste du även lägga till följande kodfragment i [!DNL AndroidManifest.xml]:
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
