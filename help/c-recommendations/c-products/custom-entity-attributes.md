@@ -5,7 +5,7 @@ title: Anpassade entitetsattribut i Adobe Target
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Du kan ta med upp till 500 värden i ett flervärdesattribut.
 
 I följande exempel visas hur du använder `targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ Var försiktig när du redigerar en CSV-fil med Raw-katalog direkt.
 
 Du kan skicka flervärdesattribut med leverans-API:t i en mbox-parameter som ett strängvärde som innehåller en escape-matris.
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
