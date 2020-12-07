@@ -4,9 +4,9 @@ description: Information om hur du arbetar med Adobe Client Care för att implem
 title: CNAME och Adobe Target
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 677d5ed16377fc32b4506ca736084319e5643e67
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
    >
    >AdobeCertificateAuthority, DigiCert, kan inte utfärda ett certifikat förrän det här steget har slutförts. Därför kan Adobe inte uppfylla din begäran om CNAME-implementering förrän det här steget är klart.
 
-1. [Fyll i det här formuläret](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) och inkludera det när du [öppnar en Adobe Client Care-biljett som begär CNAME-stöd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Fyll i det här formuläret](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) och inkludera det när du [öppnar en Adobe Client Care-biljett som begär CNAME-stöd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] -klientkod:
    * Värdnamn för SSL-certifikat (exempel: `target.example.com target.example.org`):
