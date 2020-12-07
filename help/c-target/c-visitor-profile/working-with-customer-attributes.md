@@ -4,7 +4,7 @@ description: Information om hur man använder kunddata från CRM-databaser (cust
 title: Kundattribut i Adobe Target
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -131,7 +131,7 @@ Profilskriptet kan användas direkt i erbjudanden för att leverera attribut som
 
 Skicka `mbox3rdPartyId` som en parameter till den globala mbox inuti `targetPageParams()` metoden. Värdet för `mbox3rdPartyId` ska anges till det kund-ID som fanns i CSV-datafilen.
 
-```
+```javascript
 <script type="text/javascript">
             function targetPageParams() {
                return 'mbox3rdPartyId=2000578';
