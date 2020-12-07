@@ -4,7 +4,7 @@ description: Information som hjälper dig att använda Adobe Target QA-bokmärke
 title: Activity QA bookmarklet för Adobe Target
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Eftersom [QA-läget](/help/c-activities/c-activity-qa/activity-qa.md) är fast m
 
 Om du vill använda [!DNL Target] QA-bokmärket skapar du ett bokmärke som innehåller följande JavaScript-kod och lägger till den i webbläsarens bokmärkesverktygsfält:
 
-```
+```javascript
 javascript:(
     function () {
         if (window.location.href.indexOf('?') != -1) {
@@ -55,7 +55,7 @@ Till skillnad från at.js 1.*x*, at.js 2.*x* stöder inte cookies från tredje p
 
 Om du vill använda [!DNL Target] QA-bokmärket skapar du ett bokmärke som innehåller följande JavaScript-kod och lägger till den i webbläsarens bokmärkesverktygsfält:
 
-```
+```javascript
 javascript:(
     function () {
         var AT_QA_MODE = 'at_qa_mode=';
