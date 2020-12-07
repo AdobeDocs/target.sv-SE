@@ -4,7 +4,7 @@ description: Använd QA-URL:er med leverans på serversidan för att utföra enk
 title: Använd aktivitets-QA med leverans på serversidan
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Standardimplementeringen av Activity QA har stöd för att skicka `qa_mode` para
 
 I följande kodexempel visas Activity QA i ett anrop på serversidan:
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
