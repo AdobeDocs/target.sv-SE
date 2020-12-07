@@ -4,7 +4,7 @@ description: En design definierar hur rekommendationer visas på en sida.
 title: Skapa en design
 feature: designs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -109,7 +109,7 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 
 1. Följande kod är ett exempel på vad du kan klistra in i din design:
 
-   ```
+   ```javascript
        #* 
        * "Return a simple list of recommended entity ids"   
        *#
@@ -182,7 +182,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 
 Du kan också skicka ytterligare information i svaret. Följande kodfil är ett mer komplext exempel som returnerar mycket mer än enhets-ID:n med associerade platser (ordning). I det här designexemplet returneras även aktivitetsinformation, målprofilinformation (om tillämpligt) och andra `entity.attributes` som är kopplade till de returnerade objekten.
 
-```
+```javascript
     {   
      "adobeRecommendations": {   
       "notes": {   
