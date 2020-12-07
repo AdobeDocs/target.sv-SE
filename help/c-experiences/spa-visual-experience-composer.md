@@ -4,7 +4,7 @@ description: Med Visual Experience Composer (VEC) för Single Page Apps (SPA) i 
 title: Visual Experience Composer (SPA) med en sida
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3648'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    Om vi som marknadsförare vill köra A/B-tester på hela hemsidan kanske vi vill kalla vyn&quot;home&quot; som kan extraheras från webbadressen:
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    ![reaktionsprodukter](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    Nu kanske marknadsförarna vill göra ett A/B-test för att se om en ändring av färgen från blå till röd när expressleverans är valt kan öka konverteringen i stället för att behålla knappfärgen blå för båda leveransalternativen.
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ Så hur kan vi sedan hämta vår inloggade vy och visa&quot;Du är berättigad t
 
 Du kan använda de nya funktionerna `getOffers()` och `applyOffers()` funktionerna som stöds i at.js 2.x:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {
