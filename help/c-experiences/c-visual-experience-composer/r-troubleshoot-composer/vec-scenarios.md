@@ -4,7 +4,7 @@ description: Scenerna i det här avsnittet visar hur ändringar som gjorts på s
 title: Scenarier för sidändring
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Det är möjligt att den första klassen i elementet kan läggas till av JavaScr
 
 **Infogat element:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -48,7 +48,7 @@ Väljaren fungerar som förväntat eftersom den inte `li.women-section:eq(0)` p�
 
 Före:
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
@@ -58,7 +58,7 @@ Före:
 
 Efter:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
@@ -73,7 +73,7 @@ I det här scenariot görs ett försök att infoga en lista när ett objekt i en
 
 **Infogat element:**
 
-```
+```html
 <ul class="nav"> 
    <li class="item"> Sale </li> 
    <li> class="item"> Offers </li> 
@@ -92,7 +92,7 @@ Väljaren fungerar inte eftersom `ul.nav:eq(0)` innehåller ett dynamiskt tillag
 
 Före:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
@@ -102,7 +102,7 @@ Före:
 
 Efter (försök):
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="item"> Sale</li>
@@ -121,7 +121,7 @@ I det här scenariot infogas ett listobjekt efter det markerade elementet.
 
 **Infogat element:**
 
-```
+```html
 <ul class="nav"> 
    <li class="men-section"> Men Clothes</li> 
    <li class="women-section"> Women Clothes</li> 
@@ -140,7 +140,7 @@ I det här fallet fungerar infogning av en lista efter listslutet med det marker
 
 Före:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
@@ -150,7 +150,7 @@ Före:
 
 Efter:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>
@@ -169,7 +169,7 @@ I det här scenariot tas listobjektet före det valda elementet bort.
 
 **Borttaget element:**
 
-```
+```html
 <li class="men-section"> Men </li>
 ```
 
@@ -185,7 +185,7 @@ Elementet har tagits bort eftersom det markerade objektets klass inte har ändra
 
 Före:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -196,7 +196,7 @@ Före:
 
 Efter:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="women-section">Women</li>
@@ -210,7 +210,7 @@ I det här scenariot tas listobjektet efter det valda elementet bort.
 
 **Borttaget element:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -226,7 +226,7 @@ Elementet har tagits bort eftersom det markerade objektets klass inte har ändra
 
 Före:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -238,7 +238,7 @@ Före:
 
 Efter:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -253,7 +253,7 @@ I det här scenariot tas det markerade listobjektet bort.
 
 **Borttaget element:**
 
-```
+```html
 <li class="women-shoes">Women</li>
 ```
 
@@ -269,7 +269,7 @@ Elementet har tagits bort.
 
 Före:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -280,7 +280,7 @@ Före:
 
 Efter
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
        <li class="men-section">Men</li>
@@ -294,7 +294,7 @@ I det här scenariot ändras klassen för det markerade listobjektet.
 
 **Ändrat element:**
 
-```
+```html
 <li class="women-section">Women</li>
 ```
 
@@ -310,7 +310,7 @@ Det går inte att byta namn på elementklassen eftersom det inte `class` går at
 
 Före:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -321,7 +321,7 @@ Före:
 
 Efter (försök):
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
