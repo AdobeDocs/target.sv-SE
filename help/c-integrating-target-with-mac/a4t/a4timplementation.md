@@ -4,7 +4,7 @@ description: Flera steg krävs när Adobe Analytics implementeras som rapportkä
 title: Analyser för Target-implementering
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Inkludera at.js under VisitorAPI.js genom att lägga till följande kodrad i tag
 
 For at.js:
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ Men om du vill ha större kontroll över hur och när analysdata som är relater
 
 Exempel:
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 Den här konfigurationen har en global effekt, vilket innebär att alla anrop från at.js har **analyticsLogging: &quot;client_side&quot;** som skickas inom [!DNL Target] förfrågningar och en analysvolym returneras för varje begäran. När detta är konfigurerat ser nyttolastens format ut så här:
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ Om en global inställning inte önskas och en mer on demand-metod är att föred
 
 Exempel:
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ Det här anropet anropar ett svar från vilket du kan extrahera analysens nyttol
 
 Svaret ser ut så här:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
