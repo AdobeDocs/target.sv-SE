@@ -4,7 +4,7 @@ description: Med hjälp av bästa praxis kan ni få era upplevelser att fungera 
 title: Visuell Experience Composer - bästa praxis och begränsningar
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 0%
@@ -135,7 +135,7 @@ När du använder Förbättrad Experience Composer hanteras webbplatsen bakom ku
 
 Du kan t.ex. inte ange text i kundvagnen som mål i VEC om koden är som följer:
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ Kontrollera att webbplatsen läses in som förväntat när du har lagt till para
 
 Stäng av felsökningstekniker för iframe på webbplatsen och kontrollera om den öppnas som förväntat i en iframe på en dummy-sida. Exempel:
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ Om du byter ut en bildåtgärd mot ett element och sedan redigerar texten eller 
 
 Om sidan till exempel innehåller:
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ Skriptet körs inom omfånget för target.js efter att sidan har lästs in. Där
 
 *Felaktigt:*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ Skriptet körs inom omfånget för target.js efter att sidan har lästs in. Där
 
 *Korrekt:*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ Skriptet körs inom omfånget för target.js efter att sidan har lästs in. Där
 
 Lägg till ett ankarpunktselement i diven customHeaderMessage med lite dummy-text:
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ Markera den här diven med åtgärden Infoga element om du vill infoga en bild s
 
 När bilden har infogats ser den ut så här:
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
