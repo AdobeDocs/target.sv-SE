@@ -4,7 +4,7 @@ description: I det här avsnittet beskrivs hur du skapar en karusell som kan red
 title: Skapa Carousel som fungerar i Visual Experience Composer
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -20,7 +20,7 @@ När du använder stegen nedan vet [!DNL Target] alltid att den valda bildrutan 
 
 1. Skapa statiska HTML-platshållare.
 
-   ```
+   ```html
    <ul>
    <li class="show"> slide 1 </li>
    <li class="hidden"> slide 2 </li>
