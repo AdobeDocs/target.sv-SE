@@ -4,7 +4,7 @@ description: Du kan använda profilattribut för att konfigurera tester som jäm
 title: Använd profilskript för att testa aktiviteter som utesluter varandra
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Tänk på följande information när du använder något av följande profilskri
 
 Om du vill sortera besökare i grupper som var och en ser olika aktiviteter måste du skapa ett profilattribut. Ett profilattribut kan sortera en besökare i en eller flera grupper. Om du vill konfigurera ett profilattribut med namnet&quot;twogroups&quot; skapar du följande skript:
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ Att konfigurera tre eller flera aktiviteter som utesluter varandra liknar att st
 
 Om du till exempel vill skapa fyra grupper använder du följande JavaScript:
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ till:
 
 Om du till exempel vill placera besökare i tre lika grupper använder du följande kod:
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 
