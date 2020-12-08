@@ -1,12 +1,12 @@
 ---
 keywords: troubleshoot target;troubleshooting target;users;user management
 description: Felsökningsinformation om hur du hanterar användare i Adobe Target.
-title: Felsöka användarhantering
+title: Felsöka användarhantering i Adobe Target
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
