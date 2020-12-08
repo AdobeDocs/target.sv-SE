@@ -1,12 +1,12 @@
 ---
 keywords: add user;manage user;user permissions
-description: Information om hur du hanterar användare i Target Standard och hanterar Enterprise Properties och Permissions i Target Premium.
+description: Information om hur du hanterar användare i Adobe Target Standard och hanterar Enterprise Properties and Permissions i Adobe Target Premium.
 title: Användarhantering
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
