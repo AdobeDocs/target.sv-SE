@@ -1,12 +1,12 @@
 ---
 keywords: Overview and Reference
-description: Testsammanfattningen ger en visuell översikt över ditt multivariata test.
+description: Testsammanfattningen ger en visuell översikt över ditt Adobe Target Multivariate-test.
 title: Testsammanfattning
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
