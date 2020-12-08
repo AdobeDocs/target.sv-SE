@@ -1,12 +1,12 @@
 ---
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-description: Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
+description: Aktiviteten Automatisk allokering i Adobe Target identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig.
 title: Automatisk allokering
 feature: reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '3344'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
