@@ -1,12 +1,12 @@
 ---
 keywords: add user;manage user;user permissions
-description: Du kan lägga till användare och hantera deras behörigheter i Adobe Admin Console.
+description: Du kan lägga till användare i Adobe Target och hantera deras behörigheter i Adobe Admin Console.
 title: Användare
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
