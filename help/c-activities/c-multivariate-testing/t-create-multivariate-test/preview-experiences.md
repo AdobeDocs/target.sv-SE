@@ -1,11 +1,11 @@
 ---
 description: Eftersom ett multivariata test jämför flera olika upplevelser på en sida är det bra att förhandsgranska sidan med varje upplevelse.
-title: Förhandsgranska upplevelser för ett multivariat test
+title: Förhandsgranska upplevelser för ett multivariat test i Adobe Target
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
