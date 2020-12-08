@@ -1,17 +1,18 @@
 ---
-description: Eftersom ett multivariata test jämför flera upplevelser är det viktigt att veta hur mycket trafik som krävs för att få meningsfulla resultat. Trafikuppskattningen använder statistik om er sida och antalet upplevelser som testas för att uppskatta mängden trafik och hur länge testet ska pågå.
+keyword: traffic estimate;traffic estimator
+description: Eftersom ett multivariata test jämför flera upplevelser är det viktigt att veta hur mycket trafik som krävs för att få meningsfulla resultat. Adobe Target Traffic Estimator använder statistik om er sida och antalet upplevelser som testas för att uppskatta mängden trafik och hur lång tid testet tar.
 title: Uppskatta den trafik som krävs för ett lyckat test
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
 
-# Uppskatta den trafik som krävs för ett lyckat test{#estimate-the-traffic-required-for-a-successful-test}
+# Uppskatta den trafik som krävs för ett lyckat test
 
 Eftersom ett multivariata test jämför flera upplevelser är det viktigt att veta hur mycket trafik som krävs för att få meningsfulla resultat. Trafikuppskattningen använder statistik om er sida och antalet upplevelser som testas för att uppskatta mängden trafik och hur länge testet ska pågå.
 
