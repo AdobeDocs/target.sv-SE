@@ -1,12 +1,12 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Med svarstoken kan du automatiskt generera målspecifik information (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale)
+description: Med svarstoken kan du automatiskt få ut Adobe Target-specifik information (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale)
 title: Svarstoken i Adobe Target
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1559'
 ht-degree: 0%
 
 ---
