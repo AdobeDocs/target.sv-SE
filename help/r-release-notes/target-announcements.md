@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Nu mer än någonsin har marknadsförare, produktägare och utvecklare fått i u
 I det här inspelade webbinariet diskuterar Adobe Target produktexperter hur flyttande beslut om optimering av kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[Anmäl dig här för detta spännande event.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
 
