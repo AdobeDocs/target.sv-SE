@@ -4,7 +4,7 @@ description: 'Enhetsspecifik beslutsfattande ger möjlighet att cachelagra dina 
 title: Enhetsbeslut
 feature: server-side
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Enhetsbeslut
 
-Enhetsspecifik beslutsfattande ger möjlighet att cachelagra dina [!DNL Adobe Target] - [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT)-aktiviteter på servern och utföra minnesbaserad beslutsfattande vid nästan noll latens, utan att blockera nätverksförfrågningar till [!DNL Adobe Target]Edge Network.
+Enhetsspecifik beslutsfattande ger möjlighet att cachelagra dina [!DNL Adobe Target] - [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT)-aktiviteter på servern och utföra minnesbaserad beslutsfattande vid nästan noll latens, utan att blockera nätverksförfrågningar till [!DNL Adobe Target] Edge-nätverket.
 
 Mer information finns i [Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) i dokumentationen *[för](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target SDK.
 
@@ -28,7 +28,7 @@ I det här inspelade webbinariet diskuterar produktexperter hur rörliga optimer
 
 ## Självstudiekurs: Enhetsbeslut
 
-[!DNL Adobe Targe]t On-device decisioning möjliggör nästan ingen latens för innehållsleverans.
+[!DNL Adobe Target] beslutsfattande på enheter möjliggör innehållsleverans med nästan noll latens.
 
 Den här 7-minutersvideon:
 
