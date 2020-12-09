@@ -4,9 +4,9 @@ description: Versionsinformation som innehåller information om funktioner, för
 title: Adobe Target prerelease notes
 feature: null
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Den här versionen innehåller följande nya funktioner:
 
 | Funktion | Detaljer |
 | --- | --- |
-| Enhetsbeslut | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. Och eftersom enhetsspecifika beslut kan kopplas till [!DNL Adobe Experience Cloud] produkter får användarna snabb analys och snabbare upplevelseiterationer [!DNL Target] .<br>Mer information finns i *[Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* i *Adobe Target SDKs Guide*.<br>Titta på det inspelade webbinariet här: [Enhetsbeslut i Adobe Target](https://video.tv.adobe.com/v/328148?quality=12&autoplay=true&learn=on&captions=swe). |
+| [Enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. Och eftersom enhetsspecifika beslut kan kopplas till [!DNL Adobe Experience Cloud] produkter får användarna snabb analys och snabbare upplevelseiterationer [!DNL Target] .<br>Mer information finns i *[Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
 
 Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
 
