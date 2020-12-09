@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 0%
    + Serversida: implementera mål {#server-side}
       + [Serversida: implementera målöversikt](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Övergång från äldre Target-API:er till Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [Hybrid-implementering](/help/c-implementing-target/hybrid-implementation.md)
    + E-post: implementera mål {#implement-email}
       + [E-post: implementera målöversikt](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
