@@ -4,9 +4,9 @@ description: 'Enhetsspecifik beslutsfattande ger möjlighet att cachelagra dina 
 title: Enhetsbeslut
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ Den här 7-minutersvideon:
 * Visar exempelkoden Node.JS SDK som innehåller den nyckelkonfiguration som krävs för enhetsbeslut
 * Visar resultat i en webbläsare
 
-I slutet av videon kan du:
-
-* Beskriv beslut på enheten och dess fördelar
-* Aktivera enhetsbeslut i [!DNL Target]
-* Skapa en formulärbaserad dispositionsaktivitet som är avsedd att användas med enhetsspecifik beslutsfattande
-* Läs mer om SDK-konfigurationen som krävs för enhetsbeslut genom att gå till dokumentationen för [Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Förstå vad slutanvändarna kommer att uppleva för innehåll som levereras genom att fatta beslut på enheten
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+Fler videoklipp och självstudiekurser finns i guiden för [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
