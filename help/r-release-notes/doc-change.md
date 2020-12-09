@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3134'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target] produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 9 december | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nytt ämne. |
+|  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande problem har flyttats från avsnittet Kända fel till avsnittet Lösta problem: &quot;Bilden innehåller etiketten &quot;Bearbetar&quot;.&quot; |
 | 1 december | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Inbäddade webbinariet för att&quot;personalisera och testa med nolltidsfördröjning med beslut från Adobe Target på enheter&quot;. |
 | 24 november | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>[Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i målgränssnittet.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Följande lösta problem har lagts till:<ul><li>[Analyser för målrapportering (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [Måttdefinitioner - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Följande frågor och svar har lagts till: &quot;Varför har jag inte åtkomst till alternativen för Avancerade inställningar när jag konfigurerar min målkod?&quot; |
