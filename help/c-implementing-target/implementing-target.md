@@ -1,10 +1,11 @@
 ---
 keywords: implement;implementing
 description: Innan du börjar använda Adobe Target bör du implementera det på din webbplats, förstå några grundläggande begrepp och termer, känna till hur Target fungerar och integreras med din infrastruktur och förstå hur besökarna spåras av Target-systemet.
+landing-page-description: Before you start using Adobe Target, you should implement it on your site, understand a few basic concepts and terms, and be familiar with how Target works.
 title: Implementera mål
 feature: implementation general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
