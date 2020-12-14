@@ -1,12 +1,12 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Använd sekvenser med upp till fem kriterier för att få bättre kontroll över de objekt som visas i dina Adobe Target Recommendations-aktiviteter.
 title: Skapa villkorssekvenser
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Skapa villkorssekvenser
 
-Använd sekvenser med upp till fem kriterier för att få bättre kontroll över de objekt som visas i dina [!UICONTROL Recommendations] aktiviteter.
+Använd sekvenser med upp till fem kriterier för att få bättre kontroll över de objekt som visas i dina [!UICONTROL Recommendations] aktiviteter. Du kan också begränsa antalet returnerade objekt (kallas ibland för&quot;platskontrollen&quot;).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Följande steg förutsätter att du kommer åt [!UICONTROL Create Criteria Seque
 
    ![Begränsa antalet returnerade objekt](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Du kan förstå värdet av [!UICONTROL Limit the number of items returned] alternativet på följande sätt:
+   För att du ska förstå värdet på [!UICONTROL Limit the number of items returned] alternativet (kallas ibland&quot;platskontrollen&quot;) bör du ta hänsyn till följande användningsexempel:
 
    * **Användningsfall 1**: Du vill ha en blandning av olika typer av objekt i ett enda rekommendationsfack. Du kan till exempel visa en blandning av ytterkläder (schaket) och överdelar (skjortor, T-shirts). För att uppnå detta ska du använda en samling för aktiviteten som innehåller alla möjliga produkttyper du vill ha i platserna i designen. Ange sedan dina första kriterier med ett statiskt filter som begränsar kriterierna så att de bara omfattar ytterkläder, och ange dina andra kriterier med ett statiskt filter som begränsar kriterierna så att de bara omfattar toppar. Lägg slutligen till båda villkoren i en villkorssekvens och begränsa det första villkoret till 2 kortplatser.
 
