@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # Implementera mål utan tagghanterare{#implement-target-without-a-tag-manager}
 
-Information om implementering [!DNL Adobe Target] utan tagghanterare ([!DNL Adobe Launch] eller [!DNL Dynamic Tag Manager]).
+Information om hur du implementerar [!DNL Adobe Target] utan att använda en tagghanterare ([!DNL Adobe Launch] eller [!DNL Dynamic Tag Manager]).
 
 >[!NOTE]
 >
->[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den bästa metoden för att implementera Target och biblioteket at.js. Följande information gäller inte när du använder Adobe Launch för att implementera Target.
+>[Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis är den metod som rekommenderas för att implementera Target och biblioteket at.js. Följande information gäller inte när du använder Adobe Launch för att implementera Target.
 
-Du öppnar [!UICONTROL Implementation] sidan genom att klicka **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+Du öppnar sidan [!UICONTROL Implementation] genom att klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
 Du kan ange följande inställningar på den här sidan:
 
@@ -41,7 +41,7 @@ Du kan visa följande kontoinformation. Dessa inställningar kan inte ändras.
 | Inställning | Beskrivning |
 | --- | --- |
 | Klientkod | Klientkoden är en klientspecifik teckensekvens som ofta krävs när du använder mål-API:er. |
-| IMS-organisations-ID | Detta ID kopplar implementeringen till ditt [!DNL Adobe Experience Cloud] konto. |
+| IMS-organisations-ID | Detta ID kopplar implementeringen till ditt [!DNL Adobe Experience Cloud]-konto. |
 
 ## Implementeringsmetoder
 
@@ -51,28 +51,28 @@ Följande inställningar kan konfigureras på panelen Implementeringsmetoder:
 
 >[!NOTE]
 >
->De här inställningarna används för alla [!DNL Target] .js-bibliotek. När du har gjort ändringar i [!UICONTROL Implementation methods] avsnittet måste du hämta biblioteket och uppdatera det i implementeringen.
+>De här inställningarna används för alla [!DNL Target] .js-bibliotek. När du har gjort ändringar i [!UICONTROL Implementation methods]-avsnittet måste du hämta biblioteket och uppdatera det i implementeringen.
 
 | Inställning | Beskrivning |
 | --- | --- |
 | Sidinläsning aktiverad (skapa en global mbox automatiskt) | Välj om du vill bädda in det globala mbox-anropet i filen at.js så att det automatiskt utlöses vid varje sidinläsning. |
 | Global mbox | Välj ett namn för den globala mbox-filen. Som standard är namnet target-global-mbox.<br>Specialtecken, inklusive et-tecken (&amp;), kan användas i mbox-namn med at.js. |
-| Timeout (sekunder) | Om [!DNL Target] inte svarar med innehåll inom den angivna perioden, inträffar serveranropet och standardinnehållet visas. Ytterligare anrop fortsätter att utföras under besökarens session. Standardvärdet är 5 sekunder.<br>I at.js-biblioteket används timeoutinställningen i `XMLHttpRequest`. Tidsgränsen startar när begäran utlöses och avbryts när [!DNL Target] ett svar hämtas från servern. For more information, see [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) on the Mozilla Developer Network.<br>Om den angivna tidsgränsen inträffar innan svaret tas emot, visas standardinnehåll och besökaren kan räknas som deltagare i en aktivitet eftersom all datainsamling sker på [!DNL Target] kanten. Om begäran når [!DNL Target] kanten räknas besökaren.<br>Tänk på följande när du konfigurerar timeoutinställningen:<ul><li>Om värdet är för lågt kan användarna se standardinnehåll oftast, men besökaren kan räknas som deltagare i aktiviteten.</li><li>Om värdet är för högt kan besökarna se tomma områden på webbsidan eller tomma sidor om du använder dolt innehåll under längre tidsperioder.</li></ul>Om du vill få en bättre förståelse för svarstiderna i mbox kan du titta på fliken Nätverk i webbläsarens utvecklingsverktyg. Du kan också använda verktyg för övervakning av webbprestanda från tredje part, till exempel Catchpoint.<br>**Obs**: Inställningen [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) ser till att [!DNL Target] inte väntar på Visitor API-svar för länge. Den här inställningen och Timeout-inställningen för at.js som beskrivs här påverkar inte varandra. |
-| Profilens livstid | Den här inställningen avgör hur långa besökarprofiler lagras. Som standard lagras profiler i två veckor. Denna kan ökas upp till 90 dagar.<br>Om du vill ändra inställningen för Profilens livstid kontaktar du [kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html). |
+| Timeout (sekunder) | Om [!DNL Target] inte svarar med innehåll inom den angivna perioden, inträffar serveranropet och standardinnehållet visas. Ytterligare anrop fortsätter att utföras under besökarens session. Standardvärdet är 5 sekunder.<br>I at.js-biblioteket används timeoutinställningen i  `XMLHttpRequest`. Tidsgränsen startar när begäran aktiveras och stoppas när [!DNL Target] får ett svar från servern. Mer information finns i [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) i Mozilla Developer Network.<br>Om den angivna tidsgränsen inträffar innan svaret tas emot, visas standardinnehåll och besökaren kan räknas som deltagare i en aktivitet eftersom all datainsamling sker i  [!DNL Target] kanten. Om begäran når kanten [!DNL Target] räknas besökaren.<br>Tänk på följande när du konfigurerar timeoutinställningen:<ul><li>Om värdet är för lågt kan användarna se standardinnehåll oftast, men besökaren kan räknas som deltagare i aktiviteten.</li><li>Om värdet är för högt kan besökarna se tomma områden på webbsidan eller tomma sidor om du använder dolt innehåll under längre tidsperioder.</li></ul>Om du vill få en bättre förståelse för svarstiderna i mbox kan du titta på fliken Nätverk i webbläsarens utvecklingsverktyg. Du kan också använda verktyg för övervakning av webbprestanda från tredje part, till exempel Catchpoint.<br>**Obs**: Inställningen  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) visitorApiTimeoutsetting ser till att  [!DNL Target] inte väntar på Visitor API-svar för länge. Den här inställningen och Timeout-inställningen för at.js som beskrivs här påverkar inte varandra. |
+| Profilens livstid | Den här inställningen avgör hur långa besökarprofiler lagras. Som standard lagras profiler i två veckor. Denna kan ökas upp till 90 dagar.<br>Om du vill ändra inställningen för Profilens livstid kontaktar du  [kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html). |
 
 ### Huvudsaklig implementeringsmetod
 
 >[!IMPORTANT]
 >
->Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
+>Target-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 
-Klicka på lämplig **[!UICONTROL Download]** knapp om du vill hämta en at.js-version.
+Om du vill hämta en at.js-version klickar du på lämplig **[!UICONTROL Download]**-knapp.
 
-Om du vill redigera at.js-inställningarna klickar du **[!UICONTROL Edit]** bredvid den önskade at.js-versionen.
+Om du vill redigera at.js-inställningarna klickar du på **[!UICONTROL Edit]** bredvid den önskade at.js-versionen.
 
 >[!IMPORTANT]
 >
->Innan du ändrar dessa standardinställningar bör du kontakta [kundtjänst](/help/cmp-resources-and-contact-information.md) så att du inte påverkar den aktuella implementeringen.
+>Innan du ändrar dessa standardinställningar bör du rådfråga [Client Care](/help/cmp-resources-and-contact-information.md) så att du inte påverkar den aktuella implementeringen.
 
 Förutom de inställningar som förklaras ovan är följande specifika at.js-inställningar också tillgängliga:
 
@@ -85,17 +85,17 @@ Förutom de inställningar som förklaras ovan är följande specifika at.js-ins
 
 Aktivera eller inaktivera autentisering för batchuppdateringar via API och generera en profilautentiseringstoken.
 
-Mer information finns i [Profil-API-inställningar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+Mer information finns i [Inställningar för profil-API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
 
 ### Felsökningsverktyg
 
-Generera en auktoriseringstoken för att använda avancerade [!DNL Target] felsökningsverktyg. Klicka på **[!UICONTROL Generate New Authentication Token]**.
+Generera en auktoriseringstoken för att använda avancerade [!DNL Target]-felsökningsverktyg. Klicka på **[!UICONTROL Generate New Authentication Token]**.
 
 ![Generera ny autentiseringstoken](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### Integritet
 
-Dessa inställningar gör att du kan använda dem [!DNL Target] i enlighet med gällande datasekretesslagstiftning.
+Med de här inställningarna kan du använda [!DNL Target] i enlighet med gällande datasekretesslagstiftning.
 
 Välj önskad inställning i listrutan Förhindra besökarens IP-adress:
 
@@ -103,38 +103,38 @@ Välj önskad inställning i listrutan Förhindra besökarens IP-adress:
 * Hela IP-förvrängningen
 * Ingen
 
-Mer information finns i [Sekretess](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Mer information finns i [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
 
 >[!NOTE]
 >
->Alternativet Stöd för äldre webbläsare var tillgängligt i version 0.9.3 och tidigare av at.js. Det här alternativet togs bort i at.js version 0.9.4. En lista över webbläsare som stöds av at.js finns i [Webbläsare](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)som stöds.<br>Äldre webbläsare är äldre webbläsare som inte har fullständigt stöd för CORS (Cross Origin Resource Sharing). Följande webbläsare innehåller: Internet Explorer-webbläsare tidigare än version 11 och Safari version 6 och tidigare. Om stöd för äldre webbläsare inaktiverades kunde Target inte leverera innehåll eller räkna besökare i rapporter för dessa webbläsare. Om det här alternativet är aktiverat rekommenderas kvalitetssäkring i äldre webbläsare för att säkerställa en bra kundupplevelse.
+>Alternativet Stöd för äldre webbläsare var tillgängligt i version 0.9.3 och tidigare av at.js. Det här alternativet togs bort i at.js version 0.9.4. En lista över webbläsare som stöds av at.js finns i [Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Äldre webbläsare är äldre webbläsare som inte har fullständigt stöd för CORS (Cross Origin Resource Sharing). Följande webbläsare innehåller: Internet Explorer-webbläsare tidigare än version 11 och Safari version 6 och tidigare. Om stöd för äldre webbläsare inaktiverades kunde Target inte leverera innehåll eller räkna besökare i rapporter för dessa webbläsare. Om det här alternativet är aktiverat rekommenderas kvalitetssäkring i äldre webbläsare för att säkerställa en bra kundupplevelse.
 
-## Ladda ned på.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
+## Hämta på.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
-Instruktioner för att hämta biblioteket via [!DNL Target] gränssnittet eller hämtnings-API:t.
+Instruktioner för att hämta biblioteket med [!DNL Target]-gränssnittet eller hämtnings-API:t.
 
 >[!NOTE]
 >
->* [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den bästa metoden för att implementera Target och biblioteket at.js. Följande information gäller inte när du använder Adobe Launch för att implementera Target.
+>* [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis är den metod som rekommenderas för att implementera Target och biblioteket at.js. Följande information gäller inte när du använder Adobe Launch för att implementera Target.
    >
    >
-* Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)för at.js.
+* Target-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
-### Hämta at.js med Target-gränssnittet {#section_1F5EE401C2314338910FC57F9592894E}
+### Hämta at.js med målgränssnittet {#section_1F5EE401C2314338910FC57F9592894E}
 
-Så här hämtar du [!DNL at.js] från [!DNL Target] gränssnittet:
+Så här hämtar du [!DNL at.js] från gränssnittet [!DNL Target]:
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Klicka på [!UICONTROL Implementation methods] knappen bredvid den önskade at.js-versionen i **[!UICONTROL Download]** avsnittet.
+1. I avsnittet [!UICONTROL Implementation methods] klickar du på knappen **[!UICONTROL Download]** bredvid önskad at at.js-version.
 
 ### Hämta at.js med Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
-Hämta [!DNL at.js] med API:t.
+Om du vill hämta [!DNL at.js] med API:t.
 
 1. Hämta din klientkod.
 
-   Klientkoden finns längst upp på **[!UICONTROL Administration]** >- **[!UICONTROL Implementation]** sidan i [!DNL Target] gränssnittet.
+   Klientkoden finns längst upp på sidan **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** i gränssnittet [!DNL Target].
 
 1. Hämta ditt administratörsnummer.
 
@@ -156,7 +156,7 @@ Hämta [!DNL at.js] med API:t.
 
    I det här exemplet är &quot;6&quot; administratörsnumret.
 
-1. Ladda ned [!DNL at.js].
+1. Hämta [!DNL at.js].
 
    Läs in den här URL:en med följande struktur:
 
@@ -170,15 +170,15 @@ Hämta [!DNL at.js] med API:t.
 
    >[!IMPORTANT]
    >
-   >Target-teamet underhåller endast två versioner av [!DNL at.js]- den aktuella versionen och den andra senaste versionen. Uppgradera [!DNL at.js] om det behövs för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)för at.js.
+   >Målgruppen underhåller endast två versioner av [!DNL at.js] - den aktuella versionen och den andra senaste versionen. Uppgradera [!DNL at.js] efter behov för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
-   När du läser in den här URL:en börjar hämtningen av den anpassade [!DNL at.js] filen.
+   När du läser in den här URL:en börjar hämtningen av din anpassade [!DNL at.js]-fil.
 
 ## at.js-implementering {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js ska implementeras i elementet `<head>` på alla sidor på webbplatsen.
 
-En typisk implementering av Target som inte använder en tagghanterare som [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) eller [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) ser ut så här:
+En typisk implementering av Target som inte använder en tagghanterare som [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) eller [Dynamisk tagghantering](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) ser ut så här:
 
 ```
 <!doctype html> 
@@ -235,11 +235,11 @@ En typisk implementering av Target som inte använder en tagghanterare som [Adob
 Tänk på följande viktiga punkter:
 
 * HTML5-dokumenttypen (t.ex. `<!doctype html>`) bör användas. Dokumenttyper som inte stöds eller äldre kan göra att Target inte kan göra en begäran.
-* Föranslutning och Förhämtning är alternativ som kan hjälpa webbsidorna att läsas in snabbare. Om du använder dessa konfigurationer måste du ersätta `<client code>` med din egen klientkod, som du kan få från sidan **[!UICONTROL Administration]** > **[!UICONTROL Implementation] .
-* Om du har ett datalager är det optimalt att definiera så mycket som möjligt av det på `<head>` sidorna innan at.js läses in. Den här placeringen ger maximal möjlighet att utnyttja informationen i Target för personalisering.
-* Särskilda Target-funktioner, till exempel `targetPageParams()`, `targetPageParamsAll()`Data Providers, och `targetGlobalSettings()` ska definieras efter datalagret och innan at.js läses in. De kan också sparas i avsnittet på [!UICONTROL Library Header] sidan och sparas som en del av [!UICONTROL Edit at.js Settings] at.js-biblioteket. Mer information om de här funktionerna finns i [funktionerna](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)at.js.
+* Föranslutning och Förhämtning är alternativ som kan hjälpa webbsidorna att läsas in snabbare. Om du använder dessa konfigurationer måste du ersätta `<client code>` med din egen klientkod, som du kan få från sidan **[!UICONTROL Administration]** > **[!UICONTROL Implementation].
+* Om du har ett datalager är det optimalt att definiera så mycket som möjligt av det i `<head>` på sidorna innan at.js läses in. Den här placeringen ger maximal möjlighet att utnyttja informationen i Target för personalisering.
+* Särskilda Target-funktioner, som `targetPageParams()`, `targetPageParamsAll()`, Data Providers och `targetGlobalSettings()` bör definieras efter datalagret och innan at.js läses in. De kan också sparas i [!UICONTROL Library Header]-delen av [!UICONTROL Edit at.js Settings]-sidan och sparas som en del av at.js-biblioteket. Mer information om de här funktionerna finns i [at.js-funktioner](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Om du använder hjälpbibliotek för JavaScript, till exempel jQuery, kan du inkludera dem före Target så att du kan utnyttja deras syntax och metoder när du skapar Target-upplevelser.
-* Inkludera at.js på `<head>` sidorna.
+* Inkludera at.js i `<head>` på dina sidor.
 
 ## Spåra konverteringar {#task_E85D2F64FEB84201A594F2288FABF053}
 
@@ -256,7 +256,7 @@ I rutan Orderbekräftelse registreras detaljer om beställningar på er webbplat
    >
    >Använd kommaavgränsning för att avgränsa flera produkt-ID:n.
 
-   **Tips:** Du kan också skicka beställningsinformation i valfri ruta (den behöver inte namnges `orderConfirmPage`). Du kan också skicka beställningsinformation i flera rutor inom samma kampanj.
+   **Tips:** Du kan också skicka beställningsinformation i valfri ruta (den behöver inte namnges  `orderConfirmPage`). Du kan också skicka beställningsinformation i flera rutor inom samma kampanj.
 
    ```
    <script type="text/javascript"> 
