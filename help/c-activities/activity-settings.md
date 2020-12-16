@@ -18,23 +18,23 @@ Använd Aktivitetsinställningar för att hantera mål, prioritet och varaktighe
 
 1. Skriv anteckningar om aktivitetens mål.
 
-   Skriv in information om din aktivitet som är användbar för dig själv eller andra teammedlemmar. Dra för att ändra storlek på [!UICONTROL Objective] fältet.
+   Skriv in information om din aktivitet som är användbar för dig själv eller andra teammedlemmar. Dra för att ändra storlek på fältet [!UICONTROL Objective].
 1. Ange aktivitetsprioritet.
 
-   Beroende på dina inställningar kan användargränssnittet och alternativen för [!UICONTROL Priority] variera. Du kan använda de äldre inställningarna Låg, Medel eller Hög, eller aktivera finkorniga prioriteringar mellan 0 och 999.
+   Beroende på dina inställningar varierar gränssnittet och alternativen för [!UICONTROL Priority]. Du kan använda de äldre inställningarna Låg, Medel eller Hög, eller aktivera finkorniga prioriteringar mellan 0 och 999.
 
    Prioriteten används om flera aktiviteter tilldelas till samma plats med samma målgrupp. Om två eller flera aktiviteter har tilldelats platsen visas aktiviteten med den högsta prioriteten.
 
    Om det här alternativet inte är aktiverat i [!UICONTROL Administration] > [!UICONTROL Reporting] (standardvärdet) anger du en prioritet: Låg, Medel eller Hög.
 
-   Om du vill aktivera finkorniga prioriteringar klickar du [!UICONTROL Administration] > [!UICONTROL Reporting]och växlar sedan [!UICONTROL Enable Fine-Grained Priorities] alternativet till läget &quot;På&quot;.
+   Om du vill aktivera detaljerade prioriteringar klickar du på [!UICONTROL Administration] > [!UICONTROL Reporting] och växlar sedan alternativet [!UICONTROL Enable Fine-Grained Priorities] till På-positionen.
 
    Om det här alternativet är aktiverat anger du ett värde mellan 0 och 999:
 
    * 0 = Låg
    * 999 = Hög
 
-   För aktiviteter som skapats i tidigare versioner av [!DNL Target Standard/Premium]konverteras låg prioritet till 0, Medel konverteras till 5 och Hög konverteras till 10. Du kan justera dessa värden om det behövs.
+   För aktiviteter som skapats i tidigare versioner av [!DNL Target Standard/Premium] konverteras låg prioritet till 0, Medel konverteras till 5 och Hög konverteras till 10. Du kan justera dessa värden om det behövs.
 
    >[!NOTE]
    >
@@ -48,7 +48,7 @@ Använd Aktivitetsinställningar för att hantera mål, prioritet och varaktighe
    >
    >Schemaläggning av en aktivitet styr aktivitetens leveranstid. Aktiviteten måste dock aktiveras explicit innan den kan levereras enligt angivet schema.
 
-Sidan innehåller ytterligare inställningar som varierar beroende på vilken typ av aktivitet du skapar. [!UICONTROL Goal & Settings] Mer information om de här inställningarna finns i din aktivitetstyp:
+Sidan [!UICONTROL Goal & Settings] innehåller ytterligare inställningar som varierar beroende på vilken typ av aktivitet du skapar. Mer information om de här inställningarna finns i din aktivitetstyp:
 
 * [A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
@@ -56,7 +56,7 @@ Sidan innehåller ytterligare inställningar som varierar beroende på vilken ty
 * [Multivariata tester](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Utbildningsvideo: Aktivitetsinställningar - ![självstudiemärke](/help/assets/tutorial.png)
+## Utbildningsvideo: Aktivitetsinställningar ![Självstudiekurs](/help/assets/tutorial.png)
 
 Den här videon innehåller information om aktivitetsinställningar.
 
