@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Arbeta med regissörer{#work-with-redirectors}
+# Arbeta med omdirigeringar{#work-with-redirectors}
 
 Använd en omdirigerare på liknande sätt som du använder en mbox i dina tester.
 
@@ -28,7 +28,7 @@ Använd omdirigeraren för att göra följande:
 
 * Hitta den landningssida som leder till flest konverteringar
 
-Mer information om hur du bestämmer rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Hjälp med att bestämma rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Skapa en omdirigerare {#redirector}
 
@@ -43,27 +43,27 @@ Innan du kan använda en omdirigering måste du skapa den.
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * Var `yourclientcode` är företagets kundkod. Ditt företags klientkod är endast liten och har inga specialtecken.
+   * Där `yourclientcode` är företagets kundkod. Ditt företags klientkod är endast liten och har inga specialtecken.
 
-      Klientkoden finns längst upp på [!UICONTROL Administration > Implementation] sidan i [!DNL Target] gränssnittet.
+      Klientkoden finns längst upp på [!UICONTROL Administration > Implementation]-sidan i [!DNL Target]-gränssnittet.
 
    * `redirectorlink_456` är namnet på den omdirigeringsruta som visas i ditt konto och som ska användas i kampanjer och tester.
 
       Omdirigeringar fungerar annorlunda jämfört med andra rutor, men visas precis som andra mbox-rutor i ditt konto. Namnge omdirigeraren så att den enkelt kan särskiljas från standardtypsrutorna i ditt konto.  Du bör börja med namnet på mbox med &quot;redirectorlink&quot;.
 
-   * Var `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` är standarddestinationen.
+   * Där `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` är standardmålet.
 
       Detta måste vara URL-kodat och måste vara en absolut referens. Du kan använda [HTML URL-kodningsreferens](https://www.w3schools.com/tags/ref_urlencode.asp) för att snabbt koda dina URL-adresser.
 
       >[!IMPORTANT]
       >
-      >Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåtslista standarddomänerna för omdirigering av URL. Target använder värdar för att tillåtslista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa Tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) i *Hosts*.
+      >Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåtslista standarddomänerna för omdirigering av URL. Target använder värdar för att tillåtslista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa Tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) i *värdar*.
 
 1. Validera omdirigeraren.
    1. *Bästa praxis* för säkerhet: Se till att domänen som används i omdirigeraren är tillåtslista, vilket anges ovan. Om du använder en domän som inte är tillåtslista kommer Adobe att blockera alla anrop till den domänen för att förhindra att skadliga aktörer använder omdirigeraren för att dirigera om till potentiellt skadliga domäner.
    1. Infoga URL:en för omdirigeraren i en webbläsare och uppdatera.
    1. Logga in på ditt konto, uppdatera din mbox-lista och verifiera att den nya omdirigeraren är listad som en mbox.
-1. Om du ska testa olika destinationer för en annons skapar du [Omdirigeringserbjudanden](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
+1. Om du ska testa olika mål för en annons skapar du [Omdirigeringserbjudanden](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
 1. Skapa kampanjen.
 
    Se [Icke-JavaScript-baserade implementeringar](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) för rätt konfiguration för att uppnå dina mål.
@@ -87,7 +87,7 @@ Innan du kan använda en omdirigering måste du skapa den.
 
 1. Skicka den fullständiga URL:en för omdirigeraren till ditt Display Ad Network som annonsmål.
 
-## Använd en omdirigering för att skicka kostnader per klick och intäkt per klick {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Använd en omdirigerare för att skicka kostnader per klick och intäkt per klick {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Information om hur du använder en omdirigering för att plocka kostnader per klick och intäkter per klick.
 
@@ -97,7 +97,7 @@ Använd en omdirigerare för att skicka kostnaden per klick.
 
 >[!NOTE]
 >
->Det bästa sättet är att fastställa kostnadsvärdet med hjälp av **poängen per besök** .
+>Bästa sättet är att fastställa kostnadsvärdet med hjälp av **poängen per besök** engagemangsmått.
 
 Lägg till `&mboxPageValue=-value` i URL:en. Observera det negativa värdet.
 
@@ -114,7 +114,7 @@ Använd en omdirigerare för att skicka intäkten per klick.
 
 >[!NOTE]
 >
->Det bästa sättet är att fastställa intäktsvärdet med hjälp av **poängen per besök** .
+>Bästa sättet är att fastställa intäktsvärdet med hjälp av **poängen per besök** engagemangsmått.
 
 Lägg till `&mboxPageValue=value` i URL:en.
 
