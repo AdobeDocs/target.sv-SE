@@ -40,13 +40,13 @@ if (!user.get('twogroups')) {
 }
 ```
 
-* `if (!user.get('twogroups'))` Fastställer om attributet för *två* grupper är inställt för den aktuella besökaren. Om de gör det krävs ingen ytterligare åtgärd.
+* `if (!user.get('twogroups'))` Anger om attributet för  ** tvågruppsprofil har angetts för den aktuella besökaren. Om de gör det krävs ingen ytterligare åtgärd.
 
 * `var ran_number=Math.floor(Math.random() *99)` deklarerar en ny variabel som heter ran_number, anger värdet till ett slumpmässigt decimaltal mellan 0 och 1, multiplicerar den med 99 och avrundar den nedåt för att skapa ett intervall på 100 (0-99), vilket är användbart för att ange en procentandel av besökarna som ser aktiviteten.
 
 * `if (ran_number <= 49)` börjar en rutin som avgör vilken grupp besökaren tillhör. Om det returnerade numret är 0-49 tilldelas besökaren GroupA. Om värdet är 50-99 tilldelas besökaren GruppB. Gruppen avgör vilken aktivitet besökaren ser.
 
-När du har skapat profilattributet ställer du in den första aktiviteten för att rikta in den önskade populationen genom att kräva att användarprofilsparametern `user.twogroups` matchar det värde som angetts för GroupA.
+När du har skapat profilattributet ställer du in den första aktiviteten så att målpopulationen anges genom att kräva att användarprofilparametern `user.twogroups` matchar det värde som anges för GroupA.
 
 >[!NOTE]
 >
