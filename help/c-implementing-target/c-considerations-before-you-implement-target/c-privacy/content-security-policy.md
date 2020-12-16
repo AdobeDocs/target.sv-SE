@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # CSP-direktiv (Content Security Policy)
 
-Om du använder [CSP (Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) ) för målitimplementeringen bör du lägga till följande CSP-direktiv när du använder [at.js 2.1 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
+Om du använder [Säkerhetsprincip för innehåll](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) för målimplementeringen bör du lägga till följande CSP-direktiv när du använder [at.js 2.1 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
 
-* `connect-src` med `*.tt.omtrdc.net` tillåtslista. Nödvändigt för att tillåta nätverksbegäran till [!DNL Target] gränsen.
+* `connect-src` med  `*.tt.omtrdc.net` tillåtslista. Nödvändigt för att tillåta nätverksbegäran till kanten [!DNL Target].
 * `style-src unsafe-inline`. Krävs för att dölja och flimra kontrollen.
 * `script-src unsafe-inline`.  Krävs för att tillåta JavaScript-körning som kan vara en del av ett HTML-erbjudande.
