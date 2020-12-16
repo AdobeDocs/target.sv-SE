@@ -1,26 +1,26 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: Information om hur man använder kunddata från CRM-databaser (customer relationship management) för innehåll i Adobe Target med hjälp av kundattribut i Adobe Experience Cloud persontjänst.
+description: Information om hur du använder kunddata från CRM-databaser (customer relationship management) för innehåll i Adobe Target med hjälp av kundattribut i tjänsten Adobe Experience Cloud People.
 title: Kundattribut i Adobe Target
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
 
 
-# Kundattribut {#customer-attributes}
+# Kundattribut
 
-Information om hur du använder företagskunddata från CRM-databaser (Customer Relationship Management) för innehåll i [!DNL Adobe Target] genom att använda kundattribut i bastjänsten [!DNL Adobe Enterprise Cloud People].
+Information om hur du använder företagskunddata från CRM-databaser (Customer Relationship Management) för innehåll i [!DNL Adobe Target] genom att använda kundattribut i [!DNL Adobe Enterprise Cloud People]-tjänsten.
 
-Företagskunddata som samlas in via flera olika källor och lagras i CRM-databaser kan användas i [!DNL Target] för att leverera det mest relevanta innehållet till kunder strategiskt, med särskild inriktning på återkommande kunder. Målgrupper och kundattribut i bastjänsten [!DNL People] (tidigare Profiles and Audiences) sammanför datainsamling och analys med testning och optimering, vilket gör data och insikter användbara.
+Företagskunddata som samlas in via flera olika källor och lagras i CRM-databaser kan användas i [!DNL Target] för att leverera det mest relevanta innehållet till kunder strategiskt, med särskild inriktning på återkommande kunder. Målgrupper och kundattribut i tjänsten [!DNL People] (tidigare Profiles and Audiences) sammanför datainsamling och analys med testning och optimering, vilket gör data och insikter användbara.
 
 ## Översikt över kundattribut {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Customer ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) Attributes in the  [!DNL People] core service is part of the  [!DNL Adobe Experience Cloud] and provides enterprise a tool to push their customer data to the  [!DNL Experience Cloud] platform.
+[Kundattribut ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) i  [!DNL People] tjänsten är en del av  [!DNL Adobe Experience Cloud] och ger företag ett verktyg för att överföra kunddata till  [!DNL Experience Cloud] plattformen.
 
 Data som har konverterats till [!DNL Experience Cloud] är tillgängliga för alla [!DNL Experience Cloud]-arbetsflöden. [!DNL Target] använder dessa data för att målinrikta returnerade kunder baserat på attribut. [!DNL Adobe Analytics] använder dessa attribut och kan användas för analys och segmentering.
 
@@ -28,7 +28,7 @@ Data som har konverterats till [!DNL Experience Cloud] är tillgängliga för al
 
 Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
 
-* Du måste uppfylla vissa krav innan du kan använda funktionen [!UICONTROL Customer attributes] i huvudtjänsten [!DNL People]. Mer information finns i&quot;Krav för överföring av kundattribut&quot; i [Kundattribut](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) i *produktdokumentationen för Experience Cloud och bastjänster*.
+* Du måste uppfylla vissa krav innan du kan använda funktionen [!UICONTROL Customer attributes] i tjänsten [!DNL People]. Mer information finns i&quot;Krav för överföring av kundattribut&quot; i [Kundattribut](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) i *Experience Cloud Services and Administration documentation*.
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
 
 * Du kan inte skicka följande tecken i `mbox3rdPartyID`: plustecken (+) och snedstreck (/).
 
-## Få åtkomst till kundattribut i huvudtjänsten Personer
+## Få åtkomst till kundattribut i tjänsten Kontakter
 
 1. I [!DNL Adobe Experience Cloud] klickar du på menyikonen ( ![menyikonen](/help/c-target/c-visitor-profile/assets/menu-icon.png) ) och sedan på **[!UICONTROL People]**.
 
@@ -58,7 +58,7 @@ Följ de här stegen för att använda CRM-data i [!DNL Target], som det visas n
 
 ![crm-arbetsflöde](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detaljerade instruktioner för hur du utför följande uppgifter finns i [Skapa en kundattributskälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) i *produktdokumentationen för Experience Cloud och bastjänster*.
+Detaljerade instruktioner för hur du utför följande åtgärder finns i [Skapa en kundattributskälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) i *Experience Cloud Services and Administration documentation*.
 
 1. Skapa en datafil.
 
@@ -141,11 +141,11 @@ Skicka `mbox3rdPartyId` som en parameter till den globala mbox inuti metoden `ta
 
 ### Använda Experience Cloud ID-tjänsten
 
-Om du använder tjänsten Experience Cloud ID måste du ange ett kundID och autentiseringstillstånd för att använda kundattribut vid målanpassning. Mer information finns i [Kund-ID och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) i *Experience Cloud Identity Service Help*.
+Om du använder tjänsten Experience Cloud ID måste du ange ett kundID och autentiseringstillstånd för att använda kundattribut vid målanpassning. Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) i *Experience Cloud ID Service Help*.
 
 Mer information om hur du använder kundattribut i [!DNL Target] finns i följande resurser:
 
-* [Skapa en källa för kundattribut och ladda upp datafilen ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) i produktdokumentationen för  *Experience Cloud*
+* [Skapa en källa för kundattribut och ladda upp datafilen ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) i dokumentationen för  *Experience Cloud-tjänster och -administration*
 * [Kundattribut: Ju mer du vet, desto bättre ](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) anslutning till bloggen  *Digital Marketing*
 
 ## Problem som kunder {#section_BE0F70E563F64294B17087DE2BC1E74C} ofta stöter på
