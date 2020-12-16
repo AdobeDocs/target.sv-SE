@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Förväntade datavariationer mellan Target och Analytics när A4T används och inte används{#expected-data-variances-when-not-using-a-t}
+# Förväntade datavariationer mellan Target och Analytics när A4T{#expected-data-variances-when-not-using-a-t} används och inte
 
-Information om förväntade dataavvikelser mellan [!DNL Target] och Adobe [!DNL Analytics] när *Analytics används* och *inte* används som rapportkälla (A4T). A4T minskar datavariansen avsevärt.
+Information om förväntade dataavvikelser mellan [!DNL Target] och Adobe [!DNL Analytics] när *använder* och *inte* använder Analytics som rapportkälla (A4T). A4T minskar datavariansen avsevärt.
 
 ## Förväntad datavarians vid användning av A4T {#expected-using-a4t}
 
@@ -32,19 +32,19 @@ Här följer några scenarier där du kan få en förväntad datavariation:
    >
    >Det finns ett känt fel som gör att ett begränsat antal kunder använder omdirigeringar med A4T för att se en högre procentandel av antalet träffar som inte sammanställts. Se [Kända fel och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
-* Anta att du skapar en automatiskt fördelad aktivitet som är öppen för alla besökare på en viss sida. Eftersom Automatisk allokering inte stöder A4T, samlas alla aktivitetsdata in av [!DNL Target]. Du kanske förväntar dig att besökarna i aktiviteten i rapporten ska matcha besökarna till den sidan i [!DNL Target] [!DNL Analytics] rapporteringen för samma datumintervall. Detta är ett scenario där den avvikelse som beskrivs nedan förväntas.
+* Anta att du skapar en automatiskt fördelad aktivitet som är öppen för alla besökare på en viss sida. Eftersom Automatisk allokering inte stöder A4T, samlas alla aktivitetsdata in av [!DNL Target]. Du kan förvänta dig att besökarna av aktiviteten i [!DNL Target]-rapporten ska matcha besökarna till den sidan i [!DNL Analytics]-rapporten för samma datumintervall. Detta är ett scenario där den avvikelse som beskrivs nedan förväntas.
 
-   En fullständig lista över aktivitetstyper som stöder A4T finns i [Aktivitetstyper](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)som stöds.
+   En fullständig lista över aktivitetstyper som stöder A4T finns i [Aktivitetstyper som stöds](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
-## Förväntad datavarians när *inte A4T används* {#expected-not-using-a4t}
+## Datavarians förväntades när *inte använder* A4T {#expected-not-using-a4t}
 
 Variationer på 15-20 % är normala, även med liknande datauppsättningar. System som räknas olika kan ge mycket större dataavvikelser, upp till 35-50 %. I vissa fall kan avvikelserna vara ännu högre.
 
 Även om faktiska data kan variera avsevärt är trenderna vanligtvis konsekventa. Så länge skillnaderna och trenderna är konsekventa förblir data värdefulla och användbara. Om skillnaderna och trenderna är inkonsekventa kan det betyda att något är felaktigt inställt. Kontakta i så fall din kontorepresentant för att få hjälp.
 
-[!DNL Analytics] använder ett system som bygger på besök och transaktioner, men [!DNL Target] använder besöksbaserade mått. Det innebär att när en besökare öppnar en sida räknas det som ett besök i [!DNL Analytics], men [!DNL Target] räknar inte besöket förrän de villkor som anges i aktiviteten är uppfyllda.
+[!DNL Analytics] använder ett system som bygger på besök och transaktioner, men  [!DNL Target] använder besöksbaserade mått. Det innebär att när en besökare öppnar en sida räknas det som ett besök i [!DNL Analytics], men [!DNL Target] räknar inte besöket förrän de villkor som angetts i aktiviteten är uppfyllda.
 
-Rapporter i [!DNL Target] visar prestanda baserat på den konverteringsruta som valts när aktiviteten definierades, men konverteringsrutedata skickas inte till [!DNL Analytics], som har egna konverteringsvariabler som definierats av [!DNL Analytics] taggimplementeringen. Om du förväntar dig identiska data (t.ex. om en återförsäljares bekräftelsesida innehåller både en konverteringsruta och en [!DNL Analytics] köphändelse) kan data variera beroende på placeringen av dessa taggar. I allmänhet bör trenderna i de två produktrapporterna vara desamma.
+Rapporter i [!DNL Target] visar prestanda baserat på den konverteringsruta som valts när aktiviteten definierades, men konverteringsrutedata skickas inte till [!DNL Analytics], som har egna konverteringsvariabler som definierats av [!DNL Analytics]-taggimplementeringen. Om du förväntar dig identiska data (till exempel om en återförsäljares bekräftelsesida innehåller både en konverteringsruta och en [!DNL Analytics]-köphändelse) kan data variera beroende på placeringen av dessa taggar. I allmänhet bör trenderna i de två produktrapporterna vara desamma.
 
 Förväntade dataavvikelser kan orsakas av både tekniska och affärsmässiga avvikelser.
 
@@ -58,7 +58,7 @@ Följande kan orsaka dataavvikelser baserade på tekniska skillnader:
 * Tidszonshändelser
 * Skillnader i vilka enheter kan räknas
 
-### Exempel på affärsavvikelser {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Exempel på affärsvarianter {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 Följande kan orsaka dataavvikelser baserade på affärsskillnader:
 
@@ -67,4 +67,4 @@ Följande kan orsaka dataavvikelser baserade på affärsskillnader:
 * En enda ruta kan placeras på flera sidor, där besökarna på varje sida räknas
 * Aktivitetsprioriteringarna kan omfatta vissa besökare och utesluta andra på en sida
 * Besökare som har konverterat en gång kan räknas igen när de återgår till aktiviteten
-* [!DNL Analytics] räknar alla konverteringar för alla besök och besökare, men [!DNL Target] räknar endast konverteringar för de besök och besökare som ingår i aktiviteten
+* [!DNL Analytics] räknar alla konverteringar för alla besök och besökare, men  [!DNL Target] räknar endast konverteringar för de besök och besökare som ingår i aktiviteten
