@@ -12,27 +12,27 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -enhetsattribut{#entity-attributes}
+# ![](/help/assets/premium.png) PREMIUMEntity-attribut{#entity-attributes}
 
 Använd entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Adobe Target Recommendations].
 
-[!DNL Recommendations] skickar `productId` eller `productPurchasedId` (kallas `entity.id` i koden) som används i algoritmerna.
+[!DNL Recommendations] skickar  `productId` eller  `productPurchasedId` (kallas  `entity.id` i koden) som används i algoritmerna.
 
 >[!NOTE]
 >
->* `entity.id` måste matcha den `productPurchasedId` som skickas till orderbekräftelsesidan och den som `productId` används i Adobe Analytics produktrapporter.
+>* `entity.id` måste matcha den  `productPurchasedId` som skickats till orderbekräftelsesidan och den som  `productId` används i Adobe Analytics produktrapporter.
    >
    >
 * Angivna värden för entitetsattribut upphör att gälla efter 61 dagar. Det innebär att du bör se till att det senaste värdet för varje entitetsattribut skickas till Target Recommendations minst en gång i månaden för varje objekt i din katalog.
 
 
-De flesta fördefinierade parametrar accepterar bara ett enda värde, med nya värden som skriver över gamla värden. Parametern `categoryId` kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nya `categoryId` värden skriver inte över befintliga värden, utan läggs till under entitetsuppdateringen (högst 250 tecken).
+De flesta fördefinierade parametrar accepterar bara ett enda värde, med nya värden som skriver över gamla värden. Parametern `categoryId` kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nya `categoryId`-värden skriver inte över befintliga värden, utan läggs till under entitetsuppdateringen (högst 250 tecken).
 
-I allmänhet kan visningsinformationsrutan se ut som i följande exempel om du använder at.js 1.*x* with `mboxCreate`.
+I allmänhet kan visningsinformationsrutan se ut som i följande exempel om du använder at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till Recommendations med at.js 2.*x*, använd [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ett exempel finns i [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md).
+>* Om du använder at.js 2.*x*,  `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till Recommendations med at.js 2.*x*, använd  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ett exempel finns i [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
@@ -72,7 +72,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->Relativa URL:er rekommenderas för `pageUrl` och `thumbnailUrl` inte för absoluta URL:er eftersom rekommendationer tar emot data från alla miljöer på webbplatsen. Genom att använda relativa URL-adresser undviker du hårdkodade länkar till en mellanlagrings- eller utvecklingsserver.
+>Relativa URL:er rekommenderas för `pageUrl` och `thumbnailUrl` i stället för absoluta URL:er eftersom rekommendationer tar emot data från alla miljöer på webbplatsen. Genom att använda relativa URL-adresser undviker du hårdkodade länkar till en mellanlagrings- eller utvecklingsserver.
 
 Om mbox finns på en produktsida kan du inkludera både produkt-ID och kategori-ID. Den valda algoritmen avgör vilka som visas. Produkt-ID används för tillhörighetsalgoritmer och kategori-ID används för kategorialgoritmer.
 
@@ -84,9 +84,9 @@ I följande lista beskrivs de tillgängliga variablerna.
 
 Endast ett värde.
 
-Den här obligatoriska parametern identifierar produkten. Detta alfanumeriska ID måste vara samma för alla [!DNL Adobe Experience Cloud] produkter som används, inklusive [!DNL Analytics]för de olika produkterna, för att artikeln ska kunna identifieras och för att dela data om den.
+Den här obligatoriska parametern identifierar produkten. Detta alfanumeriska ID måste vara samma för alla [!DNL Adobe Experience Cloud]-produkter som används, inklusive [!DNL Analytics], för att de olika produkterna ska kunna identifiera objektet och dela data om det.
 
-`entity.id` värden får inte innehålla snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck är tillåtna. Om du tar med ogiltig interpunktion i ett `entity.id` värde misslyckas vissa [!DNL Recommendations] funktioner.
+`entity.id` värden får inte innehålla snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck är tillåtna. Om du tar med ogiltig interpunktion i ett `entity.id`-värde misslyckas vissa [!DNL Recommendations]-funktioner.
 
 Exempel: `'entity.id=67833'`
 
@@ -108,7 +108,7 @@ Den aktuella sidans kategori. Detta kan omfatta flera kategorier, t. ex. en unde
 
 >[!NOTE]
 >
->Om du vill visa en rekommendation baserat på en kategori på en [!UICONTROL Category] `categoryId` sida, kan bara en av dem skickas till rutan som används för att visa den aktuella rekommendationen. Värdet för `categoryId` måste matcha exakt värdet för den `entity.categoryId` som skickas på [!UICONTROL Product Detail] sidan.
+>Om du vill visa en rekommendation som baseras på en kategori på en [!UICONTROL Category]-sida, kan bara en `categoryId` skickas till den mbox som används för att visa den aktuella rekommendationen. Värdet för `categoryId` måste matcha exakt värdet för `entity.categoryId` som skickats på [!UICONTROL Product Detail]-sidan.
 
 Exempel:
 
@@ -166,11 +166,11 @@ Visar artikelns lagernivå.
 
 Exempel: `'entity.inventory=1'`
 
-**Tom attributhantering för lager:** Om du för leverans har en inkluderingsregel, samlingsregel eller kriterieinställning med `entity.inventory` > 0 eller `entity.inventory` = 0 och produkten inte har angett något lager, [!DNL Target] utvärderar detta till TRUE och inkluderar produkter där lagret inte har angetts. Detta gjordes som standard så att produkter med lager som inte är inställda visas i rekommendationsresultat.
+**Tom attributhantering för lager:** Om du har en inkluderingsregel, samlingsregel eller kriterieinställning med  `entity.inventory` > 0 eller  `entity.inventory` = 0 och produkten inte har ställt in lagret  [!DNL Target] utvärderas detta till TRUE och inkluderar produkter där lagret inte har ställts in. Detta gjordes som standard så att produkter med lager som inte är inställda visas i rekommendationsresultat.
 
-Om du har en global exkluderingsregel med `entity.inventory` = 0 och `entity.inventory` inte har angetts, [!DNL Target] utvärderas den här regeln som TRUE och produkten exkluderas.
+Om du har en global undantagsregel med `entity.inventory` = 0 och `entity.inventory` inte har angetts utvärderar [!DNL Target] den här regeln till TRUE och utesluter produkten.
 
-**Känt fel:** Produktsökningen är inkonsekvent med leveransen för lagervärdesattribut som inte har angetts. För en regel med `entity.inventory` = 0 visas inte produkter där lagervärdet inte har angetts.
+**Känt fel:** Produktsökning är inte konsekvent med leverans för lagervärdesattribut som inte har angetts. För en regel med `entity.inventory` = 0 visar produktsökningen inte produkter där lagervärdet inte har angetts.
 
 ### entity.value
 
@@ -192,7 +192,7 @@ Exempel: `'entity.margin=1.00'`
 
 Stöder flervärdesmatris (JSON-matris).
 
-Definiera upp till 100 anpassade variabler som innehåller ytterligare information om objektet. Du kan ange vilket attributnamn som inte används för varje anpassat attribut. Du kan till exempel skapa ett anpassat attribut som kallas `entity.genre` för att definiera en bok eller film. Eller så kan en biljettförsäljare skapa attribut för en eventplats för en sekundär utförare, till exempel ett besöksteam i ett idrottsevenemang eller en öppningsakt i en konsert.
+Definiera upp till 100 anpassade variabler som innehåller ytterligare information om objektet. Du kan ange vilket attributnamn som inte används för varje anpassat attribut. Du kan till exempel skapa ett anpassat attribut med namnet `entity.genre` för att definiera en bok eller film. Eller så kan en biljettförsäljare skapa attribut för en eventplats för en sekundär utförare, till exempel ett besöksteam i ett idrottsevenemang eller en öppningsakt i en konsert.
 
 Begränsningar:
 
