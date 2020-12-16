@@ -12,7 +12,7 @@ ht-degree: 3%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) IP-adresser som används av Recommendations servrar för bearbetning av feed{#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![](/help/assets/premium.png) PREMIUMIP-adresser som används av Recommendations servrar för bearbetning av matning{#ip-addresses-used-by-recommendations-feed-processing-servers}
 
 Lista med IP-adresser som används i Recommendations servrar för bearbetning av feeds i Oregon-datacenter för att hjälpa dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 
@@ -30,5 +30,5 @@ Lista med IP-adresser som används i Recommendations servrar för bearbetning av
 
 >[!NOTE]
 >
->En fullständig och uppdaterad lista finns i [IP-adresser som används i Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+>Den fullständiga, mest aktuella listan finns i [IP-adresser som används i Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
 
