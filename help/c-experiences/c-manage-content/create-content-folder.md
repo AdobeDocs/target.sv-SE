@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Skapa en mapp för objekt i offertbiblioteket.
 
-1. Klicka **[!UICONTROL Offers]** och välj sedan **[!UICONTROL Code Offers]** eller **[!UICONTROL Image Offers]** flik.
+1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Code Offers]** eller **[!UICONTROL Image Offers]**.
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
 1. Fyll i fälten:
 
    | Fält | Beskrivning |
    |--- |--- |
-   | Titel (Gäller endast bilder) | Ange ett beskrivande namn för mappen. Du kan t.ex. inkludera vilken typ av innehåll det ska innehålla.<br>Namnet får inte innehålla följande tecken:<br>Percent-tecken `%`<br>Forward-snedstreck `/`<br>Omvänt snedstreck `\`<br>Kolon `:`<br>Asterisk `*`<br>frågetecken `?`<br>Dubbla citattecken `"`<br>Kvadratisk `[`<br>hakparentes `]`<br>plustecken: `+`<br>Cirkel: `|`<br>Punkt: `.`<br>Nummertecken: `#`<br>Klammerparentes: `{`<br>Klammerparenteser `}`<br>`^`<br>Semikolon `;`<br>Du kan använda ett bindestreck ( `- `) i stället för dessa tecken. |
+   | Titel (Gäller endast bilder) | Ange ett beskrivande namn för mappen. Du kan t.ex. inkludera vilken typ av innehåll det ska innehålla.<br>Namnet får inte innehålla följande tecken:<br>Percent-tecken  `%`<br>Forward-snedstreck  `/`<br>Omvänt snedstreck  `\`<br>Kolon  `:`<br>Asterisk  `*`<br>frågetecken  `?`<br>Dubbla citattecken  `"`<br>Kvadratisk  `[`<br>hakparentes  `]`<br>plustecken:  `+`<br>Cirkel:  `|`<br>Punkt:  `.`<br>Nummertecken:  `#`<br>Klammerparentes:  `{`<br>Klammerparenteser  `}`<br> `^`<br>Semikolon  `;`<br>Du kan använda ett bindestreck (  `- `) i stället för dessa tecken. |
    | Namn (Gäller både kod och bilderbjudanden) | Redigera namnet om du vill. |
    | Privat (Gäller endast för bilder) | Anger att mappen är privat så att bara du kan se den och dess innehåll. |
    | Kan sorteras om i listvyn (Gäller endast bilder) | Anger att du och andra kan ändra ordningen på mappens position i listvyn.<br>Om du vill växla mellan kortvyn och listvyn klickar du på ikonen för kortvyn eller listvyn i det övre högra hörnet av innehållsbiblioteket. Du kan också välja Visa inställningar för att inkludera eller exkludera kolumner i listvyn. |
@@ -31,7 +31,7 @@ Skapa en mapp för objekt i offertbiblioteket.
 
 ## Alternativ för erbjudanden
 
-När du visar [!UICONTROL Code Offers] sidan kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon.
+När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon.
 
 ### Information ![](assets/icon_info.png)
 
@@ -59,7 +59,7 @@ Ta bort mappen.
 
 ## Alternativ för bilderbjudanden
 
-När du visar [!UICONTROL Image Offers] sidan kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon:
+När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon:
 
 ### Välj ![](assets/icon_check.png)
 
