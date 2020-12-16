@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Välj ett framgångsmått som kvalificerar användaren för den rapporterande målgruppen.
 
-I [!UICONTROL Applied At] listrutan kan du för alla aktiviteter tillämpa en målgrupp på ett framgångsmått så att du kan visa rapportnummer när mätvärdena har nåtts och för efterföljande åtgärder.
+För alla aktiviteter kan du använda listrutan [!UICONTROL Applied At] för att tillämpa en målgrupp på ett framgångsmått så att du kan visa rapportnummer när mätvärdena har nåtts och för efterföljande åtgärder.
 
 ![](assets/success_metric.png)
 
@@ -24,7 +24,7 @@ Anta till exempel att du har skapat en aktivitet för alla besökare som kommer 
 
 Listrutan Används kan innehålla tre kategorier: besökare, endast besökare som når ett visst steg i aktiviteten eller endast besökare som når konverteringen. Eller, för att uttrycka det på ett annat sätt, kan du ange att en besökare måste ha nått en mbox på startsidan för aktiviteten, en mbox som definierar en punkt i mitten av aktiviteten eller konverteringsrutan i slutet av aktiviteten.
 
-[Resultatstatistik](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) är bara tillgängliga om du har konfigurerat dem för din aktivitet. Om du inte har definierat framgångsmått visas bara två alternativ i listrutan: Kampanjinträde och konvertering.
+[Metoder för lyckade ](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) åtgärder är bara tillgängliga om du har konfigurerat dem för din aktivitet. Om du inte har definierat framgångsmått visas bara två alternativ i listrutan: Kampanjinträde och konvertering.
 
 Tänk på följande information när du använder en rapportpublik för ett framgångsmått:
 
