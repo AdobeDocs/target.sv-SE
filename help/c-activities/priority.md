@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Mål avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilket Target-gränssnitt och vilken aktivitetsskapande funktion (Visual Experience Composer eller Form Based Composer) du använder.
 
-## Target Standard/Premium Visual Experience Composer Only eller Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Målstandard/Premium Visual Experience Composer Only eller formulärbaserad disposition som endast använder global målbegäran {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Om ditt företag enbart använder Target Standard/Premium och Visual Experience Composer kan innehåll från flera aktiviteter returneras för samma anrop. Verksamheter levereras med hjälp av följande beslutsflöde:
 
@@ -27,7 +27,7 @@ Om ditt företag enbart använder Target Standard/Premium och Visual Experience 
    Om besökaren redan deltar i ett A/B-test eller multivariattest kommer de att matcha det testet tills de konverteras. Om de tidigare hade en upplevelseinriktad aktivitet måste de matcha sig mot den igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
 
 1. Innehåll för alla aktiviteter och upplevelser som besökaren matchar återgår till sidan.
-1. Om innehållet för varje aktivitet refererar till olika [CSS-väljare](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)visas allt innehåll.
+1. Om innehållet för varje aktivitet refererar till olika [CSS-väljare](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), visas allt innehåll.
 
    Om det finns en överlappning eller en duplicerad CSS-väljare visas aktivitetsinnehållet med den högsta prioriteten. Resultaten från alla aktiviteter som körs på sidan räknas och återspeglas i rapporterna.
 
@@ -40,7 +40,7 @@ Om ditt företag enbart använder Target Standard/Premium och Visual Experience 
    * Om bara en aktivitet har målgruppsanpassning visas den aktiviteten.
    * Om alla eller inga har mål visas den aktivitet som godkändes först.
 
-## Target Standard/Premium Form-Based Composer och Target Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
+## Målstandarddisposition/förstklassig formulärbaserad disposition och målstandard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ Om ditt företag enbart använder Target Standard/Premium och Visual Experience 
 
 Om ditt företag använder den formulärbaserade dispositionen i Target Standard/Premium och Target Standard/Premium Visual Experience Composer kan innehåll från flera Visual Experience Composer-aktiviteter leverera, men bara en aktivitet från det formulärbaserade arbetsflödet. Aktivitetsleveransen bestäms med hjälp av följande beslutsflöde:
 
-1. Målserveranropet kommer till Target med information om [!DNL Target] begäran och URL.
-1. Target Classic och Standard drar alla aktiviteter som körs i den [!DNL Target] begäran.
+1. Målserveranropet kommer till Target med information om [!DNL Target]-begäran och URL:en.
+1. Target Classic och Standard hämtar alla aktiviteter som körs i den [!DNL Target]-begäran.
 1. Målförsök att matcha besökaren med aktiviteter.
 
    Om besökaren redan deltar i ett A/B-test eller multivariattest kommer de att matcha det testet tills de konverteras. Om de tidigare hade en upplevelseinriktad aktivitet måste de matcha sig mot den igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
@@ -65,16 +65,16 @@ Om du har två aktiviteter, den ena med nyckelordet Nike som varumärkeskländar
 
 Om båda målinriktade aktiviteter har samma prioritet visas den aktivitet som senast visades. Om besökaren är nybörjare på sidan visas den aktivitet som aktiverades senast.
 
-## Målstandarddisposition/förstklassig formulärbaserad disposition med icke-globala målbegäranden {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Målstandarddisposition/premiumformulärbaserad disposition med icke-globala målförfrågningar {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Den här informationen gäller även alla kampanjer som körs och som har skapats i Target Classic.
 
-Om ditt företag använder andra [!DNL Target] förfrågningar än den globala [!DNL Target] förfrågningen i den formulärbaserade dispositionen kan innehåll från endast en aktivitet returneras per anrop. Aktivitetsleveransen bestäms med hjälp av följande beslutsflöde:
+Om ditt företag använder [!DNL Target]-begäranden som inte är den globala [!DNL Target]-begäran i den formulärbaserade dispositionen, kan bara innehåll från en aktivitet returneras per anrop. Aktivitetsleveransen bestäms med hjälp av följande beslutsflöde:
 
-1. Serveranropet [!DNL Target] innehåller information [!DNL Target] om [!DNL Target] begäran och URL:en.
-1. [!DNL Target] hämtar alla aktiviteter som körs i den [!DNL Target] begäran.
+1. Serveranropet [!DNL Target] kommer till [!DNL Target] med information om [!DNL Target]-begäran och URL:en.
+1. [!DNL Target] hämtar alla aktiviteter som körs i den  [!DNL Target] begäran.
 1. [!DNL Target] försöker att matcha besökaren med den högsta prioritetsaktiviteten.
 
    Om besökaren redan deltar i ett A/B-test eller multivariattest kommer de att matcha det testet tills de konverteras. Om de tidigare hade en upplevelseinriktad aktivitet måste de matcha sig mot den igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
