@@ -20,13 +20,13 @@ Det kan finnas två helt olika sidor att testa i stället för att bara ändra i
 
 >[!NOTE]
 >
->Du kan inte använda omdirigeringserbjudanden i aximbox ( `mboxUpdate`).
+>Du kan inte använda omdirigeringserbjudanden i jaxrutor ( `mboxUpdate`).
 >
->För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T Frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+>För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 
-Mer information om hur du konfigurerar en upplevelse som dirigeras om finns i [Omdirigera till en URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
+Mer information om hur du konfigurerar en omdirigerad upplevelse finns i [Omdirigera till en URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
 
-Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. Den använder `window.location.replace();` metoden, så sidan som besökaren omdirigeras från lagras inte i webbläsarhistoriken. På så sätt kan besökaren fortfarande använda bakåtknappen i sin webbläsare.
+Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. Den använder metoden `window.location.replace();`, så sidan som besökaren omdirigeras från lagras inte i webbläsarhistoriken. På så sätt kan besökaren fortfarande använda bakåtknappen i sin webbläsare.
 
 >[!NOTE]
 >
@@ -47,9 +47,9 @@ Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. 
 
 * **Inkludera alla URL-parametrar:** Markera den här rutan om du vill att alla URL-parametrar som finns på föregående sida ska spridas till den omdirigerade sidan.
 
-   Du vill t.ex. omdirigera personer direkt från en mäns sida till en mäns skjortkategorisida. Du vill också att de dynamiska parametrarna i URL:en ska skickas eftersom det är så här du spårar om någon har nått webbplatsen via e-post, banderollannons, sökannons eller organiskt. Genom att markera den här rutan [!DNL `https://www.mycompany.com/mens.html?emailId=123`] blir omdirigeringserbjudandet automatiskt [!DNL `https://www.mycompany.com/mensShirts.html?emailId=123`] när allt du har angett i URL-rutan [!DNL `https://www.mycompany.com/mensShirts.html`].
+   Du vill t.ex. omdirigera personer direkt från en mäns sida till en menys kategorisida. Du vill också att de dynamiska parametrarna i URL:en ska skickas eftersom det är så här du spårar om någon har nått webbplatsen via e-post, banderollannons, sökannons eller organiskt. Genom att markera den här rutan kommer ditt omdirigeringserbjudande på sidan [!DNL `https://www.mycompany.com/mens.html?emailId=123`] automatiskt att bli [!DNL `https://www.mycompany.com/mensShirts.html?emailId=123`] när allt du angav i URL-rutan var [!DNL `https://www.mycompany.com/mensShirts.html`].
 
-* **Sessions-ID för lösenordsruta (krävs för omdirigering till en annan domän):** Markera den här rutan om du vill att omdirigeringen ska inkluderas automatiskt `sessionId` . Detta är endast nödvändigt när du testar klickningar från ett e-postmeddelande eller klickar från en domän till en annan. Den `sessionId` matchar besökarens cookie så att besökaren kan fortsätta att spåras och rätt innehåll visas.
+* **Sessions-ID för lösenordsruta (krävs för omdirigering till en annan domän):** Markera den här kryssrutan om du vill  `sessionId` att omdirigeringen ska inkluderas automatiskt. Detta är endast nödvändigt när du testar klickningar från ett e-postmeddelande eller klickar från en domän till en annan. `sessionId` matchar besökarens cookie så att besökaren kan fortsätta att spåras och rätt innehåll visas.
 
    Om du använder cookie-konfigurationen från första och tredje part behöver du inte skicka mbox-sessions-ID när du korsar domäner. Den är beständig på cookie-filen från tredje part, så den är inte nödvändig i URL-adressen.
 
@@ -57,7 +57,7 @@ Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. 
 >
 >Fråga din implementeringskonsult innan du startar dessa tester.
 
-## Utbildningsvideo: Märket Innehållsdatabas (4:56) - ![översikt](/help/assets/overview.png)
+## Utbildningsvideo: The Content Repository (4:56) ![Overview badge](/help/assets/overview.png)
 
 Den här videon innehåller information om hur du hanterar innehåll.
 
