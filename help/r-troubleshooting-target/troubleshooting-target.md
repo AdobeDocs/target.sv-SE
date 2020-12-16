@@ -121,7 +121,7 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 * [Felsöka at.js med Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [at.js-begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)av at.js.
+* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [at.js-implementering](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
 ### mbox.js
 
