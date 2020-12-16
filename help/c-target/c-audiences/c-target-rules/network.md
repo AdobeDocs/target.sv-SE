@@ -16,12 +16,12 @@ ht-degree: 2%
 
 Du kan skapa målgrupper baserat på nätverksinformation.
 
-1. I [!DNL Target] gränssnittet klickar du **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Ge publiken ett namn.
 1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Network]**.
-1. Klicka på **[!UICONTROL Select]** och välj sedan något av följande alternativ:
+1. Klicka på **[!UICONTROL Select]** och välj sedan ett av följande alternativ:
 
-   * **Internetleverantör:** En Internet-leverantör är en organisation som ger internetåtkomst till sina prenumeranter, vanligen med en månads- eller årsavgift. Många internetleverantörer erbjuder ytterligare tjänster, som webbhotell eller e-post. Fältet Internet-leverantör är antingen en kommersiell Internet-leverantör (till exempel Comcast eller TimeWarner) eller en annan enhet som ett företag eller en utbildningsinstitution.
+   * **Internet-leverantör:** En internetleverantör är en organisation som ger sina prenumeranter tillgång till internet, vanligen med en månads- eller årsavgift. Många internetleverantörer erbjuder ytterligare tjänster, som webbhotell eller e-post. Fältet Internet-leverantör är antingen en kommersiell Internet-leverantör (till exempel Comcast eller TimeWarner) eller en annan enhet som ett företag eller en utbildningsinstitution.
 
       Nedan följer några exempel på vanliga Internet-leverantörer i USA:
 
@@ -45,17 +45,17 @@ Du kan skapa målgrupper baserat på nätverksinformation.
       >
       >Använd ISP-namnet, inte det populära namnet, när du riktar dig mot en Internet-leverantör. Se till att du skapar regeln så att den inte är skiftlägeskänslig eller alltid använder gemener.
 
-      Du kan testa ISP- och domännamnsvärdena. [https://www.whoismyisp.org](https://www.whoismyisp.org) är en bra resurs för målinriktning. Du kan använda de exempeladresser som anges i tabellen ovan eller ange egna. Använd sedan parametern `themboxOverride.browserIp= URL` för att efterlikna den IP-adressen.
+      Du kan testa ISP- och domännamnsvärdena. [https://www.whoismyisp.](https://www.whoismyisp.org) orgis a good resource for targeting purposes. Du kan använda de exempeladresser som anges i tabellen ovan eller ange egna. Använd sedan parametern `themboxOverride.browserIp= URL` för att efterlikna den IP-adressen.
 
-   * **Domännamn:** Det här är domännamnet för besökarens IP-adress. Detta är inte domännamnet för den webbplats du använder med [!DNL Target]. Det här domännamnet är relaterat till besökarens IP-adress och kallas ibland för ett värdnamn. Det liknar vanligtvis Internet-leverantörens namn. Ibland refererar värdnamnet till äldre namn på företag som har ändrat namn på sin Internet-leverantör men inte domännamnet.
+   * **Domännamn:** Detta är domännamnet för besökarens IP-adress. Det här är inte domännamnet för den webbplats du använder med [!DNL Target]. Det här domännamnet är relaterat till besökarens IP-adress och kallas ibland för ett värdnamn. Det liknar vanligtvis Internet-leverantörens namn. Ibland refererar värdnamnet till äldre namn på företag som har ändrat namn på sin Internet-leverantör men inte domännamnet.
    * **Anslutningshastighet:** Detta är hastigheten på besökarens internetanslutning. Alternativen är: bredband, kabel, dialup, mobile, oc3, oc12, satellit, t1, t2, trådlöst och xdsl.
 
       Det här fältet baseras på anslutningstypen och inte på själva hastigheten. [!DNL Target] kan inte fastställa den exakta anslutningshastigheten för anslutningar. Bredbandsanslutningstypen används när det inte finns några indikationer på andra anslutningstyper, så det går inte att välja en viss typ.
 
-1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
+1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Save]**.
 
-I följande bild visas en målgrupp som riktar sig till besökare som använder AT&amp;T med en anslutningshastighet på [!UICONTROL Mobile].
+Följande bild visar en målgrupp som riktar sig till besökare som använder AT&amp;T med en anslutningshastighet på [!UICONTROL Mobile].
 
 ![Nätverksmål](assets/target_network.png)
 
