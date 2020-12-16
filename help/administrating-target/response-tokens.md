@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Svarstoken{#response-tokens}
 
-Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Target] (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale).
+Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Target] (aktivitetsinformation, användarprofilsinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale).
 
-Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett Target-svar. Om du vill göra det aktiverar du bara en variabel med växeln så skickas variabeln med Target-svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i [!UICONTROL Preview] läge.
+Med svarstoken kan du välja vilka variabler som ska användas och sedan aktivera dem som en del av ett Target-svar. Om du vill göra det aktiverar du bara en variabel med växeln så skickas variabeln med Target-svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i [!UICONTROL Preview]-läge.
 
-En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-program levererar JavaScript till sidan som körs vid leverans, ger svarstoken ett objekt som sedan kan läsas och hanteras med händelseavlyssnare. Mer information finns [i anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js och exemplen senare i den här artikeln. Responstoken är säkrare och bör underlätta utveckling och underhåll av tredjepartsintegreringar.
+En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-program levererar JavaScript till sidan som körs vid leverans, ger svarstoken ett objekt som sedan kan läsas och hanteras med händelseavlyssnare. Mer information finns i [at.js anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) och exemplen senare i den här artikeln. Responstoken är säkrare och bör underlätta utveckling och underhåll av tredjepartsintegreringar.
 
 >[!NOTE]
 >
@@ -26,8 +26,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 
 | Målbibliotek som används | Föreslagna funktionsmakron |
 |--- |--- |
-| at.js | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Mer information om nya funktioner i varje version av at.js finns i [versionsuppgifterna](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som är beroende av interna metoder som finns i mbox.js, men inte i at.js, levereras men kommer att misslyckas. Mer information finns i [at.js Begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
-| mbox.js | Plugin-program stöds och levereras även fortsättningsvis med mbox.js.<br>Kunder som använder mbox.js och plugins uppmuntras att gå över till at.js och svarstoken. Mer information om fördelarna med att använda at.js framför mbox.js finns i [at.js Vanliga frågor](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Mer information om migrering finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Efter borttagningen av Target Classic (november 2017) kan du behöva kontakta Client Care för att redigera eller inaktivera befintliga plugin-program. Du bör ha granskat dina plugin-program innan Target Classic har tagits bort och inaktiverats för oönskade plugin-program.<br>Du kan inte skapa nya plugin-program i Target Standard/Premium. Använd i stället svarstoken.<br>Gamla SiteCatalyst-plugin-program ska inaktiveras och ersättas med [Adobe Analytics som rapportkälla för Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). ttMeta-plugin-programmet bör inaktiveras och ersättas med [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| at.js | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Information om de nya funktionerna i varje version av at.js finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som är beroende av interna metoder som finns i mbox.js, men inte i at.js, levereras men kommer att misslyckas. Mer information finns i [at.js-begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
+| mbox.js | Plugin-program stöds och levereras även fortsättningsvis med mbox.js.<br>Kunder som använder mbox.js och plugins uppmuntras att gå över till at.js och svarstoken. Mer information om fördelarna med att använda at.js framför mbox.js finns i [at.js Vanliga frågor](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Mer information om migrering finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Efter borttagningen av Target Classic (november 2017) kan du behöva kontakta Client Care för att redigera eller inaktivera befintliga plugin-program. Du bör ha granskat dina plugin-program innan Target Classic har tagits bort och inaktiverats för oönskade plugin-program.<br>Du kan inte skapa nya plugin-program i Target Standard/Premium. Använd i stället svarstoken.<br>Gamla SiteCatalyst-plugin-program ska inaktiveras och ersättas med  [Adobe Analytics som rapportkälla för Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). ttMeta-plugin-programmet ska inaktiveras och ersättas med [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
 ## Använda svarstoken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -35,17 +35,17 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 
    Mer information finns i [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Klicka [!DNL Target]på **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
    ![](assets/response_tokens-new.png)
 
-1. Aktivera önskade svarstoken, t.ex. `activity.id`, `option.id`o.s.v.
+1. Aktivera önskade svarstoken, t.ex. `activity.id`, `option.id`.
 
    Följande parametrar är tillgängliga som standard:
 
    | Typ | Parameter | Anteckningar |
    |--- |--- |--- |
-   | Inbyggda profiler | `profile.activeActivities` | Returnerar en matris för `activityIds` besökaren som är kvalificerad för. Det ökar efterhand som användarna kvalificerar sig. På en sida med två [!DNL Target] begäranden som levererar två olika aktiviteter, innehåller den andra begäran till exempel båda aktiviteterna. |
+   | Inbyggda profiler | `profile.activeActivities` | Returnerar en array med `activityIds` som besökaren är kvalificerad för. Det ökar efterhand som användarna kvalificerar sig. På en sida med två [!DNL Target]-begäranden som levererar två olika aktiviteter, innehåller den andra begäran till exempel båda aktiviteterna. |
    |  | `profile.isFirstSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.isNewSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.daysSinceLastVisit` | Returnerar antalet dagar sedan besökarens senaste besök. |
@@ -55,8 +55,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
    |  | `profile.categoryAffinity` | Returnerar besökarens favoritkategori. |
    |  | `profile.categoryAffinities` | Returnerar en array med besökarens fem populäraste kategorier som strängar. |
    | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Information om den aktuella aktiviteten. Observera att&quot;option&quot; är lika med&quot;offer&quot;. |
-   | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Se [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) för mer information om hur du använder geolokalisering i aktiviteter. |
-   | Trafikallokeringsmetod<br>(Gäller endast [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] aktiviteter). | `experience.trafficAllocationId` | Returnerar 0 om en besökare har fått en upplevelse av att vara i&quot;kontrolltrafik&quot; och 1 om en besökare har fått en upplevelse av den&quot;riktade&quot; trafikfördelningen. |
+   | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Mer information om hur du använder geomål i aktiviteter finns i [Geo](/help/c-target/c-audiences/c-target-rules/geo.md). |
+   | Trafikallokeringsmetod<br>(Gäller endast för aktiviteter av typen [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Returnerar 0 om en besökare har fått en upplevelse av att vara i&quot;kontrolltrafik&quot; och 1 om en besökare har fått en upplevelse av den&quot;riktade&quot; trafikfördelningen. |
    |  | `experience.trafficAllocationType` | Returnera&quot;control&quot; eller&quot;target&quot;. |
 
    Attribut för användarprofiler och kundattribut visas också i listan.
@@ -65,17 +65,17 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
    >
    >Parametrar med specialtecken visas inte i listan. Endast alfanumeriska tecken och understreck stöds.
 
-1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via en [!DNL Target] begäran och därför inte har lästs in i målgränssnittet, kan du använda knappen för att lägga till profilen i användargränssnittet [!UICONTROL Add Response Token] .
+1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via en [!DNL Target]-begäran och därför inte har lästs in i målgränssnittet, kan du använda knappen [!UICONTROL Add Response Token] för att lägga till profilen i användargränssnittet.
 
-   Klicka **[!UICONTROL Add Response Token]** och ange tokennamnet. Klicka sedan **[!UICONTROL Activate]**.
+   Klicka på **[!UICONTROL Add Response Token]**, ange tokennamnet och klicka sedan på **[!UICONTROL Activate]**.
 
    ![](assets/response_token_create.png)
 
 1. Skapa en aktivitet.
 
-Använd anpassade [at.js-händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) för att lyssna efter [!DNL Target] svaret och läsa svarstoken.
+Använd [at.js anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
 
-I följande kodexempel läggs en anpassad händelsehanterare till direkt på HTML-sidan: [!DNL at.js]
+Följande kodexempel lägger till en [!DNL at.js] anpassad händelsehanterare direkt på HTML-sidan:
 
 ```html
 <html> 
@@ -94,7 +94,7 @@ I följande kodexempel läggs en anpassad händelsehanterare till direkt på HTM
 </html>
 ```
 
-Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händelsehanterare med hjälp av DTM (Dynamic Tag Manager) i Adobe:
+Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händelsehanterare med hjälp av DTM (Adobe Dynamic Tag Manager):
 
 1. Logga in på DTM.
 1. Bläddra till rätt egenskap.
@@ -102,7 +102,7 @@ Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händ
 
    Eftersom DTM inte stöder at.js internt måste du använda kodredigeraren.
 
-1. Lägg till följande kod i kodredigeraren i [!DNL at.js]:
+1. Lägg till följande kod i [!DNL at.js] i kodredigeraren:
 
    ```json
    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -110,7 +110,7 @@ Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händ
    });
    ```
 
-Du kan lägga till följande kodutdrag på bibliotekets sidfot [på konfigurationssidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js om du vill att allt ska vara en enda fil.
+Du kan lägga till följande utdrag i bibliotekets sidfot [at.js Setup page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) om du vill att allt ska vara en enda fil.
 
 ```json
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -130,19 +130,19 @@ Svarstoken visas, men at.js kan inte använda dem.
 
 **Vad händer om jag använder at.js 1.1 (eller senare) på vissa sidor på min webbplats men mbox.js på andra sidor?**
 
-Svarstoken levereras till [!DNL at.js] Target-svaren, men inte till [!DNL mbox.js] svaren.
+Svarstoken levereras till [!DNL at.js]-målsvaren, men inte till [!DNL mbox.js]-svaren.
 
 **Kan jag ha både Target Classic-plugin-program och svarstoken aktiva samtidigt?**
 
 Insticksprogram och svarstoken kommer att finnas tillgängliga parallellt. plugin-program kommer dock att bli inaktuella i framtiden.
 
-**Levereras svarstoken via alla [!DNL Target] svar eller endast via [!DNL Target] svar som levererar en aktivitet?**
+**Levereras svarstoken via alla  [!DNL Target] svar eller endast via  [!DNL Target] svar som levererar en aktivitet?**
 
-Svarstoken levereras endast genom [!DNL Target] svar som levererar en aktivitet.
+Svarstoken levereras endast via [!DNL Target]-svar som levererar en aktivitet.
 
-**Mitt Target Classic-plugin innehåller JavaScript. Hur replikerar jag funktionaliteten med svarstoken?**
+**Mitt Target Classic-plugin innehåller JavaScript. Hur replikerar jag funktionaliteten med hjälp av svarstoken?**
 
-När du migrerar till svarstoken måste den här typen av JavaScript finnas i kodbas- eller tagghanteringslösningen. Du kan utlösa den här koden med hjälp av [!DNL at.js] anpassade händelser och skicka svarstokenvärden till dina JavaScript-funktioner.
+När du migrerar till svarstoken måste den här typen av JavaScript finnas i kodbas- eller tagghanteringslösningen. Du kan utlösa den här koden med hjälp av anpassade [!DNL at.js]-händelser och skicka svarstokenvärden till dina JavaScript-funktioner.
 
 **Varför visas inte min profil-/kundattributparameter i svarstokenlistan?**
 
@@ -282,12 +282,12 @@ Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom a
 </script>
 ```
 
-## Utbildningsvideo: Responstoken och at.js Custom Events ![Tutorial badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Utbildningsvideo: Svarstoken och anpassade at.js-händelser ![Tutorial badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Titta på följande video och lär dig hur du använder svarstoken och anpassade at.js-händelser för att dela profilinformation från Target till tredjepartssystem.
 
 >[!NOTE]
 >
->Gränssnittet för [!DNL Target][!UICONTROL Administration] menyer (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
+>Menygränssnittet [!DNL Target] [!UICONTROL Administration] (tidigare [!UICONTROL Setup]) har omarbetats för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
