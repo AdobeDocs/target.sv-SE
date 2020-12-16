@@ -1,20 +1,20 @@
 ---
-keywords: promotions;front promotions;back promotions;promotions type
+keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
 description: Lägg in framhävda objekt och styr deras placering i Adobe Target Recommendations. Du kan lägga till statiska och dynamiska kampanjer.
 title: Lägg in kampanjer i Adobe Target Recommendations.
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 180a8064019e8d4a44db13923aad7422f67ccf3f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Lägg till kampanjer{#add-promotions}
+# ![PREMIUM](/help/assets/premium.png) Lägg till kampanjer
 
-Lägg till framhävda objekt och styr placeringen av dem i dina Recommendations-designer. Du kan lägga till statiska och dynamiska kampanjer.
+Lägg in framhävda objekt och styr deras placering i Adobe Target Recommendations. Du kan lägga till statiska och dynamiska kampanjer.
 
 >[!IMPORTANT]
 >
@@ -51,14 +51,31 @@ Du kan befordra specifika element, dynamiskt befordra element, befordra element 
 
    * Markera **[!UICONTROL List of items]** och ange `entity.id` värden, avgränsade med kommatecken, för de specifika objekt som du vill befordra.
 
-      Om din lista innehåller fler objekt än det antal platser som du anger för kampanjer kan du markera kryssrutan för att ändra vilka upphöjda objekt som visas i din design. **[!UICONTROL Randomize Item Order]** Om du väljer det här alternativet väljs antalet objekt som är aktiverade för kampanjer i mallen slumpmässigt från hela erbjudandeuppsättningen för varje besök.
-
    * Välj **[!UICONTROL Promote by attribute]** och lägg till regler för att definiera attributen för de objekt som du vill befordra.
 
       Om du väljer Befordra efter attribut kan du skapa dynamiska matchningar. Mer information finns i [Använda dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-   * Markera **[!UICONTROL Promote a collection]** och välj den samling med objekt som du vill befordra. Du kan skapa nya samlingar som du kan använda för kampanjer. Mer information finns i [Skapa en samling](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) .
+   * Markera **[!UICONTROL Promote a collection]** och välj den samling med objekt som du vill befordra.
 
-1. Klicka på **[!UICONTROL Save.]**.
+      Du kan skapa nya samlingar som du kan använda för kampanjer. Mer information finns i [Skapa en samling](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) .
+   Om du väljer **[!UICONTROL List of Items]** som **[!UICONTROL Promotion Type]** markeringsruta kan du markera **[!UICONTROL Randomize Item Order]** kryssrutan.
+
+   Standardsorteringsordningen för [!UICONTROL List of Items] baseras på den ordning du angav i målgränssnittet eller API:t. Om din lista innehåller fler objekt än det antal platser som du anger för kampanjer, kommer alternativet att göra det till en slumpmässig slumpgenerering av de framhävda objekt som visas i din design. [!UICONTROL Randomize Item Order] Om du väljer det här alternativet väljs [!DNL Target] objekten som är aktiverade för kampanjer i mallen slumpmässigt från hela erbjudandeuppsättningen för varje träff.
+
+   Om dina enheter inte har något `entity.value` -attribut (du säljer till exempel inte produkter) kan du skicka ett numeriskt värde till `entity.value` attributet, till exempel publiceringsdatumet. I det här fallet kan upphöjda objekt befordras baserat på det senaste publiceringsdatumet, i fallande ordning. Attributet `entity.value` är av typen double; den godkänner inte strängar.
+
+   Om du har valt alternativet **[!UICONTROL Promote by Attribute]** eller **[!UICONTROL Promote a Collection]** alternativet, kan du inte göra en slumpmässig beställning.
+
+   När du befordrar specifika objekt med alternativen [!UICONTROL Promote by Attribute] eller [!UICONTROL Promote a Collection] , baseras den standardordning i vilken objekten presenteras på `entity.value` attributet, i fallande numerisk ordning.
+
+   I följande tabell visas skillnaderna mellan dessa alternativ:
+
+   | Erbjudandetyp | Standardsortering | Säkerhetskopieringssortering | Alternativ för dynamisk filtrering |
+   | --- | --- | --- | --- |
+   | Lista över objekt | Ordning angiven i målgränssnittet/API | Slumpmässigt (när det väljs via UI/API | Nej |
+   | Befordra efter attribut | `entity.value` (fallande ordning) | Slumpmässigt för varje begäran (när det inte finns något `entity.value` attribut) | Ja |
+   | Befordra en samling | `entity.value` (fallande ordning) | Slumpmässigt för varje begäran (när det inte finns något `entity.value` attribut) | Nej |
+
+1. Klicka på **[!UICONTROL Save]**.
 
 Kampanjer tillämpas på alla upplevelser i aktiviteten.
