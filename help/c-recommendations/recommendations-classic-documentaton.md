@@ -12,12 +12,12 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations Classic-dokumentation
+# ![Klassisk ](/help/assets/premium.png) dokumentation för PREMIUMRommendations
 
 [!DNL Recommendations Classic] visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter på din webbplats.
 
 Recommendations hjälper kunderna att dirigera till objekt de annars kanske inte känner till, vilket förbättrar försäljningen på er webbplats.
 
-Mer information om hur du kan välja mellan [!DNL Recommendations Classic] och Recommendations-aktiviteter i [!DNL Target Premium]finns i [Recommendations Classic jämfört med Recommendations-aktiviteter i Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Mer information om hur du kan välja mellan [!DNL Recommendations Classic] och Recommendations-aktiviteter i [!DNL Target Premium] finns i [Recommendations Classic jämfört med Recommendations-aktiviteter i Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-Ladda ned dokumentationen för [Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf) i PDF-format.
+Hämta dokumentationen för [Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf) i PDF-format.
