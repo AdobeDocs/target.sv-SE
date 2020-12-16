@@ -62,7 +62,7 @@ ht-degree: 0%
       + Användare {#users}
          + [Översikt över användare](administrating-target/c-user-management/c-user-management/user-management.md)
          + [Felsöka användarhantering](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
-      + Enterprise-användarbehörigheter {#enterprise}
+      + Företagsanvändarbehörigheter {#enterprise}
          + [Enterprise-användarbehörigheter](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurera företagsbehörigheter](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Ge Adobe I/O-integreringar åtkomst till arbetsytor och tilldela roller](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
@@ -79,7 +79,7 @@ ht-degree: 0%
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [CSP-direktiv (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
          + [Tillåtelselista: Hörnkantsnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
-      + Metoder för att hämta data till Target {#methods}
+      + Metoder för att hämta data till målet {#methods}
          + [Metoder](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-inställningar](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Översikt över målsäkerhet](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
@@ -98,7 +98,7 @@ ht-degree: 0%
          + [Implementera mål utan tagghanterare](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
          + [Implementera mål med dynamisk tagghantering (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
          + [Implementering av Single Page-program](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-      + Funktionerna at.js {#functions-overview}
+      + at.js-funktioner {#functions-overview}
          + [at.js - funktionsöversikt](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
          + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
          + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
@@ -193,7 +193,7 @@ ht-degree: 0%
    + [Integrera Target med Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrera Target med Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
-+ Verksamhet {#activities}
++ Aktiviteter {#activities}
    + [Översikt över aktiviteter](c-activities/activities.md)
    + [Målaktivitetstyper](c-activities/target-activities-guide.md)
    + A/B-test {#abtest}
@@ -209,7 +209,7 @@ ht-degree: 0%
          + [Använda analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Målgrupper med olika upplevelser i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-   + Automatisk allokering {#auto-allocate}
+   + Allokera automatiskt {#auto-allocate}
       + [Automatisk allokering - översikt](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Skapa en automatiskt fördelad aktivitet](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -259,7 +259,7 @@ ht-degree: 0%
    + [Redigera en aktivitet eller spara som utkast](c-activities/edit-activity.md)
    + [Prioritet](c-activities/priority.md)
    + [Aktivitetsinställningar](c-activities/activity-settings.md)
-   + Framgångsmått {#success-metrics}
+   + Resultatmått {#success-metrics}
       + [Framgångsmått](c-activities/r-success-metrics/success-metrics.md)
       + [Klickspårning](c-activities/r-success-metrics/click-tracking.md)
       + [Hämtningspoäng](c-activities/r-success-metrics/capture-score.md)
@@ -271,7 +271,7 @@ ht-degree: 0%
       + [Översikt över frågor om aktivitet](c-activities/c-activity-qa/activity-qa.md)
       + [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Använd aktivitets-QA med leverans på serversidan](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-+ Audiences {#audiences}
++ Målgrupper {#audiences}
    + [Översikt över målgrupper](c-target/target.md)
    + Skapa målgrupper {#create-audiences}
       + [Skapa](c-target/c-audiences/audiences.md)
@@ -306,7 +306,7 @@ ht-degree: 0%
    + Mål och målgrupper Frågor och svar {#faq-audiences}
       + [Mål och målgrupper Frågor och svar](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
       + [Dela mått, målgrupper och rapporter - A4T FAQ](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-+ Erfarenheter och erbjudanden {#experiences}
++ Upplevelser och erbjudanden {#experiences}
    + [Översikt över upplevelser och erbjudanden](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Översikt över Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
@@ -402,7 +402,7 @@ ht-degree: 0%
       + [Recommendations aktivitetsinställningar](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Förhandsgranska och starta din Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations som erbjudande](c-recommendations/recommendations-as-an-offer.md)
-   + Frågor och svar {#recommendations-faq}
+   + Vanliga frågor och svar {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Integrera Recommendations med e-post](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [IP-adresser som används av Recommendations feed-bearbetningsservrar](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
