@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Använd rekommendation för säkerhetskopiering{#use-a-backup-recommendation}
+# ![](/help/assets/premium.png) PREMIUMUse en rekommendation för säkerhetskopiering{#use-a-backup-recommendation}
 
 Om du använder funktionen för rekommenderad säkerhetskopiering i Adobe Target kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 
@@ -20,9 +20,9 @@ Om du inte använder en rekommendation för säkerhetskopiering och en rekommend
 
 >[!NOTE]
 >
->Ytterligare information finns i avsnittet [Innehåll i avsnittet Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) , inklusive en matris som förklarar de resultat du kommer att se när du använder [!UICONTROL Partial Design Rendering] - och [!UICONTROL Show Backup Recommendations] -alternativen tillsammans eller separat.
+>Ytterligare information finns i avsnittet [Innehåll i avsnittet Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content), inklusive en matris som förklarar de resultat du får när du använder alternativen [!UICONTROL Partial Design Rendering] och [!UICONTROL Show Backup Recommendations] tillsammans eller separat.
 
-Funktionen för rekommendation av säkerhetskopiering använder alltid de mest visade objekten på webbplatsen för att fylla i återstående platser efter att algoritmens data har använts. Mallen är till exempel konfigurerad att visa fem rekommenderade objekt och du använder algoritmen *Inköpstillhörigheter* . Men du har bara tillräckligt med data för att fylla två av de fem kortplatserna, så funktionen för rekommendation av säkerhetskopiering fyller de andra tre platserna med toppvisade objekt.
+Funktionen för rekommendation av säkerhetskopiering använder alltid de mest visade objekten på webbplatsen för att fylla i återstående platser efter att algoritmens data har använts. Mallen är till exempel konfigurerad att visa fem rekommenderade objekt och du använder algoritmen *Inköpstillhörigheter*. Men du har bara tillräckligt med data för att fylla två av de fem kortplatserna, så funktionen för rekommendation av säkerhetskopiering fyller de andra tre platserna med toppvisade objekt.
 
 Rekommendationer för säkerhetskopiering väljs slumpmässigt bland de 500 mest visade produkterna på hela webbplatsen. Datatidperioden för rekommendationer för säkerhetskopiering är en vecka.
 
