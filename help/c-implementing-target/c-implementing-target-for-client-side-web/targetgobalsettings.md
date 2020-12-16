@@ -26,15 +26,15 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Sträng
 * **Standardvärde**: body { opacity: 0 }
-* **Beskrivning**: Används endast när `globalMboxAutocreate === true` risken för flimmer minimeras.
+* **Beskrivning**: Används endast när du  `globalMboxAutocreate === true` vill minimera risken för flimmer.
 
-   Mer information finns i [How at.js Manages Flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
+   Mer information finns i [How at.js Hantera flimmer](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
 ### bodyHidingEnabled
 
 * **Typ**: Boolean
 * **Standardvärde**: true
-* **Beskrivning**: Används för att styra flimmer när `target-global-mbox` används för att leverera erbjudanden som skapats i Visual Experience Composer, även kallat visuella erbjudanden.
+* **Beskrivning**: Används för att styra flimmer när  `target-global-mbox` används för att leverera erbjudanden som skapats i Visual Experience Composer, även kallat visuella erbjudanden.
 
 ### clientCode
 
@@ -56,39 +56,39 @@ Du kan åsidosätta följande inställningar:
 
 ### cspScriptNonce
 
-* **Typ**: Se [Säkerhetspolicy](#content-security) för innehåll nedan.
-* **Standardvärde**: Se [Säkerhetspolicy](#content-security) för innehåll nedan.
-* **Beskrivning**: Se [Säkerhetspolicy](#content-security) för innehåll nedan.
+* **Typ**: Se  [Säkerhetspolicy ](#content-security) för innehåll nedan.
+* **Standardvärde**: Se  [Säkerhetspolicy ](#content-security) för innehåll nedan.
+* **Beskrivning**: Se  [Säkerhetspolicy ](#content-security) för innehåll nedan.
 
 ### cspStyleNonce
 
-* **Typ**: Se [Säkerhetspolicy](#content-security) för innehåll nedan.
-* **Standardvärde**: Se [Säkerhetspolicy](#content-security) för innehåll nedan.
-* **Beskrivning**: Se [Säkerhetspolicy](#content-security) för innehåll nedan.
+* **Typ**: Se  [Säkerhetspolicy ](#content-security) för innehåll nedan.
+* **Standardvärde**: Se  [Säkerhetspolicy ](#content-security) för innehåll nedan.
+* **Beskrivning**: Se  [Säkerhetspolicy ](#content-security) för innehåll nedan.
 
 ### dataProviders
 
-* **Typ**: Se [Dataproviders](#data-providers) nedan.
-* **Standardvärde**: Se [Dataproviders](#data-providers) nedan.
-* **Beskrivning**: Se [Dataproviders](#data-providers) nedan.
+* **Typ**: Se  [Data ](#data-providers) Providers nedan.
+* **Standardvärde**: Se  [Data ](#data-providers) Providers nedan.
+* **Beskrivning**: Se  [Data ](#data-providers) Providers nedan.
 
 ### defaultContentHiddenStyle
 
 * **Typ**: Sträng
 * **Standardvärde**: synlighet: dold
-* **Beskrivning**: Används endast för kapslingsrutor som använder DIV med klassnamnet &quot;mboxDefault&quot; och som körs via `mboxCreate()`, `mboxUpdate()`eller `mboxDefine()` för att dölja standardinnehåll.
+* **Beskrivning**: Används endast för omslutningsrutor som använder DIV med klassnamnet &quot;mboxDefault&quot; och körs via  `mboxCreate()`,  `mboxUpdate()`eller  `mboxDefine()` för att dölja standardinnehåll.
 
 ### defaultContentVisibleStyle
 
 * **Typ**: Sträng
 * **Standardvärde**: synlighet: visible
-* **Beskrivning**: Används endast för omslutningsrutor som använder DIV med klassnamnet&quot;mboxDefault&quot; och som körs via `mboxCreate()`, `mboxUpdate()`eller `mboxDefine()` för att visa det tillämpade erbjudandet om något eller standardinnehåll.
+* **Beskrivning**: Används endast för omslutningsrutor som använder DIV med klassnamnet&quot;mboxDefault&quot; och körs via  `mboxCreate()`,  `mboxUpdate()`eller  `mboxDefine()` för att visa det tillämpade erbjudandet om något eller standardinnehåll.
 
 ### deviceIdLifetime
 
 * **Typ**: Nummer
 * **Standardvärde**: 63244800000 ms = 2 år
-* **Beskrivning**: Hur lång tid `deviceId` sparas i cookies.
+* **Beskrivning**: Hur lång tid  `deviceId` sparas i cookies.
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Boolean
 * **Standardvärde**: true
-* **Beskrivning**: När det här alternativet är aktiverat utförs en begäran om att hämta upplevelser och DOM-manipulering för att återge upplevelserna automatiskt. [!DNL Target] Dessutom kan [!DNL Target] samtal utföras manuellt via `getOffer(s)` / `applyOffer(s)`.
+* **Beskrivning**: När det här alternativet är aktiverat utförs en  [!DNL Target] begäran om att hämta upplevelser och DOM-manipulering för att återge upplevelserna automatiskt. Dessutom kan [!DNL Target]-anrop utföras manuellt via `getOffer(s)` / `applyOffer(s)`.
 
-   När det är inaktiverat utförs inte förfrågningar automatiskt eller manuellt [!DNL Target] .
+   När [!DNL Target]-begäranden är inaktiverade körs de inte automatiskt eller manuellt.
 
 ### globalMboxAutoCreate
 
@@ -118,21 +118,21 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Boolean
 * **Standardvärde**: false
-* **Beskrivning**: Anger om Target ska anropa API- `isOptedOut()` funktionen för besökare. Detta är en del av aktiveringen av Device Graph.
+* **Beskrivning**: Anger om Target ska anropa  `isOptedOut()` funktionen för Visitor API. Detta är en del av aktiveringen av Device Graph.
 
 ### overrideMboxEdgeServer
 
 * **Typ**: Boolean
 * **Standardvärde**: true (true med början från at.js version 1.6.2)
-* **Beskrivning**: Anger om vi ska använda `<clientCode>.tt.omtrdc.net` domän eller `mboxedge<clusterNumber>.tt.omtrdc.net` domän.
+* **Beskrivning**: Anger om vi ska använda  `<clientCode>.tt.omtrdc.net` domän eller  `mboxedge<clusterNumber>.tt.omtrdc.net` domän.
 
-   Om det här värdet är true sparas domänen i en cookie-fil `mboxedge<clusterNumber>.tt.omtrdc.net` . För närvarande fungerar inte med [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) när du använder at.js-versioner före at.js 1.8.2 och at.js 2.3.1. Om det här är ett problem för dig kan du [uppdatera at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) till en nyare version som stöds.
+   Om det här värdet är true sparas `mboxedge<clusterNumber>.tt.omtrdc.net`-domänen i en cookie. För närvarande fungerar inte med [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) när du använder at.js-versioner före at.js 1.8.2 och at.js 2.3.1. Om det här är ett problem för dig bör du överväga att [uppdatera at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) till en nyare version som stöds.
 
 ### overrideMboxEdgeServerTimeout
 
 * **Typ**: Nummer
 * **Standardvärde**: 1860000 => 31 minuter
-* **Beskrivning**: Anger den cookie-livstid som innehåller `mboxedge<clusterNumber>.tt.omtrdc.net` värdet.
+* **Beskrivning**: Anger den cookie-livstid som innehåller  `mboxedge<clusterNumber>.tt.omtrdc.net` värdet.
 
 ### pageLoadEnabled
 
@@ -150,9 +150,9 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Nummer
 * **Standardvärde**: 5000 ms = 5 s
-* **Beskrivning**: I at.js 0.9.6 introducerades den här nya inställningen som kan åsidosättas via [!DNL Target] `targetGlobalSettings`.
+* **Beskrivning**: I at.js 0.9.6  [!DNL Target] introducerades den här nya inställningen som kan åsidosättas via  `targetGlobalSettings`.
 
-   Inställningen anger hur lång tid klienten är beredd att vänta på att alla element som identifieras av väljarna ska visas på sidan. `selectorsPollingTimeout`
+   Inställningen `selectorsPollingTimeout` representerar hur länge klienten är beredd att vänta på att alla element som identifieras av väljarna ska visas på sidan.
 
    Aktiviteter som skapas via Visual Experience Composer (VEC) har erbjudanden som innehåller väljare.
 
@@ -164,27 +164,27 @@ Du kan åsidosätta följande inställningar:
 
 ### serverState
 
-* **Typ**: Se [Hybrid-personalisering](#server-state) nedan.
-* **Standardvärde**: Se [Hybrid-personalisering](#server-state) nedan.
-* **Beskrivning**: Se [Hybrid-personalisering](#server-state) nedan.
+* **Typ**: Se  [Hybrid-](#server-state) personalisering nedan.
+* **Standardvärde**: Se  [Hybrid-](#server-state) personalisering nedan.
+* **Beskrivning**: Se  [Hybrid-](#server-state) personalisering nedan.
 
 ### timeout
 
 * **Typ**: Nummer
 * **Standardvärde**: Värdet anges via användargränssnittet.
-* **Beskrivning**: Representerar timeout för begäran om [!DNL Target] edge.
+* **Beskrivning**: Representerar timeout för  [!DNL Target] edge-begäran.
 
 ### viewsEnabled
 
 * **Typ**: Boolean
 * **Standardvärde**: true
-* **Beskrivning**: När det här alternativet är aktiverat hämtas vyer automatiskt som måste returneras vid sidinläsning. Vyer stöds i at.js 2.*Endast x* .
+* **Beskrivning**: När det här alternativet är aktiverat hämtas vyer automatiskt som måste returneras vid sidinläsning. Vyer stöds i at.js 2.*Endast* .
 
 ### visitorApiTimeout
 
 * **Typ**: Nummer
 * **Standardvärde**: 2000 ms = 2 s
-* **Beskrivning**: Representerar tidsgränsen för [!UICONTROL Visitor API] begäran.
+* **Beskrivning**: Representerar tidsgränsen för  [!UICONTROL Visitor API] begäran.
 
 ## Användning {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -215,7 +215,7 @@ Följande videofilmer innehåller mer information:
 | [Använda Data Providers i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Data Providers är en funktion som gör att du enkelt kan skicka data från tredje part till Target. En tredje part kan vara en vädertjänst, en datahanteringsplattform eller till och med en egen webbtjänst. Sedan kan ni använda dessa data för att skapa målgrupper, målinnehåll och berika besökarprofilen. |
 | [Implementera Data Providers i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Implementeringsinformation och exempel på hur du använder funktionen Adobe Target dataProviders för att hämta data från tredjepartsleverantörer och skicka dem i Target-begäran. |
 
-Inställningen `window.targetGlobalSettings.dataProviders` är en array med dataleverantörer.
+Inställningen `window.targetGlobalSettings.dataProviders` är en matris med dataleverantörer.
 
 Varje dataleverantör har följande struktur:
 
@@ -224,7 +224,7 @@ Varje dataleverantör har följande struktur:
 | name | Sträng | Leverantörens namn. |
 | version | Sträng | Providerversion. Den här nyckeln kommer att användas för leverantörens utveckling. |
 | timeout | Nummer | Representerar providerns timeout om det här är en nätverksbegäran.  Den här nyckeln är valfri. |
-| provider |  -funktion | Funktionen som innehåller logiken för hämtning av providerdata.<br>Funktionen har en enda obligatorisk parameter: `callback`. Callback-parametern är en funktion som bara ska anropas när data har hämtats eller när ett fel uppstår.<br>Återanropet förväntar sig två parametrar:<ul><li>fel: Anger om ett fel uppstod. Om allt är OK ska den här parametern anges till null.</li><li>parametrar: Ett JSON-objekt som representerar de parametrar som ska skickas i en Target-begäran.</li></ul> |
+| provider |  -funktion | Funktionen som innehåller logiken för hämtning av providerdata.<br>Funktionen har en enda obligatorisk parameter:  `callback`. Callback-parametern är en funktion som bara ska anropas när data har hämtats eller när ett fel uppstår.<br>Återanropet förväntar sig två parametrar:<ul><li>fel: Anger om ett fel uppstod. Om allt är OK ska den här parametern anges till null.</li><li>parametrar: Ett JSON-objekt som representerar de parametrar som ska skickas i en Target-begäran.</li></ul> |
 
 I följande exempel visas var dataleverantören använder synkroniseringskörning:
 
@@ -244,7 +244,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Efter at.js-processer `window.targetGlobalSettings.dataProviders`innehåller Target-begäran en ny parameter: `t1=1`.
+Efter at.js-processerna `window.targetGlobalSettings.dataProviders` innehåller Target-begäran en ny parameter: `t1=1`.
 
 Följande är ett exempel om parametrarna som du vill lägga till i Target-begäran hämtas från en tredjepartstjänst, till exempel Bluekai, Demandbase o.s.v.:
 
@@ -267,9 +267,9 @@ window.targetGlobalSettings = {
 };
 ```
 
-Efter at.js-processer `window.targetGlobalSettings.dataProviders`innehåller Target-begäran ytterligare parametrar: `t1=1`, `t2=2` och `t3=3`.
+Efter at.js-processerna `window.targetGlobalSettings.dataProviders` innehåller Target-begäran ytterligare parametrar: `t1=1`, `t2=2` och `t3=3`.
 
-I följande exempel används dataleverantörer för att samla in väder-API-data och skicka dem som parametrar i en Target-begäran. Target-begäran kommer att ha ytterligare parametrar, till exempel `country` och `weatherCondition`.
+I följande exempel används dataleverantörer för att samla in väder-API-data och skicka dem som parametrar i en Target-begäran. Målbegäran kommer att ha ytterligare parametrar, till exempel `country` och `weatherCondition`.
 
 ```javascript
 var weatherProvider = { 
@@ -312,16 +312,16 @@ var weatherProvider = {
     };
 ```
 
-Tänk på följande när du arbetar med `dataProviders` inställningen:
+Tänk på följande när du arbetar med inställningen `dataProviders`:
 
-* Om dataleverantörerna som läggs till `window.targetGlobalSettings.dataProviders` är asynkrona körs de parallellt. Besökar-API-begäran körs parallellt med funktioner som lagts till för `window.targetGlobalSettings.dataProviders` att ge en minimal väntetid.
+* Om dataleverantörerna som läggs till i `window.targetGlobalSettings.dataProviders` är asynkrona körs de parallellt. Besökar-API-begäran körs parallellt med funktioner som lagts till i `window.targetGlobalSettings.dataProviders` för att ge en minimal väntetid.
 * at.js försöker inte cachelagra data. Om dataleverantören bara hämtar data en gång, bör dataleverantören se till att data cachelagras och, när providerfunktionen anropas, hantera cachedata för det andra anropet.
 
-## Skyddsprofil för innehåll {#content-security}
+## Säkerhetsprincip för innehåll {#content-security}
 
 at.js 2.3.0+ stöder inställning av Content Security Policy-noces för SCRIPT- och STYLE-taggar som läggs till på sidan DOM när levererade Target-erbjudanden används.
 
-Strängarna SCRIPT och STYLE ska anges i `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` motsvarande, före inläsningen av .js 2.3.0+. Se ett exempel nedan:
+Strängarna SCRIPT och STYLE ska anges i `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` motsvarande, före inläsningen av at.js 2.3.0+. Se ett exempel nedan:
 
 ```javascript
 ...
@@ -338,7 +338,7 @@ window.targetGlobalSettings = {
 ...
 ```
 
-När `cspScriptNonce` och `cspStyleNonce` inställningar har angetts anger at.js 2.3.0+ dessa som nonce-attribut för alla SCRIPT- och STYLE-taggar som läggs till i DOM när Target-erbjudanden tillämpas.
+När inställningarna för `cspScriptNonce` och `cspStyleNonce` har angetts anger at.js 2.3.0+ dessa som nonce-attribut för alla SCRIPT- och STYLE-taggar som läggs till i DOM när Target-erbjudanden tillämpas.
 
 ## Hybrid-personalisering {#server-state}
 
@@ -348,8 +348,8 @@ När `cspScriptNonce` och `cspStyleNonce` inställningar har angetts anger at.js
 
 Du måste ha en hybridintegrering av [!DNL Target].
 
-* **Serversidan**:  Du måste använda det nya [leverans-API:t](https://developers.adobetarget.com/api/delivery-api/) eller [mål-SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Klientsidan**: Du måste använda [at.js version 2.2 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **Serversidan**: Du måste använda det nya  [leverans-API:t ](https://developers.adobetarget.com/api/delivery-api/) eller  [mål-SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
+* **Klientsidan**: Du måste använda  [at.js version 2.2 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Kodexempel
 
@@ -383,7 +383,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-Ett exempelobjekt- `serverState` JSON för vyförhämtning ser ut så här:
+Ett `serverState`-objektets JSON-exempel för vyförhämtning ser ut så här:
 
 ```
 {
@@ -454,7 +454,7 @@ Ett exempelobjekt- `serverState` JSON för vyförhämtning ser ut så här:
 }
 ```
 
-När sidan har lästs in i webbläsaren tillämpar at.js alla [!DNL Target] erbjudanden från `serverState` direkt, utan att utlösa några nätverksanrop mot [!DNL Target] kanten. Dessutom döljer at.js bara de DOM-element för vilka [!DNL Target] erbjudanden finns på den hämtade serversidan, vilket positivt påverkar sidladdningsprestanda och slutanvändarupplevelsen.
+När sidan har lästs in i webbläsaren tillämpar at.js omedelbart alla [!DNL Target]-erbjudanden från `serverState`, utan att utlösa några nätverksanrop mot kanten [!DNL Target]. Dessutom kan at.js bara dölja DOM-element som [!DNL Target] erbjuder på den hämtade serversidan, vilket positivt påverkar sidinläsningsprestanda och slutanvändarupplevelsen.
 
 ### Viktiga anteckningar
 
@@ -465,21 +465,21 @@ Tänk på följande när du använder `serverState`:
    * VEC-skapade aktiviteter som körs vid sidinläsning.
    * Förhämtade vyer.
 
-      Om [!DNL Target] vyer och API:t at.js SPA används, cachelagras innehållet för alla vyer som är förhämtade på serversidan `triggerView()` i at.js, och dessa används så snart varje vy aktiveras via `triggerView()`, återigen utan att några ytterligare innehållshämtande anrop till Target aktiveras.
+      Om du SPA använda [!DNL Target]-vyer och `triggerView()` i API:t at.js, cachelagrar at.js v2.2 innehållet för alla vyer som är förhämtade på servern och använder dessa så snart varje vy aktiveras via `triggerView()`, återigen utan att anropa Target för ytterligare innehållshämtning.
 
-   * **Obs**:  För närvarande stöds inte lådor som har hämtats på serversidan i `serverState`.
+   * **Obs**: För närvarande stöds inte lådor som har hämtats på serversidan i  `serverState`.
 
-* Vid användning av `serverState `erbjudanden tar at.js hänsyn till `pageLoadEnabled` och `viewsEnabled` inställningar, t.ex. kommer sidinläsningserbjudanden inte att gälla om `pageLoadEnabled` inställningen är false.
+* När du tillämpar `serverState `erbjudanden tar at.js hänsyn till inställningarna `pageLoadEnabled` och `viewsEnabled`, t.ex. kommer sidinläsning inte att användas om inställningen `pageLoadEnabled` är false.
 
-   Aktivera de här inställningarna genom att aktivera växlingsknappen **[!UICONTROL Administration]> [!UICONTROL Implementation] > [!UICONTROL Edit] >[!UICONTROL Page Load Enabled]**.
+   Aktivera de här inställningarna genom att aktivera växlingen i **[!UICONTROL Administration]> [!UICONTROL Implementation] > [!UICONTROL Edit] >[!UICONTROL Page Load Enabled]**.
 
    ![Inställningar för sidinläsning aktiverat](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
-* Om du använder `serverState` och använder `<script>` -taggar i det returnerade innehållet måste du se till att HTML-innehållet använder `<\/script>` i stället för `</script>`. Om du använder `</script>`tolkar webbläsaren slutet `</script>` på ett infogat SCRIPT och den kan komma att bryta HTML-sidan.
+* Om du använder `serverState` och `<script>`-taggar i det returnerade innehållet måste du se till att HTML-innehållet använder `<\/script>` i stället för `</script>`. Om du använder `</script>` tolkar webbläsaren `</script>` som slutet på ett infogat SCRIPT och den kan komma att bryta HTML-sidan.
 
 ### Ytterligare resurser
 
 Mer information om hur `serverState` fungerar finns i följande resurser:
 
 * [Exempelkod](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [Exempelprogram för SPA med `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [Exempelprogram för SPA med  `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
