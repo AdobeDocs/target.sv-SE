@@ -56,13 +56,13 @@ Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek,
 
 ## ID för kundattributalias
 
-**Max** 50 tecken.
+**Endast**  50 tecken.
 
 ## Kundattribut, överföra
 
 * **Maximal filstorlek för varje överföring med HTTP-metoden**: 100 MB.
 * **maximal filstorlek för varje överföring med FTP-metoden**: 4 GB.
-* **Antal attribut som tillåts prenumerera**: 5 for [!DNL Target Standard] och 200 for [!DNL Target Premium].
+* **Antal attribut som tillåts prenumerera**: 5 for  [!DNL Target Standard] och 200 for  [!DNL Target Premium].
 
 ## Enheter
 
@@ -128,7 +128,7 @@ Dessa begränsningar gäller såvida inte begäran förkortas på grund av webbl
 
 Om du använder API:t för gruppleverans är gränsen 50 mbox per batch-begäran.
 
-Om du använder API:t för [gruppleverans](https://developers.adobetarget.com/api/#server-side-batch-delivery) i SDK för mobila tjänster är begränsningen 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar i själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
+Om du använder [API:t för gruppleverans](https://developers.adobetarget.com/api/#server-side-batch-delivery) i SDK för mobila tjänster är begränsningen 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
 
 &quot;Antalet mboxParameters får inte överskrida 50.&quot;
 
