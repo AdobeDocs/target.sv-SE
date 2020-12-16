@@ -12,11 +12,11 @@ ht-degree: 2%
 ---
 
 
-# Målgrupper{#target-key-concepts}
+# Målnyckelbegrepp{#target-key-concepts}
 
 Information om viktiga koncept som hjälper dig att förstå Adobe Target funktioner.
 
-## Verksamheter och tester {#section_BEA0A0C51A8847579B566060206DE7E8}
+## Aktiviteter och tester {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 En aktivitet avgör vilka upplevelser en besökare kan stöta på.
 
@@ -24,18 +24,18 @@ Du kan till exempel utforma en aktivitet som testar två olika landningssidor, e
 
 När du utformar en aktivitet bör du planera noggrant. Bestäm när aktiviteten ska starta och hur länge den ska vara. Ange sedan era erbjudanden och tilldela målgrupper till var och en av dem.
 
-Målet innehåller flera aktivitetstyper. Följande tabell innehåller en översikt över varje aktivitetstyp med länkar som hjälper dig att lära dig mer. För att du bättre ska kunna välja den bästa aktivitetstypen har vi också skapat [Adobe Target aktivitetshandbok](/help/c-activities/target-activities-guide.md).
+Målet innehåller flera aktivitetstyper. Följande tabell innehåller en översikt över varje aktivitetstyp med länkar som hjälper dig att lära dig mer. För att du bättre ska kunna välja den bästa aktivitetstypen har vi även skapat [Adobe Target aktivitetsguide](/help/c-activities/target-activities-guide.md).
 
 | Typ av aktivitet | Beskrivning |
 |--- |--- |
-| [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | A/B-tester jämför två eller flera versioner av webbplatsinnehållet för att se vilken version som förbättrar konverteringen under en fördefinierad testperiod.<br>**Obs!** Du kan nu inkludera [rekommendationer i A/B-testaktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.<br>**Obs!** Nu kan du inkludera [rekommendationer i Automatisk allokering av aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![TargetPremium](/help/assets/premium.png) | Auto Target använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest anpassade upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.<br>**Obs!** Nu kan du inkludera [rekommendationer i Automatiskt mål-aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Använda analysdata](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Du kan konfigurera en aktivitet som ska användas [!DNL Adobe Analytics] som rapportkälla. Den här aktivitetstypen kräver att du länkar ditt [!DNL Adobe Experience Cloud] konto till både [!DNL Analytics] och [!DNL Target]. |
+| [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | A/B-tester jämför två eller flera versioner av webbplatsinnehållet för att se vilken version som förbättrar konverteringen under en fördefinierad testperiod.<br>**Obs!** Du kan nu inkludera  [rekommendationer i A/B-testaktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
+| [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk allokering av aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
+| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![TargetPremium](/help/assets/premium.png) | Auto Target använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest anpassade upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk målaktivitet](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
+| [Använda analysdata](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)  (A4T) | Du kan konfigurera en aktivitet så att [!DNL Adobe Analytics] används som rapportkälla. Den här aktivitetstypen kräver att du länkar ditt [!DNL Adobe Experience Cloud]-konto till både [!DNL Analytics] och [!DNL Target]. |
 | [Multivariata tester](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Med multivariata tester (MVT) jämförs kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och det element som har störst påverkan på aktivitetens framgång identifieras. |
-| [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.<br>**Obs!** Ni kan nu inkludera [rekommendationer i aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md)som rör Experience Targeting. Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Automatiserad](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personaliseringTarget Premium](/help/assets/premium.png) | Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika varianter av varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva konverteringar. |
-| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | En rekommendation avgör hur en produkt föreslås för en webbplatsanvändare, beroende på den användarens aktiviteter på webbplatsen.<br>Du kanske till exempel vill uppmuntra personer som köper en ryggsäck att överväga att köpa vandrande skor och trikåpoler. Du kan skapa en rekommendation som visar objekt som ofta köpts tillsammans med hjälp av algoritmen&quot;Personer som köpte det här&quot;. Eller så kanske du vill uppmuntra besökarna att spendera mer tid på din mediewebbplats genom att rekommendera liknande video som den de tittar på, med algoritmen&quot;Personer som såg det här&quot;.<br>**Obs!** Nu kan du inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Se [Recommendations som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md). |
+| [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Experience Targeting-aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
+| [Automatiserad ](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personaliseringTarget Premium](/help/assets/premium.png) | Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika varianter av varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva konverteringar. |
+| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | En rekommendation avgör hur en produkt föreslås för en webbplatsanvändare, beroende på den användarens aktiviteter på webbplatsen.<br>Du kanske till exempel vill uppmuntra personer som köper en ryggsäck att överväga att köpa vandrande skor och trikåpoler. Du kan skapa en rekommendation som visar objekt som ofta köpts tillsammans med hjälp av algoritmen&quot;Personer som köpte det här&quot;. Eller så kanske du vill uppmuntra besökarna att spendera mer tid på din mediewebbplats genom att rekommendera liknande video som den de tittar på, med algoritmen&quot;Personer som såg det här&quot;.<br>**Obs!** Du kan nu inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatisk målning) och XT-aktiviteter (Experience Targeting). Se [Recommendations som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Platser {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -46,7 +46,7 @@ Platser är viktiga för aktiviteter och upplevelser. Du avgör om någon plats 
 * Visa och byt innehåll för besökare.
 * Logga besökarbeteende.
 
-I [!DNL Target Standard]kan en plats vara vilket element som helst på en sida, förutsatt att sidan innehåller en enda kodrad som aktiveras [!DNL Target] i `<head>` avsnittet på varje sida som du vill spåra. Den här kodraden anropar de JavaScript-bibliotek som behövs för att samla in information och leverera riktade upplevelser till besökarna.
+I [!DNL Target Standard] kan en plats vara vilket element som helst på en sida, förutsatt att sidan innehåller en enda kodrad som aktiverar [!DNL Target] i `<head>`-avsnittet på varje sida som du vill spåra. Den här kodraden anropar de JavaScript-bibliotek som behövs för att samla in information och leverera riktade upplevelser till besökarna.
 
 Platserna kombineras med målgrupperna för att ge ett nästan oändligt antal alternativ för målgruppsinformation till era kunder. Om en besökare aldrig har besökt webbplatsen tidigare kan du visa en rabattkupong för nya kunder. På samma sätt kan sidan ändras så att den visar erbjudanden som är mer optimerade för återkommande kunder.
 
@@ -82,7 +82,7 @@ En webbsida kan t.ex. visa ett av två erbjudanden, beroende på om besökaren h
 
 En *upplevelse* avgör vilket innehåll som visas när vissa villkor uppfylls.
 
-## Audiences {#section_3F32DA46BDF947878DD79DBB97040D01}
+## Målgrupper {#section_3F32DA46BDF947878DD79DBB97040D01}
 
 Optimera målanpassat innehåll för aktivitetsdeltagare som uppfyller specifika kriterier.
 
@@ -100,7 +100,7 @@ Publiker kan sparas för återanvändning i flera aktiviteter eller skapas för 
 |--- |--- |
 | Återanvändbara målgrupper | Återanvändbara målgrupper kan väljas för alla aktiviteter. Om du ändrar en av dessa målgrupper ändras den för alla aktiviteter som använder den. |
 | Egna segment | Anpassade segment (kallas även kampanjspecifika segment) är specifika för en kampanj i Target Classic. De skapas som en del av kampanjen och kan inte återanvändas i andra kampanjer. |
-| Delade målgrupper | Målgrupper kan delas mellan olika [!DNL Adobe Experience Cloud] lösningar. Se [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) för exempel. |
+| Delade målgrupper | Målgrupper kan delas mellan [!DNL Adobe Experience Cloud]-lösningar. Se [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) för exempel. |
 
 Mer information om hur besökarprofilen spårar information om besökare på platsen finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -110,7 +110,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 ### Aktivitetstyper (9:03) ![Översikt](/help/assets/overview.png)
 
-I den här videon förklaras vilka aktivitetstyper som finns i [!DNL Target Standard/Premium].
+I den här videon förklaras aktivitetstyperna som är tillgängliga i [!DNL Target Standard/Premium].
 
 * Beskriv de typer av aktiviteter som ingår i [!DNL Adobe Target]
 * Välj lämplig aktivitetstyp för att uppnå dina mål
@@ -118,7 +118,7 @@ I den här videon förklaras vilka aktivitetstyper som finns i [!DNL Target Stan
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Using Audiences in Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
+### Använda målgrupper i Adobe Target (6:21) ![Översikt](/help/assets/overview.png)
 
 I den här videon förklaras hur du använder målgrupper i [!DNL Target Standard/Premium].
 
