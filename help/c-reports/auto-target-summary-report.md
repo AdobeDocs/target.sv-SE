@@ -12,21 +12,21 @@ ht-degree: 0%
 ---
 
 
-# ![Sammanfattningsrapport för](/help/assets/premium.png) automatisk målgruppsanpassning för PREMIUM{#auto-target-summary-report}
+# ![Sammanfattningsrapport ](/help/assets/premium.png) för PREMIUMAuto-Target{#auto-target-summary-report}
 
-Information om hur du tolkar [!UICONTROL Auto-Target Summary] rapporterna i [!DNL Adobe Target].
+Information om hur du tolkar [!UICONTROL Auto-Target Summary]-rapporterna i [!DNL Adobe Target].
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target] finns som en del av [!DNL Target Premium] lösningen. Det ingår inte [!DNL Target Standard] utan en [Target Premium-licens](/help/c-intro/intro.md#premium).
+>[!UICONTROL Auto-Target] finns som en del av  [!DNL Target Premium] lösningen. Den ingår inte i [!DNL Target Standard] utan [Target Premium-licens](/help/c-intro/intro.md#premium).
 
-Så här visar du [!UICONTROL Auto-Target Summary] rapporterna:
+Så här visar du [!UICONTROL Auto-Target Summary]-rapporterna:
 
-1. Klicka på önskad [!UICONTROL Activities] aktivitet på [!UICONTROL Auto-Target] sidan.
+1. På sidan [!UICONTROL Activities] klickar du på önskad [!UICONTROL Auto-Target]-aktivitet.
 
-   Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer]och [!UICONTROL Metrics Type][!UICONTROL Activity Source] .
+   Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] och [!UICONTROL Activity Source].
 
-1. Klicka på [!UICONTROL Reports] fliken och sedan på önskad ikon:
+1. Klicka på fliken [!UICONTROL Reports] och sedan på önskad ikon:
 
    * Tabellvy
    * Diagramvy
@@ -35,11 +35,11 @@ Så här visar du [!UICONTROL Auto-Target Summary] rapporterna:
 
 ## Tabellvy
 
-Följande bild visar hur en typisk sammanfattningsrapport ser ut [!UICONTROL Table View] när du visar en [!UICONTROL Auto-Target] aktivitetsrapport:
+Följande bild visar hur en typisk sammanfattningsrapport ser ut i [!UICONTROL Table View] när en [!UICONTROL Auto-Target]-aktivitetsrapport visas:
 
 ![Rapport över tabellvy för automatisk målning](/help/c-reports/assets/at-table-view.png)
 
-Några tips och överväganden när du tolkar dina [!UICONTROL Auto-Target] rapporter:
+Några tips och överväganden när du tolkar dina [!UICONTROL Auto-Target]-rapporter:
 
 * De olika raderna i tabellen hjälper dig att förstå aktivitetsprestanda.
 
@@ -54,30 +54,30 @@ Några tips och överväganden när du tolkar dina [!UICONTROL Auto-Target] rapp
 
 * Att jämföra konverteringsgraden för upplevelsen A med upplevelsen B är inte den rätta jämförelsen i [!UICONTROL Auto-Target]. Frågan är om upplevelsen A fungerar bättre när det används på ett intelligent sätt jämfört med ett slumpmässigt sätt (med andra ord kontra kontrollen). Marknadsförarna bör också vara försiktiga med att tolka lyft från enskilda upplevelser, eftersom personaliseringsalgoritmen försöker optimera för framgångsmätningen över hela aktiviteten, inte över varje enskild upplevelse.
 * Erfarenheter med störst lyft kan anses ha den största skillnaden inom befolkningen. Det är algoritmen som har hittat ett segment som gillar den speciella upplevelsen mest.
-* De olika kolumnerna i tabellen visar antalet besök, konverteringsgraden, den genomsnittliga lyften och konfidensnivån samt förtroendet. Mer information finns i [Jämka lyft, Lyft gränser och Konfidensintervall](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
+* De olika kolumnerna i tabellen visar antalet besök, konverteringsgraden, den genomsnittliga lyften och konfidensnivån samt förtroendet. Mer information finns i [Medel, Lyft gränser och Konfidensintervall](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
 
 ## Diagramvy
 
-Följande bild visar hur en typisk sammanfattningsrapport ser ut [!UICONTROL Graph View] när du visar en [!UICONTROL Auto-Target] aktivitetsrapport:
+Följande bild visar hur en typisk sammanfattningsrapport ser ut i [!UICONTROL Graph View] när en [!UICONTROL Auto-Target]-aktivitetsrapport visas:
 
 ![Rapport över diagramvyn för automatisk målning](/help/c-reports/assets/at-graph-view.png)
 
-Som framgår nedan kan du använda de två listrutorna för att välja önskad statistik, beräkningsmetod och mycket annat. Mer information finns i Översikt över [](/help/c-reports/c-report-settings/report-settings.md) Rapportinställningar:
+Som framgår nedan kan du använda de två listrutorna för att välja önskad statistik, beräkningsmetod och mycket annat. Mer information finns i [Översikt över rapportinställningar](/help/c-reports/c-report-settings/report-settings.md):
 
 ![Rapport över diagramvyn för automatisk målning](/help/c-reports/assets/at-graph-view-2.png)
 
 ## Automatiska segment
 
-Klicka på [!UICONTROL Automated Segments] ikonen. Den här rapporten visar hur olika besökare svarar annorlunda på erbjudanden/upplevelser i din AP/AT-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av Target personaliseringsmodeller svarade på erbjudandena/upplevelserna i aktiviteten.
+Klicka på ikonen [!UICONTROL Automated Segments]. Den här rapporten visar hur olika besökare svarar annorlunda på erbjudanden/upplevelser i din AP/AT-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av Target personaliseringsmodeller svarade på erbjudandena/upplevelserna i aktiviteten.
 
 ![Ikon för automatiserade segment](/help/c-reports/assets/icon-automated-sements.png)
 
-Mer information finns i [rapporten](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)Automatiska segment.
+Mer information finns i [Rapporten om automatiserade segment](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Viktiga attribut
 
-Klicka på [!UICONTROL Important Attributes] ikonen. Den här rapporten visar hur olika attribut är viktigare (eller mindre) i olika aktiviteter för hur modellen bestämmer sig för att personalisera. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse.
+Klicka på ikonen [!UICONTROL Important Attributes]. Den här rapporten visar hur olika attribut är viktigare (eller mindre) i olika aktiviteter för hur modellen bestämmer sig för att personalisera. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse.
 
 ![Ikon för viktiga attribut](/help/c-reports/assets/icon-important-attributes.png)
 
-Mer information finns i [rapporten](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Viktiga attribut.
+Mer information finns i [Viktiga attribut-rapport](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
