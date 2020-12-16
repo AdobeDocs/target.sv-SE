@@ -17,31 +17,31 @@ ht-degree: 0%
 Om sidan inte visar det förväntade innehållet kan du utföra några steg för att felsöka innehållsleveransen.
 
 * Kontrollera aktiviteten eller kampanjkoden noggrant. Ett skrivfel eller ett annat fel kan göra att det förväntade innehållet inte visas.
-* Använd mboxTrace eller mboxDebug för att felsöka [!DNL Target] begäran.
-* Använd Adobe Experience Cloud Debugger, ett lättanvänt verktyg som ger mycket av samma information som mboxDebug, för att felsöka [!DNL Target] begäran.
+* Använd mboxTrace eller mboxDebug för att felsöka [!DNL Target]-begäran.
+* Använd Adobe Experience Cloud Debugger, ett lättanvänt verktyg som ger mycket av samma information som mboxDebug, för att felsöka [!DNL Target]-begäran.
 
-mboxDebug är särskilt användbart när du konfigurerar [!DNL Target] på sidan för att kontrollera att [!DNL Target] begäran utlöses och att cookien ställs in. Men den går inte in på den typ av detaljer som är användbar vid felsökning av innehållsleverans. Om aktiviteten inte visas på sidan eller om oönskat innehåll visas använder du mboxTrace för att undersöka och felsöka sidan i detalj.
+mboxDebug är särskilt användbart när du konfigurerar [!DNL Target] på sidan för att kontrollera att [!DNL Target]-begäran utlöses och att cookien ställs in. Men den går inte in på den typ av detaljer som är användbar vid felsökning av innehållsleverans. Om aktiviteten inte visas på sidan eller om oönskat innehåll visas använder du mboxTrace för att undersöka och felsöka sidan i detalj.
 
-## Hämta den auktoriseringstoken som ska användas med felsökningsverktyg {#section_BED130298E794D1FA229DB7C3358BA54}
+## Hämta den auktoriseringstoken som ska användas med felsökningsverktygen {#section_BED130298E794D1FA229DB7C3358BA54}
 
-Eftersom mboxTrace och mboxDebug kan visa kampanjdata och profildata för externa parter krävs en auktoriseringstoken. Auktoriseringstoken kan hämtas i [!DNL Target] användargränssnittet. Token gäller i sex timmar.
+Eftersom mboxTrace och mboxDebug kan visa kampanjdata och profildata för externa parter krävs en auktoriseringstoken. Auktoriseringstoken kan hämtas i användargränssnittet för [!DNL Target]. Token gäller i sex timmar.
 
 Du måste ha någon av följande användarbehörigheter för att generera en autentiseringstoken:
 
-* Åtminstone [!UICONTROL Editor] tillstånd (eller [!UICONTROL Approver])
+* Minst [!UICONTROL Editor] behörighet (eller [!UICONTROL Approver])
 
-   Mer information för [!DNL Target Standard] kunder finns i [Ange roller och behörigheter](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) i *Användare*. Mer information om [!DNL Target Premium] kunder finns i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+   Mer information för [!DNL Target Standard]-kunder finns i [Ange roller och behörigheter](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) i *Användare*. Mer information om [!DNL Target Premium]-kunder finns i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Administratörsroll på arbetsyta/produktprofilnivå
 
-   Arbetsytor är bara tillgängliga för [!DNL Target Premium] kunder. Mer information finns i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+   Arbetsytor är bara tillgängliga för [!DNL Target Premium]-kunder. Mer information finns i [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-* Administratörsrättigheter (systemadministratörsbehörighet) på [!DNL Adobe Target] produktnivå
+* Administratörsrättigheter (systemadministratörsbehörighet) på [!DNL Adobe Target]-produktnivå
 
 Så här hämtar du auktoriseringstoken:
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Klicka på i avsnittet Felsökningsverktyg **[!UICONTROL Generate New Authentication Token]**.
+1. Klicka på **[!UICONTROL Generate New Authentication Token]** i avsnittet Felsökningsverktyg.
 
    ![Generera ny autentiseringstoken](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -51,7 +51,7 @@ Så här hämtar du auktoriseringstoken:
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace gör att du kan ta emot spårningsinformation som bifogas till [!DNL Target] svar. Spårningsinformationen återspeglar resultatet av ett [!DNL Target] anrop (t.ex. en konvertering eller ett intryck) och alla ytterligare data som kan hjälpa till att avgöra varför just detta resultat inträffade, t.ex. en uppsättning tillgängliga grenar som urvalet gjordes bland i en kampanj. Använd den här informationen för att felsöka innehållsleverans.
+mboxTrace gör att du kan ta emot spårningsinformation som är kopplad till [!DNL Target]-svar. Spårningsinformationen återspeglar resultatet av ett [!DNL Target]-anrop (till exempel en konvertering eller ett intryck) och alla ytterligare data som kan hjälpa till att avgöra varför det här specifika resultatet inträffade, till exempel en uppsättning tillgängliga grenar som urvalet gjordes i en kampanj. Använd den här informationen för att felsöka innehållsleverans.
 
 Följande parametrar är tillgängliga:
 
@@ -84,7 +84,7 @@ En del av informationen innehåller matchade och omatchade segment- och mål-ID:
 * Undantag och inkluderingar som tillämpas
 * Samlingsregler
 
-Du behöver inte inkludera `=console`, `=json`eller `=window` i frågeparametern. När du är klar med informationen för mboxTrace lägger du till `=disable` och trycker **[!UICONTROL Enter]** för att återgå till det normala visningsläget.
+Du behöver inte inkludera `=console`, `=json` eller `=window` i frågeparametern. När du är klar med informationen för mboxTrace lägger du till `=disable` och trycker på **[!UICONTROL Enter]** för att återgå till det normala visningsläget.
 
 Webbplatsens normala funktion och utseende påverkas inte av mboxTrace. Besökarna ser din vanliga Recommendations-design.
 
@@ -98,16 +98,16 @@ Om du vill använda mboxDebug lägger du till en mboxDebug-parameter i slutet av
 
 | URL-parametrar | Syfte |
 |--- |--- |
-| `mboxDebug=1` | FelsökningOm du lägger till den här parametern till en URL med definierade Target-begäranden öppnas ett popup-fönster med värdefull felsökningsinformation.<br> Cookie-information, PCid- och sessions-ID-värden skrivs ut och alla URL:er visas. Klicka på en URL för en målbegäran för att visa svaret på den [!DNL Target] begäran. Mer information finns i [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | Felsökning<br>Om du lägger till den här parametern till en URL med definierade Target-begäranden öppnas ett popup-fönster med värdefull felsökningsinformation. Cookie-information, PCid- och sessions-ID-värden skrivs ut och alla URL:er visas. Klicka på en URL för en målbegäran för att visa svaret på den [!DNL Target]-begäran. Mer information finns i [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Ändra cookien |
 | `mboxDisable=1` | Inaktivera kryssrutor på sidan |
 | `mboxDebug=x-profile` | Visa profiler. |
-| `mboxDebug=x-time` | Visa svarstid för varje [!DNL Target] begäran |
-| `mboxOverride.browserIp=<Insert IP address>` | Testa<br>geotargetingTesta geolokalisering med den här URL-parametern. Ange en IP-adress som värde för det här attributet, och Test&amp;Target-målet utvärderar den IP-adressen så att den matchar alla geografiska mål och segmenteringar som angetts i en kampanj. |
+| `mboxDebug=x-time` | Visa svarstid för varje [!DNL Target]-begäran |
+| `mboxOverride.browserIp=<Insert IP address>` | Testa geolokalisering<br>Testa geolokalisering med den här URL-parametern. Ange en IP-adress som värde för det här attributet, och Test&amp;Target-målet utvärderar den IP-adressen så att den matchar alla geografiska mål och segmenteringar som angetts i en kampanj. |
 
 >[!NOTE]
 >
->Kontrollera att URL-fragmentet är efter frågesträngsparametrar. Allt efter det första `#` är en fragmentidentifierare och får felsökningsparametrarna att inte fungera korrekt.
+>Kontrollera att URL-fragmentet är efter frågesträngsparametrar. Allt efter den första `#` är en fragmentidentifierare och får felsökningsparametrarna att inte fungera korrekt.
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
@@ -123,25 +123,25 @@ Mbox.js skickar en cookie med namnet&quot;em-disabled&quot; till besökaren om t
 
 ## De största säljarna visas inte i Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-Anropet *`SiteCatalyst: purchase`* kan inte användas för trafikdata för inköpsalgoritmen. Använd *`orderConfirmPage`* samtalet i stället.
+Anropet *`SiteCatalyst: purchase`* kan inte användas för trafikdata för inköpsalgoritmen. Använd *`orderConfirmPage`*-anropet i stället.
 
 ## Kontrollera aktivitetsprioritet {#section_3D0DD07240F0465BAF655D0804100AED}
 
-Formulärbaserade aktiviteter som skapats med [!DNL Target Standard/Premium] kan kollidera med aktiviteter som skapats i [!DNL Target Classic] användargränssnittet som har samma prioritet och använder samma [!DNL Target] begäran.
+Formulärbaserade aktiviteter som skapats med [!DNL Target Standard/Premium] kan kollidera med aktiviteter som skapats i [!DNL Target Classic]-gränssnittet som har samma prioritet och använder samma [!DNL Target]-begäran.
 
 ## Anpassad kod ger inte det förväntade resultatet i Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target har inte längre stöd för IE 8.
 
-## JavaScript-innehåll som levereras av den globala [!DNL Target] begäran läses inte in när mbox.js används. {#section_03EC9B9C410B4F52A7FCD81840311709}
+## JavaScript-innehåll som levereras av den globala [!DNL Target]-begäran läses inte in när mbox.js används. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 Uppgradera till [!DNL mbox.js] version 58 eller senare.
 
-mbox.js version 58 och senare kör icke-JavaScript-innehåll för den globala [!DNL Target] begäran omedelbart efter att HTML- `BODY` -taggen finns. JavaScript-innehåll inuti `<script>` -taggar för den globala [!DNL Target] begäran körs efter att `DOMContentLoaded` händelsen har utlösts. Den här ordningen för innehållsleverans säkerställer att JavaScript-innehåll för den globala [!DNL Target] begäran levereras och återges korrekt.
+mbox.js version 58 och senare kör icke-JavaScript-innehåll för den globala [!DNL Target]-begäran omedelbart efter att HTML-taggen `BODY` finns. JavaScript-innehåll i `<script>`-taggar för den globala [!DNL Target]-begäran körs efter att `DOMContentLoaded`-händelsen har utlösts. Den här ordningen för innehållsleverans säkerställer att JavaScript-innehåll för den globala [!DNL Target]-begäran levereras och återges korrekt.
 
-## Målcookie har inte angetts {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Målcookie får inte uppsättningen {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Om platsen har en underdomän, till exempel [!DNL us.domain.com]men du behöver ha Target-cookien inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]), måste du åsidosätta `cookieDomain` inställningen. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Om platsen har en underdomän, till exempel [!DNL us.domain.com], men du behöver en målcookie som är inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]), måste du åsidosätta inställningen `cookieDomain`. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Målinnehållet flimrar eller visas inte om ett element också ingår i AEM. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -153,13 +153,13 @@ Du kan åtgärda detta genom att inaktivera AEM på sidor där Target körs.
 
 Om omdirigerings- eller fjärrerbjudandet använder en ogiltig URL kanske det inte kan levereras.
 
-För omdirigeringserbjudanden kan [!DNL Target] svaret innehålla `/* invalid redirect offer URL */`
+För omdirigeringserbjudanden kan [!DNL Target]-svaret innehålla `/* invalid redirect offer URL */`
 
 eller
 
-För fjärrerbjudanden kan [!DNL Target] svaret innehålla `/* invalid remote offer URL */`
+För fjärrerbjudanden kan [!DNL Target]-svaret innehålla `/* invalid remote offer URL */`
 
-Du kan kontrollera [!DNL Target] svaret i webbläsaren eller med mboxTrace. Mer information om giltiga URL:er finns på [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) .
+Du kan kontrollera [!DNL Target]-svaret i webbläsaren eller med mboxTrace. Mer information om giltiga URL:er finns i [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
 ## Målförfrågningar utlöses inte på min webbplats.
 
@@ -169,11 +169,11 @@ at.js utlöser inte Target-begäranden om du använder en ogiltig doctype. at.js
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Lägg till märket ![för självstudiekursen om tillägg](/help/assets/tutorial.png)
+### Lägg till filnamnstillägget ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Grundläggande ![självstudiekursetikett för målfelsökning](/help/assets/tutorial.png)
+### Grundläggande målfelsökning ![Självstudiekurs](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
