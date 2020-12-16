@@ -30,7 +30,7 @@ Det finns flera orsaker till detta:
 
 * Klassificeringsanropet från [!DNL Target] till [!DNL Analytics] misslyckades.
 
-   [Kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om du behöver hjälp.
+   [Kontakta kundens ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) karriär om du behöver hjälp.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Det finns flera orsaker till detta:
 
 ## Mina analysdata visar ett uppblåst besöks- eller besökarantal sedan A4T startades. {#section_4BE374E573D44FB7918611699B74F58E}
 
-Mer information finns i [Minimera antalet uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Mer information finns i [Minimera antal uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## Den beräknade ökningen av intäktsmått visar inte korrekta data. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -48,11 +48,11 @@ Information om lyft och förtroende är inte tillgänglig i Analytics. De är do
 
 ## Aktiviteter visas inte i analysrapporter. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T-aktiviteter kräver att en analysspårningsserver anges. Se [Använda en Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för att se till att Analytics Tracking Server är korrekt konfigurerad.
+A4T-aktiviteter kräver att en analysspårningsserver anges. Se [Använda en Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för att kontrollera att Analytics Tracking Server är korrekt konfigurerad.
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
+>Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 
 ## Mina analyssegment visas inte i Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -70,18 +70,18 @@ Detta är ett känt problem.
 
 ## Rapportsviten som jag behöver visas inte. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Listan med rapportsviter i [!DNL Target Standard/Premium] är listan med rapportsviter som har konfigurerats för [!DNL Analytics] att vara rapportkälla för [!DNL Target] (A4T). Det innebär att du kanske inte ser alla rapporteringsprogram du har.
+Listan med rapportsviter som visas i [!DNL Target Standard/Premium] är listan med rapportsviter som har konfigurerats för [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T). Det innebär att du kanske inte ser alla rapporteringsprogram du har.
 
-Om du använder flera rapportkällor måste rapportsviterna också finnas i standardrapportkälluppsättningen i [!DNL Target] . annars visas inte rapportsviterna.
+Om du använder flera rapportkällor måste rapportsviterna också finnas i standardrapportkälluppsättningen i [!DNL Target]. annars visas inte rapportsviterna.
 
-Om du fortfarande inte ser den rapportserie du söker kan du kontakta [kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att aktivera den.
+Om du fortfarande inte ser den rapportserie du söker kan du kontakta [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) och aktivera den.
 
 ## Jag ser inte så mycket data i rapporter som förväntat. {#section_75002584FA63456D8D9086172925DD8D}
 
-Granska implementeringen, särskilt på sidor där besökarna är berättigade till upplevelser, och se till att ID:n för kompletterande data matchar i [!DNL Target] och [!DNL Analytics] i samtal.
+Granska implementeringen, särskilt på sidor där besökarna är kvalificerade för upplevelser, och se till att ID:n för kompletterande data matchar i samtal med [!DNL Target] och [!DNL Analytics].
 
-* **at.js 1.x**: I [!DNL Target] anropet finns det kompletterande ID:t i `mboxMCSDID` parametern. I [!DNL Analytics] anropet finns det kompletterande ID:t i `sdid` parametern.
-* **at.js 2.x**: I [!DNL Target] anropet returneras det extra ID:t i HTTP-huvudet som värde för `experienceCloud.analytics.supplementalDataId`. I [!DNL Analytics] anropet finns det kompletterande ID:t i `sdid` parametern.
+* **at.js 1.x**: I  [!DNL Target] anropet finns det kompletterande ID:t i  `mboxMCSDID` parametern. I anropet [!DNL Analytics] finns det kompletterande ID:t i parametern `sdid`.
+* **at.js 2.x**: I  [!DNL Target] anropet returneras det extra ID:t i HTTP-huvudet som värde för  `experienceCloud.analytics.supplementalDataId`. I anropet [!DNL Analytics] finns det kompletterande ID:t i parametern `sdid`.
 
 Det enklaste sättet att undersöka det kompletterande ID:t är att använda Adobe Experience Platform Debugger.
 
@@ -89,6 +89,6 @@ Om du inte har installerat felsökaren läser du [Introduktion till Adobe Experi
 
 ![Felsökning](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
-Om det inte finns något ytterligare data-ID i [!DNL Target] anropet bekräftar du att [!DNL VisitorAPI.js] filen har lästs in före [!DNL at.js] eller [!DNL mbox.js]. Om det inte finns något ytterligare data-ID i [!DNL Analytics] samtalet bekräftar du att [!DNL Target] samtalet utlöses före [!DNL Analytics] samtalet.
+Om det inte finns något ytterligare data-ID i [!DNL Target]-anropet bekräftar du att [!DNL VisitorAPI.js]-filen har lästs in före [!DNL at.js] eller [!DNL mbox.js]. Om det inte finns något ytterligare data-ID i [!DNL Analytics]-anropet bekräftar du att [!DNL Target]-anropet utlöses före [!DNL Analytics]-anropet.
 
-Mer information finns i [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) eller kontakta [kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+Mer information finns i [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) eller kontakta [Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
