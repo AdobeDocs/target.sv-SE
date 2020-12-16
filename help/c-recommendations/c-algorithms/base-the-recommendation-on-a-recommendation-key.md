@@ -15,23 +15,23 @@ ht-degree: 0%
 
 # Basera rekommendationen på en rekommendationsnyckel
 
-Recommendations baserat på nycklar använder besökarbeteendekontext för att visa relevanta resultat i [!DNL Adobe Target][!DNL Recommendations] aktiviteter.
+Recommendations baserat på nycklar använder besökarbeteendekontext för att visa relevanta resultat i [!DNL Adobe Target] [!DNL Recommendations]-aktiviteter.
 
 Det finns två typer av Recommendations:
 
-* **Popularitet:** Visar objekt enligt Mest visade, Mest sålda och Mät upp. Nyckeln är tom för popularitetskriterier.
-* **Nyckelbaserad:** Innefattar resten av kriterierna. Recommendations erbjuder en mängd olika alternativ när det gäller nyckeltypen. Alternativen varierar från&quot;aktuellt objekt&quot; till&quot;profilparametrar&quot;, vilket gör att du kan ställa in nyckelvärdena för programmering att rekommendera. Du kan testa flera villkor mot varandra genom att basera varje villkor på en annan nyckel.
+* **Popularitet:** Visar en lista över objekt enligt Mest visade, Mest sålda i överkant och Mät i överkant. Nyckeln är tom för popularitetskriterier.
+* **Nyckelbaserad:** Innefattar resten av villkoren. Recommendations erbjuder en mängd olika alternativ när det gäller nyckeltypen. Alternativen varierar från&quot;aktuellt objekt&quot; till&quot;profilparametrar&quot;, vilket gör att du kan ställa in nyckelvärdena för programmering att rekommendera. Du kan testa flera villkor mot varandra genom att basera varje villkor på en annan nyckel.
 
 Varje villkor definieras på en egen flik. Trafiken fördelas jämnt mellan olika kriterietester. Med andra ord, om du har två kriterier, delas trafiken lika mellan dem. Om du har två kriterier och två designer, delas trafiken jämnt mellan de fyra kombinationerna. Du kan också ange en procentandel besökare som ser standardinnehållet för jämförelse. I så fall ser den angivna procentandelen besökare standardinnehållet och resten delas mellan dina kriterier och designkombinationer.
 
 1. Skapa ett nytt villkor eller välj ett befintligt villkor och klicka på **[!UICONTROL Edit]**.
-1. Om du vill ändra rekommendationsnyckeln väljer du den nya nyckeln i [!UICONTROL Recommendation Key] listrutan och klickar sedan på **[!UICONTROL Save]** eller **[!UICONTROL Update]**.
+1. Om du vill ändra rekommendationsnyckeln väljer du den nya nyckeln i listrutan [!UICONTROL Recommendation Key] och klickar sedan på **[!UICONTROL Save]** eller **[!UICONTROL Update]**.
 
    Eftersom olika logik mappar till olika rekommendationstangenter passar olika rekommendationer in på olika typer av sidor. Mer information om varje rekommendationsnyckel finns i följande avsnitt.
 
 ## Rekommendationsnycklar
 
-Följande rekommendationsnycklar är tillgängliga i [!UICONTROL Recommendation Key] listrutan:
+Följande rekommendationsnycklar är tillgängliga i listrutan [!UICONTROL Recommendation Key]:
 
 ### Aktuellt objekt {#current-item}
 
@@ -39,7 +39,7 @@ Rekommendationen avgörs av det objekt som besökaren för närvarande visar.
 
 Recommendations visar andra objekt som kan intressera besökare som är intresserade av det angivna objektet.
 
-När det här alternativet är markerat måste `entity.id` värdet skickas som en parameter i visningsrutan.
+När det här alternativet är markerat måste `entity.id`-värdet skickas som en parameter i visningsrutan.
 
 #### Logic (villkor)
 
@@ -60,7 +60,7 @@ Rekommendationen avgörs av den produktkategori som besökaren för närvarande 
 
 Recommendations visar objekt i den angivna produktkategorin.
 
-När det här alternativet är markerat måste `entity.categoryId` värdet skickas som en parameter till visningsrutan.
+När det här alternativet är markerat måste `entity.categoryId`-värdet skickas som en parameter till visningsrutan.
 
 #### Logic (villkor)
 
@@ -74,9 +74,9 @@ När det här alternativet är markerat måste `entity.categoryId` värdet skick
 
 ### Anpassat attribut {#custom}
 
-Rekommendationen bestäms av ett objekt som lagras i en besökarprofil, med hjälp av någon av användarna.*x* eller profil.*x* -attribut.
+Rekommendationen bestäms av ett objekt som lagras i en besökarprofil, med hjälp av någon av användarna.*Exportera* profil.*xattributes* .
 
-När det här alternativet är markerat måste `entity.id` värdet finnas i profilattributet.
+När det här alternativet är markerat måste `entity.id`-värdet finnas i profilattributet.
 
 När du baserar rekommendationer på anpassade attribut måste du välja det anpassade attributet och sedan välja rekommendationstypen.
 
@@ -87,7 +87,7 @@ Den här funktionen innebär att du kan använda [!DNL Target] för att lägga t
 Med tillägg av inkluderingsregler på anpassade kriterier förvandlas annars statiska rekommendationer till dynamiska rekommendationer baserade på besökarens intressen.
 
 * Anpassade villkor kan konfigureras, precis som andra villkor i rekommendationer.
-* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [uteslutningar](/help/c-recommendations/c-products/exclusions.md)och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra villkor.
+* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [undantag](/help/c-recommendations/c-products/exclusions.md) och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive specialreglerna för Pris och Lager) på samma sätt som andra villkor.
 
 Möjliga användningsområden:
 
@@ -114,20 +114,20 @@ Om nyckeln är ett anpassat profilattribut och algoritmtypen är Most Viewed ell
 
 Du kan basera rekommendationer på värdet för ett anpassat profilattribut. Anta till exempel att du vill visa rekommenderade filmer baserat på den film som en besökare senast lade till i sin kö.
 
-1. Välj det anpassade profilattributet i **[!UICONTROL Recommendation Key]** listrutan (till exempel &quot;Senast visade tillagd i bevakningslista&quot;).
+1. Välj ditt anpassade profilattribut i listrutan **[!UICONTROL Recommendation Key]** (t.ex. &quot;Senast visade tillagd i bevakningslista&quot;).
 1. Välj sedan din **[!UICONTROL Recommendation Logic]** (till exempel&quot;Personer som har tittat på det här, har sett det&quot;).
 
    ![Dialogrutan Skapa nytt villkor](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara [!DNL Recommendations] hur du vill att matchningen till en entitet ska ske. Anta till exempel att du vill visa de främsta säljartiklarna från en besökares favoritvarumärke.
+Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara för [!DNL Recommendations] hur du vill att matchningen till en entitet ska ske. Anta till exempel att du vill visa de främsta säljartiklarna från en besökares favoritvarumärke.
 
-1. Välj det anpassade profilattributet i **[!UICONTROL Recommendation Key]** listrutan (till exempel &quot;Favoritmärke&quot;).
+1. Välj ditt anpassade profilattribut i listrutan **[!UICONTROL Recommendation Key]** (till exempel &quot;Favorit Brand&quot;).
 
-1. Välj sedan den **[!UICONTROL Recommendation Logic]** du vill använda med den här nyckeln (till exempel&quot;Top Sellers&quot;).
+1. Välj sedan den **[!UICONTROL Recommendation Logic]** som du vill använda med den här nyckeln (till exempel&quot;Top Sellers&quot;).
 
    Alternativet [!UICONTROL Group By Unique Value Of] visas.
 
-1. Välj det entitetsattribut som matchar nyckeln som du har valt. I det här fallet matchar&quot;Favorite Brand&quot; `entity.brand`.
+1. Välj det entitetsattribut som matchar nyckeln som du har valt. I det här fallet matchar&quot;Favoritmärke&quot; `entity.brand`.
 
    [!DNL Recommendations] skapar nu en&quot;Top Sellers&quot;-lista för varje varumärke och visar besökaren rätt&quot;Top Sellers&quot;-lista baserat på det värde som lagras i besökarens attribut för favoritprofilen.
 
@@ -227,20 +227,20 @@ Rekommendationen avgörs av hur populära objekten på webbplatsen är. Populari
 
 * Allmänna sidor, t.ex. hemsidor eller landningssidor och annonser utanför webbplatsen.
 
-### Senast visade objekt {#recently-viewed}
+### Nyligen visade objekt {#recently-viewed}
 
-Använder besökarens historik (spridningssessioner) för att presentera de senaste *x* -objekten som besökaren har visat, baserat på antalet platser i designen.
+Använder besökarens historik (som omfattar sessioner) för att presentera de sista *x* objekten som besökaren har visat, baserat på antalet platser i designen.
 
-Kriteriet Senast visade objekt returnerar resultat som är specifika för en viss [miljö](/help/administrating-target/hosts.md). Om två platser tillhör olika miljöer och en besökare växlar mellan de två platserna, visar varje plats endast nyligen visade objekt från rätt plats. Om två platser finns i samma miljö och en besökare växlar mellan de två platserna, kommer besökaren att se samma nyligen visade objekt för båda platserna.
+Kriteriet Senast visade objekt returnerar resultat som är specifika för en given [miljö](/help/administrating-target/hosts.md). Om två platser tillhör olika miljöer och en besökare växlar mellan de två platserna, visar varje plats endast nyligen visade objekt från rätt plats. Om två platser finns i samma miljö och en besökare växlar mellan de två platserna, kommer besökaren att se samma nyligen visade objekt för båda platserna.
 
 >[!NOTE]
 >
->Du kan inte använda kriterierna för [!UICONTROL Recently Viewed Items] att säkerhetskopiera rekommendationer.
+>Du kan inte använda [!UICONTROL Recently Viewed Items]-kriterierna för rekommendationer för säkerhetskopiering.
 
 [!UICONTROL Recently Viewed Items]/Media kan filtreras så att endast objekt med ett visst attribut visas.
 
 * Senast visade villkor kan konfigureras, precis som andra villkor i rekommendationerna.
-* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [uteslutningar](/help/c-recommendations/c-products/exclusions.md)och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra villkor.
+* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [undantag](/help/c-recommendations/c-products/exclusions.md) och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive specialreglerna för Pris och Lager) på samma sätt som andra villkor.
 
 Möjliga användningsområden:
 
@@ -252,13 +252,13 @@ Ett flernationellt företag med flera företag kan ha besökarvisningsobjekt öv
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] respekterar både globala inställningar för undantag och den valda samlingsinställningen för aktiviteten. Om ett objekt utesluts av ett globalt undantag, eller inte ingår i den valda samlingen, visas det inte. När du använder ett [!UICONTROL Recently Viewed Items] villkor bör därför inställningen &quot;Alla samlingar&quot; användas.
+>[!UICONTROL Recently Viewed Items] respekterar både globala inställningar för undantag och den valda samlingsinställningen för aktiviteten. Om ett objekt utesluts av ett globalt undantag, eller inte ingår i den valda samlingen, visas det inte. När du använder ett [!UICONTROL Recently Viewed Items]-villkor bör därför inställningen &quot;Alla samlingar&quot; i allmänhet användas.
 
 ## Rekommendationslogik
 
 [!DNL Target Recommendations] använder sofistikerade algoritmer för att avgöra när en besökares åtgärder uppfyller kriterierna som anges i din aktivitet. Rekommendationsnyckeln avgör vilka alternativ för rekommendationslogik som är tillgängliga.
 
-Följande rekommendationslogik (villkor) finns i den [!UICONTROL Recommendation Logic] nedrullningsbara listan:
+Följande rekommendationslogik (villkor) finns i listrutan [!UICONTROL Recommendation Logic]:
 
 ### Objekt/media med liknande attribut {#similar-attributes}
 
@@ -268,7 +268,7 @@ Om du väljer Objekt/Media med liknande attribut kan du ange regler för innehå
 
 Att använda innehållets likhet för att generera rekommendationer är särskilt effektivt för nya objekt, som troligen inte visas i rekommendationer med Personer som har tittat på det här, Visat det och annan logik som baseras på tidigare beteende. Ni kan också använda innehållets likhet för att generera användbara rekommendationer för nya besökare som inte har några tidigare inköp eller andra historiska data.
 
-Mer information finns i [Likhet](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)för innehåll.
+Mer information finns i [Likhet för innehåll](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
@@ -306,7 +306,7 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Senast visade objekt
 * Mest visade objekt
 
-### Folk som såg det här, köpte det {#viewed-bought}
+### Personer som tittade på det här, köpte det där {#viewed-bought}
 
 Rekommenderar artiklar som oftast köps i samma session som det angivna objektet visas. Detta villkor returnerar andra produkter som köpts efter att ha tittat på den här produkten. Den angivna produkten ingår inte i resultatmängden.
 
@@ -322,7 +322,7 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Senast visade objekt
 * Mest visade objekt
 
-### Folk som tittade på det här, såg det {#viewed-viewed}
+### Personer som visade det här, visade att {#viewed-viewed}
 
 Rekommenderar objekt som oftast visas i samma session som det angivna objektet visas.
 
@@ -338,7 +338,7 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 * Senast visade objekt
 * Mest visade objekt
 
-### Tillhörighet till webbplats {#site-affinity}
+### Platstillhörighet {#site-affinity}
 
 Rekommenderar objekt baserat på säkerheten för en relation mellan objekt. Du kan konfigurera det här villkoret för att avgöra hur mycket data som krävs innan en rekommendation presenteras med skjutreglaget Inkluderingsregler. Om du t.ex. väljer väldigt stark så rekommenderas de produkter som ger störst säkerhet för en matchning.
 
