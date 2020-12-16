@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Översikt över multivariata tester
 
-[!UICONTROL Multivariate Testing] (MVT) i [!DNL Adobe Target] jämförelser av kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och identifiera vilket element som bäst påverkar aktivitetens framgång.
+[!UICONTROL Multivariate Testing] (MVT) i  [!DNL Adobe Target] jämförelser av kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och identifiera vilket element som bäst påverkar aktivitetens framgång.
 
-## MVT - översikt {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## MVT-översikt {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 Multivariata tester kan hjälpa dig att identifiera den relativa påverkan specifika element har på konverteringen, jämfört med andra element på sidan. Det kan också hjälpa dig att förfina en kombination av element som har visat sig vara effektiva.
 
@@ -30,7 +30,7 @@ I Target är varje kombination en upplevelse. I multivariata tester jämförs va
 
 ![](assets/multivariate.png)
 
-På grund av antalet kombinationer som kan genereras kräver ett multivariat-test mer tid och trafik än ett A/B-test. Sidan måste få tillräckligt mycket trafik för att kunna ge statistiskt signifikanta resultat för varje upplevelse. För att få användbara resultat måste du förstå hur mycket trafik sidan tar emot och testa det optimala antalet kombinationer för rätt tidsåtgång för att få önskat resultat. Target [Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan hjälpa dig att utforma ett test som fungerar med trafiken. Innan du använder Traffic Estimator bör du ha bra statistik som visar hur många visningar och konverteringar sajten normalt tar emot. Ta hänsyn till era trafiknivåer per dag. Ju fler upplevelser en aktivitet har, desto mer trafik måste aktiviteten omfatta, eller hur länge den måste köras. Om trafiken inte är särskilt hög bör du testa ett litet antal kombinationer; I annat fall kan den tid som krävs för att skapa meningsfulla testresultat vara för lång för att vara användbar.
+På grund av antalet kombinationer som kan genereras kräver ett multivariat-test mer tid och trafik än ett A/B-test. Sidan måste få tillräckligt mycket trafik för att kunna ge statistiskt signifikanta resultat för varje upplevelse. För att få användbara resultat måste du förstå hur mycket trafik sidan tar emot och testa det optimala antalet kombinationer för rätt tidsåtgång för att få önskat resultat. Målets [trafikberäkning](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan hjälpa dig att utforma ett test som fungerar med trafiken. Innan du använder Traffic Estimator bör du ha bra statistik som visar hur många visningar och konverteringar sajten normalt tar emot. Ta hänsyn till era trafiknivåer per dag. Ju fler upplevelser en aktivitet har, desto mer trafik måste aktiviteten omfatta, eller hur länge den måste köras. Om trafiken inte är särskilt hög bör du testa ett litet antal kombinationer; I annat fall kan den tid som krävs för att skapa meningsfulla testresultat vara för lång för att vara användbar.
 
 ## MVT-terminologi {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -40,11 +40,11 @@ Det finns flera termer som används på olika sätt i branschen. I det här avsn
 
 **Kombination:** De innehållsvariationer som skapas när du testar flera innehållsalternativ på flera platser. Om du till exempel testar tre platser, var och en med tre innehållsalternativ, finns det 27 möjliga kombinationer (3x3x3). En besökare på din webbplats kommer att se en kombination som också kallas upplevelse.
 
-**Innehåll:** Texten eller bilden som består av en provvariation på en plats. I ett multivariata test jämförs ett antal innehållsalternativ på flera platser. I MVT-metoden kallas innehållet ibland för en *nivå*.
+**Innehåll:** Texten eller bilden som består av en provvariation inom en plats. I ett multivariata test jämförs ett antal innehållsalternativ på flera platser. I MVT-metoden kallas innehållet ibland *nivå*.
 
 **Element:** Ett DOM-element som innehåller innehållsvariationer som ska testas i MVT-testet. Se även *Plats*.
 
-**Plats:** Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-element. I MVT-metoden kallas en plats ibland som en *faktor*. I ett multivariat helfaktoriellt test jämförs alla möjliga kombinationer av erbjudanden på dina platser.
+**Plats:** Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-element. I MVT-metoden kallas en plats ibland *faktor*. I ett multivariat helfaktoriellt test jämförs alla möjliga kombinationer av erbjudanden på dina platser.
 
 ## När MVT ska användas jämfört med A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
@@ -72,7 +72,7 @@ Multivariata tester kan användas tillsammans med A/B-tester för att optimera s
 
 ## Delfaktoriell testning
 
-[!DNL Target] erbjuder fullständig, faktoriell multivariattestning som ett inbyggt aktivitetsalternativ. I statistik ger Design of Experiments många strategier, eller design, för att avgöra vilka faktorer som påverkar resultaten. En sådan metod är [Taguchi-metoden](https://en.wikipedia.org/wiki/Taguchi_methods) för partiell faktoriell testning. Taguchi gör det möjligt för marknadsförare att göra en uppsättning antaganden som minskar antalet permutationer av upplevelser som behöver testas, och som i sin tur minskar trafikkraven för ett multivariat test. Denna funktionalitet och testmetod kan utnyttjas i [!DNL Target] detta [offlinekalkylblad](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+[!DNL Target] erbjuder fullständig, faktoriell multivariattestning som ett inbyggt aktivitetsalternativ. I statistik ger Design of Experiments många strategier, eller design, för att avgöra vilka faktorer som påverkar resultaten. En sådan metod är [Taguchi-metoden](https://en.wikipedia.org/wiki/Taguchi_methods) för partiell faktoriell testning. Taguchi gör det möjligt för marknadsförare att göra en uppsättning antaganden som minskar antalet permutationer av upplevelser som behöver testas, och som i sin tur minskar trafikkraven för ett multivariat test. Denna funktionalitet och testmetod kan utnyttjas i [!DNL Target] med detta [offlinekalkylblad](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Om ditt team använder andra designstrategier för experiment kan du använda det här beräkningskalkylbladet som en referensimplementering för anpassad experimentdesign.
 
@@ -84,7 +84,7 @@ När du använder offlineberäkningskalkylbladet bör du tänka på följande:
 * Bygg upplevelserna i A/B-arbetsflödet med [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Du kan använda anpassad kod, redigera HTML, WYSIWYG eller valfri kombination.
 * När aktiviteten är över (baserat på beräkningsverktyget för samplingsstorlek) kan du köra resultaten i kalkylbladet för att få den andra informationen.
 
-Mer information om metodtips och metodtips finns i [Multivariera metodtips](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+Mer information och bästa praxis finns i [Bästa praxis för multivariata tester](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Utbildningsvideor:
 
@@ -100,7 +100,7 @@ I den här översiktsvideon förklaras vilka aktivitetstyper som finns i Target 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Skapa multivariata tester (9:25) ![självstudiemärke](/help/assets/tutorial.png)
+### Skapa multivariata tester (9:25) ![Tutorial badge](/help/assets/tutorial.png)
 
 I den här videon förklaras hur du förstår, planerar och skapar ett multivariat-test med hjälp av det guidade arbetsflödet i tre steg för Target.
 
