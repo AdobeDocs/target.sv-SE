@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -inställningar för Recommendations-aktivitet{#recommendations-activity-settings}
+# ![Inställningar för ](/help/assets/premium.png) PREMIUMRecommendations-aktivitet{#recommendations-activity-settings}
 
-Information om de inställningar du kan använda för att beskriva och styra en [!UICONTROL Recommendations] aktivitet i [!DNL Adobe Target].
+Information om de inställningar du kan använda för att beskriva och styra en [!UICONTROL Recommendations]-aktivitet i [!DNL Adobe Target].
 
 ![Recommendations Goals &amp; Settings page](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
-I följande avsnitt beskrivs de tillgängliga inställningarna för en [!UICONTROL Recommendations] aktivitet.
+I följande avsnitt beskrivs de tillgängliga inställningarna för en [!UICONTROL Recommendations]-aktivitet.
 
 ## Namn
 
@@ -35,7 +35,7 @@ Följande tecken tillåts inte i aktivitetsnamn:
 `-`
 `@`
 
-Om du anger ett [!UICONTROL Recommendations] aktivitetsnamn som redan finns för en annan aktivitet i [!UICONTROL Recommendations Classic]synkroniseras den nya aktiviteten igen med ett nytt namn. Det nya namnet är det ursprungliga namnet som har lagts till med en tidsstämpel för att göra det unikt. Det nya namnet visas både i [!DNL Target Standard/Premium] och [!UICONTROL Recommendations Classic].
+Om du anger ett [!UICONTROL Recommendations]-aktivitetsnamn som redan finns för en annan aktivitet i [!UICONTROL Recommendations Classic] synkroniseras den nya aktiviteten igen med ett nytt namn. Det nya namnet är det ursprungliga namnet som har lagts till med en tidsstämpel för att göra det unikt. Det nya namnet visas både i [!DNL Target Standard/Premium] och [!UICONTROL Recommendations Classic].
 
 ## Syfte
 
@@ -55,16 +55,16 @@ Aktiviteten kan starta när den är aktiverad eller du kan ange ett specifikt da
 
 ## Rapportinställningar
 
-* **Rapporteringskälla:** Välj rapportkälla: [!DNL Adobe Target] eller [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ändra inte rapportkällan efter att aktiviteten har publicerats. Om du ändrar rapportkällan efter att en aktivitet har publicerats blir rapporteringen inkonsekvent.
-* **Målmått:** Välj det framgångsmått som avgör om aktiviteten lyckas eller inte.
+* **Rapporteringskälla:** Välj rapportkälla:  [!DNL Adobe Target] eller  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ändra inte rapportkällan efter att aktiviteten har publicerats. Om du ändrar rapportkällan efter att en aktivitet har publicerats blir rapporteringen inkonsekvent.
+* **Målmått:** Välj ett framgångsmått som avgör om aktiviteten lyckas eller inte.
 * **Ytterligare mått:** Konfigurera ytterligare framgångsmått som ska användas i dina rapporter.
-* **Målgrupper för rapportering:** Definiera målgrupper som kan användas vid filtrering av rapporter.
+* **Målgrupper för rapportering:** Definiera målgrupper som kan användas när du filtrerar rapporter.
 
 ## Andra metadata
 
 Skriv anteckningar om din aktivitet.
 
-## Utbildningsvideo: Aktivitetsinställningar (3:02) - ![självstudiemärke](/help/assets/tutorial.png)
+## Utbildningsvideo: Aktivitetsinställningar (3:02) ![Tutorial badge](/help/assets/tutorial.png)
 
 Den här videon innehåller information om aktivitetsinställningar.
 
