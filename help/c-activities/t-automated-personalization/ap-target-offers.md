@@ -13,7 +13,7 @@ ht-degree: 2%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Target Automated Personalization erbjuder{#target-automated-personalization-offers}
+# ![](/help/assets/premium.png) PREMIUMTarget Automated Personalization erbjuder{#target-automated-personalization-offers}
 
 I en Automated Personalization-aktivitet (AP) kan ni rikta erbjudanden till specifika målgrupper.
 
@@ -30,8 +30,8 @@ I det här scenariot skulle besökare 1 se Erbjudande 1 (eftersom han eller hon 
 
 ## Ställ in målinriktningsregler
 
-1. Skapa en [Automated Personalization-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) som innehåller de erbjudanden du vill rikta in dig på.
-1. När du har ställt in erbjudandena för aktiviteten i Visual Experience Composer klickar du på **[!UICONTROL Manage Content]**.
+1. Skapa en [Automated Personalization-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) som innehåller de erbjudanden du vill rikta.
+1. När du har konfigurerat erbjudandena för aktiviteten i Visual Experience Composer klickar du på **[!UICONTROL Manage Content]**.
 
    ![Hantera innehåll](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -43,15 +43,15 @@ I det här scenariot skulle besökare 1 se Erbjudande 1 (eftersom han eller hon 
 
 1. Välj önskat erbjudande(n) och välj de målgrupper du vill ska vara berättigade att se erbjudandet.
 
-   Om du vill ange målinriktning för ett enskilt erbjudande för du muspekaren över önskat erbjudande och klickar sedan på **[!UICONTROL Targeting]** ikonen .
+   Om du vill ange målinriktning för ett enskilt erbjudande för du muspekaren över det önskade erbjudandet och klickar sedan på ikonen **[!UICONTROL Targeting]**.
 
-   Om du vill ange mål för flera erbjudanden markerar du kryssrutorna för de önskade erbjudandena och klickar sedan på **[!UICONTROL Targeting] -ikonen som visas längst upp till höger i listan.
+   Om du vill ange mål för flera erbjudanden markerar du kryssrutorna för de önskade erbjudandena och klickar sedan på ikonen **[!UICONTROL Targeting] som visas längst upp till höger i listan.
 
-1. I [!UICONTROL Choose Audience] dialogrutan väljer du önskad(a) publik(er) för erbjudandet och klickar sedan på **[!UICONTROL Done]** för att återgå till [!UICONTROL Manage Content] dialogrutan.
+1. I dialogrutan [!UICONTROL Choose Audience] väljer du önskad målgrupp(er) för erbjudandet och klickar sedan på **[!UICONTROL Done]** för att återgå till dialogrutan [!UICONTROL Manage Content].
 
    >[!NOTE]
    >
-   >Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera publiker](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Klicka på **[!UICONTROL Done]**.
 
