@@ -31,9 +31,9 @@ Det finns två typer av parametrar som du kan skicka med ett Target-anrop:
 
 1. Skapa ordlista.
 
-   Skapa först en ordlista med de värden som du skickar till Target. För enkelhetens skull bör du lägga till detta inuti metoden så att du inte behöver bekymra dig om omfånget. `welcomeMessageCampaign`
+   Skapa först en ordlista med de värden som du skickar till Target. För enkelhetens skull bör du lägga till detta inuti `welcomeMessageCampaign`-metoden så att du inte behöver bekymra dig om omfånget.
 
-   Här följer ett exempel på en ordlista. Du kan kopiera och klistra in den här inuti `(void)welcomeMessageCampaign`. Värdena för tangenter som `userLevel` och `userMiles` är hårdkodade i det här exemplet. Vanligtvis skickar du in motsvarande variabler.
+   Här följer ett exempel på en ordlista. Du kan kopiera och klistra in detta inuti `(void)welcomeMessageCampaign`. Värdena för nycklar som `userLevel` och `userMiles` är hårdkodade i det här exemplet. Vanligtvis skickar du in motsvarande variabler.
 
    ```
    NSDictionary *targetParams = [[NSDictionary alloc] initWithObjectsAndKeys: 
@@ -58,13 +58,13 @@ Det finns två typer av parametrar som du kan skicka med ett Target-anrop:
    * Tangenter med prefixentiteten (till exempel `entity.category.id`) används för produktrekommendationer.
 
 1. Verifiera data.
-   1. Avkommentera `didFinishLaunchingWithOptions`eller lägg till `[ADBMobile setDebugLogging:YES];`i programmet.
+   1. Avkommentera eller lägg till `[ADBMobile setDebugLogging:YES];` i programmet `didFinishLaunchingWithOptions`.
 
       Detaljerade felsökningsloggar skrivs ut.
    1. Bygg appen.
    1. Kontrollera att parametrarna skickas i målanropet.
 
-      Sök efter målplatsens namn i felsökningskonsolen. Du kommer att se ett samtal `YOUR-CLIENT-CODE.tt.omtrdc.net`med alla parametrar som du just har passerat.
+      Sök efter målplatsens namn i felsökningskonsolen. Du kommer att se ett anrop till `YOUR-CLIENT-CODE.tt.omtrdc.net`med alla parametrar som du just har skickat.
 
       ![](assets/mobile-debug.png)
    Du kan skapa målgrupper och begränsa eller rikta in visningen av innehåll med hjälp av de här parametrarna i Target Standard.
