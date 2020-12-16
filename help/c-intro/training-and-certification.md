@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Training Services erbjuder kurser och certifieringar för Adobe produkter och lösningar, inklusive Adobe Target.
 
-En lista över tillgängliga lärarledda kurser och onlinekurser finns på webbplatsen [](https://training.adobe.com/training/courses.html#solution=adobeTarget)Adobe Customer Training.
+En lista över tillgängliga lärarledda kurser och onlinekurser finns på [Adobe Customer Training website](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
 Kontakta Adobe Training Services Center för mer information om ditt geografiska område.
 
