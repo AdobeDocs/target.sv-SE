@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# versionsinformation för mbox.js{#mbox-js-version-details}
+# mbox.js versionsinformation{#mbox-js-version-details}
 
 På den här sidan visas ändringar för varje version av mbox.js.
 
 >[!NOTE]
 >
->Vi rekommenderar att alla användare av mbox.js uppgraderar till version 57 eller senare. En del användare har stött på timeoutproblem när det inte `target.js` gick att läsa in. Version 57 åtgärdade problemet. Om du använder [!DNL Experience Cloud Visitor ID] tjänsten krävs dock version 58 eller senare.
+>Vi rekommenderar att alla användare av mbox.js uppgraderar till version 57 eller senare. En del användare har stött på timeoutproblem när `target.js` inte kunde läsas in. Version 57 åtgärdade problemet. Om du använder tjänsten [!DNL Experience Cloud Visitor ID] krävs dock version 58 eller senare.
 
 Hur Target svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av besökar-ID finns och om besökar-ID finns. Mer information finns i [Target Call Responses by Library Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
@@ -32,39 +32,39 @@ Hur Target svarar på samtal från din sida beror på vilken version av målbibl
 
 [!DNL mbox.js] version 63 är nu tillgänglig. Mer information finns i [Hämta mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md).
 
-Följande förbättringar och korrigeringar ingår i [!DNL mbox.js] version 63:
+Följande förbättringar och korrigeringar ingår i version 63 av [!DNL mbox.js]:
 
-* Åtgärdar ett problem med SDID-generering vid användning `mboxDefine()` och `mboxUpdate()`. Detta påverkar bara klienter som har Visitor API på sidan.
+* Korrigerar ett problem med SDID-generering när `mboxDefine()` och `mboxUpdate()` används. Detta påverkar bara klienter som har Visitor API på sidan.
 
 ## mbox.js version 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * Flimmerproblem i omdirigeringsaktiviteter som visas i Google Chrome-webbläsare har korrigerats.
-* En tillagd `secureOnly` inställning som anger om mbox.js ska använda enbart HTTPS eller tillåtas växla mellan HTTP och HTTPS baserat på sidprotokollet. Det här är en avancerad inställning som har standardvärdet False.
+* `secureOnly`-inställningen som anger om mbox.js ska använda enbart HTTPS eller tillåtas växla mellan HTTP och HTTPS baserat på sidprotokollet. Det här är en avancerad inställning som har standardvärdet False.
 
 ## mbox.js version 61 {#section_F3B59C5578B64883AE013B9342151193}
 
 **Målversion:** 16.7.2
 
-**Releasedatum:** 28 juli 2016
+**Releasedatum:28** juli 2016
 
 mbox.js version 61 innehåller följande förbättringar:
 
 * Genereringsalgoritmen för mboxSession ID i JavaScript-API:t genererar nu en slumpmässig sträng i stället för att använda en tidsstämpel plus en slumpmässig sträng.
 * Följande information gäller bara om du har Visitor API på sidan:
 
-   * [!DNL mbox.js] version 61 åsidosätter inte `loadTimeout` egenskapen för Visitor API. Klienter kan använda `visitorApiTimeout` + `visitorApiPageDisplayTimeout` för att styra integreringen av Visitor API.
-   * Lagt till en `optoutEnabled` inställning som stöder framtida avanmälningsfunktioner för Adobe Experience Cloud. Standardvärdet är false. Om den här egenskapen är aktiverad körs alla begäranden asynkront mot [!DNL /ajax] slutpunkten, precis som version 60.
+   * [!DNL mbox.js] version 61 åsidosätter inte  `loadTimeout` egenskapen för Visitor API. Klienter kan använda `visitorApiTimeout` + `visitorApiPageDisplayTimeout` för att styra integreringen av Visitor API.
+   * En `optoutEnabled`-inställning har lagts till som stöd för framtida avanmälningsfunktioner för Adobe Experience Cloud. Standardvärdet är false. Om den här egenskapen är aktiverad körs alla begäranden asynkront mot [!DNL /ajax]-slutpunkten, precis som version 60.
    * Dölj brödtext är inaktiverat som standard. Målet använder endast dolt innehåll när den globala mbox-autoskapa är aktiverad och dolt innehåll är aktiverat.
-   * Om det inte finns några Experience Cloud Visitor ID-cookies utförs alla begäranden asynkront mot [!DNL /ajax] den första sidinläsningen. Vid inläsning av den andra sidan använder Target det normala flödet eftersom det redan finns Visitor-ID-värden.
-   * Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet tomt på [!UICONTROL Goals & Settings] sidan.
+   * Om det inte finns några Experience Cloud Visitor ID-cookies körs alla begäranden asynkront mot [!DNL /ajax] vid första sidinläsningen. Vid inläsning av den andra sidan använder Target det normala flödet eftersom det redan finns Visitor-ID-värden.
+   * Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 
 ## mbox.js version 60 {#section_3BDAB885FA13444A8D35940A4BFF5825}
 
 **Målversion:** 16.4.1
 
-**Releasedatum:** 21 april 2016
+**Releasedatum:21** april 2016
 
-Som standard är sidinnehåll inte dolt. Version 60 döljer endast sidinnehåll när alternativet&quot;skapa global mbox automatiskt&quot; är aktiverat. Den använder CSS- `opacity:0` egenskapen för att dölja sidor i stället för `display:none`. Detta garanterar korrekt leverans för responsiva sajter och är i linje med [!DNL at.js].
+Som standard är sidinnehåll inte dolt. Version 60 döljer endast sidinnehåll när alternativet&quot;skapa global mbox automatiskt&quot; är aktiverat. CSS-egenskapen `opacity:0` används för att dölja sidor i stället för `display:none`. Detta garanterar korrekt leverans för responsiva sajter och är i linje med [!DNL at.js].
 
 Du kan aktivera dold text med två inställningar:
 
@@ -72,7 +72,7 @@ Du kan aktivera dold text med två inställningar:
 
 * bodyHiddenStyle
 
-   Standardvärdet är `body{opacity:0}`. Det här värdet kan ändras till något annat, som `body{display:none}`.
+   Standardvärdet är `body{opacity:0}`. Värdet kan ändras till något annat, som `body{display:none}`.
 
 De här inställningarna kan åsidosättas genom att du inkluderar något som:
 
@@ -88,13 +88,13 @@ window.targetGlobalSettings = {
 
 När du döljer sidan används formatmärkord för att lägga till och ta bort format. Detta garanterar att webbplatsens format förblir oförändrade när sidan döljer kod körs.
 
-**DTM-användare:** Observera att detta förhindrar att du använder alternativet för automatisk import eftersom det inte finns något sätt att spara ovanstående konfiguration i målgränssnittet. Du måste använda instruktionerna ovan och sedan klistra in innehållet i kodrutan i alternativet Anpassad värdtjänst.
+**DTM-användare:** Observera att detta förhindrar dig från att använda alternativet för automatisk import eftersom det inte finns något sätt att spara ovanstående konfiguration i målgränssnittet. Du måste använda instruktionerna ovan och sedan klistra in innehållet i kodrutan i alternativet Anpassad värdtjänst.
 
-I version 60 efterfrågas även alla kryssrutor via en AJAX slutpunkt om filen finns för Experience Cloud Visitor ID-tjänsten. [!DNL visitorAPI.js] Detta är nödvändigt eftersom API-metoder för Visitor är asynkrona. En fördel med det här arbetssättet är att startåtergivningstiden minskar dramatiskt, eftersom mbox-begäranden inte blockerar återgivningen. Det innebär dock också att allt innehåll i erbjudandet körs asynkront, så all erbjudandekod måste skrivas i enlighet med detta. [!DNL Target] Erbjudanden som innehåller `document.write` och annan kod som förutsätter att den kommer att köras vid första sidinläsningen kommer inte att köras som förväntat.
+Om filen [!DNL visitorAPI.js] finns för Experience Cloud Visitor ID-tjänsten i version 60 begärs även alla kryssrutor via en AJAX slutpunkt. Detta är nödvändigt eftersom API-metoder för Visitor är asynkrona. En fördel med det här arbetssättet är att startåtergivningstiden minskar dramatiskt, eftersom mbox-begäranden inte blockerar återgivningen. Det innebär dock också att allt [!DNL Target]-innehåll körs asynkront, så all erbjudandekod måste skrivas i enlighet med detta. Erbjudanden som innehåller `document.write` och annan kod som antar att den kommer att köras vid första sidinläsningen kommer inte att köras som förväntat.
 
 * asynkrona V60-anrop
 
-   När du använder v60 med besökar-id-tjänsten görs alla mbox-anrop asynkront. Det här är en förändring från hur kryssrutor alltid har fungerat, så var försiktig om du uppgraderar till den här versionen. Granska avsnittet [Asynkrona överväganden](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) i [!DNL at.js] dokumentationen (använder [!DNL at.js] även asynkrona anrop) för att förstå några av riskerna.
+   När du använder v60 med besökar-id-tjänsten görs alla mbox-anrop asynkront. Det här är en förändring från hur kryssrutor alltid har fungerat, så var försiktig om du uppgraderar till den här versionen. Granska avsnittet [Asynkrona överväganden](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) i [!DNL at.js]-dokumentationen ( [!DNL at.js] använder även asynkrona anrop) för att förstå några av riskerna.
 * Nya besökarscenarier kan ha flimmer
 
    När du använder v58 till v60 med besökar-id-tjänsten väntar mbox-anrop på att besökar-ID:t ska anges innan utlösen (eller tills en timeout har inträffat). Detta sker vid inläsning av första sidan för en ny besökare.
@@ -103,28 +103,28 @@ I version 60 efterfrågas även alla kryssrutor via en AJAX slutpunkt om filen f
 
 **Målversion:** 16.2.1
 
-**Releasedatum:** 17 februari 2016
+**Releasedatum:17** februari 2016
 
 mbox.js version 59 innehåller följande förbättringar:
 
 * Mbox inaktiverad har sänkts till 30 minuter
 * Ett problem med att dölja/visa sidor har åtgärdats
 
-   I stället för `display:none` att använda för att dölja sidan som i version 58, `opacity:0` används. Detta löser problem med responsiva webbplatser som skapats med den tidigare metoden att dölja sidan.
+   I stället för att använda `display:none` för att dölja sidan som i version 58, används `opacity:0`. Detta löser problem med responsiva webbplatser som skapats med den tidigare metoden att dölja sidan.
 
 ## mbox.js version 58 {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Målversion:** 15.7.1
 
-**Releasedatum:** 30 juli 2015
+**Releasedatum:30** juli 2015
 
 Den här versionen av mbox.js krävs om du använder Analytics som rapportkälla för Target och rekommenderas för profiler och målgrupper.
 
-Version 58 av mbox.js ser till att Experience Cloud Visitor ID-tjänsten returneras med ett besökar-ID innan Target-anrop görs. Detta garanterar att målgruppsdata som delas via huvudtjänsten Profiler och Publiker är tillgängliga för det första Target-anropet under besökarens session. För att undvika flimmer av standardinnehållet innan testinnehållet returneras döljs målet `<BODY>` tills besökar-ID-tjänsten returnerar. `display:none` används för att dölja sidan.
+Version 58 av mbox.js ser till att Experience Cloud Visitor ID-tjänsten returneras med ett besökar-ID innan Target-anrop görs. Detta garanterar att målgruppsdata som delas via huvudtjänsten Profiler och Publiker är tillgängliga för det första Target-anropet under besökarens session. För att undvika flimmer av standardinnehållet innan testinnehållet returneras döljs `<BODY>` tills besökar-ID-tjänsten returnerar. `display:none` används för att dölja sidan.
 
 Uppdateringen åtgärdar också ett problem när Analytics används som rapportkälla för Target som gjorde att ett stort antal besökare rapporterades i Analytics för besök som bara innehöll en sida.
 
-Mbox.js anger timeout-värden om besökar-ID-tjänsten inte returnerar. Standardtimeout för besökar-ID-tjänsten är 500 ms (0,5 sekunder). Ytterligare en timeout anger den övre gränsen för hur länge taggen ska vara dold `<BODY>` . Standardvärdet är 500 ms (0,5 sekunder). Dessa timeout-värden kan ändras genom att följande kod infogas före referensen mbox.js på varje sida:
+Mbox.js anger timeout-värden om besökar-ID-tjänsten inte returnerar. Standardtimeout för besökar-ID-tjänsten är 500 ms (0,5 sekunder). Ytterligare en timeout anger den övre gränsen för hur länge taggen `<BODY>` ska döljas. Standardvärdet är 500 ms (0,5 sekunder). Dessa timeout-värden kan ändras genom att följande kod infogas före referensen mbox.js på varje sida:
 
 ```
 <script> 
@@ -135,30 +135,30 @@ window.targetGlobalSettings = {
 </script> 
 ```
 
-Mbox.js version 58 och senare verkställer icke-JavaScript-innehåll för den globala mbox direkt efter att HTML- `BODY` -taggen finns. JavaScript-innehåll inuti `<script>` -taggar för den globala mbox körs efter att `DOMContentLoaded` händelsen har utlösts. Den här ordningen för innehållsleverans säkerställer att JavaScript-innehåll för den globala mbox levereras och återges korrekt.
+Mbox.js version 58 och senare kör icke-JavaScript-innehåll för den globala mbox direkt efter att HTML-taggen `BODY` finns. JavaScript-innehåll i `<script>`-taggar för den globala mbox körs efter att händelsen `DOMContentLoaded` har utlösts. Den här ordningen för innehållsleverans säkerställer att JavaScript-innehåll för den globala mbox levereras och återges korrekt.
 
 ## mbox.js version 57 {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
 
 **Målversion:** 15.4.1
 
-**Releasedatum:** 21 april 2015
+**Releasedatum:21** april 2015
 
 Följande ändringar har gjorts i den här versionen:
 
-* Automatiskt skapat globalt mbox-svar för Target Standard använder inte längre document.write() eller skapar ett `<div>` element.
+* Automatiskt skapat globalt mbox-svar för Target Standard använder inte längre document.write() eller skapar ett `<div>`-element.
 
-   Detta tar bort kravet på att filen mbox.js ska vara det sista objektet på `<head>` sidan. Stark QA rekommenderas vid uppgradering till den nya versionen.
+   Detta tar bort kravet på att filen mbox.js ska vara det sista objektet i `<head>` på sidan. Stark QA rekommenderas vid uppgradering till den nya versionen.
 
    Den här förändringen kan leda till beteendeförändringar när vissa erbjudandetyper levereras. Här är de specifika villkor som kommer att behöva beaktas:
 
    * HTML-innehåll som returneras som en del av ett plug-in-erbjudande återges inte korrekt, men JavaScript i erbjudandena körs som förväntat.
-   * JavaScript-erbjudanden som returneras till den globala mbox-filen kan ha JavaScript-koden inbäddad i `<script>` -taggen eller refereras av ett `src` attribut.
+   * JavaScript-erbjudanden som returneras till den globala mbox-filen kan ha JavaScript-koden inbäddad i taggen `<script>`, eller refereras av ett `src`-attribut.
 
-      Lägg till attributet i skriptanropet så här: `async`
+      Lägg till attributet `async` i skriptanropet enligt följande:
 
       `<script src='external-url' async='true'></script>`
 
-      Observera att `async` attributet har begränsat stöd i Internet Explorer (se här: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) så att du inte ska ta med besökare som använder äldre IE-versioner från tester som innehåller dessa skript från tredje part.
+      Observera att attributet `async` har begränsat stöd i Internet Explorer (se informationen här: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) så att du inte ska ta med besökare som använder äldre IE-versioner från tester som innehåller dessa skript från tredje part.
 
 * Åtgärdade problem som rapporterades i version 56 på grund av ändringar i Extra JavaScript-avsnittet i mbox.js. All kod i avsnittet Extra JavaScript är tillgänglig igen i det globala omfånget.
 
@@ -181,11 +181,11 @@ mbox.js version 57 innehåller även viktiga korrigeringar:
 
 **Målversion:** 15.1.2
 
-**Releasedatum:** 17 februari 2015
+**Releasedatum:17** februari 2015
 
 >[!NOTE]
 >
->En del användare har stött på timeoutproblem när det inte `target.js` gick att läsa in. Version 57 åtgärdade problemet. Om du använder [!DNL Experience Cloud Visitor ID] tjänsten krävs dock version 58 eller senare.
+>En del användare har stött på timeoutproblem när `target.js` inte kunde läsas in. Version 57 åtgärdade problemet. Om du använder tjänsten [!DNL Experience Cloud Visitor ID] krävs dock version 58 eller senare.
 
 Följande ändringar har gjorts i den här versionen:
 
@@ -193,7 +193,7 @@ Följande ändringar har gjorts i den här versionen:
 * Lägger till en 5 sekunders timeout i inläsningsanropet för target.js. Om filen inte läses in återges sidan och inga målstandardaktiviteter visas.
 * Flyttade &quot;extra JavaScript&quot; som skulle köras före global mbox
 
-   Alla inställningar i v56+ har namnavstånd. Om det finns funktioner som deklarerats i &quot;extra JavaScript&quot; måste de föregås av `window`.
+   Alla inställningar i v56+ har namnavstånd. Om det finns funktioner som deklarerats i &quot;extra JavaScript&quot; måste de ha prefixet `window`.
 
    Exempel:
 
@@ -207,7 +207,7 @@ Följande ändringar har gjorts i den här versionen:
 
    `}`
 
-   Alla variabler som ska vara globalt tillgängliga måste också föregås av `window`.
+   Alla variabler som ska vara globalt tillgängliga måste också ha ett prefix med `window`.
 
 * En cookie med namnet&quot;em-disabled&quot; som mbox.js ger användaren om target.js inte kan läsas in under leveransen har lagts till. Denna cookie förhindrar att erbjudanden som skapats med Visual Experience Composer återges på webbplatsen. Användare med den här cookie-filen kan varken se testinnehållet eller räknas in i aktivitetsrapporterna. Allt annat innehåll (från kampanjer i till exempel Target Classic) kommer att fortsätta att läsas in. Cookien har en livstid på 30 min från tidpunkten då inläsningen misslyckades.
 
@@ -223,15 +223,15 @@ Följande ändringar har gjorts i den här versionen:
 
 **Målversion:** 14.9.2
 
-**Releasedatum:** 30 september 2014
+**Releasedatum:30** september 2014
 
-Ändrar den globala mbox-implementeringen till AJAX från document.write. Detta tar bort kravet på att filen mbox.js ska vara det sista objektet i sidans `<head>` avsnitt. Den här versionen är bara tillgänglig via API. Kunderna kan hämta den och använda den här mbox.js-filen. Vissa webbplatser använder innehållsflimmer med den här implementeringen, så validera integreringen på din webbplats.
+Ändrar den globala mbox-implementeringen till AJAX från document.write. Detta tar bort kravet på att mbox.js-filen ska vara det sista objektet i sidans `<head>`-avsnitt. Den här versionen är bara tillgänglig via API. Kunderna kan hämta den och använda den här mbox.js-filen. Vissa webbplatser använder innehållsflimmer med den här implementeringen, så validera integreringen på din webbplats.
 
 ## mbox version 53
 
 **Målversion:** 14.9.1
 
-**Releasedatum:** 14 september 2014
+**Releasedatum:14** september 2014
 
 Korrigerade ett problem där målsidans parametrar inte utlöstes korrekt i Internet Explorer.
 
@@ -239,7 +239,7 @@ Korrigerade ett problem där målsidans parametrar inte utlöstes korrekt i Inte
 
 **Målversion:** 14.8
 
-**Releasedatum:** 14 augusti 2014
+**Releasedatum:14** augusti 2014
 
 Funktionen mboxParameter fungerar nu i Target Standard och Premium.
 
@@ -255,7 +255,7 @@ Tillåt att defaultDiv för en registrerad mbox rensas.
 
 **Målversion:** 14.6
 
-**Releasedatum:** 25 juni 2014
+**Releasedatum:25** juni 2014
 
 Korrigerade ett fel som angav en felaktig cookie på webbplatser med två tecken i domänen på den översta nivån.
 
