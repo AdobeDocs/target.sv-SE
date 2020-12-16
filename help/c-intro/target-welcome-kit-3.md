@@ -24,7 +24,7 @@ Identifiera möjligheter för aktiviteter som är anpassade till affärsmålen.
 
 Gör detta genom att:
 
-* Brainstorming potential [!DNL Target] actions based on site performance data, Competitor analysis, and previous test results.
+* Brainstorming potential [!DNL Target] aktiviteter baserade på webbplatsens prestandadata, konkurrentanalys och tidigare testresultat.
 * Utveckla idéer för aktiviteter för granskning, feedback och godkännande.
 
 Du kan till exempel leta efter en sida på webbplatsen med hög avhoppsfrekvens, fundera över vad som kan orsaka problemet och brainstorma sätt att minska avhoppsfrekvensen.
@@ -49,13 +49,13 @@ Gör detta genom att:
 
 * Slutför aktivitetspostkriterier och mått som krävs för att fastställa aktivitetens prestanda.
 * Fylla i och godkänna färdiga designer för aktivitetsupplevelser.
-* Dokumentationskrav för [!DNL Target] aktiviteten, inklusive kriterier för testinträde, rapporteringsmått och upplevelseförändringar.
+* Dokumentationskrav för aktiviteten [!DNL Target], inklusive kriterier för testregistrering, rapporteringsmått och upplevelseändringar.
 
 Använd aktivitetsplaneraren, som finns senare i välkomstpaketet, för att dokumentera aktivitetens detaljer, inklusive de mätvärden du ska använda för att mäta aktivitetsprestanda, till exempel klick på en åtgärdsknapp, videostarter eller genererade intäkter. Ta med skärmbilder eller bilder av de upplevelsedesigner du tänker testa eller personalisera.
 
 ## Steg 4: Bygg och kör
 
-Bygg och kör aktiviteten inifrån, [!DNL Target]utveckla kod om det behövs, genomför QA-tester och starta aktiviteten.
+Bygg och kör aktiviteten inom [!DNL Target], utveckla kod om det behövs, genomför QA-testning och starta aktiviteten.
 
 Gör detta genom att:
 
