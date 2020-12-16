@@ -57,7 +57,7 @@ Den här funktionen skickar ett meddelande till Target edge när en upplevelse �
 | Begäran > meddelanden > visa > nyckel | Sträng | Nej | `<=` 512 tecken. | Visa nyckel. Nyckeln som ställdes in med vyn via API:t. |
 | Begäran > meddelanden > visa > läge | Sträng | Nej |  | Visa tillståndstoken. |
 
-**Obs**: Följande tecken är tillåtna för `Request > notifications > mbox > name`:
+**Obs**: Följande tecken är tillåtna för  `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
@@ -119,4 +119,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics, `getOffers()` med endast förhämtning och `sendNotifications()`, måste Analytics-begäran aktiveras efter `sendNotifications()` att den har körts. Syftet med detta är att säkerställa att SDID som genereras av `sendNotifications()` matchar SDID som skickas till Analytics och Target.
+>Om du använder Adobe Analytics, `getOffers()` med endast prefetch och `sendNotifications()`, måste Analytics-begäran skickas när `sendNotifications()` har körts. Syftet med detta är att säkerställa att SDID som genereras av `sendNotifications()` matchar SDID som skickas till Analytics och Target.
