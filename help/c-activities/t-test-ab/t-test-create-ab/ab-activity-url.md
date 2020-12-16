@@ -20,17 +20,18 @@ Ange aktivitets-URL när du uppmanas att göra det när aktiviteten skapas. Skri
 
 >[!NOTE]
 >
->[!DNL Target] skiljer inte mellan URL-protokoll ( [!DNL https] och [!DNL http]). Resultatet blir att [!DNL `http://www.adobe.com`] och [!DNL `https://www.adobe.com`] båda matchar.
+>[!DNL Target] skiljer inte mellan URL-protokoll (  [!DNL https] och  [!DNL http]). Därför matchar både [!DNL `http://www.adobe.com`] och [!DNL `https://www.adobe.com`].
 
 ## Ange en annan URL
 
-Som standard [!UICONTROL Visual Experience Composer] öppnas sidan som anges i inställningarna för [](/help/administrating-target/visual-experience-composer-set-up.md)Visual Experience Composer. Du kan ange en annan sida när du skapar en aktivitet.
+Som standard öppnar [!UICONTROL Visual Experience Composer] sidan som anges i [inställningarna för Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
+. Du kan ange en annan sida när du skapar en aktivitet.
 
-Om du vill visa en annan sida efter att [!UICONTROL Visual Experience Composer] öppnas klickar du på **[!UICONTROL Configure]** kugghjulsikonen och väljer sedan **[!UICONTROL Page Delivery]**. Ange URL-adressen i fältet Aktivitets-URL.
+Om du vill visa en annan sida efter att [!UICONTROL Visual Experience Composer] har öppnats klickar du på kugghjulsikonen **[!UICONTROL Configure]** och väljer sedan **[!UICONTROL Page Delivery]**. Ange URL-adressen i fältet Aktivitets-URL.
 
 ![Dialogrutan Sidleverans](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-Klicka **[!UICONTROL Add Template Rule]** för att lägga till fler sidor eller avsnitt i aktiviteten.
+Klicka på **[!UICONTROL Add Template Rule]** om du vill lägga till fler sidor eller avsnitt i aktiviteten.
 
 Ytterligare regler kan baseras på något av följande:
 
@@ -43,13 +44,13 @@ Ytterligare regler kan baseras på något av följande:
 
 Ytterligare regler kan kopplas till aktivitets-URL:en med AND eller OR. Alla regler som du lägger till utvärderas mot varandra med AND.
 
-Klicka **[!UICONTROL Save]** när du är klar.
+Klicka på **[!UICONTROL Save]** när du är klar.
 
 >[!NOTE]
 >
->Om du har angett en URL för en plats som inte innehåller JavaScript- [!DNL Target] standardkoden kan du inte markera sidelement.
+>Om du angav en URL för en plats som inte innehåller JavaScript-standardkoden [!DNL Target] kan du inte välja sidelement.
 
-Som standard tillåts inte ändringar i element som innehåller JavaScript, t.ex. roterande banners. [!UICONTROL Visual Experience Composer] Du kan inaktivera **[!UICONTROL Render using JavaScript]** om du vill kunna ändra dessa element med hjälp av [!UICONTROL Visual Experience Composer].
+Som standard tillåter inte [!UICONTROL Visual Experience Composer] ändringar av element som innehåller JavaScript, t.ex. roterande banners. Du kan inaktivera **[!UICONTROL Render using JavaScript]** om du vill kunna ändra dessa element med [!UICONTROL Visual Experience Composer].
 
 >[!NOTE]
 >
