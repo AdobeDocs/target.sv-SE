@@ -34,7 +34,7 @@ När du använder stegen nedan vet [!DNL Target] alltid att den valda bildrutan 
 
    >[!NOTE]
    >
-   >Alternativet stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer. [!UICONTROL Render Using JavaScript]
+   >Alternativet [!UICONTROL Render Using JavaScript] stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer.
 
 1. Uppdatera bara classNames för att dölja andra och visa nästa med timern/animeringen.
 
