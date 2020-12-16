@@ -30,4 +30,4 @@ Testsammanfattningen visar:
    För närvarande är den enda tillgängliga algoritmen Full Factorial. Algoritmnamnet anges i informationssyfte, så du är medveten om vilken algoritm som används.
 * Antalet inkluderade och exkluderade upplevelser.
 
-Klicka **[!UICONTROL Continue]** när du är nöjd med testkonfigurationen. Sidan Mål och inställningar öppnas.
+Klicka på **[!UICONTROL Continue]** när du är nöjd med testkonfigurationen. Sidan Mål och inställningar öppnas.
