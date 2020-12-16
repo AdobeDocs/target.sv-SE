@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Tillåtelselista: Hörnkantsnoder
 
-Information och en uppdaterad lista över värdar som hjälper dig att tillåtslista Adobe [!DNL Target] -kanter.
+Information och en uppdaterad lista över värdar som kan hjälpa dig att tillåtslista Adobe [!DNL Target]-kanter.
 
-En kant är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen. Varje edge-nod har all information som krävs för att svara på användarens innehållsförfrågan och för att spåra analysdata på den begäran. Användarförfrågningar dirigeras till närmaste kantnod. Mer information finns [i Edge-nätverket](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) i *How [!DNL Target] Adobe*.
+En kant är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen. Varje edge-nod har all information som krävs för att svara på användarens innehållsförfrågan och för att spåra analysdata på den begäran. Användarförfrågningar dirigeras till närmaste kantnod. Mer information finns i [Edge Network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) i *Hur Adobe [!DNL Target] fungerar*.
 
-Om du vill kan du tillåtslista [!DNL Target] kantnoder.
+Du kan tillåtslista kantnoderna [!DNL Target] om du vill.
 
 Följande lista innehåller de aktuella värdarna:
 
