@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Planera ett multivariata test{#plan-a-multivariate-test}
+# Planera ett multivariattest{#plan-a-multivariate-test}
 
-[!UICONTROL Multivariate Tests] (MVT) i [!DNL Adobe Target] kräver lite planering innan du kan skapa ett lyckat test.
+[!UICONTROL Multivariate Tests] (MVT) i  [!DNL Adobe Target] kräver lite planering innan du kan skapa ett lyckat test.
 
 MVT kräver tillräcklig trafik för att generera användbara resultat. Innan du konfigurerar testet bör du vara medveten om hur mycket trafik du normalt får, inklusive antalet visningar och konverteringar. Om du har den här informationen minskar risken för att du utformar ett test med krav som överskrider webbplatsens trafik.
 
@@ -26,7 +26,7 @@ Planera att testa de element på sidan som kan ge betydande resultat. En bandero
 
 Innan du skapar testet bör du skapa det innehåll du vill testa. Förstå skillnaderna i innehåll för varje erbjudande och skapa bilder, text och HTML-erbjudanden som du förväntar dig att använda i testet.
 
-## Utbildningsvideo: Skapa multivariata tester (9:25) ![självstudiemärke](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa multivariata tester (9:25) ![Tutorial badge](/help/assets/tutorial.png)
 
 I den här videon visas hur du planerar och skapar ett multivariata test med hjälp av det guidade arbetsflödet i tre steg för Target.
 
