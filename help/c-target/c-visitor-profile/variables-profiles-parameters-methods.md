@@ -29,8 +29,8 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | Användaragenten |
-| user.header | Alla `user.header` profiler är inbyggda från rubrikdata för Mbox-begäran |
-| user.header(&#39;x-forward-for&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>Du kan få detta på flera sätt, till exempel [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172.<br>Obs! user.header(&#39;x-Cluster-client-ip&#39;) har tagits bort. |
+| user.header | Alla `user.header`-profiler är inbyggda från rubrikdata för Mbox-begäran |
+| user.header(&#39;x-forward-for&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>Du kan få detta på flera sätt, till exempel  [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172.<br>Obs! user.header(&#39;x-Cluster-client-ip&#39;) har tagits bort. |
 | user.header(&#39;host&#39;) | Värdnamn för webbplats |
 | user.header(&#39;cookie&#39;) | Data för besöks-cookie |
 | user.header(&#39;user-agent&#39;) | Användaragent för besökare |
@@ -49,7 +49,7 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | profile.browserTime | Besökarens lokala webbläsartid. Skapa ett nytt datumobjekt i profilskriptet för systemtid |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| parameter= | Allmän term för ytterligare värden som skickas med en mbox, vanligtvis som namn/värde-par. Inte beständig såvida den inte har gjorts med `profile.parameter` eller `user.parameter`. |
+| parameter= | Allmän term för ytterligare värden som skickas med en mbox, vanligtvis som namn/värde-par. Inte beständig om den inte har gjorts med `profile.parameter` eller `user.parameter`. |
 
 ## URL-variabler {#section_8F25958273164EBAA6DC659302993FD3}
 
@@ -83,13 +83,13 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | mbox.param(&#39;param_name&#39;) |  |
 | Parametrar skickas automatiskt med varje begäran:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Parametrar skickade med orderrutor:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | En mbox-parameter för att synkronisera ett kund-ID till Target mboxPCID. Ett kund-ID är ett ID som ditt företag använder för att spåra besökare, till exempel ett CRM-ID, ett medlems-ID eller något liknande. Detta ID kan sedan användas för att lägga till information via profilens API:er och [kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
+| mbox3rdPartyId | En mbox-parameter för att synkronisera ett kund-ID till Target mboxPCID. Ett kund-ID är ett ID som ditt företag använder för att spåra besökare, till exempel ett CRM-ID, ett medlems-ID eller något liknande. Detta ID kan sedan användas för att lägga till information via profil-API:erna och [kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | I varje mbox-anrop tilldelas sidan ett värde. |
 | mboxDebug | Används endast för felsökningsinformation. Tillagd på sid-URL:en där mbox.js letar efter den. |
-| mboxOverride.browserIp | Ställer in en annan region än den faktiska platsen så att du kan testa hur någonting skulle se ut på en annan plats.<br>**Obs!** Parametrar för mboxOverride ska bara användas när aktiviteten testas och inte i produktionen. Om du använder någon av parametrarna mboxOverride kan det orsaka rapporteringsavvikelser när du använder [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Du bör använda [Activity QA-läget](/help/c-activities/c-activity-qa/activity-qa.md) när du testar för att kontrollera att din aktivitet fungerar som förväntat innan du flyttar aktiviteten till din livemiljö. |
+| mboxOverride.browserIp | Ställer in en annan region än den faktiska platsen så att du kan testa hur någonting skulle se ut på en annan plats.<br>**Obs!** Använda mboxOverride-parametrar bör bara användas när aktiviteten testas och inte i produktion. Om du använder någon av parametrarna mboxOverride kan det orsaka rapporteringsavvikelser när du använder [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Du bör använda [Aktivitets-QA-läge](/help/c-activities/c-activity-qa/activity-qa.md) under testningen för att kontrollera att din aktivitet fungerar som förväntat innan du flyttar aktiviteten till din livemiljö. |
 
-## Customer Attributes {#section_62B4821EB6564FF4A14159A837AD4EDB}
+## Kundattribut {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 Kundattribut kan refereras i profilskript, formaterade som `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Dessa attribut är också tillgängliga som token i profilskript och direkt i erbjudanden utan att först behöva ett profilskript. Token ska ha följande format: `${crs.datasourceName.attributeName}`. Observera att blanksteg i `datasourceName` bör tas bort från API-anrop.
+Dessa attribut är också tillgängliga som token i profilskript och direkt i erbjudanden utan att först behöva ett profilskript. Token ska ha följande format: `${crs.datasourceName.attributeName}`. Observera att blanksteg i `datasourceName` bör tas bort från alla API-anrop.
