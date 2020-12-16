@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Integrering mellan äldre SiteCatalyst till Test&amp;Target - Vanliga frågor om A4T{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}
+# Integrering mellan äldre SiteCatalyst till Test&amp;Target - A4T FAQ{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om den gamla integreringen mellan SiteCatalyst och Test&amp;Target och hur Analytics används som rapportkälla för Target (A4T).
 
