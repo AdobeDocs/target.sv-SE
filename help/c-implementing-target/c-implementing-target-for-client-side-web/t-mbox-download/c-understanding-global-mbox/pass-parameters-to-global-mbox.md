@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Skicka parametrar till en global mbox{#pass-parameters-to-a-global-mbox}
 
-JavaScript- `targetPageParams` funktionen används för att skicka parametrar till den globala mbox i [!DNL Adobe Target]. Detta är nödvändigt i alla situationer där ytterligare information om målinriktning/sammanhang ska skickas till [!DNL Target].
+JavaScript-funktionen `targetPageParams` används för att skicka parametrar till den globala mbox i [!DNL Adobe Target]. Detta behövs i alla situationer där ytterligare information om mål/kontext ska skickas till [!DNL Target].
 
-I en [!DNL Recommendations] aktivitet använder du till exempel parametrarna för att representera den aktuella produkten eller kategorin som visas.
+I en [!DNL Recommendations]-aktivitet använder du till exempel parametrarna för att representera den aktuella produkten eller kategorin som visas.
 
 Koden som anropar JavaScript-funktionen måste komma före den globala mbox på sidan, oavsett om den globala mbox utlöses som en del av at.js eller inkluderas manuellt i sidkoden.
 
 >[!NOTE]
 >
->Om du vill lägga till parametrar i alla mbox på sidan, inte bara i den globala mbox, använder du funktionen [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) .
+>Om du vill lägga till parametrar i alla mbox på sidan, inte bara i den globala mbox, använder du funktionen [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
 
-Du kan skicka in parametrar till `target-global-mbox` att använda `targetPageParams()` funktionen på något av följande sätt:
+Du kan skicka in parametrar till `target-global-mbox` med funktionen `targetPageParams()` på något av följande sätt:
 
 * En array
 * Ett JSON-objekt
@@ -40,12 +40,12 @@ Du måste definiera JavaScript-funktionen innan du lägger till den globala mbox
 p1=v1&p2=v2&p3=hello%20world
 ```
 
-* Name: `targetPageParams`
+* Namn: `targetPageParams`
 * Returvärde: en&quot;&amp;&quot;-avgränsad parameter med URL-kodade parametervärden.
 
    Exempel:
 
-   I det här exemplet har p3 värdet `hello world`, vilket är URL-kodat.
+   I det här exemplet har p3 värdet `hello world`, som är URL-kodat.
 
 Följande är ett exempel på hur koden för sidan kan se ut:
 
