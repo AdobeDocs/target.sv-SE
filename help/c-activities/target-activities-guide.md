@@ -18,18 +18,18 @@ Ladda ned en interaktiv PDF som beskriver de olika aktivitetstyperna i Adobe Tar
 
 >[!NOTE]
 >
->För att få en så bra upplevelse som möjligt och dela med andra laddar du ned PDF-filen med [Adobe Target Activity Guide](/help/assets/activities_guide_82817.pdf).
+>Om du vill få en så bra upplevelse som möjligt och dela med andra kan du hämta den interaktiva [Adobe Target Activity Guide PDF](/help/assets/activities_guide_82817.pdf).
 
 ## Vad gör den? {#section_4ECAACC68723402EB3649033190E1BBC}
 
 | Typ av aktivitet | Detaljer |
 |--- |--- |
-| ![](/help/c-activities/assets/icon_ab.png)<br/>ikonManuellt A/B-test | Jämför två eller flera upplevelser för att se vilken som är bäst på att förbättra konverteringarna under en fördefinierad testperiod.  Mer information finns i [A/B-test](/help/c-activities/t-test-ab/test-ab.md). |
-| ![Automatisk](/help/c-activities/assets/icon_auto_allocate.png)<br/>tilldelning av ikonAutomatisk allokering | Identifierar en vinnare bland två eller fler upplevelser och dirigerar sedan om trafiken till vinnaren, vilket ökar konverteringsgraden när testet körs och lär sig.  Mer information finns i [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| ![Ikon](/help/c-activities/assets/icon_auto_target.png)<br/>ATAuto-Target | Använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare.  Mer information finns i [Automatisk målanpassning för personaliserade upplevelser](/help/c-activities/auto-target/auto-target-to-optimize.md). |
+| ![](/help/c-activities/assets/icon_ab.png)<br/>ikonManuellt A/B-test | Jämför två eller flera upplevelser för att se vilken som är bäst på att förbättra konverteringarna under en fördefinierad testperiod.  Mer information finns i [A/B Test](/help/c-activities/t-test-ab/test-ab.md). |
+| ![Automatisk ](/help/c-activities/assets/icon_auto_allocate.png)<br/>tilldelning av ikonAutomatisk allokering | Identifierar en vinnare bland två eller fler upplevelser och dirigerar sedan om trafiken till vinnaren, vilket ökar konverteringsgraden när testet körs och lär sig.  Mer information finns i [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
+| ![Ikon ](/help/c-activities/assets/icon_auto_target.png)<br/>ATAuto-Target | Använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare.  Mer information finns i [Automatisk målanpassning för personaliserade upplevelser](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 | ![Ikon-](/help/c-activities/assets/icon_ap.png)<br/>APAutomatiserad personalisering (AP) | Använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att kombinera specifika erbjudanden eller meddelanden och sedan matcha olika erbjudandevariationer för besökarna utifrån deras individuella kundprofiler.  Mer information finns i [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md). |
-| ![Ikon](/help/c-activities/assets/icon_mvt.png)<br/>MVTMultivariate Testing (MVT) | Jämför kombinationer av erbjudanden mellan element på en sida för att se vilken kombination som fungerar bäst för en viss målgrupp. Identifierar även vilket element på sidan som bäst förbättrar konverteringarna under en fördefinierad testperiod.  Mer information finns i [Multivariata Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
-| ![Ikon](/help/c-activities/assets/icon_xt.png)<br/>XTEperience Targeting (XT) | Levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier. Mer information finns i [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md). |
+| ![Ikon ](/help/c-activities/assets/icon_mvt.png)<br/>MVTMultivariate Testing (MVT) | Jämför kombinationer av erbjudanden mellan element på en sida för att se vilken kombination som fungerar bäst för en viss målgrupp. Identifierar även vilket element på sidan som bäst förbättrar konverteringarna under en fördefinierad testperiod.  Mer information finns i [Multivariata test](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
+| ![Ikon ](/help/c-activities/assets/icon_xt.png)<br/>XTEperience Targeting (XT) | Levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier. Mer information finns i [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md). |
 
 ## Varför använder du den här? {#section_46A70DD7CE3448749E635DDF5EAFC131}
 
@@ -53,7 +53,7 @@ Ladda ned en interaktiv PDF som beskriver de olika aktivitetstyperna i Adobe Tar
 | Multivariate Testing (MVT) | Är känd i statistik.<br/>Har ett eller flera erbjudanden.<br/>Vill analysera konverteringstrender som relaterar till interaktioner för sidelement. |
 | Experience Targeting (XT) | Måste leverera en specifik upplevelse eller innehållsdel till en viss målgrupp. |
 
-## Statistikinformation {#section_22CF2D07DB054505AB5EC702B99A5BB0}
+## Statistik {#section_22CF2D07DB054505AB5EC702B99A5BB0}
 
 | Typ av aktivitet | Detaljer |
 |--- |--- |
