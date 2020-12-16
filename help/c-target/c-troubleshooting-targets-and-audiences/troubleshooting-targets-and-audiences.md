@@ -30,7 +30,7 @@ Om du vill använda målgrupps-URL när du skapar en aktivitet, klickar du på k
 
 ![URL för sidleverans](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Målgrupps-URL söker efter en exakt URL-matchning. Om URL:en matchar varandra kommer Target inte att överväga ytterligare logik. Om aktiviteten är inställd på att starta `www.example.com`i ovanstående URL-adress matchar URL-adressen följande URL-adresser eftersom målgrupps-URL:en är frågeagnostiker:
+Målgrupps-URL söker efter en exakt URL-matchning. Om URL:en matchar varandra kommer Target inte att överväga ytterligare logik. Om aktiviteten är inställd på att utlösas på `www.example.com` i ovanstående URL matchar URL:en för följande URL:er eftersom målgrupps-URL:en är frågeagnostiker:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -51,7 +51,7 @@ URL med målinriktning omvandlar URL:en till en uppsättning regler som ska utv�
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Utvärderar [!DNL Target] hela URL-adressen när komplexa URL-strängar skapas?
+## Utvärderar [!DNL Target] hela URL-adressen när du skapar komplexa URL-strängar?
 
 Om du använder samma parameternamn mer än en gång i en URL-sträng, kommer HTTP att undersöka det första parameternamnet och ignorera efterföljande parametrar med samma namn.
 
@@ -59,7 +59,7 @@ I följande URL-sträng:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-den första instansen av `Category` parametern utvärderas och den andra `Category` parametern ignoreras.
+den första instansen av parametern `Category` utvärderas och den andra `Category`-parametern ignoreras.
 
 Det bästa sättet är att ha flera värden kopplade till en enskild kategori, vilket visas nedan:
 
@@ -77,7 +77,7 @@ Som standard fördelas trafiken jämnt mellan upplevelserna. Du kan dock ange pr
 
 ## Vilken upplevelse visas om en användare kvalificerar sig för en aktivitet som innehåller flera upplevelser med flera kvalificerade målgrupper? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
-Användaren kvalificerar sig för den första upplevelsen/målgruppen som visas på aktivitetens [!UICONTROL Target] sida.
+Användaren kvalificerar sig för den första upplevelsen/målgruppen som visas på aktivitetens [!UICONTROL Target]-sida.
 
 I följande exempel kvalificerar en användare från Kalifornien som använder en Windows-enhet sig för både Experience A (Windows-publik) och Experience C (California-publik). Den här användaren visas Experience A eftersom den visas i listan ovanför Experience C på målsidan.
 
@@ -85,9 +85,9 @@ I följande exempel kvalificerar en användare från Kalifornien som använder e
 
 ## Varför skiljer sig namnen för samma målgrupp i Target, Adobe Audience Manager (AAM) och Audience Library i bastjänsterna åt? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Målgruppsnamn i [!DNL Target] är unika; I [!DNL AAM] och [!DNL Audience Library]i kan du dock ha samma namn för flera målgrupper (om de finns i olika mappar). När [!DNL Target] träffar på ett målgruppsnamn som motsvarar en [!DNL AAM] eller en [!DNL Audience Library] målgrupp [!DNL Target] lägger till &quot;#&lt;number>&quot; till namnet.
+Målgruppsnamn i [!DNL Target] är unika; I [!DNL AAM] och [!DNL Audience Library] kan du dock ha samma namn för flera målgrupper (om de finns i olika mappar). När [!DNL Target] påträffar ett målgruppsnamn som motsvarar en [!DNL AAM] eller [!DNL Audience Library] målgrupp, lägger [!DNL Target] till &quot;#&lt;number>&quot; i namnet.
 
-Du kan till exempel se följande målgrupper: &quot;PC Users&quot; (in [!DNL AAM]) och &quot;PC Users #1&quot; (in [!DNL Target]).
+Du kan till exempel se följande målgrupper: &quot;PC Users&quot; (i [!DNL AAM]) och &quot;PC Users #1&quot; (i [!DNL Target]).
 
 ## Varför kan jag inte byta namn på en publik? {#section_54E420556F534D20836E261E253D8B97}
 
@@ -95,7 +95,7 @@ Vissa målgrupper är fördefinierade, till exempel&quot;Nya besökare&quot; och
 
 ## Varför visas inte alla profilparametrar i målanvändargränssnittet? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du behöver skicka fler än 50 profilattribut till [!DNL Target]kan du skicka dem med API-metoden [!UICONTROL Profile Update] . Mer information finns i [Profiluppdatering](https://developers.adobetarget.com/api/#authentication-tokens) i dokumentationen för Adobe Target API.
+[!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du behöver skicka fler än 50 profilattribut till [!DNL Target] kan du skicka dem med API-metoden [!UICONTROL Profile Update]. Mer information finns i [Profiluppdatering](https://developers.adobetarget.com/api/#authentication-tokens) i dokumentationen för Adobe Target API.
 
 ## Varför ser besökarna upplevelser för en AP-aktivitet som de inte ska se? {#section_41CECEAE0881446A8D9F3B016857914B}
 
@@ -114,10 +114,10 @@ Exempel:
 | Värde | Målvillkor | Resultat |
 | --- | --- | --- |
 | 1.0 | är lika med 1 | true |
-| 1 | equalsIgnoreCase 1.0 | true |
-| 1.230 | är lika med 1 | true |
-| 1.500 | är lika med 1,5 | true |
-| 1.200 | är mindre än 2 | true |
+| 3 | equalsIgnoreCase 1.0 | true |
+| 1,230 | är lika med 1 | true |
+| 1 500 | är lika med 1,5 | true |
+| 1 200 | är mindre än 2 | true |
 | 2 | är större än 3.0 | false |
 | 045 | är lika med 45 | true |
 
@@ -125,4 +125,4 @@ Siffror skrivna med vetenskaplig notation jämförs alltid som strängar.
 
 Exempel:
 
-&quot;4e-2&quot; är bara lika med &quot;4e-2&quot;. Den kommer *inte* att vara lika med &quot;0.04&quot;.
+&quot;4e-2&quot; är bara lika med &quot;4e-2&quot;. Det är *inte* lika med &quot;0.04&quot;.
