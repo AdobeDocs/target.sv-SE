@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -felsökning av Automated Personalization{#troubleshoot-automated-personalization}
+# ![](/help/assets/premium.png) PREMIUMTroubleshoot Automated Personalization{#troubleshoot-automated-personalization}
 
 Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utmaningar du kan ställas inför när du använder Automated Personalization, och några förslag på lösningar.
 
@@ -19,7 +19,7 @@ Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utma
 
 Det finns flera ändringar av aktivitetsinställningarna som kan minska den förväntade tiden att skapa modeller, bland annat antalet upplevelser i ditt Automated Personalization-test, trafiken till din webbplats och det framgångsmått du valt.
 
-**Lösning:** Granska din aktivitetskonfiguration och se om det finns några ändringar du vill göra för att förbättra hastigheten som modellerna bygger på.
+**Lösning:** Granska aktivitetsinställningarna och se om det finns några ändringar du vill göra för att förbättra hastigheten som modellerna bygger på.
 
 * Om mätvärdet för framgång är RPV, kan du ändra till konvertering? Konverteringsaktiviteter kräver ofta mindre trafik för att skapa modeller. Du kommer inte att förlora aktivitetsdata om du ändrar resultatmåttet från RPV till konvertering.
 * Når er framgångsstatistik långt ned i säljprocessen från era aktivitetsupplevelser? En lägre aktivitetskonverteringsfrekvens ökar de trafikkrav som krävs för modeller att bygga, eftersom ett minsta antal konverteringar krävs.
@@ -35,11 +35,11 @@ Det finns flera faktorer som krävs för att en AP-aktivitet ska kunna generera 
 * Det skall finnas tillräckligt med trafik och statistisk &quot;effekt&quot; i provningen för att upptäcka hissen.
 * Personaliseringsalgoritmen måste fungera bra.
 
-**Lösning:** Det bästa sättet att agera är att först se till att det innehåll och de platser som utgör aktivitetsupplevelserna verkligen gör skillnad i den totala svarsfrekvensen med hjälp av ett enkelt, icke-personaliserat A/B-test. Se till att beräkna provstorlekarna i förväg för att säkerställa att det finns tillräckligt med kraft för att se en rimlig lyft och köra A/B-provningen under en fast varaktighet utan att stoppa den eller göra några ändringar. Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet kommer att fungera. Personalisering kan förstås fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på att erbjudandena/platserna inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
+**Lösning:** Det bästa sättet att agera är att först se till att det innehåll och de platser som utgör aktivitetsupplevelserna verkligen gör skillnad för den totala svarsfrekvensen med hjälp av ett enkelt, icke-personaliserat A/B-test. Se till att beräkna provstorlekarna i förväg för att säkerställa att det finns tillräckligt med kraft för att se en rimlig lyft och köra A/B-provningen under en fast varaktighet utan att stoppa den eller göra några ändringar. Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet kommer att fungera. Personalisering kan förstås fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på att erbjudandena/platserna inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
 
 ## Min URL för AP-aktivitet visar erbjudandeinnehåll på felaktiga sidor. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-I AP läggs URL- och malltestningsreglerna till i den begärda [!DNL Target] postbegränsningen (till exempel target-global-mbox), där de bara utvärderas en gång. När en användare kvalificerar sig för en aktivitet utvärderas inte målinriktningsreglerna på målförfrågansnivå på nytt. Målgruppen läggs dock till i reglerna för målinriktning mot plats.
+I AP läggs URL- och malltestreglerna till i [!DNL Target]-begärandepostbegränsningen (till exempel target-global-mbox), där de bara utvärderas en gång. När en användare kvalificerar sig för en aktivitet utvärderas inte målinriktningsreglerna på målförfrågansnivå på nytt. Målgruppen läggs dock till i reglerna för målinriktning mot plats.
 
 **Lösning:** Lägg till nödvändiga mallregler som kampanjens målgrupp. Målgruppsutvärdering sker vid varje begäran/anrop.
 
