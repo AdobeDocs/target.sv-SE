@@ -21,15 +21,15 @@ Om du använder DTM kan du enkelt spara at.js i Adobe Target Tool-konfiguratione
 
 När du har sparat biblioteket använder du DTM Switch-verktyget för att testa det mot din produktionskod. Detta gör det också enkelt för dina Adobe-konsulter att ge dig support.
 
-Mer information finns i [alternativ 3: Implementera Target manuellt med målbiblioteket för JavaScript, som finns hos DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) , i *Best Practices för implementering av Adobe Target med hjälp av guiden för dynamisk tagghantering* .
+Mer information finns i [Alternativ 3: Implementera mål manuellt med JavaScript-målbiblioteket som finns på DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) i guiden *Best Practices for Implementera Adobe Target med Dynamic Tag Management*.
 
 ## Använd Chrome-tillägget &quot;True&quot; för att mappa till en annan fil
 
 >[!NOTE]
 >
->Utöver följande information kan du använda webbläsartillägget [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) Adobe Target VEC Helper för Google Chrome.
+>Utöver följande information kan du använda webbläsartillägget [Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) för Google Chrome.
 
-[Ärligt talat](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) är det ett kostnadsfritt Chrome-tillägg som gör att du kan omdirigera begäranden till en alternativ URL.
+[Request ](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) är ett kostnadsfritt Chrome-tillägg som gör att du kan omdirigera begäranden till en alternativ URL.
 
 Du distribuerar at.js till en URL och använder sedan True för att mappa din aktuella mbox.js-fils-URL till den nya at.js-URL:en. När webbplatsen sedan försöker läsa in mbox.js läses den in på .js i stället. Detta gör det också enklare för Adobe att ge stöd.
 
@@ -41,9 +41,9 @@ Om du vill ha bättre stöd från Adobe ska du distribuera filen i en miljö som
 
 ## Använd Charles eller Fiddler för att mappa till en lokal fil
 
-[Charles Web Debugging Proxy](https://www.charlesproxy.com/) är ett program för Mac och Windows vars funktion Map Local kan användas för att mappa inläsningen av din mbox.js-fil till en lokal kopia av at.js. Det finns en kostnadsfri testversion att ladda ned för Mac och Windows.
+[Charles Web Debugging ](https://www.charlesproxy.com/) Proxyis är ett program för Mac och Windows vars funktion Map Local kan användas för att mappa inläsningen av din mbox.js-fil till en lokal kopia av at.js. Det finns en kostnadsfri testversion att ladda ned för Mac och Windows.
 
-[Fiddler](https://www.telerik.com/fiddler) är ett liknande verktyg som finns som kostnadsfri nedladdning för Windows.
+[Fiddler ](https://www.telerik.com/fiddler) är ett liknande verktyg som finns som kostnadsfri nedladdning för Windows.
 
 ## Distribuera till en annan tagghanteringsmiljö
 
