@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Kapitel 5: Inspiration för testning och personalisering.
 
-Dessa idéer om testning och personalisering, som inspireras av verkliga aktiviteter som utförs av våra kunder och som har höjt konverteringsgraden och intäkterna, är värda att testa eller använda som inspiration för dina egna [!DNL Target] aktiviteter. Även om idén inte passar just er organisation, med lite kreativitet och brainstorming, bör ni överväga att utveckla en aktivitet som bygger på testets eller personaliseringens anda.
+Dessa idéer om testning och personalisering, som inspireras av verkliga aktiviteter som utförs av våra kunder och som har höjt konverteringsgraden och intäkterna, är värda att testa eller använda som inspiration för dina egna [!DNL Target]-aktiviteter. Även om idén inte passar just er organisation, med lite kreativitet och brainstorming, bör ni överväga att utveckla en aktivitet som bygger på testets eller personaliseringens anda.
 
 ## Idea 1: Testa personalisering av kundresan.
 
-Öka konverteringsgraden och intäkterna genom att skapa en skräddarsydd kreativ resa och en varumärkesupplevelse som får besökarna att känna sig nöjda och som samtidigt uppfyller affärsmålen. Testa sedan den personaliserade resan genom att jämföra den med statiska upplevelser eller slumpmässigt levererade upplevelser. Lyft personaliseringen till en högre nivå genom att identifiera och skapa de målgrupper ni personaliserar med hjälp av data från andra leverantörer i [!DNL Adobe Audience Manager].
+Öka konverteringsgraden och intäkterna genom att skapa en skräddarsydd kreativ resa och en varumärkesupplevelse som får besökarna att känna sig nöjda och som samtidigt uppfyller affärsmålen. Testa sedan den personaliserade resan genom att jämföra den med statiska upplevelser eller slumpmässigt levererade upplevelser. Gå ett steg längre genom att identifiera och skapa de målgrupper ni personaliserar med hjälp av data från externa leverantörer i [!DNL Adobe Audience Manager].
 
 När ni har identifierat dessa målgrupper kan ni testa användarupplevelser och marknadsundersökningar för att ta reda på vad som övertygar dem att reagera och utveckla de upplevelser ni riktar in er på dem inom deras resa i enlighet med detta.
 
