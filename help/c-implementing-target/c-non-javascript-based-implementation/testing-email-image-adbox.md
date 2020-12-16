@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Testa en e-postbild i Adbox{#test-an-email-image-adbox}
+# Testa en e-postbild från Adbox{#test-an-email-image-adbox}
 
 Testa bilder dynamiskt i e-postmeddelanden och ändra till och med bilderna direkt när någon öppnar e-postmeddelandet.
 
@@ -39,9 +39,9 @@ Där nedanstående värden är specifika för dig:
 
 | Värde | Beskrivning |
 |--- |--- |
-| clientcode | Ditt företags kundkod. Du hittar detta i at.js eller mbox.js som listas `clientCode='yourclientcode'`. Det här är bara små bokstäver och har inga specialtecken. |
+| clientcode | Ditt företags kundkod. Du hittar detta i at.js eller mbox.js som `clientCode='yourclientcode'`. Det här är bara små bokstäver och har inga specialtecken. |
 | image | Erbjudandetypen. Det är alltid&quot;bild&quot; för grafiska annonser och&quot;sida&quot; för omdirigeringar. |
 | email_header | Namnet på adbox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Obligatoriskt. Ersätt URL:en med lämpligt standardinnehåll för din adbox. Detta måste vara en absolut referens och måste vara URL-kodad. |
 | `mboxXDomain=disabled` | Anger att Target inte ska försöka ange en cookie. |
-| `mboxSession=123456` och `mboxPC=123456` | Två värden krävs av Target för att sammanfoga den här användarens profil med den befintliga profilen för din plats. 123456 är den unika identifierare som genereras per e-post. Infoga det här värdet dynamiskt i varje adbox- och omdirigerings-URL. Det här numret måste vara unikt för varje e-postmeddelande som skickas till varje person. Om ett e-postmeddelande skickas varje vecka till 1 000 personer måste 1 000 unika ID:n genereras.<br>Den unika identifieraren per e-post måste tilldelas mboxSession och mboxPC i varje adbox och omdirigerings-URL. Det rekommenderade formatet för den här identifieraren är timestamp-NNNN där NNNN är ett slumpmässigt 5-siffrigt nummer, men alla alfanumeriska format fungerar. Vissa massutskick och alla programmeringsspråk kan generera denna unika identifierare. |
+| `mboxSession=123456` och  `mboxPC=123456` | Två värden krävs av Target för att sammanfoga den här användarens profil med den befintliga profilen för din plats. 123456 är den unika identifierare som genereras per e-post. Infoga det här värdet dynamiskt i varje adbox- och omdirigerings-URL. Det här numret måste vara unikt för varje e-postmeddelande som skickas till varje person. Om ett e-postmeddelande skickas varje vecka till 1 000 personer måste 1 000 unika ID:n genereras.<br>Den unika identifieraren per e-post måste tilldelas mboxSession och mboxPC i varje adbox och omdirigerings-URL. Det rekommenderade formatet för den här identifieraren är timestamp-NNNN där NNNN är ett slumpmässigt 5-siffrigt nummer, men alla alfanumeriska format fungerar. Vissa massutskick och alla programmeringsspråk kan generera denna unika identifierare. |
