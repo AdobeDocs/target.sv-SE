@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# ![Matchning av PREMIUM](/help/assets/premium.png) -parameter
+# ![Matchning av ](/help/assets/premium.png) PREMIUMParameter
 
 Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).
 
 Rekommendera t.ex. bara innehåll som matchar parametern&quot;branschsida&quot; eller andra parametrar som enhetsdimensioner eller geolokalisering, som i följande exempel.
 
-* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och endast rekommendera mobila enheter och tillbehör.
+* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och bara rekommendera mobila enheter och tillbehör.
 * Skapa en rekommendationsregel som endast returnerar de mest sålda mobiltelefonerna som matchar eller överskrider skärmhöjden på den mobila enhet som besökaren använder för att visa sidan.
 * Regionala geopositioneringsparametrar kan användas för att returnera rekommendationer för verktyg under vintern. Snöblåsare och andra verktyg för att minska snön kan rekommenderas för besökare i områden där det snöar men inte för besökare i områden där det inte snöar.
 
@@ -35,7 +35,7 @@ Rekommendera t.ex. bara innehåll som matchar parametern&quot;branschsida&quot; 
 
 [!UICONTROL Parameter Matching] I kan du rekommendera innehåll som matchar sidparametrarna eller besökarens parametrar, till exempel enhetsdimensioner eller geolokalisering, som i följande exempel:
 
-[!DNL Recommendations] kan matcha parametervärden som skickas i [!DNL Target] anropet. I det här fallet upptäcker [!DNL Target] att en besökare använder en mobil enhet, baserat på de parametrar för skärmhöjd och -bredd som skickas i [!DNL Target] anropet, och rekommenderar endast objekt som är mobila enheter.
+[!DNL Recommendations] kan matcha parametervärden som skickas i  [!DNL Target] anropet. I det här fallet upptäcker [!DNL Target] att en besökare använder en mobil enhet, baserat på de parametrar för skärmhöjd och skärmbredd som skickades i [!DNL Target]-anropet, och rekommenderar endast objekt som är mobila enheter.
 
 Titta på följande exempel på Target-anrop:
 
