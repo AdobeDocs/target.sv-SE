@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -samlingar {#collections}
+# ![](/help/assets/premium.png) PREMIUMCollections  {#collections}
 
 En samling är en uppsättning produkter eller artiklar som är berättigade till en rekommendation. En samling definieras genom att ange de villkor som måste uppfyllas av objekt som ska ingå i den.
 
@@ -20,7 +20,7 @@ Vanligtvis är en samling en uppsättning med liknande eller relaterade artiklar
 
 Använd samlingar för att ordna produkterna i logiska områden. Om vissa objekt till exempel är tillgängliga i en region men inte i en annan, kan du skapa en samling som utesluter objekt som inte är tillgängliga i besökarens region. Du kan också använda samlingar för att ordna säsongsobjekt eller andra organisationsparametrar som gäller för ditt företag.
 
-Rekommendationer [för](/help/c-recommendations/c-algorithms/backup-recs.md) säkerhetskopiering som genereras för varje villkor i rekommendationen använder också den här samlingen, så endast objekt i samlingen inkluderas i rekommendationen för säkerhetskopiering. Med samlingar kan du vara säker på att endast produkter som är bra att visa på en plats visas.
+[Rekommendationerna för säkerhetskopiering](/help/c-recommendations/c-algorithms/backup-recs.md) som genereras för varje villkor i rekommendationen använder även den här samlingen, så endast objekt i samlingen inkluderas i rekommendationen för säkerhetskopiering. Med samlingar kan du vara säker på att endast produkter som är bra att visa på en plats visas.
 
 Samlingar byggs om eller uppdateras varje gång varje villkor körs.
 
@@ -28,35 +28,35 @@ Du kan gruppera dina objekt i kataloger och sedan skapa separata rekommendatione
 
 Inkluderingsvillkor gör att du kan göra liknande saker som en samling, men de måste ställas in varje gång du skapar en aktivitet. Med samlingar kan du skapa en uppsättning objekt en gång och sedan använda den när det är lämpligt för att göra det utan att behöva konfigurera den igen.
 
-När du skapar eller redigerar en [!DNL Recommendations] aktivitet visas samlingsnamnet bredvid [!UICONTROL Criteria] aktivitetsdiagrammets etikett.
+När du skapar eller redigerar en [!DNL Recommendations]-aktivitet visas samlingsnamnet bredvid etiketten [!UICONTROL Criteria] i aktivitetsdiagrammet.
 
 >[!NOTE]
 >
->Samlingar används inte när du använder [!UICONTROL Recently Viewed Items] rekommendationsnyckeln.
+>Samlingar används inte när du använder [!UICONTROL Recently Viewed Items]-rekommendationsnyckeln.
 
 ## Skapa en samling {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 Skapa en samling för att ordna de produkter eller det innehåll som du vill visa i dina rekommendationer.
 
-1. Klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** för att visa listan över befintliga samlingar.
+1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** för att visa listan över befintliga samlingar.
 
    ![Samlingslista](assets/collections_list.png)
 
-   På [!UICONTROL Collections] sidan visas en lista med dina befintliga samlingar. Du skapar nya samlingar genom att klicka på [!UICONTROL Create Collection] knappen . Du kan också redigera, kopiera och ta bort befintliga samlingar genom att hålla markören över den önskade samlingen och klicka på önskad ikon.
+   Sidan [!UICONTROL Collections] visar en lista över dina befintliga samlingar. Du skapar nya samlingar genom att klicka på knappen [!UICONTROL Create Collection]. Du kan också redigera, kopiera och ta bort befintliga samlingar genom att hålla markören över den önskade samlingen och klicka på önskad ikon.
 
    ![Hovringsikoner: redigera, kopiera och ta bort](/help/c-recommendations/c-products/assets/hover-icons.png)
 
-   Antalet objekt som rapporteras för varje samling i listvyn är antalet produkter som matchar reglerna för den samlingen i den konfigurerade Recommendations- [!UICONTROL Collections] standardvärdgruppen [](/help/administrating-target/hosts.md) (miljö). Se [Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att ändra standardvärdgruppen.
+   Antalet objekt som rapporteras för varje samling i listvyn [!UICONTROL Collections] är antalet produkter som matchar reglerna för samlingen i den konfigurerade standardvärdgruppen [Recommendations](/help/administrating-target/hosts.md) (miljö). Se [Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 
-1. (Villkorligt) Välj en miljö i filtret när du skapar (eller uppdaterar) en samling för att förhandsgranska innehållet i samlingen i den miljön. **[!UICONTROL Environment]** Som standard visas resultat från standardvärdgruppen.
+1. (Villkorligt) Välj en miljö från **[!UICONTROL Environment]**-filtret när du skapar (eller uppdaterar) en samling för att förhandsgranska innehållet i samlingen i den miljön. Som standard visas resultat från standardvärdgruppen.
 
    ![Skapa samling](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Skriv ett **[!UICONTROL Name]** för samlingen.
+1. Ange en **[!UICONTROL Name]** för samlingen.
 
-   Du kan också ange ett valfritt värde **[!UICONTROL Description]**.
+   Du kan också ange ett valfritt **[!UICONTROL Description]**.
 
 1. Ange reglerna som används för att skapa samlingen.
 
@@ -68,7 +68,7 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
 ## Skapa en samling med avancerad sökning
 
-Du kan också skapa samlingar med avancerad sökning på [katalogsökningssidan](/help/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Du kan också skapa samlingar med avancerad sökning på [katalogsöksidan](/help/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![Dialogrutan Spara som](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -92,17 +92,17 @@ Observera att samlingar är tillgängliga för hela kontot. Tänk på detta inna
 
 1. Skapa en samling med någon av metoderna ovan.
 
-1. Klicka **[!UICONTROL Activities]** och [skapa en ny Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) -aktivitet eller redigera en befintlig aktivitet.
+1. Klicka på **[!UICONTROL Activities]** och [skapa en ny Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)-aktivitet eller redigera en befintlig aktivitet.
 
-1. När du har valt ett villkor och en design visas sidan där [!UICONTROL Options] du har valt önskad samling.
+1. När du har valt ett villkor och en design visas [!UICONTROL Options]-sidan där du valde önskad samling.
 
    ![Välj samlingsalternativ](/help/c-recommendations/c-products/assets/choose-collection.png)
 
-1. (Villkorligt) Om du vill ändra en befintlig samlingsinställning klickar du på en plats där du har placerat rekommendationer på sidan (steg 2 i det guidade arbetsflödet med tre delar), **[!UICONTROL Experiences]** **[!UICONTROL Change Collection]** och väljer sedan önskad samling.
+1. (Villkorligt) Om du vill ändra en befintlig samlingsinställning klickar du på **[!UICONTROL Experiences]**-sidan (steg 2 i det guidade arbetsflödet med tre delar) på den plats där du placerade rekommendationer, sedan på **[!UICONTROL Change Collection]** och väljer önskad samling.
 
    ![Ändra samlingsalternativ](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Utbildningsvideo: Skapa samlingar och undantag i Recommendations (7:05) ![självstudiemärke](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa samlingar och uteslutningar i Recommendations (7:05) ![Självstudiemärke](/help/assets/tutorial.png)
 
 Den här videon innehåller följande information:
 
