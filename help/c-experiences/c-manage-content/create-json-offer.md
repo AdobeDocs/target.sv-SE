@@ -23,9 +23,9 @@ Tänk på följande när du arbetar med JSON:
 * JSON-erbjudanden är för närvarande bara tillgängliga för AB- och XT-aktiviteter.
 * JSON-erbjudanden kan endast användas i formulärbaserade aktiviteter.
 * JSON-erbjudandet kan hämtas direkt när du använder API:t för serversidan, Mobile SDK eller NodeJS SDK.
-* I webbläsaren kan JSON-erbjudanden ENDAST hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) genom att filtrera åtgärder med `setJson` åtgärden.
+* I webbläsaren kan JSON-erbjudanden ENDAST hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) genom att filtrera åtgärder med åtgärden `setJson`.
 * JSON-erbjudanden levereras som systemspecifika JSON-objekt i stället för som strängar. Konsumenter av dessa objekt behöver inte längre hantera objekt som strängar och konvertera dem till JSON-objekt.
-* JSON-erbjudanden tillämpas inte automatiskt i motsats till andra erbjudanden (som HTML-erbjudanden) eftersom JSON-erbjudanden är icke-visuella erbjudanden. Utvecklare måste skriva kod för att explicit få erbjudandet med [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+* JSON-erbjudanden tillämpas inte automatiskt i motsats till andra erbjudanden (som HTML-erbjudanden) eftersom JSON-erbjudanden är icke-visuella erbjudanden. Utvecklare måste skriva kod för att uttryckligen få erbjudandet med [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * JSON-erbjudanden stöds inte om du använder mbox.js.
 
 ## Skapa ett JSON-erbjudande {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
@@ -36,7 +36,7 @@ Tänk på följande när du arbetar med JSON:
    ![](assets/offer-json.png)
 
 1. Skriv ett erbjudandenamn.
-1. Skriv eller klistra in JSON-koden i **[!UICONTROL Code]** rutan.
+1. Skriv eller klistra in JSON-koden i rutan **[!UICONTROL Code]**.
 1. Klicka på **[!UICONTROL Save]**.
 
 ## Exempel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
@@ -78,7 +78,7 @@ De åtgärder som skickas till motringningen är en objektmatris. Förutsatt att
 ]
 ```
 
-För att extrahera JSON-erbjudandet itererar du genom åtgärder och söker efter åtgärden med `setJson` action och itererar sedan genom innehållsarrayen.
+För att extrahera JSON-erbjudandet itererar du genom åtgärder och söker efter åtgärden med `setJson` och itererar sedan genom innehållsarrayen.
 
 ## Användningsfall {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -128,9 +128,9 @@ adobe.target.getOffer({
 });
 ```
 
-## Filtreringserbjudanden efter JSON-erbjudandetyp {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Filtreringserbjudanden efter JSON-erbjudandetypen {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Du kan filtrera erbjudandebiblioteket efter erbjudandetypen för JSON genom att klicka på **[!UICONTROL Type]** listrutan och sedan markera **[!UICONTROL JSON]** kryssrutan.
+Du kan filtrera erbjudandebiblioteket efter erbjudandetypen för JSON genom att klicka på listrutan **[!UICONTROL Type]** och sedan markera kryssrutan **[!UICONTROL JSON]**.
 
 ![](assets/offer-json-filter.png)
 
