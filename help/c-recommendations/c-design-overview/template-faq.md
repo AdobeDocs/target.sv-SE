@@ -12,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# ![Vanliga frågor om PREMIUM](/help/assets/premium.png) -design {#design-faq}
+# ![Vanliga frågor om ](/help/assets/premium.png) PREMIUMDesign  {#design-faq}
 
-Lista med vanliga frågor och svar om design av rekommendationer [!DNL Adobe Target] .
+Lista med vanliga frågor och svar om [!DNL Adobe Target] rekommendationer för design.
 
 ## Det rekommenderade objektets pris visar inte båda värdena till höger om decimalkommat. Hur visar jag dem?
 
-Som standard kommer numeriska värden (till exempel `entity.value`) som returneras i designmallar inte att visa efterföljande nollor efter decimalkommat. Om ett objekt till exempel är $35.00, `entity.value` är lika med 35 och bara 35 visas på sidan, inte $35.00.
+Som standard visas inga efterföljande nollor efter decimalkommat i numeriska värden (till exempel `entity.value`) som returneras i designmallar. Om ett objekt till exempel är $35.00 är `entity.value` lika med 35 och bara 35 visas på sidan, inte $35.00.
 
 Det finns två alternativ för att åtgärda problemet:
 
 * Du kan använda Velocity-skript eller Javascript om du vill formatera det returnerade värdet.
 
-* Du kan skicka priset på artikeln till två separata entitetsattribut. Den första, `entity.value`, kan användas för numeriska jämförelser (till exempel prisjämförelseregler). Den andra ska vara ett anpassat attribut, till exempel `entity.displayValue` som lagrar värdet för entiteten som en sträng för korrekt återgivning.
+* Du kan skicka priset på artikeln till två separata entitetsattribut. Den första, `entity.value`, kan användas för numeriska jämförelser (till exempel prisjämförelseregler). Den andra bör vara ett anpassat attribut, till exempel `entity.displayValue`, som lagrar värdet för entiteten som en sträng för att möjliggöra korrekt återgivning.
 
    Exempel:
 
