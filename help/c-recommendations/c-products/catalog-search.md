@@ -12,17 +12,17 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -katalogsökning {#catalog-search}
+# ![](/help/assets/premium.png) PREMIUMCatalogsökning  {#catalog-search}
 
-På [!UICONTROL Catalog Search] sidan hittar du produkter och innehåll i katalogen.
+Sidan [!UICONTROL Catalog Search] hjälper dig att hitta produkterna eller innehållet i din katalog.
 
 Kataloger avser hela produktuppsättningen (enheter). Katalogen kan innehålla många samlingar - ett sätt att ordna produkterna i logiska intervall.
 
-Du öppnar [!UICONTROL Catalog Search] sidan genom att klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+Du öppnar sidan [!UICONTROL Catalog Search] genom att klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 ![Katalogsöksida](/help/c-recommendations/c-products/assets/catalog-search.png)
 
-Den mest grundläggande uppgiften du kan utföra på den här sidan är att söka efter ett objekt. Dessutom kan du ändra miljön; spara sökresultat i samlingar eller uteslutningar, lägg till, ta bort eller ordna om kolumner i tabellen och lägg till nya sökfaktorer på [!UICONTROL Filters] panelen.
+Den mest grundläggande uppgiften du kan utföra på den här sidan är att söka efter ett objekt. Dessutom kan du ändra miljön; spara sökresultat i samlingar eller uteslutningar, lägg till, ta bort eller ordna om kolumner i tabellen och lägg till nya sökfaktorer på panelen [!UICONTROL Filters].
 
 ## Söka efter ett objekt
 
@@ -30,7 +30,7 @@ Du kan söka efter objekt i katalogen med hjälp av en enkel sökning eller en a
 
 ### Gör en enkel sökning
 
-1. Skriv ett sökord i **[!UICONTROL Search Products]** fältet.
+1. Skriv en sökterm i fältet **[!UICONTROL Search Products]**.
 
 1. (Valfritt) Du kan förfina sökningen genom att välja ett sökalternativ på Alternativ-menyn som visas när du klickar på nedpilen i sökfältet.
 
@@ -61,9 +61,9 @@ Du kan söka efter objekt i katalogen med hjälp av en enkel sökning eller en a
    >
    >När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
    >
-   >För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill ändra något [öppnar du ett kundärende](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till attributen som behöver typen ändrad från sträng till numerisk.
+   >För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill göra en ändring [öppnar du en kundutgåva](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till de attribut som behöver typen ändrad från sträng till numerisk.
 
-1. Du kan också använda filter för att hitta önskad produkt. I följande exempel expanderar du [!UICONTROL Collections] ansiktet och väljer Cykelverktyg, så visas alla cykelverktyg i katalogvisningen.
+1. Du kan också använda filter för att hitta önskad produkt. I följande exempel expanderar du funktionen [!UICONTROL Collections] och väljer &quot;Cykelverktyg&quot;, så visas alla cykelverktyg i katalogvisningen.
 
    ![Skakverktyg](/help/c-recommendations/c-products/assets/bike-results-3.png)
 
@@ -75,19 +75,19 @@ Du kan söka efter objekt i katalogen med hjälp av en enkel sökning eller en a
 
 Du kan använda [!UICONTROL Advanced Search] för att förfina sökresultaten ytterligare eller för att spara sökresultaten som en [samling](/help/c-recommendations/c-products/collections.md) eller [exkludering](/help/c-recommendations/c-products/exclusions.md).
 
-1. Klicka på **[!UICONTROL Advanced Search]** länken.
+1. Klicka på länken **[!UICONTROL Advanced Search]**.
 
    ![Sidan Avancerad sökning](/help/c-recommendations/c-products/assets/advances-search.png)
 
 1. Använd listrutorna för att ange parametrar, operator och värden för sökningen.
 
-1. (Valfritt) Klicka för **[!UICONTROL Add Rule]** att lägga till ytterligare en sökregel.
+1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** om du vill lägga till ytterligare en sökregel.
 
    Varje ytterligare sökregel kopplas till operatorn AND.
 
 1. Klicka på **[!UICONTROL Search]**.
 
-1. (Valfritt) Klicka **[!UICONTROL Save As]** och sedan på **[!UICONTROL Collection]** eller **[!UICONTROL Exclusion]**.
+1. (Valfritt) Klicka på **[!UICONTROL Save As]** och sedan på **[!UICONTROL Collection]** eller **[!UICONTROL Exclusion]**.
 
    ![Alternativ för Spara som](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -119,21 +119,21 @@ Katalogen uppdateras automatiskt när uppdateringar tas emot via feedsfiler, API
 
 ## Skapa en samling eller ett undantag baserat på avancerad sökning {#save-as}
 
-Du kan skapa [samlingar](/help/c-recommendations/c-products/collections.md) eller [undantag](/help/c-recommendations/c-products/exclusions.md) med [!UICONTROL Advanced Search] på [!UICONTROL Catalog Search] sidan ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Du kan skapa [samlingar](/help/c-recommendations/c-products/collections.md) eller [undantag](/help/c-recommendations/c-products/exclusions.md) med [!UICONTROL Advanced Search] på [!UICONTROL Catalog Search]-sidan ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 1. Utför en [avancerad sökning](#advanced-search).
 
-1. Klicka **[!UICONTROL Save As]** och sedan på **[!UICONTROL Collection]** eller **[!UICONTROL Exclusion]**.
+1. Klicka på **[!UICONTROL Save As]** och sedan på **[!UICONTROL Collection]** eller **[!UICONTROL Exclusion]**.
 
    ![Alternativ för Spara som](/help/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >
-   >Funktionen är inte skiftlägeskänslig [!UICONTROL Advanced Search] ; men de produkter som returneras vid leveranstillfället bygger på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar eller uteslutningar baserat på resultat med hjälp av [!UICONTROL Advanced Search] funktionen. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte. Uteslutningar hanteras på liknande sätt.
+   >Funktionen [!UICONTROL Advanced Search] är inte skiftlägeskänslig; men de produkter som returneras vid leveranstillfället bygger på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar eller uteslutningar baserat på resultat med funktionen [!UICONTROL Advanced Search]. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte. Uteslutningar hanteras på liknande sätt.
 
 ## Byt miljö
 
-[Med miljöer](/help/administrating-target/environments.md) kan ni ordna era webbplatser och förproduktionsmiljöer för enkel hantering och separat rapportering.
+[Med ](/help/administrating-target/environments.md) en miljö kan du ordna dina webbplatser och förproduktionsmiljöer för enkel hantering och separat rapportering.
 
 1. Klicka på länken Miljö.
 
@@ -143,13 +143,13 @@ Du kan skapa [samlingar](/help/c-recommendations/c-products/collections.md) elle
 
 ## Ändra sidan Katalogsökning (filter och kolumner)
 
-Du kan tillfälligt ändra de tillgängliga filtren och kolumnerna på [!UICONTROL Catalog Search] sidan för den aktuella sessionen.
+Du kan tillfälligt ändra tillgängliga filter och kolumner på [!UICONTROL Catalog Search]-sidan för den aktuella sessionen.
 
 ### Ändra filter
 
-Du kan lägga till fler filteransikten på [!UICONTROL Catalog Search] sidan.
+Du kan lägga till fler filteransikten på sidan [!UICONTROL Catalog Search].
 
-1. Klicka på **[!UICONTROL Filters]** panelen **[!UICONTROL Modify]**.
+1. Klicka på **[!UICONTROL Modify]** på panelen **[!UICONTROL Filters]**.
 
    ![Länken Ändra filter](/help/c-recommendations/c-products/assets/modify-filters.png)
 
@@ -161,15 +161,15 @@ Tänk på att de ytterligare filteransiktena endast är tillgängliga i den aktu
 
 ### Ändra kolumner
 
-Du kan tillfälligt ändra de aktiva kolumnerna på [!UICONTROL Catalog Search] sidan.
+Du kan tillfälligt ändra de aktiva kolumnerna på sidan [!UICONTROL Catalog Search].
 
-1. Klicka på **[!UICONTROL Columns]** länken.
+1. Klicka på länken **[!UICONTROL Columns]**.
 
    ![Kolumnalternativ](/help/c-recommendations/c-products/assets/columns.png)
 
-1. (Villkorligt) Om du vill ändra ordningen på de aktiva kolumnerna drar och släpper du kolumnerna i **[!UICONTROL Active Columns]** avsnittet i önskad ordning.
+1. (Villkorligt) Om du vill ändra ordningen på de aktiva kolumnerna drar och släpper du kolumnerna i **[!UICONTROL Active Columns]**-avsnittet i önskad ordning.
 
-1. (Villkorligt) Dra och släpp objekt från **[!UICONTROL Active Columns]** till **[!UICONTROL Inactive Columns]** (och tvärtom) efter behov.
+1. (Villkorligt) Dra och släpp objekt från **[!UICONTROL Active Columns]** till **[!UICONTROL Inactive Columns]** (och vice versa) efter behov.
 
    Du kan också klicka på borttagningsikonen ( x ) bredvid den kolumn som du vill flytta från det aktiva till det inaktiva avsnittet.
 
