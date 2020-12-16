@@ -35,21 +35,21 @@ Det finns två sätt att rikta in sig på webbläsare:
 
    Det här alternativet riktar endast in aktiviteten på besökare som använder den angivna webbläsaren.
 
-**Anpassad målgruppsregel för webbläsare:** Med en anpassad målgrupp kan ni inrikta er på flera olika webbläsare eller skapa regler eller undantag för specifika webbläsare, webbläsarversioner eller webbläsarspråk. Detta ger stor flexibilitet när det gäller att rikta kampanjer baserat på webbläsarattribut.
+**Anpassad målgruppsregel för webbläsare:** En anpassad målgrupp gör att du kan rikta dig till flera webbläsare eller skapa regler eller undantag för specifika webbläsare, webbläsarversioner eller webbläsarspråk. Detta ger stor flexibilitet när det gäller att rikta kampanjer baserat på webbläsarattribut.
 
-1. I [!DNL Target] gränssnittet klickar du **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Ge publiken ett namn.
 1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Browser]**.
 
    ![Regler > Bläddra](assets/target_browser.png)
 
-1. Klicka på **[!UICONTROL Select]** och välj sedan något av följande alternativ:
+1. Klicka på **[!UICONTROL Select]** och välj sedan ett av följande alternativ:
 
-   * **Typ:** Ange eller exkludera en viss webbläsare. Se [Text](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Språk:** Använd eller exkludera vissa webbläsare som är inställda på specifika språk. Se [Språk](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Version:** Ange eller exkludera vissa webbläsarversioner. Se [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   * **Typ:** Använd eller exkludera en viss webbläsare. Se [Typ](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Språk:** Använd eller exkludera vissa webbläsare som är inställda på vissa språk. Se [Språk](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Version:** Aktivera eller inaktivera vissa webbläsarversioner. Se [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
-1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
+1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Save]**.
 
 I följande exempel visas en publik som inkluderar Internet Explorer-användare i version 10 eller 11:
@@ -64,7 +64,7 @@ Rikta in eller exkludera aktivitetsdeltagare baserat på webbläsartyp, språk e
 
 Ange eller exkludera en viss webbläsare.
 
-Markera **[!UICONTROL Type]** och välj antingen lika med eller inte lika med.
+Välj **[!UICONTROL Type]** och välj sedan antingen lika med eller inte lika med.
 
 * Lika med: Välj de valda webbläsarna.
 * Är inte lika med: Uteslut de valda webbläsarna.
@@ -79,7 +79,7 @@ Om ett erbjudande t.ex. bara finns på engelska kan du rikta dig till webbläsar
 
 Att inkludera eller exkludera webbläsarspråk kan ge en mer exakt besökaranpassning än att rikta in er baserat på geografisk orientering i fall där språket är viktigare än platsen. Om du t.ex. erbjuder en artikel skriven på engelska kan du antingen rikta dig till engelskspråkiga länder eller till webbläsare som är inställda på engelska. Artikeln blir tillgänglig för engelska talare i länder där engelska inte är det primära språket.
 
-Markera **[!UICONTROL Language]** och välj antingen lika med eller inte lika med.
+Välj **[!UICONTROL Language]** och välj sedan antingen lika med eller inte lika med.
 
 * Lika med: Ange de valda webbläsarspråken.
 * Är inte lika med: Uteslut de valda webbläsarspråken.
@@ -104,7 +104,7 @@ Ange eller exkludera vissa webbläsarversioner.
 
 Om sidan inte visas som den ska i Internet Explorer version 11 eller tidigare kan du skapa en publik som inte innehåller dessa versioner. I så fall skapar du en regel där webbläsartypen är lika med Internet Explorer och lägger till en andra regel där versionen är mindre än eller lika med 11.
 
-Markera **[!UICONTROL Version]** och välj sedan en operator:
+Välj **[!UICONTROL Version]** och välj sedan en operator:
 
 * Lika med
 * Är inte lika med
@@ -119,7 +119,7 @@ Endast större versioner kan anges i textfältet. Den angivna versionen innehål
 
 Flera alternativ är kopplade till en OR.
 
-## Utbildningsvideo: Skapa märket för ![självstudiekurser för publiker](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapar publik ![Självstudiekursikon](/help/assets/tutorial.png)
 
 Den här videon innehåller information om hur du använder målgruppskategorier.
 
