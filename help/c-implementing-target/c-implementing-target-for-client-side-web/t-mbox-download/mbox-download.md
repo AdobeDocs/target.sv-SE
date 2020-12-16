@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om du vill använda Target Standard eller Target Premium lägger du till en kodrad för att anropa mbox.js.
 
-Du kan använda en av två biblioteksreferenser: [!DNL mbox.js] eller [!DNL at.js]. [Fördelarna med at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) förklarar skillnaderna mellan de två biblioteken.
+Du kan använda en av två biblioteksreferenser: [!DNL mbox.js] eller [!DNL at.js]. [Fördelarna med at.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) jsexlerar skillnaderna mellan de två biblioteken.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Du kan använda en av två biblioteksreferenser: [!DNL mbox.js] eller [!DNL at.j
 >
 >Genom att flytta alla kunder till at.js kan våra ingenjörer och supporttekniker ge dig nya funktioner och erbjuda den support du förväntar dig från Adobe.
 
-Den enda referensen till [!DNL mbox.js] på varje sida innehåller de bibliotek som behövs för alla dina aktiviteter. [!DNL mbox.js] anropar [!DNL Target] från varje sida som refererar till [!DNL mbox.js] filen. Detta gör [!DNL Target] att du kan göra följande:
+Den enda referensen till [!DNL mbox.js] på varje sida innehåller de bibliotek som behövs för alla dina aktiviteter. [!DNL mbox.js] anropar  [!DNL Target] från varje sida som refererar till  [!DNL mbox.js] filen. Detta gör att [!DNL Target] kan göra följande:
 
 * Leverera målaktiviteter
 * Spåra klick
@@ -34,13 +34,13 @@ Den enda referensen till [!DNL mbox.js] på varje sida innehåller de bibliotek 
 
 >[!TIP]
 >
->Om du vill förenkla implementeringen kan du referera [!DNL mbox.js] i det globala sidhuvudet.
+>För att förenkla implementeringen kan du referera till [!DNL mbox.js] i din globala rubrik.
 
 Du behöver inte underhålla olika aktivitetsspecifika versioner av filen.
 
-1. Referens [!DNL mbox.js] i `<head>` avsnittet på varje sida på webbplatsen.
+1. Referera [!DNL mbox.js] i `<head>`-avsnittet på varje sida på webbplatsen.
 
    `<script src="/ *``*/ *`katalogskript`*/mbox.js"></script>`
 
-   Där ` *``*/ *`katalogskript`*` är den katalog där du sparade din [!DNL mbox.js] fil efter att ha hämtat den.
-Om du redan har mbox-filer på sidan från en äldre implementering kan dessa mbox-filer fortfarande användas i det nya gränssnittet. Den uppdaterade [!DNL mbox.js] filen krävs fortfarande, men du kan välja de här rutorna för aktiviteter och redigera dem med hjälp av [!UICONTROL Visual Experience Composer].
+   Där ` *`katalog`*/ *`skript`*` är den katalog där du sparade din [!DNL mbox.js]-fil när du laddat ned den.
+Om du redan har mbox-filer på sidan från en äldre implementering kan dessa mbox-filer fortfarande användas i det nya gränssnittet. Den uppdaterade [!DNL mbox.js]-filen krävs fortfarande, men dessa kryssrutor kan markeras för aktiviteter och redigeras med [!UICONTROL Visual Experience Composer].
