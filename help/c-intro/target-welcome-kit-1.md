@@ -22,11 +22,11 @@ Exempel:
 * Ett stort B2B-teknikföretag som personaliserade produktsidor med material som guider och rapporter. Resursklicken ökade med mer än 25 procent.
 * Ett stort hotellföretag personaliserade sitt mobilappsinnehåll. Konverteringsgraden fördubblades jämfört med mobilsajten, och appen körde över 1,5 miljarder dollar i bokningar.
 
-För att kunna interagera med kunderna på det här sättet krävs en lösning som kan användas på praktiskt taget alla kontaktytor och som använder nästan alla datakällor för att förstå dem. [!DNL Adobe Target]är en del av [!DNL Adobe Experience Cloud]den lösningen. [!DNL Target] ger er de optimerings- och personaliseringsfunktioner ni behöver för att ge era kunder de ytterst relevanta och vältajmade upplevelser som ger större intäkter och högre konverteringsgrad.
+För att kunna interagera med kunderna på det här sättet krävs en lösning som kan användas på praktiskt taget alla kontaktytor och som använder nästan alla datakällor för att förstå dem. [!DNL Adobe Target]är en del av  [!DNL Adobe Experience Cloud]den lösningen. [!DNL Target] ger er de optimerings- och personaliseringsfunktioner ni behöver för att ge era kunder de ytterst relevanta och vältajmade upplevelser som ger större intäkter och högre konverteringsgrad.
 
-Om du granskar detta välkomstpaket har du redan beslutat att bygga ditt optimerings- och personaliseringsprogram på [!DNL Adobe Target]. Vi är glada att du gjorde det.
+Om du granskar det här välkomstpaketet har du redan bestämt dig för att skapa ditt optimerings- och personaliseringsprogram på [!DNL Adobe Target]. Vi är glada att du gjorde det.
 
 Nu vill vi se till att du börjar använda det på rätt sätt, direkt.
 
-Vi har skapat ett välkomstpaket med viktig information, verktyg och resurser som hjälper dig att förbereda dig för och starta din första [!DNL Target] aktivitet. På lång sikt utgör innehållet också grunden för ett framgångsrikt optimerings- och personaliseringsprogram.
+Vi har skapat det här välkomstpaketet med viktig information, verktyg och resurser som hjälper dig att förbereda dig för och starta din första [!DNL Target]-aktivitet. På lång sikt utgör innehållet också grunden för ett framgångsrikt optimerings- och personaliseringsprogram.
 
