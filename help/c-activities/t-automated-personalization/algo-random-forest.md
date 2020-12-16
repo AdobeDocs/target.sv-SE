@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Slumpmässig skogsalgoritm{#random-forest-algorithm}
+# ![](/help/assets/premium.png) PREMIUMRandom-skogsalgoritm{#random-forest-algorithm}
 
 Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Slumpmässig skog i Automated Personalization är en klassificerings- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
 
@@ -45,11 +45,11 @@ Vårt exempel skulle resultera i följande träd:
 
 ## Hur används beslutsträd av Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Beslutsträd kan vara ett kraftfullt statistiskt verktyg. De har dock vissa nackdelar. Kritiskt sett kan de&quot;överanpassa&quot; data så att ett enskilt träd inte förutser framtida data som inte har använts för att skapa det inledande trädet. Utmaningen kallas [avvikelsehandel](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) inom statistisk inlärning. Slumpmässiga skogar hjälper till att övervinna denna överpassningsutmaning. På den högsta nivån är en slumpmässig skog en samling beslutsträd som byggts något annorlunda på samma datauppsättning som&quot;rösträtt&quot; tillsammans för att ge en bättre modell än ett enskilt träd. Träden byggs genom att man slumpmässigt väljer ut en deluppsättning besöksposter med ersättning (så kallad baging) och slumpmässigt väljer en deluppsättning av attributen, så att skogen består av något olika beslutsträd. Med den här metoden introduceras små variationer i de träd som skapas i den slumpmässiga skogen. Genom att lägga till den här kontrollerade variansmängden förbättras algoritmens prediktiva precision.
+Beslutsträd kan vara ett kraftfullt statistiskt verktyg. De har dock vissa nackdelar. Kritiskt sett kan de&quot;överanpassa&quot; data så att ett enskilt träd inte förutser framtida data som inte har använts för att skapa det inledande trädet. Utmaningen kallas [avvikelse](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) inom statistisk inlärning. Slumpmässiga skogar hjälper till att övervinna denna överpassningsutmaning. På den högsta nivån är en slumpmässig skog en samling beslutsträd som byggts något annorlunda på samma datauppsättning som&quot;rösträtt&quot; tillsammans för att ge en bättre modell än ett enskilt träd. Träden byggs genom att man slumpmässigt väljer ut en deluppsättning besöksposter med ersättning (så kallad baging) och slumpmässigt väljer en deluppsättning av attributen, så att skogen består av något olika beslutsträd. Med den här metoden introduceras små variationer i de träd som skapas i den slumpmässiga skogen. Genom att lägga till den här kontrollerade variansmängden förbättras algoritmens prediktiva precision.
 
 ## Hur använder Target personaliseringsalgoritmer Slumpmässig skog? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
-**Så här bygger du modeller**
+**Hur modeller byggs**
 
 I följande diagram sammanfattas hur modeller byggs för Automatisk målgrupps- eller Automated Personalization-aktiviteter:
 
@@ -73,8 +73,8 @@ Innan data går igenom personaliseringsalgoritmen genomgår den en funktionsomfo
 
 Funktionsomformningarna beror på attributtypen. Det finns främst två typer av attribut (eller&quot;funktioner&quot; som de ibland beskrivs av datavetare):
 
-* **Kategorisisk:** Kategorifunktioner kan inte räknas men kan sorteras i olika grupper. De kan vara funktioner som land, kön eller postnummer.
-* **Numeriskt:** Numeriska egenskaper kan mätas eller räknas, t.ex. ålder, intäkter osv.
+* **Kategoriscal:** Kategoristiska funktioner kan inte räknas men kan sorteras i olika grupper. De kan vara funktioner som land, kön eller postnummer.
+* **Numeriskt:** Numeriska funktioner kan mätas eller räknas, t.ex. ålder, intäkter osv.
 
 För kategoriserade funktioner behålls en uppsättning med alla möjliga funktioner och sannolikhetsomformningen används för att minska datastorleken. För numeriska funktioner säkerställer omskalning att funktionerna är jämförbara över hela gränssnittet.
 
