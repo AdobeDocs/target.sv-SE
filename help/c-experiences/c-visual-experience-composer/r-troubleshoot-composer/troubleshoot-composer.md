@@ -20,7 +20,7 @@ VEC är en av huvudfunktionerna i Adobe Target. VEC är en redigerare som gör d
 
 EEC är en utökning av VEC som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar Target-implementeringen. Om du har problem med att öppna sidan i VEC kan du prova EEC.
 
-Mer information om VEC och EEC finns i [Erfarenheter](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Mer information om VEC och EEC finns i [Experiences](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Observera att vissa problem påverkar både VEC och EEC och att vissa problem endast berör en av de två dispositionerna. Mer information finns på rätt sida.
 
