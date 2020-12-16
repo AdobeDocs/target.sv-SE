@@ -1,6 +1,9 @@
 ---
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '154'
+ht-degree: 81%
 
 ---
 # Bidrar
