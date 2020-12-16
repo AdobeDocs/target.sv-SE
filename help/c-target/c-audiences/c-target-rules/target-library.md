@@ -16,15 +16,15 @@ ht-degree: 1%
 
 Rikta användarna baserat på färdiga målinriktningsregler.
 
-De färdiga målgrupperna i kategorin Målbibliotek är äldre målgrupper och finns i andra kategorier. Mer information och bästa praxis finns i [Målgrupper och målgrupper Vanliga frågor](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+De färdiga målgrupperna i kategorin Målbibliotek är äldre målgrupper och finns i andra kategorier. Mer information och bästa praxis finns i [Målgrupper och målgrupper Vanliga frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
-1. I [!DNL Target] gränssnittet klickar du **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Ge publiken ett namn.
 1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Target Library]**.
 
    ![Målbibliotek](assets/target_library.png)
 
-1. Klicka **[!UICONTROL Select]** och välj sedan en färdig målinriktningsregel.
+1. Klicka på **[!UICONTROL Select]** och välj sedan en färdig målinriktningsregel.
 
    De färdiga reglerna för målinriktning är bland annat Windows-operativsystem, surfplatteenhet, Safari-webbläsare, återkommande besökare, refererade från Google och mycket annat.
 
@@ -32,7 +32,7 @@ De färdiga målgrupperna i kategorin Målbibliotek är äldre målgrupper och f
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNT TV250 och Tablet PC.
 
-1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
+1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Save]**.
 
 ## Utbildningsvideo: Skapa målgrupper
