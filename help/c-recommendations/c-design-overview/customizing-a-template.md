@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Anpassa en design med Snabb{#customize-a-design-using-velocity}
+# ![](/help/assets/premium.png) PREMIUMCustomize a design using Velocity{#customize-a-design-using-velocity}
 
 Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i [!DNL Adobe Target Recommendations].
 
@@ -20,15 +20,15 @@ Använd designspråket Velocity med öppen källkod för att anpassa rekommendat
 
 Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org).
 
-All snabbhetslogik, syntax och så vidare kan användas för en rekommendationsdesign. Det innebär att du kan skapa *for* -slingor, *if* -programsatser och annan kod med hjälp av Velocity i stället för JavaScript.
+All snabbhetslogik, syntax och så vidare kan användas för en rekommendationsdesign. Det innebär att du kan skapa *for*-slingor, *if*-satser och annan kod med hjälp av Snabb i stället för JavaScript.
 
-Alla variabler som skickas till [!DNL Recommendations] i `productPage` mbox eller CSV-överföringen kan visas i en design. Dessa värden refereras med följande syntax:
+Alla variabler som skickas till [!DNL Recommendations] i `productPage`-rutan eller CSV-överföringen kan visas i en design. Dessa värden refereras med följande syntax:
 
 ```
 $entityN.variable
 ```
 
-Variabelnamn måste följa i förkortningen av Velocity, som består av ett inledande *$* -tecken följt av en VTL-identifierare (Velocity Template Language). VTL-identifieraren måste börja med ett alfabetiskt tecken (a-z eller A-Z).
+Variabelnamn måste följa efter i kortskrift, som består av ett inledande *$*-tecken, följt av en VTL-identifierare (Velocity Template Language). VTL-identifieraren måste börja med ett alfabetiskt tecken (a-z eller A-Z).
 
 Variabelnamn för hastighet är begränsade till följande typer av tecken:
 
@@ -121,7 +121,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 >
 >Om du vill lägga till text efter värdet för en variabel före en -tagg som anger att variabelnamnet är slut, kan du göra det med formell notation för att omsluta variabelns namn. Exempel: `${entity1.thumbnailUrl}.gif`.
 
-Du kan också använda `algorithm.name` och `algorithm.dayCount` som variabler i en design, så att en design kan användas för att testa flera villkor, och villkorsnamnet kan visas dynamiskt i designen. Det här visar besökaren att han eller hon tittar på&quot;bästsäljare&quot; eller&quot;personer som såg det här köpte det&quot;. Du kan till och med använda dessa variabler för att visa `dayCount` (antal dagar med data som används i villkoren, som&quot;bästsäljare under de senaste två dagarna&quot; osv.
+Du kan också använda `algorithm.name` och `algorithm.dayCount` som variabler i designen, så att en design kan användas för att testa flera villkor, och villkorsnamnet kan visas dynamiskt i designen. Det här visar besökaren att han eller hon tittar på&quot;bästsäljare&quot; eller&quot;personer som såg det här köpte det&quot;. Du kan till och med använda dessa variabler för att visa `dayCount` (antal dagar med data som används i villkoren, som&quot;bästsäljare under de senaste två dagarna&quot; osv.
 
 ## Arbeta med siffror i hastighetsmallar
 
@@ -129,7 +129,7 @@ Som standard hanteras alla entitetsattribut som strängvärden i snabbmeddelande
 
 1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller dubbelvärde.
 1. Kontrollera att det entitetsattribut du vill använda inte är tomt (krävs för att Recommendations mallparser för Target ska kunna validera och spara mallen).
-1. Skicka entitetsattributet till `parseInt` - eller `parseDouble` -metoden för dummy-variabeln som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde.
+1. Skicka entitetsattributet till metoden `parseInt` eller `parseDouble` för dummy-variabeln som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde.
 1. Utför matematisk åtgärd eller jämförelse på det nya numeriska värdet.
 
 ### Exempel: Beräkna ett rabattpris
@@ -189,7 +189,7 @@ Anta att du lagrar längden på en film i minuter, men vill visa längden i timm
 
 Du kan ändra designen så att nyckelobjektet visas tillsammans med andra rekommenderade produkter. Du kanske vill visa det aktuella objektet som referens bredvid rekommendationerna.
 
-Det gör du genom att skapa en kolumn i designen som använder attributet som du baserar din rekommendation på i stället för `$key` `$entity` attributet. Koden för nyckelkolumnen kan till exempel se ut så här:
+Det gör du genom att skapa en kolumn i designen som använder attributet `$key` som du baserar din rekommendation på i stället för attributet `$entity`. Koden för nyckelkolumnen kan till exempel se ut så här:
 
 ```
 <div class="at-table-column"> 
@@ -206,7 +206,7 @@ Resultatet är en design som följande, där nyckelobjektet visas i en kolumn.
 
 ![](assets/rec_key.png)
 
-När du skapar din [!DNL Recommendations] aktivitet visas en slumpmässig produkt i [!DNL Target] (VEC) om nyckelobjektet hämtas från besökarens profil, t.ex.&quot;senast köpta artikel&quot; [!UICONTROL Visual Experience Composer] . Detta beror på att en profil inte är tillgänglig när du designar aktiviteten. När besökarna visar sidan visas det förväntade nyckelobjektet.
+När du skapar din [!DNL Recommendations]-aktivitet visas en slumpmässig produkt i [!UICONTROL Visual Experience Composer] (VEC) om nyckelobjektet hämtas från besökarens profil, t.ex. &quot;senast köpta objekt&quot;. [!DNL Target] Detta beror på att en profil inte är tillgänglig när du designar aktiviteten. När besökarna visar sidan visas det förväntade nyckelobjektet.
 
 ## Utföra ersättningar i ett strängvärde {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -236,7 +236,7 @@ Följande kod är ett fullständigt villkorligt exempel på ett försäljningspr
 
 ## Anpassa mallstorleken och kontrollera om det finns tomma värden {#default}
 
-Med ett Velocity-skript som styr dynamisk storleksanpassning av enhetsvisningen får följande mall ett till många-resultat för att undvika att skapa tomma HTML-element när det inte finns tillräckligt med matchande entiteter som returnerats från [!DNL Recommendations]. Det här skriptet passar bäst för scenarier när det inte går att förvränga rekommendationer för säkerhetskopiering och [!UICONTROL Partial Template Rendering] är aktiverat.
+Med ett Velocity-skript som styr dynamisk storleksanpassning av enhetsvisningen får följande mall ett till många-resultat för att undvika att skapa tomma HTML-element när det inte finns tillräckligt med matchande entiteter som returnerats från [!DNL Recommendations]. Det här skriptet är bäst för scenarier när det inte går att förvränga säkerhetskopieringsrekommendationer och [!UICONTROL Partial Template Rendering] är aktiverat.
 
 Följande HTML-kodfragment ersätter den befintliga HTML-delen i standarddesignen 4x2 (CSS inkluderas inte här, av tydlighetsskäl):
 
