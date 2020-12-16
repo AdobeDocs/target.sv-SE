@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Skapa målgrupper för mobila enheter baserat på parametrar som mobil enhet, typ av enhet, enhetsleverantör, skärmdimensioner (i pixlar) med mera.
 
-Du kanske vill visa olika innehåll för användare som skriver din sida från en telefon än du skulle göra om de besöker en dator. I så fall kan du välja mobilanvändare, sedan välja **[!UICONTROL Is Mobile Phone]** alternativet och sedan lägga till information som är viktig för dig, t.ex. telefontyp, skärmstorlek (i pixlar) och så vidare.
+Du kanske vill visa olika innehåll för användare som skriver din sida från en telefon än du skulle göra om de besöker en dator. I så fall kan du välja mobilanvändare, sedan välja alternativet **[!UICONTROL Is Mobile Phone]** och sedan lägga till information som är viktig för dig, t.ex. telefontyp, skärmstorlek (i pixlar) och så vidare.
 
-Mobil målinriktning levereras av [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), en tjänst i DotMobi. DeviceAtlas är en omfattande databas med mobila enheter som bygger på data från många olika källor, bland annat tillverkare och nätoperatörer. Dessa data verifieras, korsrefereras och valideras för att skapa en stor och korrekt databas för mobila enheter som är tillgänglig.
+Mobil anpassning levereras av [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), en tjänst i DotMobi. DeviceAtlas är en omfattande databas med mobila enheter som bygger på data från många olika källor, bland annat tillverkare och nätoperatörer. Dessa data verifieras, korsrefereras och valideras för att skapa en stor och korrekt databas för mobila enheter som är tillgänglig.
 
 Enhetsidentifiering görs genom analys av strängar för användaragent. Vissa enhetstillverkare, till exempel Apple, inaktiverar den här funktionen genom att inte tillhandahålla tillräckligt med information i användargränssnittet.
 
@@ -40,10 +40,10 @@ Du kan välja mer än en mobil enhetsegenskap. Flera markeringar förenas med en
 
 Kunder som använder en anpassad integrering (som inte använder at.js eller Mobile SDK) kan samla in dessa parametrar själva och skicka dem som mbox-parametrar.
 
-1. I [!DNL Target] gränssnittet klickar du **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Ge publiken ett namn.
 1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Mobile]**.
-1. Klicka på **[!UICONTROL Select]** och välj sedan något av följande alternativ:
+1. Klicka på **[!UICONTROL Select]** och välj sedan ett av följande alternativ:
 
    * Namn på enhetsmarknadsföring
    * Enhetsmodell
@@ -63,9 +63,9 @@ Kunder som använder en anpassad integrering (som inte använder at.js eller Mob
 
    >[!NOTE]
    >
-   >Du kan använda [Geo-inställningarna](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)som mål för mobiltelefonbäraren.
+   >Du kan ange som mål för mobiltelefonoperatören med [geografiska inställningar](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
-1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
+1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Save]**.
 
 Följande bild visar en målgrupp som målar besökare med enheter som tillverkats av Google och som är mobila enheter.
