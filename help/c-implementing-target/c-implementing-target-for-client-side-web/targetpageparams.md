@@ -18,7 +18,7 @@ Med den här metoden kan du bifoga parametrar till den globala mbox utanför beg
 
 Den här funktionen är mycket användbar om du vill ta med samma uppsättning parametrar för flera mbox-anrop. Funktionen måste definieras av kunden. Den ska returnera en array med parametrar som bara skickas till den globala mbox-begäran. Den här funktionen kan definieras innan at.js har lästs in eller i **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
 
-Du kan skicka in parametrar till target-global-mbox med hjälp av `targetPageParams()` funktionen på något av följande sätt:
+Du kan skicka in parametrar till target-global-mbox med funktionen `targetPageParams()` på något av följande sätt:
 
 * En avgränsad lista
 * En array
