@@ -18,7 +18,7 @@ Om din aktivitet inte visas på din webbplats kan du hitta lösningen med hjälp
 
 >[!NOTE]
 >
->Förutom följande felsökningsinformation finns mer information i [Felsökningsmål](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) om länkar till ytterligare felsökningsämnen, vanliga frågor och svar samt annan användbar information om felsökningsaktiviteter och andra funktioner i [!DNL Adobe Target].
+>Förutom följande felsökningsinformation finns i [Felsökningsmål](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) länkar till ytterligare felsökningsämnen, vanliga frågor och svar samt annan användbar information om felsökningsaktiviteter och andra funktioner i [!DNL Adobe Target].
 
 Följande avsnitt innehåller problem som du kan stöta på när du föreslår lösningar.
 
@@ -43,7 +43,7 @@ Kontrollera att aktiviteten är slutförd och att den har aktiverats.
 
 ## Ni uppfyller inte villkoren för målgruppsanpassning.
 
-**Validera:** Granska målinriktningsvillkoren på översiktssidan.
+**Validera:** Granska villkor för målinriktning på översiktssidan.
 
 **Alternativ:**
 
@@ -60,7 +60,7 @@ Kontrollera att aktiviteten är slutförd och att den har aktiverats.
 
 ## En tidigare upplevelse visas i stället för den nya.
 
-**Validera:** Försök med något av alternativen nedan och försök visa upplevelsen igen.
+**Validera:** Prova något av alternativen nedan och försök visa upplevelsen igen.
 
 **Alternativ:**
 
@@ -71,7 +71,7 @@ Kontrollera att aktiviteten är slutförd och att den har aktiverats.
 
 ## Du har nyligen lagts till i Target men kan inte skapa aktiviteter.
 
-**Validera:** Klicka på Skapa aktivitet. Om alternativet inte är tillgängligt har du förmodligen inte fått tillräcklig behörighet för att skapa en aktivitet.
+**validera:** Klicka på Skapa aktivitet. Om alternativet inte är tillgängligt har du förmodligen inte fått tillräcklig behörighet för att skapa en aktivitet.
 
 **Alternativ:**
 
@@ -80,7 +80,7 @@ När du har lagts till som användare i Target måste du ha rollen Godkännare f
 * Be administratören för ditt konto att göra dig till godkännare.
 * Om du är administratör kan du ge dig själv rollen Godkännare från **[!UICONTROL Administration]** > **[!UICONTROL Users]** i Mål.
 
-   Se [Tilldela dig själv rollen](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)Godkännare.
+   Se [Tilldela dig själv rollen Godkännare](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Sidans struktur har ändrats sedan du konfigurerade aktiviteten.
 
@@ -90,11 +90,11 @@ När du har lagts till som användare i Target måste du ha rollen Godkännare f
 
 * Återskapa aktiviteten.
 
-Mer information om hur sidändringar påverkar Target möjlighet att visa finns i [Scenarier](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)för sidändring.
+Mer information om hur sidändringar påverkar Target förmåga att visa finns i [Scenarier för sidändring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Sidans struktur ändras under sidinläsning (vid körning).
 
-**Validera:** Fråga utvecklaren.
+**validera:** Fråga utvecklaren.
 
 **Obs!** För att Target ska kunna identifiera var aktivitetsändringar ska tillämpas bör du undvika att dynamiskt infoga element med samma klass eller dynamiskt ändra klassen för alla objekt på samma nivå.
 
@@ -103,15 +103,15 @@ Mer information om hur sidändringar påverkar Target möjlighet att visa finns 
 * Uppdatera sidkoden så att varje element som ska testas identifieras unikt (med ett id).
 * Sluta dynamiskt ändra klassen eller jämställda objekt enligt beskrivningen ovan.
 
-Mer information om hur sidändringar påverkar Target möjlighet att visa finns i [Scenarier](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)för sidändring.
+Mer information om hur sidändringar påverkar Target förmåga att visa finns i [Scenarier för sidändring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js öppnar all efterföljande kod från huvudet och in i kroppen.
 
-**Validera:** Visa källan för att avgöra om en deklaration följer filen mbox.js före den avslutande `</body>` -taggen.
+**Validera:** Visa källa för att avgöra om en deklaration följer filen mbox.js före den avslutande  `</body>` taggen.
 
 **Alternativ:**
 
-* Placera mbox.js som det sista objektet i sidans `<head>` avsnitt.
+* Placera mbox.js som det sista objektet i `<head>`-avsnittet på sidan.
 * Använd unika div-ID:n på elementen på den högsta nivån i kroppen.
 
 ## Andra aktiviteter körs på samma sida.
@@ -128,7 +128,7 @@ Mer information om hur sidändringar påverkar Target möjlighet att visa finns 
 
 ## Ett felmeddelande visas när du tar bort ett profilskript.
 
-**Validera:** Om du tar bort ett profilskript från Target Standard/Premium visas felmeddelandet&quot;Failed to delete profile script&quot;.
+**Validera:Om du** tar bort ett profilskript från Target Standard/Premium visas felmeddelandet&quot;Failed to delete profile script&quot;.
 
 **Alternativ:**
 
@@ -137,10 +137,10 @@ Gör något av följande:
 * Ta bort igen. Meddelandet om att åtgärden lyckades visas.
 * Vänta i ungefär 10 minuter innan Target Standard-/Premium-importeraren körs. Importverktyget uppdaterar profillistan med skript.
 
-## Vissa ajax- [!DNL Target] samtal fungerar inte.
+## Vissa ajax [!DNL Target]-anrop fungerar inte.
 
 **Obs!** Flera ajax- [!DNL Target] anrop med samma namn men olika parametrar fungerar inte på samma sida. Endast den första samtalet kommer att göras.
 
-## Du aktiverade en aktivitet med Target API, men aktiviteten visar statusen för [!UICONTROL Inactive] i Target-gränssnittet.
+## Du har aktiverat en aktivitet med Target API, men aktiviteten visar statusen [!UICONTROL Inactive] i Target-gränssnittet.
 
 När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användargränssnittet med Target-API:t, kan det ta upp till tio minuter att uppdatera gränssnittet.
