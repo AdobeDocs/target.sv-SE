@@ -18,11 +18,11 @@ Använd biblioteket Erbjudanden för att hantera erbjudanden och bilderbjudanden
 
 >[!NOTE]
 >
->I januari 2017-versionen visas erbjudanden som skapats via [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) och API:er i [!DNL Target Standard/Premium] användargränssnittet. Erbjudanden som uppdaterats under de senaste två åren med dessa metoder kommer att vara synliga (dvs. januari 2015 och senare). Den inledande synkroniseringen görs första gången någon användare i organisationen öppnar [!UICONTROL Offers] sidan. Hur lång tid den inledande synkroniseringen tar beror på mängden data. Efter den första synkroniseringen synkroniseras data stegvis. Om du hade kod och bilder i samma mapp före den här versionen [!DNL Target] delas de upp i två dubblettmappar. Observera att uppdateringsdatumet och uppdateringstidpunkten hänvisar till den tidpunkt då mappen migrerades och inte återspeglar det datum då du ursprungligen skapade mappen.
+>I januari 2017-versionen visas erbjudanden som skapats via [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) och API:er i [!DNL Target Standard/Premium]-användargränssnittet. Erbjudanden som uppdaterats under de senaste två åren med dessa metoder kommer att vara synliga (dvs. januari 2015 och senare). Den inledande synkroniseringen görs första gången någon användare i organisationen öppnar sidan [!UICONTROL Offers]. Hur lång tid den inledande synkroniseringen tar beror på mängden data. Efter den första synkroniseringen synkroniseras data stegvis. Om du hade kod och bilder i samma mapp före den här versionen delas de upp i två dubblettmappar i [!DNL Target]. Observera att uppdateringsdatumet och uppdateringstidpunkten hänvisar till den tidpunkt då mappen migrerades och inte återspeglar det datum då du ursprungligen skapade mappen.
 
-Klicka **[!UICONTROL Offers]** för att öppna biblioteket. Biblioteket innehåller erbjudanden som har konfigurerats via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) och API:er. Erbjudanden som skapats i [!DNL Target Classic] eller andra lösningar kan redigeras i [!DNL Target Standard/Premium].
+Klicka på **[!UICONTROL Offers]** för att öppna biblioteket. Biblioteket innehåller erbjudanden som har konfigurerats via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) och API:er. Erbjudanden som skapats i [!DNL Target Classic] eller andra lösningar kan redigeras i [!DNL Target Standard/Premium].
 
-Sidan har två flikar längs den högra sidan: [!UICONTROL Offers] Koderbjudanden och bilderbjudanden som gör att du kan visa erbjudanden efter typ.
+Sidan [!UICONTROL Offers] har två flikar längs den högra sidan: Koderbjudanden och bilderbjudanden som gör att du kan visa erbjudanden efter typ.
 
 ![](assets/offers_page.png)
 
@@ -51,7 +51,7 @@ Följande information finns:
 * Erbjudandesökväg
 * Senast ändrad
 
-Klicka på [!UICONTROL Offer Usage] fliken för att visa de aktiviteter som refererar till ett koderbjudande i varje erbjudande på snabbkort för definition av erbjudande. Den här funktionen gäller inte bilderbjudanden. På så sätt kan du undvika att andra aktiviteter påverkas när du redigerar erbjudanden. Informationen omfattar live-aktiviteter och inaktiva aktiviteter.
+Klicka på fliken [!UICONTROL Offer Usage] för att visa aktiviteterna som refererar till ett koderbjudande i varje erbjudande. Den här funktionen gäller inte bilderbjudanden. På så sätt kan du undvika att andra aktiviteter påverkas när du redigerar erbjudanden. Informationen omfattar live-aktiviteter och inaktiva aktiviteter.
 
 ![](assets/offer-card-usage.png)
 
@@ -86,7 +86,7 @@ Följande information finns:
 * Omdirigera URL-typ
 * Absolut eller relativ URL
 
-## Utbildningsvideo: Märket ![Översikt över innehållsdatabas](/help/assets/overview.png)
+## Utbildningsvideo: The Content Repository ![Overview badge](/help/assets/overview.png)
 
 Den här videon innehåller information om hur du hanterar erbjudanden.
 
