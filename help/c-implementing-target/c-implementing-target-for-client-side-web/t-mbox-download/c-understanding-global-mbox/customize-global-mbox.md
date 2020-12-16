@@ -24,15 +24,15 @@ Information som hjälper dig att anpassa en global mbox för at.js.
 
    ![custom-global-mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/assets/custom-global-mbox.png)
 
-1. Klicka **[!UICONTROL Save]** när du är klar.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
-1. Implementera [!DNL at.js] biblioteket på din webbplats.
+1. Implementera [!DNL at.js]-biblioteket på din plats.
 
-   Mer information finns i [Så här distribuerar du at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) .
+   Mer information finns i [Distribuera at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 1. Tid för övergången med din release.
 
-   Så fort du är redo [!DNL Target] att börja använda din globala mbox för alla aktiviteter framåt kan du fortsätta med det här steget.
+   Så snart du är redo för att [!DNL Target] börja använda din globala mbox för alla aktiviteter framåt kan du fortsätta med det här steget.
 
    Uppdatera namnet på den anpassade globala mbox så att det matchar namnet som används i steg 2 ovan.
 
