@@ -12,15 +12,15 @@ ht-degree: 0%
 ---
 
 
-# Egna parametrar{#custom-parameters}
+# Anpassade parametrar{#custom-parameters}
 
 Egna parametrar är mbox-parametrar. Om du skickar några mbox-parametrar till mboxes, eller använder funktionen targetPageParams, visas de parametrarna här för användning i målgrupper.
 
 Mer information finns i [Skicka parametrar till en global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
-När du skapar en anpassad målgrupp baserat på en mbox-parameter får du inte längre någon fråga om det `mboxParameter` `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
+När du skapar en anpassad målgrupp baserat på en mbox-parameter uppmanar `mboxParameter` dig inte längre att ange `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
 
-1. I [!DNL Target] gränssnittet klickar du **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Ge publiken ett namn.
 1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
 
@@ -42,10 +42,10 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter får du inte 
    ![Anpassad parametermålgrupp](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. Ange varje värde på en ny rad.
-1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
+1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Save]**.
 
-Publiken har ett popup-kort [med](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) definitionsinformation som visar parameternamnet i avsnittet Regler. Det finns ingen referens till mbox som används för filtrering.
+Publiken [på popup-kortet för definitionsinformation](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) visas parameternamnet i avsnittet Regler. Det finns ingen referens till mbox som används för filtrering.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Publiken har ett popup-kort [med](/help/c-target/c-audiences/audiences.md#sectio
 * Målgrupper och aktiviteter utvärderas för en viss ruta. Om till exempel den globala mbox skickar en viss parameter, men den regionala mbox inte gör det, kommer aktiviteten/målgruppen som anger den parametern inte att kvalificeras för i den regionala mbox.
 * Målinriktning utvärderas inte för interna mbox-parametrar, till exempel mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId och mboxVersion.
 
-## Utbildningsvideo: Skapa märket för ![självstudiekurser för publiker](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapar publik ![Självstudiekursikon](/help/assets/tutorial.png)
 
 Den här videon innehåller information om hur du använder målgruppskategorier.
 
