@@ -12,17 +12,17 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -flöden{#feeds}
+# ![](/help/assets/premium.png) PREMIUMFeeds{#feeds}
 
-Använd feeds för att importera enheter till [!DNL Adobe Target Recommendations]. Enheter kan skickas med CSV-filer, Googles produktsökningsformat och Adobe Analytics produktklassificeringar.
+Använd feeds för att importera entiteter till [!DNL Adobe Target Recommendations]. Enheter kan skickas med CSV-filer, Googles produktsökningsformat och Adobe Analytics produktklassificeringar.
 
 ## Feeds - översikt {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Med feeds kan du skicka [entiteter](/help/c-recommendations/c-products/products.md) eller förstora dina mbox-data med information som antingen är otillgänglig på sidan eller som inte går att skicka direkt från sidan, t.ex. marginal, COGS osv.
+Med feeds kan du skicka [entiteter](/help/c-recommendations/c-products/products.md) eller förstärka dina mbox-data med information som antingen inte är tillgänglig på sidan eller som inte är säker att skicka direkt från sidan, t.ex. marginal, COGS o.s.v.
 
 Med feeds kan du skicka detaljerad objektinformation till [!DNL Recommendations], t.ex. produkt-ID, kategori, namn, meddelande och andra attribut.
 
-Du kan välja vilka kolumner från din [!DNL Target] produktklassificeringsfil eller Google Product Search-fil som du vill skicka till [!DNL Recommendations] servern.
+Du kan välja vilka kolumner från din [!DNL Target] produktklassificeringsfil eller Google Product Search-fil som du vill skicka till [!DNL Recommendations]-servern.
 
 Dessa datadelar för varje objekt kan sedan användas för att:
 
@@ -33,18 +33,18 @@ Dessa datadelar för varje objekt kan sedan användas för att:
 
 Du kan skicka objektbeskrivningar till [!DNL Target] med hjälp av feeds eller mbox. Om data samlas in både av en entitetsfeed och en mbox, vinner den senaste informationen. Vanligtvis kommer de senaste data från en mbox, eftersom de visas oftare. I den sällsynta händelse att enhetsmatningsdata och mbox-data träffar samtidigt, används mbox-data.
 
-I [!UICONTROL Feeds] listan ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) finns information om alla feeds som du har skapat.
+Listan [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) innehåller information om alla feeds som du har skapat.
 
 ![Sidan Feeds](/help/c-recommendations/c-products/assets/feeds-page.png)
 
 Sidan Feeds innehåller följande kolumner:
 
 * **Namn**: Namnet på den feed som angavs när den skapades. Om du vill redigera namnet på en feed måste du redigera själva feeden. När du sparar med det nya namnet uppdateras feeden.
-* **Typ**: Typerna är [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Google Product Feed](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)och [Analytics Classifications](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Status**: Flödets aktuella [status](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **Typ**: Typerna är  [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA),  [Google Product Feed](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) och  [Analytics Classifications](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
+* **Status**: Flödets aktuella  [status](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
 * **Schema**: Visar uppdateringsschemat för feeden: Varje dag, Varje vecka, Varannan vecka eller Aldrig.
 * **Objekt**: Visar antalet objekt i feeden.
-* **Senast uppdaterad**: Visar datum och tid då feeden senast uppdaterades och namnet på den person som uppdaterade feeden. Om det står&quot;undefined&quot; i [!UICONTROL Last Updated] matningen kommer matningen in från [!DNL Recommendations Classic] och kan inte ändras inifrån [!DNL Target Premium Recommendations].
+* **Senast uppdaterad**: Visar datum och tid då feeden senast uppdaterades och namnet på den person som uppdaterade feeden. Om [!UICONTROL Last Updated]-feeden anger &quot;undefined&quot; kommer feeden från [!DNL Recommendations Classic] och kan inte ändras från [!DNL Target Premium Recommendations].
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ Enheter kan skickas med CSV-filer, Googles produktsökningsformat och Adobe Anal
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
-Du kan skapa en .csv-fil med det CSV-överföringsformat som finns i Adobe. Filen innehåller visningsinformation om de reserverade och anpassade attributen för dina produkter. Om du vill överföra attribut som är specifika för implementeringen ersätter du `CustomN` i rubrikraden med namnet på det attribut som du vill använda. I exemplet nedan `entity.Custom1` har ersatts med: `entity.availability`. Du kan sedan överföra filen till [!DNL Recommendations] servern satsvis.
+Du kan skapa en .csv-fil med det CSV-överföringsformat som finns i Adobe. Filen innehåller visningsinformation om de reserverade och anpassade attributen för dina produkter. Om du vill överföra attribut som är specifika för implementeringen ersätter du `CustomN` i rubrikraden med namnet på det attribut som du vill använda. I exemplet nedan har `entity.Custom1` ersatts med: `entity.availability`. Du kan sedan överföra filen till [!DNL Recommendations]-servern satsvis.
 
 Att använda CSV-formatet har följande fördelar jämfört med Google Feed-formatet:
 
@@ -70,7 +70,7 @@ Att använda CSV-formatet har följande fördelar jämfört med Google Feed-form
 
 Använd metoden för massöverföring för att skicka visningsinformation om du inte har några kryssrutor på sidan, eller om du vill komplettera visningsinformationen med objekt som inte är tillgängliga på webbplatsen. Du kan till exempel skicka lagerinformation som inte är publicerad på din plats.
 
-Alla data som överförs med CSV-filen, Google-produktfeed eller Analytics-produktklassificeringsfeed skriver över det befintliga entitetsattributvärdet i vår databas. Om du skickar prisinformation via mbox-begäranden och sedan skickar olika prisvärden i filen, skriver värdena i filen över de värden som angetts med mbox-begäran. Ett undantag till detta är `categoryId` entitetsattributet där kategorivärdena läggs till i stället för att skrivas över upp till gränsen på 250 tecken.
+Alla data som överförs med CSV-filen, Google-produktfeed eller Analytics-produktklassificeringsfeed skriver över det befintliga entitetsattributvärdet i vår databas. Om du skickar prisinformation via mbox-begäranden och sedan skickar olika prisvärden i filen, skriver värdena i filen över de värden som angetts med mbox-begäran. Ett undantag till detta är entitetsattributet `categoryId` där kategorivärdena läggs till i stället för att skrivas över upp till gränsen på 250 tecken.
 
 >[!IMPORTANT]
 >
@@ -118,13 +118,13 @@ Om du har en befintlig Google-produktfeed kan du använda den som din importfil.
 >
 >Google-data behöver inte användas. [!DNL Recommendations] använder bara samma format som Google. Du kan använda den här metoden för att överföra data som du har och använda de tillgängliga schemafunktionerna. Du måste dock behålla Googles fördefinierade attributnamn när du konfigurerar filen.
 
-De flesta återförsäljare överför produkter till Google, så när en besökare använder Googles produktsökning kommer deras produkter att visas. [!DNL Recommendations] följer Googles specifikation exakt för entitetsfeeds. Entitetsflöden kan skickas till [!DNL Recommendations] via .xml, .txt eller .tsv, och kan använda de [attribut som definieras av Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Resultaten är sökbara på [Googles shoppingsidor](https://www.google.com/prdhp).
+De flesta återförsäljare överför produkter till Google, så när en besökare använder Googles produktsökning kommer deras produkter att visas. [!DNL Recommendations] följer Googles specifikation exakt för entitetsfeeds. Entitetsfeeds kan skickas till [!DNL Recommendations] via .xml, .txt eller .tsv, och du kan använda de [attribut som definieras av Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Resultaten är sökbara på [Google shoppingsidor](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
 >Metoden POST måste vara tillåten på den server som är värd för Googles feed-innehåll.
 
-Eftersom [!DNL Recommendations] användare redan har konfigurerat .xml- eller .txt-flöden att skicka till Google via URL eller FTP, accepterar entitetsflödena produktdata och använder dem för att skapa rekommendationskatalogen. Ange var denna feed finns och rekommendationsservern hämtar data.
+Eftersom [!DNL Recommendations]-användare redan har konfigurerat .xml- eller .txt-flöden att skicka till Google via URL eller FTP, accepterar entitetsflödena produktdata och använder dem för att skapa rekommendationskatalogen. Ange var denna feed finns och rekommendationsservern hämtar data.
 
 Om du använder Google Product Search för överföringen av enhetsfeed måste du ändå ha en produktsidesruta på sidan om du vill visa rekommendationer där eller spåra produktvyer för algoritmleverans baserat på vyer.
 
@@ -207,25 +207,25 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Produktklassificeringar för analyser {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Analysproduktklassificeringar {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Produktklassificeringen Analytics är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) i guiden för *Analytics-komponenter* . Det är möjligt att inte all information du behöver för rekommendationer kommer att vara tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
+Produktklassificeringen Analytics är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer kommer att vara tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
 
 >[!IMPORTANT]
 >
->Innan du importerar entitetsdata till [!DNL Recommendations] Analytics-produktklassificeringar bör du vara medveten om att detta inte är den rekommenderade metoden.
+>Innan du importerar entitetsdata till [!DNL Recommendations] med hjälp av produktklassificeringar i Analytics bör du vara medveten om att detta inte är den rekommenderade metoden.
 >
 > Var uppmärksam på följande kavattar:
 >
 >* Uppdateringar av entitetsattribut medför en ytterligare fördröjning på upp till 24 timmar.
->* [!DNL Target] stöder endast produktklassificeringar. Analysproduktens SKU måste mappas till samma nivå som [!DNL Recommendations]`entity.id`. Anpassade analysklassificeringar kan utformas med Adobe konsulttjänster. Kontakta din kontoansvarige med frågor.
+>* [!DNL Target] stöder endast produktklassificeringar. Analysproduktens SKU måste mappas till samma nivå som [!DNL Recommendations] `entity.id`. Anpassade analysklassificeringar kan utformas med Adobe konsulttjänster. Kontakta din kontoansvarige med frågor.
 
 
 ## Skapa feed {#steps}
 
-Skapa ett flöde för att infoga information om dina produkter eller tjänster i [!DNL Recommendations].
+Skapa en feed om du vill infoga information om dina produkter eller tjänster i [!DNL Recommendations].
 
-1. I Target-gränssnittet klickar du på **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
+1. I målgränssnittet klickar du på **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
    ![Dialogrutan Skapa feed](assets/CreateFeed.png)
 
@@ -236,9 +236,9 @@ Skapa ett flöde för att infoga information om dina produkter eller tjänster i
    * Google produktfeed
    * Analysklassificeringar
 
-   Mer information om CSV- och Google Product Feed-typerna finns i [Feeds - översikt](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Du kan också [hämta en CSV-handbok](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) för modellen så att du kan formatera flödet korrekt.
+   Mer information om CSV- och Google Product Feed-flödestyper finns i [Feeds - översikt](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Du kan även [hämta en CSV-modellguide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) för att hjälpa dig att formatera flödet korrekt.
 
-1. (Villkorligt) Om du har valt **[!UICONTROL CSV]** eller **[!UICONTROL Google Product Feed]** anger du platsen där flödet kan nås.
+1. (Villkorligt) Om du valde **[!UICONTROL CSV]** eller **[!UICONTROL Google Product Feed]** anger du platsen där feeden kan nås.
 
    * **FTP**: Om du har valt FTP anger du FTP-serverinformationen, inloggningsuppgifterna, filnamnet och FTP-katalogen. Du kan använda FTP med SSL (FTPS) för säkrare överföringar.
 
@@ -253,7 +253,7 @@ Skapa ett flöde för att infoga information om dina produkter eller tjänster i
 
 1. (Villkorligt) Om du valde **[!UICONTROL Analytics Classifications]** väljer du rapportsviten i listrutan.
 
-1. Klicka på **[!UICONTROL Next]** pilen för att visa [!UICONTROL Schedule] alternativen.
+1. Klicka på **[!UICONTROL Next]**-pilen för att visa [!UICONTROL Schedule]-alternativen.
 
    ![Stegresultat](assets/CreateFeedSchedule.png)
 
@@ -268,7 +268,7 @@ Skapa ett flöde för att infoga information om dina produkter eller tjänster i
 
    Det här alternativet baseras på den tidszon som används i webbläsaren. Om du vill använda en tid i en annan tidszon måste du beräkna den tiden enligt din tidszon.
 
-1. Klicka på **[!UICONTROL Next]** pilen för att visa [!UICONTROL Mapping] alternativen och ange sedan hur du vill mappa dina data till [!DNL Target] definitioner.
+1. Klicka på **[!UICONTROL Next]**-pilen för att visa [!UICONTROL Mapping]-alternativen och ange sedan hur du vill mappa dina data till [!DNL Target]-definitioner.
 
    ![Stegresultat](assets/CreatFeedMapping.png)
 
@@ -278,11 +278,11 @@ Skapa ett flöde för att infoga information om dina produkter eller tjänster i
 
 1. Klicka på **[!UICONTROL Save]**.
 
-När du har skapat eller redigerat en feed körs den direkt och uppdateras enligt de parametrar du har angett. Det tar ett tag innan all information är tillgänglig. Först måste feeden synkroniseras, sedan måste den bearbetas och indexeras innan den kan publiceras och göras tillgänglig. Aktuell status visas under [Feed-status](/help/c-recommendations/c-products/feeds.md#status) i listan Feeds. Du kan stänga [!DNL Target] innan processen är klar och processen fortsätter.
+När du har skapat eller redigerat en feed körs den direkt och uppdateras enligt de parametrar du har angett. Det tar ett tag innan all information är tillgänglig. Först måste feeden synkroniseras, sedan måste den bearbetas och indexeras innan den kan publiceras och göras tillgänglig. Aktuell status visas under [Feed Status](/help/c-recommendations/c-products/feeds.md#status) i listan Feeds. Du kan stänga [!DNL Target] innan processen är klar och processen fortsätter.
 
 När indexering pågår visas produkter och flödeshuvuden innan enskilda värden har indexerats. På så sätt kan du söka efter och se produkter så att du kan skapa samlingar, uteslutningar, designer och aktiviteter innan indexeringen är klar.
 
-När det står&quot;Slutfört&quot; i status betyder det att filen hittades och att den tolkades korrekt. Informationen är inte tillgänglig att använda i [!DNL Recommendations] förrän filen har indexerats, vilket kan ta en stund beroende på filens storlek. Om processen misslyckas betyder det att filen inte hittades (du t.ex. använde en felaktig URL eller att FTP-informationen var felaktig) eller att det uppstod ett tolkningsfel.
+När det står&quot;Slutfört&quot; i status betyder det att filen hittades och att den tolkades korrekt. Informationen är inte tillgänglig för användning inom [!DNL Recommendations] förrän filen har indexerats, vilket kan ta en stund beroende på filens storlek. Om processen misslyckas betyder det att filen inte hittades (du t.ex. använde en felaktig URL eller att FTP-informationen var felaktig) eller att det uppstod ett tolkningsfel.
 
 ## Feedstatus och indikatorer {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -297,11 +297,11 @@ Följande är möjliga statusvärden för en feed:
 | Synkroniserar | Feed-inställningsinformation sparas i Target. |
 | Synkroniseringen misslyckades | Det gick inte att spara information om matningsinställningar i Target. Försök igen. |
 | Ingen feed-körning | Du har skapat en feed men den har inte schemalagts (frekvensen anges till Aldrig). |
-| Schemalagd vid *datum och tid* | Feed har inte körts, men är schemalagd att köras vid angivet datum och angiven tid. |
+| Schemalagd *datum och tid* | Feed har inte körts, men är schemalagd att köras vid angivet datum och angiven tid. |
 | Väntar på hämtning | Målet förbereds för hämtning av feed-filen. |
 | Hämtar feedfil | Målet hämtar feedfilen. |
 | Importerar objekt | Målet importerar objekt från feed-filen. |
-| Feed importerades vid *tidpunkten* | Målet har importerat feed-filen till innehållsleveranssystemet. Ändringar av objektattribut har gjorts i innehållsleveranssystemet och kommer inom kort att återspeglas i levererade rekommendationer. Om du inte ser de förväntade ändringarna försöker du igen inom kort och uppdaterar sidan med rekommendationer.<br>Anteckningar:<ul><li>Om ändringar i ett objekts attribut leder till att ett objekt utesluts från rekommendationerna, återspeglas uteslutningen omedelbart. Om ett objekt läggs till nyligen, eller om attributändringar resulterar i att ett objekt *inte längre* utesluts från rekommendationerna, kommer det inte att återspeglas förrän nästa algoritmuppdatering, som sker inom 24 timmar.</li><li>När den här statusen visas kanske inte uppdateringarna visas i användargränssnittet för katalogsökning än. En separat status visas i Katalogsökning som anger den senaste gången den sökbara katalogen uppdaterades.</li></ul> |
+| Feed importerades kl. *tid* | Målet har importerat feed-filen till innehållsleveranssystemet. Ändringar av objektattribut har gjorts i innehållsleveranssystemet och kommer inom kort att återspeglas i levererade rekommendationer. Om du inte ser de förväntade ändringarna försöker du igen inom kort och uppdaterar sidan med rekommendationer.<br>Anteckningar:<ul><li>Om ändringar i ett objekts attribut leder till att ett objekt utesluts från rekommendationerna, återspeglas uteslutningen omedelbart. Om ett objekt nyligen har lagts till, eller om attributändringar resulterar i att ett objekt *inte längre* exkluderas från rekommendationer, kommer det inte att återspeglas förrän nästa algoritmuppdatering, som sker inom 24 timmar.</li><li>När den här statusen visas kanske inte uppdateringarna visas i användargränssnittet för katalogsökning än. En separat status visas i Katalogsökning som anger den senaste gången den sökbara katalogen uppdaterades.</li></ul> |
 | Det gick inte att indexera | Indexåtgärden misslyckades. Försök igen. |
 | Servern hittades inte | FTP- eller URL-platserna är ogiltiga eller går inte att nå på annat sätt. |
 
@@ -309,11 +309,11 @@ Om du vill uppdatera en feed (till exempel för att ändra din flödeskonfigurat
 
 >[!IMPORTANT]
 >
->Överförda enheter upphör att gälla efter 61 dagar. Det innebär att din feed-fil ska laddas upp minst var 60:e dag för att undvika avbrott i dina rekommendationer. Om ett objekt inte ingår i en feed-fil (eller någon annan metod för entitetsuppdatering) minst en gång var 60:e dag [!DNL Adobe Target] är objektet inte längre relevant och tas bort från katalogen.
+>Överförda enheter upphör att gälla efter 61 dagar. Det innebär att din feed-fil ska laddas upp minst var 60:e dag för att undvika avbrott i dina rekommendationer. Om ett objekt inte ingår i en feed-fil (eller någon annan metod för entitetsuppdatering) minst en gång var 60:e dag infogar [!DNL Adobe Target] objektet som inte längre är relevant och tar bort det från katalogen.
 
 ### Indikatorer för matningsstatus {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-Följande statusindikatorer för feed visas i [!UICONTROL Status] kolumnen:
+Följande statusindikatorer för feed visas i kolumnen [!UICONTROL Status]:
 
 | Statusindikator | Beskrivning |
 |--- |--- |
@@ -342,7 +342,7 @@ Statusen ska vara gul eftersom indexet ska ha körts för ungefär en dag och en
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Förstå feeds i Recommendations (3:01) ![Overview badge](/help/assets/overview.png)
+### Förstå flöden i Recommendations (3:01) ![Översikt](/help/assets/overview.png)
 
 Den här videon innehåller följande information:
 
@@ -351,7 +351,7 @@ Den här videon innehåller följande information:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Skapa en feed (6:44) ![självstudiemärke](/help/assets/tutorial.png)
+### Skapa en feed (6:44) ![Tutorial badge](/help/assets/tutorial.png)
 
 Den här videon innehåller följande information:
 
