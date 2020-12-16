@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Om du vill använda Target i din mobilapp skapar du en plats och ett framgångsmått.
 
-Det här avsnittet innehåller exempelkod som kan användas som mall för ditt program. Exemplen i det här avsnittet innehåller kod för iOS. Samma mönster gäller för Android. Android-specifik syntax finns i [Android SDK 4.x for Experience Cloud Solutions](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/target-main.html) guide.
+Det här avsnittet innehåller exempelkod som kan användas som mall för ditt program. Exemplen i det här avsnittet innehåller kod för iOS. Samma mönster gäller för Android. Android-specifik syntax finns i guiden [Android SDK 4.x för Experience Cloud Solutions](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/target-main.html).
 
 >[!NOTE]
 >
->En lista med alla tillgängliga Target-metoder finns i dokumentationen [för](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) Mobile.
+>I [Mobile-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) finns en lista över alla tillgängliga Target-metoder.
 
 Det finns två primära metoder för att skapa en målplats i din app och göra en begäran:
 
@@ -41,7 +41,7 @@ Det finns två primära metoder för att skapa en målplats i din app och göra 
    | Parameter | Beskrivning |
    |---|---|
    | `ADBTargetLocationRequest *myRequest` | Ersätt `myRequest` med namnet på din `targetLocation` i appen. |
-   | `targetCreateRequestWithName:@"heroBanner"` | Ersätt `heroBanner` med namnet på din `targetLocation` i Target. Detta är samma som mbox-namnet. Den här hjältebanderollen visas i Target-gränssnittet. |
+   | `targetCreateRequestWithName:@"heroBanner"` | Ersätt `heroBanner` med namnet på din `targetLocation` i Mål. Detta är samma som mbox-namnet. Den här hjältebanderollen visas i Target-gränssnittet. |
    | `defaultContent:@"default.png"` | Ersätt `default.png` med det värde som appen använder om Target inte svarar. |
    | `parameters:nil` | Ange profil- eller mbox-parametrar. Mer information finns i avsnittet&quot;Skicka anpassade data&quot;. |
 
