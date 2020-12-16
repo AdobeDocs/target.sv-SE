@@ -47,7 +47,7 @@ Användbar för att testa marknadsföring från webbplatser som saknar en mbox, 
 
 **at.js**
 
-Biblioteket är ett nytt implementeringsbibliotek som är utformat för [!DNL at.js] [!DNL Adobe Target] både vanliga webbimplementeringar och enkelsidiga program. Biblioteket [!DNL at.js] ersätter [!DNL mbox.js] för [!DNL Target] implementeringar.
+[!DNL at.js]-biblioteket är ett nytt implementeringsbibliotek för [!DNL Adobe Target] som är utformat för både vanliga webbimplementeringar och enkelsidiga program. Biblioteket [!DNL at.js] ersätter [!DNL mbox.js] för [!DNL Target]-implementeringar.
 
 **publik**
 
@@ -99,7 +99,7 @@ De innehållsvariationer som skapas när du testar flera innehållsalternativ p�
 
 **innehåll**
 
-Texten eller bilden som består av en provvariation på en plats. I ett multivariata test jämförs ett antal innehållsalternativ på flera platser. I MVT-metoden kallas innehållet ibland för en *nivå*.
+Texten eller bilden som består av en provvariation på en plats. I ett multivariata test jämförs ett antal innehållsalternativ på flera platser. I MVT-metoden kallas innehållet ibland *nivå*.
 
 **konverteringsruta**
 
@@ -147,7 +147,7 @@ Mätningen av besökarens intresse för en webbplats, mätt som tid på webbplat
 
 **förbättrad upplevelsedisposition**
 
-Detta [!UICONTROL Enhanced Experience Composer] är ett tillägg till [!UICONTROL Visual Experience Composer] som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar [!DNL Target] implementeringen. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer]provar du på [!UICONTROL Enhanced Experience Composer].
+[!UICONTROL Enhanced Experience Composer] är ett tillägg till [!UICONTROL Visual Experience Composer] som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar implementeringen av [!DNL Target]. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer] provar du [!UICONTROL Enhanced Experience Composer].
 
 **Enterprise-användarbehörigheter**
 
@@ -167,7 +167,7 @@ Värdar paketeras i miljöer för enkel hantering. De förinställda värdgruppe
 
 **upplevelse**
 
-Ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Ni testar eller personaliserar upplevelser i [!DNL Target] aktiviteter.
+Ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Du testar eller personaliserar upplevelser i [!DNL Target]-aktiviteter.
 
 **upplevelseanpassning**
 
@@ -205,7 +205,7 @@ Alla webbservrar (eller webbdomäner) som du använder för att leverera innehå
 
 **värdgrupp**
 
-Se *Miljö*. Värdgrupper kallas&quot;miljöer&quot; i [!DNL Target Standard/Premium].
+Se *Miljö*. Värdgrupper kallas &quot;miljöer&quot; i [!DNL Target Standard/Premium].
 
 ## I {#section_8ABE89A86AF54BD4B6B2CC909F651B5C}
 
@@ -217,21 +217,21 @@ Besökarspecifik parameter som skickas till besökarens cookie från mbox. Retur
 
 **landningssidaktivitet**
 
-Med en landningssidaktivitet kan du använda målinriktning för att visa olika landningssidinnehåll för olika besök. I annat fall visas samma innehåll för varje besök på landningssidan. En aktivitet på en landningssida jämför olika versioner av sidan för att hjälpa dig att se vilken version av landningssidan som ger ett bättre resultat. I Target Standard, ersatt av *upplevelseanpassning*.
+Med en landningssidaktivitet kan du använda målinriktning för att visa olika landningssidinnehåll för olika besök. I annat fall visas samma innehåll för varje besök på landningssidan. En aktivitet på en landningssida jämför olika versioner av sidan för att hjälpa dig att se vilken version av landningssidan som ger ett bättre resultat. I Target Standard, ersatt av *Experience targeting*.
 
 **plats**
 
-Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-element. I MVT-metoden kallas en plats ibland som en *faktor*. I ett multivariat helfaktoriellt test jämförs alla möjliga kombinationer av erbjudanden på dina platser.
+Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-element. I MVT-metoden kallas en plats ibland *faktor*. I ett multivariat helfaktoriellt test jämförs alla möjliga kombinationer av erbjudanden på dina platser.
 
 ## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
-&quot;Marknadsföringsruta&quot;, den plats på webbsidan där innehållet visas och besökarnas beteende registreras. Vissa rutor visar ingenting. De kan spåra besökarens framsteg på webbplatsen eller kanske spåra om besökaren har slutfört ett visst mått för framgång, som att lägga till en artikel i kundvagnen eller slutföra ett köp. En sådan typ av ruta är en *konverteringsruta*.
+&quot;Marknadsföringsruta&quot;, den plats på webbsidan där innehållet visas och besökarnas beteende registreras. Vissa rutor visar ingenting. De kan spåra besökarens framsteg på webbplatsen eller kanske spåra om besökaren har slutfört ett visst mått för framgång, som att lägga till en artikel i kundvagnen eller slutföra ett köp. En sådan typ av mbox är en *konverteringsmbox*.
 
 **mbox.js**
 
-Före Target 16.3.1 behövde [!DNL Target] ett anrop för [!DNL mbox.js] att skapa den globala mbox som krävs för [!DNL Adobe Target]att leverera [!DNL Target] aktiviteter, spåra klick och spåra de flesta framgångsmått. Den här filen innehåller de bibliotek som behövs för alla dina aktiviteter. Du behöver inte underhålla olika aktivitetsspecifika versioner av filen. Biblioteket [!DNL at.js] ersätter [!DNL mbox.js] för [!DNL Target] implementeringar.
+Före mål 16.3.1 behövde [!DNL Target] ett anrop till [!DNL mbox.js] för att skapa den globala mbox som krävs för att [!DNL Adobe Target]leverera [!DNL Target]-aktiviteter, spåra klick och spåra de flesta framgångsmått. Den här filen innehåller de bibliotek som behövs för alla dina aktiviteter. Du behöver inte underhålla olika aktivitetsspecifika versioner av filen. Biblioteket [!DNL at.js] ersätter [!DNL mbox.js] för [!DNL Target]-implementeringar.
 
 **mbox-parameter**
 
@@ -269,7 +269,7 @@ Prioritet används om flera aktiviteter tilldelas till samma plats med samma må
 
 **recept**
 
-Inaktuell term som definierar innehållet som visas på en plats. Se *upplevelsen*.
+Inaktuell term som definierar innehållet som visas på en plats. Se *upplevelse*.
 
 **omdirigerare**
 
