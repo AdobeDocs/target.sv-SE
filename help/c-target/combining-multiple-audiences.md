@@ -16,33 +16,33 @@ ht-degree: 0%
 
 Kombinera olika målgrupper (inklusive Adobe Experience Cloud-målgrupper och målgrupper) snabbt och enkelt för att skapa ad hoc-målgrupper. Du kan också skapa exkluderingsregler och exkludera målgrupper från en regel.
 
-Anta att du har en&quot;New Visitors&quot;-målgrupp och en&quot;Chrome Users&quot;-målgrupp. För en viss aktivitet kanske du vill kombinera dessa befintliga målgrupper för att rikta in dig på nya besökare med Chrome-webbläsare. I stället för att skapa en tredje målgrupp och lagra den i [!UICONTROL Audiences] biblioteket kan du kombinera dessa två målgrupper när du skapar en aktivitet eller redigerar en befintlig aktivitet.
+Anta att du har en&quot;New Visitors&quot;-målgrupp och en&quot;Chrome Users&quot;-målgrupp. För en viss aktivitet kanske du vill kombinera dessa befintliga målgrupper för att rikta in dig på nya besökare med Chrome-webbläsare. I stället för att skapa en tredje målgrupp och lagra den i [!UICONTROL Audiences]-biblioteket kan du kombinera dessa två målgrupper när du skapar en aktivitet eller redigerar en befintlig aktivitet.
 
-Som ett annat exempel kan ni inrikta er på alla lojalitetskunder genom att inkludera ett specifikt [!DNL Audience Manager] segment för lojalitetsstatus och kombinera det med ett [!DNL Target] segment bestående av personer som har registrerat sig för ditt lojalitetsprogram under den aktuella sessionen, i stället för att skapa en tredje permanent målgrupp.
+Som ett annat exempel kan du inrikta dig på alla lojalitetskunder genom att inkludera ett specifikt [!DNL Audience Manager]-segment för lojalitetsstatus och kombinera det med ett [!DNL Target]-segment bestående av personer som registrerade sig för ditt lojalitetsprogram under den aktuella sessionen, i stället för att skapa en tredje permanent målgrupp.
 
 Du kan kombinera upp till tio målgrupper med operatorerna AND och OR.
 
-Du kan skapa och använda kombinerade målgrupper på olika platser i [!DNL Target] användargränssnittet.
+Du kan skapa och använda kombinerade målgrupper på olika platser i [!DNL Target]-gränssnittet.
 
 ## Skapa en kombinerad målgrupp när du skapar en aktivitet {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
-Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Target] sida under det guidade arbetsflödet i tre steg.
+Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Target]-sida under det guidade arbetsflödet i tre steg.
 
-1. När du skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)klickar du på de tre lodräta ellipserna på **[!UICONTROL Target]** sidan och sedan på **[!UICONTROL Replace Audience]**.
+1. När du skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) på **[!UICONTROL Target]**-sidan klickar du på de tre lodräta ellipserna och sedan på **[!UICONTROL Replace Audience]**.
 
    ![Stegresultat](assets/edit_audience.png)
 
-1. På [!UICONTROL Choose Audience] sidan markerar du kryssrutorna bredvid de målgrupper du vill använda som byggstenar för den kombinerade målgruppen.
+1. På sidan [!UICONTROL Choose Audience] markerar du kryssrutorna bredvid de målgrupper du vill använda som byggstenar för den kombinerade målgruppen.
 
    ![Stegresultat](assets/combine_multiple_audiences1.png)
 
-1. Klicka **[!UICONTROL Combine Multiple Audiences]** i det övre högra hörnet.
+1. Klicka på **[!UICONTROL Combine Multiple Audiences]** i det övre högra hörnet.
 
    ![Stegresultat](assets/combine_multiple_audiences2.png)
 
 1. (Villkorligt) Redigera den nya kombinerade målgruppen efter behov.
 
-   I [!UICONTROL Edit Audience] dialogrutan kan du dra och släppa ytterligare målgruppsbyggen från vänster sida till den nya kombinerade målgruppen samt lägga till undantagsregler och exkludera målgrupper.
+   I dialogrutan [!UICONTROL Edit Audience] kan du dra och släppa ytterligare målgruppsbyggen från vänster till den nya kombinerade målgruppen samt lägga till undantagsregler och exkludera målgrupper.
 
    1. Du kan använda dra-och-släpp-funktioner för att lägga till målgrupper i ett befintligt avsnitt som en nivå 2-byggsten. Om du vill lägga till ett byggblock på nivå 1 markerar du kryssrutan bredvid den önskade målgruppen och klickar sedan på **[!UICONTROL Add to Rules]**.
 
@@ -76,37 +76,37 @@ Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Target] sida under
 
 1. Ange ett beskrivande namn för den kombinerade målgruppen och klicka sedan på **[!UICONTROL Save]**.
 
-## Skapa en kombinerad målgrupp som kan användas för målinriktning mot mätvärden {#section_A42E795AFCBD4575809C5942039910F0}
+## Skapa en kombinerad målgrupp som kan användas för målinriktning på mätvärden {#section_A42E795AFCBD4575809C5942039910F0}
 
-Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Goals & Settings] sida som ska användas för målinriktning mot mätvärden. Om du till exempel vill skapa mål baserat på konvertering med en kombinerad målgrupp:
+Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Goals & Settings]-sida som ska användas för målinriktning mot mätvärden. Om du till exempel vill skapa mål baserat på konvertering med en kombinerad målgrupp:
 
-1. När du redigerar eller skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)väljer du **[!UICONTROL Goals & Settings]** som framgångsmått på **[!UICONTROL Conversion]** sidan och väljer sedan **[!UICONTROL Viewed an Mbox]** åtgärden.
-1. Markera önskad mbox i **[!UICONTROL Search mbox]** fältet.
+1. När du redigerar eller skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) på **[!UICONTROL Goals & Settings]**-sidan väljer du **[!UICONTROL Conversion]** som framgångsmått och sedan **[!UICONTROL Viewed an Mbox]** som åtgärd.
+1. Markera önskad mbox i fältet **[!UICONTROL Search mbox]**.
 
    ![](assets/combine_multiple_audiences4.png)
 
 1. Klicka på kugghjulsikonen och sedan på **[!UICONTROL Add Audience Targeting]**.
-1. Klicka på **[!UICONTROL Add Audience/Targeting Condition]** länken för att visa [!UICONTROL Choose Audience] dialogrutan.
+1. Klicka på länken **[!UICONTROL Add Audience/Targeting Condition]** för att visa dialogrutan [!UICONTROL Choose Audience].
 
    ![](assets/combine_multiple_audiences5.png)
 
-1. Fortsätt med [steg 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under&quot;Skapa en kombinerad publik medan du skapar en aktivitet&quot; för att skapa den kombinerade målgruppen.
+1. Fortsätt med [Steg 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under&quot;Skapa en kombinerad publik när du skapar en aktivitet&quot; för att skapa den kombinerade målgruppen.
 
-## Skapa en kombinerad publik som kan användas i rapporter {#section_4682D342EFBB43C38E54B99B3A1E14CD}
+## Skapa en kombinerad publik för användning i rapportering {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
-Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Goals & Settings] sida som ska användas för rapportering.
+Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Goals & Settings]-sida som ska användas vid rapportering.
 
-1. När du redigerar eller skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)klickar du på **[!UICONTROL Goals & Settings]** ikonen under på **[!UICONTROL Add Audience]** sidan [!UICONTROL Audiences for Reporting] för att visa [!UICONTROL Choose Audience] sidan.
+1. När du redigerar eller skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) på sidan **[!UICONTROL Goals & Settings]** klickar du på ikonen **[!UICONTROL Add Audience]** under [!UICONTROL Audiences for Reporting] för att visa sidan [!UICONTROL Choose Audience].
 
    ![](assets/combine_multiple_audiences6.png)
 
-1. Fortsätt med [steg 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under&quot;Skapa en kombinerad publik medan du skapar en aktivitet&quot; för att skapa den kombinerade målgruppen.
+1. Fortsätt med [Steg 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under&quot;Skapa en kombinerad publik när du skapar en aktivitet&quot; för att skapa den kombinerade målgruppen.
 
 ## Skapa en kombinerad målgrupp när du redigerar en aktivitet {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Du kan skapa en ad hoc-målgrupp samtidigt som du redigerar en befintlig aktivitet.
 
-1. Håll markören över den önskade aktiviteten på [!UICONTROL Activities] sidan och klicka sedan på **[!UICONTROL Edit]** ikonen .
+1. På sidan [!UICONTROL Activities] för du pekaren över önskad aktivitet och klickar sedan på ikonen **[!UICONTROL Edit]**.
 
    eller
 
@@ -120,4 +120,4 @@ Du kan skapa en ad hoc-målgrupp samtidigt som du redigerar en befintlig aktivit
 
    ![Ändra målgrupp](/help/c-target/assets/combine_multiple_audiences8.png)
 
-1. Fortsätt med [steg 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under&quot;Skapa en kombinerad publik medan du skapar en aktivitet&quot; för att skapa den kombinerade målgruppen.
+1. Fortsätt med [Steg 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under&quot;Skapa en kombinerad publik när du skapar en aktivitet&quot; för att skapa den kombinerade målgruppen.
