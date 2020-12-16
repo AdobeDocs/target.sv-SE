@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Använd dynamiska och statiska inkluderingsregler{#use-dynamic-and-static-inclusion-rules}
+# ![](/help/assets/premium.png) PREMIUMUnvänd dynamiska och statiska inkluderingsregler{#use-dynamic-and-static-inclusion-rules}
 
 Information om hur du skapar inkluderingsregler för villkor och kampanjer i [!DNL Adobe Target] och lägger till ytterligare dynamiska eller statiska filtreringsregler för att få bättre resultat för dina rekommendationer.
 
@@ -21,9 +21,9 @@ Information om hur du skapar inkluderingsregler för villkor och kampanjer i [!D
 >
 >Processen för att skapa och använda inkluderingsregler för kriterier och kampanjer liknar den för användningsexempel och exempel. Både kriterier och kampanjer och användningen av inkluderingsregler omfattas av detta avsnitt.
 
-## Lägga till filtreringsregler i villkor {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
+## Lägger till filtreringsregler i villkor {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-När du [skapar villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)klickar du **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
+När du [skapar villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) klickar du på **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
 
 ![](assets/inclusion_options_new.png)
 
@@ -31,7 +31,7 @@ Vilka alternativ som är tillgängliga varierar beroende på vilken bransch- och
 
 ## Lägga till filtreringsregler i kampanjer {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-När du [skapar en befordran](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)väljer du **[!UICONTROL Promote by Attribute]** och klickar sedan på **[!UICONTROL Add Filtering Rule]**.
+När du [skapar en befordran](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14) väljer du **[!UICONTROL Promote by Attribute]** och klickar sedan på **[!UICONTROL Add Filtering Rule]**.
 
 ![](assets/inclusion_options.png)
 
@@ -55,9 +55,9 @@ Följande alternativ är tillgängliga för dynamisk filtrering:
 
 | Alternativet för dynamisk filtrering | Detaljer |
 | --- | --- |
-| [Matchande entitetsattribut](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtrera dynamiskt genom att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användarna har interagerat med.<br>Använd [!UICONTROL Entity Attribute Matching] när du vill visa rekommendationer som mest lockar besökaren, till exempel besökarens favoritvarumärke. |
-| [Matchning av profilattribut](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i användarens profil.<br>Använd [!UICONTROL Profile Attribute Matching] när du vill visa rekommendationer som matchar ett värde som lagras i besökarens profil, till exempel storlek eller favoritmärke. |
-| [Parametermatchning](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).<br>Använd [!UICONTROL Parameter Matching] för att rekommendera innehåll som matchar sidparametrarna eller besökarens parametrar, till exempel enhetsdimensioner eller geolokalisering. |
+| [Matchande entitetsattribut](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtrera dynamiskt genom att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användarna har interagerat med.<br>Använd  [!UICONTROL Entity Attribute Matching] när du vill visa rekommendationer som mest lockar besökaren, till exempel besökarens favoritvarumärke. |
+| [Matchning av profilattribut](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i användarens profil.<br>Använd  [!UICONTROL Profile Attribute Matching] när du vill visa rekommendationer som matchar ett värde som lagras i besökarens profil, till exempel storlek eller favoritmärke. |
+| [Parametermatchning](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).<br>Använd  [!UICONTROL Parameter Matching] för att rekommendera innehåll som matchar sidparametrarna eller besökarens parametrar, till exempel enhetsdimensioner eller geopositionering. |
 
 ### Filtrera efter värde
 
@@ -81,9 +81,9 @@ I följande exempel ges allmänna idéer om hur ni kan använda dynamiska kampan
 
 ## Hantera tomma värden vid filtrering efter entitetsattributmatchning, matchning av profilattribut och parametermatchning {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-Du kan välja flera alternativ för att hantera tomma värden vid filtrering efter [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]och [!UICONTROL Parameter Matching] för avslutningskriterier och kampanjer.
+Du kan välja flera alternativ för att hantera tomma värden när du filtrerar med [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] och [!UICONTROL Parameter Matching] för avslutningskriterier och kampanjer.
 
-Tidigare returnerades inga resultat om ett värde var tomt. Med listrutan&quot;Om *x* är tom&quot; kan du välja vilken åtgärd som ska utföras om villkoret har tomma värden, vilket visas på följande bild:
+Tidigare returnerades inga resultat om ett värde var tomt. I listrutan &quot;If *x* is Empty&quot; kan du välja vilken åtgärd som ska utföras om villkoret har tomma värden, vilket visas på följande bild:
 
 ![](assets/empty_value.png)
 
@@ -92,15 +92,15 @@ Om du vill välja önskad åtgärd håller du pekaren över kugghjulsikonen (![]
 | Åtgärd | Finns för | Detaljer |
 |--- |--- |--- |
 | [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] och[!UICONTROL Parameter Matching] | Det här är standardåtgärden för [!UICONTROL Profile Attribute Matching] och [!UICONTROL Parameter Matching].<br>Det här alternativet anger att regeln ignoreras. Om det till exempel finns tre filtreringsregler och den tredje regeln inte skickar några värden, i stället för att inte returnera några resultat, kan du helt enkelt ignorera den tredje regeln med de tomma värdena. |
-| [!UICONTROL Do not show any results for this criteria]<br>(Endast villkor) | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]och [!UICONTROL Parameter Matching] | Detta är standardåtgärden för [!UICONTROL Entity Attribute Matching].<br>Den här åtgärden är hur tomma värden [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat kommer att visas för dessa kriterier. |
-| [!UICONTROL Do not promote any items<br>(Endast erbjudanden)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]och [!UICONTROL Parameter Matching] | Detta är standardåtgärden för [!UICONTROL Entity Attribute Matching].<br>Den här åtgärden är hur tomma värden [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat kommer att visas för dessa kriterier. |
-| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]och [!UICONTROL Parameter Matching] | Om ett värde är tomt kan du välja att använda ett statiskt värde. |
+| [!UICONTROL Do not show any results for this criteria]<br>(Endast villkor) | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Detta är standardåtgärden för [!UICONTROL Entity Attribute Matching].<br>Detta gör att tomma värden  [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat kommer att visas för dessa kriterier. |
+| [!UICONTROL Do not promote any items<br>(Endast erbjudanden)] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Detta är standardåtgärden för [!UICONTROL Entity Attribute Matching].<br>Detta gör att tomma värden  [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat kommer att visas för dessa kriterier. |
+| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Om ett värde är tomt kan du välja att använda ett statiskt värde. |
 
 ## Caveats {#section_A889FAF794B7458CA074DEE06DD0E345}
 
 >[!IMPORTANT]
 >
->Olika datatypsattribut kanske inte är kompatibla med operatorerna &quot;equals&quot; och &quot;does not equal&quot; under körning. Du bör använda [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory]och [!UICONTROL Environment] värden klokt på den högra sidan om den vänstra sidan har fördefinierade attribut eller anpassade attribut.
+>Olika datatypsattribut kanske inte är kompatibla med operatorerna &quot;equals&quot; och &quot;does not equal&quot; under körning. Du bör använda värdena [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] och [!UICONTROL Environment] till höger om den vänstra sidan har fördefinierade attribut eller anpassade attribut.
 
 ![](assets/left_right.png)
 
