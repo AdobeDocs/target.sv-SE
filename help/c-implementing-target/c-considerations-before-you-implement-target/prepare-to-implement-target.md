@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Förbered implementering av Target {#prepare-to-implement-target}
+# Förbered implementering av mål {#prepare-to-implement-target}
 
 Det finns uppgifter som du bör slutföra och information som du bör samla in när du förbereder implementering av Target.
 
@@ -29,9 +29,9 @@ Verksamhetsinformationsdokumentets mål är följande:
 * Förstå kundens affärsmål
 * Förstå kundens optimeringsmål
 
-Ladda ned dokumentet [Business Request for Information](/help/assets/business-rfi.docx) .
+Ladda ned [Business Request for Information](/help/assets/business-rfi.docx)-dokumentet.
 
-## Adobe Target begäran om information {#section_95C4F0A2E4EB423399D24F2B7198F6C5}
+## Adobe Target tekniska begäran om information {#section_95C4F0A2E4EB423399D24F2B7198F6C5}
 
 Det här avsnittet innehåller dokumentet Technical Request for Information (RFI) som hjälper vårt konsultteam att utveckla en Target-implementering som uppfyller kundens affärsmässiga och tekniska krav. Frågan i det här dokumentet kommer att identifiera eventuella dolda hinder eller hinder för att minimera eller eliminera behovet av att revidera implementeringen.
 
@@ -40,4 +40,4 @@ Syftet med det tekniska informationsdokumentet är följande:
 * Förstå den tekniska plattformen och eventuella begränsningar
 * Förstå den tekniska miljön som den gäller människor och processer.
 
-Ladda ned dokumentet [Technical Request for Information](/help/assets/technical-rfi.docx) .
+Hämta [dokumentet Technical Request for Information](/help/assets/technical-rfi.docx).
