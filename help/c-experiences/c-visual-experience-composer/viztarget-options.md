@@ -36,15 +36,15 @@ Följande alternativ är tillgängliga:
 
 Förutom HTML-kod kan du redigera och mata in egen JavaScript.
 
-Det finns flera alternativ för formatering av formaterad text när du redigerar text och HTML för [!UICONTROL A/B] - och [!UICONTROL Experience Targeting] -aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och den avancerade redigeringsvyn för HTML.
+Flera formateringsalternativ för formaterad text finns tillgängliga när du redigerar text och HTML för [!UICONTROL A/B]- och [!UICONTROL Experience Targeting]-aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och den avancerade redigeringsvyn för HTML.
 
 Följande HTML5-taggar kan kapslas:
 
 | Tagg | Tillåtna kapslade taggar |
 | --- | --- |
-| `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
-| `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
+| `<a>` | `<h1-h6>`,  `<p>`,  `<ul>`,  `<ol>`,  `<menu>`,  `<div>`,  `<figure>`,  `<figcaption>` |
+| `<ins>` | `<h1-h6>`,  `<p>`,  `<ul>`,  `<ol>`,  `<menu>` |
+| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
 | `<label>` | `<p>` |
 
 #### Bakgrundsfärg
@@ -55,19 +55,19 @@ Använd färgväljaren för att välja eller konfigurera en bakgrundsfärg. Du k
 
 #### Stilar {#styles}
 
-Använd panelen för att visa eller redigera värdet för befintliga format för det markerade elementet [!UICONTROL Styles] . Du kan också lägga till ytterligare format.
+Använd panelen [!UICONTROL Styles] om du vill visa eller redigera värdet för befintliga format för det markerade elementet. Du kan också lägga till ytterligare format.
 
-Du öppnar panelen genom att klicka på ett sidelement i VEC-fönstret och sedan klicka på [!UICONTROL Styles] > **[!UICONTROL Edit]** **[!UICONTROL Styles]**.
+Du öppnar panelen [!UICONTROL Styles] genom att klicka på ett sidelement i VEC och sedan på **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
-Panelen visas till höger [!UICONTROL Styles] om VEC. Panelen innehåller en lista med format som du kan använda för att redigera eller lägga till i det markerade elementet. Med en CSS-redigerare i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.
+Panelen [!UICONTROL Styles] visas till höger om VEC. Panelen innehåller en lista med format som du kan använda för att redigera eller lägga till i det markerade elementet. Med en CSS-redigerare i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.
 
 ![Panelen Format](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-När du använder olika format kan du alltid återställa ändringarna genom att klicka på den [!UICONTROL Revert] ikon som visas längst upp till höger på [!UICONTROL Styles] panelen när du har ändrat något avsnitt. Observera att när du klickar på [!UICONTROL Revert] ikonen återställs alla ändringar på panelen för det aktuella avsnittet.
+När du använder olika format kan du alltid återställa ändringarna genom att klicka på ikonen [!UICONTROL Revert] som visas i det övre högra hörnet av panelen [!UICONTROL Styles] när du har ändrat något avsnitt. Observera att när du klickar på ikonen [!UICONTROL Revert] återställs alla ändringar på panelen för det aktuella avsnittet.
 
 Expandera varje avsnitt om du vill redigera eller lägga till format, vilket förklaras nedan. Om du vill spara ändringarna klickar du på bakåtikonen längst upp på panelen för att gå tillbaka till panelens huvudvisning och klickar sedan på **[!UICONTROL Save]**.
 
-Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de olika avsnittspanelerna anger att du har ändrat motsvarande format. Det gör det enkelt för dig att granska ändringarna innan du klickar [!UICONTROL Save].
+Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de olika avsnittspanelerna anger att du har ändrat motsvarande format. Det gör det enkelt för dig att granska ändringarna innan du klickar på [!UICONTROL Save].
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
 
    Marginalen har stöd för positiva och negativa värden.
 
-   Target har också stöd för andra storleksenheter, som rem, pc, em, etc. Mer information om de här enheterna finns i CSS-tips och -tricks för [webbformatmallar](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target har också stöd för andra storleksenheter, som rem, pc, em, etc. Mer information om de här enheterna finns i [CSS-tips och -tricks för webbformatmallar](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Utfyllnad**
 
@@ -124,7 +124,7 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
 
    Utfyllnaden stöder breddskalor från 0 och framåt.
 
-   Target har också stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), som rem, pc, em, etc.
+   Målet stöder också [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), t.ex. rem, pc, em osv.
 
 * **Kant**
 
@@ -138,13 +138,13 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
 
    Kantlinje har stöd för breddskalor från 0 och framåt.
 
-   Target har också stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), som rem, pc, em, etc.
+   Målet stöder också [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), t.ex. rem, pc, em osv.
 
 * **Position**
 
-   Flytta det markerade elementet från dess aktuella position. Du kan ändra elementets placering i över-, under-, vänster-, höger- och [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) .
+   Flytta det markerade elementet från dess aktuella position. Du kan ändra elementets position överst, nederst, vänster, höger och [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp).
 
-   Klicka på den [!UICONTROL Static] nedrullningsbara listan och välj bland följande placeringsalternativ:
+   Klicka på listrutan [!UICONTROL Static] och välj bland följande placeringsalternativ:
 
    * Statisk
    * Relativ
@@ -159,13 +159,13 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
 
    Position stöder positiva och negativa värden.
 
-   Target har också stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), som rem, pc, em, etc.
+   Målet stöder också [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), t.ex. rem, pc, em osv.
 
 * **Storlek**
 
    Ändra det markerade elementets bredd och höjd.
 
-   Klicka på listruteikonen bredvid [!UICONTROL Width] och [!UICONTROL Height] välj bland följande alternativ:
+   Klicka på listruteikonen bredvid [!UICONTROL Width] och [!UICONTROL Height] och välj bland följande alternativ:
 
    * Auto
    * Värde (dra skjutreglaget för att ändra storlek på elementet eller ange antalet pixlar för varje dimension)
@@ -192,7 +192,7 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
 
    ![CSS-redigerare med ändringar](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   Lägg märke till de blå punkterna bredvid [!UICONTROL Typography], [!UICONTROL Border]och [!UICONTROL Size] alternativen i föregående bild. Dessa punkter indikerar att du har gjort ändringar i de här avsnitten. Om du öppnar de här avsnittspanelerna visas blå punkter bredvid de specifika alternativ som du har ändrat.
+   Lägg märke till de blå punkterna bredvid alternativen [!UICONTROL Typography], [!UICONTROL Border] och [!UICONTROL Size] i föregående bild. Dessa punkter indikerar att du har gjort ändringar i de här avsnitten. Om du öppnar de här avsnittspanelerna visas blå punkter bredvid de specifika alternativ som du har ändrat.
 
    Du kan skriva egen kod om det önskade formatet inte är tillgängligt som standard i [!UICONTROL Styles].
 
@@ -206,13 +206,13 @@ Observera att blå punkter på huvudpanelen och bredvid varje alternativ på de 
 
 Ange den fördefinierade CSS-klass som används för elementet. Om du har markerat flera element avgränsar du flera CSS-klasser med ett mellanslag.
 
-Tillgängligt för [!UICONTROL A/B], [!UICONTROL Automated Personalization]och [!UICONTROL Multivariate Test] aktiviteter.
+Tillgängligt för [!UICONTROL A/B]-, [!UICONTROL Automated Personalization]- och [!UICONTROL Multivariate Test]-aktiviteter.
 
 #### Länk
 
 Ändra URL-adressen i länken.
 
-Använd Redigera länk för att uppdatera väljaren så att den pekar på samma bildelement. Det går dock inte att länka till ett annat bildelement. Om du vill länka till ett annat bildelement tar du bort den ursprungliga åtgärden från kodredigeraren och använder åtgärden [!UICONTROL Visual Experience Composer] för det andra bildelementet.
+Använd Redigera länk för att uppdatera väljaren så att den pekar på samma bildelement. Det går dock inte att länka till ett annat bildelement. Om du vill länka till ett annat bildelement tar du bort den ursprungliga åtgärden från kodredigeraren och använder [!UICONTROL Visual Experience Composer] för att tillämpa åtgärden på det andra bildelementet.
 
 ### Infoga före
 
@@ -222,13 +222,13 @@ Följande alternativ är tillgängliga:
 
 Lägg till vilket element som helst på sidan förutom att ändra befintligt innehåll. Lägg till text, kod, listor med mera för att skapa helt olika upplevelser att testa.
 
-Markera ett element på sidan, klicka [!UICONTROL Insert Before] och välj om du vill infoga en bild, HTML eller text. Det infogade elementet visas före det markerade elementet.
+Markera ett element på sidan, klicka sedan på [!UICONTROL Insert Before] och välj om du vill infoga en bild, HTML eller text. Det infogade elementet visas före det markerade elementet.
 
 Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkonfigurationsalternativ. Giltig HTML krävs för att sidan ska visas korrekt. Testa alltid sidan när du har infogat ett objekt för att se till att den visas som förväntat.
 
-[!UICONTROL Recommendations] stöder innehållet [!UICONTROL Insert Before] i DIV-, SECTION- och Article-taggarna.
+[!UICONTROL Recommendations] stöder innehållet  [!UICONTROL Insert Before] i DIV-, SECTION- och Article-taggarna.
 
-**Obs!** Om du vill infoga en bild måste det [!DNL Adobe Scene7 Publishing System] vara aktiverat så att du har tillgång till bildbiblioteket.
+**Obs!** Om du infogar en bild måste det  [!DNL Adobe Scene7 Publishing System] vara aktiverat så att du har tillgång till bildbiblioteket.
 
 #### Rekommendation
 
@@ -236,7 +236,7 @@ Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Aut
 
 #### Experience Fragment
 
-Infoga upplevelsefragment som skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target] aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Infoga upplevelsefragment som skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target]-aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Infoga efter
 
@@ -246,13 +246,13 @@ Följande alternativ är tillgängliga:
 
 Lägg till vilket element som helst på sidan förutom att ändra befintligt innehåll. Lägg till text, kod, listor med mera för att skapa helt olika upplevelser att testa.
 
-Markera ett element på sidan, klicka [!UICONTROL Insert After] och välj om du vill infoga en bild, HTML eller text. Det infogade elementet visas efter det markerade elementet.
+Markera ett element på sidan, klicka sedan på [!UICONTROL Insert After] och välj om du vill infoga en bild, HTML eller text. Det infogade elementet visas efter det markerade elementet.
 
 Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkonfigurationsalternativ. Giltig HTML krävs för att sidan ska visas korrekt. Testa alltid sidan när du har infogat ett objekt för att se till att den visas som förväntat.
 
-[!UICONTROL Recommendations] stöder innehållet [!UICONTROL Insert After] i DIV-, SECTION- och Article-taggarna.
+[!UICONTROL Recommendations] stöder innehållet  [!UICONTROL Insert After] i DIV-, SECTION- och Article-taggarna.
 
-**Obs!** Om du vill infoga en bild måste det [!DNL Adobe Scene7 Publishing System] vara aktiverat så att du har tillgång till bildbiblioteket.
+**Obs!** Om du infogar en bild måste det  [!DNL Adobe Scene7 Publishing System] vara aktiverat så att du har tillgång till bildbiblioteket.
 
 #### Rekommendation
 
@@ -260,7 +260,7 @@ Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Aut
 
 #### Experience Fragment
 
-Infoga upplevelsefragment som skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target] aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Infoga upplevelsefragment som skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target]-aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Ersätt med
 
@@ -282,13 +282,13 @@ Efter aktivitetssynkronisering kan leverans-URL:en se ut som i följande exempel
 
 Recommendations stöder Ersätt med i DIV-, SECTION- och Article-taggar.
 
-**Obs!** Du måste ha ett Adobe Scene7 Publishing System-konto för att kunna byta bilder.
+**Obs!För** att byta bild krävs ett Adobe Scene7 Publishing System-konto.
 
 #### HTML-erbjudande
 
 Välj ett annat erbjudande från [!UICONTROL Content Library].
 
-**Obs!** HTML-erbjudanden lagras på [!DNL Target] servrar.
+**Obs!** HTML-erbjudanden lagras på  [!DNL Target] servrar.
 
 Ett HTML-erbjudande kan vara upp till 256 kB stort.
 
@@ -298,7 +298,7 @@ Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Aut
 
 #### Experience Fragment
 
-Infoga upplevelsefragment som skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target] aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Infoga upplevelsefragment som skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target]-aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Layout
 
@@ -312,13 +312,13 @@ Dra elementet till en annan plats inuti samma överordnade element eller DIV. An
 
 #### Ändra storlek
 
-Ändra storlek på ett element på sidan. När du väljer [!UICONTROL Resize]det här alternativet visas ett handtag i elementets nedre högra hörn som du kan använda till att ändra storlek på genom att dra i hörnet. Håll ned Skift om du vill behålla samma proportioner.
+Ändra storlek på ett element på sidan. När du väljer [!UICONTROL Resize] visas ett handtag i elementets nedre högra hörn som du kan använda för att ändra storlek på genom att dra i hörnet. Håll ned Skift om du vill behålla samma proportioner.
 
-**Obs!** Det går inte att ändra storlek på infogade element.
+**Obs!Det går inte att ändra storlek på** infogade element.
 
 #### Flytta {#move}
 
-Flytta element på sidan. Till skillnad från [!UICONTROL Rearrange] alternativet flyttas [!UICONTROL Move] inte andra element för att ge plats åt elementet som flyttas. Använd piltangenterna för att finjustera flyttningen. (Planerad förbättring: stöd för att se till att flyttade element inte döljs bakom andra element.)
+Flytta element på sidan. Till skillnad från alternativet [!UICONTROL Rearrange] flyttar [!UICONTROL Move] inte andra element för att ge plats åt det element som flyttas. Använd piltangenterna för att finjustera flyttningen. (Planerad förbättring: stöd för att se till att flyttade element inte döljs bakom andra element.)
 
 I vissa fall, t.ex. när en CSS-begränsning kräver att ett element ska finnas i det överordnade elementet, kan du inte flytta elementet utanför det överordnade elementet. Ett element kan inte flyttas utanför en behållare som har följande CSS-egenskap: `overflow: hidden`.
 
@@ -330,7 +330,7 @@ Dölj elementet. Det tomma utrymmet återstår, men innehållet tas bort.
 
 Ta bort elementet. Det tomma utrymmet bakom bilden tas bort och det utrymme där elementet var komprimerat.
 
-**Obs!** Det går inte att ta bort objekt i en klassisk mbox (en mbox som skapats i en Target Classic-kampanj) med det här alternativet.
+**Obs!Det går inte att ta bort** objekt i en &quot;klassisk&quot; mbox (en mbox som skapats i en Target Classic-kampanj) med det här alternativet.
 
 ### Expandera avsnitt
 
@@ -346,7 +346,7 @@ Markera det överordnade elementet förutom det ursprungligen markerade elemente
 
 ## Överväganden {#considerations}
 
-* Om ett erbjudande innehåller HTML-innehåll kan du läsa&quot;How at.js renders offers with HTML content&quot; i [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) för mer information.
+* Om ett erbjudande innehåller HTML-innehåll kan du läsa &quot;How at.js renders offers with HTML content&quot; i [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) för mer information.
 
 ## Navigera mellan element med DOM-sökvägen {#dom-path}
 
@@ -360,4 +360,4 @@ När du hovrar över DOM-banan markeras motsvarande element i VEC med en blå ru
 
 Du kan enkelt navigera till alla överordnade, jämställda eller underordnade element inom VEC med DOM-sökvägen.
 
-DOM-sökvägsfunktionen är också tillgänglig när du ställer in [klickspårning](/help/c-activities/r-success-metrics/click-tracking.md).
+DOM-sökvägsfunktionen är också tillgänglig när du konfigurerar [klickspårning](/help/c-activities/r-success-metrics/click-tracking.md).
