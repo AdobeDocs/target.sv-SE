@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Recommendations-aktivitet{#recommendations-activity}
+# Recommendations activity{#recommendations-activity}
 
 Recommendations-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
 
