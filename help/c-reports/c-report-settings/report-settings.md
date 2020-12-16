@@ -19,13 +19,13 @@ Information som hjälper dig att ange de element som du vill ska visas i rapport
 Så här visar du en rapport:
 
 1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet i listan.
-1. Klicka på **[!UICONTROL Reports]** fliken.
+1. Klicka på fliken **[!UICONTROL Reports]**.
 
    ![Rapportera gränssnitt](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Målförinställning {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Du kan spara upp till tio olika förinställningar för en enskild aktivitets rapport efter att du har konfigurerat den som du vill (mått, datumintervall, målgrupper, avancerade inställningar osv.). Alla [!DNL Target] användare kan visa, redigera och ta bort de olika förinställningarna, oavsett vem som skapade dem.
+Du kan spara upp till tio olika förinställningar för en enskild aktivitets rapport efter att du har konfigurerat den som du vill (mått, datumintervall, målgrupper, avancerade inställningar osv.). Alla [!DNL Target]-användare kan visa, redigera och ta bort de olika förinställningarna, oavsett vem som skapade dem.
 
 Du kan också konfigurera rapporten för en enskild aktivitet efter behov och sedan spara konfigurationen som standard-/favoritförinställning. Det här är vyn som visas när du visar aktivitetens rapport som fortsätter.
 
@@ -35,7 +35,7 @@ Du kan också konfigurera rapporten för en enskild aktivitet efter behov och se
 
    De tillgängliga inställningarna, inklusive mått, datumintervall, målgrupper, avancerade inställningar och så vidare, förklaras nedan.
 
-1. Klicka på ikonen för tre lodräta ellipser > bredvid **[!UICONTROL Target Preset]** den. **[!UICONTROL Save as New]**
+1. Klicka på ikonen för tre lodräta ellipser > **[!UICONTROL Save as New]** bredvid **[!UICONTROL Target Preset]**.
 
    ![Rapportförinställning](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
@@ -43,13 +43,13 @@ Du kan också konfigurera rapporten för en enskild aktivitet efter behov och se
 
    ![Dialogrutan Ny förinställning](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Granska informationen i avsnitten **[!UICONTROL Filters]** och **[!UICONTROL Settings]** för att kontrollera att rapporten är konfigurerad som du vill och ange sedan **[!UICONTROL Preset Name]** (upp till 50 tecken).
-1. (Villkorligt) Om du vill att det här ska vara din standard-/favoritrapportvy drar du **[!UICONTROL Set as default preset]** växlingsknappen till På-positionen.
+1. Granska informationen i avsnitten **[!UICONTROL Filters]** och **[!UICONTROL Settings]** för att kontrollera att rapporten har konfigurerats som du vill och ange sedan **[!UICONTROL Preset Name]** (upp till 50 tecken).
+1. (Villkorligt) Om du vill att det här ska vara din standard-/favoritrapportvy drar du reglaget **[!UICONTROL Set as default preset]** till På-positionen.
 1. Klicka på **[!UICONTROL Save]**.
 
 ### Välj en annan förinställning
 
-Välj önskad förinställning i **[!UICONTROL Target Preset]** listrutan.
+Välj önskad förinställning i listrutan **[!UICONTROL Target Preset]**.
 
 ![Listruta för förinställning](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
@@ -58,7 +58,7 @@ Välj önskad förinställning i **[!UICONTROL Target Preset]** listrutan.
 1. Markera den förinställning som du vill redigera.
 1. Redigera rapportens konfiguration efter behov (mått, datumintervall, målgrupper, avancerade inställningar och så vidare).
 
-   När du har klickat [!UICONTROL Save] efter att ha redigerat rapportens konfiguration visas en asterisk ( * ) efter förinställningsnamnet för att ange att förinställningen har ändrats, vilket visas nedan:
+   När du har klickat på [!UICONTROL Save] efter att ha redigerat rapportens konfiguration visas en asterisk ( * ) efter förinställningens namn för att ange att förinställningen har ändrats, vilket visas nedan:
 
    ![Rapportförinställning med asterisk](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -66,7 +66,7 @@ Välj önskad förinställning i **[!UICONTROL Target Preset]** listrutan.
 
    eller
 
-   Klicka på ikonen för tre lodräta ellipser > för att uppdatera den aktuella förinställningen **[!UICONTROL Update]** .
+   Klicka på ikonen för tre lodräta ellipser > **[!UICONTROL Update]** för att uppdatera den aktuella förinställningen.
 
    ![Standarduppdatering för rapport](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
@@ -77,7 +77,7 @@ Välj önskad förinställning i **[!UICONTROL Target Preset]** listrutan.
 
    ![Standardredigering för rapport](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Klicka **[!UICONTROL Delete]** igen för att bekräfta borttagningen (borttagna förinställningar kan inte återställas).
+1. Klicka på **[!UICONTROL Delete]** igen för att bekräfta borttagningen (borttagna förinställningar kan inte återställas).
 
 ### Felhantering av förinställningar
 
@@ -93,7 +93,7 @@ I följande lista beskrivs några situationer som kan göra att en förinställn
 
 ## Rapportmått {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Klicka på den **[!UICONTROL Report Metric]** nedrullningsbara listan för att välja ett annat [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) eller flera mätvärden som ska visas i diagrammet.
+Klicka på listrutan **[!UICONTROL Report Metric]** för att välja ett annat [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) eller flera mätvärden som ska visas i diagrammet.
 
 Som standard bestäms det primära måttet i inställningarna för framgångsmått när du skapar aktiviteten. Om du ändrar konfigurationen och sparar aktiviteten igen uppdateras det primära måttet för rapportering.
 
@@ -101,7 +101,7 @@ Mer information om hur du väljer flera mätvärden att visa i rapporter finns i
 
 ## Målgrupp {#section_70926EB4618945D9AFF2B0564FF3717B}
 
-Klicka på [!UICONTROL Audience] listrutan för att ändra rapportens målgrupp.
+Klicka på listrutan [!UICONTROL Audience] för att ändra rapportens målgrupp.
 
 Mer information finns i [Publiker](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
@@ -111,9 +111,9 @@ I rutan Datumintervall visas rapportens aktuella datumintervall. Klicka på list
 
 ![Kalender](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Välj nya **[!UICONTROL Start]** och **[!UICONTROL End]** datum för rapporten. Du kan också använda rutorna **[!UICONTROL From start of Activity]** och **[!UICONTROL Till end of Activity]** .
+Välj nya **[!UICONTROL Start]**- och **[!UICONTROL End]**-datum för rapporten. Du kan också använda kryssrutorna **[!UICONTROL From start of Activity]** och **[!UICONTROL Till end of Activity]**.
 
-Klicka **[!UICONTROL Custom Dates]** för att välja fördefinierade datumintervall: De senaste 7 dagarna, de senaste 15 dagarna eller de senaste 30 dagarna. Dessa fördefinierade datumintervall är rullande intervall. Om startdatumet är mindre än antalet valda dagar visas intervallet från startdatumet i kalendern, men om startdatumet blir äldre än det antal dagar som väljs när aktivitetens varaktighet ökar.
+Klicka på **[!UICONTROL Custom Dates]** för att välja fördefinierade datumintervall: De senaste 7 dagarna, de senaste 15 dagarna eller de senaste 30 dagarna. Dessa fördefinierade datumintervall är rullande intervall. Om startdatumet är mindre än antalet valda dagar visas intervallet från startdatumet i kalendern, men om startdatumet blir äldre än det antal dagar som väljs när aktivitetens varaktighet ökar.
 
 Rapporterna har följande datumbegränsningar:
 
@@ -126,7 +126,7 @@ Rapporterna har följande datumbegränsningar:
 Så här konfigurerar du rapportinställningar:
 
 1. Klicka på kugghjulsikonen och gör önskade ändringar (enligt anvisningarna nedan).
-1. Klicka **[!UICONTROL Save]** när du är klar.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 Följande bild visar dialogrutan Inställningar för en A/B-aktivitet:
 
@@ -152,7 +152,7 @@ Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information 
 
 ### Återställ rapportdata
 
-Återställ rapportdata för att ta bort gamla data. Befintliga besökare stannar kvar i aktiviteten.  Det här alternativet är endast tillgängligt för dem med [!UICONTROL Approver] behörigheter.
+Återställ rapportdata för att ta bort gamla data. Befintliga besökare stannar kvar i aktiviteten.  Det här alternativet är endast tillgängligt för dem med [!UICONTROL Approver]-behörigheter.
 
 >[!IMPORTANT]
 >
@@ -160,11 +160,11 @@ Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information 
 
 ### Exkludera extrema värden
 
-Växlingsknappen [!UICONTROL Exclude Extreme Values] gäller endast för aktiviteter med måtten Intäkter och engagemang. Mer information finns i [Exkludera extrema order](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+Knappen [!UICONTROL Exclude Extreme Values] gäller endast för aktiviteter med måtten Intäkter och engagemang. Mer information finns i [Exkludera extrema order](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Hämta {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Klicka på **[!UICONTROL Download]** ikonen om du vill hämta rapportdata i ett [!DNL .csv] format för snabb import till Excel, Access eller andra dataanalysprogram.
+Klicka på ikonen **[!UICONTROL Download]** om du vill hämta rapportdata i ett [!DNL .csv]-format för snabb import till Excel, Access eller andra dataanalysprogram.
 
 ![Ikonen Hämta](/help/c-reports/c-report-settings/assets/download-icon.png)
 
@@ -172,11 +172,11 @@ Mer information finns i [Hämta data i en CSV-fil](/help/c-reports/downloading-d
 
 ## Uppdatera {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Klicka på **[!UICONTROL Refresh]** ikonen om du vill uppdatera en rapports tabell- och diagramvy utan att uppdatera hela sidan, dess konfiguration eller dess datumintervall.
+Klicka på ikonen **[!UICONTROL Refresh]** om du vill uppdatera en rapports tabell- och diagramvy utan att uppdatera hela sidan, dess konfiguration eller dess datumintervall.
 
 ## Fler alternativ {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
-Klicka på ikonen Fler alternativ (tre lodräta ellipser) för att visa alternativen [!UICONTROL Edit Activity] och [!UICONTROL View Experience URLs] .
+Klicka på ikonen Fler alternativ (tre lodräta ellipser) för att komma åt alternativen [!UICONTROL Edit Activity] och [!UICONTROL View Experience URLs].
 
 ## Visningsalternativ
 
@@ -184,16 +184,16 @@ Du kan visa rapporten i olika format, beroende på aktivitetstypen. Välj önska
 
 ![Visa alternativikoner](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **Tabellvy**: Klicka på **[!UICONTROL Table View]** ikonen om du vill visa rapporten som en tabell.
-* **Diagramvy**: Klicka på **[!UICONTROL Graph View]** ikonen om du vill visa rapporten som ett diagram.
-* **Automatiska segment**:(Endast tillgängligt för Automated Personalization- (AP) och AT-aktiviteter (Auto-Target).) Klicka på ikonen **[!UICONTROL Automated Segments] för att visa rapporten [om](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatiserade segment.
-* **Viktiga attribut**: (Endast tillgängligt för Automated Personalization-aktiviteter (AP) och Automatiskt mål-aktiviteter (AT).) Klicka på ikonen **[!UICONTROL Important Attributes] för att visa [rapporten](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Viktiga attribut.
+* **Tabellvy**: Klicka på  **[!UICONTROL Table View]** ikonen om du vill visa rapporten som en tabell.
+* **Diagramvy**: Klicka på  **[!UICONTROL Graph View]** ikonen om du vill visa rapporten som ett diagram.
+* **Automatiska segment**:(Endast tillgängligt för Automated Personalization- (AP) och AT-aktiviteter (Auto-Target).) Klicka på ikonen **[!UICONTROL Automated Segments] för att visa [rapporten Automatiserade segment](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Viktiga attribut**: (Endast tillgängligt för Automated Personalization-aktiviteter (AP) och Automatiskt mål-aktiviteter (AT).) Klicka på ikonen **[!UICONTROL Important Attributes] för att visa [rapporten Viktiga attribut](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
-## Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse {#section_0D87615B1D3344B3858BA494EEBC16FB}
+## Genomsnittligt lyft-, lyft- och konfidensintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
 Rapporterna innehåller flera datapunkter och visualiseringsrepresentationer som förstår vilka lyftgränser och konfidensnivåer din aktivitet har. På så sätt kan du bättre avgöra en vinnare.
 
-Mer information finns i [Jämka lyft, Lyft gränser och Konfidensintervall](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Mer information finns i [Medel, Lyft gränser och Konfidensintervall](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
 Tänk på följande:
 
@@ -202,9 +202,9 @@ Tänk på följande:
 
 ## Platsbidrag {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-Klicka på **[!UICONTROL Location Contribution]** ikonen om du vill växla till rapporten för att visa bidrag per plats.
+Klicka på ikonen **[!UICONTROL Location Contribution]** om du vill växla rapporten för att visa bidrag per plats.
 
-## Erfarenheter {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
+## Upplevelser {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
 (Endast tillgängligt när du visar rapporten i diagramvyn)
 
@@ -214,7 +214,7 @@ Om följande bild visas visas bara Default, Mid-East och Total i rapporten. Asie
 
 ![Erfarenheter](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
-## Löpande medelvärde {#section_59066693158C4433B87D07402C2BC6CD}
+## Löpande genomsnitt {#section_59066693158C4433B87D07402C2BC6CD}
 
 (Endast tillgängligt när du visar rapporten i diagramvyn)
 
@@ -235,17 +235,17 @@ Namnet på den här listrutan varierar beroende på den valda vyn, men det är e
 
 (Endast tillgängligt när du visar rapporten i diagramvyn)
 
-Du kan välja beräkningsmetod för diagram i rapporter. Observera att detta inte stöds för [!UICONTROL Automated Personalization] (AP)-aktiviteter.
+Du kan välja beräkningsmetod för diagram i rapporter. Observera att detta inte stöds för [!UICONTROL Automated Personalization]-aktiviteter (AP).
 
-Om du vill få åtkomst till [!UICONTROL Counting Methodology] alternativet när du visar en rapport i grafikläge klickar du på **[!UICONTROL My Primary Goal]** listrutan och väljer sedan beräkningsmetoden.
+Om du vill komma åt alternativet [!UICONTROL Counting Methodology] när du visar en rapport i diagramläge klickar du på listrutan **[!UICONTROL My Primary Goal]** och väljer sedan beräkningsmetoden.
 
-Beräkningsmetoden är densamma som den som valts i den [!UICONTROL Settings] dialogruta som beskrivs ovan.
+Beräkningsmetoden är densamma som den som valts i dialogrutan [!UICONTROL Settings], som beskrivs ovan.
 
 ![Räkningsmetod](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
-Som standard ritas diagrammet i [!UICONTROL Daily] läge.
+Som standard ritas diagrammet i [!UICONTROL Daily]-läge.
 
-Du kan ändra läge genom att klicka på den [!UICONTROL Daily] nedrullningsbara listan och sedan välja ett kumulativt alternativ.
+Du kan ändra läge genom att klicka på listrutan [!UICONTROL Daily] och sedan välja ett kumulativt alternativ.
 
 ![Kumulativ](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
@@ -264,8 +264,8 @@ Standardordningen som diagrammet ritas i är följande:
 
 När du arbetar med alternativen för Räkningsmetod bör du tänka på följande:
 
-* För [Automatiskt mål-aktiviteter](/help/c-activities/auto-target/auto-target-to-optimize.md)finns det inget alternativ för att välja &quot;Besökare&quot; som beräkningsmetod. Automatiskt mål är den enda aktivitetstypen som du inte kan rita upp av besökare.
-* För aktiviteter som använder [Analytics som rapportkälla (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)kan du inte rita in Besök eller Impression kumulativt.
+* För [Automatisk målaktivitet](/help/c-activities/auto-target/auto-target-to-optimize.md) finns det inget alternativ för att välja &quot;Besökare&quot; som beräkningsmetod. Automatiskt mål är den enda aktivitetstypen som du inte kan rita upp av besökare.
+* För aktiviteter som använder [Analytics som rapportkälla (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) kan du inte rita in Visitor, Visit eller Impression kumulativt.
 
 ## Arbeta med diagram som har mer än 16 upplevelser i aktiviteten
 
