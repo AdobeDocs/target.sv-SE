@@ -41,19 +41,19 @@ När du flyttar musen runt sidan följer markören en sammanhangsberoende ruta s
 
 ![VEC markerat](/help/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
-Klicka på **[!UICONTROL Overlays]** ikonen om du vill ändra hur högdagern visas. Du kan t.ex. välja att bara markera bilder, länkar, regionala kryssrutor, ändringar eller JavaScript. Du kan ändra färgen på högdagern. Du kan också ange en markeringsfärg och typ av fyllning som används för att markera olika elementtyper.
+Klicka på ikonen **[!UICONTROL Overlays]** för att ändra hur högdagern visas. Du kan t.ex. välja att bara markera bilder, länkar, regionala kryssrutor, ändringar eller JavaScript. Du kan ändra färgen på högdagern. Du kan också ange en markeringsfärg och typ av fyllning som används för att markera olika elementtyper.
 
 ![Ändra inställningar för övertäckning](/help/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Klicka på ett markerat element för en meny med alternativ som är tillgängliga för den elementtypen. Du kan till exempel klicka på en bild och välja **[!UICONTROL Edit > Text/HTML]** att ändra texten eller klicka på en knapp och ändra bakgrundsfärgen. Du kan använda knapparna längst upp till vänster på sidan för att växla mellan att aktivera och inaktivera övertäckningarna.
+Klicka på ett markerat element för en meny med alternativ som är tillgängliga för den elementtypen. Du kan till exempel klicka på en bild och välja **[!UICONTROL Edit > Text/HTML]** om du vill ändra texten eller klicka på en knapp och ändra bakgrundsfärgen. Du kan använda knapparna längst upp till vänster på sidan för att växla mellan att aktivera och inaktivera övertäckningarna.
 
-Du kan också klicka **[!UICONTROL Browse]** och sedan navigera till en sida som är tillgänglig från den primära sidan, till exempel en leveranssida eller en kundvagn, och testa ändringarna på den sidan. Du kan även komma åt sidelement som är tillgängliga när du hovrar, till exempel utfällbara menyer och minikort. När du har bläddrat klart till sidan klickar du på **[!UICONTROL Compose]** för att redigera upplevelsen. Du kanske vill ändra designen för en rullgardinsmeny eller en karusell med bilder.
+Du kan också klicka på **[!UICONTROL Browse]** och sedan navigera till en sida som är tillgänglig från den primära sidan, till exempel en leveranssida eller en kundvagn, och testa ändringarna på den sidan. Du kan även komma åt sidelement som är tillgängliga när du hovrar, till exempel utfällbara menyer och minikort. När du har bläddrat klart till sidan klickar du på **[!UICONTROL Compose]** för att redigera upplevelsen. Du kanske vill ändra designen för en rullgardinsmeny eller en karusell med bilder.
 
 >[!NOTE]
 >
->Om ett hovringsläge är beroende av JavaScript kontrollerar du att **[!UICONTROL Disable JavaScript]** inte är markerat. JavaScript måste vara aktiverat för att du ska kunna redigera JavaScript-element.
+>Om ett hovringstillstånd är beroende av JavaScript kontrollerar du att **[!UICONTROL Disable JavaScript]** inte är markerat. JavaScript måste vara aktiverat för att du ska kunna redigera JavaScript-element.
 
-Information om de alternativ som är tillgängliga i VEC finns i Alternativ för [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Mer information om de tillgängliga alternativen i VEC finns i [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 Du kan göra vissa ändringar på en sida medan sidan läses in (eller när sidan inte kan läsas in), eller avbryta sidinläsningen i VEC. Mer information finns i:
 
@@ -70,7 +70,7 @@ Det kan finnas skäl till att du vill komma åt eller redigera en sida medan den
 * Du vill kopiera befintlig anpassad kod från en sida som inte längre är tillgänglig
 * Du vet att en sida inte läses in i VEC, men du vill ändå göra enkla redigeringar
 
-När sidan läses in (eller när den inte kan läsas in) är panelen, [!UICONTROL Experiences] [!UICONTROL Modifications] panelen och inställningarna högst upp i upplevelsen (Övertäckningar, Ändringar, Konfigurera och så vidare) tillgängliga.
+När sidan läses in (eller när den inte kan läsas in) är panelen [!UICONTROL Experiences], panelen [!UICONTROL Modifications] och inställningarna högst upp i upplevelsen (Övertäckningar, Ändringar, Konfigurera o.s.v.) tillgängliga.
 
 Följande bild visar att du kan infoga egen kod eller utföra andra åtgärder medan sidan fortfarande läses in:
 
@@ -90,36 +90,36 @@ Några orsaker till varför du kanske vill avbryta sidinläsning i VEC är:
 * Du vill lägga till fler testregler för mallar i villkoren för sidleverans
 * Du vill åsidosätta växlingsknappen för den globala funktionen Enhanced Experience Composer (EEC) när du läser in en sida via EEC, eller så kan endast iframe-funktionerna variera sida för sida
 
-När du har avbrutit sidinläsningen i VEC kan du växla mellan upplevelserna i aktiviteten utan att vänta på att sidan ska läsas in. Om du vill visa sidan i VEC igen måste du klicka på **[!UICONTROL Reload]** knappen.
+När du har avbrutit sidinläsningen i VEC kan du växla mellan upplevelserna i aktiviteten utan att vänta på att sidan ska läsas in. Om du vill visa sidan i VEC igen måste du klicka på knappen **[!UICONTROL Reload]**.
 
 >[!IMPORTANT]
 >
 >Tänk på att när anpassad kod eller ändringar görs måste du se till att kodningen eller ändringarna görs på rätt sätt genom att välja att avbryta inläsningen i VEC. Se till att du utför rätt kvalitetskontroll för att säkerställa att din egen kod och alla andra ändringar levereras som förväntat.
 
-Om du vill avbryta inläsningen av en sida i VEC klickar du på **[!UICONTROL Cancel Loading]** knappen medan sidan läses in. Sidan läses inte in i VEC för den här aktiviteten under den aktuella redigeringssessionen.
+Om du vill avbryta inläsningen av en sida i VEC klickar du på knappen **[!UICONTROL Cancel Loading]** medan sidan läses in. Sidan läses inte in i VEC för den här aktiviteten under den aktuella redigeringssessionen.
 
 ![Knappen Avbryt inläsning](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
 
-Om du vill fortsätta att hantera upplevelser i den aktuella aktiviteten eller lägga till nya ändringar måste du klicka på **[!UICONTROL Reload]** knappen.
+Om du vill fortsätta att hantera upplevelser i den aktuella aktiviteten eller lägga till nya ändringar måste du klicka på knappen **[!UICONTROL Reload]**.
 
 ![Knappen Läs in igen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
 >[!NOTE]
 >
->Det finns ett känt fel med den här funktionen som kommer att åtgärdas i nästa version. Mer information finns i&quot;Avbryt inläsning av en sida i VEC&quot; på sidan [Kända fel och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#cancel) .
+>Det finns ett känt fel med den här funktionen som kommer att åtgärdas i nästa version. Mer information finns i&quot;Avbryt inläsning av en sida i VEC&quot; på sidan [Kända fel och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#cancel).
 
 ## Utbildningsvideor
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Visuell Experience Composer (1 av 2) (7:17) - ![självstudiemärke](/help/assets/tutorial.png)
+### Visual Experience Composer (1 av 2) (7:17) ![Självstudiemärke](/help/assets/tutorial.png)
 
 * Ändra innehållet på en sida
 * Ändra layouten för en sida
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 av 2) (7:29) ![Självstudiemärke](/help/assets/tutorial.png)
+### Visual Experience Composer (2 av 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Byta namn på och duplicera en upplevelse
 * Skapa en omdirigeringsupplevelse
@@ -130,9 +130,9 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Kontorstid: badge för Visual Experience Composer ![Tutorial](/help/assets/tutorial.png)
+### Kontorstid: Visual Experience Composer ![Självstudiekursikon](/help/assets/tutorial.png)
 
-Den här videon är en inspelning av&quot; [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
+Den här videon handlar om inspelningen av &quot; [kontorstid](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
 * Hur VEC fungerar
 * Hur man undviker vanliga problem med VEC
