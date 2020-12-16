@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Konfigurera Visual Experience Composer
 
-Konfigurera [!DNL Adobe Target] VEC ( [!UICONTROL Visual Experience Composer] Mobile Viport configuration) genom att ange dess allmänna inställningar, konfiguration för mobilvisningsruta och CSS-väljare.
+Konfigurera [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) genom att ange dess allmänna inställningar, konfiguration för mobilvisningsruta och CSS-väljare.
 
-Du öppnar konfigurationssidan genom att klicka [!UICONTROL Visual Experience Composer] > **[!UICONTROL Administration]** **[!UICONTROL Visual Experience Composer].**
+Om du vill komma åt konfigurationssidan [!UICONTROL Visual Experience Composer] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Tänk på att inställningarna på den här sidan gäller för hela [!DNL Target] kontot.
+>Tänk på att inställningarna på den här sidan gäller för hela [!DNL Target]-kontot.
 
 ![Konfigurationssida för Visual Experience Composer](/help/administrating-target/assets/vec.png)
 
@@ -38,7 +38,7 @@ Ange den standardwebbadress som används av [!UICONTROL Visual Experience Compos
 
 ### Aktivera Förbättrad Experience Composer {#eec}
 
-Möjliggör redigering på iFrame-busting-webbplatser med blandat innehåll. Vissa webbplatser kanske inte är kompatibla med den förbättrade versionen. Avmarkera det här alternativet om du vill återgå till originalet [!UICONTROL Visual Experience Composer]. Aktivitetsleverans på webbplatser påverkas inte av det här valet.
+Möjliggör redigering på iFrame-busting-webbplatser med blandat innehåll. Vissa webbplatser kanske inte är kompatibla med den förbättrade versionen. Avmarkera det här alternativet om du vill återgå till det ursprungliga [!UICONTROL Visual Experience Composer]. Aktivitetsleverans på webbplatser påverkas inte av det här valet.
 
 Mer information finns i [Felsöka Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
@@ -46,7 +46,7 @@ Du kan även aktivera [!UICONTROL Enhanced Experience Composer] på aktivitetsni
 
 ### Läs in blandat innehåll
 
-Aktivera blandat innehåll när du öppnar en webbplats med [!UICONTROL Enhanced Experience Composer] (EEC). Om du aktiverar det här alternativet undviker du den extra kostnaden för att läsa in statiska resurser via [!DNL Target] proxyservrar.
+Aktivera blandat innehåll när du öppnar en webbplats med [!UICONTROL Enhanced Experience Composer] (EEC). Om du aktiverar det här alternativet undviker du den extra kostnaden för att läsa in statiska resurser via [!DNL Target]-proxyservrar.
 
 Det här alternativet är användbart om du till exempel:
 
@@ -57,23 +57,23 @@ Det här alternativet är användbart om du till exempel:
 
 När du aktiverar ögonblicksbilder av upplevelser genereras miniatyrer för dina upplevelser i aktivitetsarbetsflödesdiagrammet. Om du inaktiverar ögonblicksbilder kan vissa användare få bättre prestanda.
 
-## ![Konfiguration av Premium badge](/help/assets/premium.png) Mobile Viewport
+## ![Premium ](/help/assets/premium.png) badgeKonfiguration av visningsruta för mobil
 
 Du kan lägga till enheter som ska användas när du förhandsgranskar upplevelser. Varje enhet har en associerad målgrupp.
 
 ![Konfigurationsavsnitt för mobilvisningsport](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Klicka **[!UICONTROL Add]**, ange ett beskrivande namn för mobilvisningsrutan, ange bredd och höjd, markera önskat operativsystem och klicka sedan på [!UICONTROL Save].
+Klicka på **[!UICONTROL Add]**, ange ett beskrivande namn för mobilvisningsrutan, ange bredd och höjd, markera önskat operativsystem och klicka sedan på [!UICONTROL Save].
 
-Mer information om hur du lägger till en mobil visningsruta finns i Konfigurera [för](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)mobilvisningsruta.
+Mer information om hur du lägger till en mobilvisningsruta finns i [Konfiguration av mobilvisningsruta](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
 ## CSS-väljare {#css}
 
-Ange hur CSS-väljare ska [!DNL Target] genereras.
+Ange hur [!DNL Target] genererar CSS-väljare.
 
 ![Avsnittet CSS-väljare](/help/administrating-target/assets/css-selectors.png)
 
-Dessa alternativ hjälper till att [!DNL Target] förstå webbplatsens struktur och generera bättre CSS-väljare för innehållsleverans. Som standard [!DNL Target] genererar väljare baserat på element-ID på sidan. Om bara ett fåtal ID eller ID:n på samma sida används på platsen kan det vara bättre att använda klasser.
+Dessa alternativ hjälper [!DNL Target] att förstå webbplatsens struktur för att generera bättre CSS-väljare för innehållsleverans. Som standard genererar [!DNL Target] väljare baserat på element-ID:n på sidan. Om bara ett fåtal ID eller ID:n på samma sida används på platsen kan det vara bättre att använda klasser.
 
 Du kan välja ett eller båda av följande alternativ:
 
@@ -83,19 +83,19 @@ Avmarkera det här alternativet om samma ID används för flera element eller om
 
 ### Använd elementklasser
 
-Som standard använder [!DNL Target] endast element-ID:n. Om sidan är utformad för att använda klasser för att identifiera element, t.ex. en sida som skapats med, [!DNL Adobe Experience Manager]bör du även välja [!UICONTROL Use element classes].
+Som standard använder [!DNL Target] bara element-ID:n. Om sidan är utformad för att använda klasser för att identifiera element, till exempel en sida som skapats med [!DNL Adobe Experience Manager], bör du även välja [!UICONTROL Use element classes].
 
 >[!NOTE]
 >
 >Även om allt har gjorts för att säkerställa noggrannheten bör du vara medveten om att användning av klasser kan orsaka fel. Om du inte väljer något av alternativen påverkas även noggrannheten. Precisionsordningen är ID:n > klasser > inget av alternativen. Se alltid till att du testar sidan för att kontrollera att väljarna är korrekta.
 
-Du kan åsidosätta den här inställningen per aktivitet (klicka på [!UICONTROL Settings] kugghjulsikonen och välj sedan [!UICONTROL CSS Selectors]). Detta är särskilt användbart om du har flera platser som har konfigurerats på olika sätt.
+Du kan åsidosätta den här inställningen per aktivitet (klicka på kugghjulsikonen [!UICONTROL Settings] och välj sedan [!UICONTROL CSS Selectors]). Detta är särskilt användbart om du har flera platser som har konfigurerats på olika sätt.
 
 >[!NOTE]
 >
->Det går inte att åsidosätta inställningen per aktivitet i [!UICONTROL Automated Personalization] och [!UICONTROL Multivariate Testing] aktiviteter.  Mer information om väljare finns i [Elementväljare som används i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md) .
+>Det går inte att åsidosätta inställningen per aktivitet i [!UICONTROL Automated Personalization]- och [!UICONTROL Multivariate Testing]-aktiviteter.  Mer information om väljare finns i [Elementväljare som används i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
-## Utbildningsvideo: Kontoinställningar (7:33) ![Översikt, märke](/help/assets/overview.png)
+## Utbildningsvideo: Kontoinställningar (7:33) ![Märket Översikt](/help/assets/overview.png)
 
 Den här videon innehåller information om kontoinställningar.
 
@@ -103,6 +103,6 @@ Den här videon innehåller information om kontoinställningar.
 
 >[!NOTE]
 >
->Gränssnittet för [!DNL Target][!UICONTROL Administration] menyer (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
+>Menygränssnittet [!DNL Target] [!UICONTROL Administration] (tidigare [!UICONTROL Setup]) har omarbetats för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
