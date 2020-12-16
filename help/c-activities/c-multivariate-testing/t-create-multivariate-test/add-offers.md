@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Använd Visual Experience Composer (VEC) i Adobe Target för att skapa de erbjudanden du vill inkludera i ditt Multivariate Test (MVT).
 
-Mer information om hur du använder VEC för att skapa och redigera erbjudanden finns i Alternativ för [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Mer information om hur du använder VEC för att skapa och redigera erbjudanden finns i [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
->Du kan klicka **[!UICONTROL Expand Selection]** när du markerar objekt på sidan för att markera det överordnade elementet förutom det ursprungligen markerade elementet. När du markerar ett överordnat element markeras alla underordnade element automatiskt. Du kan expandera markeringen flera gånger.
+>Du kan klicka på **[!UICONTROL Expand Selection]** när du markerar objekt på sidan och markera det överordnade elementet förutom det element som ursprungligen markerats. När du markerar ett överordnat element markeras alla underordnade element automatiskt. Du kan expandera markeringen flera gånger.
 >
 >Du kan också använda [DOM-sökvägen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) för att navigera bland element.
 
@@ -45,7 +45,7 @@ Testa olika text-/HTML-erbjudanden på en plats för att avgöra vilket erbjudan
 
    ![Ändra text/HTML](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. Klicka **[!UICONTROL Add Text/HTML Offer]**, namnge erbjudandet och skriv eller klistra in koden för erbjudandet om text/HTML.
+1. Klicka på **[!UICONTROL Add Text/HTML Offer]**, namnge erbjudandet och skriv eller klistra in koden för erbjudandet om text/HTML.
 
    ![Redigera erbjudanden](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
