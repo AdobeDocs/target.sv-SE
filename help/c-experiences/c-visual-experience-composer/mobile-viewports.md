@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Mobilvisningsrutor för responsiva upplevelser{#mobile-viewports-for-responsive-experiences}
 
-Med mobilvisningsrutor kan du förhandsgranska hur dina [!DNL Target] aktiviteter visas på skärmar av olika storlek.
+Med mobilvisningsrutor kan du förhandsgranska hur dina [!DNL Target]-aktiviteter visas på skärmar av olika storlek.
 
 Förhandsvisningsfunktionen för mobilvisningsruta är utformad för responsiva webbplatser som återges bra på olika enheter, fönster och skärmstorlekar. Responsiva sajter justeras och anpassas automatiskt efter alla skärmstorlekar, inklusive stationära datorer, bärbara datorer, surfplattor och mobiltelefoner.
 
@@ -28,7 +28,7 @@ Förhandsvisningsfunktionen för mobilvisningsruta är utformad för responsiva 
 
 En visningsruta definieras av storleken på rektangeln som fylls av en webbsida på skärmen. Det är storleken på webbläsarfönstret, minus rullningslister och verktygsfält. I webbläsare används&quot;CSS-pixlar&quot;. För många enheter, t.ex. enheter med retina-skärmar, är visningsrutan mindre än den annonserade enhetsupplösningen.
 
-Nedan visas visningsrutor och upplösningar för vissa populära enheter. Kom ihåg att använda visningsrutans storlek i [!DNL Target]. På olika webbplatser visas visningsstorlekar för populära enheter. Se t.ex. [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) eller se enhetstillverkarens webbplats.
+Nedan visas visningsrutor och upplösningar för vissa populära enheter. Kom ihåg att använda visningsrutans storlek i [!DNL Target]. På olika webbplatser visas visningsstorlekar för populära enheter. Se t.ex. [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) eller läs mer på enhetstillverkarens webbplats.
 
 | Enhet | Storlek på visningsruta | Enhetsupplösning |
 |---|---|---|
@@ -78,7 +78,7 @@ Om du vill leverera en aktivitet till personer på en viss enhet väljer du läm
 
 Om du har en responsiv webbplats är webbplatsen vanligtvis utformad för att öppnas i en annan vy när den används av en enhet med en viss skärmstorlek. De skärmstorlekar som utlöser de nya vyerna kallas CSS-brytpunkter. CSS-brytpunkter är punkter där webbplatsinnehållet svarar beroende på enhetens bredd för att visa den optimala layouten för besökarna. CSS-brytpunkter kallas även [mediefrågor](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
 
-Spara dina CSS-brytpunkter i så [!DNL Target] att du kan förhandsgranska upplevelserna för varje vy du definierar. Var och en av dessa upplevelser visas i en mobilvisningsruta i [!DNL Target] gränssnittet. Öppna vyn för varje skärmstorlek genom att klicka på visningsrutan längst upp på skärmen.
+Spara dina CSS-brytpunkter i [!DNL Target] så att du kan förhandsgranska upplevelserna för varje vy du definierar. Var och en av dessa upplevelser visas i en mobil visningsruta i gränssnittet [!DNL Target]. Öppna vyn för varje skärmstorlek genom att klicka på visningsrutan längst upp på skärmen.
 
 Om webbplatsen inte är responsiv kan du fortfarande använda Mobile Web Composer för att visa en webbplats om aktiviteten är avsedd för en viss enhet.
 
@@ -86,16 +86,16 @@ Om webbplatsen inte är responsiv kan du fortfarande använda Mobile Web Compose
 >
 >Även om du kan redigera en upplevelse inifrån mobila visningsrutor gäller dessa ändringar alla visningsrutor och enheter, inte bara den visningsruta som du arbetar i. På samma sätt ändras sidan för alla skärmstorlekar, inte bara för skrivbordsvyn, när du redigerar en upplevelse i den normala skrivbordsvyn. För närvarande stöder vi inte ändringar av vyportsspecifika sidor.
 
-## Konfiguration för mobilvisningsruta {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Konfigurera visningsruta för mobilen {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Konfigurera de mobila visningsrutor som du vill göra tillgängliga när du skapar dina upplevelser.
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Om du vill lägga till en ny mobilvisningsruta klickar du i **[!UICONTROL Mobile viewports configuration]** avsnittet **[!UICONTROL Add]**.
+1. Om du vill lägga till en ny mobilvisningsruta klickar du på **[!UICONTROL Add]** i **[!UICONTROL Mobile viewports configuration]**-avsnittet.
 
    ![Lägg till visningsruta](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
-   Om du vill ändra konfigurationen för en befintlig mobilvisningsruta markerar du den visningsrutan och klickar sedan på [!UICONTROL Edit] (pennikonen).
+   Om du vill ändra konfigurationen för en befintlig mobilvisningsruta markerar du den visningsrutan och klickar sedan på pennikonen [!UICONTROL Edit].
 
 1. Ange ett namn för mobilvisningsrutan.
 
@@ -115,7 +115,7 @@ Konfigurera de mobila visningsrutor som du vill göra tillgängliga när du skap
    * Symbian
    * Blackberry
 
-   Om du använder [Förbättrad Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) och väljer ett operativsystem emuleras den enheten när du visar sidan [!DNL Target] . Om till exempel Android ser annorlunda ut och känns annorlunda än iOS på din responsiva webbplats liknar det beteendet. [!DNL Target]
+   Om du använder [Förbättrad Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) och väljer ett operativsystem emulerar [!DNL Target] den enheten när du visar sidan. Om till exempel Android ser annorlunda ut och känns annorlunda än iOS på din responsiva webbplats, påminner [!DNL Target] om beteendet.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -125,14 +125,14 @@ Konfigurera de mobila visningsrutor som du vill göra tillgängliga när du skap
 
 ## Skapa en responsiv upplevelse {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Lägg in mobila visningsrutor i era aktiviteter för att skapa responsiva upplevelser för mobila skärmar. [!DNL Target]
+Lägg till mobila visningsrutor i dina [!DNL Target]-aktiviteter för att skapa responsiva upplevelser för mobila skärmar.
 
 1. Skapa [önskad aktivitet](/help/c-activities/activities.md).
-1. I Visual Experience Composer klickar du på **[!UICONTROL Settings]** kugghjulsikonen och väljer sedan **[!UICONTROL Add Mobile Viewports]**.
+1. Klicka på kugghjulsikonen **[!UICONTROL Settings]** i Visual Experience Composer och välj sedan **[!UICONTROL Add Mobile Viewports]**.
 
    ![Alternativet Lägg till mobila visningsrutor](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Klicka på **[!UICONTROL Devices]** ikonen och aktivera sedan alla enheter som ska ha en mobil visningsruta.
+1. Klicka på ikonen **[!UICONTROL Devices]** och aktivera sedan alla enheter som ska ha en mobilvisningsruta.
 
    ![Aktivera mobila visningsrutor](/help/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -155,7 +155,7 @@ Lägg in mobila visningsrutor i era aktiviteter för att skapa responsiva upplev
 Det här användningsexemplet visar hur du konfigurerar upplevelser för två iPhone-versioner: iPhone 6 och iPhone 6 Plus.
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. I **[!UICONTROL Mobile Viewport Configuration]** avsnittet skapar du mobila visningsrutor för iPhone 6 och iPhone 6 Plus.
+1. I **[!UICONTROL Mobile Viewport Configuration]**-avsnittet skapar du mobila visningsrutor för iPhone 6 och iPhone 6 Plus.
 
    Använd följande inställningar för varje visningsruta:
 
@@ -180,7 +180,7 @@ Det här användningsexemplet visar hur du konfigurerar upplevelser för två iP
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Visuell Experience Composer (2 av 2) (7:29) ![Översikt, märke](/help/assets/overview.png)
+### Visual Experience Composer (2 av 2) (7:29) ![Översikt](/help/assets/overview.png)
 
 I följande demovideo finns information om hur du använder Visual Experience Composer för att arbeta med mobila visningsrutor:
 
@@ -193,7 +193,7 @@ I följande demovideo finns information om hur du använder Visual Experience Co
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Kontoinställningar i märket ![Översikt över Adobe Target](/help/assets/overview.png)
+### Kontoinställningar i Adobe Target ![Översikt](/help/assets/overview.png)
 
 Den här videon innehåller information om hur du ställer in mobila visningsrutor, med början vid 4:40 i videon.
 
