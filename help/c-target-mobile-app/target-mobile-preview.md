@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Förhandsvisning av målmobiler{#target-mobile-preview}
+# Förhandsvisning av målmobilen{#target-mobile-preview}
 
 Använd länken för förhandsgranskning av mobilmaterial för att enkelt skapa heltäckande QA för mobilappsaktiviteter och registrera dig för olika upplevelser direkt på din enhet utan några särskilda testenheter.
 
@@ -26,12 +26,12 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
 ## Förutsättningar {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **Använd en version av SDK som stöds:** För funktionen för förhandsgranskning för mobila enheter måste du hämta och installera lämplig version av 4.14 (eller senare) av Adobe Mobile SDK i dina motsvarande program.
+1. **Använd en version av SDK som stöds:** Mobilförhandsvisningsfunktionen kräver att du hämtar och installerar rätt version av 4.14 (eller senare) av Adobe Mobile SDK i dina motsvarande program.
 
    Anvisningar om hur du hämtar rätt SDK finns i:
 
-   * **iOS:** [Innan du börjar](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) i *hjälpen* för iOS-mobiltjänster.
-   * **Android:** [Innan du börjar](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) i Android-hjälpen *för* Mobile Services.
+   * **iOS:** [Innan du ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) startar  *hjälpen* för iOS-mobiltjänster.
+   * **Android:** [Innan du ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) startar Android-hjälpen *för* mobiltjänster.
 
 1. **Konfigurera ett URL-schema:** Förhandsgranskningslänken använder ett URL-schema för att öppna programmet. Du måste ange ett unikt URL-schema för förhandsgranskningen.
 
@@ -45,7 +45,7 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
 1. **Spåra Adobe DeepLink**
 
-   **iOS:** I programdelegaten ska du anropa `[ADBMobile trackAdobeDeepLink:url` när delegaten ombeds öppna resursen med det URL-schema som angavs i föregående steg.
+   **iOS:** I appdelegaten anropar du  `[ADBMobile trackAdobeDeepLink:url` när ombudet uppmanas att öppna resursen med det URL-schema som angavs i föregående steg.
 
    Följande kodfragment är ett exempel:
 
@@ -61,7 +61,7 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
    } 
    ```
 
-   **Android:** I appen anropar du `Config.trackAdobeDeepLink(URL);` när anroparen uppmanas att öppna resursen med det URL-schema som angavs i föregående steg.
+   **Android:** I appen anropar du  `Config.trackAdobeDeepLink(URL);` när anroparen uppmanas att öppna resursen med det URL-schema som angavs i föregående steg.
 
    ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
@@ -82,9 +82,9 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
-## Skapa en förhandsgranskningslänk {#section_D9D58173FFF34E9BB75EBF357273F128}
+## Genererar en förhandsgranskningslänk {#section_D9D58173FFF34E9BB75EBF357273F128}
 
-1. Klicka på **[!UICONTROL More Options]** ikonen (tre lodräta ellipser) i målgränssnittet och markera sedan **[!UICONTROL Create Mobile Preview]**.
+1. Klicka på ikonen **[!UICONTROL More Options]** (tre lodräta ellipser) i målgränssnittet och välj sedan **[!UICONTROL Create Mobile Preview]**.
 
    ![](assets/mobile-preview-create.png)
 
@@ -102,7 +102,7 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
    ![](assets/mobile-preview-enter-url-scheme.png)
 
-1. Klicka **[!UICONTROL Generate Mobile Preview Link]** och kopiera sedan länken.
+1. Klicka på **[!UICONTROL Generate Mobile Preview Link]** och kopiera sedan länken.
 
    ![](assets/mobile-preview-generate-and-copy.png)
 
@@ -114,16 +114,16 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
 
    Dela länken som du kopierade i föregående steg från målgränssnittet till den mobila enheten på ett smidigt sätt, till exempel med text, e-post eller Slack.
 
-   |![förhandsgranska djup länk 1](/help/c-target-mobile-app/assets/mobile-preview-open-deeplink.png)|![förhandsgranska djup länk 2](/help/c-target-mobile-app/assets/mobile-preview-open-app.png)|
+   |![förhandsgranska djuplänk 1](/help/c-target-mobile-app/assets/mobile-preview-open-deeplink.png)|![förhandsgranska djuplänk 2](/help/c-target-mobile-app/assets/mobile-preview-open-app.png)|
 
    Ditt program öppnas och målläget för mobilförhandsvisning startas.
 
 1. Välj den kombination av upplevelser som du vill se och klicka sedan på **[!UICONTROL Launch Experiences]**.
 
    |![mobilförhandsvisning 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobilförhandsvisning 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobilförhandsvisning 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
-|![mobilförhandsgranskning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobilförhandsgranskning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobilförhandsgranskning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
+|![mobilförhandsgranskning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobilförhandsvisning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobilförhandsvisning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
 
 ## Begränsningar {#section_4E9BDED0F718485292527EFB508305BD}
 
-* Vyn måste läsas in igen för att det nya innehållet ska visas när användaren klickar på [!UICONTROL Launch Experiences] knappen. Det enklaste sättet är att växla till en annan skärm och sedan gå tillbaka till skärmen där du väntar dig att ändringen ska ske.
+* Vyn måste läsas in igen för att det nya innehållet ska visas när du klickar på knappen [!UICONTROL Launch Experiences]. Det enklaste sättet är att växla till en annan skärm och sedan gå tillbaka till skärmen där du väntar dig att ändringen ska ske.
 * Mobilförhandsvisning stöds inte för Android-versioner tidigare än API-19 (KitKat).
