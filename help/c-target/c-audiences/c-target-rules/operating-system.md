@@ -16,16 +16,16 @@ ht-degree: 2%
 
 Du kan rikta in dig på besökare som använder ett visst operativsystem.
 
-1. I [!DNL Target] gränssnittet klickar du **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Ge publiken ett namn.
 1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Operating System]**.
-1. Klicka på **[!UICONTROL Select]** och välj sedan något av följande alternativ:
+1. Klicka på **[!UICONTROL Select]** och välj sedan ett av följande alternativ:
 
    * Linux
    * Macintosh
    * Windows
 
-1. (Valfritt) Klicka **[!UICONTROL Add Rule]** och ange ytterligare regler för publiken.
+1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Save]**.
 
 Följande bilder visar en målgrupp som riktar sig till besökare med Macintosh OS.
