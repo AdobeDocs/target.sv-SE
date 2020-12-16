@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Inkludera samma upplevelse på liknande sidor
 
-Använd en sidmall i [!DNL Adobe Target] för att strukturera sidorna, eller om sidorna innehåller liknande element, för att testa variationer i liknande strukturerade sidelement eller i hela domänen.
+Använd en sidmall i [!DNL Adobe Target] om du vill strukturera sidorna, eller om sidorna innehåller liknande element, om du vill testa variationer i liknande strukturerade sidelement eller i hela domänen.
 
 För att funktionen ska fungera på rätt sätt måste den användas på sidor som har en liknande struktur eller innehåller mallelement som är strukturerade på samma sätt på alla sidor.
 
@@ -33,15 +33,15 @@ Du kan ange sidor som innehåller ändringselementen eller tillämpa ändringen 
 
 1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Om du vill ange på vilka sidor upplevelsen ska visas klickar du på kugghjulsikonen i [!UICONTROL Visual Experience Composer] (VEC) och väljer **[!UICONTROL Page Delivery]**.
+1. Om du vill ange vilka sidor som upplevelsen ska visas på klickar du på kugghjulsikonen i [!UICONTROL Visual Experience Composer] (VEC) och väljer sedan **[!UICONTROL Page Delivery]**.
 
    ![Kugghjulsikon > Sidleverans](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. Klicka **[!UICONTROL Add Template Rule]** och ange sedan villkoren för de sidor som du vill lägga till upplevelsen i.
+1. Klicka på **[!UICONTROL Add Template Rule]** och ange sedan villkoren för sidorna som du vill lägga till upplevelsen i.
 
 1. Ange sidintervall. Sidintervallet kan vara något av följande:
 
-   * URL (Mer information om hur Target utvärderar URL:er finns i Vanliga frågor om [mål och målgrupper](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (Mer information om hur Target utvärderar URL:er finns i [Vanliga frågor om mål och målgrupper](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domän
    * Bana
    * Hash-fragment (#) (ange den del av en URL som följer efter symbolen # som mål.)
@@ -61,7 +61,7 @@ Du kan ange sidor som innehåller ändringselementen eller tillämpa ändringen 
 
 1. Skriv strängarna som definierar var upplevelsen läggs till, till exempel domänen eller strängarna som finns i sidnamnet.
 
-   Om du t.ex. väljer **[!UICONTROL Domain]** och **[!UICONTROL Is (case sensitive)]** skriver du den domän där du vill att upplevelsen ska läggas till på alla sidor.
+   Om du till exempel väljer **[!UICONTROL Domain]** och **[!UICONTROL Is (case sensitive)]** skriver du den domän där du vill att upplevelsen ska läggas till på alla sidor.
 
    Du kan inkludera flera objekt.
 
@@ -99,7 +99,7 @@ Du kan överväga att använda mallregler för att återge samma aktivitet i hel
 
    ![Domänen innehåller](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Utbildningsvideo: Visual Experience Composer (2 av 2) (7:29) ![Självstudiemärke](/help/assets/tutorial.png)
+## Utbildningsvideo: Visual Experience Composer (2 av 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Byta namn på och duplicera en upplevelse
 * Skapa en omdirigeringsupplevelse
