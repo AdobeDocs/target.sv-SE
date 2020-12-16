@@ -12,21 +12,21 @@ ht-degree: 0%
 ---
 
 
-# Sekretess- och dataskyddsbestämmelser {#privacy-and-general-data-protection-regulation-gdpr}
+# Sekretess- och dataskyddsregler {#privacy-and-general-data-protection-regulation-gdpr}
 
 Information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar er organisation och Adobe Target.
 
-## Översikt över dataskyddsförordningen och den allmänna dataskyddsförordningen {#topic_DE567ECB6C944695AEE5073889F1AEA9}
+## Översikt över sekretess och allmänna dataskyddsförordningen (GDPR) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
 Den 25 maj 2018 trädde Europeiska unionens allmänna dataskyddsprogram i kraft. Mer information om vad detta innebär för dig finns i [GDPR och Ditt företag](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
-När [!DNL Adobe] tillhandahåller programvara och tjänster till ett företag [!DNL Adobe] fungerar som databehandlare för alla personuppgifter som bearbetas och lagras som en del av tillhandahållandet av dessa tjänster. Som databehandlare behandlar [!DNL Adobe] personuppgifter i enlighet med ditt företags tillstånd och instruktioner (till exempel enligt vad som anges i ditt avtal med [!DNL Adobe]).
+När [!DNL Adobe] tillhandahåller programvara och tjänster till ett företag fungerar [!DNL Adobe] som dataprocessor för alla personuppgifter som bearbetas och lagras som en del av tillhandahållandet av dessa tjänster. Som databehandlare behandlar [!DNL Adobe] personuppgifter i enlighet med ditt företags tillstånd och instruktioner (till exempel enligt vad som anges i ditt avtal med [!DNL Adobe]).
 
-Som personuppgiftsansvariga avgör du vilka personuppgifter som [!DNL Adobe] bearbetas och lagras åt dig. Om du använder [!DNL Adobe Experience Cloud] lösningar [!DNL Adobe] kan lagra personuppgifter för dig, beroende på vilka lösningar du använder och vilken information du väljer att skicka till ditt [!DNL Adobe Experience Cloud] konto. En detaljerad lista över exempel finns i [Adobe Experience Cloud Integritet](https://www.adobe.com/privacy/marketing-cloud.html#collect).
+Som Data Controller bestämmer du vilka personuppgifter [!DNL Adobe] behandlar och lagrar åt dig. Om du använder [!DNL Adobe Experience Cloud]-lösningar kan [!DNL Adobe] vara värd för dina personuppgifter, beroende på vilka lösningar du använder och vilken information du väljer att skicka till ditt [!DNL Adobe Experience Cloud]-konto. En detaljerad lista med exempel finns i [Adobe Experience Cloud Integritet](https://www.adobe.com/privacy/marketing-cloud.html#collect).
 
 [!DNL Adobe Experience Cloud] tillhandahålla GDPR-förberedda API:er för datacentraler som gör att de kan utföra följande uppgifter:
 
-* Åtkomst till information om registrerade personer som lagras i [!DNL Target]
+* Åtkomst till information om registrerade som lagras i [!DNL Target]
 * Ta bort information om registrerade som lagras i [!DNL Target]
 
 Mer information finns i:
@@ -53,9 +53,9 @@ Om du var upptagen med att förbereda dig för Europas integritetslagstiftning (
 
 ## Adobe Target och [!DNL Experience Platform Launch] deltagande {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] ger support för tillvalsfunktioner via [!DNL Launch] för att hjälpa er strategi för samtyckeshantering. Med avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen aktiveras. Det finns också ett alternativ [!DNL Launch] för att förgodkänna [!DNL Target] -taggen. Om du vill aktivera möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket bör du använda `targetGlobalSettings` och lägga till `optinEnabled=true` inställningen. I [!DNL Launch] måste du välja&quot;enable&quot; i [!UICONTROL GDPR Opt-In] listrutan i installationsvyn för [!DNL Launch] tillägget. Mer information finns i [startdokumentationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
+[!DNL Target] ger support för tillvalsfunktioner via  [!DNL Launch] för att hjälpa er strategi för samtyckeshantering. Med avanmälningsfunktionen kan kunderna styra hur och när taggen [!DNL Target] aktiveras. Det finns också ett alternativ via [!DNL Launch] för att förgodkänna taggen [!DNL Target]. Om du vill aktivera möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket bör du använda `targetGlobalSettings` och lägga till inställningen `optinEnabled=true`. I [!DNL Launch] måste du välja &quot;enable&quot; i listrutan [!UICONTROL GDPR Opt-In] i installationsvyn för [!DNL Launch]-tillägget. Mer information finns i [startdokumentationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
-I följande kodutdrag visas hur du aktiverar `optinEnabled=true` inställningen:
+Följande kodfragment visar hur du aktiverar inställningen `optinEnabled=true`:
 
 ```
 window.targetGlobalSettings = {
@@ -67,13 +67,13 @@ window.targetGlobalSettings = {
 >
 >Opt-in-funktionaliteten stöds i at.js version 1.7.0 och at.js 2.1.0 eller senare. Opt-in stöds inte i version 2.0.0 och 2.0.1 av at.js.
 >
->Vi rekommenderar att du använder [!DNL Experience Platform Launch] för att hantera anmälan. Det finns ytterligare detaljkontroll för [!DNL Launch] att dölja valda delar av sidan före [!DNL Target] lanseringen som kan utnyttjas som en del av er strategi för samtycke.
+>Vi rekommenderar att du använder [!DNL Experience Platform Launch] för att hantera anmälan. Ytterligare detaljkontroll finns i [!DNL Launch] för att dölja valda element på sidan före [!DNL Target]-utsändning som är till hjälp för att utnyttja som en del av er strategi för samtycke.
 
 Det finns tre scenarier att tänka på när du använder Opt-In:
 
-1. **Taggen [!DNL Target] godkänns på förhand [!DNL Launch] (eller den registrerade som tidigare godkänts [!DNL Target]):** Taggen [!DNL Target] sparas inte för samtycke och fungerar som förväntat.
-1. **Taggen [!DNL Target] är INTE förgodkänd och `bodyHidingEnabled` är FALSE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Efter det att samtycke mottagits [!DNL Target] anropas det och personaliserat innehåll är tillgängligt för den registrerade (besökaren). Eftersom endast standardinnehåll är tillgängligt före samtycke är det viktigt att utnyttja en lämplig strategi, till exempel en välkomstsida som täcker alla delar av sidan eller innehåll som kan personaliseras. Detta garanterar att upplevelsen är enhetlig för den registrerade (besökaren).
-1. **Taggen [!DNL Target] är INTE förgodkänd och `bodyHidingEnabled` är TRUE:** Taggen [!DNL Target] aktiveras först när kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Men eftersom `bodyHidingEnabled` är inställt på true `bodyHiddenStyle` avgör vilket innehåll på sidan som döljs tills [!DNL Target] -taggen aktiveras (eller så avvisar den registrerade möjligheten att välja, vilket innebär att standardinnehåll visas). Som standard `bodyHiddenStyle` anges till `body { opacity:0;}`, vilket döljer HTML-body-taggen. Den rekommenderade sidkonfigurationen visas nedan så att hela sidans innehåll, förutom dialogrutan för hantering av samtycke, döljs genom att sidans innehåll placeras i en behållare och dialogrutan för hantering av samtycke i en separat behållare. Den här inställningen konfigureras [!DNL Target] så att endast sidinnehållsbehållaren döljs. Mer information om hur du konfigurerar de här inställningarna finns i [Startdokumentationen](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
+1. **Taggen  [!DNL Target] godkänns i förväg via  [!DNL Launch] (eller den registrerade som tidigare godkänts  [!DNL Target]):** Taggen  [!DNL Target] behålls inte för samtycke och fungerar som förväntat.
+1. **Taggen  [!DNL Target] är INTE förgodkänd och  `bodyHidingEnabled` är FALSE:** Taggen  [!DNL Target] utlöses endast efter att kunden har gett sitt samtycke. Innan samtycke samlas in är endast standardinnehåll tillgängligt. När samtycke har tagits emot anropas [!DNL Target] och personaliserat innehåll är tillgängligt för den registrerade (besökaren). Eftersom endast standardinnehåll är tillgängligt före samtycke är det viktigt att utnyttja en lämplig strategi, till exempel en välkomstsida som täcker alla delar av sidan eller innehåll som kan personaliseras. Detta garanterar att upplevelsen är enhetlig för den registrerade (besökaren).
+1. **Taggen  [!DNL Target] är INTE förgodkänd och  `bodyHidingEnabled` är TRUE:** Taggen  [!DNL Target] aktiveras först när kunden har godkänt den. Innan samtycke samlas in är endast standardinnehåll tillgängligt. Eftersom `bodyHidingEnabled` är inställt på true anger `bodyHiddenStyle` vilket innehåll på sidan som är dolt tills taggen [!DNL Target] aktiveras (eller så avvisar den registrerade möjligheten att välja, i vilket fall standardinnehållet visas). Som standard är `bodyHiddenStyle` inställt på `body { opacity:0;}`, vilket döljer HTML-body-taggen. Den rekommenderade sidkonfigurationen visas nedan så att hela sidans innehåll, förutom dialogrutan för hantering av samtycke, döljs genom att sidans innehåll placeras i en behållare och dialogrutan för hantering av samtycke i en separat behållare. Den här konfigurationen konfigurerar [!DNL Target] så att endast sidinnehållsbehållaren döljs. Mer information om hur du konfigurerar inställningarna](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html) finns i [Startdokumentationen.
 
    Rekommenderad sidinställning för scenario 3 är:
 
@@ -97,7 +97,7 @@ Det finns tre scenarier att tänka på när du använder Opt-In:
    </html> 
    ```
 
-   Anta `bodyHiddenStyle` att:
+   Anta `bodyHiddenStyle` för:
 
    ```
    #pageContent { opacity:0;}
@@ -111,13 +111,13 @@ Vanliga frågor och svar om EU:s allmänna dataskyddsförordning (GDPR), Kalifor
 
 [!DNL Adobe] uppfyller eller genomför redan våra skyldigheter som databehandlare. Vi har en stark grund för certifierade säkerhets- och integritetskontroller utifrån design och har gjort produktförbättringar före tidsfristen i maj 2018. Företagskunder ansvarar för att implementera dessa förbättringar samt att uppdatera nödvändiga policyer och procedurer.
 
-### Kommer mitt företag, Data Controller, att behöva skicka en GDPR- eller CCPA-begäran till varje [!DNL Adobe Experience Cloud] lösning som det använder? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### Kommer mitt företag, Data Controller, att behöva skicka en GDPR- eller CCPA-begäran till varje [!DNL Adobe Experience Cloud]-lösning som det använder? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
 Nej, [!DNL Adobe] är ett centralt sätt att hjälpa datakontroller att uppfylla sina GDPR- och CCPA-krav. Datakontroller behöver inte gå direkt till varje lösning.
 
-Alla GDPR- och CCPA-förfrågningar över olika [!DNL Experience Cloud] lösningar, inklusive [!DNL Target]dessa, kommer att göras via ett centralt Adobe-API, som för närvarande kallas GDPR-API. API:t slutför sedan begäran i Data Controller- [!DNL Experience Cloud] lösningspaketet.
+Alla GDPR- och CCPA-begäranden i [!DNL Experience Cloud]-lösningar, inklusive [!DNL Target], görs via ett centralt Adobe-API, som för närvarande kallas GDPR-API. API:t slutför sedan begäran i Data Controller-lösningspaketet [!DNL Experience Cloud].
 
-### Vilken information kommer våra kunder att [!DNL Adobe] kunna radera som svar på en begäran från en registrerade/användare? {#section_4B51D00924EC4166B2442218B69214F0}
+### Vilken information kommer [!DNL Adobe] att göra det möjligt för våra kunder att radera som svar på en begäran från en registrerad användare/användare? {#section_4B51D00924EC4166B2442218B69214F0}
 
 Informationen om en enskild besökare i [!DNL Target] finns i [!DNL Target] besökarprofilen. [!DNL Target] gör det möjligt för våra kunder att ta bort alla data som är kopplade till ett ID i deras besökarprofil. Exempel på profildataarkiv [!DNL Target] finns i [Besökarprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
@@ -125,7 +125,7 @@ Sammanställda eller anonyma data (t.ex. rapportdata) som inte identifierar en v
 
 [!DNL Target] Besökarprofiler som har varit inaktiva i 90 dagar tas bort som standard, utan någon åtgärd.
 
-### Vilka ID:n stöds för att hjälpa kunderna att slutföra en GDPR- eller CCPA-begäran om åtkomst och borttagning [!DNL Target]? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### Vilka ID:n stöds för att hjälpa kunderna att slutföra en GDPR- eller CCPA-begäran om åtkomst och borttagning för [!DNL Target]? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 [!DNL Target] har stöd för följande ID-typer för att hitta en kundprofil:
 
@@ -137,31 +137,31 @@ Sammanställda eller anonyma data (t.ex. rapportdata) som inte identifierar en v
 
 >[!NOTE]
 >
->Även om [!DNL Target] stöd finns för cookies mellan domäner från både första part och från tredje part, rekommenderas endast cookies [!DNL Target] från första part för GDPR och CCPA.
+>Även om [!DNL Target] har stöd för både cookies mellan domäner från första part och tredjeparts, rekommenderas endast cookies från första part för GDPR och CCPA.[!DNL Target]
 
-### Hur [!DNL Target] hanterar vi samtyckeshantering? {#section_C86BF5EE4FAA47039659850E7594A6BA}
+### Hur hanterar [!DNL Target] samtyckeshantering? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
-GDPR och CCPA ändras inte när du behöver få samtycke, utan hur du får det. Varje kunds strategi för samtycke är beroende av dess datainsamling och dataanvändning samt av dess integritetspolicy. Samtyckeshantering stöds inte av och bör inte göras via [!DNL Target] GDPR och CCPA.
+GDPR och CCPA ändras inte när du behöver få samtycke, utan hur du får det. Varje kunds strategi för samtycke är beroende av dess datainsamling och dataanvändning samt av dess integritetspolicy. Hantering av samtycke stöds inte av och bör inte göras via [!DNL Target] för GDPR och CCPA.
 
-[!DNL Adobe] erbjuder för närvarande inte någon lösning för hantering av samtycke, men det finns olika verktyg på marknaden som kan hantera vissa av de nya kraven. Mer information om sekretessverktyg i allmänhet, inklusive medgivandeansvariga, finns i [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) på webbplatsen *International Association of Privacy Professionals (iaap)* .
+[!DNL Adobe] erbjuder för närvarande inte någon lösning för hantering av samtycke, men det finns olika verktyg på marknaden som kan hantera vissa av de nya kraven. Mer information om sekretessverktyg i allmänhet, inklusive samtyckeshanterare, finns i [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) på *webbplatsen Association of Privacy Professionals (iaap)*.
 
-[!DNL Target] ger support för tillvalsfunktioner via [!DNL Launch] för att ge support för er strategi för samtyckeshantering. Med avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen aktiveras. Det finns också ett alternativ [!DNL Launch] för att förgodkänna [!DNL Target] -taggen. Vi rekommenderar att du använder [!DNL Launch] för att hantera anmälan. Det finns ytterligare detaljkontroll för [!DNL Launch] att dölja vissa delar av sidan före [!DNL Target] starten som kan vara till hjälp för att dra nytta av er strategi för samtycke.
+[!DNL Target] har stöd för tillvalsfunktioner via  [!DNL Launch] för att ge support för er strategi för samtyckeshantering. Med avanmälningsfunktionen kan kunderna styra hur och när taggen [!DNL Target] aktiveras. Det finns också ett alternativ via [!DNL Launch] för att förgodkänna taggen [!DNL Target]. Vi rekommenderar att du använder [!DNL Launch] för att hantera anmälan. Det finns ytterligare detaljkontroll i [!DNL Launch] för att dölja vissa element på sidan före utsändning av [!DNL Target] som kan vara till hjälp för att utnyttja som en del av er strategi för samtycke.
 
-Mer information om GDPR, CCPA och [!DNL Launch]finns [i Adobe Privacy JavaScript Library och GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Se även avsnittet om deltagande *för* Adobe Target och Experience Platform Launch ovan.
+Mer information om GDPR, CCPA och [!DNL Launch] finns i [JavaScript-biblioteket för Adobe och GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Se även avsnittet *Adobe Target och Experience Platform Launch opt-in* ovan.
 
 ### Skickar AdobePrivacy.js information till GDPR-API:t? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
-[!DNL AdobePrivacy.js] skickar *inte* den här informationen till API:t. Kunden måste göra det. Det här biblioteket innehåller bara de ID:n som lagras i webbläsaren för den specifika besökaren.
+[!DNL AdobePrivacy.js] skickar  ** inte den här informationen till API:t. Kunden måste göra det. Det här biblioteket innehåller bara de ID:n som lagras i webbläsaren för den specifika besökaren.
 
 ### Vad tar removeIdentities bort? {#section_D3A1591EA1B84C499CE1563DEAF32448}
 
-[!DNL removeIdentities] *tar bara* bort dessa identiteter från webbläsaren, och det beror bara på om [!DNL Adobe] lösningen har implementerat den.
+[!DNL removeIdentities] *Tar* bara bort dessa identiteter från webbläsaren, och det beror bara på om  [!DNL Adobe] lösningen har implementerat den.
 
-Tar till exempel [!DNL Target] bort cookies som lagrar sina ID:n, men [!DNL Adobe Audience Manager] (AAM) tar inte bort det demdex-ID som lagras i en cookie från tredje part.
+Till exempel tar [!DNL Target] bort cookies som lagrar ID:n, men [!DNL Adobe Audience Manager] (AAM) tar inte bort det demdex-ID som lagras i en cookie från tredje part.
 
 ### Vilken information behöver inkluderas i en Target GDPR- eller CCPA-begäran? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
-Utöver kraven från den centrala Privacy Servicen [!DNL Target] innehåller ett giltigt GDPR- eller CCPA-meddelande:
+Utöver kraven från Central Privacy Service innehåller ett giltigt GDPR- eller CCPA-meddelande för [!DNL Target]:
 
 ```
 { 
@@ -211,9 +211,9 @@ Utöver kraven från den centrala Privacy Servicen [!DNL Target] innehåller ett
 
 ### Vilket svar skickar Target till GDPR API för en åtkomstbegäran? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
-Svar på begäran om åtkomst av data innehåller en sammanfattning av den aktuella besökarens [!DNL Target] profil. Observera att denna retur skickas till [!DNL Experience Cloud] GDPR API, som i sin tur skickar ett svar till Data Controllers.
+Svar på begäran om åtkomst av data innehåller en sammanfattning av [!DNL Target]-profilen för den aktuella besökaren. Observera att denna retur skickas till GDPR-API:t [!DNL Experience Cloud], som i sin tur skickar ett svar till Data Controllers.
 
-Ett exempel på [!DNL Target] åtkomst-API-svar kan se ut så här:
+Ett exempel på [!DNL Target] API-svar för åtkomst kan se ut så här:
 
 ```
 { 
@@ -261,9 +261,9 @@ Ett exempel på [!DNL Target] åtkomst-API-svar kan se ut så här:
 | value | ID för namnområdet/datakällan. Se&quot;Vilka ID:n stöds för att hjälpa kunderna att slutföra en GDPR- eller CCPA-begäran om åtkomst och borttagning för Target?&quot; för godkända värden. |
 | integrationskod | Integrationskoder är egna namn för datakällorna och hjälper dig att spåra datakällorna enklare än att använda ID:n för datakällor. |
 
-När flera värden anges för att identifiera profiler har varje giltig identifierare en profilfil. Profilfilerna skickas till den centrala GDPR Azure-blobben via det centrala API:t för GDPR, i formatet JSON- [!DNL Target] profilsvar.
+När flera värden anges för att identifiera profiler har varje giltig identifierare en profilfil. Profilfilerna skickas till den centrala GDPR Azure-blobben via GDPR Central API:t, i formatet [!DNL Target] Profile JSON-svar.
 
-Ett exempel på en JSON- [!DNL Target] profil kan se ut som i följande exempel:
+Ett exempel på en [!DNL Target]-profil-JSON kan se ut som i följande exempel:
 
 ```
 {"profileAttributes": 
@@ -283,18 +283,18 @@ Följande tabell innehåller en beskrivning av JSON-fälten för den illustrativ
 
 | Fält | Beskrivning |
 |--- |--- |
-| Sample_Parameter | Många informationsdelar i profilen överförs eller tillhandahålls direkt av [!DNL Target] Data Controller. I det här exemplet överfördes en parameter till [!DNL Target] profilen med hjälp av API:t för profiluppdatering. Mer information finns i [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | Många informationsdelar i [!DNL Target]-profilen överförs eller tillhandahålls direkt av Data Controller. I det här exemplet överfördes en parameter till profilen [!DNL Target] med API:t för profiluppdatering. Mer information finns i [Metoder för att hämta data till målet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
 | user.ReturnTimeOfDay | I det här standardfältet anges tiden på dagen för en användares senaste besök. |
 | firstSessionStart | Detta standardfält innehåller den tid på dagen då användarens första session påbörjades. |
-| user.sessionCountScript | Många informationsdelar i profilen överförs eller tillhandahålls direkt av [!DNL Target] Data Controller. I det här exemplet ökar ett profilskript antalet sessioner som den här besökaren har gjort på Data Controller-platsen. Mer information finns i [Profilskriptattribut](/help/c-target/c-visitor-profile/profile-parameters.md). |
+| user.sessionCountScript | Många informationsdelar i [!DNL Target]-profilen överförs eller tillhandahålls direkt av Data Controller. I det här exemplet ökar ett profilskript antalet sessioner som den här besökaren har gjort på Data Controller-platsen. Mer information finns i [Profilskriptattribut](/help/c-target/c-visitor-profile/profile-parameters.md). |
 
 >[!NOTE]
 >
->Det här är en förkortad version av en JSON- [!DNL Target] profil för illustrationsändamål. Många av profilens fält är inte standard [!DNL Target] . Vad som returneras beror på vilken information som finns i den specifika besökarprofilen.
+>Det här är en förkortad version av en [!DNL Target]-profil-JSON för illustrationssyfte. Många av fälten i [!DNL Target]-profilen är inte standard. Vad som returneras beror på vilken information som finns i den specifika besökarprofilen.
 
 ### Har Target stöd för IP-förfalskning? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Sekretess](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
 ### Behöver jag göra något för att förhindra att mina data delas eller säljs till tredje part?
 
