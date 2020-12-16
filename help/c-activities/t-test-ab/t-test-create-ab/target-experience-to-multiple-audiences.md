@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Målgrupper med olika upplevelser i ett A/B-test{#multiple-experience-versions-in-an-a-b-test}
+# Målgrupper med flera upplevelser i ett A/B-test{#multiple-experience-versions-in-an-a-b-test}
 
 Ni kan rikta olika versioner av samma upplevelse till olika målgrupper i A/B-aktiviteter. Du kan konfigurera flera målgrupper för en upplevelse i Visual Experience Composer eller i den formulärbaserade Experience Composer.
 
@@ -30,7 +30,7 @@ Ni testar två upplevelser, en geofylld banderoll jämfört med en allmän bande
 
 I det här fallet behöver du geospecifika versioner av upplevelsen, så att du kan testa den riktade upplevelsen mot en icke-geografisk kontroll.
 
-1. [Skapa en A/B-aktivitet](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) som vanligt.
+1. [Skapa en A/B-](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) aktivitet som vanligt.
 
    När du konfigurerar en upplevelse som ska ha flera versioner väljer du målgrupp för varje version, vilket visas i följande steg.
 
@@ -38,11 +38,11 @@ I det här fallet behöver du geospecifika versioner av upplevelsen, så att du 
 
    ![Flera publiker, alternativ](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Klicka **[!UICONTROL Add Audience]** och välj sedan den första målgruppen. Upprepa för varje publik.
+1. Klicka på **[!UICONTROL Add Audience]** och välj sedan den första målgruppen som du vill ha som mål. Upprepa för varje publik.
 
    ![](assets/exp-versions.png)
 
-   Om målgruppen ännu inte finns klickar du på [Skapa publik](/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) och ställer in den.
+   Om målgruppen inte finns än klickar du på [Skapa målgrupp](/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) och ställer in den.
 
    Om en besökare kvalificerar sig för mer än en målgrupp returneras innehållet för alla målgrupper, och det sista innehållet i listan återges faktiskt på sidan.
 
