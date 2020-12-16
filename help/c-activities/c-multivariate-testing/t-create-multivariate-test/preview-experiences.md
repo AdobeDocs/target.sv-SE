@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Eftersom ett multivariata test jämför flera olika upplevelser på en sida är det bra att förhandsgranska sidan med varje upplevelse.
 
-1. Klicka på i Experience Composer **[!UICONTROL Preview]**.
+1. Klicka på **[!UICONTROL Preview]** i Experience Composer.
 
    En lista över alla upplevelser visas.
 
@@ -23,7 +23,7 @@ Eftersom ett multivariata test jämför flera olika upplevelser på en sida är 
 
 1. Klicka på en upplevelse i listan för att visa den upplevelsen.
 
-1. Om du vill utesluta en eller flera upplevelser från multivariata tester väljer du de önskade upplevelserna och klickar sedan på **[!UICONTROL Exclude]**.
+1. Om du vill utesluta en eller flera upplevelser från multivariattestet väljer du de önskade upplevelserna och klickar sedan på **[!UICONTROL Exclude]**.
 
    ![Exkludera upplevelser](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -35,5 +35,5 @@ Eftersom ett multivariata test jämför flera olika upplevelser på en sida är 
 
    Som standard ingår alla upplevelser i multivariattestet. Om du vill ta med en upplevelse som har uteslutits väljer du den uteslutits och klickar på **[!UICONTROL Include]**.
 
-Klicka för **[!UICONTROL Exit Preview Mode]** att återgå till Experience Composer så att du kan göra ändringar, eller klicka för **[!UICONTROL Continue]** att gå till testsammanfattningen.
+Klicka på **[!UICONTROL Exit Preview Mode]** för att återgå till Experience Composer så att du kan göra ändringar, eller klicka på **[!UICONTROL Continue]** för att gå till testsammanfattningen.
 
