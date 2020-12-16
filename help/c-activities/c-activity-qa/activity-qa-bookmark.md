@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Activity QA bookmarklet{#activity-qa-bookmarklet}
 
-Information som hjälper dig att använda [!DNL Target] QA-bokmärket för att tvinga dig [!DNL Target] att släppa dig från QA-läge.
+Information som hjälper dig att använda QA-bokmärket [!DNL Target] för att tvinga [!DNL Target] att släppa dig från QA-läget.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Information som hjälper dig att använda [!DNL Target] QA-bokmärket för att t
 
 ## Activity QA bookmarklet for at.js 1.*x*
 
-Eftersom [QA-läget](/help/c-activities/c-activity-qa/activity-qa.md) är fast måste din [!DNL Target] session förfalla när du har bläddrat på en webbplats i QA-läge, annars måste du ha [!DNL Target] släppt dig från QA-läge innan du kan visa webbplatsen som en vanlig besökare. Använd QA- [!DNL Target] bokmärket för att tvinga dig ut ur QA-läget.
+Eftersom [QA-läget](/help/c-activities/c-activity-qa/activity-qa.md) är fast måste din [!DNL Target]-session förfalla när du har bläddrat på en webbplats i QA-läge, annars måste du ha [!DNL Target] släppt dig från QA-läge innan du kan visa webbplatsen som en vanlig besökare. Använd QA-bokmärket [!DNL Target] om du vill tvinga dig själv från QA-läget.
 
-Om du vill använda [!DNL Target] QA-bokmärket skapar du ett bokmärke som innehåller följande JavaScript-kod och lägger till den i webbläsarens bokmärkesverktygsfält:
+Om du vill använda ett [!DNL Target] QA-bokmärke skapar du ett bokmärkesdiagram som innehåller följande JavaScript-kod och lägger till det i webbläsarens bokmärkesverktygsfält:
 
 ```javascript
 javascript:(
@@ -51,9 +51,9 @@ Exempel:
 
 ## Activity QA bookmarklet for at.js 2.*x*
 
-Till skillnad från at.js 1.*x*, at.js 2.*x* stöder inte cookies från tredje part, och QA-läget är bara klisterlöst för förstahandsdomänen (genom en cookie som har angetts av at.js). I at.js 2.*x*, session i QA-läge hanteras bara på klientsidan och inga QA-lägescookies skickas till Target.
+Till skillnad från at.js 1.*x*, at.js 2.*XS har* inte stöd för cookies från tredje part, och QA-läget är bara klisterlöst för förstahandsdomänen (genom en cookie som har angetts av at.js). I at.js 2.*x*, session i QA-läge hanteras bara på klientsidan och inga QA-lägescookies skickas till Target.
 
-Om du vill använda [!DNL Target] QA-bokmärket skapar du ett bokmärke som innehåller följande JavaScript-kod och lägger till den i webbläsarens bokmärkesverktygsfält:
+Om du vill använda ett [!DNL Target] QA-bokmärke skapar du ett bokmärkesdiagram som innehåller följande JavaScript-kod och lägger till det i webbläsarens bokmärkesverktygsfält:
 
 ```javascript
 javascript:(
