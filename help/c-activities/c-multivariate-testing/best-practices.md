@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Metodtips för multivariata tester{#multivariate-test-best-practices}
+# Multivariata testmetoder{#multivariate-test-best-practices}
 
 Tips som hjälper dig att förbättra prestanda, undvika problem och korrigera kända fel som kan uppstå när du skapar och kör MVT-aktiviteter (Multivariate Test) i [!DNL Adobe Target].
 
-## Plan {#section_4D4A1F6226F042379BF48DB753608579}
+## Planera {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Tänk på de platser på sidan som kan ge betydande resultat.
 
@@ -46,14 +46,14 @@ Tips som hjälper dig att förbättra prestanda, undvika problem och korrigera k
 
 ## Analysera {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Använd [platsbidragsrapporten](/help/c-reports/location-contribution-report.md) ofta för att övervaka resultatet för varje plats och varje erbjudande.
-* I [Experience Performance-rapporten](/help/c-reports/experience-performance-report.md)kan du basera dina beslut på de data som visas med hjälp av filtren Best 5 och Worst 5.
+* Använd ofta [platsbidragsrapporten](/help/c-reports/location-contribution-report.md) för att övervaka prestanda för varje plats och varje erbjudande.
+* I [Experience Performance-rapporten](/help/c-reports/experience-performance-report.md) kan du basera dina beslut på de data som visas med hjälp av filtren Best 5 och Worst 5.
 
-   Filtret gör det svårt att extrahera den önskade informationen, och inte alla upplevelser kan visas i diagrammet. [!UICONTROL All] Använd [!UICONTROL All] filtret om du vill titta på en specifik upplevelse som inte är den bästa eller värsta av fem.
+   Filtret [!UICONTROL All] gör det svårt att extrahera den önskade informationen, och inte alla upplevelser kan visas i diagrammet. Använd filtret [!UICONTROL All] om du vill titta på en specifik upplevelse som inte är den bästa eller värsta av fem.
 
 ## Följ upp {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Även om [!DNL Target] du kan redigera en aktiv aktivitet, bör du vara medveten om att en pågående redigering kan återställa testet. Rapporterna kanske inte känner igen vissa ändringar. Det är säkert att bara ändra HTML-erbjudanden i erbjudandebiblioteket.
+* Även om [!DNL Target] tillåter dig att redigera en aktiv aktivitet, bör du vara medveten om att en pågående redigering kan återställa testet. Rapporterna kanske inte känner igen vissa ändringar. Det är säkert att bara ändra HTML-erbjudanden i erbjudandebiblioteket.
 
    Specifika åtgärder som återställer namn och rapporter för upplevelser är:
 
