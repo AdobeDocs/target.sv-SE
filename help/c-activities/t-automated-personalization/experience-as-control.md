@@ -13,9 +13,9 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet
+# ![](/help/assets/premium.png) PREMIUMSälj kontrollen för din Automated Personalization- eller Automatisk målaktivitet
 
-Du kan välja en slumpmässigt hanterad upplevelse eller en specifik upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) - (AP) eller [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) -aktivitet (AT).
+Du kan välja en slumpmässigt hanterad upplevelse eller en specifik upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) eller [Automatisk målaktivitet](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Med den här funktionen kan du dirigera kontrolltrafiken till relevanta upplevelser, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Du kan sedan utvärdera prestandarapporter för den personaliserade trafiken mot kontrolltrafiken till den kontrollen.
 
@@ -29,13 +29,13 @@ Det finns två alternativ som du kan styra i dina AP- och AT-aktiviteter: slumpm
 
 ## Ange en specifik upplevelse som kontroll
 
-1. När du skapar en [AP-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) eller en [AT-aktivitet](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)konfigurerar du upplevelserna efter behov.
-1. På [!UICONTROL Targeting] sidan (steg 2 i det guidade arbetsflödet i tre delar) väljer du önskad upplevelse som kontroll.
+1. När du skapar en [AP-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) eller [AT-aktivitet](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) ska du konfigurera upplevelserna efter behov.
+1. Välj önskad upplevelse som kontroll på sidan [!UICONTROL Targeting] (steg 2 i det guidade arbetsflödet i tre delar).
 1. Ange önskad trafikallokering för kontrollupplevelsen och andra upplevelser.
 
    För en specifik upplevelsekontroll rekommenderas 10 till 30 procent.
 
-1. Fortsätt med [!UICONTROL Goals & Settings] sidan.
+1. Fortsätt med sidan [!UICONTROL Goals & Settings].
 
 ## Kända begränsningar och överväganden
 
@@ -45,7 +45,7 @@ Tänk på följande när du använder en specifik upplevelse som kontroll:
 * Du bör inte ta bort kontrollfunktionen.
 * Du bör inte lägga till ett stort antal nya erbjudanden/upplevelser till en aktiv aktivitet med en specifik upplevelse eftersom kontrollen inte rekommenderas.
 * I AP-aktiviteter, inklusive målinriktning på kontrollupplevelsen som ytterligare skulle kunna begränsa vem som kan se att upplevelsen inte är tillrådlig.
-* I AP-aktiviteter är lyftnings- och förtroendeinformation *INTE* tillgänglig i rapporten på erbjudandenivå om en specifik upplevelse väljs. Information om lyft och förtroende finns tillgänglig på den övergripande&quot;målgruppsanpassningen&quot; jämfört med trafiknivån&quot;control&quot; för AP-aktiviteten. Lyft- och förtroendeinformation är tillgänglig om &quot;random&quot; är valt som kontroll. Skillnaden beror på att det inte är logiskt att jämföra konverteringsgraden för en viss upplevelse med konverteringsgraden för ett erbjudande på grund av enhetsavvikelsen. Informationen som är tillgänglig i en AT-aktivitet är densamma, oavsett vilken typ av kontroll som väljs.
+* I AP-aktiviteter är lift- och Confidence-information *NOT* tillgänglig i rapporten på erbjudandenivå om en viss upplevelse väljs. Information om lyft och förtroende finns tillgänglig på den övergripande&quot;målgruppsanpassningen&quot; jämfört med trafiknivån&quot;control&quot; för AP-aktiviteten. Lyft- och förtroendeinformation är tillgänglig om &quot;random&quot; är valt som kontroll. Skillnaden beror på att det inte är logiskt att jämföra konverteringsgraden för en viss upplevelse med konverteringsgraden för ett erbjudande på grund av enhetsavvikelsen. Informationen som är tillgänglig i en AT-aktivitet är densamma, oavsett vilken typ av kontroll som väljs.
 * Eftersom all kontrolltrafik går till en enda upplevelse eller en uppsättning erbjudanden när du väljer upplevelsen som kontroll (jämfört med slumpmässig, där mängden kontrolltrafik delas över antalet upplevelser eller erbjudanden i din aktivitet) behöver du vanligtvis inte så mycket trafik som flödar till kontrollen. 10 % är ett bra ställe att börja på.
 * Om du gör något av följande för en aktiv aktivitet med en specifik upplevelse som kontroll återställs kontrollen automatiskt till slumpmässigt hanterade upplevelser (i stället för den tidigare valda specifika upplevelsen):
 
