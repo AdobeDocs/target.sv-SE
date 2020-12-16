@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Information om sidan Modifications (Ändringar) där du kan visa ändringar på sidan och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
 
-På sidan Ändringar visas alla ändringar som har gjorts på sidan i Visual Experience Composer (VEC). Du kan göra ytterligare ändringar genom att klicka på varje element på sidan och [välja en åtgärd](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Varje ändring du gör visas som en separat åtgärd eller ett separat element i [!UICONTROL Modifications] listan. Du kan också lägga till ändringar, bland annat följande ändringstyper: CSS-väljare, Mbox. och anpassad kod.
+På sidan Ändringar visas alla ändringar som har gjorts på sidan i Visual Experience Composer (VEC). Du kan göra ytterligare ändringar genom att klicka på varje element på sidan och [välja en åtgärd](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Varje ändring du gör visas som en separat åtgärd eller ett element i listan [!UICONTROL Modifications]. Du kan också lägga till ändringar, bland annat följande ändringstyper: CSS-väljare, Mbox. och anpassad kod.
 
-## Översikt över ändringar {#section_EE27E7572AA74397BBDED563B2B3D509}
+## Ändringsöversikt {#section_EE27E7572AA74397BBDED563B2B3D509}
 
-På [!UICONTROL Modifications] sidan visas alla ändringar som har gjorts på sidan i VEC. Varje ändring du gör visas som en separat åtgärd eller ett separat element i [!UICONTROL Modifications] listan.
+På sidan [!UICONTROL Modifications] visas alla ändringar som har gjorts på sidan i VEC. Varje ändring du gör visas som en separat åtgärd eller ett element i listan [!UICONTROL Modifications].
 
 ![](assets/codeeditor_page_mods.png)
 
@@ -32,7 +32,7 @@ Använd sidan Ändringar för att:
 
    ![](assets/codeeditor_viewchange.png)
 
-* Redigera en befintlig åtgärd. Håll pekaren över den önskade ändringen och klicka sedan på **[!UICONTROL Edit]** ikonen.
+* Redigera en befintlig åtgärd. Håll pekaren över den önskade ändringen och klicka sedan på ikonen **[!UICONTROL Edit]**.
 
    ![](assets/codeeditor_edit.png)
 
@@ -40,7 +40,7 @@ Använd sidan Ändringar för att:
 
    ![](assets/codeeditor_changechange1.png)
 
-* Ta bort en befintlig åtgärd. Håll pekaren över den önskade ändringen och klicka sedan på **[!UICONTROL Delete]** ikonen.
+* Ta bort en befintlig åtgärd. Håll pekaren över den önskade ändringen och klicka sedan på ikonen **[!UICONTROL Delete]**.
 
    ![](assets/codeditor_delete.png)
 
@@ -50,7 +50,7 @@ Använd sidan Ändringar för att:
 
    Observera att när en ändring har skapats visas en +-ikon längst upp på panelen Ändringar i stället för knappen Lägg till ändring längst ned på panelen.
 
-* Docka ändringspanelen lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. Klicka på [!UICONTROL Dock] ikonen för att växla mellan de två inställningarna.
+* Docka ändringspanelen lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. Klicka på ikonen [!UICONTROL Dock] för att växla mellan de två inställningarna.
 
    ![](assets/codeditor_dock.png)
 
@@ -60,7 +60,7 @@ Använd sidan Ändringar för att:
 
 ## Lägg till ändringar {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
-1. Om du vill visa [!UICONTROL Modifications] sidan för en vald upplevelse går du till VEC och klickar på **[!UICONTROL Modifications]** &lt;/>-ikonen.
+1. Om du vill visa sidan [!UICONTROL Modifications] för en vald upplevelse klickar du på ikonen **[!UICONTROL Modifications]** &lt;/> i VEC.
 
    ![](assets/codeeditor_icon_big.png)
 
@@ -68,38 +68,38 @@ Använd sidan Ändringar för att:
    >
    >Skapa eller redigera ett HTML-erbjudande om du vill öppna panelen Modifications i den formulärbaserade Experience Composer. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
-   Sidan öppnas och skärmen delas upp mellan det visuella läget till vänster och panelen Ändringar till höger. [!UICONTROL Modifications] Klicka på [!UICONTROL Dock] ikonen om du vill docka panelen Ändringar lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. Observera att Experience A i följande bild inte har några tidigare ändringar.
+   Sidan [!UICONTROL Modifications] öppnas och skärmen delas mellan det visuella läget till vänster och panelen Ändringar till höger. Klicka på ikonen [!UICONTROL Dock] för att docka panelen Ändringar lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. Observera att Experience A i följande bild inte har några tidigare ändringar.
 
    ![](assets/codeeditor_page.png)
 
-   Upplevelse B visar de tidigare ändringarna på [!UICONTROL Modifications] panelen till höger.
+   Experience B visar de tidigare ändringarna på panelen [!UICONTROL Modifications] till höger.
 
    ![](assets/codeeditor_page_mods.png)
 
 1. Så här lägger du till en ändring:
 
-   * Om inga tidigare ändringar av upplevelsen har gjorts klickar du på **[!UICONTROL Add Modification]** knappen längst ned på [!UICONTROL Modifications] panelen till höger.
-   * Om det finns tidigare ändringar för upplevelsen klickar du på +-ikonen längst upp på [!UICONTROL Modifications] panelen till höger.
+   * Om inga tidigare ändringar av upplevelsen har gjorts klickar du på knappen **[!UICONTROL Add Modification]** längst ned på panelen [!UICONTROL Modifications] till höger.
+   * Om det finns tidigare ändringar för upplevelsen klickar du på +-ikonen längst upp på panelen [!UICONTROL Modifications] till höger.
 
    På panelen Ändringar visas:
 
    ![](assets/codeeditor_page_mods_add.png)
 
-1. Välj önskad typ i **[!UICONTROL Modifications Type]** listrutan:
+1. Välj önskad typ i listrutan **[!UICONTROL Modifications Type]**:
 
    | Ändringstyp | Detaljer |
    |--- |--- |
    | CSS-väljare | I rutan CSS-elementväljare anger du önskat CSS-element som du vill ändra, väljer en åtgärdstyp ( Ange innehåll eller Ange attribut) och fyller sedan i den obligatoriska informationen och det önskade innehållet. |
    | Mbox | Ange namnet på Mbox och önskat innehåll. |
-   | Egen kod | Ange ett valfritt namn, markera eller avmarkera kryssrutan [!UICONTROL Add Code in the `<HEAD>` Avsnitt] efter behov och lägg sedan till din egen kod.<br>Om du väljer [!UICONTROL Add Code in the `<HEAD>` Avsnitt]läggs anpassad kod till i `<head>` avsnittet och körningen väntar inte på body- eller page-load-händelser. Lägg endast till `<script>` och `<style>` element. Om du lägger till `<div>` taggar och andra element kan det leda till att återstående `<head>` element visas i `<body>`. Om du använder mbox.js version 60 eller senare eller någon version av at.js kommer alla erbjudanden att levereras asynkront.<br> Om du avmarkerar [!UICONTROL Add Code in the `<HEAD>` Avsnitt]körs den anpassade koden direkt efter `<body>` -taggen. Lägg all kod i en enda `<div>` för att bevara DOM-strukturen. Om du använder mbox.js version 60 eller senare eller någon version av at.js kommer alla erbjudanden att levereras asynkront.<br>**Obs**: Skript körs asynkront. Det innebär att du till exempel inte kan använda `document.write` eller liknande skriptmetoder.<br>Anpassad kod ger ett icke-visuellt gränssnitt för att visa, redigera och lägga till nya åtgärder i VEC, den formulärbaserade Experience Composer och HTML-editorn. Panelen innehåller en kodvy med en upplevelse som hjälper dig att skapa mer komplexa upplevelser, finjustera befintliga upplevelser och felsöka problem.<br>Anpassad kod är avsedd för avancerade användare som känner sig bekväma med HTML, JavaScript och CSS. I kodvyn kan du finjustera eller finjustera ändringar eller åtgärda väljarproblem. Den kan också användas för att lägga till ny anpassad kod och åtgärder. Du kan lägga till mer än en anpassad kod och eventuellt namnge varje anpassad kod.<br>**Obs**: Anpassad kod är för närvarande endast tillgänglig för A/B- och Experience Targeting-aktiviteter (XT). Anpassad kod inaktiveras för övertäckning och om ett omdirigeringserbjudande används.<br>Anpassad kod har stöd för följande användningsexempel:<ul><li>Lägg till anpassad JavaScript, HTML eller CSS som ska köras högst upp på sidan</li><li>Visa eller redigera koden som genererats av VEC efter att ha gjort ändringar</li><li>Ange HTML-innehåll för en väljare (endast CSS-väljare)</li><li>Ange ett attribut för ett HTML-element</li><li>Lägg till erbjudandeinnehåll som ska levereras i en regional mbox</li><li>Växla på DOM-klar med jQuery</li><li>Växla på DOM-klar, ingen jquery (stöder inte Internet Explorer 8)</li><li>Växla med DOM-avsökning via plugin-programmet &quot;elementOnLoad&quot;</li><li>Anpassad omdirigering</li></ul>Anpassad kod ger:<ul><li>Radnummer ger bättre användbarhet.</li><li>Syntaxmarkering hjälper dig att undvika felaktig syntax för HTML-erbjudanden.</li><li>Möjlighet att skapa flera anpassade koder och ange ett valfritt namn för var och en. Om du skapar flera anpassade koder blir det enklare att felsöka i framtiden. I stället för att skapa en enda anpassad kod för att utföra flera ändringar kan du skapa en separat anpassad kod för varje ändring med ett beskrivande namn. Om du har separata anpassade koder blir ändringarna mer modulära och hanterbara. Observera att det inte är säkert att flera anpassade koder körs i den sekvens i vilken de skapades.</li></ul>Panelen Ändringar delar upp skärmen mellan det visuella läget och kodläget. Båda lägena är synkroniserade. Alla ändringar som görs visuellt har en motsvarande rad i kodvyn. På samma sätt visas alla ändringar som implementeras i kodvyn i den visuella upplevelsen. Om du klickar på en rad i kodvyn markeras motsvarande element på den visuella sidan.<br>Anpassad kod stöder HTML, skript och format. Valfri giltig HTML-kod eller skript kan läggas till eller redigeras. |
+   | Egen kod | Ange ett valfritt namn, markera eller avmarkera kryssrutan [!UICONTROL Add Code in the `<HEAD>` Avsnitt] och lägg sedan till din egen kod.<br>Om du väljer  [!UICONTROL Add Code in the `<HEAD>` Avsnitt] läggs anpassad kod till i   `<head>`  avsnittet och körningen väntar inte på body- eller page-load-händelser. Lägg endast till `<script>`- och `<style>`-element. Om du lägger till `<div>`-taggar och andra element kan det leda till att återstående `<head>`-element visas i `<body>`. Om du använder mbox.js version 60 eller senare eller någon version av at.js kommer alla erbjudanden att levereras asynkront.<br> Om du avmarkerar  [!UICONTROL Add Code in the `<HEAD>` Avsnitt] körs anpassad kod direkt efter  `<body>` taggen. Lägg all kod i en enda `<div>` för att bevara DOM-strukturen. Om du använder mbox.js version 60 eller senare eller någon version av at.js kommer alla erbjudanden att levereras asynkront.<br>**Obs**: Skript körs asynkront. Det innebär att du till exempel inte kan använda `document.write` eller liknande skriptmetoder.<br>Anpassad kod ger ett icke-visuellt gränssnitt för att visa, redigera och lägga till nya åtgärder i VEC, den formulärbaserade Experience Composer och HTML-editorn. Panelen innehåller en kodvy med en upplevelse som hjälper dig att skapa mer komplexa upplevelser, finjustera befintliga upplevelser och felsöka problem.<br>Anpassad kod är avsedd för avancerade användare som känner sig bekväma med HTML, JavaScript och CSS. I kodvyn kan du finjustera eller finjustera ändringar eller åtgärda väljarproblem. Den kan också användas för att lägga till ny anpassad kod och åtgärder. Du kan lägga till mer än en anpassad kod och eventuellt namnge varje anpassad kod.<br>**Obs**: Anpassad kod är för närvarande endast tillgänglig för A/B- och Experience Targeting-aktiviteter (XT). Anpassad kod inaktiveras för övertäckning och om ett omdirigeringserbjudande används.<br>Anpassad kod har stöd för följande användningsexempel:<ul><li>Lägg till anpassad JavaScript, HTML eller CSS som ska köras högst upp på sidan</li><li>Visa eller redigera koden som genererats av VEC efter att ha gjort ändringar</li><li>Ange HTML-innehåll för en väljare (endast CSS-väljare)</li><li>Ange ett attribut för ett HTML-element</li><li>Lägg till erbjudandeinnehåll som ska levereras i en regional mbox</li><li>Växla på DOM-klar med jQuery</li><li>Växla på DOM-klar, ingen jquery (stöder inte Internet Explorer 8)</li><li>Växla med DOM-avsökning via plugin-programmet &quot;elementOnLoad&quot;</li><li>Anpassad omdirigering</li></ul>Anpassad kod ger:<ul><li>Radnummer ger bättre användbarhet.</li><li>Syntaxmarkering hjälper dig att undvika felaktig syntax för HTML-erbjudanden.</li><li>Möjlighet att skapa flera anpassade koder och ange ett valfritt namn för var och en. Om du skapar flera anpassade koder blir det enklare att felsöka i framtiden. I stället för att skapa en enda anpassad kod för att utföra flera ändringar kan du skapa en separat anpassad kod för varje ändring med ett beskrivande namn. Om du har separata anpassade koder blir ändringarna mer modulära och hanterbara. Observera att det inte är säkert att flera anpassade koder körs i den sekvens i vilken de skapades.</li></ul>Panelen Ändringar delar upp skärmen mellan det visuella läget och kodläget. Båda lägena är synkroniserade. Alla ändringar som görs visuellt har en motsvarande rad i kodvyn. På samma sätt visas alla ändringar som implementeras i kodvyn i den visuella upplevelsen. Om du klickar på en rad i kodvyn markeras motsvarande element på den visuella sidan.<br>Anpassad kod stöder HTML, skript och format. Valfri giltig HTML-kod eller skript kan läggas till eller redigeras. |
 
 1. Lägg till ytterligare ändringar efter behov.
 
 ## Användningsexempel för anpassad kod {#section_26CB3360097D400FB02E20AE5FDBA352}
 
-Panelen innehåller **[!UICONTROL Custom Code]** kod som körs i början av sidinläsningen.
+Panelen **[!UICONTROL Custom Code]** innehåller kod som körs i början av sidinläsningen.
 
-Du kan köra JavaScript-koden i `<head>` -taggen. Kodkörningen väntar inte på att `<body>` taggen ska finnas i DOM.
+Du kan köra JavaScript-koden i taggen `<head>`. Kodkörningen väntar inte på att taggen `<body>` ska finnas i DOM.
 
 Väljare för efterföljande visuella åtgärder beror på vilka HTML-element som läggs till på den här fliken.
 
@@ -107,7 +107,7 @@ Panelen Egen kod används ofta för att lägga till JavaScript eller CSS högst 
 
 ![](assets/codeeditor_custom.png)
 
-Använd **[!UICONTROL Custom Code]** fliken för att:
+Använd fliken **[!UICONTROL Custom Code]** för att:
 
 * Använd intern JavaScript-kod eller länka till en extern JavaScript-fil
 
@@ -162,7 +162,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
    </script> 
    ```
 
-* Växla med DOM-avsökning via `elementOnLoad` plugin-program
+* Växla med DOM-avsökning via `elementOnLoad`-plugin
 
    Fördelen med detta är att bytet sker tidigare än när det är DOM-klart. Plugin-programmet hanterar döljning och visning i förväg och kräver ett id för elementet.
 
@@ -176,7 +176,7 @@ Använd **[!UICONTROL Custom Code]** fliken för att:
    </script> 
    ```
 
-* Anpassad omdirigering som skickar befintliga parametrar, `s_tnt` param (för äldre integration till Analytics), referensparam och mbox-session
+* Anpassad omdirigering som skickar befintliga parametrar, `s_tnt`-param (för äldre integration till Analytics), referensparam och mbox-session
 
    ```javascript
    <style type="text/css">body{display:none!important;}</style> 
@@ -212,7 +212,7 @@ Målet använder ett nytt element-ID med värdet &quot;CDQID&quot; för alla ele
 
 **Utför inte document.write-åtgärder i egna kodskript.**
 
-Skript körs asynkront. Detta medför ofta att `document.write` åtgärder visas på fel plats på sidan. Du bör inte använda `document.write` i skript som skapas i anpassad kod.
+Skript körs asynkront. Detta medför ofta att `document.write`-åtgärder visas på fel plats på sidan. Du bör inte använda `document.write` i skript som skapas i anpassad kod.
 
 **Om du skapar ett element och sedan ändrar det, ska du inte ta bort det ursprungliga elementet.**
 
@@ -224,7 +224,7 @@ Om du använder den anpassade kodfunktionen för två aktiviteter som har samma 
 
 ## Felsökning av anpassad kod {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
-**Jag fick en varning om att en åtgärd inte kan utföras på grund av strukturella ändringar på en sida. Vad betyder det?**
+**Jag fick en varning om att en åtgärd inte kan utföras på grund av strukturella ändringar på en sida. Vad betyder detta?**
 
 Det här meddelandet anger att sidans struktur har ändrats sedan aktiviteten senast sparades.
 
@@ -232,7 +232,7 @@ De saknade väljarna kan nås i bläddringsläge. Vi rekommenderar att du tar bo
 
 ![](assets/code_editor_2.png)
 
-***När jag tar bort ett element visas ett varningsmeddelande som säger&quot;Om du tar bort den här åtgärden kan det påverka efterföljande åtgärder&quot;. Vad betyder det?***
+***När jag tar bort ett element visas ett varningsmeddelande som säger&quot;Om du tar bort den här åtgärden kan det påverka efterföljande åtgärder&quot;. Vad betyder detta?***
 
 Om du till exempel har vidtagit två åtgärder:
 
@@ -243,9 +243,9 @@ Varje ändring skapar ett nytt element på panelen Ändringar. Eftersom den andr
 
 Om du lägger till ett element med text och sedan redigerar elementet med annan text i en separat åtgärd, visas båda åtgärderna som separata element på panelen Ändringar. När du redigerade elementet skapade du ett nytt element som ändrar det ursprungliga elementet som du skapade och som innehåller den redigerade texten. Om du sedan tar bort det ursprungliga elementet kommer den redigerade texten inte att kunna hitta det element som redigerades och kommer inte att visas. Det andra elementet finns kvar i listan med element, men det påverkar inte sidan eftersom elementet det ändras inte längre finns.
 
-***Ett element som jag skapade med `document.write` i ett skript visas inte där jag förväntade mig det.***
+***Ett element som jag har skapat  `document.write` i ett skript visas inte där jag förväntade mig det.***
 
-Skript körs asynkront. Detta medför ofta att `document.write` åtgärder visas på fel plats på sidan. Adobe rekommenderar inte att du använder `document.write` i skript som skapas i den anpassade koden.
+Skript körs asynkront. Detta medför ofta att `document.write`-åtgärder visas på fel plats på sidan. Adobe rekommenderar inte att du använder `document.write` i skript som skapas i den anpassade koden.
 
 ***Mitt JavaScript visar fel i den anpassade koden.***
 
