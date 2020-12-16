@@ -20,10 +20,10 @@ Så här hämtar du data i en CSV-fil:
 
 1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet i listan.
 
-   Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer][!UICONTROL Metrics Type]och [!UICONTROL Activity Source] .
+   Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] och [!UICONTROL Activity Source].
 
-1. Klicka på **[!UICONTROL Reports]** fliken.
-1. Klicka på **[!UICONTROL Download]** ikonen och välj sedan en rapporttyp att hämta för analys i Excel och andra verktyg.
+1. Klicka på fliken **[!UICONTROL Reports]**.
+1. Klicka på ikonen **[!UICONTROL Download]** och välj sedan en rapporttyp att hämta för analys i Excel och andra verktyg.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
@@ -41,7 +41,7 @@ Data sparas till aktivitetens slut.
 
 >[!NOTE]
 >
->CSV-rapporten innehåller endast rådata och innehåller inte beräknade värden som intäkter per besökare, lyft eller förtroende som används för A/B-tester. Om du vill beräkna dessa beräknade värden hämtar du målets [Excel-fil för beräkning](/help/assets/complete_confidence_calculator.xlsx) av fullständig säkerhet för att ange aktivitetens värde, eller läser de [statistiska beräkningar som används av Target](/help/assets/statistical-calculations.pdf).
+>CSV-rapporten innehåller endast rådata och innehåller inte beräknade värden som intäkter per besökare, lyft eller förtroende som används för A/B-tester. Om du vill beräkna dessa beräknade värden hämtar du målets [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel-fil för att ange aktivitetens värde, eller läser de [statistiska beräkningar som används av Target](/help/assets/statistical-calculations.pdf).
 
 ## Exportera beställningsinformation till CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -62,11 +62,11 @@ I rapporten Orderdetaljer visas information om dina beställningar, inklusive:
 
 * Upplevelse
 
-   I [!UICONTROL Order Details] rapporten för [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting] (XT) och [!UICONTROL Multivariate Test] (MVT)-aktiviteter innehåller [!UICONTROL Experience] kolumnen upplevelsen `localId`. Detta är det värde som matas ut från `$campaign.recipe.id` in offer-tokens.
+   I [!UICONTROL Order Details]-rapporten för [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT) och [!UICONTROL Multivariate Test] (MVT)-aktiviteter innehåller kolumnen [!UICONTROL Experience] upplevelsen `localId`. Det här är värdeutdata från `$campaign.recipe.id` i erbjudandetokens.
 
-   Det finns ingen [!UICONTROL Experience] kolumn för [!UICONTROL Automated Personalization] (AP)-aktiviteter. Den aktuella [!UICONTROL Algorithm Name] kolumnen har ersatts med &quot;Kontroll&quot; respektive &quot;Riktad&quot; terminologi, vilket visas någon annanstans i [!DNL Target].
+   Det finns ingen [!UICONTROL Experience]-kolumn för [!UICONTROL Automated Personalization]-aktiviteter (AP). Den aktuella [!UICONTROL Algorithm Name]-kolumnen har ersatts med &quot;Kontroll&quot; jämfört med &quot;Riktad&quot;-terminologi, vilket visas någon annanstans i [!DNL Target].
 
-   Ingen påverkan på [!UICONTROL Recommendations] verksamheten.
+   Ingen påverkan på [!UICONTROL Recommendations]-aktiviteter.
 
 >[!NOTE]
 >
@@ -76,9 +76,9 @@ I rapporten Orderdetaljer visas information om dina beställningar, inklusive:
 
 ## Bästa praxis
 
-* För att kunna registrera en orderpost måste `orderTotal` parametern skickas.
-* Värden som skickas via parametern mbox visas i rapporten Orderdetaljer. `ProductPurchasedId`
-* Bästa sättet är att inkludera en `orderID` såväl som en `orderTotal`. Detta gör att dubblettorder automatiskt ignoreras.
+* För att kunna registrera en orderpost måste parametern `orderTotal` skickas.
+* Värden som skickas via parametern `ProductPurchasedId` visas i rapporten Orderdetaljer.
+* Det bästa sättet är att inkludera en `orderID` och en `orderTotal`. Detta gör att dubblettorder automatiskt ignoreras.
 
 ## Caveats {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
