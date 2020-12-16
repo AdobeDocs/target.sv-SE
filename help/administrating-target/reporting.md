@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Konfigurera rapportering i mål
 
-Konfigurera allmänna inställningar som ska användas vid [!DNL Adobe Target] rapportering som gäller för hela ditt [!DNL Target] konto.
+Konfigurera allmänna inställningar som ska användas i [!DNL Adobe Target]-rapporter som gäller för hela ditt [!DNL Target]-konto.
 
-Du öppnar konfigurationssidan genom att klicka [!UICONTROL Reporting] > **[!UICONTROL Administration]** **[!UICONTROL Reporting].**
+Om du vill komma åt konfigurationssidan [!UICONTROL Reporting] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 Du kan ange följande inställningar på den här sidan:
 
@@ -29,7 +29,7 @@ Du kan ange följande inställningar på den här sidan:
 
 >[!NOTE]
 >
->Observera att tidszonen, valutan och IP-adresserna för att exkludera inställningar gäller för aktiviteter som använder [!DNL Target] rapportering. Dessa inställningar gäller inte för aktiviteter där [Analytics for Target (A4T)] används som rapportkälla (/help/c-integrating-target-with-mac/a4t/a4t.md).
+>Observera att tidszonen, valutan och IP-adresserna som ska exkluderas gäller för aktiviteter som använder [!DNL Target]-rapportering. Dessa inställningar gäller inte för aktiviteter som använder [Analytics för Target (A4T)] som rapportkälla (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ![Rapporteringssida](/help/administrating-target/assets/reporting.png)
 
@@ -41,10 +41,10 @@ Välj rapportkälla för dina aktiviteter, antingen [!DNL Target] eller [!DNL Ad
 
 Tänk på följande när du väljer rapportkälla:
 
-* Om rapportkällan anges **[!DNL Target]** här, får du inte aktivera en aktivitet som använder [!DNL Analytics] som rapportkälla. Du måste ändra rapportkällan till [!DNL Target] i din aktivitet eller ändra rapportkällan till **[!UICONTROL Select per activity]** i **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Om rapportkällan anges **[!DNL Analytics]** här, får du inte aktivera en aktivitet som använder [!DNL Target] som rapportkälla (rapportkällan anges som **[!UICONTROL Target per activity])**. Du måste ändra rapportkällan till [!DNL Analytics] i din aktivitet eller ändra rapporteringsmotorn till **[!UICONTROL Select per activity]** i **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Om rapportkällan är **[!UICONTROL Select per activity]** här kan du skapa, aktivera och inaktivera aktiviteter som stöds av den valda rapportkällan. En matris med aktiviteter som stöds finns i [Aktivitetstyper](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) som stöds i *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) skapande, aktivering och inaktivering av aktivitet tillåts oavsett vald rapportkälla. Automated Personalization-aktiviteter stöds inte när du väljer [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Även om du anger [!DNL Analytics] som rapportkälla [!DNL Target] används den som rapportkälla för Automated Personalization-aktiviteter. Mer information finns i [Aktivitetstyper](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) som stöds i *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
+* Om rapportkällan är **[!DNL Target]** här, får du inte aktivera en aktivitet som använder [!DNL Analytics] som rapportkälla. Du måste ändra rapportkällan till [!DNL Target] i aktiviteten eller ändra rapportkällan till **[!UICONTROL Select per activity]** i **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* Om rapporteringskällan är **[!DNL Analytics]** här tillåts du inte aktivera en aktivitet som använder [!DNL Target] som rapportkälla (rapportkällan är **[!UICONTROL Target per activity])**. Du måste ändra rapportkällan till [!DNL Analytics] i aktiviteten eller ändra rapporteringsmotorn till **[!UICONTROL Select per activity]** i **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* Om rapportkällan är **[!UICONTROL Select per activity]** här kan du skapa, aktivera och inaktivera aktiviteter som stöds av den valda rapportkällan. En matris med aktiviteter som stöds finns i [Aktivitetstyper som stöds](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) i *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
+* [!UICONTROL Automated Personalization] (AP) skapande, aktivering och inaktivering av aktivitet tillåts oavsett vald rapportkälla. Automated Personalization-aktiviteter stöds inte när du väljer [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Även om du anger [!DNL Analytics] som rapportkälla används [!DNL Target] som rapportkälla för Automated Personalization-aktiviteter. Mer information finns i [Aktivitetstyper som stöds](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) i *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
 
 ## Tidszon för rapportering
 
@@ -64,9 +64,9 @@ Ange varje IP-adress på en ny rad.
 
 Du kan välja att visa den beräknade ökningen av intäkterna om du anger ett penningvärde för ditt mål. [!DNL Target] kan beräkna den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen. Den uppskattade lyftfunktionen är inaktiverad som standard.
 
-Det är bara [!DNL Experience Cloud] administratörsanvändare som kan aktivera eller inaktivera den här funktionen. Om den uppskattade höjden är inaktiverad visas inte motsvarande fält i gränssnittet. Om du inaktiverar funktionen går det inte att förlora data, inklusive data som används för dina uppskattningar. Beräkningarna baseras på data som samlas in oavsett om funktionen är aktiverad eller inte.
+Endast [!DNL Experience Cloud]-administratörsanvändare kan aktivera eller inaktivera den här funktionen. Om den uppskattade höjden är inaktiverad visas inte motsvarande fält i gränssnittet. Om du inaktiverar funktionen går det inte att förlora data, inklusive data som används för dina uppskattningar. Beräkningarna baseras på data som samlas in oavsett om funktionen är aktiverad eller inte.
 
-Mer information finns i [Beräkna Lyft i intäkter](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+Mer information finns i [Beräkna Lyft i intäkt](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
 ## Aktivera finkorniga prioriteringar
 
