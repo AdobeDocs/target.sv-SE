@@ -18,7 +18,7 @@ Mbox3rdPartyId är företagets besökar-ID, till exempel medlemskaps-ID för fö
 
 När en besökare loggar in på ett företags webbplats skapar företaget vanligtvis ett ID som är knutet till besökarens konto, förmånskort, medlemsnummer eller andra tillämpliga identifierare för det företaget.
 
-När en besökare kommer åt en sida som [!DNL Target] är aktiverad tilldelas besökaren ett [!DNL Target] PCID. Om besökaren sedan loggar in och implementeringen skickar mbox3rdPartyId till [!DNL Target], [!DNL Target] ansluter besökarens mbox3rdPartyId med [!DNL Target] PCID.
+När en besökare öppnar en sida där [!DNL Target] är aktiverat tilldelas besökaren ett [!DNL Target] PCID. Om besökaren sedan loggar in och implementeringen skickar mbox3rdPartyId till [!DNL Target] ansluter [!DNL Target] besökarens mbox3rdPartyId med [!DNL Target] PCID.
 
 Var tredje till var femte minut synkroniseras uppdateringarna med databasen. När besökaren loggar ut ersätter de sammanfogade data de tidigare data som är associerade med mbox3rdPartyId, vilket skapar en mer fullständig post för besökarens åtgärder. Om samma attribut finns i båda ID:n, till exempel, har PCID kategori=hattar och mbox3rdPartyId har category=skis, eller om besökaren såg upplevelsen A före inloggning, men upplevelsen B lagras i mbox3rdPartyId, skriver attributet som lagras i mbox3rdPartyId över attributet från PCID:t. Om besökaren befann sig i en aktivitet eller upplevelse innan inloggningen, men en annan aktivitet och upplevelse lagras i mbox3rdPartyId, placeras den besökaren efter inloggningen i aktiviteten och upplevelsen för mbox3rdPartyId.
 
@@ -37,7 +37,7 @@ När besökaren loggar ut bevaras den sammanfogade profilen.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] mål spåras inte i fall där [!DNL Adobe Experience Cloud] ID (EDID) ändras (till exempel ändras enheter), även om [!DNL Target] profilen kan sammanfogas baserat på mbox3rdPartyId och fortfarande har aktivitetsinformation. För besökare som identifieras med samma EDID (de som öppnar sidan med samma enhet), ska [!DNL Analytics for Target] (A4T) fungera som förväntat.
+>[!DNL Adobe Analytics] mål spåras inte i fall där  [!DNL Adobe Experience Cloud] ID (EDID) ändras (till exempel när besökaren ändrar enheter), även om  [!DNL Target] profilen kan sammanfogas baserat på mbox3rdPartyId och fortfarande har aktivitetsinformation. För besökare som identifieras med samma EDID (de som öppnar sidan med samma enhet) ska [!DNL Analytics for Target] (A4T) fungera som förväntat.
 
 ## Överväganden {#considerations}
 
