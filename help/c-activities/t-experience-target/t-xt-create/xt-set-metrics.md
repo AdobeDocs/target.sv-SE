@@ -17,14 +17,14 @@ ht-degree: 0%
 
 Använd mätvärden i en XT-aktivitet (Experience Targeting) för att avgöra när ett besök lyckas.
 
-Mer information om framgångsmått finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Detaljerad information om framgångsmått finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Ange aktivitetens mål.
 1. Välj ett [framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Välj framgångsmått](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
-   På [!UICONTROL Select Metrics] sidan visas de framgångsmått du kan välja för din aktivitet. Resultaten delas in i följande kategorier:
+   På sidan [!UICONTROL Select Metrics] visas de framgångsmått du kan välja för din aktivitet. Resultaten delas in i följande kategorier:
 
    * Konvertering
    * Intäkter
@@ -35,13 +35,13 @@ Mer information om framgångsmått finns i [Success Metrics](/help/c-activities/
 
    Vilka inställningar som är tillgängliga beror på vilket framgångsmått du använder.
 
-   Om det här alternativet är aktiverat ger [!UICONTROL Estimated Value of the Conversion]fältet (inte tillgängligt för sidbakgrundsmätningar) ett värde för ditt mål. Detta värde gör att Target kan beräkna en uppskattad ökning av intäkterna. Detta fält är valfritt; Inkrementella intäkter för icke-intäktsmått kan dock inte beräknas utan detta. Datatypen är valuta. Det här fältet visas progressivt efter att användaren har indikerat vilken åtgärd som har vidtagits för att uppnå målet. Mer information finns i [Beräkna Lyft i intäkter](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) .
+   Om det här alternativet är aktiverat ger fältet [!UICONTROL Estimated Value of the Conversion]ett värde (inte tillgängligt för Page Score-mätvärden) för ditt mål. Detta värde gör att Target kan beräkna en uppskattad ökning av intäkterna. Detta fält är valfritt; Inkrementella intäkter för icke-intäktsmått kan dock inte beräknas utan detta. Datatypen är valuta. Det här fältet visas progressivt efter att användaren har indikerat vilken åtgärd som har vidtagits för att uppnå målet. Mer information finns i [Beräkna Lyft i intäkt](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
    Korrekt konfigurering av framgångsmått är avgörande för att ni ska få de data ni förväntar er.
 
    Mer information finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 1. (Valfritt) Lägg till ytterligare mått.
-1. Klicka **[!UICONTROL Continue]** när du är klar med mätvärdena.
+1. Klicka på **[!UICONTROL Continue]** när du är klar med att ange mätvärden.
 Observera att följande tecken inte tillåts när du namnger eller byter namn på ett mätresultat:
 
    | Tecken | Beskrivning |
@@ -55,7 +55,7 @@ Observera att följande tecken inte tillåts när du namnger eller byter namn p�
    | `-` | Minus |
    | `@` | Vid tecken |
 
-## Utbildningsvideo: Aktivitetsmått (7:43) ![Självstudiekursidentitet](/help/assets/tutorial.png)
+## Utbildningsvideo: Aktivitetsmått (7:43) ![Tutorial badge](/help/assets/tutorial.png)
 
 
 Den här videon innehåller information om hur du arbetar med framgångsmått.
