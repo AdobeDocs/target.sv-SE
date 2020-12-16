@@ -18,10 +18,10 @@ Den formulärbaserade Experience Composer är en icke-visuell upplevelse och erb
 
 Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj kriterier och design. Om du väljer flera kriterier eller designer genererar Target automatiskt upplevelserna.
 
-1. Klicka **[!UICONTROL Create Activity]** och välj sedan den typ av aktivitet som du vill skapa.
+1. Klicka på **[!UICONTROL Create Activity]** och välj sedan den typ av aktivitet som du vill skapa.
 
    Den formulärbaserade Experience Composer är tillgänglig för A/B-tester, Experience Targeting, Automated Personalization och Recommendations-aktiviteter.
-1. Välj **[!UICONTROL Form-Based Experience Composer]** i [!UICONTROL New Activity]dialogrutan.
+1. Välj **[!UICONTROL Form-Based Experience Composer]** i dialogrutan [!UICONTROL New Activity].
 
    Formulärbaserad Experience Composer öppnas.
 
@@ -31,19 +31,19 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
 1. Namnge aktiviteten.
 1. Välj en plats.
 
-   När du klickar i [!UICONTROL Select Location] rutan visas en lista med tillgängliga platser. Välj en av platserna. Välj &quot;target-global-mbox&quot; om du vill välja den globala plats som levereras via target.js.
+   När du klickar i rutan [!UICONTROL Select Location] visas en lista med tillgängliga platser. Välj en av platserna. Välj &quot;target-global-mbox&quot; om du vill välja den globala plats som levereras via target.js.
 
-   Du kan också ange en plats som inte finns med här. Detta kan vara användbart om mbox ännu inte har skapats eller visats på en sida. Skriv namnet på platsen. Var försiktig när du anger en plats som inte finns än. Om stavningen eller skiftläget inte stämmer överens med stavningen och skiftläget när mbox-anropet görs, kommer aktiviteten inte att levereras. Manuellt angivna platser sparas i listan över tillgängliga platser. Nästa gång du försöker välja en manuellt angiven plats blir den tillgänglig i [!UICONTROL Select Location] listrutan för den aktiviteten.
+   Du kan också ange en plats som inte finns med här. Detta kan vara användbart om mbox ännu inte har skapats eller visats på en sida. Skriv namnet på platsen. Var försiktig när du anger en plats som inte finns än. Om stavningen eller skiftläget inte stämmer överens med stavningen och skiftläget när mbox-anropet görs, kommer aktiviteten inte att levereras. Manuellt angivna platser sparas i listan över tillgängliga platser. Nästa gång du försöker välja en manuellt angiven plats blir den tillgänglig i listrutan [!UICONTROL Select Location] för den aktiviteten.
 
    >[!NOTE]
    >
    >Om du skapar en manuellt angiven plats när en aktivitet skapas skapas inte en ny plats automatiskt. Platsnamnet sparas bara i aktivitetens sammanhang. Platsen skapas när ett samtal om innehållsleverans sker. Efter den plats som skapas kommer den att vara tillgänglig för användning i andra aktiviteter, för att skapa målgrupper osv. från listrutan med tillgängliga platser.
 
-1. Klicka **[!UICONTROL Add Audience Refinements]** och välj sedan en eller flera [målgrupper](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) för aktiviteten.
+1. Klicka på **[!UICONTROL Add Audience Refinements]** och välj sedan en eller flera [målgrupper](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) för den här aktiviteten.
 
    ![](assets/location_refinements_2.png)
 
-   I den formulärbaserade Experience Composer har förbättringarna ersatts med full målgruppsfunktionalitet. Förfiningar av befintliga aktiviteter har migrerats till målgrupper som bara är [aktiva](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   I den formulärbaserade Experience Composer har förbättringarna ersatts med full målgruppsfunktionalitet. Förfiningar för befintliga aktiviteter har migrerats till [målgrupper som bara är aktiva](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Välj den typ av innehåll som du vill ska visas på den platsen.
 
    ![](assets/form_content.png)
@@ -52,13 +52,13 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
 
    **Ändra HTML-erbjudande:** Välj ett HTML-erbjudande.
 
-   **Ändra bilderbjudande:** Välj en bild som har sparats i innehållsbiblioteket i Target.
+   **Erbjudande om ändring av bild:** Välj en bild som sparats i innehållsbiblioteket i Target.
 
    Du kan också lägga till en länk till en bild (klickfrekvens, mål, landning osv.).
 
    1. Klicka på [!UICONTROL Change Image Offer].
    1. Markera önskad bild och klicka sedan på [!UICONTROL Edit Links].
-   1. Ange önskad URL eller sida på webbplatsen och klicka sedan på [!UICONTROL Update].
+   1. Ange önskad URL eller sida på platsen och klicka sedan på [!UICONTROL Update].
 
    **Ändra JSON-erbjudande:** Välj ett json-erbjudande.
 
@@ -84,7 +84,7 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
    1. Skriv eller klistra in JSON-koden i rutan Kod.
    1. Klicka på [!UICONTROL Save].
 
-   För en Recommendations-aktivitet visas alternativet Lägg till rekommendation i listrutan Innehåll. Klicka **[!UICONTROL Add Recommendation]** och välj sedan sidtyp. Följ sedan de vanliga stegen som definieras i gränssnittet för att [skapa en Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   För en Recommendations-aktivitet visas alternativet Lägg till rekommendation i listrutan Innehåll. Klicka på **[!UICONTROL Add Recommendation]** och välj sedan sidtyp. Följ sedan de vanliga stegen som definieras i gränssnittet för att [skapa en Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    När du väljer Recommendations-villkor i den formulärbaserade Experience Composer finns det nu en direktlänk till det valda kriteriekortet så att du snabbt och enkelt kan redigera villkoren.
 
@@ -95,13 +95,13 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
    ![](assets/change_criteria_2.png)
 
 1. (Valfritt, för AB-aktiviteter, Automated Personalization och Experience Targeting) Om du vill upprepa den här processen för ytterligare platser klickar du på **[!UICONTROL Add Location]** och konfigurerar platsen och innehållet.
-1. Klicka **[!UICONTROL Next]** och slutför sedan stegen för att skapa aktiviteten som vanligt för din aktivitetstyp.
+1. Klicka på **[!UICONTROL Next]** och slutför sedan stegen för att skapa aktiviteten som vanligt för din aktivitetstyp.
 
 * [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Skapa en upplevelseinriktad aktivitet](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Skapa en Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Utbildningsvideo: Formulärbaserad ![självstudiekurs för disposition](/help/assets/tutorial.png)
+## Utbildningsvideo: Formulärbaserad disposition ![Tutorial badge](/help/assets/tutorial.png)
 
 Den här videon innehåller en demonstration av den formulärbaserade dispositionen.
 
