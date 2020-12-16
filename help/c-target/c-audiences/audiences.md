@@ -16,35 +16,35 @@ ht-degree: 0%
 
 Publiken i Adobe Target avgör vilka som får se innehåll och upplevelser i en målinriktad aktivitet.
 
-Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. När du riktar in dig på en aktivitet kan du antingen välja en återanvändbar målgrupp i [!UICONTROL Audiences] listan, [skapa en aktivitetsspecifik målgrupp](/help/c-target/creating-activity-only-audience.md) och rikta in den på den eller [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa en ad hoc-målgrupp.
+Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. När du riktar in dig på en aktivitet kan du antingen välja en återanvändbar målgrupp i [!UICONTROL Audiences]-listan, [skapa en aktivitetsspecifik målgrupp](/help/c-target/creating-activity-only-audience.md) och rikta in den eller [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa en ad hoc-målgrupp.
 
-Ni kan också använda målgruppsdata som samlats in av [!DNL Analytics] för målgruppsanpassning i realtid och personalisering i [!DNL Adobe Target] och andra [!DNL Experience Cloud] lösningar. Se [Målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *användarhandboken* för bastjänsterna.
+Du kan också använda målgruppsdata som samlats in av [!DNL Analytics] för målgruppsanpassning och personalisering i realtid i [!DNL Adobe Target] och andra [!DNL Experience Cloud]-lösningar. Se [Målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *Användarhandbok för bastjänster*.
 
 [!DNL Target] definierar två typer av målgrupper:
 
-* **Målgrupper:** Används för att leverera olika innehåll till olika typer av besökare.
-* **Rapporterande målgrupper:** Används för att avgöra hur olika typer av besökare svarar på samma innehåll så att du kan analysera testresultaten.
+* **Målgrupper:** Används för att leverera olika typer av innehåll till olika typer av besökare.
+* **Rapportera målgrupper:** Används för att avgöra hur olika typer av besökare svarar på samma innehåll så att du kan analysera testresultaten.
 
-   I [!DNL Target]kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du använder [Adobe Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper i [!DNL Analytics].
+   I [!DNL Target] kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du använder [Adobe Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper inom [!DNL Analytics].
 
 ## Använda publiklistan
 
-Du öppnar [!UICONTROL Audiences] listan genom att klicka **[!UICONTROL Audiences]** på den övre menyraden:
+Du öppnar listan [!UICONTROL Audiences] genom att klicka på **[!UICONTROL Audiences]** i det övre menyfältet:
 
 ![Publiklista](assets/audiences_list.png)
 
-Listan innehåller alla målgrupper som du kan använda i dina aktiviteter. [!UICONTROL Audiences] Använd [!UICONTROL Audiences] listan för att skapa, redigera, ta bort, kopiera eller kombinera målgrupper. Listan visar också källan till målgruppen ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud]och så vidare). Det går inte att byta namn på fördefinierade målgrupper, t.ex.&quot;Nya besökare&quot; och&quot;Återkommande besökare&quot;.
+Listan [!UICONTROL Audiences] innehåller alla målgrupper som du kan använda i dina aktiviteter. Använd listan [!UICONTROL Audiences] för att skapa, redigera, ta bort, kopiera eller kombinera målgrupper. Listan visar också källan där målgruppen skapades ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] o.s.v.). Det går inte att byta namn på fördefinierade målgrupper, t.ex.&quot;Nya besökare&quot; och&quot;Återkommande besökare&quot;.
 
 När du arbetar med målgrupper som ursprungligen skapades i AAM får du ett varningsmeddelande från Target om du refererar till en målgrupp i Target-aktiviteter som senare har tagits bort i AAM.
 
-* Om en målgrupp togs bort i AAM visas en varningsikon både i [!UICONTROL Audience] listan och i målgruppsväljaren. Ett verktygstips i användargränssnittet anger också att målgruppen togs bort i AAM.
+* Om en målgrupp togs bort i AAM visas en varningsikon både i [!UICONTROL Audience]-listan och i målgruppsväljaren. Ett verktygstips i användargränssnittet anger också att målgruppen togs bort i AAM.
 * Om du försöker kombinera flera målgrupper med en borttagen målgrupp, eller om du försöker spara en aktivitet som refererar till en borttagen målgrupp, visas ett varningsmeddelande.
 
-Du kan också ange anpassade profilparametrar och `user.` parametrar som mål. När du lägger till en målgrupp klickar du på **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]** och väljer sedan den parameter som du vill använda som mål för aktiviteten. Om den önskade parametern inte visas har parametern inte utlösts av en mbox. Andra anpassade mbox-parametrar finns i den [!UICONTROL Custom Parameters] nedrullningsbara listan.
+Du kan också ange anpassade profilparametrar och `user.`-parametrar som mål. När du lägger till en målgrupp klickar du på **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]** och väljer sedan den parameter som du vill använda som mål för aktiviteten. Om den önskade parametern inte visas har parametern inte utlösts av en mbox. Andra anpassade mbox-parametrar är tillgängliga i listrutan [!UICONTROL Custom Parameters].
 
-Använd sökrutan för att söka i din [!UICONTROL Audiences] lista. Du kan söka efter valfri del av ett målgruppsnamn eller omge en viss sträng med citattecken.
+Använd sökrutan för att söka i din [!UICONTROL Audiences]-lista. Du kan söka efter valfri del av ett målgruppsnamn eller omge en viss sträng med citattecken.
 
-Du kan sortera listan efter målgruppsnamn eller efter det datum då den senast ändrades. [!UICONTROL Audiences] Om du vill sortera efter namn eller datum klickar du på kolumnrubriken och väljer sedan att visa målgrupper i stigande eller fallande ordning.
+Du kan sortera listan [!UICONTROL Audiences] efter målgruppsnamn eller efter det datum då den senast ändrades. Om du vill sortera efter namn eller datum klickar du på kolumnrubriken och väljer sedan att visa målgrupper i stigande eller fallande ordning.
 
 ## Visa målgruppsdefinitioner {#section_11B9C4A777E14D36BA1E925021945780}
 
@@ -58,7 +58,7 @@ Du kommer åt följande målgruppsdefinitionskort genom att klicka på ikonen Vi
 
 ![Verksamheter > Målgruppsdefinition](assets/audience_definition_list.png)
 
-Klicka på [!UICONTROL Audience Usage] fliken för att se andra aktiviteter som refererar till den målgruppen, om tillämpligt. På så sätt kan du undvika oavsiktlig påverkan på andra aktiviteter när du redigerar målgrupper. Informationen omfattar live-aktiviteter, inaktiva aktiviteter, arkiverade aktiviteter och synkroniseringsaktiviteter. Den här funktionen är tillgänglig för alla målgrupper (biblioteksmålgrupper och [målgrupper](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)som endast är aktiva).
+Klicka på fliken [!UICONTROL Audience Usage] för att se andra aktiviteter som refererar till den målgruppen, om tillämpligt. På så sätt kan du undvika oavsiktlig påverkan på andra aktiviteter när du redigerar målgrupper. Informationen omfattar live-aktiviteter, inaktiva aktiviteter, arkiverade aktiviteter och synkroniseringsaktiviteter. Den här funktionen är tillgänglig för alla målgrupper (biblioteksmålgrupper och [målgrupper som endast är aktivitetsspecifika](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Om en målgrupp kombineras med en annan målgrupp och den kombinerade målgruppen används för att skapa en aktivitet, kommer användarinformationen för båda målgrupperna att visa den nyskapade aktiviteten.
 
@@ -72,16 +72,16 @@ Följande information finns för de importerade publiktyperna:
 
 | Målgruppstyp | Detaljer |
 |--- |--- |
-| Mobila målgrupper | Marknadsföringsnamn, leverantör och modell.<br>Operatorn `matches | does not match` visas i stället för `equals | does not equal`<br>![Importerad mobil publik](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Besökarnas beteendemönster | **user.categoryAffinity:** `categoryAffinity` med `FAVORITE` parameter.<br>![Tillhörighetsövervakning ](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**för importerad kategori:** Övervakningstjänsten är lika med true.<br>**Ingen övervakningstjänst:** Övervakningstjänsten är lika med false.<br>![Importerad övervakning](/help/c-target/c-audiences/assets/imported_monitoring.png) |
-| Målgrupper som använder operatorn NOT | **Enkel regel:** Target visar målgruppen i formatet `[All Visitor AND [NOT [rule]`. En NOT-regel visas med AND med `AllVisitor` målgrupp.<br>![Importerad publik ej](/help/c-target/c-audiences/assets/imported_not_audience.png) |
+| Mobila målgrupper | Marknadsföringsnamn, leverantör och modell.<br>Operatorn  `matches | does not match` visas i stället för  `equals | does not equal`<br>![Importerad mobil publik](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
+| Besökarnas beteendemönster | **user.categoryAffinity:** `categoryAffinity` with  `FAVORITE` parameter.<br>![Importerad Category ](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**AffinityMonitoring:** Monitoring-tjänst är lika med true.<br>**Ingen övervakningstjänst:** Övervakningstjänsten är lika med false.<br>![Importerad övervakning](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Målgrupper som använder operatorn NOT | **Enkel regel:** Mål visar målgruppen i formatet  `[All Visitor AND [NOT [rule]`. En NOT-regel visas med AND med `AllVisitor` målgrupp.<br>![Importerad publik ej](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Tänk på följande när du arbetar med importerade målgrupper:
 
 * Målgrupper för uttryck stöds inte längre i Target Standard/Premium.
 * Target Standard/Premium stöder inte vissa inaktuella målgrupper eller har förbättrade operatorer som är enkla att använda. Därför betyder definitionen av en importerad målgrupp, även om den fungerar enligt definitionen, inte att den nu är tillgänglig för att skapas i gränssnittet Standard/Premium. Sociala målgrupper är till exempel synliga med sina regler, men Target Standard/Premium tillåter inte att sociala målgrupper skapas.
 
-## Utbildningsvideo: Använda märket för ![självstudiekurser för publiker](/help/assets/tutorial.png)
+## Utbildningsvideo: Använda målgrupper ![Självstudiemärke](/help/assets/tutorial.png)
 
 Den här videon innehåller information om hur du använder målgrupper.
 
