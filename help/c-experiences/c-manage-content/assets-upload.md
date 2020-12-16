@@ -23,7 +23,7 @@ Du kan lägga till eller ta bort objekt från listan Bilderbjudanden.
 
    Objektet överförs till biblioteket.
 
-## Utbildningsvideo: Märket ![Översikt över innehållsdatabas](/help/assets/overview.png)
+## Utbildningsvideo: The Content Repository ![Overview badge](/help/assets/overview.png)
 
 Den här videon innehåller information om hur du hanterar innehåll.
 
