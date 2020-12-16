@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations - Frågor och svar{#recommendations-faq}
+# ![](/help/assets/premium.png) PREMIUMRecommendations FAQ{#recommendations-faq}
 
 Lista med vanliga frågor och svar om Adobe Target Recommendations-aktiviteter.
 
@@ -20,7 +20,7 @@ Lista med vanliga frågor och svar om Adobe Target Recommendations-aktiviteter.
 
 När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
 
-För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill ändra något [öppnar du ett kundärende](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till attributen som behöver typen ändrad från sträng till numerisk.
+För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill göra en ändring [öppnar du en kundutgåva](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till de attribut som behöver typen ändrad från sträng till numerisk.
 
 ## Hur lång tid tar det för uppdateringar av objekt i min katalog att återspeglas på min webbplats?
 
@@ -65,25 +65,25 @@ Om platsen som du använder det här villkoret på inte innehåller kategori-ID:
 
 Om du använder en plats där kategori-ID finns i mbox, innehåller villkorsväljaren alla tillämpliga villkor.
 
-Målet har en inställning för [filterinkompatibla villkor](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) för att styra intelligent filtrering av algoritmväljaren.
+Målet har en [inställning för filterinkompatibla villkor](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) som styr intelligent filtrering av algoritmväljaren.
 
 >[!NOTE]
 >
 >Den här inställningen gäller endast för aktiviteter som skapats i Visual Experience Composer (VEC). Den här inställningen gäller inte för aktiviteter som skapas i den formulärbaserade Experience Composer (målet har ingen platskontext).
 
-Du öppnar [!UICONTROL Filter Incompatible Criteria] inställningen genom att klicka [!UICONTROL Recommendations] > [!UICONTROL Settings]:
+Om du vill komma åt inställningen [!UICONTROL Filter Incompatible Criteria] klickar du på [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
 ![](assets/recs_settings_filter.png)
 
-Om [!UICONTROL Filter Incompatible Criteria] inställningen INTE är aktiverad filtrerar inte Target algoritmer i algoritmväljaren och alla algoritmer visas.
+Om inställningen [!UICONTROL Filter Incompatible Criteria] inte är aktiverad filtrerar inte Target algoritmer i algoritmväljaren och alla algoritmer visas.
 
-Om [!UICONTROL Filter Incompatible Criteria] inställningen är aktiverad läser Target entitetId och category Id i VEC-aktiviteter från den valda platsen och visar sedan algoritmer baserat på `currentItem|currentCategory` (om respektive värden finns på den platsen). Därför visas som standard bara kompatibla algoritmer för den valda platsen i algoritmväljaren.
+Om inställningen [!UICONTROL Filter Incompatible Criteria] är aktiverad läser Target entitetId och category Id i VEC-aktiviteter från den valda platsen och visar sedan algoritmer baserade på `currentItem|currentCategory` (om det finns respektive värden på den platsen). Därför visas som standard bara kompatibla algoritmer för den valda platsen i algoritmväljaren.
 
-Om [!UICONTROL Filter Incompatible Criteria] inställningen är aktiverad kan du fortfarande visa icke-kompatibla algoritmer genom att avmarkera [!UICONTROL Compatible] kryssrutan när du väljer villkor.
+Om inställningen [!UICONTROL Filter Incompatible Criteria] är aktiverad kan du fortfarande visa icke-kompatibla algoritmer genom att avmarkera kryssrutan [!UICONTROL Compatible] när du väljer villkor.
 
 ![](assets/compatible_checkbox.png)
 
-Följande lista innehåller specialfall där alternativet Mål inte visar [!UICONTROL Compatible] kryssrutan:
+Följande lista innehåller specialfall där alternativet [!UICONTROL Compatible] inte visas i Target:
 
 * Både entityId och category Id finns på platsen och inget filtreras.
 * Du använder [!DNL mbox.js] version 55 eller tidigare.
@@ -95,7 +95,7 @@ Följande lista innehåller specialfall där alternativet Mål inte visar [!UICO
 Tänk på följande information om du ser en samling gå till noll som tidigare inte var noll:
 
 * Du kan spara samlingen igen och se om den uppdaterar numret. Observera att om du sparar om kommer samlingen att köra alla algoritmer som använder den samlingen igen.
-* Tittar du på rätt miljö? Gå till [!DNL /target/products.html#recsSettings] dubbelkontrollen (se nedan).
+* Tittar du på rätt miljö? Gå till [!DNL /target/products.html#recsSettings] om du vill dubbelkontrollera (som visas nedan).
 
    ![](assets/product_catalog.png)
 
@@ -137,13 +137,13 @@ Följande JavaScript kan användas i början av designen för att öka antalet b
 
 ## Vilken är storleksgränsen för ett API-anrop för infognings-/uppdateringsprodukter? Kan jag uppdatera 50 000 produkter i ett samtal med API:t istället för en feed? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Target inför en postgräns på 50 MB på applikationsnivå. det är dock bara när du skickar innehållstypsrubriken `application/x-www-form-urlencoded` .
+Target inför en postgräns på 50 MB på applikationsnivå. Detta är dock bara när du skickar innehållstypsrubriken `application/x-www-form-urlencoded`.
 
 Du kan försöka att skicka 50 000 produkter i ett enda samtal. Om det inte fungerar bör du dela upp det i grupper. Vi rekommenderar oftast att kunderna delar upp sina samtal i 5 000 eller 10 000 produktgrupper för att minska sannolikheten för en timeout på grund av systembelastning.
 
 ## Måste jag ange mbox-namnet när jag skapar Recommendations-kriterier, kampanjer eller testregler för mallar? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-När du skapar Recommendations-villkor, -kampanjer eller -malltestningsregel som baseras på en mbox-parameter, uppmanas du `mboxParameter` inte längre till `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
+När du skapar Recommendations-kriterier, kampanjer eller malltestningsregler som baseras på en mbox-parameter, frågar `mboxParameter` inte längre efter `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
 
 Så här väljer du önskad parameter:
 
@@ -160,7 +160,7 @@ Se till att målgruppen har ett unikt namn. Om du gav målgruppen samma namn som
 
 ## Vilken är den maximala storleken för en CSV-fil för en feed-överföring? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Det finns ingen hård gräns för antalet rader eller filstorleken för en feed CSV-filöverföring. Vi rekommenderar dock att CSV-filens storlek begränsas till 1 GB för att undvika fel under filöverföringen. Om filens storlek överstiger 1 GB bör den helst delas upp i flera feedsfiler. Det maximala antalet anpassade attributkolumner är 100 och anpassade attribut är begränsade till 4 096 tecken. Ytterligare begränsningar för längden på de kolumner som krävs finns på sidan [](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)Målbegränsningar.
+Det finns ingen hård gräns för antalet rader eller filstorleken för en feed CSV-filöverföring. Vi rekommenderar dock att CSV-filens storlek begränsas till 1 GB för att undvika fel under filöverföringen. Om filens storlek överstiger 1 GB bör den helst delas upp i flera feedsfiler. Det maximala antalet anpassade attributkolumner är 100 och anpassade attribut är begränsade till 4 096 tecken. Ytterligare begränsningar för längden på de kolumner som krävs finns på [sidan Målbegränsningar](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kan jag utesluta en entitet dynamiskt?
 
@@ -168,13 +168,13 @@ I frågesträngen kan du skicka enhets-ID:n för entiteter som du vill utesluta 
 
 Om du vill aktivera exkluderingsfunktionen använder du parametern `excludedIds` mbox. Den här parametern pekar på en lista med kommaavgränsade enhets-ID:n. Exempel, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Värdet skickas när rekommendationer begärs.
 
-Uteslutningen görs endast för det aktuella Target-anropet. objekt exkluderas inte vid efterföljande Target-anrop såvida inte `excludedIds` värdet skickas igen. Om du vill utesluta artiklar i kundvagnen från rekommendationer på varje sida fortsätter du att skicka `excludedIds` värdet på varje sida.
+Uteslutningen görs endast för det aktuella Target-anropet. objekt exkluderas inte vid efterföljande Target-anrop såvida inte `excludedIds`-värdet skickas igen. Om du vill utesluta artiklar i kundvagnen från rekommendationer på varje sida fortsätter du skicka `excludedIds`-värdet på varje sida.
 
 >[!NOTE]
 >
 >Om för många enheter utesluts beter sig rekommendationerna som om det inte finns tillräckligt många enheter för att fylla rekommendationsmallen.
 
-Om du vill exkludera `entityIds`lägger du till `&excludes=${mbox.excludedIds}` token till erbjudandets innehålls-URL. När innehålls-URL:en extraheras ersätts de obligatoriska parametrarna med aktuella parametrar för mbox-begäran.
+Om du vill exkludera `entityIds` lägger du till `&excludes=${mbox.excludedIds}`-token till erbjudandets innehålls-URL. När innehålls-URL:en extraheras ersätts de obligatoriska parametrarna med aktuella parametrar för mbox-begäran.
 
 Som standard är den här funktionen aktiverad för nya rekommendationer. Befintliga rekommendationer måste sparas för att stödja enheter som utesluts dynamiskt.
 
