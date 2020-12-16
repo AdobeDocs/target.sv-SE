@@ -16,9 +16,9 @@ ht-degree: 2%
 
 Information som hjälper dig att ange flera inställningar på sidan med inställningar för mbox.js.
 
-Standardinställningarna för [!DNL mbox.js] funktionsbiblioteket uppfyller behoven hos de flesta [!DNL Target] kunder.
+Standardinställningarna för funktionsbiblioteket [!DNL mbox.js] uppfyller behoven hos de flesta [!DNL Target]-kunder.
 
-Kontakta vid behov din kontorepresentant för att ändra [!DNL mbox.js] inställningarna.
+Kontakta din kontorepresentant om det behövs för att ändra [!DNL mbox.js]-inställningarna.
 
 Följande inställningar är tillgängliga:
 
@@ -26,13 +26,13 @@ Följande inställningar är tillgängliga:
 
 Klientkoden för ditt konto.
 
-När du visar [!UICONTROL Administration > Implementation]den visas klientkoden högst upp för ditt konto.
+När du visar [!UICONTROL Administration > Implementation] är klienten överst klientkoden för ditt konto.
 
 ## Timeout
 
 Timeout för målbegäran.
 
-Vid visning [!UICONTROL Administration > Implementation]är timeout (sekunder) inställningen för målbegäran som timeout. Som standard är det här värdet 15 sekunder, men vi rekommenderar att du anger ett värde mellan 2 sekunder och 5 sekunder.
+När du visar [!UICONTROL Administration > Implementation] är inställningen Timeout (sekunder) timeout för målbegäran. Som standard är det här värdet 15 sekunder, men vi rekommenderar att du anger ett värde mellan 2 sekunder och 5 sekunder.
 
 ## XDomain
 
