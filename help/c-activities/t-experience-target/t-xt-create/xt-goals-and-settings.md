@@ -63,11 +63,11 @@ Följande inställningar är tillgängliga:
 
 ### Rapporteringslösning
 
-Ange om data samlas in från Adobe Target eller från Adobe Analytics. Se [Adobe Analytics som rapportkälla för Target](/help/c-integrating-target-with-mac/a4t/a4t.md) om du vill veta mer om skillnaderna mellan rapporteringslösningarna och fördelarna med var och en av dem.
+Ange om data samlas in från Adobe Target eller från Adobe Analytics. Läs [Adobe Analytics som rapportkälla för Target](/help/c-integrating-target-with-mac/a4t/a4t.md) om du vill veta mer om skillnaderna mellan rapporteringslösningarna och fördelarna med varje.
 
 När du väljer Analytics som rapportkälla för Target väljer du en Analytics-rapportsserie som tar emot Target-aktivitetsdata. För att göra detta väljer du först något av Analytics-företagen som ditt konto är knutet till och väljer sedan lämplig rapportsvit för aktiviteten. Endast rapportsviter som har etablerats för att ansluta till Adobe Target kan väljas. Om du inte ser de rapportsviter du förväntar dig kan du först logga ut och logga in på Adobe Experience Cloud för att försöka igen. Kontakta kundtjänst om rapportsviten fortfarande saknas i listan.
 
-Analyser för Target kräver en spårningsserver för att kunna rapportera resultaten korrekt. En standardspårningsserver visas i fältet Spårningsserver. Om du använder mer än en spårningsserver bör du kontrollera att du inkluderar rätt spårningsserver i det här fältet. Mer information finns i [Använda en analysspårningsserver](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) .
+Analyser för Target kräver en spårningsserver för att kunna rapportera resultaten korrekt. En standardspårningsserver visas i fältet Spårningsserver. Om du använder mer än en spårningsserver bör du kontrollera att du inkluderar rätt spårningsserver i det här fältet. Mer information finns i [Använda en analysspårningsserver](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
 Om en rapporteringslösning anges i dina kontoinställningar används den angivna lösningen och den här inställningen syns inte.
 
@@ -79,7 +79,7 @@ Om en rapporteringslösning anges i dina kontoinställningar används den angivn
 
 Välj den åtgärd som en besökare ska utföra för att uppnå målet. Välj till exempel ett konverteringsmått och ange sedan parametrarna som avgör när resultatet uppnås.
 
-Mer information om att ställa in mått finns i [Ange mått](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB) .
+Mer information om att ställa in mått finns i [Ange mått](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB).
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Alternativet Lägg till beroende gör att framgångsmåttet ökar om ett annat f
 
 Så här lägger du till ett beroende:
 
-1. När du har lagt till ytterligare mätvärden klickar du på **[!UICONTROL Advanced Settings]**.
+1. När du har lagt till ytterligare mått klickar du på **[!UICONTROL Advanced Settings]**.
 2. Klicka på **[!UICONTROL Add Dependency]**:
 
    ![Lägg till beroendelänk](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
@@ -150,7 +150,7 @@ Det finns tre alternativ för vad som händer när en besökare når målmåttet
 * Välj Öka antal, Frigör användare och Tillåt återinträde om du vill ange vilken upplevelse användaren ser om han/hon återupptar aktiviteten.
 * Välj Öka antal, Frigör användare och fält från Inmatning igen om du vill ange vad användaren ser i stället för aktivitetsinnehållet.
 
-Mer information om avancerade inställningar finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) .
+Mer information om avancerade inställningar finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 ## Utbildningsvideo: Aktivitetsinställningar (3:02)
 
