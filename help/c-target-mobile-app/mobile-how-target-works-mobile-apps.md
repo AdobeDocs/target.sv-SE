@@ -23,11 +23,11 @@ Ett *[framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#r
 
 ![](assets/mobile-target-location.png)
 
-* **Målplats:** Innehållet som visas under registreringsknappen.
+* **Målplats:** Innehållet som visas under knappen Registrera.
 
    Den här användaren erbjuds fri frakt till och med 18.00. Den här platsen kan återanvändas i flera Target-aktiviteter för att köra A/B-tester och personalisering.
 
-* **Resultatmått:** Den åtgärd som utförs av användaren där användaren trycker på knappen Register.
+* **Resultatmått:** Den åtgärd som utfördes av användaren där användaren trycker på knappen Register.
 
 **Förstå hur Target fungerar i SDK**
 
