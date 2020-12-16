@@ -30,11 +30,11 @@ TLS 1.2 är standard från och med 1 mars 2020 och TLS 1.1 stöds inte längre.
 
 Adobe kommer att flytta kunder i faser till TLS 1.2. För dem vars domäner redan är 1.2-kompatibla kommer vi att flytta dem till TLS 1.2 utan att du behöver göra några ändringar. De flesta kunddomäner har redan stöd för TLS 1.2. Om din domän inte stöder TLS 1.2 behåller vi dessa domäner på TLS 1.1 som i dag (till mars 2020).
 
-Du bör inte ställas inför något problem under den här migreringsfasen. Om VEC har slutat läsa in en plats som tidigare fungerade [öppnar du en kundtjänstbiljett](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som anger migreringen som en möjlig orsak.
+Du bör inte ställas inför något problem under den här migreringsfasen. Om VEC har slutat läsa in en plats som tidigare fungerade, [öppnar du en kundtjänstbiljett](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som anger migreringen som en möjlig orsak.
 
 Om du däremot är en av de kunder som har TSL 1.1 utan stöd för TLS 1.2 bör du planera för att flytta dina domäner/din infrastruktur till TLS 1.2. Vi kommer att fortsätta att stödja TLS 1.1-protokollet fram till 1 mars 2020. Från och med 1 mars 2020 stöder inte Target TLS 1.1-protokollet som ska användas för VEC via funktionen Enhanced Experience Composer.
 
-Även om vi rekommenderar alla att vara med på TLS 1.2 även om du är ny kund men *INTE* stöder TLS 1.2 ber vi dig kontakta kundtjänst för att få veta att du behöver använda TLS 1.1 för Enhanced Experience Composer. Men planera för att gå över till TLS 1.2 eftersom du inte heller kommer att få stöd efter 1 mars 2020.
+Även om vi rekommenderar alla att vara med på TLS 1.2 även om du är en ny kund men *INTE* stöder TLS 1.2 ber vi dig kontakta kundtjänst för att få information om att du behöver använda TLS 1.1 för Enhanced Experience Composer. Men planera för att gå över till TLS 1.2 eftersom du inte heller kommer att få stöd efter 1 mars 2020.
 
 ## Aktivitetsleverans {#section_46CA5943E4354B259014C2BF340AECD6}
 
@@ -56,17 +56,17 @@ När du planerar för den här ändringen bör du tänka på följande (observer
 * Tänk på att antalet besökare i dina Target-rapporter potentiellt kan se en obetydlig minskning av antalet besökare.
 * Du kan behöva ändra målgrupper som skapats specifikt för äldre enheter eller webbläsare som inte stöder TLS 1.2. Leverans till dessa enheter och webbläsare fungerar inte längre.
 
-Mer information om vilka webbläsare som stöds och vilka versioner som stöds finns i [Webbläsare](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)som stöds.
+Mer information om vilka webbläsare som stöds och vilka versioner som stöds finns i [Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target API:er {#section_88797FA5434049EC89F908853CC76903}
 
 Från och med 1 mars 2020 har mål-API:er inte längre stöd för TLS 1.1-kryptering. Kunder som har åtkomst till API bör verifiera att de inte kommer att påverkas.
 
-* API-klienter som använder Java 7 med standardinställningar behöver ändras för att stödja TLS 1.2. Mer information finns i &quot; [Ändra TLS-standardprotokollversionen för klientslutpunkter: TLS 1.0 till TLS 1.2](https://www.java.com/en/configure_crypto.html)&quot; på Java-webbplatsen.
+* API-klienter som använder Java 7 med standardinställningar behöver ändras för att stödja TLS 1.2. Mer information finns i &quot; [Ändra TLS-standardprotokollversionen för klientslutpunkter: TLS 1.0 till TLS 1.2](https://www.java.com/en/configure_crypto.html) på Java-webbplatsen.
 * API-klienter som använder Java 8 bör inte påverkas eftersom standardinställningen är TLS 1.2.
 * API-klienter som använder andra ramverk måste kontakta sina leverantörer för att få information om TLS 1.2-stödet.
 
-## Tillgång till Experience Cloud Solutions-gränssnitt {#section_748870ADE77B4CBEB18518DC784E64E5}
+## Åtkomst till gränssnitt för Experience Cloud Solutions {#section_748870ADE77B4CBEB18518DC784E64E5}
 
 Eftersom gränssnittet Target Standard/Premium redan kräver en [modern webbläsare](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), kan vi inte förutse några problem. Om du inte kan ansluta till Target bör du uppgradera webbläsaren till den senaste versionen.
 
