@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Som standard upphör en besökarprofil att gälla efter 14 dagars inaktivitet för den besökaren. Profilens livslängd kan förlängas.
 
-[Kontakta kundtjänst eller din Adobe-konsult](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att förlänga profilens livstid utan extra kostnad. Livslängden kan anges till så många som 90 dagar.
+[Kontakta kundtjänst eller din Adobe-](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) konsult för att förlänga profilens livstid utan extra kostnad. Livslängden kan anges till så många som 90 dagar.
 
 Det [!DNL Target] JavaScript-bibliotek som du använder ( [!DNL at.js] eller [!DNL mbox.js]) avgör om du behöver hämta en ny fil eller inte:
 
