@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Skapa en målgrupp för profilattributsjämförelse{#create-a-profile-attribute-comparison-audience}
 
-Definiera en målgrupp för att jämföra två profilattribut för ditt [målgruppsbibliotek](/help/c-target/c-audiences/audiences.md) eller för en [målgrupp](/help/c-target/creating-activity-only-audience.md)som bara är aktiv. Med operatorer, till exempel större än, mindre än eller lika med, kan du definiera en målgrupp för att dynamiskt jämföra värdena för två olika profilattribut.
+Definiera en målgrupp för att jämföra två profilattribut för ditt [målgruppsbibliotek](/help/c-target/c-audiences/audiences.md) eller i en [målgrupp som endast är aktivt](/help/c-target/creating-activity-only-audience.md). Med operatorer, till exempel större än, mindre än eller lika med, kan du definiera en målgrupp för att dynamiskt jämföra värdena för två olika profilattribut.
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig för kategorin [Besökarprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) .
+>Den här funktionen är endast tillgänglig för kategorin [Besöksprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 ## Översikt {#section_303CBC78194D49A2A004945D425441E1}
 
@@ -31,12 +31,12 @@ Låt oss anta att du arbetar för ett möbelföretag och överförde två kundbe
 
 Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än sannolikheten att köpa möbler för vardagsrum. Target skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för denna målgrupp.
 
-Mer information finns i [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Mer information finns i [Metoder för att hämta data till målet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
-## Skapa en målgrupp för profilattributsjämförelse {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
+## Skapa en målgrupp för jämförelse av profilattribut {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** > **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**.
-1. Välj ett attribut i **[!UICONTROL Visitor Profile]** listrutan:
+1. Välj ett attribut i listrutan **[!UICONTROL Visitor Profile]**:
 
    ![Propensitetspoäng 1](assets/propensity_score_1.png)
 
@@ -44,7 +44,7 @@ Mer information finns i [Metoder för att hämta data till Target](/help/c-imple
 
    ![Propensitetspoäng 2](assets/propensity_score_2.png)
 
-1. From the **[!UICONTROL Choose Comparison Type]** drop-down list, choose **[!UICONTROL Attribute]**.
+1. Välj **[!UICONTROL Attribute]** i listrutan **[!UICONTROL Choose Comparison Type]**.
 
    Jämförelsetypen för&quot;statiskt värde&quot; gör att du kan jämföra din besökarprofils attribut med specifika värden.
 
@@ -58,7 +58,7 @@ Mer information finns i [Metoder för att hämta data till Target](/help/c-imple
 
    ![](assets/propensity_score_4.png)
 
-## Utbildningsemblem ![för videoöversikt](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Utbildningsvideo ![Översikt](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Titta på följande video för mer information och ett scenario där du kan använda den här funktionen:
 
