@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Administrera målöversikt{#administer-target}
 
-Information som kan hjälpa dig att administrera, inklusive konfigurationsinställningar för Visual Experience Composer (VEC), rapportering, Scene7-konfiguration, implementering, värdar, miljöer, svarstoken och användare. [!DNL Adobe Target]
+Information som hjälper dig att administrera [!DNL Adobe Target], inklusive konfigurationsinställningar för Visual Experience Composer (VEC), rapportering, Scene7-konfiguration, implementering, värdar, miljöer, svarstoken och användare.
 
-Om du vill komma åt [!UICONTROL Administration] menyalternativen klickar du **[!UICONTROL Administration]** i den övre menyraden och sedan på den önskade fliken till vänster:
+Om du vill komma åt [!UICONTROL Administration]-menyalternativen klickar du på **[!UICONTROL Administration]** i den övre menyraden och sedan på den önskade fliken till vänster:
 
 * [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
 * [Rapportering](/help/administrating-target/reporting.md)
