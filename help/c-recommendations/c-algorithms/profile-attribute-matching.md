@@ -12,15 +12,15 @@ ht-degree: 0%
 ---
 
 
-# ![Matchning av PREMIUM](/help/assets/premium.png) -profilattribut
+# ![Matchning av ](/help/assets/premium.png) PREMIUMProfile-attribut
 
-Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra artiklar (entiteter) med ett värde i användarens profil.
+Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra objekt (entiteter) med ett värde i användarens profil.
 
 Använd [!UICONTROL Profile Attribute Matching] när du vill visa rekommendationer som matchar ett värde som lagras i besökarens profil, till exempel storlek eller favoritmärke.
 
 >[!NOTE]
 >
->Processen [för att skapa och använda inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) för kriterier och kampanjer är liknande, liksom användningsexempel och exempel.
+>Processen [för att skapa och använda inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) för villkor och kampanjer är liknande, liksom användningsexempel och exempel.
 
 Följande scenarier visar hur du kan använda [!UICONTROL Profile Attribute Matching]:
 
@@ -33,7 +33,7 @@ Följande scenarier visar hur du kan använda [!UICONTROL Profile Attribute Matc
 
 ### Rekommendera objekt från användarens favoritvarumärke
 
-Du kan till exempel använda alternativet för att skapa en regel som bara rekommenderar objekt där varumärket är lika med värdet eller texten som lagras i [!UICONTROL Profile Attribute Matching] `profile.favoritebrand`. Om en besökare tittar på kortkommandon från ett visst varumärke är det bara rekommendationer som motsvarar användarens favoritvarumärke (värdet som lagras i `profile.favoritebrand` besökarens profil) som visas.
+Du kan till exempel använda alternativet [!UICONTROL Profile Attribute Matching] för att skapa en regel som bara rekommenderar objekt där varumärket är lika med värdet eller texten som lagras i `profile.favoritebrand`. Om en besökare tittar på att köra kortkommandon från ett visst varumärke visar bara rekommendationer som matchar användarens favoritvarumärke (värdet som lagras i `profile.favoritebrand` i besökarens profil).
 
 ![Favoritmärke](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
@@ -59,9 +59,9 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 Ett visuellt exempel på hur profilattributsmatchning påverkar rekommendationer finns på en webbplats som säljer elektriska fläktar.
 
-När en besökare klickar på olika bilder av fans på den här webbplatsen anger varje sida parameterns värde baserat på om storleken på fläkten i bilden är liten eller stor. `entity.size`
+När en besökare klickar på olika bilder av fans på den här webbplatsen anger varje sida värdet för parametern `entity.size` baserat på om storleken på fläkten i bilden är liten eller stor.
 
-Anta att du har skapat ett profilskript för att spåra och räkna antalet gånger som värdet för `entity.size` är inställt på small kontra large.
+Anta att du har skapat ett profilskript för att spåra och räkna antalet gånger som värdet för `entity.size` är inställt på small vs. large.
 
 Om besökaren sedan kommer tillbaka till hemsidan, kommer han eller hon att se filtrerade rekommendationer baserat på om användaren klickade på fler små fans eller stora fans.
 
