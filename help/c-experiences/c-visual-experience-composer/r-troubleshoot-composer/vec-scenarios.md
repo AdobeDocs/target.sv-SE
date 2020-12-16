@@ -44,7 +44,7 @@ Väljare: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultat:**
 
-Väljaren fungerar som förväntat eftersom den inte `li.women-section:eq(0)` påverkas.
+Väljaren fungerar som förväntat eftersom `li.women-section:eq(0)` inte påverkas.
 
 Före:
 
@@ -306,7 +306,7 @@ Väljare: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultat:**
 
-Det går inte att byta namn på elementklassen eftersom det inte `class` går att hitta den.
+Det går inte att byta namn på elementklassen eftersom det inte gick att hitta `class`.
 
 Före:
 
