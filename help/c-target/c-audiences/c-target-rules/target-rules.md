@@ -20,15 +20,15 @@ När en viss kategori är markerad kan du använda ett eller flera målinriktnin
 
 När du har skapat en regel klickar du på **[!UICONTROL Save]**. En sammanfattning av regeln visas bredvid mållänken för den nivå du har som mål.
 
-Du kan förfina en regel ytterligare genom att lägga till fler villkor eller genom att skapa ytterligare regler i andra kategorier. Om du till exempel bara vill rikta sig till Firefox-användare från San Francisco som har öppnat din webbplats från Google anger du kategorin som mål för användare från San Francisco, kategorin som är [!UICONTROL Geo] Firefox och kategorin som mål för [!UICONTROL Visitor Behavior] [!UICONTROL Traffic Sources] Google. Alla regler som skapas mellan kategorier kombineras med&quot;AND&quot;. Skapa ett uttrycksmål om du vill skapa komplexa målinriktningsregler som innehåller &quot;OR&quot;-åtgärder i olika kategorier.
+Du kan förfina en regel ytterligare genom att lägga till fler villkor eller genom att skapa ytterligare regler i andra kategorier. Om du till exempel bara vill rikta in dig på Firefox-användare från San Francisco som har öppnat din webbplats från Google anger du kategorin [!UICONTROL Geo] som mål för användare från San Francisco, kategorin [!UICONTROL Visitor Behavior] som Firefox och kategorin [!UICONTROL Traffic Sources] som Google. Alla regler som skapas mellan kategorier kombineras med&quot;AND&quot;. Skapa ett uttrycksmål om du vill skapa komplexa målinriktningsregler som innehåller &quot;OR&quot;-åtgärder i olika kategorier.
 
-Du kan också ange anpassade profilparametrar och `user.` parametrar som mål. När du lägger till en målgrupp klickar du på **[!UICONTROL Visitor Profile]** och väljer sedan den parameter som du vill använda för att ange aktiviteten som mål. Om den önskade parametern inte visas har parametern inte utlösts av en mbox. Andra anpassade mbox-parametrar finns i den [!UICONTROL Custom Parameters] nedrullningsbara listan.
+Du kan också ange anpassade profilparametrar och `user.`-parametrar som mål. När du lägger till en målgrupp klickar du på **[!UICONTROL Visitor Profile]** och väljer sedan den parameter som du vill använda som mål för aktiviteten. Om den önskade parametern inte visas har parametern inte utlösts av en mbox. Andra anpassade mbox-parametrar är tillgängliga i listrutan [!UICONTROL Custom Parameters].
 
-Använd sökrutan för att söka i din [!UICONTROL Audiences] lista. Du kan söka efter valfri del av ett målgruppsnamn eller omge en viss sträng med citattecken.
+Använd sökrutan för att söka i din [!UICONTROL Audiences]-lista. Du kan söka efter valfri del av ett målgruppsnamn eller omge en viss sträng med citattecken.
 
 Du kan sortera målgruppslistan efter målgruppsnamn eller efter det datum då den senast ändrades. Om du vill sortera efter namn eller datum klickar du på kolumnrubriken och väljer sedan att visa målgrupper i stigande eller fallande ordning.
 
-## Utbildningsvideo: Skapa märket för ![självstudiekurser för publiker](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapar publik ![Självstudiekursikon](/help/assets/tutorial.png)
 
 Den här videon innehåller information om hur du använder målgruppskategorier.
 
