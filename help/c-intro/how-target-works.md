@@ -20,14 +20,14 @@ Information om hur Adobe Target fungerar, inklusive information om Target JavaSc
 
 Adobe Target kan integreras med webbplatser via ett av två JavaScript-bibliotek: at.js eller mbox.js
 
-* **at.js:** Biblioteket [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) at.js är det nya implementeringsbiblioteket för Target. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js är det rekommenderade implementeringsbiblioteket och uppdateras ofta med nya funktioner. Vi rekommenderar att alla kunder implementerar eller migrerar till den [senaste versionen av at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** Biblioteket mbox.js är det äldre implementeringsbiblioteket för Target. Biblioteket mbox.js stöds fortfarande, men det kommer inte att finnas några funktionsuppdateringar.
+* **at.js:** The  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) library är det nya implementeringsbiblioteket för Target. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js är det rekommenderade implementeringsbiblioteket och uppdateras ofta med nya funktioner. Vi rekommenderar att alla kunder implementerar eller migrerar till den [senaste versionen av at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* **mbox.js:** The mbox.js library is the legacy implementation library for Target. Biblioteket mbox.js stöds fortfarande, men det kommer inte att finnas några funktionsuppdateringar.
 
 >[!IMPORTANT]
 >
 >Alla kunder bör migrera till at.js. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Du måste referera till JavaScript-målbiblioteksfilen på alla sidor på webbplatsen. Du kan till exempel lägga till den i det globala sidhuvudet. Du kan också använda tagghanteraren [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Du måste referera till JavaScript-målbiblioteksfilen på alla sidor på webbplatsen. Du kan till exempel lägga till den i det globala sidhuvudet. Du kan också överväga att använda [tagghanteraren för Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Varje gång en besökare begär en sida som har optimerats för Target skickas en begäran till målinriktningssystemet för att avgöra vilket innehåll som ska användas för en besökare. Den här processen sker i realtid - varje gång en sida läses in görs en begäran om innehållet och utförs av systemet. Innehållet styrs av reglerna för marknadsföringsstyrda aktiviteter och upplevelser och är riktat till den enskilda besökaren. Innehållet utnyttjas av besökarna på webbplatsen som mest sannolikt reagerar på, interagerar med och i slutändan köper för att maximera svarsfrekvensen, kundvärvningsfrekvensen och intäkterna.
 
@@ -37,7 +37,7 @@ Det innehåll som visas för besökarna beror på vilken typ av aktivitet du ska
 
 ### A/B-test
 
-Mer information finns i [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) .
+Mer information finns i [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
 Innehållet som visas i ett grundläggande A/B-test väljs slumpmässigt bland de resurser som du tilldelar till aktiviteten, enligt de procentsatser som du väljer för varje upplevelse. Som ett resultat av denna slumpmässiga uppdelning av trafiken kan det ta en hel del inledande trafik innan procentandelarna ens tar slut. Om du till exempel skapar två upplevelser väljs startupplevelsen slumpmässigt. Om trafiken är liten är det möjligt att andelen besökare kan skevas mot en upplevelse. När trafiken ökar bör procentsatserna bli mer lika.
 
@@ -50,19 +50,19 @@ Du kan ange procentvärden för varje upplevelse. I det här fallet genereras et
 
 ### Automatisk allokering
 
-Mer information finns i [Automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) .
+Mer information finns i [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 Med Automatisk allokering identifieras en vinnare av två eller flera upplevelser och mer trafik omfördelas automatiskt till den vinnande upplevelsen för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 
 ### Automatiskt mål (AT)
 
-Mer information finns i [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) .
+Mer information finns i [Automatisk målkatalog](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Auto-Target använder avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest skräddarsydda upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.
 
 ### Automated Personalization (AP)
 
-Mer information finns i [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) .
+Mer information finns i [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
 Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje enskild besökare baserat på deras individuella kundprofil, för att anpassa innehåll och driva lyft.
 
@@ -76,29 +76,29 @@ Experience Targeting, inklusive geolokalisering, är värdefullt för att defini
 
 ### Multivariata tester (MVT)
 
-Mer information finns i [Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) .
+Mer information finns i [Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
 Med multivariata tester (MVT) jämförs kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och det element som har störst påverkan på aktivitetens framgång identifieras.
 
 ### Recommendations
 
-Mer information finns i [Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) .
+Mer information finns i [Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 Recommendations-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
 
-## Edge Network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## Edge-nätverket {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 En&quot;Edge&quot; är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen.
 
 För att förbättra svarstiderna är Target Edges värd endast för aktivitetslogik, cachelagrade profiler och erbjudandeinformation.
 
-Aktivitets- och innehållsdatabaser, [!DNL Analytics] data, API:er och marknadsföringsanvändargränssnitt finns i Adobe centrala kluster. Uppdateringar skickas sedan till målkanterna. Central Clusters och Edge Clusters synkroniseras automatiskt för att kontinuerligt uppdatera cachade aktivitetsdata. Alla 1:1-modelleringar lagras också på varje kant, så dessa mer komplexa begäranden kan också bearbetas på kanten.
+Aktivitets- och innehållsdatabaser, [!DNL Analytics]-data, API:er och marknadsföringsanvändargränssnitt finns i Adobe centrala kluster. Uppdateringar skickas sedan till målkanterna. Central Clusters och Edge Clusters synkroniseras automatiskt för att kontinuerligt uppdatera cachade aktivitetsdata. Alla 1:1-modelleringar lagras också på varje kant, så dessa mer komplexa begäranden kan också bearbetas på kanten.
 
 Varje Edge Cluster har all information som krävs för att svara på användarens begäran om innehåll och spåra analysdata på begäran. Användarförfrågningar dirigeras till närmaste Edge-kluster.
 
-Mer information finns i [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+Mer information finns i [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Lösningen finns på datacenter som ägs av Adobe och som hyrs ut av Adobe över hela världen. [!DNL Adobe Target]
+[!DNL Adobe Target]-lösningen finns på datacenter som ägs av Adobe och som hyrs av Adobe över hela världen.
 
 Platserna för centrala kluster innehåller både en datainsamlingscentral och en datacentral. Edge Cluster-platser innehåller bara ett datainsamlingscenter. Varje rapportsvit tilldelas ett specifikt databehandlingscenter.
 
@@ -124,11 +124,11 @@ Edge-målkluster, som finns på AWS, finns i:
 * Dublin, Irland
 * Republiken Singapore
 
-Tjänsten [!DNL Target Recommendations] ligger i ett [!DNL Adobe] datacenter i Oregon.
+Tjänsten [!DNL Target Recommendations] finns i ett [!DNL Adobe]-datacenter i Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] för närvarande inte har något Edge Cluster i Kina och slutanvändarnas prestanda kommer att fortsätta vara begränsade för [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge Clusters i landet går det långsamt att återge webbplatser med [!DNL Target] driftsatt programvara och belastningen på sidorna påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target] redigeringsgränssnittet.
+>[!DNL Adobe Target] för närvarande inte har något Edge Cluster i Kina och slutanvändarnas prestanda kommer att fortsätta vara begränsade för  [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge Clusters i landet går det långsamt att återge webbplatser med [!DNL Target] och sidinläsningen påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target]-redigeringsgränssnittet.
 
 Om du vill kan du tillåtslista Kluster för målkant. Mer information finns i [tillåtslista målkantnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
@@ -136,7 +136,7 @@ Om du vill kan du tillåtslista Kluster för målkant. Mer information finns i [
 
 Adobe ser till att infrastrukturen för målinriktning blir så tillförlitlig som möjligt och att den fungerar så bra som möjligt. Men om kommunikationen bryts ned mellan slutanvändarens webbläsare och Adobe:s servrar kan det orsaka avbrott i innehållsleveransen.
 
-För att skydda mot avbrott i tjänsten och anslutningsproblem ställs alla platser in på att inkludera standardinnehåll (som definieras av klienten), som visas om användarens webbläsare inte kan ansluta till [!DNL Target].
+För att skydda mot tjänstavbrott och anslutningsproblem ställs alla platser in på att inkludera standardinnehåll (som definieras av klienten), som visas om användarens webbläsare inte kan ansluta till [!DNL Target].
 
 Inga ändringar görs på sidan om användarens webbläsare inte kan ansluta inom en angiven tidsgräns (som standard: 15 sekunder). Om den här tidsgränsen nås visas standardplatsinnehåll.
 
@@ -147,7 +147,7 @@ Adobe skyddar användarupplevelsen genom att optimera och skydda prestanda.
 * Adobe har en strategi där flera nivåer används för att säkra sina tillämpningar, vilket ger högsta möjliga tillgänglighet och tillförlitlighet för kunderna.
 * [!DNL Target] Konsulttjänster ger implementeringshjälp och fortlöpande produktsupport.
 
-## SEO-testning (Search Engine Optimization) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## SEO-vänlig testning {#concept_C0C865663CAB4251B66A1F250FD25E6A} (Search Engine Optimization)
 
 [!DNL Adobe Target] anpassar sig till riktlinjer för sökmotorer vid testning.
 
@@ -158,23 +158,23 @@ Mer information finns i följande Google-resurser:
 * [Webbplatstestning och Google Search](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
 * [Experimentera och insvepning](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
-Riktlinjer presenterades i ett blogginlägg [från](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) Google Webmaster Central. Även om inlägget är från 2012 är det fortfarande Googles senaste uttalande i frågan och riktlinjerna är fortfarande relevanta.
+Riktlinjer presenterades i ett [Google Webmaster Central-blogg](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)-inlägg. Även om inlägget är från 2012 är det fortfarande Googles senaste uttalande i frågan och riktlinjerna är fortfarande relevanta.
 
-* **Ingen insvepning** - Insvepning visar en uppsättning innehåll för dina användare och en annan uppsättning innehåll för sökmotorbotar genom att identifiera dem specifikt och avsiktligt mata dem med olika innehåll.
+* **Ingen insvepning**  - Insvepning visar en uppsättning innehåll för dina användare och en annan uppsättning innehåll för sökmotorbotar genom att identifiera dem specifikt och avsiktligt mata dem med olika innehåll.
 
    Målet, som en plattform, har konfigurerats för att behandla sökmotorobjekt på samma sätt som andra användare. Detta innebär att bottarna kan inkluderas i tester som du kör, om de väljs slumpmässigt, och att&quot;se&quot; testvariationerna.
 
-* **Använd rel=&quot;canonical&quot;** - Ibland måste ett A/B-test ställas in med olika URL:er för variationerna. I dessa fall ska alla variationer innehålla en `rel="canonical"` -tagg som refererar till den ursprungliga (kontroll) URL:en. Om Adobe till exempel testade sin hemsida med olika URL:er för varje variant, skulle följande kanoniska tagg för hemsidan placeras i taggen `<head>` för varje variant:
+* **Använd rel=&quot;canonical&quot;** - Ibland måste ett A/B-test ställas in med olika URL:er för variationerna. I dessa fall ska alla variationer innehålla en `rel="canonical"`-tagg som refererar till den ursprungliga (kontroll) URL:en. Om Adobe till exempel testade sin hemsida med olika URL:er för varje variant, skulle följande kanoniska tagg för hemsidan anges i `<head>`-taggen för var och en av varianterna:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **Använd 302 (tillfälliga) omdirigeringar** - I de fall där separata URL:er används för variationssidorna i ett test rekommenderar Google att du använder en 302-omdirigering för att dirigera trafik till testvarianterna. Detta anger för sökmotorerna att omdirigeringen är tillfällig och endast är aktiv så länge som testet körs.
+* **Använd 302 (tillfälliga) omdirigeringar**  - I de fall där separata URL:er används för variationssidorna i ett test rekommenderar Google att du använder en 302-omdirigering för att dirigera trafik till testvarianterna. Detta anger för sökmotorerna att omdirigeringen är tillfällig och endast är aktiv så länge som testet körs.
 
-   En 302-omdirigering är en omdirigering på serversidan och Target, tillsammans med de flesta optimeringsleverantörer, använder funktioner på klientsidan. Därför är detta ett område där Target inte helt följer Googles rekommendationer. Detta påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester via Target kräver att innehållet ändras inom en enda URL, så inga omdirigeringar behövs. Det finns tillfällen när kunderna måste använda flera URL:er för att representera sina testvariationer. I de här instanserna använder Target JavaScript- `window.location` kommandot för att instruera användare att testa variationer, vilket inte uttryckligen anger om omdirigeringen är 301 eller 302.
+   En 302-omdirigering är en omdirigering på serversidan och Target, tillsammans med de flesta optimeringsleverantörer, använder funktioner på klientsidan. Därför är detta ett område där Target inte helt följer Googles rekommendationer. Detta påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester via Target kräver att innehållet ändras inom en enda URL, så inga omdirigeringar behövs. Det finns tillfällen när kunderna måste använda flera URL:er för att representera sina testvariationer. I de här instanserna använder Target JavaScript-kommandot `window.location` för att instruera användare att testa variationer, vilket inte uttryckligen anger om omdirigeringen är 301 eller 302.
 
    Även om vi fortsätter att leta efter användbara lösningar som helt överensstämmer med riktlinjerna för sökmotorer, är vi övertygade om att en korrekt implementering av de kanoniska taggarna som nämns ovan minskar riskerna med detta tillvägagångssätt för de klienter som måste använda separata URL:er för testning.
 
-* **Kör experiment bara så länge det behövs** - vi anser att &quot;så länge det behövs&quot; är så lång tid som det tar att uppnå statistisk signifikans. Target [ger bästa praxis](https://docs.adobe.com/content/target-microsite/testcalculator.html) för att avgöra när ditt test har nått den här punkten. Vi rekommenderar att du införlivar den hårdkodade implementeringen av vinnande tester i testarbetsflödet och avsätter lämpliga resurser.
+* **Kör experiment bara så länge det behövs**  - Vi anser att &quot;så länge det behövs&quot; är så lång tid som det krävs för att uppnå statistisk signifikans. Målet [innehåller bästa praxis](https://docs.adobe.com/content/target-microsite/testcalculator.html) för att avgöra när testet har nått den här punkten. Vi rekommenderar att du införlivar den hårdkodade implementeringen av vinnande tester i testarbetsflödet och avsätter lämpliga resurser.
 
    Att använda Target-plattformen för att&quot;publicera&quot; vinnande tester rekommenderas inte som en permanent lösning, men så länge som det vinnande testet publiceras för 100 % av användarna 100 % av tiden kan det här tillvägagångssättet användas medan processen för att hårdkoda det vinnande testet slutförs.
 
@@ -192,9 +192,9 @@ Google visar som exempel att&quot;om en webbplats originalsida läses in med nyc
 
 Vi anser att det skulle vara svårt att oavsiktligt ändra innebörden i det ursprungliga innehållet i testvariationer, men vi rekommenderar att du är medveten om nyckelordsteman på en sida och behåller dessa teman. Ändringar av sidinnehåll, särskilt när du lägger till eller tar bort relevanta nyckelord, kan leda till att URL:en rangordnas vid organisk sökning. Vi rekommenderar att du samarbetar med din SEO-partner som en del av testprotokollet.
 
-## Bots {#bots}
+## Börjar {#bots}
 
-Adobe Target använder [DeviceAtlas](https://deviceatlas.com/) för att identifiera kända robotar. Trafik som identifieras som genererad av en robot betjänas fortfarande, precis som en vanlig användare, för att säkerställa att den överensstämmer med riktlinjerna för SEO. Om du använder robottrafik kan du skeva A/B-tester eller personaliseringsalgoritmer om de behandlas som vanliga användare. Om en känd robot upptäcks i din Target-aktivitet behandlas trafiken därför något annorlunda. Att ta bort robottrafik ger en mer exakt mätning av användaraktivitet.
+Adobe Target använder [DeviceAtlas](https://deviceatlas.com/) för att identifiera kända fel. Trafik som identifieras som genererad av en robot betjänas fortfarande, precis som en vanlig användare, för att säkerställa att den överensstämmer med riktlinjerna för SEO. Om du använder robottrafik kan du skeva A/B-tester eller personaliseringsalgoritmer om de behandlas som vanliga användare. Om en känd robot upptäcks i din Target-aktivitet behandlas trafiken därför något annorlunda. Att ta bort robottrafik ger en mer exakt mätning av användaraktivitet.
 
 För känd robottrafik gäller följande:
 
