@@ -12,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# Klassificeringar - A4T - vanliga frågor och svar{#classifications-a-t-faq}
+# Klassifikationer - A4T FAQ{#classifications-a-t-faq}
 
-Det här avsnittet innehåller svar på frågor som ofta ställs om klassificeringar och som används [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
+Det här avsnittet innehåller svar på frågor som ofta ställs om klassificeringar och som använder [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
 
 ## Hur matchar jag värdet efter åtgärd med ett aktivitetsnamn när jag har hämtat klassificeringar med hjälp av Klassificeringsimporteraren? {#section_6045DAC488B248418F430E663C38D001}
 
-Du kan hämta klassificeringarna för A4T/TNT-strängen från Admin Tools [Classification Importer](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). Variabeln kallas&quot;TNT&quot; i exportlistan. De hämtade data innehåller egna namn för aktiviteter, upplevelser och så vidare.
+Du kan hämta klassificeringarna för A4T/TNT-strängen från Admin Tools [Klassificeringsimporteraren](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). Variabeln kallas&quot;TNT&quot; i exportlistan. De hämtade data innehåller egna namn för aktiviteter, upplevelser och så vidare.
 
-Den här uppslagsfilen är användbar för kunder som tar emot dataflöde från Adobe clickstream. Filen innehåller egna namn för kolumnerna `post_tnt` och `post_tnt_action` .
+Den här uppslagsfilen är användbar för kunder som tar emot dataflöde från Adobe clickstream. Filen innehåller egna namn för kolumnerna `post_tnt` och `post_tnt_action`.
 
 TNT-variabelns strängformat är `activityID:experienceID:targettype|event`.
 
-* måltyp = 0 (kontroll/slumpmässig) eller 1 (riktad) för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter.
+* måltyp = 0 (kontroll/slumpmässig) eller 1 (mål) för [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter.
 * Händelse = 0 representerar en upplevelseingång.
 * Händelse = 1 representerar ett upplevelsebesök.
 * Händelse = 2 representerar ett aktivitetsintryck.
