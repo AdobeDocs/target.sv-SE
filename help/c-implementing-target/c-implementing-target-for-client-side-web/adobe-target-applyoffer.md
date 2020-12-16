@@ -18,13 +18,13 @@ Den här funktionen används för att tillämpa svarsinnehållet.
 
 >[!NOTE]
 >
->`applyOffer` kräver `mbox` parametern. Om inget mbox-namn anges inträffar ett fel.
+>`applyOffer` kräver  `mbox` parametern. Om inget mbox-namn anges inträffar ett fel.
 
 Alternativparametern är obligatorisk och har följande struktur:
 
 | Nyckel | Typ | Obligatoriskt | Beskrivning |
 |--- |--- |--- |--- |
-| mbox | Sträng | Ja | Mbox<br>nameWith at.js 1.3.0 (och senare) Target använder mbox-nyckeln. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target har korrekt validering och att kunderna använder funktionen korrekt. |
+| mbox | Sträng | Ja | Mbox name<br>Med at.js 1.3.0 (och senare) Target tvingas mbox-nyckeln att användas. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target har korrekt validering och att kunderna använder funktionen korrekt. |
 | väljare | Sträng- eller DOM-element | Nej | HTML-element eller CSS-väljare som används för att identifiera det HTML-element där Target ska placera erbjudandeinnehållet. Om ingen väljare anges antar Target att det HTML-element som ska användas är HTML HEAD. |
 | erbjudande | Array | Ja | En array-åtgärd som ska tillämpas på elementet. |
 
