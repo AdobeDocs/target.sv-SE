@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Erfarenheter och erbjudanden{#experiences-and-offers}
+# Upplevelser och erbjudanden{#experiences-and-offers}
 
 En upplevelse avgör vilket innehåll som visas när besökaren uppfyller målgruppskriterierna för en aktivitet.
 
-En upplevelse kan vara ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Ni testar eller personaliserar upplevelser i [!DNL Target] aktiviteter.
+En upplevelse kan vara ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Du testar eller personaliserar upplevelser i [!DNL Target]-aktiviteter.
 
 En aktivitet innehåller vanligtvis mer än en upplevelse. Besökare från Salt Lake City kan till exempel se ett erbjudande om en rabatt på 30 USD på skidskor, medan besökare från San Diego ser ett erbjudande om rabatt på kostymer. Eller så kan du testa en sida med olika specialerbjudanden för återkommande besökare. Var och en av dessa erbjudanden presenteras i en separat upplevelse.
 
