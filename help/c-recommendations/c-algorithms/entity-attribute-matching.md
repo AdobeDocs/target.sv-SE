@@ -12,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# ![Matchning av PREMIUM](/help/assets/premium.png) -entitetsattribut
+# ![Matchning av ](/help/assets/premium.png) PREMIUMEntity-attribut
 
-Filtrera dynamiskt i [!DNL Adobe Target] genom [!DNL Recommendations] att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användaren har interagerat med.
+Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användaren har interagerat med.
 
 >[!NOTE]
 >
->Processen [för att skapa och använda inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) för kriterier och kampanjer är liknande, liksom användningsexempel och exempel.
+>Processen [för att skapa och använda inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) för villkor och kampanjer är liknande, liksom användningsexempel och exempel.
 
 Rekommendera till exempel endast objekt som matchar det aktuella objektets varumärke som i följande exempel:
 
-Om rutan på en Varumärkeslandningssida returneras `entity.brand=brandA`returneras endast Varumärke A-produkter och visas på den sidan. På samma sätt returneras endast produkter av typen Varumärkeslandning för Varumärke B. Med den här typen av regel för dynamisk inkludering behöver användaren bara ange en rekommendationsregel som returnerar relevanta varumärkesresultat på alla varumärkessidor i stället för att ange en samling eller ett statiskt filter som matchar varje varumärkesnamn.
+Om mbox på en varumärkesstartsida returnerar `entity.brand=brandA` returneras endast produkt av typen Brand A och visas på den sidan. På samma sätt returneras endast produkter av typen Varumärkeslandning för Varumärke B. Med den här typen av regel för dynamisk inkludering behöver användaren bara ange en rekommendationsregel som returnerar relevanta varumärkesresultat på alla varumärkessidor i stället för att ange en samling eller ett statiskt filter som matchar varje varumärkesnamn.
 
-Observera att du måste skicka `entity.brand` i mbox på landningssidorna för att det ska fungera.
+Observera att du måste leverera `entity.brand` i mbox på dessa landningssidor för att detta ska fungera.
 
 ## Exempel på matchning av enhetsattribut
 
@@ -42,7 +42,7 @@ När entitetsattributreglerna har skapats filtrerar de bort alla rekommendatione
 
 I följande exempel visas rekommendationer för att matcha produktvarumärket som visas på sidan:
 
-När du besöker en sida som innehåller en produkt av typen Varumärke A, ställer sidan in värdet för parametern `entity.brand` till &quot;VarumärkeA&quot;.
+När du besöker en sida som innehåller en produkt av typen Varumärke A, ställer sidan in värdet för parametern `entity.brand` på &quot;BrandA&quot;.
 
 ![Exempel på Target-anrop](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ I rekommendationerna på sidan visas endast produkter från varumärket A.
 
 ![Rekommendationer för varumärke A](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Om du sedan visar en produktsida för varumärket B återställs `entity.brand` värdet till&quot;BrandB&quot; och du ser vilka produkter för varumärket B som rekommenderas på produktsidorna för varumärket B.
+Om du sedan visar en produktsida för varumärke B återställs värdet `entity.brand` till &quot;BrandB&quot; och du ser vilka produkter för varumärket B som rekommenderas på produktsidorna för varumärket B.
 
 ![Rekommendationer för varumärke B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
