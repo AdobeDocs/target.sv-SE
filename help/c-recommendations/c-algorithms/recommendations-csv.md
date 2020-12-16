@@ -12,44 +12,44 @@ ht-degree: 0%
 ---
 
 
-# ![Egna villkor för PREMIUM](/help/assets/premium.png) -överföring{#upload-custom-criteria}
+# ![Egna villkor för ](/help/assets/premium.png) PREMIUMUpload{#upload-custom-criteria}
 
 Överför en CSV-fil för att anpassa dina rekommendationer.
 
-Det finns flera sätt att nå [!UICONTROL Create New Criteria] skärmen. Vissa skärmalternativ varierar beroende på hur du kommer till skärmen.
+Det finns flera sätt att nå skärmen [!UICONTROL Create New Criteria]. Vissa skärmalternativ varierar beroende på hur du kommer till skärmen.
 
-* På skärmen **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotek klickar du **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Kriterierna som du skapar här blir automatiskt tillgängliga för alla [!DNL Recommendations] aktiviteter.
-* När du skapar en [!DNL Recommendations] aktivitet med [!UICONTROL Visual Experience Composer] (VEC) visas du direkt på [!UICONTROL Select Criteria] skärmen när du har markerat ett element på sidan och klickat [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before]eller [!UICONTROL Insert Recommendations After]. Du kan sedan välja ett villkor eller klicka på **[!UICONTROL Create Criteria]**. Om du skapar ett nytt villkor kan du välja att spara villkoret för användning med andra [!DNL Recommendations] aktiviteter. Mer information finns i [Skapa en Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* När du redigerar en [!DNL Recommendations] aktivitet klickar du i en [!UICONTROL Recommendations Location] ruta på sidan och väljer **[!UICONTROL Change Criteria]**. Klicka på på [!UICONTROL Select Criteria] skärmen **[!UICONTROL Create Criteria]**. Du kan spara dina nya villkor och använda dem med andra [!DNL Recommendations] aktiviteter.
+* På **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** biblioteksskärmen klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. De villkor som du skapar här är automatiskt tillgängliga för alla [!DNL Recommendations]-aktiviteter.
+* När du skapar en [!DNL Recommendations]-aktivitet med [!UICONTROL Visual Experience Composer] (VEC) visas du omedelbart på skärmen [!UICONTROL Select Criteria] när du har valt ett element på sidan och klickat på [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before] eller [!UICONTROL Insert Recommendations After]. Du kan sedan välja ett tillgängligt villkor eller klicka på **[!UICONTROL Create Criteria]**. Om du skapar ett nytt villkor kan du välja att spara villkoret för användning med andra [!DNL Recommendations]-aktiviteter. Mer information finns i [Skapa en Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* När du redigerar en [!DNL Recommendations]-aktivitet klickar du i en [!UICONTROL Recommendations Location]-ruta på sidan och väljer **[!UICONTROL Change Criteria]**. Klicka på **[!UICONTROL Create Criteria]** på skärmen [!UICONTROL Select Criteria]. Du kan spara dina nya villkor och använda dem med andra [!DNL Recommendations]-aktiviteter.
 
-Följande steg förutsätter att du kommer åt [!UICONTROL Create New Criteria] skärmen med den första metoden: på **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** biblioteksskärmen.
+Följande steg förutsätter att du kommer åt skärmen [!UICONTROL Create New Criteria] med den första metoden: **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** biblioteksskärmen.
 
 1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
 1. Klicka på **[!UICONTROL Create Criteria]** > **[!UICONTROL Upload Custom Criteria]**.
 
-1. Fyll i informationen under [Grundläggande information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) .
+1. Fyll i informationen i [avsnittet Grundläggande information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Fyll i informationen i avsnittet [Datakälla](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) .
+1. Fyll i informationen i avsnittet [Datakälla](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source).
 
-1. Fyll i informationen i [innehållsavsnittet](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) .
+1. Fyll i informationen i [Content](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)-avsnittet.
 
-1. (Villkorligt) Fyll i informationen i avsnittet [Innehållslikhet](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) .
+1. (Villkorligt) Fyll i informationen i avsnittet [Likhet för innehåll](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
-1. (Villkorligt) Fyll i informationen i avsnittet [Inkluderingsregler](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) .
+1. (Villkorligt) Fyll i informationen i [Inkluderingsregler](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)-avsnittet.
 
-1. (Villkorligt) Fyll i informationen i avsnittet [Attributviktning](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) .
+1. (Villkorligt) Fyll i informationen i avsnittet [Attributviktning](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting).
 
-1. I **[!UICONTROL Upload CSV]** avsnittet markerar du **[!UICONTROL Location]** innehållet i CSV-filen.
+1. I avsnittet **[!UICONTROL Upload CSV]** väljer du **[!UICONTROL Location]** för CSV-filen.
 
    ![Överför CSV-avsnitt](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
-   CSV-filen måste vara korrekt formaterad för att överföringen ska lyckas. Klicka **[!UICONTROL Download the CSV template]** för att hämta en korrekt formaterad CSV-fil.
+   CSV-filen måste vara korrekt formaterad för att överföringen ska lyckas. Klicka på **[!UICONTROL Download the CSV template]** för att få en korrekt formaterad CSV-fil.
 
    Det finns två platsalternativ:
 
-   * **FTP:** Om du vill överföra din CSV-fil från en FTP-server markerar du **[!UICONTROL FTP]** och anger sedan nödvändig information. Du kan använda SSL, som använder FTPS-protokollet för att överföra CSV-filen på ett säkert sätt.
-   * **URL:** Om du vill överföra din CSV-fil från en URL-adress väljer du **[!UICONTROL URL]** och anger sedan en feed-URL.
+   * **FTP:** Om du vill överföra CSV-filen från en FTP-server markerar du  **[!UICONTROL FTP]** och anger sedan den information som krävs. Du kan använda SSL, som använder FTPS-protokollet för att överföra CSV-filen på ett säkert sätt.
+   * **URL:** Om du vill överföra CSV-filen från en URL-adress väljer du  **[!UICONTROL URL]** och anger sedan en feed-URL.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -67,7 +67,7 @@ Du kan se överförings- och synkroniseringsstatusen för dina anpassade villkor
 
 Flödet för en felfri överföring ska vara Schemalagd > Hämta feedfil > Importera > Slutförd.
 
-Följande felmeddelanden är möjliga om [!DNL Target] ett problem med överföringen uppstår:
+Följande felmeddelanden kan visas om [!DNL Target] påträffar ett problem med överföringen:
 
 | Felmeddelande | Detaljer |
 |--- |--- |
@@ -78,7 +78,7 @@ Följande felmeddelanden är möjliga om [!DNL Target] ett problem med överför
 | Katalogen hittades inte | Ange en katalog som finns på servern. |
 | Filen hittades inte | Ange namnet på en fil som finns på servern i den angivna katalogen. |
 
-## Utbildningsvideo: Skapa villkor i Recommendations (12:33) ![självstudiemärke](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa villkor i Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 Den här videon innehåller följande information (information om hur du överför anpassade villkor börjar vid 11:43):
 
