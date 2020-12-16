@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Förhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelse{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![](/help/assets/premium.png) PREMIUMPörhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelser{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 URL:er för förhandsgranskning av upplevelser kan genereras för Automated Personalization-aktiviteter för att visa innehåll direkt på webbplatsen innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
 
@@ -27,7 +27,7 @@ Använd URL:er för förhandsgranskning av upplevelser för att dela upplevelser
 1. Skapa en [Automated Personalization-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) eller klicka på aktiviteten för att öppna den.
 
    Aktiviteten behöver inte vara aktiv för att kunna förhandsgranska en upplevelse.
-1. Klicka på de tre lodräta prickarna på sammanfattningssidan för aktivitet och klicka sedan på **[!UICONTROL View Experience URLs]**.
+1. Klicka på de tre lodräta prickarna på sammanfattningssidan och klicka sedan på **[!UICONTROL View Experience URLs]**.
 1. Granska och/eller ange dina URL-adresser.
 
    * Om du använder Visual Experience Composer anges den standardwebbadress du angav för aktiviteten automatiskt och en länk skapas för varje upplevelse i din aktivitet. Du kan ändra den här URL-adressen och lägga till andra om du vill.
@@ -38,14 +38,14 @@ Använd URL:er för förhandsgranskning av upplevelser för att dela upplevelser
    Ett modalt fönster visar länkar till era upplevelser på er webbplats för att få en&quot;riktig förhandsvisning&quot; av upplevelserna utanför Target Visual Experience Composer. Du måste dela länkarna från meddelandet för att kunna dela förhandsgranskningen. Det går inte att klicka på en länk och sedan kopiera den resulterande URL-adressen från sidan eftersom URL-adressen innehåller en parameter som bara visar sidan korrekt när du öppnar sidan från länken i meddelandet. I stället kopierar du texten i det modala fönstret och mejlar hela texten till teamet.
 1. Klicka på **[!UICONTROL Generate All]** och klicka sedan på varje upplevelse för att förhandsgranska den.
 
-   Om du sedan gör ändringar i upplevelsen måste du skapa nya förhandsgranskningslänkar för teamet genom att gå tillbaka till det modala fönstret och klicka på **Förnya länkar** för att få nya länkar.
+   Om du sedan gör ändringar i upplevelsen ska du se till att generera nya förhandsgranskningslänkar för ditt team genom att gå tillbaka till det modala fönstret och klicka på **Förnya länkar** för att få nya länkar.
 
    **Obs!** Länkarna för förhandsgranskning öppnas på nya flikar och kräver att blockering av popup-fönster i webbläsaren är inaktiverat.
 
 1. Klicka på varje upplevelsenamn för att förhandsgranska aktiviteten.
 
    Sidan öppnas och aktiviteten visas.
-1. Klicka **[!UICONTROL Done]** för att återgå till aktivitetssammanfattningen.
+1. Klicka på **[!UICONTROL Done]** för att återgå till aktivitetssammanfattningen.
 
 ## Överväganden {#example_9F2B333BC63143FF99AE331F57E8BA4C}
 
