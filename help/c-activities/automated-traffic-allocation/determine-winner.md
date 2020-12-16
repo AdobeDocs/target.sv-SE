@@ -24,11 +24,11 @@ Många marknadsförare gör misstag genom att i förväg deklarera en vinnande u
 
 ## Identifiera den vinnande upplevelsen {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
-När du använder [!UICONTROL Auto-Allocate] funktionen [!DNL Target] visas ett emblem längst upp på aktivitetssidan som anger &quot;Ingen vinnare än&quot; tills aktiviteten når det minsta antalet konverteringar med tillräcklig säkerhet.
+När du använder funktionen [!UICONTROL Auto-Allocate] visar [!DNL Target] ett märke längst upp på aktivitetens sida som anger &quot;Ingen vinnare än&quot; tills aktiviteten når det minsta antalet konverteringar med tillräcklig säkerhet.
 
 ![Inget emblem för vinnare](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
-När en klar vinnare deklareras visas [!DNL Target] &quot;Vinnare: Experience X.&quot;
+När en klar vinnare deklareras visar [!DNL Target] &quot;Vinnare: Experience X.&quot;
 
 ![](assets/winner.png)
 
@@ -42,13 +42,13 @@ Efter en A/B-aktivitet garanterar Auto-Allocate att den fastställda vinnaren ha
 
 Vi använder inte p-value-baserad säkerhet för Automatisk allokering.
 
-Kolumnen Konfidentiellt i en Automatisk allokering-aktivitet (se nedan) visar sannolikheten för att en upplevelse blir vinnare inom en felmarginal på 1 % (d.v.s. algoritmen använder en minsta detekterbar effekt på 1 % mellan den bästa och den näst bästa konverteringsgraden). Observera att algoritmen använder [Bernstein Innequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) för att beräkna den här sannolikheten.
+Kolumnen Konfidentiellt i en Automatisk allokering-aktivitet (se nedan) visar sannolikheten för att en upplevelse blir vinnare inom en felmarginal på 1 % (d.v.s. algoritmen använder en minsta detekterbar effekt på 1 % mellan den bästa och den näst bästa konverteringsgraden). Observera att algoritmen använder [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) för att beräkna den här sannolikheten.
 
 Normala A/B-tester beräknar tillförlitlighet baserat på p-värden. Autoallokera använder inte p-värden. P-värden &quot;löst&quot; beräknar sannolikheten för att en viss upplevelse skiljer sig från kontrollen. Dessa p-värden kan bara användas för att avgöra om en upplevelse kan skilja sig från kontrollen. Dessa värden kan inte användas för att avgöra om en upplevelse skiljer sig från en annan upplevelse (inte kontroll).
 
 >[!IMPORTANT]
 >
->Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyg](https://docs.adobe.com/content/target-microsite/testcalculator.html)för provstorlek. Målet tar inte hänsyn till en områdes grundläggande konverteringsgrad och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i Beräkna [provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyget för samplingsstorlek](https://docs.adobe.com/content/target-microsite/testcalculator.html). Målet tar inte hänsyn till en områdes grundläggande konverteringsgrad och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i [Beräkna provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter {#lift-confidence}
 
@@ -62,18 +62,18 @@ En vinnare blir resultatet när den ledande upplevelsens 95-procentiga konfidens
 
 Ett&quot;konfidensnummer&quot; rapporteras också bredvid den nuvarande ledande eller vinnande upplevelsen. Denna siffra rapporteras endast tills den ledande upplevelsens förtroende når minst 60 %. Om det finns exakt två upplevelser i Auto-Allocate-experimentet representerar den här siffran konfidensnivån att upplevelsen fungerar bättre än den andra. Om det finns fler än två upplevelser i Auto-Allocate-experimentet representerar den här siffran konfidensnivån att upplevelsen fungerar bättre än den definierade Control-upplevelsen. Om&quot;Kontroll&quot;-upplevelsen vinner rapporteras ingen siffra för&quot;förtroende&quot;.
 
-## Vanliga frågor {#section_C8E068512A93458D8C006760B1C0B6A2}
+## Vanliga frågor och svar {#section_C8E068512A93458D8C006760B1C0B6A2}
 
-**Det har gått några dagar framåt. Varför visar alla konfidensvärden fortfarande 0 %?**
+**Det har gått några dagar framåt. Varför visas fortfarande 0 % för alla konfidensvärden?**
 
-Någon av följande orsaker beskriver varför 0 % visas i rapportens [!UICONTROL Confidence] kolumn för alla aktiviteter:
+En av följande orsaker beskriver varför 0 % visas i rapportens [!UICONTROL Confidence]-kolumn för alla aktiviteter:
 
 * Manuella A/B-tester och automatisk fördelning använder olika statistik för att visa konfidensvärden.
 
-   Manuella A/B-tester använder p-värden som baseras på [studentens t-test](https://en.wikipedia.org/wiki/Student%27s_t-test). Ett P-värde är sannolikheten att hitta den observerade (eller mer extrema) skillnaden mellan en upplevelse och kontrollen, eftersom det i verkligheten inte finns någon sådan skillnad. Dessa P-värden kan bara användas för att avgöra om observerade data är konsekventa med en viss upplevelse och om kontrollen är densamma. Dessa värden kan inte användas för att avgöra om en upplevelse skiljer sig från en annan upplevelse (inte kontroll).
+   Manuella A/B-tester använder p-värden baserade på [Studentens t-test](https://en.wikipedia.org/wiki/Student%27s_t-test). Ett P-värde är sannolikheten att hitta den observerade (eller mer extrema) skillnaden mellan en upplevelse och kontrollen, eftersom det i verkligheten inte finns någon sådan skillnad. Dessa P-värden kan bara användas för att avgöra om observerade data är konsekventa med en viss upplevelse och om kontrollen är densamma. Dessa värden kan inte användas för att avgöra om en upplevelse skiljer sig från en annan upplevelse (inte kontroll).
 
    Autoallokering visar sannolikheten för att en viss upplevelse ska bli en riktig vinnare för alla upplevelser i aktiviteten. Detta innebär att endast en vinnande upplevelse (som troligtvis kommer att vara vinnaren) kommer att ha ett värde som inte är noll. Alla andra är mest benägna att vara förlorare och kommer att visa 0 %.
 
-* Automatisk allokering börjar visa självförtroende först efter att den vinnande upplevelsen fått 60 % självförtroende. Dessa konfidensnivåer uppträder vanligtvis på ungefär hälften så lång tid som ett normalt A/B-test skulle ta att slutföra (även om detta inte garanteras). Om du vill avgöra hur länge ett normalt A/B-test skulle köras använder du en [exempelstorleksräknare](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug-controls konverteringsgrad i &quot;Baseline conversion rate&quot;, &quot;5%&quot; för &quot;Lift&quot; och 95% för &quot;Confidence&quot;. Normalt börjar förtroendet visa sig efter att varje upplevelse har fyllt 50 % av det antal samplingar som krävs per upplevelse. Då får du en uppfattning om när självförtroende kommer att börja uppstå.
+* Automatisk allokering börjar visa självförtroende först efter att den vinnande upplevelsen fått 60 % självförtroende. Dessa konfidensnivåer uppträder vanligtvis på ungefär hälften så lång tid som ett normalt A/B-test skulle ta att slutföra (även om detta inte garanteras). Använd en [exempelstorlekskalkylator](https://docs.adobe.com/content/target-microsite/testcalculator.html) för att avgöra hur länge ett normalt A/B-test skulle köras: plug-controls konverteringsgrad i &quot;Baseline conversion rate&quot;, &quot;5%&quot; för &quot;Lift&quot; och 95% för &quot;Confidence&quot;. Normalt börjar förtroendet visa sig efter att varje upplevelse har fyllt 50 % av det antal samplingar som krävs per upplevelse. Då får du en uppfattning om när självförtroende kommer att börja uppstå.
 * Om rapporten visar 0 procent över hela linjen är det sannolikt för tidigt i verksamheten.
 
