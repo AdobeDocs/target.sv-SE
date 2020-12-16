@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.
 
-Experience Targeting, inklusive [geoanpassning](/help/c-target/c-audiences/c-target-rules/geo.md), är värdefullt för att definiera regler som riktar en viss upplevelse eller innehåll till en viss målgrupp. Flera regler kan definieras i en aktivitet för att leverera olika innehållsvariationer till olika målgrupper.
+Experience Targeting, inklusive [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), är värdefullt för att definiera regler som riktar en viss upplevelse eller innehåll till en viss målgrupp. Flera regler kan definieras i en aktivitet för att leverera olika innehållsvariationer till olika målgrupper.
 
 När besökarna visar webbplatsen utvärderar Experience Targeting (XT) dem för att avgöra om de uppfyller de kriterier som du anger. Om de uppfyller kriterierna anger de aktiviteten och den upplevelse som är utformad för att kvalificera målgrupper visas. Ni kan skapa upplevelser för flera målgrupper inom en enda aktivitet.
 
@@ -26,7 +26,7 @@ Experience Targeting är ett första steg in i personaliseringsvärlden och bör
 
 Anta att din webbplats innehåller utomhusutrustning. Era rapporter om A/B-tester visar att ni har tre upplevelser som får genklang med olika målgrupper. Om du vill utnyttja den här upptäckten vill du visa en annan hjältebild på din hemsida som tilltalar de olika målgrupperna, beroende på besökarnas plats eller hobby. I det här scenariot vill du visa en vandrande bild för besökare från New Jersey och en surfingbild för besökare från Hawaii. Ni har också en publik som gillar cykling. Du vill visa en tredje hjältebild som tilltalar den stora publiken.
 
-Med en XT-aktivitet kan ni inrikta er på dessa tre målgrupper med en egen hjältebild som tilltalar varje målgrupp. I videon nedan, *från A/B-testning till Experience Targeting* , visas hur ni kan skapa upplevelser som är riktade till båda delstaterna och en tredje upplevelse som riktar sig till spelentusiaster. I videon visas även hur du beställer de tre upplevelserna för att uppnå dina mål. Titta på videon och fortsätt sedan med [Skapa en Experience Targeting-aktivitet](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+Med en XT-aktivitet kan ni inrikta er på dessa tre målgrupper med en egen hjältebild som tilltalar varje målgrupp. I videon nedan, *Från A/B-testning till Experience Targeting*, visas hur du skapar upplevelser som är riktade till båda lägena och en tredje upplevelse som är riktad till shoppingentusiaster. I videon visas även hur du beställer de tre upplevelserna för att uppnå dina mål. Titta på videon och fortsätt sedan med [Skapa en Experience Targeting-aktivitet](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Utbildningsvideor:
 
