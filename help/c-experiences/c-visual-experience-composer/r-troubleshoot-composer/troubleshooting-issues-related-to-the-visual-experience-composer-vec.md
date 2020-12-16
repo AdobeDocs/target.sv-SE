@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) under vissa förhållanden.
 
-## När jag öppnar min webbplats i Visual Experience Composer läses inte målbiblioteken in. (endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## När jag öppnar min webbplats i Visual Experience Composer läses inte målbiblioteken in. (Endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
-Target lägger till två parametrar (`mboxEdit=1` och `mboxDisable=1`) när webbplatsen öppnas i Visual Experience Composer.
+Målet lägger till två parametrar (`mboxEdit=1` och `mboxDisable=1`) när webbplatsen öppnas i Visual Experience Composer.
 
 Om webbplatsen (särskilt Single Page Apps) trimmar bort eller tar bort parametrar när du navigerar från en sida till en annan (utan att behöva läsa in en sida på nytt) så bryter Target-funktionen och Target-biblioteken läses inte in.
 Undvik problemet genom att se till att du inte trimmar eller tar bort de här två parametrarna.
 
-## Min sida öppnas inte i EEG eller laddas långsamt. Aktiviteter och upplevelser läses in långsamt i VEC. (endast VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Min sida öppnas inte i EEG eller laddas långsamt. Aktiviteter och upplevelser läses in långsamt i VEC. (Endast VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Flera problem kan påverka sidprestanda i Target Experience Composer. Några vanliga problem är:
 
@@ -33,7 +33,7 @@ Flera problem kan påverka sidprestanda i Target Experience Composer. Några van
 
 Om det uppstår problem i Förbättrad Experience Composer kan du prova att inaktivera Förbättrad Experience Composer och använda Visual Experience Composer i stället.
 
-Om du vill inaktivera Förbättrad Experience Composer går du till **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** och inaktiverar **[!UICONTROL Enable Enhanced Experience Composer]** alternativet.
+Om du vill inaktivera Förbättrad Experience Composer går du till **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** och inaktiverar alternativet **[!UICONTROL Enable Enhanced Experience Composer]**.
 
 Följande felmeddelande visas för vissa användare i konsolen:
 
@@ -43,7 +43,7 @@ Om varken Visual Experience Composer eller Enhanced Experience Composer fungerar
 
 >[!NOTE]
 >
->Utöver följande information kan du använda webbläsartillägget [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) Adobe Target VEC Helper för Google Chrome.
+>Utöver följande information kan du använda webbläsartillägget [Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) för Google Chrome.
 
 
 >[!NOTE]
@@ -120,6 +120,6 @@ För tillägget Ändra svarshuvud (Firefox) måste du göra följande eftersom d
 
 Kontrollera att den här inställningen är aktiverad och hämta sedan och uppdatera mbox.js på webbplatsen.
 
-## VEC-värdet visas som brutet när jag använder bläddringsläge. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## VEC-värdet visas som brutet när jag använder bläddringsläge. (Endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Om du använder bläddringsläget och har åtkomst till en URL som inte har target.js eller som innehåller ett frame-buster-huvud, visas visuella Experience Composer som brutna. På grund av säkerhetsproblem i webbläsaren kan inte Target komma åt den URL du navigerade till.
