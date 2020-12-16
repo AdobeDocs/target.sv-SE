@@ -19,7 +19,7 @@ Du kan dynamiskt visa besökarinformation som lagras i målprofilen. På samma s
 **Affärsärenden**
 
 * Erbjud ett rabatterat erbjudande om att&quot;fylla på&quot; eller&quot;fylla på&quot; den senast köpta produkten. I stället för att skapa ett separat erbjudande för varje objekt i din katalog kan du skapa ett erbjudande med dynamisk text som läser den&quot;senaste köpta produkten&quot; från profilen och visar en länk i erbjudandet.
-* En besökare kommer till din landningssida med `keyword=world` `cup`. I erbjudandet visas termen *World Cup* .
+* En besökare kommer till din landningssida med `keyword=world` `cup`. Du visar termen *World Cup* i erbjudandet.
 * Anpassa en rekommendationsetikett med t.ex. (1) det sista objektet som läggs till i en besökares kundvagn (Nike Air Max 1000-tal), (2) besökarens färgpreferens (svart) och (3) besökarens favoritkategori utanför sko (hoodies). Exempel: &quot;Tillbehör din &#39;Nike Air Max 1000s&#39; med dessa coola &#39;svarta&#39; &#39;hookaler&#39;!&quot;
 
 
@@ -29,7 +29,7 @@ Eftersom användarspecifika inställningar, beteenden, status osv. kan lagras i 
 
 **Exempel**
 
-* `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
+* `mboxCreate("landingpage"`,  `"profile.keyword=World Cup");`
 
 * HTML-erbjudandekod: `Get your ${profile.keyword} information here!`
 * Användaren ser: Hämta information om World Cup här!
@@ -41,15 +41,15 @@ Följande värden kan vara &quot;token replace&quot;:
 | Profilparametrar i mbox | `${profile.age}` |
 | Skriptprofilparametrar | `${user.lifetimeSpend}` |
 | Mbox-parametrar | `${mbox.favoriteColor}` |
-| Kampanjinformation | `${campaign.name}`, `${campaign.recipe.name}`, `${campaign.id}`, `${campaign.recipe.id}`och `${campaign.recipe.trafficType}` |
+| Kampanjinformation | `${campaign.name}`,  `${campaign.recipe.name}`,  `${campaign.id}`,  `${campaign.recipe.id}`och  `${campaign.recipe.trafficType}` |
 | Unikt besökar-ID | `${user.pcId}` |
 | Unikt sessions-ID | `${user.sessionId}` |
 | Besökarens första session (true eller false) | `${user.isFirstSession}` |
 | Tidigare beteende | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
-Logga information i konsolen i felsökningssyfte som `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
+Logga information i konsolen i felsökningssyfte, t.ex. `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-För Recommendations-design finns ytterligare exempel i [Designöversikt](/help/c-recommendations/c-design-overview/design-overview.md).
+För Recommendations-designer finns ytterligare exempel i [Designöversikt](/help/c-recommendations/c-design-overview/design-overview.md).
 
 **Implementering**
 
@@ -65,7 +65,7 @@ Standardvärden kan också anges för värden som du vill exponera för erbjudan
 
 `${user.testAttribute default="All Items!"}`
 
-Om `testAttribute` inte finns eller är tom, &quot;Alla objekt!&quot; kommer att skrivas ut. Om ett tomt attributvärde är giltigt och du vill skriva ut det i stället för att visa standardvärdet, kan du använda:
+När `testAttribute` inte finns eller är tom, &quot;Alla objekt!&quot; kommer att skrivas ut. Om ett tomt attributvärde är giltigt och du vill skriva ut det i stället för att visa standardvärdet, kan du använda:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
