@@ -22,26 +22,26 @@ Med den här funktionen kan du tillämpa mer än ett erbjudande som har hämtats
 
 | Nyckel | Typ | Obligatoriskt? | Beskrivning |
 | --- | --- | --- | --- |
-| väljare | Sträng | Nej | HTML-element eller CSS-väljare som används för att identifiera HTML-elementet där erbjudandeinnehållet [!DNL Target] ska placeras. Om ingen väljare anges förutsätter [!DNL Target] att HTML-elementet som ska användas är HTML HEAD. |
+| väljare | Sträng | Nej | HTML-element eller CSS-väljare som används för att identifiera det HTML-element där [!DNL Target] ska placera erbjudandeinnehållet. Om ingen väljare anges antar [!DNL Target] att HTML-elementet som ska användas är HTML HEAD. |
 | Svar | Objekt | Ja | Svarsobjekt från `getOffers()`.<br>Se tabellen över förfrågningar nedan. |
 
 ## Svar
 
 >[!NOTE]
 >
->Läs dokumentationen [för](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) leverans-API om du vill ha information om vilka typer som kan användas för alla fält som listas nedan.
+>Läs dokumentationen för [leverans-API](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) om du vill ha information om vilka typer som kan användas för alla fält som listas nedan.
 
 | Fältnamn | Beskrivning |
 | --- | --- |
 | svar > förhämtning > vyer > alternativ > innehåll | Observera att innehållet i alternativet inte är väldefinierat och är direkt beroende av alternativtypen/mallstrukturen. |
 | svar > förhämtning > vyer > alternativ > text | Alternativtyp. Återspeglar typ av&quot;innehåll&quot;-fält. Den typ som stöds är åtgärder. |
 | svar > förhämtning > vyer > läge | En token för ogenomskinligt visningsläge som ska vidarebefordras med visningsmeddelande för vyn |
-| response > prefetch > views > options > responseTokens | Innehåller kartan över `responseTokens` som samlats in när det aktuella alternativet bearbetades. |
+| response > prefetch > views > options > responseTokens | Innehåller kartan med `responseTokens` som har samlats in när det aktuella alternativet bearbetades. |
 | response > prefetch > views > analytics > payload | Analysens nyttolast för integrering på klientsidan som ska skickas till Analytics när vyn har tillämpats. |
 | response > prefetch > views > trace | Det objekt som innehåller alla spårningsdata för förhämtningsanropet per vy.<br>Spårningsobjektet kommer även att innehålla en version för spårningen.<br>Spårningsobjektet innehåller även information om den aktuella vyn. |
-| response > prefetch > views > options > eventToken | Händelseloggning görs per alternativ. För varje tillämpat alternativ ska respektive händelsetoken läggas till i listan över meddelandetokens. Observera att en vy består av flera alternativ. Om alla alternativ har tillämpats och identifierats `eventTokens` måste alla inkluderas i meddelandet. |
+| response > prefetch > views > options > eventToken | Händelseloggning görs per alternativ. För varje tillämpat alternativ ska respektive händelsetoken läggas till i listan över meddelandetokens. Observera att en vy består av flera alternativ. Om alla alternativ har tillämpats och setts måste alla `eventTokens` inkluderas i meddelandet. |
 | svar > förhämtning > vyer > namn | Vynamnet som kan läsas av människor. |
-| response > prefetch > views > metrics | Rapporteringsmått som ska övervakas och sedan meddelas [!DNL Target] om. För närvarande stöds bara klickmått. Om ett klick på elementet inträffar, `eventTokens` bör lämplig information samlas in och ett meddelande skickas. |
+| response > prefetch > views > metrics | Rapporteringsmått som ska bevakas och sedan meddela [!DNL Target] om. För närvarande stöds bara klickmått. Om ett klick på elementet inträffar ska rätt `eventTokens` samlas in och ett meddelande skickas. |
 | response > prefetch > views > key | Nyckeln eller fingeravtrycket som identifierar vyn. |
 | svar > förhämtning > vyer > id | ID för vyn. |
 | svar > meddelanden > id | Meddelande-ID. |
@@ -59,7 +59,7 @@ Med den här funktionen kan du tillämpa mer än ett erbjudande som har hämtats
 | response > execute > mboxes > mbox > options | Svarsalternativ. |
 | response > execute > mboxes > mbox > metrics > eventToken | Token för klickningshändelse. |
 | response > execute > mboxes > mbox > metrics > type | &quot;click&quot; |
-| response > execute > mboxes > mbox > metrics | Innehåller en lista med `clickThrough` mätvärden. |
+| response > execute > mboxes > mbox > metrics | Innehåller en lista med `clickThrough`-mått. |
 | response > execute > mboxes > mbox > mbox | Namnet på mbox. |
 | response > execute > mboxes > mbox >index | Anger att svaret är för mbox med detta index från begäran. |
 | response > execute > mboxes > mbox > analytics > payload | Analysens nyttolast för integrering på klientsidan som ska skickas till Analytics när mbox har tillämpats. (Se avsnittet A4T-aktiverade kampanjer.) |
@@ -108,7 +108,7 @@ adobe.target.applyOffers({response:{
 }});
 ```
 
-## Exempel på anrop till Promise-kedja med `getOffers()` och `applyOffers()`, eftersom dessa funktioner är Promise-baserade
+## Exempel på anrop av Promise-kedja med `getOffers()` och `applyOffers()`, eftersom dessa funktioner är Promise-baserade
 
 ```javascript
 adobe.target.getOffers({...})
