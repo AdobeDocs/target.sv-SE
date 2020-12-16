@@ -20,19 +20,19 @@ Genom att följa dessa standarder är det mindre troligt att du får oväntade p
 
 ## Bästa praxis {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**För mbox.js version 57 och senare, och för at.js, placerar du referensen mbox.js eller at.js högst upp på `<head>` sidan.**
+**För mbox.js version 57 och senare, och för at.js, placerar du referensen mbox.js eller at.js högst upp på  `<head>` sidans avsnitt.**
 
 Om du även använder Visitor API-tjänsten placerar du besökar-API-skriptet ovanför mbox.js eller at.js.
 
-**För versioner av mbox.js före version 57 ska du placera mbox.js-koden så lågt som möjligt i sidans `<head>` avsnitt.**
+**För versioner av mbox.js före version 57 ska du placera mbox.js-koden så lågt som möjligt i  `<head>` sidans avsnitt.**
 
-Placera mbox.js i slutet av `<head>` avsnittet utan ytterligare deklarationer. I annat fall flyttas skript och länktaggar till `<body>` avsnittet.
+Placera mbox.js i slutet av `<head>`-avsnittet, utan ytterligare deklarationer efter det. I annat fall flyttas skript och länktaggar till `<body>`-avsnittet.
 
 **Du kan aktivera Förbättrad Experience Composer på kontonivå (aktiverat för alla aktiviteter som skapas i kontot) eller på den enskilda aktivitetsnivån.**
 
-Om du vill aktivera Förbättrad Experience Composer på kontonivån klickar du på [!UICONTROL Administration > Visual Experience Composer]och växlar sedan till På-position.
+Om du vill aktivera Förbättrad Experience Composer på kontonivå klickar du på [!UICONTROL Administration > Visual Experience Composer] och växlar sedan till På-position.
 
-Om du vill aktivera Förbättrad Experience Composer på aktivitetsnivå när du skapar en aktivitet i Visual Experience Composer klickar du på [!UICONTROL Configure > URL]och växlar sedan till På-position.
+Om du vill aktivera Förbättrad Experience Composer på aktivitetsnivå när du skapar en aktivitet i Visual Experience Composer klickar du på [!UICONTROL Configure > URL] och växlar sedan till På-position.
 
 **Du kan tillåtslista vissa IP-adresser om Förbättrad Visual Experience Composer inte läses in på säkra sidor på din webbplats.**
 
@@ -54,7 +54,7 @@ Adobe Target behöver inga ID, men om du använder ID:n blir upplevelserna som s
 
 När du redigerar CSS-klasser i Visual Experience Composer kan det vara praktiskt att göra klasserna enkla att identifiera genom att använda beskrivande klassnamn. Detta säkerställer att du redigerar rätt CSS-klasser och att sidorna visas som förväntat.
 
-Använd inte `!important` CSS-egenskapen när du döljer eller tar bort element.
+Använd inte CSS-egenskapen `!important` när du döljer eller tar bort element.
 
 Om CSS-egenskapen 1!important1 finns kommer ändringar som görs av target.js under leveransen att åsidosättas av webbplatsens CSS-regler.
 
@@ -97,12 +97,12 @@ Varje ändring skapar ett nytt element i Visual Experience Composer. Eftersom de
 
 Om du lägger till ett element med text och sedan redigerar elementet med annan text i en separat åtgärd, visas båda åtgärderna som separata element i kodredigeraren. När du redigerade elementet skapade du ett nytt element som ändrar det ursprungliga elementet som du skapade och som innehåller den redigerade texten. Om du sedan tar bort det ursprungliga elementet kommer den redigerade texten inte att kunna hitta det element som redigerades och kommer inte att visas. Det andra elementet finns kvar i listan med element, men det påverkar inte sidan eftersom elementet det ändras inte längre finns.
 
-Se [Elementväljare som används i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) .
+Se [Elementväljare som används i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
-**Använd `<b>` och `<i>` taggar när du formaterar textelement med textredigeraren.**
+**Använd  `<b>` och  `<i>` taggar när du formaterar textelement med textredigeraren.**
 
-* Använd i stället `<b>` för fetstil `<strong>`.
-* Använd `<i>` i stället för `<em>`för kursiv text.
+* Använd `<b>` i stället för `<strong>` för fetstil.
+* Använd `<i>` i stället för `<em>` för kursiv text.
 
 `<strong>` och - `<em>` taggar kan ge oväntade resultat.
 
@@ -110,9 +110,9 @@ Se [Elementväljare som används i Visual Experience Composer](/help/c-experienc
 
 Vissa formulärfält kan vara obligatoriska för att skickas. Om du tar bort de formulärfälten kan det påverka inskickade data.
 
-**Inkludera inte `mboxCreate` skript.**
+**Inkludera inte  `mboxCreate` skript.**
 
-Eftersom `mboxCreate` används `document.write`bör du inte ta med `mboxCreate` i skript. Använd `mboxDefine` och `mboxUpdate` för samma ändamål.
+Eftersom `mboxCreate` använder `document.write` bör du inte ta med `mboxCreate` i skript. Använd i stället `mboxDefine` och `mboxUpdate` för samma syfte.
 
 **Uppdatera inte ett HTML-kodfragment med Target Standard om det kräver JavaScript-kod för initieringen.**
 
@@ -149,7 +149,7 @@ Du kan t.ex. inte ange text i kundvagnen som mål i VEC om koden är som följer
 
 I det här exemplet markeras hela ankarelementet i VEC, vilket påverkar andra element negativt om du väljer målinriktning.
 
-**Använd inte `top` variabler eller `self` variabler i JavaScript-kod.**
+**Använd inte  `top` eller  `self` variabler i JavaScript-kod.**
 
 När Förbättrad Experience Composer är aktiverat uppdateras värdet för de översta variablerna och självvariablerna för att inaktivera iframe-publicering. Använd ett X-frame-options-huvud för att lägga till iframe busting i stället för anpassade JavaScript-koder.
 
@@ -188,7 +188,7 @@ Tänk på följande när du använder Visual Experience Composer för att utform
 
 **Funktionen Flytta stöder inte z-index.**
 
-Eftersom det inte finns någon z-index-funktion kan det flyttade elementet inte flyttas över ett annat element. Mer information finns i [Begränsningar](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) .
+Eftersom det inte finns någon z-index-funktion kan det flyttade elementet inte flyttas över ett annat element. Mer information finns i [Begränsningar](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 **Om du ändrar ordning på elementen påverkas klickspårningen.**
 
@@ -196,7 +196,7 @@ Om ett element som är markerat för klickspårning ordnas om ändras sökvägar
 
 Detta beror på att både koden för att leverera aktivitetsinnehållet och koden för att spåra klickningar ingår i en del kod som levereras till sidan. Om du bläddrar till en annan sida och ställer in klickspårning skickas aktivitetsinnehållskoden och klickspårningskoden till den sidan. Om klickspårningssidan har en liknande sidstruktur som den sida där testet körs, kan testinnehållet också visas på klickspårningssidan.
 
-**Det är inte säkert att infogning av ett element fungerar i en mbox `<div>` som är en.**
+**Det är inte säkert att infogning av ett element fungerar i en mbox  `<div>` som är en.**
 
 Om en mbox innehåller ett erbjudande kan infogning av ett element visas som insertBefore och inte insertAfter, om mbox implementeras felaktigt.
 
