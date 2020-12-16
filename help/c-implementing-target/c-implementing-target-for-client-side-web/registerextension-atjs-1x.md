@@ -18,14 +18,14 @@ Tillhandahåller ett standardsätt att registrera ett specifikt tillägg.
 
 >[!NOTE]
 >
->Den här funktionen är tillgänglig för version 1 av at.js.*Endast x* . Den här funktionen har ersatts med versionen av at.js 2.x. Den här funktionen returnerar standardinnehåll om den används med at.js 2.x.
+>Den här funktionen är tillgänglig för version 1 av at.js.*Endast* . Den här funktionen har ersatts med versionen av at.js 2.x. Den här funktionen returnerar standardinnehåll om den används med at.js 2.x.
 
 Alternativparametern är obligatorisk och har följande struktur:
 
 | Nyckel | Typ | Obligatoriskt | Beskrivning |
 |--- |--- |--- |--- |
 | name | Sträng | Ja | Tilläggsnamn. |
-| moduler | [ArrayString] | Ja | En array med strängar som representerar begärda modulnamn. |
+| moduler | Array[Sträng] | Ja | En array med strängar som representerar begärda modulnamn. |
 | register |  -funktion | Ja | En funktion som används för att initiera och skapa tillägget. Den här funktionen tar emot argument baserade på modularrayen. |
 
 Anteckningar:
@@ -33,9 +33,9 @@ Anteckningar:
 * Om en av parametrarna inte anges genereras ett undantag.
 * Om modularrayen är tom genereras ett undantag.
 
-Mer information och exempel på hur du använder `registerExtension`finns på sidan [Adobe Experience Cloud Target atjs Extensions](https://github.com/Adobe-Marketing-Cloud/target-atjs-extensions) på GitHub.
+Mer information och exempel på hur du använder `registerExtension` finns på sidan [Adobe Experience Cloud Target atjs Extensions](https://github.com/Adobe-Marketing-Cloud/target-atjs-extensions) på GitHub.
 
-## Metoder för inställningsmodulen {#section_8501CDD4B0624FA2B10532C98C5F4328}
+## Inställningsmodulmetoder {#section_8501CDD4B0624FA2B10532C98C5F4328}
 
 | Nyckel | Typ | Beskrivning |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ Mer information och exempel på hur du använder `registerExtension`finns på si
 | globalMboxAutoCreate | Boolean | Anger om autoskapa är aktiverat eller inte |
 | timeout | Nummer | Timeout för begäran |
 
-## Metoder för loggningsmodul {#section_10AF62B49AEF48F981E950D26E176138}
+## Loggningsmodulmetoder {#section_10AF62B49AEF48F981E950D26E176138}
 
 | Nyckel | Typ | Beskrivning |
 |--- |--- |--- |
