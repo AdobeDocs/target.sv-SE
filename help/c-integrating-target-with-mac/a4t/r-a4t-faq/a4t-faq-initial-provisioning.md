@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Inledande etablering - Vanliga frågor om A4T{#initial-provisioning-a-t-faq}
+# Inledande etablering - A4T FAQ{#initial-provisioning-a-t-faq}
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om etablering av Analytics som rapportkälla för Target (A4T).
 
@@ -26,9 +26,9 @@ Så här implementerar du ett enkelt A4T-fall med flera sidor:
 
 ## Hur vet jag om A4T är aktiverat på mitt Target-konto? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Innan du kan välja en rapportsserie när du definierar en Analytics-aktivitet behöver du både ett Analytics-användarkonto och ett Target-användarkonto. Dina användarkonton måste konfigureras enligt anvisningarna i dokumentationen. Se Krav för [användarbehörighet](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) .
+Innan du kan välja en rapportsserie när du definierar en Analytics-aktivitet behöver du både ett Analytics-användarkonto och ett Target-användarkonto. Dina användarkonton måste konfigureras enligt anvisningarna i dokumentationen. Se [Krav för användarbehörighet](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-När du är medlem i en eller flera Experience Cloud-grupper som har tillgång till Analytics och Target och har tillgång till alla rapportsviter, bör du se alternativet att skapa ett A/B-test med Analytics under **[!UICONTROL Create Activity]**.
+När du är medlem i en eller flera Experience Cloud-grupper som har tillgång till Analytics och Target och du har tillgång till alla rapportsviter, bör du se alternativet att skapa ett A/B-test med Analytics under **[!UICONTROL Create Activity]**.
 
 Om det uppstår provisioneringsproblem ska du kontrollera om A4T har etablerats korrekt.
 
