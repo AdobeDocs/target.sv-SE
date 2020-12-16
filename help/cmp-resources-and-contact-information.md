@@ -4,7 +4,7 @@ description: Information om ytterligare resurser som hjälper dig att lära dig 
 title: Resurser och kontaktinformation
 feature: reference general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Vi välkomnar alla förslag och all feedback om den här lösningen. Förbättra
 
 ### Juridik {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2019 Adobe Systems Incorporated. Med ensamrätt.
+* © 2020 Adobe Systems Incorporated. Med ensamrätt.
 * Publicerat av Adobe Systems Incorporated.
 
 [Användarvillkor](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Sekretesscenter](https://www.adobe.com/privacy.html)
