@@ -36,7 +36,7 @@ Ni kan visa de bästa fem, värsta fem eller alla upplevelser. De bästa och vä
 
 Under diagrammet visas hur många deltagare som såg varje upplevelse, samt annan information som är relevant för dina framgångsmått.
 
-## Utbildningsvideo: Skapa ett MVT Test ![Tutorial-märke](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa ett MVT-test ![Självstudiekurs](/help/assets/tutorial.png)
 
 I den här videon visas hur du skapar ett multivariata test med det guidade arbetsflödet i tre steg för Target. Experience Performance-rapporten beskrivs med början kl. 8.20.
 
