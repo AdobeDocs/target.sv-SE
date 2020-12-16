@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Introduktion till Recommendations
+# ![](/help/assets/premium.png) PREMIUMImplementering till Recommendations
 
-Texten i den här artikeln är från *Introduction to Recommendations* webbinar, som du kan visa i sin helhet nedan.
+Texten i den här artikeln kommer från *Introduktion till Recommendations*-webbinariet, som du kan visa i sin helhet nedan.
 
-Introduktionen *till Recommendations* webbinarium innehåller en fördjupad genomgång av hur du kan utnyttja fördelarna med [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target] aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till [!DNL Target] användargränssnittet för att få en stegvis översikt över hur du skapar en [!DNL Recommendations] aktivitet.
+*Introduktionen till Recommendations*-webbinariet innehåller en fördjupad genomgång av hur du kan utnyttja värdet [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target]-aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till [!DNL Target]-gränssnittet för att få en stegvis översikt över hur du skapar en [!DNL Recommendations]-aktivitet.
 
 ## Introduktion
 
@@ -30,20 +30,20 @@ Men det vi inte alltid tänker på är hur varumärken som tänker&quot;digitalt
 
 ![Rekommendation som visar varumärken som tänker&quot;digitalt först&quot;](/help/c-recommendations/assets/intro-2.png)
 
-Marknadsförarna använder [!DNL Adobe Target] för att skapa personaliserade upplevelser i en mängd olika branscher, kundtyper och kanaler.
+Marknadsförarna använder [!DNL Adobe Target] för att skapa personaliserade upplevelser i en rad olika branscher, kundtyper och kanaler.
 
 [!DNL Adobe Target] levererar personaliserat innehåll överallt.
 
 ![Bild som visar hur Target levererar rekommendationer på olika platser](/help/c-recommendations/assets/intro-3.png)
 
-* **Publicering**: Webbutgivare använder [!DNL Target Recommendations] för att rekommendera artiklar till besökare och öka engagemanget.
-* **Video Tutorials**: [!DNL Adobe Creative Cloud] använder [!DNL Target] för att rekommendera videokurser för Photoshop-användare i Photoshop.
-* **Spel**: Spelföretag använder [!DNL Target] för att rekommendera spel och innehåll för användare på sina konsoler.
-* **B2B-försäljning**: [Företag kan använda Target för att rekommendera videor, rapporter och blogginlägg till B2B-prospects. leverera nedladdningar, och ge hjälp till befintliga kunder](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **Publicering**: Webbutgivare använder  [!DNL Target Recommendations] för att rekommendera artiklar till besökare och öka engagemanget.
+* **Video Tutorials**:  [!DNL Adobe Creative Cloud] använder  [!DNL Target] för att rekommendera videokurser för Photoshop-användare i Photoshop.
+* **Spel**: Spelföretag använder  [!DNL Target] för att rekommendera spel och innehåll för användare på sina konsoler.
+* **B2B-försäljning**:  [Företag kan använda Target för att rekommendera videor, rapporter och blogginlägg till B2B-prospects. leverera nedladdningar, och ge hjälp till befintliga kunder](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Resa**: [En tysk resebokförare använder Target för att rekommendera hotell och mycket annat till resenärer](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **Resa**:  [En tysk resebokförare använder Target för att rekommendera hotell och mycket annat till resenärer](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Detaljhandel**: [En ledande B2B-handlare använder Target för att rekommendera de viktigaste kategorierna och produkterna för att returnera besökare i webbläsaren och i mobilappen](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
+* **Detaljhandel**:  [En ledande B2B-handlare använder Target för att rekommendera de viktigaste kategorierna och produkterna för att returnera besökare i webbläsaren och i mobilappen](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
 
 Detta är bara några exempel på hur kunderna använder Target för att leverera personaliserade rekommendationer.
 
@@ -54,8 +54,8 @@ Vad är bra rekommendationer?
 Stora rekommendationer bör vara relevanta och personaliserade. Det innebär att ni behöver tre saker för att öka relevansen och personaliseringen:
 
 * **Marknadsföringsreglage** hjälper till att öka relevansen för de objekt som rekommenderas. Som marknadsförare ger ni tabellen ett värdefullt sammanhang och vet vilka attribut som är relevanta för en rekommendationsmodell. Om du kör en videowebbplats vet du att användarna kanske är intresserade av att se filmer från samma regissör, men du bryr dig antagligen inte om att se filmer som har producerats i samma studio. [!DNL Target] ger dig möjlighet att använda kontroller som gör att du kan förbättra dina algoritmer med den här domänkunskapen.
-* **Sofistikerade modeller** för att förstå miljontals objekt i katalogen och interaktionshändelser. [!DNL Target] har sofistikerade maskininlärningsfunktioner som byggts under ett decennium av erfarenhet och vi hanterar miljarder rekommendationer per år.
-* **Användarsammanhang** för att säkerställa att rekommendationerna är aktuella och relevanta för användarna. Du vill inte rekommendera videon som någon just tittade på eller skjortan som någon just lagt till i kundvagnen. Målets omfattande användarprofil kan användas i rekommendationer för att säkerställa personalisering.
+* **Sofistikerade** modeller för att förstå miljontals objekt i katalogen och interaktionshändelser. [!DNL Target] har sofistikerade maskininlärningsfunktioner som byggts under ett decennium av erfarenhet och vi hanterar miljarder rekommendationer per år.
+* **Användarkontext** för att säkerställa att rekommendationerna är aktuella och relevanta för dina användare. Du vill inte rekommendera videon som någon just tittade på eller skjortan som någon just lagt till i kundvagnen. Målets omfattande användarprofil kan användas i rekommendationer för att säkerställa personalisering.
 
 ## Implementera Recommendations som mål
 
@@ -67,23 +67,23 @@ Börja med en strategi.
 * **Var vill du visa rekommendationer?** Tänk sedan på var du vill ge rekommendationer. Se vilka kanaler (webb, mobil, butiker, kioskdatorer och så vidare) som finns. Vilka delar av kundresan kommer att innehålla rekommendationer? Vilka sidor på din webbplats kommer att innehålla rekommendationer?
 * **Hur avgör ni om rekommendationerna lyckas?** Anta att du har en erfarenhet utan rekommendationer och erfarenhet av rekommendationer, eller att du har två olika typer av rekommendationer. Hur skulle ni avgöra vilken upplevelse som var en bättre upplevelse för era kunder? Vissa mätvärden kan vara svårare än andra att mäta. Till exempel är effekten av rekommendationer på kundens livstidsvärde ofta svår att komma åt direkt. Det är därför ofta enklare att få till en mindre abstrakt mätmetod som är mer konkret, till exempel intäkter per besök, genomsnittligt ordervärde eller antal klick. I vissa fall kanske du vill minimera ett mått, till exempel antalet supportsamtal.
 
-När ni har kommit fram till er strategi är ni redo att börja implementera [!DNL Target Recommendations].
+När du har kommit fram till din strategi är du redo att börja implementera [!DNL Target Recommendations].
 
 Det finns tre stora steg för att skapa implementering av dina rekommendationer:
 
 ![Bild som visar hur du skapar implementering av rekommendationer](/help/c-recommendations/assets/intro-6.png)
 
-1. Undervisa [!DNL Target] om sammanhang eller produkter.
+1. Undervisa [!DNL Target] om ditt sammanhang eller dina produkter.
 1. Hämta användarbeteende.
 1. Få rekommendationer i rätt sammanhang.
 
-### Lär dig [!DNL Target] om ditt sammanhang eller dina produkter
+### Undervisa [!DNL Target] om ditt sammanhang eller dina produkter
 
-När du börjar med [!DNL Recommendations]skickar du information om varje objekt som du vill rekommendera. [!DNL Target] I finns flera integreringsalternativ för att skapa din katalog.
+När du börjar med [!DNL Recommendations] skickar du information om alla objekt som du vill rekommendera. [!DNL Target] har flera integreringsalternativ för att skapa katalogen.
 
 ![Illustration som visar hur du lär ut Target om ditt sammanhang eller dina produkter](/help/c-recommendations/assets/intro-7.png)
 
-Den enklaste och vanligaste metoden är att skicka en CSV-fil varje dag eller vecka från ert system för produktinformationshantering eller från ert innehållshanteringssystem. Men du kan också skicka information på datalagret från sidan med hjälp av [!DNL Adobe Target] Javascript-biblioteket, använda våra API:er för att skicka information direkt från källsystemet eller använda vår [!DNL Adobe Analytics] integration om du redan skickar katalogdata till [!DNL Analytics].
+Den enklaste och vanligaste metoden är att skicka en CSV-fil varje dag eller vecka från ert system för produktinformationshantering eller från ert innehållshanteringssystem. Men du kan också skicka information på datalagret från sidan med JavaScript-biblioteket [!DNL Adobe Target], använda våra API:er för att skicka information direkt från källsystemet eller använda vår [!DNL Adobe Analytics]-integrering om du redan skickar katalogdata till [!DNL Analytics].
 
 Ibland kanske du vill använda flera alternativ tillsammans, till exempel skicka de flesta data dagligen via en CSV-fil och skicka lageruppdateringar oftare via ett API.
 
@@ -94,34 +94,34 @@ Oavsett vilken metod du väljer bör du inkludera metadata om varje objekt i tre
 ![Bild som visar metadatainformation för katalogen](/help/c-recommendations/assets/intro-8.png)
 
 * Data som du vill visa för användaren som tar emot rekommendationen. Filmens namn och en URL för miniatyrbild.
-* Data som är användbara för att tillämpa marknadsförings- och marknadsföringskontroller. Exempel: filmens klassificering så att du inte rekommenderar NC-17-filmer.
+* Data som är användbara för att tillämpa marknadsförings- och marknadsföringskontroller. Filmens klassificering så att du inte rekommenderar NC-17-filmer.
 * Data som är användbara när du vill fastställa likheter mellan objekt och andra objekt. Till exempel filmens genre eller de skådespelare som finns i filmen.
 
 ### Hämta användarbeteende
 
-Därefter bör du lägga till taggar eller utnyttja befintlig [!DNL Analytics] implementering för att spåra konverteringshändelser (som vyer och köp) som driver [!DNL Target] algoritmer.
+Därefter bör du lägga till taggar eller utnyttja befintlig [!DNL Analytics]-implementering för att spåra konverteringshändelser (till exempel vyer och köp) som driver [!DNL Target]-algoritmer.
 
 ![Illustration som visar hur man fångar upp användarbeteenden](/help/c-recommendations/assets/intro-9.png)
 
-Du måste se till att du [!DNL Target] är medveten om de objekt som användarna visar och köper. Om inköpen inte är relevanta för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av en PDF-fil, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
+Du måste se till att [!DNL Target] är medveten om de objekt som användarna visar och köper. Om inköpen inte är relevanta för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av en PDF-fil, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
 
-Om du redan använder [!DNL Target] för att köra A/B-tester på din webbplats kan det bero på att du redan har slutfört det här steget. Eller om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Det går också att skicka interaktioner offline eller i programmet till [!DNL Target] via API:t i realtid.
+Om du redan använder [!DNL Target] för att köra A/B-tester på din plats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Det går också att skicka interaktioner offline eller i programmet till [!DNL Target] via API:t i realtid.
 
 ### Få rekommendationer i rätt sammanhang
 
-Skicka information om användaren och sammanhanget vid interaktionen för [!DNL Target] att returnera relevanta och personaliserade rekommendationer.
+Skicka information om användaren och sammanhanget vid interaktionen till [!DNL Target] för att returnera relevanta och personaliserade rekommendationer.
 
 ![Bild som visar hur du får rekommendationer i rätt sammanhang](/help/c-recommendations/assets/intro-10.png)
 
-Förutom användarbeteende i sammanställning måste du skicka [!DNL Target] den specifika kontext där rekommendationer visas. Detta inkluderar information om sidan och information från användarprofilen. [!DNL Target] använder den här informationen för att göra personaliserade rekommendationer. På en återförsäljarwebbplats vill du t.ex. veta vilken produkt och produktkategori besökaren tittar på just nu. Du vill också veta mer om den användaren (favoritmärke, favoritproduktkategori, lojalitetsnivå osv.). Den här informationen är viktig för att [!DNL Target] kunna filtrera objekt och förbättra personaliseringen av rekommendationer.
+Förutom användarbeteendet i sammanställningen måste du skicka [!DNL Target] den specifika kontext där rekommendationer visas. Detta inkluderar information om sidan och information från användarprofilen. [!DNL Target] använder den här informationen för att göra personaliserade rekommendationer. På en återförsäljarwebbplats vill du t.ex. veta vilken produkt och produktkategori besökaren tittar på just nu. Du vill också veta mer om den användaren (favoritmärke, favoritproduktkategori, lojalitetsnivå osv.). Den här informationen är viktig så att [!DNL Target] kan filtrera objekt och förbättra personaliseringen av rekommendationer.
 
 ## Bygg din första Recommendations-aktivitet
 
-Vad är en [!DNL Recommendations] aktivitet?
+Vad är en [!DNL Recommendations]-aktivitet?
 
 ![Bild som visar de delar som ger en bra rekommendationsaktivitet](/help/c-recommendations/assets/intro-11.png)
 
-En [!DNL Recommendations] aktivitet består av följande komponenter:
+En [!DNL Recommendations]-aktivitet består av följande komponenter:
 
 * **Målgrupp**: Vem ska se de här rekommendationerna?
 * **Kriterier**: Vilka objekt bör rekommenderas?
@@ -129,7 +129,7 @@ En [!DNL Recommendations] aktivitet består av följande komponenter:
 
 ![Bild som visar vad som utgör en rekommendationsaktivitet: Målgrupper, kriterier och design](/help/c-recommendations/assets/intro-12.png)
 
-Färdiga funktioner: 14 [!DNL Target] inbyggda målgrupper, 42 inbyggda kriterier och 10 inbyggda designmallar. Du kan anpassa vart och ett av dessa objekt eller lägga till ett eget. Vi har haft tidigare [webbinarier om att bygga målgrupper](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) i [!DNL Target]. I det här avsnittet fokuseras på att definiera villkor, som definierar vilka objekt som ska rekommenderas.
+[!DNL Target] innehåller 14 inbyggda målgrupper, 42 inbyggda kriterier och 10 inbyggda designmallar. Du kan anpassa vart och ett av dessa objekt eller lägga till ett eget. Vi har haft [webbinarier om att bygga målgrupper](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) på [!DNL Target]. I det här avsnittet fokuseras på att definiera villkor, som definierar vilka objekt som ska rekommenderas.
 
 Target använder konceptet med kriteriekortet. Ett villkorskort är som ett recept för personalisering.
 
@@ -173,15 +173,15 @@ Baserat på dessa tangenter väljer du önskad logik för rekommendation:
 * Kunder som köpte den här artikeln köpte även dessa artiklar
 * Ett anpassat attribut
 
-Ingår i paketet och [!DNL Target] innehåller en portfölj med algoritmer.
+[!DNL Target] innehåller en portfölj med algoritmer.
 
 ![Portfolio i algoritmbild](/help/c-recommendations/assets/intro-15.png)
 
-* **Popularitetsbaserade algoritmer** är bland annat Most Viewed och Top Sellers.
-* **Innehållsbaserade algoritmer** är bland annat Likhet.
-* **Objektbaserade filteralgoritmer** för samarbete omfattar Visad/Visad, Visad/Köpt och Köpt/Köpt. Observera att&quot;köpt&quot; kan vara vilken konvertering som helst.
-* **Personaliserade algoritmer** är bland annat Nyligen visade, Tillhörighet till webbplats och profilförbättrad samarbetsfiltrering.
-* **Med egna algoritmer** kan du använda egna algoritmer.
+* **Popularitetsbaserade** algoritmer omfattar de mest visade och populära säljarna.
+* **Innehållsbaserade** algoritmer inkluderar Innehållets likhet.
+* **Objektbaserad filtreringsalgoritm** inklusive Visad/Visad, Visad/Köpt och Köpt/Köpt. Observera att&quot;köpt&quot; kan vara vilken konvertering som helst.
+* **Personaliserade** algoritmer, bland annat Senast visade, Tillhörighet till webbplats och profilförbättrad samarbetsfiltrering.
+* **Använd egna** algoritmer som du kan använda egna algoritmer.
 
 ### Affärsregler online
 
@@ -193,7 +193,7 @@ I innehållskontexten kanske du vill utesluta filmer som besökaren tidigare har
 
 ## Demo
 
-När du har slutfört de uppgifter som illustreras i rekommendationstratten som beskrivs ovan, får du din slutgiltiga rekommendation. För att se en produktdemonstration [!DNL Target]på insidan börjar filmen 21:00 i *Adobe Target Basics Webinar* som är länkad till nedan.
+När du har slutfört de uppgifter som illustreras i rekommendationstratten som beskrivs ovan, får du din slutgiltiga rekommendation. För att se en produktdemonstration i [!DNL Target] börjar demon klockan 21:00 i *Adobe Target Basics Webinar*, som är länkad till nedan.
 
 ## Adobe Target Basics Webinar: Introduktion till Recommendations {#intro-to-recs}
 
