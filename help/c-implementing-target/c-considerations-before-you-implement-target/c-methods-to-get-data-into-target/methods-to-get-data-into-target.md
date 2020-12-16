@@ -50,11 +50,11 @@ Data skickas till Target i realtid och kan användas på samma server för att a
 
 * Kräver uppdatering av sidkod (direkt eller via ett tagghanteringssystem).
 * Om data behöver användas för att rikta in sig på en efterföljande sida/server-anrop måste de översättas till ett profilskript.
-* Frågesträngar får endast innehålla tecken enligt [IETF-standarden](https://www.ietf.org/rfc/rfc3986.txt) (Internet Engineering Task Force).
+* Frågesträngar får endast innehålla tecken enligt standarden [IETF (Internet Engineering Task Force)](https://www.ietf.org/rfc/rfc3986.txt).
 
    Förutom de som nämns på IETF-webbplatsen tillåter Target följande tecken i frågesträngar:
 
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; {} | \\ ^ \[\] \&quot;
 
    Allt annat måste vara url-kodat. Standarden anger följande format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), enligt nedan:
 
@@ -86,7 +86,7 @@ Orderbekräftelse: [Spåra konverteringar](/help/c-implementing-target/c-impleme
 
 Kategoritillhörighet: [Kategoritillhörighet](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
 
-## Profilattribut på sidan (kallas även&quot;profilattribut i ruta) {#section_57E1C161AA7B444689B40B6F459302B6}
+## Profilattribut på sidan (kallas även &quot;in-mbox profile attributes) {#section_57E1C161AA7B444689B40B6F459302B6}
 
 Profilattribut på sidan är namn/värde-par som skickas direkt via sidkoden och som lagras i besökarens profil för framtida bruk.
 
@@ -193,9 +193,9 @@ Obs! Data Providers kräver at.js 1.3 eller senare.
 
 ### Format
 
-Inställningen `window.targetGlobalSettings.dataProviders` är en array med dataleverantörer.
+Inställningen `window.targetGlobalSettings.dataProviders` är en matris med dataleverantörer.
 
-Mer information om strukturen för varje DataProvider finns i [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
+Mer information om strukturen för varje dataleverantör finns i [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
 ### Exempel på användningsfall
 
@@ -211,7 +211,7 @@ Med den här metoden blir det enkelt att hantera flimmer av standardsidinnehåll
 
 ### Caveats
 
-Om dataleverantörerna som läggs till `window.targetGlobalSettings.dataProviders` är asynkrona körs de parallellt. Besökar-API-begäran körs parallellt med funktioner som lagts till för `window.targetGlobalSettings.dataProviders` att ge en minimal väntetid.
+Om dataleverantörerna som läggs till i `window.targetGlobalSettings.dataProviders` är asynkrona körs de parallellt. Besökar-API-begäran körs parallellt med funktioner som lagts till i `window.targetGlobalSettings.dataProviders` för att ge en minimal väntetid.
 
 at.js försöker inte cachelagra data. Om dataleverantören bara hämtar data en gång, bör dataleverantören se till att data cachelagras och, när providerfunktionen anropas, hantera cachedata för det andra anropet.
 
@@ -260,7 +260,7 @@ Batchfilens storlek måste vara mindre än 50 MB. Dessutom bör det totala antal
 
 Det finns ingen gräns för hur många rader du kan överföra under 24 timmar i efterföljande batchar. Intag kan dock begränsas under kontorstid för att säkerställa att andra processer körs effektivt.
 
-Flera [V2-batchuppdateringsanrop](https://developers.adobetarget.com/api/#updating-profiles) i följd utan mbox-anrop däremellan för samma thirdPartyIds åsidosätter egenskaperna som uppdaterades i det första batchuppdateringsanropet.
+Flera [V2-batchuppdateringsanrop](https://developers.adobetarget.com/api/#updating-profiles) utan mbox-anrop däremellan för samma thirdPartyIds åsidosätter egenskaperna som uppdaterades i det första batchuppdateringsanropet.
 
 ### Kodexempel
 
@@ -302,7 +302,7 @@ GET och POST stöds. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mbox
 
 [Uppdaterar profiler](https://developers.adobetarget.com/api/#updating-profiles)
 
-## Customer Attributes {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
+## Kundattribut {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
 
 Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts.
 
@@ -334,7 +334,7 @@ Kräver implementering av Experience Cloud ID (ECID).
 
 ### Kodexempel
 
-Information finns i [Skapa en kundattributkälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
+Mer information finns i [Skapa en kundattributkälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Länkar till relevant information
 
