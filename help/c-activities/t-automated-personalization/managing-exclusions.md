@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# ![Premium-märke](/help/assets/premium.png) Hantera undantag{#manage-exclusions}
+# ![Premium ](/help/assets/premium.png) badgeHantera undantag{#manage-exclusions}
 
 Hantera uteslutningar genom att skapa exkluderingsgrupper, exklusive dubbletterbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i Automated Personalization-aktiviteter (AP).
 
@@ -23,15 +23,15 @@ Skapa exkluderingsgrupper i Automated Personalization(AP)-aktiviteter för att s
 
 Uteslutningsgrupper är ett bra sätt att se till att inkompatibla erbjudanden inte visas på samma plats på olika platser. Anta till exempel att du har två erbjudanden: den ena ger 20 % rabatt på alla varor och den andra 15 % rabatt. Ni vill aldrig att dessa två erbjudanden ska presenteras för besökare i samma upplevelse. Om du lägger till dessa två erbjudanden i en exkluderingsgrupp kan du se till att så aldrig blir fallet.
 
-Du kan också begränsa vilka målgrupper som kan se specifika erbjudanden i AP-aktiviteter. Mer information finns i [erbjudanden](/help/c-activities/t-automated-personalization/ap-target-offers.md)för Target Automated Personalization.
+Du kan också begränsa vilka målgrupper som kan se specifika erbjudanden i AP-aktiviteter. Mer information finns i [Automated Personalization Target erbjuder](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **Så här skapar du en exkluderingsgrupp:**
 
-1. När du [skapar eller redigerar en AP-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md)klickar du **[!UICONTROL Manage Content]** i rubrikfältet.
+1. När du [skapar eller redigerar en AP-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) klickar du på **[!UICONTROL Manage Content]** i rubrikfältet.
 
    ![Länken Hantera innehåll](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. Klicka på i [!UICONTROL Manage Content] dialogrutan **[!UICONTROL Exclusion Group]**.
+1. Klicka på **[!UICONTROL Exclusion Group]** i dialogrutan [!UICONTROL Manage Content].
 
    ![Hantera innehåll > Uteslutningsgrupper, dialogruta](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
@@ -55,25 +55,25 @@ Erbjudandena i exkluderingsgruppen exkluderas automatiskt från samma upplevelse
 
 ## Exkludera dubbletterbjudanden {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-Förhindra att erbjudanden från erbjudandebiblioteket dupliceras när de används på olika platser i [!UICONTROL Automated Personalization] aktiviteter.
+Förhindra att erbjudanden från erbjudandebiblioteket dupliceras när de används på olika platser i [!UICONTROL Automated Personalization]-aktiviteter.
 
 Du kan till exempel ha en aktivitet med sex platser på en sida med 12 erbjudanden. Det finns en risk för att samma erbjudande kan placeras på en eller flera platser i aktiviteten. Den här funktionen förhindrar att dubbletterbjudanden visas samtidigt på olika platser inom samma aktivitet.
 
-Klicka **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]** och sedan på **[!UICONTROL Allow Duplicates]** eller **[!UICONTROL Disallow Duplicates]**.
+Klicka på **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]** och sedan på **[!UICONTROL Allow Duplicates]** eller **[!UICONTROL Disallow Duplicates]**.
 
 ![Alternativ för duplicerade erbjudanden](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
-## Exkludera specifika upplevelser {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+## Uteslut specifika upplevelser {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
 Exkludera specifika upplevelser om du vill utesluta vissa erbjudandekombinationer från din Automated Personalization-aktivitet.
 
 Det kan finnas vissa kombinationer som inte fungerar bra tillsammans, eller så kanske du begränsar antalet testade upplevelser för att minska trafikkraven för din aktivitet.
 
-1. När du [skapar eller redigerar en AP-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md)klickar du på **Hantera innehåll** i rubrikfältet.
+1. När du [skapar eller redigerar en AP-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) klickar du på **Hantera innehåll** i rubrikfältet.
 
    ![Länken Hantera innehåll](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   I listan visas varje upplevelse som genereras av permutationer för allt innehåll och alla platsalternativ. [!UICONTROL Experiences]
+   Listan [!UICONTROL Experiences] visar varje upplevelse som genereras av permutationer för allt innehåll och alla platsalternativ.
 
 1. Exkludera upplevelser efter behov.
 
@@ -81,13 +81,13 @@ Det kan finnas vissa kombinationer som inte fungerar bra tillsammans, eller så 
 
    ![Uteslut upplevelsen genom att hovra](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Du kan också gruppexkludera/inkludera upplevelser genom att markera kryssrutan för de relevanta upplevelserna och sedan klicka på **[!UICONTROL Exclude]** ikonen i dialogrutans övre högra hörn. Ikonen visas [!UICONTROL Exclude] när en eller flera upplevelser kontrolleras.
+   Du kan också gruppexkludera/inkludera upplevelser genom att markera kryssrutan för de relevanta upplevelserna och sedan klicka på ikonen **[!UICONTROL Exclude]** i dialogrutans övre högra hörn. Ikonen [!UICONTROL Exclude] visas när en eller flera upplevelser kontrolleras.
 
    ![Gruppexkludera upplevelser](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
-   Du kan filtrera den här listvyn så att endast uteslutna eller endast inkluderade aktiviteter visas genom att klicka på [!UICONTROL Status] listrutan.
+   Du kan filtrera den här listvyn så att endast uteslutna eller endast inkluderade aktiviteter visas genom att klicka på listrutan [!UICONTROL Status].
 
-   Upplevelserna kommer nu att uteslutas från aktiviteten och visas som [!UICONTROL Status] de [!UICONTROL Excluded].
+   Upplevelserna kommer nu att uteslutas från aktiviteten och deras [!UICONTROL Status] visas som [!UICONTROL Excluded].
 
    ![Exkluderade upplevelser](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
@@ -99,7 +99,7 @@ Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och käns
 
 **Så här exkluderar du standardinnehåll med Visual Experience Composer (VEC):**
 
-1. När du [skapar eller redigerar en AP-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md)markerar du det innehåll du vill ersätta och klickar för att få åtkomst till **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]** eller **[!UICONTROL Change Background Color]**.
+1. När du [skapar eller redigerar en AP-aktivitet](/help/c-activities/t-automated-personalization/create-ap-activity.md) markerar du det innehåll du vill ersätta och klickar för att komma åt **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]** eller **[!UICONTROL Change Background Color]**.
 1. Skapa ditt nya innehåll i dialogrutan och avmarkera **Inkludera** till höger om standardinnehållet (eller avmarkera Standardbild/video på skärmen Välj innehåll).
 
    Beroende på innehålls-/erbjudandetypen är kryssrutan [!UICONTROL Include] på en något annorlunda plats.
@@ -118,7 +118,7 @@ Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och käns
 
 1. Klicka på **[!UICONTROL Save]**.
 
-   Du kan se upplevelserna som skapats utifrån de erbjudanden du angav under [!UICONTROL Manage Content]. Du kommer att märka att inga upplevelser skapas i [!UICONTROL Manage Content] med det standarderbjudande du uteslöt.
+   Du kan se upplevelserna som skapats utifrån erbjudandena som du angav under [!UICONTROL Manage Content]. Du kommer att märka att inga upplevelser skapas i [!UICONTROL Manage Content] med det standarderbjudande du uteslöt.
 
    ![](assets/exclude_content_vec_4.png)
 
@@ -139,6 +139,6 @@ Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och käns
 
 1. Klicka på **[!UICONTROL Save]**.
 
-   Du kan se upplevelserna som skapats utifrån de erbjudanden du angav under [!UICONTROL Manage Content]. Du kommer att märka att inga upplevelser skapas i [!UICONTROL Manage Content] med det standarderbjudande du uteslöt.
+   Du kan se upplevelserna som skapats utifrån erbjudandena som du angav under [!UICONTROL Manage Content]. Du kommer att märka att inga upplevelser skapas i [!UICONTROL Manage Content] med det standarderbjudande du uteslöt.
 
    ![](assets/exclude_content_form_3.png)
