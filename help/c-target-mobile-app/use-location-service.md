@@ -18,6 +18,6 @@ Plats är ett viktigt sammanhang när det gäller att förstå och engagera mobi
 
 Adobe Experience Platform Location Service (Location Service) är en geolokaliseringstjänst som gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI).
 
-Du kan använda Location Service med Target för att utnyttja regler i [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) för att bifoga dina platsdata till dina Adobe Target SDK-händelser.
+Du kan använda Location Service med Target för att utnyttja regler i [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) för att koppla dina platsdata till dina Adobe Target SDK-händelser.
 
-Mer information finns i [Använda platstjänst med Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) i guiden [till](https://experienceleague.adobe.com/docs/places/using/home.html)Adobe Experience Platform platstjänst.
+Mer information finns i [Use Location Service with Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) i [Adobe Experience Platform Location Service guide](https://experienceleague.adobe.com/docs/places/using/home.html).
