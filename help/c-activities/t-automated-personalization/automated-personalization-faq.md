@@ -12,17 +12,17 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Automated Personalization - Frågor och svar{#automated-personalization-faq}
+# ![Vanliga frågor om ](/help/assets/premium.png) automatisk personaliseringPREMIUMA{#automated-personalization-faq}
 
 Lista med vanliga frågor och svar om Automated Personalization (AP).
 
 ## Kan jag ange en specifik upplevelse som ska användas som kontroll?
 
-Du kan välja en upplevelse som ska användas som kontroll när du skapar en aktivitet för [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) eller [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+Du kan välja en upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) eller [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT)-aktivitet.
 
 Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen.
 
-Mer information finns i [Använda en viss upplevelse som kontroll](/help/c-activities/t-automated-personalization/experience-as-control.md).
+Mer information finns i [Använd en specifik upplevelse som kontroll](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Hur kan jag jämföra Automated Personalization med en standardupplevelse? {#section_46C1A620A2384C2C8392D6716DD18495}
 
@@ -35,7 +35,7 @@ Det finns inget körklart alternativ för att jämföra AP med en standardupplev
 
    * Om ett A/B...N-test inte visar några statistiskt signifikanta skillnader mellan upplevelserna, är det troligt att de erbjudanden du överväger inte skiljer sig tillräckligt mycket från varandra, påverkar de valda platserna inte framgångsmätningen eller så är optimeringsmålet för långt i konverteringstratten för att påverkas av dina valda erbjudanden.
 
-* Se till att du använder [Traffic Estimator](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) så att du får en uppfattning om hur lång tid det tar för personaliseringsmodeller att bygga in din Automated Personalization-aktivitet.
+* Använd [Traffic Estimator](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) så att du får en uppfattning om hur lång tid det tar för personaliseringsmodeller att bygga in din Automated Personalization-aktivitet.
 * Bestäm fördelningen mellan kontroll och mål innan du påbörjar aktiviteten utifrån dina mål.
 
    Det finns tre scenarier att tänka på baserat på målet för din aktivitet och vilken typ av kontroll du har valt:
@@ -74,11 +74,11 @@ Det krävs fyra faktorer för att en AP-aktivitet ska kunna generera lyft:
 
 Det bästa sättet att agera är att först se till att det innehåll och de platser som utgör aktivitetsupplevelserna verkligen gör skillnad i den totala svarsfrekvensen med hjälp av ett enkelt, icke-personaliserat A/B-test. Se till att beräkna provstorlekarna i förväg för att säkerställa att det finns tillräckligt med kraft för att se en rimlig lyft och köra A/B-provningen under en fast varaktighet utan att stoppa den eller göra några ändringar. Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet kommer att fungera. Personalisering kan förstås fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på att erbjudandena/platserna inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
 
-Mer information finns i [Felsöka Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+Mer information finns i [Felsökning av Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
 ### Hur tilldelar Automated Personalization trafiken? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-Automated Personalization dirigerar besökarna till den upplevelse som har den högsta prognosen för framgång baserat på de senaste modellerna av [Slumpmässig skog](/help/c-activities/t-automated-personalization/algo-random-forest.md) som skapats för varje modell. Denna prognos baseras på besökarens specifika information och besökskontext.
+Automated Personalization dirigerar besökarna till den upplevelse som har det högsta prognostiserade framgångsmåttet baserat på de senaste [Slumpmässig skog](/help/c-activities/t-automated-personalization/algo-random-forest.md)-modellerna som skapats för varje modell. Denna prognos baseras på besökarens specifika information och besökskontext.
 
 Anta till exempel att en AP-aktivitet har två platser med två erbjudanden vardera. På den första platsen har erbjudande A en prognostiserad konverteringsgrad på 3 % för en viss besökare, och erbjudande B har en prognostiserad konverteringsgrad på 1 %. På den andra platsen har Offer C en prognostiserad konverteringsgrad på 2 % för samma besökare och Offer D har en prognostiserad konverteringsgrad på 5 %. Därför skulle Automated Personalization ge besökaren en upplevelse av Erbjudande A och Erbjudande D.
 
@@ -88,7 +88,7 @@ Automated Personalization kan användas som&quot;alltid on&quot;-personalisering
 
 ### Hur länge ska jag vänta på att modeller ska byggas? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-Hur lång tid det tar för modeller att bygga in din aktivitet beror vanligtvis på trafiken till de valda aktivitetsplatserna och hur framgångsrik aktiviteten är. Använd [Traffic Estimator](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) för att avgöra hur lång tid det kommer att ta för modeller att bygga in din aktivitet.
+Hur lång tid det tar för modeller att bygga in din aktivitet beror vanligtvis på trafiken till de valda aktivitetsplatserna och hur framgångsrik aktiviteten är. Använd [Traffic Estimator](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) för att fastställa hur lång tid det förväntas ta för modeller att bygga in din aktivitet.
 
 ### En modell är inbyggd i min aktivitet. Är besöken till den upplevelsen personaliserade? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
@@ -113,13 +113,13 @@ Automated Personalization-aktiviteter utvärderas en gång per session. Om det f
 
 ### Kan jag ändra målmåttet genom en Automated Personalization-aktivitet? {#change-metric}
 
-Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med [!DNL Target] användargränssnittet bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
+Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med hjälp av användargränssnittet i [!DNL Target] bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
 
-Denna rekommendation gäller för [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]och [!UICONTROL Automated Personalization] aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
+Den här rekommendationen gäller för [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
 
 ### Kan jag använda alternativet Återställ rapportdata när jag kör en Automated Personalization-aktivitet?
 
-Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Automated Personalization] aktiviteter. Även om det tar bort synliga rapportdata tas inte alla utbildningsposter bort från [!UICONTROL Automated Personalization] modellen. I stället för att använda [!UICONTROL Reset Report Data] alternativet för [!UICONTROL Automated Personalization] aktiviteter skapar du en ny aktivitet och inaktiverar den ursprungliga aktiviteten. (Obs! Denna vägledning gäller även [!UICONTROL Auto-Allocate] verksamhet och [!UICONTROL Auto-Target] verksamhet.)
+Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Automated Personalization]-aktiviteter. Även om det tar bort synliga rapportdata tas inte alla utbildningsposter bort från [!UICONTROL Automated Personalization]-modellen. I stället för att använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Automated Personalization]-aktiviteter skapar du en ny aktivitet och inaktiverar den ursprungliga aktiviteten. (Obs! Den här vägledningen gäller även för [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter.)
 
 ### Hur bygger Automated Personalization modeller för olika miljöer?
 
