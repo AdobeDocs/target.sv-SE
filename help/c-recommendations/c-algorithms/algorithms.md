@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -kriterier
+# ![](/help/assets/premium.png) PREMIUMCCriteria
 
-Kriterier i [!DNL Adobe Target] är regler som bestämmer vilka produkter eller innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden. Kriterierna kan baseras på populära trender, en besökares aktuella och tidigare beteenden eller liknande produkter och innehåll. Du kan testa flera rekommendationstyper mot varandra genom att lägga till flera villkor.
+Kriterierna i [!DNL Adobe Target] är regler som bestämmer vilka produkter eller innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden. Kriterierna kan baseras på populära trender, en besökares aktuella och tidigare beteenden eller liknande produkter och innehåll. Du kan testa flera rekommendationstyper mot varandra genom att lägga till flera villkor.
 
 I följande avsnitt beskrivs mer om villkorsnycklar och den rekommendationslogik du kan använda för varje nyckel. Klicka på länkarna för mer detaljerad information.
 
@@ -28,11 +28,11 @@ När du skapar villkor väljer du en bransch vertikalt baserad på syftet med di
 | Leadgenerering/B2B/Finansiella tjänster | Konvertering utan köp |
 | Media/publicering | Engagemang |
 
-Andra kriteriealternativ ändras beroende på vilken vertikal du väljer i branschen. Du kan ställa in branschstandarden vertikalt på **[!UICONTROL Recommendations > Settings]** sidan eller ange branschvertikalt för varje villkor.
+Andra kriteriealternativ ändras beroende på vilken vertikal du väljer i branschen. Du kan ställa in branschens standardinställningar lodrätt på **[!UICONTROL Recommendations > Settings]**-sidan eller ange branschens lodräta format för varje villkor.
 
 ## Rekommendationsnyckel {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-Den rekommendationsnyckel du väljer avgör typen av villkor. Det finns flera kriterietyper som visas som kriteriekort när du ställer in en [!DNL Recommendations] aktivitet.
+Den rekommendationsnyckel du väljer avgör typen av villkor. Det finns flera kriterietyper som visas som kriteriekort när du ställer in en [!DNL Recommendations]-aktivitet.
 
 ![Kriteriesida](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
 
@@ -56,25 +56,25 @@ Du kan också basera rekommendationer på värdet för ett anpassat profilattrib
 
 Anta till exempel att du vill visa rekommenderade filmer baserat på den film som en användare senast lade till i kön.
 
-1. Välj ditt anpassade profilattribut i [!UICONTROL Recommendation Key] listrutan (till exempel [!UICONTROL Last Show Added to Watchlist]).
+1. Välj ditt anpassade profilattribut i listrutan [!UICONTROL Recommendation Key] (till exempel [!UICONTROL Last Show Added to Watchlist]).
 
-1. Välj [!UICONTROL Recommendation Logic] (till exempel [!UICONTROL People Who Viewed This, Viewed That]).
+1. Välj din [!UICONTROL Recommendation Logic] (till exempel [!UICONTROL People Who Viewed This, Viewed That]).
 
    ![Dialogrutan Skapa nya villkor](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara [!DNL Recommendations] hur du vill att matchningen till en entitet ska ske.
+Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara för [!DNL Recommendations] hur du vill att matchningen till en entitet ska ske.
 
 Anta till exempel att du vill visa de mest säljande artiklarna från en användares favoritvarumärke.
 
-1. Välj ditt anpassade profilattribut i [!UICONTROL Recommendation Key] listrutan (till exempel [!UICONTROL Favorite Brand]).
+1. Välj ditt anpassade profilattribut i listrutan [!UICONTROL Recommendation Key] (till exempel [!UICONTROL Favorite Brand]).
 
-1. Markera den [!UICONTROL Recommendation Logic] som du vill använda med den här tangenten (till exempel [!UICONTROL Top Sellers]).
+1. Markera [!UICONTROL Recommendation Logic] som du vill använda med den här nyckeln (till exempel [!UICONTROL Top Sellers]).
 
    Alternativet [!UICONTROL Group By Unique Value Of] visas.
 
-1. Välj det entitetsattribut som matchar nyckeln som du har valt. I det här fallet [!UICONTROL Favorite Brand] matchar `entity.brand`.
+1. Välj det entitetsattribut som matchar nyckeln som du har valt. I det här fallet matchar [!UICONTROL Favorite Brand] `entity.brand`.
 
-   [!DNL Recommendations] skapar nu en&quot;Top Sellers&quot;-lista för varje varumärke och visar användaren rätt&quot;Top Sellers&quot;-lista baserat på värdet som lagras i [!UICONTROL Favorite Brand] profilattributet.
+   [!DNL Recommendations] skapar nu en&quot;Top Sellers&quot;-lista för varje varumärke och visar användaren rätt&quot;Top Sellers&quot;-lista baserat på det värde som lagras i  [!UICONTROL Favorite Brand] profilattributet.
 
    ![Attribut för bästsäljare](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
@@ -107,14 +107,14 @@ Du kan visa villkorsinformation på ett snabbkort genom att hålla muspekaren ö
 
 ![Villkorskortshovring](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
-Klicka på **[!UICONTROL Algorithm Info]** fliken för att visa allmän information om de valda villkoren, inklusive namn, beskrivningar, branschvertikal, sidtyp(er), rekommendationsnyckel, rekommendationslogik och algoritm-ID.
+Klicka på fliken **[!UICONTROL Algorithm Info]** för att visa allmän information om de valda villkoren, inklusive namn, beskrivningar, branschens lodräta format, sidtyp(er), rekommendationsnyckel, rekommendationslogik och algoritm-ID.
 
 ![Fliken Algoritminformation](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Klicka på **[!UICONTROL Algorithm Usage]** fliken för att visa en lista över aktiviteter som refererar till de valda villkoren. Kortet innehåller aktiva, inaktiva och utkastsaktiviteter. Klicka på listrutan Aktiva aktiviteter/Inaktiva aktiviteter/Utkastaktiviteter för att visa hela listan med aktiviteter som refererar till det villkoret. Du kan klicka på aktivitetslänken för att öppna aktiviteten för redigering.
+Klicka på fliken **[!UICONTROL Algorithm Usage]** för att visa en lista över aktiviteter som refererar till de valda villkoren. Kortet innehåller aktiva, inaktiva och utkastsaktiviteter. Klicka på listrutan Aktiva aktiviteter/Inaktiva aktiviteter/Utkastaktiviteter för att visa hela listan med aktiviteter som refererar till det villkoret. Du kan klicka på aktivitetslänken för att öppna aktiviteten för redigering.
 
 ![Fliken Algoritmanvändning](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->Den här [!UICONTROL Algorithm Usage] funktionen stöds för närvarande endast för Recommendations-aktiviteter. Den här funktionen stöds för närvarande inte för A/B-tester, autoallokering, automål och XT-aktiviteter (Experience Targeting) som innehåller [rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
+>Funktionen [!UICONTROL Algorithm Usage] stöds för närvarande endast för Recommendations-aktiviteter. Den här funktionen stöds för närvarande inte för A/B Test-, Auto-Allocate-, Auto-Target- och Experience Targeting-aktiviteter (XT) som innehåller [rekommendationer som ett erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
