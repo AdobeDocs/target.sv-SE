@@ -18,7 +18,7 @@ Blandat innehåll uppstår om både HTTPS-innehåll (säkert) *och* HTTP-innehå
 
 Nya webbläsare kan blockera visningen av en sida eller visa varningsmeddelanden om säkert innehåll blandas med osäkert innehåll.
 
-Om [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Target] försöker öppna en sida som innehåller blandat innehåll visas ett meddelande som visar hur du inaktiverar blockering i webbläsaren så att du kan öppna en HTTP-webbplats eller en plats med blandade anrop (HTTPS och HTTP).
+Om [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Target] försöker öppna en sida som innehåller blandat innehåll visas ett meddelande om hur du inaktiverar blockering i webbläsaren så att du kan öppna en HTTP-webbplats eller en plats med blandade anrop (HTTPS och HTTP).
 
 ![varning om blandat innehåll](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -46,7 +46,7 @@ Om du använder VEC med den senaste versionen av Chrome (version 79.0.3945.117 e
 
    ![Webbplatsinställningar](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Bläddra till **[!UICONTROL Insecure content]** och använd sedan listrutan för att ändra &quot;Blockera (standard)&quot; till &quot;Tillåt&quot;.
+1. Bläddra till **[!UICONTROL Insecure content]** och använd sedan listrutan för att ändra &quot;Block (standard)&quot; till &quot;Allow&quot;.
 
    ![Osäkert innehåll](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -54,18 +54,18 @@ Om du använder VEC med den senaste versionen av Chrome (version 79.0.3945.117 e
 
 ## Aktivera blandat innehåll i Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Som standard blockerar Firebox sidor som blandar säkert och osäkert innehåll. Du bör ändra den här inställningen permanent [!DNL Target]. Besökare på webbplatsen behöver inte utföra dessa steg.
+Som standard blockerar Firebox sidor som blandar säkert och osäkert innehåll. Du bör ändra den här inställningen permanent så att den använder [!DNL Target]. Besökare på webbplatsen behöver inte utföra dessa steg.
 
 1. I Firefox anger du `about:config` i adressfältet.
 1. Bekräfta varningsmeddelandet som visas av Firefox.
 
    ![Firefox-varning](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
-1. Skriv i sökfältet `block_active`.
+1. Skriv `block_active` i sökfältet.
 
    ![Aktiv inställning för Firefox-block](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
-1. Dubbelklicka ` **[!UICONTROL security.mixed_content.block_active_content]**` .
+1. Dubbelklicka på ` **[!UICONTROL security.mixed_content.block_active_content]**` .
 
    Värdet ändras från &quot;Sant&quot; till &quot;Falskt&quot;. När värdet visar &quot;Falskt&quot; är du klar.
 
@@ -83,7 +83,7 @@ Om du använder VEC med den senaste versionen av Edge måste du uppdatera platsi
 
    ![Webbplatsbehörigheter i Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. Bläddra till **[!UICONTROL Insecure content]** och använd sedan listrutan för att ändra &quot;Blockera (standard)&quot; till &quot;Tillåt&quot;.
+1. Bläddra till **[!UICONTROL Insecure content]** och använd sedan listrutan för att ändra &quot;Block (standard)&quot; till &quot;Allow&quot;.
 
    ![Osäkert innehåll](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
