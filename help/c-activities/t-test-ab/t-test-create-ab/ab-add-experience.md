@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Med Visual Experience Composer (VEC) får du ett visuellt gränssnitt där du kan lägga till och redigera upplevelser på sidan.
 
-Mer information om upplevelser finns i [Erfarenheter](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Mer information om upplevelser finns i [Upplevelser](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 1. Klicka på **[!UICONTROL Add Experience]**.
 
@@ -30,20 +30,20 @@ Mer information om upplevelser finns i [Erfarenheter](/help/c-experiences/experi
 
    När du håller muspekaren över elementen på sidan markeras elementen. Alla markerade element kan ändras med Experience Composer.
 
-   Om du skapade en [!DNL Target] begäran på sidan med Target Classic (tidigare Test&amp;Target), visas den [!DNL Target] begäran som ett element som visar begäransnamnet och kan ändras som vilket element som helst.
+   Om du skapade en [!DNL Target]-begäran på sidan med Target Classic (tidigare Test&amp;Target), visas [!DNL Target]-begäran som ett element som visar begäransnamnet och kan ändras som vilket element som helst.
 
-   En lista över åtgärder som kan utföras på ett element på den sida som visas för att ändra upplevelsen finns i Alternativ för [visuella Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   En lista över åtgärder som kan utföras på ett element på den sida som visas för att ändra upplevelsen finns i [Alternativ för visuell Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 
    >[!NOTE]
    >
    >Om du levererar en bild från en annan källa än din huvudsida (till exempel en bild som finns på akamai.net och som finns på dell.com) visas inte den bilden i miniatyrbilden för sidan som visas i flödesdiagrammet.
 
-1. Klicka **[!UICONTROL Save]** när du är klar med designen.
+1. Klicka på **[!UICONTROL Save]** när du är klar med att designa upplevelsen.
 
 ## Byt namn på upplevelsen
 
-Klicka på [!UICONTROL Rename Experience] ikonen för en upplevelse i en A/B-testaktivitet eller en XT-aktivitet (Experience Targeting) för att ge upplevelsen ett nytt namn.
+Klicka på ikonen [!UICONTROL Rename Experience] för en upplevelse i en A/B Test- eller Experience Targeting-aktivitet (XT) för att ge upplevelsen ett nytt namn.
 
 ![Byt namn på upplevelsen](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -83,17 +83,17 @@ Mer information finns i [Omdirigera till URL](/help/c-experiences/c-visual-exper
 
 Du kan kopiera en upplevelse i ett A/B-test så att du kan göra mindre ändringar i den utan att behöva skapa en helt ny upplevelse.
 
-På **[!UICONTROL Experiences]** sidan (det första steget i det guidade arbetsflödet i tre steg) klickar du på de tre lodräta ellipserna > **[!UICONTROL Duplicate]**.
+På sidan **[!UICONTROL Experiences]** (det första steget i det guidade arbetsflödet i tre steg) klickar du på de tre lodräta ellipserna > **[!UICONTROL Duplicate]**.
 
 ![Alternativet Duplicera upplevelse](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Ta bort en upplevelse
 
-På **[!UICONTROL Experiences]** sidan (det första steget i det guidade arbetsflödet i tre steg) klickar du på de tre lodräta ellipserna > **[!UICONTROL Duplicate]**.
+På sidan **[!UICONTROL Experiences]** (det första steget i det guidade arbetsflödet i tre steg) klickar du på de tre lodräta ellipserna > **[!UICONTROL Duplicate]**.
 
 ![Ta bort upplevelsealternativ](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Utbildningsvideo: Använda märket för ![självstudiekursen för Visual Experience Composer](/help/assets/tutorial.png)
+## Utbildningsvideo: Använda Visual Experience Composer ![självstudiemärke](/help/assets/tutorial.png)
 
 I videon nedan finns information om hur du använder alternativen för Visual Experience Composer. (7:17)
 
