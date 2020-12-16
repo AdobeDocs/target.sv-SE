@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Utbildningsvideor om Adobe Target Standard och Premium{#training-videos-for-adobe-target-standard-and-premium}
+# Utbildningsvideor för Adobe Target Standard och Premium{#training-videos-for-adobe-target-standard-and-premium}
 
 Se utbildningsvideor som hjälper dig att få ut mesta möjliga av Target Standard och Target Premium.
 
@@ -26,18 +26,18 @@ Videoklipp finns i följande kategorier:
 * Implementering och felsökning
 * Användningsexempel
 
-## Inbäddad i hjälpen för Adobe Target {#section_53C618334E974FB89B3F093DEF789CCB}
+## Inbäddad i Adobe Target Hjälp {#section_53C618334E974FB89B3F093DEF789CCB}
 
 Utbildningsvideor är inbäddade i relevanta ämnen i den här handboken. Klicka på videobilden för att spela upp videon utan att lämna hjälpen.
 
 ## Adobe Target - Tutorials och video
 
-En samling instruktionsvideor och självstudiekurser som visar vilka funktioner i Target som finns på [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) -sidan.
+En samling instruktionsvideor och självstudiekurser som visar vilka funktioner i Target som finns på sidan [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target).
 
 ![Experience League videor](/help/c-intro/assets/experience-league.png)
 
 ## Adobe Target Tutorials {#tutorials}
 
-Videopresentationer av [!DNL Target] koncept och verktyg finns på [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
+Videointroduktioner till [!DNL Target] koncept och verktyg finns på sidan [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
 
 ![Adobe Target Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
