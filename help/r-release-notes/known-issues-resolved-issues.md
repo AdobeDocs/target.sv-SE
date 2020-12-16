@@ -22,17 +22,17 @@ Information om kända fel för [!DNL Adobe Target]. Innehåller även informatio
 
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
-I följande avsnitt listas kända problem för [!DNL Target]:
+I följande avsnitt listas kända fel för [!DNL Target]:
 
 ### Analyser för målvärden (A4T) för aktiviteterna Automatisk fördelning och Automatisk målanpassning
 
-Det finns ett känt fel i [!DNL Target] användargränssnittet som gör att användare kan välja interaktions- och intäktsmått som inte stöds som det primära målmåttet för optimering av [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter. Konverteringsmått stöds. interaktions- och intäktsmått stöds *inte* . Om du väljer mått för engagemang eller intäktsmål kommer ingen optimeringsmodell att skapas (även om [!DNL Target] användargränssnittet tillåter att du väljer målvärden som inte stöds).
+Det finns ett känt fel i [!DNL Target]-gränssnittet som gör att användare kan välja interaktions- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter. Konverteringsmått stöds. Aktivitets- och intäktsmått stöds *inte*. Om du väljer mått för engagemang eller intäktsmål skapas ingen optimeringsmodell (även om användargränssnittet i [!DNL Target] tillåter att du väljer målvärden som inte stöds).
 
-En lista över målvärden som stöds och inte stöds finns i [Målmått](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) som stöds i *Skapa en aktivitet som använder Analytics som rapportkälla*. (TNT-38409)
+En lista över målmått som stöds och som inte stöds finns i [Målmått som stöds](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) i *Skapa en aktivitet som använder Analytics som rapportkälla*. (TNT-38409)
 
 ### Sidleverans {#page-delivery}
 
-Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) vid [sidleverans](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), läggs extra blanksteg till före reglerna. Detta är en kosmetisk fråga som inte påverkar målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35920)
+Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) i [sidleverans](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), läggs extra blanksteg till före reglerna. Detta är en kosmetisk fråga som inte påverkar målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35920)
 
 ### Länkar för QA-förhandsgranskning
 
@@ -51,17 +51,17 @@ Följande är kända problem med omdirigeringserbjudanden:
 
 ### Avbryt inläsning av en sida i VEC {#cancel}
 
-* Följande kända fel uppstår för närvarande när inläsningen av en [!UICONTROL A/B Test] - eller [!UICONTROL Experience Targeting] (XT)-aktivitet i VEC som innehåller en omdirigerings-URL avbryts.
+* Följande kända fel uppstår för närvarande när inläsningen av en [!UICONTROL A/B Test]- eller [!UICONTROL Experience Targeting]-aktivitet (XT) i VEC avbryts som innehåller en omdirigerings-URL.
 
-   När du avbryter sidinläsningen visas panelen i VEC i steg ett av de guidade arbetsflödena i tre delar och omdirigering till URL-mallen används på upplevelsen (till exempel &quot;Experience B&quot;). [!UICONTROL Modifications] När du går vidare till steg två eller tre och sedan går tillbaka till steg ett, inträffar följande situation.
+   När du avbryter sidinläsningen visas panelen [!UICONTROL Modifications] i VEC i steg ett av de guidade arbetsflödena i tre delar och omdirigeringen till URL-mallen används på upplevelsen (till exempel &quot;Experience B&quot;). När du går vidare till steg två eller tre och sedan går tillbaka till steg ett, inträffar följande situation.
 
-   I&quot;Experience B&quot; återges som standard den avbrutna mallen för webbplatsinläsning och panelen är tillgänglig, vilket inte bör vara fallet eftersom en omdirigering till URL-mallen används. [!UICONTROL Modifications] Omdirigering till URL-mallen ska visas.
+   I &quot;Experience B&quot; återges som standard den avbrutna webbplatsens inläsningsmall och panelen [!UICONTROL Modifications] är tillgänglig, vilket inte bör vara fallet eftersom en omdirigering till URL-mallen används. Omdirigering till URL-mallen ska visas.
 
    Så här visar du det korrekta tillståndet för upplevelsen i VEC:
 
-   Om du byter till en annan upplevelse och sedan växlar tillbaka till&quot;Experience B&quot; [!DNL Target] visas omdirigeringsmallen för URL som används på den här upplevelsen och [!UICONTROL Modifications] panelen är inte tillgänglig. (TGT-32138)
+   Om du växlar till en annan upplevelse och sedan växlar tillbaka till &quot;Experience B&quot; visar [!DNL Target] omdirigeringsmallen som används på den här upplevelsen och panelen [!UICONTROL Modifications] är inte tillgänglig. (TGT-32138)
 
-* Om du avbryter inläsningen för SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder under [!UICONTROL Modifications] panelen.
+* Om du avbryter inläsningen för SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder på panelen [!UICONTROL Modifications].
 
 ### Recommendations
 
@@ -83,8 +83,8 @@ I en MVT-aktivitet är vinnaren som visas i tabellen och diagrammet inte konsekv
 
 Följande är kända problem med at.js:
 
-* Om du använder version at.js före 2.2.0 rapporterar click tracking inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) av at.js om du får det här problemet.
-* Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-programmet [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) inte fungerar som det ska.
+* Om du använder version at.js före 2.2.0 rapporterar click tracking inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste at.js-versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) om du får det här problemet.
+* Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-filen [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) inte fungerar som den ska.
 
    Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet. (TNT-33366)
 
@@ -92,18 +92,18 @@ Följande är kända problem med at.js:
    >
    >En korrigering av problemet fanns i at.js 2.2.0. Du bör uppgradera till den [senaste versionen eller at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) eller bara använda den ovan nämnda lösningen för at.js-versioner tidigare än 2.2.0.
 
-* När en sida läses in i Visual Experience Composer (VEC) måste Target avgöra om den globala mbox-inställningen är aktiverad eller inaktiverad och om entityID eller categoryID finns på den plats där användaren försöker tillämpa rekommendationen i VEC. Baserat på denna information filtreras kriterielistan. Standardlistan innehåller filtrerade algoritmer, men med kryssrutan [](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) Kompatibel kan du visa hela listan med algoritmer.
+* När en sida läses in i Visual Experience Composer (VEC) måste Target avgöra om den globala mbox-inställningen är aktiverad eller inaktiverad och om entityID eller categoryID finns på den plats där användaren försöker tillämpa rekommendationen i VEC. Baserat på denna information filtreras kriterielistan. Standardlistan innehåller filtrerade algoritmer, men med kryssrutan [Kompatibel](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) kan du visa hela listan med algoritmer.
 
    När du använder at.js är kryssrutan Kompatibilitet dold, så du kan inte se inkompatibla algoritmer.
 
    Problemet gäller endast Recommendations-aktiviteter som använder VEC.
 
-   **Tillfällig lösning**: Inaktivera alternativet [!UICONTROL Filter Incompatible Criteria] i [!UICONTROL Recommendations > Settings]. När du har inaktiverat den här inställningen visas alla villkor (kompatibla och inkompatibla) i sökaren. (TGT-25949)
+   **Tillfällig lösning**: Inaktivera  [!UICONTROL Filter Incompatible Criteria] alternativet i  [!UICONTROL Recommendations > Settings]. När du har inaktiverat den här inställningen visas alla villkor (kompatibla och inkompatibla) i sökaren. (TGT-25949)
 
 * Mboxes som inte aktiveras i Microsoft Explorer 11-webbläsare efter uppgradering till at.js version 1.0 på grund av interaktionen mellan at.js och Visitor API 2.2.0. Problemet berör at.js version 0.9.6 och senare. (TNT-27600)
 * at.js kanske inte fungerar med Cordova/Hybrid-appar eftersom cookies från första part inte stöds i dem för närvarande. (TNT-26166)
 
-   **Tillfällig lösning**: Konfigurera at.js med alternativet&quot;x-only&quot; aktiverat och skicka `mboxThirdPartyId` in anrop för att hantera användare.
+   **Tillfällig lösning**: Konfigurera at.js med alternativet &quot;x-only&quot; aktiverat och skicka  `mboxThirdPartyId` in anrop för att hantera användare.
 
 ### Framgångsmått
 
@@ -113,7 +113,7 @@ När ett framgångsmått ställs in på att ökas för varje intryck räknas bes
 
 ### Analyser för mål (A4T)
 
-När du använder Target-aktivitetsuttryck och -konverteringar i Analysis Workspace ska du använda samma Touch-modell för mätvärdena för att säkerställa korrekt räkning. Om du vill använda en [icke-standardattribueringsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)högerklickar du på måttet för att **ändra kolumninställningar > aktivera Använd icke-standardattribueringsmodell > välj samma Touchmodell**. Om den här modellen inte används överskattas mätvärdena.
+När du använder Target-aktivitetsuttryck och -konverteringar i Analysis Workspace ska du använda samma Touch-modell för mätvärdena för att säkerställa korrekt räkning. Om du vill använda en [icke-standardattribueringsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) högerklickar du på måttet för att **ändra kolumninställningar > aktivera Använd icke-standardattribueringsmodell > välj samma Touch-modell**. Om den här modellen inte används överskattas mätvärdena.
 
 Alla aktuella Analytics-paket kan lägga till den här modellen med Attribution IQ. Om du inte har tillgång till Attribution IQ kan du lita på A4T-data i Rapporter och analyser.
 
@@ -129,7 +129,7 @@ Den 10 maj 2020 uppdaterade vi våra GEO-leverantörsfiler, som innehöll vissa 
 
 Rapporter som genererats för hämtning som CSV-filer är inkonsekventa om aktiviteten använder mer än ett mätvärde. Den hämtningsbara rapporten genereras endast baserat på rapportinställningarna och tar hänsyn till samma värde för andra mätvärden som används.
 
-Sanningens källa är alltid den rapport som visas i [!DNL Target] användargränssnittet.
+Sanningens källa är alltid den rapport som visas i [!DNL Target]-gränssnittet.
 
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -145,18 +145,18 @@ Detta har korrigerats i Target Standard/Premium 20.10.1.
 
 Följande problem relaterade till A4T har åtgärdats:
 
-* Ett problem som påverkade A4T-aktiviteter med hjälp av ett [!DNL Analytics] målmått som gjorde att A4T-rapporter visade en oväntad trafikdelning eller artificiellt uppblåsta konverteringar.
+* Ett problem som påverkade A4T-aktiviteter med ett [!DNL Analytics]-målmått som gjorde att A4T-rapporter visade en oväntad trafikdelning eller artificiellt uppblåsta konverteringar.
 
    Detta problem påverkade A4T-rapportering under följande förhållanden:
 
    * Aktiviteten skapades eller sparades mellan 15 september och 5 november 2020 (4:00 PST), och
-   * Aktiviteten hade ett [!DNL Analytics] mått valt som målmått.
+   * Aktiviteten hade ett [!DNL Analytics]-mått valt som målmått.
 
    [!DNL Target] korrekt uppdelad trafik under denna tid. En delning på 50/50 i aktivitetsinställningarna kan dock visas, till exempel som en delning på 90/10 i A4T-rapporter.
 
    För aktiviteter som påverkas är rätt trafikdelning synlig för förstagångsbesökare av aktiviteten efter 5 november (4.00 PST). Nya aktiviteter som skapats eller sparats efter den här tiden kommer att rapportera trafikuppdelningen korrekt.
 
-* Ett problem som påverkade A4T-aktiviteter med ett [!DNL Target] målmått som fick A4T-rapporter att rapportera låga eller inga konverteringar.
+* Ett problem som påverkade A4T-aktiviteter med ett [!DNL Target]-målmått som fick A4T-rapporter att rapportera låga eller inga konverteringar.
 
    >[!NOTE]
    >
@@ -165,8 +165,8 @@ Följande problem relaterade till A4T har åtgärdats:
    Detta problem påverkade A4T-rapportering under följande förhållanden:
 
    * A4T-aktiviteten var aktiv mellan 22 september och 11 november 2020 (2:30 PST) och
-   * Aktiviteten hade ett [!DNL Target] mätvärde valt som målmätvärde, och
-   * När en besökare når målhändelsen för aktiviteten (t.ex. [!UICONTROL Clicked an Element]) fanns det också en lägre prioritet för icke-A4T-aktivitet som matchade konverteringshändelsen. Detta kan inträffa om aktiviteten som inte är A4T antingen har konfigurerats med samma mått som A4T-aktiviteten eller om den har konfigurerats med &quot;any mbox&quot;-måttet.
+   * Aktiviteten hade ett [!DNL Target]-mått valt som målmått, och
+   * När en besökare når målhändelsen för aktiviteten (t.ex. [!UICONTROL Clicked an Element]), det fanns även en lägre prioritet för icke-A4T-aktivitet som matchade konverteringshändelsen. Detta kan inträffa om aktiviteten som inte är A4T antingen har konfigurerats med samma mått som A4T-aktiviteten eller om den har konfigurerats med &quot;any mbox&quot;-måttet.
 
    Detta problem påverkade rapporteringen av A4T-aktiviteter som var aktiva mellan 22 september och 11 november 2020 (2:30 PST). Rapportering för påverkade A4T-aktiviteter visar konverteringar korrekt utanför det här datumintervallet. Rapportering för icke-A4T-aktiviteter påverkades inte.
 
@@ -174,7 +174,7 @@ Om du har ytterligare frågor kan du kontakta din Customer Success Manager (CSM)
 
 ### Automatisk målrapportering {#at-metrics}
 
-Ett problem som påverkade [!DNL Adobe Target Premium] användarnas [!UICONTROL Auto-Target] rapportering har åtgärdats från och med 15 september 2:30. (PDT) till 6 oktober kl. 9.25. (PDT). När du visar rapporter om påverkad konverteringsstatistik (konfigurerad med antingen alternativet &quot;[!UICONTROL Viewed a page]&quot; eller &quot;[!UICONTROL Clicked on mbox]&quot;) rapporteras konverteringsgraden felaktigt. Det finns för närvarande inget känt leveransproblem.
+Ett problem som påverkade [!DNL Adobe Target Premium]-användarnas [!UICONTROL Auto-Target]-rapportering efter 15 september kl. 2:30 har åtgärdats. (PDT) till 6 oktober kl. 9.25. (PDT). När du visar rapporter för påverkad konverteringsstatistik (konfigurerad med antingen alternativet [!UICONTROL Viewed a page] eller [!UICONTROL Clicked on mbox]) rapporteras konverteringsgraden felaktigt. Det finns för närvarande inget känt leveransproblem.
 
 Så här synkroniserar du om och korrigerar din rapportering:
 
@@ -198,13 +198,13 @@ Om antalet konverteringar är inställt på ökning &quot;Vid varje intryck:&quo
 * Målgrupp: &quot;Alla kvalificerade besökare&quot; för konverteringar på besökarnivå ökar felaktigt bara en gång i stället för att öka varje gång. Detta är inte det förväntade beteendet.
 * Målgrupp: &quot;Nya besökare&quot; ökar antalet konverteringar på besökarnivå varje gång. Detta är det förväntade beteendet.
 
-Observera att det här problemet endast är relaterat till [!DNL Target] rapportering. Detta är inte något problem när [!UICONTROL Analytics for Target] (A4T)-rapportering används.
+Observera att det här problemet endast är relaterat till [!DNL Target]-rapportering. Detta är inte något problem när du använder [!UICONTROL Analytics for Target] (A4T)-rapportering.
 
 Problemet löstes.
 
 ### Sidor som inte läses in i Visual Experience Composer (VEC) eller Enhanced Experience Composer (EEC) när Google Chrome version 80+ används
 
-Det här kända problemet gäller Googles beslut att ändra standardbeteendet för cookies utan attributet SameSite från och med Chrome version 80. Innan ändringen av Chrome gjorde standardvärdet för alla cookies utan attributet SameSite till&quot;SameSite=None&quot;, och nu är standardvärdet&quot;SameSite=Lax&quot; och det här ändrar sättet på vilket cookies skickas vid GET- och POST-begäranden. Se [Uppdateringar](https://www.chromium.org/updates/same-site)för samma webbplats.
+Det här kända problemet gäller Googles beslut att ändra standardbeteendet för cookies utan attributet SameSite från och med Chrome version 80. Innan ändringen av Chrome gjorde standardvärdet för alla cookies utan attributet SameSite till&quot;SameSite=None&quot;, och nu är standardvärdet&quot;SameSite=Lax&quot; och det här ändrar sättet på vilket cookies skickas vid GET- och POST-begäranden. Se [Uppdateringar för samma plats](https://www.chromium.org/updates/same-site).
 
 Mer information och en korrigering finns i&quot;Hur påverkar den nyligen lanserade Google Chrome SameSite cookie-efterlevnadspolicyn VEC och EEC?&quot; i [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
@@ -216,27 +216,27 @@ Problemet har åtgärdats i version 19.7.1 av Target.
 
 ### mbox.js
 
-Biblioteket mbox.js har inte stöd för mallspråk på klientsidan, till exempel Handlebars och Mustache. At.js-biblioteket *stöder* dessa språk.
+Biblioteket mbox.js har inte stöd för mallspråk på klientsidan, till exempel Handlebars och Mustache. at.js-biblioteket *stöder* dessa språk.
 
 **Obs**: Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementering: Automatisk generering av global mbox
 
-På fliken Implementering ([!UICONTROL Administration > Implementation]) är [!UICONTROL Global Mbox Auto Create] fältet&quot;false&quot; som standard för en nyligen etablerad klientorganisation.
+På fliken Implementering ([!UICONTROL Administration > Implementation]) kommer fältet [!UICONTROL Global Mbox Auto Create] att vara &quot;false&quot; som standard för en nyligen etablerad klientorganisation.
 
-När mbox.js laddas ned för första gången efter etableringen ställs fältet in på &quot;true&quot; i den hämtade mbox.js-filen och i [!UICONTROL Global Mbox Auto Create] backend-filen, men det visas som &quot;false&quot; på [!DNL Target] [!UICONTROL Implementation] sidan i användargränssnittet tills sidan uppdateras (när sidan har uppdaterats blir statusen &quot;true&quot;).
+När mbox.js laddas ned för första gången efter etableringen är fältet [!UICONTROL Global Mbox Auto Create] inställt på &quot;true&quot; i den hämtade filen mbox.js och i [!DNL Target]-serverdelen, men det kommer att fortsätta visas som &quot;false&quot; på sidan [!UICONTROL Implementation] i användargränssnittet tills sidan uppdateras (när sidan har uppdaterats blir statusen &quot;true&quot;.)
 
-at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad klientorganisation. Om mbox.js laddas ned först laddas även global\_mbox\_autocreate is set to &quot;true&quot; och at.js ned `global_mbox_autocreate = true`. (TGT-15929)
+at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad klientorganisation. Om mbox.js laddas ned först laddas även global\_mbox\_autocreate is set to &quot;true&quot; och at.js ned med `global_mbox_autocreate = true`. (TGT-15929)
 
-### Stöd för Enterprise Permissions i mål-API:er {#api}
+### Stöd för företagsbehörigheter i mål-API:er {#api}
 
-Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
+Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Det här problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
 
 ### Rapportering och extrema order
 
 Från 25 november 2019 till 26 april 2020 uppstod ett problem på en målserver som ledde till att extrema ordervärden räknades in i intäktsbaserade rapportvärden (AOV, RPV). Från 19 december 2019 till 23 april 2020 har en annan server drabbats av samma problem. Problemet påverkade inte alla Target-servrar eller alla Target-kunder.
 
-Du påverkades *inte* om:
+Du har *inte* påverkats om:
 
 * Målimplementeringen använder olika servrar.
 * Dina rapporter uteslöt inte extrema order.
@@ -244,7 +244,7 @@ Du påverkades *inte* om:
 * Dina målaktiviteter använder Analytics för Target (A4T).
 * Du bor i Asien-Stillahavsområdet (APAC).
 
-Om du vill ta reda på om problemet påverkade målrapporteringen kan du kontakta [kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+Om du vill ta reda på om det här problemet påverkar målrapporteringen kan du kontakta [kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
