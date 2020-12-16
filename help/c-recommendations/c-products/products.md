@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -entiteter{#entities}
+# ![](/help/assets/premium.png) PREMIUMEntities{#entities}
 
 Enheter refererar till de objekt som du vill rekommendera. Enheter kan vara vad som helst, t.ex. produkter, innehåll (t.ex. artiklar, bildspel, bilder, filmer och tv-program), jobblistor, restauranger osv.
 
