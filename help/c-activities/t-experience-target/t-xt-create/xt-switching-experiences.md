@@ -30,10 +30,10 @@ Med Experience Targeting kan ni styra vilka upplevelsebesökare ser när deras p
 |--- |--- |
 | Geografisk plats | När besökare reser för företag eller nöjes skull kan de se din webbplats eller mobilapp från olika geografiska platser. |
 | Kundstatus | Besökare kan betraktas som potentiella kunder innan de skapar ett konto eller köper en produkt. |
-| Kategoritillhörighet | Funktionen för [kategoritillhörighet](/help/c-target/c-visitor-profile/category-affinity.md) i Target samlar automatiskt in de kategorier som användarna besöker och beräknar sedan användarens tillhörighet för kategorin för målsyften. Besökare som har visat flera artiklar på din webbplats om ett visst ämne kan till exempel få innehåll som är relaterat till det ämnet. |
-| Veckodag | När helgen närmar sig kanske du vill visa besökarna innehåll om filmer, matningar eller andra former av underhållning. |
+| Kategoritillhörighet | Funktionen [kategoritillhörighet](/help/c-target/c-visitor-profile/category-affinity.md) i Target fångar automatiskt de kategorier som användare besöker och beräknar sedan användarens tillhörighet för kategorin för målsyften. Besökare som har visat flera artiklar på din webbplats om ett visst ämne kan till exempel få innehåll som är relaterat till det ämnet. |
+| Veckodag | När helgen närmar sig kanske du vill visa besökarna innehåll om filmer, matning eller andra former av underhållning. |
 
-Om du vill utnyttja de här funktionerna i [!DNL Target]är det viktigt att du förstår följande information när du arbetar med XT-aktiviteter:
+Om du vill utnyttja de här funktionerna i [!DNL Target] är det viktigt att du förstår följande information när du arbetar med XT-aktiviteter:
 
 * **Prioriteten styrs av upplevelseordningen, uppifrån och ned.** Om en besökare kvalificerar sig för fler än två målgrupper får han eller hon innehåll från upplevelsen med högre prioritet.
 * **Besökarna kommer att växla mellan upplevelserna i en XT-aktivitet om de börjar kvalificera sig för en upplevelse med högre prioritet.**
@@ -49,7 +49,7 @@ Om du vill utnyttja de här funktionerna i [!DNL Target]är det viktigt att du f
 
    ![Prioritet US > Tyskland](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **En upplevelse som är inriktad på&quot;Alla besökare&quot; kan användas som den sista upplevelsen i aktiviteten för målinriktning av upplevelser för att&quot;fånga&quot; besökare som inte har hamnat i någon annan upplevelse. Om en upplevelse som är inriktad på&quot;Alla besökare&quot; inte är den sista i ordningen kommer andra målinriktade upplevelser som är listade under den här upplevelsen fortfarande att utvärderas.**
+* **En upplevelse som är inriktad på&quot;Alla besökare&quot; kan användas som den sista upplevelsen i aktiviteten för målinriktning av upplevelser för att&quot;fånga&quot; besökare som inte har hamnat i någon annan upplevelse. Om en upplevelse som är inriktad på&quot;Alla besökare&quot; inte är den sista i ordningen utvärderas även andra målupplevelser som är lägre än den här upplevelsen.**
 
    I följande aktivitetskonfiguration besökte en besökare din webbplats från USA och reste sedan till Tyskland och besökte din webbplats en andra gång. Under det första besöket var denna besökare kvalificerad för Experience A (amerikanska besökare). När du har tittat på din webbplats från Tyskland finns besökaren kvar i Experience A (amerikanska besökare).
 
