@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Platsavgiftsrapport{#location-contribution-report-mvt}
+# Platsbidragsrapport (MVT){#location-contribution-report-mvt}
 
 Platsbidragsrapporten visar resultatet för varje element och varje erbjudande.
 
@@ -32,7 +32,7 @@ Den andra tabellen innehåller en rapport på erbjudandenivå. Den visar konvert
 
 ![](assets/locationcontributionbottom.png)
 
-## Utbildningsvideo: Skapa ett MVT Test ![Tutorial-märke](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa ett MVT-test ![Självstudiekurs](/help/assets/tutorial.png)
 
 I den här videon visas hur du skapar ett multivariata test med det guidade arbetsflödet i tre steg för Target. Platsbidragsrapporten beskrivs från och med 08:45.
 
