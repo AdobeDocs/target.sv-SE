@@ -6,15 +6,15 @@ feature: criteria
 translation-type: tm+mt
 source-git-commit: f8311dbc91b74977a11dc9b97a70465ab4493b93
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) - statiskt filter
+# ![](/help/assets/premium.png) PREMIUMStatic-filter
 
-Ange manuellt ett eller flera statiska värden som du vill filtrera med inkluderingsregler i [!DNL Adobe Target] [!DNL Recommendations].
+Ange manuellt ett eller flera statiska värden som ska filtreras med inkluderingsregler i [!DNL Adobe Target] [!DNL Recommendations].
 
 Rekommendera t.ex. endast innehåll med graderingen &quot;G&quot; eller &quot;PG&quot; i Motion Picture Association (MPA).
 
