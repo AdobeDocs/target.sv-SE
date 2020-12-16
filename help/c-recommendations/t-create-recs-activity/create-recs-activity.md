@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Skapa en Recommendations-aktivitet{#create-a-recommendations-activity}
+# ![](/help/assets/premium.png) PREMIUMCkapa en Recommendations-aktivitet{#create-a-recommendations-activity}
 
 Använd Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
 
@@ -20,33 +20,33 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    ![Skapa Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
-1. Välj **[!UICONTROL Visual (Default)]** vid behov.
+1. Välj **[!UICONTROL Visual (Default)]** om det behövs.
 
    ![Skapa Recommendations Activity (dialogruta)](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
-   Om du föredrar att använda formulärbaserad Experience Composer väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) .
+   Om du föredrar att använda den formulärbaserade Experience Composer väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Förutom VEC och Form-Based Experience Composer erbjuder Target Single Page Application VEC och VEC for Mobile Apps. Mer information om de olika dispositionerna finns i [Erfarenheter och erbjudanden](/help/c-experiences/experiences.md).
+   >Förutom VEC och Form-Based Experience Composer erbjuder Target Single Page Application VEC och VEC for Mobile Apps. Mer information om de olika dispositionerna finns i [Upplevelser och erbjudanden](/help/c-experiences/experiences.md).
    >
-   >Felsökningsinformation om VEC finns i [Felsökning i Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)om det uppstår problem.
+   >Felsökningsinformation om VEC finns i [Felsöka Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) om du har problem.
    >
-   >Alternativet [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md) -funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
+   >Alternativet [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/c-intro/intro.md)-funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
 
-1. (Villkorligt) Om du är [Target Premium-kund](/help/c-intro/intro.md#premium)väljer du en [arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Villkorligt) Om du är [målPremium-kund](/help/c-intro/intro.md#premium) väljer du en [arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Ange en aktivitets-URL och klicka sedan på **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
-   >[!DNL Target] skiljer inte mellan URL-protokoll ( [!DNL https] och [!DNL http]). Resultatet blir att [!DNL `http://www.adobe.com`] och [!DNL `https://wwww.adobe.com`] båda matchar.
+   >[!DNL Target] skiljer inte mellan URL-protokoll (  [!DNL https] och  [!DNL http]). Därför matchar både [!DNL `http://www.adobe.com`] och [!DNL `https://wwww.adobe.com`].
 
    Aktivitets-URL är den sida där rekommendationerna visas.
 
-   När du klickar [!UICONTROL Next]öppnas VEC och sidan visas. Du kan ersätta ett aktuellt element med rekommendationer eller infoga rekommendationer.
+   När du klickar på [!UICONTROL Next] öppnas VEC och sidan visas. Du kan ersätta ett aktuellt element med rekommendationer eller infoga rekommendationer.
 
-1. Klicka på ett element på sidan och om det finns rekommendationer för var elementet finns klickar du på **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** eller **[!UICONTROL Insert Recommendations After]**.
+1. Klicka på ett element på sidan. Om det finns rekommendationer för var elementet finns klickar du på **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** eller **[!UICONTROL Insert Recommendations After]**.
 
    Besökare på webbplatsen kan bara se det rekommenderade innehållet om de är berättigade till rekommendationen. Besökare som inte är kvalificerade för rekommendationen kommer att se standardinnehållet.
 
@@ -56,7 +56,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
    * **[!UICONTROL Insert Recommendations Before]**: Om du infogar rekommendationer före det markerade elementet placeras det rekommenderade innehållet före det elementet. Beroende på hur sidan är uppbyggd visas rekommendationen ovanför eller till vänster om det markerade elementet.
    * **[!UICONTROL Insert Recommendations After]**: Om du infogar rekommendationer efter det markerade elementet placeras det rekommenderade innehållet efter det elementet. Beroende på hur sidan är uppbyggd visas rekommendationen nedanför eller till höger om det markerade elementet.
 
-   Med det här **[!UICONTROL Expand Selection]** alternativet kan du expandera den valda platsen (överordnad behållare) så att du enklare kan identifiera och ta med de önskade sidelementen.
+   Med alternativet **[!UICONTROL Expand Selection]** kan du expandera den valda platsen (överordnad behållare) så att du enklare kan identifiera och ta med de önskade sidelementen.
 
 1. Välj en sidtyp.
 
@@ -73,24 +73,24 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    ![Välj alternativ för sidtyp](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-1. Markera ett eller flera [villkor](/help/c-recommendations/c-algorithms/algorithms.md).
+1. Välj ett eller flera [villkor](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Kriterierna visas som kort som visar information om varje villkor. Som standard visas villkor som är kompatibla med vertikalt i branschen och den sidtyp som du valde i föregående steg på skärmen. [!UICONTROL Select Criteria] Du kan ändra de här alternativen om du vill visa andra villkor.
+   Kriterierna visas som kort som visar information om varje villkor. Som standard visar skärmen [!UICONTROL Select Criteria] villkor som är kompatibla med vertikala inställningar i branschen och sidtypen som du valde i föregående steg. Du kan ändra de här alternativen om du vill visa andra villkor.
 
    >[!NOTE]
    >
-   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för att aktuella artikel/aktuella kategorirekommendationer ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du **[!UICONTROL Compatible]** kryssrutan. Det [!UICONTROL Compatible] här alternativet kanske inte visas beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller rutan måste skickas i `entity.id` eller `entity.categoryId` för att aktuella rekommendationer för objekt/aktuell kategori ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du kryssrutan **[!UICONTROL Compatible]**. Alternativet [!UICONTROL Compatible] kanske inte visas beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![Välj villkor, dialogruta](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    Om du väljer flera villkor delas trafiken jämnt mellan de valda villkoren. Om du till exempel har valt två villkor och din aktivitet är utformad för att visa standardinnehåll för 20 % av aktivitetsinspelarna, så ser 40 % av aktivitetsinspelarna rekommendationerna som styrs av respektive villkor. Det finns inget alternativ för att ändra procentsatserna för varje villkor.
 
-   * Om du vill söka efter ett befintligt villkor (t.ex. om ett stort antal villkorskort visas) skriver du i sökfältet tills det önskade villkoret visas, markerar villkoret och klickar sedan på **[!UICONTROL Next]**.
+   * Om du vill söka efter ett befintligt villkor (till exempel om ett stort antal villkorskort visas) skriver du in sökfältet tills det önskade villkoret visas, markerar villkoret och klickar sedan på **[!UICONTROL Next]**.
 
-      Vissa villkor ingår [!DNL Recommendations]. Du och ditt team kan också skapa egna kriterier.
+      Vissa villkor ingår i [!DNL Recommendations]. Du och ditt team kan också skapa egna kriterier.
 
-   * Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Du kan också gruppera villkor i sekvenser. Om du vill skapa en ny villkorssekvens klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Mer information finns i [Skapa villkorssekvens](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) .
+   * Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för de nya villkoren. Mer information om hur du skapar nya villkor finns i [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Du kan också gruppera villkor i sekvenser. Om du vill skapa en ny villkorssekvens klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Mer information finns i [Skapa villkorssekvens](/help/c-recommendations/c-algorithms/create-criteria-sequence.md).
 
 1. Klicka på **[!UICONTROL Next]**.
 1. Välj en [design](/help/c-recommendations/c-design-overview/design-overview.md).
@@ -105,17 +105,17 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
       Om du har valt flera villkor kan du bara välja en design.
 
-   * Om du vill skapa en egen design klickar du på **[!UICONTROL Create Design]** och fyller sedan i namnet och koden för den nya designen. Klicka **[!UICONTROL Next]**, markera eller överför en bild och klicka på **[!UICONTROL Done]** > **[!UICONTROL Done]**. Mer information om hur du skapar en ny design finns i [Skapa en design](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Om du vill skapa en anpassad design klickar du på **[!UICONTROL Create Design]** och fyller i namnet och koden för den nya designen. Klicka på **[!UICONTROL Next]**, markera eller överför en bild och klicka på **[!UICONTROL Done]** > **[!UICONTROL Done]**. Mer information om hur du skapar en ny design finns i [Skapa en design](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klicka på **[!UICONTROL Next]**.
 
-   Du kan lägga till kampanjer i dina rekommendationer. Mer information om att lägga till kampanjer framför och under finns i [Lägga till kampanjer](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Du kan lägga till kampanjer i dina rekommendationer. Mer information om hur du lägger till reklam för både fram- och baksida finns i [Lägga till kampanjer](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klicka på **[!UICONTROL Save]**.
 
    VEC-skärmen visar rekommendationsdesignen på din sida.
 
-1. (Valfritt) Klicka **[!UICONTROL Preview]** för att se hur aktiviteten kommer att se ut för besökarna.
+1. (Valfritt) Klicka på **[!UICONTROL Preview]** för att se hur aktiviteten kommer att se ut för besökarna.
 
    [!UICONTROL Preview] Med det här läget kan du interagera med dina rekommendationer, precis som en besökare skulle göra.
 
@@ -123,7 +123,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
 1. Granska din rekommendation i VEC och klicka sedan på **[!UICONTROL Next]**.
 
-1. Granska din [!DNL Recommendations] aktivitet i flödesdiagrammet och gör nödvändiga ändringar.
+1. Granska din [!DNL Recommendations]-aktivitet i flödesdiagrammet och gör nödvändiga ändringar.
 
    ![Recommendations-flödesdiagram](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
@@ -135,32 +135,32 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
       >[!NOTE]
       >
-      >Förutom att välja en befintlig målgrupp kan ni [skapa en målgrupp](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) som bara är aktiv eller [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp.
+      >Förutom att välja en befintlig målgrupp kan du [skapa en målgrupp med endast aktivitet](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) eller [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp.
 
       Som standard ser alla användare rekommendationerna. Men ni kan rikta rekommendationen till en viss målgrupp.
 
-      För en [!DNL Recommendations] aktivitet ser kontrollgruppen sidan utan några rekommendationer.
+      För en [!DNL Recommendations]-aktivitet ser kontrollgruppen sidan utan några rekommendationer.
 
    * Visa villkoren
-   * Ändra samlingen (bredvid [!UICONTROL Criteria] etiketten)
+   * Ändra samlingen (bredvid etiketten [!UICONTROL Criteria])
    * Ändra procentandelen deltagare som ser kontrollupplevelsen
    * Visa designkoden
    * Ändra eller ta bort en design
 
-1. Klicka **[!UICONTROL Next]** när du är klar.
+1. Klicka på **[!UICONTROL Next]** när du är klar.
 1. Ange dina aktivitetsinställningar.
 
-   Skriv till exempel ett namn (obligatoriskt) och mål (valfritt) för aktiviteten. Mer information om inställningarna finns i [Recommendations aktivitetsinställningar](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Skriv till exempel ett namn (obligatoriskt) och mål (valfritt) för aktiviteten. Mer information om inställningarna finns i [Recommendations Activity Settings](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >
-   >Om du anger ett [!DNL Recommendation] aktivitetsnamn som redan finns för en annan aktivitet i [!DNL Recommendations Classic]synkroniseras den nya aktiviteten med ett nytt namn. Det nya namnet är det ursprungliga namnet som har lagts till med en tidsstämpel för att göra det unikt. Det nya namnet visas både i [!DNL Target Standard/Premium] och [!DNL Recommendations Classic].
+   >Om du anger ett [!DNL Recommendation]-aktivitetsnamn som redan finns för en annan aktivitet i [!DNL Recommendations Classic] synkroniseras den nya aktiviteten med ett nytt namn. Det nya namnet är det ursprungliga namnet som har lagts till med en tidsstämpel för att göra det unikt. Det nya namnet visas både i [!DNL Target Standard/Premium] och [!DNL Recommendations Classic].
 
 1. När du är klar klickar du på **[!UICONTROL Save & Close]**.
 
    En översikt över din aktivitet visas.
 
-   Från [!UICONTROL Overview] sidan kan du:
+   På sidan [!UICONTROL Overview] kan du:
 
    * Aktivera aktiviteten
    * Redigera aktiviteten
@@ -172,12 +172,12 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
    * Visa eller dölja villkorsinformation
    * Visa koden för dina designer
 
-1. (Valfritt) Öppna [!UICONTROL Reports] sidan om du vill visa rapporten som visar hur din [!DNL Recommendations] aktivitet fungerar.
+1. (Valfritt) Öppna sidan [!UICONTROL Reports] om du vill visa rapporten som visar prestanda för din [!DNL Recommendations]-aktivitet.
 
-1. (Valfritt) Öppna [!UICONTROL Collisions] sidan om du vill visa [aktivitetskonflikter](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) som kan uppstå.
+1. (Valfritt) Öppna sidan [!UICONTROL Collisions] om du vill visa de [aktivitetskonflikter](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) som kan inträffa.
 
    Aktivitetskonflikter inträffar när flera aktiviteter är inställda på att leverera innehåll till samma sida, vilket kan göra att oväntat innehåll visas.
 
-## Utbildningsvideo: Skapa en Recommendations-aktivitet (7:15) - ![självstudiemärke](/help/assets/tutorial.png)
+## Utbildningsvideo: Skapa en Recommendations-aktivitet (7:15) ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
