@@ -18,15 +18,15 @@ Publiken avgör vilka besökare som läggs in i din aktivitet.
 
 >[!NOTE]
 >
->Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera publiker](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+>Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-Klicka på ikonen Redigera (tre lodräta ellipser) i [!UICONTROL Audience] rutan och klicka sedan på **[!UICONTROL Replace Audience]**.
+I rutan [!UICONTROL Audience] klickar du på ikonen Redigera (tre lodräta ellipser) och sedan på **[!UICONTROL Replace Audience]**.
 
 ![Alternativet Ersätt publik](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Målgrupper väljs ut från målgruppsbiblioteket eller så kan du skapa en målgrupp som bara är aktiv. Målgruppsbiblioteket innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är färdigbyggda som en del av Target. Du kan välja en målgrupp i biblioteket, [skapa en ny målgrupp](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)eller [skapa en målgrupp](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)som bara innehåller aktiviteter. För ett A/B-test utan specifik målgruppsanpassning väljer du standardinställningen Alla besökare.
+Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Målgrupper väljs ut från målgruppsbiblioteket eller så kan du skapa en målgrupp som bara är aktiv. Målgruppsbiblioteket innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är färdigbyggda som en del av Target. Du kan välja en målgrupp i biblioteket, [skapa en ny målgrupp](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) eller [skapa en målgrupp med endast aktivitet](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). För ett A/B-test utan specifik målgruppsanpassning väljer du standardinställningen Alla besökare.
 
-Observera att du även kan redigera eller kopiera en målgrupp genom att hålla markören över den önskade målgruppen i [!UICONTROL Choose Audience] dialogrutan, vilket visas nedan. Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringar och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
+Observera att du även kan redigera eller kopiera en målgrupp genom att hålla markören över den önskade målgruppen i dialogrutan [!UICONTROL Choose Audience], vilket visas nedan. Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringar och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
 
 ![Målgruppshovring](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
@@ -48,7 +48,7 @@ Du kan också välja att låta Target [tilldela trafik automatiskt](/help/c-acti
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Using Audiences in Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
+### Använda målgrupper i Adobe Target (6:21) ![Översikt](/help/assets/overview.png)
 
 I den här videon förklaras hur du använder målgrupper i [!DNL Target Standard/Premium].
 
@@ -60,7 +60,7 @@ I den här videon förklaras hur du använder målgrupper i [!DNL Target Standar
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Aktivitetsarbetsflöde - Målinriktning (2:14) ![självstudiemärke](/help/assets/tutorial.png)
+### Aktivitetsarbetsflöde - Målinriktning (2:14) ![Självstudiekurs](/help/assets/tutorial.png)
 
 Den här videon innehåller information om hur du konfigurerar målgrupper.
 
