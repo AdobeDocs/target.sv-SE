@@ -22,9 +22,9 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
 1. Avgör listan med värdnamn som du behöver för ditt SSL-certifikat (se Vanliga frågor och svar).
 
-1. För varje värdnamn skapar du en CNAME-post i din DNS som pekar på ditt vanliga [!DNL Target] värdnamn `clientcode.tt.omtrdc.net`.
+1. För varje värdnamn skapar du en CNAME-post i din DNS som pekar på det vanliga [!DNL Target] värdnamnet `clientcode.tt.omtrdc.net`.
 
-   Om klientkoden till exempel är &quot;namnkund&quot; och det värdnamn som föreslås är `target.example.com`, bör din DNS CNAME-post se ut ungefär så här:
+   Om klientkoden till exempel är &quot;namnkund&quot; och det föreslagna värdnamnet är `target.example.com`, ska DNS CNAME-posten se ut ungefär så här:
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -34,9 +34,9 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
    >
    >AdobeCertificateAuthority, DigiCert, kan inte utfärda ett certifikat förrän det här steget har slutförts. Därför kan Adobe inte uppfylla din begäran om CNAME-implementering förrän det här steget är klart.
 
-1. [Fyll i det här formuläret](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) och inkludera det när du [öppnar en Adobe Client Care-biljett som begär CNAME-stöd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Fyll i det här ](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) formuläret och inkludera det när du  [öppnar en Adobe Client Care-biljett som begär CNAME-stöd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe [!DNL Target] -klientkod:
+   * Adobe [!DNL Target] klientkod:
    * Värdnamn för SSL-certifikat (exempel: `target.example.com target.example.org`):
    * Inköpare av SSL-certifikat (Adobe rekommenderas starkt, se Vanliga frågor och svar): Adobe/kund
    * Om kunden köper certifikatet (även kallat BYOC), fyll i dessa ytterligare uppgifter:
@@ -52,7 +52,7 @@ Utför följande steg för att begära CNAME-stöd i [!DNL Target]:
 
    Adobe Client Care meddelar dig när implementeringen är klar.
 
-1. När du har slutfört de föregående åtgärderna och Adobe Client Care har meddelat dig att implementeringen är klar, måste du uppdatera `serverDomain` till nya CNAME i at.js.
+1. När du har slutfört de föregående åtgärderna och Adobe Client Care har meddelat dig att implementeringen är klar, måste du uppdatera `serverDomain` till den nya CNAME-filen i at.js.
 
 ## Vanliga frågor
 
@@ -60,21 +60,21 @@ Följande information besvarar vanliga frågor om att begära och implementera C
 
 ### Kan jag tillhandahålla mitt eget certifikat (även&quot;insert-your-own-certificate&quot; eller&quot;BYOC&quot;)?
 
-Ja, du kan ange ett eget certifikat; rekommenderas dock inte. Hanteringen av SSL-certifikatets livscykel är mycket enklare för både Adobe och dig när Adobe köper och kontrollerar certifikatet. SSL-certifikaten måste förnyas varje år, vilket innebär att Adobe Client Care måste kontakta dig varje år för att skicka ett nytt certifikat till Adobe i tid. Vissa kunder kan få svårt att producera ett förnyat certifikat varje år, vilket äventyrar deras [!DNL Target] implementering eftersom webbläsare kommer att neka anslutningar när certifikatet upphör att gälla.
+Ja, du kan ange ett eget certifikat; rekommenderas dock inte. Hanteringen av SSL-certifikatets livscykel är mycket enklare för både Adobe och dig när Adobe köper och kontrollerar certifikatet. SSL-certifikaten måste förnyas varje år, vilket innebär att Adobe Client Care måste kontakta dig varje år för att skicka ett nytt certifikat till Adobe i tid. Vissa kunder kan få problem med att skapa ett förnyat certifikat i tid varje år, vilket äventyrar deras [!DNL Target]-implementering eftersom webbläsare kommer att neka anslutningar när certifikatet upphör att gälla.
 
 >[!IMPORTANT]
 >
->Tänk på att om du begär en CNAME-implementering med [!DNL Target] egna certifikat ansvarar du för att ge förnyade certifikat till Adobe Client Care varje år. Om du tillåter att ditt CNAME-certifikat upphör att gälla innan Adobe kan distribuera ett förnyat certifikat kommer det att resultera i ett driftavbrott för din specifika [!DNL Target] implementering.
+>Tänk på att om du begär en [!DNL Target]-implementering av ditt eget certifikat för CNAME ansvarar du för att ge förnyade certifikat till Adobe Client Care varje år. Om du tillåter att ditt CNAME-certifikat upphör att gälla innan Adobe kan distribuera ett förnyat certifikat kommer det att resultera i ett driftavbrott för din specifika [!DNL Target]-implementering.
 
 ### Hur länge till mitt nya SSL-certifikat upphör att gälla?
 
-Certifikat som utfärdats före den 1 september 2020 är tvååriga certifikat. Certifikat som utfärdas den 1 september 2020 eller senare kommer att vara ettåriga certifikat. Du kan läsa mer om övergången till ettårscertifikat [här](https://www.digicert.com/position-on-1-year-certificates).
+Certifikat som utfärdats före den 1 september 2020 är tvååriga certifikat. Certifikat som utfärdas den 1 september 2020 eller senare kommer att vara ettåriga certifikat. Du kan läsa mer om flytten till ettårscertifikat [här](https://www.digicert.com/position-on-1-year-certificates).
 
 ### Vilka värdnamn ska jag välja? Hur många värdnamn per domän ska jag välja?
 
 [!DNL Target] CNAME-implementeringar kräver bara ett värdnamn per domän i SSL-certifikatet och i kundens DNS, så det är vad vi rekommenderar. Vissa kunder kan behöva ytterligare värdnamn per domän för sina egna syften (till exempel testning i mellanlagring), vilket stöds.
 
-De flesta kunder väljer ett värdnamn som `target.example.com`det, så det är vad vi rekommenderar, men valet är i slutändan ditt. Var noga med att inte begära ett värdnamn för en befintlig DNS-post, eftersom det skulle orsaka en konflikt och fördröja matchningen av din [!DNL Target] CNAME-begäran.
+De flesta kunder väljer ett värdnamn som `target.example.com`, så det är vad vi rekommenderar, men valet är i slutändan ditt. Var noga med att inte begära ett värdnamn för en befintlig DNS-post, eftersom det skulle orsaka en konflikt och fördröja matchningen av din [!DNL Target] CNAME-begäran.
 
 ### Jag har redan en CNAME-implementering för [!DNL Adobe Analytics], kan vi använda samma certifikat eller värdnamn?
 
@@ -82,7 +82,7 @@ Nej, [!DNL Target] kräver ett separat värdnamn och certifikat.
 
 ### Påverkas min nuvarande implementering av Target av ITP 2.x?
 
-I en Safari-webbläsare navigerar du till den webbplats där du har ett Target JavaScript-bibliotek. Om du ser en Target-cookie som angetts i samband med en CNAME, till exempel `analytics.company.com`, påverkas du inte av ITP 2.x.
+I en Safari-webbläsare navigerar du till den webbplats där du har ett Target JavaScript-bibliotek. Om du ser en Target-cookie som angetts i kontexten för en CNAME, till exempel `analytics.company.com`, påverkas du inte av ITP 2.x.
 
 ITP-problem kan lösas för Target med bara en CNAME för analys. Du behöver bara ett separat mål-CNAME om det gäller annonsblockerande scenarier där Target är blockerat.
 
@@ -90,7 +90,7 @@ Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x]
 
 ### Vilken typ av tjänstavbrott kan jag förvänta mig när CNAME-implementeringen distribueras?
 
-Det uppstår inga avbrott i tjänsten när certifikatet distribueras (inklusive certifikatförnyelse). När du ändrar värdnamnet i din [!DNL Target] implementeringskod (`serverDomain` i at.js) till det nya CNAME-värdnamnet (`target.example.com`), kommer webbläsare att behandla återkommande besökare som nya besökare och deras profildata kommer att gå förlorade eftersom den tidigare cookien inte är tillgänglig under det gamla värdnamnet (`clientcode.tt.omtrdc.net`) på grund av säkerhetsmodeller i webbläsaren. Detta är en engångsavbrott endast på den initiala brytningen till den nya CNAME. Certifikatförnyelser har inte samma effekt eftersom värdnamnet inte ändras.
+Det uppstår inga avbrott i tjänsten när certifikatet distribueras (inklusive certifikatförnyelse). När du ändrar värdnamnet i [!DNL Target]-implementeringskoden (`serverDomain` in at.js) till det nya CNAME-värdnamnet (`target.example.com`), kommer webbläsare att behandla återkommande besökare som nya och deras profildata kommer att gå förlorade eftersom den föregående cookien inte är tillgänglig under det gamla värdnamnet (`clientcode.tt.omtrdc.net`) på grund av webbläsarsäkerhetsmodeller. Detta är en engångsavbrott endast på den initiala brytningen till den nya CNAME. Certifikatförnyelser har inte samma effekt eftersom värdnamnet inte ändras.
 
 ### Vilken nyckeltyp och certifikatsignaturalgoritm kommer att användas för min CNAME-implementering?
 
@@ -117,7 +117,7 @@ Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradstermina
    validateEdgeFpsslSni target.example.com
    ```
 
-   Om implementeringen är klar bör du se utdata som nedan. Den viktiga delen är att alla rader visas, `CN=target.example.com`vilket matchar det önskade värdnamnet. Om något av dem visas `CN=*.tt.omtrdc.net`är implementeringen **inte** klar.
+   Om implementeringen är klar bör du se utdata som nedan. Den viktiga delen är att alla rader visar `CN=target.example.com`, som matchar vårt önskade värdnamn. Om någon av dem visar `CN=*.tt.omtrdc.net` är implementeringen **inte** klar.
 
    ```
    $ validateEdgeFpsslSni target.example.com
@@ -130,7 +130,7 @@ Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradstermina
    mboxedge38.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    ```
 
-1. Validera din nya DNS CNAME med en annan skrivbegäran som även ska visa `CN=target.example.com`:
+1. Validera din nya DNS CNAME med en annan begäran om att inaktivera DNS, som även ska visa `CN=target.example.com`:
 
    ```
    curl -sSv https://target.example.com 2>&1 | grep subject:
@@ -138,10 +138,10 @@ Använd följande kommandouppsättning (i MacOS- eller Linux-kommandoradstermina
 
    >[!NOTE]
    >
-   >Om det här kommandot misslyckas men kommandot ovan `validateEdgeFpsslSni` lyckas kanske du måste vänta tills DNS-uppdateringarna är helt spridda. DNS-poster har en associerad [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) som anger cacheförfallotid för DNS-svar för dessa poster, så du kan behöva vänta minst så länge som dina TTL-värden är aktiva. Du kan använda `dig target.example.com` kommandot eller [verktygslådan](https://toolbox.googleapps.com/apps/dig/#CNAME) för G Suite för att leta upp dina specifika TTL-filer.
+   >Om det här kommandot misslyckas men kommandot `validateEdgeFpsslSni` lyckas kanske du måste vänta tills DNS-uppdateringarna är helt spridda. DNS-poster har en associerad [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) som anger cacheförfallotid för DNS-svar för dessa poster, så du kan behöva vänta minst så länge som dina TTL-värden är aktiva. Du kan använda kommandot `dig target.example.com` eller [G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) för att leta upp dina specifika TTL-värden.
 
 ## Kända begränsningar
 
 * QA-läget kommer inte att fastna när du har CNAME och at.js 1.x eftersom det är baserat på en cookie från tredje part. Du kan komma runt problemet genom att lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till. QA-läget är fast när du har CNAME och at.js 2.x.
-* För närvarande fungerar inte inställningen som den ska med CNAME när du använder version at.js före at.js 1.8.2 och at.js 2.3.1. `overrideMboxEdgeServer` Om du använder en äldre version av at.js bör den anges som `false` för att undvika misslyckade begäranden. Du kan också överväga att [uppdatera at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) till en nyare version som stöds.
+* För närvarande fungerar inte `overrideMboxEdgeServer`-inställningen korrekt med CNAME när du använder tidigare at.js-versioner än at.js 1.8.2 och at.js 2.3.1. Om du använder en äldre version av at.js ska den anges som `false` för att undvika misslyckade begäranden. Du kan också överväga att [uppdatera at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) till en nyare version som stöds.
 * När du använder CNAME blir det mer sannolikt att storleken på cookie-huvudet för Target-anrop ökar. Vi rekommenderar att kakstorleken hålls under 8 kB.
