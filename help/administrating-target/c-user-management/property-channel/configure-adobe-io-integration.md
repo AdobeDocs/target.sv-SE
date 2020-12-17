@@ -2,9 +2,9 @@
 keywords: integration;roles;user permissions;admin console
 description: Information om hur du ger befintliga Adobe I/O-integreringar åtkomst till alla arbetsytor med önskad roll i Adobe Target
 title: Ge Adobe I/O-integrationer åtkomst till arbetsytor och tilldela roller i Adobe Target
-feature: user management
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
