@@ -2,9 +2,9 @@
 keywords: setting up;setup;set-up;set up;administration
 description: Information som hjälper dig att konfigurera Adobe Target, inklusive inställningar, implementering, användarhantering, egenskaper, Scene7-konfiguration, värdhantering och svarstoken.
 title: Administrera Adobe Target
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
