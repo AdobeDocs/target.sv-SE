@@ -2,9 +2,9 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: Aktiviteten Automatisk allokering i Adobe Target identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig.
 title: Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test
-feature: auto-allocate
+feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
