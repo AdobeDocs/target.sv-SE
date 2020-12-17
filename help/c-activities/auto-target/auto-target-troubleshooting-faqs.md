@@ -4,9 +4,9 @@ description: Felsökning och vanliga frågor om Automatiskt mål i Adobe Target.
 title: Automatisk målsökning och vanliga frågor
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -143,3 +143,9 @@ Detta förväntas.
 I en [!UICONTROL Auto-Target]-aktivitet, när ett konverteringsmått (oavsett om optimeringsmål eller postmål) konverteras, släpps användaren från upplevelsen och aktiviteten startas om.
 
 Det finns till exempel en aktivitet med ett konverteringsmått (C1) och ett ytterligare mått (A1). A1 är beroende av C1. När en besökare går in i aktiviteten för första gången och villkoren för konvertering av A1 och C1 inte konverteras, konverteras inte mätvärdena A1 på grund av beroendet av framgångsmått. Om besökaren konverterar C1 och sedan konverterar A1 konverteras A1 fortfarande inte eftersom besökaren släpps när C1 konverteras.
+
+### Vad händer om jag tar bort en upplevelse från en Automatisk målaktivitet?
+
+[!DNL Target] bygger en modell per upplevelse, så om du tar bort en upplevelse  [!DNL Target] byggs bara en enda modell, och det påverkar inte modellerna för de andra upplevelserna.
+
+Anta till exempel att du har en [!UICONTROL Auto-Target]-aktivitet med åtta upplevelser och att du inte gillar prestanda för en upplevelse. Ni kan ta bort den upplevelsen och den kommer inte att påverka modellerna för de sju återstående upplevelserna.
