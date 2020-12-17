@@ -4,7 +4,7 @@ description: Felsökning och vanliga frågor om Automatiskt mål i Adobe Target.
 title: Automatisk målsökning och vanliga frågor
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: f4e6de7c8eb2478010ba1d0cd37fab99c6e8d80b
 workflow-type: tm+mt
 source-wordcount: '1854'
 ht-degree: 0%
@@ -108,6 +108,12 @@ Den här rekommendationen gäller för [!UICONTROL Auto-Allocate]-, [!UICONTROL 
 
 Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Auto-Target]-aktiviteter. Även om det tar bort synliga rapportdata tas inte alla utbildningsposter bort från [!UICONTROL Auto-Target]-modellen. I stället för att använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Auto-Target]-aktiviteter skapar du en ny aktivitet och inaktiverar den ursprungliga aktiviteten. (Obs! Den här vägledningen gäller även för [!UICONTROL Auto-Allocate]- och [!UICONTROL Automated Personalization]-aktiviteter.)
 
+### Vad händer om jag tar bort en upplevelse från en Automatisk målaktivitet?
+
+[!DNL Target] bygger en modell per upplevelse, så om du tar bort en upplevelse  [!DNL Target] byggs bara en enda modell, och det påverkar inte modellerna för de andra upplevelserna.
+
+Anta till exempel att du har en [!UICONTROL Auto-Target]-aktivitet med åtta upplevelser och att du inte gillar prestanda för en upplevelse. Ni kan ta bort den upplevelsen och den kommer inte att påverka modellerna för de sju återstående upplevelserna.
+
 ## Felsökning [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
 Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utmaningar du kan ställas inför när du använder [!UICONTROL Auto-Target] och några förslag på lösningar.
@@ -144,8 +150,3 @@ I en [!UICONTROL Auto-Target]-aktivitet, när ett konverteringsmått (oavsett om
 
 Det finns till exempel en aktivitet med ett konverteringsmått (C1) och ett ytterligare mått (A1). A1 är beroende av C1. När en besökare går in i aktiviteten för första gången och villkoren för konvertering av A1 och C1 inte konverteras, konverteras inte mätvärdena A1 på grund av beroendet av framgångsmått. Om besökaren konverterar C1 och sedan konverterar A1 konverteras A1 fortfarande inte eftersom besökaren släpps när C1 konverteras.
 
-### Vad händer om jag tar bort en upplevelse från en Automatisk målaktivitet?
-
-[!DNL Target] bygger en modell per upplevelse, så om du tar bort en upplevelse  [!DNL Target] byggs bara en enda modell, och det påverkar inte modellerna för de andra upplevelserna.
-
-Anta till exempel att du har en [!UICONTROL Auto-Target]-aktivitet med åtta upplevelser och att du inte gillar prestanda för en upplevelse. Ni kan ta bort den upplevelsen och den kommer inte att påverka modellerna för de sju återstående upplevelserna.
