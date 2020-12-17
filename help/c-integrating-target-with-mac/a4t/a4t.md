@@ -4,15 +4,15 @@ description: Adobe"Analytics for Target" (A4T) är en integrerad lösning som g�
 title: Adobe Analytics som rapportkälla för Adobe Target (A4T)
 feature: a4t general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Analytics som rapportkälla för Adobe Target (A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
+# Adobe Analytics som rapportkälla för Adobe Target (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) är en integrerad lösning som gör att ni kan skapa aktiviteter baserat på  [!DNL Analytics] konverteringsstatistik och målgruppssegment. Med A4T-integreringen kan du använda [!DNL Analytics]-rapporter för att undersöka dina resultat. Om du använder [!DNL Analytics] som rapportkälla för en aktivitet, baseras all rapportering och segmentering för den aktiviteten på [!DNL Analytics]-datainsamling.
 
@@ -73,7 +73,8 @@ I följande tabell visas vilka aktivitetstyper som stöder [!DNL Analytics] som 
 | AEM 6.1 (eller tidigare) Cloud Service Integration | Nej |  |
 | AEM 6.2 (eller senare) Cloud Service Integration | Ja | Mer information finns i [Integrera med Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) i dokumentationen för [!DNL Adobe Experience Manager] 6.2. |
 | Alla aktiviteter som använder ett omdirigeringserbjudande | Ja | Det finns strängare minimikrav för användning av omdirigeringserbjudanden med A4T. Mer information finns i [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Ja |  |
+| Node.JS | Ja | Mer information finns i [Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) i guiden *Adobe Target SDK*. |
+| Java SDK | Ja | Mer information finns i [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) i guiden för *Adobe Target* SDK:er. |
 
 Eftersom alla aktivitetstyper ännu inte har stöd för A4T rekommenderar vi att du behåller eller implementerar viktiga konverteringsrutor, till exempel `orderConfirmPage`-rutan.
 
