@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '3155'
+source-wordcount: '3178'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 17 december | [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Uppdaterad tabell som indikerar att Java SDK har stöd för A4T. |
 | 16 december | [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Följande frågor och svar har lagts till: &quot;Vad händer om jag tar bort en upplevelse från en aktivitet med Automatiskt mål?&quot; |
 | 9 december | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nytt ämne. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande problem har flyttats från avsnittet Kända fel till avsnittet Lösta problem: &quot;Bilden innehåller etiketten &quot;Bearbetar&quot;.&quot; |
