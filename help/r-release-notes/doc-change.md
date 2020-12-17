@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3155'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 16 december | [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Följande frågor och svar har lagts till: &quot;Vad händer om jag tar bort en upplevelse från en aktivitet med Automatiskt mål?&quot; |
 | 9 december | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nytt ämne. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande problem har flyttats från avsnittet Kända fel till avsnittet Lösta problem: &quot;Bilden innehåller etiketten &quot;Bearbetar&quot;.&quot; |
 | 1 december | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Inbäddade webbinariet för att&quot;personalisera och testa med nolltidsfördröjning med beslut från Adobe Target på enheter&quot;. |
