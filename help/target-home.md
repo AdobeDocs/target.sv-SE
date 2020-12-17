@@ -3,9 +3,9 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target Guide
 description: Visa startsidan för målguiden.
 seo-description: Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna från era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
-feature: landing
+feature: Overview
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
