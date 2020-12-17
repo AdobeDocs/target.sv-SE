@@ -1,12 +1,12 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Bestäm en vinnare i en automatisk fördelning av A/B-aktivitet genom att visa indikatorer i Adobe Target användargränssnitt.
-title: Identifiera en vinnare
-feature: auto-allocate
+description: Tolka resultaten av en automatisk fördelning av A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i Adobe Target användargränssnitt.
+title: Tolka autofördelningsrapporter
+feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
