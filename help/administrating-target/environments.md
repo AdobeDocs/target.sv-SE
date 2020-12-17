@@ -2,9 +2,9 @@
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering i Adobe Target.
 title: Miljö
-feature: hosts and environments
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
