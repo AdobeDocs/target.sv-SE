@@ -4,7 +4,7 @@ description: Du kan skapa målgrupper i Adobe Target baserat på nätverksinform
 title: Nätverksalternativ i Adobe Target
 feature: audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Du kan skapa målgrupper baserat på nätverksinformation.
       >
       >Använd ISP-namnet, inte det populära namnet, när du riktar dig mot en Internet-leverantör. Se till att du skapar regeln så att den inte är skiftlägeskänslig eller alltid använder gemener.
 
-      Du kan testa ISP- och domännamnsvärdena. [https://www.whoismyisp.](https://www.whoismyisp.org) orgis a good resource for targeting purposes. Du kan använda de exempeladresser som anges i tabellen ovan eller ange egna. Använd sedan parametern `themboxOverride.browserIp= URL` för att efterlikna den IP-adressen.
+      Du kan testa ISP- och domännamnsvärdena. [https://www.whoismyisp.](https://www.whoismyisp.org) orgis a good resource for targeting purposes. Du kan använda de exempeladresser som anges i tabellen ovan eller ange egna. Använd sedan parametern `mboxOverride.browserIp= URL` för att efterlikna den IP-adressen.
 
    * **Domännamn:** Detta är domännamnet för besökarens IP-adress. Det här är inte domännamnet för den webbplats du använder med [!DNL Target]. Det här domännamnet är relaterat till besökarens IP-adress och kallas ibland för ett värdnamn. Det liknar vanligtvis Internet-leverantörens namn. Ibland refererar värdnamnet till äldre namn på företag som har ändrat namn på sin Internet-leverantör men inte domännamnet.
    * **Anslutningshastighet:** Detta är hastigheten på besökarens internetanslutning. Alternativen är: bredband, kabel, dialup, mobile, oc3, oc12, satellit, t1, t2, trådlöst och xdsl.
