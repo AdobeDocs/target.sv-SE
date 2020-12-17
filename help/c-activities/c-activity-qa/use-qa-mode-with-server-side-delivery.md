@@ -2,9 +2,9 @@
 keywords: qa;server side;server-side;preview;preview links
 description: Använd Adobe Target QA-URL:er med leverans på serversidan för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
 title: Använd aktivitets-QA med leverans på serversidan
-feature: qa
+feature: Activities
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
