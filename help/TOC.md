@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 0%
       + [Översikt över A/B-tester](c-activities/t-test-ab/test-ab.md)
       + [Hur länge ska du köra ett A/B-test?](c-activities/t-test-ab/sample-size-determination.md)
       + [Tio vanliga A/B-testfall och hur man undviker dem](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/A-tester](/help/c-activities/t-test-ab/aa-testing.md)
       + Skapa ett A/B-test {#create}
          + [Skapa ett A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
