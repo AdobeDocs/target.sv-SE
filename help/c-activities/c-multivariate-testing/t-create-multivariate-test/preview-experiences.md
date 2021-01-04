@@ -1,11 +1,12 @@
 ---
-description: Eftersom ett multivariata test jämför flera olika upplevelser på en sida är det bra att förhandsgranska sidan med varje upplevelse.
+keywords: multivariate;mvt;preview;experiences
+description: Eftersom ett multivariata test i Adobe Target jämför flera olika upplevelser på en sida är det bra att förhandsgranska sidan för varje upplevelse.
 title: Förhandsgranska upplevelser för ett multivariat test i Adobe Target
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 # Förhandsgranska upplevelser för ett multivariat test{#preview-experiences-for-a-multivariate-test}
 
-Eftersom ett multivariata test jämför flera olika upplevelser på en sida är det bra att förhandsgranska sidan med varje upplevelse.
+Eftersom en [!UICONTROL Multivariate Test] på [!DNL Adobe Target] jämför flera upplevelser på en sida är det bra att förhandsgranska sidan med varje upplevelse.
 
-1. Klicka på **[!UICONTROL Preview]** i Experience Composer.
+1. Klicka på **[!UICONTROL Preview]** i Visual Experience Composer (VEC).
 
    En lista över alla upplevelser visas.
 
