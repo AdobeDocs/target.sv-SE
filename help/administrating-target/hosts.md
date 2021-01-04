@@ -4,9 +4,9 @@ description: Organisera sajter och förproduktionsmiljöer för enkel hantering 
 title: Värdar
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Värdar{#hosts}
 
-Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
+Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering i [!DNL Adobe Target].
 
 Det främsta målet med värdhantering är att se till att inget inaktivt innehåll av misstag visas på webbplatser. Med värdhantering kan du också separera rapportdata med [miljö](/help/administrating-target/environments.md).
 
