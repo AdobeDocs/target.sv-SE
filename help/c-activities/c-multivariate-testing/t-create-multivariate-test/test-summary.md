@@ -2,19 +2,19 @@
 keywords: Overview and Reference
 description: Testsammanfattningen ger en visuell översikt över ditt Adobe Target Multivariate-test.
 title: Testsammanfattning
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
 
-# Testsammanfattning{#test-summary}
+# Testsammanfattning
 
-Testsammanfattningen ger en visuell översikt över ditt multivariata test.
+Testsammanfattningen ger en visuell översikt över din [!DNL Adobe Target] [!UICONTROL Multivariate Test].
 
 ![Testsammanfattning, dialogruta](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 
