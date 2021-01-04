@@ -1,20 +1,20 @@
 ---
 keywords: Administration;approver role;approver
-description: Det här avsnittet innehåller de första stegen som Adobe Target-administratörer bör utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
+description: De första stegen som Adobe Target-administratörer bör utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
 title: Administratörssteg
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 
-# Första steg för administratör{#administrator-first-steps}
+# Administratörssteg
 
-Det här avsnittet innehåller de första stegen [!DNL Target] som administratörer ska utföra efter att ha tagit emot en e-postinbjudan till [!DNL Adobe Experience Cloud].
+Den här artikeln innehåller de första stegen [!DNL Adobe Target] som administratörer ska utföra efter att ha tagit emot en e-postinbjudan till [!DNL Adobe Experience Cloud].
 
 ## Bjud in till mål {#task_3E0817630774431983FAA3D2CB2E75BD}
 
