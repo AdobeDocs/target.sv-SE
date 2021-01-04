@@ -4,17 +4,17 @@ description: Använd Adobe Target QA-URL:er med leverans på serversidan för at
 title: Använd aktivitets-QA med leverans på serversidan
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 
-# Använd aktivitets-QA med leverans på serversidan{#use-activity-qa-with-server-side-delivery}
+# Använd aktivitets-QA med leverans på serversidan
 
-Använd QA-URL:er med leverans på serversidan för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata.
+Använd QA-URL:er med leverans på serversidan i [!DNL Adobe Target] för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
 
 Standardimplementeringen av Activity QA har stöd för att skicka `qa_mode`-parametrar via `pageUrl`-parametrar. Detta är praktiskt för standard-/ajax-anrop av typen [!DNL Target]. För anrop från server till server är detta emellertid inte det bästa sättet för ett Mobile SDK-fall när `pageUrl` inte är tillgängligt.
 
