@@ -1,12 +1,12 @@
 ---
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
-description: Information om hur du skapar egenskaper och använder funktionerna Egenskaper och Behörigheter som gör att Adobe Target-administratörer kan skapa separata arbetsytor (produktprofiler) i Target och sedan tilldela användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser baserat på dessa arbetsytor.
+description: Skapa egenskaper och använda funktionerna för egenskaper och behörigheter som gör att Adobe Target-administratörer kan skapa separata arbetsytor (produktprofiler) i Target och sedan tilldela användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser baserat på dessa arbetsytor.
 title: Enterprise-användarbehörigheter
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '3028'
+source-wordcount: '3026'
 ht-degree: 0%
 
 ---
