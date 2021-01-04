@@ -1,12 +1,12 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Konfigurera Adobe Target Visual Experience Composer (VEC) genom att ange dess allmänna inställningar, konfiguration av mobilvisningsruta och CSS-väljare.
+description: Konfigurera allmänna inställningar som ska användas i Adobe Target-rapporter för hela Target-kontot. Du kan konfigurera Adobe Experience Cloud-lösningen så att den används för rapportering (mål eller analys), tidszon och valutaformat för rapportering, IP-adresser som ska uteslutas från rapportering och om den beräknade ökningen av intäkter och finjusterade prioriteringar ska visas vid rapportering.
 title: Konfigurera rapportering i Adobe Target
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
