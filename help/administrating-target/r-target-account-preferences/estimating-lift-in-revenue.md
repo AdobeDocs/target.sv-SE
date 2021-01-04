@@ -1,12 +1,12 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Adobe Target kan beräkna den vinst man skulle uppnå om alla användare såg den vinnande upplevelsen.
+description: Använd Adobe Target för att uppskatta den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen.
 title: Uppskattad ökning av intäkter
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Uppskattad ökning av intäkter{#estimate-lift-in-revenue}
 
-Target kan beräkna den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen.
+Använd [!DNL Adobe Target] för att uppskatta den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen.
 
 >[!NOTE]
 >
->Uppskattad lyft är för närvarande inte tillgängligt för aktiviteter som avser Experience Targeting (XT).
+>Uppskattad lyft är för närvarande inte tillgänglig för [!UICONTROL Experience Targeting] (XT)-aktiviteter.
 
 Den uppskattade lyftfunktionen är inaktiverad som standard. Den kan aktiveras i dina kontoinställningar. Det är bara användare av Experience Cloud Admin som kan aktivera eller inaktivera den här funktionen. Om den uppskattade höjden är inaktiverad visas inte motsvarande fält i gränssnittet. Om du inaktiverar funktionen går det inte att förlora data, inklusive data som används för dina uppskattningar. Beräkningarna baseras på data som samlas in oavsett om funktionen är aktiverad eller inte.
 
