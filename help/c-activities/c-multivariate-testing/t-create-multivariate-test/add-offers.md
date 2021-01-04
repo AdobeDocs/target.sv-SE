@@ -1,19 +1,20 @@
 ---
+keywords: mvt;multivariate test;offers;combinations
 description: Använd Visual Experience Composer (VEC) i Adobe Target för att skapa de erbjudanden du vill inkludera i ditt Multivariate Test (MVT).
 title: Skapa kombinationer i multivariata tester (MVT) med Adobe Target
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 
-# Skapa kombinationer{#create-combinations}
+# Skapa kombinationer
 
-Använd Visual Experience Composer (VEC) i Adobe Target för att skapa de erbjudanden du vill inkludera i ditt Multivariate Test (MVT).
+Använd [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Adobe Target] för att skapa de erbjudanden du vill inkludera i din [!UICONTROL Multivariate Test] (MVT).
 
 Mer information om hur du använder VEC för att skapa och redigera erbjudanden finns i [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
