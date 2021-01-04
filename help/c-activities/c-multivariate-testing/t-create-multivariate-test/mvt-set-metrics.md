@@ -2,20 +2,19 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Använd mätvärden i ett Adobe Target Multivariate-test för att avgöra när ett besök lyckas.
 title: Ange mått
-feature: mvt
-solution: Target
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
 
-# Ange mått{#set-metrics}
+# Ange mått för multivariata tester
 
-Använd mätvärden i ett multivariattest för att avgöra när ett besök är lyckat.
+Använd mätvärden i ett Adobe Target Multivariate-test för att avgöra när ett besök lyckas.
 
 Detaljerad information om framgångsmått finns i [Success Metrics](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
