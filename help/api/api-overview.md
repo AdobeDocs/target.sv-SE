@@ -4,9 +4,9 @@ description: Information om Adobe Target API:er, inklusive API:erna för adminis
 title: Adobe Target API - översikt
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Target API - översikt
 
-[!DNL Adobe Target] API:er kan grupperas efter typ.
+[!DNL Adobe Target] API:er kan grupperas efter typ: API:er för administration, leverans, rapportering och profil.
 
 | API-typ | Vad du kan göra | Hämta länk | Andra praktiska länkar |
 | --- | --- | --- |--- |
