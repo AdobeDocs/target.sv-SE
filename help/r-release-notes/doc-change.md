@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
-source-wordcount: '3184'
+source-wordcount: '3210'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 4 januari 2021 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ändrade datumet då Target inte längre stöder mbox.js från 18 januari 2021 till 31 mars 2021. |
 | 18 december | [A/A-tester](/help/c-activities/t-test-ab/aa-testing.md) | Nytt ämne. |
 | 17 december | [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Uppdaterad tabell som indikerar att Java SDK har stöd för A4T. |
 | 16 december | [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Följande frågor och svar har lagts till: &quot;Vad händer om jag tar bort en upplevelse från en aktivitet med Automatiskt mål?&quot; |
@@ -93,7 +94,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | --- | --- | --- |
 | 31 augusti | [Använd Adobe Analytics med Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Avsnittet Vanliga frågor och svar har lagts till. |
 | 28 augusti | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Uppdaterade följande:<ul><li>Tillagd i avsnittet Kända fel: &quot;Rapportering - För närvarande ökar konverteringarna på olika sätt beroende på vilken målgrupp som används.&quot;</li><li>Tillagd i avsnittet Lösta problem: &quot;Sidor som inte läses in i Visual Experience Composer (VEC) eller Enhanced Experience Composer (EEC) när Google Chrome version 80+ används.&quot;</li></ul> |
-|  | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Inaktuellt datum för mbox.js har ändrats från 30 augusti 2020 till 18 januari 2021. |
+|  | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Inaktuellt datum för mbox.js har ändrats från 30 augusti 2020 till 18 januari 2021. Detta har ändrats till 31 mars 2020. |
 | 26 augusti | [Använd Adobe Analytics med Recommendations som mål](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nytt ämne. |
 | 24 augusti | [Framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Uppdaterat avsnittet Avancerade inställningar. |
 | 21 augusti | [Översikt över välkomstpaketet för Adobe Target](/help/c-intro/target-welcome-kit.md) | Nya artiklar och underämnen. |
