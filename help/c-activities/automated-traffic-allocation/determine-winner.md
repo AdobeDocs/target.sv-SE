@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Tolka resultaten av en automatisk fördelning av A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i Adobe Target användargränssnitt.
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+description: Tolka resultaten av en automatisk fördelning av A/B-aktivitet i Adobe Target genom att undersöka viktiga indikatorer, bland annat lyft och förtroende.
 title: Tolka autofördelningsrapporter
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Tolka autofördelningsrapporter {#determine-a-winner}
 
-Tolka resultaten av en automatisk fördelning av A/B-aktivitet genom att undersöka viktiga indikatorer, inklusive lyft och förtroende, i målgränssnittet.
+Tolka resultaten av en [!UICONTROL Auto-Allocate] A/B-aktivitet i [!UICONTROL Adobe Target] genom att undersöka viktiga indikatorer, inklusive lyft och förtroende.
 
 Många marknadsförare gör misstag genom att i förväg deklarera en vinnande upplevelse innan resultatet visar på den tydliga vinnaren. Vi har nu gjort det enklare för dig att avgöra vinnaren.
 
