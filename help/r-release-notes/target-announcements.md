@@ -4,7 +4,7 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -54,6 +54,6 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 
 ## Adobe Target Experience Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
-I och med den kommande utfasningen av mbox.js den 18 januari 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js.
+I och med den kommande utfasningen av mbox.js den 31 mars 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js.
 
 [Se inspelningen av webbinariet här](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
