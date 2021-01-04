@@ -4,9 +4,9 @@ description: Använd Adobe Target QA-URL:er för att utföra enkel QA-analys fr�
 title: Aktivitets-QA
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aktivitets-QA {#activity-qa}
 
-Använd QA-URL:er i Adobe Target för att utföra enkel QA-analys från början till slut med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata.
+Använd QA-URL:er i [!DNL Adobe Target] för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata.
 
 ## Översikt {#section_11B761A522A14E61978275772210A4C2}
 
