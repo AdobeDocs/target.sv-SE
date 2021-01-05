@@ -1,20 +1,20 @@
 ---
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
-description: Om din aktivitet inte visas på din webbplats kan du hitta lösningen med hjälp av de här felsökningsförslagen.
+description: Om din Adobe Target-aktivitet inte visas på din webbplats kan du hitta din lösning med hjälp av dessa felsökningsförslag.
 title: Felsöka aktiviteter
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 
-# Felsöka aktiviteter{#troubleshoot-activities}
+# Felsöka aktiviteter
 
-Om din aktivitet inte visas på din webbplats kan du hitta lösningen med hjälp av de här felsökningsförslagen.
+Om din [!DNL Adobe Target]-aktivitet inte visas på din webbplats bör dessa felsökningsförslag hjälpa dig att hitta din lösning.
 
 >[!NOTE]
 >
