@@ -1,20 +1,20 @@
 ---
-keywords: Targeting
-description: Aktivitets-URL:en bestämmer vilken sida som används i aktiviteten Experience Targeting och som öppnas i Adobe Target Visual Experience Composer (VEC) eller Form-Based Experience Composer när aktiviteten har designats.
+keywords: Experience Targeting;xt;activity url;url
+description: Aktivitets-URL:en bestämmer vilken sida som används i Adobe Target Experience Targeting-aktiviteten och som öppnas i Visual Experience Composer (VEC) eller Form-Based Experience Composer när aktiviteten har designats.
 title: Aktivitets-URL
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 
-# Aktivitets-URL{#activity-url}
+# Aktivitets-URL i XT-aktiviteter (Experience Targeting)
 
-Aktivitets-URL:en bestämmer vilken sida som används i aktiviteten Experience Targeting (XT) och som öppnas i Visual Experience Composer (VEC) eller Form-Based Experience Composer när aktiviteten har designats.
+[!UICONTROL Activity URL] avgör vilken sida som används i aktiviteten [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) och som öppnas i [!UICONTROL Visual Experience Composer] (VEC) eller [!UICONTROL Form-Based Experience Composer] när aktiviteten har designats.
 
 1. Ange aktivitets-URL när du uppmanas att göra [en XT-aktivitet](/help/c-activities/t-experience-target/t-xt-create/xt-create.md). Skriv den fullständiga URL:en (inklusive `https://`) och klicka sedan på **[!UICONTROL Create Activity]**.
 
