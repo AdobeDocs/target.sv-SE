@@ -1,10 +1,10 @@
 ---
-keywords: Targeting
+keywords: random forest;decision tree;ap;Automated Personalization
 description: Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Slumpmässig skog i Automated Personalization är en klassificerings- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
 title: Slumpmässig skogsalgoritm
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMRandom-skogsalgoritm{#random-forest-algorithm}
+# ![](/help/assets/premium.png) PREMIUMRandom-skogsalgoritm
 
 Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Slumpmässig skog i Automated Personalization är en klassificerings- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
 
@@ -78,7 +78,7 @@ Funktionsomformningarna beror på attributtypen. Det finns främst två typer av
 
 För kategoriserade funktioner behålls en uppsättning med alla möjliga funktioner och sannolikhetsomformningen används för att minska datastorleken. För numeriska funktioner säkerställer omskalning att funktionerna är jämförbara över hela gränssnittet.
 
-**Balancing Learning vs. Personalizing with the Multi-Armed Bandit**
+**Balancing learning vs. personalizing with the Multi-Armed Bandit**
 
 Efter att Target har personaliseringsmodeller som har byggts för att personalisera trafiken finns det en tydlig kompromiss som ni kan hantera för framtida besökare i er verksamhet: bör ni personalisera all trafik baserat på den aktuella modellen eller bör ni fortsätta att lära er av nya besökare genom att slumpmässigt leverera slumpmässiga erbjudanden? Ni vill se till att personaliseringsalgoritmen alltid lär er om nya trender hos era besökare, samtidigt som ni personaliserar merparten av trafiken.
 
