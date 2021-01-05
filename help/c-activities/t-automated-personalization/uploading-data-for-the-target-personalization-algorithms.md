@@ -1,21 +1,22 @@
 ---
-description: Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller.
+keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+description: Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller i Adobe Target Automated Personalization-aktiviteter (AP).
 title: Överför data för Target-personaliseringsalgoritmer
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 
-# Överför data för målpersonaliseringsalgoritmerna{#upload-data-for-target-s-personalization-algorithms}
+# Överför data för målpersonaliseringsalgoritmerna
 
-Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller.
+Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller i [!DNL Adobe Target] [!UICONTROL Automated Personalization]-aktiviteter (AP).
 
-Det finns flera sätt att ange data i personaliseringsalgoritmerna Automated Personalization (AP) och Auto-Target. Förutom metoderna i [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), används även delade målgrupper (Adobe Analytics, Audience Management) och målgrupper i aktivitetsrapporter i våra algoritmer.
+Det finns flera sätt att ange data i personaliseringsalgoritmerna [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target]. Förutom metoderna i [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), används även delade målgrupper (Adobe Analytics, Audience Management) och målgrupper i aktivitetsrapporter i våra algoritmer.
 
 Mer information om de data som samlas in och används automatiskt av personaliseringsalgoritmer i Automated Personalization och Automatisk målgrupp finns i [Automated Personalization Data Collection](/help/c-activities/t-automated-personalization/ap-data.md).
 
