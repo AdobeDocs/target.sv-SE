@@ -4,7 +4,7 @@ description: Du kan visa profilvärden och aktivitetsinformation direkt i ett HT
 title: Överför dynamiska data till erbjudanden
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Eftersom användarspecifika inställningar, beteenden, status osv. kan lagras i 
 
 Följande värden kan vara &quot;token replace&quot;:
 
-| Värden | Exempel |
+| Värde | Exempel |
 |--- |--- |
 | Profilparametrar i mbox | `${profile.age}` |
 | Skriptprofilparametrar | `${user.lifetimeSpend}` |
@@ -57,7 +57,7 @@ Använd syntaxen för profilparametrar som skickas till en mbox: `${profile.para
 
 `${user.parameter}`
 
-När du använder dynamiska attribut i en Recommendations-design måste du infoga ett omvänt snedstreck (&#39;\&#39;) före dollartecknet (&#39;$&#39;) för att det dynamiska värdet ska återges korrekt: `\${user.endpoint.lastViewedEntity}`
+När du använder dynamiska attribut i en Recommendations-design måste du infoga ett omvänt snedstreck ( \ ) före dollartecknet ( $ ) för att det dynamiska värdet ska återges korrekt: `\${user.endpoint.lastViewedEntity}`
 
 Variablerna ersätts med värdet på serversidan, så det behövs inga citattecken eller andra JavaScript för att visningen ska bli korrekt.
 
