@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: Lista med vanliga frågor och svar om Automated Personalization (AP).
 title: Automated Personalization FAQ
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1943'
 ht-degree: 0%
 
 ---
 
 
-# ![Vanliga frågor om ](/help/assets/premium.png) automatisk personaliseringPREMIUMA{#automated-personalization-faq}
+# ![Vanliga frågor om ](/help/assets/premium.png) automatisk personaliseringPREMIUMA
 
 Lista med vanliga frågor och svar om Automated Personalization (AP).
 
@@ -53,7 +53,7 @@ Det finns inget körklart alternativ för att jämföra AP med en standardupplev
 
 ## Vanliga frågor
 
-Se följande frågor och svar när du arbetar med Automatisk fördelning av aktiviteter:
+Se följande frågor och svar när du arbetar med [!UICONTROL Automated Personalization]-aktiviteter:
 
 ### Vilka begränsningar finns det i Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
 
