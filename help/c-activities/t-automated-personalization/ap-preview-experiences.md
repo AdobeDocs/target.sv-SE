@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations
+keywords: Automated Personalization;ap;preview;exclude experience;
 description: Eftersom en Automated Personalization-aktivitet (AP) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan för varje upplevelse.
 title: Förhandsgranska upplevelser för en Automated Personalization-aktivitet (AP) i Adobe Target Visual Experience Composer
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # ![](/help/assets/premium.png) PREMIUMPrankar för Automated Personalization i Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Eftersom en Automated Personalization-aktivitet (AP) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan för varje upplevelse.
+Eftersom en [!DNL Adobe Target] [!UICONTROL Automated Personalization]-aktivitet (AP) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan med varje upplevelse.
 
-1. Klicka på **[!UICONTROL Preview]** i Visual Experience Composer.
+1. Klicka på **[!UICONTROL Preview]** i [!UICONTROL Visual Experience Composer] (VEC).
 
    ![Ikonen Förhandsgranska](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -30,7 +30,7 @@ Eftersom en Automated Personalization-aktivitet (AP) jämför flera erbjudanden 
 
    ![Uteslut, ikon](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   Dialogrutan Hantera innehåll visas.
+   Dialogrutan [!UICONTROL Manage Content] visas.
 
    ![Dialogrutan Hantera innehåll](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
@@ -40,7 +40,7 @@ Eftersom en Automated Personalization-aktivitet (AP) jämför flera erbjudanden 
 
    Om du vill utesluta flera upplevelser markerar du kryssrutorna för de önskade upplevelserna och klickar sedan på ikonen **[!UICONTROL Exclude]** längst upp till höger i listan.
 
-   Som standard inkluderas alla upplevelser i Automated Personalization-aktiviteten. Om du vill ta med en upplevelse som har uteslutits håller du muspekaren över upplevelsen och klickar på ikonen **[!UICONTROL Include]**.
+   Som standard inkluderas alla upplevelser i [!UICONTROL Automated Personalization]-aktiviteten. Om du vill ta med en upplevelse som har uteslutits håller du muspekaren över upplevelsen och klickar på ikonen **[!UICONTROL Include]**.
 
    Om du vill inkludera flera upplevelser som har uteslutits markerar du kryssrutorna för de önskade upplevelserna och klickar sedan på ikonen **[!UICONTROL Include]** längst upp till höger i listan.
 
