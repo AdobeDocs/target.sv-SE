@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;offers
+keywords: automated personalization;offers;target;audience;targeting rules;targeting
 description: I en Automated Personalization-aktivitet kan ni rikta erbjudanden till specifika målgrupper.
-title: Automated Personalization erbjudanden
-feature: ap
+title: Automated Personalization erbjudanden i Adobe Target
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # ![](/help/assets/premium.png) PREMIUMTarget Automated Personalization erbjuder{#target-automated-personalization-offers}
 
-I en Automated Personalization-aktivitet (AP) kan ni rikta erbjudanden till specifika målgrupper.
+I en [!DNL Adobe Target] [!DNL Automated Personalization]-aktivitet (AP) kan du rikta erbjudanden till specifika målgrupper.
 
 Om du använder den här funktionen minskas antalet erbjudanden som en viss besökare är kvalificerad att se. Ta till exempel en AP-aktivitet som har tre erbjudanden. Erbjudandet 1 har en målinriktningsregel som begränsar dess exponering till Audience A. Två besökare såg den här AP-aktiviteten.
 
