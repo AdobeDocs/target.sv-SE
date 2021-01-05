@@ -1,9 +1,10 @@
 ---
+kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utmaningar du kan ställas inför när du använder Automated Personalization, och några förslag på lösningar.
 title: Felsöka Automated Personalization
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
