@@ -1,10 +1,10 @@
 ---
-keywords: traffic estimator;automated personalization;ap
+keywords: traffic estimator;automated personalization;ap;estimate traffic
 description: Traffic Estimator ger dig feedback som visar om du har tillräckligt med trafik för att din Adobe Target-aktivitet ska lyckas.
 title: Uppskatta den trafik som krävs för att lyckas
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMEmmentera trafiken som krävs för att lyckas{#estimate-the-traffic-required-for-success}
+# ![](/help/assets/premium.png) PREMIUMEmmentera trafiken som krävs för att lyckas
 
 [!UICONTROL Traffic Estimator] ger feedback som talar om för dig om du har tillräckligt med trafik för att din [!DNL Adobe Target]-aktivitet ska lyckas.
 
