@@ -2,9 +2,9 @@
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings;dependency;dependant;Increment Count & Keep User in Activity;Increment Count, Release user, & Allow Reentry;increment Count, Release User, & Bar from Reentry
 description: I Adobe Target är framgångsmått parametrar som används för att mäta en aktivitets framgång. Framgångsstatistik innehåller viktiga affärsåtgärder som gör det möjligt att avgöra hur framgångsrik en viss upplevelse eller ett visst erbjudande är i en Target-aktivitet.
 title: Framgångsstatistik i Adobe Target
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
