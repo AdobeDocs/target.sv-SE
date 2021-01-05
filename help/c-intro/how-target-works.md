@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
 description: Adobe Target kan integreras med webbplatser via ett av två JavaScript-bibliotek. at.js eller mbox.js
 title: Så här fungerar Adobe Target
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2438'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,11 @@ Information om hur Adobe Target fungerar, inklusive information om Target JavaSc
 
 ## Mål-JavaScript-bibliotek {#libraries}
 
-Adobe Target kan integreras med webbplatser via ett av två JavaScript-bibliotek: at.js eller mbox.js
+Adobe Target kan integreras med webbplatser via JavaScript-bibliotek:
 
 * **at.js:** The  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) library är det nya implementeringsbiblioteket för Target. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js är det rekommenderade implementeringsbiblioteket och uppdateras ofta med nya funktioner. Vi rekommenderar att alla kunder implementerar eller migrerar till den [senaste versionen av at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** The mbox.js library is the legacy implementation library for Target. Biblioteket mbox.js stöds fortfarande, men det kommer inte att finnas några funktionsuppdateringar.
+* **Adobe Experience Platform Web SDK:** The  [Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDKär ett nytt JavaScript-bibliotek på klientsidan som gör det möjligt  [!DNL Adobe Experience Cloud] för kunder att interagera med de olika tjänsterna i  [!DNL Experience Cloud] via  [!DNL Adobe Experience Platform] Edge Network.
+* **mbox.js:** The  [mbox.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) libraryis the legacy implementation library for Target. Biblioteket mbox.js stöds fortfarande fram till 31 mars 2021, men det kommer inte att finnas några funktionsuppdateringar.
 
 >[!IMPORTANT]
 >
