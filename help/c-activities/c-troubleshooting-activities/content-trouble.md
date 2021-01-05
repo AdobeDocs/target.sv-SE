@@ -2,9 +2,9 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Om sidan inte visar det förväntade innehållet kan du utföra några steg för att felsöka innehållsleveransen i Adobe Target.
 title: Felsöka innehållsleverans i Adobe Target
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Felsöka innehållsleverans{#troubleshoot-content-delivery}
+# Felsöka innehållsleverans
 
 Om sidan inte visar det förväntade innehållet kan du utföra några steg för att felsöka innehållsleveransen.
 
