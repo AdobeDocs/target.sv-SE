@@ -1,20 +1,20 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest
-description: Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje enskild besökare baserat på deras individuella kundprofil, för att anpassa innehåll och driva lyft.
+keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
+description: Automated Personalization (AP)-aktiviteter i Adobe Target kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva lyft.
 title: Automated Personalization
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMAutomatiserad personalisering{#automated-personalization}
+# ![](/help/assets/premium.png) PREMIUMAutomated Personalization (AP)
 
-[!UICONTROL Automated Personalization] (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje enskild besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva på lyft.
+[!UICONTROL Automated Personalization] (AP) i  [!DNL Adobe Target] kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva på lyft.
 
 >[!NOTE]
 >
