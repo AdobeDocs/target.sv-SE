@@ -2,17 +2,17 @@
 keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: På sidan Mål och inställningar anger du information om målet för testet.
 title: Mål och inställningar
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
 
 
-# Mål och inställningar{#goals-and-settings}
+# Mål och inställningar i XT-aktiviteter (Experience Targeting)
 
 På sidan Mål och inställningar anger du information om målet för testet.
 
