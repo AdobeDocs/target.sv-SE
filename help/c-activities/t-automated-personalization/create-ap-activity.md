@@ -1,40 +1,40 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
-description: Arbetsflödet för Automated Personalization-aktiviteter skiljer sig från arbetsflödet för de andra aktivitetstyperna.
+keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+description: Arbetsflödet för Automated Personalization-aktiviteter i Adobe Target skiljer sig från arbetsflödet för de andra aktivitetstyperna.
 title: Skapa en Automated Personalization-aktivitet
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1965'
 ht-degree: 0%
 
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMCkapa en Automated Personalization-aktivitet{#create-an-automated-personalization-activity}
+# ![](/help/assets/premium.png) PREMIUMCkapa en Automated Personalization-aktivitet
 
-Arbetsflödet för Automated Personalization-aktiviteter skiljer sig från arbetsflödet för de andra aktivitetstyperna.
+Arbetsflödet för aktiviteten [!UICONTROL Automated Personalization] (AP) i [!DNL Adobe Target] skiljer sig från arbetsflödet för de andra aktivitetstyperna.
 
-1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]** i listan Standardaktiviteter för mål.
+1. I listan [!DNL Target] [!UICONTROL Activities] klickar du på **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**.
 
    ![Skapa aktivitet: Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Om du vill använda Visual Experience Composer (VEC) klickar du på **[!UICONTROL Visual (Default)]**.
+1. Om du vill använda [!UICONTROL Visual Experience Composer] (VEC) klickar du på **[!UICONTROL Visual (Default)]**.
 
    ![Skapa Automated Personalization Activity (dialogruta)](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Om du föredrar att använda den formulärbaserade Experience Composer väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md).
+   Om du föredrar att använda [!UICONTROL Form-Based Experience Composer] väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Förutom VEC och Form-Based Experience Composer erbjuder Target Single Page Application VEC och VEC for Mobile Apps. Mer information om de olika dispositionerna finns i [Upplevelser och erbjudanden](/help/c-experiences/experiences.md).
+   >Förutom VEC och [!UICONTROL Form-Based Experience Composer] erbjuder [!DNL Target] [!UICONTROL Single Page Application VEC] och VEC för mobilappar. Mer information om de olika dispositionerna finns i [Upplevelser och erbjudanden](/help/c-experiences/experiences.md).
    >
    >Felsökningsinformation om VEC finns i [Felsöka Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) om du har problem.
    >
    >Alternativet [!UICONTROL Choose Workplace] i föregående bild är en [Target Premium](/help/c-intro/intro.md)-funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
 
-1. (Villkorligt) Om du är en Target Premium-kund [väljer du en arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Villkorligt) Om du är [!DNL Target] Premium-kund [väljer du en arbetsyta](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Verifiera eller ange aktivitets-URL:en och klicka sedan på **[!UICONTROL Next]**.
 
@@ -44,7 +44,7 @@ Arbetsflödet för Automated Personalization-aktiviteter skiljer sig från arbet
 
    Sidan med den angivna URL:en öppnas i Visual Experience Composer.
 
-1. Namnge aktiviteten genom att klicka på fältet Namn och skriva aktivitetens namn.
+1. Om du vill namnge aktiviteten klickar du på fältet **[!UICONTROL Name]** och skriver ditt aktivitetsnamn.
 
    ![Namnfält](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
