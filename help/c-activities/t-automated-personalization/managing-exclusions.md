@@ -1,21 +1,21 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
 description: Hantera uteslutningar genom att skapa exkluderingsgrupper, exklusive dubbletterbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i Adobe Target Automated Personalization (AP)-aktiviteter.
 title: Hantera undantag
-feature: ap
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
 
 
-# ![Premium ](/help/assets/premium.png) badgeHantera undantag{#manage-exclusions}
+# ![Premium ](/help/assets/premium.png) badgeHantera undantag
 
-Hantera uteslutningar genom att skapa exkluderingsgrupper, exklusive dubbletterbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i Automated Personalization-aktiviteter (AP).
+Hantera undantag genom att skapa exkluderingsgrupper, exklusive dubbletterbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i [!UICONTROL Automated Personalization]-aktiviteter (AP) i [!DNL Adobe Target] [!UICONTROL Automated Personalization]-aktiviteter (AP).
 
 ## Skapa exkluderingsgrupper {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
