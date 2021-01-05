@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: Mätvärdet för Capture Score-engagemang beräknar en sammanställd poäng baserad på värdet som tilldelats till de sidor som besöks på webbplatsen, från den punkt besökaren först ser kampanjens första begäran om målvisning.
+description: Interaktionsmåttet för Capture Score i Adobe Target beräknar en sammanställd poäng baserad på det värde som tilldelats de sidor som besöks på webbplatsen, från den punkt besökaren först ser kampanjens första begäran om målvisning.
 title: Hämtningspoäng
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
 
-# Hämtningspoäng{#capture-score}
+# Hämtningspoäng
 
-Mätvärdet för Capture Score-engagemang beräknar en sammanställd poäng baserad på det värde som tilldelats de sidor som besöks på webbplatsen, från den punkt besökaren först ser kampanjens första visningsbegäran [!DNL Target].
+Hämtningspoängets engagemangsmått i [!DNL Adobe Target] beräknar en sammanställd poäng baserad på det värde som tilldelats de sidor som besöks på webbplatsen, från den punkt besökaren först ser kampanjens första visningsbegäran [!DNL Target].
 
 Följande exempel visar hur poängengagemang beräknas i en kampanj som testar två upplevelser, en med en kattbild och en med en hundbild.
 
@@ -28,7 +28,7 @@ Du kan ta hänsyn till anskaffningskostnader och intäkter från länken genom a
 
 ![](assets/example_score2.png)
 
-**Tilldela en sidpoäng**
+## Tilldela en sidpoäng
 
 Du kan tilldela ett värde till en sida på webbplatsen baserat på vad sidan är värd för dig. En matlagningssajt kan till exempel sälja annonser för mer pengar på sina artikelsidor än i sina upplevelseavsnitt. Funktionsartiklarna är därför mer värdefulla än upplevelseavsnittet. Med hjälp av sidpoäng kan du skapa ett totalt&quot;värde&quot; av ett besök, så att den som läser fler artiklar får fler&quot;poäng&quot; än den som bara bläddrar i upplevelsen.
 
