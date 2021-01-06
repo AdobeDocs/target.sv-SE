@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Target SKill Builder-s
 title: Målmeddelanden
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,21 @@ Läs om detta på [Adobe-bloggen](https://blog.adobe.com/en/2020/11/24/adobe-nam
 Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra.
 
 [Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Webbseminarium: Lyckad personalisering i stor skala: Viktiga resultat från Forrester Wave, Experience Optimization Platforms
+
+* **Tisdag 19 januari**
+* **8.00 PT | 10.00 CT | 11.00 ET**
+* **Varaktighet: 60 minuter**
+* **[Registrera dig här](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+
+Möjligheten att optimera kundupplevelserna i stor skala är nu av avgörande betydelse för att tillgodose kundernas dynamiska behov och den senaste ökningen av nya digitala besökare. En plattform för upplevelseoptimering, som [!DNL Adobe Target], kan användas i alla era digitala resurser för att snabbt avgöra och leverera rätt upplevelse till era kunder vid rätt tidpunkt, med hjälp av manuell och AI-driven beteendeanpassning, testning och rekommendationer. Besök oss och vår speciella gäst James McCormick, chefsanalytiker på Forrester, när vi presenterar och diskuterar de viktigaste resultaten från The Forrester Wave, Experience Optimization Platforms, Q4 2020.
+
+I det här webbinariet får du lära dig:
+
+* Branschtrender som formar utvecklingen av verktyg för personalisering och upplevelseoptimering
+* Viktiga funktioner i en ledande plattform för upplevelseoptimering
+* Bästa tillvägagångssätt för optimering av kundupplevelser i stor skala för maximal effekt på verksamheten
 
 ## Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target
 
