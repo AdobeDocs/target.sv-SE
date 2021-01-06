@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '3210'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 4 januari 2021 | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ändrade datumet då Target inte längre stöder mbox.js från 18 januari 2021 till 31 mars 2021. |
+| 6 januari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information och registreringsinformation för följande webbinarium:<ul><li>Lyckad personalisering i stor skala: Viktiga resultat från Forrester Wave, Experience Optimization Platforms.</li></ul> |
+| 4 januari | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ändrade datumet då Target inte längre stöder mbox.js från 18 januari 2021 till 31 mars 2021. |
 | 18 december | [A/A-tester](/help/c-activities/t-test-ab/aa-testing.md) | Nytt ämne. |
 | 17 december | [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Uppdaterad tabell som indikerar att Java SDK har stöd för A4T. |
 | 16 december | [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Följande frågor och svar har lagts till: &quot;Vad händer om jag tar bort en upplevelse från en aktivitet med Automatiskt mål?&quot; |
