@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
-description: Adobe Target kan integreras med webbplatser via ett av två JavaScript-bibliotek. at.js eller mbox.js
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+description: Information om hur Adobe Target fungerar, inklusive information om Adobe Experience Platform Web SDK, Target JavaScript-biblioteken (at.js och mbox.js) och de olika aktivitetstyper som du kan skapa i Target.
 title: Så här fungerar Adobe Target
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2530'
 ht-degree: 1%
 
 ---
@@ -14,25 +14,30 @@ ht-degree: 1%
 
 # Så här fungerar Adobe Target
 
-Information om hur Adobe Target fungerar, inklusive information om Target JavaScript-bibliotek (at.js och mbox.js) och de olika aktivitetstyperna som ingår i Target.
+Information om hur [!DNL Adobe Target] fungerar, inklusive information om [!DNL Adobe Experience Platform Web SDK], JavaScript-biblioteken [!DNL Target] (at.js och mbox.js) och de olika aktivitetstyper som du kan skapa med Target.
 
-## Mål-JavaScript-bibliotek {#libraries}
+## SDK:er för målplattformen och JavaScript-bibliotek {#libraries}
 
-Adobe Target kan integreras med webbplatser via JavaScript-bibliotek:
+Adobe Target kan integreras med webbplatser via [!DNL AEP Web SDK]- eller JavaScript-biblioteken:
 
+* **Adobe Experience Platform Web SDK:** The  [AEP Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDKär ett nytt JavaScript-bibliotek på klientsidan som gör det möjligt  [!DNL Adobe Experience Cloud] för kunder att interagera med de olika tjänsterna i  [!DNL Experience Cloud] (inklusive  [!DNL Target]) via  [!DNL Adobe Experience Platform] Edge Network. Se [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) för [!DNL Target]-specifik information.
 * **at.js:** The  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) library är det nya implementeringsbiblioteket för Target. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js är det rekommenderade implementeringsbiblioteket och uppdateras ofta med nya funktioner. Vi rekommenderar att alla kunder implementerar eller migrerar till den [senaste versionen av at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **Adobe Experience Platform Web SDK:** The  [Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDKär ett nytt JavaScript-bibliotek på klientsidan som gör det möjligt  [!DNL Adobe Experience Cloud] för kunder att interagera med de olika tjänsterna i  [!DNL Experience Cloud] via  [!DNL Adobe Experience Platform] Edge Network.
-* **mbox.js:** The  [mbox.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) libraryis the legacy implementation library for Target. Biblioteket mbox.js stöds fortfarande fram till 31 mars 2021, men det kommer inte att finnas några funktionsuppdateringar.
+* **mbox.js:** The  [mbox.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) libraryis the legacy implementation library for Target. Biblioteket mbox.js stöds fram till 31 mars 2021, men det kommer inte att finnas några funktionsuppdateringar.
 
 >[!IMPORTANT]
 >
->Alla kunder bör migrera till at.js. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>Alla kunder bör migrera till [!DNL AEP Web SDK] eller till den senaste versionen av at.js. Mer information finns i [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) eller [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Du måste referera till JavaScript-målbiblioteksfilen på alla sidor på webbplatsen. Du kan till exempel lägga till den i det globala sidhuvudet. Du kan också överväga att använda [tagghanteraren för Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Du måste referera till [!DNL AEP Web SDK] eller at.js på alla sidor på webbplatsen. Du kan till exempel lägga till en av dessa i det globala sidhuvudet. Du kan också överväga att använda [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html).
 
-Varje gång en besökare begär en sida som har optimerats för Target skickas en begäran till målinriktningssystemet för att avgöra vilket innehåll som ska användas för en besökare. Den här processen sker i realtid - varje gång en sida läses in görs en begäran om innehållet och utförs av systemet. Innehållet styrs av reglerna för marknadsföringsstyrda aktiviteter och upplevelser och är riktat till den enskilda besökaren. Innehållet utnyttjas av besökarna på webbplatsen som mest sannolikt reagerar på, interagerar med och i slutändan köper för att maximera svarsfrekvensen, kundvärvningsfrekvensen och intäkterna.
+Följande resurser hjälper dig att implementera AEP Web SDK eller at.js:
 
-I Target är varje element på sidan en del av en enda upplevelse för hela sidan. Varje upplevelse kan innehålla flera element på sidan.
+* [Adobe Experience Platform Web SDK-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
+* [Implementera mål med Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+
+Varje gång en besökare begär en sida som har optimerats för [!DNL Target] skickas en begäran till målsystemet för att avgöra vilket innehåll som ska användas för en besökare. Den här processen sker i realtid, varje gång en sida läses in, görs en begäran om innehållet och utförs av systemet. Innehållet styrs av reglerna för marknadsföringsstyrda aktiviteter och upplevelser och är riktat till den enskilda besökaren. Innehållet utnyttjas av besökarna på webbplatsen som mest sannolikt reagerar på, interagerar med och i slutändan köper för att maximera svarsfrekvensen, kundvärvningsfrekvensen och intäkterna.
+
+I [!DNL Target] är varje element på sidan en del av en upplevelse för hela sidan. Varje upplevelse kan innehålla flera element på sidan.
 
 Det innehåll som visas för besökarna beror på vilken typ av aktivitet du skapar:
 
