@@ -2,11 +2,11 @@
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
 description: Tillåtelselista Adobe Target kantnoder
 title: Tillåtelselista Adobe Target kantnoder
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Tillåtelselista: Hörnkantsnoder
 
-Information och en uppdaterad lista över värdar som kan hjälpa dig att tillåtslista Adobe [!DNL Target]-kanter.
+Information och en uppdaterad lista över värdar som kan hjälpa dig att tillåtslista kanter i [!DNL Adobe Target].
 
 En kant är en geografiskt fördelad serverarkitektur som ger optimala svarstider för slutanvändare som behöver innehåll, oavsett var de befinner sig i världen. Varje edge-nod har all information som krävs för att svara på användarens innehållsförfrågan och för att spåra analysdata på den begäran. Användarförfrågningar dirigeras till närmaste kantnod. Mer information finns i [Edge Network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) i *Hur Adobe [!DNL Target] fungerar*.
 
