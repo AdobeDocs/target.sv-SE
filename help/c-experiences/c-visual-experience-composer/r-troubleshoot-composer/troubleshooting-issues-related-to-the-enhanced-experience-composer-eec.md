@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: Visningsproblem kan ibland uppstå i Enhanced Experience Composer (EEC) under vissa förhållanden.
+description: Visningsproblem kan ibland uppstå i Adobe Target Enhanced Experience Composer (EEC) under vissa förhållanden.
 title: Felsökning av problem relaterade till Förbättrad Experience Composer
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 
-# Felsökning av problem relaterade till Förbättrad Experience Composer{#troubleshooting-issues-related-to-the-enhanced-experience-composer}
+# Felsöka problem med Förbättrad Experience Composer
 
-Visningsproblem kan ibland uppstå i Enhanced Experience Composer (EEC) under vissa förhållanden.
+Visningsproblem kan ibland uppstå i [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) under vissa förhållanden.
 
 ## EEG läser inte in en intern QA-URL som inte är tillgänglig på offentlig IP. (Endast EEC) {#section_D29E96911D5C401889B5EACE267F13CF}
 
