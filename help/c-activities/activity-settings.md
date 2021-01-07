@@ -1,20 +1,20 @@
 ---
-keywords: Goal &Settings;objective;priority;duration
-description: Använd Aktivitetsinställningar för att hantera mål, prioritet och varaktighet för dina aktiviteter.
+keywords: Goal & Settings;objective;priority;duration
+description: Använd Aktivitetsinställningar i Adobe Target för att hantera mål, prioritet och varaktighet för dina aktiviteter.
 title: Aktivitetsinställningar
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 
-# Aktivitetsinställningar{#activity-settings}
+# Aktivitetsinställningar
 
-Använd Aktivitetsinställningar för att hantera mål, prioritet och varaktighet för dina aktiviteter.
+Använd [!UICONTROL Activity Settings] i [!DNL Adobe Target] för att hantera mål, prioritet och varaktighet för dina aktiviteter.
 
 1. Skriv anteckningar om aktivitetens mål.
 
