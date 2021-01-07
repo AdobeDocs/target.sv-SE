@@ -1,33 +1,34 @@
 ---
-keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox
-description: Implementera Target genom att referera till Target-biblioteken (at.js eller mbox.js) på dina webbsidor.
+keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
+description: Implementera Adobe Target genom att referera till Target-biblioteken (at.js eller mbox.js) på dina webbsidor.
 title: Förstå målbiblioteken i JavaScript
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
 
-# Förstå [!DNL Target] JavaScript-biblioteken{#understand-the-target-javascript-libraries}
+# Förstå [!DNL Target] JavaScript-biblioteken
 
-Implementera [!DNL Target] genom att referera till [!DNL Target]-biblioteken (at.js eller mbox.js) på dina webbsidor.
+Implementera [!DNL Target] genom att referera till [!DNL Adobe Target]-biblioteken (Adobe Experience Platform Web SDK, at.js eller mbox.js) på dina webbsidor.
 
 >[!NOTE]
 >
 >Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-## Skillnader mellan de två biblioteken {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Skillnader mellan mål-JavaScript-bibliotek {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
-I följande tabell förklaras skillnaderna mellan de två biblioteken:
+I följande tabell förklaras skillnaderna mellan JavaScript-biblioteken [!DNL Target]:
 
 | Biblioteksreferens | Beskrivning |
 |--- |--- |
-| at.js | at.js ersätter mbox.js för [!DNL Target] implementeringar.<br>Bland annat har at.js förbättrat sidinläsningstiderna för webblöplementeringar, förbättrat säkerheten, förhindrat dokument.write-varningar i Google Chrome och gett bättre implementeringsalternativ för enkelsidiga program.<br>Mer information finns  [i implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) av at.js. |
-| mbox.js | Före [!DNL Target] 16.3.1 (mars 2016) behövde [!DNL Target] ett anrop till mbox.js för att skapa den globala mbox som krävs för att [!DNL Target] ska kunna leverera aktiviteter, spåra klick och spåra de flesta framgångsmått. Den här filen innehåller de bibliotek som behövs för alla dina aktiviteter. Du behöver inte underhålla olika aktivitetsspecifika versioner av filen.<br>Om du redan har kapslade rutor på sidorna från en äldre  [!DNL Target] implementeringsstil kan dessa rutor fortfarande användas i det nya gränssnittet. Den uppdaterade filen mbox.js krävs fortfarande, men dessa mbox kan väljas för aktiviteter och redigeras med Visual Experience Composer.<br>[!DNL Target] Standard och Premium - uppdatera och komplettera mbox.js med en referens till en target.js-fil. Filen target.js hanteras av Adobe. Med filen Target.js kan du redigera innehåll på alla sidor med Visual Experience Composer, även om sidan inte innehåller fördefinierade rutor. Du måste referera till den här filen på alla sidor på webbplatsen.<br>Mer information finns i Implementering av  [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).<br>**Viktigt**: Biblioteket mbox.js stöds fortfarande, men det kommer inte att finnas några funktionsuppdateringar. Alla kunder bör migrera till at.js. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br> |
+| Adobe Experience Platform Web SDK | Med [!UICONTROL Adobe Experience Platform Web SDK] kan du interagera med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via Adobe Experience Edge-nätverket. Om du väljer att migrera till [!DNL Adobe Experience Platform Web SDK] läser du [What is Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) i *Web SDK Guide*. Se [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) för [!DNL Target]-specifik information. |
+| at.js | at.js ersätter mbox.js för [!DNL [!DNL Target]] implementeringar.<br>Bland annat har at.js förbättrat sidinläsningstiderna för webblöplementeringar, förbättrat säkerheten, förhindrat dokument.write-varningar i Google Chrome och gett bättre implementeringsalternativ för enkelsidiga program.<br>Mer information finns  [i implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) av at.js. |
+| mbox.js | Före [!DNL Target] 16.3.1 (mars 2016) behövde [!DNL Target] ett anrop till mbox.js för att skapa den globala mbox som krävs för att [!DNL Target] ska kunna leverera aktiviteter, spåra klick och spåra de flesta framgångsmått. Den här filen innehåller de bibliotek som behövs för alla dina aktiviteter. Du behöver inte underhålla olika aktivitetsspecifika versioner av filen.<br>Om du redan har kapslade rutor på sidorna från en äldre  [!DNL Target] implementeringsstil kan dessa rutor fortfarande användas i det nya gränssnittet. Den uppdaterade filen mbox.js krävs fortfarande, men dessa mbox kan väljas för aktiviteter och redigeras med Visual Experience Composer.<br>[!DNL Target] Standard och Premium - uppdatera och komplettera mbox.js med en referens till en target.js-fil. Filen target.js hanteras av Adobe. Med filen Target.js kan du redigera innehåll på alla sidor med Visual Experience Composer, även om sidan inte innehåller fördefinierade rutor. Du måste referera till den här filen på alla sidor på webbplatsen.<br>Mer information finns i Implementering av  [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).<br>**Viktigt**: Den 31 mars 2021  [!DNL Adobe Target] kommer inte längre att ha stöd för mbox.js-biblioteket. Efter den 31 mars 2021 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där [!DNL Target]-aktiviteter körs genom att standardinnehåll används. Vi rekommenderar att alla kunder migrerar till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js före detta datum för att undvika eventuella problem med dina webbplatser.<br> |
 
 ## Inverkan av at.js och mbox.js på sidinläsningstid {#section_16630CD0FF0A498EB596A51381366A5A}
 
