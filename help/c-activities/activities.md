@@ -2,19 +2,19 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Med funktionerna i Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign
 title: Med Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign.
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
 
 
-# Aktiviteter{#activities}
+# Verksamhet
 
-Med Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign.
+Med aktiviteter i [!DNL Adobe Target] kan du anpassa innehåll efter specifika målgrupper och testa siddesign.
 
 Du kan till exempel utforma en aktivitet som testar två olika landningssidor, en som markerar information om damernas sommarskor och en annan landningssida som markerar mer allmänna sommarkläder. Aktiviteten avgör vilka villkor som styr när var och en av dessa landningssidor visas och vilka mått som avgör vilken sida som blir mest framgångsrik. Aktiviteten är konfigurerad att starta och avsluta när vissa villkor uppfylls, till exempel mellan specifika datum, eller att starta när aktiviteten har godkänts och att sluta när den har inaktiverats.
 
