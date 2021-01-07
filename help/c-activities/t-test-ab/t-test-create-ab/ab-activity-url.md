@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: Aktivitets-URL:en bestämmer vilken sida som används i testet och som öppnas när testet har utformats.
+description: Aktivitets-URL:en bestämmer vilken sida som används i testet och som öppnas när testet har utformats med Adobe Target.
 title: Aktivitets-URL
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 
-# Aktivitets-URL{#activity-url}
+# Aktivitets-URL
 
-Aktivitets-URL:en bestämmer vilken sida som används i testet och som öppnas när testet har utformats.
+Aktivitets-URL:en bestämmer vilken sida som används i testet och som öppnas när testet har utformats med Adobe Target.
 
 Ange aktivitets-URL när du uppmanas att göra det när aktiviteten skapas. Skriv den fullständiga URL:en (inklusive `https://`) och klicka sedan på **[!UICONTROL Create]**.
 
