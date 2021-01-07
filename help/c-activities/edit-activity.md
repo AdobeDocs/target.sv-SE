@@ -1,20 +1,20 @@
 ---
 keywords: activities;activity;activity types;edit activity;edit;draft
-description: Information om olika sätt att redigera en befintlig aktivitet, inklusive att spara en aktivitet i ett utkast.
+description: Information om olika sätt att redigera en befintlig aktivitet i Adobe Target, inklusive att spara en aktivitet i ett utkast.
 title: Redigera en aktivitet eller spara som utkast
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
 
 
-# Redigera en aktivitet eller spara som utkast{#edit-an-activity-or-save-as-draft}
+# Redigera en aktivitet eller spara som utkast
 
-Information om olika sätt att redigera en befintlig aktivitet, inklusive att spara en aktivitet i ett utkast.
+Information om olika sätt att redigera en befintlig aktivitet i [!DNL Adobe Target], inklusive att spara en aktivitet i ett utkast.
 
 Target innehåller olika platser i användargränssnittet där du kan redigera befintliga aktiviteter. Processen varierar beroende på vilken metod du väljer.
 
