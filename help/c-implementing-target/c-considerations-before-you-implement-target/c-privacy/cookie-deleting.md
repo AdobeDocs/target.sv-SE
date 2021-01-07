@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: Ta bort cookies i målwebbläsaren så att du kan validera alla dina upplevelser.
 title: Ta bort Adobe Target cookie
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Ta bort målcookien{#delete-the-target-cookie}
+# Ta bort målcookien
 
-Du kan ta bort din [!DNL Target] webbläsarcookie (mbox) så att du kan validera alla dina upplevelser under testningen.
+Du kan ta bort din [!DNL Adobe Target] webbläsarcookie (mbox) så att du kan validera alla dina upplevelser under testningen.
 
 Om det inte finns någon [!DNL Target]-cookie (mbox) betraktas du som en ny besökare och visas som en ny upplevelse. Det finns flera sätt att ta bort din mbox utan att ta bort alla webbläsarcookies.
 
