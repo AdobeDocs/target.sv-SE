@@ -4,7 +4,7 @@ description: Information om Adobe Target server-side delivery API:er, SDK:er och
 title: Information om Adobe Target server-side delivery API:er, Node.js SDK och Target Recommendations API:er.
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Serversida: implementera mål{#server-side-implement-target}
+# Serversida: implementera mål
 
 Information om [!DNL Adobe Target] API:er för leverans på serversidan, SDK:er och [!DNL Target Recommendations] API:er.
 
