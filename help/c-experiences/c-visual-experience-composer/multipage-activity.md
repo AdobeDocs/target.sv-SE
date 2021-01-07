@@ -1,20 +1,20 @@
 ---
 keywords: multi-page;journey testing;multipage activity
-description: Med en flersidig aktivitet kan du skapa en artikel över flera sidor, med en design som är specifik för varje sida.
+description: Med en flersidig aktivitet i Adobe Target kan du skapa en artikel över flera sidor, med en design som är specifik för varje sida.
 title: Flersidig aktivitet
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
 
-# Flersidig aktivitet{#multipage-activity}
+# Flersidig aktivitet
 
-Med en flersidig aktivitet kan du skapa en artikel över flera sidor, med en design som är specifik för varje sida.
+Med en flersidig aktivitet i [!DNL Adobe Target] kan du skapa en artikel över flera sidor, med en design som är specifik för varje sida.
 
 Du kanske vill testa ett erbjudande om fri frakt med inköp över ett visst belopp. Du kanske vill att erbjudandet ska visas på landningssidan, på en kategorisida och på vissa produktsidor, men du vill att det ska vara olika stort och på olika platser för varje sidtyp. Du kan visa ett framträdande erbjudande på din hemsida och sedan förstärka erbjudandet med mindre erbjudanden på andra relevanta sidor.
 
