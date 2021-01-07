@@ -1,10 +1,10 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Använd fjärrerbjudanden för att lagra innehåll utanför Target som Target refererar till och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
+description: Använd fjärrerbjudanden för att lagra innehåll utanför Adobe Target som Target refererar till och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
 title: Skapa fjärrerbjudanden
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -12,9 +12,9 @@ ht-degree: 1%
 ---
 
 
-# Skapa fjärrerbjudanden{#create-remote-offers}
+# Skapa fjärrerbjudanden
 
-Använd fjärrerbjudanden för att lagra innehåll utanför Target som Target refererar till och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
+Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Adobe Target] som Target refererar till och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
 
 >[!NOTE]
 >
