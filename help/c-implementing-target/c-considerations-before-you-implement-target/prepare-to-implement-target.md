@@ -2,19 +2,19 @@
 keywords: implement;implementing;rfi;request for information
 description: Det finns uppgifter du bör utföra och information som du bör samla in när du förbereder implementering av Adobe Target.
 title: Förbered implementering av Adobe Target
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
 
-# Förbered implementering av mål {#prepare-to-implement-target}
+# Förbered implementering av Target
 
-Det finns uppgifter som du bör slutföra och information som du bör samla in när du förbereder implementering av Target.
+Det finns uppgifter som du bör slutföra och information som du bör samla in när du förbereder implementering av [!DNL Adobe Target].
 
 Om du följer dessa riktlinjer och fyller i de bifogade frågeformulären kan du implementera Target, oavsett om du implementerar själv eller arbetar med Adobe Consulting (rekommenderas).
 
