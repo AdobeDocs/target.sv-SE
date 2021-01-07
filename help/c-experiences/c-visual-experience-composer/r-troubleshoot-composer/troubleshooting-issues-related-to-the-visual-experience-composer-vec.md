@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
-description: Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) under vissa förhållanden.
+description: Visningsproblem kan ibland uppstå i Adobe Target Visual Experience Composer (VEC) under vissa förhållanden.
 title: Felsökning av problem relaterade till Visual Experience Composer
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
 
 
-# Felsökning av problem relaterade till Visual Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer}
+# Felsöka problem med Visual Experience Composer
 
-Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) under vissa förhållanden.
+Visningsproblem kan ibland uppstå i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) under vissa förhållanden.
 
 ## När jag öppnar min webbplats i Visual Experience Composer läses inte målbiblioteken in. (Endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
