@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Skapa en mapp för objekt i offertbiblioteket.
+description: Skapa en mapp för objekt i offertbiblioteket i Adobe Target.
 title: Skapa erbjudandemapp
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 
-# Skapa erbjudandemapp{#create-offer-folder}
+# Skapa erbjudandemapp
 
-Skapa en mapp för objekt i offertbiblioteket.
+Skapa en mapp för objekt i offertbiblioteket i Adobe Target.
 
 1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Code Offers]** eller **[!UICONTROL Image Offers]**.
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
