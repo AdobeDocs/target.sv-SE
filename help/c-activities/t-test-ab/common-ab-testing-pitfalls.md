@@ -1,20 +1,20 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: A/B-tester utgör ryggraden i de flesta optimeringsprogram för digital marknadsföring och hjälper marknadsförare att erbjuda optimerade och målinriktade upplevelser till sina besökare och kunder. I det här avsnittet beskrivs nio av de största fallgropar som företag kan räkna med när de utför A/B-tester i Adobe Target. Det innehåller även sätt att undvika dem, så att ditt företag kan få större avkastning genom sina testsatsningar och ha större förtroende för de rapporterade A/B-testresultaten.
+description: A/B-testning i Adobe Target utgör ryggraden i de flesta optimeringsprogram för digital marknadsföring och hjälper marknadsförarna att erbjuda optimerade och målinriktade upplevelser till sina besökare och kunder. I det här avsnittet beskrivs nio av de största fallgropar som företag kan räkna med när de utför A/B-tester i Adobe Target. Det innehåller även sätt att undvika dem, så att ditt företag kan få större avkastning genom sina testsatsningar och ha större förtroende för de rapporterade A/B-testresultaten.
 title: Nio vanliga A/B-testfall och hur man undviker dem
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3918'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
 
 
-# Tio vanliga A/B-testfall och hur man undviker dem{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Tio vanliga A/B-testfall och hur man undviker dem
 
-A/B-tester utgör ryggraden i de flesta optimeringsprogram för digital marknadsföring och hjälper marknadsförare att erbjuda optimerade och målinriktade upplevelser till sina besökare och kunder. I det här avsnittet beskrivs tio av de största fallgropar som företag hamnar på när de utför A/B-tester. Det innehåller även sätt att undvika dem, så att ditt företag kan få större avkastning genom sina testsatsningar och ha större förtroende för de rapporterade A/B-testresultaten.
+A/B-testning i [!DNL Adobe Target] är ryggraden i de flesta optimeringsprogram för digital marknadsföring, vilket hjälper marknadsförarna att erbjuda optimerade och målinriktade upplevelser till sina besökare och kunder. I det här avsnittet beskrivs tio av de största fallgropar som företag hamnar på när de utför A/B-tester. Det innehåller även sätt att undvika dem, så att ditt företag kan få större avkastning genom sina testsatsningar och ha större förtroende för de rapporterade A/B-testresultaten.
 
 ## Pitfall 1: Ignorerar effekterna av signifikansnivån {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
