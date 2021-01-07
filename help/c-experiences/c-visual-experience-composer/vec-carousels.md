@@ -1,20 +1,20 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: I det här avsnittet beskrivs hur du skapar en karusell som kan redigeras i Visual Experience Composer (VEC).
+description: I det här avsnittet beskrivs hur du skapar en karusell som kan redigeras i Adobe Target Visual Experience Composer (VEC).
 title: Skapa Carousel som fungerar i Visual Experience Composer
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
 
-# Skapa Carousel som fungerar i Visual Experience Composer{#creating-carousels-that-work-in-the-visual-experience-composer}
+# Skapa Carousel som fungerar i Visual Experience Composer
 
-I det här avsnittet beskrivs hur du skapar en karusell som kan redigeras i Visual Experience Composer (VEC).
+I det här avsnittet visas hur du skapar en karusell som kan redigeras i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 
 När du använder stegen nedan vet [!DNL Target] alltid att den valda bildrutan kommer att ha väljaren för rätt bildruta, även om den ändras i Visual Experience Composer efter några sekunder.
 
