@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
-description: Ett lyckat A/B-test kräver ett tillräckligt antal besökare (provstorlek) för att förbättra konverteringsgraden, men hur vet du hur länge ett A/B-test ska köras? Den här artikeln innehåller information om Automatisk allokering och Adobe Target Sample Size Calculator som hjälper dig att se till att din aktivitet har tillräckligt många besökare för att uppnå dina mål.
+description: Ett lyckat A/B-test i Adobe Target kräver ett tillräckligt antal besökare (provstorlek) för att förbättra konverteringsgraden, men hur vet du hur länge ett A/B-test ska köras? Den här artikeln innehåller information om Automatisk allokering och Adobe Target Sample Size Calculator som hjälper dig att se till att din aktivitet har tillräckligt många besökare för att uppnå dina mål.
 title: Hur länge ska du köra ett A/B-test?
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3081'
+source-wordcount: '3084'
 ht-degree: 0%
 
 ---
