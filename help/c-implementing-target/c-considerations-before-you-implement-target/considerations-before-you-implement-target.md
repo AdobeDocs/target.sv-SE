@@ -2,19 +2,19 @@
 keywords: implement;implementing
 description: Tänk på vad du bör tänka på innan du implementerar Adobe Target.
 title: Innan du implementerar
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 
-# Innan du implementerar{#before-you-implement}
+# Innan du implementerar
 
-Tänk på vad du bör tänka på innan du implementerar Adobe Target.
+Du bör tänka på vad du bör tänka på innan du implementerar [!DNL Adobe Target].
 
 Det här avsnittet innehåller information för utvecklare som är specifika för implementeringen som de behöver samla in, sekretessfrågor, en diskussion om cookies, en lista över olika metoder som kan användas för att hämta data till Target, säkerhetsfrågor och information om TLS (Transport Layer Security)-kryptering.
 
