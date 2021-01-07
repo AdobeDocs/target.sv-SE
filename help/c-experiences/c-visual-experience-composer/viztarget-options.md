@@ -2,19 +2,19 @@
 keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: När du klickar på ett sidelement i Adobe Target Visual Experience Composer (VEC) visas de alternativ som är tillgängliga för den elementtypen på en meny.
 title: Alternativ för Adobe Target Visual Experience Composer (VEC)
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
 
 
-# Alternativ för Visual Experience Composer{#visual-experience-composer-options}
+# Alternativ för Visual Experience Composer
 
-När du klickar på ett sidelement i Visual Experience Composer (VEC) visas de alternativ som är tillgängliga för den elementtypen på en meny. Dessutom visas en DOM-sökväg längst ned på sidan, så att du enkelt kan navigera i sidstrukturen.
+När du klickar på ett sidelement i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) visas de alternativ som är tillgängliga för den elementtypen på en meny. Dessutom visas en DOM-sökväg längst ned på sidan, så att du enkelt kan navigera i sidstrukturen.
 
 ## VEC-alternativ
 
