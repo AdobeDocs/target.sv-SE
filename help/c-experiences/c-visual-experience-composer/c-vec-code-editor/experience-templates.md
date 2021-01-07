@@ -2,19 +2,19 @@
 keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
 description: Information om Adobe Target Experience Templates som kan användas i anpassad kod. Target Experience Templates är förkodade exempel med konfigurerbara indata som används för att köra vanliga marknadsföringsfall.
 title: Experience Templates
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 
-# Experience Templates{#experience-templates}
+# Experience Templates
 
-Information om Adobe Target Experience Templates som kan användas i anpassad kod. Target Experience Templates är förkodade exempel med konfigurerbara indata som används för att köra vanliga marknadsföringsfall.
+Information om [!DNL Adobe Target] Experience Templates för användning i anpassad kod. [!DNL Target] Experience Templates är förkodade exempel med konfigurerbara indata som används för att köra vanliga användningsfall för marknadsförare.
 
 Dessa Experience Templates är kostnadsfria för utvecklare och marknadsförare som en startpunkt för vanliga användningsfall, antingen via VEC eller den formulärbaserade Experience Composer.
 
