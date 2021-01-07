@@ -1,18 +1,20 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention
+keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
 description: Information om Adobe Target stöd för Apples ITP 2.x via Experience Cloud ID-biblioteket 4.3.
 title: Stöd för Adobe Target och Apple ITP
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 
 # Apple Intelligent Tracking Prevention (ITP) 2.x
+
+Information om [!DNL Adobe Target]-stöd för Apples ITP 2.x via Experience Cloud ID-biblioteket 4.3.
 
 ITP (Intelligent Tracking Prevention) är Apples initiativ att skydda Safaris integritet. Den första releasen av ITP, som var 2017, var inriktad på användning av cookies från tredje part. Faktum är att Apple blockerade cookies från tredje part i sin helhet, vilket i sin tur orsakade stor huvudvärk för reklamtekniker och reklamtekniker eftersom cookies från tredje part i allmänhet används för att spåra besökare och samla in besöksdata. Nu är Apple på språng för att införa begränsningar och begränsningar för hur cookies från första part används i Safari.
 
