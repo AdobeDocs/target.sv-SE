@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: Publiken avgör vilka besökare som läggs in i din aktivitet.
+description: Publiken avgör vilka besökare som läggs in i din Adobe Target-aktivitet.
 title: Välj målgrupp
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
 
-# Välj målgrupp{#select-audience}
+# Välj målgrupp
 
-Publiken avgör vilka besökare som läggs in i din aktivitet.
+Publiken avgör vilka besökare som läggs in i din [!DNL Adobe Target]-aktivitet.
 
 >[!NOTE]
 >
