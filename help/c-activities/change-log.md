@@ -1,19 +1,20 @@
 ---
+keywords: activity change log;change log
 description: Ändringsloggen visar vem som ändrat dina aktiviteter och när ändringarna inträffade.
 title: Logg för aktivitetsändring i Adobe Target
 feature: activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
 
-# Logg för aktivitetsändring{#activity-change-log}
+# Logg för aktivitetsändring
 
-Ändringsloggen visar vem som ändrat dina aktiviteter och när ändringarna inträffade.
+Ändringsloggen i [!DNL Adobe Target] visar vem som har ändrat dina aktiviteter och när ändringarna inträffade.
 
 1. Öppna aktiviteten och klicka sedan på **[!UICONTROL Change Log]**.
 
