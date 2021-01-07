@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Det finns ett antal åtgärder du kan utföra på en resurs i biblioteket.
+description: Det finns ett antal åtgärder du kan utföra på en resurs i biblioteket i Adobe Target.
 title: Arbeta med innehåll i biblioteket
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 
-# Arbeta med innehåll i biblioteket{#work-with-content-in-the-library}
+# Arbeta med innehåll i biblioteket
 
-Information om de uppgifter du kan utföra på en resurs i innehållsbiblioteket.
+Information om de uppgifter du kan utföra på en resurs i innehållsbiblioteket i [!DNL Adobe Target].
 
 1. Klicka på **[!UICONTROL Offer]**, välj fliken **[!UICONTROL Code Offer]** eller **[!UICONTROL Image Offer]** och leta sedan reda på den resurs du vill arbeta med.
 
