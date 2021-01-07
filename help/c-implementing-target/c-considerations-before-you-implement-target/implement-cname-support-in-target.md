@@ -2,9 +2,9 @@
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: Information om hur du arbetar med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i Adobe Target.
 title: CNAME och Adobe Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 677d5ed16377fc32b4506ca736084319e5643e67
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# CNAME och Adobe Target {#cname-and-adobe-target}
+# CNAME och Adobe Target
 
 Instruktioner för hur du arbetar med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i [!DNL Adobe Target]. För att på bästa sätt hantera annonsblockeringsproblem, eller ITP-relaterade cookie-policyer, används en CNAME så att anrop görs till en domän som ägs av kunden i stället för till en domän som ägs av Adobe.
 
