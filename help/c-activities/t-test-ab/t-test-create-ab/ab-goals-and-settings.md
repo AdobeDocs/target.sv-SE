@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: På sidan Mål och inställningar anger du information om målet för testet.
+description: På sidan Mål och inställningar i Adobe Target anger du information om testets mål.
 title: Mål och inställningar
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 
-# Mål och inställningar {#goals-and-settings}
+# Mål och inställningar
 
-På sidan Mål och inställningar anger du information om målet för testet.
+På sidan Mål och inställningar i [!DNL Adobe Target] anger du information om målet för testet.
 
 Vilka inställningar som är tillgängliga beror på om du använder Target eller [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) som datakälla.
 
