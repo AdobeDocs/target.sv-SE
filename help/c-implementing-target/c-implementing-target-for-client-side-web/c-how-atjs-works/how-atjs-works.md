@@ -2,9 +2,9 @@
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target systemdiagram som visar flödet av anrop och information som skickas eller samlas in för en automatiskt skapad global mbox med at.js.
 title: Hur Adobe Target JavaScript-bibliotek fungerar
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# Hur at.js fungerar{#how-at-js-works}
+# Hur at.js fungerar
 
 Om du vill implementera [!DNL Adobe Target] på klientsidan måste du använda JavaScript-biblioteket at.js.
 
