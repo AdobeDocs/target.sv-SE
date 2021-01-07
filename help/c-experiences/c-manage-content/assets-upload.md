@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: Du kan lägga till objekt i listan med bilderbjudanden.
+description: Du kan lägga till objekt i listan med bilderbjudanden i Adobe Target.
 title: Överför innehåll
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 6%
+source-wordcount: '104'
+ht-degree: 5%
 
 ---
 
 
-# Överför innehåll{#upload-content}
+# Överför innehåll
 
-Du kan lägga till eller ta bort objekt från listan Bilderbjudanden.
+Du kan lägga till eller ta bort objekt från listan med bilderbjudanden i [!DNL Adobe Target].
 
 1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Image Offers]**.
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Files]**.
