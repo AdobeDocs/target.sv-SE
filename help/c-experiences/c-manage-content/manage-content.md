@@ -1,12 +1,12 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Använd biblioteket Erbjudanden för att hantera erbjudanden och bilderbjudanden.
+description: Använd offertbiblioteket i Adobe Target för att hantera erbjudanden och bilderbjudanden.
 title: Erbjudanden
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Erbjudanden{#offers}
 
-Använd biblioteket Erbjudanden för att hantera erbjudanden och bilderbjudanden.
+Använd erbjudandebiblioteket i [!DNL Adobe Target] för att hantera ditt erbjudande och innehåll i bilderbjudanden.
 
 >[!NOTE]
 >
