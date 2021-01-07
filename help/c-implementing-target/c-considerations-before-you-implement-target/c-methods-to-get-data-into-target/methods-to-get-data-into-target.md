@@ -1,10 +1,10 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: Information om de olika metoder du kan använda för att hämta data till Target, inklusive sidparametrar, profilattribut på sidan, skriptprofilattribut, DataProvider, API för bulkprofiluppdatering, API för single profile update och kundattribut.
+description: Information om de olika metoder du kan använda för att hämta data till Adobe Target, inklusive sidparametrar, profilattribut på sidan, skriptprofilattribut, DataProvider, API för bulkprofiluppdatering, API för single profile update och kundattribut.
 title: Metoder för att hämta data till Target
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Metoder för att hämta data till Target{#methods-to-get-data-into-target}
+# Metoder för att hämta data till Target
 
-Information om de olika metoder du kan använda för att hämta data till Target, inklusive sidparametrar, profilattribut på sidan, skriptprofilattribut, DataProvider, API för bulkprofiluppdatering, API för single profile update och kundattribut.
+Information om de olika metoder du kan använda för att hämta data till [!DNL Adobe Target], inklusive sidparametrar, profilattribut på sidan, skriptprofilattribut, DataProvider, API för satsprofiluppdatering, API för uppdatering av en profil samt kundattribut.
 
 ## Sidparametrar (kallas även&quot;mbox parameters&quot;) {#section_5A297816173C4FE48DC4FE03860CB42B}
 
