@@ -2,19 +2,19 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target har aktiverat processer och inställningar som gör att du kan använda Target i enlighet med gällande datasekretesslagstiftning.
 title: Integritet
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
 
-# Sekretess{#privacy}
+# Integritet
 
-Adobe Target har aktiverat processer och inställningar som gör att du kan använda Target i enlighet med gällande datasekretesslagstiftning.
+[!DNL Adobe Target] har aktiverat processer och inställningar som gör att du kan använda dem  [!DNL Target] i enlighet med gällande datasekretesslagstiftning.
 
 ## Samling med IP-adresser {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
