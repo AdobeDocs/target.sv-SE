@@ -2,11 +2,11 @@
 keywords: security;security practices
 description: Information om den djupgående infallsvinkel och de säkerhetsrutiner som Adobe implementerat för att öka säkerheten för era data och Adobe Target upplevelser.
 title: Översikt över målsäkerhet
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Översikt över målsäkerhet
 
-Information om den djupgående infallsvinkel och de säkerhetsrutiner som Adobe implementerat för att öka säkerheten för era data och Adobe Target upplevelser.
+Information om den ingående metoden och de säkerhetsprocedurer som implementeras av [!DNL Adobe] för att öka säkerheten för dina data och [!DNL Adobe Target]-upplevelsen.
 
 På Adobe tar vi säkerheten i er digitala upplevelse på stort allvar. Säkerhetsrutinerna är djupt integrerade i vår interna programutveckling och våra processer och verktyg för drift och följs noggrant av våra funktionsövergripande team för att förebygga, upptäcka och hantera incidenter på ett snabbt sätt.
 
