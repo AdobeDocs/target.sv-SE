@@ -2,19 +2,19 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Information om omdirigeringserbjudanden i Adobe Target som gör att en webbläsare dirigerar om till en ny sida.
 title: Skapa omdirigeringserbjudanden
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '556'
 ht-degree: 1%
 
 ---
 
 
-# Skapa omdirigeringserbjudanden{#create-redirect-offers}
+# Skapa omdirigeringserbjudanden
 
-Omdirigeringserbjudandet gör att en webbläsare dirigerar om till en ny sida.
+Omdirigeringserbjudanden i Adobe Target gör att en webbläsare dirigerar om till en ny sida.
 
 Det kan finnas två helt olika sidor att testa i stället för att bara ändra innehållsdelar på en sida. I det här fallet jämför ditt A/B-test sidan A med sida B. Skapa en A/B-testkampanj med två upplevelser: den ena pekar på standardsidan A och den andra på sidan B. Erbjudandet är konfigurerat för att dirigera om besökaren till en annan sida.
 
@@ -47,7 +47,7 @@ Omdirigeringserbjudandet kör JavaScript-kod för att dirigera om webbläsaren. 
 
 * **Inkludera alla URL-parametrar:** Markera den här rutan om du vill att alla URL-parametrar som finns på föregående sida ska spridas till den omdirigerade sidan.
 
-   Du vill t.ex. omdirigera personer direkt från en mäns sida till en menys kategorisida. Du vill också att de dynamiska parametrarna i URL:en ska skickas eftersom det är så här du spårar om någon har nått webbplatsen via e-post, banderollannons, sökannons eller organiskt. Genom att markera den här rutan kommer ditt omdirigeringserbjudande på sidan [!DNL `https://www.mycompany.com/mens.html?emailId=123`] automatiskt att bli [!DNL `https://www.mycompany.com/mensShirts.html?emailId=123`] när allt du angav i URL-rutan var [!DNL `https://www.mycompany.com/mensShirts.html`].
+   Du vill t.ex. omdirigera personer direkt från en mäns sida till en mäns skjortkategorisida. Du vill också att de dynamiska parametrarna i URL:en ska skickas eftersom det är så här du spårar om någon har nått webbplatsen via e-post, banderollannons, sökannons eller organiskt. Genom att markera den här rutan kommer ditt omdirigeringserbjudande på sidan [!DNL `https://www.mycompany.com/mens.html?emailId=123`] automatiskt att bli [!DNL `https://www.mycompany.com/mensShirts.html?emailId=123`] när allt du angav i URL-rutan var [!DNL `https://www.mycompany.com/mensShirts.html`].
 
 * **Sessions-ID för lösenordsruta (krävs för omdirigering till en annan domän):** Markera den här kryssrutan om du vill  `sessionId` att omdirigeringen ska inkluderas automatiskt. Detta är endast nödvändigt när du testar klickningar från ett e-postmeddelande eller klickar från en domän till en annan. `sessionId` matchar besökarens cookie så att besökaren kan fortsätta att spåras och rätt innehåll visas.
 
