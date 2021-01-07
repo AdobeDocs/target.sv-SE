@@ -1,21 +1,22 @@
 ---
+keywords: visual experience composer;vec;wysiwyg
 description: Information om hur du använder Visual Experience Composer (VEC) i Adobe Target.
 title: Adobe Target Visual Experience Composer (VEC)
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
 
 
-# Visual Experience Composer (VEC){#visual-experience-composer-vec}
+# Visual Experience Composer (VEC)
 
-Information om hur du använder Visual Experience Composer (VEC).
+Information om hur du använder [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Adobe Target].
 
-VEC är ett WYSIWYG-användargränssnitt som gör det enkelt att skapa och testa personaliserade upplevelser och erbjudanden i webbplatskontexten. Du kan skapa upplevelser och erbjudanden för Target-aktiviteter genom att dra och släppa, byta och ändra layouten och innehållet på en webbsida (eller ett erbjudande) eller en mobilwebbsida.
+VEC är ett WYSIWYG-användargränssnitt där du enkelt kan skapa och testa personaliserade upplevelser och erbjudanden i webbplatskontexten. Du kan skapa upplevelser och erbjudanden för Target-aktiviteter genom att dra och släppa, byta och ändra layouten och innehållet på en webbsida (eller ett erbjudande) eller en mobilwebbsida.
 
 VEC är en av huvudfunktionerna i [!DNL Adobe Target]. Med VEC kan marknadsförare och designers skapa och ändra innehåll med ett visuellt gränssnitt. Många designalternativ kan göras utan att koden behöver redigeras direkt. Det går också att redigera HTML och JavaScript med de redigeringsalternativ som finns i dispositionen.
 
