@@ -2,9 +2,9 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target program- och innehållsleverans har testats i en rad olika webbläsare och enheter.
 title: Webbläsare som stöds
-feature: reference general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Webbläsare som stöds{#supported-browsers}
+# Webbläsare som stöds
 
 [!DNL Adobe Target]-programmet och innehållsleveransen har testats i en rad olika webbläsare och enheter.
 
