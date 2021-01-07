@@ -2,9 +2,9 @@
 keywords: content library;assets;search;smart collections;search folder;filter
 description: Sök efter resurser med nyckelord och spara sökmappar, smarta samlingar, som uppdateras automatiskt med sökresultat.
 title: Söka efter innehåll och skapa smarta samlingar
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Söka efter innehåll och skapa smarta samlingar{#search-content-and-create-smart-collections}
+# Söka efter innehåll och skapa smarta samlingar
 
 Sök efter resurser med nyckelord och spara sökmappar, smarta samlingar, som uppdateras automatiskt med sökresultat.
 
