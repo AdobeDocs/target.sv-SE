@@ -1,20 +1,20 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
-description: En upplevelse avgör vilket innehåll som visas när besökaren uppfyller målgruppskriterierna för en aktivitet.
+description: En upplevelse i Adobe Target avgör vilket innehåll som visas när besökaren uppfyller målgruppskriterierna för en aktivitet.
 title: Erfarenheter och erbjudanden
-feature: experiences
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
 
-# Upplevelser och erbjudanden{#experiences-and-offers}
+# Erfarenheter och erbjudanden
 
-En upplevelse avgör vilket innehåll som visas när besökaren uppfyller målgruppskriterierna för en aktivitet.
+En upplevelse i [!DNL Adobe Target] avgör vilket innehåll som visas när besökaren uppfyller målgruppskriterierna för en aktivitet.
 
 En upplevelse kan vara ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Du testar eller personaliserar upplevelser i [!DNL Target]-aktiviteter.
 
