@@ -2,9 +2,9 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: I vissa webbläsare blockeras visningen av en sida om säkert innehåll blandas med osäkert innehåll.
 title: Aktivera blandat innehåll i webbläsaren
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Aktivera blandat innehåll i webbläsaren{#enabling-mixed-content-in-your-browser}
+# Aktivera blandat innehåll i webbläsaren
 
 Blandat innehåll uppstår om både HTTPS-innehåll (säkert) *och* HTTP-innehåll (osäkert) läses in för att visa samma webbsida och den ursprungliga begäran var säker över HTTPS.
 
