@@ -1,33 +1,32 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Du kan visa profilvärden och aktivitetsinformation direkt i ett HTML- eller JSON-erbjudande.
+description: Du kan visa profilvärden och aktivitetsinformation direkt i ett HTML- eller JSON-erbjudande i Adobe Target.
 title: Överför dynamiska data till erbjudanden
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
+source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 
-# Överför dynamiska data till erbjudanden{#pass-dynamic-data-into-offers}
+# Överför dynamiska data till erbjudanden
 
-Du kan dynamiskt visa besökarinformation som lagras i målprofilen. På samma sätt kan aktivitetsinformation (som namnet på aktiviteten eller namnet på upplevelsen) också användas för att skapa ett enda erbjudande som dynamiskt returnerar personaliserat innehåll baserat på besökarens intressen, tidigare beteende och övergripande profil.
+Du kan dynamiskt visa besökarinformation som lagras i profilen [!DNL Adobe Target]. På samma sätt kan aktivitetsinformation (som namnet på aktiviteten eller namnet på upplevelsen) också användas för att skapa ett enda erbjudande som dynamiskt returnerar personaliserat innehåll baserat på besökarens intressen, tidigare beteende och övergripande profil.
 
-**Affärsärenden**
+## Affärsärenden
 
 * Erbjud ett rabatterat erbjudande om att&quot;fylla på&quot; eller&quot;fylla på&quot; den senast köpta produkten. I stället för att skapa ett separat erbjudande för varje objekt i din katalog kan du skapa ett erbjudande med dynamisk text som läser den&quot;senaste köpta produkten&quot; från profilen och visar en länk i erbjudandet.
 * En besökare kommer till din landningssida med `keyword=world` `cup`. Du visar termen *World Cup* i erbjudandet.
 * Anpassa en rekommendationsetikett med t.ex. (1) det sista objektet som läggs till i en besökares kundvagn (Nike Air Max 1000-tal), (2) besökarens färgpreferens (svart) och (3) besökarens favoritkategori utanför sko (hoodies). Exempel: &quot;Tillbehör din &#39;Nike Air Max 1000s&#39; med dessa coola &#39;svarta&#39; &#39;hookaler&#39;!&quot;
 
-
-**Tekniska fördelar**
+## Tekniska fördelar
 
 Eftersom användarspecifika inställningar, beteenden, status osv. kan lagras i användarens profil, du kan upprepa det här meddelandet vid hans eller hennes nästa besök. Dynamiska erbjudanden ger större skala genom att ni kan skapa ett enda erbjudande inom en aktivitet som visar personaliserade meddelanden för alla era besökare. När besökarens avsikt ändras återspeglas dessa ändringar automatiskt i webbplatsens innehåll.
 
-**Exempel**
+## Exempel
 
 * `mboxCreate("landingpage"`,  `"profile.keyword=World Cup");`
 
@@ -51,7 +50,7 @@ Logga information i konsolen i felsökningssyfte, t.ex. `${campaign.name}`, `${c
 
 För Recommendations-designer finns ytterligare exempel i [Designöversikt](/help/c-recommendations/c-design-overview/design-overview.md).
 
-**Implementering**
+## Implementering
 
 Använd syntaxen för profilparametrar som skickas till en mbox: `${profile.parameter}` Använd syntaxen för profilparametrar som skapats i ett profilskript:
 
