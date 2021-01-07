@@ -1,19 +1,20 @@
 ---
-description: Använd det här alternativet när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
+kewords: redirect;redirect url;send to different page
+description: Använd alternativet Omdirigera till URL i Adobe Target när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
 title: Omdirigera till en URL
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# Omdirigera till en URL{#redirect-to-a-url}
+# Omdirigera till en URL
 
-Använd det här alternativet när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
+Använd alternativet [!UICONTROL Redirect to URL] i [!DNL Adobe Target] när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
 
 Det kan finnas två helt olika sidor att testa i stället för att bara ändra innehållsdelar på en sida. I det här fallet jämför ditt A/B-test sidan A med sida B. Skapa en A/B-testkampanj med två upplevelser: den ena pekar på standardsidan A och den andra på sidan B. Välj **[!UICONTROL Redirect to URL]** och ange URL:en för sida B på menyn Experience Action, som du hittar genom att klicka på brevetiketten för upplevelsen. Erbjudandet är konfigurerat för att dirigera om besökaren till en annan sida.
 
