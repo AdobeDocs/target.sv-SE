@@ -2,9 +2,9 @@
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
 description: Information om Adobe Target server-side delivery API:er, SDK:er och Target Recommendations API:er.
 title: Information om Adobe Target server-side delivery API:er, Node.js SDK och Target Recommendations API:er.
-feature: server-side
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
