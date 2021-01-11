@@ -4,9 +4,9 @@ description: Information om kommande evenemang, inklusive Adobe Target SKill Bui
 title: Målmeddelanden
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c129430e038d7179846761cf946c437d079e26ee
+source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,21 @@ Adobe Target utnämndes nyligen till marknadsledare av både Forrester och Gartn
 | --- | --- |
 | Forrester | **Adobe utnämnd till ledare i Forrester wave-rapporten för upplevelseoptimeringsplattformar.**<br> Adobe utsågs till ledare i Forrester Wave: Experience Optimization Platforms, Q4 2020 report for its offer in this space, Adobe Target Premium. Adobe fick den högsta poängen för alla deltagande leverantörer i kategorierna för aktuellt erbjudande och marknadsnärvaro samt i rekommendationerna och kriterierna för plattformsupplevelser. Target Premium fick också högsta möjliga poäng i villkoren för upplevelseoptimeringstekniken, innovation och stödtjänster. Rapporten bygger på en grundlig utvärdering av 10 plattformsleverantörer för upplevelseoptimering enligt 22 kriterier.<br>Läs om det på  [Adobe-bloggen](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe har återigen utnämnts till ledare i Gartners Magic Quadrant för personaliseringsmotorer.**<br> Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra.<br>[Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
+## Adobe Target Community Q&amp;A Coffee Break
+
+* **Onsdag 13 januari**
+* **8.00 PT | 10.00 CT | 11.00 ET**
+* **Varaktighet: 60 minuter**
+* **[Klicka här för mer information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/%EF%B8%8Fupcoming-in-2021-at-community-q-amp-a-coffee-break-1-13-21-8am/td-p/388109)**
+
+Robert Calangiu, Senior Product Manager för Adobe Target, kommer att göra oss sällskap. Han loggar in här på Adobe Target Community för att chatta direkt med dig om dina Adobe Target frågor som rör hans expertområden:
+
+* Målinställningar och administratörsgränssnitt
+* A4T-integrering
+* AEM
+* Allmänt Adobe Target UI
+* Svar på frågor som du tar med vid [registrering för den här händelsen](https://www.adobeeventsonline.com/Webinar/2021/TargetCoffeeJan/lp/) (men valfritt)
 
 ## Webbseminarium: Lyckad personalisering i stor skala: Viktiga resultat från Forrester Wave, Experience Optimization Platforms
 
