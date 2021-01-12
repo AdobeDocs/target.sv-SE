@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
 workflow-type: tm+mt
-source-wordcount: '3258'
+source-wordcount: '3273'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 12 januari | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till förhandsversionsinformation om Target Standard/Premium 21.1.1 (19 januari 2021). |
 | 11 januari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information och registreringsinformation för Adobe Target Community Q&amp;A Coffee Break den 13 januari. |
 | 6 januari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information och registreringsinformation för följande webbinarium:<ul><li>Lyckad personalisering i stor skala: Viktiga resultat från Forrester Wave, Experience Optimization Platforms.</li></ul> |
 | 4 januari | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ändrade datumet då Target inte längre stöder mbox.js från 18 januari 2021 till 31 mars 2021. |
