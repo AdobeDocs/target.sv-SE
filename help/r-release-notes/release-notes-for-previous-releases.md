@@ -2,9 +2,9 @@
 keywords: Release notes
 description: Versionsinformation om tidigare versioner av Adobe Target, inklusive versionsinformation för Target Standard/Premium, Target-plattformen och Target Javascript-biblioteket (at.js). Versionsinformationen ordnas i fallande ordning efter månad och år då den släpptes.
 title: Versionsinformation för tidigare versioner
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '29542'
 ht-degree: 0%
@@ -1040,7 +1040,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
          <li id="li_7D71E48016B1446995493EBBF7D32447"> <p>CONTENT_RENDERING_REDIRECT </p> </li> 
         </ul> </p> <p>Mer information finns i <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD" format="dita" scope="local"> at.js anpassade händelser </a>. </p> </li> 
       <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>Du kan utöka en at.js-begäran med ytterligare parametrar från dataleverantörer. Dataleverantörer bör läggas till i <span class="codeph"> window.targetGlobalSettings </span> under <span class="codeph"> dataProviders-nyckeln </span>. </p> <p>Mer information finns i"Data Providers" i <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() </a>. </p> </li> 
-      <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>at.js-begäranden använder nu GET, men kommer att växla till POST när URL-storleken överstiger 2 048 tecken. Det finns en ny egenskap med namnet <span class="codeph"> urlSizeLimit </span> där du kan öka storleksgränsen om det behövs. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik. </p> </li> 
+      <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>at.js-begäranden använder nu GET, men den växlar till POST när URL-storleken överstiger 2 048 tecken. Det finns en ny egenskap med namnet <span class="codeph"> urlSizeLimit </span> där du kan öka storleksgränsen om det behövs. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik. </p> </li> 
       <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>Målet kräver nu att <span class="codeph"> mbox </span>-nyckeln i <span class="codeph">-funktionen adobe.target.applyOffer(options) </span> används. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target har korrekt validering och att kunderna använder funktionen korrekt. </p> <p>Mer information finns i <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245" format="dita" scope="local"> adobe.target.applyOffer(options) </a>. </p> </li> 
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js har förbättrat funktionerna för händelsespårning och klickning. at.js använder <span class="codeph"> navigator.sendBeacon() </span> för att skicka händelsespårningsdata och kommer att återgå till synkron XHR när <span class="codeph"> navigator.sendBeacon() </span> inte stöds. Detta gäller oftast Internet Explorer 10 och 11 samt vissa versioner av Safari. Safari kommer att lägga till stöd för <span class="codeph"> navigator.sendBeacon() </span> i iOS 11.3-versionen. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>at.js kan nu återge erbjudanden även när en sida öppnas i bakgrundsflikar. Vissa målkunder stötte på ett problem när <span class="codeph"> requestAnimationFrame() </span> inaktiverades på grund av webbläsarbegränsningsbeteendet för bakgrundsflikar. </p> </li> 
@@ -1224,7 +1224,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
 Den här [!DNL Target]-versionen innehåller följande kundtillvända förbättringar, korrigeringar och ändringar:
 
 * Nu kan du bläddra på sidan och ordna om upplevelserna i steg 2 i det guidade arbetsflödet i tre steg när du skapar aktiviteter. (TGT-27652)
-* Du kan högerklicka på en aktivitet i aktivitetslistan för att öppna aktiviteten på en ny flik. I Firefox kan du till exempel högerklicka på önskad aktivitet > Öppna länk på ny flik. (TGT-27409)
+* Du kan högerklicka på en aktivitet i aktivitetslistan för att öppna aktiviteten på en ny flik. I Firefox högerklickar du till exempel på önskad aktivitet > Öppna länk på ny flik. (TGT-27409)
 * Förbättrade prestanda på sidan Design (Recommendations > Designs). Snabbheten för att visa och söka efter design har förbättrats. (TGT-21792)
 * at.js är nu standardimplementeringsalternativet som ska hämtas. (TGT-24676)
 * URL-verifiering tillåter nu användning av dubbla bindestreck i URL:en. Tidigare gick det inte att läsa in en URL med dubbla bindestreck i Visual Experience Composer (VEC). (TGT-28176)
@@ -2438,7 +2438,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1"> Kundattribut kan användas som token i erbjudanden </td> 
-   <td colname="col2"> <p>Tidigare gick det att referera till kundattribut i profilskript som formaterats som <span class="codeph"> crs.get('&lt; <span class="varname"> Datakällans namn </span>&gt;.&lt;&gt; Attributnamn  <span class="varname">&gt;')  </span>.</span> </p> <p>Attributen är nu tillgängliga som token i profilskript och direkt i erbjudanden utan att först behöva ett profilskript. Token ska ha följande format: <span class="codeph"> $crs. <span class="varname"> datakällans namn  </span>. <span class="varname"> attributeName  </span> </span>. </p> <p>Se <a href="/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_62B4821EB6564FF4A14159A837AD4EDB" format="dita" scope="local"> CRS-token </a>. </p> </td> 
+   <td colname="col2"> <p>Tidigare gick det att referera till kundattribut i profilskript som formaterats som <span class="codeph"> crs.get('&lt; <span class="varname"> Datakällans namn </span>&gt;.&lt;&gt; Attributnamn  </span>&gt;')  </span>.<span class="varname"> </span></p> <p>Attributen är nu tillgängliga som token i profilskript och direkt i erbjudanden utan att först behöva ett profilskript. Token ska ha följande format: <span class="codeph"> $crs. <span class="varname"> datakällans namn  </span>. <span class="varname"> attributeName  </span> </span>. </p> <p>Se <a href="/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_62B4821EB6564FF4A14159A837AD4EDB" format="dita" scope="local"> CRS-token </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Förbättrad anpassad kod </td> 
