@@ -2,9 +2,9 @@
 keywords: product;collections
 description: Enheter refererar till de objekt som du vill rekommendera med Adobe Target. Enheter kan vara vad som helst, t.ex. produkter, innehåll (t.ex. artiklar, bildspel, bilder, filmer och tv-program), jobblistor, restauranger osv.
 title: Enheter i Adobe Target
-feature: entities
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
