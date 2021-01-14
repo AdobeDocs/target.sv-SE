@@ -2,9 +2,9 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Information om hur du implementerar Adobe Target utan att använda en tagghanterare (Adobe Launch eller Dynamic Tag Management).
 title: Implementera mål utan tagghanterare
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 ---
 
 
-# Implementera mål utan tagghanterare{#implement-target-without-a-tag-manager}
+# Implementera mål utan tagghanterare
 
 Information om hur du implementerar [!DNL Adobe Target] utan att använda en tagghanterare ([!DNL Adobe Launch] eller [!DNL Dynamic Tag Manager]).
 
