@@ -4,9 +4,9 @@ description: Versionsinformation som innehåller information om funktioner, för
 title: Adobe Target prerelease notes
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 83612ef2fa8d76f9318b0b9637203fefd82215ee
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 12 januari 2021**
+**Senast uppdaterad: 14 januari 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
@@ -49,7 +49,6 @@ Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning
 * Ett problem som hindrade användare från att ta bort en målgrupp från ett erbjudande i en [!UICONTROL Automated Personalization]-aktivitet har åtgärdats. (TGT-39058)
 * Korrigerade ett problem som gjorde att fel tidsram (start- och slutdatum) visades i [!UICONTROL Audience Info]-kort för vissa kunder. (TGT-39150)
 * Ett problem som gjorde att vissa kunder inte kunde se aktivitetslistan i [!UICONTROL Default Workspace] har korrigerats. (TGT-38526)
-* Ökade storleksgränserna för erbjudanden i [!DNL Target]-gränssnittet och API till 1 MB. (TGT-38304)
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
