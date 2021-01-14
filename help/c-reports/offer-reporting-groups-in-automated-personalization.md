@@ -2,9 +2,9 @@
 keywords: automated personalization;offer;reporting;group;reporting group
 description: Information om hur du använder rapportgrupper i Automated Personalization-aktiviteter (AP) i Adobe Target.
 title: Erbjud rapportgrupper i Automated Personalization-aktiviteter (AP) i Adobe Target
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
