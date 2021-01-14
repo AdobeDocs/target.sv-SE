@@ -2,9 +2,9 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Använd feeds för att importera enheter till Adobe Target Recommendations. Enheter kan skickas med CSV-filer, Googles produktsökningsformat och/eller Adobe Analytics produktklassificeringar.
 title: Feeds i Adobe Target Recommendations
-feature: data feed
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2494'
 ht-degree: 0%
