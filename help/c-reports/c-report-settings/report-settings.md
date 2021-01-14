@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Information som hjälper dig att ange de element som du vill ska visas i din Adobe Target-rapport. Rapportinställningarna kan sparas för senare bruk.
 title: Rapportinställningar
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 0%
@@ -152,7 +152,7 @@ Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information 
 
 ### Återställ rapportdata
 
-Återställ rapportdata för att ta bort gamla data. Befintliga besökare stannar kvar i aktiviteten.  Det här alternativet är endast tillgängligt för dem med [!UICONTROL Approver]-behörigheter.
+Återställ rapportdata för att ta bort gamla data. Befintliga besökare stannar kvar i aktiviteten.  Det här alternativet är bara tillgängligt för dem med [!UICONTROL Approver]-behörigheter.
 
 >[!IMPORTANT]
 >
