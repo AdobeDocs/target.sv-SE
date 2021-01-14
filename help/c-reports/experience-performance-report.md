@@ -2,9 +2,9 @@
 keywords: multivariate test;mvt;experience performance report
 description: Experience Performance-rapporten visar hur varje upplevelse i aktiviteten fungerar. Den här rapporten innehåller information om antalet deltagare, konverteringsgraden, lyften och förtroendet.
 title: Experience Performance Report (MVT)
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
