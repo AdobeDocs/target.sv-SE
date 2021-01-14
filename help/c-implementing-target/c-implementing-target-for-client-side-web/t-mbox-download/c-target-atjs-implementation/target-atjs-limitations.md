@@ -2,9 +2,9 @@
 keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
 description: Det finns vissa skillnader mellan at.js och mbox.js. I det här avsnittet beskrivs några skillnader och begränsningar som hjälper dig att lyckas med at.js.
 title: at.js Begränsningar
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# at.js Begränsningar{#at-js-limitations}
+# at.js Begränsningar
 
 Det finns vissa skillnader mellan at.js och mbox.js. I det här avsnittet beskrivs några skillnader och begränsningar som hjälper dig att lyckas med at.js.
 
