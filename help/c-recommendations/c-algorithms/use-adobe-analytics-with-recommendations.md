@@ -2,9 +2,9 @@
 keywords: behavioral data source;analytics;recommendations;criteria;product variables
 description: Genom att använda Adobe Analytics som beteendedatakälla kan kunderna använda vybaserade och/eller inköpsbaserade beteendedata från Analytics i Adobe Recommendations.
 title: Använda Adobe Analytics med Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
