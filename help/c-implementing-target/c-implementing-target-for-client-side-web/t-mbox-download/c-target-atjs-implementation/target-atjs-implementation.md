@@ -2,9 +2,9 @@
 keywords: Target Standard;at.js;implementation
 description: at.js-biblioteket är ett nytt implementeringsbibliotek för Adobe Target som är utformat för både vanliga webbimplementeringar och enkelsidiga program.
 title: Migrera från mbox.js till at.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Migrera från mbox.js till at.js{#migrate-from-mbox-js-to-at-js}
+# Migrera från mbox.js till at.js
 
 at.js-biblioteket är ett nytt implementeringsbibliotek för [!DNL Adobe Target] som är utformat för både vanliga webbimplementeringar och enkelsidiga program.
 
