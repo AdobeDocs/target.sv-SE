@@ -2,9 +2,9 @@
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: Lista med IP-adresser som används i Recommendations servrar för bearbetning av feeds i Oregon-datacenter för att hjälpa dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 title: IP-adresser som används av Recommendations feed-bearbetningsservrar
-feature: reference general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
