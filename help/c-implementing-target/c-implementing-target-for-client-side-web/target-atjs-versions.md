@@ -4,9 +4,9 @@ description: Information om ändringarna i varje version av Adobe Target at.js.
 title: versionsinformation för at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3996'
+source-wordcount: '4027'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,13 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 >Target-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis är förstahandsvalet när man uppgraderar at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch]-katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i *användarhandboken för Experience Platform Launch*.
+
+## at.js 2.4.0 (14 januari 2021)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande korrigeringar:
+
+* Lägger till stöd för enhetlig profil-/plattforms-ID i leverans-API customerIds
+* Korrigerar ogiltig formattaggsinmatning
 
 ## kl. 2.3.3 (13 november 2020)
 
