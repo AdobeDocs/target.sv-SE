@@ -4,7 +4,7 @@ description: Information om ändringarna i varje version av Adobe Target at.js.
 title: versionsinformation för at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '4027'
 ht-degree: 0%
@@ -26,8 +26,8 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 
 Den här versionen av at.js är en underhållsrelease och innehåller följande korrigeringar:
 
-* Lägger till stöd för enhetlig profil-/plattforms-ID i leverans-API customerIds
-* Korrigerar ogiltig formattaggsinmatning
+* Lägger till stöd för ett enhetligt profil-/plattforms-ID i leverans-API customerIds.
+* Korrigerar ogiltig stiltaggsinmatning.
 
 ## kl. 2.3.3 (13 november 2020)
 
