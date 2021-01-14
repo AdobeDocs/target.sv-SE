@@ -4,7 +4,7 @@ description: Versionsinformationen innehåller information om funktioner, förb�
 title: 'Versionsinformation om Adobe Target (aktuell) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
@@ -34,8 +34,8 @@ Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning
 
 Den här versionen av at.js är en underhållsrelease och innehåller följande korrigeringar:
 
-* Lägger till stöd för enhetlig profil-/plattforms-ID i leverans-API customerIds
-* Korrigerar ogiltig formattaggsinmatning
+* Lägger till stöd för ett enhetligt profil-/plattforms-ID i leverans-API customerIds.
+* Korrigerar ogiltig stiltaggsinmatning.
 
 ## Target Standard/Premium 20.10.1 (27 oktober 2020)
 
