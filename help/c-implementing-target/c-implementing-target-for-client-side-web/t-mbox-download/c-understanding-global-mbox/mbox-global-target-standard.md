@@ -2,9 +2,9 @@
 keywords: global mbox;target classic;use global mbox from target classic
 description: Som standard skapar Target Standard en global mbox med namnet target-global-mbox, som används för att köra aktiviteter som skapats i Target Standard. Om du redan har skapat en global mbox på sidorna för dina tidigare implementeringar kan du använda den mbox-filen för dina Target Standard-aktiviteter.
 title: Använd en global mbox från en äldre implementering
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Använd en global mbox från en äldre implementering{#use-a-global-mbox-from-a-legacy-implementation}
+# Använd en global mbox från en äldre implementering
 
 Som standard skapar [!DNL Target] en global mbox med namnet target-global-mbox, som används för att köra aktiviteter som skapats i [!DNL Target]. Om du redan har skapat en global mbox på sidorna för dina tidigare implementeringar kan du använda den mbox för dina [!DNL Target]-aktiviteter.
 
