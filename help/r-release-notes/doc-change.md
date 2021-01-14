@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3282'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 14 januari | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om at.js version 2.4.0 har lagts till. |
 | 12 januari | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till förhandsversionsinformation om Target Standard/Premium 21.1.1 (19 januari 2021). |
 | 11 januari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information och registreringsinformation för Adobe Target Community Q&amp;A Coffee Break den 13 januari. |
 | 6 januari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information och registreringsinformation för följande webbinarium:<ul><li>Lyckad personalisering i stor skala: Viktiga resultat från Forrester Wave, Experience Optimization Platforms.</li></ul> |
