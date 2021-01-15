@@ -4,9 +4,9 @@ description: Adobe Experience Platform Web SDK är ett JavaScript-bibliotek på 
 title: Adobe Experience Platform Web SDK
 feature: AEP Web SDK
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,5 +18,5 @@ ht-degree: 0%
 
 Mer information finns i följande länkar i *Adobe Experience Platform Web SDK*-hjälpen:
 
-* För utförlig information: [Vad är Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+* För utförlig information: [Vad är Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * För information som är specifik för [!DNL Target]: [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
