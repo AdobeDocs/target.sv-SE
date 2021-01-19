@@ -3,7 +3,7 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 translation-type: tm+mt
-source-git-commit: 4c952b3096de620f5ee3f10d84fa2063b4448652
+source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -88,7 +88,8 @@ ht-degree: 0%
       + [CNAME och Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Webben på klientsidan: implementera mål {#client-side}
       + [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + [Implementering av Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + Implementering av Adobe Experience Platform Web SDK {#aep-implementation}
+         + [AEP Web SDK - översikt](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js-implementering {#at-js-implementation}
          + Hur at.js fungerar {#at-js}
             + [How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
