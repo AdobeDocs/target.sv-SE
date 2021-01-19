@@ -4,9 +4,9 @@ description: Versionsinformation om tidigare versioner av Adobe Target, inklusiv
 title: Versionsinformation för tidigare versioner
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '29542'
+source-wordcount: '29950'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,37 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >
 >Se [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
+## Versionsinformation - 2021
+
+### at.js 2.4.0 (14 januari 2021)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande korrigeringar:
+
+* Lägger till stöd för ett enhetligt profil-/plattforms-ID i leverans-API customerIds.
+* Korrigerar ogiltig stiltaggsinmatning.
+
 ## Versionsinformation - 2020
+
+### Target Standard/Premium 20.10.1 (27 oktober 2020)
+
+Den här versionen innehåller följande nya funktioner:
+
+| Funktion | Detaljer |
+| --- | --- |
+| [Enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. Och eftersom enhetsbeslut kan kopplas till [!DNL Adobe Experience Cloud]-produkter får [!DNL Target]-användare snabb analys och snabbare upplevelseiterationer.<br>Mer information finns i *[Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
+
+Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
+
+* Korrigerade ett fel som gjorde att [!UICONTROL Average Lift Confidence Interval] och [!UICONTROL Confidence] inte kunde visas i [!DNL Auto-Target]-rapportering för raden [!UICONTROL Total]. Mätningar som visas korrekt för alla enskilda upplevelser. (TGT-37301)
+* Korrigerade ett problem som påverkade [!DNL Adobe Target Premium]-användares [!UICONTROL Auto-Target]-rapportering från och med 15 september 2:30. (PDT) till 6 oktober kl. 9.25. (PDT). När du visar rapporter för påverkad konverteringsstatistik (konfigurerad med antingen alternativet [!UICONTROL Viewed a page] eller [!UICONTROL Clicked on mbox]) rapporteras konverteringsgraden felaktigt. Det finns för närvarande inget känt leveransproblem. Information om hur du synkroniserar om och korrigerar din rapportering finns i [Automatisk målrapportering](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) under *Lösta problem* i *Kända fel och lösta problem*.
+* En valbar [!UICONTROL Last Updated At]-kolumn i tabellen [!UICONTROL Catalog Search] och ett [!UICONTROL Last Updated At]-filter har lagts till. Den här förbättringen sparar tid och arbete eftersom du inte behöver öppna varje enskilt objekt för att se när det uppdaterades senast och du kan filtrera efter det datum då objekten uppdaterades senast.
+
+   ![Senast uppdaterad vid illustration av kolumner och filter](/help/r-release-notes/assets/column-and-filter.png)
+
+* Uppdateringar gjordes för att göra målgränssnittet kompatibelt med [riktlinjerna för tillgängligt webbinnehåll](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 nivå A och AA (AA). (TGT-34384 &amp; TGT-24679)
+* Förbättrad CSP (Content Security Policy). (TGT-37035)
+* Introducerade ett sätt att ange klientkoden som en parameter för kunder som använder CNAME. (TNT-38571)
+* [!DNL Adobe Experience Cloud] går nu till  [!DNL Experience League]. Under oktober kommer alla versionsinformation, artiklar, videoklipp och självstudiekurser att flyttas från sin nuvarande plats på `docs.adobe.com` till [!DNL Experience League]. Detta säkerställer att allt utbildningsmaterial, självhjälp, hjälpmedel och communityinnehåll hanteras från ett och samma ställe. När den här ändringen inträffar behöver du inte göra något eftersom alla länkar kommer att omdirigeras till [!DNL Experience League]. Vi uppdaterar versionsinformationen när hämtningen börjar.
 
 ### Target Standard/Premium 20.9.1 (30 september 2020)
 
@@ -406,7 +436,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | --- | --- |
 | Visual Experience Composer (VEC) | **Nya alternativ** på menyn VEC: När du klickar på ett sidelement i VEC visar en meny de alternativ som är tillgängliga för den elementtypen.<ul><li>Du kan nu använda alternativet [!UICONTROL Styles > Background] för att ändra bakgrundsbilden och färgen för det valda elementet. (TGT-15001)</li></ul>Se *Format* i [Alternativ för visuell upplevelse](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Förbättrad** klickspårning: Vi har förbättrat processen för att konfigurera klickspårning i VEC och Single Page Application (SPA) VEC.<ul><li>När du markerar element som ska användas i klickspårning visas namnen på alla tillgängliga element på panelen Ändringar till höger, vilket gör det snabbt och enkelt att markera de önskade elementen.</li><li>På sidan [!UICONTROL Goals & Settings] i det guidade arbetsflödet för tre delar visas ett tal som representerar antalet element som valts för klickspårning. Du kan hålla muspekaren över det här talet för att se namnen på alla markerade element. (TGT-33878)</li></ul>Se [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md). |
 | Visual Experience Composer (SPA VEC) för en sida | **Guidat arbetsflöde**: Ett nytt guidat arbetsflöde hjälper dig att förstå hur inställningar för sidleverans ska konfigureras för att köra och köra en aktivitet för din Single Page-app. (TGT-33718)<br> Se [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Klonändringar**: Du kan nu definiera en ändring med SPA VEC och sedan klona ändringen för användning i andra vyer i Single Page App. (TGT-33882)<br>Se [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| ![Premium ](/help/assets/premium.png) badgeAutomated Personalization (AP) &amp; Auto-Target | **Specifik upplevelse som kontroll**: Du kan välja en upplevelse som ska användas som kontroll när du skapar en AP- eller Auto-Target-aktivitet. Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen. Det nuvarande kontrollalternativet (slumpmässigt hanterade upplevelser) är fortfarande tillgängligt. (TGT-32801, TGT-26572 och TGT-26571)<br>Se [Markera kontrollen för din Automated Personalization- eller Automatisk målaktivitet](/help/c-activities/t-automated-personalization/experience-as-control.md). Observera att det finns ett [känt fel](/help/r-release-notes/known-issues-resolved-issues.md) med den här funktionen.<br>**Insikter om personalisering - rapporter**: Den marknadsföringsvänliga namngivningen för attribut när en besökare ser en viss del av innehållet på en viss plats ger mer meningsfull information. (TGT-33421 &amp; TGT-34957)<br>Se [Datainsamling för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/ap-data.md). |
+| ![Premium ](/help/assets/premium.png) badgeAutomated Personalization (AP) &amp; Auto-Target | **Specifik upplevelse som kontroll**: Du kan välja en upplevelse som ska användas som kontroll när du skapar en AP- eller Auto-Target-aktivitet. Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen. Det nuvarande kontrollalternativet (slumpmässigt hanterade upplevelser) kommer även i fortsättningen att vara tillgängligt. (TGT-32801, TGT-26572 och TGT-26571)<br>Se [Markera kontrollen för din Automated Personalization- eller Automatisk målaktivitet](/help/c-activities/t-automated-personalization/experience-as-control.md). Observera att det finns ett [känt fel](/help/r-release-notes/known-issues-resolved-issues.md) med den här funktionen.<br>**Insikter om personalisering - rapporter**: Den marknadsföringsvänliga namngivningen för attribut när en besökare ser en viss del av innehållet på en viss plats ger mer meningsfull information. (TGT-33421 &amp; TGT-34957)<br>Se [Datainsamling för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/ap-data.md). |
 | ![Premium ](/help/assets/premium.png) badgeRekommendationer | Du kan använda reglaget Rekommendera tidigare inköpta artiklar när du skapar logiken för nyligen visade objekt. (TGT-34030)<br>Mer information finns i [Nyligen visade objekt](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) i&quot;Skapa villkor&quot;. |
 | Google Chrome SameSite cookie-principer | Google meddelade nyligen att från och med Chrome 76, som är tilldelad till 30 juli 2019, måste utvecklare uttryckligen ange vilka cookies som kan användas på olika webbplatser och vilka cookies som kan spåra användare.<br>I takt med att branschen strävar efter att skapa en säkrare webbsajt för konsumenterna är Target helt engagerat i att leverera personaliserade upplevelser och samtidigt uppfylla och överträffa besökarnas förväntningar på integritetsskydd.<br>Se  [Google Chrome-cookie-principer](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) för samma webbplats. |
 
