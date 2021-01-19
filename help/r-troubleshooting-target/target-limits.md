@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Adobe Target.
 title: Gränser
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
 
-# Gränser{#limits}
+# Gränser
 
-Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Adobe Target.
+Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek,
 >
 >När de gränser som anges som&quot;rekommenderas&quot; närmar sig eller överskrids kan prestandan bli långsam. Långsamma inläsningstider för gränssnittet kan också orsakas av en mycket komplex aktivitet, som många målgrupper, mål och upplevelser, allt i en och samma aktivitet.
 >
->Mycket komplexa verksamheter bör granskas med Adobe Consulting och testas i en begränsad miljö innan de släpps till produktion.
+>Mycket komplexa aktiviteter bör granskas med [!DNL Adobe] konsulting och testas i en begränsad miljö innan de släpps till produktion.
 
 ## Verksamhet
 
@@ -194,9 +194,7 @@ Om du använder en global mbox är gränsen för hela den innehållsuppsättning
 
 ## productPurchasedId, parameter
 
-**Gräns**: 47 tecken per kommaavgränsat värde.
-
-Allt längre trunkeras av systemet.
+**Gräns**: 47 tecken per kommaavgränsat värde och totalt 250 tecken. Enskilda värden som är längre än 47 tecken kan trunkeras av systemet. Sammanlagda längden över 250 tecken kan resultera i ett 400-fel.
 
 ## Profilskript
 
