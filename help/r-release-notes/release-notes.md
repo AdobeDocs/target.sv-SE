@@ -4,9 +4,9 @@ description: Versionsinformationen innehåller information om funktioner, förb�
 title: 'Versionsinformation om Adobe Target (aktuell) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,25 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >
 Även om det finns stöd för mbox.js (fram till 31 mars 2021) har vi inte tillhandahållit några funktionsuppdateringar för det här biblioteket sedan juli 2017. Genom att flytta alla kunder till [!UICONTROL Adobe Experience Platform Web SDK] eller at.js kan våra tekniker och vår supporttekniker ge dig nya funktioner och erbjuda den support du förväntar dig från Adobe.
 
+(Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## Target Standard/Premium 21.1.1 (19 januari 2021)
+
+Den här underhållsversionen innehåller följande förbättringar, korrigeringar och ändringar.
+
 Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+
+* En varning lades till när ett [!DNL Adobe Analytics]-mått valdes när [!UICONTROL Analytics as the reporting source] (A4T) användes i en [!UICONTROL Auto-Target]-aktivitet. [!UICONTROL Auto-Target] modellerna är optimerade för att fungera med binära (konverteringsbaserade) mätvärden. Om du väljer ett kontinuerligt mätvärde, till exempel intäkt, kan resultatet bli suboptimalt och [!UICONTROL Personalization Insights]-rapporterna kanske inte är korrekta. (TGT-38926)
+* En statusikon har lagts till i [!UICONTROL Auto-Target Summary]-rapporten för [!UICONTROL Auto-Target]-aktiviteter som använder A4T. Den gröna bockikonen bredvid varje upplevelse i rapporten anger att en anpassad maskininlärningsmodell har skapats för den upplevelsen. Klockikonen anger att det inte finns tillräckligt med trafik för att skapa modellen. (TGT-38925)
+* Rapporterna [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] för [!UICONTROL Auto-Target]-aktiviteter som använder A4T- och [!DNL Analytics]-konverteringsmått genereras och ser likadana ut som när [!DNL Target] används som rapportkälla. (TGT-38931)
+* Ett miljöfilteralternativ har lagts till i [!UICONTROL Recommendations] [!UICONTROL Collections]-listan. (TGT-38353)
+* Korrigerade ett problem som gjorde att felaktigt produktantal visades i [!UICONTROL Recommendations]-samlingar. (TGT-39162)
+* Ett [!UICONTROL Last Updated]-filter har lagts till i [!UICONTROL Recommendations] [!UICONTROL Catalog Search]. (TGT-38340)
+* Korrigerade ett fel i [!UICONTROL Recommendations] som gjorde att sidan [!UICONTROL Create Sequence] hängde efter att branschens vertikala ändrats. (TGT-38160)
+* Ett problem som gjorde att aktiviteten inte kunde sparas om Device Co-op var aktiverad och användaren ändrades från [!DNL Target] som rapportkälla till [!DNL Analytics] (A4T) har åtgärdats. (TGT-38163)
+* Ett problem som hindrade användare från att ta bort en målgrupp från ett erbjudande i en [!UICONTROL Automated Personalization]-aktivitet har åtgärdats. (TGT-39058)
+* Korrigerade ett problem som gjorde att fel tidsram (start- och slutdatum) visades i [!UICONTROL Audience Info]-kort för vissa kunder. (TGT-39150)
+* Ett problem som gjorde att vissa kunder inte kunde se aktivitetslistan i [!UICONTROL Default Workspace] har korrigerats. (TGT-38526)
 
 ## at.js 2.4.0 (14 januari 2021)
 
@@ -36,27 +54,6 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 
 * Lägger till stöd för ett enhetligt profil-/plattforms-ID i leverans-API customerIds.
 * Korrigerar ogiltig stiltaggsinmatning.
-
-## Target Standard/Premium 20.10.1 (27 oktober 2020)
-
-Den här versionen innehåller följande nya funktioner:
-
-| Funktion | Detaljer |
-| --- | --- |
-| [Enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. Och eftersom enhetsbeslut kan kopplas till [!DNL Adobe Experience Cloud]-produkter får [!DNL Target]-användare snabb analys och snabbare upplevelseiterationer.<br>Mer information finns i *[Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
-
-Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
-
-* Korrigerade ett fel som gjorde att [!UICONTROL Average Lift Confidence Interval] och [!UICONTROL Confidence] inte kunde visas i [!DNL Auto-Target]-rapportering för raden [!UICONTROL Total]. Mätningar som visas korrekt för alla enskilda upplevelser. (TGT-37301)
-* Korrigerade ett problem som påverkade [!DNL Adobe Target Premium]-användares [!UICONTROL Auto-Target]-rapportering från och med 15 september 2:30. (PDT) till 6 oktober kl. 9.25. (PDT). När du visar rapporter för påverkad konverteringsstatistik (konfigurerad med antingen alternativet [!UICONTROL Viewed a page] eller [!UICONTROL Clicked on mbox]) rapporteras konverteringsgraden felaktigt. Det finns för närvarande inget känt leveransproblem. Information om hur du synkroniserar om och korrigerar din rapportering finns i [Automatisk målrapportering](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) under *Lösta problem* i *Kända fel och lösta problem*.
-* En valbar [!UICONTROL Last Updated At]-kolumn i tabellen [!UICONTROL Catalog Search] och ett [!UICONTROL Last Updated At]-filter har lagts till. Den här förbättringen sparar tid och arbete eftersom du inte behöver öppna varje enskilt objekt för att se när det uppdaterades senast och du kan filtrera efter det datum då objekten uppdaterades senast.
-
-   ![Senast uppdaterad vid illustration av kolumner och filter](/help/r-release-notes/assets/column-and-filter.png)
-
-* Uppdateringar gjordes för att göra målgränssnittet kompatibelt med [riktlinjerna för tillgängligt webbinnehåll](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 nivå A och AA (AA). (TGT-34384 &amp; TGT-24679)
-* Förbättrad CSP (Content Security Policy). (TGT-37035)
-* Introducerade ett sätt att ange klientkoden som en parameter för kunder som använder CNAME. (TNT-38571)
-* [!DNL Adobe Experience Cloud] går nu till  [!DNL Experience League]. Under oktober kommer alla versionsinformation, artiklar, videoklipp och självstudiekurser att flyttas från sin nuvarande plats på `docs.adobe.com` till [!DNL Experience League]. Detta säkerställer att allt utbildningsmaterial, självhjälp, hjälpmedel och communityinnehåll hanteras från ett och samma ställe. När den här ändringen inträffar behöver du inte göra något eftersom alla länkar kommer att omdirigeras till [!DNL Experience League]. Vi uppdaterar versionsinformationen när hämtningen börjar.
 
 ## Ytterligare versionsinformation
 
