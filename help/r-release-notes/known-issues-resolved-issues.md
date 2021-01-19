@@ -4,9 +4,9 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4294'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,15 @@ Följande är kända problem med omdirigeringserbjudanden:
 
 ### Recommendations
 
-Följande är kända problem med Recommendations-aktiviteter:
+Följande är kända problem med [!UICONTROL Recommendations]-aktiviteter:
+
+* När du kopierar en [!UICONTROL Recommendation]-aktivitet med en aktiv befordran, påverkar alla ändringar i dubblettaktiviteten för närvarande även den ursprungliga aktiviteten, och vice versa. (TGT-39155)
+
+   Som tillfällig lösning:
+
+   * Inaktivera aktivitetskampanjer
+   * Duplicera aktiviteten
+   * Aktivera kampanjer igen i varje aktivitet
 
 * Enheterna har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. (IRI-857)
 * Övertäckningarna &quot;Användningsinformation&quot; för villkor och design återspeglar inte deras användning i A/B- och Experience Targeting-aktiviteter (TGT-34331)
@@ -230,7 +238,7 @@ at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad kli
 
 ### Stöd för företagsbehörigheter i mål-API:er {#api}
 
-Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Det här problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
+Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas på standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Det här problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
 
 ### Rapportering och extrema order
 
