@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '3282'
+source-wordcount: '3376'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,15 @@ ht-degree: 0%
 # Dokumentationsändringar{#documentation-changes}
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
+
+## Adobe Target Standard/Premium 21.1.1 (19 januari 2021)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 19 januari | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om Target 21.1.1 (19 januari 2021). |
+|  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterad text för parametern `productPurchasedID`. |
+|  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Ett känt fel har lagts till när en [!UICONTROL Recommendation]-aktivitet kopierades med en aktiv befordran. Alla ändringar i dubblettaktiviteten påverkar också den ursprungliga aktiviteten, och vice versa. En tillfällig lösning ingår. |
+|  | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.1.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe Target Standard/Premium 20.10.1 (28 oktober 2020)
 
