@@ -2,9 +2,9 @@
 keywords: troubleshoot target;troubleshooting target
 description: Lista med ämnen som kan hjälpa dig att lösa problem i Adobe Target, inklusive felsökningsfrågor, vanliga frågor och svar samt andra användbara ämnen.
 title: Felsöka Adobe Target
-feature: troubleshooting general
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Felsök mål{#troubleshoot-target}
+# Felsök mål
 
 Lista med ämnen som kan hjälpa dig att lösa problem i [!DNL Adobe Target], inklusive felsökningsämnen, vanliga frågor och svar samt andra användbara ämnen.
 
