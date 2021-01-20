@@ -1,13 +1,13 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Använd anpassade entitetsattribut med ett eller flera värden för att definiera ytterligare information om objekt i din katalog.
-title: Anpassade entitetsattribut i Adobe Target
+title: Anpassade entitetsattribut
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 4fb3603946850092ff2db47e2ad319ab84ff9261
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
