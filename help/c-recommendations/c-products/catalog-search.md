@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: Katalogsökningen i Adobe Target hjälper dig att hitta produkterna eller innehållet i din katalog.
-title: Katalogsökning i Adobe Target
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Lär dig hur du använder Recommendations Catalog Search för att hitta produkter eller innehåll, skapa samlingar eller uteslutningar, ta bort objekt från katalogen och mycket mer.
+title: Så här använder du Recommendations Catalog Search
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMCatalogsökning  {#catalog-search}
+# ![](/help/assets/premium.png) PREMIUMCatalogsökning
 
-Sidan [!UICONTROL Catalog Search] hjälper dig att hitta produkterna eller innehållet i din katalog.
+Sidan [!UICONTROL Catalog Search] i [!DNL Adobe Recommendations] hjälper dig att hitta produkterna eller innehållet i din katalog. Den mest grundläggande uppgiften du kan utföra på den här sidan är att söka efter ett objekt. Dessutom kan du ändra miljön, spara sökresultat i samlingar eller uteslutningar, lägga till filteraspekter och ändra kolumner i tabellen, lägga till nya sökfaktorer och mycket mer.
 
-Kataloger avser hela produktuppsättningen (enheter). Katalogen kan innehålla många samlingar - ett sätt att ordna produkterna i logiska intervall.
+Kataloger avser hela produktuppsättningen (enheter). Katalogen kan innehålla många samlingar, ett sätt att ordna dina produkter i logiska områden.
+
+## Åtkomst till katalogsökning
 
 Du öppnar sidan [!UICONTROL Catalog Search] genom att klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 ![Katalogsöksida](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-Den mest grundläggande uppgiften du kan utföra på den här sidan är att söka efter ett objekt. Dessutom kan du ändra miljön; spara sökresultat i samlingar eller uteslutningar, lägg till, ta bort eller ordna om kolumner i tabellen och lägg till nya sökfaktorer på panelen [!UICONTROL Filters].
 
 ## Söka efter ett objekt
 
@@ -61,7 +61,7 @@ Du kan söka efter objekt i katalogen med hjälp av en enkel sökning eller en a
    >
    >När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
    >
-   >För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan ändra typen av attribut. Om du vill göra en ändring [öppnar du en kundutgåva](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till de attribut som behöver typen ändrad från sträng till numerisk.
+   >Det finns för närvarande ingen tillgänglig funktion som gör att du kan ändra typen av attribut. Om du vill göra en ändring [öppnar du en kundutgåva](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till de attribut som behöver typen ändrad från sträng till numerisk.
 
 1. Du kan också använda filter för att hitta önskad produkt. I följande exempel expanderar du funktionen [!UICONTROL Collections] och väljer &quot;Cykelverktyg&quot;, så visas alla cykelverktyg i katalogvisningen.
 
@@ -153,7 +153,7 @@ Du kan lägga till fler filteransikten på sidan [!UICONTROL Catalog Search].
 
    ![Länken Ändra filter](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. Markera önskade sökfaktorer (ID, namn, meddelande, osv.).
+1. Markera önskade sökfaktorer (ID, namn, meddelande osv.) och klicka sedan på **[!UICONTROL Save]**.
 
    ![Lägg till filter](/help/c-recommendations/c-products/assets/add-filters.png)
 
