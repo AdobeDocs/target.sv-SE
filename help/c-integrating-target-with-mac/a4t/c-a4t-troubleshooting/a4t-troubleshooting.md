@@ -4,9 +4,9 @@ description: I det här avsnittet beskrivs några vanliga problem som har uppst�
 title: Felsöka integreringen med Analytics och Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,15 @@ Det finns flera orsaker till detta:
 >Ibland visas data korrekt i rapporter, men återgår sedan till&quot;ospecificerad&quot; eftersom en ny aktivitet har lagts till som inte har slutfört klassificeringen. Kom ihåg att det i allmänhet tar mellan 24 och 72 timmar att klassificera rapporter efter det att du sparat dem första gången.
 >
 >Inga data förloras när de listas som&quot;ospecificerade&quot;. Data tilldelas korrekt till lämplig aktivitet eller upplevelse efter att klassificeringen har körts.
+
+## A4T-aktivitetsrapporter innehåller en rad med ett stort antal ospecificerade händelser. {#added_unspecified_events}
+
+Det visas alltid en ospecificerad händelserad, beroende på vilket mätvärde du använder för att visa data.\
+Om du använder ett målmått visas inte raden&quot;unspecified&quot; (ej specificerad).
+Om du använder ett mer vanligt mått visas raden igen i rapporten.
+
+Det &quot;ospecificerade&quot; radobjektet har ingen Target-associerad information (t.ex. inga besökare/besök/visningar).\
+Det enda sättet att undvika att ha det i rapporten är att ställa in Target på alla förfrågningar som skickas från den sidan, vilket inte är vettigt.
 
 ## Mina analysdata visar ett uppblåst besöks- eller besökarantal sedan A4T startades. {#section_4BE374E573D44FB7918611699B74F58E}
 
