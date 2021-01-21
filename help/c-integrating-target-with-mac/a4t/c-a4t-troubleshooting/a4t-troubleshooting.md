@@ -4,9 +4,9 @@ description: I det här avsnittet beskrivs några vanliga problem som har uppst�
 title: Felsöka integreringen med Analytics och Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,25 @@ Det finns flera orsaker till detta:
 
    [Kontakta kundens ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) karriär om du behöver hjälp.
 
+Om du bryter ned raden &quot;unspecified&quot; (ospecificerad) med dimensionen &quot;Analytics for Target&quot; (Analyser för mål) och den inte består av några aktivitets-ID:n, innebär det att allt klassificeras korrekt.  Om aktivitets-ID finns med i listan fungerar det som en indikation på ett klassificeringsproblem.
+
 >[!NOTE]
 >
 >Ibland visas data korrekt i rapporter, men återgår sedan till&quot;ospecificerad&quot; eftersom en ny aktivitet har lagts till som inte har slutfört klassificeringen. Kom ihåg att det i allmänhet tar mellan 24 och 72 timmar att klassificera rapporter efter det att du sparat dem första gången.
 >
 >Inga data förloras när de listas som&quot;ospecificerade&quot;. Data tilldelas korrekt till lämplig aktivitet eller upplevelse efter att klassificeringen har körts.
+
+
+## A4T-aktivitetsrapporter innehåller en rad med ett stort antal ospecificerade händelser. {#added_unspecified_events}
+
+Det kan finnas en &quot;ospecificerad&quot; händelserad som visas i rapporten, beroende på vilka mätvärden du använder för att visa data med.
+
+Vanligtvis visas den här raden om du väljer ett gemensamt mätvärde i rapporten som inte är målspecifikt (t.ex. sidvyer, besök, unika besökare).
+I det här fallet kommer raden &quot;Ospecificerad&quot; att innehålla alla sidvyer, besök och unika besökare som inte är kopplade till målaktiviteter.
+Den raden har ingen Target-associerad information (t.ex. inga besökare, besök eller visningar). Mer information finns i [&quot;Ospecificerad&quot;,&quot;Ingen&quot;,&quot;Annan&quot; och&quot;Okänd&quot; i rapporteringen](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) i *Analytics Tech Notes*.
+
+Om du väljer ett målspecifikt mått i rapporten visas inte raden Ospecificerad.
+Det enda sättet att undvika att få med det i rapporten helt och hållet är att ställa in ett Target-anrop för varje begäran som skickas från den sidan, vilket inte är vanligt eller nödvändigt.
 
 ## Mina analysdata visar ett uppblåst besöks- eller besökarantal sedan A4T startades. {#section_4BE374E573D44FB7918611699B74F58E}
 
