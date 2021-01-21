@@ -4,7 +4,7 @@ description: I det här avsnittet beskrivs några vanliga problem som har uppst�
 title: Felsöka integreringen med Analytics och Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
+source-git-commit: aeb18e5e27e821769e22e1fb4c36d2abb46c2950
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -40,12 +40,11 @@ Det finns flera orsaker till detta:
 
 ## A4T-aktivitetsrapporter innehåller en rad med ett stort antal ospecificerade händelser. {#added_unspecified_events}
 
-Det visas alltid en ospecificerad händelserad, beroende på vilket mätvärde du använder för att visa data.\
-Om du använder ett målmått visas inte raden&quot;unspecified&quot; (ej specificerad).
-Om du använder ett mer vanligt mått visas raden igen i rapporten.
+Det visas alltid en ospecificerad händelserad, beroende på vilket mätvärde du använder för att visa data.
 
-Det &quot;ospecificerade&quot; radobjektet har ingen Target-associerad information (t.ex. inga besökare/besök/visningar).\
-Det enda sättet att undvika att ha det i rapporten är att ställa in Target på alla förfrågningar som skickas från den sidan, vilket inte är vettigt.
+Om du använder ett målmått visas inte raden&quot;unspecified&quot; (ej specificerad). Om du använder ett mer vanligt mått visas raden igen i rapporten.
+
+Det &quot;ospecificerade&quot; radobjektet har ingen Target-associerad information (t.ex. inga besökare/besök/visningar). Det enda sättet att undvika att ha det i rapporten är att ställa in Target på alla förfrågningar som skickas från den sidan, vilket inte är vettigt.
 
 ## Mina analysdata visar ett uppblåst besöks- eller besökarantal sedan A4T startades. {#section_4BE374E573D44FB7918611699B74F58E}
 
