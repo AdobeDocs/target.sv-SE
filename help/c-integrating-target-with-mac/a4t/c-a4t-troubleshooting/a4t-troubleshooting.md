@@ -4,15 +4,15 @@ description: I det här avsnittet beskrivs några vanliga problem som har uppst�
 title: Felsöka integreringen med Analytics och Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 
-# Felsöka integreringen med Analytics och Target (A4T){#troubleshoot-the-analytics-and-target-integration-a-t}
+# Felsöka integreringen med Analytics och Target (A4T)
 
 I det här avsnittet beskrivs några vanliga problem som har uppstått när Analytics används som rapportkälla för Target (A4T).
 
@@ -40,17 +40,15 @@ Om du bryter ned raden &quot;unspecified&quot; (ospecificerad) med dimensionen &
 >
 >Inga data förloras när de listas som&quot;ospecificerade&quot;. Data tilldelas korrekt till lämplig aktivitet eller upplevelse efter att klassificeringen har körts.
 
-
 ## A4T-aktivitetsrapporter innehåller en rad med ett stort antal ospecificerade händelser. {#added_unspecified_events}
 
-Det kan finnas en &quot;ospecificerad&quot; händelserad som visas i rapporten, beroende på vilka mätvärden du använder för att visa data med.
+Det kan finnas en [!UICONTROL Unspecified]-händelserad som visas i din rapport, beroende på vilka mått du använder för att visa dina data.
 
-Vanligtvis visas den här raden om du väljer ett gemensamt mätvärde i rapporten som inte är målspecifikt (t.ex. sidvyer, besök, unika besökare).
-I det här fallet kommer raden &quot;Ospecificerad&quot; att innehålla alla sidvyer, besök och unika besökare som inte är kopplade till målaktiviteter.
-Den raden har ingen Target-associerad information (t.ex. inga besökare, besök eller visningar). Mer information finns i [&quot;Ospecificerad&quot;,&quot;Ingen&quot;,&quot;Annan&quot; och&quot;Okänd&quot; i rapporteringen](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) i *Analytics Tech Notes*.
+Vanligtvis visas den här raden om du väljer ett vanligt mått i rapporten som inte är [!DNL Target]-specifikt (till exempel [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors]). I det här fallet innehåller raden [!UICONTROL “Unspecified”] alla [!UICONTROL Page Views], [!UICONTROL Visits] och [!UICONTROL Unique Visitors] som inte är associerade med [!DNL Target]-aktiviteter.
 
-Om du väljer ett målspecifikt mått i rapporten visas inte raden Ospecificerad.
-Det enda sättet att undvika att få med det i rapporten helt och hållet är att ställa in ett Target-anrop för varje begäran som skickas från den sidan, vilket inte är vanligt eller nödvändigt.
+Raden har ingen [!DNL Target]-associerad information (t.ex. inga besökare, besök eller visningar). Mer information finns i [&quot;Ospecificerad&quot;,&quot;Ingen&quot;,&quot;Annan&quot; och&quot;Okänd&quot; i rapporteringen](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) i *Analytics Tech Notes*.
+
+Om du väljer ett [!DNL Target]-specifikt mått i rapporten visas inte raden [!UICONTROL “Unspecified”]. Det enda sättet att undvika att få med det i rapporten är att ange ett [!DNL Target]-anrop för varje begäran som skickas från den sidan, vilket inte är vanligt eller nödvändigt.
 
 ## Mina analysdata visar ett uppblåst besöks- eller besökarantal sedan A4T startades. {#section_4BE374E573D44FB7918611699B74F58E}
 
