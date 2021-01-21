@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '3384'
+source-wordcount: '3431'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 21 januari | [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nytt avsnitt har lagts till: &quot;A4T-aktivitetsrapporter innehåller en rad med ett stort antal &quot;ospecificerade&quot; händelser.&quot; |
+|  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Uppdaterat följande avsnitt: &quot;Varför ser jag&quot;ospecificerad&quot; i Analytics-rapporterna? Vad betyder det?&quot; |
 | 20 januari | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nytt ämne. |
 | 19 januari | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om Target 21.1.1 (19 januari 2021). |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterad text för parametern `productPurchasedID`. |
