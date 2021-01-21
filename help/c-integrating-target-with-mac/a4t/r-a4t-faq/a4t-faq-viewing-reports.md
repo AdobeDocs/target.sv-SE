@@ -4,9 +4,9 @@ description: Det här avsnittet innehåller svar på frågor som ofta ställs om
 title: Visa rapporter - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 3776fac31aa512728f40211de8b8bb902df35070
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '2311'
+source-wordcount: '2308'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,7 @@ I andra rapporter betyder&quot;ospecificerad&quot; att data inte uppfyller en kl
 
 Efter klassificeringsperioden visas data i dessa rapporter ungefär en timme efter det att de samlats in från webbplatsen. Alla mätvärden, segment och värden i rapporterna kommer från den rapportsserie du valde när du konfigurerade aktiviteten.
 
-Om klassificeringen gjordes för den aktiviteten, och du fortfarande ser en&quot;ospecificerad&quot; rad i rapporten, kontrollerar du att rapporten inte använder ett icke-målmått för att visa data. Om rapporten inte använder ett Target-specifikt mått kommer den &quot;unspecified&quot;-raden att innehålla händelser för anrop som inte är associerade med Target.
-Motsvarande rad kommer inte att innehålla någon målassocierad information (t.ex. inga besökare/besök/visningar).
+Om klassificeringen gjordes för den aktiviteten, och du fortfarande ser en ospecificerad rad i rapporten, kontrollerar du att rapporten inte använder ett icke-[!DNL Target]-mått för att visa data. Om inte rapporten använder ett [!DNL Target]-specifikt mått kommer raden &quot;Ospecificerad&quot; att innehålla händelser för anrop som inte är associerade med [!DNL Target]. Den raden kommer inte att innehålla någon [!DNL Target]-associerad information (t.ex. besökare/besök/visningar).
 
 ## Varför skickas Target-mått till Analytics även efter att aktiviteten har inaktiverats? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
@@ -90,7 +89,7 @@ Den 1 januari kommer användaren till webbplatsen och ser aktiviteten XYZ en gå
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 5 | 3 | 3 |
+| XYZ | 3 | 5 | 1 | 3 |
 
 Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter inte på fler Target-aktiviteter och den ursprungliga aktiviteten är inte längre aktiv. Även om aktiviteten inte längre är aktiv följer den fortfarande användaren via eVar persistence. Data ser nu ut så här:
 
@@ -103,15 +102,15 @@ Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 1 | 3 |
+| ABC | 1 | 5 | 3 | 3 |
 
 Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så vi kommer att se det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 3 |
-| ABC | 1 | 10 | 2 | 1 | 3 |
-| Totalt | 2 | 20 | 1 | 1 | 3 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
+| ABC | 3 | 10 | 2 | 3 | 1 |
+| Totalt | 2 | 20 | 1 | 1 | 1 |
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Ni jämför resultaten av två objekt i en enda aktivitet, och det är inte möjligt för en användare att se olika upplevelser i samma aktivitet så att ni inte behöver bekymra er om korskontaminering av orderkrediter.
 
