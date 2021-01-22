@@ -4,15 +4,15 @@ description: Konverteringsgrad, lyft, konfidensintervall (statistisk signifikans
 title: Konverteringsgrad
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '2120'
 ht-degree: 0%
 
 ---
 
 
-# Konverteringsgrad{#conversion-rate}
+# Konverteringsgrad
 
 Konverteringsgrad, lyft, konfidensintervall (statistisk signifikans) och konfidensintervall rapporteras för varje upplevelse.
 
@@ -185,3 +185,27 @@ Du kan visa rapporter med följande beräkningsmetoder:
 >[!NOTE]
 >
 >Antalet bestäms vanligtvis av cookies och sessionsaktivitet. Om du når den sista konverteringspunkten för en aktivitet och sedan anger aktiviteten igen, betraktas du som en ny deltagare och ett nytt besök i aktiviteten. Detta gäller även om dina PCID- och `sessionID`-värden inte ändras.
+
+## Varför använder Target Students t-test? {#t-test}
+
+A/B-tester är experiment för att jämföra medelvärdet av vissa företagsvärden i en kontrollvariant (kallas även upplevelse) med medelvärdet av samma mätvärden i en eller flera alternativa upplevelser.
+
+[!DNL Target] rekommenderar att man använder två exempel på  [Students t-test](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.), eftersom dessa kräver färre antaganden än alternativ som z-test, och är det lämpliga statistiska testet för att göra parvisa jämförelser av (kvantitativa) affärsvärden mellan en kontrollupplevelse och alternativa upplevelser.
+
+### Mer information
+
+När A/B-tester körs online tilldelas varje användare/besökare slumpmässigt till en enskild variant. Därefter gör vi mätningar av de affärsmått som är av intresse (t.ex. konverteringar, order, intäkter osv.) för besökare i varje variant. Det statistiska testet vi använder testar sedan hypotesen att det genomsnittliga affärsvärdet (t.ex. konverteringsgrad, order per användare, intäkt per användare osv.) är lika för kontrollen och en given alternativ variant.
+
+Även om själva affärsmätningen kan fördelas utifrån en viss godtycklig fördelning, bör fördelningen av medelvärdet av detta mätvärde (inom varje variant) sammanfalla med en normal fördelning via [det centrala gränsvärdet](https://en.wikipedia.org/wiki/Central_limit_theorem). Observera att även om det inte finns någon garanti för hur snabbt denna provdistribution av medelvärdet kommer att konvergera till normal, är detta normalt med tanke på besökarnas omfattning vid onlinetestning.
+
+Med hänsyn till detta medelvärde kan den teststatistik som ska användas visa att den följer en t-fördelning, eftersom den är förhållandet mellan ett normalt fördelat värde (skillnaden i företagsmetervärdet) och ett skalningsvillkor baserat på en uppskattning av data (standardfelet för skillnaden i medelvärde). **Studentens t-test** är sedan det lämpliga hypotestestet, eftersom testvärdet följer en t-fördelning.
+
+### Varför andra tester inte används
+
+Ett **z-test** är olämpligt eftersom i det typiska A/B-testscenariot är nämnaren för provningsvärdet inte härledd från en känd varians, utan måste beräknas från data.
+
+**Ki-kvadratiska** tester används inte eftersom dessa är lämpliga för att avgöra om det finns ett kvalitativt samband mellan två varianter (dvs. en nollhypotes om att det inte finns någon skillnad mellan varianter). T-tester lämpar sig bättre för scenariot _kvantitativt_ där mätvärden jämförs.
+
+**Mann-Whitney U-testet** är ett icke-parametriskt test, vilket är lämpligt när provfördelningen av det genomsnittliga företagsvärdet (för varje variant) normalt inte fördelas. Som tidigare nämnts gäller dock centralbegränsningsteorem vanligtvis, med tanke på den stora trafik som är involverad i onlinetestning, och t-testet kan därför tillämpas på ett säkert sätt.
+
+Mer komplexa metoder som **ANOVA** (som genererar t-tester till mer än två varianter) kan användas när ett test har fler än två upplevelser (&quot;A/Bn-tester&quot;). ANOVA besvarar emellertid frågan om&quot;alla varianter har samma medelvärde&quot;, medan vi i det typiska A/Bn-testet är mer intresserade av _vilken specifik variant_ som är bäst. I [!DNL Target] tillämpar vi därför regelbundna t-tester där varje variant jämförs med en kontroll, med en Bonferroni-korrigering för att ta hänsyn till flera jämförelser.
