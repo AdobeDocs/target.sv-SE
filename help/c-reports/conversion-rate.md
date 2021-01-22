@@ -4,9 +4,9 @@ description: Konverteringsgrad, lyft, konfidensintervall (statistisk signifikans
 title: Konverteringsgrad
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Du kan visa rapporter med följande beräkningsmetoder:
 >
 >Antalet bestäms vanligtvis av cookies och sessionsaktivitet. Om du når den sista konverteringspunkten för en aktivitet och sedan anger aktiviteten igen, betraktas du som en ny deltagare och ett nytt besök i aktiviteten. Detta gäller även om dina PCID- och `sessionID`-värden inte ändras.
 
-## Varför använder Target Students t-test? {#t-test}
+## Varför rekommenderar Target att man använder Students t-test? {#t-test}
 
 A/B-tester är experiment för att jämföra medelvärdet av vissa företagsvärden i en kontrollvariant (kallas även upplevelse) med medelvärdet av samma mätvärden i en eller flera alternativa upplevelser.
 
