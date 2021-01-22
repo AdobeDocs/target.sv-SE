@@ -4,7 +4,7 @@ description: Konverteringsgrad, lyft, konfidensintervall (statistisk signifikans
 title: Konverteringsgrad
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 0%
@@ -208,4 +208,4 @@ Ett **z-test** är olämpligt eftersom i det typiska A/B-testscenariot är nämn
 
 **Mann-Whitney U-testet** är ett icke-parametriskt test, vilket är lämpligt när provfördelningen av det genomsnittliga företagsvärdet (för varje variant) normalt inte fördelas. Som tidigare nämnts gäller dock centralbegränsningsteorem vanligtvis, med tanke på den stora trafik som är involverad i onlinetestning, och t-testet kan därför tillämpas på ett säkert sätt.
 
-Mer komplexa metoder som **ANOVA** (som genererar t-tester till mer än två varianter) kan användas när ett test har fler än två upplevelser (&quot;A/Bn-tester&quot;). ANOVA besvarar emellertid frågan om&quot;alla varianter har samma medelvärde&quot;, medan vi i det typiska A/Bn-testet är mer intresserade av _vilken specifik variant_ som är bäst. I [!DNL Target] tillämpar vi därför regelbundna t-tester där varje variant jämförs med en kontroll, med en Bonferroni-korrigering för att ta hänsyn till flera jämförelser.
+Mer komplexa metoder som **ANOVA** (som genererar t-tester till mer än två varianter) kan användas när ett test har fler än två upplevelser (&quot;A/Bn-tester&quot;). ANOVA besvarar dock frågan om&quot;alla varianter har samma medelvärde&quot;, medan vi i det typiska A/Bn-testet är mer intresserade av _vilken specifik variant_ som är bäst. I [!DNL Target] tillämpar vi därför regelbundna t-tester där varje variant jämförs med en kontroll, med en Bonferroni-korrigering för att ta hänsyn till flera jämförelser.
