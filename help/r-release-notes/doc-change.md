@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '3443'
+source-wordcount: '3444'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 22 januari | [Konverteringsgrad](/help/c-reports/conversion-rate.md#t-test) | Följande avsnitt har lagts till: &quot;Varför använder Target Students t-tests?&quot; |
+| 22 januari | [Konverteringsgrad](/help/c-reports/conversion-rate.md#t-test) | Följande avsnitt har lagts till: &quot;Varför rekommenderar Target att man använder Students t-tests?&quot; |
 | 21 januari | [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nytt avsnitt har lagts till: &quot;A4T-aktivitetsrapporter innehåller en rad med ett stort antal &quot;ospecificerade&quot; händelser.&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Uppdaterat följande avsnitt: &quot;Varför ser jag&quot;ospecificerad&quot; i Analytics-rapporterna? Vad betyder det?&quot; |
 | 20 januari | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nytt ämne. |
