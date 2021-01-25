@@ -4,9 +4,9 @@ description: Konverteringsgrad, lyft, konfidensintervall (statistisk signifikans
 title: Konverteringsgrad
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
+source-git-commit: f30e16bdb24268e85f6cb3739455d77f7bcb4279
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2147'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Om du vill beräkna dessa beräknade värden hämtar du målets [Complete Confid
 
 Du kan utföra offlineberäkningar för A4T, men det krävs ett steg med dataexporter i [!DNL Analytics].
 
-För A4T använder vi Students t-test-beräkning för kontinuerliga variabler (i stället för binära värden). I Analytics spåras alltid en besökare, och alla åtgärder som vidtas räknas. Om besökaren köper flera gånger eller besöker ett framgångsmått flera gånger räknas de ytterligare träffarna. Detta gör mätvärdet till en kontinuerlig variabel. För att kunna utföra Students t-test-beräkning krävs&quot;summan av kvadrater&quot;. Det här kan hämtas från [!DNL Analytics]. Om du vill få summan av kvadratdata måste du utföra en export på besökarnivå för det mätresultat som du optimerar för, under en provtidsperiod.
+För A4T använder vi Students t-test-beräkning för kontinuerliga variabler (i stället för binära värden). I Analytics spåras alltid en besökare, och alla åtgärder som vidtas räknas. Om besökaren köper flera gånger eller besöker ett framgångsmått flera gånger räknas de ytterligare träffarna. Detta gör mätvärdet till en kontinuerlig variabel. För att kunna utföra Students t-test-beräkning krävs&quot;summan av kvadrater&quot; för att beräkna variansen, som används i t-statistikens nämnare. [I det här dokumentet förklaras ](/help/assets/statistical-calculations.pdf) detaljerna för de matematiska formler som används. Summan av fyrkanter kan hämtas från [!DNL Analytics]. Om du vill få summan av kvadratdata måste du utföra en export på besökarnivå för det mätresultat som du optimerar för, under en provtidsperiod.
 
 Om du till exempel optimerar till sidvisningar per besökare, kan du exportera ett exempel på det totala antalet sidvisningar per besökare för en viss tidsperiod, kanske några dagar (ett par tusen datapunkter är allt du behöver). Därefter fyrkantiga varje värde och summerar summan (operationsordningen är viktig här). Värdet&quot;summan av kvadrater&quot; används sedan i Complete Confidence Calculator. Använd avsnittet &quot;intäkt&quot; i kalkylbladet för dessa värden.
 
