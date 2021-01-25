@@ -4,9 +4,9 @@ description: Adobe Recommendations Classic-dokumentation.
 title: Adobe Recommendations Classic-dokumentation.
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e43cb56ebe80e2df83b3c2a75dd90e28bf3870ff
+source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] är en äldre produkt. Uppgradera till [!DNL Recommendations] aktiviteter i [Adobe Target Premium](/help/c-intro/intro.md) för att få den bästa [!DNL Recommendations]-upplevelsen.
+>[!DNL Recommendations Classic] är en äldre produkt som inte längre är licensierad till nya kunder. Uppgradera till [!DNL Recommendations] aktiviteter i [Adobe Target Premium](/help/c-intro/intro.md) för att få den bästa [!DNL Recommendations]-upplevelsen.
 
 Recommendations hjälper kunderna att dirigera till objekt de annars kanske inte känner till, vilket förbättrar försäljningen på er webbplats.
 
