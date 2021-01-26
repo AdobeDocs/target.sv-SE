@@ -4,9 +4,9 @@ description: Versionsinformation om tidigare versioner av Adobe Target, inklusiv
 title: Versionsinformation för tidigare versioner
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
 workflow-type: tm+mt
-source-wordcount: '29950'
+source-wordcount: '30221'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2021
+
+### Target Standard/Premium 21.1.1 (19 januari 2021)
+
+Den här underhållsversionen innehåller följande förbättringar, korrigeringar och ändringar.
+
+Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+
+* En varning lades till när ett [!DNL Adobe Analytics]-mått valdes när [!UICONTROL Analytics as the reporting source] (A4T) användes i en [!UICONTROL Auto-Target]-aktivitet. [!UICONTROL Auto-Target] modellerna är optimerade för att fungera med binära (konverteringsbaserade) mätvärden. Om du väljer ett kontinuerligt mätvärde, till exempel intäkt, kan resultatet bli suboptimalt och [!UICONTROL Personalization Insights]-rapporterna kanske inte är korrekta. (TGT-38926)
+* En statusikon har lagts till i [!UICONTROL Auto-Target Summary]-rapporten för [!UICONTROL Auto-Target]-aktiviteter som använder A4T. Den gröna bockikonen bredvid varje upplevelse i rapporten anger att en anpassad maskininlärningsmodell har skapats för den upplevelsen. Klockikonen anger att det inte finns tillräckligt med trafik för att skapa modellen. (TGT-38925)
+* Rapporterna [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] för [!UICONTROL Auto-Target]-aktiviteter som använder A4T- och [!DNL Analytics]-konverteringsmått genereras och ser likadana ut som när [!DNL Target] används som rapportkälla. (TGT-38931)
+* Ett miljöfilteralternativ har lagts till i [!UICONTROL Recommendations] [!UICONTROL Collections]-listan. (TGT-38353)
+* Korrigerade ett problem som gjorde att felaktigt produktantal visades i [!UICONTROL Recommendations]-samlingar. (TGT-39162)
+* Ett [!UICONTROL Last Updated]-filter har lagts till i [!UICONTROL Recommendations] [!UICONTROL Catalog Search]. (TGT-38340)
+* Korrigerade ett fel i [!UICONTROL Recommendations] som gjorde att sidan [!UICONTROL Create Sequence] hängde efter att branschens vertikala ändrats. (TGT-38160)
+* Ett problem som gjorde att aktiviteten inte kunde sparas om Device Co-op var aktiverad och användaren ändrades från [!DNL Target] som rapportkälla till [!DNL Analytics] (A4T) har åtgärdats. (TGT-38163)
+* Ett problem som hindrade användare från att ta bort en målgrupp från ett erbjudande i en [!UICONTROL Automated Personalization]-aktivitet har åtgärdats. (TGT-39058)
+* Korrigerade ett problem som gjorde att fel tidsram (start- och slutdatum) visades i [!UICONTROL Audience Info]-kort för vissa kunder. (TGT-39150)
+* Ett problem som gjorde att vissa kunder inte kunde se aktivitetslistan i [!UICONTROL Default Workspace] har korrigerats. (TGT-38526)
 
 ### at.js 2.4.0 (14 januari 2021)
 
@@ -436,7 +454,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | --- | --- |
 | Visual Experience Composer (VEC) | **Nya alternativ** på menyn VEC: När du klickar på ett sidelement i VEC visar en meny de alternativ som är tillgängliga för den elementtypen.<ul><li>Du kan nu använda alternativet [!UICONTROL Styles > Background] för att ändra bakgrundsbilden och färgen för det valda elementet. (TGT-15001)</li></ul>Se *Format* i [Alternativ för visuell upplevelse](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Förbättrad** klickspårning: Vi har förbättrat processen för att konfigurera klickspårning i VEC och Single Page Application (SPA) VEC.<ul><li>När du markerar element som ska användas i klickspårning visas namnen på alla tillgängliga element på panelen Ändringar till höger, vilket gör det snabbt och enkelt att markera de önskade elementen.</li><li>På sidan [!UICONTROL Goals & Settings] i det guidade arbetsflödet för tre delar visas ett tal som representerar antalet element som valts för klickspårning. Du kan hålla muspekaren över det här talet för att se namnen på alla markerade element. (TGT-33878)</li></ul>Se [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md). |
 | Visual Experience Composer (SPA VEC) för en sida | **Guidat arbetsflöde**: Ett nytt guidat arbetsflöde hjälper dig att förstå hur inställningar för sidleverans ska konfigureras för att köra och köra en aktivitet för din Single Page-app. (TGT-33718)<br> Se [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Klonändringar**: Du kan nu definiera en ändring med SPA VEC och sedan klona ändringen för användning i andra vyer i Single Page App. (TGT-33882)<br>Se [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| ![Premium ](/help/assets/premium.png) badgeAutomated Personalization (AP) &amp; Auto-Target | **Specifik upplevelse som kontroll**: Du kan välja en upplevelse som ska användas som kontroll när du skapar en AP- eller Auto-Target-aktivitet. Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen. Det nuvarande kontrollalternativet (slumpmässigt hanterade upplevelser) kommer även i fortsättningen att vara tillgängligt. (TGT-32801, TGT-26572 och TGT-26571)<br>Se [Markera kontrollen för din Automated Personalization- eller Automatisk målaktivitet](/help/c-activities/t-automated-personalization/experience-as-control.md). Observera att det finns ett [känt fel](/help/r-release-notes/known-issues-resolved-issues.md) med den här funktionen.<br>**Insikter om personalisering - rapporter**: Den marknadsföringsvänliga namngivningen för attribut när en besökare ser en viss del av innehållet på en viss plats ger mer meningsfull information. (TGT-33421 &amp; TGT-34957)<br>Se [Datainsamling för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/ap-data.md). |
+| ![Premium ](/help/assets/premium.png) badgeAutomated Personalization (AP) &amp; Auto-Target | **Specifik upplevelse som kontroll**: Du kan välja en upplevelse som ska användas som kontroll när du skapar en AP- eller Auto-Target-aktivitet. Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen. Det nuvarande kontrollalternativet (slumpmässigt hanterade upplevelser) är fortfarande tillgängligt. (TGT-32801, TGT-26572 och TGT-26571)<br>Se [Markera kontrollen för din Automated Personalization- eller Automatisk målaktivitet](/help/c-activities/t-automated-personalization/experience-as-control.md). Observera att det finns ett [känt fel](/help/r-release-notes/known-issues-resolved-issues.md) med den här funktionen.<br>**Insikter om personalisering - rapporter**: Den marknadsföringsvänliga namngivningen för attribut när en besökare ser en viss del av innehållet på en viss plats ger mer meningsfull information. (TGT-33421 &amp; TGT-34957)<br>Se [Datainsamling för målpersonaliseringsalgoritmerna](/help/c-activities/t-automated-personalization/ap-data.md). |
 | ![Premium ](/help/assets/premium.png) badgeRekommendationer | Du kan använda reglaget Rekommendera tidigare inköpta artiklar när du skapar logiken för nyligen visade objekt. (TGT-34030)<br>Mer information finns i [Nyligen visade objekt](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) i&quot;Skapa villkor&quot;. |
 | Google Chrome SameSite cookie-principer | Google meddelade nyligen att från och med Chrome 76, som är tilldelad till 30 juli 2019, måste utvecklare uttryckligen ange vilka cookies som kan användas på olika webbplatser och vilka cookies som kan spåra användare.<br>I takt med att branschen strävar efter att skapa en säkrare webbsajt för konsumenterna är Target helt engagerat i att leverera personaliserade upplevelser och samtidigt uppfylla och överträffa besökarnas förväntningar på integritetsskydd.<br>Se  [Google Chrome-cookie-principer](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) för samma webbplats. |
 
