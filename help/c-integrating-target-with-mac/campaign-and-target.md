@@ -2,9 +2,9 @@
 keywords: Overview and Reference
 description: Använd Target tillsammans med Adobe Campaign för att optimera e-postinnehåll.
 title: Integrera Target med Adobe Campaign
-feature: campaign
+feature: Integrations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
