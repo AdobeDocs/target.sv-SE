@@ -1,12 +1,12 @@
 ---
-keywords: remote offer;remote offer selection matrix;cached content;dynamic content
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content;url type
 description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll?
 title: Skapa fjärrerbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d966727239d982116e3cd1c2925cb1627e2954ea
+source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Några exempel på fjärrerbjudanden är:
 
 Följande information hjälper dig att förstå skillnaderna mellan de två alternativen:
 
-### Cachelagrad URL-typ
+### Cachelagrad URL
 
 Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].
 
@@ -92,7 +92,7 @@ Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som ä
 
 Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande.
 
-### Dynamisk URL-typ
+### Dynamisk URL
 
 Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].
 
