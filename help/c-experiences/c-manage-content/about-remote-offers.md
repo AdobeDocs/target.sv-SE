@@ -1,24 +1,24 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Använd fjärrerbjudanden för att lagra innehåll utanför Adobe Target som Target refererar till och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
+description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll?
 title: Skapa fjärrerbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: '980'
+ht-degree: 0%
 
 ---
 
 
 # Skapa fjärrerbjudanden
 
-Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Adobe Target] som Target refererar till och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
+Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Adobe Target] som [!DNL Target] refererar till och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett CMS-system eller andra system, antingen av användarvänliga skäl eller av säkerhetsskäl.
 
 >[!NOTE]
 >
->Fjärrerbjudanden kan bara skapas i den formulärbaserade dispositionen. Innehållet kommer att injiceras på förfrågningsplatserna för [!DNL Target], så de passar troligtvis inte för en global [!DNL Target]-begäran.
+>Fjärrerbjudanden kan skapas på sidan Erbjudanden > Koderbjudanden eller i [Forms-baserad Experience Composer](/help/c-experiences/form-experience-composer.md). Du kan inte skapa fjärrerbjudanden i Visual Experience Composer (VEC). Innehållet kommer att injiceras på förfrågningsplatserna för [!DNL Target], så de passar troligtvis inte för en global [!DNL Target]-begäran.
 >
 >[!DNL Target Classic] innehåller liknande funktioner:  [!UICONTROL Offer on Your Site] och  [!UICONTROL Offer Outside Test&Target].
 
@@ -30,12 +30,15 @@ Några exempel på fjärrerbjudanden är:
 * Beräkningar
 * Ränteuppdateringar
 
-**Så här skapar du ett fjärrerbjudande:**
+## Skapa ett fjärrerbjudande från sidan Koderbjudanden
 
 1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Code Offers]**.
+
+   ![Erbjudanden > Koderbjudanden](/help/c-experiences/c-manage-content/assets/offers-code-offers.png)
+
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
 
-   ![](assets/remote_offer_ui.png)
+   ![Skapa fjärrerbjudande, dialogruta](/help/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. Ange ett beskrivande namn för erbjudandet.
 
@@ -45,8 +48,35 @@ Några exempel på fjärrerbjudanden är:
 
    | Alternativ | Beskrivning |
    |--- |--- |
-   | Cachelagrad | Innehållet i ett cachelagrat fjärrerbjudande levereras från Target.<br>Varannan timme  [!DNL Target] hämtar innehållet på fjärr-URL:en och lagrar sedan innehållet inuti Target. När besökare läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av Target.<br>Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad på toTarget inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.<br>Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande. |
-   | Dynamisk | Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från Target.<br>Du kanske inte vill att innehållet ska cachelagras regelbundet och sedan levereras av Target när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt, eller olika, för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka  [!UICONTROL Add Parameter] för att lägga till en eller flera  [!DNL Target] begäranden eller frågeparametrar. |
+   | Cachelagrad | Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].<br>Varannan timme  [!DNL Target] hämtar innehållet på fjärr-URL:en och lagrar sedan innehållet inuti  [!DNL Target]. När besökare läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av [!DNL Target].<br>Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad  [!DNL Target] inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.<br>Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande. |
+   | Dynamisk | Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].<br>Du kanske inte vill att innehållet ska cachas regelbundet och sedan levereras av  [!DNL Target] när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt (eller olika) för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka  **[!UICONTROL Add Parameter]** för att lägga till en eller flera  [!DNL Target] begäranden eller frågeparametrar. |
+
+1. Klicka på **[!UICONTROL Save]**.
+
+## Skapa ett fjärrerbjudande med formulärbaserad Experience Composer
+
+1. När du skapar en aktivitet med [formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) väljer du den plats där avsnittet **[!UICONTROL Content]** ska visas.
+
+   ![Innehållsavsnitt i formulärbaserad Experience Composer](/help/c-experiences/c-manage-content/assets/form-based-content.png)
+
+1. Klicka på listrutan **[!UICONTROL Default Content]** och klicka sedan på **[!UICONTROL Change Remote Offer]**.
+
+   ![Ändra alternativ för fjärrerbjudande](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
+
+   ![Skapa fjärrerbjudande, dialogruta](/help/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+
+1. Ange ett beskrivande namn för erbjudandet.
+
+   Med ett beskrivande namn kan du och andra snabbt hitta erbjudandet i [!UICONTROL Assets]-biblioteket.
+
+1. Ange fjärr-URL för fjärrerbjudandet:
+
+   | Alternativ | Beskrivning |
+   |--- |--- |
+   | Cachelagrad | Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].<br>Varannan timme  [!DNL Target] hämtar innehållet på fjärr-URL:en och lagrar sedan innehållet inuti  [!DNL Target]. När besökare läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av [!DNL Target].<br>Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad  [!DNL Target] inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.<br>Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande. |
+   | Dynamisk | Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].<br>Du kanske inte vill att innehållet ska cachas regelbundet och sedan levereras av  [!DNL Target] när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt (eller olika) för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka  **[!UICONTROL Add Parameter]** för att lägga till en eller flera  [!DNL Target] begäranden eller frågeparametrar. |
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -60,9 +90,9 @@ Bästa tillvägagångssätt för att använda fjärrerbjudanden i dina aktivitet
 
 * Om testet innehåller data som genereras dynamiskt av servern kan det vara rätt alternativ för [!UICONTROL Dynamic].
 * Om du bara vill testa utseendet på ditt befintliga innehåll för fjärrerbjudanden använder du [!UICONTROL Visual Experience Composer] för att ändra utseendet på det innehåll som returneras från innehållshanteringssystemet.
-* Använd matrisen för val av fjärrerbjudanden för att hjälpa dig att välja det erbjudande som passar bäst för just ditt fall. Kontakta din kontorepresentant om du har frågor.
+* Använd matrisen för val av fjärrerbjudande (nedan) för att hjälpa dig att välja det erbjudande som passar bäst för just ditt fall. Kontakta din kontorepresentant om du har frågor.
 
-## Så här fungerar dynamiska fjärterbjudanden {#concept_CC2A969420B34364A9FA78C1CE251818}
+## Så fungerar dynamiska fjärrerbjudanden {#concept_CC2A969420B34364A9FA78C1CE251818}
 
 Dynamiska fjärrerbjudanden använder er dynamiska sidteknologi för att skicka värden till erbjudandet.
 
