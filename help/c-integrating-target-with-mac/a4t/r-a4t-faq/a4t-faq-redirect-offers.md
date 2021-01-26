@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om att använda omdirigeringserbjudanden när Analytics används som rapportkälla för Target (A4T).
 title: Omdirigeringserbjudanden - A4T FAQ
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
