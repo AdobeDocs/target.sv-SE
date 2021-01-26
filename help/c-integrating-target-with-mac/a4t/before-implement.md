@@ -2,9 +2,9 @@
 keywords: Recommendations
 description: Flera ändringar görs i datainsamlingsprocessen när Analytics aktiveras som rapportkälla för Target (A4T).
 title: Innan du implementerar Adobe Analytics som rapportkälla för Adobe Target (A4T)
-feature: a4t implementation
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Instruktioner för hämtning och distribution finns i [Analytics for Target Impl
 
 * Den här integreringen aktiveras för nya aktiviteter när du väljer att använda [!DNL Analytics] som rapportkälla. När du har gjort de implementeringsändringar som beskrivs i det här dokumentet påverkas inte dina befintliga aktiviteter.
 * Processen att konfigurera [!DNL Analytics] som rapportkälla för [!DNL Target] innehåller flera implementeringssteg, följt av ett provisioneringssteg. Det är en god idé att läsa igenom processen enligt beskrivningen nedan innan du implementerar den. När du har utfört de här stegen kan du använda [!DNL Analytics] som rapportkälla så snart den är aktiverad. Etableringsprocessen kan ta upp till fem arbetsdagar.
-* [!DNL Visitor ID service] skapar en delad [!DNL Visitor ID] över [!DNL Adobe Experience Cloud]. Även om det inte ersätter mboxPC-id:t [!DNL Target] eller UUID:t för [!DNL Audience Manager] ersätter det sättet [!DNL Analytics] identifierar nya besökare. Om den är korrekt konfigurerad bör återkommande [!DNL Analytics]-besökare också identifieras via sitt gamla [!DNL Analytics]-ID för att förhindra besöksklickning. På samma sätt försvinner inga [!DNL Target]-data för besökarprofilen när du uppgraderar till [!DNL Target] eftersom mboxPCid förblir intakt.[!DNL Visitor ID service]
+* [!DNL Visitor ID service] skapar en delad [!DNL Visitor ID] över [!DNL Adobe Experience Cloud]. Även om det inte ersätter mboxPC-id:t [!DNL Target] eller UUID:t för [!DNL Audience Manager] ersätter det sättet [!DNL Analytics] identifierar nya besökare. Om den är korrekt konfigurerad bör återkommande [!DNL Analytics]-besökare också identifieras via sitt gamla [!DNL Analytics]-ID för att förhindra besöksklickning. På samma sätt försvinner inga [!DNL Target]-data för besökarprofilen när du uppgraderar till [!DNL Visitor ID service] eftersom mboxPCid förblir intakt.[!DNL Target]
 * [!DNL Visitor ID service] måste köras före sidkoden för [!DNL Analytics] och [!DNL Target]. Kontrollera att `VisitorAPI.js` visas ovanför taggarna för alla andra [!DNL Experience Cloud]-lösningar.
 
 ## Svarstid {#section_9489BE6FD21641A4844E591711E3F813}
