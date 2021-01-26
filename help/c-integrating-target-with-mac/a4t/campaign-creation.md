@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Du kan konfigurera en aktivitet i Target Standard/Premium så att Adobe Analytics används som rapportkälla (A4T).
 title: Skapa en aktivitet som använder A4T som rapportkälla
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Vissa begränsningar och anteckningar gäller för både Automatisk allokering o
 
 * Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller vice versa efter att en aktivitet har aktiverats.
 * Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. [!DNL Target] normaliserar automatiskt konverteringsmåtten per besök för att ta hänsyn till ojämn trafikfördelning, så det är inte nödvändigt att använda ett beräknat mätvärde för att utföra normaliseringen.
-* [!DNL Target] använder attribueringsmodellen&quot;Same Touch&quot; i  [!UICONTROL Auto-Allocate] A4T-implementeringen.
+* [!DNL Target] använder attribueringsmodellen &quot;Same Touch&quot; i  [!UICONTROL Auto-Allocate] funktionen: Analyser för Target (A4T).
 
 #### Automatisk allokering
 
