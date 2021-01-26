@@ -4,10 +4,10 @@ description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll
 title: Skapa fjärrerbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
+source-git-commit: d966727239d982116e3cd1c2925cb1627e2954ea
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 0%
+source-wordcount: '809'
+ht-degree: 1%
 
 ---
 
@@ -44,12 +44,11 @@ Några exempel på fjärrerbjudanden är:
 
    Med ett beskrivande namn kan du och andra snabbt hitta erbjudandet i [!UICONTROL Assets]-biblioteket.
 
-1. Ange fjärr-URL för fjärrerbjudandet:
+1. Ange URL-typen för omdirigering.
 
-   | Alternativ | Beskrivning |
-   |--- |--- |
-   | Cachelagrad | Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].<br>Varannan timme  [!DNL Target] hämtar innehållet på fjärr-URL:en och lagrar sedan innehållet inuti  [!DNL Target]. När besökare läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av [!DNL Target].<br>Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad  [!DNL Target] inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.<br>Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande. |
-   | Dynamisk | Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].<br>Du kanske inte vill att innehållet ska cachas regelbundet och sedan levereras av  [!DNL Target] när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt (eller olika) för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka  **[!UICONTROL Add Parameter]** för att lägga till en eller flera  [!DNL Target] begäranden eller frågeparametrar. |
+   Se [Omdirigerings-URL-typ: Cachelagrad eller dynamisk](#url-type) nedan om du vill ha mer information.
+
+1. Ange fjärr-URL för fjärrerbjudandet.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -71,14 +70,35 @@ Några exempel på fjärrerbjudanden är:
 
    Med ett beskrivande namn kan du och andra snabbt hitta erbjudandet i [!UICONTROL Assets]-biblioteket.
 
-1. Ange fjärr-URL för fjärrerbjudandet:
+1. Ange URL-typen för omdirigering.
 
-   | Alternativ | Beskrivning |
-   |--- |--- |
-   | Cachelagrad | Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].<br>Varannan timme  [!DNL Target] hämtar innehållet på fjärr-URL:en och lagrar sedan innehållet inuti  [!DNL Target]. När besökare läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av [!DNL Target].<br>Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad  [!DNL Target] inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.<br>Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande. |
-   | Dynamisk | Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].<br>Du kanske inte vill att innehållet ska cachas regelbundet och sedan levereras av  [!DNL Target] när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt (eller olika) för varje användare.<br>Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.<br>Klicka  **[!UICONTROL Add Parameter]** för att lägga till en eller flera  [!DNL Target] begäranden eller frågeparametrar. |
+   Se [Omdirigerings-URL-typ: Cachelagrad eller dynamisk](#url-type) nedan om du vill ha mer information.
+
+1. Ange fjärr-URL för fjärrerbjudandet.
 
 1. Klicka på **[!UICONTROL Save]**.
+
+## Omdirigerings-URL-typ: Cachelagrad eller dynamisk {#url-type}
+
+Följande information hjälper dig att förstå skillnaderna mellan de två alternativen:
+
+### Cachelagrad URL-typ
+
+Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].
+
+Varannan timme hämtar [!DNL Target] innehållet på fjärr-URL:en och lagrar sedan innehållet i [!DNL Target]. När besökare läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande levereras erbjudandet av [!DNL Target].
+
+Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad på [!DNL Target] inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.
+
+Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande.
+
+### Dynamisk URL-typ
+
+Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].
+
+Du kanske inte vill att innehållet ska cachelagras regelbundet och sedan levereras av [!DNL Target] när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt (eller olika) för varje användare. Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.
+
+Du kan klicka på **[!UICONTROL Add Parameter]** om du vill lägga till en eller flera [!DNL Target]-begäranden eller frågeparametrar.
 
 ## Bästa tillvägagångssätt för att använda fjärrerbjudanden {#section_7718512D08E14121B6F6B8C38134F4BC}
 
