@@ -2,9 +2,9 @@
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: En lista med vanliga frågor om hur du använder funktionerna i Adobe Target, samt information och länkar för mer information.
 title: Vanliga frågor om måloptimering och personalisering
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2901'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Du kan enkelt göra det genom att [direkt ange önskat steg på sidan Aktivitets
 
 **Kan jag fortsätta med ett visst steg, fortsätta att ändra aktiviteten (t.ex. erbjudandetext eller anpassad kod) och sedan utföra QA på en annan flik?**
 
-Detta är också möjligt. Använd bara alternativet Spara för att göra stegvisa ändringar utan att gå ur steget[.](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)
+Detta är också möjligt. Använd bara alternativet Spara för att göra stegvisa ändringar utan att gå ur steget](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).[
 
 **Hur kan jag förhandsgranska och göra kvalitetskontroll av en aktivitet som jag just har skapat?**
 
