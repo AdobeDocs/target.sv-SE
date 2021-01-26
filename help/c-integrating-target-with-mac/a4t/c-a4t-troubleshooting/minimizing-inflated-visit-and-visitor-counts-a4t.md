@@ -2,9 +2,9 @@
 keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: Information som hjälper er att minimera effekterna av inflaterade besök- och besökarantal när ni använder Analytics som rapportkälla.
 title: Minimera antalet uppblåsta besök och besökare i A4T
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Granska följande steg för att minska partiell datainsamling:
 
 ## Hur kan jag se historiska trender utan partiella data? {#section_4C9DED560FAD4428B362DDA2064897C3}
 
-Eftersom den här bearbetningen endast påverkar data efter releasedatum (14 november 2016) rekommenderar vi att du skapar ett segment som inte innehåller vissa data om du vill justera dina historiska värden så att de matchar varandra.
+Eftersom den här bearbetningen endast påverkar data efter releasedatum (14 november 2016) rekommenderar vi att du skapar ett segment för att exkludera partiella data om du vill justera dina historiska värden så att de matchar varandra.
 
 Följande information om den här ändringen innehåller anvisningar om hur du definierar segmentet och använder det på en virtuell rapportserie så att det här segmentet alltid används på dina [!DNL Analytics]-vyer.
 
