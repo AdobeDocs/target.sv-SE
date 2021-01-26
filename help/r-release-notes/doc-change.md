@@ -4,15 +4,15 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 350d401accc7e7d937185c9a65d01a3f5266271e
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3458'
 ht-degree: 0%
 
 ---
 
 
-# Dokumentationsändringar{#documentation-changes}
+# Dokumentationsändringar
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
 
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 26 januari | [Konverteringsgrad](/help/c-reports/conversion-rate.md#t-test) | Tydligare hur Target använder&quot;summan av fyrkanter&quot; i Students t-test. |
 | 22 januari | [Konverteringsgrad](/help/c-reports/conversion-rate.md#t-test) | Följande avsnitt har lagts till: &quot;Varför rekommenderar Target att man använder Students t-tests?&quot; |
 | 21 januari | [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nytt avsnitt har lagts till: &quot;A4T-aktivitetsrapporter innehåller en rad med ett stort antal &quot;ospecificerade&quot; händelser.&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Uppdaterat följande avsnitt: &quot;Varför ser jag&quot;ospecificerad&quot; i Analytics-rapporterna? Vad betyder det?&quot; |
