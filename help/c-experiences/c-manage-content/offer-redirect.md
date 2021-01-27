@@ -4,9 +4,9 @@ description: Kan jag använda omdirigeringserbjudanden för att få en webbläsa
 title: Skapa omdirigeringserbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -134,12 +134,12 @@ Du måste tillämpa omdirigeringserbjudanden med [!UICONTROL Form-Based Experien
 
 1. Slutför konfigurationen av aktiviteten.
 
-## Utbildningsvideo: The Content Repository (4:56) ![Overview badge](/help/assets/overview.png)
+## Utbildningsvideo: Formulärbaserad disposition ![Tutorial badge](/help/assets/tutorial.png)
 
-Den här videon innehåller information om hur du hanterar innehåll.
+Den här videon innehåller en demonstration av den formulärbaserade dispositionen, som du kan använda för att skapa omdirigeringserbjudanden.
 
-* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
-* Anpassade HTML-erbjudanden
-* Anpassat HTML-erbjudande i Visual Experience Composer
+* Skapa en aktivitet med formulärbaserad Experience Composer
+* Förstå när formulärbaserad Experience Composer ska användas jämfört med Visual Experience Composer
+* Använd förfiningar för att ange en plats som mål
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
