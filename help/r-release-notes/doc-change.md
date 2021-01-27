@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
+source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
 workflow-type: tm+mt
-source-wordcount: '3458'
+source-wordcount: '3469'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 27 januari | [Skapa omdirigeringserbjudanden](/help/c-experiences/c-manage-content/offer-redirect.md) | Uppdaterat ämne. |
+|  | [Skapa fjärrerbjudanden](/help/c-experiences/c-manage-content/about-remote-offers.md) | Uppdaterat ämne. |
 | 26 januari | [Konverteringsgrad](/help/c-reports/conversion-rate.md) | Tydligare hur Target använder&quot;summan av fyrkanter&quot; i Students t-test. |
 | 22 januari | [Konverteringsgrad](/help/c-reports/conversion-rate.md#t-test) | Följande avsnitt har lagts till: &quot;Varför rekommenderar Target att man använder Students t-tests?&quot; |
 | 21 januari | [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nytt avsnitt har lagts till: &quot;A4T-aktivitetsrapporter innehåller en rad med ett stort antal &quot;ospecificerade&quot; händelser.&quot; |
