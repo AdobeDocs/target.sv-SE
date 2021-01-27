@@ -4,9 +4,9 @@ description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll
 title: Skapa fjärrerbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Adobe Target] 
 
 >[!NOTE]
 >
->Fjärrerbjudanden kan skapas på sidan Erbjudanden > Koderbjudanden eller i [Forms-baserad Experience Composer](/help/c-experiences/form-experience-composer.md). Du kan inte skapa fjärrerbjudanden i Visual Experience Composer (VEC). Innehållet kommer att injiceras på förfrågningsplatserna för [!DNL Target], så de passar troligtvis inte för en global [!DNL Target]-begäran.
+>Fjärrerbjudanden kan skapas på [!UICONTROL Offers] > [!UICONTROL Code Offers]-sidan eller i [Forms-baserad Experience Composer](/help/c-experiences/form-experience-composer.md). Du kan inte skapa eller använda fjärrerbjudanden i Visual Experience Composer (VEC). Innehållet kommer att injiceras på förfrågningsplatserna för [!DNL Target], så de passar troligtvis inte för en global [!DNL Target]-begäran.
 >
 >[!DNL Target Classic] innehåller liknande funktioner:  [!UICONTROL Offer on Your Site] och  [!UICONTROL Offer Outside Test&Target].
 
@@ -78,11 +78,11 @@ Några exempel på fjärrerbjudanden är:
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Omdirigerings-URL-typ: Cachelagrad eller dynamisk {#url-type}
+### Omdirigerings-URL-typ: Cachelagrad eller dynamisk {#url-type}
 
 Följande information hjälper dig att förstå skillnaderna mellan de två alternativen:
 
-### Cachelagrad URL
+#### Cachelagrad URL
 
 Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].
 
@@ -92,13 +92,31 @@ Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som ä
 
 Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande.
 
-### Dynamisk URL
+#### Dynamisk URL
 
 Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].
 
 Du kanske inte vill att innehållet ska cachelagras regelbundet och sedan levereras av [!DNL Target] när besökarna läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande. I stället vill du anropa det system som är värd för innehållet och eventuellt skicka in specifik information så att det returnerade erbjudandet kan vara dynamiskt (eller olika) för varje användare. Om en användare till exempel loggar in på en webbplats för ett kreditkort som innehåller en upplevelse med ett dynamiskt fjärrerbjudande, kan du skicka parametrar till URL:en för användarens kontoinformation. Därefter kan webbplatsen innehålla användarspecifik information, t.ex. kontosaldo.
 
 Du kan klicka på **[!UICONTROL Add Parameter]** om du vill lägga till en eller flera [!DNL Target]-begäranden eller frågeparametrar.
+
+## Använd fjärrerbjudanden i aktiviteter
+
+Du måste tillämpa fjärrerbjudanden med [!UICONTROL Form-Based Experience Composer]. Du kan för närvarande inte använda fjärrerbjudanden med VEC.
+
+1. Skapa eller redigera en aktivitet i [!UICONTROL Form-Based Experience Composer].
+
+   I [Formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md) finns detaljerade stegvisa instruktioner.
+
+1. Ange önskad plats och lägg till eventuella målgruppsförbättringar efter behov.
+
+1. Klicka på listrutan i avsnittet **[!UICONTROL Content]** och klicka sedan på **[!UICONTROL Change Remote Offer]**.
+
+   ![Ändra alternativ för fjärrerbjudande](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. Välj önskat fjärrerbjudande i dialogrutan [!UICONTROL Select Remote Offer] och klicka sedan på **[!UICONTROL Done]**.
+
+1. Slutför konfigurationen av aktiviteten.
 
 ## Bästa tillvägagångssätt för att använda fjärrerbjudanden {#section_7718512D08E14121B6F6B8C38134F4BC}
 
