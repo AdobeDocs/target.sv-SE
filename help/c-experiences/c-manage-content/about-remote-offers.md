@@ -4,7 +4,7 @@ description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll
 title: Skapa fjärrerbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 1%
@@ -78,11 +78,11 @@ Några exempel på fjärrerbjudanden är:
 
 1. Klicka på **[!UICONTROL Save]**.
 
-### Omdirigerings-URL-typ: Cachelagrad eller dynamisk {#url-type}
+## Omdirigerings-URL-typ: Cachelagrad eller dynamisk {#url-type}
 
 Följande information hjälper dig att förstå skillnaderna mellan de två alternativen:
 
-#### Cachelagrad URL
+### Cachelagrad URL
 
 Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].
 
@@ -92,7 +92,7 @@ Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som ä
 
 Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande.
 
-#### Dynamisk URL
+### Dynamisk URL
 
 Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].
 
