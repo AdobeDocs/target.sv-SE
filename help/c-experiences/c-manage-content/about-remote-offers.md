@@ -4,10 +4,10 @@ description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll
 title: Skapa fjärrerbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 1%
+source-wordcount: '931'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,9 @@ Några exempel på fjärrerbjudanden är:
 * Forms
 * Beräkningar
 * Ränteuppdateringar
+* E-post
+* Kiosker
+* Röstassistenter
 
 ## Skapa ett fjärrerbjudande från sidan Koderbjudanden
 
@@ -103,6 +106,8 @@ Du kan klicka på **[!UICONTROL Add Parameter]** om du vill lägga till en eller
 ## Använd fjärrerbjudanden i aktiviteter
 
 Du måste tillämpa fjärrerbjudanden med [!UICONTROL Form-Based Experience Composer]. Du kan för närvarande inte använda fjärrerbjudanden med VEC.
+
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] är ett gränssnitt för icke-visuell upplevelse och erbjuder skapandegränssnitt som är användbart när du skapar upplevelser som kan användas i aktiviteterna [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Recommendations] när den visuella upplevelsedispositionen inte är tillgänglig eller praktisk att använda. Du kan till exempel använda [!UICONTROL Form-Based Experience Composer] för att skapa upplevelser som använder fjärrerbjudanden.
 
 1. Skapa eller redigera en aktivitet i [!UICONTROL Form-Based Experience Composer].
 
