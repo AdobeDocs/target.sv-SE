@@ -4,9 +4,9 @@ description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll
 title: Skapa fjärrerbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -156,3 +156,13 @@ Med hjälp av matrisen för val av fjärrerbjudande kan du bestämma vilken typ 
 | Erbjudandena kan omfatta JavaScript | Ja | Ja |
 | Erbjudandets URL | Absolut eller relativt | Relativ |
 | Begär dator | Adobe-servrar | Besökarens dator som bär besökarens cookies |
+
+## Utbildningsvideo: Formulärbaserad disposition ![Tutorial badge](/help/assets/tutorial.png)
+
+Den här videon innehåller en demonstration av den formulärbaserade dispositionen, som du kan använda för att skapa fjärrerbjudanden.
+
+* Skapa en aktivitet med formulärbaserad Experience Composer
+* Förstå när formulärbaserad Experience Composer ska användas jämfört med Visual Experience Composer
+* Använd förfiningar för att ange en plats som mål
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
