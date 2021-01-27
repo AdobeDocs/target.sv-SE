@@ -4,7 +4,7 @@ description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll
 title: Skapa fjärrerbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
+source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
@@ -32,6 +32,18 @@ Några exempel på fjärrerbjudanden är:
 * E-post
 * Kiosker
 * Röstassistenter
+
+## Bästa tillvägagångssätt för att använda fjärrerbjudanden {#section_7718512D08E14121B6F6B8C38134F4BC}
+
+Bästa tillvägagångssätt för att använda fjärrerbjudanden i dina aktiviteter:
+
+* Om ditt erbjudande finns i samma domän som [!DNL Target]-förfrågningarna kan du med alternativet [!UICONTROL Cached] använda relativa URL:er för att beskriva din erbjudandeplats.
+
+   Det innebär att när du flyttar din aktivitet från testservrarna till produktionen blir innehållet automatiskt tillgängligt utan att du behöver ändra URL-adressen manuellt.
+
+* Om testet innehåller data som genereras dynamiskt av servern kan det vara rätt alternativ för [!UICONTROL Dynamic].
+* Om du bara vill testa utseendet på ditt befintliga innehåll för fjärrerbjudanden använder du [!UICONTROL Visual Experience Composer] för att ändra utseendet på det innehåll som returneras från innehållshanteringssystemet.
+* Använd [matrisen för val av fjärrerbjudande](#reference_B23BEDD29DDD47709A7651AFD27E776B) (nedan) för att få hjälp att välja det erbjudande som passar ditt specialfall bäst. Kontakta din kontorepresentant om du har frågor.
 
 ## Skapa ett fjärrerbjudande från sidan Koderbjudanden
 
@@ -122,18 +134,6 @@ Du måste tillämpa fjärrerbjudanden med [!UICONTROL Form-Based Experience Comp
 1. Välj önskat fjärrerbjudande i dialogrutan [!UICONTROL Select Remote Offer] och klicka sedan på **[!UICONTROL Done]**.
 
 1. Slutför konfigurationen av aktiviteten.
-
-## Bästa tillvägagångssätt för att använda fjärrerbjudanden {#section_7718512D08E14121B6F6B8C38134F4BC}
-
-Bästa tillvägagångssätt för att använda fjärrerbjudanden i dina aktiviteter:
-
-* Om ditt erbjudande finns i samma domän som [!DNL Target]-förfrågningarna kan du med alternativet [!UICONTROL Cached] använda relativa URL:er för att beskriva din erbjudandeplats.
-
-   Det innebär att när du flyttar din aktivitet från testservrarna till produktionen blir innehållet automatiskt tillgängligt utan att du behöver ändra URL-adressen manuellt.
-
-* Om testet innehåller data som genereras dynamiskt av servern kan det vara rätt alternativ för [!UICONTROL Dynamic].
-* Om du bara vill testa utseendet på ditt befintliga innehåll för fjärrerbjudanden använder du [!UICONTROL Visual Experience Composer] för att ändra utseendet på det innehåll som returneras från innehållshanteringssystemet.
-* Använd matrisen för val av fjärrerbjudande (nedan) för att hjälpa dig att välja det erbjudande som passar bäst för just ditt fall. Kontakta din kontorepresentant om du har frågor.
 
 ## Så fungerar dynamiska fjärrerbjudanden {#concept_CC2A969420B34364A9FA78C1CE251818}
 
