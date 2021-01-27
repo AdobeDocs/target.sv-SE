@@ -4,9 +4,9 @@ description: Med Adobe Target Form-Based Experience Composer kan man skapa upple
 title: Formulärbaserad Experience Composer
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
@@ -21,14 +21,18 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
 1. Klicka på **[!UICONTROL Create Activity]** och välj sedan den typ av aktivitet som du vill skapa.
 
    Den formulärbaserade Experience Composer är tillgänglig för A/B-tester, Experience Targeting, Automated Personalization och Recommendations-aktiviteter.
-1. Välj **[!UICONTROL Form-Based Experience Composer]** i dialogrutan [!UICONTROL New Activity].
+1. Välj **[!UICONTROL Form-Based Experience Composer]** i dialogrutan [!UICONTROL Create Activity].
+
+1. (Villkorligt) Välj en arbetsyta och en egenskap.
+
+1. Klicka på **[!UICONTROL Next]**.
 
    Formulärbaserad Experience Composer öppnas.
 
    ![](assets/location_refinements.png)
 
    Den här skärmen är annorlunda om du skapar en Recommendations-aktivitet. Recommendations verksamhet omfattar inte upplevelser.
-1. Namnge aktiviteten.
+1. Namnge aktiviteten genom att klicka på &quot;[!UICONTROL Untitled Activity]&quot;.
 1. Välj en plats.
 
    När du klickar i rutan [!UICONTROL Select Location] visas en lista med tillgängliga platser. Välj en av platserna. Välj &quot;target-global-mbox&quot; om du vill välja den globala plats som levereras via target.js.
@@ -64,9 +68,9 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
 
    **Ändra upplevelsefragment:** Välj en upplevelsefragment.
 
-   **Ändra omdirigeringserbjudande:** Välj ett omdirigeringserbjudande.
+   **Ändra omdirigeringserbjudande:** Välj ett omdirigeringserbjudande. Mer information finns i [Skapa omdirigeringserbjudanden](/help/c-experiences/c-manage-content/offer-redirect.md).
 
-   **Ändra fjärrerbjudande:** Välj ett fjärrerbjudande.
+   **Ändra fjärrerbjudande:** Välj ett fjärrerbjudande. Mer information finns i [Skapa fjärrerbjudanden](/help/c-experiences/c-manage-content/about-remote-offers.md).
 
    **Skapa HTML-erbjudande:**
 
