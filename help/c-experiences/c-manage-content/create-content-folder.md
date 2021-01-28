@@ -1,83 +1,107 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Skapa en mapp för objekt i offertbiblioteket i Adobe Target.
+description: Hur skapar jag mappar i offertbiblioteket?
 title: Skapa erbjudandemapp
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 0%
+source-wordcount: '528'
+ht-degree: 1%
 
 ---
 
 
-# Skapa erbjudandemapp
+# Skapa erbjudandemappar
 
-Skapa en mapp för objekt i offertbiblioteket i Adobe Target.
+Skapa mappar i Adobe Target Offer-biblioteket för koderbjudanden, bilderbjudanden och andra mappar för att skapa en undermappsstruktur.
 
-1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Code Offers]** eller **[!UICONTROL Image Offers]**.
+Processen att skapa mappar för koderbjudanden och bilderbjudanden skiljer sig något. Följande avsnitt innehåller mer information.
+
+## Mappar för erbjudanden
+
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+
+   ![Fliken Koderbjudanden](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
-1. Fyll i fälten:
 
-   | Fält | Beskrivning |
-   |--- |--- |
-   | Titel (Gäller endast bilder) | Ange ett beskrivande namn för mappen. Du kan t.ex. inkludera vilken typ av innehåll det ska innehålla.<br>Namnet får inte innehålla följande tecken:<br>Percent-tecken  `%`<br>Forward-snedstreck  `/`<br>Omvänt snedstreck  `\`<br>Kolon  `:`<br>Asterisk  `*`<br>frågetecken  `?`<br>Dubbla citattecken  `"`<br>Kvadratisk  `[`<br>hakparentes  `]`<br>plustecken:  `+`<br>Cirkel:  `|`<br>Punkt:  `.`<br>Nummertecken:  `#`<br>Klammerparentes:  `{`<br>Klammerparenteser  `}`<br> `^`<br>Semikolon  `;`<br>Du kan använda ett bindestreck (  `- `) i stället för dessa tecken. |
-   | Namn (Gäller både kod och bilderbjudanden) | Redigera namnet om du vill. |
-   | Privat (Gäller endast för bilder) | Anger att mappen är privat så att bara du kan se den och dess innehåll. |
-   | Kan sorteras om i listvyn (Gäller endast bilder) | Anger att du och andra kan ändra ordningen på mappens position i listvyn.<br>Om du vill växla mellan kortvyn och listvyn klickar du på ikonen för kortvyn eller listvyn i det övre högra hörnet av innehållsbiblioteket. Du kan också välja Visa inställningar för att inkludera eller exkludera kolumner i listvyn. |
+1. Ange ett beskrivande namn för mappen.
 
 1. Klicka på **[!UICONTROL Create]**.
 
-## Alternativ för erbjudanden
+### Alternativ för erbjudanden
 
 När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon.
 
-### Information ![](assets/icon_info.png)
+![Hovringsikoner på fliken Koderbjudanden](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-Visa mappinformationen.
+* **Information**: Visa information om erbjudandet.
+* **Redigera**: Redigera mappen eller erbjudandet.
+* **Copy**: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
+* **Flytta**: Klicka på ikonen Flytta, navigera till platsen dit du vill flytta mappen och klicka sedan på  **[!UICONTROL Drop]** ikonen. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar. Klicka på [!UICONTROL Clear Selection] för att avmarkera erbjudanden eller mappar som du har markerat.
+* **Ta bort**: Ta bort erbjudandet eller mappen.
 
-### Redigera ![](assets/icon_edit.png)
+## Mappar för bilderbjudande
 
-Redigera mappen.
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-### Kopiera ![](assets/icon_copy.png)
+   ![Fliken Bilderbjudanden](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-Kopiera mappen.
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Ange en beskrivande **[!UICONTROL Title]** för mappen.
 
-### Flytta ![](assets/icon_move_folder.png)
+   Du kan t.ex. inkludera vilken typ av innehåll det ska innehålla. Namnet får inte innehålla följande tecken: Procenttecken `%`,Snedstreck `/`,Bakåtstreck `\`, Kolon `:`, Asterisk `*`, Frågetecken `?`, Dubbla citattecken `"`, Kvadratisk klammerparentes `[`, Kvadratisk klammerparentes `]`, Plustecken: `+`, Pipe: `|`, Period: `.`, nummertecken: `#`, klammerparentes: `{`, klammerparentes `}`, Cirkumflex `^` eller Semikolon `;`. Du kan använda ett bindestreck ( `- `) i stället för dessa tecken.
 
-Klicka på ikonen, navigera till platsen dit du vill flytta mappen och klicka sedan på ikonen Släpp.
+1. (Valfritt) Redigera **[!UICONTROL Name]**.
+1. (Valfritt) Markera kryssrutan **[!UICONTROL Private]**.
 
-Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar.
+   Anger att mappen är privat så att bara du kan se den och dess innehåll.
 
-Klicka på Rensa markering för att avmarkera de mappar som du har markerat.
+1. (Valfritt) Markera kryssrutan **[!UICONTROL Reorder-able in List View]**.
 
-### Ta bort ![](assets/icon_delete.png)
+   Anger att du och andra kan ändra ordningen på mappens position i listvyn.
 
-Ta bort mappen.
+1. (Valfritt) Om du vill växla mellan [!UICONTROL Card View] och [!UICONTROL List View] klickar du på ikonen [!UICONTROL Card View] eller ikonen [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket. Du kan också använda [!UICONTROL View Settings] för att konfigurera kolumnerna ytterligare när du visar [!UICONTROL List View].
 
-## Alternativ för bilderbjudanden
+   Följande bild visar de tillgängliga alternativen när du visar [!UICONTROL List View]:
 
-När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon:
+   ![Alternativ för listvy](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-### Välj ![](assets/icon_check.png)
+1. Klicka på **[!UICONTROL Create]**.
 
-Markera en eller flera mappar som du vill utföra följande åtgärder på:
+### Alternativ för bilderbjudanden
 
-* Hämta
-* Kopiera
-* Flytta
-* Ta bort
+När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon.
 
-### Hämta ![](assets/icon_download.png)
+Följande bild visar hovringsikonerna när du visar [!UICONTROL Card View].
 
-Hämta mappen och dess innehåll.
+![Hovringsikoner på fliken Bilderbjudanden i kortvyn](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-### Dela till Adobe Creative Cloud ![](assets/icon_creative_cloud.png)
+Följande bild visar hovringsikonerna när du visar [!UICONTROL List View]. Om du vill visa ikonerna klickar du på ett objekt i listan.
 
-Dela mappen och dess innehåll med Adobe Creative Cloud.
+![Hovringsikoner på fliken Bilderbjudanden i listvyn](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-### Kopiera ![](assets/icon_copy_content.png)
+* **Välj**: Markera en eller flera mappar som du vill utföra följande åtgärder på:
 
-Kopiera mappen och dess innehåll.
+   * Hämta
+   * Kopiera
+   * Flytta
+   * Ta bort
+
+   Välj en eller flera bilder som du vill utföra följande åtgärder på:
+
+   * Dela
+   * Hämta
+   * Visa egenskaper
+   * Redigera
+   * Anteckna
+   * Flytta
+
+
+* **Ladda ned**: Ladda ned bilderbjudandet för mappen och dess innehåll.
+* **Vyegenskaper**: Visa objektets egenskaper. Klicka på fliken [!UICONTROL Basic] och fliken [!UICONTROL Advanced] för att visa all tillgänglig information.
+* **Fler åtgärder**: Visa ytterligare alternativ i  [!UICONTROL Card View].
+* **Redigera**: Redigera mappen eller erbjudandet.
+* **Anteckna**: Lägg till anteckningar i bilderbjudandet.
+* **Copy**: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
