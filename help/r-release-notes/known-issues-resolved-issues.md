@@ -4,9 +4,9 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '4294'
+source-wordcount: '4322'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,7 @@ Följande är kända problem med [!UICONTROL Recommendations]-aktiviteter:
    * Duplicera aktiviteten
    * Aktivera kampanjer igen i varje aktivitet
 
+* När [!DNL Target] returnerar ett JSON-erbjudande med getOffer() returneras det med typen JSON. Om du returnerar en JSON Recommendations-design returneras den dock med en typ av HTML.
 * Enheterna har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. (IRI-857)
 * Övertäckningarna &quot;Användningsinformation&quot; för villkor och design återspeglar inte deras användning i A/B- och Experience Targeting-aktiviteter (TGT-34331)
 * Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsgranskning av Recommendations-fältet (TGT-33426)
