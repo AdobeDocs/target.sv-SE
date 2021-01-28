@@ -4,9 +4,9 @@ description: Hur hanterar jag erbjudanden om kod och bilder?
 title: Erbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Använd [!UICONTROL Offers]-biblioteket i [!DNL Adobe Target] för att hantera e
 
    Beroende på din behörighet kanske du inte ser ikoner för alla alternativ. En användare med behörigheterna [!UICONTROL Observer] har till exempel inte behörighet att använda alternativet [!UICONTROL Copy].
 
+   Mer information om vilka åtgärder du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/c-experiences/c-manage-content/assets-working.md).
+
 1. (Valfritt) Utför ytterligare åtgärder genom att hålla markören över önskat bilderbjudande eller önskad mapp på fliken [!UICONTROL Image Offers] och sedan klicka på önskad ikon.
 
    ![Alternativ för bilderbjudanden](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ Använd [!UICONTROL Offers]-biblioteket i [!DNL Adobe Target] för att hantera e
    * Redigera
    * Anteckna
    * Kopiera
+
+   Mer information om vilka åtgärder du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Visa definitioner för erbjudanden {#section_6B059DD121434E6292CAB393507D010E}
 
