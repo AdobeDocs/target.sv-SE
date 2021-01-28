@@ -1,12 +1,12 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Du kan visa profilvärden och aktivitetsinformation direkt i ett HTML- eller JSON-erbjudande i Adobe Target.
+description: Hur skickar jag profilvärden och aktivitetsinformation direkt i ett HTML- eller JSON-erbjudande?
 title: Överför dynamiska data till erbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Du kan dynamiskt visa besökarinformation som lagras i profilen [!DNL Adobe Target]. På samma sätt kan aktivitetsinformation (som namnet på aktiviteten eller namnet på upplevelsen) också användas för att skapa ett enda erbjudande som dynamiskt returnerar personaliserat innehåll baserat på besökarens intressen, tidigare beteende och övergripande profil.
 
-## Affärsärenden
+## Affärsfall
 
 * Erbjud ett rabatterat erbjudande om att&quot;fylla på&quot; eller&quot;fylla på&quot; den senast köpta produkten. I stället för att skapa ett separat erbjudande för varje objekt i din katalog kan du skapa ett erbjudande med dynamisk text som läser den&quot;senaste köpta produkten&quot; från profilen och visar en länk i erbjudandet.
 * En besökare kommer till din landningssida med `keyword=world` `cup`. Du visar termen *World Cup* i erbjudandet.
@@ -52,11 +52,17 @@ För Recommendations-designer finns ytterligare exempel i [Designöversikt](/hel
 
 ## Implementering
 
-Använd syntaxen för profilparametrar som skickas till en mbox: `${profile.parameter}` Använd syntaxen för profilparametrar som skapats i ett profilskript:
+Använd syntaxen för profilparametrar som skickas till en mbox:
+
+`${profile.parameter}`
+
+Använd syntaxen för profilparametrar som skapats i ett profilskript:
 
 `${user.parameter}`
 
-När du använder dynamiska attribut i en Recommendations-design måste du infoga ett omvänt snedstreck ( \ ) före dollartecknet ( $ ) för att det dynamiska värdet ska återges korrekt: `\${user.endpoint.lastViewedEntity}`
+När du använder dynamiska attribut i en [!DNL Recommendations]-design måste du infoga ett omvänt snedstreck ( \ ) före dollartecknet ( $ ) för att det dynamiska värdet ska återges korrekt:
+
+`\${user.endpoint.lastViewedEntity}`
 
 Variablerna ersätts med värdet på serversidan, så det behövs inga citattecken eller andra JavaScript för att visningen ska bli korrekt.
 
