@@ -1,27 +1,40 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: Du kan lägga till objekt i listan med bilderbjudanden i Adobe Target.
+description: Hur överför jag bilder som ska användas som bilderbjudanden?
 title: Överför innehåll
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 5%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
 
 # Överför innehåll
 
-Du kan lägga till eller ta bort objekt från listan med bilderbjudanden i [!DNL Adobe Target].
+Du kan överföra bilder till listan [!UICONTROL Image Offers] i [!DNL Adobe Target] och använda dem som bilderbjudanden i aktiviteter. Du kan också ta bort bilderbjudanden när de inte längre behövs i aktiviteter.
 
-1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Image Offers]**.
+## Lägg till bilderbjudanden i listan
+
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+
+   ![Erbjudanden > Bilderbjudanden](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Files]**.
-1. Markera det objekt som du vill lägga till och klicka sedan på **[!UICONTROL Open]**.
+1. Bläddra till och markera det objekt som du vill lägga till och klicka sedan på **[!UICONTROL Open]**.
 1. Redigera objektets filnamn, om det behövs, och klicka sedan på **[!UICONTROL Upload]**.
 
-   Objektet överförs till biblioteket.
+## Ta bort bilderbjudanden eller mappar
+
+Om du vill växla mellan [!UICONTROL Card View] och [!UICONTROL List View] klickar du på ikonen [!UICONTROL Card View] eller [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket.
+
+I [!UICONTROL Card View] håller du muspekaren över önskat bilderbjudande eller önskad mapp och klickar på ikonen **[!UICONTROL Select]** (bockmarkeringen) och sedan på **[!UICONTROL Delete]**.
+
+I [!UICONTROL List View] klickar du på miniatyrbilden till vänster om listan för att välja önskat bilderbjudande eller önskad mapp och sedan på **[!UICONTROL Delete]**, enligt nedan:
+
+![Ta bort markerat objekt](/help/c-experiences/c-manage-content/assets/delete-image-offer.png)
 
 ## Utbildningsvideo: The Content Repository ![Overview badge](/help/assets/overview.png)
 
