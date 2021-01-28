@@ -4,9 +4,9 @@ description: Hur skapar jag mappar i offertbiblioteket?
 title: Skapa erbjudandemapp
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
@@ -62,13 +62,15 @@ När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder
 
    Anger att du och andra kan ändra ordningen på mappens position i listvyn.
 
-1. (Valfritt) Om du vill växla mellan [!UICONTROL Card View] och [!UICONTROL List View] klickar du på ikonen [!UICONTROL Card View] eller ikonen [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket. Du kan också använda [!UICONTROL View Settings] för att konfigurera kolumnerna ytterligare när du visar [!UICONTROL List View].
-
-   Följande bild visar de tillgängliga alternativen när du visar [!UICONTROL List View]:
-
-   ![Alternativ för listvy](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. Klicka på **[!UICONTROL Create]**.
+
+### Växla mellan kortvyn och listvyn
+
+Om du vill växla mellan [!UICONTROL Card View] och [!UICONTROL List View] klickar du på ikonen [!UICONTROL Card View] eller [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket. Du kan också använda [!UICONTROL View Settings] för att konfigurera kolumnerna ytterligare när du visar [!UICONTROL List View].
+
+Följande bild visar de tillgängliga alternativen när du visar [!UICONTROL List View]:
+
+![Alternativ för listvy](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### Alternativ för bilderbjudanden
 
