@@ -4,9 +4,9 @@ description: Hur skapar jag mappar i offertbiblioteket?
 title: Skapa erbjudandemapp
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -32,14 +32,14 @@ Processen att skapa mappar för koderbjudanden och bilderbjudanden skiljer sig n
 
 ### Alternativ för erbjudanden
 
-När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon.
+När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder för ett objekt genom att hålla markören över ett erbjudande eller en mapp och sedan välja lämplig ikon.
 
 ![Hovringsikoner på fliken Koderbjudanden](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Information**: Visa information om erbjudandet.
 * **Redigera**: Redigera mappen eller erbjudandet.
 * **Copy**: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
-* **Flytta**: Klicka på ikonen Flytta, navigera till platsen dit du vill flytta mappen och klicka sedan på  **[!UICONTROL Drop]** ikonen. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar. Klicka på [!UICONTROL Clear Selection] för att avmarkera erbjudanden eller mappar som du har markerat.
+* **Flytta**: Klicka på ikonen Flytta, navigera till platsen dit du vill flytta erbjudandet eller mappen och klicka sedan på  **[!UICONTROL Drop]** ikonen. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar. Klicka på [!UICONTROL Clear Selection] för att avmarkera erbjudanden eller mappar som du har markerat.
 * **Ta bort**: Ta bort erbjudandet eller mappen.
 
 ## Mappar för bilderbjudande
@@ -51,7 +51,9 @@ När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
 1. Ange en beskrivande **[!UICONTROL Title]** för mappen.
 
-   Du kan t.ex. inkludera vilken typ av innehåll det ska innehålla. Namnet får inte innehålla följande tecken: Procenttecken `%`,Snedstreck `/`,Bakåtstreck `\`, Kolon `:`, Asterisk `*`, Frågetecken `?`, Dubbla citattecken `"`, Kvadratisk klammerparentes `[`, Kvadratisk klammerparentes `]`, Plustecken: `+`, Pipe: `|`, Period: `.`, nummertecken: `#`, klammerparentes: `{`, klammerparentes `}`, Cirkumflex `^` eller Semikolon `;`. Du kan använda ett bindestreck ( `- `) i stället för dessa tecken.
+   Du kan t.ex. inkludera vilken typ av innehåll det ska innehålla.
+
+   Namnet får inte innehålla följande tecken: Procenttecken `%`,Snedstreck `/`,Bakåtstreck `\`, Kolon `:`, Asterisk `*`, Frågetecken `?`, Dubbla citattecken `"`, Kvadratisk klammerparentes `[`, Kvadratisk klammerparentes `]`, Plustecken: `+`, Pipe: `|`, Period: `.`, nummertecken: `#`, klammerparentes: `{`, klammerparentes `}`, Cirkumflex `^` eller Semikolon `;`. Du kan använda ett bindestreck ( `- `) i stället för dessa tecken.
 
 1. (Valfritt) Redigera **[!UICONTROL Name]**.
 1. (Valfritt) Markera kryssrutan **[!UICONTROL Private]**.
@@ -60,7 +62,7 @@ När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder
 
 1. (Valfritt) Markera kryssrutan **[!UICONTROL Reorder-able in List View]**.
 
-   Anger att du och andra kan ändra ordningen på mappens position i listvyn.
+   Anger att du och andra kan ändra ordning på mappens position i [!UICONTROL List View].
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -74,7 +76,7 @@ Följande bild visar de tillgängliga alternativen när du visar [!UICONTROL Lis
 
 ### Alternativ för bilderbjudanden
 
-När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder på mappen genom att hålla markören över mappen och sedan välja lämplig ikon.
+När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder för ett objekt genom att hålla markören över ett erbjudande eller en mapp och sedan välja lämplig ikon.
 
 Följande bild visar hovringsikonerna när du visar [!UICONTROL Card View].
 
