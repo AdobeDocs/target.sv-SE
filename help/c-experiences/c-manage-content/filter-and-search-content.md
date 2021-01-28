@@ -1,12 +1,12 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: Sök efter resurser med nyckelord och spara sökmappar, smarta samlingar, som uppdateras automatiskt med sökresultat.
+description: Hur söker jag efter resurser efter nyckelord och sparar sökmappar?
 title: Söka efter innehåll och skapa smarta samlingar
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,7 @@ Sök efter resurser med nyckelord och spara sökmappar, smarta samlingar, som up
 
 Detta avsnitt innehåller följande information:
 
-* [Sök efter resurser efter nyckelord](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Spara smart samling](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## Sök efter resurser med nyckelordet {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Sök efter resurser efter nyckelord {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** för att komma åt [!UICONTROL Asset Library].
 
