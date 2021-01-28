@@ -1,13 +1,13 @@
 ---
 keywords: remote offer;create remote offer
-description: Skapa JSON-erbjudanden i erbjudandebiblioteket i Adobe Target som kan användas i den formulärbaserade Experience Composer.
+description: Hur skapar jag JSON-erbjudanden?
 title: Skapa JSON-erbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 1%
+source-wordcount: '362'
+ht-degree: 0%
 
 ---
 
@@ -16,12 +16,14 @@ ht-degree: 1%
 
 Skapa JSON-erbjudanden i [!UICONTROL Offer Library] i [!DNL Adobe Target] för användning i [!UICONTROL Form-Based Experience Composer].
 
-JSON-erbjudanden kan användas i blankettbaserade aktiviteter där det krävs att Target-beslut kan användas för att skicka ett erbjudande i JSON-format för konsumtion i SPA ramverk eller serverbaserade integreringar.
+JSON-erbjudanden kan användas i formulärbaserade aktiviteter där aktivering av användningsfall där [!DNL Target] måste skicka ett erbjudande i JSON-format för användning i SPA ramverk eller serverintegreringar.
+
+## JSON-överväganden
 
 Tänk på följande när du arbetar med JSON:
 
-* JSON-erbjudanden är för närvarande bara tillgängliga för AB- och XT-aktiviteter.
-* JSON-erbjudanden kan endast användas i formulärbaserade aktiviteter.
+* JSON-erbjudanden är för närvarande bara tillgängliga för [!UICONTROL A/B Test]- och [!UICONTROL Experience Targeting]-aktiviteter (XT).
+* JSON-erbjudanden kan endast användas i [formulärbaserade aktiviteter](/help/c-experiences/form-experience-composer.md).
 * JSON-erbjudandet kan hämtas direkt när du använder API:t för serversidan, Mobile SDK eller NodeJS SDK.
 * I webbläsaren kan JSON-erbjudanden ENDAST hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) genom att filtrera åtgärder med åtgärden `setJson`.
 * JSON-erbjudanden levereras som systemspecifika JSON-objekt i stället för som strängar. Konsumenter av dessa objekt behöver inte längre hantera objekt som strängar och konvertera dem till JSON-objekt.
@@ -30,7 +32,10 @@ Tänk på följande när du arbetar med JSON:
 
 ## Skapa ett JSON-erbjudande {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Code Offers]**.
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+
+   ![Erbjudanden > fliken Koderbjudanden](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
    ![](assets/offer-json.png)
@@ -39,9 +44,9 @@ Tänk på följande när du arbetar med JSON:
 1. Skriv eller klistra in JSON-koden i rutan **[!UICONTROL Code]**.
 1. Klicka på **[!UICONTROL Save]**.
 
-## Exempel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
+## JSON-exempel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON-erbjudanden stöds endast i aktiviteter som skapats med den formulärbaserade Experience Composer. För närvarande är det enda sättet att kunna använda JSON-erbjudanden via direkta API-anrop.
+JSON-erbjudanden stöds endast i aktiviteter som skapats med [formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md). För närvarande är det enda sättet att kunna använda JSON-erbjudanden via direkta API-anrop.
 
 Här är ett exempel:
 
@@ -78,9 +83,9 @@ De åtgärder som skickas till motringningen är en objektmatris. Förutsatt att
 ]
 ```
 
-För att extrahera JSON-erbjudandet itererar du genom åtgärder och söker efter åtgärden med `setJson` och itererar sedan genom innehållsarrayen.
+För att extrahera JSON-erbjudandet itererar du genom åtgärder och söker efter åtgärden med åtgärden `setJson` och itererar sedan genom innehållsarrayen.
 
-## Användningsfall {#section_85B07907B51A43239C8E3498EF58B1E5}
+## Använd skiftläge {#section_85B07907B51A43239C8E3498EF58B1E5}
 
 Låt oss säga att följande JSON-erbjudande levereras till din webbsida:
 
@@ -128,9 +133,9 @@ adobe.target.getOffer({
 });
 ```
 
-## Filtreringserbjudanden efter JSON-erbjudandetypen {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## JSON-erbjudandetypen {#section_52533555BCE6420C8A95EB4EB8907BDE} filtrerar erbjudanden
 
-Du kan filtrera erbjudandebiblioteket efter erbjudandetypen för JSON genom att klicka på listrutan **[!UICONTROL Type]** och sedan markera kryssrutan **[!UICONTROL JSON]**.
+Du kan filtrera biblioteket [!UICONTROL Offers] genom att klicka på listrutan **[!UICONTROL Type]** och sedan markera kryssrutan **[!UICONTROL JSON]**.
 
 ![](assets/offer-json-filter.png)
 
