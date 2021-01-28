@@ -1,40 +1,88 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Det finns ett antal åtgärder du kan utföra på en resurs i biblioteket i Adobe Target.
+description: Hur arbetar jag med resurser i innehållsbiblioteket?
 title: Arbeta med innehåll i biblioteket
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 
-# Arbeta med innehåll i biblioteket
+# Arbeta med innehåll i resursbiblioteket
 
-Information om de uppgifter du kan utföra på en resurs i innehållsbiblioteket i [!DNL Adobe Target].
+Information om de åtgärder du kan utföra på en resurs i innehållsbiblioteket i [!DNL Adobe Target], inklusive att anteckna, kopiera, ta bort, hämta, redigera, dela och visa egenskaper.
 
-1. Klicka på **[!UICONTROL Offer]**, välj fliken **[!UICONTROL Code Offer]** eller **[!UICONTROL Image Offer]** och leta sedan reda på den resurs du vill arbeta med.
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** eller **[!UICONTROL Image Offers]**.
+
+   ![Flikarna Koderbjudanden och Bilderbjudanden](/help/c-experiences/c-manage-content/assets/offers-both.png)
 
    Mer information om hur du söker i erbjudandebiblioteket och skapar smarta samlingar finns i [Filtrera och söka efter innehåll](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. Håll markören över det objekt du vill arbeta med och välj sedan en åtgärd. Om du vill komma åt och utföra några av åtgärderna nedan måste du först klicka på ikonen Markera (bockmarkeringen) och sedan välja önskad åtgärd (till exempel Ta bort).
+1. (Valfritt) Växla mellan [!UICONTROL Card View] och [!UICONTROL List View], klicka på ikonen [!UICONTROL Card View] eller ikonen [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket. Du kan också använda [!UICONTROL View Settings] för att konfigurera kolumnerna ytterligare när du visar [!UICONTROL List View].
 
-   En meny med åtgärder visas under objektet. De tillgängliga åtgärderna är:
+   Följande bild visar de tillgängliga alternativen när du visar [!UICONTROL List View]:
 
-   | Åtgärd | Resurstyp | Beskrivning |
-   |--- |--- |--- |
-   | Anteckna | Bild | Lägg till en anteckning till resursen. Klicka på resursen, markera området som du vill kommentera och skriv anteckningen. |
-   | Kopiera | Upplevelse<br>Bild<br>Mapp<br>Text/HTML | Kopiera resursen till Urklipp. |
-   | Ta bort | Upplevelse<br>Bild<br>Mapp<br>Text/HTML | Ta bort resursen.<br>Du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i målgränssnittet och i användargränssnittet för Adobe Experience Cloud Assets.<br>Om du tar bort en mapp med ett stort antal bilder kan processen som körs bakom scenerna ta tid (flera minuter) innan användargränssnittet uppdateras för att visa det slutliga läget. Den tid som krävs är en funktion av antalet bilder, inte bildens storlek. En bra uppskattning är tio minuter för 2 000 bilder. Du kan fortsätta med annat arbete och kontrollera det slutliga läget efter flera minuter för att bekräfta borttagningen.<br> Mappar som inte är tomma i bilderbjudandebiblioteket kan tas bort. Om inga referenser finns till alla bilder i mappen i någon aktivitet tas hela mappen och dess innehåll bort. Om det finns referenser till vissa bilder i mappen i någon aktivitet, tas alla bilder som inte refereras bort, men refererade bilder och mappar som innehåller dessa bilder behålls. |
-   | Hämta | Upplevelse<br>Bild<br>Text/HTML | Hämta resursen till din enhet eller dator. |
-   | Redigera | Bild<br>Text/HTML | Redigera resursen. Skärmen Redigera resurs öppnas och innehåller några redigeringsalternativ, till exempel rotering och beskärning. |
-   | Dela kort | Upplevelse<br>Bild<br>Text/HTML | Dela kortet på en annan anslagstavla. Du kan rita en anteckning, markera den anslagstavla som du vill dela med och lägga till en kommentar om kortet. |
-   | Visa egenskaper | Upplevelse<br>Bild<br>Text/HTML | Visa resursens egenskaper. Klicka på pennikonen på egenskapssidan för att redigera egenskaperna och lägga till mer information. Du kan lägga till metadatainformation, publiceringsstatus och licensdata. |
+   ![Alternativ för listvy](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-1. Om du vill ändra bilden som representerar ett objekt i biblioteket klickar du på objektet, sedan på ikonen **[!UICONTROL Properties]**, klickar på **[!UICONTROL Edit]** och lägger sedan till en bild.
+1. Utför den önskade åtgärden enligt följande avsnitt:
+
+## Alternativ för erbjudanden
+
+När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder för ett objekt genom att hålla markören över ett erbjudande eller en mapp och sedan välja lämplig ikon.
+
+![Hovringsikoner på fliken Koderbjudanden](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
+
+* **Information**: Visa information om erbjudandet.
+* **Redigera**: Redigera mappen eller erbjudandet.
+* **Copy**: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
+* **Flytta**: Klicka på ikonen Flytta, navigera till platsen dit du vill flytta erbjudandet eller mappen och klicka sedan på  **[!UICONTROL Drop]** ikonen. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar. Klicka på [!UICONTROL Clear Selection] för att avmarkera erbjudanden eller mappar som du har markerat.
+* **Ta bort**: Ta bort erbjudandet eller mappen. Se [Att tänka på när du tar bort objekt](#delete).
+
+## Alternativ för bilderbjudanden
+
+När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder för ett objekt genom att hålla markören över ett erbjudande eller en mapp och sedan välja lämplig ikon.
+
+Följande bild visar hovringsikonerna när du visar [!UICONTROL Card View].
+
+![Hovringsikoner på fliken Bilderbjudanden i kortvyn](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
+
+Följande bild visar hovringsikonerna när du visar [!UICONTROL List View]. Om du vill visa ikonerna klickar du på ett objekt i listan.
+
+![Hovringsikoner på fliken Bilderbjudanden i listvyn](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
+
+* **Välj**: Markera en eller flera mappar som du vill utföra följande åtgärder på:
+
+   * Hämta
+   * Kopiera
+   * Flytta
+   * Ta bort (Se [Att tänka på när du tar bort objekt](#delete).)
+
+   Välj en eller flera bilder som du vill utföra följande åtgärder på:
+
+   * Dela
+   * Hämta
+   * Visa egenskaper
+   * Redigera
+   * Anteckna
+   * Flytta
+
+
+* **Ladda ned**: Ladda ned bilderbjudandet för mappen och dess innehåll.
+* **Vyegenskaper**: Visa objektets egenskaper. Klicka på fliken [!UICONTROL Basic] och fliken [!UICONTROL Advanced] för att visa all tillgänglig information. Klicka på pennikonen på egenskapssidan för att redigera egenskaperna och lägga till mer information. Du kan lägga till metadatainformation, publiceringsstatus och licensdata.
+* **Fler åtgärder**: Visa ytterligare alternativ i  [!UICONTROL Card View].
+* **Redigera**: Redigera mappen eller erbjudandet.
+* **Anteckna**: Lägg till en anteckning till resursen. Klicka på resursen, markera området som du vill kommentera och skriv anteckningen.
+* **Copy**: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
+
+## Att tänka på när du tar bort objekt {#delete}
+
+* Du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i målgränssnittet och i användargränssnittet för Adobe Experience Cloud Assets.
+* Om du tar bort en mapp med ett stort antal bilder kan processen som körs bakom scenerna ta tid (flera minuter) innan användargränssnittet uppdateras för att visa det slutliga läget. Den tid som krävs är en funktion av antalet bilder, inte bildens storlek. En bra uppskattning är tio minuter för 2 000 bilder. Du kan fortsätta med annat arbete och kontrollera det slutliga läget efter flera minuter för att bekräfta borttagningen.
+* Mappar som inte är tomma i bilderbjudandebiblioteket kan tas bort. Om inga referenser finns till alla bilder i mappen i någon aktivitet tas hela mappen och dess innehåll bort. Om det finns referenser till vissa bilder i mappen i någon aktivitet, tas alla bilder som inte refereras bort, men refererade bilder och mappar som innehåller dessa bilder behålls.
 
 ## Utbildningsvideo: The Content Repository ![Overview badge](/help/assets/overview.png)
 
