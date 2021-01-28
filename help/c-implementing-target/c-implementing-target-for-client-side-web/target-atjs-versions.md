@@ -4,9 +4,9 @@ description: Information om ändringarna i varje version av Adobe Target at.js.
 title: versionsinformation för at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
+source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
 workflow-type: tm+mt
-source-wordcount: '4027'
+source-wordcount: '4062'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 
 Den här versionen av at.js är en underhållsversion och innehåller följande korrigering:
 
-* Korrigerade ett problem relaterat till lådklicksspårning och A4T.
+* Korrigerade ett problem relaterat till lådklicksspårning och A4T. Med 0n-klick utlöste Target ett leverans-API-anrop med rätt mbox- och mbox-parametrar. SDID matchade emellertid inte det i [!DNL Analytics]-anropet, och därför fanns ingen träffsammanfogning och konvertering. (TNT-38372)
 
 ## .js 2.3.2 (24 juli 2020)
 
