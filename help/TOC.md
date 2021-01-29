@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 translation-type: tm+mt
-source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ ht-degree: 0%
       + [Skapa fjärrerbjudanden](c-experiences/c-manage-content/about-remote-offers.md)
       + [Skapa JSON-erbjudanden](c-experiences/c-manage-content/create-json-offer.md)
       + [Arbeta med innehåll i biblioteket](c-experiences/c-manage-content/assets-working.md)
-      + [Söka efter innehåll och skapa smarta samlingar](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [Sök innehåll](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Överför dynamiska data till erbjudanden](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM upplevelsefragment](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporter {#reports}
