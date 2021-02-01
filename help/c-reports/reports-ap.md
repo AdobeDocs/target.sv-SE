@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Specialiserade rapporter är tillgängliga för användare av Automated Personalization-aktiviteter i Adobe Target.
+description: Hur använder jag Automated Personalization Summary-rapporterna?
 title: Automated Personalization Sammanfattningsrapporter
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMAutomatiserade sammanfattningsrapporter för personalisering{#automated-personalization-summary-reports}
+# ![](/help/assets/premium.png) PREMIUMAutomatiserade sammanfattningsrapporter för personalisering
 
 Specialiserade rapporter är tillgängliga för användare av [!UICONTROL Automated Personalization]-aktiviteter i [!DNL Adobe Target].
 
@@ -24,9 +24,14 @@ Specialiserade rapporter är tillgängliga för användare av [!UICONTROL Automa
 
    Om du har många aktiviteter kan du filtrera listan genom att välja [!UICONTROL Automated Personalization] i listrutan [!UICONTROL Type].
 
-1. (Valfritt) Klicka på ikonen [!UICONTROL Download] för att hämta sammanfattningsvyn (till exempel för att jämföra trafik med styrning och mål) uppdelad efter alla tillgängliga framgångsmått.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** för att hämta sammanfattningsvyn (till exempel för att jämföra trafik med styrning och mål) uppdelad efter alla tillgängliga framgångsmått.
 
 [!UICONTROL Automated Personalization] innehåller följande rapporter:
+
+* Aktivitetsnivå
+* Erbjudandenivå
+* Automatiska segment
+* Viktiga attribut
 
 ## Aktivitetsnivårapport {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -49,6 +54,16 @@ Erbjudandena kan visas i rapportgrupper och dessa kan komprimeras och utökas. V
 >[!NOTE]
 >
 >Klockikonen indikerar att algoritmmodellen fortfarande byggs. Kryssmarkeringsikonen anger att basalgoritmen har upprättats.
+
+## Skillnader i data mellan aktivitetsnivå- och erbjudandenivårapporter
+
+**[!UICONTROL Activity Level]rapport**: Besök som registreras i  [!UICONTROL Activity Level] rapporten visar antalet besök i kontrollupplevelsen eller kontrollupplevelserna jämfört med riktad trafik. Målstyrd trafik omfattar en blandning av prospekteringstrafik och personaliserad trafik.
+
+**Erbjudandenivårapport**: De exponeringar som registreras i  [!UICONTROL Offer Level] rapporten visar antalet visningar för varje erbjudande. I en aktivitet med mer än en plats är det totala antalet besök som registrerats i [!UICONTROL Offer Level]-rapporten för alla rapporteringsgrupper därför lika med det antal besök som registrerats för Kontroll- eller riktad trafik i [!UICONTROL Activity Level]-rapporten gånger det totala antalet platser i aktiviteten. Impressioner av standardinnehåll som förekommer på platser där standardinnehåll var ett tillgängligt alternativ registreras i erbjudandegruppen&quot;Standardinnehåll&quot;. Impressioner av erbjudanden som inte tilldelats en rapporteringsgrupp registreras i erbjudandegruppen&quot;Ej grupperad&quot;.
+
+>[!NOTE]
+
+Antalet visningar som har registrerats i [!UICONTROL Offer Level]-rapporten kanske inte är en exakt heltalsmultipel av antalet besök som har registrerats i [!UICONTROL Activity Level]-rapporten. Detta beror på mindre avvikelser i insamlingen av datatrafik via Internet (den typiska diskrepansnivån är under 5 %). Därför kommer antalet visningar inte att vara en exakt multipel när antalet platser som är tillgängliga i aktiviteten har ändrats efter att aktiviteten aktiverades.
 
 ## Automatiska segment
 
