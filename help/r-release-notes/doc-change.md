@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '3488'
+source-wordcount: '3480'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 1 februari | [Automated Personalization Sammanfattningsrapporter](/help/c-reports/reports-ap.md) | Nytt avsnitt har lagts till: &quot;Skillnader i data mellan aktivitetsnivå- och erbjudandenivårapporter.&quot; |
+| 1 februari | [Automated Personalization Sammanfattningsrapporter](/help/c-reports/reports-ap.md) | Nytt avsnitt har lagts till: &quot;Frågor och svar.&quot; |
 | 27 januari | [Skapa omdirigeringserbjudanden](/help/c-experiences/c-manage-content/offer-redirect.md) | Uppdaterat ämne. |
 |  | [Skapa fjärrerbjudanden](/help/c-experiences/c-manage-content/about-remote-offers.md) | Uppdaterat ämne. |
 | 26 januari | [Konverteringsgrad](/help/c-reports/conversion-rate.md) | Tydligare hur Target använder&quot;summan av fyrkanter&quot; i Students t-test. |
