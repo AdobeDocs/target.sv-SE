@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 translation-type: tm+mt
-source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -175,6 +175,7 @@ ht-degree: 0%
       + [Analyser för Target-implementering](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Krav på användarbehörighet](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [Skapa en aktivitet som använder Analytics som rapportkälla](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Använda en analysspårningsserver](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T-rapportering](c-integrating-target-with-mac/a4t/reporting.md)
       + Felsöka integreringen med Analytics och Target (A4T) {#troubleshoot-a4t}
