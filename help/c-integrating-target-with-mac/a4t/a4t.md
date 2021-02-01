@@ -4,9 +4,9 @@ description: Adobe"Analytics for Target" (A4T) är en integrerad lösning som g�
 title: Adobe Analytics som rapportkälla för Adobe Target (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,8 @@ I följande tabell visas vilka aktivitetstyper som stöder [!DNL Analytics] som 
 | Typ av aktivitet | A4T-kompatibel? | Anteckningar, om tillämpligt |
 |--- |--- |--- |
 | A/B-aktivitet med manuell trafikdelning | Ja |  |
-| A/B-aktivitet med automatisk fördelning | Ja | Se [Analytics for Target (A4T)-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
-| A/B-aktivitet med automål | Ja | Se [Analytics for Target (A4T)-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| A/B-aktivitet med automatisk fördelning | Ja | Se [Stöd för A4T för Automatisk allokering och Automatisk målaktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| A/B-aktivitet med automål | Ja | Se [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | Experience Targeting (XT) | Ja |  |
 | Multivariata tester (MVT) | Ja | Kräver mbox-baserat målmätningsmål för att hämta [!UICONTROL Element Contribution]-rapporten.  [!UICONTROL Element Contribution]-rapporten stöder för närvarande inte [!DNL Analytics]-mått. |
 | Automated Personalization-aktivitet (AP) | Nej |  |
