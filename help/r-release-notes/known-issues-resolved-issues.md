@@ -4,9 +4,9 @@ description: Information om kända fel i den här versionen av Adobe Target. Inn
 title: Kända fel och lösta problem i Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '4322'
+source-wordcount: '4316'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ I följande avsnitt listas kända fel för [!DNL Target]:
 
 Det finns ett känt fel i [!DNL Target]-gränssnittet som gör att användare kan välja interaktions- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter. Konverteringsmått stöds. Aktivitets- och intäktsmått stöds *inte*. Om du väljer mått för engagemang eller intäktsmål skapas ingen optimeringsmodell (även om användargränssnittet i [!DNL Target] tillåter att du väljer målvärden som inte stöds).
 
-En lista över målmått som stöds och som inte stöds finns i [Målmått som stöds](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) i *Skapa en aktivitet som använder Analytics som rapportkälla*. (TNT-38409)
+En lista över målvärden som stöds och inte stöds finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatiskt mål](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Sidleverans {#page-delivery}
 
