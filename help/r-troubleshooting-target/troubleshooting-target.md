@@ -4,9 +4,9 @@ description: Lista med ämnen som kan hjälpa dig att lösa problem i Adobe Targ
 title: Felsöka Adobe Target
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 
 * [Automated Personalization FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Felsökning av Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Automated Personalization Sammanfattningsrapporter](/help/c-reports/reports-ap.md)
 
 ### Multivariata tester (MVT)
 
