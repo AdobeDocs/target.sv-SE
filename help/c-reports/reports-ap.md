@@ -4,9 +4,9 @@ description: Hur använder jag Automated Personalization Summary-rapporterna?
 title: Automated Personalization Sammanfattningsrapporter
 feature: Reports
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -55,16 +55,6 @@ Erbjudandena kan visas i rapportgrupper och dessa kan komprimeras och utökas. V
 >
 >Klockikonen indikerar att algoritmmodellen fortfarande byggs. Kryssmarkeringsikonen anger att basalgoritmen har upprättats.
 
-## Skillnader i data mellan aktivitetsnivå- och erbjudandenivårapporter
-
-**[!UICONTROL Activity Level]rapport**: Besök som registreras i  [!UICONTROL Activity Level] rapporten visar antalet besök i kontrollupplevelsen eller kontrollupplevelserna jämfört med riktad trafik. Målstyrd trafik omfattar en blandning av prospekteringstrafik och personaliserad trafik.
-
-**Erbjudandenivårapport**: De exponeringar som registreras i  [!UICONTROL Offer Level] rapporten visar antalet visningar för varje erbjudande. I en aktivitet med mer än en plats är det totala antalet besök som registrerats i [!UICONTROL Offer Level]-rapporten för alla rapporteringsgrupper därför lika med det antal besök som registrerats för Kontroll- eller riktad trafik i [!UICONTROL Activity Level]-rapporten gånger det totala antalet platser i aktiviteten. Impressioner av standardinnehåll som förekommer på platser där standardinnehåll var ett tillgängligt alternativ registreras i erbjudandegruppen&quot;Standardinnehåll&quot;. Impressioner av erbjudanden som inte tilldelats en rapporteringsgrupp registreras i erbjudandegruppen&quot;Ej grupperad&quot;.
-
->[!NOTE]
-
-Antalet visningar som har registrerats i [!UICONTROL Offer Level]-rapporten kanske inte är en exakt heltalsmultipel av antalet besök som har registrerats i [!UICONTROL Activity Level]-rapporten. Detta beror på mindre avvikelser i insamlingen av datatrafik via Internet (den typiska diskrepansnivån är under 5 %). Därför kommer antalet visningar inte att vara en exakt multipel när antalet platser som är tillgängliga i aktiviteten har ändrats efter att aktiviteten aktiverades.
-
 ## Automatiska segment
 
 Klicka på ikonen [!UICONTROL Automated Segments]. Den här rapporten visar hur olika besökare svarar annorlunda på erbjudanden/upplevelser i din AP/AT-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av Target personaliseringsmodeller svarade på erbjudandena/upplevelserna i aktiviteten.
@@ -80,3 +70,15 @@ Klicka på ikonen [!UICONTROL Important Attributes]. Den här rapporten visar hu
 ![Ikon för viktiga attribut](/help/c-reports/assets/icon-important-attributes-ap.png)
 
 Mer information finns i [Viktiga attribut-rapport](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+
+## Vanliga frågor
+
+### Finns det skillnader i data mellan aktivitetsnivå- och erbjudandenivårapporterna?
+
+**[!UICONTROL Activity Level]rapport**: Besök som registreras i  [!UICONTROL Activity Level] rapporten visar antalet besök i kontrollupplevelsen eller kontrollupplevelserna jämfört med riktad trafik. Målstyrd trafik omfattar en blandning av prospekteringstrafik och personaliserad trafik.
+
+**Erbjudandenivårapport**: De exponeringar som registreras i  [!UICONTROL Offer Level] rapporten visar antalet visningar för varje erbjudande. I en aktivitet med mer än en plats är det totala antalet besök som registrerats i [!UICONTROL Offer Level]-rapporten för alla rapporteringsgrupper därför lika med det antal besök som registrerats för Kontroll- eller riktad trafik i [!UICONTROL Activity Level]-rapporten gånger det totala antalet platser i aktiviteten. Impressioner av standardinnehåll som förekommer på platser där standardinnehåll var ett tillgängligt alternativ registreras i erbjudandegruppen&quot;Standardinnehåll&quot;. Impressioner av erbjudanden som inte tilldelats en rapporteringsgrupp registreras i erbjudandegruppen&quot;Ej grupperad&quot;.
+
+>[!NOTE]
+
+Antalet visningar som har registrerats i [!UICONTROL Offer Level]-rapporten kanske inte är en exakt heltalsmultipel av antalet besök som har registrerats i [!UICONTROL Activity Level]-rapporten. Detta beror på mindre avvikelser i insamlingen av datatrafik via Internet (den typiska diskrepansnivån är under 5 %). Därför kommer antalet visningar inte att vara en exakt multipel när antalet platser som är tillgängliga i aktiviteten har ändrats efter att aktiviteten aktiverades.
