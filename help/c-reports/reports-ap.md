@@ -4,9 +4,9 @@ description: Hur använder jag Automated Personalization Summary-rapporterna?
 title: Automated Personalization Sammanfattningsrapporter
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Mer information finns i [Viktiga attribut-rapport](/help/c-reports/c-personaliza
 
 ## Vanliga frågor
 
-### Finns det skillnader i data mellan aktivitetsnivå- och erbjudandenivårapporterna?
+### Varför finns det skillnader i data mellan aktivitetsnivå- och erbjudandenivårapporterna?
 
 **[!UICONTROL Activity Level]rapport**: Besök som registreras i  [!UICONTROL Activity Level] rapporten visar antalet besök i kontrollupplevelsen eller kontrollupplevelserna jämfört med riktad trafik. Målstyrd trafik omfattar en blandning av prospekteringstrafik och personaliserad trafik.
 
