@@ -4,9 +4,9 @@ description: På den här sidan visas viktiga ändringar i Adobe Target-dokument
 title: Dokumentationen ändras i Adobe Target produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3480'
+source-wordcount: '3477'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [Profil och variabel ordlista](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Uppdaterade raden &quot;user.header(&#39;x-forward-for&#39;)&quot; för att ange att &quot;user.header(&#39;x-Cluster-client-ip&#39;)&quot; har tagits bort. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 20.9.1 (30 september 2020). |
 | 15 september | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om Target Standard/Premium 20.8.3, som innehåller stöd för Analytics for Target (A4T) för Automatiskt mål-aktiviteter. Stöd för Automatisk allokering har lagts till i en tidigare version. |
-|  | [Analyser för målaktiviteter (A4T) har stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). | Lagt till information om A4T-stöd i Automatiskt mål-aktiviteter. |
+|  | [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Lagt till information om A4T-stöd i Automatiskt mål-aktiviteter. |
 |  | [Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Uppdaterad text som indikerar att metoden att manuellt tvinga dig ut ur QA-läget genom att läsa in en sida på webbplatsen med parametern `at_preview_token` med ett tomt värde gäller för at.js 1.*Endast* . |
 |  | [Katalogsökning](/help/c-recommendations/c-products/catalog-search.md) | Hela ämnet har uppdaterats. |
 | 10 september | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om Target Standard/Premium 20.9.2 som innehåller följande nya funktion: Kontrollera rekommendationsplatserna i villkorssekvenser. |
