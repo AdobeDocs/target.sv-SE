@@ -4,9 +4,9 @@ description: En Automatisk tilldelning-aktivitet i Adobe Target identifierar en 
 title: Automatisk allokering
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3352'
+source-wordcount: '3348'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Allocate]-akt
 
 ### Har Analytics for Target (A4T) stöd för Automatisk allokering av aktiviteter?
 
-Ja. Mer information finns i [Analytics for Target (A4T) support for Auto-Allocate tasks](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) i *Activity creation*.
+Ja. Mer information finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Omfördelas återkommande besökare automatiskt till högpresterande upplevelser?
 
