@@ -4,9 +4,9 @@ description: Auto-Target i Adobe Target använder avancerad maskininlärning fö
 title: Översikt över Automatiskt mål
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >[!UICONTROL Auto-Target] finns som en del av  [!DNL Target Premium] lösningen. Den här funktionen är inte tillgänglig i [!DNL Target Standard] utan en [!DNL Target Premium]-licens. Mer information om de avancerade funktioner som den här licensen innehåller finns i [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics for Target] (A4T) stöder  [!UICONTROL Auto-Target] aktiviteter. Mer information finns i [Skapa en aktivitet som använder Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
+>[!UICONTROL Analytics for Target] (A4T) stöder  [!UICONTROL Auto-Target] aktiviteter. Mer information finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Framgångsstoryn i verkligheten med Auto-Target {#success}
 
