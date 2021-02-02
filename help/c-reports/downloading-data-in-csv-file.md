@@ -1,12 +1,12 @@
 ---
-keywords: reports;download reports;csv;success metrics;order details
+keywords: rapporter;ladda ned rapporter;csv;success metrics;order details
 description: Hämta data i CSV-format för snabb import till Excel, Access eller andra dataanalysprogram med Adobe Target.
-title: Hämta data i en CSV-fil med Adobe Target
+title: Hämta data i en CSV-fil
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
