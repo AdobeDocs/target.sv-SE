@@ -1,12 +1,12 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
+keywords: felsökning;vanliga frågor;vanliga frågor;Vanliga frågor;Vanliga frågor;mål;målgrupper
 description: Lista med vanliga frågor och svar om upplevelseanpassning och målgrupper.
 title: Mål och målgrupper Frågor och svar
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '939'
 ht-degree: 1%
 
 ---
