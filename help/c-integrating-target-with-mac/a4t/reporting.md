@@ -1,12 +1,12 @@
 ---
-keywords: analytics for target;a4t;analytics as the reporting source
+keywords: analys för target;a4t;analytics as reporting source
 description: Genom att använda Analytics som rapportkälla för Target (A4T) får ni tillgång till analysrapporter för era Target-aktiviteter.
 title: A4T-rapportering
-feature: a4t reports
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Om du använder [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T) får
 
 Du kan visa rapporter för dina aktiviteter i både [!DNL Analytics] och [!DNL Target].
 
-[Om du vill rapportera bästa praxis med [!DNL Analytics] för [!DNL Target] ska du &lt;a2/>besöka den här Adobe Spark-sidan](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+[Om du vill rapportera bästa praxis med [!DNL Analytics] för [!DNL Target] ska du besöka den här Adobe Spark-sidan](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Översikt {#section_035A62D65608423285D8A5A54731E2C5}
 
