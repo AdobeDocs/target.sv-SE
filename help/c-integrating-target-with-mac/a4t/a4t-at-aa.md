@@ -1,12 +1,12 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Analyser som rapportkälla för Target
 description: Kan jag använda A4T med Automatiskt mål och Automatisk allokering?
 title: A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Så här kommer du igång:
 
    * [!UICONTROL Auto-allocate to best experience]
    * [!UICONTROL Auto-target for personalized experiences]
+
+   ![Alternativ för trafikallokeringsmetoder: Manuell, Automatisk fördelning och Automatisk målning](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    Mer information och stegvisa instruktioner finns i [Skapa en automatisk allokeringsaktivitet](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) och [Skapa en Automatisk målaktivitet](/help/c-activities/auto-target/create-auto-target.md).
 
