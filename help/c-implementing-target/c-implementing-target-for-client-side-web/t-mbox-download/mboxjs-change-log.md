@@ -1,12 +1,12 @@
 ---
 keywords: mbox.js changes;mbox.js versions
 description: På den här sidan visas ändringar för varje version av mbox.js.
-title: versionsinformation för mbox.js
-feature: null
+title: mbox.js Versionsinformation
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2393'
 ht-degree: 0%
 
 ---
