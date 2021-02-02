@@ -1,12 +1,12 @@
 ---
-keywords: security;security practices
+keywords: säkerhet;säkerhetsrutiner
 description: Information om den djupgående infallsvinkel och de säkerhetsrutiner som Adobe implementerat för att öka säkerheten för era data och Adobe Target upplevelser.
-title: Översikt över målsäkerhet
+title: Säkerhetsöversikt
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
