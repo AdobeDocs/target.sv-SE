@@ -1,12 +1,12 @@
 ---
-keywords: content library;assets;search;filter
+keywords: innehållsbibliotek;resurser;sökning;filter
 description: Hur söker jag efter resurser efter nyckelord?
 title: Sök innehåll
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
