@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;rfi;request for information
+keywords: implementera;implementera;rfi;begäran om information
 description: Det finns uppgifter du bör utföra och information som du bör samla in när du förbereder implementering av Adobe Target.
-title: Förbered implementering av Adobe Target
+title: Förbered för implementering
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
