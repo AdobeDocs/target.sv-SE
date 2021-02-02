@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
+keywords: mobilapp;mobilapp skicka data;målmobilapp;anpassade användardata för mobilapp;anpassade data för mobilapp
 description: Du kan skicka ytterligare information om platsen eller användaren till Target som namnvärdespar.
-title: iOS - skicka anpassade användardata
-feature: mobile implementation
+title: IOS - Skicka anpassade användardata
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
