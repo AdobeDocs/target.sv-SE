@@ -1,12 +1,12 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+keywords: automatiserad personalisering;ap;målgrupper;ensemble;random forest;rest variance;error variance;livstidsvärde
 description: Arbetsflödet för Automated Personalization-aktiviteter i Adobe Target skiljer sig från arbetsflödet för de andra aktivitetstyperna.
 title: Skapa en Automated Personalization-aktivitet
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
