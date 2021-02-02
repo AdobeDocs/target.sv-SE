@@ -4,9 +4,9 @@ description: Kan jag använda A4T med Automatiskt mål och Automatisk allokering
 title: A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,14 @@ Så här kommer du igång:
 
 1. Välj **[!UICONTROL Adobe Analytics]** för **[!UICONTROL Reporting Source]** på **[!UICONTROL Goals & Settings]**-sidan och välj den rapportsvit som motsvarar det optimeringsmål du vill ha.
 
+   ![Avsnittet Rapporteringskälla på sidan Mål och inställningar](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. Välj ett primärt målmått.
 
    * Välj **[!UICONTROL Conversion]** om du vill använda [!DNL Adobe Target] för att ange optimeringsmålet.
    * Välj **[!UICONTROL Use an Analytics metric]** och välj sedan ett mått från [!DNL Analytics] som ska användas som optimeringsmål. Du kan använda ett [!DNL Analytics]-konverteringsmått eller en [!DNL Analytics] anpassad händelse.
+
+   Mer information finns i [Målmått](#supported) nedan.
 
 1. Spara och aktivera aktiviteten.
 
@@ -51,7 +55,7 @@ Så här kommer du igång:
 
 1. Använd fliken **[!UICONTROL Reports]** om du vill visa aktivitetens rapportering genom att välja [!DNL Adobe Analytics] mått. Klicka på **[!UICONTROL View in Analytics]** för att segmentera dina rapporteringsdata ytterligare.
 
-## Målmått som stöds
+## Målmått {#supported} som stöds
 
 [!UICONTROL A4T] för  [!UICONTROL Auto-Allocate] och  [!UICONTROL Auto-Target] låter dig välja någon av följande måtttyper som det primära målmåttet för optimering:
 
