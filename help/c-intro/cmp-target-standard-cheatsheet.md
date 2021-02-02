@@ -1,12 +1,12 @@
 ---
-keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
+keywords: Målstandard;faq;Vanliga frågor;kalkylblad;kalkylblad
 description: En lista med vanliga frågor om hur du använder funktionerna i Adobe Target, samt information och länkar för mer information.
-title: Vanliga frågor om måloptimering och personalisering
+title: Optimering och personalisering - frågor och svar
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2901'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
