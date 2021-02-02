@@ -1,12 +1,12 @@
 ---
-keywords: system update;troubleshooting;maintenance;system status;update status
-description: Använd statussidan för Adobe System Status för att visa status för Adobe-produkter och Experience Cloud-lösningar, inklusive Target. På den här sidan kan du avgöra om de problem du kan råka ut för beror på systemuppdateringar eller rutinunderhåll.
-title: Systemstatusuppdateringar
+keywords: systemuppdatering;felsökning;underhåll;systemstatus;uppdateringsstatus
+description: Var kan jag se status för Adobe-produkter och Experience Cloud-lösningar?
+title: Uppdateringar av systemstatus
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
