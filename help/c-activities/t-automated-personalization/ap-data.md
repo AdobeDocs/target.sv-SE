@@ -1,12 +1,12 @@
 ---
-keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
+keywords: miljödata;sessionsdata;geodata;geografiska data;enhetsdata;mobildata;attribut;profilattribut
 description: Adobe Target samlar automatiskt in och använder en mängd olika data för att skapa sina personaliseringsalgoritmer i Automated Personalization- (AP) och Auto-Target-aktiviteter (AT). När en besökare kommer in i AP- eller AT-aktiviteten skickas en ögonblicksbild av informationen till en uppsättning"utbildningsposter" (de besökardata som personaliseringsalgoritmerna kommer att lära sig om).
-title: Datainsamling för Adobe Target personaliseringsalgoritmer
+title: Datainsamling för personaliseringsalgoritmer
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
