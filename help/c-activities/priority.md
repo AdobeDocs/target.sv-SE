@@ -1,12 +1,12 @@
 ---
-keywords: settings;priority
+keywords: inställningar;prioritet
 description: Adobe Target avgör vilken eller vilka aktiviteter som ska levereras till en sida på olika sätt beroende på vilket Target-gränssnitt och vilken aktivitetsskapande funktion (Visual Experience Composer eller Form Based Composer) du använder.
-title: Prioritet i Adobe Target
+title: Prioritet
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
