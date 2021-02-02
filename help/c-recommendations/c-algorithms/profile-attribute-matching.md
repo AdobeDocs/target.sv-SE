@@ -1,12 +1,12 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;profile attribute matching
+keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;profilattributsmatchning
 description: Filtrera dynamiskt i Adobe Target Recommendations genom att jämföra objekt (enheter) med ett värde i användarens profil.
-title: Filtrera efter profilattributmatchning i dynamiska inkluderingsregler i Adobe Target Recommendations
+title: Filtrera efter profilattributmatchning i regler för dynamisk inkludering i målrekommendationer v
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
