@@ -1,10 +1,10 @@
 ---
-keywords: affinity;category affinity
+keywords: tillhörighet;kategoritillhörighet
 description: Med kategoritillhörighetsfunktionen i Adobe Target hämtas automatiskt de kategorier som en användare besöker och sedan beräknas användarens tillhörighet för kategorin så att den kan anpassas och segmenteras. Detta bidrar till att säkerställa att innehållet är riktat till besökare som är mest benägna att agera på den informationen.
-title: Använd kategoritillhörighet i Adobe Target
-feature: visitor profiles
+title: Använd kategoritillhörighet
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
