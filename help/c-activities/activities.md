@@ -1,12 +1,12 @@
 ---
-keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
+keywords: aktivitetslista;aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;aktivitetsåtgärder;aktivitetsattribut;aktivitetslista filter;aktivitetsbegränsningar;anpassa;personalisering
 description: Med funktionerna i Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign
-title: Med Adobe Target kan ni personalisera innehåll efter specifika målgrupper och testa siddesign.
+title: Anpassa innehållet efter specifika målgrupper och testa siddesign
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2080'
 ht-degree: 1%
 
 ---
