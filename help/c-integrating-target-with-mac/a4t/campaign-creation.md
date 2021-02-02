@@ -1,12 +1,12 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Analyser som rapportkälla för Target
 description: Du kan konfigurera en aktivitet i Target Standard/Premium så att Adobe Analytics används som rapportkälla (A4T).
 title: Skapa en aktivitet som använder A4T som rapportkälla
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -71,3 +71,6 @@ Att skapa en [!DNL Target]-aktivitet som använder [!DNL Analytics] som rapportk
 
 1. Klicka på **[!UICONTROL Save]**.
 
+## A4T- och Automatisk fördelning- och Automatisk målaktiviteter
+
+Mer information finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
