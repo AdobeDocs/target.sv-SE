@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;audiences;percentage target
+keywords: Målgrupper;målgrupper;procentuellt mål
 description: Använd målgrupper i Adobe Target för att rikta olika innehåll och upplevelser till specifika målgrupper för att optimera er webbmarknadsföring genom att visa rätt budskap till rätt personer vid rätt tidpunkt.
-title: Målgrupper i Adobe Target
-feature: audiences
+title: Målgrupper
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
