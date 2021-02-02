@@ -1,12 +1,12 @@
 ---
-keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
+keywords: anpassade parametrar;anpassade målparametrar;målparametrar;målparametrar;målparametrar för mbox
 description: Egna parametrar är mbox-parametrar. Om du skickar några mbox-parametrar till mboxes, eller använder funktionen targetPageParams, visas de parametrarna här för användning i målgrupper.
-title: Egna parametrar i Adobe Target
-feature: audiences
+title: Egna parametrar
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
