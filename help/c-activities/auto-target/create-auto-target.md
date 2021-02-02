@@ -1,10 +1,10 @@
 ---
 keywords: Skapa automatiskt mål;A/B-test;automatiskt mål-aktivitet;ny a/b-aktivitet;automatiskt mål;automatiskt mål för personaliserade upplevelser;personaliserad
 description: Använd Visual Experience Composer (VEC) i Adobe Target för att skapa A/B-testaktivitet automatiskt direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
-title: Skapa en Automatisk målaktivitet
+title: Skapa en automatiskt målaktivitet
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
