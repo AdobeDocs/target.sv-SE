@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;webkit
+keywords: Översikt och referens;webbkit
 description: Cookie-beteendet beror på om det är en cookie från en annan leverantör, en cookie från en annan tillverkare med en cookie från en annan leverantör eller en cookie från en annan tillverkare.
-title: mbox.js cookies
-feature: null
+title: mbox.js Cookies
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
