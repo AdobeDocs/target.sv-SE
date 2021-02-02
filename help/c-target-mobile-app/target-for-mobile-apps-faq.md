@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;frequently asked questions;faq;target mobile app
+keywords: mobilapp;vanliga frågor;faq;target mobile app
 description: Frågor och svar om Adobe Target för mobilappar.
-title: Frågor och svar om Adobe Target för mobilappar
-feature: mobile implementation
+title: Vanliga frågor om mål för mobilappar
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
