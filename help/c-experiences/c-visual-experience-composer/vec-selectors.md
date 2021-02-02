@@ -1,12 +1,12 @@
 ---
 keywords: Experience Targeting;Landing Page Test
 description: En elementväljare är ett CSS-uttryck som kan identifiera ett eller flera element.
-title: Elementväljare som används i Visual Experience Composer
+title: Elementväljare som används i Visual Experience Composer (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
