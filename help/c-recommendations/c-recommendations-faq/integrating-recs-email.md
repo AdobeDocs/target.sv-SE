@@ -1,12 +1,12 @@
 ---
-keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
+keywords: e-post;ESP;e-postleverantör;rawbox;delivery API;download only template;email template;batch processing;build-time email
 description: Information om hur man integrerar e-post med Recommendations.
 title: Integrera Recommendations med e-post
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
