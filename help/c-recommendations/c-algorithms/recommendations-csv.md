@@ -1,12 +1,12 @@
 ---
-keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
+keywords: skapa anpassade kriterier;algoritmer;villkor;rekommendationer villkor;csv;ftp;upload csv
 description: Överför en CSV-fil för att anpassa dina rekommendationer.
 title: Överför anpassade villkor
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
