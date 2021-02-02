@@ -1,12 +1,12 @@
 ---
-keywords: catalog search;catalog;search;exclusion;collection;filter
+keywords: katalogsökning;katalog;sökning;exkludering;samling;filter
 description: Lär dig hur du använder Recommendations Catalog Search för att hitta produkter eller innehåll, skapa samlingar eller uteslutningar, ta bort objekt från katalogen och mycket mer.
 title: Så här använder du Recommendations Catalog Search
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
