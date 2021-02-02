@@ -1,12 +1,12 @@
 ---
-keywords: multivariate;mvt;preview;experiences
+keywords: multivariat;mvt;preview;experiences
 description: Eftersom ett multivariata test i Adobe Target jämför flera olika upplevelser på en sida är det bra att förhandsgranska sidan för varje upplevelse.
-title: Förhandsgranska upplevelser för ett multivariat test i Adobe Target
+title: Förgranska upplevelser för ett multivariat test (MVT)
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
