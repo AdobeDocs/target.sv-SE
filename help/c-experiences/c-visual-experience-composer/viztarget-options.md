@@ -1,12 +1,12 @@
 ---
-keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
+keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelser;redigera text;redigera html;redigera text/html;redigera bakgrundsfärg;bakgrundsfärg;infoga element;redigera länk;länk för disposition;redigera CSS-klass;css-klass;swap offer swap;swap image;remove item remove;item remove;item remove;item hide;move element;move move;element move element;resize element;element resielement expandera markering;navigera till den här länken;navigera länk;navigera;navigera;länk;ångra;gör om
 description: När du klickar på ett sidelement i Adobe Target Visual Experience Composer (VEC) visas de alternativ som är tillgängliga för den elementtypen på en meny.
-title: Alternativ för Adobe Target Visual Experience Composer (VEC)
+title: Alternativ för Visual Experience Composer (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2430'
 ht-degree: 0%
 
 ---
