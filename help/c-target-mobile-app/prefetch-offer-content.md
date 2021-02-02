@@ -1,12 +1,12 @@
 ---
-keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
+keywords: erbjudande;prefetch;iOS;android;sdk;mobile;mobile sdk
 description: Adobe Target förhämtningsfunktion använder iOS och Android Mobile SDK för att hämta innehåll som kan erbjudas så få gånger som möjligt genom att cachelagra serversvaren.
-title: Förhämta erbjudandeinnehåll
-feature: mobile implementation
+title: Förhämta innehåll
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
