@@ -1,10 +1,10 @@
 ---
 keywords: a4t;A4T;Analyser som rapportkälla för Target
 description: Kan jag använda A4T med Automatiskt mål och Automatisk allokering?
-title: A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter
+title: A4T-stöd för automatisk fördelning och automatisk målanpassning
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
