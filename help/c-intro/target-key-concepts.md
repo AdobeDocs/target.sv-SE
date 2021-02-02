@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;act
-description: Information om viktiga koncept som hjälper dig att förstå Adobe Target funktioner.
-title: Målgrupper
+keywords: Översikt och referens;agera
+description: Hur förstår jag och använder Target?
+title: Viktiga begrepp
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1507'
 ht-degree: 2%
 
 ---
