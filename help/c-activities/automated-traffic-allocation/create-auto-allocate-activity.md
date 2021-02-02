@@ -1,12 +1,12 @@
 ---
-keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+keywords: skapa automatisk allokering;A/B-test;autoallokera aktivitet;ny a/b-aktivitet;autoallokera;autoallokera till bästa upplevelse;allokera;autoallokera
 description: Använd Visual Experience Composer (VEC) i Adobe Target för att skapa en automatisk fördelning av A/B-testaktivitet direkt på en målaktiverad sida och för att ändra delar av sidan i Target.
 title: Skapa en automatiskt fördelad aktivitet
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -119,6 +119,10 @@ Så här skapar du en [!UICONTROL Auto-Allocate]-aktivitet:
 1. Ange [mål och inställningar](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) för aktiviteten.
 
    ![A/B-aktivitetsinställningar](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Om du vill använda [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) med den här aktiviteten, se viktig information i [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klicka på **[!UICONTROL Save & Close]** eller **[!UICONTROL Save]**.
 
