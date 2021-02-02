@@ -1,12 +1,12 @@
 ---
 keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
-description: 'Information om realtidsprofil '
-title: Profilsynkronisering i realtid för mbox3rdPartyId i Adobe Target
-feature: visitor profiles
+description: Information om realtidsprofil
+title: Profilsynkronisering i realtid för Mbox3Rdpartyid
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
