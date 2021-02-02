@@ -1,12 +1,12 @@
 ---
-keywords: activity change log;change log
+keywords: aktivitetsändringslogg;ändringslogg
 description: Ändringsloggen visar vem som ändrat dina aktiviteter och när ändringarna inträffade.
-title: Logg för aktivitetsändring i Adobe Target
-feature: activities
+title: Logg för aktivitetsändring
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
