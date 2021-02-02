@@ -1,12 +1,12 @@
 ---
-keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
+keywords: aktivitetsinställningar;mål och inställningar för målinriktning av upplevelser;mål och inställningar;målinriktning av upplevelser;målinställningar;målmått;framgångsmått;beroende framgångsmått;avancerade inställningar;primära mål;mål;prioritet;varaktighet;rapporteringslösning;mål;målgrupper för rapportering;Vilket framgångsmått måste uppnås innan det här måttet ökas;Vad kommer att hända när en användare påträffar det här målmåttet;noterar
 description: På sidan Mål och inställningar anger du information om målet för testet.
 title: Mål och inställningar
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
