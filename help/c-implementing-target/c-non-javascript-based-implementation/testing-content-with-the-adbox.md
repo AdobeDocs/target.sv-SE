@@ -1,12 +1,12 @@
 ---
-keywords: Implementation;mbox.js non javascript;mbox;adbox
+keywords: Implementering;mbox.js non javascript;mbox;adbox
 description: Använd en AdBox för att leverera bilder i en implementering utanför webbplatsen med Adobe Target.
-title: Skapa en Adbox för en bild med Adobe Target
-feature: email implementation
+title: Skapa en adbox för en bild
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
