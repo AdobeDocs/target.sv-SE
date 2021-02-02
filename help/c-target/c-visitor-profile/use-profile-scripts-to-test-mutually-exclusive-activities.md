@@ -1,12 +1,12 @@
 ---
-keywords: Profile script;profile script attributes;mutually exclusive activities
+keywords: Profilskript;profilskriptattribut;ömsesidigt uteslutande aktiviteter
 description: Du kan använda profilattribut för att konfigurera tester som jämför två eller flera aktiviteter, men inte låter samma besökare delta i varje aktivitet.
 title: Använd profilskript för att testa aktiviteter som utesluter varandra
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
