@@ -1,12 +1,12 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
+keywords: felsökning;måttskillnader;vanliga frågor och svar;rapporter;ny besökare;återkommande besökare;återkommande besökare;återkommande besökare;återbesök;nytt besök
 description: Lista med vanliga frågor om rapportering i Adobe Target.
-title: Vanliga frågor om rapportering för Adobe Target
+title: Vanliga frågor om rapportering
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
