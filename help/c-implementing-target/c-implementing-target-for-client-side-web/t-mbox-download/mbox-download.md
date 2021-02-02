@@ -1,12 +1,12 @@
 ---
-keywords: implementation;mbox;download mbox.js;download api;mbox.js api
+keywords: implementering;mbox;download mbox.js;download api;mbox.js api
 description: Om du vill använda Adobe Target Standard eller Target Premium lägger du till en kodrad för att anropa mbox.js.
-title: mbox.js implementation
-feature: null
+title: mbox.js-implementering
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
