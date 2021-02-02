@@ -1,12 +1,12 @@
 ---
-keywords: implementation;api;profile;profile api settings;authentication token
+keywords: implementering;api;profil;profil-API-inställningar;autentiseringstoken
 description: Aktivera eller inaktivera autentisering för batchuppdateringar via Adobe Target API:er och generera en profilautentiseringstoken.
-title: Profil-API-inställningar i Adobe Target
+title: Profil-API-inställningar
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
