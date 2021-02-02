@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
+keywords: Riktning;trafikkällor;måltrafikkällor;målsökmotor;sökmotor;landningssida;målstartsida;hänvisande landningssida
 description: Skapa målgrupper i Adobe Target för att inrikta er på besökare baserat på den sökmotor eller landningssida som hänvisar dem till er webbplats.
-title: Traffic Sources options in Adobe Target audiences
-feature: audiences
+title: Alternativ för trafikkällor i målgrupper
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
