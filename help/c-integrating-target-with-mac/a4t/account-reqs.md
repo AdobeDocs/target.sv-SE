@@ -1,13 +1,13 @@
 ---
-keywords: Analytics as reporting source;a4t;A4T;requirements
+keywords: Analyser som rapportkälla;a4t;A4T;requirements
 description: Krav för användarkonto för att skapa en Adobe Analytics-baserad aktivitet i Adobe Target (A4T).
-title: Krav på användarbehörighet
+title: Krav för användarbehörighet
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
