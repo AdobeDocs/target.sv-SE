@@ -1,12 +1,12 @@
 ---
-keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
+keywords: Profilskript;profilskriptattribut;profilskript bästa praxis;felsökning;skript;profilskript;attribut;attribut;parameter
 description: Profilattribut är parametrar som är specifika för besökaren. Dessa attribut lagras i besökarens profil för att ge information om besökaren som kan användas i dina Adobe Target-aktiviteter.
-title: Profilattribut i Adobe Target
-feature: visitor profiles
+title: Profilattribut
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2432'
 ht-degree: 0%
 
 ---
