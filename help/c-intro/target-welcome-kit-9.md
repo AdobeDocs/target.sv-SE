@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
 description: Adobe Target welcome kit - Kapitel 9 - Nästa steg och resurser
-title: Adobe Target welcome kit - Kapitel 9 - Nästa steg och resurser
+title: Välkomstpaket - Kapitel 9 - Nästa steg och resurser
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
