@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
+keywords: Målnätverk;målnätverk;målnätverk;isp;domännamn;anslutningshastighet;måldomän;måldomän;målanslutningshastighet
 description: Du kan skapa målgrupper i Adobe Target baserat på nätverksinformation.
-title: Nätverksalternativ i Adobe Target
-feature: audiences
+title: Nätverksalternativ i Publiker
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
