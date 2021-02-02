@@ -1,12 +1,12 @@
 ---
 keywords: qa;preview;preview link;mobile;mobile preview
 description: Använd länken för förhandsgranskning av mobilmaterial för att enkelt skapa heltäckande QA för mobilappsaktiviteter och registrera dig för olika upplevelser direkt på din enhet utan några särskilda testenheter.
-title: Använda länken för förhandsgranskning för mobila enheter i Adobe Target Mobile
-feature: mobile implementation
+title: Använda Mobile Preview Link i Target Mobile
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
