@@ -1,12 +1,12 @@
 ---
-keywords: mboxDefine;mboxdefine;mbox define;mboxUpdate;mboxupdate;mbox update;at.js;functions;function
+keywords: mboxDefine;mbox define;mbox define;mboxUpdate;mbox update;mbox update;at.js;functions;function
 description: Information om funktionerna mboxDefine() och mboxUpdate() för JavaScript-biblioteket för Adobe Target at.js.
-title: mboxDefine() och mboxUpdate() - at.js 1.x
+title: Mboxdefine() och MboxUpdate() - at.js 1.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
