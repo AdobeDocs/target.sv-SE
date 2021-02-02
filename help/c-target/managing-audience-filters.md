@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;audience filter;audiences;filter
+keywords: Målgrupper;målgruppsfilter;målgrupper;filter
 description: Målgruppsfilter i Adobe Target (eller målgrupper) är grupper med besökare som delar en viss egenskap eller uppsättning egenskaper.
-title: Målgruppsfilter för rapportering i Adobe Target
-feature: audiences
+title: Målgruppsfilter för rapportering
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
