@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
-description: 'När du har skapat en Recommendations-, A/B Test- eller Experience Targeting-aktivitet (XT) som innehåller Adobe Target Recommendations-erbjudanden måste du förhandsgranska den för att se om det finns några tillgängliga resultat innan du startar aktiviteten. Med Target Recommendations kan du förhandsgranska dina rekommendationer på flera olika sätt. '
-title: 'När du har skapat en Recommendations-, A/B Test- eller Experience Targeting-aktivitet (XT) som innehåller Adobe Target Recommendations-erbjudanden måste du förhandsgranska den för att se om det finns några tillgängliga resultat innan du startar aktiviteten. Med Target Recommendations kan du förhandsgranska dina rekommendationer på flera olika sätt. '
+keywords: Recommendations;erbjudande;förhandsvisa;starta;status;villkor;algoritm
+description: När du har skapat en Recommendations-, A/B Test- eller Experience Targeting-aktivitet (XT) som innehåller Adobe Target Recommendations-erbjudanden måste du förhandsgranska den för att se om det finns några tillgängliga resultat innan du startar aktiviteten. Med Target Recommendations kan du förhandsgranska dina rekommendationer på flera olika sätt.
+title: Förhandsgranska och starta din Recommendations-aktivitet
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
