@@ -1,12 +1,12 @@
 ---
-keywords: Goal & Settings;objective;priority;duration
+keywords: Mål och inställningar;mål;prioritet;varaktighet
 description: Använd Aktivitetsinställningar i Adobe Target för att hantera mål, prioritet och varaktighet för dina aktiviteter.
 title: Aktivitetsinställningar
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
