@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
 description: Välkomstkit för Adobe Target - Kapitel 2 - Ett ögonblick
-title: Välkomstkit för Adobe Target - Kapitel 2 - Ett ögonblick
+title: Välkomstpaket - kapitel 2 - i korthet
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2464'
 ht-degree: 0%
 
 ---
