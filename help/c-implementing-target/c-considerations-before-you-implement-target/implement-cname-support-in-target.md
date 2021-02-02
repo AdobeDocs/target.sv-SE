@@ -1,12 +1,12 @@
 ---
-keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
+keywords: klientvård;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicering;domain control validation;dcv
 description: Information om hur du arbetar med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i Adobe Target.
-title: CNAME och Adobe Target
+title: CNAME
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
