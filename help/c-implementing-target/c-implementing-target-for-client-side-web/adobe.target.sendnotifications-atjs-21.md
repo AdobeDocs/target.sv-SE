@@ -1,12 +1,12 @@
 ---
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
+keywords: adobe.target.sendNotifications;sendNotifications;sendNotifications;send notifications;send notifications;notifications;at.js;functions;function
 description: Information om funktionen adobe.target.sendNotifications(options) för JavaScript-biblioteket för Adobe Target at.js.
-title: adobe.target.sendNotifications(options)
+title: Adobe.Target.Sendnotifications(Options)
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
