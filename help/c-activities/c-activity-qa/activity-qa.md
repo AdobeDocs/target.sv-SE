@@ -4,9 +4,9 @@ description: Använd Adobe Target QA-URL:er för att utföra enkel QA-analys fr�
 title: Aktivitets-QA
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
