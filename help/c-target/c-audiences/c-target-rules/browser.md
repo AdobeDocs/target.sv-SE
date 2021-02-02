@@ -1,12 +1,12 @@
 ---
-keywords: browser options;type;browser type;browser language;language;version;browser version
+keywords: webbläsaralternativ;typ;webbläsartyp;webbläsarspråk;språk;version;webbläsarversion
 description: Du kan skapa målgrupper i Adobe Target för målanvändare som använder en viss webbläsare eller särskilda webbläsaralternativ när de besöker din sida.
-title: Webbläsaralternativ i Adobe Target
-feature: audiences
+title: Webbläsaralternativ - målgrupper
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
