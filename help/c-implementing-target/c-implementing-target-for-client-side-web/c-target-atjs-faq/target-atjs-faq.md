@@ -1,12 +1,12 @@
 ---
-keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
+keywords: at.js faq;at.js Vanliga frågor;faq;flimmer;loader;page loader;cross domain;file size;filesize;x domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip httponly;HTTPOnly;secure;ip;cookie domain
 description: Svar på vanliga frågor om Adobe Target JavaScript-bibliotek at.js.
-title: Adobe Target at.js Frågor och svar
+title: at.js Frågor och svar
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
