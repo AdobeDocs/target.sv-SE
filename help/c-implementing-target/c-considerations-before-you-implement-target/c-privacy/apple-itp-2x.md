@@ -1,12 +1,12 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
+keywords: äpple;ITP;intelligent tracking prevent;experience cloud id;ecid
 description: Information om Adobe Target stöd för Apples ITP 2.x via Experience Cloud ID-biblioteket 4.3.
-title: Stöd för Adobe Target och Apple ITP
+title: Stöd för mål och Apple ITP
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
