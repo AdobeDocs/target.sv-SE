@@ -1,12 +1,12 @@
 ---
-keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side;clientside;client side;hybrid implementation
+keywords: hybriddistribution;hybrid;server-side;server-side;client-side;client-side;client side;client side;hybrid implementation
 description: Adobe Target erbjuder en unik hybriddriftsättningsmodell för personalisering, blandning av implementeringar på både klient- och serversidan.
-title: Hybrid-implementering
-feature: hybrid implementation
+title: Hybridimplementering
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
