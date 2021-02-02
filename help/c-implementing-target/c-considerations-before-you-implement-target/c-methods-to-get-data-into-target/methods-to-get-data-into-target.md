@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
+keywords: implementera;implementera;konfigurera;konfigurera;sidparameter;tomcat;url-kodad;in page profile attribute;mbox parameter;in page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;data provider;data provider
 description: Information om de olika metoder du kan använda för att hämta data till Adobe Target, inklusive sidparametrar, profilattribut på sidan, skriptprofilattribut, DataProvider, API för bulkprofiluppdatering, API för single profile update och kundattribut.
-title: Metoder för att hämta data till Target
+title: Metoder för att hämta data till målet
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1972'
 ht-degree: 0%
 
 ---
