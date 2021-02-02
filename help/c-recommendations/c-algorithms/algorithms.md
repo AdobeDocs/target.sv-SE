@@ -1,12 +1,12 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
+keywords: rekommendationer;rekommendationsaktivitet;kriterier;algoritm;rekommendationsnyckel;anpassad nyckel;branschvertikal;återförsäljning;e-handel;lead generation;b2b;finansiella tjänster;media;publicering
 description: Kriterierna i Adobe Target är regler som avgör vilka produkter eller vilket innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
-title: Kriterier i Adobe Target Recommendations
+title: Kriterier i Recommendations Target
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
