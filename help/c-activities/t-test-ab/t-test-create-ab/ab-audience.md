@@ -1,12 +1,12 @@
 ---
-keywords: audience;select audience;choose audience;Selectors
+keywords: målgrupp;utvalda målgrupper;välj målgrupp;Väljare
 description: Publiken avgör vilka besökare som läggs in i din Adobe Target-aktivitet.
-title: Välj målgrupp
+title: Välj publik
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
