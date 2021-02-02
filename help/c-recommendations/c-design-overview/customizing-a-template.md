@@ -1,12 +1,12 @@
 ---
-keywords: custom design;velocity;decimal;comma;customize design
+keywords: egen design;snabbhet;decimal;komma;anpassa design
 description: Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i Adobe Target Recommendations.
-title: Anpassa en design med Snabb
+title: Anpassa en design snabbt
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
