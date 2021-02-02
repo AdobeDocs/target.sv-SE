@@ -1,12 +1,12 @@
 ---
-keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Information om kända fel i den här versionen av Adobe Target. Innehåller även information om problem som har lösts.
-title: Kända fel och lösta problem i Adobe Target
-feature: known issues
+keywords: kända problem;lösta problem;versionsinformation;fel;problem;korrigeringar
+description: Var kan jag hitta kända problem och lösta problem?
+title: Kända fel och lösta problem
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '4316'
+source-wordcount: '4312'
 ht-degree: 0%
 
 ---
