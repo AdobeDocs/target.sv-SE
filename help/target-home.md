@@ -1,13 +1,13 @@
 ---
-keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
+keywords: Mål;hem;populära ämnen;adobe target;standard;premium;target documentation;adobe target documentation
 title: Adobe Target Guide
-description: Visa startsidan för målguiden.
+description: Var hittar jag Target-dokumentation?
 seo-description: Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna från era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
