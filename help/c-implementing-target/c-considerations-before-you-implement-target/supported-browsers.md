@@ -1,12 +1,12 @@
 ---
-keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
+keywords: Webbläsare;Förutsättningar;Krav;Internet Explorer;chrome;firefox;safari;android;surface
 description: Adobe Target program- och innehållsleverans har testats i en rad olika webbläsare och enheter.
 title: Webbläsare som stöds
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
