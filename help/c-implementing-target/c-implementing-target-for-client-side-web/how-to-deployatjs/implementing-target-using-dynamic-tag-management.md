@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;implementation;tag manager;dtm;at.js;dynamic tag management
+keywords: implementera;implementera;implementera;tagghanterare;dtm;at.js;dynamisk tagghantering
 description: Adobe Dynamic Tag Management (DTM) är tagghanteraren i Adobe.
-title: Implementera mål med dynamisk tagghantering (DTM)
+title: Implementera med dynamisk tagghantering (DTM)
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
