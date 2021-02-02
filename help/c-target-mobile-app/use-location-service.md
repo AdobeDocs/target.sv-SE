@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;location service;adobe experience cloud location service;pois;points of interest;sdk;location
+keywords: mobilapp;mobilappsplats;målmobilapp;mobilmålplatser;platstjänst;adobe experience cloud location service;pois;points;interest;sdk;location
 description: Det här avsnittet innehåller en översikt över hur du använder Adobe Experience Platform Location Service i Adobe Target.
 title: Använd platstjänst
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
