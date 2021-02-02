@@ -1,12 +1,12 @@
 ---
-keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
+keywords: multivalue;attributes;recommendations;multi-value;multivalue;multi-value
 description: Information om hur du arbetar med ett flervärdesfält i Adobe Target Recommendations med hjälp av särskilda flervärdesoperatorer.
-title: Arbeta med attribut med flera värden i Adobe Target Recommendations
+title: Arbeta med flervärdesattribut i Recommendations Target
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
