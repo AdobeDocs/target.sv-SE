@@ -1,12 +1,12 @@
 ---
-keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
+keywords: utbildningsvideor;YouTube;videor;videoutbildning;självstudiekurs;självstudiekurser;video
 description: Se utbildningsvideor som hjälper dig att få ut mesta möjliga av Target Standard och Target Premium.
-title: Utbildningsvideor om Adobe Target Standard och Premium
+title: Utbildningsvideor
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
