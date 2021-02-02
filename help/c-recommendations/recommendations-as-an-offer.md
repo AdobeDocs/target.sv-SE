@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations;offer
+keywords: Recommendations;erbjudande
 description: Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting)
-title: Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting)
+title: Recommendations som erbjudande i A/B-tester (inklusive automatisk fördelning och automatisk målanpassning) och XT-aktiviteter (Experience Targeting)
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
