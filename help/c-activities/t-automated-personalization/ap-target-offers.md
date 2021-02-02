@@ -1,14 +1,14 @@
 ---
-keywords: automated personalization;offers;target;audience;targeting rules;targeting
+keywords: automatiserad personalisering;erbjudanden;mål;målgrupp;målinriktningsregler;målinriktning
 description: I en Automated Personalization-aktivitet kan ni rikta erbjudanden till specifika målgrupper.
-title: Automated Personalization erbjudanden i Adobe Target
+title: 'Automated Personalization-erbjudanden '
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
