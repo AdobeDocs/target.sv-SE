@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
+keywords: Målgruppsanpassning;AP-rapporter;automatiserade personaliseringsrapporter;aktivitetsnivårapport;erbjudandenivårapport;erbjudandedetaljrapport;faq
 description: Hur använder jag Automated Personalization Summary-rapporterna?
-title: Automated Personalization Sammanfattningsrapporter
+title: Automated Personalization - sammanfattningsrapporter
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 24680f707928201b9390c0e71e54fc549c81e165
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
