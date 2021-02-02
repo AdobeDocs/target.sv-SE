@@ -1,12 +1,12 @@
 ---
-keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
+keywords: intäktsökning;intäkt;uppskattad ökning av intäkt;beräkna ökning;uppskattat värde
 description: Använd Adobe Target för att uppskatta den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen.
-title: Uppskattad ökning av intäkter
+title: Uppskatta Lyft i intäkt
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
