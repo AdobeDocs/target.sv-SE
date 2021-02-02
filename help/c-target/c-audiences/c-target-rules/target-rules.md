@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
+keywords: Målgrupper;målkategorier;målförhållanden;målgruppshanterare;anpassade profilparametrar;besökarprofil;anpassade användarparametrar;målregler
 description: Du kan använda en av flera kategorier som mål. Varje kategori fungerar som en flik som gör att du kan skapa målregler (eller grupper) för varje kategori.
 title: Kategorier för målgrupper
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
