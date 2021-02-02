@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
+keywords: frågor och svar;vanliga frågor;analys för mål;a4t;provisionering;provisionering;adobe Experience Cloud
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om etablering av Analytics som rapportkälla för Target (A4T).
 title: Inledande etablering - Vanliga frågor om A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
