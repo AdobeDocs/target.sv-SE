@@ -1,12 +1,12 @@
 ---
-keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
+keywords: implementering av single page application;implementera single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPA
 description: Information om hur du använder Adobe Target at.js 2.x för att implementera Single Page-program (SPA).
-title: Implementering av Single Page-program i Adobe Target
+title: Implementering av enkelsidigt program
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2766'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vye
 
 | Steg | Detaljer |
 | --- | --- |
-| 3 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
+| 1 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett alternativ som gör att fragment för att dölja kan implementeras på sidan. |
 | 3 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
 | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
@@ -208,7 +208,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 
 | Steg | Detaljer |
 | --- | --- |
-| 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
+| 3 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
@@ -282,9 +282,9 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 
 | Steg | Åtgärd | Detaljer |
 | --- | --- | --- |
-| 3 | Läs in VisitorAPI JS | Det här biblioteket ansvarar för att tilldela besökaren ett ECID. Detta ID används senare av andra [!DNL Adobe]-lösningar på webbsidan. |
+| 1 | Läs in VisitorAPI JS | Det här biblioteket ansvarar för att tilldela besökaren ett ECID. Detta ID används senare av andra [!DNL Adobe]-lösningar på webbsidan. |
 | 2 | Load at.js 2.x | at.js 2.x läser in alla nödvändiga API:er som du använder för att implementera [!DNL Target]-begäranden och vyer. |
-| 3 | Kör [!DNL Target]-begäran | Om du har ett datalager rekommenderar vi att du läser in viktiga data som krävs för att skicka till [!DNL Target] innan du kör en [!DNL Target]-begäran. Detta gör att du kan använda `targetPageParams` för att skicka alla data som du vill använda för målinriktning. Du måste se till att du begär execute > pageLoad samt prefetch > views i detta API-anrop. Om du har angett `pageLoadEnabled` och `viewsEnabled` inträffar båda execute > pageLoad och prefetch > views automatiskt med steg 2; I annat fall måste du använda API:t `getOffers()` för att göra denna begäran. |
+| 1 | Kör [!DNL Target]-begäran | Om du har ett datalager rekommenderar vi att du läser in viktiga data som krävs för att skicka till [!DNL Target] innan du kör en [!DNL Target]-begäran. Detta gör att du kan använda `targetPageParams` för att skicka alla data som du vill använda för målinriktning. Du måste se till att du begär execute > pageLoad samt prefetch > views i detta API-anrop. Om du har angett `pageLoadEnabled` och `viewsEnabled` inträffar båda execute > pageLoad och prefetch > views automatiskt med steg 2; I annat fall måste du använda API:t `getOffers()` för att göra denna begäran. |
 | 4 | Ring `triggerView()` | Eftersom [!DNL Target]-begäran som du initierade i steg 3 kan returnera upplevelser för både sidinläsning och vyer, måste du se till att `triggerView()` anropas efter att [!DNL Target]-begäran har returnerats och att erbjudandena har tillämpats på cachen. Du får bara utföra det här steget en gång per vy. |
 | 5 | Anropa sidvyfyren [!DNL Analytics] | Den här beacon skickar det SDID som är kopplat till steg 3 och 4 till [!DNL Analytics] för datasammanfogning. |
 | 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att se till att [!DNL Target]-upplevelser tillämpas på nytt efter att SPA har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att vara säker på att [!DNL Target]-upplevelserna finns kvar i dina SPA. |
@@ -293,7 +293,7 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 
 | Steg | Åtgärd | Detaljer |
 | --- | --- | --- |
-| 1 | Ring `visitor.resetState()` | Detta API säkerställer att SDID genereras om för den nya vyn när den läses in. |
+| 3 | Ring `visitor.resetState()` | Detta API säkerställer att SDID genereras om för den nya vyn när den läses in. |
 | 2 | Uppdatera cache genom att anropa API:t `getOffers()` | Detta är ett valfritt steg att ta om den här vyändringen kan kvalificera den aktuella besökaren för fler [!DNL Target] aktiviteter eller diskvalificera dem från aktiviteter. Nu kan du även välja att skicka ytterligare data till [!DNL Target] för att aktivera ytterligare målinriktningsfunktioner. |
 | 3 | Ring `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target]-begäran och tillämpa erbjudandena på cache innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
 | 4 | Ring `triggerView()` | Om du inte har kört steg 2 kan du utföra det här steget så snart du slutför steg 1. Om du har kört steg 2 och steg 3 bör du hoppa över det här steget. Du får bara utföra det här steget en gång per vy. |
