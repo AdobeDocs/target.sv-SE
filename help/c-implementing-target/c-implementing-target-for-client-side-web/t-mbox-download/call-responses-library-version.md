@@ -1,11 +1,11 @@
 ---
 description: Det sätt på vilket Target gör och svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av besökar-ID:t för Experience Cloud finns och om besökar-ID:t finns.
-title: Målsidesmetoder med mbox.js biblioteksversion
+title: Page Methods by mbox.js Library Version
 feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
