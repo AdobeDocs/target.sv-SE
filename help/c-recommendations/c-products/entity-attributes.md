@@ -1,12 +1,12 @@
 ---
-keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
+keywords: entitet;entitetsattribut;skicka information till Recommendations;beteendedata;dataräknare;definiera relativ URL;visa lagernivå;definiera pris;definiera vinstmarginal;anpassade attribut
 description: Använd entitetsattribut för att skicka produkt- eller innehållsinformation till Adobe Target Recommendations.
 title: Entitetsattribut
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
