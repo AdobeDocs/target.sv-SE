@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit;visitor;partial hit;orphaned;orphan;partial-hit
+keywords: vanliga frågor;vanliga frågor;analys för mål;a4T;inflated;besök;besökare;delvis träffad;överbliven;överbliven;delvis träffad
 description: Det här avsnittet innehåller svar på frågor som ofta ställs om uppblåst besöks- och besökarantal när Analytics används som rapportkälla för Target (A4T).
-title: Uppblåst besök och besökarantal - A4T - vanliga frågor
+title: Inflated Visit and Visitor Count - A4T FAQ
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
