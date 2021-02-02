@@ -1,12 +1,12 @@
 ---
 keywords: a/b;a/a;aa;
 description: Innan du utför ett A/A-test på din webbplats med Adobe Target är det viktigt att du förstår vad ett A/A-test är, varför du kanske vill utföra ett A/A-test, hur länge du ska köra testet och hur resultatet ska tolkas.
-title: A/A-tester
+title: A/A-testning
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
