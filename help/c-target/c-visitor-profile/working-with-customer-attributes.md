@@ -1,12 +1,12 @@
 ---
-keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
+keywords: kundrelationshantering;kundposttjänst;crm;mbox3rdpartyid;kundattribut;målinriktning;csv;crm;adobe experience cloud cloud personer
 description: Information om hur du använder kunddata från CRM-databaser (customer relationship management) för innehåll i Adobe Target med hjälp av kundattribut i tjänsten Adobe Experience Cloud People.
-title: Kundattribut i Adobe Target
-feature: visitor profiles
+title: Kundattribut
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
