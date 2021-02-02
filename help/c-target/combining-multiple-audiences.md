@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
+keywords: målgrupp;målgruppsregler;kombinera målgrupper;exkludering;exkludera;kombinera målgrupper;ad hoc-målgrupper;ad hoc-målgrupper
 description: Kombinera olika målgrupper (inklusive Adobe Experience Cloud-målgrupper och målgrupper) snabbt och enkelt för att skapa ad hoc-målgrupper. Du kan också skapa exkluderingsregler och exkludera målgrupper från en regel.
-title: Kombinera olika målgrupper i Adobe Target
-feature: audiences
+title: Kombinera flera målgrupper
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
