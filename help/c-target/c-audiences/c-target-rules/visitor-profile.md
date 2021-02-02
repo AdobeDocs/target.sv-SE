@@ -1,12 +1,12 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: besökarprofil;målbesökarprofil
 description: Skapa målgrupper i Adobe Target för att inrikta er på besökare som uppfyller specifika profilparametrar.
-title: Alternativ för besökarprofiler i Adobe Target
-feature: audiences
+title: Profilalternativ för besökare i målgrupper
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
