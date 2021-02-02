@@ -1,12 +1,12 @@
 ---
-keywords: implementation;mbox.js;dom manipulation library;target.js;visual experience composer;iframe;angular sites;single page applications;single page app;SPA
+keywords: implementering;mbox.js;domarhanteringsbibliotek;target.js;visual experience comser;iframe;angular sites;single page applications;single page app;SPA
 description: Information som hjälper din tekniska personal att förstå mbox.js-implementeringen och hur den kan påverka din webbplats.
 title: Vad mbox.js gör
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
