@@ -1,12 +1,12 @@
 ---
-keywords: vec;visual experience composer; vec;iframe;extension;browser
+keywords: vec;Visual experience composer; vec;iframe;extension;browser
 description: Information om hur du använder webbläsartillägget Adobe Target Visual Experience Composer (VEC) för att läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-upplevelser.
-title: Hjälptillägg för Adobe Target Visual Experience Composer (VEC)
+title: Hjälptillägg för Visual Experience Composer (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
 1. Klicka på **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Öppna VEC i [!DNL Target].
 1. Om du vill använda tillägget klickar du på ikonen för VEC Helper-webbläsartillägget ( ![VEC Helper icon](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) i webbläsarens verktygsfält när du är i VEC- eller [QA-läget](/help/c-activities/c-activity-qa/activity-qa.md).
-1. (Villkorligt) Om webbsidan ännu inte innehåller JavaScript-biblioteket **[!UICONTROL Inject Target Libraries]**, drar du växlingsknappen &lt;a0/> till&quot;on&quot;-positionen.[!DNL Target]
+1. (Villkorligt) Om webbsidan ännu inte innehåller JavaScript-biblioteket **[!UICONTROL Inject Target Libraries]**, drar du växlingsknappen [!DNL Target] till&quot;on&quot;-positionen.
 
    Följande bild visar VEC Helper med inställningen [!UICONTROL Inject Target Libraries] aktiverad:
 
