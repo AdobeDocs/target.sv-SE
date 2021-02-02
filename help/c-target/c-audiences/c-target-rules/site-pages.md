@@ -1,12 +1,12 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: webbplatssidor;målwebbplatssidor;målsida;aktuell sida;målsida;föregående sida;målsida;startsida;målstartsida;målstartsida;http-rubrik
 description: Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
-title: Alternativ för webbsidor i Adobe Target
-feature: audiences
+title: Alternativ för webbplatssidor i publiker
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
