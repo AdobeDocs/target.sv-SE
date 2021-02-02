@@ -1,12 +1,12 @@
 ---
-keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
+keywords: dynamiska data;resurser;data;erbjudanden;personaliserade erbjudanden;personliga erbjudanden;tokenersättning
 description: Hur skickar jag profilvärden och aktivitetsinformation direkt i ett HTML- eller JSON-erbjudande?
 title: Överför dynamiska data till erbjudanden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
