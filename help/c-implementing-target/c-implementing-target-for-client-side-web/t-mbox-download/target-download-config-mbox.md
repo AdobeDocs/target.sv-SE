@@ -1,12 +1,12 @@
 ---
-keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
+keywords: Implementering;Mbox;mbox.js;download mbox.js;configure mbox.js
 description: I Target Standard och Premium används en modifierad version av filen Adobe Target mbox.js.
 title: Ladda ned mbox.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
