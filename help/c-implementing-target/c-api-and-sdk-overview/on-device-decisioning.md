@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'Enhetsspecifik beslutsfattande ger möjlighet att cachelagra dina Adobe Target A/B- och Experience Targeting-aktiviteter (XT) på servern och utföra minnesbaserad beslutsfattande med nästan ingen fördröjning, utan att blockera nätverksförfrågningar till Adobe Target Edge Network. '
-title: Enhetsbeslut
+keywords: serversida;serversida;sdk;sdk;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
+description: Enhetsspecifik beslutsfattande ger möjlighet att cachelagra dina Adobe Target A/B- och Experience Targeting-aktiviteter (XT) på servern och utföra minnesbaserad beslutsfattande med nästan ingen fördröjning, utan att blockera nätverksförfrågningar till Adobe Target Edge Network.
+title: Beslut på enheten
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
