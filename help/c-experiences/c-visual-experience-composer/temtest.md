@@ -1,12 +1,12 @@
 ---
-keywords: template testing;template;same experience on similar pages;template test
+keywords: malltestning;mall;samma upplevelse på liknande sidor;malltest
 description: Använd en sidmall i Adobe Target för att strukturera sidorna, eller om sidorna innehåller liknande element, för att testa variationer i liknande strukturerade sidelement.
-title: Inkludera samma upplevelse på liknande sidor med Adobe Target
+title: Inkludera samma upplevelse på liknande sidor
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
