@@ -1,12 +1,12 @@
 ---
-keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
+keywords: anpassade händelser;at.js;begäran misslyckades;begäran lyckades;innehållsåtergivningen misslyckades;innehållsåtergivningen lyckades;biblioteket lästes in;begäran startades;återgivning av innehåll startades;återgivning av innehåll misslyckades;omdirigering av innehållsåtergivning
 description: Information om anpassade händelser för Adobe Target JavaScript-bibliotek at.js.
-title: at.js, anpassade händelser
+title: at.js anpassade händelser
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
