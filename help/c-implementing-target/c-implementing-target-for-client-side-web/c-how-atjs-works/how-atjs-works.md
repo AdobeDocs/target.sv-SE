@@ -1,12 +1,12 @@
 ---
-keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
+keywords: systemdiagram;flimmer;at.js;implementation;javascript library;js;atjs
 description: Adobe Target systemdiagram som visar flödet av anrop och information som skickas eller samlas in för en automatiskt skapad global mbox med at.js.
-title: Hur Adobe Target JavaScript-bibliotek fungerar
+title: Hur at.js Javascript Library fungerar
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1111'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.co
 | Steg | Beskrivning | Utlysning | Beskrivning |
 |--- |--- |--- |--- |
 | 3 | Anropet returnerar [!DNL Experience Cloud ID] (MCID) om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext. |
-| 3 | En global mbox-begäran görs med alla konfigurerade parametrar, MCID, SDID och kund-ID (valfritt). | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från [!UICONTROL Audience Library] (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Audience Manager] osv.).<br>Kundattribut skickas till  [!DNL Profile Store] i en gruppbearbetning. |
+| 1 | En global mbox-begäran görs med alla konfigurerade parametrar, MCID, SDID och kund-ID (valfritt). | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från [!UICONTROL Audience Library] (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Audience Manager] osv.).<br>Kundattribut skickas till  [!DNL Profile Store] i en gruppbearbetning. |
 | 5 | Baserat på URL-adressen, mbox-parametrar och profildata avgör [!DNL Target] vilka aktiviteter och upplevelser som ska returneras till besökaren. | 6 | Målinriktat innehåll skickas tillbaka till sidan, och eventuellt även profilvärden för ytterligare personalisering.<br>Upplevelsen visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 7 | [!DNL Analytics] data skickas till datainsamlingsservrar. | 8 | [!DNL Target] data matchas mot  [!DNL Analytics] data via SDID och bearbetas till  [!DNL Analytics]  rapportlagringen.<br>[!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och   [!DNL Target] via  [!DNL Analytics for Target] (A4T)-rapporter. |
 
