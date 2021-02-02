@@ -1,12 +1,12 @@
 ---
-keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
+keywords: analysspårningsserver;A4T;analyssegment;rapportsviter;felaktiga data;överblivna;gjorde;VisitorAPI.js;mboxMCSDID;phantom;ospecificerad
 description: I det här avsnittet beskrivs några vanliga problem som har uppstått när Analytics används som rapportkälla för Target (A4T).
-title: Felsöka integreringen med Analytics och Target (A4T)
+title: Felsöka analys- och målintegrering (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
