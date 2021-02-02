@@ -1,12 +1,12 @@
 ---
-keywords: Administration;approver role;approver
+keywords: Administration;godkännarroll;godkännare
 description: De första stegen som Adobe Target-administratörer bör utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
-title: Administratörssteg
+title: Första steg för administratör
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
