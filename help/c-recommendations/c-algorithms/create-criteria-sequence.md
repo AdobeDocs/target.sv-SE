@@ -1,12 +1,12 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
+keywords: villkorssekvens;flera kriterier;algoritmer;kriterier;rekommendationer-kriterier;sekvens;gränsantal returnerade objekt;platshållarnivåkontroll;plats
 description: Använd sekvenser med upp till fem kriterier för att få bättre kontroll över de objekt som visas i dina Adobe Target Recommendations-aktiviteter.
 title: Skapa villkorssekvenser
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
