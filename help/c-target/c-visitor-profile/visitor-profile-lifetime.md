@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: Översikt och referens
 description: Som standard lagras besöksprofiler i 14 dagar. Profilens livslängd kan förlängas.
-title: Livslängd för besökarprofil
-feature: visitor profiles
+title: Livstid för besökarprofil
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
