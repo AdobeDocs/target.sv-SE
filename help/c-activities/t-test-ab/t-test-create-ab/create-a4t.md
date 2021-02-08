@@ -1,12 +1,12 @@
 ---
 keywords: Riktning;analys;spårningsserver;analys för mål;a4t
-description: Du kan konfigurera en aktivitet i Adobe Target Standard så att Adobe Analytics används som rapportkälla (A4T).
-title: Använda analysdata
+description: Lär dig hur du konfigurerar en aktivitet i Adobe Target att använda Adobe Analytics som rapportkälla. Den här integreringen kallas för Analytics för Target (A4T).
+title: Hur kan jag använda analysdata i Target?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
