@@ -1,12 +1,12 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: Information om hur besökare kan växla mellan upplevelser i en XT-aktivitet (Experience Targeting) allt eftersom deras profiler utvecklas.
-title: Switching Experiences in Experience Targeting
+keywords: prioritet;upplevelseskapa;prioritet;upplevelse;målgrupp;upplevelse;växla upplevelser;kompositör för visuell upplevelse
+description: Läs om hur besökare kan växla mellan upplevelser i en XT-aktivitet (Adobe Target Experience Targeting) när deras profiler utvecklas.
+title: Kan besökare byta upplevelser i en upplevelseinriktad aktivitet?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
