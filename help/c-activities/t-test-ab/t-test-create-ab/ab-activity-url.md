@@ -1,12 +1,12 @@
 ---
 keywords: activity url;url;different url
-description: Aktivitets-URL:en bestämmer vilken sida som används i testet och som öppnas när testet har utformats med Adobe Target.
-title: Aktivitets-URL
+description: Lär dig hur du anger den aktivitets-URL som avgör vilken sida som ska användas i testet och som öppnas när testet har utformats med Adobe Target.
+title: Vad är aktivitets-URL:en i en A/B-aktivitet?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
