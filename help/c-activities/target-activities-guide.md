@@ -1,12 +1,12 @@
 ---
 keywords: aktivitetsguide;aktiviteter;aktivitet;aktivitetstyper;aktivitetsåtgärder
-description: Ladda ned en interaktiv PDF som beskriver de olika aktivitetstyperna i Adobe Target (med undantag för Recommendations).
-title: Typ av aktivitet
+description: Ladda ned en interaktiv PDF som beskriver de olika aktivitetstyperna i Adobe Target.
+title: Vilka aktivitetstyper finns i Target?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
