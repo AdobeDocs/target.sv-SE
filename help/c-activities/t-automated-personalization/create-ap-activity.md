@@ -1,12 +1,12 @@
 ---
 keywords: automatiserad personalisering;ap;målgrupper;ensemble;random forest;rest variance;error variance;livstidsvärde
-description: Arbetsflödet för Automated Personalization-aktiviteter i Adobe Target skiljer sig från arbetsflödet för de andra aktivitetstyperna.
-title: Skapa en Automated Personalization-aktivitet
+description: Lär dig hur du skapar en Automated Personalization-aktivitet (AP) i Adobe Target med Visual Experience Composer (VEC).
+title: Hur skapar jag en Automated Personalization-aktivitet?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
