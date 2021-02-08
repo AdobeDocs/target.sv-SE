@@ -1,12 +1,13 @@
 ---
-keywords: add user;manage user;user permissions
-description: Lägg till användare i Adobe Target och hantera deras behörigheter i Adobe Admin Console.
-title: Användare
+keywords: lägg till användare;hantera användare;användarbehörigheter
+description: Lär dig hur du använder Adobe Admin Console för att hantera användare och deras behörigheter och behörigheter i Adobe Target.
+title: Hur lägger jag till användare och hanterar behörigheter?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
