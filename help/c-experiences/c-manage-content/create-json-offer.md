@@ -1,12 +1,12 @@
 ---
 keywords: fjärrerbjudande;skapa fjärrerbjudande
-description: Hur skapar jag JSON-erbjudanden?
-title: Skapa JSON-erbjudanden
+description: Lär dig hur du skapar JSON-erbjudanden i Adobe Target som kan användas i den formulärbaserade Experience Composer. JSON-erbjudanden är användbara för SPA ramverk eller integreringar på serversidan.
+title: Hur skapar jag JSON-erbjudanden?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
