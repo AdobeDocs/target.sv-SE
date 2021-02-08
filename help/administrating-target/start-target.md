@@ -1,12 +1,13 @@
 ---
 keywords: Administration;godkännarroll;godkännare
-description: De första stegen som Adobe Target-administratörer bör utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
-title: Första steg för administratör
+description: Utför de första uppgifterna som Adobe Target-administratörer ska utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
+title: Var kommer jag igång med att administrera mål?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
