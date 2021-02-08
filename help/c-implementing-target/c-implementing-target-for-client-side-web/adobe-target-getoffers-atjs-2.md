@@ -1,12 +1,13 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
-description: Information om funktionen adobe.target.getOffers(options) för JavaScript-biblioteket i Adobe Target at.js.
-title: Adobe.Target.Getoffers(Options) - at.js 2.x
+description: Använd funktionen adobe.target.getOffers() och dess alternativ för Adobe Target at.js-biblioteket för att utlösa förfrågningar om att få flera Target-erbjudanden. (at.js 2.x)
+title: Hur använder jag funktionen adobe.target.getOffers()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
