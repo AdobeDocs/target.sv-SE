@@ -1,12 +1,12 @@
 ---
 keywords: Versionsinformation
-description: Var hittar jag information om tidigare versioner?
-title: Versionsinformation för tidigare versioner
+description: Se en lista över funktioner, förbättringar och korrigeringar som ingår i tidigare versioner av Adobe Target.
+title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '30185'
+source-wordcount: '30194'
 ht-degree: 0%
 
 ---
