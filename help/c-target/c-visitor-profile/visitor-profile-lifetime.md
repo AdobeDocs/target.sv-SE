@@ -1,12 +1,12 @@
 ---
 keywords: Översikt och referens
-description: Som standard lagras besöksprofiler i 14 dagar. Profilens livslängd kan förlängas.
-title: Livstid för besökarprofil
+description: Läs mer om när en besökarprofil upphör (som standard 14 dagar) i Adobe Target. Du kan förlänga profilens livslängd genom att kontakta Adobe Client Care.
+title: Vad är besökarprofilens livstid och kan jag utöka den?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
