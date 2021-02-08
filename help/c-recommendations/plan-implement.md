@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
-description: Vad du behöver veta innan du skapar en Recommendations-aktivitet.
-title: Planera och implementera Recommendations
+keywords: Recommendations;settings;preferences;industry vertical;filter inkompatibla villkor;default host group;thumb base url;recommendations api token
+description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. Se till att implementeringen uppfyller de nödvändiga kraven. '
+title: Hur genomför jag Recommendations-aktiviteter?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
