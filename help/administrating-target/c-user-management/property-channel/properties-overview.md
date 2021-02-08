@@ -1,12 +1,13 @@
 ---
 keywords: lägg till användare;projekt;användargrupp;egenskaper;arbetsyta;hantera egenskap;at_egenskap;roller;permissions
-description: Lägg till användare i er Adobe Target-implementering; skapa arbetsytor, användargrupper och egenskaper, uppdatera målinsimplementeringen så att den innehåller parametern at_property; och ange roller och behörigheter.
-title: Konfigurera företagsbehörigheter
+description: Lär dig hur du lägger till användare i Adobe Target. skapa arbetsytor, användargrupper och egenskaper, uppdatera implementeringen, och ange roller och behörigheter.
+title: Hur konfigurerar jag Enterprise-behörigheter?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
