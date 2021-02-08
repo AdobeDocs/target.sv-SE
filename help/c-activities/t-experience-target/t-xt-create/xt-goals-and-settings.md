@@ -1,12 +1,12 @@
 ---
 keywords: aktivitetsinställningar;mål och inställningar för målinriktning av upplevelser;mål och inställningar;målinriktning av upplevelser;målinställningar;målmått;framgångsmått;beroende framgångsmått;avancerade inställningar;primära mål;mål;prioritet;varaktighet;rapporteringslösning;mål;målgrupper för rapportering;Vilket framgångsmått måste uppnås innan det här måttet ökas;Vad kommer att hända när en användare påträffar det här målmåttet;noterar
-description: På sidan Mål och inställningar anger du information om målet för testet.
-title: Mål och inställningar
+description: Lär dig hur du använder sidan Mål och inställningar i Adobe Target för att ange information om målen för en Experience Targeting-aktivitet (XT).
+title: Hur anger jag mål och inställningar i en Experience Targeting-aktivitet?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
