@@ -1,12 +1,13 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
-description: Adobe Target har aktiverat processer och inställningar som gör att du kan använda Target i enlighet med gällande datasekretesslagstiftning.
-title: Integritet
+keywords: sekretess;ip-adress;geosegmentering;avanmäl dig;avanmäl dig;avanmäl dig;datasekretess;myndighetsregler;regler;gdpr;ccpa
+description: Läs om hur Adobe Target följer gällande datasekretesslagstiftning, inklusive insamling och hantering av IP-adresser samt anvisningar om avanmälan.
+title: Hur hanterar Target sekretessfrågor?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
