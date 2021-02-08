@@ -1,13 +1,13 @@
 ---
 keywords: tillhörighet;kategoritillhörighet
-description: Med kategoritillhörighetsfunktionen i Adobe Target hämtas automatiskt de kategorier som en användare besöker och sedan beräknas användarens tillhörighet för kategorin så att den kan anpassas och segmenteras. Detta bidrar till att säkerställa att innehållet är riktat till besökare som är mest benägna att agera på den informationen.
-title: Använd kategoritillhörighet
+description: Läs om kategoritillhörighet i Adobe Target som automatiskt fångar in kategorier som en användare besöker och sedan beräknar användarens tillhörighet för kategorin så att den kan anpassas och segmenteras.
+title: Vad är kategoritillhörighet?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
