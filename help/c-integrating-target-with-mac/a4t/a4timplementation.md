@@ -1,12 +1,12 @@
 ---
 keywords: A4T;Adobe Analytics;Analysbaserad aktivitet;Analytics report suite;report suite;Analytics Target integration;configure report suite
-description: Flera steg krävs när Adobe Analytics implementeras som rapportkälla för Target (A4T).
-title: Analyser för målinriktad implementering
+description: Följ stegen som krävs för att implementera Analytics for Target (A4T) i era Adobe Target- och Adobe Analytics-lösningar.
+title: Hur implementerar jag analys för mål (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
