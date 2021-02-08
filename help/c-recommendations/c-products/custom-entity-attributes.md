@@ -1,13 +1,13 @@
 ---
 keywords: entitetsattribut med flera värden;attribut för anpassade entiteter;giltig JSON;entitetsattributvärde;JSON-matris;flervärd;flervärd
-description: Använd anpassade entitetsattribut med ett eller flera värden för att definiera ytterligare information om objekt i din katalog.
-title: Anpassade entitetsattribut
+description: Lär dig hur du använder anpassade entitetsattribut för ett eller flera värden för att definiera ytterligare information om objekt i din Adobe Target Recommendations-katalog.
+title: Hur använder jag anpassade entitetsattribut?
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
