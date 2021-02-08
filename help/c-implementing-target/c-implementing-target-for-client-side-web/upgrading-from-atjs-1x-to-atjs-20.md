@@ -1,12 +1,13 @@
 ---
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross domain
-description: Information om hur du uppgraderar från Adobe Target på .js 1.*x* till at.js version 2.0.0
-title: Uppgradera från at.js Version 1.x till Version 2.x
+description: Lär dig hur du uppgraderar från Adobe Target at.js 1.x till at.js 2.x. Granska systemflödesdiagram, läs om nya och inaktuella funktioner och mycket mer.
+title: Hur uppgraderar jag från at.js version 1.x till version 2.x?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*Visa* med v
 | --- | --- |
 | 3 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett alternativ som gör att fragment för att dölja kan implementeras på sidan. |
-| 1 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
+| 3 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
 | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
 | 5 | Baserat på parametrar för URL-begäran och profildata avgör [!DNL Target] vilka aktiviteter och upplevelser som ska returneras till besökaren för den aktuella sidan och framtida vyer. |
 | 6 | Målinriktat innehåll skickas tillbaka till sidan, eventuellt med profilvärden för ytterligare personalisering.<br>Målinriktat innehåll på den aktuella sidan visas så snabbt som möjligt utan att du behöver flimra standardinnehållet.<br>Målanpassat innehåll för vyer som visas som ett resultat av användaråtgärder i en SPA som cachas i webbläsaren så att det kan tillämpas direkt utan ett extra serveranrop när vyerna aktiveras via  `triggerView()`. |
