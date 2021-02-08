@@ -1,13 +1,14 @@
 ---
 keywords: implementera mål;implementera;implementera at.js;tagghanterare
-description: Information om hur du implementerar Adobe Target utan att använda en tagghanterare (Adobe Launch eller Dynamic Tag Management).
-title: Implementera utan tagghanterare
+description: Lär dig hur du anger inställningar (kontoinformation, implementeringsmetoder osv.) för att implementera Adobe Target at.js-biblioteket utan att använda en tagghanterare.
+title: Kan jag implementera Target utan en tagghanterare?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
