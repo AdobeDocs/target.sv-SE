@@ -1,12 +1,12 @@
 ---
 keywords: Riktning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;auto target report;personalization;insights;automatic segments;faq;Vanliga frågor
-description: Information om rapporten Automated Segments, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och Auto-Target-aktiviteter (AT) i Adobe Target.
-title: Rapport över automatiserade segment
+description: Läs om hur olika segment som definieras av Adobe Target personaliseringsmodeller svarar på erbjudanden/upplevelser i aktiviteten genom att läsa rapporten om automatiserade segment.
+title: Vad är rapporten om automatiserade segment?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
