@@ -1,13 +1,13 @@
 ---
 keywords: upplevelse;kontrollera;automatiserad personalisering;automatisk målanpassning
-description: Välj en upplevelse som ska användas som kontroll när du skapar en Automated Personalization- (AP) eller Auto-Target-aktivitet i Adobe Target.
-title: Använd en specifik upplevelse som kontroll
+description: Lär dig hur du väljer en upplevelse som ska användas som kontroll när du skapar en Automated Personalization- (AP) eller Auto-Target-aktivitet i Adobe Target.
+title: Hur använder jag en specifik upplevelse som kontroll i en AP-aktivitet?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
