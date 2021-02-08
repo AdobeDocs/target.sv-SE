@@ -1,12 +1,13 @@
 ---
 keywords: intäktsökning;intäkt;uppskattad ökning av intäkt;beräkna ökning;uppskattat värde
-description: Använd Adobe Target för att uppskatta den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen.
-title: Uppskatta Lyft i intäkt
+description: Uppskatta den förbättring du kan uppnå om alla besökare ser den vinnande upplevelsen, om trenderna fortsätter som de har under testet.
+title: Vad uppskattar jag Lyft i intäkter?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
