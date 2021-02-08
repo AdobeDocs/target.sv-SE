@@ -1,12 +1,13 @@
 ---
 keywords: orderbekräftelse;orderConfirmPage
-description: I rutan Orderbekräftelse registreras detaljer om beställningar på er webbplats och du kan rapportera baserat på intäkter och order. I rutan Orderbekräftelse kan du också skapa rekommendationsalgoritmer, till exempel"Personer som köpt produkten x har också köpt produkten y".
-title: Skapa en orderbekräftelseruta - mbox.js
+description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
+title: Hur skapar jag en orderbekräftelseruta med mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '374'
 ht-degree: 15%
 
 ---
