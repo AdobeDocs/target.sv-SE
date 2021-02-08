@@ -1,12 +1,12 @@
 ---
 keywords: måldokumentets ändringslogg;dokumentationsuppdateringar;nya ämnen;redigeringar;uppdateringar;uppdatera
-description: Vilka ändringar har gjorts i dokumentationen?
-title: Dokumentationsändringar
+description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Target produktdokumentation.
+title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3476'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 8 februari | [Förhandsvisning av målmobiler](/help/c-target-mobile-app/target-mobile-preview.md) | Kodfragmentet som du ska lägga till i filen AndroidManifest.xml för version 4 av Adobe Mobile SDK har lagts till. |
 | 1 februari | [Automated Personalization Sammanfattningsrapporter](/help/c-reports/reports-ap.md) | Nytt avsnitt har lagts till: &quot;Frågor och svar.&quot; |
 | 27 januari | [Skapa omdirigeringserbjudanden](/help/c-experiences/c-manage-content/offer-redirect.md) | Uppdaterat ämne. |
 |  | [Skapa fjärrerbjudanden](/help/c-experiences/c-manage-content/about-remote-offers.md) | Uppdaterat ämne. |
