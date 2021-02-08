@@ -1,11 +1,12 @@
 ---
-description: Det sätt på vilket Target gör och svarar på samtal från din sida beror på vilken version av målbiblioteket du använder, om implementeringen av besökar-ID:t för Experience Cloud finns och om besökar-ID:t finns.
-title: Page Methods by mbox.js Library Version
+description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
+title: Vilka sidmetoder använder mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
