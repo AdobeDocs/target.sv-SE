@@ -1,12 +1,12 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Adobe Target welcome kit - Kapitel 3 - Utveckla dina idéer om testning och personalisering
-title: Välkomstpaket - kapitel 3 - Utveckla dina test- och personaliseringsidéer
+description: Lär dig sex steg som beskriver en beprövad process för att förbättra dina idéer om testning och personalisering innan du skapar aktiviteter i Adobe Target.
+title: Hur kan jag utveckla mina test- och personaliseringsideer?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
