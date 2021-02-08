@@ -1,12 +1,12 @@
 ---
 keywords: fjärterbjudande;matris för urval av fjärrerbjudanden;cachelagrat innehåll;dynamiskt innehåll;URL-typ
-description: Kan jag använda fjärrerbjudanden för att lagra externt innehåll?
-title: Skapa fjärrerbjudanden
+description: Lär dig hur du använder fjärrerbjudanden i Adobe Target för att lagra externt innehåll (innehåll i ett CMS-system eller andra system). Upptäck varför du kanske vill använda fjärrerbjudanden.
+title: Hur skapar jag fjärrerbjudanden?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
