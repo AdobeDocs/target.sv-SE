@@ -1,12 +1,12 @@
 ---
-keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
-description: Information om förväntade dataavvikelser mellan Target och Adobe Analytics när Analytics inte används som rapportkälla (A4T), vilket eliminerar helt olika datavariationer.
-title: Förväntade datavarianser när A4T inte används
+keywords: dataavvikelser;analys;skillnader;avvikelse;a4t;analys för mål;analys som rapportkälla;avvikelser;avvikelser
+description: Lär dig mer om de förväntade dataavvikelserna mellan Adobe Target och Analytics när du inte använder Analytics for Target (A4T), vilket eliminerar helt olika datavariationer.
+title: Vad är den förväntade datavariansen mellan Analytics och A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
