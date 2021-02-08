@@ -1,12 +1,12 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Använd alternativet Omdirigera till URL i Adobe Target när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
-title: Omdirigera till en URL
+description: Lär dig hur du använder alternativet Omdirigera till URL i Adobe Target när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
+title: Kan jag dirigera om en sida till en annan URL?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
