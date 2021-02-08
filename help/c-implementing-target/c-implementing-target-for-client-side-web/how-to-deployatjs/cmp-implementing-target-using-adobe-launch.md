@@ -1,12 +1,13 @@
 ---
 keywords: implementera;implementera;implementera;adobe launch;starta;etapp;redirect;experience platform launch
-description: Adobe Experience Platform Launch är nästa generation av tagghanteringsplattform från Adobe och är den bästa metoden att implementera Adobe Target. Launch ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser.
-title: Implementera med Adobe Launch
+description: Lär dig hur du implementerar Adobe Target at.js-biblioteket med Adobe Experience Platform Launch, den metod som rekommenderas för att implementera Adobe Target.
+title: Hur implementerar jag Target med Adobe Launch?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
