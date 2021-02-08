@@ -1,12 +1,13 @@
 ---
 keywords: targetPageParamsAll;targetPageparamsall;PageParamsAll;pageparamsall;page params;page parameters;at.js;functions;function
-description: Information om funktionen targetPageParamsAll() för JavaScript-biblioteket för Adobe Target at.js.
-title: targetPageparamsall()
+description: Använd funktionen targetPageParamsAll() för JavaScript-biblioteket för Adobe Target at.js om du vill koppla parametrar till alla rutor utanför begärandekoden.
+title: Hur använder jag funktionen targetPageParamsAll()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
