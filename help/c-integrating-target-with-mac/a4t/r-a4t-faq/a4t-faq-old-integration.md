@@ -1,12 +1,12 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;sitecatalyst;campaign>recept;test&target;integration
-description: Det här avsnittet innehåller svar på frågor som ofta ställs om den gamla integreringen mellan SiteCatalyst och Test&Target och hur Analytics används som rapportkälla för Target (A4T).
-title: Äldre Sitecatalyst till Test&Target-integrering - Vanliga frågor om A4T
+description: Hitta svar på frågor som ofta ställs om den gamla integreringen mellan SiteCatalyst och Test&Target och om att använda Analytics för Target (A4T).
+title: Var kan jag hitta frågor och svar om SiteCatalyst för Test&Target-integrering?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
