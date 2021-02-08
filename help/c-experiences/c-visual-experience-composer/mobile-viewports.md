@@ -1,12 +1,12 @@
 ---
 keywords: responsiv;mobila visningsportar;visningsruta;enheter;mobil;responsiv webbdesign;rwd
-description: Med mobilvisningsrutor kan du förhandsgranska hur dina Adobe Target-aktiviteter visas på skärmar av olika storlek.
-title: Mobila visningsrutor för responsiva upplevelser
+description: Mobila visningsrutor hjälper dig att se hur dina Adobe Target-aktiviteter ser ut på skärmar av olika storlek. Hitta en lista med populära storlekar och upplösningar för visningsrutor.
+title: Hur använder jag mobila visningsrutor för responsiva upplevelser?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
