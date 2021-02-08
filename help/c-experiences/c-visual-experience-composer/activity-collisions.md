@@ -1,12 +1,12 @@
 ---
-keywords: targeting;collisions;conflicts
-description: Fliken Konflikter på sidan Aktivitetsöversikt i Adobe Target visar aktivitetskonflikter på din webbplats.
-title: Aktivitetskollisioner
+keywords: mål;kollisioner;konflikter
+description: Konflikter inträffar när flera aktiviteter har konfigurerats för att leverera innehåll till samma sida. Lär dig hur du undviker kollisioner när du använder Adobe Target.
+title: Hur undviker jag aktivitetskonflikter?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
