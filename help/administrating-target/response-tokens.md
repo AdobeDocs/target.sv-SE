@@ -1,12 +1,13 @@
 ---
 keywords: svarstoken;tokens;plugins;plugin-program;at.js;response
-description: Med svarstoken kan du automatiskt få ut Adobe Target-specifik information (aktivitetsinformation, användarprofilinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale)
-title: Svarstoken
+description: Lär dig hur du använder svarstoken i Adobe Target för att ta fram specifik information som ska användas vid felsökning och integrering med tredjepartssystem (som Clicktale).
+title: Vad är svarstoken och hur använder jag dem?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
