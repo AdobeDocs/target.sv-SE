@@ -1,12 +1,12 @@
 ---
 keywords: Riktning;måloperativsystem;måloperativsystem;måloperativsystem;måloperativsystem;OS;mållinux;linux;målfönster;windows;målMacintosh;macintosh;mac;target mac;win;target win
-description: Du kan rikta in dig på besökare som använder ett visst operativsystem.
-title: Alternativ för operativsystem i målgrupper
+description: Lär dig rikta in dig på besökare som använder ett visst operativsystem (Linux, Macintosh eller Windows).
+title: Kan jag rikta in besökare baserat på operativsystem?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 1%
 
 ---
