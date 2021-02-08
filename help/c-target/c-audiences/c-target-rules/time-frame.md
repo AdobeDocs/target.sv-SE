@@ -1,12 +1,12 @@
 ---
 keywords: tidsram;startdatum;slutdatum;start-/slutdatum;tidsram;målschema;veckoavskiljning;dagavskiljning
-description: Du kan lägga till start-/slutdatum och sluttider för målanvändare som besöker webbplatsen under en viss tidsperiod. Du kan också ange alternativen Vecka och Dag-delning för att skapa återkommande mönster för målgruppsanpassning.
-title: Alternativ för tidsram i publiker
+description: Lär dig hur du använder start- och slutdatum för att rikta in dig på användare som besöker webbplatsen under en viss tidsperiod. Du kan också ange alternativ för Vecka och Dag-delning.
+title: Kan jag rikta in mig på besökare som besöker min webbplats vid särskilda tillfällen?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
