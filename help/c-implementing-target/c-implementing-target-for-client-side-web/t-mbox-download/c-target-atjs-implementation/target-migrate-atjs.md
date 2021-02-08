@@ -1,12 +1,13 @@
 ---
-keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
-description: Att migrera från mbox.js till at.js är en enkel process.
+keywords: Mål;at.js;migrera till at.js;beredskap;revision at.js;integration at.js
+description: Lär dig hur du migrerar till at.js, det nya implementeringsbiblioteket för Adobe Target som är utformat för både vanliga webbimplementeringar och Single Page-program (SPA).
 title: Migrera till at.js från mbox.js
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
