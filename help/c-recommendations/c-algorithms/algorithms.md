@@ -1,12 +1,12 @@
 ---
 keywords: rekommendationer;rekommendationsaktivitet;kriterier;algoritm;rekommendationsnyckel;anpassad nyckel;branschvertikal;återförsäljning;e-handel;lead generation;b2b;finansiella tjänster;media;publicering
-description: Kriterierna i Adobe Target är regler som avgör vilka produkter eller vilket innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
-title: Kriterier i Recommendations Target
+description: Lär dig hur du använder villkor i Adobe Target Recommendations. Kriterier är regler som avgör vilket innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
+title: Hur använder jag villkor i Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
