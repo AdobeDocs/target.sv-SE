@@ -1,12 +1,12 @@
 ---
 keywords: Klicka på spårning;spåra klick;klicka;AppMeasurement
-description: Med Adobe Target kan du spåra klick på element som framgångsmått.
-title: Klicka på Spärra/knip
+description: Läs om hur du i Adobe Target kan spåra klick på olika element som framgångsmått.
+title: Vad är Click Tracking?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
