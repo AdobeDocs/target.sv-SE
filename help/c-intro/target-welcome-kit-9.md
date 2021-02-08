@@ -1,12 +1,12 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Adobe Target welcome kit - Kapitel 9 - Nästa steg och resurser
-title: Välkomstpaket - Kapitel 9 - Nästa steg och resurser
+description: Du har skapat din första aktivitet i Adobe Target. Vad kommer härnäst? Läs den här artikeln om du vill hitta länkar till ytterligare resurser, självstudiekurser och instruktionsvideor.
+title: Var kan jag hitta ytterligare resurser för att använda Target mer effektivt?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
