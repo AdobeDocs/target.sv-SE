@@ -1,12 +1,12 @@
 ---
 keywords: inställningar;prioritet
-description: Adobe Target avgör vilken eller vilka aktiviteter som ska levereras till en sida på olika sätt beroende på vilket Target-gränssnitt och vilken aktivitetsskapande funktion (Visual Experience Composer eller Form Based Composer) du använder.
-title: Prioritet
+description: Lär dig hur Adobe Target avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilket Target-gränssnitt och vilken funktion du använder för att skapa aktiviteter.
+title: Hur tilldelar Target prioritet till olika aktiviteter?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
