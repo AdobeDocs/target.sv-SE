@@ -1,12 +1,12 @@
 ---
 keywords: Målgrupper;målkategorier;målförhållanden;målgruppshanterare;anpassade profilparametrar;besökarprofil;anpassade användarparametrar;målregler
-description: Du kan använda en av flera kategorier som mål. Varje kategori fungerar som en flik som gör att du kan skapa målregler (eller grupper) för varje kategori.
-title: Kategorier för målgrupper
+description: Lär dig hur du använder kategorier (till exempel webbläsare, geo, nätverk, operativsystem, besökarprofil) för att rikta innehåll.
+title: Vilka är kategorierna för målgrupper?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
