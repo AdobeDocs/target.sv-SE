@@ -1,12 +1,13 @@
 ---
 keywords: api;adobe i/o
-description: Information som hjälper dig att använda övergång från Adobe Target äldre API:er till de nya API:erna i Adobe I/O.
-title: Övergång från äldre API:er till Adobe I/O
+description: Lär dig hur du går över från Adobe Target Classic till de nya API:erna i Adobe I/O.
+title: Hur övergår jag från äldre API:er till Adobe I/O?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
