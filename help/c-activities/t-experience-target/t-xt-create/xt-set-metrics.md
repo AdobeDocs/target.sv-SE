@@ -1,12 +1,12 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Använd mätvärden i en XT-aktivitet (Adobe Target Experience Targeting) för att avgöra när ett besök är lyckat.
-title: Ange mått
+keywords: målinriktning för upplevelsen;xt;metrics;set metrics;target metric;activity settings;success metric;conversion;revenue;engagement
+description: Lär dig hur du anger mätvärden i en Adobe Target Experience Targeting-aktivitet för att avgöra när ett besök lyckas, till exempel konvertering, intäkter och engagemang.
+title: Hur ställer jag in målvärden i en upplevelseinriktad aktivitet?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
