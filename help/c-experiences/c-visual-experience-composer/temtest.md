@@ -1,12 +1,12 @@
 ---
 keywords: malltestning;mall;samma upplevelse på liknande sidor;malltest
-description: Använd en sidmall i Adobe Target för att strukturera sidorna, eller om sidorna innehåller liknande element, för att testa variationer i liknande strukturerade sidelement.
-title: Inkludera samma upplevelse på liknande sidor
+description: Lär dig hur du använder Adobe Target Visual Experience Composer (VEC) för att inkludera samma upplevelse på flera sidor som är strukturerade på liknande sätt eller innehåller samma mallelement.
+title: Kan jag inkludera samma upplevelse på liknande sidor?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
