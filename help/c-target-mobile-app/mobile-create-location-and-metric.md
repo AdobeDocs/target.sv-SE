@@ -1,12 +1,13 @@
 ---
 keywords: mobilapp;mobilappsplats;målmobilapp;målmobilmålplatser;mobilappens framgångsmått
-description: Om du vill använda Target i din mobilapp skapar du en plats och ett framgångsmått.
-title: IOS - Skapa en målplats och framgångsmått
+description: Visa exempelkod för att lära dig hur du skapar platser och framgångsmått i iOS-appar så att du kan använda Adobe Target för att anpassa och optimera din app.
+title: Hur skapar jag målplatser och Success Metrics i en iOS-app?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
