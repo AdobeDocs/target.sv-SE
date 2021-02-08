@@ -1,12 +1,13 @@
 ---
 keywords: implementera;at.js;javascript-bibliotek
-description: Information om hur du distribuerar Adobe Target JavaScript-biblioteket, at.js, med Adobe Launch, utan en tagghanterare eller med hjälp av Adobe Dynamic Tag Management (DTM).
-title: Så här distribuerar du at.js
+description: Lär dig hur du distribuerar JavaScript-biblioteket Adobe Target at.js med Adobe Experience Platform Launch eller utan en tagghanterare.
+title: Hur distribuerar jag på .js?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
