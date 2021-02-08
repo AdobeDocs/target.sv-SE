@@ -1,12 +1,12 @@
 ---
-keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: Information om sidan Modifications i Adobe Target som gör att du kan visa ändringar på sidan och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
-title: Ändringar
+keywords: css-väljare;egen kod;kodredigerare;Mobile Web Experience Editor
+description: Lär dig hur du använder panelen Ändringar i Adobe Target för att visa sidändringar och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
+title: Vilka ändringar kan jag göra på min sida?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
