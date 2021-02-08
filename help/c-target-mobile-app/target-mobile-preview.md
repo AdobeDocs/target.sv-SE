@@ -1,12 +1,13 @@
 ---
 keywords: qa;preview;preview link;mobile;mobile preview
-description: Använd länken för förhandsgranskning av mobilmaterial för att enkelt skapa heltäckande QA för mobilappsaktiviteter och registrera dig för olika upplevelser direkt på din enhet utan några särskilda testenheter.
-title: Använda Mobile Preview Link i Target Mobile
+description: Använd länkar för förhandsgranskning av mobiler för att utföra QA-åtgärder från början till slut för mobilappsaktiviteter. Ni kan registrera er för olika upplevelser utan särskilda testenheter.
+title: Hur använder jag Mobile Preview Link i Target Mobile?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -76,10 +77,16 @@ Med funktionen för mobilförhandsgranskning kan du testa mobilappsaktiviteterna
      }
    ```
 
-   Om du vill att Mobile Preview ska fungera för Android måste du även lägga till följande kodfragment i [!DNL AndroidManifest.xml]:
+   Om du vill att Mobile Preview ska fungera för Android måste du även lägga till följande kodfragment i [!DNL AndroidManifest.xml] om du använder version 5 av Adobe Mobile SDK:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   Om du använder version 4 av Adobe Mobile SDK använder du följande kodfragment:
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## Genererar en förhandsgranskningslänk {#section_D9D58173FFF34E9BB75EBF357273F128}
