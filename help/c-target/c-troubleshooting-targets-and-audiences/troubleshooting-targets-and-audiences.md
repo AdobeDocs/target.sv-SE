@@ -1,12 +1,12 @@
 ---
 keywords: felsökning;vanliga frågor;vanliga frågor;Vanliga frågor;Vanliga frågor;mål;målgrupper
-description: Lista med vanliga frågor och svar om upplevelseanpassning och målgrupper.
-title: Mål och målgrupper Frågor och svar
+description: Se vanliga frågor och svar om målgruppsanpassning och målgrupper som används i Adobe Target-aktiviteter.
+title: Var kan jag hitta frågor och svar om mål och målgrupper?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '950'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Exempel:
 | Värde | Målvillkor | Resultat |
 | --- | --- | --- |
 | 1.0 | är lika med 1 | true |
-| 3 | equalsIgnoreCase 1.0 | true |
+| 1 | equalsIgnoreCase 1.0 | true |
 | 1,230 | är lika med 1 | true |
 | 1 500 | är lika med 1,5 | true |
 | 1 200 | är mindre än 2 | true |
