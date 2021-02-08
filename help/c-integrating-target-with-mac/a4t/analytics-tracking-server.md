@@ -1,12 +1,12 @@
 ---
 keywords: analysspårningsserver;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;Reporting source;developtools
-description: Om du använder en äldre version av at.js eller mbox.js måste du ange en analysspårningsserver för aktiviteter som använder Analytics för Target (A4T).
-title: Använda en analysspårningsserver
+description: 'Lär dig hur du anger en Analytics-spårningsserver för aktiviteter som använder Analytics för Target (A4T) om du använder en äldre version av at.js eller mbox.js. '
+title: Hur använder jag en Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
