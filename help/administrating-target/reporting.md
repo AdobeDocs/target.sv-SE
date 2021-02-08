@@ -1,12 +1,13 @@
 ---
 keywords: rapport;rapporter;rapportering;Experience cloud solution;tidszon;tidszon;valuta;exkludera IPs;beräknad ökning av intäkter;ökning av intäkter;finkorniga prioriteringar;finkornig
-description: Konfigurera allmänna inställningar som ska användas i Adobe Target-rapporter för hela Target-kontot. Du kan konfigurera Adobe Experience Cloud-lösningen så att den används för rapportering (mål eller analys), tidszon och valutaformat för rapportering, IP-adresser som ska uteslutas från rapportering och om den beräknade ökningen av intäkter och finjusterade prioriteringar ska visas vid rapportering.
-title: Konfigurera rapportering
+description: Använd Target eller Adobe Analytics som rapportkälla, ange standardtidszon och standardvalutaformat, lägg till IP-adresser som ska uteslutas från rapportering och mycket annat.
+title: Hur konfigurerar jag rapportering i Target?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
