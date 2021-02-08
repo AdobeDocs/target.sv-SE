@@ -1,12 +1,12 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Adobe Target welcome kit - Kapitel 5 - Inspiration for testing and personalization activity
-title: Välkomstpaket - kapitel 5 - Inspiration for Testing and Personalization activity
+description: Var kan jag hitta idéer och inspiration för mina testnings- och personaliseringsaktiviteter med Adobe Target.
+title: Var kan jag hitta inspiration till mina test- och personaliseringssatsningar?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Kanske bara ändra i vilken ordning kunderna ska välja när de vill agera. Om d
 
 Om ert företag spenderar resurser på att utveckla en mobilapp för iOS, Android eller andra enheter behöver ni inte bara luta er tillbaka och hoppas att användarna kommer att snubbla över er app i appbutiken. Istället har ni en bra strategi för hur ni ska marknadsföra den. Testa olika metoder för att driva appnedladdningar och -användning. Om din icke-mobila webbplats har en länk för att hämta din app kan du testa hur effektiv en interstitiell landningssida är som uttryckligen befordrar din app när besökarna kommer till din hemsida. Konfigurera ett omdirigeringstest som filtrerar halva mobiltrafiken till den aktuella webbplatssidan och den andra halvan till den interstitiella landningssidan.
 
-## Idea 9: använda innovationer i mobilappar.
+## Idea 9: Använd innovationer i mobilappar.
 
 Utforska andra aspekter av smarttelefonen än geolokalisering, som accelerometern eller gyroskopet. Du kan till exempel testa en upplevelse som använder accelerometern för att lägga till en artikel som visas i en kundvagn genom att skaka telefonen. Du kan till och med testa det för användare av olika typer av enheter, som iOS och Android, för att se om deras respons skiljer sig åt. Tack vare sådana tester kan ni upptäcka nya besökares beteenden och överväga att använda dem i framtida tester.
 
