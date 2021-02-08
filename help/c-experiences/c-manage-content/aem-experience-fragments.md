@@ -1,12 +1,12 @@
 ---
 keywords: upplevelse;json;aem;adobe experience manager;export till adobe target;experience fragments;fragments;XF
-description: Hur kan jag använda AEM upplevelsefragment i Target-aktiviteter?
-title: Adobe Experience Manager (AEM) Experience Fragments
+description: Lär dig använda AEM upplevelsefragment i Adobe Target-aktiviteter. Kombinera enkelheten och kraften i AEM med kraftfulla AI- och ML-funktioner i Target.
+title: Hur använder jag Adobe Experience Manager (AEM) Experience Fragments?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
