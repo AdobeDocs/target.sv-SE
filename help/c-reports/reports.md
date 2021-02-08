@@ -1,12 +1,12 @@
 ---
-keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: Rapporterna innehåller information om hur Adobe Target fungerar
-title: Rapporter
+keywords: rapporter;blockera IP-adress;blockera besökare från IP-adress;hämtningsrapporter;csv;rapportering
+description: Lär dig hur du använder rapportfunktionerna i Adobe Target för att undersöka hur dina aktiviteter fungerar. Fatta bättre beslut baserat på era data för att öka avkastningen.
+title: Hur visar jag rapporter?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
