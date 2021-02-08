@@ -1,12 +1,13 @@
 ---
 keywords: molninstanser;offentlig suffixlista;offentligt suffix;cookie;förstapartscookie;förstapartscookie;förstapartscookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: Information om problem som kunderna ställs inför när de använder molnbaserade instanser för att testa Adobe Target.
-title: Använd molnbaserade instanser
+description: Utforska problem (med lösningar) som kunder ställs inför när de använder molnbaserade instanser för att testa Adobe Target eller för koncepttestkorrektur.
+title: Kan jag använda Target med molnbaserade instanser?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
