@@ -1,12 +1,13 @@
 ---
 keywords: lägg till användare;hantera användare;användarbehörigheter
-description: Hantera användare i Adobe Target Standard och Enterprise Properties and Permissions i Adobe Target Premium.
-title: Användarhantering
+description: Lär dig hur du hanterar användare i Adobe Target Standard och hanterar Enterprise-egenskaper och behörigheter i Adobe Target Premium.
+title: Hur konfigurerar jag användarhantering?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
