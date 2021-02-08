@@ -1,12 +1,13 @@
 ---
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
-description: Information om förändringar i hur Adobe och Target använder TLS (Transport Layer Security) för att upprätthålla högsta säkerhetsstandard och främja säkerheten för kunddata.
-title: Krypteringsändringar för TLS (Transport Layer Security)
+description: Läs om hur Target använder TLS-protokollet (Transport Layer Security) för att upprätthålla högsta säkerhetsstandarder och främja säkerheten för era kunddata.
+title: Hur använder Target TLS för att erbjuda säkerhet?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
