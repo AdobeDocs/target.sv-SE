@@ -1,12 +1,13 @@
 ---
 keywords: implementering;mbox.js;domarhanteringsbibliotek;target.js;visual experience comser;iframe;angular sites;single page applications;single page app;SPA
-description: Information som hjälper din tekniska personal att förstå mbox.js-implementeringen och hur den kan påverka din webbplats.
-title: Vad mbox.js gör
+description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
+title: Vad gör Target mbox.js Library?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
