@@ -1,12 +1,12 @@
 ---
 keywords: frågor och svar;vanliga frågor;analyser för mål;a4T;rapport;rapporter;visa rapporter;rapportera;inventeringsmetod;visningar;besökare;besök;standardmått;aktivitetskonverteringar;ospecificerad
-description: Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rapporter när Analytics används som rapportkälla för Target (A4T).
-title: Visa rapporter - A4T FAQ
+description: Hitta svar på frågor som ofta ställs om att visa rapporter när du använder Analytics for Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
+title: Hitta svar på frågor om att visa rapporter med A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2341'
 ht-degree: 1%
 
 ---
@@ -95,22 +95,22 @@ Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter in
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren visar också fem sidor. Eftersom aktiviteten XYZ fortfarande följer användaren genom persistence, och den här användaren sedan har ABC inställt, visas två radartiklar i rapporten:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 1 |
+| ABC | 3 | 5 | 3 | 3 |
 
 Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så vi kommer att se det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 3 | 20 | 4 | 1 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 3 |
-| Totalt | 2 | 20 | 3 | 3 | 3 |
+| ABC | 3 | 10 | 2 | 3 | 1 |
+| Totalt | 2 | 20 | 1 | 1 | 3 |
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Ni jämför resultaten av två objekt i en enda aktivitet, och det är inte möjligt för en användare att se olika upplevelser i samma aktivitet så att ni inte behöver bekymra er om korskontaminering av orderkrediter.
 
