@@ -1,12 +1,12 @@
 ---
 keywords: Målgruppsanpassning;upplevelse;lägg till upplevelse;lägg till upplevelse
-description: Adobe Target Visual Experience Composer (VEC) i Adobe Target är ett visuellt gränssnitt där du kan redigera upplevelserna på din sida.
-title: Lägg till upplevelse
+description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target. VEC ger ett visuellt gränssnitt för att lägga till och redigera upplevelser på din sida.
+title: Hur lägger jag till upplevelser i en A/B-målaktivitet?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
