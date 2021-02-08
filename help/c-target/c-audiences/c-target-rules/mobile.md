@@ -1,12 +1,12 @@
 ---
 keywords: mål;mobil;målmobil;målmobil;enhet;iphone;iphone models;device atlas;displaywidth;display width;display height;device;displayheight;phone;tablet;device model
-description: Skapa målgrupper i Adobe Target för att inrikta er på mobila enheter baserat på parametrar som mobilenhet, typ av enhet, enhetsleverantör, skärmdimensioner (i pixlar) med mera.
-title: Mobilalternativ i Publiker
+description: Lär dig hur du skapar målgrupper i Adobe Target för mobila enheter baserat på parametrar som mobilenhet, typ av enhet, enhetsleverantör, skärmdimensioner (i pixlar) och mycket annat.
+title: Kan jag rikta in besökarna baserat på mobilalternativ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
