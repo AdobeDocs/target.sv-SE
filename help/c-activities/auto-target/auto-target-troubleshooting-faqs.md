@@ -1,12 +1,12 @@
 ---
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning;trafik
-description: Felsökning och vanliga frågor om Automatiskt mål i Adobe Target.
-title: Automatisk målsökning och vanliga frågor
+description: Utforska felsökningsämnen och vanliga frågor och svar om Automatisk Target-aktiviteter i Adobe Target.
+title: Hur felsöker jag Automatiskt inriktade aktiviteter?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
