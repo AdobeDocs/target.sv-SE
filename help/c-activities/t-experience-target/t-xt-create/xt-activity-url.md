@@ -1,12 +1,12 @@
 ---
 keywords: Experience Targeting;xt;activity url;url
-description: Aktivitets-URL:en bestämmer vilken sida som används i Adobe Target Experience Targeting-aktiviteten och som öppnas i Visual Experience Composer (VEC) eller Form-Based Experience Composer när aktiviteten har designats.
-title: Aktivitets-URL
+description: Lär dig hur du anger den aktivitets-URL som avgör vilken sida som ska användas i testet och som öppnas när Experience Targeting-aktiviteten har utformats med Adobe Target.
+title: Vilken är aktivitets-URL:en i en Experience Targeting-aktivitet (XT)?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
