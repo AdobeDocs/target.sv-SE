@@ -1,12 +1,12 @@
 ---
 keywords: egen design;snabbhet;decimal;komma;anpassa design
-description: Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i Adobe Target Recommendations.
-title: Anpassa en design snabbt
+description: Lär dig använda designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i Adobe Target Recommendations.
+title: Hur anpassar jag en design snabbt?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
