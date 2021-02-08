@@ -1,12 +1,12 @@
 ---
-keywords: Multivariate Tests;troubleshoot;troubleshooting;mvt
-description: Det här avsnittet innehåller förslag på hur du löser vissa problem som kan uppstå när du utformar ett MVT-test i Adobe Target.
-title: Felsöka multivariata tester
+keywords: Multivariata tester;felsökning;felsökning;mvt
+description: Utforska eventuella utmaningar som du kan ställas inför när du använder multivariata testaktiviteter i Adobe Target, tillsammans med förslag på lösningar.
+title: Hur felsöker jag multivariata tester?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
