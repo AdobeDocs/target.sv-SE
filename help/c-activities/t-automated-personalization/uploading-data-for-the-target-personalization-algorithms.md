@@ -1,12 +1,12 @@
 ---
 keywords: Automated Personalization;ap;upload data;offline data;personaliseringsalgoritm;auto target;auto target;best practices
-description: Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller i Adobe Target Automated Personalization-aktiviteter (AP).
-title: Överför data för personaliseringsalgoritmer
+description: Lär dig hur du överför offlinedata, t.ex. CRM-information, när du skapar personaliseringsmodeller i Adobe Target Automated Personalization-aktiviteter (AP).
+title: Hur överför jag data för personaliseringsalgoritmer?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
