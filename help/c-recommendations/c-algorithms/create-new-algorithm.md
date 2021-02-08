@@ -1,12 +1,12 @@
 ---
 keywords: villkor;algoritm;branschvertikal;sidtyp;rekommendationsnyckel;rekommendationslogik;logik;dataintervall;beteendedatakälla;partiell design;säkerhetskopieringsrekommendationer;inkluderingsregler;attributvikt;aktuell kategori;anpassat attribut;senast inköpt objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade;senast visade;favoriter;senast visade
-description: Kriterierna styr innehållet i dina Adobe Recommendations-aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet.
-title: Skapa villkor
+description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Recommendations-aktiviteter för att visa de rekommendationer som är mest lämpliga för din aktivitet.
+title: Hur skapar jag kriterier i Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2352'
+source-wordcount: '2360'
 ht-degree: 0%
 
 ---
