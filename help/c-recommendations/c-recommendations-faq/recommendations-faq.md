@@ -1,12 +1,12 @@
 ---
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;rekommendationer;specialtecken;attributvikt;innehållets likhet
-description: Lista med vanliga frågor och svar om Adobe Target Recommendations-aktiviteter.
-title: Vanliga frågor om Recommendations
+description: Se en lista med vanliga frågor och svar om Adobe Target Recommendations.
+title: Var hittar jag frågor och svar om Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
