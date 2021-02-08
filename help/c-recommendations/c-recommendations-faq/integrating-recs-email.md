@@ -1,12 +1,12 @@
 ---
 keywords: e-post;ESP;e-postleverantör;rawbox;delivery API;download only template;email template;batch processing;build-time email
-description: Information om hur man integrerar e-post med Recommendations.
-title: Integrera Recommendations med e-post
+description: Lär dig hur du integrerar e-post med Adobe Target Recommendations, bland annat med Target Delivery API, rawbox-mallar och nedladdningsbara mallar.
+title: Hur integrerar jag Recommendations med e-post?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | Parameter | Värde | Beskrivning | Validering |
 |--- |--- |--- |--- |
 | `mboxPC`<br>(Valfritt) | *mboxPCId* | Målbesökar-ID. Använd det här värdet om du vill spåra en användares fullständiga cirkel tillbaka till webbplatsen vid flera besök eller när du använder en användarprofilsparameter.<br>Detta värde måste vara det faktiska Adobe Target PCID för användaren, som skulle exporteras från webbplatsen till din CRM. E-postleverantören hämtar detta ID från CRM eller Data warehouse och använder det som värde för den här parametern.<br>Värdet  `mboxPC` är också användbart för att spåra besökares webbplatsbeteende vid flera besök för mätspårning när en rekommendation ingår i en A/B-aktivitet.<br>**Obs**: Var noga med att ange ett unikt värde  `mboxSession` och  `mboxPC` för varje e-postmottagare (dvs. för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svaret ta lång tid eller misslyckas på grund av det stora antalet händelser som genereras i en enskild profil. | 1 &lt; Längd &lt; 128<br>Får inte innehålla mer än en enskild &quot;.&quot; (punkt).<br>Den enda tillåtna punkten är för profilplatsens suffix. |
-| `mboxNoRedirect`<br>(Valfritt) | 1 | Som standard dirigeras anroparen om när inget slutbart innehåll hittas. Används för att inaktivera standardbeteendet. |  |
+| `mboxNoRedirect`<br>(Valfritt) | 3 | Som standard dirigeras anroparen om när inget slutbart innehåll hittas. Används för att inaktivera standardbeteendet. |  |
 | `mbox3rdPartyId` | *xxx* | Använd det här alternativet om du har ett eget besökar-ID som du kan använda för att målinrikta profiler. |  |
 
 ### Potentiella målserversvar
