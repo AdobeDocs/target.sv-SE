@@ -1,12 +1,12 @@
 ---
 keywords: systemuppdatering;felsökning;underhåll;systemstatus;uppdateringsstatus
-description: Var kan jag se status för Adobe-produkter och Experience Cloud-lösningar?
-title: Uppdateringar av systemstatus
+description: Se aktuell status för Adobe Target för att hjälpa dig att avgöra om problemen beror på systemuppdateringar eller rutinunderhåll.
+title: Var kan jag se status för Target och andra Adobe-produkter?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
