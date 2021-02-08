@@ -1,12 +1,13 @@
 ---
 keywords: mbox-funktioner
-description: Lista med mbox.js-funktioner som ska användas vid implementering med mbox.js.
-title: mbox.js Funktioner
+description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
+title: Vilka funktioner stöder mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
