@@ -1,12 +1,12 @@
 ---
 keywords: Målinriktning;målbibliotek;bibliotek
-description: Rikta användarna baserat på färdiga målinriktningsregler.
-title: Alternativ för målbibliotek i målgrupper
+description: Läs om målgruppsanpassning för besökare med färdiga, gamla målgrupper. Det bästa sättet är att använda de nyare målgruppskategorierna för bättre prestanda.
+title: Kan jag inrikta mig på besökare baserat på färdiga målgruppsregler?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
