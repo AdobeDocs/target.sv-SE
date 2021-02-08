@@ -1,12 +1,12 @@
 ---
 keywords: rekommendationsdesign;skapa design;kopiera design
-description: En design definierar hur rekommendationer visas på en sida.
-title: Skapa en design
+description: Lär dig hur du skapar en Adobe Target Recommendations-design med en standarddesign eller genom att skapa en anpassad design som passar sidans layout.
+title: Hur skapar jag en design i Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
