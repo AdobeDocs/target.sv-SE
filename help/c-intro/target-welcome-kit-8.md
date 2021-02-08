@@ -1,12 +1,12 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Adobe Target välkomstkit - Kapitel 8 - Kommunicera dina aktivitetsresultat
-title: Välkomstpaket - kapitel 8 - kommunicera dina aktivitetsresultat
+description: Använd mallen Sammanfattningsresultat för att kommunicera dina framgångar med dina Adobe Target-aktiviteter.
+title: Hur delar jag resultaten av Mina målaktiviteter med Min organisation?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
