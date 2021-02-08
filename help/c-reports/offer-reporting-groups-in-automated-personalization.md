@@ -1,12 +1,12 @@
 ---
 keywords: automatiserad personalisering;erbjudande;rapportering;grupp;rapporteringsgrupp
-description: Information om hur du använder rapportgrupper i Automated Personalization-aktiviteter (AP) i Adobe Target.
-title: Erbjud rapportgrupper i Automated Personalization-aktiviteter (AP)
+description: Lär dig hur du använder rapporteringsgrupper i Adobe Target Automated Personalization-aktiviteter. Med rapportgrupper skapar Target bara en personaliseringsmodell för varje rapporteringsgrupp.
+title: Kan jag använda rapporteringsgrupper i Automated Personalization-aktiviteter?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
