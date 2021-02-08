@@ -1,12 +1,12 @@
 ---
-keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Hur hanterar jag erbjudanden om kod och bilder?
-title: Erbjudanden
+keywords: innehåll;resurser;hantera innehåll;erbjudanden;hantera resurser;ange markeringsläge;markeringsläge
+description: Lär dig hantera kod- och bilderbjudanden med hjälp av Erbjudandebiblioteket i Adobe Target.
+title: Hur hanterar jag erbjudanden för kod och bilder?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
