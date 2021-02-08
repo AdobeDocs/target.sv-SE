@@ -1,12 +1,13 @@
 ---
 keywords: mobilapp;mobilappsprocess;målmobilapp;målmobilmålplatser;mått för mobilappens framgång
-description: Target kan användas för mobilappsoptimering och -personalisering
-title: Mål för mobilappar
+description: Lär dig hur du använder Adobe Target för mobilappsoptimering och -personalisering, med iterativ testning och regelbaserad och AI-driven personalisering.
+title: Kan jag använda Target med mobilappar?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
