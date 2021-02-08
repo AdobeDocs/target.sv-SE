@@ -1,12 +1,12 @@
 ---
 keywords: sammanfattning
-description: Testsammanfattningen ger en visuell översikt över ditt Adobe Target Multivariate-test.
-title: Testsammanfattning
+description: Se en översikt över MVT-aktiviteten (Multivariate Test) som ger en visuell översikt över MVT-aktiviteten i Adobe Target.
+title: Hur visar jag sammanfattningen av en multivariat-aktivitet (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
