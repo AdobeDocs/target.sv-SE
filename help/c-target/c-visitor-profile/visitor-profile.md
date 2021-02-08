@@ -1,12 +1,12 @@
 ---
 keywords: Översikt och referens
-description: Besöksprofiler innehåller information om hur besökarna använder dina sidor och andra optimerade platser för innehåll
-title: Besökarprofiler
+description: Läs mer om besöksprofiler som innehåller information om hur besökarna använder era sidor och andra optimerade innehållsplatser.
+title: Vad är besökarprofiler?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
