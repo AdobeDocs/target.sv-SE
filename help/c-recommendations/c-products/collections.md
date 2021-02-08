@@ -1,12 +1,12 @@
 ---
 keywords: samling;Riktning
-description: En samling är en uppsättning produkter eller artiklar i Adobe Target som är berättigade till en rekommendation.
-title: Samlingar
+description: Lär dig hur du använder samlingar i Adobe Target Recommendations. En samling är en uppsättning produkter eller artiklar som är berättigade till en rekommendation.
+title: Hur använder jag samlingar i Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
