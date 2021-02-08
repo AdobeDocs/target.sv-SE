@@ -1,12 +1,12 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Välkomstpaket från Adobe Target.
-title: Välkomstpaket
+description: Har du inte använt Adobe Target tidigare? Kom snabbt igång med Adobe Target Welcome Kit.
+title: Hur kommer jag igång med Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
