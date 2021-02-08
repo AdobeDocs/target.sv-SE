@@ -1,12 +1,13 @@
 ---
-keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
-description: Det finns vissa skillnader mellan at.js och mbox.js. I det här avsnittet beskrivs några skillnader och begränsningar som hjälper dig att lyckas med at.js.
-title: at.js Begränsningar
+keywords: begränsningar för visuell upplevelsedisposition;webbläsarstöd;integreringar;plugin-program;asynkrona överväganden
+description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
+title: Vad är skillnaden mellan at.js och mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
