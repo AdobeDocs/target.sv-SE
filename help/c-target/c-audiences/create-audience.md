@@ -1,12 +1,12 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;skapa målgrupp
-description: Du kan skapa anpassade målgrupper och spara dem i målbiblioteket för att använda dem i dina aktiviteter. Ni kan kopiera en befintlig målgrupp som ni sedan kan redigera för att skapa en liknande målgrupp och kombinera flera målgrupper.
-title: Bygg målgrupper
+description: Lär dig hur du skapar anpassade målgrupper och sparar dem i Adobe Target Audiences-biblioteket för användning i dina aktiviteter.
+title: Hur skapar jag målgrupper?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
