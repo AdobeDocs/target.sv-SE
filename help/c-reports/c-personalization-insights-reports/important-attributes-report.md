@@ -1,12 +1,12 @@
 ---
 keywords: Målgruppsanpassning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;personalization;insights;faq;Vanliga frågor;viktiga attribut
-description: Information om rapporten Viktiga attribut, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och AutoTarget-aktiviteter (AT).
-title: Viktiga attributrapporter
+description: Lär dig hur du använder rapporten Viktiga attribut i Adobe Target som visar de viktigaste attributen som påverkade personaliseringsmodellen och deras relativa betydelse.
+title: Vilken är den viktiga attributrapporten?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
