@@ -1,12 +1,12 @@
 ---
 keywords: Översikt och referens;agera
-description: Hur förstår jag och använder Target?
-title: Viktiga begrepp
+description: Lär dig grunderna i Adobe Target. Det här är en bra plats att bekanta sig med Target, dess aktivitetstyper och andra funktioner.
+title: Hur använder jag Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1525'
 ht-degree: 2%
 
 ---
