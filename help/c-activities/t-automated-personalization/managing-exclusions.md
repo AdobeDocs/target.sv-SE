@@ -1,13 +1,13 @@
 ---
 keywords: deduplicera;tillåta dubbletter;exkludera dubblerade erbjudanden;automatiserad personalisering;Tillåt inte dubblerade erbjudanden;exkludera;standardinnehåll;exkluderingsgrupp;
-description: Hantera uteslutningar genom att skapa exkluderingsgrupper, exklusive dubbletterbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i Adobe Target Automated Personalization (AP)-aktiviteter.
-title: Hantera undantag
+description: Hantera undantag i Adobe Target Automated Personalization-aktiviteter (AP). Skapa exkluderingsgrupper och exkludera dubblerade erbjudanden, specifika upplevelser och standardinnehåll.
+title: Hur hanterar jag undantag i Automated Personalization-aktiviteter?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
