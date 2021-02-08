@@ -1,12 +1,12 @@
 ---
 keywords: kundrelationshantering;kundposttjänst;crm;mbox3rdpartyid;kundattribut;målinriktning;csv;crm;adobe experience cloud cloud personer
-description: Information om hur du använder kunddata från CRM-databaser (customer relationship management) för innehåll i Adobe Target med hjälp av kundattribut i tjänsten Adobe Experience Cloud People.
-title: Kundattribut
+description: Lär dig hur du använder företagsdata från en CRM-databas (customer relationship management) för att målinrikta innehåll i Adobe Target.
+title: Vad är kundattribut och hur använder jag dem?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
