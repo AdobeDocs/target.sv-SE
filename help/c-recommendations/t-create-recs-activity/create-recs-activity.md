@@ -1,12 +1,12 @@
 ---
 keywords: skapa rekommendationer;rekommendationsaktivitet;nya rekommendationer;rekommendationer översikt
-description: Använd Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
-title: Skapa en Recommendations-aktivitet
+description: Lär dig hur du använder Adobe Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida.
+title: Hur skapar jag en Recommendations-aktivitet?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
