@@ -1,12 +1,13 @@
 ---
 keywords: implementera;implementera;implementera;tagghanterare;dtm;at.js;dynamisk tagghantering
-description: Adobe Dynamic Tag Management (DTM) är tagghanteraren i Adobe.
-title: Implementera med dynamisk tagghantering (DTM)
+description: Lär dig hur du implementerar Adobe Target at.js-biblioteket med hjälp av den gamla Dynamic Tag Management (DTM). Adobe Launch är den metod som rekommenderas för att implementera Target.
+title: Kan jag implementera Target med dynamisk tagghantering (DTM)?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
