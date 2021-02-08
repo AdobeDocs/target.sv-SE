@@ -1,12 +1,12 @@
 ---
 keywords: besökarprofil;målbesökarprofil
-description: Skapa målgrupper i Adobe Target för att inrikta er på besökare som uppfyller specifika profilparametrar.
-title: Profilalternativ för besökare i målgrupper
+description: Lär dig hur du skapar målgrupper i Adobe Target för besökare som uppfyller specifika profilparametrar som nya eller återkommande besökare, kategoritillhörighet med mera.
+title: Kan jag rikta in mig på besökare som uppfyller specifika profilparametrar?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
