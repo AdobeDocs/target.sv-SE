@@ -1,12 +1,12 @@
 ---
 keywords: kontakt;juridisk;teknisk support;teknisk support;support;service;funktion;fakturering;feedback
-description: Information om ytterligare resurser som hjälper dig att lära dig mer om Target-funktioner och hur du kan kontakta Adobe om du behöver hjälp med Target.
-title: Resurser och kontaktinformation
+description: Läs om ytterligare resurser som hjälper dig att lära dig mer om Adobe Target funktioner och hur du kontaktar Adobe om du behöver hjälp med Target.
+title: Var kan jag hitta resurser och kontaktinformation för Target?
 feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
