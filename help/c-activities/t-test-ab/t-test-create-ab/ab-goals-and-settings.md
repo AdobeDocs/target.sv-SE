@@ -1,12 +1,12 @@
 ---
 keywords: aktivitetsinställningar;A/B-mål och -inställningar;rapporteringsinställningar;målmått;framgångsmått;beroende framgångsmått;avancerade inställningar;primärt mål;ytterligare mått;mål;prioritet;varaktighet;rapporteringslösning;mål;målgrupper för rapportering;Vilket framgångsmått som måste uppnås innan det här måttet ökas;Vad som händer när en användare påträffar detta målmått;anteckningar
-description: På sidan Mål och inställningar i Adobe Target anger du information om testets mål.
-title: Mål och inställningar
+description: Lär dig hur du använder sidan Mål och inställningar i Adobe Target för att ange information om målen för en A/B-aktivitet.
+title: Hur anger jag mål och inställningar i en A/B-målaktivitet?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
