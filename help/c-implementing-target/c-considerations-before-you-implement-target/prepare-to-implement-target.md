@@ -1,12 +1,13 @@
 ---
 keywords: implementera;implementera;rfi;begäran om information
-description: Det finns uppgifter du bör utföra och information som du bör samla in när du förbereder implementering av Adobe Target.
-title: Förbered för implementering
+description: Ta reda på vad du bör tänka på innan du implementerar Adobe Target. Utför nödvändiga uppgifter och samla in information när du förbereder implementering av Target.
+title: Hur ska jag förbereda mig för att implementera Target?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
