@@ -1,12 +1,12 @@
 ---
 keywords: A/B;aktivitetsmått;mätvärden;ange mått;målmått;aktivitetsinställningar;framgångsmått;konvertering;intäkt;engagemang
-description: Använd mätvärden i en Adobe Target A/B-aktivitet för att avgöra när ett besök är lyckat.
-title: Ange mått
+description: Lär dig hur du anger mätvärden i en Adobe Target A/B-aktivitet för att avgöra när ett besök lyckas, till exempel konvertering, intäkter och engagemang.
+title: Hur ställer jag in målvärden i en A/B-aktivitet?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
