@@ -1,12 +1,13 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendNotifications;send notifications;send notifications;notifications;at.js;functions;function
-description: Information om funktionen adobe.target.sendNotifications(options) för JavaScript-biblioteket för Adobe Target at.js.
-title: Adobe.Target.Sendnotifications(Options)
+description: Använd adobe.target.sendNotifications() för at.js för att skicka meddelanden till Target-kanten när en upplevelse inte återges med applyOffer(s). (at.js.2.1 +)
+title: Hur använder jag funktionen adobe.target.sendNotifications()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
