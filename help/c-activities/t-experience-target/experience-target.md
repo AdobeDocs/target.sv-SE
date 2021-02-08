@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;experience targeting;xt;landing page;landing page campaign
-description: Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.
-title: Experience Targeting
+keywords: Målgruppsanpassning;målinriktning;xt;landningssida;kampanj på landningssidan
+description: Lär dig hur du använder XT-aktiviteter (Experience Targeting) i Adobe Target för att leverera innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.
+title: Vad är en XT-aktivitet (Experience Targeting)?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
