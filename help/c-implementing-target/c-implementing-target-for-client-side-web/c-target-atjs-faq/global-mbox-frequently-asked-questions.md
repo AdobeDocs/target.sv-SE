@@ -1,12 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
-description: Lista med vanliga frågor och svar om globala kryssrutor.
-title: Vanliga frågor och svar om Global Mbox
+keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;global;global mbox
+description: Läs vanliga frågor och svar om Adobe Target globala kryssrutor.
+title: Vilka är de vanliga frågorna om den globala rutan?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
