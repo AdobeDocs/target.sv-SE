@@ -1,12 +1,13 @@
 ---
-keywords: global mbox;implement mbox.js;implement at.js
-description: Information om den globala mbox, ett namn som används för att hänvisa till det enda serveranropet som gjordes högst upp på varje webbsida i din Adobe Target-implementering.
-title: Förstå den globala mbox
+keywords: global mbox;implementera mbox.js;implementera at.js
+description: Läs mer om den globala mbox i Adobe Target, ett namn som används för att referera till det enskilda serveranropet som gjordes högst upp på varje webbsida i Target-implementeringen.
+title: Vad är en global mbox?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
