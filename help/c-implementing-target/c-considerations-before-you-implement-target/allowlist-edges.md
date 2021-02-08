@@ -1,12 +1,13 @@
 ---
 keywords: implementera;implementera;vitlista;vit lista;tillåtelselista;tillåtelselista;kant;kanter
-description: Tillåtelselista Adobe Target kantnoder
-title: Tillåtelselista-målkantnoder
+description: Visa en lista med värdar som hjälper dig att tillåtslista Adobe Target-kanter (geografiskt utspridda noder som ger optimala svarstider för slutanvändare).
+title: Hur Tillåtslista jag Edge-målnoder?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
