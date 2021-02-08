@@ -1,12 +1,12 @@
 ---
-keywords: form-based experience composer;form-based composer;refinements
-description: Med Adobe Target Form-Based Experience Composer kan man skapa upplevelser som inte är visuella.
-title: Formulärbaserad Experience Composer
+keywords: formulärbaserad upplevelsedisposition;formulärbaserad disposition;förbättringar
+description: Lär dig hur du använder Adobe Target Form-Based Experience Experience Composer för att skapa icke-visuella upplevelser. Använd den här dispositionen när VEC inte är tillgängligt eller inte är praktiskt att använda.
+title: Hur använder jag den formulärbaserade Experience Composer?
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '756'
 ht-degree: 2%
 
 ---
