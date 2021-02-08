@@ -1,12 +1,12 @@
 ---
 keywords: Målgrupp;målgrupp;rapportering;framgångsmått
-description: Välj ett framgångsmått i Adobe Target som kvalificerar användaren för den rapporterande målgruppen.
-title: Tillämpa en rapportmålgrupp på ett framgångsmått
+description: Lär dig hur du väljer ett framgångsmått i Adobe Target som kvalificerar användaren för den rapporterande målgruppen.
+title: Kan jag använda en rapportmålgrupp i ett framgångsmått?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
