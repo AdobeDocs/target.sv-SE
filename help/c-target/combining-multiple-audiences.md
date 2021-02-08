@@ -1,12 +1,12 @@
 ---
 keywords: målgrupp;målgruppsregler;kombinera målgrupper;exkludering;exkludera;kombinera målgrupper;ad hoc-målgrupper;ad hoc-målgrupper
-description: Kombinera olika målgrupper (inklusive Adobe Experience Cloud-målgrupper och målgrupper) snabbt och enkelt för att skapa ad hoc-målgrupper. Du kan också skapa exkluderingsregler och exkludera målgrupper från en regel.
-title: Kombinera flera målgrupper
+description: Lär dig kombinera flera målgrupper (inklusive Adobe Experience Cloud-målgrupper och målgrupper) direkt för att skapa ad hoc-målgrupper.
+title: Kan jag kombinera flera olika målgrupper för att skapa en ny målgrupp?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
