@@ -1,12 +1,12 @@
 ---
 keywords: rekommendationsdesign;mall;skapa design;leverans;utdata
-description: Designer i Adobe Target Recommendations definierar hur rekommendationerna visas på en sida. Designen definierar layouten och formatet för era rekommendationer för att förbättra besökarnas engagemang, konvertering och intäkter.
-title: Designöversikt
+description: Lär dig hur du använder designer i Adobe Target Recommendations för att definiera hur rekommendationer ska visas på en sida (1X4, 1X6, 2X2 o.s.v.).
+title: Hur använder jag designen i Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
