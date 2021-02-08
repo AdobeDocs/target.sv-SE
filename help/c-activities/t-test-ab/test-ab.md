@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;jämför upplevelser;Riktning;jämför innehåll;automål;autoallokera
-description: I en manuell A/B-testaktivitet jämförs två eller flera versioner av webbplatsinnehållet för att se vilken version som optimerar dina konverteringar under en fördefinierad testperiod.
-title: A/B-testöversikt
+description: Lär dig mer om de olika typerna av A/B-testaktiviteter i Adobe Target - Manuell, Automatisk fördelning och Automatisk målning. Välj den som passar dig.
+title: Vilken typ av A/B-aktiviteter är tillgängliga i mål?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
