@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: Visningsproblem kan ibland uppstå i Adobe Target Enhanced Experience Composer (EEC) under vissa förhållanden.
-title: Felsökning av problem relaterade till Förbättrad Experience Composer
+keywords: Rikting;eec;visual experience disposition;felsök förbättrad experience disposition;felsökning
+description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe Target Enhanced Experience Composer (EEC) under vissa förhållanden.
+title: Hur felsöker jag problem som rör den förbättrade Experience Composer?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
