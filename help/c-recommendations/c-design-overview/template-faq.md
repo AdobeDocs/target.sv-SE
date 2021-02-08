@@ -1,12 +1,12 @@
 ---
-keywords: recommendations;frequently asked questions;faq
-description: Lista med vanliga frågor och svar om Adobe Target rekommendationer.
-title: Vanliga frågor om design
+keywords: rekommendationer;vanliga frågor;frågor
+description: Se en lista med vanliga frågor och svar och svar om Adobe Target Recommendations.
+title: Var kan jag svara på designfrågor för Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
