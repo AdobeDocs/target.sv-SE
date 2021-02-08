@@ -1,12 +1,12 @@
 ---
 keywords: webbplatssidor;målwebbplatssidor;målsida;aktuell sida;målsida;föregående sida;målsida;startsida;målstartsida;målstartsida;http-rubrik
-description: Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
-title: Alternativ för webbplatssidor i publiker
+description: Lär dig att rikta in dig på besökare som använder Adobe Target och som finns på en viss sida på din webbplats.
+title: Kan jag rikta in besökare baserat på webbplatssidor?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
