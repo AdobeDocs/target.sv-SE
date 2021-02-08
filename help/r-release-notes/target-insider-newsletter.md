@@ -1,12 +1,12 @@
 ---
 keywords: nyhetsbrev från insider;nyhetsbrev;produktuppdateringar;tips och tricks;event;customer success;bloggar;whitepaper;white paper
-description: Var hittar jag månatliga nyhetsbrev om Adobe Target Insider?
-title: Insider Newsletter
+description: Läs de senaste nyheterna om Adobe Target. Information om kommande evenemang, nöjda kunder, information och tips från experterna med mera.
+title: Vad är Adobe Target Insider Newsletter?
 feature: Release Notes, Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
