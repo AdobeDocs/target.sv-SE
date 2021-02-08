@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations;Recommendations-kriterier;rekommendationsalgoritmer;rekommendationer-aktivitet;kriterier;rekommendationer målinriktning;recs
-description: Recommendations-aktiviteter i Adobe Target visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
-title: Recommendations
+description: Läs om Recommendations aktiviteter i Adobe Target som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer.
+title: Vad är Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
