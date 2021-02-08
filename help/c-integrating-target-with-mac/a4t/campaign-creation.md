@@ -1,12 +1,12 @@
 ---
 keywords: a4t;A4T;Analyser som rapportkälla för Target
-description: Du kan konfigurera en aktivitet i Target Standard/Premium så att Adobe Analytics används som rapportkälla (A4T).
-title: Skapa en aktivitet som använder A4T
+description: Lär dig hur du konfigurerar en aktivitet i Adobe Target som använder Adobe Analytics som rapportkälla (A4T).
+title: Hur skapar jag en aktivitet som använder A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
