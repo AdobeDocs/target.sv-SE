@@ -1,12 +1,12 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;skapa målgrupp;endast aktivitet;endast aktivitet;adhoc
-description: Skapa målgrupper som bara är aktiva inifrån Adobe Target trestegsbaserade guidade arbetsflöde när du skapar en aktivitet. Dessa ad hoc-målgrupper kan användas på andra platser inom samma aktivitet, men lagras inte i publikbiblioteket för användning i andra aktiviteter.
-title: Skapa en målgrupp med endast aktivitet
+description: Lär dig hur du skapar målgrupper som bara är aktiva i Adobe Target och som är avsedda att användas en gång i den aktuella aktiviteten och inte lagras i publikbiblioteket.
+title: Kan jag skapa en publik som bara kan användas en gång?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
