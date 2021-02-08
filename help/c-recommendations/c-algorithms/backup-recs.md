@@ -1,12 +1,12 @@
 ---
 keywords: rekommendation;säkerhetskopia;säkerhetskopiera
-description: Om du använder funktionen för rekommenderad säkerhetskopiering i Adobe Target kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
-title: Använd en rekommendation för säkerhetskopiering i Recommendations Target
+description: Lär dig hur du använder rekommendationer för säkerhetskopiering i Adobe Target Recommendations. Rekommendationer som inte har tillräckligt många rekommenderade objekt visar resultatet av säkerhetskopieringsalgoritmen.
+title: Hur använder jag en rekommendation för säkerhetskopiering i Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
