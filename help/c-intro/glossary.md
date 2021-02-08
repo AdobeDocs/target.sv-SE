@@ -1,11 +1,11 @@
 ---
-description: Definitioner av termer.
-title: Ordlista
+description: Vad betyder olika termer i Adobe Target? Hitta definitioner av vanliga termer som hjälper dig att få ut mer av Target.
+title: Var hittar jag de termer och definitioner som används i Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2304'
 ht-degree: 1%
 
 ---
