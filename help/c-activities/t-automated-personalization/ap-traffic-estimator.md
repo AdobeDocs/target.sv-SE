@@ -1,12 +1,12 @@
 ---
 keywords: trafikskattare;automatiserad personalisering;ap;uppskattning av trafik
-description: Traffic Estimator ger dig feedback som visar om du har tillräckligt med trafik för att din Adobe Target-aktivitet ska lyckas.
-title: Uppskatta den trafik som krävs för att lyckas
+description: Lär dig hur du använder Traffic Estimator som talar om för dig om du har tillräckligt med trafik för att din Adobe Target Automated Personalization-aktivitet ska lyckas.
+title: Hur mycket trafik krävs för en Automated Personalization-verksamhet?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
