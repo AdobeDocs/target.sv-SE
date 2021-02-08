@@ -1,12 +1,12 @@
 ---
 keywords: kampanjer;frontkampanjer;back promotions;promotions type;list of items;Promoby attribute;Promot a collection
-description: Lägg in framhävda objekt och styr deras placering i Adobe Target Recommendations. Du kan lägga till statiska och dynamiska kampanjer.
-title: Lägg till kampanjer i Recommendations-design för målgrupper
+description: Lär dig hur du lägger till framhävda objekt och styr placeringen av dem i dina Adobe Target Recommendations-designer. Du kan lägga till statiska och dynamiska kampanjer.
+title: Hur lägger jag till kampanjer i Recommendations Designs?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
