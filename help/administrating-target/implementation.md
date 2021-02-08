@@ -1,12 +1,13 @@
 ---
 keywords: implementera;implementera
-description: Innan du börjar använda Adobe Target bör du implementera det på din webbplats, förstå några grundläggande begrepp och termer, känna till hur Target fungerar och integreras med din infrastruktur och förstå hur besökarna spåras av Target-systemet.
-title: Implementera
+description: Lär dig hur du implementerar Adobe Target på din webbplats. Ange globala inställningar, implementeringsmetod (AEP Web SDK eller at.js) med mera.
+title: Hur implementerar du Target på Min webbplats?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
