@@ -1,12 +1,13 @@
 ---
 keywords: flimmer;at.js;implementation;asynkront;asynkront;synkront;synkront
-description: Information om hur JavaScript-biblioteket Adobe Target at.js förhindrar flimmer vid inläsning av sidor eller appar.
-title: How at.js Manages Flicker
+description: Lär dig hur at.js och Adobe Target förhindrar flimmer (standardinnehåll visas snabbt innan det ersätts av aktivitetsinnehåll) under inläsning av sidor eller appar.
+title: Hur hanterar At.js Flicker?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
