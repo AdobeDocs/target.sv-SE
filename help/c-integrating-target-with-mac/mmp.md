@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud Audiences;audiences
-description: Experience Cloud Audiences ger möjlighet för Adobe Experience Cloud lösningar att kommunicera och dela information om besökare på webbplatser så att samma data kan användas av varje lösning.
-title: Experience Cloud målgrupper
+keywords: Experience Cloud målgrupper;målgrupper
+description: Läs om hur Adobe Experience Cloud Audiences låter Experience Cloud lösningar kommunicera och dela information om besökare på webbplatser med andra Adobe-lösningar.
+title: Hur använder jag Adobe Experience Cloud-målgrupper i Target?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
