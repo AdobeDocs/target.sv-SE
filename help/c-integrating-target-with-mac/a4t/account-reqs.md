@@ -1,13 +1,13 @@
 ---
 keywords: Analyser som rapportkälla;a4t;A4T;requirements
-description: Krav för användarkonto för att skapa en Adobe Analytics-baserad aktivitet i Adobe Target (A4T).
-title: Krav för användarbehörighet
+description: Lär dig hur du konfigurerar de användarkontokrav som krävs för att skapa en Adobe Analytics-baserad aktivitet i Adobe Target med Analytics for Target (A4T).
+title: Vilka behörighetskrav krävs för A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
