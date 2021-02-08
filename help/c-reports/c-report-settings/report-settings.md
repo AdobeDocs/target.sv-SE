@@ -1,12 +1,12 @@
 ---
 keywords: Mål;rapporter;rapportinställningar;förinställning;målförinställning;målpublik;målgrupp;datumintervall;inställningar;hämta;tabellvy;diagramvy;genomsnittshöjning;lyfta;konfidensintervall;konfidensintervall;platsbidrag;löpande genomsnitt;beräkningsmetod
-description: Information som hjälper dig att ange de element som du vill ska visas i din Adobe Target-rapport. Rapportinställningarna kan sparas för senare bruk.
-title: Rapportinställningar
+description: Lär dig hur du konfigurerar rapportinställningar i Adobe Target, inklusive mått, målgrupper, datumintervall med mera.
+title: Hur konfigurerar jag rapportinställningar?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
