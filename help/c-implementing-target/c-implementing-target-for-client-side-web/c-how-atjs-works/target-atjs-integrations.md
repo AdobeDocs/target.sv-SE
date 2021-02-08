@@ -1,12 +1,13 @@
 ---
 keywords: integrering med at.js;integreringar som stöds;integreringar som inte stöds;integreringar från tredje part
-description: Information om vanliga integreringar med Target och deras supportstatus med at.js.
-title: at.js Integreringar
+description: Se vilka integreringar som stöds (och inte stöds) av Adobe Target at.js, inklusive Analytics for Target (A4T), Experience Cloud ID Service med mera.
+title: Vilka integreringar stöder .js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
