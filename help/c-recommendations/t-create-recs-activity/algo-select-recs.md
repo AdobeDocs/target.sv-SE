@@ -1,12 +1,12 @@
 ---
 keywords: rekommendationer;rekommendationsaktivitet;kriterier;algoritm
-description: Välj de kriterier som ska användas i din Adobe Target Recommendations-aktivitet.
-title: Välj villkor
+description: Lär dig hur du väljer kriterier (regler som bestämmer vilka produkter eller vilket innehåll som ska rekommenderas) som ska användas i din Adobe Target Recommendations-aktivitet.
+title: Hur väljer jag kriterier för en Recommendations-aktivitet?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
