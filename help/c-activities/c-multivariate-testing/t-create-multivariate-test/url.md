@@ -1,12 +1,12 @@
 ---
-keywords: Multivariate Tests;activity url
-description: Activity URL (Aktivitets-URL) bestämmer vilken sida som används i ett Adobe Target Multivariate Test (MVT) och som öppnas när testet är utformat i Adobe Target.
-title: Aktivitets-URL
+keywords: Multivariata tester;aktivitets-URL
+description: Lär dig hur du anger den aktivitets-URL som bestämmer vilken sida som ska användas i testet och som öppnas när aktiviteten Multivariate Test har utformats med Adobe Target.
+title: Vilken är aktivitets-URL:en i en multivariat-aktivitet (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
