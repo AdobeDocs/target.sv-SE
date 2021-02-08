@@ -1,12 +1,12 @@
 ---
 keywords: multivariat;mvt;preview;experiences
-description: Eftersom ett multivariata test i Adobe Target jämför flera olika upplevelser på en sida är det bra att förhandsgranska sidan för varje upplevelse.
-title: Förgranska upplevelser för ett multivariat test (MVT)
+description: Lär dig hur du förhandsgranskar varje upplevelse i en Multivariate Test-aktivitet (MVT) i Adobe Target med Visual Experience Composer (VEC).
+title: Hur kan jag förhandsgranska upplevelser för ett multivariat test (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
