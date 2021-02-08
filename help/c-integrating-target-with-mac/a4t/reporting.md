@@ -1,12 +1,12 @@
 ---
 keywords: analys för target;a4t;analytics as reporting source
-description: Genom att använda Analytics som rapportkälla för Target (A4T) får ni tillgång till analysrapporter för era Target-aktiviteter.
-title: A4T-rapportering
+description: Lär dig hur du använder Analytics för Target (A4T). A4T ger tillgång till Analytics-rapporter för Target-aktiviteter som använder analysstatistik och målgruppssegment.
+title: Hur använder jag rapportering i A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
