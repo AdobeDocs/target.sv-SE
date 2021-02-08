@@ -1,12 +1,12 @@
 ---
 keywords: utbildning;certifiering;mål;onlinekurser;kurser;klass;kurser
-description: Adobe Training Services erbjuder kurser och certifieringar för Adobe produkter och lösningar, inklusive Adobe Target.
-title: Utbildning och certifiering
+description: Hitta Adobe Target-kurser och certifieringar från Adobe Training Services.
+title: Var kan jag hitta utbildnings- och certifieringskurser?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
