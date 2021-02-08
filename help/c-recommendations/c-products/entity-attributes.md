@@ -1,12 +1,12 @@
 ---
 keywords: entitet;entitetsattribut;skicka information till Recommendations;beteendedata;dataräknare;definiera relativ URL;visa lagernivå;definiera pris;definiera vinstmarginal;anpassade attribut
-description: Använd entitetsattribut för att skicka produkt- eller innehållsinformation till Adobe Target Recommendations.
-title: Entitetsattribut
+description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till Adobe Target Recommendations.
+title: Hur använder jag entitetsattribut?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
