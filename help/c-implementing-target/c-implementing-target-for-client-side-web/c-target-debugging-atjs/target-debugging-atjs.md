@@ -1,12 +1,13 @@
 ---
 keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
-description: Information om hur du använder Adobe Experience Cloud Debugger-tillägget, vilket gör det snabbt och enkelt att förstå hur du implementerar Target.
-title: Felsök At.js med Adobe Experience Cloud Debugger
+description: Använd Adobe Experience Cloud Debugger för att visa din bibliotekskonfiguration, undersöka förfrågningar, aktivera konsolloggning, inaktivera Target-samtalsbegäranden och mycket annat.
+title: Hur felsöker jag JS med Adobe Experience Cloud Debugger?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
