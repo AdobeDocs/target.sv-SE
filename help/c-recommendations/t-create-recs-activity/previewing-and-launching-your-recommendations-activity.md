@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations;erbjudande;förhandsvisa;starta;status;villkor;algoritm
-description: När du har skapat en Recommendations-, A/B Test- eller Experience Targeting-aktivitet (XT) som innehåller Adobe Target Recommendations-erbjudanden måste du förhandsgranska den för att se om det finns några tillgängliga resultat innan du startar aktiviteten. Med Target Recommendations kan du förhandsgranska dina rekommendationer på flera olika sätt.
-title: Förhandsgranska och starta din Recommendations-aktivitet
+description: 'Lär dig hur du förhandsgranskar din Adobe Target Recommendations-aktivitet för att se om resultaten är tillgängliga innan du startar aktiviteten. '
+title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
