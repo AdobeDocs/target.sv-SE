@@ -1,12 +1,12 @@
 ---
-keywords: multi-page;journey testing;multipage activity
-description: Med en flersidig aktivitet i Adobe Target kan du skapa en artikel över flera sidor, med en design som är specifik för varje sida.
-title: Flersidig aktivitet
+keywords: flersidig;resetestning;flersidig aktivitet
+description: Lär dig skapa en flersidig aktivitet i Adobe Target och skapa en artikel över flera sidor med en design som är specifik för varje sida.
+title: Hur skapar jag en flersidig aktivitet?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
