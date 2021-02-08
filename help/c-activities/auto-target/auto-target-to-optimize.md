@@ -1,12 +1,12 @@
 ---
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning
-description: Auto-Target i Adobe Target använder avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser för att personalisera innehåll och driva konverteringar. Auto-Target levererar den mest skräddarsydda upplevelsen till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler.
-title: Automatisk målöversikt
+description: Lär dig hur en Auto-Target-aktivitet i Target ger varje besökare den mest skräddarsydda upplevelsen baserat på kundprofiler och beteendet hos liknande besökare.
+title: Vad är en aktivitet med automål?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
