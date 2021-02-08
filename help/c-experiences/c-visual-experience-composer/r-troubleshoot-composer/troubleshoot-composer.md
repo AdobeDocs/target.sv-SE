@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: Visningsproblem kan ibland uppstå i Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
-title: Felsöka Visual Experience Composer och Enhanced Experience Composer
+keywords: Riktad;visuell upplevelsedisposition;förbättrad kompositör för visuell upplevelse;vec;felsök kompositör för visuell upplevelse;felsökning;eec;förbättrad upplevelsedisposition;tls;tls 1.2
+description: Lär dig hur du felsöker problem som ibland kan uppstå i Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
+title: Hur felsöker jag Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
