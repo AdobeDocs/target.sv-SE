@@ -1,12 +1,13 @@
 ---
 keywords: implementera;implementering;at.js;adobe experience platform web sdk;aep web sdk
-description: Information om hur du implementerar Adobe Target för klientwebben med at.js.
-title: Implementera Adobe Target för klientwebben
+description: Lär dig hur du implementerar Adobe Target för klientwebben med Adobe Experience Platform Web SDK (AEP Web SDK) eller Target at.js JavaScript-biblioteket.
+title: Hur implementerar jag Target för Client-Side Web
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
