@@ -6,8 +6,8 @@ feature: Audiences
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 2%
 
 ---
 
