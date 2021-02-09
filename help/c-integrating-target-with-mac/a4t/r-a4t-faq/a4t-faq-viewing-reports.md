@@ -89,28 +89,28 @@ Den 1 januari kommer användaren till webbplatsen och ser aktiviteten XYZ en gå
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 5 | 3 | 3 |
+| XYZ | 3 | 5 | 1 | 3 |
 
 Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter inte på fler Target-aktiviteter och den ursprungliga aktiviteten är inte längre aktiv. Även om aktiviteten inte längre är aktiv följer den fortfarande användaren via eVar persistence. Data ser nu ut så här:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 3 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren visar också fem sidor. Eftersom aktiviteten XYZ fortfarande följer användaren genom persistence, och den här användaren sedan har ABC inställt, visas två radartiklar i rapporten:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 3 |
+| XYZ | 3 | 15 | 3 | 1 |
 | ABC | 3 | 5 | 3 | 3 |
 
 Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så vi kommer att se det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 1 |
-| Totalt | 2 | 20 | 1 | 1 | 3 |
+| XYZ | 3 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 3 | 3 |
+| Totalt | 2 | 20 | 1 | 3 | 3 |
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Ni jämför resultaten av två objekt i en enda aktivitet, och det är inte möjligt för en användare att se olika upplevelser i samma aktivitet så att ni inte behöver bekymra er om korskontaminering av orderkrediter.
 
