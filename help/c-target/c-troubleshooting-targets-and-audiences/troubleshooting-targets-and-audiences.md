@@ -114,7 +114,7 @@ Exempel:
 | Värde | Målvillkor | Resultat |
 | --- | --- | --- |
 | 1.0 | är lika med 1 | true |
-| 1 | equalsIgnoreCase 1.0 | true |
+| 3 | equalsIgnoreCase 1.0 | true |
 | 1,230 | är lika med 1 | true |
 | 1 500 | är lika med 1,5 | true |
 | 1 200 | är mindre än 2 | true |
