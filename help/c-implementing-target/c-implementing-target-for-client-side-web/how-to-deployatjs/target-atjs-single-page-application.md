@@ -7,8 +7,8 @@ role: Developer
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2774'
+ht-degree: 1%
 
 ---
 
@@ -211,7 +211,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | --- | --- |
 | 3 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
-| 1 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
+| 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
 | 5 | Analysdata skickas till datainsamlingsservrar. |
 | 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
@@ -294,9 +294,9 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 
 | Steg | Åtgärd | Detaljer |
 | --- | --- | --- |
-| 3 | Ring `visitor.resetState()` | Detta API säkerställer att SDID genereras om för den nya vyn när den läses in. |
+| 1 | Ring `visitor.resetState()` | Detta API säkerställer att SDID genereras om för den nya vyn när den läses in. |
 | 2 | Uppdatera cache genom att anropa API:t `getOffers()` | Detta är ett valfritt steg att ta om den här vyändringen kan kvalificera den aktuella besökaren för fler [!DNL Target] aktiviteter eller diskvalificera dem från aktiviteter. Nu kan du även välja att skicka ytterligare data till [!DNL Target] för att aktivera ytterligare målinriktningsfunktioner. |
-| 1 | Ring `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target]-begäran och tillämpa erbjudandena på cache innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
+| 3 | Ring `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target]-begäran och tillämpa erbjudandena på cache innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
 | 4 | Ring `triggerView()` | Om du inte har kört steg 2 kan du utföra det här steget så snart du slutför steg 1. Om du har kört steg 2 och steg 3 bör du hoppa över det här steget. Du får bara utföra det här steget en gång per vy. |
 | 5 | Anropa sidvyfyren [!DNL Analytics] | Den här beacon skickar det SDID som är kopplat till steg 2, 3 och 4 till [!DNL Analytics] för datasammanfogning. |
 | 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att se till att [!DNL Target]-upplevelser tillämpas på nytt efter att SPA har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att vara säker på att [!DNL Target]-upplevelserna finns kvar i dina SPA. |
