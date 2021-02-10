@@ -4,9 +4,9 @@ description: Läs notiser och registrera dig för Adobe Target event, inklusive 
 title: Var kan jag hitta målmeddelanden och händelser?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -25,20 +25,20 @@ Adobe Target utnämndes nyligen till marknadsledare av både Forrester och Gartn
 | Forrester | **Adobe utnämnd till ledare i Forrester wave-rapporten för upplevelseoptimeringsplattformar.**<br> Adobe utsågs till ledare i Forrester Wave: Experience Optimization Platforms, Q4 2020 report for its offer in this space, Adobe Target Premium. Adobe fick den högsta poängen för alla deltagande leverantörer i kategorierna för aktuellt erbjudande och marknadsnärvaro samt i rekommendationerna och kriterierna för plattformsupplevelser. Target Premium fick också högsta möjliga poäng i villkoren för upplevelseoptimeringstekniken, innovation och stödtjänster. Rapporten bygger på en grundlig utvärdering av 10 plattformsleverantörer för upplevelseoptimering enligt 22 kriterier.<br>Läs om det på  [Adobe-bloggen](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe har återigen utnämnts till ledare i Gartners Magic Quadrant för personaliseringsmotorer.**<br> Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra.<br>[Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## Webbseminarium: Lyckad personalisering i stor skala: Viktiga resultat från Forrester Wave, Experience Optimization Platforms
+## Adobe Target Community Q&amp;A Coffee Break
 
-* **Tisdag 19 januari**
-* **8.00 PT | 10.00 CT | 11.00 ET**
-* **Varaktighet: 60 minuter**
-* **[Anmäl dig här](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
+* **Onsdag 24 februari**
+* **9.00 PST | 11.00 CST | 12.00 EST**
+* **Varaktighet 60 minuter**
+* **[Mer information här](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
 
-Möjligheten att optimera kundupplevelserna i stor skala är nu av avgörande betydelse för att tillgodose kundernas dynamiska behov och den senaste ökningen av nya digitala besökare. En plattform för upplevelseoptimering, som [!DNL Adobe Target], kan användas i alla era digitala resurser för att snabbt avgöra och leverera rätt upplevelse till era kunder vid rätt tidpunkt, med hjälp av manuell och AI-driven beteendeanpassning, testning och rekommendationer. Besök oss och vår speciella gäst James McCormick, chefsanalytiker på Forrester, när vi presenterar och diskuterar de viktigaste resultaten från The Forrester Wave, Experience Optimization Platforms, Q4 2020.
+Vi kommer att bli medlemmar av Adobe Target Senior Product Manager Rob Hornick. Rob kommer att besvara dina frågor om Target och hans expertområden:
 
-I det här webbinariet får du lära dig:
-
-* Branschtrender som formar utvecklingen av verktyg för personalisering och upplevelseoptimering
-* Viktiga funktioner i en ledande plattform för upplevelseoptimering
-* Bästa tillvägagångssätt för optimering av kundupplevelser i stor skala för maximal effekt på verksamheten
+* Recommendations
+* Automatisk allokering
+* Automatiskt mål
+* Automated Personalization
+* Maskininlärning och artificiell intelligens
 
 ## Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target
 
