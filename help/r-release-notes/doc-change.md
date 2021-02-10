@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
+source-git-commit: 40196dbae080f248d21aa8f4b3722863e846be16
 workflow-type: tm+mt
-source-wordcount: '3589'
+source-wordcount: '3608'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 10 februari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Community Q&amp;A Coffee Break lades till onsdagen den 24 februari 2021. |
 | 8 februari | [Förhandsvisning av målmobiler](/help/c-target-mobile-app/target-mobile-preview.md) | Kodfragmentet som du ska lägga till i filen AndroidManifest.xml för version 4 av Adobe Mobile SDK har lagts till. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har klargjorts:<ul><li>Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av de här objekten i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade.</li></ul> |
 | 1 februari | [Automated Personalization Sammanfattningsrapporter](/help/c-reports/reports-ap.md) | Nytt avsnitt har lagts till: &quot;Frågor och svar.&quot; |
