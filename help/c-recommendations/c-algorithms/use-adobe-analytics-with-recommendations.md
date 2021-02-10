@@ -4,9 +4,9 @@ description: Lär dig hur du använder Adobe Analytics som beteendedatakälla f�
 title: Hur använder jag Adobe Analytics med Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -57,83 +57,7 @@ Mer information om hur du ställer in produktvariabler finns i [products](https:
 
 För att snabbt kunna fatta beslut om vilken datakälla som ska användas, om det finns många organiska data som genereras varje dag av användare och inte så mycket beroende av historiska data, kan det vara bra att använda en [!DNL Target]-ruta som beteendedatakälla. Om det inte finns tillräckligt med organiska data som genererats nyligen, och du vill lagra på [!DNL Analytics]-data, passar det bra att använda [!DNL Analytics] som datakälla för beteendet.
 
-### Steg för distribution
-
-Förutsatt att alla förutsättningar finns på plats, måste följande åtgärder utföras av [!DNL Adobe Target Recommendations]-teamet:
-
->[!IMPORTANT]
->
->Stegen nedan är endast avsedda som illustrationer. En medlem i [!DNL Recommendations]-teamet måste för närvarande utföra dessa steg. [Kontakta ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) kundtjänst om du vill ha mer information.
-
-1. I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** för att hämta din [!DNL Target]-klientkod.
-
-   ![Klientkod](/help/c-recommendations/c-algorithms/assets/client-code.png)
-
-1. Hämta din [!DNL Analytics]-rapportsserie.
-
-   Använd din [!DNL Analytics] produktionsplatsrapportsserie. Det här är rapportsviten som spårar den plats där du har [!DNL Recommendations] distribuerat.
-
-1. I [!DNL Analytics] klickar du på **[!UICONTROL Admin]** > **[!UICONTROL Data Feeds]**.
-
-   ![Inställningar > Dataflöden](/help/c-recommendations/c-algorithms/assets/data-feed.png)
-
-1. Klicka på **[!UICONTROL Add]** för att skapa en ny feed.
-
-   ![Lägg till feed](/help/c-recommendations/c-algorithms/assets/add-feed.png)
-
-1. Fyll i feed-information:
-
-   * **Namn**: Rec Prod Feed
-   * **Report Suite**: Din förbestämda rapportsvit
-   * **E-post**: Ange en lämplig adress för en Admin-användare
-   * **Feedintervall**: Välj önskat intervall
-   * **Fördröjningsbearbetning**: Ingen fördröjning.
-   * **Start- och slutdatum**: Kontinuerlig feed
-
-   ![Flödesinformationsavsnitt](/help/c-recommendations/c-algorithms/assets/feed-information.png)
-
-1. Fyll i informationen i **[!UICONTROL Destination]**-avsnittet:
-
-   >[!NOTE]
-   > 
-   >Kontakta [!DNL Adobe Analytics]-teamet innan du utför det här steget.
-
-   * **Typ**: FTP
-   * **Värd**:  `xxx.yyy.com`
-   * **Sökväg**: Din  [!DNL Target] klientkod
-   * **Användarnamn**: Ange ditt användarnamn
-   * **Lösenord**: Ange ditt lösenord
-
-   Skärmbilden är endast avsedd som referens. Distributionen kommer att ha olika autentiseringsuppgifter. Kontakta [!DNL Adobe Analytics]-teamet eller kundtjänst när du utför det här steget.
-
-   ![Målsektion](/help/c-recommendations/c-algorithms/assets/destination.png)
-
-1. Fyll i **[!UICONTROL Data Column]**-definitionerna:
-
-   * **Komprimeringsformat**: Gzip
-   * **Pakettyp**: En fil
-   * **manifest:** Finish File
-
-      ![Inställningar för komprimeringsformat, paketeringstyp och manifest](/help/c-recommendations/c-algorithms/assets/compression.png)
-
-   * **Inkluderade kolumner**:
-
-      >[!IMPORTANT]
-      >
-      >Kolumnerna måste läggas till i samma ordning som dokumenteras här. Markera kolumnerna i följande ordning och klicka på **[!UICONTROL Add]** för varje kolumn.
-
-      * hit_time_gmt
-      * visid_high
-      * visid_low
-      * event_list
-      * product_list
-      * besök_num
-
-1. Klicka på **[!UICONTROL Save]**.
-
-   ![Definitionsavsnitt för datakolumner](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
-
-Detta innebär att konfigurationen på [!DNL Analytics]-sidan är klar. Nu är det dags att mappa dessa variabler på [!DNL Target]-sidan för kontinuerlig leverans av beteendedata.
+Nu är det dags att mappa dessa variabler på [!DNL Target]-sidan för kontinuerlig leverans av beteendedata.
 
 ## Implementera i mål
 
