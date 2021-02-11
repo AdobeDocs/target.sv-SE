@@ -4,9 +4,9 @@ description: Läs om hur Adobe Target fungerar, inklusive information om Target 
 title: Hur fungerar Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
+source-wordcount: '2559'
 ht-degree: 1%
 
 ---
@@ -200,7 +200,13 @@ Vi anser att det skulle vara svårt att oavsiktligt ändra innebörden i det urs
 
 ## Börjar {#bots}
 
-Adobe Target använder [DeviceAtlas](https://deviceatlas.com/) för att identifiera kända fel. Trafik som identifieras som genererad av en robot betjänas fortfarande, precis som en vanlig användare, för att säkerställa att den överensstämmer med riktlinjerna för SEO. Om du använder robottrafik kan du skeva A/B-tester eller personaliseringsalgoritmer om de behandlas som vanliga användare. Om en känd robot upptäcks i din Target-aktivitet behandlas trafiken därför något annorlunda. Att ta bort robottrafik ger en mer exakt mätning av användaraktivitet.
+Adobe Target använder måttet [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) &quot;isRobot&quot; för att identifiera kända botar baserat på användaragentsträngen som skickas i begärandehuvudet.
+
+>[!NOTE]
+>
+> För [!DNL Server Side]-begäranden ges det värde som skickas i [begärans kontextnod](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) företräde framför användaragentsträngen för identifiering av robotar.
+
+Trafik som identifieras som genererad av en robot betjänas fortfarande, precis som en vanlig användare, för att säkerställa att den överensstämmer med riktlinjerna för SEO. Om du använder robottrafik kan du skeva A/B-tester eller personaliseringsalgoritmer om de behandlas som vanliga användare. Om en känd robot upptäcks i din Target-aktivitet behandlas trafiken därför något annorlunda. Att ta bort robottrafik ger en mer exakt mätning av användaraktivitet.
 
 För känd robottrafik gäller följande:
 
