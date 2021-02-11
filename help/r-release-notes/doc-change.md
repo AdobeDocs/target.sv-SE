@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
+source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
 workflow-type: tm+mt
 source-wordcount: '3615'
 ht-degree: 0%
@@ -20,7 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 11 februari | ![Så här fungerar Target](/help/c-intro/how-target-works.md) | Uppdaterat avsnittet &quot;Börjor&quot;. |
+| 11 februari | [Så här fungerar Target](/help/c-intro/how-target-works.md) | Uppdaterat avsnittet &quot;Börjor&quot;. |
 | 10 februari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Community Q&amp;A Coffee Break lades till onsdagen den 24 februari 2021. |
 | 8 februari | [Förhandsvisning av målmobiler](/help/c-target-mobile-app/target-mobile-preview.md) | Kodfragmentet som du ska lägga till i filen AndroidManifest.xml för version 4 av Adobe Mobile SDK har lagts till. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har klargjorts:<ul><li>Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av de här objekten i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade.</li></ul> |
