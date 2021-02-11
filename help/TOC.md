@@ -2,9 +2,9 @@
 user-guide-title: Adobe Target Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
-feature-tag: Target
+feature-set: Target
 translation-type: tm+mt
-source-git-commit: 0555b5b7cdca15ec5f2e33c1e18f6dda59dbd03b
+source-git-commit: dc8d7b90915e35f60c7f17a47e43f0be55a96d68
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 0%
