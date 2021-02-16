@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
    * profilparametervärdet får inte vara null
    * maxlängd för profilparametervärde 256
 
-   **Slutpunkt för leverans-API**
+   **Slutpunkt för leverans-API**:
 
    * mbox parameters 50
    * mbox-parameternamn max length 128
@@ -194,11 +194,11 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ### Erbjudandestorlek
 
-* **Gräns**: Följande storleksbegränsningar gäller för erbjudanden:
+Följande storleksbegränsningar gäller för erbjudanden:
 
-   * 256 kB för HTML-erbjudanden.
-   * 64 kB för visuella erbjudanden från användargränssnittet.
-   * 512 kB från API:t.
+* 256 kB för HTML-erbjudanden.
+* 64 kB för visuella erbjudanden från användargränssnittet.
+* 512 kB från API:t.
 
    Om du använder en global mbox är gränsen för hela den innehållsuppsättning som returneras för sidan. Genom att begränsa erbjudandestorleken förbättras sidinläsningstiden. Om gränsen överskrids visas följande meddelande:
 
