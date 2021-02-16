@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
-source-wordcount: '3615'
+source-wordcount: '3630'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 16 februari | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterad text för begränsningsstorlek för erbjudanden i prerelease notes. |
 | 11 februari | [Så här fungerar Target](/help/c-intro/how-target-works.md) | Uppdaterat avsnittet &quot;Börjor&quot;. |
 | 10 februari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Community Q&amp;A Coffee Break lades till onsdagen den 24 februari 2021. |
 | 8 februari | [Förhandsvisning av målmobiler](/help/c-target-mobile-app/target-mobile-preview.md) | Kodfragmentet som du ska lägga till i filen AndroidManifest.xml för version 4 av Adobe Mobile SDK har lagts till. |
@@ -76,8 +77,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Ytterligare information om en korrigering för CNAME-stöd i version 1.8.2 och 2.3.1 av at.js |
 | 15 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade förhandsversionsinformationen för Target Standard/Premium 20.10.1 (27 oktober 2020). |
 | 14 oktober | [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | En anteckning om trafiktilldelning för en Automatisk allokering-aktivitet med endast två upplevelser har lagts till. |
-| 13 oktober | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande live-webbinarium som planeras äga rum den 10 november 2020:<ul><li>Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target</li></ul> |
-|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om följande live-webbinarium som planeras äga rum den 10 november 2020:<ul><li>Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target</li></ul> |
+| 13 oktober | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande webbinarium som ska publiceras den 10 november 2020:<ul><li>Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target</li></ul> |
+|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om följande webbinarium som ska publiceras den 10 november 2020:<ul><li>Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target</li></ul> |
 | 12 oktober | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | [Hämta den auktoriseringstoken som ska användas med felsökningsverktygen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) för att ange den behörighetsnivå du måste generera en autentiseringstoken. |
 |  | [Profil-API-inställningar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Uppdaterat ämne för att ange behörighetsnivån som du måste generera en autentiseringstoken. |
 |  | [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md) | En riktig framgångsberättelse med Auto-Target har lagts till. |
@@ -179,11 +180,11 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 15 juni | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
-|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+| 15 juni | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Anteckningarna för [!DNL Target Standard/Premium] 20.5.1-utgåvan (17 juni 2020) har uppdaterats för att innehålla information om A4T-stöd i [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `deviceIdLifetime`-inställningen. |
-|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om versionerna at.js 1.8.2 och at.js 2.3.1 har lagts till. |
+|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Ytterligare information om versionerna at.js 1.8.2 och at.js 2.3.1. |
 | 8 juni | [Mål för mobilappar - frågor och svar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Uppdaterad text för följande vanliga frågor och svar: &quot;Är Target Mobile bara en funktion i Adobe Target Premium Product SKU?&quot; |
 |  | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Hela ämnet har uppdaterats. |
 | 5 juni | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Coffee Break från 10 juni har lagts till. |
@@ -230,7 +231,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | 24 mars | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Lagt till information om påverkan för följande:<ul><li>Profilskript baserade på 3rdPartyID</li><li>QA/Preview URLs in iOS devices</li></ul> |
 | 20 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Anges att Target Standard/Premium 20.2.1 kommer att vara den 23 mars 2020. |
 | 13 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterade antalet&quot;Målgrupper, återanvändbara per konto&quot;. |
-| 12 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md#summit) | Registreringsinformation har lagts till för kostnadsfri åtkomst till den digitala Summit-konferensen online. |
+| 12 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md#summit) | Ytterligare registreringsinformation för kostnadsfri åtkomst till den digitala Summit på webben. |
 | 9 mars | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ytterligare information har lagts till i avsnittet&quot;Ersättning av den senaste oktetten med IP-adresser&quot;. |
 |  | [Arbeta med attribut för flera värden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Uppdaterat kodexempel i *Skicka en flervärdesparameter i JavaScript*. |
 |  | [Anpassade entitetsattribut](/help/c-recommendations/c-products/custom-entity-attributes.md) | Kodexempel har lagts till i *Använda API:er* under *Implementera attribut med flera värden*. |
