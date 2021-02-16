@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: e0d61de20501f40ea6b61db83be346072df997f0
+source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 10 februari 2021**
+**Senast uppdaterad: 16 februari 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
@@ -32,7 +32,14 @@ Den här underhållsversionen innehåller följande förbättringar, korrigering
 
 Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
-* Ökade den tillåtna erbjudandestorleken via API:t från 512 kB till 1 MB. (TGT-38304)
+* Ökade den tillåtna erbjudandestorleken:
+
+   | Typ | Föregående gräns | Ny gräns |
+   | --- | --- | --- |
+   | HTML | 256 kB | 1024 kB |
+   | Visuella erbjudanden från målgränssnittet | 64 kB | 1 024 kB för varje upplevelse |
+   | Via API | 512 kB | 1024 kB |
+
 * Korrigerade ett problem som gjorde att det aktuella beroendet inte visades när kunderna klickade på [!UICONTROL Edit Dependency] på en aktivitets [!UICONTROL Goals & Settings]-sida. (TGT-39340)
 * Ett problem har korrigerats vid uppdatering av en arbetsytans [!UICONTROL Audience Library]. Före uppdateringen visas målgrupperna för den valda arbetsytan. Efter uppdateringen visas [!UICONTROL Default Workspace] och dess målgrupper. Den aktuella arbetsytan och dess målgrupper finns kvar efter uppdateringen. (TGT-38871)
 * Ett problem har korrigerats vid kopiering av en [!UICONTROL Recommendations]-aktivitet och senare redigering av den ursprungliga aktiviteten genom att villkorssekvensen ändrades. Ändringen i villkorssekvensen i den ursprungliga aktiviteten tillämpades också felaktigt på den kopierade aktiviteten. (TGT-39155)
