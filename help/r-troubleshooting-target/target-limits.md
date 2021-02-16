@@ -1,12 +1,13 @@
 ---
 keywords: teckengräns;mbox-parametrar;batchleverans api;profilparametrar;begränsningar;inbyggda profiler;maximum;limit;begränsning;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Visa en lista över teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Adobe Target.
-title: Granska en lista över teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Adobe Target.
+title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsningar i Adobe Target?
 feature: Troubleshooting
+mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Gränser
 
-Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i [!DNL Adobe Target].
+Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -26,39 +27,45 @@ Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek,
 
 ## Verksamhet
 
-**Rekommenderad gräns**: 10 000 aktiva aktiviteter.
+### Aktivitetsnamn
 
-**Rekommenderad gräns**: 10 000 aktiva sparade (och inte avslutade) aktiviteter.
+* **Gräns**: 250 tecken.
 
-## Aktivitetsnamn
+### Antal aktiviteter per konto
 
-**Gräns**: 250 tecken.
+* **Rekommenderad gräns**: 10 000 aktiva aktiviteter.
 
-## Målgruppsnamn
-
-**Gräns**: 255 tecken.
+* **Rekommenderad gräns**: 10 000 aktiva sparade (och inte avslutade) aktiviteter.
 
 ## Målgrupper
 
-**Gräns**: 50 målgrupper per mbox, metric eller upplevelse.
+### Målgruppsnamn
 
-## Målgrupper, återanvändbara per konto
+* **Gräns**: 255 tecken.
 
-**Rekommenderad gräns**: 20 000 målgrupper.
+### Målgrupper, återanvändbara per konto
+
+* **Rekommenderad gräns**: 20 000 målgrupper.
+
+### Antal målgrupper per mbox, metrisk eller upplevelse
+
+* **Gräns**: 50 målgrupper
 
 ## categoryId-parameter
 
-**Gräns**: 128 tecken.
+* **Gräns**: 128 tecken.
 
-## Namn på kundattribut
+## Kundattribut
 
-**Gräns**: 250 tecken genom feed eller API.
+### Namn på kundattribut
 
-## ID för kundattributalias
+* **Gräns**: 250 tecken genom feed eller API.
 
-**Endast**  50 tecken.
+### ID för kundattributalias
 
-## Kundattribut, överföra
+* **Endast**  50 tecken.
+
+### Kundattribut, överföra
 
 * **Maximal filstorlek för varje överföring med HTTP-metoden**: 100 MB.
 * **maximal filstorlek för varje överföring med FTP-metoden**: 4 GB.
@@ -66,187 +73,202 @@ Information om teckenbegränsningar och andra begränsningar (erbjudandestorlek,
 
 ## Enheter
 
-Det högsta antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99.
+### Antal enheter
 
-## Anpassade attribut för entitet
+* Det högsta antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99.
 
-Du kan inkludera upp till 100 anpassade entitetsattribut
+### Anpassade attribut för entitet
 
-**Gräns**: Den maximala teckenlängden beror på språket.
+* **Anpassade entitetsattribut**: 100.
 
-* 15 000 tecken (språk med ett värde, en och två byte)
-* 500 värden, 100 tecken per värde (flervärde)
+* **Teckengräns**: Den maximala teckenlängden beror på språket.
 
-Den maximala längden för anpassade attribut för en entitet med ett värde är 15 000 tecken (för UTF-8-kodade språk med en byte och två byte, som engelska och andra latinska skriftspråk) eller 10 000 tecken (för UTF-8-kodade språk med tre byte som kinesiska, japanska och koreanska).
+   * 15 000 tecken (språk med ett värde, en och två byte)
+   * 500 värden, 100 tecken per värde (flervärde)
 
-Anpassade attribut för entiteter med flera värden får inte innehålla fler än 500 värden. Varje enskilt värde är begränsat till 100 tecken. Det totala antalet tecken i alla värden måste uppfylla begränsningarna för den maximala längden för anpassade entitetsattribut med ett värde (se ovan).
+   Den maximala längden för anpassade attribut för en entitet med ett värde är 15 000 tecken (för UTF-8-kodade språk med en byte och två byte, som engelska och andra latinska skriftspråk) eller 10 000 tecken (för UTF-8-kodade språk med tre byte som kinesiska, japanska och koreanska).
 
-## entityID-parametrar
+   Anpassade attribut för entiteter med flera värden får inte innehålla fler än 500 värden. Varje enskilt värde är begränsat till 100 tecken. Det totala antalet tecken i alla värden måste uppfylla begränsningarna för den maximala längden för anpassade entitetsattribut med ett värde (se ovan).
 
-**Gräns**: 1 000 tecken.
+### entityID-parametrar
+
+* **Gräns**: 1 000 tecken.
 
 ## excludeIds {#excludedid}
 
-**Gräns**: 5 kB för förfrågningar om POST. 2 083 tecken minus längden på URL:en för GET-begäranden.
+* **Gräns**: 5 kB för förfrågningar om POST. 2 083 tecken minus längden på URL:en för GET-begäranden.
 
-För GET-förfrågningar gäller att även om gränsen för backend är 5 kB, eftersom Microsoft Internet Explorer begränsar URL:en till 2 083 tecken, är den realistiska gränsen 2 083 tecken minus URL:ens aktuella längd.
+   För GET-förfrågningar gäller att även om gränsen för backend är 5 kB, eftersom Microsoft Internet Explorer begränsar URL:en till 2 083 tecken, är den realistiska gränsen 2 083 tecken minus URL:ens aktuella längd.
 
-## Experience names
+## Erfarenheter
 
-**Gräns**: 50 tecken.
+### Experience names
 
-## Erfarenheter per aktivitet
+* **Gräns**: 50 tecken.
 
-**Gräns**: 2 000 upplevelser per aktiviteten Experience Targeting (XT), A/B Test, Multivariate Test (MVT) och Auto-Target.
+### Erfarenheter per aktivitet
 
-30 000 upplevelser per Automated Personalization-aktivitet (AP).
+* **Gräns**: 2 000 upplevelser per aktiviteten Experience Targeting (XT), A/B Test, Multivariate Test (MVT) och Auto-Target.
 
-## Attributvärde för profil i rutan
+   30 000 upplevelser per Automated Personalization-aktivitet (AP).
 
-**Gräns**: 256 tecken.
+## mboxes
 
-Värden som är längre än detta trunkeras.
+### Attributvärde för profil i rutan
 
-## Profilnamn i mbox
+* **Gräns**: 256 tecken.
 
-**Gräns**: 128 tecken.
+   Värden som är längre än detta trunkeras.
 
-## mbox names
+### Profilnamn i mbox
 
-**Gräns**: 250 tecken.
+* **Gräns**: 128 tecken.
 
-## mbox-parametrar
+### mbox names
 
-**Gräns**: Följande begränsningar gäller för mbox-parametrar:
+* **Gräns**: 250 tecken.
 
-För vanliga mbox-anrop:
-* mbox-parametrar: 500 parametrar per mbox.
-* Profilparametrar: 500 parameterprofilparametrar per mbox.
-* Andra parametrar (URL, refererande URL, osv.): 50 per mbox för varannan parametertyp.
+### mbox-parametrar
 
-Dessa begränsningar gäller såvida inte begäran förkortas på grund av webbläsarbegränsningar.
+* **Gräns**: Följande begränsningar gäller för mbox-parametrar:
 
-Om du använder API:t för gruppleverans är gränsen 50 mbox per batch-begäran.
+   För vanliga mbox-anrop:
 
-Om du använder [API:t för gruppleverans](https://developers.adobetarget.com/api/#server-side-batch-delivery) i SDK för mobila tjänster är begränsningen 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
+   * mbox-parametrar: 500 parametrar per mbox.
+   * Profilparametrar: 500 parameterprofilparametrar per mbox.
+   * Andra parametrar (URL, refererande URL, osv.): 50 per mbox för varannan parametertyp.
 
-&quot;Antalet mboxParameters får inte överskrida 50.&quot;
+   Dessa begränsningar gäller såvida inte begäran förkortas på grund av webbläsarbegränsningar.
 
-Begränsningar för slutpunkter:
+   Om du använder API:t för gruppleverans är gränsen 50 mbox per batch-begäran.
 
-Batchruta v2:
-* mbox parameters 100
-* mbox-parameternamn max length 128
-* mbox-parametervärdet får inte vara null
-* mbox-parametervärde 5000
-* profilparametrar 50
-* profilparameternamn max längd 128
-* profilparametervärdet får inte vara null
-* maxlängd för profilparametervärde 256
+   Om du använder [API:t för gruppleverans](https://developers.adobetarget.com/api/#server-side-batch-delivery) i SDK för mobila tjänster är begränsningen 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
 
-Slutpunkt för leverans-API
-* mbox parameters 50
-* mbox-parameternamn max length 128
-* mbox-parametervärdet får inte vara null
-* mbox-parametervärde 5000
-* profilparametrar 50
-* profilparameternamn max längd 128
-* profilparametervärdet får inte vara null
-* maxlängd för profilparametervärde 256
+   &quot;Antalet mboxParameters får inte överskrida 50.&quot;
 
-## URL för mbox-begäran
+   Begränsningar för slutpunkter:
 
-**Gräns**: 2 083 tecken.
+   **Batchruta v2**:
 
-Den här gränsen beror på längdbegränsningar i URL:en för Microsoft Internet Explorer.
+   * mbox parameters 100
+   * mbox-parameternamn max length 128
+   * mbox-parametervärdet får inte vara null
+   * mbox-parametervärde 5000
+   * profilparametrar 50
+   * profilparameternamn max längd 128
+   * profilparametervärdet får inte vara null
+   * maxlängd för profilparametervärde 256
 
-## parametern mbox3rdPartyId
+   **Slutpunkt för leverans-API**
 
-**Gräns**: 60 tecken.
+   * mbox parameters 50
+   * mbox-parameternamn max length 128
+   * mbox-parametervärdet får inte vara null
+   * mbox-parametervärde 5000
+   * profilparametrar 50
+   * profilparameternamn max längd 128
+   * profilparametervärdet får inte vara null
+   * maxlängd för profilparametervärde 256
 
-## Erbjudandenamn
 
-**Gräns**: 250 tecken.
 
-## Erbjudandestorlek
+### URL för mbox-begäran
 
-**Gräns**: Följande storleksbegränsningar gäller för erbjudanden:
+* **Gräns**: 2 083 tecken.
 
-* 256 kB för HTML-erbjudanden.
-* 64 kB för visuella erbjudanden från användargränssnittet.
-* 512 kB från API:t.
+   Den här gränsen beror på längdbegränsningar i URL:en för Microsoft Internet Explorer.
 
-Om du använder en global mbox är gränsen för hela den innehållsuppsättning som returneras för sidan. Genom att begränsa erbjudandestorleken förbättras sidinläsningstiden. Om gränsen överskrids visas följande meddelande:
+### parametern mbox3rdPartyId
 
-&quot;Innehållet i upplevelsen är för stort för att kunna leverera. Ändra upplevelsen så att den påverkar mindre sidkod.&quot;
+* **Gräns**: 60 tecken.
 
 ## Erbjudanden
 
-**Rekommenderad gräns**: Totalt 50 000 erbjudanden.
+### Erbjudandenamn
+
+* **Gräns**: 250 tecken.
+
+### Antal erbjudanden
+
+* **Rekommenderad gräns**: Totalt 50 000 erbjudanden.
+
+### Erbjudandestorlek
+
+* **Gräns**: Följande storleksbegränsningar gäller för erbjudanden:
+
+   * 256 kB för HTML-erbjudanden.
+   * 64 kB för visuella erbjudanden från användargränssnittet.
+   * 512 kB från API:t.
+
+   Om du använder en global mbox är gränsen för hela den innehållsuppsättning som returneras för sidan. Genom att begränsa erbjudandestorleken förbättras sidinläsningstiden. Om gränsen överskrids visas följande meddelande:
+
+   &quot;Innehållet i upplevelsen är för stort för att kunna leverera. Ändra upplevelsen så att den påverkar mindre sidkod.&quot;
 
 ## orderId-parameter
 
-**Rekommenderad gräns**: 120 tecken.
+* **Rekommenderad gräns**: 120 tecken.
 
 ## orderTotal-parameter
 
-**Rekommenderad gräns**: 120 tecken.
+* **Rekommenderad gräns**: 120 tecken.
 
 ## productPurchasedId, parameter
 
-**Gräns**: 47 tecken per kommaavgränsat värde och totalt 250 tecken. Enskilda värden som är längre än 47 tecken kan trunkeras av systemet. Sammanlagda längden över 250 tecken kan resultera i ett 400-fel.
+* **Gräns**: 47 tecken per kommaavgränsat värde och totalt 250 tecken. Enskilda värden som är längre än 47 tecken kan trunkeras av systemet. Sammanlagda längden över 250 tecken kan resultera i ett 400-fel.
 
 ## Profilskript
 
-**Rekommenderad gräns för aktiva profilskript**: 300
+* **Rekommenderad gräns för aktiva profilskript**: 300
 
-**Rekommenderad gräns för totalt antal profilskript per konto**: 2 000
+* **Rekommenderad gräns för totalt antal profilskript per konto**: 2 000
 
-**Recommendations för att begränsa komplexiteten** i profilskript: Profilskript kan köra ett begränsat antal instruktioner. Mer information finns i [God praxis](/help/c-target/c-visitor-profile/profile-parameters.md#best) i *Profilattribut*.
+* **Recommendations för att begränsa komplexiteten** i profilskript: Profilskript kan köra ett begränsat antal instruktioner. Mer information finns i [God praxis](/help/c-target/c-visitor-profile/profile-parameters.md#best) i *Profilattribut*.
 
 ## Egenskaper
 
-**Rekommenderad gräns**: 5 000 egenskaper.
+* **Rekommenderad gräns**: 5 000 egenskaper.
 
 ## Rapportera målgrupper/segment
 
-**Gräns**: 50 rapportmålgrupper/segment per verksamhet.
+* **Gräns**: 50 rapportmålgrupper/segment per verksamhet.
 
 ## Skriptprofilens inmatningsruta i målgränssnittet
 
-**Rekommenderad gräns**: 2 000 tecken.
+* **Rekommenderad gräns**: 2 000 tecken.
 
-Beroende på storleken på den kodade strängen, som kan vara mycket längre än Raw-strängen. Om strängen är för stor misslyckas den innan den kommer till Adobe Target.
+   Beroende på storleken på den kodade strängen, som kan vara mycket längre än Raw-strängen. Om strängen är för stor misslyckas den innan den kommer till Adobe Target.
 
-## Skriptprofilnamn
+## Skriptprofiler
 
-**Gräns**: 50 tecken.
+### Skriptprofilnamn
 
-## Värden för skriptprofil
+* **Gräns**: 50 tecken.
 
-**Gräns**: 2 048 tecken.
+### Värden för skriptprofil
 
-Av prestandaskäl rekommenderar vi ett returvärde som inte är längre än 256 tecken.
+* **Gräns**: 2 048 tecken.
 
-Om returvärdet för ett String-returvärde är större än 2 048 tecken inaktiveras skriptet av systemet.
+   Av prestandaskäl rekommenderar vi ett returvärde som inte är längre än 256 tecken.
 
-Om storleken på de sammanfogade värdena i arrayen överstiger 2 048 tecken inaktiveras skriptet av systemet för ett arrayreturvärde.
+   Om returvärdet för ett String-returvärde är större än 2 048 tecken inaktiveras skriptet av systemet.
+
+   Om storleken på de sammanfogade värdena i arrayen överstiger 2 048 tecken inaktiveras skriptet av systemet för ett arrayreturvärde.
 
 ## Framgångsmått
 
-**Gräns**: 200 per aktivitet.
+* **Gräns**: 200 per aktivitet.
 
-## Målförhållanden
+## Målinriktning
 
-**Rekommenderad gräns**: 1 000 värden.
+### Målförhållanden
 
-Det här refererar till antalet radavgränsade värden i måltextområdet. Du kan till exempel ange 1 000 postkoder i ett postnummermål.
+* **Rekommenderad gräns**: 1 000 värden.
 
-## Riktningsregler
+   Det här refererar till antalet radavgränsade värden i måltextområdet. Du kan till exempel ange 1 000 postkoder i ett postnummermål.
 
-**Rekommenderad gräns**: 2 500 tecken per målregelvärde.
+### Riktningsregler
 
-**Rekommenderad gräns**: 30 000 unika värden per målgrupp över målinriktningsreglerna.
-
-**Rekommenderad gräns**: 100 000 unika målregelvärden per aktivitet.
+* **Rekommenderad gräns**: 2 500 tecken per målregelvärde.
+* **Rekommenderad gräns**: 30 000 unika värden per målgrupp över målinriktningsreglerna.
+* **Rekommenderad gräns**: 100 000 unika målregelvärden per aktivitet.
 
