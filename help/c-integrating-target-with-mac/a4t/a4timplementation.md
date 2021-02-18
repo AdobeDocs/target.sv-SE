@@ -4,9 +4,9 @@ description: Följ stegen som krävs för att implementera Analytics for Target 
 title: Hur implementerar jag analys för mål (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Kraven för användarkontot måste uppfyllas innan du kan skapa en [!DNL Analyti
 
 Med besökar-ID-tjänsten kan du identifiera användare i [!DNL Adobe Experience Cloud]-lösningar. Du måste implementera eller migrera till den version av Experience Cloud Visitor-ID som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Se [Implementera Experience Cloud ID-tjänsten för mål](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) i *Experience Cloud Visitor ID-tjänsten*-dokumentationen.
+Se [Implementera Experience Cloud ID-tjänsten för mål](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) i *Experience Cloud Visitor ID-tjänsten*-dokumentationen.
 
 ## Steg 4: Uppdatera AppMeasurement för JavaScript eller s_code
 
 Du måste implementera eller migrera till den version av appMeasurement.js som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Information om nya implementeringar finns i [Översikt över JavaScript-implementering](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) i *implementeringshandboken för analyser*.
+Information om nya implementeringar finns i [Översikt över JavaScript-implementering](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) i *implementeringshandboken för analyser*.
 
-Om du vill ha en migrering läser du i [Migrera till AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) i *implementeringshandboken för analyser*.
+Om du vill ha en migrering läser du i [Migrera till AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) i *implementeringshandboken för analyser*.
 
 ## Steg 5: Ladda ned och uppdatera på js
 
@@ -90,7 +90,7 @@ Den här konfigurationen har en global effekt, vilket innebär att alla anrop fr
 }
 ```
 
-Nyttolasten kan sedan vidarebefordras till Analytics via [API:t för datainmatning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Observera att för [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter måste du även vidarebefordra sessions-ID. Mer information finns i [Analytics for Target-rapportering (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) i *Adobe Target SDKs*-guiden.
+Nyttolasten kan sedan vidarebefordras till Analytics via [API:t för datainfogning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Observera att för [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter måste du även vidarebefordra sessions-ID. Mer information finns i [Analytics for Target-rapportering (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) i *Adobe Target SDKs*-guiden.
 
 Om en global inställning inte önskas och en mer on demand-metod är att föredra kan du använda funktionen at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) för att uppnå detta genom att skicka **analyticsLogging: &quot;client_side&quot;**. Analysens nyttolast returneras bara för det här anropet och [!DNL Target]-backend vidarebefordrar inte nyttolasten till [!DNL Analytics]. Om du väljer det här sättet returnerar inte alla at.js [!DNL Target]-begäranden nyttolasten som standard, utan bara när det önskas och anges.
 
