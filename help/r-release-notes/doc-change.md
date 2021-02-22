@@ -2,11 +2,11 @@
 keywords: måldokumentets ändringslogg;dokumentationsuppdateringar;nya ämnen;redigeringar;uppdateringar;uppdatera
 description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Target produktdokumentation.
 title: Var kan jag se dokumentationsuppdateringar för Target?
-feature: Release Notes
+feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '3630'
+source-wordcount: '3650'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 22 februari | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Uppdaterade följande frågor och svar:<ul><li>Var kan segment användas i Analysis Workspace?</li></ul> |
 | 16 februari | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterad text för begränsningsstorlek för erbjudanden i prerelease notes. |
 | 11 februari | [Så här fungerar Target](/help/c-intro/how-target-works.md) | Uppdaterat avsnittet &quot;Börjor&quot;. |
 | 10 februari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om Adobe Target Community Q&amp;A Coffee Break lades till onsdagen den 24 februari 2021. |
