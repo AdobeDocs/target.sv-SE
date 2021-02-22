@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3648'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande problem har flyttats från avsnittet Kända fel till avsnittet Lösta problem: &quot;Bilden innehåller etiketten &quot;Bearbetar&quot;.&quot; |
 | 1 december | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Inbäddade webbinariet för att&quot;personalisera och testa med nolltidsfördröjning med beslut från Adobe Target på enheter&quot;. |
 | 24 november | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>[Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i målgränssnittet.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Följande lösta problem har lagts till:<ul><li>[Analyser för målrapportering (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
-|  | [Måttdefinitioner - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Följande frågor och svar har lagts till: &quot;Varför har jag inte åtkomst till alternativen för Avancerade inställningar när jag konfigurerar min målkod?&quot; |
+|  | [Måttdefinitioner - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Följande frågor och svar har lagts till: &quot;När jag konfigurerar mina målvärden, varför kan jag inte komma åt alternativen för Avancerade inställningar?&quot; |
 |  | [Framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md) | Justerad text i anteckningen om aktiviteter som använder A4T. |
 | 17 november | [Aktivitetsinställningar - vanliga A4T-frågor](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Följande frågor och svar har lagts till: &quot;Kan en besökare växla mellan målinriktade och kontrollerade upplevelser vid olika besök i en Auto-Target-aktivitet som använder A4T?&quot; |
 |  | [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Följande frågor och svar har lagts till: &quot;Rekommenderar du att vi använder Automatiskt mål med en delning på 90 (Kontroll)/10 (Mål) tills modellerna har byggts?&quot; |
@@ -231,7 +231,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Följande nya rader har lagts till i avsnittet Inställningar:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Följande nya avsnitt har lagts till:<ul><li>Skyddsprofil för innehåll</li></ul> |
 | 24 mars | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Lagt till information om påverkan för följande:<ul><li>Profilskript baserade på 3rdPartyID</li><li>QA/Preview URLs in iOS devices</li></ul> |
 | 20 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Anges att Target Standard/Premium 20.2.1 kommer att vara den 23 mars 2020. |
-| 13 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterade antalet&quot;Målgrupper, återanvändbara per konto&quot;. |
+| 13 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterade antalet&quot;målgrupper, återanvändbara per konto&quot;. |
 | 12 mars | [Versionsinformation (aktuell)](/help/r-release-notes/release-notes.md#summit) | Ytterligare registreringsinformation för kostnadsfri åtkomst till den digitala Summit på webben. |
 | 9 mars | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ytterligare information har lagts till i avsnittet&quot;Ersättning av den senaste oktetten med IP-adresser&quot;. |
 |  | [Arbeta med attribut för flera värden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Uppdaterat kodexempel i *Skicka en flervärdesparameter i JavaScript*. |
