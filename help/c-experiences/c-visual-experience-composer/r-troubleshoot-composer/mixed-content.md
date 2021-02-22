@@ -4,9 +4,9 @@ description: I vissa webbläsare blockeras visningen av en sida om säkert inneh
 title: Hur aktiverar jag blandat innehåll i webbläsaren?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Aktivera blandat innehåll i webbläsaren
 
-Blandat innehåll uppstår om både HTTPS-innehåll (säkert) *och* HTTP-innehåll (osäkert) läses in för att visa samma webbsida och den ursprungliga begäran var säker över HTTPS.
+Blandat innehåll inträffar om den ursprungliga begäran är säker över HTTPS, men HTTPS *och* HTTP-innehåll läses in för att visa webbsidan. HTTPS-innehåll är säkert. HTTP-innehållet är osäkert.
 
 Nya webbläsare kan blockera visningen av en sida eller visa varningsmeddelanden om säkert innehåll blandas med osäkert innehåll.
 
-Om [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Target] försöker öppna en sida som innehåller blandat innehåll visas ett meddelande om hur du inaktiverar blockering i webbläsaren så att du kan öppna en HTTP-webbplats eller en plats med blandade anrop (HTTPS och HTTP).
+Ett varningsmeddelande visas om [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Target] försöker öppna en sida med blandat innehåll. Det här meddelandet informerar dig om hur du inaktiverar blockering i webbläsaren. Om du inaktiverar blockering kan du öppna en HTTP-webbplats eller en plats med blandade anrop (HTTPS och HTTP).
 
-![varning om blandat innehåll](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+![Varning om blandat innehåll](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 Tidigare kunde du utföra några åtgärder i steg 1 i det guidade arbetsflödet i tre steg när du skapade aktiviteter när blandat innehåll inte tilläts. [!DNL Target] blockerar nu åtgärder i steg 1. När det här meddelandet visas måste du aktivera blandat innehåll innan du kan fortsätta skapa aktiviteten.
 
@@ -38,11 +38,11 @@ Mer information finns i [Blandat innehåll](https://developer.mozilla.org/en-US/
 
 Om du besöker en webbplats via en säker anslutning verifierar Chrome att innehållet på webbsidan har överförts på ett säkert sätt.
 
-Se [Den här sidan har osäkert innehåll](https://support.google.com/chrome/answer/1342714?hl=en) i hjälpen för Google Chrome.
+Se &quot;[Den här sidan har osäkert innehåll](https://support.google.com/chrome/answer/1342714?hl=en)&quot; i hjälpen för Google Chrome.
 
 Om du använder VEC med den senaste versionen av Chrome (version 79.0.3945.117 eller senare) måste du uppdatera platsinställningarna. Besökare på webbplatsen behöver inte utföra dessa steg.
 
-1. Klicka på låsikonen eller varningsikonen och klicka sedan på **[!UICONTROL Site settings]**.
+1. Klicka på låsikonen (försiktighet) och klicka sedan på **[!UICONTROL Site settings]**.
 
    ![Webbplatsinställningar](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
@@ -63,7 +63,7 @@ Som standard blockerar Firebox sidor som blandar säkert och osäkert innehåll.
 
 1. Skriv `block_active` i sökfältet.
 
-   ![Aktiv inställning för Firefox-block](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox-block_active-inställning](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
 1. Dubbelklicka på ` **[!UICONTROL security.mixed_content.block_active_content]**` .
 
@@ -71,7 +71,7 @@ Som standard blockerar Firebox sidor som blandar säkert och osäkert innehåll.
 
    ![Firefox-säkerhet](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-Vi rekommenderar att du startar om datorn när du har ändrat den här inställningen.
+Starta om datorn när du har ändrat den här inställningen.
 
 ## Aktivera blandat innehåll i Microsoft Edge
 
@@ -79,7 +79,7 @@ Om du besöker en webbplats via en säker anslutning verifierar Edge att innehå
 
 Om du använder VEC med den senaste versionen av Edge måste du uppdatera platsinställningarna. Besökare på webbplatsen behöver inte utföra dessa steg.
 
-1. Klicka på låsikonen eller varningsikonen och klicka sedan på **[!UICONTROL Site Permissions]**.
+1. Klicka på låsikonen (försiktighet) och klicka sedan på **[!UICONTROL Site Permissions]**.
 
    ![Webbplatsbehörigheter i Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
