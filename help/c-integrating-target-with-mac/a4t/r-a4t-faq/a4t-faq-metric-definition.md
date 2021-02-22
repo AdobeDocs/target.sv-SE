@@ -2,11 +2,11 @@
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;mått;måttdefinitioner
 description: Hitta svar på frågor om metriska definitioner och användning av Analytics for Target (A4T). Med A4T kan ni använda Analytics-rapportering med Adobe Target-aktiviteter.
 title: Var hittar jag information om metriska definitioner med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om metriska def
 
 Standardförfallotiden för aktiviteten är 90 dagar efter en besökares senaste interaktion med aktiviteten. Detta kan justeras av ClientCare vid behov. Den här inställningen är global för alla aktiviteter, så den bör inte justeras för ett fall.
 
-## Varför har jag inte åtkomst till alternativen för Avancerade inställningar när jag konfigurerar min målkod? {#adv-settings}
+## Varför har jag inte åtkomst till alternativen för Avancerade inställningar när jag konfigurerar mina målvärden? {#adv-settings}
 
 Alternativen [!UICONTROL Advanced Settings] är inte tillgängliga för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T).
 
