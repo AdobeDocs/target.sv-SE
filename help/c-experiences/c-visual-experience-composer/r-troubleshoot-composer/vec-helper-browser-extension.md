@@ -4,9 +4,9 @@ description: Upptäck varför vissa webbplatser kanske inte kan öppnas på ett 
 title: Hur använder jag hjälptillägget Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,10 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
 
 ## Fördelar med att använda VEC Helper-tillägget
 
-* Alla iframe-rubriker, som X-Frame-Options och Content-Security-Policy, tas implicit bort från webbplatsen. Du behöver inte längre skapa komplicerade regler för att göra detta.
+* Alla iframe-rubriker, som X-Frame-Options och Content-Security-Policy, tas implicit bort från webbplatsen. Du behöver inte längre skapa komplicerade regler.
 * Om en webbsida ännu inte innehåller JavaScript-biblioteket [!DNL Target] at.js kan du använda tillägget för att mata in biblioteket så att du kan skapa webbplatsupplevelser. Du kan sedan skapa aktiviteter och köra frågor och svar med hjälp av förhandsgranskningslänkar.
 
-   Observera att när du använder Enhanced Experience Composer (EEC) injiceras inte at.js, men funktionen SameSite Cookie finns fortfarande. Om du vill mata in at.js på webbsidan stänger du av EEC.
+   Observera att tillägget inte injicerar at.js med Enhanced Experience Composer (EEC), men funktionen SameSite Cookie finns fortfarande kvar. Om du vill mata in at.js på webbsidan stänger du av EEC.
 
 * [Mobila ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visningsrutor stöds även utan  [!UICONTROL Enhanced Experience Composer] (EEC).
 * Kunder som inte är [!DNL Target] kan använda tillägget för att experimentera med [!DNL Target] även om deras IT-utvecklare ännu inte har implementerat [!DNL Target] på sina webbplatser.
@@ -72,7 +72,7 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
 * Implementeringen måste använda biblioteket [!DNL Target] at.js. Du kan inte använda en mbox.js-implementering med tillägget.
 * Flaggan [!UICONTROL Inject Target libraries] i tillägget är inaktiverad som standard. Du kan aktivera den här flaggan om du vill använda VEC på en webbplats som ännu inte har implementerats för [!DNL Target].
 
-   Tänk på att den här flaggan är en global inställning. Flaggan är aktiverad eller inaktiverad för alla webbplatser som öppnas i VEC. Om du t.ex. anger den här flaggan som&quot;on&quot; och öppnar en webbplats som redan har implementerats med at.js får du ett meddelande om att at.js redan har lästs in. Vi räknar med att de flesta kunder redan har at.js implementerat på sina sidor och kommer att använda standardinställningen&quot;off&quot;.
+   Den här flaggan är en global inställning. Flaggan är aktiverad eller inaktiverad för alla webbplatser som öppnas i VEC. Om du till exempel anger att flaggan ska vara&quot;on&quot; och öppna en webbplats som redan har implementerats med at.js, får du ett meddelande om att at.js redan har lästs in. Adobe räknar med att de flesta kunder redan har at.js implementerat på sina sidor och använder standardinställningen&quot;off&quot;.
 
 * Tillägget läser in den senaste versionen av at.js som är tillgänglig från [!DNL Target UI] i [!UICONTROL Administration > Implementation].
 * När du använder tillägget för att injicera at.js i [QA-läge](/help/c-activities/c-activity-qa/activity-qa.md) måste du ha en annan flik i Chrome öppen. Denna Chrome-flik måste autentiseras i samma [!DNL Adobe Experience Cloud]-organisation som du skapade aktiviteten i.
