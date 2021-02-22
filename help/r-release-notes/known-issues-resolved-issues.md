@@ -2,11 +2,11 @@
 keywords: kända problem;lösta problem;versionsinformation;fel;problem;korrigeringar
 description: Hitta information om kända fel i Adobe Target, inklusive tillfälliga lösningar. När problem har lösts flyttas de till avsnittet Lösta.
 title: Var hittar jag information om kända fel och lösta problem?
-feature: Release Notes
+feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '4331'
 ht-degree: 0%
 
 ---
@@ -26,17 +26,17 @@ I följande avsnitt listas kända fel för [!DNL Target]:
 
 ### Analyser för målvärden (A4T) för aktiviteterna Automatisk fördelning och Automatisk målanpassning
 
-Det finns ett känt fel i [!DNL Target]-gränssnittet som gör att användare kan välja interaktions- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter. Konverteringsmått stöds. Aktivitets- och intäktsmått stöds *inte*. Om du väljer mått för engagemang eller intäktsmål skapas ingen optimeringsmodell (även om användargränssnittet i [!DNL Target] tillåter att du väljer målvärden som inte stöds).
+Med [!DNL Target]-gränssnittet kan användare välja engagemangs- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter. Konverteringsmått stöds. Aktivitets- och intäktsmått stöds *inte*. Om du väljer målstatistik för engagemang eller intäkter skapas ingen optimeringsmodell.
 
 En lista över målvärden som stöds och inte stöds finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatiskt mål](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Sidleverans {#page-delivery}
 
-Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) i [sidleverans](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), läggs extra blanksteg till före reglerna. Detta är en kosmetisk fråga som inte påverkar målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35920)
+Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) i [sidleverans](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), läggs extra blanksteg till före reglerna. De här extra utrymmena är kosmetiska och påverkar inte målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35920)
 
 ### Länkar för QA-förhandsgranskning
 
-Länkar för förhandsgranskning av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Det bör fungera att försöka göra om förhandsvisningslänkarna. Arkivera sparade aktiviteter som inte längre används aktivt för att förhindra att problemet fortsätter att inträffa. (TNT-37294)
+Länkar för förhandsgranskning av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Försök med förhandsgranskningslänkarna igen. Arkivera sparade aktiviteter som inte längre används aktivt för att förhindra att problemet fortsätter att inträffa. (TNT-37294)
 
 ### QA-läge för Recommendations-aktiviteter
 
@@ -46,20 +46,20 @@ Ett känt fel förhindrar förhandsgranskning om villkoren som används i aktivi
 
 Följande är kända problem med omdirigeringserbjudanden:
 
-* Under vissa omständigheter har ett begränsat antal kunder rapporterat större variationer i trafikdistributionen när ett omdirigeringserbjudande används i aktiviteter som konfigurerats med Analytics for Target (A4T). Ingenjörer från Adobe arbetar för närvarande med detta problem.
+* Ett begränsat antal kunder har rapporterat större variationsgrader i trafikdistributionen när omdirigeringserbjudanden används i aktiviteter som konfigurerats med Analytics for Target (A4T).
 * Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](/help/c-activities/c-activity-qa/activity-qa.md) i stället för att utföra förhandsgranskning och QA. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)
 
-### Avbryt inläsning av en sida i VEC {#cancel}
+### Avbryt inläsning av en sida i Visual Experience Composer (VEC) {#cancel}
 
 * Följande kända fel uppstår för närvarande när inläsningen av en [!UICONTROL A/B Test]- eller [!UICONTROL Experience Targeting]-aktivitet (XT) i VEC avbryts som innehåller en omdirigerings-URL.
 
-   När du avbryter sidinläsningen visas panelen [!UICONTROL Modifications] i VEC i steg ett av de guidade arbetsflödena i tre delar och omdirigeringen till URL-mallen används på upplevelsen (till exempel &quot;Experience B&quot;). När du går vidare till steg två eller tre och sedan går tillbaka till steg ett, inträffar följande situation.
+   När du avbryter sidinläsningen i steg ett av de guidade arbetsflödena för VEC visas panelen [!UICONTROL Modifications] i VEC-fönstret och omdirigeringen till URL-mallen används på upplevelsen (till exempel &quot;Experience B&quot;). När du går vidare till steg två eller tre och sedan går tillbaka till steg ett, inträffar följande situation.
 
    I &quot;Experience B&quot; återges som standard den avbrutna webbplatsens inläsningsmall och panelen [!UICONTROL Modifications] är tillgänglig, vilket inte bör vara fallet eftersom en omdirigering till URL-mallen används. Omdirigering till URL-mallen ska visas.
 
    Så här visar du det korrekta tillståndet för upplevelsen i VEC:
 
-   Om du växlar till en annan upplevelse och sedan växlar tillbaka till &quot;Experience B&quot; visar [!DNL Target] omdirigeringsmallen som används på den här upplevelsen och panelen [!UICONTROL Modifications] är inte tillgänglig. (TGT-32138)
+   Om du växlar till en annan upplevelse och sedan växlar tillbaka till &quot;Experience B&quot;, visar [!DNL Target] omdirigeringsmallen som används på den här upplevelsen och panelen [!UICONTROL Modifications] är inte tillgänglig. (TGT-32138)
 
 * Om du avbryter inläsningen för SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder på panelen [!UICONTROL Modifications].
 
@@ -67,7 +67,7 @@ Följande är kända problem med omdirigeringserbjudanden:
 
 Följande är kända problem med [!UICONTROL Recommendations]-aktiviteter:
 
-* När du kopierar en [!UICONTROL Recommendation]-aktivitet med en aktiv befordran, påverkar alla ändringar i dubblettaktiviteten för närvarande även den ursprungliga aktiviteten, och vice versa. (TGT-39155)
+* När du kopierar en [!UICONTROL Recommendation]-aktivitet med en aktiv befordran, påverkar eventuella ändringar i dubblettaktiviteten även den ursprungliga aktiviteten, och omvänt. (TGT-39155)
 
    Som tillfällig lösning:
 
@@ -79,27 +79,27 @@ Följande är kända problem med [!UICONTROL Recommendations]-aktiviteter:
 * Enheterna har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. (IRI-857)
 * Övertäckningarna &quot;Användningsinformation&quot; för villkor och design återspeglar inte deras användning i A/B- och Experience Targeting-aktiviteter (TGT-34331)
 * Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsgranskning av Recommendations-fältet (TGT-33426)
-* Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av de här objekten i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade.  (TGT-35777)
+* Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av dessa objekt i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade. (TGT-35777)
 * Recommendations-aktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
 * Den feed-status för anpassade kriterier som visas i kriterielistan (kortvyn) uppdateras var tionde minut och kan i sällsynta fall vara mer än tio minuter gammal. Statusen som visas i redigeringsvyn för anpassade kriterier hämtas i realtid och är alltid uppdaterad. (TGT-35896, TGT-36173)
 * Kriterier och designkort visar inte korrekt antal aktiviteter som de används i. Om kriterierna eller designen används i en A/B-aktivitet kan kortet felaktigt visa att designen eller kriterierna inte används, även när designen eller kriterierna används i aktiviteten. (TGT-36621, TGT-37217)
 
 ### Multivariata testaktiviteter (MVT)
 
-I en MVT-aktivitet är vinnaren som visas i tabellen och diagrammet inte konsekvent när mätvärden kontrolleras. Detta inträffar om en användare växlar från Sammanfattning till Diagramvy, sedan växlar tillbaka till Sammanfattningsvy, ändrar ett mått och sedan växlar till Diagramvy. När detta problem uppstår visas alltid rätt vinnare i sammanfattningsvyn. Om användaren aldrig växlar diagramvyn mellan sammanfattningsvyer visas rätt vinnare i diagramvyn.
+I en MVT-aktivitet är vinnaren som visas i tabellen och diagrammet inte konsekvent när mätvärden kontrolleras. Detta inträffar om en användare växlar från Sammanfattning till Diagram, sedan växlar tillbaka till Sammanfattningsvy, ändrar ett mätvärde och sedan växlar till Diagramvy. När detta problem uppstår visas alltid rätt vinnare i sammanfattningsvyn. Om användaren aldrig växlar diagramvyn mellan sammanfattningsvyer visas rätt vinnare i diagramvyn.
 
 ### at.js {#atjs}
 
 Följande är kända problem med at.js:
 
-* Om du använder version at.js före 2.2.0 rapporterar click tracking inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste at.js-versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) om du får det här problemet.
+* Om du använder at.js-versioner före 2.2.0 rapporterar click tracking inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste at.js-versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) om du får det här problemet.
 * Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-filen [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) inte fungerar som den ska.
 
    Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet. (TNT-33366)
 
    >[!NOTE]
    >
-   >En korrigering av problemet fanns i at.js 2.2.0. Du bör uppgradera till den [senaste versionen eller at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) eller bara använda den ovan nämnda lösningen för at.js-versioner tidigare än 2.2.0.
+   >En korrigering av problemet fanns i at.js 2.2.0. Uppgradera till den [senaste versionen eller at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) eller använd den ovan nämnda lösningen endast för at.js-versioner tidigare än 2.2.0.
 
 * När en sida läses in i Visual Experience Composer (VEC) måste Target avgöra om den globala mbox-inställningen är aktiverad eller inaktiverad och om entityID eller categoryID finns på den plats där användaren försöker tillämpa rekommendationen i VEC. Baserat på denna information filtreras kriterielistan. Standardlistan innehåller filtrerade algoritmer, men med kryssrutan [Kompatibel](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) kan du visa hela listan med algoritmer.
 
@@ -118,7 +118,7 @@ Följande är kända problem med at.js:
 
 Framgångsmått med det avancerade alternativet &quot;Hur kommer antalet att ökas&quot; inställt på &quot;varje intryck&quot; eller &quot;varje intryck (exklusive uppdateringar)&quot; kan inte användas som ett framgångsmått som ett annat mätvärde är beroende av.
 
-När ett framgångsmått ställs in på att ökas för varje intryck räknas besökaren igen varje gång besökaren besöker detta framgångsmått. Target återställer sedan resultatmåttet&quot;medlemskap&quot; till 0 så att det kan räknas igen vid nästa intryck. Om ett annat mått kräver att det här måttet har setts först, kommer Target alltså aldrig att känna igen att användaren har sett det första måttet.
+När ett framgångsmått ställs in på ökning för varje intryck räknas besökaren igen varje gång besökaren besöker detta framgångsmått. Target återställer sedan resultatmåttet&quot;medlemskap&quot; till 0 så att det kan räknas igen vid nästa intryck. Om ett annat mått kräver att det här måttet har setts först, kommer Target alltså aldrig ihåg att användaren har sett det första måttet.
 
 ### Analyser för mål (A4T)
 
@@ -130,9 +130,9 @@ Alla aktuella Analytics-paket kan lägga till den här modellen med Attribution 
 
 Kunder kan inte utföra CRUD-åtgärder på Automatisk allokering av aktiviteter via v3-versionen av API:t för A/B-aktiviteter på Adobe I/O.
 
-### GEO Targeting
+### Målinriktning för GEO
 
-Den 10 maj 2020 uppdaterade vi våra GEO-leverantörsfiler, som innehöll vissa inkonsekvenser. Vissa värden som innehåller kommatecken lades till. Även om värden i befintliga målgrupper inte hade något kommatecken. Alla våra leveransservrar påverkades inte av den här ändringen. Därför har de målgrupper som använder sådana värden kanske inte kvalificerat alla korrekta besökare mellan 10 maj och 22 juli 2020.
+Den 10 maj 2020 uppdaterade Adobe GEO-providerfilerna, som innehöll vissa inkonsekvenser. Vissa värden som innehåller kommatecken lades till. Även om värden i befintliga målgrupper inte hade något kommatecken. Alla Adobe-leveransservrar påverkades inte av den här ändringen. Därför har de målgrupper som använder sådana värden kanske inte kvalificerat alla korrekta besökare mellan 10 maj och 22 juli 2020.
 
 ### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i målgränssnittet. {#csv}
 
@@ -142,13 +142,13 @@ Sanningens källa är alltid den rapport som visas i [!DNL Target]-gränssnittet
 
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Eftersom kända problem ovan är lösta flyttas de till följande avsnitt och ytterligare anteckningar läggs till om det behövs.
+Eftersom kända problem ovan har lösts flyttas de till följande avsnitt.Ytterligare anteckningar läggs till om det behövs.
 
 ### Bild med etiketten &quot;Bearbetar&quot;
 
 Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetiketten&quot; i flera timmar efter att bilderna har överförts. I de flesta fall är detta bara ett problem med etiketten: bilderbjudandena kan fortfarande användas i aktiviteter och levereras. (MCUI-10264, TGT-37458)
 
-Detta har korrigerats i Target Standard/Premium 20.10.1.
+Problemet har åtgärdats i Target Standard/Premium 20.10.1.
 
 ### Analyser för målrapportering (A4T)
 
@@ -239,7 +239,7 @@ at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad kli
 
 ### Stöd för företagsbehörigheter i mål-API:er {#api}
 
-Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas på standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Det här problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
+Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Det här problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
 
 ### Rapportering och extrema order
 
@@ -284,7 +284,7 @@ De här problemen löstes.
 
 ### Mål-API:er
 
-v1-versionen av erbjudandets API:er på Adobe I/O hanterar alla erbjudanden som skapats med Target så att de ligger i standardarbetsytan. (TTTEAM-41957)
+v1-versionen av erbjudandets API:er på Adobe I/O behandlar alla erbjudanden som skapats via Target så att de ligger i standardarbetsytan. (TTTEAM-41957)
 
 Problemet löstes.
 
@@ -437,11 +437,11 @@ Fixed in the Target 17.3.1 release (30 mars 2017).
 
 Det tar 10-20 minuter att sprida globala undantagsregler till Premium Recommendations. (RECS-5270)
 
-Åtgärdat i Recommendations 17.2.2.0-utgåvan (6 mars 2017).
+Fixed in the Recommendations 17.2.2.0 release (6 mars 2017).
 
 ### Analyser för målrapportering (A4T)
 
-Rapporterna uppdateras inte när rapportmåttet ändras. Det här är ett gränssnittsproblem. Det påverkar inte datainsamling eller leverans av rapporter. (TGT-22970)
+Rapporterna uppdateras inte när rapportmåttet ändras. Problemet påverkar bara användargränssnittet. Det påverkar inte datainsamling eller leverans av rapporter. (TGT-22970)
 
 Fixed in the Target 17.2.2.0 release (24 februari 2017).
 
