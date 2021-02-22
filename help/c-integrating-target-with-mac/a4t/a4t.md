@@ -2,11 +2,11 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as reporting source for target
 description: Använd Analytics for Target (A4T) för att skapa aktiviteter baserade på analysstatistik för konvertering och målgruppssegment och använda analysrapporter för att undersöka resultaten.
 title: Vad är Analytics för Target (A4T)?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Om du använder [!DNL Analytics] som rapportkälla för en aktivitet, baseras al
 
 Alla [!DNL Analytics]-mått, inklusive beräknade värden, är tillgängliga i [!DNL Target] och i [!UICONTROL Target Activities]-rapporten i [!DNL Analytics]. På samma sätt kan alla segment som är tillgängliga i [!DNL Analytics] användas för båda lösningarna. Du kan använda måttet eller målgruppen för rapporten om [!DNL Target] efter att aktiviteten har startats, eller till och med efter att aktiviteten har slutförts.
 
-Alla mätvärden inkluderas, inklusive alla kundvärden eller beräknade värden som är inbyggda i [!DNL Analytics].
+Alla mått inkluderas, inklusive anpassade eller beräknade värden som är inbyggda i [!DNL Analytics].
 
 Efter klassificeringsperioden visas data i dessa rapporter ungefär en timme efter det att de samlats in från webbplatsen. Alla mätvärden, segment och värden i rapporterna kommer från den rapportsserie du valde när du konfigurerade aktiviteten.
 
@@ -51,7 +51,7 @@ Tänk på följande när du funderar på att använda A4T:
 * Endast ett mbox-baserat mått tillåts när [!DNL Analytics] används som rapportkälla.
 * Ett server-till-server-anrop från [!DNL Target] till [!DNL Analytics] skickar aktivitets- och upplevelseinformation till [!DNL Analytics]. Integrationen resulterar inte i ytterligare serveranrop för antingen [!DNL Target] eller [!DNL Analytics].
 
-   I vissa situationer kan klassificeringsanropet från [!DNL Target] till [!DNL Analytics] misslyckas och aktiviteter visar inte data i [!DNL Analytics]. Om detta inträffar, se [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Du kan även [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver mer hjälp.
+   I vissa situationer kan klassificeringarna från [!DNL Target] till [!DNL Analytics] misslyckas och aktiviteterna visar inte data i [!DNL Analytics]. Om detta inträffar, se [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Du kan även [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver mer hjälp.
 
 ## Aktivitetstyper som stöds {#section_F487896214BF4803AF78C552EF1669AA}
 
