@@ -2,11 +2,11 @@
 keywords: frågor och svar;vanliga frågor;analyser för mål;a4T;rapport;rapporter;visa rapporter;rapportera;inventeringsmetod;visningar;besökare;besök;standardmått;aktivitetskonverteringar;ospecificerad
 description: Hitta svar på frågor som ofta ställs om att visa rapporter när du använder Analytics for Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
 title: Hitta svar på frågor om att visa rapporter med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2391'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ Mer information och exempel finns i [Analytics &amp; Target: Självstudiekursen&
 
 ## Var kan segment användas i Analysis Workspace? {#segmentation}
 
-Segment används oftast på den övre delen av en panel i segmentets släppzon. Segmentet tillämpas på alla tabeller och visualiseringar i panelen. Den här tekniken är mest användbar för att se hur testet påverkar en delmängd av människor (till exempel, hur utfördes det här testet för människor i Storbritannien)?
+Segment används oftast högst upp på en panel i segmentets släppzon. Segmentet tillämpas på alla tabeller och visualiseringar i panelen. Den här tekniken är mest användbar för att se hur testet påverkar en delmängd av människor (till exempel, hur utfördes det här testet för människor i Storbritannien)?
+
+Ett segment kan också läggas i lager direkt i friformstabellen, men observera att du måste täcka över hela tabellen för att kunna bevara lyftnings- och tillförlitlighetsberäkningarna i A4T-panelen. Kolumnnivåsegment stöds för närvarande inte på panelen.
 
 ## Varför returneras orelaterade upplevelser när jag väljer ett träffsegment för en viss Target-aktivitet? {#activity-segmentation}
 
@@ -89,7 +91,7 @@ Den 1 januari kommer användaren till webbplatsen och ser aktiviteten XYZ en gå
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter inte på fler Target-aktiviteter och den ursprungliga aktiviteten är inte längre aktiv. Även om aktiviteten inte längre är aktiv följer den fortfarande användaren via eVar persistence. Data ser nu ut så här:
 
@@ -102,15 +104,15 @@ Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 3 | 3 |
+| ABC | 1 | 5 | 1 | 1 |
 
 Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så vi kommer att se det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 3 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 3 | 3 |
-| Totalt | 2 | 20 | 1 | 3 | 3 |
+| ABC | 1 | 10 | 2 | 3 | 1 |
+| Totalt | 2 | 20 | 1 | 3 | 1 |
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Ni jämför resultaten av två objekt i en enda aktivitet, och det är inte möjligt för en användare att se olika upplevelser i samma aktivitet så att ni inte behöver bekymra er om korskontaminering av orderkrediter.
 
