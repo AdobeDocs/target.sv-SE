@@ -4,9 +4,9 @@ breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: dc8d7b90915e35f60c7f17a47e43f0be55a96d68
+source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
       + [Kapitel 8: Kommunicera aktivitetsresultat](/help/c-intro/target-welcome-kit-8.md)
       + [Kapitel 9: Nästa steg och resurser](/help/c-intro/target-welcome-kit-9.md)
    + [Ordlista](c-intro/glossary.md)
-   + [Så här fungerar Adobe Target](c-intro/how-target-works.md)
+   + [Så här fungerar Target](c-intro/how-target-works.md)
    + [Utbildning och certifiering](c-intro/training-and-certification.md)
    + [Utbildningsvideor om Adobe Target Standard och Premium](c-intro/target-standard-premium-training-videos.md)
    + [Vanliga frågor om måloptimering och personalisering](c-intro/cmp-target-standard-cheatsheet.md)
@@ -66,7 +66,7 @@ ht-degree: 0%
       + Företagsanvändarbehörigheter {#enterprise}
          + [Enterprise-användarbehörigheter](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurera företagsbehörigheter](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Ge Adobe I/O-integreringar åtkomst till arbetsytor och tilldela roller](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Ge Adobe I/O integreringar åtkomst till arbetsytor och tilldela roller](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + Implementera mål {#implement-target}
    + [Implementera målöversikt](c-implementing-target/implementing-target.md)
    + Innan du implementerar {#before-implement}
