@@ -2,12 +2,12 @@
 keywords: Webbläsare;Förutsättningar;Krav;Internet Explorer;chrome;firefox;safari;android;surface
 description: Ta reda på vilka webbläsare Adobe Target stöder för sitt gränssnitt och för leverans av innehåll.
 title: Vilka webbläsare stöder målwebbläsare?
-feature: Implementation
-role: Developer
+feature: Implementering
+role: Utvecklare
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
