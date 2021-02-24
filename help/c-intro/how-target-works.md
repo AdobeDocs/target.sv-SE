@@ -4,7 +4,7 @@ description: Läs om hur Adobe Target fungerar, inklusive information om Target 
 title: Hur fungerar Target?
 feature: Översikt
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om [!DNL Adobe 
 >
 >Alla kunder bör migrera till [!DNL AEP Web SDK] eller till den senaste versionen av at.js. Mer information finns i [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) eller [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Referera till [!DNL AEP Web SDK] eller at.js på alla sidor på webbplatsen. Du kan till exempel lägga till ett av dessa bibliotek i det globala sidhuvudet. Du kan också överväga att använda [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) för att implementera [!DNL Target].
+Referera till [!DNL AEP Web SDK] eller at.js på alla sidor på webbplatsen. Du kan till exempel lägga till ett av dessa bibliotek i det globala sidhuvudet. Du kan också överväga att använda [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) för att implementera [!DNL Target].
 
 Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera AEP Web SDK eller at.js:
 
@@ -56,7 +56,7 @@ Mer information finns i [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test
 
 ### Automatisk allokering
 
-Automatisk tilldelning identifierar en vinnare bland två eller flera upplevelser. Automatisk allokering omfördelar automatiskt mer trafik till den vinnande upplevelsen för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
+Automatisk tilldelning identifierar en vinnare bland två eller flera upplevelser. Automatisk allokering omfördelar automatiskt mer trafik till den vinnande upplevelsen, vilket ökar antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 
 Mer information finns i [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -134,7 +134,7 @@ Tjänsten [!DNL Target Recommendations] finns i ett [!DNL Adobe]-datacenter i Or
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] för närvarande inte har något Edge Cluster i Kina och besökarnas prestanda är fortfarande begränsade för  [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge Clusters i landet kan upplevelserna på webbplatser med [!DNL Target] som distribuerats påverkas. Upplevelserna kan ta lång tid att återge och sidinläsningen kan påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target]-redigeringsgränssnittet.
+>[!DNL Adobe Target] för närvarande inte har något Edge Cluster i Kina och besökarnas prestanda är begränsade för  [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge Clusters i landet kan upplevelserna på webbplatser med [!DNL Target] som distribuerats påverkas. Upplevelserna kan ta lång tid att återge och sidinläsningen kan påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target]-redigeringsgränssnittet.
 
 Du kan tillåtslista [!DNL Target] Edge Clusters om du vill. Mer information finns i [tillåtslista målkantnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
@@ -176,7 +176,7 @@ Riktlinjer presenterades i ett [Google Webmaster Central-blogg](https://webmaste
 
 * **Använd 302 (tillfälliga) omdirigeringar**: I de fall där separata URL:er används för variationssidorna i ett test rekommenderar Google att en 302-omdirigering används för att dirigera trafik till testvarianterna. Omdirigeringen 302 meddelar sökmotorerna att omdirigeringen är tillfällig och endast är aktiv så länge som testet körs.
 
-   En 302-omdirigering är en omdirigering på serversidan, och [!DNL Target], tillsammans med de flesta optimeringsleverantörer, använder funktioner på klientsidan. Därför är detta ett område där [!DNL Target] inte helt följer Googles rekommendationer. Detta tillvägagångssätt påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester via [!DNL Target] kräver att innehållet ändras inom en enda URL, så inga omdirigeringar behövs. Det finns tillfällen när klienter måste använda flera URL:er för att representera testvariationerna. I dessa instanser använder [!DNL Target] JavaScript-kommandot `window.location`. Det här kommandot instruerar användare att testa variationer, vilket inte uttryckligen anger om omdirigeringen är 301 eller 302.
+   En 302-omdirigering är en omdirigering på serversidan, och [!DNL Target], tillsammans med de flesta optimeringsleverantörer, använder funktioner på klientsidan. Därför är omdirigeringar ett område där [!DNL Target] inte är helt kompatibelt med Googles rekommendationer. Detta tillvägagångssätt påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester via [!DNL Target] kräver att innehållet ändras inom en enda URL, så inga omdirigeringar behövs. Det finns tillfällen när klienter måste använda flera URL:er för att representera testvariationerna. I dessa instanser använder [!DNL Target] JavaScript-kommandot `window.location`. Det här kommandot instruerar användare att testa variationer, vilket inte uttryckligen anger om omdirigeringen är 301 eller 302.
 
    Adobe fortsätter att leta efter användbara lösningar som helt överensstämmer med riktlinjerna för sökmotorer. För de kunder som måste använda separata URL:er för testning är Adobe säker på att en korrekt implementering av de kanoniska taggarna minskar riskerna med den här metoden.
 
