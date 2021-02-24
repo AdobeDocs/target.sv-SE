@@ -4,7 +4,7 @@ title: Var hittar jag Target-dokumentation?
 description: Lär dig hur du använder Adobe Target för att personalisera kundernas upplevelse och maximera intäkterna på webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Översikt
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -45,14 +45,14 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 - [Introduktion till Target](c-intro/intro.md): Beskriver kärnbegreppen i  [!DNL Target] lösningen.
 - Integrera Target med Adobe Experience Cloud: Beskriver hur du integrerar [!DNL Target] med andra [!DNL Experience Cloud]-lösningar, inklusive [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Publiker](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) och [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
 - [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Här finns självstudiekurser och videoklipp som hjälper dig att få ut mesta möjliga av Target.
-- [Felsökningsmål](r-troubleshooting-target/troubleshooting-target.md): Tillhandahåller länkar till felsökningsinformation som finns i den här handboken, inklusive information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar osv.) som påverkar aktiviteter och andra element i [!DNL Target].
+- [Felsökningsmål](r-troubleshooting-target/troubleshooting-target.md): Innehåller länkar till felsökningsinformation i den här handboken, inklusive information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar osv.) som påverkar aktiviteter och andra element i  [!DNL Target].
 - [Målgrupp för mobilappar](c-target-mobile-app/target-mobile-app.md): Beskriver hur  [!DNL Target] kan användas för mobilappsoptimering och -personalisering.
-- [Resurser och kontaktinformation](cmp-resources-and-contact-information.md): Innehåller information om ytterligare resurser som hjälper dig att lära dig mer om  [!DNL Target] funktioner och hur du kan kontakta  [!DNL Adobe] om du behöver hjälp.
+- [Resurser och kontaktinformation](cmp-resources-and-contact-information.md): Ger information om fler resurser som hjälper dig att lära dig mer om  [!DNL Target] funktioner och hur du kan kontakta  [!DNL Adobe] om du behöver hjälp.
 
 ## Marknadsförare {#marketers}
 
 - [Verksamheter](c-activities/activities.md): Beskriver hur du konfigurerar, hanterar och QA- [!DNL Target] aktiviteter.
-- [Målgrupper](c-target/target.md): Beskriver hur du avgör vilka som får se innehåll och upplevelser i riktade aktiviteter.
+- [Målgrupper](c-target/target.md): Beskriver hur du avgör vilka som ser innehåll och upplevelser i riktade aktiviteter.
 - [Upplevelser och erbjudanden](c-experiences/experiences.md): Beskriver hur du anger vilket innehåll som ska visas när en besökare uppfyller målgruppskriterierna för en aktivitet.
 - [Recommendations](c-recommendations/recommendations.md): Beskriver hur  [!DNL Recommendations] aktiviteter automatiskt visar produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
 
@@ -71,7 +71,7 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 
 ## Analytiker {#analysts}
 
-- [Målgrupper](c-target/target.md): Beskriver hur du avgör vilka som får se innehåll och upplevelser i riktade aktiviteter.
+- [Målgrupper](c-target/target.md): Beskriver hur du avgör vilka som ser innehåll och upplevelser i riktade aktiviteter.
 - [Rapporter](c-reports/reports.md): Beskriver hur du tolkar hur dina aktiviteter fungerar.
 
 ## QA-ingenjörer {#qa}
