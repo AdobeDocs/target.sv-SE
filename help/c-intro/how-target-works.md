@@ -1,12 +1,12 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;sökmotoroptimering;seo;edge clusters, central clusters;at.js;mbox.js;
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;sökmotoroptimering;sökmotoroptimering;seo;edge clusters, central clusters;at.js;mbox.js;
 description: Läs om hur Adobe Target fungerar, inklusive information om Target JavaScript-bibliotek (at.js och AEP Web SDK), Adobe datacenter och SEO-testning.
 title: Hur fungerar Target?
 feature: Översikt
 translation-type: tm+mt
-source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Riktlinjer presenterades i ett [Google Webmaster Central-blogg](https://webmaste
 
 * **Använd 302 (tillfälliga) omdirigeringar**: I de fall där separata URL:er används för variationssidorna i ett test rekommenderar Google att en 302-omdirigering används för att dirigera trafik till testvarianterna. Omdirigeringen 302 meddelar sökmotorerna att omdirigeringen är tillfällig och endast är aktiv så länge som testet körs.
 
-   En 302-omdirigering är en omdirigering på serversidan, och [!DNL Target], tillsammans med de flesta optimeringsleverantörer, använder funktioner på klientsidan. Därför är omdirigeringar ett område där [!DNL Target] inte är helt kompatibelt med Googles rekommendationer. Detta tillvägagångssätt påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester via [!DNL Target] kräver att innehållet ändras inom en enda URL, så inga omdirigeringar behövs. Det finns tillfällen när klienter måste använda flera URL:er för att representera testvariationerna. I dessa instanser använder [!DNL Target] JavaScript-kommandot `window.location`. Det här kommandot instruerar användare att testa variationer, vilket inte uttryckligen anger om omdirigeringen är 301 eller 302.
+   En 302-omdirigering är en omdirigering på serversidan, och [!DNL Target], tillsammans med de flesta optimeringsleverantörer, använder funktioner på klientsidan. Därför är omdirigering ett område där [!DNL Target] inte är helt kompatibelt med Googles rekommendationer. Detta tillvägagångssätt påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester via [!DNL Target] kräver att innehållet ändras inom en enda URL, så inga omdirigeringar behövs. Det finns tillfällen när klienter måste använda flera URL:er för att representera testvariationerna. I dessa instanser använder [!DNL Target] JavaScript-kommandot `window.location`. Det här kommandot instruerar användare att testa variationer, vilket inte uttryckligen anger om omdirigeringen är 301 eller 302.
 
    Adobe fortsätter att leta efter användbara lösningar som helt överensstämmer med riktlinjerna för sökmotorer. För de kunder som måste använda separata URL:er för testning är Adobe säker på att en korrekt implementering av de kanoniska taggarna minskar riskerna med den här metoden.
 
