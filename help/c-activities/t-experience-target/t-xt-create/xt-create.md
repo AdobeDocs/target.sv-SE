@@ -4,15 +4,15 @@ description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe 
 title: Hur skapar jag en upplevelseinriktad aktivitet?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
 
-# Skapa en Experience Targeting-aktivitet{#create-an-experience-targeting-activity}
+# Skapa en Experience Targeting-aktivitet
 
 Använd [!UICONTROL Visual Experience Composer] (VEC) för att skapa en [!UICONTROL Experience Targeting] (XT)-aktivitet på en målaktiverad sida och för att ändra delar av sidan i [!DNL Adobe Target].
 
@@ -62,14 +62,10 @@ Mer information om Experience Targeting, ett användningsscenario och utbildning
 
    ![Namnfält](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   Följande tecken tillåts inte i aktivitetsnamn:
+   Aktivitetsnamnet får inte börja med något av följande tecken:
 
    | Tecken | Beskrivning |
    |--- |--- |
-   | `/` | Snedstreck |
-   | `?` | Frågetecken |
-   | `#` | Nummertecken |
-   | `:` | Colon |
    | `=` | Lika med |
    | `+` | Plus |
    | `-` | Minus |
