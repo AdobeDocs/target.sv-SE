@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en Automated Personalization-aktivitet (AP) 
 title: Hur skapar jag en Automated Personalization-aktivitet?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,14 @@ Arbetsflödet för aktiviteten [!UICONTROL Automated Personalization] (AP) i [!D
 
    ![Namnfält](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   Följande tecken tillåts inte i aktivitetsnamn:
+   Aktivitetsnamnet får inte börja med något av följande tecken:
 
    | Tecken | Beskrivning |
    |--- |--- |
-   | / | Snedstreck |
-   | ? | Frågetecken |
-   | # | Nummertecken |
-   | : | Colon |
-   | = | Lika med |
-   | + | Plus |
-   | - | Minus |
-   | @ | Vid tecken |
+   | `=` | Lika med |
+   | `+` | Plus |
+   | `-` | Minus |
+   | `@` | Vid tecken |
 
 1. Ändra sidelement enligt beskrivningen i [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
