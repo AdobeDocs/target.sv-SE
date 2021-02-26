@@ -2,11 +2,11 @@
 keywords: Skapa A/B;A/B-test;A/B-aktivitet;ny a/b-aktivitet;skapa a/b
 description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa en A/B Test-aktivitet direkt på en Target-aktiverad sida.
 title: Hur skapar jag ett A/B-test?
-feature: A/B Tests
+feature: A/B-tester
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -62,14 +62,10 @@ Så här skapar du en manuell [!UICONTROL A/B Test] aktivitet:
 
    ![Namnfält](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Följande tecken tillåts inte i aktivitetsnamn:
+   Aktivitetsnamnet får inte börja med något av följande tecken:
 
    | Tecken | Beskrivning |
    |--- |--- |
-   | `/` | Snedstreck |
-   | `?` | Frågetecken |
-   | `#` | Nummertecken |
-   | `:` | Colon |
    | `=` | Lika med |
    | `+` | Plus |
    | `-` | Minus |
