@@ -1,12 +1,12 @@
 ---
-keywords: Skapa automatiskt mål;A/B-test;automatiskt mål-aktivitet;ny a/b-aktivitet;automatiskt mål;automatiskt mål för personaliserade upplevelser;personaliserad
+keywords: Skapa automatiskt mål;A/B-test;automatiskt mål-aktivitet;ny a/b-aktivitet;automatiskt mål;automatiskt mål för personaliserade upplevelser;personaliserad;optimering
 description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa A/B-testaktivitet automatiskt direkt på en Target-aktiverad sida.
 title: Hur skapar jag en automatiskt målaktivering?
-feature: Auto-Target
+feature: Automatiskt mål
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -64,14 +64,10 @@ Så här skapar du en [!UICONTROL Auto-Target]-aktivitet:
 
    ![Namnfält](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Följande tecken tillåts inte i aktivitetsnamn:
+   Aktivitetsnamnet får inte börja med något av följande tecken:
 
    | Tecken | Beskrivning |
    |--- |--- |
-   | `/` | Snedstreck |
-   | `?` | Frågetecken |
-   | `#` | Nummertecken |
-   | `:` | Colon |
    | `=` | Lika med |
    | `+` | Plus |
    | `-` | Minus |
