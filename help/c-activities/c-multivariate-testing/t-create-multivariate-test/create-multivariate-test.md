@@ -2,11 +2,11 @@
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa en MVT-rättighet (Multivariate Test) på en Target-aktiverad sida.
 title: Hur skapar jag ett multivariata test?
-feature: Multivariate Tests
+feature: Multivariata tester
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -56,18 +56,14 @@ Med redigeraren [!DNL Target] kan du välja valfri plats och lägga till flera e
 
    ![Aktivitetsnamnfält](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   Följande tecken tillåts inte i aktivitetsnamn:
+   Aktivitetsnamnet får inte börja med något av följande tecken:
 
    | Tecken | Beskrivning |
    |--- |--- |
-   | / | Snedstreck |
-   | ? | Frågetecken |
-   | # | Nummertecken |
-   | : | Colon |
-   | = | Lika med |
-   | + | Plus |
-   | - | Minus |
-   | @ | Vid tecken |
+   | `=` | Lika med |
+   | `+` | Plus |
+   | `-` | Minus |
+   | `@` | Vid tecken |
 
 1. [Skapa erbjudandena på varje plats](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
