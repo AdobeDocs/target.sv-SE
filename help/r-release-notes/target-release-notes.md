@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: ddc357197f6a182865c5f06930de747c143c7c38
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 17 februari 2021**
+**Senast uppdaterad: 1 mars 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
@@ -32,7 +32,7 @@ Den här underhållsversionen innehåller följande förbättringar, korrigering
 
 Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
-* Ökade den tillåtna erbjudandestorleken:
+* Ökade den tillåtna erbjudandestorleken (TGT-38304):
 
    | Typ | Föregående gräns | Ny gräns |
    | --- | --- | --- |
@@ -40,9 +40,11 @@ Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning
    | Visuella erbjudanden från målgränssnittet | 64 kB | 1 024 kB för varje upplevelse |
    | Via API | 512 kB | 1024 kB |
 
+* [!UICONTROL Personalization Insights] rapporter för  [!UICONTROL Auto-Target] (AT)- och  [!UICONTROL Automated Personalization] (AP)-aktiviteter produceras nu dagligen. Du kan välja en rapport med [!UICONTROL Automated Segments] eller [!UICONTROL Important Attributes] för de senaste 15, 30 och 60 dagarna. Alternativen för 45 och 90 dagar har tagits bort så att de andra inställningarna för uppslagsfönstret kan köras dagligen. (TGT-39472)
 * Korrigerade ett problem som gjorde att det aktuella beroendet inte visades när kunderna klickade på [!UICONTROL Edit Dependency] på en aktivitets [!UICONTROL Goals & Settings]-sida. (TGT-39340)
 * Ett problem har korrigerats vid uppdatering av en arbetsytans [!UICONTROL Audience Library]. Före uppdateringen visas målgrupperna för den valda arbetsytan. Efter uppdateringen visas [!UICONTROL Default Workspace] och dess målgrupper. Den aktuella arbetsytan och dess målgrupper finns kvar efter uppdateringen. (TGT-38871)
 * Ett problem har korrigerats vid kopiering av en [!UICONTROL Recommendations]-aktivitet och senare redigering av den ursprungliga aktiviteten genom att villkorssekvensen ändrades. Ändringen i villkorssekvensen i den ursprungliga aktiviteten tillämpades också felaktigt på den kopierade aktiviteten. (TGT-39155)
+* Korrigerade ett problem som gjorde att fel antal produkter visades för [!UICONTROL Recommendations] undantag. (TGT-39599)
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
