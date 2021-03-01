@@ -2,11 +2,11 @@
 keywords: Versionsinformation;nya funktioner;utgåvor;uppdateringar;uppdatering;release;förbättring;förbättringar;korrigeringar;felkorrigeringar;uppdateringar
 description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av Adobe Target, inklusive SDK, API:er och JavaScript-bibliotek.
 title: Vilka nya funktioner ingår i den aktuella versionen?
-feature: Release Notes
+feature: Versionsinformation
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
