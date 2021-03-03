@@ -2,11 +2,11 @@
 keywords: partiella data;partiella data;A4T;avvikelser;analys för mål;överblivna;virtuell rapportsvit;fantom;felsökning;icke-sammansatt;inflated;unspecified
 description: Lär dig hur du minimerar effekterna av uppblåst besöks- och besökarantal när du använder Analytics for Target (A4t). Lär dig vad"partiella data" är och hur du kan minska den.
 title: Hur minimerar jag antalet uppblåsta besök och besökare i A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Information som hjälper er att minimera effekterna av inflaterade besök- och b
 >[!IMPORTANT]
 >Den 14 november 2016 ändrade Adobe Analytics hur vissa data bearbetas för kunder med Analytics-rapportering för Target (A4T). Dessa ändringar gör att Adobe Target data bättre överensstämmer med Adobe Analytics datamodell. De här ändringarna introducerades för alla kunder som använder A4T. Dessa ändringar åtgärdar specifikt ett problem där vissa kunder har upptäckt ett ökat antal besökare när Target-aktiviteter körs.
 >
->Observera att den här ändringen inte är retroaktiv. Om dina historiska rapporter visar inflaterade räkningar och du vill utesluta dem från dina rapporter, kan du skapa en virtuell rapportsvit, vilket förklaras nedan.
+>Den här ändringen är inte retroaktiv. Om dina historiska rapporter visar inflaterade räkningar och du vill utesluta dem från dina rapporter, kan du skapa en virtuell rapportsvit, vilket förklaras nedan.
 >
->Dessutom har flera JavaScript-bibliotek uppdaterats för att minimera antalet inflaterade fel. Vi rekommenderar att du uppgraderar till följande biblioteksversioner (eller nyare):
+>Dessutom har flera JavaScript-bibliotek uppdaterats för att minimera antalet inflaterade fel. Adobe rekommenderar att du uppgraderar till följande biblioteksversioner (eller nyare):
 >
 >* Experience Cloud Visitor ID-tjänst: visitorAPI.js version 2.3.0 eller senare.
 >* Adobe Analytics: appMeasurement.js version 2.1.
@@ -33,21 +33,21 @@ Biblioteket mbox.js stöder inte omdirigeringserbjudanden med A4T. Implementerin
 
 ## Vad har ändrats? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-När [!DNL Adobe Analytics] används för att mäta [!DNL Target]-aktiviteter (kallas A4T), samlar [!DNL Analytics] in ytterligare data som inte är tillgängliga när det inte finns någon [!DNL Target]-aktivitet på sidan. Detta beror på att aktiviteten [!DNL Target] utlöser ett anrop längst upp på sidan, men [!DNL Analytics] utlöser vanligtvis sina datainsamlingsanrop längst ned på sidan. I implementeringen av A4T hittills har vi tagit med dessa ytterligare data när en [!DNL Target]-aktivitet var aktiv. Framöver kommer vi endast att inkludera dessa ytterligare data när både [!DNL Target]- och [!DNL Analytics]-taggarna har utlösts.
+När [!DNL Adobe Analytics] används för att mäta [!DNL Target]-aktiviteter (kallas A4T), samlar [!DNL Analytics] in extra data som inte är tillgängliga när det inte finns någon [!DNL Target]-aktivitet på sidan. Detta beror på att aktiviteten [!DNL Target] utlöser ett anrop längst upp på sidan, men [!DNL Analytics] utlöser vanligtvis sina datainsamlingsanrop längst ned på sidan. I implementeringen av A4T hittills inkluderar Adobe dessa ytterligare data när en [!DNL Target]-aktivitet var aktiv. Framöver inkluderar Adobe endast dessa ytterligare data när både [!DNL Target]- och [!DNL Analytics]-taggarna har utlösts.
 
 ## Varför gjorde Adobe den här ändringen? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe sätter sig vid datakvalitet och -kvalitet. När taggen [!DNL Target] utlöses, men inte taggen [!DNL Analytics], spelas &quot;partiella data&quot; in (kallas ibland &quot;osökta träffar&quot;) som inte skulle fångas av [!DNL Analytics] om det inte fanns någon [!DNL Target]-aktivitet. Även om denna del av data i [!DNL Analytics]-rapportering ger ytterligare information, skapar den också inkonsekvens med historiska data från perioder när det inte fanns några [!DNL Target]-aktiviteter som kördes. Detta kan orsaka problem för [!DNL Analytics]-användare som analyserar trender över tid. För att säkerställa att data är konsekventa i [!DNL Analytics] kommer vi att utesluta alla partiella data.
+Adobe sätter sig vid datakvalitet och -kvalitet. När taggen [!DNL Target] utlöses, men inte taggen [!DNL Analytics], spelar Adobe in &quot;partiella data&quot; (kallas ibland &quot;osökta träffar&quot;) som inte skulle hämtas av [!DNL Analytics] om det inte fanns någon [!DNL Target]-aktivitet. Även om denna del av data i [!DNL Analytics]-rapportering ger ytterligare information, skapar den också inkonsekvens med historiska data från perioder när det inte fanns några [!DNL Target]-aktiviteter som kördes. Detta kan orsaka problem för [!DNL Analytics]-användare som analyserar trender över tid. För att säkerställa datakonsekvens i [!DNL Analytics] utesluter Adobe alla partiella data.
 
 ## Vad bidrar till delar av data? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-Vi har sett en del kunder med mycket hög andel partiella data i [!DNL Analytics]. Detta kan bero på felaktigt genomförande, men det finns också legitima orsaker.
+Adobe har sett en del kunder med hög andel partiella data i [!DNL Analytics]. Detta kan bero på felaktigt genomförande, men det finns också legitima orsaker.
 
 De identifierade orsakerna till partiella data är bland annat följande:
 
 * **Felanpassade rapportsvit-ID:n (implementering):** Rapportsviten som angavs under aktivitetsinställningarna matchar inte rapportsviten på sidan där testet levereras. Detta ser ut som partiella data eftersom data inte kan förenas på [!DNL Analytics]-servrar.
-* **Långsamma sidor:** Eftersom  [!DNL Target] anrop är längst upp på sidan och  [!DNL Analytics] anrop vanligtvis är längst ned på sidan ökar det sannolikheten för att en besökare lämnar sidan efter att  [!DNL Target] anropet utlösts, men före  [!DNL Analytics] anropet, om sidan läses in långsamt. Detta kan vara särskilt problematiskt på mobilwebbplatser där anslutningarna ofta är långsammare.
-* **Sidfel:** Om det finns JavaScript-fel eller andra scenarier där alla kontaktytor inte utlöses (Experience Cloud ID-tjänsten, Target och Analytics) resulterar partiella data.
+* **Långsamma sidor:** Eftersom  [!DNL Target] anrop är längst upp på sidan och  [!DNL Analytics] anrop vanligtvis är längst ned på sidan ökar det sannolikheten för att en besökare lämnar sidan efter att  [!DNL Target] anropet utlösts, men före  [!DNL Analytics] anropet. Detta kan vara särskilt problematiskt på mobilwebbplatser där anslutningarna ofta är långsammare.
+* **Sidfel:** Om det finns JavaScript-fel eller andra scenarier där alla kontaktytor inte utlöses (Experience Cloud ID-tjänsten, Target och Analytics), partiella dataresultat.
 * **Omdirigeringserbjudanden i  [!DNL Target] aktivitet:** För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
 * **Gamla versioner av biblioteken:** Under det senaste året har Adobe förbättrat våra JavaScript-bibliotek (,  [!DNL appMeasurement.js]och  `at.js/mbox.js`  `visitorAPI.js`) för att säkerställa att data skickas så effektivt som möjligt. Mer information om implementeringskrav finns i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
