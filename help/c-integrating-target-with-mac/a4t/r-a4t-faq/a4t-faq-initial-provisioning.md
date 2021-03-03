@@ -2,11 +2,11 @@
 keywords: frågor och svar;vanliga frågor;analys för mål;a4t;provisionering;provisionering;adobe Experience Cloud
 description: Hitta svar på frågor som ofta ställs om etablering av Analytics för Target (A4T), som gör att ni kan använda Analytics-rapportering för Target-aktiviteter.
 title: Var hittar jag information om inledande A4T-etablering?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Inledande etablering - A4T FAQ{#initial-provisioning-a-t-faq}
 
-Det här avsnittet innehåller svar på frågor som ofta ställs om etablering av Analytics som rapportkälla för Target (A4T).
+Det här avsnittet innehåller svar på frågor som ofta ställs om etablering av [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
 ## Hur skapar jag en A4T-aktivitet på flera sidor?
 
@@ -37,12 +37,12 @@ Om det uppstår provisioneringsproblem ska du kontrollera om A4T har etablerats 
 Kontrollera följande om något av dessa problem uppstår:
 
 * Se till att era Analytics- och Target-konton är länkade i Experience Cloud.
-* Om du använder flera företagsinloggningar för Analytics i samma Experience Cloud-företag måste du se till att det sista Analytics-företaget du loggade in på är det som är knutet till Target-kontot för integreringen.
+* Vissa kunder använder flera företagsinloggningar från Analytics i samma Experience Cloud-företag. Om du använder flera inloggningar måste du se till att det sista Analytics-företaget du loggade in på är det som är knutet till Target-kontot för integreringen.
 * Om du har varit inloggad på Experience Cloud i flera timmar kan Analytics-sessionen ibland upphöra. Logga ut och logga in igen för att försöka igen.
 
 ## Varför ser jag inte Analytics-alternativen i Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-Se&quot;Varför laddas inte mina rapportsviter?&quot; ovan. Orsaken till det här problemet är densamma.
+Se&quot;Varför laddas inte mina rapportsviter?&quot; Ovanför. Orsaken till det här problemet är densamma.
 
 ## Varför ser jag inte A4T-rapporter i Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
