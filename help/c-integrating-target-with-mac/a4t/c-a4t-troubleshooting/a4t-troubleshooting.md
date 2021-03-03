@@ -2,11 +2,11 @@
 keywords: analysspårningsserver;A4T;analyssegment;rapportsviter;felaktiga data;överblivna;gjorde;VisitorAPI.js;mboxMCSDID;phantom;ospecificerad
 description: Utforska vanliga problem som kunder har råkat ut för när de använder Analytics for Target (A4T).
 title: Hur felsöker jag analys- och målintegrering (A4T)?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Felsöka integreringen med Analytics och Target (A4T)
 
-I det här avsnittet beskrivs några vanliga problem som har uppstått när Analytics används som rapportkälla för Target (A4T).
+I det här avsnittet beskrivs några vanliga problem som har påträffats vid användning av [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
 ## Aktiviteter visar inte data i Analytics, utan anges i stället som&quot;unspecified&quot;. {#unspecified}
 
-Det finns flera orsaker till detta:
+Det finns flera orsaker till varför data visas som&quot;ospecificerade&quot;:
 
 * Klassificeringen i [!DNL Target] har inte bearbetats fullständigt.
 
-   Klassificeringen tar i allmänhet mellan 24 och 72 timmar att klassificera rapporter efter att de sparats första gången.
+   Klassificeringen tar i allmänhet från 24 till 72 timmar att klassificera rapporter efter att de sparats första gången.
 
 * Rapportsviten innehåller inga data, men [!DNL Target] har försökt klassificera träffar. [!DNL Target] kan inte klassificera data förrän den första träffen inträffar.
 
@@ -32,21 +32,21 @@ Det finns flera orsaker till detta:
 
    [Kontakta kundens ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) karriär om du behöver hjälp.
 
-Om du bryter ned raden &quot;unspecified&quot; (ospecificerad) med dimensionen &quot;Analytics for Target&quot; (Analyser för mål) och den inte består av några aktivitets-ID:n, innebär det att allt klassificeras korrekt.  Om aktivitets-ID finns med i listan fungerar det som en indikation på ett klassificeringsproblem.
+Om du bryter ned raden &quot;unspecified&quot; (ospecificerad) med dimensionen &quot;Analytics for Target&quot; (Analyser för mål) och den inte består av några aktivitets-ID:n, innebär det att allt klassificeras korrekt. Om aktivitets-ID finns med i listan fungerar det som en indikation på ett klassificeringsproblem.
 
 >[!NOTE]
 >
->Ibland visas data korrekt i rapporter, men återgår sedan till&quot;ospecificerad&quot; eftersom en ny aktivitet har lagts till som inte har slutfört klassificeringen. Kom ihåg att det i allmänhet tar mellan 24 och 72 timmar att klassificera rapporter efter det att du sparat dem första gången.
+>Ibland visas data korrekt i rapporter, men återgår sedan till&quot;ospecificerad&quot; eftersom en ny aktivitet har lagts till som inte har slutfört klassificeringen. Kom ihåg att det i allmänhet tar mellan 24 och 72 timmar att klassificera rapporter efter första sparandet.
 >
 >Inga data förloras när de listas som&quot;ospecificerade&quot;. Data tilldelas korrekt till lämplig aktivitet eller upplevelse efter att klassificeringen har körts.
 
-## A4T-aktivitetsrapporter innehåller en rad med ett stort antal ospecificerade händelser. {#added_unspecified_events}
+## A4T-aktivitetsrapporter innehåller en rad med många&quot;ospecificerade&quot; händelser. {#added_unspecified_events}
 
 Det kan finnas en [!UICONTROL Unspecified]-händelserad som visas i din rapport, beroende på vilka mått du använder för att visa dina data.
 
-Vanligtvis visas den här raden om du väljer ett vanligt mått i rapporten som inte är [!DNL Target]-specifikt (till exempel [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors]). I det här fallet innehåller raden [!UICONTROL “Unspecified”] alla [!UICONTROL Page Views], [!UICONTROL Visits] och [!UICONTROL Unique Visitors] som inte är associerade med [!DNL Target]-aktiviteter.
+Vanligtvis visas den här raden om du väljer ett vanligt mått i rapporten som inte är [!DNL Target]-specifikt (till exempel [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] och så vidare). I det här fallet innehåller raden [!UICONTROL “Unspecified”] alla [!UICONTROL Page Views], [!UICONTROL Visits] och [!UICONTROL Unique Visitors] som inte är associerade med [!DNL Target]-aktiviteter.
 
-Raden har ingen [!DNL Target]-associerad information (t.ex. inga besökare, besök eller visningar). Mer information finns i [&quot;Ospecificerad&quot;,&quot;Ingen&quot;,&quot;Annan&quot; och&quot;Okänd&quot; i rapporteringen](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) i *Analytics Tech Notes*.
+Raden har ingen [!DNL Target]-associerad information (till exempel inga besökare, besök eller visningar). Mer information finns i [&quot;Ospecificerad&quot;,&quot;Ingen&quot;,&quot;Annan&quot; och&quot;Okänd&quot; i rapporteringen](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) i *Analytics Tech Notes*.
 
 Om du väljer ett [!DNL Target]-specifikt mått i rapporten visas inte raden [!UICONTROL “Unspecified”]. Det enda sättet att undvika att få med det i rapporten är att ange ett [!DNL Target]-anrop för varje begäran som skickas från den sidan, vilket inte är vanligt eller nödvändigt.
 
@@ -64,27 +64,27 @@ A4T-aktiviteter kräver att en analysspårningsserver anges. Se [Använda en Ana
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
+>Du behöver inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 
 ## Mina analyssegment visas inte i Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Kontrollera att du har rätt behörigheter innan du börjar skapa A4T-aktiviteter:
 
-* Du måste tillhöra webbtjänståtkomstgruppen i Adobe Analytics för att kunna använda Analytics som rapportkälla för Target.
-* Du måste vara medlem i en eller flera Experience Cloud-grupper som har tillgång till Analytics och Target.
+* Tillhör webbtjänståtkomstgruppen i Adobe Analytics för att kunna använda Analytics som rapportkälla för Target
+* Bli medlem i en eller flera Experience Cloud-grupper som har tillgång till Analytics och Target.
 * Verifiera att Analytics och Target visas i avsnittet Marketing Apps i den vänstra navigeringen.
 
 ## Studsfrekvens, studsar och exitvärden visas som positiva i rapporter. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
-Detta är ett känt problem.
+Dessa mätvärden visas som positiva i rapporter och är kända.
 
 Även om dessa mätvärden är negativa visas lyften som om de var positiva i Target-rapporterna. Även om du till exempel vill ha en lägre avhoppsfrekvens visas den högre avhoppsfrekvensen som vinnare med den högsta avhoppsfrekvensen. Tänk på dessa och liknande mätvärden och om du hellre vill öka eller minska siffrorna när du fattar beslut baserat på rapporter.
 
 ## Rapportsviten som jag behöver visas inte. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Listan med rapportsviter som visas i [!DNL Target Standard/Premium] är listan med rapportsviter som har konfigurerats för [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T). Det innebär att du kanske inte ser alla rapporteringsprogram du har.
+Listan med rapportsviter som visas i [!DNL Target Standard/Premium] är listan med rapportsviter som har konfigurerats för [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T). Du kanske inte ser alla rapporteringsprogram du har.
 
-Om du använder flera rapportkällor måste rapportsviterna också finnas i standardrapportkälluppsättningen i [!DNL Target]. annars visas inte rapportsviterna.
+Om du använder flera rapportkällor måste rapportsviterna också finnas i standardrapportkälluppsättningen i [!DNL Target]. Om rapportsviterna inte finns i standardrapportkällan visas inte rapportsviterna.
 
 Om du fortfarande inte ser den rapportserie du söker kan du kontakta [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) och aktivera den.
 
