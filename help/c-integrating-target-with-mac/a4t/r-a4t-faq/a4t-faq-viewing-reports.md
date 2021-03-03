@@ -4,9 +4,9 @@ description: Hitta svar på frågor som ofta ställs om att visa rapporter när 
 title: Hitta svar på frågor om att visa rapporter med A4T?
 feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2369'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Visa rapporter - A4T FAQ
 
-Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rapporter när du använder [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
+Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rapporter när du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
 ## Kan jag visa mina Target-aktivitetsdata i Analysis Workspace? {#workspace}
 
@@ -28,15 +28,15 @@ Segment används oftast högst upp på en panel i segmentets släppzon. Segmente
 
 Ett segment kan också läggas i lager direkt i friformstabellen, men observera att du måste täcka över hela tabellen för att kunna bevara lyftnings- och tillförlitlighetsberäkningarna i A4T-panelen. Kolumnnivåsegment stöds för närvarande inte på panelen.
 
-## Varför returneras orelaterade upplevelser när jag väljer ett träffsegment för en viss Target-aktivitet? {#activity-segmentation}
+## Varför returneras orelaterade upplevelser när jag använder ett träffsegment för en viss Target-aktivitet? {#activity-segmentation}
 
 Variabeln [!DNL Target] som skickas till [!DNL Analytics] har en standardförfalloperiod på 90 dagar. (Obs! denna förfalloperiod kan justeras av kundtjänst om det behövs). När besökare navigerar på webbplatsen genom det här förfallofönstret är de en del av många [!DNL Target]-aktiviteter, som alla samlas in i dimensionen.
 
-När du segmenterar för att en aktivitet ska vara närvarande i en träff får du därför alla upplevelser som är en del av aktiviteten *plus* alla andra upplevelser som är bestående i den träffen.
+När du väljer att en aktivitet ska vara närvarande i en träff får du alla upplevelser som är en del av den aktiviteten *plus* alla andra upplevelser som är bestående i den träffen.
 
 ## Varför har jag inte åtkomst till Avancerade inställningar när jag konfigurerar mina målvärden?
 
-För aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet alltid inställningarna [!UICONTROL Increment Count & Keep User in Activity] och [!UICONTROL On Every Impression]. Detta är *inte* konfigurerbart.
+För aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet inställningarna [!UICONTROL Increment Count & Keep User in Activity] och [!UICONTROL On Every Impression]. Dessa inställningar är *inte* konfigurerbara.
 
 Mer information finns i&quot;När jag konfigurerar mina målmått, varför kan jag inte komma åt alternativen för Avancerade inställningar?&quot; i [Måttdefinitioner - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -52,7 +52,7 @@ När en besökare visar en sida som innehåller en aktivitet, ställs en variabe
 
 Tänk på följande:
 
-* Alla mätvärden ovan utlöses när en användare kvalificerar sig för en aktivitet och innehållet returneras från [!DNL [!DNL Target]]. Det behöver inte innebära att användaren såg erbjudandet. Om en aktivitetsupplevelse är under förskjutningen och användaren inte rullar nedåt på sidan, så har erbjudandet levererats av [!DNL Target] men inte av användaren.
+* Ovanstående mått utlöser när en användare kvalificerar sig för en aktivitet och innehållet returneras från [!DNL Target]. Det behöver inte innebära att användaren såg erbjudandet. Om en aktivitetsupplevelse är under förskjutningen och användaren inte rullar nedåt på sidan, så har erbjudandet levererats av [!DNL Target] men inte av användaren.
 * [!UICONTROL Activity Impressions] (mätt med  [!DNL Target]) och  [!UICONTROL Instances] (mätt med  [!DNL Analytics]) är lika, såvida det inte finns flera anrop till samma sida i samma aktivitet. Detta gör att flera [!UICONTROL Activity Impressions] räknas, men bara en [!UICONTROL Instance].
 
 ## Varför är&quot;aktivitetsintryck&quot; och&quot;aktivitetskonverteringar&quot; högre i Analysis Workspace än i Rapporter och analyser? {#sametouch}
@@ -67,25 +67,25 @@ Om du vill utvärdera exakta [!UICONTROL Activity Impressions]- och [!UICONTROL 
 
 ## Varför ser jag&quot;ospecificerad&quot; i Analytics-rapporterna? Vad betyder det? {#unspecified}
 
-I andra rapporter betyder&quot;ospecificerad&quot; att data inte uppfyller en klassificeringsregel, men i A4T ska detta aldrig ske. Om du ser&quot;ospecificerad&quot; har klassificeringstjänsten inte körts ännu. Det tar i allmänhet mellan 24 och 72 timmar innan aktivitetsdata visas i rapporterna. Även om aktiviteterna inte visas i den här rapporten förrän den tidpunkten hämtas alla besöksdata som är kopplade till dessa aktiviteter och visas när klassificeringen är klar.
+I andra rapporter betyder&quot;ospecificerad&quot; att data inte uppfyller en klassificeringsregel, men i A4T ska detta aldrig ske. Om du ser&quot;ospecificerad&quot; har klassificeringstjänsten inte körts ännu. Det tar i allmänhet mellan 24 och 72 timmar innan aktivitetsdata visas i rapporterna. Även om aktiviteterna inte visas i den här rapporten förrän vid den tidpunkten hämtas alla besöksdata som är kopplade till dessa aktiviteter och visas när klassificeringen är klar.
 
 Efter klassificeringsperioden visas data i dessa rapporter ungefär en timme efter det att de samlats in från webbplatsen. Alla mätvärden, segment och värden i rapporterna kommer från den rapportsserie du valde när du konfigurerade aktiviteten.
 
-Om klassificeringen gjordes för den aktiviteten, och du fortfarande ser en ospecificerad rad i rapporten, kontrollerar du att rapporten inte använder ett icke-[!DNL Target]-mått för att visa data. Om inte rapporten använder ett [!DNL Target]-specifikt mått kommer raden &quot;Ospecificerad&quot; att innehålla händelser för anrop som inte är associerade med [!DNL Target]. Den raden kommer inte att innehålla någon [!DNL Target]-associerad information (t.ex. besökare/besök/visningar).
+Om klassificeringen gjordes för den aktiviteten och du fortfarande ser en ospecificerad rad i rapporten, kontrollerar du att rapporten inte använder ett icke-[!DNL Target]-mått för att visa data. Om inte rapporten använder ett [!DNL Target]-specifikt mått innehåller raden &quot;Ospecificerad&quot; händelser för anrop som inte är associerade med [!DNL Target]. Den raden kommer inte att innehålla någon [!DNL Target]-associerad information (till exempel besökare/besök/visningar).
 
 ## Varför skickas Target-mått till Analytics även efter att aktiviteten har inaktiverats? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 Variabeln [!DNL Target] som skickas till [!DNL Analytics] har en standardförfalloperiod på 90 dagar. Den här förfalloperioden kan justeras av kundtjänst om det behövs. Den här inställningen är global för alla aktiviteter, så den bör inte justeras för ett fall.
 
-Du kan se [!DNL Target]-variabler som skickas till [!DNL Analytics] efter förfalloperioden eftersom förfallotiden är 90 dagar, men bara om användaren aldrig ser någon annan A4T-aktiverad [!DNL Target]-aktivitet. Om en användare kommer tillbaka till webbplatsen dag 45 och ser en annan aktivitet, har A4T-eVar värde återställts till 90 dagar. Det innebär att den första kampanjen från dag 1 nu kan vara beständig i upp till 45 + 90 = 135 dagar. Om användaren kommer tillbaka kan du komma till den punkt där du ser mätvärden som skickats till [!DNL Analytics] i din rapportering från mycket äldre aktiviteter. När användare tar bort cookies och inte återvänder till webbplatsen kommer siffrorna i den aktiviteten att tas bort, men du kommer fortfarande att se dem.
+Du kan se [!DNL Target]-variabler som skickas till [!DNL Analytics] efter förfalloperioden eftersom förfallotiden är 90 dagar, men bara om användaren aldrig ser någon annan A4T-aktiverad [!DNL Target]-aktivitet. Om en användare kommer tillbaka till webbplatsen dag 45 och ser en annan aktivitet, har A4T-eVar värde återställts till 90 dagar. Det innebär att den första kampanjen från dag 1 nu kan vara beständig i upp till 45 + 90 = 135 dagar. Om användaren kommer tillbaka kan du komma till den punkt där du ser mätvärden som skickats till [!DNL Analytics] i din rapportering från mycket äldre aktiviteter. När användare tar bort cookies och inte återvänder till webbplatsen, försvinner siffrorna i aktiviteten, men du kan fortfarande se dem.
 
 Det innebär att aktiviteter fortsätter att få sidvisningar, besök och så vidare i upp till 90 dagar efter att aktiviteten avslutas för besökare som blev en del av aktiviteten medan den var aktiv. Om du däremot tittar på [!UICONTROL Activity Impressions]-måttet ska du inte se några intryck efter att aktiviteten har avslutats.
 
-Detta är normalt och förväntat beteende. A4T-variabeln fungerar på samma sätt som andra eVar. Värdet associeras med användaren tills det når förfallotidsperioden (90 dagar). Om en aktivitet bara är aktiv i två veckor kommer därför värdet fortfarande att associeras med användaren under minst de kommande 90 dagarna.
+Detta är normalt och förväntat beteende. A4T-variabeln fungerar på samma sätt som andra eVar. Värdet associeras med användaren tills det når förfallotidsperioden (90 dagar). Om en aktivitet bara är aktiv i två veckor är därför värdet fortfarande associerat med användaren under minst de kommande 90 dagarna.
 
 Bästa praxis är att endast visa rapporter för den aktiviteten för den tidsperiod som aktiviteten var aktiv. Datumen bör anges korrekt som standard när du visar aktiviteten i [!DNL Analytics], så om du inte manuellt har förlängt datumet bör detta inte vara något problem ur rapportsynpunkt.
 
-Låt oss till exempel anta att variabeln A4T upphör att gälla efter 90 dagar och vårt test är aktivt från 1 januari till 15 januari.
+Låt oss till exempel anta att variabeln A4T upphör att gälla efter 90 dagar och att testet är aktivt från 1 januari till 15 januari.
 
 Den 1 januari kommer användaren till webbplatsen och ser aktiviteten XYZ en gång och har sedan fem sidvisningar. Under de kommande två veckorna kommer användaren aldrig tillbaka till webbplatsen. Data skulle se ut så här för den här användaren:
 
@@ -97,24 +97,24 @@ Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter in
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren visar också fem sidor. Eftersom aktiviteten XYZ fortfarande följer användaren genom persistence, och den här användaren sedan har ABC inställt, visas två radartiklar i rapporten:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 1 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 3 |
+| ABC | 1 | 5 | 3 | 1 |
 
-Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så vi kommer att se det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
+Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så du ser det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 1 |
-| Totalt | 2 | 20 | 3 | 1 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 3 | 3 |
+| Totalt | 2 | 20 | 1 | 1 | 3 |
 
-Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Ni jämför resultaten av två objekt i en enda aktivitet, och det är inte möjligt för en användare att se olika upplevelser i samma aktivitet så att ni inte behöver bekymra er om korskontaminering av orderkrediter.
+Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Du jämför resultatet av två objekt i en enskild aktivitet. Det är inte möjligt för en användare att se olika upplevelser i samma aktivitet, så du behöver inte bekymra dig om korskontaminering av orderkrediter.
 
 Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) i *administratörshandboken för analyser*.
 
@@ -122,19 +122,19 @@ Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.
 
 När du kör ett A/B-test, där Students t-test (konfidensmåttet) används för att välja en testvinnare, är en av antagandena att det finns en fast tidshorisont. Testet är inte statistiskt giltigt om du inte tittar på den fasta provstorleken.
 
-Måttet [!UICONTROL Unique Visitors] skiljer sig bara åt i [!DNL Analytics] och [!DNL Target] när du tittar på en tidsrymd som är kortare än det faktiska testet. Om du inte har uppnått din provstorlek är testet inte lika tillförlitligt. Mer information finns i [Så här kör du ett A/B-test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) på [Evan Millers webbplats](https://www.evanmiller.org/index.html).
+Måttet [!UICONTROL Unique Visitors] skiljer sig bara åt i [!DNL Analytics] och [!DNL Target] när du tittar på en punkt som är kortare än det faktiska testet. Om du inte har uppnått din provstorlek är testet inte lika tillförlitligt. Mer information finns i [Så här kör du ett A/B-test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) på [Evan Millers webbplats](https://www.evanmiller.org/index.html).
 
-Måttet [!UICONTROL Unique Visitors] visar antalet personer som har exponerats för testet och som har besökt platsen under den angivna tidsperioden. Dessa personer är fortfarande en del av testet och bör räknas. Om du bara vill se antalet personer som exponerades under en vecka, kan du skapa ett segment med besökare som hade ett aktivitetsintryck och använda det på rapporten.
+Måttet [!UICONTROL Unique Visitors] visar antalet personer som har exponerats för testet och som har besökt platsen under den angivna tidsperioden. Dessa personer är en del av testet och bör räknas. Om du bara vill se antalet personer som exponerades under en vecka, kan du skapa ett segment med besökare som hade ett aktivitetsintryck och använda det på rapporten.
 
-Du kan korta ned den tid som variabeln [!DNL Target] kvarstår ned till en session; Men det är vanligtvis problematiskt för tester där konverteringshändelsen inte inträffar lika lätt under samma session.
+Du kan korta ned den tid som variabeln [!DNL Target] kvarstår ned till en session; Detta är dock problematiskt för tester där konverteringshändelsen inte är så trolig att inträffa under samma session.
 
 ## Varför räknas samma besökare ibland i flera olika upplevelser i Analytics? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 I följande lista förklaras varför samma besökare kunde räknas med i flera upplevelser i [!DNL Analytics]:
 
-* Profilen [!DNL Target] har upphört att gälla men cookien [!DNL Analytics] finns fortfarande kvar. I den här situationen utvärderar [!DNL Target] användaren på nytt, men [!DNL Analytics] anser att besökaren är samma person.
-* Om besökaren använder `mbox3rdPartyId` kan [!DNL Target], när den anonyma besökaren slås samman med sin ID-profil från tredje part, ge besökaren en annan upplevelse för att matcha med ID:t från tredje part. Mer information finns i [Profilsynkronisering i realtid för mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
-* [!DNL Analytics] kan spåra olika enheter som samma besökare på ett annat sätt än att  [!DNL Target] spåra dessa enheter: Inställningarna av ID:t från tredje part i  [!DNL Target] skiljer sig från dem i Analytics.
+* Profilen [!DNL Target] har upphört att gälla men cookien [!DNL Analytics] finns fortfarande kvar. I den här situationen utvärderar [!DNL Target] om användaren, men [!DNL Analytics] anser att besökaren är samma person.
+* Om besökaren använder `mbox3rdPartyId` kan [!DNL Target] ge besökaren en annan upplevelse när den anonyma besökaren sammanfogas med profilen för tredjeparts-ID när  sammanfogar besökaren med en annan upplevelse för att matcha med ID:t från tredje part. Mer information finns i [Profilsynkronisering i realtid för mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
+* [!DNL Analytics] kan spåra olika enheter som samma besökare på ett annat sätt än att  [!DNL Target] spåra dessa enheter: Inställningarna av tredjeparts-ID i  [!DNL Target] skiljer sig från dem i Analytics.
 
 ## Stöder A4T virtuella rapportsviter?
 
@@ -144,11 +144,11 @@ Virtuella rapportsviter är *inte* inkluderade i [!UICONTROL Report Suite]-lista
 
 Om du ändrar procentandelen för trafikallokering i en aktivitet efter aktivering kan det leda till inkonsekvent rapportering i [!DNL Analytics] eftersom förändringen bara påverkar nya besökare. Återkommande besökare påverkas inte.
 
-Det bästa är att du stoppar den befintliga aktiviteten och sedan skapar en ny aktivitet i stället för att ändra procentandelen efter aktiveringen. Rapportering för den nya aktiviteten börjar med nya besökare och data från återkommande besökare orsakar inte inkonsekvent rapportering.
+Det bästa är att du stoppar den befintliga aktiviteten och sedan skapar en ny aktivitet i stället för att ändra procentandelen efter aktiveringen. Rapporteringen för den nya aktiviteten börjar med nya besökare och data från återkommande besökare orsakar inte inkonsekvent rapportering.
 
 ## Hur räknas besök i Analytics och konverteringskrediter som allokeras i en Auto-Target-aktivitet som använder A4T?
 
-När en besökare kvalificerar sig för, visar innehåll eller konverterar i en A4T-aktivitet skickar [!DNL Target] händelsedata till [!DNL Analytics], vilket gör att [!DNL Analytics] kan attribuera konverteringshändelser och andra klickströmshändelser som inträffar på sidan till relevanta [!DNL Target]-aktiviteter och -upplevelser.
+När en besökare kvalificerar sig för, visar innehåll eller konverterar i en A4T-aktivitet skickar [!DNL Target] händelsedata till [!DNL Analytics]. Med dessa händelsedata kan [!DNL Analytics] attribuera konverteringshändelser och andra klickströmshändelser som inträffar på sidan till relevanta [!DNL Target]-aktiviteter och -upplevelser.
 
 Här följer några saker du bör tänka på när du tittar på [!DNL Analytics]-rapporter:
 
