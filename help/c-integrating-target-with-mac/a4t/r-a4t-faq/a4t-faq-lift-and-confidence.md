@@ -2,11 +2,11 @@
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;lift;ad hoc;report builder;trust
 description: Hitta svar på frågor om lyft och självförtroende när du använder Analytics for Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
 title: Var hittar jag information om lyft och självförtroende med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Lyft och tillförsikt - A4T FAQ{#lift-and-confidence-a-t-faq}
 
-Det här avsnittet innehåller svar på frågor som ofta ställs om lift och självförtroende när Analytics används som rapportkälla för Target (A4T).
+Det här avsnittet innehåller svar på frågor som ofta ställs om lift and trust när [!DNL Adobe Analytics] används som rapportkälla för [!DNL Adobe Target] (A4T).
 
 ## Kan jag utföra offlineberäkningar för A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
@@ -30,9 +30,9 @@ Konfidensnivån är sannolikheten för att den uppmätta konverteringsgraden ski
 
 ## Varför kan jag inte se lyft och självförtroende för beräknade mätvärden? {#lift-confidence}
 
-Beräknade mätvärden stöds för närvarande inte för lyftnings- och förtroendefunktioner. Detta beror på att Analytics beräknar mätvärden på aggregeringsnivå, snarare än på besökarnivå. Särskilt förtroendet är en beräkning på besökarnivå.
+Beräknade mätvärden stöds för närvarande inte för lyftnings- och förtroendefunktioner. Analyser beräknar mätvärden på aggregeringsnivå i stället för på besökarnivå. Särskilt förtroendet är en beräkning på besökarnivå.
 
-Icke-beräknade (standard) händelser stöds i lift och Confidence. De blir täljare i lyftfunktionen. täljaren kan inte vara en beräkning i sig. Nämnaren är normaliseringsmåtten (visningar, besök eller besökare). Exempel på standardhändelser är order, intäkter, aktivitetskonverteringar, anpassade händelser 1-1000 osv. Det innebär att vanliga optimeringsvärden, som konversationsfrekvens (beställningar/besökare) och RPV (intäkt/besökare), stöds för lyft och förtroende.
+Icke-beräknade (standard) händelser stöds i lift och Confidence. De blir täljare i lyftfunktionen. täljaren kan inte vara en beräkning i sig. Nämnaren är normaliseringsmåtten (visningar, besök eller besökare). Exempel på standardhändelser är order, intäkter, aktivitetskonverteringar, anpassade händelser 1-1000 och så vidare. Vanliga optimeringsmått, som konversationshastighet (beställningar/besökare) och RPV (intäkt/besökare) stöds för lyft och förtroende.
 
 Exempel på mätvärden eller användningsfall som inte stöds är:
 
@@ -41,7 +41,7 @@ Exempel på mätvärden eller användningsfall som inte stöds är:
 
 ## Hur hanterar A4T tillförlitlighetsberäkningar? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T använder icke-binära måttberäkningar med summan av kvadratiska data. Avvikelsen beräknas med summan av kvadratdata. Extrema order tas inte med i beräkningen. Konfidensberäkningen tillämpar inte heller någon Bonferroni-korrigering för flera erbjudanden.
+A4T använder icke-binära måttberäkningar med summan av kvadratiska data. Avvikelsen beräknas med summan av kvadratdata. Extrema order räknas inte. Konfidensberäkningen tillämpar inte heller någon Bonferroni-korrigering för flera erbjudanden.
 
 ## Jobbar hiss och självförtroende i Ad Hoc och Report Builder? Kan jag göra det själv om det inte är inbyggt? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
