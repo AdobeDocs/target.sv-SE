@@ -2,12 +2,12 @@
 keywords: Analyser som rapportkälla;a4t;A4T;requirements
 description: Lär dig hur du konfigurerar de användarkontokrav som krävs för att skapa en Adobe Analytics-baserad aktivitet i Adobe Target med Analytics for Target (A4T).
 title: Vilka behörighetskrav krävs för A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,7 @@ Mer information finns i [Hantera användare och produkter av Experience Cloud](h
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Konfigurera åtkomst till [!DNL Analytics]-rapportsviten:
-
-Om du vill använda A4T på en viss rapportserie måste du ha tillgång till den rapportsviten.
+Om du vill använda A4T på en viss rapportserie måste du ha tillgång till den rapportsviten och ge åtkomst till gruppen [!DNL Web Services Access].
 
 1. I **[!UICONTROL Admin Console]** klickar du på en [!DNL Analytics]-produktprofil och sedan på fliken **[!UICONTROL Permissions]**.
 
@@ -52,6 +50,11 @@ Om du vill använda A4T på en viss rapportserie måste du ha tillgång till den
    Följande bild är ett exempel på en produktprofil som har tillgång till alla rapportsviter:
 
    ![Behörighetsfliken Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. Konfigurera åtkomst till gruppen [!UICONTROL Web Services Access].
+
+   Åtkomst till gruppen [!UICONTROL Web Services Access] i [!DNL Analytics] krävs för att kunna använda [!DNL Analytics] som rapportkälla för [!DNL Target].
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
