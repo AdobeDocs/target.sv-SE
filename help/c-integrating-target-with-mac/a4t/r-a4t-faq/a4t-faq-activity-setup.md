@@ -2,11 +2,11 @@
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;aktivitetsinställning
 description: Hitta svar på frågor om aktivitetskonfiguration när du använder Analytics för Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
 title: Var hittar jag frågor och svar om aktivitetsinställningar med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om aktivitetsin
 
 En fullständig lista finns i&quot;Aktivitetstyper som stöds&quot; i [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
-## Varför har jag inte åtkomst till Avancerade inställningar när jag konfigurerar mina måltider?
+## Varför har jag inte åtkomst till Avancerade inställningar när jag konfigurerar mina målvärden?
 
-För aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet alltid inställningarna [!UICONTROL Increment Count & Keep User in Activity] och [!UICONTROL On Every Impression]. Detta är *inte* konfigurerbart.
+För aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet inställningarna [!UICONTROL Increment Count & Keep User in Activity] och [!UICONTROL On Every Impression]. Dessa inställningar är *inte* konfigurerbara.
 
-Mer information finns i&quot;När jag konfigurerar min målkod, varför kan jag inte komma åt alternativen för Avancerade inställningar?&quot; i [Måttdefinitioner - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Mer information finns i&quot;När jag konfigurerar mina målmått, varför kan jag inte komma åt alternativen för Avancerade inställningar?&quot; i [Måttdefinitioner - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Jag har just skapat en aktivitet. Varför ser jag inga data som kommer in? {#section_9F8092BE4225442896F926540292F221}
 
-När en aktivitet skapas skickar [!DNL Target] en klassificeringsfil till [!DNL Analytics]. Även om [!DNL Analytics] hämtar och bearbetar data visas de inte i rapporterna förrän klassificeringsfilen har uppdaterats. Detta kan ta upp till 24 timmar. Om du inte ser dina data inom 48 timmar kan du [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Om du vet att du kommer att starta en aktivitet kan du skapa aktiviteten några dagar i förväg och klassificeringarna skickas när aktiviteten sparas. På så sätt visas data i rapporterna när programmet startas. Observera att det tar 45-90 minuter för data att behandlas i [!DNL Analytics].
+När en aktivitet skapas skickar [!DNL Target] en klassificeringsfil till [!DNL Analytics]. Även om [!DNL Analytics] hämtar in och bearbetar data, visas det inte i rapporterna förrän klassificeringsfilen har uppdaterats. Denna process kan ta upp till 24 timmar. Om du inte ser dina data inom 48 timmar kan du [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Om du vet att du kommer att starta en aktivitet kan du skapa aktiviteten några dagar i förväg och klassificeringarna skickas när aktiviteten sparas. På så sätt visas data i rapporterna när programmet startas. Observera att det tar 45-90 minuter för data att behandlas i [!DNL Analytics].
 
-## Varför kan jag inte välja Analytics som rapportkälla när jag skapar en ny aktivitet? {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## Varför kan jag inte välja Analytics som rapportkälla när jag skapar en aktivitet? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 Du kan ändra dina [!UICONTROL Reporting Settings]-alternativ i [!UICONTROL Administration].
 
