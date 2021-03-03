@@ -2,11 +2,11 @@
 keywords: vanliga frågor;vanliga frågor;analys för mål;a4T;inflated;besök;besökare;delvis träffad;överbliven;överbliven;delvis träffad
 description: Hitta svar på frågor om ökat antal besökare och besökare när du använder Analytics for Target (A4T). Lär dig att minimera"partiella data".
 title: Var hittar jag frågor om uppblåsta besök och besöksräkningar med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om uppblåst be
 
 ## Varför visar mina analysdata besök som inte har några sidvisningar eller andra variabelvärden? {#section_4D8C2C2D766842E6B12F3ECC774A64D5}
 
-När [!DNL Adobe Analytics] används för att mäta [!DNL Target]-aktiviteter (kallas A4T), samlar [!DNL Analytics] in ytterligare data som inte är tillgängliga när det inte finns någon [!DNL Target]-aktivitet på sidan. Detta beror på att aktiviteten [!DNL Target] utlöser ett anrop längst upp på sidan, men [!DNL Analytics] utlöser vanligtvis sina datainsamlingsanrop längst ned på sidan. I implementeringen av A4T hittills har vi tagit med dessa ytterligare data när en [!DNL Target]-aktivitet var aktiv.
+När [!DNL Adobe Analytics] används för att mäta [!DNL Target]-aktiviteter (kallas A4T), samlar [!DNL Analytics] in data som inte är tillgängliga när det inte finns någon [!DNL Target]-aktivitet på sidan. Detta beror på att aktiviteten [!DNL Target] utlöser ett anrop längst upp på sidan, men [!DNL Analytics] utlöser vanligtvis sina datainsamlingsanrop längst ned på sidan. I implementeringen av A4T hittills inkluderar Adobe dessa ytterligare data när en [!DNL Target]-aktivitet var aktiv.
 
 Mer information finns i [Minimera antal uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## Vad är en partiell dataträff? {#section_59A203E289564576BF6821F96B0B9E11}
 
-En partiell dataträffar inträffar när en [!DNL Target]-tagg längst upp på sidan utlöses men en [!DNL Analytics]-tagg längst ned på sidan inte utlöses. Det finns olika skäl till att detta händer. I [!DNL A4T]-implementeringen hittills inkluderade vi delvisa data om dessa träffar när en [!DNL Target]-aktivitet var aktiv. Framöver kommer vi endast att inkludera dessa ytterligare data när både [!DNL Target]- och [!DNL Analytics]-taggarna har utlösts.
+En partiell dataträffar inträffar när en [!DNL Target]-tagg längst upp på sidan utlöses men en [!DNL Analytics]-tagg längst ned på sidan inte utlöses. Det finns olika skäl till att denna situation uppstår. I [!DNL A4T]-implementeringen hittills inkluderar Adobe partiella data om dessa träffar när en [!DNL Target]-aktivitet var aktiv. Framöver kommer Adobe endast att inkludera dessa ytterligare data när både [!DNL Target]- och [!DNL Analytics]-taggarna har utlösts.
 
 Mer information finns i [Minimera antal uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Jag ser en topp i besök. Hur vet jag om de har orsakats av deldataträffar? {#section_28506672C6224ED18AC74F6A02F6F811}
+## Jag ser en topp i besök. Hur vet jag om de här besöken orsakas av partiella dataträffar? {#section_28506672C6224ED18AC74F6A02F6F811}
 
 Du kan kontakta [Adobe kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att hämta en rapport om partiella data. Den här informationen är inte tillgänglig direkt i användargränssnittet för [!DNL Analytics].
 
@@ -46,13 +46,13 @@ Mer information finns i&quot;Hur kan jag visa historiska trender utan partiella 
 
 ## Finns det något jag kan göra för att förhindra att mina sidor genererar träffar på delar av data? {#section_4B00E7E618444BE98A0798DE98F08B21}
 
-Efter 14 november 2016 inkluderas data endast när både [!DNL Target]- och [!DNL Analytics]-taggarna har utlösts. Den här ändringen är inte retroaktiv. Om dina historiska rapporter visar inflaterade räkningar, och du vill utesluta dem från dina rapporter, kan du skapa en virtuell rapportsvit, enligt beskrivningen i&quot;Hur kan jag visa historiska trender utan partiella data?&quot; i [Minimera antalet uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Efter 14 november 2016 kommer Adobe endast att inkludera data när både [!DNL Target]- och [!DNL Analytics]-taggarna har utlösts. Den här ändringen är inte retroaktiv. Om dina historiska rapporter visar inflaterade räkningar kan du utesluta dem från dina rapporter genom att skapa en virtuell rapportserie. Se&quot;Hur kan jag visa historiska trender utan partiella data?&quot; i [Minimera antalet uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 Det finns också steg som du kan utföra för att minimera träffar med delar av data. Mer information finns i&quot;Vilka är de bästa sätten att minska partiella data?&quot; i [Minimera antalet uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Om data som träffar delvis på data tas bort från rapporter, kommer vi då inte att förlora värdefulla Target- eller Analytics-data? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## Om data som träffar delvis tas bort från rapporter, kommer jag då inte att förlora värdefulla Target- eller Analytics-data? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
-Att inkludera partiella data i [!DNL Analytics]-rapportering ger ytterligare information, men skapar också inkonsekvens med historiska data från perioder när det inte fanns några [!DNL Target]-aktiviteter som kördes. Detta kan orsaka problem för [!DNL Analytics]-användare som analyserar trender över tid.
+Att inkludera partiella data i [!DNL Analytics]-rapportering ger ytterligare information, men skapar också inkonsekvens med historiska data från perioder när det inte fanns några [!DNL Target]-aktiviteter som kördes. Att inkludera data med partiella träffar kan orsaka problem för [!DNL Analytics]-användare som analyserar trender över tid.
 
 Det finns steg som du kan utföra för att minimera träffar med delar av data. Mer information finns i&quot;Vilka är de bästa sätten att minska partiella data?&quot; i [Minimera antalet uppblåsta besök och besökare i A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
