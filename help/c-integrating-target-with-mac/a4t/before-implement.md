@@ -2,11 +2,11 @@
 keywords: Recommendations
 description: Lär dig implementeringskraven för Analytics for Target (A4T) och vad du bör tänka på innan du implementerar den här integreringen.
 title: Vad ska jag veta innan jag implementerar A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Innan du implementerar{#before-you-implement}
 
-Flera ändringar sker i datainsamlingsprocessen när du aktiverar [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
+Flera ändringar sker i datainsamlingsprocessen när du aktiverar [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
 Innan du bestämmer dig för att använda den här integreringen ska du granska följande avsnitt och tänka på hur rapportprocesserna påverkas:
 
@@ -22,7 +22,7 @@ Innan du bestämmer dig för att använda den här integreringen ska du granska 
 
 >[!IMPORTANT]
 >
->Innan du kan börja använda A4T måste du begära att ditt konto etableras för integreringen. Använd formuläret [Marketing Cloud Integrations Provisioning Form](https://www.adobe.com/go/audiences) för att begära att få etableras.
+>Innan du kan börja använda A4T måste du begära att ditt konto har etablerats för integreringen. Använd formuläret [Marketing Cloud Integrations Provisioning Form](https://www.adobe.com/go/audiences) för att begära att få etableras.
 
 Den här A4T-integreringen kräver att du implementerar följande biblioteksversioner (eller nyare), beroende på om du vill använda omdirigeringserbjudanden med A4T eller inte:
 
@@ -50,8 +50,8 @@ Instruktioner för hämtning och distribution finns i [Analytics for Target Impl
 ## Saker att känna till innan du implementerar {#section_50D49CC52E11414089C89FB67F9B88F5}
 
 * Den här integreringen aktiveras för nya aktiviteter när du väljer att använda [!DNL Analytics] som rapportkälla. När du har gjort de implementeringsändringar som beskrivs i det här dokumentet påverkas inte dina befintliga aktiviteter.
-* Processen att konfigurera [!DNL Analytics] som rapportkälla för [!DNL Target] innehåller flera implementeringssteg, följt av ett provisioneringssteg. Det är en god idé att läsa igenom processen enligt beskrivningen nedan innan du implementerar den. När du har utfört de här stegen kan du använda [!DNL Analytics] som rapportkälla så snart den är aktiverad. Etableringsprocessen kan ta upp till fem arbetsdagar.
-* [!DNL Visitor ID service] skapar en delad [!DNL Visitor ID] över [!DNL Adobe Experience Cloud]. Även om det inte ersätter mboxPC-id:t [!DNL Target] eller UUID:t för [!DNL Audience Manager] ersätter det sättet [!DNL Analytics] identifierar nya besökare. Om den är korrekt konfigurerad bör återkommande [!DNL Analytics]-besökare också identifieras via sitt gamla [!DNL Analytics]-ID för att förhindra besöksklickning. På samma sätt försvinner inga [!DNL Target]-data för besökarprofilen när du uppgraderar till [!DNL Visitor ID service] eftersom mboxPCid förblir intakt.[!DNL Target]
+* Processen att konfigurera [!DNL Analytics] som rapportkälla för [!DNL Target] innehåller flera implementeringssteg, följt av ett provisioneringssteg. Det är en god idé att läsa igenom processen enligt beskrivningen nedan innan du implementerar den. När du har slutfört de här stegen kan du använda [!DNL Analytics] som rapportkälla när den är aktiverad. Etableringsprocessen kan ta upp till fem arbetsdagar.
+* [!DNL Visitor ID service] skapar en delad [!DNL Visitor ID] över [!DNL Adobe Experience Cloud]. Även om det inte ersätter mboxPC-id:t [!DNL Target] eller UUID:t för [!DNL Audience Manager] ersätter det sättet [!DNL Analytics] identifierar nya besökare. Om konfigurationen är korrekt bör återkommande [!DNL Analytics]-besökare även identifieras via deras gamla [!DNL Analytics]-ID. På samma sätt försvinner inga [!DNL Target]-data för besökarprofilen när du uppgraderar till [!DNL Visitor ID service] eftersom mboxPCid förblir intakt.[!DNL Target]
 * [!DNL Visitor ID service] måste köras före sidkoden för [!DNL Analytics] och [!DNL Target]. Kontrollera att `VisitorAPI.js` visas ovanför taggarna för alla andra [!DNL Experience Cloud]-lösningar.
 
 ## Svarstid {#section_9489BE6FD21641A4844E591711E3F813}
@@ -63,11 +63,11 @@ När integreringen är aktiverad kommer du att uppleva ytterligare 5-10 minuters
 * För liveströmmar, realtidsrapporter och API-begäranden samt aktuella data för trafikvariabler fördröjs bara träffar med ett extra data-ID.
 * För aktuella data om konverteringsmått, slutförda data och dataflöden fördröjs alla träffar ytterligare 5-7 minuter.
 
-Observera att latensökningen börjar efter att du har implementerat tjänsten [!DNL Experience Cloud] besökar-ID, även om du inte har implementerat den här integreringen fullständigt.
+Fördröjningen börjar när du har implementerat besökar-ID-tjänsten [!DNL Experience Cloud], även om du inte har implementerat den här integreringen fullständigt.
 
 ## Kompletterande ID {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
-Alla [!DNL Target]-anrop som används av en A4T-aktivitet för att leverera innehåll eller registrera målmåttet måste ha en motsvarande [!DNL Analytics]-träff som delar samma extra ID för att A4T ska fungera korrekt.
+Alla [!DNL Target]-anrop som används av en A4T-aktivitet för att leverera innehåll eller registrera målmåttet måste ha en motsvarande [!DNL Analytics]-träff som delar det kompletterande ID:t för A4T för att fungera korrekt.
 
 Träffar som innehåller data från [!DNL Analytics] och [!DNL Target] innehåller ett extra data-ID. Du kan se detta ID i [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) som `sdid`-parametern. Exempel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Detta ID genereras när som helst när följande kriterier finns på plats:
 
@@ -78,9 +78,9 @@ När [felsökning](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting
 
 ## Loggning av analys på klientsidan {#client-side}
 
-När at.js är [!DNL Experience Cloud Visitor ID Service] och appMeasurement.js som standard på sidan är [!DNL Analytics] och [!DNL Target] korrekt sammanfogade händelser för rapporterings- och analysändamål i bakänden om rätt kompletterande ID inkluderas från sidan, vilket nämns ovan. Du behöver inte hantera och utföra ytterligare åtgärder för att A4T ska fungera korrekt.
+Om at.js är [!DNL Experience Cloud Visitor ID Service] och appMeasurement.js på sidan [!DNL Analytics] och [!DNL Target] sammanfogar händelser korrekt för rapportering- och analyssyften i bakänden så länge som rätt kompletterande ID inkluderas från sidan. Du behöver inte hantera och utföra några ytterligare åtgärder för att A4T ska fungera korrekt.
 
-Det finns dock situationer då du kanske vill ha större kontroll över när och hur analysdata som är relaterade till [!DNL Target] ska skickas till [!DNL Analytics] för rapportering. Du kan ha ett internt analysverktyg som du använder internt, men även vill skicka analysdata till [!DNL Analytics] via den interna analysprodukten så att andra medlemmar i organisationen kan fortsätta använda [!DNL Analytics] som en visuell rapportkälla. Se [Steg 7: Mer information finns i at.js eller mbox.js på alla webbplatssidor](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) i *Analytics for Target Implementation*.
+Det finns fall där du kanske vill ha större kontroll över när och hur analysdata som är relaterade till [!DNL Target] ska skickas till [!DNL Analytics] för rapportering. Du kan ha ett internt analysverktyg som du använder internt. Men du vill också skicka analysdata till [!DNL Analytics] via den interna analysprodukten så att andra medlemmar i organisationen kan fortsätta använda [!DNL Analytics] som en visuell rapportkälla. Se [Steg 7: Mer information finns i at.js eller mbox.js på alla webbplatssidor](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) i *Analytics for Target Implementation*.
 
 ## Delade målgrupper
 
@@ -92,4 +92,4 @@ När du begär [!UICONTROL Shared Audiences] aktiverar du [!UICONTROL Target] oc
 
 >[!IMPORTANT]
 >
->Integrationen mellan [!UICONTROL Target] och AAM medför extra kostnader. Du debiteras för varje [!UICONTROL Target]-samtal i AAM.
+>Integrationen mellan [!UICONTROL Target] och AAM medför extra kostnader. Du faktureras för varje [!UICONTROL Target]-samtal i AAM.
