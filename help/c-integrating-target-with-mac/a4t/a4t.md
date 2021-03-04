@@ -4,9 +4,9 @@ description: Använd Analytics for Target (A4T) för att skapa aktiviteter baser
 title: Vad är Analytics för Target (A4T)?
 feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ De tre viktigaste fördelarna med att använda [!DNL Analytics]-data i [!DNL Tar
 
 * Marknadsförarna kan när som helst tillämpa [!DNL Analytics]-framgångsmått eller rapporteringssegment dynamiskt i [!DNL Target]-aktivitetsrapporter. Du behöver inte ange allt innan du kör aktiviteten.
 * En enda datakälla eliminerar den varians som uppstår när data samlas in i två olika system.
-* Din befintliga [!DNL Analytics]-implementering samlar in alla nödvändiga data. Det finns ingen anledning att implementera mbox på sidor enbart i syfte att samla in data för rapporter. Även om vi fortfarande rekommenderar att du implementerar en orderbekräftelseruta för [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)-aktiviteter.
+* Din befintliga [!DNL Analytics]-implementering samlar in alla nödvändiga data. Det finns ingen anledning att implementera mbox på sidor enbart i syfte att samla in data för rapporter. Adobe rekommenderar fortfarande att du implementerar en orderbekräftelseruta för [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)-aktiviteter.
 
 >[!IMPORTANT]
 >
->Innan du kan börja använda A4T måste du begära att ditt konto etableras för integreringen. Använd [det här formuläret](https://www.adobe.com/go/audiences) för att begära att bli etablerad.
+>Innan du kan börja använda A4T måste du begära integreringsetablering för ditt konto. Använd [det här formuläret](https://www.adobe.com/go/audiences) för att begära att bli etablerad.
 >
 >Integrationen som aktiverar [!DNL Analytics] som datakälla för [!DNL Target] (A4T) representerar nästa generation av plugin-programmet Test&amp;Target till SiteCatalyst. Detta plugin-program har tagits bort, men stöds fortfarande för kunder som redan använder det.
 
@@ -44,14 +44,14 @@ Tänk på följande när du funderar på att använda A4T:
 
 * Om du vill använda [!DNL Analytics] som rapporteringskälla för [!DNL Target] måste både du och ditt företag ha tillgång till [!DNL Analytics] och till [!DNL Target]. [Kontakta din kontorepresentant ](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver någon av lösningarna.
 * Rapporteringskällan anges för varje aktivitet. [!DNL Target] fortsätter att samla in data som ska användas vid rapportering och  [!DNL Target] data är fortfarande tillgängliga om du föredrar att basera en aktivitet på data som samlats in av  [!DNL Target].
-* Du måste använda en rapportkälla eller en annan. Du kan inte samla in data för en enskild aktivitet från båda källor.
+* Använd en rapportkälla eller en annan. Du kan inte samla in data för en enskild aktivitet från båda källor.
 * När du använder A4T är alla framgångsmått som är tillgängliga för dina aktiviteter [!DNL Analytics]-mått. Måttet för ditt mål kan dock baseras på ett mbox-anrop. Du kan till exempel använda Target-funktionen för klick-spårning som är klar att användas med A4T i stället för att behöva implementera [!DNL Analytics] klickspårningskod.
 * När du visar rapporter om en A4T-aktivitet i [!DNL Target]-gränssnittet visar du [!DNL Analytics]-data. Om du till exempel använder måttet [!UICONTROL Visitor] i [!DNL Target] använder du måttet [!DNL Analytics] [!UICONTROL Visitor], inte [!DNL Target] [!UICONTROL Visitors], som nu kallas [!UICONTROL Entrants]. Den här skillnaden är särskilt viktig för grundläggande trafikstatistik ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) och konverteringsmått.
 * Alla befintliga [!DNL Target]-aktiviteter fortsätter att använda [!DNL Target]-datainsamling och påverkas inte av att A4T aktiveras.
 * Endast ett mbox-baserat mått tillåts när [!DNL Analytics] används som rapportkälla.
-* Ett server-till-server-anrop från [!DNL Target] till [!DNL Analytics] skickar aktivitets- och upplevelseinformation till [!DNL Analytics]. Integrationen resulterar inte i ytterligare serveranrop för antingen [!DNL Target] eller [!DNL Analytics].
+* Ett server-till-server-anrop från [!DNL Target] till [!DNL Analytics] skickar aktivitets- och upplevelseinformation till [!DNL Analytics]. Integrationen resulterar inte i fler serveranrop för antingen [!DNL Target] eller [!DNL Analytics].
 
-   I vissa situationer kan klassificeringarna från [!DNL Target] till [!DNL Analytics] misslyckas och aktiviteterna visar inte data i [!DNL Analytics]. Om detta inträffar, se [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Du kan även [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver mer hjälp.
+   I vissa situationer misslyckas klassificeringarna från [!DNL Target] till [!DNL Analytics] och aktiviteterna visar inte data i [!DNL Analytics]. Se [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Du kan även [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver mer hjälp.
 
 ## Aktivitetstyper som stöds {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -63,10 +63,10 @@ I följande tabell visas vilka aktivitetstyper som stöder [!DNL Analytics] som 
 | A/B-aktivitet med automatisk fördelning | Ja | Se [Stöd för A4T för Automatisk allokering och Automatisk målaktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
 | A/B-aktivitet med automål | Ja | Se [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | Experience Targeting (XT) | Ja |  |
-| Multivariata tester (MVT) | Ja | Kräver mbox-baserat målmätningsmål för att hämta [!UICONTROL Element Contribution]-rapporten.  [!UICONTROL Element Contribution]-rapporten stöder för närvarande inte [!DNL Analytics]-mått. |
+| Multivariata tester (MVT) | Ja | Kräver mbox-baserat målmätningsmål för att hämta [!UICONTROL Element Contribution]-rapporten. [!UICONTROL Element Contribution]-rapporten stöder för närvarande inte [!DNL Analytics]-mått. |
 | Automated Personalization-aktivitet (AP) | Nej |  |
 | Recommendations-aktivitet | Ja |  |
-| Mobilapp | Ja | Stöds med Mobile Services SDK, version 4.13.1 eller senare.  Mer information finns i [Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/home.html). |
+| Mobilapp | Ja | Stöds med Mobile Services SDK, version 4.13.1 eller senare. Mer information finns i [Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/home.html). |
 | E-post | Nej |  |
 | Leverans-API på serversidan | Ja | Mer information finns i [Serversida: implementera Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | NodeJS SDK | Ja | Mer information finns i [Serversida: implementera Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
