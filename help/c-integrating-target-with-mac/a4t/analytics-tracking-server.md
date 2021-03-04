@@ -2,11 +2,11 @@
 keywords: analysspårningsserver;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;Reporting source;developtools
 description: 'Lär dig hur du anger en Analytics-spårningsserver för aktiviteter som använder Analytics för Target (A4T) om du använder en äldre version av at.js eller mbox.js. '
 title: Hur använder jag en Analytics Tracking Server?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Använda en analysspårningsserver
 
-Om du använder en äldre version av at.js eller mbox.js måste du ange en analysspårningsserver för aktiviteter som använder [!DNL Analytics] för [!DNL Target] (A4T).
+Om du använder en äldre version av at.js eller mbox.js måste du ange en analysspårningsserver för aktiviteter som använder [!DNL Adobe Analytics] för [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->Om du använder [!DNL Analytics] som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
+>Du behöver inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 >
 >[!DNL Target]-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information finns i [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-För att säkerställa att data från [!DNL Target] går till rätt plats i [!DNL Analytics], kräver A4T att en analysspårningsserver skickas i alla anrop till Modstats från [!DNL Target]. För implementeringar som använder flera spårningsservrar kan du använda [!DNL Adobe Experience Platform Debugger] eller webbläsarens utvecklingsverktyg för att fastställa rätt spårningsserver för din aktivitet.
+För att säkerställa att data från [!DNL Target] går till rätt plats i [!DNL Analytics], kräver A4T att en analysspårningsserver skickas i alla anrop till Modstats från [!DNL Target]. För implementeringar som använder flera spårningsservrar använder du [!DNL Adobe Experience Platform Debugger] eller webbläsarens utvecklingsverktyg för att fastställa rätt spårningsserver för din aktivitet.
 
 ## Hämta Analytics-spårningsservern med Adobe Experience Platform Debugger
 
-Felsökaren bör visas på en sida där aktiviteten kommer att levereras för att säkerställa att du väljer rätt spårningsserver. Du kan också ange en standardspårningsserver för varje konto. Kontakta kundtjänst om du vill ange eller ändra standardinställningen.
+Felsökaren bör visas på en sida där aktiviteten levereras för att säkerställa att du väljer rätt spårningsserver. Du kan också ange en standardspårningsserver för varje konto. Kontakta kundtjänst om du vill ange eller ändra standardinställningen.
 
 1. Öppna [!DNL Adobe Experience Platform Debugger] från sidan där du skapar aktiviteten.
 
@@ -48,7 +48,7 @@ Felsökaren bör visas på en sida där aktiviteten kommer att levereras för at
 
    >[!NOTE]
    >
-   >Du måste välja [!UICONTROL Analytics as the Reporting Source] för att din aktivitet ska vara tillgänglig i fältet [!UICONTROL Tracking Server].
+   >Välj [!UICONTROL Analytics as the Reporting Source] för din aktivitet för att fältet [!UICONTROL Tracking Server] ska vara tillgängligt.
 
 ## Hämta Analytics tracking-servern med hjälp av webbläsarens Developer Tools
 
@@ -76,5 +76,5 @@ Utvecklarverktygen ska visas på en sida där aktiviteten levereras för att sä
 
    >[!NOTE]
    >
-   >Du måste välja [!UICONTROL Analytics as the Reporting Source] för att din aktivitet ska vara tillgänglig i fältet [!UICONTROL Tracking Server].
+   >Välj [!UICONTROL Analytics as the Reporting Source] för din aktivitet för att fältet [!UICONTROL Tracking Server] ska vara tillgängligt.
 
