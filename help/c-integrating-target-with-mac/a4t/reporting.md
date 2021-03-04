@@ -2,11 +2,11 @@
 keywords: analys för target;a4t;analytics as reporting source
 description: Lär dig hur du använder Analytics för Target (A4T). A4T ger tillgång till Analytics-rapporter för Target-aktiviteter som använder analysstatistik och målgruppssegment.
 title: Hur använder jag rapportering i A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # A4T-rapportering{#a-t-reporting}
 
-Om du använder [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T) får du tillgång till [!DNL Analytics]-rapporter för dina [!DNL Target]-aktiviteter.
+Om du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T) får du tillgång till [!DNL Analytics]-rapporter för dina [!DNL Target]-aktiviteter.
 
 Du kan visa rapporter för dina aktiviteter i både [!DNL Analytics] och [!DNL Target].
 
-[Om du vill rapportera bästa praxis med [!DNL Analytics] för [!DNL Target] ska du besöka den här Adobe Spark-sidan](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Om du vill rapportera bästa praxis med [!DNL Analytics] för [!DNL Target], [går du till denna Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Översikt {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -66,7 +66,7 @@ När [!DNL Analytics] används som rapportkälla visar rapporter i [!DNL Target]
 
    Alla mått är tillgängliga, inklusive anpassade eller beräknade värden som är inbyggda i [!DNL Analytics].
 
-   Tänk på att alla siffror som ökar visas som positiva i rapporten, även när en ökning egentligen inte är önskvärd. Även om du till exempel vill ha en lägre avhoppsfrekvens visas den högre avhoppsfrekvensen som vinnare med den högsta avhoppsfrekvensen. Tänk på dessa och liknande mätvärden och om du hellre vill öka eller minska siffrorna när du fattar beslut baserat på rapporter.
+   Alla tal som ökar visas som positiva i rapporten, även när en ökning inte är önskad. Även om du till exempel vill ha en lägre avhoppsfrekvens visas den högre avhoppsfrekvensen som vinnare med den högsta avhoppsfrekvensen. Tänk på dessa och liknande mätvärden och om du hellre vill öka eller minska siffrorna när du fattar beslut baserat på rapporter.
 
 Du kan använda måttet eller målgruppen för rapporten om [!DNL Target] efter att aktiviteten har startats, eller till och med efter att testet har slutförts. Du behöver inte veta exakt vad du vill mäta i förväg.
 
