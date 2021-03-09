@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '3648'
+source-wordcount: '3704'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,14 @@ ht-degree: 0%
 # Dokumentationsändringar
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
+
+## Adobe Target Standard/Premium 21.2.1 (9 mars 2021)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 9 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md#offer-size) | De tillåtna storleksbegränsningarna för erbjudanden har uppdaterats. |
+|  | [Tillåtelselista: Hörnkantsnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Uppdaterade IP-adresser för edge [!DNL Target]. |
+|  | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.2.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 januari 2021)
 
