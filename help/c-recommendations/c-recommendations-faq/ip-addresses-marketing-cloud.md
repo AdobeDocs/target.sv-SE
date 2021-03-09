@@ -4,25 +4,25 @@ description: Visa en lista över IP-adresser som används i Recommendations Targ
 title: Vilka IP-adresser använder Recommendations-servrar för mathantering?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 3%
 
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMIP-adresser som används av Recommendations servrar för bearbetning av matning{#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![](/help/assets/premium.png) PREMIUMIP-adresser som används av Recommendations servrar för bearbetning av matning
 
-Lista med IP-adresser som används i Recommendations servrar för bearbetning av feeds i Oregon-datacenter för att hjälpa dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
+Lista med IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations]-feeds-servrar i Oregon-datacenter för att hjälpa dig konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 
-[!DNL Target] [!UICONTROL Recommendations] För aktiviteter används följande IP-adresser som finns i Oregon-datacentret vid åtkomst till kundens FTP-servrar (se länken nedan för att se den senaste informationen):
+[!DNL Target] [!UICONTROL Recommendations] För aktiviteter används följande IP-adresser i Oregon-datacentret när du använder kundens FTP-servrar (se länken nedan för att få den senaste informationen):
 
 | CIDR-notering | Inledande IP | Avslutande IP |
 |---|---|---|
 | 192.243.242.0/24 | 192.243.242.0 | 192.243.242.255 |
 
-[!DNL Target] [!UICONTROL Recommendations] API:er använder följande IP-adresser som finns i Oregon-datacentret (kontrollera att länken nedan innehåller den senaste informationen):
+[!DNL Target] [!UICONTROL Recommendations] API:er använder följande IP-adresser i Oregon-datacenter (se till att du hittar den senaste informationen genom att klicka på länken nedan):
 
 | CIDR-notering | Inledande IP | Avslutande IP |
 |---|---|---|
