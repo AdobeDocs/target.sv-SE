@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3704'
+source-wordcount: '3729'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,9 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 9 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md#offer-size) | De tillåtna storleksbegränsningarna för erbjudanden har uppdaterats. |
+| 9 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>De tillåtna storleksbegränsningarna för erbjudanden har uppdaterats.</li><li>Teckengränsen för parametern categoryId har korrigerats.</li></ul> |
 |  | [Tillåtelselista: Hörnkantsnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Uppdaterade IP-adresser för edge [!DNL Target]. |
+|  | [Entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md) | Tillagd text som anger att entity.value måste ha decimalformat (till exempel 15,99 istället för 15,99). |
 |  | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.2.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 januari 2021)
