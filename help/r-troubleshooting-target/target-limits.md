@@ -2,12 +2,12 @@
 keywords: teckengräns;mbox-parametrar;batchleverans api;profilparametrar;begränsningar;inbyggda profiler;maximum;limit;begränsning;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Visa en lista över teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Adobe Target.
 title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsningar i Adobe Target?
-feature: Troubleshooting
+feature: Felsökning
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -192,13 +192,13 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 * **Rekommenderad gräns**: Totalt 50 000 erbjudanden.
 
-### Erbjudandestorlek
+### Erbjudandestorlek {#offer-size}
 
 Följande storleksbegränsningar gäller för erbjudanden:
 
-* 256 kB för HTML-erbjudanden.
-* 64 kB för visuella erbjudanden från användargränssnittet.
-* 512 kB från API:t.
+* 1 024 kB för HTML-erbjudanden.
+* 1 024 kB (för varje upplevelse) för visuella erbjudanden från användargränssnittet.
+* 1 024 kB från API:t.
 
    Om du använder en global mbox är gränsen för hela den innehållsuppsättning som returneras för sidan. Genom att begränsa erbjudandestorleken förbättras sidinläsningstiden. Om gränsen överskrids visas följande meddelande:
 
