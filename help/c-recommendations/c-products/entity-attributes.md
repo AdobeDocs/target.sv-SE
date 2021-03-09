@@ -4,15 +4,15 @@ description: Lär dig hur du använder entitetsattribut för att skicka produkt-
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMEntity-attribut{#entity-attributes}
+# ![](/help/assets/premium.png) PREMIUMEntity-attribut
 
 Använd entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Adobe Target Recommendations].
 
@@ -86,7 +86,7 @@ Endast ett värde.
 
 Den här obligatoriska parametern identifierar produkten. Detta alfanumeriska ID måste vara samma för alla [!DNL Adobe Experience Cloud]-produkter som används, inklusive [!DNL Analytics], för att de olika produkterna ska kunna identifiera objektet och dela data om det.
 
-`entity.id` värden får inte innehålla snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck är tillåtna. Om du tar med ogiltig interpunktion i ett `entity.id`-värde misslyckas vissa [!DNL Recommendations]-funktioner.
+`entity.id` värden får  ** inte innehålla snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck är tillåtna. Om du tar med ogiltig interpunktion i ett `entity.id`-värde misslyckas vissa [!DNL Recommendations]-funktioner.
 
 Exempel: `'entity.id=67833'`
 
@@ -102,7 +102,7 @@ Exempel: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Stöder flera värden (kommaavgränsad lista).
 
-Den aktuella sidans kategori. Detta kan omfatta flera kategorier, t. ex. en underavdelning till mordianer (t. ex. kvinnor, kvinnor: svettare, kvinnor: vårdare: vårdare). Flera kategorier ska avgränsas med kommatecken.
+Den aktuella sidans kategori. Detta kan omfatta flera kategorier, t. ex. ett underavsnitt till mordianer (t. ex. kvinnor, kvinnor: svettare, kvinnor: vårdare: hjärtklappare). Flera kategorier ska avgränsas med kommatecken.
 
 `categoryId` får innehålla högst 250 tecken.
 
@@ -179,6 +179,8 @@ Endast ett värde.
 Definierar pris eller värde för artikeln.
 
 Exempel: `'entity.value=15.99'`
+
+entity.value stöder endast decimalformat (till exempel 15.99). Kommaformatet (15,99) stöds inte.
 
 ### entity.margin
 
