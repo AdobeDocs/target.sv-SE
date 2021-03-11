@@ -6,17 +6,17 @@ title: Hur implementerar jag Target?
 feature: Implementering
 role: Utvecklare
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 2f1d37c8a17283ac0191dee5d581e202f024398d
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
 
-# Implementera mål{#implement-target}
+# Implementera mål
 
-Innan du börjar använda Adobe Target bör du implementera det på din webbplats, förstå några grundläggande begrepp och termer, känna till hur Target fungerar och integreras med din infrastruktur och förstå hur besökarna spåras av Target-systemet.
+Innan du använder [!DNL Adobe Target] måste du implementera den på din plats. Innan implementeringen bör du förstå grundläggande begrepp, veta hur [!DNL Target] fungerar och integreras med din infrastruktur och förstå hur besökare spåras av [!DNL Target]-systemet.
 
 + [Innan du implementerar](c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
 + [Webbimplementering på klientsidan](c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
