@@ -1,12 +1,12 @@
 ---
 keywords: entitet;entitetsattribut;skicka information till Recommendations;beteendedata;dataräknare;definiera relativ URL;visa lagernivå;definiera pris;definiera vinstmarginal;anpassade attribut
-description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till Adobe Target Recommendations.
+description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till Target Recommendations.
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
+source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,22 @@ ht-degree: 0%
 
 Använd entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Adobe Target Recommendations].
 
+Enheter refererar till de objekt som du vill rekommendera. Exempel på organisationer är produkter, innehåll (artiklar, bildspel, bilder, filmer och TV-program), jobblistor, restauranger och så vidare.
+
 [!DNL Recommendations] skickar  `productId` eller  `productPurchasedId` (kallas  `entity.id` i koden) som används i algoritmerna.
 
->[!NOTE]
->
->* `entity.id` måste matcha den  `productPurchasedId` som skickats till orderbekräftelsesidan och den som  `productId` används i Adobe Analytics produktrapporter.
-   >
-   >
-* Angivna värden för entitetsattribut upphör att gälla efter 61 dagar. Detta innebär att du måste se till att det senaste värdet för varje entitetsattribut skickas till Target Recommendations minst en gång i månaden för varje objekt i din katalog.
+Tänk på följande:
 
+* `entity.id` måste matcha den  `productPurchasedId` som skickats till orderbekräftelsesidan och den som  `productId` används i  [!DNL Adobe Analytics] produktrapporter.
+* Entitetsattributvärden som du skickar till [!DNL Recommendations] upphör att gälla efter 61 dagar. Adobe rekommenderar att du skickar det senaste värdet för varje entitetsattribut till [!DNL Recommendations] minst en gång i månaden för varje objekt i katalogen.
 
-De flesta fördefinierade parametrar accepterar bara ett enda värde, med nya värden som skriver över gamla värden. Parametern `categoryId` kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nya `categoryId`-värden skriver inte över befintliga värden, utan läggs till under entitetsuppdateringen (högst 250 tecken).
+De flesta fördefinierade parametrar accepterar endast ett värde, med nya värden som skriver över gamla värden. Parametern `categoryId` kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nya `categoryId`-värden skriver inte över befintliga värden, utan läggs till under entitetsuppdateringen (högst 250 tecken).
 
-I allmänhet ser visningsinformationsrutan ut som i följande exempel om du använder at.js 1.** xwith  `mboxCreate`.
+I allmänhet ser visningsinformationsrutan ut som i följande exempel om du använder at.js 1.** xwith  `mboxCreate`. Alla entitetsparameterattribut är skiftlägeskänsliga.
 
 >[!NOTE]
 >
->* Om du använder at.js 2.*x*,  `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till Recommendations med at.js 2.*x*, använd  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Se till exempel [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md).
-
->
-
-
-
-Alla entitetsparameterattribut är skiftlägeskänsliga.
+>Om du använder at.js 2.*x*,  `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använd  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Se till exempel [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -86,7 +79,7 @@ Endast ett värde.
 
 Den här obligatoriska parametern identifierar produkten. Detta alfanumeriska ID måste vara samma för alla [!DNL Adobe Experience Cloud]-produkter som används, inklusive [!DNL Analytics], för att de olika produkterna ska kunna identifiera objektet och dela data om det.
 
-`entity.id` värden får  ** inte innehålla snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck är tillåtna. Om du tar med ogiltig interpunktion i ett `entity.id`-värde misslyckas vissa [!DNL Recommendations]-funktioner.
+`entity.id`-värdena får *inte* innehålla snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck tillåts. Om du tar med ogiltig interpunktion i ett `entity.id`-värde misslyckas vissa [!DNL Recommendations]-funktioner.
 
 Exempel: `'entity.id=67833'`
 
@@ -102,9 +95,9 @@ Exempel: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Stöder flera värden (kommaavgränsad lista).
 
-Den aktuella sidans kategori. Entity.categoryID kan innehålla flera kategorier, t.ex. ett underavsnitt till cardigans (t.ex. kvinnor, kvinnor:trötthet, kvinnor:vårdnadshavare). Flera kategorier måste avgränsas med kommatecken.
+Den aktuella sidans kategori. Entity.categoryID kan innehålla flera kategorier, t.ex. ett underavsnitt till cardigans (t.ex. kvinnor, kvinnor:sötare, kvinnor:vårdare:vårdare). Flera kategorier måste avgränsas med kommatecken.
 
-`categoryId` får innehålla högst 250 tecken.
+Värdet `categoryId` är begränsat till 250 tecken.
 
 >[!NOTE]
 >
@@ -116,7 +109,7 @@ Exempel:
 * Exempel: Kategorisidomatare: kvinnor:trötthet
 * Exempel: Kategorisidnumrering: kvinnor:tröja:morfar
 
-För kategoribaserade rekommendationer används ett kommatecken för att skilja kategorivärden åt. Alla värden som avgränsas med kommatecken blir kategorier. Du kan också definiera underkategorier genom att använda en annan avgränsare, t.ex. ett kolon (:), för att skilja underkategorier inom kategorivärdet.
+För kategoribaserade rekommendationer avgränsar ett kommatecken kategorivärdet. Alla värden som avgränsas med kommatecken blir kategorier. Du kan också definiera underkategorier genom att använda en annan avgränsare, t.ex. ett kolon (:), för att skilja underkategorier inom kategorivärdet.
 
 I följande kod delas kategorin Kvinnor in i flera underkategorier:
 
@@ -124,7 +117,7 @@ I följande kod delas kategorin Kvinnor in i flera underkategorier:
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-För leverans av mbox används det längsta attributnamnet för nyckeln. Om det finns en slips används det sista attributet. I exemplet ovan är kategorinyckeln Womens:Outerwear:Jackets:Caban .
+För leverans av mbox används det längsta attributnamnet för nyckeln. Om det finns en slips används det sista attributet. I exemplet ovan är kategorinyckeln Womens:Outerwear:Jackets:Caban.
 
 ### entity.brand
 
@@ -154,7 +147,7 @@ Exempel: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Endast ett värde.
 
-Ett meddelande om produkten som visas i rekommendationen, t.ex.&quot;vid försäljning&quot; eller&quot;godkännande&quot;. Meddelandet är vanligtvis mer detaljerat än produktnamnet. Använd för att definiera ytterligare information som ska visas med produkten i mallen.
+Ett meddelande om produkten som visas i rekommendationen, t.ex.&quot;vid försäljning&quot; eller&quot;godkännande&quot;. Meddelandet är vanligtvis mer detaljerat än produktnamnet. Använd entity.message för att definiera ytterligare information som ska visas med produkten i mallen.
 
 Exempel: `'entity.message=Family&nbsp;special'`
 
@@ -170,7 +163,7 @@ Exempel: `'entity.inventory=1'`
 
 Om du har en global undantagsregel med `entity.inventory` = 0 och `entity.inventory` inte har angetts utvärderar [!DNL Target] den här regeln till TRUE och utesluter produkten.
 
-**Känt fel:** Produktsökning är inte konsekvent med leverans för lagervärdesattribut som inte har angetts. För en regel med `entity.inventory` = 0 visar produktsökningen inte produkter där lagervärdet inte har angetts.
+**Känt problem:** Produktsökning är inte konsekvent med leverans för lagervärdesattribut som inte har angetts. För en regel med `entity.inventory` = 0 visar produktsökningen inte produkter där lagervärdet inte har angetts.
 
 ### entity.value
 
@@ -211,9 +204,7 @@ Anpassade entitetsattribut har stöd för flera värden. Se [Anpassade entitetsa
 
 Exempel: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
->[!NOTE]
->
->Anpassade entitetsattribut med flera värden kräver giltiga JSON-matriser. Korrekt syntaxinformation finns i Anpassade entitetsattribut.
+Anpassade entitetsattribut med flera värden kräver giltiga JSON-matriser. Korrekt syntaxinformation finns i [Anpassade entitetsattribut](/help/c-recommendations/c-products/custom-entity-attributes.md).
 
 ### entity.event.detailsOnly
 
@@ -230,6 +221,7 @@ mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new yor
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
 
-## Relaterade ämnen:
+>[!MORELIKETHIS]
+>
+>* [Anpassade entitetsattribut](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
 
-* [Anpassade entitetsattribut](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
