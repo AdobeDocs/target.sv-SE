@@ -4,9 +4,9 @@ description: Lär dig hur du använder entitetsattribut för att skicka produkt-
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ Använd entitetsattribut för att skicka produkt- eller innehållsinformation ti
 >* `entity.id` måste matcha den  `productPurchasedId` som skickats till orderbekräftelsesidan och den som  `productId` används i Adobe Analytics produktrapporter.
    >
    >
-* Angivna värden för entitetsattribut upphör att gälla efter 61 dagar. Det innebär att du bör se till att det senaste värdet för varje entitetsattribut skickas till Target Recommendations minst en gång i månaden för varje objekt i din katalog.
+* Angivna värden för entitetsattribut upphör att gälla efter 61 dagar. Detta innebär att du måste se till att det senaste värdet för varje entitetsattribut skickas till Target Recommendations minst en gång i månaden för varje objekt i din katalog.
 
 
 De flesta fördefinierade parametrar accepterar bara ett enda värde, med nya värden som skriver över gamla värden. Parametern `categoryId` kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nya `categoryId`-värden skriver inte över befintliga värden, utan läggs till under entitetsuppdateringen (högst 250 tecken).
 
-I allmänhet kan visningsinformationsrutan se ut som i följande exempel om du använder at.js 1.** xwith  `mboxCreate`.
+I allmänhet ser visningsinformationsrutan ut som i följande exempel om du använder at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Om du använder at.js 2.*x*,  `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till Recommendations med at.js 2.*x*, använd  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ett exempel finns i [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md).
+>* Om du använder at.js 2.*x*,  `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till Recommendations med at.js 2.*x*, använd  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Se till exempel [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
@@ -102,7 +102,7 @@ Exempel: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Stöder flera värden (kommaavgränsad lista).
 
-Den aktuella sidans kategori. Detta kan omfatta flera kategorier, t. ex. ett underavsnitt till mordianer (t. ex. kvinnor, kvinnor: svettare, kvinnor: vårdare: hjärtklappare). Flera kategorier ska avgränsas med kommatecken.
+Den aktuella sidans kategori. Entity.categoryID kan innehålla flera kategorier, t.ex. ett underavsnitt till cardigans (t.ex. kvinnor, kvinnor:trötthet, kvinnor:vårdnadshavare). Flera kategorier måste avgränsas med kommatecken.
 
 `categoryId` får innehålla högst 250 tecken.
 
@@ -118,7 +118,7 @@ Exempel:
 
 För kategoribaserade rekommendationer används ett kommatecken för att skilja kategorivärden åt. Alla värden som avgränsas med kommatecken blir kategorier. Du kan också definiera underkategorier genom att använda en annan avgränsare, t.ex. ett kolon (:), för att skilja underkategorier inom kategorivärdet.
 
-I följande kod är till exempel kategorin Vinnare indelad i flera underkategorier:
+I följande kod delas kategorin Kvinnor in i flera underkategorier:
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,7 +166,7 @@ Visar artikelns lagernivå.
 
 Exempel: `'entity.inventory=1'`
 
-**Tom attributhantering för lager:** Om du har en inkluderingsregel, samlingsregel eller kriterieinställning med  `entity.inventory` > 0 eller  `entity.inventory` = 0 och produkten inte har ställt in lagret  [!DNL Target] utvärderas detta till TRUE och inkluderar produkter där lagret inte har ställts in. Detta gjordes som standard så att produkter med lager som inte är inställda visas i rekommendationsresultat.
+**Tom attributhantering för lager:** Om du har en inkluderingsregel, samlingsregel eller kriterieinställning med  `entity.inventory` > 0 eller  `entity.inventory` = 0 och produkten inte har angett något lager  [!DNL Target] utvärderar värdet till TRUE och inkluderar produkter där lagret inte har angetts. Detta innebär att produkter med lager som inte är inställda visas i rekommendationsresultat.
 
 Om du har en global undantagsregel med `entity.inventory` = 0 och `entity.inventory` inte har angetts utvärderar [!DNL Target] den här regeln till TRUE och utesluter produkten.
 
@@ -194,7 +194,7 @@ Exempel: `'entity.margin=1.00'`
 
 Stöder flervärdesmatris (JSON-matris).
 
-Definiera upp till 100 anpassade variabler som innehåller ytterligare information om objektet. Du kan ange vilket attributnamn som inte används för varje anpassat attribut. Du kan till exempel skapa ett anpassat attribut med namnet `entity.genre` för att definiera en bok eller film. Eller så kan en biljettförsäljare skapa attribut för en eventplats för en sekundär utförare, till exempel ett besöksteam i ett idrottsevenemang eller en öppningsakt i en konsert.
+Definiera upp till 100 anpassade variabler som innehåller ytterligare information om objektet. Du kan ange vilket attributnamn som inte används för varje anpassat attribut. Du kan till exempel skapa ett anpassat attribut med namnet `entity.genre` för att definiera en bok eller film. En biljettleverantör kan skapa attribut för en evenemangsplats för en sekundär utförare, till exempel ett besöksteam vid ett idrottsevenemang eller en öppningsakt på en konsert.
 
 Begränsningar:
 
