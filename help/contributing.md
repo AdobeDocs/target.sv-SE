@@ -1,9 +1,9 @@
 ---
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b14736a6f49e4276c94490f2fa435a87f8d365ae
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '154'
-ht-degree: 81%
+source-wordcount: '145'
+ht-degree: 80%
 
 ---
 # Bidrar
@@ -18,7 +18,7 @@ Detta projekt följer Adobes [uppförandekod](https://git.corp.adobe.com/OpenSou
 
 ## Licensavtal för deltagare
 
-Alla bidrag från tredje part till detta projekt måste åtföljas av en undertecknad bidragsgivarlicens. Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Underteckna vårt licensavtal på [EN LÄNK] (ingen länk ännu). Du behöver bara skicka in ett Adobe-licensavtal en gång, och om du redan har skickat in ett är du antagligen redo att sätta igång!
+Alla bidrag från tredje part till detta projekt måste åtföljas av en undertecknad bidragsgivarlicens. Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du behöver bara skicka in ett Adobe-licensavtal en gång, och om du redan har skickat in ett är du antagligen redo att sätta igång!
 
 ## Kodgranskningar
 
