@@ -4,9 +4,9 @@ description: Lär dig hur du skapar aktiviteter för automatisk fördelning och 
 title: Har A4T stöd för automatisk fördelning och automatisk målanpassning?
 feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -96,3 +96,11 @@ Vissa begränsningar och anteckningar gäller för både [!UICONTROL Auto-Alloca
 * När du använder [!DNL Analytics] som datakälla för en [!UICONTROL Auto-Target]-aktivitet avslutas sessionerna efter sex timmar. Konverteringar som inträffar efter sex timmar räknas inte.
 
 Mer information finns i [Attribution models and lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) i *Analytics Tools Guide*.
+
+## Självstudiekurs: Ställa in A4T-rapporter i Analysis Workspace för Auto-Target-aktiviteter {#tutorial}
+
+Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace] krävs några ändringar i standardpanelen [!UICONTROL Analytics for Target] för att automålsaktiviteter ska kunna tolkas korrekt. Dessa ändringar krävs på grund av skillnader mellan experimentella aktiviteter (manuell A/B och [!UICONTROL Auto-Allocate]) och personaliseringsaktiviteter ([!UICONTROL Auto-Target]).
+
+I den här självstudiekursen får du hjälp med de rekommenderade ändringarna för analys av [!UICONTROL Auto-Target]-aktiviteter i [!UICONTROL Workspace].
+
+Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) i *Adobe Target Tutorials*.
