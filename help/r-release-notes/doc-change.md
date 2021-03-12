@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: 6a1f51cba34038abc3c73fa5cf88bfab183dfb28
 workflow-type: tm+mt
 source-wordcount: '3756'
 ht-degree: 0%
@@ -20,7 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 12 mars | [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Följande nya självstudiekurs har lagts till:<ul><li>Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter</li></ul> |
+| 12 mars 2021 | [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Följande nya självstudiekurs har lagts till:<ul><li>Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter</li></ul> |
 | 9 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>De tillåtna storleksbegränsningarna för erbjudanden har uppdaterats.</li><li>Teckengränsen för parametern categoryId har korrigerats.</li></ul> |
 |  | [Tillåtelselista: Hörnkantsnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Uppdaterade IP-adresser för edge [!DNL Target]. |
 |  | [Entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md) | Tillagd text som anger att entity.value måste ha decimalformat (till exempel 15,99 istället för 15,99). |
