@@ -2,23 +2,27 @@
 keywords: felsökning;måttskillnader;vanliga frågor och svar;rapporter;ny besökare;återkommande besökare;återkommande besökare;återkommande besökare;återbesök;nytt besök
 description: Se en lista med vanliga frågor och svar om Adobe Target rapportering.
 title: Var hittar jag svar på frågor om målrapportering?
-feature: Reports
+feature: Rapporter
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
 
 
-# Vanliga frågor om rapportering{#reporting-faq}
+# Vanliga frågor om rapportering
 
-Lista med vanliga frågor om rapportering i [!DNL Target].
+Lista med vanliga frågor om rapportering i [!DNL Adobe Target].
 
-## Hur räknas värdena för nya besökare och återkommande besökare?
+## Hur räknas värdena för nya besökare och återkommande besökare? {#methodology}
 
-Följande information förklarar hur nya besökare och återkommande besökare räknas och ger exempel på varför summan av dessa två segment inte alltid är lika med antalet besökare totalt.
+En ny besökares första besök varar så länge besökaren är aktiv på webbplatsen.
+Om användaren är inaktiv i 30 minuter eller längre återställs sessionen. Om du återställer sessionen innebär det att besökaren blir en återkommande besökare vid nästa besök eller blir aktiv igen efter 30 minuters inaktivitet.
+Om besökaren förflyttar sig runt platsen var 29:e minut under en hel dag räknas besökaren som en ny besökare under hela dagen. Sessionen återställdes aldrig eftersom besökaren aldrig överskridit tröskelvärdet på 30 minuter.
+
+I följande information förklaras i detalj hur nya besökare och återkommande besökare räknas. Det finns också exempel på varför summan av dessa två segment inte alltid är lika med antalet besökare totalt.
 
 ### Nya besökare
 
@@ -30,14 +34,14 @@ En besökare inkluderas i segmentet Nya besökare om något av följande villkor
 
 ### Returnerande besökare
 
-Besökaren inkluderas i segmentet Återkommande besökare om användaren tidigare besökt webbplatsen, lämnat den i minst 30 minuter och återgått till webbplatsen igen med samma cookies. Så länge en besökare återvänder inom sin profillivstid blir de en återkommande besökare.
+Besökaren inkluderas i segmentet Återkommande besökare om användaren tidigare besökt webbplatsen, lämnat den i minst 30 minuter och återgått till webbplatsen igen med samma cookies. Så länge en besökare återvänder inom sin profillivstid är den här besökaren en återkommande besökare.
 
-Anta att din profillivstid är inställd i 14 dagar (standardvärdet). En besökare inkluderas i segmentet Återkommande besökare om följande villkor uppfylls:
+Anta att din profillivstid är inställd på 14 dagar (standard). En besökare inkluderas i segmentet Återkommande besökare om följande villkor uppfylls:
 
 * En besökare besöker webbplatsen för första gången och registreras som en ny besökare.
 * Besökaren lämnar platsen, men återvänder sex dagar senare.
 
-Eftersom profilens livstid är inställd på 14 dagar inkluderas den här besökaren i segmentet Returning Visitors. Observera att om besökaren har tagit bort cookies inom den sexdagarsperioden, kommer besökaren att ingå i segmentet Nya besökare.
+Eftersom profilens livstid är inställd på 14 dagar inkluderas den här besökaren i segmentet Returning Visitors. Om besökaren har tagit bort cookies inom den sexdagarsperioden, inkluderas besökaren i segmentet Nya besökare.
 
 ### Exempel som förklarar avvikelser mellan mätvärden
 
@@ -54,7 +58,7 @@ Den här besökaren räknas som en enskild besökare i aktivitetens totala besö
 
 Exempel:
 
-Ett antal nya besökare besöker er webbplats och är kvalificerade för en aktivitet. Dessa nya besökare räknas in i segmentet Nya besökare. Alla dessa besökare registrerade också ett besök i den aktiviteten.
+Flera nya besökare besöker er webbplats och är kvalificerade för en aktivitet. Dessa nya besökare räknas in i segmentet Nya besökare. Alla dessa besökare registrerade också ett besök i den aktiviteten.
 
 Vissa besökare nådde konverteringsmåttet, som konfigurerades som&quot;Öka antal och behåll användare i aktivitet&quot;. Anta att vissa av dessa användare når konverteringsmåttet flera gånger, så ökar inte konverteringsmåttet. Med tanke på konfigurationen kan vissa användare dock komma till konverteringsmåttet och sedan gå tillbaka till startsidan och kvalificera sig för aktiviteten igen för att registrera ett nytt besök.
 
@@ -64,7 +68,7 @@ XT-aktiviteter ska alltid ha en kontrollupplevelse. Om du använder en XT-aktivi
 
 ## Varför är antalet besök lägre i [!DNL Target] än i andra [!DNL Adobe Experience Cloud]-lösningar? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
-Mätvärden, till exempel besök, som rapporteras av [!DNL Target] kommer alltid att vara lägre än det rapporterade antalet i andra [!DNL Experience Cloud]-lösningar av flera anledningar:
+Mätvärden, till exempel besök, som rapporteras av [!DNL Target] är alltid lägre än de rapporterade siffrorna i andra [!DNL Experience Cloud]-lösningar av flera anledningar:
 
 * [!DNL Target] räknar endast besök för besökare som är kvalificerade för aktiviteten. Andra lösningar kräver besök för besökare som visar sidan, oavsett vilken aktivitet som fört dem till sidan.
 * Det kan finnas situationer där olika aktiviteter konkurrerar om samma plats (ömsesidigt uteslutande). Det innebär att besökarna ser olika innehåll på en webbsida, vilket påverkar de måttnummer som rapporteras av [!DNL Target].
@@ -96,9 +100,9 @@ Mer information om miljöer finns i [Värdar](/help/administrating-target/hosts.
 
 ## Varför är trafiken delad mellan mina upplevelser ojämn i min A/B- eller MVT-aktivitet? {#uneven}
 
-Till exempel anger jag att trafikuppdelningen ska vara 50/50 eller 25/25/25/25, men jag ser en oerhört annorlunda fördelning mellan upplevelserna i rapporten. Det finns ett antal orsaker till ojämnt antal besökare i [!DNL Target]-rapporter:
+Jag ställer till exempel in att trafikuppdelningen ska vara 50/50 eller 25/25/25/25, men jag ser en oerhört annorlunda fördelning mellan upplevelserna i rapporten. Det finns flera orsaker till ojämnt antal besökare i [!DNL Target]-rapportering:
 
-* När en [!DNL Target]-aktivitet startas för första gången kan trafikdistributionen vara ojämn på grund av edge node-arkitekturen som [!DNL Target] använder för att optimera upplevelseleveransen. Det bästa sättet är att ge en aktivitet lite tid att samla in ytterligare data och distributionen normaliseras. Mer information om [!DNL Adobe Target]-arkitektur och Edge-noder finns i [Hur Adobe Target fungerar](/help/c-intro/how-target-works.md).
+* När en [!DNL Target]-aktivitet startas för första gången kan trafikdistributionen vara ojämn på grund av edge node-arkitekturen som [!DNL Target] använder för att optimera upplevelseleveransen. Det bästa sättet är att ge en aktivitet lite tid att samla in mer data och distributionen normaliseras. Mer information om [!DNL Adobe Target]-arkitektur och Edge-noder finns i [Hur Adobe Target fungerar](/help/c-intro/how-target-works.md).
 * Om du är i [!DNL Target] eller [!DNL Analytics] och använder måttet **[!UICONTROL Visits]** måste du komma ihåg att [!DNL Target] är ett besöksbaserat system och trafikfördelningen för ett A/B- eller MVT-test tilldelas på besökarnivå. Om du undersöker aktivitetsresultaten med hjälp av **[!UICONTROL Visits]**-måttet kan trafikfördelningen därför se ojämn ut eftersom vissa besökare kan ha flera besök. Besökare är standardmätvärdet för normalisering när aktivitetsprestanda utvärderas.
 * Det bästa sättet att göra A/B- och MVT-tester är att se till att trafikspliterna är jämna. Genom att ändra trafikfördelningen mellan upplevelser (t.ex. från 90/10 till 50/50) under ett test kan besökarna bli ojämna över olika upplevelser. Den lägre trafikupplevelsen kanske aldrig &quot;hinner ikapp&quot;.
 * Om du följer ovanstående metodtips och trafikdelningen inte normaliseras över tid bör du kontrollera följande:
