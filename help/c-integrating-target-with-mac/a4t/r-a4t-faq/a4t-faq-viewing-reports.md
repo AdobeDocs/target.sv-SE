@@ -4,9 +4,9 @@ description: Hitta svar på frågor som ofta ställs om att visa rapporter när 
 title: Hitta svar på frågor om att visa rapporter med A4T?
 feature: Analyser för mål (A4T)
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
 workflow-type: tm+mt
-source-wordcount: '2369'
+source-wordcount: '2398'
 ht-degree: 1%
 
 ---
@@ -55,6 +55,8 @@ Tänk på följande:
 * Ovanstående mått utlöser när en användare kvalificerar sig för en aktivitet och innehållet returneras från [!DNL Target]. Det behöver inte innebära att användaren såg erbjudandet. Om en aktivitetsupplevelse är under förskjutningen och användaren inte rullar nedåt på sidan, så har erbjudandet levererats av [!DNL Target] men inte av användaren.
 * [!UICONTROL Activity Impressions] (mätt med  [!DNL Target]) och  [!UICONTROL Instances] (mätt med  [!DNL Analytics]) är lika, såvida det inte finns flera anrop till samma sida i samma aktivitet. Detta gör att flera [!UICONTROL Activity Impressions] räknas, men bara en [!UICONTROL Instance].
 
+Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) i *Adobe Target Tutorials*.
+
 ## Varför är&quot;aktivitetsintryck&quot; och&quot;aktivitetskonverteringar&quot; högre i Analysis Workspace än i Rapporter och analyser? {#sametouch}
 
 [!DNL Reports & Analytics] tillämpar en attribueringsmodell med samma tryckning på &quot;aktivitetsavtryck&quot; och &quot;aktivitetskonverteringar&quot; medan  [!DNL Analysis Workspace] visar rådatamätningar, som kan se inflaterade ut på grund av  [!DNL Target] dimensionens beständighet.
@@ -91,28 +93,28 @@ Den 1 januari kommer användaren till webbplatsen och ser aktiviteten XYZ en gå
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 5 | 3 | 1 |
 
 Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter inte på fler Target-aktiviteter och den ursprungliga aktiviteten är inte längre aktiv. Även om aktiviteten inte längre är aktiv följer den fortfarande användaren via eVar persistence. Data ser nu ut så här:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 3 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren visar också fem sidor. Eftersom aktiviteten XYZ fortfarande följer användaren genom persistence, och den här användaren sedan har ABC inställt, visas två radartiklar i rapporten:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 3 |
-| ABC | 1 | 5 | 3 | 1 |
+| ABC | 3 | 5 | 3 | 3 |
 
 Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så du ser det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 3 | 3 |
-| Totalt | 2 | 20 | 1 | 1 | 3 |
+| XYZ | 3 | 20 | 4 | 3 | 3 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Totalt | 2 | 20 | 1 | 3 | 1 |
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Du jämför resultatet av två objekt i en enskild aktivitet. Det är inte möjligt för en användare att se olika upplevelser i samma aktivitet, så du behöver inte bekymra dig om korskontaminering av orderkrediter.
 
