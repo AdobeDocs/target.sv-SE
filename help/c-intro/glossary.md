@@ -1,11 +1,11 @@
 ---
 description: Vad betyder olika termer i Adobe Target? Hitta definitioner av vanliga termer som hjälper dig att få ut mer av Target.
 title: Var hittar jag de termer och definitioner som används i Target?
-feature: Overview
+feature: Översikt
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2460'
 ht-degree: 1%
 
 ---
@@ -51,11 +51,11 @@ Användbar för att testa marknadsföring från webbplatser som saknar en mbox, 
 
 **publik**
 
-En grupp liknande aktivitetsdeltagare som kommer att se en riktad aktivitet.  En grupp personer med samma egenskaper, till exempel en ny besökare, en återkommande besökare eller återkommande besökare från mellanvästern. Med funktionen Målgrupp kan ni rikta olika innehåll och upplevelser till specifika målgrupper för att optimera er digitala marknadsföring genom att visa rätt budskap till rätt personer vid rätt tidpunkt. Om en besökare identifieras som en del av en målgrupp avgör Target vilken upplevelse som ska visas, baserat på kriterier som definieras när aktiviteten skapas.
+En grupp liknande aktivitetsdeltagare som kommer att se en riktad aktivitet.  En grupp personer med samma egenskaper, till exempel en ny besökare, en återkommande besökare eller help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds från Mellanöstern. Med funktionen Målgrupp kan ni rikta olika innehåll och upplevelser till specifika målgrupper för att optimera er digitala marknadsföring genom att visa rätt budskap till rätt personer vid rätt tidpunkt. Om en besökare identifieras som en del av en målgrupp avgör Target vilken upplevelse som ska visas, baserat på kriterier som definieras när aktiviteten skapas.
 
 **Automatisk allokering**
 
-Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
+Med Automatisk tilldelning identifieras en vinnare bland två eller fler upplevelser och fler kunder tilldelas automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 
 **Automatiskt mål**
 
@@ -241,6 +241,18 @@ Skickades på sidan, inte URL-adressen. Parametrar används för att skicka data
 
 Med multivariata tester (MVT) jämförs kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och det element som har störst påverkan på aktivitetens framgång identifieras
 
+## N
+
+**Ny besökare**
+
+En besökare inkluderas i segmentet Nya besökare om något av följande villkor uppfylls:
+
+* Det är besökarens första besök på webbplatsen.
+* Det är besökarens första besök sedan cookies rensades.
+* Det är besökarens första besök på webbplatsen sedan [besökarprofilens livstid](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) har gått ut.
+
+Mer information finns i [Hur räknas mätvärdena för nya besökare och återkommande besökare?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapporteringsfrågor och svar. Kontrast med&quot;Returning Visitor&quot; nedan.
+
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **mål**
@@ -278,6 +290,12 @@ Omdirigerar en besökare till en annan webbsida. Använd den här omdirigeraren 
 **refererande URL-parameter**
 
 Skickar värden till målsidans mbox som refererande URL-parametrar och -värden. Använd dessa om du till exempel vill ange besökarens ursprung som mål.
+
+**Returnerar besökare**
+
+Besökaren inkluderas i segmentet Återkommande besökare om användaren tidigare besökt webbplatsen, lämnat den i minst 30 minuter och återgått till webbplatsen igen med samma cookies. Så länge en besökare återvänder inom sin profillivstid är den här besökaren en återkommande besökare.
+
+Mer information finns i [Hur räknas värdena för nya besökare och återkommande besökare](/help/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapportera frågor och svar. Kontrast mot&quot;Ny besökare&quot; ovan.
 
 **roll**
 
