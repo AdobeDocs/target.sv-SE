@@ -3,11 +3,11 @@ keywords: at.js-versioner;at.js-versioner;versionsinformation
 description: Läs mer om ändringarna i Adobe Target JavaScript-bibliotek at.js.
 title: Vad ingår i varje version av at.js?
 feature: at.js
-role: Developer
+role: Utvecklare
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
 workflow-type: tm+mt
-source-wordcount: '4078'
+source-wordcount: '4097'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,7 @@ Den här versionen av at.js innehåller följande förbättringar och korrigerin
 * Korrigerade ett problem där klickspårning inte rapporterade konverteringar i A4T (Analytics for Target) när Adobe Analytics-kod inte fanns på sidelement.
 * Förbättrade prestanda när du använder både Experience Cloud ID Service (ECID) v4.4 och at.js 2.2 på dina webbsidor.
 * Tidigare gjorde ECID två blockerande anrop innan at.js kunde hämta upplevelser. Detta har reducerats till ett enda samtal, vilket avsevärt förbättrar prestandan.
+* Korrigerade felaktig förhämtad vybearbetning, där händelsetoken från standarderbjudanden inte inkluderades i skickade meddelanden.
 
    >[!NOTE]
    >
@@ -321,7 +322,7 @@ at.js version 1.3.0 finns nu att köpa.
 Följande förbättringar och korrigeringar finns i [!DNL at.js] version 1.1:
 
 * Förbättrad hantering av svarstoken. Mer information finns i [Svarstoken](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
-* Problemet har lösts så att `document.currentScript polyfill` inte stör vinkeln 1.X.
+* Löste ett problem så att `document.currentScript polyfill` inte stör Angular 1.X.
 * Ändringarna görs för att säkerställa att klickspårning inte stör synlighetsegenskapen. Klickspårningselement markeras med CSS-klassen `at-element-click-tracking` i stället för `at-element-marker`.
 
 ## at.js Version 1.0.0 {#section_37A3D23FC4AD42A68AA831B89E03E725}
@@ -391,7 +392,7 @@ Följande förbättringar och korrigeringar finns i [!DNL at.js] version 0.9.6:
 **Datum:21** september 2016
 
 * En `optoutEnabled`-inställning har lagts till för att aktivera eller inaktivera avanmälan av enhetsdiagram. Om den här inställningen är `true` och besökaren har valt att inte spåra, kommer besökarens webbläsare inte att göra några mbox-anrop. Device Graph är för närvarande i Beta. Den här inställningen är som standard `false`, men måste anges till `true` om du använder Device Graph. Ett liknande alternativ är en del av mbox.js v61.
-* `CustomEvent`-stöd för meddelandefunktionen har lagts till. Tidigare kunde inte händelsemeddelandefunktionen at.js användas via vanliga DOM-API:er, som `document.addEventListener()`. Nu kan du använda `document.addEventListener()` för att prenumerera på at.js-händelser, som request-händelser och innehållsrenderingshändelser.
+* `CustomEvent`-stöd för meddelandefunktionen har lagts till. Tidigare gick det inte att använda händelsemeddelandefunktionen at.js via vanliga DOM-API:er, till exempel `document.addEventListener()`. Nu kan du använda `document.addEventListener()` för att prenumerera på at.js-händelser, som request-händelser och innehållsrenderingshändelser.
 * Ett problem som rör erbjudanden som har skapats i Visual Experience Composer (VEC) har korrigerats. Före den här versionen dolde Target väljarna och gömde dem bara när alla väljare matchade. I at.js 0.9.2 Target tas väljarna bort så snart de matchar.
 
 ## at.js Version 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
