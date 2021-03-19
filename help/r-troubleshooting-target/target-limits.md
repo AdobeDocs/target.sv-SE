@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,7 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
 ## Profilskript
 
-* **Rekommenderad gräns för aktiva profilskript**: 300
+* **Rekommenderad gräns för aktiva profilskript (de som är aktiverade)**: 300
 
 * **Rekommenderad gräns för totalt antal profilskript per konto**: 2 000
 
