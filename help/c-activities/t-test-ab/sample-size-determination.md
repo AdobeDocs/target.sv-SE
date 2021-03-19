@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;samplingsstorlek;beräkna samplingsstorlek;autoallokera;autoallokera;kalkylator
-description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test i Adobe Target kräver ett tillräckligt antal besökare (provstorlek) för att förbättra konverteringsgraden.
+description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test i Adobe Target kräver tillräckligt många besökare (provstorlek) för att förbättra konverteringsgraden.
 title: Hur länge ska jag köra ett A/B-test?
-feature: A/B Tests
+feature: A/B-tester
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3044'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Hur länge ska du köra ett A/B-test?
 
-En lyckad [!UICONTROL A/B Test]-aktivitet kräver ett tillräckligt antal besökare (provstorlek) för att förbättra konverteringsgraden, men hur vet du hur länge ett A/B-test ska köras? Den här artikeln innehåller information om [!UICONTROL Auto-Allocate]-aktiviteter och [!UICONTROL Adobe Target] Sample Size Calculator som hjälper dig att se till att din aktivitet har tillräckligt många besökare för att uppnå dina mål.
+En lyckad [!UICONTROL A/B Test]-aktivitet i [!DNL Adobe Target] kräver tillräckligt många besökare (provstorlek) för att förbättra konverteringsgraden. Hur länge ska ett A/B-test köras? Den här artikeln innehåller information om [!UICONTROL Auto-Allocate]-aktiviteter och [!UICONTROL Adobe Target]-beräkningen för provstorlek som hjälper dig att se till att din aktivitet har tillräckligt många besökare för att uppnå dina mål.
 
 Det är frestande att stoppa en aktivitet om ett av erbjudandena fungerar mycket bättre eller sämre än de andra under de första dagarna i aktiviteten. När antalet observationer är lågt är det dock en stor sannolikhet att en positiv eller negativ lyft kan observeras av en slump, eftersom konverteringsgraden är ett medelvärde för ett lågt antal besökare. När aktiviteten samlar in fler datapunkter konvergerar konverteringsgraden till sina sanna långsiktiga värden.
 
@@ -22,35 +22,35 @@ Det är frestande att stoppa en aktivitet om ett av erbjudandena fungerar mycket
 >
 >Att stoppa en aktivitet i förtid är en av de tio största fallgropar som kan uppstå när du utför A/B-tester. Mer information finns i [Tio vanliga A/B-testfall och hur du undviker dem](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
-[!DNL Target] innehåller verktyg som hjälper dig att se till att din aktivitet har en tillräckligt stor samplingsstorlek för att du ska kunna uppnå dina konverteringsmål: Automatisk allokering.
+[!DNL Adobe Target] innehåller verktyg som hjälper dig att se till att din aktivitet har en tillräckligt stor samplingsstorlek för att du ska kunna uppnå dina konverteringsmål: Automatisk allokering.
 
 ## Allokera automatiskt {#auto-allocate}
 
-En [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)-aktivitet är en typ av A/B-test som identifierar en vinnare bland två eller fler upplevelser och automatiskt omfördelar mer trafik till vinnaren för att öka konverteringarna medan testet fortsätter att köras och lära sig.
+En [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)-aktivitet är en typ av A/B-test som identifierar en vinnare bland två eller fler upplevelser. Ett autofördelningstest omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 
-Standardtester av A/B har en inneboende kostnad. Ni måste spendera trafik för att mäta prestanda för varje upplevelse och med hjälp av analyser räkna ut den vinnande upplevelsen. Trafikfördelningen är fast även efter det att ni har insett att vissa upplevelser är bättre än andra. Det är dessutom komplicerat att ta reda på exempelstorleken, och aktiviteten måste gå hela kursen innan du kan agera på en vinnare. Efter att ha gjort allt detta finns det fortfarande en chans att den identifierade vinnaren inte är en riktig vinnare.
+Standardtester av A/B har en inneboende kostnad. Ni måste spendera trafik för att mäta prestanda för varje upplevelse och med hjälp av analyser räkna ut den vinnande upplevelsen. Trafikfördelningen är fast även efter det att ni har insett att vissa upplevelser är bättre än andra. Det är dessutom komplicerat att ta reda på exempelstorleken, och aktiviteten måste gå hela kursen innan du kan agera på en vinnare. Och det finns fortfarande en chans att den identifierade vinnaren inte är en riktig vinnare.
 
 Lösningen är [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] minskar kostnaderna och kostnaderna för att fastställa en vinnande upplevelse. [!UICONTROL Auto-Allocate] övervakar målmätresultaten för alla upplevelser och skickar fler nya deltagare till högpresterande upplevelser proportionerligt. Det finns tillräckligt med trafik för att utforska de andra upplevelserna. Du kan se fördelarna med aktiviteten på dina resultat, även när aktiviteten fortfarande körs: optimering sker parallellt med inlärning.
 
 [!UICONTROL Auto-Allocate] flyttar besökarna mot vinnande upplevelser gradvis i stället för att kräva att ni väntar tills en aktivitet upphör för att avgöra en vinnare. Ni tjänar på att lyfta snabbare eftersom aktivitetsdeltagare som skulle ha skickats till mindre framgångsrika upplevelser visas som potentiella vinnare.
 
-När du använder funktionen [!UICONTROL Auto-Allocate] visar [!DNL Target] ett märke längst upp på aktivitetens sida som anger &quot;Ingen vinnare än&quot; tills aktiviteten når det minsta antalet konverteringar med tillräcklig säkerhet. [!DNL Target] deklarerar den vinnande upplevelsen genom att visa ett märke högst upp på aktivitetens sida.
+När du använder funktionen [!UICONTROL Auto-Allocate] visar [!DNL Adobe Target] ett märke längst upp på aktivitetens sida som anger &quot;Ingen vinnare än&quot; tills aktiviteten når det minsta antalet konverteringar med tillräcklig säkerhet. [!DNL Target] deklarerar den vinnande upplevelsen genom att visa ett märke högst upp på aktivitetens sida.
 
 Mer information finns i [Översikt över automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Beräkna exempelstorlek för Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Om du väljer att använda en manuell [!UICONTROL A/B Test]-aktivitet i stället för [!UICONTROL Auto-Allocate], kan du med [!DNL Target] Sample Size Calculator avgöra vilken provstorlek som behövs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är mycket användbart. Det är valfritt att använda beräkningsverktyget för en [!UICONTROL Auto-Allocate]-aktivitet eftersom [!UICONTROL Auto-Allocate] deklarerar en vinnare åt dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
+Om du väljer att använda en manuell [!UICONTROL A/B Test]-aktivitet i stället för [!UICONTROL Auto-Allocate], kan du med [!DNL Target] Sample Size Calculator avgöra vilken provstorlek som behövs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är användbart. Det är valfritt att använda beräkningsverktyget för en [!UICONTROL Auto-Allocate]-aktivitet eftersom [!UICONTROL Auto-Allocate] deklarerar en vinnare åt dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
 
 Gå till Adobe Target [exempel på storlekskalkylator](https://docs.adobe.com/content/target-microsite/testcalculator.html) innan du konfigurerar A/B-testet.
 
 ![Beräkna exempelstorlek för Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-Det är viktigt att fastställa en lämplig provstorlek (antal besökare) innan A/B-tester utförs för att fastställa den tid som aktiviteten ska köras innan resultaten utvärderas. Genom att helt enkelt övervaka aktiviteten tills statistisk signifikans uppnås, underskattas konfidensintervallet avsevärt, vilket gör testet otillförlitligt. Det intuitiva bakom detta resultat är att om ett statistiskt signifikant resultat påträffas stoppas testet och en vinnare deklareras. Om resultatet inte är statistiskt signifikant får testet dock fortsätta. Detta förfarande gynnar starkt det positiva resultatet, vilket ökar den falskt positiva frekvensen och därmed förvränger testets effektiva signifikansnivå.
+Det är viktigt att fastställa en lämplig provstorlek (antal besökare) innan man gör ett A/B-test för att fastställa den tid som aktiviteten ska köras innan resultaten utvärderas. Genom att helt enkelt övervaka aktiviteten tills statistisk signifikans uppnås, underskattas konfidensintervallet avsevärt, vilket gör testet otillförlitligt. Det intuitiva bakom detta resultat är att om ett statistiskt signifikant resultat påträffas stoppas testet och en vinnare deklareras. Om resultatet inte är statistiskt signifikant får testet dock fortsätta. Detta förfarande gynnar starkt det positiva resultatet, vilket ökar den falskt positiva frekvensen och därmed förvränger testets effektiva signifikansnivå.
 
-Detta kan leda till ett stort antal falska positiva effekter, vilket leder till implementering av erbjudanden som inte ger en förväntad lyft på lång sikt. Dålig lyft i sig är ett otillfredsställande resultat, men en ännu allvarligare följd är att oförmågan att med tiden förutsäga lyft urholkar organisationens förtroende för att testa som en metod.
+Detta kan leda till många falskt positiva resultat, vilket leder till implementering av erbjudanden som inte i slutänden ger den förväntade höjningen. Dålig lyft i sig är ett otillfredsställande resultat, men en ännu allvarligare följd är att oförmågan att med tiden förutsäga lyft urholkar organisationens förtroende för att testa som en metod.
 
-I den här artikeln beskrivs de faktorer som måste balanseras när en samplingsstorlek har bestämts, och en kalkylbladskalkylator som används för att beräkna en lämplig samplingsstorlek introduceras. Genom att beräkna provstorleken med hjälp av beräkningsverktyget för provstorlek (länken ovan) innan ett A/B-test börjar, säkerställs att du alltid kör A/B-tester av hög kvalitet som uppfyller statistiska standarder.
+I den här artikeln beskrivs de faktorer som måste balanseras när en samplingsstorlek har bestämts, och en kalkylbladskalkylator som används för att beräkna en lämplig samplingsstorlek introduceras. Genom att beräkna provstorleken med hjälp av beräkningsverktyget för provstorlek (länken ovan) innan ett A/B-test börjar, säkerställs att du alltid kör högkvalitativa A/B-tester som uppfyller statistiska standarder.
 
 Det finns fem användardefinierade parametrar som definierar ett A/B-test. Dessa parametrar är sammanlänkade så att när fyra av dem är fastställda kan den femte beräknas:
 
@@ -60,7 +60,7 @@ Det finns fem användardefinierade parametrar som definierar ett A/B-test. Dessa
 * Baslinjekonvertering
 * Antal besökare
 
-För ett A/B-test fastställs analytikern av den statistiska signifikansen, statistisk styrka, minsta tillförlitliga lyft som kan detekteras och baslinjekonverteringsgraden, och därefter beräknas det antal besökare som krävs utifrån dessa värden. I den här artikeln beskrivs dessa element och riktlinjer för hur du fastställer dessa för ett specifikt test.
+För ett A/B-test fastställs analytikern av den statistiska signifikansen, statistisk styrka, minsta tillförlitliga lyft som kan detekteras och baslinjekonverteringsgraden, och därefter beräknas det antal besökare som krävs utifrån dessa värden. I den här artikeln beskrivs dessa element och riktlinjer för hur du fastställer dessa mått för ett specifikt test.
 
 ![](assets/samplesize.png)
 
@@ -68,13 +68,13 @@ Bilden nedan visar de fyra möjliga resultaten av ett A/B-test:
 
 ![](assets/outcomes.png)
 
-Det är önskvärt att inte få några falska positiva eller falska negativ. Detta kan dock aldrig garanteras genom ett statistiskt test. Det är alltid möjligt att observerade trender inte är representativa för de underliggande konverteringssatserna. I ett test för att se om det var mer sannolikt att huvuden eller klave på ett mynt, även med ett rättvist mynt, skulle man kunna få tio huvuden på tio av slumpen. Den statistiska signifikansen och kraften hjälper oss att kvantifiera de falskt positiva och falska negativa frekvenserna och göra det möjligt för oss att hålla dem på rimliga nivåer för ett givet test.
+Det är önskvärt att inte få några falska positiva eller falska negativ. Det går dock aldrig att garantera att nollvärdet för falskt positiva värden uppnås genom ett statistiskt test. Det är alltid möjligt att observerade trender inte är representativa för de underliggande konverteringssatserna. I ett test för att se om det var mer sannolikt att huvuden eller klave på ett mynt, även med ett rättvist mynt, skulle man kunna få tio huvuden på tio av slumpen. Den statistiska signifikansen och kraften hjälper oss att kvantifiera de falskt positiva och falska negativa frekvenserna och göra det möjligt för oss att hålla dem på rimliga nivåer för ett givet test.
 
 ### Statistisk signifikans {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
-Betydelsenivån för ett test avgör hur sannolikt det är att testet rapporterar en betydande skillnad i konverteringsgraden mellan två olika erbjudanden när det i själva verket inte finns någon verklig skillnad. Detta kallas falskt positivt eller ett Type I-fel. Signaturnivån är ett tröskelvärde som anges av användaren och är en kompromiss mellan toleransen för falska positiva värden och antalet besökare som måste ingå i testet.
+Betydelsenivån för ett test avgör hur sannolikt det är att testet rapporterar en betydande skillnad i konverteringsgraden mellan två olika erbjudanden när det i själva verket inte finns någon verklig skillnad. Denna situation kallas falskt positiv eller ett Type I-fel. Signaturnivån är ett tröskelvärde som anges av användaren och är en kompromiss mellan toleransen för falska positiva värden och antalet besökare som måste ingå i testet.
 
-I ett A/B-test antas inledningsvis att båda erbjudandena har samma konverteringsgrad. Sannolikheten för det observerade resultatet beräknas sedan utifrån detta antagande. Om denna sannolikhet (p-värdet) är mindre än ett fördefinierat tröskelvärde (signifikansnivån), drar [!DNL Target] slutsatsen att det ursprungliga antagandet - att båda erbjudandena har samma konverteringsgrad - är felaktigt och därför är konverteringsgraden för A och B statistiskt annorlunda vid den givna signifikansnivån.
+I ett A/B-test antas inledningsvis att båda erbjudandena har samma konverteringsgrad. Sannolikheten för det observerade resultatet beräknas sedan utifrån detta antagande. Om denna sannolikhet (p-värdet) är mindre än ett fördefinierat tröskelvärde (signifikansnivån) drar [!DNL Target] slutsatsen att det ursprungliga antagandet, som båda erbjudandena har samma konverteringsgrad, är felaktigt. Därför skiljer sig konverteringsgraden för A och B statistiskt på den givna signifikansnivån.
 
 En vanlig signifikansnivå vid A/B-testning är 5%, vilket motsvarar en konfidensnivå på 95% (konfidensnivå = 100% - signifikansnivå). En konfidensnivå på 95 % innebär att varje gång du gör ett test finns det en 5-procentig risk för att upptäcka en statistiskt signifikant ökning, även om det inte finns någon skillnad mellan erbjudandena.
 
@@ -94,7 +94,7 @@ Det är önskvärt att använda högsta möjliga konfidensnivå så att testet g
 
 ### Statistisk effekt {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-Den statistiska effekten av ett A/B-test är sannolikheten att upptäcka en verklig skillnad i konverteringsgrad av en viss storlek. På grund av den slumpmässiga (stokastiska) typen av konverteringshändelser är det möjligt att en statistiskt signifikant skillnad inte observeras - bara av en slump - även om det finns en verklig skillnad i konverteringsgrad mellan de två erbjudandena. Detta kallas ett falskt negativ eller ett Type II-fel.
+Den statistiska effekten av ett A/B-test är sannolikheten att upptäcka en verklig skillnad i konverteringsgrad av en viss storlek. På grund av den slumpmässiga (stokastiska) typen av konverteringshändelser är det möjligt att en statistiskt signifikant skillnad inte observeras - bara av en slump - även om det finns en verklig skillnad i konverteringsgrad mellan de två erbjudandena. Detta scenario kallas ett falskt negativt eller ett Type II-fel.
 
 Statistisk effekt ignoreras ofta eftersom det inte krävs att fastställa statistisk effekt, till skillnad från statistisk signifikans, för att göra ett A/B-test. Genom att bortse från den statistiska styrkan finns det dock en stor risk för att faktiska skillnader mellan konverteringsgraden för olika erbjudanden inte kan identifieras vid testet eftersom urvalsstorleken är för liten. Detta leder till att testerna domineras av falskt positiva resultat.
 
@@ -104,7 +104,7 @@ Ett vanligen använt värde för statistisk effekt är 80 %, vilket innebär att
 
 ### Minsta tillförlitliga lyft {#section_6101367EE9634C298410BBC2148E33A9}
 
-De flesta organisationer vill mäta minsta möjliga skillnad i konverteringsgrad, eftersom även en liten ökning är värd att implementera. Om du vill att A/B-testet ska ha stor sannolikhet för att upptäcka en mycket liten hiss, är antalet besökare som måste ingå i testet oöverkomligt stort. Skälet till detta är att om skillnaden i konverteringsgrad är liten måste båda konverteringsgraden beräknas med stor noggrannhet för att identifiera skillnaden, vilket kräver ett stort antal besökare. Därför bör minsta tillförlitliga påkänningsbar lyft fastställas utifrån affärskraven med hänsyn till avvägningen mellan detektering av små hissar och körning av testet under längre tidsperioder.
+De flesta organisationer vill mäta minsta möjliga skillnad i konverteringsgrad, eftersom även en liten ökning är värd att implementera. Om du vill att A/B-testet ska ha stor sannolikhet för att upptäcka en liten hiss, är antalet besökare som måste ingå i testet oöverkomligt stort. Skälet till detta är att om skillnaden i konverteringsgrad är liten måste båda konverteringssatserna beräknas med stor noggrannhet för att identifiera skillnaden, vilket kräver många besökare. Därför bör minsta tillförlitliga påkänningsbar lyft fastställas utifrån affärskraven med hänsyn till avvägningen mellan detektering av små hissar och körning av testet under längre tidsperioder.
 
 Anta till exempel att två erbjudanden (A och B) har en konverteringsgrad på 10 % respektive 15 %. Om dessa erbjudanden visas för 100 besökare var finns det en 95-procentig chans att observera konverteringsgraden i intervallet 4 % till 16 % för erbjudandet A och 8 % till 22 % för erbjudandet B på grund av konverteringens statiska karaktär. Dessa intervall kallas konfidensintervall i statistiken. De representerar förtroendet för exaktheten i de uppskattade konverteringssatserna. Ju större urvalsstorlek (fler besökare) desto mer säker kan du vara på att uppskattningarna av konverteringsgraden är korrekta.
 
@@ -112,11 +112,11 @@ I figuren nedan visas dessa sannolikhetsfördelningar.
 
 ![](assets/probability_distributions.png)
 
-På grund av den stora överlappningen mellan de två intervallen kan testet inte avgöra om konverteringsgraden är annorlunda. Därför kan detta test med 100 besökare inte skilja mellan de två erbjudandena. Men om vi exponerar erbjudandena för 5 000 besökare var finns det en 95-procentig risk för att den observerade konverteringsgraden kommer att sjunka mellan 9 % och 11 % respektive 14 % till 16 %.
+På grund av den stora överlappningen mellan de två intervallen kan testet inte avgöra om konverteringsgraden är annorlunda. Därför kan detta test med 100 besökare inte skilja mellan de två erbjudandena. Men om Target exponerar erbjudandena för 5 000 besökare var finns det en 95-procentig risk för att den observerade konverteringsgraden sjunker mellan 9 % och 11 % respektive 14 % till 16 %.
 
 ![](assets/probability_distributions2.png)
 
-I det här fallet är det mycket osannolikt att testet kommer att resultera i en felaktig slutsats, så testet med 5 000 besökare kan skilja mellan de två erbjudandena. Testet med 5 000 besökare har ett konfidensintervall på cirka +/-1 %. Det innebär att testet kan identifiera skillnader på cirka 1 %. Därför skulle ännu fler besökare behövas om den sanna konverteringsgraden för erbjudandena till exempel var 10 % och 10,5 % istället för 10 % och 15 %.
+I det här fallet är det osannolikt att testet kommer till en felaktig slutsats, så testet med 5 000 besökare kan skilja mellan de två erbjudandena. Testet med 5 000 besökare har ett konfidensintervall på cirka +/-1 %. Det innebär att testet kan identifiera skillnader på cirka 1 %. Därför skulle ännu fler besökare behövas om den sanna konverteringsgraden för erbjudandena till exempel var 10 % och 10,5 % istället för 10 % och 15 %.
 
 ### Baslinjekonverteringsgrad {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
@@ -163,4 +163,4 @@ Varje gång du jämför två alternativ kan du få en falsk positiv effekt (obse
 
 Genom att använda en [!UICONTROL Auto-Allocate]-aktivitet identifierar [!DNL Target] en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig. [!UICONTROL Auto-Allocate] gör det enkelt att uppnå konverteringsmålen samtidigt som gissningsarbetet tas bort.
 
-Genom att använda den exempelstorlekskalkylator (länk ovan) som introduceras i den här artikeln och låta testet köras under den tid som den föreslår, kan du se till att du alltid utför A/B-tester av hög kvalitet som följer de falska positiva och falska negativa frekvenserna som du har bestämt är lämpliga för det specifika testet. På så sätt kan du vara säker på att dina provningar är konsekventa och att du på ett tillförlitligt sätt kan upptäcka den hiss du är ute efter.
+Genom att använda den exempelstorlekskalkylator (länk ovan) som introduceras i den här artikeln och låta testet köras under den tid som föreslås av den, kan du se till att du alltid utför A/B-tester av hög kvalitet som följer de falska positiva och falska negativa frekvenserna som du har bestämt är lämpliga för det specifika testet. På så sätt kan du vara säker på att dina provningar är konsekventa och att du på ett tillförlitligt sätt kan upptäcka den hiss du är ute efter.
