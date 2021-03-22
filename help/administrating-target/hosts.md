@@ -2,18 +2,18 @@
 keywords: värd;värdar;värdgrupp;felsökning;bästa praxis;ubox;omdirigera;omdirigera;vitlista;tillåtelselista;svartlista;blockeringslista
 description: Lär dig hur du organiserar dina webbplatser och förproduktionsmiljöer för enkel hantering och separat rapportering i Adobe Target.
 title: Vad är värdar och hur använder jag dem?
-feature: Administration & Configuration
-role: Administrator
+feature: Administration och konfiguration
+role: Administratör
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
 
-# Värdar{#hosts}
+# Värdar
 
 Organisera sajter och förproduktionsmiljöer för enkel hantering och separat rapportering i [!DNL Adobe Target].
 
@@ -21,7 +21,7 @@ Det främsta målet med värdhantering är att se till att inget inaktivt inneh�
 
 En värd är en domän från vilken en [!DNL Target]-begäran görs. På en webbplats är det vanligtvis egenskapen `location.hostname` för den URL som gör [!DNL Target]-begäran.
 
-Som standard begränsar [!DNL Target] inte en värd som kan utföra [!DNL Target]-begäranden och ta emot [!DNL Target]-svar. När nya värdar gör förfrågningar fungerar de automatiskt. Det gör det också möjligt att testa på olika domäner som du inte vet eller inte kan förutse. Om du vill åsidosätta det här standardbeteendet kan du ställa in ett tillåtelselista eller blockeringslista för att begränsa vilka värdar som ska fungera med [!DNL Target].
+Som standard begränsar [!DNL Target] inte en värd som kan utföra [!DNL Target]-begäranden och ta emot [!DNL Target]-svar. När nya värdar gör förfrågningar fungerar de automatiskt. Den här processen gör det även möjligt att testa på olika domäner som du inte vet eller inte kan förutse. Om du vill åsidosätta det här standardbeteendet kan du ställa in ett tillåtelselista eller blockeringslista för att begränsa vilka värdar som ska arbeta med [!DNL Target].
 
 Om du vill hantera värdar klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -34,12 +34,12 @@ Följande villkor måste vara uppfyllda för att en värd ska identifieras och l
 * Minst en [!DNL Target]-begäran måste finnas på värden
 * En sida på värden måste ha följande:
 
-   * En korrekt at.js- eller mbox.js-referens
+   * En korrekt at.js-referens
    * En [!DNL Target]-begäran eller en autogenererad global [!DNL Target]-begäran
 
 * Sidan med [!DNL Target]-begäran måste visas i en webbläsare
 
-När sidan har visats visas värden i listan [!UICONTROL Hosts], vilket gör att du kan hantera den i en miljö, samt förhandsgranska och starta aktiviteter och tester.
+När sidan har visats visas värden i listan [!UICONTROL Hosts], vilket gör att du kan hantera den i en miljö och förhandsgranska och starta aktiviteter och tester.
 
 >[!NOTE]
 >
@@ -50,13 +50,13 @@ När en värd har lagts till i listan [!UICONTROL Host] kontrollerar du att vär
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 1. Uppdatera webbläsaren om värden inte visas.
 
-   Som standard placeras en nyligen identifierad värd i [!UICONTROL Production]-miljön. Det här är den säkraste miljön eftersom den inte tillåter att inaktiva aktiviteter kan ses från dessa värdar.
+   Som standard placeras en nyligen identifierad värd i [!UICONTROL Production]-miljön. Miljön [!UICONTROL Production] är den säkraste miljön eftersom den inte tillåter att inaktiva aktiviteter visas från dessa värdar.
 
 1. (Villkorligt) Klicka på ikonen **[!UICONTROL Move]** ( ![move icon](/help/administrating-target/assets/icon-move.png) ) för att flytta värden till [!UICONTROL Development], [!UICONTROL Staging] eller någon annan miljö.
 
 >[!NOTE]
 >
->Det går inte att ta bort miljön [!UICONTROL Production], även om du byter namn på den. Det antas att det är här du kommer att utföra slutgiltiga, aktiva aktiviteter och tester. Standardmiljön tillåter inte att inaktiva kampanjer visas.
+>Det går inte att ta bort miljön [!UICONTROL Production], även om du byter namn på den. Det antas att det är i den här miljön som du utför slutgiltiga, aktiva aktiviteter och tester. Standardmiljön tillåter inte att inaktiva kampanjer visas.
 
 ## Sortera eller sök i värdlistan {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
@@ -66,7 +66,7 @@ Om du vill söka i listan [!UICONTROL Hosts] skriver du en sökterm i rutan [!UI
 
 ## Skapa tillåtelselista som anger värdar som har behörighet att skicka Target-begäranden till Target. {#allowlist}
 
-Du kan skapa ett tillåtelselista som anger värdar (domäner) som har behörighet att skicka [!DNL Target]-begäranden till [!DNL Target]. Alla andra värdar som genererar begäranden får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller en [!DNL Target]-begäran med [!DNL Target] i [!UICONTROL Production]-miljön och har tillgång till alla aktiva och godkända aktiviteter. Om detta inte är den önskade metoden kan du i stället använda tillåtelselista för att registrera specifika värdar som är berättigade att göra [!DNL Target]-begäranden och ta emot [!DNL Target]-innehåll. Alla värdar fortsätter att visas i [!UICONTROL Hosts]-listan, och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva aktiviteter.
+Du kan skapa ett tillåtelselista som anger värdar (domäner) som har behörighet att skicka [!DNL Target]-begäranden till [!DNL Target]. Alla andra värdar som genererar begäranden får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller en [!DNL Target]-begäran med [!DNL Target] i [!UICONTROL Production]-miljön och har tillgång till alla aktiva och godkända aktiviteter. Om du inte vill använda den här metoden kan du använda tillåtelselista för att registrera specifika värdar som är berättigade att göra [!DNL Target]-begäranden och ta emot [!DNL Target]-innehåll. Alla värdar fortsätter att visas i listan [!UICONTROL Hosts], och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva aktiviteter.
 
 Så här skapar du en tillåtelselista:
 
@@ -86,19 +86,19 @@ Om en [!DNL Target]-begäran görs på en obehörig värd, svarar samtalet med `
 
 >[!IMPORTANT]
 >
->**Bästa praxis** för säkerhet: Om du använder funktionen ubox i  [!DNL Target]bör du tänka på att den här tillåtelselista även styr listan över domäner som dina  [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) omdirigeringar kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista inte anges kan [!DNL Adobe] inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
+>**Bästa praxis** för säkerhet: Om du använder funktionen ubox i  [!DNL Target]styr den här tillåtelselista också listan över domäner som dina  [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) omdirigeringar kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista inte anges kan [!DNL Adobe] inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
 >
->Tillåtelselista har företräde framför miljöer. Du bör rensa bort alla värdar innan du använder funktionen tillåtelselista, så visas bara de värdar som tillåts av tillåtelselista i din värdlista. Du kan sedan flytta värdarna till den önskade miljön.
+>Tillåtelselista har företräde framför miljöer. Ta bort alla värdar innan du använder funktionen tillåtelselista, så visas bara de värdar som tillåts av tillåtelselista i din värdlista. Du kan sedan flytta värdarna till den önskade miljön.
 
-Ibland visas domäner från andra platser i dina miljöer. En domän visas i listan om domänen gör ett anrop till at.js eller mbox.js. Om någon t.ex. kopierar en av dina webbsidor till sin server, visas den domänen i din miljö. Du kan också se domäner från spindelmotorer, översättarplatser eller lokala diskenheter.
+Ibland visas domäner från andra platser i dina miljöer. En domän visas i listan om domänen anropar at.js. Om någon t.ex. kopierar en av dina webbsidor till sin server, visas den domänen i din miljö. Du kan också se domäner från spindelmotorer, översättarplatser eller lokala diskenheter.
 
 Om `mboxHost` skickas i ett API-anrop registreras konverteringen för den miljö som skickas. Om ingen miljö skickas blir värddatorn i anropet som standard [!UICONTROL Production].
 
-Du kan också skapa ett blockeringslista som anger värdar (domäner) än det inte går att skicka [!DNL Target]-begäranden till [!DNL Target] genom att lägga till önskade värdar i rutan [!UICONTROL Host Does Not Contain].
+Du kan också skapa ett blockeringslista som anger värdar (domäner) som inte kan skicka [!DNL Target]-begäranden till [!DNL Target] genom att lägga till önskade värdar i rutan [!UICONTROL Host Does Not Contain].
 
 >[!NOTE]
 >
->Eftersom listan Authorized Hosts används för både [!DNL Target]-värdar och standardomdirigeringsvärdar måste du lägga till alla befintliga domäner som är godkända för att använda Javascript SDK (at.js) *AND* alla domäner som används i standardomdirigerings-URL:er för ubox. [!DNL Adobe Target] Du måste även lägga till nya liknande domäner till tillåtelselista i framtiden.
+>Listan [!UICONTROL Authorized Hosts] används för både [!DNL Target]-värdar och standardomdirigeringsvärdar. Lägg till alla befintliga domäner som är godkända för att använda JavaScript SDK (at.js) *AND* för alla domäner som används i Ubox-standardomdirigerings-URL:er. [!DNL Adobe Target] Lägg till liknande domäner i tillåtelselista i framtiden.
 
 ## Ta bort en värd {#section_F56355BA4BC54B078A1A8179BC954632}
 
@@ -118,7 +118,7 @@ Prova följande felsökningstips om du får problem med värdarna:
 **Värden visas inte i listan för ditt konto.**
 
 * Uppdatera sidan [!UICONTROL Hosts] i webbläsaren.
-* Bekräfta att [!DNL Target]-begäran är korrekt, inklusive referensen at.js eller mbox.js.
+* Bekräfta att [!DNL Target]-begäran är korrekt, inklusive referensen at.js.
 * Försök att bläddra till en av [!DNL Target]-förfrågningarna på värden. Det är möjligt att ingen [!DNL Target]-begäran på värden någonsin har renderats i en webbläsare.
 
 **Slumpmässiga eller okända domäner visas i  [!UICONTROL Host] listan.**
@@ -127,4 +127,4 @@ En domän visas i listan om en begäran till [!DNL Target] görs från domänen.
 
 **Min  [!DNL Target] begäran returnerar /* ingen skärm - oauktoriserad mbox-värd */.**
 
-Om en [!DNL Target]-begäran görs på en obehörig värd, kommer begäran att svara med /* no display - unauthorized mbox host */.
+Om en [!DNL Target]-begäran görs på en oauktoriserad värd, svarar begäran med /* no display - unauthorized mbox host */.
