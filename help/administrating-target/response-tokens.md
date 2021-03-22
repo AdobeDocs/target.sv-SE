@@ -2,12 +2,12 @@
 keywords: svarstoken;tokens;plugins;plugin-program;at.js;response
 description: Lär dig hur du använder svarstoken i Adobe Target för att ta fram specifik information som ska användas vid felsökning och integrering med tredjepartssystem (som Clicktale).
 title: Vad är svarstoken och hur använder jag dem?
-feature: Administration & Configuration
-role: Administrator
+feature: Administration och konfiguration
+role: Administratör
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1559'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att medan plugin-pro
 
 >[!NOTE]
 >
->Svarstoken är tillgängliga med at.js 1.1 eller senare. Svarstoken stöds inte med mbox.js.
+>Svarstoken är tillgängliga med at.js 1.1 eller senare.
 
 | Målbibliotek som används | Föreslagna funktionsmakron |
 |--- |--- |
