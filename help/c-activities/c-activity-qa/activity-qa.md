@@ -2,11 +2,11 @@
 keywords: qa;preview;preview links;adobe target;target
 description: Lär dig hur du använder Adobe Target QA-URL:er för att enkelt kunna utföra en heltäckande verksamhets-QA med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
 title: Hur gör jag QA-aktiviteter?
-feature: Activities
+feature: Verksamhet
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
    >[!NOTE]
    >
-   >Detta gäller för at.js-implementeringar med version 2.*Exportera* senare. För at.js 1.*Implementeringar* av mbox.js, detta gäller bara om besökarens webbläsare inte blockerar cookies från tredje part.
+   >Detta gäller för at.js-implementeringar med version 2.*Exportera* senare. För at.js 1.*Implementeringar* gäller bara om besökarens webbläsare inte blockerar cookies från tredje part.
 
 ## Åtkomst till och delning av en QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -58,7 +58,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
    Varje URL för aktivitetslänk (för EXP A, EXP B osv.) Med kan du påbörja användarresan från motsvarande upplevelse. Du kan klicka på den URL som genererats för en upplevelse och sedan fortsätta med vanlig surfning för att se upplevelser på flera sidor (om det finns flera sidor). Endast en URL genereras per upplevelse, även om upplevelsen sträcker sig över flera sidor (malltestning eller flersidig testning).
 
-   Du kan navigera på webbplatsen för att se de andra sidorna eftersom Aktivitets-QA är fast. Observera att detta gäller för at.js-implementeringar med version 2.*Exportera* senare. För at.js 1.*Implementeringar* av mbox.js, detta gäller bara om besökarens webbläsare inte blockerar cookies från tredje part.
+   Du kan navigera på webbplatsen för att se de andra sidorna eftersom Aktivitets-QA är fast. Observera att detta gäller för at.js-implementeringar med version 2.*Exportera* senare. För at.js 1.*Implementeringar* gäller bara om besökarens webbläsare inte blockerar cookies från tredje part.
 
 1. Om du vill visa rapporter som skapats från URL:er för aktivitetslänk klickar du på aktivitetens **[!UICONTROL Reports]**-sida, klickar på ikonen **[!UICONTROL Settings]** ( ![](assets/icon_gear.png)) och väljer sedan **[!UICONTROL QA Mode]** i listrutan **[!UICONTROL Environment]**.
 
