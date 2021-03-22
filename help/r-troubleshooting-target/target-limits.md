@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,8 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 ### Antal enheter
 
 * Det högsta antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99.
+* Den rekommenderade gränsen för bästa prestanda är att hålla katalogen under 1 000 000 objekt per miljö och under 10 000 000 objekt i alla miljöer.
+* Maxgränsen är 10 000 000 objekt per miljö och 100 000 000 objekt i alla miljöer. Om du har mellan 1 000 000 och 10 000 000 objekt per miljö påverkas prestandan för användargränssnittet i [!UICONTROL Catalog Search]. [!DNL Target Recommendations]fortsätter dock att producera och leverera rekommendationer.
 
 ### Anpassade attribut för entitet
 
