@@ -2,12 +2,12 @@
 keywords: arbetsytor;hantera egenskap;behörigheter;produktkonfiguration;produktprofil;roller;projekt
 description: Lär dig hur du skapar separata arbetsytor (produktprofiler) och sedan tilldelar användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser.
 title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
-feature: Administration & Configuration
-role: Administrator
+feature: Administration och konfiguration
+role: Administratör
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '3027'
+source-wordcount: '2991'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # ![](/help/assets/premium.png) PREMIUMEnterenterprise-användarbehörigheter{#enterprise-user-permissions}
 
-Enterprise-användarbehörigheter är ett sätt att formellt administrera företagsövergripande användaråtkomst till [!DNL Target]. Lägg till användare i [!DNL Target], tilldela behörigheter baserat på deras roller och skapa arbetsytor för team baserat på olika avdelningar, globala platser, kanaler och andra logiska grupper. Du kan tilldela användare rollerna [!UICONTROL Observer], [!UICONTROL Editor] eller [!UICONTROL Approver].
+Enterprise-användarbehörigheter är ett sätt att formellt administrera företagsövergripande användaråtkomst till [!DNL Adobe Target]. Lägg till användare i [!DNL Target], tilldela behörigheter baserat på deras roller och skapa arbetsytor för team baserat på olika avdelningar, globala platser, kanaler och andra logiska grupper. Du kan tilldela användare rollerna [!UICONTROL Observer], [!UICONTROL Editor] eller [!UICONTROL Approver].
 
 ## Avgör om du har åtkomst till företagsanvändarbehörigheter
 
@@ -23,11 +23,11 @@ Enterprise-användarbehörigheter är ett sätt att formellt administrera föret
 >
 >Egenskaper och behörigheter är tillgängliga som en del av [!DNL Target] Premium-lösningen. De är inte tillgängliga i [!DNL Target] Standard utan en [!DNL Target] Premium-licens.
 >
->Din [!DNL Target]-implementering kan använda vilken version som helst av at.js eller mbox.js.
+>Din [!DNL Target]-implementering kan använda vilken version som helst av at.js.
 
 Du kan se om din organisation har en Standard- eller Premium-licens genom att klicka på länken [!UICONTROL Administration] högst upp i användargränssnittet för [!DNL Target].
 
-* **[!DNL Target Standard]Kunder**: Om du ser  [!UICONTROL Users] fliken ([!UICONTROL Adminitration > Users]) (och inte  [!UICONTROL Properties] fliken) har din organisation en  [!DNL Target Standard] licens. [!DNL Target Standard]ska kunderna följa instruktionerna i  [](/help/administrating-target/c-user-management/c-user-management/user-management.md) Användare för att lägga till användare och tilldela behörigheter i  [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]Kunder**: Om du ser  [!UICONTROL Users] fliken ([!UICONTROL Administration > Users]) (och inte  [!UICONTROL Properties] fliken) har din organisation en  [!DNL Target Standard] licens. [!DNL Target Standard] ska kunderna följa instruktionerna i  [](/help/administrating-target/c-user-management/c-user-management/user-management.md) Användare för att lägga till användare och tilldela behörigheter i  [!DNL Adobe Admin Console].
 
 * **[!DNL Target Premium]Kunder**: Om du ser  [!UICONTROL Properties] fliken ([!UICONTROL Administration > Properties]) och  [!UICONTROL Users] fliken har din organisation en  [!DNL Target Premium] licens. [!DNL Target Premium] ska kunderna följa instruktionerna i den här artikeln och i  [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -43,11 +43,11 @@ Följande termer används i hela det här avsnittet och kan vara nya för använ
 
 ### Egenskap
 
-Egenskaper liknar till sin natur de i [!DNL Adobe Platform Launch] genom att de använder ett unikt kodfragment för att särskilja dem.
+Egenskaper liknar egenskaper inom [!DNL Adobe Platform Launch] på så sätt att de använder ett unikt kodfragment för att särskilja dem.
 
 En webbegenskap är ett bibliotek med regler och en inbäddningskod. En webbegenskap kan vara vilken gruppering som helst av en eller flera domäner och underdomäner.
 
-Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en parameter med ett anrop (Target call, api call, etc.) till [!DNL Target].
+Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en parameter med ett anrop (Target call, api call, osv.) till [!DNL Target].
 
 Egenskaperna tillhör specifika kanaler (webb, mobil, e-post eller API/annan).
 
@@ -65,9 +65,9 @@ Användare kan ha olika vyer av [!DNL Adobe Target] genom att flytta mellan arbe
 
 Arbetsytorna kan omfatta olika målgrupper, olika erbjudanden och aktiviteter.
 
-Alla målgrupper och aktiviteter som skapats före migreringen av den nya Enterprise Permissions-modellen grupperas tillsammans i &quot;Default Workspace&quot;, vilket beskrivs nedan.
+Alla målgrupper och aktiviteter som skapats före migreringen av den nya Enterprise Permissions-modellen grupperas i &quot;Default Workspace&quot;, vilket beskrivs nedan.
 
-Alla aktiviteter som skapas via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] och [!DNL Adobe Target Classic] blir en del av standardarbetsytan.
+Alla aktiviteter som skapas via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] och [!DNL Adobe Target Classic] är en del av standardarbetsytan.
 
 ### Standardarbetsyta
 
@@ -81,7 +81,7 @@ Alla användarroller och åtkomst till alla [!DNL Target]-funktioner är desamma
 
 ### Användargrupper
 
-Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer osv. och sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att utse en ny teammedlem kan vara lika enkelt som att lägga till dem i en viss användargrupp.
+Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer och så vidare. Du kan sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att utse en ny teammedlem kan vara lika enkelt som att lägga till dem i en viss användargrupp.
 
 ### Roller och behörigheter
 
@@ -96,15 +96,15 @@ Roller och behörigheter avgör vilka åtkomstnivåer användare har för att sk
 
 ### Kanal
 
-Kanalen refererar till innehållstypen där dina [!DNL Target]-aktiviteter levereras: webbsidor, mobilappar, e-postmeddelanden och så vidare.
+Kanalen refererar till innehållstypen där dina [!DNL Target]-aktiviteter levereras: webbsidor, mobilappar, e-postmeddelanden osv.
 
-När du skapar en ny aktivitet skapas den i den markerade arbetsytan. Du kommer att se alternativ för kanalval i den första dialogrutan där du kan välja den kanal du vill använda för aktiviteten: Webb, mobilapp, e-post eller annan/API.
+När du skapar en aktivitet skapas den i den markerade arbetsytan. Du ser alternativ för kanalval i den första dialogrutan där du kan välja önskad kanal för aktiviteten: Webb, mobilapp, e-post eller annan/API.
 
 ## Översikt över behörigheter {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 Följande information förklarar hur behörigheter tillämpades tidigare i [!DNL Target] och hur de tillämpas med funktionerna [!UICONTROL Properties] och [!UICONTROL Permissions].
 
-Med den nya funktionen [!UICONTROL Permissions] kan du skapa olika projekt (så kallade&quot;produktprofiler&quot; i [!DNL Adobe Admin Console for Enterprise]) så att du kan tilldela olika behörigheter till en enskild användare som bestämmer den användarens åtkomstbehörighet för varje projekt. Dessa distinkta projekt kan jämföras med hur rapportsviterna fungerar i [!DNL Adobe Analytics]. Varje projekt kan ha specifika användare med specifika roller som gäller för en uppsättning egenskaper. Resultatet är att kunderna kan begränsa åtkomst till vy, redigering och godkännande för sina användare baserat på region, miljö (dev/stage/prod), kanal eller andra anpassade kriterier, vilket visas nedan:
+Med den nya funktionen [!UICONTROL Permissions] kan du skapa olika projekt (kallas&quot;produktprofiler&quot; i [!DNL Adobe Admin Console for Enterprise]). Med projekt kan du tilldela olika behörigheter till en enskild användare som bestämmer den användarens åtkomstbehörighet för varje projekt. Dessa distinkta projekt kan jämföras med hur rapportsviterna fungerar i [!DNL Adobe Analytics]. Varje projekt kan ha specifika användare med specifika roller som gäller för en uppsättning egenskaper. Resultatet är att kunderna kan begränsa åtkomst till vy, redigering och godkännande för sina användare baserat på region, miljö (dev/stage/prod), kanal eller andra anpassade kriterier, vilket visas nedan:
 
 ![](assets/permissions.png)
 
@@ -133,7 +133,7 @@ Den nya [!DNL Target] [!UICONTROL Permissions]-modellen har samma tre behörighe
 
 I det här exemplet har Jan godkännarbehörighet till USA:s hemsida och behörigheten US Site och Observer till Frankrikes webbplats.
 
-Jan kommer dessutom inte att kunna se sidor, egenskaper eller webbplatser i [!DNL Target] som hon inte har behörighet att se, vilket visas nedan:
+Dessutom kan Jan inte se sidor, egenskaper eller webbplatser i [!DNL Target] som hon inte har behörighet att se, vilket visas nedan:
 
 ![](assets/permissions_4.png)
 
@@ -158,7 +158,7 @@ Efter en omorganisering, med hjälp av de profiler som visas på bilderna ovan, 
 
 * **Ernie**: Ernie är marknadschef för organisationen med ansvar för marknadsföring i USA.
 
-   Eftersom Ernie är ganska ny i organisationen och lite oerfaren av Target har han redigeringsbehörighet för USA:s hemsida, amerikanska webbplats och produktsidor. Med redigerarbehörigheter kan Ernie skapa och redigera aktiviteter innan de är aktiva, men han kan inte godkänna att en aktivitet startas - någon med godkännandebehörighet, som Jan, måste godkänna aktiviteten innan den kan tas i produktion.
+   Eftersom Ernie är ganska ny i organisationen och oerfaren av Target har han redigeringsbehörighet för USA:s hemsida, amerikanska webbplats och produktsidor. Med redigeringsbehörigheter kan Ernie skapa och redigera aktiviteter innan de publiceras. Han kan inte godkänna lanseringen av en aktivitet - någon med godkännandebehörighet, som Jan, måste godkänna aktiviteten innan den kan tas i produktion.
 
    Eftersom Ernie inte har någon roll som gör det nödvändigt att han ser Rysslands webbplats, Frankrikes webbplats eller karriärsajten, kan han inte se aktiviteter för dessa sajter.
 
@@ -180,7 +180,7 @@ Efter en omorganisering, med hjälp av personerna i illustrationerna ovan, kan d
 
 * **Ernie**: Ernie är marknadschef för organisationen med ansvar för marknadsföring på konsumentproduktområdet.
 
-   Eftersom Ernie är ganska ny i organisationen och lite oerfaren av Target har han redigeringsbehörigheter för konsumentwebbplatsen. Med redigerarbehörigheter kan Ernie skapa och redigera aktiviteter innan de är aktiva, men han kan inte godkänna att en aktivitet startas - någon med godkännanderättigheter för konsumentwebbplatsen, men inte Jan i det här scenariot, måste godkänna aktiviteten innan den kan tas i produktion.
+   Eftersom Ernie är ganska ny i organisationen och oerfaren av Target har han redigeringsbehörigheter för konsumentwebbplatsen. Med redigeringsbehörigheter kan Ernie skapa och redigera aktiviteter innan de publiceras. Han kan inte godkänna lanseringen av en aktivitet. Någon med behörigheten Godkännanden för konsumentwebbplatsen, men inte Jan i det här scenariot, måste godkänna aktiviteten innan den kan tas i produktion.
 
    Eftersom Ernie inte har någon roll som gör det nödvändigt att han ser webbplatsen kan han inte se aktiviteter för den sajten.
 
@@ -194,12 +194,12 @@ Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target]-grän
 
    ![](assets/workspace_drop-down.png)
 
-* **Skapa aktivitet:** När du skapar en ny aktivitet skapas den i den markerade arbetsytan. Du kommer att se alternativ för kanalval i den första dialogrutan där du kan välja den kanal du vill använda för aktiviteten: Webb, mobilapp, e-post eller annan/API.
+* **Skapa aktivitet:** När du skapar en aktivitet skapas den i den markerade arbetsytan. Du ser alternativ för kanalval i den första dialogrutan där du kan välja önskad kanal för aktiviteten: Webb, mobilapp, e-post eller annan/API.
 
    ![](assets/channel_options.png)
 
-* **Skapa publik:** När du skapar en ny publik skapas den i den valda arbetsytan.
-* **Skapa erbjudande:** När du skapar ett nytt erbjudande skapas det i den valda arbetsytan.
+* **Skapa publik:** När du skapar en målgrupp skapas den i den valda arbetsytan.
+* **Skapa erbjudande:** När du skapar ett erbjudande skapas det i den valda arbetsytan.
 * **Egenskapssida (Administration > Egenskaper):** Du kan använda  [!UICONTROL Search] rutan för att söka i  [!UICONTROL Property] listan.
 
    ![](assets/properties_list.png)
@@ -208,11 +208,11 @@ Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target]-grän
 
 Tänk på följande när du använder eller konfigurerar egenskaper och behörigheter i [!DNL Target] Premium:
 
-* **Viktigt**: Ta inte bort arbetsytor med aktiviteter. Om det händer ska du arbeta med kundtjänst för att återskapa dessa aktiviteter.
+* **Viktigt**: Ta inte bort arbetsytor med aktiviteter. Om du tar bort en arbetsyta med aktiviteter kan du arbeta med kundtjänst för att återställa dessa aktiviteter.
 * När du använder vyn Alla arbetsytor:
 
    * Du kan se aktiviteter, målgrupper och erbjudanden för alla arbetsytor som du har rätt roller och behörigheter att komma åt.
-   * När du väljer vyn Alla mina arbetsytor läggs en ny kolumn till på sidan för aktiviteter, målgrupper och erbjudanden som listar objektets arbetsyta och den användarbehörighet som är kopplad till det objektet (observatör, redigerare eller godkännare),
+   * När du väljer vyn [!UICONTROL All My Workspaces] läggs en ny kolumn till på sidan Aktiviteter, Publiker och Erbjudanden. I den här kolumnen visas objektets arbetsyta och din användarbehörighet som är kopplad till det objektet (observatör, redigerare eller godkännare),
    * När du skapar en aktivitet, målgrupp eller ett erbjudande i vyn Alla arbetsytor måste du välja den arbetsyta där objektet ska skapas. Endast de arbetsytor som du har behörighet att redigera eller godkänna kan väljas.
    * När du kopierar en aktivitet, målgrupp eller ett erbjudande i vyn Alla arbetsytor måste du välja den arbetsyta där objektet ska kopieras. Endast de arbetsytor som du har behörighet att redigera eller godkänna kan väljas.
 
@@ -229,24 +229,24 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
    * Användare
 
 * Användare kan inte flytta resurser från en arbetsyta (produktprofil) till en annan. Kopiering stöds dock.
-* När du visar målgrupper från sidan [!DNL Audiences] läses sidan in långsammare än förväntat. Om du interagerar med sökfältet på något sätt visas målgrupperna snabbare. Det här är ett känt fel och kommer att korrigeras i en kommande uppdatering. Problemet påverkar inte valet av målgrupper när aktiviteten skapas.
+* När du visar målgrupper från sidan [!DNL Audiences] läses sidan in långsammare än förväntat. Om du interagerar med sökfältet på något sätt visas målgrupperna snabbare. Problemet är känt och kommer att åtgärdas i en kommande uppdatering. Problemet påverkar inte valet av målgrupper när aktiviteten skapas.
 * Följande resurser ingår i den nya Enterprise Permissions-modellen:
 
    * Aktiviteter, målgrupper och koderbjudanden som skapats i Target Standard/Premium när kunden har aktiverats för tillstånd. (Obs! kunder måste ha rätt till Target Premium.)
-   * Egenskaper kan läggas till i befintliga aktiviteter på standardarbetsytan; Detta kan dock komma att ändras.
-   * Endast nya resurser (till exempel aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium (efter att Enterprise Permissions (Enterprise Permissions)) har aktiverats kan begränsas av behörigheter.
+   * Egenskaper kan läggas till i befintliga aktiviteter på standardarbetsytan; Detta tillvägagångssätt kan dock komma att ändras.
+   * Endast nya resurser (som aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium (efter att Enterprise Permissions (Enterprise Permissions)) har aktiverats kan begränsas av behörigheter.
    * Externa resurser är bara tillgängliga för användare på standardarbetsytan. En användares roll i standardarbetsytan används globalt (för alla Target-begäranden och alla Target-resurser).
 
 * Följande resurser är *inte* en del av den nya Enterprise Permissions-modellen:
 
    * Bilderbjudanden
    * Alla Recommendations-resurser, inklusive kriteriebibliotek, designbibliotek, katalog, Recommendations Setup.
-   * Befintliga resurser (t.ex. aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium innan Enterprise-behörigheter aktiverades kan kopieras, men kan inte flyttas till andra arbetsytor.
-   * Aktiviteter, målgrupper, koderbjudanden, bilderbjudanden eller andra resurser som skapats med följande lösningar eller metoder kan inte styras av modellen Enterprise Permissions, men kommer att ingå i standardarbetsytan: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services och resurser som skapats via API. Resurser som skapas via API omfattar aktiviteter, målgrupper, koderbjudanden och bilderbjudanden).
+   * Befintliga resurser (t.ex. aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium innan Enterprise-behörigheter aktiveras kan kopieras, men kan inte flyttas till andra arbetsytor.
+   * Aktiviteter, målgrupper, koderbjudanden, bilderbjudanden eller andra resurser som skapats med följande lösningar eller metoder kan inte styras av modellen Enterprise Permissions, men ingår i standardarbetsytan: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services och resurser som skapats via API. Resurser som skapas via API omfattar aktiviteter, målgrupper, koderbjudanden och bilderbjudanden).
    * Bilderbjudanden (resurser som lagras under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kan för närvarande inte styras av modellen Enterprise Permissions.
-   * clickTracking and redirects fungerar bara när mållänken eller målsidan är en del av en egenskap som ingår i aktiviteten. ClickTracking fungerar kanske inte heller när funktionen `targetPageParams()` används. `targetPageParamsAll()` är den rekommenderade funktionen.
+   * clickTracking och omdirigerar arbetet när mållänken eller målsidan är en del av en egenskap som ingår i aktiviteten. ClickTracking kanske inte heller fungerar när funktionen `targetPageParams()` används. `targetPageParamsAll()` är den rekommenderade funktionen.
 
-   [!DNL Target] kräver för närvarande att det finns en  `at_property` token på alla sidor där spårning sker. Om variabeln (1) inte finns, (2) inte identifieras vid tidpunkten för aktivitetsinställningen (i VEC) eller (3) inte skickas till clickTracking Target-anropet via funktionen `targetPageParamsAll()`, ökas inte mätvärdet och visas som &quot;0&quot;.
+   [!DNL Target] kräver för närvarande att det finns en  `at_property` token på alla sidor där spårning sker. Om variabeln (1) inte finns, (2) inte upptäcks vid tidpunkten för aktivitetsinställningen (inom VEC) eller (3) inte skickas till anropet clickTracking Target via funktionen `targetPageParamsAll()` ökas inte mätvärdet och visas som &quot;0&quot;.
 
    Detsamma gäller för aktiviteter som använder omdirigeringar. Målsidan måste ha en `at_property`-token och identifieras när konfigurationen görs i VEC.
 
@@ -266,19 +266,19 @@ Aktiviteter som skapas före migreringen fortsätter att köras på samma sätt 
 
 ### Varför får jag ett felmeddelande om att ingen egenskap är associerad med den här aktiviteten, trots att det finns en egenskap tilldelad?
 
-Om du har implementerat [!DNL Target] med [!DNL Adobe Launch] och får ett felmeddelande som anger att ingen egenskap är associerad med aktiviteten skickar du parametern `at_property` med funktionen `targetPageParams`.
+Om du har implementerat [!DNL Target] med [!DNL Adobe Experience Platform Launch] och får ett felmeddelande som anger att ingen egenskap är associerad med aktiviteten skickar du parametern `at_property` med funktionen `targetPageParams`.
 
 ### Spelas klickspårskonverteringar in om en omdirigeringssida och aktivitets-URL:en tillhör olika egenskaper?
 
 Klickspårning registreras inte på sidor där sid- och aktivitets-URL:en tillhör olika egenskaper.
 
-Tänk på följande scenario (gäller både at.js och mbox.js):
+Tänk på följande scenario:
 
 * Page1 tillhör Property1.
 * Page2 tillhör Property2.
 * I aktiviteten dirigeras Page1 om till Page2, som innehåller klickspår.
 
-När en besökare öppnar Page1 i en webbläsare omdirigeras han eller hon till Page2. Eftersom Page2 inte är kvalificerat för att leverera aktiviteten innehåller inte Target-anropet några klickspår i sitt svar.
+När en besökare öppnar Page1 i en webbläsare omdirigeras besökaren till Page2. Eftersom Page2 inte är kvalificerat för att leverera aktiviteten innehåller inte Target-anropet några klickspår i sitt svar.
 
 Om omdirigeringssidan och aktivitets-URL:en tillhör samma egenskap fungerar klickningsspåren som förväntat. Mer information finns i [Klicka på spårning](/help/c-activities/r-success-metrics/click-tracking.md).
 
@@ -307,6 +307,6 @@ Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som le
 
 >[!NOTE]
 >
->Menygränssnittet [!DNL Target] [!UICONTROL Administration] (tidigare [!UICONTROL Setup]) har omarbetats för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
+>Menygränssnittet [!DNL Target] [!UICONTROL Administration] (tidigare [!UICONTROL Setup]) har omarbetats för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är korrekt: alternativen kan dock finnas på något olika platser.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
