@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3779'
+source-wordcount: '3837'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 22 mars | [IP-adresser som används av Recommendations feed-bearbetningsservrar](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Uppdaterad lista över IP-adresser. |
+|  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Avsnittet Antal enheter under Enheter uppdaterades. |
+|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Ytterligare information om at.js 2.** xunder&quot;Hur kan jag testa mina aktiviteter som om jag är en användare som kommer från en annan plats?&quot; |
+|  | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.2.1 | Följande avsnitt har lagts till: <ul><li>IP-adressändringar för Recommendations-servrar för bearbetning av feeds (16 mars 2021)</li></ul> |
 | 19 mars | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Följande frågor och svar har lagts till:<ul><li>Varför ser jag fler intryck när min aktivitet har inaktiverats?</li></ul> |
 | 12 mars | [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Följande nya självstudiekurs har lagts till:<ul><li>Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter</li></ul> |
 | 9 mars | [Gränser](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>De tillåtna storleksbegränsningarna för erbjudanden har uppdaterats.</li><li>Teckengränsen för parametern categoryId har korrigerats.</li></ul> |
