@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '3855'
+source-wordcount: '3879'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | --- | --- | --- |
 | 23 mars | [Versionsinformation](/help/r-release-notes/release-notes.md) | Versionsinformation för at.js version 2.4.1 har lagts till. |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionsinformation för at.js version 2.4.1 har lagts till. |
+|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Uppdaterade följande frågor och svar:<ul><li>Hur lång tid tar det att uppdatera objekt i min katalog ska återspeglas på min webbplats?</li></ul> |
 | 22 mars | [IP-adresser som används av Recommendations feed-bearbetningsservrar](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Uppdaterad lista över IP-adresser. |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Avsnittet Antal enheter under Enheter uppdaterades. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Ytterligare information om at.js 2.** xunder&quot;Hur kan jag testa mina aktiviteter som om jag är en användare som kommer från en annan plats?&quot; |
