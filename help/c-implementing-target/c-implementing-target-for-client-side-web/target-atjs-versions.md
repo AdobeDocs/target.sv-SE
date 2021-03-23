@@ -5,9 +5,9 @@ title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Utvecklare
 translation-type: tm+mt
-source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4140'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 
 Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
 
-* Ett problem med att targetPageParams inkluderades i mbox-begäranden har korrigerats. targetPageParams ska endast inkluderas i pageLoad-begäranden. (TNT-40247)
+* Ett problem har korrigerats där `targetPageParams` inkluderades i mbox-begäranden. `targetPageParams` bör endast tas med i  `pageLoad` förfrågningar. (TNT-40247)
 * Optimerade fönster- och dokumentgallerier som refererar i tillägget [!DNL Adobe Experience Platform Launch]. (TNT-37124)
 
 ## at.js 2.4.0 (14 januari 2021)
