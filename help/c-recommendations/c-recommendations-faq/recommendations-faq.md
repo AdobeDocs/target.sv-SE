@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target Recommenda
 title: Var hittar jag frågor och svar om Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e4d7f9d6bd42343c5c5e591853a4fc70d1f49ee7
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2304'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,43 @@ För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan
 
 ## Hur lång tid tar det att uppdatera objekt i min katalog ska återspeglas på min webbplats?
 
-När du har importerat en feed-fil, eller efter att ha tagit emot enhetsuppdateringar via API eller mbox, visas följande ändringar under 60 minuter:
+Tidsramen och resultaten varierar beroende på hur objekten uppdateras.
+
+### Objektattribut uppdaterade via mbox eller API
+
+* Recommendations uppdateras inom 15 minuter.
+* Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.
+* Katalogsökning uppdateras efter katalogindex (3-8 timmar).
+
+### Objektattribut uppdaterade via feed
+
+* Recommendations uppdateras efter foderkonsumtion (2-8 timmar).
+* Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.
+* Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter efterföljande katalogindex (3-8 timmar). Katalogsökning uppdateras vanligen inom totalt 5-16 timmar.
+
+### Objektet togs bort från katalogen via målgränssnittet eller API:t
+
+* Recommendations uppdateras inom 15 minuter.
+* Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.
+* Katalogsökning uppdateras efter katalogindex (3-8 timmar).
+
+### Objekt som lagts till i katalogen via mbox eller API
+
+* Recommendations uppdateras efter att algoritmen har körts. Algoritmkörningar schemaläggs var tolfte timme för 1-2-dagars algoritmer och varannan timme för 7+-dagars algoritmer.
+* Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.
+* Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.
+* Katalogsökning uppdateras efter katalogindex (3-8 timmar).
+
+### Objekt som lagts till i katalogen via feed
+
+* Recommendations uppdateras efter att fodret har importerats (2-8 timmar). Efterföljande algoritmkörningar schemaläggs var tolfte timme för 1-2-dagarsalgoritmer och var 24:e timme för 7+-dagarsalgoritmer. Recommendations uppdateras vanligen inom 2-32 timmar totalt.
+* Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.
+* Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.
+* Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter katalogindexet (3-8 timmar). Katalogsökning uppdateras vanligen inom totalt 5-16 timmar.
+
+### Ytterligare ändringar
+
+När du har importerat en feed-fil eller efter att ha tagit emot entitetsuppdateringar via API eller mbox visas följande ändringar under 60 minuter:
 
 * Objektattribut som returneras i designmallen.
 * Artikelattribut som används i globala exkluderingsregler som förhindrar att objektet tas med i returnerade rekommendationer.
