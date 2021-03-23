@@ -5,9 +5,9 @@ title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Utvecklare
 translation-type: tm+mt
-source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '4097'
+source-wordcount: '4152'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,14 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 >Target-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis är förstahandsvalet när man uppgraderar at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch]-katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i *användarhandboken för Experience Platform Launch*.
+
+## kl. 2.4.1 (23 mars 2021)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
+
+* Ett problem med att targetPageParams inkluderades i mbox-begäranden har korrigerats. targetPageParams ska endast inkluderas i pageLoad-begäranden. (TNT-40247)
+* Optimerade fönster- och dokumentgallerier som refererar i tillägget [!DNL Adobe Experience Platform Launch]. (TNT-37124)
+* Uppgraderade beroenden för att skapa och testa säkerhetsproblem.
 
 ## at.js 2.4.0 (14 januari 2021)
 
