@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## kl. 2.4.1 (23 mars 2021)
+
+Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
+
+* Ett problem med att targetPageParams inkluderades i mbox-begäranden har korrigerats. targetPageParams ska endast inkluderas i pageLoad-begäranden. (TNT-40247)
+* Optimerade fönster- och dokumentgallerier som refererar i tillägget [!DNL Adobe Experience Platform Launch]. (TNT-37124)
+* Uppgraderade beroenden för att skapa och testa säkerhetsproblem.
 
 ## IP-adressändringar för Recommendations-servrar för bearbetning av feeds (16 mars 2021)
 
