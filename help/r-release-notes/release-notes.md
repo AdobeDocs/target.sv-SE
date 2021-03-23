@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## IP-adressändringar för Recommendations-servrar för bearbetning av feeds (16 mars 2021)
+
+IP-adresserna för [!DNL Target Recommendations]-servern för feed-bearbetning uppdaterades den 16 mars 2021. Mer information finns i [IP-adresser som används av Recommendations feeds-bearbetningsservrar](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 ## Target Standard/Premium 21.2.1 (9 mars 2021)
 
