@@ -4,9 +4,9 @@ description: Visa en lista över IP-adresser som används i Recommendations Targ
 title: Vilka IP-adresser använder Recommendations-servrar för mathantering?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '136'
 ht-degree: 4%
 
 ---
@@ -18,19 +18,19 @@ Lista med IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations]-
 
 [!DNL Target] [!UICONTROL Recommendations] Följande IP-adresser används för aktiviteter vid åtkomst till kundernas FTP-servrar:
 
-| CIDR-notering |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 [!DNL Target] [!UICONTROL Recommendations] API:er använder följande IP-adresser:
 
-| CIDR-notering |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 >[!NOTE]
 >
