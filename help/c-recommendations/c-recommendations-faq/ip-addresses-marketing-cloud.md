@@ -4,31 +4,35 @@ description: Visa en lista över IP-adresser som används i Recommendations Targ
 title: Vilka IP-adresser använder Recommendations-servrar för mathantering?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
 
 # ![](/help/assets/premium.png) PREMIUMIP-adresser som används av Recommendations servrar för bearbetning av matning
 
-Lista med IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations]-feeds-servrar i Oregon-datacenter för att hjälpa dig konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
+Lista med IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations]-feeds-servrar för att hjälpa dig konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 
-[!DNL Target] [!UICONTROL Recommendations] För aktiviteter används följande IP-adresser i Oregon-datacentret när du använder kundens FTP-servrar (se länken nedan för att få den senaste informationen):
+[!DNL Target] [!UICONTROL Recommendations] Följande IP-adresser används för aktiviteter vid åtkomst till kundernas FTP-servrar:
 
-| CIDR-notering | Inledande IP | Avslutande IP |
-|---|---|---|
-| 192.243.242.0/24 | 192.243.242.0 | 192.243.242.255 |
+| CIDR-notering |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
-[!DNL Target] [!UICONTROL Recommendations] API:er använder följande IP-adresser i Oregon-datacenter (se till att du hittar den senaste informationen genom att klicka på länken nedan):
+[!DNL Target] [!UICONTROL Recommendations] API:er använder följande IP-adresser:
 
-| CIDR-notering | Inledande IP | Avslutande IP |
-|---|---|---|
-| 192.243.224.0/20 | 192.243.224.0 | 192.243.239.255 |
+| CIDR-notering |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
 >[!NOTE]
 >
->Den fullständiga, mest aktuella listan finns i [IP-adresser som används i Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+>Dessa IP-adresser uppdaterades senast den 16 mars 2021. Tidigare fanns servrarna som använde FTP-servrarna i CIDR-blocket 192.243.242.0/24. Servrarna som var värdar för Recommendations API:er fanns i CIDR-blocket 192.243.224.0/20.
 
