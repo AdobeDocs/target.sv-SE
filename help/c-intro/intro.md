@@ -7,7 +7,7 @@ feature: Översikt
 translation-type: tm+mt
 source-git-commit: 345b0f805ef65364b891f6754f4aaf78c163f334
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
