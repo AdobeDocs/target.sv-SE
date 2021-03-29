@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target Recommenda
 title: Var hittar jag frågor och svar om Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '2361'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ När du har importerat en feed-fil eller efter att ha tagit emot entitetsuppdate
 
    Detta inträffar eftersom Target tillämpar undantag både online och offline. När ett objekt nyligen har uteslutits tillämpas detta snabbt. När ett objekt nyligen ingår försvinner undantaget från webben snabbt, men offlineundantaget försvinner inte förrän nästa algoritm körs.
 
-* Om ett objekt tidigare inkluderades men nu ska exkluderas, kommer objektet att exkluderas enligt&quot;Uppdaterade artikelattribut..&quot;. tidsrad som beskrivs ovan beroende på matningskälla (15 minuter via mbox/API eller 12-24 timmar via feed).
+* Om ett objekt tidigare inkluderades men nu ska exkluderas, exkluderas objektet enligt&quot;Uppdaterade artikelattribut..&quot;. tidsrad som beskrivs ovan beroende på matningskälla (15 minuter via mbox/API eller 12-24 timmar via feed).
 
 Följande ändringar återspeglas inte förrän nästa algoritmkörning inträffar (inom 12-24 timmar):
 
@@ -209,4 +209,19 @@ NO_CONTENT returneras när rekommendationer inte är tillgängliga för den beg�
 * Delvis mallåtergivning är inaktiverat och det finns inte tillräckligt med resultat för att fylla mallen.
 
    Den här situationen inträffar vanligtvis när du har en regel för dynamisk inkludering som tar bort många objekt från möjliga resultat. Du kan undvika en situation genom att aktivera säkerhetskopieringar och inte tillämpa inkluderingsregeln på säkerhetskopieringar, eller använda villkoren i följd med ett mindre aggressivt filtrerat villkor.
+
+## Bevaras rekommendationer baserade på nyligen visade objekt på flera enheter för en enskild besökare? {#persist-across-devices}
+
+När en besökare initierar en session är sessions-ID kopplat till en enda edge-dator och ett temporärt profilcache lagras på den här edge-datorn. Efterföljande begäranden från samma session läser den här profilcachen, inklusive nyligen visade objekt.
+
+När sessionen avslutas (vanligtvis när den går ut efter 30 minuter utan aktivitet), behålls sessionstillståndet, inklusive nyligen visade objekt, till en mer permanent profillagring i samma geografiska kant.
+
+Efterföljande sessioner från olika enheter kan sedan komma åt de senast visade objekten så länge den nya sessionen är länkad till kundprofilen via samma Marketing Cloud ID (MCID), Experience Cloud ID (ECID) eller CustomerID/mbox3rdPartyId.
+
+Om en besökare har två aktiva sessioner samtidigt uppdaterar inte nyligen visade objekt på en enhet de senast visade objekten på den andra enheten, såvida inte enheterna tvingas dela samma sessions-ID. Det finns en möjlig lösning på problemet, men [!DNL Target] stöder inte direkt delning av ett sessions-ID mellan flera enheter. Kunden måste själva hantera denna ID-delning.
+
+Observera att det här fortfarande händer om en besökare är aktiv på en enhet och sedan aktiveras på den andra enheten några minuter senare. Den första enhetens session upphör inte att gälla på 30 minuter och det kan ta upp till fem minuter innan profilläget skrivs till det permanenta läget och bearbetas. Det kan ta 35 minuter innan sessionen upphör att gälla och profilen sparas när du testar det här beteendet.
+
+Om besökaren inte har två aktiva sessioner samtidigt uppdaterar nyligen visade objekt på en enhet de senast visade objekten på den andra enheten så länge sessionen har avslutats. Det kan ta 35 minuter innan sessionen går ut när du testar det här beteendet.
+
 
