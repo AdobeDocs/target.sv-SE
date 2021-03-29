@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Ta
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3879'
+source-wordcount: '3900'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 29 mars | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nya frågor och svar:<ul><li>Bevaras rekommendationer baserade på nyligen visade objekt på flera enheter för en enskild besökare?</li></ul> |
 | 23 mars | [Versionsinformation](/help/r-release-notes/release-notes.md) | Versionsinformation för at.js version 2.4.1 har lagts till. |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionsinformation för at.js version 2.4.1 har lagts till. |
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Uppdaterade följande frågor och svar:<ul><li>Hur lång tid tar det att uppdatera objekt i min katalog ska återspeglas på min webbplats?</li></ul> |
