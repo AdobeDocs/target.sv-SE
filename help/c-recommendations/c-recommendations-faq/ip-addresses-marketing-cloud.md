@@ -4,10 +4,10 @@ description: Visa en lista över IP-adresser som används i Recommendations Targ
 title: Vilka IP-adresser använder Recommendations-servrar för mathantering?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,21 +16,15 @@ ht-degree: 4%
 
 Lista med IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations]-feeds-servrar för att hjälpa dig konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 
-[!DNL Target] [!UICONTROL Recommendations] Följande IP-adresser används för aktiviteter vid åtkomst till kundernas FTP-servrar:
+[!DNL Target] [!UICONTROL Recommendations] Följande AWS-värdar används för aktiviteter vid åtkomst till kundernas FTP-servrar:
 
-44.241.237.28
+| Plats | Värd |
+| --- | --- |
+| Oregon | `44.241.237.28` |
+| Oregon | `44.232.167.82` |
+| Oregon | `52.41.252.205` |
 
-44.232.167.82
-
-52.41.252.205
-
-[!DNL Target] [!UICONTROL Recommendations] API:er använder följande IP-adresser:
-
-44.241.237.28
-
-44.232.167.82
-
-52.41.252.205
+[!DNL Target] [!UICONTROL Recommendations] API:er använder också samma AWS-värdar.
 
 >[!NOTE]
 >
