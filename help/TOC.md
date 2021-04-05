@@ -4,9 +4,9 @@ breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,6 @@ ht-degree: 0%
       + [Profil och variabel ordlista](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Mål och målgrupper Frågor och svar {#faq-audiences}
       + [Mål och målgrupper Frågor och svar](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [Dela mått, målgrupper och rapporter - A4T FAQ](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Upplevelser och erbjudanden {#experiences}
    + [Översikt över upplevelser och erbjudanden](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
