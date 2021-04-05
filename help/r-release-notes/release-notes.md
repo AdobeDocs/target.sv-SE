@@ -5,9 +5,9 @@ title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
 
 * Ett problem har korrigerats där `targetPageParams` inkluderades i mbox-begäranden. `targetPageParams` bör endast tas med i  `pageLoad` förfrågningar. (TNT-40247)
-* Korrigerade ett problem med globala dokument- och fönsterobjekt i tillägget A[!DNL dobe Experience Platform Launch] genom att ersätta Platforma launchens globala objektberoenden med direkta referenser till dem. (TNT-37124)
+* Ett problem med globala dokument- och fönsterobjekt i tillägget [!DNL Adobe Experience Platform Launch] har korrigerats genom att Platforma launchens globala objektberoenden ersattes med direkta referenser till dem. (TNT-37124)
 
 ## IP-adressändringar för Recommendations-servrar för bearbetning av feeds (16 mars 2021)
 
