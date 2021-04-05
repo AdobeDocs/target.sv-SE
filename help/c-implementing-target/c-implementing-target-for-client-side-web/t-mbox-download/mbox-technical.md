@@ -3,15 +3,15 @@ keywords: implementering;mbox.js;domarhanteringsbibliotek;target.js;visual exper
 description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
 title: Vad gör Target mbox.js Library?
 feature: at.js
-role: Developer
+role: Utvecklare
+exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
-
 
 # Vad mbox.js gör{#what-mbox-js-does}
 
@@ -19,7 +19,7 @@ Information som hjälper din tekniska personal att förstå mbox.js-implementeri
 
 >[!IMPORTANT]
 >
->**mbox.js - utgånget**: Den 31 mars 2021  [!DNL Adobe Target] kommer inte längre att ha stöd för mbox.js-biblioteket. Efter den 31 mars 2021 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där [!DNL Target]-aktiviteter körs genom att standardinnehåll används.
+>**mbox.js - utgånget**: 31 mars 2021 har  [!DNL Adobe Target] inte längre stöd för mbox.js-biblioteket. Efter den 31 mars 2021 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där [!DNL Target]-aktiviteter körs genom att standardinnehåll används.
 >
 >Vi rekommenderar att alla kunder migrerar till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
@@ -50,8 +50,8 @@ När du använder [!UICONTROL Visual Experience Composer] för att ställa in en
 * För generering av miniatyrbilder: [!DNL https://html2canvas.hertzen.com/]
 * För korsdomänfråga: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css] som används för att skicka meddelanden i iFrames. Dessa skript gör att Adobe kan skicka data mellan sidorna.
 
-## Överväganden för vinkelwebbplatser och enkelsidiga program {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## Att tänka på för Angular och enkelsidiga program {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
-Om du implementerar Target på en Angular-webbplats eller i ett Single-Page Application (SPA) bör du använda biblioteket at.js i stället för mbox.js.
+Om du implementerar Target på en Angular-plats eller i ett ensidigt program (SPA) bör du använda biblioteket at.js i stället för mbox.js.
 
 Mer information finns i [at.js-implementering](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
