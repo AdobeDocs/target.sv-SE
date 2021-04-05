@@ -1,16 +1,16 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;sökmotoroptimering;sökmotoroptimering;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Läs om hur Adobe Target fungerar, inklusive information om Target JavaScript-bibliotek (at.js och AEP Web SDK), Adobe datacenter och SEO-testning.
+description: Lär dig hur Adobe Target fungerar, inklusive information om Target JavaScript-bibliotek (at.js och AEP Web SDK), Adobe datacenter och SEO-testning.
 title: Hur fungerar Target?
 feature: Översikt
+exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
-
 
 # Så här fungerar Adobe Target
 
@@ -33,7 +33,7 @@ Referera till [!DNL AEP Web SDK] eller at.js på alla sidor på webbplatsen. Du 
 Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera AEP Web SDK eller at.js:
 
 * [Adobe Experience Platform Web SDK-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Implementera mål med Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementera mål med Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Varje gång en besökare begär en sida som har optimerats för [!DNL Target] skickas en begäran till målsystemet. Begäran hjälper till att avgöra vilket innehåll som ska användas för besökaren. Den här processen utförs i realtid. Varje gång en sida läses in görs en begäran om innehållet och utförs av systemet. Innehållet styrs av reglerna för marknadsföringsstyrda aktiviteter och upplevelser och är riktat till den enskilda besökaren. Innehållet får det att varje besökare mest sannolikt svarar på, interagerar med eller till slut köper. Personaliserat innehåll hjälper till att maximera svarsfrekvenser, förvärvsfrekvens och intäkter.
 
@@ -48,9 +48,9 @@ Innehållet som visas i ett grundläggande A/B-test väljs slumpmässigt bland d
 Du kan ange procentvärden för varje upplevelse. I det här fallet genereras ett slumpmässigt tal och det talet används för att välja vilken upplevelse som ska visas. De resulterande procentsatserna kanske inte matchar de angivna målen exakt, men mer trafik innebär att upplevelserna ska delas närmare målmålen.
 
 1. En kund begär en sida från servern och den visas i webbläsaren.
-2. En cookie från första part är inställd i kundens webbläsare för att lagra kundens beteende.
-3. Sidan anropar målsystemet.
-4. Innehåll visas baserat på reglerna för din aktivitet.
+1. En cookie från första part är inställd i kundens webbläsare för att lagra kundens beteende.
+1. Sidan anropar målsystemet.
+1. Innehåll visas baserat på reglerna för din aktivitet.
 
 Mer information finns i [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
@@ -112,7 +112,7 @@ Data om kundwebbplatsaktivitet samlas in av de närmaste sju Edge-kluster. Dessa
 
 I stället för att svara på alla målförfrågningar från en enda plats, behandlas förfrågningar av det Edge-kluster som ligger närmast besökaren. Denna process bidrar till att minska effekten av restiden mellan nätverk och Internet.
 
-![Karta över typer av målservrar](/help/c-intro/assets/target-servers.png)
+![Karta som visar de olika typerna av målservrar](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] Centrala kluster, som finns på Amazon Web Services (AWS), innehåller:
 
