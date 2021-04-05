@@ -3,14 +3,14 @@ keywords: meddelanden;kunskapsbyggare;utvecklarchatt;kaffebrytning;event;forrest
 description: Läs notiser och registrera dig för Adobe Target event, inklusive sessioner med SKill Builder, chatt för utvecklare och produktchef, webbinarier med mera.
 title: Var kan jag hitta målmeddelanden och händelser?
 feature: Versionsinformation
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # Målmeddelanden och evenemang
 
@@ -51,6 +51,6 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 
 ## Adobe Target Experience Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
 
-I och med den kommande utfasningen av mbox.js den 31 mars 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js.
+Med borttagningen av mbox.js den 31 mars 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js.
 
 * **[Se inspelningen av webbinariet här](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
