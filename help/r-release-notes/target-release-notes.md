@@ -5,9 +5,9 @@ title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 >
 >**mbox.js - utgånget**: 31 mars 2021 har  [!DNL Adobe Target] inte längre stöd för mbox.js-biblioteket. Efter den 31 mars 2021 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där [!DNL Target]-aktiviteter körs genom att standardinnehåll används.
 >
->Adobe rekommenderar att alla kunder migrerar till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 ## Target Standard/Premium 21.2.1 (9 mars 2021)
 
