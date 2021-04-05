@@ -3,14 +3,14 @@ keywords: Skapa automatiskt mål;A/B-test;automatiskt mål-aktivitet;ny a/b-akti
 description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa A/B-testaktivitet automatiskt direkt på en Target-aktiverad sida.
 title: Hur skapar jag en automatiskt målaktivering?
 feature: Automatiskt mål
+exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
-source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMCkapa en Automatisk målaktivitet
 
@@ -20,7 +20,7 @@ Använd [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Adobe Target] för
 >
 >[!UICONTROL Auto-Target] finns som en del av  [!DNL Target Premium] lösningen. Den här funktionen är inte tillgänglig i [!DNL Target Standard] utan en [!DNL Target Premium]-licens. Mer information om de avancerade funktioner som den här licensen innehåller finns i [Target Premium](/help/c-intro/intro.md).
 >
->Förutom [!UICONTROL Auto-Target] [!UICONTROL A/B Test]-aktiviteten (beskrivs i den här artikeln) innehåller [!DNL Target] ytterligare två typer av [!UICONTROL A/B Test]-aktiviteter: [!UICONTROL Manual (Default)] och [!UICONTROL Auto-Allocate].
+>Förutom [!UICONTROL Auto-Target] [!UICONTROL A/B Test]-aktiviteten (beskrivs i den här artikeln) innehåller [!DNL Target] två andra typer av [!UICONTROL A/B Test]-aktiviteter: [!UICONTROL Manual (Default)] och [!UICONTROL Auto-Allocate].
 >
 >Se [Typer av A/B-testningsaktiviteter](/help/c-activities/t-test-ab/test-ab.md#types) i *Översikt över A/B-tester*.
 
@@ -73,9 +73,9 @@ Så här skapar du en [!UICONTROL Auto-Target]-aktivitet:
    | `-` | Minus |
    | `@` | Vid tecken |
 
-1. Skapa nya upplevelser genom att ändra elementen på sidan.
+1. Skapa upplevelser genom att ändra elementen på sidan.
 
-   I [!UICONTROL Visual Experience Composer] visas två flikar till vänster när du har skapat en ny aktivitet: Upplevelse A och upplevelse B. Upplevelse A är kontrollupplevelsen. Fokus ligger på fliken Experience B, som ni kan ändra efter behov. Experience B är den alternativa upplevelse ni kan lägga till i ert test. Ni kan lägga till flera upplevelser i testet. Du kan också ta bort Experience A från aktiviteten om du inte vill inkludera en standardwebbplatsupplevelse som ett alternativ.
+   I [!UICONTROL Visual Experience Composer] visas två flikar till vänster när du har skapat en aktivitet: Upplevelse A och upplevelse B. Upplevelse A är kontrollupplevelsen. Fokus ligger på fliken Experience B, som ni kan ändra efter behov. Experience B är den alternativa upplevelse ni kan lägga till i ert test. Ni kan lägga till flera upplevelser i testet. Du kan också ta bort Experience A från aktiviteten om du inte vill inkludera en standardwebbplatsupplevelse som ett alternativ.
 
    Mer information om hur du lägger till och ändrar upplevelser i [!UICONTROL Visual Experience Composer] finns i [Lägg till upplevelse](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Om du vill ändra upplevelse B börjar du med steg 3.
 
@@ -101,15 +101,15 @@ Så här skapar du en [!UICONTROL Auto-Target]-aktivitet:
 
    Ni kan visa flera upplevelser för samma målgrupp. Ett diagram visar den valda målgruppen och de upplevelser du har lagt till i aktiviteten.
 
-   Välj den trafikallokeringsmetod du vill använda. Om du vill skapa en [!UICONTROL Auto-Target]-aktivitet väljer du **[!UICONTROL Auto-target for personalized experiences]**.
+   Välj den trafikallokeringsmetod du vill använda. Om du vill skapa en [!UICONTROL Auto-Target]-aktivitet väljer du **[!UICONTROL Auto-Target for personalized experiences]**.
 
    De tre typerna av trafiktilldelning beskrivs nedan:
 
    * **[!UICONTROL Manual (Default)]**: Ange hur många procent av deltagarna du vill se varje upplevelse. Ni kan dela upp procentsatserna jämnt mellan alla upplevelser eller ange högre eller lägre procenttal för varje upplevelse. Det totala antalet upplevelser måste vara 100 %. Mer information finns i [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   * **[!UICONTROL Auto-allocate to best experience]**: De flesta aktivitetspartners dirigeras automatiskt till högpresterande upplevelser. Vissa besökare tilldelas alla upplevelser för att kunna utforska upplevelser och för att identifiera förändringar i prestandatender. Mer information finns i [Översikt över automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+   * **[!UICONTROL Auto-Allocate to best experience]**: De flesta aktivitetspartners dirigeras automatiskt till högpresterande upplevelser. Vissa besökare tilldelas alla upplevelser för att kunna utforska upplevelser och för att identifiera förändringar i prestandatender. Mer information finns i [Översikt över automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-   * **[!UICONTROL Auto-target for personalized experiences]**:  [!DNL Target] använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare.
+   * **[!UICONTROL Auto-Target for personalized experiences]**:  [!DNL Target] använder avancerad maskininlärning för att personalisera innehåll och driva konverteringar genom att identifiera flera högpresterande, marknadsföringsdefinierade upplevelser och sedan leverera den mest skräddarsydda upplevelsen till besökare baserat på deras individuella kundprofiler och tidigare beteenden hos liknande besökare.
    Du kan också klicka på **[!UICONTROL Add]** om du vill lägga till en annan upplevelse till aktiviteten.
 
 1. När du är nöjd med din målgrupp, dina upplevelseval och dina val av trafiktilldelning klickar du på **[!UICONTROL Next]** för att gå över till det tredje steget i det guidade arbetsflödet i tre steg.
