@@ -2,15 +2,15 @@
 keywords: aktivitetslista;aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;aktivitetsåtgärder;aktivitetsattribut;aktivitetslista filter;aktivitetsbegränsningar;anpassa;personalisering
 description: Se hur ni med Adobe Target kan personalisera innehåll till specifika målgrupper och testa siddesign
 title: Hur kan jag personalisera innehåll och testa siddesign med Target?
-feature: Activities
+feature: Verksamhet
+exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2078'
 ht-degree: 1%
 
 ---
-
 
 # Verksamhet
 
@@ -27,8 +27,8 @@ Målet innehåller flera aktivitetstyper. Följande tabell innehåller en övers
 | Typ av aktivitet | Beskrivning |
 |--- |--- |
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | A/B-tester jämför två eller flera versioner av webbplatsinnehållet för att se vilken version som förbättrar konverteringen under en fördefinierad testperiod.<br>**Obs!** Du kan nu inkludera  [rekommendationer i A/B-testaktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk allokering av aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![TargetPremium](/help/assets/premium.png) | Auto Target använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest anpassade upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk målaktivitet](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en sådan funktion. Den kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
+| [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Med Automatisk tilldelning identifieras en vinnare bland två eller fler upplevelser och fler kunder tilldelas automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk allokering av aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
+| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![TargetPremium](/help/assets/premium.png) | Auto Target använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest anpassade upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk målaktivitet](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
 | [Använda analysdata](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)  (A4T) | Du kan konfigurera en aktivitet så att [!DNL Adobe Analytics] används som rapportkälla. Den här aktivitetstypen kräver att du länkar ditt [!DNL Adobe Experience Cloud]-konto till både [!DNL Analytics] och [!DNL Target]. |
 | [Multivariata tester](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Med multivariata tester (MVT) jämförs kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och det element som har störst påverkan på aktivitetens framgång identifieras. |
 | [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Experience Targeting-aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
