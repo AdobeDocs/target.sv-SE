@@ -1,36 +1,36 @@
 ---
-keywords: Översikt och referens;agera
-description: Lär dig grunderna i Adobe Target. Det här är en bra plats att bekanta sig med Target, dess aktivitetstyper och andra funktioner.
+keywords: Översikt och referens;aktivitetstyper;introduktion
+description: Lär dig grunderna i Adobe Target. I den här artikeln beskrivs Target, dess aktivitetstyper och andra funktioner.
 title: Hur använder jag Target?
-feature: Overview
+feature: Översikt
+exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
+# Målgrupper
 
-# Målnyckelbegrepp{#target-key-concepts}
-
-Information om viktiga koncept som hjälper dig att förstå Adobe Target funktioner.
+Information om viktiga begrepp som hjälper dig att förstå funktionerna och funktionerna i [!DNL Adobe Target].
 
 ## Aktiviteter och tester {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 En aktivitet avgör vilka upplevelser en besökare kan stöta på.
 
-Du kan till exempel utforma en aktivitet som testar två olika landningssidor, en som visar information om damernas sommarskor och en som markerar mer allmänna sommarkläder. Aktiviteten avgör vilka villkor som styr när var och en av dessa landningssidor visas och vilka mått som avgör vilken sida som blir mest framgångsrik. Aktiviteten är konfigurerad att starta och avsluta när vissa villkor uppfylls, till exempel mellan specifika datum, eller att starta när aktiviteten har godkänts och att sluta när den har inaktiverats.
+Du kan till exempel utforma en aktivitet som testar två olika landningssidor, en som visar information om damernas sommarskor och en som markerar mer allmänna sommarkläder. Aktiviteten avgör vilka villkor som styr när var och en av dessa landningssidor visas och vilka mått som avgör vilken sida som blir mest framgångsrik. Aktiviteten är konfigurerad att starta och avsluta när specifika villkor uppfylls. Dessa villkor kan vara att starta och avsluta aktiviteten mellan specifika datum eller att starta när aktiviteten har godkänts och att sluta när den har inaktiverats.
 
-När du utformar en aktivitet bör du planera noggrant. Bestäm när aktiviteten ska starta och hur länge den ska vara. Ange sedan era erbjudanden och tilldela målgrupper till var och en av dem.
+Planera noggrant när du utformar en aktivitet. Bestäm när aktiviteten startar och hur länge den varar. Ange sedan era erbjudanden och tilldela målgrupper till var och en av dem.
 
-Målet innehåller flera aktivitetstyper. Följande tabell innehåller en översikt över varje aktivitetstyp med länkar som hjälper dig att lära dig mer. För att du bättre ska kunna välja den bästa aktivitetstypen har vi även skapat [Adobe Target aktivitetsguide](/help/c-activities/target-activities-guide.md).
+Målet innehåller flera aktivitetstyper. Följande tabell innehåller en översikt över varje aktivitetstyp med länkar som hjälper dig att lära dig mer. För att du bättre ska kunna välja den bästa aktivitetstypen har Target-teamet också skapat [Adobe Target aktivitetshandbok](/help/c-activities/target-activities-guide.md).
 
 | Typ av aktivitet | Beskrivning |
 |--- |--- |
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | A/B-tester jämför två eller flera versioner av webbplatsinnehållet för att se vilken version som förbättrar konverteringen under en fördefinierad testperiod.<br>**Obs!** Du kan nu inkludera  [rekommendationer i A/B-testaktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Automatisk tilldelning identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk allokering av aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
-| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![TargetPremium](/help/assets/premium.png) | Auto Target använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser och levererar den mest anpassade upplevelsen till varje besökare baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk målaktivitet](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
+| [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Med Automatisk tilldelning identifieras en vinnare bland två eller fler upplevelser och fler kunder tilldelas automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk allokering av aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
+| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![TargetPremium](/help/assets/premium.png) | Auto Target använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser. AutoTarget-aktiviteter ger varje besökare den mest skräddarsydda upplevelsen baserat på deras individuella kundprofil och beteendet hos tidigare besökare med liknande profiler, för att personalisera innehåll och driva konverteringar.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Automatisk målaktivitet](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
 | [Använda analysdata](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)  (A4T) | Du kan konfigurera en aktivitet så att [!DNL Adobe Analytics] används som rapportkälla. Den här aktivitetstypen kräver att du länkar ditt [!DNL Adobe Experience Cloud]-konto till både [!DNL Analytics] och [!DNL Target]. |
 | [Multivariata tester](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Med multivariata tester (MVT) jämförs kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och det element som har störst påverkan på aktivitetens framgång identifieras. |
 | [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.<br>**Obs!** Du kan nu inkludera  [rekommendationer i Experience Targeting-aktiviteter](/help/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/c-intro/intro.md#premium). |
@@ -50,11 +50,11 @@ I [!DNL Target Standard] kan en plats vara vilket element som helst på en sida,
 
 Platserna kombineras med målgrupperna för att ge ett nästan oändligt antal alternativ för målgruppsinformation till era kunder. Om en besökare aldrig har besökt webbplatsen tidigare kan du visa en rabattkupong för nya kunder. På samma sätt kan sidan ändras så att den visar erbjudanden som är mer optimerade för återkommande kunder.
 
-Du kan också använda platser för att spåra en besökares förlopp på webbplatsen eller för att spåra om besökaren har slutfört ett visst mått för framgång, som att lägga till en artikel i kundvagnen eller slutföra ett köp.
+Du kan också använda platser för att spåra besökarens förlopp på webbplatsen. Du kan också använda platser för att spåra om besökaren har fyllt i ett visst mått, som att lägga till en artikel i kundvagnen eller slutföra ett köp.
 
 ## Erfarenheter och siddesign {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-En upplevelse, som ibland kallas recept, definierar innehållet som visas på sidan samt andra sidelement, till exempel länkar.
+En upplevelse, som ibland kallas recept, definierar innehållet som visas på sidan och andra sidelement, till exempel länkar.
 
 En upplevelse avgör vilket erbjudande som visas på en viss plats när specifika villkor för målinriktning uppfylls. Erfarenheten avgör till exempel att när en besökare besöker er webbplats visas ett erbjudande om tvådagars frakt högst upp på sidan. Erfarenheten avgör också att när en förstagångsbesökare tittar på sidan visas 10 % rabatt på samma plats.
 
