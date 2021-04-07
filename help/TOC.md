@@ -4,9 +4,9 @@ breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
+source-git-commit: eed38aac559016fb96cb9030e8880c04af98bbb7
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,10 @@ ht-degree: 0%
    + [Målgrupper](c-intro/target-key-concepts.md)
    + [Förstå målgränssnittet](/help/c-intro/understand-the-target-ui.md)
    + Adobe Target welcome kit {#welcome}
-      + [Översikt över välkomstpaketet för Adobe Target](/help/c-intro/target-welcome-kit.md)
+      + [Översikt över välkomstpaket](/help/c-intro/target-welcome-kit.md)
       + [Kapitel 1: Introduktion](/help/c-intro/target-welcome-kit-1.md)
-      + [Kapitel 2: Adobe Target i korthet](/help/c-intro/target-welcome-kit-2.md)
-      + [Kapitel 3: Utveckla testnings- och personaliseringsidéer](/help/c-intro/target-welcome-kit-3.md)
+      + [Kapitel 2: Rikta in dig snabbt](/help/c-intro/target-welcome-kit-2.md)
+      + [Kapitel 3: Utveckla dina idéer om testning och personalisering](/help/c-intro/target-welcome-kit-3.md)
       + [Kapitel 4: Tips för att använda Target](/help/c-intro/target-welcome-kit-4.md)
       + [Kapitel 5: Inspiration för testning och personalisering](/help/c-intro/target-welcome-kit-5.md)
       + [Kapitel 6: Enkelt undvika fallfall](/help/c-intro/target-welcome-kit-6.md)
@@ -44,7 +44,7 @@ ht-degree: 0%
    + [Ordlista](c-intro/glossary.md)
    + [Så här fungerar Target](c-intro/how-target-works.md)
    + [Utbildning och certifiering](c-intro/training-and-certification.md)
-   + [Utbildningsvideor om Adobe Target Standard och Premium](c-intro/target-standard-premium-training-videos.md)
+   + [Utbildningsvideor för Target Standard och Premium](c-intro/target-standard-premium-training-videos.md)
    + [Vanliga frågor om måloptimering och personalisering](c-intro/cmp-target-standard-cheatsheet.md)
 + Administrera mål {#administer}
    + [Administrera målöversikt](administrating-target/administrating-target.md)
@@ -52,7 +52,7 @@ ht-degree: 0%
    + [Konfigurera Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
    + Rapportering {#reporting}
       + [Konfigurera rapportering](/help/administrating-target/reporting.md)
-      + [Uppskattar Lyft i intäkt](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+      + [Uppskattad ökning av intäkterna](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7-konfiguration](administrating-target/scene7-settings.md)
    + [Implementering](/help/administrating-target/implementation.md)
    + [Värdar](administrating-target/hosts.md)
@@ -101,7 +101,7 @@ ht-degree: 0%
             + [Implementera mål med Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [Implementera mål utan tagghanterare](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [Implementera mål med dynamisk tagghantering (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [Implementering av Single Page-program](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+            + [Implementera mål för enkelsidiga program (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js-funktioner {#functions-overview}
             + [at.js - funktionsöversikt](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
             + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
@@ -130,24 +130,24 @@ ht-degree: 0%
          + Migrera från mbox.js till at.js {#migrate-mbox}
             + [Migrera från mbox.js till at.js - översikt](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
             + [Migrera till at.js från mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
-            + [at.js Begränsningar](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
-            + [at.js Plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+            + [at.js-begränsningar](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
+            + [at.js plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
             + [Distribuera at.js till en icke-produktionsmiljö](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
          + [Vad mbox.js gör](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [Konfigurera mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [Ladda ned mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
          + [Målsidesmetoder med mbox.js biblioteksversion](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
-         + [Skapa en orderbekräftelseruta - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [mbox.js Vanliga frågor](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+         + [Skapa en orderbekräftelsembox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
+         + [mbox.js Frågor och svar](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js, funktioner](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
          + [mbox.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [versionsinformation för mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + Förstå den globala mbox {#global-mbox}
-         + [Förstå översikten över den globala mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+         + [Förstå den globala mbox-översikten](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Anpassa en global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
          + [Använd en global mbox från en äldre implementering](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
          + [Skicka parametrar till en global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [Vanliga frågor och svar om Global Mbox](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+         + [Vanliga frågor om Global Mbox](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + Mål för mobilappar {#mobile-apps}
       + [Mål för mobilappar - översikt](c-target-mobile-app/target-mobile-app.md)
       + [Hur Target fungerar i mobilappar](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
@@ -169,8 +169,8 @@ ht-degree: 0%
       + [Skapa en Adbox för en bild](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Testa en e-postbild i Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Arbeta med regissörer](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
-+ Integrera Adobe Target med Experience Cloud {#integrate}
-   + Adobe Analytics som rapportkälla för Adobe Target (A4T) {#a4t}
++ Integrera Target med Experience Cloud {#integrate}
+   + Adobe Analytics som rapportkälla för Target (A4T) {#a4t}
       + [A4T - översikt](c-integrating-target-with-mac/a4t/a4t.md)
       + [Innan du implementerar](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analyser för Target-implementering](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -212,7 +212,7 @@ ht-degree: 0%
          + [Lägg till upplevelse](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Välj målgrupp](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [Använda analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
+         + [Använd analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Målgrupper med olika upplevelser i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Allokera automatiskt {#auto-allocate}
@@ -229,9 +229,9 @@ ht-degree: 0%
       + [Slumpmässig skogsalgoritm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Skapa en Automated Personalization-aktivitet](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Överför data för målpersonaliseringsalgoritmerna](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
-      + [Datainsamling för Target:s personaliseringsalgoritmer](c-activities/t-automated-personalization/ap-data.md)
+      + [Datainsamling för målpersonaliseringsalgoritmer](c-activities/t-automated-personalization/ap-data.md)
       + [Uppskatta den trafik som krävs för att lyckas](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Preview Experiences for an Automated Personalization Test](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Förhandsgranska upplevelser för ett Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Automated Personalization erbjudanden](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Hantera undantag](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet](c-activities/t-automated-personalization/experience-as-control.md)
@@ -244,7 +244,7 @@ ht-degree: 0%
          + [Skapa en aktivitet](c-activities/t-experience-target/t-xt-create/xt-create.md)
          + [Aktivitets-URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [Skapa en upplevelse](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [Switching Experiences in Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Byta upplevelser i Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
          + [Mål och inställningar](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Ange mått](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivariata tester {#multivariate-test}
@@ -268,7 +268,7 @@ ht-degree: 0%
    + Resultatmått {#success-metrics}
       + [Framgångsmått](c-activities/r-success-metrics/success-metrics.md)
       + [Klickspårning](c-activities/r-success-metrics/click-tracking.md)
-      + [Hämtningspoäng](c-activities/r-success-metrics/capture-score.md)
+      + [Hämta poäng](c-activities/r-success-metrics/capture-score.md)
    + [Logg för aktivitetsändring](c-activities/change-log.md)
    + Felsöka aktiviteter {#troubleshoot-activities}
       + [Översikt över felsökningsaktiviteter](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
@@ -280,7 +280,7 @@ ht-degree: 0%
 + Målgrupper {#audiences}
    + [Översikt över målgrupper](c-target/target.md)
    + Skapa målgrupper {#create-audiences}
-      + [Skapa](c-target/c-audiences/audiences.md)
+      + [Skapa en översikt över målgrupper](c-target/c-audiences/audiences.md)
       + [Bygg målgrupper i Target](c-target/c-audiences/create-audience.md)
       + Kategorier för målgrupper {#categories-audiences}
          + [Kategorier för målgrupper - översikt](c-target/c-audiences/c-target-rules/target-rules.md)
@@ -321,20 +321,20 @@ ht-degree: 0%
       + [Aktivitetskollisioner](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Ändringar {#modifications}
          + [Översikt över ändringar](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-         + [Experience Templates](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
+         + [Upplevelsemallar](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
       + [Elementväljare som används i Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-selectors.md)
-      + [Mobila visningsrutor för responsiva upplevelser](c-experiences/c-visual-experience-composer/mobile-viewports.md)
-      + [Visuell Experience Composer - bästa praxis och begränsningar](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
+      + [Mobila visningsportar för responsiva upplevelser](c-experiences/c-visual-experience-composer/mobile-viewports.md)
+      + [Bästa praxis och begränsningar för Visual Experience Composer](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + Felsöka Visual Experience Composer {#troubleshoot-composer}
          + [Felsöka översikten för Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Felsöka Visual Experience Composer och Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Felsöka Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Felsöka Förbättrad Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Aktivera blandat innehåll i webbläsaren](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
-         + [Scenarier för sidändring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [Sidändringsscenarier](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Hjälptillägg för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Omdirigera till en URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [Skapa Carousel som fungerar i Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
+      + [Skapa karuseller som fungerar i Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Formulärbaserad Experience Composer](c-experiences/form-experience-composer.md)
    + [Visual Experience Composer (SPA) med en sida](c-experiences/spa-visual-experience-composer.md)
    + Erbjudanden {#offers}
@@ -352,7 +352,7 @@ ht-degree: 0%
    + [Översikt över rapporter](c-reports/reports.md)
    + Rapportinställningar {#settings}
       + [Översikt över rapportinställningar](c-reports/c-report-settings/report-settings.md)
-      + [Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
+      + [Genomsnittlig lyft, lyftgränser och konfidensintervall](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Visa flera mätvärden i en rapport](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Exkludera extrema värden](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [Sammanfattningsrapport för automatiskt mål](c-reports/auto-target-summary-report.md)
@@ -388,8 +388,8 @@ ht-degree: 0%
       + [Överför anpassade villkor](c-recommendations/c-algorithms/recommendations-csv.md)
       + Dynamiska och statiska inkluderingsregler {#dynamic-static}
          + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [Matchande entitetsattribut](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [Matchning av profilattribut](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Matchning av enhetsattribut](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Profilattributsmatchning](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [Parametermatchning](/help/c-recommendations/c-algorithms/parameter-matching.md)
          + [Statiskt filter](/help/c-recommendations/c-algorithms/static-value.md)
       + [Använd en rekommendation för säkerhetskopiering](c-recommendations/c-algorithms/backup-recs.md)
