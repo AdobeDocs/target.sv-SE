@@ -5,7 +5,7 @@ title: Hur hämtar jag data till målet med hjälp av sidparametrar?
 feature: Implementering
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -22,13 +22,13 @@ Sidparametrar är användbara när du vill skicka siddata till Target som inte b
 
 Sidparametrar skickas till Target via ett serveranrop som ett strängnamn/värde-par. Parameternamn och värden kan anpassas (även om det finns &quot;reserverade namn&quot; för vissa användningsområden).
 
-### Exempel:
+### Exempel
 
 * `page=productPage`
 
 * `categoryId=homeLoans`
 
-## Exempel på användningsfall
+## Exempel på användningsområden
 
 * **Produktsidor**: Skicka information om den specifika produkten som visas (den här metoden är hur Recommendations fungerar)
 * **Beställningsinformation**: Skicka order-ID, orderTotal o.s.v. för ordersamling
@@ -57,7 +57,7 @@ Data skickas till Target i realtid och kan användas på samma server för att a
 
    ![](assets/ietf2.png)
 
-## Kodexempel
+## Exempel på koder
 
 targetPageParamsAll (bifogar parametrarna till alla mbox-anrop på sidan):
 
