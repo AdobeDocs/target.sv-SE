@@ -4,9 +4,9 @@ breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,9 @@ ht-degree: 0%
       + Metoder för att hämta data till målet {#methods}
          + [Översikt över metoder](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Sidparametrar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
+         + [Skriptprofilattribut](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
+         + [Profilattribut på sidan](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
+         + [Dataleverantörer](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
          + [Profil-API-inställningar](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Översikt över målsäkerhet](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Webbläsare som stöds](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
