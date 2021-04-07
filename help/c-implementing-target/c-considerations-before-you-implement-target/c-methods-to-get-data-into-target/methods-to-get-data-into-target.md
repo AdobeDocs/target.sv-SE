@@ -2,90 +2,32 @@
 keywords: implementera;implementera;konfigurera;konfigurera;sidparameter;tomcat;url-kodad;in page profile attribute;mbox parameter;in page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;data provider;data provider
 description: Hämta data till Target (sidparametrar, profilattribut, skriptprofilattribut, dataleverantörer, uppdaterings-API:er för en och flera profiler, kundattribut).
 title: Hur får jag in data i Target?
-feature: Implementation
+feature: Implementering
 role: Developer
+exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1864'
 ht-degree: 0%
 
 ---
 
+# Översikt över metoder
 
-# Metoder för att hämta data till Target
+Information om de olika metoder du kan använda för att hämta data till [!DNL Adobe Target].
 
-Information om de olika metoder du kan använda för att hämta data till [!DNL Adobe Target], inklusive sidparametrar, profilattribut på sidan, skriptprofilattribut, DataProvider, API för satsprofiluppdatering, API för uppdatering av en profil samt kundattribut.
+Tillgängliga metoder:
 
-## Sidparametrar (kallas även&quot;mbox parameters&quot;) {#section_5A297816173C4FE48DC4FE03860CB42B}
-
-Sidparametrar är namn/värde-par som skickas direkt via sidkod och som inte lagras i besökarens profil för framtida bruk.
-
-Sidparametrar är användbara när du vill skicka ytterligare siddata till Target som inte behöver lagras med besökarens profil för framtida målinriktning. Dessa värden används i stället för att beskriva sidan eller den åtgärd som användaren utförde på den specifika sidan.
-
-### Format
-
-Sidparametrar skickas till Target via ett serveranrop som ett strängnamn/värde-par. Parameternamn och värden kan anpassas (även om det finns &quot;reserverade namn&quot; för vissa användningsområden).
-
-Exempel:
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### Exempel på användningsfall
-
-**Produktsidor**: Skicka information om den specifika produkten som visas (så här fungerar Recommendations)
-
-**Beställningsinformation**: Skicka order-ID, orderTotal o.s.v. för ordersamling
-
-**Kategoritillhörighet**: Skicka kategorivisad information till Target för att skapa kunskap om användarens tillhörighet till särskilda webbplatskategorier
-
-**Tredjepartsdata**: Skicka information från externa datakällor, som till exempel leverantörer av väderanpassning, kontodata (till exempel DemandBase), demografiska data (till exempel Experience) och mycket mer.
-
-### Fördelar med metoden
-
-Data skickas till Target i realtid och kan användas på samma server för att anropa de data som de kommer in på.
-
-### Caveats
-
-* Kräver uppdatering av sidkod (direkt eller via ett tagghanteringssystem).
-* Om data behöver användas för att rikta in sig på en efterföljande sida/server-anrop måste de översättas till ett profilskript.
-* Frågesträngar får endast innehålla tecken enligt standarden [IETF (Internet Engineering Task Force)](https://www.ietf.org/rfc/rfc3986.txt).
-
-   Förutom de som nämns på IETF-webbplatsen tillåter Target följande tecken i frågesträngar:
-
-   `&lt; > # % &quot; {} | \\ ^ \[\] \&quot;
-
-   Allt annat måste vara url-kodat. Standarden anger följande format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), enligt nedan:
-
-   ![](assets/ietf1.png)
-
-   Eller hela listan för enkelhet:
-
-   ![](assets/ietf2.png)
-
-### Kodexempel
-
-targetPageParamsAll (bifogar parametrarna till alla mbox-anrop på sidan):
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams (lägger till parametrarna i den globala mbox på sidan):
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parametrar i mboxSkapa kod:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### Länkar till relevant information
-
-Recommendations: [Implementering enligt sidtyp](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-Orderbekräftelse: [Spåra konverteringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-Kategoritillhörighet: [Kategoritillhörighet](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+| Metod | Detaljer |
+| --- | --- |
+| [Sidparametrar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br> (kallas även&quot;mbox parameters&quot;) | Sidparametrar är namn/värde-par som skickas direkt via sidkod och som inte lagras i besökarens profil för framtida bruk.<br>Sidparametrar är användbara när du vill skicka ytterligare siddata till Target som inte behöver lagras med besökarens profil för framtida målinriktning. Dessa värden används i stället för att beskriva sidan eller den åtgärd som användaren utförde på den specifika sidan. |
+| Profilattribut på sidan (kallas även&quot;profilattribut i ruta) | Profilattribut på sidan är namn/värde-par som skickas direkt via sidkoden och som lagras i besökarens profil för framtida bruk.<br>Med profilattribut på sidan kan användarspecifika data lagras i Target-profilen för senare målinriktning och segmentering. |
+| Skriptprofilattribut | Skriptprofilattribut är namn/värde-par som definieras i Target-lösningen. Värdet avgörs av om ett JavaScript-fragment körs på målservern per serveranrop.<br>Användare skriver små kodfragment som körs per mbox-anrop och innan en besökare utvärderas för målgrupps- och aktivitetsmedlemskap. |
+| Dataleverantörer | Dataleverantörer är en funktion som gör att du enkelt kan skicka data från tredje part till Target. |
+| API för gruppprofilsuppdatering | Via API skickar du en CSV-fil till Target med uppdateringar av besökarprofilen för många besökare. Varje besökarprofil kan uppdateras med flera profilattribut på sidan i ett anrop. |
+| API för enkel profiluppdatering | Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil. |
+| Kundattribut | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. |
 
 ## Profilattribut på sidan (kallas även &quot;in-mbox profile attributes) {#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -188,7 +130,7 @@ Profilskript är relativt flexibla:
 
 ## Dataleverantörer {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-Data Providers är en funktion som gör att du enkelt kan skicka data från tredje part till Target.
+Dataleverantörer är en funktion som gör att du enkelt kan skicka data från tredje part till Target.
 
 Obs! Data Providers kräver at.js 1.3 eller senare.
 
@@ -273,7 +215,7 @@ Se [Uppdatera profiler](https://developers.adobetarget.com/api/#updating-profile
 
 ## API för enkel profiluppdatering {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i linje i API-anropet i stället för med en CSV-fil
+Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil.
 
 ### Format
 
