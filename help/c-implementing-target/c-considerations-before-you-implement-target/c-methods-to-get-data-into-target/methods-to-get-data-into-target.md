@@ -6,9 +6,9 @@ feature: Implementering
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Tillgängliga metoder:
 
 | Metod | Detaljer |
 | --- | --- |
-| [Sidparametrar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br> (kallas även&quot;mbox parameters&quot;) | Sidparametrar är namn/värde-par som skickas direkt via sidkod och som inte lagras i besökarens profil för framtida bruk.<br>Sidparametrar är användbara när du vill skicka ytterligare siddata till Target som inte behöver lagras med besökarens profil för framtida målinriktning. Dessa värden används i stället för att beskriva sidan eller den åtgärd som användaren utförde på den specifika sidan. |
+| [Sidparametrar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br> (kallas även&quot;mbox parameters&quot;) | Sidparametrar är namn/värde-par som skickas direkt via sidkod och som inte lagras i besökarens profil för framtida bruk.<br>Sidparametrar är användbara när du vill skicka siddata till Target som inte behöver lagras med besökarens profil för framtida målinriktning. Dessa värden används i stället för att beskriva sidan eller den åtgärd som användaren utförde på den specifika sidan. |
 | [Profilattribut](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br> på sidan (kallas även&quot;profilattribut i ruta) | Profilattribut på sidan är namn/värde-par som skickas direkt via sidkoden och som lagras i besökarens profil för framtida bruk.<br>Med profilattribut på sidan kan användarspecifika data lagras i Target-profilen för senare målinriktning och segmentering. |
 | [Skriptprofilattribut](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | Skriptprofilattribut är namn/värde-par som definieras i Target-lösningen. Värdet avgörs av om ett JavaScript-fragment körs på målservern per serveranrop.<br>Användare skriver små kodfragment som körs per mbox-anrop och innan en besökare utvärderas för målgrupps- och aktivitetsmedlemskap. |
-| [Dataleverantörer](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | Dataleverantörer är en funktion som gör att du enkelt kan skicka data från tredje part till Target. |
-| API för gruppprofilsuppdatering | Via API skickar du en CSV-fil till Target med uppdateringar av besökarprofilen för många besökare. Varje besökarprofil kan uppdateras med flera profilattribut på sidan i ett anrop. |
-| API för enkel profiluppdatering | Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil. |
-| Kundattribut | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. |
+| [Dataleverantörer](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | Med dataleverantörer kan ni enkelt skicka data från tredje part till Target. |
+| [API för gruppprofilsuppdatering](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md) | Via API skickar du en CSV-fil till Target med uppdateringar av besökarprofilen för många besökare. Varje besökarprofil kan uppdateras med flera profilattribut på sidan i ett anrop. |
+| [API för enkel profiluppdatering](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md) | Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil. |
+| [Kundattribut](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md) | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. |
 
 
 
@@ -35,114 +35,8 @@ Tillgängliga metoder:
 
 
 
-## API för gruppprofilsuppdatering {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
-Via API skickar du en CSV-fil till Target med uppdateringar av besökarprofilen för många besökare. Varje besökarprofil kan uppdateras med flera profilattribut på sidan i ett anrop.
 
-Det här alternativet liknar kundattribut med några skillnader:
 
-* Kundattribut använder en FTP-överföring medan API:t för uppdatering av målgruppsprofil använder ett API för HTTP-POST.
-* Data för kundattribut kan delas med Analytics. Det går bara att använda gruppprofilsuppdatering i Target.
-* Kundattribut som stöder att skapa en profil för ett användarmål har ännu inte setts. API:t för uppdatering av gruppprofil uppdaterar bara befintliga målprofiler.
-* Kundattribut kräver att Experience Cloud ID (ECID) används. API:t för uppdatering av gruppprofil kräver antingen TNT-ID eller `mbox3rdPartyId`.
-* Du kan inte skicka följande tecken i `mbox3rdPartyID`: plustecken (+) och snedstreck (/).
 
-### Format
 
-CSV-filen måste referera till varje besökare via sitt Target PCID eller mboxThirdPartyId. Experience Cloud ID (ECID) stöds inte. Alla profilattribut/värden skapas och uppdateras via API:t. Formatinformation finns i API-dokumentationen.
-
-### Exempel på användningsfall
-
-CRM-systemet eller andra interna system lagrar värdefulla data om besökarna som du vill uppdatera konsekvent i Target, utan att visa profildata i din sidimplementering.
-
-### Fördelar med metoden
-
-Det finns ingen gräns för antalet profilattribut.
-
-Profilattribut som skickas via webbplatsen kan uppdateras via API och vice versa.
-
-### Caveats
-
-Batchfilens storlek måste vara mindre än 50 MB. Dessutom bör det totala antalet rader inte överstiga 500 000 rader per överföring.
-
-Det finns ingen gräns för hur många rader du kan överföra under 24 timmar i efterföljande batchar. Intag kan dock begränsas under kontorstid för att säkerställa att andra processer körs effektivt.
-
-Flera [V2-batchuppdateringsanrop](https://developers.adobetarget.com/api/#updating-profiles) utan mbox-anrop däremellan för samma thirdPartyIds åsidosätter egenskaperna som uppdaterades i det första batchuppdateringsanropet.
-
-### Kodexempel
-
-Se [Uppdatera profiler](https://developers.adobetarget.com/api/#updating-profiles).
-
-### Länkar till relevant information
-
-[Uppdaterar profiler](https://developers.adobetarget.com/api/#updating-profiles)
-
-## API för enkel profiluppdatering {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
-
-Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil.
-
-### Format
-
-Besökaren måste identifieras via Target mboxPC-värdet eller mboxThirdPartyId-värdet. Experience Cloud ID (ECID) stöds inte.
-
-### Exempel på användningsfall
-
-Du vill uppdatera Target i realtid när en besökare utför en offlineåtgärd, som att nå en kundtjänst, ett lån finansieras, använda ett förmånskort i butiken, få tillgång till en kioskdator och så vidare.
-
-### Fördelar med metoden
-
-Det finns ingen gräns för antalet profilattribut.
-
-Profilattribut som skickas via webbplatsen kan uppdateras via API och vice versa.
-
-### Caveats
-
-Gräns på 1 000 000 API-anrop (1 miljon) per 24-timmarsperiod
-
-Uppdaterar endast profiler. Det går inte att skapa en profil för en potentiell användare som Target ännu inte ser.
-
-### Kodexempel
-
-GET och POST stöds. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
-
-### Länkar till relevant information
-
-[Uppdaterar profiler](https://developers.adobetarget.com/api/#updating-profiles)
-
-## Kundattribut {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
-
-Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts.
-
-Målgruppen Standard-kunder kan utnyttja fem attribut, Target Premium-kunder kan utnyttja 200 attribut.
-
-### Format
-
-En CSV-fil med Experience Cloud ID (ECID) och attributnamn/värde-par överförs via FTP eller manuellt i användargränssnittet för Experience Cloud.
-
-### Exempel på användningsfall
-
-CRM-systemet eller andra interna system lagrar värdefull information som du vill dela med Adobe Experience Cloud, inklusive Target och Analytics.
-
-### Fördelar med metoden
-
-När du överför kunddata skapas en profilpost för besökaren i Target, även om Target ännu inte har sett besökaren.
-
-Samma data är automatiskt tillgängliga i Target och Analytics.
-
-FTP kan vara en enklare implementeringsmetod än API.
-
-### Caveats
-
-Målkunder kan utnyttja fem attribut, Target Premium-kunder kan utnyttja 200 attribut
-
-Kan bara uppdatera värden via kundattribut, inte på sidan.
-
-Kräver implementering av Experience Cloud ID (ECID).
-
-### Kodexempel
-
-Mer information finns i [Skapa en kundattributkälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
-
-### Länkar till relevant information
-
-[Skapa en kundattributskälla och överför datafilen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
