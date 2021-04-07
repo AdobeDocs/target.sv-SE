@@ -4,8 +4,9 @@ description: Hämta data till Target med skriptprofilattribut.
 title: Hur hämtar jag data till målet med hjälp av skriptprofilattribut?
 feature: Implementering
 role: Developer
+exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
