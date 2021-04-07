@@ -6,9 +6,9 @@ feature: Implementering
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -22,154 +22,18 @@ Tillgängliga metoder:
 | Metod | Detaljer |
 | --- | --- |
 | [Sidparametrar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br> (kallas även&quot;mbox parameters&quot;) | Sidparametrar är namn/värde-par som skickas direkt via sidkod och som inte lagras i besökarens profil för framtida bruk.<br>Sidparametrar är användbara när du vill skicka ytterligare siddata till Target som inte behöver lagras med besökarens profil för framtida målinriktning. Dessa värden används i stället för att beskriva sidan eller den åtgärd som användaren utförde på den specifika sidan. |
-| Profilattribut på sidan (kallas även&quot;profilattribut i ruta) | Profilattribut på sidan är namn/värde-par som skickas direkt via sidkoden och som lagras i besökarens profil för framtida bruk.<br>Med profilattribut på sidan kan användarspecifika data lagras i Target-profilen för senare målinriktning och segmentering. |
-| Skriptprofilattribut | Skriptprofilattribut är namn/värde-par som definieras i Target-lösningen. Värdet avgörs av om ett JavaScript-fragment körs på målservern per serveranrop.<br>Användare skriver små kodfragment som körs per mbox-anrop och innan en besökare utvärderas för målgrupps- och aktivitetsmedlemskap. |
-| Dataleverantörer | Dataleverantörer är en funktion som gör att du enkelt kan skicka data från tredje part till Target. |
+| [Profilattribut](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br> på sidan (kallas även&quot;profilattribut i ruta) | Profilattribut på sidan är namn/värde-par som skickas direkt via sidkoden och som lagras i besökarens profil för framtida bruk.<br>Med profilattribut på sidan kan användarspecifika data lagras i Target-profilen för senare målinriktning och segmentering. |
+| [Skriptprofilattribut](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | Skriptprofilattribut är namn/värde-par som definieras i Target-lösningen. Värdet avgörs av om ett JavaScript-fragment körs på målservern per serveranrop.<br>Användare skriver små kodfragment som körs per mbox-anrop och innan en besökare utvärderas för målgrupps- och aktivitetsmedlemskap. |
+| [Dataleverantörer](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | Dataleverantörer är en funktion som gör att du enkelt kan skicka data från tredje part till Target. |
 | API för gruppprofilsuppdatering | Via API skickar du en CSV-fil till Target med uppdateringar av besökarprofilen för många besökare. Varje besökarprofil kan uppdateras med flera profilattribut på sidan i ett anrop. |
 | API för enkel profiluppdatering | Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil. |
 | Kundattribut | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. |
 
-## Profilattribut på sidan (kallas även &quot;in-mbox profile attributes) {#section_57E1C161AA7B444689B40B6F459302B6}
 
-Profilattribut på sidan är namn/värde-par som skickas direkt via sidkoden och som lagras i besökarens profil för framtida bruk.
 
-Med profilattribut på sidan kan användarspecifika data lagras i Target-profilen för senare målinriktning och segmentering.
 
-### Format
 
-Profilattribut på sidan skickas till Target via ett serveranrop som ett strängnamn/värde-par med prefixet &quot;profile&quot;. före attributnamnet.
 
-Attributnamn och värden är anpassningsbara (även om det finns &quot;reserverade namn&quot; för vissa användningsområden).
-
-Exempel:
-
-* `profile.membershipLevel=silver`
-* `profile.visitCount=3`
-
-### Exempel på användningsfall
-
-**Inloggningsinformation**: Dela icke-PII-data (Personally Identiitable Information) till Target baserat på användarens inloggning. Det kan vara medlemskapsstatus, orderhistorik eller mer.
-
-**Butiksinformation**: Spåra vilket arkiv som är användarens föredragna plats.
-
-**Tidigare interaktioner**: Spåra vad användaren har gjort på webbplatsen tidigare för att informera om framtida personalisering.
-
-### Fördelar med metoden
-
-Data skickas till Target i realtid och kan användas i samma serveranrop som data kommer in i.
-
-### Caveats
-
-Kräver uppdatering av sidkod (direkt eller via ett tagghanteringssystem).
-
-Attribut och värden visas vid serveranrop, så att besökaren kan se värdena. Om du delar information som kreditintervall eller annan potentiellt privat information kanske detta inte är det bästa sättet.
-
-### Kodexempel
-
-targetPageParamsAll (bifogar attributen till alla mbox-anrop på sidan):
-
-`function targetPageParamsAll() { return "profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-targetPageParams (appends the attributes to the global mbox on the page):
-
-`function targetPageParams() { return profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-Attribut i mboxSkapa kod:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); </script>`
-
-### Länkar till relevant information
-
-[Profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201)
-
-[Besökarprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)
-
-## Skriptprofilattribut {#section_3E27B58C841448C38BDDCFE943984F8D}
-
-Skriptprofilattribut är namn/värde-par som definieras i Target-lösningen. Värdet avgörs av om ett JavaScript-fragment körs på målservern per serveranrop.
-
-Användare skriver små kodfragment som körs per mbox-anrop och innan en besökare utvärderas för målgrupps- och aktivitetsmedlemskap.
-
-### Format
-
-Skriptprofilattribut skapas i målgruppsavsnittet. Alla attributnamn är giltiga och värdet är resultatet av en JavaScript-funktion som skrivits av Target-användaren. Attributnamnet prefixeras automatiskt av användaren . &quot; i Target för att skilja dem från profilattribut på sidan.
-
-Kodfragmentet är skrivet i JS-språket Rhino och kan referera till tokens och andra värden.
-
-### Exempel på användningsfall
-
-**Cart Abandonment**: När besökaren når kundvagnen ställer du in profilskriptet på 1. Återställ besökaren till 0 när besökaren konverterar. Om värdet = 1 har besökaren en artikel i kundvagnen.
-
-**Besök Antal**: Vid varje nytt besök ökar du antalet med 1 för att hålla reda på hur ofta en besökare återvänder till webbplatsen.
-
-### Fördelar med metoden
-
-Inga sidkodsuppdateringar krävs.
-
-Körs före målgrupps- och aktivitetsmedlemskapsbeslut, så dessa profilskriptattribut kan påverka medlemskapet för ett enda serversamtal.
-
-Kan vara mycket robust. Upp till 2 000 instruktioner kan köras per skript.
-
-### Caveats
-
-Kräver JavaScript-kunskaper.
-
-Körningsordningen för profilskript kan inte garanteras, så de kan inte vara beroende av varandra.
-
-Kan vara svårt att felsöka.
-
-### Kodexempel
-
-Profilskript är relativt flexibla:
-
-`user.purchase_recency: var dayInMillis = 3600 * 24 * 1000; if (mbox.name == 'orderThankyouPage') {  user.setLocal('lastPurchaseTime', new Date().getTime()); } var lastPurchaseTime = user.getLocal('lastPurchaseTime'); if (lastPurchaseTime) {  return ((new Date()).getTime()-lastPurchaseTime)/dayInMillis; }`
-
-### Länkar till relevant information
-
-[Profilskriptattribut](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
-
-## Dataleverantörer {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
-
-Dataleverantörer är en funktion som gör att du enkelt kan skicka data från tredje part till Target.
-
-Obs! Data Providers kräver at.js 1.3 eller senare.
-
-### Format
-
-Inställningen `window.targetGlobalSettings.dataProviders` är en matris med dataleverantörer.
-
-Mer information om strukturen för varje dataleverantör finns i [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
-
-### Exempel på användningsfall
-
-Samla in data från tredje part, t.ex. en vädertjänst, en datahanteringsplattform eller till och med din egen webbtjänst. Sedan kan ni använda dessa data för att skapa målgrupper, målinnehåll och berika besökarprofilen.
-
-### Fördelar med metoden
-
-Med den här inställningen kan kunder samla in data från tredjepartsleverantörer av data, som Demandbase, BlueKai och anpassade tjänster, och skicka data till Target som mbox-parametrar i den globala mbox-begäran.
-
-Det stöder insamling av data från flera leverantörer via asynkrona och synkroniserade begäranden.
-
-Med den här metoden blir det enkelt att hantera flimmer av standardsidinnehåll, samtidigt som oberoende tidsgränser för varje leverantör tas med för att begränsa effekten på sidans prestanda
-
-### Caveats
-
-Om dataleverantörerna som läggs till i `window.targetGlobalSettings.dataProviders` är asynkrona körs de parallellt. Besökar-API-begäran körs parallellt med funktioner som lagts till i `window.targetGlobalSettings.dataProviders` för att ge en minimal väntetid.
-
-at.js försöker inte cachelagra data. Om dataleverantören bara hämtar data en gång, bör dataleverantören se till att data cachelagras och, när providerfunktionen anropas, hantera cachedata för det andra anropet.
-
-### Kodexempel
-
-Flera exempel finns i [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
-
-### Länkar till relevant information
-
-Dokumentation: [Dataleverantörer](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
-
-### Utbildningsvideor:
-
-* [Använda Data Providers i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementera Data Providers i Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API för gruppprofilsuppdatering {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
