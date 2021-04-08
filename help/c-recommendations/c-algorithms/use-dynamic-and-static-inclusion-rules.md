@@ -4,14 +4,14 @@ description: Lär dig hur du skapar inkluderingsregler i Adobe Target Recommenda
 title: Hur använder jag regler för dynamisk och statisk inkludering i Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMUnvänd dynamiska och statiska inkluderingsregler{#use-dynamic-and-static-inclusion-rules}
 
@@ -91,7 +91,7 @@ Om du vill välja önskad åtgärd håller du pekaren över kugghjulsikonen (![]
 
 | Åtgärd | Finns för | Detaljer |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] och[!UICONTROL Parameter Matching] | Det här är standardåtgärden för [!UICONTROL Profile Attribute Matching] och [!UICONTROL Parameter Matching].<br>Det här alternativet anger att regeln ignoreras. Om det till exempel finns tre filtreringsregler och den tredje regeln inte skickar några värden, i stället för att inte returnera några resultat, kan du helt enkelt ignorera den tredje regeln med de tomma värdena. |
+| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] och  [!UICONTROL Parameter Matching] | Det här är standardåtgärden för [!UICONTROL Profile Attribute Matching] och [!UICONTROL Parameter Matching].<br>Det här alternativet anger att regeln ignoreras. Om det till exempel finns tre filtreringsregler och den tredje regeln inte skickar några värden, i stället för att inte returnera några resultat, kan du helt enkelt ignorera den tredje regeln med de tomma värdena. |
 | [!UICONTROL Do not show any results for this criteria]<br>(Endast villkor) | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Detta är standardåtgärden för [!UICONTROL Entity Attribute Matching].<br>Detta gör att tomma värden  [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat kommer att visas för dessa kriterier. |
 | [!UICONTROL Do not promote any items<br>(Endast erbjudanden)] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Detta är standardåtgärden för [!UICONTROL Entity Attribute Matching].<br>Detta gör att tomma värden  [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat kommer att visas för dessa kriterier. |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Om ett värde är tomt kan du välja att använda ett statiskt värde. |
