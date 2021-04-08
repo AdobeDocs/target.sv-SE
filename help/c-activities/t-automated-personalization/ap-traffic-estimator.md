@@ -5,9 +5,9 @@ title: Hur mycket trafik krävs för en framgångsrik verksamhet?
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Kom ihåg att [!DNL Target] fungerar slumpmässigt tills personaliseringsalgorit
 
 Tänk på följande vanliga frågor när du arbetar med [!UICONTROL Traffic Estimator]:
 
-### Varför skapar inte [!DNL Target] personaliserade modeller när min AP-aktivitet har tillräckligt med trafik?
+### Varför byggs inte personaliserade modeller trots att min AP-aktivitet har tillräckligt med trafik?
 
 Under vissa omständigheter är trafiken tillräckligt stor för att en anpassad modell ska kunna byggas, men den trafiken kan informera [!DNL Target] om att det inte finns någon meningsfull skillnad mellan den personaliserade modellen och slumpmässigt. Trots att modellen är inbyggd i [!DNL Target] och testad distribueras den inte eftersom modellen inte är bättre än slumpmässig.
 
