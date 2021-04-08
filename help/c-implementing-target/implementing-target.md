@@ -4,15 +4,15 @@ description: Förstå grundläggande begrepp, bekanta dig med hur Target fungera
 landing-page-description: Innan du börjar använda Adobe Target bör du implementera det på din webbplats, förstå några grundläggande begrepp och termer och vara bekant med hur Target fungerar.
 title: Hur implementerar jag Target?
 feature: Implementering
-role: Utvecklare
+role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: 12cc95aca08621a52d5ab99d5ebcc23962caccb5
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Implementera mål
 
