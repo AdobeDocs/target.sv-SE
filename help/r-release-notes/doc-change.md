@@ -5,9 +5,9 @@ title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3927'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 9 april | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till förhandsversionsinformation för Target Standard/Premium 21.4.1 (19 april 2021) |
+|  | [Integrera Recommendations med e-post](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | Följande avsnitt har lagts till: &quot;Riktlinjer för kapacitet för alternativ 1 och 2.&quot; |
 | 29 mars | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nya frågor och svar:<ul><li>Bevaras rekommendationer baserade på nyligen visade objekt på flera enheter för en enskild besökare?</li></ul> |
 | 23 mars | [Versionsinformation](/help/r-release-notes/release-notes.md) | Versionsinformation för at.js version 2.4.1 har lagts till. |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionsinformation för at.js version 2.4.1 har lagts till. |
