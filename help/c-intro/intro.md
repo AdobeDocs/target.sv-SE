@@ -4,14 +4,14 @@ description: Lär dig grunderna i Adobe Target Standard och Adobe Target Premium
 landing-page-description: Personalisera kundernas upplevelse för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 title: Vad är Target?
 feature: Översikt
+exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: 345b0f805ef65364b891f6754f4aaf78c163f334
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
 
 ---
-
 
 # Introduktion till Target
 
