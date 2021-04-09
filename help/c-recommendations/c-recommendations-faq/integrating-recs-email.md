@@ -3,16 +3,16 @@ keywords: e-post;ESP;e-postleverantör;rawbox;delivery API;download only templat
 description: Lär dig hur du integrerar e-post med Adobe Target Recommendations, bland annat med Target Delivery API, rawbox-mallar och nedladdningsbara mallar.
 title: Hur integrerar jag Recommendations med e-post?
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMIontegrera Recommendations med e-post{#integrate-recommendations-with-email}
+# ![](/help/assets/premium.png) PREMIUMIontegrera Recommendations med e-post
 
 Information om hur man integrerar e-post med Recommendations.
 
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | Parameter | Värde | Beskrivning | Validering |
 |--- |--- |--- |--- |
 | `mboxPC`<br>(Valfritt) | *mboxPCId* | Målbesökar-ID. Använd det här värdet om du vill spåra en användares fullständiga cirkel tillbaka till webbplatsen vid flera besök eller när du använder en användarprofilsparameter.<br>Detta värde måste vara det faktiska Adobe Target PCID för användaren, som skulle exporteras från webbplatsen till din CRM. E-postleverantören hämtar detta ID från CRM eller Data warehouse och använder det som värde för den här parametern.<br>Värdet  `mboxPC` är också användbart för att spåra besökares webbplatsbeteende vid flera besök för mätspårning när en rekommendation ingår i en A/B-aktivitet.<br>**Obs**: Var noga med att ange ett unikt värde  `mboxSession` och  `mboxPC` för varje e-postmottagare (dvs. för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svaret ta lång tid eller misslyckas på grund av det stora antalet händelser som genereras i en enskild profil. | 1 &lt; Längd &lt; 128<br>Får inte innehålla mer än en enskild &quot;.&quot; (punkt).<br>Den enda tillåtna punkten är för profilplatsens suffix. |
-| `mboxNoRedirect`<br>(Valfritt) | 3 | Som standard dirigeras anroparen om när inget slutbart innehåll hittas. Används för att inaktivera standardbeteendet. |  |
+| `mboxNoRedirect`<br>(Valfritt) | 1 | Som standard dirigeras anroparen om när inget slutbart innehåll hittas. Används för att inaktivera standardbeteendet. |  |
 | `mbox3rdPartyId` | *xxx* | Använd det här alternativet om du har ett eget besökar-ID som du kan använda för att målinrikta profiler. |  |
 
 ### Potentiella målserversvar
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` anges inte när det inte finns någon matchning för begäran och  `mboxNoRedirect` parametern inte har angetts. |
 | `Invalid mbox name:= MBOX_NAME` | Anger att parametern `mbox` innehåller ogiltiga tecken. |
 | `Mbox name [MBOX_NAME] is too long` | Anger att parametern `mbox` är längre än 250 tecken. |
+
+## Riktlinjer för kapacitet för alternativ 1 och 2 {#capacity}
+
+Följande riktlinjer gäller för e-postmallalternativen för leverans-API och rawbox:
+
+* Begäranden bör begränsas till det lägre av 1 000 förfrågningar per sekund eller 25 gånger din högsta dagliga trafik
+* Ramptrafik i steg om 200 förfrågningar per sekund och minut
+
+Kontakta din kontoansvarige om du vill använda högre avgiftsgränser.
 
 ## Alternativ 3: Använd mallen {#section_518C279AF0094BE780F4EA40A832A164} som bara är för nedladdning
 
