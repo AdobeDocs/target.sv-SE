@@ -2,19 +2,19 @@
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning
 description: Lär dig hur en Auto-Target-aktivitet i Target ger varje besökare den mest skräddarsydda upplevelsen baserat på kundprofiler och beteendet hos liknande besökare.
 title: Vad är en aktivitet med automål?
-feature: Auto-Target
+feature: Automatiskt mål
+exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1928'
 ht-degree: 0%
 
 ---
 
-
 # ![Översikt över ](/help/assets/premium.png) PREMIUMAuto-Target
 
-[!UICONTROL Auto-Target] i Adobe Target använder avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser för att personalisera innehåll och driva konverteringar. Auto-Target levererar den mest skräddarsydda upplevelsen till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler.
+[!UICONTROL Auto-Target] aktiviteter i  [!DNL Adobe Target] använder avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser för att personalisera innehåll och driva konverteringar. Auto-Target levererar den mest skräddarsydda upplevelsen till varje besökare baserat på den enskilda kundprofilen och beteendet hos tidigare besökare med liknande profiler.
 
 >[!NOTE]
 >
@@ -46,15 +46,15 @@ Till skillnad från en A/B-aktivitet där upplevelseallokeringen för en viss be
 
 Det finns några viktiga saker att tänka på när du använder [!UICONTROL Auto-Target]:
 
-* Du kan inte växla en specifik aktivitet från [!UICONTROL Auto-Target] till Automated Personalization och vice versa.
+* Du kan inte växla en specifik aktivitet från [!UICONTROL Auto-Target] till Automated Personalization, och vice versa.
 * Du kan inte växla från manuell trafikallokering (traditionellt A/B-test) till [!UICONTROL Auto-Target], och vice versa efter att en aktivitet är aktiv.
 * En modell är byggd för att identifiera den personaliserade strategins prestanda jämfört med slumpvis betjänad trafik jämfört med att skicka all trafik till den övergripande vinnande upplevelsen. Den här modellen hanterar endast träffar och konverteringar i standardmiljön.
 
    Trafik från en andra uppsättning modeller byggs för varje modellgrupp (AP) eller upplevelse (AT). För var och en av dessa modeller beaktas träffar och konverteringar i alla miljöer.
 
-   Förfrågningar kommer därför att hanteras enligt samma modell, oavsett miljö, men den stora trafikmångfalden bör komma från standardmiljön för att säkerställa att den identifierade övergripande vinnande upplevelsen överensstämmer med det verkliga beteendet.
+   Förfrågningar hanteras med samma modell, oavsett miljö, men trafikens mångfald bör komma från standardmiljön för att säkerställa att den identifierade övergripande vinnande upplevelsen överensstämmer med verkliga beteenden.
 
-* Ni måste använda minst två upplevelser.
+* Använd minst två upplevelser.
 
 ## Terminologi {#section_A309B7E0B258467789A5CACDC1D923F3}
 
@@ -63,7 +63,7 @@ Följande termer är användbara när du diskuterar [!UICONTROL Auto-Target]:
 | Villkor | Definition |
 |---|---|
 | Flerarmad bandit | En flerarmad bandit-strategi för optimering balanserar undersökande inlärning och utnyttjande av det inlärningen. |
-| Slumpmässig skog | Random Forest är en ledande maskininlärningsstrategi. I datavetenskap är det en ensemble klassificering, eller regressionsmetod, som fungerar genom att ett stort antal beslutsträd byggs utifrån besöks- och besöksattribut. Inom Target används Slumpmässig skog för att fastställa vilken erfarenhet som förväntas ha störst sannolikhet för konvertering (eller högsta intäkt per besök) för varje enskild besökare. Mer information om Slumpmässig skog i Target finns i [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md). |
+| Slumpmässig skog | Random Forest är en ledande maskininlärningsstrategi. I datavetenskapen är det en unik klassificering, eller regressionsmetod, som fungerar genom att skapa många beslutsträd baserade på besöks- och besöksattribut. Inom Target används Slumpmässig skog för att fastställa vilken erfarenhet som förväntas ha störst sannolikhet för konvertering (eller högsta intäkt per besök) för varje enskild besökare. Mer information om Slumpmässig skog i Target finns i [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md). |
 | Thompson Sampling | Målet för Thompson Sampling är att fastställa vilken upplevelse som är bäst totalt sett (icke-personaliserad), samtidigt som man minimerar&quot;kostnaden&quot; för att hitta den upplevelsen. Thompson-urvalet väljer alltid en vinnare, även om det inte finns någon statistisk skillnad mellan två upplevelser. Mer information finns i [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Så här fungerar [!UICONTROL Auto-Target] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -72,9 +72,9 @@ Lär dig mer om underliggande data och algoritmer för [!UICONTROL Auto-Target] 
 
 | Villkor | Detaljer |
 |--- |--- |
-| [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Målets huvudsakliga personaliseringsalgoritm som används i både [!UICONTROL Auto-Target] och Automated Personalization är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Random Forest i det automatiserade personaliseringssystemet är en klassificering, eller regressionsmetod, som fungerar genom att en mängd beslutsträd byggs ut under utbildningstiden. |
+| [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Målets huvudsakliga personaliseringsalgoritm som används i både [!UICONTROL Auto-Target] och Automated Personalization är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Slumpmässig skog i Automated Personalization-systemet är en klassificering, eller regressionsmetod, som fungerar genom att en mängd beslutsträd skapas under utbildningstiden. |
 | [Överför data för målets algoritmer för personalisering](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Det finns flera sätt att mata in data för [!UICONTROL Auto-Target]- och Automated Personalization-modeller. |
-| [Datainsamling för målets personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/ap-data.md) | Målets personaliseringsalgoritmer samlar automatiskt in en mängd olika data. |
+| [Datainsamling för målets personaliseringsalgoritmer](/help/c-activities/t-automated-personalization/ap-data.md) | Målets personaliseringsalgoritmer samlar automatiskt in olika data. |
 
 ## Bestämmer trafikallokering {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -90,7 +90,7 @@ I listrutan [!UICONTROL Custom Allocation] kan du välja mellan följande altern
 
 | Aktivitetsmål | Föreslagen trafikallokering | Överlåtelser |
 |--- |--- |--- |
-| **Utvärdera personaliseringsalgoritm (50/50)**: Om målet är att testa algoritmen ska du använda en 50/50-procentig delning av besökare mellan kontrollen och målalgoritmen. Denna delning ger den mest korrekta uppskattningen av hissen. Föreslagna för användning med&quot;slumpmässiga upplevelser&quot; som er kontroll. | 50 % kontroll/50 % personlig upplevelsedelning | <ul><li>Maximerar lyften mellan kontroll och personalisering</li><li>relativt färre besökare får en personaliserad upplevelse</li></ul> |
+| **Utvärdera personaliseringsalgoritm (50/50)**: Om målet är att testa algoritmen ska du använda en 50/50-procentig delning av besökare mellan kontrollen och målalgoritmen. Denna delning ger den mest korrekta uppskattningen av hissen. Föreslagna för användning med&quot;slumpmässiga upplevelser&quot; som er kontroll. | 50 % kontroll/50 % personlig upplevelsedelning | <ul><li>Maximerar lyften mellan kontroll och personalisering</li><li>relativt färre besökare har en personaliserad upplevelse</li></ul> |
 | **Maximera personaliseringstrafiken (90/10)**: Om målet är att skapa en&quot;alltid aktiverad&quot; aktivitet ska 10 % av besökarna ha kontrollen för att säkerställa att det finns tillräckligt med data för att algoritmerna ska kunna fortsätta lära sig över tid. Observera att ni i utbyte mot att personalisera en större andel av trafiken har mindre precision i det exakta lyftet. Oavsett vilket mål du har är detta den rekommenderade trafikdelningen när du använder en specifik upplevelse som kontroll. | Det bästa sättet är att använda en 10-30 % kontroll/70-90 % personaliserad upplevelsedelning | <ul><li>Maximerar antalet besökare som har en personaliserad upplevelse</li><li>Maximerar lyft</li><li>Mindre noggrannhet vad hissen är för aktiviteten</li></ul> |
 | **Anpassad allokering** | Dela procentandelen manuellt efter behov. | <ul><li>Du kanske inte uppnår det önskade resultatet. Om du är osäker kan du följa förslagen för något av de föregående alternativen</li></ul> |
 
@@ -102,23 +102,23 @@ Du kan [välja en specifik upplevelse som ska användas som kontroll](/help/c-ac
 
 ## När ska du välja [!UICONTROL Auto-Target] framför Automated Personalization? {#section_BBC4871C87944DD7A8B925811A30C633}
 
-Det finns flera scenarier där du kanske föredrar [!UICONTROL Auto-Target] framför Automated Personalization:
+Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto-Target] framför [!UICONTROL Automated Personalization]:
 
 * Om ni vill definiera hela upplevelsen i stället för enskilda erbjudanden som automatiskt kombineras för att skapa en upplevelse.
 * Om du vill använda alla funktioner i Visual Experience Composer (VEC) som inte stöds av [!UICONTROL Auto Personalization]: den anpassade kodredigeraren, flera olika upplevelsemålgrupper med mera.
-* Om du vill göra strukturella ändringar på sidan i olika upplevelser. Om du till exempel vill ändra ordningen på elementen på hemsidan är [!UICONTROL Auto-Target] bättre att använda än Automated Personalization.
+* Om du vill göra strukturella ändringar på sidan i olika upplevelser. Om du till exempel vill ordna om element på din hemsida är [!UICONTROL Auto-Target] mer lämpligt att använda än Automated Personalization.
 
 ## Vad har [!UICONTROL Auto-Target] gemensamt med Automated Personalization? {#section_2A601F482F9A44E38D4B694668711319}
 
 **Algoritmen optimerar för ett positivt resultat vid varje besök.**
 
 * Algoritmen förutser besökarens benägenhet för konvertering (eller beräknade intäkter från konvertering) för att ge bästa möjliga upplevelse.
-* En besökare är berättigad till en ny upplevelse vid slutet av en befintlig session (såvida inte besökaren är i kontrollgruppen, i vilket fall den upplevelse som besökaren får vid sitt första besök förblir densamma för efterföljande besök).
+* En besökare är berättigad till en ny upplevelse vid slutet av en befintlig session (såvida inte besökaren är i kontrollgruppen, i vilket fall den upplevelse som besökaren tilldelas vid det första besöket förblir densamma för efterföljande besök).
 * Under en session ändras inte förutsägbarheten, vilket ger en bättre visuell enhetlighet.
 
 **Algoritmen anpassas till förändringar i besökarens beteende.**
 
-* Multiarm bandit ser till att modellen alltid&quot;spenderar&quot; en liten fraktionstrafik som fortsätter att lära sig under aktivitetens livstid och för att förhindra att tidigare inlärda trender utnyttjas i alltför stor utsträckning.
+* Multiarm bandit säkerställer att modellen alltid &quot;spenderar&quot; en liten fraktionstrafik som kan fortsätta att lära sig under aktivitetens livstid och för att förhindra överutnyttjande av tidigare inlärda trender.
 * De underliggande modellerna byggs om var 24:e timme med hjälp av de senaste besökarbeteendedata för att säkerställa att Target alltid utnyttjar föränderliga besökarinställningar.
 * Om algoritmen inte kan avgöra vilka vinnande upplevelser individen har, växlar den automatiskt till att visa den övergripande prestandaoptimerade upplevelsen samtidigt som den fortsätter att leta efter personaliserade vinnare. Den bästa upplevelsen hittas med [Thompson sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
 
