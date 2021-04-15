@@ -1,25 +1,23 @@
 ---
 keywords: inkluderingsregler;inkluderingskriterier;rekommendationer;skapa nya kriterier;befordran;kampanjer;dynamisk filtrering;dynamiska;tomma värden;ignorera filtreringsregel;statiskt filter;filter efter värde;entitetsattributmatchning;profilattributmatchning;parametermatchning;filter efter värde;statiskt filter
-description: Lär dig hur du skapar inkluderingsregler i Adobe Target Recommendations för villkor och kampanjer. Lägg till ytterligare dynamiska eller statiska filtreringsregler för att få bättre resultat.
+description: Lär dig hur du skapar inkluderingsregler i Adobe Target Recommendations för villkor och kampanjer. För att få bättre resultat lägger du till mer dynamiska eller statiska filtreringsregler.
 title: Hur använder jag regler för dynamisk och statisk inkludering i Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMUnvänd dynamiska och statiska inkluderingsregler{#use-dynamic-and-static-inclusion-rules}
+# ![](/help/assets/premium.png) PREMIUMUnvänd dynamiska och statiska inkluderingsregler
 
-Information om hur du skapar inkluderingsregler för villkor och kampanjer i [!DNL Adobe Target] och lägger till ytterligare dynamiska eller statiska filtreringsregler för att få bättre resultat för dina rekommendationer.
+Information om hur du skapar inkluderingsregler för villkor och kampanjer i [!DNL Adobe Target] och lägger till dynamiska eller statiska filtreringsregler för att få bättre resultat för dina rekommendationer.
 
->[!NOTE]
->
->Processen för att skapa och använda inkluderingsregler för kriterier och kampanjer liknar den för användningsexempel och exempel. Både kriterier och kampanjer och användningen av inkluderingsregler omfattas av detta avsnitt.
+Processen för att skapa och använda inkluderingsregler för kriterier och kampanjer liknar den för användningsexempel och exempel. Både kriterier och kampanjer och användningen av inkluderingsregler omfattas av detta avsnitt.
 
 ## Lägger till filtreringsregler i villkor {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -45,7 +43,7 @@ Dynamiska inkluderingsregler är kraftfullare än statiska inkluderingsregler oc
 
 * Dynamiska inkluderingsregler ger rekommendationer genom att matcha ett attribut i en användares profilparameter eller i ett mbox-anrop.
 
-   Du kan t.ex. skapa en rekommendation för&quot;De mest populära villkoren&quot; och sedan filtrera bort alla rekommendationer (i realtid) mot ett attribut som skickas när användaren öppnar en sida där rekommendationerna visas.
+   Du kan t.ex. skapa en&quot;De mest populära villkoren&quot;-rekommendation. Från de returnerade rekommendationerna kan du filtrera bort alla rekommendationer (i realtid) mot ett attribut som skickas när användaren öppnar en sida där rekommendationerna visas.
 
 * Använd statiska regler för att begränsa vilka objekt som ska tas med i rekommendationen (i stället för att använda samlingar).
 
@@ -67,17 +65,29 @@ Följande alternativ är tillgängliga för filtrering efter värde:
 | --- | --- |
 | [Statiskt filter](/help/c-recommendations/c-algorithms/static-value.md) | Ange manuellt ett eller flera statiska värden som ska filtreras. |
 
-## Dynamiska kriterier och exempel på kampanjer
+## Tillgängliga operatorer {#operators}
 
 Dynamiska kriterier och kampanjer är mycket kraftfullare än statiska kriterier och kampanjer och ger bättre resultat och engagemang.
 
-I följande exempel ges allmänna idéer om hur ni kan använda dynamiska kampanjer i era marknadsföringssatsningar:
+I följande exempel ges allmänna idéer om hur ni kan använda dynamiska kampanjer och undantag i era marknadsföringssatsningar:
 
 | Operator | Exempel |
 | --- | --- |
-| Lika med | När en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film) kan du använda operatorn lika i dynamiska kampanjer för att marknadsföra andra objekt från:<ul><li>samma varumärke</li><li>samma kategori</li><li>samma kategori OCH från varumärket</li><li>samma butik</li></ul> |
-| Är inte lika med | Om du använder operatorn&quot;inte jämför&quot; i dynamiska kampanjer kan du befordra andra saker när en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film):<ul><li>en annan TV-serie</li><li>en annan genre</li><li>en annan produktserie</li><li>ett annat format-ID</li></ul> |
-| Är mellan | När en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film) kan du använda operatorn&quot;är mellan&quot; i dynamiska kampanjer för att marknadsföra andra element som är:<ul><li>mer kostsam</li><li>billigare</li><li>kostnad plus eller minus 30 %</li><li>senare avsnitt under samma säsong</li><li>tidigare böcker i en serie</li></ul> |
+| Lika med<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut, matchning av parametrar och statiskt filter.) | När en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film) kan du använda operatorn lika i dynamiska kampanjer för att marknadsföra andra objekt från:<ul><li>Samma varumärke</li><li>Samma kategori</li><li>Samma kategori OCH från varumärket</li><li>Samma butik</li></ul> |
+| Är inte lika med<br> (tillgängligt med entitetsattributmatchning, profilattributmatchning, parametermatchning och statiskt filter.) | Om du använder operatorn&quot;inte jämför&quot; i dynamiska kampanjer kan du befordra andra saker när en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film):<ul><li>En annan TV-serie</li><li>En annan genre</li><li>En annan produktserie</li><li>Ett annat format-ID</li></ul> |
+| Innehåller delsträng<br>(Tillgängligt med entitetsattributmatchning, profilattributmatchning, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;innehåller delsträng&quot; för att befordra andra element som:<ul><li></li></ul> |  |
+| Innehåller inte delsträng<br>(tillgänglig med entitetsattributmatchning, matchning av profilattribut, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;innehåller inte delsträng&quot; för att marknadsföra andra element som:<ul><li></li></ul> |
+| Börjar med<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut, matchning av parametrar och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;börjar med&quot; för att marknadsföra andra saker som:<ul><li></li></ul> |
+| Slutar med<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut, matchning av parametrar och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;slutar med&quot; för att marknadsföra andra saker som:<ul><li></li></ul> |
+| Är större än eller lika med<br> (tillgängligt med entitetsattributmatchning, profilattributmatchning, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på din webbplats (till exempel en produkt) kan du använda operatorn&quot;är större än eller lika med&quot; för att marknadsföra andra element som:<ul><li>Samma kostnad eller dyrare</li></ul> |
+| Är mindre än eller lika med<br> (tillgängligt med entitetsattributmatchning, profilattributmatchning, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på din webbplats (till exempel en produkt) kan du använda operatorn&quot;är mindre än eller lika med&quot; för att marknadsföra andra element som:<ul><li>Samma kostnad eller billigare</li><li>Exkludera objekt som är billigare</li></ul> |
+| Är mellan<br> (tillgängligt med entitetsattributmatchning, profilattributmatchning och parametermatchning.) | När en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film) kan du använda operatorn&quot;är mellan&quot; i dynamiska kampanjer för att marknadsföra andra element som är:<ul><li>Mer kostsam</li><li>Mindre kostsam</li><li>Kostnad plus eller minus 30 %</li><li>Senare avsnitt under samma säsong</li><li>Tidigare böcker i en serie</li></ul> |
+| Finns i listan<br>(tillgänglig med matchning av profilattribut och parametermatchning.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt, artikel eller film) kan du använda operatorn&quot;finns i listan&quot; för profilattributsmatchning för att befordra andra element som är:<ul><li>Tillgängligt i besökarens geografi</li></ul>När du använder den här operatorn förväntas en lista på regelns [högra sida](#caveats). |
+| Finns inte i listan<br>(tillgänglig med matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;finns inte i listan&quot; för att matcha profilattribut kan du utesluta andra objekt som är:<ul><li>I listan med de tio senaste objekten som besökaren har visat</li></ul></ul>När du använder den här operatorn förväntas en lista på regelns [högra sida](#caveats). |
+| Listan innehåller ett objekt i<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt, artikel eller film) kan du använda operatorn &quot;list contains an item in&quot; för att matcha profilattribut för att rekommendera andra objekt som är:<ul><li>Associerad med en av besökarens favoritteam</li></ul></ul>När du använder den här operatorn förväntas en lista i [båda sidor](#caveats) av regeln. |
+| Listan innehåller inte något objekt i<br>(tillgängligt med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;list does not contain an item in&quot; i parameterattributmatchning kan du utesluta andra objekt som är:<ul><li>Finns i en lista över förbjudna typer</li></ul>När du använder den här operatorn förväntas en lista i [båda sidor](#caveats) av regeln. |
+| Listan innehåller alla objekt i<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;list contains all items in&quot; i parameterattributmatchning kan du befordra andra element som är:<ul><li></li></ul>När du använder den här operatorn förväntas en lista i [båda sidor](#caveats) av regeln. |
+| Listan innehåller inte alla objekt i<br> (tillgänglig med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;list does not contain all items in&quot; i parameterattributmatchning kan du befordra andra element som är:<ul><li></li></ul>När du använder den här operatorn förväntas en lista i [båda sidor](#caveats) av regeln. |
 
 ## Hantera tomma värden vid filtrering efter entitetsattributmatchning, matchning av profilattribut och parametermatchning {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -91,16 +101,16 @@ Om du vill välja önskad åtgärd håller du pekaren över kugghjulsikonen (![]
 
 | Åtgärd | Finns för | Detaljer |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] och  [!UICONTROL Parameter Matching] | Det här är standardåtgärden för [!UICONTROL Profile Attribute Matching] och [!UICONTROL Parameter Matching].<br>Det här alternativet anger att regeln ignoreras. Om det till exempel finns tre filtreringsregler och den tredje regeln inte skickar några värden, i stället för att inte returnera några resultat, kan du helt enkelt ignorera den tredje regeln med de tomma värdena. |
-| [!UICONTROL Do not show any results for this criteria]<br>(Endast villkor) | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Detta är standardåtgärden för [!UICONTROL Entity Attribute Matching].<br>Detta gör att tomma värden  [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat kommer att visas för dessa kriterier. |
-| [!UICONTROL Do not promote any items<br>(Endast erbjudanden)] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Detta är standardåtgärden för [!UICONTROL Entity Attribute Matching].<br>Detta gör att tomma värden  [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat kommer att visas för dessa kriterier. |
+| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] och  [!UICONTROL Parameter Matching] | Den här åtgärden är standard för [!UICONTROL Profile Attribute Matching] och [!UICONTROL Parameter Matching].<br>Det här alternativet anger att regeln ignoreras. Om det till exempel finns tre filtreringsregler och den tredje regeln inte skickar några värden, i stället för att inte returnera några resultat, kan du helt enkelt ignorera den tredje regeln med de tomma värdena. |
+| [!UICONTROL Do not show any results for this criteria]<br>(Endast villkor) | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Den här åtgärden är standard för [!UICONTROL Entity Attribute Matching].<br>Detta gör att tomma värden  [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat visas för detta kriterium. |
+| [!UICONTROL Do not promote any items<br>(Endast erbjudanden)] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Den här åtgärden är standard för [!UICONTROL Entity Attribute Matching].<br>Detta gör att tomma värden  [!DNL Target] hanteras innan det här alternativet läggs till: inga resultat visas för detta kriterium. |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]och  [!UICONTROL Parameter Matching] | Om ett värde är tomt kan du välja att använda ett statiskt värde. |
 
-## Caveats {#section_A889FAF794B7458CA074DEE06DD0E345}
+## Caveats {#caveats}
 
 >[!IMPORTANT]
 >
->Olika datatypsattribut kanske inte är kompatibla med operatorerna &quot;equals&quot; och &quot;does not equal&quot; under körning. Du bör använda värdena [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] och [!UICONTROL Environment] till höger om den vänstra sidan har fördefinierade attribut eller anpassade attribut.
+>Olika datatypsattribut kanske inte är kompatibla med operatorerna &quot;equals&quot; och &quot;does not equal&quot; under körning. Använd värdena [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] och [!UICONTROL Environment] till höger om den vänstra sidan har fördefinierade attribut eller anpassade attribut.
 
 ![](assets/left_right.png)
 
