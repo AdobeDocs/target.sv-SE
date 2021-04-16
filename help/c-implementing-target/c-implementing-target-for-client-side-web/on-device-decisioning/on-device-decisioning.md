@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
 workflow-type: tm+mt
-source-wordcount: '3392'
+source-wordcount: '3394'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Enhetsbeslut planeras släppas i Target Standard/Premium 21.4.1 (19 april 2021).
+>Beslutsfunktionen på enheten är schemalagd att släppas i Target Standard/Premium 21.4.1 (19 april 2021).
 
 Från och med version 2.5 har at.js beslutsfunktioner på enheten. Med enhetsbaserad beslutsfattande kan du cachelagra dina [A/B Test](/help/c-activities/t-test-ab/test-ab.md) och [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter i webbläsaren för att utföra minnesbaserad decimering utan att blockera en nätverksbegäran till [!DNL Adobe Target] Edge Network.
 
@@ -109,9 +109,9 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
-| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | I at.js-biblioteket görs en begäran om att hämta JSON-regelartefakten från närmaste Akamai CDN till besökaren. |
 | 5 | Akamai CDN svarar med JSON-regelartefakten. |
 | 6 | JSON-regelartefakten cachelagras lokalt i besökarens webbläsare. |
@@ -169,7 +169,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 | --- | --- |
 | 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
-| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | En sidladdningsbegäran görs till Adobe Target Edge Network, inklusive alla konfigurerade parametrar som (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.). |
 | 5 | Samtidigt begär at.js att JSON-regelartefakten ska hämtas från närmaste Akamai CDN till besökaren. |
 | 6 | (Adobe Target Edge Network) Profilskript körs och matas sedan in i profilarkivet. Profile Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] och så vidare). |
