@@ -4,10 +4,11 @@ description: Lär dig vilka funktioner som stöds för enhetsbeslut.
 title: Vilka funktioner som stöds i Enhetsbeslut
 feature: at.js
 role: Developer
+exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 62a3b387445977a1bdcd2cf45306c8ff032fca50
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -53,11 +54,43 @@ Tabellen nedan visar vilka målgruppsregler som stöds eller inte stöds för en
 
 Adobe rekommenderar att du anger geovärdena själv i anropet till [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) för att behålla minimal fördröjning för enhetsspecifika beslutsaktiviteter med geobaserade målgrupper. Ange Geo-objektet i sammanhanget för begäran. Det innebär att webbläsaren ska avgöra var besökarna befinner sig. Du kan till exempel utföra en IP-till-Geo-sökning med en tjänst som du konfigurerar. Vissa värdtjänstleverantörer, som Google Cloud, tillhandahåller den här funktionen via anpassade rubriker i varje `HttpServletRequest`.
 
-(Kod kommer)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				city: "SAN FRANCISCO", 
+				countryCode: "US", 
+				stateCode: "CA", 
+				latitude: 37.75, 
+				longitude: -122.4 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 Om du inte kan utföra IP-till-Geo-sökningar på servern, men ändå vill utföra enhetsbeslut för [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)-begäranden som innehåller geobaserade målgrupper, stöds detta också. Nackdelen med det här tillvägagångssättet är att det använder en fjärr-IP-till-Geo-sökning, som lägger till fördröjning för varje `getOffers`-anrop. Denna fördröjning bör vara lägre än ett `getOffers`-anrop med beslut på serversidan, eftersom det träffar ett CDN som ligger nära servern. Ange endast fältet&quot;ipAddress&quot; i Geo-objektet i kontexten för din begäran om att SDK ska hämta geoplatsen för din besökares IP-adress. Om något annat fält förutom&quot;ipAddress&quot; anges kommer SDK:n för [!DNL Target] inte att hämta metadata för geopositionering för upplösning.
 
-(Kod kommer)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				ipAddress: "127.0.0.1" 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ### Allokeringsmetod
 
