@@ -6,9 +6,9 @@ feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: 43a7d3b3056a4404d18aa4a05a7a93d695900f73
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1990'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,9 @@ I följande exempel ges allmänna idéer om hur ni kan använda dynamiska kampan
 | --- | --- |
 | Lika med<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut, matchning av parametrar och statiskt filter.) | När en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film) kan du använda operatorn lika i dynamiska kampanjer för att marknadsföra andra objekt från:<ul><li>Samma varumärke</li><li>Samma kategori</li><li>Samma kategori OCH från varumärket</li><li>Samma butik</li></ul> |
 | Är inte lika med<br> (tillgängligt med entitetsattributmatchning, profilattributmatchning, parametermatchning och statiskt filter.) | Om du använder operatorn&quot;inte jämför&quot; i dynamiska kampanjer kan du befordra andra saker när en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film):<ul><li>En annan TV-serie</li><li>En annan genre</li><li>En annan produktserie</li><li>Ett annat format-ID</li></ul> |
-| Innehåller delsträng<br>(Tillgängligt med entitetsattributmatchning, profilattributmatchning, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;innehåller delsträng&quot; för att befordra andra element som:<ul><li></li></ul> |  |
-| Innehåller inte delsträng<br>(tillgänglig med entitetsattributmatchning, matchning av profilattribut, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;innehåller inte delsträng&quot; för att marknadsföra andra element som:<ul><li></li></ul> |
-| Börjar med<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut, matchning av parametrar och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;börjar med&quot; för att marknadsföra andra saker som:<ul><li></li></ul> |
-| Slutar med<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut, matchning av parametrar och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;slutar med&quot; för att marknadsföra andra saker som:<ul><li></li></ul> |
+| Innehåller inte delsträng<br>(tillgänglig med entitetsattributmatchning, matchning av profilattribut, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;innehåller inte delsträng&quot; för att marknadsföra andra element som:<ul><li>Titeln innehåller inte ett svingord</li></ul> |
+| Börjar med<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut, matchning av parametrar och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;börjar med&quot; för att marknadsföra andra saker som:<ul><li>Produktnamnet börjar med iPhone</li></ul> |
+| Slutar med<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut, matchning av parametrar och statiskt filter.) | När en besökare visar ett objekt på webbplatsen (till exempel en produkt) kan du använda operatorn&quot;slutar med&quot; för att marknadsföra andra saker som:<ul><li>Innehållet slutar med EN, som anger engelska</li></ul> |
 | Är större än eller lika med<br> (tillgängligt med entitetsattributmatchning, profilattributmatchning, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på din webbplats (till exempel en produkt) kan du använda operatorn&quot;är större än eller lika med&quot; för att marknadsföra andra element som:<ul><li>Samma kostnad eller dyrare</li></ul> |
 | Är mindre än eller lika med<br> (tillgängligt med entitetsattributmatchning, profilattributmatchning, parametermatchning och statiskt filter.) | När en besökare visar ett objekt på din webbplats (till exempel en produkt) kan du använda operatorn&quot;är mindre än eller lika med&quot; för att marknadsföra andra element som:<ul><li>Samma kostnad eller billigare</li><li>Exkludera objekt som är billigare</li></ul> |
 | Är mellan<br> (tillgängligt med entitetsattributmatchning, profilattributmatchning och parametermatchning.) | När en besökare visar ett objekt på din webbplats (till exempel en produkt, artikel eller film) kan du använda operatorn&quot;är mellan&quot; i dynamiska kampanjer för att marknadsföra andra element som är:<ul><li>Mer kostsam</li><li>Mindre kostsam</li><li>Kostnad plus eller minus 30 %</li><li>Senare avsnitt under samma säsong</li><li>Tidigare böcker i en serie</li></ul> |
