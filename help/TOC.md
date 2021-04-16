@@ -4,9 +4,9 @@ breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar kundernas upplevelse så att ni kan maximera intäkterna på era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 63f56f91cf9a38c4375e811cebb47b4db4af5552
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -101,8 +101,8 @@ ht-degree: 0%
       + at.js-implementering {#at-js-implementation}
          + Enhetsbeslut {#on-device-decisioning}
             + [Översikt över beslut på enheter](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-            + [Funktioner som stöds för beslut på enheten](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
-            + [Regelartefakt för beslutsfattande på enhet](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [Funktioner som stöds](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [Regelartefakt](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
          + Hur at.js fungerar {#at-js}
             + [How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Hur at.js hanterar flimmer](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
