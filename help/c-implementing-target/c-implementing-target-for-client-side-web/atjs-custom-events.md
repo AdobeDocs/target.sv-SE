@@ -4,14 +4,14 @@ description: Använd anpassade händelser för Adobe Target JavaScript-bibliotek
 title: Hur använder jag anpassade at.js-händelser?
 feature: at.js
 role: Developer
+exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
-
 
 # at.js, anpassade händelser
 
@@ -38,6 +38,7 @@ För att vara säker på att händelser kan användas i olika scenarier har de a
 | mbox | Sträng | mbox name |
 | message | Sträng | Innehåller en beskrivning som kan läsas av människor, t.ex. vad som hände, felmeddelandet. |
 | spårning | Objekt | Innehåller `sessionId` och `deviceId`. I vissa fall kan `deviceId` saknas eftersom [!DNL Target] inte kunde hämta den från edge-servern. |
+| type | Sträng | **Avvikelsefunktionen på enheten**<br> successConstant:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>String-värde:  `artifactDownloadSucceeded`<br>Beskrivning: Anropas när den enhetsspecifika beslutsartefakten har hämtats.<br>**Avvikelsen för enhetsbeslut**<br> misslyckadesKonstant:  `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>Strängvärde:  `artifactDownloadFailed`<br>Beskrivning: Anropas när det inte gick att ladda ned enhetens beslutsartefakt. |
 
 ## Användning {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
