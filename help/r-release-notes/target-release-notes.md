@@ -5,9 +5,9 @@ title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 9 april 2021**
+**Senast uppdaterad: 16 april 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
@@ -52,6 +52,15 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
    * Listan innehåller inte alla objekt i
 
 * Korrigerade ett problem som orsakade oändlig inläsning om begäran misslyckas efter att miljön ändrats och ett rekommendationsundantag skapades. (TGT-39948)
+
+## at.js version 2.5.0 (19 april 2021)
+
+Den här versionen av at.js innehåller följande förbättringar:
+
+* Beslutsstöd på enheten för at.js
+* Stöd för förhandsgranskningslänkar i Automated Personalization
+
+Den här versionen tar också bort stöd för Microsoft Internet Explorer 10 och senare versioner.
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
