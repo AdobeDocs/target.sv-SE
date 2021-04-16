@@ -4,14 +4,14 @@ description: Använd funktionen adobe.target.getOffers() och dess alternativ fö
 title: Hur använder jag funktionen adobe.target.getOffers()?
 feature: at.js
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 | Nyckel | Typ | Obligatoriskt? | Beskrivning |
 | --- | --- | --- | --- |
 | ConsumerId | Sträng | Nej | Standardvärdet är klientens globala mbox om den inte anges. Den här nyckeln används för att generera det kompletterande data-ID som används för A4T-integrering. Nyckeln är en unik sträng per besökare. |
+| decisioningMethod | Sträng | Nej | &quot;server-side&quot;, &quot;on device&quot;, &quot;hybrid&quot; |
 | förfrågan | Objekt | Ja | Se tabellen över förfrågningar nedan. |
 | timeout | Nummer | Nej | timeout för begäran. Om inget anges används standardtimeout för at.js. |
 
@@ -84,6 +85,25 @@ adobe.target.getOffers({
     }
   }
 });
+```
+
+## Anropa getOffers() för att fatta ett beslut på enheten
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
 ```
 
 ## Anropa getOffers() för att hämta de senaste vyerna med skickade parametrar och profilparametrar
