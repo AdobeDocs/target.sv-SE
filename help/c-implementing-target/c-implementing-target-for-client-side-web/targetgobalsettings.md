@@ -4,14 +4,14 @@ description: Använd funktionen targetGlobalSettings() för Adobe Target JavaScr
 title: Hur använder jag funktionen targetGlobalSettings()?
 feature: at.js
 role: Developer
+exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '2201'
 ht-degree: 0%
 
 ---
-
 
 # targetGlobalSettings()
 
@@ -72,6 +72,45 @@ Du kan åsidosätta följande inställningar:
 * **Typ**: Se  [Data ](#data-providers) Providers nedan.
 * **Standardvärde**: Se  [Data ](#data-providers) Providers nedan.
 * **Beskrivning**: Se  [Data ](#data-providers) Providers nedan.
+
+### decisioningMethod {#on-device-decisioning}
+
+* **Typ**: Sträng
+* **Standardvärde**: serversida
+* **Andra värden**: på enheten, hybrid
+* **Beskrivning**: Se Beslutsmetoder nedan.
+
+**Beslutsmetoder**
+
+Med enhetsspecifik beslutsfattande introducerar Target en ny inställning med namnet [!UICONTROL Decisioning Method] som styr hur at.js levererar dina upplevelser. `decisioningMethod` har tre värden: endast på serversidan, endast på enheten och hybrid. När `decisioningMethod` anges i `targetGlobalSettings()` fungerar det som standardbeslutsmetod för alla [!DNL Target]-beslut.
+
+[!UICONTROL Server-side only]:
+
+[!UICONTROL Server-side only] är standardmetoden för beslut som anges i rutan när at.js 2.5+ implementeras och distribueras på dina webbegenskaper.
+
+Om du använder [!UICONTROL server-side only] som standardkonfiguration innebär det att alla beslut fattas i gränsnätverket [!DNL Target], vilket innefattar ett blockerande serveranrop. Den här metoden kan innebära inkrementell fördröjning, men ger även avsevärda fördelar, som att du kan använda Target maskininlärningsfunktioner som inkluderar aktiviteterna [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) och [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md).
+
+Dessutom kan ni förbättra era personaliserade upplevelser genom att använda Target-användarprofilen, som bevaras i olika sessioner och kanaler, och få ett kraftfullt resultat för ert företag.
+
+Med [!UICONTROL server-side only] kan ni använda Adobe Experience Cloud och finjustera målgrupper som kan riktas mot Audience Manager och Adobe Analytics.
+
+[!UICONTROL On-device only]:
+
+[!UICONTROL On-Device only] är den beslutsmetod som måste anges i at.js 2.5+ när enhetsbeslut endast ska användas på alla dina webbsidor.
+
+Enhetsspecifika beslut kan leverera era upplevelser och personaliseringsaktiviteter blixtsnabbt eftersom besluten fattas utifrån en cache-lagrad regelartefakt som innehåller alla dina aktiviteter som är kvalificerade för enhetsbeslut.
+
+Mer information om vilka aktiviteter som är kvalificerade för enhetsbeslut finns i avsnittet med funktioner som stöds.
+
+Den här beslutsmetoden bör endast användas om prestanda är mycket kritiskt för alla sidor som kräver beslut från [!DNL Target]. Tänk dessutom på att när du väljer den här beslutsmetoden kommer de [!DNL Target]-aktiviteter som inte är kvalificerade för enhetsbeslut inte att levereras eller utföras. At.js-biblioteket 2.5+ är konfigurerat att endast söka efter den cachelagrade regelartefakten för att fatta beslut.
+
+Hybrid:
+
+[!UICONTROL Hybrid] är den beslutsmetod som måste anges i at.js 2.5+ när både enhetsbeslut och aktiviteter som kräver ett nätverksanrop till Adobe Target Edge-nätverket måste köras.
+
+När du hanterar både beslutsaktiviteter på enheter och aktiviteter på serversidan kan det vara lite komplicerat och omständligt att fundera på hur du ska distribuera och distribuera [!DNL Target] på sidorna. Med hybridmetoden som beslutsmetod vet [!DNL Target] när den måste göra ett serveranrop till Adobe Target Edge-nätverket för aktiviteter som kräver körning på serversidan och även när endast enhetsbeslut ska verkställas.
+
+JSON-regelartefakten innehåller metadata som informerar at.js om en mbox har en aktivitet på serversidan som körs eller en beslutsaktivitet på enheten. Denna beslutsmetod säkerställer att aktiviteter som du avser att leverera snabbt genomförs via enhetsspecifika beslut och för aktiviteter som kräver mer kraftfull ML-driven personalisering utförs dessa aktiviteter via Adobe Target Edge-nätverket.
 
 ### defaultContentHiddenStyle
 
