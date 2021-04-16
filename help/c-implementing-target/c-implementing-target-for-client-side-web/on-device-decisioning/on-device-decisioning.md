@@ -1,14 +1,14 @@
 ---
-keywords: implementering;javascript-bibliotek;js;atjs;on device decisioning;on device decisioning
+keywords: implementering;javascript-bibliotek;js;atjs;on device decisioning;on device decisioning;at.js
 description: Lär dig hur du utför enhetsbeslut med biblioteket at.js
 title: Hur fungerar On-device Decisioning med JavaScript-biblioteket at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3392'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
-| 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | En sidinläsningsbegäran görs som innehåller alla konfigurerade parametrar, t.ex. (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.) |
 | 5 | Profilskript körs och matas sedan in i profilarkivet.<br>Profile Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från  [!DNL Adobe Analytics],  [!DNL Adobe Audience Manager]och så vidare).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
 | 6 | Profilarkivet används för att filtrera aktiviteter genom att kvalificera och klippa målgrupper. |
@@ -109,7 +109,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
 | 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | I at.js-biblioteket görs en begäran om att hämta JSON-regelartefakten från närmaste Akamai CDN till besökaren. |
@@ -134,7 +134,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
 | 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | I biblioteket at.js tolkas JSON-regelartefakten och beslutet i minnet verkställs för att hämta upplevelsen. |
@@ -167,7 +167,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
 | 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | En sidladdningsbegäran görs till Adobe Target Edge Network, inklusive alla konfigurerade parametrar som (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.). |
@@ -195,9 +195,9 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
-| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | En begäran görs för att hämta en upplevelse. |
 | 5 | At.js-biblioteket bekräftar att JSON-regelartefakten redan har cache-lagrats och kör beslutet i minnet för att hämta upplevelsen. |
 | 6 | De testade elementen är dolda. |
