@@ -4,11 +4,12 @@ description: Lär dig hur du utför enhetsbeslut med biblioteket at.js
 title: Hur fungerar On-device Decisioning med JavaScript-biblioteket at.js?
 feature: at.js
 role: Developer
+exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
 workflow-type: tm+mt
-source-wordcount: '3314'
-ht-degree: 0%
+source-wordcount: '3391'
+ht-degree: 1%
 
 ---
 
@@ -69,28 +70,22 @@ Följande diagram visar interaktionen mellan besökaren, webbläsaren, at.js 2.5
 
 Följande lista motsvarar siffrorna i diagrammet:
 
-1. [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
-1. At.js-biblioteket läses in synkront och döljer dokumentets brödtext.
-
-   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan.
-
-1. At.js-biblioteket döljer kroppen för att förhindra flimmer.
-1. En sidinläsningsbegäran görs som innehåller alla konfigurerade parametrar, t.ex. (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.)
-1. Profilskript körs och matas sedan in i profilarkivet.
-
-   Profile Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] och så vidare).
-
-   Kundattribut skickas till profilarkivet i en gruppbearbetning.
-
-1. Profilarkivet används för att filtrera aktiviteter genom att kvalificera och klippa målgrupper.
-1. Det resulterande innehållet väljs efter att upplevelsen bestäms av aktiva [!DNL Target]-aktiviteter.
-1. Med biblioteket at.js döljs motsvarande element på sidan som är kopplade till upplevelsen som måste återges.
-1. I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den.
-1. At.js-biblioteket ändrar DOM för att återge upplevelsen från Target Edge Network.
-1. Upplevelsen renderar för besökaren.
-1. Hela webbsidan läses in.
-1. [!DNL Analytics] data skickas till datainsamlingsservrar.
-1. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T)-rapporter.
+| Steg | Beskrivning |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
+| 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 4 | En sidinläsningsbegäran görs som innehåller alla konfigurerade parametrar, t.ex. (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.) |
+| 5 | Profilskript körs och matas sedan in i profilarkivet.<br>Profile Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från  [!DNL Adobe Analytics],  [!DNL Adobe Audience Manager]och så vidare).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
+| 6 | Profilarkivet används för att filtrera aktiviteter genom att kvalificera och klippa målgrupper. |
+| 7 | Det resulterande innehållet väljs efter att upplevelsen bestäms av aktiva [!DNL Target]-aktiviteter. |
+| 8 | Med biblioteket at.js döljs motsvarande element på sidan som är kopplade till upplevelsen som måste återges. |
+| 9 | I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den. |
+| 10 | At.js-biblioteket ändrar DOM för att återge upplevelsen från Target Edge Network. |
+| 11 | Upplevelsen renderar för besökaren. |
+| 12 | Hela webbsidan läses in. |
+| 13 | [!DNL Analytics] data skickas till datainsamlingsservrar. |
+| 14 | Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T)-rapporter. |
 
 ### Endast på enheten
 
@@ -98,7 +93,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 Enhetsspecifika beslut kan leverera era upplevelser och personaliseringsaktiviteter blixtsnabbt eftersom besluten fattas utifrån en cache-lagrad regelartefakt som innehåller alla dina aktiviteter som är kvalificerade för enhetsbeslut.
 
-Mer information om vilka aktiviteter som är kvalificerade för enhetsbeslut finns i avsnittet med funktioner som stöds.
+Mer information om vilka aktiviteter som berättigar till enhetsbeslut finns i [Funktioner som stöds i enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
 
 Den här beslutsmetoden bör endast användas om prestanda är mycket kritiskt för alla sidor som kräver beslut från [!DNL Target]. Tänk dessutom på att när du väljer den här beslutsmetoden kommer de [!DNL Target]-aktiviteter som inte är kvalificerade för enhetsbeslut inte att levereras eller utföras. At.js-biblioteket 2.5+ är konfigurerat att endast söka efter den cachelagrade regelartefakten för att fatta beslut.
 
@@ -112,21 +107,20 @@ Följande lista motsvarar siffrorna i diagrammet:
 >
 >[!DNL Adobe Target] Administratörsservrar kvalificerar alla dina aktiviteter som är berättigade till enhetsbeslut, genererar JSON-regelartefakten och sprider den till Akamai CDN. Dina aktiviteter övervakas kontinuerligt för uppdateringar av en ny JSON-regelartefakt som ska spridas till Akamai CDN.
 
-1. [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-1. At.js-biblioteket läses in synkront och döljer dokumentets brödtext.
-
-   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan.
-
-1. At.js-biblioteket döljer kroppen för att förhindra flimmer.
-1. I at.js-biblioteket görs en begäran om att hämta JSON-regelartefakten från närmaste Akamai CDN till besökaren.
-1. Akamai CDN svarar med JSON-regelartefakten.
-1. JSON-regelartefakten cachelagras lokalt i besökarens webbläsare.
-1. I biblioteket at.js tolkas JSON-regelartefakten och beslutet att hämta upplevelsen verkställs och de testade elementen döljs.
-1. I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den.
-1. At.js-biblioteket ändrar DOM för att återge upplevelsen från den cachelagrade JSON-regelartefakten.
-1. Upplevelsen renderar för besökaren.
-1. Hela webbsidan läses in.
-1. [!DNL Analytics] data skickas till datainsamlingsservrar. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via A4T-rapporter (Analytics for Target).
+| Steg | Beskrivning |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
+| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 4 | I at.js-biblioteket görs en begäran om att hämta JSON-regelartefakten från närmaste Akamai CDN till besökaren. |
+| 5 | Akamai CDN svarar med JSON-regelartefakten. |
+| 6 | JSON-regelartefakten cachelagras lokalt i besökarens webbläsare. |
+| 7 | I biblioteket at.js tolkas JSON-regelartefakten och beslutet att hämta upplevelsen verkställs och de testade elementen döljs. |
+| 8 | I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den. |
+| 9 | At.js-biblioteket ändrar DOM för att återge upplevelsen från den cachelagrade JSON-regelartefakten. |
+| 10 | Upplevelsen renderar för besökaren. |
+| 11 | Hela webbsidan läses in. |
+| 12 | [!DNL Analytics] data skickas till datainsamlingsservrar. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via A4T-rapporter (Analytics for Target). |
 
 I följande diagram visas interaktionen mellan besökaren, webbläsaren, kl. 2.5+, och den cachelagrade JSON-regelartefakten för besökarens efterföljande sidträff eller återbesök. Eftersom JSON-regelartefakten redan är cachelagrad och tillgänglig i webbläsaren, fattas beslutet omedelbart utan ett blockerande nätverksanrop. Det här flödesdiagrammet fångar efterföljande sidnavigering eller returnerar besökare.
 
@@ -138,19 +132,18 @@ Följande lista motsvarar siffrorna i diagrammet:
 >
 >[!DNL Adobe Target] Administratörsservrar kvalificerar alla dina aktiviteter som är berättigade till enhetsbeslut, genererar JSON-regelartefakten och sprider den till Akamai CDN. Dina aktiviteter övervakas kontinuerligt för uppdateringar av en ny JSON-regelartefakt som ska spridas till Akamai CDN.
 
-1. [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-1. At.js-biblioteket läses in synkront och döljer dokumentets brödtext.
-
-   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan.
-
-1. At.js-biblioteket döljer kroppen för att förhindra flimmer.
-1. I biblioteket at.js tolkas JSON-regelartefakten och beslutet i minnet verkställs för att hämta upplevelsen.
-1. De testade elementen är dolda.
-1. I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den.
-1. At.js-biblioteket ändrar DOM för att återge upplevelsen från den cachelagrade JSON-regelartefakten.
-1. Upplevelsen renderar för besökaren.
-1. Hela webbsidan läses in.
-1. [!DNL Analytics] data skickas till datainsamlingsservrar. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T)-rapporter.
+| Steg | Beskrivning |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
+| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 4 | I biblioteket at.js tolkas JSON-regelartefakten och beslutet i minnet verkställs för att hämta upplevelsen. |
+| 5 | De testade elementen är dolda. |
+| 6 | I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den. |
+| 7 | At.js-biblioteket ändrar DOM för att återge upplevelsen från den cachelagrade JSON-regelartefakten. |
+| 8 | Upplevelsen renderar för besökaren. |
+| 9 | Hela webbsidan läses in. |
+| 10 | [!DNL Analytics] data skickas till datainsamlingsservrar. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T)-rapporter. |
 
 ### Hybrid
 
@@ -172,24 +165,23 @@ Följande lista motsvarar siffrorna i diagrammet:
 >
 >[!DNL Adobe Target] Administratörsservrar kvalificerar alla dina aktiviteter som är berättigade till enhetsbeslut, genererar JSON-regelartefakten och sprider den till Akamai CDN. Dina aktiviteter övervakas kontinuerligt för uppdateringar av en ny JSON-regelartefakt som ska spridas till Akamai CDN.
 
-1. [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-1. At.js-biblioteket läses in synkront och döljer dokumentets brödtext.
-
-   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan.
-
-1. At.js-biblioteket döljer kroppen för att förhindra flimmer.
-1. En sidladdningsbegäran görs till Adobe Target Edge Network, inklusive alla konfigurerade parametrar som (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.).
-1. Samtidigt begär at.js att JSON-regelartefakten ska hämtas från närmaste Akamai CDN till besökaren.
-1. (Adobe Target Edge Network) Profilskript körs och matas sedan in i profilarkivet. Profile Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] och så vidare).
-1. Akamai CDN svarar med JSON-regelartefakten.
-1. Profilarkivet används för att filtrera aktiviteter genom att kvalificera och klippa målgrupper.
-1. Det resulterande innehållet väljs efter att upplevelsen bestäms av aktiva [!DNL Target]-aktiviteter.
-1. Med biblioteket at.js döljs motsvarande element på sidan som är kopplade till upplevelsen som måste återges.
-1. I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den.
-1. At.js-biblioteket ändrar DOM för att återge upplevelsen från Target Edge Network.
-1. Upplevelsen renderar för besökaren.
-1. Hela webbsidan läses in.
-1. [!DNL Analytics] data skickas till datainsamlingsservrar. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T)-rapporter.
+| Steg | Beskrivning |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
+| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 4 | En sidladdningsbegäran görs till Adobe Target Edge Network, inklusive alla konfigurerade parametrar som (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.). |
+| 5 | Samtidigt begär at.js att JSON-regelartefakten ska hämtas från närmaste Akamai CDN till besökaren. |
+| 6 | (Adobe Target Edge Network) Profilskript körs och matas sedan in i profilarkivet. Profile Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] och så vidare). |
+| 7 | Akamai CDN svarar med JSON-regelartefakten. |
+| 8 | Profilarkivet används för att filtrera aktiviteter genom att kvalificera och klippa målgrupper. |
+| 9 | Det resulterande innehållet väljs efter att upplevelsen bestäms av aktiva [!DNL Target]-aktiviteter. |
+| 10 | Med biblioteket at.js döljs motsvarande element på sidan som är kopplade till upplevelsen som måste återges. |
+| 11 | I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den. |
+| 12 | At.js-biblioteket ändrar DOM för att återge upplevelsen från Target Edge Network. |
+| 13 | Upplevelsen renderar för besökaren. |
+| 14 | Hela webbsidan läses in. |
+| 15 | [!DNL Analytics] data skickas till datainsamlingsservrar. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T)-rapporter. |
 
 I följande diagram visas interaktionen mellan besökaren, webbläsaren, at.js 2.5+, och den cachelagrade JSON-regelartefakten för efterföljande sidnavigering eller ett returbesök. I det här diagrammet fokuserar du bara på det användningsfall som avgör om det är enheten som ska användas för den efterföljande sidnavigeringen eller det efterföljande besöket. Tänk på att beroende på vilka aktiviteter som är aktiva för vissa sidor kan ett anrop på serversidan göras för att köra beslut på serversidan.
 
@@ -201,20 +193,19 @@ Följande lista motsvarar siffrorna i diagrammet:
 >
 >[!DNL Adobe Target] Administratörsservrar kvalificerar alla dina aktiviteter som är berättigade till enhetsbeslut, genererar JSON-regelartefakten och sprider den till Akamai CDN. Dina aktiviteter övervakas kontinuerligt för uppdateringar av en ny JSON-regelartefakt som ska spridas till Akamai CDN.
 
-1. [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-1. At.js-biblioteket läses in synkront och döljer dokumentets brödtext.
-
-   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan.
-
-1. At.js-biblioteket döljer kroppen för att förhindra flimmer.
-1. En begäran görs för att hämta en upplevelse.
-1. At.js-biblioteket bekräftar att JSON-regelartefakten redan har cache-lagrats och kör beslutet i minnet för att hämta upplevelsen.
-1. De testade elementen är dolda.
-1. I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den.
-1. At.js-biblioteket ändrar DOM för att återge upplevelsen från den cachelagrade JSON-regelartefakten.
-1. Upplevelsen renderar för besökaren.
-1. Hela webbsidan läses in.
-1. [!DNL Analytics] data skickas till datainsamlingsservrar. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T)-rapporter.
+| Steg | Beskrivning |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
+| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 4 | En begäran görs för att hämta en upplevelse. |
+| 5 | At.js-biblioteket bekräftar att JSON-regelartefakten redan har cache-lagrats och kör beslutet i minnet för att hämta upplevelsen. |
+| 6 | De testade elementen är dolda. |
+| 7 | I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den. |
+| 8 | At.js-biblioteket ändrar DOM för att återge upplevelsen från den cachelagrade JSON-regelartefakten. |
+| 9 | Upplevelsen renderar för besökaren. |
+| 10 | Hela webbsidan läses in. |
+| 11 | [!DNL Analytics] data skickas till datainsamlingsservrar. Målinriktade data matchas mot [!DNL Analytics]-data via SDID och bearbetas till [!DNL Analytics]-rapportlagringen. [!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T)-rapporter. |
 
 ## Hur aktiverar jag enhetsbeslut?
 
@@ -258,6 +249,8 @@ När du har aktiverat alternativet [!UICONTROL On-Device Decisioning] börjar [!
    * [!UICONTROL Server-side only]
    * [!UICONTROL On-device only]
    * [!UICONTROL Hybrid]
+
+   ![Redigera inställningspanelen at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/global-settings.png)
 
 ### Globala inställningar
 
