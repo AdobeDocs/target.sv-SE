@@ -5,9 +5,9 @@ title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '4175'
+source-wordcount: '4178'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis är förstahandsvalet när man uppgraderar at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch]-katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i *användarhandboken för Experience Platform Launch*.
 
-## at.js 2.5.0 (19 april 2021)
+## kl. 2.5.0 (datum som ska tillkännages)
 
 Den här versionen av at.js innehåller följande förbättringar och ändringar:
 
