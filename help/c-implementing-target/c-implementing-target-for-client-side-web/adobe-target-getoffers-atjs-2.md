@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: 82c66de1d4a6680392b7e73759dc824c4df22d2f
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.target.getOffers() - at.js 2.x
 
 Med den här funktionen kan du hämta flera erbjudanden genom att skicka in flera rutor. Dessutom kan flera erbjudanden hämtas för alla vyer i aktiva aktiviteter.
 
@@ -87,7 +87,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Anropa getOffers() för att fatta ett beslut på enheten
+## getCallOffers() för att fatta ett beslut på enheten
 
 ```javascript
 adobe.target.getOffers({ 
