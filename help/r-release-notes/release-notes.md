@@ -5,9 +5,9 @@ title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -24,36 +24,31 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
-## kl. 2.4.1 (23 mars 2021)
+## Target Standard/Premium 21.4.1 (19 april 2021)
 
-Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
+Den här versionen innehåller följande nya funktioner och förbättringar. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
-* Ett problem har korrigerats där `targetPageParams` inkluderades i mbox-begäranden. `targetPageParams` bör endast tas med i  `pageLoad` förfrågningar. (TNT-40247)
-* Ett problem med globala dokument- och fönsterobjekt i tillägget [!DNL Adobe Experience Platform Launch] har korrigerats genom att Platforma launchens globala objektberoenden ersattes med direkta referenser till dem. (TNT-37124)
+| Funktion | Detaljer |
+| --- | --- |
+| Beslutsstöd på enheten för at.js | Med enhetsbaserad beslutsfattande kan marknadsförare och utvecklare leverera experiment och personalisering i en användares webbläsare med nästan nolltidsfördröjning.<br>Mer information finns i  [Enhetsbeslut för at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![PremiumList-](/help/assets/premium.png) baserade operatorer för entitetsfiltreringsregler | [!DNL Target Recommendations] stöder nya listbaserade operatorer för entitetsfiltreringsregler. (TGT-39234)<br>Operatorer som lagts till nyligen är:<br><ul><li>Finns i listan</li><li>Finns inte i listan</li><li>Listan innehåller ett objekt i</li><li>Listan innehåller inget objekt i</li><li>Listan innehåller alla objekt i</li><li>Listan innehåller inte alla objekt i</li></ul>Mer information finns i&quot;Tillgängliga operatorer&quot; i [Använd dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
-## IP-adressändringar för Recommendations-servrar för bearbetning av feeds (16 mars 2021)
+Den här versionen innehåller följande korrigeringar.
 
-IP-adresserna för [!DNL Target Recommendations]-servern för feed-bearbetning uppdaterades den 16 mars 2021. Mer information finns i [IP-adresser som används av Recommendations feeds-bearbetningsservrar](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+* Korrigerade ett problem som förhindrade en aktivitet från att synkroniseras efter att målgruppen ändrats till [!UICONTROL All Visitors]. (TGT-40259)
+* Korrigerade ett problem som förhindrade att erbjudanden duplicerades när de användes på olika platser i [!UICONTROL Automated Personalization]-aktiviteter trots att alternativet [!UICONTROL Disallow Duplicates] är aktiverat. (TGT-39567)
+* Ett problem som gjorde att sidan [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] inte kunde läsas in korrekt har åtgärdats. (TGT-39918)
+* Korrigerade ett problem som gjorde att egenskaper mappades till fel arbetsyta. (TGT-39869)
+* Korrigerade ett problem som orsakade oändlig inläsning om begäran misslyckas efter att miljön ändrats och ett rekommendationsundantag skapades. (TGT-39948)
 
-## Target Standard/Premium 21.2.1 (9 mars 2021)
+## at.js version 2.5.0 (19 april 2021)
 
-Den här underhållsversionen innehåller följande förbättringar, korrigeringar och ändringar.
+Den här versionen av at.js innehåller följande förbättringar och ändringar:
 
-Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+* [Enhetsspecifikt ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslutsstöd för at.js.
+* [Förhandsgranska ](/help/c-activities/c-activity-qa/activity-qa.md) länkarstöd för Automated Personalization-aktiviteter.
 
-* Ökade den tillåtna erbjudandestorleken (TGT-38304):
-
-   | Typ | Föregående gräns | Ny gräns |
-   | --- | --- | --- |
-   | HTML | 256 kB | 1024 kB |
-   | Visuella erbjudanden från målgränssnittet | 64 kB | 1 024 kB för varje upplevelse |
-   | Via API | 512 kB | 1024 kB |
-
-* [!UICONTROL Personalization Insights] rapporter för  [!UICONTROL Auto-Target] (AT) och  [!UICONTROL Automated Personalization] (AP)-aktiviteter produceras nu dagligen. Du kan välja en rapport med [!UICONTROL Automated Segments] eller [!UICONTROL Important Attributes] för de senaste 15, 30 och 60 dagarna. Alternativen för 45 dagar och 90 dagar har tagits bort så att de andra inställningarna för uppslagsfönstret kan köras dagligen. (TGT-39472)
-* Korrigerade ett problem som gjorde att det aktuella beroendet inte visades när kunderna klickade på [!UICONTROL Edit Dependency] på en aktivitets [!UICONTROL Goals & Settings]-sida. (TGT-39340)
-* Ett problem har korrigerats vid uppdatering av en arbetsytans [!UICONTROL Audience Library]. Före uppdateringen visas målgrupperna för den valda arbetsytan. Efter uppdateringen visas [!UICONTROL Default Workspace] och dess målgrupper. Den aktuella arbetsytan och dess målgrupper finns kvar efter uppdateringen. (TGT-38871)
-* Ett problem har korrigerats vid kopiering av en [!UICONTROL Recommendations]-aktivitet och senare redigering av den ursprungliga aktiviteten genom att villkorssekvensen ändrades. Ändringen i villkorssekvensen i den ursprungliga aktiviteten tillämpades också felaktigt på den kopierade aktiviteten. (TGT-39155)
-* Korrigerade ett problem som gjorde att fel antal produkter visades för [!UICONTROL Recommendations] undantag. (TGT-39599)
+Den här versionen tar också bort stöd för Microsoft Internet Explorer 10 och senare versioner.
 
 ## Ytterligare versionsinformation
 
