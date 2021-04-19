@@ -5,9 +5,9 @@ title: Hur kan jag personalisera innehåll och testa siddesign med Target?
 feature: Verksamhet
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2082'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ Listan Verksamheter innehåller en översikt över alla aktiviteter:
 | URL | URL:en visas med ljusare text under namnet.<br>URL:en för aktiviteten identifierar var aktiviteten visas. Detta hjälper dig att snabbt identifiera en aktivitet och avgöra om en viss sida redan har ett test som körs på den.<br>Om ett test körs på flera URL-adresser, visar en länk hur många fler URL-adresser som används. Klicka på länken för att visa den fullständiga listan med URL:er för den aktiviteten.<br>Du kan söka baserat på URL. Använd listrutan bredvid sökrutan och välj [!UICONTROL Search URL]. |
 | Status | Aktivitetens status kan vara något av följande:<ul><li>**Live**: Aktiviteten körs.</li><li>**Utkast**: Aktivitetsinställningarna har startats men aktiviteten är inte klar att köras än.</li><li>**Schemalagd**: Aktiviteten är klar att aktiveras när angivet startdatum och angiven starttid kommer.</li><li>**Inaktiv**: Aktiviteten har pausats eller inaktiverats.</li><li>**Synkroniserar**: Aktiviteten har sparats och synkroniseras till målleveransnätverket.</li><li>**Avslutat**: Aktivitetens angivna slutdatum och sluttid har nåtts och aktiviteten betjänas inte längre.</li><li>**Arkiverad**: Aktiviteten har arkiverats. Du kan aktivera en arkiverad aktivitet och använda den igen.</li></ul>**Obs**: När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användargränssnittet med API-metoder, kan det ta upp till tio minuter innan uppdateringen skickas till användargränssnittet. |
 | Källa | Visar var aktiviteten skapades:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe mobiltjänster (AMS)</li></ul> |
+| Beslutsfattning på enhet är berättigade | När du har skapat en aktivitet som är berättigad att fatta beslut på enheten visas en etikett som läser Berättigad att bestämma på enheten på aktivitetens översiktssida.<br>Den här etiketten betyder inte att aktiviteten alltid levereras via enhetsbeslut. Endast när at.js 2.5.0+ är konfigurerad att använda enhetsspecifik beslutsfattande körs den här aktiviteten på enheten. Om at.js 2.5.0+ inte är konfigurerad att använda på enheten kommer aktiviteten fortfarande att levereras via ett serveranrop som görs från at.js.<br>Se  [Enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | Egenskap | Visar [egenskapen](/help/administrating-target/c-user-management/property-channel/property-channel.md) för aktiviteten. |
 | Uppskattat lyft i intäkt | Visar den förväntade intäktsökningen om 100 % av publiken ser den vinnande upplevelsen.<br>Beräknas med följande formel:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Talet avrundas till en decimal, max, om det kondenserade formuläret bara har en siffra före decimaltalet. Till exempel: 1,6 miljoner dollar, 60 000 dollar, 900 dollar, 8,5 000 dollar, 205 000 dollar<br>Denna kolumn visar &quot;—&quot; för aktiviteter som inte har tillräckligt med data för att ringa till ett vinnarprogram eller som inte har någon kostnadsberäkning.<br>Mer information finns i  [Beräkna Lyft i ](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) intäkter. |
 | Senast uppdaterad | Det datum då aktiviteten senast uppdaterades och av vem. |
@@ -108,6 +109,7 @@ Du kan filtrera efter följande alternativ. Om inget är markerat i varje katego
 |--- |--- |
 | Typ | A/B-test: [Manuell](/help/c-activities/t-test-ab/test-ab.md), [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) och [Automatiskt mål](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Automatiserad ](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[personaliseringUpplev ](/help/c-activities/t-experience-target/experience-target.md)<br>[målanpassningMultivariata ](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[testrekommendationer](/help/c-recommendations/recommendations.md) |
 | Status | Live<br>Utkast<br>Schemalagt<br>Inaktivt<br>Synkronisering<br>Avslutat<br>Arkiverat |
+| Beslutsfattning på enhet är berättigade | Ja<br>Nej |
 | Rapporteringskälla | Mål<br>Analys |
 | Experience Composer | Visual<br>Formulärbaserad |
 | Mätningstyp | Konvertering<br>Intäkter<br>Åtaganden |
@@ -117,16 +119,10 @@ Du kan filtrera efter följande alternativ. Om inget är markerat i varje katego
 
 Klicka på en av följande rubriker för att växla om aktiviteterna visas i stigande eller fallande ordning enligt den valda rubriken.
 
-* Aktivitetsnamn
-* Typ av aktivitet
+* Typ
+* Namn
 
 ![Aktivitetslista stigande ordning](/help/c-activities/assets/activities_list_ascending.png)
-
-## Tips och tricks {#section_F77F30A246A14B538D9363B7F3639F97}
-
-Få ut mesta möjliga av Adobe Target genom att lära dig mer om olika funktioner och se varför du bör testa dem. Tips- och tricks-funktionen innehåller länkar till videoklipp, användningsfall, bloggar, dokumentation och mycket annat.
-
-Tips- och tricks-funktionen visas regelbundet på aktivitetslistsidan. När du har läst eller stängt ett tips visas det inte igen förrän nästa tips är tillgängligt. Du kan även inaktivera visningen av alla tips genom att klicka på hjälpikonen > [!UICONTROL Disable Tip of the Day].
 
 ![Inaktivera dagens tips](/help/c-activities/assets/tip-disable-new.png)
 
