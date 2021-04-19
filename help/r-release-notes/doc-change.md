@@ -5,9 +5,9 @@ title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: c92d17d23f0eed6b32ec6ad6218c0d8824ef365b
 workflow-type: tm+mt
-source-wordcount: '4131'
+source-wordcount: '4142'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [at.js, anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Följande information har lagts till:<ul><li>Beslutsartifakt på enheten har slutförts</li><li>Avvikelsefakt på enheten misslyckades</li></ul> |
 |  | [Verksamhet](/help/c-activities/activities.md) | Lagt till information om enhetsbeslut. |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.5.0. |
+|  | [Implementera mål utan tagghanterare](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | Lagt till information om enhetsbeslut. |
 |  | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Stöd för förhandsgranskningslänkar för [!UICONTROL Automated Personalization]-aktiviteter lades till med [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 |  | [Använd dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Lagt till information om följande nya operatorer:<ul><li>Finns i listan</li><li> Finns inte i listan</li><li>Listan innehåller ett objekt i</li><li>Listan innehåller inget objekt i</li><li>Listan innehåller alla objekt i</li><li>Listan innehåller inte alla objekt i</li></ul> |
 |  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> (*Experience Cloud Services and* Administration Guide) | Ytterligare information om &quot;sessions-ID&quot; har lagts till. |
