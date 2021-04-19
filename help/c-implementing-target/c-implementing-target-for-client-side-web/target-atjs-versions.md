@@ -3,11 +3,11 @@ keywords: at.js-versioner;at.js-versioner;versionsinformation
 description: Läs mer om ändringarna i Adobe Target JavaScript-bibliotek at.js.
 title: Vad ingår i varje version av at.js?
 feature: at.js
-role: Utvecklare
+role: Developer
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '4140'
+source-wordcount: '4175'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 >Target-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis är förstahandsvalet när man uppgraderar at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch]-katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i *användarhandboken för Experience Platform Launch*.
+
+## at.js 2.5.0 (19 april 2021)
+
+Den här versionen av at.js innehåller följande förbättringar och ändringar:
+
+* [Enhetsspecifikt ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslutsstöd för at.js.
+* [Förhandsgranska ](/help/c-activities/c-activity-qa/activity-qa.md) länkarstöd för Automated Personalization-aktiviteter
+
+Den här versionen tar också bort stöd för Microsoft Internet Explorer 10 och senare versioner.
 
 ## kl. 2.4.1 (23 mars 2021)
 
