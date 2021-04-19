@@ -5,9 +5,9 @@ title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
 workflow-type: tm+mt
-source-wordcount: '3941'
+source-wordcount: '4125'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,20 @@ ht-degree: 0%
 # Dokumentationsändringar
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
+
+## Adobe Target Standard/Premium 21.4.1 (19 april 2021)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 19 april 2021 | [Enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Följande nya artiklar har lagts till:<ul><li>[Enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Funktioner som stöds för beslut på enheten](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Regelartefakt för beslutsfattande på enhet](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Lagt till information om `decisioningMethod`. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Följande har lagts till:<ul><li>Information om `decisioningMethod`-nyckeln.</li><li>Ett exempel på&quot;getCallOffers() för att fatta ett beslut på enheten&quot;.</li></ul> |
+|  | [at.js, anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Följande information har lagts till:<ul><li>Beslutsartifakt på enheten har slutförts</li><li>Avvikelsefakt på enheten misslyckades</li></ul> |
+|  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.5.0. |
+|  | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Stöd för förhandsgranskningslänkar för [!UICONTROL Automated Personalization]-aktiviteter lades till med [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+|  | [Använd dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Lagt till information om följande nya operatorer:<ul><li>Finns i listan</li><li> Finns inte i listan</li><li>Listan innehåller ett objekt i</li><li>Listan innehåller inget objekt i</li><li>Listan innehåller alla objekt i</li><li>Listan innehåller inte alla objekt i</li></ul> |
+|  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> (*Experience Cloud Services and* Administration Guide) | Ytterligare information om &quot;sessions-ID&quot; har lagts till. |
+|  | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.4.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe Target Standard/Premium 21.2.1 (9 mars 2021)
 
