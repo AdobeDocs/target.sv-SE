@@ -5,9 +5,9 @@ title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar. Utf
 
 | Funktion | Detaljer |
 | --- | --- |
-| Beslutsstöd på enheten för at.js | Med enhetsbaserad beslutsfattande kan marknadsförare och utvecklare leverera experiment och personalisering i en användares webbläsare med nästan nolltidsfördröjning.<br>Mer information finns i  [Enhetsbeslut för at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| Beslutsstöd på enheten för at.js<br>(datum ska tillkännages) | Med enhetsbaserad beslutsfattande kan marknadsförare och utvecklare leverera experiment och personalisering i en användares webbläsare med nästan nolltidsfördröjning.<br>Mer information finns i  [Enhetsbeslut för at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
 | ![PremiumList-](/help/assets/premium.png) baserade operatorer för entitetsfiltreringsregler | [!DNL Target Recommendations] stöder nya listbaserade operatorer för entitetsfiltreringsregler. (TGT-39234)<br>Operatorer som lagts till nyligen är:<br><ul><li>Finns i listan</li><li>Finns inte i listan</li><li>Listan innehåller ett objekt i</li><li>Listan innehåller inget objekt i</li><li>Listan innehåller alla objekt i</li><li>Listan innehåller inte alla objekt i</li></ul>Mer information finns i&quot;Tillgängliga operatorer&quot; i [Använd dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
 Den här versionen innehåller följande korrigeringar.
@@ -41,7 +41,7 @@ Den här versionen innehåller följande korrigeringar.
 * Korrigerade ett problem som gjorde att egenskaper mappades till fel arbetsyta. (TGT-39869)
 * Korrigerade ett problem som orsakade oändlig inläsning om begäran misslyckas efter att miljön ändrats och ett rekommendationsundantag skapades. (TGT-39948)
 
-## at.js version 2.5.0 (19 april 2021)
+## at.js version 2.5.0 (datum ska tillkännages)
 
 Den här versionen av at.js innehåller följande förbättringar och ändringar:
 
