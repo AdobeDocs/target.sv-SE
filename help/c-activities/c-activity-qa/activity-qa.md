@@ -3,14 +3,14 @@ keywords: qa;preview;preview links;adobe target;target
 description: Lär dig hur du använder Adobe Target QA-URL:er för att enkelt kunna utföra en heltäckande verksamhets-QA med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
 title: Hur gör jag QA-aktiviteter?
 feature: Verksamhet
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
-
 
 # Aktivitets-QA {#activity-qa}
 
@@ -21,6 +21,9 @@ Använd QA-URL:er i [!DNL Adobe Target] för att utföra enkel QA för hela akti
 Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du startar dem live. QA-funktionaliteten för aktiviteten omfattar:
 
 * Länkar att dela med teammedlemmar som aldrig behöver ändras eller behöver genereras om, oavsett vilka uppdateringar som gjorts för upplevelserna eller aktiviteterna. På så sätt kan du testa dina aktiviteter fullt ut under hela användarresan.
+
+   Stöd för förhandsgranskningslänkar för [!UICONTROL Automated Personalization]-aktiviteter lades till med [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
 * Målgruppsvillkor kan respekteras så att marknadsförarna kan testa målinriktningskriterier eller ignorera målinriktningskriterier för att få QA att visa hur upplevelserna ser ut utan att behöva uppfylla målgruppsvillkoren.
 * QA-rapportering samlas in så att marknadsförarna kan bekräfta att mätvärdena ökar som förväntat och att QA-rapportdata hålls åtskilda från produktionsrapporter (för icke-A4T-rapportering).
 * Möjlighet att förgranska en upplevelse separat eller tillsammans med andra aktiva aktiviteter som uppfyller leveranskriterierna (sid/målbegäran/målgrupp).
@@ -32,7 +35,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
 ## Åtkomst till och delning av en QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Klicka på länken **[!UICONTROL Activity QA]** på sidan [!UICONTROL Overview] för en aktivitet (alla typer förutom Automated Personalization).
+1. Klicka på länken **[!UICONTROL Activity QA]** på sidan [!UICONTROL Overview] för en aktivitet.
 
    ![Länk till aktivitets-QA](assets/qa_link.png)
 
