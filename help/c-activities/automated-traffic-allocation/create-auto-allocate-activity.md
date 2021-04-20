@@ -2,7 +2,7 @@
 keywords: skapa automatisk allokering;A/B-test;autoallokera aktivitet;ny a/b-aktivitet;autoallokera;autoallokera till bästa upplevelse;allokera;autoallokera
 description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa en automatisk A/B-testaktivitet direkt på en målaktiverad sida.
 title: Hur skapar jag en automatiskt fördelad aktivitet?
-feature: Automatisk allokering
+feature: Auto-Allocate
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

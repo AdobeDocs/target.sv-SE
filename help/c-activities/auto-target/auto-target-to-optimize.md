@@ -2,7 +2,7 @@
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning
 description: Lär dig hur en Auto-Target-aktivitet i Target ger varje besökare den mest skräddarsydda upplevelsen baserat på kundprofiler och beteendet hos liknande besökare.
 title: Vad är en aktivitet med automål?
-feature: Automatiskt mål
+feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
 source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d

@@ -2,7 +2,7 @@
 keywords: vanliga frågor;vanliga frågor;analys för mål;a4T;inflated;besök;besökare;delvis träffad;överbliven;överbliven;delvis träffad
 description: Hitta svar på frågor om ökat antal besökare och besökare när du använder Analytics for Target (A4T). Lär dig att minimera"partiella data".
 title: Var hittar jag frågor om uppblåsta besök och besöksräkningar med A4T?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt

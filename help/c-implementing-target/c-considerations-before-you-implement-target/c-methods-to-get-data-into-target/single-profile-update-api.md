@@ -2,7 +2,7 @@
 keywords: implementera;implementera;konfigurera;konfigurera;uppdatering av en profil
 description: Hämta data till Target med ett enda profiluppdaterings-API.
 title: Hur hämtar jag data till målet med API:t för uppdatering av en profil?
-feature: Implementering
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt

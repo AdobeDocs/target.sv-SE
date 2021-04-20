@@ -2,7 +2,7 @@
 keywords: Översikt och referens;aktivitetstyper;introduktion
 description: Lär dig grunderna i Adobe Target. I den här artikeln beskrivs Target, dess aktivitetstyper och andra funktioner.
 title: Hur använder jag Target?
-feature: Översikt
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

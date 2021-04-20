@@ -2,7 +2,7 @@
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;aktivitetsinställning
 description: Hitta svar på frågor om aktivitetskonfiguration när du använder Analytics för Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
 title: Var hittar jag frågor och svar om aktivitetsinställningar med A4T?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt

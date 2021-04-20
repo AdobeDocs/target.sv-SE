@@ -2,7 +2,7 @@
 keywords: Versionsinformation
 description: Se en lista över funktioner, förbättringar och korrigeringar som ingår i tidigare versioner av Adobe Target.
 title: Vilka funktioner ingår i tidigare versioner?
-feature: Versionsinformation
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12

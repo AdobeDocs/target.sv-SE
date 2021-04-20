@@ -3,7 +3,7 @@ keywords: orderbekräftelse;orderConfirmPage
 description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
 title: Hur skapar jag en orderbekräftelseruta med mbox.js?
 feature: at.js
-role: Utvecklare
+role: Developer
 exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

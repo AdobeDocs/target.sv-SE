@@ -2,7 +2,7 @@
 keywords: partiella data;partiella data;A4T;avvikelser;analys för mål;överblivna;virtuell rapportsvit;fantom;felsökning;icke-sammansatt;inflated;unspecified
 description: Lär dig hur du minimerar effekterna av uppblåst besöks- och besökarantal när du använder Analytics for Target (A4t). Lär dig vad"partiella data" är och hur du kan minska den.
 title: Hur minimerar jag antalet uppblåsta besök och besökare i A4T?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

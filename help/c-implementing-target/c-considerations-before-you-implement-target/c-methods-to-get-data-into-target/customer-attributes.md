@@ -2,7 +2,7 @@
 keywords: implementera;implementera;konfigurera;kundattribut
 description: Hämta in data till Target med kundattribut.
 title: Hur får jag in data i Target med hjälp av kundattribut?
-feature: Implementering
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

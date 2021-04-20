@@ -3,7 +3,7 @@ keywords: mbox.js faq;mbox.js Vanliga frågor;document.write;tt.omtrdc.net;parse
 description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
 title: Vilka är några vanliga frågor om Target mbox.js?
 feature: at.js
-role: Utvecklare
+role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

@@ -2,7 +2,7 @@
 keywords: felsökning;måttskillnader;vanliga frågor och svar;rapporter;ny besökare;återkommande besökare;återkommande besökare;återkommande besökare;återbesök;nytt besök
 description: Se en lista med vanliga frågor och svar om Adobe Target rapportering.
 title: Var hittar jag svar på frågor om målrapportering?
-feature: Rapporter
+feature: Reports
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

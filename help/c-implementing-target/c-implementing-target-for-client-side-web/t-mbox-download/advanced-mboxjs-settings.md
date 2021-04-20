@@ -3,7 +3,7 @@ keywords: avancerade inställningar för mbox.js;client;server domain;xdomain;co
 description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
 title: Hur konfigurerar jag målbiblioteket mbox.js?
 feature: at.js
-role: Utvecklare
+role: Developer
 exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

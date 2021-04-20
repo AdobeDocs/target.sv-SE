@@ -2,7 +2,7 @@
 keywords: måldokumentets ändringslogg;dokumentationsuppdateringar;nya ämnen;redigeringar;uppdateringar;uppdatera
 description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Target produktdokumentation.
 title: Var kan jag se dokumentationsuppdateringar för Target?
-feature: Versionsinformation
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

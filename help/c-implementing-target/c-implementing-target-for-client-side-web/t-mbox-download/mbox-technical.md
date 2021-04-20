@@ -3,7 +3,7 @@ keywords: implementering;mbox.js;domarhanteringsbibliotek;target.js;visual exper
 description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
 title: Vad gör Target mbox.js Library?
 feature: at.js
-role: Utvecklare
+role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

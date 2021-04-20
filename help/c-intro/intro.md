@@ -3,7 +3,7 @@ keywords: Målstandard;Recommendations;Target Premium;Automated Personalization;
 description: Lär dig grunderna i Adobe Target Standard och Adobe Target Premium. Target Premium innehåller avancerade funktioner som inte finns i standardprodukten.
 landing-page-description: Personalisera kundernas upplevelse för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 title: Vad är Target?
-feature: Översikt
+feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
 source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97

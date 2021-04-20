@@ -2,7 +2,7 @@
 keywords: frågor och svar;vanliga frågor;analys för mål;a4t;provisionering;provisionering;adobe Experience Cloud
 description: Hitta svar på frågor som ofta ställs om etablering av Analytics för Target (A4T), som gör att ni kan använda Analytics-rapportering för Target-aktiviteter.
 title: Var hittar jag information om inledande A4T-etablering?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: meddelanden;kunskapsbyggare;utvecklarchatt;kaffebrytning;event;forrester;gartner;webbinar
 description: Läs notiser och registrera dig för Adobe Target event, inklusive sessioner med SKill Builder, chatt för utvecklare och produktchef, webbinarier med mera.
 title: Var kan jag hitta målmeddelanden och händelser?
-feature: Versionsinformation
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

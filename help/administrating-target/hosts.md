@@ -2,8 +2,8 @@
 keywords: värd;värdar;värdgrupp;felsökning;bästa praxis;ubox;omdirigera;omdirigera;vitlista;tillåtelselista;svartlista;blockeringslista
 description: Lär dig hur du organiserar dina webbplatser och förproduktionsmiljöer för enkel hantering och separat rapportering i Adobe Target.
 title: Vad är värdar och hur använder jag dem?
-feature: Administration och konfiguration
-role: Administratör
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

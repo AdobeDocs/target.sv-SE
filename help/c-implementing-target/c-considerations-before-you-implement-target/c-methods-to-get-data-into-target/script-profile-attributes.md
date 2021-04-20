@@ -2,7 +2,7 @@
 keywords: implementera;implementera;konfigurera;konfigurera;skriptprofilattribut
 description: Hämta data till Target med skriptprofilattribut.
 title: Hur hämtar jag data till målet med hjälp av skriptprofilattribut?
-feature: Implementering
+feature: Implementation
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt

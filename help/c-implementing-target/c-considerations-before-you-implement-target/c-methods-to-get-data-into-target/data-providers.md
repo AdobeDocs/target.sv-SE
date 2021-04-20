@@ -2,7 +2,7 @@
 keywords: implementera;implementera;konfigurera;dataleverantörer
 description: Hämta data till Target med hjälp av dataleverantörer.
 title: Hur får jag in data i Target med Data Providers?
-feature: Implementering
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

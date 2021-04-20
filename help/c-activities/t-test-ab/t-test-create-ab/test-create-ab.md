@@ -2,7 +2,7 @@
 keywords: Skapa A/B;A/B-test;A/B-aktivitet;ny a/b-aktivitet;skapa a/b
 description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa en A/B Test-aktivitet direkt på en Target-aktiverad sida.
 title: Hur skapar jag ett A/B-test?
-feature: A/B-tester
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

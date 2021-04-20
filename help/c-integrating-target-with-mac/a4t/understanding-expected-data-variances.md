@@ -2,7 +2,7 @@
 keywords: dataavvikelser;analys;skillnader;avvikelse;a4t;analys för mål;analys som rapportkälla;avvikelser;avvikelser
 description: Lär dig mer om de förväntade dataavvikelserna mellan Adobe Target och Analytics när du inte använder Analytics for Target (A4T), vilket eliminerar helt olika datavariationer.
 title: Vad är den förväntade datavariansen mellan Analytics och A4T?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

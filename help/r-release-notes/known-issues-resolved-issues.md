@@ -2,7 +2,7 @@
 keywords: kända problem;lösta problem;versionsinformation;fel;problem;korrigeringar
 description: Hitta information om kända fel i Adobe Target, inklusive tillfälliga lösningar. När problem har lösts flyttas de till avsnittet Lösta.
 title: Var hittar jag information om kända fel och lösta problem?
-feature: Versionsinformation
+feature: Release Notes
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

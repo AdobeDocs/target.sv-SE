@@ -2,8 +2,8 @@
 keywords: svarstoken;tokens;plugins;plugin-program;at.js;response
 description: Lär dig hur du använder svarstoken i Adobe Target för att ta fram specifik information som ska användas vid felsökning och integrering med tredjepartssystem (som Clicktale).
 title: Vad är svarstoken och hur använder jag dem?
-feature: Administration och konfiguration
-role: Administratör
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

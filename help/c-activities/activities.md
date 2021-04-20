@@ -2,7 +2,7 @@
 keywords: aktivitetslista;aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;aktivitetsåtgärder;aktivitetsattribut;aktivitetslista filter;aktivitetsbegränsningar;anpassa;personalisering
 description: Se hur ni med Adobe Target kan personalisera innehåll till specifika målgrupper och testa siddesign
 title: Hur kan jag personalisera innehåll och testa siddesign med Target?
-feature: Verksamhet
+feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
 source-git-commit: e0a05d024170f819a417e50938c9765327f28b49

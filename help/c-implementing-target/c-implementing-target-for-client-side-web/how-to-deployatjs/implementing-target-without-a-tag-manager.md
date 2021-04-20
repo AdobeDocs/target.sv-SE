@@ -2,7 +2,7 @@
 keywords: implementera mål;implementera;implementera at.js;tagghanterare;enhetsbeslut;vid enhetsbeslut
 description: Lär dig hur du anger inställningar (kontoinformation, implementeringsmetoder osv.) för att implementera Adobe Target at.js-biblioteket utan att använda en tagghanterare.
 title: Kan jag implementera Target utan en tagghanterare?
-feature: Implementera serversidan
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

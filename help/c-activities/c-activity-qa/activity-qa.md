@@ -2,7 +2,7 @@
 keywords: qa;preview;preview links;adobe target;target
 description: Lär dig hur du använder Adobe Target QA-URL:er för att enkelt kunna utföra en heltäckande verksamhets-QA med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
 title: Hur gör jag QA-aktiviteter?
-feature: Verksamhet
+feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

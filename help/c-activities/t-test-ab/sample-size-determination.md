@@ -2,7 +2,7 @@
 keywords: AB;A/B;AB...n;samplingsstorlek;beräkna samplingsstorlek;autoallokera;autoallokera;kalkylator
 description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test i Adobe Target kräver tillräckligt många besökare (provstorlek) för att förbättra konverteringsgraden.
 title: Hur länge ska jag köra ett A/B-test?
-feature: A/B-tester
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt

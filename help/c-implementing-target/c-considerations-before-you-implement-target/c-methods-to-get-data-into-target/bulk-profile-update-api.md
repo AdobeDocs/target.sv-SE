@@ -2,7 +2,7 @@
 keywords: implementera;implementera;konfigurera;bulkprofiluppdatering
 description: Hämta data till Target med bulkprofilens uppdaterings-API.
 title: Hur hämtar jag data till målet med API:t för gruppprofiluppdatering?
-feature: Implementering
+feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt

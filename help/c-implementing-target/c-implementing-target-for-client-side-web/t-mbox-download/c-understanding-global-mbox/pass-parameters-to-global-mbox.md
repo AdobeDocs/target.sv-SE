@@ -3,7 +3,7 @@ keywords: globala mbox-parametrar;targetPageParams;query string;array;json;dtm;d
 description: Lär dig hur du använder funktionen targetPageParams för att skicka ytterligare information om målinriktning eller kontext till den globala Adobe Target-rutan.
 title: Hur skickar jag parametrar till en global mbox?
 feature: at.js
-role: Utvecklare
+role: Developer
 translation-type: tm+mt
 source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
 workflow-type: tm+mt

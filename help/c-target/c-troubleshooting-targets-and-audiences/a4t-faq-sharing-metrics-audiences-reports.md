@@ -2,7 +2,7 @@
 keywords: Vanliga frågor och svar,Vanliga frågor,Analys för mål,segment,A4T,Dela rapporter
 description: Hitta vanliga frågor om att dela mätvärden, målgrupper och rapporter när du använder Analytics for Target (A4T). Med A4T kan ni använda analysrapporter för Adobe Target-aktiviteter.
 title: Var hittar man Frågor och svar om delning av statistik, målgrupper och rapporter i A4T?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
 source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a

@@ -2,7 +2,7 @@
 keywords: implementera;implementera;konfigurera;konfigurera;sidparametrar
 description: Hämta data till Target med sidparametrar.
 title: Hur hämtar jag data till målet med hjälp av sidparametrar?
-feature: Implementering
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

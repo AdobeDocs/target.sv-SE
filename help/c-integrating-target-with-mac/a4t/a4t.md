@@ -2,7 +2,7 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as reporting source for target
 description: Använd Analytics for Target (A4T) för att skapa aktiviteter baserade på analysstatistik för konvertering och målgruppssegment och använda analysrapporter för att undersöka resultaten.
 title: Vad är Analytics för Target (A4T)?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

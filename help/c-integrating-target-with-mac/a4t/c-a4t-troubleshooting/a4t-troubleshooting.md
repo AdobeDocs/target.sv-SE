@@ -2,7 +2,7 @@
 keywords: analysspårningsserver;A4T;analyssegment;rapportsviter;felaktiga data;överblivna;gjorde;VisitorAPI.js;mboxMCSDID;phantom;ospecificerad
 description: Utforska vanliga problem som kunder har råkat ut för när de använder Analytics for Target (A4T).
 title: Hur felsöker jag analys- och målintegrering (A4T)?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt

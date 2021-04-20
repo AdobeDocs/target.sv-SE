@@ -2,7 +2,7 @@
 keywords: implementera;implementera;konfigurera;konfigurera;sidparameter
 description: Hämta in data i Target med profilattribut på sidan.
 title: Hur hämtar jag data till målet med hjälp av attribut för sidprofil?
-feature: Implementering
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt
