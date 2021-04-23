@@ -2,15 +2,15 @@
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning;trafik
 description: Utforska felsökningsämnen och vanliga frågor och svar om Automatisk Target-aktiviteter i Adobe Target.
 title: Hur felsöker jag Automatiskt inriktade aktiviteter?
-feature: Auto-Target
+feature: Automatiskt mål
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMAuto-Target felsökning och vanliga frågor och svar
 
@@ -33,7 +33,7 @@ Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Target]-aktiv
 
 * Försök att inte göra några större ändringar av upplevelserna under aktivitetens gång.
 
-### Rekommenderar du att vi använder Automatiskt mål med en delning av 90 (Kontroll)/10 (Mål) tills modellerna har byggts?
+### Rekommenderar du att vi använder Auto [!DNL Target] med en 90(Control)/10(Target)-delning tills modellerna har byggts?
 
 Din optimala trafikallokeringsdelning beror på vad du vill uppnå.
 
@@ -100,7 +100,7 @@ Mer information finns i [Använd en specifik upplevelse som kontroll](/help/c-ac
 
 ### Kan jag ändra målmåttet genom en Auto-Target-aktivitet? {#change-metric}
 
-Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med hjälp av användargränssnittet i [!DNL Target] bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
+Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med hjälp av användargränssnittet för [!DNL Target] bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
 
 Den här rekommendationen gäller för [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
 
@@ -112,7 +112,7 @@ Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTR
 
 [!DNL Target] bygger en modell per upplevelse, så om du tar bort en upplevelse  [!DNL Target] byggs bara en enda modell, och det påverkar inte modellerna för de andra upplevelserna.
 
-Anta till exempel att du har en [!UICONTROL Auto-Target]-aktivitet med åtta upplevelser och att du inte gillar prestanda för en upplevelse. Ni kan ta bort den upplevelsen och den kommer inte att påverka modellerna för de sju återstående upplevelserna.
+Anta till exempel att du har en [!UICONTROL Auto-Target]-aktivitet med åtta upplevelser och att du inte tycker om prestanda för en upplevelse. Ni kan ta bort den upplevelsen och den kommer inte att påverka modellerna för de sju återstående upplevelserna.
 
 ## Felsökning [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -149,4 +149,3 @@ Detta förväntas.
 I en [!UICONTROL Auto-Target]-aktivitet, när ett konverteringsmått (oavsett om optimeringsmål eller postmål) konverteras, släpps användaren från upplevelsen och aktiviteten startas om.
 
 Det finns till exempel en aktivitet med ett konverteringsmått (C1) och ett ytterligare mått (A1). A1 är beroende av C1. När en besökare går in i aktiviteten för första gången och villkoren för konvertering av A1 och C1 inte konverteras, konverteras inte mätvärdena A1 på grund av beroendet av framgångsmått. Om besökaren konverterar C1 och sedan konverterar A1 konverteras A1 fortfarande inte eftersom besökaren släpps när C1 konverteras.
-
