@@ -3,16 +3,16 @@ keywords: villkor;algoritm;branschvertikal;sidtyp;rekommendationsnyckel;rekommen
 description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Recommendations-aktiviteter för att visa de rekommendationer som är mest lämpliga för din aktivitet.
 title: Hur skapar jag kriterier i Recommendations?
 feature: Recommendations
+exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCreate-villkor{#create-criteria}
+# ![](/help/assets/premium.png) PREMIUMCreate-villkor
 
 Kriterierna i [!UICONTROL Adobe Target] [!UICONTROL Recommendations] styr innehållet i dina [!UICONTROL Recommendations]-aktiviteter. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet. Dessa kriterier använder besökarens åtgärder för att avgöra vilket innehåll eller vilka produkter som ska visas.
 
