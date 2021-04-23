@@ -1,17 +1,17 @@
 ---
 keywords: mål;a4t;geo;geotargeting;geotargeting precision;land;state;city;zip code;dma;mobile company;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
-description: Lär dig hur du skapar målgrupper i Adobe Target utifrån deras geografiska plats, inklusive land, ort, postnummer med mera.
-title: Kan jag rikta in mig på en besöksbaserad plats?
-feature: Audiences
+description: Lär dig hur du skapar målgrupper i Adobe [!DNL Target] utifrån deras geografiska plats, inklusive land, ort, postnummer med mera.
+title: Kan jag [!DNL Target] Besökarbaserad plats?
+feature: Målgrupper
 solution: Target,Analytics
+exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '987'
 ht-degree: 2%
 
 ---
-
 
 # Geo
 
