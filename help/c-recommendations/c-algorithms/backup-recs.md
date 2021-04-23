@@ -1,18 +1,18 @@
 ---
 keywords: rekommendation;säkerhetskopia;säkerhetskopiera
-description: Lär dig hur du använder rekommendationer för säkerhetskopiering i Adobe Target Recommendations. Rekommendationer som inte har tillräckligt många rekommenderade objekt visar resultatet av säkerhetskopieringsalgoritmen.
+description: Lär dig hur du använder rekommendationer för säkerhetskopiering i Adobe [!DNL Target] Recommendations. Rekommendationer som inte har tillräckligt många rekommenderade objekt visar resultatet av säkerhetskopieringsalgoritmen.
 title: Hur använder jag en rekommendation för säkerhetskopiering i Recommendations?
 feature: Recommendations
+exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMUse en rekommendation för säkerhetskopiering{#use-a-backup-recommendation}
+# ![](/help/assets/premium.png) PREMIUMUse en rekommendation för säkerhetskopiering
 
 Om du använder funktionen för rekommenderad säkerhetskopiering i Adobe Target kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 
@@ -41,7 +41,7 @@ Utan att behöva buckalisera rekommendationerna för säkerhetskopiering skulle 
 >
 >Om du grupperar dina objekt i kataloger används även katalogen i de säkerhetskopieringsrekommendationer som genereras för varje algoritm i rekommendationen, så endast objekt i katalogen inkluderas i säkerhetskopieringsrekommendationen.
 
-Objekt som utesluts av globala undantagsregler används inte som rekommendation för säkerhetskopiering.
+Alla objekt som utesluts av globala undantagsregler används inte som rekommendation för säkerhetskopiering.
 
 Rekommendationer för säkerhetskopiering är aktiverade som standard och fyller i de extra platserna i en mall med ett slumpmässigt urval av de vanligaste objekten på platsen.
 
