@@ -1,17 +1,17 @@
 ---
 keywords: implementera;implementera
-description: Lär dig hur du implementerar Adobe Target på din webbplats. Ange globala inställningar, implementeringsmetod (AEP Web SDK eller at.js) med mera.
-title: Hur implementerar du Target på Min webbplats?
-feature: Administration & Configuration
+description: Lär dig hur du implementerar Adobe [!DNL Target] på din webbplats. Ange globala inställningar, implementeringsmetod (AEP Web SDK eller at.js) med mera.
+title: Hur implementerar jag [!DNL Target] på Min webbplats?
+feature: Administration och konfiguration
 role: Administrator
+exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
 
 ---
-
 
 # Implementering
 
