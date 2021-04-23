@@ -1,18 +1,18 @@
 ---
 keywords: rapporter;blockera IP-adress;blockera besökare från IP-adress;hämtningsrapporter;csv;rapportering
-description: Lär dig hur du använder rapportfunktionerna i Adobe Target för att undersöka hur dina aktiviteter fungerar. Fatta bättre beslut baserat på era data för att öka avkastningen.
+description: Lär dig hur du använder rapportfunktionerna i Adobe [!DNL Target] för att undersöka hur dina aktiviteter fungerar. Fatta bättre beslut baserat på era data för att öka avkastningen.
 title: Hur visar jag rapporter?
-feature: Reports
+feature: Rapporter
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
-
-# Rapporter{#reports}
+# Rapporter
 
 Rapporterna innehåller information om förloppet och resultaten av dina [!DNL Adobe Target]-aktiviteter som hjälper dig att fatta beslut baserat på dina data. Rapportdata kan hjälpa er att avgöra när ni ska avsluta en aktivitet, visa er vilken upplevelse av erbjudandet som är vinnaren och ge er insikter eller inlärningar ni behöver för att avgöra nästa åtgärd.
 
