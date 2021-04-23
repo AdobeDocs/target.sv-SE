@@ -1,18 +1,18 @@
 ---
 keywords: Profilskript;profilskriptattribut;profilskript bästa praxis;felsökning;skript;profilskript;attribut;attribut;parameter
-description: Lär dig mer om besökarspecifika attribut som lagras i besökarprofilen för att ge information om vilka som kan användas i dina Adobe Target-aktiviteter.
+description: Lär dig mer om besökarspecifika attribut som lagras i besökarprofilen för att ge information om vilka som kan användas i dina Adobe [!DNL Target] aktiviteter.
 title: Vad är profilattribut?
-feature: Audiences
+feature: Målgrupper
+exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 0%
 
 ---
 
-
-# Profilattribut{#profile-attributes}
+# Profilattribut
 
 Profilattribut är parametrar som är specifika för en besökare. Dessa attribut lagras i besökarens profil för att ge information om besökaren som kan användas i dina aktiviteter.
 
