@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations
-description: Lär dig implementeringskraven för Analytics for Target (A4T) och vad du bör tänka på innan du implementerar den här integreringen.
+description: Lär dig implementeringskraven för Analytics för [!DNL Target] (A4T) och vad du bör tänka på innan du implementerar den här integreringen.
 title: Vad ska jag veta innan jag implementerar A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
-
-# Innan du implementerar{#before-you-implement}
+# Innan du implementerar
 
 Flera ändringar sker i datainsamlingsprocessen när du aktiverar [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
