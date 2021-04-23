@@ -2,15 +2,15 @@
 keywords: felsökningsruta;felsökningsruta;mbox issues;flimmer;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst purchase mbox;top selling;top selling;top seller
 description: Hitta förslag på hjälp med att åtgärda problem om sidan inte visar det förväntade innehållet. Lär dig hur du felsöker innehållsleverans i Adobe Target.
 title: Hur felsöker jag innehållsleverans?
-feature: Activities
+feature: Verksamhet
+exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
-
 
 # Felsöka innehållsleverans
 
@@ -173,7 +173,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Grundläggande målfelsökning ![Självstudiekurs](/help/assets/tutorial.png)
+### Grundläggande Adobe Target-felsökning ![Självstudiekurs](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
