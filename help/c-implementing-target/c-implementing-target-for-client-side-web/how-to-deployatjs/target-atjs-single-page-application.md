@@ -1,13 +1,13 @@
 ---
 keywords: implementering av single page application;implementera single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPA
-description: Lär dig hur du använder Adobe Target at.js 2.x för att implementera Target for Single Page Applications (SPA).
-title: Kan jag implementera Target for Single Page Applications (SPA)?
-feature: Implement Server-side
+description: Lär dig hur du använder Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] för Single Page-program (SPA).
+title: Kan jag implementera [!DNL Target] för Single Page-program (SPA)?
+feature: Implementera serversidan
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '2774'
+source-wordcount: '2767'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Här är några fördelar med att använda at.js 2.x som inte finns i tidigare v
 * Förbättra slutanvändarnas upplevelser enormt på er webbplats eftersom erbjudandena visas direkt via cachen utan fördröjning som introducerats av traditionella serversamtal.
 * En enkel kodrad och en engångskonfiguration för utvecklare som gör det möjligt för era marknadsförare att skapa och köra A/B- och Experience Targeting-aktiviteter (XT) via VEC på era SPA.
 
-## Adobe Target Views and Single Page Applications
+## Adobe [!DNL Target]-vyer och enkelsidiga program
 
 Adobe Target VEC for SPA utnyttjar det nya konceptet Views: en logisk grupp visuella element som tillsammans utgör en SPA. En SPA kan därför betraktas som en övergång via vyer i stället för URL-adresser som baseras på användarinteraktioner. En vy kan vanligtvis representera en hel plats eller grupperade visuella element inom en plats.
 
@@ -63,7 +63,7 @@ Dessutom kan vykonceptet utökas betydligt mer än så. Om marknadsförarna vill
 
 Nu kanske marknadsförarna vill köra ett A/B-test för att se om en ändring av färgen från blå till röd när expressleverans är valt kan öka konverteringsgraden, i stället för att knappfärgen ska vara blå för båda leveransalternativen.
 
-## Implementera Adobe Target-vyer
+## Implementera Adobe [!DNL Target]-vyer
 
 Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i Target för att göra det möjligt för marknadsförare att köra A/B- och XT-tester på SPA via VEC. Detta kräver en engångsinstallation av utvecklare. Låt oss gå igenom stegen för att konfigurera detta.
 
@@ -209,9 +209,9 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 
 | Steg | Detaljer |
 | --- | --- |
-| 3 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
+| 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
-| 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
+| 1 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
 | 5 | Analysdata skickas till datainsamlingsservrar. |
 | 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
@@ -283,9 +283,9 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 
 | Steg | Åtgärd | Detaljer |
 | --- | --- | --- |
-| 3 | Läs in VisitorAPI JS | Det här biblioteket ansvarar för att tilldela besökaren ett ECID. Detta ID används senare av andra [!DNL Adobe]-lösningar på webbsidan. |
+| 1 | Läs in VisitorAPI JS | Det här biblioteket ansvarar för att tilldela besökaren ett ECID. Detta ID används senare av andra [!DNL Adobe]-lösningar på webbsidan. |
 | 2 | Load at.js 2.x | at.js 2.x läser in alla nödvändiga API:er som du använder för att implementera [!DNL Target]-begäranden och vyer. |
-| 3 | Kör [!DNL Target]-begäran | Om du har ett datalager rekommenderar vi att du läser in viktiga data som krävs för att skicka till [!DNL Target] innan du kör en [!DNL Target]-begäran. Detta gör att du kan använda `targetPageParams` för att skicka alla data som du vill använda för målinriktning. Du måste se till att du begär execute > pageLoad samt prefetch > views i detta API-anrop. Om du har angett `pageLoadEnabled` och `viewsEnabled` inträffar båda execute > pageLoad och prefetch > views automatiskt med steg 2; I annat fall måste du använda API:t `getOffers()` för att göra denna begäran. |
+| 1 | Kör [!DNL Target]-begäran | Om du har ett datalager rekommenderar vi att du läser in viktiga data som krävs för att skicka till [!DNL Target] innan du kör en [!DNL Target]-begäran. Detta gör att du kan använda `targetPageParams` för att skicka alla data som du vill använda för målinriktning. Du måste se till att du begär execute > pageLoad samt prefetch > views i detta API-anrop. Om du har angett `pageLoadEnabled` och `viewsEnabled` inträffar båda execute > pageLoad och prefetch > views automatiskt med steg 2; I annat fall måste du använda API:t `getOffers()` för att göra denna begäran. |
 | 4 | Ring `triggerView()` | Eftersom [!DNL Target]-begäran som du initierade i steg 3 kan returnera upplevelser för både sidinläsning och vyer, måste du se till att `triggerView()` anropas efter att [!DNL Target]-begäran har returnerats och att erbjudandena har tillämpats på cachen. Du får bara utföra det här steget en gång per vy. |
 | 5 | Anropa sidvyfyren [!DNL Analytics] | Den här beacon skickar det SDID som är kopplat till steg 3 och 4 till [!DNL Analytics] för datasammanfogning. |
 | 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att se till att [!DNL Target]-upplevelser tillämpas på nytt efter att SPA har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att vara säker på att [!DNL Target]-upplevelserna finns kvar i dina SPA. |
@@ -296,7 +296,7 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 | --- | --- | --- |
 | 1 | Ring `visitor.resetState()` | Detta API säkerställer att SDID genereras om för den nya vyn när den läses in. |
 | 2 | Uppdatera cache genom att anropa API:t `getOffers()` | Detta är ett valfritt steg att ta om den här vyändringen kan kvalificera den aktuella besökaren för fler [!DNL Target] aktiviteter eller diskvalificera dem från aktiviteter. Nu kan du även välja att skicka ytterligare data till [!DNL Target] för att aktivera ytterligare målinriktningsfunktioner. |
-| 3 | Ring `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target]-begäran och tillämpa erbjudandena på cache innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
+| 1 | Ring `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target]-begäran och tillämpa erbjudandena på cache innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
 | 4 | Ring `triggerView()` | Om du inte har kört steg 2 kan du utföra det här steget så snart du slutför steg 1. Om du har kört steg 2 och steg 3 bör du hoppa över det här steget. Du får bara utföra det här steget en gång per vy. |
 | 5 | Anropa sidvyfyren [!DNL Analytics] | Den här beacon skickar det SDID som är kopplat till steg 2, 3 och 4 till [!DNL Analytics] för datasammanfogning. |
 | 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att se till att [!DNL Target]-upplevelser tillämpas på nytt efter att SPA har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att vara säker på att [!DNL Target]-upplevelserna finns kvar i dina SPA. |
