@@ -1,16 +1,16 @@
 ---
 keywords: a4t;A4T;Analyser som rapportkälla för Target
-description: Lär dig hur du skapar aktiviteter för automatisk fördelning och automatisk målanpassning i Adobe Target som använder Analytics som rapportkälla (A4T).
+description: Lär dig hur du skapar aktiviteter för automatisk fördelning och automatisk målanpassning i Adobe [!DNL Target] som använder Analytics som rapportkälla (A4T).
 title: Har A4T stöd för automatisk fördelning och automatisk målanpassning?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
-
 
 # A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter
 
