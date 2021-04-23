@@ -1,22 +1,22 @@
 ---
 keywords: tillhörighet;kategoritillhörighet
-description: Läs om kategoritillhörighet i Adobe Target som automatiskt fångar in kategorier som en användare besöker och sedan beräknar användarens tillhörighet för kategorin så att den kan anpassas och segmenteras.
+description: Lär dig mer om kategoritillhörighet i Adobe [!DNL Target] som automatiskt fångar in kategorier som användaren besöker och sedan beräknar användarens tillhörighet för kategorin så att den kan anpassas och segmenteras.
 title: Vad är kategoritillhörighet?
-feature: Audiences
+feature: Målgrupper
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '797'
 ht-degree: 3%
 
 ---
 
-
-# Kategoritillhörighet{#category-affinity}
+# Kategoritillhörighet
 
 Kategoritillhörighetsfunktionen fångar automatiskt in kategorierna som en användare besöker och beräknar sedan användarens tillhörighet för kategorin så att den kan användas och segmenteras. Detta bidrar till att säkerställa att innehållet är riktat till besökare som är mest benägna att agera på den informationen.
 
-## Överför kategoritillhörighetsinformation till mål {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Överför kategoritillhörighetsinformation till [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 När en användare besöker din plats registreras profilparametrar som är specifika för besökaren i [!DNL Target]-databasen. Dessa data är knutna till användarens cookie. En särskilt användbar parameter är `user.categoryId`, en mbox-parameter som tilldelats på en produktsida. När besökaren fortsätter att bläddra, eller återvänder till en annan session, kan de produktkategorier som en viss användare visar registreras. Du kan även registrera kategoriinformation genom att skicka den som mbox-parametern `user.categoryId` i en mbox (inklusive en kapslad mbox), som en URL-parameter `user.categoryId` eller i Target page parameters with a global mbox. Mer information finns hos din kontorepresentant.
 
