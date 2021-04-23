@@ -1,16 +1,16 @@
 ---
 keywords: multivariat;mvt;metrics;set metrics;target metric;activity settings;success metric;conversion;revenue;engagement
-description: Lär dig hur du anger mätvärden i en Adobe Target Multivariate Test-aktivitet för att avgöra när ett besök lyckas, till exempel konvertering, intäkter och engagemang.
+description: Lär dig hur du anger mätvärden i en Adobe [!DNL Target] Multivariate Test-aktivitet för att avgöra när ett besök lyckas, t.ex. Konvertering, Intäkter och engagemang.
 title: Hur ställer jag in målvärden i en multivariat testaktivitet (MVT)?
-feature: Multivariate Tests
+feature: Multivariata tester
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Ange mått för multivariata tester
 
