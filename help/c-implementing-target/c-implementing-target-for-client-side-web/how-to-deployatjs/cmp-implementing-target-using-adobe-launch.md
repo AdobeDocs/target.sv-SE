@@ -1,23 +1,23 @@
 ---
 keywords: implementera;implementera;implementera;adobe launch;starta;etapp;redirect;experience platform launch
-description: Lär dig hur du implementerar Adobe Target at.js-biblioteket med Adobe Experience Platform Launch, den metod som rekommenderas för att implementera Adobe Target.
-title: Hur implementerar jag Target med Adobe Launch?
-feature: Implement Server-side
+description: Lär dig hur du implementerar biblioteket Adobe [!DNL Target] at.js med Adobe Experience Platform Launch, den metod som rekommenderas för att implementera Adobe [!DNL Target].
+title: Hur implementerar jag [!DNL Target] med Adobe Launch?
+feature: Implementera serversidan
 role: Developer
+exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
 
-
-# Implementera mål med Adobe Launch
+# Implementera [!DNL Target] med Adobe Launch
 
 Adobe Experience Platform Launch är nästa generation av tagghanteringsplattform från Adobe och är den bästa metoden att implementera Adobe Target. Launch ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser.
 
-## Implementera mål med Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## Implementera [!DNL Target] med Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
 Launch är nästa generationens tagghanteringsplattform från Adobe och är den metod som rekommenderas för att implementera Adobe Target. Launch ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser.
 
@@ -29,7 +29,7 @@ I följande tabell visas de olika källorna där du kan få mer information om L
 | [Adobe - startdokumentation](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Information om driftsättning och hantering av alla analys-, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser. |
 | [Adobe Target Extension Documentation](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Information om hur du implementerar Target med Launch. |
 
-## Fördelar med att implementera at.js med tillägget Target Launch {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Fördelar med att implementera at.js med [!DNL Target] Launch-tillägget {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 Följande fördelar gäller bara om du använder Adobe Launch för att implementera at.js. Därför rekommenderar vi starkt att du använder Adobe Launch i stället för DTM eller en manuell implementering av at.js.
 
