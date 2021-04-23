@@ -1,23 +1,23 @@
 ---
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;global;global mbox
-description: Läs vanliga frågor och svar om Adobe Target globala kryssrutor.
+description: Läs vanliga frågor och svar om Adobe [!DNL Target] globala kryssrutor.
 title: Vilka är de vanliga frågorna om den globala rutan?
 feature: at.js
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
-
-# Global mbox Frågor &amp; svar{#global-mbox-frequently-asked-questions}
+# Vanliga frågor och svar om Global Mbox
 
 Lista med vanliga frågor och svar om globala kryssrutor.
 
-## Kan jag ha fler än en global mbox om mitt Target-konto är angivet över flera domäner? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## Kan jag ha fler än en global mbox om mitt [!DNL Target]-konto har angetts för flera domäner? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 Endast en global mbox stöds för hela kontot.
 
@@ -25,7 +25,7 @@ Du kan begränsa var dina aktiviteter körs genom att lägga till URL-regler i d
 
 Du kan också skicka en parameter på sidan med [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) och sedan välja parametrarna i avsnittet &quot;Konfigurera URL&quot; i [!UICONTROL Visual Experience Composer] (VEC) eller genom att lägga till parametrarna som &quot;förbättringar&quot; i den formulärbaserade Experience Composer.
 
-## Hur skickar jag intäktsdata till en global Target-mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
+## Hur skickar jag intäktsdata till en [!DNL Target] global mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 Om du vill samla in intäkter och orderinformation för target-global-mbox måste&quot;mbox parameters&quot; skickas till Target. Dessa parametrar är namn/värde-par som används för att skicka mer information till Target. Target söker automatiskt efter dessa parametrar (reserverade namn) för att fylla i intäktsdata.
 
