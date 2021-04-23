@@ -2,17 +2,17 @@
 keywords: Översikt och referens
 description: Läs mer om när en besökarprofil upphör (som standard 14 dagar) i Adobe Target. Du kan förlänga profilens livslängd genom att kontakta Adobe Client Care.
 title: Vad är besökarprofilens livstid och kan jag utöka den?
-feature: Audiences
+feature: Målgrupper
+exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
-
-# Livslängd för besökarprofil{#visitor-profile-lifetime}
+# Livslängd för besökarprofil
 
 Som standard upphör en besökarprofil att gälla efter 14 dagars inaktivitet för den besökaren. Profilens livslängd kan förlängas.
 
