@@ -1,17 +1,17 @@
 ---
 keywords: Webbläsare;Förutsättningar;Krav;Internet Explorer;chrome;firefox;safari;android;surface
-description: Ta reda på vilka webbläsare Adobe Target stöder för sitt gränssnitt och för leverans av innehåll.
-title: Vilka webbläsare stöder målwebbläsare?
-feature: Implementation
+description: Ta reda på vilka webbläsare Adobe [!DNL Target] stöder för sitt gränssnitt och för leverans av innehåll.
+title: Vilka webbläsare stöder [!DNL Target] funktionen?
+feature: Implementering
 role: Developer
+exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Webbläsare som stöds
 
