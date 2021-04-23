@@ -1,16 +1,16 @@
 ---
 keywords: flersidig;resetestning;flersidig aktivitet
-description: Lär dig skapa en flersidig aktivitet i Adobe Target och skapa en artikel över flera sidor med en design som är specifik för varje sida.
+description: Lär dig hur du skapar en flersidig aktivitet i Adobe [!DNL Target] där du kan skapa en artikel över flera sidor, med en design som är specifik för varje sida.
 title: Hur skapar jag en flersidig aktivitet?
 feature: Visual Experience Composer (VEC)
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # Flersidig aktivitet
 
@@ -46,4 +46,3 @@ Så här lägger du till sidor i ett test:
    Använd den här menyn om du vill byta namn på sidorna, utföra ett omdirigeringstest i flersidesaktiviteten eller ta bort sidan.
 
 1. Använd Visual Experience Composer för att utforma hur erbjudandet ser ut på varje sida.
-
