@@ -1,18 +1,18 @@
 ---
 keywords: Målgrupper;målgruppsfilter;målgrupper;filter
-description: Lär dig hur du använder målgruppsfilter i Adobe Target för att visa data från besökargrupper som delar en viss egenskap eller en uppsättning egenskaper.
+description: Lär dig hur du använder målgruppsfilter i Adobe [!DNL Target] för att visa data från grupper av besökare som delar en viss egenskap eller uppsättning egenskaper.
 title: Kan jag använda målgruppsfilter för rapportering?
-feature: Audiences
+feature: Målgrupper
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-
-# Målgruppsfilter för rapportering{#audience-filters-for-reporting}
+# Målgruppsfilter för rapportering
 
 Målgruppsfilter (eller målgrupper) är grupper med besökare som delar en specifik egenskap eller uppsättning egenskaper.
 
@@ -38,4 +38,3 @@ I följande avsnitt finns mer information om hur du skapar och rapporterar om m�
 | Kombinera flera målgrupper, om det behövs. | [Kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md) |
 | Använd målgrupper på aktivitetens sida med mål och inställningar. | A/B-test: [Mål och inställningar](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Mål och inställningar](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Multivariata tester:  [Mål och inställningar](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Aktivitetsinställningar för Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Aktivitetsinställningar: [Aktivitetsinställningar](/help/c-activities/activity-settings.md) |
 | Visa rapporter med information om era målgruppsfilter. | [Rapportinställningar](/help/c-reports/c-report-settings/report-settings.md) |
-
