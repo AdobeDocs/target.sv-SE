@@ -1,18 +1,18 @@
 ---
 keywords: Översikt och referens
-description: Lär dig hur du använder Adobe Target med Adobe Campaign för att optimera e-postinnehåll.
-title: Hur integrerar jag Target med Adobe Campaign?
-feature: Integrations
+description: Lär dig hur du använder Adobe [!DNL Target] med Adobe Campaign för att optimera e-postinnehåll.
+title: Hur integrerar jag [!DNL Target] med Adobe Campaign?
+feature: Integreringar
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 
-
-# Integrera Target med Adobe Campaign{#integrate-target-with-adobe-campaign}
+# Integrera [!DNL Target] med Adobe Campaign
 
 Använd [!DNL Target] med [!DNL Adobe Campaign] för att optimera e-postinnehåll.
 
@@ -58,7 +58,7 @@ Innan du använder [!DNL Adobe Campaign] för att konfigurera dina riktade e-pos
 
 Starta aktiviteten i [!DNL Target] innan du konfigurerar [!DNL Campaign]-delen av integreringen.
 
-## Inkludera ett målerbjudande i ett Adobe Campaign-e-postmeddelande {#section_B201BBE27A704E18AF0D553F35695837}
+## Ta med ett [!DNL Target]-erbjudande i ett Adobe Campaign-e-postmeddelande {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Skapa ett e-postmeddelande i [!DNL Adobe Campaign].
 1. Klicka på **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]** i e-postegenskaperna.
