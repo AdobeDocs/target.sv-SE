@@ -1,16 +1,16 @@
 ---
 keywords: qa;förhandsvisa;bokmärkesdiagram;förhandsvisa länkar
-description: Lär dig hur du använder Adobe Target QA-bokmärket för att tvinga Target att släppa dig från QA-läget.
+description: Lär dig hur du använder Adobe [!DNL Target] QA bookmarklet to force [!DNL Target] för att frigöra dig från QA-läge.
 title: Hur använder jag Activity QA Bookmarklet?
-feature: Activities
+feature: Verksamhet
+exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
-
 
 # Activity QA bookmarklet
 
@@ -73,4 +73,3 @@ javascript:(
 ## Använda Activity QA-bokmärket
 
 Klicka på bokmärket i webbläsarens verktygsfält.
-
