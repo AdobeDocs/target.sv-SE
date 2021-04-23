@@ -1,17 +1,17 @@
 ---
 keywords: äpple;ITP;intelligent tracking prevent;experience cloud id;ecid
-description: Läs om Adobe Target och effekten av Apple Intelligent Tracking Prevention (ITP) som syftar till att skydda Safaris användares integritet.
-title: Hur hanterar Target Apple ITP-stöd?
-feature: Privacy & Security
+description: Läs om Adobe [!DNL Target] och effekten av Apple Intelligent Tracking Prevention (ITP) som syftar till att skydda Safaris integritet.
+title: Hur hanterar [!DNL Target] Apple ITP stöd?
+feature: Integritet och säkerhet
 role: Developer
+exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
-
 
 # Apple Intelligent Tracking Prevention (ITP) 2.x
 
@@ -23,11 +23,11 @@ Dessa versioner av ITP innehåller följande begränsningar:
 
 | Version | Detaljer |
 | --- | --- |
-| [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Klientsidans cookies som placeras i webbläsaren med `document.cookie`-API har fästs vid ett sjudagars förfallodatum.<br>Sändes 21 februari 2019. |
+| [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Klientsidans cookies som placeras i webbläsaren med `document.cookie` API har fästs vid ett sjudagars förfallodatum.<br>Sändes 21 februari 2019. |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Drastiskt reducerade 7- dagars utgångsvärdet till en dag.<br>Utgiven 24 april 2019. |
 | [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | Eliminerade flera tillfälliga lösningar, som att använda localStorage eller JavaScript `Document.referrer property`.<br>Utgiven 23 september 2019. |
 
-## Vilken inverkan har jag som Adobe Target-kund? {#impact}
+## Vad har jag för effekt som kund av Adobe [!DNL Target]? {#impact}
 
 [!DNL Target] innehåller JavaScript-bibliotek som du kan använda på dina sidor för att  [!DNL Target] kunna leverera personalisering i realtid till besökarna. Det finns tre JavaScript-målbibliotek ([at.js 1.x, at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) och [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) som placerar [!DNL Target]-cookies på dina besökares webbläsare via API:t `document.cookie`. Därför påverkas [!DNL Target]-cookies av Apples ITP 2.x och upphör att gälla efter sju dagar (med ITP 2.1) och efter en dag (med ITP 2.2 och ITP 2.3).
 
