@@ -1,13 +1,13 @@
 ---
 keywords: e-post;ESP;e-postleverantör;rawbox;delivery API;download only template;email template;batch processing;build-time email
-description: Lär dig hur du integrerar e-post med Adobe Target Recommendations, bland annat med Target Delivery API, rawbox-mallar och nedladdningsbara mallar.
+description: Lär dig hur du integrerar e-post med Adobe [!DNL Target] Recommendations, including using the [!DNL Target] leverans-API, rawbox-mallar och nedladdningsbara mallar.
 title: Hur integrerar jag Recommendations med e-post?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ E-postsystemet du använder bör kunna hantera följande scenarier:
 * I det här fallet är svaret det som anges som mboxDefault-parametervärde. Se förklaringen nedan om den här parametern.
 * E-postprovidern bör ha ett HTML-standardblock med rekommendationer att använda i det här fallet.
 
-### Målservern gör timeout och returnerar utan data
+### [!DNL Target]-servern gör timeout och returnerar utan data
 
 * I det här fallet returnerar målservern följande innehåll:
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Valfritt) | 1 | Som standard dirigeras anroparen om när inget slutbart innehåll hittas. Används för att inaktivera standardbeteendet. |  |
 | `mbox3rdPartyId` | *xxx* | Använd det här alternativet om du har ett eget besökar-ID som du kan använda för att målinrikta profiler. |  |
 
-### Potentiella målserversvar
+### Potentiella [!DNL Target] serversvar
 
 | Svar | Beskrivning |
 |--- |--- |
