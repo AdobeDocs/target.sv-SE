@@ -1,19 +1,19 @@
 ---
 keywords: implementera;implementering;at.js;adobe experience platform web sdk;aep web sdk
-description: Lär dig hur du implementerar Adobe Target för klientwebben med Adobe Experience Platform Web SDK (AEP Web SDK) eller Target at.js JavaScript-biblioteket.
-title: Hur implementerar jag Target för Client-Side Web
+description: Lär dig hur du implementerar JavaScript-biblioteket Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js.
+title: Hur implementerar jag [!DNL Target] för klientwebben?
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
-# Översikt: implementera Target för webben på klientsidan
+# Översikt: implementera [!DNL Target] för klientwebben
 
 I en implementering av [!DNL Adobe Target] på klientsidan levererar [!DNL Target] upplevelserna som är kopplade till en aktivitet direkt till klientwebbläsaren. Webbläsaren avgör vilken upplevelse som ska visas och visar den. Med en implementering på klientsidan kan du använda en WYSIWYG-redigerare, [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) eller ett icke-visuellt gränssnitt, [formulärbaserad Experience Composer](/help/c-experiences/form-experience-composer.md), för att skapa din aktivitet och dina personaliseringsupplevelser.
 
