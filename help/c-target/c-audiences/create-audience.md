@@ -1,18 +1,18 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;skapa målgrupp
-description: Lär dig hur du skapar anpassade målgrupper och sparar dem i Adobe Target Audiences-biblioteket för användning i dina aktiviteter.
+description: Lär dig hur du skapar anpassade målgrupper och sparar dem i Adobe [!DNL Target] Publikbiblioteket för användning i dina aktiviteter.
 title: Hur skapar jag målgrupper?
-feature: Audiences
+feature: Målgrupper
+exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-
-# Bygg målgrupper i Target{#build-audiences-in-target}
+# Bygg målgrupper i Target
 
 Du kan skapa anpassade målgrupper och spara dem i målbiblioteket för att använda dem i dina aktiviteter. Ni kan kopiera en befintlig målgrupp som ni sedan kan redigera för att skapa en liknande målgrupp och kombinera flera målgrupper.
 
