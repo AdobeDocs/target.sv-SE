@@ -1,19 +1,19 @@
 ---
 keywords: implementera mål;implementera;implementera at.js;tagghanterare;enhetsbeslut;vid enhetsbeslut
-description: Lär dig hur du anger inställningar (kontoinformation, implementeringsmetoder osv.) för att implementera Adobe Target at.js-biblioteket utan att använda en tagghanterare.
-title: Kan jag implementera Target utan en tagghanterare?
-feature: Implement Server-side
+description: Lär dig hur du anger inställningar (kontoinformation, implementeringsmetoder osv.) för att implementera Adobe [!DNL Target] at.js-biblioteket utan att använda en tagghanterare.
+title: Kan jag implementera [!DNL Target] utan en tagghanterare?
+feature: Implementera serversidan
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1652'
 ht-degree: 3%
 
 ---
 
-# Implementera mål utan tagghanterare
+# Implementera [!DNL Target] utan tagghanterare
 
 Information om hur du implementerar [!DNL Adobe Target] utan att använda en tagghanterare ([!DNL Adobe Experience Platform Launch] eller [!DNL Dynamic Tag Manager]).
 
@@ -43,7 +43,7 @@ Du kan visa följande kontoinformation. Dessa inställningar kan inte ändras.
 | --- | --- |
 | [!UICONTROL Client Code] | Klientkoden är en klientspecifik teckensekvens som ofta krävs när du använder mål-API:er. |
 | [!UICONTROL IMS Organization ID] | Detta ID kopplar implementeringen till ditt [!DNL Adobe Experience Cloud]-konto. |
-| [!UICONTROL On-Device Decisioning] | Om du vill aktivera enhetsbeslut flyttar du växlingsknappen till positionen&quot;på&quot;.<br>Med enhetsbaserad beslutsfattande kan ni cachelagra era A/B- och Experience Targeting-kampanjer (XT) på servern och fatta beslut i minnet med nästan noll fördröjning. Mer information finns i [Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) i guiden *Adobe Target SDK*. |
+| [!UICONTROL On-Device Decisioning] | Om du vill aktivera enhetsbeslut flyttar du växlingsknappen till läget&quot;på&quot;.<br>Med enhetsbaserad beslutsfattande kan ni cachelagra era A/B- och Experience Targeting-kampanjer (XT) på servern och fatta beslut i minnet med nästan noll fördröjning. Mer information finns i [Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) i guiden *Adobe Target SDK*. |
 | [!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.] | (Villkorligt) Det här alternativet visas om du aktiverar enhetsbeslut.<br>Skjut musknappen till&quot;på&quot;-positionen om du vill att alla dina aktiva Target-aktiviteter som är kvalificerade för enhetsbeslut ska inkluderas automatiskt i artefakten.<br>Om du inte aktiverar det här alternativet måste du återskapa och aktivera alla enhetsspecifika beslutsaktiviteter för att de ska kunna inkluderas i den genererade regelartefakten. |
 
 ## Implementeringsmetoder
@@ -124,14 +124,14 @@ Instruktioner för att hämta biblioteket med [!DNL Target]-gränssnittet eller 
 * Target-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
-### Hämta at.js med målgränssnittet {#section_1F5EE401C2314338910FC57F9592894E}
+### Hämta at.js med [!DNL Target]-gränssnittet {#section_1F5EE401C2314338910FC57F9592894E}
 
 Så här hämtar du [!DNL at.js] från gränssnittet [!DNL Target]:
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 1. I avsnittet [!UICONTROL Implementation methods] klickar du på knappen **[!UICONTROL Download]** bredvid önskad at at.js-version.
 
-### Hämta at.js med Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Hämta på.js med [!DNL Target] API för hämtning {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Om du vill hämta [!DNL at.js] med API:t.
 
