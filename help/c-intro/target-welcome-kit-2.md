@@ -2,23 +2,23 @@
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
 description: Ta en titt på Adobe Target. Lär dig mer om tillgängliga aktiviteter, kanaler, implementering, integreringar med mera.
 title: Var hittar jag en introduktion på hög nivå till Target?
-feature: Overview
+feature: Översikt
+exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
 
 ---
 
-
-# Kapitel 2: Adobe Target i korthet
+# Kapitel 2: Adobe [!DNL Target] i korthet
 
 Innan du börjar använda [!DNL Adobe Target] kan det vara bra att få en översikt över lösningen på hög nivå. I det här kapitlet får du veta vilka nyckelfunktioner lösningen har, vilka kontaktytor du kan använda den på, implementeringsalternativ, viktiga funktioner och arbetsflöden i användargränssnittet, styrningsfunktioner och dess roll i den övergripande [!DNL Adobe Experience Cloud]. Om det inte anges som [!DNL Adobe Target Premium]-funktioner är de objekt som beskrivs i det här kapitlet tillgängliga med både [!DNL Adobe Target Premium] och [!DNL Adobe Target Standard]. Mer information finns i [Introduktion till Target](/help/c-intro/intro.md).
 
 ## Kapacitet och verksamhet
 
-Testning och personalisering är de två vanligaste funktionerna som [!DNL Target] erbjuder och som du kan använda när du skapar en aktivitet i [!DNL Target]. termen&quot;testning&quot; används som en omväxlande funktion med&quot;optimering&quot; och&quot;personalisering&quot; som används omväxlande med&quot;målinriktning&quot;.
+Testning och personalisering är de två vanligaste funktionerna som [!DNL Target] erbjuder och som du kan använda när du skapar en aktivitet i [!DNL Target]. termen&quot;testning&quot; används omväxlande med&quot;optimering&quot; och&quot;personalisering&quot; som används omväxlande med&quot;målinriktning&quot;.
 
 I en testaktivitet jämför du en variant av en digital upplevelse med en eller flera andra varianter för att upptäcka att en sådan som får de flesta besökare att vidta önskad åtgärd. [!DNL Target] erbjuder följande testfunktioner: A/B-testning, multivariata tester (MVT) och automatisk fördelning.
 
