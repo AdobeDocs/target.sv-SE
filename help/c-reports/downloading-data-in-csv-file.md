@@ -1,18 +1,18 @@
 ---
 keywords: rapporter;ladda ned rapporter;csv;success metrics;order details
-description: Lär dig hur du hämtar data från Adobe Target-aktiviteter i ett CVS-format för snabb import till Excel, Access eller andra dataanalysprogram.
+description: Lär dig hur du hämtar data från Adobe [!DNL Target] aktiviteter i ett CVS-format för snabb import till Excel, Access eller andra dataanalysprogram.
 title: Hur hämtar jag rapportdata i en CSV-fil?
-feature: Reports
+feature: Rapporter
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-
-# Hämta data i en CSV-fil{#downloading-data-in-a-csv-file}
+# Hämta data i en CSV-fil
 
 Ladda ned data i CSV-format för snabb import till Excel, Access eller andra dataanalysprogram.
 
