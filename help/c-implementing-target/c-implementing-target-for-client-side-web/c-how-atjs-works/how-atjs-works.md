@@ -1,17 +1,17 @@
 ---
 keywords: systemdiagram;flimmer;at.js;implementation;javascript library;js;atjs
-description: Lär dig hur Target-JavaScript-biblioteket at.js fungerar, inklusive systemdiagram som hjälper dig förstå arbetsflödet när sidorna läses in.
+description: Lär dig hur JavaScript-biblioteket [!DNL Target] at.js fungerar, inklusive systemdiagram som hjälper dig förstå arbetsflödet när sidorna läses in.
 title: Hur fungerar biblioteket at.js Javascript?
 feature: at.js
 role: Developer
+exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 2%
 
 ---
-
 
 # Hur at.js fungerar
 
@@ -61,7 +61,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | --- | --- |
 | 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
-| 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
+| 1 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
 | 5 | Analysdata skickas till datainsamlingsservrar. |
 | 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
