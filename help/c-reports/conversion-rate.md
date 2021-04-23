@@ -1,16 +1,16 @@
 ---
 keywords: Målinriktning
-description: Läs om hur Adobe Target visar och beräknar konverteringsgraden, ökningen, förtroendet (statistisk signifikans) och konfidensintervallet för varje upplevelse.
+description: Läs om hur Adobe [!DNL Target] visar och beräknar konverteringsgraden, ökningen, förtroendet (statistisk signifikans) och konfidensintervallet för varje upplevelse.
 title: Hur visar jag konverteringsgraden, avbrottsnivån och konfidensnivån?
-feature: Reports
+feature: Rapporter
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2162'
 ht-degree: 0%
 
 ---
-
 
 # Konverteringsgrad
 
@@ -112,7 +112,7 @@ Om du vill beräkna dessa beräknade värden hämtar du målets [Complete Confid
 >
 >Den här räknaren används för målbaserad rapportering och inte för A4T-rapportering.
 
-## Utföra offlineberäkningar för analys av mål (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Utföra offlineberäkningar för analys för Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 Du kan utföra offlineberäkningar för A4T, men det krävs ett steg med dataexporter i [!DNL Analytics].
 
@@ -186,7 +186,7 @@ Du kan visa rapporter med följande beräkningsmetoder:
 >
 >Antalet bestäms vanligtvis av cookies och sessionsaktivitet. Om du når den sista konverteringspunkten för en aktivitet och sedan anger aktiviteten igen, betraktas du som en ny deltagare och ett nytt besök i aktiviteten. Detta gäller även om dina PCID- och `sessionID`-värden inte ändras.
 
-## Varför rekommenderar Target att man använder Students t-test? {#t-test}
+## Varför rekommenderar [!DNL Target] att man använder Students t-test? {#t-test}
 
 A/B-tester är experiment för att jämföra medelvärdet av vissa företagsvärden i en kontrollvariant (kallas även upplevelse) med medelvärdet av samma mätvärden i en eller flera alternativa upplevelser.
 
