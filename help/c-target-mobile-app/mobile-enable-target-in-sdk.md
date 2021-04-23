@@ -1,19 +1,19 @@
 ---
 keywords: mobilapp;mobilapp sdk;target mobile app;mobile target sdk;mobile app sdk;enable target in sdk
 description: Lär dig hur du lägger till Adobe Mobile Services SDK i din mobilapp.
-title: Hur aktiverar jag Target i Adobe Mobile SDK?
-feature: Implement Mobile
+title: Hur aktiverar jag  [!DNL Target] i Adobe Mobile SDK?
+feature: Implementera mobil
 role: Developer
+exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-
-# Aktivera mål i SDK{#enable-target-in-the-sdk}
+# Aktivera [!DNL Target] i SDK
 
 Lägg till Adobe Mobile Services SDK i din app.
 
@@ -38,4 +38,3 @@ Lägg till Adobe Mobile Services SDK i din app.
 >[!IMPORTANT]
 >
 > Om du inte har tillgång till gränssnittet för mobilmarknadsföring kan du göra ändringar direkt i konfigurationsfilen i appkoden; Den kommer dock inte att vara synkroniserad med inställningssidan i användargränssnittet.
-
