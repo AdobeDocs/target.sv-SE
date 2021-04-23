@@ -1,18 +1,18 @@
 ---
 keywords: egen design;snabbhet;decimal;komma;anpassa design
-description: Lär dig använda designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i Adobe Target Recommendations.
+description: Lär dig hur du använder designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i Adobe [!DNL Target] Recommendations.
 title: Hur anpassar jag en design snabbt?
 feature: Recommendations
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCustomize a design using Velocity{#customize-a-design-using-velocity}
+# ![](/help/assets/premium.png) PREMIUMCustomize a design using Velocity
 
 Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i [!DNL Adobe Target Recommendations].
 
@@ -127,7 +127,7 @@ Du kan också använda `algorithm.name` och `algorithm.dayCount` som variabler i
 
 Som standard hanteras alla entitetsattribut som strängvärden i snabbmeddelandemallar. Du kanske vill behandla ett entitetsattribut som ett numeriskt värde för att utföra en matematisk åtgärd eller jämföra det med ett annat numeriskt värde. Så här behandlar du ett entitetsattribut som ett numeriskt värde:
 
-1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller dubbelvärde.
+1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller ett dubbelvärde.
 1. Kontrollera att det entitetsattribut du vill använda inte är tomt (krävs för att Recommendations mallparser för Target ska kunna validera och spara mallen).
 1. Skicka entitetsattributet till metoden `parseInt` eller `parseDouble` för dummy-variabeln som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde.
 1. Utför matematisk åtgärd eller jämförelse på det nya numeriska värdet.
