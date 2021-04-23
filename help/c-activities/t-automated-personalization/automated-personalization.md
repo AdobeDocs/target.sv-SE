@@ -1,20 +1,20 @@
 ---
 keywords: automatiserad personalisering;ap;målgrupper;ensemble;random forest;multi-väpnad bandit;thompson sampling;ml;maskininlärning
-description: Lär dig hur du använder Automated Personalization-aktiviteter (AP) i Adobe Target som använder avancerad maskininlärning för att matcha olika erbjudandevarianter för varje besökare.
+description: Lär dig hur du använder Automated Personalization-aktiviteter (AP) i Adobe [!DNL Target] som använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje besökare.
 title: Vad är en Automated Personalization-aktivitet (AP)?
 feature: Automated Personalization
+exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-
 # ![](/help/assets/premium.png) PREMIUMAutomated Personalization (AP)
 
-[!UICONTROL Automated Personalization] (AP) i  [!DNL Adobe Target] kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva på lyft.
+[!UICONTROL Automated Personalization] (AP) i  [!DNL Adobe Target] kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva lyft.
 
 >[!NOTE]
 >
