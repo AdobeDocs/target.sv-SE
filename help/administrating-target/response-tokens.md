@@ -1,19 +1,19 @@
 ---
 keywords: svarstoken;tokens;plugins;plugin-program;at.js;response
-description: Lär dig hur du använder svarstoken i Adobe Target för att ta fram specifik information som ska användas vid felsökning och integrering med tredjepartssystem (som Clicktale).
+description: Lär dig hur du använder svarstoken i Adobe [!DNL Target] utdataspecifik information för felsökning och integrering med tredjepartssystem (som Clicktale).
 title: Vad är svarstoken och hur använder jag dem?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
 
-
-# Svarstoken{#response-tokens}
+# Svarstoken
 
 Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Target] (aktivitetsinformation, användarprofilsinformation, geoinformation o.s.v.) som kan användas vid felsökning eller integrering med tredjepartssystem (som Clicktale).
 
