@@ -1,23 +1,23 @@
 ---
 keywords: rapport;rapporter;rapportering;Experience cloud solution;tidszon;tidszon;valuta;exkludera IPs;beräknad ökning av intäkter;ökning av intäkter;finkorniga prioriteringar;finkornig
-description: Använd Target eller Adobe Analytics som rapportkälla, ange standardtidszon och standardvalutaformat, lägg till IP-adresser som ska uteslutas från rapportering och mycket annat.
+description: Använd [!DNL Target] eller Adobe Analytics som rapportkälla, ange standardtidszon och valutaformat, lägg till IP-adresser som ska uteslutas från rapportering och mycket annat.
 title: Hur konfigurerar jag rapportering i Target?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
-
 # Konfigurera rapportering i mål
 
 Konfigurera allmänna inställningar som ska användas i [!DNL Adobe Target]-rapporter som gäller för hela ditt [!DNL Target]-konto.
 
-Om du vill komma åt konfigurationssidan [!UICONTROL Reporting] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
+Du öppnar konfigurationssidan för [!UICONTROL Reporting] genom att klicka på **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 Du kan ange följande inställningar på den här sidan:
 
@@ -55,7 +55,7 @@ Ange den tidszon som ska användas för rapportering.
 
 Ange valutan som ska användas för rapportering.
 
-## IP-adresser som ska uteslutas från målrapporteringsdata
+## IP-adresser som ska uteslutas från [!DNL Target]-rapporteringsdata
 
 Ange de IP-adresser som du vill utesluta från rapportdata. Att utesluta interna företagsadresser är till exempel ett bra sätt att se till att dina rapporteringsdata återspeglar kundinteraktioner på din webbplats.
 
