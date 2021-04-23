@@ -1,16 +1,16 @@
 ---
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;parametermatchning
-description: Lär dig hur du filtrerar dynamiskt i Adobe Target Recommendations genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).
+description: Lär dig hur du filtrerar dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).
 title: Hur filtrerar jag efter parametermatchning i Recommendations-aktiviteter?
 feature: Recommendations
+exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
 
 ---
-
 
 # ![Matchning av ](/help/assets/premium.png) PREMIUMParameter
 
@@ -18,7 +18,7 @@ Filtrera dynamiskt genom att jämföra objekt (entiteter) med ett värde i begä
 
 Rekommendera t.ex. bara innehåll som matchar parametern&quot;branschsida&quot; eller andra parametrar som enhetsdimensioner eller geolokalisering, som i följande exempel.
 
-* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och endast rekommendera mobila enheter och tillbehör.
+* Mbox-parametrar för skärmbredd och -höjd kan användas för att rikta sig till mobilbesökare och bara rekommendera mobila enheter och tillbehör.
 * Skapa en rekommendationsregel som endast returnerar de mest sålda mobiltelefonerna som matchar eller överskrider skärmhöjden på den mobila enhet som besökaren använder för att visa sidan.
 * Regionala geopositioneringsparametrar kan användas för att returnera rekommendationer för verktyg under vintern. Snöblåsare och andra verktyg för att minska snön kan rekommenderas för besökare i områden där det snöar men inte för besökare i områden där det inte snöar.
 
