@@ -1,19 +1,19 @@
 ---
 keywords: entitetsattribut med flera värden;attribut för anpassade entiteter;giltig JSON;entitetsattributvärde;JSON-matris;flervärd;flervärd
-description: Lär dig hur du använder anpassade entitetsattribut för ett eller flera värden för att definiera ytterligare information om objekt i din Adobe Target Recommendations-katalog.
+description: Lär dig hur du använder anpassade entitetsattribut för ett eller flera värden för att definiera ytterligare information om objekt i din Adobe [!DNL Target] Recommendations-katalog.
 title: Hur använder jag anpassade entitetsattribut?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCustom entitetsattribut{#custom-entity-attributes}
+# ![](/help/assets/premium.png) PREMIUMCustom entitetsattribut
 
 Använd anpassade entitetsattribut med ett eller flera värden i [!DNL Adobe Target Recommendations] för att definiera ytterligare information om objekt i din katalog.
 
