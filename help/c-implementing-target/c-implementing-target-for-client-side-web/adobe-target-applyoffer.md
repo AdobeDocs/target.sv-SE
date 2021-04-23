@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;apply offer;apply offer;at.js;functions;function
-description: Använd funktionen adobe.target.applyOffer() för JavaScript-biblioteket för Adobe Target at.js om du vill använda svarsinnehållet.
+description: Använd funktionen adobe.target.applyOffer() för JavaScript-biblioteket Adobe [!DNL Target] at.js om du vill använda svarsinnehållet.
 title: Hur använder jag funktionen adobe.target.applyOffer()?
 feature: at.js
 role: Developer
+exl-id: d230d48f-0d6c-4f55-96a0-681dd31e8d16
 translation-type: tm+mt
-source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
-
 
 # adobe.target.applyOffer(options)
 
