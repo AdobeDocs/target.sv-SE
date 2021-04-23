@@ -1,18 +1,18 @@
 ---
 keywords: undantag
-description: Lär dig hur du skapar undantag i Adobe Target Recommendations för att förhindra att produkter eller innehåll rekommenderas för besökare.
+description: Lär dig hur du skapar undantag i Adobe [!DNL Target] Recommendations för att förhindra att produkter eller innehåll rekommenderas för besökare.
 title: Hur använder jag undantag i Recommendations-aktiviteter?
 feature: Recommendations
+exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
-
-# Undantag{#exclusions}
+# Undantag
 
 Skapa ett undantag i [!DNL Adobe Target Recommendations] för att förhindra att produkter eller innehåll rekommenderas för besökare. Ett undantag är en delmängd av produkter eller innehåll som inte bör rekommenderas för besökare.
 
