@@ -1,14 +1,14 @@
 ---
 keywords: implementera;implementera;konfigurera;konfigurera;sidparameter
-description: Hämta in data i Target med profilattribut på sidan.
-title: Hur hämtar jag data till målet med hjälp av attribut för sidprofil?
-feature: Implementation
+description: Hämta data till [!DNL Target] med attribut för sidprofil.
+title: Hur hämtar jag data till [!DNL Target] Använda attribut för sidprofil?
+feature: Implementering
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
