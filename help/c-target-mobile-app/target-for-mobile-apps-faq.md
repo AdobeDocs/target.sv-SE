@@ -1,17 +1,17 @@
 ---
 keywords: mobilapp;vanliga frågor;faq;target mobile app
-description: Se vanliga frågor och svar om Adobe Target för mobilappar.
-title: Vad ställs de ofta om Target for Mobile Apps?
-feature: Implement Mobile
+description: Visa vanliga frågor och svar om Adobe [!DNL Target] för mobilappar.
+title: Vilka är vanliga frågor om [!DNL Target] mobilappar?
+feature: Implementera mobil
 role: Developer
+exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # Mål för mobilappar - frågor och svar
 
@@ -33,10 +33,10 @@ Mer information finns i [dokumentationen för Adobe Places](https://placesdocs.c
 
 Nej, du behöver inte at.js för att använda SDK:n för mobilen. at.js är JavaScript-biblioteket [!DNL Target] för webbplatser. Adobe Experience Platform SDK för mobiler är till för mobilappar.
 
-## Är Target Mobile bara en funktion i Adobe Target Premium Product SKU?
+## Är [!DNL Target] Mobile endast en funktion i Adobe [!DNL Target] Premium Product SKU?
 
 Nej. För [!DNL Adobe Target Standard]-kunder kan du endast använda våra SDK:er för A/B Test och Experience Targeting (XT) med [!DNL Target Standard]-tillägget för mobilappar. Om du vill använda Recommendations- eller AI-baserade funktioner i mobilappen behöver du en [Adobe Target Premium](/help/c-intro/intro.md#premium)-licens.
 
-## Finns det någon mobilappsintegrering mellan mobilaktiviteterna Adobe Experience Manager (AEM) och Target?
+## Finns det någon mobilappsintegrering mellan Adobe Experience Manager (AEM) och [!DNL Target] mobilaktiviteter?
 
 Det står på vår färdplan, men det finns ingen tidslinje än. För närvarande kan du dela JSON [Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) från AEM till Target och det kan finnas en möjlighet att sedan använda dem i en mobilappsaktivitet.
