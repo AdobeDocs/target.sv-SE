@@ -1,16 +1,16 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;mått;måttdefinitioner
-description: Hitta svar på frågor om metriska definitioner och användning av Analytics for Target (A4T). Med A4T kan ni använda Analytics-rapportering med Adobe Target-aktiviteter.
+description: Hitta svar på frågor om måttdefinitioner och hur du använder Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting with Adobe [!DNL Target] aktiviteter.
 title: Var hittar jag information om metriska definitioner med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
-
 
 # Måttdefinitioner - A4T FAQ
 
