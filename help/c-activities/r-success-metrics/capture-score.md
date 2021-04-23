@@ -1,16 +1,16 @@
 ---
 keywords: inspelningspoäng;poäng
-description: Läs mer om Capture Score Engagement-mätningen i Adobe Target som beräknar en sammanställd poäng baserad på det värde som tilldelats de besökta sidorna på webbplatsen.
+description: Lär dig mer om Capture Score Engagement-måttet i Adobe [!DNL Target] som beräknar en sammanställd poäng baserad på det värde som tilldelats de sidor som besöktes på webbplatsen.
 title: Vad är mätvärdet för Capture Score?
 feature: Success Metrics
+exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
-
 
 # Hämtningspoäng
 
