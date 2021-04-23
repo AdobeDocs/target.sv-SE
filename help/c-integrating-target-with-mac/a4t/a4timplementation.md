@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Adobe Analytics;Analysbaserad aktivitet;Analytics report suite;report suite;Analytics Target integration;configure report suite
-description: Följ stegen som krävs för att implementera Analytics for Target (A4T) i era Adobe Target- och Adobe Analytics-lösningar.
-title: Hur implementerar jag analys för mål (A4T)?
-feature: Analytics for Target (A4T)
+description: Följ stegen som krävs för att implementera lösningar med Analytics för [!DNL Target] (A4T) in your Adobe [!DNL Target] och Adobe Analytics.
+title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
+feature: Analyser för mål (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
-
-# Analyser för målimplementering{#analytics-for-target-implementation}
+# Analyser för [!DNL Target]-implementering
 
 Flera steg krävs när du implementerar [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
@@ -168,4 +168,3 @@ I [!DNL Target] klickar du på **[!UICONTROL Administration > Visual Experience 
 
 * **[!UICONTROL Select per activity]** gör att du kan välja mellan  [!DNL Target] och  [!DNL Analytics] när du skapar varje aktivitet.
 * **[!UICONTROL Adobe Analytics]** anger  [!DNL Analytics] som rapportkälla för alla aktiviteter som du skapar.
-
