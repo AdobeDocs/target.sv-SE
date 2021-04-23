@@ -3,16 +3,16 @@ keywords: Recommendations;Inställningar;namn;mål;prioritet;varaktighet;rapport
 description: Lär dig hur du konfigurerar inställningarna som används för att beskriva och styra en Recommendations-aktivitet i Adobe Target.
 title: Hur konfigurerar jag aktivitetsinställningar för Recommendations?
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-
-# ![Inställningar för ](/help/assets/premium.png) PREMIUMRecommendations-aktivitet{#recommendations-activity-settings}
+# ![Inställningar för ](/help/assets/premium.png) PREMIUMRecommendations-aktivitet
 
 Information om de inställningar du kan använda för att beskriva och styra en [!UICONTROL Recommendations]-aktivitet i [!DNL Adobe Target].
 
