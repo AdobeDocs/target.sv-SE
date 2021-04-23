@@ -1,18 +1,18 @@
 ---
 keywords: Målgrupp;målgrupp;rapportering;framgångsmått
-description: Lär dig hur du väljer ett framgångsmått i Adobe Target som kvalificerar användaren för den rapporterande målgruppen.
+description: Lär dig hur du väljer ett framgångsmått i Adobe [!DNL Target] som kvalificerar användaren för den rapporterande målgruppen.
 title: Kan jag använda en rapportmålgrupp i ett framgångsmått?
 feature: Success Metrics
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-
-# Tillämpa en rapportmålgrupp på ett framgångsmått{#apply-a-reporting-audience-to-a-success-metric}
+# Tillämpa en rapportmålgrupp på ett framgångsmått
 
 Välj ett framgångsmått som kvalificerar användaren för den rapporterande målgruppen.
 
@@ -34,4 +34,3 @@ Tänk på följande information när du använder en rapportpublik för ett fram
 Om du vill visa segmenteringen i rapporter väljer du önskad målgrupp i listrutan Målgrupp i aktivitetens rapport.
 
 ![](assets/reporting_audience_dropdown.png)
-
