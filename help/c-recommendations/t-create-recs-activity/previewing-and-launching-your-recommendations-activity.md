@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;erbjudande;förhandsvisa;starta;status;villkor;algoritm
-description: 'Lär dig hur du förhandsgranskar din Adobe Target Recommendations-aktivitet för att se om resultaten är tillgängliga innan du startar aktiviteten. '
+description: 'Lär dig hur du förhandsgranskar din Adobe [!DNL Target] Recommendations-aktivitet för att se till att resultaten är tillgängliga innan du startar aktiviteten. '
 title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
 feature: Recommendations
+exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
 
 ---
-
 
 # Förhandsgranska och starta din Recommendations-aktivitet
 
@@ -44,7 +44,7 @@ Beteendedatakällan har störst inverkan på bearbetningstiden, enligt följande
 
 ### mboxes
 
-Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en ny körning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en ny körning är slutförd. Om en algoritm inte ändras kommer den automatiskt att köras igen med [!DNL Target] var 12-48:e timme, beroende på det valda dataområdet.
+Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en omkörning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en omkörning är slutförd. Om en algoritm inte ändras kommer den automatiskt att köras igen med [!DNL Target] var 12-48:e timme, beroende på det valda dataområdet.
 
 ### Adobe Analytics
 
