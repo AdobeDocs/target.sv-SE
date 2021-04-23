@@ -1,16 +1,16 @@
 ---
 keywords: Riktad;visuell upplevelsedisposition;vitlista;vit lista;tillåtelselista;tillåtelselista;förbättrad kompositör för visuell upplevelse;vec;felsök kompositör för visuell upplevelse;felsökning;eec;enhanced experience disser;tls;tls 1.2
-description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe Target Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
+description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!DNL Target] Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
-
 
 # Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer
 
@@ -42,7 +42,7 @@ Använd något av följande alternativ för att säkerställa att ditt VEC och E
    >
    >Detta *räcker inte* om cookies redan har attributet SameSite inställt på &quot;Lax&quot; eller &quot;Strict&quot; från servern.
 
-## Stöder Target iframes på flera nivåer?
+## Har [!DNL Target] stöd för iframes på flera nivåer?
 
 Målet stöder inte iframes på flera nivåer. Om webbplatsen läser in en iframe som har en underordnad iframe, samverkar Target-biblioteken (at.js och mbox.js) endast med den överordnade iframe-instansen. Målbiblioteken samverkar inte med den underordnade iframe-instansen.
 
@@ -52,7 +52,7 @@ Som en tillfällig lösning kan du lägga till en sida i upplevelsen med URL:en 
 
 Det här kan hända om URL:en innehåller tecknet #. Åtgärda problemet genom att växla till bläddringsläge i Visual Experience Composer och sedan växla tillbaka till Compose-läge. Rotationsrutan ska flyttas och sidan ska läsas in.
 
-## CSP-rubriker (Content Security Policy) blockerar Target-biblioteken på min webbplats. (VEC och EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## CSP-rubriker (Content Security Policy) blockerar [!DNL Target]-biblioteken på min webbplats. (VEC och EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Om webbplatsens CSP-rubriker blockerar Target-bibliotek läses webbplatsen in, men förhindrar redigering, kontrollerar du att Target-biblioteken inte blockeras.
 
