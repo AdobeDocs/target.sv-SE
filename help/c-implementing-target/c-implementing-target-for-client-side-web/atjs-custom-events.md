@@ -1,14 +1,14 @@
 ---
 keywords: anpassade händelser;at.js;begäran misslyckades;begäran lyckades;innehållsåtergivningen misslyckades;innehållsåtergivningen lyckades;biblioteket lästes in;begäran startades;återgivning av innehåll startades;återgivning av innehåll misslyckades;omdirigering av innehållsåtergivning
-description: Använd anpassade händelser för Adobe Target JavaScript-bibliotek at.js som ska meddelas när en mbox-begäran eller ett erbjudande misslyckas eller lyckas.
+description: Använd anpassade händelser för JavaScript-biblioteket Adobe [!DNL Target] at.js som ska meddelas när en mbox-begäran eller ett erbjudande misslyckas eller lyckas.
 title: Hur använder jag anpassade at.js-händelser?
 feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
