@@ -1,14 +1,14 @@
 ---
 keywords: Målstandard;Recommendations;Target Premium;Automated Personalization;auto target;auto target;permissions;what is adobe target;
-description: Lär dig grunderna i Adobe Target Standard och Adobe Target Premium. Target Premium innehåller avancerade funktioner som inte finns i standardprodukten.
+description: Lär dig grunderna i Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium innehåller avancerade funktioner som inte finns i standardprodukten.
 landing-page-description: Personalisera kundernas upplevelse för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 title: Vad är Target?
-feature: Overview
+feature: Översikt
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Den här funktionen öppnar upp helt nya funktioner, som:
 
 Mer information finns i [Recommendations Classic-dokumentationen](/help/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: Adobe Target Welcome Kit {#kit}
+## Experience League: Välkomstpaketet [!DNL Target] för Adobe {#kit}
 
 Bygg ditt optimerings- och personaliseringsprogram på [!DNL Adobe Target] med detta välkomstpaket. Välkomstpaketet innehåller viktig information, verktyg och resurser som hjälper dig att förbereda och starta din första [!DNL Target]-aktivitet. Paketet innehåller idéer för snabba vinster på kort sikt och långsiktiga optimeringsstrategier.
 
