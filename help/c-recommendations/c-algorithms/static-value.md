@@ -1,16 +1,16 @@
 ---
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;statiskt;statiskt filter
-description: Lär dig hur du anger ett eller flera statiska värden manuellt för att filtrera med inkluderingsregler i Adobe Target Recommendations.
+description: Lär dig hur du manuellt anger ett eller flera statiska värden som ska filtreras med inkluderingsregler i Adobe [!DNL Target] Recommendations.
 title: Hur filtrerar jag efter statiska värden i Recommendations-aktiviteter?
 feature: Recommendations
+exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMStatic-filter
 
@@ -29,4 +29,3 @@ Du kan skapa så många inkluderingsregler som behövs. Inkluderingsreglerna kop
 Om du vill skapa en inkluderingsregel med statiska värden för att rekommendera innehåll med MPA-klassificeringen &quot;G&quot; eller &quot;PG&quot; (exkludera innehållet &quot;R&quot; och &quot;NC17&quot;) kan du skapa följande filtreringsregler &quot;filmrankning lika med g-rating&quot; och &quot;filmrankning lika med pg-klassificering&quot;, som visas nedan.
 
 ![filmrankningsexempel](/help/c-recommendations/c-algorithms/assets/movies.png)
-
