@@ -1,19 +1,19 @@
 ---
 keywords: at.js;2.0;1.x;cookies
-description: Information om hur Adobe Target at.js 2.x och at.js 1.x hanterar cookies
+description: Information om hur cookies hanteras i Adobe [!DNL Target] at.js 2.x och at.js 1.x
 title: at.js Cookies
 feature: at.js
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
 
-
-# at.js cookies {#at-js-cookies}
+# at.js cookies
 
 Information om at.js 2.x och at.js 1.*Xcookie-* beteende.
 
@@ -124,11 +124,11 @@ Cookien har ett antal värden för att hantera hur besökarna upplever kampanjer
 | check | Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. |
 | disable | Ange om besökarens inläsningstid överskrider den timeout som har konfigurerats i filen mbox.js. Som standard varar detta 1 timme. |
 
-## Påverkan på Target för Safari-besökare på grund av ändringar i Apple WebKit-spårning
+## Påverkan på [!DNL Target] för Safari-besökare på grund av ändringar i Apple WebKit-spårning
 
 Tänk på följande:
 
-### Hur fungerar Adobe Target Tracking?
+### Hur fungerar spårning av Adobe [!DNL Target]?
 
 | Cookies | Detaljer |
 |--- |--- |
