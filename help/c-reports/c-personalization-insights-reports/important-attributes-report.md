@@ -1,18 +1,18 @@
 ---
 keywords: Målgruppsanpassning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;personalization;insights;faq;Vanliga frågor;viktiga attribut
-description: Lär dig hur du använder rapporten Viktiga attribut i Adobe Target som visar de viktigaste attributen som påverkade personaliseringsmodellen och deras relativa betydelse.
+description: Lär dig hur du använder rapporten Viktiga attribut i Adobe [!DNL Target] som visar de viktigaste attributen som påverkade personaliseringsmodellen och deras relativa betydelse.
 title: Vilken är den viktiga attributrapporten?
-feature: Reports
+feature: Rapporter
+exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMIimportant Attributes-rapport{#important-attributes-report}
+# ![](/help/assets/premium.png) PREMIUMIimportant Attributes-rapport
 
 Information om rapporten Viktiga attribut, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och AutoTarget-aktiviteter (AT).
 
@@ -63,7 +63,7 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
    ![](assets/personalization_insights_calendar_1.png)
 
-   Du kan komma åt de tillgängliga datumintervallen i listrutan [!UICONTROL Choose Duration].
+   Du kommer åt de tillgängliga datumintervallen från listrutan [!UICONTROL Choose Duration].
 
    ![](assets/personalization_insights_calendar_2.png)
 
