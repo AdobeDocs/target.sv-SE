@@ -2,18 +2,18 @@
 keywords: lägg till användare;hantera användare;användarbehörigheter
 description: Lär dig hur du använder Adobe Admin Console för att hantera användare och deras behörigheter och behörigheter i Adobe Target.
 title: Hur lägger jag till användare och hanterar behörigheter?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-
-# Användare{#users}
+# Användare
 
 Lägg till användare och hantera deras behörigheter i [!DNL Adobe Admin Console].
 
@@ -107,7 +107,7 @@ Systemadministratörsanvändare måste lägga till användare i systemet. Använ
 
 Mer information finns i [Hantera produktbehörigheter och roller i Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) i *Enterprise User Guide*.
 
-## Utbildningsvideo: Konfigurera målarbetsytor ![Självstudiekurs](/help/assets/tutorial.png)
+## Utbildningsvideo: Konfigurera Adobe Target Workspaces ![Självstudiekurs](/help/assets/tutorial.png)
 
 Utbildningsmål:
 
