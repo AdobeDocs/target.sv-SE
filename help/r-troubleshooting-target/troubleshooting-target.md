@@ -2,15 +2,15 @@
 keywords: felsökningsmål;felsökningsmål
 description: Granska en lista med ämnen som kan hjälpa dig att lösa problem i Adobe Target, inklusive felsökningsfrågor, vanliga frågor och svar samt andra användbara ämnen.
 title: Hur felsöker jag Target?
-feature: Troubleshooting
+feature: Felsökning
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
 
 ---
-
 
 # Felsök mål
 
@@ -56,7 +56,7 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 * [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Vanliga frågor om design](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analys- och Target-integrering (A4T)
+## Analyser och integrering med [!DNL Target] (A4T)
 
 * [Felsökning Analytics och Target-integrering](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
