@@ -1,22 +1,22 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;sökmotoroptimering;sökmotoroptimering;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Lär dig hur Adobe Target fungerar, inklusive information om Target JavaScript-bibliotek (at.js och AEP Web SDK), Adobe datacenter och SEO-testning.
-title: Hur fungerar Target?
-feature: Overview
+description: Lär dig hur Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript-bibliotek (at.js och AEP Web SDK), Adobe datacenter och SEO-testning.
+title: Hur fungerar [!DNL Target] funktionen?
+feature: Översikt
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2548'
 ht-degree: 0%
 
 ---
 
-# Så här fungerar Adobe Target
+# Så här fungerar Adobe [!DNL Target]
 
 Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om [!DNL Adobe Experience Platform Web SDK]- och JavaScript-biblioteken (at.js och mbox.js). I den här artikeln beskrivs även de olika aktivitetstyper som du kan skapa med [!DNL Target]. Du kan också lära dig mer om gränsnätverket [!DNL Target], sökmotoroptimering (SEO) och hur [!DNL Target] identifierar robotar.
 
-## SDK:er för målplattformen och JavaScript-bibliotek {#libraries}
+## [!DNL Target] SDK:er och JavaScript-bibliotek för plattformar  {#libraries}
 
 [!DNL Target] integreras med webbplatser med hjälp av  [!DNL AEP Web SDK] eller JavaScript-bibliotek:
 
@@ -41,7 +41,7 @@ I [!DNL Target] är varje element på sidan en del av en upplevelse för hela si
 
 Det innehåll som visas för besökarna beror på vilken typ av aktivitet du skapar:
 
-### A/B-test
+### [!UICONTROL A/B Test]
 
 Innehållet som visas i ett grundläggande A/B-test väljs slumpmässigt bland de upplevelser som du tilldelar aktiviteten. Du kan tilldela procentvärden för trafikallokering för varje upplevelse. Som ett resultat av denna slumpmässiga uppdelning av trafiken kan det ta en betydande del av den inledande trafiken innan procentsatserna blir ojämnade. Om du till exempel skapar två upplevelser väljs startupplevelsen slumpmässigt. Om trafiken är liten är det möjligt att andelen besökare kan skevas mot en upplevelse. När trafiken ökar utjämnas procentsatserna.
 
@@ -54,25 +54,25 @@ Du kan ange procentvärden för varje upplevelse. I det här fallet genereras et
 
 Mer information finns i [Skapa ett A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-### Automatisk allokering
+### [!UICONTROL Auto-Allocate]
 
-Automatisk tilldelning identifierar en vinnare bland två eller flera upplevelser. Automatisk allokering omfördelar automatiskt mer trafik till den vinnande upplevelsen, vilket ökar antalet konverteringar medan testet fortsätter att köras och lära sig mer.
+[!UICONTROL Auto-Allocate] identifierar en vinnare bland två eller flera upplevelser. [!UICONTROL Auto-Allocate] allokerar automatiskt om mer trafik till den vinnande upplevelsen, vilket bidrar till att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 
-Mer information finns i [Automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Mer information finns i [[!UICONTROL Auto-Allocate]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-### Automatiskt mål (AT)
+### [!UICONTROL Auto-Target] (AT)
 
 Auto-Target använder avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser. Auto-Target är den mest skräddarsydda upplevelsen för varje besökare. Leveransen av upplevelsen baseras på enskilda kundprofiler och beteendet hos tidigare besökare med liknande profiler. Använd Automatiskt mål för att anpassa innehåll och driva konverteringar.
 
 Mer information finns i [Automatisk målkatalog](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
-### Automated Personalization (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevarianter för varje besökare. Leveransen av upplevelser bygger på individuella kundprofiler för att personalisera innehåll och driva på lyft.
 
 Mer information finns i [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
-### Experience Targeting (XT)
+### [!UICONTROL Experience Targeting] (XT)
 
 Experience Targeting (XT) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier.
 
@@ -80,13 +80,13 @@ Experience Targeting, inklusive geolokalisering, är värdefullt för att defini
 
 Mer information finns i [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
 
-### Multivariata tester (MVT)
+### [!UICONTROL Multivariate Test] (MVT)
 
 Multivariate Testing (MVT) jämför kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp. MVT hjälper till att identifiera vilket element som mest påverkar aktivitetens framgång.
 
 Mer information finns i [Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
-### Recommendations
+### [!UICONTROL Recommendations]
 
 Recommendations-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer. Recommendations hjälper kunderna att hänvisa till relevanta saker som de annars kanske inte känner till.
 
@@ -213,6 +213,6 @@ För känd robottrafik [!DNL Target]:
 * Skapa eller hämta en besökarprofil
 * Logga alla profilattribut eller kör profilskript
 * Slå upp Adobe Audience Manager-segment (AAM) (om tillämpligt)
-* Använd robottrafik för att modellera och leverera personaliserat innehåll för Recommendations-, Auto-Target-, Automated Personalization- eller Auto-Allocate-aktiviteter
+* Använd robottrafik för att modellera och leverera personaliserat innehåll för Recommendations-, Auto-Target-, Automated Personalization- eller [!UICONTROL Auto-Allocate]-aktiviteter
 * Logga ett aktivitetsbesök för rapportering
 * Loggdata som ska skickas till [!DNL Adobe Experience Cloud]-plattformen
