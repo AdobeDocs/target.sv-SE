@@ -1,16 +1,16 @@
 ---
 keywords: innehållsbibliotek;resurser;anteckna;kopiera;ta bort resurs;hämta resurs;redigera innehåll;dela kort;visa innehållsegenskaper
-description: Lär dig hur du hanterar kod och bilderbjudanden i Adobe Target Offers-biblioteket. Lär dig hur du visar information om ett erbjudande och hur du redigerar, kopierar, flyttar eller tar bort erbjudanden.
+description: Lär dig hur du hanterar kod och bilderbjudanden i Adobe [!DNL Target] Erbjudandebiblioteket. Lär dig hur du visar information om ett erbjudande och hur du redigerar, kopierar, flyttar eller tar bort erbjudanden.
 title: Hur arbetar jag med innehåll i offertbiblioteket?
-feature: Experiences and Offers
+feature: Erfarenheter och erbjudanden
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
-
 
 # Arbeta med innehåll i resursbiblioteket
 
