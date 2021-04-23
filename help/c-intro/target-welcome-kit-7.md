@@ -1,18 +1,18 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Låt oss komma igång med din första aktivitet i Adobe Target så att du kan få avkastning på din investering.
+description: Låt oss komma igång med din första aktivitet i Adobe [!DNL Target] så att du kan få avkastning på din investering.
 title: Jag måste skapa min första aktivitet i Target. Var ska jag börja?
-feature: Overview
+feature: Översikt
+exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
 
-
-# Kapitel 7: Skapa och kör din första Target-aktivitet
+# Kapitel 7: Skapa och kör din första [!DNL Target]-aktivitet
 
 Så du är redo att komma igång med din första aktivitet i [!DNL Target]? Underbar. Låt oss komma på en aktivitet för er webbplats, mobilsajt eller mobilapp som inte är alltför komplex, men som kan ge snabb avkastning och få er att uppskatta potentialen med att använda [!DNL Target] för att testa och personalisera. Beroende på din organisation och dess fokus kan du överväga att gå någon av tre olika vägar med den första aktiviteten.
 
@@ -106,6 +106,6 @@ När aktiviteten är klar dokumenterar du resultaten och ser till att dessa resu
 
 Dina aktivitetsresultat ger ofta insikter i vilka åtgärder du bör vidta härnäst. Om en upplevelsevariation var något som gick bra kan det vara bra att hårdkoda det på webbplatsen. Du kan se möjligheter att använda den framgången på andra liknande sidor. Resultatet kan peka på mer arbete som behöver göras för att förbättra kundupplevelsen på den här sidan. I det här området kan du dokumentera viktiga inlärningar från aktiviteten och dokumentera vad du ska göra baserat på dessa inlärningar.
 
-## Öppna Target och skapa och starta din aktivitet
+## Öppna [!DNL Target] och skapa och starta aktiviteten
 
 Du har fyllt i din aktivitetsplanerare. Nu är det dags att sätta sig in i lösningen och skapa din aktivitet. [!DNL Target] gör det superenkelt att ändra webbsidan i  [!UICONTROL Visual Experience Composer].
