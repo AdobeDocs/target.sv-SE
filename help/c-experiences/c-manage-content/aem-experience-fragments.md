@@ -1,16 +1,16 @@
 ---
 keywords: upplevelse;json;aem;adobe experience manager;export till adobe target;experience fragments;fragments;XF
-description: Lär dig använda AEM upplevelsefragment i Adobe Target-aktiviteter. Kombinera enkelheten och kraften i AEM med kraftfulla AI- och ML-funktioner i Target.
+description: Lär dig hur du använder AEM upplevelsefragment i Adobe [!DNL Target] aktiviteter. Kombinera enkelheten och kraften i AEM med kraftfulla AI- och ML-funktioner i [!DNL Target].
 title: Hur använder jag Adobe Experience Manager (AEM) Experience Fragments?
-feature: Experiences and Offers
+feature: Erfarenheter och erbjudanden
+exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 0%
 
 ---
-
 
 # AEM upplevelsefragment
 
@@ -78,7 +78,7 @@ Beroende på din [!DNL AEM]-version finns följande länkar för stegvisa instru
 * **[!DNL AEM]6.4**:  [Exportera en Experience Fragment till ](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) mål för  *Adobe Experience Manager 6.4-* dokumentationen.
 * **[!DNL AEM]6.5**:  [Exportera en Experience Fragment till ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) mål för  *Adobe Experience Manager 6.5-* dokumentationen.
 
-## Använda upplevelsefragment i målaktiviteter {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Använda upplevelsefragment i [!DNL Target]-aktiviteter {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 När du har utfört de föregående åtgärderna visas upplevelsefragmentet på sidan [!UICONTROL Offers] i [!DNL Target].
 
