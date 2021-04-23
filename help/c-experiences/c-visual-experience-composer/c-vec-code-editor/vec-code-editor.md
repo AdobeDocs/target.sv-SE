@@ -1,18 +1,18 @@
 ---
 keywords: css-väljare;egen kod;kodredigerare;Mobile Web Experience Editor
-description: Lär dig hur du använder panelen Ändringar i Adobe Target för att visa sidändringar och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
+description: Lär dig hur du använder panelen Ändringar i Adobe [!DNL Target] för att visa sidändringar och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
 title: Vilka ändringar kan jag göra på min sida?
 feature: Visual Experience Composer (VEC)
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2091'
 ht-degree: 0%
 
 ---
 
-
-# Ändringar{#modifications}
+# Ändringar
 
 Information om sidan Modifications i [!DNL Adobe Target] som gör att du kan visa ändringar på sidan och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
 
