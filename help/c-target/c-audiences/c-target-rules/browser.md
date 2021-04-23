@@ -1,18 +1,18 @@
 ---
 keywords: webbläsaralternativ;typ;webbläsartyp;webbläsarspråk;språk;version;webbläsarversion
-description: Lär dig hur du skapar målgrupper i Adobe Target för användare som använder en viss webbläsare eller särskilda webbläsaralternativ när de besöker din sida.
-title: Kan jag rikta in besökarna baserat på webbläsartyp?
-feature: Audiences
+description: Lär dig hur du skapar målgrupper i Adobe [!DNL Target] för användare som använder en viss webbläsare eller specifika webbläsaralternativ när de besöker din sida.
+title: Kan jag [!DNL Target] Besökare baserat på webbläsartyp?
+feature: Målgrupper
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-
-# Webbläsare{#browser}
+# Webbläsare
 
 Du kan rikta in dig på användare som använder en viss webbläsare eller särskilda webbläsaralternativ när de besöker sidan.
 
