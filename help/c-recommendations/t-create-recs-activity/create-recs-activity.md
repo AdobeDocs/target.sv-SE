@@ -1,18 +1,18 @@
 ---
 keywords: skapa rekommendationer;rekommendationsaktivitet;nya rekommendationer;rekommendationer översikt
-description: Lär dig hur du använder Adobe Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida.
+description: Lär dig hur du använder Adobe [!DNL Target] Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en [!DNL Target]-aktiverad sida.
 title: Hur skapar jag en Recommendations-aktivitet?
 feature: Recommendations
+exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCkapa en Recommendations-aktivitet{#create-a-recommendations-activity}
+# ![](/help/assets/premium.png) PREMIUMCkapa en Recommendations-aktivitet
 
 Använd Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
 
@@ -89,7 +89,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
       Vissa villkor ingår i [!DNL Recommendations]. Du och ditt team kan också skapa egna kriterier.
 
-   * Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för de nya villkoren. Mer information om hur du skapar nya villkor finns i [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
    * Du kan också gruppera villkor i sekvenser. Om du vill skapa en ny villkorssekvens klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Mer information finns i [Skapa villkorssekvens](/help/c-recommendations/c-algorithms/create-criteria-sequence.md).
 
 1. Klicka på **[!UICONTROL Next]**.
