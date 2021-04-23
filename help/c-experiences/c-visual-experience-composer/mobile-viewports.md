@@ -1,16 +1,16 @@
 ---
 keywords: responsiv;mobila visningsportar;visningsruta;enheter;mobil;responsiv webbdesign;rwd
-description: Mobila visningsrutor hjälper dig att se hur dina Adobe Target-aktiviteter ser ut på skärmar av olika storlek. Hitta en lista med populära storlekar och upplösningar för visningsrutor.
+description: Med mobilvisningsrutor kan du se hur dina Adobe [!DNL Target] aktiviteter ser ut på skärmar av olika storlek. Hitta en lista med populära storlekar och upplösningar för visningsrutor.
 title: Hur använder jag mobila visningsrutor för responsiva upplevelser?
 feature: Visual Experience Composer (VEC)
+exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
-
 
 # Mobila visningsportar för responsiva upplevelser
 
@@ -45,7 +45,7 @@ Nedan visas visningsrutor och upplösningar för populära enheter. Kom ihåg at
 | iPhone 11 Xs max | 414 x 896 | 1 242 x 2 688 |
 | iPhone 11 | 414 x 896 | 828 x 1792 |
 | iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 12 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
 | iPhone 11 X | 375 x 812 | 1125 x 2436 |
 | iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
 | iPhone X | 375 x 812 | 1125 x 2436 |
