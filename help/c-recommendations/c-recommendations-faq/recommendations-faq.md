@@ -1,16 +1,16 @@
 ---
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;rekommendationer;specialtecken;attributvikt;innehållets likhet
-description: Se en lista med vanliga frågor och svar om Adobe Target Recommendations.
-title: Var hittar jag frågor och svar om Target Recommendations?
+description: Visa en lista med vanliga frågor och svar om Recommendations-aktiviteter i Adobe [!DNL Target] .
+title: Var hittar jag frågor och svar om  [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2675'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMRecommendations FAQ
 
@@ -130,7 +130,7 @@ Den här typen av viktning är mer dynamisk och baseras på den aktuella rekomme
 
 ![](assets/content_similarity_example.png)
 
-## Varför kan Target ibland inte visa rekommendationer? {#section_DB3F40673AED42228E407C05437D99E9}
+## Varför kan [!DNL Target] ibland inte visa rekommendationer? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Målet kan ibland inte visa rekommendationer på grund av det låga antalet tillgängliga rekommendationer.
 
@@ -223,5 +223,3 @@ Om en besökare har två aktiva sessioner samtidigt uppdaterar inte nyligen visa
 Observera att det här fortfarande händer om en besökare är aktiv på en enhet och sedan aktiveras på den andra enheten några minuter senare. Den första enhetens session upphör inte att gälla på 30 minuter och det kan ta upp till fem minuter innan profilläget skrivs till det permanenta läget och bearbetas. Det kan ta 35 minuter innan sessionen upphör att gälla och profilen sparas när du testar det här beteendet.
 
 Om besökaren inte har två aktiva sessioner samtidigt uppdaterar nyligen visade objekt på en enhet de senast visade objekten på den andra enheten så länge sessionen har avslutats. Det kan ta 35 minuter innan sessionen går ut när du testar det här beteendet.
-
-
