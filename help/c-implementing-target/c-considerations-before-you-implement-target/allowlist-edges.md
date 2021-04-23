@@ -1,19 +1,19 @@
 ---
 keywords: implementera;implementera;vitlista;vit lista;tillåtelselista;tillåtelselista;kant;kanter
-description: Visa en lista med värdar som hjälper dig att tillåtslista Adobe Target-kanter (geografiskt utspridda noder som ger optimala svarstider för slutanvändarna).
-title: Hur Tillåtslista jag Edge-målnoder?
-feature: Privacy & Security
+description: Visa en lista med värdar som hjälper dig att tillåtslista Adobe [!DNL Target] kanter (geografiskt fördelade noder som ger optimala svarstider för slutanvändare).
+title: 'Hur Tillåtslista jag Edge-noder? [!DNL Target] '
+feature: Integritet och säkerhet
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 translation-type: tm+mt
-source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '246'
 ht-degree: 5%
 
 ---
 
-
-# Tillåtelselista: Hörnkantsnoder
+# Tillåtelselista [!DNL Target] kantnoder
 
 Information och en uppdaterad lista över värdar som kan hjälpa dig att tillåtslista kanter i [!DNL Adobe Target].
 
@@ -21,7 +21,7 @@ En kant är en geografiskt fördelad serverarkitektur som ger optimala svarstide
 
 Du kan tillåtslista kantnoderna [!DNL Target] om du vill.
 
-## NAT-IP-adresser (Network Address Translation) för målkanter
+## NAT-adresser (Network Address Translation) med kanter på [!DNL Target]
 
 Lista över IP-adresser för utgångar för [!DNL Target]-kanter. Tillåtslista dessa IP-adresser om du tänker få Target att nå ut till era tjänster.
 
@@ -49,8 +49,3 @@ Lista över IP-adresser för [!DNL Target]-kanter. Tillåtslista de här IP-adre
 | Edge36 (Sydney) | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
 | Edge37 (Irland) | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>5 2.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
 | Edge38 (Singapore) | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
-
-
-
-
-
