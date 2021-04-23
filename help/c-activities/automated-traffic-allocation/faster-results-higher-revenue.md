@@ -1,16 +1,16 @@
 ---
 keywords: automatiserad trafikallokering;mål;autoallokering;automatisk tilldelning
-description: Läs om hur en Autoallokera-aktivitet i Adobe Target identifierar en vinnare bland två eller fler upplevelser och automatiskt omfördelar mer trafik till vinnaren.
+description: Läs om hur en autoallokeringsaktivitet i Adobe [!DNL Target] identifierar en vinnare bland två eller fler upplevelser och automatiskt omfördelar mer trafik till vinnaren.
 title: Kan autofördela aktiviteter få snabbare resultat och högre intäkter?
-feature: Auto-Allocate
+feature: Automatisk allokering
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
 
 ---
-
 
 # Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test
 
@@ -47,4 +47,3 @@ När du behöver rangordna hur varje upplevelse som utförs i förhållande till
 ## Kom igång
 
 Vill du starta din första [!UICONTROL Auto-Allocate]-aktivitet? [Läs mer här](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
-
