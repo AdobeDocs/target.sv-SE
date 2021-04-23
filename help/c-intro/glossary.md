@@ -1,17 +1,17 @@
 ---
-description: Vad betyder olika termer i Adobe Target? Hitta definitioner av vanliga termer som hjälper dig att få ut mer av Target.
+description: Vad betyder olika termer i Adobe [!DNL Target] ? Hitta definitioner av vanliga termer som hjälper dig att få ut mer av [!DNL Target].
 title: Var hittar jag de termer och definitioner som används i Target?
-feature: Overview
+feature: Översikt
+exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2458'
 ht-degree: 1%
 
 ---
 
-
-# Ordlista{#glossary}
+# Ordlista
 
 Definitioner av termer.
 
