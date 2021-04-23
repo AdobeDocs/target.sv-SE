@@ -1,18 +1,18 @@
 ---
 keywords: document.write;target;implementera;implementera target;dtm;dynamisk tagghantering;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: Implementera Adobe Target genom att referera till Target-biblioteken (at.js eller mbox.js) på dina webbsidor.
-title: Förstå målbiblioteken i JavaScript
-feature: Implementation
+description: Implementera Adobe [!DNL Target] by referencing the [!DNL Target] bibliotek (at.js eller mbox.js) på dina webbsidor.
+title: Förstå [!DNL Target] JavaScript-biblioteken
+feature: Implementering
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 
-# Förstå målbiblioteken i JavaScript
+# Förstå [!DNL Target] JavaScript-biblioteken
 
 Implementera [!DNL Adobe Target] genom att referera till [!DNL Adobe Target]-biblioteken (Adobe Experience Platform Web SDK eller at.js) på dina webbsidor.
 
@@ -20,7 +20,7 @@ Implementera [!DNL Adobe Target] genom att referera till [!DNL Adobe Target]-bib
 >
 >Biblioteket mbox.js utvecklas inte längre. Alla kunder måste migrera från mbox.js till at.js eller till [!UICONTROL Adobe Experience Platform Web SDK] före 31 mars 2021. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) eller [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-## Skillnader mellan mål-JavaScript-bibliotek {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Skillnader mellan [!DNL Target] JavaScript-biblioteken {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 I följande tabell förklaras skillnaderna mellan JavaScript-biblioteken [!DNL Target]:
 
