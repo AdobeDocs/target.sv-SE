@@ -1,16 +1,16 @@
 ---
 keywords: felsöka mål;felsökningsmål;standardinnehåll;testa inte live;aktivitet inte live;målinriktning inte fungerar;föregående upplevelse visas;kan inte skapa aktiviteter;kan inte skapa aktiviteter;skapa aktiviteter;sidstruktur ändrad;sidstruktur ändrad;felmeddelande;felborttagningsprofilskript;ajax fungerar inte
-description: Hitta felsökningsförslag om din Adobe Target-aktivitet inte skulle visas på din webbplats.
+description: Hitta felsökningsförslag om din Adobe [!DNL Target] aktivitet inte skulle visas på din webbplats.
 title: Hur felsöker jag aktiviteter?
-feature: Activities
+feature: Verksamhet
+exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
-
 
 # Felsöka aktiviteter
 
@@ -22,7 +22,7 @@ Om din [!DNL Adobe Target]-aktivitet inte visas på din webbplats bör dessa fel
 
 Följande avsnitt innehåller problem som du kan stöta på när du föreslår lösningar.
 
-## Jag skapade en aktivitet med målgränssnittet och kan inte uppdatera den via API.
+## Jag skapade en aktivitet med hjälp av användargränssnittet för [!DNL Target] och kan inte uppdatera den via API.
 
 Aktiviteter som skapas med målgränssnittet bör uppdateras via målgränssnittet. Aktiviteter som skapas via API ska uppdateras via API. Om du ursprungligen skapade en aktivitet med API, till exempel, men sedan redigerar aktiviteten via målgränssnittet, uppdateras inte alla ändringar. Alla ändringar lagras på serverdelen och kan uppdateras genom att du gör ett annat API-anrop.
 
@@ -69,7 +69,7 @@ Kontrollera att aktiviteten är slutförd och att den har aktiverats.
 * Prova en annan webbläsare.
 * Använd läget Privat/Inkognito.
 
-## Du har nyligen lagts till i Target men kan inte skapa aktiviteter.
+## Du har nyligen lagts till i [!DNL Target] men kan inte skapa aktiviteter.
 
 **validera:** Klicka på Skapa aktivitet. Om alternativet inte är tillgängligt har du förmodligen inte fått tillräcklig behörighet för att skapa en aktivitet.
 
@@ -141,6 +141,6 @@ Gör något av följande:
 
 **Obs!** Flera ajax- [!DNL Target] anrop med samma namn men olika parametrar fungerar inte på samma sida. Endast den första samtalet kommer att göras.
 
-## Du har aktiverat en aktivitet med Target API, men aktiviteten visar statusen [!UICONTROL Inactive] i Target-gränssnittet.
+## Du har aktiverat en aktivitet med API:t [!DNL Target], men aktiviteten visar statusen [!UICONTROL Inactive] i gränssnittet för [!DNL Target].
 
 När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användargränssnittet med Target-API:t, kan det ta upp till tio minuter att uppdatera gränssnittet.
