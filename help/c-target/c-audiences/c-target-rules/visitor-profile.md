@@ -1,18 +1,18 @@
 ---
 keywords: besökarprofil;målbesökarprofil
-description: Lär dig hur du skapar målgrupper i Adobe Target för besökare som uppfyller specifika profilparametrar som nya eller återkommande besökare, kategoritillhörighet med mera.
-title: Kan jag rikta in mig på besökare som uppfyller specifika profilparametrar?
-feature: Audiences
+description: Lär dig hur du skapar målgrupper i Adobe [!DNL Target] för att rikta in dig på besökare som uppfyller specifika profilparametrar som nya eller återkommande besökare, kategoritillhörighet med mera.
+title: Kan jag [!DNL Target] besökare som uppfyller specifika profilparametrar?
+feature: Målgrupper
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-
-# Besökarprofil{#visitor-profile}
+# Besökarprofil
 
 Skapa målgrupper för målgrupper som uppfyller specifika profilparametrar.
 
