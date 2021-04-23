@@ -2,17 +2,17 @@
 keywords: rapporter;auto target;auto target;AT;report
 description: Lär dig hur du tolkar sammanfattningsrapporten för automatisk målanpassning i Adobe Target. Du kan växla till rapporterna Automatiserade segment och Viktiga attribut från den här rapporten.
 title: Hur använder jag den automatiska målsammanfattningsrapporten?
-feature: Reports
+feature: Rapporter
+exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
-
-# ![Sammanfattningsrapport ](/help/assets/premium.png) för PREMIUMAuto-Target{#auto-target-summary-report}
+# ![Sammanfattningsrapport ](/help/assets/premium.png) för PREMIUMAuto-Target
 
 Information om hur du tolkar [!UICONTROL Auto-Target Summary]-rapporterna i [!DNL Adobe Target].
 
