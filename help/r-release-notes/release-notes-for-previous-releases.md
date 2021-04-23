@@ -2,17 +2,17 @@
 keywords: Versionsinformation
 description: Se en lista över funktioner, förbättringar och korrigeringar som ingår i tidigare versioner av Adobe Target.
 title: Vilka funktioner ingår i tidigare versioner?
-feature: Release Notes
+feature: Versionsinformation
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '30485'
+source-wordcount: '30452'
 ht-degree: 0%
 
 ---
 
-# Versionsinformation för tidigare versioner{#release-notes-for-previous-releases}
+# Versionsinformation för tidigare versioner
 
 Versionsinformation för tidigare Target-versioner, inklusive versionsinformation för Target Standard/Premium, Target-plattformen och Target Javascript-biblioteket (at.js).
 
@@ -2201,7 +2201,7 @@ Den här versionen innehåller följande förbättringar:
 
 * Alternativet [!UICONTROL Render Using JavaScript] stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer.
 
-### Adobe Target Standard/Premium 16.8.1 (23 augusti 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe [!DNL Target] Standard/Premium 16.8.1 (23 augusti 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 Adobe Target Standard/Premium 16.8.1 (23 augusti 2016) innehåller följande funktioner och förbättringar:
 
@@ -2272,7 +2272,7 @@ Följande kända fel har rapporterats:
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.7.1 (21 juli 2016) {#section_DB583EF9A30247A488EE319583911F22}
+### Adobe [!DNL Target] Standard/Premium 16.7.1 (21 juli 2016) {#section_DB583EF9A30247A488EE319583911F22}
 
 Adobe Target Standard/Premium 16.7.1 (21 juli 2016) innehåller följande funktioner och förbättringar:
 
@@ -2337,7 +2337,7 @@ Adobe Target Standard/Premium 16.7.1 (21 juli 2016) innehåller följande funkti
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.6.1 (16 juni 2016) {#section_C1E9F43111BF4160AF31482CD53E00BD}
+### Adobe [!DNL Target] Standard/Premium 16.6.1 (16 juni 2016) {#section_C1E9F43111BF4160AF31482CD53E00BD}
 
 Det finns ingen kundinriktad release planerad till juni.
 
@@ -2367,7 +2367,7 @@ Följande kända fel har rapporterats:
 
    Om det här alternativet är markerat i aktivitetens upplevelsedisposition för äldre aktiviteter innebär det att din omdirigering kommer att innehålla frågeparametrarna. Om den inte är markerad inkluderas inte aktuella frågeparametrar i omdirigeringen.
 
-### Adobe Target Standard/Premium 16.5.1 (19 maj 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe [!DNL Target] Standard/Premium 16.5.1 (19 maj 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
 
 Adobe Target Standard/Premium 16.5.1 (19 maj 2016) innehåller följande funktioner och förbättringar:
 
@@ -2441,7 +2441,7 @@ Följande kända fel har rapporterats:
 * När&quot;Inaktivera JavaScript&quot; har valts för sida A i en flersidig aktivitet inaktiveras JavaScript överallt, även om&quot;Inaktivera JavaScript&quot; inte har valts på andra sidor.
 * Problem med URL:er för förhandsgranskning av upplevelser för upplevelser med en omdirigering. Du kan lösa det genom att klicka på **[!UICONTROL Configure]** i Experience Composer, välja **[!UICONTROL Multiple Audiences]** och lägga till **[!UICONTROL All visitors]** som den enda målgruppen. Fortsätt spara aktiviteten. Detta påverkar inte leveransen av din aktivitet, men tillåter förhandsgranskning. Detta kommer att rättas till i juliversionen av Adobe Target.
 
-### New Target Implementation Library, at.js 0.8.0 (5 maj 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
+### Nytt [!DNL Target]-implementeringsbibliotek, at.js 0.8.0 (5 maj 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js är ett nytt implementeringsbibliotek för Target som är utformat för både vanliga webbimplementeringar och ensidiga program.
 
@@ -2456,7 +2456,7 @@ Tänk på följande när du implementerar at.js:
 * Asynkron implementering innebär att äldre integreringar som plugin-programmet Test&amp;Target till SiteCatalyst kanske inte fungerar.
 * Alla anrop till Target görs via XMLHTTPRequest och innehållet returneras via JSON.
 
-### Adobe Target Standard/Premium 16.4.1 Fix (5 maj 2016) {#section_70552F61E83140C7B4D2A245198B630E}
+### Adobe [!DNL Target] Standard/Premium 16.4.1 Fix (5 maj 2016) {#section_70552F61E83140C7B4D2A245198B630E}
 
 * at.js v 0.8.0 kan nu laddas ned från Target-gränssnittet.
 * Mål-API har ändrats. `applyOffer` nu krävs  `mbox param [0]`.
@@ -2470,7 +2470,7 @@ Tänk på följande när du implementerar at.js:
    });
    ```
 
-### Adobe Target Standard/Premium 16.4.1 (21 april 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
+### Adobe [!DNL Target] Standard/Premium 16.4.1 (21 april 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -2542,7 +2542,7 @@ Följande kända fel har rapporterats:
 
 * När&quot;Inaktivera JavaScript&quot; har valts för sida A i en flersidig aktivitet inaktiveras JavaScript överallt, även om&quot;Inaktivera JavaScript&quot; inte har valts på andra sidor.
 
-### Adobe Target Standard/Premium 16.3.1 (15 mars 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe [!DNL Target] Standard/Premium 16.3.1 (15 mars 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -2591,7 +2591,7 @@ Följande kända fel har rapporterats:
    * Använd Firefox eller Internet Explorer.
    * Aktivera Förbättrad Experience Composer, som kan konfigureras från fliken **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
 
-### Adobe Target Standard/Premium 16.2.1 (18 februari 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
+### Adobe [!DNL Target] Standard/Premium 16.2.1 (18 februari 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -2613,7 +2613,7 @@ Följande kända fel har rapporterats:
    * Använd Firefox eller Internet Explorer.
    * Aktivera Förbättrad Experience Composer, som kan konfigureras från fliken **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
 
-### Adobe Target Standard/Premium 16.1.1 (28 januari 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
+### Adobe [!DNL Target] Standard/Premium 16.1.1 (28 januari 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -2693,7 +2693,7 @@ Följande kända fel har rapporterats:
 
 ## Utgåvor 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
-### Adobe Target Standard/Premium 15.10.1 (2 november 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
+### Adobe [!DNL Target] Standard/Premium 15.10.1 (2 november 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
 <!-- 
 
@@ -2803,7 +2803,7 @@ Följande kända fel har rapporterats:
 
 * När&quot;Inaktivera javascript&quot; är aktiverat för pageA i en flersidig aktivitet är JavaScript fortfarande aktiverat för alla sidor, men funktionen är fortfarande inaktiverad.
 
-### Adobe Target Standard/Premium 15.9.1 (30 september 2015) {#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe [!DNL Target] Standard/Premium 15.9.1 (30 september 2015) {#section_A54204291A99476688E8C0BD8255F93C}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -2879,7 +2879,7 @@ Följande kända fel har rapporterats:
 
 * När&quot;Inaktivera javascript&quot; är aktiverat för pageA i en flersidig aktivitet är JavaScript fortfarande aktiverat för alla sidor, men funktionen är fortfarande inaktiverad.
 
-### Adobe Target Standard/Premium 15.8.1 (20 augusti 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe [!DNL Target] Standard/Premium 15.8.1 (20 augusti 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 Målet med den här versionen är att tillhandahålla funktionsparitet med Target Classic. De vanligaste funktionerna i Target Classic är nu tillgängliga i Target Standard.
 
@@ -2945,7 +2945,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 15.7.1 (30 juli 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe [!DNL Target] Standard/Premium 15.7.1 (30 juli 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -3006,7 +3006,7 @@ Följande kända fel har rapporterats:
 
 * När&quot;Inaktivera javascript&quot; är aktiverat för pageA i en flersidig aktivitet är JavaScript fortfarande aktiverat för alla sidor, men funktionen är fortfarande inaktiverad.
 
-### Adobe Target Standard/Premium 15.6.1 (25 juni 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe [!DNL Target] Standard/Premium 15.6.1 (25 juni 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -3057,7 +3057,7 @@ Den här versionen innehåller följande korrigeringar:
 * Korrigerade ett problem där mbox-parametrar inte alltid visas på målgruppsskärmarna.
 * Ett problem som blockerade uppdateringar av miniatyrbilden för Recommendations-design har korrigerats.
 
-### Adobe Target Standard/Premium 15.5.1_programfix (28 maj 2015) {#section_D751F55A3812417FAA72BD6872AE3C2A}
+### Adobe [!DNL Target] Standard/Premium 15.5.1_Programfix (28 maj 2015) {#section_D751F55A3812417FAA72BD6872AE3C2A}
 
 Den här snabbkorrigeringsversionen innehåller följande korrigeringar:
 
@@ -3065,7 +3065,7 @@ Den här snabbkorrigeringsversionen innehåller följande korrigeringar:
 * Ett problem som gjorde att knappen Skapa aktivitet inte kunde visas korrekt för vissa användare har åtgärdats.
 * Ett problem som gjorde att textrutan Aktivitetsnamn försvann i Visual Experience Composer när A/B-aktiviteter redigerades och Experience Targeting-aktiviteter har åtgärdats.
 
-### Adobe Target Standard/Premium 15.5.1 (21 maj 2015) {#section_FF0F959908784AF0906EFB9E8324F207}
+### Adobe [!DNL Target] Standard/Premium 15.5.1 (21 maj 2015) {#section_FF0F959908784AF0906EFB9E8324F207}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -3162,7 +3162,7 @@ Den här versionen innehåller följande korrigeringar:
 * Korrigerade ett problem i Recommendations där attribut med dubbelbytetecken (för flerspråkiga fall) kringgick reglerna för inkluderingsfiltrering.
 * Alla aktivitetstyper har nu stöd för aktivitetsnamn som är högst 200 tecken långa.
 
-### Adobe Target Standard/Premium15.3.1 (26 mars 2015) {#section_591371851693496C820175753F588E73}
+### Adobe [!DNL Target] Standard/Premium15.3.1 (26 mars 2015) {#section_591371851693496C820175753F588E73}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -3212,7 +3212,7 @@ Den här versionen innehåller följande korrigeringar:
 
 * Målbaserade konverteringshändelser för multivariata tester i Target Standard/Premium rapporteras inte när Analytics används som rapportkälla för Target. Problemet förväntas bli åtgärdat snart.
 
-### Adobe Target 15.2.1 (19 februari 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
+### Adobe [!DNL Target] 15.2.1 (19 februari 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -3237,7 +3237,7 @@ Den här versionen innehåller följande korrigeringar:
 
 * Korrigerade ett fel som gjorde att ett omdirigeringserbjudande inte fungerade när en sida startades om.
 
-### Adobe Target 15.1.1 (22 januari 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
+### Adobe [!DNL Target] 15.1.1 (22 januari 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -3280,7 +3280,7 @@ Den här versionen innehåller följande korrigeringar:
 
 ## Utgåvor 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
-### Adobe Target 14.10.2 (6 november 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
+### Adobe [!DNL Target] 14.10.2 (6 november 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
 
 <!-- 
 
@@ -3290,7 +3290,7 @@ target/r_release-notes-2014.xml
 
 Den här mindre versionen fokuserar främst på serverstabilitet. Det finns inga nya funktioner som ingår i den här korrigeringen.
 
-### Adobe Target 14.10.1 (30 oktober 2014) {#section_D557CB331A004155B91CFE5B197076F3}
+### Adobe [!DNL Target] 14.10.1 (30 oktober 2014) {#section_D557CB331A004155B91CFE5B197076F3}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -3306,7 +3306,7 @@ Den här versionen innehåller följande förbättringar:
 * Översikt visar aktivitetens mål.
 * En varning visas när JavaScript anges i redigeringsrutan för HTML.
 
-### Adobe Target 14.9.1 (19 september 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
+### Adobe [!DNL Target] 14.9.1 (19 september 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -3323,7 +3323,7 @@ Den här versionen innehåller följande korrigeringar:
 * Korrigerade ett problem i Automated Personalization Experience Editor som gjorde att ett ändrat videouppbud inte verkade som ändrat.
 * Korrigerade ett fel som gjorde att en aktivitets kollisionssida inte kunde visas i Google Chrome som en tom sida.
 
-### Adobe Target 14.8.1 (21 augusti 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
+### Adobe [!DNL Target] 14.8.1 (21 augusti 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
 Den här versionen innehåller följande nya funktioner och förbättringar:
 
@@ -3346,7 +3346,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 * Korrigerade ett klickspårskonverteringsfel som negerade `target="_blank" functions.`
 * Ett problem där klickspårning navigerade utanför sidan har korrigerats.
 
-### Adobe Target 14.6.1 (25 juni 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
+### Adobe [!DNL Target] 14.6.1 (25 juni 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
 Den här versionen innehåller följande nya funktioner:
 
@@ -3395,13 +3395,13 @@ Den här versionen innehåller följande nya funktioner:
 
 * Korrigerade ett fel som medförde att borttagna objekt fortfarande visades.
 
-### Adobe Target Standard 14.5 (28 maj 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
+### Adobe [!DNL Target] Standard 14.5 (28 maj 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
 
 Den här versionen innehåller följande felkorrigeringar:
 
 * Korrigerade ett problem där förhandsgranskning av en upplevelse inte fungerade som förväntat.
 
-### Adobe Target Standard 1.7 (28 april 2014) {#section_2C2B9B6299ED4F48A3B983AB015F381A}
+### Adobe [!DNL Target] Standard 1.7 (28 april 2014) {#section_2C2B9B6299ED4F48A3B983AB015F381A}
 
 [Target Standard 1.7 Release Webinar](https://my.adobeconnect.com/p1oabaz3cxi/)
 
@@ -3452,7 +3452,7 @@ Den här versionen innehåller följande kända fel. Problemet kommer att åtgä
 * Det går inte att byta ut en bild när det finns referenser till bilden i CSS.
 * Om du byter ut en bild och sedan ändrar storlek på den visas inte upplevelserna i Experience Editor korrekt.
 
-### Adobe Target Standard 1.6 (17 mars 2014) {#section_DB1319CDD8944F6FB749E525EB551017}
+### Adobe [!DNL Target] Standard 1.6 (17 mars 2014) {#section_DB1319CDD8944F6FB749E525EB551017}
 
 Den här versionen innehåller följande nya funktioner:
 
@@ -3480,7 +3480,7 @@ Den här versionen innehåller följande kända fel. Problemet kommer att åtgä
 * Det går inte att använda icke-ASCII-tecken i sökrutan för målgrupper.
 * För användare av spanska och japanska versioner uppstår ett fel om du sparar en aktivitet efter att du har angett start- och slutdatum. Vi rekommenderar att du sparar utan att ange start- och slutdatum och sedan aktiverar och stoppar aktiviteten från sidan Aktivitetsöversikt eller Aktivitetslista när det behövs.
 
-### Adobe Target Standard 1.5 (25 februari 2014) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
+### Adobe [!DNL Target] Standard 1.5 (25 februari 2014) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
 
 Den här versionen innehåller följande nya funktioner:
 
@@ -3514,7 +3514,7 @@ Den här versionen innehåller följande kända fel. Problemet kommer att åtgä
 * Ett synkroniseringsfel inträffar om geomålgrupper skapas i målstandard när geopositionering är inaktiverat i Target Advanced.
 * Det går inte att byta ut en bild när det finns referenser till bilden i CSS.
 
-### Adobe Target Standard 1.4 (20 januari 2014) {#section_CD27AEE32B4F40BDAB422711B96739A5}
+### Adobe [!DNL Target] Standard 1.4 (20 januari 2014) {#section_CD27AEE32B4F40BDAB422711B96739A5}
 
 Den här versionen innehåller följande nya funktioner och förbättringar:
 
@@ -3566,7 +3566,7 @@ Den här versionen innehåller följande kända fel. Dessa problem kommer att å
 
 ## Utgåvor 2013
 
-### Adobe Target Standard 1.3 (19 november 2013) {#section_D633ACA56FA941648219EB3748D814EC}
+### Adobe [!DNL Target] Standard 1.3 (19 november 2013) {#section_D633ACA56FA941648219EB3748D814EC}
 
 Den här versionen innehåller följande nya funktioner och förbättringar:
 
@@ -3588,7 +3588,7 @@ Den här versionen innehåller följande kända fel. Dessa problem kommer att å
 * Klickspårning fungerar inte för element som har ordnats om med Visual Experience Composer. Undvik att ställa in klickspårning för omsorterade element tills felet har åtgärdats.
 * Användarna kan inte välja åtgärden **[!UICONTROL Remove]** för innehåll som är omslaget i en mbox.
 
-### Adobe Target Standard 1.2 (31 oktober 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
+### Adobe [!DNL Target] Standard 1.2 (31 oktober 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
 Det finns fyra kända problem med den här versionen. Dessa problem kommer att åtgärdas i en kommande uppdatering.
 
@@ -3610,7 +3610,7 @@ Den här versionen innehåller följande korrigeringar och förbättringar:
 * Tangentbordsinmatningsfunktioner har lagts till för att visa de nedrullningsbara menyerna.
 * Förbättrade felmeddelandet som visas när ett erbjudande som används i en aktivitet tas bort.
 
-### Adobe Target Standard 1.1 (18 oktober 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
+### Adobe [!DNL Target] Standard 1.1 (18 oktober 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
 
 Den här versionen innehåller följande korrigeringar och förbättringar:
 
