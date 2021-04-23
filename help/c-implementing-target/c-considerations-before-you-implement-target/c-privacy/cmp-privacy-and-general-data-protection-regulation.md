@@ -1,17 +1,17 @@
 ---
 keywords: gdpr;eu;europeisk union;sekretess;faq;vanliga frågor;california-konsumentsekretesslag;ccpa;sekretess;dataskydd;opt out;opt out;government;Regulation
-description: Läs mer om Target och EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra integritetskrav.
-title: Hur hanterar Target reglerna för sekretess och dataskydd?
-feature: Privacy & Security
+description: Läs mer om [!DNL Target] och EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentsekretesslag (CCPA) och andra integritetskrav.
+title: Hur hanterar [!DNL Target] sekretess- och dataskyddsreglerna?
+feature: Integritet och säkerhet
 role: Developer
+exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2258'
 ht-degree: 0%
 
 ---
-
 
 # Sekretess- och dataskyddsbestämmelser
 
@@ -52,7 +52,7 @@ Om du var upptagen med att förbereda dig för Europas integritetslagstiftning (
 >
 >Åtkomst och borttagning av data till som det gäller för CCPA följer samma process som för GDPR.
 
-## Adobe Target och [!DNL Experience Platform Launch] deltagande {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target] och [!DNL Experience Platform Launch] {#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target] ger support för tillvalsfunktioner via  [!DNL Launch] för att hjälpa er strategi för samtyckeshantering. Med avanmälningsfunktionen kan kunderna styra hur och när taggen [!DNL Target] aktiveras. Det finns också ett alternativ via [!DNL Launch] för att förgodkänna taggen [!DNL Target]. Om du vill aktivera möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket bör du använda `targetGlobalSettings` och lägga till inställningen `optinEnabled=true`. I [!DNL Launch] måste du välja &quot;enable&quot; i listrutan [!UICONTROL GDPR Opt-In] i installationsvyn för [!DNL Launch]-tillägget. Mer information finns i [startdokumentationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
@@ -160,7 +160,7 @@ Mer information om GDPR, CCPA och [!DNL Launch] finns i [JavaScript-biblioteket 
 
 Till exempel tar [!DNL Target] bort cookies som lagrar ID:n, men [!DNL Adobe Audience Manager] (AAM) tar inte bort det demdex-ID som lagras i en cookie från tredje part.
 
-### Vilken information behöver inkluderas i en Target GDPR- eller CCPA-begäran? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### Vilken information behöver inkluderas i en [!DNL Target] GDPR- eller CCPA-begäran? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 Utöver kraven från Central Privacy Service innehåller ett giltigt GDPR- eller CCPA-meddelande för [!DNL Target]:
 
@@ -201,16 +201,16 @@ Utöver kraven från Central Privacy Service innehåller ett giltigt GDPR- eller
 }
 ```
 
-### Vilka typer av svar kan jag förvänta mig från Target via GDPR API? {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### Vilka typer av svar kan jag förvänta mig från [!DNL Target] via GDPR API? {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Status för begäran | Målsvarsmeddelande | Scenario |
 |--- |--- |--- |
 | Bearbetar | Bearbetar | Målet tog emot GDPR- eller CCPA-begäran och bearbetar den. |
-| Slutförd | Ej tillämpligt - företagskontexten är inte tillämplig | IMS-ID:t i GDPR- eller CCPA-begäran mappas inte till någon målklient.<br>Observera att vissa företag har flera IMS ID:n. Du måste skicka det IMS-ID där Target har etablerats. |
+| Slutförd | Ej tillämpligt - företagskontexten är inte tillämplig | IMS-ID:t i GDPR- eller CCPA-begäran mappas inte till någon målklient.<br>Observera att vissa företag har flera IMS-ID:n. Du måste skicka det IMS-ID där Target har etablerats. |
 | Slutförd | Ej tillämpligt - användarkontexten hittades inte | Det ID som anges i GDPR- eller CCPA-begäran för den specifika besökaren eller den angivna registrerade personen finns inte i målprofilens arkiv.<br>Observera att det här resultatet också returneras om du försöker skicka en typ av namnområdes-ID som inte stöds av Target (se ovan för vilka ID som stöds). |
 | Fel | Felmeddelande (informationen beror på feltypen) | Ett fel uppstod vid hämtning eller borttagning av den begärda dataobjektprofilen.<br>Ett fel uppstod vid överföring till Azure för åtkomstbegäran. |
 
-### Vilket svar skickar Target till GDPR API för en åtkomstbegäran? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### Vilket svar skickar [!DNL Target] till GDPR API för en åtkomstbegäran? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 Svar på begäran om åtkomst av data innehåller en sammanfattning av [!DNL Target]-profilen för den aktuella besökaren. Observera att denna retur skickas till GDPR-API:t [!DNL Experience Cloud], som i sin tur skickar ett svar till Data Controllers.
 
@@ -293,7 +293,7 @@ Följande tabell innehåller en beskrivning av JSON-fälten för den illustrativ
 >
 >Det här är en förkortad version av en [!DNL Target]-profil-JSON för illustrationssyfte. Många av fälten i [!DNL Target]-profilen är inte standard. Vad som returneras beror på vilken information som finns i den specifika besökarprofilen.
 
-### Har Target stöd för IP-förfalskning? {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Har [!DNL Target] stöd för IP-förfalskning? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
