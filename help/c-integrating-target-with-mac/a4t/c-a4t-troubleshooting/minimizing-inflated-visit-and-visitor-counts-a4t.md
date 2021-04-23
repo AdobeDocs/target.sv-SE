@@ -1,18 +1,18 @@
 ---
 keywords: partiella data;partiella data;A4T;avvikelser;analys för mål;överblivna;virtuell rapportsvit;fantom;felsökning;icke-sammansatt;inflated;unspecified
-description: Lär dig hur du minimerar effekterna av uppblåst besöks- och besökarantal när du använder Analytics for Target (A4t). Lär dig vad"partiella data" är och hur du kan minska den.
+description: Lär dig hur du minimerar effekterna av inflaterade besök- och besökarantal när du använder Analytics för [!DNL Target] (A4t). Lär dig vad"partiella data" är och hur du kan minska den.
 title: Hur minimerar jag antalet uppblåsta besök och besökare i A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
 
-
-# Minimera antalet uppblåsta besök och besökare i A4T{#minimizing-inflated-visit-and-visitor-counts-in-a-t}
+# Minimera antalet uppblåsta besök och besökare i A4T
 
 Information som hjälper dig att minimera effekterna av inflaterade besök- och besökarantal när du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
