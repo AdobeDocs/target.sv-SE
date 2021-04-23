@@ -1,19 +1,19 @@
 ---
 keywords: erbjudande;prefetch;iOS;android;sdk;mobile;mobile sdk
-description: Använd Adobe Target förhämtningsfunktion i iOS och Android Mobile SDK för att hämta innehåll så få gånger som möjligt genom att cachelagra serversvaren.
+description: Använd förhämtningsfunktionen Adobe [!DNL Target] i iOS och Android Mobile SDK:er för att hämta innehåll så få gånger som möjligt genom att cachelagra serversvaren.
 title: Kan jag förhämta erbjuda innehåll för mobilappar?
-feature: Implement Mobile
+feature: Implementera mobil
 role: Developer
+exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-
-# Förhämta innehåll för erbjudande{#prefetch-offer-content}
+# Förhämta erbjudandeinnehåll
 
 Funktionen [!DNL Target] för förhämtning använder iOS och Android Mobile SDK:er för att hämta innehåll så få gånger som möjligt genom att cachelagra serversvaren.
 
