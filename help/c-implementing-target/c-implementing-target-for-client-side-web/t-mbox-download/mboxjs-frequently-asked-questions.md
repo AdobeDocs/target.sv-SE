@@ -1,19 +1,19 @@
 ---
 keywords: mbox.js faq;mbox.js Vanliga frågor;document.write;tt.omtrdc.net;parser block
 description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migrera till Adobe Experience Platform Web SDK (AEP Web SDK) eller till den senaste versionen av at.js.
-title: Vilka är några vanliga frågor om Target mbox.js?
+title: Vad ställs det ofta frågor om [!DNL Target] mbox.js?
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
-# mbox.js Vanliga frågor{#mbox-js-frequently-asked-questions}
+# mbox.js Vanliga frågor
 
 Svar på vanliga frågor om mbox.js.
 
@@ -39,7 +39,7 @@ Målgrupper använder ibland molnbaserade instanser med [!DNL Target] för testn
 
 Moderna webbläsare sparar inte cookies om du använder dessa domäner om du inte anpassar inställningen `cookieDomain` med targetGlobalSettings(). Mer information finns i [Använda molnbaserade instanser med Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
 
-## Vad är domänen tt.omtrdc.net som anrop från målservern går till? {#section_999C29940E8B4CAD8A957A6B1D440317}
+## Vad är domänen tt.omtrdc.net som [!DNL Target] serveranrop går till? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] är domännamnet för Adobe EDGE-nätverket, som används för att ta emot alla serveranrop för Target.
 
