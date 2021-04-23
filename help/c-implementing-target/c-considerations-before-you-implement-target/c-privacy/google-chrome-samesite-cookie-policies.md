@@ -1,17 +1,17 @@
 ---
 keywords: Google;samesite;cookies;chrome 80;ietf
-description: Upptäck hur Adobe Target hanterar IETF-standarden SameSite som introducerades med Google Chrome version 80 och vad du behöver göra för att följa dessa regler.
-title: Hur hanterar Target Googles cookieprinciper för Samesite?
-feature: Privacy & Security
+description: Upptäck hur Adobe [!DNL Target] hanterar IETF-standarden SameSite som introducerades i Google Chrome version 80 och vad du behöver göra för att följa dessa principer.
+title: Hur hanterar [!DNL Target] Googles cookie-principer för Samesite?
+feature: Integritet och säkerhet
 role: Developer
+exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2048'
 ht-degree: 0%
 
 ---
-
 
 # Google Chrome SameSite cookie-principer
 
@@ -19,7 +19,7 @@ Google börjar som standard att införa nya cookie-principer för användare som
 
 Från och med Chrome 80 måste webbutvecklare uttryckligen ange vilka cookies som kan användas på olika webbplatser. Det här är den första av många meddelanden som Google planerar att göra för att förbättra sekretess och säkerhet på webben.
 
-Med tanke på att Facebook har funnits på plats när det gäller sekretess och säkerhet har andra stora aktörer som Apple, och nu Google, snabbt dragit nytta av möjligheten att skapa nya identiteter som integritets- och säkerhetskamrater. Apple ledde paketet genom att först meddela ändringar av cookie-reglerna tidigt i år via ITP 2.1 och nyligen ITP 2.2. I ITP 2.1 blockerar Apple helt cookies från tredje part och sparar cookies som skapats i webbläsaren i endast sju dagar. I ITP 2.2 sparas cookies i endast en dag. Googles kungörelse är inte alls lika aggressiv som Apples, men det är det första steget mot samma slutmål. Mer information om Apples regler finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Med tanke på att Facebook har varit på topp när det gäller sekretess och säkerhet har andra stora aktörer som Apple, och nu Google, snabbat utnyttja möjligheten att skapa nya identiteter som integritets- och säkerhetsavdelningar. Apple ledde paketet genom att först meddela ändringar av cookie-reglerna tidigt i år via ITP 2.1 och nyligen ITP 2.2. I ITP 2.1 blockerar Apple helt cookies från tredje part och sparar cookies som skapats i webbläsaren i endast sju dagar. I ITP 2.2 sparas cookies i endast en dag. Googles kungörelse är inte alls lika aggressiv som Apples, men det är det första steget mot samma slutmål. Mer information om Apples regler finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ## Vad är cookies och hur används de?
 
@@ -35,7 +35,7 @@ För att detta ska hända hämtar webbläsaren knappen Dela vänner från `platf
 
 Allt detta är möjligt med cookies från tredje part. I det här fallet sparas cookien från tredje part i webbläsaren för `platform.friends.com`, så att `platform.friends.com` kan göra inlägget i appen Vänner för användarens räkning.
 
-Om du för ett ögonblick tänker dig hur du ska uppnå detta utan cookies från tredje part måste användaren följa en massa manuella steg. Först måste användaren kopiera länken till nyhetsartikeln. För det andra måste användaren logga in i Friends-appen separat. Användaren klickar sedan på knappen Skapa inlägg. Användaren kopierar och klistrar sedan in länken i textfältet och klickar slutligen på Publicera. Som du ser kan cookies från tredje part hjälpa användaren att uppleva manuella steg som kan minskas drastiskt.
+Om du för ett ögonblick tänker dig hur du ska uppnå detta utan cookies från tredje part måste användaren följa många manuella steg. Först måste användaren kopiera länken till nyhetsartikeln. För det andra måste användaren logga in i Friends-appen separat. Användaren klickar sedan på knappen Skapa inlägg. Användaren kopierar och klistrar sedan in länken i textfältet och klickar slutligen på Publicera. Som du ser kan cookies från tredje part hjälpa användaren att uppleva manuella steg som kan minskas drastiskt.
 
 Mer generellt gör cookies från tredje part det möjligt att lagra data i en användares webbläsare utan att användaren behöver besöka en webbplats explicit.
 
@@ -43,7 +43,7 @@ Mer generellt gör cookies från tredje part det möjligt att lagra data i en an
 
 Även om cookies förbättrar användarupplevelser och strömannonsering kan de även medföra säkerhetsrisker som CSRF-attacker (Cross-Site Request Forgery). Om en användare till exempel loggar in på en bankwebbplats för att betala kreditkortsräkningar och lämnar webbplatsen utan att logga ut och sedan bläddrar till en skadlig webbplats i samma session, kan en CSRF-attack inträffa. Den skadliga webbplatsen kan innehålla kod som gör en förfrågan till bankwebbplatsen som verkställs när sidan läses in. Eftersom användaren fortfarande är autentiserad på bankwebbplatsen kan sessionscookie användas för att starta en CSRF-attack för att initiera en penningöverföringshändelse från användarens bankkonto. Detta beror på att när du besöker en webbplats bifogas alla cookies i HTTP-begäran. Och på grund av dessa säkerhetsproblem försöker Google nu mildra dem.
 
-## Hur använder Target cookies?
+## Hur använder [!DNL Target] cookies?
 
 Låt oss se hur [!DNL Target] använder cookies. För att du ska kunna använda [!DNL Target] måste du installera JavaScript-biblioteket [!DNL Target] på din plats. Detta gör att du kan placera en cookie från en annan leverantör i webbläsaren på den användare som besöker webbplatsen. När användaren interagerar med webbplatsen kan du skicka användarens beteendedata och intressedata till [!DNL Target] via JavaScript-biblioteket. JavaScript-biblioteket [!DNL Target] använder cookies från första part för att extrahera identifieringsinformation om användaren för att mappa till användarens beteende och intressedata. Dessa data används sedan av [!DNL Target] för att driva dina personaliseringsaktiviteter.
 
@@ -94,7 +94,7 @@ Om du vill veta vad du behöver göra för att [!DNL Target] ska kunna fortsätt
 | at.js 1.** xmed spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har  `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda HTTPS-protokollet. |
 | at.js 2.*x* | Ingen påverkan. | Ingen påverkan. |
 
-## Vad behöver Target göra?
+## Vad behöver [!DNL Target] göra?
 
 Så vad behöver vi göra på vår plattform för att hjälpa er att följa de nya cookie-reglerna för Google Chrome 80+ SameSite?
 
