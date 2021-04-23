@@ -1,18 +1,18 @@
 ---
 keywords: målgrupp;benägenhet;profilattribut;jämför;jämförelse;skapa målgrupp;skapa målgrupp
-description: Lär dig hur du definierar en målgrupp för att jämföra två profilattribut för målpublikbiblioteket eller för en målgrupp som bara har en aktivitet.
+description: Lär dig hur du definierar en målgrupp för att jämföra två profilattribut för ditt  [!DNL Target] målgruppsbibliotek eller för en målgrupp som bara har en aktivitet.
 title: Kan jag jämföra två profilattribut som kan användas i målgrupper?
-feature: Audiences
+feature: Målgrupper
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
-
-# Skapa en målgrupp för profilattributsjämförelse{#create-a-profile-attribute-comparison-audience}
+# Skapa en målgrupp för profilattributsjämförelse
 
 Definiera en målgrupp för att jämföra två profilattribut för ditt [målgruppsbibliotek](/help/c-target/c-audiences/audiences.md) eller i en [målgrupp som endast är aktivt](/help/c-target/creating-activity-only-audience.md). Med operatorer, till exempel större än, mindre än eller lika med, kan du definiera en målgrupp för att dynamiskt jämföra värdena för två olika profilattribut.
 
