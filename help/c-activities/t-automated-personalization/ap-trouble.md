@@ -3,16 +3,16 @@ kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Utforska eventuella problem som kan uppstå när du använder Automated Personalization (AP)-aktiviteter i Adobe Target, tillsammans med förslag på lösningar.
 title: Hur felsöker jag Automated Personalization?
 feature: Automated Personalization
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMTroubleshoot Automated Personalization{#troubleshoot-automated-personalization}
+# ![](/help/assets/premium.png) PREMIUMTroubleshoot Automated Personalization
 
 Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utmaningar du kan ställas inför när du använder Automated Personalization, och några förslag på lösningar.
 
@@ -58,4 +58,3 @@ Det finns till exempel en aktivitet med ett konverteringsmått (C1) och ett ytte
 
 * Om du inte kan se förhandsvisningen på den nya fliken (på grund av webbläsarens cacheminne) kan du försöka uppdatera två eller tre gånger eller kopiera länken och öppna den i en ny webbläsare eller i en ny session.
 * Generera om Experience URL-länkar om du har ändrat något innehåll och delar de nya länkarna med dina teamkamrater.
-
