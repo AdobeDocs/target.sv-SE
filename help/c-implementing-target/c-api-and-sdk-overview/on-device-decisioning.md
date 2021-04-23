@@ -1,17 +1,17 @@
 ---
 keywords: serversida;serversida;sdk;sdk;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: Lär dig hur du använder enhetsspecifik beslutsfattande för att cachelagra målaktiviteter för A/B och MVT på servern för att utföra minnesbaserad beslutsfattande vid nästan noll latens.
+description: Lär dig hur du använder enhetsspecifik decimering för att cachelagra dina [!DNL Target] A/B- och MVT-aktiviteter på servern för att utföra minnesbaserad decimering vid nästan noll latens.
 title: Vad är On-Device Decision?
-feature: Implement Server-side
+feature: Implementera serversidan
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
-
 
 # Enhetsbeslut
 
