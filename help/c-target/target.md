@@ -1,18 +1,18 @@
 ---
 keywords: Målgrupper;målgrupper;procentuellt mål
-description: Lär dig använda målgrupper i Adobe Target för att rikta olika innehåll och upplevelser till specifika målgrupper för att optimera era era webbmarknadsföringssatsningar.
-title: Hur kan jag använda målgrupper för att rikta olika innehåll till specifika segment?
-feature: Audiences
+description: Lär dig hur du använder målgrupper i Adobe [!DNL Target] för att rikta olika innehåll och upplevelser till specifika målgrupper för att optimera webbmarknadsföringen.
+title: Hur kan jag använda publiker för att [!DNL Target] anpassa innehåll till specifika segment?
+feature: Målgrupper
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
-
-# Målgrupper{#audiences}
+# Målgrupper
 
 Använd målgrupper för att rikta olika innehåll och upplevelser till specifika målgrupper för att optimera er webbmarknadsföring genom att visa rätt budskap till rätt personer vid rätt tidpunkt.
 
