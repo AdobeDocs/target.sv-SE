@@ -1,16 +1,16 @@
 ---
 keywords: Mål;rapporter;rapportinställningar;extrema order;extrema värden
-description: Lär dig hur du utesluter extrema värden från att påverka rapporter i Adobe Target så att några ovanliga order inte påverkar dina aktivitetsresultat.
+description: Lär dig hur du utesluter extrema värden från att påverka rapporter i Adobe [!DNL Target] så att några ovanliga order inte påverkar dina aktivitetsresultat.
 title: Hur utesluter jag extrema värden i rapporter?
-feature: Reports
+feature: Rapporter
+exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
 
 ---
-
 
 # Exkludera extrema värden
 
