@@ -1,16 +1,16 @@
 ---
 keywords: flera målgrupper;upplevelseversioner;målversioner
-description: Lär dig målinrikta olika versioner av samma upplevelse till olika målgrupper i Adobe Target A/B-aktiviteter.
+description: Lär dig att rikta versioner av samma upplevelse till olika målgrupper i Adobe [!DNL Target] A/B-aktiviteter.
 title: Kan jag använda flera upplevelseversioner i en A/B-aktivitet?
-feature: A/B Tests
+feature: A/B-tester
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
-
 
 # Målgrupper med olika upplevelser i ett A/B-test
 
@@ -53,4 +53,3 @@ I det här fallet behöver du geospecifika versioner av upplevelsen, så att du 
 * Välj målgrupper som utesluter varandra. Om aktiviteten skapades i VEC returneras innehållet för varje målgrupp, med innehållet för målgruppen som visades senast på sidan, om en besökare matchar mer än en målgrupp.
 * De målgrupper som definieras i diagrammet kombineras med upplevelsemålgrupperna med ett AND-villkor. För att kunna delta i aktiviteten måste besökaren vara berättigad till aktivitetsgruppen och en av upplevelsemålgrupperna.
 * Lägg till samma målgrupper som segment för rapporter. Detta hjälper dig att se testresultaten på den höga upplevelsen A jämfört med B och på den lägre upplevelsen A jämfört med B för bara&quot;browser lang ja_JP&quot;. Detta fungerar bara för Target-baserade rapporter, inte för analysbaserade rapporter.
-
