@@ -1,16 +1,16 @@
 ---
 keywords: automatiserad trafikallokering;mål;Öka antal och behåll användare i aktivitet;trafikallokering;automatisk allokering;automatisk allokering
-description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe Target som identifierar en vinnare bland två eller fler upplevelser och automatiskt omfördelar mer trafik till vinnaren.
+description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL Target] som identifierar en vinnare bland två eller fler upplevelser och automatiskt omfördelar mer trafik till vinnaren.
 title: Vad är en automatiskt fördelad aktivitet?
-feature: Auto-Allocate
+feature: Automatisk allokering
+exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
-
 
 # Automatisk allokering - översikt
 
@@ -134,7 +134,7 @@ Dessa kan skeva resultaten i ett autofördelningstest mer än i ett A/B-test eft
 
 Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Allocate]-aktiviteter:
 
-### Har Analytics for Target (A4T) stöd för Automatisk allokering av aktiviteter?
+### Har Analytics för Adobe Target (A4T) stöd för automatisk fördelning av aktiviteter?
 
 Ja. Mer information finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
@@ -186,7 +186,7 @@ Det finns ingen anledning att ta bort en underpresterande upplevelse. Automatisk
 
 ### Kan jag ändra målmåttet genom en autoallokeringsaktivitet? {#change-metric}
 
-Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med hjälp av användargränssnittet i [!DNL Target] bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
+Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med hjälp av användargränssnittet för [!DNL Target] bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
 
 Den här rekommendationen gäller för [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
 
