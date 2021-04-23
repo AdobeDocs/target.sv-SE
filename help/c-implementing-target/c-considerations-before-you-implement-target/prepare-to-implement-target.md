@@ -2,16 +2,16 @@
 keywords: implementera;implementera;rfi;begäran om information
 description: Ta reda på vad du bör tänka på innan du implementerar Adobe Target. Utför nödvändiga uppgifter och samla in information när du förbereder implementering av Target.
 title: Hur ska jag förbereda mig för att implementera Target?
-feature: Implementation
+feature: Implementering
 role: Developer
+exl-id: f365f417-2750-46f7-b2ff-0f5b82747b4e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
-
 
 # Förbered implementering av Target
 
@@ -21,7 +21,7 @@ Om du följer dessa riktlinjer och fyller i de bifogade frågeformulären kan du
 
 Om du arbetar med en Adobe-konsult behöver du inte känna till informationen i dessa dokument innan du implementerar Target. Att känna till dokumenten Konsulting kommer dock att skapa och de frågor de ställer kan bidra till att snabba upp processen före implementeringen. Dessa dokument kan komma att ändras i framtiden.
 
-## Adobe Target begäran om information {#section_A345E8D9ED41478A90ABE7703648C06C}
+## Adobe [!DNL Target] affärsbegäran för information {#section_A345E8D9ED41478A90ABE7703648C06C}
 
 Det här avsnittet innehåller dokumentet för affärsförfrågningar (RFI) som ska fyllas i av kunden innan Target-implementeringen startar.
 
@@ -32,7 +32,7 @@ Verksamhetsinformationsdokumentets mål är följande:
 
 Ladda ned [Business Request for Information](/help/assets/business-rfi.docx)-dokumentet.
 
-## Adobe Target tekniska begäran om information {#section_95C4F0A2E4EB423399D24F2B7198F6C5}
+## Adobe [!DNL Target] teknisk begäran om information {#section_95C4F0A2E4EB423399D24F2B7198F6C5}
 
 Det här avsnittet innehåller dokumentet Technical Request for Information (RFI) som hjälper vårt konsultteam att utveckla en Target-implementering som uppfyller kundens affärsmässiga och tekniska krav. Frågan i det här dokumentet kommer att identifiera eventuella dolda hinder eller hinder för att minimera eller eliminera behovet av att revidera implementeringen.
 
