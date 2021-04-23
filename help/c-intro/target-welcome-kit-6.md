@@ -1,16 +1,16 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Lär dig av andras misstag så att du inte gör samma misstag när du använder Adobe Target som en del av din testnings- och personaliseringsstrategi.
-title: Vad är vanliga fel när jag använder Target och hur kan jag undvika dem?
-feature: Overview
+description: Lär dig av andras misstag så att du inte gör samma misstag när du använder Adobe [!DNL Target] som en del av din test- och personaliseringsstrategi.
+title: Vad är vanliga fel när jag använder [!DNL Target] och hur undviker jag dem?
+feature: Översikt
+exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
-
 
 # Kapitel 6: Enkelt undvika fallfall
 
