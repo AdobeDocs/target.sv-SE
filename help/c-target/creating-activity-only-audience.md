@@ -1,18 +1,18 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;skapa målgrupp;endast aktivitet;endast aktivitet;adhoc
-description: Lär dig hur du skapar målgrupper som bara är aktiva i Adobe Target och som är avsedda att användas en gång i den aktuella aktiviteten och inte lagras i publikbiblioteket.
+description: Lär dig hur du skapar målgrupper som bara är aktiva i Adobe [!DNL Target] som är avsedda att användas en gång i den aktuella aktiviteten och som inte lagras i publikbiblioteket.
 title: Kan jag skapa en publik som bara kan användas en gång?
-feature: Audiences
+feature: Målgrupper
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-
-# Skapa en målgrupp som bara är aktiv{#create-an-activity-only-audience}
+# Skapa en målgrupp som bara är aktiv
 
 Skapa målgrupper som bara är aktiva i det guidade arbetsflödet i tre steg när du skapar en aktivitet. Dessa ad hoc-målgrupper kan användas på andra platser inom samma aktivitet, men lagras inte i [!UICONTROL Audiences Library] för användning i andra aktiviteter.
 
@@ -52,4 +52,3 @@ Tänk på följande när du arbetar med målgrupper som bara är aktiva:
 * Målgrupper som bara är aktiva har statusen [!UICONTROL Used] eller [!UICONTROL Unused]. Oanvända målgrupper med endast aktivitet visas tills aktiviteten sparas. Om aktiviteten inte används och du försöker spara den visas ett varningsmeddelande som talar om att oanvända målgrupper endast för aktiviteter kommer att tas bort.
 * Du kan visa information om målgruppsdefinitioner på ett popup-kort som du når från målgruppsväljaren utan att öppna målgruppen.
 * Du kan [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa målgrupper som bara är aktiva.
-
