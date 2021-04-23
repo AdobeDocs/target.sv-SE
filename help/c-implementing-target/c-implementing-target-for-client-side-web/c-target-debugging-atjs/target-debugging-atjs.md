@@ -1,19 +1,19 @@
 ---
 keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
-description: Använd Adobe Experience Cloud Debugger för att visa din bibliotekskonfiguration, undersöka förfrågningar, aktivera konsolloggning, inaktivera Target-samtalsbegäranden och mycket annat.
+description: Använd Adobe Experience Cloud Debugger för att visa din bibliotekskonfiguration, granska begäranden, aktivera konsolloggning, inaktivera [!DNL Target] samtalsbegäranden och mycket annat.
 title: Hur felsöker jag JS med Adobe Experience Cloud Debugger?
 feature: at.js
 role: Developer
+exl-id: 764155e2-e55d-4637-8da3-44f70f3aa2a7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-
-# Felsök at.js med Adobe Experience Cloud Debugger{#debug-at-js-using-the-adobe-experience-cloud-debugger}
+# Felsöka at.js med Adobe Experience Cloud Debugger
 
 Information om hur du använder Adobe Experience Cloud Debugger-tillägget, vilket gör det snabbt och enkelt att förstå hur du implementerar Target.
 
@@ -29,7 +29,7 @@ I följande videofilmer får du hjälp med felsökningsprocessen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Grundläggande målfelsökning med Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Grundläggande Adobe Target-felsökning Använda Adobe Experience Cloud Debugger ![Översikt](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
