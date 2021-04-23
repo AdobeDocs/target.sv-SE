@@ -1,19 +1,19 @@
 ---
 keywords: molninstanser;offentlig suffixlista;offentligt suffix;cookie;förstapartscookie;förstapartscookie;förstapartscookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: Utforska problem (med lösningar) som kunder ställs inför när de använder molnbaserade instanser för att testa Adobe Target eller för koncepttestkorrektur.
-title: Kan jag använda Target med molnbaserade instanser?
+description: Utforska problem (med lösningar) som kunder ställs inför när de använder molnbaserade instanser för att testa Adobe [!DNL Target] eller för koncepttestkorrektur.
+title: Kan jag använda [!DNL Target] med molnbaserade instanser?
 feature: at.js
 role: Developer
+exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-
-# Använd molnbaserade instanser med Target{#use-cloud-based-instances-with-target}
+# Använd molnbaserade instanser med Target
 
 Information om problem som kunder ställs inför när de använder molnbaserade instanser för att testa [!DNL Adobe Target].
 
