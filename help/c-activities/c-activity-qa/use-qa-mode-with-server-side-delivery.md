@@ -1,16 +1,16 @@
 ---
 keywords: qa;serversida;serversida;förhandsgranska;förhandsvisa länkar
-description: Lär dig hur du använder Adobe Target QA-URL:er med leverans på serversidan för att utföra enkel QA-analys från början till slut med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
+description: Lär dig använda Adobe [!DNL Target] QA-URL:er med leverans på serversidan för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata.
 title: Kan jag använda Activity QA med leverans på serversidan?
-feature: Activities
+feature: Verksamhet
+exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
 
 ---
-
 
 # Använd aktivitets-QA med leverans på serversidan
 
