@@ -1,16 +1,16 @@
 ---
 keywords: felsökning;måttskillnader;vanliga frågor och svar;rapporter;ny besökare;återkommande besökare;återkommande besökare;återkommande besökare;återbesök;nytt besök
-description: Se en lista med vanliga frågor och svar om Adobe Target rapportering.
-title: Var hittar jag svar på frågor om målrapportering?
-feature: Reports
+description: Utforska en lista med vanliga frågor och svar om Adobe [!DNL Target] rapportering.
+title: Var kan jag hitta svar på frågor om [!DNL Target] rapportering?
+feature: Rapporter
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
-
 
 # Vanliga frågor om rapportering
 
