@@ -1,18 +1,18 @@
 ---
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as reporting source for target
-description: Använd Analytics for Target (A4T) för att skapa aktiviteter baserade på analysstatistik för konvertering och målgruppssegment och använda analysrapporter för att undersöka resultaten.
-title: Vad är Analytics för Target (A4T)?
-feature: Analytics for Target (A4T)
+description: Använd Analytics för [!DNL Target] (A4T) för att skapa aktiviteter baserade på analysstatistik för konvertering och målgruppssegment och använd Analytics-rapporter för att undersöka resultaten.
+title: Vad är Analytics för [!DNL Target] (A4T)?
+feature: Analyser för mål (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Analytics som rapportkälla för Adobe Target (A4T)
+# Adobe Analytics som rapporteringskälla för Adobe [!DNL Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) är en integrerad lösning som gör att ni kan skapa aktiviteter baserat på  [!DNL Analytics] konverteringsstatistik och målgruppssegment. Med A4T-integreringen kan du använda [!DNL Analytics]-rapporter för att undersöka dina resultat. Om du använder [!DNL Analytics] som rapportkälla för en aktivitet, baseras all rapportering och segmentering för den aktiviteten på [!DNL Analytics]-datainsamling.
 
@@ -110,7 +110,7 @@ Om du vill visa rapporten i [!DNL Analytics] i stället för i [!DNL Target] kli
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i det här avsnittet.
 
-### Analyser för mål (A4T) (4:32) ![Översikt](/help/assets/overview.png)
+### Analyser för Adobe Target (A4T) (4:32) ![Översikt](/help/assets/overview.png)
 
 I den här videon förklaras hur du använder [!DNL Analytics] som rapportkälla i [!DNL Target] för att analysera optimeringsprogrammet.
 
@@ -120,7 +120,7 @@ I den här videon förklaras hur du använder [!DNL Analytics] som rapportkälla
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analys/målintegrering (A4T) (40:33) ![Självstudiemärke](/help/assets/tutorial.png)
+### Analys/Adobe Target-integrering (A4T) (40:33) ![Självstudiemärke](/help/assets/tutorial.png)
 
 Den här videon handlar om inspelningen av &quot; [kontorstid](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
