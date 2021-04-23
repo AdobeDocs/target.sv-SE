@@ -1,23 +1,23 @@
 ---
 keywords: Visual experience disposition;vec;default url;enhanced experience disposition;eec;mixcontent;experience snapshots;mobile view port;css;css selections
-description: Lär dig hur du konfigurerar Adobe Target Visual Experience Composer (VEC) genom att ange dess allmänna inställningar, konfiguration av mobilvisningsruta och CSS-väljare.
+description: Lär dig hur du konfigurerar Adobe [!DNL Target] Visual Experience Composer (VEC) genom att ange dess allmänna inställningar, konfiguration för mobilvisningsruta och CSS-väljare.
 title: Hur konfigurerar jag Visual Experience Composer (VEC)?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera Visual Experience Composer
 
 Konfigurera [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) genom att ange dess allmänna inställningar, konfiguration för mobilvisningsruta och CSS-väljare.
 
-Om du vill komma åt konfigurationssidan [!UICONTROL Visual Experience Composer] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+Du öppnar konfigurationssidan för [!UICONTROL Visual Experience Composer] genom att klicka på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
