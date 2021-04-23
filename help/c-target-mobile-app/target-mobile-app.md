@@ -1,19 +1,19 @@
 ---
 keywords: mobilapp;mobilappsprocess;målmobilapp;målmobilmålplatser;mått för mobilappens framgång
-description: Lär dig hur du använder Adobe Target för mobilappsoptimering och -personalisering, med iterativ testning och regelbaserad och AI-driven personalisering.
-title: Kan jag använda Target med mobilappar?
-feature: Implement Mobile
+description: Lär dig hur du använder Adobe [!DNL Target] för mobilappsoptimering och -personalisering, med iterativ testning och regelbaserad och AI-driven personalisering.
+title: Kan jag använda [!DNL Target] med mobilappar?
+feature: Implementera mobil
 role: Developer
+exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-
-# Mål för mobilappar{#target-for-mobile-apps}
+# Mål för mobilappar
 
 Adobe Target hjälper er att testa, personalisera och optimera upplevelser för mobilappar baserat på användarbeteende och mobilsammanhang. Ni kan leverera interaktioner som engagerar och konverterar genom iterativ testning samt regelbaserad och AI-driven personalisering.
 
