@@ -1,18 +1,18 @@
 ---
 keywords: anpassade parametrar;anpassade målparametrar;målparametrar;målparametrar;målparametrar för mbox
-description: Lär dig hur du skickar anpassade parametrar till Adobe Target för användning i målgrupper.
-title: Kan jag rikta in besökare baserat på anpassade parametrar?
-feature: Audiences
+description: Lär dig hur du skickar anpassade parametrar till Adobe [!DNL Target] för användning i målgrupper.
+title: Kan jag [!DNL Target] Besökare baserat på anpassade parametrar?
+feature: Målgrupper
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-
-# Anpassade parametrar{#custom-parameters}
+# Egna parametrar
 
 Egna parametrar är mbox-parametrar. Om du skickar några mbox-parametrar till mboxes, eller använder funktionen targetPageParams, visas de parametrarna här för användning i målgrupper.
 
@@ -54,7 +54,7 @@ Publiken [på popup-kortet för definitionsinformation](/help/c-target/c-audienc
 ## Överväganden {#considerations}
 
 * Målgrupper och aktiviteter utvärderas för en viss ruta. Om till exempel den globala mbox skickar en viss parameter, men den regionala mbox inte gör det, kommer aktiviteten/målgruppen som anger den parametern inte att kvalificeras för i den regionala mbox.
-* Målinriktning utvärderas inte för interna mbox-parametrar, till exempel mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId och mboxVersion.
+* Målinriktning utvärderas inte för interna mbox-parametrar, som mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId och mboxVersion.
 
 ## Utbildningsvideo: Skapar publik ![Självstudiekursikon](/help/assets/tutorial.png)
 
