@@ -1,17 +1,17 @@
 ---
 keywords: global mbox;target classic;use global mbox from target classic
-description: Lär dig hur du använder en äldre global mbox för dina Adobe Target-aktiviteter om du redan har skapat en global mbox på dina sidor för dina tidigare implementeringar.
+description: Lär dig hur du använder en äldre global mbox för dina Adobe [!DNL Target] aktiviteter om du redan har skapat en global mbox på dina sidor för dina tidigare implementeringar.
 title: Kan jag använda en global mbox från en äldre implementering?
 feature: at.js
 role: Developer
+exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
 
 # Använd en global mbox från en äldre implementering
 
