@@ -1,16 +1,16 @@
 ---
 keywords: systemuppdatering;felsökning;underhåll;systemstatus;uppdateringsstatus
-description: Se aktuell status för Adobe Target för att hjälpa dig att avgöra om problemen beror på systemuppdateringar eller rutinunderhåll.
-title: Var kan jag se status för Target och andra Adobe-produkter?
-feature: Release Notes
+description: Visa aktuell status för Adobe [!DNL Target] för att hjälpa dig att avgöra om problem som du kan råka ut för beror på systemuppdateringar eller rutinunderhåll.
+title: Var kan jag se status för [!DNL Target] och andra Adobe-produkter?
+feature: Versionsinformation
+exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
-
 
 # Systemstatusuppdateringar och proaktiva meddelanden
 
