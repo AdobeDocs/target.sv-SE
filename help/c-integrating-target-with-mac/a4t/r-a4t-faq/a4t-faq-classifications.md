@@ -1,18 +1,18 @@
 ---
 keywords: frågor och svar;vanliga frågor;analyser för mål;a4T;klassificeringar;klassificering;klassificeringsimportör;efterhandsåtgärd
-description: Hitta svar på frågor om klassificering och användning av Analytics for Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
+description: Hitta svar på frågor om klassificeringar och användning av Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] aktiviteter.
 title: Var hittar jag information om klassificeringar med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
-
-# Klassifikationer - A4T FAQ{#classifications-a-t-faq}
+# Klassificeringar - A4T - vanliga frågor och svar
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om klassificeringar och som använder [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
 
