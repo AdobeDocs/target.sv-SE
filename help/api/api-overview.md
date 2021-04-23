@@ -1,19 +1,19 @@
 ---
 keywords: api;apis;admin api;delivery api;reporting api;profile api
-description: Hitta Adobe Target API:er, inklusive API:er för administration, leverans, rapportering och profil.
-title: Var hittar jag mål-API och SDK-dokumentation?
-feature: APIs/SDKs
+description: Hitta Adobe [!DNL Target] API:er, inklusive API:erna Admin, Delivery, Reporting och Profile.
+title: 'Var hittar jag API- och SDK-dokumentation? [!DNL Target] '
+feature: API:er/SDK:er
 role: Developer
+exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Target API - översikt
+# Adobe [!DNL Target] API-översikt
 
 [!DNL Adobe Target] API:er kan grupperas efter typ: API:er för administration, leverans, rapportering och profil.
 
