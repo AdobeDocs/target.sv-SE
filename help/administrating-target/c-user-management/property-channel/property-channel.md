@@ -2,18 +2,18 @@
 keywords: arbetsytor;hantera egenskap;behörigheter;produktkonfiguration;produktprofil;roller;projekt
 description: Lär dig hur du skapar separata arbetsytor (produktprofiler) och sedan tilldelar användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser.
 title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2991'
+source-wordcount: '2989'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMEnterenterprise-användarbehörigheter{#enterprise-user-permissions}
+# ![](/help/assets/premium.png) PREMIUMEnterenterprise-användarbehörigheter
 
 Enterprise-användarbehörigheter är ett sätt att formellt administrera företagsövergripande användaråtkomst till [!DNL Adobe Target]. Lägg till användare i [!DNL Target], tilldela behörigheter baserat på deras roller och skapa arbetsytor för team baserat på olika avdelningar, globala platser, kanaler och andra logiska grupper. Du kan tilldela användare rollerna [!UICONTROL Observer], [!UICONTROL Editor] eller [!UICONTROL Approver].
 
@@ -296,7 +296,7 @@ Utbildningsmål:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Kontorstid: Arbetsytor för Target Premium
+### Kontorstid: [!DNL Target] Premium Workspaces
 
 Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
 
