@@ -2,17 +2,17 @@
 keywords: variabler;profiler;parametrar;inbyggda profiler;metoder;url-variabler;geoprofiler;tredjepartsprofiler;mbox-variabler;kampanjvariabler;kundattribut
 description: Visa en lista med olika profiler, variabler och parametrar som är användbara i profilskript i Adobe Target.
 title: Vilka profiler, variabler och parametrar används i målet?
-feature: Audiences
+feature: Målgrupper
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
-
-# Profil och variabel ordlista{#profile-and-variable-glossary}
+# Profil och variabel ordlista
 
 På den här sidan visas profiler, variabler och parametrar som är användbara i profilskript.
 
