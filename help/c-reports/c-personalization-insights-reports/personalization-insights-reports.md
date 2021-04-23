@@ -2,17 +2,17 @@
 keywords: Målgruppsanpassning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;personalization;insights;automatic segments;faq;ofta questions;important attributes
 description: Lär dig hur du använder specialrapporter för Automated Personalization- (AP) och Auto-Target-aktiviteter (AT) - automatiserade segment och viktiga attribut.
 title: Hur använder jag personaliseringsInsights-rapporterna?
-feature: Reports
+feature: Rapporter
+exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-
-# ![Rapporter om ](/help/assets/premium.png) PREMIUMPersonalization Insights{#personalization-insights-reports}
+# ![Rapporter om ](/help/assets/premium.png) PREMIUMPersonalization Insights
 
 Två specialiserade rapporter är tillgängliga för användare av [!UICONTROL Automated Personalization]- (AP) och [!UICONTROL Auto-Target] (AT)-aktiviteter: rapporterna [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes].
 
