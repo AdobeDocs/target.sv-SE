@@ -1,22 +1,22 @@
 ---
 keywords: frågor och svar;vanliga frågor;analyser för mål;a4T;rapport;rapporter;visa rapporter;rapportera;inventeringsmetod;visningar;besökare;besök;standardmått;aktivitetskonverteringar;ospecificerad
-description: Hitta svar på frågor som ofta ställs om att visa rapporter när du använder Analytics for Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
+description: Hitta svar på frågor som ofta ställs om att visa rapporter när du använder Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] aktiviteter.
 title: Hitta svar på frågor om att visa rapporter med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 translation-type: tm+mt
-source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2476'
 ht-degree: 1%
 
 ---
-
 
 # Visa rapporter - A4T FAQ
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rapporter när du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
-## Kan jag visa mina Target-aktivitetsdata i Analysis Workspace? {#workspace}
+## Kan jag visa mina [!DNL Target] aktivitetsdata i Analysis Workspace? {#workspace}
 
 Du kan använda [!DNL Analysis Workspace] för att analysera dina [!DNL Target] aktiviteter och upplevelser. Med [Analytics for Target panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) kan du se hur mycket du kan lita på och förbättra resultatet för så många som tre framgångsmått. Du kan också fördjupa dig i tabeller och visualiseringar.
 
@@ -28,7 +28,7 @@ Segment används oftast högst upp på en panel i segmentets släppzon. Segmente
 
 Ett segment kan också läggas i lager direkt i friformstabellen, men observera att du måste täcka över hela tabellen för att kunna bevara lyftnings- och tillförlitlighetsberäkningarna i A4T-panelen. Kolumnnivåsegment stöds för närvarande inte på panelen.
 
-## Varför returneras orelaterade upplevelser när jag använder ett träffsegment för en viss Target-aktivitet? {#activity-segmentation}
+## Varför returneras orelaterade upplevelser när jag använder ett träffsegment för en viss [!DNL Target]-aktivitet? {#activity-segmentation}
 
 Variabeln [!DNL Target] som skickas till [!DNL Analytics] har en standardförfalloperiod på 90 dagar. (Obs! denna förfalloperiod kan justeras av kundtjänst om det behövs). När besökare navigerar på webbplatsen genom det här förfallofönstret är de en del av många [!DNL Target]-aktiviteter, som alla samlas in i dimensionen.
 
@@ -75,7 +75,7 @@ Efter klassificeringsperioden visas data i dessa rapporter ungefär en timme eft
 
 Om klassificeringen gjordes för den aktiviteten och du fortfarande ser en ospecificerad rad i rapporten, kontrollerar du att rapporten inte använder ett icke-[!DNL Target]-mått för att visa data. Om inte rapporten använder ett [!DNL Target]-specifikt mått innehåller raden &quot;Ospecificerad&quot; händelser för anrop som inte är associerade med [!DNL Target]. Den raden kommer inte att innehålla någon [!DNL Target]-associerad information (till exempel besökare/besök/visningar).
 
-## Varför skickas Target-mått till Analytics även efter att aktiviteten har inaktiverats? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## Varför skickas [!DNL Target]-mått till Analytics även efter att aktiviteten har inaktiverats? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 Variabeln [!DNL Target] som skickas till [!DNL Analytics] har en standardförfalloperiod på 90 dagar. Den här förfalloperioden kan justeras av kundtjänst om det behövs. Den här inställningen är global för alla aktiviteter, så den bör inte justeras för ett fall.
 
@@ -93,7 +93,7 @@ Den 1 januari kommer användaren till webbplatsen och ser aktiviteten XYZ en gå
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter inte på fler Target-aktiviteter och den ursprungliga aktiviteten är inte längre aktiv. Även om aktiviteten inte längre är aktiv följer den fortfarande användaren via eVar persistence. Data ser nu ut så här:
 
@@ -105,15 +105,15 @@ Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 3 | 3 |
+| XYZ | 3 | 15 | 1 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så du ser det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 1 |
+| XYZ | 1 | 20 | 4 | 3 | 1 |
+| ABC | 1 | 10 | 2 | 3 | 3 |
 | Totalt | 2 | 20 | 3 | 1 | 1 |
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Du jämför resultatet av två objekt i en enskild aktivitet. Det är inte möjligt för en användare att se olika upplevelser i samma aktivitet, så du behöver inte bekymra dig om korskontaminering av orderkrediter.
@@ -124,7 +124,7 @@ Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.
 
 En källa till visningar för en A4T-aktivitets rapport efter avaktivering kan vara trafik i QA-läge. Målet loggar normalt inte händelser för en inaktiverad aktivitet, men det finns inget sätt att veta att det kommer att synas i QA-läge i Analytics. När Target-aktivitetsrapporten hämtas från Analytics visas dessa intryck. Detta fungerar som avsett eftersom kunderna behöver ett sätt att kontrollera A4T-rapporter även om aktiviteten inte är aktiv i QA-läge.
 
-## Varför beräknas siffror för de unika besökarvärdena olika i Analytics och Analytics for Target (A4T)? {#section_0C3B648AB54041F9A2AA839D51791883}
+## Varför beräknas siffror för de unika besökarvärdena olika i Analytics och Analytics for Adobe Target (A4T)? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 När du kör ett A/B-test, där Students t-test (konfidensmåttet) används för att välja en testvinnare, är en av antagandena att det finns en fast tidshorisont. Testet är inte statistiskt giltigt om du inte tittar på den fasta provstorleken.
 
