@@ -1,17 +1,17 @@
 ---
 keywords: rekommendationsnyckel;rekommendationslogik;aktuell kategori;anpassat attribut;senast inköpt objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;favoritkategori;popularitet;senast visade objekt;senast visade;senast visade;senast visade;favoriter;senast visade
-description: Lär dig hur du använder rekommendationer baserade på nycklar som använder besökarbeteendekontext för att visa relevanta resultat i Adobe Target Recommendations-aktiviteter.
+description: Lär dig hur du använder rekommendationer baserade på nycklar som använder besökarbeteendekontext för att visa relevanta resultat i Recommendations-aktiviteter i Adobe [!DNL Target] .
 title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
+exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
 
 ---
-
 
 # Basera rekommendationen på en rekommendationsnyckel
 
@@ -359,7 +359,7 @@ Den här logiken kan användas med följande rekommendationsnycklar:
 
 Visar de artiklar som ingår i de mest slutförda beställningarna. Flera enheter av samma artikel i en enda order räknas som en order.
 
-Med den här logiken kan du skapa rekommendationer för de mest säljande artiklarna på webbplatsen för att öka konverteringsgraden och intäkterna. Den här logiken passar särskilt bra för förstagångsbesökare på er webbplats.
+Med den här logiken kan du skapa rekommendationer för artiklar som säljer bäst på webbplatsen och öka konverteringsgraden och intäkterna. Den här logiken passar särskilt bra för förstagångsbesökare på er webbplats.
 
 Den här logiken kan användas med följande rekommendationsnycklar:
 
