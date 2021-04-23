@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendNotifications;send notifications;send notifications;notifications;at.js;functions;function
-description: Använd adobe.target.sendNotifications() för at.js för att skicka meddelanden till Target-kanten när en upplevelse inte återges med applyOffer(s). (at.js.2.1 +)
+description: Använd adobe.target.sendNotifications() för at.js för att skicka meddelanden till kanten [!DNL Target] när en upplevelse inte återges med applyOffer(s). (at.js.2.1 +)
 title: Hur använder jag funktionen adobe.target.sendNotifications()?
 feature: at.js
 role: Developer
+exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
 
 ---
-
 
 # adobe.target.sendNotifications(options)
 
@@ -120,4 +120,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics, `getOffers()` med endast prefetch och `sendNotifications()`, måste Analytics-begäran skickas när `sendNotifications()` har körts. Syftet med detta är att säkerställa att SDID som genereras av `sendNotifications()` matchar SDID som skickas till Analytics och Target.
+>Om du använder Adobe Analytics, `getOffers()` med endast förhämtning och `sendNotifications()`, måste Analytics-begäran aktiveras efter att `sendNotifications()` har körts. Syftet med detta är att säkerställa att SDID som genereras av `sendNotifications()` matchar SDID som skickas till Analytics och Target.
