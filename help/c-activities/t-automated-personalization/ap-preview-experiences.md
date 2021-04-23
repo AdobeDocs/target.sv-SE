@@ -1,18 +1,18 @@
 ---
 keywords: Automated Personalization;ap;preview;exclude experience;
-description: Lär dig hur du förhandsgranskar varje upplevelse i en Automated Personalization-aktivitet (AP) i Adobe Target med Visual Experience Composer (VEC).
+description: Lär dig hur du förhandsgranskar varje upplevelse i en Automated Personalization-aktivitet (AP) i Adobe [!DNL Target] med Visual Experience Composer (VEC).
 title: Hur kan jag förhandsgranska Automated Personalization Experience i VEC?
 feature: Automated Personalization
+exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMPrankar för Automated Personalization i Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
+# ![](/help/assets/premium.png) PREMIUMPrankar för Automated Personalization i Visual Experience Composer
 
 Eftersom en [!DNL Adobe Target] [!UICONTROL Automated Personalization]-aktivitet (AP) jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan med varje upplevelse.
 
