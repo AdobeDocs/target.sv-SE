@@ -1,19 +1,19 @@
 ---
 keywords: mobil;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
-description: Lär dig hur du skickar aktivitetsinformation för Adobe Target-mobilappar till Adobe Analytics för segmentering efter ad hoc.
+description: Lär dig hur du skickar aktivitetsinformation för Adobe [!DNL Target] mobilappar till Adobe Analytics för segmentering efter ad hoc.
 title: Kan jag skicka aktivitetsinformation för mobilappar till Analytics?
-feature: Implement Mobile
+feature: Implementera mobil
 role: Developer
+exl-id: 33812f14-320f-40c3-8234-d6006fb4d6bc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-
-# Skicka aktivitetsinformation till Adobe Analytics{#send-activity-information-to-adobe-analytics}
+# Skicka aktivitetsinformation till Adobe Analytics
 
 I det här avsnittet beskrivs hur du skickar [!DNL Target] aktivitetsinformation för mobilappar till Adobe [!DNL Analytics] för segmentering efter behov.
 
@@ -74,4 +74,3 @@ I det här avsnittet beskrivs hur du skickar [!DNL Target] aktivitetsinformation
    >[!NOTE]
    >
    >`&&tnt`är en reserverad händelsenyckel i mobil-SDK. Efterklassificeringen av variabeln `tntVal` i [!DNL Analytics] fungerar på samma sätt i den mobila SDK:n som den gör på webben (JavaScript). När informationen har bearbetats i [!DNL Analytics] bör du visa aktivitets- och upplevelsenamnen i [!DNL Analytics]-gränssnittet.
-
