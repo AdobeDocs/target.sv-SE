@@ -1,16 +1,16 @@
 ---
 keywords: a4t;A4T;Analyser som rapportkälla för Target
-description: Lär dig hur du konfigurerar en aktivitet i Adobe Target som använder Adobe Analytics som rapportkälla (A4T).
+description: Lär dig hur du konfigurerar en aktivitet i Adobe [!DNL Target] som använder Adobe Analytics som rapportkälla (A4T).
 title: Hur skapar jag en aktivitet som använder A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en aktivitet som använder Analytics som rapportkälla
 
