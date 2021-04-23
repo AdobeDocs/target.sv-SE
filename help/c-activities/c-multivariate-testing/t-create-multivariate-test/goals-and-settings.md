@@ -1,16 +1,16 @@
 ---
 keywords: aktivitetsinställningar;mål och inställningar;multivariera;mvt
-description: Lär dig hur du använder sidan Mål och inställningar i Adobe Target för att ange information om målen för en Multivariate Test-aktivitet (MVT).
+description: Lär dig hur du använder sidan Mål och inställningar i Adobe [!DNL Target] för att ange information om målen för en Multivariate Test-aktivitet (MVT).
 title: Hur anger jag mål och inställningar i en multivariat testaktivitet?
-feature: Multivariate Tests
+feature: Multivariata tester
+exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
-
 
 # Mål och inställningar (multivariata tester)
 
