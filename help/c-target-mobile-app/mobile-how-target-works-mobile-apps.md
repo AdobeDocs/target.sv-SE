@@ -1,18 +1,18 @@
 ---
 description: Lär dig hur du använder Adobe Mobile SDK för att visa upp de optimala upplevelserna för era mobilappsbesökare.
-title: Hur fungerar Target i mobilappar?
-feature: Implement Mobile
+title: Hur fungerar [!DNL Target] mobilappar?
+feature: Implementera mobil
 role: Developer
+exl-id: 1a5f34dc-932d-47c7-b730-6d1658343fb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
-
-# Hur Target fungerar i mobilappar{#how-target-works-in-mobile-apps}
+# Hur [!DNL Target] fungerar i mobilappar
 
 Adobe Mobile SDK kontaktar målservern för att få innehållet tillsammans med andra datapunkter för att visa rätt upplevelse för användaren.
 
@@ -33,4 +33,3 @@ Ett *[framgångsmått](/help/c-activities/r-success-metrics/success-metrics.md#r
 **Förstå hur Target fungerar i SDK**
 
 ![](assets/how-target-mobile-works.png)
-
