@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;misstag;fallfall;fel;fallfall;signifikans;vinnare;statistisk skillnad;statistisk ström;trafikallokering;tilldelning;
-description: Lär dig hur du undviker de vanligaste fallgroparna och felen som företag gör när de utför A/B-tester i Adobe Target och andra testlösningar.
+description: Lär dig hur du undviker de vanligaste fallgroparna och felen som företag gör när de utför A/B-tester i Adobe [!DNL Target] och andra testlösningar.
 title: Hur undviker jag vanliga A/B-tester?
-feature: A/B Tests
+feature: A/B-tester
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3885'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
-
 
 # Tio vanliga A/B-testfall och hur man undviker dem
 
@@ -62,7 +62,7 @@ Med testning av flera erbjudanden deklarerar marknadsförarna ofta erbjudandet m
 
 ![](assets/pitfalls2.png)
 
-Erbjudandena A och B har den högsta observerade lyften under testet, och det är osannolikt att erbjudandet C skulle gå utöver de erbjudandena under en framtida provning, eftersom konfidensintervallet för C inte ens överlappar konfidensintervallen för A eller B. Även om A-erbjudandet har den högsta observerade lyften under testet är det dock helt möjligt att B-erbjudandet kan fungera bättre i ett framtida test eftersom konfidensintervallen överlappar varandra.
+Erbjudandena A och B har den högsta observerade lyften under testet, och det är osannolikt att erbjudandet C skulle överträffa dessa erbjudanden i ett framtida test, eftersom konfidensintervallet för C inte ens överlappar konfidensintervallen för A eller B. Även om A-erbjudandet har den högsta observerade lyften under testet är det dock helt möjligt att B-erbjudandet kan fungera bättre i ett framtida test eftersom konfidensintervallen överlappar varandra.
 
 Här är processen att både erbjudanden A och B bör betraktas som testvinnare.
 
@@ -88,7 +88,7 @@ Enkelsidiga tester kräver en mindre observerad skillnad i konverteringsgraden m
 
 I ett ensidigt test testar ni om erbjudande B är bättre än erbjudande A. Testets riktning måste bestämmas innan testet börjar, eller &quot;a priori&quot; i statistiken. Du måste med andra ord bestämma om du ska testa om B är bättre än A eller A är bättre än B *innan* testet påbörjas. Om du emellertid tittar på resultaten av A/B-testet och ser att B är bättre än A och *så väljer* att göra ett ensidigt test för att se om skillnaden är statistiskt signifikant, bryter du mot antagandena bakom det statistiska testet. Om du bryter antagandena i testet innebär det att dina konfidensintervall är otillförlitliga och att testet har en högre falskt positiv frekvens än du hade förväntat dig.
 
-Du kan se ett ensidigt test som att ställa ett erbjudande inför rätta till en domare som redan har bestämt sig. I ett ensidigt test har ni redan bestämt vad det vinnande erbjudandet ska vara och ska bevisa det, istället för att ge varje upplevelse en lika stor chans att visa sig som vinnaren. Enkelsidiga tester bör endast användas i sällsynta fall där du bara är intresserad av om ett erbjudande är bättre än det andra och inte tvärtom. För att undvika problemet med ensidigt test bör du använda en A/B-testlösning som alltid använder tvåsidiga tester, till exempel [!DNL Adobe Target].
+Du kan se ett ensidigt test som att ställa ett erbjudande inför rätta till en domare som redan har bestämt sig. I ett ensidigt test har ni redan bestämt vad det vinnande erbjudandet ska vara och ska bevisa det, i stället för att ge varje upplevelse en lika stor chans att visa sig som vinnaren. Enkelsidiga tester bör endast användas i sällsynta fall där du bara är intresserad av om ett erbjudande är bättre än det andra och inte tvärtom. För att undvika problemet med ensidigt test bör du använda en A/B-testlösning som alltid använder tvåsidiga tester, till exempel [!DNL Adobe Target].
 
 ## Pitfall 5: Övervakningstester {#section_EA42F8D5967B439284D863C46706A1BA}
 
@@ -173,4 +173,3 @@ Stegen nedan hjälper dig att undvika dessa fallgropar och fokusera på att få 
 * Beräkna provstorleken (antal besökare) innan testet startas.
 * Vänta tills den beräknade provstorleken har nåtts innan testet stoppas.
 * Justera konfidensnivån när du segmenterar efter testet eller utvärderar mer än ett alternativ, till exempel med korrigeringen av Bonferroni.
-
