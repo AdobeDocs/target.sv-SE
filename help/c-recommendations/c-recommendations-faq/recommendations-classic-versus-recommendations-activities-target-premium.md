@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;rekommendationsalgoritmer;rekommendationer aktivitet;rekommendationer klassiska
-description: Granska informationen och se skillnaderna mellan de gamla Recommendations Classic- och Recommendations-aktiviteterna i Target Premium.
-title: Vad är skillnaden mellan Recommendations Classic och Recommendations i Target Premium?
+description: Granska informationen för att förstå skillnaderna mellan de gamla Recommendations Classic- och Recommendations-aktiviteterna i [!DNL Target] Premium.
+title: Vad är skillnaden mellan Recommendations Classic och Recommendations i [!DNL Target] Premium?
 feature: Recommendations
+exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMRommendations Classic jämfört med Recommendations-aktiviteter i Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![](/help/assets/premium.png) PREMIUMRommendations Classic jämfört med Recommendations aktiviteter i  [!DNL Target] Premium
 
 Information som hjälper dig att välja mellan Recommendations Classic- och Recommendations-aktiviteter i Target Premium.
 
@@ -76,4 +76,3 @@ I [!DNL Recommendations Classic] fanns det sex målinriktningsalternativ. Recomm
 I [!DNL Target] ger [!DNL Recommendations] förbättrade rapporter som utnyttjar funktionerna i [!DNL Target] och [!DNL Experience Cloud]. I stället för att bara visa den hiss som [!DNL Recommendations] ger jämfört med resultaten utan dem, kan du visa fullständig information om din [!DNL Recommendations]-aktivitet.
 
 ![](assets/overview_report.png)
-
