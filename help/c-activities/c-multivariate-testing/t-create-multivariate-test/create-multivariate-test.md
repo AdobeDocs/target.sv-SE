@@ -1,18 +1,18 @@
 ---
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
-description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa en MVT-rättighet (Multivariate Test) på en Target-aktiverad sida.
+description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe [!DNL Target] för att skapa ett Multivariate Test (MVT) direkt på en [!DNL Target]-aktiverad sida.
 title: Hur skapar jag ett multivariata test?
-feature: Multivariate Tests
+feature: Multivariata tester
+exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
-
-# Skapa ett multivariata test{#create-a-multivariate-test}
+# Skapa ett multivariata test
 
 Med [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Adobe Target] är det enkelt att skapa ett test direkt på en målaktiverad sida och att ändra delar av sidan i [!DNL Target].
 
