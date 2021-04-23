@@ -1,18 +1,18 @@
 ---
 keywords: fjärrerbjudande;skapa fjärrerbjudande
-description: Lär dig hur du skapar JSON-erbjudanden i Adobe Target som kan användas i den formulärbaserade Experience Composer. JSON-erbjudanden är användbara för SPA ramverk eller integreringar på serversidan.
+description: Lär dig hur du skapar JSON-erbjudanden i Adobe [!DNL Target] för användning i den formulärbaserade Experience Composer. JSON-erbjudanden är användbara för SPA ramverk eller integreringar på serversidan.
 title: Hur skapar jag JSON-erbjudanden?
-feature: Experiences and Offers
+feature: Erfarenheter och erbjudanden
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
-
-# Skapa JSON-erbjudanden{#create-json-offers}
+# Skapa JSON-erbjudanden
 
 Skapa JSON-erbjudanden i [!UICONTROL Offer Library] i [!DNL Adobe Target] för användning i [!UICONTROL Form-Based Experience Composer].
 
@@ -138,4 +138,3 @@ adobe.target.getOffer({
 Du kan filtrera biblioteket [!UICONTROL Offers] genom att klicka på listrutan **[!UICONTROL Type]** och sedan markera kryssrutan **[!UICONTROL JSON]**.
 
 ![](assets/offer-json-filter.png)
-
