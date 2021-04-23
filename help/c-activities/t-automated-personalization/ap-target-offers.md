@@ -1,19 +1,19 @@
 ---
 keywords: automatiserad personalisering;erbjudanden;mål;målgrupp;målinriktningsregler;målinriktning
 description: Lär dig att rikta enskilda erbjudanden till specifika målgrupper med hjälp av en Automated Personalization-aktivitet (AP) i Adobe Target.
-title: Hur riktar jag mig mot Automated Personalization erbjudanden?
+title: Hur kan jag [!DNL Target] erbjuda Automated Personalization?
 feature: Automated Personalization
 solution: Target,Analytics
+exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMTarget Automated Personalization erbjuder{#target-automated-personalization-offers}
+# ![](/help/assets/premium.png) [!DNL Target] PREMIUMAutomatiserade personaliseringserbjudanden
 
 I en [!DNL Adobe Target] [!DNL Automated Personalization]-aktivitet (AP) kan du rikta erbjudanden till specifika målgrupper.
 
