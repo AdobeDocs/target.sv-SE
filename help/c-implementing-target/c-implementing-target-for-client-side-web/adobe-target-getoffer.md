@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
-description: Använd funktionen adobe.target.getOffer() och dess alternativ för Adobe Target at.js-biblioteket för att utlösa förfrågningar om att få ett Target-erbjudande.
+description: Använd funktionen adobe.target.getOffer() och dess alternativ för Adobe [!DNL Target] at.js library to fire requests to get a [!DNL Target] erbjudandet.
 title: Hur använder jag funktionen adobe.target.getOffer()?
 feature: at.js
 role: Developer
+exl-id: 3448fdaa-b5f6-465d-8858-1dfe214bd8c4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # adobe.target.getOffer(options)
 
