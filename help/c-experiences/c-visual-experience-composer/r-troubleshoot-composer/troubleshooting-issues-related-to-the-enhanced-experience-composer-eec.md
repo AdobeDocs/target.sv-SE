@@ -1,16 +1,16 @@
 ---
 keywords: Rikting;eec;visual experience disposition;felsök förbättrad experience disposition;felsökning
-description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe Target Enhanced Experience Composer (EEC) under vissa förhållanden.
+description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!DNL Target] Enhanced Experience Composer (EEC) under vissa förhållanden.
 title: Hur felsöker jag problem som rör den förbättrade Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
-
 
 # Felsöka problem med Förbättrad Experience Composer
 
