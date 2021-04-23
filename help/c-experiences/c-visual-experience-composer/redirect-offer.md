@@ -1,16 +1,16 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Lär dig hur du använder alternativet Omdirigera till URL i Adobe Target när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
+description: Lär dig hur du använder alternativet Omdirigera till URL i Adobe [!DNL Target] när du vill skicka besökaren till en annan sida i stället för att visa innehåll på samma sida.
 title: Kan jag dirigera om en sida till en annan URL?
 feature: Visual Experience Composer (VEC)
+exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
-
 
 # Omdirigera till en URL
 
