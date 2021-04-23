@@ -2,17 +2,17 @@
 keywords: Mål;rapporter;rapportinställningar;flera mått;mått;visade mått;dolda mått
 description: Lär dig hur du väljer flera mätvärden som ska visas i en rapport med Adobe Target.
 title: Hur visar jag flera mätvärden i en rapport?
-feature: Reports
+feature: Rapporter
+exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
-
-# Visa flera mätvärden i en rapport{#view-multiple-metrics-in-a-report}
+# Visa flera mätvärden i en rapport
 
 Du kan välja flera mätvärden att visa i en [!DNL Adobe Target]-rapport.
 
@@ -45,7 +45,7 @@ Tänk på följande när du arbetar med flera mätvärden i rapporter:
    Du kan ordna om mätvärdena genom att dra och släppa dem i önskad ordning i [!UICONTROL Shown Metrics]-listan. Den valda ordningen återspeglas i [!UICONTROL Table View] och [!UICONTROL Graph View]. Om du vill ta bort ett mått från [!UICONTROL Shown Metrics]-listan håller du muspekaren över mätvärdet och klickar sedan på ikonen **X**.
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
-1. (Villkorligt) Håll muspekaren över kolumnrubriken för ett mätresultat om du vill visa en blå pil när du visar rapporten i [!UICONTROL Table View]. Klicka på pilen för att utöka tabellen så att den visar [!UICONTROL Lift] och [!UICONTROL Confidence] för det måttet.
+1. (Villkorligt) När du visar rapporten i [!UICONTROL Table View] håller du muspekaren på kolumnrubriken för ett mätresultat och visar en blå pil. Klicka på pilen för att utöka tabellen så att den visar [!UICONTROL Lift] och [!UICONTROL Confidence] för det måttet.
 
    ![](assets/multiple_metrics_table.png)
 
@@ -54,4 +54,3 @@ Tänk på följande när du arbetar med flera mätvärden i rapporter:
 1. (Villkorligt) När du visar rapporten i diagramvyn kan du välja enskilda mått att visa i listrutan:
 
    ![](assets/multiple_metrics_graph.png)
-
