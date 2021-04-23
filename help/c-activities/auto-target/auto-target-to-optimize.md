@@ -1,13 +1,13 @@
 ---
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning
-description: Lär dig hur en Auto-Target-aktivitet i Target ger varje besökare den mest skräddarsydda upplevelsen baserat på kundprofiler och beteendet hos liknande besökare.
+description: Lär dig hur en Auto-Target-aktivitet i [!DNL Target] ger varje besökare den mest anpassade upplevelsen baserat på kundprofiler och beteendet hos liknande besökare.
 title: Vad är en aktivitet med automål?
-feature: Auto-Target
+feature: Automatiskt mål
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1927'
 ht-degree: 0%
 
 ---
