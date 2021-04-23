@@ -1,16 +1,16 @@
 ---
 keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: Få tillgång till Adobe Target-dokumentation, inklusive onlinehjälp, självstudiekurser, videor och utvecklardokumentation (SDK, API:er och JavaScript-bibliotek).
+description: Få tillgång till Adobe [!DNL Target] dokumentation, inklusive onlinehjälp, självstudiekurser, videor och utvecklardokumentation (SDK, API:er och JavaScript-bibliotek).
 title: Var hittar jag dokumentation för Target?
-feature: Release Notes
+feature: Versionsinformation
+exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över måldokumentation
 
