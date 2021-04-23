@@ -1,16 +1,16 @@
 ---
 keywords: upplevelseförhandsgranskning;upplevelse-URL;generera URL;visa upplevelse-URL:er
-description: Lär dig hur du använder URL:er för förhandsgranskning av upplevelser för Adobe Target Automated Personalization-aktiviteter för att visa innehåll direkt på din webbplats innan aktiviteten publiceras.
+description: Lär dig hur du använder URL:er för förhandsgranskning av upplevelser för Adobe [!DNL Target] Automated Personalization-aktiviteter för att visa innehåll direkt på din webbplats innan aktiviteten är aktiv.
 title: Hur kan jag använda URL:er för förhandsgranskning i Automated Personalization-aktiviteter?
 feature: Automated Personalization
+exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMPörhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelser
 
