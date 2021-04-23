@@ -1,17 +1,17 @@
 ---
 keywords: implementera;at.js;javascript-bibliotek
-description: Lär dig hur du distribuerar JavaScript-biblioteket Adobe Target at.js med Adobe Experience Platform Launch eller utan en tagghanterare.
+description: Lär dig hur du distribuerar JavaScript-biblioteket Adobe [!DNL Target] at.js med Adobe Experience Platform Launch eller utan en tagghanterare.
 title: Hur distribuerar jag på .js?
-feature: Implement Server-side
+feature: Implementera serversidan
 role: Developer
+exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
-
 
 # Så här distribuerar du at.js
 
