@@ -2,16 +2,16 @@
 keywords: teckengräns;mbox-parametrar;batchleverans api;profilparametrar;begränsningar;inbyggda profiler;maximum;limit;begränsning;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Visa en lista över teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Adobe Target.
 title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsningar i Adobe Target?
-feature: Troubleshooting
+feature: Felsökning
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
-
 
 # Gränser
 
@@ -234,7 +234,7 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
 * **Gräns**: 50 rapportmålgrupper/segment per verksamhet.
 
-## Skriptprofilens inmatningsruta i målgränssnittet
+## Skriptprofilens inmatningsruta i gränssnittet för [!DNL Target]
 
 * **Rekommenderad gräns**: 2 000 tecken.
 
@@ -273,4 +273,3 @@ Följande storleksbegränsningar gäller för erbjudanden:
 * **Rekommenderad gräns**: 2 500 tecken per målregelvärde.
 * **Rekommenderad gräns**: 30 000 unika värden per målgrupp över målinriktningsreglerna.
 * **Rekommenderad gräns**: 100 000 unika målregelvärden per aktivitet.
-
