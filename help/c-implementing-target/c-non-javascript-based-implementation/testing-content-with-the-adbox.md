@@ -2,18 +2,18 @@
 keywords: Implementering;mbox.js non javascript;mbox;adbox
 description: Använd en AdBox för att leverera bilder i en implementering utanför webbplatsen med Adobe Target. En AdBox är som en mbox, men styrs av en URL i stället för JavaScript.
 title: Hur skapar jag en Adbox för en bild?
-feature: Implement Email
+feature: Implementera e-post
 role: Developer
+exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
-
-# Skapa en Adbox för en bild{#create-an-adbox-for-an-image}
+# Skapa en Adbox för en bild
 
 Använd en AdBox för att leverera bilder i en implementering utanför webbplatsen med Adobe Target.
 
