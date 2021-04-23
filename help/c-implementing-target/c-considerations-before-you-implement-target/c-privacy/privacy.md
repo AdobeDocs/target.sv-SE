@@ -1,17 +1,17 @@
 ---
 keywords: sekretess;ip-adress;geosegmentering;avanmäl dig;avanmäl dig;avanmäl dig;datasekretess;myndighetsregler;regler;gdpr;ccpa
-description: Läs om hur Adobe Target följer gällande datasekretesslagstiftning, inklusive insamling och hantering av IP-adresser samt anvisningar om avanmälan.
-title: Hur hanterar Target sekretessfrågor?
-feature: Privacy & Security
+description: Läs om hur Adobe [!DNL Target] följer gällande datasekretesslagstiftning, inklusive insamling och hantering av IP-adresser, och avanmälningsanvisningar.
+title: Hur hanterar [!DNL Target] sekretessfrågor?
+feature: Integritet och säkerhet
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
-
 
 # Integritet
 
