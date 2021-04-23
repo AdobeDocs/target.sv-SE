@@ -1,16 +1,16 @@
 ---
 keywords: entitet;entitetsattribut;skicka information till Recommendations;beteendedata;dataräknare;definiera relativ URL;visa lagernivå;definiera pris;definiera vinstmarginal;anpassade attribut
-description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till Target Recommendations.
+description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Target] Recommendations.
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
+exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 translation-type: tm+mt
-source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMEntity-attribut
 
