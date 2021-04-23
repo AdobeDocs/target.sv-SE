@@ -1,16 +1,16 @@
 ---
 keywords: omdirigeringserbjudande;skapa omdirigeringserbjudande;lägg till html-erbjudande;Skicka alla URL-parametrar i omdirigering;Pass mboxSessionId i omdirigering (behövs endast när omdirigeringen går till en annan domän)
-description: 'Lär dig hur du skapar omdirigeringserbjudanden i Adobe Target så att en webbläsare dirigeras om till en ny sida. '
+description: 'Lär dig hur du skapar omdirigeringserbjudanden i Adobe [!DNL Target] så att en webbläsare dirigerar om till en ny sida. '
 title: Hur skapar jag omdirigeringserbjudanden?
-feature: Experiences and Offers
+feature: Erfarenheter och erbjudanden
+exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
-
 
 # Skapa omdirigeringserbjudanden
 
