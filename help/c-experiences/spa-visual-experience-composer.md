@@ -1,16 +1,16 @@
 ---
-keywords: spa vec;ereaktion;angular;reaktion.js;spa visual experience comser;spa experience composer options;single page apps;single page app;spa;mobile experience options;target view
-description: Lär dig hur du använder SPA VEC i Adobe Target för att skapa tester och personalisera innehåll på SPA på ett sätt som gör det själv utan kontinuerliga utvecklingsberoenden.
+keywords: spa vec;reaktion;angular;reaktion.js;spa visual experience comser;spa experience composer options;single page apps;single page app;spa;mobile experience options;target view
+description: Lär dig hur du använder SPA VEC i Adobe [!DNL Target] för att skapa tester och anpassa innehåll på SPA på ett sätt som gör det själv utan kontinuerliga utvecklingsberoenden.
 title: Hur använder jag Visual Experience Composer (SPA VEC) för en sida?
 feature: Visual Experience Composer (VEC)
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3655'
+source-wordcount: '3656'
 ht-degree: 0%
 
 ---
-
 
 # Visual Experience Composer (SPA) med en sida
 
@@ -20,7 +20,7 @@ I [!DNL Adobe Target] ger [!UICONTROL Visual Experience Composer] (VEC) marknads
 
 I den senaste versionen presenterar vi nu VEC för SPA. Med VEC for SPA kan marknadsförarna skapa tester och personalisera innehåll på SPA på ett sätt som gör det själv utan kontinuerliga utvecklingsberoenden. VEC kan användas för att skapa [A/B Test](/help/c-activities/t-test-ab/test-ab.md) och [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter på populära ramverk, som React och Angular.
 
-## Adobe Target Views and Single Page Applications
+## Adobe [!DNL Target]-vyer och enkelsidiga program
 
 Adobe Target VEC for SPA utnyttjar det nya konceptet Views: en logisk grupp visuella element som tillsammans utgör en SPA. En SPA kan därför betraktas som en övergång via vyer i stället för URL-adresser som baseras på användarinteraktioner. En vy kan vanligtvis representera en hel plats eller grupperade visuella element inom en plats.
 
@@ -56,7 +56,7 @@ Dessutom kan vykonceptet utökas betydligt mer än så. Om marknadsförarna vill
 
 Nu kanske marknadsförarna vill köra ett A/B-test för att se om en ändring av färgen från blå till röd när expressleverans är valt kan öka konverteringsgraden i stället för att behålla knappfärgen blå för båda leveransalternativen.
 
-## Implementera Adobe Target-vyer
+## Implementera Adobe [!DNL Target]-vyer
 
 Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i Target för att göra det möjligt för marknadsförare att köra A/B- och XT-tester på SPA via VEC. Detta kräver en engångsinstallation av utvecklare. Låt oss gå igenom stegen för att konfigurera detta.
 
@@ -275,7 +275,7 @@ Nu kan utvecklarna namnvisa och ringa `triggerView()` på följande sätt:
 
 Dina marknadsförare kör sedan följande A/B-aktiviteter via VEC:
 
-* A/B-aktivitet med erbjudandet&quot;Fri första månaden&quot; för målgrupper med parametern &quot;`loggedIn= false`&quot; som ska visas i `http://www.telecom.com/home`, där visningsnamnet är Utloggad Hem.
+* A/B-aktivitet med erbjudandet&quot;Gratis första månaden&quot; för målgrupper med parametern &quot;`loggedIn= false`&quot; som ska visas i `http://www.telecom.com/home`, där visningsnamnet är Utloggad Hem.
 * A/B-aktivitet med&quot;Du är berättigad till en kostnadsfri telefon!&quot; erbjudande för målgrupper med parametern `loggedIn=true` som ska visas i `http://www.telecom.com/loggedIn/home`, där visningsnamnet är Loggad in Hero Offer.
 
 Låt oss nu tänka på det här användarflödet:
@@ -320,9 +320,9 @@ Ja, at.js 2.x stöder A4T för SPA via funktionen `triggerView()` eftersom du ha
 
 | Steg | Beskrivning |
 | --- | --- |
-| 1 | `triggerView()` anropas i SPA för att återge en vy och använda åtgärder för att ändra visuella element som är kopplade till vyn. |
+| 3 | `triggerView()` anropas i SPA för att återge en vy och använda åtgärder för att ändra visuella element som är kopplade till vyn. |
 | 2 | Målinnehåll för vyn läses från cachen. |
-| 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
+| 1 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till målprofilsarkivet för att räkna besökaren i aktiviteten och ökningsvärdena. |
 | 5 | Analysdata skickas till datainsamlingsservrar. |
 | 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
