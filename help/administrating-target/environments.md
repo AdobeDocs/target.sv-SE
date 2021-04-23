@@ -1,17 +1,17 @@
 ---
 keywords: miljö;felsökning;bästa praxis;ubox;omdirigera;omdirigera;vitlista;svartlista;blockeringslista;tillåtelselista
-description: Lär dig hur du använder miljöer i Adobe Target för att ordna webbplatser och förproduktionsmiljöer för enkel hantering och separat rapportering.
+description: Lär dig hur du använder miljöer i Adobe [!DNL Target] för att ordna webbplatser och förproduktionsmiljöer för enkel hantering och separat rapportering.
 title: Vad är miljöer och hur använder jag dem?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
-
 
 # Miljö
 
