@@ -2,18 +2,18 @@
 keywords: intäktsökning;intäkt;uppskattad ökning av intäkt;beräkna ökning;uppskattat värde
 description: Uppskatta den förbättring du kan uppnå om alla besökare ser den vinnande upplevelsen, om trenderna fortsätter som de har under testet.
 title: Vad uppskattar jag Lyft i intäkter?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
-
-# Uppskattad ökning av intäkter{#estimate-lift-in-revenue}
+# Uppskattad ökning av intäkter
 
 Använd [!DNL Adobe Target] för att uppskatta den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen.
 
@@ -25,7 +25,7 @@ Den uppskattade lyftfunktionen är inaktiverad som standard. Den kan aktiveras i
 
 >[!IMPORTANT]
 >
->Den uppskattade hissen är endast en uppskattning. Hur riktig den är beror på ett antal faktorer, bland annat på prognostiserade siffror om de aktuella trenderna fortsätter. Dessa värden är uppskattningar baserade på tidigare resultat och bör inte användas som ekonomisk vägledning. Framtida resultat kan variera.
+>Den uppskattade hissen är endast en uppskattning. Dess korrekthet beror på ett antal faktorer, inklusive prognostiserade siffror om de aktuella trenderna fortsätter. Dessa värden är uppskattningar baserade på tidigare resultat och bör inte användas som ekonomisk vägledning. Framtida resultat kan variera.
 
 Denna uppskattning beräknar den lyft som den vinnande upplevelsen och det totala antalet besökare har uppnått under aktivitetens livstid, och visar den lyft som du kan uppnå om alla besökare ser den vinnande upplevelsen, om trenderna fortsätter som de har under testet.
 
