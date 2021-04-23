@@ -1,18 +1,18 @@
 ---
 keywords: analys för mål;a4t;analys som rapportkälla;analys
-description: Lär dig hur du använder Analytics för Target (A4T). A4T ger tillgång till Analytics-rapporter för Target-aktiviteter som använder analysstatistik och målgruppssegment.
+description: Lär dig hur du använder Analytics för [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] aktiviteter som använder analysstatistik och målgruppssegment.
 title: Hur använder jag rapportering i A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 translation-type: tm+mt
-source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
 
-
-# A4T-rapportering{#a-t-reporting}
+# A4T-rapportering
 
 Om du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T) får du tillgång till [!DNL Analytics]-rapporter för dina [!DNL Target]-aktiviteter.
 
@@ -57,7 +57,7 @@ I [!DNL Analysis Workspace] använder du panelen [!UICONTROL Analytics for Targe
 
 Mer information och exempel finns i [Analytics &amp; Target: Självstudiekursen&quot;Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)&quot; från Adobe Experience League.
 
-## Rapporter i målet {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Rapporter i [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 När [!DNL Analytics] används som rapportkälla visar rapporter i [!DNL Target] de data som samlats in från [!DNL Analytics]. Rapporten skiljer sig något från andra [!DNL Target]-rapporter:
 
@@ -76,7 +76,7 @@ Klicka för att visa den fullständiga [!DNL Analytics]-rapporten direkt från a
 
 När aktiviteten skapas måste du ange ett mål för aktiviteten på [!UICONTROL Settings]-sidan. Det här målet blir standardmåttet för rapporten och anges alltid som det första alternativet i mätväljaren. Du kan inte välja segment för rapportering på samma sätt som för en vanlig Target-aktivitet. Ett test med [!DNL Analytics] använder [!DNL Adobe Analytics] segment i stället för [!DNL Target] målgrupper.
 
-## Utföra offlineberäkningar för Analytics för Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Utföra offlineberäkningar för Analytics för Adobe Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
 
 Du kan utföra offlineberäkningar för A4T, men det krävs ett steg med dataexporter i [!DNL Analytics].
 
