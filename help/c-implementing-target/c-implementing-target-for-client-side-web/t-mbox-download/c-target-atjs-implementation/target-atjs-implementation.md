@@ -1,17 +1,17 @@
 ---
 keywords: Målstandard;at.js;implementation
-description: Lär dig hur du migrerar till at.js, det nya implementeringsbiblioteket för Adobe Target som är utformat för både vanliga webbimplementeringar och Single Page-program (SPA).
+description: Lär dig hur du migrerar till at.js, det nya implementeringsbiblioteket för Adobe [!DNL Target] som är utformat för både vanliga webbimplementeringar och Single Page-program (SPA).
 title: Hur migrerar jag från mbox.js till at.js?
 feature: at.js
 role: Developer
+exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
 
 ---
-
 
 # Migrera från mbox.js till at.js
 
