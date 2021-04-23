@@ -1,16 +1,16 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Läs tips från vår expertpanel om hur du använder Adobe Target som en del av dina test- och personaliseringssatsningar.
+description: Läs tips från vår expertpanel om hur du använder Adobe [!DNL Target] som en del av dina test- och personaliseringssatsningar.
 title: Var hittar jag tips och tricks för att använda Target?
-feature: Overview
+feature: Översikt
+exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
-
 
 # Kapitel 4: Tips för att använda Target
 
@@ -28,7 +28,7 @@ I [Anpassade attribut](https://experienceleague.adobe.com/docs/target/using/audi
 
 Mer information finns i [Metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md).
 
-## Tips 2: Personalisera djupare genom att blanda målgrupper med andra Adobe Experience Cloud-målgrupper.
+## Tips 2: Gör personligare genom att blanda [!DNL Target]-målgrupper med andra Adobe Experience Cloud-målgrupper.
 
 Att blanda målgrupper som lever i olika [!DNL Adobe Experience Cloud]-lösningar kan ge er en mycket bredare förståelse för era kunder och möjlighet att personalisera mer ingående. Även om [!DNL Target] tillhandahåller målgruppsdata i realtid, innehåller [!DNL Adobe Analytics] historiska målgruppsdata. Genom att kombinera de två kan ni identifiera när en kunds beteende är konsekvent och när det kan finnas en möjlighet att agera på ett nytt beteende. Klicka bara på listrutan bredvid&quot;Alla besökare&quot; när du skapar en aktivitet. Markera sedan rutorna för upp till tjugo målgrupper, klicka på Kombinera flera målgrupper och klicka på Spara.
 
@@ -36,7 +36,7 @@ I [Kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md) 
 
 **Bra att veta**:  [!DNL Adobe Audience Manager] målgrupper är tillgängliga i  [!DNL Target] automatiskt. Men för målgruppsdelning i [!DNL Adobe Analytics] krävs en del manuell konfiguration. Markera bara rutan&quot;Make this an Experience Cloud)&quot; under målgruppsprocessen i [!DNL Analytics]. Klicka sedan på Importera målgrupper från [!DNL Target].
 
-## Tips 3: Exportera data från Target för användning med verktyg från tredje part.
+## Tips 3: Exportera data från [!DNL Target] för användning med verktyg från tredje part.
 
 Med svarstoken kan administratörer enkelt hämta data från [!DNL Target] och in i verktyg från tredje part. Detta kan vara praktiskt när du vill lägga till data till data som samlats in med ett undersökningsverktyg. Om en undersökning till exempel visar ett urval av en population som fick upplevelsen &quot;9&quot; och en annan fick upplevelsen &quot;4&quot;, kan du använda dina data för att se vem som fick upplevelsen A och vem som såg upplevelsen B. Du kan också använda svarstoken för att exportera [!DNL Target]-data till din interna data warehouse. Klicka bara på&quot;Administration&quot; och växla sedan till den aktuella positionen bredvid den önskade svarstoken. Skapa sedan en aktivitet. Data kan sedan överföras till tredjepartsleverantören. Du kan verifiera att [!DNL Target] exporterar data med felsökningsverktygen.
 
@@ -84,7 +84,7 @@ Mer information finns i [Flera olika upplevelsemålgrupper i ett A/B-test](/help
 
 ## Tips 8: Spara tid genom att replikera aktivitetsupplevelser på liknande sidor.
 
-Skapa en variant på en webbsida, till exempel en ny knappfärg, och tillämpa den automatiskt på alla sidor som delar samma mall. Du kan ange sidor eller använda variationerna på alla liknande sidor på webbplatsen.
+Skapa en variant på en webbsida, till exempel en ny knappfärg, och tillämpa den automatiskt på alla sidor som delar samma mall. Du kan ange sidor eller tillämpa variationerna på alla liknande sidor på webbplatsen.
 
 Se [Inkludera samma upplevelse på liknande sidor](/help/c-experiences/c-visual-experience-composer/temtest.md) för steg-för-steg-instruktioner.
 
