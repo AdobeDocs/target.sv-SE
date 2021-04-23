@@ -1,16 +1,16 @@
 ---
 keywords: upplevelse;visuell upplevelsedisposition;förbättrad upplevelsedisposition;formulärbaserad upplevelsedisposition;formulärdisposition;visuell disposition;upplevelsedisposition;blandat innehåll;iframe;iframe busting;bust iframe;x frame-options;x frame options;cross origin;cross origin issues;autentiseringsarbetsflöde
 description: Läs mer om Adobe Experience Composer - Visual Experience Composer (VEC), formulärbaserad Experience Composer och Visual Experience Composer för en sida.
-title: Vilka upplevelsedispositioner erbjuder målgruppen?
-feature: Experiences and Offers
+title: Vilka upplevelsedispositioner erbjuder [!DNL Target] du?
+feature: Erfarenheter och erbjudanden
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
-
 
 # Erfarenheter och erbjudanden
 
