@@ -1,18 +1,18 @@
 ---
 keywords: skapa anpassade kriterier;algoritmer;villkor;rekommendationer villkor;csv;ftp;upload csv
-description: Lär dig hur du överför en CSV-fil för att anpassa dina rekommendationer i Adobe Target Recommendations.
+description: Lär dig hur du överför en CSV-fil för att anpassa dina rekommendationer i Adobe [!DNL Target] Recommendations.
 title: Hur överför jag anpassade kriterier i Recommendations?
 feature: Recommendations
+exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
 
 ---
 
-
-# ![Egna villkor för ](/help/assets/premium.png) PREMIUMUpload{#upload-custom-criteria}
+# ![Egna villkor för ](/help/assets/premium.png) PREMIUMUpload
 
 Överför en CSV-fil för att anpassa dina rekommendationer.
 
