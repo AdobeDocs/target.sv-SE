@@ -1,19 +1,19 @@
 ---
 keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
-description: Lär dig hur du tar bort cookies i målwebbläsaren så att du kan validera dina upplevelser.
-title: Hur tar jag bort målcookie?
-feature: Privacy & Security
+description: Lär dig hur du tar bort dina  [!DNL Target] webbläsarcookies så att du kan validera dina upplevelser.
+title: Hur tar jag bort  [!DNL Target] cookie?
+feature: Integritet och säkerhet
 role: Developer
+exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
-
-# Ta bort målcookien
+# Ta bort cookien [!DNL Target]
 
 Du kan ta bort din [!DNL Adobe Target] webbläsarcookie (mbox) så att du kan validera alla dina upplevelser under testningen.
 
@@ -23,7 +23,7 @@ Om det inte finns någon [!DNL Target]-cookie (mbox) betraktas du som en ny bes�
 >
 >Följande instruktioner är korrekta för de webbläsare och versioner som visas. Sök på Internet efter instruktioner om din webbläsare eller version.
 
-## Ta bort målcookien från Google Chrome
+## Ta bort cookien [!DNL Target] från Google Chrome
 
 Version 84.0.4147.105
 
@@ -33,7 +33,7 @@ Version 84.0.4147.105
 1. Klicka på **Se alla cookies och webbplatsdata**.
 1. Expandera avsnittet `adobe.com`, markera **mbox**-cookien och klicka sedan på borttagningsikonen (X).
 
-## Ta bort målcookie från Mozilla Firefox
+## Ta bort [!DNL Target]-cookien från Mozilla Firefox
 
 Version 79.0
 
@@ -56,7 +56,7 @@ Version 79.0
 1. Expandera avsnittet **Cookies** och klicka sedan på `https://experience.adobe.com`.
 1. Högerklicka på **mbox**-cookien och klicka sedan på **Ta bort**.
 
-## Ta bort målcookien från Microsoft Edge
+## Ta bort cookien [!DNL Target] från Microsoft Edge
 
 Version 84.0.522.52
 
@@ -66,7 +66,7 @@ Version 84.0.522.52
 1. Klicka på **Se alla cookies och webbplatsdata**.
 1. Expandera avsnittet `adobe.com`, markera **mbox**-cookien och klicka sedan på borttagningsikonen (X).
 
-## Ta bort målcookien från Apple Safari
+## Ta bort [!DNL Target]-cookien från Apple Safari
 
 Version 13.1.2
 
