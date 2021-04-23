@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventDefault;prevent default
-description: Använd funktionen adobe.target.trackEvent() för JavaScript-biblioteket för Adobe Target at.js om du vill utlösa en begäran om att rapportera användaråtgärder, till exempel klick och konverteringar på webbplatsen.
+description: Använd funktionen adobe.target.trackEvent() för JavaScript-biblioteket Adobe [!DNL Target] at.js om du vill utlösa en begäran om att rapportera användaråtgärder, till exempel klickningar och konverteringar på webbplatsen.
 title: Hur använder jag funktionen adobe.target.trackEvent()?
 feature: at.js
 role: Developer
+exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
 
 ---
-
 
 # adobe.target.trackEvent(options)
 
