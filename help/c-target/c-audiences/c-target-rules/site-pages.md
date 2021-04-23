@@ -1,18 +1,18 @@
 ---
 keywords: webbplatssidor;målwebbplatssidor;målsida;aktuell sida;målsida;föregående sida;målsida;startsida;målstartsida;målstartsida;http-rubrik
-description: Lär dig att rikta in dig på besökare som använder Adobe Target och som finns på en viss sida på din webbplats.
-title: Kan jag rikta in besökare baserat på webbplatssidor?
-feature: Audiences
+description: Lär dig att rikta in dig mot besökare som använder Adobe [!DNL Target] och som finns på en viss sida på din webbplats.
+title: Kan jag [!DNL Target] Besök baserat på webbplatssidor?
+feature: Målgrupper
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
-
-# Platssidor{#site-pages}
+# Webbplatssidor
 
 Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
 
