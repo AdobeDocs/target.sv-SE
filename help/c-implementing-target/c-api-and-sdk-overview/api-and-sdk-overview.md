@@ -1,17 +1,17 @@
 ---
 keywords: serversida;serversida;api;sdk;node.js;nodats;node js;recommendations api;api:apis
-description: Läs mer om Adobe Target server-side delivery API:er, SDK:er och Target Recommendations API:er.
-title: Var kan jag lära mig mer om API:er för leverans på serversidan och SDK:er?
-feature: Implement Server-side
+description: Läs mer om Adobe [!DNL Target] server-side delivery APIs, SDKs, and [!DNL Target] Recommendations API:er.
+title: Var kan jag lära mig mer om [!DNL Target] API:er för leverans på serversidan och SDK:er?
+feature: Implementera serversidan
 role: Developer
+exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
-
 
 # Serversida: implementera mål
 
