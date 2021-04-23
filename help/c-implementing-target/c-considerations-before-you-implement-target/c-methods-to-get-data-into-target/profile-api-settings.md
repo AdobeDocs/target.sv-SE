@@ -1,17 +1,17 @@
 ---
 keywords: implementering;api;profil;profil-API-inställningar;autentiseringstoken
-description: Lär dig hur du konfigurerar autentisering för batchuppdateringar via Adobe Target API:er och genererar en profilautentiseringstoken.
+description: Lär dig hur du konfigurerar autentisering för batchuppdateringar via Adobe [!DNL Target] API:er och genererar en profilautentiseringstoken.
 title: Hur använder jag API-inställningar för profil för att aktivera eller inaktivera batchuppdateringar?
-feature: APIs/SDKs
+feature: API:er/SDK:er
 role: Developer
+exl-id: 6346e11b-0853-47f1-9706-69e8635a6f25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
-
 
 # Profil-API-inställningar
 
