@@ -1,16 +1,16 @@
 ---
 keywords: aktivitetsändringslogg;ändringslogg
-description: Gå till en aktivitets ändringslogg i Adobe Target för att visa en lista över vilka som ändrat dina aktiviteter och när ändringarna inträffade.
+description: Få åtkomst till en aktivitets ändringslogg i Adobe [!DNL Target] för att visa en lista över vem som ändrat dina aktiviteter och när ändringarna inträffade.
 title: Hur ser jag en aktivitetsändringslogg?
-feature: Activities
+feature: Verksamhet
+exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
 
 ---
-
 
 # Logg för aktivitetsändring
 
