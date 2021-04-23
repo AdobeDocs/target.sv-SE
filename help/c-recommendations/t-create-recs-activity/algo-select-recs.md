@@ -1,18 +1,18 @@
 ---
 keywords: rekommendationer;rekommendationsaktivitet;kriterier;algoritm
-description: Lär dig hur du väljer kriterier (regler som bestämmer vilka produkter eller vilket innehåll som ska rekommenderas) som ska användas i din Adobe Target Recommendations-aktivitet.
+description: 'Lär dig hur du väljer villkor (regler som bestämmer vilka produkter eller vilket innehåll som ska rekommenderas) som ska användas i din Recommendations-aktivitet i Adobe. [!DNL Target] '
 title: Hur väljer jag kriterier för en Recommendations-aktivitet?
 feature: Recommendations
+exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMSälj villkor{#select-criteria}
+# ![](/help/assets/premium.png) PREMIUMSälj villkor
 
 Välj de [villkor](/help/c-recommendations/c-algorithms/algorithms.md) som ska användas i din [!DNL Adobe Target Recommendations]-aktivitet. Kriterier är regler som bestämmer vilka produkter som ska rekommenderas utifrån en fördefinierad uppsättning besökarbeteenden.
 
@@ -24,7 +24,7 @@ Om du väljer flera villkor delas trafiken jämnt mellan de valda villkoren. Om 
 
    Vissa villkor ingår i [!DNL Recommendations]. Du och ditt team kan också skapa egna kriterier.
 
-* Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för de nya villkoren. Mer information om hur du skapar nya villkor finns i [Skapa ett nytt villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* Om du vill skapa ett nytt villkor klickar du på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** och fyller sedan i informationen för det nya villkoret. Mer information om hur du skapar nya villkor finns i [Skapa ett nytt villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
 
 **Så här väljer du villkor:**
 
