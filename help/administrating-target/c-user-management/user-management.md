@@ -1,19 +1,19 @@
 ---
 keywords: lägg till användare;hantera användare;användarbehörigheter
-description: Lär dig hur du hanterar användare i Adobe Target Standard och hanterar Enterprise-egenskaper och behörigheter i Adobe Target Premium.
+description: Lär dig hur du hanterar användare i Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium.
 title: Hur konfigurerar jag användarhantering?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
-
-# Användarhantering{#user-management}
+# Användarhantering
 
 Information om hur du hanterar användare i [!DNL Target] Standard och hanterar företag [!UICONTROL Properties] och [!UICONTROL Permissions] i [!DNL Target] Premium.
 
@@ -40,4 +40,3 @@ Du kan se om din organisation har en Standard- eller Premium-licens genom att kl
 Följande bild visar sidan [!UICONTROL Administration] för ett [!DNL Target] Premium-konto. Observera att båda flikarna [!UICONTROL Properties] och [!UICONTROL Users] är tillgängliga:
 
 ![Fliken Administration](/help/administrating-target/assets/premium.png)
-
