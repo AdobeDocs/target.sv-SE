@@ -1,13 +1,13 @@
 ---
 keywords: at.js-versioner;at.js-versioner;versionsinformation
-description: Läs mer om ändringarna i Adobe Target JavaScript-bibliotek at.js.
+description: Visa information om ändringarna i varje version av JavaScript-biblioteket Adobe [!DNL Target] at.js.
 title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '4178'
+source-wordcount: '4177'
 ht-degree: 0%
 
 ---
