@@ -1,16 +1,16 @@
 ---
 keywords: analysspårningsserver;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;Reporting source;developtools
-description: 'Lär dig hur du anger en Analytics-spårningsserver för aktiviteter som använder Analytics för Target (A4T) om du använder en äldre version av at.js eller mbox.js. '
+description: 'Lär dig hur du anger en Analytics-spårningsserver för aktiviteter som använder Analytics för [!DNL Target] (A4T) om du använder en äldre version av at.js eller mbox.js. '
 title: Hur använder jag en Analytics Tracking Server?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
-
 
 # Använda en analysspårningsserver
 
@@ -77,4 +77,3 @@ Utvecklarverktygen ska visas på en sida där aktiviteten levereras för att sä
    >[!NOTE]
    >
    >Välj [!UICONTROL Analytics as the Reporting Source] för din aktivitet för att fältet [!UICONTROL Tracking Server] ska vara tillgängligt.
-
