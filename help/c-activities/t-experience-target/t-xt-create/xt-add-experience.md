@@ -1,16 +1,16 @@
 ---
 keywords: skapa upplevelse;upplevelseskapa;prioritet;målgrupp;upplevelse;kompositör för visuell upplevelse
-description: Lär dig hur du använder Adobe Target Visual Experience Composer (VEC) för att skapa och redigera upplevelser på din sida i en XT-aktivitet (Experience Targeting).
+description: Lär dig hur du använder Adobe [!DNL Target] Visual Experience Composer (VEC) för att skapa och redigera upplevelser på din sida i en XT-aktivitet (Experience Targeting).
 title: Hur skapar jag upplevelser i en upplevelseinriktad aktivitet?
 feature: Experience Targeting
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
-
 
 # Skapa upplevelser i XT-aktiviteter (Experience Targeting)
 
