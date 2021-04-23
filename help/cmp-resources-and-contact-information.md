@@ -1,18 +1,18 @@
 ---
 keywords: kontakt;juridisk;teknisk support;teknisk support;support;service;funktion;fakturering;feedback
-description: Läs om ytterligare resurser som hjälper dig att lära dig mer om Adobe Target funktioner och hur du kontaktar Adobe om du behöver hjälp med Target.
+description: Läs mer om ytterligare resurser som kan hjälpa dig att lära dig mer om Adobe [!DNL Target] funktioner och hur du kontaktar Adobe om du behöver hjälp med [!DNL Target].
 title: Var kan jag hitta resurser och kontaktinformation för Target?
-feature: Release Notes,Overview
+feature: Versionsinformation,Översikt
+exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
 
-
-# Resurser och kontaktinformation{#resources-and-contact-information}
+# Resurser och kontaktinformation
 
 Information om ytterligare resurser som hjälper dig att lära dig mer om Target-funktioner och hur du kan kontakta Adobe om du behöver hjälp med Target.
 
@@ -102,7 +102,7 @@ Information som kan hjälpa dig att kontakta Adobe och förstå juridiska frågo
 Adobe Experience Cloud kundtjänstteam är här för att hjälpa dig och tillhandahåller ett antal mekanismer som de kan använda:
 
 * [På hjälpsidorna för Experience Cloud finns råd, tips och vanliga frågor](https://helpx.adobe.com/marketing-cloud.html)
-* [Ställ en snabb fråga på Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)
+* [Ställ en snabb fråga om Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)
 * [Öppna en biljett för att få hjälp från supporten](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [Kontakta kundtjänstteamet direkt](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [Kontrollera Experience Cloud Solutions tillgänglighet och status](https://status.adobe.com/)
@@ -121,7 +121,7 @@ Vi välkomnar alla förslag och all feedback om den här lösningen. Förbättri
 
 ### Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2021 Adobe Systems Incorporated. Med ensamrätt.
+* © 2021 Adobe Systems Incorporated. all rights reserved.
 * Publicerat av Adobe Systems Incorporated.
 
 [Användarvillkor](https://www.adobe.com/go/marketingcloud_terms_of_use)  |  [Sekretesscenter](https://www.adobe.com/privacy.html)
