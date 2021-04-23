@@ -1,18 +1,18 @@
 ---
 keywords: Automated Personalization;ap;upload data;offline data;personaliseringsalgoritm;auto target;auto target;best practices
-description: Lär dig hur du överför offlinedata, t.ex. CRM-information, när du skapar personaliseringsmodeller i Adobe Target Automated Personalization-aktiviteter (AP).
+description: Lär dig hur du överför offlinedata, t.ex. CRM-information, när du skapar personaliseringsmodeller i Adobe [!DNL Target] Automated Personalization-aktiviteter (AP).
 title: Hur överför jag data för personaliseringsalgoritmer?
 feature: Automated Personalization
+exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-
-# Överför data för målpersonaliseringsalgoritmerna
+# Överför data för [!DNL Target]-personaliseringsalgoritmerna
 
 Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller i [!DNL Adobe Target] [!UICONTROL Automated Personalization]-aktiviteter (AP).
 
@@ -30,4 +30,3 @@ I följande lista visas de bästa sätten att överföra data för Target-person
 * Granska vilka data Target automatiskt samlar in ( [Datainsamling för Target&#39;s Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md)) så att du inte skickar duplicerad information. Target använder till exempel IP-adresser för att fastställa besökarnas postnummer. Denna information behöver inte skickas som en separat variabel.
 * Skicka inte flera värden i samma attribut/variabel. Om flera variabler är sammanfogade behandlar Target personaliseringsalgoritmer varje sträng som ett unikt värde, vilket minskar värdet på informationen för personalisering.
 * Använd en minnesvärd och meningsfull namnkonvention för att göra dina [personaliseringsinsikter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) lättare att förstå.
-
