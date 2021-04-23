@@ -2,15 +2,15 @@
 keywords: kända problem;lösta problem;versionsinformation;fel;problem;korrigeringar
 description: Hitta information om kända fel i Adobe Target, inklusive tillfälliga lösningar. När problem har lösts flyttas de till avsnittet Lösta.
 title: Var hittar jag information om kända fel och lösta problem?
-feature: Release Notes
+feature: Versionsinformation
+exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '4331'
+source-wordcount: '4330'
 ht-degree: 0%
 
 ---
-
 
 # Kända problem och lösta problem
 
@@ -24,7 +24,7 @@ Information om kända fel för [!DNL Adobe Target]. Innehåller även informatio
 
 I följande avsnitt listas kända fel för [!DNL Target]:
 
-### Analyser för målvärden (A4T) för aktiviteterna Automatisk fördelning och Automatisk målanpassning
+### Analyser för Adobe Target-värden (A4T) för automatisk fördelning och automatisk målaktiviteter
 
 Med [!DNL Target]-gränssnittet kan användare välja engagemangs- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter. Konverteringsmått stöds. Aktivitets- och intäktsmått stöds *inte*. Om du väljer målstatistik för engagemang eller intäkter skapas ingen optimeringsmodell.
 
@@ -120,7 +120,7 @@ Framgångsmått med det avancerade alternativet &quot;Hur kommer antalet att ök
 
 När ett framgångsmått ställs in på ökning för varje intryck räknas besökaren igen varje gång besökaren besöker detta framgångsmått. Target återställer sedan resultatmåttet&quot;medlemskap&quot; till 0 så att det kan räknas igen vid nästa intryck. Om ett annat mått kräver att det här måttet har setts först, kommer Target alltså aldrig ihåg att användaren har sett det första måttet.
 
-### Analyser för mål (A4T)
+### Analyser för [!DNL Target] (A4T)
 
 När du använder Target-aktivitetsuttryck och -konverteringar i Analysis Workspace ska du använda samma Touch-modell för mätvärdena för att säkerställa korrekt räkning. Om du vill använda en [icke-standardattribueringsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) högerklickar du på måttet för att **ändra kolumninställningar > aktivera Använd icke-standardattribueringsmodell > välj samma Touch-modell**. Om den här modellen inte används överskattas mätvärdena.
 
@@ -134,7 +134,7 @@ Kunder kan inte utföra CRUD-åtgärder på Automatisk allokering av aktiviteter
 
 Den 10 maj 2020 uppdaterade Adobe GEO-providerfilerna, som innehöll vissa inkonsekvenser. Vissa värden som innehåller kommatecken lades till. Även om värden i befintliga målgrupper inte hade något kommatecken. Alla Adobe-leveransservrar påverkades inte av den här ändringen. Därför har de målgrupper som använder sådana värden kanske inte kvalificerat alla korrekta besökare mellan 10 maj och 22 juli 2020.
 
-### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i målgränssnittet. {#csv}
+### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i användargränssnittet för [!DNL Target]. {#csv}
 
 Rapporter som genererats för hämtning som CSV-filer är inkonsekventa om aktiviteten använder mer än ett mätvärde. Den hämtningsbara rapporten genereras endast baserat på rapportinställningarna och tar hänsyn till samma värde för andra mätvärden som används.
 
@@ -150,7 +150,7 @@ Bilderbjudandena på sidan Erbjudanden kan ibland behålla&quot;bearbetningsetik
 
 Problemet har åtgärdats i Target Standard/Premium 20.10.1.
 
-### Analyser för målrapportering (A4T)
+### Analyser för Adobe Target-rapportering (A4T)
 
 Följande problem relaterade till A4T har åtgärdats:
 
@@ -237,9 +237,9 @@ När mbox.js laddas ned för första gången efter etableringen är fältet [!UI
 
 at.js hämtas med `global_mbox_autocreate = false` för en nyligen etablerad klientorganisation. Om mbox.js laddas ned först laddas även global\_mbox\_autocreate is set to &quot;true&quot; och at.js ned med `global_mbox_autocreate = true`. (TGT-15929)
 
-### Stöd för företagsbehörigheter i mål-API:er {#api}
+### Stöd för företagsbehörigheter i [!DNL Target] API:er {#api}
 
-Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas i standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Det här problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
+Koderbjudanden som skapas från målgränssnittet i offertbiblioteket kan visas på standardarbetsytan om listan med erbjudanden hämtas med GET-API:er. Detta problem kommer att åtgärdas under den första veckan i mars 2019. När den här korrigeringen är på plats visas koderbjudanden på lämplig arbetsyta när de hämtas från API:er. Det här problemet påverkar *inte* erbjudanden som skapats från API:er. Koderbjudanden som skapats från API:er visas till exempel i den arbetsyta som de skapades i, oavsett om de hämtas med GET-API:er eller från målgränssnittet.
 
 ### Rapportering och extrema order
 
@@ -348,7 +348,7 @@ Algoritmen för extrahering av toppnivådomänen som ska användas när cookies 
 
 Problemet har åtgärdats i version 1.2 av at.js.
 
-### Enterprise-användarbehörigheter för Target Premium
+### Enterprise-användarbehörigheter för [!DNL Target] Premium
 
 Som en del av migreringen av företagsbehörigheter flyttades all användarhantering för Target Premium från Adobe Target-gränssnittet till Adobe Admin Console.
 
@@ -439,7 +439,7 @@ Det tar 10-20 minuter att sprida globala undantagsregler till Premium Recommenda
 
 Fixed in the Recommendations 17.2.2.0 release (6 mars 2017).
 
-### Analyser för målrapportering (A4T)
+### Analyser för Adobe Target-rapportering (A4T)
 
 Rapporterna uppdateras inte när rapportmåttet ändras. Problemet påverkar bara användargränssnittet. Det påverkar inte datainsamling eller leverans av rapporter. (TGT-22970)
 
