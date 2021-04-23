@@ -1,16 +1,16 @@
 ---
-keywords: Mått på konvertering;lyckad;konverteringsmått;sidpoängsmått;mått för sidvisningar;intäktsmått;tid på webbplatsmått;uppskattat värde;avancerade inställningar;mått på framgångar;beroende;ökning och behåll användaren i aktiviteten;Öka antal, frigör användare och Tillåt återinträde;ökning, Frigör användare och fält från återinträde
-description: Läs om framgångsmått i Adobe Target som hjälper dig att avgöra hur framgångsrik en aktivitet är. Exempel på framgångsmått är konvertering, intäkter, sidvyer, anpassad poängsättning och tid på webbplatsen.
+keywords: Mått på konvertering;lyckad;konverteringsmått;sidpoängsmått;mått för sidvisningar;intäktsmått;tid på webbplatsmått;uppskattat värde;avancerade inställningar;mått på framgångar;beroende;ökning och behåll användaren i aktivitet;Öka antal, frigör användare och Tillåt återinträde;ökning, Frigör användare och fält från återinträde
+description: Lär dig mer om framgångsmått i Adobe [!DNL Target] som hjälper dig att avgöra hur framgångsrik en aktivitet är. Exempel på framgångsmått är konvertering, intäkter, sidvyer, anpassad poängsättning och tid på webbplatsen.
 title: Vad är Success Metrics?
 feature: Success Metrics
+exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
-
 
 # Framgångsmått
 
