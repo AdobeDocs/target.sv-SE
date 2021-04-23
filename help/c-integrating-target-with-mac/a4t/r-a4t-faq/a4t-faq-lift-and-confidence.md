@@ -1,18 +1,18 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;lift;ad hoc;report builder;trust
-description: Hitta svar på frågor om lyft och självförtroende när du använder Analytics for Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
+description: Hitta svar på frågor om lyft och självförtroende när du använder Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] aktiviteter.
 title: Var hittar jag information om lyft och självförtroende med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-
-# Lyft och tillförsikt - A4T FAQ{#lift-and-confidence-a-t-faq}
+# Lyft och tillförsikt - A4T FAQ
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om lift and trust när [!DNL Adobe Analytics] används som rapportkälla för [!DNL Adobe Target] (A4T).
 
