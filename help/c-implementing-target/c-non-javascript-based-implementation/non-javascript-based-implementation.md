@@ -1,19 +1,19 @@
 ---
 keywords: Implementering;mbox.js non javascript;adbox;redirector;mbox
-description: Lär dig hur du implementerar Adobe Target i icke-JavaScript-scenarier, som att använda en AdBox eller Redirector.
-title: Hur implementerar jag mål för e-post?
-feature: Implement Email
+description: Lär dig hur du implementerar Adobe [!DNL Target] i icke-JavaScript-scenarier, till exempel med en AdBox eller en omdirigerare.
+title: Hur implementerar jag  [!DNL Target] för e-post?
+feature: Implementera e-post
 role: Developer
+exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-
-# E-post: implementera mål{#email-implement-target}
+# E-post: implementera mål
 
 Information om hur du implementerar Target i icke-JavaScript-scenarier, som att använda en AdBox eller Redirector.
 
