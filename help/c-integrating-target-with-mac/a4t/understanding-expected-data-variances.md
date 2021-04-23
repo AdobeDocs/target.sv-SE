@@ -1,18 +1,18 @@
 ---
 keywords: dataavvikelser;analys;skillnader;avvikelse;a4t;analys för mål;analys som rapportkälla;avvikelser;avvikelser
-description: Lär dig mer om de förväntade dataavvikelserna mellan Adobe Target och Analytics när du inte använder Analytics for Target (A4T), vilket eliminerar helt olika datavariationer.
+description: Lär dig mer om de förväntade dataavvikelserna mellan Adobe [!DNL Target] and Analytics when not using Analytics for [!DNL Target] (A4T), som helt eliminerar dataavvikelser.
 title: Vad är den förväntade datavariansen mellan Analytics och A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
 
-
-# Förväntade datavariationer mellan Adobe Target och Adobe Analytics när A4T används och inte används
+# Förväntade datavariationer mellan Adobe [!DNL Target] och Adobe Analytics när A4T används och inte används
 
 Information om förväntade dataavvikelser mellan [!DNL Target] och Adobe [!DNL Analytics] när *använder* och *inte* använder Analytics som rapportkälla (A4T). A4T minskar datavariansen avsevärt.
 
