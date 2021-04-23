@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;Recommendations-kriterier;rekommendationsalgoritmer;rekommendationer-aktivitet;kriterier;rekommendationer målinriktning;recs
-description: Läs om Recommendations aktiviteter i Adobe Target som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer.
-title: Vad är Target Recommendations?
+description: Läs om Recommendations aktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
+title: Vad är [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMRommendations{#recommendations}
+# ![](/help/assets/premium.png) PREMIUMRommendations
 
 [!DNL Adobe Target Recommendations] aktiviteter visar automatiskt produkter, tjänster eller innehåll som kan intressera besökarna baserat på tidigare användaraktivitet, inställningar eller andra kriterier. [!DNL Target Recommendations] hjälper besökaren att hänvisa till relevanta objekt som de annars kanske inte känner till. [!DNL Recommendations] gör att ni kan ge besökarna relevant innehåll vid rätt tidpunkt och på rätt plats.
 
