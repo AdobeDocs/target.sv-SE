@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;intro;introduction;webbinar;demo
-description: Läs om Recommendations aktiviteter i Adobe Target som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer.
+description: Läs om Recommendations aktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
 title: Vad är Recommendations aktiviteter?
 feature: Recommendations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
+source-wordcount: '2115'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMImplementering till Recommendations
 
@@ -57,7 +57,7 @@ Stora rekommendationer bör vara relevanta och personaliserade. Det innebär att
 * **Sofistikerade** modeller för att förstå miljontals objekt i katalogen och interaktionshändelser. [!DNL Target] har sofistikerade maskininlärningsfunktioner som byggts under ett decennium av erfarenhet och vi hanterar miljarder rekommendationer per år.
 * **Användarkontext** för att säkerställa att rekommendationerna är aktuella och relevanta för dina användare. Du vill inte rekommendera videon som någon just tittade på eller skjortan som någon just lagt till i kundvagnen. Målets omfattande användarprofil kan användas i rekommendationer för att säkerställa personalisering.
 
-## Implementera Recommendations som mål
+## Implementera [!DNL Target] Recommendations
 
 Börja med en strategi.
 
@@ -195,6 +195,6 @@ I innehållskontexten kanske du vill utesluta filmer som besökaren tidigare har
 
 När du har slutfört de uppgifter som illustreras i rekommendationstratten som beskrivs ovan, får du din slutgiltiga rekommendation. För att se en produktdemonstration i [!DNL Target] börjar demon klockan 21:00 i *Adobe Target Basics Webinar*, som är länkad till nedan.
 
-## Adobe Target Basics Webinar: Introduktion till Recommendations {#intro-to-recs}
+## Adobe [!DNL Target] Basics Webinar: Introduktion till Recommendations {#intro-to-recs}
 
 [Introduktion till Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
