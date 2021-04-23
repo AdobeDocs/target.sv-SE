@@ -1,18 +1,18 @@
 ---
 keywords: rekommendationsdesign;mall;skapa design;leverans;utdata
-description: Lär dig hur du använder designer i Adobe Target Recommendations för att definiera hur rekommendationer ska visas på en sida (1X4, 1X6, 2X2 o.s.v.).
+description: Lär dig hur du använder designer i Adobe [!DNL Target] Recommendations för att definiera hur rekommendationer ska visas på en sida (1X4, 1X6, 2X2 o.s.v.).
 title: Hur använder jag designen i Recommendations?
 feature: Recommendations
+exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-
-# Designöversikt{#design-overview}
+# Designöversikt
 
 Designer i [!DNL Adobe Target Recommendations] definierar hur rekommendationer visas på en sida. Designen definierar layouten och formatet för era rekommendationer för att förbättra besökarnas engagemang, konvertering och intäkter.
 
@@ -29,4 +29,3 @@ Designen hjälper dig att bestämma:
 * Hur många objekt du vill visa i en rekommendation
 * Hur du vill visa objekt (i en rad, kolumn, stödraster eller tabell)
 * Vill du begränsa besökarnas möjlighet att endast se det angivna antalet objekt eller vill du att besökarna ska kunna bläddra igenom flera objekt?
-
