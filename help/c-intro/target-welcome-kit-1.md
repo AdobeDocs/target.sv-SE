@@ -1,16 +1,16 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Kom snabbt igång med optimerings- och personaliseringsprogrammet med Adobe Target. Adobe Target välkomstpaket är en bra startplats.
+description: Kom snabbt igång med optimerings- och personaliseringsprogrammet med Adobe Target. Välkomstpaketet Adobe [!DNL Target] är en bra startplats.
 title: Hur kommer jag igång med Target?
-feature: Overview
+feature: Översikt
+exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
-
 
 # Kapitel 1: Introduktion
 
@@ -29,4 +29,3 @@ Om du granskar det här välkomstpaketet har du redan bestämt dig för att skap
 Nu vill vi se till att du börjar använda det på rätt sätt, direkt.
 
 Vi har skapat det här välkomstpaketet med viktig information, verktyg och resurser som hjälper dig att förbereda dig för och starta din första [!DNL Target]-aktivitet. På lång sikt utgör innehållet också grunden för ett framgångsrikt optimerings- och personaliseringsprogram.
-
