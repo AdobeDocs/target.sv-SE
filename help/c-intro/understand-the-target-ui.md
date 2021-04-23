@@ -1,18 +1,18 @@
 ---
 keywords: målanvändargränssnitt;användargränssnitt;ui
 description: Bekanta dig med användargränssnittet och hitta länkar till mer detaljerad information som hjälper dig att få ut så mycket som möjligt av Target.
-title: Hur använder jag målgränssnittet?
-feature: Overview
+title: Hur använder jag gränssnittet  [!DNL Target] ?
+feature: Översikt
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
 
-
-# Förstå målgränssnittet
+# Förstå användargränssnittet för [!DNL Target]
 
 Användargränssnittet är ordnat i ett logiskt och användarvänligt format så att du får ut det mesta av [!DNL Adobe Target]. I följande korta översikt får du hjälp att bekanta dig med [!DNL Target] och länkar till mer detaljerad information och stegvisa instruktioner.
 
