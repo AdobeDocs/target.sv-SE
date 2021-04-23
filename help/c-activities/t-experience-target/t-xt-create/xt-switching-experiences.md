@@ -1,16 +1,16 @@
 ---
 keywords: prioritet;upplevelseskapa;prioritet;upplevelse;målgrupp;upplevelse;växla upplevelser;kompositör för visuell upplevelse
-description: Läs om hur besökare kan växla mellan upplevelser i en XT-aktivitet (Adobe Target Experience Targeting) när deras profiler utvecklas.
+description: 'Lär dig hur besökare kan växla mellan upplevelser i en XT-aktivitet (Experience Targeting) i Adobe när deras profiler utvecklas. [!DNL Target] '
 title: Kan besökare byta upplevelser i en upplevelseinriktad aktivitet?
 feature: Experience Targeting
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
-
 
 # Byta upplevelser i Experience Targeting
 
@@ -20,7 +20,7 @@ Information om hur besökare kan växla mellan upplevelser i en XT-aktivitet (Ex
 >
 >**21 september 2017**
 >
->I och med den 21 september 2017 ändrade Target det sätt på vilket användarna placerades i upplevelser i XT-aktiviteter (Experience Targeting) (landningssidkampanjer i Target Classic). För alla nya och befintliga aktiviteter måste användarna följa reglerna för målinriktning mot upplevelser för varje intryck för att kunna fortsätta att se upplevelsens innehåll och räknas i rapporter. Tidigare, om användaren inte längre är kvalificerad för någon upplevelse, skulle användaren fortsätta att se innehållet från och räknas i rapporter för den senaste upplevelsen som han/hon kvalificerat sig för.
+>I och med den 21 september 2017 ändrade Target hur användare placeras i upplevelser i XT-aktiviteter (Experience Targeting) (Landing Page campaign i Target Classic). För alla nya och befintliga aktiviteter måste användarna följa reglerna för målinriktning mot upplevelser för varje intryck för att kunna fortsätta att se upplevelsens innehåll och räknas i rapporter. Tidigare, om användaren inte längre är kvalificerad för någon upplevelse, skulle användaren fortsätta att se innehållet från och räknas i rapporter för den senaste upplevelsen som han/hon kvalificerat sig för.
 >
 >Den här ändringen inträffade automatiskt som en del av releasen för alla befintliga aktiviteter och för alla nya aktiviteter som skapats efter lanseringen. Om den föregående metoden (före den 21 september) önskas kan du skapa målgrupper med hjälp av profilskript så att användaren bara måste uppfylla ett villkor en gång för att kunna fortsätta inkräkta på den målgruppen i framtiden. Använd sedan dessa målgrupper för varje upplevelse i aktiviteten.
 
@@ -31,7 +31,7 @@ Med Experience Targeting kan ni styra vilka upplevelsebesökare ser när deras p
 | Geografisk plats | När besökare reser för företag eller nöjes skull kan de se din webbplats eller mobilapp från olika geografiska platser. |
 | Kundstatus | Besökare kan betraktas som potentiella kunder innan de skapar ett konto eller köper en produkt. |
 | Kategoritillhörighet | Funktionen [kategoritillhörighet](/help/c-target/c-visitor-profile/category-affinity.md) i Target fångar automatiskt de kategorier som användare besöker och beräknar sedan användarens tillhörighet för kategorin för målsyften. Besökare som har visat flera artiklar på din webbplats om ett visst ämne kan till exempel få innehåll som är relaterat till det ämnet. |
-| Veckodag | När helgen närmar sig kanske du vill visa besökarna innehåll om filmer, matning eller andra former av underhållning. |
+| Veckodag | När helgen närmar sig kanske du vill visa besökarna innehåll om filmer, matningar eller andra former av underhållning. |
 
 Om du vill utnyttja de här funktionerna i [!DNL Target] är det viktigt att du förstår följande information när du arbetar med XT-aktiviteter:
 
@@ -72,4 +72,3 @@ Om du vill utnyttja de här funktionerna i [!DNL Target] är det viktigt att du 
    Detta är viktigt att tänka på i scenarier där en besökare kan kvalificera sig för fler än en av era målgrupper. Om du till exempel har två upplevelser: en besökare i New York skulle kvalificera sig för båda målgrupperna. Därför måste du se till att&quot;New York&quot;-upplevelsen definieras före&quot;United States&quot;-upplevelsen i Target-användargränssnittet. Detta garanterar att den mer målinriktade&quot;New York&quot;-upplevelsen har högre prioritet, vilket visas i följande exempel:
 
    ![Prioritet NY > US](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
