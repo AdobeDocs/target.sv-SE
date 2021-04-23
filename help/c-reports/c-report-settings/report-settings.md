@@ -2,17 +2,17 @@
 keywords: Mål;rapporter;rapportinställningar;förinställning;målförinställning;målpublik;målgrupp;datumintervall;inställningar;hämta;tabellvy;diagramvy;genomsnittshöjning;lyfta;konfidensintervall;konfidensintervall;platsbidrag;löpande genomsnitt;beräkningsmetod
 description: Lär dig hur du konfigurerar rapportinställningar i Adobe Target, inklusive mått, målgrupper, datumintervall med mera.
 title: Hur konfigurerar jag rapportinställningar?
-feature: Reports
+feature: Rapporter
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
 
-
-# Rapportinställningar{#report-settings}
+# Rapportinställningar
 
 Information som hjälper dig att ange de element som du vill ska visas i rapporten i [!DNL Adobe Target]. Rapportinställningarna kan sparas för senare bruk.
 
@@ -152,7 +152,7 @@ Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information 
 
 ### Återställ rapportdata
 
-Återställ rapportdata för att ta bort gamla data. Befintliga besökare stannar kvar i aktiviteten.  Det här alternativet är bara tillgängligt för dem med [!UICONTROL Approver]-behörigheter.
+Återställ rapportdata för att ta bort gamla data. Befintliga besökare stannar kvar i aktiviteten.  Det här alternativet är endast tillgängligt för dem med [!UICONTROL Approver]-behörigheter.
 
 >[!IMPORTANT]
 >
@@ -290,4 +290,3 @@ Om du hovrar över en av de grå upplevelserna visas en ny grå rityta som motsv
 Anta att du vill visa ritytan för Experience R och att du inte vill se raden för Experience P. Du kan klicka på Experience P:s namn för att avmarkera det och sedan klicka på Experience R:s namn för att markera det, så som visas nedan:
 
 ![](assets/graph_3.png)
-
