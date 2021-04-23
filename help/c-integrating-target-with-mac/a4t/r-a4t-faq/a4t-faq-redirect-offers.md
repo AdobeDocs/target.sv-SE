@@ -1,22 +1,22 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
-description: Hitta svar på frågor om hur du använder omdirigeringserbjudanden när du använder Analytics for Target (A4T). Med A4T kan ni använda analysrapportering för Target-aktiviteter.
+description: Hitta svar på frågor om hur du använder omdirigeringserbjudanden när du använder Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] aktiviteter.
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
-
 
 # Omdirigeringserbjudanden - A4T FAQ
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om hur du använder omdirigeringserbjudanden när du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
-## Har Analytics for Target (A4T) stöd för omdirigeringserbjudanden? {#section_46B8B03ED4D542C6AD875F5F61176298}
+## Har Analytics för Adobe Target (A4T) stöd för omdirigeringserbjudanden? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Ja, om implementeringen använder [!DNL at.js]. Implementeringen måste dock uppfylla de minimikrav som anges nedan för att du ska kunna använda [omdirigeringserbjudanden](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) i aktiviteter där Analytics används som rapportkälla.
 
