@@ -2,15 +2,15 @@
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
 description: Var kan jag hitta idéer och inspiration för mina testnings- och personaliseringsaktiviteter med Adobe Target.
 title: Var kan jag hitta inspiration till mina test- och personaliseringssatsningar?
-feature: Overview
+feature: Översikt
+exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
 
 ---
-
 
 # Kapitel 5: Inspiration för testning och personalisering.
 
@@ -24,7 +24,7 @@ När ni har identifierat dessa målgrupper kan ni testa användarupplevelser och
 
 När en besökare som tillhör en&quot;seriös spelpublik&quot; för ett telekommunikationsföretag besöker företagets webbplats, kan han till exempel leverera en upplevelse som omfattar text och bilder som efterfrågas med spelarna och ett erbjudande om höghastighetsinternet.
 
-## Idea 2: Rikta in er på förstagångsbesökare och upprepa kunderna annorlunda.
+## Idea 2: [!DNL Target] förstagångsbesökare och repetera kunder annorlunda.
 
 Digitala marknadsförare inser intuitivt att befintliga kunder är mer värdefulla än nya, men de lyckas alltför ofta inte prioritera marknadsföringsprogram som utformats för att få kunderna att komma tillbaka. För att undvika detta vanliga fallgrop bör ni analysera era upprepade kunddata för att avgöra hur lojala kunder beter sig på er webbplats. Använd dessa insikter för att skapa riktade kampanjer för besökare med ett eller två köp, vilket ger dem incitament att göra fler webbplatsbesök.
 
@@ -56,7 +56,7 @@ Ta till exempel med rekommendationer på en produktinformationssida för att vis
 
 Tänk på valparadox när du kör A/B-tester och kör några upplevelser med olika antal alternativ. Du kan t.ex. minska antalet prenumerationsalternativ och se om det ökar den totala prenumerationen.
 
-Kanske bara ändra i vilken ordning kunderna ska välja när de vill agera. Om du t.ex. har olika prismodeller listade bredvid varandra, kan du visa produktprisalternativen från lägre priser till högre värden eller vice versa och mäta effekten av varje alternativ.
+Kanske bara ändra i vilken ordning kunderna ska välja när de vill agera. Om du t.ex. har olika prismodeller listade bredvid varandra kan du visa produktprisalternativen från lägre priser till högre värden eller vice versa och mäta effekten av varje alternativ.
 
 ![Beteendetaktiker - illustration](/help/c-intro/assets/behavioral.png)
 
