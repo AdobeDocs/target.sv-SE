@@ -1,19 +1,19 @@
 ---
 keywords: qa;preview;preview link;mobile;mobile preview
 description: Använd länkar för förhandsgranskning av mobiler för att utföra QA-åtgärder från början till slut för mobilappsaktiviteter. Ni kan registrera er för olika upplevelser utan särskilda testenheter.
-title: Hur använder jag Mobile Preview Link i Target Mobile?
-feature: Implement Mobile
+title: Hur använder jag Mobile Preview Link i [!DNL Target] Mobile?
+feature: Implementera mobil
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
-
-# Förhandsvisning av målmobilen{#target-mobile-preview}
+# Förhandsvisning av målmobiler
 
 Använd länken för förhandsgranskning av mobilmaterial för att enkelt skapa heltäckande QA för mobilappsaktiviteter och registrera dig för olika upplevelser direkt på din enhet utan några särskilda testenheter.
 
