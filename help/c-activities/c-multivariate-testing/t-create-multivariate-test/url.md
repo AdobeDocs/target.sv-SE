@@ -2,17 +2,17 @@
 keywords: Multivariata tester;aktivitets-URL
 description: Lär dig hur du anger den aktivitets-URL som bestämmer vilken sida som ska användas i testet och som öppnas när aktiviteten Multivariate Test har utformats med Adobe Target.
 title: Vilken är aktivitets-URL:en i en multivariat-aktivitet (MVT)?
-feature: Multivariate Tests
+feature: Multivariata tester
+exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-
-# Aktivitets-URL{#activity-url}
+# Aktivitets-URL
 
 Aktivitets-URL:en bestämmer vilken sida som används i [!UICONTROL Multivariate Test] (MVT) och som öppnas när testet är utformat i [!DNL Adobe Target].
 
