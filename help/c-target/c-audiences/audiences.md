@@ -1,18 +1,18 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;målgrupp;målgrupp;rapportmålgrupp;segment;anpassade profilparametrar;målgruppsdefinition;målgruppslista
-description: Lär dig hur du använder publiksidan i Adobe Target och hur du visar Audience Definition-kort som innehåller målgruppsinformation och användningsinformation.
+description: Lär dig hur du använder publiksidan i Adobe [!DNL Target] och hur du visar Audience Definition-kort som innehåller målgruppsinformation och användningsinformation.
 title: Hur använder jag målgruppslistan?
-feature: Audiences
+feature: Målgrupper
+exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
-
-# Skapa målgrupper{#create-audiences}
+# Skapa målgrupper
 
 Publiken i Adobe Target avgör vilka som får se innehåll och upplevelser i en målinriktad aktivitet.
 
