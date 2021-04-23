@@ -3,16 +3,16 @@ keywords: Recommendations;settings;preferences;industry vertical;filter inkompat
 description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. Se till att implementeringen uppfyller de nödvändiga kraven. '
 title: Hur genomför jag Recommendations-aktiviteter?
 feature: Recommendations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMPlansera och implementera Recommendations  {#plan-and-implement-recommendations}
+# ![](/help/assets/premium.png) PREMIUMPlansera och implementera Recommendations
 
 Vad du behöver veta innan du skapar en Recommendations-aktivitet.
 
@@ -212,7 +212,7 @@ Följande alternativ är tillgängliga:
 
 | Inställning | Beskrivning |
 |--- |--- |
-| Anpassad global Mbox | (Valfritt) Ange den anpassade globala mbox som används för [!DNL Target]-aktiviteter. Som standard används den globala mbox som används av [!DNL Target] för [!DNL Recommendations].<br>Obs! Det här alternativet är inställt på  [!DNL Target] [!UICONTROL Administration] sidan. Öppna [!DNL Target] och klicka sedan på [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]. |
+| Anpassad global mbox | (Valfritt) Ange den anpassade globala mbox som används för [!DNL Target]-aktiviteter. Som standard används den globala mbox som används av [!DNL Target] för [!DNL Recommendations].<br>Obs! Det här alternativet är inställt på  [!DNL Target] [!UICONTROL Administration] sidan. Öppna [!DNL Target] och klicka sedan på [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]. |
 | Branschvertikal | Branschvertikalen används för att kategorisera era era rekommendationer. Detta hjälper teammedlemmarna att hitta kriterier som passar en viss sida, till exempel kriterier som passar bäst för kundvagnssidan eller för en mediesida. |
 | Filtrera inkompatibla villkor | Aktivera det här alternativet om du bara vill visa de villkor där den valda sidan skickar de data som krävs. Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas in `entity.id` eller `entity.categoryId` för att aktuella rekommendationer för objekt/aktuell kategori ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du det här alternativet.<br>Du bör inaktivera det här alternativet om du använder en tagghanteringslösning.<br>Mer information om det här alternativet finns i Vanliga frågor om  [Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
 | Standardvärdgrupp | Välj din standardvärdgrupp.<br>Värdgruppen kan användas för att skilja de tillgängliga objekten i katalogen åt för olika användningsområden. Du kan till exempel använda värdgrupper för utvecklings- och produktionsmiljöer, olika varumärken eller olika geografiska platser. Som standard baseras förhandsgranskningsresultaten i Katalogsökning, Samlingar och Undantag på standardvärdgruppen. (Du kan också välja en annan värdgrupp om du vill förhandsgranska resultaten med hjälp av miljöfiltret.) Som standard är nyligen tillagda objekt tillgängliga i alla värdgrupper om inte ett miljö-ID anges när objektet skapas eller uppdateras. Levererade rekommendationer beror på värdgruppen som anges i begäran.<br>Om du inte ser dina produkter bör du kontrollera att du använder rätt värdgrupp. Om du t.ex. har konfigurerat din rekommendation att använda en mellanlagringsmiljö och du har angett mellanlagringsgruppen som värdgrupp kan du behöva återskapa dina samlingar i mellanlagringsmiljön för att produkterna ska kunna visas. Om du vill se vilka produkter som är tillgängliga i respektive miljö använder du Katalogsökning för varje miljö. Du kan också förhandsgranska innehållet i Recommendations-samlingar och undantag för en vald miljö (värdgrupp).<br>**Obs!** När du har ändrat den valda miljön måste du klicka på Sök för att uppdatera de returnerade resultaten.<br>Filtret  [!UICONTROL Environment] är tillgängligt från följande platser i  [!DNL Target] gränssnittet:<ul><li>Katalogsökning ([!UICONTROL Recommendations] > Katalogsökning)</li><li>Dialogrutan Skapa samling ([!UICONTROL Recommendations > Collections > Create New])</li><li>Dialogrutan Uppdatera samling ([!UICONTROL Recommendations > Collections > Edit])</li><li>Dialogrutan Skapa undantag ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>Dialogrutan Uppdatera undantag ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul>Mer information finns i [Värdar](/help/administrating-target/hosts.md). |
