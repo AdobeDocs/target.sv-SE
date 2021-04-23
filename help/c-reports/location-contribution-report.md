@@ -1,18 +1,18 @@
 ---
 keywords: mvt;multivariata test;platsavgiftsrapport
-description: Lär dig hur du använder platsbidragsrapporten för Adobe Target Experience Targeting-aktiviteter som visar resultatet för varje element och varje erbjudande.
+description: Lär dig hur du använder platsbidragsrapporten för Adobe [!DNL Target] Experience Targeting-aktiviteter som visar prestanda för varje element och varje erbjudande.
 title: Hur använder jag platsbidragsrapporten för multivariata tester?
-feature: Reports
+feature: Rapporter
+exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
-
-# Platsbidragsrapport (MVT){#location-contribution-report-mvt}
+# Platsavgiftsrapport
 
 Platsbidragsrapporten visar resultatet för varje element och varje erbjudande.
 
