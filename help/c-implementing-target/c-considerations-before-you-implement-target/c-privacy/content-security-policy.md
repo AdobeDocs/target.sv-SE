@@ -1,17 +1,17 @@
 ---
 keywords: skyddsprofil för innehåll;csp;at.js;whitelist;tillåtelselista;flimmer;pre-hide;prehide
 description: Läs mer om de CSP-direktiv (Content Security Policy) som du bör lägga till när du använder Adobe Target.
-title: Hur hanterar Target CSP (Content Security Policies)?
-feature: Privacy & Security
+title: Hur hanterar  [!DNL Target] CSP (Content Security Policies)?
+feature: Integritet och säkerhet
 role: Developer
+exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
-
 
 # CSP-direktiv (Content Security Policy)
 
