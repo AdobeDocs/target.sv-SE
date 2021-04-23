@@ -1,18 +1,18 @@
 ---
 keywords: formulärbaserad upplevelsedisposition;formulärbaserad disposition;förbättringar
-description: Lär dig hur du använder Adobe Target Form-Based Experience Experience Composer för att skapa icke-visuella upplevelser. Använd den här dispositionen när VEC inte är tillgängligt eller inte är praktiskt att använda.
+description: Lär dig hur du använder Adobe [!DNL Target] formulärbaserad Experience Composer för att skapa icke-visuella upplevelser. Använd den här dispositionen när VEC inte är tillgängligt eller inte är praktiskt att använda.
 title: Hur använder jag den formulärbaserade Experience Composer?
-feature: Form-based Experience Composer
+feature: Formulärbaserad Experience Composer
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '758'
 ht-degree: 2%
 
 ---
 
-
-# Formulärbaserad Experience Composer{#form-based-experience-composer}
+# Formulärbaserad Experience Composer
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] är en icke-visuell upplevelse och erbjuder ett gränssnitt som är användbart när det gäller att skapa upplevelser som kan användas i A/B-tester, Experience Targeting, Automated Personalization och Recommendations när den visuella upplevelsedispositionen inte är tillgänglig eller praktisk att använda. Du kan till exempel använda den formulärbaserade dispositionen för att skapa upplevelser och erbjudanden för e-post, kioskdatorer och röstassistenter.
 
@@ -47,7 +47,7 @@ Om du skapar en Recommendations-aktivitet finns det inga upplevelser. Välj krit
 
    ![](assets/location_refinements_2.png)
 
-   I den formulärbaserade Experience Composer har förbättringarna ersatts med full målgruppsfunktionalitet. Förfiningar för befintliga aktiviteter har migrerats till [målgrupper som bara är aktiva](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   I den formulärbaserade Experience Composer har förbättringarna ersatts med full målgruppsfunktionalitet. Förfiningar för befintliga aktiviteter har migrerats till [målgrupper som endast är aktiva](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Välj den typ av innehåll som du vill ska visas på den platsen.
 
    ![](assets/form_content.png)
