@@ -1,14 +1,14 @@
 ---
 keywords: implementera;implementera;konfigurera;konfigurera;uppdatering av en profil
-description: Hämta data till Target med ett enda profiluppdaterings-API.
-title: Hur hämtar jag data till målet med API:t för uppdatering av en profil?
-feature: Implementation
+description: Hämta data till [!DNL Target] med API:t för enkel profiluppdatering.
+title: Hur hämtar jag data till [!DNL Target] Använda API:t för uppdatering av en profil?
+feature: Implementering
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
