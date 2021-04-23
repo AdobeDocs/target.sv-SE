@@ -1,19 +1,19 @@
 ---
 keywords: mobilapp;mobilapp skicka data;målmobilapp;anpassade användardata för mobilapp;anpassade data för mobilapp
-description: Lär dig hur du skickar ytterligare information om platsen eller användaren till Adobe Target som namnvärdespar som hjälper dig att skapa anpassade målgrupper.
+description: Lär dig hur du skickar ytterligare information om platsen eller användaren till Adobe [!DNL Target] som namnvärdespar för att hjälpa dig att skapa anpassade målgrupper.
 title: Hur skickar jag anpassade användardata i en iOS-app?
-feature: Implement Mobile
+feature: Implementera mobil
 role: Developer
+exl-id: c64219ec-8d60-4d05-b2b8-103e8ffcaefc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
-
-# iOS - skicka anpassade användardata{#ios-send-custom-user-data}
+# iOS - skicka anpassade användardata
 
 Du kan skicka ytterligare information om platsen eller användaren till Target som namnvärdespar.
 
