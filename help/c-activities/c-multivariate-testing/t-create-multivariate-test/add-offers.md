@@ -1,16 +1,16 @@
 ---
 keywords: mvt;multivariate test;offers;combinations
-description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa de erbjudanden du vill inkludera i ditt Multivariate Test (MVT).
+description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe [!DNL Target] för att skapa de erbjudanden du vill inkludera i ditt Multivariate Test (MVT).
 title: Hur skapar jag kombinationer i multivariata tester (MVT)?
-feature: Multivariate Tests
+feature: Multivariata tester
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
-
 
 # Skapa kombinationer
 
@@ -65,4 +65,3 @@ Varje text-/HTML-erbjudande blir en separat upplevelse på den platsen.
 * Du måste ha minst tre element att testa. Om du har färre ska du köra en serie A/B-tester.
 * Vi rekommenderar att de olika elementens alternativ skiljer sig avsevärt från varandra.
 * Även om det inte är nödvändigt är det god praxis att ha samma antal alternativ för varje element.
-
