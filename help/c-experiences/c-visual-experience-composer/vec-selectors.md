@@ -1,16 +1,16 @@
 ---
 keywords: Experience Targeting;Landing Page Test
-description: 'En elementväljare är ett CSS-uttryck som kan identifiera ett eller flera element. Lär dig hur du använder elementväljare i Adobe Target Visual Experience Composer (VEC). '
+description: 'En elementväljare är ett CSS-uttryck som kan identifiera ett eller flera element. Lär dig hur du använder elementväljare i Adobe [!DNL Target] Visual Experience Composer (VEC). '
 title: Kan jag använda elementväljare i Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
+exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
-
 
 # Elementväljare som används i Visual Experience Composer
 
@@ -28,7 +28,7 @@ Du kan ange om element-ID:n som klassas eller element-ID:n ska användas i dina 
 
 Mer information om när CSS-väljare ska användas och när unika ID:n ska användas finns i [Bästa metoder och begränsningar för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Så här genererar Adobe Target en väljare för ett element {#section_D89D954BCBFB486CA081BE183776A475}
+## Så här genererar Adobe [!DNL Target] en väljare för ett element {#section_D89D954BCBFB486CA081BE183776A475}
 
 Målet använder en enkel algoritm för att skapa en väljare. Här följer en kort beskrivning av genereringslogiken:
 
@@ -100,4 +100,3 @@ I ovanstående process:
 * Du kan använda valfri CSS-väljare så länge den unikt identifierar ett element i DOM.
 * Metoden ovan används av Target. Målet tillåter inte att du använder det här tillvägagångssättet. Du kan lägga till valfri väljare förutsatt att punkt 1 är sann.
 * Du kan använda valfritt attribut i väljaren. I det här dokumentet används endast klassnamn som exempel.
-
