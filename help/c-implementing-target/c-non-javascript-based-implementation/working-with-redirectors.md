@@ -1,19 +1,19 @@
 ---
 keywords: Implementering;mbox.js non javascript;redirector;cost per click;intäkt per klick
-description: Lär dig hur du använder Redirectors i e-postimplementeringar, ungefär som hur du använder en mbox i dina Adobe Target-aktiviteter.
+description: Lär dig hur du använder regissörer i e-postimplementeringar, ungefär som hur du använder en mbox i dina Adobe [!DNL Target] aktiviteter.
 title: Hur arbetar jag med Redirectors?
-feature: Implement Email
+feature: Implementera e-post
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-
-# Arbeta med omdirigeringar{#work-with-redirectors}
+# Arbeta med regissörer
 
 Använd en omdirigerare på liknande sätt som du använder en mbox i dina tester.
 
