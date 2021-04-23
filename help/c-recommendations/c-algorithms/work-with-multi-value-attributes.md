@@ -1,16 +1,16 @@
 ---
 keywords: multivalue;attributes;recommendations;multi-value;multivalue;multi-value
-description: Lär dig hur du arbetar med ett flervärdesfält i Adobe Target Recommendations med hjälp av särskilda flervärdesoperatorer, till exempel när du rekommenderar filmer med flera skådespelare.
+description: Lär dig hur du arbetar med ett fält med flera värden i Adobe [!DNL Target] Recommendations med hjälp av särskilda operatorer för flera värden, till exempel när du rekommenderar filmer med flera skådespelare.
 title: Kan jag använda attribut med flera värden i Recommendations?
 feature: Recommendations
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # Arbeta med attribut för flera värden
 
