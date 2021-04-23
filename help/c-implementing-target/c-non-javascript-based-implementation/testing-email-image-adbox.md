@@ -1,19 +1,19 @@
 ---
 keywords: e-post;adbox;email image adbox
-description: Lär dig hur du använder Adobe Target för att dynamiskt testa bilder i e-postmeddelanden, och ändra till och med dessa bilder direkt när någon öppnar e-postmeddelandet.
+description: Lär dig hur du använder Adobe [!DNL Target] för att dynamiskt testa bilder i e-postmeddelanden och till och med ändra bilderna direkt när någon öppnar e-postmeddelandet.
 title: Hur testar jag en e-postbildsruta?
-feature: Implement Email
+feature: Implementera e-post
 role: Developer
+exl-id: 87a918d7-83dc-4277-821b-d90302c59736
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
-
-# Testa en e-postbild från Adbox{#test-an-email-image-adbox}
+# Testa en e-postbild i Adbox
 
 Testa bilder dynamiskt i e-postmeddelanden och ändra till och med bilderna direkt när någon öppnar e-postmeddelandet.
 
