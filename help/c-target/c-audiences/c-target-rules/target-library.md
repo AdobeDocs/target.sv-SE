@@ -1,18 +1,18 @@
 ---
 keywords: Målinriktning;målbibliotek;bibliotek
 description: Läs om målgruppsanpassning för besökare med färdiga, gamla målgrupper. Det bästa sättet är att använda de nyare målgruppskategorierna för bättre prestanda.
-title: Kan jag inrikta mig på besökare baserat på färdiga målgruppsregler?
-feature: Audiences
+title: Kan jag [!DNL Target] Besökare baseras på fördefinierade målregler?
+feature: Målgrupper
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
-
-# Målbibliotek{#target-library}
+# Målbibliotek
 
 Rikta användarna baserat på färdiga målinriktningsregler.
 
