@@ -1,16 +1,16 @@
 ---
 keywords: målgrupp;utvalda målgrupper;välj målgrupp;Väljare
-description: Publiken avgör vilka besökare som läggs in i din Adobe Target-aktivitet.
-title: Hur väljer jag en publik i en A/B-målaktivitet?
-feature: A/B Tests
+description: Publiken avgör vilka besökare som läggs in i din Adobe [!DNL Target] aktivitet.
+title: Hur väljer jag en publik i en [!DNL Target] A/B-aktivitet?
+feature: A/B-tester
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Välj målgrupp
 
@@ -26,7 +26,7 @@ I rutan [!UICONTROL Audience] klickar du på ikonen Redigera (tre lodräta ellip
 
 Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Målgrupper väljs ut från målgruppsbiblioteket eller så kan du skapa en målgrupp som bara är aktiv. Målgruppsbiblioteket innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är färdigbyggda som en del av Target. Du kan välja en målgrupp i biblioteket, [skapa en ny målgrupp](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) eller [skapa en målgrupp med endast aktivitet](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). För ett A/B-test utan specifik målgruppsanpassning väljer du standardinställningen Alla besökare.
 
-Observera att du även kan redigera eller kopiera en målgrupp genom att hålla markören över den önskade målgruppen i dialogrutan [!UICONTROL Choose Audience], vilket visas nedan. Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringar och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
+Observera att du även kan redigera eller kopiera en målgrupp genom att hålla markören över den önskade målgruppen i dialogrutan [!UICONTROL Choose Audience], vilket visas nedan. Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringarna och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
 
 ![Målgruppshovring](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
