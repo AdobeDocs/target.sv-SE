@@ -1,16 +1,16 @@
 ---
 keywords: malltestning;mall;samma upplevelse på liknande sidor;malltest
-description: Lär dig hur du använder Adobe Target Visual Experience Composer (VEC) för att inkludera samma upplevelse på flera sidor som är strukturerade på liknande sätt eller innehåller samma mallelement.
+description: Lär dig hur du använder Adobe [!DNL Target] Visual Experience Composer (VEC) för att inkludera samma upplevelse på flera sidor som är strukturerade på liknande sätt eller innehåller samma mallelement.
 title: Kan jag inkludera samma upplevelse på liknande sidor?
-feature: Experiences and Offers
+feature: Erfarenheter och erbjudanden
+exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
-
 
 # Inkludera samma upplevelse på liknande sidor
 
