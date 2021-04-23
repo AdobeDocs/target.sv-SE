@@ -1,16 +1,16 @@
 ---
 keywords: Mål;rapporter;rapportinställningar;miljö;lyft;lyfta bunden;avvikelse;självförtroende;kontroll
-description: Lär dig hur du tolkar Adobe Target-rapporter, som innehåller datapunkter och visualiseringsrepresentationer som hjälper dig att förstå vilka gränser du har och hur bra du kan lita på dina aktiviteter.
+description: Lär dig hur du tolkar Adobe [!DNL Target] rapporter, som innehåller datapunkter och visualiseringsrepresentationer som hjälper dig förstå lyftgränserna och tillförlitlighetsnivån för dina aktiviteter.
 title: Hur visar jag ett genomsnittligt lyft-, lyft- och konfidensintervall?
-feature: Reports
+feature: Rapporter
+exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
 
 ---
-
 
 # Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse
 
