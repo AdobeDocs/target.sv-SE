@@ -1,23 +1,23 @@
 ---
 keywords: Administration;godkännarroll;godkännare
-description: Utför de första uppgifterna som Adobe Target-administratörer ska utföra efter att ha tagit emot en e-postinbjudan till Adobe Experience Cloud.
+description: Utför de första uppgifterna som Adobe [!DNL Target] administratörer ska utföra efter att ha tagit emot e-postinbjudan till Adobe Experience Cloud.
 title: Var kommer jag igång med att administrera mål?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
-
 # Administratörssteg
 
 Den här artikeln innehåller de första stegen [!DNL Adobe Target] som administratörer ska utföra efter att ha tagit emot en e-postinbjudan till [!DNL Adobe Experience Cloud].
 
-## Bjud in till mål {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Hämta inbjudan till [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 En systemadministratör i [!DNL Adobe Admin Console] måste lägga till dig som användare i [!DNL Target] genom att bjuda in dig till. Systemadministratören bör sedan lägga till dig i en eller flera rollspecifika grupper. Båda dessa åtgärder utförs i [Adobe Admin Console](https://adminconsole.adobe.com).
 
