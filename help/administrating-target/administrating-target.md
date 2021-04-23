@@ -2,18 +2,18 @@
 keywords: konfigurera;konfigurera;konfigurera;konfigurera;konfigurera;administrera
 description: Konfigurera Adobe Target, inklusive inställningar, implementering, användarhantering, egenskaper, Scene7-konfiguration, värdhantering och svarstoken.
 title: Hur administrerar jag Target?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
-
-# Administrera målöversikt{#administer-target}
+# Administrera [!DNL Target] - översikt
 
 Information som hjälper dig att administrera [!DNL Adobe Target], inklusive konfigurationsinställningar för Visual Experience Composer (VEC), rapportering, Scene7-konfiguration, implementering, värdar, miljöer, svarstoken och användare.
 
