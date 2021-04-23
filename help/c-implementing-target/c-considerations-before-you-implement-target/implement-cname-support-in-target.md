@@ -1,17 +1,17 @@
 ---
 keywords: klientvård;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicering;domain control validation;dcv
-description: Arbeta med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i Adobe Target för att hantera annonsblockerande problem eller ITP-relaterade cookie-regler.
+description: Arbeta med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i Adobe [!DNL Target] för att hantera annonsblockerande problem eller ITP-relaterade cookie-principer.
 title: Hur använder jag CNAME i Target?
-feature: Privacy & Security
+feature: Integritet och säkerhet
 role: Developer
+exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
-
 
 # CNAME och Adobe Target
 
@@ -79,7 +79,7 @@ De flesta kunder väljer ett värdnamn som `target.example.com`. Adobe rekommend
 
 Nej, [!DNL Target] kräver ett separat värdnamn och certifikat.
 
-### Påverkas min nuvarande implementering av Target av ITP 2.x?
+### Påverkas min nuvarande implementering av [!DNL Target] av ITP 2.x?
 
 I en Safari-webbläsare navigerar du till den webbplats där du har ett JavaScript-bibliotek. [!DNL Target] Om du ser en [!DNL Target]-cookie som angetts i en CNAME-kontext, till exempel `analytics.company.com`, påverkas du inte av ITP 2.x.
 
