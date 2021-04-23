@@ -1,18 +1,18 @@
 ---
 keywords: produkt;samlingar
-description: Läs om enheter i Adobe Target Recommendations. Enheter refererar till objekt som du vill rekommendera med Target, till exempel artiklar, filmer eller produkter.
+description: Läs mer om entiteter i Adobe [!DNL Target] Recommendations. Enheter refererar till de objekt som du vill rekommendera med [!DNL Target], till exempel artiklar, filmer eller produkter.
 title: Hur använder jag entiteter?
 feature: Recommendations
+exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMEntities{#entities}
+# ![](/help/assets/premium.png) PREMIUMEntities
 
 Enheter refererar till de objekt som du vill rekommendera. Enheter kan vara vad som helst, t.ex. produkter, innehåll (t.ex. artiklar, bildspel, bilder, filmer och tv-program), jobblistor, restauranger osv.
 
@@ -23,4 +23,3 @@ Använd entiteter för att:
 * Konfigurera dina samlingar
 * Använd feeds för att få in information om entitet eller innehåll i dina rekommendationer
 * Ange undantag för att förhindra att vissa objekt visas i dina rekommendationer
-
