@@ -1,16 +1,16 @@
 ---
 keywords: slumpskog;beslutsträd;ap;Automated Personalization
-description: Lär dig hur Adobe Target använder algoritmen Slumpmässig skog i både Automated Personalization (AP) och Auto-Target-aktiviteter.
-title: Hur använder Target den slumpmässiga skogsalgoritmen?
+description: Lär dig hur Adobe [!DNL Target] använder algoritmen Slumpmässig skog i både Automated Personalization- (AP) och Auto-Target-aktiviteter.
+title: Hur använder [!DNL Target] algoritmen Slumpmässig skog?
 feature: Automated Personalization
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMRandom-skogsalgoritm
 
@@ -49,7 +49,7 @@ Beslutsträd kan vara ett kraftfullt statistiskt verktyg. De har dock vissa nack
 
 ## Hur använder Target personaliseringsalgoritmer Slumpmässig skog? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
-**Hur modeller byggs**
+**Så här bygger du modeller**
 
 I följande diagram sammanfattas hur modeller byggs för Automatisk målgrupps- eller Automated Personalization-aktiviteter:
 
