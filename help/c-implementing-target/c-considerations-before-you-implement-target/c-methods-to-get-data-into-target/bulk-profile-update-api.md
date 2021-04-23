@@ -1,14 +1,14 @@
 ---
 keywords: implementera;implementera;konfigurera;bulkprofiluppdatering
-description: Hämta data till Target med bulkprofilens uppdaterings-API.
-title: Hur hämtar jag data till målet med API:t för gruppprofiluppdatering?
-feature: Implementation
+description: Hämta data till [!DNL Target] med uppdaterings-API:t för gruppprofiler.
+title: Hur hämtar jag data till [!DNL Target] Använda API:t för gruppprofiluppdatering?
+feature: Implementering
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
