@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;jämför upplevelser;Riktning;jämför innehåll;automål;autoallokera
-description: Lär dig mer om de olika typerna av A/B-testaktiviteter i Adobe Target - Manuell, Automatisk fördelning och Automatisk målning. Välj den som passar dig.
+description: Lär dig mer om de olika typerna av A/B-testaktiviteter i Adobe [!DNL Target] - Manuell, Automatisk allokering och Automatiskt mål. Välj den som passar dig.
 title: Vilken typ av A/B-aktiviteter är tillgängliga i mål?
-feature: A/B Tests
+feature: A/B-tester
+exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över A/B-test
 
