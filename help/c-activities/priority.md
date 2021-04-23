@@ -1,22 +1,22 @@
 ---
 keywords: inställningar;prioritet
-description: Lär dig hur Adobe Target avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilket Target-gränssnitt och vilken funktion du använder för att skapa aktiviteter.
-title: Hur tilldelar Target prioritet till olika aktiviteter?
-feature: Activities
+description: Lär dig hur Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] gränssnittet och vilken funktion du använder för att skapa aktiviteter.
+title: Hur tilldelar  [!DNL Target] prioritet till olika aktiviteter?
+feature: Verksamhet
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
-
 
 # Prioritet
 
 Mål avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilket Target-gränssnitt och vilken aktivitetsskapande funktion (Visual Experience Composer eller Form Based Composer) du använder.
 
-## Målstandard/Premium Visual Experience Composer Only eller formulärbaserad disposition som endast använder global målbegäran {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Använd endast Visual Experience Composer som standard/Premium eller formulärbaserad disposition med global [!DNL Target]-begäran {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Om ditt företag enbart använder Target Standard/Premium och Visual Experience Composer kan innehåll från flera aktiviteter returneras för samma anrop. Verksamheter levereras med hjälp av följande beslutsflöde:
 
@@ -40,7 +40,7 @@ Om ditt företag enbart använder Target Standard/Premium och Visual Experience 
    * Om bara en aktivitet har målgruppsanpassning visas den aktiviteten.
    * Om alla eller inga har mål visas den aktivitet som godkändes först.
 
-## Målstandarddisposition/förstklassig formulärbaserad disposition och målstandard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
+## Målstandarddisposition/förstklassig formulärbaserad disposition och [!DNL Target] Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Om du har två aktiviteter, den ena med nyckelordet Nike som varumärkeskländar
 
 Om båda målinriktade aktiviteter har samma prioritet visas den aktivitet som senast visades. Om besökaren är nybörjare på sidan visas den aktivitet som aktiverades senast.
 
-## Målstandarddisposition/premiumformulärbaserad disposition med icke-globala målförfrågningar {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Målstandarddisposition/premiumformulärbaserad disposition med icke-global [!DNL Target]-begäran {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
