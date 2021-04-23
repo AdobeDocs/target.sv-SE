@@ -2,17 +2,17 @@
 keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
 description: Lär dig hur du använder mbox3rdPartyId, som är din organisations besökar-ID, till exempel medlems-ID eller din organisations lojalitetsprogram.
 title: Hur använder jag profilsynkronisering i realtid för mbox3rdPartyId?
-feature: Audiences
+feature: Målgrupper
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-
-# Profilsynkronisering i realtid för mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Profilsynkronisering i realtid för mbox3rdPartyId
 
 Mbox3rdPartyId är företagets besökar-ID, till exempel medlemskaps-ID för företagets lojalitetsprogram.
 
