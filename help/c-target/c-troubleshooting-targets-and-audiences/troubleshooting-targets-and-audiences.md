@@ -1,22 +1,22 @@
 ---
 keywords: felsökning;vanliga frågor;vanliga frågor;Vanliga frågor;Vanliga frågor;mål;målgrupper
-description: Se vanliga frågor och svar om målgruppsanpassning och målgrupper som används i Adobe Target-aktiviteter.
+description: Visa vanliga frågor och svar om målgruppsanpassning och målgrupper som används i Adobe [!DNL Target] aktiviteter.
 title: Var kan jag hitta frågor och svar om mål och målgrupper?
-feature: Audiences
+feature: Målgrupper
+exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
 
-
-# Mål och målgrupper Frågor och svar{#targets-and-audiences-faq}
+# Mål och målgrupper Frågor och svar
 
 Lista med vanliga frågor och svar om upplevelseanpassning och målgrupper.
 
-## Hur utvärderar Target URL:er när det gäller målinriktning? {#url}
+## Hur utvärderar [!DNL Target] URL:er i målanpassning? {#url}
 
 Med Target utvärderas URL:er på olika sätt beroende på om du använder målgrupps-URL:er när du skapar en aktivitet eller om du använder URL-mål när du skapar en målgrupp.
 
@@ -65,7 +65,7 @@ Det bästa sättet är att ha flera värden kopplade till en enskild kategori, v
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## När ni bygger målgrupper, varför finns färdiga målgrupper under målbiblioteket under andra kategorier? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## Varför finns färdiga målgrupper under [!DNL Target]-biblioteket under andra kategorier när målgrupper byggs? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 De färdiga målgrupperna i kategorin Målbibliotek är äldre målgrupper och finns i andra kategorier. Det gamla målbiblioteket > Ny besökare har till exempel en uppdaterad motsvarighet: Besöksprofil > Ny besökare.
 
@@ -83,7 +83,7 @@ I följande exempel kvalificerar en användare från Kalifornien som använder e
 
 ![](assets/audiences_order.png)
 
-## Varför skiljer sig namnen för samma målgrupp i Target, Adobe Audience Manager (AAM) och Audience Library i bastjänsterna åt? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Varför skiljer sig namnen för samma målgrupp i [!DNL Target], Adobe Audience Manager (AAM) och Audience Library i bastjänsterna åt? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Målgruppsnamn i [!DNL Target] är unika; I [!DNL AAM] och [!DNL Audience Library] kan du dock ha samma namn för flera målgrupper (om de finns i olika mappar). När [!DNL Target] påträffar ett målgruppsnamn som motsvarar en [!DNL AAM] eller [!DNL Audience Library] målgrupp, lägger [!DNL Target] till &quot;#&lt;number>&quot; i namnet.
 
@@ -93,7 +93,7 @@ Du kan till exempel se följande målgrupper: &quot;PC Users&quot; (i [!DNL AAM]
 
 Vissa målgrupper är fördefinierade, till exempel&quot;Nya besökare&quot; och&quot;Returning Visitors&quot;. Dessa fördefinierade målgrupper kan inte namnändras av användare.
 
-## Varför visas inte alla profilparametrar i målanvändargränssnittet? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Varför visas inte alla profilparametrar i [!DNL Target]-användargränssnittet? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du behöver skicka fler än 50 profilattribut till [!DNL Target] kan du skicka dem med API-metoden [!UICONTROL Profile Update]. Mer information finns i [Profiluppdatering](https://developers.adobetarget.com/api/#authentication-tokens) i dokumentationen för Adobe Target API.
 
@@ -101,7 +101,7 @@ Vissa målgrupper är fördefinierade, till exempel&quot;Nya besökare&quot; och
 
 Automated Personalization-aktiviteter utvärderas en gång per session. Om det finns aktiva sessioner som har kvalificerat sig för en viss upplevelse och nu har nya erbjudanden lagts till, kommer användarna att se det nya innehållet tillsammans med tidigare erbjudanden. Eftersom de tidigare har kvalificerat sig för de här upplevelserna skulle de fortfarande se dem under hela sessionen. Om du vill utvärdera detta vid varje sidbesök bör du byta till aktivitetstypen Experience Targeting (XT).
 
-## Varför återspeglas ändringar som görs i målgrupper som skapats via API inte i målgränssnittet? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Varför återspeglas ändringar som görs i målgrupper som skapats via API inte i användargränssnittet för [!DNL Target]? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 Till skillnad från erbjudanden och profilskript synkroniseras för närvarande inte ändringar som görs av API till målgrupper som skapats via Target Standard tillbaka till målgränssnittet.
 
