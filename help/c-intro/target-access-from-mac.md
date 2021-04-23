@@ -1,22 +1,22 @@
 ---
 keywords: Experience Cloud;logga in;språk;standardspråk;standardspråk
-description: Lär dig hur du kommer åt Target från Adobe Experience Cloud, anger standardvyn och ändrar språket i målgränssnittet och dokumentationen.
-title: Hur får jag åtkomst till mål från Adobe Experience Cloud?
-feature: Overview
+description: Lär dig hur du får åtkomst till [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] användargränssnitt och dokumentation.
+title: Hur får jag åtkomst till [!DNL Target] från Adobe Experience Cloud?
+feature: Översikt
+exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
-
-# Åtkomstmål från Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Åtkomst till [!DNL Target] från Adobe Experience Cloud
 
 Information om hur du får åtkomst till [!DNL Adobe Target] från [!DNL Adobe Experience Cloud], anger din standardstartsida och ändrar språket i användargränssnittet för [!DNL Target].
 
-## Logga in på Adobe Target och ange standardvyn
+## Logga in på Adobe [!DNL Target] och ange standardvyn
 
 1. Logga in på [Adobe Experience Cloud](https://experience.adobe.com/).
 
@@ -30,7 +30,7 @@ Information om hur du får åtkomst till [!DNL Adobe Target] från [!DNL Adobe E
 
    ![Landningssida](/help/c-intro/assets/pagepref-new.png)
 
-## Ändra standardspråket för målgränssnittet {#language}
+## Ändra standardspråk för [!DNL Target]-gränssnittet {#language}
 
 1. När du har loggat in på [!DNL Adobe Experience Cloud ] eller [!DNL Target] klickar du på din profilavatar och sedan på **[!UICONTROL Edit Preferences]**.
 
@@ -65,7 +65,7 @@ Information om hur du får åtkomst till [!DNL Adobe Target] från [!DNL Adobe E
 
 1. Logga ut från [!DNL Adobe Experience Cloud] eller [!DNL Target] och logga sedan in igen för att ändringarna ska börja gälla.
 
-## Ändra språket för målproduktdokumentationen {#doc-lang}
+## Ändra språket för [!DNL Target]-produktdokumentationen {#doc-lang}
 
 Operativsystemet eller webbläsarinställningarna bör identifiera det språk du föredrar och visa dokumentationen på det språket (om tillgängligt). [!DNL Target] Dokumentationen översätts automatiskt och synkroniseras med den engelska versionen inom några timmar efter ändringar i den engelska dokumentationen.
 
