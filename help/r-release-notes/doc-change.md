@@ -1,13 +1,13 @@
 ---
 keywords: måldokumentets ändringslogg;dokumentationsuppdateringar;nya ämnen;redigeringar;uppdateringar;uppdatera
-description: Håll dig uppdaterad med viktiga tillägg och ändringar i Adobe Target produktdokumentation.
+description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktdokumentationen för Adobe [!DNL Target] .
 title: Var kan jag se dokumentationsuppdateringar för Target?
-feature: Release Notes
+feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
 
-## Adobe Target Standard/Premium 21.4.1 (19 april 2021)
+## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 april 2021)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> (*Experience Cloud Services and* Administration Guide) | Ytterligare information om &quot;sessions-ID&quot; har lagts till. |
 |  | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.4.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
-## Adobe Target Standard/Premium 21.2.1 (9 mars 2021)
+## Adobe [!DNL Target] Standard/Premium 21.2.1 (9 mars 2021)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [Entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md) | Tillagd text som anger att entity.value måste ha decimalformat (till exempel 15,99 istället för 15,99). |
 |  | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.2.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
-## Adobe Target Standard/Premium 21.1.1 (19 januari 2021)
+## Adobe [!DNL Target] Standard/Premium 21.1.1 (19 januari 2021)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
