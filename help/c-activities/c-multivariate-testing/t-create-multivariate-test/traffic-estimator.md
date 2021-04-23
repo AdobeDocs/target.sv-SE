@@ -1,16 +1,16 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Lär dig hur du använder Traffic Estimator som talar om för dig om du har tillräckligt med trafik för att din Adobe Target Multivariate Test-aktivitet ska lyckas.
+description: Lär dig hur du använder Traffic Estimator som talar om för dig om du har tillräckligt med trafik för att din Adobe [!DNL Target] Multivariate Test-aktivitet ska lyckas.
 title: Hur mycket trafik behövs för en multivariat testverksamhet?
-feature: Multivariate Tests
+feature: Multivariata tester
+exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
-
 
 # Uppskatta den trafik som krävs för ett lyckat test
 
@@ -61,4 +61,3 @@ Trafikberäkningsverktyget ger även feedback som talar om för dig om du har ti
    Justera siffrorna tills Traffic Estimator säger att du har tillräckligt med trafik och utforma sedan testet därefter.
 
    ![](assets/estimatorok.png)
-
