@@ -1,18 +1,18 @@
 ---
 keywords: rekommendationer;vanliga frågor;frågor
-description: Se en lista med vanliga frågor och svar och svar om Adobe Target Recommendations.
-title: Var kan jag svara på designfrågor för Target Recommendations?
+description: Granska en lista med vanliga frågor och svar och svar om Adobe [!DNL Target] Recommendations-design.
+title: Var kan jag svara på designfrågor för  [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
 
-
-# ![Vanliga frågor om ](/help/assets/premium.png) PREMIUMDesign  {#design-faq}
+# ![Vanliga frågor om ](/help/assets/premium.png) PREMIUMDesign
 
 Lista med vanliga frågor och svar om [!DNL Adobe Target] rekommendationer för design.
 
