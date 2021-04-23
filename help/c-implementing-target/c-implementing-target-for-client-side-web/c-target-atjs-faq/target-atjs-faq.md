@@ -1,19 +1,19 @@
 ---
 keywords: at.js faq;at.js Vanliga frågor;faq;flimmer;loader;page loader;cross domain;file size;filesize;x domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip httponly;HTTPOnly;secure;ip;cookie domain
-description: Läs svar på vanliga frågor om Adobe Target JavaScript-bibliotek at.js.
+description: Läs svar på vanliga frågor om JavaScript-biblioteket Adobe [!DNL Target] at.js.
 title: Vad är vanliga frågor och svar om at.js?
 feature: at.js
 role: Developer
+exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2699'
+source-wordcount: '2696'
 ht-degree: 0%
 
 ---
 
-
-# at.js Vanliga frågor{#at-js-frequently-asked-questions}
+# at.js Frågor och svar
 
 Svar på vanliga frågor om at.js.
 
@@ -84,7 +84,7 @@ Matematiskt sett kan detta summeras så här från svarstidsperspektiv
 
 Som du ser kommer [!DNL at.js] 1.0.0 att slutföra begäranden snabbare. Dessutom är [!DNL at.js]-begäranden asynkrona, så Target blockerar inte sidåtergivning. Även om det tar några sekunder att slutföra en begäran kommer du fortfarande att se den återgivna sidan, men bara vissa delar av sidan kommer att tas bort tills Target får ett svar från målkanten.
 
-## Kan jag läsa in målbiblioteket asynkront? {#section_AB9A0CA30C5440C693413F1455841470}
+## Kan jag läsa in [!DNL Target]-biblioteket asynkront? {#section_AB9A0CA30C5440C693413F1455841470}
 
 Med versionen at.js 1.0.0 kan du läsa in målbiblioteket asynkront.
 
@@ -150,7 +150,7 @@ För att stödja Safari-besökare är en bättre X-Domain inaktiverad (anger end
 
 Inte på samma sida. När du implementerar och testar [!DNL at.js] kan du köra [!DNL at.js] på vissa sidor och [!DNL mbox.js] på andra sidor tills du har validerat [!DNL at.js].
 
-## Kan jag använda Target Visual Experience Composer i mina enkelsidiga program? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## Kan jag använda [!DNL Target] Visual Experience Composer i mina enkelsidiga program? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
 Ja, du kan använda VEC för SPA om du använder at.js 2.x. Mer information finns i [Enkelsidig (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
@@ -212,7 +212,7 @@ Följande är möjliga rotorsaker om du ser det här varningsmeddelandet:
 
    Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) och [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-## Vad är domänen tt.omtrdc.net som anrop från målservern går till? {#section_999C29940E8B4CAD8A957A6B1D440317}
+## Vad är domänen tt.omtrdc.net som [!DNL Target] serveranrop går till? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] är domännamnet för Adobe EDGE-nätverket, som används för att ta emot alla serveranrop för Target.
 
