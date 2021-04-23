@@ -1,16 +1,16 @@
 ---
 keywords: rekommendationer;rekommendationsaktivitet;kriterier;algoritm;rekommendationsnyckel;anpassad nyckel;branschvertikal;återförsäljning;e-handel;lead generation;b2b;finansiella tjänster;media;publicering
-description: Lär dig hur du använder villkor i Adobe Target Recommendations. Kriterier är regler som avgör vilket innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
-title: Hur använder jag villkor i Target Recommendations?
+description: Lär dig hur du använder villkor i Adobe [!DNL Target] Recommendations. Kriterier är regler som avgör vilket innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
+title: Hur använder jag villkor i [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMCCriteria
 
