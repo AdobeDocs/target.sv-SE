@@ -1,13 +1,13 @@
 ---
 keywords: meddelanden;kunskapsbyggare;utvecklarchatt;kaffebrytning;event;forrester;gartner;webbinar
-description: Läs notiser och registrera dig för Adobe Target event, inklusive sessioner med SKill Builder, chatt för utvecklare och produktchef, webbinarier med mera.
-title: Var kan jag hitta målmeddelanden och händelser?
-feature: Release Notes
+description: Läs notiser och registrera dig för Adobe [!DNL Target] event, inklusive sessioner med SKill Builder, chatt för utvecklare och produktchef, webbinarier med mera.
+title: Var hittar jag [!DNL Target] Meddelanden och händelser?
+feature: Versionsinformation
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ I det här inspelade webbinariet diskuterar Adobe Target produktexperter hur fly
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webbseminarium: Hur HSBC utnyttjar Adobe Target och AI för att snabbt optimera och leverera personalisering i stor skala
+## Webbseminarium: Hur HSBC utnyttjar Adobe [!DNL Target] och AI för att snabbt optimera och leverera personalisering i stor skala
 
 * **[Se inspelningen av webbinariet här](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -49,7 +49,7 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 
 *McKinsey-artikel: &quot;[Återställningen av COVID-19 blir digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; maj 2020
 
-## Adobe Target Experience Builder: Utvecklarchatt, migrera Adobe Target mbox.js till at.js {#skill-builder}
+## Adobe [!DNL Target] Sfärskapsbyggare: Utvecklarchatt, migrera Adobe [!DNL Target] mbox.js till at.js {#skill-builder}
 
 Med borttagningen av mbox.js den 31 mars 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js.
 
