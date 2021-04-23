@@ -1,16 +1,16 @@
 ---
 keywords: multivariat test;mvt;mvt plan;multivariate test plan
-description: Lär dig hur du planerar multivariata tester i Adobe Target så att du kan skapa ett lyckat test.
+description: Lär dig hur du planerar multivariata tester i Adobe [!DNL Target] så att du kan skapa ett lyckat test.
 title: Hur planerar jag ett multivariattest?
-feature: Multivariate Tests
+feature: Multivariata tester
+exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
-
 
 # Planera ett multivariata test
 
