@@ -2,19 +2,19 @@
 keywords: Målstandard;faq;Vanliga frågor;kalkylblad;kalkylblad
 description: Se en lista med vanliga frågor och svar om Adobe Target funktioner, samt information och länkar för mer information.
 title: Var kan jag hitta svar på Mina optimerings- och personaliseringsfrågor?
-feature: Overview
+feature: Översikt
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
 
+# Vanliga frågor om måloptimering och personalisering
 
-# Vanliga frågor om måloptimering och personalisering{#target-optimization-and-personalization-faq}
-
-En lista med vanliga frågor om hur du använder funktionerna i Adobe Target, samt information och länkar för mer information.
+En lista med vanliga frågor och svar om hur du använder funktionerna i Adobe Target samt information och länkar för mer information.
 
 ## Allmän information {#section_CE5713B5AAC341C9A75586C107797FA3}
 
