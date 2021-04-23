@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;samplingsstorlek;beräkna samplingsstorlek;autoallokera;autoallokera;kalkylator
-description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test i Adobe Target kräver tillräckligt många besökare (provstorlek) för att förbättra konverteringsgraden.
+description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test i Adobe [!DNL Target] kräver tillräckligt många besökare (provstorlek) för att förbättra konverteringsgraden.
 title: Hur länge ska jag köra ett A/B-test?
-feature: A/B Tests
+feature: A/B-tester
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3044'
+source-wordcount: '3042'
 ht-degree: 0%
 
 ---
-
 
 # Hur länge ska du köra ett A/B-test?
 
@@ -38,7 +38,7 @@ När du använder funktionen [!UICONTROL Auto-Allocate] visar [!DNL Adobe Target
 
 Mer information finns i [Översikt över automatisk allokering](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Beräkna exempelstorlek för Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe [!DNL Target] Beräkna provstorlek {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Om du väljer att använda en manuell [!UICONTROL A/B Test]-aktivitet i stället för [!UICONTROL Auto-Allocate], kan du med [!DNL Target] Sample Size Calculator avgöra vilken provstorlek som behövs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är användbart. Det är valfritt att använda beräkningsverktyget för en [!UICONTROL Auto-Allocate]-aktivitet eftersom [!UICONTROL Auto-Allocate] deklarerar en vinnare åt dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
 
