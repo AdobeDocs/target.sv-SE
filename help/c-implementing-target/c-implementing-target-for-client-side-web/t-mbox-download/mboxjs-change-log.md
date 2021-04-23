@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
-source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2406'
 ht-degree: 0%
 
 ---
 
-# mbox.js versionsinformation{#mbox-js-version-details}
+# versionsinformation för mbox.js
 
 På den här sidan visas ändringar för varje version av mbox.js.
 
