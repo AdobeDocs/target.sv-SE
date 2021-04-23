@@ -1,18 +1,18 @@
 ---
 keywords: Riktning;trafikkällor;måltrafikkällor;målsökmotor;sökmotor;landningssida;målstartsida;hänvisande landningssida
-description: Lär dig hur du skapar målgrupper i Adobe Target för att rikta in besökare baserat på den sökmotor eller landningssida som hänvisar dem till din webbplats.
-title: Kan jag rikta in besökare baserat på sökmotor eller referenswebbplats?
-feature: Audiences
+description: Lär dig hur du skapar målgrupper i Adobe [!DNL Target] för att rikta in besökare baserat på sökmotorn eller landningssidan som refererar till dem på din webbplats.
+title: Kan jag [!DNL Target] Besökare som är baserade på sökmotorn eller referenswebbplatsen?
+feature: Målgrupper
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-
-# Trafikkällor{#traffic-sources}
+# Trafikkällor
 
 Skapa målgrupper för att inrikta er på besökare baserat på den sökmotor eller landningssida som refererar till dem på er webbplats.
 
