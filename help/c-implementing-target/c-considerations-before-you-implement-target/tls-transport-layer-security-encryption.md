@@ -1,19 +1,19 @@
 ---
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
-description: Läs om hur Target använder TLS-protokollet (Transport Layer Security) för att upprätthålla högsta säkerhetsstandarder och främja säkerheten för era kunddata.
-title: Hur använder Target TLS för att erbjuda säkerhet?
-feature: Privacy & Security
+description: Lär dig hur  [!DNL Target] använder TLS-protokollet (Transport Layer Security) för att upprätthålla högsta säkerhetsstandarder och främja säkerheten för dina kunddata.
+title: 'Hur använder man TLS för att ge säkerhet? [!DNL Target] '
+feature: Integritet och säkerhet
 role: Developer
+exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
-
-# TLS-krypteringsändringar (Transport Layer Security){#tls-transport-layer-security-encryption-changes}
+# TLS-krypteringsändringar (Transport Layer Security)
 
 Information om förändringar i hur [!DNL Adobe] och [!DNL Adobe Target] använder TLS (Transport Layer Security) för att upprätthålla högsta säkerhetsstandard och främja säkerheten för kunddata.
 
@@ -59,7 +59,7 @@ När du planerar för den här ändringen bör du tänka på följande (observer
 
 Mer information om vilka webbläsare som stöds och vilka versioner som stöds finns i [Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
-## Adobe Target API:er {#section_88797FA5434049EC89F908853CC76903}
+## Adobe [!DNL Target] API:er {#section_88797FA5434049EC89F908853CC76903}
 
 Från och med 1 mars 2020 har mål-API:er inte längre stöd för TLS 1.1-kryptering. Kunder som har åtkomst till API bör verifiera att de inte kommer att påverkas.
 
