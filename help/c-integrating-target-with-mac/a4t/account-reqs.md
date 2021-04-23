@@ -1,17 +1,17 @@
 ---
 keywords: Analyser som rapportkälla;a4t;A4T;requirements
-description: Lär dig hur du konfigurerar de användarkontokrav som krävs för att skapa en Adobe Analytics-baserad aktivitet i Adobe Target med Analytics for Target (A4T).
+description: Lär dig hur du konfigurerar de användarkontokrav som krävs för att skapa en Adobe Analytics-baserad aktivitet i Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T).
 title: Vilka behörighetskrav krävs för A4T?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
 solution: Target,Analytics
+exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 translation-type: tm+mt
-source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
-
 
 # Krav på användarbehörighet
 
@@ -56,6 +56,6 @@ Om du vill använda A4T på en viss rapportserie måste du ha tillgång till den
    Åtkomst till gruppen [!UICONTROL Web Services Access] i [!DNL Analytics] krävs för att kunna använda [!DNL Analytics] som rapportkälla för [!DNL Target].
 
 
-## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
+## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
 
 Inga ytterligare behörigheter krävs.
