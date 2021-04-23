@@ -1,14 +1,14 @@
 ---
 keywords: inkluderingsregler;inkluderingskriterier;rekommendationer;skapa nya kriterier;befordran;kampanjer;dynamisk filtrering;dynamiska;tomma värden;ignorera filtreringsregel;statiskt filter;filter efter värde;entitetsattributmatchning;profilattributmatchning;parametermatchning;filter efter värde;statiskt filter
-description: Lär dig hur du skapar inkluderingsregler i Adobe Target Recommendations för villkor och kampanjer. För att få bättre resultat lägger du till mer dynamiska eller statiska filtreringsregler.
+description: Lär dig hur du skapar inkluderingsregler i Adobe [!DNL Target] Recommendations för villkor och kampanjer. För att få bättre resultat lägger du till mer dynamiska eller statiska filtreringsregler.
 title: Hur använder jag regler för dynamisk och statisk inkludering i Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 43a7d3b3056a4404d18aa4a05a7a93d695900f73
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
