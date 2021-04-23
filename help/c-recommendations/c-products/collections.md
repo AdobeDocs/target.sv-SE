@@ -1,18 +1,18 @@
 ---
 keywords: samling;Riktning
-description: Lär dig hur du använder samlingar i Adobe Target Recommendations. En samling är en uppsättning produkter eller artiklar som är berättigade till en rekommendation.
+description: Lär dig hur du använder samlingar i Adobe [!DNL Target] Recommendations. En samling är en uppsättning produkter eller artiklar som är berättigade till en rekommendation.
 title: Hur använder jag samlingar i Recommendations?
 feature: Recommendations
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCollections  {#collections}
+# ![](/help/assets/premium.png) PREMIUMCollections
 
 En samling är en uppsättning produkter eller artiklar som är berättigade till en rekommendation. En samling definieras genom att ange de villkor som måste uppfyllas av objekt som ska ingå i den.
 
