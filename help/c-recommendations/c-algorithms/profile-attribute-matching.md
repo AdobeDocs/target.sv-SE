@@ -1,16 +1,16 @@
 ---
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;profilattributsmatchning
-description: Lär dig hur du filtrerar dynamiskt i Adobe Target Recommendations genom att jämföra objekt (enheter) med ett värde i användarens profil.
+description: Lär dig hur du filtrerar dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra objekt (entiteter) med ett värde i användarens profil.
 title: Hur filtrerar jag efter matchning av profilattribut i Recommendations-aktiviteter?
 feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
-
 
 # ![Matchning av ](/help/assets/premium.png) PREMIUMProfile-attribut
 
@@ -24,7 +24,7 @@ Använd [!UICONTROL Profile Attribute Matching] när du vill visa rekommendation
 
 Följande scenarier visar hur du kan använda [!UICONTROL Profile Attribute Matching]:
 
-* Ett företag som säljer glasögon lagrar besökarens favoritfärg som &quot;valnöt&quot;. För just den besökaren har vi skapat en rekommendation som bara returnerar ögongruppsbildrutor som matchar&quot;valnöt&quot; i färg.
+* Ett företag som säljer glasögon lagrar besökarens favoritfärg som &quot;valnöt&quot;. För just den besökaren har vi ställt in en rekommendation så att den bara returnerar ögongruppsbildrutor som matchar&quot;valnöt&quot; i färg.
 * En profilparameter kan definieras för en besökares kläder (t.ex. liten, mellanstor eller stor) när de navigerar på företagets webbplats. En rekommendation kan ställas in för att matcha profilparametern och returnera produkter som bara är specifika för användarens önskade klädstorlek.
 
 ## Exempel på matchning av profilattribut {#section_9873E2F22E094E479569D05AD5BB1D40}
