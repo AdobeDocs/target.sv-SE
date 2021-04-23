@@ -1,18 +1,18 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4t;provisionering;provisionering;adobe Experience Cloud
-description: Hitta svar på frågor som ofta ställs om etablering av Analytics för Target (A4T), som gör att ni kan använda Analytics-rapportering för Target-aktiviteter.
+description: Hitta svar på frågor som ofta ställs om provisioneringsanalyser för [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] aktiviteter.
 title: Var hittar jag information om inledande A4T-etablering?
-feature: Analytics for Target (A4T)
+feature: Analyser för mål (A4T)
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-
-# Inledande etablering - A4T FAQ{#initial-provisioning-a-t-faq}
+# Inledande etablering - Vanliga frågor om A4T
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om etablering av [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
@@ -24,7 +24,7 @@ Så här implementerar du ett enkelt A4T-fall med flera sidor:
 
 * För de återstående sidorna på webbplatsen, där bara analysstatistik ska spåras, implementera Analytics på dessa sidor. Target behöver inte implementeras på dessa sidor. De analysvärden som samlas in på dessa sidor sammanfogas automatiskt med den Target-aktivitet som användaren ursprungligen var kvalificerad för, baserat på den Target-information som bifogas besökaren från den föregående punkten.
 
-## Hur vet jag om A4T är aktiverat på mitt Target-konto? {#section_4437D284448F4313BF953D4B6EDBACA6}
+## Hur vet jag om A4T är aktiverat på mitt [!DNL Target]-konto? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 Innan du kan välja en rapportsserie när du definierar en Analytics-aktivitet behöver du både ett Analytics-användarkonto och ett Target-användarkonto. Dina användarkonton måste konfigureras enligt anvisningarna i dokumentationen. Se [Krav för användarbehörighet](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
@@ -48,6 +48,6 @@ Se&quot;Varför laddas inte mina rapportsviter?&quot; Ovanför. Orsaken till det
 
 Se&quot;Varför laddas inte mina rapportsviter?&quot; ovan. Orsaken till det här problemet är densamma.
 
-## Varför är mina rapporter i Target tomma? {#section_3837104757464CB488C5A83014A669A1}
+## Varför är mina rapporter i [!DNL Target] tomma? {#section_3837104757464CB488C5A83014A669A1}
 
 Se&quot;Varför laddas inte mina rapportsviter?&quot; ovan. Orsaken till det här problemet är densamma.
