@@ -1,21 +1,21 @@
 ---
 keywords: api;adobe i/o
-description: Lär dig hur du går över från Adobe Target Classic till de nya API:erna i Adobe I/O.
+description: Lär dig hur du övergår från de tidigare API:erna för Adobe [!DNL Target] till de nya API:erna för Adobe I/O.
 title: Hur övergår jag från äldre API:er till Adobe I/O?
-feature: Implement Server-side
+feature: Implementera serversidan
 role: Developer
+exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
+# Övergång från [!DNL Target] äldre API:er till Adobe I/O
 
-# Övergång från äldre Target-API:er till Adobe I/O
-
-Information som hjälper dig att använda övergång från äldre Target-API:er till nya API:er i Adobe I/O.
+Information som hjälper dig att använda övergången från Target-API:er till de nya API:erna på Adobe I/O.
 
 När Adobe Target Classic har tagits bort har även de API:er som är anslutna till ditt Target Classic-konto gjorts otillgängliga. Det här dokumentet hjälper dig att övergå dina gamla API-baserade integreringar till Target-API:erna som drivs av Adobe I/O.
 
@@ -25,7 +25,7 @@ Mer information om dokumentationen för mål-API finns i [Mål-API:er och NodeJS
 
 | Villkor | Beskrivning |
 |--- |--- |
-| Äldre API | API:er som är länkade till ditt Target Classic-konto. Dessa API-anrop baseras på användarnamn och lösenordsbaserad autentisering och använder värdnamnet `testandtarget.omniture.com`. Om dina API-anrop innehåller ett användarnamn och lösenord i den begärda URL:en måste du gå över till Adobe I/O API:er. |
+| Äldre API | API:er som är länkade till ditt Target Classic-konto. Dessa API-anrop baseras på användarnamn och lösenordsbaserad autentisering och använder värdnamnet `testandtarget.omniture.com`. Om dina API-anrop innehåller ett användarnamn och lösenord i URL:en för begäran måste du gå över till API:er för Adobe I/O. |
 | Adobe I/O | Adobe I/O är den nya gatewayen för mål-API:er. Dessa API:er är anslutna till ditt Target Standard-/Premium-konto. Target-API:erna på Adobe I/O använder en JWT-baserad autentisering, som är branschstandarden för säkra företags-API:er. |
 
 ## Tidslinje {#section_A478EBF637554A2DB5A31661955121ED}
@@ -69,4 +69,4 @@ Kontakta din Customer Success Manager om du behöver ett undantag.
 
 ## Hjälp {#section_591F850E2B7A4342B1C233693425415C}
 
-Kontakta Adobe Target Client Care (tt-support@adobe.com) om du har några frågor eller behöver hjälp med att gå över till de nya Target-API:erna i Adobe I/O.
+Kontakta Adobe Target Client Care (tt-support@adobe.com) om du har några frågor eller behöver hjälp med att gå över till de nya Target-API:erna på Adobe I/O.
