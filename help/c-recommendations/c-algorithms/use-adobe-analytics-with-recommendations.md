@@ -1,22 +1,22 @@
 ---
 keywords: beteendedatakälla;analys;rekommendationer;kriterier;produktvariabler
-description: Lär dig hur du använder Adobe Analytics som beteendedatakälla för att använda vybaserade och/eller inköpsbaserade beteendedata från Analytics i Target Recommendations.
-title: Hur använder jag Adobe Analytics med Target Recommendations?
+description: Lär dig hur du använder Adobe Analytics som beteendedatakälla för att använda vybaserade och/eller inköpsbaserade beteendedata från Analytics i [!DNL Target] Recommendations.
+title: Hur använder jag Adobe Analytics med  [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 translation-type: tm+mt
-source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
-
 
 # Använd Adobe Analytics med Recommendations
 
 Om du använder [!DNL Adobe Analytics] som beteendedatakälla kan klienterna använda vybaserade och/eller inköpsbaserade beteendedata från [!DNL Analytics] i [!DNL Adobe Target] rekommendationsaktiviteter. Den här funktionen är särskilt användbar i situationer där [!DNL Target Recommendations]-konfigurationen är ny och [!DNL Analytics] har många historiska data att utnyttja.
 
-Om du använder [!DNL Analytics] som beteendedatakälla kan det fungera som en rik källa till information om användarbeteenden. Detta kan omfatta data från en källa eller feed från tredje part som endast delas med [!DNL Analytics].
+Om du använder [!DNL Analytics] som beteendedatakälla kan det fungera som en rik källa till information om användarbeteenden. Detta kan inkludera data från en källa eller feed från tredje part som bara delas med [!DNL Analytics].
 
 När du [skapar villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md) i Recommendations finns det två alternativknappar som du kan använda för att välja vilken datakälla som ska användas: [!UICONTROL mboxes] eller [!UICONTROL Analytics].
 
@@ -88,4 +88,3 @@ Ja, dessa två värden krävs fortfarande. Resten av attributen kan skickas via 
 ### Kan jag använda regler för dynamisk inkludering, t.ex. enhetsparametern matchar profilattribut med matningsmetoden [!DNL Analytics]?
 
 Ja, det kan du. Metoden liknar den för fristående [!DNL Target]. I det här fallet måste du dock tänka på timingfaktorn. De entitetsvariabler som ska matcha profilvariablerna är beroende av datalagret som kan visas mycket senare på sidan.
-
