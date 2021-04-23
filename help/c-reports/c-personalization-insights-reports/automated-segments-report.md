@@ -1,18 +1,18 @@
 ---
 keywords: Riktning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;auto target report;personalization;insights;automatic segments;faq;Vanliga frågor
-description: Läs om hur olika segment som definieras av Adobe Target personaliseringsmodeller svarar på erbjudanden/upplevelser i aktiviteten genom att läsa rapporten om automatiserade segment.
+description: Lär dig hur olika segment som definieras av personaliseringsmodeller i Adobe [!DNL Target] svarar på erbjudanden/upplevelser i aktiviteten genom att visa rapporten om automatiserade segment.
 title: Vad är rapporten om automatiserade segment?
-feature: Reports
+feature: Rapporter
+exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2046'
 ht-degree: 0%
 
 ---
 
-
-# ![Rapport ](/help/assets/premium.png) över PREMIUMAutomated Segments{#automated-segments-report}
+# ![Rapport ](/help/assets/premium.png) över PREMIUMAutomated Segments
 
 Information om rapporten Automated Segments, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och Auto-Target-aktiviteter (AT).
 
@@ -108,7 +108,7 @@ Detta automatiska segment definieras baserat på två attribut. Besökare som in
 
 **Personaliseringsinsikter - rapporter är inte tillgängliga än för min aktivitet. Varför är det där?**
 
-Det finns flera orsaker till varför [!UICONTROL Personalization Insights]-rapporterna ännu inte är tillgängliga för din aktivitet:
+Det finns flera orsaker till att [!UICONTROL Personalization Insights]-rapporterna ännu inte är tillgängliga för din aktivitet:
 
 * 15 dagar har inte gått sedan du aktiverade aktiviteten. Automatiserade segment och viktiga attributrapporter är inte tillgängliga förrän tidigast 15 dagar efter att du har påbörjat aktiviteten. Under den inledande perioden kommer du inte att kunna komma åt dessa rapporter eller klicka på ikonerna Automatiserade segment och Viktiga attribut.
 * Din aktivitet har inte haft tillräckligt med trafik under den angivna tidsramen. Efter 15 dagar kommer rapporter om automatiserade segment och viktiga attribut att finnas tillgängliga, förutsatt att det finns tillräckligt med personaliserad trafik i din aktivitet för att skapa personaliseringsmodeller.
