@@ -1,18 +1,18 @@
 ---
 keywords: rekommendationsfeed;feed;SAINT;ftp;csv;klassificeringar;analysklassificeringar
-description: Lär dig hur feeds importerar entiteter till Adobe Target Recommendations med hjälp av CSV-filer, Googles produktsökningsformat och Analytics produktklassificeringar.
-title: Hur använder jag feeds i Target Recommendations?
+description: Lär dig hur feeds importerar entiteter till Adobe [!DNL Target] Recommendations med hjälp av CSV-filer, Googles produktsökningsformat och Analytics-produktklassificeringar.
+title: Hur använder jag feeds i [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2498'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMFeeds{#feeds}
+# ![](/help/assets/premium.png) PREMIUMFeeds
 
 Använd feeds för att importera entiteter till [!DNL Adobe Target Recommendations]. Enheter kan skickas med CSV-filer, Googles produktsökningsformat och Adobe Analytics produktklassificeringar.
 
