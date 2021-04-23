@@ -1,22 +1,22 @@
 ---
 keywords: Riktad;Visual experience comser;vec;troubleshooting visual experience comser;troubleshooting;tls;tls 1.2
-description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe Target Visual Experience Composer (VEC) under vissa förhållanden.
+description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!DNL Target] Visual Experience Composer (VEC) under vissa förhållanden.
 title: Hur felsöker jag problem som rör Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
-
 
 # Felsöka problem med Visual Experience Composer
 
 Visningsproblem kan ibland uppstå i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) under vissa förhållanden.
 
-## När jag öppnar min webbplats i Visual Experience Composer läses inte målbiblioteken in. (Endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## När jag öppnar min webbplats i Visual Experience Composer läses inte [!DNL Target]-biblioteken in. (Endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Målet lägger till två parametrar (`mboxEdit=1` och `mboxDisable=1`) när webbplatsen öppnas i Visual Experience Composer.
 
