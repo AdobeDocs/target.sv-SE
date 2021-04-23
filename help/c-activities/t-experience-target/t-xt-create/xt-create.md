@@ -1,16 +1,16 @@
 ---
 keywords: Experience Targeting;xt;create
-description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe Target för att skapa en Experience Targeting-aktivitet (XT) på en målaktiverad sida.
+description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe [!DNL Target] för att skapa en Experience Targeting-aktivitet (XT) på en målaktiverad sida.
 title: Hur skapar jag en upplevelseinriktad aktivitet?
 feature: Experience Targeting
+exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 translation-type: tm+mt
-source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en Experience Targeting-aktivitet
 
