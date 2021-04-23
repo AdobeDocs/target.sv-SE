@@ -2,16 +2,16 @@
 keywords: värd;värdar;värdgrupp;felsökning;bästa praxis;ubox;omdirigera;omdirigera;vitlista;tillåtelselista;svartlista;blockeringslista
 description: Lär dig hur du organiserar dina webbplatser och förproduktionsmiljöer för enkel hantering och separat rapportering i Adobe Target.
 title: Vad är värdar och hur använder jag dem?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
-
 
 # Värdar
 
@@ -64,7 +64,7 @@ Om du vill sortera listan [!UICONTROL Hosts] klickar du på en kolumnrubrik ([!U
 
 Om du vill söka i listan [!UICONTROL Hosts] skriver du en sökterm i rutan [!UICONTROL Search Hosts].
 
-## Skapa tillåtelselista som anger värdar som har behörighet att skicka Target-begäranden till Target. {#allowlist}
+## Skapa tillåtelselista som anger värdar som har behörighet att skicka [!DNL Target]-begäranden till [!DNL Target]. {#allowlist}
 
 Du kan skapa ett tillåtelselista som anger värdar (domäner) som har behörighet att skicka [!DNL Target]-begäranden till [!DNL Target]. Alla andra värdar som genererar begäranden får ett svar på ett kommenterat auktoriseringsfel. Som standard registreras alla värdar som innehåller en [!DNL Target]-begäran med [!DNL Target] i [!UICONTROL Production]-miljön och har tillgång till alla aktiva och godkända aktiviteter. Om du inte vill använda den här metoden kan du använda tillåtelselista för att registrera specifika värdar som är berättigade att göra [!DNL Target]-begäranden och ta emot [!DNL Target]-innehåll. Alla värdar fortsätter att visas i listan [!UICONTROL Hosts], och miljöer kan fortfarande användas för att gruppera dessa värdar och tilldela olika nivåer till varje, till exempel om värden kan se aktiva och/eller inaktiva aktiviteter.
 
