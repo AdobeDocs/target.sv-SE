@@ -2,18 +2,18 @@
 keywords: lägg till användare;projekt;användargrupp;egenskaper;arbetsyta;hantera egenskap;at_egenskap;roller;permissions
 description: Lär dig hur du lägger till användare i Adobe Target. skapa arbetsytor, användargrupper och egenskaper, uppdatera implementeringen, och ange roller och behörigheter.
 title: Hur konfigurerar jag Enterprise-behörigheter?
-feature: Administration & Configuration
+feature: Administration och konfiguration
 role: Administrator
+exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMConfigurera företagsbehörigheter{#configure-enterprise-permissions}
+# ![](/help/assets/premium.png) PREMIUMConfigurera företagsbehörigheter
 
 Information om de uppgifter som krävs för att lägga till användare i din [!DNL Target]-implementering; skapa arbetsytor, användargrupper och egenskaper, uppdatera din [!DNL Target]-implementering så att den innehåller parametern `at_property`; och ange roller och behörigheter.
 
@@ -86,7 +86,7 @@ Användare kan ingå i flera arbetsytor och kan till och med ha olika roller ino
 
 Du måste skicka arbetsytans ID för att kunna utnyttja företagsbehörigheter i [mål-API:er](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
-1. Klicka på fliken [!UICONTROL Products] i [Adobe Admin Console](https://adminconsole.adobe.com) och klicka sedan på produkten i den vänstra menyn för att visa PLC-listan (arbetsyta).
+1. Klicka på fliken [!UICONTROL Products] i [Adobe Admin Console](https://adminconsole.adobe.com) och klicka sedan på produkten i den vänstra menyn för att visa PLC(arbetsyta)-listan.
 1. Klicka på önskad PLC(arbetsyta) och leta sedan reda på &quot;profiler&quot;-ID:t i URL:en enligt nedan.
 
    ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -206,7 +206,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 >
 >Menygränssnittet [!DNL Target] [!UICONTROL Administration] (tidigare [!UICONTROL Setup]) har omarbetats för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande videofilmer är i allmänhet korrekt: alternativen kan dock finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
 
-### Konfigurera målarbetsytor (6:55) ![Självstudiekurs](/help/assets/tutorial.png)
+### Konfigurera Adobe Target Workspaces (6:55) ![Självstudiekurs](/help/assets/tutorial.png)
 
 I den här videon förklaras hur du skapar arbetsytor.
 
