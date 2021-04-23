@@ -1,13 +1,13 @@
 ---
 keywords: aktivitetslista;aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;aktivitetsåtgärder;aktivitetsattribut;aktivitetslista filter;aktivitetsbegränsningar;anpassa;personalisering
-description: Se hur ni med Adobe Target kan personalisera innehåll till specifika målgrupper och testa siddesign
+description: Lär dig hur du med aktiviteter i Adobe [!DNL Target] kan anpassa innehåll efter specifika målgrupper och testa siddesign
 title: Hur kan jag personalisera innehåll och testa siddesign med Target?
-feature: Activities
+feature: Verksamhet
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Om du ökar antalet av dessa objekt i din aktivitet ökar även tiden det tar at
 
 Ytterligare begränsningar för Visual Experience Composer finns i [Gränser för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-## Attribut som har importerats till Target för aktiviteter som har uppdaterats utanför mål {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## Attribut som har importerats till [!DNL Target] för aktiviteter som har uppdaterats utanför [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 Om aktiviteter som skapats i [!DNL Target] uppdateras utanför [!DNL Target] (till exempel via Adobe I/O) importeras följande aktivitetsattribut tillbaka till [!DNL Target]:
 
