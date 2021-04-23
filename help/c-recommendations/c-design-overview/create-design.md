@@ -1,18 +1,18 @@
 ---
 keywords: rekommendationsdesign;skapa design;kopiera design
-description: Lär dig hur du skapar en Adobe Target Recommendations-design med en standarddesign eller genom att skapa en anpassad design som passar sidans layout.
+description: Lär dig hur du skapar en Adobe [!DNL Target] Recommendations-design med en standarddesign eller genom att skapa en anpassad design som passar sidans layout bäst.
 title: Hur skapar jag en design i Recommendations?
 feature: Recommendations
+exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCkapa en design  {#create-a-design}
+# ![](/help/assets/premium.png) PREMIUMCkapa en design
 
 En design definierar hur rekommendationer visas på en sida.
 
