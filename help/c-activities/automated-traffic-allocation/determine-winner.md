@@ -1,18 +1,18 @@
 ---
 keywords: automatiserad trafikallokering;målinriktning;vinnare;statistisk garanti;självförtroende;bestämma vinnare;lyft;självförtroende;standard;standardupplevelse;autoallokera;autoallokera
-description: Lär dig hur man tolkar resultaten av en automatisk fördelning av A/B-aktivitet i Adobe Target genom att undersöka viktiga indikatorer, inklusive lyft och förtroende.
+description: Lär dig hur man tolkar resultaten av en automatisk fördelning av A/B-aktivitet i Adobe [!DNL Target] genom att undersöka viktiga indikatorer, inklusive lyft och förtroende.
 title: Hur tolkar jag autofördelade rapporter?
-feature: Auto-Allocate
+feature: Automatisk allokering
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
-
-# Tolka autofördelningsrapporter {#determine-a-winner}
+# Tolka autofördelningsrapporter
 
 Tolka resultaten av en [!UICONTROL Auto-Allocate] A/B-aktivitet i [!UICONTROL Adobe Target] genom att undersöka viktiga indikatorer, inklusive lyft och förtroende.
 
@@ -48,7 +48,7 @@ Normala A/B-tester beräknar tillförlitlighet baserat på p-värden. Autoalloke
 
 >[!IMPORTANT]
 >
->Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyget för samplingsstorlek](https://docs.adobe.com/content/target-microsite/testcalculator.html). Målet tar inte hänsyn till en områdes grundläggande konverteringsgrad och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i [Beräkna provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyget för samplingsstorlek](https://docs.adobe.com/content/target-microsite/testcalculator.html). Målet beaktar inte den grundläggande konverteringsgraden för en plats och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i [Beräkna provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter {#lift-confidence}
 
@@ -76,4 +76,3 @@ En av följande orsaker beskriver varför 0 % visas i rapportens [!UICONTROL Con
 
 * Automatisk allokering börjar visa självförtroende först efter att den vinnande upplevelsen fått 60 % självförtroende. Dessa konfidensnivåer uppträder vanligtvis på ungefär hälften så lång tid som ett normalt A/B-test skulle ta att slutföra (även om detta inte garanteras). Använd en [exempelstorlekskalkylator](https://docs.adobe.com/content/target-microsite/testcalculator.html) för att avgöra hur länge ett normalt A/B-test skulle köras: plug-controls konverteringsgrad i &quot;Baseline conversion rate&quot;, &quot;5%&quot; för &quot;Lift&quot; och 95% för &quot;Confidence&quot;. Normalt börjar förtroendet visa sig efter att varje upplevelse har fyllt 50 % av det antal samplingar som krävs per upplevelse. Då får du en uppfattning om när självförtroende kommer att börja uppstå.
 * Om rapporten visar 0 procent över hela linjen är det sannolikt för tidigt i verksamheten.
-
