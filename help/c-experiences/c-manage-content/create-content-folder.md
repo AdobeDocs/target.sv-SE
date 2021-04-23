@@ -1,16 +1,16 @@
 ---
 keywords: innehåll;skapa mapp;resurser;flytta mapp;kopiera mapp;ta bort mapp;hämta mapp;hämta mapp
 description: Hur skapar jag mappar i offertbiblioteket?
-title: Lär dig hur du skapar mappar i Adobe Target Offers-biblioteket med kod och bilderbjudanden, samt andra mappar.
-feature: Experiences and Offers
+title: Lär dig hur du skapar mappar i biblioteket Adobe [!DNL Target] Erbjuder för kod och bilderbjudanden samt andra mappar.
+feature: Erfarenheter och erbjudanden
+exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
-
 
 # Skapa erbjudandemappar
 
