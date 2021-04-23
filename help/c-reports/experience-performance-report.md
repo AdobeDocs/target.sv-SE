@@ -1,18 +1,18 @@
 ---
 keywords: multivariata tester;mvt;Experience performance report
-description: Lär dig hur du använder Experience Performance-rapporten för Adobe Target Experience Targeting-aktiviteter som visar hur varje upplevelse i aktiviteten fungerar.
+description: Lär dig hur du använder Experience Performance-rapporten för Adobe [!DNL Target] Experience Targeting-aktiviteter som visar hur varje upplevelse i aktiviteten fungerar.
 title: Hur använder jag Experience Performance Report för multivariata tester?
-feature: Reports
+feature: Rapporter
+exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-
-# Experience Performance Report (MVT){#experience-performance-report-mvt}
+# Experience Performance Report (MVT)
 
 Experience Performance-rapporten visar hur varje upplevelse i aktiviteten fungerar. Rapporten innehåller information om antalet deltagare, konverteringsgraden, lyften och förtroendet.
 
