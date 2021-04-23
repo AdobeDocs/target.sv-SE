@@ -2,15 +2,15 @@
 keywords: kundrelationshantering;kundposttjänst;crm;mbox3rdpartyid;kundattribut;målinriktning;csv;crm;adobe experience cloud cloud personer
 description: Lär dig hur du använder företagsdata från en CRM-databas (customer relationship management) för att målinrikta innehåll i Adobe Target.
 title: Vad är kundattribut och hur använder jag dem?
-feature: Audiences
+feature: Målgrupper
+exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1489'
 ht-degree: 0%
 
 ---
-
 
 # Kundattribut
 
@@ -36,7 +36,7 @@ Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
 
 * [!DNL Adobe] garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till  [!DNL Experience Cloud] och därför vara tillgängliga för användning i  [!DNL Target]. I vår nuvarande design finns det en möjlighet att en liten andel data (upp till 0,1 % av stora tillverkningssatser) inte tas med.
 * Livslängden för kundattributdata som importeras från [!DNL Experience Cloud] till [!DNL Target] beror på besökarprofilens livstid, som är 14 dagar som standard. Mer information finns i [Livstid för besökarprofil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* Om `vst.*`-parametrarna är det enda som identifierar besökaren kommer den befintliga autentiserade profilen inte att hämtas så länge som `authState` är OAUTENTISERAD (0). Profilen spelas endast upp om `authState` ändras till AUTENTISERAD (1).
+* Om `vst.*`-parametrarna är det enda som identifierar besökaren kommer den befintliga autentiserade profilen inte att hämtas så länge `authState` är OAUTENTISERAD (0). Profilen spelas endast upp om `authState` ändras till AUTENTISERAD (1).
 
    Om parametern `vst.myDataSource.id` till exempel används för att identifiera besökaren (där `myDataSource` är datakällalias) och det inte finns något MCID- eller tredjeparts-ID, hämtar inte parametern `vst.myDataSource.authState=0` profilen som kan ha skapats med en import av kundattribut när den används. Om det önskade beteendet är att hämta den autentiserade profilen, måste `vst.myDataSource.authState` ha värdet 1 (AUENTICATED).
 
@@ -52,7 +52,7 @@ Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
 
    ![Fliken Kundattribut](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## Arbetsflöde för kundattribut för mål {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## Arbetsflöde för kundattribut för [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Följ de här stegen för att använda CRM-data i [!DNL Target], som det visas nedan:
 
@@ -111,7 +111,7 @@ Detaljerade instruktioner för hur du utför följande åtgärder finns i [Skapa
    * Den största filstorleken för varje överföring med FTP-metoden är 4 GB.
    * Antal attribut som tillåts prenumerera: 5 för [!DNL Target Standard] och 200 för [!DNL Target Premium].
 
-## Använd kundattribut i mål {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## Använd kundattribut i [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}
 
 Du kan använda kundattribut i [!DNL Target] på följande sätt:
 
