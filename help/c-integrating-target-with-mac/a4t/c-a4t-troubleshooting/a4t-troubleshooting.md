@@ -1,18 +1,18 @@
 ---
 keywords: analysspårningsserver;A4T;analyssegment;rapportsviter;felaktiga data;överblivna;gjorde;VisitorAPI.js;mboxMCSDID;phantom;ospecificerad
-description: Utforska vanliga problem som kunder har råkat ut för när de använder Analytics for Target (A4T).
-title: Hur felsöker jag analys- och målintegrering (A4T)?
-feature: Analytics for Target (A4T)
+description: Utforska vanliga problem som kunder har råkat ut för när de använder Analytics for [!DNL Target] (A4T).
+title: Hur felsöker jag analysen och [!DNL Target] integreringen (A4T)?
+feature: Analyser för mål (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
-
-# Felsöka integreringen med Analytics och Target (A4T)
+# Felsöka integreringen med Analytics och [!DNL Target] (A4T)
 
 I det här avsnittet beskrivs några vanliga problem som har påträffats vid användning av [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
