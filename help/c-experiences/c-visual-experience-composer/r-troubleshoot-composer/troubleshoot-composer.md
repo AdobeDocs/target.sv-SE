@@ -3,14 +3,14 @@ keywords: Riktad;visuell upplevelsedisposition;förbättrad kompositör för vis
 description: Lär dig hur du felsöker problem som ibland kan uppstå i Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
 title: Hur felsöker jag Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
-
 
 # Felsöka Visual Experience Composer och Enhanced Experience Composer
 
