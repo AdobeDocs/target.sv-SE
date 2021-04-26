@@ -6,9 +6,9 @@ feature: Integritet och säkerhet
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Instruktioner för hur du arbetar med [!DNL Adobe] Client Care för att implemen
    >
    >AdobeCertificateAuthority, DigiCert, kan inte utfärda ett certifikat förrän det här steget har slutförts. Därför kan [!DNL Adobe] inte uppfylla din begäran om en CNAME-implementering förrän det här steget är klart.
 
-1. [Fyll i det här ](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) formuläret och inkludera det när du  [öppnar en Adobe Client Care-biljett som begär CNAME-stöd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Fyll i det här ](/help/assets/FPC_Request_Form.xlsx) formuläret och inkludera det när du  [öppnar en Adobe Client Care-biljett som begär CNAME-stöd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] klientkod:
    * Värdnamn för SSL-certifikat (exempel: `target.example.com target.example.org`):
