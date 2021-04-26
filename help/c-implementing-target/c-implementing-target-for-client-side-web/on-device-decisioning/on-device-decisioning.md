@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3643'
 ht-degree: 1%
 
 ---
@@ -72,9 +72,9 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
-| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | En sidinläsningsbegäran görs som innehåller alla konfigurerade parametrar, t.ex. (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.) |
 | 5 | Profilskript körs och matas sedan in i profilarkivet.<br>Profile Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från  [!DNL Adobe Analytics],  [!DNL Adobe Audience Manager]och så vidare).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
 | 6 | Profilarkivet används för att filtrera aktiviteter genom att kvalificera och klippa målgrupper. |
@@ -134,9 +134,9 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
-| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | I biblioteket at.js tolkas JSON-regelartefakten och beslutet i minnet verkställs för att hämta upplevelsen. |
 | 5 | De testade elementen är dolda. |
 | 6 | I biblioteket at.js visas brödtexten så att resten av sidan kan läsas in så att besökaren kan se den. |
@@ -369,7 +369,7 @@ Så här öppnar du till exempel DevTools i Google Chrome:
 
    ![Fliken Nätverk i Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
 
-### Verifiera regelartefaktnedladdningen med anpassade at.js-händelser
+### Steg 3: Verifiera regelartefaktnedladdningen med anpassade at.js-händelser
 
 At.js-biblioteket skickar två nya anpassade händelser som stöd för enhetsbeslut.
 
