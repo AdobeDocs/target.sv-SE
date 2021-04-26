@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
-source-wordcount: '3643'
+source-wordcount: '3401'
 ht-degree: 1%
 
 ---
@@ -72,9 +72,9 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>   At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
-| 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
+| 3 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | En sidinläsningsbegäran görs som innehåller alla konfigurerade parametrar, t.ex. (ECID, Kund-ID, Anpassade parametrar, Användarprofil osv.) |
 | 5 | Profilskript körs och matas sedan in i profilarkivet.<br>Profile Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från  [!DNL Adobe Analytics],  [!DNL Adobe Audience Manager]och så vidare).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
 | 6 | Profilarkivet används för att filtrera aktiviteter genom att kvalificera och klippa målgrupper. |
@@ -109,7 +109,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
 | 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | I at.js-biblioteket görs en begäran om att hämta JSON-regelartefakten från närmaste Akamai CDN till besökaren. |
@@ -329,63 +329,3 @@ Du kan filtrera efter alla aktiviteter som är berättigade till enhetsbeslut p�
 1. Skapa och aktivera en [aktivitetstyp som stöds av enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md), och verifiera att den är valbar för enhetsbeslut.
 1. Ange **[!UICONTROL Decisioning Method]** till antingen **[!UICONTROL “Hybrid”]** eller **[!UICONTROL “On-device only”]** genom användargränssnittet för at.js-inställningarna.
 1. Ladda ned och driftsätt At.js 2.5.0+ på sidorna.
-
-## Felsökning
-
-Utför följande steg för att felsöka enhetsbeslut:
-
-1. Aktivera konsolloggen för at.js
-1. Verifiera regelartefaktnedladdningen på fliken Nätverk i webbläsaren
-1. Verifiera regelartefaktnedladdningen med anpassade at.js-händelser
-
-I följande avsnitt beskrivs varje steg mer ingående:
-
-### Steg 1: Aktivera konsolloggen för at.js
-
-Genom att lägga till URL-parametern `mboxDebug=1` kan at.js skriva ut meddelanden i webbläsarens konsol.
-
-Alla meddelanden innehåller prefixet&quot;AT:&quot; för praktisk översikt. För att säkerställa att en artefakt har lästs in bör konsolloggen innehålla meddelanden som liknar följande:
-
-```
-AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
-AT: LD.ArtifactProvider artifact received - status=200
-```
-
-Följande bild visar dessa meddelanden i konsolloggen:
-
-![Konsollogg med artefaktmeddelanden](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
-
-### Steg 2: Verifiera regelartefaktnedladdningen på fliken Nätverk i webbläsaren
-
-Öppna fliken Nätverk i webbläsaren.
-
-Så här öppnar du till exempel DevTools i Google Chrome:
-
-1. Tryck på Ctrl+Skift+J (Windows) eller Kommando+Alt+J (Mac).
-1. Gå till fliken Nätverk.
-1. Filtrera dina anrop med nyckelordet &quot;rules.json&quot; för att säkerställa att endast artefaktregelfilen visas.
-
-   Dessutom kan du filtrera efter &quot;/delivery|rules.json/&quot; för att visa alla [!DNL Target] anrop och artefaktregler.json.
-
-   ![Fliken Nätverk i Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
-
-### Steg 3: Verifiera regelartefaktnedladdningen med anpassade at.js-händelser
-
-At.js-biblioteket skickar två nya anpassade händelser som stöd för enhetsbeslut.
-
-* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
-* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
-
-Du kan prenumerera för att lyssna på dessa anpassade händelser i ditt program för att agera när artefaktreglerna har hämtats eller inte.
-
-I följande exempel visas ett exempel på kod som avlyssnar lyckade artefaktnedladdningar och felhändelser:
-
-```javascript
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
-  console.log("Artifact successfully downloaded", e.detail);
-}, false);
-
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
-  console.log("Artifact failed to download", e.detail);
-}, false);
-```
