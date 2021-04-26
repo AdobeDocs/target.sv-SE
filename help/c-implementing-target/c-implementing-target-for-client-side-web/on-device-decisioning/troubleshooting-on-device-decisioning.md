@@ -5,22 +5,16 @@ title: Hur felsöker jag Enhetsbeslut med JavaScript-biblioteket at.js?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
-# Felsökning av On-device-beslut för at.js
+# Felsökning av enhetsbeslut för at.js
 
-Följ de här stegen för att felsöka enhetsbeslut i Adobe Target med JavaScript-biblioteket at.js:
-
-1. Aktivera konsolloggen för at.js
-1. Verifiera regelartefaktnedladdningen på fliken Nätverk i webbläsaren
-1. Verifiera regelartefaktnedladdningen med anpassade at.js-händelser
-
-I följande avsnitt beskrivs varje steg mer ingående:
+Utför följande steg för att felsöka enhetsbeslut i [!DNL Adobe Target] med JavaScript-biblioteket at.js:
 
 ## Steg 1: Aktivera konsolloggen för at.js
 
