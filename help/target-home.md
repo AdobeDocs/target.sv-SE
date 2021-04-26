@@ -5,7 +5,7 @@ description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa kund
 feature: Översikt
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] är  [!DNL Adobe Experience Cloud] lösningen som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen så att ni kan maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 19 april 2021 ( [se vad som ändrats](r-release-notes/doc-change.md) )**
+**Senast uppdaterad: 26 april 2021 ( [se vad som ändrats](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
