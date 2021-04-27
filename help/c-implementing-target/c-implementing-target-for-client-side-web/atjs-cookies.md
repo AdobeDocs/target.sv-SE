@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1827'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Cookien har flera standardinställningar. Du kan ändra de här inställningarna
 | Cookie-namn | mbox. |
 | Cookie-domän | Den andra och den översta nivån i de domäner som du underhåller innehållet från. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: `mycompany.com`. |
 | Serverdomän | `clientcode.tt.omtrdc.net`, med hjälp av klientkoden för ditt konto. |
-| Cookie-varaktighet | Cookien finns kvar i besökarens webbläsare två år efter hans eller hennes senaste inloggning. Du kan inte ändra varaktighet för cookie-filen. |
+| Cookie-varaktighet | Cookien finns kvar i besökarens webbläsare två år efter hans eller hennes senaste inloggning.<br>Inställningen  `deviceIdLifetime` kan åsidosättas i  [at.js version 2.3.1 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
 | P3P-princip | Cookien publiceras med en P3P-princip, vilket krävs enligt standardinställningen i de flesta webbläsare. En P3P-profil anger för en webbläsare som skickar cookien och hur informationen ska användas. |
 
 Cookien har ett antal värden för att hantera hur besökarna upplever kampanjer:
