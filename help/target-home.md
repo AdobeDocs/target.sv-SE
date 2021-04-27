@@ -5,9 +5,9 @@ description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa kund
 feature: Översikt
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 25192c5e36bb823660f3fec8115d4cdfe7bd5995
+source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 ## Adobe Summit: Digital Experience Conference
 
 [Klicka här för mer information om Adobe Summit!](https://business.adobe.com/summit/adobe-summit.html)
+
+Alla gånger Pacific Daylight Time (PDT) -7 GMT.
 
 ![Möten](/help/assets/summit-2021.png)
 
