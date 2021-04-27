@@ -5,9 +5,9 @@ description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa kund
 feature: Översikt
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: 25192c5e36bb823660f3fec8115d4cdfe7bd5995
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,13 @@ ht-degree: 0%
 
 [!DNL Adobe Target] är  [!DNL Adobe Experience Cloud] lösningen som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen så att ni kan maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 26 april 2021 ( [se vad som ändrats](r-release-notes/doc-change.md) )**
+## Adobe Summit: Digital Experience Conference
+
+[Klicka här för mer information om Adobe Summit!](https://business.adobe.com/summit/adobe-summit.html)
+
+![Möten](/help/assets/summit-2021.png)
+
+**Senast uppdaterad: 27 april 2021 ( [se vad som ändrats](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
