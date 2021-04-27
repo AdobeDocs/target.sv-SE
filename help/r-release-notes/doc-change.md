@@ -5,9 +5,9 @@ title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 27 april | [Cookie-inställningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Uppdaterat ämne som indikerar att cookie-varaktighet (`deviceIdLifetime`-inställning) kan åsidosättas i version 2.3.1 eller senare av at.js. |
+|  | [Adobe Target Guide](/help/target-home.md) | Ytterligare information om Adobe Summit. |
 | 26 april | [Felsökning av On-device-beslut för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nytt ämne. |
 | 19 april | [Enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Följande nya artiklar har lagts till:<ul><li>[Enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Funktioner som stöds för beslut på enheten](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Regelartefakt för beslutsfattande på enhet](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Lagt till information om `decisioningMethod`. |
