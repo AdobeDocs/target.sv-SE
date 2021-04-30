@@ -5,10 +5,10 @@ title: Hur felsöker jag problem som rör den förbättrade Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 28e21ea0b0e2306a54c9353ae57de7de5d94f564
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 0%
+source-wordcount: '430'
+ht-degree: 1%
 
 ---
 
@@ -22,11 +22,12 @@ Detta kan du lösa genom att tillåtslista följande IP-adresser. De här IP-adr
 
 Be IT-teamet att tillåtslista följande IP-adresser:
 
-| Län | IP-adresser | Värdnamn |
-|--- |--- |--- |
-| Amerikas förenta stater | 52.55.99.45 | `us1-proxy.adobemc.com` |
-| Europa, Mellanöstern och Afrika (EMEA) | 52.51.238.221 | `emea1-proxy.adobemc.com` |
-| Asien-Stillahavsområdet (APAC) | 52.193.67.35 | `apac1-proxy.adobemc.com` |
+* 52.16.72.74
+* 52.5.174.79
+* 54.246.238.65
+* 54.249.183.154
+* 54.65.105.214
+* 54.82.142.68
 
 Följande felmeddelande kan visas i Target:
 
