@@ -5,9 +5,9 @@ title: Var hittar jag [!DNL Target] Meddelanden och händelser?
 feature: Versionsinformation
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,20 @@ Adobe Target utnämndes nyligen till marknadsledare av både Forrester och Gartn
 | --- | --- |
 | Forrester | **Adobe utnämnd till ledare i Forrester wave-rapporten för upplevelseoptimeringsplattformar.**<br> Adobe utsågs till ledare i Forrester Wave: Experience Optimization Platforms, Q4 2020 report for its offer in this space, Adobe Target Premium. Adobe fick den högsta poängen för alla deltagande leverantörer i kategorierna för aktuellt erbjudande och marknadsnärvaro samt i rekommendationerna och kriterierna för plattformsupplevelser. Target Premium fick också högsta möjliga poäng i villkoren för upplevelseoptimeringstekniken, innovation och stödtjänster. Rapporten bygger på en grundlig utvärdering av 10 plattformsleverantörer för upplevelseoptimering enligt 22 kriterier.<br>Läs om det på  [Adobe-bloggen](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe har återigen utnämnts till ledare i Gartners Magic Quadrant för personaliseringsmotorer.**<br> Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra.<br>[Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
+## Adobe Target Community Q&amp;A Coffee Break
+
+* Onsdagen den 12 maj 2021
+* 8.00 (PDT, GMT-7)
+* [Klicka här för mer information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
+
+Shannon Hamilton, Group Product Manager för [!DNL Adobe Target], loggas in på [!DNL Target] Community för att besvara dina frågor om hennes expertområden:
+
+* Integreringar
+* Enhetlig profil
+* Inriktade Adobe Experience Platform-integrationer (AEP)
+* Poängintegrering med andra Adobe-lösningar
+* Arbetsflöden i huvudgränssnittet
 
 ## Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target
 
