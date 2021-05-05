@@ -5,9 +5,9 @@ title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 5 maj | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om Adobe Target Community Q&amp;A Coffee Break som ska hållas onsdagen den 12 maj 2021 kl. 8.00. (PDT, GMT-7). |
 | 27 april | [Cookie-inställningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Uppdaterat ämne som indikerar att cookie-varaktighet (`deviceIdLifetime`-inställning) kan åsidosättas i version 2.3.1 eller senare av at.js. |
 |  | [Adobe Target Guide](/help/target-home.md) | Ytterligare information om Adobe Summit. |
 | 26 april | [Felsökning av On-device-beslut för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nytt ämne. |
