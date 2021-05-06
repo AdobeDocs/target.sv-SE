@@ -5,9 +5,9 @@ title: Var hittar jag frågor och svar om  [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '2675'
+source-wordcount: '2938'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Lista med vanliga frågor och svar om [!DNL Adobe Target] [!DNL Recommendations] aktiviteter.
 
-## Varför visas inte rätt resultat vid katalogsökning när jag söker efter ett anpassat attribut med ett numeriskt värde?
+## Varför visas inte [!UICONTROL Catalog Search] rätt resultat när jag söker efter ett anpassat attribut med ett numeriskt värde?
 
 När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
 
@@ -29,16 +29,16 @@ Tidsramen och resultaten varierar beroende på hur objekten uppdateras.
 | Källa | Detaljer |
 | --- | --- |
 | Objektattribut uppdaterade via mbox eller API | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
-| Objektattribut uppdaterade via feed | <ul><li>Recommendations uppdateras efter foderkonsumtion (2-8 timmar).</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter efterföljande katalogindex (3-8 timmar). Katalogsökning uppdateras vanligen inom totalt 5-16 timmar.</li></ul> |
+| Objektattribut uppdaterade via feed | <ul><li>Recommendations uppdateras efter foderkonsumtion (2-8 timmar).</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter efterföljande katalogindex (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
 | Objektet togs bort från katalogen via målgränssnittet eller API:t | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
 | Objekt som lagts till i katalogen via mbox eller API | <ul><li>Recommendations uppdateras efter att algoritmen har körts. Algoritmkörningar schemaläggs var tolfte timme för 1-2-dagars algoritmer och varannan timme för 7+-dagars algoritmer.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
-| Objekt som lagts till i katalogen via feed | <ul><li>Recommendations uppdateras efter att fodret har importerats (2-8 timmar). Efterföljande algoritmkörningar schemaläggs var tolfte timme för 1-2-dagarsalgoritmer och var 24:e timme för 7+-dagarsalgoritmer. Recommendations uppdateras vanligen inom 2-32 timmar totalt.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter katalogindexet (3-8 timmar). Katalogsökning uppdateras vanligen inom totalt 5-16 timmar.</li></ul> |
+| Objekt som lagts till i katalogen via feed | <ul><li>Recommendations uppdateras efter att fodret har importerats (2-8 timmar). Efterföljande algoritmkörningar schemaläggs var tolfte timme för 1-2-dagarsalgoritmer och var 24:e timme för 7+-dagarsalgoritmer. Recommendations uppdateras inom 2-32 timmar totalt.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter katalogindexet (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
 
 När du har importerat en feed-fil eller efter att ha tagit emot entitetsuppdateringar via API eller mbox visas följande ändringar under 60 minuter:
 
 * Om ett objekt tidigare har uteslutits men nu ska inkluderas objektet i nästa algoritmkörning (12-24 timmar).
 
-   Detta inträffar eftersom Target tillämpar undantag både online och offline. När ett objekt nyligen har uteslutits tillämpas detta snabbt. När ett objekt nyligen ingår försvinner undantaget från webben snabbt, men offlineundantaget försvinner inte förrän nästa algoritm körs.
+   Detta inträffar eftersom [!DNL Target] tillämpar undantag både online och offline. När ett objekt nyligen har uteslutits tillämpas detta snabbt. När ett objekt nyligen ingår försvinner undantaget från webben snabbt, men offlineundantaget försvinner inte förrän nästa algoritm körs.
 
 * Om ett objekt tidigare inkluderades men nu ska exkluderas, exkluderas objektet enligt&quot;Uppdaterade artikelattribut..&quot;. tidsrad som beskrivs ovan beroende på matningskälla (15 minuter via mbox/API eller 12-24 timmar via feed).
 
@@ -53,6 +53,24 @@ Följande ändringar återspeglas inte förrän nästa algoritmkörning inträff
 >[!NOTE]
 >
 >En feed-fil betraktas som importerad när dess status ändras från&quot;Importera objekt&quot; till&quot;Förbereda sökindexuppdateringar&quot;. Uppdateringar kan ta mer än 60 minuter att spegla i användargränssnittet för katalogsökning. Katalogsökningen är uppdaterad när flödets status ändras till Uppdateringar slutförda. Även om katalogsökningen ännu inte är uppdaterad visas uppdateringar för de tidsramar som anges ovan på webbplatsen. Den senaste uppdateringstiden för katalogens sökindex visas på sidan Katalogsökning.
+
+## Hur lång tid tar det att ändra konfigurationen för mina [!UICONTROL Recommendations]-aktiviteter, erbjudanden, kampanjer eller villkor så att de återspeglas på min webbplats?
+
+* En ändring av kampanjinställningarna kan ta upp till fem timmar att reflektera på plats.
+* En ändring av andra villkorsinställningar kanske inte återspeglas förrän nästa algoritm körs:
+
+   * Vissa villkorsinställningar (till exempel&quot;tillägg av en dynamisk inkluderingsregel&quot;) visas omedelbart.
+   * Andra villkorsinställningar (t.ex. &quot;borttagning av en dynamisk inkluderingsregel&quot;, ändring av uppslagsfönster o.s.v.) kan inte införlivas förrän nästa algoritm körs.
+   * Algoritmkörningar utlöses av dessa ändringar men kan ta upp till 24 timmar att slutföra. Algoritmer körs också på schemalagd basis var 12:24:e timme.
+
+## Hur lång tid tar det för en användares beteende (till exempel att klicka på produkt A och köpa produkt B) att återspeglas i rekommendationerna *som*-användaren får?
+
+* För närvarande visade/köpta produkter/innehåll påverkar de rekommendationer som användaren får på samma sidvy/Target-innehållsförfrågan.
+* Historiskt användarbeteende, t.ex.&quot;senast visade produkt&quot;,&quot;mest visade produkt&quot; och övergripande visnings-/inköpshistorik uppdateras med den begäran och påverkar de rekommendationer som användaren får på nästa begäran om sidvy/målinnehåll. Algoritmerna&quot;Senast visade objekt&quot; och&quot;Rekommenderas för dig&quot; uppdateras till exempel för varje produktvy/köp och återspeglas i den efterföljande innehållsförfrågan.
+
+## Hur lång tid tar det för en användares beteende (till exempel att klicka på produkt A och köpa produkt B) att återspeglas i rekommendationerna *andra* användare får?
+
+Beteendet hos användare i sammanställningen är inbyggt i offlinealgoritmbearbetning där varje algoritm körs var 12-24:e timme.
 
 ## Vad ska jag göra om specialtecken bryter min array? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -218,8 +236,8 @@ När sessionen avslutas (vanligtvis när den går ut efter 30 minuter utan aktiv
 
 Efterföljande sessioner från olika enheter kan sedan komma åt de senast visade objekten så länge den nya sessionen är länkad till kundprofilen via samma Marketing Cloud ID (MCID), Experience Cloud ID (ECID) eller CustomerID/mbox3rdPartyId.
 
-Om en besökare har två aktiva sessioner samtidigt uppdaterar inte nyligen visade objekt på en enhet de senast visade objekten på den andra enheten, såvida inte enheterna tvingas dela samma sessions-ID. Det finns en möjlig lösning på problemet, men [!DNL Target] stöder inte direkt delning av ett sessions-ID mellan flera enheter. Kunden måste själva hantera denna ID-delning.
+Om en besökare har två aktiva sessioner samtidigt uppdaterar inte nyligen visade objekt på en enhet de senast visade objekten på den andra enheten, såvida inte enheterna tvingas dela sessions-ID. Det finns en möjlig lösning på problemet, men [!DNL Target] stöder inte direkt delning av ett sessions-ID mellan flera enheter. Kunden måste själva hantera denna ID-delning.
 
-Observera att det här fortfarande händer om en besökare är aktiv på en enhet och sedan aktiveras på den andra enheten några minuter senare. Den första enhetens session upphör inte att gälla på 30 minuter och det kan ta upp till fem minuter innan profilläget skrivs till det permanenta läget och bearbetas. Det kan ta 35 minuter innan sessionen upphör att gälla och profilen sparas när du testar det här beteendet.
+Detta beteende inträffar fortfarande om en besökare är aktiv på en enhet och sedan aktiveras på den andra enheten några minuter senare. Den första enhetens session upphör inte att gälla på 30 minuter och det kan ta upp till fem minuter innan profilläget skrivs till det permanenta läget och bearbetas. Det kan ta 35 minuter innan sessionen upphör att gälla och profilen sparas när du testar det här beteendet.
 
 Om besökaren inte har två aktiva sessioner samtidigt uppdaterar nyligen visade objekt på en enhet de senast visade objekten på den andra enheten så länge sessionen har avslutats. Det kan ta 35 minuter innan sessionen går ut när du testar det här beteendet.
