@@ -6,9 +6,9 @@ feature: Implementera serversidan
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,7 @@ Den här 7-minutersvideon:
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
 Fler videoklipp och självstudiekurser finns i guiden [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
+
+## Adobe Tech Blog - Del 1: Kör [!DNL Adobe Target] NodeJS SDK för experiment och personalisering på kantplattformar (Akamai Edge Workers)
+
+[Klicka här för att komma åt blogginlägget](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9).
