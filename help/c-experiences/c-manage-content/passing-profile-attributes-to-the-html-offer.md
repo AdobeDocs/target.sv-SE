@@ -1,13 +1,13 @@
 ---
 keywords: dynamiska data;resurser;data;erbjudanden;personaliserade erbjudanden;personliga erbjudanden;tokenersättning
-description: Lär dig hur du skickar dynamiska data till Adobe [!DNL Target] erbjudanden. Utforska affärsexempel som visar varför du kan vilja använda dynamiska erbjudanden och se exempel och implementeringsinformation.
+description: Lär dig hur du skickar dynamiska data till [!DNL Adobe Target] erbjudanden. Utforska affärsexempel som visar varför du kan vilja använda dynamiska erbjudanden och se exempel och implementeringsinformation.
 title: Hur överför jag dynamiska data till erbjudanden?
 feature: Erfarenheter och erbjudanden
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
