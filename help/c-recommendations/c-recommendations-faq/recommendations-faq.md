@@ -5,9 +5,9 @@ title: Var hittar jag frågor och svar om  [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '2938'
+source-wordcount: '2921'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Tidsramen och resultaten varierar beroende på hur objekten uppdateras.
 | --- | --- |
 | Objektattribut uppdaterade via mbox eller API | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
 | Objektattribut uppdaterade via feed | <ul><li>Recommendations uppdateras efter foderkonsumtion (2-8 timmar).</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter efterföljande katalogindex (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
-| Objektet togs bort från katalogen via målgränssnittet eller API:t | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
+| Objektet togs bort från katalogen via [!DNL Target]-gränssnittet eller API:t | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
 | Objekt som lagts till i katalogen via mbox eller API | <ul><li>Recommendations uppdateras efter att algoritmen har körts. Algoritmkörningar schemaläggs var tolfte timme för 1-2-dagars algoritmer och varannan timme för 7+-dagars algoritmer.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
 | Objekt som lagts till i katalogen via feed | <ul><li>Recommendations uppdateras efter att fodret har importerats (2-8 timmar). Efterföljande algoritmkörningar schemaläggs var tolfte timme för 1-2-dagarsalgoritmer och var 24:e timme för 7+-dagarsalgoritmer. Recommendations uppdateras inom 2-32 timmar totalt.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter katalogindexet (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
 
@@ -65,8 +65,8 @@ Följande ändringar återspeglas inte förrän nästa algoritmkörning inträff
 
 ## Hur lång tid tar det för en användares beteende (till exempel att klicka på produkt A och köpa produkt B) att återspeglas i rekommendationerna *som*-användaren får?
 
-* För närvarande visade/köpta produkter/innehåll påverkar de rekommendationer som användaren får på samma sidvy/Target-innehållsförfrågan.
-* Historiskt användarbeteende, t.ex.&quot;senast visade produkt&quot;,&quot;mest visade produkt&quot; och övergripande visnings-/inköpshistorik uppdateras med den begäran och påverkar de rekommendationer som användaren får på nästa begäran om sidvy/målinnehåll. Algoritmerna&quot;Senast visade objekt&quot; och&quot;Rekommenderas för dig&quot; uppdateras till exempel för varje produktvy/köp och återspeglas i den efterföljande innehållsförfrågan.
+* Den produkt/innehåll som visas/köps påverkar de rekommendationer som användaren får på samma sidvy/[!DNL Target] innehållsförfrågan.
+* Historiskt användarbeteende, t.ex.&quot;senast visade produkt&quot;,&quot;mest visade produkt&quot; och övergripande visnings-/inköpshistorik uppdateras med den begäran och påverkar de rekommendationer som användaren får i nästa sidvy/[!DNL Target] innehållsförfrågan. Algoritmerna&quot;Senast visade objekt&quot; och&quot;Rekommenderas för dig&quot; uppdateras till exempel för varje produktvy/köp och återspeglas i den efterföljande innehållsförfrågan.
 
 ## Hur lång tid tar det för en användares beteende (till exempel att klicka på produkt A och köpa produkt B) att återspeglas i rekommendationerna *andra* användare får?
 
@@ -95,30 +95,30 @@ Om platsen som du använder det här villkoret på inte innehåller kategori-ID:
 
 Om du använder en plats där kategori-ID finns i rutan innehåller kriterieväljaren alla tillämpliga villkor.
 
-Målet har en [inställning för filterinkompatibla villkor](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) som styr intelligent filtrering av algoritmväljaren.
+[!DNL Target] har en inställning för  [filterinkompatibla ](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) kriterier för att styra intelligent filtrering av algoritmväljaren.
 
 >[!NOTE]
 >
->Den här inställningen gäller endast för aktiviteter som skapats i Visual Experience Composer (VEC). Den här inställningen gäller inte för aktiviteter som skapas i den formulärbaserade Experience Composer (målet har ingen platskontext).
+>Den här inställningen gäller endast för aktiviteter som skapats i Visual Experience Composer (VEC). Den här inställningen gäller inte för aktiviteter som skapats i den formulärbaserade Experience Composer ([!DNL Target] saknar platskontext).
 
 Om du vill komma åt inställningen [!UICONTROL Filter Incompatible Criteria] klickar du på [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
 ![](assets/recs_settings_filter.png)
 
-Om inställningen [!UICONTROL Filter Incompatible Criteria] inte är aktiverad filtrerar inte Target algoritmer i algoritmväljaren och alla algoritmer visas.
+Om inställningen [!UICONTROL Filter Incompatible Criteria] INTE är aktiverad filtrerar [!DNL Target] inte algoritmer i algoritmväljaren och alla algoritmer visas.
 
-Om inställningen [!UICONTROL Filter Incompatible Criteria] är aktiverad läser Target entitetId och category Id i VEC-aktiviteter från den valda platsen och visar sedan algoritmer baserade på `currentItem|currentCategory` (om det finns respektive värden på den platsen). Därför visas som standard bara kompatibla algoritmer för den valda platsen i algoritmväljaren.
+Om inställningen [!UICONTROL Filter Incompatible Criteria] är aktiverad läser [!DNL Target] entityId och category Id från den valda platsen i VEC-aktiviteter och visar sedan algoritmer baserade på `currentItem|currentCategory` (om respektive värden finns på den platsen). Därför visas som standard bara kompatibla algoritmer för den valda platsen i algoritmväljaren.
 
 Om inställningen [!UICONTROL Filter Incompatible Criteria] är aktiverad kan du fortfarande visa icke-kompatibla algoritmer genom att avmarkera kryssrutan [!UICONTROL Compatible] när du väljer villkor.
 
 ![](assets/compatible_checkbox.png)
 
-Följande lista innehåller specialfall där alternativet [!UICONTROL Compatible] inte visas i Target:
+Följande lista innehåller specialfall där [!DNL Target] inte visar kryssrutan [!UICONTROL Compatible]:
 
 * Både entityId och category Id finns på platsen och inget filtreras.
 * Du använder [!DNL mbox.js] version 55 eller tidigare.
 * Inget mbox-anrop utlöses från sidan (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* Målparametrar har inte definierats.
+* [!DNL Target] parametrar har inte definierats.
 
 ## Vad ska jag göra om en samling i Recommendations blir noll (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
@@ -132,7 +132,7 @@ Tänk på följande information om du ser en samling gå till noll som tidigare 
 * Är ditt index aktuellt? Gå till [!DNL /target/products.html#productSearch] och kontrollera hur många timmar som indexet är gammalt (t.ex. &quot;Indexerad för 3 timmar sedan&quot;). Du kan uppdatera indexet efter behov.
 * Har du ändrat något i feeden eller datalagret som resulterade i att dina enheter inte längre matchade samlingsreglerna? Se till att CASE-filen överensstämmer (skiftlägeskänslig).
 * Kördes din feed korrekt? Ändrade någon FTP-katalog, lösenord och så vidare?
-* Target gör sitt bästa för att få leveransen att uppdateras (på kundens sida/app) så snabbt som möjligt. Men Target måste också tillhandahålla en viss representation i användargränssnittet för marknadsföraren. Målet fördröjer inte leveransuppdateringar för att vänta på att gränssnittsuppdateringarna ska vara synkroniserade. Du kan använda [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) för att se vad som finns i systemet när en begäran kommer in.
+* [!DNL Target] gör sitt bästa för att göra uppdateringar av leveransen (på kundens sida/app) så snabbt som möjligt. [!DNL Target] måste även tillhandahålla en viss representation i användargränssnittet för marknadsföraren. [!DNL Target] fördröjer inte leveransuppdateringar att vänta på att gränssnittsuppdateringarna ska vara synkroniserade. Du kan använda [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) för att se vad som finns i systemet när en begäran kommer in.
 
 ## Vad är skillnaden mellan allmän attributviktning och innehållets likhetsspecifika attributviktning? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -150,7 +150,7 @@ Den här typen av viktning är mer dynamisk och baseras på den aktuella rekomme
 
 ## Varför kan [!DNL Target] ibland inte visa rekommendationer? {#section_DB3F40673AED42228E407C05437D99E9}
 
-Målet kan ibland inte visa rekommendationer på grund av det låga antalet tillgängliga rekommendationer.
+[!DNL Target] kan ibland inte visa rekommendationer på grund av det låga antalet tillgängliga rekommendationer.
 
 Antalet genererade värden per villkor är tre gånger så många enheter som anges i designen. Körtidsfiltrering (till exempel lagerhantering, mbox-attributmatchning) tillämpas efter att 3x-värdena har genererats, så det är möjligt att få färre än 3x-värden vid leveranstiden. Om du vill minska den här situationen ökar du antalet enheter i designen genom att dölja andra enheter.
 
@@ -167,7 +167,7 @@ Följande JavaScript kan användas i början av designen för att öka antalet b
 
 ## Vilken är storleksgränsen för ett API-anrop för infognings-/uppdateringsprodukter? Kan jag uppdatera 50 000 produkter i ett samtal med API:t istället för en feed? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Target inför en postgräns på 50 MB på applikationsnivå. Detta är dock bara när du skickar innehållstypsrubriken `application/x-www-form-urlencoded`.
+[!DNL Target] har en postgräns på 50 MB på ansökningsnivå, det är dock bara när du skickar  `application/x-www-form-urlencoded` innehållstypsrubriken.
 
 Du kan försöka att skicka 50 000 produkter i ett enda samtal. Om det inte fungerar kan du dela upp det i grupper. Adobe rekommenderar att kunderna delar upp sina samtal i produktgrupper om 5 000 eller 10 000 för att minska sannolikheten för timeout på grund av systembelastning.
 
@@ -190,7 +190,7 @@ Se till att målgruppen har ett unikt namn. Om du gav målgruppen samma namn som
 
 ## Vilken är den maximala storleken för en CSV-fil för en feed-överföring? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Det finns ingen hård gräns för antalet rader eller filstorleken för en feed CSV-filöverföring. Som en god praxis rekommenderar Adobe dock att CSV-filens storlek begränsas till 1 GB för att undvika fel under filöverföringen. Om filens storlek överstiger 1 GB kan den helst delas upp i flera feedsfiler. Det maximala antalet anpassade attributkolumner är 100 och anpassade attribut är begränsade till 4 096 tecken. Andra begränsningar för längden på obligatoriska kolumner finns på [sidan Målbegränsningar](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Det finns ingen hård gräns för antalet rader eller filstorleken för en feed CSV-filöverföring. Som en god praxis rekommenderar Adobe dock att CSV-filens storlek begränsas till 1 GB för att undvika fel under filöverföringen. Om filens storlek överstiger 1 GB kan den helst delas upp i flera feedsfiler. Det maximala antalet anpassade attributkolumner är 100 och anpassade attribut är begränsade till 4 096 tecken. Andra begränsningar för längden på de kolumner som krävs finns på sidan [[!DNL Target] Begränsningar](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kan jag utesluta en entitet dynamiskt? {#exclude}
 
@@ -198,7 +198,7 @@ I frågesträngen kan du skicka enhets-ID:n för entiteter som du vill utesluta 
 
 Om du vill aktivera exkluderingsfunktionen använder du parametern `excludedIds` mbox. Den här parametern pekar på en lista med kommaavgränsade enhets-ID:n. Exempel, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Värdet skickas när rekommendationer begärs.
 
-Uteslutningen görs endast för det aktuella Target-anropet. objekt exkluderas inte vid efterföljande Target-anrop såvida inte `excludedIds`-värdet skickas igen. Om du vill utesluta artiklar i kundvagnen från rekommendationer på varje sida fortsätter du skicka `excludedIds`-värdet på varje sida.
+Undantaget utförs endast för det aktuella [!DNL Target]-anropet; objekt exkluderas inte vid efterföljande [!DNL Target]-anrop såvida inte `excludedIds`-värdet skickas igen. Om du vill utesluta artiklar i kundvagnen från rekommendationer på varje sida fortsätter du skicka `excludedIds`-värdet på varje sida.
 
 >[!NOTE]
 >
