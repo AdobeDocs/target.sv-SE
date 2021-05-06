@@ -5,9 +5,9 @@ title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 0fd1f43f7cd48123eab7d6f412babb7a670398c7
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 6 maj | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Följande frågor och svar har lagts till:<ul><li>Hur lång tid tar det att ändra konfigurationen för mina [!UICONTROL Recommendations]-aktiviteter, erbjudanden, kampanjer eller villkor så att de återspeglas på min webbplats?</li><li>Hur lång tid tar det för en användares beteende (till exempel att klicka på produkt A och köpa produkt B) att återspeglas i rekommendationerna *som*-användaren får?</li><li>Hur lång tid tar det för en användares beteende (till exempel att klicka på produkt A och köpa produkt B) att återspeglas i rekommendationerna *andra* användare får?</li></ul> |
+|  | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Länk har lagts till i följande blogginlägg på Adobe Tech Blog:<ul><li>Del 1: Kör Adobe Target NodeJS SDK för experiment och personalisering på Edge-plattformar (Akamai Edge Workers)</li></ul> |
 | 5 maj | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om Adobe Target Community Q&amp;A Coffee Break som ska hållas onsdagen den 12 maj 2021 kl. 8.00. (PDT, GMT-7). |
 | 27 april | [Cookie-inställningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Uppdaterat ämne som indikerar att cookie-varaktighet (`deviceIdLifetime`-inställning) kan åsidosättas i version 2.3.1 eller senare av at.js. |
 |  | [Adobe Target Guide](/help/target-home.md) | Ytterligare information om Adobe Summit. |
