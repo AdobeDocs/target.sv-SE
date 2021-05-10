@@ -5,9 +5,9 @@ title: Var hittar jag frågor och svar om  [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2976'
 ht-degree: 0%
 
 ---
@@ -241,3 +241,9 @@ Om en besökare har två aktiva sessioner samtidigt uppdaterar inte nyligen visa
 Detta beteende inträffar fortfarande om en besökare är aktiv på en enhet och sedan aktiveras på den andra enheten några minuter senare. Den första enhetens session upphör inte att gälla på 30 minuter och det kan ta upp till fem minuter innan profilläget skrivs till det permanenta läget och bearbetas. Det kan ta 35 minuter innan sessionen upphör att gälla och profilen sparas när du testar det här beteendet.
 
 Om besökaren inte har två aktiva sessioner samtidigt uppdaterar nyligen visade objekt på en enhet de senast visade objekten på den andra enheten så länge sessionen har avslutats. Det kan ta 35 minuter innan sessionen går ut när du testar det här beteendet.
+
+## Kan jag använda en algoritm som har skapats i [!DNL Adobe Recommendations Classic] i [!DNL Recommendations Premium]?
+
+En algoritm som skapats i [!DNL Recommendations Classic] stöds inte i [!DNL Recommendations Premium]. Du kanske kan använda den äldre algoritmen i [!DNL Target Premium]; algoritmen kan dock skapa synkroniseringsproblem när aktiviteten i användargränssnittet för [!DNL Target Premium] inaktiveras eller tas bort. Mer information om skillnaderna mellan de två lösningarna finns i [[!DNL Recommendations Classic] versus [!DNL Recommendations] aktiviteter i [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+
