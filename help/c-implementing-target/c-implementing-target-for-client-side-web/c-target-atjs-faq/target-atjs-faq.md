@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2683'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Med versionen at.js 1.0.0 kan du läsa in målbiblioteket asynkront.
 
 Så här läser du in at.js asynkront:
 
-* Det rekommenderade sättet är via en tagghanterare som Adobe Launch eller Adobe Dynamic Tag Manager (DTM). Mer information finns i [Lägg till Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)-lektionen i [Implementera Experience Cloud i webbplatser med Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)-självstudiekursen.
+* Rekommenderad metod är via [!DNL Adobe Experience Platform Launch]. Mer information finns i [Lägg till Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)-lektionen i [Implementera Experience Cloud i webbplatser med Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)-självstudiekursen.
 * Du kan också läsa in at.js asynkront genom att lägga till attributet async i script-taggen som läser in at.js. Du bör använda något sådant:
 
    ```
