@@ -6,16 +6,16 @@ feature: Implementera serversidan
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1647'
 ht-degree: 3%
 
 ---
 
 # Implementera [!DNL Target] utan tagghanterare
 
-Information om hur du implementerar [!DNL Adobe Target] utan att använda en tagghanterare ([!DNL Adobe Experience Platform Launch] eller [!DNL Dynamic Tag Manager]).
+Information om hur du implementerar [!DNL Adobe Target] utan att använda en tagghanterare ([!DNL Adobe Experience Platform Launch]).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Du kan visa följande kontoinformation. Dessa inställningar kan inte ändras.
 | --- | --- |
 | [!UICONTROL Client Code] | Klientkoden är en klientspecifik teckensekvens som ofta krävs när du använder mål-API:er. |
 | [!UICONTROL IMS Organization ID] | Detta ID kopplar implementeringen till ditt [!DNL Adobe Experience Cloud]-konto. |
-| [!UICONTROL On-Device Decisioning] | Om du vill aktivera enhetsbeslut flyttar du växlingsknappen till läget&quot;på&quot;.<br>Med enhetsbaserad beslutsfattande kan ni cachelagra era A/B- och Experience Targeting-kampanjer (XT) på servern och fatta beslut i minnet med nästan noll fördröjning. Mer information finns i [Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) i guiden *Adobe Target SDK*. |
+| [!UICONTROL On-Device Decisioning] | Om du vill aktivera enhetsbeslut flyttar du växlingsknappen till positionen&quot;på&quot;.<br>Med enhetsbaserad beslutsfattande kan ni cachelagra era A/B- och Experience Targeting-kampanjer (XT) på servern och fatta beslut i minnet med nästan noll fördröjning. Mer information finns i [Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) i guiden *Adobe Target SDK*. |
 | [!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.] | (Villkorligt) Det här alternativet visas om du aktiverar enhetsbeslut.<br>Skjut musknappen till&quot;på&quot;-positionen om du vill att alla dina aktiva Target-aktiviteter som är kvalificerade för enhetsbeslut ska inkluderas automatiskt i artefakten.<br>Om du inte aktiverar det här alternativet måste du återskapa och aktivera alla enhetsspecifika beslutsaktiviteter för att de ska kunna inkluderas i den genererade regelartefakten. |
 
 ## Implementeringsmetoder
@@ -181,7 +181,7 @@ Om du vill hämta [!DNL at.js] med API:t.
 
 at.js ska implementeras i elementet `<head>` på alla sidor på webbplatsen.
 
-En typisk implementering av Target som inte använder en tagghanterare som [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) eller [Dynamisk tagghantering](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) ser ut så här:
+En typisk implementering av Target som inte använder en tagghanterare som [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ser ut så här:
 
 ```
 <!doctype html> 
