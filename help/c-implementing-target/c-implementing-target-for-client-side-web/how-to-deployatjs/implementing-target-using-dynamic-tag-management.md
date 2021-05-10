@@ -1,24 +1,23 @@
 ---
 keywords: implementera;implementera;implementera;tagghanterare;dtm;at.js;dynamisk tagghantering
 description: Lär dig hur du implementerar Adobe [!DNL Target] at.js-biblioteket med hjälp av den gamla Dynamic Tag Management (DTM). Adobe Launch är den metod som rekommenderas för implementering av [!DNL Target].
-title: Kan jag implementera [!DNL Target] med dynamisk tagghantering (DTM)?
+title: Kan jag implementera [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)?
 feature: Implementera serversidan
 role: Developer
 exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
-# Implementera [!DNL Target] med dynamisk tagghantering (DTM)
+# Implementera [!DNL Target] med [!DNL Dynamic Tag Manager] (DTM)
 
-Adobe Dynamic Tag Management (DTM) är tagghanteraren i Adobe.
+[!DNL Adobe Dynamic Tag Manager] är en äldre produkt och stöds inte längre. [!DNL Adobe] rekommenderar [!DNL Adobe Experience Platform Launch] för att få bästa möjliga implementeringsupplevelse.
 
->[!IMPORTANT]
->
->[Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis är den föredragna, aktuella metoden för implementering av Target och biblioteket at.js. Använd Launch för nya målimplementeringar. Följande guide gäller befintliga klienter som använder en DTM-implementering.
+[!DNL Platform Launch] är nästa generations tagghanteringsplattform från  [!DNL Adobe] och är den metod som rekommenderas för implementering  [!DNL Adobe Target]. [!DNL Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera de analys-, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser.
 
-Mer information finns i [Bästa metoder för att implementera Adobe Target med dynamisk tagghantering](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
+Mer information finns i [Implementera [!DNL Target] med [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+
