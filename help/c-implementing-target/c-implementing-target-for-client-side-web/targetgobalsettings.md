@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # targetGlobalSettings()
 
 Du kan åsidosätta inställningarna i at.js-biblioteket med `targetGlobalSettings()`, i stället för att konfigurera inställningarna i gränssnittet för [!DNL Target] Standard/Premium eller genom att använda REST API:er.
-
-Det finns några användningsområden, särskilt när at.js levereras via [!DNL Dynamic Tag Management] (DTM) när du vill åsidosätta vissa inställningar.
 
 ## Inställningar {#section_42C759AE9B524A43B8659018677224B8}
 
