@@ -1,12 +1,12 @@
 ---
-keywords: document.write;target;implementera;implementera target;dtm;dynamisk tagghantering;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
+keywords: document.write;target;implementera;implementera target;dtm;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: Implementera Adobe [!DNL Target] by referencing the [!DNL Target] bibliotek (at.js eller mbox.js) på dina webbsidor.
 title: Förstå [!DNL Target] JavaScript-biblioteken
 feature: Implementering
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
