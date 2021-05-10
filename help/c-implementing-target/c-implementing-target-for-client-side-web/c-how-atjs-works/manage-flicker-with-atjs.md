@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Att läsa in at.js asynkront är ett bra sätt att undvika att blockera webbläs
 
 Du kan undvika flimmer genom att använda ett fragment som är synligt i förväg när de relevanta HTML-elementen har anpassats av [!DNL Target].
 
-at.js kan läsas in asynkront, antingen direkt inbäddat på sidan eller via en tagghanterare (Adobe Launch, Dynamic Tag Manager (DTM) osv.).
+at.js kan läsas in asynkront, antingen direkt inbäddad på sidan eller via en tagghanterare (till exempel [!DNL Adobe Experience Platform Launch]).
 
 Om at.js är inbäddad på sidan måste fragmentet läggas till innan at.js läses in. Om du läser in at.js via en tagghanterare, som också läses in asynkront, måste du lägga till fragmentet innan du läser in tagghanteraren. Om tagghanteraren läses in synkront kan skriptet inkluderas i tagghanteraren före at.js.
 
