@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Följ de här stegen för att migrera från [!DNL mbox.js] till [!DNL at.js] och
 
    **Använder du en tagghanterare?**
 
-   * Dynamisk tagghantering
+   * Adobe Experience Platform Launch
    * Upptäck
    * Tealium
    * Signal/BrightTag
@@ -86,7 +86,11 @@ Följ de här stegen för att migrera från [!DNL mbox.js] till [!DNL at.js] och
 
    >[!NOTE]
    >
-   >Om du för närvarande inte använder en tagghanterare för att distribuera [!DNL Target] kan det nu vara ett bra tillfälle att överväga det. Adobe [Dynamic Tag Management](https://dtm.adobe.com) är kostnadsfritt för [!DNL Target]-kunder och är den metod som rekommenderas för att distribuera [!DNL Target]. Mer information finns i [Bästa metoder för att implementera Adobe Target med dynamisk tagghantering](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
+   >Om du för närvarande inte använder en tagghanterare för att distribuera [!DNL Target] kan det nu vara ett bra tillfälle att överväga det.
+   >
+   >[!DNL Platform Launch] är nästa generations tagghanteringsplattform från  [!DNL Adobe] och är den metod som rekommenderas för implementering  [!DNL Adobe Target]. [!DNL Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera de analys-, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser.
+   >
+   >Mer information finns i [Implementera [!DNL Target] med [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 1. Kontrollera att alla aktuella aktiviteter och integreringar fungerar som förväntat.
 
