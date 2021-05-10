@@ -4,26 +4,18 @@ description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migre
 title: Hur distribuerar jag at.js till en icke-produktionsmiljö?
 feature: at.js
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-
 # Distribuera at.js till en icke-produktionsmiljö
 
 Information om teknikerna för säker driftsättning i at.js till en icke-produktionsmiljö.
-
-## Distribuera till DTM-mellanlagring
-
-Om du använder DTM kan du enkelt spara at.js i Adobe Target Tool-konfigurationen.
-
-När du har sparat biblioteket använder du DTM Switch-verktyget för att testa det mot din produktionskod. Detta gör det också enkelt för dina Adobe-konsulter att ge dig support.
-
-Mer information finns i [Alternativ 3: Implementera mål manuellt med JavaScript-målbiblioteket som finns på DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) i guiden *Best Practices for Implementera Adobe Target med Dynamic Tag Management*.
 
 ## Använd Chrome-tillägget &quot;True&quot; för att mappa till en annan fil
 
