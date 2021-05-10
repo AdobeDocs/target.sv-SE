@@ -6,9 +6,9 @@ feature: Administration och konfiguration
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I följande tabell visas de uppgifter du bör utföra för att skapa egenskaper 
 | 2. Skapa en arbetsyta (produktprofil) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Skapa användargrupper (valfritt) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Skapa egenskaper | [!DNL Target] UI |
-| 5: Uppdatera implementeringen så att den inkluderar parametern `at_property` | [!DNL Target] UI, at.js-funktioner,  [!DNL Adobe Launch]eller  [!DNL Dynamic Tag Management] |
+| 5: Uppdatera implementeringen så att den inkluderar parametern `at_property` | [!DNL Target] UI, at.js-funktioner eller  [!DNL Adobe Experience Platform Launch] |
 | 6: Ange roller och behörigheter | [!DNL Adobe Admin Console for Enterprise] |
 
 För de uppgifter som utförs i [!DNL Adobe Admin Console for Enterprise] går du till konsolen genom att följa dessa steg:
@@ -150,12 +150,6 @@ Om du vill använda funktionen [!DNL Target] för användarbehörigheter måste 
    * **Via en global parameter i  [!DNL Adobe Launch]:**
 
       Mer information finns i [Lägg till globala målparametrar](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) i dokumentationen för *Adobe Experience Platform Launch*.
-
-   * **Via en global parameter i  [!DNL Dynamic Tag Management]:**
-
-      ![](assets/property_token_2.png)
-
-      Mer information finns i [Globala parametrar - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) i *produktdokumentationen för dynamisk tagghantering*.
 
    * **Via funktionen targetPageParams():** Placera följande kod i  `<head>` taggarna ovanför referensen at.js eller mbox.js.
 
