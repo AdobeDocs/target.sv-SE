@@ -6,9 +6,9 @@ feature: Administration och konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -95,30 +95,6 @@ Följande kodexempel lägger till en [!DNL at.js] anpassad händelsehanterare di
 </html>
 ```
 
-Följande instruktioner visar hur du lägger till en [!DNL at.js] anpassad händelsehanterare med hjälp av DTM (Adobe Dynamic Tag Manager):
-
-1. Logga in på DTM.
-1. Bläddra till rätt egenskap.
-1. Öppna målverktyget.
-
-   Eftersom DTM inte stöder at.js internt måste du använda kodredigeraren.
-
-1. Lägg till följande kod i [!DNL at.js] i kodredigeraren:
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-Du kan lägga till följande utdrag i bibliotekets sidfot [at.js Setup page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) om du vill att allt ska vara en enda fil.
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
 ## Vanliga frågor om svarstoken {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **Vilken roll krävs för att aktivera eller inaktivera svarstoken?**
@@ -133,7 +109,7 @@ Svarstoken visas, men at.js kan inte använda dem.
 
 Svarstoken levereras till [!DNL at.js]-målsvaren, men inte till [!DNL mbox.js]-svaren.
 
-**Kan jag ha både Target Classic-plugin-program och svarstoken aktiva samtidigt?**
+**Kan jag ha både  [!DNL Target Classic] plugin-program och svarstoken aktiva samtidigt?**
 
 Insticksprogram och svarstoken kommer att finnas tillgängliga parallellt. plugin-program kommer dock att bli inaktuella i framtiden.
 
