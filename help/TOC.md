@@ -4,7 +4,7 @@ breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -110,9 +110,9 @@ ht-degree: 0%
             + [at.js-integreringar](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + Så här distribuerar du at.js {#deploy-at-js}
             + [Så här distribuerar du at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Implementera mål med Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [Implementera mål med Platform launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [Implementera mål utan tagghanterare](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Implementera mål med dynamisk tagghantering (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [Implementera mål med Dynamic Tag Manager (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [Implementera mål för enkelsidiga program (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js-funktioner {#functions-overview}
             + [at.js - funktionsöversikt](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
