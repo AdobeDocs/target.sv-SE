@@ -5,9 +5,9 @@ title: Hur integrerar jag [!DNL Target] med Adobe Campaign?
 feature: Integreringar
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
+source-git-commit: 2a78828c0d04add812a73ea04f4b3927d3dbc392
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,13 @@ Det finns flera begränsningar:
 
 Använd både [!DNL Target] och [!DNL Campaign] för att konfigurera olika delar av integreringen:
 
-    * Rita-rutan och upplevelsen i [!DNL Target]
-    
-     >[!NOTE]
-    >
-    >När du använder en radruta och [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#tillåtelselista).
-    
-    * Leveransen i [!DNL Campaign]
+* Rita-rutan och upplevelsen i [!DNL Target]
+
+>[!NOTE]
+>
+>När du använder en radruta och [!DNL Target] ska du läsa det viktiga säkerhetsmeddelandet under [Skapa tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist).
+
+* Leveransen i [!DNL Campaign]
 
 ## Innan du börjar {#section_FF19BF1BCA064260930BF6C141313B0E}
 
