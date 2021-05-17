@@ -4,19 +4,22 @@ description: Lär dig implementeringskraven för Analytics för [!DNL Target] (A
 title: Vad ska jag veta innan jag implementerar A4T?
 feature: Analyser för mål (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-# Innan du implementerar
+# Innan du implementerar Analytics för Target (A4T) med at.js
 
 Flera ändringar sker i datainsamlingsprocessen när du aktiverar [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
-Innan du bestämmer dig för att använda den här integreringen ska du granska följande avsnitt och tänka på hur rapportprocesserna påverkas:
+Innan du bestämmer dig för att använda den här integreringen ska du gå igenom följande avsnitt och fundera över vilken inverkan dina rapporteringsprocesser har.
+
+>[!NOTE]
+>
+>Den här artikeln gäller endast för at.js-implementeringar.
 
 ## Implementeringskrav {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -47,14 +50,14 @@ Om du vill använda omdirigeringserbjudanden med A4T måste du implementera föl
 
 Instruktioner för hämtning och distribution finns i [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-## Saker att känna till innan du implementerar {#section_50D49CC52E11414089C89FB67F9B88F5}
+## Saker att känna till innan ni implementerar {#section_50D49CC52E11414089C89FB67F9B88F5}
 
 * Den här integreringen aktiveras för nya aktiviteter när du väljer att använda [!DNL Analytics] som rapportkälla. När du har gjort de implementeringsändringar som beskrivs i det här dokumentet påverkas inte dina befintliga aktiviteter.
 * Processen att konfigurera [!DNL Analytics] som rapportkälla för [!DNL Target] innehåller flera implementeringssteg, följt av ett provisioneringssteg. Det är en god idé att läsa igenom processen enligt beskrivningen nedan innan du implementerar den. När du har slutfört de här stegen kan du använda [!DNL Analytics] som rapportkälla när den är aktiverad. Etableringsprocessen kan ta upp till fem arbetsdagar.
 * [!DNL Visitor ID service] skapar en delad [!DNL Visitor ID] över [!DNL Adobe Experience Cloud]. Även om det inte ersätter mboxPC-id:t [!DNL Target] eller UUID:t för [!DNL Audience Manager] ersätter det sättet [!DNL Analytics] identifierar nya besökare. Om konfigurationen är korrekt bör återkommande [!DNL Analytics]-besökare även identifieras via deras gamla [!DNL Analytics]-ID. På samma sätt försvinner inga [!DNL Target]-data för besökarprofilen när du uppgraderar till [!DNL Visitor ID service] eftersom mboxPCid förblir intakt.[!DNL Target]
 * [!DNL Visitor ID service] måste köras före sidkoden för [!DNL Analytics] och [!DNL Target]. Kontrollera att `VisitorAPI.js` visas ovanför taggarna för alla andra [!DNL Experience Cloud]-lösningar.
 
-## Svarstid {#section_9489BE6FD21641A4844E591711E3F813}
+## Latens {#section_9489BE6FD21641A4844E591711E3F813}
 
 När integreringen är aktiverad kommer du att uppleva ytterligare 5-10 minuters fördröjning i [!DNL Analytics]. Den här fördröjningsökningen gör att data från [!DNL Analytics] och [!DNL Target] kan lagras på samma träff, vilket gör att du kan dela upp aktiviteter per sida och webbplatsavsnitt.
 
