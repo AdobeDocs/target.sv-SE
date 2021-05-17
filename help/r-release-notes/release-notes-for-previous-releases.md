@@ -4,10 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Versionsinformation
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '30452'
+source-wordcount: '30716'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,32 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2021
+
+### at.js version 2.5.0 (13 maj 2021)
+
+Den här versionen av at.js innehåller följande förbättringar och ändringar:
+
+* [Enhetsspecifikt ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslutsstöd för at.js.
+* [Förhandsgranska ](/help/c-activities/c-activity-qa/activity-qa.md) länkarstöd för Automated Personalization-aktiviteter
+
+Den här versionen tar också bort stöd för Microsoft Internet Explorer 10, Internet Explorer 11 och alla äldre versioner. Microsoft Edge stöds fortfarande i at.js 2.5.0 och senare.
+
+### Target Standard/Premium 21.4.1 (19 april 2021)
+
+Den här versionen innehåller följande nya funktioner och förbättringar. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+
+| Funktion | Detaljer |
+| --- | --- |
+| Beslutsstöd på enheten för at.js<br>(datum ska tillkännages) | Med enhetsbaserad beslutsfattande kan marknadsförare och utvecklare leverera experiment och personalisering i en användares webbläsare med nästan nolltidsfördröjning.<br>Mer information finns i  [Enhetsbeslut för at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![PremiumList-](/help/assets/premium.png) baserade operatorer för entitetsfiltreringsregler | [!DNL Target Recommendations] stöder nya listbaserade operatorer för entitetsfiltreringsregler. (TGT-39234)<br>Operatorer som lagts till nyligen är:<br><ul><li>Finns i listan</li><li>Finns inte i listan</li><li>Listan innehåller ett objekt i</li><li>Listan innehåller inget objekt i</li><li>Listan innehåller alla objekt i</li><li>Listan innehåller inte alla objekt i</li></ul>Mer information finns i&quot;Tillgängliga operatorer&quot; i [Använd dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+
+Den här versionen innehåller följande korrigeringar.
+
+* Korrigerade ett problem som förhindrade en aktivitet från att synkroniseras efter att målgruppen ändrats till [!UICONTROL All Visitors]. (TGT-40259)
+* Korrigerade ett problem som förhindrade att erbjudanden duplicerades när de användes på olika platser i [!UICONTROL Automated Personalization]-aktiviteter trots att alternativet [!UICONTROL Disallow Duplicates] är aktiverat. (TGT-39567)
+* Ett problem som gjorde att sidan [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] inte kunde läsas in korrekt har åtgärdats. (TGT-39918)
+* Korrigerade ett problem som gjorde att egenskaper mappades till fel arbetsyta. (TGT-39869)
+* Korrigerade ett problem som orsakade oändlig inläsning om begäran misslyckas efter att miljön ändrats och ett rekommendationsundantag skapades. (TGT-39948)
 
 ### kl. 2.4.1 (23 mars 2021)
 
@@ -925,7 +950,7 @@ Den här [!DNL Target]-versionen innehåller följande förbättringar, korriger
  </tbody> 
 </table>
 
-### Målstandard/Premium 18.6.1 (20 juni 2018) {#section_B63C660815B245DA9922BE33E03734A1}
+### Target Standard/Premium 18.6.1 (20 juni 2018) {#section_B63C660815B245DA9922BE33E03734A1}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -977,7 +1002,7 @@ Den här versionen innehåller följande förbättringar:
 
    Mer information finns i [Mobil](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
 
-### Målhämtnings-API (5 juni 2018) {#section_B8729DA10F18433C8D8E01B04F308ED2}
+### Target Download API (5 juni 2018) {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
 Du kan använda API:t för att hämta rekommendationer i en CSV-fil som kan visas i ett kalkylblad eller en textredigerare. För förbättrad säkerhet, från och med den 5 juni 2018 **, blockerar Target HTTP-begäranden och tillåter bara HTTPS-begäranden.**
 
@@ -1196,7 +1221,7 @@ Den här [!DNL Target]-versionen innehåller följande förbättringar, korriger
 * När du skapar eller redigerar A/B- och Experience Targeting-aktiviteter (XT) sparar Target information om den senast öppnade upplevelsen, sidan eller upplevelseversionen (via flera målgrupper) och öppnar rätt sida nästa gång du öppnar målgränssnittet. (TGT-28225)
 * Säkerhetskorrigeringar har gjorts för att uppfylla kraven.
 
-### Målstandard/Premium 18.2.1 (15 februari 2018) {#section_837CBBB7A89D45D99855A8C5F5E7BFFB}
+### Target Standard/Premium 18.2.1 (15 februari 2018) {#section_837CBBB7A89D45D99855A8C5F5E7BFFB}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -1219,7 +1244,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
 
 Den här [!DNL Target]-versionen innehåller vissa backend-förbättringar, korrigeringar och ändringar.
 
-### Målplattform (18 januari 2018) {#section_F6A0DC31636D403F92BDB9DCE7A3F6ED}
+### Target Platform (18 januari 2018) {#section_F6A0DC31636D403F92BDB9DCE7A3F6ED}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -1242,7 +1267,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
  </tbody> 
 </table>
 
-### Målstandard/Premium 18.1.1 (23 januari 2018) {#section_3A2216543B064D6F82EC03E1F8AEC74D}
+### Target Standard/Premium 18.1.1 (23 januari 2018) {#section_3A2216543B064D6F82EC03E1F8AEC74D}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -1311,7 +1336,7 @@ Den här [!DNL Target]-versionen innehåller följande kundtillvända förbättr
 
 ## Utgåvor 2017 {#reference_59C7622A111C4147804A8AAC6D27BB8D}
 
-### Målplattform (8 november 2017) {#section_536B3C0F32ED441C8D82704B94F6AF7E}
+### Target Platform (8 november 2017) {#section_536B3C0F32ED441C8D82704B94F6AF7E}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -1443,7 +1468,7 @@ Den här [!DNL Target]-versionen innehåller följande kundtillvända förbättr
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.9.1 (25 september 2017 &amp; 12 oktober 2017) {#section_ECC5DD8B6ED443788B46F53E25FC896E}
+### Target Standard/Premium 17.9.1 (25 september 2017 och 12 oktober 2017) {#section_ECC5DD8B6ED443788B46F53E25FC896E}
 
 Den här versionen innehåller följande funktioner och förbättringar (nummer på utgåvor inom parentes är avsedda för Adobe):
 
@@ -1946,7 +1971,7 @@ Den här [!DNL Target]-versionen fokuserar på användbarhets- och prestandaför
  </tbody> 
 </table>
 
-### Målstandard/Premium 17.1.1 (19 januari 2017) {#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
+### Target Standard/Premium 17.1.1 (19 januari 2017) {#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
@@ -2441,7 +2466,7 @@ Följande kända fel har rapporterats:
 * När&quot;Inaktivera JavaScript&quot; har valts för sida A i en flersidig aktivitet inaktiveras JavaScript överallt, även om&quot;Inaktivera JavaScript&quot; inte har valts på andra sidor.
 * Problem med URL:er för förhandsgranskning av upplevelser för upplevelser med en omdirigering. Du kan lösa det genom att klicka på **[!UICONTROL Configure]** i Experience Composer, välja **[!UICONTROL Multiple Audiences]** och lägga till **[!UICONTROL All visitors]** som den enda målgruppen. Fortsätt spara aktiviteten. Detta påverkar inte leveransen av din aktivitet, men tillåter förhandsgranskning. Detta kommer att rättas till i juliversionen av Adobe Target.
 
-### Nytt [!DNL Target]-implementeringsbibliotek, at.js 0.8.0 (5 maj 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
+### Nytt [!DNL Target]-implementeringsbibliotek, kl. 0.8.0 (5 maj 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js är ett nytt implementeringsbibliotek för Target som är utformat för både vanliga webbimplementeringar och ensidiga program.
 
