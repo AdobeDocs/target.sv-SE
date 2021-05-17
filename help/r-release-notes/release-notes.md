@@ -2,12 +2,11 @@
 keywords: Versionsinformation;nya funktioner;utgåvor;uppdateringar;uppdatering;release;förbättring;förbättringar;korrigeringar;felkorrigeringar;uppdateringar
 description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av Adobe Target, inklusive SDK, API:er och JavaScript-bibliotek.
 title: Vilka nya funktioner ingår i den aktuella versionen?
-feature: Release Notes
+feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,15 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## at.js version 2.5.0 (13 maj 2021)
+
+Den här versionen av at.js innehåller följande förbättringar och ändringar:
+
+* [Enhetsspecifikt ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslutsstöd för at.js.
+* [Förhandsgranska ](/help/c-activities/c-activity-qa/activity-qa.md) länkarstöd för Automated Personalization-aktiviteter
+
+Den här versionen tar också bort stöd för Microsoft Internet Explorer 10, Internet Explorer 11 och alla äldre versioner. Microsoft Edge stöds fortfarande i at.js 2.5.0 och senare.
 
 ## Target Standard/Premium 21.4.1 (19 april 2021)
 
@@ -40,15 +48,6 @@ Den här versionen innehåller följande korrigeringar.
 * Ett problem som gjorde att sidan [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] inte kunde läsas in korrekt har åtgärdats. (TGT-39918)
 * Korrigerade ett problem som gjorde att egenskaper mappades till fel arbetsyta. (TGT-39869)
 * Korrigerade ett problem som orsakade oändlig inläsning om begäran misslyckas efter att miljön ändrats och ett rekommendationsundantag skapades. (TGT-39948)
-
-## at.js version 2.5.0 (datum ska tillkännages)
-
-Den här versionen av at.js innehåller följande förbättringar och ändringar:
-
-* [Enhetsspecifikt ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslutsstöd för at.js.
-* [Förhandsgranska ](/help/c-activities/c-activity-qa/activity-qa.md) länkarstöd för Automated Personalization-aktiviteter.
-
-Den här versionen tar också bort stöd för Microsoft Internet Explorer 10 och senare versioner.
 
 ## Ytterligare versionsinformation
 
