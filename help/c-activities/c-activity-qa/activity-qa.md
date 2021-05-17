@@ -4,10 +4,9 @@ description: Lär dig använda Adobe [!DNL Target] QA-URL:er för att utföra en
 title: Hur gör jag QA-aktiviteter?
 feature: Verksamhet
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -21,9 +20,6 @@ Använd QA-URL:er i [!DNL Adobe Target] för att utföra enkel QA för hela akti
 Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du startar dem live. QA-funktionaliteten för aktiviteten omfattar:
 
 * Länkar att dela med teammedlemmar som aldrig behöver ändras eller behöver genereras om, oavsett vilka uppdateringar som gjorts för upplevelserna eller aktiviteterna. På så sätt kan du testa dina aktiviteter fullt ut under hela användarresan.
-
-   Stöd för förhandsgranskningslänkar för [!UICONTROL Automated Personalization]-aktiviteter lades till med [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
 * Målgruppsvillkor kan respekteras så att marknadsförarna kan testa målinriktningskriterier eller ignorera målinriktningskriterier för att få QA att visa hur upplevelserna ser ut utan att behöva uppfylla målgruppsvillkoren.
 * QA-rapportering samlas in så att marknadsförarna kan bekräfta att mätvärdena ökar som förväntat och att QA-rapportdata hålls åtskilda från produktionsrapporter (för icke-A4T-rapportering).
 * Möjlighet att förgranska en upplevelse separat eller tillsammans med andra aktiva aktiviteter som uppfyller leveranskriterierna (sid/målbegäran/målgrupp).
@@ -67,7 +63,7 @@ Med Activity QA kan du testa dina Target-aktiviteter fullständigt innan du star
 
 ## Överväganden {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* Länken [!UICONTROL Activity QA] visas på sidan [!UICONTROL Overview] för alla aktivitetstyper utom Automated Personalization (AP). Du kan använda [Förhandsgranska länkar](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) för AP-aktiviteter.
+* Länken [!UICONTROL Activity QA] visas på sidan [!UICONTROL Overview] för alla aktivitetstyper utom Automated Personalization (AP).
 * Länkar för förhandsgranskning av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Det bör fungera att försöka göra om förhandsvisningslänkarna. Om du vill förhindra att detta fortsätter att hända arkiverar du sparade aktiviteter som inte längre används aktivt.
 * URL:er för verksamhets-QA är tillgängliga med aktiviteter med Analytics som rapportkälla (A4T). Träffar som genereras när QA utförs med Activity QA kommer att flöda till samma rapportsvit där aktivitetens data kommer att flöda även efter att aktiviteten publiceras.
 * Aktivitets-QA visar inte innehåll för arkiverade aktiviteter eller aktiviteter som ligger efter deras slutdatum. Om du inaktiverar en avslutad aktivitet måste du spara aktiviteten igen för att Activity QA ska fungera.
