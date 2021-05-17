@@ -5,19 +5,14 @@ title: Hur fungerar On-device Decisioning med JavaScript-biblioteket at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7f1db24e902c4b06c2035a94924abfe2d254bf25
 workflow-type: tm+mt
-source-wordcount: '3401'
+source-wordcount: '3386'
 ht-degree: 1%
 
 ---
 
 # Enhetsbeslut för at.js
-
->[!NOTE]
->
->Enhetsbeslut blir tillgängliga med den kommande [at.js 2.5.0-versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Datum som kommer att tillkännages snart.
 
 Från och med version 2.5.0 kan at.js fatta beslut på enheter. Med enhetsbaserad beslutsfattande kan du cachelagra dina [A/B Test](/help/c-activities/t-test-ab/test-ab.md) och [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter i webbläsaren för att utföra minnesbaserad decimering utan att blockera en nätverksbegäran till [!DNL Adobe Target] Edge Network.
 
@@ -134,7 +129,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 | Steg | Beskrivning |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | [!DNL Experience Cloud Visitor ID] hämtas från [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>At.js-biblioteket kan också läsas in asynkront med ett valfritt fördolt fragment som implementerats på sidan. |
 | 1 | At.js-biblioteket döljer kroppen för att förhindra flimmer. |
 | 4 | I biblioteket at.js tolkas JSON-regelartefakten och beslutet i minnet verkställs för att hämta upplevelsen. |
