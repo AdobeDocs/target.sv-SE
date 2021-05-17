@@ -4,10 +4,9 @@ description: Hitta svar på frågor om hur du använder omdirigeringserbjudanden
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analyser för mål (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -106,3 +105,23 @@ Med [!DNL at.js] version 0.9.6 (eller senare) och [!DNL AppMeasurement.js] 2.1 (
 ## Kan jag använda anpassade omdirigeringserbjudanden/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T). Från [!DNL Target]-perspektivet är HTML-erbjudanden ogenomskinliga: [!DNL Target] vet inte om en viss del av HTML innehåller JavaScript som initierar en omdirigering.
+
+## Har [!DNL Adobe Experience Platform Web SDK] stöd för omdirigeringserbjudanden för A4T? {#platform}
+
+Följande vanliga frågor och svar innehåller mer information om hur du använder A4T och omdirigeringserbjudanden med [!DNL Platform Web SDK].
+
+>[!NOTE]
+>
+>Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (24 maj 2021).
+
+### Har Analytics for Target (A4T) stöd för omdirigeringserbjudanden?
+
+Ja, A4T via Platform Web SDK har stöd för [omdirigeringserbjudanden](/help/c-experiences/c-manage-content/offer-redirect.md).
+
+### Stöds [!UICONTROL Visual Experience Composer] (VEC) och [!UICONTROL Form-Based Experience Composer]?
+
+Ja, både [[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) och [[!UICONTROL Form-Based Experience Composer]](/help/c-experiences/form-experience-composer.md) stöds om du använder inbyggda omdirigeringserbjudanden.
+
+### Kan jag använda anpassade omdirigeringserbjudanden/HTML med [!DNL Platform Web SDK]?
+
+Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder A4T. Från [!DNL Target]-perspektivet är HTML-erbjudanden ogenomskinliga. [!DNL Target] kan inte veta att en viss del av HTML innehåller JavaScript som initierar en omdirigering.
