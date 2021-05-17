@@ -5,10 +5,9 @@ title: Vilka webbläsare stöder [!DNL Target] funktionen?
 feature: Implementering
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 Mer information om TLS finns i [TLS (Transport Layer Security) Krypteringsändringar](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-## [!DNL Target] Standard-/Premium-gränssnitt  {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target] Standard-/Premium-gränssnitt {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 Gränssnittet [!DNL Target] har stöd för följande webbläsare och enheter:
 
@@ -34,7 +33,7 @@ Materialet har testats i följande webbläsare och enheter:
 
 | Enhetstyp | Webbläsarversion |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 och 10. Testad i emuleringsläge.<br>**Obs**: at.js 1.3.0 (och senare) stöder inte längre innehållsleverans i Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Krom (senaste, senaste minus 1)</li><li>Firefox (senaste, senaste minus 1)</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 och 10. Testad i emuleringsläge.<br>**Obs**: Innehållsleverans på IE 9 stöds inte längre med at.js 1.3.0 (och senare). Innehållsleverans på IE 10, 11 och alla äldre versioner stöds inte längre med at.js 2.5.0 (och senare).</li><li>Internet Explorer 11 <br>**Obs!**: Innehållsleverans på IE 10, 11 och alla äldre versioner stöds inte längre med at.js 2.5.0 (och senare).</li><li>Microsoft Edge</li><li>Krom (senaste, senaste minus 1)</li><li>Firefox (senaste, senaste minus 1)</li></ul> |
 | Mac | <ul><li>Apple Safari (senaste)<br>**Anm**: Mer information om hur Safari hanterar cookies från första och tredje part finns i [Målcookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (senaste, senaste minus 1)</li><li>Krom (senaste, senaste minus 1)</li></ul> |
 | Mobil/surfplatta | <ul><li>Apple iOS (senaste)</li><li>Android-enheter och -surfplattor (Android 4 och senare)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
