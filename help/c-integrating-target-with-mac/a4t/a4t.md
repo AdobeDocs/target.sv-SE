@@ -1,22 +1,25 @@
 ---
-keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as reporting source for target
-description: Använd Analytics för [!DNL Target] (A4T) för att skapa aktiviteter baserade på analysstatistik för konvertering och målgruppssegment och använd Analytics-rapporter för att undersöka resultaten.
-title: Vad är Analytics för [!DNL Target] (A4T)?
+keywords: a4t;analytics;analytics;analytics for target;analytics reporting source;adobe analytics as reporting source for target;atjs;at.js;adobe experience platform web sdk;platform web sdk;platform sdk
+description: Använd [!DNL Analytics] for [!DNL Target] (A4T) to create activities based on [!DNL Analytics] conversion metrics and audience segments and use [!DNL Analytics] rapporter för att undersöka resultaten.
+title: Vad är [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analyser för mål (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
 
-# Adobe Analytics som rapporteringskälla för Adobe [!DNL Target] (A4T)
+# [!DNL Adobe Analytics] som rapportkälla för  [!DNL Adobe Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) är en integrerad lösning som gör att ni kan skapa aktiviteter baserat på  [!DNL Analytics] konverteringsstatistik och målgruppssegment. Med A4T-integreringen kan du använda [!DNL Analytics]-rapporter för att undersöka dina resultat. Om du använder [!DNL Analytics] som rapportkälla för en aktivitet, baseras all rapportering och segmentering för den aktiviteten på [!DNL Analytics]-datainsamling.
 
-## A4T översikt {#section_92B66069210C40DBA937790E8CC596CF}
+>[!NOTE]
+>
+>Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (24 maj 2021).
+
+## Översikt {#section_92B66069210C40DBA937790E8CC596CF}
 
 Integrationen [!DNL Analytics for Target] mellan [!DNL Analytics] och [!DNL Target] ger kraftfulla analys- och tidsbesparande verktyg för optimeringsprogrammet.
 
@@ -24,17 +27,11 @@ De tre viktigaste fördelarna med att använda [!DNL Analytics]-data i [!DNL Tar
 
 * Marknadsförarna kan när som helst tillämpa [!DNL Analytics]-framgångsmått eller rapporteringssegment dynamiskt i [!DNL Target]-aktivitetsrapporter. Du behöver inte ange allt innan du kör aktiviteten.
 * En enda datakälla eliminerar den varians som uppstår när data samlas in i två olika system.
-* Din befintliga [!DNL Analytics]-implementering samlar in alla nödvändiga data. Det finns ingen anledning att implementera mbox på sidor enbart i syfte att samla in data för rapporter. Adobe rekommenderar fortfarande att du implementerar en orderbekräftelseruta för [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)-aktiviteter.
-
->[!IMPORTANT]
->
->Innan du kan börja använda A4T måste du begära integreringsetablering för ditt konto. Använd [det här formuläret](https://www.adobe.com/go/audiences) för att begära att bli etablerad.
->
->Integrationen som aktiverar [!DNL Analytics] som datakälla för [!DNL Target] (A4T) representerar nästa generation av plugin-programmet Test&amp;Target till SiteCatalyst. Detta plugin-program har tagits bort, men stöds fortfarande för kunder som redan använder det.
+* Din befintliga [!DNL Analytics]-implementering samlar in alla nödvändiga data. Det finns ingen anledning att implementera mbox på sidor enbart i syfte att samla in data för rapporter.
 
 Om du använder [!DNL Analytics] som rapportkälla för en aktivitet, baseras alla rapporter och segmenteringar för den aktiviteten på [!DNL Analytics].
 
-Alla [!DNL Analytics]-mått, inklusive beräknade värden, är tillgängliga i [!DNL Target] och i [!UICONTROL Target Activities]-rapporten i [!DNL Analytics]. På samma sätt kan alla segment som är tillgängliga i [!DNL Analytics] användas för båda lösningarna. Du kan använda måttet eller målgruppen för rapporten om [!DNL Target] efter att aktiviteten har startats, eller till och med efter att aktiviteten har slutförts.
+Alla [!DNL Analytics]-mått, inklusive beräknade värden, är tillgängliga i [!DNL Target] och i [!UICONTROL Target Activities]-rapporten i [!DNL Analytics], med ett undantag. Beräknade mått för [!UICONTROL Lift & Confidence] stöds inte. På samma sätt kan alla segment som är tillgängliga i [!DNL Analytics] användas för båda lösningarna. Du kan använda måttet eller målgruppen för rapporten om [!DNL Target] efter att aktiviteten har startats, eller till och med efter att aktiviteten har slutförts.
 
 Alla mått inkluderas, inklusive anpassade eller beräknade värden som är inbyggda i [!DNL Analytics].
 
@@ -45,36 +42,31 @@ Tänk på följande när du funderar på att använda A4T:
 * Om du vill använda [!DNL Analytics] som rapporteringskälla för [!DNL Target] måste både du och ditt företag ha tillgång till [!DNL Analytics] och till [!DNL Target]. [Kontakta din kontorepresentant ](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver någon av lösningarna.
 * Rapporteringskällan anges för varje aktivitet. [!DNL Target] fortsätter att samla in data som ska användas vid rapportering och  [!DNL Target] data är fortfarande tillgängliga om du föredrar att basera en aktivitet på data som samlats in av  [!DNL Target].
 * Använd en rapportkälla eller en annan. Du kan inte samla in data för en enskild aktivitet från båda källor.
-* När du använder A4T är alla framgångsmått som är tillgängliga för dina aktiviteter [!DNL Analytics]-mått. Måttet för ditt mål kan dock baseras på ett mbox-anrop. Du kan till exempel använda Target-funktionen för klick-spårning som är klar att användas med A4T i stället för att behöva implementera [!DNL Analytics] klickspårningskod.
+* När du använder A4T är alla framgångsmått som är tillgängliga för dina aktiviteter [!DNL Analytics]-mått. Måttet för ditt mål kan dock baseras på ett mbox-anrop om at.js används. Du kan till exempel använda Target-funktionen för klick-spårning som är klar att användas med A4T i stället för att behöva implementera [!DNL Analytics] klickspårningskod.
 * När du visar rapporter om en A4T-aktivitet i [!DNL Target]-gränssnittet visar du [!DNL Analytics]-data. Om du till exempel använder måttet [!UICONTROL Visitor] i [!DNL Target] använder du måttet [!DNL Analytics] [!UICONTROL Visitor], inte [!DNL Target] [!UICONTROL Visitors], som nu kallas [!UICONTROL Entrants]. Den här skillnaden är särskilt viktig för grundläggande trafikstatistik ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) och konverteringsmått.
 * Alla befintliga [!DNL Target]-aktiviteter fortsätter att använda [!DNL Target]-datainsamling och påverkas inte av att A4T aktiveras.
-* Endast ett mbox-baserat mått tillåts när [!DNL Analytics] används som rapportkälla.
-* Ett server-till-server-anrop från [!DNL Target] till [!DNL Analytics] skickar aktivitets- och upplevelseinformation till [!DNL Analytics]. Integrationen resulterar inte i fler serveranrop för antingen [!DNL Target] eller [!DNL Analytics].
+* Endast ett mbox-baserat mått tillåts när A4T används.
+* Ett server-till-server-anrop från [!DNL Target] till [!DNL Analytics] skickar aktivitets- och upplevelseinformation till [!DNL Analytics]. Integrationen resulterar inte i extra serveranrop för antingen [!DNL Target] eller [!DNL Analytics].
 
    I vissa situationer misslyckas klassificeringarna från [!DNL Target] till [!DNL Analytics] och aktiviteterna visar inte data i [!DNL Analytics]. Se [Felsöka integreringen med Analytics och Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Du kan även [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) om du behöver mer hjälp.
 
+## Implementera A4T
+
+Mer information om hur du implementerar A4T med at.js och [!DNL Adobe Experience Platform Web SDK] finns i [Analytics for [!DNL Target] implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+
 ## Aktivitetstyper som stöds {#section_F487896214BF4803AF78C552EF1669AA}
 
-I följande tabell visas vilka aktivitetstyper som stöder [!DNL Analytics] som rapportkälla i [!DNL Target] (A4T):
+Följande avsnitt innehåller information om vilka aktivitetstyper som stöds när du använder [!DNL Adobe Experience Platform Web SDK] eller at.js:
 
 | Typ av aktivitet | A4T-kompatibel? | Anteckningar, om tillämpligt |
 |--- |--- |--- |
-| A/B-aktivitet med manuell trafikdelning | Ja |  |
-| A/B-aktivitet med automatisk fördelning | Ja | Se [Stöd för A4T för Automatisk allokering och Automatisk målaktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| A/B-aktivitet med automål | Ja | Se [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
-| Experience Targeting (XT) | Ja |  |
-| Multivariata tester (MVT) | Ja | Kräver mbox-baserat målmätningsmål för att hämta [!UICONTROL Element Contribution]-rapporten. [!UICONTROL Element Contribution]-rapporten stöder för närvarande inte [!DNL Analytics]-mått. |
-| Automated Personalization-aktivitet (AP) | Nej |  |
-| Recommendations-aktivitet | Ja |  |
-| Mobilapp | Ja | Stöds med Mobile Services SDK, version 4.13.1 eller senare. Mer information finns i [Mobile Services-dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/using/home.html). |
-| E-post | Nej |  |
-| Leverans-API på serversidan | Ja | Mer information finns i [Serversida: implementera Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| NodeJS SDK | Ja | Mer information finns i [Serversida: implementera Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| AEM 6.1 (eller tidigare) Cloud Service Integration | Nej |  |
-| AEM 6.2 (eller senare) Cloud Service Integration | Ja | Mer information finns i [Integrera med Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) i dokumentationen för [!DNL Adobe Experience Manager] 6.2. |
-| Alla aktiviteter som använder ett omdirigeringserbjudande | Ja | Det finns strängare minimikrav för användning av omdirigeringserbjudanden med A4T. Mer information finns i [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Ja | Mer information finns i [Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) i guiden *Adobe Target SDK*. |
-| Java SDK | Ja | Mer information finns i [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) i guiden för *Adobe Target* SDK:er. |
+| [A/B-aktivitet med manuell trafikdelning](/help/c-activities/t-test-ab/test-ab.md) | Ja |  |
+| [A/B-aktivitet med automatisk fördelning](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Se [Stöd för A4T för Automatisk allokering och Automatisk målaktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| [A/B-aktivitet med automål](/help/c-activities/auto-target/auto-target-to-optimize.md) | Ja | Se [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| [Experience Targeting (XT)](/help/c-activities/t-experience-target/experience-target.md) | Ja |  |
+| [Multivariata tester (MVT)](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Kräver mbox-baserat målmätningsmål för att hämta [!UICONTROL Element Contribution]-rapporten. [!UICONTROL Element Contribution]-rapporten stöder för närvarande inte [!DNL Analytics]-mått. |
+| [Automated Personalization-aktivitet (AP)](/help/c-activities/t-automated-personalization/automated-personalization.md) | Nej |  |
+| [Recommendations-aktivitet](/help/c-recommendations/recommendations.md) | Ja |  |
 
 Eftersom alla aktivitetstyper ännu inte har stöd för A4T rekommenderar vi att du behåller eller implementerar viktiga konverteringsrutor, till exempel `orderConfirmPage`-rutan.
 
@@ -84,7 +76,7 @@ Om du vill visa A4T-rapporter i [!DNL Target] klickar du på **[!UICONTROL Activ
 
 >[!NOTE]
 >
->Du kan använda listrutan [!UICONTROL Reporting Source] högst upp på [!UICONTROL Activities]-sidan för att visa endast aktiviteter som använder [!DNL Analytics] som rapportkälla.
+>Du kan använda listrutan [!UICONTROL Reporting Source] högst upp på [!UICONTROL Activities]-sidan för att visa endast aktiviteter som använder A4T.
 
 Du kan växla mellan [!UICONTROL Table View] och [!UICONTROL Graph View] för rapporten genom att klicka på lämplig ikon längst upp till höger i rapporten.
 
@@ -102,7 +94,7 @@ Följande bild visar [!UICONTROL Table View] för en A4T-rapport:
 
 Om du vill visa rapporten i [!DNL Analytics] i stället för i [!DNL Target] klickar du på **[!UICONTROL View in Analytics]** längst upp i rapporten.
 
-## Analytics &amp; Target: Självstudiekursen om metodtips för analys {#section_3438E6E77A464424B717A4FD333B84B2}
+## Analytics &amp; Target: Självstudiekurs om metodtips för analys {#section_3438E6E77A464424B717A4FD333B84B2}
 
 Öppna [Analytics &amp; Target: Självstudiekursen Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), som tillhandahålls av [!DNL Adobe Experience League].
 
@@ -130,3 +122,11 @@ Den här videon handlar om inspelningen av &quot; [kontorstid](/help/cmp-resourc
 * Svar på vanliga frågor om A4T
 
 [Kontorstimmar för analys/målintegrering (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+
+>[!MORELIKETHIS]
+>
+>* [Analyser  [!DNL Target] för implementering](/help/c-integrating-target-with-mac/a4t/a4timplementation.md): Innehåller implementeringsinformation för at.js och Platform Web SDK.
+>* [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+* [Vad är Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)? Innehåller översiktsinformation om Platform Web SDK.
+* [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): Innehåller information som är specifik för  [!DNL Target] och  [!DNL Platform Web SDK].
+
