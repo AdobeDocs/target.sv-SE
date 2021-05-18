@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7eb44049a954f1f18c1e4a52d455d352d0fcfdf0
+source-git-commit: 031512e205fc26dd51ad5d586d8a68bbe0a26484
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Den här versionen tar också bort stöd för Microsoft Internet Explorer 10, In
 
 Den här versionen av [!DNL Platform Web SDK] har stöd för [!UICONTROL Analytics for Target] (A4T) för [!DNL Target]-omdirigeringar.
 
-## [!DNL Target Standard/Premium] 21.5.1 (25 maj 2021)
+## [!DNL Target Standard/Premium] 21.5.1 (8 juni 2021)
 
 Innehållet läggs till när releasedatum närmar sig.
 
