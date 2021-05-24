@@ -4,7 +4,7 @@ description: Använd [!DNL Analytics] for [!DNL Target] (A4T) to create activiti
 title: Vad är [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analyser för mål (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (24 maj 2021).
+>Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (1 juni 2021).
 
 ## Översikt {#section_92B66069210C40DBA937790E8CC596CF}
 
