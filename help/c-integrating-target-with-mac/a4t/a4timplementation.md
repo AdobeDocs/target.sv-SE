@@ -4,7 +4,7 @@ description: Följ stegen som krävs för att implementera lösningar med Analyt
 title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
 feature: Analyser för mål (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Flera steg krävs när du implementerar [!DNL Adobe Analytics] som rapportkälla
 
 >[!NOTE]
 >
->Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (24 maj 2021).
+>Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (1 juni 2021).
 
 I följande avsnitt beskrivs de steg som krävs för att distribuera integreringen till din webbplats om du tänker använda Platform Web SDK:
 
