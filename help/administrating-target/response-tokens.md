@@ -5,9 +5,9 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration och konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,11 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 1. Skapa en aktivitet.
 
-## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Platform Web SDK] badgemed objektklassen Handle
+## Lyssna efter svar och läs svarstoken
+
+Den process som du använder för att avlyssna [!DNL Target]-svar och läsa svarstoken skiljer sig åt beroende på om du har en [!DNL Platform Web SDK]- eller at.js-implementering.
+
+### ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Platform Web SDK] badgemed objektklassen Handle
 
 Använd objektklassen Handle, som har ett metadata-objekt och ett dataobjekt som ska avlyssna [!DNL Target]-svar och läsa svarstoken.
 
@@ -143,7 +147,7 @@ Följande kodexempel lägger till en [!DNL Platform Web SDK] anpassad händelseh
 | Meta | Metadata som skickas till sidan. |
 | Data | Värden för de metadata som skickats till sidan. |
 
-## ![at.js ](/help/assets/atjs.png) badgeat.js med anpassade händelser
+### ![at.js ](/help/assets/atjs.png) badgeat.js med anpassade händelser
 
 Använd [at.js anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
 
@@ -212,13 +216,17 @@ Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats f
 
 [!DNL Target] uppdaterar attribut med regelbundna intervall. Alla attribut som inte är aktiverade tas bort under nästa uppdatering. Om du har ett attribut som har aktiverats och tagits bort tas det skriptet inte bort från attributlistan förrän du har inaktiverat det. Du tog till exempel bort ett profilskript som användes som token. [!DNL Target] tar endast bort de inaktiverade attributen från listan när de tas bort eller byter namn.
 
-## ![AEP ](/help/assets/platform.png) badgeSkicka data till Google Analytics via Platform Web SDK
+## Skicka data till Google Analytics
+
+I följande avsnitt beskrivs hur du skickar [!DNL Target]-data till Google Analytics:
+
+### ![AEP ](/help/assets/platform.png) badgeSkicka data till Google Analytics via Platform Web SDK
 
 Google Analytics kan skicka data via Platform Web SDK version 2.5.0 (eller senare) genom att lägga till följande kod på HTML-sidan:
 
 (Kod kommer)
 
-## ![at.js ](/help/assets/atjs.png) badgeSkicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js ](/help/assets/atjs.png) badgeSkicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kan skicka data via at.js genom att lägga till följande kod på HTML-sidan:
 
