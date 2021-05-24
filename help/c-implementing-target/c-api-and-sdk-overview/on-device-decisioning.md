@@ -5,10 +5,9 @@ title: Vad är On-Device Decision?
 feature: Implementera serversidan
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-translation-type: tm+mt
-source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -46,3 +45,7 @@ Fler videoklipp och självstudiekurser finns i guiden [Adobe Target Tutorials](h
 ## Adobe Tech Blog - Del 1: Kör [!DNL Adobe Target] NodeJS SDK för experiment och personalisering på kantplattformar (Akamai Edge Workers)
 
 [Klicka här för att komma åt blogginlägget](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9).
+
+## Adobe Tech Blog - Del 2: Kör [!DNL Adobe Target] NodeJS SDK för experiment och personalisering på kantplattformar (AWS Lambda@Edge)
+
+[Klicka här för att komma åt blogginlägget](https://medium.com/adobetech/part-2-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-aws-4d6bdac24563).
