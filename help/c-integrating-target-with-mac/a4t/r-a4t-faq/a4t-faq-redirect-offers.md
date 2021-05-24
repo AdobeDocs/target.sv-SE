@@ -4,9 +4,9 @@ description: Hitta svar på frågor om hur du använder omdirigeringserbjudanden
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analyser för mål (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Med [!DNL at.js] version 0.9.6 (eller senare) och [!DNL AppMeasurement.js] 2.1 (
 
 Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T). Från [!DNL Target]-perspektivet är HTML-erbjudanden ogenomskinliga: [!DNL Target] vet inte om en viss del av HTML innehåller JavaScript som initierar en omdirigering.
 
-## Har [!DNL Adobe Experience Platform Web SDK] stöd för omdirigeringserbjudanden för A4T? {#platform}
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) badgeFinns det  [!DNL Adobe Experience Platform Web SDK] stöd för omdirigeringserbjudanden för A4T? {#platform}
 
 Följande vanliga frågor och svar innehåller mer information om hur du använder A4T och omdirigeringserbjudanden med [!DNL Platform Web SDK].
 
