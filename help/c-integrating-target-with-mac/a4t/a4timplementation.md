@@ -4,9 +4,9 @@ description: Följ stegen som krävs för att implementera lösningar med Analyt
 title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
 feature: Analyser för mål (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: efa796edf3cd4da718fdcb0dbfd3d6f635ebf401
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Flera steg krävs när du implementerar [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T). Processen varierar beroende på om du implementerar A4T med [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) eller med at.js.
 
-## Implementeringssteg för en Adobe Experience Platform Web SDK-implementering {#platform}
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) badgeImplementeringssteg för en Adobe Experience Platform Web SDK-implementering {#platform}
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ I gränssnittet för [!DNL Target] klickar du på **[!UICONTROL Administration]*
 * **[!UICONTROL Select per activity]** gör att du kan välja mellan  [!DNL Target] och  [!DNL Analytics] när du skapar varje aktivitet.
 * **[!UICONTROL Adobe Analytics]** anger  [!DNL Analytics] som rapportkälla för alla aktiviteter som du skapar.
 
-## Implementeringssteg för en at.js-implementering{#section_73961BAD5BB4430A95E073DE5C026277}
+## ![at.js ](/help/assets/atjs.png) badgeImplementeringssteg för en at.js-implementering{#section_73961BAD5BB4430A95E073DE5C026277}
 
 I följande avsnitt beskrivs de steg som krävs för att distribuera den här integreringen till din webbplats om du tänker använda at.js:
 
