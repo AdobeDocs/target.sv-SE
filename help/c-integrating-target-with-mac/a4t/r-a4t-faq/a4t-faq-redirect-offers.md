@@ -4,7 +4,7 @@ description: Hitta svar på frågor om hur du använder omdirigeringserbjudanden
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analyser för mål (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1349'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Följande vanliga frågor och svar innehåller mer information om hur du använd
 
 >[!NOTE]
 >
->Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (24 maj 2021).
+>Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (1 juni 2021).
 
 ### Har Analytics for Target (A4T) stöd för omdirigeringserbjudanden?
 
