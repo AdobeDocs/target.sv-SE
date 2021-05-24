@@ -5,9 +5,9 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration och konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 >[!NOTE]
 >
->Svarstoken är tillgängliga med [!DNL Adobe Experience Platform Web SDK] version 2.5.0 eller senare (version schemalagd till 24 maj 2021) och med at.js version 1.1 eller senare.
+>Svarstoken är tillgängliga med [!DNL Adobe Experience Platform Web SDK] version 2.5.0 eller senare (version schemalagd till 1 juni 2021) och med at.js version 1.1 eller senare.
 
 | Mål-SDK | Föreslagna åtgärder |
 |--- |--- |
@@ -212,13 +212,13 @@ Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats f
 
 [!DNL Target] uppdaterar attribut med regelbundna intervall. Alla attribut som inte är aktiverade tas bort under nästa uppdatering. Om du har ett attribut som har aktiverats och tagits bort tas det skriptet inte bort från attributlistan förrän du har inaktiverat det. Du tog till exempel bort ett profilskript som användes som token. [!DNL Target] tar endast bort de inaktiverade attributen från listan när de tas bort eller byter namn.
 
-## Skicka data till Google Analytics via Platform Web SDK
+## ![AEP ](/help/assets/platform.png) badgeSkicka data till Google Analytics via Platform Web SDK
 
 Google Analytics kan skicka data via Platform Web SDK version 2.5.0 (eller senare) genom att lägga till följande kod på HTML-sidan:
 
 (Kod kommer)
 
-## Skicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.js ](/help/assets/atjs.png) badgeSkicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kan skicka data via at.js genom att lägga till följande kod på HTML-sidan:
 
@@ -288,7 +288,7 @@ Google Analytics kan skicka data via at.js genom att lägga till följande kod p
 
 I följande avsnitt finns information om felsökning av svarstoken:
 
-### Google Analytics och felsökning
+### ![at.js ](/help/assets/atjs.png) badgeGoogle Analytics och debugging
 
 Med följande kod kan du felsöka med Google Analytics:
 
@@ -405,7 +405,7 @@ Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom a
 </script>
 ```
 
-## Utbildningsvideo: Responstoken och at.js Custom Events ![Tutorial badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.](/help/assets/atjs.png) jsTraining Video: Svarstoken och anpassade at.js-händelser {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 I följande video förklaras hur du använder svarstoken och anpassade at.js-händelser för att dela profilinformation från [!DNL Target] till tredjepartssystem.
 
