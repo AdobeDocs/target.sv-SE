@@ -2,15 +2,14 @@
 keywords: aktivitetsguide;aktiviteter;aktivitet;aktivitetstyper;aktivitetsåtgärder
 description: Ladda ned en interaktiv PDF som beskriver de olika aktivitetstyperna i Adobe Target.
 title: Vilka aktivitetstyper finns i Target?
-feature: Activities
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+feature: Verksamhet
+exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
+source-git-commit: 882f656ee2f534e39ad608d06829c2bea463a029
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
-
 
 # Målaktivitetstyper
 
@@ -53,7 +52,7 @@ Hämta en interaktiv PDF som beskriver de olika aktivitetstyperna i [!DNL Adobe 
 | Multivariate Testing (MVT) | Är känd i statistik.<br/>Har ett eller flera erbjudanden.<br/>Vill analysera konverteringstrender som relaterar till interaktioner för sidelement. |
 | Experience Targeting (XT) | Måste leverera en specifik upplevelse eller innehållsdel till en viss målgrupp. |
 
-## Statistik {#section_22CF2D07DB054505AB5EC702B99A5BB0}
+## Statistikinformation {#section_22CF2D07DB054505AB5EC702B99A5BB0}
 
 | Typ av aktivitet | Detaljer |
 |--- |--- |
@@ -69,8 +68,8 @@ Hämta en interaktiv PDF som beskriver de olika aktivitetstyperna i [!DNL Adobe 
 | Typ av aktivitet | Fördelar | Överväganden |
 |--- |--- |--- |
 | Manuellt A/B-test | A/B-testning ger er en fullständig förståelse för hur varje upplevelse fungerar, utöver det som fungerar bäst. | Om du i ett A/B-test tittar på testresultaten innan provstorleken har nåtts riskerar du att förlita dig på felaktiga resultat (du kan inte &quot;tjuvkika&quot; tidigare!).</br>Det beror på att trafikfördelningen, till skillnad från Automatisk fördelning, i ett A/B-test förblir fast även när du känner igen att vissa upplevelser är bättre än andra. |
-| Automatisk allokering | Automatisk allokering minskar kostnaden för ett vanligt A/B-test eftersom det har en högre total konverteringsgrad än ett manuellt A/B-test. Konverteringsgraden är högre eftersom Automatisk allokering medför att mer trafik överförs till den mest presterande upplevelsen, vilket innebär att du kan dra nytta av den vinnande upplevelsen tidigare än slutet av testperioden (du kan titta!). | Automatisk fördelning identifierar vinnaren men skiljer sig inte åt mellan förlorarna. Om ni behöver veta hur varje upplevelse fungerar är A/B-testning att föredra.</br>Funktionen Automatisk allokering fungerar bara med en avancerad måttinställning, som är &quot;Öka antal och Behåll användare i aktivitet&quot;.Det innebär att om du inte vill räkna antalet upprepade konverteringar bör du använda A/B-testning i stället.  Autoallokering kan inte använda rapporter i A4T. |
-| Automatiskt mål | Med Auto-Target används maskininlärning på alla typer av upplevelser, inklusive flersidiga upplevelser. Du kan också utnyttja Automated Personalization och använda det välbekanta A/B-testningsarbetsflödet. | Om du vill ändra innehållet i dina erbjudanden ofta eller ofta med hjälp av Automatiskt mål behöver algoritmen tillräckligt med tid efter varje ändring för att kunna utnyttja det man lär sig och faktiskt leverera det innehållet till rätt besökare.</br>Automål kan inte använda rapporter i A4T. |
+| Automatisk allokering | Automatisk allokering minskar kostnaden för ett vanligt A/B-test eftersom det har en högre total konverteringsgrad än ett manuellt A/B-test. Konverteringsgraden är högre eftersom Automatisk allokering medför att mer trafik överförs till den mest presterande upplevelsen, vilket innebär att du kan dra nytta av den vinnande upplevelsen tidigare än slutet av testperioden (du kan titta!). | Automatisk fördelning identifierar vinnaren men skiljer sig inte åt mellan förlorarna. Om ni behöver veta hur varje upplevelse fungerar är A/B-testning att föredra.</br>Funktionen Automatisk allokering fungerar bara med en avancerad måttinställning, som är &quot;Öka antal och Behåll användare i aktivitet&quot;.Det innebär att om du inte vill räkna antalet upprepade konverteringar bör du använda A/B-testning i stället. |
+| Automatiskt mål | Med Auto-Target används maskininlärning på alla typer av upplevelser, inklusive flersidiga upplevelser. Du kan också utnyttja Automated Personalization och använda det välbekanta A/B-testningsarbetsflödet. | Om du vill ändra innehållet i dina erbjudanden ofta eller ofta med hjälp av Automatiskt mål behöver algoritmen tillräckligt med tid efter varje ändring för att kunna utnyttja det man lär sig och faktiskt leverera det innehållet till rätt besökare. |
 | Automated Personalization (AP) | Med Automated Personalization kan ni samla alla era erbjudanden på ett och samma ställe, och algoritmen tar helt enkelt fram den bästa kombinationen av dem. Ni behöver inte specificera eller bygga enskilda upplevelser. Automated Personalization använder samma maskininlärningsalgoritmer som Auto-Target. | När ni kombinerar flera olika erbjudanden sker en explosion i kombination, vilket leder till ett behov av en betydande mängd trafik. Automated Personalization algoritm står för en stor mängd faktorer. därför att det krävs så mycket trafik som möjligt.</br>Automated Personalization kan inte använda rapporter i A4T. |
 | Multivariate Testing (MVT) | Med Multivariate Testing kan du testa flera element samtidigt. | Ett multivariat-test är tidskrävande, och på grund av de många variabler som spelas upp är det inte nödvändigtvis en vinnande upplevelse med tillförsikt.</br>Det är ofta en utmaning att nå den mängd trafik som krävs för att slutföra testet. Eftersom alla multivariata testexperiment är helt faktoriella kan alltför många varierande element på en gång snabbt resultera i ett mycket stort antal möjliga kombinationer som måste testas.</br>Även en webbplats med ganska hög trafik kan ha problem med att slutföra ett test med mer än 25 kombinationer på en rimlig tid. |
 | Experience Targeting (XT) | Med Experience Targeting kan ni snabbt agera utifrån insikter från alla aktivitetsresultat.</br>Om du till exempel gjorde ett A/B-test där utmanaren inte utförde kontrollen, men resultaten visar att ett mycket specifikt segment av besökare faktiskt konverterade 4x mer med utmanaren än de gjorde med kontrollen, kan du använda Experience Targeting för att dirigera utmanarupplevelsen till just det segmentet. | Med Experience Targeting kan ni inte styra den procentuella delningen av en upplevelse över flera målgrupper. |
