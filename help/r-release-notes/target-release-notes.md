@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14e1a71bbebbf8baec09df41e3e08f89bb64a4e0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 24 maj 2021**
+**Senast uppdaterad: 25 maj 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
@@ -36,7 +36,9 @@ Den här versionen av [!DNL Platform Web SDK] har stöd för följande:
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juni 2021)
 
-Innehållet läggs till när releasedatum närmar sig.
+| Funktion | Detaljer |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] badgeAPI | Sök i din [!DNL Recommendations]-produkt och innehållskatalog programmatiskt via API för att identifiera objekt som matchar ett sökvillkor och förenkla katalogadministrationen.<br>**Begränsningar och anteckningar**:<ul><li>Katalogsökning via API stöds inte i miljöer med fler än 2 000 000 objekt.</li><li>Katalogsökresultat via API uppdateras snabbare än katalogsökresultat via användargränssnittet i [!DNL Target]. Katalogsökningen i gränssnittet [!DNL Target] kan ta ytterligare tid att återspegla de senaste resultaten.</li></ul>Mer information finns i [Söka efter entiteter](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) i *[!DNL Adobe Target]API*-handboken.[!DNL Recommendations] |
 
 ## [!DNL Target Standard/Premium] 21.5.2 (Datum som ska fastställas)
 
