@@ -5,10 +5,9 @@ title: Hur använder jag regler för dynamisk och statisk inkludering i Recommen
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b2416c1b7930ed28622e7e6cb68f2fad7ab7f2a9
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Information om hur du skapar inkluderingsregler för villkor och kampanjer i [!D
 
 Processen för att skapa och använda inkluderingsregler för kriterier och kampanjer liknar den för användningsexempel och exempel. Både kriterier och kampanjer och användningen av inkluderingsregler omfattas av detta avsnitt.
 
-## Lägger till filtreringsregler i villkor {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
+## Lägga till filtreringsregler i villkor {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
 När du [skapar villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) klickar du på **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
 
@@ -86,7 +85,7 @@ I följande exempel ges allmänna idéer om hur ni kan använda dynamiska kampan
 | Listan innehåller ett objekt i<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;list contains an item in&quot; i profilattributsmatchningen kan du befordra andra element som är:<ul><li>Associerad med en av besökarens favoritteam</li></ul>**Exempel**: Du vill rekommendera spel som är kopplade till någon av besökarens favoritteam.<br>Din filtreringsregel kan se ut så här:<br>` teamsPlaying list contains an item in user.favoriteTeams`<br>**Obs**! När du använder den här operatorn förväntas en lista på  [båda ](#caveats) sidor om regeln. |
 | Listan innehåller inte något objekt i<br>(tillgängligt med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;list does not contain an item in&quot; i parameterattributmatchning kan du utesluta andra objekt som är:<ul><li>Finns i en lista över förbjudna typer</li></ul>**Exempel**: Du vill utesluta produkter som är tillgängliga för besökare som är vuxna, som tobak och alkohol.<br>Din filtreringsregel kan se ut så här:<br>`itemType is not contained in list mbox.prohibitedTypes`<br>**Obs**! När du använder den här operatorn förväntas en lista på  [båda ](#caveats) sidor om regeln. |
 | Listan innehåller alla objekt i<br>(Tillgängligt med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;list contains all items in&quot; i profilattributsmatchning kan du befordra andra element som:<ul><li>Inkludera en uppsättning färdigheter</li><li>Inkludera en uppsättning obligatoriska ingredienser</li></ul>**Exempel 1**: Anta att en besökare har en uppsättning färdigheter (Java, C++ och HTML). Objekten i katalogen är jobb med nödvändiga kunskaper (Java och HTML). Du vill se till att besökarprofilen innehåller alla nödvändiga kunskaper innan du rekommenderar jobbet till besökaren.<br>Din filtreringsregel kan se ut så här:<br>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<br>**Exempel 2**: Anta att en användare har en lista med ingredienser i buksmärtor. Mottagaren har en lista över obligatoriska ingredienser. Du måste se till att besökarens profil innehåller alla nödvändiga ingredienser innan du rekommenderar receptet till besökaren.<br>Din filtreringsregel kan se ut så här:<br>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<br>**Obs**! När du använder den här operatorn förväntas en lista på  [båda ](#caveats) sidor om regeln. |
-| Listan innehåller inte alla objekt i<br> (tillgänglig med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;list does not contain all items in&quot; i entitetsattributmatchningen kan du befordra andra element som:<ul><li>Inkludera inte en uppsättning team</li></ul>**Exempel**: Anta att ett idrottsevenemang omfattar två lag: Houston Astros och Milwaukee Brewers. Besökarens profil anger att besökaren inte vill visa spel för dessa team. Du bör se till att du inte rekommenderar ett spel om dessa team spelar.<br>Din filtreringsregel kan se ut så här:<br>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<br>**Obs**! När du använder den här operatorn förväntas en lista på  [båda ](#caveats) sidor om regeln. |
+| Listan innehåller inte alla objekt i<br> (tillgänglig med matchning av enhetsattribut, matchning av profilattribut och parametermatchning.) | Om du använder operatorn&quot;list does not contain all items in&quot; i entitetsattributmatchningen kan du befordra andra element som:<ul><li>Inkludera inte en uppsättning team</li></ul>**Exempel**: Anta att ett idrottsevenemang omfattar två lag. Besökarens profil anger att besökaren inte vill visa spel för dessa team. Du bör se till att du inte rekommenderar ett spel om dessa team spelar.<br>Din filtreringsregel kan se ut så här:<br>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<br>**Obs**! När du använder den här operatorn förväntas en lista på  [båda ](#caveats) sidor om regeln. |
 
 ## Hantera tomma värden vid filtrering efter entitetsattributmatchning, matchning av profilattribut och parametermatchning {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
