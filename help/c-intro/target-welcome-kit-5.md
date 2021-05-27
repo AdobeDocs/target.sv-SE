@@ -4,10 +4,9 @@ description: Var kan jag hitta idéer och inspiration för mina testnings- och p
 title: Var kan jag hitta inspiration till mina test- och personaliseringssatsningar?
 feature: Översikt
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ När ni har identifierat dessa målgrupper kan ni testa användarupplevelser och
 
 När en besökare som tillhör en&quot;seriös spelpublik&quot; för ett telekommunikationsföretag besöker företagets webbplats, kan han till exempel leverera en upplevelse som omfattar text och bilder som efterfrågas med spelarna och ett erbjudande om höghastighetsinternet.
 
-## Idea 2: [!DNL Target] förstagångsbesökare och repetera kunder annorlunda.
+## Idea 2: Rikta in er på förstagångsbesökare och upprepa kunderna annorlunda.
 
 Digitala marknadsförare inser intuitivt att befintliga kunder är mer värdefulla än nya, men de lyckas alltför ofta inte prioritera marknadsföringsprogram som utformats för att få kunderna att komma tillbaka. För att undvika detta vanliga fallgrop bör ni analysera era upprepade kunddata för att avgöra hur lojala kunder beter sig på er webbplats. Använd dessa insikter för att skapa riktade kampanjer för besökare med ett eller två köp, vilket ger dem incitament att göra fler webbplatsbesök.
 
