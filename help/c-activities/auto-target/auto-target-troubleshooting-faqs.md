@@ -4,10 +4,9 @@ description: Utforska felsökningsämnen och vanliga frågor och svar om Automat
 title: Hur felsöker jag Automatiskt inriktade aktiviteter?
 feature: Automatiskt mål
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -33,7 +32,7 @@ Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Target]-aktiv
 
 * Försök att inte göra några större ändringar av upplevelserna under aktivitetens gång.
 
-### Rekommenderar du att vi använder Auto [!DNL Target] med en 90(Control)/10(Target)-delning tills modellerna har byggts?
+### Rekommenderar du att vi använder [!UICONTROL Auto Target] med en 90(Kontroll)/10(Mål) delning tills modellerna har byggts?
 
 Din optimala trafikallokeringsdelning beror på vad du vill uppnå.
 
