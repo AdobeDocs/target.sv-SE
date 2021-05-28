@@ -5,9 +5,9 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration och konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,14 @@ Den process som du använder för att avlyssna [!DNL Target]-svar och läsa svar
 
 Använd objektklassen Handle, som har ett metadata-objekt och ett dataobjekt som ska avlyssna [!DNL Target]-svar och läsa svarstoken.
 
-Följande kodexempel lägger till en [!DNL Platform Web SDK] anpassad händelsehanterare direkt på HTML-sidan:
+I följande svarsexempel läggs en anpassad [!DNL Platform Web SDK]-händelsehanterare till direkt på HTML-sidan (tabellen förklarar vilka objekt som används i koden):
+
+| Objekt | Information |
+| --- | --- |
+| Typ - Personalization.Decision | Anger om beslutet fattades av [!DNL Target]- eller Offer decisioning-providern. |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] innehåller metadata och värden för svarstoken för sidan. |
+| Meta | Metadata som skickas till sidan. |
+| Data | Värden för de metadata som skickas till sidan. |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ Följande kodexempel lägger till en [!DNL Platform Web SDK] anpassad händelseh
 
 </html>
 ```
-
-| Objekt | Information |
-| --- | --- |
-| Typ - Personalization.Decision | [!DNL Target] och data om Offera decisioningar skickas här. |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] innehåller metadata och värden för svarstoken för sidan. |
-| Meta | Metadata som skickas till sidan. |
-| Data | Värden för de metadata som skickats till sidan. |
 
 ### ![at.js ](/help/assets/atjs.png) badgeat.js med anpassade händelser
 
@@ -218,7 +218,7 @@ Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats f
 
 ## Skicka data till Google Analytics
 
-I följande avsnitt beskrivs hur du skickar [!DNL Target]-data till Google Analytics:
+I följande avsnitt beskrivs hur du skickar [!DNL Target]-data till Google Analytics. Data som skickas av svarstoken kan också skickas till andra tredjepartsintegreringar.
 
 ### ![AEP ](/help/assets/platform.png) badgeSkicka data till Google Analytics via Platform Web SDK
 
