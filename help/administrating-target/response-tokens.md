@@ -1,13 +1,13 @@
 ---
 keywords: svarstoken;tokens;plugins;plugin-program;at.js;response
-description: Lär dig hur du använder svarstoken i Adobe [!DNL Target] utdataspecifik information för felsökning och integrering med tredjepartssystem (som Clicktale).
+description: Lär dig hur du använder svarstoken i Adobe [!DNL Target] utdataspecifik information för felsökning och integrering med verktyg från tredje part.
 title: Vad är svarstoken och hur använder jag dem?
 feature: Administration och konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1611'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,16 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 >[!NOTE]
 >
->Svarstoken är tillgängliga med [!DNL Adobe Experience Platform Web SDK] version 2.5.0 eller senare (version schemalagd till 1 juni 2021) och med at.js version 1.1 eller senare.
+>Svarstoken är tillgängliga med [!DNL Adobe Experience Platform Web SDK] version 2.6.0 eller senare (version schemalagd till 1 juni 2021) och med at.js version 1.1 eller senare.
 
 | Mål-SDK | Föreslagna åtgärder |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Kontrollera att du använder Platform Web SDK version 2.5.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i *översikten för Platform Web SDK*-guiden. Information om de nya funktionerna i respektive version av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i *översikten för Platform Web SDK*-handboken. |
+| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i *översikten för Platform Web SDK*-guiden. Information om de nya funktionerna i respektive version av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i *översikten för Platform Web SDK*-handboken. |
 | [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Information om de nya funktionerna i varje version av at.js finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som är beroende av interna metoder som finns i mbox.js, men inte i at.js, levereras men misslyckas. Mer information finns i [at.js-begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 
 ## Använda svarstoken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Kontrollera att du använder Platform Web SDK version 2.5.0 (eller senare) eller at.js version 1.1 (eller senare).
+1. Kontrollera att du använder Platform Web SDK version 2.6.0 (eller senare) eller at.js version 1.1 (eller senare).
 
    Mer information:
 
@@ -176,7 +176,7 @@ Följande kodexempel lägger till en [!DNL at.js] anpassad händelsehanterare di
 
 Svarstoken kan bara aktiveras eller inaktiveras av användare med rollen [!DNL Target] [!UICONTROL Administrator].
 
-**Vad händer om jag kör [!DNL Platform Web SDK] 2.5.0 (eller tidigare)?
+**Vad händer om jag kör [!DNL Platform Web SDK] 2.6.0 (eller tidigare)?
 
 Du har inte åtkomst till svarstoken.
 
@@ -222,9 +222,60 @@ I följande avsnitt beskrivs hur du skickar [!DNL Target]-data till Google Analy
 
 ### ![AEP ](/help/assets/platform.png) badgeSkicka data till Google Analytics via Platform Web SDK
 
-Google Analytics kan skicka data via Platform Web SDK version 2.5.0 (eller senare) genom att lägga till följande kod på HTML-sidan:
+Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) genom att lägga till följande kod på HTML-sidan.
 
-(Kod kommer)
+>[!NOTE]
+>
+>Kontrollera att svarstokennyckelvärdepar finns under `alloy(“sendEvent”`-objektet.
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![at.js ](/help/assets/atjs.png) badgeSkicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
