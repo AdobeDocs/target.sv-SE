@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14e1a71bbebbf8baec09df41e3e08f89bb64a4e0
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 25 maj 2021**
+**Senast uppdaterad: 28 maj 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
@@ -25,7 +25,7 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 >
 >Om du vill undvika eventuella problem med dina platser migrerar du till den senaste versionen av det nya [!DNL Adobe Experience Platform Web SDK]- eller at.js-JavaScript-biblioteket. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1 juni 2021)
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.6.0 (1 juni 2021)
 
 Den här versionen av [!DNL Platform Web SDK] har stöd för följande:
 
