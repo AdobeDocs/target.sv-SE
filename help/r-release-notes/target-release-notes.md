@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 28 maj 2021**
+**Senast uppdaterad: 1 juni 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
@@ -24,15 +24,6 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 >**mbox.js - utgånget**: 31 mars 2021 har  [!DNL Adobe Target] inte längre stöd för mbox.js-biblioteket. Efter den 31 mars 2021 misslyckas alla anrop från mbox.js på ett säkert sätt och påverkar de sidor där [!DNL Target]-aktiviteter körs genom att standardinnehåll används.
 >
 >Om du vill undvika eventuella problem med dina platser migrerar du till den senaste versionen av det nya [!DNL Adobe Experience Platform Web SDK]- eller at.js-JavaScript-biblioteket. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.6.0 (1 juni 2021)
-
-Den här versionen av [!DNL Platform Web SDK] har stöd för följande:
-
-| Funktion | Detaljer |
-| --- | --- |
-| Omdirigeringsstöd med [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK har nu stöd för [!DNL Target]-omdirigeringar när [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) används.<br>Mer information finns i  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
-| Svarstoken | Platform Web SDK har nu stöd för [!DNL Target]-svarstoken.<br>Mer information finns i  [Svarstoken](/help/administrating-target/response-tokens.md). |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juni 2021)
 
