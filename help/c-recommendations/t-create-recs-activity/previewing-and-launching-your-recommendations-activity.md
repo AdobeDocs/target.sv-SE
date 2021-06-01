@@ -4,8 +4,7 @@ description: 'Lär dig hur du förhandsgranskar din Adobe [!DNL Target] Recommen
 title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f4972f04906cb3476f50abedd6cec847e015daf9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -77,7 +76,7 @@ Om du använder en QA-länk kan du förhandsgranska rekommendationerna på sidan
 >* Mål-QA-läget är&quot;klisterlöst&quot; och sparas i en cookie. Om du inte avslutar QA-läget kommer du att fortsätta se QA-resultaten på hela webbplatsen. Om du vill avsluta QA-läget använder du [bokmärket](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
    >
    >
-* När du är i QA-läge kommer surfning av webbplatsen inte att påverka din profils [!UICONTROL Recently Viewed Items] eller [!UICONTROL Recently Purchased Items].&quot; Detta beteende sker genom design för att undvika oavsiktlig förorening av produktionsbeteendedata. Om du vill förhandsgranska resultat från ett [!UICONTROL Recently Viewed Items]- eller [!UICONTROL User-Based Recommendations]-villkor bläddrar du först till platsen utanför QA-läget och använder sedan samma session för att öppna en länk för QA-läge.
+* När du är i QA-läge kommer surfning av webbplatsen inte att påverka din profils [!UICONTROL Recently Viewed Items] eller [!UICONTROL Recently Purchased Items]. Detta beteende sker genom design för att undvika oavsiktlig förorening av produktionsbeteendedata. Om du vill förhandsgranska resultat från ett [!UICONTROL Recently Viewed Items]- eller [!UICONTROL User-Based Recommendations]-villkor bläddrar du först till platsen utanför QA-läget och använder sedan samma session för att öppna en länk för QA-läge.
 
 
 ## Använda CSV-nedladdning för att förhandsgranska rekommendationer
