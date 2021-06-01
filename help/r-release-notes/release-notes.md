@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.6.0 (1 juni 2021)
+
+Den här versionen av [!DNL Platform Web SDK] har stöd för följande:
+
+| Funktion | Detaljer |
+| --- | --- |
+| Omdirigeringsstöd med [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK har nu stöd för [!DNL Target]-omdirigeringar när [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) används.<br>Mer information finns i  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Svarstoken | Platform Web SDK har nu stöd för [!DNL Target]-svarstoken.<br>Mer information finns i  [Svarstoken](/help/administrating-target/response-tokens.md). |
 
 ## at.js version 2.5.0 (13 maj 2021)
 
