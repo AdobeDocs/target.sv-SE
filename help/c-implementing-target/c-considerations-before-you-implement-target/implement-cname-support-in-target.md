@@ -5,10 +5,9 @@ title: Hur använder jag CNAME i Target?
 feature: Integritet och säkerhet
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -140,6 +139,13 @@ Använd följande kommandouppsättning (i kommandoradsterminalen macOS eller Lin
    >[!NOTE]
    >
    >Om det här kommandot misslyckas men kommandot `validateEdgeFpsslSni` lyckas väntar du tills DNS-uppdateringarna är helt spridda. DNS-poster har en associerad [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) som anger cacheförfallotid för DNS-svar för dessa poster. Därför kan du behöva vänta åtminstone så länge som TTL:erna är klara. Du kan använda kommandot `dig target.example.com` eller [G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) för att leta upp dina specifika TTL-värden.
+
+### Hur använder jag en länk för avanmälan med CNAME?
+
+Om du använder CNAME bör länken för avanmälan innehålla parametern &quot;client=`clientcode`:
+`https://my.cname.domain/optout?client=clientcode`.
+
+Ersätt `clientcode` med din klientkod och lägg sedan till texten eller bilden som ska länkas till [avanmälnings-URL](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
 
 ## Kända begränsningar
 
