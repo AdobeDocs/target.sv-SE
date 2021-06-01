@@ -5,10 +5,9 @@ title: Hur hämtar jag data till [!DNL Target] Använda API:t för uppdatering a
 feature: Implementering
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -41,6 +40,7 @@ Uppdaterar endast profiler. Det går inte att skapa en profil för en potentiell
 
 GET och POST stöds. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
-## Länkar till relevant information
+>[!MORELIKETHIS]
+>
+>* [Uppdaterar profiler](https://developers.adobetarget.com/api/#updating-profiles)
 
-[Uppdaterar profiler](https://developers.adobetarget.com/api/#updating-profiles)
