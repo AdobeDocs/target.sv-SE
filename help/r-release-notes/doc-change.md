@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | --- | --- | --- |
 | 1 juni | [CNAME och [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Följande frågor och svar har lagts till:<ul><li>Hur använder jag en länk för avanmälan med CNAME?</li></ul> |
 |  | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Avsnittet&quot;Avanmäl dig&quot; har uppdaterats för att förklara hur du använder länken för avanmälan med CNAME. |
+|  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Lagt till information om [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Analyser  [!DNL Target] för implementering](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Nytt avsnitt har lagts till:<ul><li>Implementeringssteg för en [!DNL Adobe Experience Platform Web SDK]-implementering</li></ul> |
+|  | [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Lagt till information om hur du använder omdirigeringserbjudanden med A4T och Platform Web SDK. |
+|  | [Svarstoken](/help/administrating-target/response-tokens.md) | Lagt till information om att använda svarstoken med [!DNL Adobe Experience Platform Web SDK]. |
 | 27 maj | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Avsnittet för [!DNL Target] API-anrop har lagts till. Gränsen är 50 anrop per minut. |
 | 20 maj | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Länk har lagts till i följande blogginlägg på Adobe Tech Blog:<ul><li>Adobe Tech Blog - Del 2: Kör [!DNL Adobe Target] NodeJS SDK för experiment och personalisering på kantplattformar (AWS Lambda@Edge)</li></ul> |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till: &quot;Arkivering av [!UICONTROL Auto Target]-aktiviteter kan orsaka synkroniseringsproblem.&quot; |
