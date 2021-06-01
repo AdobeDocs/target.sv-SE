@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 1 juni | [CNAME och [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Följande frågor och svar har lagts till:<ul><li>Hur använder jag en länk för avanmälan med CNAME?</li></ul> |
+|  | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Avsnittet&quot;Avanmäl dig&quot; har uppdaterats för att förklara hur du använder länken för avanmälan med CNAME. |
 | 27 maj | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Avsnittet för [!DNL Target] API-anrop har lagts till. Gränsen är 50 anrop per minut. |
 | 20 maj | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Länk har lagts till i följande blogginlägg på Adobe Tech Blog:<ul><li>Adobe Tech Blog - Del 2: Kör [!DNL Adobe Target] NodeJS SDK för experiment och personalisering på kantplattformar (AWS Lambda@Edge)</li></ul> |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till: &quot;Arkivering av [!UICONTROL Auto Target]-aktiviteter kan orsaka synkroniseringsproblem.&quot; |
