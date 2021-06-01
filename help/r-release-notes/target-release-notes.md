@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Den här versionen av [!DNL Platform Web SDK] har stöd för följande:
 
 | Funktion | Detaljer |
 | --- | --- |
-| Omdirigeringsstöd med [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK har nu stöd för [!DNL Target]-omdirigeringar när A4T används. Omdirigeringserbjudanden i [!DNL Adobe Target] gör att en webbläsare dirigerar om till en ny sida. |
-| Svarstoken | Platform Web SDK har nu stöd för [!DNL Target]-svarstoken. Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Adobe Target] till ditt varumärkes webbsida. Den här informationen kan innehålla information om aktivitet, erbjudande, upplevelse, användarprofil, geo-information med mera. De här detaljerna ger extra svarsdata att dela med interna eller externa system eller att använda för felsökning. |
+| Omdirigeringsstöd med [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK har nu stöd för [!DNL Target]-omdirigeringar när A4T används. Omdirigeringserbjudanden i [!DNL Adobe Target] gör att en webbläsare dirigerar om till en ny sida.<br>Mer information finns i Omdirigeringserbjudanden. |
+| Svarstoken | Platform Web SDK har nu stöd för [!DNL Target]-svarstoken.<br> Med responstoken kan ni automatiskt få ut information som är specifik  [!DNL Adobe Target] för ert varumärkes webbsida. Den här informationen kan innehålla information om aktivitet, erbjudande, upplevelse, användarprofil, geo-information med mera. De här detaljerna ger extra svarsdata att dela med interna eller externa system eller att använda för felsökning.<br>Mer information finns i  [Svarstoken](/help/administrating-target/response-tokens.md). |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juni 2021)
 
