@@ -5,10 +5,9 @@ title: Hur hanterar [!DNL Target] sekretessfrågor?
 feature: Integritet och säkerhet
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -45,14 +44,18 @@ Om du aktiverar ersättning av den sista oktetten i IP-adressen kan de återstå
 
 Om IP-adresserna är helt dolda är inte GeoSegmentation och geoanpassning tillgängliga.
 
-## Avanmäl länk {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Länk för avanmälan {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Du kan lägga till en länk för att avanmäla dig till webbplatserna så att besökarna kan avanmäla sig från allt innehåll och allt som ingår i räkningen.
 
 1. Lägg till följande länk till din webbplats:
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
-1. Ersätt `clientcode`-texten med klientkoden och lägg till texten eller bilden som ska länkas till avanmälnings-URL:en.
+
+1. (Villkorligt) Om du använder CNAME ska länken innehålla parametern &quot;client=`clientcode`, till exempel:
+https://my.cname.domain/optout?client=clientcode.
+
+1. Ersätt `clientcode` med din klientkod och lägg till texten eller bilden som ska länkas till avanmälnings-URL:en.
 
 Besökare som klickar på den här länken tas inte med i några mbox-förfrågningar som anropas från webbläsarsessionerna förrän de tar bort sina cookies, eller under två år, beroende på vilket som inträffar först. Detta fungerar genom att ange en cookie för besökaren med namnet `disableClient` i domänen `clientcode.tt.omtrdc.net`.
 
