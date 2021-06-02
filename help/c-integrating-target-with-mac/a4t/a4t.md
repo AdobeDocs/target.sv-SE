@@ -4,9 +4,9 @@ description: Använd [!DNL Analytics] for [!DNL Target] (A4T) to create activiti
 title: Vad är [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analyser för mål (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14dfc3e19333848e50324a61539ddf693e17d3ce
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 # [!DNL Adobe Analytics] som rapportkälla för  [!DNL Adobe Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) är en integrerad lösning som gör att ni kan skapa aktiviteter baserat på  [!DNL Analytics] konverteringsstatistik och målgruppssegment. Med A4T-integreringen kan du använda [!DNL Analytics]-rapporter för att undersöka dina resultat. Om du använder [!DNL Analytics] som rapportkälla för en aktivitet, baseras all rapportering och segmentering för den aktiviteten på [!DNL Analytics]-datainsamling.
-
->[!NOTE]
->
->Stöd för A4T i en [!DNL Adobe Experience Platform Web SDK]-implementering som beskrivs i den här artikeln är schemalagd att vara tillgänglig med version 2.5.0 av [!DNL Platform Web SDK] (1 juni 2021).
 
 ## Översikt {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -67,6 +63,7 @@ Följande avsnitt innehåller information om vilka aktivitetstyper som stöds n�
 | [Multivariata tester (MVT)](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Kräver mbox-baserat målmätningsmål för att hämta [!UICONTROL Element Contribution]-rapporten. [!UICONTROL Element Contribution]-rapporten stöder för närvarande inte [!DNL Analytics]-mått. |
 | [Automated Personalization-aktivitet (AP)](/help/c-activities/t-automated-personalization/automated-personalization.md) | Nej |  |
 | [Recommendations-aktivitet](/help/c-recommendations/recommendations.md) | Ja |  |
+| [Alla aktiviteter som använder ett omdirigeringserbjudande](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Ja |
 
 Eftersom alla aktivitetstyper ännu inte har stöd för A4T rekommenderar vi att du behåller eller implementerar viktiga konverteringsrutor, till exempel `orderConfirmPage`-rutan.
 
