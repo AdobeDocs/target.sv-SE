@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 3 juni | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om Adobe Target Community Q&amp;A Coffee Break som ska hållas onsdagen den 9 juni 2021 kl. 8.00. (PDT, GMT-7). |
 | 1 juni | [CNAME och [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Följande frågor och svar har lagts till:<ul><li>Hur använder jag en länk för avanmälan med CNAME?</li></ul> |
 |  | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Avsnittet&quot;Avanmäl dig&quot; har uppdaterats för att förklara hur du använder länken för avanmälan med CNAME. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Lagt till information om [!DNL Adobe Experience Platform Web SDK]. |
