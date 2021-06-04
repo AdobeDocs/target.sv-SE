@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 92223e71001804d4649e5cb613810e632bec44c9
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 0%
@@ -25,7 +25,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Lagt till information om [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Analyser  [!DNL Target] för implementering](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Nytt avsnitt har lagts till:<ul><li>Implementeringssteg för en [!DNL Adobe Experience Platform Web SDK]-implementering</li></ul> |
 |  | [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Lagt till information om hur du använder omdirigeringserbjudanden med A4T och Platform Web SDK. |
-|  | [Svarstoken](/help/administrating-target/response-tokens.md) | Lagt till information om att använda svarstoken med [!DNL Adobe Experience Platform Web SDK].<br>**Obs**: Den här funktionen kommer att lanseras i en framtida version av Platform Web SDK. Datum som ska fastställas. |
+|  | [Svarstoken](/help/administrating-target/response-tokens.md) | Lagt till information om att använda svarstoken med [!DNL Adobe Experience Platform Web SDK].<br>**Obs**: Den här funktionen kommer att lanseras i en framtida version av Platform Web SDK (datum som ska fastställas). |
 |  | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om Adobe Experience Platform Web SDK 2.6.0 (1 juni 2021). |
 | 27 maj | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Avsnittet för [!DNL Target] API-anrop har lagts till. Gränsen är 50 anrop per minut. |
 | 20 maj | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Länk har lagts till i följande blogginlägg på Adobe Tech Blog:<ul><li>Adobe Tech Blog - Del 2: Kör [!DNL Adobe Target] NodeJS SDK för experiment och personalisering på kantplattformar (AWS Lambda@Edge)</li></ul> |
