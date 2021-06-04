@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Den här versionen av [!DNL Platform Web SDK] har stöd för följande:
 | Funktion | Detaljer |
 | --- | --- |
 | Omdirigeringsstöd med [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK har nu stöd för [!DNL Target]-omdirigeringar när [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) används.<br>Mer information finns i  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
-| Svarstoken | Platform Web SDK har nu stöd för [!DNL Target]-svarstoken.<br>Mer information finns i  [Svarstoken](/help/administrating-target/response-tokens.md). |
 
 ## at.js version 2.5.0 (13 maj 2021)
 
