@@ -5,9 +5,9 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration och konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 >[!NOTE]
 >
->Svarstoken är tillgängliga med [!DNL Adobe Experience Platform Web SDK] version 2.6.0 eller senare och med at.js version 1.1 eller senare.
+>Svarstoken är tillgängliga med at.js version 1.1 eller senare.
+
+>[!IMPORTANT]
+>
+>Funktioner för svarstoken med [!DNL Adobe Experience Platform Web SDK] kommer att vara tillgängliga i en framtida version (datum som ska fastställas). Dokumentationen nedan om svarstoken och Platform Web SDK inkluderas som en smygtopp.
 
 | Mål-SDK | Föreslagna åtgärder |
 |--- |--- |
