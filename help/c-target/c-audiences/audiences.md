@@ -1,24 +1,27 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;målgrupp;målgrupp;rapportmålgrupp;segment;anpassade profilparametrar;målgruppsdefinition;målgruppslista
-description: Lär dig hur du använder publiksidan i Adobe [!DNL Target] och hur du visar Audience Definition-kort som innehåller målgruppsinformation och användningsinformation.
+description: Lär dig hur du använder [!UICONTROL Audiences]-listan i Adobe [!DNL Target] och hur du visar Audience Definition-kort som innehåller målgruppsinformation och användningsinformation.
 title: Hur använder jag målgruppslistan?
 feature: Målgrupper
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 06a5fda72a649c4037cb78d3e670747cd297a64d
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
 
 # Skapa målgrupper
 
-Publiken i Adobe Target avgör vilka som får se innehåll och upplevelser i en målinriktad aktivitet.
+Publiken i [!DNL Adobe Target] avgör vem som ser innehåll och upplevelser i en riktad aktivitet.
 
-Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. När du riktar in dig på en aktivitet kan du antingen välja en återanvändbar målgrupp i [!UICONTROL Audiences]-listan, [skapa en aktivitetsspecifik målgrupp](/help/c-target/creating-activity-only-audience.md) och rikta in den eller [kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa en ad hoc-målgrupp.
+Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. När du riktar in dig på en aktivitet kan du ha följande alternativ:
 
-Du kan också använda målgruppsdata som samlats in av [!DNL Analytics] för målgruppsanpassning och personalisering i realtid i [!DNL Adobe Target] och andra [!DNL Experience Cloud]-lösningar. Se [Målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *Användarhandbok för bastjänster*.
+* Välj en återanvändbar målgrupp i [!UICONTROL Audiences]-listan
+* [Skapa en aktivitetsspecifik ](/help/c-target/creating-activity-only-audience.md) målgrupp och rikta den mot
+* [Kombinera flera ](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) målgrupper för att skapa en ad hoc-målgrupp
+
+Du kan också använda målgruppsdata som samlats in av [!DNL Adobe Analytics] för målgruppsanpassning och personalisering i realtid i [!DNL Target] och andra [!DNL Adobe Experience Cloud]-program. Se [Experience Cloud Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i guiden *Experience Cloud Central Interface Components*.
 
 [!DNL Target] definierar två typer av målgrupper:
 
@@ -27,40 +30,46 @@ Du kan också använda målgruppsdata som samlats in av [!DNL Analytics] för m�
 
    I [!DNL Target] kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du använder [Adobe Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper inom [!DNL Analytics].
 
-## Använda publiklistan
+## Använd listan [!UICONTROL Audiences]
 
 Du öppnar listan [!UICONTROL Audiences] genom att klicka på **[!UICONTROL Audiences]** i det övre menyfältet:
 
-![Publiklista](assets/audiences_list.png)
+![[!UICONTROL Audiences] list](/help/c-target/c-audiences/assets/audiences_list.png)
 
-Listan [!UICONTROL Audiences] innehåller alla målgrupper som du kan använda i dina aktiviteter. Använd listan [!UICONTROL Audiences] för att skapa, redigera, ta bort, kopiera eller kombinera målgrupper. Listan visar också källan där målgruppen skapades ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] o.s.v.). Det går inte att byta namn på fördefinierade målgrupper, t.ex.&quot;Nya besökare&quot; och&quot;Återkommande besökare&quot;.
+Listan [!UICONTROL Audiences] innehåller alla målgrupper som du kan använda i dina aktiviteter. Använd listan [!UICONTROL Audiences] för att skapa, redigera, ta bort, kopiera eller kombinera målgrupper. Listan visar också källan där målgruppen skapades ([!DNL Target], [!DNL Target Classic] och [!DNL Experience Cloud]. Det går inte att byta namn på fördefinierade målgrupper, t.ex. [!UICONTROL New Visitors] och [!UICONTROL Returning Visitors].
 
-När du arbetar med målgrupper som ursprungligen skapades i AAM får du ett varningsmeddelande från Target om du refererar till en målgrupp i Target-aktiviteter som senare har tagits bort i AAM.
+När du arbetar med målgrupper som ursprungligen skapades i [!DNL Experience Cloud] får du en varning från Target om du refererar till en målgrupp i [!DNL Target]-aktiviteter som senare har tagits bort i [!DNL Experience Cloud].
 
-* Om en målgrupp togs bort i AAM visas en varningsikon både i [!UICONTROL Audience]-listan och i målgruppsväljaren. Ett verktygstips i användargränssnittet anger också att målgruppen togs bort i AAM.
+* Om en målgrupp togs bort i [!DNL Experience Cloud] visas en varningsikon både i [!UICONTROL Audience]-listan och i målgruppsväljaren. Ett verktygstips i användargränssnittet anger också att målgruppen togs bort i [!DNL Experience Cloud].
 * Om du försöker kombinera flera målgrupper med en borttagen målgrupp, eller om du försöker spara en aktivitet som refererar till en borttagen målgrupp, visas ett varningsmeddelande.
 
-Du kan också ange anpassade profilparametrar och `user.`-parametrar som mål. När du lägger till en målgrupp klickar du på **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]** och väljer sedan den parameter som du vill använda som mål för aktiviteten. Om den önskade parametern inte visas har parametern inte utlösts av en mbox. Andra anpassade mbox-parametrar är tillgängliga i listrutan [!UICONTROL Custom Parameters].
+Du kan också ange anpassade profilparametrar och `user.`-parametrar som mål. När du lägger till en målgrupp klickar du på attributet som du vill använda för att ange aktiviteten som mål. Om det önskade attributet inte visas har attributet inte utlösts av en mbox. Andra anpassade mbox-parametrar är tillgängliga i listrutan [!UICONTROL Custom Parameters].
 
-Använd sökrutan för att söka i din [!UICONTROL Audiences]-lista. Du kan söka efter valfri del av ett målgruppsnamn eller omge en viss sträng med citattecken.
+Använd knappen [!UICONTROL Filters] för att filtrera listan [!UICONTROL Audiences] efter källa: [!DNL Adobe Target], [!DNL Adobe Target Classic] och [!DNL Experience Cloud].
+
+![Alternativet Filter i  [!UICONTROL Audiences] listan](/help/c-target/c-audiences/assets/filters.png)
+
+Använd rutan [!UICONTROL Search audiences] för att söka i din [!UICONTROL Audiences]-lista. Du kan söka efter valfri del av ett målgruppsnamn eller omge en viss sträng med citattecken.
 
 Du kan sortera listan [!UICONTROL Audiences] efter målgruppsnamn eller efter det datum då den senast ändrades. Om du vill sortera efter namn eller datum klickar du på kolumnrubriken och väljer sedan att visa målgrupper i stigande eller fallande ordning.
 
 ## Visa målgruppsdefinitioner {#section_11B9C4A777E14D36BA1E925021945780}
 
-Du kan visa information om målgruppsdefinitioner på ett popup-kort på olika platser i målgränssnittet utan att öppna målgruppen. Den här funktionen gäller målgrupper som skapats i Target Standard/Premium och målgrupper som importerats från Target Classic eller skapats via API.
+Du kan visa information om målgruppsdefinitioner på ett popup-kort på olika platser i målgränssnittet utan att öppna målgruppen. Den här funktionen gäller för målgrupper som skapats i [!DNL Target Standard/Premium] och målgrupper som importerats från [!DNL Target Classic] eller skapats via API.
 
-Du kommer till exempel åt följande grafikkort genom att hovra över en målgrupp i publiklistan och sedan klicka på ikonen Visa:
-
-![Verksamheter > Målgruppsdefinition](assets/audience_definition_list.png)
-
-Du kommer åt följande målgruppsdefinitionskort genom att klicka på ikonen Visa på en aktivitets översiktssida:
+Du kommer till exempel åt följande grafikkort genom att klicka på ikonen [!UICONTROL View Details] för den önskade målgruppen:
 
 ![Verksamheter > Målgruppsdefinition](assets/audience_definition_list.png)
 
-Klicka på fliken [!UICONTROL Audience Usage] för att se andra aktiviteter som refererar till den målgruppen, om tillämpligt. På så sätt kan du undvika oavsiktlig påverkan på andra aktiviteter när du redigerar målgrupper. Informationen omfattar live-aktiviteter, inaktiva aktiviteter, arkiverade aktiviteter och synkroniseringsaktiviteter. Den här funktionen är tillgänglig för alla målgrupper (biblioteksmålgrupper och [målgrupper som endast är aktivitetsspecifika](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Du kommer åt följande målgruppsdefinitionskort genom att klicka på ikonen [!UICONTROL View Details] på en aktivitets [!UICONTROL Overview]-sida:
 
-Om en målgrupp kombineras med en annan målgrupp och den kombinerade målgruppen används för att skapa en aktivitet, kommer användarinformationen för båda målgrupperna att visa den nyskapade aktiviteten.
+![Verksamheter > Målgruppsdefinition](/help/c-target/c-audiences/assets/view-details-activity-overview.png)
+
+Målgruppsdefinitionskortet visar målgruppens typ, källa och attribut. Klicka på **[!UICONTROL View full details]** om du vill se andra aktiviteter som refererar till den målgruppen, om tillämpligt. Om du visar ett målgruppsdefinitionskort från en aktivitets [!UICONTROL Overview]-sida klickar du på **[!UICONTROL Audience Usage]**.
+
+Målgruppsinformationen kan hjälpa er att undvika oavsiktlig påverkan på andra aktiviteter samtidigt som ni redigerar målgrupper. Informationen omfattar live-aktiviteter, inaktiva aktiviteter, arkiverade aktiviteter och synkroniseringsaktiviteter. Den här funktionen är tillgänglig för alla målgrupper (biblioteksmålgrupper och [målgrupper som endast är aktivitetsspecifika](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+
+Om en målgrupp kombineras med en annan målgrupp och den kombinerade målgruppen används för att skapa en aktivitet, listar användarinformationen för båda målgrupperna den nyskapade aktiviteten.
 
 ![](assets/audience_definition_list_usage.png)
 
