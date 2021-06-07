@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,19 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## Target Standard/Premium 21.6.1 (7 juni 2021)
+
+Den här versionen innehåller följande förbättringar:
+
+| Funktion | Detaljer |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] badgeAPI | Sök i din [!DNL Recommendations]-produkt och innehållskatalog programmatiskt via API för att identifiera objekt som matchar ett sökvillkor och förenkla katalogadministrationen.<br>**Begränsningar och anteckningar**:<ul><li>Katalogsökning via API stöds inte i miljöer med fler än 2 000 000 objekt.</li><li>Katalogsökresultat via API uppdateras snabbare än katalogsökresultat via användargränssnittet i [!DNL Target]. Katalogsökningen i gränssnittet [!DNL Target] kan ta ytterligare tid att återspegla de senaste resultaten.</li></ul>Mer information finns i [Söka efter entiteter](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) i *[!DNL Adobe Target]API*-handboken.[!DNL Recommendations] |
+
+Den här versionen innehåller följande korrigeringar.
+
+* Ett problem som gjorde att standardarbetsytan ändrades till en annan arbetsyta när sidan [!UICONTROL Audiences] uppdaterades har åtgärdats. (TGT-38871)
+* Korrigerade ett fel i [!UICONTROL Administration] > [!UICONTROL Implementation] som ibland orsakade ett felmeddelande med texten &quot;Din globala mbox kanske inte är synkroniserad. Försök spara om den.&quot;
 
 ## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1 juni 2021)
 
@@ -39,23 +52,6 @@ Den här versionen av at.js innehåller följande förbättringar och ändringar
 * [Förhandsgranska ](/help/c-activities/c-activity-qa/activity-qa.md) länkarstöd för Automated Personalization-aktiviteter
 
 Den här versionen tar också bort stöd för Microsoft Internet Explorer 10, Internet Explorer 11 och alla äldre versioner. Microsoft Edge stöds fortfarande i at.js 2.5.0 och senare.
-
-## Target Standard/Premium 21.4.1 (19 april 2021)
-
-Den här versionen innehåller följande nya funktioner och förbättringar. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
-
-| Funktion | Detaljer |
-| --- | --- |
-| Beslutsstöd på enheten för at.js<br>(datum ska tillkännages) | Med enhetsbaserad beslutsfattande kan marknadsförare och utvecklare leverera experiment och personalisering i en användares webbläsare med nästan nolltidsfördröjning.<br>Mer information finns i  [Enhetsbeslut för at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![PremiumList-](/help/assets/premium.png) baserade operatorer för entitetsfiltreringsregler | [!DNL Target Recommendations] stöder nya listbaserade operatorer för entitetsfiltreringsregler. (TGT-39234)<br>Operatorer som lagts till nyligen är:<br><ul><li>Finns i listan</li><li>Finns inte i listan</li><li>Listan innehåller ett objekt i</li><li>Listan innehåller inget objekt i</li><li>Listan innehåller alla objekt i</li><li>Listan innehåller inte alla objekt i</li></ul>Mer information finns i&quot;Tillgängliga operatorer&quot; i [Använd dynamiska och statiska inkluderingsregler](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
-
-Den här versionen innehåller följande korrigeringar.
-
-* Korrigerade ett problem som förhindrade en aktivitet från att synkroniseras efter att målgruppen ändrats till [!UICONTROL All Visitors]. (TGT-40259)
-* Korrigerade ett problem som förhindrade att erbjudanden duplicerades när de användes på olika platser i [!UICONTROL Automated Personalization]-aktiviteter trots att alternativet [!UICONTROL Disallow Duplicates] är aktiverat. (TGT-39567)
-* Ett problem som gjorde att sidan [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] inte kunde läsas in korrekt har åtgärdats. (TGT-39918)
-* Korrigerade ett problem som gjorde att egenskaper mappades till fel arbetsyta. (TGT-39869)
-* Korrigerade ett problem som orsakade oändlig inläsning om begäran misslyckas efter att miljön ändrats och ett rekommendationsundantag skapades. (TGT-39948)
 
 ## Ytterligare versionsinformation
 
