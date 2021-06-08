@@ -4,8 +4,7 @@ description: Lär dig hur Adobe [!DNL Target] works, including information about
 title: Hur fungerar [!DNL Target] funktionen?
 feature: Översikt
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2547'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om [!DNL Adobe Experience Platform Web SDK]- och JavaScript-biblioteken (at.js och mbox.js). I den här artikeln beskrivs även de olika aktivitetstyper som du kan skapa med [!DNL Target]. Du kan också lära dig mer om gränsnätverket [!DNL Target], sökmotoroptimering (SEO) och hur [!DNL Target] identifierar robotar.
 
-## [!DNL Target] SDK:er och JavaScript-bibliotek för plattformar  {#libraries}
+## [!DNL Target] SDK:er och JavaScript-bibliotek för plattformar {#libraries}
 
 [!DNL Target] integreras med webbplatser med hjälp av  [!DNL AEP Web SDK] eller JavaScript-bibliotek:
 
@@ -33,7 +32,7 @@ Referera till [!DNL AEP Web SDK] eller at.js på alla sidor på webbplatsen. Du 
 Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera AEP Web SDK eller at.js:
 
 * [Adobe Experience Platform Web SDK-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [ [!DNL Target] Implementera med Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementera [!DNL Target] med Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Varje gång en besökare begär en sida som har optimerats för [!DNL Target] skickas en begäran till målsystemet. Begäran hjälper till att avgöra vilket innehåll som ska användas för besökaren. Den här processen utförs i realtid. Varje gång en sida läses in görs en begäran om innehållet och utförs av systemet. Innehållet styrs av reglerna för marknadsföringsstyrda aktiviteter och upplevelser och är riktat till den enskilda besökaren. Innehållet får det att varje besökare mest sannolikt svarar på, interagerar med eller till slut köper. Personaliserat innehåll hjälper till att maximera svarsfrekvenser, förvärvsfrekvens och intäkter.
 
@@ -92,7 +91,7 @@ Recommendations-aktiviteter visar automatiskt produkter eller innehåll som kan 
 
 Mer information finns i [Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
-## Edge-nätverket {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## Edge Network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 En&quot;Edge&quot; är en geografiskt fördelad serverarkitektur som ger optimal svarstid för besökare som behöver innehåll, oavsett var i världen de befinner sig.
 
@@ -153,7 +152,7 @@ Adobe skyddar användarupplevelsen genom att optimera och skydda prestanda.
 * Adobe har en strategi där flera nivåer används för att säkra sina tillämpningar, vilket ger högsta möjliga tillgänglighet och tillförlitlighet för kunderna.
 * [!DNL Target] Konsulttjänster ger implementeringshjälp och fortlöpande produktsupport.
 
-## SEO-vänlig testning {#concept_C0C865663CAB4251B66A1F250FD25E6A} (Search Engine Optimization)
+## SEO-testning (Search Engine Optimization) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] anpassar sig till riktlinjer för sökmotorer vid testning.
 
@@ -180,7 +179,7 @@ Riktlinjer presenterades i ett [Google Webmaster Central-blogg](https://webmaste
 
    Adobe fortsätter att leta efter användbara lösningar som helt överensstämmer med riktlinjerna för sökmotorer. För de kunder som måste använda separata URL:er för testning är Adobe säker på att en korrekt implementering av de kanoniska taggarna minskar riskerna med den här metoden.
 
-* **Kör endast experiment så länge det behövs**: Adobe anser att &quot;så länge det behövs&quot; är så lång som det behövs för att uppnå statistisk signifikans. [!DNL Target] [innehåller bästa ](https://docs.adobe.com/content/target-microsite/testcalculator.html) praxis för att avgöra när ditt test har nått denna punkt. Adobe rekommenderar att du inkluderar den hårdkodade implementeringen av vinnande tester i ditt testarbetsflöde och tilldelar lämpliga resurser.
+* **Kör endast experiment så länge det behövs**: Adobe anser att &quot;så länge det behövs&quot; är så lång som det behövs för att uppnå statistisk signifikans. [!DNL Target] [innehåller bästa ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) praxis för att avgöra när ditt test har nått denna punkt. Adobe rekommenderar att du inkluderar den hårdkodade implementeringen av vinnande tester i ditt testarbetsflöde och tilldelar lämpliga resurser.
 
    Du bör inte använda plattformen [!DNL Target] för att&quot;publicera&quot; vinnande tester som en permanent lösning. Om det vinnande testet publiceras för 100 % av användarna 100 % av tiden kan det här tillvägagångssättet användas medan processen med att hårdkoda det vinnande testet slutförs.
 
@@ -198,7 +197,7 @@ Google visar som exempel att&quot;om en webbplats originalsida läses in med nyc
 
 Adobe anser att det skulle vara svårt att oavsiktligt ändra innebörden av det ursprungliga innehållet i testvariationerna. Adobe rekommenderar dock att du är medveten om nyckelordsteman på en sida och underhåller dessa teman. Ändringar av sidinnehåll, särskilt när du lägger till eller tar bort relevanta nyckelord, kan leda till att URL:en rangordnas vid organisk sökning. Adobe rekommenderar att du samarbetar med din SEO-partner som en del av testprotokollet.
 
-## Börjar {#bots}
+## Bots {#bots}
 
 Adobe [!DNL Target] använder [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/)-måttet &quot;isRobot&quot; för att identifiera kända botar baserat på användaragentsträngen som skickades i begärandehuvudet.
 
