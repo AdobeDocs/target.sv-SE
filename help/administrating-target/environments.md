@@ -5,10 +5,9 @@ title: Vad är miljöer och hur använder jag dem?
 feature: Administration och konfiguration
 role: Administrator
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,14 +26,17 @@ Om du vill hantera miljöer klickar du på **[!UICONTROL Administration]** > **[
 
 ![Miljölista](/help/administrating-target/assets/environments.png)
 
-## Lägg till en miljö {#section_32097D0993724DF3A202D164D3F18674}
+## Lägga till en miljö {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Klicka på **[!UICONTROL Add Environment]** i listan [!UICONTROL Environments].
 1. Ange ett beskrivande namn för miljön.
 1. Ange önskat aktivt läge för miljön: [!UICONTROL Active Activities] eller [!UICONTROL Active and Inactive Activities].
+
+   Om du anger [!UICONTROL Active and Inactive Activities] visar värdar från den här miljön även inaktiva aktiviteter.
+
 1. Klicka på **[!UICONTROL Save]**.
 
-## Ange standardmiljön för rapportering av {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Ange standardmiljö för rapportering {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Du kan välja den miljö som du vill använda som standard för alla aktivitetsrapporter.
 
