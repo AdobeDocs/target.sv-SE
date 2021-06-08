@@ -4,8 +4,7 @@ description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test 
 title: Hur länge ska jag köra ett A/B-test?
 feature: A/B-tester
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3042'
 ht-degree: 0%
@@ -42,7 +41,7 @@ Mer information finns i [Översikt över automatisk allokering](/help/c-activiti
 
 Om du väljer att använda en manuell [!UICONTROL A/B Test]-aktivitet i stället för [!UICONTROL Auto-Allocate], kan du med [!DNL Target] Sample Size Calculator avgöra vilken provstorlek som behövs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är användbart. Det är valfritt att använda beräkningsverktyget för en [!UICONTROL Auto-Allocate]-aktivitet eftersom [!UICONTROL Auto-Allocate] deklarerar en vinnare åt dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
 
-Gå till Adobe Target [exempel på storlekskalkylator](https://docs.adobe.com/content/target-microsite/testcalculator.html) innan du konfigurerar A/B-testet.
+Gå till Adobe Target [exempel på storlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) innan du konfigurerar A/B-testet.
 
 ![Beräkna exempelstorlek för Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -70,7 +69,7 @@ Bilden nedan visar de fyra möjliga resultaten av ett A/B-test:
 
 Det är önskvärt att inte få några falska positiva eller falska negativ. Det går dock aldrig att garantera att nollvärdet för falskt positiva värden uppnås genom ett statistiskt test. Det är alltid möjligt att observerade trender inte är representativa för de underliggande konverteringssatserna. I ett test för att se om det var mer sannolikt att huvuden eller klave på ett mynt, även med ett rättvist mynt, skulle man kunna få tio huvuden på tio av slumpen. Den statistiska signifikansen och kraften hjälper oss att kvantifiera de falskt positiva och falska negativa frekvenserna och göra det möjligt för oss att hålla dem på rimliga nivåer för ett givet test.
 
-### Statistisk signifikans {#section_8230FB9C6D1241D8B1786B72B379C3CD}
+### Statistisk betydelse {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
 Betydelsenivån för ett test avgör hur sannolikt det är att testet rapporterar en betydande skillnad i konverteringsgraden mellan två olika erbjudanden när det i själva verket inte finns någon verklig skillnad. Denna situation kallas falskt positiv eller ett Type I-fel. Signaturnivån är ett tröskelvärde som anges av användaren och är en kompromiss mellan toleransen för falska positiva värden och antalet besökare som måste ingå i testet.
 
@@ -92,7 +91,7 @@ Det rekommenderas att alltid använda en konfidensnivå på 95% eller högre.
 
 Det är önskvärt att använda högsta möjliga konfidensnivå så att testet ger ett fåtal falskt positiva resultat. En högre konfidensnivå kräver dock ett större antal besökare, vilket ökar den tid som krävs för att göra testet. Dessutom leder en ökning av konfidensnivån till en minskning av den statistiska styrkan.
 
-### Statistisk effekt {#section_1169C27F8E4643719D38FB9D6EBEB535}
+### Statistisk styrka {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
 Den statistiska effekten av ett A/B-test är sannolikheten att upptäcka en verklig skillnad i konverteringsgrad av en viss storlek. På grund av den slumpmässiga (stokastiska) typen av konverteringshändelser är det möjligt att en statistiskt signifikant skillnad inte observeras - bara av en slump - även om det finns en verklig skillnad i konverteringsgrad mellan de två erbjudandena. Detta scenario kallas ett falskt negativt eller ett Type II-fel.
 
@@ -102,7 +101,7 @@ Det är önskvärt att ha en hög statistisk styrka så att testet har en stor c
 
 Ett vanligen använt värde för statistisk effekt är 80 %, vilket innebär att det finns en 80-procentig risk för att testet upptäcker en skillnad som motsvarar den minsta tillförlitliga lyften som kan detekteras. Testet har en lägre sannolikhet att upptäcka mindre hissar och en större sannolikhet att upptäcka större hissar.
 
-### Minsta tillförlitliga lyft {#section_6101367EE9634C298410BBC2148E33A9}
+### Påvisbar minimihiss {#section_6101367EE9634C298410BBC2148E33A9}
 
 De flesta organisationer vill mäta minsta möjliga skillnad i konverteringsgrad, eftersom även en liten ökning är värd att implementera. Om du vill att A/B-testet ska ha stor sannolikhet för att upptäcka en liten hiss, är antalet besökare som måste ingå i testet oöverkomligt stort. Skälet till detta är att om skillnaden i konverteringsgrad är liten måste båda konverteringssatserna beräknas med stor noggrannhet för att identifiera skillnaden, vilket kräver många besökare. Därför bör minsta tillförlitliga påkänningsbar lyft fastställas utifrån affärskraven med hänsyn till avvägningen mellan detektering av små hissar och körning av testet under längre tidsperioder.
 
@@ -118,7 +117,7 @@ På grund av den stora överlappningen mellan de två intervallen kan testet int
 
 I det här fallet är det osannolikt att testet kommer till en felaktig slutsats, så testet med 5 000 besökare kan skilja mellan de två erbjudandena. Testet med 5 000 besökare har ett konfidensintervall på cirka +/-1 %. Det innebär att testet kan identifiera skillnader på cirka 1 %. Därför skulle ännu fler besökare behövas om den sanna konverteringsgraden för erbjudandena till exempel var 10 % och 10,5 % istället för 10 % och 15 %.
 
-### Baslinjekonverteringsgrad {#section_39380C9CA3C649B6BE6E1F8A06178B05}
+### Baslinjekonvertering {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
 Baslinjekonverteringsgraden är konverteringsgraden för kontrollerbjudandet (erbjudande A). Ofta har ni en bra uppfattning om hur stor konverteringsgraden är för erbjudandet baserat på tidigare erfarenheter. Om så inte är fallet, till exempel på grund av att det är en ny typ av erbjudande eller kreativ, kan testet köras under en dag eller så för att få en ungefärlig uppskattning av den baslinjekonverteringsgrad som kan användas vid beräkningen av provstorleken.
 
@@ -138,7 +137,7 @@ I det här exemplet kan du bestämma att det räcker att identifiera en lyft på
 
 Vi rekommenderar att den nödvändiga tiden alltid avrundas uppåt till närmaste hela vecka, så att veckodagens effekter undviks. I det här exemplet skulle testet därför köras i två veckor innan resultaten utvärderas.
 
-### Intäkter per besök Mått {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Intäkter per besök, mått {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 När du använder Intäkter per besök (RPV) som mätvärde läggs ytterligare en varianskälla till, eftersom RPV är produkten av intäkt per order och konverteringsgrad (RPV = Intäkter / #besökare = (Intäkt per order * #order) / # besökare = Intäkt per order * (#besökare * CTR) / #besökare = Intäkt per order * CTR), var och en med sin egen varians. Variansen i konverteringsgraden kan uppskattas direkt med hjälp av en matematisk modell, men variationen i intäkt per order är specifik för aktiviteten. Använd därför kunskap om denna avvikelse från tidigare aktiviteter eller kör A/B-testet under några dagar för att uppskatta intäktsavvikelsen. Avvikelsen beräknas utifrån värdena för Sum of Sales, Sum of Sales Squared och Number of Visitors som finns i CSV-nedladdningsfilen. När detta är fastställt använder du kalkylbladet för att beräkna den tid som krävs för att slutföra testet.
 
