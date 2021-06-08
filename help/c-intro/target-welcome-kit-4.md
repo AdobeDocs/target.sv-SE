@@ -4,8 +4,7 @@ description: Läs tips från vår expertpanel om hur du använder Adobe [!DNL Ta
 title: Var hittar jag tips och tricks för att använda Target?
 feature: Översikt
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -110,7 +109,7 @@ Många marknadsförare lanserar optimeringsprogram för målgruppssegmentering o
 * Vilken konverteringsgrad har sidan?
 * Hur länge tror du att du behöver köra testet innan du kan kalla det fullständigt?
 
-**Tips**: Använd  [måtträknaren för målets ](https://docs.adobe.com/content/target-microsite/testcalculator.html) exempelstorlek för att avgöra vilken provstorlek som krävs för att testet ska lyckas.
+**Tips**: Använd  [måtträknaren för målets ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) exempelstorlek för att avgöra vilken provstorlek som krävs för att testet ska lyckas.
 
 ## Tips 12: Utforma enklare tester för att vara säker på att du kan skapa och implementera dem.
 
