@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Versionsinformation
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4361'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Information om kända fel för [!DNL Adobe Target]. Innehåller även informatio
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 I följande avsnitt listas kända fel för [!DNL Target]:
+
+### [!DNL Adobe Experience Platform] segmentnamn visas inte i  [!UICONTROL Important Attributes] rapporten.
+
+[!DNL Adobe Experience Platform] segmentnamn visas inte i  [!UICONTROL Important Attributes] rapporten för  [!UICONTROL Automated Personalization] (AP)- och  [!UICONTROL Auto-Target] (AT)-aktiviteter. (TOP-3813)
 
 ### Arkivering av [!UICONTROL Auto Target]-aktiviteter kan orsaka synkroniseringsproblem
 
