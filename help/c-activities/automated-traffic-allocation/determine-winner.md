@@ -4,8 +4,7 @@ description: Lär dig hur man tolkar resultaten av en automatisk fördelning av 
 title: Hur tolkar jag autofördelade rapporter?
 feature: Automatisk allokering
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -48,7 +47,7 @@ Normala A/B-tester beräknar tillförlitlighet baserat på p-värden. Autoalloke
 
 >[!IMPORTANT]
 >
->Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyget för samplingsstorlek](https://docs.adobe.com/content/target-microsite/testcalculator.html). Målet beaktar inte den grundläggande konverteringsgraden för en plats och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i [Beräkna provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av Adobe Target [beräkningsverktyget för samplingsstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). Målet beaktar inte den grundläggande konverteringsgraden för en plats och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i [Beräkna provstorlek](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter {#lift-confidence}
 
@@ -62,7 +61,7 @@ En vinnare blir resultatet när den ledande upplevelsens 95-procentiga konfidens
 
 Ett&quot;konfidensnummer&quot; rapporteras också bredvid den nuvarande ledande eller vinnande upplevelsen. Denna siffra rapporteras endast tills den ledande upplevelsens förtroende når minst 60 %. Om det finns exakt två upplevelser i Auto-Allocate-experimentet representerar den här siffran konfidensnivån att upplevelsen fungerar bättre än den andra. Om det finns fler än två upplevelser i Auto-Allocate-experimentet representerar den här siffran konfidensnivån att upplevelsen fungerar bättre än den definierade Control-upplevelsen. Om&quot;Kontroll&quot;-upplevelsen vinner rapporteras ingen siffra för&quot;förtroende&quot;.
 
-## Vanliga frågor och svar {#section_C8E068512A93458D8C006760B1C0B6A2}
+## Vanliga frågor {#section_C8E068512A93458D8C006760B1C0B6A2}
 
 **Det har gått några dagar framåt. Varför visas fortfarande 0 % för alla konfidensvärden?**
 
@@ -74,5 +73,5 @@ En av följande orsaker beskriver varför 0 % visas i rapportens [!UICONTROL Con
 
    Autoallokering visar sannolikheten för att en viss upplevelse ska bli en riktig vinnare för alla upplevelser i aktiviteten. Detta innebär att endast en vinnande upplevelse (som troligtvis kommer att vara vinnaren) kommer att ha ett värde som inte är noll. Alla andra är mest benägna att vara förlorare och kommer att visa 0 %.
 
-* Automatisk allokering börjar visa självförtroende först efter att den vinnande upplevelsen fått 60 % självförtroende. Dessa konfidensnivåer uppträder vanligtvis på ungefär hälften så lång tid som ett normalt A/B-test skulle ta att slutföra (även om detta inte garanteras). Använd en [exempelstorlekskalkylator](https://docs.adobe.com/content/target-microsite/testcalculator.html) för att avgöra hur länge ett normalt A/B-test skulle köras: plug-controls konverteringsgrad i &quot;Baseline conversion rate&quot;, &quot;5%&quot; för &quot;Lift&quot; och 95% för &quot;Confidence&quot;. Normalt börjar förtroendet visa sig efter att varje upplevelse har fyllt 50 % av det antal samplingar som krävs per upplevelse. Då får du en uppfattning om när självförtroende kommer att börja uppstå.
+* Automatisk allokering börjar visa självförtroende först efter att den vinnande upplevelsen fått 60 % självförtroende. Dessa konfidensnivåer uppträder vanligtvis på ungefär hälften så lång tid som ett normalt A/B-test skulle ta att slutföra (även om detta inte garanteras). Använd en [exempelstorlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) för att avgöra hur länge ett normalt A/B-test skulle köras: plug-controls konverteringsgrad i &quot;Baseline conversion rate&quot;, &quot;5%&quot; för &quot;Lift&quot; och 95% för &quot;Confidence&quot;. Normalt börjar förtroendet visa sig efter att varje upplevelse har fyllt 50 % av det antal samplingar som krävs per upplevelse. Då får du en uppfattning om när självförtroende kommer att börja uppstå.
 * Om rapporten visar 0 procent över hela linjen är det sannolikt för tidigt i verksamheten.
