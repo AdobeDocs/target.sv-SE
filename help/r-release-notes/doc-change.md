@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | --- | --- | --- |
 | 8 juni | [Innan du implementerar Analytics för Target (A4T) med at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Observera att at.js 1.8.0 eller senare inte längre fungerar med Visitor API-versioner som är äldre än 2.5.0 för att skicka [!DNL Adobe Audience Manager]-parametrar (AAM). |
 |  | [Miljö](/help/administrating-target/environments.md) | En anteckning som anger att om du anger [!UICONTROL Active and Inactive Activities] visas även inaktiva aktiviteter på värdar från den här miljön. |
+|  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>[!DNL Adobe Experience Platform] segmentnamn visas inte i  [!UICONTROL Important Attributes] rapporten.</li></ul> |
 | 7 juni | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.6.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 april 2021)
