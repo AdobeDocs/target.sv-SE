@@ -4,8 +4,7 @@ description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL
 title: Vad är en automatiskt fördelad aktivitet?
 feature: Automatisk allokering
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3362'
 ht-degree: 0%
@@ -22,7 +21,7 @@ När du skapar en A/B-aktivitet med det guidade arbetsflödet i tre steg kan du 
 
 Standardtester av A/B har en inneboende kostnad. Man måste lägga ned trafik för att mäta prestanda för varje upplevelse och genom analyser ta fram den vinnande upplevelsen. Trafikfördelningen är fast även efter det att ni har insett att vissa upplevelser är bättre än andra. Det är dessutom komplicerat att ta reda på exempelstorleken, och aktiviteten måste gå hela kursen innan du kan agera på en vinnare. Efter att ha gjort allt detta finns det fortfarande en chans att den identifierade vinnaren inte är en riktig vinnare.
 
-## Lösningen: Allokera automatiskt {#section_98388996F0584E15BF3A99C57EEB7629}
+## Lösningen: Automatisk allokering {#section_98388996F0584E15BF3A99C57EEB7629}
 
 Automatisk fördelning minskar kostnaderna och kostnaderna för att fastställa en vinnande upplevelse. Automatisk allokering övervakar målmätningsprestanda för alla upplevelser och skickar fler nya deltagare proportionellt till de högpresterande upplevelserna. Det finns tillräckligt med trafik för att utforska de andra upplevelserna. Du kan se fördelarna med testet på dina resultat, även när aktiviteten fortfarande körs: optimering sker parallellt med inlärning.
 
@@ -130,7 +129,7 @@ Dessa kan skeva resultaten i ett autofördelningstest mer än i ett A/B-test eft
 
    &quot;30 % av försäljningen upphör idag&quot; signalerar till exempel att besökaren konverterar idag, men&quot;50 % rabatt på första köpet&quot; skapar inte samma känsla av snabbhet.
 
-## Vanliga frågor och svar {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+## Vanliga frågor {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
 Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Allocate]-aktiviteter:
 
@@ -174,7 +173,7 @@ För närvarande är logiken en fördel för besökare som snabbt konverterar el
 
 ### Kan jag använda beräkningsverktyget för provstorlek när jag använder Automatisk allokering för att beräkna hur lång tid aktiviteten tar för att identifiera vinnaren?
 
-Du kan använda den befintliga [beräknaren för provstorlek](https://docs.adobe.com/content/target-microsite/testcalculator.html) för att få en uppskattning av hur länge testet kommer att köras. (Precis som vid traditionell A/B-testning ska du tillämpa Bonferroni-korrigering om du testar fler än två erbjudanden eller mer än ett konverteringsmått/-hypotes.) Observera att den här räknaren är utformad för traditionell A/B-testning med fast horisont och endast ger en uppskattning. Det är valfritt att använda beräkningsverktyget för en autoallokeringsaktivitet eftersom autoallokering deklarerar en vinnare åt dig - du behöver inte välja en fast tidpunkt för att kunna se testresultaten - de angivna värdena är alltid statistiskt giltiga. I våra experiment har vi hittat följande:
+Du kan använda den befintliga [beräknaren för provstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) för att få en uppskattning av hur länge testet kommer att köras. (Precis som vid traditionell A/B-testning ska du tillämpa Bonferroni-korrigering om du testar fler än två erbjudanden eller mer än ett konverteringsmått/-hypotes.) Observera att den här räknaren är utformad för traditionell A/B-testning med fast horisont och endast ger en uppskattning. Det är valfritt att använda beräkningsverktyget för en autoallokeringsaktivitet eftersom autoallokering deklarerar en vinnare åt dig - du behöver inte välja en fast tidpunkt för att kunna se testresultaten - de angivna värdena är alltid statistiskt giltiga. I våra experiment har vi hittat följande:
 * När du testar exakt två upplevelser hittar Automatisk tilldelning en vinnare snabbare än en testning med fast horisont (d.v.s. den tidsram som anges av beräknaren för samplingsstorlek) när prestandaskalskillnaden mellan upplevelserna är stor, men det kan kräva extra tid för att identifiera en vinnare när prestandaskalskillnaden mellan upplevelserna är liten. I dessa fall skulle tester med fast horisont normalt ha avslutats utan ett statistiskt signifikant resultat.
 * När du testar mer än två upplevelser hittar Automatisk tilldelning en vinnare snabbare än vid fasta tidsperioder (d.v.s. den tidsram som anges av beräknaren för provstorlek) när en upplevelse är helt perfekt för alla andra upplevelser. När två eller flera upplevelser båda&quot;vinner&quot; jämfört med andra upplevelser men är nära sammankopplade med varandra, kan Automatisk tilldelning kräva extra tid för att avgöra vilken som är bäst. I dessa fall skulle tester med fast horisont normalt ha avslutats genom att dra slutsatsen att de&quot;vinnande&quot; upplevelserna var bättre än de lågpresterande upplevelserna, men inte ha identifierat vilken som var bäst.
 
