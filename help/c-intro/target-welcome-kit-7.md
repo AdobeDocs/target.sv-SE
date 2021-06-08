@@ -4,8 +4,7 @@ description: Låt oss komma igång med din första aktivitet i Adobe [!DNL Targe
 title: Jag måste skapa min första aktivitet i Target. Var ska jag börja?
 feature: Översikt
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 0%
@@ -92,7 +91,7 @@ Om din aktivitet kräver assistent till en designer, webbutvecklare eller dataan
 
 Du behöver ett visst antal besökare för att kunna dra en statistiskt signifikant slutsats av testet. Om bara två personer deltar i ditt test, kommer du att känna dig säker på resultatet?
 
-[!DNL Target] använder statistiska principer för att fastställa resultaten av ett test som är statistiskt giltiga. Med Adobe [beräkningsverktyget för samplingsstorlek](https://docs.adobe.com/content/target-microsite/testcalculator.html) kan du avgöra hur lång tid det tar att köra ett test baserat på den säkerhet du behöver för dina resultat. Klicka på länken [!UICONTROL Learn More] i den här rutan för att öppna och använda kalkylatorn.
+[!DNL Target] använder statistiska principer för att fastställa resultaten av ett test som är statistiskt giltiga. Med Adobe [beräkningsverktyget för samplingsstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) kan du avgöra hur lång tid det tar att köra ett test baserat på den säkerhet du behöver för dina resultat. Klicka på länken [!UICONTROL Learn More] i den här rutan för att öppna och använda kalkylatorn.
 
 ### Hur viktig är den här aktiviteten?
 
