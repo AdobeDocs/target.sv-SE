@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
-## Target Standard/Premium 21.6.1 (7 juni 2021)
+## Target Standard/Premium 21.5.1 (7 juni 2021)
 
 Den här versionen innehåller följande förbättringar:
 
