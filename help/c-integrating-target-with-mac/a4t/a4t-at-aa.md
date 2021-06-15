@@ -4,10 +4,9 @@ description: Lär dig hur du skapar aktiviteter för automatisk fördelning och 
 title: Har A4T stöd för automatisk fördelning och automatisk målanpassning?
 feature: Analyser för mål (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 103ee22a4bf37569f8a02a91af194ebcdc79f3b4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -55,7 +54,7 @@ Så här kommer du igång:
 
 1. Använd fliken **[!UICONTROL Reports]** om du vill visa aktivitetens rapportering genom att välja [!DNL Adobe Analytics] mått. Klicka på **[!UICONTROL View in Analytics]** för att segmentera dina rapporteringsdata ytterligare.
 
-## Målmått {#supported} som stöds
+## Målmått som stöds {#supported}
 
 [!UICONTROL A4T] för  [!UICONTROL Auto-Allocate] och  [!UICONTROL Auto-Target] låter dig välja någon av följande måtttyper som det primära målmåttet för optimering:
 
@@ -82,6 +81,7 @@ Vissa begränsningar och anteckningar gäller för både [!UICONTROL Auto-Alloca
 
 ### Automatisk fördelning och Automatisk målgruppsanpassning
 
+* När du använder [!DNL Adobe Analytics] som rapportkälla för [!UICONTROL Auto-Allocate] eller [!UICONTROL Auto-Target] bör du alltid visa rapporter i [!DNL Analytics].
 * Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller omvänt efter att en aktivitet har aktiverats.
 * Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. [!DNL Target] normaliserar automatiskt konverteringsmåtten per besök för att ta hänsyn till ojämn trafikfördelning, så det är inte nödvändigt att använda ett beräknat mätvärde för att utföra normaliseringen.
 * [!DNL Target] använder attribueringsmodellen &quot;Same Touch&quot; i  [!UICONTROL Auto-Allocate] funktionen: Analyser för Target (A4T).
@@ -97,7 +97,7 @@ Vissa begränsningar och anteckningar gäller för både [!UICONTROL Auto-Alloca
 
 Mer information finns i [Attribution models and lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) i *Analytics Tools Guide*.
 
-## Självstudiekurs: Ställa in A4T-rapporter i Analysis Workspace för Auto-Target-aktiviteter {#tutorial}
+## Självstudiekurs: Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter {#tutorial}
 
 Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace] krävs några ändringar i standardpanelen [!UICONTROL Analytics for Target] för att automålsaktiviteter ska kunna tolkas korrekt. Dessa ändringar krävs på grund av skillnader mellan experimentella aktiviteter (manuell A/B och [!UICONTROL Auto-Allocate]) och personaliseringsaktiviteter ([!UICONTROL Auto-Target]).
 
