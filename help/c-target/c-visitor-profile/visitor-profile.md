@@ -4,21 +4,22 @@ description: Läs mer om besöksprofiler som innehåller information om hur bes�
 title: Vad är besökarprofiler?
 feature: Målgrupper
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '107'
 ht-degree: 1%
 
 ---
 
 # Besökarprofiler
 
-Besöksprofiler innehåller information om hur besökarna använder dina sidor och andra optimerade platser för innehåll
+Besöksprofiler innehåller information om hur besökarna använder dina sidor och andra optimerade platser för innehåll.
 
-Om Target används tillsammans med andra Adobe Marketing Suite-lösningar, som Adobe Analytics, delar målgrupper besöksinformation mellan olika lösningar.
+Om [!DNL Adobe Target] används med andra [!DNL Adobe Experience Cloud]-lösningar, som [!DNL Adobe Analytics], delar [!DNL Experience Cloud Audiences] besökarinformation mellan olika lösningar.
 
-Som standard lagras information om målprofilen i en cookie från en enda part. Konfigurationen kan enkelt ändras för att även hantera cookies från tredje part.
+Som standard lagras [!DNL Target]-profilinformation i en cookie från en annan leverantör. Konfigurationen kan enkelt ändras för att även hantera cookies från tredje part.
+
+Följande avsnitt innehåller mer information:
 
 - [Livslängd för besökarprofil](visitor-profile-lifetime.md)
 - [Profilattribut](profile-parameters.md)
