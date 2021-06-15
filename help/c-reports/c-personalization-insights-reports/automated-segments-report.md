@@ -4,17 +4,16 @@ description: Lär dig hur olika segment som definieras av personaliseringsmodell
 title: Vad är rapporten om automatiserade segment?
 feature: Rapporter
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6f5e999859847e93e66372a9e7dc9814f7e2c84d
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
 
 # ![Rapport ](/help/assets/premium.png) över PREMIUMAutomated Segments
 
-Information om rapporten Automated Segments, en av de två specialrapporter som är tillgängliga för användare av Automated Personalization- (AP) och Auto-Target-aktiviteter (AT).
+Information om [!UICONTROL Automated Segments]-rapporten, en av de två specialrapporter som är tillgängliga för användare av [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT)-aktiviteter.
 
 >[!NOTE]
 >
@@ -45,7 +44,7 @@ Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-akti
 
 1. Klicka på **[!UICONTROL Reports]**.
 
-   Rapporten [Automated Personalization Summary](/help/c-reports/reports-ap.md) eller [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) visar information om aktiviteternas prestanda, som representeras av den första skärmikonen. De två ytterligare ikonerna representerar de två personaliseringsinsikterna: Automatiska segment och viktiga attribut. Observera att Auto-Target har en extra diagramikon för den grafiska vyn i [!UICONTROL Summary]-rapporten.
+   Rapporten [Automated Personalization Summary](/help/c-reports/reports-ap.md) eller [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) visar information om aktiviteternas prestanda, som representeras av den första skärmikonen. De två ytterligare ikonerna representerar de två personaliseringsinsikterna: Automatiska segment och viktiga attribut. Auto-Target har en extra diagramikon för den grafiska vyn i [!UICONTROL Summary]-rapporten.
 
    ![](assets/personalization_insights.png)
 
@@ -59,7 +58,7 @@ Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-akti
 
 1. Välj önskat datumintervall.
 
-   Till skillnad från [!UICONTROL Summary]-rapporten (prestandarapportering) är [!UICONTROL Personalization Insights], inklusive [!UICONTROL Automated Segments], bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar, 45 dagar, 60 dagar och 90 dagar. Med dessa fasta datumintervall kan [!UICONTROL Personalization Insights] använda ett stort tillräckligt stort dataintervall för att minska sannolikheten för att du får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
+   Till skillnad från [!UICONTROL Summary]-rapporten (prestandarapportering) är [!UICONTROL Personalization Insights], inklusive [!UICONTROL Automated Segments], bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar och 60 dagar. Med dessa fasta datumintervall kan [!UICONTROL Personalization Insights] använda ett stort tillräckligt stort dataintervall för att minska sannolikheten för att du får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -84,9 +83,9 @@ I följande tabell beskrivs hur du tolkar rapporten och dess element:
 
 | Element | Detaljer |
 |--- |--- |
-| Vänster sidopanel | Den vänstra panelen listar de 20 största&quot;automatiserade segmenten&quot; som identifieras av Target personaliseringsmodeller för den här aktiviteten. Ett&quot;automatiserat segment&quot; är som en målgrupp, men definieras av Target personaliseringsmodeller i stället för av marknadsföraren. Varje automatiserat segment består av specifika värden (eller värdeintervall) för specifika attribut.<br>Observera att automatiska segment kan överlappa varandra. Automatiska segment kan definieras med ett, två, tre eller fyra attribut. Se exemplen nedan för mer information.<br>Mer information om Target personaliseringsmodeller finns i  [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md). Mer information om attributen Target personaliseringsmodeller använder för att skapa automatiserade segment finns i [Datainsamling för Target&#39;s Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| Centrera diagram | Centrumdiagrammen visar hur aktivitetens innehåll har utförts för det markerade automatiserade segmentet. När du klickar på olika segment på den vänstra panelen uppdateras diagrammen i mitten. |
-| Cirkeldiagram | Cirkeldiagrammen högst upp på mittpanelen visar det automatiserade segmentets storlek samt det totala antalet personaliserade besök i aktiviteten (till exempel trafik till den här aktiviteten som betjänades av personaliseringsmodellen). Omfattar inte kontrolltrafik eller trafik som betjänas av den övergripande vinnarmodellen). Observera att segmentets storlek endast baseras på personaliserade besök.<br>![Cirkeldiagram](/help/c-reports/c-personalization-insights-reports/assets/pie.png) |
+| Vänster sidopanel | Den vänstra panelen listar de 20 största&quot;automatiserade segmenten&quot; som identifieras av Target personaliseringsmodeller för den här aktiviteten. Ett&quot;automatiserat segment&quot; är som en målgrupp, men definieras av Target personaliseringsmodeller i stället för av marknadsföraren. Varje automatiserat segment består av specifika värden (eller värdeintervall) för specifika attribut.<br>Automatiska segment kan överlappa varandra. Automatiska segment kan definieras med ett, två, tre eller fyra attribut. Se exemplen nedan för mer information.<br>Mer information om Target personaliseringsmodeller finns i  [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md). Mer information om attributen Target personaliseringsmodeller använder för att skapa automatiserade segment finns i [Datainsamling för Target&#39;s Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
+| Centrera diagram | I mittdiagrammen visas hur aktivitetens innehåll har utförts för det markerade automatiserade segmentet. När du klickar på olika segment på den vänstra panelen uppdateras diagrammen i mitten. |
+| Cirkeldiagram | Cirkeldiagrammen högst upp på mittpanelen visar det automatiserade segmentets storlek samt det totala antalet personaliserade besök i aktiviteten (till exempel trafik till den här aktiviteten som betjänades av personaliseringsmodellen). Omfattar inte kontrolltrafik eller trafik som betjänas av den övergripande vinnarmodellen). Segmentets storlek baseras endast på personaliserade besök.<br>![Cirkeldiagram](/help/c-reports/c-personalization-insights-reports/assets/pie.png) |
 | Stapeldiagram med dubbla axlar | I stapeldiagrammet med dubbla axlar ingår besöks- och konverteringsinformation från erbjudandet eller upplevelsen för det specifika automatiserade segmentet. |
 | Rosa stapel | Det rosa strecket representerar konverteringsgraden och använder diagrammets nedre axel. Om du vill ha mer information håller du pekaren över fältet |
 | Blå stapel | Det blå fältet representerar antalet besök och använder diagrammets övre axel. Om du vill ha mer information håller du pekaren över fältet. |
@@ -112,7 +111,7 @@ Det finns flera orsaker till att [!UICONTROL Personalization Insights]-rapporter
 
 * 15 dagar har inte gått sedan du aktiverade aktiviteten. Automatiserade segment och viktiga attributrapporter är inte tillgängliga förrän tidigast 15 dagar efter att du har påbörjat aktiviteten. Under den inledande perioden kommer du inte att kunna komma åt dessa rapporter eller klicka på ikonerna Automatiserade segment och Viktiga attribut.
 * Din aktivitet har inte haft tillräckligt med trafik under den angivna tidsramen. Efter 15 dagar kommer rapporter om automatiserade segment och viktiga attribut att finnas tillgängliga, förutsatt att det finns tillräckligt med personaliserad trafik i din aktivitet för att skapa personaliseringsmodeller.
-* Din aktivitet har ett intäktsoptimeringsmål. För närvarande är [!UICONTROL Personalization Insights] bara tillgängligt för målaktiviteter för konverteringsoptimering. Vi kommer att lägga till stöd för intäktsoptimeringsmålaktiviteter i en kommande release.
+* Din aktivitet har ett intäktsoptimeringsmål. För närvarande är [!UICONTROL Personalization Insights] bara tillgängligt för målaktiviteter för konverteringsoptimering. Adobe kommer att lägga till stöd för intäktsoptimeringsmålaktiviteter i en kommande release.
 
 **Vad är ett attribut?**
 
@@ -124,7 +123,7 @@ Mer information om vilka attribut [!DNL Target] använder i sina anpassningsmode
 
 Ett&quot;automatiserat segment&quot; är som en målgrupp, men definieras av Target personaliseringsmodeller i stället för av marknadsföraren.
 
-Ett automatiserat segment består av specifika värden (eller värdeintervall) för specifika attribut. Se steg 5 ovan för exempel automatiserade segment. Observera att segment kan överlappa varandra.
+Ett automatiserat segment består av specifika värden (eller värdeintervall) för specifika attribut. Se steg 5 ovan för exempel automatiserade segment. Segment kan överlappa varandra.
 
 Mer information om den slumpmässiga algoritmen för skogspersonalisering, som är grunden för Target personaliseringsmodeller, finns i [Slumpmässig skogsalgoritm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
@@ -150,7 +149,7 @@ Nej, UI-rapporten innehåller urvalsinformation. CSV-nedladdningen innehåller y
 
 **Kan jag se  [!UICONTROL Personalization Insights] efter ett anpassat datumintervall?**
 
-Personalisering Insights-rapportering (både [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes]) är bara tillgänglig för fasta datumintervall: 15 dagar, 30 dagar, 45 dagar, 60 dagar och 90 dagar. Med dessa fasta datumintervall kan [!UICONTROL Personalization Insights] använda ett stort tillräckligt stort dataintervall för att minska sannolikheten för att du får insikter från ett kort mönster i din aktivitet. Du kan välja de här varaktigheterna för ett slutdatum (där dessa data är tillräckligt många för att aktiviteten ska klara varaktigheten).
+Personalisering Insights-rapportering (både [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes]) är bara tillgänglig för fasta datumintervall: 15 dagar, 30 dagar och 60 dagar. Med dessa fasta datumintervall kan [!UICONTROL Personalization Insights] använda ett stort tillräckligt stort dataintervall för att minska sannolikheten för att du får insikter från ett kort mönster i din aktivitet. Du kan välja de här varaktigheterna för ett slutdatum (där dessa data är tillräckligt många för att aktiviteten ska klara varaktigheten).
 
 **Hur  [!UICONTROL Personalization Insights] skapas?**
 
@@ -166,12 +165,12 @@ Nej, det finns överlappning mellan de automatiserade segmenten.
 
 **Är  [!UICONTROL Personalization Insights] det möjligt med intäktsbaserade modelleringsmål/primärt mål?**
 
-För närvarande är [!UICONTROL Personalization Insights] bara tillgängligt för målaktiviteter för konverteringsoptimering. Vi kommer att lägga till stöd för intäktsoptimeringsmålaktiviteter i en kommande release.
+För närvarande är [!UICONTROL Personalization Insights] bara tillgängligt för målaktiviteter för konverteringsoptimering. Adobe kommer att lägga till stöd för intäktsoptimeringsmålaktiviteter i en kommande release.
 
 **Hur kan jag utnyttja informationen i personaliseringsinsikter på olika sätt?**
 
-* Upptäck nya målgrupper att inrikta sig på: Om du ser ett visst automatiserat segment som fungerar särskilt bra kan du skapa en målgrupp så att du kan återanvända det segmentet i andra rapporter.
-* Testa era hypoteser om vilken typ av besökare som kommer att svara på vilken av era upplevelser.
+* Upptäck nya målgrupper att inrikta sig på: Om du ser ett visst automatiserat segment som fungerar bra kan du skapa en målgrupp så att du kan återanvända det segmentet i andra rapporter.
+* Testa era hypoteser om vilken typ av besökare som svarar på vilken av era upplevelser.
 * Ta reda på vilket innehåll som fungerade för vilka typer av besökare: Vilka erbjudanden som låg till grund för besökarnas lyft.
 * Identifiera underpresterande innehåll.
 * Förstå vilka attribut som var viktigast för hur modellen lärde sig.
