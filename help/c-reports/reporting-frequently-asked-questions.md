@@ -4,10 +4,9 @@ description: Utforska en lista med vanliga frågor och svar om Adobe [!DNL Targe
 title: Var kan jag hitta svar på frågor om [!DNL Target] rapportering?
 feature: Rapporter
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -15,6 +14,12 @@ ht-degree: 0%
 # Vanliga frågor om rapportering
 
 Lista med vanliga frågor om rapportering i [!DNL Adobe Target].
+
+## Hur länge bevaras data för modellerna [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target]?
+
+[!UICONTROL Automated Personalization] (AP) och  [!UICONTROL Auto-Target] modeller har utbildats för de senaste 45 dagarna av användarbeteende (användarprofiler, inställningshändelser och konverteringshändelser) för aktiviteten.
+
+[!UICONTROL Automated Personalization] (AP) och  [!UICONTROL Auto-Target] modeller bevarar användarbeteende, utbildningsregister och modellbeslutsdata i 90 dagar för att ta fram  [!UICONTROL Insights] rapporter. Efter 90 dagar tas utbildningsdokumentation och modellbeslut bort. [!UICONTROL Automated Personalization] (AP) och  [!UICONTROL Auto-Target] modeller bevarar också aggregerade uppgifter om upplevelser/exponering och konvertering på erbjudandenivå för rapportering i två år. Dessa data är endast sammanställningsdata och innehåller inga profildata på individuell nivå.
 
 ## Hur räknas värdena för nya besökare och återkommande besökare? {#methodology}
 
