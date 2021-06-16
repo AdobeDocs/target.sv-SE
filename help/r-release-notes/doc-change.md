@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 16 juni | [[!DNL Target] versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Information om Python SDK version 1.0.0 har lagts till.[!DNL Adobe Target] |
+|  | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande frågor och svar har lagts till:<ul><li>Hur länge bevaras data för modellerna [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target]?</li></ul> |
 | 8 juni | [Innan du implementerar Analytics för Target (A4T) med at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Observera att at.js 1.8.0 eller senare inte längre fungerar med Visitor API-versioner som är äldre än 2.5.0 för att skicka [!DNL Adobe Audience Manager]-parametrar (AAM). |
 |  | [Miljö](/help/administrating-target/environments.md) | En anteckning som anger att om du anger [!UICONTROL Active and Inactive Activities] visas även inaktiva aktiviteter på värdar från den här miljön. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>[!DNL Adobe Experience Platform] segmentnamn visas inte i  [!UICONTROL Important Attributes] rapporten.</li></ul> |
@@ -50,7 +52,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Länk har lagts till i följande blogginlägg på Adobe Tech Blog:<ul><li>Del 1: Kör Adobe Target NodeJS SDK för experiment och personalisering på Edge-plattformar (Akamai Edge Workers)</li></ul> |
 | 5 maj | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om Adobe Target Community Q&amp;A Coffee Break som ska hållas onsdagen den 12 maj 2021 kl. 8.00. (PDT, GMT-7). |
 | 27 april | [Cookie-inställningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Uppdaterat ämne som indikerar att cookie-varaktighet (`deviceIdLifetime`-inställning) kan åsidosättas i version 2.3.1 eller senare av at.js. |
-|  | [Adobe Target Guide](/help/target-home.md) | Ytterligare information om Adobe Summit. |
+|  | [Adobe Target Guide](/help/target-home.md) | Lagt till information om Adobe Summit. |
 | 26 april | [Felsökning av On-device-beslut för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nytt ämne. |
 | 19 april | [Enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Följande nya artiklar har lagts till:<ul><li>[Enhetsbeslut](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Funktioner som stöds för beslut på enheten](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Regelartefakt för beslutsfattande på enhet](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Lagt till information om `decisioningMethod`. |
