@@ -4,7 +4,7 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Versionsinformation
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '30716'
 ht-degree: 0%
@@ -233,8 +233,8 @@ I versionen från 20 maj returnerar status för profilgrupp endast feldata på r
 
 Föregående och nya API-svar är följande:
 
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+`ProfileBatchStatus Api`
+`http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 **För närvarande ser vi svaret som:**
 
@@ -1317,7 +1317,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Adobe Target Insider - nyhetsbrev </p> </td> 
+   <td colname="col1"> <p>Adobe Target Insider nyhetsbrev </p> </td> 
    <td colname="col2"> <p>Adobe Target Insider är ett månatligt nyhetsbrev för medlemmar i Adobe Target community. Läs om produktuppdateringar och framtida planer, tips och tricks för personalisering och optimering, nöjda kunder, kommande event, informationsfyllda rapporter, populära blogginlägg med mera. Läs <a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external">-meddelandet </a> om du vill veta mer. </p> <p> <a href="https://www.adobe.com/subscription/adobe_target_newsletter.html" format="html" scope="external"> Prenumerera på nyhetsbrevet  </a> för att hjälpa er att leverera kundupplevelser utöver det vanliga som leder till affärsframgångar. </p> </td> 
   </tr> 
  </tbody> 
