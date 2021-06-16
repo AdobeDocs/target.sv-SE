@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 16 juni | [[!DNL Target] versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Information om Python SDK version 1.0.0 har lagts till.[!DNL Adobe Target] |
-|  | [Vanliga frågor om rapportering](/help/c-reports/reporting-frequently-asked-questions.md) | Följande frågor och svar har lagts till:<ul><li>Hur länge bevaras data för modellerna [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target]?</li></ul> |
+|  | [Insikter om personalisering - rapporter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Följande frågor och svar har lagts till:<ul><li>Hur länge bevaras data för modellerna [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target]?</li></ul> |
 | 8 juni | [Innan du implementerar Analytics för Target (A4T) med at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Observera att at.js 1.8.0 eller senare inte längre fungerar med Visitor API-versioner som är äldre än 2.5.0 för att skicka [!DNL Adobe Audience Manager]-parametrar (AAM). |
 |  | [Miljö](/help/administrating-target/environments.md) | En anteckning som anger att om du anger [!UICONTROL Active and Inactive Activities] visas även inaktiva aktiviteter på värdar från den här miljön. |
 |  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>[!DNL Adobe Experience Platform] segmentnamn visas inte i  [!UICONTROL Important Attributes] rapporten.</li></ul> |
