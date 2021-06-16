@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## Python SDK 1.0.0 (16 juni 2021)
+
+Det nya [!DNL Adobe Target] Python SDK med beslutsfunktioner på enheter är nu tillgängligt. Det senaste tillägget stöder [!DNL Target]-sviten med SDK:er på serversidan. Dessa SDKS hjälper dig att integrera med [!DNL Target] och hjälper dig att få mer tid till värde på det språk du föredrar. Integrationer på serversidan blir ett populärt val eftersom marknaden nu övergår till en cookie-fri värld där förstapartsdata är värdefulla. SDK-målgrupper finns i de populäraste programmeringsspråken på marknaden (Python, Java, JavaScript, C# / .Net).
+
+Mer information finns i [dokumentationen för Python SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) i [handboken för Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/).
 
 ## Target Standard/Premium 21.5.1 (7 juni 2021)
 
