@@ -4,10 +4,9 @@ description: Granska en lista med ämnen som kan hjälpa dig att lösa problem i
 title: Hur felsöker jag Target?
 feature: Felsökning
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,12 +37,14 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 ### Automatiskt mål
 
 * [Automatisk målsökning och vanliga frågor](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Insikter om personalisering - rapporter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
 * [Automated Personalization FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Felsökning av Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Automated Personalization Sammanfattningsrapporter](/help/c-reports/reports-ap.md)
+* [Insikter om personalisering - rapporter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Multivariata tester (MVT)
 
