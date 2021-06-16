@@ -4,10 +4,9 @@ description: Lär dig hur du använder specialrapporter för Automated Personali
 title: Hur använder jag personaliseringsInsights-rapporterna?
 feature: Rapporter
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -35,7 +34,7 @@ Två specialiserade rapporter är tillgängliga för användare av [!UICONTROL A
 * [!UICONTROL Personalization Insights] Rapporterna genereras endast för aktiviteter som har  [!UICONTROL Live] status och har aktiverats och fått trafik i minst 15 dagar.
 
 
-## Översikt över rapporten om personaliseringsinsikter {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
+## Översikt över rapportering av personaliseringsinsikter {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
 Målet med [!UICONTROL Personalization Insights]-rapporterna är att ge mer information om hur personaliseringsmodellerna [!UICONTROL Target] bakom era AP- och AT-aktiviteter anpassar besökstrafiken. Algoritmen [Slumpmässig skog](/help/c-activities/t-automated-personalization/algo-random-forest.md) är grunden för personaliseringsmodellerna [!DNL Target].
 
@@ -64,6 +63,16 @@ Det finns två typer av attribut i [!UICONTROL Personalization Insights]-rapport
 | Kundattribut | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. | `Custom - Customer Attributes - [parameter name]` |
 | Delade målgrupper (Adobe Audience Manager eller Adobe Analytics) | Målgrupper skapade med Adobe Audience Manager eller Adobe Analytics och som delas med Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Målgrupper/segment för rapportering i aktivitet | Målgrupper som definieras i din AP- eller Automatiskt mål-aktivitet under konfiguration i&quot;Mål och mått&quot;. | `Custom - Reporting Segment - [segment name]` |
+
+## Vanliga frågor
+
+Lista med vanliga frågor om [!UICONTROL Automated Personalization]- (AP) och [!UICONTROL Auto-Target] [!UICONTROL Insights]-rapporter.
+
+### Hur länge bevaras data för modellerna [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target]?
+
+[!UICONTROL Automated Personalization] (AP) och  [!UICONTROL Auto-Target] modeller har utbildats för de senaste 45 dagarna av användarbeteende (användarprofiler, inställningshändelser och konverteringshändelser) för aktiviteten.
+
+[!UICONTROL Automated Personalization] (AP) och  [!UICONTROL Auto-Target] modeller bevarar användarbeteende, utbildningsregister och modellbeslutsdata i 90 dagar för att ta fram  [!UICONTROL Insights] rapporter. Efter 90 dagar tas utbildningsdokumentation och modellbeslut bort. [!UICONTROL Automated Personalization] (AP) och  [!UICONTROL Auto-Target] modeller bevarar också aggregerade uppgifter om upplevelser/exponering och konvertering på erbjudandenivå för rapportering i två år. Dessa data är endast sammanställningsdata och innehåller inga profildata på individuell nivå.
 
 ## Utbildningsvideo: Använda personaliseringsinsikter i rapporter ![Självstudiekursidentitet](/help/assets/tutorial.png)
 
