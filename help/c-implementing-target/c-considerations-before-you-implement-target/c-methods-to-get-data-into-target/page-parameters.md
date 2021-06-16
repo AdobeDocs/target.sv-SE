@@ -5,8 +5,7 @@ title: Hur hämtar jag data till [!DNL Target] Använda sidparametrar?
 feature: Implementering
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -48,7 +47,7 @@ Data skickas till Target i realtid och kan användas på samma server för att a
 
    Förutom de tecken som nämns på IETF-webbplatsen tillåter Target följande tecken i frågesträngar:
 
-   `&lt; > # % &quot; {} | \\ ^ \[\] \&quot;
+   ```< > # % " { } | \ ^ [ ] ` ```
 
    Allt annat måste vara url-kodat. Standarden anger följande format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), enligt nedan:
 
