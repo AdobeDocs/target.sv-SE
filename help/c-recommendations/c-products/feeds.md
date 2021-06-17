@@ -4,10 +4,9 @@ description: Lär dig hur feeds importerar entiteter till Adobe [!DNL Target] Re
 title: Hur använder jag feeds i [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 062a47e2dd76fe6dc87a71ad7b17355d57d769dd
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2489'
 ht-degree: 0%
 
 ---
@@ -207,7 +206,7 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Analysproduktklassificeringar {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Produktklassificeringar för analyser {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 Produktklassificeringen Analytics är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer kommer att vara tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
 
@@ -236,7 +235,7 @@ Skapa en feed om du vill infoga information om dina produkter eller tjänster i 
    * Google produktfeed
    * Analysklassificeringar
 
-   Mer information om CSV- och Google Product Feed-flödestyper finns i [Feeds - översikt](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Du kan även [hämta en CSV-modellguide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) för att hjälpa dig att formatera flödet korrekt.
+   Mer information om CSV- och Google Product Feed-flödestyper finns i [Feeds - översikt](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Du kan även [hämta en CSV-modellguide](/help/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) för att hjälpa dig att formatera flödet korrekt.
 
 1. (Villkorligt) Om du valde **[!UICONTROL CSV]** eller **[!UICONTROL Google Product Feed]** anger du platsen där feeden kan nås.
 
