@@ -1,12 +1,12 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;sökmotoroptimering;sökmotoroptimering;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Lär dig hur Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript-bibliotek (at.js och AEP Web SDK), Adobe datacenter och SEO-testning.
+description: Lär dig hur Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript-bibliotek (at.js och Experience Platform Web SDK), Adobe datacenter och SEO-testning.
 title: Hur fungerar [!DNL Target] funktionen?
 feature: Översikt
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2544'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om [!DNL Adobe 
 
 ## [!DNL Target] SDK:er och JavaScript-bibliotek för plattformar {#libraries}
 
-[!DNL Target] integreras med webbplatser med hjälp av  [!DNL AEP Web SDK] eller JavaScript-bibliotek:
+[!DNL Target] integreras med webbplatser med hjälp av  [!DNL Experience Platform Web SDK] eller JavaScript-bibliotek:
 
-* **Adobe Experience Platform Web SDK:** The  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDKär ett nytt JavaScript-bibliotek på klientsidan. Med AEP Web SDK kan kunder med [!DNL Adobe Experience Cloud] interagera med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL AEP] Edge Network. Adobe rekommenderar att alla nya [!DNL Target]-kunder implementerar [!DNL AEP Web SDK].
+* **Adobe Experience Platform Web SDK:** The  [Experience Platform Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDKär ett nytt JavaScript-bibliotek på klientsidan. Med Experience Platform Web SDK kan kunder med [!DNL Adobe Experience Cloud] interagera med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL Experience Platform] Edge Network. Adobe rekommenderar att alla nya [!DNL Target]-kunder implementerar [!DNL Experience Platform Web SDK].
 * **at.js:** Biblioteket  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) är ett implementeringsbibliotek för  [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. Adobe rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till den [senaste versionen av at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** The  [mbox.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) libraryis the legacy implementation library for  [!DNL Target]. Biblioteket mbox.js stöds fram till 31 mars 2021. Det kommer dock inte att finnas några funktionsuppdateringar.
+* **mbox.js:** The  [mbox.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) libraryis the legacy implementation library for  [!DNL Target]. Biblioteket mbox.js stöds inte längre efter den 31 mars 2021.
 
 >[!IMPORTANT]
 >
->Alla kunder bör migrera till [!DNL AEP Web SDK] eller till den senaste versionen av at.js. Mer information finns i [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) eller [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>Alla kunder bör migrera till [!DNL Experience Platform Web SDK] eller till den senaste versionen av at.js. Mer information finns i [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) eller [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Referera till [!DNL AEP Web SDK] eller at.js på alla sidor på webbplatsen. Du kan till exempel lägga till ett av dessa bibliotek i det globala sidhuvudet. Du kan också överväga att använda [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) för att implementera [!DNL Target].
+Referera till [!DNL Experience Platform Web SDK] eller at.js på alla sidor på webbplatsen. Du kan till exempel lägga till ett av dessa bibliotek i det globala sidhuvudet. Du kan också överväga att använda [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) för att implementera [!DNL Target].
 
-Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera AEP Web SDK eller at.js:
+Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera Experience Platform Web SDK eller at.js:
 
 * [Adobe Experience Platform Web SDK-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
 * [Implementera [!DNL Target] med Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -107,7 +107,7 @@ Mer information finns i [Adobe Target Security Overview](https://www.adobe.com/c
 
 Platserna för centrala kluster innehåller både en datainsamlingscentral och en datacentral. Edge Cluster-platser innehåller bara ett datainsamlingscenter. Varje rapportsvit tilldelas ett specifikt databehandlingscenter.
 
-Data om kundwebbplatsaktivitet samlas in av de närmaste sju Edge-kluster. Dessa data dirigeras till en kunds förbestämda mål för centrala kluster (en av tre platser: Oregon, Dublin, Singapore) för beredning. Data för besökarprofilen lagras på det Edge-kluster som ligger närmast besökaren. Bland Edge-klusterplatserna finns Central Cluster-platserna och Virginia, Amsterdam, Sydney, Tokyo och Hong Kong.
+Data om kundwebbplatsaktivitet samlas in av de närmaste sju Edge-kluster. Dessa data dirigeras till en kunds förbestämda mål för centrala kluster (en av tre platser: Oregon, Dublin, Singapore) för beredning. Data för besökarprofilen lagras på det Edge-kluster som ligger närmast besökaren. Bland Edge-klusterplatserna finns Central Cluster-platserna och Virginia, Mumbai, Sydney och Tokyo.
 
 I stället för att svara på alla målförfrågningar från en enda plats, behandlas förfrågningar av det Edge-kluster som ligger närmast besökaren. Denna process bidrar till att minska effekten av restiden mellan nätverk och Internet.
 
