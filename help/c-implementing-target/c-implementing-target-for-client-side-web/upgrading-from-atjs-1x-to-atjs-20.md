@@ -5,8 +5,7 @@ title: Hur uppgraderar jag från at.js version 1.x till version 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
 workflow-type: tm+mt
 source-wordcount: '2751'
 ht-degree: 0%
@@ -31,9 +30,9 @@ Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*Visa* med v
 
 | Utlysning | Detaljer |
 | --- | --- |
-| 1 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
+| 3 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett alternativ som gör att fragment för att dölja kan implementeras på sidan. |
-| 1 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
+| 3 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
 | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
 | 5 | Baserat på parametrar för URL-begäran och profildata avgör [!DNL Target] vilka aktiviteter och upplevelser som ska returneras till besökaren för den aktuella sidan och framtida vyer. |
 | 6 | Målinriktat innehåll skickas tillbaka till sidan, eventuellt med profilvärden för ytterligare personalisering.<br>Målinriktat innehåll på den aktuella sidan visas så snabbt som möjligt utan att du behöver flimra standardinnehållet.<br>Målanpassat innehåll för vyer som visas som ett resultat av användaråtgärder i en SPA som cachas i webbläsaren så att det kan tillämpas direkt utan ett extra serveranrop när vyerna aktiveras via  `triggerView()`. |
@@ -46,9 +45,9 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 
 | Utlysning | Detaljer |
 | --- | --- |
-| 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
+| 3 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
-| 1 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
+| 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
 | 5 | Analysdata skickas till datainsamlingsservrar. |
 | 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
@@ -337,7 +336,7 @@ Följande at.js 1.x-parametrar är *NOT* som för närvarande stöds för målgr
 
 I följande tabeller beskrivs at.js. 2.*x*-kompatibilitet med olika aktivitetstyper, integreringar, funktioner och at.js-funktioner.
 
-### Aktivitetstyper {#types}
+### Typ av aktivitet {#types}
 
 | Typ | Stöds? |
 | --- | --- |
@@ -391,7 +390,7 @@ I följande tabeller beskrivs at.js. 2.*x*-kompatibilitet med olika aktivitetsty
 | `?mboxDisable` | Ja |
 | `?mboxTrace` | Ja |
 | `?mboxSession` | Nej |
-| `?mboxOverride.browserIp` | Nej |
+| `?mboxOverride.browserIp` | Ja |
 
 ## Svarstoken {#response-tokens}
 
