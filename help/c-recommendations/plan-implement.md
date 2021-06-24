@@ -4,10 +4,9 @@ description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. 
 title: Hur genomför jag Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ Vad du behöver veta innan du skapar en [!DNL Recommendations]-aktivitet.
 
 | Steg | Information | Detaljer |
 |--- |--- |--- |
-| ![Steg 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-bibliotek | Varje sida kräver en referens till at.js version 0.9.1 (eller senare) eller mbox.js version 55 (eller senare). Det här implementeringssteget krävs på alla sidor där en Target-aktivitet ska användas och kan innehålla nycklar som ett produkt- eller kategori-ID.<BR>Mer information om at.js finns  [i implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) av at.js.<br>Mer information om mbox.js finns i Implementering av  [Mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
+| ![Steg 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-bibliotek | Varje sida kräver en referens till at.js version 0.9.1 (eller senare) eller mbox.js version 55 (eller senare). Det här implementeringssteget krävs på alla sidor där en [!DNL Target]-aktivitet ska användas och kan innehålla nycklar som ett produkt- eller kategori-ID. |
 | ![Steg 2](/help/c-recommendations/assets/step2_red.png) | Tangenter | Nyckeln avgör vilken typ av produkt eller innehåll som visas i dina rekommendationer. Nyckeln kan till exempel vara en produktkategori. Se [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 | ![Steg 3](/help/c-recommendations/assets/step3_red.png) | Attribut | Attribut ger mer specifik information om de produkter som du vill visa. Du kanske vill visa produkter inom ett visst prisintervall, eller artiklar som uppfyller ett lagertröskelvärde. Attribut kan anges i mbox eller via en [feed](/help/c-recommendations/c-products/feeds.md).<br>Se  [Ange inkluderingsregler](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). |
 | ![Steg 4](/help/c-recommendations/assets/step4_red.png) | Undantag | Undantag avgör vilka specifika objekt som inte visas i dina rekommendationer.<br>Se  [Undantag](/help/c-recommendations/c-products/exclusions.md). |
@@ -45,7 +44,7 @@ Det finns två sätt att tillhandahålla information om produkter och tjänster 
 
 Dessa metoder kan användas separat eller tillsammans, som i följande exempel.
 
-## Exempel ett: Kombinera sida och feeds {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+## Exempel ett: Kombinera sidor och feeds {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
 
 Ett vanligt [!DNL Recommendations]-implementeringsalternativ använder både sidparametrar och flöden.
 
@@ -81,7 +80,7 @@ När feed har konfigurerats och skickats till [!DNL Recommendations] skickar du 
 
 Den uppsättning med data som körs senast prioriteras. Om du skickar flödet först och sedan uppdaterar sidparametrarna visas de ändringar som har gjorts i sidparametrarna och ersätter den objektinformation som skickas i flödet.
 
-## Exempel två: Skicka alla parametrar på informationssidan {#section_D5A4F69457604CA7AACFD7BFF79B58A9} för produkten (eller innehållet)
+## Exempel två: Skicka alla parametrar på informationssidan för produkten (eller innehållet) {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 Om du skickar alla parametrar på sidan kan du snabbt göra uppdateringar genom att uppdatera sidan. I vissa organisationer kräver detta att IT-avdelningen eller webbdesignteamet är engagerade.
 
@@ -138,15 +137,9 @@ Alla sidor som innehåller rekommendationer kräver antingen en [!DNL at.js]- el
 
 Implementeringen kräver:
 
-* [!DNL at.js] version 0.9.2 (eller senare) eller  [!DNL mbox.js] version 55 (eller senare)
-
-* [!DNL mbox.js] måste innehålla referensen till  [!DNL target.js] ( kräver  [!DNL at.js] ingen referens till  [!DNL target.js])
+* [!DNL at.js] version 0.9.2 (eller senare)
 
 Mer information om hur du implementerar [!DNL at.js] finns i [Distribuera på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
-
-Mer information om hur du implementerar [!DNL mbox.js] finns i [Mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-
-Mer information om skillnaderna mellan de två Target JavaScript-biblioteken finns i [Fördelarna med at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Kategorisida {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -193,12 +186,11 @@ function targetPageParams() {
 </script>
 ```
 
-## Tack för din sida {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## Tack {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 På sidan Tack kanske du vill visa ordersumman och beställnings-ID:t och visa de produkter som köpts, utan att rekommendera ytterligare artiklar. Du kan implementera en andra mbox för att hämta orderinformationen.
 
 * Om du använder at.js läser du [Spåra konverteringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* Om du använder mbox.js läser du [Skapa en mbox för orderbekräftelse - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Inställningar {#concept_C1E1E2351413468692D6C21145EF0B84}
 
