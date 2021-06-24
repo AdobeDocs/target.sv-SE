@@ -5,7 +5,7 @@ user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunde
 feature-set: Target
 source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,6 @@ ht-degree: 0%
          + [Skapa en orderbekräftelsembox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
          + [mbox.js Frågor och svar](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js, funktioner](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
-         + [versionsinformation för mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + Förstå den globala mbox {#global-mbox}
          + [Förstå den globala mbox-översikten](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Anpassa en global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
