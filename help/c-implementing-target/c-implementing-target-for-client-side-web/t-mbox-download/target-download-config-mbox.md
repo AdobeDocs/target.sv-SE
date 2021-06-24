@@ -5,10 +5,9 @@ title: Hur hämtar jag biblioteket [!DNL Target] mbox.js?
 feature: at.js
 role: Developer
 exl-id: 92096b1b-a8a5-435b-8e62-24b5d15d392f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -29,14 +28,12 @@ Om du vill använda [!DNL Adobe Target] [!UICONTROL Visual Experience Editor] m�
 1. Klicka på **[!UICONTROL Download mbox.js]** och följ anvisningarna för att spara filen.
 1. (Villkorligt) Om du använder [!DNL mbox.js] version 60 eller senare kan du konfigurera biblioteket så att sidinnehållet döljs automatiskt som standard tills rutor läses in för att minska flimret på responsiva webbplatser.
 
-   Mer information finns i&quot;Utelämna sidinläsningsflimmer&quot; i [mbox.js Avancerade inställningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
-
 1. Skapa [!DNL mbox.js]-referensen på webbplatsen.
 
    Från och med [!DNL mbox.js] version 57 kan [!DNL mbox.js]-referensen placeras var som helst i `<head>`-avsnittet på sidan.
 
    >[!IMPORTANT]
    >
-   >Om du använder en version av [!DNL mbox.js] som är tidigare än version 57 måste referensen vara det sista objektet i `<head>`-avsnittet på sidorna. Om referensen inte är den sista posten kan allvarliga problem med visning eller prestanda uppstå. Mer information finns i [What mbox.js does](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md).
+   >Om du använder en version av [!DNL mbox.js] som är tidigare än version 57 måste referensen vara det sista objektet i `<head>`-avsnittet på sidorna. Om referensen inte är den sista posten kan allvarliga problem med visning eller prestanda uppstå.
 
 1. Överför den sparade [!DNL mbox.js]-filen till den plats i värdmiljön som du angav i koden.
