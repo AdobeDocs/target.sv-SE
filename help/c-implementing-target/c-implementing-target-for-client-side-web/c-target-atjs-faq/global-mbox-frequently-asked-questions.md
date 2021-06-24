@@ -5,10 +5,9 @@ title: Vilka är de vanliga frågorna om den globala rutan?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -29,9 +28,9 @@ Du kan också skicka en parameter på sidan med [targetPageParams](/help/c-imple
 
 Om du vill samla in intäkter och orderinformation för target-global-mbox måste&quot;mbox parameters&quot; skickas till Target. Dessa parametrar är namn/värde-par som används för att skicka mer information till Target. Target söker automatiskt efter dessa parametrar (reserverade namn) för att fylla i intäktsdata.
 
-För `orderConfirmPage` ska du ange `orderTotal`, `orderId` och `productPurchasedId`. Mer information finns i [Skapa en orderbekräftelseruta - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
+För `orderConfirmPage` ska du ange `orderTotal`, `orderId` och `productPurchasedId`.
 
-Samma parametrar måste skickas till target-global-mbox via `targetPageParams()`. Mer information finns i [Skicka parametrar till en global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Dessa parametrar måste skickas till target-global-mbox via `targetPageParams()`. Mer information finns i [Skicka parametrar till en global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
 
 Du kommer också att lägga till målinriktning i konverteringsdelen så att Target endast räknar konverteringar i målets globala mbox när orderbekräftelsesidan har visats, vilket visas nedan:
 
