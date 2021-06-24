@@ -4,9 +4,9 @@ description: Granska en lista med ämnen som kan hjälpa dig att lösa problem i
 title: Hur felsöker jag Target?
 feature: Felsökning
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -124,11 +124,6 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 * [at.js-begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [at.js-implementering](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
-
-### mbox.js
-
-* [mbox.js Frågor och svar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-* [versionsinformation för mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
 
 ## Kända fel
 
