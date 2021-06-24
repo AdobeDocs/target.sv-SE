@@ -3,8 +3,7 @@ user-guide-title: Adobe [!DNL Target] Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -75,6 +74,7 @@ ht-degree: 0%
       + Integritet och säkerhet {#privacy}
          + [Sekretessöversikt](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Sekretess- och dataskyddsbestämmelser](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Målcookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [Ta bort målcookien](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite cookie-principer](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
@@ -152,7 +152,6 @@ ht-degree: 0%
          + [Skapa en orderbekräftelsembox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
          + [mbox.js Frågor och svar](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js, funktioner](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
-         + [mbox.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [versionsinformation för mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + Förstå den globala mbox {#global-mbox}
          + [Förstå den globala mbox-översikten](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
