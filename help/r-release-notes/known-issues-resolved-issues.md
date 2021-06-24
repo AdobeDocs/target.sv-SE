@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Versionsinformation
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4335'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Följande är kända problem med [!UICONTROL Recommendations]-aktiviteter:
 * När [!DNL Target] returnerar ett JSON-erbjudande med getOffer() returneras det med typen JSON. Om du returnerar en JSON Recommendations-design returneras den dock med en typ av HTML.
 * Enheterna har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. (IRI-857)
 * Övertäckningarna &quot;Användningsinformation&quot; för villkor och design återspeglar inte deras användning i A/B- och Experience Targeting-aktiviteter (TGT-34331)
-* Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsgranskning av Recommendations-fältet (TGT-33426)
+* Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsvisning av Recommendations-fältet (TGT-33426)
 * Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av dessa objekt i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade. (TGT-35777)
 * Recommendations-aktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
 * Den feed-status för anpassade kriterier som visas i kriterielistan (kortvyn) uppdateras var tionde minut och kan i sällsynta fall vara mer än tio minuter gammal. Statusen som visas i redigeringsvyn för anpassade kriterier hämtas i realtid och är alltid uppdaterad. (TGT-35896, TGT-36173)
@@ -100,7 +100,7 @@ I en MVT-aktivitet är vinnaren som visas i tabellen och diagrammet inte konsekv
 Följande är kända problem med at.js:
 
 * Om du använder at.js-versioner före 2.2.0 rapporterar click tracking inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste at.js-versionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) om du får det här problemet.
-* Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-filen [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) inte fungerar som den ska.
+* Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-programmet ttMeta inte fungerar som det ska.
 
    Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet. (TNT-33366)
 
@@ -229,12 +229,6 @@ Mer information och en korrigering finns i&quot;Hur påverkar den nyligen lanser
 Diagramrapporten för en Auto-Target-aktivitet kan inte återges för&quot;differentiella&quot; lägen (genomsnittlig Lyft och daglig lyft) om det inte finns några data (0 besök) för någon upplevelse. Detta kan inträffa under det första steget i en aktivitet om kontrollupplevelsen är anpassad. För de andra lägena (Running Average Control och Targeted, Daily Control och Targeted samt Visits) fungerar det bra. Så snart det finns vissa data (besök som inte är noll) återges rapporten som förväntat.
 
 Problemet har åtgärdats i version 19.7.1 av Target.
-
-### mbox.js
-
-Biblioteket mbox.js har inte stöd för mallspråk på klientsidan, till exempel Handlebars och Mustache. at.js-biblioteket *stöder* dessa språk.
-
-**Obs**: Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementering: Automatisk generering av global mbox
 
