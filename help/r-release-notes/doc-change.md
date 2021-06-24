@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 24 juni | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade förhandsversionsinformationen för [!DNL Target Standard/Premium] 21.6.1-utgåvan (30 juni 2021). |
 | 16 juni | [[!DNL Target] versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Information om Python SDK version 1.0.0 har lagts till.[!DNL Adobe Target] |
 |  | [Insikter om personalisering - rapporter](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Följande frågor och svar har lagts till:<ul><li>Hur länge bevaras data för modellerna [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target]?</li></ul> |
 | 8 juni | [Innan du implementerar Analytics för Target (A4T) med at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Observera att at.js 1.8.0 eller senare inte längre fungerar med Visitor API-versioner som är äldre än 2.5.0 för att skicka [!DNL Adobe Audience Manager]-parametrar (AAM). |
