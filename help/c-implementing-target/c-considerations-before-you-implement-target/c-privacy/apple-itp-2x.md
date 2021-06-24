@@ -5,10 +5,9 @@ title: Hur hanterar [!DNL Target] Apple ITP stöd?
 feature: Integritet och säkerhet
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Dessa versioner av ITP innehåller följande begränsningar:
 
 ## Vad har jag för effekt som kund av Adobe [!DNL Target]? {#impact}
 
-[!DNL Target] innehåller JavaScript-bibliotek som du kan använda på dina sidor för att  [!DNL Target] kunna leverera personalisering i realtid till besökarna. Det finns tre JavaScript-målbibliotek ([at.js 1.x, at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) och [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) som placerar [!DNL Target]-cookies på dina besökares webbläsare via API:t `document.cookie`. Därför påverkas [!DNL Target]-cookies av Apples ITP 2.x och upphör att gälla efter sju dagar (med ITP 2.1) och efter en dag (med ITP 2.2 och ITP 2.3).
+[!DNL Target] innehåller JavaScript-bibliotek som du kan använda på dina sidor för att  [!DNL Target] kunna leverera personalisering i realtid till besökarna. Det finns tre JavaScript-målbibliotek på .js 1.x, at.js 2.x som placerar [!DNL Target]-cookies på klientsidan i besökarens webbläsare via API:t `document.cookie`. Därför påverkas [!DNL Target]-cookies av Apples ITP 2.x och upphör att gälla efter sju dagar (med ITP 2.1) och efter en dag (med ITP 2.2 och ITP 2.3).
 
 Apple ITP 2.x påverkar [!DNL Target] inom följande områden:
 
