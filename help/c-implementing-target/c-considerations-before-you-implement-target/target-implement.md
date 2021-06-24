@@ -3,10 +3,9 @@ keywords: document.write;target;implementera;implementera target;dtm;at.js;mbox.
 description: Implementera Adobe [!DNL Target] by referencing the [!DNL Target] bibliotek (at.js eller mbox.js) på dina webbsidor.
 title: Förstå [!DNL Target] JavaScript-biblioteken
 feature: Implementering
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -18,18 +17,18 @@ Implementera [!DNL Adobe Target] genom att referera till [!DNL Adobe Target]-bib
 
 >[!NOTE]
 >
->Biblioteket mbox.js utvecklas inte längre. Alla kunder måste migrera från mbox.js till at.js eller till [!UICONTROL Adobe Experience Platform Web SDK] före 31 mars 2021. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) eller [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+>Biblioteket mbox.js utvecklas inte längre. Alla kunder måste migrera från mbox.js till at.js eller till [!UICONTROL Adobe Experience Platform Web SDK] före 31 mars 2021.
 
-## Skillnader mellan [!DNL Target] JavaScript-biblioteken {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Skillnader mellan JavaScript-biblioteken [!DNL Target] {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 I följande tabell förklaras skillnaderna mellan JavaScript-biblioteken [!DNL Target]:
 
 | Biblioteksreferens | Beskrivning |
 |--- |--- |
 | Adobe Experience Platform Web SDK | Med [!UICONTROL Adobe Experience Platform Web SDK] kan du interagera med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via Adobe Experience Edge-nätverket. Om du väljer att migrera till [!DNL Adobe Experience Platform Web SDK], se [Vad är Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) i *Web SDK Guide*. |
-| at.js | at.js ersätter mbox.js för [!DNL [!DNL Target]] implementeringar.<br>Bland annat har at.js förbättrat sidinläsningstiderna för webblöplementeringar, förbättrat säkerheten, förhindrat dokument.write-varningar i Google Chrome och gett bättre implementeringsalternativ för enkelsidiga program.<br>Mer information finns  [i implementeringen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) av at.js. |
+| at.js | at.js ersätter mbox.js för [!DNL [!DNL Target]] implementeringar.<br>Bland annat har at.js förbättrat sidinläsningstiderna för webblöplementeringar, förbättrat säkerheten, förhindrat dokument.write-varningar i Google Chrome och gett bättre implementeringsalternativ för enkelsidiga program. |
 
-## Inverkan av at.js på sidinläsningstid {#section_16630CD0FF0A498EB596A51381366A5A}
+## Effekten av at.js på sidinläsningstiden {#section_16630CD0FF0A498EB596A51381366A5A}
 
 Många kunder och konsulter vill veta hur [!DNL at.js] påverkar sidladdningstiden, särskilt när det gäller nya jämfört med återkommande användare. Tyvärr är det svårt att mäta och ge konkreta siffror för hur [!DNL at.js] påverkar sidladdningstiden på grund av varje kunds implementering.
 
