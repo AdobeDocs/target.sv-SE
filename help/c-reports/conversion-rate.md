@@ -4,8 +4,7 @@ description: Läs om hur Adobe [!DNL Target] visar och beräknar konverteringsgr
 title: Hur visar jag konverteringsgraden, avbrottsnivån och konfidensnivån?
 feature: Rapporter
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2162'
 ht-degree: 0%
@@ -46,7 +45,7 @@ Lyft = (Experience CR - Control CR) / Ctrl CR
 
 Om kontrollen är 0, finns ingen procentuell lyft.
 
-## Konfidentiellt (statistisk signifikans) {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Förtroende (statistisk signifikans) {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Detta tal representerar sannolikheten för att resultatet skulle dupliceras om testet kördes igen. Konfidensen avrundar till upp till 100,00 % när förtroendet är större än eller lika med 99,995 %.
 
@@ -54,7 +53,7 @@ Se [Konfidensnivå och konfidensintervall](/help/c-reports/conversion-rate.md#co
 
 ## Butiksdata {#section_30A674731BA6440E9BB93C421BE990EE}
 
-AOV-, RPV- och Sales-data visas för varje upplevelse om du infogade en [monteringsorder](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) ( `orderConfirmPage`)-ruta och valde den som konverteringsruta.
+AOV-, RPV- och Sales-data visas för varje upplevelse om du har infogat en monteringsorder (`orderConfirmPage`) och valt den som konverteringsruta.
 
 ## Konfidensnivå och konfidensintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
