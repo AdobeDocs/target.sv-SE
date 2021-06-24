@@ -5,10 +5,9 @@ title: Vad ställs det ofta frågor om [!DNL Target] mbox.js?
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -22,16 +21,6 @@ Svar på vanliga frågor om mbox.js.
 >**mbox.js - utgånget**: 31 mars 2021 har  [!DNL Adobe Target] inte längre stöd för mbox.js-biblioteket. Efter den 31 mars 2021 kommer alla anrop från mbox.js att misslyckas och påverka de sidor där [!DNL Target]-aktiviteter körs genom att standardinnehåll används.
 >
 >Vi rekommenderar att alla kunder migrerar till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js före detta datum för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-## Hur påverkar mbox.js sidinläsningstiderna? {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-Mer information finns i [Fördelar med at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
-
-## Varför får jag varningsmeddelanden om&quot;parser-blockering&quot; i Google Chrome när jag använder mbox.js och document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
-
-Det här konsolmeddelandet visas när Chrome används i många scenarier där funktionen `document.write` används i filen mbox.js. Det här är ett varningsmeddelande och bör inte påverka aktivitetsinställningsprocessen.
-
-Det bästa sättet att förhindra detta är att [migrera målistimplementeringen till JavaScript-biblioteket at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), som inte använder funktionen `document.write`. Att använda at.js ger många fördelar jämfört med att använda mbox.js. Mer information finns i [at.js Vanliga frågor](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## Varför skjuter inte mina lådor på mina webbsidor? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
