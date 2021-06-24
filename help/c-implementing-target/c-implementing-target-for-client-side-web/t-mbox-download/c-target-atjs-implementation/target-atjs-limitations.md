@@ -4,14 +4,13 @@ description: Läs om den gamla implementeringen av mbox.js i Adobe Target. Migre
 title: Vad är skillnaden mellan at.js och mbox.js?
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 2fd0db66-0b47-41c0-86b6-44e711d70027
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
-
 
 # at.js Begränsningar
 
@@ -28,9 +27,8 @@ Det finns vissa skillnader mellan at.js och mbox.js. I det här avsnittet beskri
 Vissa funktioner i [!DNL mbox.js] är inte tillgängliga i [!DNL at.js]. Interna [mbox.js-objekt och -metoder](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (till exempel `mbox`, `mboxCurrent`, `mboxFactoryDefault` och `mboxFactories`) stöds inte längre av [!DNL at.js] (till exempel: `mboxFactoryDefault`). Detta är utformat för att avskräcka dig från att&quot;hacka&quot; [!DNL at.js] för att utveckla funktionalitet som inte stöds och som på lång sikt kan klappa en implementering och göra det omöjligt att uppgradera. De enda exponerade metoderna beskrivs på API-sidorna i den här dokumentationen. På grund av detta:
 
 * Äldre, sidbaserade [integreringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) med andra Adobe-lösningar kanske inte fungerar och bör uppgraderas till nyare serverintegreringar.
-* [Anpassade plugin-program som utvecklats för mbox.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) jsfungerar kanske inte om de inte har uppdaterats för  [!DNL at.js].
 
-   Se till att du inkluderar alla [plugin-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) som en del av testningen.
+   Se till att du inkluderar eventuella plugin-program som en del av testningen.
 
 ## Asynkrona överväganden {#section_B586360A3DD34E2995AE25A18E3FB953}
 
@@ -55,4 +53,3 @@ Eftersom alla rutor nu är asynkrona blockerar de inte sidåtergivning eller ret
 * Erbjudanden om DOM-manipulering och omdirigering ska levereras via den automatiskt skapade globala mbox i [!DNL at.js] och levereras i `<head>`.
 
    En `mboxCreate()`-funktion högst upp i `<body>` kommer troligen att resultera i att standardinnehållet flimrar.
-
