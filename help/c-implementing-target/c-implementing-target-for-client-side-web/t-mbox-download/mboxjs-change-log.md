@@ -5,10 +5,9 @@ title: Vad ingår i varje version av mbox.js?
 feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -31,13 +30,13 @@ Hur Target svarar på samtal från din sida beror på vilken version av målbibl
 
 >[!NOTE]
 >
->Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js. Mer information finns i [Migrera till at.js från mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>Biblioteket mbox.js utvecklas inte längre. Alla kunder bör migrera från mbox.js till at.js.
 
 ## mbox.js version 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Målversion:** 17.7.1
 
-[!DNL mbox.js] version 63 är nu tillgänglig. Mer information finns i [Hämta mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md).
+[!DNL mbox.js] version 63 är nu tillgänglig.
 
 Följande förbättringar och korrigeringar ingår i version 63 av [!DNL mbox.js]:
 
@@ -101,7 +100,7 @@ Om filen [!DNL visitorAPI.js] finns för Experience Cloud Visitor ID-tjänsten i
 
 * asynkrona V60-anrop
 
-   När du använder v60 med besökar-id-tjänsten görs alla mbox-anrop asynkront. Det här är en förändring från hur kryssrutor alltid har fungerat, så var försiktig om du uppgraderar till den här versionen. Granska avsnittet [Asynkrona överväganden](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) i [!DNL at.js]-dokumentationen ( [!DNL at.js] använder även asynkrona anrop) för att förstå några av riskerna.
+   När du använder v60 med besökar-id-tjänsten görs alla mbox-anrop asynkront. Det här är en förändring från hur kryssrutor alltid har fungerat, så var försiktig om du uppgraderar till den här versionen.
 * Nya besökarscenarier kan ha flimmer
 
    När du använder v58 till v60 med besökar-id-tjänsten, anropar mbox väntan på att besökar-ID:t ska anges innan utlösen (eller tills en timeout har inträffat). Detta sker vid inläsning av första sidan för en ny besökare.
