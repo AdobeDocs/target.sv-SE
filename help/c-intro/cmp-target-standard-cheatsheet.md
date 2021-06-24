@@ -4,10 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target funktioner
 title: Var kan jag hitta svar på Mina optimerings- och personaliseringsfrågor?
 feature: Översikt
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2847'
 ht-degree: 0%
 
 ---
@@ -36,15 +35,7 @@ Ta en titt på [Target Community Forum](/help/cmp-resources-and-contact-informat
 
 Läs vår [webbläsarmatris](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) som stöds för mer information. Observera att det finns två aspekter: Stöd för gränssnitten Target Standard/Premium Experience Cloud och webbläsarstöd för slutanvändare på datorer/enheter.
 
-## JavaScript-målbibliotek (at.js och mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**Vilken JavaScript-implementeringsfil ska jag använda, at.js eller mbox.js?**
-
-at.js är vårt senaste och bästa JavaScript-bibliotek. mbox.js är vår äldre version. Se [Fördelarna med at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) för att förstå skillnaderna mellan de två biblioteken. Alla nya kunder bör använda at.js.
-
-Alla befintliga mbox.js-kunder bör migrera till at.js. Läs mer om stegen i [migrering från mbox.js till at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) innan du gör övergången.
-
-## Aktiviteter {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
+## Verksamhet {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
 **Kan jag utföra en statistiskt rigorös aktivitet för att hitta en vinnande och förlorande upplevelse när jag använder en kontrollupplevelse?**
 
@@ -167,7 +158,7 @@ Ta en titt på följande aspekter av produkten:
 * [Kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 * [Målgrupper](/help/c-integrating-target-with-mac/mmp.md)
 
-## Upplevelser {#section_5959536B8D6A4BEA8FAA1273338F3451}
+## Erfarenheter {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
 **Kan jag köra en aktivitet på flera sidor där sidstrukturen är gemensam?**
 
@@ -265,7 +256,7 @@ Använd vår [felsökare](/help/c-activities/c-troubleshooting-activities/conten
 
 Använd kraften i [formulärbaserade aktiviteter](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) med [JSON erbjuder](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) för att uppnå ditt mål.
 
-## Rapporter (inklusive analyser för Target—A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
+## Rapporter (inklusive analyser för Target - A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
 **Jag har också Adobe Analytics och vill utnyttja det med Target. Vilka nyckelfunktioner får jag genom att integrera de två lösningarna?**
 
