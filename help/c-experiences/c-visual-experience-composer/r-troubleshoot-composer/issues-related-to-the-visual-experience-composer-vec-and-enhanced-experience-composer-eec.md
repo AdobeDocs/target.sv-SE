@@ -4,10 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -80,12 +79,6 @@ Om webbplatsen har ändrats utanför Visual Experience Composer efter att upplev
 ## VEC eller EEC visar inte mina roterande banners och annat innehåll som innehåller JavaScript. (VEC och EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 Som standard blockerar Visual Experience Composer JavaScript-element. Du kan arbeta med dessa element om du inaktiverar JavaScript i inställningarna för Visual Experience Composer. Beroende på hur webbplatsen är konfigurerad kan vissa objekt fortsätta att visas felaktigt eller vara otillgängliga.
-
-## Min target.js-fil på värdservern kan inte läsas in vid efterföljande sidomladdningar. (VEC och EEC) {#section_87F6418C2CD142A7B4D1E7037935F81F}
-
-Problemet inträffar när kunderna har en mbox.js-version som är tidigare än 57 (d.v.s. version 56 eller tidigare).
-
-Vi rekommenderar att alla VEC-användare uppgraderar till den [senaste versionen av mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A), eller åtminstone uppgraderar till version 57. Du bör också överväga att [göra övergången till at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 ## När jag ändrar ett element på sidan ändras flera element. (VEC och EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
