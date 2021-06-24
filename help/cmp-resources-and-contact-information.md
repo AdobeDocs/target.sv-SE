@@ -4,10 +4,9 @@ description: Läs mer om ytterligare resurser som kan hjälpa dig att lära dig 
 title: Var kan jag hitta resurser och kontaktinformation för Target?
 feature: Versionsinformation,Översikt
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 Information om ytterligare resurser som hjälper dig att lära dig mer om Target-funktioner och hur du kan kontakta Adobe om du behöver hjälp med Target.
 
-## Målcommunity-forum {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## Forum för målgrupper {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
 Target Community är er enda butik för allt som Adobe Target har att erbjuda.
 
@@ -28,7 +27,7 @@ Med användarcommunityn kan du:
 
 Gå till [målforumet](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) för att komma igång.
 
-## Grundläggande målwebbseminarieserie {#concept_11902FAC95C64479AABE020557A7EEE4}
+## Target Basics Webinar Series {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 Registreringsinformation och länkar till tidigare sessioner i Target Basics Webinar Series, en Customer Success Webinar-serie som kommer från gemenskapen.
 
@@ -49,7 +48,7 @@ Aktuella målsessioner inkluderar:
 | [Target Premium Workspaces](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br> 27:49 <br>september 2018 | Du kommer att lära dig:<ul><li>Skapa en arbetsyta (produktprofil)</li><li>Skapa egenskaper</li><li>Lägga till användare</li><li>Uppdaterar implementering</li></ul>Mer information finns i [Företagsanvändarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23 <br>december 2017 | Du kommer att lära dig:<ul><li>Hur VEC fungerar</li><li>Hur man undviker vanliga problem med VEC</li><li>Sätter att kringgå arbetet med VEC</li></ul>Mer information finns i [Upplevelser](/help/c-experiences/experiences.md). |
 | [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33 <br>januari 2018 | Du kommer att lära dig:<ul><li>Konfigurera och verifiera att integreringen fungerar </li><li>Hur integreringen fungerar</li><li>Läs mer om de idealiska rapporterna som ska användas i Analytics</li><li>Svar på vanliga frågor om A4T</li></ul>Mer information finns i [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js: Fördelar och bästa praxis för implementering](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43 <br>april 2018 | Du kommer att lära dig: <ul><li>Så fungerar biblioteket at.js</li><li>Fördelarna med at.js jämfört med mbox.js</li><li>Hur at.js hanterar flimmer</li><li>Felhantering i at.js</li><li>Felsökningsmetoder</li><li>Kända fel och framtida färdplan</li></ul>Mer information finns i [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [at.js: Fördelar och bästa praxis för implementering](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43 <br>april 2018 | Du kommer att lära dig: <ul><li>Så fungerar biblioteket at.js</li><li>Fördelarna med at.js jämfört med mbox.js</li><li>Hur at.js hanterar flimmer</li><li>Felhantering i at.js</li><li>Felsökningsmetoder</li><li>Kända fel och framtida färdplan</li></ul> |
 
 >[!NOTE]
 >
@@ -119,7 +118,7 @@ Beroende på din lösningskonfiguration kanske vissa alternativ som beskrivs i d
 
 Vi välkomnar alla förslag och all feedback om den här lösningen. Förbättringsidéer och förslag kan läggas till i [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Klicka på fliken [!UICONTROL Ideas].
 
-### Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
+### Juridik {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 * © 2021 Adobe Systems Incorporated. all rights reserved.
 * Publicerat av Adobe Systems Incorporated.
