@@ -6,7 +6,7 @@ feature: Felsökning
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -121,9 +121,8 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 * [at.js Frågor och svar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Felsöka at.js med Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [at.js-begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [at.js-implementering](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
+* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam.
 
 ## Kända fel
 
