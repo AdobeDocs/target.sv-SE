@@ -5,7 +5,7 @@ user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunde
 feature-set: Target
 source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -137,21 +137,6 @@ ht-degree: 0%
          + [versionsinformation för at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [Uppgradera från at.js 1.x till at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [at.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-      + mbox.js implementation (legacy) {#mbox-implement}
-         + [mbox.js - implementeringsöversikt](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
-         + Migrera från mbox.js till at.js {#migrate-mbox}
-            + [Migrera från mbox.js till at.js - översikt](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
-            + [Migrera till at.js från mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
-            + [at.js-begränsningar](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
-            + [at.js plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [Distribuera at.js till en icke-produktionsmiljö](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
-         + [Vad mbox.js gör](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
-         + [Konfigurera mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
-         + [Ladda ned mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
-         + [Målsidesmetoder med mbox.js biblioteksversion](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
-         + [Skapa en orderbekräftelsembox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [mbox.js Frågor och svar](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-         + [mbox.js, funktioner](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
       + Förstå den globala mbox {#global-mbox}
          + [Förstå den globala mbox-översikten](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Anpassa en global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
