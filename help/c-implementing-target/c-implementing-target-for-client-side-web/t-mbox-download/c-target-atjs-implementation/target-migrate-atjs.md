@@ -5,10 +5,9 @@ title: Migrera till at.js från mbox.js
 feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -97,7 +96,7 @@ Följ de här stegen för att migrera från [!DNL mbox.js] till [!DNL at.js] och
    Här är några saker du kan göra när du testar för att bekräfta att [!DNL at.js] fungerar som väntat:
 
    * Se till att alla dina aktuella aktiviteter fungerar med det nya JavaScript-biblioteket.
-   * Bekräfta att alla [integreringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) och [plugin-program](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) fungerar som förväntat.
+   * Bekräfta att alla [integreringar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) och plugin-program fungerar som förväntat.
    * Se till att du känner dig bekväm med [felsökning](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) med de metoder som är tillgängliga med [!DNL at.js].
 
 **Möjliga problem vid migrering till at.** jsVissa kunder har rapporterat följande problem efter migreringen till at.js:
@@ -125,4 +124,4 @@ I dessa fall kan elementväljarna börja med något som
 
    Mer information om hur du använder kodredigeraren finns i [Kodredigeraren](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Eftersom alla rutor nu är asynkrona blockerar de inte sidåtergivning eller returnerar i den ordning som de utlöses. Mer information finns i&quot;Asynkrona överväganden&quot; i [at.js-begränsningar](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Eftersom alla rutor nu är asynkrona blockerar de inte sidåtergivning eller returnerar i den ordning som de utlöses.
