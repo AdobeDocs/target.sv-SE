@@ -5,10 +5,9 @@ title: Hur implementerar jag [!DNL Target] med mbox.js?
 feature: at.js
 role: Developer
 exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 Om du vill använda [!DNL Adobe Target Standard] eller [!DNL Target Premium] lägger du till en kodrad för att anropa mbox.js.
 
-Du kan använda en av två biblioteksreferenser: [!DNL Adobe Experience Platform Web SDK] eller [!DNL at.js]. [Fördelarna med at.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) jsexuell förenklar skillnaderna mellan mbox.js- och at.js-biblioteken.
+Du kan använda en av två biblioteksreferenser: [!DNL Adobe Experience Platform Web SDK] eller [!DNL at.js].
 
 >[!IMPORTANT]
 >
