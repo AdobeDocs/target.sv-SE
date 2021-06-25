@@ -4,10 +4,9 @@ description: Lär dig hur du använder URL:er för förhandsgranskning av upplev
 title: Hur kan jag använda URL:er för förhandsgranskning i Automated Personalization-aktiviteter?
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 568760262622b1097dca9384ed9d1360cfadfb6f
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -19,8 +18,6 @@ URL:er för förhandsgranskning av upplevelser kan genereras för Automated Pers
 >[!NOTE]
 >
 >URL:er för förhandsgranskning för Automated Personalization skiljer sig från QA-läget för aktivitet. I läget Activity QA kan du skapa aktivitets-URL:er för andra typer av aktiviteter. Mer information finns i [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md).
->
->URL:er för förhandsgranskning av AP-aktiviteter är bara tillgängliga när du använder at.js 1.x. URL:er för förhandsgranskning för AP-aktiviteter stöds för närvarande inte för at.js 2.x.
 
 Använd URL:er för förhandsgranskning av upplevelser för att dela upplevelser med teammedlemmar och till QA-upplevelser i olika webbläsare och miljöer, utan att skapa en separat QA-aktivitet. Den här funktionen är särskilt användbar om en webbplats är komplex eller om dina säkerhetsprofiler inte tillåter att webbplatsen visas i en simulator.
 
