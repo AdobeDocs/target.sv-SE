@@ -4,10 +4,9 @@ description: Lär dig hur du skapar JSON-erbjudanden i Adobe [!DNL Target] för 
 title: Hur skapar jag JSON-erbjudanden?
 feature: Erfarenheter och erbjudanden
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,6 @@ Tänk på följande när du arbetar med JSON:
 * I webbläsaren kan JSON-erbjudanden ENDAST hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) genom att filtrera åtgärder med åtgärden `setJson`.
 * JSON-erbjudanden levereras som systemspecifika JSON-objekt i stället för som strängar. Konsumenter av dessa objekt behöver inte längre hantera objekt som strängar och konvertera dem till JSON-objekt.
 * JSON-erbjudanden tillämpas inte automatiskt i motsats till andra erbjudanden (som HTML-erbjudanden) eftersom JSON-erbjudanden är icke-visuella erbjudanden. Utvecklare måste skriva kod för att uttryckligen få erbjudandet med [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
-* JSON-erbjudanden stöds inte om du använder mbox.js.
 
 ## Skapa ett JSON-erbjudande {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -133,7 +131,7 @@ adobe.target.getOffer({
 });
 ```
 
-## JSON-erbjudandetypen {#section_52533555BCE6420C8A95EB4EB8907BDE} filtrerar erbjudanden
+## Filtrera erbjudanden efter erbjudandetypen JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 Du kan filtrera biblioteket [!UICONTROL Offers] genom att klicka på listrutan **[!UICONTROL Type]** och sedan markera kryssrutan **[!UICONTROL JSON]**.
 
