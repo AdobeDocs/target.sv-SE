@@ -5,9 +5,9 @@ title: Vilka webbläsare stöder [!DNL Target] funktionen?
 feature: Implementering
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Materialet har testats i följande webbläsare och enheter:
 
 Observera följande:
 
-* För [!DNL at.js]-implementeringar visar [!DNL Target] standardinnehåll i tidigare versioner av Internet Explorer och eventuellt i tidigare versioner av webbläsarna ovan. För [!DNL mbox.js]-implementeringar försöker [!DNL Target] återge innehåll, men det kanske inte lyckas.
+* För [!DNL at.js]-implementeringar visar [!DNL Target] standardinnehåll i tidigare versioner av Internet Explorer och eventuellt i tidigare versioner av webbläsarna ovan.
 * I Internet Explorer behandlas alla okända element (t.ex. anpassade element) som samma elementtyp. Leveransen fungerar därför inte med anpassade element.
 * [!DNL Target] visar standardinnehåll i webbläsare som inte listas ovan och i webbläsare som använder  [läget](https://en.wikipedia.org/wiki/Quirks_mode) quirks. at.js kräver en doctype som återges i standardläge, till exempel: `<!DOCTYPE html>` .
 * Adobe Delivery Infrastructure skyddas för att INTE stödja TLS 1.0-enheter och -webbläsare efter den 12 september 2018. Se [TLS (Transport Layer Security) Krypteringsändringar](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) för att förstå den övergripande effekten av den här ändringen.
