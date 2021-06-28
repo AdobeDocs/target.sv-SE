@@ -3,14 +3,13 @@ keywords: dispositionsverktyg för visuell upplevelse;bästa praxis för komposi
 description: Lär dig de bästa sätten att få dina upplevelser att fungera som förväntat när du använder Visual Experience Composer (VEC) i Adobe Target.
 title: Vad är bästa praxis och begränsningar för Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2393'
 ht-degree: 0%
 
 ---
-
 
 # Bästa praxis och begränsningar för Visual Experience Composer
 
@@ -20,13 +19,9 @@ Genom att följa dessa standarder är det mindre troligt att du får oväntade p
 
 ## Bästa praxis {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**För mbox.js version 57 och senare, och för at.js, placerar du referensen mbox.js eller at.js högst upp på  `<head>` sidans avsnitt.**
+**Placera at.js-referensen högst upp på  `<head>` sidans avsnitt.**
 
-Om du även använder Visitor API-tjänsten placerar du besökar-API-skriptet ovanför mbox.js eller at.js.
-
-**För versioner av mbox.js före version 57 ska du placera mbox.js-koden så lågt som möjligt i  `<head>` sidans avsnitt.**
-
-Placera mbox.js i slutet av `<head>`-avsnittet, utan ytterligare deklarationer efter det. I annat fall flyttas skript och länktaggar till `<body>`-avsnittet.
+Om du även använder Visitor API-tjänsten placerar du besökar-API-skriptet ovanför at.js.
 
 **Du kan aktivera Förbättrad Experience Composer på kontonivå (aktiverat för alla aktiviteter som skapas i kontot) eller på den enskilda aktivitetsnivån.**
 
@@ -159,7 +154,7 @@ Om du till exempel vill öppna www.abc.com används följande URL-parametrar:
 
 `www.abc.com?mboxEdit=1&mboxDisable=1`
 
-Med de här parametrarna kan du redigera i en iframe.
+Dessa parametrar gör det möjligt att redigera i en iframe.
 
 Kontrollera att webbplatsen läses in som förväntat när du har lagt till parametrar som dessa.
 
@@ -234,11 +229,11 @@ Ett element kan inte flyttas utanför en behållare som följs av en CSS-egenska
 
 **Endast utbyteserbjudanden är tillgängliga för mboxes.**
 
-Åtgärder som Redigera klass och Ändra ordning tillåts inte i en mbox. Mbox-innehåll hanteras av mbox.js.
+Åtgärder som Redigera klass och Ändra ordning tillåts inte i en mbox.
 
 **Du bör inte ordna om och flytta samma element.**
 
-Om ett element har flyttats till en annan plats, och du väljer den överordnade behållaren och försöker att ordna om de underordnade elementen, påverkas inte det flyttade elementet, utan behåller sin plats. Omordningen kanske inte ser ut som du önskar.
+Om ett element har flyttats till en annan plats, och du väljer den överordnade behållaren och försöker ordna om de underordnade elementen, påverkas inte det flyttade elementet, som förblir där det finns. Omordningen kanske inte ser ut som du önskar.
 
 **Växla bildåtgärd fungerar inte på en bild i en karusell.**
 
