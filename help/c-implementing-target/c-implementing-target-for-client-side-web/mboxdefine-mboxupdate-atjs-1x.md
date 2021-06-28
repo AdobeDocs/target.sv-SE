@@ -5,8 +5,7 @@ title: Hur använder jag funktionerna mboxDefine() och mboxUpdate()?
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -25,7 +24,7 @@ Definiera och uppdatera en mbox i Adobe Target.
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-Skapar en intern mappning mellan ett nodeId och ett mbox-namn, men kör inte begäran. Används tillsammans med `mboxUpdate()`. Inbyggd i [!DNL at.js]för att underlätta övergången från [!DNL mbox.js]till [!DNL at.js].
+Skapar en intern mappning mellan ett nodeId och ett mbox-namn, men kör inte begäran. Används tillsammans med `mboxUpdate()`. Inbyggd i [!DNL at.js] för att underlätta övergången från [!DNL mbox.js]till [!DNL at.js].
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
