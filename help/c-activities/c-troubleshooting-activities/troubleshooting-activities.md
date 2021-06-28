@@ -4,10 +4,9 @@ description: Hitta felsökningsförslag om din Adobe [!DNL Target] aktivitet int
 title: Hur felsöker jag aktiviteter?
 feature: Verksamhet
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -104,15 +103,6 @@ Mer information om hur sidändringar påverkar Target förmåga att visa finns i
 * Sluta dynamiskt ändra klassen eller jämställda objekt enligt beskrivningen ovan.
 
 Mer information om hur sidändringar påverkar Target förmåga att visa finns i [Scenarier för sidändring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
-
-## Mbox.js öppnar all efterföljande kod från huvudet och in i kroppen.
-
-**Validera:** Visa källa för att avgöra om en deklaration följer filen mbox.js före den avslutande  `</body>` taggen.
-
-**Alternativ:**
-
-* Placera mbox.js som det sista objektet i `<head>`-avsnittet på sidan.
-* Använd unika div-ID:n på elementen på den högsta nivån i kroppen.
 
 ## Andra aktiviteter körs på samma sida.
 
