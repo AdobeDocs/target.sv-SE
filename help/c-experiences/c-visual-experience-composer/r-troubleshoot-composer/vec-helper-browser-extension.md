@@ -3,14 +3,13 @@ keywords: vec;Visual experience composer; vec;iframe;extension;browser
 description: Upptäck varför vissa webbplatser kanske inte kan öppnas på ett tillförlitligt sätt i Visual Experience Composer (VEC). Med webbläsartillägget VEC Helper kan du läsa in webbplatser tillförlitligt i VEC.
 title: Hur använder jag hjälptillägget Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
+exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
-
 
 # Hjälptillägg för Visual Experience Composer
 
@@ -69,7 +68,6 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
 
 ## Anteckningar
 
-* Implementeringen måste använda biblioteket [!DNL Target] at.js. Du kan inte använda en mbox.js-implementering med tillägget.
 * Flaggan [!UICONTROL Inject Target libraries] i tillägget är inaktiverad som standard. Du kan aktivera den här flaggan om du vill använda VEC på en webbplats som ännu inte har implementerats för [!DNL Target].
 
    Den här flaggan är en global inställning. Flaggan är aktiverad eller inaktiverad för alla webbplatser som öppnas i VEC. Om du till exempel anger att flaggan ska vara&quot;on&quot; och öppna en webbplats som redan har implementerats med at.js, får du ett meddelande om att at.js redan har lästs in. Adobe räknar med att de flesta kunder redan har at.js implementerat på sina sidor och använder standardinställningen&quot;off&quot;.
@@ -81,4 +79,3 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
    * Om du försöker läsa in en webbplats med VEC som inte kan läsas in visas ett meddelande om att du har installerat webbläsartillägget VEC Helper.
    * Om at.js ännu inte har implementerats på webbplatsen visas ett meddelande i VEC om att du har installerat tillägget.
    * Om tillägget är aktiverat och aktiverar inläsningen visas meddelanden när tillägget injicerar at.js-biblioteket (om det behövs) eller hjälper till att öppna webbplatsen på ett tillförlitligt sätt i VEC.
-
