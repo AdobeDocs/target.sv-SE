@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Använd något av följande alternativ för att säkerställa att ditt VEC och E
 
 ## Har [!DNL Target] stöd för iframes på flera nivåer?
 
-Målet stöder inte iframes på flera nivåer. Om webbplatsen läser in en iframe som har en underordnad iframe, samverkar Target-biblioteken (at.js och mbox.js) endast med den överordnade iframe-instansen. Målbiblioteken samverkar inte med den underordnade iframe-instansen.
+[!DNL Target] stöder inte iframes på flera nivåer. Om webbplatsen läser in en iframe som har en underordnad iframe, interagerar at.js endast med den överordnade iframe. [!DNL Target] Biblioteken samverkar inte med den underordnade iframe-instansen.
 
 Som en tillfällig lösning kan du lägga till en sida i upplevelsen med URL:en för den underordnade iframe-instansen.
 
