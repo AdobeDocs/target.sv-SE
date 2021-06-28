@@ -1,11 +1,11 @@
 ---
-keywords: document.write;target;implementera;implementera target;dtm;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: Implementera Adobe [!DNL Target] by referencing the [!DNL Target] bibliotek (at.js eller mbox.js) på dina webbsidor.
+keywords: document.write;target;implementera;implementera target;dtm;at.js;adobe experience platform web skd;aep web sdk;web sdk
+description: Implementera Adobe [!DNL Target] by referencing the [!DNL Target] JavaScript-bibliotek på dina webbsidor.
 title: Förstå [!DNL Target] JavaScript-biblioteken
 feature: Implementering
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Implementera [!DNL Adobe Target] genom att referera till [!DNL Adobe Target]-bib
 
 >[!NOTE]
 >
->Biblioteket mbox.js utvecklas inte längre. Alla kunder måste migrera från mbox.js till at.js eller till [!UICONTROL Adobe Experience Platform Web SDK] före 31 mars 2021.
+>Biblioteket mbox.js utvecklas inte längre. Alla kunder måste migrera till at.js eller till [!UICONTROL Adobe Experience Platform Web SDK] före 31 mars 2021.
 
 ## Skillnader mellan JavaScript-biblioteken [!DNL Target] {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
@@ -26,7 +26,7 @@ I följande tabell förklaras skillnaderna mellan JavaScript-biblioteken [!DNL T
 | Biblioteksreferens | Beskrivning |
 |--- |--- |
 | Adobe Experience Platform Web SDK | Med [!UICONTROL Adobe Experience Platform Web SDK] kan du interagera med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via Adobe Experience Edge-nätverket. Om du väljer att migrera till [!DNL Adobe Experience Platform Web SDK], se [Vad är Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) i *Web SDK Guide*. |
-| at.js | at.js ersätter mbox.js för [!DNL [!DNL Target]] implementeringar.<br>Bland annat har at.js förbättrat sidinläsningstiderna för webblöplementeringar, förbättrat säkerheten, förhindrat dokument.write-varningar i Google Chrome och gett bättre implementeringsalternativ för enkelsidiga program. |
+| at.js | at.js förbättrar sidinläsningstiderna för webblöplementeringar, förbättrar säkerheten, förhindrar dokumenthantering.write-varningar i Google Chrome och ger bättre implementeringsalternativ för enkelsidiga program. |
 
 ## Effekten av at.js på sidinläsningstiden {#section_16630CD0FF0A498EB596A51381366A5A}
 
