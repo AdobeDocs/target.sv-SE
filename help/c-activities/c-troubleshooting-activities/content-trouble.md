@@ -4,10 +4,9 @@ description: Hitta förslag på hjälp med att åtgärda problem om sidan inte v
 title: Hur felsöker jag innehållsleverans?
 feature: Verksamhet
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ Om sidan inte visar det förväntade innehållet kan du utföra några steg för
 
 mboxDebug är särskilt användbart när du konfigurerar [!DNL Target] på sidan för att kontrollera att [!DNL Target]-begäran utlöses och att cookien ställs in. Men den går inte in på den typ av detaljer som är användbar vid felsökning av innehållsleverans. Om aktiviteten inte visas på sidan eller om oönskat innehåll visas använder du mboxTrace för att undersöka och felsöka sidan i detalj.
 
-## Hämta den auktoriseringstoken som ska användas med felsökningsverktygen {#section_BED130298E794D1FA229DB7C3358BA54}
+## Hämta den auktoriseringstoken som ska användas med felsökningsverktyg {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Eftersom mboxTrace och mboxDebug kan visa kampanjdata och profildata för externa parter krävs en auktoriseringstoken. Auktoriseringstoken kan hämtas i användargränssnittet för [!DNL Target]. Token gäller i sex timmar.
 
@@ -117,10 +116,6 @@ Mer information finns i utbildningsvideorna nedan:
 
 Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
-## Om target.js inte kan läsas in under leverans {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
-
-Mbox.js skickar en cookie med namnet&quot;em-disabled&quot; till besökaren om target.js inte kan läsas in under leveransen. Denna cookie förhindrar att erbjudanden som skapats med Visual Experience Composer återges på webbplatsen. Besökare med denna cookie ser varken testinnehållet eller räknas in i aktivitetsrapporterna. Allt annat innehåll (från kampanjer i till exempel Target Classic) fortsätter att läsas in. Cookien har en livstid på 30 min från tidpunkten då inläsningen misslyckades.
-
 ## De största säljarna visas inte i Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 Anropet *`SiteCatalyst: purchase`* kan inte användas för trafikdata för inköpsalgoritmen. Använd *`orderConfirmPage`*-anropet i stället.
@@ -133,13 +128,7 @@ Formulärbaserade aktiviteter som skapats med [!DNL Target Standard/Premium] kan
 
 Target har inte längre stöd för IE 8.
 
-## JavaScript-innehåll som levereras av den globala [!DNL Target]-begäran läses inte in när mbox.js används. {#section_03EC9B9C410B4F52A7FCD81840311709}
-
-Uppgradera till [!DNL mbox.js] version 58 eller senare.
-
-mbox.js version 58 och senare kör icke-JavaScript-innehåll för den globala [!DNL Target]-begäran omedelbart efter att HTML-taggen `BODY` finns. JavaScript-innehåll i `<script>`-taggar för den globala [!DNL Target]-begäran körs efter att `DOMContentLoaded`-händelsen har utlösts. Den här ordningen för innehållsleverans säkerställer att JavaScript-innehåll för den globala [!DNL Target]-begäran levereras och återges korrekt.
-
-## Målcookie får inte uppsättningen {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Målcookie har inte angetts {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Om platsen har en underdomän, till exempel [!DNL us.domain.com], men du behöver en målcookie som är inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]), måste du åsidosätta inställningen `cookieDomain`. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
