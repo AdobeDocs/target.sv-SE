@@ -2,16 +2,15 @@
 keywords: implementera;implementera
 description: Ta reda på vad du bör tänka på innan du implementerar Adobe Target.
 title: Vad ska jag veta innan jag implementerar?
-feature: Implementation
+feature: Implementering
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # Innan du implementerar
 
@@ -21,7 +20,7 @@ Det här avsnittet innehåller information för utvecklare som är specifika fö
 
 >[!IMPORTANT]
 >
->Ändringar av at.js eller mbox.js stöds inte av Adobe kundtjänst.
+>Ändringar av at.js eller Adobe Experience Platform Web SDK stöds inte av Adobe kundtjänst.
 
 - [Förbered implementering av Target](prepare-to-implement-target.md)
 - [Integritet](c-privacy/privacy.md)
