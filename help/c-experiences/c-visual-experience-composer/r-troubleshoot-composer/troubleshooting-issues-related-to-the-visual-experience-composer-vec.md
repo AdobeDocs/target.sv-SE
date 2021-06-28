@@ -4,8 +4,7 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -16,14 +15,14 @@ ht-degree: 0%
 
 Visningsproblem kan ibland uppstå i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) under vissa förhållanden.
 
-## När jag öppnar min webbplats i Visual Experience Composer läses inte [!DNL Target]-biblioteken in. (Endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## När jag öppnar min webbplats i Visual Experience Composer läses inte [!DNL Target]-biblioteken in. (endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Målet lägger till två parametrar (`mboxEdit=1` och `mboxDisable=1`) när webbplatsen öppnas i Visual Experience Composer.
 
 Om webbplatsen (särskilt Single Page Apps) trimmar bort eller tar bort parametrar när du navigerar från en sida till en annan (utan att behöva läsa in en sida på nytt) så bryter Target-funktionen och Target-biblioteken läses inte in.
 Undvik problemet genom att se till att du inte trimmar eller tar bort de här två parametrarna.
 
-## Min sida öppnas inte i EEG eller laddas långsamt. Aktiviteter och upplevelser läses in långsamt i VEC. (Endast VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Min sida öppnas inte i EEG eller laddas långsamt. Aktiviteter och upplevelser läses in långsamt i VEC. (endast VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Flera problem kan påverka sidprestanda i Target Experience Composer. Några vanliga problem är:
 
@@ -118,8 +117,8 @@ För tillägget Ändra svarshuvud (Firefox) måste du göra följande eftersom d
 * Du angav en ogiltig URL.
 * Du har inte angett någon standardwebbadress på sidan för kontoinställningar.
 
-Kontrollera att den här inställningen är aktiverad och hämta sedan och uppdatera mbox.js på webbplatsen.
+Se till att den här inställningen är aktiverad och hämta och uppdatera på at.js på din webbplats.
 
-## VEC-värdet visas som brutet när jag använder bläddringsläge. (Endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## VEC-värdet visas som brutet när jag använder bläddringsläge. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Om du använder bläddringsläget och har åtkomst till en URL som inte har target.js eller som innehåller ett frame-buster-huvud, visas visuella Experience Composer som brutna. På grund av säkerhetsproblem i webbläsaren kan inte Target komma åt den URL du navigerade till.
