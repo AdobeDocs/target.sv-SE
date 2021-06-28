@@ -4,10 +4,9 @@ description: Lär dig hur du konfigurerar en aktivitet i Adobe [!DNL Target] to 
 title: Hur kan jag använda analysdata i Target?
 feature: Analyser för mål (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Analyser för Target kräver en spårningsserver för att kunna rapportera resul
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
+>Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder at.js version 0.9.1 (eller senare). at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 
 När du konfigurerar aktivitet efter att ha konfigurerat Analytics som rapportkälla finns det inget alternativ för att konfigurera målgrupper för rapportering. Analyssegment finns i rapporten om målaktiviteter.
 
