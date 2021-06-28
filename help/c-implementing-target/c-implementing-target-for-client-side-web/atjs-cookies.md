@@ -5,10 +5,9 @@ title: at.js Cookies
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -35,7 +34,7 @@ I at.js 2.x används emellertid inte längre HTTP-GET utan HTTP-POST. HTTP-POST 
 
 Därför stöds varken cookies från tredje part eller korsdomänsspårning i at.js 2.0.0.
 
-## at.js 1.** xcookie-beteende  {#at-js-1x-cookie-behavior}
+## at.js 1.** xcookie-beteende {#at-js-1x-cookie-behavior}
 
 För at.js version 1.*x*, cookie-beteendet beror på om det är en cookie från första part, en cookie från tredje part med en cookie från första part eller en cookie från tredje part.
 
@@ -122,7 +121,7 @@ Cookien har ett antal värden för att hantera hur besökarna upplever kampanjer
 | sessions-ID | Ett unikt ID för en användarsession. Som standard varar detta 30 minuter. |
 | pc-ID | Ett halvpermanent ID för en besökares webbläsare. Varar 14 dagar. |
 | check | Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. |
-| disable | Ange om besökarens inläsningstid överskrider den timeout som har konfigurerats i filen mbox.js. Som standard varar detta 1 timme. |
+| disable | Ange om besökarens inläsningstid överskrider den timeout som har konfigurerats i filen [!DNL Adobe Experience Platform Web SDK] eller at.js. Som standard varar detta 1 timme. |
 
 ## Påverkan på [!DNL Target] för Safari-besökare på grund av ändringar i Apple WebKit-spårning
 
