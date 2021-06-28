@@ -4,9 +4,9 @@ description: Visa information om ändringarna i varje version av JavaScript-bibl
 title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '4174'
+source-wordcount: '4136'
 ht-degree: 0%
 
 ---
@@ -406,7 +406,7 @@ Följande förbättringar och korrigeringar finns i [!DNL at.js] version 0.9.6:
 
 **Datum:21** september 2016
 
-* En `optoutEnabled`-inställning har lagts till för att aktivera eller inaktivera avanmälan av enhetsdiagram. Om den här inställningen är `true` och besökaren har valt att inte spåra, kommer besökarens webbläsare inte att göra några mbox-anrop. Device Graph är för närvarande i Beta. Den här inställningen är som standard `false`, men måste anges till `true` om du använder Device Graph. Ett liknande alternativ är en del av mbox.js v61.
+* En `optoutEnabled`-inställning har lagts till för att aktivera eller inaktivera avanmälan av enhetsdiagram. Om den här inställningen är `true` och besökaren har valt att inte spåra, kommer besökarens webbläsare inte att göra några mbox-anrop. Device Graph är för närvarande i Beta. Den här inställningen är som standard `false`, men måste anges till `true` om du använder Device Graph.
 * `CustomEvent`-stöd för meddelandefunktionen har lagts till. Tidigare gick det inte att använda händelsemeddelandefunktionen at.js via vanliga DOM-API:er, till exempel `document.addEventListener()`. Nu kan du använda `document.addEventListener()` för att prenumerera på at.js-händelser, som request-händelser och innehållsrenderingshändelser.
 * Ett problem som rör erbjudanden som har skapats i Visual Experience Composer (VEC) har korrigerats. Före den här versionen dolde Target väljarna och gömde dem bara när alla väljare matchade. I at.js 0.9.2 Target tas väljarna bort så snart de matchar.
 
@@ -416,7 +416,7 @@ Följande förbättringar och korrigeringar finns i [!DNL at.js] version 0.9.6:
 
 * Tillhandahåller en timeout för besökar-ID-tjänsten på at.js, som är oberoende av tjänstens egen timeout.
 * Korrigerar ett fel i 0.9.0 som påverkade implementeringar med at.js på vissa sidor och mbox.js på andra sidor.
-* Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
+* Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 
 ## at.js Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -451,10 +451,6 @@ Detta är den första officiella versionen av [!DNL at.js]-biblioteket.
 [!DNL at.js] är ett nytt implementeringsbibliotek som  [!DNL Target] är utformat för både vanliga webbimplementeringar och enkelsidiga applikationer.
 
 [!DNL at.js] ersätts  [!DNL mbox.js] för  [!DNL Adobe Target] implementeringar.
-
->[!NOTE]
->
->Även om [!DNL at.js] ersätter [!DNL mbox.js] stöds mbox.js även i fortsättningen. För de flesta har [!DNL at.js] fördelar framför [!DNL mbox.js]. Detta ger dig tid att testa [!DNL at.js] och att ändra implementeringen på dina sidor.
 
 [!DNL at.js] förbättrar bl.a. sidinläsningstiderna för webbimplementeringar, förbättrar säkerheten och ger bättre implementeringsalternativ för enkelsidiga program.
 
