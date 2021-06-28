@@ -4,10 +4,9 @@ description: Lär dig mer om Capture Score Engagement-måttet i Adobe [!DNL Targ
 title: Vad är mätvärdet för Capture Score?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -54,7 +53,7 @@ Det bästa sättet är att tilldela värden i [!DNL Target]-begäran. På så s�
 
 >[!NOTE]
 >
->För enklare underhåll kan du konfigurera webbplatsens tilldelningar av sidpoängsvärden i [!DNL at.js]- eller [!DNL mbox.js]-filen med viss villkorsstyrd JavaScript-logik. På så sätt slipper du lägga till mer kod på sidorna. Kontakta din kontokonsult om du behöver hjälp.
+>För enklare underhåll kan du konfigurera webbplatsens tilldelningar av sidpoängsvärden i [!DNL at.js]-filen med viss villkorsstyrd JavaScript-logik. På så sätt slipper du lägga till mer kod på sidorna. Kontakta din kontokonsult om du behöver hjälp.
 
 Du kan kombinera de två metoderna, men det kan resultera i ett högre poäng än förväntat. Om du till exempel tilldelar värdet 10 till var och en av tre [!DNL Target]-begäranden och ingen poäng till en fjärde begäran, skickar du URL-parametern `?mboxPageValue=5`, blir sidpoängen 50, 30 för de tre förfrågningarna med tilldelade värden och sedan 5 för var och en av de fyra förfrågningarna på sidan.
 
