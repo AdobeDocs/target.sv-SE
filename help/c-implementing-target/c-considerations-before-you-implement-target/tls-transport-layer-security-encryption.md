@@ -5,10 +5,9 @@ title: 'Hur använder man TLS för att ge säkerhet? [!DNL Target] '
 feature: Integritet och säkerhet
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -67,7 +66,7 @@ Från och med 1 mars 2020 har mål-API:er inte längre stöd för TLS 1.1-krypte
 * API-klienter som använder Java 8 bör inte påverkas eftersom standardinställningen är TLS 1.2.
 * API-klienter som använder andra ramverk måste kontakta sina leverantörer för att få information om TLS 1.2-stödet.
 
-## Åtkomst till gränssnitt för Experience Cloud Solutions {#section_748870ADE77B4CBEB18518DC784E64E5}
+## Tillgång till Experience Cloud Solutions-gränssnitt {#section_748870ADE77B4CBEB18518DC784E64E5}
 
 Eftersom gränssnittet Target Standard/Premium redan kräver en [modern webbläsare](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), kan vi inte förutse några problem. Om du inte kan ansluta till Target bör du uppgradera webbläsaren till den senaste versionen.
 
@@ -90,21 +89,20 @@ Så här kontrollerar du TLS-versionen på din webbplats med Google Chrome:
 
 ## Förväntat beteende med webbläsare som stöder TLS-versioner under 1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-I det här avsnittet beskrivs vad du kan förvänta dig av webbläsare som stöder TLS-versioner under 1.2 endast när du använder en at.js- eller mbox.js-implementering. I det här avsnittet beskrivs också vad som ska förväntas med webbläsare som stöder TLS 1.2.
+I det här avsnittet beskrivs vad du kan förvänta dig av webbläsare som stöder TLS-versioner under 1.2 endast när du använder en at.js-implementering. I det här avsnittet beskrivs också vad som ska förväntas med webbläsare som stöder TLS 1.2.
 
 ### Centrala slutpunkter
 
 | JavaScript-implementering | Detaljer |
 |--- |--- |
 | at.js | Med TLS 1.0 eller TLS 1.1 aktiverat:<ul><li>Med hjälp av webbläsarens utvecklingsverktyg visas&quot;200 OK&quot; på fliken Nätverk. Detta innebär att begäran har slutförts.</li><li>Användaren ser meddelandet&quot;Kan inte ansluta säkert till den här sidan&quot;. Meddelandet förklarar att detta kan bero på att webbplatsen använder föråldrade eller osäkra TLS-säkerhetsinställningar.</li><li>Inga konsolfel visas.</li></ul>Med TLS 1.2 aktiverat:<ul><li>filen at.js hämtas.</li></ul> |
-| mbox.js | Med TLS 1.0 eller TLS 1.1 aktiverat:<ul><li>Med hjälp av webbläsarens utvecklingsverktyg visas&quot;200 OK&quot; på fliken Nätverk. Detta innebär att begäran har slutförts.</li><li>Användaren ser meddelandet&quot;Kan inte ansluta säkert till den här sidan&quot;. Meddelandet förklarar att detta kan bero på att webbplatsen använder föråldrade eller osäkra TLS-säkerhetsinställningar.</li><li>Inga konsolfel visas.</li></ul>Med TLS 1.2 aktiverat:<ul><li>mbox.js-filen hämtas.</li></ul> |
 
 ### Kantslutpunkter
 
 | JavaScript-implementering | Detaljer |
 |--- |--- |
+| [!DNL Adobe Experience Platform Web SDK] | Med TLS 1.0 eller TLS 1.1 aktiverat:<ul><li>Med hjälp av webbläsarens utvecklingsverktyg visas&quot;200 OK&quot; på fliken Nätverk. Detta innebär att begäran har slutförts.</li><li>Användaren ser meddelandet&quot;Kan inte ansluta säkert till den här sidan&quot;. Meddelandet förklarar att detta kan bero på att webbplatsen använder föråldrade eller osäkra TLS-säkerhetsinställningar.</li><li>Inga konsolfel visas.</li><li>Standardinnehåll hanteras.</li></ul>Med TLS 1.2 aktiverat:<ul><li>Erbjudandet gäller.</li></ul> |
 | at.js | Med TLS 1.0 eller TLS 1.1 aktiverat:<ul><li>Med hjälp av webbläsarens utvecklingsverktyg visas&quot;200 OK&quot; på fliken Nätverk. Detta innebär att begäran har slutförts.</li><li>Användaren ser meddelandet&quot;Kan inte ansluta säkert till den här sidan&quot;. Meddelandet förklarar att detta kan bero på att webbplatsen använder föråldrade eller osäkra TLS-säkerhetsinställningar.</li><li>Inga konsolfel visas.</li><li>Standardinnehåll hanteras.</li></ul>Med TLS 1.2 aktiverat:<ul><li>Erbjudandet gäller.</li></ul> |
-| mbox.js | Med TLS 1.0 eller TLS 1.1 aktiverat:<ul><li>Med hjälp av webbläsarens utvecklingsverktyg visas&quot;200 OK&quot; på fliken Nätverk. Detta innebär att begäran har slutförts.</li><li>Användaren ser meddelandet&quot;Kan inte ansluta säkert till den här sidan&quot;. Meddelandet förklarar att detta kan bero på att webbplatsen använder föråldrade eller osäkra TLS-säkerhetsinställningar.</li><li>Inga konsolfel visas.</li><li>Standardinnehåll hanteras.</li></ul>Med TLS 1.2 aktiverat:<ul><li>Erbjudandet gäller</li></ul> |
 
 ### Aktivitet som riktar sig till användare som har webbläsarversion (Internet Explorer, version 6, 7 eller 8)
 
@@ -114,5 +112,5 @@ I det här avsnittet beskrivs vad du kan förvänta dig av webbläsare som stöd
 
 | JavaScript-implementering | Detaljer |
 |--- |--- |
+| [!DNL Adobe Experience Platform Web SDK] | Plattforms-SDK stöds inte i tidigare versioner än version 10 av Internet Explorer. |
 | at.js | at.js stöds inte i tidigare versioner än version 10 av Internet Explorer. |
-| mbox.js | Med TLS 1.0 eller TLS 1.1 aktiverat:<ul><li>Standardinnehåll hanteras.</li><li>Inga Target-begäranden utlöses.</li><li>Inget konsolfel visas.</li><li>Med hjälp av webbläsarens utvecklingsverktyg visas&quot;200 OK&quot; på fliken Nätverk. Detta innebär att begäran har slutförts.</li></ul>Med TLS 1.2 aktiverat:<ul><li>Erbjudandet gäller.</li></ul> |
