@@ -4,10 +4,9 @@ description: Lär dig hur du med Adobe [!DNL Target] kan spåra klick på ett el
 title: Vad är Click Tracking?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 0%
 >
 >Spårningsklickningar stöds inte i den globala Target-begäran när den används som en plats i en formulärbaserad aktivitet.
 
-## Konfigurera klickspårning {#section_5540C5A533114E57BAE022A600B02E72}
+## Ställa in klickspårning {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. När du anger dina mål på [!UICONTROL Goals & Settings]-sidan för din aktivitet väljer du måttet **[!UICONTROL Conversion]** för framgång.
 1. För åtgärden väljer du **[!UICONTROL Clicked an element]** och klickar sedan på **[!UICONTROL Select elements]**.
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 När en aktivitetsdeltagare klickar på ett markerat element räknas det klicket som en konvertering.
 
-## Panelen Valda element {#selected-elements}
+## Panelen Markerade element {#selected-elements}
 
 För A/B-tester, Experience Targeting (XT), Automated Personalization (AP) och Multivariate Test (MVT) visas en [!UICONTROL Selected Elements]-panel med alla markerade element för klickspårning till höger.
 
@@ -73,7 +72,7 @@ Det finns flera saker att tänka på när du markerar element:
 
    Mer information finns i [Navigera mellan element med DOM-sökvägen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i *Alternativ för Visual Experience Composer*.
 
-* Du kan bläddra till en annan sida för att spåra klick på en sida där du kanske inte ändrar innehåll. Den här andra sidan måste inkluderas i aktiviteten med flersidesfunktionen [](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) och [!DNL at.js] eller [!DNL mbox.js] måste implementeras på den.
+* Du kan bläddra till en annan sida för att spåra klick på en sida där du kanske inte ändrar innehåll. Den här andra sidan måste inkluderas i aktiviteten med flersidesfunktionen [](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) och [!DNL at.js] måste implementeras på den.
 * Om du markerar mer än ett element, och en deltagare klickar på något av de valda elementen, räknas klickningen. Om du vill räkna varje objekt för sig anger du individuella framgångsmått för varje element. Om du vill räkna ett objekt genom att klicka på flera element på en sida redigerar du CSS-elementväljaren så att den matchar flera element.
 * Se till att du väljer den elementnivå som du vill spåra. Om du till exempel anger en knapp måste du markera länken och inte knapptexten.
 * Klickhändelser skickas till [!DNL Target] på samma sida som klickningen.
