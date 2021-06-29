@@ -5,9 +5,9 @@ title: Hur uppgraderar jag från at.js version 1.x till version 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*Visa* med v
 
 | Utlysning | Detaljer |
 | --- | --- |
-| 3 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
+| 1 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett alternativ som gör att fragment för att dölja kan implementeras på sidan. |
 | 3 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
 | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
@@ -45,7 +45,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 
 | Utlysning | Detaljer |
 | --- | --- |
-| 3 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
+| 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
@@ -217,7 +217,7 @@ Kunder som använder `mboxCreate()` för konverteringsspårning måste använda 
 
 Kunder som inte ersätter `mboxCreate()` med `getOffer()` eller `applyOffer()` riskerar att inte få erbjudanden levererade.
 
-### Can at.js 2.*XBE* används på vissa sidor medan at.js 1.*Är* xor mbox.js på andra sidor?
+### Can at.js 2.*XBE* används på vissa sidor medan at.js 1.*Vill du* ha en axel på andra sidor?
 
 Ja, besökarprofilen bevaras på olika sidor med olika versioner och bibliotek. Cookie-formatet är detsamma.
 
@@ -248,7 +248,7 @@ Det globala mbox-konceptet introducerades så att [!DNL Target] skulle få veta 
 
 ### Spelar det globala mbox-namnet i at.js längre någon roll?
 
-Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Den här inställningen används av kantsträngarna [!DNL Target] för att översätta execute > pageLoad till det globala mbox-namn som visas i användargränssnittet för [!DNL Target]. Detta gör att kunderna kan fortsätta att använda serversidans API:er, den formulärbaserade dispositionen, profilskript och skapa målgrupper med hjälp av den globala mbox-namnet. Vi rekommenderar att du även kontrollerar att samma globala mbox-namn är konfigurerat på [!UICONTROL Administration > Visual Experience Composer]-sidan om du fortfarande har sidor som använder at.js 1.** xor mbox.js, som på följande bilder.
+Kunderna kan ange ett globalt mbox-namn via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Den här inställningen används av kantsträngarna [!DNL Target] för att översätta execute > pageLoad till det globala mbox-namn som visas i användargränssnittet för [!DNL Target]. Detta gör att kunderna kan fortsätta att använda serversidans API:er, den formulärbaserade dispositionen, profilskript och skapa målgrupper med hjälp av den globala mbox-namnet. Vi rekommenderar att du även kontrollerar att samma globala mbox-namn är konfigurerat på [!UICONTROL Administration > Visual Experience Composer]-sidan om du fortfarande har sidor som använder at.js 1.*x*, vilket visas på följande bilder.
 
 ![Dialogrutan Ändra at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -396,7 +396,7 @@ I följande tabeller beskrivs at.js. 2.*x*-kompatibilitet med olika aktivitetsty
 
 at.js 2.*x*, precis som at.js 1.*x* använder den anpassade händelsen  `at-request-succeeded` för att visa svarstoken. Kodexempel som använder den anpassade händelsen `at-request-succeeded` finns i [Svarstoken](/help/administrating-target/response-tokens.md).
 
-## at.js 1.*xparameters* to at.js 2.*Mappning* av nyttolast  {#payload-mapping}
+## at.js 1.*xparameters* to at.js 2.*Mappning* av nyttolast {#payload-mapping}
 
 I det här avsnittet beskrivs mappningarna mellan at.js 1.** xand at.js 2.*x*.
 
