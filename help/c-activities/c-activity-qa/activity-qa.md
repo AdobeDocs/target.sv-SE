@@ -1,12 +1,12 @@
 ---
-keywords: qa;qa mode; aktivitet qa;qa url;qa url
+keywords: qa;qa mode; aktivitet qa;qa url;qa urls;preview url;preview url;preview url
 description: Lär dig använda Adobe [!DNL Target] QA-URL:er för att utföra enkel QA-analys från början till slut med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
 title: Hur gör jag QA-aktiviteter?
 feature: Verksamhet
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Använd QA-URL:er i [!DNL Adobe Target] för att utföra enkel QA för hela akti
 
 * Gränssnittet [!UICONTROL Target QA Mode] visar bara den första URL:en för en upplevelse i en flersidig aktivitet. Anta att du skapar ett resetest och går från URL1 till URL2. Om du vill gå till URL2 separat kopierar du alla URL-parametrar som finns mot URL1 och använder dem på URL2 efter att du har placerat ett &quot;?&quot; precis som i URL1.
 
-## Målkompatibilitet för JavaScript-bibliotek
+## Kompatibilitet med mål-JavaScript-bibliotek [!UICONTROL QA Mode]
 
 [!DNL Target] stöder följande JavaScript-bibliotek:
 
@@ -113,6 +113,32 @@ I följande tabell visas de olika aktivitetstyperna och om [!UICONTROL Activity 
 | [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
+
+## Förhandsgranska URL:er {#preview}
+
+URL:er för förhandsgranskning kan genereras för alla [!DNL Target]-aktivitetstyper. Med förhandsgransknings-URL:er kan du visa innehåll direkt på webbplatsen innan aktiviteten är aktiv för förhandsgranskning och kvalitetskontroll. Förhandsgranska URL:er utan att ange målinriktning för att framtvinga visning av en viss upplevelse.
+
+Mer information om hur förhandsgransknings-URL:er fungerar med [!UICONTROL Automated Personalization] (AP)-aktiviteter finns i [Förhandsgranska Automated Personalization-aktiviteter med förhandsgransknings-URL:er](/help/c-activities/t-automated-personalization/experience-preview.md).
+
+Om du vill få åtkomst till och dela en förhandsgransknings-URL från en aktivitets **[!UICONTROL Overview]**-sida klickar du på länken **[!UICONTROL Activity QA]**.
+
+>[!NOTE]
+>
+>Länken [!UICONTROL Activity QA] och förhandsgransknings-URL:en är desamma för alla aktiviteter utom [!DNL Target] AP-aktiviteter.
+
+I följande tabell visas de olika aktivitetstyperna och om funktionen för förhandsgransknings-URL:er stöds för varje bibliotek eller API:
+
+| Typ av aktivitet | at.js 1.x | at.js 2.x | Platform Web SDK | Leverans-API | Admin-API |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL A/B Test] | Ja | Ja | Ja | Ej tillämpligt | Ja |
+| [!UICONTROL Auto-Allocate] | Ja | Ja | Ja | Ej tillämpligt | Ja |
+| [!UICONTROL Auto-Target] | Ja | Ja | Ja | Ej tillämpligt | Ja |
+| [!UICONTROL Automated Personalization] (AP) | Ja | Ja | Nej | Ej tillämpligt | Ja |
+| [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja | Ej tillämpligt | Ja |
+| [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja | Ej tillämpligt | Ja |
+| [!UICONTROL Recommendations] | Ja | Ja | Ja | Ej tillämpligt | Ja |
+
+
 
 
 
