@@ -3,10 +3,9 @@ keywords: rapport;rapporter;rapportering;Experience cloud solution;tidszon;tidsz
 description: Använd [!DNL Target] eller Adobe Analytics som rapportkälla, ange standardtidszon och valutaformat, lägg till IP-adresser som ska uteslutas från rapportering och mycket annat.
 title: Hur konfigurerar jag rapportering i Target?
 feature: Administration och konfiguration
-role: Administrator
+role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
