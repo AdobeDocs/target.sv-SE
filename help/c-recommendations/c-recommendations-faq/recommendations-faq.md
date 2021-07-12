@@ -4,7 +4,7 @@ description: Visa en lista med vanliga frågor och svar om Recommendations-aktiv
 title: Var hittar jag frågor och svar om  [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 0%
@@ -247,7 +247,7 @@ En algoritm som skapats i [!DNL Recommendations Classic] stöds inte i [!DNL Rec
 
 ## Hur kan jag rekommendera enbart nya artiklar eller videoklipp? {#recommend-new-articles}
 
-Vissa kunder inom media och publicering kanske vill se till att rekommenderade objekt endast innehåller de senaste artiklarna eller videoklippen. En [!DNL Target]-kund använde till exempel följande metod för att rekommendera artiklar som är yngre än 60 dagar:
+En del kunder inom media och publicering vill se till att rekommenderade objekt endast innehåller de senaste artiklarna eller videofilmerna. En [!DNL Target]-kund använde till exempel följande metod för att rekommendera artiklar som är yngre än 60 dagar:
 
 1. Skicka artikelns publiceringsdatum i YMMDDD-format som ett anpassat entitetsattribut.
 1. Skapa ett profilskript som är dagens datum minus 60 dagar, även i formatet YYYMMDD.
