@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ## Mål-API-anrop
 
-* **Gräns**: 50 samtal per minut.
+* **Gräns**: 50 anrop per minut för API:er för Admin-, Reporting- och bulkprofilsuppdatering. Denna gräns gäller inte för API:er för leverans- och enprofilsuppdatering.
 
    Om du gör fler än 50 API-anrop per minut returnerar [!DNL Target] felmeddelandet &quot;503 HTTP-status&quot;.
 
