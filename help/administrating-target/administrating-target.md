@@ -3,10 +3,9 @@ keywords: konfigurera;konfigurera;konfigurera;konfigurera;konfigurera;administre
 description: Konfigurera Adobe Target, inklusive inställningar, implementering, användarhantering, egenskaper, Scene7-konfiguration, värdhantering och svarstoken.
 title: Hur administrerar jag Target?
 feature: Administration och konfiguration
-role: Administrator
+role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
