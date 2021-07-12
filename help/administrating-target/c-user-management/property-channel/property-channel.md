@@ -3,10 +3,9 @@ keywords: arbetsytor;hantera egenskap;behörigheter;produktkonfiguration;produkt
 description: Lär dig hur du skapar separata arbetsytor (produktprofiler) och sedan tilldelar användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser.
 title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration och konfiguration
-role: Administrator
+role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '2989'
 ht-degree: 0%
@@ -186,7 +185,7 @@ Efter en omorganisering, med hjälp av personerna i illustrationerna ovan, kan d
 
 * **Diana**: Diana är nu analytiker för organisationen och har fått observationsbehörigheter för sjukhuswebbplatsen och konsumentwebbplatsen som ger henne skrivskyddad åtkomst till aktiviteter. Diana kan visa aktiviteter, men kan inte skapa eller redigera dem.
 
-## Egenskaper och behörigheter för målgränssnittet {#section_3414371393BB42999A268628B5456EC9}
+## Kontaktpunkter för gränssnittsegenskaper och behörigheter {#section_3414371393BB42999A268628B5456EC9}
 
 Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target]-gränssnittet.
 
@@ -254,7 +253,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 
 * Enterprise-användarbehörigheten stöds inte i [Adobe I/O API-anrop](https://developers.adobetarget.com).
 
-## Vanliga frågor och svar {#faqs}
+## Vanliga frågor {#faqs}
 
 Vanliga frågor om Enterprise permissions är:
 
