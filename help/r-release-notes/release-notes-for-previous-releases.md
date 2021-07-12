@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Versionsinformation
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '30692'
+source-wordcount: '30664'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,6 @@ Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning
 * Korrigerade ett problem som gjorde att felaktigt produktantal visades i [!UICONTROL Recommendations]-samlingar. (TGT-39162)
 * Ett [!UICONTROL Last Updated]-filter har lagts till i [!UICONTROL Recommendations] [!UICONTROL Catalog Search]. (TGT-38340)
 * Korrigerade ett fel i [!UICONTROL Recommendations] som gjorde att sidan [!UICONTROL Create Sequence] hängde efter att branschens vertikala ändrats. (TGT-38160)
-* Ett problem som gjorde att aktiviteten inte kunde sparas om Device Co-op var aktiverad och användaren ändrades från [!DNL Target] som rapportkälla till [!DNL Analytics] (A4T) har åtgärdats. (TGT-38163)
 * Ett problem som hindrade användare från att ta bort en målgrupp från ett erbjudande i en [!UICONTROL Automated Personalization]-aktivitet har åtgärdats. (TGT-39058)
 * Korrigerade ett problem som gjorde att fel tidsram (start- och slutdatum) visades i [!UICONTROL Audience Info]-kort för vissa kunder. (TGT-39150)
 * Ett problem som gjorde att vissa kunder inte kunde se aktivitetslistan i [!UICONTROL Default Workspace] har korrigerats. (TGT-38526)
@@ -500,7 +499,7 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 
 Mer information om detta och tidigare versioner av at.js finns i [at.js versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-### Målstandard/Premium 19.6.1 (26 juni 2019) {#tgt-19-6-1-historical}
+### Target Standard/Premium 19.6.1 (26 juni 2019) {#tgt-19-6-1-historical}
 
 Den här versionen innehåller följande nya funktioner och förbättringar:
 
@@ -527,7 +526,7 @@ Vi är stolta över att kunna meddela följande spännande funktioner i at.js 2.
 | Minskad filstorlek | Storleken på at.js reduceras med cirka 24 %. Den mindre filstorleken förbättrar sidans inläsningsprestanda och minskar tiden för att ladda ned at.js på sidan. |
 | at.js dokumentationsuppdateringar | En fullständig lista över alla artiklar som har uppdaterats på grund av version at.js 2.1.0 finns i posterna 3 juni 2019 i [Dokumentationsändringar](/help/r-release-notes/doc-change.md). |
 
-### [!DNL Target] Standard/Premium 19.5.1 (21 maj 2019)  {#tgt-19-5-1-historical}
+### [!DNL Target] Standard/Premium 19.5.1 (21 maj 2019) {#tgt-19-5-1-historical}
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
@@ -541,7 +540,7 @@ Vi är stolta över att kunna meddela följande spännande funktioner i at.js 2.
 
 * Verktygsfältsikonerna visas korrekt när du avbryter inläsningen av en sida i VEC. Om specifika åtgärder inte kan utföras förrän sidan har lästs in helt inaktiveras de associerade verktygsfältsikonerna. (TGT-33811)
 
-### [!DNL Target] Standard/Premium 19.4.2 (30 april 2019)  {#release-19-4-2}
+### [!DNL Target] Standard/Premium 19.4.2 (30 april 2019) {#release-19-4-2}
 
 Den här versionen innehåller följande funktioner, ändringar och förbättringar:
 
@@ -570,7 +569,7 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 * När du har valt en [!UICONTROL Recommendations]-samling i samlingsväljaren måste du nu klicka på knappen [!UICONTROL Save]. Det här arbetsflödet är förenligt med andra arbetsflöden i [!DNL Target]. (TGT-33205)
 * Korrigerade ett problem som fick en liten uppsättning Insights-rapporter att returnera 0 % konverteringsgrader istället för de faktiska konverteringsnivåerna. (TNT-32125)
 
-### [!DNL Target] Standard/Premium 19.4.1 (15 april 2019)  {#release-19-4-1}
+### [!DNL Target] Standard/Premium 19.4.1 (15 april 2019) {#release-19-4-1}
 
 Den här versionen är en underhållsrelease och innehåller följande ändring:
 
@@ -578,7 +577,7 @@ Den här versionen är en underhållsrelease och innehåller följande ändring:
 
 * Användargränssnittet [!DNL Adobe Experience Cloud] har uppdaterats för att återspegla varumärkes- och produktändringar. (TGT-33546, TGT-33272 och TGT-3331)
 
-#### [!DNL Target] Standard/Premium 19.3.1 (29 mars 2019)  {#release-19-3-1}
+#### [!DNL Target] Standard/Premium 19.3.1 (29 mars 2019) {#release-19-3-1}
 
 Den här versionen innehåller följande funktioner, ändringar och förbättringar:
 
@@ -619,7 +618,7 @@ Detta är en underhållsrelease och innehåller följande korrigering:
 | at.js version 2.0.0<br>19 februari 2019 | at.js 2.x finns nu att köpa.<br>Den senaste versionen av at.js innehåller många funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker. Den nya versionen fokuserar på att uppgradera at.js för att få harmonisk interaktion med applikationer för en sida (SPA).<br>Här är några fördelar med att använda at.js 2.x som inte finns i tidigare versioner:<ul><li>Möjligheten att cachelagra alla erbjudanden vid sidinläsning för att minska antalet serveranrop till ett enda serveranrop.</li><li>Förbättra slutanvändarnas upplevelser enormt på er webbplats, eftersom erbjudandena visas direkt via cachen utan den fördröjning som traditionella serversamtal ger.</li><li>Enkel kodrad och engångsinstallation av utvecklare så att era marknadsförare kan skapa och köra A/B- och Experience-aktiviteter (XT) via Visual Experience Composer (VEC) i era single page-applikationer.</li></ul>at.js 2.x innehåller följande nya funktioner:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>Följande funktioner har tagits bort i och med introduktionen av at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Mer information finns i [Uppgradera från at.js 1.x till at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) och [at.js-funktioner](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).<br>**Obs**: Om du behöver stöd för Adobe Opt-in för den  [allmänna dataskyddsförordningen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)  (GDPR) måste du för närvarande använda at.js 1.7.0. Stöd för deltagande stöds inte i at.js 2.x. |
 | at.js version 1.7.0<br>14 februari 2019 | at.js 1.7.0 finns att köpa.<br>Den här versionen har stöd för Adobe Opt-In. Adobe Opt-In är ett sätt att förenkla integreringen av Adobe-lösningar med plattformar för samtyckeshantering.<br>Mer information om Adobe deltagande finns i  [Sekretess och allmänna dataskyddsförordningen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)  (GDPR).<br>Den här versionen åtgärdar också ett problem där Target kan åsidosätta omdirigerings-URL-parametrar med parametrar som kommer från omdirigerings-URL:en.<br>**Obs**: Om du behöver stöd för Adobe-deltagande för GDPR måste du för närvarande använda at.js 1.7.0. Opt-in support is not supported in at.js 2.x.<br>En lista över alla versioner finns  [i versionsinformationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) at.js. |
 
-### [!DNL Target] Standard/Premium 19.2.1 (19 februari 2019)  {#target-19-2-1}
+### [!DNL Target] Standard/Premium 19.2.1 (19 februari 2019) {#target-19-2-1}
 
 Den här versionen innehåller följande funktioner, ändringar och förbättringar:
 
@@ -644,7 +643,7 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 | Profilskript<br>17 januari 2019 | Av prestandaskäl rekommenderar vi ett returvärde som inte är längre än 256 tecken.<br>Om returvärdet för ett String-returvärde är större än 2 048 tecken inaktiveras skriptet av systemet.<br>Om storleken på de sammanfogade värdena i arrayen överstiger 2 048 tecken inaktiveras skriptet av systemet för ett arrayreturvärde.<br>Mer information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Target finns i [Gränser](/help/r-troubleshooting-target/target-limits.md). |
 | at.js<br>16 januari 2019 | at.js 1.6.4 är en underhållsrelease som åtgärdar följande problem:<ul><li>Korrigerade ett tävlingsvillkorsmanifest i Microsoft Internet Explorer 11 som gjorde att dubblerade erbjudanden tillämpades. (TNT-31374)</li><li>Korrigerade ett problem som påverkade klickspårning när det finns ett standarderbjudande med en klicktoken och html-erbjudanden. (TNT-31493)</li><li>Utökade mboxEdgeCluster-cookien med varje Target-begäran. Detta används bara när mboxEdgeOverride är aktiverat. (TNT-31485)</li></ul> |
 
-### [!DNL Target] Standard/Premium 19.1.1 (22 januari 2019)  {#release-19-1-1-previous}
+### [!DNL Target] Standard/Premium 19.1.1 (22 januari 2019) {#release-19-1-1-previous}
 
 Den här versionen innehåller följande funktioner, ändringar och förbättringar:
 
@@ -3553,7 +3552,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
  <tbody> 
   <tr> 
    <td colname="col1"> Uppskattad intäktsökning </td> 
-   <td colname="col2"> <p>Target kan beräkna den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen. </p> <p>Denna uppskattning beräknar den lyft som den vinnande upplevelsen och det totala antalet besökare uppnår under testperioden, och visar den lyft som du kan uppnå om alla besökare ser den vinnande upplevelsen, om trenderna fortsätter som de har under testet. </p> <p> Hur riktig uppskattningen är beror på ett antal faktorer, inklusive prognostiserade siffror om aktuella trender fortsätter. Dessa värden är uppskattningar baserade på tidigare resultat och bör inte användas som ekonomisk vägledning. Framtida resultat kan variera. </p></td> 
+   <td colname="col2"> <p>Target kan beräkna den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen. </p> <p>Denna uppskattning beräknar den lyft som den vinnande upplevelsen och det totala antalet besökare har uppnått under testperioden, och visar den lyft som du kan uppnå om alla besökare ser den vinnande upplevelsen, om trenderna fortsätter som de har under testet. </p> <p> Hur riktig uppskattningen är beror på ett antal faktorer, inklusive prognostiserade siffror om aktuella trender fortsätter. Dessa värden är uppskattningar baserade på tidigare resultat och bör inte användas som ekonomisk vägledning. Framtida resultat kan variera. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ångra/Gör om </td> 
