@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target funktioner
 title: Var kan jag hitta svar på Mina optimerings- och personaliseringsfrågor?
 feature: Översikt
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -223,12 +223,6 @@ Klicka på miniatyrbilden framför upplevelsenamnet i steg 2 så får du en bät
 **Jag är en tidigare Target Classic-användare. Kan jag utnyttja mina lådor för vissa syften?**
 
 Använd [formulärbaserad metod](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) för att skapa aktiviteter.
-
-**Kan jag säkerställa att samma upplevelse visas på ett enhetligt sätt på alla enheter som en användare kan ha?**
-
-Ta en titt på vår [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) som gör att du kan länka flera enheter av en användare på ett bestämt och troligt sätt via ett Co-op.
-
-Om du är i Co-op aktiverar en enkel flagga på sidan Mål och inställningar funktionen. Rapporteringen ändras nu även till att återspegla personer i stället för besökare. Tala med din Adobe-kontakt om du vill ha mer information om den här funktionen eftersom den inte är tillgänglig i alla regioner.
 
 **Varför ser jag inte det önskade erbjudandet/upplevelsen och ser i stället någon annan aktivitet?**
 
