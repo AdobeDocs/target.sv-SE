@@ -5,10 +5,9 @@ title: Hur använder jag funktionen adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -23,10 +22,10 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 
 | Nyckel | Typ | Obligatoriskt? | Beskrivning |
 | --- | --- | --- | --- |
-| ConsumerId | Sträng | Nej | Standardvärdet är klientens globala mbox om den inte anges. Den här nyckeln används för att generera det kompletterande data-ID som används för A4T-integrering. Nyckeln är en unik sträng per besökare. |
-| decisioningMethod | Sträng | Nej | &quot;server-side&quot;, &quot;on device&quot;, &quot;hybrid&quot; |
-| förfrågan | Objekt | Ja | Se tabellen över förfrågningar nedan. |
-| timeout | Nummer | Nej | timeout för begäran. Om inget anges används standardtimeout för at.js. |
+| `consumerId` | Sträng | Nej | Standardvärdet är klientens globala mbox om den inte anges. Den här nyckeln används för att generera det extra data-ID (SDID) som används för A4T-integrering. Nyckeln är en unik sträng per besökare.<br>När du använder  `getOffers()`det genererar varje anrop ett nytt SDID. Om du har flera mbox-begäranden på samma sida och vill bevara SDID (så att det matchar SDID:t från target-global-mbox och Adobe Analytics SDID) använder du parametern `consumerId`.<br>Om  `getOffers()` innehåller tre mbox-rutor (mbox1, mbox2 och mbox3):  `consumerId: "mbox1, mbox2, mbox3"` i  `getOffers()` samtalet. |
+| `decisioningMethod` | Sträng | Nej | &quot;server-side&quot;, &quot;on device&quot;, &quot;hybrid&quot; |
+| `request` | Objekt | Ja | Se tabellen över förfrågningar nedan. |
+| `timeout` | Nummer | Nej | Timeout för begäran. Om inget anges används standardtimeout för at.js. |
 
 ## Begäran
 
