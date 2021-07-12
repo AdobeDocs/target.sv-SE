@@ -3,10 +3,9 @@ keywords: Visual experience disposition;vec;default url;enhanced experience disp
 description: Lär dig hur du konfigurerar Adobe [!DNL Target] Visual Experience Composer (VEC) genom att ange dess allmänna inställningar, konfiguration för mobilvisningsruta och CSS-väljare.
 title: Hur konfigurerar jag Visual Experience Composer (VEC)?
 feature: Administration och konfiguration
-role: Administrator
+role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
