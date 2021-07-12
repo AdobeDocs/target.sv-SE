@@ -6,12 +6,11 @@ audience: end-user
 type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/target.sv-SE
 index: true
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 3f3c0227df7700537c30a3dcd651cc802db59448
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
