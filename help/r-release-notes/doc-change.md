@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Följande frågor och svar har lagts till: &quot;Hur kan jag rekommendera enbart nya artiklar eller videoklipp?&quot; |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterad text i avsnittet&quot;Target API call&quot;. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Beskrivning av nyckeln `consumerId` har uppdaterats. |
+|  | [Anpassa en global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Uppdaterat steg 1 för att ange att ändringen sparas automatiskt när du har valt en ny mbox. |
 |  | Experience Cloud Device Co-op | Avsnittet har tagits bort. Den här funktionen har tagits bort. |
 | 29 juni | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Följande avsnitt har lagts till:<ul><li>Kompatibilitet med mål-JavaScript-bibliotek [!UICONTROL QA Mode]</li><li>Förhandsgranska URL:er</li></ul> |
 | 24 juni | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade förhandsversionsinformationen för [!DNL Target Standard/Premium] 21.6.1-utgåvan (30 juni 2021). |
