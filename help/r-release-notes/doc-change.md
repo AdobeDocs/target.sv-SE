@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
+source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 11 juli | Experience Cloud Device Co-op | Avsnittet har tagits bort. Den här funktionen har tagits bort. |
 | 29 juni | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Följande avsnitt har lagts till:<ul><li>Kompatibilitet med mål-JavaScript-bibliotek [!UICONTROL QA Mode]</li><li>Förhandsgranska URL:er</li></ul> |
 | 24 juni | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterade förhandsversionsinformationen för [!DNL Target Standard/Premium] 21.6.1-utgåvan (30 juni 2021). |
 | 16 juni | [[!DNL Target] versionsinformation (aktuell)](/help/r-release-notes/release-notes.md) | Information om Python SDK version 1.0.0 har lagts till.[!DNL Adobe Target] |
