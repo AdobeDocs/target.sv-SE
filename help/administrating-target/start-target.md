@@ -3,10 +3,9 @@ keywords: Administration;godkännarroll;godkännare
 description: Utför de första uppgifterna som Adobe [!DNL Target] administratörer ska utföra efter att ha tagit emot e-postinbjudan till Adobe Experience Cloud.
 title: Var kommer jag igång med att administrera mål?
 feature: Administration och konfiguration
-role: Administrator
+role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
