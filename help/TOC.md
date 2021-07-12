@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
+source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,6 @@ ht-degree: 0%
    + [Experience Cloud målgrupper](c-integrating-target-with-mac/mmp.md)
    + [Integrera Target med Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrera Target med Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
-   + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Aktiviteter {#activities}
    + [Översikt över aktiviteter](c-activities/activities.md)
    + [Målaktivitetstyper](c-activities/target-activities-guide.md)
