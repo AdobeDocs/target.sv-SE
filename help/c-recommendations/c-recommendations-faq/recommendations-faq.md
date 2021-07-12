@@ -4,10 +4,9 @@ description: Visa en lista med vanliga frågor och svar om Recommendations-aktiv
 title: Var hittar jag frågor och svar om  [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-translation-type: tm+mt
-source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
+source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -99,7 +98,7 @@ Om du använder en plats där kategori-ID finns i rutan innehåller kriterieväl
 
 >[!NOTE]
 >
->Den här inställningen gäller endast för aktiviteter som skapats i Visual Experience Composer (VEC). Den här inställningen gäller inte för aktiviteter som skapats i den formulärbaserade Experience Composer ([!DNL Target] saknar platskontext).
+>Den här inställningen gäller endast för aktiviteter som skapats i [!UICONTROL Visual Experience Composer] (VEC). Den här inställningen gäller inte för aktiviteter som skapats i den formulärbaserade Experience Composer ([!DNL Target] saknar platskontext).
 
 Om du vill komma åt inställningen [!UICONTROL Filter Incompatible Criteria] klickar du på [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
