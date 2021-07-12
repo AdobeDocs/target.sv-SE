@@ -3,10 +3,9 @@ keywords: scene7;dynamic media classic;digital asset management;assets;dam;conte
 description: Lär dig hur du integrerar Adobe [!DNL Target] med Adobe Dynamic Media Classic (tidigare Scene7) för att tillhandahålla DAM (Digital Asset Management) i innehållsbiblioteket.
 title: Hur konfigurerar jag integreringen av Dynamic Media Classic (Scene7)?
 feature: Administration och konfiguration
-role: Administrator
+role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
