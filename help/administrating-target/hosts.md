@@ -3,10 +3,9 @@ keywords: värd;värdar;värdgrupp;felsökning;bästa praxis;ubox;omdirigera;omd
 description: Lär dig hur du organiserar dina webbplatser och förproduktionsmiljöer för enkel hantering och separat rapportering i Adobe Target.
 title: Vad är värdar och hur använder jag dem?
 feature: Administration och konfiguration
-role: Administrator
+role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -27,7 +26,7 @@ Om du vill hantera värdar klickar du på **[!UICONTROL Administration]** > **[!
 
 ![](assets/hosts_list.png)
 
-## Identifierar värdar {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Känna igen värdar {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 Följande villkor måste vara uppfyllda för att en värd ska identifieras och läggas till i listan [!UICONTROL Hosts]:
 
@@ -58,7 +57,7 @@ När en värd har lagts till i listan [!UICONTROL Host] kontrollerar du att vär
 >
 >Det går inte att ta bort miljön [!UICONTROL Production], även om du byter namn på den. Det antas att det är i den här miljön som du utför slutgiltiga, aktiva aktiviteter och tester. Standardmiljön tillåter inte att inaktiva kampanjer visas.
 
-## Sortera eller sök i värdlistan {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Sortera eller söka i listan Värdar {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Om du vill sortera listan [!UICONTROL Hosts] klickar du på en kolumnrubrik ([!UICONTROL Name], [!UICONTROL Environment] eller [!UICONTROL Last Requested]) för att sortera listan i stigande eller fallande ordning.
 
