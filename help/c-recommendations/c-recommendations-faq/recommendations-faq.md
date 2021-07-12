@@ -4,9 +4,9 @@ description: Visa en lista med vanliga frågor och svar om Recommendations-aktiv
 title: Var hittar jag frågor och svar om  [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
+source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3128'
 ht-degree: 0%
 
 ---
@@ -244,5 +244,39 @@ Om besökaren inte har två aktiva sessioner samtidigt uppdaterar nyligen visade
 ## Kan jag använda en algoritm som har skapats i [!DNL Adobe Recommendations Classic] i [!DNL Recommendations Premium]?
 
 En algoritm som skapats i [!DNL Recommendations Classic] stöds inte i [!DNL Recommendations Premium]. Du kanske kan använda den äldre algoritmen i [!DNL Target Premium]; algoritmen kan dock skapa synkroniseringsproblem när aktiviteten i användargränssnittet för [!DNL Target Premium] inaktiveras eller tas bort. Mer information om skillnaderna mellan de två lösningarna finns i [[!DNL Recommendations Classic] versus [!DNL Recommendations] aktiviteter i [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+## Hur kan jag rekommendera artiklar som inte är äldre än 60 dagar? {#less-than-60}
+
+En [!DNL Target]-kund använde till exempel följande metod för att rekommendera artiklar som är yngre än 60 dagar.
+
+Den här kunden använder inte en datafeed. Alla data som samlas in om artiklar kommer från datalagret och skickas till [!DNL Target] på sidvyer.
+
+Den här kunden använde följande tillvägagångssätt:
+
+* Publiceringsdatumet har skickats i YYYMMDD-format som en entitetsparameter.
+* Skapade ett profilskript som är dagens datum minus 60 dagar, även i formatet YYYMMDD.
+* Använde ett dynamiskt inkluderingsfilter i kriterierna så att `publish date > today’s date minus 60 days`.
+
+Kunden har fångat följande datafält:
+
+| Datafält | Exempel |
+| --- | --- |
+| issueDate | 2021218 |
+| lastViewDate | 2021701 |
+| parentCategory | kommentar |
+| publishDate | 20210113 |
+| publishDateDisplay | 13 jan 2021 |
+
+Den här kunden använde följande inkluderingsregel med profilattributsmatchning:
+
+![Exempelinkluderingsregel](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
+Den här kunden använde följande profilskript:
+
+![Exempel på profilskript](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+
+>[!NOTE]
+>
+>Det här exemplet kan också utföras med parametermatchning och skicka `priorDate60`-värdet som en mbox-parameter.
 
 
