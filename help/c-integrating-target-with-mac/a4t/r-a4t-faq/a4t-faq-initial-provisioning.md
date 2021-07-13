@@ -4,10 +4,9 @@ description: Hitta svar på frågor som ofta ställs om provisioneringsanalyser 
 title: Var hittar jag information om inledande A4T-etablering?
 feature: Analyser för mål (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om etablering a
 
 Så här implementerar du ett enkelt A4T-fall med flera sidor:
 
-* Implementera JavaScript-bibliotek för både Target (at.js eller mbox.js) och Analytics för aktivitetens landnings-URL/-sida. Genom att implementera båda lösningarna kombineras Target-data med Analytics-data för varje besökare. Dessa data finns kvar i Analytics tills de upphör att gälla med standardinställningen 90 dagar.
+* Implementera JavaScript-biblioteken för både Target och Analytics på aktivitetens landnings-URL/-sida. Genom att implementera båda lösningarna kombineras Target-data med Analytics-data för varje besökare. Dessa data finns kvar i Analytics tills de upphör att gälla med standardinställningen 90 dagar.
 
 * För de återstående sidorna på webbplatsen, där bara analysstatistik ska spåras, implementera Analytics på dessa sidor. Target behöver inte implementeras på dessa sidor. De analysvärden som samlas in på dessa sidor sammanfogas automatiskt med den Target-aktivitet som användaren ursprungligen var kvalificerad för, baserat på den Target-information som bifogas besökaren från den föregående punkten.
 
