@@ -5,10 +5,9 @@ title: Hur implementerar jag  [!DNL Target] för e-post?
 feature: Implementera e-post
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Information om hur du implementerar Target i icke-JavaScript-scenarier, som att 
 
 Ni kan spåra besök i annonser och annat externt innehåll. Ni kan också identifiera samma användare både på och utanför er webbplats och leverera en enhetlig upplevelse genom hela deras webbupplevelse. Med en enda URL tillåter AdBox testning utan JavaScript eller [!DNL at.js] eller [!DNL mbox.js].
 
-En AdBox är användbar för webbplatser som inte har [!DNL at.js] eller [!DNL mbox.js], t.ex. filialer. Om din aktivitet behöver dynamisk kreativ (du till exempel behöver visa en produkt i annonsen som övergavs i kundvagnen) kan du inte använda en AdBox.
+En AdBox är användbar för webbplatser som inte har [!DNL at.js], t.ex. filialer. Om din aktivitet behöver dynamisk kreativ (du till exempel behöver visa en produkt i annonsen som övergavs i kundvagnen) kan du inte använda en AdBox.
 
 Annonser och omdirigerare kan användas med alla typer av aktiviteter. I följande tabell jämförs Adbox och Redirector samt när de ska användas:
 
