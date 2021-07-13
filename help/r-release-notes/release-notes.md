@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -23,24 +23,20 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
+## [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
+
+Den här versionen innehåller följande nya funktioner och förbättringar. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+
+| Funktion | Detaljer |
+| --- | --- |
+| [!UICONTROL Analytics for Target] (A4T) | Om du klickar på länken [!UICONTROL View in Analytics] på sidan [!UICONTROL Reports] från en aktivitet som använder [!DNL Analytics] som rapportkälla (A4T), öppnas [!DNL Analysis Workspace] nu. Tidigare öppnade länken [!DNL Analytics]-rapportering. (TGT-36959) |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Följande förbättringar gäller för popularitetsalgoritmer i [!DNL Recommendations]:<ul><li>Ett nytt sextimmars &quot;uppslagsfönster&quot; (dataområde) är tillgängligt för alla popularitetsalgoritmer (Mest visade/populära säljare) när [!DNL Target] är den beteendebaserade datakällan. (Det här uppslagsfönstret är *inte* tillgängligt när [!DNL Adobe Analytics] är datakällan för beteendet.)</li><li>När du väljer det här alternativet körs följande algoritmer ungefär var tredje timme (i stället för var tolfte timme).<ul><li>Mest visade</li><li>Mest köpta</li><li>Visas mest per kategori</li><li>Mest köpta per kategori</li><li>Visas mest av ett anpassat attribut (med funktionen groupBy)</li><li>Mest köpta av anpassat attribut (med funktionen groupBy)</li></ul></ul>Releasedatum som ska tillkännages. (TOP-1086) |
+
 ## Python SDK 1.0.0 (16 juni 2021)
 
 Det nya [!DNL Adobe Target] Python SDK med beslutsfunktioner på enheter är nu tillgängligt. Det senaste tillägget stöder [!DNL Target]-sviten med SDK:er på serversidan. Dessa SDKS hjälper dig att integrera med [!DNL Target] och hjälper dig att få mer tid till värde på det språk du föredrar. Integrationer på serversidan blir ett populärt val eftersom marknaden nu övergår till en cookie-fri värld där förstapartsdata är värdefulla. SDK-målgrupper finns i de populäraste programmeringsspråken på marknaden (Python, Java, JavaScript, C# / .Net).
 
 Mer information finns i [dokumentationen för Python SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) i [handboken för Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/).
-
-## Target Standard/Premium 21.5.1 (7 juni 2021)
-
-Den här versionen innehåller följande förbättringar:
-
-| Funktion | Detaljer |
-| --- | --- |
-| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] badgeAPI | Sök i din [!DNL Recommendations]-produkt och innehållskatalog programmatiskt via API för att identifiera objekt som matchar ett sökvillkor och förenkla katalogadministrationen.<br>**Begränsningar och anteckningar**:<ul><li>Katalogsökning via API stöds inte i miljöer med fler än 2 000 000 objekt.</li><li>Katalogsökresultat via API uppdateras snabbare än katalogsökresultat via användargränssnittet i [!DNL Target]. Katalogsökningen i gränssnittet [!DNL Target] kan ta ytterligare tid att återspegla de senaste resultaten.</li></ul>Mer information finns i [Söka efter entiteter](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) i *[!DNL Adobe Target]API*-handboken.[!DNL Recommendations] |
-
-Den här versionen innehåller följande korrigeringar.
-
-* Ett problem som gjorde att standardarbetsytan ändrades till en annan arbetsyta när sidan [!UICONTROL Audiences] uppdaterades har åtgärdats. (TGT-38871)
-* Korrigerade ett fel i [!UICONTROL Administration] > [!UICONTROL Implementation] som ibland orsakade ett felmeddelande med texten &quot;Din globala mbox kanske inte är synkroniserad. Försök spara om den.&quot;
 
 ## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1 juni 2021)
 
@@ -49,15 +45,6 @@ Den här versionen av [!DNL Platform Web SDK] har stöd för följande:
 | Funktion | Detaljer |
 | --- | --- |
 | Omdirigeringsstöd med [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK har nu stöd för [!DNL Target]-omdirigeringar när [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) används.<br>Mer information finns i  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
-
-## at.js version 2.5.0 (13 maj 2021)
-
-Den här versionen av at.js innehåller följande förbättringar och ändringar:
-
-* [Enhetsspecifikt ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslutsstöd för at.js.
-* [Förhandsgranska ](/help/c-activities/c-activity-qa/activity-qa.md) länkarstöd för Automated Personalization-aktiviteter
-
-Den här versionen tar också bort stöd för Microsoft Internet Explorer 10, Internet Explorer 11 och alla äldre versioner. Microsoft Edge stöds fortfarande i at.js 2.5.0 och senare.
 
 ## Ytterligare versionsinformation
 
