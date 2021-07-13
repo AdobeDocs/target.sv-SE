@@ -4,9 +4,9 @@ description: Följ stegen som krävs för att implementera lösningar med Analyt
 title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
 feature: Analyser för mål (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ For at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-VisitorAPI.js måste läsas in före at.js. Om du uppdaterar en befintlig at.js- eller mbox.js-fil kontrollerar du att inläsningsordningen är korrekt.
+VisitorAPI.js måste läsas in före at.js. Om du uppdaterar en befintlig at.js-fil måste du kontrollera inläsningsordningen.
 
 Standardinställningen för [!DNL Target]- och [!DNL Analytics]-integrering, från ett implementeringsperspektiv, är att använda SDID som skickas från sidan för att sammanfoga [!DNL Target]- och [!DNL Analytics]-begäran automatiskt.
 
