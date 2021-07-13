@@ -4,10 +4,9 @@ description: Utforska vanliga problem som kunder har råkat ut för när de anv�
 title: Hur felsöker jag analysen och [!DNL Target] integreringen (A4T)?
 feature: Analyser för mål (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ A4T-aktiviteter kräver att en analysspårningsserver anges. Se [Använda en Ana
 
 >[!NOTE]
 >
->Du behöver inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
+>Du behöver inte ange en spårningsserver när du skapar en aktivitet om du använder at.js version 0.9.1 (eller senare). at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 
 ## Mina analyssegment visas inte i Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -101,6 +100,6 @@ Om du inte har installerat felsökaren läser du [Introduktion till Adobe Experi
 
 ![Felsökning](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
-Om det inte finns något ytterligare data-ID i [!DNL Target]-anropet bekräftar du att [!DNL VisitorAPI.js]-filen har lästs in före [!DNL at.js] eller [!DNL mbox.js]. Om det inte finns något ytterligare data-ID i [!DNL Analytics]-anropet bekräftar du att [!DNL Target]-anropet utlöses före [!DNL Analytics]-anropet.
+Om det inte finns något ytterligare data-ID i [!DNL Target]-anropet bekräftar du att [!DNL VisitorAPI.js]-filen har lästs in före [!DNL at.js]. Om det inte finns något ytterligare data-ID i [!DNL Analytics]-anropet bekräftar du att [!DNL Target]-anropet utlöses före [!DNL Analytics]-anropet.
 
 Mer information finns i [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) eller kontakta [Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
