@@ -4,10 +4,9 @@ description: Lär dig hur du minimerar effekterna av inflaterade besök- och bes
 title: Hur minimerar jag antalet uppblåsta besök och besökare i A4T?
 feature: Analyser för mål (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -27,9 +26,6 @@ Information som hjälper dig att minimera effekterna av inflaterade besök- och 
 >* Adobe Analytics: appMeasurement.js version 2.1.
 >* Adobe Target: at.js version 0.9.6 eller senare (utom version 1.1.0 om du använder omdirigeringserbjudanden med A4T).
 
->
->  
-Biblioteket mbox.js stöder inte omdirigeringserbjudanden med A4T. Implementeringen måste använda at.js.
 
 ## Vad har ändrats? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -49,7 +45,7 @@ De identifierade orsakerna till partiella data är bland annat följande:
 * **Långsamma sidor:** [!DNL Target] anrop finns längst upp på sidan och  [!DNL Analytics] anrop sker vanligtvis längst ned på sidan. Om sidan läses in långsamt ökar det sannolikheten för att en besökare lämnar sidan efter att anropet [!DNL Target] utlösts, men före anropet [!DNL Analytics]. Långsamma sidor kan vara särskilt problematiska på mobilwebbplatser där anslutningarna ofta är långsammare.
 * **Sidfel:** Om det finns JavaScript-fel eller andra scenarier där alla kontaktytor inte utlöses (Experience Cloud ID-tjänsten, Target och Analytics), partiella dataresultat.
 * **Omdirigeringserbjudanden i  [!DNL Target] aktivitet:** För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du måste känna till. Mer information finns i [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Gamla versioner av biblioteken:** Under det senaste året har Adobe förbättrat JavaScript-biblioteken (,  [!DNL appMeasurement.js]och  `at.js/mbox.js`  `visitorAPI.js`) för att säkerställa att data skickas så effektivt som möjligt. Mer information om implementeringskrav finns i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Gamla versioner av biblioteken:** Under det senaste året har Adobe förbättrat JavaScript-biblioteken (,  [!DNL appMeasurement.js]och  `at.js`  `visitorAPI.js`) för att säkerställa att data skickas så effektivt som möjligt. Mer information om implementeringskrav finns i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Vilka är de bästa sätten att minska partiella data? {#section_065C38501527451C8058278054A1818D}
 
@@ -58,7 +54,7 @@ Granska följande steg för att minska partiell datainsamling:
 | Steg | Uppgift |
 | --- | --- |
 | ![Steg 1](assets/step1_icon.png) | Se till att rapportsviten som valts i [!DNL Target] är densamma som på de sidor där aktiviteten presenteras. |
-| ![Steg 2](assets/step2_icon.png) | Kontrollera att biblioteken visitorAPI.js, appMeasurement.js, at.js / mbox.js finns i A4T-kompatibla versioner. Mer information om implementeringskrav finns i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
+| ![Steg 2](assets/step2_icon.png) | Kontrollera att biblioteken visitorAPI.js, appMeasurement.js och at.js finns i A4T-kompatibla versioner. Mer information om implementeringskrav finns i [Innan du implementerar](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Steg 3](assets/step3_icon.png) | Kontrollera att SDID anges för alla [!DNL Target]- och [!DNL Analytics]-anrop som lämnar sidan och att de matchar.<br/>Använd en nätverksanalyserare eller ett felsökningsverktyg för att säkerställa att  `mboxMCSDID` parametern för  [!DNL Target] anrop matchar SDID-parametern i  [!DNL Analytics] anropet. |
 | ![Steg 4](assets/step4_icon.png) | Bekräfta att implementeringsbiblioteken läses in i rätt ordning på dina webbplatser. Mer information finns i [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
