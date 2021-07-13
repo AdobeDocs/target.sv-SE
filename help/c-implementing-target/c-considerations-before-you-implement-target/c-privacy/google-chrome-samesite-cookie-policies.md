@@ -5,10 +5,9 @@ title: Hur hanterar [!DNL Target] Googles cookie-principer för Samesite?
 feature: Integritet och säkerhet
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -82,14 +81,12 @@ Om du väljer att använda spårning mellan domäner för att utnyttja [!DNL Tar
 
 Om du vill veta vad du behöver göra för att [!DNL Target] ska kunna fortsätta att arbeta för användare med Google Chrome 80+ läser du tabellen nedan, där du kommer att se följande kolumner:
 
-* **JavaScript-målbibliotek**: Om du använder mbox.js, at.js 1.*x* eller at.js 2.*Visa* dina sajter.
+* **JavaScript-målbibliotek**: Om du använder at.js 1.** xor at.js 2.*Visa* dina sajter.
 * **SameSite som standard cookies = Aktiverad**: Om dina användare har aktiverat &quot;SameSite som standard-cookies&quot;, hur påverkar det dig och finns det något du behöver göra för  [!DNL Target] att fortsätta arbeta.
 * **Cookies utan SameSite måste vara säkra = Aktiverad**: Om dina användare har aktiverat&quot;Cookies without SameSite must be secure&quot;, hur påverkar det dig och finns det något du behöver göra för att  [!DNL Target] fortsätta arbeta.
 
 | JavaScript-målbibliotek | SameSite som standard-cookies = Aktiverad | Cookies utan SameSite måste vara säkra = Enabled |
 | --- | --- | --- |
-| mbox.js med endast cookie från första part. | Ingen påverkan. | Ingen påverkan om du inte använder spårning mellan domäner. |
-| mbox.js med spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har  `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda HTTPS-protokollet. |
 | at.js 1.** med cookie. | Ingen påverkan. | Ingen påverkan om du inte använder spårning mellan domäner. |
 | at.js 1.** xmed spårning mellan domäner aktiverat. | Ingen påverkan. | Du måste aktivera HTTPS-protokollet för din plats.<br>[!DNL Target] använder en cookie från tredje part för att spåra användare och Google kräver att cookies från tredje part har  `SameSite = None` och Säker flagga. För flaggan Secure måste dina webbplatser använda HTTPS-protokollet. |
 | at.js 2.*x* | Ingen påverkan. | Ingen påverkan. |
@@ -100,15 +97,13 @@ Så vad behöver vi göra på vår plattform för att hjälpa er att följa de n
 
 | JavaScript-målbibliotek | SameSite som standard-cookies = Aktiverad | Cookies utan SameSite måste vara säkra = Enabled |
 | --- | --- | --- |
-| mbox.js med endast cookie från första part. | Ingen påverkan. | Ingen påverkan om du inte använder spårning mellan domäner. |
-| mbox.js med spårning mellan domäner aktiverat. | Ingen påverkan. | [!DNL Target] lägger till  `SameSite = None` och säkrar-flaggan i tredjeparts-cookie när  [!DNL Target] servrar anropas. |
 | at.js 1.** med cookie. | Ingen påverkan. | Ingen påverkan om du inte använder spårning mellan domäner. |
 | at.js 1.** xmed spårning mellan domäner aktiverat. | Ingen påverkan. | at.js 1.** xmed spårning mellan domäner aktiverat. |
 | at.js 2.*x* | Ingen påverkan. | Ingen påverkan. |
 
 ## Vilken är effekten om du inte går över till HTTPS-protokollet?
 
-Det enda användningsfallet som påverkar dig är om du använder funktionen för domänövergripande spårning i [!DNL Target] till mbox.js eller at.js 1.*x*. Utan att gå över till HTTPS, vilket är ett krav från Google, kommer ni att se en topp i unika besökare i era domäner eftersom den cookie från tredje part som vi använder kommer att tas bort av Google. Och eftersom cookie-filen från tredje part kommer att tas bort kommer [!DNL Target] inte att kunna tillhandahålla en konsekvent och anpassad upplevelse för den användaren när användaren navigerar från en domän till en annan. Den cookie som används av tredje part används främst för att identifiera en enskild användare som navigerar över domäner som du äger.
+Det enda användningsfallet som påverkar dig är om du använder funktionen för domänövergripande spårning i [!DNL Target] till och med at.js 1.*x*. Utan att gå över till HTTPS, vilket är ett krav från Google, kommer ni att se en topp i unika besökare i era domäner eftersom den cookie från tredje part som vi använder kommer att tas bort av Google. Och eftersom cookie-filen från tredje part kommer att tas bort kommer [!DNL Target] inte att kunna tillhandahålla en konsekvent och anpassad upplevelse för den användaren när användaren navigerar från en domän till en annan. Den cookie som används av tredje part används främst för att identifiera en enskild användare som navigerar över domäner som du äger.
 
 ## Slutsats
 
