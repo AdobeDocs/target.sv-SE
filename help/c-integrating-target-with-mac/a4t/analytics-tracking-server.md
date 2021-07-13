@@ -1,24 +1,23 @@
 ---
 keywords: analysspårningsserver;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;Reporting source;developtools
-description: 'Lär dig hur du anger en Analytics-spårningsserver för aktiviteter som använder Analytics för [!DNL Target] (A4T) om du använder en äldre version av at.js eller mbox.js. '
+description: 'Lär dig hur du anger en Analytics-spårningsserver för aktiviteter som använder Analytics för [!DNL Target] (A4T) om du använder en äldre version av at.js. '
 title: Hur använder jag en Analytics Tracking Server?
 feature: Analyser för mål (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Använda en analysspårningsserver
 
-Om du använder en äldre version av at.js eller mbox.js måste du ange en analysspårningsserver för aktiviteter som använder [!DNL Adobe Analytics] för [!DNL Adobe Target] (A4T).
+Om du använder en äldre version av at.js måste du ange en analysspårningsserver för aktiviteter som använder [!DNL Adobe Analytics] för [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->Du behöver inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). Mbox.js- eller at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
+>Du behöver inte ange en spårningsserver när du skapar en aktivitet om du använder at.js version 0.9.1 (eller senare). at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 >
 >[!DNL Target]-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information finns i [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
