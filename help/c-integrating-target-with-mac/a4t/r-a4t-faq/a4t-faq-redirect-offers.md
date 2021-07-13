@@ -4,9 +4,9 @@ description: Hitta svar på frågor om hur du använder omdirigeringserbjudanden
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analyser för mål (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Implementeringen måste uppfylla följande minimikrav:
 * Adobe Analytics: [!DNL appMeasurement.js] version 2.1.
 * Adobe Target: [!DNL at.js] version 1.6.2 eller senare.
 
-   Biblioteket [!DNL mbox.js] stöder inte omdirigeringserbjudanden med A4T. Implementeringen måste använda [!DNL at.js].
-
 De tre biblioteken måste finnas på både sidan med omdirigeringserbjudandet och den sida som besökaren omdirigeras till.
 
 ## Varför finns det ibland avvikelser i data mellan A4T och Analytics?
@@ -50,10 +48,6 @@ Vi rekommenderar att du använder den formulärbaserade dispositionen för att s
 En anledning till att du kanske vill använda omdirigeringserbjudanden för alla upplevelser i aktiviteten, inklusive standardupplevelsen (kontrollen), är att ange samma villkor för alla upplevelser. Om till exempel standardupplevelsen inte har något omdirigeringserbjudande, men de andra upplevelserna har omdirigeringserbjudanden, har upplevelsen utan omdirigeringserbjudandet en inneboende fördel. Omdirigeringserbjudanden rekommenderas endast för tillfälliga scenarier, till exempel testning. Omdirigeringserbjudanden rekommenderas inte för permanenta scenarier, som personalisering. När du har bestämt vinnaren bör du ta bort omdirigeringen för att förbättra sidladdningsprestanda.
 
 Mer information om det här problemet finns i informationen om omdirigeringserbjudanden i [Kända fel](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
-
-## Kan jag använda omdirigeringserbjudanden med A4T om jag använder JavaScript-biblioteket mbox.js? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-Biblioteket [!DNL mbox.js] stöder inte omdirigeringserbjudanden med A4T. Implementeringen måste använda [!DNL at.js].
 
 ## Stöds både Visual Experience Composer (VEC) och Form-Based Experience Experience Composer? {#section_FDA26FE7909B48539DA770559E687677}
 
