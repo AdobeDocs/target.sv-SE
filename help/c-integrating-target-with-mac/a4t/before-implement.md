@@ -4,9 +4,9 @@ description: Lär dig implementeringskraven för Analytics för [!DNL Target] (A
 title: Vad ska jag veta innan jag implementerar A4T?
 feature: Analyser för mål (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Den här A4T-integreringen kräver att du implementerar följande biblioteksvers
 För den här integreringen krävs att du implementerar följande biblioteksversioner (eller nyare) om du inte planerar att använda omdirigeringserbjudanden med A4T. Ordningen som anges är den ordning som operationerna utförs.
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js version 1.8.0
-* [!DNL Adobe Target] (beroende på implementeringen): at.js version 0.9.1 eller mbox.js version 61
+* [!DNL Adobe Target]: at.js version 0.9.1
 * Adobe Analytics: appMeasurement.js version 1.7.0
 
 ### Krav krävs för omdirigeringserbjudanden med A4T
@@ -46,8 +46,6 @@ Om du vill använda omdirigeringserbjudanden med A4T måste du implementera föl
    **Obs!**  at.js 1.8.0 eller senare fungerar inte längre med Visitor API-versioner som är äldre än 2.5.0 för att skicka  [!DNL Adobe Audience Manager] (AAM) parametrar.
 
 * [!DNL Adobe Target]: at.js version 1.6.2
-
-   **Obs**: Biblioteket mbox.js stöder inte omdirigeringserbjudanden med A4T. Implementeringen måste använda at.js.
 
 * Adobe Analytics: appMeasurement.js version 2.1
 
@@ -78,7 +76,6 @@ Alla [!DNL Target]-anrop som används av en A4T-aktivitet för att leverera inne
 Träffar som innehåller data från [!DNL Analytics] och [!DNL Target] innehåller ett extra data-ID. Du kan se detta ID i [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) som `sdid`-parametern. Exempel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Detta ID genereras när som helst när följande kriterier finns på plats:
 
 * Tjänsten för besökar-ID är implementerad
-* En version av [!DNL mbox.js] som stöder den här integreringen är implementerad.
 
 När [felsökning](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) inträffar måste du kontrollera att det extra ID:t finns på [!DNL Analytics] träffar.
 
@@ -86,7 +83,7 @@ När [felsökning](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting
 
 Om at.js är [!DNL Experience Cloud Visitor ID Service] och appMeasurement.js på sidan [!DNL Analytics] och [!DNL Target] sammanfogar händelser korrekt för rapportering- och analyssyften i bakänden så länge som rätt kompletterande ID inkluderas från sidan. Du behöver inte hantera och utföra några ytterligare åtgärder för att A4T ska fungera korrekt.
 
-Det finns fall där du kanske vill ha större kontroll över när och hur analysdata som är relaterade till [!DNL Target] ska skickas till [!DNL Analytics] för rapportering. Du kan ha ett internt analysverktyg som du använder internt. Men du vill också skicka analysdata till [!DNL Analytics] via den interna analysprodukten så att andra medlemmar i organisationen kan fortsätta använda [!DNL Analytics] som en visuell rapportkälla. Se [Steg 7: Mer information finns i at.js eller mbox.js på alla webbplatssidor](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) i *Analytics for Target Implementation*.
+Det finns fall där du kanske vill ha större kontroll över när och hur analysdata som är relaterade till [!DNL Target] ska skickas till [!DNL Analytics] för rapportering. Du kan ha ett internt analysverktyg som du använder internt. Men du vill också skicka analysdata till [!DNL Analytics] via den interna analysprodukten så att andra medlemmar i organisationen kan fortsätta använda [!DNL Analytics] som en visuell rapportkälla. Se [Steg 7: Se at.js på alla webbplatssidor](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) i *Analytics for Target Implementation* för mer information.
 
 ## Delade målgrupper
 
