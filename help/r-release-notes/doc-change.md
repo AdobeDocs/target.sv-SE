@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1781'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 0%
 # Dokumentationsändringar
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 juni 2021)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 12 juli | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelser:<ul><li>Webbseminarium: Att kvantifiera den betydande avkastningen, insikterna och tidsbesparingarna med att integrera Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break to be taken onsdag den 21 juli 2021 kl. 8.00. (PDT, GMT-7).</li></ul> |
+|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Följande frågor och svar har lagts till: &quot;Hur kan jag rekommendera enbart nya artiklar eller videoklipp?&quot; |
+|  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterad text i avsnittet&quot;Target API call&quot;. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Beskrivning av nyckeln `consumerId` har uppdaterats. |
+|  | [Anpassa en global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Uppdaterat steg 1 för att ange att ändringen sparas automatiskt när du har valt en ny mbox. |
+|  | Experience Cloud Device Co-op | Avsnittet har tagits bort. Den här funktionen har tagits bort. |
+| 30 juni | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.6.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.5.1 (8 juni 2021)
 
