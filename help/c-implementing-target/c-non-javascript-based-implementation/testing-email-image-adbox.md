@@ -5,10 +5,9 @@ title: Hur testar jag en e-postbildsruta?
 feature: Implementera e-post
 role: Developer
 exl-id: 87a918d7-83dc-4277-821b-d90302c59736
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -40,7 +39,7 @@ Där nedanstående värden är specifika för dig:
 
 | Värde | Beskrivning |
 |--- |--- |
-| clientcode | Ditt företags kundkod. Du hittar detta i at.js eller mbox.js som `clientCode='yourclientcode'`. Det här är bara små bokstäver och har inga specialtecken. |
+| clientcode | Ditt företags kundkod. Du hittar detta i at.js som `clientCode='yourclientcode'`. Det här är bara små bokstäver och har inga specialtecken. |
 | image | Erbjudandetypen. Det är alltid&quot;bild&quot; för grafiska annonser och&quot;sida&quot; för omdirigeringar. |
 | email_header | Namnet på adbox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Obligatoriskt. Ersätt URL:en med lämpligt standardinnehåll för din adbox. Detta måste vara en absolut referens och måste vara URL-kodad. |
