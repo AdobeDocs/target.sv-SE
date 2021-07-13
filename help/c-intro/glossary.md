@@ -3,10 +3,9 @@ description: Vad betyder olika termer i Adobe [!DNL Target] ? Hitta definitioner
 title: Var hittar jag de termer och definitioner som används i Target?
 feature: Översikt
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2405'
 ht-degree: 1%
 
 ---
@@ -228,10 +227,6 @@ Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-elemen
 **mbox**
 
 &quot;Marknadsföringsruta&quot;, den plats på webbsidan där innehållet visas och besökarnas beteende registreras. Vissa rutor visar ingenting. De kan spåra besökarens framsteg på webbplatsen eller kanske spåra om besökaren har slutfört ett visst mått för framgång, som att lägga till en artikel i kundvagnen eller slutföra ett köp. En sådan typ av mbox är en *konverteringsmbox*.
-
-**mbox.js**
-
-Före mål 16.3.1 behövde [!DNL Target] ett anrop till [!DNL mbox.js] för att skapa den globala mbox som krävs för att [!DNL Adobe Target]leverera [!DNL Target]-aktiviteter, spåra klick och spåra de flesta framgångsmått. Den här filen innehåller de bibliotek som behövs för alla dina aktiviteter. Du behöver inte underhålla olika aktivitetsspecifika versioner av filen. Biblioteket [!DNL at.js] ersätter [!DNL mbox.js] för [!DNL Target]-implementeringar.
 
 **mbox-parameter**
 
