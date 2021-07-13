@@ -5,10 +5,9 @@ title: Kan jag använda [!DNL Target] med molnbaserade instanser?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -25,6 +24,6 @@ Dessa domäner, och många andra, ingår i [Public Suffix List](https://publicsu
 
 **Problem:** Moderna webbläsare sparar inte cookies om du använder dessa domäner.
 
-JavaScript-biblioteken [!DNL at.js] och [!DNL mbox.js] använder cookies för att spåra användare och säkerställa att [!DNL Target] alltid ger en enhetlig upplevelse. Om JavaScript-biblioteken [!DNL Target] inte kan spara cookies inaktiveras [!DNL Target]-begäranden.
+JavaScript-biblioteket [!DNL at.js] använder cookies för att spåra användare så att [!DNL Target] alltid ger en enhetlig upplevelse. Om JavaScript-biblioteket [!DNL Target] inte kan spara cookies inaktiveras [!DNL Target]-begäranden.
 
 **Lösning:** Om du tänker använda molnbaserade instanser med domäner som finns med i Public Suffix List bör du se till att du anpassar  `cookieDomain` inställningen. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
