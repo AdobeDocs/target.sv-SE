@@ -4,7 +4,7 @@ description: Läs tips från vår expertpanel om hur du använder Adobe [!DNL Ta
 title: Var hittar jag tips och tricks för att använda Target?
 feature: Översikt
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Mer information finns i [Flera olika upplevelsemålgrupper i ett A/B-test](/help
 
 ## Tips 8: Spara tid genom att replikera aktivitetsupplevelser på liknande sidor.
 
-Skapa en variant på en webbsida, till exempel en ny knappfärg, och tillämpa den automatiskt på alla sidor som delar samma mall. Du kan ange sidor eller tillämpa variationerna på alla liknande sidor på webbplatsen.
+Skapa en variant på en webbsida, till exempel en ny knappfärg, och tillämpa den automatiskt på alla sidor som delar samma mall. Du kan ange sidor eller använda variationerna på alla liknande sidor på webbplatsen.
 
 Se [Inkludera samma upplevelse på liknande sidor](/help/c-experiences/c-visual-experience-composer/temtest.md) för steg-för-steg-instruktioner.
 
@@ -137,7 +137,7 @@ Genom att jämföra konverteringsresultatet för olika målgrupper i olika teste
 
 En kund inom finanssektorn har t.ex. kört en kampanjkampanj för ett kreditkort som innefattade professionella sportevenemang. Genom partiell, faktoriell multivariattestning av landningssidorna kunde kunden optimalt balansera budskapen om kreditkortsförmåner med sporttjänster för att rikta distinkta målgrupper från kundbasen. På så sätt kunde företaget dra nytta av och maximera konverteringsgraden under ett tidskänsligt fönster runt ett stort idrottsevenemang.
 
-## Tips 17: Gör tester användbara genom att bara starta dem om du vet att du kan agera med data.
+## Tips 17: Gör tester användbara genom att bara starta dem om du vet att du kan agera på data.
 
 Ett test är meningslöst om du inte är säker på hur du ska agera på data. Detta innefattar att känna till era viktigaste framgångsmått, vad som behöver hända för att pressa en vinnare, hur ni kommer att följa upp testresultaten och vad ni ska göra med målgruppsinformationen. För ett snabbt och framgångsrikt test är det av största vikt att alla grupper som deltar i testet (utvecklare, kreatörer, testspecialister och andra) är medvetna om dess roll innan teststarten.
 
