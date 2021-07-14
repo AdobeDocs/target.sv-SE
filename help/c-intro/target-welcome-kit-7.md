@@ -4,7 +4,7 @@ description: Låt oss komma igång med din första aktivitet i Adobe [!DNL Targe
 title: Jag måste skapa min första aktivitet i Target. Var ska jag börja?
 feature: Översikt
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 0%
