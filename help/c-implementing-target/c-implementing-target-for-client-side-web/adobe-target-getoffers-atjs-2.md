@@ -5,9 +5,9 @@ title: Hur använder jag funktionen adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 
 | Nyckel | Typ | Obligatoriskt? | Beskrivning |
 | --- | --- | --- | --- |
-| `consumerId` | Sträng | Nej | Standardvärdet är klientens globala mbox om den inte anges. Den här nyckeln används för att generera det extra data-ID (SDID) som används för A4T-integrering. Nyckeln är en unik sträng per besökare.<br>När du använder  `getOffers()`det genererar varje anrop ett nytt SDID. Om du har flera mbox-begäranden på samma sida och vill bevara SDID (så att det matchar SDID:t från target-global-mbox och Adobe Analytics SDID) använder du parametern `consumerId`.<br>Om  `getOffers()` innehåller tre mbox-rutor (mbox1, mbox2 och mbox3):  `consumerId: "mbox1, mbox2, mbox3"` i  `getOffers()` samtalet. |
+| `consumerId` | Sträng | Nej | Standardvärdet är klientens globala mbox om den inte anges. Den här nyckeln används för att generera det extra data-ID (SDID) som används för A4T-integrering. Den här nyckeln (ConsumerId) är inte unik.<br>När du använder  `getOffers()`det genererar varje anrop ett nytt SDID. Om du har flera mbox-begäranden på samma sida och vill bevara SDID (så att det matchar SDID:t från target-global-mbox och Adobe Analytics SDID) använder du parametern `consumerId`.<br>Om  `getOffers()` innehåller tre mbox-rutor (mbox1, mbox2 och mbox3):  `consumerId: "mbox1, mbox2, mbox3"` i  `getOffers()` samtalet. |
 | `decisioningMethod` | Sträng | Nej | &quot;server-side&quot;, &quot;on device&quot;, &quot;hybrid&quot; |
 | `request` | Objekt | Ja | Se tabellen över förfrågningar nedan. |
 | `timeout` | Nummer | Nej | Timeout för begäran. Om inget anges används standardtimeout för at.js. |
