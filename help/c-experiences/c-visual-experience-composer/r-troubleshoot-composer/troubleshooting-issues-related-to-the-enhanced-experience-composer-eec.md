@@ -4,10 +4,10 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör den förbättrade Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 0%
+source-wordcount: '410'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,15 @@ Detta kan du lösa genom att tillåtslista följande IP-adresser. Dessa IP-adres
 
 Be IT-teamet att tillåtslista följande IP-adresser:
 
-* 52.55.99.45
-* 52.51.238.221
-* 52.193.67.35
+* 34.253.100.20
+* 34.248.100.23
+* 52.49.228.246
+* 54.205.42.123
+* 107.22.177.39
+* 52.201.5.105
+* 52.193.211.177
+* 18.180.24.249
+* 52.194.154.154
 
 Följande felmeddelande kan visas i [!DNL Target]:
 
