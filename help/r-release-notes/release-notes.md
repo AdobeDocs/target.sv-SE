@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## at.js 2.6.0 (16 juli 2021)
+
+* Ett säkert attribut har lagts till i cookies när inställningarna `secureOnly` för at.js är inställda på `true`.
+* Svarstoken är nu tillgängliga när du använder `triggerView()`.
+* Korrigerade ett problem som var relaterat till `CONTENT_RENDERING_NO_OFFERS`-händelsen. Den här händelsen utlöses korrekt när inget innehåll returneras från [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) klickmätningsinformation returneras korrekt när  `prefetch` begäranden används.
+* UUID-genereringen använder inte längre `Math.random()`, men är beroende av `window.crypto`.
+* Utgångsdatumet för cookien `sessionId` har utökats korrekt för varje nätverksanrop.
+* Cacheinitieringen för vyn [!UICONTROL Single Page Application] (SPA) hanteras nu korrekt och inställningarna för `viewsEnable` följs.
 
 ## [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
 
