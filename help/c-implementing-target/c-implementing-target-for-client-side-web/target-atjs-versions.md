@@ -4,9 +4,9 @@ description: Visa information om ändringarna i varje version av JavaScript-bibl
 title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '4125'
+source-wordcount: '4206'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe 
 >Target-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis är förstahandsvalet när man uppgraderar at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Launch]-katalogen som uppgraderingar. Mer information finns i [Tilläggsuppgradering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) i *användarhandboken för Experience Platform Launch*.
+
+## at.js 2.6.0 (16 juli 2021)
+
+* Ett säkert attribut har lagts till i cookies när inställningarna `secureOnly` för at.js är inställda på `true`.
+* Svarstoken är nu tillgängliga när du använder `triggerView()`.
+* Korrigerade ett problem som var relaterat till `CONTENT_RENDERING_NO_OFFERS`-händelsen. Den här händelsen utlöses korrekt när inget innehåll returneras från [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) klickmätningsinformation returneras korrekt när  `prefetch` begäranden används.
+* UUID-genereringen använder inte längre `Math.random()`, men är beroende av `window.crypto`.
+* Utgångsdatumet för cookien `sessionId` har utökats korrekt för varje nätverksanrop.
+* Cacheinitieringen för vyn [!UICONTROL Single Page Application] (SPA) hanteras nu korrekt och inställningarna för `viewsEnable` följs.
 
 ## at.js 2.5.0 (13 maj 2021)
 
@@ -269,7 +279,7 @@ at.js version 1.5.0 finns nu att köpa.
      scheduler = setTimeout
    ```
 
-## at.js Version 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js Version 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js version 1.3.0 finns nu att köpa.
 
