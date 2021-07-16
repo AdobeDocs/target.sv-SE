@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 16 juli | [Versionsinformation om målversionen (aktuell)](/help/r-release-notes/release-notes.md)<br><br>[andat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.6.0. |
+|  | [Felsökning relaterade till  [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Listan över IP-adresser som ska tillåtslista har uppdaterats. |
 | 12 juli | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelser:<ul><li>Webbseminarium: Att kvantifiera den betydande avkastningen, insikterna och tidsbesparingarna med att integrera Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break to be taken onsdag den 21 juli 2021 kl. 8.00. (PDT, GMT-7).</li></ul> |
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Följande frågor och svar har lagts till: &quot;Hur kan jag rekommendera enbart nya artiklar eller videoklipp?&quot; |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterad text i avsnittet&quot;Target API call&quot;. |
