@@ -1,12 +1,12 @@
 ---
-keywords: Mål;hem;populära ämnen;adobe target;standard;premium;target documentation;adobe target documentation
+keywords: Mål;hem;populära ämnen;adobe target;standard;premium;target documentation;adobe target documentation;home
 title: Var finns  [!DNL Target] dokumentation?
 description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa kundernas upplevelse och maximera intäkterna på webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Översikt
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
