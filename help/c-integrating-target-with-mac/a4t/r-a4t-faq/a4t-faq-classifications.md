@@ -4,10 +4,9 @@ description: Hitta svar på frågor om klassificeringar och användning av Analy
 title: Var hittar jag information om klassificeringar med A4T?
 feature: Analyser för mål (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -30,5 +29,6 @@ TNT-variabelns strängformat är `activityID:experienceID:targettype|event`.
 * Händelse = 2 representerar ett aktivitetsintryck.
 * Händelse = 3-32766 representerar mått för lyckade analysresultat.
 * Händelse = 32767 representerar en aktivitetskonvertering.
+* Händelsen -1 eller 65535 representerar att användaren tas bort från aktiviteten eller upplevelsen. Detta inträffar ofta när besökaren konverterar. Besökaren frigörs från upplevelsen och är nu tillgänglig för att kvalificera sig för andra upplevelser.
 
-Du kan importera klassificeringsfilen ofta från användargränssnittet med en [webbläsarimport](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) eller en [FTP-import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Du kan också använda Engineering Services för att hämta filen som en uppslagstabell tillsammans med en datafeed i klickströmmen.
+Du kan importera klassificeringsfilen ofta från användargränssnittet med en [webbläsarimport](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) eller en [FTP-import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). Du kan också använda Engineering Services för att hämta filen som en uppslagstabell tillsammans med en datafeed i klickströmmen.
