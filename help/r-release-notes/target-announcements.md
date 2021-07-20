@@ -4,9 +4,9 @@ description: Läs notiser och registrera dig för Adobe [!DNL Target] event, ink
 title: Var hittar jag [!DNL Target] Meddelanden och händelser?
 feature: Versionsinformation
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
+source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,6 @@ Kommentarer och information om kommande evenemang, inklusive [!DNL Adobe Target]
 | --- | --- |
 | Forrester | **Adobe utnämnd till ledare i Forrester wave-rapporten för upplevelseoptimeringsplattformar.**<br> Adobe utsågs till ledare i Forrester Wave: Experience Optimization Platforms, Q4 2020 report for its offer in this space, Adobe Target Premium. Adobe fick den högsta poängen för alla deltagande leverantörer i kategorierna för aktuellt erbjudande och marknadsnärvaro samt i rekommendationerna och kriterierna för plattformsupplevelser. Target Premium fick också högsta möjliga poäng i villkoren för upplevelseoptimeringstekniken, innovation och stödtjänster. Rapporten bygger på en grundlig utvärdering av 10 plattformsleverantörer för upplevelseoptimering enligt 22 kriterier.<br>Läs om det på  [Adobe-bloggen](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe har återigen utnämnts till ledare i Gartners Magic Quadrant för personaliseringsmotorer.**<br> Adobe utnämndes ännu en gång till ledare i den tredje årsrapporten Gartner Magic Quadrant for Personalization Engines, 2020. Gartner Magic Quadrant for Personalization Engines utvärderade leverantörer i 15 olika kategorier: fullständighet i synen och förmågan att genomföra.<br>[Läs om det på Adobe-bloggen](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
-## Webbseminarium: Att kvantifiera den betydande avkastningen, insikterna och tidsbesparingarna av integrering av [!DNL Adobe Analytics] + [!DNL Adobe Target]
-
-* **Tisdagen den 20 juli 2021**
-* **8.00 (PDT, UTC -7)**
-* **[Klicka här för mer information och registrering](https://www.adobeeventsonline.com/Webinar/2021/Quantifying/).**
 
 ## [!DNL Adobe Target] Community Q&amp;A Coffee Break
 
