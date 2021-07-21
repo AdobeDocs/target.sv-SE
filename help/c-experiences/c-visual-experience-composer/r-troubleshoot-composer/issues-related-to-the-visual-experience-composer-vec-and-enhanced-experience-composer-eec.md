@@ -4,28 +4,51 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 068cce681946382365049fdc69671cd011431201
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
 
 # Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer
 
-Visningsproblem och andra problem kan ibland uppstå i [!DNL Adobe Target] Visual Experience Composer (VEC) och Enhanced Experience Composer (EEC) under vissa förhållanden.
+Visningsproblem och andra problem kan ibland uppstå i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) och [!UICONTROL Enhanced Experience Composer] (EEC) under vissa förhållanden.
 
-## Hur påverkar den nyligen lanserade policyn för tillämpning av Google Chrome SameSite-cookies VEC? {#samesite}
+## Hur påverkar reglerna för tillämpning av cookies i Google Chrome SameSite VEC? {#samesite}
 
-Med de senaste ändringarna (augusti 2020) har alla användare med webbläsarversionen Chrome 80+:
+Med de kommande förändringarna för Chrome 94 (21 september 2021) påverkar följande ändring alla användare med Chrome 94+-webbläsarversioner:
 
-* Kommer *inte* att kunna använda VEC (med eller utan VEC Helper-tillägget installerat och aktiverat) på lösenordsskyddade sidor på sina webbplatser. Detta beror på att deras cookies för webbplatsinloggning kommer att betraktas som en cookie från tredje part och inte skickas med inloggningsbegäran. Det enda undantaget är när inloggningscookien för kundplatsen redan har parametern SameSite inställd på &quot;none&quot;.
+* Kommandoradsflaggan `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` kommer att tas bort.
+
+Med de ändringar som implementerats för Chrome 91 (25 maj 2021) påverkar följande ändring alla användare med webbläsarversionen Chrome 91+:
+
+* Flaggorna `#same-site-by-default-cookies` och `#cookies-without-same-site-must-be-secure` har tagits bort från `chrome://flags`. Detta beteende är nu aktiverat som standard.
+
+Med de ändringar som implementerades i augusti 2020 har alla användare med webbläsarversionen Chrome 80+:
+
+* Kommer *inte* att kunna använda VEC (med eller utan VEC Helper-tillägget installerat och aktiverat) på lösenordsskyddade sidor på sina webbplatser. Dina cookies för webbplatsinloggning betraktas som en cookie från tredje part och skickas tillsammans med inloggningsbegäran. Det enda undantaget är när webbplatsens inloggningscookie redan har parametern SameSite inställd på &quot;none&quot;.
 * Kommer *inte* att kunna hämta [!DNL Target]-bibliotek när en aktivitet redigeras (när dessa inte redan finns på webbplatsen). Detta beror på att nedladdningsanropet görs från kundens domän mot en skyddad Adobe-domän och avvisas som oautentiserat.
-* EEC-funktionen *inte* för alla användare eftersom den inte kan ange attributet SameSite för cookies på `adobemc.com domain`. Utan det här attributet kommer webbläsaren att avvisa dessa cookies, vilket gör att EEG misslyckas.
+* EEC-funktionen *inte* för alla användare eftersom den inte kan ange attributet SameSite för cookies på `adobemc.com domain`. Utan det här attributet avvisar webbläsaren dessa cookies, vilket gör att EEG misslyckas.
+
+Om du vill kontrollera vilka cookies som är blockerade på grund av samma principer för att genomdriva cookies på samma webbplats använder du utvecklingsverktygen i Chrome.
+
+1. Om du vill komma åt utvecklingsverktygen när du visar VEC i Chrome klickar du på ikonen **[!UICONTROL ellipsis]** längst upp till höger i Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
+1. Klicka på fliken **[!UICONTROL Network]** och sök efter blockerade cookies.
+
+   I följande bild visas en blockerad cookie:
+
+   ![Utvecklarverktyg > fliken Nätverk med en blockerad cookie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
 Adobe har skickat ett uppdaterat VEC Helper-tillägg till Google Chrome Store. Det här tillägget skriver över cookie-attributen för att ange attributet `SameSite="none"` vid behov. Det [uppdaterade tillägget finns här](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Mer information om hur du installerar och använder VEC Helper Extension finns i [Hjälptillägg för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-För dina egna webbplatscookies måste du ange cookies efter namn. Växla reglaget [!UICONTROL Cookie] till den aktuella positionen och ange sedan cookien efter namn och cookie-domän. Cookie-namnet är &quot;mbox&quot; och cookie-domänen är den andra och översta nivån i domänerna som du använder för mbox. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: `mycompany.com`. Mer information finns i [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) i *användarhandboken för gränssnittet Experience Cloud*.
+För dina egna webbplatscookies måste du ange cookies efter namn.
+
+>[!NOTE]
+>
+>Den här metoden passar bara när alla cookies är angivna i en enda domän. VEC-hjälpen tillåter inte att [!DNL Target] anger cookies för mer än en domän.
+
+Växla reglaget [!UICONTROL Cookie] till den aktuella positionen och ange sedan cookien efter namn och cookie-domän. Cookie-namnet är &quot;mbox&quot; och cookie-domänen är den andra och översta nivån i domänerna som du använder för mbox. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: `mycompany.com`. Mer information finns i [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) i *användarhandboken för gränssnittet Experience Cloud*.
 
 ![Cookies i VEC-hjälptillägget](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -35,11 +58,11 @@ Använd något av följande alternativ för att säkerställa att ditt VEC och E
 
 * Hämta och använd det uppdaterade [VEC Helper-tillägget](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * Använd webbläsaren Mozilla Firefox. Firefox tillämpar inte den här principen ännu.
-* Fortsätt använda Chrome, men ange flaggan `chrome://flags/#same-site-by-default-cookies` till Inaktiverad.
+* Använd följande flaggor för att köra Google Chrome från kommandoraden till 21 september 2021. Efter den 21 september kommer webbplatsen inte längre att fungera i VEC. Om du uppdaterar till Chrome 94 måste du generera cookies med `SameSite=none` och `Secure` manuellt på dina webbplatser.
 
-   >[!NOTE]
-   >
-   >Detta *räcker inte* om cookies redan har attributet SameSite inställt på &quot;Lax&quot; eller &quot;Strict&quot; från servern.
+   ```
+   --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
+   ```
 
 ## Har [!DNL Target] stöd för iframes på flera nivåer?
 
@@ -49,7 +72,7 @@ Som en tillfällig lösning kan du lägga till en sida i upplevelsen med URL:en 
 
 ## När jag försöker redigera en sida ser jag bara en snurra istället för min sida. (VEC och EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
-Det här kan hända om URL:en innehåller tecknet #. Åtgärda problemet genom att växla till bläddringsläge i Visual Experience Composer och sedan växla tillbaka till Compose-läge. Rotationsrutan ska flyttas och sidan ska läsas in.
+Detta kan inträffa om URL:en innehåller tecknet #. Åtgärda problemet genom att växla till bläddringsläge i Visual Experience Composer och sedan växla tillbaka till Compose-läge. Rotationsrutan ska flyttas och sidan ska läsas in.
 
 ## CSP-rubriker (Content Security Policy) blockerar [!DNL Target]-biblioteken på min webbplats. (VEC och EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
@@ -86,7 +109,7 @@ Om samma DOM-element-ID används för flera element på sidan ändras alla eleme
 
 ## Jag kan inte redigera upplevelser för en iFrame-busting-sajt. (VEC och EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Problemet kan åtgärdas genom att du aktiverar Förbättrad Experience Composer. Klicka på **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** och markera sedan kryssrutan som aktiverar Förbättrad Experience Composer. Förbättrad Experience Composer använder en Adobe-hanterad proxy för att läsa in sidan för redigering. Detta gör att du kan redigera på iFrame-busting-webbplatser och redigera på webbplatser och sidor där du ännu inte har lagt till Adobe Target-kod. Aktiviteterna levererar inte till webbplatsen förrän koden har lagts till. Vissa webbplatser kanske inte läses in via Förbättrad Experience Composer. I så fall kan du avmarkera det här alternativet för att läsa in Visual Experience Composer via en iFrame. []
+Problemet kan åtgärdas genom att du aktiverar Förbättrad Experience Composer. Klicka på **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** och markera sedan kryssrutan som aktiverar Förbättrad Experience Composer. Förbättrad Experience Composer använder en Adobe-hanterad proxy för att läsa in sidan för redigering. Med den här proxyn kan du redigera på iFrame-busting-platser och redigera på webbplatser och sidor där du ännu inte har lagt till Adobe Target-kod. Aktiviteterna levererar inte till webbplatsen förrän koden har lagts till. Vissa webbplatser kanske inte läses in via Förbättrad Experience Composer. I så fall kan du avmarkera det här alternativet för att läsa in Visual Experience Composer via en iFrame.
 
 >[!NOTE]
 >
@@ -98,7 +121,7 @@ Se&quot;Jag kan inte redigera upplevelser för en iFrame-bursting-sajt&quot; ova
 
 ## Fet och kursiv text med Redigera text/HTML eller Ändra text/HTML visas inte på min sida. Ibland försvinner texten när du har använt de här formatändringarna. (VEC och EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-Om du använder **[!UICONTROL Edit Text/HTML]** i Visual Experience Composer för A/B- eller Experience Targeting-aktiviteter eller **[!UICONTROL Change Text/HTML]** för Automated Personalization- eller Multivariate Test-aktiviteter för att göra text fet eller kursiv, kanske dessa format inte används på sidan eller så försvinner texten från sidan i Visual Experience Composer. Det beror på att det sätt som RTF-redigeraren använder dessa format kan störa webbplatsens kod.
+Om du använder **[!UICONTROL Edit Text/HTML]** i Visual Experience Composer för A/B- eller Experience Targeting-aktiviteter eller **[!UICONTROL Change Text/HTML]** för Automated Personalization- eller Multivariate Test-aktiviteter för att göra text fet eller kursiv, kanske dessa format inte används på sidan eller så försvinner texten från sidan i Visual Experience Composer. Det beror på hur RTF-redigeraren använder formaten och kan påverka webbplatsens kod.
 
 Om du ser detta problem:
 
