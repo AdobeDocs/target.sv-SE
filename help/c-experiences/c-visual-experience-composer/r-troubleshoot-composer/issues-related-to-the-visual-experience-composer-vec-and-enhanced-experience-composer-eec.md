@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,13 @@ Visningsproblem och andra problem kan ibland uppstå i [!DNL Adobe Target] [!UIC
 
 Tänk på de förändringar som påverkar VEC och EEC när du använder följande Chrome-versioner:
 
+>[!NOTE]
+>
+>Följande ändring påverkar alla tre uppdateringarna som beskrivs nedan:
+>
+> * Kommer *inte* att kunna använda VEC (med eller utan VEC Helper-tillägget installerat och aktiverat) på lösenordsskyddade sidor på sina webbplatser. Dina cookies för webbplatsinloggning betraktas som en cookie från tredje part och skickas tillsammans med inloggningsbegäran. Det enda undantaget är när webbplatsens inloggningscookie redan har parametern SameSite inställd på &quot;none&quot;.
+
+
 **Chrome 94 (21 september 2021)**: Med de kommande förändringarna för Chrome 94 (21 september 2021) påverkar följande ändring alla användare med Chrome 94+-webbläsarversioner:
 
 * Kommandoradsflaggan `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` kommer att tas bort.
@@ -29,7 +36,6 @@ Tänk på de förändringar som påverkar VEC och EEC när du använder följand
 
 **Krom 80 (augusti 2020)**: Med de ändringar som implementerades i augusti 2020 har alla användare med webbläsarversionen Chrome 80+:
 
-* Kommer *inte* att kunna använda VEC (med eller utan VEC Helper-tillägget installerat och aktiverat) på lösenordsskyddade sidor på sina webbplatser. Dina cookies för webbplatsinloggning betraktas som en cookie från tredje part och skickas tillsammans med inloggningsbegäran. Det enda undantaget är när webbplatsens inloggningscookie redan har parametern SameSite inställd på &quot;none&quot;.
 * Kommer *inte* att kunna hämta [!DNL Target]-bibliotek när en aktivitet redigeras (när dessa inte redan finns på webbplatsen). Detta beror på att nedladdningsanropet görs från kundens domän mot en skyddad Adobe-domän och avvisas som oautentiserat.
 * EEC-funktionen *inte* för alla användare eftersom den inte kan ange attributet SameSite för cookies på `adobemc.com domain`. Utan det här attributet avvisar webbläsaren dessa cookies, vilket gör att EEG misslyckas.
 
