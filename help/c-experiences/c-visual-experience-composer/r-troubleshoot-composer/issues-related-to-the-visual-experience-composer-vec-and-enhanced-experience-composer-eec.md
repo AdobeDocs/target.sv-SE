@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 068cce681946382365049fdc69671cd011431201
+source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -17,28 +17,38 @@ Visningsproblem och andra problem kan ibland uppstå i [!DNL Adobe Target] [!UIC
 
 ## Hur påverkar reglerna för tillämpning av cookies i Google Chrome SameSite VEC? {#samesite}
 
-Med de kommande förändringarna för Chrome 94 (21 september 2021) påverkar följande ändring alla användare med Chrome 94+-webbläsarversioner:
+Tänk på de förändringar som påverkar VEC och EEC när du använder följande Chrome-versioner:
+
+**Chrome 94 (21 september 2021)**: Med de kommande förändringarna för Chrome 94 (21 september 2021) påverkar följande ändring alla användare med Chrome 94+-webbläsarversioner:
 
 * Kommandoradsflaggan `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` kommer att tas bort.
 
-Med de ändringar som implementerats för Chrome 91 (25 maj 2021) påverkar följande ändring alla användare med webbläsarversionen Chrome 91+:
+**Chrome 91 (25 maj 2021)**: Med de ändringar som implementerats för Chrome 91 (25 maj 2021) påverkar följande ändring alla användare med webbläsarversionen Chrome 91+:
 
 * Flaggorna `#same-site-by-default-cookies` och `#cookies-without-same-site-must-be-secure` har tagits bort från `chrome://flags`. Detta beteende är nu aktiverat som standard.
 
-Med de ändringar som implementerades i augusti 2020 har alla användare med webbläsarversionen Chrome 80+:
+**Krom 80 (augusti 2020)**: Med de ändringar som implementerades i augusti 2020 har alla användare med webbläsarversionen Chrome 80+:
 
 * Kommer *inte* att kunna använda VEC (med eller utan VEC Helper-tillägget installerat och aktiverat) på lösenordsskyddade sidor på sina webbplatser. Dina cookies för webbplatsinloggning betraktas som en cookie från tredje part och skickas tillsammans med inloggningsbegäran. Det enda undantaget är när webbplatsens inloggningscookie redan har parametern SameSite inställd på &quot;none&quot;.
 * Kommer *inte* att kunna hämta [!DNL Target]-bibliotek när en aktivitet redigeras (när dessa inte redan finns på webbplatsen). Detta beror på att nedladdningsanropet görs från kundens domän mot en skyddad Adobe-domän och avvisas som oautentiserat.
 * EEC-funktionen *inte* för alla användare eftersom den inte kan ange attributet SameSite för cookies på `adobemc.com domain`. Utan det här attributet avvisar webbläsaren dessa cookies, vilket gör att EEG misslyckas.
 
-Om du vill kontrollera vilka cookies som är blockerade på grund av samma principer för att genomdriva cookies på samma webbplats använder du utvecklingsverktygen i Chrome.
+### Kontrollera vilka cookies som är blockerade
+
+Om du vill ta reda på vilka cookies som blockeras på grund av samma principer för att genomdriva cookies på samma webbplats använder du utvecklingsverktygen i Chrome.
 
 1. Om du vill komma åt utvecklingsverktygen när du visar VEC i Chrome klickar du på ikonen **[!UICONTROL ellipsis]** längst upp till höger i Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
 1. Klicka på fliken **[!UICONTROL Network]** och sök efter blockerade cookies.
 
+   >[!NOTE]
+   >
+   >Använd kryssrutan **[!UICONTROL Has blocked cookies]** för att göra det enklare att hitta blockerade cookies.
+
    I följande bild visas en blockerad cookie:
 
    ![Utvecklarverktyg > fliken Nätverk med en blockerad cookie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
+
+### Google VEC Helper extension
 
 Adobe har skickat ett uppdaterat VEC Helper-tillägg till Google Chrome Store. Det här tillägget skriver över cookie-attributen för att ange attributet `SameSite="none"` vid behov. Det [uppdaterade tillägget finns här](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Mer information om hur du installerar och använder VEC Helper Extension finns i [Hjälptillägg för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
