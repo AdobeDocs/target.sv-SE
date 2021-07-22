@@ -1,13 +1,12 @@
 ---
 keywords: webbläsaralternativ;typ;webbläsartyp;webbläsarspråk;språk;version;webbläsarversion
-description: Lär dig hur du skapar målgrupper i Adobe [!DNL Target] för användare som använder en viss webbläsare eller specifika webbläsaralternativ när de besöker din sida.
-title: Kan jag [!DNL Target] Besökare baserat på webbläsartyp?
+description: Lär dig hur du skapar målgrupper i [!DNL Adobe Target] för användare som använder en viss webbläsare eller särskilda webbläsaralternativ när de besöker sidan.
+title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Målgrupper
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -19,42 +18,43 @@ Du kan rikta in dig på användare som använder en viss webbläsare eller särs
 Följande webbläsare kan ha följande mål:
 
 * Krom
-* Microsoft Edge
 * Firefox
-* Opera
 * Safari
-* iPad
 * Internet Explorer
+* Microsoft Edge
+* Opera
+* iPad
 * iPhone|
 
 Det finns två sätt att rikta in sig på webbläsare:
 
-**Fördefinierad målgrupp:** Använd den fördefinierade målgruppen om du bara vill rikta dig till besökare som använder en viss webbläsare för att besöka webbplatsen. Om du till exempel erbjuder ett Chrome-tillägg bör du bara rikta dig till Chrome-användare.
+* **Fördefinierad målgrupp:** Använd den fördefinierade målgruppen om du bara vill rikta dig till besökare som använder en viss webbläsare för att besöka webbplatsen. Om du till exempel erbjuder ett Chrome-tillägg bör du bara rikta dig till Chrome-användare.
 
-1. När du konfigurerar aktiviteten väljer du webbläsaren i listrutan för målgrupper.
+   1. När du konfigurerar aktiviteten väljer du webbläsaren i listrutan.
 
-   Det här alternativet riktar endast in aktiviteten på besökare som använder den angivna webbläsaren.
+      Det här alternativet riktar endast in aktiviteten på besökare som använder den angivna webbläsaren.
 
-**Anpassad målgruppsregel för webbläsare:** En anpassad målgrupp gör att du kan rikta dig till flera webbläsare eller skapa regler eller undantag för specifika webbläsare, webbläsarversioner eller webbläsarspråk. Detta ger stor flexibilitet när det gäller att rikta kampanjer baserat på webbläsarattribut.
+      ![Användare av målfärg](/help/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. Ge publiken ett namn.
-1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Browser]**.
+* **Anpassad målgruppsregel för webbläsare:** En anpassad målgrupp låter er inrikta er på flera webbläsare eller skapa regler eller undantag för specifika webbläsare, webbläsarversioner eller webbläsarspråk. Den här funktionen ger stor flexibilitet när det gäller att rikta in en aktivitet baserat på webbläsarattribut.
 
-   ![Regler > Bläddra](assets/target_browser.png)
+   1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+   1. Namnge målgruppen och lägg till en valfri beskrivning.
+   1. Dra och släpp **[!UICONTROL Browser]** i rutan för målgruppsbyggaren.
 
-1. Klicka på **[!UICONTROL Select]** och välj sedan ett av följande alternativ:
+      ![Regler > Webbläsare](assets/target_browser.png)
 
-   * **Typ:** Använd eller exkludera en viss webbläsare. Se [Typ](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Språk:** Använd eller exkludera vissa webbläsare som är inställda på vissa språk. Se [Språk](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Version:** Aktivera eller inaktivera vissa webbläsarversioner. Se [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   1. Klicka på **[!UICONTROL Select]** och välj sedan ett av följande alternativ:
 
-1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
-1. Klicka på **[!UICONTROL Save]**.
+      * **Typ:** Använd eller exkludera en viss webbläsare. Se [Typ](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+      * **Språk:** Använd eller exkludera vissa webbläsare som är inställda på vissa språk. Se [Språk](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+      * **Version:** Aktivera eller inaktivera vissa webbläsarversioner. Se [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   1. (Valfritt) Ange ytterligare regler för målgruppen.
+   1. Klicka på **[!UICONTROL Done]**.
 
-I följande exempel visas en publik som inkluderar Internet Explorer-användare i version 10 eller 11:
+   I följande exempel visas en publik som inkluderar Microsoft Edge-användare i version 91 eller 92:
 
-![Mål IE 10 och 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+   ![Målkant 91 eller 92](assets/target_edge.png)
 
 ## Webbläsaralternativ {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -113,9 +113,7 @@ Välj **[!UICONTROL Version]** och välj sedan en operator:
 * Är mindre än
 * Är mindre än eller lika med
 
-Skriv versionsnumret.
-
-Endast större versioner kan anges i textfältet. Den angivna versionen innehåller en delversion av den versionen. Om du till exempel anger version 10 inkluderas besökare i version 10.1.
+Skriv versionsnumret. Endast större versioner kan anges i textfältet. Den angivna versionen innehåller en delversion av den versionen. Om du till exempel anger version 10 inkluderas även besökare i version 10.1.
 
 Flera alternativ är kopplade till en OR.
 
