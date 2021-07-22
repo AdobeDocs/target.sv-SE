@@ -4,19 +4,18 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Målgrupper
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
 
 # Profilattribut
 
-Profilattribut är parametrar som är specifika för en besökare. Dessa attribut lagras i besökarens profil för att ge information om besökaren som kan användas i dina aktiviteter.
+Profilattribut i [!DNL Adobe Target] är parametrar som är specifika för en besökare. Dessa attribut lagras i besökarens profil för att ge information om besökaren som kan användas i dina aktiviteter.
 
-En användarprofil innehåller demografisk information och beteendeinformation om en besökare på en webbsida, t.ex. ålder, kön, köpta produkter, sista besökstillfället och så vidare, som Target använder för att anpassa innehållet som det är avsett för besökaren.
+En användarprofil innehåller demografisk information och beteendeinformation om en besökare på en webbsida. Informationen kan omfatta ålder, kön, inköpta produkter, senaste besök och så vidare, som [!DNL Target] använder för att anpassa innehållet som den levererar till besökaren.
 
 När en besökare surfar på webbplatsen, eller när besökaren återgår till en annan session, kan de sparade profilattributen i profilen användas för att rikta innehåll eller logginformation för segmentfiltrering.
 
@@ -24,42 +23,40 @@ Så här ställer du in profilattribut:
 
 1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
 
-   ![Fliken Profilskript](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+   ![Fliken Profilskript](/help/c-target/c-visitor-profile/assets/create-script.png)
 
 1. Klicka på **[!UICONTROL Create Script]**.
 
-   ![Dialogrutan Skapa profilskript](/help/c-target/c-visitor-profile/assets/create-script.png)
+   ![Dialogrutan Skapa profilskript](/help/c-target/c-visitor-profile/assets/profile-script.png)
 
    Följande typer av profilattribut är tillgängliga:
 
    | Parametertyp | Beskrivning |
    |--- |--- |
-   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Obs**: Målet har en gräns på 50 unika profilattribut per mbox-anrop. Om du behöver skicka mer än 50 profilattribut till Target kan du skicka dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i Adobe Target API-dokumentationen](http://developers.adobetarget.com/api/#updating-profiles). |
-   | Profil | Definieras direkt med ett JavaScript-kodfragment. Dessa kan lagra summor som förbrukas av konsumenten och körs på varje mbox-begäran. Se Profilskriptattribut nedan. |
+   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Obs**:  [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka fler än 50 profilattribut till [!DNL Target] skickar du dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i [!DNL Adobe Target] API-dokumentationen](http://developers.adobetarget.com/api/#updating-profiles). |
+   | Profil | Definieras direkt med ett JavaScript-kodfragment. De här fragmenten kan lagra summor som går åt som summor som förbrukas av konsumenten och körs på varje mbox-begäran. Se Profilskriptattribut nedan. |
 
 ## Profilskriptattribut {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
 Definiera ett profilskriptattribut med tillhörande JavaScript-kodfragment.
 
-Du kan använda profilskript för att hämta besökarattribut vid flera besök. Profilskript är kodfragment som definieras i Target med en form av JavaScript på serversidan. Du kan till exempel använda ett profilskript för att ta reda på hur ofta en besökare besöker webbplatsen och när de senast besöktes.
+Du kan använda profilskript för att hämta besökarattribut vid flera besök. Profilskript är kodfragment som definieras i [!DNL Target] med hjälp av en form av JavaScript på serversidan. Du kan till exempel använda ett profilskript för att ta reda på hur ofta en besökare besöker webbplatsen och när besökaren senast besökte den.
 
-Profilskript är inte desamma som profilparametrar. Profilparametrar samlar in information om besökare som använder mbox-kodimplementeringen för Target.
+Profilskript är inte desamma som profilparametrar. Profilparametrar samlar in information om besökare som använder mbox-kodimplementeringen av [!DNL Target].
 
 ## Skapa profilskript {#section_CB02F8B97CAF407DA84F7591A7504810}
 
 Profilskript finns på fliken [!UICONTROL Audiences] i gränssnittet [!DNL Target].
 
-Om du vill lägga till ett nytt profilskript klickar du på fliken **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]** och skriver sedan skriptet.
+Om du vill lägga till ett profilskript klickar du på fliken **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]** och skriver sedan skriptet.
 
 eller
 
-Om du vill kopiera ett befintligt profilskript håller du pekaren över det önskade skriptet i listan [!UICONTROL Profile Scripts] och klickar sedan på ikonen **[!UICONTROL Copy]**: ![kopiera, ikon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+Om du vill kopiera ett befintligt profilskript går du till listan [!UICONTROL Profile Scripts], klickar på ellipsikonen för det önskade skriptet och klickar sedan på **[!UICONTROL Duplicate]**.
 
 Sedan kan ni redigera målgruppen för att skapa en liknande målgrupp.
 
-![Dialogrutan Skapa profilskript](assets/profile-script.png)
-
-Profilskript kör profilattributet &quot;catchers&quot; på varje platsbegäran. När en platsbegäran tas emot avgör Target vilken aktivitet som ska köras och visar innehåll som är lämpligt för den aktiviteten och den upplevelsen, spårar aktivitetens framgång och kör relevanta profilskript. På så sätt kan du spåra information om besöket, t.ex. besökarens plats, tid på dagen, antal gånger besökaren har besökt webbplatsen, om han eller hon har köpt tidigare och så vidare. Den här informationen läggs sedan till i besökarprofilen så att du bättre kan spåra besökarens aktivitet på webbplatsen.
+Profilskript kör profilattributet &quot;catchers&quot; på varje platsbegäran. När en platsbegäran tas emot avgör [!DNL Target] vilken aktivitet som ska köras och visar innehåll som är lämpligt för den aktiviteten och den upplevelsen. [!DNL Target] spårar även aktivitetens framgångar och kör relevanta profilskript. Med den här processen kan du spåra information om besöket, som besökarens plats, tid på dagen, antal gånger besökaren har besökt webbplatsen, om han eller hon har köpt tidigare och så vidare. Den här informationen läggs sedan till i besökarprofilen så att du bättre kan spåra besökarens aktivitet på webbplatsen.
 
 Profilskriptattributen har taggen `user.` infogad före attributnamnet. Exempel:
 
@@ -73,11 +70,11 @@ if (mbox.name == 'Track_Interest') {
 
 Tänk på följande:
 
-* Se profilskriptattributen (inklusive sig själv) i koden med `user.get('parameterName')`
-* Spara variabler som kan nås nästa gång skriptet körs (i nästa mbox-begäran) med `user.setLocal('variable_name', 'value')`. Referera variabeln med `user.getLocal('variable_name')`. Detta är användbart i situationer där du vill referera till datumet och tiden för den senaste begäran.
+* Se profilskriptattributen (inklusive sig själv) i koden med `user.get('parameterName')`.
+* Spara variabler som kan nås nästa gång skriptet körs (i nästa mbox-begäran) med `user.setLocal('variable_name', 'value')`. Referera variabeln med `user.getLocal('variable_name')`. Den här processen är användbar i situationer där du vill referera till datumet och tiden för den senaste begäran.
 * Parametrar och värden är skiftlägeskänsliga. Matcha skiftläget för de parametrar och värden som du får under aktiviteten eller testet.
 * Mer JavaScript-syntax finns i avsnittet&quot;JavaScript-referens för skriptprofilparametrar&quot; nedan.
-* Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificeras för den aktiviteten.
+* Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.
 * Profilskript kan inte tas bort medan de används i en aktivitet.
 * Du bör inte skapa beroende profilskript som använder resultatet av ett profilskript i ett annat profilskript. Körningsordningen för profilskript är inte garanterad.
 
@@ -85,21 +82,21 @@ Tänk på följande:
 
 Du kan visa profilskriptinformationskort på ungefär samma sätt som informationskort. Dessa profilskriptinformationskort gör att du kan visa en lista över aktiviteter som refererar till det valda profilskriptet, tillsammans med andra användbara metadata.
 
-Följande profilskriptinformationskort nås till exempel genom att du hovrar över ett profilskript i profilskriptlistan (Publiker > Profilskript) och sedan klickar på ikonen Info.
+Följande profilskriptinformationskort nås till exempel genom att du klickar på ikonen [!UICONTROL Info] för det önskade profilskriptet i listan ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
 
-Fliken [!UICONTROL Script Info] innehåller följande information: Namn, status, tokentyp, skript-ID, ändringslogg och beskrivning.
+Fliken [!UICONTROL Script Info] innehåller följande information: Namn, beskrivning och skriptkod.
 
 ![Profilskriptinformationskort](assets/profile_script_info_card.png)
 
-På fliken [!UICONTROL Script Usage] visas de aktiviteter (och deras arbetsytor) som refererar till det valda profilskriptet.
+Klicka på **[!UICONTROL View full details]** för att se målgrupperna och aktiviteterna som refererar till det valda profilskriptet.
 
 ![Profilskriptinformationskort > fliken Skriptanvändning](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->Fliken Skriptanvändning visar inte aktiviteter som refererar till det valda profilskriptet i följande situationer:
+>Fliken [!UICONTROL Script Usage] visar inte aktiviteter som refererar till det valda profilskriptet i följande situationer:
 >
-> * Aktiviteten är i utkastläge.
+> * Aktiviteten är i tillståndet [!UICONTROL Draft].
 > * Innehållet eller erbjudandet som används i aktiviteten använder skriptvariabler (antingen ett infogat erbjudande inom aktiviteten eller ett erbjudande inom erbjudandebiblioteket).
 
 
@@ -118,8 +115,8 @@ Vid hovring visas information om felet, enligt bilden nedan:
 Vanliga orsaker till att systemet inaktiverar profilskript är:
 
 * En odefinierad variabel som refereras.
-* Ett ogiltigt värde refereras. Detta beror ofta på att URL-värden refereras och andra användarindata inte validerats korrekt.
-* För många JavaScript-instruktioner används. Målet har en gräns på 2 000 JavaScript-instruktioner per skript, men detta kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Det innebär att alla anrop till en funktion kräver 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
+* Ett ogiltigt värde refereras. Det här felet orsakas ofta av att URL-värden refereras och andra användarindata inte verifieras korrekt.
+* För många JavaScript-instruktioner används. [!DNL Target] har en gräns på 2 000 JavaScript-instruktioner per skript, men den här gränsen kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Alla anrop till en funktion kräver 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
 * Följande objekt är inte markerade i [metodtips](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)-avsnittet nedan.
 
 ## God praxis {#best}
@@ -131,23 +128,23 @@ Följande riktlinjer är avsedda att hjälpa dig att skriva förenklade profilsk
 * Använd strängbaserade redigeringsfunktioner jämfört med reguljära uttryck.
 * Använd begränsat för slingor kontra öppna slut för eller while-slingor.
 * Högst 1 300 tecken eller 50 upprepningar av slingor.
-* Använd inte fler än 2 000 JavaScript-instruktioner. Målet har en gräns på 2 000 JavaScript-instruktioner per skript, men detta kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
-* Tänk inte bara på skriptprestanda, utan även på den kombinerade prestandan för alla skript. Vi rekommenderar sammanlagt färre än 5 000 instruktioner. Att räkna antalet instruktioner är inte uppenbart, men det viktiga att notera är att skript som överskrider 2 000 instruktioner automatiskt inaktiveras. Antalet aktiva profilskript får inte överstiga 300. Varje skript körs med varje enskilt mbox-anrop. Kör bara så många skript som behövs.
-* I ett regex med en punktstjärna i början (t.ex.: `/.*match/`, `/a|.*b/`) behövs nästan aldrig. Regex-sökningen startar från alla positioner i en sträng (om den inte är bunden till `^`), så punktstjärnan antas redan. Skriptkörningen kan avbrytas om en sådan regex matchas med tillräckligt många indata (vilket kan vara så lågt som flera hundra tecken).
+* Använd inte fler än 2 000 JavaScript-instruktioner. [!DNL Target] har en gräns på 2 000 JavaScript-instruktioner per skript, men den här gränsen kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
+* Tänk inte bara på skriptprestanda, utan även på den kombinerade prestandan för alla skript. Som god praxis rekommenderar [!DNL Adobe] färre än 5 000 instruktioner totalt. Att räkna antalet instruktioner är inte uppenbart, men det viktiga att notera är att skript som överskrider 2 000 instruktioner automatiskt inaktiveras. Antalet aktiva profilskript får inte överstiga 300. Varje skript körs med varje enskilt mbox-anrop. Kör bara så många skript som behövs.
+* I ett regex, med en punktstjärna i början (till exempel: `/.*match/`, `/a|.*b/`) behövs nästan aldrig. Regex-sökningen startar från alla positioner i en sträng (om den inte är bunden till `^`), så punktstjärnan antas redan. Skriptkörningen kan avbrytas om en sådan regex matchas med tillräckligt många indata (vilket kan vara så lågt som flera hundra tecken).
 * Om allt misslyckas omsluter du skriptet i en try/catch.
 * Följande rekommendationer kan hjälpa dig att begränsa komplexiteten i profilskript. Profilskript kan köra ett begränsat antal instruktioner.
 
    Bästa praxis:
 
    * Håll profilskripten så små och enkla som möjligt.
-   * Undvik reguljära uttryck eller använd endast mycket enkla reguljära uttryck. Även enkla uttryck kan ta många instruktioner att utvärdera.
+   * Undvik reguljära uttryck eller använd endast enkla reguljära uttryck. Även enkla uttryck kan ta många instruktioner att utvärdera.
    * Undvik rekursion.
-   * Profilskript bör prestandatestas innan de läggs till i Target. Alla profilskript körs på varje mbox-begäran. Om profilskript inte körs korrekt tar det längre tid att köra mbox-begäranden. Detta kan påverka trafik och konvertering.
+   * Profilskript bör prestandatestas innan de läggs till i [!DNL Target]. Alla profilskript körs på varje mbox-begäran. Om profilskript inte körs korrekt tar det längre tid att köra mbox-begäranden, vilket kan påverka trafik och konvertering.
    * Om profilskript blir för komplexa bör du överväga att använda [svarstoken](/help/administrating-target/response-tokens.md) i stället.
 
 * Mer information finns i dokumentationen för JS Rhino-motorn: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
-## Felsök profilskript {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
+## Felsöka profilskript {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
 Följande metoder kan användas för att felsöka profilskript:
 
@@ -155,21 +152,21 @@ Följande metoder kan användas för att felsöka profilskript:
 >
 >Om du använder [!DNL console.log] i ett profilskript genereras inte profilvärdet eftersom profilskript körs på serversidan.
 
-* **Lägg till profilskript som svarstoken till felsökningsprofilskript:**
+* **Lägg till profilskript som svarstoken för att felsöka profilskript:**
 
-   Klicka på **[!UICONTROL Administration]** i Mål, klicka på **[!UICONTROL Response Tokens]** och aktivera sedan det profilskript som du vill felsöka.
+   I [!DNL Target] klickar du på **[!UICONTROL Administration]**, klickar på **[!UICONTROL Response Tokens]** och aktiverar sedan det profilskript som du vill felsöka.
 
-   När du läser in en sida för webbplatsen med Target på den kommer en del av svaret från Target att innehålla ditt värde för det angivna profilskriptet, vilket visas nedan:
+   Varje gång du läser in en sida för webbplatsen med [!DNL Target] på den innehåller en del av svaret från [!DNL Target] ditt värde för det angivna profilskriptet, vilket visas nedan:
 
    ![](assets/debug_profile_script_1.png)
 
-* **Använd mboxTrace Debugging Tool för att felsöka profilskript.**
+* **Använd felsökningsverktyget mboxTrace för att felsöka profilskript.**
 
    Den här metoden kräver en auktoriseringstoken som du kan generera genom att klicka på **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** i [!UICONTROL Debugger tools]-avsnittet.
 
    Sedan lägger du till de här två parametrarna i sidans URL efter &quot;?&quot;: `mboxTrace=window&authorization=YOURTOKEN`.
 
-   Detta är lite mer informativt än svarstoken eftersom du får en ögonblicksbild som tagits före körningen och en ögonblicksbild av din profil. Här visas även alla tillgängliga profiler.
+   Det är lite mer informativt att lägga till de här parametrarna än svarstoken eftersom du får en ögonblicksbild och en ögonblicksbild av din profil som tagits i förväg. Här visas även alla tillgängliga profiler.
 
    ![](assets/debug_profile_script_2.png)
 
@@ -177,7 +174,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
 **Går det att använda profilskript för att hämta information från en sida som finns i ett datalager?**
 
-Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas in via en mbox-begäran eller via andra [metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). När data finns i Target kan profilskript läsa data som en mbox-parameter eller profile-parameter.
+Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas in via en mbox-begäran eller via andra [metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). När data finns i [!DNL Target] kan profilskript läsa data som en mbox-parameter eller profile-parameter.
 
 ## JavaScript-referens för skriptprofilparametrar
 
@@ -201,7 +198,7 @@ if (lastPurchaseTime) {
 }
 ```
 
-Skapar en variabel för dag mätt i millisekunder. Om mbox-namnet är `orderThankyouPage` anger du att ett lokalt (osynligt) användarprofilattribut med namnet `lastPurchaseTime` ska ha värdet för aktuellt datum och tid. Värdet för den senaste inköpstiden läses, och om den är definierad returnerar vi den tid som har gått sedan den senaste inköpstiden, dividerad med antalet millisekunder i en dag (vilket ger antalet dagar sedan det senaste köpet).
+Skapar en variabel för dag mätt i millisekunder. Om mbox-namnet är `orderThankyouPage` anger du ett lokalt (osynligt) användarprofilattribut med namnet `lastPurchaseTime` som visar värdet för aktuellt datum och tid. Värdet för den senaste inköpstiden läses, och om den är definierad returnerar [!DNL Target] den tid som har gått sedan den senaste inköpstiden, dividerad med antalet millisekunder i en dag (vilket ger antalet dagar sedan det senaste köpet).
 
 **Namn:** *user.frequency*
 
@@ -263,7 +260,7 @@ Följande egenskaper och metoder kan refereras av parametrar för skriptprofiler
 ### Vanliga operatorer
 
 
-Alla vanliga JavaScript-operatorer finns och kan användas. JavaScript-operatorer kan användas på strängar och tal (samt andra datatyper). En kort genomgång:
+Alla vanliga JavaScript-operatorer finns och kan användas. JavaScript-operatorer kan användas på strängar och tal (och andra datatyper). En kort genomgång:
 
 | Operator | Beskrivning |
 | --- | --- |
