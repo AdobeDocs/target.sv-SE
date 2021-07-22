@@ -1,24 +1,23 @@
 ---
 keywords: Målnätverk;målnätverk;målnätverk;isp;domännamn;anslutningshastighet;måldomän;måldomän;målanslutningshastighet
-description: Lär dig hur du skapar målgrupper i Adobe [!DNL Target] baserat på nätverksinformation som Internet-leverantör, domännamn och anslutningshastighet.
-title: Kan jag [!DNL Target] Besökare baserat på nätverksalternativ?
+description: Lär dig hur du skapar målgrupper i [!DNL Adobe Target] baserat på nätverksinformation.
+title: Kan jag rikta in besökarna baserat på nätverksalternativ?
 feature: Målgrupper
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '510'
 ht-degree: 2%
 
 ---
 
 # Nätverk
 
-Du kan skapa målgrupper baserat på nätverksinformation.
+Du kan skapa målgrupper i [!DNL Adobe Target] baserat på nätverksinformation som Internet-leverantör, domännamn och anslutningshastighet.
 
 1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. Ge publiken ett namn.
-1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Network]**.
+1. Namnge målgruppen och lägg till en valfri beskrivning.
+1. Dra och släpp **[!UICONTROL Network]** i rutan för målgruppsbyggaren.
 1. Klicka på **[!UICONTROL Select]** och välj sedan ett av följande alternativ:
 
    * **Internet-leverantör:** En internetleverantör är en organisation som ger sina prenumeranter tillgång till internet, vanligen med en månads- eller årsavgift. Många internetleverantörer erbjuder ytterligare tjänster, som webbhotell eller e-post. Fältet Internet-leverantör är antingen en kommersiell Internet-leverantör (till exempel Comcast eller TimeWarner) eller en annan enhet som ett företag eller en utbildningsinstitution.
@@ -47,13 +46,13 @@ Du kan skapa målgrupper baserat på nätverksinformation.
 
       Du kan testa ISP- och domännamnsvärdena. [https://www.whoismyisp.](https://www.whoismyisp.org) orgis a good resource for targeting purposes. Du kan använda de exempeladresser som anges i tabellen ovan eller ange egna. Använd sedan parametern `mboxOverride.browserIp= URL` för att efterlikna den IP-adressen.
 
-   * **Domännamn:** Detta är domännamnet för besökarens IP-adress. Det här är inte domännamnet för den webbplats du använder med [!DNL Target]. Det här domännamnet är relaterat till besökarens IP-adress och kallas ibland för ett värdnamn. Det liknar vanligtvis Internet-leverantörens namn. Ibland refererar värdnamnet till äldre namn på företag som har ändrat namn på sin Internet-leverantör men inte domännamnet.
-   * **Anslutningshastighet:** Detta är hastigheten på besökarens internetanslutning. Alternativen är: bredband, kabel, dialup, mobile, oc3, oc12, satellit, t1, t2, trådlöst och xdsl.
+   * **Domännamn:** Det här namnet är domännamnet för besökarens IP-adress. Det här namnet är inte domännamnet för den webbplats du använder med [!DNL Target]. Det här domännamnet är relaterat till besökarens IP-adress och kallas ibland för ett värdnamn. Det liknar Internet-leverantörens namn. Ibland refererar värdnamnet till äldre namn på företag som har ändrat namn på sin Internet-leverantör men inte domännamnet.
+   * **Anslutningshastighet:** Den här hastigheten är hastigheten för besökarens internetanslutning. Alternativen är: bredband, kabel, dialup, mobile, oc3, oc12, satellit, t1, t2, trådlöst och xdsl.
 
       Det här fältet baseras på anslutningstypen och inte på själva hastigheten. [!DNL Target] kan inte fastställa den exakta anslutningshastigheten för anslutningar. Bredbandsanslutningstypen används när det inte finns några indikationer på andra anslutningstyper, så det går inte att välja en viss typ.
 
-1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
-1. Klicka på **[!UICONTROL Save]**.
+1. (Valfritt) Ange ytterligare regler för målgruppen.
+1. Klicka på **[!UICONTROL Done]**.
 
 Följande bild visar en målgrupp som riktar sig till besökare som använder AT&amp;T med en anslutningshastighet på [!UICONTROL Mobile].
 
