@@ -4,17 +4,16 @@ description: Lär dig hur du använder profilattribut för att ställa in tester
 title: Kan jag använda profilskript för att testa aktiviteter som utesluter varandra?
 feature: Målgrupper
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
 
 # Använd profilskript för att testa aktiviteter som utesluter varandra
 
-Du kan använda profilattribut för att konfigurera tester som jämför två eller flera aktiviteter, men inte låter samma besökare delta i varje aktivitet.
+Du kan använda profilattribut i [!DNL Adobe Target] för att ställa in tester som jämför två eller flera aktiviteter, men inte låter samma besökare delta i varje aktivitet.
 
 Genom att testa aktiviteter som utesluter varandra förhindrar du att en besökare i en aktivitet påverkar testresultaten för de andra aktiviteterna. När en besökare deltar i flera aktiviteter kan det vara svårt att avgöra om en positiv eller negativ ökning beror på besökarens erfarenhet av en aktivitet eller om interaktionen mellan flera aktiviteter påverkade resultatet av en eller flera aktiviteter.
 
