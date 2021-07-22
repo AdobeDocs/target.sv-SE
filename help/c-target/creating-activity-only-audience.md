@@ -1,52 +1,47 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;skapa målgrupp;endast aktivitet;endast aktivitet;adhoc
-description: Lär dig hur du skapar målgrupper som bara är aktiva i Adobe [!DNL Target] som är avsedda att användas en gång i den aktuella aktiviteten och som inte lagras i publikbiblioteket.
+description: Lär dig hur du skapar målgrupper som bara är aktiva i Adobe [!DNL Target] som är avsedda för engångsbruk.
 title: Kan jag skapa en publik som bara kan användas en gång?
 feature: Målgrupper
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Skapa en målgrupp som bara är aktiv
 
-Skapa målgrupper som bara är aktiva i det guidade arbetsflödet i tre steg när du skapar en aktivitet. Dessa ad hoc-målgrupper kan användas på andra platser inom samma aktivitet, men lagras inte i [!UICONTROL Audiences Library] för användning i andra aktiviteter.
+Skapa målgrupper som bara är aktiva inifrån det guidade arbetsflödet i [!DNL Adobe Target] tre steg när du skapar en aktivitet. Dessa ad hoc-målgrupper kan användas på andra platser inom samma aktivitet, men lagras inte i [!UICONTROL Audiences Library] för användning i andra aktiviteter.
 
 Målgrupper som bara är aktiva har följande fördelar:
 
-* Du kan använda målgrupper som bara innehåller aktivitet för att skapa en målgrupp som du bara vill använda en gång och du inte vill lagra den i [!UICONTROL Audiences Library]. Detta förhindrar att [!UICONTROL Audiences Library] blir rörig med målgrupper som du aldrig vill använda igen.
-* Målgrupper som bara är aktiva är inte synliga i [!UICONTROL Audiences Library]. På grund av detta skyddas de från oönskade ändringar av andra i organisationen.
+* Du kan använda målgrupper som bara innehåller aktivitet för att skapa en målgrupp som du bara vill använda en gång och du inte vill lagra den i [!UICONTROL Audiences Library]. Målgrupper som bara är aktiva förhindrar att [!UICONTROL Audiences Library] blir röriga med målgrupper som du aldrig vill använda igen.
+* Målgrupper som bara är aktiva är inte synliga i [!UICONTROL Audiences Library]. Eftersom dessa målgrupper inte syns i biblioteket skyddas de från oönskade ändringar av andra i organisationen.
 
-1. När du skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) på **[!UICONTROL Target]**-sidan klickar du på de tre lodräta ellipserna och sedan på **[!UICONTROL Replace Audience]**.
+1. När du skapar en [aktivitet](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) på **[!UICONTROL Targeting]**-sidan klickar du på de tre lodräta ellipserna och sedan på **[!UICONTROL Replace Audience]**.
 
    ![Stegresultat](assets/edit_audience.png)
 
-1. Klicka på **[!UICONTROL Activity Only Audience]** på sidan [!UICONTROL Choose Audience].
+1. Klicka på **[!UICONTROL Create Audience]**.
+
+1. Klicka på **[!UICONTROL This activity only]**.
 
    ![](assets/activity-only-aud.png)
 
-1. Klicka på **[!UICONTROL Create Audience]**.
 1. Skriv ett beskrivande målgruppsnamn.
-1. Klicka på **[!UICONTROL + Add Rule]**.
+1. Dra och släpp önskade attribut i målgruppsverktyget.
 
-   Reglerna gör det möjligt att begränsa er målgrupp till en delmängd av era webbplatsbesökare.
+   Reglerna gör det möjligt att begränsa er målgrupp till en delmängd av era webbplatsbesökare. Varje regeltyp har sina egna parametrar. Mer information om hur du konfigurerar varje typ av målgruppsregel finns i [Kategorier för målgrupper](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D).
 
-1. Välj en regeltyp.
-
-   Varje regeltyp har sina egna parametrar. Mer information om hur du konfigurerar varje typ av målgruppsregel finns i [Kategorier för målgrupper](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D).
-
-1. Definiera regelparametrarna.
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Done]**.
 
 ## Överväganden
 
 Tänk på följande när du arbetar med målgrupper som bara är aktiva:
 
-* Du kan skapa målgrupper som bara är aktiva i Visual Experience Composer (VEC) eller i den formulärbaserade Experience Composer. Den här funktionen ersätter förfiningsreglerna i tidigare versioner av Target.
+* Du kan skapa målgrupper som bara är aktiva i [!UICONTROL Visual Experience Composer] (VEC) eller i [!UICONTROL Form-Based Experience Composer]. Den här funktionen ersätter förfiningsreglerna i tidigare versioner av [!DNL Target].
 * Du kan skapa en aktivitet som ska lagras i [!UICONTROL Audience Library] för återanvändning i andra aktiviteter eller så kan du skapa en målgrupp som bara innehåller aktiviteter. När du har sparat målgruppen kan du inte ändra målgruppstypen.
 * Förfiningar av befintliga aktiviteter migreras till målgrupper som bara är aktiva.
 * Målgrupper som bara är aktiva har statusen [!UICONTROL Used] eller [!UICONTROL Unused]. Oanvända målgrupper med endast aktivitet visas tills aktiviteten sparas. Om aktiviteten inte används och du försöker spara den visas ett varningsmeddelande som talar om att oanvända målgrupper endast för aktiviteter kommer att tas bort.
