@@ -1,13 +1,12 @@
 ---
 keywords: kundrelationshantering;kundposttjänst;crm;mbox3rdpartyid;kundattribut;målinriktning;csv;crm;adobe experience cloud cloud personer
-description: Lär dig hur du använder företagsdata från en CRM-databas (customer relationship management) för att målinrikta innehåll i Adobe Target.
+description: Lär dig hur du använder företagsdata från en CRM-databas (customer relationship management) för innehåll som är riktat i [!DNL Adobe Target].
 title: Vad är kundattribut och hur använder jag dem?
 feature: Målgrupper
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---
@@ -34,11 +33,11 @@ Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
    >
    >[!DNL at.js] (valfri version) eller  [!DNL mbox.js] version 58 eller senare krävs.
 
-* [!DNL Adobe] garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till  [!DNL Experience Cloud] och därför vara tillgängliga för användning i  [!DNL Target]. I vår nuvarande design finns det en möjlighet att en liten andel data (upp till 0,1 % av stora tillverkningssatser) inte tas med.
+* [!DNL Adobe] garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till  [!DNL Experience Cloud] och därför vara tillgängliga för användning i  [!DNL Target]. I den aktuella designen finns det en möjlighet att en liten andel data (upp till 0,1 % av stora tillverkningssatser) inte tas med.
 * Livslängden för kundattributdata som importeras från [!DNL Experience Cloud] till [!DNL Target] beror på besökarprofilens livstid, som är 14 dagar som standard. Mer information finns i [Livstid för besökarprofil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* Om `vst.*`-parametrarna är det enda som identifierar besökaren kommer den befintliga autentiserade profilen inte att hämtas så länge `authState` är OAUTENTISERAD (0). Profilen spelas endast upp om `authState` ändras till AUTENTISERAD (1).
+* Om `vst.*`-parametrarna är det enda som identifierar besökaren kommer den befintliga autentiserade profilen inte att hämtas så länge som `authState` är OAUTENTISERAD (0). Profilen spelas endast upp om `authState` ändras till AUTENTISERAD (1).
 
-   Om parametern `vst.myDataSource.id` till exempel används för att identifiera besökaren (där `myDataSource` är datakällalias) och det inte finns något MCID- eller tredjeparts-ID, hämtar inte parametern `vst.myDataSource.authState=0` profilen som kan ha skapats med en import av kundattribut när den används. Om det önskade beteendet är att hämta den autentiserade profilen, måste `vst.myDataSource.authState` ha värdet 1 (AUENTICATED).
+   Om parametern `vst.myDataSource.id` till exempel används för att identifiera besökaren (där `myDataSource` är datakällalias) och det inte finns något MCID- eller tredjeparts-ID hämtar inte parametern `vst.myDataSource.authState=0` profilen som kan ha skapats med en import av kundattribut. Om det önskade beteendet är att hämta den autentiserade profilen, måste `vst.myDataSource.authState` ha värdet 1 (AUENTICATED).
 
 * Du kan inte skicka följande tecken i `mbox3rdPartyID`: plustecken (+) och snedstreck (/).
 
@@ -80,12 +79,12 @@ Detaljerade instruktioner för hur du utför följande åtgärder finns i [Skapa
    >
    >Datakällans namn och attributnamnet får inte innehålla en punkt.
 
-   Datafilen måste uppfylla kraven för filöverföring och får inte överstiga 100 MB. Om filen är för stor eller om du har data som behöver överföras regelbundet kan du FTP-överföra filerna i stället.
+   Datafilen måste uppfylla kraven för filöverföring och får inte överstiga 100 MB. Om filen är för stor, eller om du har data som måste överföras regelbundet, kan du FTP-överföra filerna i stället.
 
    * **HTTPS:** Du kan dra och släppa CSV-datafilen eller klicka för  **[!UICONTROL Browse]** att överföra den från filsystemet.
    * **FTP:** Klicka på FTP-länken för att  [överföra filen via FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Det första steget är att ange ett lösenord för FTP-servern som tillhandahålls av Adobe. Ange lösenordet och klicka sedan på **[!UICONTROL Done]**.
 
-   Överför nu CSV-/ZIP-/GZIP-filen till FTP-servern. När filöverföringen är klar skapar du en ny fil med samma namn och filnamnstillägget .fin. Överför den här tomma filen till servern. Detta anger att överföringen har avslutats och att [!DNL Experience Cloud] börjar bearbeta datafilen.
+   Överför nu CSV-/ZIP-/GZIP-filen till FTP-servern. När den här filöverföringen har slutförts skapar du en fil med samma namn och ett `.fin`-tillägg. Överför den här tomma filen till servern. Detta anger att överföringen har avslutats och att [!DNL Experience Cloud] börjar bearbeta datafilen.
 
 1. Validera schemat.
 
@@ -141,14 +140,14 @@ Skicka `mbox3rdPartyId` som en parameter till den globala mbox inuti metoden `ta
 
 ### Använda Experience Cloud ID-tjänsten
 
-Om du använder tjänsten Experience Cloud ID måste du ange ett kundID och autentiseringstillstånd för att använda kundattribut vid målanpassning. Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) i *Experience Cloud ID Service Help*.
+Om du använder Experience Cloud ID-tjänsten måste du ange ett kund-ID och autentiseringstillstånd så att kundattribut används vid målanpassning. Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) i *Experience Cloud ID Service Help*.
 
 Mer information om hur du använder kundattribut i [!DNL Target] finns i följande resurser:
 
 * [Skapa en källa för kundattribut och ladda upp datafilen ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) i dokumentationen för  *Experience Cloud-tjänster och -administration*
 * [Kundattribut: Ju mer du vet, desto bättre ](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) anslutning till bloggen  *Digital Marketing*
 
-## Problem som kunder {#section_BE0F70E563F64294B17087DE2BC1E74C} ofta stöter på
+## Problem som kunderna ofta stöter på {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
 Följande problem kan uppstå när du arbetar med kundattribut och [!DNL Target].
 
