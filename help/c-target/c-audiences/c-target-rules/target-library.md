@@ -1,39 +1,38 @@
 ---
 keywords: Målinriktning;målbibliotek;bibliotek
-description: Läs om målgruppsanpassning för besökare med färdiga, gamla målgrupper. Det bästa sättet är att använda de nyare målgruppskategorierna för bättre prestanda.
-title: Kan jag [!DNL Target] Besökare baseras på fördefinierade målregler?
+description: Läs om målgruppsanpassning för besökare med färdiga, gamla målgrupper.
+title: Kan jag inrikta mig på besökare baserat på färdiga målgruppsregler?
 feature: Målgrupper
 exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 0%
 
 ---
 
 # Målbibliotek
 
-Rikta användarna baserat på färdiga målinriktningsregler.
+Använd [!DNL Adobe Target] för att rikta in användare baserat på färdiga målinriktningsregler.
 
-De färdiga målgrupperna i kategorin Målbibliotek är äldre målgrupper och finns i andra kategorier. Mer information och bästa praxis finns i [Målgrupper och målgrupper Vanliga frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+De fördefinierade målgrupperna i kategorin [!UICONTROL Target Library] är äldre målgrupper och finns i andra kategorier. Mer information och bästa praxis finns i [Målgrupper och målgrupper, vanliga frågor och svar](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. Ge publiken ett namn.
-1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Target Library]**.
+1. Namnge målgruppen och lägg till en valfri beskrivning.
+1. Dra och släpp **[!UICONTROL Target Library]** i rutan för målgruppsbyggaren.
 
    ![Målbibliotek](assets/target_library.png)
 
 1. Klicka på **[!UICONTROL Select]** och välj sedan en färdig målinriktningsregel.
 
-   De färdiga reglerna för målinriktning är bland annat Windows-operativsystem, surfplatteenhet, Safari-webbläsare, återkommande besökare, refererade från Google och mycket annat.
+   De färdiga målinriktningsreglerna är bland annat [!UICONTROL Windows Operating System], [!UICONTROL Tablet Device], [!UICONTROL Safari Browser], [!UICONTROL Returning Visitors], [!UICONTROL Referred from Google].
 
-   Den fördefinierade målgruppen &quot;Tablet Device&quot; kvalificerar sig redan när användaragenten innehåller någon av följande strängar (varav vissa är modellnummer för enheter). Du behöver inte skapa anpassade målinriktningsregler för dessa enheter.
+   Den fördefinierade målgruppen [!UICONTROL Tablet Device] kvalificerar sig redan när användaragenten innehåller en av följande strängar (varav vissa är modellnummer för enheter). Du behöver inte skapa anpassade målinriktningsregler för dessa enheter.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNT TV250 och Tablet PC.
 
-1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
-1. Klicka på **[!UICONTROL Save]**.
+1. (Valfritt) Ange ytterligare regler för målgruppen.
+1. Klicka på **[!UICONTROL Done]**.
 
 ## Utbildningsvideo: Skapa målgrupper
 
