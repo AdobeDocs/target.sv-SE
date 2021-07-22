@@ -1,24 +1,23 @@
 ---
 keywords: webbplatssidor;målwebbplatssidor;målsida;aktuell sida;målsida;föregående sida;målsida;startsida;målstartsida;målstartsida;http-rubrik
-description: Lär dig att rikta in dig mot besökare som använder Adobe [!DNL Target] och som finns på en viss sida på din webbplats.
-title: Kan jag [!DNL Target] Besök baserat på webbplatssidor?
+description: Lär dig att rikta in dig på besökare med  [!DNL Adobe Target] som finns på en viss sida på din webbplats.
+title: Kan jag rikta in besökare baserat på webbplatssidor?
 feature: Målgrupper
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # Webbplatssidor
 
-Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
+Du kan rikta in dig på besökare som använder [!DNL Adobe Target] som har åtkomst till en viss sida på webbplatsen.
 
 1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. Ge publiken ett namn.
-1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Site Pages]**.
+1. Namnge målgruppen och lägg till en valfri beskrivning.
+1. Dra och släpp **[!UICONTROL Site Pages]** i rutan för målgruppsbyggaren.
 
    ![Målgrupper på webbplatssidor](assets/target_site_pages.png)
 
@@ -26,80 +25,80 @@ Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
 
    Vilka alternativ och utvärderare som är tillgängliga i de efterföljande listrutorna i regeln varierar beroende på vilket alternativ du väljer. Följande bild visar de tillgängliga alternativen om du väljer [!UICONTROL Current Page]:
 
-   ![Aktuell sida](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
+   ![Aktuell sida](assets/current-page.png)
 
    Följande alternativ är tillgängliga i den inledande listrutan när du väljer [!UICONTROL Select].
 
-   * **Aktuell sida:** Den sida som användaren är på just nu.
+   * **[!UICONTROL Current Page]:** Den sida som användaren visar.
 
       Följande alternativ är tillgängliga i den andra listrutan om du väljer det här alternativet:
 
-      * URL (Mer information om hur Target utvärderar URL:er finns i [Vanliga frågor om mål och målgrupper](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * Domän
-      * Fråga
-      * Underdomän
-      * Domän på översta nivån
-      * Bana
-      * Hash-fragment (#)
-   * **Föregående sida:** Den sida som användaren var på innan användaren klickade på den aktuella sidan. (Användaren måste klicka från föregående sida till den aktuella sidan för att sidan ska kunna spåras. Föregående sida spåras inte om användaren skriver en ny URL i webbläsaren.) Det faktiska innehållet på den här sidan beror på webbplatsens design. Om den aktuella sidan t.ex. visar information om en viss produkt, kan föregående sida vara en kategorisida där besökaren väljer det specifika objektet (t.ex. en sida som visar flera kameror av en viss typ), eller det kan vara hemsidan som leder till den sista sidan.
+      * [!UICONTROL URL] (Mer information om hur du  [!DNL Target] utvärderar URL:er finns i Vanliga frågor om  [mål och målgrupper](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domain]
+      * [!UICONTROL Query]
+      * [!UICONTROL Subdomain]
+      * [!UICONTROL Top-Level Domain]
+      * [!UICONTROL Path]
+      * [!UICONTROL Hash (#) fragment]
+   * **[!UICONTROL Previous Page]:** Den sida som användaren visades innan användaren klickade på den aktuella sidan. Användaren måste klicka från föregående sida till den aktuella sidan för att sidan ska kunna spåras. Föregående sida spåras inte om användaren skriver en ny URL i webbläsaren. Det faktiska innehållet på den här sidan beror på webbplatsens design. Om den aktuella sidan t.ex. visar information om en viss produkt, kan föregående sida vara en kategorisida där besökaren väljer det specifika objektet. En sida som t.ex. visar flera kameror av en viss typ, eller det kan vara hemsidan som leder till den sista sidan.
 
       Följande alternativ är tillgängliga i den andra listrutan om du väljer det här alternativet:
 
-      * URL (Mer information om hur Target utvärderar URL:er finns i [Vanliga frågor om mål och målgrupper](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * Domän
-      * Fråga
-      * Underdomän
-      * Domän på översta nivån
-      * Bana
-   * **Landningssida:** Landningssidan är den första sida besökaren ser när han/hon besöker din plats. Om besökaren till exempel klickar på en länk på Google som leder till en kategorisida är kategorisidan landningssidan. Om länken leder till din hemsida är startsidan landningssidan. Landningssidan sparas för besökarens session. Du kan rikta dig djupare på webbplatsen baserat på vad besökarens landningssida var i den här sessionen.
+      * [!UICONTROL URL] (Mer information om hur Target utvärderar URL:er finns i Vanliga frågor om  [mål och målgrupper](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domain]
+      * [!UICONTROL Query]
+      * [!UICONTROL Subdomain]
+      * [!UICONTROL Top-Level Domain]
+      * [!UICONTROL Path]
+   * **[!UICONTROL Landing Page]:** Landningssidan är den första sida besökaren ser när han/hon besöker din webbplats. Om besökaren till exempel klickar på en länk på Google som leder till en kategorisida är kategorisidan landningssidan. Om länken leder till din hemsida är startsidan landningssidan. Landningssidan sparas för besökarens session. Du kan rikta dig djupare på webbplatsen baserat på vad besökarens landningssida var i den här sessionen.
 
       Följande alternativ är tillgängliga i den andra listrutan om du väljer det här alternativet:
 
-      * URL (Mer information om hur Target utvärderar URL:er finns i [Vanliga frågor om mål och målgrupper](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * Domän
-      * Fråga
-      * Underdomän
-      * Domän på översta nivån
-      * Bana
-      * Hash-fragment (#)
+      * [!UICONTROL URL] (Mer information om hur Target utvärderar URL:er finns i Vanliga frågor om  [mål och målgrupper](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domain]
+      * [!UICONTROL Query]
+      * [!UICONTROL Subdomain]
+      * [!UICONTROL Top-Level Domain]
+      * [!UICONTROL Path]
+      * [!UICONTROL Hash (#) fragment]
 
       >[!NOTE]
       >
       >Objektet `landing.url` återställs för en underdomänsändring eller direkt URL-ersättning.
 
-   * **HTTP-huvud:** Det här alternativet utvärderar informationen i HTTP-huvudet i Target-begäran. Om HTTP-huvudet till exempel innehåller språkinformation kan du skapa en regel som innehåller villkoret `Accept-Language: es` för att rikta till besökare som kommer åt sidan på spanska.
+   * **[!UICONTROL HTTP Header]:** Det här alternativet utvärderar informationen i HTTP-huvudet i  [!DNL Target] begäran. Om HTTP-huvudet till exempel innehåller språkinformation kan du skapa en regel som innehåller villkoret `Accept-Language: es` för att rikta till besökare som kommer åt sidan på spanska.
 
       Följande alternativ är tillgängliga i den andra listrutan om du väljer det här alternativet:
 
-      * Acceptera
-      * Accept-Charset
-      * Acceptera-kodning
-      * Acceptera språk
-      * Behörighet
-      * Cache-Control
-      * Anslutning
-      * Content-Length
-      * Content-MDS
-      * Content-Type
-      * Datum
-      * Förvänta
-      * Från
-      * Värd
-      * If-Match
-      * If-Modified-Since
-      * If-None-Match
-      * Om-Intervall
-      * If-Unmodified-Since
-      * Max-Forwards
-      * Pragma
-      * Proxy-Authorization
-      * Intervall
-      * Referent
-      * TE
-      * Uppgradera
-      * Användaragent
-      * Via
-      * Varning
+      * [!UICONTROL Accept]
+      * [!UICONTROL Accept-Charset]
+      * [!UICONTROL Accept-Encoding]
+      * [!UICONTROL Accept-Language]
+      * [!UICONTROL Authorization]
+      * [!UICONTROL Cache-Control]
+      * [!UICONTROL Connection]
+      * [!UICONTROL Content-Length]
+      * [!UICONTROL Content-MDS]
+      * [!UICONTROL Content-Type]
+      * [!UICONTROL Date]
+      * [!UICONTROL Expect]
+      * [!UICONTROL From]
+      * [!UICONTROL Host]
+      * [!UICONTROL If-Match]
+      * [!UICONTROL If-Modified-Since]
+      * [!UICONTROL If-None-Match]
+      * [!UICONTROL If-Range]
+      * [!UICONTROL If-Unmodified-Since]
+      * [!UICONTROL Max-Forwards]
+      * [!UICONTROL Pragma]
+      * [!UICONTROL Proxy-Authorization]
+      * [!UICONTROL Range]
+      * [!UICONTROL Referrer]
+      * [!UICONTROL TE]
+      * [!UICONTROL Upgrade]
+      * [!UICONTROL User-Agent]
+      * [!UICONTROL Via]
+      * [!UICONTROL Warning]
 
    Om du väljer [!UICONTROL Current Page], [!UICONTROL Previous Page] eller [!UICONTROL Landing Page] är alternativen [!UICONTROL Domain] och [!UICONTROL Query] tillgängliga. Tänk på följande när du väljer dessa alternativ:
 
@@ -112,19 +111,15 @@ Du kan rikta in dig på besökare som finns på en viss sida på webbplatsen.
 
 
 
-1. (Valfritt) Klicka på **[!UICONTROL Add Rule]** och ange ytterligare regler för målgruppen.
-1. Klicka på **[!UICONTROL Save]**.
+1. (Valfritt) Ange ytterligare regler för målgruppen.
+1. Klicka på **[!UICONTROL Done]**.
 
 Du kan också skapa målgrupper för webbplatssidor med hjälp av en egen&quot;användardefinierad frågeparameter&quot; eller&quot;användardefinierad rubrik&quot;.
 
 Använd en:
 
-* Frågeparameter om regeln som användaren väljer är Aktuell sida, Landningssida eller Föregående sida.
-* Header om regeln som valts av användaren är en HTTP-rubrik.
-
-enligt nedan:
-
-![](assets/site_pages.png)
+* Frågeparameter om regeln som valts av användaren är [!UICONTROL Current Page], [!UICONTROL Landing Page] eller [!UICONTROL Previous Page]
+* Header om regeln som valts av användaren är en HTTP-rubrik
 
 ## Felsökning {#ts}
 
@@ -136,8 +131,7 @@ enligt nedan:
    * Använd en [A/B-testaktivitet](/help/c-activities/t-test-ab/test-ab.md) i stället för en landningssidaktivitet. A/B-testaktiviteter byter inte upplevelser för samma besökare.
    * Använd en [besökarprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) i stället.
 
-* När du använder &quot;börjar/slutar med&quot;-utvärderare för strängar som innehåller kommatecken ska du tänka på att dessa
-utvärderas som en array med värden där varje värde som avgränsas med kommatecken utvärderas. Om vi till exempel har värdet för en rubrik: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` uppfyller villkoren:
+* När du använder &quot;begin/ends with&quot;-utvärderare för strängar som innehåller kommatecken utvärderas dessa strängar som en array med värden där varje värde som avgränsas med kommatecken utvärderas. Om du till exempel har värdet för en rubrik: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` uppfyller villkoren:
    * börjar med zh,
    * börjar med en,
    * slutar med 0,7,
