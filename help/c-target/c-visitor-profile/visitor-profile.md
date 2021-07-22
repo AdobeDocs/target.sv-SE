@@ -1,21 +1,21 @@
 ---
 keywords: Översikt och referens
-description: Läs mer om besöksprofiler som innehåller information om hur besökarna använder era sidor och andra optimerade innehållsplatser.
+description: Lär dig mer om besökarprofiler som innehåller information om hur besökarna använder era sidor och andra optimerade innehållsplatser.
 title: Vad är besökarprofiler?
 feature: Målgrupper
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Besökarprofiler
 
-Besöksprofiler innehåller information om hur besökarna använder dina sidor och andra optimerade platser för innehåll.
+Besöksprofiler i [!DNL Adobe Target] innehåller information om hur besökarna använder dina sidor och andra optimerade innehållsplatser.
 
-Om [!DNL Adobe Target] används med andra [!DNL Adobe Experience Cloud]-lösningar, som [!DNL Adobe Analytics], delar [!DNL Experience Cloud Audiences] besökarinformation mellan olika lösningar.
+Om [!DNL Target] används med andra [!DNL Adobe Experience Cloud]-lösningar, som [!DNL Adobe Analytics], delar [!DNL Experience Cloud Audiences] besökarinformation mellan olika lösningar.
 
 Som standard lagras [!DNL Target]-profilinformation i en cookie från en annan leverantör. Konfigurationen kan enkelt ändras för att även hantera cookies från tredje part.
 
