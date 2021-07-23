@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 23 juli | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har uppdaterats för att ge mer information:<ul><li>Hur påverkar reglerna för tillämpning av cookies i Google Chrome SameSite VEC?</li></ul> |
+|  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Lagt till ett nytt avsnitt,&quot;Modifications per experience&quot;, under&quot;Experiences&quot;. |
 | 21 juli | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har uppdaterats:<ul><li>Hur påverkar reglerna för tillämpning av cookies i Google Chrome SameSite VEC?</li></ul> |
 | 19 juli | [Klassificeringar - A4T - vanliga frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Lagt till information om händelsekoden -1 eller 65535. |
 | 16 juli | [Versionsinformation om målversionen (aktuell)](/help/r-release-notes/release-notes.md)<br><br>[andat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.6.0. |
