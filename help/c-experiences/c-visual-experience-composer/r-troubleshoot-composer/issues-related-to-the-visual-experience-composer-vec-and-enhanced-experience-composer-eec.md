@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Tänk på de förändringar som påverkar VEC och EEC när du använder följand
 >
 >Följande ändring påverkar alla tre uppdateringarna som beskrivs nedan:
 >
-> * Kommer *inte* att kunna använda VEC (med eller utan VEC Helper-tillägget installerat och aktiverat) på lösenordsskyddade sidor på sina webbplatser. Dina cookies för webbplatsinloggning betraktas som en cookie från tredje part och skickas tillsammans med inloggningsbegäran. Det enda undantaget är när webbplatsens inloggningscookie redan har parametern SameSite inställd på &quot;none&quot;.
+> * Kommer *inte* att kunna använda VEC (med eller utan VEC Helper-tillägget installerat och aktiverat) på lösenordsskyddade sidor på dina platser. Dina cookies för webbplatsinloggning betraktas som en cookie från tredje part och skickas tillsammans med inloggningsbegäran. Det enda undantaget är när webbplatsens inloggningscookie redan har parametern SameSite inställd på `none` och `Secure.`
 
 
 **Chrome 94 (21 september 2021)**: Med de kommande förändringarna för Chrome 94 (21 september 2021) påverkar följande ändring alla användare med Chrome 94+-webbläsarversioner:
@@ -36,7 +36,7 @@ Tänk på de förändringar som påverkar VEC och EEC när du använder följand
 
 **Krom 80 (augusti 2020)**: Med de ändringar som implementerades i augusti 2020 har alla användare med webbläsarversionen Chrome 80+:
 
-* Kommer *inte* att kunna hämta [!DNL Target]-bibliotek när en aktivitet redigeras (när dessa inte redan finns på webbplatsen). Detta beror på att nedladdningsanropet görs från kundens domän mot en skyddad Adobe-domän och avvisas som oautentiserat.
+* Kommer *inte* att kunna hämta [!DNL Target]-bibliotek när en aktivitet redigeras (när dessa inte redan finns på webbplatsen). Detta beror på att nedladdningsanropet görs från kunddomänen till en skyddad [!DNL Adobe]-domän och avvisas som oautentiserat.
 * EEC-funktionen *inte* för alla användare eftersom den inte kan ange attributet SameSite för cookies på `adobemc.com domain`. Utan det här attributet avvisar webbläsaren dessa cookies, vilket gör att EEG misslyckas.
 
 ### Kontrollera vilka cookies som är blockerade
@@ -56,7 +56,7 @@ Om du vill ta reda på vilka cookies som blockeras på grund av samma principer 
 
 ### Google VEC Helper extension
 
-Adobe har skickat ett uppdaterat VEC Helper-tillägg till Google Chrome Store. Det här tillägget skriver över cookie-attributen för att ange attributet `SameSite="none"` vid behov. Det [uppdaterade tillägget finns här](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Mer information om hur du installerar och använder VEC Helper Extension finns i [Hjälptillägg för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+[!DNL Adobe] har skickat ett uppdaterat VEC Helper-tillägg till Google Chrome Store. Det här tillägget skriver över cookie-attributen för att ange attributet `SameSite="none"` vid behov. Det [uppdaterade tillägget finns här](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Mer information om hur du installerar och använder VEC Helper Extension finns i [Hjälptillägg för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 För dina egna webbplatscookies måste du ange cookies efter namn.
 
@@ -74,7 +74,7 @@ Använd något av följande alternativ för att säkerställa att ditt VEC och E
 
 * Hämta och använd det uppdaterade [VEC Helper-tillägget](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * Använd webbläsaren Mozilla Firefox. Firefox tillämpar inte den här principen ännu.
-* Använd följande flaggor för att köra Google Chrome från kommandoraden till 21 september 2021. Efter den 21 september kommer webbplatsen inte längre att fungera i VEC. Om du uppdaterar till Chrome 94 måste du generera cookies med `SameSite=none` och `Secure` manuellt på dina webbplatser.
+* Använd följande flaggor för att köra Google Chrome från kommandoraden till 21 september 2021. Efter den 21 september kommer funktioner som kräver cookies inte längre att fungera i VEC, som inloggning eller popup-fönster med cookie-samtycke. Om du uppdaterar till Chrome 94 måste du generera cookies med `SameSite=none` och `Secure` manuellt på dina webbplatser.
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
