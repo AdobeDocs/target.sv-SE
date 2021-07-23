@@ -1,13 +1,13 @@
 ---
 keywords: svarstoken;tokens;plugins;plugin-program;at.js;response
-description: Lär dig hur du använder svarstoken i Adobe [!DNL Target] utdataspecifik information för felsökning och integrering med verktyg från tredje part.
+description: Lär dig hur du använder svarstoken i [!DNL Adobe Target] för att få utdataspecifik information för felsökning och integrering med verktyg från tredje part.
 title: Vad är svarstoken och hur använder jag dem?
 feature: Administration och konfiguration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,7 @@ Följande kodexempel lägger till en [!DNL at.js] anpassad händelsehanterare di
 
 Svarstoken kan bara aktiveras eller inaktiveras av användare med rollen [!DNL Target] [!UICONTROL Administrator].
 
-**Vad händer om jag kör [!DNL Platform Web SDK] 2.6.0 (eller tidigare)?
+**Vad händer om jag kör  [!DNL Platform Web SDK] 2.6.0 (eller tidigare)?**
 
 Du har inte åtkomst till svarstoken.
 
