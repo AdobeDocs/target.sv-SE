@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -118,6 +118,10 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 * **Gräns**: 2 000 upplevelser per aktiviteten Experience Targeting (XT), A/B Test, Multivariate Test (MVT) och Auto-Target.
 
    30 000 upplevelser per Automated Personalization-aktivitet (AP).
+
+### Ändringar per upplevelse
+
+* **Gräns**: 50 per upplevelse av alla aktiviteter
 
 ## mboxes
 
