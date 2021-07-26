@@ -5,9 +5,9 @@ title: Hur implementerar jag Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,6 @@ Förutom den [!DNL Platform Web SKD]-dokumentation som nämns ovan innehåller a
 
 | Ämne | Beskrivning |
 | --- | --- |
-| [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Använd QA-URL:er i [!DNL Adobe Target] för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata. [!UICONTROL Activity QA] gör att du kan testa dina  [!DNL Target] aktiviteter innan du startar dem live.<br>Se  [JavaScript-bibliotekskompatibilitet  [!UICONTROL QA Mode] för](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) mål. |
+| [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Med QA-URL:er i [!DNL Adobe Target] kan du enkelt utföra en heltäckande aktivitets-QA med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata. Du testar dina [!DNL Target]-aktiviteter fullständigt innan du startar dem live.<br>Se  [JavaScript-bibliotekskompatibilitet  [!UICONTROL QA Mode] för](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) mål. |
 | [Svarstoken](/help/administrating-target/response-tokens.md) | Med svarstoken kan du skicka Target-data till Google Analytics och andra tredjepartsintegreringar.<br>Se  [Skicka data till Google Analytics via Platform Web SDK](/help/administrating-target/response-tokens.md#platform-web-sdk). |
 
