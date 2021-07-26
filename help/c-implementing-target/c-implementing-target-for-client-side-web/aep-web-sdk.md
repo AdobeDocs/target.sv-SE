@@ -4,14 +4,13 @@ description: Lär dig hur du använder Adobe Experience Platform Web SDK för at
 title: Hur implementerar jag Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Platform Web SDK
 
@@ -21,3 +20,13 @@ Mer information finns i följande länkar i *Adobe Experience Platform Web SDK*-
 
 * För utförlig information: [Vad är Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * För information som är specifik för [!DNL Target]: [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
+
+## Rekommenderad dokumentation i den här handboken
+
+Förutom den [!DNL Platform Web SKD]-dokumentation som nämns ovan innehåller avsnitten i den här handboken även information som är specifik för [!DNL Platform Web SDK] vad gäller [!DNL Target]-funktioner.
+
+| Ämne | Beskrivning |
+| --- | --- |
+| [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Använd QA-URL:er i [!DNL Adobe Target] för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från live-aktivitetsdata. [!UICONTROL Activity QA] gör att du kan testa dina  [!DNL Target] aktiviteter innan du startar dem live.<br>Se  [JavaScript-bibliotekskompatibilitet  [!UICONTROL QA Mode] för](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) mål. |
+| [Svarstoken](/help/administrating-target/response-tokens.md) | Med svarstoken kan du skicka Target-data till Google Analytics och andra tredjepartsintegreringar.<br>Se  [Skicka data till Google Analytics via Platform Web SDK](/help/administrating-target/response-tokens.md#platform-web-sdk). |
+
