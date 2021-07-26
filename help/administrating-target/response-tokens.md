@@ -1,13 +1,13 @@
 ---
-keywords: svarstoken;tokens;plugins;plugin-program;at.js;response
+keywords: svarstoken;tokens;plugins;plugins;at.js;response;platform web sdk
 description: Lär dig hur du använder svarstoken i [!DNL Adobe Target] för att få utdataspecifik information för felsökning och integrering med verktyg från tredje part.
 title: Vad är svarstoken och hur använder jag dem?
 feature: Administration och konfiguration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
