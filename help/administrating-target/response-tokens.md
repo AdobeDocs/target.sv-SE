@@ -5,7 +5,7 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration och konfiguration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 0%
@@ -84,7 +84,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 Den process som du använder för att avlyssna [!DNL Target]-svar och läsa svarstoken skiljer sig åt beroende på om du har en [!DNL Platform Web SDK]- eller at.js-implementering.
 
-### ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Platform Web SDK] badgemed objektklassen Handle
+### ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Platform Web SDK] badgemed objektklassen Handle {#platform-web-sdk}
 
 Använd objektklassen Handle, som har ett metadata-objekt och ett dataobjekt som ska avlyssna [!DNL Target]-svar och läsa svarstoken.
 
