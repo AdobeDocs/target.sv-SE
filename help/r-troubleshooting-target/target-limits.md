@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ## Innehållsleverans {#content-delivery}
 
-* **Gräns**: 100 förfrågningar om samtidig  [!DNL Target] innehållsleverans.
+* **Gräns**: 100 förfrågningar om samtidig  [!DNL Target] innehållsleverans per användarsession.
 
    Om en kund överskrider 100 begäranden om samtidig [!DNL Target] innehållsleverans för en given användarsession, blockeras alla efterföljande begäranden för den användarsessionen. Två eller flera begäranden anses vara samtidiga om alla skickas till [!DNL Target]-servern innan svaret tas emot för någon av dem. [!DNL Target] bearbetar samtidiga begäranden för samma session sekventiellt.
 
