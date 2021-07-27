@@ -5,9 +5,9 @@ title: Vad ska jag veta innan jag implementerar?
 feature: Implementering
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Det här avsnittet innehåller information för utvecklare som är specifika fö
 
 >[!IMPORTANT]
 >
->Ändringar av at.js eller Adobe Experience Platform Web SDK stöds inte av Adobe kundtjänst.
+>Ändringar av at.js eller [!DNL Adobe Experience Platform Web SDK] stöds inte av Adobe kundtjänst.
 
 - [Förbered implementering av Target](prepare-to-implement-target.md)
 - [Integritet](c-privacy/privacy.md)
