@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,24 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 ## categoryId-parameter
 
 * **Gräns**: 250 tecken.
+
+## Innehållsleverans {#content-delivery}
+
+* **Gräns**: 100 förfrågningar om samtidig  [!DNL Target] innehållsleverans.
+
+   Om en kund överskrider 100 begäranden om samtidig [!DNL Target] innehållsleverans för en given användarsession, blockeras alla efterföljande begäranden för den användarsessionen. Två eller flera begäranden anses vara samtidiga om alla skickas till [!DNL Target]-servern innan svaret tas emot för någon av dem. [!DNL Target] bearbetar samtidiga begäranden för samma session sekventiellt.
+
+* **Felbeteende**:
+
+   * Delivery API and Batch Mbox v2:
+      * Felkod: HTTP 420 För många begäranden
+      * Felmeddelande: &quot;För många begäranden med samma sessions-ID&quot;
+   * Äldre mbox-API:
+      * Standardinnehåll med kommentaren &quot;För många begäranden med samma sessions-ID&quot;
+   * at.js:
+      * Standardinnehåll visas
+
+
 
 ## Kundattribut
 
