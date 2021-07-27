@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 92c8637ac8c2ce925e0c16b726b76451a4691904
+source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
 workflow-type: tm+mt
-source-wordcount: '1931'
+source-wordcount: '1946'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 27 juli | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Följande avsnitt har lagts till:<ul><li>Rekommenderad dokumentation i den här handboken</li></ul> |
 | 26 juli | [Använda Adobe Target med Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK i  *Adobe Experience Platform Web SDK -* översiktshandbok | Nytt avsnitt har lagts till:<ul><li>Systemdiagram för Platform Web SDK</li></ul> |
 | 23 juli | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har uppdaterats för att ge mer information:<ul><li>Hur påverkar reglerna för tillämpning av cookies i Google Chrome SameSite VEC?</li></ul> |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Lagt till ett nytt avsnitt,&quot;Modifications per experience&quot;, under&quot;Experiences&quot;. |
