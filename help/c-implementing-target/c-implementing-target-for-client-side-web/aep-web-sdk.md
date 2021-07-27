@@ -5,9 +5,9 @@ title: Hur implementerar jag Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 0cfab8d09b74b3eb0ead33a0c37f9dab68a88305
+source-git-commit: eb3cae982ecb62f7745549562ea144228ad895fa
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Mer information finns i följande länkar i *Adobe Experience Platform Web SDK*-
 
 ## Rekommenderad dokumentation i den här handboken
 
-Förutom den [!DNL Platform Web SKD]-dokumentation som nämns ovan innehåller avsnitten i den här handboken även information som är specifik för [!DNL Platform Web SDK] vad gäller [!DNL Target]-funktioner.
+Förutom den [!DNL Platform Web SDK]-dokumentation som nämns ovan innehåller avsnitten i den här handboken även information som är specifik för [!DNL Platform Web SDK] vad gäller [!DNL Target]-funktioner.
 
 | Funktion | Beskrivning/länk |
 | --- | --- |
