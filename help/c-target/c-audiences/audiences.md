@@ -4,7 +4,7 @@ description: Lär dig hur du använder [!UICONTROL Audiences]-listan i [!DNL Ado
 title: Hur använder jag målgruppslistan?
 feature: Målgrupper
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Det finns två typer av målgrupper i [!DNL Target]:
 
    I [!DNL Target] kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du använder [Adobe Analytics som rapportkälla](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper inom [!DNL Analytics].
 
-## Använd listan [!UICONTROL Audiences]
+## Använd listan [!UICONTROL Audiences] {#use-list}
 
 Du öppnar listan [!UICONTROL Audiences] genom att klicka på **[!UICONTROL Audiences]** i det övre menyfältet:
 
