@@ -5,9 +5,9 @@ title: Hur implementerar jag Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
+source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Mer information finns i följande länkar i *Adobe Experience Platform Web SDK*-
 * För utförlig information: [Vad är Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * För information som är specifik för [!DNL Target]: [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 
-## Rekommenderad dokumentation i den här handboken
+## Rekommenderad dokumentation
 
 Förutom den [!DNL Platform Web SDK]-dokumentation som nämns ovan innehåller avsnitten i den här handboken även information som är specifik för [!DNL Platform Web SDK] vad gäller [!DNL Target]-funktioner.
 
@@ -32,5 +32,5 @@ Förutom den [!DNL Platform Web SDK]-dokumentation som nämns ovan innehåller a
 | [Målgrupper](/help/c-target/target.md) | Publiken i [!DNL Adobe Target] avgör vem som ser innehåll och upplevelser i en riktad aktivitet.<br>Se  [Använda ](/help/c-target/c-audiences/audiences.md#use-list) listan Publiker och  [Kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md). |
 | [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Omdirigeringserbjudanden gör att besökarnas webbläsare dirigerar om till en ny sida.<br>Se  [Omdirigerar  [!DNL Adobe Experience Platform Web SDK] supporten erbjudanden för A4T?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Svarstoken](/help/administrating-target/response-tokens.md) | Med svarstoken kan du skicka Target-data till Google Analytics och andra tredjepartsintegreringar.<br>Se  [Skicka data till Google Analytics via Platform Web ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDKom du vill se ett kodexempel på hur du kan utföra den här uppgiften. |
-| [Programimplementering på en sida](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) | [!UICONTROL Adobe Experience Platform Web SDK] innehåller omfattande funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker, som single page-applikationer (SPA).<br>Det här avsnittet finns i  *översiktshandboken för Platform Web SDK* . |
+| [Programimplementering ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) på en sida i översiktshandboken  *Platform Web SDK* för . | [!UICONTROL Adobe Experience Platform Web SDK] innehåller omfattande funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker, som single page-applikationer (SPA). |
 | [TLS-krypteringsändringar (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS (Transport Layer Security) hjälper er att upprätthålla högsta säkerhetsstandard och främja säkerheten för kunddata. |
