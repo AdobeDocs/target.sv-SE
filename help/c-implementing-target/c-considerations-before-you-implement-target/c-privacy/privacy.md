@@ -5,9 +5,9 @@ title: Hur hanterar [!DNL Target] sekretessfrågor?
 feature: Integritet och säkerhet
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,6 @@ https://my.cname.domain/optout?client=clientcode.
 Besökare som klickar på den här länken tas inte med i några mbox-förfrågningar som anropas från webbläsarsessionerna förrän de tar bort sina cookies, eller under två år, beroende på vilket som inträffar först. Detta fungerar genom att ange en cookie för besökaren med namnet `disableClient` i domänen `clientcode.tt.omtrdc.net`.
 
 Även om du använder en cookie-implementering från en annan tillverkare anges den angivna avanmälningen via en cookie från en annan tillverkare. Om klienten bara använder en cookie från en annan tillverkare kontrollerar Target om en cookie för avanmälan har angetts.
-
-## Samling av funktionsanvändningsdata {#feature-usage}
-
-Individuella data om funktionsanvändning samlas in för interna [!DNL Adobe]-syften för att identifiera om [!DNL Target]-funktioner fungerar som de ska eller för att identifiera funktioner som används för lite. Olika latensmått samlas in för att bidra till att åtgärda prestandaproblem. Personuppgifter samlas inte in.
-
-Du kan avanmäla användningsdata genom att ange `telemetryEnabled` i konfigurationsfilen till `false`.
 
 ## Sekretess- och dataskyddsbestämmelser
 
