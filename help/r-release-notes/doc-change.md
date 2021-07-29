@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 29 juli | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om [!DNL Adobe Target] Community Q&amp;A Coffee Break har lagts till: Onsdagen den 11 augusti 2021. |
+|  | [Anpassa en global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Viktigt att notera är att du måste redigera och spara berörda aktiviteter som skapats i VEC igen efter att ha anpassat en global mbox. |
+|  | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>Enhanced Experience Composer (EEC) stöder inte förfrågningar från PUT.</li></ul> |
 | 27 juli | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nytt avsnitt har lagts till:<ul><li>Rekommenderad dokumentation</li></ul> |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Nytt avsnitt har lagts till:<ul><li>Innehållsleverans</li></ul> |
-|  | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#feature-usage) | Nytt avsnitt har lagts till:<ul><li>Samling av funktionsanvändningsdata</li></ul> |
 | 26 juli | [Använda Adobe Target med Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK i  *Adobe Experience Platform Web SDK -* översiktshandbok | Nytt avsnitt har lagts till:<ul><li>Systemdiagram för Platform Web SDK</li></ul> |
 | 23 juli | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har uppdaterats för att ge mer information:<ul><li>Hur påverkar reglerna för tillämpning av cookies i Google Chrome SameSite VEC?</li></ul> |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Lagt till ett nytt avsnitt,&quot;Modifications per experience&quot;, under&quot;Experiences&quot;. |
