@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,15 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
    Anpassade attribut för entiteter med flera värden får inte innehålla fler än 500 värden. Varje enskilt värde är begränsat till 100 tecken. Det totala antalet tecken i alla värden måste uppfylla begränsningarna för den maximala längden för anpassade entitetsattribut med ett värde (se ovan).
 
-### entityID-parametrar
+### entity.id
 
-* **Gräns**: 1 000 tecken.
+* **Begränsning för implementeringar som kräver att du hämtar inköpsinformation**: 50 tecken.
+
+   Den här gränsen gäller eftersom mbox-parametern `productPurchasedId` hämtar entity.ids, vilket begränsar antalet tecken till 50.
+
+* **Begränsning för implementeringar som endast kräver vybaserade algoritmer:**: 1 000 tecken.
+
+   Vybaserade algoritmer omfattar vy/vy, de senast visade, nyligen visade och så vidare.
 
 ## excludeIds {#excludedid}
 
