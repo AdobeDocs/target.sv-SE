@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -243,7 +243,7 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
 ## productPurchasedId, parameter
 
-* **Gräns**: 47 tecken per kommaavgränsat värde och totalt 250 tecken. Enskilda värden som är längre än 47 tecken kan trunkeras av systemet. Sammanlagda längden över 250 tecken kan resultera i ett 400-fel.
+* **Gräns**: 50 tecken per kommaavgränsat värde och totalt 250 tecken. Enskilda värden som är längre än 50 tecken trunkeras av systemet. Sammanlagda längder på över 250 tecken resulterar i ett 400-fel.
 
 ## Profilskript
 
