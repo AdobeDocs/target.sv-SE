@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Versionsinformation
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4421'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Information om kända fel för [!DNL Adobe Target]. Innehåller även informatio
 
 I följande avsnitt listas kända fel för [!DNL Target]:
 
+### Trafikfördelning av aktiviteter automatiskt med A4T {#aa-a4t}
+
+I vissa fall kan trafikfördelningen för [!UICONTROL Auto-Allocate]-aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) variera från vad som ska ske baserat på den rapporterade konverteringsgraden för varje upplevelse. Detta inträffar oftare för aktiviteter med en hög andel av besökstrafiken för återvändande. Berörda kunder meddelas om vilka aktiviteter som påverkas. (TOP-131)
+
+### Analyser för Adobe Target-värden (A4T) för automatisk fördelning och automatisk målaktiviteter
+
+Med [!DNL Target]-gränssnittet kan användare välja engagemangs- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter. Konverteringsmått stöds. Aktivitets- och intäktsmått stöds *inte*. Om du väljer målstatistik för engagemang eller intäkter skapas ingen optimeringsmodell.
+
+En lista över målvärden som stöds och inte stöds finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatiskt mål](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
+
 ### Enhanced Experience Composer (EEC) stöder inte förfrågningar från PUT.
 
 Ett problem med EEG förhindrar för närvarande att det stöder förfrågningar från PUT och leder till ett 504-timeout-fel. (TGT-41493)
@@ -34,12 +44,6 @@ Ett problem med EEG förhindrar för närvarande att det stöder förfrågningar
 ### Arkivering av [!UICONTROL Auto Target]-aktiviteter kan orsaka synkroniseringsproblem
 
 Försök att arkivera inaktiva [!UICONTROL Auto-Target]-aktiviteter kan leda till synkroniseringsproblem. Arkivera inte [!UICONTROL Auto-Target]-aktiviteter förrän problemet är åtgärdat. Lämna dem i läget [!UICONTROL Inactive]. (TGT-40885)
-
-### Analyser för Adobe Target-värden (A4T) för automatisk fördelning och automatisk målaktiviteter
-
-Med [!DNL Target]-gränssnittet kan användare välja engagemangs- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter. Konverteringsmått stöds. Aktivitets- och intäktsmått stöds *inte*. Om du väljer målstatistik för engagemang eller intäkter skapas ingen optimeringsmodell.
-
-En lista över målvärden som stöds och inte stöds finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatiskt mål](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Sidleverans {#page-delivery}
 
