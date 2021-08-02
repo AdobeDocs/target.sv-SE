@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2039'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 2 augusti | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>Trafikfördelning av aktiviteter automatiskt med A4T</li></ul> |
 | 30 juli | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterade följande avsnitt:<ul><li>entity.id</li><li>productPurchasedId, parameter</li></ul> |
 | 29 juli | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Information om [!DNL Adobe Target] Community Q&amp;A Coffee Break har lagts till: Onsdagen den 11 augusti 2021. |
 |  | [Anpassa en global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Viktigt att notera är att du måste redigera och spara berörda aktiviteter som skapats i VEC igen efter att ha anpassat en global mbox. |
