@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 3 augusti | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om den kommande [!DNL Target Standard/Premium] 21.8.1-versionen (4 augusti 2021). |
+| 3 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om [!UICONTROL Target Delivery API]-versionen. |
+|  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om den kommande [!DNL Target Standard/Premium] 21.8.1-versionen (4 augusti 2021). |
 | 2 augusti | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>Trafikfördelning av aktiviteter automatiskt med A4T</li></ul> |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Information om den kommande [!UICONTROL Target Delivery API]-versionen har lagts till. |
 | 30 juli | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Uppdaterade följande avsnitt:<ul><li>entity.id</li><li>productPurchasedId, parameter</li></ul> |
