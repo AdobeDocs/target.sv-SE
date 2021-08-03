@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Versionsinformation
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4421'
+source-wordcount: '4444'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ I följande avsnitt listas kända fel för [!DNL Target]:
 
 ### Trafikfördelning av aktiviteter automatiskt med A4T {#aa-a4t}
 
-I vissa fall kan trafikfördelningen för [!UICONTROL Auto-Allocate]-aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) variera från vad som ska ske baserat på den rapporterade konverteringsgraden för varje upplevelse. Detta inträffar oftare för aktiviteter med en hög andel av besökstrafiken för återvändande. Berörda kunder meddelas om vilka aktiviteter som påverkas. (TOP-131)
+I vissa fall kan trafikfördelningen för [!UICONTROL Auto-Allocate]-aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) variera från vad som ska ske baserat på den rapporterade konverteringsgraden för varje upplevelse. Detta inträffar oftare för aktiviteter med en hög andel av besökstrafiken för återvändande. Berörda kunder meddelas om vilka aktiviteter som påverkas.
+
+Använd [!UICONTROL Auto-Allocate] med [!DNL Target]-standardrapporter eller använd A/B-tester med [!DNL Analytics]-rapportering som ett alternativ till [!UICONTROL Auto-Allocate] med [!DNL Analytics]-rapportering tills problemet är löst. (TOP-131)
 
 ### Analyser för Adobe Target-värden (A4T) för automatisk fördelning och automatisk målaktiviteter
 
