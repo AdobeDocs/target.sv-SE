@@ -5,7 +5,7 @@ title: Vilka är de olika tecknen, storleksbegränsningarna och andra begränsni
 feature: Felsökning
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ## categoryId-parameter
 
-* **Gräns**: 250 tecken.
+* **Gräns**: 256 tecken.
 
 ## Innehållsleverans {#content-delivery}
 
@@ -196,7 +196,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
    **Slutpunkt för leverans-API**:
 
-   * mbox parameters 50
+   * mbox parameters 100
    * mbox-parameternamn max length 128
    * mbox-parametervärdet får inte vara null
    * mbox-parametervärde 5000
