@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Den här underhållsversionen innehåller många backend-förbättringar, bland 
 
 * Korrigerade ett problem som orsakade att rapporter för [!UICONTROL Auto Personalization]-aktiviteter som skapats i [!UICONTROL Form-Based Experience Composer] refererade till borttagna erbjudanden i rapporter. Det här meddelandet orsakade att följande felmeddelande visades:&quot;Det går inte att hämta data för den här rapporten. Kontakta Adobe Client Care om problemet kvarstår.&quot; (TGT-41028)
 
-## Målleverans-API (datum ska fastställas)
+## Target Delivery API (3 augusti 2021)
 
 Den här versionen innehåller följande förbättringar:
 
