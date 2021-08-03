@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Den här versionen innehåller följande förbättringar:
 * Gränsen för `categoryId` har ökats till 256 tecken. Den tidigare gränsen var 128 tecken.
 * Följande [!DNL Adobe Audience Manager] (AAM) information har lagts till i leverans-API:
 
-   * AAM UUID (Adobe Audience Manager unika användar-ID)
-   * dataPartnerId
-   * dataPartnerUserId
+   * AAM UUID: Det interna AAM-ID som används för att unikt identifiera en användare.
+   * dataPartnerId: ID för en datapartner.
+   * dataPartnerUserId: Det användar-ID som anges av en datapartner.
 
    Tidigare ingick endast leverans-API:t `dcsLocationHint` och `blob`. (TNT-41644)
 
