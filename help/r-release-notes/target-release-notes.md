@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 
 Den här versionen innehåller följande förbättringar:
 
-* Gränsen för mbox-parametrar har ökats till 100 parametrar. Den tidigare gränsen var 50 parametrar.
+* Gränsen för mbox-parametrar har ökats till 100 parametrar. Den tidigare gränsen var 50 parametrar. (TNT-41717)
 * Gränsen för `categoryId` har ökats till 256 tecken. Den tidigare gränsen var 128 tecken.
 * Följande [!DNL Adobe Audience Manager] (AAM) information har lagts till i leverans-API:
 
