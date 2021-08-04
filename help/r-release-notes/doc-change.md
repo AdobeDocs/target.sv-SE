@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # Dokumentationsändringar
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
+
+## Adobe [!DNL Target] Standard/Premium 21.8.1 (4 augusti 2021)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 4 augusti | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md): 21.6.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 juni 2021)
 
