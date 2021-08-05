@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Versionsinformation
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 >
 >Om du vill undvika eventuella problem med dina platser migrerar du till den senaste versionen av det nya [!DNL Adobe Experience Platform Web SDK]- eller at.js-JavaScript-biblioteket. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.8.1 (4 augusti 2021)
+## [!DNL Target Standard/Premium] 21.8.1 (Datum som ska fastställas)
 
 Den här underhållsversionen innehåller många backend-förbättringar, bland annat följande kundtillvända ändring:
 
