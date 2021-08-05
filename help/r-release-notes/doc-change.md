@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2077'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,11 @@ ht-degree: 0%
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
 
-## Adobe [!DNL Target] Standard/Premium 21.8.1 (4 augusti 2021)
-
-| Datum | Ämne | Ändringar |
-| --- | --- | --- |
-| 4 augusti | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `optinEnabled`-inställningen. |
-|  | [Versionsinformation om mål (aktuell)](/help/r-release-notes/release-notes.md): 21.8.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
-
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 juni 2021)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 4 augusti | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `optinEnabled`-inställningen. |
 | 3 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om [!UICONTROL Target Delivery API]-versionen. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om den kommande [!DNL Target Standard/Premium] 21.8.1-versionen (4 augusti 2021). |
 | 2 augusti | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>Trafikfördelning av aktiviteter automatiskt med A4T</li></ul> |
