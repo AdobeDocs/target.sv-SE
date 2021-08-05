@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 5 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Obs! [!DNL Target Standard/Premium] 18.8.1-versionen är fördröjd. |
+|  | [[!UICONTROL Auto-Allocate] översikt](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Följande frågor och svar har lagts till:<ul><li>Kan jag ändra rapporteringskällan mitt emellan genom en [!UICONTROL Auto-Allocate]-aktivitet?</li></ul> |
 | 4 augusti | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `optinEnabled`-inställningen. |
 | 3 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om [!UICONTROL Target Delivery API]-versionen. |
 |  | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om den kommande [!DNL Target Standard/Premium] 21.8.1-versionen (4 augusti 2021). |
