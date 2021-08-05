@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,11 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
-## [!DNL Target Standard/Premium] 21.8.1 (4 augusti 2021)
+## [!DNL Target Standard/Premium] 21.8.1 (Datum som ska fastställas)
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 21.8.1-versionen har fördröjts. Istället för att släppas den 4 augusti 2021 kommer version 21.8.1 att släppas inom de närmaste dagarna. Mer information om det finns.
 
 Den här underhållsversionen innehåller många backend-förbättringar, bland annat följande kundtillvända ändring:
 
