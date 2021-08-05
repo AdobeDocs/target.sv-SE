@@ -4,42 +4,42 @@ description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL
 title: Vad är en automatiskt fördelad aktivitet?
 feature: Automatisk allokering
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '3362'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
 
-# Automatisk allokering - översikt
+# [!UICONTROL Auto-Allocate] översikt
 
-En autoallokeringsaktivitet i [!DNL Adobe Target] identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig.
+En [!UICONTROL Auto-Allocate]-aktivitet i [!DNL Adobe Target] identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig.
 
 När du skapar en A/B-aktivitet med det guidade arbetsflödet i tre steg kan du välja alternativet [!UICONTROL Auto-Allocate to best experience].
 
 ## Utmaningen {#section_85D5A03637204BACA75E19646162ACFF}
 
-Standardtester av A/B har en inneboende kostnad. Man måste lägga ned trafik för att mäta prestanda för varje upplevelse och genom analyser ta fram den vinnande upplevelsen. Trafikfördelningen är fast även efter det att ni har insett att vissa upplevelser är bättre än andra. Det är dessutom komplicerat att ta reda på exempelstorleken, och aktiviteten måste gå hela kursen innan du kan agera på en vinnare. Efter att ha gjort allt detta finns det fortfarande en chans att den identifierade vinnaren inte är en riktig vinnare.
+Standardtester av A/B har en inneboende kostnad. Ni måste spendera trafik för att mäta prestanda för varje upplevelse och med hjälp av analyser räkna ut den vinnande upplevelsen. Trafikfördelningen är fast även efter det att ni har insett att vissa upplevelser är bättre än andra. Det är dessutom komplicerat att ta reda på exempelstorleken, och aktiviteten måste gå hela kursen innan du kan agera på en vinnare. Och det finns fortfarande en chans att den identifierade vinnaren inte är en riktig vinnare.
 
-## Lösningen: Automatisk allokering {#section_98388996F0584E15BF3A99C57EEB7629}
+## Lösningen: [!UICONTROL Auto-Allocate] {#section_98388996F0584E15BF3A99C57EEB7629}
 
-Automatisk fördelning minskar kostnaderna och kostnaderna för att fastställa en vinnande upplevelse. Automatisk allokering övervakar målmätningsprestanda för alla upplevelser och skickar fler nya deltagare proportionellt till de högpresterande upplevelserna. Det finns tillräckligt med trafik för att utforska de andra upplevelserna. Du kan se fördelarna med testet på dina resultat, även när aktiviteten fortfarande körs: optimering sker parallellt med inlärning.
+[!UICONTROL Auto-Allocate] minskar kostnaderna och kostnaderna för att fastställa en vinnande upplevelse. [!UICONTROL Auto-Allocate] övervakar målmätresultaten för alla upplevelser och skickar fler nya deltagare till högpresterande upplevelser proportionerligt. Det finns tillräckligt med trafik för att utforska de andra upplevelserna. Du kan se fördelarna med testet på dina resultat, även när aktiviteten fortfarande körs: optimering sker parallellt med inlärning.
 
-Automatisk tilldelning flyttar besökare mot vinnande upplevelser gradvis, i stället för att kräva att ni väntar tills en aktivitet upphör för att avgöra en vinnare. Ni tjänar på att lyfta snabbare eftersom aktivitetsdeltagare som skulle ha skickats till mindre framgångsrika upplevelser visas som potentiella vinnare.
+[!UICONTROL Auto-Allocate] flyttar besökarna mot vinnande upplevelser gradvis i stället för att kräva att ni väntar tills en aktivitet upphör för att avgöra en vinnare. Ni tjänar på att lyfta snabbare eftersom aktivitetsdeltagare som skulle ha skickats till mindre framgångsrika upplevelser visas som potentiella vinnare.
 
-Ett normalt A/B-test i Target visar endast parvisa jämförelser av utmanare med kontroll. Om en aktivitet till exempel har en upplevelse: A, B, C och D där A är kontrollen, skulle ett normalt A/B-test jämföra A mot B, A mot C och A mot D.
+Ett normalt A/B-test i [!DNL Target] visar endast parvis jämförelse av utmanare med kontroll. Om en aktivitet till exempel har en upplevelse: A, B, C och D där A är kontrollen, skulle ett normalt [!DNL Target] A/B-test jämföra A med B, A mot C och A mot D.
 
-I sådana tester använder de flesta produkter, inklusive Target, en students t-test för att skapa p-value-based trust. Detta konfidensvärde används sedan för att avgöra om utmanaren är tillräckligt olik kontrollen. Target utför dock inte automatiskt de implicita jämförelser (B mot C, B mot D och C mot D) som krävs för att hitta den&quot;bästa&quot; upplevelsen. Därför måste marknadsföraren manuellt analysera resultaten för att fastställa den&quot;bästa&quot; upplevelsen.
+I sådana tester använder de flesta produkter, inklusive [!DNL Target], Students t-test för att skapa p-value-based trust. Detta konfidensvärde används sedan för att avgöra om utmanaren är tillräckligt olik kontrollen. [!DNL Target] utför dock inte automatiskt de implicita jämförelser (B jämfört med C, B jämfört med D och C jämfört med D) som krävs för att hitta den&quot;bästa&quot; upplevelsen. Därför måste marknadsföraren manuellt analysera resultaten för att fastställa den&quot;bästa&quot; upplevelsen.
 
-Med Automatisk allokering utförs alla implicita jämförelser mellan upplevelser och skapar en&quot;sann&quot; vinnare. Det finns ingen uppfattning om&quot;kontroll&quot; i testet.
+[!UICONTROL Auto-Allocate] utför alla implicita jämförelser mellan upplevelser och skapar en&quot;sann&quot; vinnare. Det finns ingen uppfattning om&quot;kontroll&quot; i testet.
 
-Automatisk allokering tilldelar nya besökare till upplevelser på ett intelligent sätt tills konfidensintervallet för den bästa upplevelsen inte överlappar den för någon annan upplevelse. Vanligtvis kan den här processen ge upphov till falskt positiva resultat, men autoallokering använder konfidensintervall baserat på [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) som kompenserar för upprepade utvärderingar. I nuläget har vi en sann vinnare. När autoallokering upphör, förutsatt att det inte finns något stort tidsberoende för besökare som kommer till sidan, finns det minst 95 % chans att autoallokering returnerar en upplevelse vars verkliga respons inte är sämre än 1 % (relativ) mindre än det verkliga svaret från den vinnande upplevelsen.
+[!UICONTROL Auto-Allocate] Tilldela på ett intelligent sätt nya besökare till upplevelser tills konfidensintervallet för den bästa upplevelsen inte överlappar konfidensintervallet för någon annan upplevelse. Vanligtvis kan den här processen generera falskt positiva resultat, men [!UICONTROL Auto-Allocate] använder konfidensintervall baserat på [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) som kompenserar för upprepade utvärderingar. I nuläget finns det en sann vinnare. När [!UICONTROL Auto-Allocate] stoppas, förutsatt att det inte finns något stort tidsberoende för besökare som kommer till sidan, finns det minst 95 % chans att [!UICONTROL Auto-Allocate] returnerar en upplevelse vars verkliga svar inte är sämre än 1 % (relativt) mindre än det verkliga svaret från den vinnande upplevelsen.
 
-## Använd autofördelning jämfört med A/B eller Automated Personalization {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## När ska du använda [!UICONTROL Auto-Allocate] jämfört med A/B eller [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
-* Använd **Automatisk allokering** när du vill optimera din aktivitet från början och identifiera de vinnande upplevelserna så snabbt som möjligt. Genom att leverera högpresterande upplevelser oftare ökar den totala aktivitetsprestandan.
-* Använd ett **[A/B-test](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** när du vill karakterisera prestandan för alla upplevelser innan du optimerar webbplatsen. Ett A/B-test hjälper er att rangordna alla era upplevelser, medan Automated Traffic Allocation hittar de bästa resultaten men inte garanterar differentiering mellan de lägre prestandan.
-* Använd [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) när du vill ha optimeringsalgoritmer av högsta komplexitet, t.ex. maskininlärningsmodeller som bygger prognoser baserade på enskilda profilattribut. Automatiserad trafikallokering tittar på det sammanlagda beteendet för upplevelser (precis som standard-A/B-tester) och skiljer inte mellan besökarna.
+* Använd **[!UICONTROL Auto-Allocate]** när du vill optimera din aktivitet från början och identifiera de vinnande upplevelserna så snabbt som möjligt. Genom att leverera högpresterande upplevelser oftare ökar den totala aktivitetsprestandan.
+* Använd ett **[A/B-test](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** när du vill karakterisera prestandan för alla upplevelser innan du optimerar webbplatsen. Ett A/B-test hjälper er att rangordna alla era upplevelser, medan [!UICONTROL Auto-Allocate] hittar topprestanda, men inte garanterar differentiering mellan de lägre presterande.
+* Använd [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) när du vill ha optimeringsalgoritmer av högsta komplexitet, t.ex. maskininlärningsmodeller som bygger prognoser baserade på enskilda profilattribut. [!UICONTROL Auto-Allocate] tittar på det samlade beteendet för upplevelser (precis som standard-A/B-tester) och skiljer inte mellan besökare.
 
 ## Viktiga fördelar {#section_0913BF06F73C4794862561388BBDDFF0}
 
@@ -49,13 +49,13 @@ Automatisk allokering tilldelar nya besökare till upplevelser på ett intellige
 
 ## Terminologi {#section_670F8785BA894745B43B6D4BFF953188}
 
-Följande termer är användbara när du diskuterar Automatisk allokering:
+Följande termer är användbara när du diskuterar [!UICONTROL Auto-Allocate]:
 
 **Flerbeväpnad bandit:** Ett  [flerbeväpnat ](https://en.wikipedia.org/wiki/Multi-armed_bandit) bandittillvägagångssätt för optimering balanserar undersökande inlärning och utnyttjande av inlärningen.
 
-## Så här fungerar algoritmen {#section_ADB69A1C7352462D98849F2918D4FF7B}
+## Så fungerar algoritmen {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
-Den övergripande logiken bakom Automatisk allokering innefattar både uppmätta prestanda (t.ex. konverteringsgrad) och konfidensintervall för kumulativa data. Till skillnad från ett vanligt A/B-test där trafiken delas jämnt mellan upplevelser, ändrar Automatisk fördelning trafiktilldelningen mellan upplevelser.
+Den övergripande logiken bakom [!UICONTROL Auto-Allocate] innefattar både uppmätta prestanda (t.ex. konverteringsgrad) och konfidensintervall för kumulativa data. Till skillnad från ett standard-A/B-test där trafiken delas jämnt mellan upplevelser, ändrar [!UICONTROL Auto-Allocate] trafiktilldelningen mellan upplevelser.
 
 * 80 % av besökarna tilldelas enligt den intelligenta logik som beskrivs nedan.
 * 20 % av besökarna är slumpmässigt tilldelade till alla upplevelser för att anpassa sig till föränderligt besökarbeteende.
@@ -72,16 +72,16 @@ Bilden visar hur den trafik som tilldelats varje upplevelse fortskrider under fl
 
 | Ansökningstillfälle | Beskrivning |
 |--- |--- |
-| ![Varm rund](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Varm rund (0)**: Under uppvärmningsomgången får varje upplevelse samma trafiktilldelning tills varje upplevelse i aktiviteten har minst 1 000 besökare och 50 konverteringar.<ul><li>Upplev A=25 %</li><li>Upplevelse B=25 %</li><li>Upplev C=25 %</li><li>Upplevelse D=25 %</li></ul>När varje upplevelse har fått 1 000 besökare och 50 konverteringar startar Target automatiserad trafiktilldelning. Alla allokeringar sker i runda och två upplevelser väljs ut för varje runda.<br>Endast två upplevelser går framåt i nästa runda: D och C. <br>Framgången innebär att de två upplevelserna fördelas lika mellan 80 % av trafiken, medan de två andra upplevelserna fortsätter att delta, men endast är en del av den 20 % slumpmässiga trafikfördelningen när nya besökare kommer in i aktiviteten.<br>Alla allokeringar uppdateras varje timme (visas med avrundningar längs x-axeln ovan). Efter varje omgång jämförs de kumulativa uppgifterna. |
+| ![Varm rund](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Varm rund (0)**: Under uppvärmningsomgången får varje upplevelse samma trafiktilldelning tills varje upplevelse i aktiviteten har minst 1 000 besökare och 50 konverteringar.<ul><li>Upplev A=25 %</li><li>Upplevelse B=25 %</li><li>Upplev C=25 %</li><li>Upplevelse D=25 %</li></ul>När varje upplevelse har fått 1 000 besökare och 50 konverteringar startar Target automatiserad trafiktilldelning. Alla allokeringar sker i runda och två upplevelser väljs ut för varje runda.<br>Endast två upplevelser går framåt i nästa runda: D och C. <br>Framgången innebär att de två upplevelserna fördelas lika mellan 80 % av trafiken. De andra två upplevelserna fortsätter att delta, men får endast en del av den slumpmässiga trafiktilldelningen på 20 % när nya besökare kommer in i aktiviteten.<br>Alla allokeringar uppdateras varje timme (visas med avrundningar längs x-axeln ovan). Efter varje omgång jämförs de kumulativa uppgifterna. |
 | ![Ansökningstillfälle 1](/help/c-activities/automated-traffic-allocation/assets/aa-phase-1.png) | **Rund 1**: Under denna runda fördelas 80 % av trafiken till upplevelserna C och D (40 % vardera). 20 % av trafiken fördelas slumpmässigt till upplevelserna A, B, C och D (5 % var). Under denna runda fungerar upplevelsen A bra.<ul><li>Algoritmen väljer upplevelsen D för att gå vidare till nästa omgång eftersom den har den högsta konverteringsgraden (vilket anges i varje aktivitets lodräta skala).</li><li>Algoritmen väljer upplevelsen A för att gå vidare eftersom den har den högsta övre gränsen för Bernsteins 95-procentiga konfidensintervall för de återstående upplevelserna.</li></ul>Upplevelserna D och A går framåt. |
 | ![Ansökningstillfälle 2](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **Rund 2**: Under denna runda fördelas 80 % av trafiken till upplevelserna A och D (40 % vardera). 20 % av trafiken fördelas slumpmässigt, vilket innebär att A, B, C och D var och en får 5 % av trafiken. Under denna runda fungerar upplevelse B bra.<ul><li>Algoritmen väljer upplevelsen D för att gå vidare till nästa omgång eftersom den har den högsta konverteringsgraden (vilket anges i varje aktivitets lodräta skala).</li><li>Algoritmen väljer upplevelsen B för att gå vidare eftersom den har den högsta övre gränsen för Bernsteins 95-procentiga konfidensintervall för de återstående upplevelserna.</li></ul>Upplevelserna D och B går framåt. |
 | ![Ansökningstillfälle 3](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **Rund 3**: Under denna runda fördelas 80 % av trafiken till upplevelserna B och D (40 % vardera). 20 % av trafiken fördelas slumpmässigt, vilket innebär att A, B, C och D var och en får 5 % av trafiken. Under denna runda fortsätter upplevelse D att fungera bra och upplevelsen C fungerar bra.<ul><li>Algoritmen väljer upplevelsen D för att gå vidare till nästa omgång eftersom den har den högsta konverteringsgraden (vilket anges i varje aktivitets lodräta skala).</li><li>Algoritmen väljer upplevelsen C för att gå vidare eftersom den har den högsta övre gränsen för Bernsteins 95-procentiga konfidensintervall för de återstående upplevelserna.</li></ul>Upplevelserna D och C går framåt. |
 | ![Ansökningstillfälle 4](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **Rund 4**: Under denna runda fördelas 80 % av trafiken till upplevelserna C och D (40 % vardera). 20 % av trafiken fördelas slumpmässigt, vilket innebär att A, B, C och D var och en får 5 % av trafiken. Under denna runda fungerar upplevelse C bra.<ul><li>Algoritmen väljer upplevelsen C för att gå vidare till nästa omgång eftersom den har den högsta konverteringsgraden (vilket anges i varje aktivitets lodräta skala).</li><li>Algoritmen väljer upplevelsen D för att gå vidare eftersom den har den högsta övre gränsen för Bernsteins 95-procentiga konfidensintervall för de återstående upplevelserna.</li></ul>Upplevelserna C och D går framåt. |
-| ![Rund n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Rund n**: När aktiviteten utvecklas börjar en högpresterande upplevelse uppstå, och processen fortsätter tills det finns en vinnande upplevelse. När konfidensintervallet för den upplevelse som har den högsta konverteringsgraden inte överlappar någon annan upplevelses konfidensintervall, kallas det vinnaren och ett [märke visas på aktivitetens sida](/help/c-activities/automated-traffic-allocation/determine-winner.md) och i aktivitetslistan.<ul><li>Algoritmen väljer upplevelsen C som klar vinnare</li></ul>I nuläget betjänar algoritmen 80 % av trafiken till upplevelsen C, medan 20 % av trafiken fortfarande betjänas slumpmässigt för alla upplevelser (A, B, C och D). C får totalt 85 % av trafiken. Om det osannolika skulle inträffa att vinnarens konfidensintervall börjar överlappa igen, kommer algoritmen att återgå till beteendet för runda 4 ovan.<br>**Viktigt**: Om du valde en vinnare manuellt tidigare i processen hade det varit enkelt att välja fel upplevelse. Av den anledningen är det bäst att vänta tills algoritmen bestämmer vinnarupplevelsen. |
+| ![Rund n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Rund n**: När aktiviteten utvecklas börjar en högpresterande upplevelse uppstå, och processen fortsätter tills det finns en vinnande upplevelse. När konfidensintervallet för upplevelsen med den högsta konverteringsgraden inte överlappar något annat upplevelseintervall, kallas det vinnaren. Ett [märke visas på den vinnande aktivitetens sida](/help/c-activities/automated-traffic-allocation/determine-winner.md) och i [!UICONTROL Activity]-listan.<ul><li>Algoritmen väljer upplevelsen C som klar vinnare</li></ul>I nuläget betjänar algoritmen 80 % av trafiken till upplevelsen C, medan 20 % av trafiken fortfarande betjänas slumpmässigt för alla upplevelser (A, B, C och D). C får totalt 85 % av trafiken. Om det osannolika skulle inträffa att vinnarens konfidensintervall börjar överlappa igen, kommer algoritmen att återgå till beteendet för runda 4 ovan.<br>**Viktigt**: Om du valde en vinnare manuellt tidigare i processen hade det varit enkelt att välja fel upplevelse. Av den anledningen är det bäst att vänta tills algoritmen bestämmer vinnarupplevelsen. |
 
 >[!NOTE]
 >
->Om en aktivitet bara har två upplevelser får båda upplevelserna samma trafik tills [!DNL Target] hittar en vinnande upplevelse med 75 % förtroende. Då tilldelas vinnaren 2/3 av trafiken och 1/3 till förloraren. När upplevelsen når 95 % av förtroendet tilldelas vinnaren 90 % av trafiken och 10 % tilldelas förloraren. Vi upprätthåller alltid viss trafik som skickas till&quot;förlorande&quot; upplevelsen för att undvika falska positiva utfall i det långa loppet (d.v.s. bevara lite utforskande).
+>Om en aktivitet bara har två upplevelser får båda upplevelserna samma trafik tills [!DNL Target] hittar en vinnande upplevelse med 75 % förtroende. Då fördelas två tredjedelar av trafiken till vinnaren och en tredjedel till förloraren. När upplevelsen når 95 % av förtroendet tilldelas vinnaren 90 % av trafiken och 10 % tilldelas förloraren. [!DNL Target] upprätthåller alltid viss trafik som skickas till&quot;förlorande&quot; upplevelsen för att i slutänden undvika falska positiva resultat (dvs. bevara lite utforskande).
 
 När en [!UICONTROL Auto-Allocate]-aktivitet har aktiverats tillåts inte följande åtgärder från gränssnittet:
 
@@ -95,35 +95,35 @@ Mer information finns i [Automatisk allokering kan ge snabbare testresultat och 
 
 ## Caveats {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**Funktionen Automatisk allokering fungerar bara med en avancerad måttinställning: Öka antal och behåll användare i aktivitet**
+**Funktionen  [!UICONTROL Auto-Allocate] fungerar bara med en avancerad måttinställning:[!UICONTROL Increment Count and Keep User in Activity]**
 
-Följande avancerade måttinställningar stöds inte: Ökningsantal, Frigör användare, Tillåt återinträde och ökning samt Frigör användare och fält från återinträde.
+Följande avancerade måttinställningar stöds inte: [!UICONTROL Increment Count], [!UICONTROL Release User], [!UICONTROL Allow Reentry and Increment Count] och [!UICONTROL Release User and Bar from Reentry].
 
 **Besökare som ofta återvänder kan öka konverteringsgraden.**
 
-Om en besökare som ser upplevelsen A returnerar ofta och konverterar flera gånger, ökar konverteringsgraden (CR) för upplevelsen A artificiellt. Jämför detta med upplevelse B, där besökarna konverterar men inte återvänder ofta. Därför ser CR för A bättre ut än CR för B, så nya besökare är mer benägna att tilldelas A än B. Om du väljer att räkna en gång per deltagare kan CR för A och CR för B vara identiska.
+Om en besökare som ser upplevelsen A returnerar ofta och konverterar flera gånger, ökar konverteringsgraden (CR) för upplevelsen A artificiellt. Jämför detta resultat med upplevelse B, där besökarna konverterar men inte återvänder ofta. Därför ser upplevelsen A bättre ut än upplevelsen B, så nya besökare är mer benägna att tilldelas A än B. Om du väljer att räkna en gång per deltagare kan CR för A och CR för B vara identiska.
 
 Om besökarna är slumpmässigt utspridda är det troligare att deras inverkan på konverteringsgraden jämnas ut. Om du vill minska den här effekten bör du överväga att ändra metoden för målmåttet så att endast en gång per deltagare räknas.
 
 **Skillnader mellan högpresterande, inte mellan lågpresterande.**
 
-Automatisk fördelning är bra på att skilja mellan högpresterande upplevelser (och att hitta en vinnare). Det kan finnas tillfällen då ni inte har tillräckligt stor differentiering mellan de underpresterande upplevelserna.
+[!UICONTROL Auto-Allocate] är bra på att skilja mellan högpresterande upplevelser (och att hitta en vinnare). Det kan finnas tillfällen då ni inte har tillräckligt stor differentiering mellan de underpresterande upplevelserna.
 
-Om du vill skapa statistiskt signifikanta skillnader mellan alla upplevelser kan du använda manuellt trafikallokeringsläge.
+Om ni vill skapa statistiskt signifikanta skillnader mellan alla upplevelser kanske ni bör använda det manuella trafiktilldelningsläget.
 
 **Tidskorrelerade (eller sammanhangsberoende) konverteringsgrader kan förvränga allokeringsbelopp.**
 
-Vissa faktorer som kan ignoreras under ett standard-A/B-test, eftersom de påverkar alla upplevelser lika, kan inte ignoreras i ett autoallokeringstest. Algoritmen är känslig för de konverteringsgrader som observeras. Nedan följer exempel på faktorer som kan påverka prestandan olika:
+Vissa faktorer som kan ignoreras under ett standard-A/B-test eftersom de påverkar alla upplevelser lika, kan inte ignoreras i ett [!UICONTROL Auto-Allocate]-test. Algoritmen är känslig för de konverteringsgrader som observeras. Nedan följer exempel på faktorer som kan påverka prestandan olika:
 
-* Upplevelser med varierande kontextuella egenskaper (tid, plats, kön, osv.) relevans.
+* Upplevelser med varierande sammanhangsberoende relevans (tid, plats, kön och så vidare).
 
    Exempel:
 
    * &quot;Tack och lov att det är fredag&quot; resulterar i högre konverteringar på fredag
    * &quot;Snabbstart på måndag&quot; har högre konverteringsgrad på måndag
-   * &quot;Redo för en öster-kustvinter&quot; ger större konvertering i öster-kusten eller vinterdrabbade platser
+   * &quot;Redo för en vinter på östkusten&quot; ger högre konverteringsgrad i öster- och vinterdrabbade platser
 
-Dessa kan skeva resultaten i ett autofördelningstest mer än i ett A/B-test eftersom A/B-testet analyserar resultaten under en längre period.
+Om du använder upplevelser med varierande sammanhangsberoende relevans kan du skeva resultatet i ett [!UICONTROL Auto-Allocate]-test mer än i ett A/B-test eftersom A/B-testet analyserar resultaten under en längre period.
 
 * Upplevelser med varierande fördröjningar i konverteringen, möjligen på grund av meddelandets brådskande karaktär.
 
@@ -133,25 +133,25 @@ Dessa kan skeva resultaten i ett autofördelningstest mer än i ett A/B-test eft
 
 Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Allocate]-aktiviteter:
 
-### Har Analytics för Adobe Target (A4T) stöd för automatisk fördelning av aktiviteter?
+### Har [!UICONTROL Analytics for Target] (A4T) stöd för [!UICONTROL Auto-Allocate] aktiviteter?
 
 Ja. Mer information finns i [A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Omfördelas återkommande besökare automatiskt till högpresterande upplevelser?
 
-Nej. Endast nya besökare tilldelas automatiskt. Återkommande besökare ser sin ursprungliga upplevelse. Detta skyddar A/B-testets giltighet.
+Nej. Endast nya besökare tilldelas automatiskt. Återkommande besökare ser sin ursprungliga upplevelse för att skydda A/B-testets giltighet.
 
 ### Hur behandlar algoritmen falska positiv?
 
 Algoritmen garanterar 95 % konfidensgrad eller 5 % falskt positiv frekvens om du väntar tills vinnarmärket visas.
 
-### När börjar den automatiska fördelningen av trafik?
+### När börjar [!UICONTROL Auto-Allocate] allokera trafik?
 
 Algoritmen börjar fungera efter att alla upplevelser i aktiviteten har minst 1 000 besökare och 50 konverteringar.
 
 ### Hur aggressivt utnyttjar algoritmen?
 
-80 % av trafiken betjänas med autotilldelning och 20 % av trafiken betjänas slumpmässigt. När en vinnare har identifierats hamnar alla 80 % av trafiken på den, medan alla upplevelser fortsätter att få viss trafik som en del av 20 %, inklusive den vinnande upplevelsen.
+80 % av trafiken betjänas med [!UICONTROL Auto-Allocate] och 20 % av trafiken betjänas slumpmässigt. När en vinnare har identifierats hamnar alla 80 % av trafiken på den, medan alla upplevelser fortsätter att få viss trafik som en del av 20 %, inklusive den vinnande upplevelsen.
 
 ### Visas förlorade upplevelser överhuvudtaget?
 
@@ -159,47 +159,53 @@ Ja. Den multiväpnade banken ser till att minst 20 % av trafiken reserveras för
 
 ### Vad händer med aktiviteter med långa konverteringsförseningar?
 
-Så länge alla upplevelser som optimeras har liknande fördröjningar är beteendet detsamma som en aktivitet med snabbare konverteringscykel, även om det tar längre tid att nå tröskelvärdet på 50 konverteringar innan trafikallokeringsprocessen börjar.
+Så länge alla upplevelser som optimeras har liknande fördröjningar är beteendet detsamma som en aktivitet med en snabbare konverteringscykel. Det tar dock längre tid att nå tröskelvärdet på 50 konverteringar innan trafikallokeringsprocessen börjar.
 
-### Hur skiljer sig Automatisk fördelning från Automated Personalization?
+### Hur skiljer sig [!UICONTROL Auto-Allocate] från [!UICONTROL Automated Personalization]?
 
-Automated Personalization använder varje besökares profilattribut för att fastställa den bästa upplevelsen. På så sätt optimeras inte bara aktiviteten, utan även personaliseras för användaren.
+[!UICONTROL Automated Personalization] använder varje besökares profilattribut för att fastställa den bästa upplevelsen. På så sätt optimeras inte bara aktiviteten, utan även personaliseras för användaren.
 
-Auto-Allocate är å andra sidan ett A/B-test som skapar en sammanställd vinnare (den mest populära upplevelsen, men inte nödvändigtvis den mest effektiva upplevelsen för varje besökare).
+[!UICONTROL Auto-Allocate]å andra sidan är ett A/B-test som ger en sammanlagd vinnare (den mest populära upplevelsen, men inte nödvändigtvis den mest effektiva upplevelsen för varje besökare).
 
 ### Ökar återkommande besökare konverteringsgraden på min framgångsstatistik?
 
-För närvarande är logiken en fördel för besökare som snabbt konverterar eller besöker oftare. Detta beror på att besökarna tillfälligt ökar den totala konverteringsgraden för den upplevelse de tillhör. Algoritmen justerar sig ofta, så ökningen av konverteringsgraden förstärks vid varje ögonblicksbild. Om webbplatsen får många besökare kan deras konverteringar öka den totala konverteringsgraden för den upplevelse de tillhör. Det finns en bra möjlighet att återkommande besökare fördelas slumpmässigt, och i så fall jämnas den sammanlagda effekten (ökad lyft) ut. Om du vill minska den här effekten bör du överväga att ändra beräkningsmetoden för framgångsmåttet så att endast en gång per deltagare räknas.
+För närvarande gynnar logiken besökare som snabbt konverterar eller besöker besökare oftare eftersom besökarna tillfälligt ökar den totala konverteringsgraden för den upplevelse de tillhör. Algoritmen justerar sig ofta, så ökningen av konverteringsgraden förstärks vid varje ögonblicksbild. Om webbplatsen får många besökare kan deras konverteringar öka den totala konverteringsgraden för den upplevelse de tillhör. Det finns en bra möjlighet att återkommande besökare fördelas slumpmässigt, och i så fall jämnas den sammanlagda effekten (ökad lyft) ut. Om du vill minska den här effekten bör du överväga att ändra beräkningsmetoden för framgångsmåttet så att endast en gång per deltagare räknas.
 
-### Kan jag använda beräkningsverktyget för provstorlek när jag använder Automatisk allokering för att beräkna hur lång tid aktiviteten tar för att identifiera vinnaren?
+### Kan jag använda beräkningsverktyget för exempelstorlek när jag använder [!UICONTROL Auto-Allocate] för att beräkna hur lång tid det tar för aktiviteten att identifiera vinnaren?
 
-Du kan använda den befintliga [beräknaren för provstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) för att få en uppskattning av hur länge testet kommer att köras. (Precis som vid traditionell A/B-testning ska du tillämpa Bonferroni-korrigering om du testar fler än två erbjudanden eller mer än ett konverteringsmått/-hypotes.) Observera att den här räknaren är utformad för traditionell A/B-testning med fast horisont och endast ger en uppskattning. Det är valfritt att använda beräkningsverktyget för en autoallokeringsaktivitet eftersom autoallokering deklarerar en vinnare åt dig - du behöver inte välja en fast tidpunkt för att kunna se testresultaten - de angivna värdena är alltid statistiskt giltiga. I våra experiment har vi hittat följande:
-* När du testar exakt två upplevelser hittar Automatisk tilldelning en vinnare snabbare än en testning med fast horisont (d.v.s. den tidsram som anges av beräknaren för samplingsstorlek) när prestandaskalskillnaden mellan upplevelserna är stor, men det kan kräva extra tid för att identifiera en vinnare när prestandaskalskillnaden mellan upplevelserna är liten. I dessa fall skulle tester med fast horisont normalt ha avslutats utan ett statistiskt signifikant resultat.
-* När du testar mer än två upplevelser hittar Automatisk tilldelning en vinnare snabbare än vid fasta tidsperioder (d.v.s. den tidsram som anges av beräknaren för provstorlek) när en upplevelse är helt perfekt för alla andra upplevelser. När två eller flera upplevelser båda&quot;vinner&quot; jämfört med andra upplevelser men är nära sammankopplade med varandra, kan Automatisk tilldelning kräva extra tid för att avgöra vilken som är bäst. I dessa fall skulle tester med fast horisont normalt ha avslutats genom att dra slutsatsen att de&quot;vinnande&quot; upplevelserna var bättre än de lågpresterande upplevelserna, men inte ha identifierat vilken som var bäst.
+Du kan använda den befintliga [beräknaren för provstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) för att få en uppskattning av hur länge testet körs. (Precis som vid traditionell A/B-testning ska du tillämpa Bonferroni-korrigering om du testar fler än två erbjudanden eller mer än ett konverteringsmått/-hypotes.) Den här räknaren är utformad för traditionell A/B-testning med fast horisont och ger endast en uppskattning. Det är valfritt att använda beräkningsverktyget för en [!UICONTROL Auto-Allocate]-aktivitet eftersom [!UICONTROL Auto-Allocate] deklarerar en vinnare åt dig. Du behöver inte välja en fast tidpunkt för att se på testresultaten. De angivna värdena är alltid statistiskt giltiga. I våra experiment har vi hittat följande:
+* När du testar exakt två upplevelser hittar [!UICONTROL Auto-Allocate] en vinnare snabbare än en testning med fast horisont (d.v.s. den tidsram som anges av beräknaren för provstorlek) när prestandaskalskillnaden mellan upplevelserna är stor. [!UICONTROL Auto-Allocate] kan dock kräva extra tid för att identifiera en vinnare när skillnaden mellan upplevelserna är liten. I dessa fall skulle tester med fast horisont normalt ha avslutats utan ett statistiskt signifikant resultat.
+* När [!UICONTROL Auto-Allocate] testar mer än två upplevelser hittar  en vinnare snabbare än en testning med fast horisont (d.v.s. den tidsram som anges av beräknaren för samplingsstorlek) när en upplevelse är helt perfekt för alla andra upplevelser. När två eller flera upplevelser båda&quot;vinner&quot; jämfört med andra upplevelser, men har en nära koppling till varandra, kan [!UICONTROL Auto-Allocate] kräva extra tid för att avgöra vilken som är bäst. I dessa fall skulle tester med fast horisont normalt ha avslutats genom att dra slutsatsen att de&quot;vinnande&quot; upplevelserna var bättre än de lågpresterande upplevelserna, men inte ha identifierat vilken som var bäst.
 
-### Bör jag ta bort en underpresterande upplevelse från en autoallokeringsaktivitet för att snabba upp processen att fastställa en vinnare?
+### Ska jag ta bort en underpresterande upplevelse från en [!UICONTROL Auto-Allocate]-aktivitet för att snabba upp processen att fastställa en vinnare?
 
-Det finns ingen anledning att ta bort en underpresterande upplevelse. Automatisk allokering ger automatiskt bättre prestanda och ger sämre prestanda. Att lämna en underpresterande upplevelse i aktiviteten påverkar inte i någon större utsträckning hastigheten för att avgöra en vinnare.
+Det finns ingen anledning att ta bort en underpresterande upplevelse. [!UICONTROL Auto-Allocate] levererar automatiskt högpresterande upplevelser oftare och ger sämre prestanda. Att lämna en underpresterande upplevelse i aktiviteten påverkar inte i någon större utsträckning hastigheten för att avgöra en vinnare.
 
 20 % av besökarna är slumpmässigt tilldelade till alla upplevelser. Mängden trafik som ger en underpresterande upplevelse är minimal (20 % dividerat med antalet upplevelser).
 
-### Kan jag ändra målmåttet genom en autoallokeringsaktivitet? {#change-metric}
+### Kan jag ändra målmåttet genom en [!UICONTROL Auto-Allocate]-aktivitet? {#change-metric}
 
-Vi rekommenderar inte att du ändrar målmåttet halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med hjälp av användargränssnittet för [!DNL Target] bör du alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
+[!DNL Adobe] rekommenderar inte att du ändrar målmåttet på halvvägs genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med hjälp av användargränssnittet för [!DNL Target] bör du alltid starta en ny aktivitet. [!DNL Adobe] garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
 
 Den här rekommendationen gäller för [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
 
-### Kan jag använda alternativet Återställ rapportdata när jag kör en autoallokeringsaktivitet?
+### Kan jag ändra rapporteringskällan mitt emellan genom en [!UICONTROL Auto-Allocate]-aktivitet? {#change-reporting}
 
-Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Auto-Allocate]-aktiviteter. Även om det tar bort synliga rapportdata tas inte alla utbildningsposter bort från [!UICONTROL Auto-Allocate]-modellen. I stället för att använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Auto-Allocate]-aktiviteter skapar du en ny aktivitet och inaktiverar den ursprungliga aktiviteten. (Obs! Den här vägledningen gäller även för [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter.)
+[!DNL Adobe] rekommenderar inte att du ändrar rapportkällan mitt i vägen genom en aktivitet. Även om det är möjligt att ändra rapportkällan (från [!DNL Target] till A4T eller vice versa) under en aktivitet med hjälp av användargränssnittet i [!DNL Target] bör du alltid starta en ny aktivitet. [!DNL Adobe] garanterar inte vad som händer om du ändrar rapportkällan i en aktivitet efter att den har körts.
 
-### Hur bygger Automatisk tilldelning modeller med hänsyn till miljöer?
+Den här rekommendationen gäller för [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter som använder antingen [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
 
-[!UICONTROL Auto-Allocate] bygger modeller som bygger på trafik- och konverteringsbeteenden som registreras endast i standardmiljön. Som standard är [!UICONTROL Production] standardmiljön, men den kan ändras i mål [Administration > Miljöer](/help/administrating-target/environments.md).
+### Kan jag använda alternativet [!UICONTROL Reset Report Data] när jag kör en [!UICONTROL Auto-Allocate]-aktivitet?
 
-Om en träff inträffar i en annan (icke-standardmiljö) kommer trafiken att fördelas enligt det observerade konverteringsbeteendet i standardmiljön. Resultatet av den träffen (konvertering eller icke-konvertering) registreras för rapportering men tas inte med i [!UICONTROL Auto-Allocate]-modellen.
+Du bör inte använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Auto-Allocate]-aktiviteter. Även om det tar bort synliga rapportdata tas inte alla utbildningsposter bort från [!UICONTROL Auto-Allocate]-modellen. I stället för att använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Auto-Allocate]-aktiviteter skapar du en ny aktivitet och inaktiverar den ursprungliga aktiviteten. (Den här vägledningen gäller även för [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter.)
 
-När du väljer en annan miljö visar rapporten trafik och konverteringar för den miljön. Den standardmiljö som väljs för en rapport är alltid det kontoövergripande standardvärde som valts. Standardmiljön kan inte anges per aktivitet.
+### Hur bygger [!UICONTROL Auto-Allocate] modeller med avseende på miljöer?
+
+[!UICONTROL Auto-Allocate] bygger modeller som bygger på trafik- och konverteringsbeteenden som registreras endast i standardmiljön. Som standard är [!UICONTROL Production] standardmiljön, men standardmiljön kan ändras i [!DNL Target] [Administration > Miljöer](/help/administrating-target/environments.md).
+
+Om en träff inträffar i en annan (icke-standardmiljö) fördelas trafiken enligt det observerade konverteringsbeteendet i standardmiljön. Resultatet av den träffen (konvertering eller icke-konvertering) registreras för rapporteringsändamål men beaktas inte i [!UICONTROL Auto-Allocate]-modellen.
+
+När du väljer en annan miljö visar rapporten trafik och konverteringar för den miljön. Den standardmiljö som valts för en rapport är det kontoövergripande standardvärde som valts. Standardmiljön kan inte anges per aktivitet.
 
 ## Utbildningsvideor {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
@@ -212,15 +218,15 @@ Den här videon innehåller information om hur du ställer in trafikallokering.
 * Tilldela en målgrupp till din aktivitet
 * Begränsa trafiken uppåt eller nedåt
 * Välj trafikallokeringsmetod
-* fördela trafik mellan olika upplevelser
+* Fördela trafik mellan olika upplevelser
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### Skapa A/B-tester (8:36) ![Självstudiemärke](/help/assets/tutorial.png)
 
-I den här videon visas hur du skapar ett A/B-test med det guidade arbetsflödet i tre steg för Target. Automatiserad trafikallokering diskuteras från 4:45.
+I den här videon visas hur du skapar ett A/B-test med det guidade arbetsflödet i tre steg för Target. [!UICONTROL Auto-Allocate] behandlas från 4:45.
 
-* Skapa en A/B-aktivitet i Adobe Target
+* Skapa en A/B-aktivitet i [!DNL Adobe Target]
 * Allokera trafik med manuell, delad eller automatisk trafikallokering
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
