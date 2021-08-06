@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 6 augusti | [Innan du implementerar  [!UICONTROL Analytics for Target] (A4T) med at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Uppdaterat följande meddelande:<ul><li>at.js 1.8.0+ och at.js 2.x+ fungerar inte längre med Visitor API-versioner som är äldre än 2.5.0 för att skicka Adobe Audience Manager-parametrar (AAM).</li></ul> |
 | 5 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Obs! [!DNL Target Standard/Premium] 18.8.1-versionen är fördröjd. |
 |  | [[!UICONTROL Auto-Allocate] översikt](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Följande frågor och svar har lagts till:<ul><li>Kan jag ändra rapporteringskällan mitt emellan genom en [!UICONTROL Auto-Allocate]-aktivitet?</li></ul> |
 | 4 augusti | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Lagt till information om `optinEnabled`-inställningen. |
