@@ -1,13 +1,13 @@
 ---
-keywords: äpple;ITP;intelligent tracking prevent;experience cloud id;ecid
+keywords: äpple;ITP;intelligent tracking prevent;experience cloud id;ecid;itp
 description: Läs om Adobe [!DNL Target] och effekten av Apple Intelligent Tracking Prevention (ITP) som syftar till att skydda Safaris integritet.
 title: Hur hanterar [!DNL Target] Apple ITP stöd?
 feature: Integritet och säkerhet
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
+source-git-commit: 898a18cbd9c6f499f9e7b74078575bc149c9a292
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
