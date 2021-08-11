@@ -5,9 +5,9 @@ landing-page-description: Lär dig mer om de nya funktionerna, förbättringarna
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2d11409e9bab2db5d12c5961c7336040b8544614
+source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!DNL Target] node.js SDK 2.1.8 (11 augusti 2021)
+
+* SDK-telemetridatainsamling har lagts till
+* Öppen API-kodegen för automatisk leverans
+
+Mer information om den här och tidigare versioner finns i [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) i [Target node.js SDK-dokumentationen](https://github.com/adobe/target-nodejs-sdk) för Github.
 
 ## [!DNL Target Standard/Premium] 21.8.1 (Datum som ska fastställas)
 
