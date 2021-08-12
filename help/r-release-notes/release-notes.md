@@ -5,7 +5,7 @@ landing-page-description: Lär dig mer om de nya funktionerna, förbättringarna
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
-## [!DNL Target] node.js SDK 2.1.8 (11 augusti 2021)
+## [!DNL Target] node.js SDK 2.2.0 (11 augusti 2021)
 
 * SDK-telemetridatainsamling har lagts till
 * Öppen API-kodegen för automatisk leverans
