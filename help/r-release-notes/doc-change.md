@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2158'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 11 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Versionsinformation har lagts till för [!DNL Target] node.js SDK. |
+| 11 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Versionsinformation har lagts till för [!DNL Target] node.js SDK version 2.2.0. |
 | 9 augusti | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Uppdaterat ämne. |
 | 6 augusti | [Innan du implementerar  [!UICONTROL Analytics for Target] (A4T) med at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Uppdaterat följande meddelande:<ul><li>at.js 1.8.0+ och at.js 2.x+ fungerar inte längre med Visitor API-versioner som är äldre än 2.5.0 för att skicka Adobe Audience Manager-parametrar (AAM).</li></ul> |
 | 5 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Obs! [!DNL Target Standard/Premium] 18.8.1-versionen är fördröjd. |
