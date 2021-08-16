@@ -5,9 +5,9 @@ landing-page-description: Lär dig mer om de nya funktionerna, förbättringarna
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 >Migrera till den senaste versionen av nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js för att undvika eventuella problem med dina webbplatser. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## kl. 2.6.1 (16 augusti 2021)
+
+* Felkorrigering för &quot;Ingen cachelagrad artefakt tillgänglig för hybridläge&quot; vid användning av enhetsbeslut.
 
 ## [!DNL Target] node.js SDK 2.2.0 (11 augusti 2021)
 
