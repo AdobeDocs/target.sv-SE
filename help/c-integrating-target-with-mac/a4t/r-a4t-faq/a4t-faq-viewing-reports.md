@@ -4,10 +4,9 @@ description: Hitta svar på frågor som ofta ställs om att visa rapporter när 
 title: Hitta svar på frågor om att visa rapporter med A4T?
 feature: Analyser för mål (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2502'
 ht-degree: 1%
 
 ---
@@ -93,28 +92,28 @@ Den 1 januari kommer användaren till webbplatsen och ser aktiviteten XYZ en gå
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 1 | 3 |
 
 Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter inte på fler Target-aktiviteter och den ursprungliga aktiviteten är inte längre aktiv. Även om aktiviteten inte längre är aktiv följer den fortfarande användaren via eVar persistence. Data ser nu ut så här:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren visar också fem sidor. Eftersom aktiviteten XYZ fortfarande följer användaren genom persistence, och den här användaren sedan har ABC inställt, visas två radartiklar i rapporten:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 1 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 15 | 1 | 1 |
+| ABC | 1 | 5 | 1 | 3 |
 
 Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Det första eVar 90-dagars förfallodatum återställs den 1 april, så du ser det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 3 | 1 |
-| ABC | 1 | 10 | 2 | 3 | 3 |
-| Totalt | 2 | 20 | 3 | 1 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 1 |
+| ABC | 3 | 10 | 2 | 3 | 3 |
+| Totalt | 2 | 20 | 3 | 1 | 3 |
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Du jämför resultatet av två objekt i en enskild aktivitet. Det är inte möjligt för en användare att se olika upplevelser i samma aktivitet, så du behöver inte bekymra dig om korskontaminering av orderkrediter.
 
@@ -142,9 +141,9 @@ I följande lista förklaras varför samma besökare kunde räknas med i flera u
 * Om besökaren använder `mbox3rdPartyId` kan [!DNL Target] ge besökaren en annan upplevelse när den anonyma besökaren sammanfogas med profilen för tredjeparts-ID när  sammanfogar besökaren med en annan upplevelse för att matcha med ID:t från tredje part. Mer information finns i [Profilsynkronisering i realtid för mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * [!DNL Analytics] kan spåra olika enheter som samma besökare på ett annat sätt än att  [!DNL Target] spåra dessa enheter: Inställningarna av tredjeparts-ID i  [!DNL Target] skiljer sig från dem i Analytics.
 
-## Stöder A4T virtuella rapportsviter?
+## Stöder A4T virtuella rapportsviter? {#virtual}
 
-Virtuella rapportsviter är *inte* inkluderade i [!UICONTROL Report Suite]-listan och målgrupper från virtuella rapportsviter stöds inte i A4T-rapportering.
+Även om virtuella rapportsviter inte ingår i [!UICONTROL Report Suite]-listan har alla A4T-data som delas med en rapportsvit som är länkad till en virtuell rapportsvit i [!DNL Analytics] åtkomst till dessa data. Observera att alla målgrupper som skapats från en virtuell rapportserie inte kan delas tillbaka till [!DNL Target].
 
 ## Kan jag ändra procentandelen trafiktilldelning i en aktivitet som använder A4T efter att aktiviteten har aktiverats?
 
