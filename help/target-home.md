@@ -4,7 +4,7 @@ title: Var finns  [!DNL Target] dokumentation?
 description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa kundernas upplevelse och maximera intäkterna på webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Översikt
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Beskriver hur du distribuerar på målservern. Denna Node.js SDK hjälper er att enkelt integrera Target med andra Adobe Experience Cloud-lösningar.
 - [Mål-Java SDK](https://github.com/adobe/target-java-sdk): Beskriver hur du distribuerar på målservern. Denna Java SDK hjälper dig att enkelt integrera Target med andra Adobe Experience Cloud-lösningar.
 - [Recommendations API](https://developers.adobetarget.com/api/recommendations/): mål: Beskriver de resurser som utgör det officiella API:t för Adobe Target Recommendations.
-- [Adobe.IO-dokumentation](http://developers.adobetarget.com/api/#introduction): Beskriver hur du använder Target Admin- och Profile REST-API:er som använder Adobe.IO-integreringen för att hantera aktiviteter, målgrupper, erbjudanden, egenskaper, rapporter, kryssrutor, miljöer och profiler.
+- [Adobe.IO-dokumentation](https://developers.adobetarget.com/api/#introduction): Beskriver hur du använder Target Admin- och Profile REST-API:er som använder Adobe.IO-integreringen för att hantera aktiviteter, målgrupper, erbjudanden, egenskaper, rapporter, kryssrutor, miljöer och profiler.
 
 ## Mål- och Adobe Experience Cloud-administratörer {#admins}
 
