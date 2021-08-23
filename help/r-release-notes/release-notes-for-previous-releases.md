@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Versionsinformation
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '31009'
+source-wordcount: '30999'
 ht-degree: 0%
 
 ---
@@ -1956,7 +1956,7 @@ Den här [!DNL Target]-versionen innehåller följande förbättringar och korri
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 med FP-11577 (eller senare) har nu stöd för  [!DNL at.js] implementeringar med dess  [!UICONTROL Adobe Target Cloud Services] integrering. Mer information finns i [Funktionspaket](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) och [Integrera med Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) i *Adobe Experience Manager 6.2*-dokumentationen.
+>[!DNL Adobe Experience Manager] 6.2 med FP-11577 (eller senare) har nu stöd för  [!DNL at.js] implementeringar med dess  [!UICONTROL Adobe Target Cloud Services] integrering. Mer information finns i [Funktionspaket](https://experienceleague.adobe.com/docs/) och [Integrera med Adobe Target](https://experienceleague.adobe.com/docs/) i *Adobe Experience Manager 6.2*-dokumentationen.
 
 Den här [!DNL Target]-versionen fokuserar på användbarhets- och prestandaförbättringar och innehåller följande förbättringar och korrigeringar (felnummer inom parentes används för intern Adobe):
 
