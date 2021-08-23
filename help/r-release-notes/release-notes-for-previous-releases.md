@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Versionsinformation
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '30999'
+source-wordcount: '30977'
 ht-degree: 0%
 
 ---
@@ -1269,7 +1269,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Marketing Cloud har fått ett nytt varumärke och kallas nu Adobe Experience Cloud. </p> </td> 
-   <td colname="col2"> <p>Experience Cloud är en integrerad familj av lösningar och tjänster för digital marknadsföring i Adobe. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster. </p> <p>Omprofilering och gränssnittsändringar: Adobe Marketing Cloud har fått ett nytt varumärke och kallas nu Adobe Experience Cloud. Dessutom visas gränssnittsändringar i målgränssnittet och i lösningsväljaren. </p> <p>Mer information om den här ändringen finns i <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/solutions-core-services.html" format="html" scope="external"> Om de nya molnnamnen i Experience Cloud </a>. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud är en integrerad familj av lösningar och tjänster för digital marknadsföring i Adobe. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster. </p> <p>Omprofilering och gränssnittsändringar: Adobe Marketing Cloud har fått ett nytt varumärke och kallas nu Adobe Experience Cloud. Dessutom visas gränssnittsändringar i målgränssnittet och i lösningsväljaren. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3587,7 +3587,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
  <tbody> 
   <tr> 
    <td colname="col1"> Uppskattad intäktsökning </td> 
-   <td colname="col2"> <p>Target kan beräkna den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen. </p> <p>Denna uppskattning beräknar den lyft som den vinnande upplevelsen och det totala antalet besökare uppnår under testperioden, och visar den lyft som du kan uppnå om alla besökare ser den vinnande upplevelsen, om trenderna fortsätter som de har under testet. </p> <p> Hur riktig uppskattningen är beror på ett antal faktorer, inklusive prognostiserade siffror om aktuella trender fortsätter. Dessa värden är uppskattningar baserade på tidigare resultat och bör inte användas som ekonomisk vägledning. Framtida resultat kan variera. </p></td> 
+   <td colname="col2"> <p>Target kan beräkna den vinst du skulle uppnå om alla användare såg den vinnande upplevelsen. </p> <p>Denna uppskattning beräknar den lyft som den vinnande upplevelsen och det totala antalet besökare har uppnått under testperioden, och visar den lyft som du kan uppnå om alla besökare ser den vinnande upplevelsen, om trenderna fortsätter som de har under testet. </p> <p> Hur riktig uppskattningen är beror på ett antal faktorer, inklusive prognostiserade siffror om aktuella trender fortsätter. Dessa värden är uppskattningar baserade på tidigare resultat och bör inte användas som ekonomisk vägledning. Framtida resultat kan variera. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ångra/Gör om </td> 
