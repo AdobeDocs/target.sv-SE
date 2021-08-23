@@ -4,9 +4,9 @@ description: Lär dig hur du använder AEM upplevelsefragment i Adobe [!DNL Targ
 title: Hur använder jag Adobe Experience Manager (AEM) Experience Fragments?
 feature: Erfarenheter och erbjudanden
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
+source-git-commit: 0437d7c83734ee707d4d42996d856f9e19416c3d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,8 @@ Mer information finns i:
 
 Upplevelsefragment skapas i [!DNL AEM]. Mer information finns i:
 
-* **[!DNL AEM]6.3**:  [Upplev ](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) fragmentering i  *Adobe Experience Manager 6.3-* dokumentationen.
-* **[!DNL AEM]6.4**:  [Upplev ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) fragmentering i  *Adobe Experience Manager 6.4-* dokumentationen.
+* **[!DNL AEM]6.3**:  [Upplev ](https://experienceleague.adobe.com/docs/) fragmentering i  *Adobe Experience Manager 6.3-* dokumentationen.
+* **[!DNL AEM]6.4**:  [Upplev ](https://experienceleague.adobe.com/docs/) fragmentering i  *Adobe Experience Manager 6.4-* dokumentationen.
 * **[!DNL AEM]6.5**:  [Upplev ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) fragmentering i  *Adobe Experience Manager 6.5-* dokumentationen.
 
 ### Steg 3: Konfigurera [!DNL AEM] för att dela upplevelsefragmentet med [!DNL Target]
