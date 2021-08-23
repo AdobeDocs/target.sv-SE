@@ -4,7 +4,7 @@ description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL
 title: Vad är en automatiskt fördelad aktivitet?
 feature: Automatisk allokering
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3349'
 ht-degree: 0%
@@ -33,7 +33,7 @@ I sådana tester använder de flesta produkter, inklusive [!DNL Target], Student
 
 [!UICONTROL Auto-Allocate] utför alla implicita jämförelser mellan upplevelser och skapar en&quot;sann&quot; vinnare. Det finns ingen uppfattning om&quot;kontroll&quot; i testet.
 
-[!UICONTROL Auto-Allocate] Tilldela på ett intelligent sätt nya besökare till upplevelser tills konfidensintervallet för den bästa upplevelsen inte överlappar konfidensintervallet för någon annan upplevelse. Vanligtvis kan den här processen generera falskt positiva resultat, men [!UICONTROL Auto-Allocate] använder konfidensintervall baserat på [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) som kompenserar för upprepade utvärderingar. I nuläget finns det en sann vinnare. När [!UICONTROL Auto-Allocate] stoppas, förutsatt att det inte finns något stort tidsberoende för besökare som kommer till sidan, finns det minst 95 % chans att [!UICONTROL Auto-Allocate] returnerar en upplevelse vars verkliga svar inte är sämre än 1 % (relativt) mindre än det verkliga svaret från den vinnande upplevelsen.
+[!UICONTROL Auto-Allocate] Tilldela på ett intelligent sätt nya besökare till upplevelser tills konfidensintervallet för den bästa upplevelsen inte överlappar konfidensintervallet för någon annan upplevelse. Vanligtvis kan den här processen generera falskt positiva resultat, men [!UICONTROL Auto-Allocate] använder konfidensintervall baserat på [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) som kompenserar för upprepade utvärderingar. I nuläget finns det en sann vinnare. När [!UICONTROL Auto-Allocate] stoppas, förutsatt att det inte finns något stort tidsberoende för besökare som kommer till sidan, finns det minst 95 % chans att [!UICONTROL Auto-Allocate] returnerar en upplevelse vars verkliga svar inte är sämre än 1 % (relativt) mindre än det verkliga svaret från den vinnande upplevelsen.
 
 ## När ska du använda [!UICONTROL Auto-Allocate] jämfört med A/B eller [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
