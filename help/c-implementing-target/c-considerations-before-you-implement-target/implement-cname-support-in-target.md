@@ -5,9 +5,9 @@ title: Hur använder jag CNAME i Target?
 feature: Integritet och säkerhet
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Du kan ange ett eget certifikat. [!DNL Adobe] rekommenderar dock inte den här m
 
 ### Hur länge till mitt nya SSL-certifikat upphör att gälla?
 
-Certifikat som utfärdats före den 1 september 2020 är tvååriga certifikat. Certifikat som utfärdas den 1 september 2020 eller senare är ettåriga certifikat. Du kan läsa mer om flytten till ettårscertifikat [här](https://www.digicert.com/position-on-1-year-certificates).
+Certifikat som utfärdats före den 1 september 2020 är tvååriga certifikat. Certifikat som utfärdas den 1 september 2020 eller senare är ettåriga certifikat.
 
 ### Vilka värdnamn ska jag välja? Hur många värdnamn per domän ska jag välja?
 
