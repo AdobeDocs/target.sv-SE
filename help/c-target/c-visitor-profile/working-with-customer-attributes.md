@@ -4,9 +4,9 @@ description: Lär dig hur du använder företagsdata från en CRM-databas (custo
 title: Vad är kundattribut och hur använder jag dem?
 feature: Målgrupper
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,6 @@ Om du använder Experience Cloud ID-tjänsten måste du ange ett kund-ID och aut
 Mer information om hur du använder kundattribut i [!DNL Target] finns i följande resurser:
 
 * [Skapa en källa för kundattribut och ladda upp datafilen ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) i dokumentationen för  *Experience Cloud-tjänster och -administration*
-* [Kundattribut: Ju mer du vet, desto bättre ](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) anslutning till bloggen  *Digital Marketing*
 
 ## Problem som kunderna ofta stöter på {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
