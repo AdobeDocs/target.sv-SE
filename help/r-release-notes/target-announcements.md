@@ -4,9 +4,9 @@ description: Läs notiser och registrera dig för Adobe [!DNL Target] event, ink
 title: Var hittar jag [!DNL Target] Meddelanden och händelser?
 feature: Versionsinformation
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,16 @@ Kommentarer och information om kommande evenemang, inklusive [!DNL Adobe Target]
 
 ## [!DNL Adobe Target] Community Q&amp;A Coffee Break
 
-* **onsdagen den 11 augusti 2021**
+* **Onsdagen den 8 september 2021**
 * **8.00 (PDT, UTC -7)**
-* **[Klicka här för mer information och registrering](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
+* **[Klicka här för mer information och registrering](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-James McTiernan, Principal Solutions Consultant för [!DNL Adobe Target], kommer att besvara kundfrågor som rör hans expertområden inom [!DNL Target]:
+Vishal Chordia, Senior Product Manager för [!DNL Adobe Target], kommer att besvara kundfrågor som rör hans expertområden:
 
-* Recommendations
-* A/B- och Multivariat-tester (MVT)
-* Personalisering
+* [!DNL Adobe Experience Platform]
+* Målgruppsbaserad personalisering
+* [!DNL Real-time Customer Data Platform] (RTCDP) integration med  [!DNL Target]
+* Allmänna [!DNL Target]-avsnitt
 
 ## Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från Adobe Target
 
