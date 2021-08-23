@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '2195'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 23 augusti | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break<ul><li>Onsdagen den 8 september 2021</li><li>8.00 (PDT, UTC -7)</li></ul></li></ul> |
 | 19 augusti | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Uppdaterade följande frågor och svar:<ul><li>Stöder A4T virtuella rapportsviter?</li></ul> |
 | 16 augusti | [Versionsinformation om målversionen (aktuell)](/help/r-release-notes/release-notes.md)<br><br>[andat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionsinformation för at.js 2.6.1 har lagts till. |
 |  | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Avsnittet&quot;God praxis&quot; har lagts till. |
