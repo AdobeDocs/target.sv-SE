@@ -5,7 +5,7 @@ title: Hur använder jag funktionen adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 
 >[!NOTE]
 >
->Läs dokumentationen för [leverans-API](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) om du vill ha information om vilka typer som kan användas för alla fält som listas nedan.
+>Läs dokumentationen för [leverans-API](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) om du vill ha information om vilka typer som kan användas för alla fält som listas nedan.
 
 | Fältnamn | Obligatoriskt? | Begränsningar | Beskrivning |
 | --- | --- | --- | --- |
