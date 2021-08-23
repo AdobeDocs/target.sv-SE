@@ -4,9 +4,9 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Målgrupper
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Följande riktlinjer är avsedda att hjälpa dig att skriva förenklade profilsk
    * Profilskript bör prestandatestas innan de läggs till i [!DNL Target]. Alla profilskript körs på varje mbox-begäran. Om profilskript inte körs korrekt tar det längre tid att köra mbox-begäranden, vilket kan påverka trafik och konvertering.
    * Om profilskript blir för komplexa bör du överväga att använda [svarstoken](/help/administrating-target/response-tokens.md) i stället.
 
-* Mer information finns i dokumentationen för JS Rhino-motorn: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Mer information finns i dokumentationen för JS Rhino-motorn.
 
 ## Felsöka profilskript {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
