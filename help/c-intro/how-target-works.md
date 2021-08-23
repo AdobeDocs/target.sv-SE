@@ -4,7 +4,7 @@ description: Lär dig hur Adobe [!DNL Target] works, including information about
 title: Hur fungerar [!DNL Target] funktionen?
 feature: Översikt
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 0%
@@ -23,12 +23,12 @@ Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om [!DNL Adobe 
 * **at.js:** The at.js library is an implementation library for  [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. Adobe rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till den [senaste versionen av at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** The mbox.js library is the legacy implementation library for  [!DNL Target]. Biblioteket mbox.js stöds inte längre efter den 31 mars 2021.
 
-Referera till [!DNL Experience Platform Web SDK] eller at.js på alla sidor på webbplatsen. Du kan till exempel lägga till ett av dessa bibliotek i det globala sidhuvudet. Du kan också överväga att använda [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) för att implementera [!DNL Target].
+Referera till [!DNL Experience Platform Web SDK] eller at.js på alla sidor på webbplatsen. Du kan till exempel lägga till ett av dessa bibliotek i det globala sidhuvudet. Du kan också överväga att använda [taggar i Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) för att implementera [!DNL Target].
 
 Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera Experience Platform Web SDK eller at.js:
 
-* [Adobe Experience Platform Web SDK-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Implementera [!DNL Target] med Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Web SDK-tillägg](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [Implementera [!DNL Target] med Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Varje gång en besökare begär en sida som har optimerats för [!DNL Target] skickas en begäran till målsystemet. Begäran hjälper till att avgöra vilket innehåll som ska användas för besökaren. Den här processen utförs i realtid. Varje gång en sida läses in görs en begäran om innehållet och utförs av systemet. Innehållet styrs av reglerna för marknadsföringsstyrda aktiviteter och upplevelser och är riktat till den enskilda besökaren. Innehållet får det att varje besökare mest sannolikt svarar på, interagerar med eller till slut köper. Personaliserat innehåll hjälper till att maximera svarsfrekvenser, förvärvsfrekvens och intäkter.
 
