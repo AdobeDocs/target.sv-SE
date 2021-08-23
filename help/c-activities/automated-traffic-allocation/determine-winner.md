@@ -4,7 +4,7 @@ description: Lär dig hur man tolkar resultaten av en automatisk fördelning av 
 title: Hur tolkar jag autofördelade rapporter?
 feature: Automatisk allokering
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Efter en A/B-aktivitet garanterar Auto-Allocate att den fastställda vinnaren ha
 
 Vi använder inte p-value-baserad säkerhet för Automatisk allokering.
 
-Kolumnen Konfidentiellt i en Automatisk allokering-aktivitet (se nedan) visar sannolikheten för att en upplevelse blir vinnare inom en felmarginal på 1 % (d.v.s. algoritmen använder en minsta detekterbar effekt på 1 % mellan den bästa och den näst bästa konverteringsgraden). Observera att algoritmen använder [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) för att beräkna den här sannolikheten.
+Kolumnen Konfidentiellt i en Automatisk allokering-aktivitet (se nedan) visar sannolikheten för att en upplevelse blir vinnare inom en felmarginal på 1 % (d.v.s. algoritmen använder en minsta detekterbar effekt på 1 % mellan den bästa och den näst bästa konverteringsgraden). Observera att algoritmen använder [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) för att beräkna den här sannolikheten.
 
 Normala A/B-tester beräknar tillförlitlighet baserat på p-värden. Autoallokera använder inte p-värden. P-värden &quot;löst&quot; beräknar sannolikheten för att en viss upplevelse skiljer sig från kontrollen. Dessa p-värden kan bara användas för att avgöra om en upplevelse kan skilja sig från kontrollen. Dessa värden kan inte användas för att avgöra om en upplevelse skiljer sig från en annan upplevelse (inte kontroll).
 
