@@ -5,8 +5,7 @@ title: Hur använder jag anpassade entitetsattribut?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -127,7 +126,7 @@ Du kan skicka flervärdesattribut med leverans-API:t i en mbox-parameter som ett
   }
 ```
 
-Mer information om hur du använder enhets-API:erna Delivery och Save finns i [Adobe Recommendations API-dokumentationen](http://developers.adobetarget.com/api/recommendations).
+Mer information om hur du använder enhets-API:erna Delivery och Save finns i [Adobe Recommendations API-dokumentationen](https://developers.adobetarget.com/api/recommendations).
 
 ## Använda operatorer med attribut för flera värden {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -252,7 +251,7 @@ Exempel: `price dynamically ranges in 80% to 120% of 100`
 >
 >*Doubleis* är en Java-datatyp. Om du konverterar till dubbel för operatorer som kräver numeriska värden tas icke-numeriska värden bort från resultatet.
 
-## Flervärdesattribut i design {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attribut med flera värden i design {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Flervärdesattribut visas som kommaavgränsade listor när de refereras i en design.
 
