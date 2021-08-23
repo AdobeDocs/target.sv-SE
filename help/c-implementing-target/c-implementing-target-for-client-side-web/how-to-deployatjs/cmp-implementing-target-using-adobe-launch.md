@@ -5,10 +5,9 @@ title: Hur implementerar jag [!DNL Target] med Adobe Launch?
 feature: Implementera serversidan
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -24,10 +23,10 @@ I följande tabell visas de olika källor där du kan få mer information om [!D
 | Resurs | Detaljer |
 |--- |--- |
 | [Implementera  [!DNL Target] med  [!UICONTROL Adobe Target Extension Tutorial]](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#implement-solutions) | I den här självstudiekursen finns stegvisa instruktioner för hur du implementerar [!DNL Target] på en webbplats med [!DNL Platform Launch]. Du kan lägga till JavaScript-biblioteket at.js, bränna den globala mbox, lägga till parametrar och integrera med andra lösningar. Den här artikeln är en del av en större självstudiekurs som visar hur du implementerar [!DNL Platform Launch] och andra [!DNL Adobe Experience Cloud]-lösningar. |
-| [[!DNL Adobe Platform Launch] Dokumentation](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html#get-started) | Information om driftsättning och hantering av de analys-, marknadsförings- och annonstaggar som krävs för relevanta kundupplevelser. |
-| [Dokumentation för  [!DNL Target] AdobeExtension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Information om hur du implementerar [!DNL Target] med [!DNL Platform Launch]. |
+| [Snabbstartguide för taggar i Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html) | Information om driftsättning och hantering av de analys-, marknadsförings- och annonstaggar som krävs för relevanta kundupplevelser. |
+| [Dokumentation för  [!DNL Target] AdobeExtension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html) | Information om hur du implementerar [!DNL Target] med [!DNL Platform Launch]. |
 
-## Fördelar med att implementera at.js med [!DNL Target] [!DNL Platform Launch]-tillägget {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Fördelar med att implementera at.js med tillägget [!DNL Target] [!DNL Platform Launch] {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 Följande fördelar gäller bara om du använder [!DNL Platform Launch] för att implementera at.js. Av den anledningen föreslår [!DNL Adobe] starkt att du använder [!DNL Platform Launch] i stället för en manuell implementering av at.js.
 
