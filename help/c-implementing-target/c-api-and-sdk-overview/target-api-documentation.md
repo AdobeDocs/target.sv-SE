@@ -5,8 +5,7 @@ title: Hur övergår jag från äldre API:er till Adobe I/O?
 feature: Implementera serversidan
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
@@ -47,21 +46,21 @@ De nya API-metoderna är länkade till motsvarande avsnitt på API-dokumentation
 
 | Gruppering | Äldre API-metod | Ny API-metod | Anteckningar |
 |--- |--- |--- |--- |
-| Kampanj/aktivitet | Skapa kampanj | [Skapa AB-](http://developers.adobetarget.com/api/#create-ab-activity)<br>[aktivitetSkapa XT-aktivitet](http://developers.adobetarget.com/api/#create-xt-activity) | De nya API:erna har separata skapandemetoder för AB och XT |
-|  | Kampanjuppdatering | [Uppdatera AB ](http://developers.adobetarget.com/api/#update-ab-activity)<br>[ActivityUpdate XT-aktivitet](http://developers.adobetarget.com/api/#update-xt-activity) |  |
+| Kampanj/aktivitet | Skapa kampanj | [Skapa AB-](https://developers.adobetarget.com/api/#create-ab-activity)<br>[aktivitetSkapa XT-aktivitet](https://developers.adobetarget.com/api/#create-xt-activity) | De nya API:erna har separata skapandemetoder för AB och XT |
+|  | Kampanjuppdatering | [Uppdatera AB ](https://developers.adobetarget.com/api/#update-ab-activity)<br>[ActivityUpdate XT-aktivitet](https://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | Kopiera kampanj | Ej tillämpligt | Använda API:er för att skapa aktivitet |
-|  | Kampanjlista | [Listaktiviteter](http://developers.adobetarget.com/api/#list-activities) |  |
-|  | Kampanjtillstånd | [Uppdatera aktivitetsstatus](http://developers.adobetarget.com/api/#update-activity-state) |  |
-|  | Kampanjvy | [Hämta AB Activity av ](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[IDGet XT Activity by ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
+|  | Kampanjlista | [Listaktiviteter](https://developers.adobetarget.com/api/#list-activities) |  |
+|  | Kampanjtillstånd | [Uppdatera aktivitetsstatus](https://developers.adobetarget.com/api/#update-activity-state) |  |
+|  | Kampanjvy | [Hämta AB Activity av ](https://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[IDGet XT Activity by ID](https://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | Kampanj-ID från tredje part | Ej tillämpligt | Om du använder ett tredjeparts-ID kan de relevanta aktivitetsmetoderna användas |
-| Erbjudanden | Skapa erbjudande | [Skapa erbjudande](http://developers.adobetarget.com/api/#create-offer) |  |
-|  | Erbjudande | [Erbjud via ID](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
-|  | Erbjudandelista | [Listerbjudanden](http://developers.adobetarget.com/api/#list-offers) |  |
+| Erbjudanden | Skapa erbjudande | [Skapa erbjudande](https://developers.adobetarget.com/api/#create-offer) |  |
+|  | Erbjudande | [Erbjud via ID](https://developers.adobetarget.com/api/#get-offer-by-id) |  |
+|  | Erbjudandelista | [Listerbjudanden](https://developers.adobetarget.com/api/#list-offers) |  |
 |  | Mapplista | Ej tillämpligt | Mappar stöds inte i Target Standard/Premium |
-| Rapportering | Kampanjresultatrapport | [Hämta Prestandarapport för AB](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Få XT-prestandarapport](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
-|  | Granskningsrapport | [Hämta revideringsrapport](http://developers.adobetarget.com/api/#get-audit-report) |  |
-|  | 1-1 Innehållsrapport | [Hämta rapport för AP-prestanda](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
-| Kontoinställningar | Hämta värdgrupper | [Listmiljöer](http://developers.adobetarget.com/api/#list-environments) |  |
+| Rapportering | Kampanjresultatrapport | [Hämta Prestandarapport för AB](https://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Få XT-prestandarapport](https://developers.adobetarget.com/api/#get-xt-performance-report) |  |
+|  | Granskningsrapport | [Hämta revideringsrapport](https://developers.adobetarget.com/api/#get-audit-report) |  |
+|  | 1-1 Innehållsrapport | [Hämta rapport för AP-prestanda](https://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
+| Kontoinställningar | Hämta värdgrupper | [Listmiljöer](https://developers.adobetarget.com/api/#list-environments) |  |
 
 ## Undantag {#section_09CF9A0E289149279783B4801D1B6D4C}
 
