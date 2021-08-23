@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Versionsinformation
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2195'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 19 augusti | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Uppdaterade följande frågor och svar:<ul><li>Stöder A4T virtuella rapportsviter?</li></ul> |
 | 16 augusti | [Versionsinformation om målversionen (aktuell)](/help/r-release-notes/release-notes.md)<br><br>[andat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionsinformation för at.js 2.6.1 har lagts till. |
 |  | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Avsnittet&quot;God praxis&quot; har lagts till. |
 | 11 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Versionsinformation har lagts till för [!DNL Target] node.js SDK version 2.2.0. |
