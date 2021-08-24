@@ -4,10 +4,9 @@ description: Med mobilvisningsrutor kan du se hur dina Adobe [!DNL Target] aktiv
 title: Hur använder jag mobila visningsrutor för responsiva upplevelser?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Nedan visas visningsrutor och upplösningar för populära enheter. Kom ihåg at
 
 >[!NOTE]
 >
->På olika webbplatser visas visningsstorlekar för populära enheter. Se till exempel [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/). Besök enhetens webbplats för den mest korrekta och aktuella informationen.
+>På olika webbplatser visas visningsstorlekar för populära enheter. Se till exempel `https://viewportsizer.com/devices/`. Besök enhetens webbplats för den mest korrekta och aktuella informationen.
 
 | Enhet | Storlek på visningsruta (bredd x höjd) | Enhetsupplösning (bredd x höjd) |
 |---|---|---|
@@ -45,7 +44,7 @@ Nedan visas visningsrutor och upplösningar för populära enheter. Kom ihåg at
 | iPhone 11 Xs max | 414 x 896 | 1 242 x 2 688 |
 | iPhone 11 | 414 x 896 | 828 x 1792 |
 | iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 12 Pro | 375 x 812 | 1125 x 2436 |
 | iPhone 11 X | 375 x 812 | 1125 x 2436 |
 | iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
 | iPhone X | 375 x 812 | 1125 x 2436 |
@@ -96,7 +95,7 @@ Om webbplatsen inte är responsiv kan du använda Mobile Web Composer för att v
 >
 >Du kan redigera en upplevelse inifrån mobila visningsrutor. De här ändringarna gäller dock alla visningsrutor och enheter, inte bara den visningsruta som du arbetar i. På samma sätt ändras sidan för alla skärmstorlekar, inte bara för skrivbordsvyn, när du redigerar en upplevelse i den normala skrivbordsvyn. För närvarande stöder [!DNL Target] inte vyportspecifika sidändringar.
 
-## Konfigurera visningsruta för mobilen {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Konfiguration för mobilvisningsruta {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Konfigurera mobila visningsrutor som du vill göra tillgängliga när du skapar dina upplevelser.
 
