@@ -4,10 +4,9 @@ description: Lär dig hur du använder Adobe [!DNL Target] at.js 2.x to implemen
 title: Kan jag implementera [!DNL Target] för Single Page-program (SPA)?
 feature: Implementera serversidan
 role: Developer
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2768'
 ht-degree: 1%
 
 ---
@@ -71,7 +70,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    Först måste vi installera på .js 2.x. Den här versionen av at.js utvecklades med SPA i åtanke. Tidigare versioner av at.js och mbox.js har inte stöd för Adobe Target Views och VEC for SPA.
 
-   Ladda ned på .js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via Adobe Launch. Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
+   Ladda ned på .js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via taggar i [!DNL Adobe Experience Platform]. [!DNL Adobe Target]-tilläggen är dock inte aktuella och stöds inte för närvarande.
 
 1. Implementera den senaste funktionen i at.js 2.x, `triggerView()` på dina webbplatser.
 
@@ -194,7 +193,7 @@ Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vye
 
 | Steg | Detaljer |
 | --- | --- |
-| 3 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
+| 1 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett alternativ som gör att fragment för att dölja kan implementeras på sidan. |
 | 1 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
 | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
@@ -209,7 +208,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 
 | Steg | Detaljer |
 | --- | --- |
-| 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
+| 3 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 1 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
@@ -224,7 +223,7 @@ När du är klar med installationen på .js 2.x och lägger till `triggerView()`
 >
 >VEC for SPA är i själva verket samma VEC som du använder på vanliga webbsidor, men vissa ytterligare funktioner är tillgängliga när du öppnar en app för en sida med `triggerView()` implementerat.
 
-## Använd TriggerView för att kontrollera att A4T fungerar korrekt med at.js 2.x och SPA {#triggerview}
+## Använd TriggerView för att säkerställa att A4T fungerar korrekt med at.js 2.x och SPA {#triggerview}
 
 För att [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) ska fungera korrekt med at.js 2.x måste du skicka samma SDID i Target-begäran och i Analytics-begäran.
 
@@ -269,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >Du måste starta händelserna `at-view-start` och `at-view-end`. Dessa händelser ingår inte i anpassade at.js-händelser.
 
-I de här exemplen används JavaScript-kod, men allt detta kan förenklas om du använder en tagghanterare, till exempel [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+I de här exemplen används JavaScript-kod, men allt detta kan förenklas om du använder en tagghanterare, till exempel taggar i [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 Om ovanstående steg följs bör du ha en robust A4T-lösning för SPA.
 
@@ -283,9 +282,9 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 
 | Steg | Åtgärd | Detaljer |
 | --- | --- | --- |
-| 1 | Läs in VisitorAPI JS | Det här biblioteket ansvarar för att tilldela besökaren ett ECID. Detta ID används senare av andra [!DNL Adobe]-lösningar på webbsidan. |
+| 3 | Läs in VisitorAPI JS | Det här biblioteket ansvarar för att tilldela besökaren ett ECID. Detta ID används senare av andra [!DNL Adobe]-lösningar på webbsidan. |
 | 2 | Load at.js 2.x | at.js 2.x läser in alla nödvändiga API:er som du använder för att implementera [!DNL Target]-begäranden och vyer. |
-| 1 | Kör [!DNL Target]-begäran | Om du har ett datalager rekommenderar vi att du läser in viktiga data som krävs för att skicka till [!DNL Target] innan du kör en [!DNL Target]-begäran. Detta gör att du kan använda `targetPageParams` för att skicka alla data som du vill använda för målinriktning. Du måste se till att du begär execute > pageLoad samt prefetch > views i detta API-anrop. Om du har angett `pageLoadEnabled` och `viewsEnabled` inträffar båda execute > pageLoad och prefetch > views automatiskt med steg 2; I annat fall måste du använda API:t `getOffers()` för att göra denna begäran. |
+| 3 | Kör [!DNL Target]-begäran | Om du har ett datalager rekommenderar vi att du läser in viktiga data som krävs för att skicka till [!DNL Target] innan du kör en [!DNL Target]-begäran. Detta gör att du kan använda `targetPageParams` för att skicka alla data som du vill använda för målinriktning. Du måste se till att du begär execute > pageLoad samt prefetch > views i detta API-anrop. Om du har angett `pageLoadEnabled` och `viewsEnabled` inträffar båda execute > pageLoad och prefetch > views automatiskt med steg 2; I annat fall måste du använda API:t `getOffers()` för att göra denna begäran. |
 | 4 | Ring `triggerView()` | Eftersom [!DNL Target]-begäran som du initierade i steg 3 kan returnera upplevelser för både sidinläsning och vyer, måste du se till att `triggerView()` anropas efter att [!DNL Target]-begäran har returnerats och att erbjudandena har tillämpats på cachen. Du får bara utföra det här steget en gång per vy. |
 | 5 | Anropa sidvyfyren [!DNL Analytics] | Den här beacon skickar det SDID som är kopplat till steg 3 och 4 till [!DNL Analytics] för datasammanfogning. |
 | 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att se till att [!DNL Target]-upplevelser tillämpas på nytt efter att SPA har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att vara säker på att [!DNL Target]-upplevelserna finns kvar i dina SPA. |
@@ -296,7 +295,7 @@ Följande information beskriver den ordning i vilken du måste följa när du l�
 | --- | --- | --- |
 | 1 | Ring `visitor.resetState()` | Detta API säkerställer att SDID genereras om för den nya vyn när den läses in. |
 | 2 | Uppdatera cache genom att anropa API:t `getOffers()` | Detta är ett valfritt steg att ta om den här vyändringen kan kvalificera den aktuella besökaren för fler [!DNL Target] aktiviteter eller diskvalificera dem från aktiviteter. Nu kan du även välja att skicka ytterligare data till [!DNL Target] för att aktivera ytterligare målinriktningsfunktioner. |
-| 1 | Ring `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target]-begäran och tillämpa erbjudandena på cache innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
+| 3 | Ring `triggerView()` | Om du har kört steg 2 måste du vänta på [!DNL Target]-begäran och tillämpa erbjudandena på cache innan du kör det här steget. Du får bara utföra det här steget en gång per vy. |
 | 4 | Ring `triggerView()` | Om du inte har kört steg 2 kan du utföra det här steget så snart du slutför steg 1. Om du har kört steg 2 och steg 3 bör du hoppa över det här steget. Du får bara utföra det här steget en gång per vy. |
 | 5 | Anropa sidvyfyren [!DNL Analytics] | Den här beacon skickar det SDID som är kopplat till steg 2, 3 och 4 till [!DNL Analytics] för datasammanfogning. |
 | 6 | Ring ytterligare `triggerView({"page": false})` | Detta är ett valfritt steg för SPA ramverk som skulle kunna återge vissa komponenter på sidan utan att en vyförändring inträffar. I sådana fall är det viktigt att du anropar denna API för att se till att [!DNL Target]-upplevelser tillämpas på nytt efter att SPA har återgett komponenterna. Du kan utföra det här steget så många gånger du vill för att vara säker på att [!DNL Target]-upplevelserna finns kvar i dina SPA. |
