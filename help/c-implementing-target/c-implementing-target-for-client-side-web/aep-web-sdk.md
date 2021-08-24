@@ -5,7 +5,7 @@ title: Hur implementerar jag Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Experience Platform Web SDK
 
-[!DNL Adobe Experience Platform Web SDK] (AEP Web SDK) är ett JavaScript-bibliotek på klientsidan som gör  [!DNL Adobe Experience Cloud] att kunder kan interagera med de olika tjänsterna i Experience Cloud (inklusive  [!DNL Target]) via  [!UICONTROL Adobe Experience Platform Edge Network]. Förutom JavaScript-biblioteket finns det ett [!DNL Experience Platform Launch]-tillägg som kan hjälpa dig med dina Web SDK-konfigurationer.
+[!DNL Adobe Experience Platform Web SDK] (AEP Web SDK) är ett JavaScript-bibliotek på klientsidan som gör  [!DNL Adobe Experience Cloud] att kunder kan interagera med de olika tjänsterna i Experience Cloud (inklusive  [!DNL Target]) via  [!UICONTROL Adobe Experience Platform Edge Network]. Förutom JavaScript-biblioteket finns det ett [!DNL Adobe Experience Platform]-tillägg som kan hjälpa dig med dina Web SDK-konfigurationer.
 
 Mer information finns i följande länkar i *Adobe Experience Platform Web SDK*-hjälpen:
 
