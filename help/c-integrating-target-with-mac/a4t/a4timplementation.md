@@ -4,7 +4,7 @@ description: Följ stegen som krävs för att implementera lösningar med Analyt
 title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
 feature: Analyser för mål (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Kraven för användarkontot måste uppfyllas innan du kan skapa en aktivitet som
 
 ### Steg 3: Skapa en Edge-konfiguration
 
-Skapa en Edge-konfiguration med [!DNL Adobe Experience Platform Launch] och edge-konfigurationsverktyget. Konfigurera [[!DNL Analytics] and [!DNL Target] edge-konfigurationsinställningarna](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
+Skapa en Edge-konfiguration med [!DNL Adobe Experience Platform] och edge-konfigurationsverktyget. Konfigurera [[!DNL Analytics] and [!DNL Target] edge-konfigurationsinställningarna](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
 
 ### Steg 4: Installera och konfigurera Platform Web SDK
 
