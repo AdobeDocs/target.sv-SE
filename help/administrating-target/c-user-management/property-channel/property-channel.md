@@ -5,9 +5,9 @@ title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration och konfiguration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2991'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Följande termer används i hela det här avsnittet och kan vara nya för använ
 
 ### Egenskap
 
-Egenskaper liknar egenskaper inom [!DNL Adobe Platform Launch] på så sätt att de använder ett unikt kodfragment för att särskilja dem.
+Egenskaper liknar egenskaper inom [!DNL Adobe Experience Platform] på så sätt att de använder ett unikt kodfragment för att särskilja dem.
 
 En webbegenskap är ett bibliotek med regler och en inbäddningskod. En webbegenskap kan vara vilken gruppering som helst av en eller flera domäner och underdomäner.
 
@@ -265,7 +265,7 @@ Aktiviteter som skapas före migreringen fortsätter att köras på samma sätt 
 
 ### Varför får jag ett felmeddelande om att ingen egenskap är associerad med den här aktiviteten, trots att det finns en egenskap tilldelad?
 
-Om du har implementerat [!DNL Target] med [!DNL Adobe Experience Platform Launch] och får ett felmeddelande som anger att ingen egenskap är associerad med aktiviteten skickar du parametern `at_property` med funktionen `targetPageParams`.
+Om du har implementerat [!DNL Target] med taggar i [!DNL Adobe Experience Platform] och får ett felmeddelande som anger att ingen egenskap är associerad med aktiviteten, skickar du parametern `at_property` med funktionen `targetPageParams`.
 
 ### Spelas klickspårskonverteringar in om en omdirigeringssida och aktivitets-URL:en tillhör olika egenskaper?
 
