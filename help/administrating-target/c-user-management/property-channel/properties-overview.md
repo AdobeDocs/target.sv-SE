@@ -5,9 +5,9 @@ title: Hur konfigurerar jag Enterprise-behörigheter?
 feature: Administration och konfiguration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ I följande tabell visas de uppgifter du bör utföra för att skapa egenskaper 
 | 2. Skapa en arbetsyta (produktprofil) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Skapa användargrupper (valfritt) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Skapa egenskaper | [!DNL Target] UI |
-| 5: Uppdatera implementeringen så att den inkluderar parametern `at_property` | [!DNL Target] UI, at.js-funktioner eller  [!DNL Adobe Experience Platform Launch] |
+| 5: Uppdatera implementeringen så att den inkluderar parametern `at_property` | [!DNL Target] UI, at.js-funktioner eller taggar i  [!DNL Adobe Experience Platform] |
 | 6: Ange roller och behörigheter | [!DNL Adobe Admin Console for Enterprise] |
 
 För de uppgifter som utförs i [!DNL Adobe Admin Console for Enterprise] går du till konsolen genom att följa dessa steg:
@@ -146,9 +146,9 @@ Om du vill använda funktionen [!DNL Target] för användarbehörigheter måste 
 
    Det finns flera sätt att uppdatera din [!DNL Target]-implementering. Följande metoder kan till exempel användas för webbsidor:
 
-   * **Via en global parameter i  [!DNL Adobe Launch]:**
+   * **Via en Global parameter i taggar i   [!DNL Adobe Experience Platform]:**
 
-      Mer information finns i [Lägg till globala målparametrar](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) i dokumentationen för *Adobe Experience Platform Launch*.
+      Mer information finns i [Lägg till globala målparametrar](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) i dokumentationen för *taggöversikt*.
 
    * **Via funktionen targetPageParams():** Placera följande kod i  `<head>` taggarna ovanför referensen at.js.
 
