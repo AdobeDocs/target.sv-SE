@@ -5,21 +5,20 @@ title: Kan jag implementera [!DNL Target] utan en tagghanterare?
 feature: Implementera serversidan
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1640'
 ht-degree: 3%
 
 ---
 
 # Implementera [!DNL Target] utan tagghanterare
 
-Information om hur du implementerar [!DNL Adobe Target] utan att använda en tagghanterare ([!DNL Adobe Experience Platform Launch]).
+Information om hur du implementerar [!DNL Adobe Target] utan att använda en tagghanterare eller taggar i [!DNL Adobe Experience Platform].
 
 >[!NOTE]
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis är den bästa metoden för att implementera Target och biblioteket at.js. Följande information gäller inte när du använder Adobe Platform launch för att implementera Target.
+>Taggar i [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den metod som rekommenderas för implementering av [!DNL Target] och biblioteket at at.js. Följande information gäller inte när du använder taggar i [!DNL Adobe Experience Platform] för att implementera [!DNL Target].
 
 Du öppnar sidan [!UICONTROL Implementation] genom att klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -33,7 +32,7 @@ Du kan ange följande inställningar på den här sidan:
 
 >[!NOTE]
 >
->Du kan åsidosätta inställningarna i at.js-biblioteket i stället för att konfigurera inställningarna i gränssnittet för Target Standard/Premium eller genom att använda REST API:er. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>Du kan åsidosätta inställningarna i at.js-biblioteket i stället för att konfigurera inställningarna i användargränssnittet för [!DNL Target Standard/Premium] eller genom att använda REST API:er. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Kontoinformation
 
@@ -41,9 +40,9 @@ Du kan visa följande kontoinformation. Dessa inställningar kan inte ändras.
 
 | Inställning | Beskrivning |
 | --- | --- |
-| [!UICONTROL Client Code] | Klientkoden är en klientspecifik teckensekvens som ofta krävs när du använder mål-API:er. |
+| [!UICONTROL Client Code] | Klientkoden är en klientspecifik teckensekvens som ofta krävs när du använder API:erna för [!DNL Target]. |
 | [!UICONTROL IMS Organization ID] | Detta ID kopplar implementeringen till ditt [!DNL Adobe Experience Cloud]-konto. |
-| [!UICONTROL On-Device Decisioning] | Om du vill aktivera enhetsbeslut flyttar du växlingsknappen till positionen&quot;på&quot;.<br>Med enhetsbaserad beslutsfattande kan ni cachelagra era A/B- och Experience Targeting-kampanjer (XT) på servern och fatta beslut i minnet med nästan noll fördröjning. Mer information finns i [Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) i guiden *Adobe Target SDK*. |
+| [!UICONTROL On-Device Decisioning] | Om du vill aktivera enhetsbeslut flyttar du växlingsknappen till positionen&quot;på&quot;.<br>Med enhetsbaserad beslutsfattande kan ni cachelagra era A/B- och  [!UICONTROL Experience Targeting] (XT)-kampanjer på servern och fatta beslut i minnet med nästan noll fördröjning. Mer information finns i [Introduktion till enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) i *[!DNL Adobe Target]SDK:er*-guiden. |
 | [!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.] | (Villkorligt) Det här alternativet visas om du aktiverar enhetsbeslut.<br>Skjut musknappen till&quot;på&quot;-positionen om du vill att alla dina aktiva Target-aktiviteter som är kvalificerade för enhetsbeslut ska inkluderas automatiskt i artefakten.<br>Om du inte aktiverar det här alternativet måste du återskapa och aktivera alla enhetsspecifika beslutsaktiviteter för att de ska kunna inkluderas i den genererade regelartefakten. |
 
 ## Implementeringsmetoder
@@ -112,7 +111,7 @@ Mer information finns i [Integritet](/help/c-implementing-target/c-consideration
 >
 >Alternativet Stöd för äldre webbläsare var tillgängligt i version 0.9.3 och tidigare av at.js. Det här alternativet togs bort i at.js version 0.9.4. En lista över webbläsare som stöds av at.js finns i [Webbläsare som stöds](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Äldre webbläsare är äldre webbläsare som inte har fullständigt stöd för CORS (Cross Origin Resource Sharing). Följande webbläsare innehåller: Internet Explorer-webbläsare tidigare än version 11 och Safari version 6 och tidigare. Om stöd för äldre webbläsare inaktiverades kunde Target inte leverera innehåll eller räkna besökare i rapporter för dessa webbläsare. Om det här alternativet är aktiverat rekommenderas kvalitetssäkring i äldre webbläsare för att säkerställa en bra kundupplevelse.
 
-## Hämta på.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
+## Ladda ned på.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
 Instruktioner för att hämta biblioteket med [!DNL Target]-gränssnittet eller hämtnings-API:t.
 
@@ -131,7 +130,7 @@ Så här hämtar du [!DNL at.js] från gränssnittet [!DNL Target]:
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 1. I avsnittet [!UICONTROL Implementation methods] klickar du på knappen **[!UICONTROL Download]** bredvid önskad at at.js-version.
 
-### Hämta på.js med [!DNL Target] API för hämtning {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Hämta at.js med [!DNL Target] API för hämtning {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Om du vill hämta [!DNL at.js] med API:t.
 
