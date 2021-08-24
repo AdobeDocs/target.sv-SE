@@ -5,9 +5,9 @@ title: Vad är vanliga frågor och svar om at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2605'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Med versionen at.js 1.0.0 kan du läsa in målbiblioteket asynkront.
 
 Så här läser du in at.js asynkront:
 
-* Rekommenderad metod är via [!DNL Adobe Experience Platform Launch]. Mer information finns i [Lägg till Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html)-lektionen i [Implementera Experience Cloud i webbplatser med Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)-självstudiekursen.
+* Det rekommenderade sättet är via taggar i [!DNL Adobe Experience Platform].
 * Du kan också läsa in at.js asynkront genom att lägga till attributet async i script-taggen som läser in at.js. Använd något liknande:
 
    ```
@@ -109,7 +109,7 @@ Att läsa in at.js asynkront är ett bra sätt att undvika att blockera webbläs
 
 Du kan undvika flimmer genom att använda ett fragment som döljer sidan (eller vissa delar) och sedan visar den efter at.js och den globala begäran har lästs in. Utdraget måste läggas till innan at.js läses in.
 
-Om du distribuerar at.js via en asynkron startimplementering måste du ta med det fragment som döljs direkt på sidorna, före koden för att starta inbäddning, enligt beskrivningen i [Lägg till fragmentet](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) i [Implementera Experience Cloud i webbplatser med självstudiekursen för att starta](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html).
+Om du distribuerar at.js via en asynkron [!DNL Adobe Experience Platform]-implementering måste du ta med det föregående dolda fragmentet direkt på sidorna, innan implementeringen [!DNL Target] används med [!DNL Adobe Experience Platform] Embed-kod.
 
 Om du distribuerar at.js via en synkron DTM-implementering kan det fördolda fragmentet läggas till via en sidinläsningsregel som aktiveras högst upp på sidan.
 
