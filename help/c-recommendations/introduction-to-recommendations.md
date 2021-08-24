@@ -4,7 +4,7 @@ description: Läs om Recommendations aktiviteter i Adobe [!DNL Target] som autom
 title: Vad är Recommendations aktiviteter?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Därefter bör du lägga till taggar eller utnyttja befintlig [!DNL Analytics]-i
 
 Du måste se till att [!DNL Target] är medveten om de objekt som användarna visar och köper. Om inköpen inte är relevanta för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av en PDF-fil, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
 
-Om du redan använder [!DNL Target] för att köra A/B-tester på din plats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Det går också att skicka interaktioner offline eller i programmet till [!DNL Target] via API:t i realtid.
+Om du redan använder [!DNL Target] för att köra A/B-tester på din plats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Det går också att skicka interaktioner offline eller i programmet till [!DNL Target] via API:t i realtid.
 
 ### Få rekommendationer i rätt sammanhang
 
