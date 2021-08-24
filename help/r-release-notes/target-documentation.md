@@ -4,9 +4,9 @@ description: Få tillgång till Adobe [!DNL Target] dokumentation, inklusive onl
 title: Var hittar jag dokumentation för Target?
 feature: Versionsinformation
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Här följer en kort beskrivning av de vanligaste dokumentationstyperna som är 
 | [Adobe Target produktdokumentation](/help/target-home.md)<br> (Denna guide) | Översikt över information, steg och skärmbilder som fokuserar på interaktion med [!DNL Target] via användargränssnittet. I den här handboken beskrivs alla tillgängliga åtgärder och alternativ, inklusive&quot;gotchas&quot; som ska undvikas. Det här är den mest detaljerade resursen för att arbeta med användargränssnittet för [!DNL Target]. |
 | [Adobe Target självstudiekurser](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | Videofilmer och självstudiekurser som hjälper dig att lära dig de många komponenterna i [!DNL Target]. |
 | [Adobe Experience League Target-innehållsbibliotek](https://guided.adobe.com/#recommended/solutions/target) | En samling instruktionsvideor och självstudiekurser som visar vilka funktioner i [!DNL Target] som finns på [!DNL Adobe Target Experience League]-sidan. |
-| [Adobe Experience Platform Launch Target-dokumentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Information om hur du implementerar [!DNL Target] med [!DNL Adobe Experience Platform Launch], nästa generations tagghanteringsplattform från [!DNL Adobe]. Detta är den metod som rekommenderas för att implementera [!DNL Target]. |
+| [Adobe Experience Platform Target-dokumentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Information om hur du implementerar [!DNL Target] med taggar i [!DNL Adobe Experience Platform], nästa generations tagghanteringsplattform från [!DNL Adobe]. Detta är den metod som rekommenderas för att implementera [!DNL Target]. |
 | [Adobe kundtjänsttimmar](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Information om&quot;Kontorstid&quot;, ett initiativ som leds av kundtjänstteamet på Adobe. Dessa sessioner är avsedda att informera såväl som hjälpa deltagare att felsöka problem och ge tips och råd för att lyckas med [!DNL Adobe Experience Cloud]-lösningarna, inklusive [!DNL Target]. |
 | [Grundläggande om webbseminarier](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registreringsinformation och länkar till tidigare sessioner i [!DNL Target] Basics Webinar Series, en Customer Success Webinar Series som kommer från gemenskapen. |
 | [Adobe Target-utvecklare](https://developers.adobetarget.com/) | Information om Adobe Target Developers webbplats hjälper dig att implementera [!DNL Target] på klientprogram, serverprogram, mobilappar, IoT med mera. Du kan också exportera dina [!DNL Target]-data till tredjepartslösningar. |
