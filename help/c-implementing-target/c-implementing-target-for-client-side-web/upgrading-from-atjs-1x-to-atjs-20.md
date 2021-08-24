@@ -5,9 +5,9 @@ title: Hur uppgraderar jag från at.js version 1.x till version 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2744'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*Visa* med v
 | --- | --- |
 | 1 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett alternativ som gör att fragment för att dölja kan implementeras på sidan. |
-| 3 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
+| 1 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
 | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
 | 5 | Baserat på parametrar för URL-begäran och profildata avgör [!DNL Target] vilka aktiviteter och upplevelser som ska returneras till besökaren för den aktuella sidan och framtida vyer. |
 | 6 | Målinriktat innehåll skickas tillbaka till sidan, eventuellt med profilvärden för ytterligare personalisering.<br>Målinriktat innehåll på den aktuella sidan visas så snabbt som möjligt utan att du behöver flimra standardinnehållet.<br>Målanpassat innehåll för vyer som visas som ett resultat av användaråtgärder i en SPA som cachas i webbläsaren så att det kan tillämpas direkt utan ett extra serveranrop när vyerna aktiveras via  `triggerView()`. |
@@ -45,7 +45,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 
 | Utlysning | Detaljer |
 | --- | --- |
-| 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
+| 3 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
 | 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
@@ -54,11 +54,11 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 
 ## Driftsätt på js 2.*x* {#deploy-atjs-200}
 
-1. Driftsätt på js 2.*via* tillägget  [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch.
+1. Driftsätt på js 2.*xvia-* taggar i  [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) tillägg.
 
    >[!NOTE]
    >
-   > Att distribuera at.js med Adobe Launch är den bästa metoden.
+   > Att distribuera at.js med taggar i [!DNL Adobe Experience Platform] är den bästa metoden.
 
    eller
 
@@ -360,7 +360,7 @@ I följande tabeller beskrivs at.js. 2.*x*-kompatibilitet med olika aktivitetsty
 | Målgrupper | Ja |
 | Kundattribut | Ja |
 | AEM Experience Fragments | Ja |
-| Adobe Launch-tillägg | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] extension | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Felsökning | Ja |
 | Revisor | Regler har ännu inte uppdaterats för kl. 2.js.*x* |
 | Anmäl dig | Nej. Stöd för Alt-in för [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) stöds i [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
