@@ -4,9 +4,9 @@ description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. 
 title: Hur genomför jag Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Mer information om attributen i exemplen finns i [Entitetsattribut](/help/c-reco
 
 Giltig JSON-formatering krävs.
 
-Funktionen `targetPageParams` som visas nedan är särskilt användbar om du använder en tagghanteringslösning för att implementera sidorna. [!DNL Adobe Experience Platform Launch] placerar at.js/mbox.js och  `targetPageParams` funktionen på sidan så att du kan konfigurera värdena. Du bör antingen placera den funktionen före ditt at.js/mbox.js eller placera den i avsnittet Extra JavaScript i din at.js/mbox.js.
+Funktionen `targetPageParams` som visas nedan är särskilt användbar om du använder en tagghanteringslösning för att implementera sidorna. Taggar i [!DNL Adobe Experience Platform] placerar at.js/mbox.js och funktionen `targetPageParams` på sidan och gör att du kan konfigurera värdena. Du bör antingen placera den funktionen före ditt at.js/mbox.js eller placera den i avsnittet Extra JavaScript i din at.js/mbox.js.
 
 ## Alla sidor {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
@@ -204,7 +204,7 @@ Följande alternativ är tillgängliga:
 
 | Inställning | Beskrivning |
 |--- |--- |
-| Anpassad global Mbox | (Valfritt) Ange den anpassade globala mbox som används för [!DNL Target]-aktiviteter. Som standard används den globala mbox som används av [!DNL Target] för [!DNL Recommendations].<br>Obs! Det här alternativet är inställt på  [!DNL Target] [!UICONTROL Administration] sidan. Öppna [!DNL Target] och klicka sedan på [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]. |
+| Anpassad global mbox | (Valfritt) Ange den anpassade globala mbox som används för [!DNL Target]-aktiviteter. Som standard används den globala mbox som används av [!DNL Target] för [!DNL Recommendations].<br>Obs! Det här alternativet är inställt på  [!DNL Target] [!UICONTROL Administration] sidan. Öppna [!DNL Target] och klicka sedan på [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]. |
 | Branschvertikal | Branschvertikalen används för att kategorisera era era rekommendationer. Detta hjälper teammedlemmarna att hitta kriterier som passar en viss sida, till exempel kriterier som passar bäst för kundvagnssidan eller för en mediesida. |
 | Filtrera inkompatibla villkor | Aktivera det här alternativet om du bara vill visa de villkor där den valda sidan skickar de data som krävs. Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas in `entity.id` eller `entity.categoryId` för att aktuella rekommendationer för objekt/aktuell kategori ska vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten avmarkerar du det här alternativet.<br>Du bör inaktivera det här alternativet om du använder en tagghanteringslösning.<br>Mer information om det här alternativet finns i Vanliga frågor om  [Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
 | Standardvärdgrupp | Välj din standardvärdgrupp.<br>Värdgruppen kan användas för att skilja de tillgängliga objekten i katalogen åt för olika användningsområden. Du kan till exempel använda värdgrupper för utvecklings- och produktionsmiljöer, olika varumärken eller olika geografiska platser. Som standard baseras förhandsgranskningsresultaten i Katalogsökning, Samlingar och Undantag på standardvärdgruppen. (Du kan också välja en annan värdgrupp om du vill förhandsgranska resultaten med hjälp av miljöfiltret.) Som standard är nyligen tillagda objekt tillgängliga i alla värdgrupper om inte ett miljö-ID anges när objektet skapas eller uppdateras. Levererade rekommendationer beror på värdgruppen som anges i begäran.<br>Om du inte ser dina produkter bör du kontrollera att du använder rätt värdgrupp. Om du t.ex. har konfigurerat din rekommendation att använda en mellanlagringsmiljö och du har angett mellanlagringsgruppen som värdgrupp kan du behöva återskapa dina samlingar i mellanlagringsmiljön för att produkterna ska kunna visas. Om du vill se vilka produkter som är tillgängliga i respektive miljö använder du Katalogsökning för varje miljö. Du kan också förhandsgranska innehållet i Recommendations-samlingar och undantag för en vald miljö (värdgrupp).<br>**Obs!** När du har ändrat den valda miljön måste du klicka på Sök för att uppdatera de returnerade resultaten.<br>Filtret  [!UICONTROL Environment] är tillgängligt från följande platser i  [!DNL Target] gränssnittet:<ul><li>Katalogsökning ([!UICONTROL Recommendations] > Katalogsökning)</li><li>Dialogrutan Skapa samling ([!UICONTROL Recommendations > Collections > Create New])</li><li>Dialogrutan Uppdatera samling ([!UICONTROL Recommendations > Collections > Edit])</li><li>Dialogrutan Skapa undantag ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>Dialogrutan Uppdatera undantag ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul>Mer information finns i [Värdar](/help/administrating-target/hosts.md). |
