@@ -5,7 +5,7 @@ title: Hur använder jag funktionen targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '2283'
 ht-degree: 0%
@@ -155,7 +155,7 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Boolean
 * **Standardvärde**: false
-* **Beskrivning**:  [!DNL Target] ger support för tillvalsfunktioner via  [!DNL Adobe Platform Launch] för att hjälpa er strategi för samtyckeshantering. Med avanmälningsfunktionen kan kunderna styra hur och när taggen [!DNL Target] aktiveras. Det finns också ett alternativ via [!DNL Platform Launch] för att förgodkänna taggen [!DNL Target]. Om du vill aktivera möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket lägger du till inställningen `optinEnabled=true`. I [!DNL Platform Launch] måste du välja &quot;enable&quot; i listrutan [!UICONTROL GDPR Opt-In] i installationsvyn för tillägget Launch. Mer information finns i [Platforma launchens dokumentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Mer information om den här inställningen när det gäller sekretess- och dataskyddsbestämmelser, inklusive EU:s allmänna dataskyddsförordning (GDPR) och California Consumer Privacy Act (CCPA), finns i [Sekretess- och dataskyddsbestämmelser](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Beskrivning**:  [!DNL Target] ger support för tillvalsfunktioner via  [!DNL Adobe Experience Platform] för att hjälpa er strategi för samtyckeshantering. Med avanmälningsfunktionen kan kunderna styra hur och när taggen [!DNL Target] aktiveras. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna taggen [!DNL Target]. Om du vill aktivera möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket lägger du till inställningen `optinEnabled=true`. I [!DNL Adobe Experience Platform] måste du välja &quot;enable&quot; i listrutan [!UICONTROL GDPR Opt-In] i tilläggsinstallationsvyn. Mer information finns i [Adobe Experience Platform-dokumentationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Mer information om den här inställningen när det gäller sekretess- och dataskyddsbestämmelser, inklusive EU:s allmänna dataskyddsförordning (GDPR) och California Consumer Privacy Act (CCPA), finns i [Sekretess- och dataskyddsbestämmelser](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 ### optoutEnabled
 
