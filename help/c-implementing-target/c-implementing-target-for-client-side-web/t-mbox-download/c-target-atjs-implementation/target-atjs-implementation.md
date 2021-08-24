@@ -5,9 +5,9 @@ title: Hur migrerar jag från mbox.js till at.js?
 feature: at.js
 role: Developer
 exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: e0713ccd25da71c2655b567ff8715a22203f46fb
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ at.js-biblioteket är ett nytt implementeringsbibliotek för [!DNL Adobe Target]
 
 >[!NOTE]
 >
->Adobe Experience Manager (AEM) 6.2 med FP-11577 (eller senare) stöder at.js-implementeringar med integrering av Adobe Target-Cloud Services. Mer information finns i [Funktionspaket](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) och [Integrera med Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) i *Adobe Experience Manager 6.2-dokumentationen*.
+>Adobe Experience Manager (AEM) 6.2 med FP-11577 (eller senare) stöder at.js-implementeringar med integrering av Adobe Target-Cloud Services. Mer information finns i [Funktionspaket](https://experienceleague.adobe.com/docs/) och [Integrera med Adobe Target](https://experienceleague.adobe.com/docs/) i *Adobe Experience Manager 6.2-dokumentationen*.
 
 ## Implementera at.js {#implement}
 
