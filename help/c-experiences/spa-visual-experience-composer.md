@@ -4,9 +4,9 @@ description: Lär dig hur du använder SPA VEC i Adobe [!DNL Target] för att sk
 title: Hur använder jag Visual Experience Composer (SPA VEC) för en sida?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3655'
+source-wordcount: '3658'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    ![Dialogrutan Implementeringsinformation](/help/c-experiences/assets/imp-200.png)
 
-   Hämta at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
+   Hämta at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via taggar i [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
 
 1. Implementera funktionen at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) på dina platser.
 
@@ -321,7 +321,7 @@ Ja, at.js 2.x stöder A4T för SPA via funktionen `triggerView()` eftersom du ha
 | --- | --- |
 | 3 | `triggerView()` anropas i SPA för att återge en vy och använda åtgärder för att ändra visuella element som är kopplade till vyn. |
 | 2 | Målinnehåll för vyn läses från cachen. |
-| 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
+| 1 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till målprofilsarkivet för att räkna besökaren i aktiviteten och ökningsvärdena. |
 | 5 | Analysdata skickas till datainsamlingsservrar. |
 | 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
