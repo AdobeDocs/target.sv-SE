@@ -5,9 +5,9 @@ title: Kan jag implementera [!DNL Target] utan en tagghanterare?
 feature: Implementera serversidan
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1632'
 ht-degree: 3%
 
 ---
@@ -117,10 +117,10 @@ Instruktioner för att hämta biblioteket med [!DNL Target]-gränssnittet eller 
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis är den bästa metoden för att implementera Target och biblioteket at.js. Följande information gäller inte när du använder Adobe Platform launch för att implementera Target.
+>* [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) är den metod som rekommenderas för implementering  [!DNL Target] och biblioteket at.js. Följande information gäller inte när du använder taggar i [!DNL Adobe Experience Platform] för att implementera [!DNL Target].
    >
    >
-* Target-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* [!DNL Target]-teamet stöder både at.js 1.** xand at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
 ### Hämta at.js med [!DNL Target]-gränssnittet {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ Om du vill hämta [!DNL at.js] med API:t.
 
 at.js ska implementeras i elementet `<head>` på alla sidor på webbplatsen.
 
-En typisk implementering av Target som inte använder en tagghanterare som [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ser ut så här:
+En typisk implementering av Target som inte använder en tagghanterare, som taggar i [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25), ser ut så här:
 
 ```
 <!doctype html> 
