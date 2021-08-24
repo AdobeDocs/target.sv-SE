@@ -5,7 +5,7 @@ landing-page-description: Lär dig mer om de nya funktionerna, förbättringarna
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Den här versionen innehåller följande förbättringar:
 * Ett säkert attribut har lagts till i cookies när inställningarna `secureOnly` för at.js är inställda på `true`.
 * Svarstoken är nu tillgängliga när du använder `triggerView()`.
 * Korrigerade ett problem som var relaterat till `CONTENT_RENDERING_NO_OFFERS`-händelsen. Den här händelsen utlöses korrekt när inget innehåll returneras från [!DNL Target].
-* [!DNL Anlytics for Target] (A4T) klickmätningsinformation returneras korrekt när  `prefetch` begäranden används.
+* [!DNL Analytics for Target] (A4T) klickmätningsinformation returneras korrekt när  `prefetch` begäranden används.
 * UUID-genereringen använder inte längre `Math.random()`, men är beroende av `window.crypto`.
 * Utgångsdatumet för cookien `sessionId` har utökats korrekt för varje nätverksanrop.
 * Cacheinitieringen för vyn [!UICONTROL Single Page Application] (SPA) hanteras nu korrekt och inställningarna för `viewsEnable` följs.
