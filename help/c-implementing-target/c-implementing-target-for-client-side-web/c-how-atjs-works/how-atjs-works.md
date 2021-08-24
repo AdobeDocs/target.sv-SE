@@ -5,9 +5,9 @@ title: Hur fungerar biblioteket at.js Javascript?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1105'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ at.js-biblioteket är det nya implementeringsbiblioteket för Target. at.js-bibl
 
 Mer information finns i [Mål-JavaScript-bibliotek](/help/c-intro/how-target-works.md#libraries).
 
-I [!DNL Target]-implementeringen som visas nedan är följande [!DNL Adobe Experience Cloud]-lösningar implementerade: Analytics, Target och Audience Manager. Dessutom implementeras följande bastjänster från Experience Cloud: Adobe Launch, Audiences och Visitor ID Service.
+I [!DNL Target]-implementeringen som visas nedan är följande [!DNL Adobe Experience Cloud]-lösningar implementerade: Analytics, Target och Audience Manager. Dessutom implementeras följande bastjänster från Experience Cloud: [!DNL Adobe Experience Platform], [!DNL Audiences] och [!DNL Visitor ID Service].
 
 ## Vad är skillnaden mellan at.js 1?*Vill du* expandera arbetsflödesdiagram för at.js 2.x?
 
@@ -43,7 +43,7 @@ Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vye
 
 | Steg | Detaljer |
 | --- | --- |
-| 3 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
+| 1 | Samtalet returnerar [!DNL Experience Cloud ID] om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. |
 | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext.<br>at.js kan också läsas in asynkront med ett valfritt predhide-fragment implementerat på sidan. |
 | 3 | En sidinläsningsbegäran görs med alla konfigurerade parametrar (MCID, SDID och kund-ID). |
 | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från Audience Library (till exempel målgrupper som delas från Adobe Analytics, Audience Management, osv.).<br>Kundattribut skickas till profilarkivet i en gruppbearbetning. |
@@ -60,7 +60,7 @@ Nu hämtas vyer och åtgärder från cachen och visas för användaren utan ett 
 | --- | --- |
 | 1 | `triggerView()` anropas i SPA för att återge vyn och använda åtgärder för att ändra visuella element. |
 | 2 | Målinnehåll för vyn läses från cachen. |
-| 3 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
+| 1 | Målinriktat innehåll visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 4 | En meddelandebegäran skickas till [!DNL Target]-profilarkivet för att räkna besökaren i aktiviteten och ökningsvärden. |
 | 5 | Analysdata skickas till datainsamlingsservrar. |
 | 6 | Måldata matchas mot Analytics-data via SDID och bearbetas till lagringsplatsen för analysrapporter. Analysdata kan sedan visas både i Analytics och Target via A4T-rapporter. |
@@ -79,7 +79,7 @@ Mer information finns i [Förstå hur at.js 2.x fungerar](https://helpx.adobe.co
 
 | Steg | Beskrivning | Utlysning | Beskrivning |
 |--- |--- |--- |--- |
-| 3 | Anropet returnerar [!DNL Experience Cloud ID] (MCID) om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext. |
+| 1 | Anropet returnerar [!DNL Experience Cloud ID] (MCID) om användaren är autentiserad; ett annat samtal synkroniserar kund-ID:t. | 2 | At.js-biblioteket läses in synkront och döljer dokumentets brödtext. |
 | 3 | En global mbox-begäran görs med alla konfigurerade parametrar, MCID, SDID och kund-ID (valfritt). | 4 | Profilskript körs och matas sedan in i profilarkivet. Store begär kvalificerade målgrupper från [!UICONTROL Audience Library] (till exempel målgrupper som delas från [!DNL Adobe Analytics], [!DNL Audience Manager] osv.).<br>Kundattribut skickas till  [!DNL Profile Store] i en gruppbearbetning. |
 | 5 | Baserat på URL-adressen, mbox-parametrar och profildata avgör [!DNL Target] vilka aktiviteter och upplevelser som ska returneras till besökaren. | 6 | Målinriktat innehåll skickas tillbaka till sidan, och eventuellt även profilvärden för ytterligare personalisering.<br>Upplevelsen visas så snabbt som möjligt utan att man behöver flimra standardinnehållet. |
 | 7 | [!DNL Analytics] data skickas till datainsamlingsservrar. | 8 | [!DNL Target] data matchas mot  [!DNL Analytics] data via SDID och bearbetas till  [!DNL Analytics]  rapportlagringen.<br>[!DNL Analytics] data kan sedan visas både i  [!DNL Analytics] och   [!DNL Target] via  [!DNL Analytics for Target] (A4T)-rapporter. |
