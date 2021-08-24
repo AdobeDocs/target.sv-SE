@@ -5,9 +5,9 @@ landing-page-description: Lär dig mer om de nya funktionerna, förbättringarna
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Versionsinformation
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
+source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,7 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 Mer information om den här och tidigare versioner finns i [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) i [Target node.js SDK-dokumentationen](https://github.com/adobe/target-nodejs-sdk) för Github.
 
-## [!DNL Target Standard/Premium] 21.8.1 (Datum som ska fastställas)
-
->[!NOTE]
->
->[!DNL Target Standard/Premium] 21.8.1-versionen har fördröjts. Istället för att släppas den 4 augusti 2021 kommer version 21.8.1 att släppas inom de närmaste dagarna. Mer information om det finns.
+## [!DNL Target Standard/Premium] 21.8.1 (10 augusti 2021)
 
 Den här underhållsversionen innehåller många backend-förbättringar, bland annat följande kundtillvända ändring:
 
