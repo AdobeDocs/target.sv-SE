@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 7 september | [Mobil](/help/c-target/c-audiences/c-target-rules/mobile.md) | Avsnittet &quot;Överväganden&quot; har uppdaterats med information om målenheter som kör Safari 14.0.2 (eller senare). |
+|  | [Klassificeringar - A4T - vanliga frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Uppdaterad information om `targettype` och `algorithmId`, som är interna identifierare som används av aktiviteterna [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]. |
 | 24 augusti | [ [!DNL Target] Implementera [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] har omklassificerats som en serie datainsamlingstekniker i  [!DNL Adobe Experience Platform]. Som ett resultat av detta har flera terminologiska förändringar införts i produktdokumentationen. |
 | 23 augusti | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break<ul><li>Onsdagen den 8 september 2021</li><li>8.00 (PDT, UTC -7)</li></ul></li></ul> |
 | 19 augusti | [Visa rapporter - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Uppdaterade följande frågor och svar:<ul><li>Stöder A4T virtuella rapportsviter?</li></ul> |

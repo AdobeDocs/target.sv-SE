@@ -1,12 +1,12 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;klassificeringar;klassificering;klassificeringsimportör;post-action;händelsekoder
-description: Hitta svar på frågor om klassificeringar och användning av Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] aktiviteter.
+description: Hitta svar på frågor om klassificering och användning av [!UICONTROL Analytics for Target] (A4T).
 title: Var hittar jag information om klassificeringar med A4T?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,25 @@ ht-degree: 0%
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om klassificeringar och som använder [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
 
-## Hur matchar jag värdet efter åtgärd med ett aktivitetsnamn när jag har hämtat klassificeringar med hjälp av Klassificeringsimporteraren? {#section_6045DAC488B248418F430E663C38D001}
+## När jag har använt [!UICONTROL Classifications Importer] för att hämta klassificeringar, hur matchar jag värdet efter åtgärd med ett aktivitetsnamn? {#section_6045DAC488B248418F430E663C38D001}
 
 Du kan hämta klassificeringarna för A4T/TNT-strängen från Admin Tools [Klassificeringsimporteraren](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). Variabeln kallas&quot;TNT&quot; i exportlistan. De hämtade data innehåller egna namn för aktiviteter, upplevelser och så vidare.
 
-Den här uppslagsfilen är användbar för kunder som tar emot dataflöde från Adobe clickstream. Filen innehåller egna namn för kolumnerna `post_tnt` och `post_tnt_action`.
+Den här sökfilen är användbar för kunder som tar emot [!DNL Adobe] klickströmsdataflöde. Filen innehåller egna namn för kolumnerna `post_tnt` och `post_tnt_action`.
 
-TNT-variabelns strängformat är `activityID:experienceID:targettype|event`.
+För standardaktiviteterna [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) är formatet för TNT-strängen:
 
-* måltyp = 0 (kontroll/slumpmässig) eller 1 (mål) för [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter.
+```
+activityID:experienceID:targettype|event
+```
+
+För [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter är formatet för TNT-strängen:
+
+```
+activityId:experienceId:targettype:algorithmId|event
+```
+
+* `targettype` =  `targettype` och  `algorithmId` är interna identifierare som används av  [!UICONTROL Auto-Allocate] och  [!UICONTROL Auto-Target] aktiviteter.
 * Händelse = 0 representerar en upplevelseingång.
 * Händelse = 1 representerar ett upplevelsebesök.
 * Händelse = 2 representerar ett aktivitetsintryck.
