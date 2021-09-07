@@ -5,9 +5,9 @@ title: Hur använder jag anpassade entitetsattribut?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ När ett anpassat attribut har skickats som en giltig JSON-array behandlas attri
 
 ## Implementera attribut med flera värden {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Anpassade entitetsattribut för flera värden stöds när feeds (CSV), `targetPageParams`, Delivery API och Save entities API används för att överföra produkter. Nya värden ersätter aktuella värden; de är inte tillagda. Tomma arrayer ( []) behandlas som om de inte har några värden.
+Anpassade entitetsattribut för flera värden stöds när flöden (CSV), `targetPageParams` och leverans-API används för att överföra produkter. Nya värden ersätter aktuella värden; de är inte tillagda. Tomma arrayer ( []) behandlas som om de inte har några värden.
 
 Dubbla citattecken måste undantas. `"[""test"", ""value""]"` är till exempel en giltig JSON-array som kan användas i CSV.
 
