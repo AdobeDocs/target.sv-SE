@@ -2,11 +2,11 @@
 keywords: Versionsinformation
 description: Se en lista över funktioner, förbättringar och korrigeringar som ingår i tidigare versioner av Adobe Target.
 title: Vilka funktioner ingår i tidigare versioner?
-feature: Versionsinformation
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '30977'
+source-wordcount: '31180'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,37 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2021
+
+### kl. 2.6.1 (16 augusti 2021)
+
+* Felkorrigering för &quot;Ingen cachelagrad artefakt tillgänglig för hybridläge&quot; vid användning av enhetsbeslut.
+
+### [!DNL Target] node.js SDK 2.2.0 (11 augusti 2021)
+
+* SDK-telemetridatainsamling har lagts till
+* Öppen API-kodegen för automatisk leverans
+
+Mer information om den här och tidigare versioner finns i [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) i [Target node.js SDK-dokumentationen](https://github.com/adobe/target-nodejs-sdk) för Github.
+
+### [!DNL Target Standard/Premium] 21.8.1 (10 augusti 2021)
+
+Den här underhållsversionen innehåller många backend-förbättringar, bland annat följande kundtillvända ändring:
+
+* Korrigerade ett problem som orsakade att rapporter för [!UICONTROL Auto Personalization]-aktiviteter som skapats i [!UICONTROL Form-Based Experience Composer] refererade till borttagna erbjudanden i rapporter. Det här meddelandet orsakade att följande felmeddelande visades:&quot;Det går inte att hämta data för den här rapporten. Kontakta Adobe Client Care om problemet kvarstår.&quot; (TGT-41028)
+
+### Target Delivery API (3 augusti 2021)
+
+Den här versionen innehåller följande förbättringar:
+
+* Gränsen för mbox-parametrar har ökats till 100 parametrar. Den tidigare gränsen var 50 parametrar. (TNT-41717)
+* Gränsen för `categoryId` har ökats till 256 tecken. Den tidigare gränsen var 128 tecken.
+* Följande [!DNL Adobe Audience Manager] (AAM) information har lagts till i leverans-API:
+
+   * AAM UUID: Det interna AAM-ID som används för att unikt identifiera en användare.
+   * dataPartnerId: ID för en datapartner.
+   * dataPartnerUserId: Det användar-ID som anges av en datapartner.
+
+   Tidigare ingick endast leverans-API:t `dcsLocationHint` och `blob`. (TNT-41644)
 
 ### [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
 
