@@ -3,11 +3,11 @@ keywords: Versionsinformation;nya funktioner;utgåvor;uppdateringar;uppdatering;
 description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av [!DNL Adobe Target], inklusive SDK, API:er och JavaScript-bibliotek.
 landing-page-description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av [!DNL Adobe Target].
 title: Vilka nya funktioner ingår i den aktuella versionen?
-feature: Versionsinformation
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
+source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -24,46 +24,22 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
-## kl. 2.6.1 (16 augusti 2021)
+## [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)
 
-* Felkorrigering för &quot;Ingen cachelagrad artefakt tillgänglig för hybridläge&quot; vid användning av enhetsbeslut.
+Den här underhållsversionen innehåller följande förbättringar, korrigeringar och ändringar.
 
-## [!DNL Target] node.js SDK 2.2.0 (11 augusti 2021)
-
-* SDK-telemetridatainsamling har lagts till
-* Öppen API-kodegen för automatisk leverans
-
-Mer information om den här och tidigare versioner finns i [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) i [Target node.js SDK-dokumentationen](https://github.com/adobe/target-nodejs-sdk) för Github.
-
-## [!DNL Target Standard/Premium] 21.8.1 (10 augusti 2021)
-
-Den här underhållsversionen innehåller många backend-förbättringar, bland annat följande kundtillvända ändring:
-
-* Korrigerade ett problem som orsakade att rapporter för [!UICONTROL Auto Personalization]-aktiviteter som skapats i [!UICONTROL Form-Based Experience Composer] refererade till borttagna erbjudanden i rapporter. Det här meddelandet orsakade att följande felmeddelande visades:&quot;Det går inte att hämta data för den här rapporten. Kontakta Adobe Client Care om problemet kvarstår.&quot; (TGT-41028)
-
-## [!DNL Target Delivery API] (3 augusti 2021)
-
-Den här versionen innehåller följande förbättringar:
-
-* Gränsen för mbox-parametrar har ökats till 100 parametrar. Den tidigare gränsen var 50 parametrar. (TNT-41717)
-* Gränsen för `categoryId` har ökats till 256 tecken. Den tidigare gränsen var 128 tecken.
-* Följande [!DNL Adobe Audience Manager] (AAM) information har lagts till i leverans-API:
-
-   * AAM UUID: Det interna AAM-ID som används för att unikt identifiera en användare.
-   * dataPartnerId: ID för en datapartner.
-   * dataPartnerUserId: Det användar-ID som anges av en datapartner.
-
-   Tidigare ingick endast leverans-API:t `dcsLocationHint` och `blob`. (TNT-41644)
-
-## at.js 2.6.0 (27 juli 2021)
-
-* Ett säkert attribut har lagts till i cookies när inställningarna `secureOnly` för at.js är inställda på `true`.
-* Svarstoken är nu tillgängliga när du använder `triggerView()`.
-* Korrigerade ett problem som var relaterat till `CONTENT_RENDERING_NO_OFFERS`-händelsen. Den här händelsen utlöses korrekt när inget innehåll returneras från [!DNL Target].
-* [!DNL Analytics for Target] (A4T) klickmätningsinformation returneras korrekt när  `prefetch` begäranden används.
-* UUID-genereringen använder inte längre `Math.random()`, men är beroende av `window.crypto`.
-* Utgångsdatumet för cookien `sessionId` har utökats korrekt för varje nätverksanrop.
-* Cacheinitieringen för vyn [!UICONTROL Single Page Application] (SPA) hanteras nu korrekt och inställningarna för `viewsEnable` följs.
+* Problem som medförde att kunder inte kunde logga in på [!UICONTROL Visual Experience Composer] (VEC) på grund av nya säkerhetsprofiler för cookies från tredje part i vissa webbläsare har åtgärdats. Problemet diskuterades i&quot;Sidor som inte läses in i Visual Experience Composer (VEC) eller Enhanced Experience Composer (EEC) när Google Chrome version 80+ används&quot; i [Felsökningsproblem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Ett problem som gjorde att erbjudandenamn i VEC visades i stället för erbjudandets egna namn har åtgärdats. (TGT-41300)
+* Upplevelsnamnen visas nu i [!DNL Analysis Workspace] för A4T-aktiviteter (TGT-38674)
+* Korrigerade ett problem i [!DNL Recommendations] som felaktigt tillämpade ändringar av enhets-ID i en befordran av en dubblerad aktivitet till den ursprungliga aktiviteten. (TGT-41482)
+* Ett problem som gjorde att knappen Redigera villkor inte kunde visas korrekt på [!UICONTROL Experiences]-sidan för [!DNL Recommendations]-aktiviteter i VEC har åtgärdats. (TGT-39512)
+* Korrigerade ett problem som förhindrade synkronisering av aktiviteter när de duplicerades och kopierades till en testarbetsyta. (TGT-40686)
+* Ett problem som förhindrade ändringar i en väljare med [upplevelsefragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md) när [!UICONTROL Insert After] användes i VEC har åtgärdats. (TGT-41802)
+* Korrigerade ett problem som förhindrade att tomt JSON-innehåll i ett erbjudande skickades till serverdelen. [!DNL Target] skickar nu JSON-objektet trots att det är tomt. (TGT-41555)
+* Korrigerade ett problem som gjorde att äldre [!DNL Analytics]-rapportering öppnades i stället för [!DNL Analysis Workspace] när kunderna klickade på [!UICONTROL View in Analytics] när de visade en rapport. (TGT-41867)
+* Ytterligare klargöranden lades till i det visade gränssnittsmeddelandet när en kund försöker välja [!DNL Analytics] som rapportkälla (A4T) för en [!UICONTROL Automated Personalization]-aktivitet. Meddelandet anger att &quot;[!DNL Target] är den enda källan som stöds för [!UICONTROL Automated Personalization]-aktiviteter.&quot; (TGT-41954)
+* Ytterligare förtydliganden har lagts till i felmeddelandet när kunderna försöker att separera värdar med&quot;newline&quot; i stället för kommatecken. (TGT-40671)
+* Korrigerade ett problem som orsakade att vissa aktiviteters [!UICONTROL Last Updated]-datum skilde sig från det engelska användargränssnittet för spanska och japanska kunder (när användargränssnittet visades på spanska och japanska). (TGT-38980)
 
 ## Ytterligare versionsinformation
 

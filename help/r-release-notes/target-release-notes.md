@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Den här underhållsversionen innehåller följande förbättringar, korrigering
 
 * Problem som medförde att kunder inte kunde logga in på [!UICONTROL Visual Experience Composer] (VEC) på grund av nya säkerhetsprofiler för cookies från tredje part i vissa webbläsare har åtgärdats. Problemet diskuterades i&quot;Sidor som inte läses in i Visual Experience Composer (VEC) eller Enhanced Experience Composer (EEC) när Google Chrome version 80+ används&quot; i [Felsökningsproblem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
 * Ett problem som gjorde att erbjudandenamn i VEC visades i stället för erbjudandets egna namn har åtgärdats. (TGT-41300)
+* Upplevelsnamnen visas nu i [!DNL Analysis Workspace] för A4T-aktiviteter (TGT-38674)
 * Korrigerade ett problem i [!DNL Recommendations] som felaktigt tillämpade ändringar av enhets-ID i en befordran av en dubblerad aktivitet till den ursprungliga aktiviteten. (TGT-41482)
 * Ett problem som gjorde att knappen Redigera villkor inte kunde visas korrekt på [!UICONTROL Experiences]-sidan för [!DNL Recommendations]-aktiviteter i VEC har åtgärdats. (TGT-39512)
 * Korrigerade ett problem som förhindrade synkronisering av aktiviteter när de duplicerades och kopierades till en testarbetsyta. (TGT-40686)
@@ -39,12 +40,6 @@ Den här underhållsversionen innehåller följande förbättringar, korrigering
 * Korrigerade ett problem som gjorde att äldre [!DNL Analytics]-rapportering öppnades i stället för [!DNL Analysis Workspace] när kunderna klickade på [!UICONTROL View in Analytics] när de visade en rapport. (TGT-41867)
 * Ytterligare klargöranden lades till i det visade gränssnittsmeddelandet när en kund försöker välja [!DNL Analytics] som rapportkälla (A4T) för en [!UICONTROL Automated Personalization]-aktivitet. Meddelandet anger att &quot;[!DNL Target] är den enda källan som stöds för [!UICONTROL Automated Personalization]-aktiviteter.&quot; (TGT-41954)
 * Ytterligare förtydliganden har lagts till i felmeddelandet när kunderna försöker att separera värdar med&quot;newline&quot; i stället för kommatecken. (TGT-40671)
-* Fältet [!UICONTROL Type] för segment som ska innehålla [!DNL Platform] och [!DNL AAM] ([!DNL Adobe Audience Manager]) har uppdaterats. (TGT-41328)
-* Korrigerade ett problem som fick trafikkällans operander att ändras efter att du klickade på [!UICONTROL Save]. (TGT-41408)
-* När du har sparat en målgrupp som bara innehåller en aktivitet (antingen regelbaserad eller kombinerad) läser gränssnittet nu in [!UICONTROL Audience]-väljaren med filtret Endast aktivitet. (TGT-41747).
-* Korrigerade ett problem som gjorde att målgrupper som togs bort från källan ([!DNL Adobe Experience Platform], [!UICONTROL AAM] och så vidare) fortsatte att visas i gränssnittet för [!DNL Target].
-* Ett filteralternativ har lagts till på [!UICONTROL Audiences]-sidan för att endast visa målgrupper som importerats från [!DNL Adobe Experience Platform]. (TGT-41298)
-* Förbättrade alternativ för tangentbordstillgänglighet har lagts till i [!UICONTROL Audiences]-gränssnittet. (TGT-39927)
 * Korrigerade ett problem som orsakade att vissa aktiviteters [!UICONTROL Last Updated]-datum skilde sig från det engelska användargränssnittet för spanska och japanska kunder (när användargränssnittet visades på spanska och japanska). (TGT-38980)
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

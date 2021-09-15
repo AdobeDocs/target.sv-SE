@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2360'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,17 @@ ht-degree: 0%
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
 
+## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 september 2021)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 14 september | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.9.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
+
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (10 augusti 2021)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 14 september | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.9.1 (14 september 2021). Den här informationen kommer att flyttas till [Versionsinformationen för mål (aktuell)](/help/r-release-notes/release-notes.md) senare idag. |
+| 14 september | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.9.1 (14 september 2021). |
 | 7 september | [Mobil](/help/c-target/c-audiences/c-target-rules/mobile.md) | Avsnittet &quot;Överväganden&quot; har uppdaterats med information om målenheter som kör Safari 14.0.2 (eller senare). |
 |  | [Klassificeringar - A4T - vanliga frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Uppdaterad information om `targettype` och `algorithmId`, som är interna identifierare som används av aktiviteterna [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]. |
 | 24 augusti | [ [!DNL Target] Implementera [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] har omklassificerats som en serie datainsamlingstekniker i  [!DNL Adobe Experience Platform]. Som ett resultat av detta har flera terminologiska förändringar införts i produktdokumentationen. |
@@ -28,6 +34,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | 16 augusti | [Versionsinformation om målversionen (aktuell)](/help/r-release-notes/release-notes.md)<br><br>[andat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionsinformation för at.js 2.6.1 har lagts till. |
 |  | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Avsnittet&quot;God praxis&quot; har lagts till. |
 | 11 augusti | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Versionsinformation har lagts till för [!DNL Target] node.js SDK version 2.2.0. |
+| 10 augusti | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.8.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 juni 2021)
 
