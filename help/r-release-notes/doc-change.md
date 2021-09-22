@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,11 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 22 september | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Följande överväganden har lagts till:<ul><li>Klickspårningsstatistik är inte länkade till någon specifik upplevelse i en aktivitet.</li><li>Använd målgrupper om det är nödvändigt att begränsa omfattningen av klickspårningsmätningarna.</li><li>Flera aktiviteter kan definiera ett klickspårsmått för samma väljare. Om så är fallet, när en besökare kvalificerar sig för någon av dessa aktiviteter och klickar på väljaren, ökar klickspårningsmåttet för alla associerade aktiviteter som besökaren är kvalificerad för.</li></ul> |
+|  | [ [!DNL Target] Implementera [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Anteckningen har lagts till i avsnittet Fördelar med att implementera at.js med tillägget [!DNL Target]. |
+|  | [Profilsynkronisering i realtid för mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Avsnittet&quot;Överväganden&quot; har uppdaterats med ny information. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Avsnittet&quot;secureOnly&quot; har uppdaterats. |
+|  | [at.js Frågor och svar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Uppdaterade följande frågor och svar: &quot;Varför använder inte at.js alltid flaggorna HTTPOnly och Secure cookie?&quot; |
 | 14 september | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.9.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (10 augusti 2021)

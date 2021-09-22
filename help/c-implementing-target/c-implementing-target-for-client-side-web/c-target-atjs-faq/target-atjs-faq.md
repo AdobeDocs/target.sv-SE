@@ -5,16 +5,16 @@ title: Vad är vanliga frågor och svar om at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2500'
 ht-degree: 0%
 
 ---
 
 # at.js Frågor och svar
 
-Svar på vanliga frågor om at.js.
+Svar på vanliga frågor om [!DNL Adobe Target] at.js JavaScript-biblioteket.
 
 ## Vilka är fördelarna med att använda at.js jämfört med mbox.js? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
@@ -47,45 +47,45 @@ I följande avsnitt beskrivs åtgärdssekvensen för nya och återkommande besö
 1. Om den globala mbox-skaparen är aktiverad, JavaScript-målbiblioteket:
 
    * Instansierar Visitor-objektet.
-   * Målbiblioteket försöker hämta Experience Cloud Visitor-ID-data.
+   * [!DNL Target]-biblioteket försöker hämta [!DNL Experience Cloud Visitor ID]-data.
    * Eftersom den här besökaren är en ny besökare genererar besökar-API en korsdomänbegäran till demdex.net.
-   * När data för Experience Cloud Visitor-ID har hämtats skickas en begäran till Target.
+   * När [!DNL Experience Cloud Visitor ID]-data har hämtats utlöses en begäran till [!DNL Target].
 
 ### Returnerande besökare
 
 1. Besökar-API:t läses in, tolkas och körs.
 1. at.js / mbox.js läses in, tolkas och körs.
-1. Om den globala mbox-skaparen är aktiverad, JavaScript-målbiblioteket:
+1. Om den globala mbox-skaparen är aktiverad, är JavaScript-biblioteket [!DNL Target]:
 
    * Instansierar Visitor-objektet.
-   * Målbiblioteket försöker hämta Experience Cloud Visitor-ID-data.
+   * [!DNL Target]-biblioteket försöker hämta [!DNL Experience Cloud Visitor ID]-data.
    * Besökar-API:t hämtar data från cookies.
-   * När data för Experience Cloud Visitor-ID har hämtats skickas en begäran till Target.
+   * När [!DNL Experience Cloud Visitor ID]-data har hämtats utlöses en begäran till [!DNL Target].
 
 >[!NOTE]
 >
->För nya besökare måste Target gå igenom tråden flera gånger när besökar-API:t finns för att se till att Target-begäranden innehåller data för Experience Cloud Visitor-ID:t. För återkommande besökare går Target bara till Target för att hämta det personaliserade innehållet.
+>För nya besökare måste [!DNL Target] gå igenom tråden flera gånger när besökar-API:t finns för att se till att [!DNL Target]-begäranden innehåller [!DNL Experience Cloud Visitor ID]-data. För återkommande besökare går [!DNL Target] bara över tråden till [!DNL Target] för att hämta det anpassade innehållet.
 
 ## Varför verkar det som om jag ser längre svarstider efter en uppgradering från en tidigare version av at.js till version 1.0.0? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
-[!DNL at.js] version 1.0.0 och senare utlöser alla begäranden parallellt. I tidigare versioner körs förfrågningarna sekventiellt, vilket innebär att förfrågningarna placeras i kö och Target väntar på att den första begäran ska slutföras innan nästa begäran går vidare.
+[!DNL at.js] version 1.0.0 och senare utlöser alla begäranden parallellt. I tidigare versioner körs förfrågningarna sekventiellt, vilket innebär att förfrågningarna placeras i kö och [!DNL Target] väntar på att den första förfrågningen ska slutföras innan du går vidare till nästa begäran.
 
-Det sätt som tidigare versioner av [!DNL at.js] kör begäranden på är känsligt för den så kallade &quot;head of line blockering&quot;. I [!DNL at.js] 1.0.0 och senare växlade Target till parallell körning av begäran.
+Det sätt som tidigare versioner av [!DNL at.js] kör begäranden på är känsligt för den så kallade &quot;head of line blockering&quot;. I [!DNL at.js] 1.0.0 och senare växlade [!DNL Target] till parallell körning av begäran.
 
 Om du till exempel kontrollerar vattenfallet på nätverksfliken för [!DNL at.js] 0.9.1 ser du att nästa [!DNL Target]-begäran inte startar förrän den föregående har slutförts. Den här sekvensen är inte fallet med [!DNL at.js] 1.0.0 och senare, där alla begäranden börjar samtidigt.
 
 Från ett svarstidsperspektiv, matematiskt, kan den här sekvensen summeras så här
 
 <ul class="simplelist"> 
- <li> at.js 0.9.1: Svarstid för alla Target-begäranden = summan av begäranden och svarstid </li> 
- <li> at.js 1.0.0 och senare: Svarstid för alla Target-begäranden = maximal svarstid för begäranden </li> 
+ <li> at.js 0.9.1: Svarstid för alla [!DNL Target]-begäranden = summan av begäranden och svarstid </li> 
+ <li> at.js 1.0.0 och senare: Svarstid för alla [!DNL Target]-begäranden = maximal svarstid för begäranden </li> 
 </ul>
 
-[!DNL at.js]-biblioteksversionen 1.0.0 slutför förfrågningarna snabbare. Dessutom är [!DNL at.js]-begäranden asynkrona, så [!DNL Target] blockerar inte sidåtergivning. Även om en begäran tar några sekunder att slutföra, ser du fortfarande den återgivna sidan, så är det bara vissa delar av sidan som döljs tills Target får ett svar från Target-kanten.
+[!DNL at.js]-biblioteksversionen 1.0.0 slutför förfrågningarna snabbare. Dessutom är [!DNL at.js]-begäranden asynkrona, så [!DNL Target] blockerar inte sidåtergivning. Även om en begäran tar några sekunder att slutföra, ser du fortfarande den återgivna sidan, så är det bara vissa delar av sidan som döljs tills [!DNL Target] får ett svar från kanten [!DNL Target].
 
 ## Kan jag läsa in [!DNL Target]-biblioteket asynkront? {#section_AB9A0CA30C5440C693413F1455841470}
 
-Med versionen at.js 1.0.0 kan du läsa in målbiblioteket asynkront.
+Med versionen at.js 1.0.0 kan du läsa in biblioteket [!DNL Target] asynkront.
 
 Så här läser du in at.js asynkront:
 
@@ -115,7 +115,7 @@ Om du distribuerar at.js via en synkron DTM-implementering kan det fördolda fra
 
 Mer information finns i [How at.js management flimmer](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
-## Är at.js kompatibelt med Adobe Experience Manager (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
+## Är at.js kompatibelt med [!DNL Adobe Experience Manager]-integreringen (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
 [!DNL Adobe Experience Manager] 6.2 med FP-11577 (eller senare) har nu stöd för  [!DNL at.js] implementeringar med dess  [!UICONTROL Adobe Target Cloud Services] integrering.
 
@@ -149,7 +149,7 @@ För att stödja Safari-besökare är en bättre X-Domain inaktiverad (anger end
 
 Ja, du kan använda VEC för din SPA om du använder at.js 2.x. Mer information finns i [Enkelsidig (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
-## Kan jag använda Adobe Experience Cloud Debugger med at.js-implementeringar? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## Kan jag använda felsökningsprogrammet [!DNL Adobe Experience Cloud] med at.js-implementeringar? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 Ja. Du kan också använda mboxTrace för felsökning eller webbläsarens utvecklingsverktyg för att granska nätverksförfrågningar och filtrera till mbox för att isolera mbox-anrop.
 
@@ -159,13 +159,13 @@ Ja, precis som med mbox.js.
 
 ## Varför skjuter inte mina lådor på mina webbsidor? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
-Målgrupper använder ibland molnbaserade instanser med [!DNL Target] för testning eller enkla konceptbevis. Dessa domäner, och många andra, ingår i [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
+[!DNL Target] kunder använder ibland molnbaserade instanser med  [!DNL Target] för testning eller enkla konceptbevis. Dessa domäner, och många andra, ingår i [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
 
 I moderna webbläsare sparas inte cookies om du använder dessa domäner om du inte anpassar inställningen `cookieDomain` med targetGlobalSettings(). Mer information finns i [Använda molnbaserade instanser med Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md).
 
 ## Kan IP-adresser användas som cookie-domän när du använder at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Ja, om du använder [at.js version 1.2 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). Adobe rekommenderar dock att du håller dig uppdaterad med den senaste versionen.
+Ja, om du använder [at.js version 1.2 eller senare](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). [!DNL Adobe] Vi rekommenderar dock att du håller dig uppdaterad med den senaste versionen.
 
 >[!NOTE]
 >
@@ -201,8 +201,8 @@ Följande är möjliga rotorsaker om du ser det här varningsmeddelandet:
 
 * Sidan byggs dynamiskt och at.js kan inte hitta elementet.
 * Sidan byggs långsamt (på grund av ett långsamt nätverk) och at.js kan inte hitta väljaren i DOM.
-* Sidstrukturen som aktiviteten körs på har ändrats. Om du öppnar aktiviteten igen i Visual Experience Composer (VEC) bör du få ett varningsmeddelande. Uppdatera aktiviteten så att alla nödvändiga element kan hittas.
-* Den underliggande sidan är en del av ett Single Page-program (SPA) eller sidan innehåller element som visas längre ned på sidan och väljaravsökningsfunktionen [!DNL at.js] kan inte hitta dessa element. Om du ökar `selectorsPollingTimeout` kan det hjälpa. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+* Sidstrukturen som används i[!UICONTROL y is running on has been changed. If you reopen the activity in the ]Visual Experience Composer (VEC) bör innehålla ett varningsmeddelande. Uppdatera aktiviteten så att alla nödvändiga element kan hittas.
+* Den underliggande sidan är en del av en [!UICONTROL Single Page Application] (SPA) eller sidan innehåller element som visas längre ned på sidan och väljaravsökningsfunktionen [!DNL at.js] kan inte hitta dessa element. Om du ökar `selectorsPollingTimeout` kan det hjälpa. Mer information finns i [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Alla klickspårningsmått försöker lägga till sig själv på varje sida, oavsett vilken URL som måttet har ställts in på. Även om det är ofarligt visas många av dessa meddelanden.
 
    Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) och [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
@@ -211,17 +211,17 @@ Följande är möjliga rotorsaker om du ser det här varningsmeddelandet:
 
 [!DNL tt.omtrdc.net] är domännamnet för Adobe EDGE-nätverket, som används för att ta emot alla serveranrop för Target.
 
-## Varför använder inte at.js och mbox.js flaggorna HttpOnly och Secure cookie? {#section_74527E3B41B54B0A83F217C3E664ED1F}
+## Varför använder inte at.js alltid flaggorna HTTPOnly och Secure cookie? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-HttpOnly kan bara anges via kod på serversidan. Målcookies, som mbox, skapas och sparas via JavaScript-kod, så Target kan inte använda HTML-cookie-flaggan.
+HttpOnly kan bara anges via kod på serversidan. [!DNL Target] cookies, t.ex. mbox, skapas och sparas via JavaScript-kod, så  [!DNL Target] det går inte att använda HTML-cookie-flaggan. [!DNL Target] använder set HttpOnly för cookies från tredje part som anges från serversidan när korsdomänen är aktiverad.
 
-Säker kan bara ställas in via JavaScript när sidan har lästs in via HTTPS. Om sidan först läses in via HTTP kan JavaScript inte ange den här flaggan. Om du dessutom använder flaggan Secure är cookien bara tillgänglig på HTTPS-sidor.
+Säker kan bara ställas in via JavaScript när sidan har lästs in via HTTPS. Om sidan först läses in via HTTP kan JavaScript inte ange den här flaggan. Om du dessutom använder flaggan Secure är cookien bara tillgänglig på HTTPS-sidor. För sidor som läses in via HTTPS anger [!DNL Target] attributen Secure och SameSite=None.
 
-För att garantera att Target kan spåra användare på rätt sätt och eftersom cookies genereras på klientsidan, använder inte Target någon av dessa flaggor.
+För att [!DNL Target] ska kunna spåra användare korrekt och eftersom cookies genereras på klientsidan, använder [!DNL Target] inte någon av dessa flaggor förutom i de situationer som nämns ovan.
 
 ## Hur ofta skickar at.js en nätverksbegäran? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target verkställer alla sina beslut på serversidan. Det innebär att at.js utlöser en nätverksbegäran varje gång sidan läses in igen eller att ett at.js public API anropas.
+[!DNL Target] verkställer alla sina beslut på serversidan. Det innebär att at.js utlöser en nätverksbegäran varje gång sidan läses in igen eller att ett at.js public API anropas.
 
 ## I det bästa fallet, kan vi förvänta oss att användaren inte upplever några synliga effekter på sidinläsningen som relaterar till att dölja, ersätta och visa innehåll? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
@@ -234,11 +234,11 @@ At.js-begäran är en asynkron `XMLHttpRequest`, så vi utför följande steg:
 1. Sidan läses in.
 1. at.js fördöljer HTML BODY. Det finns en inställning för att dölja en viss behållare i förväg i stället för HTML BODY.
 1. AT.js-begäran utlöses.
-1. När Target-svaret har tagits emot extraherar Target CSS-väljarna.
-1. Med CSS-väljare skapar Target STYLE-taggar för att i förväg dölja de DOM-element som ska anpassas.
+1. När [!DNL Target]-svaret har tagits emot extraherar [!DNL Target] CSS-väljarna.
+1. Med CSS-väljare skapar [!DNL Target] STYLE-taggar för att i förväg dölja de DOM-element som ska anpassas.
 1. HTML BODY-FORMATMALLEN som döljs innan tas bort.
-1. Målet börjar avfråga DOM-element.
-1. Om ett DOM-element hittas tillämpar Target DOM-ändringar och elementet före döljning tas bort.
+1. [!DNL Target] börjar avfråga DOM-element.
+1. Om ett DOM-element hittas tillämpar [!DNL Target] DOM-ändringar och elementet före döljning av STYLE tas bort.
 1. Om DOM-element inte hittas döljs elementen med en global tidsgräns, så att ingen bruten sida hittas.
 
 ## Hur ofta är sidans innehåll helt inläst och synligt när at.js äntligen tar bort elementet som aktiviteten ändras från? {#section_01AFF476EFD046298A2E17FE3ED85075}
@@ -249,17 +249,17 @@ at.js blockerar inte sidan från återgivning. En användare kan lägga märke t
 
 ## Hur skulle en helt cachelagrad sida påverka scenariot ovan? Skulle det vara troligare att aktivitetens innehåll blir synligt när resten av sidans innehåll har lästs in? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-Om en sida cache-lagras på ett CDN som ligger nära användarens plats, men inte nära målkanten, kan det hända att vissa fördröjningar inträffar. Målkanterna är väl spridda över hela världen, så det här är oftast inget problem.
+Om en sida cache-lagras på ett CDN som ligger nära användarens plats, men inte nära kanten [!DNL Target], kan användaren se vissa förseningar. [!DNL Target] Kanterna är väl fördelade över hela världen, så det här är oftast inget problem.
 
 ## Kan en hjältebild visas och sedan bytas ut efter en kort fördröjning? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Tänk på följande scenario:
 
-Timeout för mål är fem sekunder. En användare läser in en sida som har en aktivitet för att anpassa en hjältebild. at.js skickar begäran för att avgöra om det finns en aktivitet att tillämpa, men det finns inget initialt svar. Anta att användaren ser det vanliga innehållet i hjältebilden eftersom inget svar togs emot från Target angående huruvida det finns någon associerad aktivitet. Efter fyra sekunder returnerar Target ett svar med aktivitetsinnehållet.
+Tidsgränsen för [!DNL Target] är fem sekunder. En användare läser in en sida som har en aktivitet för att anpassa en hjältebild. at.js skickar begäran för att avgöra om det finns en aktivitet att tillämpa, men det finns inget initialt svar. Anta att användaren ser det vanliga innehållet i hjältebilden eftersom inget svar togs emot från [!DNL Target] angående om det finns någon associerad aktivitet. Efter fyra sekunder returnerar [!DNL Target] ett svar med aktivitetsinnehållet.
 
 Skulle det i det här skedet vara möjligt att visa den alternativa versionen? Så efter fyra sekunder kan hjältebilden bytas ut och användaren kan märka att bilden byts ut?
 
-Till att börja med är bildhjälteelementet DOM dolt. När ett svar från Target har tagits emot tillämpar at.js DOM-ändringarna, som att ersätta IMG-filen och visa den anpassade hjältebilden.
+Till att börja med är bildhjälteelementet DOM dolt. När ett svar från [!DNL Target] har tagits emot tillämpar at.js DOM-ändringarna, som att ersätta IMG-filen och visa den anpassade hjältebilden.
 
 ## Vilken HTML-dokumenttyp kräver at.js?
 
@@ -269,4 +269,4 @@ Syntaxen är:
 
 `<!DOCTYPE html>`
 
-Dokumenttypen HTML 5 ser till att sidan läses in i standardläge. När du läser in i felsökningsläge inaktiveras vissa JS-API:er som at.js är beroende av. Målet inaktiverar at.js i felsökningsläge.
+Dokumenttypen HTML 5 ser till att sidan läses in i standardläge. När du läser in i felsökningsläge inaktiveras vissa JS-API:er som at.js är beroende av. [!DNL Target] inaktiverar at.js i felsökningsläge.

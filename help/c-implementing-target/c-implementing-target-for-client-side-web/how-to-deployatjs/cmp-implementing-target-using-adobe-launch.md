@@ -1,13 +1,13 @@
 ---
 keywords: implementera;implementera;implementera;adobe launch;starta;etapp;redirect;experience platform launch;platform launch;taggar;adobe platform
-description: Lär dig hur du implementerar biblioteket Adobe [!DNL Target] at.js med Adobe Experience Platform Launch, den metod som rekommenderas för att implementera Adobe [!DNL Target].
-title: Hur implementerar jag [!DNL Target] med Adobe Launch?
-feature: Implementera serversidan
+description: Lär dig hur du implementerar biblioteket [!DNL Adobe Target] at.js med [!DNL Adobe Experience Platform], the preferred method to implement [!DNL Target].
+title: Hur implementerar jag [!DNL Target] med [!DNL Adobe Experience Platform]?
+feature: Implement Server-side
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,9 @@ I följande tabell visas de olika källor där du kan få mer information:
 Följande fördelar gäller bara om du använder taggar i [!DNL Adobe Experience Platform] för att implementera at.js. Av den anledningen föreslår [!DNL Adobe] starkt att du använder taggar i [!DNL Adobe Experience Platform] i stället för en manuell implementering av at.js.
 
 * **Lösning  [!DNL Adobe Analytics] och  [!DNL Target] tävlingsvillkor:** Eftersom  [!DNL Analytics] samtalet kunde utlösas före  [!DNL Target] samtalet sammanfogas inte  [!DNL Target] samtalet till  [!DNL Analytics] samtalet. Den här ordningsföljden kan leda till felaktiga data. Tillägget [!DNL Target] ser till att beacon-anropet [!DNL Analytics] väntar tills anropet [!DNL Target] slutförs, vare sig det lyckades eller inte. Om du använder taggar i [!DNL Adobe Experience Platform] löses den inkonsekvens i data som kunderna kan uppleva när de implementerar manuellt.
+
+   >[!NOTE]
+   >
+   >Använd åtgärden [!UICONTROL Send Beacon] i tillägget [!DNL Adobe Analytics] så att anropet [!DNL Analytics] väntar på anropet [!DNL Target]. Om du anropar `s.t()` eller `s.tl()` direkt med anpassad kod väntar inte [!DNL Analytics] anrop förrän [!DNL Target] anrop har slutförts.
+
 * **Förhindrar felaktig hantering av omdirigeringserbjudanden:** Om du har  [!DNL Target] och  [!DNL Analytics] på sidan och det finns ett omdirigeringserbjudande som körs av  [!DNL Target]kan du uppleva en situation där  [!DNL Analytics] spåraren utlöser en begäran när den inte ska det (eftersom användaren omdirigeras till en annan URL). Om du implementerar [!DNL Target] och [!DNL Analytics] via taggar i [!DNL Adobe Experience Platform] kommer du inte att märka det här problemet. Med hjälp av taggar i [!DNL Adobe Experience Platform] instruerar [!DNL Target] [!DNL Analytics] att avbryta [!DNL Analytics]-beacon-begäran.

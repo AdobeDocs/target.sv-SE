@@ -1,12 +1,12 @@
 ---
 keywords: Klicka på spårning;spåra klick;klicka;AppMeasurement
-description: Lär dig hur du med Adobe [!DNL Target] kan spåra klick på ett element som ett framgångsmått.
+description: Lär dig hur du med  [!DNL Adobe Target] kan spåra klick på ett element som ett framgångsmått.
 title: Vad är Click Tracking?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Spårningsklickningar stöds inte i den globala Target-begäran när den används som en plats i en formulärbaserad aktivitet.
+>Spårningsklickningar stöds inte i den globala [!DNL Target]-begäran när den används som en plats i en formulärbaserad aktivitet.
 
-## Ställa in klickspårning {#section_5540C5A533114E57BAE022A600B02E72}
+## Ställ in klickspårning {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. När du anger dina mål på [!UICONTROL Goals & Settings]-sidan för din aktivitet väljer du måttet **[!UICONTROL Conversion]** för framgång.
 1. För åtgärden väljer du **[!UICONTROL Clicked an element]** och klickar sedan på **[!UICONTROL Select elements]**.
@@ -28,15 +28,15 @@ ht-degree: 0%
 
 1. Markera de element som du vill spåra.
 
-   Se avsnittet Saker att tänka på nedan för tips om hur du väljer element.
+   Tips om hur du väljer element finns i avsnittet *Considerations* nedan.
 
-1. Klicka på bockmarkeringen längst upp på skärmen för att spara dina val.
+1. Klicka på **[!UICONTROL Save]** högst upp på skärmen för att spara dina val.
 
 När en aktivitetsdeltagare klickar på ett markerat element räknas det klicket som en konvertering.
 
 ## Panelen Markerade element {#selected-elements}
 
-För A/B-tester, Experience Targeting (XT), Automated Personalization (AP) och Multivariate Test (MVT) visas en [!UICONTROL Selected Elements]-panel med alla markerade element för klickspårning till höger.
+För [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting]- (XT), [!UICONTROL Automated Personalization]- (AP) och [!UICONTROL Multivariate Test] (MVT)-aktiviteter listar en [!UICONTROL Selected Elements]-panel de valda elementen för klickspårning till höger.
 
 ![Panelen Markerade element](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
@@ -50,11 +50,11 @@ Det finns flera åtgärder som kan användas när du hovrar över ett element p�
 
 ### Lägg till element
 
-Om du redan känner till DOM-sökvägen till väljaren kan du lägga till den manuellt genom att klicka på plusikonen som finns högst upp på panelen.
+Om du redan känner till DOM-sökvägen till väljaren kan du lägga till den manuellt genom att klicka på plusikonen högst upp på panelen.
 
 ![Ikonen Lägg till element](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### Popup för hovring av markerade element
+### Popup för markerade element
 
 När du har markerat flera element för klickspårning kan du klicka på länken [!UICONTROL Elements Selected] i aktivitetens [!UICONTROL Goals & Settings]-steg för att se den fullständiga listan över element som har markerats för klickspårning. Listan innehåller den fullständiga DOM-sökvägen för elementet som hjälper dig att validera att det markerade elementet ska användas för klickspårning.
 
@@ -68,7 +68,7 @@ Det finns flera saker att tänka på när du markerar element:
 
    ![DOM-banillustration](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Precis som när du skapar upplevelser i steg 1 i arbetsflödet för att skapa aktiviteter kan du välja ett element med DOM-sökvägsväljaren längst ned på sidan. När du väljer ett element från DOM-sökvägen visas motsvarande element i VEC som&quot;Markerat&quot;. Om du vill avmarkera ett markerat element kan du klicka på elementet i DOM-sökvägsväljaren eller klicka på rutan Markerat i VEC.
+   Precis som när du skapar upplevelser i steg 1 i arbetsflödet för att skapa aktiviteter kan du välja ett element med DOM-sökvägsväljaren längst ned på sidan. När du väljer ett element från DOM-sökvägen visas motsvarande element i VEC som&quot;Markerat&quot;. Om du vill avmarkera ett markerat element kan du klicka på elementet igen i DOM-banväljaren eller klicka på rutan Markerat i VEC.
 
    Mer information finns i [Navigera mellan element med DOM-sökvägen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i *Alternativ för Visual Experience Composer*.
 
@@ -76,7 +76,7 @@ Det finns flera saker att tänka på när du markerar element:
 * Om du markerar mer än ett element, och en deltagare klickar på något av de valda elementen, räknas klickningen. Om du vill räkna varje objekt för sig anger du individuella framgångsmått för varje element. Om du vill räkna ett objekt genom att klicka på flera element på en sida redigerar du CSS-elementväljaren så att den matchar flera element.
 * Se till att du väljer den elementnivå som du vill spåra. Om du till exempel anger en knapp måste du markera länken och inte knapptexten.
 * Klickhändelser skickas till [!DNL Target] på samma sida som klickningen.
-* Om klickspårningsmåttet är målmåttet för en A4T-aktivitet måste besökaren klicka på det här elementet inom 60 sekunder från inläsningen för att mätvärdet ska kunna spåras.
+* Om klickspårningsmåttet är målmåttet för en [!UICONTROL Analytics for Target]-aktivitet (A4T), måste besökaren klicka på det här elementet inom 60 sekunder från sidan som läses in för att mätvärdet ska kunna spåras.
 * Klickspårning fungerar inte för element som innehåller escape-tecken i sina väljare, inklusive följande:
 
    | Tecken | Beskrivning |
@@ -87,7 +87,7 @@ Det finns flera saker att tänka på när du markerar element:
    | $ | Dollar-tecken |
    | `[ ]` | Fyrkantiga parenteser |
 
-* Om du använder [!DNL at.js] klickspårning och även använder Analytics AppMeasurement, avbryter klickspårning alla andra klickhändelsehanterare. [!DNL at.js] Därför körs aldrig klickhanteraren för AppMeasurement.
+* Om du använder [!DNL at.js], klickspårning och även använder [!DNL Analytics] AppMeasurement, avbryter klickspårning alla andra klickhändelsehanterare. [!DNL at.js] Därför körs aldrig klickhanteraren för AppMeasurement.
 
    [!DNL at.js] har specialhantering för klickspårning när det underliggande elementet är en  `A` (link)-tagg eller - `FORM` tagg.
 
@@ -95,23 +95,29 @@ Det finns flera saker att tänka på när du markerar element:
 
    1. Anropa `event.preventDefault()`.
 
-   1. Fire Target-begäran.
+   1. Starta [!DNL Target]-begäran.
 
-   1. Kör standardbeteendet om Target-begäran lyckas eller om ett fel uppstår:
+   1. Kör standardbeteendet på [!DNL Target]-begäran om lyckad eller felåteranrop:
 
       * `A` (link)-tagg: Standardbeteendet är att navigera till den URL som definieras av HREF-attributet.
       * `FORM` tagg: Standardbeteendet är att skicka formuläret.
 
-   Detta standardbeteende kan störa klickspårningen i Analytics. Om ni använder Analytics bör ni förlita er på Analytics för klickspårning i stället för Target.
+   Detta standardbeteende kan störa klickspårningen i [!DNL Analytics]. Om du använder [!DNL Analytics] bör du förlita dig på [!DNL Analytics] för klickspårning i stället för [!DNL Target].
 
-* Klickspårning registreras inte på sidor där sid- och aktivitets-URL:en tillhör olika egenskaper. Enterprise-användarbehörigheter är en Target Premium-funktion. Mer information finns i [Företagsanvändarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+* Klickspårning registreras inte på sidor där sid- och aktivitets-URL:en tillhör olika egenskaper. Enterprise-användarbehörigheter är en [!DNL Target Premium]-funktion. Mer information finns i [Företagsanvändarbehörigheter](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
+* Klickspårningsstatistik är inte länkade till någon specifik upplevelse i en aktivitet.
+
+* Använd målgrupper om det är nödvändigt att begränsa omfattningen av klickspårningsmätningarna.
+
+* Flera aktiviteter kan definiera ett klickspårsmått för samma väljare. Om så är fallet, när en besökare kvalificerar sig för någon av dessa aktiviteter och klickar på väljaren, ökar klickspårningsmåttet för alla associerade aktiviteter som besökaren är kvalificerad för.
 
 ## Utbildningsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 Den här videon innehåller information om hur du skapar framgångsmått för klickspårning.
 
 * Förstå målvärden
-* Förstå och bygga mått för konvertering, intäkter och engagemang
+* Förstå och bygg mått för [!UICONTROL Conversion], [!UICONTROL Revenue] och [!UICONTROL Engagement]
 * Bygg ett klickspårningsmått
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)
