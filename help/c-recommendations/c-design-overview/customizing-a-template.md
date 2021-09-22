@@ -4,10 +4,9 @@ description: Lär dig hur du använder designspråket Velocity med öppen källk
 title: Hur anpassar jag en design snabbt?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -137,10 +136,10 @@ Som standard hanteras alla entitetsattribut som strängvärden i snabbmeddelande
 Anta att du vill minska det visade priset för en artikel med $0,99 för att tillämpa en rabatt. Du kan använda följande metod för att uppnå detta resultat:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
@@ -152,10 +151,10 @@ Anta att du vill minska det visade priset för en artikel med $0,99 för att til
 Anta att du vill visa ett lämpligt antal stjärnor baserat på ett objekts numeriska genomsnittliga kundomdöme. Du kan använda följande metod för att uppnå detta resultat:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )

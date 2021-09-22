@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2510'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 22 september | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Följande överväganden har lagts till:<ul><li>Klickspårningsstatistik är inte länkade till någon specifik upplevelse i en aktivitet.</li><li>Använd målgrupper om det är nödvändigt att begränsa omfattningen av klickspårningsmätningarna.</li><li>Flera aktiviteter kan definiera ett klickspårsmått för samma väljare. Om så är fallet, när en besökare kvalificerar sig för någon av dessa aktiviteter och klickar på väljaren, ökar klickspårningsmåttet för alla associerade aktiviteter som besökaren är kvalificerad för.</li></ul> |
+|  | [Anpassa en design med Snabb](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Ändrade `$Double` till `$double` i kodexempel för att förhindra tvetydighet. |
+| 22 september | [Vanliga frågor om design](/help/c-recommendations/c-design-overview/template-faq.md) | Uppdaterade följande frågor och svar:<ul><li>Kan jag använda ett profilskript i en [!DNL Recommendations]-design?</li></ul> |
+|  | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Följande överväganden har lagts till:<ul><li>Klickspårningsstatistik är inte länkade till någon specifik upplevelse i en aktivitet.</li><li>Använd målgrupper om det är nödvändigt att begränsa omfattningen av klickspårningsmätningarna.</li><li>Flera aktiviteter kan definiera ett klickspårsmått för samma väljare. Om så är fallet, när en besökare kvalificerar sig för någon av dessa aktiviteter och klickar på väljaren, ökar klickspårningsmåttet för alla associerade aktiviteter som besökaren är kvalificerad för.</li></ul> |
 |  | [ [!DNL Target] Implementera [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Anteckningen har lagts till i avsnittet Fördelar med att implementera at.js med tillägget [!DNL Target]. |
 |  | [Profilsynkronisering i realtid för mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Avsnittet&quot;Överväganden&quot; har uppdaterats med ny information. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Avsnittet&quot;secureOnly&quot; har uppdaterats. |
