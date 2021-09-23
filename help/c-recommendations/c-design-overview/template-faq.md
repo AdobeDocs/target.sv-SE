@@ -4,17 +4,16 @@ description: Granska en lista med vanliga frågor och svar och svar om Adobe [!D
 title: Var kan jag svara på designfrågor för  [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # ![Vanliga frågor om ](/help/assets/premium.png) PREMIUMDesign
 
-Lista med vanliga frågor och svar om [!DNL Adobe Target] rekommendationer för design.
+Lista med vanliga frågor och svar om [!DNL Adobe Target] [!DNL Recommendations]-designer.
 
 ## Det rekommenderade objektets pris visar inte båda värdena till höger om decimalkommat. Hur visar jag dem?
 
@@ -30,7 +29,7 @@ Det finns två alternativ för att åtgärda problemet:
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Varför visas inte kategorier i designen? Jag använder $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
+## Varför visas inte kategorier i designen? Jag använder `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 Kategori-ID kan inte visas i designen. Eftersom flera kategorier kan lagras vet systemet inte vilken kategori som ska visas.
 
@@ -50,6 +49,6 @@ Version 1.7 utan ytterligare verktyg eller bibliotek tillagda i. Det finns grund
 
 Att skicka i ett JavaScript-baserat hårt blanksteg verkar göra detta. Låt utvecklarna skicka in `\u00A0` som värde. Exempel: `entity.message=\u00A0`. Du kan överväga att använda det som standardvärde när det inte finns något värde i stället för ett null-värde.
 
-## Kan jag använda ett profilskript i en Recommendations-design? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Kan jag använda ett profilskript i en [!DNL Recommendations]-design? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Ja. Du måste dock lägga till ett omvänt snedstreck (\) före $ i profilskriptets namn.
+Ja. Om du vill använda ett profilskript i en [!DNL Recommendations]-design måste du omsluta namnet i `\${...}`. Om ditt profilskript till exempel heter `user.basket` ska du referera det till `\${user.basket}` i designen. Observera att det omvända snedstrecket innebär att profilskriptet inte återges av Velocity. Du kan därför inte utföra några åtgärder på profilskriptet i en Velocity-mall. Värdet skrivs ut direkt på sidan.
