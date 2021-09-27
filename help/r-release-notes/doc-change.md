@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,10 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 22 september | [Vanliga frågor om design](/help/c-recommendations/c-design-overview/template-faq.md) | Uppdaterade följande frågor och svar:<ul><li>Kan jag använda ett profilskript i en [!DNL Recommendations]-design?</li></ul> |
-| 22 september | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Följande överväganden har lagts till:<ul><li>Klickspårningsstatistik är inte länkade till någon specifik upplevelse i en aktivitet.</li><li>Använd målgrupper om det är nödvändigt att begränsa omfattningen av klickspårningsmätningarna.</li><li>Flera aktiviteter kan definiera ett klickspårsmått för samma väljare. Om så är fallet, när en besökare kvalificerar sig för någon av dessa aktiviteter och klickar på väljaren, ökar klickspårningsmåttet för alla associerade aktiviteter som besökaren är kvalificerad för.</li></ul> |
+| 27 september | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break<ul><li>onsdagen den 13 oktober 2021</li><li>8.00 (PDT, UTC -7)</li></ul></li></ul> |
+| 22 september | [Anpassa en design med Snabb](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Ändrade `$Double` till `$double` i kodexempel för att förhindra eventuell tvetydighet. |
+|  | [Vanliga frågor om design](/help/c-recommendations/c-design-overview/template-faq.md) | Uppdaterade följande frågor och svar:<ul><li>Kan jag använda ett profilskript i en [!DNL Recommendations]-design?</li></ul> |
+|  | [Klickspårning](/help/c-activities/r-success-metrics/click-tracking.md) | Följande överväganden har lagts till:<ul><li>Klickspårningsstatistik är inte länkade till någon specifik upplevelse i en aktivitet.</li><li>Använd målgrupper om det är nödvändigt att begränsa omfattningen av klickspårningsmätningarna.</li><li>Flera aktiviteter kan definiera ett klickspårsmått för samma väljare. Om så är fallet, när en besökare kvalificerar sig för någon av dessa aktiviteter och klickar på väljaren, ökar klickspårningsmåttet för alla associerade aktiviteter som besökaren är kvalificerad för.</li></ul> |
 |  | [ [!DNL Target] Implementera [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Anteckningen har lagts till i avsnittet Fördelar med att implementera at.js med tillägget [!DNL Target]. |
 |  | [Profilsynkronisering i realtid för mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Avsnittet&quot;Överväganden&quot; har uppdaterats med ny information. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Avsnittet&quot;secureOnly&quot; har uppdaterats. |
