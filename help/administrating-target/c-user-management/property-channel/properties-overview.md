@@ -2,12 +2,12 @@
 keywords: lägg till användare;projekt;användargrupp;egenskaper;arbetsyta;hantera egenskap;at_egenskap;roller;permissions
 description: Lär dig hur du lägger till användare i Adobe Target. skapa arbetsytor, användargrupper och egenskaper, uppdatera implementeringen, och ange roller och behörigheter.
 title: Hur konfigurerar jag Enterprise-behörigheter?
-feature: Administration och konfiguration
+feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -150,17 +150,25 @@ Om du vill använda funktionen [!DNL Target] för användarbehörigheter måste 
 
       Mer information finns i [Lägg till globala målparametrar](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) i dokumentationen för *taggöversikt*.
 
-   * **Via funktionen targetPageParams():** Placera följande kod i  `<head>` taggarna ovanför referensen at.js.
+   * **Via funktionen targetPageParamsAll():** Placera följande kod i  `<head>` taggarna ovanför referensen at.js.
 
-      ![](assets/property_token_1.png)
+      ```javascript
+      <script>
+       function targetPageParamsAll() {
+        return {
+         "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
+        };
+       }
+      </script>
+      ```
 
-      Mer information om hur du gör detta med at.js finns i [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
+      Mer information om hur du gör detta med at.js finns i [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
 
    * **Via funktionen mboxCreate():**
 
       ![](assets/property_token_3.png)
 
-      Mer information om hur du gör detta med at.js finns i [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) och [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      Mer information om hur du gör detta med at.js finns i [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) och [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Steg 6: Ange roller och behörigheter {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
