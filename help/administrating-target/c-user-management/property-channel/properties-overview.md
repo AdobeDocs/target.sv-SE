@@ -5,9 +5,9 @@ title: Hur konfigurerar jag Enterprise-behörigheter?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,6 @@ Om du vill använda funktionen [!DNL Target] för användarbehörigheter måste 
       ![Kod för hovring av egenskaper](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. Högerklicka på den markerade implementeringskoden för att kopiera den till Urklipp.
-
-      ![Egenskapskod](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. Uppdatera din [!DNL Target]-implementering med implementeringskoden som hämtades i föregående steg.
 
