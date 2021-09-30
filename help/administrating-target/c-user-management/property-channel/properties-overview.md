@@ -5,9 +5,9 @@ title: Hur konfigurerar jag Enterprise-behörigheter?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
+source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,6 @@ Egenskaperna tillhör specifika kanaler (webb, mobil, e-post och API/annan).
 1. I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Properties]** för att visa listan [!UICONTROL Properties].
 1. Klicka på **Skapa egenskap**.
 
-   ![Ny egenskap, dialogruta](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    Fyll i fälten:
 
    * **Egenskapsnamn (obligatoriskt):** Ange ett beskrivande namn för egenskapen.
@@ -144,7 +142,7 @@ Om du vill använda funktionen [!DNL Target] för användarbehörigheter måste 
 
    Det finns flera sätt att uppdatera din [!DNL Target]-implementering. Följande metoder kan till exempel användas för webbsidor:
 
-   * **Via en Global parameter i taggar i   [!DNL Adobe Experience Platform]:**
+   * **Via en global parameter i taggar i   [!DNL Adobe Experience Platform]:**
 
       Mer information finns i [Lägg till globala målparametrar](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) i dokumentationen för *taggöversikt*.
 
@@ -161,12 +159,6 @@ Om du vill använda funktionen [!DNL Target] för användarbehörigheter måste 
       ```
 
       Mer information om hur du gör detta med at.js finns i [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
-
-   * **Via funktionen mboxCreate():**
-
-      ![](assets/property_token_3.png)
-
-      Mer information om hur du gör detta med at.js finns i [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) och [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Steg 6: Ange roller och behörigheter {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
