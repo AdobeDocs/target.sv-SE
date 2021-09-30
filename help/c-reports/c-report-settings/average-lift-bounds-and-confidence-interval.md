@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar Adobe [!DNL Target] rapporter, som innehåll
 title: Hur visar jag ett genomsnittligt lyft-, lyft- och konfidensintervall?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: 905de3cd4f4f660fc7c192a2f68f0660002e47b0
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
