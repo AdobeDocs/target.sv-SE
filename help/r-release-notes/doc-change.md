@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 30 september | Skicka aktivitetsinformation till [!DNL Adobe Analytics] | Hela ämnet har tagits bort eftersom stegen som beskrivs inte längre behövs för att skicka [!DNL Target] aktivitetsinformation för mobilappar till [!DNL Analytics] för segmentering efter behov. |
+|  | [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Ändrad `targetPageParams` till `targetPageParamsAll` i steg 2. |
 | 27 september | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break<ul><li>onsdagen den 13 oktober 2021</li><li>8.00 (PDT, UTC -7)</li></ul></li></ul> |
 | 22 september | [Anpassa en design med Snabb](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Ändrade `$Double` till `$double` i kodexempel för att förhindra eventuell tvetydighet. |
 |  | [Vanliga frågor om design](/help/c-recommendations/c-design-overview/template-faq.md) | Uppdaterade följande frågor och svar:<ul><li>Kan jag använda ett profilskript i en [!DNL Recommendations]-design?</li></ul> |

@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,6 @@ ht-degree: 0%
       + [Aktivera mål i SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - skapa en målplats och ett framgångsmått](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - skicka anpassade användardata](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Skicka aktivitetsinformation till Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Förhandsvisning av målmobiler](c-target-mobile-app/target-mobile-preview.md)
       + [Förhämta erbjudandeinnehåll](c-target-mobile-app/prefetch-offer-content.md)
       + [Mål för mobilappar - frågor och svar](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
