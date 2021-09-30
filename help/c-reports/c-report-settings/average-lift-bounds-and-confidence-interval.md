@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar Adobe [!DNL Target] rapporter, som innehåll
 title: Hur visar jag ett genomsnittligt lyft-, lyft- och konfidensintervall?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Förtroendet hos en upplevelse eller ett erbjudande representerar sannolikheten 
 
 ## Förstå hur konfidensintervallet för lyft bestäms {#pdf}
 
-Hämta [konfidensintervallet för Lyft pdf](/help/assets/confidence_interval_lift.pdf) om du vill ha mer information.
+Hämta [konfidensintervallet för Lyft pdf-filen](/help/assets/confidence_interval_lift.pdf) om du vill ha mer information.
 
 ## Hur beräknas lyftgränser? {#section_1D360781D972483693680BE0F07AEAD1}
 
