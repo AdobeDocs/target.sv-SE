@@ -5,9 +5,9 @@ title: Hur konfigurerar jag Enterprise-behörigheter?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -142,9 +142,9 @@ Om du vill använda funktionen [!DNL Target] för användarbehörigheter måste 
 
    Det finns flera sätt att uppdatera din [!DNL Target]-implementering. Följande metoder kan till exempel användas för webbsidor:
 
-   * **Via en global parameter i taggar i   [!DNL Adobe Experience Platform]:**
+   * **Via en anpassad parameter i taggar i  [!DNL Adobe Experience Platform]:**
 
-      Mer information finns i [Lägg till globala målparametrar](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) i dokumentationen för *taggöversikt*.
+      Mer information finns i [Lägg till Mbox-parametrar](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) i dokumentationen för *taggöversikt*.
 
    * **Via funktionen targetPageParamsAll():** Placera följande kod i  `<head>` taggarna ovanför referensen at.js.
 

@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2595'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 30 september | Skicka aktivitetsinformation till [!DNL Adobe Analytics] | Hela ämnet har tagits bort eftersom stegen som beskrivs inte längre behövs för att skicka [!DNL Target] aktivitetsinformation för mobilappar till [!DNL Analytics] för segmentering efter behov. |
+|  | [Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | En PDF-fil har lagts till som förklarar hur konfidensintervallet för lift (HIS) beräknas. |
 |  | [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Ändrad `targetPageParams` till `targetPageParamsAll` i&quot;Steg 5 Uppdatera implementeringen så att den inkluderar parametern `at_property`.&quot; |
 | 27 september | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break<ul><li>onsdagen den 13 oktober 2021</li><li>8.00 (PDT, UTC -7)</li></ul></li></ul> |
 | 22 september | [Anpassa en design med Snabb](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Ändrade `$Double` till `$double` i kodexempel för att förhindra eventuell tvetydighet. |

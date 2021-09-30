@@ -2,12 +2,11 @@
 keywords: Mål;rapporter;rapportinställningar;miljö;lyft;lyfta bunden;avvikelse;självförtroende;kontroll
 description: Lär dig hur du tolkar Adobe [!DNL Target] rapporter, som innehåller datapunkter och visualiseringsrepresentationer som hjälper dig förstå lyftgränserna och tillförlitlighetsnivån för dina aktiviteter.
 title: Hur visar jag ett genomsnittligt lyft-, lyft- och konfidensintervall?
-feature: Rapporter
+feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -48,6 +47,10 @@ Längden på kartongfältet representerar hur stort konfidensintervallet är på
 
 Förtroendet hos en upplevelse eller ett erbjudande representerar sannolikheten för att den tillhörande upplevelsen/erbjudandet över kontrollupplevelsen/erbjudandet är&quot;verklig&quot; (inte orsakad av en slumpmässig chans). Normalt är 95% den rekommenderade konfidensnivån för att hissen ska anses signifikant.
 
+## Förstå hur konfidensintervallet för lyft bestäms {#pdf}
+
+Hämta [konfidensintervallet för Lyft pdf](/help/assets/confidence_interval_lift.pdf) om du vill ha mer information.
+
 ## Hur beräknas lyftgränser? {#section_1D360781D972483693680BE0F07AEAD1}
 
 Lyftgränserna representerar de 95-procentiga konfidensintervallen för lyften som den specifika upplevelsen eller erbjudandet har över kontrollupplevelsen eller erbjudandet. Det betyder att det faktiskt finns en 95-procentig chans att vara mellan dessa gränser.
@@ -71,7 +74,7 @@ Det finns ytterligare en beräkning som kommer fram till inmatningen till våra 
    >
    >Standardfelet för resultaträkningsaktiviteter baseras på exempelvariationen för intäkterna.
 
-## Exempelberäkning {#example}
+## Exempel på beräkning {#example}
 
 Låt oss titta på en exempelaktivitet med två upplevelser och följande resultat:
 
