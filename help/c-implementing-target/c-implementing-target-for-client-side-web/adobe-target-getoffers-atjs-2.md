@@ -5,9 +5,9 @@ title: Hur använder jag funktionen adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,43 +36,43 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 | Fältnamn | Obligatoriskt? | Begränsningar | Beskrivning |
 | --- | --- | --- | --- |
 | request > id | Nej |  | Ett av `tntId`, `thirdPartyId` eller `marketingCloudVisitorId` krävs. |
-| Begäran > id > thirdPartyId | Nej | Maximal storlek = 128 |  |  |
+| Begäran > id > thirdPartyId | Nej | Maximal storlek = 128. |  |  |
 | Request > experienceCloud | Nej |  |  |
 | Request > experienceCloud > analytics | Nej |  | Integrering med Adobe Analytics |
 | Request > experienceCloud > analytics > log | Nej | Följande måste implementeras på sidan:<ul><li>Tjänst för besökar-ID</li><li>Appmeasurement.js</li></ul> | Följande värden stöds:<br>**client_side**: När det anges returneras en analyslast till anroparen som ska användas för att skicka till Adobe Analytics via API:t för datainmatning.<br>**server_side**: Det här är standardvärdet där Target- och Analytics-serverdelen använder SDID för att sammanfoga anropen i rapporteringssyfte. |
 | Begäran > förhämtning | Nej |  |  |
-| Request > prefetch > views | Nej | Maximalt antal 50<br>Namnet är inte tomt<br>Namnlängd `<=` 128<br>Värdelängd `<=` 5000<br>Namnet får inte börja med &quot;profile&quot;<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Ange parametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
-| Request > prefetch > views > profileParameters | Nej | Maximalt antal 50<br>Namnet är inte tomt<br>Namnlängd `<=` 128<br>Värdelängd `<=` 5000<br>Namnet får inte börja med &quot;profile&quot; | Ange profilparametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Request > prefetch > views | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Värdelängd  `<=` 5000.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Ange parametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Request > prefetch > views > profileParameters | Nej | Maximantal 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Värdelängd  `<=` 5000.<br>Accepterar endast strängvärden.<br>Namnet får inte börja med &quot;profile&quot;. | Ange profilparametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
 | Request > prefetch > views > product | Nej |  |  |
-| Request > prefetch > views > product -> id | Nej | Inte tom<br>maxstorlek = 128 | Ange produkt-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
-| Request > prefetch > views > product > categoryId | Nej | Inte tom<br>maxstorlek = 128 | Ange produktkategori-ID:n som ska användas för att hämta relevanta vyer i aktiviteter. |
+| Request > prefetch > views > product -> id | Nej | Inte tom.<br>maxstorlek = 128. | Ange produkt-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Request > prefetch > views > product > categoryId | Nej | Inte tom.<br>maxstorlek = 128. | Ange produktkategori-ID:n som ska användas för att hämta relevanta vyer i aktiviteter. |
 | Request > prefetch > views > order | Nej |  |  |
-| Begäran > förhämtning > vyer > ordning > id | Nej | Maximal längd = 250 | Ange beställnings-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
-| Request > prefetch > views > order > total | Nej | Totalt `>=` 0 | Ange ordersummor som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
-| Request > prefetch > views > order > purchaseProductIds | Nej | Inga tomma värden<br>Varje värdes maximala längd 50<br>Sammanfogad och avgränsad med komma<br>Produkt-ID:s totala längd `<=` 250 | Skicka in köpta produkt-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Begäran > förhämtning > vyer > ordning > id | Nej | Maximal längd = 250. | Ange beställnings-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Request > prefetch > views > order > total | Nej | Totalt `>=` 0. | Ange ordersummor som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Request > prefetch > views > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värde har maxlängden 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Produkt-ID:n, total längd  `<=` 250. | Skicka in köpta produkt-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
 | Begäran > Kör | Nej |  |  |
 | Request > execute > pageLoad | Nej |  |  |
-| Request > execute > pageLoad > parameters | Nej | Maximalt antal 50<br>Namnet är inte tomt<br>Namnlängd `<=` 128<br>Värdelängd `<=` 5000<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Hämta erbjudanden med angivna parametrar när sidan läses in. |
-| Request > execute > pageLoad > profileParameters | Nej | Maximalt antal 50<br>Namnet är inte tomt<br>Namnlängd `<=` 128<br>Värdelängd `<=`256<br>Namnet får inte börja med &quot;profile&quot;. | Hämta erbjudanden med angivna profilparametrar när sidan läses in. |
+| Request > execute > pageLoad > parameters | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Värdelängd  `<=` 5000.<br>Accepterar endast strängvärden.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Hämta erbjudanden med angivna parametrar när sidan läses in. |
+| Request > execute > pageLoad > profileParameters | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Värdelängd  `<=`256.<br>Namnet får inte börja med &quot;profile&quot;.<br>Accepterar endast strängvärden. | Hämta erbjudanden med angivna profilparametrar när sidan läses in. |
 | Request > execute > pageLoad > product | Nej |  |  |
-| Request > execute > pageLoad > product -> id | Nej | Inte tom<br>Maximal storlek = 128 | Hämta erbjudanden med angivna produkt-ID:n när sidan läses in. |
-| Request > execute > pageLoad > product > categoryId | Nej | Inte tom<br>Maximal storlek = 128 | Hämta erbjudanden med angivna produktkategori-ID:n när sidan läses in. |
+| Request > execute > pageLoad > product -> id | Nej | Inte tom.<br>Maximal storlek = 128. | Hämta erbjudanden med angivna produkt-ID:n när sidan läses in. |
+| Request > execute > pageLoad > product > categoryId | Nej | Inte tom.<br>Maximal storlek = 128. | Hämta erbjudanden med angivna produktkategori-ID:n när sidan läses in. |
 | Request > execute > pageLoad > order | Nej |  |  |
-| Request > execute > pageLoad > order > id | Nej | Maximal längd = 250 | Hämta erbjudanden med angivna order-ID:n när sidan läses in. |
-| Request > execute > pageLoad > order > total | Nej | `>=` 0 | Hämta erbjudanden med angivna ordersummor när sidan läses in. |
-| Request > execute > pageLoad > order > purchaseProductIds | Nej | Inga tomma värden<br>Varje värdes maximala längd 50<br>Sammanfogad och avgränsad med komma<br>Produkt-ID:s totala längd `<=` 250 | Hämta erbjudanden med angivna produkt-ID:n när sidan läses in. |
-| Request > execute > mboxes | Nej | Maximal storlek = 50<br>Inga null-element |  |
-| Request > execute > mboxes>mbox | Ja | Inte tom<br>Inget &#39;-klickat&#39; suffix<br>Maximal storlek = 250<br>Tillåtna tecken: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Namn på mbox. |
-| Begäran > Kör > mbox>mbox>index | Ja | Inte null<br>Unik<br>`>=` 0 | Observera att indexet inte representerar den ordning i vilken rutorna bearbetas. På samma sätt som på en webbsida med flera regionala kryssrutor kan ordningen som de ska bearbetas i inte anges. |
-| Request > execute > mboxes > mbox > parameters | Nej | Maximalt antal = 50<br>Namnet får inte vara tomt<br>Namnlängd `<=` 128<br>Värdelängd `<=` 5000<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Hämta erbjudanden för en given mbox med de angivna parametrarna. |
-| Request > execute > mboxes>mbox>profileParameters | Nej | Maximalt antal = 50<br>Namnet får inte vara tomt<br>Namnlängd `<=` 128<br>Värdelängd `<=`256<br>Namnet får inte börja med &quot;profile&quot;. | Hämta erbjudanden för en given mbox med de angivna profilparametrarna. |
+| Request > execute > pageLoad > order > id | Nej | Maximal längd = 250. | Hämta erbjudanden med angivna order-ID:n när sidan läses in. |
+| Request > execute > pageLoad > order > total | Nej | `>=` 0. | Hämta erbjudanden med angivna ordersummor när sidan läses in. |
+| Request > execute > pageLoad > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värde har maxlängden 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Produkt-ID:n, total längd  `<=` 250. | Hämta erbjudanden med angivna produkt-ID:n när sidan läses in. |
+| Request > execute > mboxes | Nej | Maximal storlek = 50.<br>Inga null-element. |  |
+| Request > execute > mboxes>mbox | Ja | Inte tom.<br>Inget &#39;-klickat&#39;-suffix.<br>Maximal storlek = 250.<br>Tillåtna tecken:  `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Namn på mbox. |
+| Begäran > Kör > mbox>mbox>index | Ja | Inte null.<br>Unik.<br>`>=` 0. | Observera att indexet inte representerar den ordning i vilken rutorna bearbetas. På samma sätt som på en webbsida med flera regionala kryssrutor kan ordningen som de ska bearbetas i inte anges. |
+| Request > execute > mboxes > mbox > parameters | Nej | Högsta antal = 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Accepterar endast strängvärden.<br>Värdelängd  `<=` 5000.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Hämta erbjudanden för en given mbox med de angivna parametrarna. |
+| Request > execute > mboxes>mbox>profileParameters | Nej | Högsta antal = 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Accepterar endast strängvärden.<br>Värdelängd  `<=`256.<br>Namnet får inte börja med &quot;profile&quot;. | Hämta erbjudanden för en given mbox med de angivna profilparametrarna. |
 | Request > execute > mboxes>mbox > product | Nej |  |  |
-| Request > execute > mboxes > mbox > product > id | Nej | Inte tom<br>Maximal storlek = 128 | Hämta erbjudanden för en angiven mbox med angivet produkt-ID. |
-| Request > execute > mboxes > mbox > product > categoryId | Nej | Inte tom<br>Maximal storlek = 128 | Hämta erbjudanden för en angiven mbox med angivna produktkategori-ID:n. |
+| Request > execute > mboxes > mbox > product > id | Nej | Inte tom.<br>Maximal storlek = 128. | Hämta erbjudanden för en angiven mbox med angivet produkt-ID. |
+| Request > execute > mboxes > mbox > product > categoryId | Nej | Inte tom.<br>Maximal storlek = 128. | Hämta erbjudanden för en angiven mbox med angivna produktkategori-ID:n. |
 | Request > execute > mboxes > mbox > order | Nej |  |  |
-| Request > execute > mbox>mbox > order > id | Nej | Maximal längd = 250 | Hämta erbjudanden för en angiven mbox med de angivna order-ID:n. |
-| Request > execute > mboxes > mbox > order > total | Nej | `>=` 0 | Hämta erbjudanden för en angiven mbox med de angivna ordersummorna. |
-| Request > execute > mboxes > mbox > order > purchaseProductIds | Nej | Inga tomma värden<br>Varje värdes maximala längd = 50<br>Sammanfogad och avgränsad med kommatecken<br>Produkt-id:s totala längd `<=` 250 | Hämta erbjudanden för en angiven mbox med angivet produkt-ID för beställning. |
+| Request > execute > mbox>mbox > order > id | Nej | Maximal längd = 250. | Hämta erbjudanden för en angiven mbox med de angivna order-ID:n. |
+| Request > execute > mboxes > mbox > order > total | Nej | `>=` 0. | Hämta erbjudanden för en angiven mbox med de angivna ordersummorna. |
+| Request > execute > mboxes > mbox > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värdes maximala längd = 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Produkt-ID:t, total längd  `<=` 250. | Hämta erbjudanden för en angiven mbox med angivet produkt-ID för beställning. |
 
 ## Anropa getOffers() för alla vyer
 
