@@ -5,10 +5,9 @@ title: Hur använder jag funktionen adobe.target.sendNotifications()?
 feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
-translation-type: tm+mt
-source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
+source-git-commit: 07ef58419f1785633bee930e2f9bd5451394ad93
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -35,8 +34,8 @@ Den här funktionen skickar ett meddelande till Target edge när en upplevelse �
 | Begär > Meddelanden > Adress | Objekt | Nej |  |  |
 | Begäran > meddelanden > adress > url | Sträng | Nej |  | URL som meddelandet har utlösts från. |
 | Begäran > meddelanden > adress > refererande URL | Sträng | Nej |  | Hänvisnings-URL som meddelandet utlöstes från. |
-| Begäran > meddelanden > parametrar | Objekt | Nej | Följande namn tillåts inte för parametrar:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tänk på följande:<ul><li>Max 50 parametrar.</li><li>Parameternamnet får inte vara tomt.</li><li>Parameternamnet får vara högst 128 tecken långt.</li><li>Parameternamnet får inte börja med &quot;profile&quot;.</li><li>Parametervärdets längd är högst 5000.</li></ul> |  |
-| Begäran > meddelanden > profileParameters | Objekt | Nej | Följande namn tillåts inte för parametrar:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tänk på följande:<ul><li>Max 50 parametrar.</li><li>Parameternamnet får inte vara tomt.</li><li>Parameternamnet får vara högst 128 tecken långt.</li><li>Parameternamnet får inte börja med &quot;profile&quot;.</li><li>Parametervärdets längd är högst 5000.</li></ul> |  |
+| Begäran > meddelanden > parametrar | Sträng | Nej | Följande namn tillåts inte för parametrar:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tänk på följande:<ul><li>Max 50 parametrar.</li><li>Parameternamnet får inte vara tomt.</li><li>Parameternamnet får vara högst 128 tecken långt.</li><li>Parameternamnet får inte börja med &quot;profile&quot;.</li><li>Parametervärdets längd är högst 5000.</li></ul> |  |
+| Begäran > meddelanden > profileParameters | Sträng | Nej | Följande namn tillåts inte för parametrar:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tänk på följande:<ul><li>Max 50 parametrar.</li><li>Parameternamnet får inte vara tomt.</li><li>Parameternamnet får vara högst 128 tecken långt.</li><li>Parameternamnet får inte börja med &quot;profile&quot;.</li><li>Parametervärdets längd är högst 5000.</li></ul> |  |
 | Begär > Meddelanden > Beställ | Objekt | Nej |  | Objekt som beskriver orderinformationen. |
 | Begäran > meddelanden > beställning > id | Sträng | Nej | `<=` 250 tecken. | Beställnings-ID. |
 | Request > notifications > order > total | Sträng | Nej | `>=` 0 | Ordersumma. |
