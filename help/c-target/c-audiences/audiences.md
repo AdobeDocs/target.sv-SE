@@ -2,11 +2,11 @@
 keywords: målgrupp;målgruppsregler;skapa målgrupp;målgrupp;målgrupp;rapportmålgrupp;segment;anpassade profilparametrar;målgruppsdefinition;målgruppslista
 description: Lär dig hur du använder [!UICONTROL Audiences]-listan i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
-feature: Målgrupper
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Listan [!UICONTROL Audiences] innehåller de målgrupper som du kan använda i d
 
    >[!NOTE]
    >
-   >Källan [!DNL Adobe Experience Platform] finns i ett betatestningsprogram, men är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller [kombineras med befintliga målgrupper](/help/c-target/combining-multiple-audiences.md).
+   >Källan [!DNL Adobe Experience Platform] är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller [kombineras med befintliga målgrupper](/help/c-target/combining-multiple-audiences.md).
 
 Det går inte att byta namn på fördefinierade målgrupper, t.ex. [!UICONTROL New Visitors] och [!UICONTROL Returning Visitors].
 

@@ -2,9 +2,9 @@
 keywords: anpassade parametrar;anpassade målparametrar;målparametrar;målparametrar;målparametrar för mbox
 description: Lär dig hur du skickar anpassade parametrar till [!DNL Adobe Target] för användning i målgrupper.
 title: Kan jag rikta in besökare baserat på anpassade parametrar?
-feature: Målgrupper
+feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -21,7 +21,7 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter uppmanar `mbo
 
 1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Namnge målgruppen och lägg till en valfri beskrivning.
-1. Dra och släpp **[!UICONTROL Custom]** i rutan för målgruppsbyggaren.
+1. Dra och släpp **[!UICONTROL Custom]** i Audience Builder.
 
    Så här väljer du önskad parameter:
 
@@ -56,7 +56,7 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter uppmanar `mbo
 1. (Valfritt) Ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Done]**.
 
-Publiken [på popup-kortet för definitionsinformation](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) visas parameternamnet i avsnittet Regler. Det finns ingen referens till mbox som används för filtrering.
+Publiken [på popup-kortet för definitionsinformation](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) visas parameternamnet i avsnittet **[!UICONTROL Rules]**. Det finns ingen referens till mbox som används för filtrering.
 
 >[!NOTE]
 >

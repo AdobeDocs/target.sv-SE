@@ -2,11 +2,11 @@
 keywords: webbläsaralternativ;typ;webbläsartyp;webbläsarspråk;språk;version;webbläsarversion
 description: Lär dig hur du skapar målgrupper i [!DNL Adobe Target] för användare som använder en viss webbläsare eller särskilda webbläsaralternativ när de besöker sidan.
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
-feature: Målgrupper
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Det finns två sätt att rikta in sig på webbläsare:
 
    1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
    1. Namnge målgruppen och lägg till en valfri beskrivning.
-   1. Dra och släpp **[!UICONTROL Browser]** i rutan för målgruppsbyggaren.
+   1. Dra och släpp **[!UICONTROL Browser]** i Audience Builder.
 
       ![Regler > Webbläsare](assets/target_browser.png)
 

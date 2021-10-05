@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 4 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Uppdaterad förhandsversionsinformation för Target Standard/Premium 21.10.1 (6 oktober 2021). |
 | 30 september | Skicka aktivitetsinformation till [!DNL Adobe Analytics] | Hela ämnet har tagits bort eftersom stegen som beskrivs inte längre behövs för att skicka [!DNL Target] aktivitetsinformation för mobilappar till [!DNL Analytics] för segmentering efter behov. |
 |  | [Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | En PDF-fil har lagts till för att förklara hur konfidensintervallet för lift beräknas. |
 |  | [Konfigurera företagsbehörigheter](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Ändrad `targetPageParams` till `targetPageParamsAll` i&quot;Steg 5 Uppdatera implementeringen så att den inkluderar parametern `at_property`.&quot; |

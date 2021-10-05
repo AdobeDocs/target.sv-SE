@@ -1,12 +1,12 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;skapa målgrupp
-description: Lär dig hur du skapar anpassade målgrupper och sparar dem i [!DNL Adobe Target] [!UICONTROL Audiences] biblioteket för användning i dina aktiviteter.
+description: Lär dig hur du skapar anpassade målgrupper och sparar dem i [!DNL Adobe Target] [!UICONTROL Audiences] biblioteket för användning i aktiviteter.
 title: Hur skapar jag målgrupper?
-feature: Målgrupper
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Följande regel riktar sig till exempel till besökare som använder antingen Ch
 
 1. (Villkorligt) Fortsätt lägga till och definiera önskade attribut.
 
-   Om du vill skapa en annan behållare klickar du på **[!UICONTROL Add container]** eller drar ett annat attribut till den mittersta ramen. Du kan sedan justera operatorn (AND eller OR) med hjälp av listrutan.
+   Om du vill skapa en annan behållare klickar du på **[!UICONTROL Add container]** eller drar ett annat attribut till rutan Audience Builder. Du kan sedan justera operatorn (AND eller OR) med hjälp av listrutan.
 
 1. Klicka på **[!UICONTROL Done]**.
 

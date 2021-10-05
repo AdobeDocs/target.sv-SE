@@ -1,12 +1,12 @@
 ---
 keywords: Målgrupper;målgrupper
 description: Lär dig hur du använder målgrupper i [!DNL Adobe Target] för att rikta olika innehåll och upplevelser till specifika målgrupper för att optimera webbmarknadsföringen.
-title: Hur kan jag använda målgrupper för att rikta olika innehåll till specifika segment?
-feature: Målgrupper
+title: Hur kan jag använda [!UICONTROL Audiences] för att rikta annat innehåll mot specifika segment?
+feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

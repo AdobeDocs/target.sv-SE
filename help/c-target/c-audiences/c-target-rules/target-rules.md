@@ -2,9 +2,9 @@
 keywords: Målgrupper;målkategorier;målförhållanden;målgruppshanterare;anpassade profilparametrar;besökarprofil;anpassade användarparametrar;målregler
 description: Lär dig hur du använder kategorier (till exempel webbläsare, geo, nätverk, operativsystem, besökarprofil) för att rikta innehåll.
 title: Vilka är kategorierna för målgrupper?
-feature: Målgrupper
+feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kategorier för målgrupper
 
-Du kan använda [!DNL Adobe Target] som mål för alla olika kategoriattribut. Om du vill skapa målinriktningsregler (eller grupper) för varje attribut drar och släpper du de önskade attributen i målgruppsverktyget .
+Du kan använda [!DNL Adobe Target] som mål för alla olika kategoriattribut. Om du vill skapa målregler (eller grupper) för varje attribut drar och släpper du önskade attribut i rutan Audience Builder.
 
 ![Attribut för målgrupper](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -21,7 +21,7 @@ När en viss kategori är markerad kan du använda ett eller flera målinriktnin
 
 När du har skapat en regel klickar du på **[!UICONTROL Done]**. En sammanfattning av regeln visas bredvid mållänken för den nivå du har som mål.
 
-Du kan förfina en regel ytterligare genom att lägga till fler villkor eller genom att skapa ytterligare regler i andra kategorier. Du kan till exempel bara rikta dig till Firefox-användare från San Francisco som har öppnat din webbplats från Google. Ställ in kategorin [!UICONTROL Geo] på målanvändare från San Francisco, kategorin [!UICONTROL Browser] på målanvändare som använder Firefox och kategorin [!UICONTROL Traffic Sources] på målanvändare som kommer från [!UICONTROL From Google]. Regler som skapas mellan kategorier kombineras med operatorn AND.
+Du kan förfina en regel ytterligare genom att lägga till fler villkor eller genom att skapa ytterligare regler i andra kategorier. Du kan t.ex. bara rikta dig till Firefox-användare från San Francisco som kommer åt din webbplats från Google. Ställ in kategorin [!UICONTROL Geo] på målanvändare från San Francisco, kategorin [!UICONTROL Browser] på målanvändare som använder Firefox och kategorin [!UICONTROL Traffic Sources] på målanvändare som kommer från [!UICONTROL From Google]. Regler som skapas mellan kategorier kombineras med operatorn AND.
 
 Skapa ett uttrycksmål om du vill skapa komplexa målinriktningsregler som innehåller OR-åtgärder i olika kategorier.
 
