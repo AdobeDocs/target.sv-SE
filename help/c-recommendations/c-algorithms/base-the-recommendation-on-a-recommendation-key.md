@@ -5,7 +5,7 @@ title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: c3092f63dbcb91aca4afe2ba35715cbd3f658506
+source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
 workflow-type: tm+mt
 source-wordcount: '2996'
 ht-degree: 0%
@@ -110,7 +110,7 @@ Om du väljer algoritmen Mest visade av kategori kan du välja följande Recomme
 
 (Information kommer snart)
 
-## [!UICONTROL Item Based]
+## [!UICONTROL Item-Based]
 
 Med rekommendationstypen [!UICONTROL Item-Based] kan du göra rekommendationer baserat på om du vill hitta liknande objekt som ett objekt som användaren visar eller nyligen har visat.
 
@@ -207,7 +207,7 @@ Använd den här algoritmen på allmänna sidor, som startsidor, landningssidor 
 >
 >[!UICONTROL Recently Viewed Items] respekterar både globala inställningar för undantag och den valda samlingsinställningen för aktiviteten. Om ett objekt utesluts av ett globalt undantag, eller inte ingår i den valda samlingen, visas det inte. När du använder ett [!UICONTROL Recently Viewed Items]-villkor bör därför inställningen &quot;Alla samlingar&quot; i allmänhet användas.
 
-### Rekommenderas för dig {#user-based}
+### Rekommenderas för dig {#recommended-for-you}
 
 Rekommenderar objekt baserat på besökarens webbsurfning, visning och inköpshistorik.
 
