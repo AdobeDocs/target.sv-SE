@@ -1,13 +1,12 @@
 ---
-keywords: villkor;algoritm;branschvertikal;sidtyp;rekommendationsnyckel;rekommendationslogik;logik;dataintervall;beteendedatakälla;partiell design;säkerhetskopieringsrekommendationer;inkluderingsregler;attributvikt;aktuell kategori;anpassat attribut;senast inköpt objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade;senast visade;favoriter;senast visade
+keywords: villkor;algoritm;branschvertikal;sidtyp;rekommendationsnyckel;rekommendationslogik;logik;dataintervall;uppslagsfönster;beteendedatakälla;partiell design;säkerhetskopieringsrekommendationer;inkluderingsregler;attributvikt;aktuell kategori;anpassat attribut;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade;favoriter;senast visade
 description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Recommendations-aktiviteter för att visa de rekommendationer som är mest lämpliga för din aktivitet.
 title: Hur skapar jag kriterier i Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a86726aa6cc11f229c8157bb6d81a40d9f6b994e
 workflow-type: tm+mt
-source-wordcount: '2361'
+source-wordcount: '2634'
 ht-degree: 0%
 
 ---
@@ -32,17 +31,17 @@ Följande steg förutsätter att du kommer åt skärmen [!UICONTROL Create New C
 
 1. Klicka på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
-   ![Skapa nya villkor](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+   ![Skapa nya villkor](assets/CreateNewCriteria_full-new.png)
 
 1. Konfigurera informationen i följande avsnitt.
 
-## Grundläggande information {#info}
+## [!UICONTROL Basic Information] {#info}
 
 1. Skriv en **[!UICONTROL Criteria Name]**.
 
    Detta är det&quot;interna&quot; namnet som används för att beskriva kriterierna. Du kanske vill kalla villkoren för&quot;Produkter med högsta marginal&quot;, men du vill inte att den titeln ska visas offentligt. Se nästa steg för att ange den offentliga titeln.
 
-   ![Avsnittet Grundläggande information](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+   ![Avsnittet Grundläggande information](assets/basic-information.png)
 
 1. Skriv in en offentlig **[!UICONTROL Display Title]** som ska visas på sidan för alla rekommendationer som använder det här villkoret.
 
@@ -68,43 +67,38 @@ Följande steg förutsätter att du kommer åt skärmen [!UICONTROL Create New C
 
    Tillsammans används de vertikala metoderna och sidtyperna för att kategorisera de sparade villkoren, vilket gör det enklare att återanvända villkor för andra [!DNL Recommendations]-aktiviteter.
 
-1. Välj en **[!UICONTROL Recommendation Key]**.
+## [!UICONTROL Recommendations Algorithm] {#rec-algo}
 
-   Mer information om att basera villkor på en nyckel finns i [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+1. Välj en **[!UICONTROL Algorithm Type]** och **[!UICONTROL Algorithm]**:
 
-1. Välj **[!UICONTROL Recommendation Logic]**.
+   ![Rekommenderat algoritmavsnitt](assets/recommended-algorithm.png)
 
-   Mer information om alternativ för rekommendationslogik finns i [Kriterier](/help/c-recommendations/c-algorithms/algorithms.md).
+   | Algoritmtyp | När ska användas | Tillgängliga algoritmer |
+   | --- | --- | --- |
+   | [!UICONTROL Popularity-Based] | Utför rekommendationer baserat på hur populärt ett objekt på webbplatsen är eller utifrån hur populärt det är att ha objekt inom en användares favoritkategori, varumärke, genre osv. | <ul><li>Visas bäst på webbplatsen</li><li>Mest visade per kategori</li><li>Mest visad av objektattribut</li><li>De största säljarna på webbplatsen</li><li>De viktigaste säljarna per kategori</li><li>De viktigaste säljarna efter artikelattribut</li><li>Top by Analytics Metric</li></ul> |
+   | [!UICONTROL Item-Based] | Rekommendationer baserade på sökning efter liknande objekt för ett objekt som användaren för närvarande visar eller nyligen har visat. | <ul><li>Folk som tittade på det här, såg det</li><li>Folk som såg det här, köpte det</li><li>Folk som köpte den här, köpte den där</li><li>Objekt med liknande attribut</li></ul> |
+   | [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Senast visade objekt</li><li>Rekommenderas för dig</li></ul> |
+   | Cart-baserad | (Kommer snart) Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
+   | [!UICONTROL Custom Criteria] | Utför rekommendationer baserat på en anpassad fil som du överför. | <ul><li>Anpassad algoritm</li></ul> |
+
 
    >[!NOTE]
    >
    >Om du väljer **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** kan du ange [likhetsregler för innehåll](#similarity).
 
-## Datakälla {#data-source}
+1. Välj ett **objektattribut** och **profilattribut som ska matcha**, en **rekommendationsnyckel**, **filtreringsnyckel** och/eller **Analytics Metric** för att konfigurera algoritmen.
 
-1. Ange **[!UICONTROL Data Range]** för att bestämma tidsintervallet för tillgängliga historiska användarbeteendedata som ska användas när du avgör vilka rekommendationer som ska visas.
+Mer information om hur du väljer en rekommendationsnyckel finns i [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
-   ![Reglaget för dataområde](/help/c-recommendations/c-algorithms/assets/data-range.png)
+## [!UICONTROL Data Source] {#data-source}
 
-   Om det finns mycket trafik och beteenden på platsen ändras ofta väljer du ett kortare datafönster. Ett kortare fönster gör att [!DNL Recommendations] kan vara mer responsiv på förändringar på marknaden och i din verksamhet. Ett kortare fönster innebär till exempel att [!DNL Recommendations] kommer att upptäcka förändringar i besökarnas beteende när besökarna börjar handla säsongsbundet, som till exempel handla på skolstarten eller i julen, och rekommenderar artiklar som passar dessa shoppingsäsonger.
-
-   Om du inte har så mycket data eller besökarbeteendet inte ändras så ofta kan du välja ett längre fönster. För många webbplatser ger dock ett kortare fönster bättre rekommendationer.
-
-   De tillgängliga dataintervallen är:
-
-   * Två dagar
-   * En vecka
-   * Två veckor
-   * En månad
-   * Två månader
-
-1. (Villkorligt) Välj önskat **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] eller [!UICONTROL Analytics].
+1. Välj önskad **[!UICONTROL Behavioral Data Source]**: [!UICONTROL Adobe Target] eller [!UICONTROL Analytics].
 
    >[!NOTE]
    >
    >Avsnittet [!UICONTROL Behavioral Data Source] visas bara om implementeringen använder [Analytics för Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
-   ![Avsnittet Beteendedatakälla](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
+   ![Avsnittet Beteendedatakälla](assets/data-source.png)
 
    Om du väljer [!UICONTROL Analytics] väljer du önskad rapportsvit.
 
@@ -116,11 +110,31 @@ Följande steg förutsätter att du kommer åt skärmen [!UICONTROL Create New C
 
    Mer information finns i [Använda Adobe Analytics med Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-## Innehåll {#content}
+1. Ange **[!UICONTROL Lookback Window]** för att bestämma tidsintervallet för tillgängliga historiska användarbeteendedata som ska användas när du avgör vilka rekommendationer som ska visas. Det här alternativet är tillgängligt för alla algoritmer med undantag för objekt med liknande attribut och anpassade algoritmer.
 
-Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte uppfyller din [rekommendationsdesign](/help/c-recommendations/c-design-overview/design-overview.md). Det är möjligt att [!DNL Recommendations]-kriterier returnerar färre rekommendationer än vad designen kräver. Om din design till exempel har platser för fyra objekt, men dina villkor bara leder till att två objekt rekommenderas, kan du lämna de återstående platserna tomma eller använda rekommendationer för säkerhetskopiering för att fylla de extra platserna.
+   ![Fönsterreglage för uppslag](assets/data-range.png)
 
-![Innehållsavsnitt](/help/c-recommendations/c-algorithms/assets/content.png)
+   Om det finns mycket trafik och beteenden på platsen ändras ofta väljer du ett kortare datafönster. Ett kortare fönster gör att [!DNL Recommendations] kan vara mer responsiv på förändringar på marknaden och i din verksamhet. Ett kortare fönster innebär till exempel att [!DNL Recommendations] kommer att upptäcka förändringar i besökarnas beteende när besökarna börjar handla säsongsbundet, som till exempel handla på skolstarten eller i julen, och rekommenderar artiklar som passar dessa shoppingsäsonger.
+
+   Om du inte har så mycket data eller besökarbeteendet inte ändras så ofta kan du välja ett längre fönster. För många webbplatser ger dock ett kortare fönster bättre rekommendationer.
+
+   De tillgängliga dataintervallen är:
+
+   | Alternativet Fönster för uppläsning | Uppdaterad frekvens (visas vid hovring) | Symboler som stöds |
+   | --- | --- | --- |
+   | Sex timmar | Algoritmen körs var 3:e till 6:e timme | [!UICONTROL Popularity-Based] algoritmer när det markerade  [!UICONTROL Behavioral Data Source] är  [!DNL Adobe Target] |
+   | En dag | Algoritmen körs var 12-24:e timme | [!UICONTROL Popularity-Based] algoritmer |
+   | Två dagar | Algoritmen körs var 12-24:e timme | <ul><li>[!UICONTROL Popularity-Based] algoritmer</li><li>[!UICONTROL Item-Based] algoritmer</li><li>[!UICONTROL User-Based] algoritmer</li><li>[!UICONTROL Cart-Based] algoritmer</li></ul> |
+   | En vecka | Algoritmen körs var 24:e till 48:e timme | <ul><li>[!UICONTROL Popularity-Based] algoritmer</li><li>[!UICONTROL Item-Based] algoritmer</li><li>[!UICONTROL User-Based] algoritmer</li><li>[!UICONTROL Cart-Based] algoritmer</li></ul> |
+   | Två veckor | Algoritmen körs var 24:e till 48:e timme | <ul><li>[!UICONTROL Popularity-Based] algoritmer</li><li>[!UICONTROL Item-Based] algoritmer</li><li>Alla [!UICONTROL User-Based]-algoritmer</li><li>[!UICONTROL Cart-Based] algoritmer</li></ul> |
+   | En månad (30 dagar) | Algoritmen körs var 24:e till 48:e timme | <ul><li>[!UICONTROL Popularity-Based] algoritmer</li><li>[!UICONTROL Item-Based] algoritmer</li><li>[!UICONTROL User-Based] algoritmer</li><li>[!UICONTROL Cart-Based] algoritmer</li></ul> |
+   | Två månader (61 dagar) | Algoritmen körs var 24:e till 48:e timme | <ul><li>[!UICONTROL Popularity-Based] algoritmer</li><li>[!UICONTROL Item-Based] algoritmer</li><li>[!UICONTROL User-Based] algoritmer</li><li>[!UICONTROL Cart-Based] algoritmer</li></ul> |
+
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] regler avgör vad som händer om antalet rekommenderade objekt inte uppfyller  [rekommendationsdesignen](/help/c-recommendations/c-design-overview/design-overview.md). Det är möjligt att [!DNL Recommendations]-kriterier returnerar färre rekommendationer än vad designen kräver. Om din design till exempel har platser för fyra objekt, men dina villkor bara leder till att två objekt rekommenderas, kan du lämna de återstående platserna tomma, du kan använda rekommendationer för säkerhetskopiering för att fylla de extra platserna, eller så kan du välja att inte visa några rekommendationer.
+
+![Innehållsavsnitt](assets/content.png)
 
 1. (Valfritt) Dra reglaget **[!UICONTROL Partial Design Rendering]** till läget &quot;på&quot;.
 
@@ -128,7 +142,7 @@ Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte 
 
    Aktivera det här alternativet om du vill att rekommendationer ska hanteras med tomma platser. Använd rekommendationer för säkerhetskopiering om du vill att rekommendationsplatserna ska fyllas med innehåll baserat på dina kriterier med tomma platser fyllda med liknande eller populärt innehåll från platsen, vilket förklaras i nästa steg.
 
-1. (Valfritt) Dra reglaget **[!UICONTROL Show Backup Recommendations]** till läget &quot;på&quot;.
+1. (Valfritt) Dra reglaget **[!UICONTROL Show Backup Content]** till läget &quot;på&quot;.
 
    Fyll eventuella återstående tomma platser i designen med ett slumpmässigt urval av de mest visade produkterna från hela webbplatsen.
 
@@ -138,9 +152,9 @@ Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte 
 
    Anta att dina kriterier gör att bara två objekt rekommenderas. Om du aktiverar alternativet [!UICONTROL Partial Design Rendering] fylls de två första platserna i, men de återstående två platserna förblir tomma. Om du aktiverar alternativet [!UICONTROL Show Backup Recommendations] fylls de två första kortplatserna i baserat på dina angivna villkor och de återstående två kortplatserna fylls i baserat på dina rekommendationer för säkerhetskopiering.
 
-   I följande matris visas det resultat du får se när du använder alternativen [!UICONTROL Partial Design Rendering] och [!UICONTROL Backup Recommendations]:
+   I följande matris visas det resultat du får se när du använder alternativen [!UICONTROL Partial Design Rendering] och [!UICONTROL Backup Content]:
 
-   | Delvis designåtergivning | Säkerhetskopiera Recommendations | Resultat |
+   | Delvis designåtergivning | Säkerhetskopiera innehåll | Resultat |
    |--- |--- |--- |
    | Handikappade | Handikappade | Om färre rekommendationer returneras än vad designen kräver ersätts rekommendationsdesignen med standardinnehåll och inga rekommendationer visas. |
    | Aktiverad | Handikappade | Designen återges, men kan innehålla tomt utrymme om färre rekommendationer returneras än vad designanropen kräver. |
@@ -149,7 +163,7 @@ Innehållsreglerna avgör vad som händer om antalet rekommenderade objekt inte 
 
    Mer information finns i [Använd en rekommendation för säkerhetskopiering](/help/c-recommendations/c-algorithms/backup-recs.md).
 
-1. (Villkorligt) Om du valde **[!UICONTROL Show Backup Recommendations]** i föregående steg kan du aktivera **[!UICONTROL Apply inclusion rules to backup recommendations]**.
+1. (Villkorligt) Om du valde **[!UICONTROL Show Backup Content]** i föregående steg kan du aktivera **[!UICONTROL Apply inclusion rules to backup recommendations]**.
 
    Inkluderingsregler avgör vilka objekt som tas med i dina rekommendationer. Vilka alternativ som är tillgängliga beror på var du arbetar vertikalt.
 
@@ -165,13 +179,13 @@ Använd [!UICONTROL Content Similarity]-regler om du vill göra rekommendationer
 
 >[!NOTE]
 >
->Om du valde **[!UICONTROL Items]**/**[!UICONTROL Media with Similar Attributes]** som [rekommendationslogik](#info) kan du ange regler för innehållets likhet.
+>Om du valde **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** som algoritmtyp och algoritm kan du ange likhetsregler för innehåll.
 
 Innehållslikhet jämför nyckelord för objektattribut och gör rekommendationer baserat på hur många nyckelord olika objekt har gemensamt. Recommendations baserat på innehållets likhet kräver inte tidigare data för att ge ett starkt resultat.
 
 Att använda innehållets likhet för att generera rekommendationer är särskilt effektivt för nya objekt, som troligen inte visas i rekommendationer med *Personer som har tittat på detta, som har sett att* och annan logik baserad på tidigare beteende. Ni kan också använda innehållets likhet för att generera användbara rekommendationer för nya besökare som inte har några tidigare inköp eller andra historiska data.
 
-När du väljer **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** kan du skapa regler som ökar eller minskar vikten av specifika objektattribut när du fastställer rekommendationer. För objekt som böcker kanske du vill öka vikten av attribut som *genre*, *författare*, *serie* och så vidare, för att rekommendera liknande böcker.
+När du väljer **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** kan du skapa regler som ökar eller minskar vikten av specifika objektattribut när du fastställer rekommendationer. För objekt som böcker kanske du vill öka vikten av attribut som *genre*, *författare*, *serie* och så vidare, för att rekommendera liknande böcker.
 
 ![](assets/ContentSimilarity.png)
 
