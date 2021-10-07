@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
+source-git-commit: 8f5e2c5025dc4b9caf31f51c03fb073ddd9ba756
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 4 oktober 2021**
+**Senast uppdaterad: 6 oktober 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
@@ -31,8 +31,10 @@ Den här versionen innehåller följande nya funktioner:
 
 | Funktion | Detaljer |
 | --- | --- |
-| Målgruppsuppdatering | Vi skriver gradvis om hela användargränssnittet i [!DNL Target] med en ny teknologi för att kunna erbjuda bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Avsnittet [Administration](/help/administrating-target/administrating-target.md) uppdaterades 2020. Avsnittet [!UICONTROL Audiences] är den andra större gränssnittsuppdateringen. |
-| ![Premium ](/help/assets/premium.png) badgeRecommendations Criteria create &amp; edit | Arbetsflödet för att skapa och redigera [!UICONTROL Recommendations Criteria] har förenklats så att det är enklare att välja rätt rekommendationsalgoritm och inställningar för att uppnå dina mål. |
+| [!UICONTROL Audiences] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target]-teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target]-användare uppdaterar den här versionen sidorna [!UICONTROL Audiences] och [!UICONTROL Profile Scripts] i [!DNL Target]-gränssnittet. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till, till exempel:<ul><li>Möjlighet att markera och ta bort flera målgrupper samtidigt</li><li>En uppdaterad [målgruppsbyggare](/help/c-target/c-audiences/create-audience.md)</li><li>Stöd för uteslutningsregel i [!UICONTROL Audience]-biblioteksregelverktyget</li><li>Ett nytt &quot;Audience Source&quot;-filter som ger snabbare målgruppsidentifiering</li><li>Alternativ för beständig sökning och filtrering av sessioner</li></ul>Mer information finns i [Publiker](/help/c-target/target.md).<br>**Obs**: Uppdateringen påverkar endast kunder i EMEA-regionen. Kunder i andra delar av världen, inklusive Nordamerika, kommer att se det uppdaterade användargränssnittet nästa vecka. |
+| [!UICONTROL Profile Scripts] Uppdatering av användargränssnittet | Biblioteket [!UICONTROL Profile Scripts] uppdaterades också och innehåller ett uppdaterat gränssnitt samt flera produktivitetsuppdateringar:<ul><li>Möjlighet att markera och ta bort flera profilskript samtidigt</li><li>En ny kodredigerare för profilskript</li><li>Syntaxmarkering och felkontroll inuti kodredigeraren</li><li>Fyll i tokens-parametrar automatiskt (mbox eller profile) via kortkommandon</li></ul>Mer information finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**Obs**: Uppdateringen påverkar endast kunder i EMEA-regionen. Kunder i andra delar av världen, inklusive Nordamerika, kommer att se det uppdaterade användargränssnittet nästa vecka. |
+| ![Premium ](/help/assets/premium.png) badgeRecommendations Criteria create and edit | Arbetsflödet för att skapa och redigera [!UICONTROL Recommendations Criteria] har förenklats så att det är enklare att välja rätt rekommendationsalgoritm och inställningar för att uppnå dina mål.<br>Mer information finns i  [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Förbättrad Premium ](/help/assets/premium.png) badgeRecommendations lookback window och algorithm refresh rate | Nu kan du köra algoritmerna&quot;Mest visade&quot; och&quot;Mest visade&quot; säljare&quot; med ett sextimmars uppslagsfönster för att fånga det innehåll som är mest aktuellt. När du har valt ett sextimmars uppslag uppdateras dina rekommendationer var 3:e till 6:e timme under dagen.<br>Mer information finns i  [Datakälla ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) i  *Skapa villkor*. |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
