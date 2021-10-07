@@ -231,7 +231,7 @@ Om du väljer den här algoritmen kan du välja följande filtreringsnycklar:
 
 Med algoritmtypen Egna kriterier kan du ge rekommendationer baserat på en anpassad fil som du överför.
 
-Rekommendationen bestäms av ett objekt som lagras i en besökarprofil, med hjälp av någon av användarna.*Exportera* profil.*xattributes* .
+Rekommendationen bestäms av ett objekt som lagras i en besökarprofil, med hjälp av någon av användarna.** xor-profil.** xattributes.
 
 När det här alternativet är markerat måste `entity.id`-värdet finnas i profilattributet.
 
