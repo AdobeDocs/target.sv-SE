@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,15 @@ ht-degree: 0%
 # Dokumentationsändringar
 
 På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumentationen.
+
+## [!DNL Adobe Target Standard/Premium] 21.10.1 (6 oktober 2021)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 6 oktober | [Bygg målgrupper i [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Uppdaterad text och bilder som återspeglar det uppdaterade [!DNL Target] [!UICONTROL Audiences]-gränssnittet. Liknande ändringar har gjorts i [!UICONTROL Audiences]-avsnitten. |
+|  | [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Uppdaterade följande avsnitt:<ul><li>Grundläggande information</li><li>Datakälla</li></ul> |
+|  | [Överför anpassade villkor](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Uppdaterade instruktioner som återspeglar det nya arbetsflödet. |
+|  | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.10.1 | Den här versionen innehåller förbättringar och korrigeringar. Du kan läsa om dem och länka till dokumentationen från versionsinformationen. Den här versionen innehåller även många dokumentationsuppdateringar i hela hjälpen. |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 september 2021)
 
@@ -68,9 +77,9 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 | 27 juli | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nytt avsnitt har lagts till:<ul><li>Rekommenderad dokumentation</li></ul> |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Nytt avsnitt har lagts till:<ul><li>Innehållsleverans</li></ul> |
 | 26 juli | [Använda Adobe Target med Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK i  *Adobe Experience Platform Web SDK -* översiktshandbok | Nytt avsnitt har lagts till:<ul><li>Systemdiagram för Platform Web SDK</li></ul> |
-| 23 juli | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har uppdaterats för att ge mer information:<ul><li>Hur påverkar reglerna för tillämpning av cookies i Google Chrome SameSite VEC?</li></ul> |
+| 23 juli | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har uppdaterats för att ge mer information:<ul><li>Hur påverkar Google Chrome SameSite cookie-reglerna VEC och EEC?</li></ul> |
 |  | [Gränser](/help/r-troubleshooting-target/target-limits.md) | Lagt till ett nytt avsnitt,&quot;Modifications per experience&quot;, under&quot;Experiences&quot;. |
-| 21 juli | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har uppdaterats:<ul><li>Hur påverkar reglerna för tillämpning av cookies i Google Chrome SameSite VEC?</li></ul> |
+| 21 juli | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Följande avsnitt har uppdaterats:<ul><li>Hur påverkar Google Chrome SameSite cookie-reglerna VEC och EEC?</li></ul> |
 | 19 juli | [Klassificeringar - A4T - vanliga frågor och svar](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Lagt till information om händelsekoden -1 eller 65535. |
 | 16 juli | [Versionsinformation om målversionen (aktuell)](/help/r-release-notes/release-notes.md)<br><br>[andat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.6.0. |
 |  | [Felsökning relaterade till  [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Listan över IP-adresser som ska tillåtslista har uppdaterats. |

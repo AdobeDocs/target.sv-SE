@@ -1,20 +1,19 @@
 ---
 keywords: rekommendationer;rekommendationsaktivitet;kriterier;algoritm;rekommendationsnyckel;anpassad nyckel;branschvertikal;återförsäljning;e-handel;lead generation;b2b;finansiella tjänster;media;publicering
-description: Lär dig hur du använder villkor i Adobe [!DNL Target] Recommendations. Kriterier är regler som avgör vilket innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden.
+description: Lär dig hur du använder villkor i Adobe [!DNL Target] [!DNL Recommendations].
 title: Hur använder jag villkor i [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
 
 # ![](/help/assets/premium.png) PREMIUMCCriteria
 
-Kriterierna i [!DNL Adobe Target] är regler som bestämmer vilka produkter eller innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden. Kriterierna kan baseras på populära trender, en besökares aktuella och tidigare beteenden eller liknande produkter och innehåll. Du kan testa flera rekommendationstyper mot varandra genom att lägga till flera villkor.
+Kriterierna i [!DNL Adobe Target] [!DNL Recommendations] är regler som bestämmer vilka produkter eller innehåll som ska rekommenderas baserat på en fördefinierad uppsättning besökarbeteenden. Kriterierna kan baseras på populära trender, en besökares aktuella och tidigare beteenden eller liknande produkter och innehåll. Du kan testa flera rekommendationstyper mot varandra genom att lägga till flera villkor.
 
 I följande avsnitt beskrivs mer om villkorsnycklar och den rekommendationslogik du kan använda för varje nyckel. Klicka på länkarna för mer detaljerad information.
 
@@ -30,21 +29,23 @@ När du skapar villkor väljer du en bransch vertikalt baserad på syftet med di
 
 Andra kriteriealternativ ändras beroende på vilken vertikal du väljer i branschen. Du kan ställa in branschens standardinställningar lodrätt på **[!UICONTROL Recommendations > Settings]**-sidan eller ange branschens lodräta format för varje villkor.
 
-## Rekommendationsnyckel {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Algoritmtyp {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-Den rekommendationsnyckel du väljer avgör typen av villkor. Det finns flera kriterietyper som visas som kriteriekort när du ställer in en [!DNL Recommendations]-aktivitet.
+Den algoritmtyp du väljer avgör vilka algoritmer som är tillgängliga. Det finns flera algoritmtyper som visas som kriteriekort när du ställer in en [!DNL Recommendations]-aktivitet.
 
-![Kriteriesida](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+![Kriteriesida](assets/criteria-page.png)
 
-I följande tabell förklaras de olika kriterietyperna och tillhörande nycklar. Klicka på länkarna för mer detaljerad information om varje tangent.
+I följande tabell förklaras de olika algoritmtyperna och deras tillhörande algoritmer.
 
-| Villkorstyp | Tangenter |
-|--- |--- |
-| Aktuell sidaktivitet | Rekommendera objekt baserat på vad användarna gör på den aktuella sidan. Besökare som visar en viss artikel kanske vill se andra artiklar i samma kategori.<ul><li>[Aktuellt objekt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-item)</li><li>[Aktuell kategori](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-category)</li></ul> |
-| Egen | Rekommendera objekt baserat på anpassade attribut.<ul><li>[Anpassat attribut](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>När du baserar rekommendationer på anpassade attribut måste du välja det anpassade attributet och sedan välja rekommendationstypen. |
-| Tidigare beteende | Rekommendera objekt baserat på hur besökarna tidigare har svarat på ett objekt. Exempelvis har de som köpt ett visst varumärke större chans att köpa ett annat varumärke.<ul><li>[Senast köpta artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Senast visade objekt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Mest visade objekt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Favoritkategori](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
-| Popularitet | Rekommendera de populäraste objekten, till exempel de populäraste videoklippen i en relaterad kategori eller de produkter som har visats oftast på din webbplats.<ul><li>[Popularitet](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| [Senast visade objekt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Rekommendera objekt som en besökare har visat senast, t.ex. de objekt en besökare tittade på när han eller hon senast besökte din webbplats, eller de artiklar som är mest aktuella just nu. |
+| Algoritmtyp | När ska användas | Tillgängliga algoritmer |
+| --- | --- | --- |
+| [!UICONTROL Popularity-Based] | Utför rekommendationer baserat på hur populärt ett objekt på webbplatsen är eller utifrån hur populärt det är att ha objekt inom en användares favoritkategori, varumärke, genre osv. | <ul><li>Visas bäst på webbplatsen</li><li>Mest visade per kategori</li><li>Mest visad av objektattribut</li><li>De största säljarna på webbplatsen</li><li>De viktigaste säljarna per kategori</li><li>De viktigaste säljarna efter artikelattribut</li><li>Top by Analytics Metric</li></ul> |
+| [!UICONTROL Item-Based] | Rekommendationer baserade på sökning efter liknande objekt för ett objekt som användaren för närvarande visar eller nyligen har visat. | <ul><li>Folk som tittade på det här, såg det</li><li>Folk som såg det här, köpte det</li><li>Folk som köpte den här, köpte den där</li><li>Objekt med liknande attribut</li></ul> |
+| [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Senast visade objekt</li><li>Rekommenderas för dig</li></ul> |
+| Cart-baserad | (Kommer snart) Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
+| [!UICONTROL Custom Criteria] | Utför rekommendationer baserat på en anpassad fil som du överför. | <ul><li>Anpassad algoritm</li></ul> |
+
+Mer information om de olika algoritmerna finns i [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## Använda en anpassad rekommendationsnyckel {#custom-key}
 
@@ -52,54 +53,23 @@ Du kan också basera rekommendationer på värdet för ett anpassat profilattrib
 
 >[!NOTE]
 >
->Egna profilparametrar kan skickas till Target via JavaScript, API eller integreringar. Mer information om anpassade profilattribut finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md).
+>Egna profilparametrar kan skickas till [!DNL Target] via JavaScript, API eller integreringar. Mer information om anpassade profilattribut finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md).
 
 Anta till exempel att du vill visa rekommenderade filmer baserat på den film som en användare senast lade till i kön.
 
-1. Välj ditt anpassade profilattribut i listrutan [!UICONTROL Recommendation Key] (till exempel [!UICONTROL Last Show Added to Watchlist]).
+1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Välj din [!UICONTROL Recommendation Logic] (till exempel [!UICONTROL People Who Viewed This, Viewed That]).
+1. Klicka på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
-   ![Dialogrutan Skapa nya villkor](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+1. Fyll i informationen i [avsnittet Grundläggande information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara för [!DNL Recommendations] hur du vill att matchningen till en entitet ska ske.
+1. I avsnittet [Rekommenderad algoritm](/help/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) väljer du **[!UICONTROL Item Based]** i listan **[!UICONTROL Algorithm Type]**.
 
-Anta till exempel att du vill visa de mest säljande artiklarna från en användares favoritvarumärke.
+1. Välj **[!UICONTROL People Who Viewed This, Viewed That]** i listan **[!UICONTROL Algorithm]**.
 
-1. Välj ditt anpassade profilattribut i listrutan [!UICONTROL Recommendation Key] (till exempel [!UICONTROL Favorite Brand]).
+1. Välj ditt anpassade profilattribut i listan **[!UICONTROL Recommendation Key]** (till exempel [!UICONTROL Last Show Added to Watchlist]).
 
-1. Markera [!UICONTROL Recommendation Logic] som du vill använda med den här nyckeln (till exempel [!UICONTROL Top Sellers]).
-
-   Alternativet [!UICONTROL Group By Unique Value Of] visas.
-
-1. Välj det entitetsattribut som matchar nyckeln som du har valt. I det här fallet matchar [!UICONTROL Favorite Brand] `entity.brand`.
-
-   [!DNL Recommendations] skapar nu en&quot;Top Sellers&quot;-lista för varje varumärke och visar användaren rätt&quot;Top Sellers&quot;-lista baserat på det värde som lagras i  [!UICONTROL Favorite Brand] profilattributet.
-
-   ![Attribut för bästsäljare](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
-
-## Kriterier/algoritmer {#criteria-algorithms}
-
-[!DNL Target Recommendations] använder sofistikerade algoritmer för att avgöra när en besökares åtgärder uppfyller kriterierna som anges i din aktivitet. Rekommendationsnyckeln avgör vilka alternativ för rekommendationslogik som är tillgängliga.
-
-| Kriterier | Beskrivning |
-|--- |--- |
-| [Objekt/media med liknande attribut](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#similar-attributes) | Rekommenderar objekt eller media som liknar objekt eller media baserat på den aktuella sidaktiviteten eller tidigare besökares beteende. |
-| [Folk som tittade på det här, såg det](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-viewed) | Rekommenderar objekt som oftast visas i samma session som det angivna objektet visas. |
-| [Folk som såg det här, köpte det](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-bought) | Rekommenderar artiklar som oftast köps i samma session som det angivna objektet visas. |
-| [Folk som köpte den här, köpte den där](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#bought-bought) | Rekommenderar artiklar som oftast köps av kunder samtidigt som det angivna objektet. |
-| [Tillhörighet till webbplats](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity) | Rekommenderar objekt baserat på säkerheten för en relation mellan objekt. |
-| [De viktigaste säljarna](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers) | De artiklar som ingår i de mest slutförda beställningarna. Flera enheter av samma artikel i en enda order räknas som en order. |
-| [Mest visade](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed) | De objekt eller medier som visas oftast. |
-| [Användarbaserad Recommendations](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | Rekommenderar objekt baserat på besökarens webbläsarhistorik, visning och inköp. De här objekten kallas vanligtvis&quot;Rekommenderas för dig&quot;. |
-
->[!NOTE]
->
->Om du kör en rekommendation och ändrar villkoren för den kommer du att förlora dina rapportdata.
-
-Du kan även använda ytterligare känd information om en besökare för att förbättra dina rekommendationer.
-
-Alla endagskriterier körs två gånger dagligen. Alla kriterier för en vecka och längre körs en gång om dagen. Kriterierna för platstillhörighet körs en gång om dagen. Säkerhetskopieringsvillkor körs två gånger dagligen.
+   ![Dialogrutan Skapa nya villkor](assets/custom-key1.png)
 
 ## Visa villkorsinformation {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
