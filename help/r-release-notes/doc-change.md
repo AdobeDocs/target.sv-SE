@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 11 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 21.10.2 (13 oktober 2021). |
 | 6 oktober | [Bygg målgrupper i [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Uppdaterad text och bilder som återspeglar det uppdaterade [!DNL Target] [!UICONTROL Audiences]-gränssnittet. Liknande ändringar har gjorts i [!UICONTROL Audiences]-avsnitten. |
 |  | [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Uppdaterade följande avsnitt:<ul><li>Grundläggande information</li><li>Datakälla</li></ul> |
 |  | [Överför anpassade villkor](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Uppdaterade instruktioner som återspeglar det nya arbetsflödet. |
