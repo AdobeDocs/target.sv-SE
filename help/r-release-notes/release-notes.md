@@ -5,9 +5,9 @@ landing-page-description: Lär dig mer om de nya funktionerna, förbättringarna
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bd7032b915bf1b333fa5cc3cb4825eaa7e4f83fb
+source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,46 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
+## [!DNL Target Standard/Premium] 21.10.2 (13 oktober 2021)
+
+Följande förbättringar har lagts till när du använder [!DNL Target] [!UICONTROL Audiences] med [!DNL Adobe Experience Platform Web SDK]:
+
+* Varningsikoner, poseringar och meddelanden på olika platser i [!DNL Target]-gränssnittet har lagts till för att ange att målgruppen togs bort från källan och inte längre är tillgänglig för användning i [!DNL Target]-aktiviteter.
+
+   Följande bilder visar några av de platser där ikonerna, poseringarna och meddelandena visas:
+
+   * [!UICONTROL Activity] listsida
+
+      ![Målgruppen togs bort vid källmeddelandet på sidan med aktivitetslistan](assets/deleted-at-source-audiences-list.png)
+
+   * Aktivitet [!UICONTROL Overview] sidor:
+
+      ![Målgruppen togs bort vid källmeddelandet på översiktssidan](assets/deleted-at-source-overview.png)
+
+   * [!UICONTROL Experiences] steg i arbetsflödet för att skapa aktiviteter:
+
+      ![Målgruppen togs bort vid källmeddelandet på  [!UICONTROL Experiences] sidan](assets/deleted-at-source-experiences.png)
+
+   * [!UICONTROL Targeting] steg i arbetsflödet för att skapa aktiviteter:
+
+      ![Målgruppen togs bort vid källmeddelandet på  [!UICONTROL Targeting] sidan](assets/deleted-at-source-targeting.png)
+
+   * [!UICONTROL Goals & Settings] steg i arbetsflödet för att skapa aktiviteter:
+
+      ![Målgruppen togs bort vid källmeddelandet på  [!UICONTROL Goals & Settings] sidan](assets/deleted-at-source-goals-settings.png)
+
+   * Målgruppsförbättringar ([!UICONTROL Replace Audience] i [!UICONTROL Targeting]-steget i arbetsflödet för att skapa aktivitet):
+
+* Om du försöker använda funktionen Kombinera målgrupper och en av målgrupperna togs bort från källan, är [!UICONTROL Save] inaktiverat.
+
 ## [!DNL Target Standard/Premium] 21.10.1 (6 oktober 2021)
 
 Den här versionen innehåller följande nya funktioner:
 
 | Funktion | Detaljer |
 | --- | --- |
-| [!UICONTROL Audiences] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target]-teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target]-användare uppdaterar den här versionen sidorna [!UICONTROL Audiences] och [!UICONTROL Profile Scripts] i [!DNL Target]-gränssnittet. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till, till exempel:<ul><li>Möjlighet att markera och ta bort flera målgrupper samtidigt</li><li>En uppdaterad [målgruppsbyggare](/help/c-target/c-audiences/create-audience.md)</li><li>Stöd för uteslutningsregel i [!UICONTROL Audience]-biblioteksregelverktyget</li><li>Ett nytt &quot;Audience Source&quot;-filter som ger snabbare målgruppsidentifiering</li><li>Alternativ för beständig sökning och filtrering av sessioner</li></ul>Mer information finns i [Publiker](/help/c-target/target.md).<br>**Obs**: Det nya  [!UICONTROL Audiences] och  [!UICONTROL Profile Scripts] användargränssnittet kommer att lanseras i alla regioner nästa vecka. |
-| [!UICONTROL Profile Scripts] Uppdatering av användargränssnittet | Biblioteket [!UICONTROL Profile Scripts] uppdaterades också och innehåller ett uppdaterat gränssnitt samt flera produktivitetsuppdateringar:<ul><li>Möjlighet att markera och ta bort flera profilskript samtidigt</li><li>En ny kodredigerare för profilskript</li><li>Syntaxmarkering och felkontroll inuti kodredigeraren</li><li>Fyll i tokens-parametrar automatiskt (mbox eller profile) via kortkommandon</li></ul>Mer information finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**Obs**: Det nya  [!UICONTROL Audiences] och  [!UICONTROL Profile Scripts] användargränssnittet kommer att lanseras i alla regioner nästa vecka. |
+| [!UICONTROL Audiences] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target]-teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target]-användare uppdaterar den här versionen sidorna [!UICONTROL Audiences] och [!UICONTROL Profile Scripts] i [!DNL Target]-gränssnittet. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till, till exempel:<ul><li>Möjlighet att markera och ta bort flera målgrupper samtidigt</li><li>En uppdaterad [målgruppsbyggare](/help/c-target/c-audiences/create-audience.md)</li><li>Stöd för uteslutningsregel i [!UICONTROL Audience]-biblioteksregelverktyget</li><li>Ett nytt &quot;Audience Source&quot;-filter som ger snabbare målgruppsidentifiering</li><li>Alternativ för beständig sökning och filtrering av sessioner</li></ul>Mer information finns i [Publiker](/help/c-target/target.md). |
+| [!UICONTROL Profile Scripts] Uppdatering av användargränssnittet | Biblioteket [!UICONTROL Profile Scripts] uppdaterades också och innehåller ett uppdaterat gränssnitt samt flera produktivitetsuppdateringar:<ul><li>Möjlighet att markera och ta bort flera profilskript samtidigt</li><li>En ny kodredigerare för profilskript</li><li>Syntaxmarkering och felkontroll inuti kodredigeraren</li><li>Fyll i tokens-parametrar automatiskt (mbox eller profile) via kortkommandon</li></ul>Mer information finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md). |
 | ![Premium ](/help/assets/premium.png) badgeRecommendations Criteria create and edit | Arbetsflödet för att skapa och redigera [!UICONTROL Recommendations Criteria] har förenklats så att det är enklare att välja rätt rekommendationsalgoritm och inställningar för att uppnå dina mål.<br>Mer information finns i  [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Förbättrad Premium ](/help/assets/premium.png) badgeRecommendations lookback window och algorithm refresh rate | Nu kan du köra algoritmerna&quot;Mest visade&quot; och&quot;Mest visade&quot; säljare&quot; med ett sextimmars uppslagsfönster för att fånga det innehåll som är mest aktuellt. När du har valt ett sextimmars uppslag uppdateras dina rekommendationer var 3:e till 6:e timme under dagen.<br>Mer information finns i  [Datakälla ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) i  *Skapa villkor*. |
 
