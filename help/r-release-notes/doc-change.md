@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i produktd
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i [!DNL Adobe Target]-produktdokumen
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 14 oktober | [Aktivitetsinställningar - vanliga A4T-frågor](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Följande frågor och svar har lagts till: &quot;Kan jag använda ett binomiellt [!DNL Analytics]-mått med ett segment som optimeringsmål i en [!UICONTROL Auto-Allocate]-aktivitet?&quot; |
 | 13 oktober | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.10.2 | Lagt till information om [!DNL Target Standard/Premium] 21.10.2-utgåvan (13 oktober 2021). |
 | 11 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 21.10.2 (13 oktober 2021). |
 | 6 oktober | [Bygg målgrupper i [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Uppdaterad text och bilder som återspeglar det uppdaterade [!DNL Target] [!UICONTROL Audiences]-gränssnittet. Liknande ändringar har gjorts i [!UICONTROL Audiences]-avsnitten. |

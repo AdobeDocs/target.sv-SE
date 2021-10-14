@@ -2,12 +2,11 @@
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;aktivitetsinställning
 description: Hitta svar på frågor om aktivitetskonfiguration när du använder Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] aktiviteter.
 title: Var hittar jag frågor och svar om aktivitetsinställningar med A4T?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,7 @@ Mer information finns i&quot;När jag konfigurerar mina målmått, varför kan j
 
 ## Jag har just skapat en aktivitet. Varför ser jag inga data som kommer in? {#section_9F8092BE4225442896F926540292F221}
 
-När en aktivitet skapas skickar [!DNL Target] en klassificeringsfil till [!DNL Analytics]. Även om [!DNL Analytics] hämtar in och bearbetar data, visas det inte i rapporterna förrän klassificeringsfilen har uppdaterats. Denna process kan ta upp till 24 timmar. Om du inte ser dina data inom 48 timmar kan du [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Om du vet att du kommer att starta en aktivitet kan du skapa aktiviteten några dagar i förväg och klassificeringarna skickas när aktiviteten sparas. På så sätt visas data i rapporterna när programmet startas. Observera att det tar 45-90 minuter för data att behandlas i [!DNL Analytics].
+När en aktivitet skapas skickar [!DNL Target] en klassificeringsfil till [!DNL Analytics]. Även om [!DNL Analytics] hämtar in och bearbetar data, visas det inte i rapporterna förrän klassificeringsfilen har uppdaterats. Denna process kan ta upp till 24 timmar. Om du inte ser dina data inom 48 timmar kan du [kontakta kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Om du vet att du startar en aktivitet kan du skapa aktiviteten några dagar i förväg och klassificeringarna skickas när aktiviteten sparas. På så sätt visas data i rapporterna när programmet startas. Observera att det tar 45-90 minuter för data att behandlas i [!DNL Analytics].
 
 ## Varför kan jag inte välja Analytics som rapportkälla när jag skapar en aktivitet? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
@@ -53,3 +52,8 @@ Om procentsatserna inte justeras efter medelaktiviteten skickas alltid en besök
 
 * Efter att ha befunnit sig i trafikens avsedda&quot;bucket&quot; kan besökaren få en annan upplevelse vid besök om maskininlärningsmodellerna visar att en annan upplevelse är relevant för det nya besöket.
 * Efter att ha tilldelats kontrollens&quot;bucket&quot; för trafik, kommer en besökare alltid att se samma upplevelse eftersom upplevelsetilldelningen baseras på en deterministisk pseudoslumpmässig hash av besökarens visitorId.
+
+
+## Kan jag använda ett binomiellt [!DNL Analytics]-mått med ett segment som används som optimeringsmål i en [!UICONTROL Auto-Allocate]-aktivitet? {#binomial}
+
+Du kan inte använda ett [!DNL Analytics]-mått med ett segment som används som optimeringsmål i en [!UICONTROL Auto-Allocate]-aktivitet. Som en tillfällig lösning kan du definiera en anpassad händelse som uppnår samma mål och använder det som optimeringsmålmåttet.
