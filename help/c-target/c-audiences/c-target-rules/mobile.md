@@ -4,9 +4,9 @@ description: Lär dig hur du skapar målgrupper i [!DNL Adobe Target] för att n
 title: Kan jag rikta in besökarna baserat på mobilalternativ?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,13 @@ Tänk på följande när du riktar dig till mobila enheter:
 
 ### Målenheter som kör iOS 12.2 eller senare
 
-På grund av de nya ändringarna som introducerades i iOS 12.2 påverkas skapandet av en målgrupp med regler som definieras av [!UICONTROL Device Marketing Name] och [!UICONTROL Device Model] som anger iPhone-modeller. [!DNL Target] kan inte längre rikta in sig på användare som har iPhone med iOS 12.2 (eller senare) installerat. Men om de användarna inte har iOS 12.2 (eller senare) kommer iPhone-modellens mål fortfarande att fungera korrekt.
+På grund av de nya ändringarna som introducerades i iOS 12.2 påverkas skapandet av en målgrupp med regler som definieras av [!UICONTROL Device Marketing Name] och [!UICONTROL Device Model] som anger iPhone-modeller. [!DNL Target] kan inte längre rikta in sig på användare som har iPhone med iOS 12.2 (eller senare) installerat. Om dessa användare inte har iOS 12.2 (eller senare) fortsätter dock iPhone Model-målsättningen att fungera korrekt.
 
 Uppdateringen av iOS 12.2 (eller senare) påverkar inte identifieringen av följande modeller eftersom dessa inte stöder uppgradering till iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina-skärm, iPad Retina (4:e generationen), iPod Touch 4 och iPod Touch 5.
 
 ### Målenheter som kör Safari 14.0.2 (eller senare)
 
-När du använder mobilregler för målenheter som kör Safari version 14.0.2 (eller senare) på macOS identifieras Safari felaktigt som en iPad-version på grund av ett känt problem med Apples användaragenter och DeviceAtlas. [!DNL Target] Denna fråga kommer att behandlas i framtiden.
+När du använder mobilregler för målenheter som kör Safari version 14.0.2 (eller senare) på macOS identifieras Safari felaktigt på Mac- och iPad-enheter på grund av ett känt problem med Apple användaragenter och DeviceAtlas. [!DNL Target] Denna fråga kommer att behandlas i framtiden.
 
 ## Utbildningsvideo: Skapa målgrupper
 
