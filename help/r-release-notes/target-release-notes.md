@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -17,45 +17,23 @@ Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funkti
 
 **Senast uppdaterad: 11 oktober 2021**
 
-Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
 >[!IMPORTANT]
 >
->**mbox.js - utgånget**: 31 mars 2021 har  [!DNL Adobe Target] inte längre stöd för mbox.js-biblioteket. Efter den 31 mars 2021 misslyckas alla anrop från mbox.js på ett säkert sätt och påverkar de sidor där [!DNL Target]-aktiviteter körs genom att standardinnehåll används.
+>**mbox.js end-of-life**: 31 mars 2021 [!DNL Adobe Target] stöder inte längre mbox.js-biblioteket. Efter den 31 mars 2021 misslyckas alla anrop från mbox.js på ett bra sätt och påverkar de sidor som har [!DNL Target] aktiviteter som körs genom att visa standardinnehåll.
 >
->Om du vill undvika eventuella problem med dina platser migrerar du till den senaste versionen av det nya [!DNL Adobe Experience Platform Web SDK]- eller at.js-JavaScript-biblioteket. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Om du vill undvika eventuella problem med dina webbplatser migrerar du till den senaste versionen av den nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.2 (13 oktober 2021)
+## [!DNL Target Standard/Premium] 21.10.3 (19 oktober 2021)
 
-Följande förbättringar har lagts till när du använder [!DNL Target] [!UICONTROL Audiences] med [!DNL Adobe Experience Platform Web SDK]:
+Den här underhållsversionen innehåller följande förbättringar, korrigeringar och ändringar:
 
-* Varningsikoner, poseringar och meddelanden på olika platser i [!DNL Target]-gränssnittet har lagts till för att ange att målgruppen togs bort från källan och inte längre är tillgänglig för användning i [!DNL Target]-aktiviteter.
-
-   Följande bilder visar några av de platser där ikonerna, poseringarna och meddelandena visas:
-
-   * [!UICONTROL Activity] listsida
-
-      ![Målgruppen togs bort vid källmeddelandet på sidan med aktivitetslistan](assets/deleted-at-source-audiences-list.png)
-
-   * Aktivitet [!UICONTROL Overview] sidor:
-
-      ![Målgruppen togs bort vid källmeddelandet på översiktssidan](assets/deleted-at-source-overview.png)
-
-   * [!UICONTROL Experiences] steg i arbetsflödet för att skapa aktiviteter:
-
-      ![Målgruppen togs bort vid källmeddelandet på  [!UICONTROL Experiences] sidan](assets/deleted-at-source-experiences.png)
-
-   * [!UICONTROL Targeting] steg i arbetsflödet för att skapa aktiviteter:
-
-      ![Målgruppen togs bort vid källmeddelandet på  [!UICONTROL Targeting] sidan](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL Goals & Settings] steg i arbetsflödet för att skapa aktiviteter:
-
-      ![Målgruppen togs bort vid källmeddelandet på  [!UICONTROL Goals & Settings] sidan](assets/deleted-at-source-goals-settings.png)
-
-   * Målgruppsförbättringar ([!UICONTROL Replace Audience] i [!UICONTROL Targeting]-steget i arbetsflödet för att skapa aktivitet):
-
-* Om du försöker använda funktionen Kombinera målgrupper och en av målgrupperna togs bort från källan, är [!UICONTROL Save] inaktiverat.
+* Korrigerade problem som hindrade kunderna från att öppna [!UICONTROL A4T] panel i [!DNL Analysis Workspace] genom att klicka på [!UICONTROL View in Analytics] knapp in [!DNL Target] aktivitetsrapportering. (TGT-42099, TGT-42100)
+* Ett problem som orsakade [!UICONTROL Edit Design] knapp som inte visas vid redigering [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) med [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
+* Ett problem som förhindrade [!UICONTROL Compatible] kryssruta från visa i villkorsval när du skapar en ny [!UICONTROL Recommendations] aktivitet. (TGT-42053)
+* Korrigerade ett felaktigt felmeddelande när det inte gick att markera [!DNL Analytics] som rapportkälla (A4T) på grund av brist på [!DNL Analytics] behörigheter. (TGT-41954)
+* Flera tillgänglighetskorrigeringar har implementerats för att förbättra tangentbordsnavigeringen i [!DNL Target] Gränssnitt.
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
