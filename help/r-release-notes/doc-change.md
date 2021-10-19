@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 19 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.10.3-utgåvan (19 oktober 2021). |
+| 19 oktober | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.10.3-utgåvan (19 oktober 2021). |
 | 14 oktober | [Aktivitetsinställningar - vanliga A4T-frågor](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Följande frågor och svar har lagts till: &quot;Kan jag använda en binomial [!DNL Analytics] mätvärden med ett segment tillämpat som optimeringsmål i ett [!UICONTROL Auto-Allocate] aktivitet?&quot; |
 | 13 oktober | [Versionsinformation](/help/r-release-notes/release-notes.md): 21.10.2 | Lagt till information om [!DNL Target Standard/Premium] 21.10.2-utgåvan (13 oktober 2021). |
 | 11 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om Target Standard/Premium 21.10.2 (13 oktober 2021). |
