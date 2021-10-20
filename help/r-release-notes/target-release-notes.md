@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 18 oktober 2021**
+**Senast uppdaterad: 20 oktober 2021**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
@@ -24,6 +24,14 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 >**mbox.js end-of-life**: 31 mars 2021 [!DNL Adobe Target] stöder inte längre mbox.js-biblioteket. Efter den 31 mars 2021 misslyckas alla anrop från mbox.js på ett bra sätt och påverkar de sidor som har [!DNL Target] aktiviteter som körs genom att visa standardinnehåll.
 >
 >Om du vill undvika eventuella problem med dina webbplatser migrerar du till den senaste versionen av den nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
+
+Den här underhållsversionen innehåller följande förbättringar:
+
+| Funktion | Detaljer |
+| --- | --- |
+| Cart-baserad Recommendations | En ny familj algoritmer för att leverera rekommendationer baserat på innehållet i besökarens kundvagn.<br>Mer information finns i &quot;Cart-Based&quot; (Kundvagnsbaserad) i [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md) och&quot;Vysidor för kundvagn/utcheckning&quot; och&quot;Uteslut artiklar som redan finns i kundvagnen&quot; i [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 oktober 2021)
 

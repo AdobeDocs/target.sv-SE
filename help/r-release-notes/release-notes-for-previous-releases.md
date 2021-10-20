@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '32022'
+source-wordcount: '32078'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,14 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2021
+
+### [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
+
+Den här underhållsversionen innehåller följande förbättringar:
+
+| Funktion | Detaljer |
+| --- | --- |
+| Cart-baserad Recommendations | En ny familj algoritmer för att leverera rekommendationer baserat på innehållet i besökarens kundvagn.<br>Mer information finns i &quot;Cart-Based&quot; (Kundvagnsbaserad) i [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md) och&quot;Vysidor för kundvagn/utcheckning&quot; och&quot;Uteslut artiklar som redan finns i kundvagnen&quot; i [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 oktober 2021)
 
@@ -71,8 +79,8 @@ Den här versionen innehåller följande nya funktioner:
 
 | Funktion | Detaljer |
 | --- | --- |
-| [!UICONTROL Audiences] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target] teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target] användare, den här versionen uppdaterar [!UICONTROL Audiences] och [!UICONTROL Profile Scripts] sidor på [!DNL Target] Gränssnitt. This update unifies and standardizes design patterns that were previously inconsistent, while adding new enhancements, such as:<ul><li>Möjlighet att markera och ta bort flera målgrupper samtidigt</li><li>En uppdaterad [målgruppsbyggare](/help/c-target/c-audiences/create-audience.md)</li><li>Stöd för undantagsregel i [!UICONTROL Audience] biblioteksregelbyggaren</li><li>Ett nytt &quot;Audience Source&quot;-filter som ger snabbare målgruppsidentifiering</li><li>Session persistent search and filter options</li></ul>For more information, see [Audiences](/help/c-target/target.md).<br>**NOTE**: The new [!UICONTROL Audiences] UI has been temporarily disabled for all customers except those currently in a [!DNL Target] Beta program. Den här gränssnittsuppdateringen återaktiveras för en delmängd av kunderna tisdagen den 19 oktober och för alla återstående kunder torsdagen den 21 oktober 2021. |
-| [!UICONTROL Profile Scripts] UI refresh | The [!UICONTROL Profile Scripts] biblioteket uppdaterades också och innehåller ett uppdaterat gränssnitt samt flera produktivitetsuppdateringar:<ul><li>Möjlighet att markera och ta bort flera profilskript samtidigt</li><li>En ny kodredigerare för profilskript</li><li>Syntaxmarkering och felkontroll inuti kodredigeraren</li><li>Fyll i tokens-parametrar automatiskt (mbox eller profile) via kortkommandon</li></ul>Mer information finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| [!UICONTROL Audiences] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target] teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target] användare, den här versionen uppdaterar [!UICONTROL Audiences] och [!UICONTROL Profile Scripts] sidor på [!DNL Target] Gränssnitt. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till, till exempel:<ul><li>Möjlighet att markera och ta bort flera målgrupper samtidigt</li><li>En uppdaterad [målgruppsbyggare](/help/c-target/c-audiences/create-audience.md)</li><li>Stöd för undantagsregel i [!UICONTROL Audience] biblioteksregelbyggaren</li><li>Ett nytt &quot;Audience Source&quot;-filter som ger snabbare målgruppsidentifiering</li><li>Alternativ för beständig sökning och filtrering av sessioner</li></ul>Mer information finns i [Målgrupper](/help/c-target/target.md).<br>**ANMÄRKNING**: Den nya [!UICONTROL Audiences] Gränssnittet har tillfälligt inaktiverats för alla kunder utom de som för närvarande finns i en [!DNL Target] Betaprogram. Den här gränssnittsuppdateringen återaktiveras för en delmängd av kunderna tisdagen den 19 oktober och för alla återstående kunder torsdagen den 21 oktober 2021. |
+| [!UICONTROL Profile Scripts] Uppdatering av användargränssnittet | The [!UICONTROL Profile Scripts] biblioteket uppdaterades också och innehåller ett uppdaterat gränssnitt samt flera produktivitetsuppdateringar:<ul><li>Möjlighet att markera och ta bort flera profilskript samtidigt</li><li>En ny kodredigerare för profilskript</li><li>Syntaxmarkering och felkontroll inuti kodredigeraren</li><li>Fyll i tokens-parametrar automatiskt (mbox eller profile) via kortkommandon</li></ul>Mer information finns i [Besökarprofiler](/help/c-target/c-visitor-profile/visitor-profile.md). |
 | ![Premium-märke](/help/assets/premium.png) Skapa och redigera Recommendations-kriterier | The [!UICONTROL Recommendations Criteria] arbetsflödet för att skapa och redigera har effektiviserats för att förenkla valet av rätt rekommendationsalgoritm och inställningar för att uppnå dina mål.<br>Mer information finns i [Skapa villkor](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium-märke](/help/assets/premium.png) Förbättrad uppdateringsfrekvens för Recommendations-fönster och algoritm | Nu kan du köra algoritmerna&quot;Mest visade&quot; och&quot;Mest visade&quot; säljare&quot; med ett sextimmars uppslagsfönster för att fånga det innehåll som är mest aktuellt. När du har valt ett sextimmars uppslag uppdateras dina rekommendationer var 3:e till 6:e timme under dagen.<br>Mer information finns i [Datakälla](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Skapa villkor*. |
 
@@ -80,16 +88,16 @@ Den här versionen innehåller följande nya funktioner:
 
 Den här underhållsversionen innehåller följande förbättringar, korrigeringar och ändringar.
 
-* Korrigerade problem som hindrade kunder från att logga in på [!UICONTROL Visual Experience Composer] (VEC) pga nya säkerhetsprofiler för cookies från tredje part i vissa webbläsare. This issue was discussed in &quot;Pages not loading in the Visual Experience Composer (VEC) or Enhanced Experience Composer (EEC) when using Google Chrome version 80+&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Korrigerade problem som hindrade kunder från att logga in på [!UICONTROL Visual Experience Composer] (VEC) pga nya säkerhetsprofiler för cookies från tredje part i vissa webbläsare. Problemet diskuterades i&quot;Sidor som inte läses in i Visual Experience Composer (VEC) eller Enhanced Experience Composer (EEC) när Google Chrome version 80+ används&quot; i [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
 * Ett problem som gjorde att erbjudandenamn i VEC visades i stället för erbjudandets egna namn har åtgärdats. (TGT-41300)
 * Upplevelsenamnen återspeglas nu i [!DNL Analysis Workspace] för A4T-aktiviteter (TGT-38674)
 * Korrigerade ett problem i [!DNL Recommendations] som felaktigt tillämpat enhets-ID ändras i en kampanj i en dubblerad aktivitet till den ursprungliga aktiviteten. (TGT-41482)
 * Ett problem som gjorde att knappen Redigera villkor inte kunde visas korrekt på panelen har åtgärdats [!UICONTROL Experiences] sida för [!DNL Recommendations] VEC:s verksamhet. (TGT-39512)
 * Korrigerade ett problem som förhindrade synkronisering av aktiviteter när de duplicerades och kopierades till en testarbetsyta. (TGT-40686)
-* Fixed an issue that prevented modifications to a selector with [experience fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) when using &quot;[!UICONTROL Insert After]&quot; in the VEC. (TGT-41802)
-* Korrigerade ett problem som förhindrade att tomt JSON-innehåll i ett erbjudande skickades till serverdelen. [!DNL Target] now sends the JSON object even though it is empty. (TGT-41555)
-* Fixed an issue that caused legacy [!DNL Analytics] reporting to open instead of [!DNL Analysis Workspace] when customers clicked &quot;[!UICONTROL View in Analytics]&quot; while viewing a report. (TGT-41867)
-* Ytterligare förtydliganden har lagts till i det visade gränssnittsmeddelandet när en kund försöker välja [!DNL Analytics] som rapportkälla (A4T) för en [!UICONTROL Automated Personalization] aktivitet. The message states that, &quot;[!DNL Target] is the only supported source for [!UICONTROL Automated Personalization] activities.&quot; (TGT-41954)
+* Korrigerade ett problem som förhindrade ändringar i en väljare med [upplevelsefragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md) när &quot;[!UICONTROL Insert After]&quot; i VEC. (TGT-41802)
+* Korrigerade ett problem som förhindrade att tomt JSON-innehåll i ett erbjudande skickades till serverdelen. [!DNL Target] skickar nu JSON-objektet trots att det är tomt. (TGT-41555)
+* Ett problem som orsakade äldre problem har korrigerats [!DNL Analytics] rapporter att öppna istället för [!DNL Analysis Workspace] när kunderna klickade på &quot;[!UICONTROL View in Analytics]&quot; när du visar en rapport. (TGT-41867)
+* Ytterligare förtydliganden har lagts till i det visade gränssnittsmeddelandet när en kund försöker välja [!DNL Analytics] som rapportkälla (A4T) för en [!UICONTROL Automated Personalization] aktivitet. Meddelandet säger att &quot;[!DNL Target] är den enda källan som stöds för [!UICONTROL Automated Personalization] aktiviteter.&quot; (TGT-41954)
 * Ytterligare förtydliganden har lagts till i felmeddelandet när kunderna försöker att separera värdar med&quot;newline&quot; i stället för kommatecken. (TGT-40671)
 * Ett problem som orsakade vissa aktiviteter har korrigerats[!UICONTROL Last Updated]&quot; skiljer sig från det engelska användargränssnittet för spanska och japanska kunder (när användargränssnittet visas på spanska och japanska). (TGT-38980)
 
@@ -246,13 +254,13 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 
 Den här versionen innehåller följande nya funktioner:
 
-| Feature | Detaljer |
+| Funktion | Detaljer |
 | --- | --- |
-| [Enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. And because on-device decisioning connects natively with [!DNL Adobe Experience Cloud] products, [!DNL Target] users get rapid analysis and faster experience iterations.<br>Mer information finns i *[Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
+| [Enhetsbeslut](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Med enhetsbaserad beslutsfattande kan både marknadsförare och produktutvecklare leverera experimenterande och maskininlärningsdriven personalisering inifrån en användares enhet, över flera kanaler, med nästan nolltidsfördröjning.<br>Snabbhet och prestanda - kundinsikter och användarnöjdhet.<br>Med beslutsverktyg på enheter kan ni kompilera viktiga instruktioner för personalisering och experimenterande i aktivitetstyperna A/B Test och Experience Targeting (XT) till optimeringsartefakter: JSON-objekt som läses in till kundenheter via CDN. Och eftersom beslut på enheter kan kopplas till [!DNL Adobe Experience Cloud] produkter, [!DNL Target] användarna får snabb analys och snabbare upplevelseiterationer.<br>Mer information finns i *[Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
 
 Den här versionen innehåller följande förbättringar, korrigeringar och ändringar:
 
-* Fixed an issue that prevented [!UICONTROL Average Lift Confidence Interval] and [!UICONTROL Confidence] from displaying in [!DNL Auto-Target] reporting for the [!UICONTROL Total] row. Mätningar som visas korrekt för alla enskilda upplevelser. (TGT-37301)
+* Korrigerade ett problem som förhindrade [!UICONTROL Average Lift Confidence Interval] och [!UICONTROL Confidence] från att visas i [!DNL Auto-Target] rapportering för [!UICONTROL Total] rad. Mätningar som visas korrekt för alla enskilda upplevelser. (TGT-37301)
 * Ett problem som påverkade har korrigerats [!DNL Adobe Target Premium] användare [!UICONTROL Auto-Target] från och med 15 september 2:30 (PDT) till 6 oktober kl. 9.25. (PDT). Vid visning av rapporter för påverkad konverteringsstatistik (konfigurerad med antingen[!UICONTROL Viewed a page]&quot; eller &quot;[!UICONTROL Clicked on mbox]&quot;option) rapporteras konverteringsgraden felaktigt. Det finns för närvarande inget känt leveransproblem. Mer information om hur du synkroniserar om och korrigerar rapporter finns i [Automatisk målrapportering](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) under *Lösta problem* in *Kända problem och lösta problem*.
 * Lagt till en valbar [!UICONTROL Last Updated At] kolumn i [!UICONTROL Catalog Search] tabell och en [!UICONTROL Last Updated At] filter. Den här förbättringen sparar tid och arbete eftersom du inte behöver öppna varje enskilt objekt för att se när det uppdaterades senast och du kan filtrera efter det datum då objekten uppdaterades senast.
 
@@ -737,7 +745,7 @@ Det här är en underhållsrelease och innehåller följande förbättringar och
 
 >[!NOTE]
 >
->If you require [!DNL Adobe] Opt-in support for the General Data Protection Regulation (GDPR), you should implement at.js 1.7.1. Opt-in support is not currently supported in at.js 2.*x*.
+>Om du behöver [!DNL Adobe] Opt-in support for the General Data Protection Regulation (GDPR), you should implement at.js 1.7.1. Stöd för deltagande stöds för närvarande inte i at.js 2.*x*.
 
 ### at.js version 1.7.1 (19 mars 2019) {#atjs171}
 
@@ -747,7 +755,7 @@ Detta är en underhållsrelease och innehåller följande korrigering:
 
 * Korrigerade ett konkurrensvillkor i DOM-avsökningskoden som orsakade JavaScript-undantag för vissa kunder. (TNT-31869)
 
-### Platform Changes (February 19, 2019) {#atjs2}
+### Ändringar av plattform (19 februari 2019) {#atjs2}
 
 | Funktion/förbättring | Beskrivning |
 | --- | --- |
@@ -943,18 +951,18 @@ Den här versionen innehåller följande funktioner och förbättringar:
 
 **Förbättringar, korrigeringar och ändringar**
 
-This [!DNL Target] release includes the following enhancements, fixes, and changes:
+Detta [!DNL Target] releasen innehåller följande förbättringar, korrigeringar och ändringar:
 
 * Vi har uppdaterat utseendet och känslan hos kriteriekort så att de blir mer intuitiva och användarvänliga. (TGT-30469)
-* Performance improvements in UI for faster loading of pages.
+* Prestandaförbättringar i användargränssnittet för snabbare inläsning av sidor.
 
-### Target Standard/Premium 18.8.1 (August 21, 2018) {#section_66A0030993D54565BE30E56AC9CAC1DA}
+### Target Standard/Premium 18.8.1 (21 augusti 2018) {#section_66A0030993D54565BE30E56AC9CAC1DA}
 
 Den här versionen innehåller följande funktioner och förbättringar:
 
 >[!NOTE]
 >
->The issue numbers in parentheses are for internal Adobe use.
+>Utgivningsnumren inom parentes är avsedda för Adobe.
 
 <table id="table_4785030753B24AA1A973E1DF790B83DD"> 
  <thead> 
@@ -970,13 +978,13 @@ Den här versionen innehåller följande funktioner och förbättringar:
      <ul id="ul_54652C5AE0984657BB9A0E46673CB2F1"> 
       <li id="li_0807959BA7D94114BE47A43D3454CAB4"> <p><b>Automatiska segment:</b> Se hur olika automatiserade segment som definieras av Target personaliseringsmodeller svarar på erbjudanden/upplevelser i din aktivitet. </p> </li> 
       <li id="li_48210B1E4EB24288B96CDECAF1CEE34A"> <p><b>Modellattributrankning:</b> Se de viktigaste attributen som påverkade Target personaliseringsmodeller och den relativa betydelsen av varje attribut. </p> </li> 
-     </ul> </p> <p> <p>Obs! Den här funktionen kommer snart att vara tillgänglig. Håll dig uppdaterad och få information om exakt när den här funktionen är klar att användas. </p> </p> <p>See <a href="/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports </a>. </p> </td> 
+     </ul> </p> <p> <p>Obs! Den här funktionen kommer snart att vara tillgänglig. Håll dig uppdaterad och få information om exakt när den här funktionen är klar att användas. </p> </p> <p>Se <a href="/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Insikter om personalisering - rapporter </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_406B95728467496CA6CC5892F88B69FE"> 
-      <li id="li_6D717868FB204A3A95832E709773B424"> <p>Du kan docka panelen Ändringar lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. </p> <p>See <a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a>. </p> </li> 
+      <li id="li_6D717868FB204A3A95832E709773B424"> <p>Du kan docka panelen Ändringar lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. </p> <p>Se <a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Ändringar </a>. </p> </li> 
       <li id="li_27750AFBCB3E4CB8B0B53592B2447E59"> <p>Vi har grupperat olika VEC-åtgärder för att göra ditt jobb snabbare och effektivare. (TGT-30472) </p> <p>Se <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Alternativ för Visual Experience Composer </a>. </p> </li> 
       <li id="li_27FEBEE245E64ADF9ADF561C6CBBDE8F"> <p>Du kan redigera erbjudanden effektivare tack vare ett större redigeringsfönster. (TGT-31052) </p> </li> 
      </ul> </p> </td> 
@@ -1691,12 +1699,12 @@ Mer information finns i [Aktivera blandat innehåll i webbläsaren](/help/c-expe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>September 27, 2017</b> </p> <p> <span class="filepath"> at.js </span> version 1.2.0 finns nu som en underhållsrelease som innehåller de flesta felkorrigeringar. For more information, see <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a>. </p> <p> 
+   <td colname="col2"> <p><b>27 september 2017</b> </p> <p> <span class="filepath"> at.js </span> version 1.2.0 finns nu som en underhållsrelease som innehåller de flesta felkorrigeringar. Mer information finns i <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Versionsinformation </a>. </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>Korrigerade ett problem som förhindrade standardåtgärder för specialfall för klickspårning. (TNT-28089) </p> </li> 
-      <li id="li_53806C902AA04B31B59AA87A1E707348"> <p>Fixed an issue when click-tracking on a link with <span class="codeph"> target="_blank" </span> that prevented Target from opening the link in a new tab. (TNT-28072) </p> </li> 
+      <li id="li_53806C902AA04B31B59AA87A1E707348"> <p>Ett problem när klickningsspårning på en länk med har korrigerats <span class="codeph"> target="_blank" </span> som gjorde att Target inte kunde öppna länken på en ny flik. (TNT-28072) </p> </li> 
       <li id="li_94F5794330D14C71BA07B3F17D0705FD"> <p> IP-adresser kan användas som cookie-domän. (TNT-28002) </p> </li> 
-      <li id="li_7D2A11B17672419583F9632CDA00D28F"> <p>Fixed an issue that caused flicker in redirect offers with a global mbox or other regional mboxes. (TNT-27978) </p> </li> 
+      <li id="li_7D2A11B17672419583F9632CDA00D28F"> <p>Korrigerade ett problem som orsakade flimmer i omdirigeringserbjudanden med en global mbox eller andra regionala mbox. (TNT-27978) </p> </li> 
       <li id="li_BA27A749A7A242478080F3D8E04148FC"> <p> Korrigerade ett problem i konfigurationen av Experience Targeting-aktivitet som misslyckades i VEC vid växling mellan Browse och Compose. (TNT-27942) </p> </li> 
       <li id="li_FA11ABA5B9CD435080426805C5359A51"> <p> Felaktig hantering av flimmerstilklasser för klickspårselement har korrigerats. (TNT-27896) </p> </li> 
       <li id="li_E2DFBAE52FCA4996BA083868CBFCCD10"> <p>Korrigerade ett problem som gjorde att globala mbox-parametrar blandades ihop med alla mbox-parametrar. (TNT-27846) </p> </li> 
@@ -2046,9 +2054,9 @@ Detta [!DNL Target] releasen innehåller följande förbättringar och korrigeri
    * I rapporter och aktiviteter finns det vissa alternativ ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], osv.) går nu att komma åt genom att klicka på [!UICONTROL More Options] ikon (  ![](assets/icon_more_options.png)
 
       ).
-   * In the [!UICONTROL Offers] library, offers now display in a list rather as cards. Andra mindre ändringar av användargränssnittet gjordes under hela [!UICONTROL Offers] biblioteksgränssnitt.
+   * I [!UICONTROL Offers] bibliotek, erbjudanden visas nu i en lista i stället för som kort. Andra mindre ändringar av användargränssnittet gjordes under hela [!UICONTROL Offers] biblioteksgränssnitt.
 
-* Significantly improved performance on the [!UICONTROL Activity] and [!UICONTROL Audience] lists. Inläsningstiderna för sökresultaten returneras också avsevärt snabbare.
+* Avsevärt förbättrade prestanda på [!UICONTROL Activity] och [!UICONTROL Audience] listor. Inläsningstiderna för sökresultaten returneras också avsevärt snabbare.
 * &quot;Vyer&quot; är nu &quot;Besök&quot; i [!UICONTROL Offer Level Report] for [!UICONTROL Automated Personalization] rapporter.
 * [!DNL Target] har nu stöd för växling av miljöer (värdgrupper) för [!UICONTROL Automated Personalization] verksamhet.
 * [!UICONTROL Automated Personalization] aktiviteter har nu stöd för värdgrupper.
@@ -2681,11 +2689,11 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1"> Förbättrad anpassad kod </td> 
-   <td colname="col2"> Custom code can now execute the JavaScript code in the <span class="codeph"> &lt;head&gt; </span> tag. Kodkörning väntar inte längre på <span class="codeph"> &lt;body&gt; </span> -tagg som ska finnas i DOM. Earlier, the selector was only the first element in the <span class="codeph"> &lt;body&gt; </span> tag. </td> 
+   <td colname="col2"> Anpassad kod kan nu köra JavaScript-koden i <span class="codeph"> &lt;head&gt; </span> -tagg. Kodkörning väntar inte längre på <span class="codeph"> &lt;body&gt; </span> -tagg som ska finnas i DOM. Tidigare var väljaren bara det första elementet i <span class="codeph"> &lt;body&gt; </span> -tagg. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> New Instructional Videos </td> 
-   <td colname="col2"> Instruktionsvideor har lagts till som hjälp. För närvarande kan du visa videofilmer om <a href="/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Visual Experience Composer och formulärbaserad Experience Composer </a>. More videos will be added in the coming weeks. </td> 
+   <td colname="col1"> Nya instruktionsvideor </td> 
+   <td colname="col2"> Instruktionsvideor har lagts till som hjälp. För närvarande kan du visa videofilmer om <a href="/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Visual Experience Composer och formulärbaserad Experience Composer </a>. Fler videor kommer att läggas till under de kommande veckorna. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2716,7 +2724,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>First Look: </p> <p>New Target implementation library, at.js </p> </td> 
-   <td colname="col2"> <p> <p>Note:  This "First Look" offering is available via API download. It will be available via the Target interface in an upcoming release. Under tiden kan du ladda ned biblioteket at.js, testa det i din miljö och driftsätta det i din implementering av produktionsmål. </p> </p> <p> at.js är ett nytt implementeringsbibliotek för Target som är utformat för både vanliga webbimplementeringar och ensidiga program. </p></p> <p>Bland annat har at.js förbättrat sidinläsningstiderna för webbimplementeringar, förbättrat säkerheten och erbjuder bättre implementeringsalternativ för enkelsidiga applikationer. </p> <p>at.js innehåller komponenterna som ingick i target.js, så det finns inte längre något anrop till target.js. </p> <p>Tänk på följande när du implementerar at.js: </p> <p> 
+   <td colname="col2"> <p> <p>Obs! Det här"First Look"-erbjudandet är tillgängligt via API-nedladdning. Den kommer att vara tillgänglig via Target-gränssnittet i en kommande version. Under tiden kan du ladda ned biblioteket at.js, testa det i din miljö och driftsätta det i din implementering av produktionsmål. </p> </p> <p> at.js är ett nytt implementeringsbibliotek för Target som är utformat för både vanliga webbimplementeringar och ensidiga program. </p></p> <p>Bland annat har at.js förbättrat sidinläsningstiderna för webbimplementeringar, förbättrat säkerheten och erbjuder bättre implementeringsalternativ för enkelsidiga applikationer. </p> <p>at.js innehåller komponenterna som ingick i target.js, så det finns inte längre något anrop till target.js. </p> <p>Tänk på följande när du implementerar at.js: </p> <p> 
      <ul id="ul_8C50C669AA7B4464A5FDECFCFD8662ED"> 
       <li id="li_6065B208480D46178055B40A2654E0C6">Omdirigeringar för Visual Experience Composer fungerar inte. </li> 
       <li id="li_A2FABD3C21994511A45DED84283E526E">Tidigare versioner än 8 av Internet Explorer stöds inte. </li> 
@@ -2795,10 +2803,10 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1"> Välj värdgrupper i rapporter </td> 
-   <td colname="col2"> <p>Värdgrupper är tillgängliga i rapporter. </p> <p> <p>Note:  This option is not available for Automated Personalization. </p> </p> </td> 
+   <td colname="col2"> <p>Värdgrupper är tillgängliga i rapporter. </p> <p> <p>Obs! Det här alternativet är inte tillgängligt för Automated Personalization. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Support for Internet Explorer 11 </td> 
+   <td colname="col1"> Stöd för Internet Explorer 11 </td> 
    <td colname="col2"> <p>Internet Explorer 11 stöds nu i Target-gränssnittet. </p> <p>Se <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Webbläsare som stöds </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -2989,7 +2997,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1"> Redigera text och HTML i Visual Experience Composer för MVT- och Automated Personalization-aktiviteter </td> 
-   <td colname="col2"> <p> Text- och HTML-formatering i ett ordprocessorliknande fönster när du redigerar Automated Personalization och Multivariate Test-aktiviteter. </p> <p> Den här funktionen var tidigare bara tillgänglig för A/B- och Experience Targeting-aktiviteter. </p> <p>De här åtgärderna ger möjlighet till textredigering genom att lägga till HTML-taggar eller använda format. De här ändringarna av RTF-redigeraren för alla åtgärder kan visas i källvyn. Användare kan trycka på HTML i textredigeraren för att se källvyn. The styles added by the rich-text editor can interfere with customer websites' styles. I det här fallet kan användarna gå till källvyn och redigera ändringarna för att justera dem efter webbplatsens format. </p> <p>Se <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Alternativ för Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p> Text- och HTML-formatering i ett ordprocessorliknande fönster när du redigerar Automated Personalization och Multivariate Test-aktiviteter. </p> <p> Den här funktionen var tidigare bara tillgänglig för A/B- och Experience Targeting-aktiviteter. </p> <p>De här åtgärderna ger möjlighet till textredigering genom att lägga till HTML-taggar eller använda format. De här ändringarna av RTF-redigeraren för alla åtgärder kan visas i källvyn. Användare kan trycka på HTML i textredigeraren för att se källvyn. De format som läggs till av RTF-redigeraren kan störa kundernas webbplatsformat. I det här fallet kan användarna gå till källvyn och redigera ändringarna för att justera dem efter webbplatsens format. </p> <p>Se <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Alternativ för Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Formulärbaserade rekommendationer </p> </td> 
@@ -3001,19 +3009,19 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>Konverteringsbaserad rapport </p> </td> 
-   <td colname="col2"> <p> If the optimization goal is a conversion metric, then the Offer Detail report now shows the impact of the top predictive variables in lift and incremental conversions. Den här rapporten var bara intäktsbaserad tidigare, så den här möjligheten säkerställer att aktiviteter utan intäktsdata fortfarande ger relevanta och åtgärdbara insikter. </p> <p>Se <a href="/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Reports </a>. </p> </td> 
+   <td colname="col2"> <p> Om optimeringsmålet är ett konverteringsmått visar rapporten Erbjudandedetalj nu effekten av de översta prediktiva variablerna i lyft och inkrementella konverteringar. Den här rapporten var bara intäktsbaserad tidigare, så den här möjligheten säkerställer att aktiviteter utan intäktsdata fortfarande ger relevanta och åtgärdbara insikter. </p> <p>Se <a href="/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Reports </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Adobe Campaign e-mail integration with Target Standard </td> 
+   <td colname="col1"> Adobe Campaign e-postintegrering med Target Standard </td> 
    <td colname="col2"> <p> Tidigare var det nödvändigt att använda Target Classic för att skapa en riktad e-postkampanj med Adobe Campaign. Med två nya funktioner i Target Standard (blankettbaserad aktivitet och omdirigeringserbjudanden) är det nu möjligt att använda Target Standard för att skapa en riktad e-postkampanj med Adobe Campaign.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Omdirigera erbjudanden när formulärbaserad aktivitet skapas </td> 
-   <td colname="col2"> <p> Support for the redirect offers functionality of Target Classic added in Target Standard form-based activity creation flow. </p> <p>Se <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Formulärbaserad Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p> Stöd för omdirigering innehåller funktioner i Target Classic som lagts till i det formulärbaserade aktivitetsflödet i Target Standard. </p> <p>Se <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Formulärbaserad Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Förbättring: Upplevelse-URL:er i aktiviteter använder inte längre cookie på webbplatsen </td> 
-   <td colname="col2"> <p> URL:er för förhandsgranskning som är tillgängliga per aktivitet är nu mer tillförlitliga. Easily copy the URLs and share with other team members, even if they don't use Adobe Target. </p> <p> <p>Obs! Uppdaterade URL:er för upplevelser fungerar endast för aktiviteter som skapats efter 30 juli 2015. Äldre aktiviteter fortsätter att använda den cookie-baserade förhandsvisningsfunktionen. </p> </p> </td> 
+   <td colname="col2"> <p> URL:er för förhandsgranskning som är tillgängliga per aktivitet är nu mer tillförlitliga. Kopiera enkelt webbadresserna och dela dem med andra teammedlemmar, även om de inte använder Adobe Target. </p> <p> <p>Obs! Uppdaterade URL:er för upplevelser fungerar endast för aktiviteter som skapats efter 30 juli 2015. Äldre aktiviteter fortsätter att använda den cookie-baserade förhandsvisningsfunktionen. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Rapportförbättring för Analytics som rapportkälla för Target </p> </td> 
@@ -3759,13 +3767,13 @@ Det finns fyra kända problem med den här versionen. Dessa problem kommer att �
 
 Den här versionen innehåller följande korrigeringar och förbättringar:
 
-* Fixed multiple issues that caused some activities and experiences to fail to sync properly with Target Advanced.
+* Flera problem har korrigerats som gjorde att vissa aktiviteter och upplevelser inte kunde synkroniseras korrekt med Target Advanced.
 * Ett problem där [!DNL target.js] flyttar bort andra skript från `<head>` del av en sida.
 
-* Fixed an issue that caused some referenced assets to copy when an activity is copied.
+* Korrigerade ett problem som gjorde att vissa refererade resurser kopierades när en aktivitet kopierades.
 * Korrigerade ett problem som medförde att en uppdaterad bild inte kunde uppdateras både i Scene7 och Target Advanced.
 * Ett problem har korrigerats där användningen av ett sökfilter rensar de målgrupper som valts i&quot;Publiker för rapportering&quot;.
-* Enhanced graphs to default to hourly results when a test has been live for less than two days.
+* Förbättrade diagram som standard ger timresultat när ett test har varit live i mindre än två dagar.
 * Korrigerade ett problem som orsakade att kopiering av en osynkroniserad aktivitet misslyckades.
 * Tangentbordsinmatningsfunktioner har lagts till för att visa de nedrullningsbara menyerna.
 * Förbättrade felmeddelandet som visas när ett erbjudande som används i en aktivitet tas bort.
