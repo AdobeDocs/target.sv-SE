@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
 workflow-type: tm+mt
-source-wordcount: '2779'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 20 oktober | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.10.4-utgåvan (21 oktober 2021). |
-|  | [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md#section_D37E48700F074556B925D0CA0291405E) | Kodfragmentet i avsnittet &quot;Startsida&quot; har uppdaterats. |
 |  | [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md) | Hela ämnet har uppdaterats. |
 | 19 oktober | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.10.3-utgåvan (19 oktober 2021). |
 | 14 oktober | [Aktivitetsinställningar - vanliga A4T-frågor](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Följande frågor och svar har lagts till: &quot;Kan jag använda en binomial [!DNL Analytics] mätvärden med ett segment tillämpat som optimeringsmål i ett [!UICONTROL Auto-Allocate] aktivitet?&quot; |
