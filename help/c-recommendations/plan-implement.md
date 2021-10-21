@@ -4,28 +4,26 @@ description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. 
 title: Hur genomför jag Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Planera och implementera Recommendations
+# ![PREMIUM](/help/assets/premium.png) Planera och implementera [!DNL Recommendations]
 
 Innan du konfigurerar [!DNL Recommendations] aktivitet i [!DNL Adobe Target]utför du följande steg:
 
-| Steg | Detaljer |
-|--- |--- |
-| ![Steg 1](/help/c-recommendations/assets/step1_red.png) | [Implementera [!DNL Adobe Target]](#implement-target) på de webbsidor och mobilappar som du vill använda för att fånga upp användarbeteenden och leverera rekommendationer. |
-| ![Steg 2](/help/c-recommendations/assets/step2_red.png) | [Konfigurera [!DNL Recommendations] katalog](#rec-catalog) av produkter eller innehåll som du vill rekommendera dina användare. |
-| ![Steg 3](/help/c-recommendations/assets/step3_red.png) | [Överför beteendeinformation och sammanhang](#pass-behavioral) till [!DNL Adobe Target Recommendations] för att kunna leverera personaliserade rekommendationer. |
-| ![Steg 4](/help/c-recommendations/assets/step4_red.png) | [Konfigurera globala undantag](#exclusions). |
-| ![Steg 5](/help/c-recommendations/assets/step5_red.png) | [Konfigurera [!DNL Recommendations] inställningar](#concept_C1E1E2351413468692D6C21145EF0B84). |
+1. [Implementera [!DNL Target]](#implement-target) på de webbsidor och mobilappar som du vill använda för att fånga upp användarbeteenden och leverera rekommendationer.
+1. [Konfigurera [!DNL Recommendations] katalog](#rec-catalog) av produkter eller innehåll som du vill rekommendera dina användare.
+1. [Överför beteendeinformation och sammanhang](#pass-behavioral) till [!DNL Target Recommendations] för att kunna leverera personaliserade rekommendationer.
+1. [Konfigurera globala undantag](#exclusions).
+1. [Konfigurera [!DNL Recommendations] inställningar](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## Implementera Adobe Target {#implement-target}
+## Implementera [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] kräver att du implementerar [!DNL Adobe Experience Platform Web SDK] eller at.js 0.9.2 (eller senare). Se [Implementera mål](/help/c-implementing-target/implementing-target.md) för mer information.
+[!DNL Target Recommendations] kräver att du implementerar [!DNL Adobe Experience Platform Web SDK] eller at.js 0.9.2 (eller senare). Se [Implementera [!DNL Target]](/help/c-implementing-target/implementing-target.md) för mer information.
 
 ## Konfigurera din Recommendations-katalog {#rec-catalog}
 
@@ -41,7 +39,7 @@ För att kunna leverera högkvalitativa rekommendationer [!DNL Target] måste k�
 | --- | --- | --- | --- |
 | Katalogfeed | Schemalägg en feed (CSV, Google Product XML eller [!DNL Analytics Product Classifications]) som ska överföras och förtäras dagligen. | Om du vill skicka information om flera objekt samtidigt. För att skicka information som ändras sällan. | Se [Feeds](/help/c-recommendations/c-products/feeds.md). |
 | Entiteter-API | Anropa ett API för att skicka uppdateringar som är aktuella för ett enskilt objekt. | För att skicka uppdateringar när de inträffar, ungefär ett objekt i taget. För att skicka information som ändras ofta (till exempel pris, lager/lagernivå). | Se [Dokumentation för utvecklare av entitets-API](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| Skicka uppdateringar på sidan | Skicka uppdateringarna till de allra senaste för ett enskilt objekt med JavaScript på sidan eller med hjälp av leverans-API:t. | För att skicka uppdateringar när de inträffar, ungefär ett objekt i taget. För att skicka information som ändras ofta (till exempel pris, lager/lagernivå). | Se Artikelvyer/produktsidor nedan. |
+| Skicka uppdateringar på sidan | Skicka uppdateringarna till de allra senaste för ett enskilt objekt med JavaScript på sidan eller med hjälp av leverans-API:t. | För att skicka uppdateringar när de inträffar, ungefär ett objekt i taget. För att skicka information som ändras ofta (till exempel pris, lager/lagernivå). | Se [Artikelvyer/produktsidor](#items-product-pages) nedan. |
 
 De flesta kunder bör implementera minst en feed. Du kan sedan välja att komplettera din feed med uppdateringar för ofta ändrade attribut eller objekt med hjälp av antingen Entity API eller on-the-page method.
 
@@ -49,7 +47,7 @@ De flesta kunder bör implementera minst en feed. Du kan sedan välja att komple
 
 Den beteendeinformation och det sammanhang som du bör skicka till [!DNL Target] beror på vad besökaren gör, vilket ofta är kopplat till den typ av sida som besökaren interagerar med.
 
-### Artikelvyer/produktsidor
+### Artikelvyer/produktsidor {#items-product-pages}
 
 På sidor där en besökare visar ett enstaka objekt, till exempel en produktinformationssida, bör du skicka identiteten för det objekt som besökaren visar. Du bör även skicka den mest detaljerade kategorin av objektet som besökaren visar, så att filterrekommendationer tillåts till den aktuella kategorin.
 
