@@ -4,7 +4,7 @@ description: Hitta förslag på hjälp med att åtgärda problem om sidan inte v
 title: Hur felsöker jag innehållsleverans?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Du kan kontrollera [!DNL Target] svar i webbläsaren eller med mboxTrace. Se [ht
 
 at.js utlöser inte Target-begäranden om du använder en ogiltig doctype. at.js kräver dokumenttypen HTML 5.
 
-## Se till att [!DNL Target] aktiviteter hanterar URL:er med frågesträngsparametrar korrekt {#query-strings}
+## Se till att [!DNL Target] aktiviteter hanterar URL:er med frågesträngsparametrar korrekt. {#query-strings}
 
 The [!UICONTROL Activity URL] bestämmer vilken sida som kvalificerar besökarna för aktiviteten och återger aktivitetsupplevelsen till användarna. När en uppmaning visas när en aktivitet skapas säkerställer inte alltid att innehållet levereras på den webbplatssidan, särskilt inte med URL:er som innehåller frågesträngsparametrar.
 
