@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
+source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 22 oktober | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Följande avsnitt har lagts till:<ul><li>Se till att [!DNL Target] aktiviteter hanterar URL:er med frågesträngsparametrar korrekt</li></ul> |
 | 21 oktober | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelser:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (10 november 2021)</li><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (8 december 2021)</li></ul> |
 | 20 oktober | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.10.4-utgåvan (21 oktober 2021). |
 |  | [Planera och implementera Recommendations](/help/c-recommendations/plan-implement.md) | Hela ämnet har uppdaterats. |
