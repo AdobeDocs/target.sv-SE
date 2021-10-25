@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Den här underhållsversionen innehåller följande förbättringar:
 
 | Funktion | Detaljer |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Stöd för webbkomponenter har lagts till. Personaliserade upplevelser och erbjudanden kan skapas och testas i anpassade element och på element i anpassade element. |
+| [!UICONTROL Visual Experience Composer] (VEC) | Stöd för [Webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personaliserade upplevelser och erbjudanden kan skapas och testas utifrån anpassade element och på element inuti anpassade element. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
 
