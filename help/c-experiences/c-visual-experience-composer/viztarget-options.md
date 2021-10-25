@@ -1,12 +1,12 @@
 ---
 keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelser;redigera text;redigera html;redigera text/html;redigera bakgrundsfärg;bakgrundsfärg;infoga element;redigera länk;länk för disposition;redigera CSS-klass;css-klass;swap offer swap;swap image;remove item remove;item remove;item remove;item hide;move element;move move;element move element;resize element;element resielement expandera markering;navigera till den här länken;navigera länk;navigera;navigera;länk;ångra;göra om;ångra/göra om;anpassade händelser;webbkomponenter
-description: Utforska de alternativ som finns i Adobe Target Visual Experience Composer (VEC). Simply click an element to see which options are available for that element.
+description: Utforska de alternativ som finns i Adobe Target Visual Experience Composer (VEC). Klicka bara på ett element för att se vilka alternativ som är tillgängliga för det elementet.
 title: Hur använder jag alternativen för Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 823694603c0248316e471f0b15070c0a34356620
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,11 @@ Använd [!UICONTROL Styles] om du vill visa eller redigera värdet för det mark
 
 Så här öppnar du [!UICONTROL Styles] klickar du på ett sidelement i VEC och sedan på **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
-The [!UICONTROL Styles] panel displays on the right side of the VEC. The panel contains a list of styles that lets you edit or add to the selected element. Med en CSS-redigerare i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.
+The [!UICONTROL Styles] visas till höger om VEC. Panelen innehåller en lista med format som du kan använda för att redigera eller lägga till i det markerade elementet. Med en CSS-redigerare i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.
 
 ![Panelen Format](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-As you apply different styles, you can always revert your changes by clicking the [!UICONTROL Revert] icon that displays at the top-right corner of the [!UICONTROL Styles] panel after you change any section. Klicka på [!UICONTROL Revert] ikonen återställer alla ändringar på panelen för det aktuella avsnittet.
+När du använder olika format kan du alltid återställa ändringarna genom att klicka på [!UICONTROL Revert] ikon som visas i det övre högra hörnet av [!UICONTROL Styles] när du har ändrat något avsnitt. Klicka på [!UICONTROL Revert] ikonen återställer alla ändringar på panelen för det aktuella avsnittet.
 
 Expandera varje avsnitt om du vill redigera eller lägga till format, vilket förklaras nedan. Om du vill spara ändringarna klickar du på bakåtikonen längst upp på panelen för att gå tillbaka till panelens huvudvisning och klickar sedan på **[!UICONTROL Save]**.
 
@@ -70,13 +70,13 @@ De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avs
 
 >[!NOTE]
 >
->Snabbåtgärder för layoutändringar, bakgrundsfärg, storleksändring och flyttning finns också tillgängliga som separata åtgärder på VEC-menyn. These options can be used as separate actions or you can use the Styles menu, as explained here.
+>Snabbåtgärder för layoutändringar, bakgrundsfärg, storleksändring och flyttning finns också tillgängliga som separata åtgärder på VEC-menyn. Dessa alternativ kan användas som separata åtgärder eller så kan du använda menyn Format, vilket förklaras här.
 
 * **[!UICONTROL Background]**
 
-   Change the background color and image.
+   Ändra bakgrundsfärg och bild.
 
-   * Color (specify the color code or use the color picker)
+   * Färg (ange färgkoden eller använd färgväljaren)
    * Bild (välj en bild i bildväljaren)
    * Bildkälla (ange en extern URL)
    * Bifogad fil
@@ -123,7 +123,7 @@ De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avs
 
    Utfyllnaden stöder breddskalor från 0 och framåt.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
+   Target har även stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), som rem, pc, em.
 
 * **[!UICONTROL Border]**
 
@@ -131,7 +131,7 @@ De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avs
 
    Du kan redigera följande format för varje kantlinje (överkant, höger, nederkant och vänster):
 
-   * [!UICONTROL Border style] (none, hidden, dotted, dashed, solid, or double)
+   * [!UICONTROL Border style] (ingen, dold, prickad, streckad, heldragen eller dubbel)
    * [!UICONTROL Border color] (ange färgkoden eller använd färgväljaren)
    * [!UICONTROL Border width] (dra reglaget för att välja en kantbredd eller ange bredden i pixlar)
 
@@ -210,7 +210,7 @@ Finns för [!UICONTROL A/B], [!UICONTROL Automated Personalization]och [!UICONTR
 
 #### [!UICONTROL Link]
 
-Change the URL in the link.
+Ändra URL-adressen i länken.
 
 Använd Redigera länk för att uppdatera väljaren så att den pekar på samma bildelement. Det går dock inte att länka till ett annat bildelement. Om du vill länka till ett annat bildelement tar du bort den ursprungliga åtgärden från kodredigeraren och använder kommandot [!UICONTROL Visual Experience Composer] om du vill använda åtgärden på det andra bildelementet.
 
@@ -260,7 +260,7 @@ Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Aut
 
 #### [!UICONTROL Experience Fragment]
 
-Infoga upplevelsefragment skapade i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering. For more information, see [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Infoga upplevelsefragment skapade i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### [!UICONTROL Replace With]
 
@@ -268,11 +268,11 @@ Följande alternativ är tillgängliga:
 
 #### [!UICONTROL Image]
 
-Select a different image from the Content Library. The images available for swapping include the images uploaded to the Experience Cloud assets folder or uploaded in the Content Library in Target.
+Välj en annan bild i innehållsbiblioteket. De bilder som är tillgängliga för växling omfattar de bilder som har överförts till resursmappen Experience Cloud eller som har överförts till innehållsbiblioteket i Target.
 
 När den inledande aktiviteten skapas är den URL som visas inte den URL som används för leverans. Vid aktivitetssynkronisering uppdateras den URL:en till en Scene7-produktionswebbadress.
 
-For example, the initial URL might look like the following example:
+Den inledande URL:en kan till exempel se ut som i följande exempel:
 
 `https://test.marketing.adobe.com/content/dam/mac/scholasticinc/Aug_MBM.jpeg?ch_ck=1470774943867`
 
@@ -348,7 +348,7 @@ Markera det överordnade elementet förutom det ursprungligen markerade elemente
 
 * Om ett erbjudande innehåller HTML finns mer information i&quot;How at.js renders offers with HTML content&quot; i [Hur at.js fungerar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) för mer information.
 
-## Stöd för anpassade element (kommer 26 oktober 2021) {#custom}
+## Stöd för anpassade element (kommer 28 oktober 2021) {#custom}
 
 VEC stöder [Webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_Components) så att ni kan skapa och testa personaliserade upplevelser och erbjudanden för anpassade element och element inuti anpassade element. Den här funktionen är tillgänglig i VEC för alla [!DNL Target] aktivitetstyper.
 
