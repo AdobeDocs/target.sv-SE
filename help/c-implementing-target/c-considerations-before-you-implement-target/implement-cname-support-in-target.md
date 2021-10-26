@@ -1,22 +1,22 @@
 ---
 keywords: klientvård;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicering;domain control validation;dcv
-description: Arbeta med Adobe Client Care för att implementera stöd för CNAME (Canonical Name) i Adobe [!DNL Target] för att hantera annonsblockerande problem.
+description: Arbeta med [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target] för att hantera annonsblockerande problem.
 title: Hur använder jag CNAME i Target?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: e51c7805939e8bf32d7f358036c9070931580187
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
 
-# CNAME och Target
+# CNAME och [!DNL Target]
 
 Instruktioner för att arbeta med [!DNL Adobe] Kundtjänst för att implementera stöd för CNAME (Canonical Name) i [!DNL Adobe Target]. Använd CNAME för att hantera annonsblockeringsproblem eller ITP-relaterade (Intelligent Tracking Prevention) cookie-principer. Med CNAME sker samtal till en domän som ägs av kunden i stället för till en domän som ägs av [!DNL Adobe].
 
-## Begär CNAME-stöd i Target
+## Begär CNAME-stöd i [!DNL Target]
 
 1. Bestäm listan med värdnamn som du behöver för ditt SSL-certifikat (se Vanliga frågor och svar nedan).
 
@@ -30,13 +30,13 @@ Instruktioner för att arbeta med [!DNL Adobe] Kundtjänst för att implementera
 
    >[!IMPORTANT]
    >
-   >AdobeCertificateAuthority, DigiCert, kan inte utfärda ett certifikat förrän det här steget har slutförts. Därför [!DNL Adobe] kan inte slutföra din begäran om en CNAME-implementering förrän det här steget är slutfört.
+   >[!DNL Adobe]Certifikatutfärdaren DigiCert kan inte utfärda ett certifikat förrän det här steget har slutförts. Därför [!DNL Adobe] kan inte slutföra din begäran om en CNAME-implementering förrän det här steget är slutfört.
 
-1. [Fyll i det här formuläret](/help/assets/FPC_Request_Form.xlsx) och inkludera det när du [öppna en Adobe Client Care-biljett som begär CNAME-stöd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Fyll i det här formuläret](/help/assets/FPC_Request_Form.xlsx) och inkludera det när du [öppna ett [!DNL Adobe] Kundtjänstbiljett som begär CNAME-support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe [!DNL Target] klientkod:
+   * [!DNL Adobe Target] klientkod:
    * Värdnamn för SSL-certifikat (exempel: `target.example.com target.example.org`):
-   * Inköpare av SSL-certifikat (Adobe rekommenderas starkt, se Vanliga frågor och svar): Adobe/kund
+   * Inköpare av SSL-certifikat ([!DNL Adobe] rekommenderas varmt (se Frågor och svar): Adobe/kund
    * Om kunden köper certifikatet, även kallat &quot;Bring Your Own Certificate&quot; (BYOC), fyll i dessa ytterligare uppgifter:
       * Certifikatorganisation (exempel: Exempel på Company Inc):
       * Organisationsenhet för certifikat (valfritt, exempel: Marknadsföring):
@@ -44,7 +44,7 @@ Instruktioner för att arbeta med [!DNL Adobe] Kundtjänst för att implementera
       * Certifikatstatus/region (exempel: Kalifornien):
       * Ort för certifikat (exempel: San Jose):
 
-1. If [!DNL Adobe] köper certifikatet, [!DNL Adobe] fungerar med DigiCert för att köpa och driftsätta ditt certifikat på Adobe produktionsservrar.
+1. If [!DNL Adobe] köper certifikatet, [!DNL Adobe] fungerar med DigiCert för att köpa och distribuera ditt certifikat på [!DNL Adobe]Produktionsservrar.
 
    Om kunden köper certifikatet (BYOC) [!DNL Adobe] Client Care skickar CSR-begäran (Certificate Signing Request). Använd CSR när du köper certifikatet via den valfria certifikatutfärdaren. När certifikatet har utfärdats skickar du en kopia av certifikatet och eventuella mellanliggande certifikat till [!DNL Adobe] Kundtjänst för driftsättning.
 
@@ -66,13 +66,13 @@ Du kan ange ett eget certifikat. Men [!DNL Adobe] rekommenderar inte den här me
 
 ### Hur länge till mitt nya SSL-certifikat upphör att gälla?
 
-Alla certifikat som köpts av Adobe gäller i ett år. Se [DigiCert&#39;s article on 1-year certificates](https://www.digicert.com/blog/position-on-1-year-certificates) för mer information.
+Alla [!DNL Adobe]-köpta certifikat gäller i ett år. Se [DigiCert&#39;s article on 1-year certificates](https://www.digicert.com/blog/position-on-1-year-certificates) för mer information.
 
 ### Vilka värdnamn ska jag välja? Hur många värdnamn per domän ska jag välja?
 
-[!DNL Target] CNAME-implementeringar kräver bara ett värdnamn per domän i SSL-certifikatet och i kundens DNS. Adobe rekommenderar ett värdnamn per domän. Vissa kunder kräver fler värdnamn per domän för sina egna syften (till exempel testning i mellanlagring), vilket stöds.
+[!DNL Target] CNAME-implementeringar kräver bara ett värdnamn per domän i SSL-certifikatet och i kundens DNS. [!DNL Adobe] rekommenderar ett värdnamn per domän. Vissa kunder kräver fler värdnamn per domän för sina egna syften (till exempel testning i mellanlagring), vilket stöds.
 
-De flesta kunder väljer ett värdnamn som `target.example.com`. Adobe rekommenderar att du följer den här metoden, men i slutändan är det ditt val. Begär inte ett värdnamn för en befintlig DNS-post. Om du gör det uppstår en konflikt och det tar längre tid att lösa dina [!DNL Target] CNAME-begäran.
+De flesta kunder väljer ett värdnamn som `target.example.com`. [!DNL Adobe] rekommenderar att du följer den här metoden, men valet är i slutändan ditt. Begär inte ett värdnamn för en befintlig DNS-post. Om du gör det uppstår en konflikt och det tar längre tid att lösa dina [!DNL Target] CNAME-begäran.
 
 ### Jag har redan en CNAME-implementering för [!DNL Adobe Analytics]kan jag använda samma certifikat eller värdnamn?
 
@@ -80,8 +80,7 @@ Nej, [!DNL Target] kräver ett separat värdnamn och certifikat.
 
 ### Är min nuvarande implementering av [!DNL Target] påverkas av ITP 2.x?
 
-Apple ITP (Intelligent Tracking Prevention) version 2.3 introducerade funktionen för hantering av CNAME-dolda filer, som kan identifiera Adobe Target CNAME-implementeringar och minska cookie-filens giltighetstid till sju dagar. För närvarande [!DNL Target] har ingen lösning för ITP:s hantering av CNAME-insvepning. Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
-
+Apple ITP (Intelligent Tracking Prevention) version 2.3 innehåller funktionen för hantering av CNAME-insvepning, som kan upptäcka [!DNL Adobe Target] CNAME-implementeringar och reducerar cookie-utgångsdatum till sju dagar. För närvarande [!DNL Target] har ingen lösning för ITP:s hantering av CNAME-insvepning. Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ### Vilken typ av tjänstavbrott kan jag förvänta mig när CNAME-implementeringen distribueras?
 
