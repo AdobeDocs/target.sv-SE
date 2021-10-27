@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2834'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 27 oktober | [Planera och implementera [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Ytterligare information om kundvagnsbaserade rekommendationer har lagts till. |
 | 26 oktober | [CNAME och [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Hela ämnet har uppdaterats. |
 | 25 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.10.5-utgåvan (28 oktober 2021). |
 | 22 oktober | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Följande avsnitt har lagts till:<ul><li>Se till att [!DNL Target] aktiviteter hanterar URL:er med frågesträngsparametrar korrekt</li></ul> |
