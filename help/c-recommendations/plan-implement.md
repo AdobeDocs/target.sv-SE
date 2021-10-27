@@ -4,9 +4,9 @@ description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. 
 title: Hur genomför jag Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
+source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,13 @@ Cart-baserad rekommendationslogik liknar den[!UICONTROL Recommended For You]anv�
 
 * **Inom en enda session**: Baserat på vad andra besökare gjorde under en och samma session.
 
-* **Över flera sessioner**: Baserat på vad andra besökare gjorde under flera sessioner. 
+   Om du tittar på beteenden under en session kan det verka klokt om du tycker att produkter &quot;passar ihop&quot; baserat på användning, tillfälle eller händelse. En besökare köper till exempel en skrivare och kan även behöva bläck och papper. Eller så köper besökaren jordnötssmör och behöver bröd och gelé.
+
+* **Över flera sessioner**: Baserat på vad andra besökare gjorde under flera sessioner.
+
+   Om du tittar på beteenden i flera sessioner kan det vara bra om det finns en känsla av att produkterna&quot;följer med&quot; varandra baserat på besökarens önskemål eller smak. En besökare gillar till exempel Star Wars och kan också gilla Indiana Jones, även om besökaren inte nödvändigtvis vill se båda filmerna på samma plats. Eller så tycker en besökare om styrelsemötet&quot;Codenames&quot; och kanske också om styrelsemötet&quot;Avalon&quot;, även om besökaren inte kan spela båda spelen samtidigt. 
 
 Oavsett om du tittar på besökarnas beteende under en eller flera sessioner, [!DNL Target] rekommenderar besökaren baserat på artiklarna i kundvagnen.
-
-Om du tittar på beteenden under en session kan det verka klokt om du tycker att produkter &quot;passar ihop&quot; baserat på användning, tillfälle eller händelse. En besökare köper till exempel en skrivare och kan även behöva bläck och papper. Eller så köper besökaren jordnötssmör och behöver bröd och gelé.
-
-Om du tittar på beteenden i flera sessioner kan det vara bra om det finns en känsla av att produkterna&quot;följer med&quot; varandra baserat på besökarens önskemål eller smak. En besökare gillar till exempel Star Wars och kan också gilla Indiana Jones, även om besökaren inte nödvändigtvis vill se båda filmerna på samma plats. Eller så tycker en besökare om styrelsemötet&quot;Codenames&quot; och kanske också om styrelsemötet&quot;Avalon&quot;, även om besökaren inte kan spela båda spelen samtidigt.
 
 ### Uteslut artiklar som redan finns i besökarens kundvagn
 
