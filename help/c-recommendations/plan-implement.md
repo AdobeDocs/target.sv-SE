@@ -4,7 +4,7 @@ description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. 
 title: Hur genomför jag Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
+source-git-commit: 2910fd1130030df79b96160b64e6bd1bdf295814
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -108,7 +108,7 @@ Cart-baserad rekommendationslogik liknar den[!UICONTROL Recommended For You]anv�
 
    Om du tittar på beteenden i flera sessioner kan det vara bra om det finns en känsla av att produkterna&quot;följer med&quot; varandra baserat på besökarens önskemål eller smak. En besökare gillar till exempel Star Wars och kan också gilla Indiana Jones, även om besökaren inte nödvändigtvis vill se båda filmerna på samma plats. Eller så tycker en besökare om styrelsemötet&quot;Codenames&quot; och kanske också om styrelsemötet&quot;Avalon&quot;, även om besökaren inte kan spela båda spelen samtidigt. 
 
-Oavsett om du tittar på besökarnas beteende under en eller flera sessioner, [!DNL Target] rekommenderar besökaren baserat på artiklarna i kundvagnen.
+Oavsett om du tittar på besökarnas beteende under en eller flera sessioner, [!DNL Target] ger rekommendationer för varje besökare baserat på artiklarna i den aktuella kundvagnen.
 
 ### Uteslut artiklar som redan finns i besökarens kundvagn
 
