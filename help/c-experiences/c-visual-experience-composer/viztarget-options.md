@@ -4,9 +4,9 @@ description: Utforska de alternativ som finns i Adobe Target Visual Experience C
 title: Hur använder jag alternativen för Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2474'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,7 @@ Markera det överordnade elementet förutom det ursprungligen markerade elemente
 
 * Om ett erbjudande innehåller HTML finns mer information i&quot;How at.js renders offers with HTML content&quot; i [Hur at.js fungerar](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) för mer information.
 
-## Stöd för anpassade element (kommer 28 oktober 2021) {#custom}
+## Stöd för anpassade element {#custom}
 
 VEC stöder [Webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_Components) så att ni kan skapa och testa personaliserade upplevelser och erbjudanden för anpassade element och element inuti anpassade element. Den här funktionen är tillgänglig i VEC för alla [!DNL Target] aktivitetstyper.
 
