@@ -4,9 +4,9 @@ description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Re
 title: Hur skapar jag kriterier i Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
-source-wordcount: '2644'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,6 @@ Följande steg förutsätter att du har åtkomst till [!UICONTROL Create New Cri
    | [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Senast visade objekt</li><li>Rekommenderas för dig</li></ul> |
 
    |[!UICONTROL Custom Criteria]|Utför rekommendationer baserat på en anpassad fil som du överför.|<ul><li>Anpassad algoritm</li></ul>|
-
 
    >[!NOTE]
    >
