@@ -1,23 +1,24 @@
 ---
 keywords: rekommendationsnyckel;rekommendationslogik;aktuell kategori;anpassat attribut;senast inköpt objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;favoritkategori;popularitet;senast visade objekt;senast visade;senast visade;senast visade;favoriter;senast visade
-description: Lär dig hur du använder rekommendationer baserade på nycklar som använder besökarbeteendekontext för att visa relevanta resultat i Recommendations-aktiviteter i Adobe [!DNL Target] .
+description: Lär dig hur du använder rekommendationer baserade på nycklar som använder besökarbeteendekontext för att visa relevanta resultat i Adobe [!DNL Target] Recommendations verksamhet.
 title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2996'
+source-wordcount: '3679'
 ht-degree: 0%
 
 ---
 
 # Basera rekommendationen på en rekommendationsnyckel
 
-Recommendations baserat på algoritmer använder besökarbeteendekontext för att visa relevanta resultat i [!DNL Adobe Target] [!DNL Recommendations]-aktiviteter.
+Recommendations baserat på algoritmer använder besökarbeteendekontext för att visa relevanta resultat i [!DNL Adobe Target] [!DNL Recommendations] verksamhet.
 
-Det finns fyra algoritmtyper i [!DNL Target Recommendations]:
+Det finns fem algoritmtyper i [!DNL Target Recommendations]:
 
+* [!UICONTROL Cart-Based]
 * [!UICONTROL Popularity-Based]
 * [!UICONTROL Item-Based]
 * [!UICONTROL User-Based]
@@ -27,14 +28,14 @@ Varje algoritmtyp innehåller olika algoritmer som passar dess typ, vilket visas
 
 >[!NOTE]
 >
->Typen [!UICONTROL Cart-Based] beskrivs i tabellen nedan och kommer snart.
+>The [!UICONTROL Cart-Based] type beskrivs i tabellen nedan och kommer snart.
 
 | Algoritmtyp | När ska användas | Tillgängliga algoritmer |
 | --- | --- | --- |
+| [!UICONTROL Cart-Based] | (Kommer snart) Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
 | [!UICONTROL Popularity-Based] | Utför rekommendationer baserat på hur populärt ett objekt på webbplatsen är eller utifrån hur populärt det är att ha objekt inom en användares favoritkategori, varumärke, genre osv. | <ul><li>Visas bäst på webbplatsen</li><li>Mest visade per kategori</li><li>Mest visad av objektattribut</li><li>De största säljarna på webbplatsen</li><li>De viktigaste säljarna per kategori</li><li>De viktigaste säljarna efter artikelattribut</li><li>Top by Analytics Metric</li></ul> |
 | [!UICONTROL Item-Based] | Rekommendationer baserade på sökning efter liknande objekt för ett objekt som användaren för närvarande visar eller nyligen har visat. | <ul><li>Folk som tittade på det här, såg det</li><li>Folk som såg det här, köpte det</li><li>Folk som köpte den här, köpte den där</li><li>Objekt med liknande attribut</li></ul> |
 | [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Senast visade objekt</li><li>Rekommenderas för dig</li></ul> |
-| Cart-baserad | (Kommer snart) Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
 | [!UICONTROL Custom Criteria] | Utför rekommendationer baserat på en anpassad fil som du överför. | <ul><li>Anpassad algoritm</li></ul> |
 
 Varje villkor definieras på en egen flik. Trafiken fördelas jämnt mellan olika kriterietester. Med andra ord, om du har två kriterier, delas trafiken lika mellan dem. Om du har två kriterier och två designer, delas trafiken jämnt mellan de fyra kombinationerna. Du kan också ange en procentandel besökare som ser standardinnehållet för jämförelse. I så fall ser den angivna procentandelen besökare standardinnehållet och resten delas mellan dina kriterier och designkombinationer.
@@ -43,11 +44,78 @@ Mer information om hur du skapar villkor och definierar dess algoritmtyper och a
 
 Olika rekommendationsalgoritmer passar in på olika typer av sidor. Mer information om varje algoritmtyp och dess tillgängliga algoritmer finns i följande avsnitt.
 
+## Cart-baserad {#cart-based}
+
+The [!UICONTROL Cart-Based] Med algoritmtyp kan du rekommendera objekt baserat på innehållet i besökarens aktuella kundvagn.
+
+Cart-baserad rekommendationslogik liknar den[!UICONTROL Recommended For You]användarbaserad algoritm och till[!UICONTROL People Who Viewed These, Bought Those]&quot; och &quot;[!UICONTROL People Who Bought These, Bought Those]objektbaserade algoritmer.
+
+[!DNL Target] använder tekniker för samverkansfiltrering för att fastställa likheter för varje objekt i besökarens kundvagn, och kombinerar sedan dessa beteendelikheter för varje objekt för att få en sammanfogad lista.
+
+[!DNL Target] ger även marknadsförarna möjlighet att se besökarnas beteende i en eller flera sessioner:
+
+* **Inom en enda session**: Baserat på vad andra besökare gjorde under en och samma session.
+
+   Om du tittar på beteenden under en session kan det verka klokt om du tycker att produkter &quot;passar ihop&quot; baserat på användning, tillfälle eller händelse. En besökare köper till exempel en skrivare och kan även behöva bläck och papper. Eller så köper besökaren jordnötssmör och behöver bröd och gelé.
+
+* **Över flera sessioner**: Baserat på vad andra besökare gjorde under flera sessioner.
+
+   Om du tittar på beteenden i flera sessioner kan det vara bra om det finns en känsla av att produkterna&quot;följer med&quot; varandra baserat på besökarens önskemål eller smak. En besökare gillar till exempel Star Wars och kan också gilla Indiana Jones, även om besökaren inte nödvändigtvis vill se båda filmerna på samma plats. Eller så tycker en besökare om styrelsemötet&quot;Codenames&quot; och kanske också om styrelsemötet&quot;Avalon&quot;, även om besökaren inte kan spela båda spelen samtidigt. 
+
+[!DNL Target] ger rekommendationer för varje besökare baserat på artiklarna i den aktuella kundvagnen, oavsett om du tittar på besökarnas beteende under en eller flera sessioner.
+
+Följande algoritmer är tillgängliga med [!UICONTROL Cart-Based] algoritmtyp:
+
+### [!UICONTROL People Who Viewed This, Viewed Those]
+
+Rekommenderar objekt som oftast visas i samma session som det angivna objektet visas.
+
+Den här logiken returnerar andra produkter som visas när du har tittat på den här. den angivna produkten ingår inte i resultatuppsättningen.
+
+Med den här logiken kan du skapa ytterligare konverteringsmöjligheter genom att rekommendera objekt som andra besökare som tittade på ett objekt också kan se. Besökare som tittar på cyklar på er webbplats kan till exempel också titta på cykelhjälmar, cykelkit, lås osv. Du kan skapa en rekommendation med hjälp av den här logiken som föreslår att andra produkter hjälper dig att öka intäkterna.
+
+Om du väljer den här algoritmen kan du välja följande Recommendations-nycklar:
+
+* Aktuellt objekt
+* Senast köpta artikel
+* Senast visade objekt
+* Mest visade objekt
+
+### Folk som såg det här, köpte de där
+
+Rekommenderar artiklar som oftast köps i samma session som det angivna objektet visas. Detta villkor returnerar andra produkter som köpts efter att ha tittat på den här produkten. Den angivna produkten ingår inte i resultatmängden.
+
+Den här logiken returnerar andra produkter som köpts efter att ha tittat på den här. den angivna produkten ingår inte i resultatuppsättningen.
+
+Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en produktsida, som till exempel visar objekt som andra besökare som visade det köpta objektet. Om besökaren till exempel tittar på en fiskepunkt kan rekommendationen visa ytterligare saker som andra besökare har köpt, som t.ex. kryssrutor för taggar, skölder och fiskekurser. När besökarna besöker er webbplats kan ni ge dem ytterligare inköpsrekommendationer.
+
+Om du väljer den här algoritmen kan du välja följande Recommendations-nycklar:
+
+* Aktuellt objekt
+* Senast köpta artikel
+* Senast visade objekt
+* Mest visade objekt
+
+### Folk som köpte det här, köpte det där
+
+Rekommenderar artiklar som oftast köps av kunder samtidigt som det angivna objektet.
+
+Den här logiken returnerar andra produkter som köpts efter att ha köpt den här. den angivna produkten ingår inte i resultatuppsättningen.
+
+Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en kundvagnssammanfattning, som t.ex. visar artiklar som andra köpare också har köpt. Om besökaren till exempel köper en kostym kan rekommendationen visa ytterligare objekt som andra besökare har köpt tillsammans med kostymen, som slipsar, klädskor och kufflänkar. När besökarna granskar sina inköp ger ni dem ytterligare rekommendationer.
+
+Om du väljer den här algoritmen kan du välja följande Recommendations-nycklar:
+
+* Aktuellt objekt
+* Senast köpta artikel
+* Senast visade objekt
+* Mest visade objekt
+
 ## [!UICONTROL Popularity-Based]
 
-Med algoritmtypen [!UICONTROL Popularity-Based] kan du göra rekommendationer baserat på den övergripande populariteten hos ett objekt på webbplatsen eller baserat på populariteten hos objekt i en användares favoritkategori eller mest visade kategori, märke, genre o.s.v.
+The [!UICONTROL Popularity-Based] Med algoritmtyp kan du göra rekommendationer baserat på den övergripande populariteten hos ett objekt på webbplatsen eller baserat på populariteten hos objekt i en användares favoritkategori eller mest visade kategori, varumärke, genre o.s.v.
 
-Följande algoritmer är tillgängliga med algoritmtypen [!UICONTROL Popularity-Based]:
+Följande algoritmer är tillgängliga med [!UICONTROL Popularity-Based] algoritmtyp:
 
 ### Visas bäst på webbplatsen {#most-viewed}
 
@@ -112,9 +180,9 @@ Om du väljer algoritmen Mest visade av kategori kan du välja följande Recomme
 
 ## [!UICONTROL Item-Based]
 
-Med rekommendationstypen [!UICONTROL Item-Based] kan du göra rekommendationer baserat på om du vill hitta liknande objekt som ett objekt som användaren visar eller nyligen har visat.
+The [!UICONTROL Item-Based] rekommendationstyp gör att du kan göra rekommendationer baserat på att hitta liknande objekt som ett objekt som användaren för tillfället visar eller nyligen har visat.
 
-Följande algoritmer är tillgängliga med algoritmtypen [!UICONTROL Item-Based]:
+Följande algoritmer är tillgängliga med [!UICONTROL Item-Based] algoritmtyp:
 
 ### Folk som tittade på det här, såg det {#viewed-viewed}
 
@@ -176,28 +244,28 @@ Om du väljer den här algoritmen kan du välja följande Recommendations-nyckla
 * Senast visade objekt
 * Mest visade objekt
 
-Mer information finns i [Likhet för innehåll](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Mer information finns i [Liknande innehåll](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 ## [!UICONTROL User-Based]
 
 Med den användarbaserade algoritmtypen kan du göra rekommendationer baserat på användarens beteende.
 
-Följande algoritmer är tillgängliga med algoritmtypen [!UICONTROL User-Based]:
+Följande algoritmer är tillgängliga med [!UICONTROL User-Based] algoritmtyp:
 
 ### Senast visade objekt {#recently-viewed}
 
-Använder besökarens historik (som omfattar sessioner) för att presentera de sista *x* objekten som besökaren har visat, baserat på antalet platser i designen.
+Använder besökarens historik (spridningssessioner) för att presentera den senaste *x* objekt som besökaren har visat, baserat på antalet platser i designen.
 
-Algoritmen Senast visade objekt returnerar ett resultat som är specifikt för en given [miljö](/help/administrating-target/hosts.md). Om två platser tillhör olika miljöer och en besökare växlar mellan de två platserna, visar varje plats endast nyligen visade objekt från rätt plats. Om två platser finns i samma miljö och en besökare växlar mellan de två platserna, ser besökaren samma nyligen visade objekt för båda platserna.
+Algoritmen Senast visade objekt returnerar ett resultat som är specifikt för en viss [miljö](/help/administrating-target/hosts.md). Om två platser tillhör olika miljöer och en besökare växlar mellan de två platserna, visar varje plats endast nyligen visade objekt från rätt plats. Om två platser finns i samma miljö och en besökare växlar mellan de två platserna, ser besökaren samma nyligen visade objekt för båda platserna.
 
 >[!NOTE]
 >
->Du kan inte använda [!UICONTROL Recently Viewed Items]-kriterierna för rekommendationer för säkerhetskopiering.
+>Du kan inte använda [!UICONTROL Recently Viewed Items] villkor för rekommendationer för säkerhetskopiering.
 
 [!UICONTROL Recently Viewed Items]/Media kan filtreras så att endast objekt med ett visst attribut visas.
 
 * Senast visade villkor kan konfigureras, precis som andra villkor i rekommendationerna.
-* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [undantag](/help/c-recommendations/c-products/exclusions.md) och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive specialreglerna för Pris och Lager) på samma sätt som andra villkor.
+* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [undantag](/help/c-recommendations/c-products/exclusions.md)och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra kriterier.
 
 Möjliga användningsfall kan vara att ett flernationellt företag med flera företag kan ha besökarvyobjekt över flera digitala resurser. I det här fallet kan du begränsa antalet senast visade objekt så att de bara visas för respektive egenskap som de visades i. Detta förhindrar att nyligen visade objekt visas på en annan digital egenskaps webbplats.
 
@@ -205,7 +273,7 @@ Använd den här algoritmen på allmänna sidor, som startsidor, landningssidor 
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] respekterar både globala inställningar för undantag och den valda samlingsinställningen för aktiviteten. Om ett objekt utesluts av ett globalt undantag, eller inte ingår i den valda samlingen, visas det inte. När du använder ett [!UICONTROL Recently Viewed Items]-villkor bör därför inställningen &quot;Alla samlingar&quot; i allmänhet användas.
+>[!UICONTROL Recently Viewed Items] respekterar både globala inställningar för undantag och den valda samlingsinställningen för aktiviteten. Om ett objekt utesluts av ett globalt undantag, eller inte ingår i den valda samlingen, visas det inte. När du använder en [!UICONTROL Recently Viewed Items] bör inställningen &quot;Alla samlingar&quot; användas.
 
 ### Rekommenderas för dig {#recommended-for-you}
 
@@ -231,20 +299,20 @@ Om du väljer den här algoritmen kan du välja följande filtreringsnycklar:
 
 Med algoritmtypen Egna kriterier kan du ge rekommendationer baserat på en anpassad fil som du överför.
 
-Rekommendationen bestäms av ett objekt som lagras i en besökarprofil, med hjälp av någon av användarna.** xor-profil.** xattributes.
+Rekommendationen bestäms av ett objekt som lagras i en besökarprofil, med hjälp av någon av användarna.*x* eller profil.*x* attribut.
 
-När det här alternativet är markerat måste `entity.id`-värdet finnas i profilattributet.
+När det här alternativet är markerat visas `entity.id` värdet måste finnas i profilattributet.
 
 När du baserar rekommendationer på anpassade attribut måste du välja det anpassade attributet och sedan välja rekommendationstypen.
 
 Du kan filtrera i realtid ovanpå dina egna villkor. Du kan t.ex. begränsa dina rekommenderade objekt till endast de som finns i en besökares favoritkategori eller varumärke. Detta ger dig möjlighet att kombinera offlineberäkningar med realtidsfiltrering.
 
-Den här funktionen innebär att du kan använda [!DNL Target] för att lägga till personalisering ovanpå dina offlineberäknade rekommendationer eller anpassade kuraterade listor. Detta kombinerar styrkan hos era datavetare och er forskning med Adobe provad och sann leverans, filtrering vid körning, A/B-testning, målgruppsanpassning, rapportering, integreringar med mera.
+Den här funktionen innebär att du kan använda [!DNL Target] om du vill lägga till personalisering ovanpå dina offlineberäknade rekommendationer eller anpassade kuraterade listor. Detta kombinerar styrkan hos era datavetare och er forskning med Adobe provad och sann leverans, filtrering vid körning, A/B-testning, målgruppsanpassning, rapportering, integreringar med mera.
 
 Med tillägg av inkluderingsregler på anpassade kriterier förvandlas annars statiska rekommendationer till dynamiska rekommendationer baserade på besökarens intressen.
 
 * Anpassade villkor kan konfigureras, precis som andra villkor i rekommendationer.
-* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [undantag](/help/c-recommendations/c-products/exclusions.md) och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive specialreglerna för Pris och Lager) på samma sätt som andra villkor.
+* Du kan använda [samlingar](/help/c-recommendations/c-products/collections.md), [undantag](/help/c-recommendations/c-products/exclusions.md)och [inkluderingar](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (inklusive de särskilda reglerna för Pris och Lager) på samma sätt som andra kriterier.
 
 Möjliga användningsområden:
 
@@ -254,7 +322,7 @@ Möjliga användningsområden:
 
 ## Rekommendationsnycklar
 
-Följande rekommendationsnycklar är tillgängliga i listrutan [!UICONTROL Recommendation Key]:
+Följande rekommendationsnycklar är tillgängliga från [!UICONTROL Recommendation Key] nedrullningsbar lista:
 
 ### Aktuellt objekt {#current-item}
 
@@ -262,7 +330,7 @@ Rekommendationen avgörs av det objekt som besökaren för närvarande visar.
 
 Recommendations visar andra objekt som kan intressera besökare som är intresserade av det angivna objektet.
 
-När det här alternativet är markerat måste `entity.id`-värdet skickas som en parameter i visningsrutan.
+När det här alternativet är markerat visas `entity.id` värdet måste skickas som en parameter i visningsrutan.
 
 Kan användas med följande algoritmer:
 
@@ -271,7 +339,7 @@ Kan användas med följande algoritmer:
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-Använd [!UICONTROL Current Item]-rekommendationsnyckeln på din webbplats:
+Använd [!UICONTROL Current Item] rekommendationsnyckel på din webbplats:
 
 * Sidor med en artikel, t.ex. produktsidor.
 * Använd INTE på null-sökresultatsidor.
@@ -287,7 +355,7 @@ Kan användas med följande algoritmer:
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-Använd [!UICONTROL Last Purchased Item]-rekommendationsnyckeln på din webbplats:
+Använd [!UICONTROL Last Purchased Item] rekommendationsnyckel på din webbplats:
 
 * Startsida, Min kontosida, annonser på annan plats.
 * Använd INTE på produktsidor eller sidor som är relevanta för inköp.
@@ -296,18 +364,18 @@ Använd [!UICONTROL Last Purchased Item]-rekommendationsnyckeln på din webbplat
 
 Du kan basera rekommendationer på värdet för ett anpassat profilattribut. Anta till exempel att du vill visa rekommenderade filmer baserat på den film som en besökare senast lade till i sin kö.
 
-1. Välj ditt anpassade profilattribut i listrutan **[!UICONTROL Recommendation Key]** (t.ex. &quot;Senast visade tillagd i bevakningslista&quot;).
-1. Välj sedan din **[!UICONTROL Recommendation Logic]** (till exempel&quot;Personer som har tittat på det här, har sett det&quot;).
+1. Välj det anpassade profilattributet på menyn **[!UICONTROL Recommendation Key]** nedrullningsbar lista (t.ex. &quot;Senast visade tillagd i bevakningslista&quot;).
+1. Välj sedan **[!UICONTROL Recommendation Logic]** (t.ex.&quot;Personer som såg det här&quot;).
 
    ![Dialogrutan Skapa nytt villkor](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara för [!DNL Recommendations] hur du vill att matchningen till en entitet ska ske. Anta till exempel att du vill visa de främsta säljartiklarna från en besökares favoritvarumärke.
+Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste du förklara [!DNL Recommendations] hur du vill att matchningen av en enhet ska ske. Anta till exempel att du vill visa de främsta säljartiklarna från en besökares favoritvarumärke.
 
-1. Välj ditt anpassade profilattribut i listrutan **[!UICONTROL Recommendation Key]** (till exempel &quot;Favorit Brand&quot;).
+1. Välj det anpassade profilattributet på menyn **[!UICONTROL Recommendation Key]** nedrullningsbar lista (t.ex. &quot;Favoritmärke&quot;).
 
-1. Välj sedan den **[!UICONTROL Recommendation Logic]** som du vill använda med den här nyckeln (till exempel&quot;Top Sellers&quot;).
+1. Välj sedan **[!UICONTROL Recommendation Logic]** som du vill använda med den här nyckeln (till exempel&quot;Top Sellers&quot;).
 
-   Alternativet [!UICONTROL Group By Unique Value Of] visas.
+   The [!UICONTROL Group By Unique Value Of] visas.
 
 1. Välj det entitetsattribut som matchar nyckeln som du har valt. I det här fallet matchar&quot;Favoritmärke&quot; `entity.brand`.
 
@@ -326,7 +394,7 @@ Kan användas med följande algoritmer:
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-Använd [!UICONTROL Last Viewed Item]-rekommendationsnyckeln på din webbplats:
+Använd [!UICONTROL Last Viewed Item] rekommendationsnyckel på din webbplats:
 
 * Startsida, Min kontosida, annonser på annan plats.
 * Använd INTE på produktsidor eller sidor som är relevanta för inköp.
@@ -350,14 +418,14 @@ Rekommendationen avgörs av den produktkategori som besökaren för närvarande 
 
 Recommendations visar objekt i den angivna produktkategorin.
 
-När det här alternativet är markerat måste `entity.categoryId`-värdet skickas som en parameter till visningsrutan.
+När det här alternativet är markerat visas `entity.categoryId` värdet måste skickas som en parameter till visningsrutan.
 
 Den här rekommendationsnyckeln kan användas med följande algoritmer:
 
 * De viktigaste säljarna
 * Mest visade
 
-Använd [!UICONTROL Current Category]-rekommendationsnyckeln på din webbplats:
+Använd [!UICONTROL Current Category] rekommendationsnyckel på din webbplats:
 
 * Sidor i en kategori.
 * Använd INTE på null-sökresultatsidor.
@@ -368,14 +436,14 @@ Rekommendationen avgörs av besökarens favoritproduktkategori.
 
 Recommendations visar objekt i den angivna produktkategorin.
 
-När det här alternativet är markerat måste `entity.categoryId`-värdet skickas som en parameter till visningsrutan.
+När det här alternativet är markerat visas `entity.categoryId` värdet måste skickas som en parameter till visningsrutan.
 
 Den här rekommendationsnyckeln kan användas med följande algoritmer:
 
 * De viktigaste säljarna
 * Mest visade
 
-Använd [!UICONTROL Current Category]-rekommendationsnyckeln på din webbplats:
+Använd [!UICONTROL Current Category] rekommendationsnyckel på din webbplats:
 
 * Sidor i en kategori.
 * Använd INTE på null-sökresultatsidor.

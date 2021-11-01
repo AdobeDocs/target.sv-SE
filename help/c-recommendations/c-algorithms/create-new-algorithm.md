@@ -4,9 +4,9 @@ description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Re
 title: Hur skapar jag kriterier i Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,12 @@ Följande steg förutsätter att du har åtkomst till [!UICONTROL Create New Cri
 
    | Algoritmtyp | När ska användas | Tillgängliga algoritmer |
    | --- | --- | --- |
+   | [!UICONTROL Cart-Based] | Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul>Mer information finns i [Cart-baserad](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Basera rekommendationen på en rekommendationsnyckel*. |
    | [!UICONTROL Popularity-Based] | Utför rekommendationer baserat på hur populärt ett objekt på webbplatsen är eller utifrån hur populärt det är att ha objekt inom en användares favoritkategori, varumärke, genre osv. | <ul><li>Visas bäst på webbplatsen</li><li>Mest visade per kategori</li><li>Mest visad av objektattribut</li><li>De största säljarna på webbplatsen</li><li>De viktigaste säljarna per kategori</li><li>De viktigaste säljarna efter artikelattribut</li><li>Top by Analytics Metric</li></ul> |
    | [!UICONTROL Item-Based] | Rekommendationer baserade på sökning efter liknande objekt för ett objekt som användaren för närvarande visar eller nyligen har visat. | <ul><li>Folk som tittade på det här, såg det</li><li>Folk som såg det här, köpte det</li><li>Folk som köpte den här, köpte den där</li><li>Objekt med liknande attribut</li></ul> |
    | [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Senast visade objekt</li><li>Rekommenderas för dig</li></ul> |
-   | Cart-baserad | Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
-   | [!UICONTROL Custom Criteria] | Utför rekommendationer baserat på en anpassad fil som du överför. | <ul><li>Anpassad algoritm</li></ul> |
+
+   |[!UICONTROL Custom Criteria]|Utför rekommendationer baserat på en anpassad fil som du överför.|<ul><li>Anpassad algoritm</li></ul>|
 
 
    >[!NOTE]

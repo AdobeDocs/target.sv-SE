@@ -4,9 +4,9 @@ description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. 
 title: Hur genomför jag Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-Cart-baserad rekommendationslogik liknar den[!UICONTROL Recommended For You]användarbaserad algoritm och till[!UICONTROL People Who Viewed These, Bought Those]&quot; och &quot;[!UICONTROL People Who Bought These, Bought Those]objektbaserade algoritmer.
-
-[!DNL Target] använder tekniker för samverkansfiltrering för att fastställa likheter för varje objekt i besökarens kundvagn, och kombinerar sedan dessa beteendelikheter för varje objekt för att få en sammanfogad lista.
-
-[!DNL Target] ger även marknadsförarna möjlighet att se besökarnas beteende i en eller flera sessioner:
-
-* **Inom en enda session**: Baserat på vad andra besökare gjorde under en och samma session.
-
-   Om du tittar på beteenden under en session kan det verka klokt om du tycker att produkter &quot;passar ihop&quot; baserat på användning, tillfälle eller händelse. En besökare köper till exempel en skrivare och kan även behöva bläck och papper. Eller så köper besökaren jordnötssmör och behöver bröd och gelé.
-
-* **Över flera sessioner**: Baserat på vad andra besökare gjorde under flera sessioner.
-
-   Om du tittar på beteenden i flera sessioner kan det vara bra om det finns en känsla av att produkterna&quot;följer med&quot; varandra baserat på besökarens önskemål eller smak. En besökare gillar till exempel Star Wars och kan också gilla Indiana Jones, även om besökaren inte nödvändigtvis vill se båda filmerna på samma plats. Eller så tycker en besökare om styrelsemötet&quot;Codenames&quot; och kanske också om styrelsemötet&quot;Avalon&quot;, även om besökaren inte kan spela båda spelen samtidigt. 
-
-[!DNL Target] ger rekommendationer för varje besökare baserat på artiklarna i den aktuella kundvagnen, oavsett om du tittar på besökarnas beteende under en eller flera sessioner.
+Mer information om [!UICONTROL Cart-Based] rekommendationer, se [Cart-baserad](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Basera rekommendationen på en rekommendationsnyckel*.
 
 ### Uteslut artiklar som redan finns i besökarens kundvagn
 

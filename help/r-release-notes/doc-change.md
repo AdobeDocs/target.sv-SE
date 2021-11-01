@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2868'
+source-wordcount: '2871'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | 28 oktober | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Informationen om följande versioner har lagts till:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5</li></ul> |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.7.0. |
 |  | [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Följande avsnitt har lagts till: &quot;Stöd för anpassade element.&quot; |
-| 27 oktober | [Planera och implementera [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Ytterligare information om kundvagnsbaserade rekommendationer har lagts till. |
+| 27 oktober | [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Ytterligare information om kundvagnsbaserade rekommendationer. |
 | 26 oktober | [CNAME och [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Hela ämnet har uppdaterats. |
 | 25 oktober | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 21.10.5-utgåvan (28 oktober 2021). |
 | 22 oktober | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Följande avsnitt har lagts till:<ul><li>Se till att [!DNL Target] aktiviteter hanterar URL:er med frågesträngsparametrar korrekt</li></ul> |
