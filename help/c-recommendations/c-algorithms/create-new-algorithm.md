@@ -4,9 +4,9 @@ description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Re
 title: Hur skapar jag kriterier i Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Följande steg förutsätter att du har åtkomst till [!UICONTROL Create New Cri
 
 1. Välj en **Objektattribut** och **Profilattribut att matcha**, a **Rekommendationsnyckel**, **Filtreringsnyckel** och/eller **Analytics-mått** för att konfigurera algoritmen.
 
-Mer information om hur du väljer en rekommendationsnyckel finns i [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+De återstående alternativen för algoritmkonfigurationen varierar beroende på den valda algoritmen. Om du vill avsluta konfigurationen av algoritmen väljer du en [!UICONTROL Recommendation Key], [!UICONTROL Filtering Key], [!UICONTROL Co-Occurrence Basis], [!UICONTROL Analytics Metric]och/eller [!UICONTROL Item Attribute] och [!UICONTROL Profile Attribute to Match].
+
+Mer information om hur du väljer en [!UICONTROL Recommendation Key], se [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Data Source] {#data-source}
 
