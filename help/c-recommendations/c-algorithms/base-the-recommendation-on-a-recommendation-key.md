@@ -5,9 +5,9 @@ title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
 workflow-type: tm+mt
-source-wordcount: '3679'
+source-wordcount: '3660'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,6 @@ Det finns fem algoritmtyper i [!DNL Target Recommendations]:
 * [!UICONTROL Custom Criteria]
 
 Varje algoritmtyp innehåller olika algoritmer som passar dess typ, vilket visas i följande tabell:
-
->[!NOTE]
->
->The [!UICONTROL Cart-Based] type beskrivs i tabellen nedan och kommer snart.
 
 | Algoritmtyp | När ska användas | Tillgängliga algoritmer |
 | --- | --- | --- |
@@ -54,11 +50,11 @@ Cart-baserad rekommendationslogik liknar den[!UICONTROL Recommended For You]anv�
 
 [!DNL Target] ger även marknadsförarna möjlighet att se besökarnas beteende i en eller flera sessioner:
 
-* **Inom en enda session**: Baserat på vad andra besökare gjorde under en och samma session.
+* **[!UICONTROL Single Session]**: Baserat på vad andra besökare gjorde under en och samma session.
 
    Om du tittar på beteenden under en session kan det verka klokt om du tycker att produkter &quot;passar ihop&quot; baserat på användning, tillfälle eller händelse. En besökare köper till exempel en skrivare och kan även behöva bläck och papper. Eller så köper besökaren jordnötssmör och behöver bröd och gelé.
 
-* **Över flera sessioner**: Baserat på vad andra besökare gjorde under flera sessioner.
+* **[!UICONTROL Across Sessions]**: Baserat på vad andra besökare gjorde under flera sessioner.
 
    Om du tittar på beteenden i flera sessioner kan det vara bra om det finns en känsla av att produkterna&quot;följer med&quot; varandra baserat på besökarens önskemål eller smak. En besökare gillar till exempel Star Wars och kan också gilla Indiana Jones, även om besökaren inte nödvändigtvis vill se båda filmerna på samma plats. Eller så tycker en besökare om styrelsemötet&quot;Codenames&quot; och kanske också om styrelsemötet&quot;Avalon&quot;, även om besökaren inte kan spela båda spelen samtidigt. 
 
