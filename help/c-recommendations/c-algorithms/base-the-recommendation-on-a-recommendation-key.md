@@ -5,9 +5,9 @@ title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
+source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
 workflow-type: tm+mt
-source-wordcount: '3660'
+source-wordcount: '3652'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,11 @@ ht-degree: 0%
 
 Recommendations baserat på algoritmer använder besökarbeteendekontext för att visa relevanta resultat i [!DNL Adobe Target] [!DNL Recommendations] verksamhet.
 
-Det finns fem algoritmtyper i [!DNL Target Recommendations]:
-
-* [!UICONTROL Cart-Based]
-* [!UICONTROL Popularity-Based]
-* [!UICONTROL Item-Based]
-* [!UICONTROL User-Based]
-* [!UICONTROL Custom Criteria]
-
 Varje algoritmtyp innehåller olika algoritmer som passar dess typ, vilket visas i följande tabell:
 
 | Algoritmtyp | När ska användas | Tillgängliga algoritmer |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | (Kommer snart) Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
+| [!UICONTROL Cart-Based] | Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
 | [!UICONTROL Popularity-Based] | Utför rekommendationer baserat på hur populärt ett objekt på webbplatsen är eller utifrån hur populärt det är att ha objekt inom en användares favoritkategori, varumärke, genre osv. | <ul><li>Visas bäst på webbplatsen</li><li>Mest visade per kategori</li><li>Mest visad av objektattribut</li><li>De största säljarna på webbplatsen</li><li>De viktigaste säljarna per kategori</li><li>De viktigaste säljarna efter artikelattribut</li><li>Top by Analytics Metric</li></ul> |
 | [!UICONTROL Item-Based] | Rekommendationer baserade på sökning efter liknande objekt för ett objekt som användaren för närvarande visar eller nyligen har visat. | <ul><li>Folk som tittade på det här, såg det</li><li>Folk som såg det här, köpte det</li><li>Folk som köpte den här, köpte den där</li><li>Objekt med liknande attribut</li></ul> |
 | [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Senast visade objekt</li><li>Rekommenderas för dig</li></ul> |
