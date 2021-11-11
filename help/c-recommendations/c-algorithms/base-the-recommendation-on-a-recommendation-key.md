@@ -5,9 +5,9 @@ title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3709'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,11 @@ Om du väljer algoritmen Mest visade av kategori kan du välja följande Recomme
 
 ### Mest visad av objektattribut
 
-(Information kommer snart)
+Rekommenderar objekt eller media som liknar de mest visade objekten eller medierna på din webbplats.
+
+Med den här algoritmen kan du välja vilket objektattribut du vill basera rekommendationen på, till exempel &quot;Namn&quot; eller &quot;Varumärke&quot;.
+
+Sedan väljer du vilka profilattribut som ska matchas i besökarens profil, till exempel &quot;Favorit Brand&quot;, &quot;Last Item Added to Cart&quot; eller &quot;Most Viewed Show.&quot;
 
 ### De största säljarna på webbplatsen {#top-sellers}
 
@@ -389,7 +393,7 @@ Använd [!UICONTROL Last Viewed Item] rekommendationsnyckel på din webbplats:
 
 ### Mest visade objekt {#most-viewed-logic}
 
-Visar de objekt eller medier som visas oftast på platsen.
+Visar de objekt eller media som visas oftast på din plats.
 
 Med den här logiken kan du visa rekommendationer baserat på de mest visade objekten på webbplatsen för att öka konverteringsgraden för andra objekt. En mediewebbplats kan till exempel visa rekommendationer på sin hemsida för sina mest visade videor för att uppmuntra besökarna att titta på ytterligare videor.
 
