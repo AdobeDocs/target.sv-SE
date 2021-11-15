@@ -1,24 +1,23 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;lift;ad hoc;report builder;trust
-description: Hitta svar på frågor om lyft och självförtroende när du använder Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] aktiviteter.
+description: Hitta svar på frågor om lyft och självförtroende när ni använder Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] verksamhet.
 title: Var hittar jag information om lyft och självförtroende med A4T?
-feature: Analyser för mål (A4T)
+feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
 # Lyft och tillförsikt - A4T FAQ
 
-Det här avsnittet innehåller svar på frågor som ofta ställs om lift and trust när [!DNL Adobe Analytics] används som rapportkälla för [!DNL Adobe Target] (A4T).
+Det här avsnittet innehåller svar på frågor som ofta ställs om lyft och självförtroende när man använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
 
 ## Kan jag utföra offlineberäkningar för A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Du kan utföra offlineberäkningar för A4T, men det krävs ett steg med dataexporter i [!DNL Analytics]. Mer information finns i&quot;Utföra offlineberäkningar för målanalys (A4T)&quot; i [Konfidensnivå och konfidensintervall](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Du kan utföra offlineberäkningar för A4T, men det kräver ett steg med dataexport i [!DNL Analytics]. Mer information finns i&quot;Utföra offlineberäkningar för analys av mål (A4T)&quot; i [Konfidensnivå och konfidensintervall](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Hur beräknas lift? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -26,7 +25,7 @@ Lyft är den procentuella skillnaden mellan kontrollsidans resultat och en lycka
 
 ## Hur beräknas förtroendet? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-Konfidensnivån är sannolikheten för att den uppmätta konverteringsgraden skiljer sig från den främsta konverteringsgraden av andra orsaker än enbart chans.
+Konfidensnivån är en sannolikhet, uttryckt i procent, som är lika med `1 - p-value`, där `p-value` beräknas från ett t-test. Se [Konverteringsgrad](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Varför kan jag inte se lyft och självförtroende för beräknade mätvärden? {#lift-confidence}
 
@@ -41,7 +40,7 @@ Exempel på mätvärden eller användningsfall som inte stöds är:
 
 ## Hur hanterar A4T tillförlitlighetsberäkningar? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T använder icke-binära måttberäkningar med summan av kvadratiska data. Avvikelsen beräknas med summan av kvadratdata. Extrema order räknas inte. Konfidensberäkningen tillämpar inte heller någon Bonferroni-korrigering för flera erbjudanden.
+A4T beräknar konfidensvärden/p-värden på ett sätt som skiljer sig från vanliga t-tester med binära värden. De beräkningar som används av A4T gör det möjligt för varje användare att få ett kontinuerligt mätresultat (inte bara 1 eller 0 för varje användare), så att variansen (eller relativt standardavvikelsen) för varje upplevelse måste beräknas exakt. Extrema order räknas inte. Konfidensberäkningen tillämpar inte heller någon Bonferroni-korrigering för flera erbjudanden.
 
 ## Jobbar hiss och självförtroende i Ad Hoc och Report Builder? Kan jag göra det själv om det inte är inbyggt? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
