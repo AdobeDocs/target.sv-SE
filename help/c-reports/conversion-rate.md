@@ -4,9 +4,9 @@ description: Se hur Adobe [!DNL Target] visar och beräknar konverteringsgraden,
 title: Hur visar jag konverteringsgraden, avbrottsnivån och konfidensnivån?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2113'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Om kontrollen är 0, finns ingen procentuell lyft.
 
 AOV-, RPV- och Sales-data visas för varje upplevelse om du har infogat en platsorder (`orderConfirmPage`) och markerat den som konverteringsruta.
 
-## Intervall för tillförlitlighet och tillförlitlighet {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Konfidensnivå och konfidensintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 För varje upplevelse visas konfidensintervallet och konfidensintervallet.
 
@@ -58,7 +58,9 @@ Du kan utföra offlineberäkningar för Analytics för Target (A4T), men det kr�
 
 ### Förtroende {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-Förtroendet hos en upplevelse eller ett erbjudande som visas är en sannolikhet (uttryckt i procent) att få ett resultat som är mindre extrem än det som faktiskt observeras, om nollhypotesen är sann, dvs. om det inte finns någon skillnad i konverteringsgraden mellan upplevelsen eller erbjudandet och kontrollupplevelsen/erbjudandet. När det gäller p-värden är den här tillförlitligheten 1 - p-värde. Enklare uttryckt innebär ett högre förtroende att data inte är förenliga med antagandet att kontrollerbjudandet och upplevelsen utan kontroll har samma konverteringsgrad. Konfidensen avrundar till upp till 100,00 % när förtroendet är större än eller lika med 99,995 %.
+Förtroendet hos en upplevelse eller ett erbjudande som visas är en sannolikhet (uttryckt i procent) att få ett resultat som är mindre extrem än det som faktiskt observeras, om nollhypotesen är sann (i praktiken om det inte finns någon skillnad i konverteringsgraden mellan upplevelsen eller erbjudandet och kontrollupplevelsen/erbjudandet). När det gäller p-värden är den här tillförlitligheten 1 - p-värde. Enklare uttryckt innebär ett högre förtroende att data inte är förenliga med antagandet att kontrollerbjudandet och upplevelsen utan kontroll har samma konverteringsgrad.
+
+Konfidensen avrundar till upp till 100,00 % när förtroendet är större än eller lika med 99,995 %.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 

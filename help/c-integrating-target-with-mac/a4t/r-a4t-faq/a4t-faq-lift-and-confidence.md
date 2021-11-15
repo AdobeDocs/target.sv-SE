@@ -4,9 +4,9 @@ description: Hitta svar på frågor om lyft och självförtroende när ni använ
 title: Var hittar jag information om lyft och självförtroende med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Exempel på mätvärden eller användningsfall som inte stöds är:
 
 ## Hur hanterar A4T tillförlitlighetsberäkningar? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T beräknar konfidensvärden/p-värden på ett sätt som skiljer sig från vanliga t-tester med binära värden. De beräkningar som används av A4T gör det möjligt för varje användare att få ett kontinuerligt mätresultat (inte bara 1 eller 0 för varje användare), så att variansen (eller relativt standardavvikelsen) för varje upplevelse måste beräknas exakt. Extrema order räknas inte. Konfidensberäkningen tillämpar inte heller någon Bonferroni-korrigering för flera erbjudanden.
+[!DNL Adobe Analytics] behandlar alla mätvärden som icke-binära och beräknar därför konfidensvärden/p-värden på ett sätt som skiljer sig från användningen av binära mätvärden i ett regelbundet t-test. De beräkningar som används av A4T gör det möjligt för varje användare att få ett kontinuerligt mätresultat (inte bara 1 eller 0 för varje användare), så att variansen (eller relativt standardavvikelsen) för varje upplevelse måste beräknas på rätt sätt. Extrema order räknas inte. Konfidensberäkningen tillämpar inte heller någon Bonferroni-korrigering för flera erbjudanden.
 
 ## Jobbar hiss och självförtroende i Ad Hoc och Report Builder? Kan jag göra det själv om det inte är inbyggt? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
