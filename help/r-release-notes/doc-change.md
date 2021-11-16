@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b063432da8690a25c3178c286075b7c930fe4891
+source-git-commit: 885510848b141b646971658e2fd20440d2344efc
 workflow-type: tm+mt
-source-wordcount: '2935'
+source-wordcount: '2976'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 16 november | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Uppdaterat&quot;Hur påverkar Google Chrome SameSite cookie-reglerna VEC och EEC?&quot; med information om den senaste versionen av hjälptillägget. |
+| 16 november | [Kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Lagt till information om begränsningar för filöverföring med en länk till [Om datafiler och datakällor för kundattribut](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) i *Handbok för gränssnittskomponenter i Experience Cloud Central*. |
+|  | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Uppdaterat&quot;Hur påverkar Google Chrome SameSite cookie-reglerna VEC och EEC?&quot; med information om den senaste versionen av hjälptillägget. |
 |  | [Hjälptillägg för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Uppdaterade avsnittet&quot;Hämta och installera VEC Helper-webbläsartillägget&quot;. |
 | 12 november | [Integrera [!DNL Recommendations] med e-post](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Ny introduktionsinformation har lagts till. |
 | 28 oktober | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Informationen om följande versioner har lagts till:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5</li></ul> |
