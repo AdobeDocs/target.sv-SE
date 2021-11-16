@@ -4,9 +4,9 @@ description: Lär dig hur du använder företagsdata från en CRM-databas (custo
 title: Vad är kundattribut och hur använder jag dem?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: 19b012a0fcbf5195b12990f0a634a90597850899
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1559'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Tänk på följande när du arbetar med kundattribut och [!DNL Target]:
 * Tänk på begränsningarna för filöverföring som beskrivs i [Om datafiler och datakällor för kundattribut](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) i *Handbok för gränssnittskomponenter i Experience Cloud Central*. Bästa praxis:
 
    * Överför enstaka stora filer (i [angivna gränser](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). Enstaka stora filer prioriteras framför flera mindre filer.
-   * Om du måste dela upp överföringen i flera filer måste du se till att filerna bearbetas fullständigt innan du skickar in nya filer och se till att det har gått minst 30 minuter mellan flera överföringar.
+   * Om du måste dela upp överföringen i flera filer måste du se till att filerna bearbetas fullständigt innan du skickar in nya filer. Se till att alla filer i en grupp bearbetas fullständigt innan du skickar nästa grupp.
 
 * [!DNL Adobe] garanterar inte att 100 % av kundattributdata (besökarprofil) från CRM-databaser kommer att överföras till [!DNL Experience Cloud] och därmed vara tillgängliga för användning för [!DNL Target]. I den aktuella designen finns det en möjlighet att en liten andel data (upp till 0,1 % av stora tillverkningssatser) inte tas med.
 * Livslängden för kundattributdata som importeras från [!DNL Experience Cloud] till [!DNL Target] beror på besökarprofilens livstid, som är 14 dagar som standard. Mer information finns i [Livstid för besökarprofil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
