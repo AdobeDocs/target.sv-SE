@@ -4,14 +4,14 @@ description: Lär dig hur du använder företagsdata från en CRM-databas (custo
 title: Vad är kundattribut och hur använder jag dem?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 19b012a0fcbf5195b12990f0a634a90597850899
+source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
 
-# [undefined](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)
+# Kundattribut
 
 Information om hur du använder företagskunddata från CRM-databaser (Customer Relationship Management) för målgruppsanpassning i [!DNL Adobe Target] genom att använda kundattribut i [!DNL Adobe Enterprise Cloud People] service.
 
