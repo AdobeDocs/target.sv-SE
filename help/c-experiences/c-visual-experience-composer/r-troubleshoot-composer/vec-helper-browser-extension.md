@@ -4,16 +4,16 @@ description: Upptäck varför vissa webbplatser kanske inte kan öppnas på ett 
 title: Hur använder jag hjälptillägget Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: cf8bb1a438681ccb5bf9e825503f9f929fbcfdbf
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
 
 # Hjälptillägg för Visual Experience Composer
 
-Med [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]-tillägget (VEC) Helper-webbläsare för Google Chrome kan du läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-webbupplevelser.
+The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Med webbläsartillägget Helper för Google Chrome kan du läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-webbupplevelser.
 
 >[!NOTE]
 >
@@ -25,55 +25,51 @@ Med [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]-tillägget (VEC)
 * Webbplatsen ligger i en iframe.
 * at.js-biblioteket är ännu inte implementerat på webbplatsen.
 * Kundens QA- och/eller scensajt är inte tillgänglig för omvärlden (webbplatsen är intern).
-* Du använder Google Chrome 80+ med förbättrade efterlevnadsprinciper för cookie-appar för samma webbplats. Mer information finns i [Hur påverkar den nyligen lanserade Google Chrome SameSite cookie-principen VEC och EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
+* Du använder Google Chrome 80+ med förbättrade principer för att framtvinga cookies för samma webbplats. Mer information finns i [Hur påverkar de nyligen meddelade reglerna för tillämpning av cookie-standarden Google Chrome SameSite de VEC och EEC?](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsning som kunderna nu förlitar sig på [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) eller tredjepartstillägg som True.
+Webbläsartillägget VEC Helper för Chrome löser problem med webbplatsinläsning som kunderna nu är beroende av [!DNL Target] [Förbättrad Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) eller tillägg från tredje part, till exempel Uppriktigt.
 
 ## Fördelar med att använda VEC Helper-tillägget
 
 * Alla iframe-rubriker, som X-Frame-Options och Content-Security-Policy, tas implicit bort från webbplatsen. Du behöver inte längre skapa komplicerade regler.
-* Om en webbsida ännu inte innehåller JavaScript-biblioteket [!DNL Target] at.js kan du använda tillägget för att mata in biblioteket så att du kan skapa webbplatsupplevelser. Du kan sedan skapa aktiviteter och köra frågor och svar med hjälp av förhandsgranskningslänkar.
+* Om en webbsida ännu inte innehåller [!DNL Target] at.js JavaScript-bibliotek kan du använda tillägget för att mata in biblioteket så att du kan skapa upplevelser för webbplatsen. Du kan sedan skapa aktiviteter och köra frågor och svar med hjälp av förhandsgranskningslänkar.
 
    Observera att tillägget inte injicerar at.js med Enhanced Experience Composer (EEC), men funktionen SameSite Cookie finns fortfarande kvar. Om du vill mata in at.js på webbsidan stänger du av EEC.
 
-* [Mobila ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visningsrutor stöds även utan  [!UICONTROL Enhanced Experience Composer] (EEC).
-* Kunder som inte är [!DNL Target] kan använda tillägget för att experimentera med [!DNL Target] även om deras IT-utvecklare ännu inte har implementerat [!DNL Target] på sina webbplatser.
-* Partners som betjänar flera kunders webbplatser och [!DNL Target]-konton har nu en enkel mekanism som stöder VEC-inläsning, i stället för att hantera flera regler i tredjepartsverktyg.
+* [Mobilvisningsrutor](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) stöds även utan [!UICONTROL Enhanced Experience Composer] (EEG).
+* Kunder som är nybörjare på [!DNL Target] kan använda tillägget för att experimentera med [!DNL Target] även om deras IT-utvecklare ännu inte har implementerat [!DNL Target] på deras webbplatser.
+* Partners som betjänar flera kunders webbplatser och [!DNL Target] konton har nu en enkel mekanism som stöder VEC-inläsning, i stället för att hantera flera regler i tredjepartsverktyg.
 
 ## Hämta och installera VEC Helper-webbläsartillägget
 
-1. Navigera till webbläsartillägget [Adobe Target VEC Helper i Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigera till [Webbläsartillägget Adobe Target VEC Helper i Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Klicka på **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Öppna VEC i [!DNL Target].
-1. Om du vill använda tillägget klickar du på ikonen för VEC Helper-webbläsartillägget ( ![VEC Helper icon](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) i webbläsarens verktygsfält när du är i VEC- eller [QA-läget](/help/c-activities/c-activity-qa/activity-qa.md).
-1. (Villkorligt) Om webbsidan ännu inte innehåller JavaScript-biblioteket **[!UICONTROL Inject Target Libraries]**, drar du växlingsknappen [!DNL Target] till&quot;on&quot;-positionen.
+1. Om du vill använda tillägget klickar du på ikonen för VEC Helper-webbläsartillägget ( ![VEC Helper: ikon](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) i webbläsarens verktygsfält i Chrome när du arbetar i VEC eller [QA-läge](/help/c-activities/c-activity-qa/activity-qa.md).
+1. (Villkorligt) Skjut upp **[!UICONTROL Inject Target Libraries]** växla till&quot;på&quot;-positionen om webbsidan ännu inte innehåller [!DNL Target] at.js JavaScript-bibliotek.
 
-   Följande bild visar VEC Helper med inställningen [!UICONTROL Inject Target Libraries] aktiverad:
+   Följande bild visar VEC Helper med [!UICONTROL Inject Target Libraries] aktiverad inställning:
 
    ![VEC-hjälp 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-   Följande bild visar VEC Helper där du tillfrågas om du vill att det ska injicera [!DNL Target] bibliotek på sidan för att möjliggöra redigering:
+   Följande bild visar VEC Helper där du tillfrågas om du vill att den ska injiceras [!DNL Target] bibliotek på sidan för att aktivera redigering:
 
    ![VEC-hjälp 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Villkorligt) Skjut växeln **[!UICONTROL Cookies]** till &quot;on&quot;-positionen för att automatiskt lägga till webbläsarkorrigeringen SameSite=None-attribut och ange sedan cookie-namnet och domänen.
+1. (Villkorligt) Skjut upp **[!UICONTROL Cookies]** växla till&quot;på&quot;-positionen för att automatiskt lägga till `SameSite=None` åtgärda attributwebbläsare.
 
    ![Cookies i VEC-hjälptillägget](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   Följande länkar innehåller ytterligare information:
-
-   * Mer information om korrigeringen för funktionen SameSite=None (Ingen) finns i&quot;Hur påverkar den nyligen lanserade policyn för Google Chrome SameSite-cookie implementeringen av VEC och EEC?&quot; i [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
-
-   * Cookie-namnet är &quot;mbox&quot; och cookie-domänen är den andra och översta nivån i domänerna som du använder för mbox. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: `mycompany.com`. Mer information finns i [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) i *användarhandboken för gränssnittet Experience Cloud*.
+   Mer information om `SameSite=None` korrigering av attributwebbläsare, se&quot;Hur påverkar de nyligen meddelade reglerna för tillämpning av cookies i Google Chrome SameSite hur VEC och EEC fungerar?&quot; in [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ## Anteckningar
 
-* Flaggan [!UICONTROL Inject Target libraries] i tillägget är inaktiverad som standard. Du kan aktivera den här flaggan om du vill använda VEC på en webbplats som ännu inte har implementerats för [!DNL Target].
+* The [!UICONTROL Inject Target libraries] -flaggan i tillägget är som standard AV. Du kan aktivera den här flaggan om du vill använda VEC på en webbplats som ännu inte har implementerats för [!DNL Target].
 
    Den här flaggan är en global inställning. Flaggan är aktiverad eller inaktiverad för alla webbplatser som öppnas i VEC. Om du till exempel anger att flaggan ska vara&quot;on&quot; och öppna en webbplats som redan har implementerats med at.js, får du ett meddelande om att at.js redan har lästs in. Adobe räknar med att de flesta kunder redan har at.js implementerat på sina sidor och använder standardinställningen&quot;off&quot;.
 
-* Tillägget läser in den senaste versionen av at.js som är tillgänglig från [!DNL Target UI] i [!UICONTROL Administration > Implementation].
-* När du använder tillägget för att injicera at.js i [QA-läge](/help/c-activities/c-activity-qa/activity-qa.md) måste du ha en annan flik i Chrome öppen. Denna Chrome-flik måste autentiseras i samma [!DNL Adobe Experience Cloud]-organisation som du skapade aktiviteten i.
+* Tillägget läser in den senaste versionen av at.js som är tillgänglig från [!DNL Target UI] in [!UICONTROL Administration > Implementation].
+* När tillägget används för att injicera at.js i [QA-läge](/help/c-activities/c-activity-qa/activity-qa.md)måste du ha en annan flik i Chrome öppen. Denna Chrome-flik måste autentiseras till samma [!DNL Adobe Experience Cloud] Organisationen som du skapade aktiviteten i.
 * Följande meddelanden hjälper dig att hålla dig informerad:
 
    * Om du försöker läsa in en webbplats med VEC som inte kan läsas in visas ett meddelande om att du har installerat webbläsartillägget VEC Helper.
