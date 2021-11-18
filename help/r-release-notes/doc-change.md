@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3001'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 18 november | [Ändringar](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | En anteckning på raden Mbox som anger att rutor inte längre stöds i [!UICONTROL Visual Experience Composer] (VEC) på sidor som använder at.js 2.*x*. |
 | 16 november | [Kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Lagt till information om begränsningar för filöverföring med en länk till [Om datafiler och datakällor för kundattribut](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) i *Handbok för gränssnittskomponenter i Experience Cloud Central*. |
 |  | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Uppdaterat&quot;Hur påverkar Google Chrome SameSite cookie-reglerna VEC och EEC?&quot; med information om den senaste versionen av hjälptillägget. |
 |  | [Hjälptillägg för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Uppdaterade avsnittet&quot;Hämta och installera VEC Helper-webbläsartillägget&quot;. |
