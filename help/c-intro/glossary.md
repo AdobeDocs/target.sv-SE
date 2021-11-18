@@ -1,11 +1,11 @@
 ---
-description: Vad betyder olika termer i Adobe [!DNL Target] ? Hitta definitioner av vanliga termer som hjälper dig att få ut mer av [!DNL Target].
+description: Vad används olika termer i Adobe? [!DNL Target] menar du? Hitta definitioner av vanliga termer som hjälper dig att få ut mer av [!DNL Target].
 title: Var hittar jag de termer och definitioner som används i Target?
-feature: Översikt
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2413'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Användbar för att testa marknadsföring från webbplatser som saknar en mbox, 
 
 **at.js**
 
-[!DNL at.js]-biblioteket är ett nytt implementeringsbibliotek för [!DNL Adobe Target] som är utformat för både vanliga webbimplementeringar och enkelsidiga program. Biblioteket [!DNL at.js] ersätter [!DNL mbox.js] för [!DNL Target]-implementeringar.
+The [!DNL at.js] biblioteket är ett nytt implementeringsbibliotek för [!DNL Adobe Target] som är utformade för både vanliga webbimplementeringar och ensidiga program. The [!DNL at.js] biblioteksersättningar [!DNL mbox.js] for [!DNL Target] implementeringar.
 
 **publik**
 
@@ -98,7 +98,7 @@ De innehållsvariationer som skapas när du testar flera innehållsalternativ p�
 
 **innehåll**
 
-Texten eller bilden som består av en provvariation på en plats. I ett multivariata test jämförs ett antal innehållsalternativ på flera platser. I MVT-metoden kallas innehållet ibland *nivå*.
+Texten eller bilden som består av en provvariation på en plats. I ett multivariata test jämförs ett antal innehållsalternativ på flera platser. I MVT-metoden kallas innehållet ibland för *nivå*.
 
 **konverteringsruta**
 
@@ -120,7 +120,7 @@ Visar om besökaren inte uppfyller kraven för testet eller om standardinnehåll
 
 **design**
 
-Mallaktiverad HTML som visar de rekommenderade objekten på webbsidan. En design definierar utseendet på rekommendationerna i en Recommendations-aktivitet.
+Mallaktiverat HTML som visar de rekommenderade objekten på webbsidan. En design definierar utseendet på rekommendationerna i en Recommendations-aktivitet.
 
 **varaktighet**
 
@@ -132,7 +132,7 @@ Kan ingå i alla typer av tester eller aktiviteter. Ingen ytterligare programmer
 
 **dynamisk mbox**
 
-Gör det möjligt för RIA-program (Rich Internet Applications) att ändra HTML efter att sidan redan har lästs in, med hjälp av tekniker som DHTML och AJAX.
+Gör att RIA-program (Rich Internet Applications) kan hantera HTML efter att sidan redan har lästs in med hjälp av tekniker som DHTML och AJAX.
 
 **dynamiskt erbjudande**
 
@@ -146,7 +146,7 @@ Mätningen av besökarens intresse för en webbplats, mätt som tid på webbplat
 
 **förbättrad upplevelsedisposition**
 
-[!UICONTROL Enhanced Experience Composer] är ett tillägg till [!UICONTROL Visual Experience Composer] som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar implementeringen av [!DNL Target]. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer] provar du [!UICONTROL Enhanced Experience Composer].
+The [!UICONTROL Enhanced Experience Composer] är en förlängning av [!UICONTROL Visual Experience Composer] som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte innehåller [!DNL Target] implementering. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer], prova [!UICONTROL Enhanced Experience Composer].
 
 **Enterprise-användarbehörigheter**
 
@@ -166,7 +166,7 @@ Värdar paketeras i miljöer för enkel hantering. De förinställda värdgruppe
 
 **upplevelse**
 
-Ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Du testar eller personaliserar upplevelser i [!DNL Target]-aktiviteter.
+Ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Ni testar eller personaliserar upplevelser i [!DNL Target] verksamhet.
 
 **upplevelseanpassning**
 
@@ -204,7 +204,7 @@ Alla webbservrar (eller webbdomäner) som du använder för att leverera innehå
 
 **värdgrupp**
 
-Se *Miljö*. Värdgrupper kallas &quot;miljöer&quot; i [!DNL Target Standard/Premium].
+Se *Miljö*. Värdgrupper kallas&quot;miljöer&quot; i [!DNL Target Standard/Premium].
 
 ## I {#section_8ABE89A86AF54BD4B6B2CC909F651B5C}
 
@@ -216,17 +216,21 @@ Besökarspecifik parameter som skickas till besökarens cookie från mbox. Retur
 
 **landningssidaktivitet**
 
-Med en landningssidaktivitet kan du använda målinriktning för att visa olika landningssidinnehåll för olika besök. I annat fall visas samma innehåll för varje besök på landningssidan. En aktivitet på en landningssida jämför olika versioner av sidan för att hjälpa dig att se vilken version av landningssidan som ger ett bättre resultat. I Target Standard, ersatt av *Experience targeting*.
+Med en landningssidaktivitet kan du använda målinriktning för att visa olika landningssidinnehåll för olika besök. I annat fall visas samma innehåll för varje besök på landningssidan. En aktivitet på en landningssida jämför olika versioner av sidan för att hjälpa dig att se vilken version av landningssidan som ger ett bättre resultat. I Target Standard, ersatt med *upplevelseanpassning*.
 
 **plats**
 
-Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-element. I MVT-metoden kallas en plats ibland *faktor*. I ett multivariat helfaktoriellt test jämförs alla möjliga kombinationer av erbjudanden på dina platser.
+Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-element. I MVT-metoden kallas en plats ibland för *faktor*. I ett multivariat helfaktoriellt test jämförs alla möjliga kombinationer av erbjudanden på dina platser.
 
 ## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
-&quot;Marknadsföringsruta&quot;, den plats på webbsidan där innehållet visas och besökarnas beteende registreras. Vissa rutor visar ingenting. De kan spåra besökarens framsteg på webbplatsen eller kanske spåra om besökaren har slutfört ett visst mått för framgång, som att lägga till en artikel i kundvagnen eller slutföra ett köp. En sådan typ av mbox är en *konverteringsmbox*.
+&quot;Marknadsföringsruta&quot;, den plats på webbsidan där innehållet visas och besökarnas beteende registreras. Vissa rutor visar ingenting. De kan spåra besökarens framsteg på webbplatsen eller kanske spåra om besökaren har slutfört ett visst mått för framgång, som att lägga till en artikel i kundvagnen eller slutföra ett köp. En sådan lådtyp är en *konverteringsruta*.
+
+**mbox.js**
+
+A [!DNL Target] JavaScript-implementeringsbibliotek som har tagits bort.
 
 **mbox-parameter**
 
@@ -244,9 +248,9 @@ En besökare inkluderas i segmentet Nya besökare om något av följande villkor
 
 * Det är besökarens första besök på webbplatsen.
 * Det är besökarens första besök sedan cookies rensades.
-* Det är besökarens första besök på webbplatsen sedan [besökarprofilens livstid](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) har gått ut.
+* Det är besökarens första besök sedan [Livslängd för besökarprofil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) har gått ut.
 
-Mer information finns i [Hur räknas mätvärdena för nya besökare och återkommande besökare?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapporteringsfrågor och svar. Kontrast med&quot;Returning Visitor&quot; nedan.
+Mer information finns i [Hur räknas värdena för nya besökare och återkommande besökare?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapporteringsfrågor och svar. Kontrast med&quot;Returning Visitor&quot; nedan.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -290,7 +294,7 @@ Skickar värden till målsidans mbox som refererande URL-parametrar och -värden
 
 Besökaren inkluderas i segmentet Återkommande besökare om användaren tidigare besökt webbplatsen, lämnat den i minst 30 minuter och återgått till webbplatsen igen med samma cookies. Så länge en besökare återvänder inom sin profillivstid är den här besökaren en återkommande besökare.
 
-Mer information finns i [Hur räknas värdena för nya besökare och återkommande besökare](/help/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapportera frågor och svar. Kontrast mot&quot;Ny besökare&quot; ovan.
+Mer information finns i [Hur räknas mätvärdena för nya besökare och återkommande besökare?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapporteringsfrågor och svar. Kontrast mot&quot;Ny besökare&quot; ovan.
 
 **roll**
 
@@ -298,7 +302,7 @@ En grupp användare med en viss behörighetsgrupp.
 
 **fjärterbjudande**
 
-Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Target] som [!DNL Target] refererar till och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
+Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Target] att [!DNL Target] referenser och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
 
 **rapporter**
 
@@ -350,7 +354,7 @@ Ett besök kallas ibland för en session. Ett besök avslutas efter 30 minuters 
 
 **besökare**
 
-En besökare är en person som har åtkomst till din webbplats. En besökare utvärderas mot aktivitetskriterier för att avgöra om besökaren ingår i en aktivitet. Se *deltagare*.
+En besökare är en person som har åtkomst till din webbplats. En besökare utvärderas mot aktivitetskriterier för att avgöra om besökaren ingår i en aktivitet. Se *entré*.
 
 **Visual Experience Composer**
 

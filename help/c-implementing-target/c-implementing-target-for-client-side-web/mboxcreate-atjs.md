@@ -1,14 +1,13 @@
 ---
 keywords: mboxCreate;mbox create;mbox create;at.js;functions;function
-description: Använd funktionen mboxCreate() för JavaScript-biblioteket Adobe [!DNL Target] at.js om du vill tillämpa erbjudanden på närmaste DIV med mboxDefault-klassnamnet. (at.js 1.x)
+description: Använda funktionen mboxCreate() för Adobe [!DNL Target] at.js JavaScript-bibliotek som ska tillämpa erbjudanden på närmaste DIV med mboxDefault-klassnamnet. (at.js 1.x)
 title: Hur använder jag funktionen mboxCreate()?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -19,9 +18,9 @@ Kör en begäran och tillämpar erbjudandet på närmaste DIV med mboxDefault-kl
 
 >[!NOTE]
 >
->Den här funktionen är tillgänglig för version 1 av at.js.*Endast* . Den här funktionen har ersatts med versionen av at.js 2.x. Den här funktionen returnerar standardinnehåll om den används med at.js 2.x.
+>Den här funktionen är tillgänglig för version 1 av at.js.*x* endast. Den här funktionen har ersatts med versionen av at.js 2.x. Den här funktionen returnerar standardinnehåll om den används med at.js 2.x.
 
-Den här funktionen är inbyggd i [!DNL at.js] för att underlätta övergången från [!DNL mbox.js] till [!DNL at.js]. Ett nyare alternativ till `mboxCreate()` är `adobe.target.getOffer()`/ `adobe.target.applyOffer()` eller Angular-direktivet.
+Den här funktionen är inbyggd i [!DNL at.js] mest för att underlätta övergången från [!DNL mbox.js] (nu borttagen) till [!DNL at.js]. Ett nyare alternativ till `mboxCreate()` är `adobe.target.getOffer()`/ `adobe.target.applyOffer()` eller Angular-direktivet.
 
 ## Exempel
 
@@ -38,13 +37,13 @@ Den här funktionen är inbyggd i [!DNL at.js] för att underlätta övergången
 
 `mboxCreate()` använder nu slutpunkten &quot;json&quot; i stället för standardslutpunkten och aktiveras asynkront. På grund av detta:
 
-* [Felsökning ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) är lite annorlunda.
+* [Felsökning](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) är lite annorlunda.
 * Undvik erbjudandekod som kräver synkrona, blockerande anrop.
 
    I erbjudanden anges till exempel JavaScript-variabler som används av platskod eller andra rutor som kommer senare på sidan.
 
-* Se till att du har en `<div class="mboxDefault"></div>`innan du anropar `mboxCreate()` eftersom [!DNL at.js] inte lägger till en åt dig.
+* Se till att du har en `<div class="mboxDefault"></div>`före anrop `mboxCreate()`, eftersom [!DNL at.js] kommer inte att lägga till en åt dig.
 
-* Tomma `mboxCreate()`-funktioner på översta sidan rekommenderas inte som en global mbox.
+* Tom, överst på sidan `mboxCreate()` funktioner rekommenderas inte som en global mbox.
 
-   Den automatiskt skapade globala mbox i [!DNL at.js] är ett bättre alternativ eftersom den aktiveras från `<head>` och kan returnera innehåll tidigare.
+   Den automatiskt skapade globala mbox i [!DNL at.js] är ett bättre alternativ eftersom det aktiveras från `<head>` och kan returnera innehåll tidigare.

@@ -4,9 +4,9 @@ description: Lär dig hur du integrerar e-post med Adobe [!DNL Target Recommenda
 title: Hur integrerar jag Recommendations med e-post?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Se [Dokumentation för leverans-API](https://developers.adobetarget.com/api/#ser
 
 ## Metod 2: Använda en e-postmall för en rawbox {#rawbox}
 
-En sandlåda liknar en mbox-begäran, men för icke-webbmiljöer, som e-postleverantörer (ESP). För du har inte [!DNL mbox.js] eller [!DNL at.js] om du vill använda i en rawbox-begäran måste du skapa din begäran manuellt. Exemplen nedan förklarar hur du arbetar med rawbox-begäranden i e-postmeddelanden.
+En sandlåda liknar en mbox-begäran, men för icke-webbmiljöer, som e-postleverantörer (ESP). För du har inte [!DNL Adobe Experience Platform Web SDK] eller [!DNL at.js] om du vill använda i en rawbox-begäran måste du skapa din begäran manuellt. Exemplen nedan förklarar hur du arbetar med rawbox-begäranden i e-postmeddelanden.
 
 >[!NOTE]
 >

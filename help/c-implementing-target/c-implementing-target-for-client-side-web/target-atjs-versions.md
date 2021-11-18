@@ -4,9 +4,9 @@ description: Visa information om ändringarna i varje version av Adobe [!DNL Tar
 title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4268'
+source-wordcount: '4270'
 ht-degree: 0%
 
 ---
@@ -435,7 +435,7 @@ Följande förbättringar och korrigeringar ingår i [!DNL at.js] version 0.9.6:
 **Datum:** 14 juli 2016
 
 * Tillhandahåller en timeout för besökar-ID-tjänsten på at.js, som är oberoende av tjänstens egen timeout.
-* Korrigerar ett fel i 0.9.0 som påverkade implementeringar med at.js på vissa sidor och mbox.js på andra sidor.
+* Korrigerar ett fel i 0.9.0 som påverkade implementeringar med at.js på vissa sidor och mbox.js (nu borttaget) på andra sidor.
 * Om du använder Adobe Analytics som aktivitetens rapportkälla behöver du inte ange en spårningsserver när du skapar en aktivitet om du använder mbox.js version 61 (eller senare) eller at.js version 0.9.1 (eller senare). at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När du skapar en aktivitet kan du lämna [!UICONTROL Tracking Server] fältet är tomt på [!UICONTROL Goals & Settings] sida.
 
 ## at.js Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}

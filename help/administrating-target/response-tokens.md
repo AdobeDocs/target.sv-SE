@@ -1,11 +1,11 @@
 ---
 keywords: svarstoken;tokens;plugins;plugins;at.js;response;platform web sdk
-description: Lär dig hur du använder svarstoken i [!DNL Adobe Target] för att få utdataspecifik information för felsökning och integrering med verktyg från tredje part.
+description: Lär dig hur du använder svarstoken i [!DNL Adobe Target] till utdataspecifik information för felsökning och integrering med verktyg från tredje part.
 title: Vad är svarstoken och hur använder jag dem?
-feature: Administration och konfiguration
+feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: b7e9fdb3bb6cd3edafc30e6d7efc749c14dc828d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Svarstoken
 
-Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Adobe Target] till ditt varumärkes webbsida. Den här informationen kan innehålla information om aktivitet, erbjudande, upplevelse, användarprofil, geo-information med mera. De här detaljerna innehåller extra svarsdata som kan delas med interna eller externa verktyg eller som kan användas för felsökning.
+Med svarstoken kan du automatiskt få ut information som är specifik för [!DNL Adobe Target] på ert varumärkes webbsida. Den här informationen kan innehålla information om aktivitet, erbjudande, upplevelse, användarprofil, geo-information med mera. De här detaljerna innehåller extra svarsdata som kan delas med interna eller externa verktyg eller som kan användas för felsökning.
 
-Med svarstoken kan du välja vilka variabler (i nyckelvärdepar) som ska användas och sedan aktivera att de skickas som en del av ett [!DNL Target]-svar. Du aktiverar en variabel med växeln och variabeln skickas med [!DNL Target] svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i [!UICONTROL Preview]-läge.
+Med svarstoken kan du välja vilka variabler (i nyckelvärdepar) som ska användas och sedan aktivera att de skickas som en del av en [!DNL Target] svar. Du aktiverar en variabel med växeln och variabeln skickas med [!DNL Target] svar, som kan valideras i nätverksanrop. Svarstoken fungerar också i [!UICONTROL Preview] läge.
 
 En viktig skillnad mellan plugin-program och svarstoken är att plugin-program levererar JavaScript till sidan som körs vid leverans. Svarstoken levererar emellertid ett objekt som sedan kan läsas och hanteras med händelseavlyssnare. Svarstoken är säkrare och gör det enklare att utveckla och underhålla tredjepartsintegreringar.
 
@@ -26,8 +26,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 | Mål-SDK | Föreslagna åtgärder |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i *översikten för Platform Web SDK*-guiden. Information om de nya funktionerna i respektive version av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i *översikten för Platform Web SDK*-handboken. |
-| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Information om de nya funktionerna i varje version av at.js finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som använder interna metoder som fanns i mbox.js, men inte i at.js, levereras men misslyckas. |
+| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i *SDK för plattform* guide. Information om de nya funktionerna i respektive version av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i *SDK för plattform* guide. |
+| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Ladda ned på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Mer information om de nya funktionerna i alla versioner av at.js finns i [at.js Versionsinformation](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
 
 ## Använda svarstoken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -35,10 +35,10 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    Mer information:
 
-   * **SDK** för plattformswebben: Se  [Installera ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) SDK i översiktsguiden för  *Platform Web SDK* .
-   * **at.js**: Se  [Hämta på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   * **Platform Web SDK**: Se [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i *SDK för plattform* guide.
+   * **at.js**: Se [Ladda ned på.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. I [!DNL Target], klicka **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
    ![](assets/response_tokens-new.png)
 
@@ -48,7 +48,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    | Typ | Parameter | Anteckningar |
    |--- |--- |--- |
-   | Inbyggda profiler | `profile.activeActivities` | Returnerar en array med `activityIds` som besökaren är kvalificerad för. Det ökar efterhand som användarna kvalificerar sig. På en sida med två [!DNL Target]-begäranden som levererar två olika aktiviteter, innehåller den andra begäran till exempel båda aktiviteterna. |
+   | Inbyggda profiler | `profile.activeActivities` | Returnerar en array med `activityIds` besökaren är kvalificerad för detta. Det ökar efterhand som användarna kvalificerar sig. Till exempel på en sida med två [!DNL Target] begäran som levererar två olika aktiviteter, den andra begäran innehåller båda aktiviteterna. |
    |  | `profile.isFirstSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.isNewSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.daysSinceLastVisit` | Returnerar antalet dagar sedan besökarens senaste besök. |
@@ -58,8 +58,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
    |  | `profile.categoryAffinity` | Returnerar besökarens favoritkategori. |
    |  | `profile.categoryAffinities` | Returnerar en array med besökarens fem populäraste kategorier som strängar. |
    | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Information om den aktuella aktiviteten. Observera att&quot;option&quot; är lika med&quot;offer&quot;. |
-   | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Mer information om hur du använder geomål i aktiviteter finns i [Geo](/help/c-target/c-audiences/c-target-rules/geo.md). |
-   | Trafikallokeringsmetod<br>(Gäller endast för aktiviteter av typen [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Returnerar 0 om en besökare har fått en upplevelse av att vara i&quot;kontrolltrafik&quot; och 1 om en besökare har fått en upplevelse av den&quot;riktade&quot; trafikfördelningen. |
+   | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Se [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) om du vill ha mer information om hur du använder geolokalisering i aktiviteter. |
+   | Trafikallokeringsmetod<br>(Gäller för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] endast aktiviteter.) | `experience.trafficAllocationId` | Returnerar 0 om en besökare har fått en upplevelse av att vara i&quot;kontrolltrafik&quot; och 1 om en besökare har fått en upplevelse av den&quot;riktade&quot; trafikfördelningen. |
    |  | `experience.trafficAllocationType` | Returnera&quot;control&quot; eller&quot;target&quot;. |
 
    Attribut för användarprofiler och kundattribut visas också i listan.
@@ -68,9 +68,9 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
    >
    >Parametrar med specialtecken visas inte i listan. Endast alfanumeriska tecken och understreck stöds.
 
-1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via en [!DNL Target]-begäran och därför inte har lästs in i användargränssnittet för [!DNL Target], kan du använda knappen [!UICONTROL Add Response Token] för att lägga till profilen i användargränssnittet.
+1. (Villkorligt) Om du vill använda en profilparameter som en svarstoken, men parametern inte har skickats via en [!DNL Target] begäran och därför inte har lästs in i [!DNL Target] Gränssnitt, du kan använda [!UICONTROL Add Response Token] för att lägga till profilen i användargränssnittet.
 
-   Klicka på **[!UICONTROL Add Response Token]**, ange tokennamnet och klicka sedan på **[!UICONTROL Activate]**.
+   Klicka **[!UICONTROL Add Response Token]**, ange tokennamnet och klicka sedan på **[!UICONTROL Activate]**.
 
    ![](assets/response_token_create.png)
 
@@ -78,17 +78,17 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 ## Lyssna efter svar och läs svarstoken
 
-Den process som du använder för att avlyssna [!DNL Target]-svar och läsa svarstoken skiljer sig åt beroende på om du har en [!DNL Platform Web SDK]- eller at.js-implementering.
+Processen som du använder för att avlyssna [!DNL Target] svar och lässvar varierar beroende på om du har en [!DNL Platform Web SDK] eller implementering av at.js.
 
-### ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Platform Web SDK] badgemed objektklassen Handle {#platform-web-sdk}
+### ![Adobe Experience Platform Web SDK badge](/help/assets/platform.png) [!DNL Platform Web SDK] med objektklassen Handle {#platform-web-sdk}
 
-Använd objektklassen Handle, som har ett metadata-objekt och ett dataobjekt som ska avlyssna [!DNL Target]-svar och läsa svarstoken.
+Använd objektklassen Handle, som har ett metadata-objekt och ett dataobjekt att avlyssna [!DNL Target] svar och läsa svarstoken.
 
-I följande svarsexempel läggs en anpassad [!DNL Platform Web SDK]-händelsehanterare till direkt på HTML-sidan (tabellen förklarar vilka objekt som används i koden):
+Följande svarsexempel lägger till en [!DNL Platform Web SDK] anpassad händelsehanterare direkt till HTML-sidan (tabellen förklarar objekt som används i koden):
 
 | Objekt | Information |
 | --- | --- |
-| Typ - Personalization.Decision | Anger om beslutet fattades av [!DNL Target]- eller Offer decisioning-providern. |
+| Typ - Personalization.Decision | Om beslutet fattades av [!DNL Target] eller Offer decisioning provider. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] innehåller metadata och värden för svarstoken för sidan. |
 | Meta | Metadata som skickas till sidan. |
 | Data | Värden för de metadata som skickas till sidan. |
@@ -147,11 +147,11 @@ I följande svarsexempel läggs en anpassad [!DNL Platform Web SDK]-händelsehan
 </html>
 ```
 
-### ![at.js ](/help/assets/atjs.png) badgeat.js med anpassade händelser
+### ![at.js badge](/help/assets/atjs.png) at.js med anpassade händelser
 
-Använd [at.js anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
+Använd [at.js, anpassade händelser](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) att lyssna efter [!DNL Target] svara och läsa svarstoken.
 
-Följande kodexempel lägger till en [!DNL at.js] anpassad händelsehanterare direkt på HTML-sidan:
+Följande kodexempel lägger till en [!DNL at.js] anpassad händelsehanterare direkt till HTML-sidan:
 
 ```html
 <html> 
@@ -174,9 +174,9 @@ Följande kodexempel lägger till en [!DNL at.js] anpassad händelsehanterare di
 
 **Vilken roll krävs för att aktivera eller inaktivera svarstoken?**
 
-Svarstoken kan bara aktiveras eller inaktiveras av användare med rollen [!DNL Target] [!UICONTROL Administrator].
+Svarstoken kan bara aktiveras eller inaktiveras av användare med [!DNL Target] [!UICONTROL Administrator] roll.
 
-**Vad händer om jag kör  [!DNL Platform Web SDK] 2.6.0 (eller tidigare)?**
+**Vad händer om jag springer? [!DNL Platform Web SDK] 2.6.0 (eller tidigare)?**
 
 Du har inte åtkomst till svarstoken.
 
@@ -184,21 +184,21 @@ Du har inte åtkomst till svarstoken.
 
 Svarstoken visas, men at.js kan inte använda dem.
 
-**Kan jag ha både  [!DNL Target Classic] plugin-program och svarstoken aktiva samtidigt?**
+**Kan jag få båda [!DNL Target Classic] aktiva plugin-program och svarstoken samtidigt?**
 
 Plugins och svarstoken finns tillgängliga parallellt. plugin-program kommer dock att bli inaktuella i framtiden.
 
-**Levereras svarstoken via alla  [!DNL Target] svar eller endast via  [!DNL Target] svar som levererar en aktivitet?**
+**Levereras svarstoken via alla [!DNL Target] eller bara via [!DNL Target] svar på en aktivitet?**
 
-Svarstoken levereras endast via [!DNL Target]-svar som levererar en aktivitet.
+Svarstoken levereras endast via [!DNL Target] svar som levererar en aktivitet.
 
-**Mitt  [!DNL Target Classic] plugin-program innehöll JavaScript. Hur replikerar jag funktionaliteten med hjälp av svarstoken?**
+**Min [!DNL Target Classic] plugin-programmet innehåller JavaScript. Hur replikerar jag funktionaliteten med svarstoken?**
 
-När du migrerar till svarstoken måste den här typen av JavaScript finnas i kodbas- eller tagghanteringslösningen. Du kan utlösa den här koden med anpassade [!DNL Platform Web SDK]- eller [!DNL at.js]-händelser och skicka svarstokenvärden till dina JavaScript-funktioner.
+När du migrerar till svarstoken måste den här typen av JavaScript finnas i kodbas- eller tagghanteringslösningen. Du kan aktivera den här koden med [!DNL Platform Web SDK] eller [!DNL at.js] anpassade händelser och skicka svarstokenvärden till dina JavaScript-funktioner.
 
 **Varför visas inte min profil-/kundattributparameter i svarstokenlistan?**
 
-[!DNL Target] uppdaterar normalt parametrar var 15:e minut. Den här uppdateringen är beroende av användaråtgärder och data uppdateras bara när du visar svarstokensidan. Om parametrarna inte visas i svarstokenlistan har [!DNL Target] inte uppdaterat data än.
+[!DNL Target] uppdaterar normalt parametrar var 15:e minut. Den här uppdateringen är beroende av användaråtgärder och data uppdateras bara när du visar svarstokensidan. Om parametrarna inte visas i svarslistan, [!DNL Target] har ännu inte uppdaterat data.
 
 Om parametern innehåller något annat än icke-alfanumeriska tecken eller någon annan symbol än understreck, visas inte parametern i listan. För närvarande stöds endast alfanumeriska tecken och understreck.
 
@@ -218,15 +218,15 @@ Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats f
 
 ## Skicka data till Google Analytics
 
-I följande avsnitt beskrivs hur du skickar [!DNL Target]-data till Google Analytics. Data som skickas av svarstoken kan också skickas till andra tredjepartsintegreringar.
+I följande avsnitt beskrivs hur du skickar [!DNL Target] data till Google Analytics. Data som skickas av svarstoken kan också skickas till andra tredjepartsintegreringar.
 
-### ![AEP ](/help/assets/platform.png) badgeSkicka data till Google Analytics via Platform Web SDK
+### ![AEP-märke](/help/assets/platform.png) Skicka data till Google Analytics via Platform Web SDK
 
 Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) genom att lägga till följande kod på HTML-sidan.
 
 >[!NOTE]
 >
->Kontrollera att svarstokennyckelvärdepar finns under `alloy(“sendEvent”`-objektet.
+>Kontrollera att svarstokennyckelvärdepar finns under `alloy(“sendEvent”` -objekt.
 
 ```
 <script type="text/javascript"> 
@@ -277,7 +277,7 @@ Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) g
 </script>
 ```
 
-### ![at.js ](/help/assets/atjs.png) badgeSkicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js badge](/help/assets/atjs.png) Skicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kan skicka data via at.js genom att lägga till följande kod på HTML-sidan:
 
@@ -347,7 +347,7 @@ Google Analytics kan skicka data via at.js genom att lägga till följande kod p
 
 I följande avsnitt finns information om felsökning av svarstoken:
 
-### ![at.js ](/help/assets/atjs.png) badgeGoogle Analytics och debugging
+### ![at.js badge](/help/assets/atjs.png) Google Analytics och felsökning
 
 Med följande kod kan du felsöka med Google Analytics:
 
@@ -414,7 +414,7 @@ Med följande kod kan du felsöka med Google Analytics:
 
 ### Felsöka med motsvarigheten till plug-inen ttMeta
 
-Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom att lägga till följande kod på HTML-sidan:
+Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom att följande kod läggs till på HTML-sidan:
 
 ```javascript
 <script type="text/javascript" > 
@@ -464,12 +464,12 @@ Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom a
 </script>
 ```
 
-## ![at.](/help/assets/atjs.png) jsTraining Video: Svarstoken och anpassade at.js-händelser {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/assets/atjs.png) Utbildningsvideo: Svarstoken och anpassade at.js-händelser {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-I följande video förklaras hur du använder svarstoken och anpassade at.js-händelser för att dela profilinformation från [!DNL Target] till tredjepartssystem.
+I följande video förklaras hur du använder svarstoken och anpassade at.js-händelser för att dela profilinformation från [!DNL Target] till system från tredje part.
 
 >[!NOTE]
 >
->Menygränssnittet [!DNL Target] [!UICONTROL Administration] (tidigare [!UICONTROL Setup]) har omarbetats för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är korrekt: Men alternativen finns på något olika platser.
+>The [!DNL Target] [!UICONTROL Administration] menygränssnitt (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är korrekt: Men alternativen finns på något olika platser.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

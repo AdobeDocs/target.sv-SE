@@ -1,13 +1,13 @@
 ---
-keywords: Implementering;mbox.js non javascript;adbox;redirector;mbox
-description: Lär dig hur du implementerar Adobe [!DNL Target] i icke-JavaScript-scenarier, till exempel med en AdBox eller en omdirigerare.
-title: Hur implementerar jag  [!DNL Target] för e-post?
-feature: Implementera e-post
+keywords: Implementering;at.js non javascript;adbox;redirector;mbox
+description: Lär dig implementera Adobe [!DNL Target] i icke-JavaScript-scenarier, som att använda en AdBox eller Redirector.
+title: Hur implementerar jag [!DNL Target] för e-post?
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Information om hur du implementerar Target i icke-JavaScript-scenarier, som att använda en AdBox eller Redirector.
 
-Ni kan spåra besök i annonser och annat externt innehåll. Ni kan också identifiera samma användare både på och utanför er webbplats och leverera en enhetlig upplevelse genom hela deras webbupplevelse. Med en enda URL tillåter AdBox testning utan JavaScript eller [!DNL at.js] eller [!DNL mbox.js].
+Ni kan spåra besök i annonser och annat externt innehåll. Ni kan också identifiera samma användare både på och utanför er webbplats och leverera en enhetlig upplevelse genom hela deras webbupplevelse. Med en enda URL-adress kan AdBox testa utan JavaScript eller [!DNL at.js].
 
 En AdBox är användbar för webbplatser som inte har [!DNL at.js], t.ex. filialer. Om din aktivitet behöver dynamisk kreativ (du till exempel behöver visa en produkt i annonsen som övergavs i kundvagnen) kan du inte använda en AdBox.
 
@@ -29,7 +29,7 @@ Annonser och omdirigerare kan användas med alla typer av aktiviteter. I följan
 
 ## Bästa praxis för säkerhet {#security}
 
-Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåtslista standarddomänerna för omdirigering av URL. Target använder värdar för att tillåtslista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa Tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) i *värdar*.
+Observera att med Redirector kan du utsättas för en risk för ett Open Redirect-fel. För att undvika obehörig användning av omdirigeringslänkar av tredje part rekommenderar vi att du använder &quot;auktoriserade värdar&quot; för att tillåtslista standarddomänerna för omdirigering av URL. Target använder värdar för att tillåtslista domäner som du vill tillåta omdirigeringar till. Mer information finns i [Skapa Tillåtelselista som anger värdar som har behörighet att skicka mbox-anrop till Target](/help/administrating-target/hosts.md#allowlist) in *Värdar*.
 
 ## Begränsningar {#section_38F559DCF1324271926608BCD4AB1227}
 

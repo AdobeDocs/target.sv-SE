@@ -4,9 +4,9 @@ description: Hitta förslag på hjälp med att åtgärda problem om sidan inte v
 title: Hur felsöker jag innehållsleverans?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Följande parametrar är tillgängliga:
 
 | mboxTrace-alternativ | Resultat |
 |--- |--- |
-| `?mboxTrace=console` | Skriver ut som objekt i konsolloggen.<br>I stället för att öppna ett nytt webbläsarfönster eller skriva ut till konsolen som i mbox.js måste du granska nätverksbegäran och titta under Förhandsgranska (Chrome) eller Response (Firefox). |
+| `?mboxTrace=console` | Skriver ut som objekt i konsolloggen.<br>I stället för att öppna ett nytt webbläsarfönster eller skriva ut till konsolen som i mbox.js (nu föråldrat), måste du granska nätverksbegäran och titta under Förhandsgranska (Chrome) eller Response (Firefox). |
 | `?mboxTrace=json` | Skriver ut i konsolloggen som en literal JSON-sträng |
 | `?mboxTrace=window` | Skriver ut i ett popup-fönster som en JSON-sträng |
 | `?mboxTrace=disable` | Inaktiverar spårningssessionsläge |
