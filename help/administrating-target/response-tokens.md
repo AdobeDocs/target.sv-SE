@@ -5,9 +5,9 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
    |  | `profile.thirdPartyId` | Returnerar besökarens tredjeparts-ID. |
    |  | `profile.categoryAffinity` | Returnerar besökarens favoritkategori. |
    |  | `profile.categoryAffinities` | Returnerar en array med besökarens fem populäraste kategorier som strängar. |
-   | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Information om den aktuella aktiviteten. Observera att&quot;option&quot; är lika med&quot;offer&quot;. |
+   | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Information om den aktuella aktiviteten.<br> Observera att värdena för parametrarna för erbjudanden utvärderas på erfarenhetsnivå. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Se [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) om du vill ha mer information om hur du använder geolokalisering i aktiviteter. |
    | Trafikallokeringsmetod<br>(Gäller för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] endast aktiviteter.) | `experience.trafficAllocationId` | Returnerar 0 om en besökare har fått en upplevelse av att vara i&quot;kontrolltrafik&quot; och 1 om en besökare har fått en upplevelse av den&quot;riktade&quot; trafikfördelningen. |
    |  | `experience.trafficAllocationType` | Returnera&quot;control&quot; eller&quot;target&quot;. |
