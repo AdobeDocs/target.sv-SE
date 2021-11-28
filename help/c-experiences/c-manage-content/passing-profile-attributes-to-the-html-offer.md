@@ -4,9 +4,9 @@ description: Lär dig hur du skickar dynamiska data till [!DNL Adobe Target] Erb
 title: Hur överför jag dynamiska data till erbjudanden?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -81,4 +81,4 @@ Du kan också visa värden för escape och unescape. Om värdet till exempel har
 
 För erbjudandeparametrar (offer.name, offer.id) som används i innehållet i ett erbjudande:
 
-Om det erbjudandet är en av flera uppsättningar för en upplevelse fyller värdet på det senast tillagda erbjudandet parameterns värde. Det innebär att dessa parametrar utvärderas på upplevelsenivå.
+Om det erbjudandet är ett av flera erbjudanden för en upplevelse fyller värdet på det senaste tillagda erbjudandet parameterns värde. Det innebär att dessa parametrar utvärderas på upplevelsenivå.
