@@ -5,9 +5,9 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1614'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    ![](assets/response_tokens-new.png)
 
-1. Aktivera önskade svarstoken, t.ex. `activity.id` och `option.id`.
+1. Aktivera önskade svarstoken, t.ex. `activity.id` och `offer.id`.
 
    Följande parametrar är tillgängliga som standard:
 
@@ -435,8 +435,8 @@ Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom a
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ I följande video förklaras hur du använder svarstoken och anpassade at.js-hä
 >[!NOTE]
 >
 >The [!DNL Target] [!UICONTROL Administration] menygränssnitt (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är korrekt: Men alternativen finns på något olika platser.
+>
+>Videon omnämns `option.name` och `option.id`som har ersatts med `offer.name` och `offer.id`, respektive.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
