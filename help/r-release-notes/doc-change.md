@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
+source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
 workflow-type: tm+mt
-source-wordcount: '3001'
+source-wordcount: '3034'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 2 december | [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Cart-Based-algoritmen har uppdaterats för att inkludera att rekommendationsnycklarna levereras via mbox-parametern cartIds i kommaseparerade värden. Endast de första 10 värdena beaktas. |
 | 18 november | [Ändringar](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | En anteckning på raden Mbox som anger att rutor inte längre stöds i [!UICONTROL Visual Experience Composer] (VEC) på sidor som använder at.js 2.*x*. |
 | 16 november | [Kundattribut](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Lagt till information om begränsningar för filöverföring med en länk till [Om datafiler och datakällor för kundattribut](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) i *Handbok för gränssnittskomponenter i Experience Cloud Central*. |
 |  | [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Uppdaterat&quot;Hur påverkar Google Chrome SameSite cookie-reglerna VEC och EEC?&quot; med information om den senaste versionen av hjälptillägget. |
