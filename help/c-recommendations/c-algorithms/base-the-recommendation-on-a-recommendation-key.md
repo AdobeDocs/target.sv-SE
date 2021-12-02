@@ -5,9 +5,9 @@ title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
+source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
 workflow-type: tm+mt
-source-wordcount: '3769'
+source-wordcount: '3768'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Om du väljer algoritmen Mest visade av kategori kan du välja följande Recomme
 
 ### Top by Analytics Metric
 
-Visar&quot;Övre x&quot; där x är en godtycklig [!DNL Analytics] mätvärden. När du använder beteendedata från kartonger kan du bara använda Säljd i överkant eller Visad i överkant (x = &quot;Sold&quot; eller x = &quot;Viewed&quot;). Om du använder beteendedata från [!DNL Adobe Analytics]kan du använda x = &quot;kundvagnstillägg&quot; eller något annat [!DNL Analytics] mätvärden.
+Visar &quot;Övre x&quot; där *x* är en godtycklig [!DNL Analytics] mätvärden. När du använder beteendedata från kartonger kan du använda Översålt eller Översiktat (x = &quot;Sold&quot; eller x = &quot;Viewed&quot;). Om du använder beteendedata från [!DNL Adobe Analytics]kan du använda x = &quot;kundvagnstillägg&quot; eller något annat [!DNL Analytics] mätvärden.
 
 ## [!UICONTROL Item-Based]
 
