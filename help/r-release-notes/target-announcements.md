@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
+source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,6 @@ ht-degree: 0%
 # Målmeddelanden och evenemang
 
 Kommentarer och information om kommande evenemang, inklusive [!DNL Adobe Target] Sessioner, chatt, webbinarier och [!DNL Target] Sessioner med kaffebrytning.
-
-## [!DNL Adobe Target] Community Q&amp;A Coffee Break (10 november 2021)
-
-* **onsdagen den 10 november 2021**
-* **08.00. (PST, UTC-8)**
-* **[Mer information och registreringsinformation](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
-
-Cristinel &quot;Muti&quot; Anastasoaie, Senior Product Manager för [!DNL Adobe Target], kommer att besvara dina frågor om hans expertområden:
-
-* [!DNL Target] användargränssnitt
-* [!DNL Target] integreringar
-* [!UICONTROL Enterprise permissions] och [!UICONTROL workspaces]
 
 ## [!DNL Adobe Target] Community Q&amp;A Coffee Break (8 december 2021)
 
@@ -36,7 +24,7 @@ Cristinel &quot;Muti&quot; Anastasoaie, Senior Product Manager för [!DNL Adobe 
 Robert Calangiu, Senior Product Manager för [!DNL Adobe Target], kommer att besvara dina frågor om hans expertområden:
 
 * [!DNL Target] konfigurera och administrera användargränssnitt
-* [!UICONTROL Analytics for Target] Integrering med (A4T)
+* [!UICONTROL Analytics for Target] (A4T)-integrering
 * [!DNL Adobe Audience Manager] (AEM) integrering
 * Allmänt [!DNL Target] UI
 
