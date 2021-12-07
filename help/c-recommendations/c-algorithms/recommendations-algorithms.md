@@ -4,14 +4,14 @@ description: Läs mer om algoritmerna som används i [!DNL Target Recommendation
 title: Var kan jag lära mig mer om vetenskapen bakom Recommendations algoritmer?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '2694'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Vetenskap bakom Recommendations algoritmer
+# ![PREMIUM](/help/assets/premium.png) Forskningen bakom Recommendations algoritmer
 
 En ingående beskrivning av algoritmerna som används i [!DNL Adobe Target Recommendations], inklusive logik och matematiska detaljer i modellutbildning och modelleringsprocessen.
 
@@ -91,7 +91,7 @@ Här följer information om de här stegen:
 
 * **Modellutbildning**:
 
-   * **Attributextrahering**: Efter användning av vanliga statiska filter, katalogregler och globala undantag extraherar den här algoritmen relevanta textfält från entitetsschemat. [!DNL Target] använder namn-, meddelande- och kategorifälten från entitetsattributen och försöker extrahera alla strängfält från anpassade [entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md). Detta görs genom att säkerställa att merparten av värdena för fältet inte kan tolkas som ett tal, datum eller booleskt värde.
+   * **Attributextrahering**: Efter användning av vanliga statiska filter, katalogregler och globala undantag extraherar den här algoritmen relevanta textfält från entitetsschemat. [!DNL Target] använder namn-, meddelande- och kategorifälten från entitetsattributen och försöker extrahera alla strängfält från anpassade [entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md). Detta görs genom att se till att merparten av värdena för det fältet inte kan tolkas som ett tal, datum eller booleskt värde.
    * **Ordstam och ordstopp**: För exaktare matchning av textlikhet är det klokt att ta bort mycket vanliga &quot;stopp&quot;-ord som inte ändrar innebörden av ett objekt i någon större utsträckning (t.ex. &quot;var&quot;, &quot;is&quot;, &quot;och&quot; o.s.v.). På samma sätt hänvisar ordstammen till processen att minska ord med olika suffix till deras rotord, som har en identisk betydelse (till exempel &quot;connect&quot;, &quot;connecting&quot; och &quot;connection&quot;), som alla har samma rotord: &quot;connect&quot;). [!DNL Target] använder Snowball-stammen. [!DNL Target] utför automatisk språkidentifiering först, och kan stoppa ordborttagning för upp till 50 språk och härleda för 18 språk.
    * **Skapa n-gram**: Efter föregående steg behandlas varje ord som en token. Att kombinera sekvenser av variabler i en enda token kallas för att skapa n-gram. [!DNL Target]Algoritmer tar upp till 2 gram.
    * **tf-idf-beräkning**: Nästa steg är att skapa tf-idf-vektorer som återspeglar tokens relativa betydelse i objektbeskrivningen. För varje token/term t i ett objekt i, i en katalog D med |D| objekt, termen frekvens TF(t, i) beräknas först (antalet gånger termen visas i objektet i) samt dokumentfrekvensen DF(t, D). Det vill säga antalet objekt där token finns. Tf-idf-måttet är sedan
