@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
       + Användare {#users}
          + [Översikt över användare](administrating-target/c-user-management/c-user-management/user-management.md)
          + [Felsöka användarhantering](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
-      + Företagsanvändarbehörigheter {#enterprise}
+      + Enterprise-användarbehörigheter {#enterprise}
          + [Enterprise-användarbehörigheter](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurera företagsbehörigheter](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Ge Adobe I/O integreringar åtkomst till arbetsytor och tilldela roller](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
@@ -76,11 +76,11 @@ ht-degree: 0%
          + [Sekretess- och dataskyddsbestämmelser](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Målcookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [Ta bort målcookien](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Google Chrome SameSite cookie-principer](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Cookiprinciper för Google Chrome SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [CSP-direktiv (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
          + [Tillåtelselista: Hörnkantsnoder](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
-      + Metoder för att hämta data till målet {#methods}
+      + Metoder för att hämta data till Target {#methods}
          + [Översikt över metoder](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Sidparametrar](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
          + [Profilattribut på sidan](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
@@ -114,7 +114,7 @@ ht-degree: 0%
             + [Implementera mål utan tagghanterare](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [Implementera mål med Dynamic Tag Manager (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [Implementera mål för enkelsidiga program (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-         + at.js-funktioner {#functions-overview}
+         + Funktionerna at.js {#functions-overview}
             + [at.js - funktionsöversikt](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
             + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
             + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
@@ -191,7 +191,7 @@ ht-degree: 0%
    + [Experience Cloud målgrupper](c-integrating-target-with-mac/mmp.md)
    + [Integrera Target med Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrera Target med Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
-+ Aktiviteter {#activities}
++ Verksamhet {#activities}
    + [Översikt över aktiviteter](c-activities/activities.md)
    + [Målaktivitetstyper](c-activities/target-activities-guide.md)
    + A/B-test {#abtest}
@@ -208,7 +208,7 @@ ht-degree: 0%
          + [Använd analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Målgrupper med olika upplevelser i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-   + Allokera automatiskt {#auto-allocate}
+   + Automatisk allokering {#auto-allocate}
       + [Automatisk allokering - översikt](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Skapa en automatiskt fördelad aktivitet](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -258,7 +258,7 @@ ht-degree: 0%
    + [Redigera en aktivitet eller spara som utkast](c-activities/edit-activity.md)
    + [Prioritet](c-activities/priority.md)
    + [Aktivitetsinställningar](c-activities/activity-settings.md)
-   + Resultatmått {#success-metrics}
+   + Framgångsmått {#success-metrics}
       + [Framgångsmått](c-activities/r-success-metrics/success-metrics.md)
       + [Klickspårning](c-activities/r-success-metrics/click-tracking.md)
       + [Hämta poäng](c-activities/r-success-metrics/capture-score.md)
@@ -304,7 +304,7 @@ ht-degree: 0%
       + [Profil och variabel ordlista](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Mål och målgrupper Frågor och svar {#faq-audiences}
       + [Mål och målgrupper Frågor och svar](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-+ Upplevelser och erbjudanden {#experiences}
++ Erfarenheter och erbjudanden {#experiences}
    + [Översikt över upplevelser och erbjudanden](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Översikt över Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
@@ -378,6 +378,7 @@ ht-degree: 0%
       + [Skapa villkor](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Skapa villkorssekvenser](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Vetenskap bakom Recommendations algoritmer](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Överför anpassade villkor](c-recommendations/c-algorithms/recommendations-csv.md)
       + Dynamiska och statiska inkluderingsregler {#dynamic-static}
          + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
@@ -400,7 +401,7 @@ ht-degree: 0%
       + [Recommendations aktivitetsinställningar](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Förhandsgranska och starta din Recommendations-aktivitet](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations som erbjudande](c-recommendations/recommendations-as-an-offer.md)
-   + Vanliga frågor och svar {#recommendations-faq}
+   + Frågor och svar {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Integrera Recommendations med e-post](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [IP-adresser som används av Recommendations feed-bearbetningsservrar](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
