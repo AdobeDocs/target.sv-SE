@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ ht-degree: 0%
       + [Skapa villkor](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Skapa villkorssekvenser](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [Forskningen bakom Recommendations algoritmer](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      + [Forskningen bakom Target:s rekommendationsalgoritmer](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Överför anpassade villkor](c-recommendations/c-algorithms/recommendations-csv.md)
       + Dynamiska och statiska inkluderingsregler {#dynamic-static}
          + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)

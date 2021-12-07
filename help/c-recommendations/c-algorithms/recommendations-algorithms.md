@@ -1,17 +1,17 @@
 ---
 keywords: rekommendationer, algoritmer;modellutbildning;modellvisning;innehållsleverans;objektbaserad;användarbaserad;popularitetsbaserad;kundbaserad;kundbaserad;anpassade kriterier
 description: Läs mer om algoritmerna som används i [!DNL Target Recommendations], inklusive modellutbildning och modellhantering.
-title: Var kan jag lära mig mer om vetenskapen bakom Recommendations algoritmer?
+title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algorithms?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2696'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Forskningen bakom Recommendations algoritmer
+# ![PREMIUM](/help/assets/premium.png) Forskningen bakom Target:s rekommendationsalgoritmer
 
 En ingående beskrivning av algoritmerna som används i [!DNL Adobe Target Recommendations], inklusive logik och matematiska detaljer i modellutbildning och modelleringsprocessen.
 
@@ -91,7 +91,7 @@ Här följer information om de här stegen:
 
 * **Modellutbildning**:
 
-   * **Attributextrahering**: Efter användning av vanliga statiska filter, katalogregler och globala undantag extraherar den här algoritmen relevanta textfält från entitetsschemat. [!DNL Target] använder namn-, meddelande- och kategorifälten från entitetsattributen och försöker extrahera alla strängfält från anpassade [entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md). Detta görs genom att se till att merparten av värdena för det fältet inte kan tolkas som ett tal, datum eller booleskt värde.
+   * **Attributextrahering**: Efter användning av vanliga statiska filter, katalogregler och globala undantag extraherar den här algoritmen relevanta textfält från entitetsschemat. [!DNL Target] använder namn-, meddelande- och kategorifälten från entitetsattributen och försöker extrahera alla strängfält från anpassade [entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md). Detta görs genom att säkerställa att merparten av värdena för fältet inte kan tolkas som ett tal, datum eller booleskt värde.
    * **Ordstam och ordstopp**: För exaktare matchning av textlikhet är det klokt att ta bort mycket vanliga &quot;stopp&quot;-ord som inte ändrar innebörden av ett objekt i någon större utsträckning (t.ex. &quot;var&quot;, &quot;is&quot;, &quot;och&quot; o.s.v.). På samma sätt hänvisar ordstammen till processen att minska ord med olika suffix till deras rotord, som har en identisk betydelse (till exempel &quot;connect&quot;, &quot;connecting&quot; och &quot;connection&quot;), som alla har samma rotord: &quot;connect&quot;). [!DNL Target] använder Snowball-stammen. [!DNL Target] utför automatisk språkidentifiering först, och kan stoppa ordborttagning för upp till 50 språk och härleda för 18 språk.
    * **Skapa n-gram**: Efter föregående steg behandlas varje ord som en token. Att kombinera sekvenser av variabler i en enda token kallas för att skapa n-gram. [!DNL Target]Algoritmer tar upp till 2 gram.
    * **tf-idf-beräkning**: Nästa steg är att skapa tf-idf-vektorer som återspeglar tokens relativa betydelse i objektbeskrivningen. För varje token/term t i ett objekt i, i en katalog D med |D| objekt, termen frekvens TF(t, i) beräknas först (antalet gånger termen visas i objektet i) samt dokumentfrekvensen DF(t, D). Det vill säga antalet objekt där token finns. Tf-idf-måttet är sedan
@@ -106,7 +106,7 @@ Här följer information om de här stegen:
 
       För att undvika en betydande komplexitet när det gäller att beräkna likheter mellan alla N x N-poster har *tf-idf* vektorn trunkeras så att den bara innehåller sina största 500 poster och sedan beräknas cosinus-likheter mellan objekten med denna trunkerade vektorrepresentation. Detta tillvägagångssätt visar sig vara mer robust för likhetsberäkningar för gles vektor, jämfört med andra approximativa närliggande (ANN) tekniker, t.ex. lokaliseringskänslig hash.
 
-* **Modelltjänst**: Den här processen är identisk med samarbetsfiltreringstekniker för objektobjekt som beskrivs i föregående avsnitt.
+   * **Modelltjänst**: Den här processen är identisk med samarbetsfiltreringstekniker för objektobjekt som beskrivs i föregående avsnitt.
 
 ## Rekommendationer med flera tangenter
 
@@ -137,7 +137,7 @@ Här följer information om de här stegen:
 
    ![FormelFormel](assets/formula4.png)
 
-   * **Utvärdering av objektlikhetsmodell**: Modellutvärderingen görs genom att rekommendationerna som genererades i det föregående steget följs och att man gör prognoser för testdatauppsättningen. Onlinebedömningsfasen härleds genom att varje användares objektanvändning i testdatauppsättningen ordnas kronologiskt och sedan görs 100 rekommendationer för ordnade deluppsättningar av objekt i ett försök att förutse efterföljande vyer och inköp. En informationshämtning, [Genomsnittlig precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)) används för att utvärdera kvaliteten på dessa rekommendationer. Detta mätresultat tar hänsyn till rekommendationsordningen och prioriterar relevanta poster högre upp i listan över rekommendationer, som är en viktig egenskap för rangordningssystem.
+   * **Utvärdering av objektlikhetsmodell**: Modellutvärderingen görs genom att rekommendationerna som genererades i det föregående steget följs och att man gör prognoser för testdatauppsättningen. Onlinebedömningsfasen härleds genom att varje användares objektanvändning i testdatauppsättningen ordnas kronologiskt och sedan görs 100 rekommendationer för ordnade deluppsättningar av objekt i ett försök att förutse efterföljande vyer och inköp. En informationshämtning, [Genomsnittlig precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), används för att utvärdera kvaliteten på dessa rekommendationer. Detta mätresultat tar hänsyn till rekommendationsordningen och prioriterar relevanta poster högre upp i listan över rekommendationer, som är en viktig egenskap för rangordningssystem.
    * **Modellval**: Efter offlineutvärdering väljs den modell som har den högsta genomsnittliga precisionen och alla rekommendationer för enskilda artiklar beräknas för den.
    * **Offlinefiltrering**: Det sista steget i modellutbildningen är att tillämpa eventuella tillämpliga dynamiska filter. Efter det här steget cachelagras förberäknade rekommendationer globalt så att de kan användas.
 
