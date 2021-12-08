@@ -4,9 +4,9 @@ description: Läs mer om algoritmerna som används i [!DNL Target Recommendation
 title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algorithms?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2740'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Ett exempel på en sådan likhet är den samförekomst som finns mellan objekten
 
 Om
 
-![Formel](assets/formula.png)
+![Formel för den visade/köpta algoritmen](assets/formula.png)
 
 bör punkt B inte rekommenderas för post A. Fullständig information om den här likhetsberäkningen av loggsannolikhetsgrad finns [i PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 Det logiska flödet för den faktiska algoritmimplementeringen visas i följande schematiska diagram:
 
-![Schematiskt diagram](assets/diagram1.png)
+![Schematiskt diagram över en visad/köpt algoritm](assets/diagram1.png)
 
 Här följer information om de här stegen:
 
@@ -83,7 +83,7 @@ I den här typen av algoritm anses två objekt vara relaterade om deras namn och
 
 Även om modellservning och innehållsleverans är [!DNL Target]Likhetsalgoritmer för innehåll är identiska med andra objektbaserade algoritmer. Modellutbildningsstegen är helt olika och omfattar en serie naturliga språkbehandlings- och förbearbetningssteg enligt bilden nedan. Kärnan i likhetsberäkningen är användningen av den koniska likheten hos modifierade tf-idf-vektorer som representerar varje objekt i katalogen.
 
-![Diagram 2](assets/diagram2.png)
+![Diagram som visar flödet i likhetsprocessen för innehåll](assets/diagram2.png)
 
 Här följer information om de här stegen:
 
@@ -91,18 +91,18 @@ Här följer information om de här stegen:
 
 * **Modellutbildning**:
 
-   * **Attributextrahering**: Efter användning av vanliga statiska filter, katalogregler och globala undantag extraherar den här algoritmen relevanta textfält från entitetsschemat. [!DNL Target] använder namn-, meddelande- och kategorifälten från entitetsattributen och försöker extrahera alla strängfält från anpassade [entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md). Detta görs genom att säkerställa att merparten av värdena för fältet inte kan tolkas som ett tal, datum eller booleskt värde.
+   * **Attributextrahering**: Efter användning av vanliga statiska filter, katalogregler och globala undantag extraherar den här algoritmen relevanta textfält från entitetsschemat. [!DNL Target] använder namn-, meddelande- och kategorifälten från entitetsattributen och försöker extrahera alla strängfält från anpassade [entitetsattribut](/help/c-recommendations/c-products/entity-attributes.md). Detta görs genom att se till att merparten av värdena för det fältet inte kan tolkas som ett tal, datum eller booleskt värde.
    * **Ordstam och ordstopp**: För exaktare matchning av textlikhet är det klokt att ta bort mycket vanliga &quot;stopp&quot;-ord som inte ändrar innebörden av ett objekt i någon större utsträckning (t.ex. &quot;var&quot;, &quot;is&quot;, &quot;och&quot; o.s.v.). På samma sätt hänvisar ordstammen till processen att minska ord med olika suffix till deras rotord, som har en identisk betydelse (till exempel &quot;connect&quot;, &quot;connecting&quot; och &quot;connection&quot;), som alla har samma rotord: &quot;connect&quot;). [!DNL Target] använder Snowball-stammen. [!DNL Target] utför automatisk språkidentifiering först, och kan stoppa ordborttagning för upp till 50 språk och härleda för 18 språk.
    * **Skapa n-gram**: Efter föregående steg behandlas varje ord som en token. Att kombinera sekvenser av variabler i en enda token kallas för att skapa n-gram. [!DNL Target]Algoritmer tar upp till 2 gram.
    * **tf-idf-beräkning**: Nästa steg är att skapa tf-idf-vektorer som återspeglar tokens relativa betydelse i objektbeskrivningen. För varje token/term t i ett objekt i, i en katalog D med |D| objekt, termen frekvens TF(t, i) beräknas först (antalet gånger termen visas i objektet i) samt dokumentfrekvensen DF(t, D). Det vill säga antalet objekt där token finns. Tf-idf-måttet är sedan
 
-      ![Formel](assets/formula2.png)
+      ![Formel som visar tf-idf-mått](assets/formula2.png)
 
       [!DNL Target] använder Apache Sparks *tf-idf* funktionsimplementering, som under huven hashar varje token till ett utrymme på 218 tokens. I det här steget tillämpas också den kundspecificerade attributförbättringen och nedladdningen genom att termfrekvenserna i varje vektor justeras baserat på inställningarna i [kriterier](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Beräkning av likhet i objekt**: Den sista likhetsberäkningen för objekt görs med en ungefärlig cosinuslikhet. För två objekt: *A* och *B*, med vektorerna tA och tB, definieras cosinus-likhet som:
 
-      ![FormelFormel](assets/formula3.png)
+      ![Formel som visar beräkning av likhet för objekt](assets/formula3.png)
 
       För att undvika en betydande komplexitet när det gäller att beräkna likheter mellan alla N x N-poster har *tf-idf* vektorn trunkeras så att den bara innehåller sina största 500 poster och sedan beräknas cosinus-likheter mellan objekten med denna trunkerade vektorrepresentation. Detta tillvägagångssätt visar sig vara mer robust för likhetsberäkningar för gles vektor, jämfört med andra approximativa närliggande (ANN) tekniker, t.ex. lokaliseringskänslig hash.
 
@@ -121,7 +121,7 @@ Dessa algoritmer bygger på de grundläggande filtertekniker för samarbete som 
 
 Logiken i modellutbildning och poängsättning visas i följande diagram:
 
-![Diagram](assets/diagram3.png)
+![Diagram som visar logiken i modellutbildning och poängsättning](assets/diagram3.png)
 
 Här följer information om de här stegen:
 
@@ -135,7 +135,7 @@ Här följer information om de här stegen:
 
    Utbildningssteget beräknar flera typer av likheter med vektorer: LLR-likhet ([här](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), cosinus likhet (definierad tidigare) och en normaliserad L2-likhet, definierad som:
 
-   ![FormelFormel](assets/formula4.png)
+   ![Formel som visar beräkning av utbildning](assets/formula4.png)
 
    * **Utvärdering av objektlikhetsmodell**: Modellutvärderingen görs genom att rekommendationerna som genererades i det föregående steget följs och att man gör prognoser för testdatauppsättningen. Onlinebedömningsfasen härleds genom att varje användares objektanvändning i testdatauppsättningen ordnas kronologiskt och sedan görs 100 rekommendationer för ordnade deluppsättningar av objekt i ett försök att förutse efterföljande vyer och inköp. En informationshämtning, [Genomsnittlig precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), används för att utvärdera kvaliteten på dessa rekommendationer. Detta mätresultat tar hänsyn till rekommendationsordningen och prioriterar relevanta poster högre upp i listan över rekommendationer, som är en viktig egenskap för rangordningssystem.
    * **Modellval**: Efter offlineutvärdering väljs den modell som har den högsta genomsnittliga precisionen och alla rekommendationer för enskilda artiklar beräknas för den.
@@ -149,7 +149,7 @@ Här följer information om de här stegen:
 
 De här processerna illustreras i följande bild, där en besökare har visat objekt A och köpt objekt B. Individuella rekommendationer hämtas med likhetspoängen offline som visas under varje objektetikett. Efter hämtning sammanfogas rekommendationerna med viktade likhetsresultat. I ett scenario där kunden har angett att tidigare visade och köpta artiklar måste filtreras bort, tar filtreringssteget bort A och B från listan med rekommendationer.
 
-![DiagramDiagram](assets/diagram4.png)
+![Diagram som visar bearbetning av flernyckelalgoritmer](assets/diagram4.png)
 
 ## Popularitetsbaserad
 
