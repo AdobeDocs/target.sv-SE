@@ -1,13 +1,13 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
-description: Använd funktionen adobe.target.getOffers() och dess alternativ för Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] erbjudandena. (at.js 2.x)
+description: Använd funktionen adobe.target.getOffers() och dess alternativ för Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] erbjudanden. (at.js 2.x)
 title: Hur använder jag funktionen adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
+source-git-commit: 40173370840d1bcc8582bf7bec51e5ef8b1ae53b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 
 | Nyckel | Typ | Obligatoriskt? | Beskrivning |
 | --- | --- | --- | --- |
-| `consumerId` | Sträng | Nej | Standardvärdet är klientens globala mbox om den inte anges. Den här nyckeln används för att generera det extra data-ID (SDID) som används för A4T-integrering.<br>När du använder  `getOffers()`det genererar varje anrop ett nytt SDID. Om du har flera mbox-begäranden på samma sida och vill bevara SDID (så att det matchar SDID:t från target-global-mbox och Adobe Analytics SDID) använder du parametern `consumerId`.<br>Om  `getOffers()` innehåller tre mbox-rutor (mbox1, mbox2 och mbox3):  `consumerId: "mbox1, mbox2, mbox3"` i  `getOffers()` samtalet. |
+| `consumerId` | Sträng | Nej | Standardvärdet är klientens globala mbox om den inte anges. Den här nyckeln används för att generera det extra data-ID (SDID) som används för A4T-integrering.<br>När du använder `getOffers()`genererar varje anrop ett nytt SDID. Om du har flera mbox-begäranden på samma sida och vill bevara SDID (så att det matchar SDID:t från mål-global-mbox och Adobe Analytics SDID) använder du `consumerId` parameter.<br>If `getOffers()` innehåller tre rutor (mbox1, mbox2 och mbox3): `consumerId: "mbox1, mbox2, mbox3"` i `getOffers()` ring. |
 | `decisioningMethod` | Sträng | Nej | &quot;server-side&quot;, &quot;on device&quot;, &quot;hybrid&quot; |
 | `request` | Objekt | Ja | Se tabellen över förfrågningar nedan. |
 | `timeout` | Nummer | Nej | Timeout för begäran. Om inget anges används standardtimeout för at.js. |
@@ -31,48 +31,48 @@ Med den här funktionen kan du hämta flera erbjudanden genom att skicka in fler
 
 >[!NOTE]
 >
->Läs dokumentationen för [leverans-API](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) om du vill ha information om vilka typer som kan användas för alla fält som listas nedan.
+>Läs [Dokumentation för leverans-API](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) för information om godkända typer för alla fält som listas nedan.
 
 | Fältnamn | Obligatoriskt? | Begränsningar | Beskrivning |
 | --- | --- | --- | --- |
-| request > id | Nej |  | Ett av `tntId`, `thirdPartyId` eller `marketingCloudVisitorId` krävs. |
+| request > id | Nej |  | En av `tntId`, `thirdPartyId`, eller `marketingCloudVisitorId` krävs. |
 | Begäran > id > thirdPartyId | Nej | Maximal storlek = 128. |  |  |
 | Request > experienceCloud | Nej |  |  |
 | Request > experienceCloud > analytics | Nej |  | Integrering med Adobe Analytics |
 | Request > experienceCloud > analytics > log | Nej | Följande måste implementeras på sidan:<ul><li>Tjänst för besökar-ID</li><li>Appmeasurement.js</li></ul> | Följande värden stöds:<br>**client_side**: När det anges returneras en analyslast till anroparen som ska användas för att skicka till Adobe Analytics via API:t för datainmatning.<br>**server_side**: Det här är standardvärdet där Target- och Analytics-serverdelen använder SDID för att sammanfoga anropen i rapporteringssyfte. |
 | Begäran > förhämtning | Nej |  |  |
-| Request > prefetch > views | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Värdelängd  `<=` 5000.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Ange parametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
-| Request > prefetch > views > profileParameters | Nej | Maximantal 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Värdelängd  `<=` 5000.<br>Accepterar endast strängvärden.<br>Namnet får inte börja med &quot;profile&quot;. | Ange profilparametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Request > prefetch > views | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd `<=` 128.<br>Värdelängd `<=` 5000.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Ange parametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Request > prefetch > views > profileParameters | Nej | Maximantal 50.<br>Namnet är inte tomt.<br>Namnlängd `<=` 128.<br>Värdelängd `<=` 5000.<br>Accepterar endast strängvärden.<br>Namnet får inte börja med &quot;profile&quot;. | Ange profilparametrar som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
 | Request > prefetch > views > product | Nej |  |  |
 | Request > prefetch > views > product -> id | Nej | Inte tom.<br>maxstorlek = 128. | Ange produkt-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
 | Request > prefetch > views > product > categoryId | Nej | Inte tom.<br>maxstorlek = 128. | Ange produktkategori-ID:n som ska användas för att hämta relevanta vyer i aktiviteter. |
 | Request > prefetch > views > order | Nej |  |  |
 | Begäran > förhämtning > vyer > ordning > id | Nej | Maximal längd = 250. | Ange beställnings-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
 | Request > prefetch > views > order > total | Nej | Totalt `>=` 0. | Ange ordersummor som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
-| Request > prefetch > views > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värde har maxlängden 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Produkt-ID:n, total längd  `<=` 250. | Skicka in köpta produkt-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
+| Request > prefetch > views > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värde har maxlängden 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Total längd för produkt-ID `<=` 250. | Skicka in köpta produkt-ID:n som ska användas för att hämta relevanta vyer i aktiva aktiviteter. |
 | Begäran > Kör | Nej |  |  |
 | Request > execute > pageLoad | Nej |  |  |
-| Request > execute > pageLoad > parameters | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Värdelängd  `<=` 5000.<br>Accepterar endast strängvärden.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Hämta erbjudanden med angivna parametrar när sidan läses in. |
-| Request > execute > pageLoad > profileParameters | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Värdelängd  `<=`256.<br>Namnet får inte börja med &quot;profile&quot;.<br>Accepterar endast strängvärden. | Hämta erbjudanden med angivna profilparametrar när sidan läses in. |
+| Request > execute > pageLoad > parameters | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd `<=` 128.<br>Värdelängd `<=` 5000.<br>Accepterar endast strängvärden.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Hämta erbjudanden med angivna parametrar när sidan läses in. |
+| Request > execute > pageLoad > profileParameters | Nej | Högsta antal 50.<br>Namnet är inte tomt.<br>Namnlängd `<=` 128.<br>Värdelängd `<=`256.<br>Namnet får inte börja med &quot;profile&quot;.<br>Accepterar endast strängvärden. | Hämta erbjudanden med angivna profilparametrar när sidan läses in. |
 | Request > execute > pageLoad > product | Nej |  |  |
 | Request > execute > pageLoad > product -> id | Nej | Inte tom.<br>Maximal storlek = 128. | Hämta erbjudanden med angivna produkt-ID:n när sidan läses in. |
 | Request > execute > pageLoad > product > categoryId | Nej | Inte tom.<br>Maximal storlek = 128. | Hämta erbjudanden med angivna produktkategori-ID:n när sidan läses in. |
 | Request > execute > pageLoad > order | Nej |  |  |
 | Request > execute > pageLoad > order > id | Nej | Maximal längd = 250. | Hämta erbjudanden med angivna order-ID:n när sidan läses in. |
 | Request > execute > pageLoad > order > total | Nej | `>=` 0. | Hämta erbjudanden med angivna ordersummor när sidan läses in. |
-| Request > execute > pageLoad > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värde har maxlängden 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Produkt-ID:n, total längd  `<=` 250. | Hämta erbjudanden med angivna produkt-ID:n när sidan läses in. |
+| Request > execute > pageLoad > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värde har maxlängden 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Total längd för produkt-ID `<=` 250. | Hämta erbjudanden med angivna produkt-ID:n när sidan läses in. |
 | Request > execute > mboxes | Nej | Maximal storlek = 50.<br>Inga null-element. |  |
-| Request > execute > mboxes>mbox | Ja | Inte tom.<br>Inget &#39;-klickat&#39;-suffix.<br>Maximal storlek = 250.<br>Tillåtna tecken:  `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Namn på mbox. |
+| Request > execute > mboxes>mbox | Ja | Inte tom.<br>Inget &#39;-klickat&#39;-suffix.<br>Maximal storlek = 250.<br>Tillåtna tecken: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Namn på mbox. |
 | Begäran > Kör > mbox>mbox>index | Ja | Inte null.<br>Unik.<br>`>=` 0. | Observera att indexet inte representerar den ordning i vilken rutorna bearbetas. På samma sätt som på en webbsida med flera regionala kryssrutor kan ordningen som de ska bearbetas i inte anges. |
-| Request > execute > mboxes > mbox > parameters | Nej | Högsta antal = 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Accepterar endast strängvärden.<br>Värdelängd  `<=` 5000.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Hämta erbjudanden för en given mbox med de angivna parametrarna. |
-| Request > execute > mboxes>mbox>profileParameters | Nej | Högsta antal = 50.<br>Namnet är inte tomt.<br>Namnlängd  `<=` 128.<br>Accepterar endast strängvärden.<br>Värdelängd  `<=`256.<br>Namnet får inte börja med &quot;profile&quot;. | Hämta erbjudanden för en given mbox med de angivna profilparametrarna. |
+| Request > execute > mboxes > mbox > parameters | Nej | Högsta antal = 50.<br>Namnet är inte tomt.<br>Namnlängd `<=` 128.<br>Accepterar endast strängvärden.<br>Värdelängd `<=` 5000.<br>Namnet får inte börja med &quot;profile&quot;.<br>Otillåtna namn: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Hämta erbjudanden för en given mbox med de angivna parametrarna. |
+| Request > execute > mboxes>mbox>profileParameters | Nej | Högsta antal = 50.<br>Namnet är inte tomt.<br>Namnlängd `<=` 128.<br>Accepterar endast strängvärden.<br>Värdelängd `<=`256.<br>Namnet får inte börja med &quot;profile&quot;. | Hämta erbjudanden för en given mbox med de angivna profilparametrarna. |
 | Request > execute > mboxes>mbox > product | Nej |  |  |
 | Request > execute > mboxes > mbox > product > id | Nej | Inte tom.<br>Maximal storlek = 128. | Hämta erbjudanden för en angiven mbox med angivet produkt-ID. |
 | Request > execute > mboxes > mbox > product > categoryId | Nej | Inte tom.<br>Maximal storlek = 128. | Hämta erbjudanden för en angiven mbox med angivna produktkategori-ID:n. |
 | Request > execute > mboxes > mbox > order | Nej |  |  |
 | Request > execute > mbox>mbox > order > id | Nej | Maximal längd = 250. | Hämta erbjudanden för en angiven mbox med de angivna order-ID:n. |
 | Request > execute > mboxes > mbox > order > total | Nej | `>=` 0. | Hämta erbjudanden för en angiven mbox med de angivna ordersummorna. |
-| Request > execute > mboxes > mbox > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värdes maximala längd = 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Produkt-ID:t, total längd  `<=` 250. | Hämta erbjudanden för en angiven mbox med angivet produkt-ID för beställning. |
+| Request > execute > mboxes > mbox > order > purchaseProductIds | Nej | Inga tomma värden.<br>Varje värdes maximala längd = 50.<br>Sammanfogad och avgränsad med kommatecken.<br>Total längd för produkt-id `<=` 250. | Hämta erbjudanden för en angiven mbox med angivet produkt-ID för beställning. |
 
 ## Anropa getOffers() för alla vyer
 
@@ -86,7 +86,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers() för att fatta ett beslut på enheten
+## Anropa getOffers() för att fatta ett beslut på enheten
 
 ```javascript
 adobe.target.getOffers({ 
@@ -205,11 +205,11 @@ adobe.target.getOffers({
 }
 ```
 
-Nyttolasten kan sedan vidarebefordras till Adobe Analytics via [API för datainmatning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Nyttolasten kan sedan vidarebefordras till Adobe Analytics via [API för datainfogning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Hämta och återge data från flera rutor via getOffers() och applyOffers() {#multiple}
 
-Med at.js 2.x kan du hämta flera mbox via API:t `getOffers()`. Du kan också hämta data för flera rutor och sedan använda `applyOffers()` för att återge data på olika platser som identifieras av en CSS-väljare.
+Med at.js 2.x kan du hämta flera mbox via `getOffers()` API. Du kan även hämta data för flera mbox-rutor och sedan använda `applyOffers()` för att återge data på olika platser som identifieras av en CSS-väljare.
 
 I följande exempel visas en enkel HTML-sida med at.js 2.x implementerad:
 
@@ -276,7 +276,7 @@ adobe.target.getOffers({
 });
 ```
 
-I `request > prefetch > mboxes`-avsnittet finns det tre olika rutor. Om begäran har slutförts får du svaret för varje ruta från `response > prefetch > mboxes`. När du har fått svar och de platser du vill använda för återgivning kan du anropa `applyOffers()` för att återge innehållet som hämtats från [!DNL Target]. I det här exemplet har vi följande mappning:
+I `request > prefetch > mboxes` finns det tre olika kartonger. Om begäran slutfördes utan fel får du svaret för varje ruta från `response > prefetch > mboxes`. När du har fått svaren och de platser du vill använda för återgivningen kan du anropa `applyOffers()` för att återge innehåll som hämtats från [!DNL Target]. I det här exemplet har vi följande mappning:
 
 * mbox1 > CSS-väljare #container1
 * mbox2 > CSS-väljare #container2
@@ -284,7 +284,7 @@ I `request > prefetch > mboxes`-avsnittet finns det tre olika rutor. Om begäran
 
 I det här exemplet används variabeln count för att skapa CSS-väljarna. I ett verkligt scenario kan du använda en annan mappning mellan CSS-väljaren och mbox.
 
-Observera att i det här exemplet används `prefetch > mboxes`, men du kan också använda `execute > mboxes`. Om du använder förhämtning i `getOffers()` bör du också använda förhämtning i `applyOffers()`-anropet.
+Observera att det här exemplet använder `prefetch > mboxes`, men du kan också använda `execute > mboxes`. Om du använder förhämtning i `getOffers()`ska du också använda förhämtning i `applyOffers()` anrop.
 
 ## Anropa getOffers() för att utföra pageLoad
 
