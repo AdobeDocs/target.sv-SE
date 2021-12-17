@@ -1,13 +1,13 @@
 ---
 keywords: implementera;implementera;konfigurera;konfigurera;sidparametrar
 description: Hämta data till [!DNL Target] med sidparametrar.
-title: Hur hämtar jag data till [!DNL Target] Använda sidparametrar?
-feature: Implementering
+title: Hur får jag in data på [!DNL Target] Använda sidparametrar?
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Sidparametrar skickas till Target via ett serveranrop som ett strängnamn/värde
 * **Produktsidor**: Skicka information om den specifika produkten som visas (den här metoden är hur Recommendations fungerar)
 * **Beställningsinformation**: Skicka order-ID, orderTotal o.s.v. för ordersamling
 * **Kategoritillhörighet**: Skicka kategorivisad information till Target för att skapa kunskap om användarens tillhörighet till särskilda webbplatskategorier
-* **Tredjepartsdata**: Skicka information från externa datakällor, som till exempel leverantörer av väderanpassning, kontodata (till exempel DemandBase), demografiska data (till exempel Experience) och mycket mer.
+* **data från tredje part**: Skicka information från externa datakällor, som till exempel leverantörer av väderanpassning, kontodata (till exempel DemandBase), demografiska data (till exempel Experience) och mycket mer.
 
 ## Fördelar med metoden
 
@@ -43,7 +43,7 @@ Data skickas till Target i realtid och kan användas på samma server för att a
 
 * Kräver uppdatering av sidkod (direkt eller via ett tagghanteringssystem).
 * Om data måste användas för att rikta in sig på en efterföljande sida/server-anrop måste de översättas till ett profilskript.
-* Frågesträngar får endast innehålla tecken enligt standarden [IETF (Internet Engineering Task Force)](https://www.ietf.org/rfc/rfc3986.txt).
+* Frågesträngar får endast innehålla tecken enligt [IETF-standard (Internet Engineering Task Force)](https://www.ietf.org/rfc/rfc3986.txt) .
 
    Förutom de tecken som nämns på IETF-webbplatsen tillåter Target följande tecken i frågesträngar:
 
@@ -66,10 +66,6 @@ targetPageParamsAll (bifogar parametrarna till alla mbox-anrop på sidan):
 targetPageParams (lägger till parametrarna i den globala mbox på sidan):
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parametrar i mboxSkapa kod:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## Länkar till relevant information
 
