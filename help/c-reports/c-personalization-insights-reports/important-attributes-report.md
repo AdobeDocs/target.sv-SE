@@ -4,9 +4,9 @@ description: Lär dig använda [!UICONTROL Important Attributes] som visar de vi
 title: Vilken är den viktiga attributrapporten?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,13 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
 1. Välj önskat datumintervall.
 
-   Till skillnad från [!UICONTROL Summary] rapport (resultatrapportering), [!UICONTROL Personalization Insights], inklusive [!UICONTROL Important Attributes], är bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar, 45 dagar, 60 dagar och 90 dagar. Dessa fasta datumintervall tillåter [!UICONTROL Personalization Insights] om du vill använda ett stort och tillräckligt stort dataområde för att minska sannolikheten för att ni får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
+   Till skillnad från [!UICONTROL Summary] rapport (resultatrapportering), [!UICONTROL Personalization Insights], inklusive [!UICONTROL Important Attributes], är bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar och 60 dagar.
+
+   >[!NOTE]
+   >
+   >The [!DNL Target] I användargränssnittet kan du välja datumintervall på 45 dagar och 90 dagar. Men [!DNL Target] I backend bearbetas inte dessa två intervall. På grund av användningsmönster och i ett försök att förbättra prestandan har datumintervallen tagits bort. Gränssnittet uppdateras för att återspegla de aktuella tillåtna intervallen: 15, 30 och 60 dagar.
+
+   Dessa fasta datumintervall tillåter [!UICONTROL Personalization Insights] om du vill använda ett stort och tillräckligt stort dataområde för att minska sannolikheten för att ni får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
 
    ![](assets/personalization_insights_calendar_1.png)
 

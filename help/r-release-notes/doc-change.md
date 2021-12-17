@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '3043'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 17 december | [Viktiga attributrapporter](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Följande notering om datumintervall har lagts till när rapporter om viktiga attribut visas:<ul><li>The [!DNL Target] I användargränssnittet kan du välja datumintervall på 45 dagar och 90 dagar. Men [!DNL Target] I backend bearbetas inte dessa två intervall. På grund av användningsmönster och i ett försök att förbättra prestandan har datumintervallen tagits bort. Gränssnittet uppdateras för att återspegla de aktuella tillåtna intervallen: 15, 30 och 60 dagar.</li></ul> |
 | 7 december | [Forskningen bakom Target:s rekommendationsalgoritmer](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nytt ämne. |
 | 2 december | [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Cart-Based-algoritmen har uppdaterats för att inkludera att rekommendationsnycklarna levereras via mbox-parametern cartIds i kommaseparerade värden. Endast de första 10 värdena beaktas. |
 | 18 november | [Ändringar](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | En anteckning på raden Mbox som anger att rutor inte längre stöds i [!UICONTROL Visual Experience Composer] (VEC) på sidor som använder at.js 2.*x*. |
@@ -152,7 +153,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 |  | [Felsökning relaterade till [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Listan över IP-adresser som ska tillåtslista har uppdaterats. |
 | 12 maj | [[!DNL Target] versionsinformation (prerelease)](/help/r-release-notes/target-release-notes.md) | Förhandsversionsinformation har lagts till för följande:<ul><li>Adobe Experience Platform Web SDK (17 maj 2021)</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 10 maj | [[!DNL Recommendations] Vanliga frågor](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Följande frågor och svar har lagts till: &quot;Kan jag använda en algoritm som skapats i [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?&quot; |
-|  | [Implementera [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Anger att [!DNL Adobe Dynamic Tag Manager] stöds inte längre. Istället [!DNL Adobe] rekommenderar implementering med [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
+|  | [Implementera [!DNL Target] använda [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Anger att [!DNL Adobe Dynamic Tag Manager] stöds inte längre. Istället [!DNL Adobe] rekommenderar implementering med [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
 | 6 maj | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Följande frågor och svar har lagts till:<ul><li>Hur lång tid tar det att ändra konfigurationen för [!UICONTROL Recommendations] aktiviteter, erbjudanden, kampanjer eller villkor som ska återspeglas på min webbplats?</li><li>Hur lång tid tar det för en användares beteende (till exempel när man klickar på produkt A och köper produkt B) att återspeglas i rekommendationerna *att* får användaren?</li><li>Hur lång tid tar det för en användares beteende (till exempel när man klickar på produkt A och köper produkt B) att återspeglas i rekommendationerna *övriga* tar användare emot?</li></ul> |
 |  | [Enhetsbeslut](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Länk har lagts till i följande blogginlägg på Adobe Tech Blog:<ul><li>Del 1: Kör Adobe Target NodeJS SDK för experiment och personalisering på Edge-plattformar (Akamai Edge Workers)</li></ul> |
 | 5 maj | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om Adobe Target Community Q&amp;A Coffee Break som ska hållas onsdagen den 12 maj 2021 kl. 8.00. (PDT, GMT-7). |
