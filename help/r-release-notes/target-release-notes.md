@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 28 oktober 2021**
+**Senast uppdaterad: 6 januari 2022**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
@@ -24,6 +24,14 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 >**mbox.js end-of-life**: 31 mars 2021 [!DNL Adobe Target] stöder inte längre mbox.js-biblioteket. Efter den 31 mars 2021 misslyckas alla anrop från mbox.js på ett bra sätt och påverkar de sidor som har [!DNL Target] aktiviteter som körs genom att visa standardinnehåll.
 >
 >Om du vill undvika eventuella problem med dina webbplatser migrerar du till den senaste versionen av den nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 22.1.1 (6 januari 2022)
+
+Den här versionen innehåller följande nya funktion:
+
+| Funktion | Detaljer |
+| --- | --- |
+| Använd offertbeslut i målaktiviteter | Du kan nu använda [!DNL Adobe Journey Optimizer] erbjudandebeslut i [!DNL Adobe Target] A/B Test and Experience Targeting (XT) för att fastställa och leverera nästa bästa erbjudande för era besökare på webben och i mobilen.<br>Mer information finns i Använda offertbeslut.<br>**Anteckning**: Den här funktionen är tillgänglig för [!DNL Target] som också har tillgång till Offer decisioning och [!DNL Target] implementering baserad på Adobe Experience Platform Web SDK. |
 
 ## at.js version 2.7.0 (28 oktober 2021)
 
