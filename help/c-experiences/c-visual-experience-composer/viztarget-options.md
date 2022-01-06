@@ -1,12 +1,12 @@
 ---
-keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelser;redigera text;redigera html;redigera text/html;redigera bakgrundsfärg;bakgrundsfärg;infoga element;redigera länk;länk för disposition;redigera CSS-klass;css-klass;swap offer swap;swap image;remove item remove;item remove;item remove;item hide;move element;move move;element move element;resize element;element resielement expandera markering;navigera till den här länken;navigera länk;navigera;navigera;länk;ångra;göra om;ångra/göra om;anpassade händelser;webbkomponenter
-description: Utforska de alternativ som finns i Adobe Target Visual Experience Composer (VEC). Klicka bara på ett element för att se vilka alternativ som är tillgängliga för det elementet.
-title: Hur använder jag alternativen för Visual Experience Composer (VEC)?
+keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelser;redigera text;redigera html;redigera text/html;redigera bakgrundsfärg;bakgrundsfärg;infoga element;redigera länk;länk för disposition;redigera CSS-klass;css-klass;swap offer swap;swap image;remove item remove;item remove;item remove;item hide;move element;move move;element move element;resize element;element resielement expandera markering;navigera till den här länken;navigera länk;navigera;navigera;länk;ångra;gör om;göra om;anpassade händelser;webbkomponenter;erbjudandebeslut;offer decisioning
+description: Se vilka alternativ som finns i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
+title: Hur jag använder [!UICONTROL Visual Experience Composer] (VEC) Alternativ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: fb9c9e4d2a3d0cf330724dfd02e329fedc388f01
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,19 @@ ht-degree: 0%
 
 När du klickar på ett sidelement i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) visar en meny de alternativ som är tillgängliga för den elementtypen. Dessutom visas en DOM-sökväg längst ned på sidan, så att du enkelt kan navigera i sidstrukturen.
 
-## VEC-alternativ
-
-De olika VEC-åtgärderna (Visual Experience Composer) grupperas med lämpliga menyalternativ för att göra jobbet snabbare och effektivare:
+De olika [!UICONTROL Visual Experience Composer] (VEC)-åtgärder grupperas i lämpliga menyalternativ för att göra jobbet snabbare och effektivare:
 
 ![VEC-alternativmeny](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->Vilka alternativ som är tillgängliga beror på vilken typ av aktivitet du redigerar.
+>Vilka alternativ som är tillgängliga beror på vilken typ av aktivitet du skapar eller redigerar.
 
-### [!UICONTROL Edit]
+## [!UICONTROL Edit]
 
 Följande alternativ är tillgängliga:
 
-#### [!UICONTROL Text/HTML] {#edit-text-html}
+### [!UICONTROL Text/HTML] {#edit-text-html}
 
 Ändra HTML-koden för elementet, till exempel texten för ett textområde, en knapp eller en länk.
 
@@ -46,13 +44,13 @@ Följande HTML5-taggar kan kapslas:
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### [!UICONTROL Background Color]
+### [!UICONTROL Background Color]
 
 Använd färgväljaren för att välja eller konfigurera en bakgrundsfärg. Du kan välja en färgruta och justera den med hjälp av RGB-värden eller färghexkoder. Det röda krysset i färgväljaren gör bakgrunden genomskinlig.
 
 **Obs!** Det här alternativet är inte tillgängligt för ett element där en bakgrundsbild är inställd.
 
-#### [!UICONTROL Styles] {#styles}
+### [!UICONTROL Styles] {#styles}
 
 Använd [!UICONTROL Styles] om du vill visa eller redigera värdet för det markerade elementets befintliga format. Du kan också lägga till ytterligare format.
 
@@ -64,7 +62,7 @@ The [!UICONTROL Styles] visas till höger om VEC. Panelen innehåller en lista m
 
 När du använder olika format kan du alltid återställa ändringarna genom att klicka på [!UICONTROL Revert] ikon som visas i det övre högra hörnet av [!UICONTROL Styles] när du har ändrat något avsnitt. Klicka på [!UICONTROL Revert] ikonen återställer alla ändringar på panelen för det aktuella avsnittet.
 
-Expandera varje avsnitt om du vill redigera eller lägga till format, vilket förklaras nedan. Om du vill spara ändringarna klickar du på bakåtikonen längst upp på panelen för att gå tillbaka till panelens huvudvisning och klickar sedan på **[!UICONTROL Save]**.
+Expandera varje avsnitt om du vill redigera eller lägga till format, vilket förklaras nedan. Spara ändringarna genom att klicka på [!UICONTROL Back] ikonen längst upp på panelen för att gå tillbaka till panelens huvudskärm och klicka sedan på **[!UICONTROL Save]**.
 
 De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avsnittspanelerna anger att du har ändrat motsvarande format. Den här visuella indikatorn gör det enkelt för dig att granska ändringarna innan du klickar [!UICONTROL Save].
 
@@ -81,7 +79,7 @@ De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avs
    * Bildkälla (ange en extern URL)
    * Bifogad fil
       * Klicka på den övre listrutan för att välja rullning, fast eller lokal
-      * Klicka på den nedre listrutan för att välja upprepning, upprepning-x, upprepning-y, ingen upprepning, mellanrum eller rund
+      * Klicka på den nedre listrutan för att välja upprepning, upprepning, x, upprepning, ingen upprepning, mellanrum eller rund
    * Klipp
       * Klicka på den övre listrutan för att välja kantlinje, utfyllnadslåda, innehållslåda eller text
       * Klicka på den nedre listrutan för att välja automatiskt ljud eller ljud
@@ -90,7 +88,7 @@ De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avs
 
    Ändra ett elements typografi. Det går snabbt och enkelt att redigera typografi.
 
-   Även om RTF-redigeraren (Redigera text/HTML) är tillgänglig för finjustering är snabbåtgärder för att ändra hela elementet tillgängliga med det här alternativet. Om du vill använda typografiska ändringar på endast en del av texten (inte på hela texten) använder du [textredigerare](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   Även om RTF-redigeraren (Redigera text/HTML) är tillgänglig för finjustering är snabbåtgärder för att ändra hela elementet tillgängliga med det här alternativet. Om du bara vill använda typografiska ändringar på en del av texten (inte på hela texten) använder du [textredigerare](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
    Du kan redigera följande typografiska format:
 
@@ -186,7 +184,7 @@ De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avs
 
 * **[!UICONTROL CSS Editor]**
 
-   Med CSS Editor i realtid kan du visa ändringar och lägga till format om du känner dig trygg med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.
+   Med CSS Editor i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.
 
    CSS Editor visar alla ändringar som du gör på formatpanelen. Som framgår av bilden nedan har teckensnittsstorleken, den övre kanten och bildstorleken ändrats:
 
@@ -202,23 +200,31 @@ De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avs
    >
    >Du kan använda en bakgrundsbild med CSS Editor, men det kan orsaka flimmer. Testa ändringarna före driftsättningen.
 
-#### [!UICONTROL CSS Class]
+### [!UICONTROL CSS Class]
 
 Ange den fördefinierade CSS-klass som används för elementet. Om du har markerat flera element avgränsar du flera CSS-klasser med ett mellanslag.
 
 Finns för [!UICONTROL A/B], [!UICONTROL Automated Personalization]och [!UICONTROL Multivariate Test] verksamhet.
 
-#### [!UICONTROL Link]
+### [!UICONTROL Link]
 
 Ändra URL-adressen i länken.
 
 Använd Redigera länk för att uppdatera väljaren så att den pekar på samma bildelement. Det går dock inte att länka till ett annat bildelement. Om du vill länka till ett annat bildelement tar du bort den ursprungliga åtgärden från kodredigeraren och använder kommandot [!UICONTROL Visual Experience Composer] om du vill använda åtgärden på det andra bildelementet.
 
-### [!UICONTROL Insert Before]
+## [!UICONTROL Insert Before]
 
 Följande alternativ är tillgängliga:
 
-#### [!UICONTROL Image], [!UICONTROL HTML]och [!UICONTROL Text]
+### [!UICONTROL Offer Decision]
+
+Lägg till en [erbjudande skapat i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för era kunder med hjälp av offer decisioning.
+
+**Obs!** Det här alternativet är tillgängligt när du redigerar eller skapar [manuell [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) eller [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) endast aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
+
+Mer information finns i [Använd offertbeslut](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image], [!UICONTROL HTML]och [!UICONTROL Text]
 
 Lägg till vilket element som helst på sidan förutom att ändra befintligt innehåll. Lägg till text, kod, listor med mera för att skapa helt olika upplevelser att testa.
 
@@ -230,19 +236,27 @@ Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkon
 
 **Obs!** Om du infogar en bild måste du [!DNL Adobe Scene7 Publishing System] är aktiverat så att du har tillgång till bildbiblioteket.
 
-#### Rekommendation
+### Rekommendation
 
 Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Experience Fragment]
+### [!UICONTROL Experience Fragment]
 
 Infoga upplevelsefragment skapade i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Insert After]
+## [!UICONTROL Insert After]
 
 Följande alternativ är tillgängliga:
 
-#### [!UICONTROL Image], [!UICONTROL HTML]och [!UICONTROL Text]
+### [!UICONTROL Offer Decision]
+
+Lägg till en [erbjudande skapat i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för era kunder med hjälp av offer decisioning.
+
+**Obs!** Det här alternativet är tillgängligt när du redigerar eller skapar [manuell [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) eller [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) endast aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
+
+Mer information finns i [Använd offertbeslut](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image], [!UICONTROL HTML]och [!UICONTROL Text]
 
 Lägg till vilket element som helst på sidan förutom att ändra befintligt innehåll. Lägg till text, kod, listor med mera för att skapa helt olika upplevelser att testa.
 
@@ -254,19 +268,27 @@ Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkon
 
 **Obs!** Om du infogar en bild måste du [!DNL Adobe Scene7 Publishing System] är aktiverat så att du har tillgång till bildbiblioteket.
 
-#### Rekommendation
+### Rekommendation
 
 Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Experience Fragment]
+### [!UICONTROL Experience Fragment]
 
 Infoga upplevelsefragment skapade i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Replace With]
+## [!UICONTROL Replace Content]
 
 Följande alternativ är tillgängliga:
 
-#### [!UICONTROL Image]
+### [!UICONTROL Offer Decision]
+
+Lägg till en [erbjudande skapat i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för era kunder med hjälp av offer decisioning.
+
+**Obs!** Det här alternativet är tillgängligt när du redigerar eller skapar [manuell [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) eller [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) endast aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
+
+Mer information finns i [Använd offertbeslut](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image]
 
 Välj en annan bild i innehållsbiblioteket. De bilder som är tillgängliga för växling omfattar de bilder som har överförts till resursmappen Experience Cloud eller som har överförts till innehållsbiblioteket i Target.
 
@@ -284,7 +306,7 @@ Recommendations stöder Ersätt med i DIV-, SECTION- och Article-taggar.
 
 **Obs!** Du måste ha ett Adobe Scene7 Publishing System-konto för att kunna byta bilder.
 
-#### [!UICONTROL HTML Offer]
+### [!UICONTROL HTML Offer]
 
 Välj ett annat erbjudande på [!UICONTROL Content Library].
 
@@ -292,55 +314,55 @@ Välj ett annat erbjudande på [!UICONTROL Content Library].
 
 Ett HTML-erbjudande kan vara upp till 256 kB.
 
-#### Rekommendation
+### Rekommendation
 
 Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Targeting). Mer information finns i [Recommendations som erbjudande](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Experience Fragment]
+### [!UICONTROL Experience Fragment]
 
 Infoga upplevelsefragment skapade i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Layout]
+## [!UICONTROL Layout]
 
 Följande alternativ är tillgängliga:
 
-#### [!UICONTROL Rearrange]
+### [!UICONTROL Rearrange]
 
 Dra elementet till en annan plats inuti samma överordnade element eller DIV. Andra element flyttas för att skapa utrymme för det omordnade elementet.
 
 **Obs!** Klickspårning fungerar inte för omsorterade objekt.
 
-#### [!UICONTROL Resize]
+### [!UICONTROL Resize]
 
 Ändra storlek på ett element på sidan. När du väljer [!UICONTROL Resize]visas ett handtag längst ned till höger i elementet. Du kan dra i hörnet för att ändra storlek. Håll ned Skift om du vill behålla samma proportioner.
 
 **Obs!** Det går inte att ändra storlek på infogade element.
 
-#### [!UICONTROL Move] {#move}
+### [!UICONTROL Move] {#move}
 
 Flytta element på sidan. Till skillnad från [!UICONTROL Rearrange] option, [!UICONTROL Move] flyttar inte andra element för att ge plats åt elementet som flyttas. Använd piltangenterna för att finjustera flyttningen. (Planerad förbättring: för att säkerställa att flyttade element inte döljs bakom andra element.)
 
 I vissa situationer, t.ex. när en CSS-begränsning kräver att ett element ska finnas i det överordnade elementet, kan du inte flytta elementet utanför det överordnade elementet. Ett element kan inte flyttas utanför en behållare som har följande CSS-egenskap: `overflow: hidden`.
 
-#### [!UICONTROL Hide]
+### [!UICONTROL Hide]
 
 Dölj elementet. Det tomma utrymmet återstår, men innehållet tas bort.
 
-#### [!UICONTROL Remove]
+### [!UICONTROL Remove]
 
 Ta bort elementet. Det tomma utrymmet bakom bilden tas bort och det utrymme där elementet var komprimerat.
 
 **Obs!** Det går inte att ta bort objekt i en klassisk mbox (en mbox som skapats i en Target Classic-kampanj) med det här alternativet.
 
-### [!UICONTROL Expand Section]
+## [!UICONTROL Expand Section]
 
 Markera det överordnade elementet förutom det ursprungligen markerade elementet. När du markerar ett överordnat element markeras alla underordnade element automatiskt. Du kan expandera markeringen flera gånger.
 
-### [!UICONTROL Navigate to Link]
+## [!UICONTROL Navigate to Link]
 
 Öppna länkens mål.
 
-### [!UICONTROL Undo]/[!UICONTROL Redo]
+## [!UICONTROL Undo]/[!UICONTROL Redo]
 
 Ångra ändringar du gör i dina aktiviteter under en redigeringssession. Du kan också göra om ändringar som tidigare har ångrats.
 
