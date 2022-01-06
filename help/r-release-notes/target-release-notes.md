@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Den här versionen innehåller följande nya funktion:
 
 | Funktion | Detaljer |
 | --- | --- |
-| Använd offertbeslut i målaktiviteter | Du kan nu använda [!DNL Adobe Journey Optimizer] erbjudandebeslut i [!DNL Adobe Target] A/B Test and Experience Targeting (XT) för att fastställa och leverera nästa bästa erbjudande för era besökare på webben och i mobilen.<br>Mer information finns i Använda offertbeslut.<br>**Anteckning**: Den här funktionen är tillgänglig för [!DNL Target] som också har tillgång till Offer decisioning och [!DNL Target] implementering baserad på Adobe Experience Platform Web SDK. |
+| Använd offertbeslut i [!DNL Target] verksamhet | Du kan nu använda [!DNL Adobe Journey Optimizer] erbjudandebeslut i [!DNL Target] [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) för att fastställa och leverera nästa bästa erbjudande för besökare på webben och i mobilen.<br>Mer information finns i [Använd offertbeslut](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**Anteckning**: Den här funktionen är tillgänglig för [!DNL Target] som också har tillgång till Offer decisioning och [!DNL Target] implementering baserad på Adobe Experience Platform Web SDK. |
 
 ## at.js version 2.7.0 (28 oktober 2021)
 
