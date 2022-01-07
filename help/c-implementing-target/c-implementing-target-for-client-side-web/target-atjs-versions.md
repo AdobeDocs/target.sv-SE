@@ -4,13 +4,13 @@ description: Visa information om ändringarna i varje version av Adobe [!DNL Tar
 title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '4270'
+source-wordcount: '4308'
 ht-degree: 0%
 
 ---
-
 
 # versionsinformation för at.js
 
@@ -21,6 +21,10 @@ Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScr
 >Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
 >Taggar i [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) är det bästa sättet att uppgradera at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Adobe Experience Platform] katalog som uppgraderingar. Mer information finns i [Tilläggsuppgraderingar](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) i *Översikt över taggar* guide.
+
+## at.js version 2.8.0 (7 januari 2022)
+
+The [!DNL Target] at.js JavaScript-biblioteket samlar nu in telemetridata för funktionsanvändning och prestanda. Personuppgifter samlas inte in. Du kan välja bort den här funktionen genom att ange `telemetryEnabled` till false in `targetGlobalSettings`. Mer information finns i [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## at.js version 2.7.0 (28 oktober 2021)
 

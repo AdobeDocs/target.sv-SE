@@ -1,20 +1,26 @@
 ---
 keywords: sekretess;ip-adress;geosegmentering;avanmäl dig;avanmäl dig;avanmäl dig;datasekretess;myndighetsregler;regler;gdpr;ccpa
-description: Läs om hur Adobe [!DNL Target] följer gällande datasekretesslagstiftning, inklusive insamling och hantering av IP-adresser, och avanmälningsanvisningar.
-title: Hur hanterar [!DNL Target] sekretessfrågor?
-feature: Integritet och säkerhet
+description: Se hur Adobe [!DNL Target] följer gällande datasekretesslagstiftning, inklusive insamling och hantering av IP-adresser, och avanmälningsanvisningar.
+title: Hur [!DNL Target] Hantera sekretessproblem?
+feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # Integritet
 
-[!DNL Adobe Target] har aktiverat processer och inställningar som gör att du kan använda dem  [!DNL Target] i enlighet med gällande datasekretesslagstiftning.
+[!DNL Adobe Target] har aktiverat processer och inställningar som gör att du kan använda [!DNL Target] i enlighet med gällande datasekretesslagstiftning.
+
+## Samling av funktionsanvändningsdata
+
+Enskilda data om funktionsanvändning samlas in för intern användning [!DNL Adobe] syften för att identifiera om [!DNL Target] funktioner fungerar som avsett eller för att identifiera funktioner som används i alltför liten utsträckning. Olika latensmått samlas in för att bidra till att åtgärda prestandaproblem. Personuppgifter samlas inte in.
+
+Du kan välja bort att rapportera användningsdata i våra SDK:er genom att ange `telemetryEnabled` till false i klientinitieringsalternativen. Mer information finns i [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Samling med IP-adresser {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -36,7 +42,7 @@ Målet tar emot den fullständiga IP-adressen och döljer den (om den är instä
 
 >[!NOTE]
 >
->[Kontakta Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Careto för att avgöra vilken inställning du använder eller för att aktivera funktionen för IP-förfalskning.
+>[Kontakta Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att avgöra vilken inställning du använder eller för att aktivera funktionen för IP-förfalskning.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,15 +58,14 @@ Du kan lägga till en länk för att avanmäla dig till webbplatserna så att be
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. (Villkorligt) Om du använder CNAME ska länken innehålla parametern &quot;client=`clientcode`, till exempel:
-https://my.cname.domain/optout?client=clientcode.
+1. (Villkorligt) Om du använder CNAME bör länken innehålla &quot;client=`clientcode` parameter, till exempel: https://my.cname.domain/optout?client=clientcode.
 
 1. Ersätt `clientcode` med din klientkod och lägg till texten eller bilden som ska länkas till avanmälnings-URL:en.
 
-Besökare som klickar på den här länken tas inte med i några mbox-förfrågningar som anropas från webbläsarsessionerna förrän de tar bort sina cookies, eller under två år, beroende på vilket som inträffar först. Detta fungerar genom att ange en cookie för besökaren med namnet `disableClient` i domänen `clientcode.tt.omtrdc.net`.
+Besökare som klickar på den här länken tas inte med i några mbox-förfrågningar som anropas från webbläsarsessionerna förrän de tar bort sina cookies, eller under två år, beroende på vilket som inträffar först. Detta fungerar genom att ange en cookie för besökaren som kallas `disableClient` i `clientcode.tt.omtrdc.net` domän.
 
 Även om du använder en cookie-implementering från en annan tillverkare anges den angivna avanmälningen via en cookie från en annan tillverkare. Om klienten bara använder en cookie från en annan tillverkare kontrollerar Target om en cookie för avanmälan har angetts.
 
 ## Sekretess- och dataskyddsbestämmelser
 
-Se [Reglerna för sekretess och dataskydd](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) för information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa regler påverkar din organisation och Adobe Target.
+Se [Sekretess- och dataskyddsbestämmelser](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) om du vill ha information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar din organisation och Adobe Target.

@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vilka nya funktioner ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## at.js version 2.7.0 (28 oktober 2021)
+## at.js version 2.8.0 (7 januari 2022)
 
-Den här versionen innehåller följande förbättringar:
-
-* Stöd för [Webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Den här versionen av at.js krävs för att skapa och testa personaliserade upplevelser och erbjudanden på anpassade element och på element inuti anpassade element. Den här funktionen ingår i [!DNL Target Standard/Premium] 21.10.5-utgåvan.
+The [!DNL Target] at.js JavaScript-biblioteket samlar nu in telemetridata för funktionsanvändning och prestanda. Personuppgifter samlas inte in. Du kan välja bort den här funktionen genom att ange `telemetryEnabled` till false in `targetGlobalSettings`. Mer information finns i [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## [!DNL Target Standard/Premium] 21.10.5 (28 oktober 2021)
 
