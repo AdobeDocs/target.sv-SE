@@ -3,9 +3,9 @@ description: Vad används olika termer i Adobe? [!DNL Target] menar du? Hitta de
 title: Var hittar jag de termer och definitioner som används i Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2481'
 ht-degree: 1%
 
 ---
@@ -271,6 +271,10 @@ Gör det möjligt för besökare att avanmäla sig från all spårning och inneh
 **antal sidor**
 
 Ett engagemangsmått som mäter antalet sidor som visas vid ett besök från den punkt besökaren först ser aktivitetens första visningsruta.
+
+**sidvy**
+
+Sidvy innebär en enda vy av ett mobil- eller webbläsarprogram, e-post eller webbsida på en webbplats, inklusive programskärmsvyer, programskärmslägen, mobilwebbsidor och sidor i sociala nätverk. Sidvyer visas varje gång en webbsida läses in eller uppdateras, ett program läses in, när riktat innehåll återges eller genereras, eller visas via ett öppet eller visat e-postmeddelande.
 
 **prioritet**
 
