@@ -1,11 +1,12 @@
 ---
 keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelsedisposition;beslut om erbjudande;offer decisioning;ajo;reseoptimering
 description: Lär dig hur du lägger till ett offertbeslut som skapats i [!DNL Adobe Journey Optimizer] till en aktivitet.
-title: 'Hur använder jag erbjudandebeslut? '
+title: Hur använder jag erbjudandebeslut?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Lägg till offertbeslut som skapats i [!DNL Adobe Journey Optimizer] till [!DNL 
 >
 >Funktioner för att fatta beslut som beskrivs i detta avsnitt planeras släppas den 13 januari 2022 med [!DNL Target Standard/Premium] 22.1.1-versionen.
 
-Mer information om [!DNL Adobe Journey Optimizer], se [Kom igång med Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) i *Journey Optimizer* dokumentation.
+Mer information om [!DNL Adobe Journey Optimizer], se [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) i *Journey Optimizer* dokumentation.
 
 Mer information om offertbeslut finns i [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) i *[!DNL Journey Optimizer]dokumentation*.
 
@@ -40,15 +41,20 @@ Följande exempel är exempel på hur du kan använda [!DNL Target]/[!DNL Adobe 
 
 ### Sportförsäljning
 
-Som marknadsförare för en idrottsklass vill ni personalisera innehåll på er hemsida (både på datorsidan och på mobilwebbplatsen). Ni vill personalisera innehåll baserat på besökarens favoritteam och de senaste spelarna flyttar för att presentera ett erbjudande till butiksrelaterade franchise-produkter för dem. Om du till exempel vill leverera en personaliserad upplevelse för var och en av följande regioner: Dortmund, Frankfurt och Bochum och för användare som är implicita och explicita fans för dessa team. Som mätvärden vill du titta på besök och klicka på webbplatsen för varor.
+Som marknadsförare för en idrottsklass vill ni personalisera innehåll på er hemsida (både på datorsidan och på mobilwebbplatsen). Ni vill personalisera innehåll baserat på flera dimensioner och presentera ett erbjudande till butiksrelaterade franchise-produkter. Du är intresserad av:
 
-Du vill utforma en A/B-testaktivitet (delning 50/50) mellan standardupplevelsen och den personaliserade upplevelsen (som innefattar ett offertbeslut med erbjudanden för varje region och team). Du vill använda den här aktiviteten för att avgöra konverteringen och lyften för den personaliserade upplevelsen jämfört med kontrollen.
+* Besökarens favoritteam
+* Senaste idrott-/spelaraktivitet (till exempel lagrörelser, kontraktsuppdateringar eller skador)
+
+Du vill till exempel leverera en personaliserad upplevelse för var och en av följande regioner: Dortmund, Frankfurt och Bochum och för användare som är implicita och explicita fans för dessa team. Som mätvärden vill du titta på besök och klicka på webbplatsen för varor.
+
+Du vill designa en [!UICONTROL A/B Test] aktivitet (delning 50/50) mellan standardupplevelsen och den personaliserade upplevelsen (som innefattar ett beslut om erbjudanden för varje region och team). Du vill använda den här aktiviteten för att avgöra konverteringen och lyften för den personaliserade upplevelsen jämfört med kontrollen.
 
 ### Plattformar för spelströmning
 
-Som marknadsförare för en idrottsorganisation vill ni leverera ett personaliserat erbjudande för en spelströmningsplattform för persondatorer och mobilanvändare från olika platser: Tyskland, Frankrike, Mexiko och Brasilien. När en besökare kommer till en dator- eller mobilwebbplats från någon av dessa platser vill ni leverera ett erbjudande om spelströmning på det lokala språket och till motsvarande pris för den lokala valutan.
+Som marknadsförare för en spelorganisation vill ni kunna leverera ett personaliserat erbjudande för en spelplattform för användare på datorer och mobila enheter från olika platser: Tyskland, Frankrike, Mexiko och Brasilien. När en besökare kommer till en dator- eller mobilwebbplats från någon av dessa platser vill ni leverera ett erbjudande om spelströmning på det lokala språket och till motsvarande pris för den lokala valutan.
 
-I [!DNL Adobe Journey Optimizer]kan ni skapa ett personligt hemsideshjältererbjudande för var och en av de avsedda geografiska områdena plus ett reserverbjudande med en standardhjälte för hemsidan. Du kan sedan skapa ett offertbeslut som innehåller erbjudandena och deras regler för behörighet. Sedan [!DNL Target]kan du skapa en [!DNL Experience Targeting] (XT) och infoga erbjudandebeslutet på din dator eller mobila webbplats för att leverera den personaliserade upplevelsen till besökarna.
+I [!DNL Adobe Journey Optimizer]kan ni skapa ett personligt hemsideshjältererbjudande för var och en av de avsedda geografiska områdena plus ett reserverbjudande med en standardhjälte för hemsidan. Du kan sedan skapa ett beslut om erbjudandet som innehåller dessa erbjudanden och deras regler för behörighet. Sedan [!DNL Target]kan du skapa en [!DNL Experience Targeting] (XT) och infoga erbjudandebeslutet på din dator eller mobila webbplats för att leverera den personaliserade upplevelsen till besökarna.
 
 ## Skapa en upplevelse som utnyttjar ett erbjudandebeslut:
 
@@ -105,11 +111,3 @@ Tänk på följande när du arbetar med offertbeslut:
 * [!DNL Target] rapportering inte ger rapportering på beslutsnivå.
 
 * Visualiserar [QA-länkar](/help/c-activities/c-activity-qa/activity-qa.md) for [!DNL Target] upplevelser som innehåller offertbeslut påverkar frekvensbegränsningen som anges i [!DNL Adobe Journey Optimizer] för dessa erbjudandebeslut.
-
-
-
-
-
-
-
-
