@@ -1,12 +1,12 @@
 ---
 keywords: måldokumentets ändringslogg;dokumentationsuppdateringar;nya ämnen;redigeringar;uppdateringar;uppdatera
-description: Håll dig uppdaterad med viktiga tillägg och ändringar av Adobe [!DNL Target] produktdokumentation.
+description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Adobe Target] dokumentation.
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '3179'
+source-wordcount: '3194'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 11 januari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (19 januari 2022)</li></ul> |
 | 7 januari | [Versionsinformation](/help/r-release-notes/release-notes.md) | Ytterligare information om at.js version 2.8.0. |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js version 2.8.0. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Lagt till information om `telemetry` inställning. |
