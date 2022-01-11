@@ -4,7 +4,7 @@ description: Lär dig hur du lägger till ett offertbeslut som skapats i [!DNL A
 title: Hur använder jag erbjudandebeslut?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Lägg till offertbeslut som skapats i [!DNL Adobe Journey Optimizer] till [!DNL 
 
 >[!NOTE]
 >
->Funktioner för att fatta beslut som beskrivs i detta avsnitt planeras släppas den 13 januari 2022 med [!DNL Target Standard/Premium] 22.1.1-versionen.
+>Funktioner för beslutsfattande som beskrivs i det här avsnittet är för närvarande i Beta och endast tillgängliga för utvalda kunder.
 
 Mer information om [!DNL Adobe Journey Optimizer], se [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) i *Journey Optimizer* dokumentation.
 

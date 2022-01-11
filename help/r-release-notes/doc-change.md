@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3184'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Lagt till information om `telemetry` inställning. |
 |  | [Integritet](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Följande avsnitt har lagts till: &quot;Samling av funktionsanvändningsdata.&quot; |
 |  | [Data som används av [!DNL Target] maskininlärningsalgoritmer](/help/c-activities/t-automated-personalization/ap-data.md) | Hela ämnet har uppdaterats, inklusive:<ul><li>Nytt avsnitt: &quot;Blockera funktioner från [!DNL Target] maskininlärningsalgoritmer&quot;</li><li>Kolumner med systemnamn och information har lagts till i flera tabeller.</li></ul> |
-| 6 januari | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.1.1-versionen. |
 | 17 december | [Viktiga attributrapporter](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Följande notering om datumintervall har lagts till när rapporter om viktiga attribut visas:<ul><li>The [!DNL Target] I användargränssnittet kan du välja datumintervall på 45 dagar och 90 dagar. Men [!DNL Target] I backend bearbetas inte dessa två intervall. På grund av användningsmönster och i ett försök att förbättra prestandan har datumintervallen tagits bort. Gränssnittet uppdateras för att återspegla de aktuella tillåtna intervallen: 15, 30 och 60 dagar.</li></ul> |
 | 7 december | [Forskningen bakom Target:s rekommendationsalgoritmer](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nytt ämne. |
 | 2 december | [Basera rekommendationen på en rekommendationsnyckel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Cart-Based-algoritmen har uppdaterats för att inkludera att rekommendationsnycklarna levereras via mbox-parametern cartIds i kommaseparerade värden. Endast de första 10 värdena beaktas. |
