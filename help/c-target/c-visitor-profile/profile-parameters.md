@@ -1,12 +1,12 @@
 ---
 keywords: Profilskript;profilskriptattribut;profilskript bästa praxis;felsökning;skript;profilskript;attribut;attribut;parameter
-description: Lär dig mer om besökarspecifika attribut som lagras i besökarprofilen för att ge information om vilka som kan användas i dina Adobe [!DNL Target] aktiviteter.
+description: Lär dig mer om besökarspecifika attribut som lagras i besökarprofilen för att ge information om vilka som kan användas i Adobe [!DNL Target] verksamhet.
 title: Vad är profilattribut?
-feature: Målgrupper
+feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2366'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Profilattribut i [!DNL Adobe Target] är parametrar som är specifika för en besökare. Dessa attribut lagras i besökarens profil för att ge information om besökaren som kan användas i dina aktiviteter.
 
-En användarprofil innehåller demografisk information och beteendeinformation om en besökare på en webbsida. Informationen kan omfatta ålder, kön, inköpta produkter, senaste besök och så vidare, som [!DNL Target] använder för att anpassa innehållet som den levererar till besökaren.
+En användarprofil innehåller demografisk information och beteendeinformation om en besökare på en webbsida. Informationen kan omfatta ålder, kön, inköpta produkter, senaste besök och så vidare, som [!DNL Target] använder för att personalisera det innehåll som det är avsett för besökaren.
 
 När en besökare surfar på webbplatsen, eller när besökaren återgår till en annan session, kan de sparade profilattributen i profilen användas för att rikta innehåll eller logginformation för segmentfiltrering.
 
@@ -33,32 +33,32 @@ Så här ställer du in profilattribut:
 
    | Parametertyp | Beskrivning |
    |--- |--- |
-   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Obs**:  [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka fler än 50 profilattribut till [!DNL Target] skickar du dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i [!DNL Adobe Target] API-dokumentationen](https://developers.adobetarget.com/api/#updating-profiles). |
-   | Profil | Definieras direkt med ett JavaScript-kodfragment. De här fragmenten kan lagra summor som går åt som summor som förbrukas av konsumenten och körs på varje mbox-begäran. Se Profilskriptattribut nedan. |
+   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Anteckning**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka mer än 50 profilattribut till [!DNL Target]skickar du dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i [!DNL Adobe Target] API-dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
+   | Profil | Definieras direkt med ett JavaScript-kodfragment. De här fragmenten kan lagra summor som går åt som summor som förbrukas av konsumenten och de körs på varje mbox-begäran. Se Profilskriptattribut nedan. |
 
 ## Profilskriptattribut {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
 Definiera ett profilskriptattribut med tillhörande JavaScript-kodfragment.
 
-Du kan använda profilskript för att hämta besökarattribut vid flera besök. Profilskript är kodfragment som definieras i [!DNL Target] med hjälp av en form av JavaScript på serversidan. Du kan till exempel använda ett profilskript för att ta reda på hur ofta en besökare besöker webbplatsen och när besökaren senast besökte den.
+Du kan använda profilskript för att hämta besökarattribut vid flera besök. Profilskript är kodfragment som definieras i [!DNL Target] med hjälp av en typ av JavaScript på serversidan. Du kan till exempel använda ett profilskript för att ta reda på hur ofta en besökare besöker webbplatsen och när besökaren senast besökte den.
 
 Profilskript är inte desamma som profilparametrar. Profilparametrar samlar in information om besökare som använder mbox-kodimplementeringen av [!DNL Target].
 
 ## Skapa profilskript {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-Profilskript finns på fliken [!UICONTROL Audiences] i gränssnittet [!DNL Target].
+Profilskript är tillgängliga under [!UICONTROL Audiences] i [!DNL Target] gränssnitt.
 
-Om du vill lägga till ett profilskript klickar du på fliken **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]** och skriver sedan skriptet.
+Om du vill lägga till ett profilskript klickar du på **[!UICONTROL Profile Scripts]** tab, **[!UICONTROL Create Script]** och sedan skriva ditt skript.
 
 eller
 
-Om du vill kopiera ett befintligt profilskript går du till listan [!UICONTROL Profile Scripts], klickar på ellipsikonen för det önskade skriptet och klickar sedan på **[!UICONTROL Duplicate]**.
+Kopiera ett befintligt profilskript från [!UICONTROL Profile Scripts] klicka på ellipsikonen för det önskade skriptet och klicka sedan på **[!UICONTROL Duplicate]**.
 
 Sedan kan ni redigera målgruppen för att skapa en liknande målgrupp.
 
-Profilskript kör profilattributet &quot;catchers&quot; på varje platsbegäran. När en platsbegäran tas emot avgör [!DNL Target] vilken aktivitet som ska köras och visar innehåll som är lämpligt för den aktiviteten och den upplevelsen. [!DNL Target] spårar även aktivitetens framgångar och kör relevanta profilskript. Med den här processen kan du spåra information om besöket, som besökarens plats, tid på dagen, antal gånger besökaren har besökt webbplatsen, om han eller hon har köpt tidigare och så vidare. Den här informationen läggs sedan till i besökarprofilen så att du bättre kan spåra besökarens aktivitet på webbplatsen.
+Profilskript kör profilattributet &quot;catchers&quot; på varje platsbegäran. När en platsbegäran tas emot, [!DNL Target] avgör vilken aktivitet som ska köras och visar innehåll som är lämpligt för den aktiviteten och den upplevelsen. [!DNL Target] spårar även aktivitetens framgångar och kör relevanta profilskript. Med den här processen kan du spåra information om besöket, som besökarens plats, tid på dagen, antal gånger besökaren har besökt webbplatsen, om han eller hon har köpt tidigare och så vidare. Den här informationen läggs sedan till i besökarprofilen så att du bättre kan spåra besökarens aktivitet på webbplatsen.
 
-Profilskriptattributen har taggen `user.` infogad före attributnamnet. Exempel:
+Profilskriptattribut har `user.` taggen infogad före attributnamnet. Exempel:
 
 ```
 if (mbox.name == 'Track_Interest') { 
@@ -71,7 +71,7 @@ if (mbox.name == 'Track_Interest') {
 Tänk på följande:
 
 * Se profilskriptattributen (inklusive sig själv) i koden med `user.get('parameterName')`.
-* Spara variabler som kan nås nästa gång skriptet körs (i nästa mbox-begäran) med `user.setLocal('variable_name', 'value')`. Referera variabeln med `user.getLocal('variable_name')`. Den här processen är användbar i situationer där du vill referera till datumet och tiden för den senaste begäran.
+* Spara variabler som kan nås nästa gång skriptet körs (på nästa mbox-begäran) med `user.setLocal('variable_name', 'value')`. Referera variabeln med `user.getLocal('variable_name')`. Den här processen är användbar i situationer där du vill referera till datumet och tiden för den senaste begäran.
 * Parametrar och värden är skiftlägeskänsliga. Matcha skiftläget för de parametrar och värden som du får under aktiviteten eller testet.
 * Mer JavaScript-syntax finns i avsnittet&quot;JavaScript-referens för skriptprofilparametrar&quot; nedan.
 * Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.
@@ -82,21 +82,21 @@ Tänk på följande:
 
 Du kan visa profilskriptinformationskort på ungefär samma sätt som informationskort. Dessa profilskriptinformationskort gör att du kan visa en lista över aktiviteter som refererar till det valda profilskriptet, tillsammans med andra användbara metadata.
 
-Följande profilskriptinformationskort nås till exempel genom att du klickar på ikonen [!UICONTROL Info] för det önskade profilskriptet i listan ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
+Du kan till exempel komma åt följande informationskort för profilskript genom att klicka på [!UICONTROL Info] ikon för det profilskript du vill använda i listan ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
 
-Fliken [!UICONTROL Script Info] innehåller följande information: Namn, beskrivning och skriptkod.
+The [!UICONTROL Script Info] -fliken innehåller följande information: Namn, beskrivning och skriptkod.
 
 ![Profilskriptinformationskort](assets/profile_script_info_card.png)
 
-Klicka på **[!UICONTROL View full details]** för att se målgrupperna och aktiviteterna som refererar till det valda profilskriptet.
+Klicka **[!UICONTROL View full details]** för att se målgrupper och aktiviteter som refererar till det valda profilskriptet.
 
 ![Profilskriptinformationskort > fliken Skriptanvändning](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->Fliken [!UICONTROL Script Usage] visar inte aktiviteter som refererar till det valda profilskriptet i följande situationer:
+>The [!UICONTROL Script Usage] Fliken visar inte aktiviteter som refererar till det valda profilskriptet i följande situationer:
 >
-> * Aktiviteten är i tillståndet [!UICONTROL Draft].
+> * Aktiviteten finns i [!UICONTROL Draft] tillstånd.
 > * Innehållet eller erbjudandet som används i aktiviteten använder skriptvariabler (antingen ett infogat erbjudande inom aktiviteten eller ett erbjudande inom erbjudandebiblioteket).
 
 
@@ -117,7 +117,7 @@ Vanliga orsaker till att systemet inaktiverar profilskript är:
 * En odefinierad variabel som refereras.
 * Ett ogiltigt värde refereras. Det här felet orsakas ofta av att URL-värden refereras och andra användarindata inte verifieras korrekt.
 * För många JavaScript-instruktioner används. [!DNL Target] har en gräns på 2 000 JavaScript-instruktioner per skript, men den här gränsen kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Alla anrop till en funktion kräver 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
-* Följande objekt är inte markerade i [metodtips](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)-avsnittet nedan.
+* Följande objekt är inte markerade i [bästa praxis](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) nedan.
 
 ## God praxis {#best}
 
@@ -129,7 +129,7 @@ Följande riktlinjer är avsedda att hjälpa dig att skriva förenklade profilsk
 * Använd begränsat för slingor kontra öppna slut för eller while-slingor.
 * Högst 1 300 tecken eller 50 upprepningar av slingor.
 * Använd inte fler än 2 000 JavaScript-instruktioner. [!DNL Target] har en gräns på 2 000 JavaScript-instruktioner per skript, men den här gränsen kan inte beräknas genom manuell läsning av JavaScript. Till exempel behandlar Rhino alla funktionsanrop och&quot;nya&quot; anrop som 100 instruktioner. Storleken på alla postdata, t.ex. URL-värden, kan också påverka antalet instruktioner.
-* Tänk inte bara på skriptprestanda, utan även på den kombinerade prestandan för alla skript. Som god praxis rekommenderar [!DNL Adobe] färre än 5 000 instruktioner totalt. Att räkna antalet instruktioner är inte uppenbart, men det viktiga att notera är att skript som överskrider 2 000 instruktioner automatiskt inaktiveras. Antalet aktiva profilskript får inte överstiga 300. Varje skript körs med varje enskilt mbox-anrop. Kör bara så många skript som behövs.
+* Tänk inte bara på skriptprestanda, utan även på den kombinerade prestandan för alla skript. Som bästa praxis [!DNL Adobe] rekommenderar färre än 5 000 instruktioner totalt. Att räkna antalet instruktioner är inte uppenbart, men det viktiga att notera är att skript som överskrider 2 000 instruktioner automatiskt inaktiveras. Antalet aktiva profilskript får inte överstiga 300. Varje skript körs med varje enskilt mbox-anrop. Kör bara så många skript som behövs.
 * I ett regex, med en punktstjärna i början (till exempel: `/.*match/`, `/a|.*b/`) behövs nästan aldrig. Regex-sökningen startar från alla positioner i en sträng (om den inte är bunden till `^`), så punktstjärnan antas redan. Skriptkörningen kan avbrytas om en sådan regex matchas med tillräckligt många indata (vilket kan vara så lågt som flera hundra tecken).
 * Om allt misslyckas omsluter du skriptet i en try/catch.
 * Följande rekommendationer kan hjälpa dig att begränsa komplexiteten i profilskript. Profilskript kan köra ett begränsat antal instruktioner.
@@ -150,19 +150,19 @@ Följande metoder kan användas för att felsöka profilskript:
 
 >[!NOTE]
 >
->Om du använder [!DNL console.log] i ett profilskript genereras inte profilvärdet eftersom profilskript körs på serversidan.
+>Använda [!DNL console.log] i ett profilskript genererar inte profilvärdet eftersom profilskript körs på serversidan.
 
 * **Lägg till profilskript som svarstoken för att felsöka profilskript:**
 
-   I [!DNL Target] klickar du på **[!UICONTROL Administration]**, klickar på **[!UICONTROL Response Tokens]** och aktiverar sedan det profilskript som du vill felsöka.
+   I [!DNL Target], klicka **[!UICONTROL Administration]**, klicka **[!UICONTROL Response Tokens]** aktiverar sedan det profilskript som du vill felsöka.
 
-   Varje gång du läser in en sida för webbplatsen med [!DNL Target] på den innehåller en del av svaret från [!DNL Target] ditt värde för det angivna profilskriptet, vilket visas nedan:
+   När du vill läsa in en sida för webbplatsen med [!DNL Target] en del av svaret från [!DNL Target] innehåller ditt värde för det angivna profilskriptet, vilket visas nedan:
 
    ![](assets/debug_profile_script_1.png)
 
 * **Använd felsökningsverktyget mboxTrace för att felsöka profilskript.**
 
-   Den här metoden kräver en auktoriseringstoken som du kan generera genom att klicka på **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** i [!UICONTROL Debugger tools]-avsnittet.
+   Den här metoden kräver en auktoriseringstoken som du kan generera genom att klicka på **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** i [!UICONTROL Debugger tools] -avsnitt.
 
    Sedan lägger du till de här två parametrarna i sidans URL efter &quot;?&quot;: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -174,12 +174,11 @@ Följande metoder kan användas för att felsöka profilskript:
 
 **Går det att använda profilskript för att hämta information från en sida som finns i ett datalager?**
 
-Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas in via en mbox-begäran eller via andra [metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). När data finns i [!DNL Target] kan profilskript läsa data som en mbox-parameter eller profile-parameter.
+Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas via en mbox-begäran eller via andra [metoder för att hämta data till Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). När data finns i [!DNL Target]kan profilskript läsa data som en mbox-parameter eller profilparameter.
 
 ## JavaScript-referens för skriptprofilparametrar
 
-Enkel JavaScript-kunskap krävs för att effektivt använda skriptprofil
-parametrar. Det här avsnittet är en snabb referens som gör dig produktiv med den här funktionen på bara några minuter.
+Enkel Javascript-kunskap krävs för att effektivt använda parametrar för skriptprofiler. Det här avsnittet är en snabb referens som gör dig produktiv med den här funktionen på bara några minuter.
 
 Skriptprofilsparametrar finns under fliken mboxes/profiles. Du kan skriva JavaScript-program som returnerar alla JavaScript-typer (sträng, heltal, array o.s.v.).
 
@@ -198,7 +197,7 @@ if (lastPurchaseTime) {
 }
 ```
 
-Skapar en variabel för dag mätt i millisekunder. Om mbox-namnet är `orderThankyouPage` anger du ett lokalt (osynligt) användarprofilattribut med namnet `lastPurchaseTime` som visar värdet för aktuellt datum och tid. Värdet för den senaste inköpstiden läses, och om den är definierad returnerar [!DNL Target] den tid som har gått sedan den senaste inköpstiden, dividerad med antalet millisekunder i en dag (vilket ger antalet dagar sedan det senaste köpet).
+Skapar en variabel för dag mätt i millisekunder. Om mbox-namnet är `orderThankyouPage`, ange ett lokalt (osynligt) användarprofilattribut med namnet `lastPurchaseTime` för att visa värdet för aktuellt datum och aktuell tid. Värdet för den senaste inköpstiden läses, och om definierat, [!DNL Target] returnerar tiden som har gått sedan den senaste inköpstiden, dividerat med antalet millisekunder i en dag (vilket ger antalet dagar sedan det senaste köpet).
 
 **Namn:** *user.frequency*
 
@@ -209,9 +208,9 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Skapar en variabel med namnet `frequency` och initierar den till antingen det tidigare värdet eller 0, om det inte fanns något tidigare värde. Om mbox-namnet är `orderThankyouPage` returneras det stegvisa värdet.
+Skapar en variabel med namnet `frequency`, initierar det till antingen föregående värde eller 0, om det inte fanns något tidigare värde. Om mbox-namnet är `orderThankyouPage`returneras det stegvisa värdet.
 
-**Namn:** *user.monetärtValue*
+**Namn:** *user.monetärValue*
 
 ```
 var monetaryValue = user.get('monetaryValue') || 0;
@@ -220,7 +219,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Skapar en variabel med namnet `monetaryValue` och söker upp det aktuella värdet för en viss besökare (eller anger 0 om det inte fanns något tidigare värde). Om mbox-namnet är `orderThankyouPage`, returneras ett nytt monetärt värde genom att det föregående och värdet för parametern `orderTotal` läggs till i mbox.
+Skapar en variabel med namnet `monetaryValue`, söker upp det aktuella värdet för en viss besökare (eller anger 0 om det inte fanns något tidigare värde). Om mbox-namnet är `orderThankyouPage`, returneras det nya monetära värdet genom att det föregående och värdet på `orderTotal` parametern skickas till mbox.
 
 **Namn:** adobeQA
 
@@ -233,25 +232,25 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Skapar en variabel med namnet `adobeQA` för att spåra en användare för [Activity QA](/help/c-activities/c-activity-qa/activity-qa.md).
+Skapar en variabel med namnet `adobeQA` för att spåra en användare för [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
-### Objekt och metoder
+### Objekt och metoder {#objects}
 
-Följande egenskaper och metoder kan refereras av parametrar för skriptprofiler:
+Följande objekt och metoder kan refereras av parametrar för skriptprofiler:
 
 | Objekt eller metod | Detaljer |
 | --- | --- |
 | `page.url` | Aktuell URL. |
 | `page.protocol` | Protokollet som används för sidan (http eller https). |
-| `page.domain` | Den aktuella URL-domänen (allt före det första snedstrecket). Exempel: `www.acme.com` i `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
-| `page.query` | Frågesträngen för den aktuella sidan. Allt efter&quot;?&quot;. Exempel: `blue&size=small` i `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
-| `page.param(‘<par_name>’)` | Värdet på parametern som anges av `<par_name>`. Om din aktuella URL är Googles söksida och du har angett `page.param('hl')`, får du &quot;en&quot; för URL:en `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.domain` | Den aktuella URL-domänen (allt före det första snedstrecket). Till exempel: `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.query` | Frågesträngen för den aktuella sidan. Allt efter&quot;?&quot;. Till exempel: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
+| `page.param(‘<par_name>’)` | Värdet på parametern som anges av `<par_name>`. Om din nuvarande URL är Google söksida och du har angett `page.param('hl')`, får du &quot;en&quot; för URL:en `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Samma uppsättning åtgärder som ovan gäller för hänvisaren och landningen (dvs. referrer.url är referentens URL-adress). |
-| `landing.url`,  `landing.protocol`,  `landing.query`och  `landing.param` | Liknar sidan, men för landningssidan. |
+| `landing.url`, `landing.protocol`, `landing.query`och `landing.param` | Liknar sidan, men för landningssidan. |
 | `mbox.name` | Den aktiva mbox-namnet. |
 | `mbox.param(‘<par_name>’)` | En mbox-parameter med det angivna namnet i den aktiva mbox. |
-| `profile.get(‘<par_name>’)` | Den användarprofilsparameter som skapats av klienten med namnet `<par_name>`. Om användaren till exempel anger en profilparameter med namnet &quot;kön&quot; kan värdet extraheras med &quot;profile.kön&quot;. Returnerar värdet för `profile.<par_name>`-uppsättningen för den aktuella besökaren; returnerar null om inget värde har angetts. Observera att `profile.get(<par_name>)` är kvalificerat som ett funktionsanrop. |
-| `user.get(‘<par_name>’)` | Returnerar värdet för `user.<par_name>`-uppsättningen för den aktuella besökaren; returnerar null om inget värde har angetts. |
+| `profile.get(‘<par_name>’)` | Den klientskapade användarprofilsparametern med namnet `<par_name>`. Om användaren till exempel anger en profilparameter med namnet &quot;kön&quot; kan värdet extraheras med &quot;profile.kön&quot;. Returnerar värdet för &quot;`profile.<par_name>`&quot; för den nuvarande besökaren, returnerar null om inget värde har angetts. Observera att `profile.get(<par_name>)` är kvalificerat som ett funktionsanrop. |
+| `user.get(‘<par_name>’)` | Returnerar värdet för &quot;`user.<par_name>`&quot; för den nuvarande besökaren, returnerar null om inget värde har angetts. |
 | `user.categoryAffinity` | Returnerar namnet på den bästa kategorin. |
 | `user.categoryAffinities` | Returnerar en array med de bästa kategorierna. |
 | `user.isFirstSession` | Returnerar true om det är besökarens första session. |
@@ -272,9 +271,9 @@ Alla vanliga JavaScript-operatorer finns och kan användas. JavaScript-operatore
 | `>=` | Samma som `>` förutom om variablerna är lika utvärderas de till true. |
 | `&&` | Logiskt &quot;AND&quot;-uttryck till vänster och höger om det - är bara true när båda sidorna är sanna (annars false). |
 | `||` | Logiskt &quot;OR&quot; är uttrycken till vänster och höger om det bara sant om en av sidorna är sann (annars false). |
-| `//` | Kontrollerar om källan innehåller alla element från booleska målvärden (Array source, Array target).<br>`//` extraherar delsträngen från målet (motsvarande regexp) och avkodar den  `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Funktionen stöder också användning av konstanta strängvärden, gruppering (`condition1 || condition2) && condition3`och reguljära uttryck (`/[^a-z]$/.test(landing.referring.url)`). |
+| `//` | Kontrollerar om källan innehåller alla element från booleska målvärden (Array source, Array target).<br>`//` extraherar delsträngen från målet (motsvarande regexp) och avkodar den `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Funktionen stöder också användning av konstanta strängvärden, gruppering (`condition1 || condition2) && condition3`och reguljära uttryck (`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Utbildningsvideo: Profilskript ![Självstudiekurs](/help/assets/tutorial.png)
+## Utbildningsvideo: Profilskript ![Självstudiemärke](/help/assets/tutorial.png)
 
 Den här videon innehåller information om hur du använder och skapar profilskript.
 

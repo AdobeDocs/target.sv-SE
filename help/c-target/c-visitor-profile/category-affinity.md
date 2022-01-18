@@ -1,23 +1,23 @@
 ---
 keywords: tillhörighet;kategoritillhörighet
-description: Lär dig mer om kategoritillhörighet i Adobe [!DNL Target] som automatiskt fångar in kategorier som användaren besöker och sedan beräknar användarens tillhörighet för kategorin så att den kan anpassas och segmenteras.
+description: Läs om kategoritillhörighet i Adobe [!DNL Target] som automatiskt hämtar kategorier från ett användarbesök och sedan beräknar användarens tillhörighet för kategorin så att den kan anpassas och segmenteras.
 title: Vad är kategoritillhörighet?
-feature: Målgrupper
+feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '785'
+ht-degree: 3%
 
 ---
 
 # Kategoritillhörighet
 
-Kategoritillhörighetsfunktionen i [!DNL Adobe Target] fångar automatiskt de kategorier som en användare besöker och beräknar sedan användarens tillhörighet för kategorin så att den kan användas och segmenteras. Kategoritillhörighet hjälper till att se till att innehåll är riktat till besökare som är mest benägna att agera på den informationen.
+Kategoritillhörighetsfunktionen i [!DNL Adobe Target] hämtar automatiskt de kategorier som en användare besöker och beräknar sedan användarens tillhörighet för kategorin så att den kan anpassas och segmenteras. Kategoritillhörighet hjälper till att se till att innehåll är riktat till besökare som är mest benägna att agera på den informationen.
 
 ## Överför kategoritillhörighetsinformation till [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-När en användare besöker din plats registreras profilparametrar som är specifika för besökaren i [!DNL Target]-databasen. Dessa data är knutna till användarens cookie. En användbar parameter är `user.categoryId`, en mbox-parameter som tilldelats på en produktsida. När besökaren fortsätter att bläddra, eller återvänder till en annan session, kan de produktkategorier som en viss användare visar registreras. Du kan även registrera kategoriinformation genom att skicka den som mbox-parametern `user.categoryId` i en mbox (inklusive en kapslad mbox), som en URL-parameter `user.categoryId` eller i Target page parameters with a global mbox. Mer information finns hos din kontorepresentant.
+När en användare besöker webbplatsen registreras profilparametrar som är specifika för besökaren i [!DNL Target] databas. Dessa data är knutna till användarens cookie. En användbar parameter är `user.categoryId`, en mbox-parameter som tilldelats på en produktsida. När besökaren fortsätter att bläddra, eller återvänder till en annan session, kan de produktkategorier som en viss användare visar registreras. Du kan även registrera kategoriinformation genom att skicka den som mbox-parameter `user.categoryId` i valfri ruta (inklusive en kapslad ruta), som en URL-parameter `user.categoryId`eller i [!DNL Target] sidparametrar med en global mbox. Mer information finns hos din kontorepresentant.
 
 Separera kategorier med kommatecken för att inkludera ett objekt i flera kategorier. Exempel:
 
@@ -25,15 +25,15 @@ Separera kategorier med kommatecken för att inkludera ett objekt i flera katego
 
 Beroende på hur ofta och hur nyligen besök i dina produktkategorier har gjorts registreras kategoritillhörigheten (om någon) för en användare. Kategoritillhörighet kan användas för att rikta in populationer för dina aktiviteter.
 
-Du kan använda `user.categoryAffinities[]` i ett profilskript för att returnera en array med tillhörigheterna som en besökare har fyllt i.
+Du kan använda `user.categoryAffinities[]` i ett profilskript för att returnera en array med tillhörigheter som en besökare har fyllt i. Mer information finns i [user.categoryAffinties under Objekt och metoder i profilattribut](/help/c-target/c-visitor-profile/profile-parameters.md#objects).
 
 >[!IMPORTANT]
 >
->Attributet `user.categoryId` som används för kategoritillhörighetsalgoritmen skiljer sig från attributet `entity.categoryId` som används för [!DNL Adobe Target Recommendations]-produkten och innehållsrekommendationerna. `user.categoryId` krävs för att spåra en användares favoritkategori. `entity.categoryId` krävs för att basera rekommendationer på den aktuella sidans eller det aktuella objektets kategori. Skicka båda värdena till Adobe Target om du vill använda båda funktionerna.
+>The `user.categoryId` attributet som används för algoritmen för kategoritillhörighet skiljer sig från `entity.categoryId` attribut som används för [!DNL Adobe Target Recommendations]&#39; produktrekommendationer och innehållsrekommendationer. `user.categoryId` krävs för att spåra en användares favoritkategori. `entity.categoryId` krävs för att basera rekommendationer på den aktuella sidans eller det aktuella objektets kategori. Skicka båda värdena till [!DNL Target] om du vill använda båda funktionerna.
 
 ## Affärsärende för kategoritillhörighet {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-En besökares aktivitet i en session, t.ex. vilken kategori han eller hon tittar oftast, kan användas för målinriktning vid efterföljande besök. Varje kategorisida som en besökare visar under en session hämtas, och hans eller hennes favoritkategori beräknas utifrån en nyhet och frekvensmodell. Varje gång besökaren återgår till startsidan kan hjältebildområdet användas för att visa innehåll som är relaterat till användarens favoritkategori.
+En besökares aktivitet i en session, t.ex. vilken kategori de oftast ser, kan användas för målinriktning vid efterföljande besök. Varje kategorisida som en besökare visar under en session hämtas, och hans eller hennes favoritkategori beräknas utifrån en nyhet och frekvensmodell. Varje gång besökaren återgår till startsidan kan hjältebildområdet användas för att visa innehåll som hör till användarens favoritkategori.
 
 ## Exempel på att använda kategoritillhörighet {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -52,7 +52,7 @@ Algoritmen för kategoritillhörighet fungerar så här:
 
 ### Exempel: algoritm för kategoritillhörighet
 
-Om du till exempel visar kategorin `mens-clothing`, sedan `accessories`, sedan `jewelry` och sedan `accessories` igen i en session resulterar detta i följande tillhörigheter:
+Du kan till exempel visa `mens-clothing` kategori, sedan `accessories`sedan `jewelry`sedan `accessories` igen i en session resulterar i följande tillhörigheter:
 
 * `accessories`: 9 (+5 - 1 + 5)
 
@@ -68,7 +68,7 @@ När sessionen avslutas och användaren senare återgår till webbplatsen halver
 
 * `jewelry`: 2.5 (5/2)
 
-Anta att användaren sedan visar, i ordning, `jewelry`, `accessories`, `beauty`, `shoes` och `womens-clothing`:
+Anta att användaren sedan tittar i ordning, `jewelry`, `accessories`, `beauty`, `shoes`och `womens-clothing`:
 
 * `accessories`: 6.5 (4.5 + 5 - 1 - 1 - 1)
 
@@ -80,7 +80,7 @@ Anta att användaren sedan visar, i ordning, `jewelry`, `accessories`, `beauty`,
 
 * `beauty`: 3 (+5 - 1 - 1)
 
-* `mens-clothing` tas bort efter det sista klicket i  `womens-clothing` kategorin med det lägsta poängvärdet 1 (4 - 1 - 1 - 1)
+* `mens-clothing` släpps när du klickar sist på `womens-clothing` som kategorin med lägst poäng med poängen 1 (4 - 1 - 1 - 1)
 
 När sessionen avslutas och användaren senare återgår till webbplatsen halveras poängen:
 
@@ -100,7 +100,7 @@ Följande avsnitt innehåller information som hjälper dig att använda en kateg
 
 ### Skapa en målgrupp som använder kategoritillhörighet {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Klicka på **[!UICONTROL Create Audience]** i listan **[!UICONTROL Audiences]**.
+1. Från **[!UICONTROL Audiences]** lista, klicka på **[!UICONTROL Create Audience]**.
 
    eller
 
@@ -114,7 +114,7 @@ Följande avsnitt innehåller information som hjälper dig att använda en kateg
 
 1. Välj önskad kategori:
 
-   ![Kategoritillhörighet > Kategori](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Kategoritillhörighet > Kategori](assets/affinity-category.png)
 
    Kategorierna är:
 
@@ -138,4 +138,4 @@ Följande avsnitt innehåller information som hjälper dig att använda en kateg
 
 ### Använd kategoritillhörighetspubliken i en aktivitet {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Du kan använda målgrupper med kategoritillhörighet i alla aktiviteter. Välj önskad målgrupp under det guidade arbetsflödet i [!UICONTROL Target]-steget.
+Du kan använda målgrupper med kategoritillhörighet i alla aktiviteter. Under det guidade arbetsflödet i tre steg, på [!UICONTROL Target] väljer du önskad målgrupp.
