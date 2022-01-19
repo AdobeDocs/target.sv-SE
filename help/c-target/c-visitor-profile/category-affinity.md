@@ -1,19 +1,19 @@
 ---
 keywords: tillhörighet;kategoritillhörighet
-description: Läs om kategoritillhörighet i Adobe [!DNL Target] som automatiskt hämtar kategorier från ett användarbesök och sedan beräknar användarens tillhörighet för kategorin så att den kan anpassas och segmenteras.
+description: Läs om kategoritillhörighet i [!DNL Adobe Target] som automatiskt hämtar kategorier från ett användarbesök och sedan beräknar användarens tillhörighet för kategorin så att den kan anpassas och segmenteras.
 title: Vad är kategoritillhörighet?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '788'
 ht-degree: 3%
 
 ---
 
 # Kategoritillhörighet
 
-Kategoritillhörighetsfunktionen i [!DNL Adobe Target] hämtar automatiskt de kategorier som en användare besöker och beräknar sedan användarens tillhörighet för kategorin så att den kan anpassas och segmenteras. Kategoritillhörighet hjälper till att se till att innehåll är riktat till besökare som är mest benägna att agera på den informationen.
+Kategoritillhörighetsfunktionen i [!DNL Adobe Target] hämtar automatiskt de kategorier på webbplatsen som en användare besöker och beräknar sedan användarens tillhörighet för varje kategori så att den kan anpassas och segmenteras. Kategoritillhörighet hjälper till att se till att innehåll är riktat till besökare som är mest benägna att agera på den informationen.
 
 ## Överför kategoritillhörighetsinformation till [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
