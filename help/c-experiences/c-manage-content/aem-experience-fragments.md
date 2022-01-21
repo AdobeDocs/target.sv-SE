@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: b4c64f3fbc266b86cfffa6e5526a074b76b8b6ee
+source-git-commit: 5e67c963087cc07d09e65ded48a8f5777104019d
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,16 @@ Experience fragments utgör ett stort steg framåt för att länka samman inneh�
 
 ## Krav {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-Du måste ha funktionerna för upplevelsefragment i [!DNL Target]. Dessutom måste du använda [!DNL AEM] 6.3 med lämpligt Service Pack eller [!DNL AEM] 6.4 (eller senare). Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
+Du måste ha funktionerna för upplevelsefragment i [!DNL Target]. Dessutom måste du använda [!DNL AEM] as a Cloud Service eller [!DNL AEM] 6.4 (eller senare). Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
 
+* [!DNL Adobe Experience Manager ] as a Cloud Service
 * [!DNL Adobe Experience Manager] 6.5.
 * [!DNL Adobe Experience Manager] 6.4.
-* [!DNL Adobe Experience Manager] 6.3 SP2 (eller senare).
 * [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] konto.
+
+>[!NOTE]
+>
+>[!DNL Adobe Experience Manager] 6.3 och 6.4 har nått slutet av livscykeln och stöds inte längre (förutom för kunder som köpt utökad support).
 
 Kontakt [Adobe Target kundtjänst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att aktivera integreringen och ge dig autentiseringsinformation.
 
@@ -46,18 +50,18 @@ För att kunna använda [!DNL AEM] upplevelsefragment i [!DNL Target]måste du u
 
 Mer information finns i:
 
-* **Adobe I/O**: [Integrering med Adobe Target med Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) i _Administrera användarhandbok_ dokumentation.
-* **[!DNL AEM]6.3**: [Gå med i Adobe Analytics och Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) i _Adobe Experience Manager 6.3_ dokumentation.
-* **[!DNL AEM]6.4**: [Gå med i Adobe Analytics och Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) i _Adobe Experience Manager 6.4_ dokumentation.
-* **[!DNL AEM]6.5**: [Gå med i Adobe Analytics och Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) i *Adobe Experience Manager 6.5* dokumentation.
+* **AEM as a Cloud Service**: [Integrera med Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} i *Experience Manager as a Cloud Service* guide.
+* **Adobe I/O**: [Integrering med Adobe Target med Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank} i *Administrera användarhandbok* dokumentation.
+* **[!DNL AEM]6.5**: [Gå med i Adobe Analytics och Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en){target=_blank} i *Adobe Experience Manager 6.5* dokumentation.
+* **[!DNL AEM]6.4**: [Gå med i Adobe Analytics och Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank} i *Adobe Experience Manager 6.4* dokumentation.
 
 ### Steg 2: Skapa upplevelsefragmentet
 
 Upplevelsefragment skapas i [!DNL AEM]. Mer information finns i:
 
-* **[!DNL AEM]6.3**: [Upplevelsefragment](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) i *Adobe Experience Manager 6.3* dokumentation.
-* **[!DNL AEM]6.4**: [Upplevelsefragment](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en) i *Adobe Experience Manager 6.4* dokumentation.
-* **[!DNL AEM]6.5**: [Upplevelsefragment](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en) i *Adobe Experience Manager 6.5* dokumentation.
+* **AEM as a Cloud Service**: [Upplevelsefragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} i *Experience Manager as a Cloud Service* guide.
+* **[!DNL AEM]6.5**: [Upplevelsefragment](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank} i *Adobe Experience Manager 6.5* dokumentation.
+* **[!DNL AEM]6.4**: [Upplevelsefragment](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en){target=_blank} i *Adobe Experience Manager 6.4* dokumentation.
 
 ### Steg 3: Konfigurera [!DNL AEM] för att dela upplevelsefragment med [!DNL Target]
 
@@ -74,9 +78,9 @@ Upplevelsefragment skapas i [!DNL AEM]. Mer information finns i:
 
 Beroende på din [!DNL AEM] version, se följande länkar för stegvisa instruktioner:
 
-* **[!DNL AEM]6.3**: [Exportera ett Experience Fragment till Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) i *Adobe Experience Manager 6.3* dokumentation.
-* **[!DNL AEM]6.4**: [Exportera ett Experience Fragment till Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) i *Adobe Experience Manager 6.4* dokumentation.
-* **[!DNL AEM]6.5**: [Exportera ett Experience Fragment till Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en) i *Adobe Experience Manager 6.5* dokumentation.
+* **AEM as a Cloud Service**:
+* **[!DNL AEM]6.5**: [Exportera ett Experience Fragment till Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} i *Adobe Experience Manager 6.5* dokumentation.
+* **[!DNL AEM]6.4**: [Exportera ett Experience Fragment till Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} i *Adobe Experience Manager 6.4* dokumentation.
 
 ## Använda upplevelsefragment i [!DNL Target] verksamhet {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -142,6 +146,7 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
 * [!DNL Target] letar efter upplevelsefragment som ska importeras var tionde minut. Det importerade upplevelsefragmentet ska vara tillgängligt i [!DNL Target] inom tio minuter, men den här tidsramen bör korta av framåtgången.
 * Upplevelsefragmentet importeras till [!DNL Target] som ett HTML-erbjudande. Den primära versionen av upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 * Du kan inte skapa upplevelsefragment med [!DNL Adobe I/O]. Skapa upplevelsefragment med hjälp av AEM, vilket förklaras ovan.
+* Om du uppdaterar ditt upplevelsefragment i AEM måste upplevelsefragmentet publiceras och exporteras till [!DNL Target] igen så [!DNL Target] kan använda de senaste ändringarna.
 
 ## Utbildningsvideo: Använda AEM upplevelsefragment med [!DNL Adobe Target]
 
