@@ -5,9 +5,9 @@ title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '4308'
+source-wordcount: '4347'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,13 @@ The [!DNL Target] at.js JavaScript-biblioteket samlar nu in telemetridata för f
 Den här versionen innehåller följande förbättringar:
 
 * Stöd för [Webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Den här versionen av at.js krävs för att skapa och testa personaliserade upplevelser och erbjudanden på anpassade element och på element inuti anpassade element. Den här funktionen ingår i [!DNL Target Standard/Premium] 21.10.5-utgåvan.
+
+## kl. 1.8.3 (21 september 2021) {#183}
+
+Den här versionen innehåller följande ändringar:
+
+* Borttagen `reactor-window` och `reactor-document` [!DNL Adobe Experience Platform Launch] för att säkerställa att [!DNL Platform Launch] bygga funktioner korrekt för kunder som har `window.default` eller `document-default` set.
+* at.js 1.8.3 anger nu explicit `Samesite=None` och `Secure` för att säkerställa att cookies från tredje part är korrekt inställda.
 
 ## kl. 2.6.1 (16 augusti 2021)
 
