@@ -4,9 +4,9 @@ description: Lär dig hur du lägger till ett offertbeslut som skapats i [!DNL A
 title: Hur använder jag erbjudandebeslut?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 9843b146b35de3a42408b689f4326fce12bbee5d
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 Använd [!DNL Adobe Target] med [!DNL Adobe Journey Optimizer] kan fatta beslut om att bestämma och leverera nästa bästa erbjudande för era besökare på webben och i mobilen.
 
 Lägg till offertbeslut som skapats i [!DNL Adobe Journey Optimizer] till [!DNL Target] verksamhet (manuell [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting]) med antingen [!UICONTROL Visual Experience Composer] (VEC) eller [!UICONTROL Form-Based Composer] för att testa och leverera personaliserade erbjudanden till besökarna via era inkommande kanaler som drivs av [!DNL Target].
-
->[!NOTE]
->
->Funktioner för beslutsfattande som beskrivs i det här avsnittet är för närvarande i Beta och endast tillgängliga för utvalda kunder.
 
 Mer information om [!DNL Adobe Journey Optimizer], se [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) i *Journey Optimizer* dokumentation.
 

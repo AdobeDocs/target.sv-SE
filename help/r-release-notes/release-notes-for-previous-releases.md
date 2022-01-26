@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
 workflow-type: tm+mt
-source-wordcount: '32148'
+source-wordcount: '32219'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,14 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >[!NOTE]
 >
 >Se [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
+
+## Versionsinformation - 2022
+
+### [!DNL Target Standard/Premium] 22.1.2 (12 januari 2022)
+
+| Funktion | Detaljer |
+| --- | --- |
+| Använd offertbeslut i [!DNL Target] verksamhet | Du kan nu använda [!DNL Adobe Journey Optimizer] erbjudandebeslut i [!DNL Adobe Target] A/B Test and Experience Targeting (XT) för att fastställa och leverera nästa bästa erbjudande för era besökare på webben och i mobilen.<br>**Anteckning**: Den här funktionen är tillgänglig för [!DNL Target] kunder som också har tillgång till [!DNL Offer Decisioning] och har [!DNL Target] implementering baserad på Adobe Experience Platform Web SDK.<br>Mer information finns i [Använd offertbeslut](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
 
 ## Versionsinformation - 2021
 
@@ -37,7 +45,7 @@ Den här underhållsversionen innehåller följande förbättringar:
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] (VEC) | Stöd för [Webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personaliserade upplevelser och erbjudanden kan skapas och testas utifrån anpassade element och på element inuti anpassade element.<br>Mer information finns i [Alternativ för Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-## [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
+### [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
 
 Den här underhållsversionen innehåller följande förbättringar:
 
@@ -485,7 +493,7 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 * Korrigerade ett problem som hindrade kunder från att välja en samling när de gjorde en katalogsökning. (TGT-36230)
 * Korrigerade ett problem där ett villkor som skapats via API, men som inte refererats av en aktivitet som skapats i målgränssnittet, felaktigt kunde tas bort från gränssnittet. (TGT-35917)
 * Implementerade säkerhetsförbättringar i Content Security Policy (CSP). (TGT-36190)
-* Korrigerade ett problem som gjorde att &quot;NaN%&quot; visades när procentfältet för attributviktning flyttades längst till vänster. (TGT-36211)
+* Korrigerade ett problem som gjorde att &quot;NaN%&quot; visades när procentfältet för attributviktning drog åt vänster. (TGT-36211)
 * Löste lokaliseringsproblem så att gränssnittstext på olika språk visas korrekt.
 * Vi har standardiserat listan med tillgängliga mätvärden från Adobe Analytics för Target-aktiviteter (A4T) genom att ta bort Adobe Analytics-statistik som inte stöds i den aktuella versionen av Adobe Analytics API:er. Detta gör att vi kan utöka vår A4T-support i framtida versioner av Adobe Target.
 
@@ -563,7 +571,7 @@ Följande problem har åtgärdats i version 1.0.1:
 
 | Funktion/förbättring | Beskrivning |
 | --- | --- |
-| ![Premium-märke](/help/assets/premium.png) Användarbaserad Recommendations<br>(24 oktober 2019) | Rekommenderar objekt baserat på besökarens webbläsarhistorik, visning och inköp. De här objekten kallas vanligtvis&quot;Rekommenderas för dig&quot;.<br>Med dessa kriterier kan ni leverera personaliserat innehåll och personaliserade upplevelser till både nya och återkommande besökare. Listan med rekommendationer vägs mot besökarens senaste aktivitet och uppdateras under sessionen och blir mer personlig när besökaren surfar på webbplatsen.<br>Mer information finns i&quot;Användarbaserad Recommendations&quot; i [Kriterier/algoritmer](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
+| ![Premium-märke](/help/assets/premium.png) Användarbaserad Recommendations<br>(24 oktober 2019) | Rekommenderar objekt baserat på varje besökares webbsurfning, visning och inköpshistorik. De här objekten kallas vanligtvis&quot;Rekommenderas för dig&quot;.<br>Med dessa kriterier kan ni leverera personaliserat innehåll och personaliserade upplevelser till både nya och återkommande besökare. Listan med rekommendationer vägs mot besökarens senaste aktivitet och uppdateras under sessionen och blir mer personlig när besökaren surfar på webbplatsen.<br>Mer information finns i&quot;Användarbaserad Recommendations&quot; i [Kriterier/algoritmer](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
 **Adobe Experience Cloud navigering**
 
@@ -669,7 +677,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Visual Experience Composer (SPA VEC) för en sida | **Guidat arbetsflöde**: Ett nytt guidat arbetsflöde hjälper dig att förstå hur inställningar för sidleverans ska konfigureras för att köra och köra en aktivitet för din Single Page-app. (TGT-33718)<br> Se [Visual Experience Composer (SPA) med en sida](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Klona ändringar**: Du kan nu definiera en ändring med SPA VEC och sedan klona ändringen för användning i andra vyer i Single Page App. (TGT-33882)<br>Se [Visual Experience Composer (SPA) med en sida](/help/c-experiences/spa-visual-experience-composer.md). |
 | ![Premium-märke](/help/assets/premium.png) Automated Personalization (AP) och Automatiskt mål | **Specifik upplevelse som kontroll**: Du kan välja en upplevelse som ska användas som kontroll när du skapar en AP- eller Auto-Target-aktivitet. Med den här funktionen kan du dirigera hela kontrolltrafiken till en viss upplevelse, baserat på den procentandel av trafikallokeringen som har konfigurerats i aktiviteten. Sedan kan ni utvärdera prestandarapparna för den personaliserade trafiken mot kontrolltrafiken till den upplevelsen. Det nuvarande kontrollalternativet (slumpmässigt hanterade upplevelser) kommer även i fortsättningen att vara tillgängligt. (TGT-32801, TGT-26572 och TGT-26571)<br>Se [Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet](/help/c-activities/t-automated-personalization/experience-as-control.md). Observera att det finns en [aktuellt känt fel](/help/r-release-notes/known-issues-resolved-issues.md) med den här funktionen.<br>**Insikter om personalisering - rapporter**: Den marknadsföringsvänliga namngivningen för attribut när en besökare ser en viss del av innehållet på en viss plats ger mer meningsfull information. (TGT-33421 &amp; TGT-34957)<br>Se [Datainsamling för målpersonaliseringsalgoritmer](/help/c-activities/t-automated-personalization/ap-data.md). |
 | ![Premium-märke](/help/assets/premium.png) Recommendations | Du kan använda reglaget Rekommendera tidigare inköpta artiklar när du skapar logiken för nyligen visade objekt. (TGT-34030)<br>Mer information finns i [Senast visade objekt](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) i&quot;Skapa villkor&quot;. |
-| Cookiprinciper för Google Chrome SameSite | Google meddelade nyligen att man från och med Chrome 76, som är tilldelad till en 30 juli 2019-utgåva, uttryckligen måste ange vilka cookies som kan användas på olika webbplatser och vilka cookies som kan spåra användare.<br>I takt med att branschen strävar efter att skapa en säkrare webbsajt för konsumenterna är Target helt engagerat i att leverera personaliserade upplevelser och samtidigt uppfylla och överträffa besökarnas förväntningar på integritetsskydd.<br>Se [Cookiprinciper för Google Chrome SameSite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
+| Cookiprinciper för Google Chrome SameSite | Google meddelade nyligen att man från och med Chrome 76, som är tilldelad till en 30 juli 2019-utgåva, uttryckligen måste ange vilka cookies som kan användas på olika webbplatser och vilka cookies som kan spåra användare.<br>I takt med att branschen strävar efter att skapa en säkrare webbsajt för konsumenterna är Target helt engagerat i att leverera personaliserade upplevelser och samtidigt uppfylla och överträffa besökarnas förväntningar på integriteten.<br>Se [Cookiprinciper för Google Chrome SameSite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
 
 ### at.js version 2.1.0 (3 juni 2019) {#atjs-210}
 
@@ -1239,7 +1247,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) Experience Fragments </p> </td> 
-   <td colname="col2"> <p>Genom att använda upplevelsefragment som skapats i AEM i Target-aktiviteter kan ni kombinera lättanvända och kraftfulla AEM med kraftfulla funktioner för automatiserad intelligens (AI) och maskininlärning (ML) i Target för att testa och personalisera upplevelser i stor skala.&amp;nbsp;&amp;nbsp; </p> <p>AEM samlar allt innehåll och alla resurser på en central plats för att understödja er personaliseringsstrategi. AEM gör det enkelt att skapa innehåll för datorer, surfplattor och mobila enheter på en och samma plats utan att behöva skriva kod. Du behöver inte skapa sidor för alla enheter - AEM justerar automatiskt varje upplevelse med ditt innehåll. </p> <p> Med Target kan ni leverera personaliserade upplevelser i stor skala baserat på en kombination av regelbaserade och AI-drivna maskininlärningsstrategier som innehåller beteendevariabler, sammanhangsbaserade variabler och offlinevariabler.&amp;nbsp; Med Target kan ni enkelt konfigurera och köra A/B- och Multivariate-aktiviteter för att fastställa de bästa erbjudandena, innehållet och upplevelserna. </p> <p>Experience fragments utgör ett stort steg framåt för att länka samman innehållsskapare och ansvariga för upplevelser med optimerings- och personaliseringsproffs som driver affärsresultaten med Target. </p> <p>Mer information finns i <a href="/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> AEM Experience Fragments </a>. </p> </td> 
+   <td colname="col2"> <p>Genom att använda upplevelsefragment som skapats i AEM i Target-aktiviteter kan ni kombinera lättanvända och kraftfulla AEM med kraftfulla funktioner för automatiserad intelligens (AI) och maskininlärning (ML) i Target för att testa och personalisera upplevelser i stor skala.&amp;nbsp;&amp;nbsp; </p> <p>AEM samlar allt innehåll och alla resurser på en central plats för att understödja er personaliseringsstrategi. AEM gör det enkelt att skapa innehåll för datorer, surfplattor och mobila enheter på en och samma plats utan att behöva skriva kod. Du behöver inte skapa sidor för alla enheter - AEM justerar automatiskt varje upplevelse med ditt innehåll. </p> <p> Med Target kan ni leverera personaliserade upplevelser i stor skala baserat på en kombination av regelbaserade och AI-drivna maskininlärningsstrategier som innehåller beteendevariabler, sammanhangsbaserade variabler och offlinevariabler.&amp;nbsp; Med Target kan ni enkelt konfigurera och köra A/B- och Multivariate-aktiviteter för att fastställa de bästa erbjudandena, innehållet och upplevelserna. </p> <p>Experience fragments utgör ett stort steg framåt för att länka samman innehålls-/upplevelseskapare och chefer med proffsen för optimering och personalisering som driver affärsresultaten med Target. </p> <p>Mer information finns i <a href="/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> AEM Experience Fragments </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporter </p> </td> 
@@ -1338,7 +1346,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Målgrupper </p> </td> 
-   <td colname="col2"> <p>När du visar en målgrupps definitionskort (till exempel från Audience Library) kan du nu se andra aktiviteter som refererar till den målgruppen, om tillämpligt. På så sätt kan du undvika oavsiktlig påverkan på aktiviteter när du redigerar målgrupper. </p> <p>När du tidigare försökte ta bort en målgrupp som aktiviteterna refererade till, visades en varning som talar om att målgruppen inte kan tas bort med högst 10 aktiviteter som refererar till målgruppen. </p> <p>Mer information finns i <a href="/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Om målgrupper </a>. </p> </td> 
+   <td colname="col2"> <p>När du visar en målgrupps definitionskort (till exempel från Audience Library) kan du nu se andra aktiviteter som refererar till den målgruppen, om tillämpligt. På så sätt kan du undvika oavsiktlig påverkan på aktiviteter när du redigerar målgrupper. </p> <p>Tidigare, när du försökte ta bort en målgrupp som refererats av aktiviteter, visades en varning som informerar dig om att målgruppen inte kan tas bort med högst 10 aktiviteter som refererar till målgruppen. </p> <p>Mer information finns i <a href="/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Om målgrupper </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporter </p> </td> 
@@ -2149,7 +2157,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
       <li id="li_CAD67C9EBB564525ABD2269D918275F8"> <p>Nu kan du filtrera erbjudanden efter källa och typ. </p> </li> 
      </ul> </p> <p>Mer information finns i <a href="/help/c-experiences/c-manage-content/manage-content.md#concept_17874A6FCBB743AA84C5988E8571CCF3" format="dita" scope="local"> Erbjudanden </a>. </p> <p>Följande förbättringar har gjorts av geografisk lokalisering: </p> <p> 
      <ul id="ul_DD8B50F980B8447A8C37EA96530D8949"> 
-      <li id="li_348E04AB29B14E6F83E3A7E7BF7D75B8"> <p>Nu kan du använda <span class="codeph"> profile.geolocation </span> värden direkt som tokens i erbjudanden, plugin-program och så vidare. (TNT-25967) </p> </li> 
+      <li id="li_348E04AB29B14E6F83E3A7E7BF7D75B8"> <p>Du kan nu använda <span class="codeph"> profile.geolocation </span> värden direkt som tokens i erbjudanden, plugin-program och så vidare. (TNT-25967) </p> </li> 
      </ul> </p> <p>Mer information finns i <a href="/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -3011,7 +3019,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1"> Redigera text och HTML i Visual Experience Composer för MVT- och Automated Personalization-aktiviteter </td> 
-   <td colname="col2"> <p> Text- och HTML-formatering i ett ordprocessorliknande fönster när du redigerar Automated Personalization och Multivariate Test-aktiviteter. </p> <p> Den här funktionen var tidigare bara tillgänglig för A/B- och Experience Targeting-aktiviteter. </p> <p>De här åtgärderna ger möjlighet till textredigering genom att lägga till HTML-taggar eller använda format. De här ändringarna av RTF-redigeraren för alla åtgärder kan visas i källvyn. Användare kan trycka på HTML i textredigeraren för att se källvyn. De format som läggs till av RTF-redigeraren kan störa kundernas webbplatsformat. I det här fallet kan användarna gå till källvyn och redigera ändringarna för att justera dem efter webbplatsens format. </p> <p>Se <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Alternativ för Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p> Text- och HTML-formatering i ett ordprocessorliknande fönster när du redigerar Automated Personalization och Multivariate Test-aktiviteter. </p> <p> Den här funktionen var tidigare bara tillgänglig för A/B- och Experience Targeting-aktiviteter. </p> <p>De här åtgärderna ger möjlighet till textredigering genom att lägga till HTML-taggar eller använda format. De här ändringarna i RTF-redigeraren kan visas i källvyn. Användare kan trycka på HTML i textredigeraren för att se källvyn. De format som läggs till av RTF-redigeraren kan störa kundernas webbplatsformat. I det här fallet kan användarna gå till källvyn och redigera ändringarna för att justera dem efter webbplatsens format. </p> <p>Se <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Alternativ för Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Formulärbaserade rekommendationer </p> </td> 
@@ -3761,7 +3769,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 Den här versionen innehåller följande korrigeringar:
 
 * Ett problem har korrigerats där klickspårningsmåttet inte togs bort från en aktivitet om upplevelse-URL:en återställdes.
-* Korrigerade ett problem i Experience Composer som gjorde att standardupplevelsen blinkade snabbt innan nytt innehåll visas när du navigerar genom upplevelser.
+* Korrigerade ett problem i Experience Composer som gjorde att standardupplevelsen blinkade snabbt innan nytt innehåll visas när du navigerar bland upplevelserna.
 
 Den här versionen innehåller följande kända fel. Dessa problem kommer att åtgärdas i en kommande uppdatering.
 

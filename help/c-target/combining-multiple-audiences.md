@@ -4,9 +4,9 @@ description: Lär dig kombinera olika målgrupper (inklusive Adobe Experience Cl
 title: Kan jag kombinera flera olika målgrupper för att skapa en ny målgrupp?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Kombinera olika målgrupper (inklusive [!DNL Adobe Experience Cloud], [!DNL Adob
 >[!NOTE]
 >
 >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller kombineras med befintliga målgrupper, vilket förklaras i detta avsnitt).
+>
+>Mer information finns i [Använda målgrupper från Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep).
 
 Anta att du har en&quot;New Visitors&quot;-målgrupp och en&quot;Chrome Users&quot;-målgrupp. För en viss aktivitet kanske du vill kombinera dessa befintliga målgrupper för att rikta in dig på nya besökare med Chrome-webbläsare. Istället för att skapa en tredje målgrupp och lagra den i [!UICONTROL Audiences] kan du kombinera dessa två målgrupper när du skapar en aktivitet eller när du redigerar en befintlig aktivitet.
 

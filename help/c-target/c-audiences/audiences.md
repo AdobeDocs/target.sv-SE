@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,9 @@ The [!UICONTROL Audiences] -listan innehåller de målgrupper som du kan använd
    >
    >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller [kombinerat med befintliga målgrupper](/help/c-target/combining-multiple-audiences.md).
    >
-   >Användarna måste ha [!UICONTROL Approver] eller ovanför status i [!DNL Target] för att konfigurera [!DNL Target] [!UICONTROL Destinations] kort i AEP/RTCDP ([!DNL Real-Time Customer Data Platform]).
+   >Användarna måste ha [!UICONTROL Approver] eller ovanför status i [!DNL Target] för att konfigurera [!DNL Target] [!UICONTROL Destinations] kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+   >
+   >Mer information finns i [Använda målgrupper från Adobe Experience Platform](#aep).
 
 Fördefinierade målgrupper, till exempel[!UICONTROL New Visitors]&quot; och &quot;[!UICONTROL Returning Visitors],&quot; kan inte byta namn.
 
@@ -102,6 +104,29 @@ Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+
+## Använd målgrupper från [!DNL Adobe Experience Platform] {#aep}
+
+Använda målgrupper skapade i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), inbyggt [!DNL Adobe Experience Platform], hjälper företag att samla in kända och anonyma data från flera olika källor. Med den här processen kan ni skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser över alla kanaler och enheter i realtid.
+
+Genom att ansluta [!DNL Target] till [!DNL Real-time Customer Data Platform]kan kunderna förbättra sin webbpersonalisering genom att låsa upp nya segment som tidigare inte var tillgängliga för [!DNL Target] för att möjliggöra millisekundpersonalisering i realtid på första sidan av en kunds webbbesök. Använda målgrupper skapade i [!DNL Adobe Experience Platform] gör att du kan utöka de tillgängliga datapunkterna för bättre personalisering.
+
+Mer information finns i följande avsnitt:
+
+* [Versionsinformation om destinationer](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Anpassad personaliseringsanslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} i *Översikt över destinationer* guide
+* [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i *Översikt över destinationer* guide
+* [Konfigurera anpassningsmål för användning av samma sida och nästa sida](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+I följande tabell visas segmentutvärderingstiden för händelser som kommer från olika implementeringsscenarier:
+
+| Scenario | Kantsegment (millisekundutvärdering) | Strömningssegment (minututvärdering) | Utvärdering av batchsegment |
+| --- | --- | --- | --- |
+| Händelser/data från Adobe Experience Platform SDK:er | Ja | Ja | Ej tillämpligt |
+| Händelser från at.js | Nej | Ja | Ej tillämpligt |
+| Händelser från Target Mobile SDKs | Nej | Ja | Ej tillämpligt |
+| Händelser från batchöverföring | Nej | Nej | Ja |
+| Händelser från offlinedata (ström) | Nej | Ja | Ja |
 
 ## Utbildningsvideo: Använda målgrupper ![Självstudiemärke](/help/assets/tutorial.png)
 
