@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 5e67c963087cc07d09e65ded48a8f5777104019d
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1130'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Upplevelsefragment skapas i [!DNL AEM]. Mer information finns i:
 
 Beroende på din [!DNL AEM] version, se följande länkar för stegvisa instruktioner:
 
-* **AEM as a Cloud Service**:
+* **AEM as a Cloud Service**: [Exportera Experience Fragments till Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
 * **[!DNL AEM]6.5**: [Exportera ett Experience Fragment till Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} i *Adobe Experience Manager 6.5* dokumentation.
 * **[!DNL AEM]6.4**: [Exportera ett Experience Fragment till Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} i *Adobe Experience Manager 6.4* dokumentation.
 

@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
+source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3285'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 27 januari | [AEM upplevelsefragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Uppdaterat ämne och tillagd information om [!DNL AEM as a Cloud Service] och [!DNL Adobe I/0]. |
 | 26 januari | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om Target Standard/Premium 22.1.2. |
 |  | [Skapa målgrupper](/help/c-target/c-audiences/audiences.md) | Lagt till information om [!DNL Adobe Experience Platform] målgrupper. |
 |  | [Kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md) | Lagt till information om [!DNL Adobe Experience Platform] målgrupper. |
