@@ -1,12 +1,12 @@
 ---
 keywords: miljödata;sessionsdata;geodata;geografiska data;enhetsdata;mobildata;attribut;profilattribut;personaliseringsalgoritmer;maskininlärningsalgoritmer;maskininlärningsalgoritmer
-description: Läs vilka data Adobe [!DNL Target] samlar in och använder för att skapa maskininlärningsalgoritmer i [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet.
+description: Läs vilka data Adobe [!DNL Target] samlar in och använder för att skapa maskininlärningsalgoritmer.
 title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
+source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
