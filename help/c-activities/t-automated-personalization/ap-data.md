@@ -4,7 +4,7 @@ description: Läs vilka data Adobe [!DNL Target] samlar in och använder för at
 title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
+source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Blockera en eller flera specifika funktioner från [!DNL Target] maskininlärnin
 | Attributnamn | Attributbeskrivning | Exempelvärden | Systemnamn |
 | --- | --- | --- | --- |
 | Geo - ort | Den stad som besökaren kom åt aktiviteten från. | San Francisco | Geo_stad |
-| Geo - land | Det land från vilket besökaren kom åt aktiviteten. | Tyskland | Geo_County |
+| Geo - land | Det land från vilket besökaren kom åt aktiviteten. | Tyskland | Geo_Country |
 | Geo - DMA | Det utsedda marknadsföringsområdet (DMA) från vilket besökaren kom åt aktiviteten. | Charlottesville | Geo_DMA |
 | Geo - Latitude | Latituden varifrån besökaren kom åt aktiviteten. | 47.269<br>Avrundat till 3 decimaler (ca 100 meter noggrannhet) | GEO_Latitude |
 | Geo - longitud | Longitud från vilken besökaren kom åt aktiviteten. | -122.269<br>Avrundat till 3 decimaler (ca 100 meter noggrannhet) | GEO_Longitud |
