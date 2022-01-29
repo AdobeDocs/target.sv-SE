@@ -5,9 +5,9 @@ title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '4347'
+source-wordcount: '4377'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,12 @@ Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScr
 >Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
 >Taggar i [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) är det bästa sättet att uppgradera at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Adobe Experience Platform] katalog som uppgraderingar. Mer information finns i [Tilläggsuppgraderingar](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) i *Översikt över taggar* guide.
+
+## at.js version 2.8.1 (28 januari 2022)
+
+* Fast `pageLoad` inte mappas till target-global-mbox i [!UICONTROL On Device Decisioning] (ODD) hybridkörningsläge.
+* Ett problem med analysinformation för mbox-begäran har korrigerats.
+* Uppgraderade utvecklingsberoenden för att åtgärda säkerhetsproblem.
 
 ## at.js version 2.8.0 (7 januari 2022)
 

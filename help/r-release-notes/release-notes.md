@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard] och [!DNL Target Premium] release. Versionsinformation om mål-API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar ingår också, i tillämpliga fall.
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
+
+## at.js version 2.8.1 (28 januari 2022)
+
+* Fast `pageLoad` inte mappas till target-global-mbox i [!UICONTROL On Device Decisioning] (ODD) hybridkörningsläge.
+* Ett problem med analysinformation för mbox-begäran har korrigerats.
+* Uppgraderade utvecklingsberoenden för att åtgärda säkerhetsproblem.
 
 ## [!DNL Target Standard/Premium] 22.1.2 (26 januari 2022)
 
