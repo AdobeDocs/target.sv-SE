@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,16 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 10 januari 2022**
+**Senast uppdaterad: 31 januari 2022**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
->[!IMPORTANT]
->
->**mbox.js end-of-life**: 31 mars 2021 [!DNL Adobe Target] stöder inte längre mbox.js-biblioteket. Efter den 31 mars 2021 misslyckas alla anrop från mbox.js på ett bra sätt och påverkar de sidor som har [!DNL Target] aktiviteter som körs genom att visa standardinnehåll.
->
->Om du vill undvika eventuella problem med dina webbplatser migrerar du till den senaste versionen av den nya [!DNL Adobe Experience Platform Web SDK] eller JavaScript-biblioteket at.js. Mer information finns i [Översikt: implementera Target för webben på klientsidan](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+## Target Standard/Premium 22.2.1 (1 februari 2022)
+
+Den här underhållsversionen innehåller följande korrigeringar och förbättringar för den nya [!UICONTROL Audiences] Gränssnittet presenterades i [Target Standard/Premium 22.1.2](/help/r-release-notes/release-notes.md) som kommer ut till kunder i alla regioner under de kommande sex veckorna. Dessa korrigeringar anpassar funktionaliteten hos målgrupper som skapats i [!DNL Adobe Target Standard/Premium].
+
+* Ett problem som förhindrade importerade målgrupper från har korrigerats [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]och [!DNL Adobe Target Classic] från att tilldelas som rapportmålgrupper. (TGT-43140)
+* Lagt till en [!UICONTROL Delete] i [!UICONTROL Audiences] lista för importerade målgrupper från [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]och [!DNL Adobe Target Classic]. Dessutom lades massborttagningsfunktioner till. (TGT-42914)
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

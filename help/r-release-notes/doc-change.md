@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
+source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
 workflow-type: tm+mt
-source-wordcount: '3305'
+source-wordcount: '3316'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 31 januari | [Versionsinformation för mål (prerelease)](/help/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target Standard/Premium] 22.2.1-versionen. |
 | 28 januari | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Ytterligare information om at.js 2.8.1-versionen. |
 |  | [versionsinformation för at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.8.1-versionen. |
 | 27 januari | [AEM upplevelsefragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Uppdaterat ämne och tillagd information om [!DNL AEM as a Cloud Service] och [!DNL Adobe I/0]. |
