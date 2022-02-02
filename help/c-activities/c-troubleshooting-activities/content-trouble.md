@@ -4,9 +4,9 @@ description: Hitta förslag på hjälp med att åtgärda problem om sidan inte v
 title: Hur felsöker jag innehållsleverans?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ Om du vill använda mboxDebug lägger du till en mboxDebug-parameter i slutet av
 | URL-parametrar | Syfte |
 |--- |--- |
 | `mboxDebug=1` | Felsökning<br>Om du lägger till den här parametern till en URL med definierade Target-begäranden öppnas ett popup-fönster med värdefull felsökningsinformation. Cookie-information, PCid- och sessions-ID-värden skrivs ut och alla URL:er visas. Klicka på en URL för en målbegäran för att visa svaret för den [!DNL Target] begäran. Mer information finns i [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
-| `mboxDebug=x-cookie` | Ändra cookien |
 | `mboxDisable=1` | Inaktivera kryssrutor på sidan |
-| `mboxDebug=x-profile` | Visa profiler. |
-| `mboxDebug=x-time` | Visa svarstid för varje [!DNL Target] förfrågan |
 | `mboxOverride.browserIp=<Insert IP address>` | Testa geolokalisering<br>Testa målanpassning med den här URL-parametern. Ange en IP-adress som värde för det här attributet, och Test&amp;Target-målet utvärderar den IP-adressen så att den matchar alla geografiska mål och segmenteringar som angetts i en kampanj. |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ I det här scenariot är URL:en `https://shopping.mycart.com?type=Summers%20Offe
 I det här scenariot är URL:en `https://shopping.mycart.com?type=Summers%20Offers` och ytterligare mallregler anger [!UICONTROL Query] med [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Erbjudanden, avgränsade med operatorn OR:
 
 ![Mallregel som utnyttjar en viss del av URL:en](assets/option3.png)
+
+## Escaping-citattecken i [!DNL Target] profilattributvärdet fungerar inte som förväntat. {#escape}
+
+När du skickar värden som innehåller dubbla citattecken i en [!DNL Target] profile attribute, you must double escape it as show below.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## Utbildningsvideor
 
