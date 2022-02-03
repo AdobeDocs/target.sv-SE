@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -125,13 +125,10 @@ Viktiga funktioner:
 Mer information finns i följande avsnitt:
 
 * [Versionsinformation om destinationer](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Konfigurera personaliseringsmål för personalisering på samma sida och nästa sida](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
 * [Anpassad personaliseringsanslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} i *Översikt över destinationer* guide
 * [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i *Översikt över destinationer* guide
 * [Konfigurera anpassningsmål för användning av samma sida och nästa sida](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
-
-### Adobe Target blogg och video:
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] och [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ### Ytterligare information
 
@@ -144,6 +141,18 @@ I följande tabell visas segmentutvärderingstiden för händelser som kommer fr
 | Händelser från Target Mobile SDKs | Nej | Ja | Ej tillämpligt |
 | Händelser från batchöverföring | Nej | Nej | Ja |
 | Händelser från offlinedata (ström) | Nej | Ja | Ja |
+
+### Video: Nästa steg i personaliseringen med CDP och [!DNL Adobe Target]{#RTCDP}
+
+Läs om hur ni personaliserar nästa träff med [!DNL Real-time Customer Data Platform] och [!DNL Adobe Target]. The [!DNL Adobe Target] mål in [!DNL Real-time CDP] låter dig använda [!DNL Experience Platform] segment i [!DNL Adobe Target] för personalisering av samma sida och nästa sida med stöd för styrning och integritet.
+
+Mer information finns i [Nästa steg i personaliseringen med CDP och Adobe Target i realtid](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} i *Platform Tutorials* guide.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Adobe Target blogg och video:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] och [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ## Utbildningsvideo: Använda målgrupper ![Självstudiemärke](/help/assets/tutorial.png)
 
