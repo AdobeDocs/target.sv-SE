@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,20 @@ ht-degree: 0%
 
 Kommentarer och information om kommande evenemang, inklusive [!DNL Adobe Target] Sessioner, chatt, webbinarier och [!DNL Target] Sessioner med kaffebrytning.
 
-## [!DNL Adobe Target] Community Q&amp;A Coffee Break (19 januari 2022)
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break (23 februari 2022)
 
-* **Onsdagen den 19 januari 2022**
+* **onsdagen den 23 februari 2022**
 * **08.00. (PST, UTC-8)**
-* **[Mer information och registreringsinformation](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
+* **[Mer information och registreringsinformation](https://adobe.ly/3skO6DV)**
 
-Jon Tehero, Group Product Manager för [!DNL Adobe Target], kommer att besvara dina frågor om hans expertområden:
+Senior Product Manager Vishal Chordia kommer att besvara kundfrågor som gäller hans följande expertområden:
 
-* [!DNL Adobe Target] integrering med [!DNL Adobe Journey Optimizer] (AJO)
-* [!DNL Adobe Target] UI
-* Allmänt [!DNL Adobe Target] ämnen
+* [!DNL Adobe Experience Platform]
+* Målgruppsbaserad personalisering
+* [!DNL Real-time Customer Data Platform] (RTCDP) integration med [!DNL Target]
+* Allmänt [!DNL Target] ämnen
+
+Tekniksupporten Mihnea Docea kommer att hjälpa Vishal.
 
 ## Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från [!DNL Adobe Target]
 

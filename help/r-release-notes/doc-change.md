@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
 workflow-type: tm+mt
-source-wordcount: '3368'
+source-wordcount: '3385'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 7 februari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (23 februari 2022)</li></ul> |
 | 3 februari | [Skapa målgrupper](/help/c-target/c-audiences/audiences.md#RTCDP) | Nya avsnitt och videoklipp har lagts till: &quot;Video: Nästa steg i personaliseringen med CDP och [!DNL Adobe Target].&quot; |
 | 2 februari | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Följande avsnitt har lagts till: &quot;Escaping double quotes in [!DNL Target] profilattributvärdet fungerar inte som förväntat.&quot; |
 | 1 februari | [Versionsinformation för mål (aktuell)](/help/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.2.1-versionen. |
