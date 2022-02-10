@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
 workflow-type: tm+mt
-source-wordcount: '4500'
+source-wordcount: '4677'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,15 @@ I följande avsnitt listas kända problem för [!DNL Target]:
 
 ### Visual Experience Composer (VEC) läser in webbplatser med Service Workers
 
-Det finns för närvarande vissa begränsningar när man försöker använda VEC för att öppna en webbplats som använder Service Workers. En lösning är att inaktivera Service Workers från fliken Chrome Developer Tools > Application och sedan aktivera kryssrutan&quot;Bypass for network&quot; under Service Workers. (KB-2006)
+Det finns vissa begränsningar när du försöker använda VEC för att öppna en webbplats som använder [Servicearbetare](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+
+En SWF-fil är en webbteknik som kan användas för att avlyssna begäranden för den domän som de är installerade på av en webbsida. Programvaran överlever sidbesöket och aktiverar sig själv vid efterföljande besök. Svartvyn avgör vilka förfrågningar som går igenom och vilka som fångas upp och hanteras från ett cacheminne istället.
+
+Programvaran kan styra cachningen. kan cachelagra själva webbsidan, statiska resurser som JS, CSS, IMG, AJAX, deras innehåll och deras svarshuvuden, inklusive de som [VEC Helper-tillägg för mål](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) försöker ta bort, som X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) eller Set-Cookie.
+
+Tyvärr tar Chrome-tilläggets API:er som fångar upp webbförfrågningar inte emot förfrågningar som fångats upp och hanterats av en SWF-fil. Tillägget kan därför inte åtgärda sidhuvuden och cookies om webbsidesbegäran hanterades från ett cacheminne av en SWF-fil eftersom webbsidan inte läses in i VEC på grund av X-Frame-Options eller CSP-rubriker som också cache-lagrades.
+
+Som en möjlig tillfällig lösning kan du inaktivera Service Workers på fliken Chrome Developer Tools > Application (Verktyg för Chrome-utvecklare) och sedan aktivera kryssrutan&quot;Bypass for network&quot; (Kringgå för nätverk) under avsnittet Service Workers (Servicearbetare). (KB-2006)
 
 ### Trafikfördelning av aktiviteter automatiskt med A4T {#aa-a4t}
 
