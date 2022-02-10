@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3405'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 10 februari | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>Visual Experience Composer (VEC) läser in webbplatser med Service Workers</li></ul> |
 | 7 februari | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (23 februari 2022)</li></ul> |
 | 3 februari | [Skapa målgrupper](/help/c-target/c-audiences/audiences.md#RTCDP) | Nya avsnitt och videoklipp har lagts till: &quot;Video: Nästa steg i personaliseringen med CDP och [!DNL Adobe Target].&quot; |
 | 2 februari | [Felsöka innehållsleverans](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Följande avsnitt har lagts till: &quot;Escaping double quotes in [!DNL Target] profilattributvärdet fungerar inte som förväntat.&quot; |

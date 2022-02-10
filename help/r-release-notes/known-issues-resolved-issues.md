@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
-source-wordcount: '4443'
+source-wordcount: '4500'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Information om kända fel för [!DNL Adobe Target]. Innehåller även informatio
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 I följande avsnitt listas kända problem för [!DNL Target]:
+
+### Visual Experience Composer (VEC) läser in webbplatser med Service Workers
+
+Det finns för närvarande vissa begränsningar när man försöker använda VEC för att öppna en webbplats som använder Service Workers. En lösning är att inaktivera Service Workers från fliken Chrome Developer Tools > Application och sedan aktivera kryssrutan&quot;Bypass for network&quot; under Service Workers. (KB-2006)
 
 ### Trafikfördelning av aktiviteter automatiskt med A4T {#aa-a4t}
 
