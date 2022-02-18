@@ -4,9 +4,9 @@ description: Läs vilka data Adobe [!DNL Target] samlar in och använder för at
 title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ I följande tabell visas kunddata som samlats in av [!UICONTROL Automated Person
 | URL-parametrar | URL | URL och eventuella URL-parametrar för den sida som visas för tillfället. | Anpassad - URL-parameter - [URL-parameter] |
 | Refererande URL | REF | Refererande URL och eventuella URL-parametrar för den refererande URL:en. | Anpassad - [Refererande URL-parameter] - [Parametervärde] |
 | Adobe Experience Cloud delade målgrupper | AAM | Alla målgrupper som delas med [!DNL Target] från andra [!DNL Adobe Experience Cloud] lösningar (till exempel [!DNL Adobe Audience Manager] och [!DNL Adobe Analytics], via [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Anpassad - Experience Cloud-målgrupp - [Målgruppsnamn] |
-| Adobe Experience Platform RTCDP-målgrupper | UPS | AEP RTCDP-målgrupper delade med [!DNL Target] via Destinationer.<br>Observera att den här funktionen inte finns i [!DNL Target] men kommer att implementeras i framtiden. |  |
+| Adobe Experience Platform RTCDP-målgrupper | UPS | AEP RTCDP-målgrupper delade med [!DNL Target] via Destinationer. |  |
 
 ## Blockera funktioner från [!DNL Target] maskininlärningsalgoritmer
 
