@@ -1,13 +1,12 @@
 ---
 keywords: Vanliga frågor och svar,Vanliga frågor,Analys för mål,segment,A4T,Dela rapporter
-description: Hitta vanliga frågor om delning av mätvärden, målgrupper och rapporter när du använder Analytics för [!DNL Target] (A4T). A4T lets you use Analytics reporting for Adobe [!DNL Target] aktiviteter.
+description: Hitta vanliga frågor om att dela mätvärden, målgrupper och rapporter när du använder Analytics för [!DNL Target] (A4T). Med A4T kan ni använda analysrapporter för Adobe [!DNL Target] verksamhet.
 title: Var hittar man Frågor och svar om delning av statistik, målgrupper och rapporter i A4T?
-feature: Analyser för mål (A4T)
-exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+feature: Analytics for Target (A4T)
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
+source-git-commit: 5a3e46b94bfece0583a5f2603e3edca35a7c97e0
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -26,4 +25,4 @@ Mer information finns i [Bokmärkeshanteraren](https://experienceleague.adobe.co
 
 Om du använder speciella mätvärden och segment med ett test kan du skapa en användargrupp för optimeringsteamet. Dela mätvärden och segment med gruppen i stället för enskilda medlemmar för att se till att alla har tillgång till segmenten och mätvärdena. Endast administratörer kan dela med grupper.
 
-Se [Dela segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) och [Dela beräknade mått](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Se [Dela segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) och [Dela beräknade värden](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
