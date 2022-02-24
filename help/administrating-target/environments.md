@@ -5,9 +5,9 @@ title: Vad är miljöer och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: c335fde454e31c6d82ebc8b0b5570f3c65d18541
+source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,7 @@ Du kan ta bort en miljö när den inte längre behövs.
 
 Du kan förhandsgranska innehållet i Recommendations-samlingar och undantag för en vald miljö (värdgrupp).
 
->[!NOTE]
->
->Recommendations-aktiviteter är tillgängliga som en del av [!DNL Target] Premiumlösning. De är inte tillgängliga i [!DNL Target] Standard utan [!DNL Target] Premiumlicens.
+{{premium-note}}
 
 En miljö kan användas för att separera tillgängliga objekt i katalogen för olika användningsområden. Du kan till exempel använda värdgrupper för [!UICONTROL Development] och [!UICONTROL Production] miljöer, olika varumärken eller olika geografiska platser. Som standard baseras förhandsgranskningsresultaten i Katalogsökning, Samlingar och Undantag på standardvärdgruppen. (Du kan också välja en annan värdgrupp om du vill förhandsgranska resultaten med hjälp av miljöfiltret.) Som standard är nyligen tillagda objekt tillgängliga i alla värdgrupper om inte ett miljö-ID anges när objektet skapas eller uppdateras.
 
