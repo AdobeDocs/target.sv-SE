@@ -4,9 +4,10 @@ description: Läs mer om algoritmerna som används i [!DNL Target Recommendation
 title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algorithms?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
+exl-id: c156952b-8eda-491d-a68e-d3d09846f640
+source-git-commit: 7b9dad2f17496103b8fc2f91468ddcb665c339fa
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2739'
 ht-degree: 0%
 
 ---
