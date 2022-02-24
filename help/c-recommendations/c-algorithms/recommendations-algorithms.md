@@ -5,9 +5,9 @@ title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algor
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 7b9dad2f17496103b8fc2f91468ddcb665c339fa
+source-git-commit: 2e249f11375ab964e662e6d7bbab58b982add8ae
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Rekommendationsalgoritmer för filtrering av objekt-objekt baseras på tanken at
 
 För algoritmen&quot;personer som visade/köpte det här objektet även visade/köpte dessa objekt&quot; är målet att beräkna en likhet som (A,B) mellan alla par av objekt. För en given post A ordnas de översta rekommendationerna sedan efter deras likhet som (A,B).
 
-Ett exempel på en sådan likhet är den samförekomst som finns mellan objekten: ett enkelt antal användare som har köpt båda artiklarna. Även om det är intuitivt är en sådan mätmetod naiv eftersom den är partisk med att rekommendera populära objekt. Om till exempel de flesta i en livsmedelsbutik köper bröd, kommer brödet att vara mycket vanligt tillsammans med alla artiklar, men det behöver inte vara en bra rekommendation. [!DNL Target] I används i stället ett mer avancerat likhetsmått som kallas log Sability ratio (LLR). Den här kvantiteten är stor när sannolikheten för att två artiklar, A och B, inträffar samtidigt skiljer sig mycket från sannolikheten för att de inte inträffar samtidigt. Ett exempel på [!UICONTROL People Who Viewed This, Bought That] algoritm. Likheten för LLR är stor när sannolikheten för att B köptes är oberoende av om någon tittar på A eller inte.
+Ett exempel på en sådan likhet är den samförekomst som finns mellan objekten: ett enkelt antal användare som har köpt båda artiklarna. Även om det är intuitivt är en sådan mätmetod naiv eftersom den är partisk med att rekommendera populära objekt. Om till exempel de flesta i en livsmedelsbutik köper bröd, kommer brödet att vara mycket vanligt tillsammans med alla artiklar, men det behöver inte vara en bra rekommendation. [!DNL Target] I används i stället ett mer avancerat likhetsmått som kallas log Sability ratio (LLR). Den här kvantiteten är stor när sannolikheten för att två artiklar, A och B, inträffar samtidigt skiljer sig mycket från sannolikheten för att de inte inträffar samtidigt. Ett exempel på [!UICONTROL People Who Viewed This, Bought That] algoritm. Likheten i LLR är stor när sannolikheten att B köptes är *not* oberoende av om någon visade A.
 
 Om
 
