@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar resultatet av en automatisk fördelning av A
 title: Hur tolkar jag autofördelade rapporter?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ En av följande orsaker beskriver varför 0 % visas i rapportens [!UICONTROL Con
 * Automatisk allokering börjar visa självförtroende först efter att den vinnande upplevelsen fått 60 % självförtroende. Dessa konfidensnivåer uppträder vanligtvis på ungefär hälften så lång tid som ett normalt A/B-test skulle ta att slutföra (även om detta inte garanteras). För att avgöra hur länge ett normalt A/B-test skulle köras, använd en [exempelstorlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): plug-controls konverteringsgrad i &quot;Baseline conversion rate&quot;, &quot;5%&quot; för &quot;Lift&quot; och 95% för &quot;Confidence&quot;. Normalt börjar förtroendet visa sig efter att varje upplevelse har fyllt 50 % av det antal samplingar som krävs per upplevelse. Då får du en uppfattning om när självförtroende kommer att börja uppstå.
 * Om rapporten visar 0 procent över hela linjen är det sannolikt för tidigt i verksamheten.
 
-## Finns brickorna &quot;Ingen vinnare&quot;, &quot;vinnare&quot; och &quot;stjärna&quot; för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T)?
+### Finns brickorna &quot;Ingen vinnare&quot;, &quot;vinnare&quot; och &quot;stjärna&quot; för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T)?
 
 Märken &quot;Ingen vinnare ännu&quot; och &quot;vinnare&quot; finns för närvarande inte i [!UICONTROL A4T] panel i [!DNL Analysis Workspace]. Dessa emblem är inte heller tillgängliga om samma rapport visas i [!DNL Target]. En &quot;stjärna&quot;-bricka som visas i en [!DNL Target] rapport för [!UICONTROL Auto-Allocate] -aktivitet som använder A4T ska ignoreras.
 
