@@ -4,9 +4,9 @@ description: Lär dig hur du använder mbox3rdPartyId, som är din organisations
 title: Hur använder jag profilsynkronisering i realtid för mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ När besökaren loggar ut bevaras den sammanfogade profilen.
       * `setCustomerId` är en funktion som du kan använda på implementeringar på klientsidan (webbläsare) när VisitorAPI.js är tillgängligt på sidan.
       * `customerIds` är parameternamnet som används när du anger det direkt i nyttolasten för leverans-API och vanligtvis görs på implementeringar på serversidan eller i IOT (Internet of Things).
       * Ogilla `mbox3rdPartyId`/`thirdPartyId`kan du skicka flera ID:n som en lista på det här sättet, men eftersom [!DNL Target] stöder endast ett kund-ID per TnT ID, det använder det första ID:t i listan med ett känt alias (alias konfigurerat i användargränssnittet för kundattribut).
+
+   Du kan använda `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] är din enda [!DNL Adobe Experience Cloud] och du inte vill använda kundattribut. I alla andra fall rekommenderar vi att du använder `setCustomerId`/`customerIds` för att skicka dina kund-ID:n.
 
    >[!IMPORTANT]
    >
