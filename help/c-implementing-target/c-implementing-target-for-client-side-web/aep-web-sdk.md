@@ -5,9 +5,9 @@ title: Hur implementerar jag Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 636016be6e8a6adc8c4b7fb09af93bb89e28373a
+source-git-commit: 7cded87ef6c9a61a6f259a8ea458c31a8c6c9e39
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ Förutom [!DNL Platform Web SDK] dokumentationen ovan innehåller även avsnitt 
 | [Aktivitets-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamheten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata. [!UICONTROL Activity QA] låter dig testa [!DNL Target] aktiviteter innan de lanseras live.<br>Se [Kompatibilitet med mållayoutbibliotek i JavaScript - QA-läge](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) och [Förhandsgranska URL:er](/help/c-activities/c-activity-qa/activity-qa.md#preview). |
 | [[!UICONTROL Analytics for Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) är en integrering med flera lösningar som gör att du kan skapa aktiviteter baserade på [!DNL Analytics] konverteringsstatistik och målgruppssegment. Med A4T-integreringen kan du använda [!DNL Analytics] rapporter för att undersöka resultaten.<br>Se [Aktivitetstyper som stöds](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) och [Implementeringssteg för en Adobe Experience Platform Web SDK-implementering](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
 | [Målgrupper](/help/c-target/target.md) | Målgrupper i [!DNL Adobe Target] avgöra vilka som ser innehåll och upplevelser i en målinriktad aktivitet.<br>Se [Använda publiklistan](/help/c-target/c-audiences/audiences.md#use-list) och [Kombinera flera målgrupper](/help/c-target/combining-multiple-audiences.md). |
+| [Skapa målgrupper](/help/c-target/c-audiences/audiences.md) | Använda målgrupper skapade i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering.<ul>Se [Använd målgrupper från [!DNL Adobe Experience Platform]](/help/c-target/c-audiences/audiences.md#aep). |
 | [Erbjudandebeslut](/help/c-integrating-target-with-mac/ajo/offer-decision.md) | Lägg till offertbeslut som skapats i Adobe Journey Optimizer i Target-aktiviteter (manuellt A/B-test eller Experience Targeting) för att fastställa och leverera nästa bästa erbjudande för era besökare på webben och i mobilen. |
 | [Omdirigeringserbjudanden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Omdirigeringserbjudanden gör att besökarnas webbläsare dirigerar om till en ny sida.<br>Se [Gör [!DNL Adobe Experience Platform Web SDK] stöder omdirigeringserbjudanden för A4T?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Svarstoken](/help/administrating-target/response-tokens.md) | Med svarstoken kan du skicka Target-data till Google Analytics och andra tredjepartsintegreringar.<br>Se [Skicka data till Google Analytics via Platform Web SDK](/help/administrating-target/response-tokens.md#platform-web-sdk) om du vill se ett kodexempel på hur du utför den här uppgiften. |
