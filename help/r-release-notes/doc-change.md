@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3469'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 7 mars | [Skapa målgrupper](/help/c-target/c-audiences/audiences.md#aep) | Lagt till nytt avsnitt under&quot;Använda målgrupper från [!DNL Adobe Experience Platform]:&quot;<ul><li>Användningsexempel för personalisering</li></ul> |
 | 25 februari | [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Uppdaterade följande avsnitt:<ul><li>[Automatisk fördelning och Automatisk målgruppsanpassning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatisk allokering](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Tolka autofördelningsrapporter](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Nya frågor och svar:<ul><li>Finns brickorna &quot;Ingen vinnare&quot;, &quot;vinnare&quot; och &quot;stjärna&quot; för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T)?</li></ul> |
 |  | [Skapa en målgrupp som bara är aktiv](/help/c-target/creating-activity-only-audience.md) | Tillagd information i avsnittet &quot;Överväganden&quot; där man diskuterar exkluderingsregler. |

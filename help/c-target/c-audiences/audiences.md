@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
+source-git-commit: 099c1a4ba45ef06f3987f6f4dcffcebb724e8f69
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -132,13 +132,27 @@ Mer information finns i följande avsnitt:
 
 ### Ytterligare information
 
+Tänk på följande information när du använder målgrupper från [!DNL Adobe Experience Platform]:
+
+#### Användningsexempel för personalisering
+
+Tabellen nedan visar vilka typer av användningsfall för personalisering (nästa session eller samma sida) som är tillgängliga när du använder [!DNL Adobe Experience Platform Web SDK] jämfört med att använda at.js:
+
+| Implementering | Lösningar/användningsfall aktiverat |
+| --- | --- |
+| at.js | **Lösningar**:<ul><li>[!DNL Adobe Audience Manager] (AAM) och [!DNL Target]</li><li>[!DNL RTCDP] (Premium eller Ultimate) och [!DNL Target]</li><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul>**Användningsfall**:<ul><li>Anpassa nästa session</li></ul> |
+| [!DNL Platform Web SDK] eller [!DNL AEP Server-Side API] | **Lösningar**:<ul><li>[!DNL RTCDP] (valfri SKU) och [!DNL Target]</li></ul>**Använd skiftläge**:<ul><li>Anpassa nästa session</li><li>Personalisering på samma sida via Edge</li><li>Styrning som upprätthålls vid delning av segment</li></ul>**Lösningar**:<ul><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul>**Använd skiftläge**:<ul><li>Anpassa nästa session</li><ul><li>[!DNL AAM] segment</li><li>Tredjepartssegment via [!DNL AAM]</li></ul><li>Personalisering på samma sida via Edge</li><ul><li>[!DNL RTCDP] segment</li><li>Styrning som upprätthålls vid delning av segment</li></ul> |
+| Blandning av [!UICONTROL at.js] och [!DNL Platform Web SDK] | **Lösningar**:<ul><li>[!DNL RTCDP] (valfri SKU) och [!DNL Target]</li></ul>**Använd skiftläge**:<ul><li>Anpassa nästa session</li><ul><li>För alla sidor med [!UICONTROL at.js]</li></ul><li>Personalisering på samma sida</li><ul><li>För alla sidor med [!DNL Platform Web SDK]</li></ul></ul>**Lösningar**:<ul><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul>**Använd skiftläge**:<ul><li>Anpassa nästa session</li><ul><li>För alla sidor med [!UICONTROL at.js]</li><li>[!DNL AAM] segment</li><li>Tredjepartssegment via [!DNL AAM]</li></ul> |
+
+#### Utvärderingstid för segment
+
 I följande tabell visas segmentutvärderingstiden för händelser som kommer från olika implementeringsscenarier:
 
 | Scenario | Kantsegment (millisekundutvärdering) | Strömningssegment (minututvärdering) | Utvärdering av batchsegment |
 | --- | --- | --- | --- |
-| Händelser/data från Adobe Experience Platform SDK:er | Ja | Ja | Ej tillämpligt |
-| Händelser från at.js | Nej | Ja | Ej tillämpligt |
-| Händelser från Target Mobile SDKs | Nej | Ja | Ej tillämpligt |
+| Händelser/data från [!DNL Adobe Experience Platform] SDK | Ja | Ja | Ej tillämpligt |
+| Händelser från [!UICONTROL at.js] | Nej | Ja | Ej tillämpligt |
+| Händelser från [!DNL Target Mobile] SDK | Nej | Ja | Ej tillämpligt |
 | Händelser från batchöverföring | Nej | Nej | Ja |
 | Händelser från offlinedata (ström) | Nej | Ja | Ja |
 
