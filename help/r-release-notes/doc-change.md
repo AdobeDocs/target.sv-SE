@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
+source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3486'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 8 mars | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (30 mars 2022)</li></ul> |
 | 7 mars | [Skapa målgrupper](/help/c-target/c-audiences/audiences.md#aep) | Lagt till nytt avsnitt under&quot;Använda målgrupper från [!DNL Adobe Experience Platform]:&quot;<ul><li>Användningsexempel för personalisering</li></ul> |
 | 25 februari | [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Uppdaterade följande avsnitt:<ul><li>[Automatisk fördelning och Automatisk målgruppsanpassning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatisk allokering](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Tolka autofördelningsrapporter](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Nya frågor och svar:<ul><li>Finns brickorna &quot;Ingen vinnare&quot;, &quot;vinnare&quot; och &quot;stjärna&quot; för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T)?</li></ul> |
