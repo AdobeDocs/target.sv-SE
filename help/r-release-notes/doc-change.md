@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3511'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 9 mars | [Kända problem och lösta problem](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Följande kända fel har lagts till:<ul><li>Ta bort platser med ad hoc-erbjudanden i aktiviteter som skapats i den formulärbaserade Experience Composer</li></ul> |
 | 8 mars | [Målmeddelanden och evenemang](/help/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (30 mars 2022)</li></ul> |
 | 7 mars | [Skapa målgrupper](/help/c-target/c-audiences/audiences.md#aep) | Lagt till nytt avsnitt under&quot;Använda målgrupper från [!DNL Adobe Experience Platform]:&quot;<ul><li>Användningsexempel för personalisering</li></ul> |
 | 25 februari | [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Uppdaterade följande avsnitt:<ul><li>[Automatisk fördelning och Automatisk målgruppsanpassning](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatisk allokering](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |

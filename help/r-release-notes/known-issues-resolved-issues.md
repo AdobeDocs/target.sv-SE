@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '4677'
+source-wordcount: '4756'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Programvaran kan styra cachningen. kan cachelagra själva webbsidan, statiska re
 Tyvärr tar Chrome-tilläggets API:er som fångar upp webbförfrågningar inte emot förfrågningar som fångats upp och hanterats av en SWF-fil. Tillägget kan därför inte åtgärda sidhuvuden och cookies om webbsidesbegäran hanterades från ett cacheminne av en SWF-fil eftersom webbsidan inte läses in i VEC på grund av X-Frame-Options eller CSP-rubriker som också cache-lagrades.
 
 Som en möjlig tillfällig lösning kan du inaktivera Service Workers på fliken Chrome Developer Tools > Application (Verktyg för Chrome-utvecklare) och sedan aktivera kryssrutan&quot;Bypass for network&quot; (Kringgå för nätverk) under avsnittet Service Workers (Servicearbetare). (KB-2006)
+
+### Ta bort platser med ad hoc-erbjudanden i aktiviteter som skapats i den formulärbaserade Experience Composer {#ad-hoc}
+
+Undvik att ta bort platser i en aktivitet som skapats i den formulärbaserade Experience Composer om platserna använder ad hoc-erbjudanden (erbjudanden som skapats i aktiviteten). Om du tar bort platser kan aktiviteten bli skadad. The [!DNL Target] -teamet arbetar på en fix till detta. Som en tillfällig lösning kan du skapa globala erbjudanden från [!UICONTROL Offer library] och använda dem på olika platser, eller skapa nya upplevelser vid behov. (KB-2014)
 
 ### Trafikfördelning av aktiviteter automatiskt med A4T {#aa-a4t}
 
