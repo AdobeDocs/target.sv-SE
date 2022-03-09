@@ -4,9 +4,9 @@ description: Lär dig hur du använder mbox3rdPartyId, som är din organisations
 title: Hur använder jag profilsynkronisering i realtid för mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
+source-git-commit: 211931f4456f5360efb1fbaa4f0bc23f5bfbcfc1
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ När en besökare loggar in på ett företags webbplats skapar företaget vanlig
 
 När en besökare öppnar en sida där [!DNL Target] är aktiverad, besökaren tilldelas en [!DNL Target] PCID. Om besökaren sedan loggar in och implementeringen lyckas `mbox3rdPartyId` till [!DNL Target], [!DNL Target] ansluter besökarens `mbox3rdPartyId` med [!DNL Target] PCID.
 
-Var tredje till var femte minut synkroniseras uppdateringarna med databasen. När besökaren loggar ut ersätter de sammanfogade data de tidigare data som är kopplade till `mbox3rdPartyId`, som skapar ett fullständigt register över besökarens åtgärder. Om samma attribut finns i båda ID:n, t.ex. finns category=hatts och `mbox3rdPartyId` har category=skis, eller om besökaren såg upplevelsen A före inloggning, men upplevelsen B lagras i `mbox3rdPartyId`—attributet lagras i `mbox3rdPartyId` skriver över attributet från PCID:t. Om besökaren befann sig i en aktivitet eller upplevelse innan han loggade in, men en annan aktivitet och upplevelse lagras i `mbox3rdPartyId`, efter inloggning, placeras besökaren i `mbox3rdPartyId` aktivitet och upplevelser.
+Uppdateringar synkroniseras med profilarkivet var 5-10:e minut. När besökarens session avslutas ersätter de sammanfogade data de tidigare data som är kopplade till `mbox3rdPartyId`, som skapar ett fullständigt register över besökarens åtgärder. Om samma attribut finns i båda ID:n, t.ex. finns category=hatts och `mbox3rdPartyId` har category=skis, eller om besökaren såg upplevelsen A före inloggning, men upplevelsen B lagras i `mbox3rdPartyId`—attributet lagras i `mbox3rdPartyId` skriver över attributet från PCID:t. Om besökaren befann sig i en aktivitet eller upplevelse innan han loggade in, men en annan aktivitet och upplevelse lagras i `mbox3rdPartyId`, efter inloggning, placeras besökaren i `mbox3rdPartyId` aktivitet och upplevelser.
 
 | PCID (ej inloggad) | mbox3rdPartyId (inloggad) | Sammanfogad och sparad till mbox3rdPartyId |
 |---|---|---|
