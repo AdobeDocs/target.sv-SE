@@ -2,11 +2,10 @@
 keywords: Experience cloud debugger;mbox trace
 description: Felsök Adobe [!DNL Target] med Adobe Experience Cloud Debugger.
 title: Felsök [!DNL Target] med Experience Cloud Debugger
-feature: Felsökning
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+feature: Troubleshooting
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ Felsök [!DNL Adobe Target] med [!DNL Adobe Experience Cloud Debugger].
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## Grundläggande [!DNL Target]-felsökning
+## Grundläggande [!DNL Target] Felsökning
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
@@ -31,5 +30,5 @@ Felsök [!DNL Adobe Target] med [!DNL Adobe Experience Cloud Debugger].
 ## Ytterligare resurser
 
 + [Adobe Experience Cloud Debugger in the Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Felsöka hjälpdokumentation för mål](/help/r-troubleshooting-target/troubleshooting-target.md)
++ [Felsöka hjälpdokumentation för mål](/help/main/r-troubleshooting-target/troubleshooting-target.md)
 + [Så här använder du Experience Cloud Debugger](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)

@@ -1,0 +1,46 @@
+---
+keywords: innehåll;uppdatera innehåll;resurser;överföra innehåll;överföra resurs
+description: Lär dig hur du överför bilder som ska användas som bilderbjudanden i Adobe Target.
+title: Hur överför jag innehåll till offertbiblioteket?
+feature: Experiences and Offers
+exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
+
+---
+
+# Överför innehåll
+
+Du kan överföra bilder till [!UICONTROL Image Offers] lista i [!DNL Adobe Target] som kan användas som bilderbjudanden i aktiviteter. Du kan också ta bort bilderbjudanden när de inte längre behövs i aktiviteter.
+
+## Lägg till bilderbjudanden i listan
+
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+
+   ![Erbjudanden > Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Files]**.
+1. Bläddra till och markera det objekt som du vill lägga till och klicka sedan på **[!UICONTROL Open]**.
+1. Redigera objektets filnamn, om det behövs, och klicka sedan på **[!UICONTROL Upload]**.
+
+## Ta bort bilderbjudanden eller mappar
+
+Växla mellan [!UICONTROL Card View] och [!UICONTROL List View]klickar du på [!UICONTROL Card View] ikonen eller [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket.
+
+Från [!UICONTROL Card View]för muspekaren över önskat bilderbjudande eller önskad mapp, klicka på **[!UICONTROL Select]** ikonen (bockmarkeringen) och klicka sedan på **[!UICONTROL Delete]**.
+
+Från [!UICONTROL List View]klickar du på miniatyrbilden till vänster om listan för att välja önskat bilderbjudande eller önskad mapp. Klicka sedan på **[!UICONTROL Delete]**, enligt nedan:
+
+![Ta bort markerat objekt](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
+
+## Utbildningsvideo: Innehållsdatabasen ![Märket Översikt](/help/main/assets/overview.png)
+
+Den här videon innehåller information om hur du hanterar innehåll.
+
+* Anslutning mellan [Experience Cloud resursbibliotek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
+* Erbjudanden för anpassade HTML
+* Anpassat HTML-erbjudande i Visual Experience Composer
+
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
