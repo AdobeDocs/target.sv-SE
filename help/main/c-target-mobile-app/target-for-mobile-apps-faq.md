@@ -5,9 +5,9 @@ title: Vad ställs vanliga frågor om [!DNL Target] för mobilappar?
 feature: Implement Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe Experience Platform Mobile SDK:er har för närvarande stöd för iOS, And
 
 ## Vilken frekvens har den platsbaserade funktionen för verifiering av latitud och longitud?
 
-Se [Dokumentation för Adobe Platse](https://placesdocs.com/places-services-by-adobe-documentation/) för mer information.
+Se [Dokumentation för Adobe Platser Service](https://experienceleague.adobe.com/docs/places/using/home.html) för mer information.
 
 ## Behöver jag at.js för att Adobe Experience Platform Mobile SDK ska fungera?
 

@@ -4,7 +4,7 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Ett problem med EEG förhindrar för närvarande att det stöder förfrågningar
 
 [!DNL Adobe Experience Platform] segmentnamn inte visas i [!UICONTROL Important Attributes] rapport för [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet. (TOP-3813)
 
-### Arkivering [!UICONTROL Auto Target] aktiviteter kan orsaka synkroniseringsproblem
+### Arkivering [!UICONTROL Auto-Target] aktiviteter kan orsaka synkroniseringsproblem
 
 Försöker arkivera inaktivt [!UICONTROL Auto-Target] aktiviteter kan leda till synkroniseringsproblem. Arkivera inte förrän problemet är åtgärdat [!UICONTROL Auto-Target] verksamhet. Lämna dem i [!UICONTROL Inactive] tillstånd. (TGT-40885)
 

@@ -4,9 +4,9 @@ description: Lär dig kombinera olika målgrupper (inklusive Adobe Experience Cl
 title: Kan jag kombinera flera olika målgrupper för att skapa en ny målgrupp?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Kombinera olika målgrupper (inklusive [!DNL Adobe Experience Cloud], [!DNL Adob
 
 >[!NOTE]
 >
->The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller kombineras med befintliga målgrupper, vilket förklaras i detta avsnitt).
+>The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller kombineras med befintliga målgrupper, vilket förklaras i detta avsnitt.
 >
 >Mer information finns i [Använda målgrupper från Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -25,7 +25,7 @@ Anta att du har en&quot;New Visitors&quot;-målgrupp och en&quot;Chrome Users&qu
 
 Som ett annat exempel kan ni inrikta er på alla lojalitetskunder. Du kan till exempel inkludera en viss [!DNL Audience Manager] målgrupp för lojalitetsstatus och kombinera dem med [!DNL Target] målgrupp bestående av personer som har anmält sig till ditt lojalitetsprogram under den aktuella sessionen. Det är enklare att kombinera dessa båda målgrupper än att skapa en tredje permanent målgrupp.
 
-Du kan kombinera upp till tio målgrupper med operatorerna AND och OR.
+Du kan kombinera upp till 20 målgrupper med operatorerna AND och OR.
 
 Du kan skapa och använda kombinerade målgrupper på olika platser i [!DNL Target] Gränssnitt.
 
@@ -37,13 +37,13 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Target] under det
 
    ![Stegresultat](assets/edit_audience.png)
 
-1. På [!UICONTROL Choose Audience] markerar du kryssrutorna bredvid de målgrupper du vill använda som byggstenar för den kombinerade målgruppen.
+1. På **[!UICONTROL Choose Audience]** markerar du kryssrutorna bredvid de målgrupper du vill använda som byggstenar för den kombinerade målgruppen.
 
-   Klicka på [!UICONTROL Filters] för att begränsa sökningen efter den önskade målgruppen. Du kan filtrera målgrupper utifrån deras källa: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
+   Använd [!UICONTROL Search Audiences] för att begränsa sökningen efter den önskade målgruppen.
 
    ![Stegresultat](assets/combine_multiple_audiences1.png)
 
-1. Klicka **[!UICONTROL Combine Audiences]** i det övre högra hörnet.
+1. Klicka **[!UICONTROL Combine Multiple Audiences]** i det övre högra hörnet.
 
    ![Stegresultat](assets/combine_multiple_audiences2.png)
 
@@ -57,7 +57,7 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Target] under det
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Observera att operatorn mellan de två målgrupperna av webbläsartyp är&quot;AND&quot;. Välj listrutan And och ändra den till &quot;OR&quot; för att skapa en ny kombinerad målgrupp för nya besökare med Firefox eller Safari. Undvik att skapa regler som utesluter alla potentiella målgruppsmedlemmar. Det är till exempel inte möjligt för någon att besöka en sida med Firefox och Safari samtidigt.
+      Observera att operatorn mellan de två målgrupperna av webbläsartyp är&quot;AND&quot;. Välj [!UICONTROL And] nedrullningsbar lista och ändra den till &quot;OR&quot; för att skapa en ny kombinerad målgrupp för nya besökare med antingen Firefox eller Safari. Undvik att skapa regler som utesluter alla potentiella målgruppsmedlemmar. Det är till exempel inte möjligt för någon att besöka en sida med Firefox och Safari samtidigt.
 
       >[!NOTE]
       >

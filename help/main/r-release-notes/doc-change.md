@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3532'
+source-wordcount: '3614'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,21 @@ ht-degree: 0%
 
 Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdokumentation.
 
+## Adobe Target Standard/Premium 22.3.1 (4-6 april 2022; mellanlagrad release)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 4 april | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.3.1-utgåvan. |
+
 ## Adobe Target Standard/Premium 22.2.1 (1 februari 2022)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 30 mars | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Tillagd versionsinformation om [!DNL Target] Plattformsrelease. |
+| 28 mars | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target] Plattformsrelease. |
+| 22 mars | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Tillagd versionsinformation om [!DNL Target Standard/Premium] felkorrigeringar. |
+|  | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target Standard/Premium] 22.3.1-utgåvan. |
+| 17 mars | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target Standard/Premium] felkorrigeringar. |
 | 9 mars | [Kända problem och lösta problem](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Följande kända fel har lagts till:<ul><li>Ta bort platser med ad hoc-erbjudanden i aktiviteter som skapats i den formulärbaserade Experience Composer</li></ul> |
 |  | [Profilsynkronisering i realtid för mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | Uppdaterad mening om profilsynkronisering: &quot;Uppdateringar synkroniseras med profilarkivet var 5-10:e minut.&quot; |
 | 8 mars | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (30 mars 2022)</li></ul> |

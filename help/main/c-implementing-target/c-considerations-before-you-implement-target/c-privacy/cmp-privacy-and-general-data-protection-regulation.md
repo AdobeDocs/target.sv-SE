@@ -5,9 +5,9 @@ title: Hur [!DNL Target] Hantera sekretess- och dataskyddsreglerna?
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,9 @@ Som personuppgiftsansvariga avgör du vilka personuppgifter som [!DNL Adobe] pro
 
 Mer information finns i:
 
-* [Adobe webbplats för API:t för allmänna dataskyddsförordningen](https://www.adobe.io/apis/experienceplatform/gdpr.html)
-* [GDPR-dokumentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Översikt över Privacy Servicen Adobe](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [API-guide för Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Översikt över användargränssnittet i Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## California Consumer Privacy Act (CCPA) - översikt
 

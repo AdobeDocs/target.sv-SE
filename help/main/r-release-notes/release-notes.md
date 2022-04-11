@@ -5,39 +5,50 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation för mål (aktuell)
 
-Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard] och [!DNL Target Premium] release. Versionsinformation om mål-API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar ingår också, i tillämpliga fall.
+Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard] och [!DNL Target Premium] release. Versionsinformation om [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar ingår också, i tillämpliga fall.
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## Target Standard/Premium 22.2.1 (1 februari 2022)
+## [!DNL Target Standard/Premium] 22.3.1 (stegvis frisättning, datum som ska fastställas)
 
-Den här underhållsversionen innehåller följande korrigeringar och förbättringar för den nya [!UICONTROL Audiences] Gränssnittet lanserades i Target Standard/Premium 22.1.2 som lanseras för kunder i alla regioner under de kommande sex veckorna. Dessa korrigeringar anpassar funktionaliteten hos målgrupper som skapats i [!DNL Adobe Target Standard/Premium].
+Den här versionen innehåller följande ändringar och förbättringar:
 
-* Ett problem som förhindrade importerade målgrupper från har korrigerats [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]och [!DNL Adobe Target Classic] från att tilldelas som rapportmålgrupper. (TGT-43140)
-* Lagt till en [!UICONTROL Delete] i [!UICONTROL Audiences] lista för importerade målgrupper från [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]och [!DNL Adobe Target Classic]. Dessutom lades massborttagningsfunktioner till. (TGT-42914)
+* Korrigerade ett problem som fick redigeringar av profilskript att återgå till det ursprungliga oredigerade skriptet efter att skriptet redigerats, aktiverats och sedan inaktiverats. Profilskriptet förblir nu redigerat. (TGT-43249)
+* Ett problem som orsakade följande felmeddelande i [!DNL Target] Gränssnitt när en målgrupp som används i en aktivitet med statusen&quot;utkast&quot; flyttas: &quot;Vi kan inte slutföra din begäran. Kontakta Adobe kundtjänst om problemet kvarstår.&quot; (TGT-43212)
+* Ett problem som orsakade [!UICONTROL Include] och [!UICONTROL Exclude] alternativ som ska inaktiveras för kombinerade målgrupper när en aktivitet redigeras. (TGT-43422)
+* Ett problem som gjorde att vissa kunder inte kunde se listan över tillgängliga målgrupper när en aktivitet redigerades har åtgärdats. (TGT-43404)
+* Ett problem som gjorde att vissa kunder inte kunde ta bort en IP-adress från mappen har åtgärdats[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; i [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
+* Korrigerade ett problem som förhindrade användning av negativa tal i målgruppskriteriet som kontrollerar att variabeln är &quot;större än&quot;, &quot;större än eller lika med&quot;, &quot;mindre än&quot; eller &quot;mindre än eller lika med&quot;. (TGT-43367)
+* Ett problem som gjorde att kunderna inte kunde se [!UICONTROL Audience Details] när ni skapar kombinerade målgrupper. (TGT-43303)
+* Ett problem som orsakade [!DNL Target] Gränssnitt eller nytt [!UICONTROL Audiences] för vissa kunder. (TGT-42590 &amp; TGT-43273)
 
-## at.js version 2.8.1 (28 januari 2022)
+## [!DNL Target] Plattformsrelease (30 mars)
 
-* Fast `pageLoad` inte mappas till target-global-mbox i [!UICONTROL On Device Decisioning] (ODD) hybridkörningsläge.
-* Ett problem med analysinformation för mbox-begäran har korrigerats.
-* Uppgraderade utvecklingsberoenden för att åtgärda säkerhetsproblem.
+Den här versionen innehåller följande förbättringar:
 
-## [!DNL Target Standard/Premium] 22.1.2 (26 januari 2022)
+* Klickspårsmått inkluderar analysnyttolast i förfrågningar från leverans-API för aktiviteter som använder Analytics som rapportkälla (A4T) och processhändelser på klientsidan. (TNT-43073)
 
-| Funktion | Detaljer |
-| --- | --- |
-| [!DNL Adobe Experience Platform] målgrupper i [!DNL Target] | Nu kan du använda [!DNL Adobe Experience Platform] målgrupper i [!DNL Target]. The [!DNL Target] team, [!DNL Experience Platform] [!DNL Destinations] team och [!DNL Unified Profile Service] Vi är glada över att kunna meddela att det finns en allmän tillgänglighet för användningsexemplen&quot;Anpassa samma sida/nästa sida&quot;.<br>Använda målgrupper skapade i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), inbyggt [!DNL Adobe Experience Platform] hjälper företag att samla in kända och anonyma data från flera olika företagskällor för att skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser över alla kanaler och enheter i realtid.<br>Mer information finns i [Använda målgrupper från Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Skapa målgrupper* och [Personalisering på samma sida och nästa sida - exempel](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} i *Översikt över destinationer* guide. |
-| [!UICONTROL Audiences] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target] teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target] användare, den här versionen uppdaterar [!UICONTROL Audiences] och [!UICONTROL Profile Scripts] sidor på [!DNL Target] Gränssnitt. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till, till exempel:<ul><li>Möjlighet att markera och ta bort flera målgrupper samtidigt</li><li>En uppdaterad [målgruppsbyggare](/help/main/c-target/c-audiences/create-audience.md)</li><li>Stöd för undantagsregel i [!UICONTROL Audience] biblioteksregelbyggaren</li><li>Ett nytt &quot;Audience Source&quot;-filter som ger snabbare målgruppsidentifiering</li><li>Alternativ för beständig sökning och filtrering av sessioner</li><li>Möjlighet att flytta målgrupper mellan arbetsytor för [!DNL Target Premium] kunder.</li></ul>Mer information finns i [Målgrupper](/help/main/c-target/target.md).<br>**ANMÄRKNING**: Den här funktionen kommer att lanseras för kunder i olika regioner under de kommande åtta veckorna. |
-| [!UICONTROL Profile Scripts] Uppdatering av användargränssnittet | The [!UICONTROL Profile Scripts] biblioteket uppdaterades också och innehåller ett uppdaterat gränssnitt samt flera produktivitetsuppdateringar:<ul><li>Möjlighet att markera och ta bort flera profilskript samtidigt</li><li>En ny kodredigerare för profilskript</li><li>Syntaxmarkering och felkontroll inuti kodredigeraren</li><li>Fyll i tokens-parametrar automatiskt (mbox eller profile) via kortkommandon</li></ul>Mer information finns i [Besökarprofiler](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**ANMÄRKNING**: Den här funktionen kommer att lanseras för kunder i olika regioner under de kommande åtta veckorna. |
+## [!DNL Target Standard] Målgrupper uppdateras (28 mars)
+
+Den här versionen innehåller följande uppdatering:
+
+* Den nya [!UICONTROL Audiences] Gränssnittet aktiveras för alla [!DNL Target Standard] kunder.
+
+## Programfix för kundkonstruktion för Standard/Premium (22 mars 2022)
+
+Den här underhållsversionen innehåller följande förbättringar:
+
+* Tillagda funktioner som ska returneras [!DNL Analytics] nyttolastdata för `prefetch` vyer och `pageLoad` klicka på mätvärden när du använder [!UICONTROL Delivery API] med aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
+* Robotfiltreringslistan för användaragenter har uppdaterats så att en webbläsartyp som används ofta i Japan tillåts. (TNT-43867)
 
 ## Ytterligare versionsinformation
 

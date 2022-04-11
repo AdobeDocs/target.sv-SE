@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
 >[!NOTE]
 >
 >Använd [!DNL Target] AI- och ML-funktionalitet kan du välja [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) eller [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) när ett A/B-test skapades.
+>
+>Experience fragments stöds inte i [!DNL Recommendations] verksamhet. Men om du vill använda upplevelsefragment för rekommendationer kan du skapa en [!UICONTROL A/B Test] aktivitet (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) eller en [!UICONTROL Experience Targeting] (XT) och [inkludera rekommendationer som ett erbjudande](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **Så här använder du upplevelsefragment med VEC:**
 

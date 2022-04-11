@@ -1,12 +1,12 @@
 ---
-keywords: Versionsinformation
+keywords: Versionsinformation;prerelease notes;future enhancements;future fixes;future features;next release
 description: Se en lista över funktioner, förbättringar och korrigeringar som ingår i tidigare versioner av Adobe Target.
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '32540'
+source-wordcount: '32600'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,13 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2022
+
+### Target Standard/Premium 22.2.1 (1 februari 2022)
+
+Den här underhållsversionen innehåller följande korrigeringar och förbättringar för den nya [!UICONTROL Audiences] Gränssnittet lanserades i Target Standard/Premium 22.1.2 som lanseras för kunder i alla regioner under de kommande sex veckorna. Dessa korrigeringar anpassar funktionaliteten hos målgrupper som skapats i [!DNL Adobe Target Standard/Premium].
+
+* Ett problem som förhindrade importerade målgrupper från har korrigerats [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]och [!DNL Adobe Target Classic] från att tilldelas som rapportmålgrupper. (TGT-43140)
+* Lagt till en [!UICONTROL Delete] i [!UICONTROL Audiences] lista för importerade målgrupper från [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]och [!DNL Adobe Target Classic]. Dessutom lades massborttagningsfunktioner till. (TGT-42914)
 
 ### at.js version 2.8.1 (28 januari 2022)
 
@@ -1166,7 +1173,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
 
 Detta [!DNL Target] releasen innehåller följande förbättringar, korrigeringar och ändringar:
 
-* Säkerhetskopieringsraden i Recommendations CSV-nedladdningen har nu inledande &quot;*&quot; (dubbla citattecken som omger en asterisk) i stället för * (en enkel asterisk).
+* Säkerhetskopieringsraden för Recommendations CSV-nedladdningen har nu radavståndet&#42;&quot; (dubbla citattecken som omger en asterisk) i stället för &#42; (en enkel asterisk).
 * Raden Top Sold/Top Viewing i Recommendations CSV-nedladdningen har inte längre något inledande komma.
 
 ### Ändringar av målplattform (19 juni 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1233,7 +1240,6 @@ Den här versionen innehåller följande funktioner och förbättringar:
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>När du väljer Recommendations-villkor i den formulärbaserade Experience Composer finns det nu en direktlänk till det valda kriteriekortet så att du snabbt och enkelt kan redigera villkoren. (TGT-28483) </p> <p>Mer information finns i <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Formulärbaserad Experience Composer </a>. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Nu kan du skapa regler för Recommendations-kriterier, Recommendations-kampanjer och malltestning genom att använda parametern mbox direkt utan att du behöver ange mbox-namnet obligatoriskt. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten. Du kan också filtrera på mbox-parametern med mbox-namnfiltret. </p> <p>Samma förbättring har även utökats till att omfatta Skapa anpassad publik. </p> <p>Mer information finns i <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a>. </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Gränssnittet för Recommendations Design-kort har uppdaterats. </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>Dokumentationen för Recommendations API finns på <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external"> Adobe I/0 Adobe Target webbplats </a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
