@@ -5,9 +5,9 @@ title: Kan jag förhämta erbjuda innehåll för mobilappar?
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Den här processen minskar inläsningstiden, förhindrar flera nätverksanrop oc
 Tänk på följande begränsningar när du använder förhämtningsmetoden med iOS och Android Mobile SDK:
 
 * Förhämtningsinnehåll bevaras inte vid start. Det förhämtade innehållet cachelagras så länge som programmet finns eller tills `clearPrefetchCache()` -metoden anropas.
-* Förhämtningsfunktionen stöds inte för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] trafiktilldelningsmetoder, för [!UICONTROL Automated Personalization] eller [!UICONTROL Recommendations] aktivitetstyper, eller för [rekommendationer i A/B- eller XT-aktivitet](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Mer information, inklusive förhämtningsmetoder, publika klasser och kodexempel finns i:
 
