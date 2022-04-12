@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
+source-git-commit: 01c36c0288a15d68f99a6c2f136da9066ccf2e62
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,15 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 11 april 2022**
+**Senast uppdaterad: 13 april 2022**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
+
+## Target Platform-release (13 april 2022)
+
+Den här versionen innehåller följande uppdatering:
+
+* Ett problem har korrigerats som säkerställer att den sista oktetten med IP-adresser döljs korrekt när de hämtas med profilskript. (TNT-44076)
 
 ## [!DNL Target Standard/Premium] 22.3.1 (stegvis frisättning, datum som ska fastställas)
 
