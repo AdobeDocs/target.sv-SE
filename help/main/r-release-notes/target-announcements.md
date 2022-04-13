@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -15,20 +15,21 @@ ht-degree: 0%
 
 Kommentarer och information om kommande evenemang, inklusive [!DNL Adobe Target] Sessioner, chatt, webbinarier och [!DNL Target] Sessioner med kaffebrytning.
 
-## [!DNL Adobe Target] Community Q&amp;A Coffee Break (30 mars 2022)
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break (27 april 2022)
 
-* **Onsdagen den 30 mars 2022**
+* **onsdagen den 27 april 2022**
 * **08.00. (PDT, UTC -7)**
-* **[Mer information och registreringsinformation](https://adobe.ly/3sIS5Mg)**
+* **[Mer information och registreringsinformation](https://adobe.ly/371Uny2)**
 
-Adobes Senior Solutions Consultant, Ryan Pizzuto, kommer att besvara kundfrågor som gäller hans följande expertområden:
+James McTiernan kommer att besvara kundfrågor som gäller hans följande expertområden:
 
-* [!UICONTROL Auto-Target]
-* [!UICONTROL Automated Personalization]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/B Test] verksamhet
+* [!UICONTROL Multivariate Test] verksamhet
+* [!UICONTROL Recommendations] verksamhet
+* Personalisering
 * Allmänt [!UICONTROL Adobe Target] ämnen
 
-Tekniksupporten Mihnea Docea kommer att hjälpa Vishal.
+Tekniksupporten Simon Chen kommer att hjälpa James.
 
 ## Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från [!DNL Adobe Target]
 
