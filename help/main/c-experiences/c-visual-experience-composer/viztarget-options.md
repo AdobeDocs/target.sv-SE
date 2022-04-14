@@ -4,9 +4,9 @@ description: Se vilka alternativ som finns i [!DNL Adobe Target] [!UICONTROL Vis
 title: Hur jag använder [!UICONTROL Visual Experience Composer] (VEC) Alternativ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2719'
 ht-degree: 0%
 
 ---
@@ -330,7 +330,9 @@ Följande alternativ är tillgängliga:
 
 Dra elementet till en annan plats inuti samma överordnade element eller DIV. Andra element flyttas för att skapa utrymme för det omordnade elementet.
 
-**Obs!** Klickspårning fungerar inte för omsorterade objekt.
+**Anteckning**: Klickspårning fungerar inte för omsorterade objekt.
+
+För närvarande finns det vissa VEC-åtgärder, som [!UICONTROL Rearrange] och [!UICONTROL Move], anta att elementen på samma nivå i det överordnade käll- och målelementet är helt inlästa. Om lat inläsningsbeteende inträffar under det överordnade DOM-elementet (källa eller mål) kan dessa VEC-åtgärder orsaka inkonsekvent beteende. Vi arbetar på en mer tillförlitlig strategi för att få VEC-åtgärder att fungera i lazy-fyllda DOM-element. Som tillfällig lösning kan du använda [!UICONTROL Custom Code] i dessa scenarier för att återge era upplevelser.
 
 ### [!UICONTROL Resize]
 
@@ -343,6 +345,8 @@ Dra elementet till en annan plats inuti samma överordnade element eller DIV. An
 Flytta element på sidan. Till skillnad från [!UICONTROL Rearrange] option, [!UICONTROL Move] flyttar inte andra element för att ge plats åt elementet som flyttas. Använd piltangenterna för att finjustera flyttningen. (Planerad förbättring: för att säkerställa att flyttade element inte döljs bakom andra element.)
 
 I vissa situationer, t.ex. när en CSS-begränsning kräver att ett element ska finnas i det överordnade elementet, kan du inte flytta elementet utanför det överordnade elementet. Ett element kan inte flyttas utanför en behållare som har följande CSS-egenskap: `overflow: hidden`.
+
+Se [!UICONTROL Rearrange] om du vill ha mer information om inkonsekvent beteende med [!UICONTROL Move] och [!UICONTROL Rearrange] åtgärder på grund av lat inläsande av DOM-element.
 
 ### [!UICONTROL Hide]
 
