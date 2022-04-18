@@ -4,9 +4,9 @@ description: Lär dig hur du lägger till ett offertbeslut som skapats i [!DNL A
 title: Hur använder jag erbjudandebeslut?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
+source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,11 @@ Använd [!DNL Adobe Target] med [!DNL Adobe Journey Optimizer] kan fatta beslut 
 
 Lägg till offertbeslut som skapats i [!DNL Adobe Journey Optimizer] till [!DNL Target] verksamhet (manuell [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting]) med antingen [!UICONTROL Visual Experience Composer] (VEC) eller [!UICONTROL Form-Based Composer] för att testa och leverera personaliserade erbjudanden till besökarna via era inkommande kanaler som drivs av [!DNL Target].
 
-Mer information om [!DNL Adobe Journey Optimizer], se [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) i *Journey Optimizer* dokumentation.
+Mer information om [!DNL Adobe Journey Optimizer] och erbjuda dina beslut, se följande avsnitt i *[!DNL Journey Optimizer]* dokumentation:
 
-Mer information om offertbeslut finns i [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) i *[!DNL Journey Optimizer]* dokumentation.
+* [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+
+* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
 
 ## Förutsättningar
 
