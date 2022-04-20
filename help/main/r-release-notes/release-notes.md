@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -24,37 +24,15 @@ Den här versionen innehåller följande uppdatering:
 
 * Ett problem har korrigerats som säkerställer att den sista oktetten med IP-adresser döljs korrekt när de hämtas med profilskript. (TNT-44076)
 
-## [!DNL Target Standard/Premium] 22.3.1 (stegvis frisättning, datum som ska fastställas)
+## [!DNL Target Standard/Premium] 22.3.1 (5 april 2022)
 
 Den här versionen innehåller följande ändringar och förbättringar:
 
-* Korrigerade ett problem som fick redigeringar av profilskript att återgå till det ursprungliga oredigerade skriptet efter att skriptet redigerats, aktiverats och sedan inaktiverats. Profilskriptet förblir nu redigerat. (TGT-43249)
-* Ett problem som orsakade följande felmeddelande i [!DNL Target] Gränssnitt när en målgrupp som används i en aktivitet med statusen&quot;utkast&quot; flyttas: &quot;Vi kan inte slutföra din begäran. Kontakta Adobe kundtjänst om problemet kvarstår.&quot; (TGT-43212)
 * Ett problem som orsakade [!UICONTROL Include] och [!UICONTROL Exclude] alternativ som ska inaktiveras för kombinerade målgrupper när en aktivitet redigeras. (TGT-43422)
 * Ett problem som gjorde att vissa kunder inte kunde se listan över tillgängliga målgrupper när en aktivitet redigerades har åtgärdats. (TGT-43404)
 * Ett problem som gjorde att vissa kunder inte kunde ta bort en IP-adress från mappen har åtgärdats[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; i [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
 * Korrigerade ett problem som förhindrade användning av negativa tal i målgruppskriteriet som kontrollerar att variabeln är &quot;större än&quot;, &quot;större än eller lika med&quot;, &quot;mindre än&quot; eller &quot;mindre än eller lika med&quot;. (TGT-43367)
 * Ett problem som gjorde att kunderna inte kunde se [!UICONTROL Audience Details] när ni skapar kombinerade målgrupper. (TGT-43303)
-* Ett problem som orsakade [!DNL Target] Gränssnitt eller nytt [!UICONTROL Audiences] för vissa kunder. (TGT-42590 &amp; TGT-43273)
-
-## [!DNL Target] Plattformsrelease (30 mars)
-
-Den här versionen innehåller följande förbättringar:
-
-* Klickspårsmått inkluderar analysnyttolast i förfrågningar från leverans-API för aktiviteter som använder Analytics som rapportkälla (A4T) och processhändelser på klientsidan. (TNT-43073)
-
-## [!DNL Target Standard] Målgrupper uppdateras (28 mars)
-
-Den här versionen innehåller följande uppdatering:
-
-* Den nya [!UICONTROL Audiences] Gränssnittet aktiveras för alla [!DNL Target Standard] kunder.
-
-## Programfix för kundkonstruktion för Standard/Premium (22 mars 2022)
-
-Den här underhållsversionen innehåller följande förbättringar:
-
-* Tillagda funktioner som ska returneras [!DNL Analytics] nyttolastdata för `prefetch` vyer och `pageLoad` klicka på mätvärden när du använder [!UICONTROL Delivery API] med aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
-* Robotfiltreringslistan för användaragenter har uppdaterats så att en webbläsartyp som används ofta i Japan tillåts. (TNT-43867)
 
 ## Ytterligare versionsinformation
 

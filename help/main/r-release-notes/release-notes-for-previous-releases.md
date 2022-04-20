@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '32600'
+source-wordcount: '32706'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,25 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2022
+
+### [!DNL Target] Plattformsrelease (30 mars)
+
+Den här versionen innehåller följande förbättringar:
+
+* Klickspårsmått inkluderar analysnyttolast i förfrågningar från leverans-API för aktiviteter som använder Analytics som rapportkälla (A4T) och processhändelser på klientsidan. (TNT-43073)
+
+### [!DNL Target Standard] Målgrupper uppdateras (28 mars)
+
+Den här versionen innehåller följande uppdatering:
+
+* Den nya [!UICONTROL Audiences] Gränssnittet aktiveras för alla [!DNL Target Standard] kunder.
+
+### Programfix för kundkonstruktion för Standard/Premium (22 mars 2022)
+
+Den här underhållsversionen innehåller följande förbättringar:
+
+* Tillagda funktioner som ska returneras [!DNL Analytics] nyttolastdata för `prefetch` vyer och `pageLoad` klicka på mätvärden när du använder [!UICONTROL Delivery API] med aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
+* Robotfiltreringslistan för användaragenter har uppdaterats så att en webbläsartyp som används ofta i Japan tillåts. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1 februari 2022)
 

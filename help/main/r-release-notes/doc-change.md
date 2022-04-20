@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3684'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 20 april | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target Standard/Premium] 22.4.1-utgåvan. |
 | 14 april | [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Lagt till information i avsnittet Ordna om för att förklara hur man ska hantera inkonsekvent VEC-beteende med [!UICONTROL Move] och [!UICONTROL Rearrange] åtgärder på grund av lat inläsande av DOM-element. |
 | 13 april | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (27 april 2022)</li></ul> |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Tillagd versionsinformation om [!DNL Target] Plattformsrelease. |
