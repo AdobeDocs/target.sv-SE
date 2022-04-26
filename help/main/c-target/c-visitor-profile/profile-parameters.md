@@ -4,9 +4,9 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,9 @@ Tänk på följande:
 
 * Se profilskriptattributen (inklusive sig själv) i koden med `user.get('parameterName')`.
 * Spara variabler som kan nås nästa gång skriptet körs (på nästa mbox-begäran) med `user.setLocal('variable_name', 'value')`. Referera variabeln med `user.getLocal('variable_name')`. Den här processen är användbar i situationer där du vill referera till datumet och tiden för den senaste begäran.
+
+   Dessa värden behålls precis som ett profilskript, men du har bara åtkomst till dem i skriptet som de angavs.
+
 * Parametrar och värden är skiftlägeskänsliga. Matcha skiftläget för de parametrar och värden som du får under aktiviteten eller testet.
 * Mer JavaScript-syntax finns i avsnittet&quot;JavaScript-referens för skriptprofilparametrar&quot; nedan.
 * Parametern finns kvar i profilen när skriptet har inaktiverats. Användare vars profiler redan innehåller en parameter som används i en aktivitets målgrupp kvalificerar sig för den aktiviteten.
