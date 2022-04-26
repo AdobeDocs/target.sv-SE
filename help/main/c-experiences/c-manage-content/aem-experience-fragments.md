@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,12 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
 * Upplevelsefragmentet importeras till [!DNL Target] som ett HTML-erbjudande. Den primära versionen av upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 * Du kan inte skapa upplevelsefragment med [!DNL Adobe I/O]. Skapa upplevelsefragment med hjälp av AEM, vilket förklaras ovan.
 * Om du uppdaterar ditt upplevelsefragment i AEM måste upplevelsefragmentet publiceras och exporteras till [!DNL Target] igen så [!DNL Target] kan använda de senaste ändringarna.
+
+## Ta bort ClientLibs från Experience Fragments som exporterats till Target
+
+När du använder ett upplevelsefragmenterbjudande med [!DNL Target] på en sida som levereras av AEM innehåller målsidan redan alla nödvändiga klientbibliotek. Dessutom behövs inte heller den överflödiga html-koden i XF-erbjudandet.
+
+Mer information finns i [det här blogginlägget](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Utbildningsvideo: Använda AEM upplevelsefragment med [!DNL Adobe Target]
 
