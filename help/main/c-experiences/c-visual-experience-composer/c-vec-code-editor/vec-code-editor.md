@@ -4,16 +4,16 @@ description: Lär dig hur du använder panelen Ändringar i Adobe [!DNL Target] 
 title: Vilka ändringar kan jag göra på min sida?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
 
 # Ändringar
 
-Information om sidan Ändringar i [!DNL Adobe Target] som gör att du kan visa ändringar på sidan och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
+Information om [!UICONTROL Modifications] sida in [!DNL Adobe Target] som gör att du kan visa ändringar på sidan och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
 
 På sidan Ändringar visas alla ändringar som har gjorts på sidan i Visual Experience Composer (VEC). Du kan göra ytterligare ändringar genom att klicka på varje element på sidan och [välja en åtgärd](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Varje ändring du gör visas som en separat åtgärd eller ett separat element i [!UICONTROL Modifications] lista. Du kan också lägga till ändringar, bland annat följande ändringstyper: CSS-väljare, Mbox. och anpassad kod.
 
@@ -157,20 +157,6 @@ Använd **[!UICONTROL Custom Code]** till:
    document.addEventListener("DOMContentLoaded", function(event) {  
        document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
        document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
-
-* Växla med DOM-avsökning via `elementOnLoad` plugin
-
-   Fördelen med detta är att bytet sker tidigare än när det är DOM-klart. Plugin-programmet hanterar döljning och visning i förväg och kräver ett id för elementet.
-
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-   elementOnLoad('default_content',function(e){ 
-       e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
    }); 
    </script> 
    ```
