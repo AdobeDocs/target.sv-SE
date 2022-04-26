@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,36 @@ James McTiernan kommer att besvara kundfrågor som gäller hans följande expert
 * Allmänt [!UICONTROL Adobe Target] ämnen
 
 Tekniksupporten Simon Chen kommer att hjälpa James.
+
+## Webbseminarium: Personalisering i realtid med Adobe Target (28 april 2022)
+
+* **Torsdag den 28 april 2022**
+* **1.00 till 2.00 (EDT, UTC -4)**
+* **[Mer information och registreringsinformation](https://real-time.dxfieldmarketing.adobeevents.com/)**
+
+Hur kan ni personalisera era digitala upplevelser med hjälp av de olika profilkällorna idag? Hur positionerar ni ert team för framgång i framtiden? Vilka är fördelarna med att varumärken verkligen kan känna och respektera sina kunder samtidigt som alla kundinteraktioner optimeras?
+
+Läs om hur [!DNL Adobe Target] överbryggar gapet med att kombinera data från flera olika källor för realtidspersonalisering när vi diskuterar:
+
+* Varför personaliserade prestanda och snabba upp viktiga delar för att få snabbare affärstillväxt
+* Hur team kan bygga egna datastrategier och lösa sina problem med fragmentering av data
+* Heltäckande arbetsflöden för att leverera personaliserade upplevelser på millisekunder
+* Unika användningsexempel för varumärken som engagerar kunder och potentiella kunder i realtid med relevanta meddelanden, innehåll och erbjudanden.
+
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break (25 maj 2022)
+
+* **Onsdagen den 25 maj 2022**
+* **08.00. (PDT, UTC -7)**
+* **[Mer information och registreringsinformation](https://adobe.ly/3LbOj4G)**
+
+Brent Kostak och Drew Burns från Adobe Target produktmarknadsföringsteam kommer att besvara kundfrågor som rör deras expertområden. Kunderna får ställa frågor som rör följande ämnen som tagits upp i webbinariet 4/28/22 Personalization i realtid:
+
+* Skapa delade målgrupper med Adobe Target och Real-Time CDP
+* Bygga egna datastrategier för att lösa problem med fragmentering av data
+* Distribuera kompletta arbetsflöden för personalisering på millisekunder
+* Leverera relevanta meddelanden, innehåll och erbjudanden i realtid för att öka engagemanget
+
+Kai Motoyama, teknisk supporttekniker, kommer också att vara med i diskussionstråden med ytterligare support.
 
 ## Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från [!DNL Adobe Target]
 

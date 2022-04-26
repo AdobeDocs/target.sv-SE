@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '3725'
+source-wordcount: '3765'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 26 april | [Omdirigeringserbjudanden - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Följande frågor och svar har lagts till:<ul><li>Hur minimerar jag avvikelser i trafikfördelningen när jag använder omdirigeringserbjudanden i A4T-aktiviteter?</li></ul> |
+| 26 april | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information för följande händelser:<ul><li>Webbseminarium: Personalisering i realtid med Adobe Target (28 april 2022)</li><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (25 maj 2022)</li></ul> |
+|  | [Omdirigeringserbjudanden - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Följande frågor och svar har lagts till:<ul><li>Hur minimerar jag avvikelser i trafikfördelningen när jag använder omdirigeringserbjudanden i A4T-aktiviteter?</li></ul> |
+|  | [AEM upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Följande avsnitt har lagts till:<ul><li>Ta bort ClientLibs och ovidkommande HTML från Experience Fragments som exporterats till Target</li></ul> |
 | 21 april | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target] plattformsrelease planerad till 17 april 2022. |
 | 20 april | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target Standard/Premium] 22.4.1-utgåvan. |
 | 14 april | [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Lagt till information i avsnittet Ordna om för att förklara hur man ska hantera inkonsekvent VEC-beteende med [!UICONTROL Move] och [!UICONTROL Rearrange] åtgärder på grund av lat inläsande av DOM-element. |
