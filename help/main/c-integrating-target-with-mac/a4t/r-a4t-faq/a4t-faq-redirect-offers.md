@@ -4,9 +4,9 @@ description: Hitta svar på frågor om att använda omdirigeringserbjudanden nä
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,21 @@ De tre biblioteken måste finnas på både sidan med omdirigeringserbjudandet oc
 ## Varför finns det ibland avvikelser i data mellan A4T och Analytics?
 
 Vissa dataavvikelser förväntas. Mer information finns i [Förväntade datavariationer mellan Target och Analytics när A4T används och inte används](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
+## Hur minimerar jag avvikelser i trafikfördelningen när jag använder omdirigeringserbjudanden i A4T-aktiviteter? {#discrepancies}
+
+Ett begränsat antal kunder har rapporterat större variationer i trafikfördelningen när omdirigeringserbjudanden används i aktiviteter som konfigurerats med [!UICONTROL Analytics for Target] (A4T).
+
+Tänk på följande:
+
+* Felaktig ordning för [!DNL Target] och [!DNL Analytics] kan leda till högre variationsgrader.
+
+   The [!DNL Target] anropet måste föregå [!DNL Analytics] anropa källsidan (där omdirigering sker) och på målsidan (där omdirigering avslutas).
+
+* Se till att du använder omdirigeringserbjudanden i A4T-omdirigeringsaktiviteter.
+* Om det finns flera [!DNL Target] platsförfrågningar på källsidan (där omdirigering sker), [!DNL Adobe] rekommenderar att du kör omdirigeringsaktiviteten den första [!DNL Target] platsbegäran.
+
+   Kör omdirigeringsaktiviteten den första [!DNL Target] platsbegäran minskar risken för att andra aktivitetskvalifikationer ska uppstå [!DNL Target] platsförfrågningar och räknas in i rapporten. Besökare som omdirigeras behöver inte räknas med i rapporterna om andra aktiviteter eftersom de inte kommer att se upplevelserna.
 
 ## Varför räknas ibland sidvisningar på originalsidan och på omdirigeringssidan? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 

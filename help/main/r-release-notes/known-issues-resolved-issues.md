@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4756'
+source-wordcount: '4721'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,6 @@ Ett känt fel förhindrar förhandsgranskning om villkoren som används i aktivi
 
 ### Omdirigeringserbjudanden {#redirect}
 
-Följande är kända problem med omdirigeringserbjudanden:
-
-* Ett begränsat antal kunder har rapporterat större variationsgrader i trafikdistributionen när omdirigeringserbjudanden används i aktiviteter som konfigurerats med Analytics for Target (A4T).
 * Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) i stället för att utföra förhandsgranskning och kvalitetskontroll. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)
 
 ### Avbryt inläsning av en sida i Visual Experience Composer (VEC) {#cancel}
