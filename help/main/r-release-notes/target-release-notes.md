@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 Den här versionen innehåller följande korrigering:
 
 * Ett problem som gjorde att tre kundvagnsbaserade algoritmer använde samma villkor för köp/köp på [!DNL Target] serverdel. (TGT-43456)
-* Aktiverad [!DNL Target] Uppdatering av gränssnittstoken för organisationer som stöder T2E och PBA (principbaserad autentisering) (TGT-42590).
+* Aktiverad [!DNL Target] Uppdatering av gränssnittstoken för organisationer som har aktiverats med [Konton för företags-ID](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} och PBA (Policy Based Authentication). (TGT-42590)
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
