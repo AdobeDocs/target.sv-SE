@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -14,22 +14,6 @@ ht-degree: 0%
 # Målmeddelanden och evenemang
 
 Kommentarer och information om kommande evenemang, inklusive [!DNL Adobe Target] Sessioner, chatt, webbinarier och [!DNL Target] Sessioner med kaffebrytning.
-
-## [!DNL Adobe Target] Community Q&amp;A Coffee Break (27 april 2022)
-
-* **onsdagen den 27 april 2022**
-* **08.00. (PDT, UTC -7)**
-* **[Mer information och registreringsinformation](https://adobe.ly/371Uny2)**
-
-James McTiernan kommer att besvara kundfrågor som gäller hans följande expertområden:
-
-* [!UICONTROL A/B Test] verksamhet
-* [!UICONTROL Multivariate Test] verksamhet
-* [!UICONTROL Recommendations] verksamhet
-* Personalisering
-* Allmänt [!UICONTROL Adobe Target] ämnen
-
-Tekniksupporten Simon Chen kommer att hjälpa James.
 
 ## Webbseminarium: Personalisering i realtid med Adobe Target (28 april 2022)
 

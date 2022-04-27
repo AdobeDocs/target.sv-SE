@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard] och [!DNL Target Premium] release. Versionsinformation om [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar ingår också, i tillämpliga fall.
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
+
+## [!DNL Target] plattformsrelease (27 april 2022)
+
+Den här versionen innehåller följande ändring:
+
+* Med den här versionen kan du förhämta innehåll för [!UICONTROL Auto Personalization] (AP) och [!UICONTROL Auto-Target] (AT) aktiviteter (som tidigare inte returnerats av [!DNL Target]). Detta kan ändra de upplevelser som slutanvändarna ser i händelse av ett förhämtningsanrop (inga ändringar i körningsflödet) om en AP/AT-aktivitet finns på leveransvägen och har högre prioritet än andra AB/XT-aktiviteter som använder samma plats för innehållsleverans.
 
 ## Target Platform-release (13 april 2022)
 
