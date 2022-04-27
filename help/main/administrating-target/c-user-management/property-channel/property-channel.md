@@ -5,7 +5,7 @@ title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
+source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
 workflow-type: tm+mt
 source-wordcount: '3096'
 ht-degree: 0%
@@ -277,7 +277,7 @@ Ja, du kan flytta målgrupper mellan arbetsytor med [!UICONTROL More Actions] p�
 
 >[!NOTE]
 >
->Du måste ha rätt behörighet för att redigera en målgrupp. Dessutom får målgruppen inte användas i andra verksamheter. Om målgruppen används i andra aktiviteter och du fortfarande vill flytta målgruppen till en annan arbetsstation, tar du bort målgruppen från andra aktiviteter där de används.
+>Du måste ha rätt behörighet för att redigera en målgrupp. Dessutom får målgruppen inte användas i andra verksamheter. Om målgruppen används i andra aktiviteter och du fortfarande vill flytta målgruppen till en annan arbetsplats tar du bort målgruppen från de andra aktiviteterna där de används.
 
 ### Varför får jag ett felmeddelande om att ingen egenskap är associerad med den här aktiviteten, trots att det finns en egenskap tilldelad?
 
