@@ -5,9 +5,9 @@ title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '3095'
 ht-degree: 0%
 
 ---
@@ -262,6 +262,22 @@ Vanliga frågor om Enterprise permissions är:
 Tyvärr kan du inte flytta aktiviteter från en arbetsyta till en annan. Du kan dock kopiera en aktivitet till valfri arbetsyta i vetskap om att rapportdata inte överförs. Mer information finns i&quot;Kopiera/redigera en aktivitet när du använder arbetsytor&quot; i [Kopiera/redigera en aktivitet när du använder arbetsytor](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 Aktiviteter som skapas före migreringen fortsätter att köras på samma sätt i standardarbetsytan, såvida de inte redigeras och tilldelas egenskaper. Aktiviteter under en viss arbetsyta följer egenskaper som tilldelats den arbetsytan och beteendet kanske därför inte ändras före migreringen.
+
+### Kan jag flytta en målgrupp från en arbetsyta till en annan? {#move-audience}
+
+Ja, du kan flytta målgrupper mellan arbetsytor med [!UICONTROL More Actions] på [!UICONTROL Audiences] sida.
+
+1. Klicka på **[!UICONTROL More Actions]** (de tre ellipserna) och klicka sedan på **[!UICONTROL Move]**.
+
+   ![Fler åtgärder > Flytta](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. Välj önskad arbetsyta på **[!UICONTROL Workspace]** nedrullningsbar lista och klicka sedan på **[!UICONTROL Move]**.
+
+   ![Välj önskad målgrupp för att gå till den nya arbetsytan](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>Du måste ha rätt behörighet för att redigera en målgrupp. Dessutom får målgruppen inte användas i andra verksamheter. Om målgruppen används i andra aktiviteter och du fortfarande vill flytta målgruppen till en annan arbetsstation, tar du bort målgruppen från andra aktiviteter där de används.
 
 ### Varför får jag ett felmeddelande om att ingen egenskap är associerad med den här aktiviteten, trots att det finns en egenskap tilldelad?
 
