@@ -5,9 +5,9 @@ title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
+source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
 workflow-type: tm+mt
-source-wordcount: '3095'
+source-wordcount: '3096'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
    * När du skapar en aktivitet, målgrupp eller ett erbjudande i vyn Alla arbetsytor måste du välja den arbetsyta där objektet ska skapas. Endast de arbetsytor som du har behörighet att redigera eller godkänna kan väljas.
    * När du kopierar en aktivitet, målgrupp eller ett erbjudande i vyn Alla arbetsytor måste du välja den arbetsyta där objektet ska kopieras. Endast de arbetsytor som du har behörighet att redigera eller godkänna kan väljas.
 
-* Alla inställningar på följande administrationssidor kan styras av alla godkännare på alla arbetsytor:
+* Alla inställningar för följande administratörerBeställningssidor kan styras av alla godkännare på alla arbetsytor:
 
    * Visual Experience Composer
    * Rapportering
