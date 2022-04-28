@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '32706'
+source-wordcount: '32850'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,22 @@ Den här underhållsversionen innehåller följande korrigeringar och förbättr
 ### [!DNL Target Standard/Premium] 22.1.1 (12 januari 2022)
 
 Den här versionen innehåller felkorrigeringar och nödvändiga funktioner för framtida integreringar.
+
+### Target Platform-release (13 april 2022)
+
+Den här versionen innehåller följande uppdatering:
+
+* Ett problem har korrigerats som säkerställer att den sista oktetten med IP-adresser döljs korrekt när de hämtas med profilskript. (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1 (5 april 2022)
+
+Den här versionen innehåller följande ändringar och förbättringar:
+
+* Ett problem som orsakade [!UICONTROL Include] och [!UICONTROL Exclude] alternativ som ska inaktiveras för kombinerade målgrupper när en aktivitet redigeras. (TGT-43422)
+* Ett problem som gjorde att vissa kunder inte kunde se listan över tillgängliga målgrupper när en aktivitet redigerades har åtgärdats. (TGT-43404)
+* Ett problem som gjorde att vissa kunder inte kunde ta bort en IP-adress från mappen har åtgärdats[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; i [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
+* Korrigerade ett problem som förhindrade användning av negativa tal i målgruppskriteriet som kontrollerar att variabeln är &quot;större än&quot;, &quot;större än eller lika med&quot;, &quot;mindre än&quot; eller &quot;mindre än eller lika med&quot;. (TGT-43367)
+* Ett problem som gjorde att kunderna inte kunde se [!UICONTROL Audience Details] när ni skapar kombinerade målgrupper. (TGT-43303)
 
 ### at.js version 2.8.0 (7 januari 2022)
 

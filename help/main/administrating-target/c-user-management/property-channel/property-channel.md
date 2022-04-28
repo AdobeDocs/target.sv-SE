@@ -5,9 +5,9 @@ title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3096'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---
@@ -198,6 +198,7 @@ Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target] Grän
    ![](assets/channel_options.png)
 
 * **Målgrupper:** När du skapar en målgrupp skapas den i den markerade arbetsytan.
+* **Mållista:** Du kan flytta målgrupper mellan arbetsytor med [!UICONTROL More Actions] > [!DNL Move] på [!UICONTROL Audiences] sida.
 * **Skapa erbjudande:** När du skapar ett erbjudande skapas det i den valda arbetsytan.
 * **Sidan Egenskaper (Administration > Egenskaper):** Du kan använda [!UICONTROL Search] sökruta [!UICONTROL Property] lista.
 
@@ -215,7 +216,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
    * När du skapar en aktivitet, målgrupp eller ett erbjudande i vyn Alla arbetsytor måste du välja den arbetsyta där objektet ska skapas. Endast de arbetsytor som du har behörighet att redigera eller godkänna kan väljas.
    * När du kopierar en aktivitet, målgrupp eller ett erbjudande i vyn Alla arbetsytor måste du välja den arbetsyta där objektet ska kopieras. Endast de arbetsytor som du har behörighet att redigera eller godkänna kan väljas.
 
-* Alla inställningar för följande administratörerBeställningssidor kan styras av alla godkännare på alla arbetsytor:
+* Alla inställningar för följande [!UICONTROL Administration] kan styras av alla [!UICONTROL Approver] på alla arbetsytor:
 
    * Visual Experience Composer
    * Rapportering

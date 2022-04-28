@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -18,27 +18,18 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
+## [!DNL Target Standard/Premium] 22.4.1 (28 april 2022)
+
+Den här versionen innehåller följande korrigering:
+
+* Ett problem som gjorde att tre kundvagnsbaserade algoritmer använde samma villkor för köp/köp på [!DNL Target] serverdel. (TGT-43456)
+* Aktiverad [!DNL Target] Uppdatering av gränssnittstoken för organisationer som har aktiverats med [Konton för företags-ID](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} och PBA (Policy Based Authentication). (TGT-42590)
+
 ## [!DNL Target] plattformsrelease (27 april 2022)
 
 Den här versionen innehåller följande ändring:
 
 * Med den här versionen kan du förhämta innehåll för [!UICONTROL Auto Personalization] (AP) och [!UICONTROL Auto-Target] (AT) aktiviteter (som tidigare inte returnerats av [!DNL Target]). Detta kan ändra de upplevelser som slutanvändarna ser i händelse av ett förhämtningsanrop (inga ändringar i körningsflödet) om en AP/AT-aktivitet finns på leveransvägen och har högre prioritet än andra AB/XT-aktiviteter som använder samma plats för innehållsleverans.
-
-## Target Platform-release (13 april 2022)
-
-Den här versionen innehåller följande uppdatering:
-
-* Ett problem har korrigerats som säkerställer att den sista oktetten med IP-adresser döljs korrekt när de hämtas med profilskript. (TNT-44076)
-
-## [!DNL Target Standard/Premium] 22.3.1 (5 april 2022)
-
-Den här versionen innehåller följande ändringar och förbättringar:
-
-* Ett problem som orsakade [!UICONTROL Include] och [!UICONTROL Exclude] alternativ som ska inaktiveras för kombinerade målgrupper när en aktivitet redigeras. (TGT-43422)
-* Ett problem som gjorde att vissa kunder inte kunde se listan över tillgängliga målgrupper när en aktivitet redigerades har åtgärdats. (TGT-43404)
-* Ett problem som gjorde att vissa kunder inte kunde ta bort en IP-adress från mappen har åtgärdats[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; i [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
-* Korrigerade ett problem som förhindrade användning av negativa tal i målgruppskriteriet som kontrollerar att variabeln är &quot;större än&quot;, &quot;större än eller lika med&quot;, &quot;mindre än&quot; eller &quot;mindre än eller lika med&quot;. (TGT-43367)
-* Ett problem som gjorde att kunderna inte kunde se [!UICONTROL Audience Details] när ni skapar kombinerade målgrupper. (TGT-43303)
 
 ## Ytterligare versionsinformation
 

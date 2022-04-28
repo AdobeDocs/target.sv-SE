@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3765'
+source-wordcount: '3802'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,14 @@ ht-degree: 0%
 
 Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdokumentation.
 
-## Adobe Target Standard/Premium 22.3.1 (4-6 april 2022; mellanlagrad release)
+## Adobe Target Standard/Premium 22.4.1 (28 april)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 28 april | [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Följande frågor och svar har lagts till:<ul><li>Kan jag flytta en målgrupp från en arbetsyta till en annan?</li></ul> |
+|  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.4.1 och Target-plattformen (27 april 2022). |
+
+## Adobe Target Standard/Premium 22.3.1 (5 april)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
