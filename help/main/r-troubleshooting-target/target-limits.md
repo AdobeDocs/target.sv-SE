@@ -1,13 +1,13 @@
 ---
 keywords: teckengräns;mbox-parametrar;batchleverans api;profilparametrar;begränsningar;inbyggda profiler;maximum;limit;begränsning;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
-description: Visa en lista över teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i Adobe Target.
-title: Vilka är de olika tecknen, storleken och andra gränserna i Adobe Target?
+description: Visa en lista över teckenbegränsningar och andra begränsningar som påverkar aktiviteter och andra element i [!DNL Adobe Target].
+title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
+source-git-commit: 516dd288f2aa8116d05f1a9f28c5074df0932e8c
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
