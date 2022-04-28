@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3802'
+source-wordcount: '3853'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 28 april | [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Följande frågor och svar har lagts till:<ul><li>Kan jag flytta en målgrupp från en arbetsyta till en annan?</li></ul> |
+|  | [[!UICONTROL Auto-Allocate] översikt](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Följande frågor och svar har lagts till:<ul><li>Kan [!UICONTROL Auto-Allocate] Vill du att aktiviteten ska justera uppslagsfönstret under ett test för att ta hänsyn till förändringar över tiden?</li><li>Gör [!UICONTROL Auto-Allocate] visa en vinnande upplevelse för en återkommande besökare om den vinnande upplevelsen skiljer sig från vad besökaren såg när han kvalificerade sig för aktiviteten?</li></ul> |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.4.1 och Target-plattformen (27 april 2022). |
 
 ## Adobe Target Standard/Premium 22.3.1 (5 april)

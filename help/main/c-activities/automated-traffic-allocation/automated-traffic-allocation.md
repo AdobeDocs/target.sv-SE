@@ -4,9 +4,9 @@ description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL
 title: Vad är en automatiskt fördelad aktivitet?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3348'
+source-wordcount: '3447'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,16 @@ Använda [!UICONTROL Reset Report Data] alternativ för [!UICONTROL Auto-Allocat
 Om en träff inträffar i en annan (icke-standardmiljö) fördelas trafiken enligt det observerade konverteringsbeteendet i standardmiljön. Resultatet av träffen (konvertering eller icke-konvertering) registreras för rapportering men beaktas inte i [!UICONTROL Auto-Allocate] modell.
 
 När du väljer en annan miljö visar rapporten trafik och konverteringar för den miljön. Den standardmiljö som valts för en rapport är det kontoövergripande standardvärde som valts. Standardmiljön kan inte anges per aktivitet.
+
+### Kan [!UICONTROL Auto-Allocate] Vill du att aktiviteten ska justera uppslagsfönstret under ett test för att ta hänsyn till förändringar över tiden?
+
+Kan aktiviteten till exempel ta hänsyn till december-månaden för att avgöra hur trafiken ska fördelas, i stället för att titta på besöksdata från september (när testet inleddes)?
+
+Nej, [!UICONTROL Auto-Allocate] tar hänsyn till hur hela aktiviteten fungerar.
+
+### Gör [!UICONTROL Auto-Allocate] visa en vinnande upplevelse för en återkommande besökare om den vinnande upplevelsen skiljer sig från vad besökaren såg när han kvalificerade sig för aktiviteten?
+
+[!UICONTROL Auto-Allocate] använder klisterlappsbeslut av samma skäl som [!UICONTROL A/B Test] aktiviteter är kladdiga. Trafiktilldelningen fungerar endast för nya besökare.
 
 ## Utbildningsvideor {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
