@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i Adobe Target
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ### Erfarenheter per aktivitet
 
-* **Gräns**: 2 000 upplevelser per aktiviteten Experience Targeting (XT), A/B Test, Multivariate Test (MVT) och Auto-Target.
+* **Gräns**: 2 000 upplevelser per [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), och [!UICONTROL Auto-Target] aktivitet.
 
    30 000 upplevelser per Automated Personalization-aktivitet (AP).
 
