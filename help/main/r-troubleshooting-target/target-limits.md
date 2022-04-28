@@ -5,7 +5,7 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 516dd288f2aa8116d05f1a9f28c5074df0932e8c
+source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -215,7 +215,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ### parametern mbox3rdPartyId
 
-* **Gräns**: 60 tecken.
+* **Gräns**: 256 tecken.
 
 ## Erbjudanden
 
