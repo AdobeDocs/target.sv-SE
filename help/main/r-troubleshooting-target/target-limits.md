@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i Adobe Target
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
    * profilparametrar 50
    * profilparameternamn max längd 128
    * profilparametervärdet får inte vara null
-   * maxlängd för profilparametervärde 256
+   * maxlängd för profilparametervärde 5000
 
    **Slutpunkt för leverans-API**:
 
@@ -203,7 +203,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
    * profilparametrar 50
    * profilparameternamn max längd 128
    * profilparametervärdet får inte vara null
-   * maxlängd för profilparametervärde 256
+   * maxlängd för profilparametervärde 5000
 
 
 
