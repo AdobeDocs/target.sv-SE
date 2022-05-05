@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
+source-git-commit: 83a7fb03dcf334cb82eb507d2803e955a655b40a
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,16 +15,35 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 27 april 2022**
+**Senast uppdaterad: 5 maj 2022**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target Standard/Premium] 22.4.1 (28 april 2022)
+## [!DNL Target Standard/Premium] 22.5.1 (stegvis frisättning; 10-12 maj 2022)
 
-Den här versionen innehåller följande korrigering:
+Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-* Ett problem som gjorde att tre kundvagnsbaserade algoritmer använde samma villkor för köp/köp på [!DNL Target] serverdel. (TGT-43456)
-* Aktiverad [!DNL Target] Uppdatering av gränssnittstoken för organisationer som har aktiverats med [Konton för företags-ID](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} och PBA (Policy Based Authentication). (TGT-42590)
+* **10 maj**: Europa, Mellanöstern och Afrika (EMEA)
+* **11 maj**: Asien-Stillahavsområdet (APAC)
+* **12 maj**: Nordamerika (NA)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Ett problem som orsakade ett JavaScript-fel och som hindrade vissa kunder från att komma åt aktivitetsinformationen för vissa har åtgärdats [!UICONTROL Automated Personalization] (AP) aktiviteter. (TGT-43526)
+* Ett problem som gjorde att vissa kunder inte kunde lägga till (eller redigera) ett specifikt erbjudande i en AP-aktivitet har åtgärdats. (TGT-43503)
+* Ett problem i [!DNL Target] Gränssnitt som visade följande felmeddelande: &quot;Din globala mbox kanske inte är synkroniserad. Försök spara om den.&quot; Det här problemet var ett gränssnittsproblem och påverkade inte kundernas implementeringar. (TGT-43475)
+* Ett problem som hindrade en kund från att redigera förbättringar på erfarenhetsnivå och målgrupper för en aktivitet om förbättringarna och målgrupperna skapades före den nya [!UICONTROL Audiences] Gränssnittet har distribuerats. (TGT-43433)
+* Ett problem som gjorde att kunderna kunde välja dubblett har korrigerats [!DNL Adobe Audience Manager] (AAM) målgrupper när de redigerar rapportmålgrupper för en aktivitet. (TGT-43430)
+* Korrigerade ett problem som hindrade kunder från att skapa dubblerade målgrupper, men i olika arbetsytor. (TGT-43423)
+* Ett problem som gjorde att kunder inte kunde ta bort platser med ad hoc-erbjudanden i aktiviteter skapade i [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
+* Korrigerade ett problem som förhindrade kunder från att få tillgång till koderbjudanden efter att ha klickat på bilderbjudanden och sedan uppdaterat användargränssnittet. (TGT-43566)
+* Säkerställde att listan över tillgängliga mätvärden finns i [!DNL Target] Gränssnitt när aktiviteter som använder [!DNL Analytics for Target] (A4T) visar endast de mått som samlats in av [!DNL Adobe Analytics]. (TGT-43294)
+* Korrigerade ett problem som ibland orsakade [!UICONTROL Setup] sidförfrågningar som misslyckas. Om du till exempel ändrar &quot;[!UICONTROL Reporting Experience Cloud Solution]&quot; från &quot;[!UICONTROL Analytics]&quot; till &quot;[!UICONTROL Target]&quot; eller &quot;[!UICONTROL Select per Activity]&quot;. (TGT-43272)
+* Korrigerade ett problem som ibland orsakade att ändringar i profilskript inte uppdaterades korrekt. (TGT-43249)
+* Ett problem som orsakade följande fel vid försök att flytta en målgrupp till en annan arbetsyta har korrigerats: &quot;Vi kan inte slutföra din begäran. Kontakta Adobe Client Care om problemet kvarstår.&quot; (TGT-43212)
+* Korrigerade ett fel som orsakade ett fel vid kloning av anpassade kodändringar för sidor i Single Page App (SPA). (TGT-43137)
+* Ändrade sättet som måttet&quot;sidvyer&quot; hanteras på i SPA. Istället för att sidans URL visas i [!DNL Target] Gränssnittet visar nu vyn. (TGT-41200)
+* Korrigerade ett problem som gjorde att den ursprungliga kampanjen påverkades efter att en upplevelse duplicerats och sedan befordringen redigerades. (TGT-41775)
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
