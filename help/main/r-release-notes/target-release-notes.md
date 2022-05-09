@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ca2e85a5cadd014c192be6795445e0cfc4ca75cb
+source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funkti
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target Standard/Premium] 22.5.1 (stegvis frisättning; 10-12 maj 2022)
+## [!DNL Target Standard/Premium] 22.5.1 (stegvis frisättning; 11-13 maj 2022)
 
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
