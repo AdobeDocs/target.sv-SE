@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 83a7fb03dcf334cb82eb507d2803e955a655b40a
+source-git-commit: ca2e85a5cadd014c192be6795445e0cfc4ca75cb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 5 maj 2022**
+**Senast uppdaterad: 9 maj 2022**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
@@ -23,9 +23,9 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-* **10 maj**: Europa, Mellanöstern och Afrika (EMEA)
 * **11 maj**: Asien-Stillahavsområdet (APAC)
 * **12 maj**: Nordamerika (NA)
+* **13 maj**: Europa, Mellanöstern och Afrika (EMEA)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
@@ -38,11 +38,9 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 * Ett problem som gjorde att kunder inte kunde ta bort platser med ad hoc-erbjudanden i aktiviteter skapade i [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
 * Korrigerade ett problem som förhindrade kunder från att få tillgång till koderbjudanden efter att ha klickat på bilderbjudanden och sedan uppdaterat användargränssnittet. (TGT-43566)
 * Säkerställde att listan över tillgängliga mätvärden finns i [!DNL Target] Gränssnitt när aktiviteter som använder [!DNL Analytics for Target] (A4T) visar endast de mått som samlats in av [!DNL Adobe Analytics]. (TGT-43294)
-* Korrigerade ett problem som ibland orsakade [!UICONTROL Setup] sidförfrågningar som misslyckas. Om du till exempel ändrar &quot;[!UICONTROL Reporting Experience Cloud Solution]&quot; från &quot;[!UICONTROL Analytics]&quot; till &quot;[!UICONTROL Target]&quot; eller &quot;[!UICONTROL Select per Activity]&quot;. (TGT-43272)
-* Korrigerade ett problem som ibland orsakade att ändringar i profilskript inte uppdaterades korrekt. (TGT-43249)
+* Korrigerade ett problem som fick redigeringar av profilskript att återgå till det ursprungliga oredigerade skriptet efter att skriptet redigerats, aktiverats och sedan inaktiverats. Profilskriptet förblir nu redigerat. (TGT-43249)
 * Ett problem som orsakade följande fel vid försök att flytta en målgrupp till en annan arbetsyta har korrigerats: &quot;Vi kan inte slutföra din begäran. Kontakta Adobe Client Care om problemet kvarstår.&quot; (TGT-43212)
 * Korrigerade ett fel som orsakade ett fel vid kloning av anpassade kodändringar för sidor i Single Page App (SPA). (TGT-43137)
-* Ändrade sättet som måttet&quot;sidvyer&quot; hanteras på i SPA. Istället för att sidans URL visas i [!DNL Target] Gränssnittet visar nu vyn. (TGT-41200)
 * Korrigerade ett problem som gjorde att den ursprungliga kampanjen påverkades efter att en upplevelse duplicerats och sedan befordringen redigerades. (TGT-41775)
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
