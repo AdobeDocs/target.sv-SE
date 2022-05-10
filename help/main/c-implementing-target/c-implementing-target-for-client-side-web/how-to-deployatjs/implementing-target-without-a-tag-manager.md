@@ -5,9 +5,9 @@ title: Kan jag implementera [!DNL Target] utan en tagghanterare?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1752'
 ht-degree: 3%
 
 ---
@@ -82,6 +82,20 @@ Förutom de inställningar som förklaras ovan är följande specifika at.js-ins
 |--- |--- |
 | Anpassat bibliotekshuvud | Lägg till ett anpassat JavaScript som ska inkluderas högst upp i biblioteket. |
 | Anpassa bibliotekets sidfot | Lägg till ett anpassat JavaScript som ska inkluderas längst ned i biblioteket. |
+
+### Implementeringsmetoder med On-Device Decision
+
+Från och med version 2.5.0 kan at.js fatta beslut på enheter. Med enhetsbaserad beslutsfattande kan du cachelagra [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md) och [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md) (XT) aktiviteter i webbläsaren som utför minnesbaserad beslutsfattande utan blockerande nätverksbegäran till [!DNL Adobe Target] Edge Network.
+
+Mer information finns i:
+
+* Klientsida: [Enhetsbeslut för at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* Serversidan: [Introduktion till beslut på enheter](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Serversidan: [Enhetsbeslut](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [Aktivera beslut på enheten för din organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [Aktivera beslut på enheten för din organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [Aktivera beslut på enheten för din organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [Aktivera beslut på enheten för din organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
 
 ### Profil-API
 
