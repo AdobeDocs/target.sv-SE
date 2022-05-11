@@ -4,9 +4,9 @@ description: Granska en lista med ämnen som kan hjälpa dig att lösa problem i
 title: Hur felsöker jag Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,10 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 ## Sökmotoroptimering (SEO)
 
 * [SEO-testning (Search Engine Optimization)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+
+## Säkerhet
+
+* [CSP-direktiv (Content Security Policy)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
 
 ## Systemstatus
 

@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '3888'
+source-wordcount: '3974'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 11 maj | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.5.1 och Target-plattformen (11-13 maj 2022). |
+| 11 maj | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md#webinar-series) | Lagt till informations- och registreringslänkar för följande webbinarier:<ul><li>Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln</li><li>Adobe: Personalization Industry Insider - Financial Services and Insurance</li><li>City National Bank: Så här uppnår du de 1 % viktigaste inom digital optimering</li><li>Adobe: Personalisering med Precision - [!DNL Adobe Analytics] och [!DNL Target]</li><li>City National Bank: Noll i Hero - Vi börjar och skalar ett personaliseringsprogram</li><li>Adobe: Upptäck möjligheter till optimering med hög effekt</li><li>Adobe: Personalization Industry Insider - Retail</li></ul>Inspelningen för följande webbinarium har lagts till:<ul><li>Personalisering i realtid med [!DNL Adobe Target]</li></ul> |
+|  | [CSP-direktiv (Content Security Policy)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Avsnittet Vanliga frågor och svar har lagts till. |
+|  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.5.1 och Target-plattformen (11-13 maj 2022). |
 
 ## Adobe Target Standard/Premium 22.4.1 (28 april)
 
