@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '32850'
+source-wordcount: '32974'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,19 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2022
+
+### [!DNL Target Standard/Premium] 22.4.1 (28 april 2022)
+
+Den här versionen innehåller följande korrigering:
+
+* Ett problem som gjorde att tre kundvagnsbaserade algoritmer använde samma villkor för köp/köp på [!DNL Target] serverdel. (TGT-43456)
+* Aktiverad [!DNL Target] Uppdatering av gränssnittstoken för organisationer som har aktiverats med [Konton för företags-ID](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} och PBA (Policy Based Authentication). (TGT-42590)
+
+### [!DNL Target] plattformsrelease (27 april 2022)
+
+Den här versionen innehåller följande ändring:
+
+* Med den här versionen kan du förhämta innehåll för [!UICONTROL Auto Personalization] (AP) och [!UICONTROL Auto-Target] (AT) aktiviteter (som tidigare inte returnerats av [!DNL Target]). Detta kan ändra de upplevelser som slutanvändarna ser i händelse av ett förhämtningsanrop (inga ändringar i körningsflödet) om en AP/AT-aktivitet finns på leveransvägen och har högre prioritet än andra AB/XT-aktiviteter som använder samma plats för innehållsleverans.
 
 ### [!DNL Target] Plattformsrelease (30 mars)
 
@@ -202,7 +215,7 @@ Den här underhållsversionen innehåller många backend-förbättringar, bland 
 
 Den här versionen innehåller följande förbättringar:
 
-* Gränsen för mbox-parametrar har ökats till 100 parametrar. Den tidigare gränsen var 50 parametrar. (TNT-41717)
+* Gränsen för mbox-parametrar har ökats till 100 parametrar. The previous limit was 50 parameters. (TNT-41717)
 * Gränsen för `categoryId` har ökats till 256 tecken. Den tidigare gränsen var 128 tecken.
 * Följande [!DNL Adobe Audience Manager] (AAM) mer information har lagts till i leverans-API:
 
@@ -852,8 +865,8 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 | --- | --- |
 | Visual Experience Composer för enkelsidig app | Med Visual Experience Composer (VEC) för Single Page Apps (SPA) kan marknadsförare skapa tester och anpassa innehåll på SPA på ett sätt som gör det själv utan kontinuerliga utvecklingsberoenden. VEC kan användas för att skapa aktiviteter på de vanligaste ramverken, som React och Angular. (TGT-27916)<br>Mer information finns i [Visual Experience Composer (SPA) med en sida](/help/main/c-experiences/spa-visual-experience-composer.md) och [Integrering av ett enda sidprogram](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).<br>Förutom ovanstående artikel finns det många ämnen som rör SPA och at.js som handlar om den här funktionen och hur den ska implementeras. Mer information finns i [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md). |
 | Visual Experience Composer | Visual Experience Composer (VEC) innehåller följande förbättringar som gör arbetet snabbare och effektivare:<ul><li>Du kan nu använda alternativen Infoga före och Infoga efter i VEC när du infogar [AEM upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). Se [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>The [!DNL Adobe Target] Med VEC Helper-webbläsartillägget för Google Chrome kan du läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-webbupplevelser. Se [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
-| ![Premium-märke](/help/main/assets/premium.png)<br>Recommendations i [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] verksamhet | Nu kan du inkludera rekommendationer i [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter. Detta öppnar upp helt nya funktioner, som:<ul><li>Testa och målinrikta rekommendationer och innehåll som inte är rekommendationer inom samma aktivitet.</li><li>Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning olika rekommendationer ska ges.</li><li>Skicka automatiskt trafik till den bästa rekommenderade upplevelsen med [!UICONTROL Auto-Allocate].</li><li>Tilldela besökare dynamiskt skräddarsydda rekommendationer baserat på deras individuella profiler med [!UICONTROL Auto-Target].</li></ul>Skapa en [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting] VEC-aktivitet och använd [!UICONTROL Insert Before], [!UICONTROL Insert After], eller [!UICONTROL Replace With] åtgärd för att lägga till rekommendationer i en upplevelse. (RECS-6166)<br>Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md). |
-| ![Premium-märke](/help/main/assets/premium.png)<br>Stöd för Enterprise Permissions i mål-API:er | [Adobe Target Admin API:er](https://developers.adobetarget.com/api/#admin-apis) kommer nu att dra full nytta av samma funktioner för Enterprise Permissions som finns i målgränssnittet. Startar **21 feb 2019** kan systemadministratörer programmässigt få tillgång till rapportdata samt skapa och hantera aktiviteter, erbjudanden och målgrupper på alla arbetsytor. Dessa åtgärder var tidigare begränsade till standardarbetsytan. Stöd för Automated Personalization-aktiviteter kommer i en kommande version.<br>**Obs!** Det finns en [känt problem](/help/main/r-release-notes/known-issues-resolved-issues.md#api) om den här funktionen. |
+| ![Premium-märke](/help/main/assets/premium.png)<br>Recommendations i [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] verksamhet | Nu kan du inkludera rekommendationer i [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter. Detta öppnar upp helt nya funktioner, som:<ul><li>Test and target recommendations and non-recommendations content within the same activity.</li><li>Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning olika rekommendationer ska ges.</li><li>Skicka automatiskt trafik till den bästa rekommenderade upplevelsen med [!UICONTROL Auto-Allocate].</li><li>Tilldela besökare dynamiskt skräddarsydda rekommendationer baserat på deras individuella profiler med [!UICONTROL Auto-Target].</li></ul>Skapa en [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting] VEC-aktivitet och använd [!UICONTROL Insert Before], [!UICONTROL Insert After], eller [!UICONTROL Replace With] åtgärd för att lägga till rekommendationer i en upplevelse. (RECS-6166)<br>Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| ![Premium-märke](/help/main/assets/premium.png)<br>Stöd för Enterprise Permissions i mål-API:er | [Adobe Target Admin API:er](https://developers.adobetarget.com/api/#admin-apis) kommer nu att dra full nytta av samma funktioner för Enterprise Permissions som finns i målgränssnittet. Startar **21 feb 2019** kan systemadministratörer programmässigt få tillgång till rapportdata samt skapa och hantera aktiviteter, erbjudanden och målgrupper på alla arbetsytor. Dessa åtgärder var tidigare begränsade till standardarbetsytan. Stöd för Automated Personalization-aktiviteter kommer i en kommande version.<br>**Note:** There is a [known issue](/help/main/r-release-notes/known-issues-resolved-issues.md#api) regarding this functionality. |
 
 **Förbättring, korrigeringar och ändringar**
 
@@ -2218,12 +2231,12 @@ Den här versionen innehåller följande funktioner och förbättringar:
      </ul> </p> <p>Mer information finns i <a href="/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rapportering </p> <p> <p>Obs! Dessa förbättringar gäller inte för A4T-rapporter (Analytics for Target). </p> </p> </td> 
+   <td colname="col1"> <p>Rapportering </p> <p> <p>Note:  These enhancements do not apply to Analytics for Target (A4T) reports. </p> </p> </td> 
    <td colname="col2"> <p>Följande rapportförbättringar är nu tillgängliga för Target-rapporter. </p> <p> 
      <ul id="ul_ACFCA821B120419EA252EF5031309D52"> 
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>Användargränssnittet för rapporter har omarbetats. </p> </li> 
-      <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>Målrapporter har nu ett alternativ för att återställa rapportdata för att ta bort gamla data. (TGT-5933) </p> </li> 
-      <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>I beräkningsmetodiken för rapportering finns besökare (standard), besök och aktivitetsimpressioner. (TGT-10002) </p> </li> 
+      <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>Target reports now have an option to reset reporting data to remove old data. (TGT-5933) </p> </li> 
+      <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>The counting methodology options for reporting includes Visitors (the default), Visits, and Activity Impressions. (TGT-10002) </p> </li> 
      </ul> </p> <p>Mer information finns i <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Rapportinställningar </a> och <a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local"> Räkningsmetod </a>. </p> <p>Följande rapportförbättringar är nu tillgängliga för hämtningsbara CSV-rapporter: </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>CSV-rapporten på erbjudandenivå innehåller nu ytterligare information om varje erbjudande. (TGT-18995) </p> </li> 
