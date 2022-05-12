@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: a820a1cbc56332cc6414dc9f5ce4578fa0349481
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Kai Motoyama, teknisk supporttekniker, kommer också att vara med i diskussionst
 
 Registrera dig för följande webbinarier för att se hur kunderna använder [!DNL Adobe Target] för att uppnå sina personaliserings- och optimeringsmål:
 
-### Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln
+### Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln (19 maj 2022)
+
++++Klicka på mig
 
 * **Torsdagen den 19 maj 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
@@ -49,15 +51,22 @@ Läs om hur Dicks Sporting Goods driver en tvåsiffrig tillväxt när vi packar 
 * Total affärseffekt genom skalning av personalisering och experimentella aktiviteter på webben och i mobilen
 * Detaljhandelstips och tricks för att använda analysdata för att omvandla genomsnittliga besökare till återkommande idrottsmän
 
-### Adobe: Personalization Industry Insider - Financial Services and Insurance
++++
+
+### Adobe: Personalization Industry Insider - Financial Services and Insurance (24 maj 2022)
+
++++Klicka på mig
 
 * **Tisdagen den 24 maj 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
 * **[Mer information och registreringsinformation](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-Besök Christopher Young (Director, Industry Strategy Financial Services) och James Capasso (Target Consultant, Adobe Premier Support) för att få reda på hur varumärken hanterar omedelbara förändringar i efterfrågan samtidigt som personaliseringen är central i deras kundengagemang. Se hur finansföretagen stöder och informerar kunder över hela världen som är oroliga för de senaste inflationsmönstren och omständigheterna kring sina investeringar. 
+Besök Christopher Young (Director, Industry Strategy Financial Services) och James Capasso (Target Consultant, Adobe Premier Support) för att få reda på hur varumärken hanterar omedelbara förändringar i efterfrågan samtidigt som personaliseringen är central i deras kundengagemang. Se hur finansföretagen stöder och informerar kunder över hela världen som är oroliga för de senaste inflationsmönstren och omständigheterna kring sina investeringar.
+++ 
 
-### City National Bank: Så här uppnår du de 1 % viktigaste inom digital optimering
+### City National Bank: Så här uppnår du de 1 % bästa inom digital optimering (26 maj 2022)
+
++++Klicka på mig
 
 * **Torsdagen den 26 maj 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
@@ -72,7 +81,11 @@ Läs om hur City National Bank utnyttjar [!DNL Target] till:
 * Öka tillväxten i verksamheten med ökat engagemang och ökad användning av personaliserade erbjudanden
 * Optimera flerkanalskampanjer för time-to-value och avkastning.
 
-### Adobe: Personalisering med Precision - [!DNL Adobe Analytics] och [!DNL Target]
++++
+
+### Adobe: Personalisering med Precision - [!DNL Adobe Analytics] och [!DNL Target] (2 juni 2022)
+
++++Klicka på mig
 
 * **Torsdag den 2 juni 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
@@ -85,15 +98,22 @@ Gå med i Jordan Ison (Principal Expert Solution Consultant på [!DNL Adobe]) f�
 * Steg för steg-demo av [!DNL Adobe Analytics] och [!DNL Target] arbetsflöden för personalisering, målinriktning och testning
 * De viktigaste användningsområdena för att låsa upp vilka attribut som förutsäger besökarnas beteende och vilka attribut som är viktigast för nyckelvisualiseringar och segmenteringsanalys
 
-### City National Bank: Noll i Hero - Vi börjar och skalar ett personaliseringsprogram
++++
+
+### City National Bank: Noll i Hero - Startar och skalar ett personaliseringsprogram (9 juni 2022)
+
++++Klicka på mig
 
 * **Torsdagen den 9 juni 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
 * **Mer information och registreringsinformation kommer snart**
 
 Delta i Heather Adkins (SVP Marketing Technology) och lär dig de bästa sätten att bli en&quot;relationsbank&quot; för att öka varumärkeslojaliteten och få människor och processer att bygga och skala framgångsrika personaliseringsprogram.
++++
 
-### Adobe: Upptäck möjligheter till optimering med hög effekt
+### Adobe: Upptäck möjligheter till optimering av hög effekt (16 juni 2022)
+
++++Klicka på mig
 
 * **Torsdagen den 16 juni 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
@@ -106,13 +126,18 @@ Delta i Kaitlin White (Adobe Product Marketing Manager) när vi delar beprövade
 * Satsar på kundtillhörighet för personalisering
 * Och många fler idéer som hjälper er att hitta möjligheter som ger stor effekt på er organisation
 
-### Adobe: Personalization Industry Insider - Retail 
++++
+
+### Adobe: Personalization Industry Insider - Retail (21 juni 2022)
+
++++Klicka på mig
 
 * **Torsdagen den 21 juni 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
 * **[Mer information och registreringsinformation](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Följ Michael Klein (Director, Industry Strategy Retail) och Leina Betzer (Target Consultant, Adobe Premier Support) för att diskutera hur detaljhandeln skjuter i höjden när konsumenternas köpmönster och beteenden förändras, med ökad efterfrågan på varor och tjänster på vissa marknader.
++++
 
 ## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
 
