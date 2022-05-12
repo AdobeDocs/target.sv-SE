@@ -4,7 +4,7 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a820a1cbc56332cc6414dc9f5ce4578fa0349481
+source-git-commit: 1997fb8e290541fc9e194d582ccc2587595ccfa7
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
