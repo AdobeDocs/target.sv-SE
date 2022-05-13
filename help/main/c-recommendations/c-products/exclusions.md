@@ -4,9 +4,9 @@ description: Lär dig hur du skapar undantag i Adobe [!DNL Target] Recommendatio
 title: Hur använder jag undantag i Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Några exempel på hur du skulle kunna använda undantag är:
 * Produkter som aldrig bör rekommenderas (det kanske finns en SKU i systemet för något, men det är inte en köpbar artikel, eller kanske en falsk SKU för att QA-teamet ska simulera ett köp utan att faktiskt beställa något, osv.)
 
 >[!IMPORTANT]
+>
+>Uteslutningsreglerna tillämpas globalt på alla miljöer.
 >
 >Statiska och dynamiska exkluderingsregler är kraftfulla funktioner som kan hjälpa er med marknadsföringen. Detaljerad information, exempel och användningsscenarier finns i [Använd regler för dynamisk och statisk inkludering](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 

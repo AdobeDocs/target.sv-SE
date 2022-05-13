@@ -5,7 +5,7 @@ title: Var kan jag läsa mer om [!DNL Target] Leverans-API:er och SDK:er på ser
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Länk: [API:er för leverans på serversidan](https://developers.adobetarget.com
 
 `/rest/v1/delivery`
 
-Throke the [!DNL Target] Delivery API, du kan:
+Använda [!DNL Target] Delivery API, du kan:
 
 * Leverera upplevelser via webben, inklusive SPA, mobilkanaler och icke-webbläsarbaserade IoT-enheter, som anslutna tv-apparater, kioskdatorer eller digitala butiksskärmar.
 * Leverera upplevelser från alla plattformar eller applikationer på serversidan som kan ringa HTTP/s-samtal.
