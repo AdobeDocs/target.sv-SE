@@ -1,10 +1,10 @@
 ---
 keywords: upplevelsemall;egen kod;banderoll;ljuslåda;karusell;nedräkning;menyfliksområde;knappar
 description: Lär dig hur du använder Experience Templates, som är förkodade exempel med konfigurerbara indata som kan användas för att köra vanliga användningsfall för marknadsförare i Adobe Target.
-title: Vilka upplevelsemallar finns i Target?
+title: Vilka Experience Templates finns i Target?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

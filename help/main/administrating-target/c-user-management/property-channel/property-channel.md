@@ -5,9 +5,9 @@ title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3107'
 ht-degree: 0%
 
 ---
@@ -232,7 +232,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 * När du visar målgrupper från [!DNL Audiences] sidan läses sidan in långsammare än förväntat. Om du interagerar med sökfältet på något sätt visas målgrupperna snabbare. Problemet är känt och kommer att åtgärdas i en kommande uppdatering. Problemet påverkar inte valet av målgrupper när aktiviteten skapas.
 * Följande resurser ingår i den nya Enterprise Permissions-modellen:
 
-   * Aktiviteter, målgrupper och koderbjudanden som skapats i Target Standard/Premium när kunden har aktiverats för tillstånd. (Obs! kunder måste ha rätt till Target Premium.)
+   * Verksamheter, målgrupper och koderbjudanden som skapats i [!DNL Target Standard/Premium] är tillgängliga för användning när kunden har aktiverats för behörigheter. (Obs! kunderna måste ha rätt till [!DNL Target Premium].)
    * Egenskaper kan läggas till i befintliga aktiviteter på standardarbetsytan; Detta tillvägagångssätt kan dock komma att ändras.
    * Endast nya resurser (som aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium (efter att Enterprise Permissions (Enterprise Permissions)) har aktiverats kan begränsas av behörigheter.
    * Externa resurser är bara tillgängliga för användare på standardarbetsytan. En användares roll i standardarbetsytan används globalt (för alla Target-begäranden och alla Target-resurser).

@@ -5,9 +5,9 @@ title: at.js Cookies
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Cookien har flera standardinställningar. Du kan ändra de här inställningarna
 | Cookie-namn | mbox. |
 | Cookie-domän | Den andra och den översta nivån i de domäner som du underhåller innehållet från. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: `mycompany.com`. |
 | Serverdomän | `clientcode.tt.omtrdc.net`, med hjälp av klientkoden för ditt konto. |
-| Cookie-varaktighet | Cookien finns kvar i besökarens webbläsare två år efter hans eller hennes senaste inloggning.<br>The `deviceIdLifetime` inställningen kan åsidosättas i [at.js version 2.3.1 eller senare](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Mer information finns i [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
+| Cookie-varaktighet | Cookien finns kvar i besökarens webbläsare två år efter den senaste inloggningen.<br>The `deviceIdLifetime` inställningen kan åsidosättas i [at.js version 2.3.1 eller senare](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Mer information finns i [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
 | P3P-princip | Cookien publiceras med en P3P-princip, vilket krävs enligt standardinställningen i de flesta webbläsare. En P3P-profil anger för en webbläsare som skickar cookien och hur informationen ska användas. |
 
 Cookien har ett antal värden för att hantera hur besökarna upplever kampanjer:
@@ -120,7 +120,7 @@ Cookien har ett antal värden för att hantera hur besökarna upplever kampanjer
 |--- |--- |
 | sessions-ID | Ett unikt ID för en användarsession. Som standard varar detta 30 minuter. |
 | pc-ID | Ett halvpermanent ID för en besökares webbläsare. Varar 14 dagar. |
-| check | Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. |
+| at_check | Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. |
 | disable | Ange om besökarens inläsningstid överskrider den tidsgräns som konfigurerats i [!DNL Adobe Experience Platform Web SDK] eller filen at.js. Som standard varar detta 1 timme. |
 
 ## Påverkan på [!DNL Target] för Safari-besökare på grund av Apple WebKit-spårningsändringar

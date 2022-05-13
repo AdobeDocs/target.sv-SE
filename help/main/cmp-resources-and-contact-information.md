@@ -4,7 +4,7 @@ description: Läs om ytterligare resurser som kan hjälpa dig att lära dig mer 
 title: Var kan jag hitta resurser och kontaktinformation för Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 0%
