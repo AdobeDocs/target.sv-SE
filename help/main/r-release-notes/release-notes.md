@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,6 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 * Korrigerade ett problem som hindrade kunder från att skapa dubblerade målgrupper, men i olika arbetsytor. (TGT-43423)
 * Ett problem som gjorde att kunder inte kunde ta bort platser med ad hoc-erbjudanden i aktiviteter skapade i [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
 * Korrigerade ett problem som förhindrade kunder från att få tillgång till koderbjudanden efter att ha klickat på bilderbjudanden och sedan uppdaterat användargränssnittet. (TGT-43566)
-* Säkerställde att listan över tillgängliga mätvärden finns i [!DNL Target] Gränssnitt när aktiviteter som använder [!DNL Analytics for Target] (A4T) visar endast de mått som samlats in av [!DNL Adobe Analytics]. (TGT-43294)
 * Korrigerade ett problem som fick redigeringar av profilskript att återgå till det ursprungliga oredigerade skriptet efter att skriptet redigerats, aktiverats och sedan inaktiverats. Profilskriptet förblir nu redigerat. (TGT-43249)
 * Ett problem som orsakade följande fel vid försök att flytta en målgrupp till en annan arbetsyta har korrigerats: &quot;Vi kan inte slutföra din begäran. Kontakta Adobe Client Care om problemet kvarstår.&quot; (TGT-43212)
 * Korrigerade ett fel som orsakade ett fel vid kloning av anpassade kodändringar för sidor i Single Page App (SPA). (TGT-43137)
