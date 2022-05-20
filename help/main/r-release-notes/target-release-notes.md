@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
+source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
 * **11 maj**: Asien-Stillahavsområdet (APAC)
-* **12 maj**: Nordamerika (NA)
+* **12 maj**: Amerika
 * **13 maj**: Europa, Mellanöstern och Afrika (EMEA)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
