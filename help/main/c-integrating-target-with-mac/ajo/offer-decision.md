@@ -2,9 +2,9 @@
 keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelsedisposition;beslut om erbjudande;offer decisioning;ajo;reseoptimering
 description: Lär dig hur du lägger till ett offertbeslut som skapats i [!DNL Adobe Journey Optimizer] till en aktivitet.
 title: Hur använder jag erbjudandebeslut?
-feature: Visual Experience Composer (VEC)
+feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
+source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
