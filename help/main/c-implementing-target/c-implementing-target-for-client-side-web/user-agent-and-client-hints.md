@@ -4,9 +4,10 @@ description: Lär dig mer [!DNL Adobe Target] använder användaragenten och kli
 title: Tips för användaragent och klient
 feature: at.js
 role: Developer
-source-git-commit: 2527608fc781913024d5d6ffee49aff9eb6c2f42
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,11 @@ ht-degree: 0%
 # Tips för användaragent och klient
 
 [!DNL Adobe Target] använder användaragenten för att kvalificera besökare för segmentering och personalisering.
+
+>[!NOTE]
+>
+>Informationen i den här artikeln gäller för [at.js version 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (eller senare).
+
 
 Varje gång en webbläsare skickar en begäran till en server, som ingår i huvudet i begäran, är information om webbläsaren och miljön där webbläsaren körs. Sedan de första dagarna på Internet har dessa data sammanställts i en enda sträng som kallas user-agent.
 
@@ -158,11 +164,13 @@ Entropy: Låg dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/
 
 #### Sec-CH-UA-Arch
 
-Entropy: Hög dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} Målgruppsattribut: Profilskriptanvändning: `user.clientHint('sec-ch-ua-arch')`
+Entropy: Hög dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} Målgruppsattribut: Exponerad för användare via profilskript.
+Profilskriptanvändning: `user.clientHint('sec-ch-ua-arch')`
 
 #### Avsn-CH-UA-bitness
 
-Entropy: Hög dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} Målgruppsattribut: Profilskriptanvändning: `user.clientHint('sec-ch-ua-bitness')`
+Entropy: Hög dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} Målgruppsattribut: Exponerad för användare via profilskript.
+Profilskriptanvändning: `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA-full-version-list
 
@@ -182,7 +190,8 @@ Entropy: Låg dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/
 
 #### Sec-CH-UA-platform-version
 
-Entropy: Hög dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} Målgruppsattribut: Profilskriptanvändning: `user.clientHint('sec-ch-ua-platform-version')`
+Entropy: Hög dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} Målgruppsattribut: Exponerad för användare via profilskript.
+Profilskriptanvändning: `user.clientHint('sec-ch-ua-platform-version')`
 
 ## Så här skickar du klienttips till [!DNL Adobe Target]
 
@@ -197,15 +206,3 @@ Från och med kl.js 2.9.0 kommer klienttips för användaragenten att samlas in 
 ### SDK:er på serversidan
 
 Mer information om hur du skickar klienttips via SDK:er på serversidan finns i [Klienttips](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} i *Adobe Target SDKs* dokumentation.
-
-
-
-
-
-
-
-
-
-
-
-

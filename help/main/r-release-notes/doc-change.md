@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '3986'
+source-wordcount: '4042'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 25 maj | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om Target-plattformsversionen (25 maj 2022) och at.js 2.9.0-versionen (27 maj 2022). |
+|  | [versionsinformation för at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.9.0. |
+|  | [Tips för användaragent och klient](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | Nytt ämne. |
+|  | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md#webinar-series) | Länk har lagts till för inspelning av följande webbinarium: Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln (19 maj 2022) |
 | 23 maj | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation har lagts till för at.js version 2.9.0 (25 maj 2022). |
 | 11 maj | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md#webinar-series) | Lagt till informations- och registreringslänkar för följande webbinarier:<ul><li>Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln</li><li>Adobe: Personalization Industry Insider - Financial Services and Insurance</li><li>City National Bank: Så här uppnår du de 1 % viktigaste inom digital optimering</li><li>Adobe: Personalisering med Precision - [!DNL Adobe Analytics] och [!DNL Target]</li><li>City National Bank: Noll i Hero - Vi börjar och skalar ett personaliseringsprogram</li><li>Adobe: Upptäck möjligheter till optimering med hög effekt</li><li>Adobe: Personalization Industry Insider - Retail</li></ul>Inspelningen för följande webbinarium har lagts till:<ul><li>Personalisering i realtid med [!DNL Adobe Target]</li></ul> |
 |  | [CSP-direktiv (Content Security Policy)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Avsnittet Vanliga frågor och svar har lagts till. |

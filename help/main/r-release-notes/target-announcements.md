@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -14,26 +14,6 @@ ht-degree: 0%
 # Målmeddelanden och evenemang
 
 Kommentarer och information om kommande evenemang, inklusive [!DNL Adobe Target] Sessioner, chatt, webbinarier och [!DNL Target] Sessioner med kaffebrytning.
-
-## [!DNL Adobe Target] Community Q&amp;A Coffee Break (25 maj 2022)
-
-Brent Kostak och Drew Burns på [!DNL Adobe Target] Marknadsföringsteamet kommer att besvara kundfrågor som rör deras expertområden.
-
-+++Klicka på mig
-
-* **Onsdagen den 25 maj 2022**
-* **08.00. (PDT, UTC -7)**
-* **[Mer information och registreringsinformation](https://adobe.ly/3LbOj4G)**
-
-Kunderna får ställa frågor som rör följande ämnen som har behandlats i webbinariet Personalization 4/28/22 i realtid (åtkomstinspelning nedan):
-
-* Skapa delade målgrupper med [!DNL Adobe Target] och Real-Time CDP
-* Bygga egna datastrategier för att lösa problem med fragmentering av data
-* Distribuera kompletta arbetsflöden för personalisering på millisekunder
-* Leverera relevanta meddelanden, innehåll och erbjudanden i realtid för att öka engagemanget
-
-Kai Motoyama, teknisk supporttekniker, kommer också att vara med i diskussionstråden med ytterligare support.
-+++
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
@@ -43,11 +23,9 @@ Registrera dig för följande webbinarier för att se hur kunderna använder [!D
 
 Lär dig de bästa sätten att utöka personaliseringsprogram i stor skala. Se hur Dick&#39;s Sporting Goods använder [!DNL Adobe Target] för att engagera toppidrottare och varumärken.
 
-+++Klicka på mig
+* [Inspelningslänk](https://video.tv.adobe.com/v/343042){target=_blank}
 
-* **Torsdagen den 19 maj 2022**
-* **1:00 till 2:00 (EDT, UTC-4)**
-* **[Mer information och registreringsinformation](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
++++Klicka på mig
 
 Delta i Shawn Wilkinson (eCommerce Personalization Manager) och lär dig mer om hur [!DNL Target] hjälper Dick&#39;s Sporting Goods att förvandla vanliga besökare till att återvända till idrottare.
 
