@@ -4,7 +4,7 @@ description: Konflikter inträffar när flera aktiviteter har konfigurerats för
 title: Hur undviker jag aktivitetskonflikter?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
