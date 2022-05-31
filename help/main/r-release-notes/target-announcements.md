@@ -4,73 +4,37 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: a40aba388ae89079f6977082fd77c7670618a4e1
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Målmeddelanden och evenemang
 
-Kommentarer och information om kommande evenemang, inklusive [!DNL Adobe Target] Sessioner, chatt, webbinarier och [!DNL Target] Sessioner med kaffebrytning.
+Kommentarer och information om kommande [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
+
+## Adobe Target Community Coffer Break (29 juni 2022)
+
++++Klicka på mig
+
+* **onsdagen den 29 juni 2022**
+* **8.00 till 9.00. (PDT, UTC-7)**
+* **[Mer information och registreringsinformation](https://adobe.ly/3wKhcQS){target=_blank}**
+
+Vi kommer att gå samman av Jordan Ison, Kati McKinney, Justine Lee och Kaela Cusack från Adobe Solutions Consulting-teamet för att chatta direkt med dig angående deras expertområden. De kommer även att besvara eventuella frågor som rör ämnen som behandlas under personaliseringen med Precision den 22/6: Adobe Analytics &amp; Target Webinar (mer information nedan):
+
+* Hur marknadsförare, utvecklare och produktteam kan öppna den svarta rutan i AI för att utveckla framtida strategier för testning och personalisering
+* Hur man övervinner utmaningar när det gäller att optimera webben, mobilappar, e-post, sakernas internet och varje digital kontaktyta för högre konvertering och engagemang
+* Adobe Analytics och Adobe Target arbetsflöden för personalisering, målinriktning och testning
+* Förstå användningsexempel för att låsa upp vilka attribut som förutsäger besökarnas beteende och vilka attribut som är viktigast för nyckelvisualiseringar och segmenteringsanalys
+
++++
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
 Registrera dig för följande webbinarier för att se hur kunderna använder [!DNL Adobe Target] för att uppnå sina personaliserings- och optimeringsmål:
-
-### Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln (19 maj 2022)
-
-Lär dig de bästa sätten att utöka personaliseringsprogram i stor skala. Se hur Dick&#39;s Sporting Goods använder [!DNL Adobe Target] för att engagera toppidrottare och varumärken.
-
-* [Inspelningslänk](https://video.tv.adobe.com/v/343042){target=_blank}
-
-+++Klicka på mig
-
-Delta i Shawn Wilkinson (eCommerce Personalization Manager) och lär dig mer om hur [!DNL Target] hjälper Dick&#39;s Sporting Goods att förvandla vanliga besökare till att återvända till idrottare.
-
-Läs om hur Dicks Sporting Goods driver en tvåsiffrig tillväxt när vi packar upp:
-
-* Planera och lansera ett högpresterande personaliseringsprogram för detaljhandeln
-* Varför det är avgörande att få tag i fler företag för att övervinna hinder och hinder i vägen
-* Total affärseffekt genom skalning av personalisering och experimentella aktiviteter på webben och i mobilen
-* Detaljhandelstips och tricks för att använda analysdata för att omvandla genomsnittliga besökare till återkommande idrottsmän
-
-+++
-
-### Adobe: Personalization Industry Insider - Financial Services and Insurance (24 maj 2022)
-
-Se hur finansföretagen stöder och informerar kunder som använder personalisering för att förbereda sig för inflationsmönster och investeringsstrategier.
-
-+++Klicka på mig
-
-* **Tisdagen den 24 maj 2022**
-* **1:00 till 2:00 (EDT, UTC-4)**
-* **[Mer information och registreringsinformation](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-Besök Christopher Young (Director, Industry Strategy Financial Services) och James Capasso (Target Consultant, Adobe Premier Support) för att få reda på hur varumärken hanterar omedelbara förändringar i efterfrågan samtidigt som personaliseringen är central i deras kundengagemang. Se hur finansföretagen stöder och informerar kunder över hela världen som är oroliga för de senaste inflationsmönstren och omständigheterna kring sina investeringar.
-++ 
-
-### City National Bank: Så här uppnår du de 1 % bästa inom digital optimering (26 maj 2022)
-
-Visa verktygspaket och användningsexempel för implementering av strategier för korsfunktionell personalisering. Se hur CNB gick från de nedre 26 % av sin bransch till de främsta 1 % med [!DNL Adobe Target].
-
-+++Klicka på mig
-
-* **Torsdagen den 26 maj 2022**
-* **1:00 till 2:00 (EDT, UTC-4)**
-* **[Mer information och registreringsinformation](https://digital-optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-Delta i Heather Adkins (SVP Marketing Technology Manager) och lär dig hur City National Bank blev en av de mest avancerade&quot;digitalt aktiverade relationsbankerna&quot;.
-
-Läs om hur City National Bank utnyttjar [!DNL Target] till:
-
-* Utöka testning och experiment, personalisering och AI-automatisering
-* Skapa vinnande upplevelser över flera kanaler för att utveckla autentiska relationer
-* Öka tillväxten i verksamheten med ökat engagemang och ökad användning av personaliserade erbjudanden
-* Optimera flerkanalskampanjer för time-to-value och avkastning.
-
-+++
 
 ### Adobe: Personalisering med Precision - [!DNL Adobe Analytics] och [!DNL Target] (2 juni 2022)
 
@@ -99,7 +63,7 @@ Lär dig de bästa sätten att bli en&quot;relationsbank&quot; för att öka var
 
 * **Torsdagen den 9 juni 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
-* **Mer information och registreringsinformation kommer snart**
+* **[Mer information och registreringsinformation](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Delta i Heather Adkins (SVP Marketing Technology) och lär dig de bästa sätten att bli en&quot;relationsbank&quot; för att öka varumärkeslojaliteten och få människor och processer att bygga och skala framgångsrika personaliseringsprogram.
 +++
@@ -125,7 +89,7 @@ Delta i Kaitlin White (Adobe Product Marketing Manager) när vi delar beprövade
 
 ### Adobe: Personalization Industry Insider - Retail (21 juni 2022)
 
-2022 har gett företag en dynamisk och snabbt föränderlig miljö att driva och driva. Läs om hur branschexperterna ser nya trender inom konsumentbranschen ta form medan livet börjar återgå till det normala för arbetare och resenärer. 
+2022 har gett företag en dynamisk och snabbt föränderlig miljö att driva och driva. Läs om hur branschexperterna ser nya trender inom konsumentbranschen ta form medan livet börjar återgå till det normala för arbetare och resenärer. 
 
 +++Klicka på mig
 
@@ -138,11 +102,62 @@ Följ Michael Klein (Director, Industry Strategy Retail) och Leina Betzer (Targe
 
 ## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
 
-Registrera och visa inspelningar av senaste händelser:
+Åtkomst till inspelningar av tidigare händelser:
+
+### Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln (19 maj 2022)
+
+Lär dig de bästa sätten att utöka personaliseringsprogram i stor skala. Se hur Dick&#39;s Sporting Goods använder [!DNL Adobe Target] för att engagera toppidrottare och varumärken.
+
+* [Inspelningslänk](https://video.tv.adobe.com/v/343042){target=_blank}
+
++++Klicka på mig
+
+Delta i Shawn Wilkinson (eCommerce Personalization Manager) och lär dig mer om hur [!DNL Target] hjälper Dick&#39;s Sporting Goods att förvandla vanliga besökare till att återvända till idrottare.
+
+Läs om hur Dicks Sporting Goods driver en tvåsiffrig tillväxt när vi packar upp:
+
+* Planera och lansera ett högpresterande personaliseringsprogram för detaljhandeln
+* Varför det är avgörande att få tag i fler företag för att övervinna hinder och hinder i vägen
+* Total affärseffekt genom skalning av personalisering och experimentella aktiviteter på webben och i mobilen
+* Detaljhandelstips och tricks för att använda analysdata för att omvandla genomsnittliga besökare till återkommande idrottsmän
+
++++
+
+### Adobe: Personalization Industry Insider - Financial Services and Insurance (24 maj 2022)
+
+Se hur finansföretagen stöder och informerar kunder som använder personalisering för att förbereda sig för inflationsmönster och investeringsstrategier.
+
+[Inspelningslänk](https://video.tv.adobe.com/v/343240){target=_blank}
+
++++Klicka på mig
+
+Besök Christopher Young (Director, Industry Strategy Financial Services) och James Capasso (Target Consultant, Adobe Premier Support) för att få reda på hur varumärken hanterar omedelbara förändringar i efterfrågan samtidigt som personaliseringen är central i deras kundengagemang. Se hur finansföretagen stöder och informerar kunder över hela världen som är oroliga för de senaste inflationsmönstren och omständigheterna kring sina investeringar.
+++ 
+
+### City National Bank: Så här uppnår du de 1 % bästa inom digital optimering (26 maj 2022)
+
+Visa verktygspaket och användningsexempel för implementering av strategier för korsfunktionell personalisering. Se hur CNB gick från de nedre 26 % av sin bransch till de främsta 1 % med [!DNL Adobe Target].
+
+[Inspelningslänk](https://video.tv.adobe.com/v/343344){target=_blank}
+
++++Klicka på mig
+
+Delta i Heather Adkins (SVP Marketing Technology Manager) och lär dig hur City National Bank blev en av de mest avancerade&quot;digitalt aktiverade relationsbankerna&quot;.
+
+Läs om hur City National Bank utnyttjar [!DNL Target] till:
+
+* Utöka testning och experiment, personalisering och AI-automatisering
+* Skapa vinnande upplevelser över flera kanaler för att utveckla autentiska relationer
+* Öka tillväxten i verksamheten med ökat engagemang och ökad användning av personaliserade erbjudanden
+* Optimera flerkanalskampanjer för time-to-value och avkastning.
+
++++
 
 ### Personalisering i realtid med [!DNL Adobe Target]
 
 **[Registrera dig för att visa inspelningen av webbinariet](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++Klicka på mig
 
 Läs om hur [!DNL Adobe Target] överbryggar gapet med att kombinera data från flera olika källor för realtidspersonalisering när vi diskuterar:
 
@@ -151,17 +166,24 @@ Läs om hur [!DNL Adobe Target] överbryggar gapet med att kombinera data från 
 * Heltäckande arbetsflöden för att leverera personaliserade upplevelser på millisekunder
 * Unika användningsexempel för varumärken som engagerar kunder och presumtiva kunder i realtid med relevanta meddelanden, innehåll och erbjudanden
 
++++
+
 ### Webbseminarium: Personalisera och testa utan fördröjning med beslut på enheter från [!DNL Adobe Target]
+
+[Inspelningslänk](https://video.tv.adobe.com/v/328148){target=_blank}
+
++++Klicka på mig
 
 Nu mer än någonsin har marknadsförare, produktägare och utvecklare fått i uppgift att optimera den övergripande kundupplevelsen på webbplatser, i appar och på alla andra sätt de har kontakt med sina kunder. Flera verktyg med vattentäta skott och komplicerade implementeringar gör det inte enklare.
 
 I det här inspelade webbinariet diskuterar Adobe Target produktexperter hur flyttande beslut om optimering av kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.
-
->[!VIDEO](https://video.tv.adobe.com/v/328148)
++++
 
 ### Webbseminarium: Hur HSBC utnyttjar Adobe [!DNL Target] och AI för att snabbt optimera och leverera personalisering i stor skala
 
-* **[Se inspelningen av webbinariet här](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[Inspelningslänk](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+
++++Klicka på mig
 
 McKinsey Digital rapporterar att&quot;vi har vunnit fem år framåt när det gäller digital användning inom konsumenter och företag på ungefär åtta veckor.&quot; *
 
@@ -174,10 +196,11 @@ Gå med Adobe och HSBC i webbinariet och lär dig mer:
 * Hur HSBC har byggt upp ett framgångsrikt program i stor skala med 3 000+ aktiviteter
 
 *McKinsey-artikel: &quot;[Återställningen av COVID-19 blir digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; May 2020
++++
 
 ### Adobe [!DNL Target] Kunskapsbyggaren: Utvecklarchatt, migrera Adobe [!DNL Target]&#39;s mbox.js to at.js {#skill-builder}
 
-* **[Se inspelningen av webbinariet här](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
-
 Med borttagningen av mbox.js den 31 mars 2021 var David Son, Adobe Target Product Manager nyligen värd för en utvecklarchatt för att diskutera fördelarna med att migrera mbox.js till at.js.
+
+* **[Inspelningslänk](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
 
