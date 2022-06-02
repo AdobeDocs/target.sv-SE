@@ -4,9 +4,9 @@ description: 'Lär dig förhandsgranska Adobe [!DNL Target] Recommendations-akti
 title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7732f3af0fd995309035a8a214afd438ab7a1823
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -120,17 +120,17 @@ Observera att du även kan inaktivera eller arkivera aktiviteten med samma nedru
 
 För att undvika avbrott i en live-aktivitet rekommenderar vi att du använder följande tillvägagångssätt när du ändrar en live-aktivitet:
 
-1. Duplicera aktiviteten och villkoren som du vill ändra.
-1. Gör ändringar i den duplicerade aktiviteten och villkoren och vänta på att algoritmen ska generera resultat.
-1. Förhandsgranska den nya ändrade aktiviteten och bekräfta att resultatet blir som du vill.
-1. Aktivera den nya aktiviteten.
-1. Inaktivera den gamla aktiviteten.
+1. Duplicera den ursprungliga aktiviteten (aktivitet 1) och de villkor du vill ändra för att skapa en ny aktivitet (aktivitet 2).
+1. Gör ändringar i den duplicerade aktiviteten (aktivitet 2) och villkoren och vänta tills algoritmen genererar resultat.
+1. Förhandsgranska den nya ändrade aktiviteten (aktivitet 2) och bekräfta att resultatet blir som du vill.
+1. Aktivera den nya aktiviteten (aktivitet 2).
+1. Inaktivera den ursprungliga aktiviteten (aktivitet 1).
 
 Om du behöver behålla historiska rapportresultat i samma aktivitet är ett alternativt tillvägagångssätt möjligt, vilket kan resultera i ett tillfälligt avbrott i tillgängligheten av rekommendationer:
 
-1. Duplicera aktiviteten och villkoren som du vill ändra.
-1. Gör ändringar i den duplicerade aktiviteten och villkoren och vänta på att algoritmen ska generera resultat.
-1. Förhandsgranska den nya ändrade aktiviteten och bekräfta att resultatet blir som du vill.
-1. Pausa den befintliga aktiviteten och växla inställningarna/villkoren till de nya villkoren.
-1. Förhandsgranska den befintliga aktiviteten och bekräfta att resultatet blir som du vill.
-1. Återaktivera aktiviteten.
+1. Duplicera den ursprungliga aktiviteten (aktivitet 1) och de villkor du vill ändra för att skapa en ny aktivitet (aktivitet 2).
+1. Gör ändringar i den duplicerade aktiviteten (aktivitet 2) och villkoren och vänta tills algoritmen genererar resultat.
+1. Förhandsgranska den nya ändrade aktiviteten (aktivitet 2) och bekräfta att resultatet blir som du vill.
+1. Pausa den nya ändrade aktiviteten (aktivitet 2) och byt ut inställningarna/villkoren mot den ursprungliga aktiviteten (aktivitet 1).
+1. Förhandsgranska den ursprungliga aktiviteten (aktivitet 1) och bekräfta att resultatet blir som du vill.
+1. Återaktivera den ursprungliga aktiviteten (aktivitet 1).
