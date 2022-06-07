@@ -4,9 +4,9 @@ description: Upptäck varför vissa webbplatser kanske inte kan öppnas på ett 
 title: Hur använder jag hjälptillägget Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,16 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Med webbl�
 * Webbplatsen ligger i en iframe.
 * at.js-biblioteket är ännu inte implementerat på webbplatsen.
 * Kundens QA- och/eller scensajt är inte tillgänglig för omvärlden (webbplatsen är intern).
+* Det finns vissa begränsningar när du försöker använda VEC för att öppna en webbplats som använder [Servicearbetare](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+
+En SWF-fil är en webbteknik som kan användas för att avlyssna begäranden för den domän som de är installerade på av en webbsida. Programvaran överlever sidbesöket och aktiverar sig själv vid efterföljande besök. Svartvyn avgör vilka förfrågningar som går igenom och vilka som fångas upp och hanteras från ett cacheminne istället.
+
+Programvaran kan styra cachningen. kan cachelagra själva webbsidan, statiska resurser som JS, CSS, IMG, AJAX, deras innehåll och deras svarshuvuden, inklusive de som [VEC Helper-tillägg för mål](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) försöker ta bort, som X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) eller Set-Cookie.
+
+Tyvärr tar Chrome-tilläggets API:er som fångar upp webbförfrågningar inte emot förfrågningar som fångats upp och hanterats av en SWF-fil. Tillägget kan därför inte åtgärda sidhuvuden och cookies om webbsidesbegäran hanterades från ett cacheminne av en SWF-fil eftersom webbsidan inte läses in i VEC på grund av X-Frame-Options eller CSP-rubriker som också cache-lagrades.
+
+Som en möjlig tillfällig lösning kan du inaktivera Service Workers på fliken Chrome Developer Tools > Application (Verktyg för Chrome-utvecklare) och sedan aktivera kryssrutan&quot;Bypass for network&quot; (Kringgå för nätverk) under avsnittet Service Workers (Servicearbetare).
+
 * Du använder Google Chrome 80+ med förbättrade principer för att framtvinga cookies för samma webbplats. Mer information finns i [Hur påverkar de nyligen meddelade reglerna för tillämpning av cookie-standarden Google Chrome SameSite de VEC och EEC?](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
 Webbläsartillägget VEC Helper för Chrome löser problem med webbplatsinläsning som kunderna nu är beroende av [!DNL Target] [Förbättrad Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) eller tillägg från tredje part, till exempel Uppriktigt.

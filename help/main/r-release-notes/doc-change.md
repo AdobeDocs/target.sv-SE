@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4083'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | 25 februari | [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Uppdaterade följande avsnitt:<ul><li>[Automatisk fördelning och Automatisk målgruppsanpassning](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatisk allokering](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Tolka autofördelningsrapporter](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Nya frågor och svar:<ul><li>Finns brickorna &quot;Ingen vinnare&quot;, &quot;vinnare&quot; och &quot;stjärna&quot; för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T)?</li></ul> |
 |  | [Skapa en målgrupp som bara är aktiv](/help/main/c-target/creating-activity-only-audience.md) | Tillagd information i avsnittet &quot;Överväganden&quot; där man diskuterar exkluderingsregler. |
-| 10 februari | [Kända problem och lösta problem](/help/main/r-release-notes/known-issues-resolved-issues.md) | Följande kända fel har lagts till:<ul><li>Visual Experience Composer (VEC) läser in webbplatser med Service Workers</li></ul> |
+| 10 februari | [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Lagt till information om hur du läser in webbplatser med Service Workers i Visual Experience Composer (VEC). |
 | 7 februari | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (23 februari 2022)</li></ul> |
 | 3 februari | [Skapa målgrupper](/help/main/c-target/c-audiences/audiences.md#RTCDP) | Nya avsnitt och videoklipp har lagts till: &quot;Video: Nästa steg i personaliseringen med CDP och [!DNL Adobe Target].&quot; |
 | 2 februari | [Felsöka innehållsleverans](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Följande avsnitt har lagts till: &quot;Escaping double quotes in [!DNL Target] profilattributvärdet fungerar inte som förväntat.&quot; |
