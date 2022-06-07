@@ -5,9 +5,9 @@ title: Hur lägger jag till användare och hanterar behörigheter?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Systemadministratörsanvändare måste lägga till användare i systemet. Använ
    | Roll | Beskrivning |
    |--- |--- |
    | Godkännare | Kan skapa, redigera och aktivera eller stoppa aktiviteter. |
-   | Redigerare | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. Kan redigera målgrupper i aktiva aktiviteter. |
+   | Redigerare | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. |
    | Observer | Kan visa aktiviteter, men kan inte skapa eller redigera dem. |
    | Utgivare | Liknar observationsrollen (kan visa aktiviteter, men kan inte skapa eller redigera dem). Utgivarrollen har dock ytterligare behörighet att aktivera aktiviteter. |
 

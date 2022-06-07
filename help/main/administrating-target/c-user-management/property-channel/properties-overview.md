@@ -5,9 +5,9 @@ title: Hur konfigurerar jag Enterprise-behörigheter?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Så här använder du [!DNL Target] användarbehörigheter måste du lägga till
    | Roll | Beskrivning |
    |--- |--- |
    | Godkännare | Kan skapa, redigera och aktivera eller stoppa aktiviteter. |
-   | Redigerare | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. Kan redigera målgrupper i aktiva aktiviteter. |
+   | Redigerare | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. |
    | Observer | Kan visa aktiviteter, men kan inte skapa eller redigera dem. |
    | Utgivare | Liknar observationsrollen (kan visa aktiviteter, men kan inte skapa eller redigera dem). Utgivarrollen har dock ytterligare behörighet att aktivera aktiviteter. |
 

@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard] och [!DNL Target Premium] release. Versionsinformation om [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar ingår också, i tillämpliga fall.
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
+
+## [!DNL Target Standard/Premium] korrigeringar av kundkonstruktioner (staggered release: 7-9 juni 2022)
+
+Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
+
+* **7 juni**: Asien-Stillahavsområdet (APAC)
+* **8 juni**: Amerika
+* **9 juni**: Europa, Mellanöstern och Afrika (EMEA)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Användare med [!UICONTROL Editor] kan inte längre redigera målgrupper i aktiva aktiviteter. (TGT-43582)
+* En förbättring av nya [!UICONTROL Audiences] för att förhindra ett inkonsekvent tillstånd mellan den gamla databasen där målgrupperna har lagrats tidigare och den nya arkitekturen som hämtar informationen direkt från serverdelen. (TGT-43552)
+* Korrigerade ett problem som hindrade vissa kunder från att spara kombinerade målgrupper som orsakats av att målgränssnittet skapade tomma behållare. (TGT-43588)
 
 ## Målversion (25 maj 2022)
 
