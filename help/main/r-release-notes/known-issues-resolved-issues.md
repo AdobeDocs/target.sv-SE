@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
+source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
 workflow-type: tm+mt
-source-wordcount: '4444'
+source-wordcount: '4440'
 ht-degree: 0%
 
 ---
@@ -90,15 +90,6 @@ I en MVT-aktivitet är vinnaren som visas i tabellen och diagrammet inte konsekv
 
 Följande är kända problem med at.js:
 
-* Om du använder at.js-versioner före 2.2.0 rapporterar click tracking inte konverteringar i Analytics for Target (A4T) om det inte finns någon Adobe Analytics-kod i sidelement (till exempel knappar). En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen, at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) om du upplever detta problem.
-* Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-programmet ttMeta inte fungerar som det ska.
-
-   Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet. (TNT-33366)
-
-   >[!NOTE]
-   >
-   >En korrigering av problemet fanns i at.js 2.2.0. Uppgradera till [senaste versionen eller at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) eller använd den tillfälliga lösning som nämns ovan endast för tidigare version av at.js än 2.2.0.
-
 * När en sida läses in i Visual Experience Composer (VEC) måste Target avgöra om den globala mbox-inställningen är aktiverad eller inaktiverad och om entityID eller categoryID finns på den plats där användaren försöker tillämpa rekommendationen i VEC. Baserat på denna information filtreras kriterielistan. Standardlistan innehåller filtrerade algoritmer, men [Kryssrutan Kompatibel](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md) I kan du visa den fullständiga algoritmlistan.
 
    När du använder at.js är kryssrutan Kompatibilitet dold, så du kan inte se inkompatibla algoritmer.
@@ -137,6 +128,18 @@ Sanningens källa är alltid den rapport som visas i [!DNL Target] Gränssnitt.
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan har lösts flyttas de till följande avsnitt. Ytterligare anteckningar läggs till, om det behövs.
+
+### at.js
+
+* Om du skapar en upplevelse utan ändringar med at.js 2.1.1 eller tidigare (till exempel en standardupplevelse) kanske inte upplevelsen räknas med i rapporter, analyser för mål (A4T), Adobe Analytics eller Google Analytics. Dessutom kanske plug-in-programmet ttMeta inte fungerar som det ska.
+
+   Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet.
+
+   En korrigering av problemet fanns i at.js 2.2.0. Uppgradera till [senaste versionen eller at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) eller använd den tillfälliga lösning som nämns ovan endast för tidigare version av at.js än 2.2.0.  (TNT-33366)
+
+* Om du använder at.js-versioner före 2.2.0 rapporterar klickspårning inte konverteringar i [!UICONTROL Analytics for Target] (A4T) om [!DNL Adobe Analytics] koden finns inte i sidelement (t.ex. knappar).
+
+   En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen, at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) om du upplever detta problem.
 
 ### Målinriktning för GEO
 
