@@ -4,9 +4,9 @@ description: Lär dig använda Adobe [!DNL Target] QA-URL:er för enkel heltäck
 title: Hur gör jag QA-aktiviteter?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamhe
    | `adobe_mc_sdid` |  |  | Skickar [!DNL Supplemental Data Id] (SDID) och [!DNL Experience Cloud Org Id] från standardsidan till den nya sidan. Om du skickar dessa ID:n tillåts [!UICONTROL Analytics for Target] (A4T) för att&quot;sy ihop&quot; [!DNL Target] begäran på standardsidan med [!DNL Analytics] begäran på den nya sidan. |
 
 * The [!UICONTROL Target QA Mode] Gränssnittet visar bara den första URL:en för en upplevelse i en flersidig aktivitet. Anta att du skapar ett resetest och går från URL1 till URL2. Om du vill gå till URL2 separat kopierar du alla URL-parametrar som finns mot URL1 och använder dem på URL2 efter att du har placerat ett &quot;?&quot; precis som i URL1.
+* Länkar för förhandsgranskning av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Försök med förhandsgranskningslänkarna igen. Arkivera sparade aktiviteter som inte längre används aktivt för att förhindra att problemet fortsätter att inträffa.
 
 ## JavaScript-målbibliotek [!UICONTROL QA Mode] kompatibilitet {#compatibility}
 

@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '4487'
+source-wordcount: '4444'
 ht-degree: 0%
 
 ---
@@ -51,18 +51,6 @@ Ett problem med EEG förhindrar för närvarande att det stöder förfrågningar
 
 Försöker arkivera inaktivt [!UICONTROL Auto-Target] aktiviteter kan leda till synkroniseringsproblem. Arkivera inte förrän problemet är åtgärdat [!UICONTROL Auto-Target] verksamhet. Lämna dem i [!UICONTROL Inactive] tillstånd. (TGT-40885)
 
-### Sidleverans {#page-delivery}
-
-Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) i [sidleverans](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)läggs extra blanksteg till före reglerna. De här extra utrymmena är kosmetiska och påverkar inte målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35920)
-
-### Länkar för QA-förhandsgranskning
-
-Länkar för förhandsgranskning av aktivitet för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Försök med förhandsgranskningslänkarna igen. Arkivera sparade aktiviteter som inte längre används aktivt för att förhindra att problemet fortsätter att inträffa. (TNT-37294)
-
-### QA-läge för Recommendations-aktiviteter
-
-Ett känt fel förhindrar förhandsgranskning om villkoren som används i aktiviteten är artikelbaserade eller kategoribaserade. (TNT-37455)
-
 ### Omdirigeringserbjudanden {#redirect}
 
 * Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) i stället för att utföra förhandsgranskning och kvalitetskontroll. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)
@@ -84,14 +72,6 @@ Ett känt fel förhindrar förhandsgranskning om villkoren som används i aktivi
 ### Recommendations
 
 Följande är kända problem med [!UICONTROL Recommendations] verksamhet:
-
-* Vid kopiering av en [!UICONTROL Recommendation] aktivitet med en aktiv befordran, påverkar alla ändringar i dubblettaktiviteten för närvarande även den ursprungliga aktiviteten, och omvänt. (TGT-39155)
-
-   Som tillfällig lösning:
-
-   * Inaktivera aktivitetskampanjer
-   * Duplicera aktiviteten
-   * Aktivera kampanjer igen i varje aktivitet
 
 * När [!DNL Target] returnerar ett JSON-erbjudande med getOffer(), som returneras med typen JSON. Om du returnerar en JSON Recommendations-design returneras den emellertid med en typ av HTML.
 * Enheterna har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. (IRI-857)
@@ -148,10 +128,6 @@ Alla aktuella Analytics-paket kan lägga till den här modellen med Attribution 
 
 Kunder kan inte utföra CRUD-åtgärder på Automatisk allokering av aktiviteter via v3-versionen av API:t för A/B-aktiviteter på Adobe I/O.
 
-### Målinriktning för GEO
-
-Den 10 maj 2020 uppdaterade Adobe GEO-providerfilerna, som innehöll vissa inkonsekvenser. Vissa värden som innehåller kommatecken lades till. Även om värden i befintliga målgrupper inte hade något kommatecken. Alla Adobe-leveransservrar påverkades inte av den här ändringen. Därför har de målgrupper som använder sådana värden kanske inte kvalificerat alla korrekta besökare mellan 10 maj och 22 juli 2020.
-
 ### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i [!DNL Target] Gränssnitt. {#csv}
 
 Rapporter som genererats för hämtning som CSV-filer är inkonsekventa om aktiviteten använder mer än ett mätvärde. Den hämtningsbara rapporten genereras endast baserat på rapportinställningarna och tar hänsyn till samma värde för andra mätvärden som används.
@@ -160,7 +136,27 @@ Sanningens källa är alltid den rapport som visas i [!DNL Target] Gränssnitt.
 
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Eftersom kända problem ovan har lösts flyttas de till följande avsnitt.Ytterligare anteckningar läggs till om det behövs.
+Eftersom kända problem ovan har lösts flyttas de till följande avsnitt. Ytterligare anteckningar läggs till, om det behövs.
+
+### Målinriktning för GEO
+
+Den 10 maj 2020 uppdaterade Adobe GEO-providerfilerna, som innehöll vissa inkonsekvenser. Vissa värden som innehåller kommatecken lades till. Även om värden i befintliga målgrupper inte hade något kommatecken. Alla Adobe-leveransservrar påverkades inte av den här ändringen. Därför har de målgrupper som använder sådana värden kanske inte kvalificerat alla korrekta besökare mellan 10 maj och 22 juli 2020.
+
+### Kopiera en [!UICONTROL Recommendations] aktivitet
+
+Vid kopiering av en [!UICONTROL Recommendations] aktivitet med en aktiv befordran, påverkar alla ändringar i dubblettaktiviteten för närvarande även den ursprungliga aktiviteten, och omvänt. (TGT-39155)
+
+Problemet har åtgärdats i [!DNL Target Standard/Premium] 21.2.1-versionen.
+
+### QA-läge för Recommendations-aktiviteter
+
+Ett känt fel förhindrar förhandsgranskning om villkoren som används i aktiviteten är artikelbaserade eller kategoribaserade. (TNT-37455)
+
+Problemet korrigerades i januari 2022. (TNT-37455)
+
+### Sidleverans {#page-delivery}
+
+Om du lägger till en mallregel, t.ex. URL:en innehåller (/checkout, /cart) i [sidleverans](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)läggs extra blanksteg till före reglerna. De här extra utrymmena är kosmetiska och påverkar inte målgruppsdefinitionsskapande och leverans av erbjudanden. (TGT-35920)
 
 ### Bild med etiketten &quot;Bearbetar&quot;
 
