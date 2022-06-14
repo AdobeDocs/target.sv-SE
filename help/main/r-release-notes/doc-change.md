@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
-source-wordcount: '4077'
+source-wordcount: '4112'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,18 @@ ht-degree: 0%
 
 Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdokumentation.
 
+## Adobe Target Standard/Premium 22.6.1 (staggered release: 7-9 juni 2022)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 14 juni | [Planera och implementera Recommendations](/help/main/c-recommendations/plan-implement.md) | Uppdaterade kodexempel i följande avsnitt:<ul><li>Vyer/utcheckningssidor för kundvagn</li><li>Uteslut artiklar som redan finns i besökarens kundvagn</li></ul> |
+| 7 juni | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.6.1-utgåvan. |
+
 ## Adobe Target Standard/Premium 22.5.1 (staggerad release; 11-13 maj 2022)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 7 juni | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.6.1-utgåvan. |
-| 6 juni | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation för [!DNL Target Standard/Premium] 22.6.1-utgåvan. |
+| 7 juni | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation för [!DNL Target Standard/Premium] 22.6.1-utgåvan. |
 | 31 maj | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md#webinar-series) | Lagt till information om kommande [!DNL Adobe Target] Community Coffee Break (29 juni 2022) |
 | 25 maj | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target] plattformsversion (25 maj 2022) och version at.js 2.9.0 (27 maj 2022). |
 |  | [versionsinformation för at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ytterligare information om at.js 2.9.0. |
