@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: c9032a8c537a7618b92996c042688a84ea9649c2
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -15,23 +15,17 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 7 juni 2022**
+**Senast uppdaterad: 16 juni 2022**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target Standard/Premium] 22.6.1 (stegvis frisättning: 7-9 juni 2022)
-
-Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
-
-* **7 juni**: Asien-Stillahavsområdet (APAC)
-* **8 juni**: Amerika
-* **9 juni**: Europa, Mellanöstern och Afrika (EMEA)
+## [!DNL Target Standard/Premium] 22.6.2 (24 juni 2022)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Användare med [!UICONTROL Editor] kan inte längre redigera målgrupper i aktiva aktiviteter. (TGT-43582)
-* En förbättring av nya [!UICONTROL Audiences] för att förhindra ett inkonsekvent tillstånd mellan den gamla databasen där målgrupperna har lagrats tidigare och den nya arkitekturen som hämtar informationen direkt från serverdelen. (TGT-43552)
-* Korrigerade ett problem som hindrade vissa kunder från att spara kombinerade målgrupper som orsakats av att målgränssnittet skapade tomma behållare. (TGT-43588)
+* Kundattribut som delas från [!DNL Adobe Experience Platform] till [!DNL Target] i [!DNL Platform] Gränssnittet visas i [!DNL Target] Gränssnitt. (TGT-43150)
+* Ett varningsmeddelande visas om en kund försöker spara en publik med ett utropstecken ( ! ) som första tecken i publikens namn (till exempel !London). (TGT-43643)
+* Korrigerade ett problem som gjorde att vissa kunders definitionskort visade att en avslutad aktivitet fortfarande är aktiv. (TGT-43527)
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
