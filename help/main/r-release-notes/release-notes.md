@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Den här versionen kommer att vara tillgänglig enligt följande uppdelade schem
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Användare med [!UICONTROL Editor] kan inte längre redigera målgrupper i aktiva aktiviteter. (TGT-43582)
 * En förbättring av nya [!UICONTROL Audiences] för att förhindra ett inkonsekvent tillstånd mellan den gamla databasen där målgrupperna har lagrats tidigare och den nya arkitekturen som hämtar informationen direkt från serverdelen. (TGT-43552)
 * Korrigerade ett problem som hindrade vissa kunder från att spara kombinerade målgrupper som orsakats av att målgränssnittet skapade tomma behållare. (TGT-43588)
 
