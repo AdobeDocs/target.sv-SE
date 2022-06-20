@@ -4,7 +4,7 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
+source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
 workflow-type: tm+mt
 source-wordcount: '2387'
 ht-degree: 0%
@@ -245,7 +245,7 @@ Följande objekt och metoder kan refereras av parametrar för skriptprofiler:
 | --- | --- |
 | `page.url` | Aktuell URL. |
 | `page.protocol` | Protokollet som används för sidan (http eller https). |
-| `page.domain` | Den aktuella URL-domänen (allt före det första snedstrecket). Till exempel: `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.domain` | Den aktuella URL-domänen (allt före det första snedstrecket). Till exempel: `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blue&size=small`. |
 | `page.query` | Frågesträngen för den aktuella sidan. Allt efter&quot;?&quot;. Till exempel: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param(‘<par_name>’)` | Värdet på parametern som anges av `<par_name>`. Om din nuvarande URL är Google söksida och du har angett `page.param('hl')`, får du &quot;en&quot; för URL:en `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Samma uppsättning åtgärder som ovan gäller för hänvisaren och landningen (dvs. referrer.url är referentens URL-adress). |
