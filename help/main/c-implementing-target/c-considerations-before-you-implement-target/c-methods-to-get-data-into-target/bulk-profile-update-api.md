@@ -5,9 +5,9 @@ title: Hur får jag in data på [!DNL Target] Använda API:t för uppdatering av
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Det här alternativet liknar kundattribut med några skillnader:
 * Kundattribut använder en FTP-överföring medan API:t för uppdatering av målgruppsprofil använder ett API för HTTP-POST.
 * Data för kundattribut kan delas med Analytics. Det går bara att använda gruppprofilsuppdatering i Target.
 * Kundattribut som stöder att skapa en profil för ett användarmål har ännu inte setts. API:t för uppdatering av gruppprofil uppdaterar bara befintliga målprofiler.
-* Kundattribut kräver att Experience Cloud ID (ECID) används. API:t för uppdatering av gruppprofil kräver antingen TNT-ID eller `mbox3rdPartyId`.
+* Kundattribut kräver att du använder Experience Cloud ID (ECID) och ett käll-ID, som CRM ID eller Lojalty-ID.
+* API:t för uppdatering av gruppprofil kräver antingen TNT-ID eller `mbox3rdPartyId`.
 * Du kan inte skicka följande tecken i `mbox3rdPartyID`: plustecken (+) och snedstreck (/).
 
 ## Format
