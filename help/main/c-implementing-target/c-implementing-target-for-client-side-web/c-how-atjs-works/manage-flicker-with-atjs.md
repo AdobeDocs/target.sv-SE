@@ -5,9 +5,9 @@ title: Hur hanterar At.js Flicker?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## Hantera flimmer i at.js 2.x för triggerView()
 
-När du använder `triggerView()` Om du vill visa riktat innehåll i SPA får du hjälp direkt. Det innebär att fördold logik inte behöver läggas till manuellt. I stället döljer at.js 2.x platsen där din vy måste visas innan målinnehållet används.
+DOM-döljning gäller endast för den inledande sidinläsningen. För SPA uppdateras DOM när `triggerView()` anropas. Det kan finnas en kort flimmer mellan den tidpunkt då SPA återger innehåll till DOM och at.js-uppdateringar [!DNL Target] erbjudanden.  För att minimera flimmer, om du använder `triggerView` Om du vill ändra sidans inläsningsinnehåll måste &#39;triggerView&#39; anropas så snart sidan återges.
 
 ## Hantera flimmer med getOffer() och applyOffer()
 
