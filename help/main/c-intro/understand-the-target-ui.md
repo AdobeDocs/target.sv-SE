@@ -4,9 +4,9 @@ description: Bekanta dig med användargränssnittet och hitta länkar till mer d
 title: Hur jag använder [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,11 @@ Så här redigerar du aviseringsinställningarna:
    * Delas med mig: När någon delar ett objekt med dig.
    * Uppdateringar av innehåll: När någon redigerar, tar bort eller kommenterar ett objekt som du har skapat eller följt.
    * Övrigt:
+
+   >[!NOTE]
+   >
+   >&quot;Nya releaser&quot; och &quot;Uppdateringar av innehåll&quot; är de enda meddelandekategorier som gäller för [!DNL Target]. Övriga kategorier gäller för andra Adobe-lösningar.
+
 
 1. Välj de kategorier som du vill ska ha hög prioritet.
 1. Välj de meddelanden som du vill visa aviseringar för i webbläsaren.
