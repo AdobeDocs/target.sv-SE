@@ -5,9 +5,9 @@ title: Kan jag använda [!DNL Target] med mobilappar?
 feature: Implement Mobile
 role: Developer
 exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Mer information om hur du implementerar Target i mobilappar finns i den nya [Ado
 
 Om du använder SDK 4.x innehåller målprocessen för mobilappen följande steg:
 
-1. [Hur Target fungerar i mobilappar](/help/main/c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-1. [Aktivera mål i SDK](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md)
-1. [Skapa en målplats och ett framgångsmått](/help/main/c-target-mobile-app/mobile-create-location-and-metric.md)
-1. [Skicka anpassade användardata](/help/main/c-target-mobile-app/mobile-custom-user-data.md)
+1. [Hur Target fungerar i mobilappar](https://developer.adobe.com/target/implement/mobile/how-target-works-mobile-apps/)
+1. [Aktivera mål i SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/)
+1. [Skapa en målplats och ett framgångsmått](https://developer.adobe.com/target/implement/mobile/mobile-create-location-and-metric/)
+1. [Skicka anpassade användardata](https://developer.adobe.com/target/implement/mobile/mobile-custom-user-data/)

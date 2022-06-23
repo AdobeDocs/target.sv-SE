@@ -4,9 +4,9 @@ description: Lär dig kombinera olika målgrupper (inklusive Adobe Experience Cl
 title: Kan jag kombinera flera olika målgrupper för att skapa en ny målgrupp?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Kombinera olika målgrupper (inklusive [!DNL Adobe Experience Cloud], [!DNL Adob
 
 >[!NOTE]
 >
->The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller kombineras med befintliga målgrupper, vilket förklaras i detta avsnitt.
+>The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller kombineras med befintliga målgrupper, vilket förklaras i detta avsnitt.
 >
 >Mer information finns i [Använda målgrupper från Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

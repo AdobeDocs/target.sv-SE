@@ -5,9 +5,9 @@ title: Hur anpassar jag en global mbox?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Information som hjälper dig att anpassa en [!DNL Adobe Target] global mbox för
 
 1. Implementera [!DNL at.js] bibliotek på din webbplats.
 
-   Se [Så här distribuerar du at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) för mer information.
+   Se [Så här distribuerar du at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) för mer information.
 
 1. Tid för övergången med din release.
 

@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,12 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Tillagd [Klienttips för användaragent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
+* Tillagd [Klienttips för användaragent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
 * Ett problem som orsakade timeout vid återgivning har korrigerats [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) aktiviteter. (TNT-44611)
 
 ## at.js version 2.9.0 (27 maj 2022)
 
-* Tillagd [Klienttips för användaragent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) support.
+* Tillagd [Klienttips för användaragent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
 * Korrigerade ett fel där flera mbox-förfrågningar på samma sida har olika ID:n för intrycket.
 
 ## Ytterligare versionsinformation
@@ -48,7 +48,7 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 | Resurs | Detaljer |
 |--- |--- |
 | [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
-| [versionsinformation för at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScript-bibliotek. |
+| [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScript-bibliotek. |
 
 ## Dokumentationsändringar, versionsinformation för senaste utgåvan och Experience Cloud
 

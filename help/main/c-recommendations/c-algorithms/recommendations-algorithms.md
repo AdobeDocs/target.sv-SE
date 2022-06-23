@@ -5,9 +5,9 @@ title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algor
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2753'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Det logiska flödet för den faktiska algoritmimplementeringen visas i följande
 
 Här följer information om de här stegen:
 
-* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementera mål](/help/main/c-recommendations/plan-implement.md#pass-behavioral) eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementera mål](https://developer.adobe.com/target/implement/recommendations/) eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modellutbildning**:
 
@@ -80,7 +80,7 @@ Algoritm:
 
 * [!UICONTROL Items with Similar Attributes]
 
-I den här typen av algoritm anses två objekt vara relaterade om deras namn och textbeskrivningar är semantiskt lika. Till skillnad från de flesta rekommendationsalgoritmer där beteendedatakällor måste användas, använder algoritmer för innehållets likhet metadata från produktkataloger för att härleda likheterna mellan objekt. [!DNL Target] kan därför leda till rekommendationer i så kallade&quot;kallstartsscenarier&quot;, där inga beteendedata har samlats in (t.ex. i början av en [!DNL Target] aktivitet).
+I den här typen av algoritm anses två objekt vara relaterade om deras namn och textbeskrivningar är semantiskt lika. Till skillnad från de flesta rekommendationsalgoritmer där beteendedatakällor måste användas, använder algoritmer för innehållets likhet metadata från produktkataloger för att härleda likheterna mellan objekt. [!DNL Target] kan därför leda till rekommendationer i så kallade&quot;kallstart&quot;-scenarier där inga beteendedata har samlats in (till exempel i början av en [!DNL Target] aktivitet).
 
 Även om modellservning och innehållsleverans är [!DNL Target]Likhetsalgoritmer för innehåll är identiska med andra objektbaserade algoritmer. Modellutbildningsstegen är helt olika och omfattar en serie naturliga språkbehandlings- och förbearbetningssteg enligt bilden nedan. Kärnan i likhetsberäkningen är användningen av den koniska likheten hos modifierade tf-idf-vektorer som representerar varje objekt i katalogen.
 
@@ -88,11 +88,11 @@ I den här typen av algoritm anses två objekt vara relaterade om deras namn och
 
 Här följer information om de här stegen:
 
-* **Indata**: Den här algoritmen är som tidigare enbart baserad på katalogdata (hämtas från [!DNL Target] via [Katalogfeed, Entity API eller från siduppdateringar](/help/main/c-recommendations/plan-implement.md#rec-catalog).
+* **Indata**: Den här algoritmen är som tidigare enbart baserad på katalogdata (hämtas från [!DNL Target] via [Katalogfeed, Entity API eller från siduppdateringar](https://developer.adobe.com/target/implement/recommendations/).
 
 * **Modellutbildning**:
 
-   * **Attributextrahering**: Efter användning av vanliga statiska filter, katalogregler och globala undantag extraherar den här algoritmen relevanta textfält från entitetsschemat. [!DNL Target] använder namn-, meddelande- och kategorifälten från entitetsattributen och försöker extrahera alla strängfält från anpassade [entitetsattribut](/help/main/c-recommendations/c-products/entity-attributes.md). Detta görs genom att se till att merparten av värdena för det fältet inte kan tolkas som ett tal, datum eller booleskt värde.
+   * **Attributextrahering**: Efter användning av vanliga statiska filter, katalogregler och globala undantag extraherar den här algoritmen relevanta textfält från entitetsschemat. [!DNL Target] använder namn-, meddelande- och kategorifälten från entitetsattributen och försöker extrahera alla strängfält från anpassade [entitetsattribut](/help/main/c-recommendations/c-products/entity-attributes.md). Detta görs genom att säkerställa att merparten av värdena för fältet inte kan tolkas som ett tal, datum eller booleskt värde.
    * **Ordstam och ordstopp**: För exaktare matchning av textlikhet är det klokt att ta bort mycket vanliga &quot;stopp&quot;-ord som inte ändrar innebörden av ett objekt i någon större utsträckning (t.ex. &quot;var&quot;, &quot;is&quot;, &quot;och&quot; o.s.v.). På samma sätt hänvisar ordstammen till processen att minska ord med olika suffix till deras rotord, som har en identisk betydelse (till exempel &quot;connect&quot;, &quot;connecting&quot; och &quot;connection&quot;), som alla har samma rotord: &quot;connect&quot;). [!DNL Target] använder Snowball-stammen. [!DNL Target] utför automatisk språkidentifiering först, och kan stoppa ordborttagning för upp till 50 språk och härleda för 18 språk.
    * **Skapa n-gram**: Efter föregående steg behandlas varje ord som en token. Att kombinera sekvenser av variabler i en enda token kallas för att skapa n-gram. [!DNL Target]Algoritmer tar upp till 2 gram.
    * **tf-idf-beräkning**: Nästa steg är att skapa tf-idf-vektorer som återspeglar tokens relativa betydelse i objektbeskrivningen. För varje token/term t i ett objekt i, i en katalog D med |D| objekt, termen frekvens TF(t, i) beräknas först (antalet gånger termen visas i objektet i) samt dokumentfrekvensen DF(t, D). Det vill säga antalet objekt där token finns. Tf-idf-måttet är sedan
@@ -126,7 +126,7 @@ Logiken i modellutbildning och poängsättning visas i följande diagram:
 
 Här följer information om de här stegen:
 
-* **Indata**: Detta är identiskt med CF-metoder (item-item collaborative filtering). [!UICONTROL Both Recommended For You] och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlas in när du [implementera mål](/help/main/c-recommendations/plan-implement.md#pass-behavioral) eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Indata**: Detta är identiskt med CF-metoder (item-item collaborative filtering). [!UICONTROL Both Recommended For You] och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlas in när du [implementera mål](https://developer.adobe.com/target/implement/recommendations/) eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modellutbildning**:
 

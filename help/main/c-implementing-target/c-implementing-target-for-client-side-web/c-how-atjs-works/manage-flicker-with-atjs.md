@@ -5,9 +5,9 @@ title: Hur hanterar At.js Flicker?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Flimmer inträffar när standardinnehåll visas för besökare innan det ersätt
 
 ## Använda en automatiskt skapad global mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Om du aktiverar [Skapa global Mbox automatiskt](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) Vid konfigurering av at.js hanterar at.js flimmer genom att ändra opacitetsinställningen när sidan läses in. När at.js läses in ändras opacitetsinställningen för `<body>` -element till&quot;0&quot;, vilket gör sidan osynlig för besökare. När ett svar från Target har tagits emot, eller om ett fel med Target-begäran upptäcks, återställer at opacitet till&quot;1&quot;. Detta garanterar att besökaren bara ser sidan efter att innehållet i dina aktiviteter har tillämpats.
+Om du aktiverar [Skapa global Mbox automatiskt](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) Vid konfigurering av at.js hanterar at.js flimmer genom att ändra opacitetsinställningen när sidan läses in. När at.js läses in ändras opacitetsinställningen för `<body>` -element till&quot;0&quot;, vilket gör sidan osynlig för besökare. När ett svar från Target har tagits emot, eller om ett fel med Target-begäran upptäcks, återställer at opacitet till&quot;1&quot;. Detta garanterar att besökaren bara ser sidan efter att innehållet i dina aktiviteter har tillämpats.
 
 Om du aktiverar inställningen när du konfigurerar at.js anger at.js opaciteten för HTML BODY-formatet till 0. När ett svar från Target har tagits emot, återställer at.js opaciteten för HTML BODY till 1.
 
@@ -38,7 +38,7 @@ Följande bild visar anropet Dölj brödtext och Visa brödtext i båda at.js 1.
 
 ![](assets/target-flow2.png)
 
-Mer information om `bodyHiddenStyle` åsidosätta, se [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Mer information om `bodyHiddenStyle` åsidosätta, se [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Hantera flimmer vid inläsning av at.js asynkront
 

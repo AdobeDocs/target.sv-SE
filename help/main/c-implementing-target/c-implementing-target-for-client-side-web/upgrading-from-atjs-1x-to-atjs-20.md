@@ -5,9 +5,9 @@ title: Hur uppgraderar jag från at.js version 1.x till version 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2807'
+source-wordcount: '2860'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Här är några fördelar med att använda at.js 2.*x* som inte är tillgänglig
 
 ## at.js 2.*x* systemdiagram
 
-Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*x* med Vyer och hur detta förbättrar SPA. För att få en bättre introduktion till de koncept som används i at.js 2.*x*, se [Implementering av Single Page-program](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*x* med Vyer och hur detta förbättrar SPA. För att få en bättre introduktion till de koncept som används i at.js 2.*x*, se [Implementering av Single Page-program](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Målflöde med at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -54,7 +54,7 @@ Nu, var `triggerView()` är implementerat på SPA, hämtas vyer och åtgärder f
 
 ## Driftsätt på js 2.*x* {#deploy-atjs-200}
 
-1. Driftsätt på js 2.*x* via taggar i [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) tillägg.
+1. Driftsätt på js 2.*x* via taggar i [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) tillägg.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Nu, var `triggerView()` är implementerat på SPA, hämtas vyer och åtgärder f
 
    eller
 
-   Ladda ned på.js 2 manuellt.*x* använda målgränssnittet och distribuera det med [valfri metod](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
+   Ladda ned på.js 2 manuellt.*x* använda målgränssnittet och distribuera det med [valfri metod](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/).
 
 ## Borttagna at.js-funktioner
 
@@ -72,7 +72,7 @@ Det finns flera funktioner som har tagits bort i at.js 2.*x*.
 >
 >Om dessa inaktuella funktioner fortfarande används på din webbplats i .js 2.*x* visas konsolvarningar när distribueras. Det rekommenderade tillvägagångssättet vid uppgradering är att testa distributionen av at.js 2.*x* i en staging-miljö och se till att du går igenom varje varning som har loggats i konsolen och översätter de borttagna funktionerna till nya funktioner som introducerades i at.js 2.*x*.
 
-Du hittar de borttagna funktionerna och deras motsvarighet nedan. En fullständig lista över funktioner finns i [Funktionerna at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+Du hittar de borttagna funktionerna och deras motsvarighet nedan. En fullständig lista över funktioner finns i [Funktionerna at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 
 >[!NOTE]
 >at.js 2.*x* inte längre automatiskt fördöljer `mboxDefault` markerade element. Kunderna måste därför anpassa sig till fördöljningslogiken manuellt på webbplatsen eller via en tagghanterare.
@@ -365,10 +365,10 @@ I följande tabeller beskrivs at.js. 2.*x* kompatibilitet med olika aktivitetsty
 | Målgrupper | Ja |
 | Kundattribut | Ja |
 | AEM Experience Fragments | Ja |
-| [!DNL Adobe Experience Platform] extension | [Ja](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] extension | [Ja](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | Felsökning | Ja |
 | Revisor | Regler har ännu inte uppdaterats för kl. 2.js.*x* |
-| Anmäl dig | Nej. Inbyggt stöd för [GDPR](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) stöds i [at.js version 2.1.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| Anmäl dig | Nej. Inbyggt stöd för [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) stöds i [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
 | AEM Förbättrad personalisering med Adobe Target | Nej |
 
 ### Funktioner

@@ -5,9 +5,9 @@ title: Vad ska jag veta innan jag implementerar?
 feature: Implementation
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Det här avsnittet innehåller information för utvecklare som är specifika fö
 >
 >Ändringar av at.js eller [!DNL Adobe Experience Platform Web SDK] stöds inte av Adobe kundtjänst.
 
-- [Förbered implementering av Target](prepare-to-implement-target.md)
-- [Integritet](c-privacy/privacy.md)
-- [Metoder för att hämta data till Target](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Översikt över målsäkerhet](target-security-overview.md)
-- [Webbläsare som stöds](supported-browsers.md)
-- [TLS-krypteringsändringar (Transport Layer Security)](tls-transport-layer-security-encryption.md)
-- [CNAME och Adobe Target](implement-cname-support-in-target.md)
-- [Tillåtelselista: Hörnkantsnoder](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Förbered implementering av Target](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [Integritet](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [Metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+- [Översikt över målsäkerhet](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [Webbläsare som stöds](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [TLS-krypteringsändringar (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME och Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [Tillåtelselista: Hörnkantsnoder](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

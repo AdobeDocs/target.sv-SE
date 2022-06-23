@@ -5,9 +5,9 @@ title: Hur fungerar On-device Decisioning med JavaScript-biblioteket at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3441'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ Adobe Target JS SDK ger kunderna flexibilitet att välja mellan prestanda och ak
 * Målgruppsanpassning
 * Allokeringsmetod
 
-Mer information finns i [Funktioner som stöds för beslut på enheten](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+Mer information finns i [Funktioner som stöds för beslut på enheten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 ## Hur fungerar beslut på enheter?
 
-När du distribuerar och initierar at.js med enhetsspecifik beslutsfattande aktiverat, är en [regelartefakt](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) som innehåller dina enhetsspecifika beslut för A/B- och XT-aktiviteter, målgrupper och resurser hämtas från närmaste Akamai CDN till besökaren och cachas lokalt i besökarens webbläsare. När en begäran görs från at.js för att hämta en upplevelse, bestäms vilken upplevelse som ska returneras i minnet utifrån de metadata som är kodade i den cachelagrade regelartefakten.
+När du distribuerar och initierar at.js med enhetsspecifik beslutsfattande aktiverat, är en [regelartefakt](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) som innehåller dina enhetsspecifika beslut för A/B- och XT-aktiviteter, målgrupper och resurser hämtas från närmaste Akamai CDN till besökaren och cachas lokalt i besökarens webbläsare. När en begäran görs från at.js för att hämta en upplevelse, bestäms vilken upplevelse som ska returneras i minnet utifrån de metadata som är kodade i den cachelagrade regelartefakten.
 
 ## Beslutsmetod
 
@@ -88,7 +88,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 Enhetsbeslut kan leverera upplevelser och personaliseringsaktiviteter blixtsnabbt eftersom besluten fattas utifrån en cache-lagrad regelartefakt som innehåller alla aktiviteter som är kvalificerade för enhetsbeslut.
 
-Mer information om vilka aktiviteter som är kvalificerade för enhetsbeslut finns i [Funktioner som stöds vid beslut på enheten](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+Mer information om vilka aktiviteter som är kvalificerade för enhetsbeslut finns i [Funktioner som stöds vid beslut på enheten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 Den här beslutsmetoden bör endast användas om prestanda är mycket kritiskt för alla sidor som kräver beslut från [!DNL Target]. Tänk dessutom på att när du väljer den här beslutsmetoden ska du [!DNL Target] aktiviteter som inte är kvalificerade för enhetsbeslut kommer inte att levereras eller utföras. At.js-biblioteket 2.5.0+ är konfigurerat att endast söka efter den cachelagrade regelartefakten för att fatta beslut.
 
@@ -222,7 +222,7 @@ Så här aktiverar du enhetsbeslut:
 
    Om du inte aktiverar det här alternativet måste du återskapa och aktivera alla enhetsspecifika beslutsaktiviteter så att de inkluderas i den genererade regelartefakten. Med andra ord, alla aktiviteter i live-läge innan du aktiverar [!UICONTROL On-Device Decisioning] toggle ingår inte i regelartefakten.
 
-När du har aktiverat [!UICONTROL On-Device Decisioning] växla [!DNL Target] börjar generera och sprida [regelartefakter](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) för kunden.
+När du har aktiverat [!UICONTROL On-Device Decisioning] växla [!DNL Target] börjar generera och sprida [regelartefakter](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) för kunden.
 
 >[!IMPORTANT]
 >
@@ -249,7 +249,7 @@ När du har aktiverat [!UICONTROL On-Device Decisioning] växla [!DNL Target] b�
 
 ### Globala inställningar
 
-Du kan konfigurera ett standardvärde [!UICONTROL Decisioning Method] för alla [!DNL Target] beslut. De olika beslutsmetoderna är [!UICONTROL Server-side only], [!UICONTROL On-device only]och [!UICONTROL Hybrid]. Den valda beslutsmetoden i målgränssnittet är konfigurerad i `window.targetGlobalSettings` under `decisioningMethod` fält. Läs mer om `decisioningMethod` in [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Du kan konfigurera ett standardvärde [!UICONTROL Decisioning Method] för alla [!DNL Target] beslut. De olika beslutsmetoderna är [!UICONTROL Server-side only], [!UICONTROL On-device only]och [!UICONTROL Hybrid]. Den valda beslutsmetoden i målgränssnittet är konfigurerad i `window.targetGlobalSettings` under `decisioningMethod` fält. Läs mer om `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ```javascript
 <head> 
@@ -269,7 +269,7 @@ Du kan konfigurera ett standardvärde [!UICONTROL Decisioning Method] för alla 
 
 ### Anpassad inställning
 
-Om du anger `decisioningMethod` in `window.targetGlobalSettings`, men vill åsidosätta `decisioningMethod` för varje Adobe Target-beslut utifrån ditt användningsfall kan du utföra den här proceduren genom att ange `decisioningMethod` in At.js2.5.0+&#39;s [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) ring.
+Om du anger `decisioningMethod` in `window.targetGlobalSettings`, men vill åsidosätta `decisioningMethod` för varje Adobe Target-beslut utifrån ditt användningsfall kan du utföra den här proceduren genom att ange `decisioningMethod` in At.js2.5.0+&#39;s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) ring.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -321,6 +321,6 @@ Du kan filtrera efter alla aktiviteter som är berättigade till enhetsbeslut p�
 
    Den första genereringen av JSON-regelartefakter kan ta upp till 10 minuter.
 
-1. Skapa och aktivera en [aktivitetstyp som stöds av enhetsbeslut](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md), och kontrollera att det är valbart att fatta beslut på enheten.
+1. Skapa och aktivera en [aktivitetstyp som stöds av enhetsbeslut](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/), och kontrollera att det är valbart att fatta beslut på enheten.
 1. Ange **[!UICONTROL Decisioning Method]** till antingen **[!UICONTROL “Hybrid”]** eller **[!UICONTROL “On-device only”]** via användargränssnittet för at.js-inställningarna.
 1. Ladda ned och driftsätt At.js 2.5.0+ på sidorna.

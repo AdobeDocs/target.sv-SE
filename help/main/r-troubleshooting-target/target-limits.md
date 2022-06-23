@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
    Om du använder API:t för gruppleverans är gränsen 50 mbox per batch-begäran.
 
-   Om du använder [API för batchleverans](https://developers.adobetarget.com/api/#server-side-batch-delivery) i Mobile Services SDK är gränsen på 50 mbox-parametrar, 50 profile-parametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
+   Om du använder API:t för gruppleverans i SDK för mobila tjänster är begränsningen 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
 
    &quot;Antalet mboxParameters får inte överskrida 50.&quot;
 

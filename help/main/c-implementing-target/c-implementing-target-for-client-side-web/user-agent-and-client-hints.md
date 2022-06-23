@@ -5,9 +5,9 @@ title: Tips för användaragent och klient
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Informationen i den här artikeln gäller för [at.js version 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (eller senare).
+>Informationen i den här artikeln gäller för [at.js version 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (eller senare).
 
 
 Varje gång en webbläsare skickar en begäran till en server, som ingår i huvudet i begäran, är information om webbläsaren och miljön där webbläsaren körs. Sedan de första dagarna på Internet har dessa data sammanställts i en enda sträng som kallas user-agent.
@@ -205,4 +205,4 @@ Från och med kl.js 2.9.0 kommer klienttips för användaragenten att samlas in 
 
 ### SDK:er på serversidan
 
-Mer information om hur du skickar klienttips via SDK:er på serversidan finns i [Klienttips](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} i *Adobe Target SDKs* dokumentation.
+Mer information om hur du skickar klienttips via SDK:er på serversidan finns i [Klienttips](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} under *Målgruppsanpassning* i *Adobe Target SDKs* dokumentation.

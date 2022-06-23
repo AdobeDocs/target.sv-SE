@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target funktioner
 title: Var kan jag hitta svar på Mina optimerings- och personaliseringsfrågor?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Kolla in [Forum för målgrupper](/help/main/cmp-resources-and-contact-informati
 
 **Vilka webbläsare stöder Target?**
 
-Läs våra [Webbläsare som stöds](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) matris för mer information. Observera att det finns två aspekter: Stöd för gränssnitten Target Standard/Premium Experience Cloud och webbläsarstöd för slutanvändare på datorer/enheter.
+Läs våra [Webbläsare som stöds](https://developer.adobe.com/target/before-implement/supported-browsers/) matris för mer information. Observera att det finns två aspekter: Stöd för gränssnitten Target Standard/Premium Experience Cloud och webbläsarstöd för slutanvändare på datorer/enheter.
 
 ## Verksamhet {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -117,7 +117,7 @@ Använd kraften i [formulärbaserad verksamhet](/help/main/c-experiences/form-ex
 
 **Jag har bildat två aktiviteter. Hur vet jag vilken besökare som kommer att träffa?**
 
-**Kan jag ange prioriteringsordning för några aktiviteter?**
+**Kan jag ange prioritetsordning för några aktiviteter?**
 
 Använd inställningen Prioritet som finns i steg 3 i det guidade arbetsflödet i tre delar (sidan Mål och inställningar) för att [Definiera verksamheternas prioritet.](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
@@ -155,7 +155,7 @@ Använd procentallokeringskontrollerna som är tillgängliga från [Steg 2 i det
 Ta en titt på följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundattribut](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [Kundattribut](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erfarenheter {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ Ta en titt på följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundattribut](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [Kundattribut](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ Vi beklagar att du har problem. Checka ut [Felsökningsmål](/help/main/r-troubl
 
 **Vi har en mobil SKU. Kan jag skapa mobilaktiviteter?**
 
-För optimering och personalisering på mobilen måste ni använda [formulärbaserad verksamhet](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) tillsammans med [Adobe SDK](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Läs mer om [Mål för mobilappar](/help/main/c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
+För optimering och personalisering på mobilen måste ni använda [formulärbaserad verksamhet](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) tillsammans med [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Läs mer om [Mål för mobilappar](https://developer.adobe.com/target/implement/mobile/).
 
 ## Mål-API:er {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Var kan jag läsa mer om Target API:er?**
 
-Vi har utförlig dokumentation om API:er. Se [Dokumentation för leverans-API:er, NodeJS SDK och Recommendations API:er](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Vi har utförlig dokumentation om API:er. Se [Dokumentation för leverans-API:er, NodeJS SDK och Recommendations API:er](https://developer.adobe.com/target/implement/server-side/).

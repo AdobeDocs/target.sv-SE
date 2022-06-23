@@ -5,9 +5,9 @@ title: Hur använder jag funktionen adobe.target.applyOffers()?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Med den här funktionen kan du tillämpa mer än ett erbjudande som har hämtats
 
 >[!NOTE]
 >
->Läs [Dokumentation för leverans-API](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) för information om godkända typer för alla fält som listas nedan.
+>Läs [Dokumentation för leverans-API](https://developer.adobe.com/target/before-administer/) för information om godkända typer för alla fält som listas nedan.
 
 | Fältnamn | Beskrivning |
 | --- | --- |

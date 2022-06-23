@@ -5,9 +5,9 @@ title: Hur skickar jag parametrar till en global mbox?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Koden som anropar JavaScript-funktionen måste komma före den globala mbox på 
 
 >[!NOTE]
 >
->Om du vill lägga till parametrar i alla kryssrutor på sidan, inte bara i den globala rutan, använder du [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) funktion.
+>Om du vill lägga till parametrar i alla kryssrutor på sidan, inte bara i den globala rutan, använder du [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/) funktion.
 
 Du kan skicka in parametrar till `target-global-mbox` med `targetPageParams()` på något av följande sätt:
 

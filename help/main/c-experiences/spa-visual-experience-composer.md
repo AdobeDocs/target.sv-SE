@@ -4,9 +4,9 @@ description: Lär dig använda SPA VEC i Adobe [!DNL Target] att skapa tester oc
 title: Hur använder jag Visual Experience Composer (SPA VEC) för en sida?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3654'
+source-wordcount: '3676'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    ![Dialogrutan Implementeringsinformation](/help/main/c-experiences/assets/imp-200.png)
 
-   Ladda ned at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via taggar i [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
+   Ladda ned at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via taggar i [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
 
-1. Implementera funktionen at.js 2.x: [triggerView()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) på era webbplatser.
+1. Implementera funktionen at.js 2.x: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) på era webbplatser.
 
    När du har definierat vyer för SPA där du vill köra ett A/B- eller XT-test implementerar du at.js 2.x-tester `triggerView()` med de vyer som skickats in som en parameter. Detta gör att marknadsförarna kan använda VEC för att utforma och köra A/B- och XT-tester för de vyer som definierats. Om `triggerView()` funktionen är inte definierad för dessa vyer, VEC identifierar inte vyer och marknadsförarna kan därför inte använda VEC för att utforma och köra A/B- och XT-tester.
 
@@ -354,7 +354,7 @@ Om du vill använda A/B-aktiviteter som mål automatiskt kan du flytta alla åtg
 | --- | --- |
 | [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
 | [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
-| [Kundattribut](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ja |
+| [Kundattribut](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | Ja |
 | [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Funktioner som stöds {#supported-features}

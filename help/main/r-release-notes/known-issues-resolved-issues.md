@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '4440'
+source-wordcount: '4454'
 ht-degree: 0%
 
 ---
@@ -135,11 +135,11 @@ Eftersom kända problem ovan har lösts flyttas de till följande avsnitt. Ytter
 
    Du kan lösa det genom att använda ett mellanrum i upplevelseinnehållet.
 
-   En korrigering av problemet fanns i at.js 2.2.0. Uppgradera till [senaste versionen eller at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) eller använd den tillfälliga lösning som nämns ovan endast för tidigare version av at.js än 2.2.0.  (TNT-33366)
+   En korrigering av problemet fanns i at.js 2.2.0. Uppgradera till [senaste versionen eller at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) eller använd den tillfälliga lösning som nämns ovan endast för tidigare version av at.js än 2.2.0.  (TNT-33366)
 
 * Om du använder at.js-versioner före 2.2.0 rapporterar klickspårning inte konverteringar i [!UICONTROL Analytics for Target] (A4T) om [!DNL Adobe Analytics] koden finns inte i sidelement (t.ex. knappar).
 
-   En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen, at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) om du upplever detta problem.
+   En korrigering av problemet introducerades i kl. 2.2.0. [Uppgradera till den senaste versionen, at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) om du upplever detta problem.
 
 ### Målinriktning för GEO
 

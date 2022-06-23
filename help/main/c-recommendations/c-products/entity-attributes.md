@@ -4,9 +4,9 @@ description: Lär dig hur du använder entitetsattribut för att skicka produkt-
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ I allmänhet ser visningsinformationsrutan ut som i följande exempel om du anv�
 
 >[!NOTE]
 >
->Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använda [targetPageParams](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ett exempel finns i [Planera och implementera Recommendations](/help/main/c-recommendations/plan-implement.md).
+>Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använda [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/). Ett exempel finns i [Planera och implementera Recommendations](https://developer.adobe.com/target/implement/recommendations/).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

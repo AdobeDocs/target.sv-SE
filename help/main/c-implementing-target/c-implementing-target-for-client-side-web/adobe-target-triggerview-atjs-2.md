@@ -5,16 +5,16 @@ title: Hur använder jag funktionen adobe.target.triggerView()?
 feature: at.js
 role: Developer
 exl-id: 619d5166-d1d9-49a6-9807-338544782e66
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
-Den här funktionen kan anropas när en ny sida läses in eller när en komponent på en sida återges på nytt. `adobe.target.triggerView()` ska implementeras för applikationer för en sida (SPA) för att kunna använda Visual Experience Composer (VEC) för att skapa A/B-tester och XT-aktiviteter (Experience Targeting). If `adobe.target.triggerView()` har inte implementerats på platsen, VEC kan inte användas för SPA. Mer information finns i [Implementering av Single Page-program](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Den här funktionen kan anropas när en ny sida läses in eller när en komponent på en sida återges på nytt. `adobe.target.triggerView()` ska implementeras för applikationer för en sida (SPA) för att kunna använda Visual Experience Composer (VEC) för att skapa A/B-tester och XT-aktiviteter (Experience Targeting). If `adobe.target.triggerView()` har inte implementerats på platsen, VEC kan inte användas för SPA. Mer information finns i [Implementering av Single Page-program](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 >[!NOTE]
 >

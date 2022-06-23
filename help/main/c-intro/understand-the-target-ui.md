@@ -4,9 +4,9 @@ description: Bekanta dig med användargränssnittet och hitta länkar till mer d
 title: Hur jag använder [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,9 @@ Följande avsnitt innehåller information om varje flik och hur du konfigurerar 
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-Du kan markera alla meddelanden som lästa eller visa alla meddelanden längst ned på panelen.
+Du kan markera enskilda meddelanden som lästa genom att hålla muspekaren över meddelandet och sedan klicka på bockmarkeringen. Du kan markera alla meddelanden som lästa eller visa alla meddelanden genom att klicka på [!UICONTROL "Mark as Read"] eller [!UICONTROL "View All"] längst ned på panelen.
+
+Du kan också ange att en påminnelse ska meddelas igen genom att hålla muspekaren över ett meddelande och klicka på[!UICONTROL Remind me]&quot;, och sedan välja när du vill bli meddelad: 5 minuter, 15 minuter, en timme eller imorgon.
 
 ### Meddelanden
 

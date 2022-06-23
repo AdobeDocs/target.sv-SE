@@ -5,9 +5,9 @@ title: Vilka funktioner som stöds i Enhetsbeslut
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Tabellen nedan visar vilka målgruppsregler som stöds eller inte stöds för en
 
 ### Målinriktning för geolokalisering för beslut på enheter
 
-Adobe rekommenderar att du anger geovärdena själv i anropet till [getOffers](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md). Ange Geo-objektet i sammanhanget för begäran. Det innebär att webbläsaren ska avgöra var besökarna befinner sig. Du kan till exempel utföra en IP-till-Geo-sökning med en tjänst som du konfigurerar. Vissa värdtjänstleverantörer, som Google Cloud, tillhandahåller den här funktionen via anpassade rubriker i varje `HttpServletRequest`.
+Adobe rekommenderar att du anger geovärdena själv i anropet till [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Ange Geo-objektet i sammanhanget för begäran. Det innebär att webbläsaren ska avgöra var besökarna befinner sig. Du kan till exempel utföra en IP-till-Geo-sökning med en tjänst som du konfigurerar. Vissa värdtjänstleverantörer, som Google Cloud, tillhandahåller den här funktionen via anpassade rubriker i varje `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-Om du inte kan utföra IP-till-Geo-sökningar på servern, men ändå vill utföra enhetsbeslut för [getOffers](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) -förfrågningar som innehåller geobaserade målgrupper stöds också. Nackdelen med detta är att det använder en IP-till-Geo-sökning på fjärrbasis, vilket ger fördröjning för varje `getOffers` ring. Denna fördröjning bör vara lägre än en `getOffers` anropa med serversidesbeslut eftersom det träffar ett CDN som ligger nära servern. Ange endast fältet&quot;ipAddress&quot; i Geo-objektet i kontexten för din begäran om att SDK ska hämta geoplatsen för din besökares IP-adress. Om något annat fält förutom&quot;ipAddress&quot; anges, visas [!DNL Target] SDK hämtar inte metadata för geopositionering för upplösning.
+Om du inte kan utföra IP-till-Geo-sökningar på servern, men ändå vill utföra enhetsbeslut för [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) -förfrågningar som innehåller geobaserade målgrupper stöds också. Nackdelen med detta är att det använder en IP-till-Geo-sökning på fjärrbasis, vilket ger fördröjning för varje `getOffers` ring. Denna fördröjning bör vara lägre än en `getOffers` anropa med serversidesbeslut eftersom det träffar ett CDN som ligger nära servern. Ange endast fältet&quot;ipAddress&quot; i Geo-objektet i kontexten för din begäran om att SDK ska hämta geoplatsen för din besökares IP-adress. Om något annat fält förutom&quot;ipAddress&quot; anges, visas [!DNL Target] SDK hämtar inte metadata för geopositionering för upplösning.
 
 ```javascript
 window.adobe.target.getOffers({ 

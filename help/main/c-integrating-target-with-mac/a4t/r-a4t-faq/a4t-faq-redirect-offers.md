@@ -4,9 +4,9 @@ description: Hitta svar på frågor om att använda omdirigeringserbjudanden nä
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Tänk på följande:
 
 ## Varför räknas ibland sidvisningar på originalsidan och på omdirigeringssidan? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-När du använder at.js version 1.6.3 eller senare är det inte något problem att räkna sidvisningar på båda sidorna. Detta konkurrensvillkor påverkar endast kunder som använder tidigare versioner. Target-teamet har två versioner av at.js: den aktuella versionen och den senaste versionen. Uppgradera vid behov at.js för att säkerställa att du kör en [version som stöds](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+När du använder at.js version 1.6.3 eller senare är det inte något problem att räkna sidvisningar på båda sidorna. Detta konkurrensvillkor påverkar endast kunder som använder tidigare versioner. Target-teamet har två versioner av at.js: den aktuella versionen och den senaste versionen. Uppgradera vid behov at.js för att säkerställa att du kör en [version som stöds](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 Om du använder en tidigare version av at.js som inte stöds finns det en risk för att ett konkurrensvillkor kan uppstå som kan få Analytics-anropet att utlösas innan omdirigeringen körs på den första sidan. Detta kan leda till att sidvisningar på den ursprungliga sidan och på omdirigeringssidan räknas. Detta resulterar i en extra sidvy på den första sidan, där besökaren aldrig riktigt &quot;såg&quot; den första sidan.
 

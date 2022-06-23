@@ -5,9 +5,9 @@ title: Vad är en global mbox?
 feature: at.js
 role: Developer
 exl-id: 84d15feb-f5df-4879-ae35-a7f455c1b20f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ Det finns flera skillnader mellan en vanlig mbox (icke-global mbox) och den glob
 
 Om flera aktiviteter levereras via den globala mbox eller via flera vanliga mbox-meddelanden, [!DNL Target] [bestämmer prioriteten](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) genom vilken aktiviteten (eller aktiviteterna) levereras till en webbsida.
 
-Ytterligare data på sidnivå kan skickas till [!DNL Target] tillsammans med den globala mboxen med `targetPageParams` funktion. Detta liknar mbox-parameterfunktionen. Mer information finns i [Skicka parametrar till en global mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Ytterligare data på sidnivå kan skickas till [!DNL Target] tillsammans med den globala mboxen med `targetPageParams` funktion. Detta liknar mbox-parameterfunktionen. Mer information finns i [Skicka parametrar till en global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).

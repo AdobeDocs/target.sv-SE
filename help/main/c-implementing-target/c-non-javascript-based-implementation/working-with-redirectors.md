@@ -5,9 +5,9 @@ title: Hur arbetar jag med Redirectors?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Använd omdirigeraren för att göra följande:
 
 * Hitta den landningssida som leder till flest konverteringar
 
-Information om hur du bestämmer rätt inställningar finns i [Icke-JavaScript-baserade implementeringar](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Information om hur du bestämmer rätt inställningar finns i [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/).
 
 ## Skapa en omdirigerare {#redirector}
 
@@ -66,7 +66,7 @@ Innan du kan använda en omdirigering måste du skapa den.
 1. Om du vill testa olika destinationer för en annons skapar du [Omdirigeringserbjudanden](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
 1. Skapa kampanjen.
 
-   Se [Icke-JavaScript-baserade implementeringar](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) för att få rätt inställningar för att nå era mål.
+   Se [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/) för att få rätt inställningar för att nå era mål.
 1. Fullständig kvalitetskontroll av kampanjen.
 
    Skapa en dummy-sida med en `<a href>` som innehåller URL:en för omdirigeraren. Exempel:

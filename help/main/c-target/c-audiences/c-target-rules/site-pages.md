@@ -4,9 +4,9 @@ description: Lär dig målinrikta besökare med [!DNL Adobe Target] som finns p�
 title: Kan jag rikta in besökarna baserat på webbplatssidor?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Använd en:
 
    Om det här beteendet inte matchar dina krav kan du utföra någon av följande åtgärder:
 
-   * Pass [mbox-parametrar](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) till [!DNL Target] som ska användas för målinriktningsändamål.
+   * Pass [mbox-parametrar](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) till [!DNL Target] som ska användas för målinriktningsändamål.
    * Använd en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md) i stället för en landningssidesaktivitet. A/B-testaktiviteter byter inte upplevelser för samma besökare.
    * Använd en [besökarprofil](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) i stället.
 

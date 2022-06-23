@@ -4,9 +4,9 @@ description: Lär dig använda [!UICONTROL Important Attributes] som visar de vi
 title: Vilken är den viktiga attributrapporten?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Det finns flera skäl till att [!UICONTROL Personalization Insights] rapporter k
 
 Ett attribut är information om en besökare eller hans eller hennes specifika besök som används av personaliseringsalgoritmerna för att lära sig att personalisera trafik. Ett attribut kan till exempel vara webbläsartyp, plats, tidpunkt på besöksdagen och så vidare.
 
-Mer information om vilka attribut [!DNL Target] i sina personaliseringsmodeller, se [Datainsamling för målets personaliseringsalgoritmer](/help/main/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target personaliseringsmodeller finns i [Metoder för att hämta data till Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Mer information om vilka attribut [!DNL Target] i sina personaliseringsmodeller, se [Datainsamling för målets personaliseringsalgoritmer](/help/main/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target personaliseringsmodeller finns i [Metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).
 
 **Finns informationen i [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporterar samma som i CSV-nedladdningen?**
 

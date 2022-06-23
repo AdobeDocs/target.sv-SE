@@ -5,9 +5,9 @@ title: Hur får jag in data i Target?
 feature: Implementation
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Tillgängliga metoder:
 
 | Metod | Detaljer |
 | --- | --- |
-| [Sidparametrar](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>(Kallas även&quot;mbox parameters&quot;) | Sidparametrar är namn/värde-par som skickas direkt via sidkod och som inte lagras i besökarens profil för framtida bruk.<br>Sidparametrar är användbara när du vill skicka siddata till Target som inte behöver lagras med besökarens profil för framtida målinriktning. Dessa värden används i stället för att beskriva sidan eller den åtgärd som användaren utförde på den specifika sidan. |
-| [Profilattribut på sidan](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>(kallas även&quot;in-mbox profile attributes&quot;) | Profilattribut på sidan är namn/värde-par som skickas direkt via sidkoden och som lagras i besökarens profil för framtida bruk.<br>Med profilattribut på sidan kan användarspecifika data lagras i Target-profilen för senare målinriktning och segmentering. |
-| [Skriptprofilattribut](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | Skriptprofilattribut är namn/värde-par som definieras i Target-lösningen. Värdet avgörs av om ett JavaScript-fragment körs på målservern per serveranrop.<br>Användare skriver små kodfragment som körs per mbox-anrop och innan en besökare utvärderas för målgrupps- och aktivitetsmedlemskap. |
-| [Dataleverantörer](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | Med dataleverantörer kan ni enkelt skicka data från tredje part till Target. |
-| [API för gruppprofilsuppdatering](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md) | Via API skickar du en CSV-fil till Target med uppdateringar av besökarprofilen för många besökare. Varje besökarprofil kan uppdateras med flera profilattribut på sidan i ett anrop. |
-| [API för enkel profiluppdatering](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md) | Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil. |
-| [Kundattribut](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md) | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. |
+| [Sidparametrar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/page-parameters/)<br>(Kallas även&quot;mbox parameters&quot;) | Sidparametrar är namn/värde-par som skickas direkt via sidkod och som inte lagras i besökarens profil för framtida bruk.<br>Sidparametrar är användbara när du vill skicka siddata till Target som inte behöver lagras med besökarens profil för framtida målinriktning. Dessa värden används i stället för att beskriva sidan eller den åtgärd som användaren utförde på den specifika sidan. |
+| [Profilattribut på sidan](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/in-page-profile-attributes/)<br>(kallas även&quot;in-mbox profile attributes&quot;) | Profilattribut på sidan är namn/värde-par som skickas direkt via sidkoden och som lagras i besökarens profil för framtida bruk.<br>Med profilattribut på sidan kan användarspecifika data lagras i Target-profilen för senare målinriktning och segmentering. |
+| [Skriptprofilattribut](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/script-profile-attributes/) | Skriptprofilattribut är namn/värde-par som definieras i Target-lösningen. Värdet avgörs av om ett JavaScript-fragment körs på målservern per serveranrop.<br>Användare skriver små kodfragment som körs per mbox-anrop och innan en besökare utvärderas för målgrupps- och aktivitetsmedlemskap. |
+| [Dataleverantörer](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/data-providers/) | Med dataleverantörer kan ni enkelt skicka data från tredje part till Target. |
+| [API för gruppprofilsuppdatering](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/bulk-profile-update-api/) | Via API skickar du en CSV-fil till Target med uppdateringar av besökarprofilen för många besökare. Varje besökarprofil kan uppdateras med flera profilattribut på sidan i ett anrop. |
+| [API för enkel profiluppdatering](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/single-profile-update-api/) | Nästan identiskt med API:t för uppdatering av gruppprofil, men en besökarprofil uppdateras åt gången, i enlighet med API-anropet i stället för med en CSV-fil. |
+| [Kundattribut](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. |
 
 
 

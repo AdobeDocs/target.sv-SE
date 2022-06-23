@@ -4,9 +4,9 @@ description: Hitta förslag på hjälp med att åtgärda problem om sidan inte v
 title: Hur felsöker jag innehållsleverans?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur T
 
 Mer information finns i utbildningsvideorna nedan:
 
-Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud Debugger](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/).
 
 ## De största säljarna visas inte i Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target har inte längre stöd för IE 8.
 
 ## Målcookie har inte angetts {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Om din webbplats har en underdomän, som [!DNL us.domain.com], men du måste ha Target-cookien inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]) måste du åsidosätta `cookieDomain` inställning. Mer information finns i [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Om din webbplats har en underdomän, som [!DNL us.domain.com], men du måste ha Target-cookien inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]) måste du åsidosätta `cookieDomain` inställning. Mer information finns i [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Målinnehållet flimrar eller visas inte om ett element också ingår i Adobe Experience Manager personalisering. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

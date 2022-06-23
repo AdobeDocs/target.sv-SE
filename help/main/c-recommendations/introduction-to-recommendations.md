@@ -4,9 +4,9 @@ description: Läs om Recommendations aktiviteter i Adobe [!DNL Target] som autom
 title: Vad är Recommendations aktiviteter?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Därefter bör du lägga till taggar eller utnyttja befintliga [!DNL Analytics] 
 
 Du måste se till att [!DNL Target] är medveten om vilka objekt dina användare visar och köper. Om inköpen inte är relevanta för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av ett PDF, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
 
-Om du redan använder [!DNL Target] Om du vill köra A/B-tester på din webbplats kanske du redan har slutfört det här steget. Eller om du redan använder [!DNL Adobe Analytics] om du vill rapportera om webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Du kan också skicka interaktioner offline eller i appen till [!DNL Target] via API i realtid.
+Om du redan använder [!DNL Target] Om du vill köra A/B-tester på din webbplats kanske du redan har slutfört det här steget. Eller om du redan använder [!DNL Adobe Analytics] om du vill rapportera om webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Du kan också skicka interaktioner offline eller i appen till [!DNL Target] via API i realtid.
 
 ### Få rekommendationer i rätt sammanhang
 

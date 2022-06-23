@@ -5,9 +5,9 @@ title: Hur fungerar biblioteket at.js Javascript?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1134'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ I en implementering på klientsidan av [!DNL Adobe Target], [!DNL Target] levere
 
 ## Vad är at.js?
 
-at.js-biblioteket är det nya implementeringsbiblioteket för Target. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js är det rekommenderade implementeringsbiblioteket och uppdateras ofta med nya funktioner. Vi rekommenderar att alla kunder implementerar eller migrerar till [senaste versionen av at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+at.js-biblioteket är det nya implementeringsbiblioteket för Target. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js är det rekommenderade implementeringsbiblioteket och uppdateras ofta med nya funktioner. Vi rekommenderar att alla kunder implementerar eller migrerar till [senaste versionen av at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 Mer information finns i [Mål-JavaScript-bibliotek](/help/main/c-intro/how-target-works.md#libraries).
 
@@ -28,7 +28,7 @@ I [!DNL Target] implementering som visas nedan, följande [!DNL Adobe Experience
 
 ## Vad är skillnaden mellan at.js 1?*x* och arbetsflödesdiagram i at.js 2.x?
 
-Se [Uppgradera från at.js 1.x till at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) för mer information om skillnaderna som introducerades i 2.O från 1.*x*.
+Se [Uppgradera från at.js 1.x till at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) för mer information om skillnaderna som introducerades i 2.O från 1.*x*.
 
 Från en högnivåvy finns det några skillnader mellan de två versionerna:
 
@@ -37,7 +37,7 @@ Från en högnivåvy finns det några skillnader mellan de två versionerna:
 
 ## at.js 2.x-diagram
 
-Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vyer och hur detta förbättrar SPA integrering. Om du vill få en bättre introduktion till de koncept som används i at.js 2.x kan du läsa [Implementering av Single Page-program](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vyer och hur detta förbättrar SPA integrering. Om du vill få en bättre introduktion till de koncept som används i at.js 2.x kan du läsa [Implementering av Single Page-program](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Målflöde med at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -52,7 +52,7 @@ Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vye
 | 7 | Analysdata skickas till datainsamlingsservrar. |
 | 8 | Målinriktade data matchas mot analysdata via SDID och bearbetas till lagringsplatsen för analysrapporter.<br>Analysdata kan sedan visas i både Analytics- och Target-rapporter via Analytics for Target-rapporter (A4T). |
 
-Nu, var `triggerView()` är implementerat på SPA, hämtas vyer och åtgärder från cachen och visas för användaren utan ett serveranrop. `triggerView()` skickar även en meddelandebegäran till [!DNL Target] för att öka och registrera antalet intryckta. Mer information om at.js för SPA med vyer finns i [Implementering av Single Page-program](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Nu, var `triggerView()` är implementerat på SPA, hämtas vyer och åtgärder från cachen och visas för användaren utan ett serveranrop. `triggerView()` skickar även en meddelandebegäran till [!DNL Target] för att öka och registrera antalet intryckta. Mer information om at.js för SPA med vyer finns i [Implementering av Single Page-program](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Målflöde at.js 2.x triggerView](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 

@@ -4,9 +4,9 @@ description: Granska en lista med ämnen som kan hjälpa dig att lösa problem i
 title: Hur felsöker jag Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 
 ## Global mbox
 
-* [Global mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [Global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ## Värdar/miljöer
 
@@ -110,18 +110,18 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ### Allmän implementering
 
-* [Webbläsare som stöds](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-* [Använda molnbaserade instanser med Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+* [Webbläsare som stöds](https://developer.adobe.com/target/before-implement/supported-browsers/)
+* [Använda molnbaserade instanser med Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
 
 ### Globala mboxes
 
-* [Vanliga frågor om global mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [Vanliga frågor om global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ### at.js
 
-* [at.js Frågor och svar](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [Felsöka at.js med Adobe Experience Cloud Debugger](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [versionsinformation för at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* [at.js Frågor och svar](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
+* [Felsöka at.js med Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
+* [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam.
 
 ## Kända fel
@@ -130,11 +130,7 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ## Mobilappar
 
-* [Mål för mobilappar - frågor och svar](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-
-## Enhetsbeslut
-
-* [Felsökning av enhetsbeslut för at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [Mål för mobilappar - frågor och svar](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
 
 ## Rapportering
 
@@ -143,11 +139,11 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ## Sökmotoroptimering (SEO)
 
-* [SEO-testning (Search Engine Optimization)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [SEO-testning (Search Engine Optimization)](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
 ## Säkerhet
 
-* [CSP-direktiv (Content Security Policy)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+* [CSP-direktiv (Content Security Policy)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
 
 ## Systemstatus
 

@@ -4,9 +4,9 @@ description: Lär dig hur du använder samlingar i Adobe [!DNL Target] Recommend
 title: Hur använder jag samlingar i Recommendations?
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
    ![Hovringsikoner: redigera, kopiera och ta bort](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Antal objekt som rapporteras för varje samling på [!UICONTROL Collections] listvyn är antalet produkter som matchar reglerna för den samlingen inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om du vill ändra standardvärdgruppen.
+   Antal objekt som rapporteras för varje samling på [!UICONTROL Collections] listvyn är antalet produkter som matchar reglerna för den samlingen inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://developer.adobe.com/target/implement/recommendations/) om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 

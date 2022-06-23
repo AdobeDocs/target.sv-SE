@@ -5,9 +5,9 @@ title: Vad är vanliga frågor och svar om at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2565'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Om du distribuerar at.js via en asynkron [!DNL Adobe Experience Platform] implem
 
 Om du distribuerar at.js via en synkron DTM-implementering kan det fördolda fragmentet läggas till via en sidinläsningsregel som aktiveras högst upp på sidan.
 
-Mer information finns i [Hur at.js hanterar flimmer](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
+Mer information finns i [Hur at.js hanterar flimmer](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
 
 ## Är at.js kompatibel med [!DNL Adobe Experience Manager] integrering (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ Mer information finns i [Hur at.js hanterar flimmer](/help/main/c-implementing-t
 
 ## Hur förhindrar jag sidinläsningsflimmer med at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-I Target finns flera sätt att förhindra sidinläsningsflimmer. Mer information finns i [Förhindra flimmer med at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
+I Target finns flera sätt att förhindra sidinläsningsflimmer. Mer information finns i [Förhindra flimmer med at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
 
 ## Vilken är filstorleken för at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ Ja, precis som med mbox.js.
 
 [!DNL Target] kunder använder ibland molnbaserade instanser med [!DNL Target] för testning eller enkla konceptbevis. Dessa domäner, och många andra, ingår i [Lista över offentliga suffix](https://publicsuffix.org/list/public_suffix_list.dat).
 
-I moderna webbläsare sparas inte cookies om du använder dessa domäner om du inte anpassar `cookieDomain` ange med targetGlobalSettings(). Mer information finns i [Använda molnbaserade instanser med mål](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md).
+I moderna webbläsare sparas inte cookies om du använder dessa domäner om du inte anpassar `cookieDomain` ange med targetGlobalSettings(). Mer information finns i [Använda molnbaserade instanser med mål](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/).
 
 ## Kan IP-adresser användas som cookie-domän när du använder at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Ja, om du använder [at.js version 1.2 eller senare](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). [!DNL Adobe] Vi rekommenderar dock att du håller dig uppdaterad med den senaste versionen.
+Ja, om du använder [at.js version 1.2 eller senare](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). [!DNL Adobe] Vi rekommenderar dock att du håller dig uppdaterad med den senaste versionen.
 
 >[!NOTE]
 >
 >Följande exempel är inte nödvändiga om du använder at.js version 1.2 eller senare.
 
-Beroende på hur du använder [targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)kan du behöva göra ytterligare ändringar i koden efter att ha laddat ned at.js. Om du t.ex. behövde lite olika inställningar för [!DNL Target] implementeringar på olika webbplatser och det gick inte att definiera dessa inställningar dynamiskt med anpassat JavaScript, gör anpassningarna manuellt efter att filen har laddats ned och innan den överförs till respektive webbplats.
+Beroende på hur du använder [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)kan du behöva göra ytterligare ändringar i koden efter att ha laddat ned at.js. Om du t.ex. behövde lite olika inställningar för [!DNL Target] implementeringar på olika webbplatser och det gick inte att definiera dessa inställningar dynamiskt med anpassat JavaScript, gör anpassningarna manuellt efter att filen har laddats ned och innan den överförs till respektive webbplats.
 
 I följande exempel kan du använda `targetGlobalSettings()` funktionen at.js för att infoga ett kodfragment som stöder IP-adresser:
 
@@ -202,10 +202,10 @@ Följande är möjliga rotorsaker om du ser det här varningsmeddelandet:
 * Sidan byggs dynamiskt och at.js kan inte hitta elementet.
 * Sidan byggs långsamt (på grund av ett långsamt nätverk) och at.js kan inte hitta väljaren i DOM.
 * Sidstrukturen som är aktiv[!UICONTROL y is running on has been changed. If you reopen the activity in the ]VEC (Visual Experience Composer) bör du få ett varningsmeddelande. Uppdatera aktiviteten så att alla nödvändiga element kan hittas.
-* Den underliggande sidan är en del av en [!UICONTROL Single Page Application] (SPA) eller sidan innehåller element som visas längre ned på sidan och på sidan [!DNL at.js] &quot;väljaravsökningsmekanism&quot; kan inte hitta dessa element. Öka `selectorsPollingTimeout` kanske kan hjälpa. Mer information finns i [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+* Den underliggande sidan är en del av en [!UICONTROL Single Page Application] (SPA) eller sidan innehåller element som visas längre ned på sidan och på sidan [!DNL at.js] &quot;väljaravsökningsmekanism&quot; kan inte hitta dessa element. Öka `selectorsPollingTimeout` kanske kan hjälpa. Mer information finns i [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 * Alla klickspårningsmått försöker lägga till sig själv på varje sida, oavsett vilken URL som måttet har ställts in på. Även om det är ofarligt visas många av dessa meddelanden.
 
-   Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns i [at.js Versionsinformation](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) och [Ladda ned på.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
+   Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) och [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 ## Vad är domänen tt.omtrdc.net som [!DNL Target] går serversamtal till? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ Se till att [!DNL Target] kan spåra användare och eftersom cookies genereras p
 
 ## I det bästa fallet, kan vi förvänta oss att användaren inte upplever några synliga effekter på sidinläsningen som relaterar till att dölja, ersätta och visa innehåll? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js försöker undvika att HTML BODY eller andra DOM-element döljs i förväg under en längre period, men detta beror på nätverksvillkoren och aktivitetsinställningarna. at.js innehåller [inställningar](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) du kan använda för att anpassa CSS-formatet BODY för att dölja, så att du bara kan dölja vissa delar av HTML BODY i förväg i stället för att dölja hela sidans BODY-format. Förväntningen är att dessa delar innehåller DOM-element som måste vara&quot;personaliserade&quot;.
+at.js försöker undvika att HTML BODY eller andra DOM-element döljs i förväg under en längre period, men detta beror på nätverksvillkoren och aktivitetsinställningarna. at.js innehåller [inställningar](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) du kan använda för att anpassa CSS-formatet BODY för att dölja, så att du bara kan dölja vissa delar av HTML BODY i förväg i stället för att dölja hela sidans BODY-format. Förväntningen är att dessa delar innehåller DOM-element som måste vara&quot;personaliserade&quot;.
 
 ## Vilken händelsesekvens i ett genomsnittligt scenario där en användare kvalificerar sig för en aktivitet? {#section_56E6F448E901403FB77DF02F44C44452}
 

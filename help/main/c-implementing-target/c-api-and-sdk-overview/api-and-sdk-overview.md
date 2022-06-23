@@ -5,9 +5,9 @@ title: Var kan jag läsa mer om [!DNL Target] Leverans-API:er och SDK:er på ser
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,12 @@ Använda [!DNL Target] Delivery API, du kan:
 
 ## SDK:er på serversidan
 
-Länk: [Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)
+Länk: [Adobe Target SDKs](https://developer.adobe.com/target/)
 
 The [!DNL Adobe Target] via dokumentationsportalen för SDK på serversidan kan du implementera [!DNL Target] på valfritt språk.
 
 ## Ange Recommendations API:er
 
-Länk: [Ange Recommendations API:er](https://developers.adobetarget.com/api/recommendations) och [Adobe Recommendations API - översikt](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html).
+Länk: [Ange Recommendations API:er](https://developer.adobe.com/target/).
 
 Med Recommendations API:er kan du programmässigt interagera med [!DNL Target] rekommendationsservrar. Dessa API:er kan integreras med en rad programstackar för att utföra funktioner som du vanligtvis gör via [!DNL Target] användargränssnitt.

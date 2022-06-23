@@ -5,9 +5,9 @@ title: Kan jag implementera [!DNL Target] för Single Page-program (SPA)?
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2785'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,7 @@ Nu kanske marknadsförarna vill göra ett A/B-test för att se om en ändring av
 
 ## at.js 2.x systemdiagram
 
-Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vyer och hur detta förbättrar SPA integrering. Om du vill få en bättre introduktion till de koncept som används i at.js 2.x kan du läsa [Implementering av Single Page-program](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Följande diagram hjälper dig att förstå arbetsflödet för at.js 2.x med Vyer och hur detta förbättrar SPA integrering. Om du vill få en bättre introduktion till de koncept som används i at.js 2.x kan du läsa [Implementering av Single Page-program](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Målflöde med at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ Som bästa praxis för SPA:
 * Starta en anpassad händelse innan vyn börjar rendera
 * Starta en anpassad händelse när vyn är klar
 
-at.js 2.x lade till ett nytt API [triggerView()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) funktion. Du bör använda `triggerView()` att meddela at.js att en vy kommer att starta återgivningen.
+at.js 2.x lade till ett nytt API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) funktion. Du bör använda `triggerView()` att meddela at.js att en vy kommer att starta återgivningen.
 
 För att se hur man kombinerar anpassade händelser, at.js 2.x och Analytics, ska vi ta ett exempel. I det här exemplet antas att HTML-sidan innehåller Visitor-API:t, följt av at.js 2.x, följt av AppMeasurement.
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >Du måste avskeda `at-view-start` och `at-view-end` händelser. Dessa händelser ingår inte i anpassade at.js-händelser.
 
-I de här exemplen används JavaScript-kod, men allt detta kan förenklas om du använder en tagghanterare, till exempel taggar i [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+I de här exemplen används JavaScript-kod, men allt detta kan förenklas om du använder en tagghanterare, till exempel taggar i [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 
 Om ovanstående steg följs bör du ha en robust A4T-lösning för SPA.
 

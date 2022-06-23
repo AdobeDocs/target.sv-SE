@@ -5,9 +5,9 @@ title: Vilka integreringar stöder .js?
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Om du har ett övertygande behov av en integrering som inte stöds eller nämns 
 | Analyser för mål (A4T) | Se [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE). |
 | Profiler och målgrupper (P&amp;A) | Se [Målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *Användarhandbok för bastjänster*. |
 | Experience Cloud ID-tjänst | Se [Dokumentation för Adobe Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
-| Taggar i [!DNL Adobe Experience Platform] | Taggar i [!DNL Adobe Experience Platform] är nästa generations tagghanteringsfunktioner från [!DNL Adobe]. Taggar ger kunderna ett enkelt sätt att driftsätta och hantera de analys-, marknadsförings- och reklamtaggar som behövs för att skapa relevanta kundupplevelser. Se [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
+| Taggar i [!DNL Adobe Experience Platform] | Taggar i [!DNL Adobe Experience Platform] är nästa generations tagghanteringsfunktioner från [!DNL Adobe]. Taggar ger kunderna ett enkelt sätt att driftsätta och hantera de analys-, marknadsförings- och reklamtaggar som behövs för att skapa relevanta kundupplevelser. Se [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). |
 | Adobe Experience Manager (AEM) Cloud Service | Med AEM Cloud Service kan du skapa A/B-tester och Experience Targeting-aktiviteter i AEM arbetsflöde. Stöder at.js med Adobe Experience Manager 6.2 med FP-11577 (eller senare). Mer information finns i [Integrera med Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) och välja AEM. |
 | AEM Experience Fragments | Med upplevelsefragment som skapats i AEM i Target-aktiviteter kan ni kombinera användarvänligheten och kraften hos AEM med kraftfulla funktioner för automatiserad intelligens (AI) och maskininlärning (ML) i Target för att testa och personalisera upplevelser i stor skala.  AEM samlar allt innehåll och alla resurser på en central plats för att understödja er personaliseringsstrategi. AEM gör det enkelt att skapa innehåll för datorer, surfplattor och mobila enheter på en och samma plats utan att behöva skriva kod. Du behöver inte skapa sidor för alla enheter - AEM justerar automatiskt varje upplevelse med ditt innehåll.  Se [AEM upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8). |
 
@@ -42,4 +42,4 @@ Om du har ett övertygande behov av en integrering som inte stöds eller nämns 
 | Integrering | Detaljer |
 |--- |--- |
 | Andra tagghanterare | at.js bör fungera med tagghanteringsplattformar som inte är Adobe, men var försiktig med att använda anpassade integreringsfunktioner som andra leverantörer har utvecklat. Deras integreringar kan vara beroende av interna mbox.js-funktioner som inte längre finns i at.js. |
-| Tredjepartsleverantörer av data (t.ex. Demandbase, Bluekai, API:er för väder) | Många tredjepartsdataleverantörer som används som komplement till Target-användarprofilering kan integreras med hjälp av at.js [Dataleverantörer](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers) -funktion. |
+| Tredjepartsleverantörer av data (t.ex. Demandbase, Bluekai, API:er för väder) | Många tredjepartsdataleverantörer som används som komplement till Target-användarprofilering kan integreras med hjälp av at.js [Dataleverantörer](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) -funktion. |

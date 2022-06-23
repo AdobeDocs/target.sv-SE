@@ -4,9 +4,9 @@ description: Lär dig hur du skapar aktiviteter för automatisk fördelning och 
 title: Har A4T stöd för automatisk fördelning och automatisk målanpassning?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Med A4T-integreringen kan du:
 * Använd [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Flerarmad bandit-kapacitet som driver trafik till vinnande upplevelser.
 * Använd [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)En enastående maskininlärningsalgoritm för att välja den bästa upplevelsen för varje besökare. AutoTarget väljer den bästa upplevelsen baserat på användarnas profiler, beteenden och kontext när ett [!DNL Adobe Analytics] målmått och [!DNL Adobe Analytics]- omfattande rapporterings- och analysfunktioner.
 
-Se till att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side`måste du också skicka `sessionId` värde till [!DNL Analytics]. Mer information finns i [Analyser för målrapportering (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) i *Adobe Target SDKs* guide.
+Se till att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side`måste du också skicka `sessionId` värde till [!DNL Analytics]. Mer information finns i [Analyser för målrapportering (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) i *Adobe Target SDKs* guide.
 
 Så här kommer du igång:
 

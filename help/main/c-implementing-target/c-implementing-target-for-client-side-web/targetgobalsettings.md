@@ -5,9 +5,9 @@ title: Hur använder jag funktionen targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Du kan åsidosätta följande inställningar:
 * **Standardvärde**: body { opacity: 0 }
 * **Beskrivning**: Används endast när `globalMboxAutocreate === true` för att minimera risken för flimmer.
 
-   Mer information finns i [How at.js Manages Flicker](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
+   Mer information finns i [How at.js Manages Flicker](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Boolean
 * **Standardvärde**: false
-* **Beskrivning**: [!DNL Target] ger stöd för tillvalsfunktioner via [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket, lägg till `optinEnabled=true` inställning. I [!DNL Adobe Experience Platform] du måste välja&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Adobe Experience Platform-dokumentation](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) för mer information. Mer information om den här inställningen när det gäller sekretess- och dataskyddsbestämmelser, inklusive EU:s allmänna dataskyddsförordning (GDPR) och Kaliforniens konsumentsekretesslag (CCPA), finns på [Sekretess- och dataskyddsbestämmelser](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Beskrivning**: [!DNL Target] ger stöd för tillvalsfunktioner via [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket, lägg till `optinEnabled=true` inställning. I [!DNL Adobe Experience Platform] du måste välja&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Adobe Experience Platform-dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) för mer information. Mer information om den här inställningen när det gäller sekretess- och dataskyddsbestämmelser, inklusive EU:s allmänna dataskyddsförordning (GDPR) och Kaliforniens konsumentsekretesslag (CCPA), finns på [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ Du kan åsidosätta följande inställningar:
 * **Standardvärde**: true (true med början från at.js version 1.6.2)
 * **Beskrivning**: Anger om vi ska använda `<clientCode>.tt.omtrdc.net` domän eller `mboxedge<clusterNumber>.tt.omtrdc.net` domän.
 
-   Om värdet är true, `mboxedge<clusterNumber>.tt.omtrdc.net` domänen sparas i en cookie. Arbetar för närvarande inte med [CNAME](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) när du använder at.js-versioner före at.js 1.8.2 och at.js 2.3.1. Om detta är ett problem för dig bör du överväga [uppdatera at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) till en nyare version som stöds.
+   Om värdet är true, `mboxedge<clusterNumber>.tt.omtrdc.net` domänen sparas i en cookie. Arbetar för närvarande inte med [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) när du använder at.js-versioner före at.js 1.8.2 och at.js 2.3.1. Om detta är ett problem för dig bör du överväga [uppdatera at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) till en nyare version som stöds.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -398,7 +398,7 @@ Efter `cspScriptNonce` och `cspStyleNonce` -inställningarna anges, anger at.js 
 Du måste ha en hybridintegrering av [!DNL Target].
 
 * **Serversidan**: Du måste använda den nya [leverans-API](https://developers.adobetarget.com/api/delivery-api/) eller [Mål-SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Klientsidan**: Du måste använda [at.js version 2.2 eller senare](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **Klientsidan**: Du måste använda [at.js version 2.2 eller senare](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 ### Kodexempel
 

@@ -5,9 +5,9 @@ title: Hur [!DNL Target] Vill du använda TLS för att tillhandahålla säkerhet
 feature: Privacy & Security
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ När du planerar för den här ändringen bör du tänka på följande (observer
 * Tänk på att antalet besökare i dina Target-rapporter potentiellt kan se en obetydlig minskning av antalet besökare.
 * Du kan behöva ändra målgrupper som skapats specifikt för äldre enheter eller webbläsare som inte stöder TLS 1.2. Leverans till dessa enheter och webbläsare fungerar inte längre.
 
-Mer information om vilka webbläsare som stöds och vilka versioner som stöds finns i [Webbläsare som stöds](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+Mer information om vilka webbläsare som stöds och vilka versioner som stöds finns i [Webbläsare som stöds](https://developer.adobe.com/target/before-implement/supported-browsers/).
 
 ## Adobe [!DNL Target] API:er {#section_88797FA5434049EC89F908853CC76903}
 
@@ -68,7 +68,7 @@ Från och med 1 mars 2020 har mål-API:er inte längre stöd för TLS 1.1-krypte
 
 ## Tillgång till Experience Cloud Solutions-gränssnitt {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Eftersom gränssnittet Target Standard/Premium redan kräver en [modern webbläsare](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), vi förutser inga problem. Om du inte kan ansluta till Target bör du uppgradera webbläsaren till den senaste versionen.
+Eftersom gränssnittet Target Standard/Premium redan kräver en [modern webbläsare](https://developer.adobe.com/target/before-implement/supported-browsers/), vi förutser inga problem. Om du inte kan ansluta till Target bör du uppgradera webbläsaren till den senaste versionen.
 
 ## Kontrollera vilken TLS-version webbläsaren använder {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

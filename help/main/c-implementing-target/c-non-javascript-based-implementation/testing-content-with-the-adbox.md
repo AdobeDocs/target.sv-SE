@@ -5,9 +5,9 @@ title: Hur skapar jag en Adbox för en bild?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Använd en AdBox för att leverera bilder i en implementering utanför webbplats
 
 En AdBox är som en mbox, men den styrs av en URL i stället för JavaScript. AdBox skapas med en särskild AdBox-URL som läser in en &quot;ad&quot;-ruta (eller AdBox) i ditt Adobe-konto. Använd den här AdBox istället för mbox i dina aktiviteter. Använd AdBox-URL:en i stället för en direkt bildreferens i e-postmeddelanden eller andra icke-JavaScript-implementeringar.
 
-Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/).
 
 1. Skapa AdBox-URL:
 
@@ -48,7 +48,7 @@ Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade impl
 
 1. Skapa aktiviteten.
 
-   Se [Icke-JavaScript-baserade implementeringar](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) för att hitta rätt lösning.
+   Se [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/) för att hitta rätt lösning.
 1. Slutför Frågor och svar om aktiviteten.
 
    Det bästa är att skapa en dummy-sida och verifiera att alla upplevelser, standardinnehåll och rapporter fungerar som förväntat i alla webbläsartyper, för alla dina miljöer.

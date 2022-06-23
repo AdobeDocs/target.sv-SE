@@ -4,9 +4,9 @@ description: Visa en lista med vanliga frågor och svar om Adobe [!DNL Target] R
 title: Var hittar jag frågor och svar om [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3106'
+source-wordcount: '3111'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Om platsen som du använder det här villkoret på inte innehåller kategori-ID:
 
 Om du använder en plats där kategori-ID finns i rutan innehåller kriterieväljaren alla tillämpliga villkor.
 
-[!DNL Target] har en [Filtrera inkompatibla villkor](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) inställning för att styra intelligent filtrering av algoritmväljaren.
+[!DNL Target] har en [Filtrera inkompatibla villkor](https://developer.adobe.com/target/implement/recommendations/) inställning för att styra intelligent filtrering av algoritmväljaren.
 
 >[!NOTE]
 >

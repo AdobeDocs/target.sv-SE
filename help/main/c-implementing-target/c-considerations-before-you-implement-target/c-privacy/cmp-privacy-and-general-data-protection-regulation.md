@@ -5,9 +5,9 @@ title: Hur [!DNL Target] Hantera sekretess- och dataskyddsreglerna?
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Om du var upptagen med att förbereda dig för Europas integritetslagstiftning (
 
 ## Adobe [!DNL Target] och [!DNL Adobe Experience Platform] anmälan {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] ger stöd för tillvalsfunktioner via taggar i [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket bör du använda `targetGlobalSettings` och lägg till `optinEnabled=true` inställning. I [!DNL Adobe ExperiencePlatform]väljer du&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) för mer information.
+[!DNL Target] ger stöd för tillvalsfunktioner via taggar i [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket bör du använda `targetGlobalSettings` och lägg till `optinEnabled=true` inställning. I [!DNL Adobe ExperiencePlatform]väljer du&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) för mer information.
 
 Följande kodfragment visar hur du aktiverar `optinEnabled=true` inställning:
 
@@ -284,7 +284,7 @@ Följande tabell innehåller en beskrivning av JSON-fälten för den illustrativ
 
 | Fält | Beskrivning |
 |--- |--- |
-| Sample_Parameter | Flera informationsdelar i [!DNL Target] profiler överförs eller tillhandahålls direkt av Data Controller. I det här exemplet överfördes en parameter till [!DNL Target] profil med hjälp av API:t för profiluppdatering. Mer information finns i [Metoder som data hämtas till [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | Flera informationsdelar i [!DNL Target] profiler överförs eller tillhandahålls direkt av Data Controller. I det här exemplet överfördes en parameter till [!DNL Target] profil med hjälp av API:t för profiluppdatering. Mer information finns i [Metoder som data hämtas till [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | I det här standardfältet anges tiden på dagen för en användares senaste besök. |
 | firstSessionStart | Detta standardfält innehåller den tid på dagen då användarens första session påbörjades. |
 | user.sessionCountScript | Flera informationsdelar i [!DNL Target] profiler överförs eller tillhandahålls direkt av Data Controller. I det här exemplet ökar ett profilskript antalet sessioner som den här besökaren har gjort på Data Controller-platsen. Mer information finns i [Profilskriptattribut](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ Följande tabell innehåller en beskrivning av JSON-fälten för den illustrativ
 
 ### Gör [!DNL Target] Vill du ha stöd för obehörig IP-hantering? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Integritet](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Integritet](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ### Bör jag göra något för att förhindra att mina data delas eller säljs till tredje part?
 
