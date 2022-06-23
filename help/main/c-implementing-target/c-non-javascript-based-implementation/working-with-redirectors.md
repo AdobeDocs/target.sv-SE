@@ -5,9 +5,9 @@ title: Hur arbetar jag med Redirectors?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Innan du kan använda en omdirigering måste du skapa den.
 1. Om du vill testa olika destinationer för en annons skapar du [Omdirigeringserbjudanden](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) för varje version.
 1. Skapa kampanjen.
 
-   Se [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/) för att få rätt inställningar för att nå era mål.
+   Se [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/){target=_blank} för att rätt inställningar ska uppfylla dina mål.
 1. Fullständig kvalitetskontroll av kampanjen.
 
    Skapa en dummy-sida med en `<a href>` som innehåller URL:en för omdirigeraren. Exempel:

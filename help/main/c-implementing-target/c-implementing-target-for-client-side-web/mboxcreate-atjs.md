@@ -5,9 +5,9 @@ title: Hur använder jag funktionen mboxCreate()?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Den här funktionen är inbyggd i [!DNL at.js] mest för att underlätta överg�
 
 `mboxCreate()` använder nu slutpunkten &quot;json&quot; i stället för standardslutpunkten och aktiveras asynkront. På grund av detta:
 
-* [Felsökning](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/) är lite annorlunda.
+* [Felsökning](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank} är lite annorlunda.
 * Undvik erbjudandekod som kräver synkrona, blockerande anrop.
 
    I erbjudanden anges till exempel JavaScript-variabler som används av platskod eller andra rutor som kommer senare på sidan.

@@ -5,9 +5,9 @@ title: Hur hanterar At.js Flicker?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Flimmer inträffar när standardinnehåll visas för besökare innan det ersätt
 
 ## Använda en automatiskt skapad global mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Om du aktiverar [Skapa global Mbox automatiskt](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) Vid konfigurering av at.js hanterar at.js flimmer genom att ändra opacitetsinställningen när sidan läses in. När at.js läses in ändras opacitetsinställningen för `<body>` -element till&quot;0&quot;, vilket gör sidan osynlig för besökare. När ett svar från Target har tagits emot, eller om ett fel med Target-begäran upptäcks, återställer at opacitet till&quot;1&quot;. Detta garanterar att besökaren bara ser sidan efter att innehållet i dina aktiviteter har tillämpats.
+Om du aktiverar [Skapa global Mbox automatiskt](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/)Inställningen {target=_blank} när at.js konfigureras hanterar at.js flimmer genom att ändra opacitetsinställningen när sidan läses in. När at.js läses in ändras opacitetsinställningen för `<body>` -element till&quot;0&quot;, vilket gör sidan osynlig för besökare. När ett svar från Target har tagits emot, eller om ett fel med Target-begäran upptäcks, återställer at opacitet till&quot;1&quot;. Detta garanterar att besökaren bara ser sidan efter att innehållet i dina aktiviteter har tillämpats.
 
 Om du aktiverar inställningen när du konfigurerar at.js anger at.js opaciteten för HTML BODY-formatet till 0. När ett svar från Target har tagits emot, återställer at.js opaciteten för HTML BODY till 1.
 

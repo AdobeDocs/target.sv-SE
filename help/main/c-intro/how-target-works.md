@@ -4,9 +4,9 @@ description: Se hur Adobe [!DNL Target] verk, inklusive information om [!DNL Tar
 title: Hur [!DNL Target] Arbeta?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Lär dig mer [!DNL Adobe Target] verk, inklusive information om [!DNL Adobe Expe
 
 [!DNL Target] integreras med webbplatser med [!DNL Experience Platform Web SDK] eller JavaScript-bibliotek:
 
-* **Adobe Experience Platform Web SDK:** The [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) är ett nytt JavaScript-bibliotek på klientsidan. Experience Platform Web SDK ger kunder som [!DNL Adobe Experience Cloud] interagerar med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL Experience Platform] Edge Network. Adobe rekommenderar alla nya [!DNL Target] kunder implementerar [!DNL Experience Platform Web SDK].
+* **Adobe Experience Platform Web SDK:** The [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} är ett nytt JavaScript-bibliotek på klientsidan. Experience Platform Web SDK ger kunder som [!DNL Adobe Experience Cloud] interagerar med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL Experience Platform] Edge Network. Adobe rekommenderar alla nya [!DNL Target] kunder implementerar [!DNL Experience Platform Web SDK].
 * **at.js:** at.js-biblioteket är ett implementeringsbibliotek för [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. Adobe rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till [senaste versionen av at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 * **mbox.js:** mbox.js-biblioteket är det äldre implementeringsbiblioteket för [!DNL Target]. Biblioteket mbox.js stöds inte längre efter den 31 mars 2021.
 

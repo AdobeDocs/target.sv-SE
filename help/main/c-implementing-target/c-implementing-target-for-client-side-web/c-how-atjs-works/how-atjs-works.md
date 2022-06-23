@@ -5,9 +5,9 @@ title: Hur fungerar biblioteket at.js Javascript?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1136'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ I [!DNL Target] implementering som visas nedan, följande [!DNL Adobe Experience
 
 ## Vad är skillnaden mellan at.js 1?*x* och arbetsflödesdiagram i at.js 2.x?
 
-Se [Uppgradera från at.js 1.x till at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) för mer information om skillnaderna som introducerades i 2.O från 1.*x*.
+Se [Uppgradera från at.js 1.x till at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} om du vill ha mer information om skillnaderna som introducerades i 2.O från 1.*x*.
 
 Från en högnivåvy finns det några skillnader mellan de två versionerna:
 

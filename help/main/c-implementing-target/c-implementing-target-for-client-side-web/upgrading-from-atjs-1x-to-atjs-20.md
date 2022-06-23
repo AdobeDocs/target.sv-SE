@@ -5,9 +5,9 @@ title: Hur uppgraderar jag från at.js version 1.x till version 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Nu, var `triggerView()` är implementerat på SPA, hämtas vyer och åtgärder f
 
 ## Driftsätt på js 2.*x* {#deploy-atjs-200}
 
-1. Driftsätt på js 2.*x* via taggar i [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) tillägg.
+1. Driftsätt på js 2.*x* via taggar i [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
    >[!NOTE]
    >
@@ -368,7 +368,7 @@ I följande tabeller beskrivs at.js. 2.*x* kompatibilitet med olika aktivitetsty
 | [!DNL Adobe Experience Platform] extension | [Ja](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | Felsökning | Ja |
 | Revisor | Regler har ännu inte uppdaterats för kl. 2.js.*x* |
-| Anmäl dig | Nej. Inbyggt stöd för [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) stöds i [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| Anmäl dig | Nej. Inbyggt stöd för [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} stöds i [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
 | AEM Förbättrad personalisering med Adobe Target | Nej |
 
 ### Funktioner

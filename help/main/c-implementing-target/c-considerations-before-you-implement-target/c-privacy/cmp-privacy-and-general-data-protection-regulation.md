@@ -5,9 +5,9 @@ title: Hur [!DNL Target] Hantera sekretess- och dataskyddsreglerna?
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2225'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Om du var upptagen med att förbereda dig för Europas integritetslagstiftning (
 
 ## Adobe [!DNL Target] och [!DNL Adobe Experience Platform] anmälan {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] ger stöd för tillvalsfunktioner via taggar i [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket bör du använda `targetGlobalSettings` och lägg till `optinEnabled=true` inställning. I [!DNL Adobe ExperiencePlatform]väljer du&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) för mer information.
+[!DNL Target] ger stöd för tillvalsfunktioner via taggar i [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket bör du använda `targetGlobalSettings` och lägg till `optinEnabled=true` inställning. I [!DNL Adobe ExperiencePlatform]väljer du&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} om du vill ha mer information.
 
 Följande kodfragment visar hur du aktiverar `optinEnabled=true` inställning:
 

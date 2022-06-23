@@ -5,9 +5,9 @@ title: Hur implementerar jag Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ Förutom [!DNL Platform Web SDK] dokumentationen ovan innehåller även avsnitt 
 | [Omdirigeringserbjudanden - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Omdirigeringserbjudanden gör att besökarnas webbläsare dirigerar om till en ny sida.<br>Se [Gör [!DNL Adobe Experience Platform Web SDK] stöder omdirigeringserbjudanden för A4T?](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Svarstoken](/help/main/administrating-target/response-tokens.md) | Med svarstoken kan du skicka Target-data till Google Analytics och andra tredjepartsintegreringar.<br>Se [Skicka data till Google Analytics via Platform Web SDK](/help/main/administrating-target/response-tokens.md#platform-web-sdk) om du vill se ett kodexempel på hur du utför den här uppgiften. |
 | [Programimplementering på en sida](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) i *SDK för plattform* guide. | [!UICONTROL Adobe Experience Platform Web SDK] innehåller omfattande funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker, som single page-applikationer (SPA). |
-| [TLS-krypteringsändringar (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS (Transport Layer Security) hjälper er att upprätthålla högsta säkerhetsstandard och främja säkerheten för kunddata. |
+| [TLS-krypteringsändringar (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS (Transport Layer Security){target=_blank} hjälper dig att upprätthålla högsta säkerhetsstandard och främja säkerheten för kunddata. |

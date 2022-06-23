@@ -5,9 +5,9 @@ title: Kan jag implementera [!DNL Target] utan en tagghanterare?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1792'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Information om implementering [!DNL Adobe Target] utan att använda en tagghante
 
 >[!NOTE]
 >
->Taggar i [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) är den metod som rekommenderas för implementering [!DNL Target] och biblioteket at.js. Följande information gäller inte när du använder taggar i [!DNL Adobe Experience Platform] implementera [!DNL Target].
+>Taggar i [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} är den metod som rekommenderas för implementering [!DNL Target] och biblioteket at.js. Följande information gäller inte när du använder taggar i [!DNL Adobe Experience Platform] implementera [!DNL Target].
 
 Så här öppnar du [!UICONTROL Implementation] sida, klicka **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -42,7 +42,7 @@ Du kan visa följande kontoinformation. Dessa inställningar kan inte ändras.
 | --- | --- |
 | [!UICONTROL Client Code] | Klientkoden är en klientspecifik teckensekvens som ofta krävs när du använder [!DNL Target] API:er. |
 | [!UICONTROL IMS Organization ID] | Detta ID kopplar implementeringen till din [!DNL Adobe Experience Cloud] konto. |
-| [!UICONTROL On-Device Decisioning] | Om du vill aktivera enhetsbeslut flyttar du växlingsknappen till läget&quot;på&quot;.<br>Med enhetsbaserad beslutsfattande kan du cachelagra dina A/B-filer och [!UICONTROL Experience Targeting] (XT) kampanjer på din server och utför minnesbaserad beslutsfattande med en latens som är nästan noll. Mer information finns i [Introduktion till beslut på enheter](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) i *[!DNL Adobe Target]SDK* guide. |
+| [!UICONTROL On-Device Decisioning] | Om du vill aktivera enhetsbeslut flyttar du växlingsknappen till läget&quot;på&quot;.<br>Med enhetsbaserad beslutsfattande kan du cachelagra dina A/B-filer och [!UICONTROL Experience Targeting] (XT) kampanjer på din server och utför minnesbaserad beslutsfattande med en latens som är nästan noll. Mer information finns i [Introduktion till beslut på enheter](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank} i *[!DNL Adobe Target]SDK* guide. |
 | [!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.] | (Villkorligt) Det här alternativet visas om du aktiverar enhetsbeslut.<br>Skjut musknappen till&quot;på&quot;-positionen om du vill att alla dina aktiva Target-aktiviteter som är kvalificerade för enhetsbeslut ska inkluderas automatiskt i artefakten.<br>Om du inte aktiverar det här alternativet måste du återskapa och aktivera alla enhetsspecifika beslutsaktiviteter för att de ska kunna inkluderas i den genererade regelartefakten. |
 
 ## Implementeringsmetoder
@@ -59,7 +59,7 @@ Följande inställningar kan konfigureras på panelen Implementeringsmetoder:
 | --- | --- |
 | Sidinläsning aktiverad (skapa en global mbox automatiskt) | Välj om du vill bädda in det globala mbox-anropet i filen at.js så att det automatiskt utlöses vid varje sidinläsning. |
 | Global mbox | Välj ett namn för den globala mbox-filen. Som standard är namnet target-global-mbox.<br>Specialtecken, inklusive et-tecken (&amp;), kan användas i mbox-namn med at.js. |
-| Timeout (sekunder) | If [!DNL Target] svarar inte på innehåll inom den angivna perioden, serveranropet tar slut och standardinnehållet visas. Ytterligare anrop fortsätter att utföras under besökarens session. Standardvärdet är 5 sekunder.<br>I at.js-biblioteket används timeoutinställningen i `XMLHttpRequest`. Tidsgränsen startar när begäran utlöses och stannar när [!DNL Target] hämtar ett svar från servern. Mer information finns i [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) på Mozilla Developer Network.<br>Om den angivna tidsgränsen inträffar innan svaret tas emot, visas standardinnehållet och besökaren kan räknas som deltagare i en aktivitet eftersom all datainsamling sker på [!DNL Target] kant. Om begäran når [!DNL Target] besökaren räknas.<br>Tänk på följande när du konfigurerar timeout-inställningen:<ul><li>Om värdet är för lågt kan användarna se standardinnehåll oftast, men besökaren kan räknas som deltagare i aktiviteten.</li><li>Om värdet är för högt kan besökarna se tomma områden på webbsidan eller tomma sidor om du använder dolt innehåll under längre tidsperioder.</li></ul>Om du vill få en bättre förståelse för svarstiderna i mbox kan du titta på fliken Nätverk i webbläsarens utvecklingsverktyg. Du kan också använda verktyg för övervakning av webbprestanda från tredje part, till exempel Catchpoint.<br>**Anteckning**: The [visitorApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) inställningen säkerställer att [!DNL Target] väntar inte på Visitor API-svaret för länge. Den här inställningen och Timeout-inställningen för at.js som beskrivs här påverkar inte varandra. |
+| Timeout (sekunder) | If [!DNL Target] svarar inte på innehåll inom den angivna perioden, serveranropet tar slut och standardinnehållet visas. Ytterligare anrop fortsätter att utföras under besökarens session. Standardvärdet är 5 sekunder.<br>I at.js-biblioteket används timeoutinställningen i `XMLHttpRequest`. Tidsgränsen startar när begäran utlöses och stannar när [!DNL Target] hämtar ett svar från servern. Mer information finns i [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) på Mozilla Developer Network.<br>Om den angivna tidsgränsen inträffar innan svaret tas emot, visas standardinnehållet och besökaren kan räknas som deltagare i en aktivitet eftersom all datainsamling sker på [!DNL Target] kant. Om begäran når [!DNL Target] besökaren räknas.<br>Tänk på följande när du konfigurerar timeout-inställningen:<ul><li>Om värdet är för lågt kan användarna se standardinnehåll oftast, men besökaren kan räknas som deltagare i aktiviteten.</li><li>Om värdet är för högt kan besökarna se tomma områden på webbsidan eller tomma sidor om du använder dolt innehåll under längre tidsperioder.</li></ul>Om du vill få en bättre förståelse för svarstiderna i mbox kan du titta på fliken Nätverk i webbläsarens utvecklingsverktyg. Du kan också använda verktyg för övervakning av webbprestanda från tredje part, till exempel Catchpoint.<br>**Anteckning**: The [visitorApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)Inställningen {target=_blank} ser till att [!DNL Target] väntar inte på Visitor API-svaret för länge. Den här inställningen och Timeout-inställningen för at.js som beskrivs här påverkar inte varandra. |
 | Profilens livstid | Den här inställningen avgör hur långa besökarprofiler lagras. Som standard lagras profiler i två veckor. Den här inställningen kan ökas upp till 90 dagar.<br>Om du vill ändra inställningen för Profilens livstid kontaktar du [Kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html). |
 
 ### Huvudsaklig implementeringsmetod
@@ -126,7 +126,7 @@ Instruktioner för att hämta biblioteket med [!DNL Target] för Download API.
 
 >[!NOTE]
 >
->* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) är den metod som rekommenderas för implementering [!DNL Target] och biblioteket at.js. Följande information gäller inte när du använder taggar i [!DNL Adobe Experience Platform] implementera [!DNL Target].
+>* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} är den metod som rekommenderas för implementering [!DNL Target] och biblioteket at.js. Följande information gäller inte när du använder taggar i [!DNL Adobe Experience Platform] implementera [!DNL Target].
 >
 >* The [!DNL Target] team har stöd för både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
@@ -188,7 +188,7 @@ För nedladdning [!DNL at.js] med API:t.
 
 at.js ska implementeras i `<head>` element på alla sidor på webbplatsen.
 
-En typisk implementering av Target som inte använder en tagghanterare, till exempel taggar i [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) ser ut så här:
+En typisk implementering av Target som inte använder en tagghanterare, till exempel taggar i [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} ser ut så här:
 
 ```
 <!doctype html> 

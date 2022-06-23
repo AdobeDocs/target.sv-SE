@@ -5,9 +5,9 @@ title: Vad ingår i varje version av at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4557'
+source-wordcount: '4571'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScr
 >
 >Target-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds.
 >
->Taggar i [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) är det bästa sättet att uppgradera at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Adobe Experience Platform] katalog som uppgraderingar. Mer information finns i [Tilläggsuppgraderingar](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) i *Översikt över taggar* guide.
+>Taggar i [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} är den metod som rekommenderas för att uppgradera at.js. Tilläggsutvecklare lägger ständigt till nya funktioner i sina tillägg och åtgärdar ofta fel. Dessa uppdateringar paketeras i nya versioner av ett tillägg och görs tillgängliga i [!DNL Adobe Experience Platform] katalog som uppgraderingar. Mer information finns i [Tilläggsuppgraderingar](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) i *Översikt över taggar* guide.
 
 ## at.js version 2.9.0 (27 maj 2022)
 
-* Tillagd [Klienttips för användaragent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
+* Tillagd [Klienttips för användaragent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Stöd för {target=_blank}.
 * Korrigerade ett fel där flera mbox-förfrågningar på samma sida har olika ID:n för intrycket.
 
 ## at.js version 2.8.1 (28 januari 2022)
@@ -68,7 +68,7 @@ Den här versionen innehåller följande ändringar:
 
 Den här versionen av at.js innehåller följande förbättringar och ändringar:
 
-* [Enhetsbeslut](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) stöd för at.js.
+* [Enhetsbeslut](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank}-stöd för at.js.
 * [Förhandslänkar](/help/main/c-activities/c-activity-qa/activity-qa.md) stöd till Automated Personalization verksamhet
 
 Den här versionen tar också bort stöd för Microsoft Internet Explorer 10 och senare versioner.
@@ -117,7 +117,7 @@ Den här versionen av at.js är en underhållsrelease och innehåller följande 
 
 Den här versionen av at.js är en underhållsrelease och innehåller följande förbättringar och korrigeringar:
 
-* Stöd för inställning av innehållets säkerhetspolicyundantag för SCRIPT- och STYLE-taggar som läggs till på sidan DOM när levererade Target-erbjudanden tillämpas. Kunder kan ställa in `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` så att at.js kan ställa in motsvarande skript och style tag-noces för tillämpade erbjudanden. Se  [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) för mer information.
+* Stöd för inställning av innehållets säkerhetspolicyundantag för SCRIPT- och STYLE-taggar som läggs till på sidan DOM när levererade Target-erbjudanden tillämpas. Kunder kan ställa in `targetGlobalSettings.cspScriptNonce` och `targetGlobalSettings.cspStyleNonce` så att at.js kan ställa in motsvarande skript och style tag-noces för tillämpade erbjudanden. Se  [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank} om du vill ha mer information.
 * Ett problem har korrigerats vid kompilering av at.js med Google Closure-kompilatorn för Google Tag Manager-distribution.
 * Namnet på checkcookien at.js har ändrats från `check` till `at_check` för att undvika konflikter med kundernas implementeringar.
 
@@ -231,17 +231,17 @@ Följande funktioner har tagits bort i och med introduktionen av at.js 2.x:
 * mboxDefine
 * registerExtension()
 
-Mer information finns i [Uppgradera från at.js 1.x till at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) och [Funktionerna at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+Mer information finns i [Uppgradera från at.js 1.x till at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} och [Funktionerna at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 
 >[!NOTE]
 >
->Om du behöver stöd för Adobe-deltagande för [Allmän dataskyddsförordning](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR) måste du för närvarande använda at.js 1.7.0 eller at.js 2.1.0.
+>Om du behöver stöd för Adobe-deltagande för [Allmän dataskyddsförordning](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR), du måste för närvarande använda at.js 1.7.0 eller at.js 2.1.0.
 
 ## at.js Version 1.7.0 {#at-js-170}
 
 at.js 1.7.0 har stöd för Adobe Opt-In. Adobe Opt-In är ett sätt att förenkla integreringen av Adobe-lösningar med plattformar för samtyckeshantering.
 
-Mer information om deltagande i Adobe finns i [Sekretess och allmänna dataskyddsföreskrifter](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR).
+Mer information om deltagande i Adobe finns i [Sekretess och allmänna dataskyddsföreskrifter](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR).
 
 Den här versionen åtgärdar också ett problem där Target kan åsidosätta omdirigerings-URL-parametrar med parametrar som kommer från omdirigerings-URL:en.
 
@@ -329,7 +329,7 @@ at.js version 1.3.0 finns nu att köpa.
 
    Mer information finns i [Dataleverantörer](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
-* at.js-begäranden använder nu GET, men kommer att växla till POST när URL-storleken överstiger 2 048 tecken. Det finns en ny egenskap med namnet `urlSizeLimit` där du kan öka storleksgränsen om det behövs. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik.
+* at.js-begäranden använder nu GET, men den växlar till POST när URL-storleken överstiger 2 048 tecken. Det finns en ny egenskap med namnet `urlSizeLimit` där du kan öka storleksgränsen om det behövs. Med den här ändringen kan Target justera at.js mot AppMeasurement, som använder samma teknik.
 * Target tvingar nu till att `mbox` i `adobe.target.applyOffer(options)` -funktionen används. Den här nyckeln har krävts tidigare, men Target använder den nu för att säkerställa att Target har korrekt validering och att kunderna använder funktionen korrekt.
 * at.js har förbättrat funktionerna för händelsespårning och klickning. at.js använder `navigator.sendBeacon()` att skicka händelsespårningsdata och kommer att återgå till synkron XHR när `navigator.sendBeacon()` stöds inte. Detta gäller oftast Internet Explorer 10 och 11 samt vissa versioner av Safari. Safari kommer att lägga till stöd för `navigator.sendBeacon()` i kommande version av iOS 11.3.
 * at.js kan nu återge erbjudanden även när en sida öppnas i bakgrundsflikar. Vissa målkunder stötte på ett problem när `requestAnimationFrame()` har inaktiverats på grund av webbläsarbegränsningsbeteendet för bakgrundsflikar.

@@ -5,9 +5,9 @@ title: Vilka funktioner som stöds i Enhetsbeslut
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-Om du inte kan utföra IP-till-Geo-sökningar på servern, men ändå vill utföra enhetsbeslut för [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) -förfrågningar som innehåller geobaserade målgrupper stöds också. Nackdelen med detta är att det använder en IP-till-Geo-sökning på fjärrbasis, vilket ger fördröjning för varje `getOffers` ring. Denna fördröjning bör vara lägre än en `getOffers` anropa med serversidesbeslut eftersom det träffar ett CDN som ligger nära servern. Ange endast fältet&quot;ipAddress&quot; i Geo-objektet i kontexten för din begäran om att SDK ska hämta geoplatsen för din besökares IP-adress. Om något annat fält förutom&quot;ipAddress&quot; anges, visas [!DNL Target] SDK hämtar inte metadata för geopositionering för upplösning.
+Om du inte kan utföra IP-till-Geo-sökningar på servern, men ändå vill utföra enhetsbeslut för [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}-begäranden som innehåller geobaserade målgrupper stöds också. Nackdelen med detta är att det använder en IP-till-Geo-sökning på fjärrbasis, vilket ger fördröjning för varje `getOffers` ring. Denna fördröjning bör vara lägre än en `getOffers` anropa med serversidesbeslut eftersom det träffar ett CDN som ligger nära servern. Ange endast fältet&quot;ipAddress&quot; i Geo-objektet i kontexten för din begäran om att SDK ska hämta geoplatsen för din besökares IP-adress. Om något annat fält förutom&quot;ipAddress&quot; anges, visas [!DNL Target] SDK hämtar inte metadata för geopositionering för upplösning.
 
 ```javascript
 window.adobe.target.getOffers({ 

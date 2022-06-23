@@ -5,9 +5,9 @@ title: Hur fungerar On-device Decisioning med JavaScript-biblioteket at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3447'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Mer information finns i [Funktioner som stöds för beslut på enheten](https://
 
 ## Hur fungerar beslut på enheter?
 
-När du distribuerar och initierar at.js med enhetsspecifik beslutsfattande aktiverat, är en [regelartefakt](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) som innehåller dina enhetsspecifika beslut för A/B- och XT-aktiviteter, målgrupper och resurser hämtas från närmaste Akamai CDN till besökaren och cachas lokalt i besökarens webbläsare. När en begäran görs från at.js för att hämta en upplevelse, bestäms vilken upplevelse som ska returneras i minnet utifrån de metadata som är kodade i den cachelagrade regelartefakten.
+När du distribuerar och initierar at.js med enhetsspecifik beslutsfattande aktiverat, är en [regelartefakt](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank} som innehåller ditt enhetsbeslut för A/B- och XT-aktiviteter, målgrupper och resurser hämtas från närmaste Akamai CDN till besökaren och cachas lokalt i besökarens webbläsare. När en begäran görs från at.js för att hämta en upplevelse, bestäms vilken upplevelse som ska returneras i minnet utifrån de metadata som är kodade i den cachelagrade regelartefakten.
 
 ## Beslutsmetod
 
@@ -222,7 +222,7 @@ Så här aktiverar du enhetsbeslut:
 
    Om du inte aktiverar det här alternativet måste du återskapa och aktivera alla enhetsspecifika beslutsaktiviteter så att de inkluderas i den genererade regelartefakten. Med andra ord, alla aktiviteter i live-läge innan du aktiverar [!UICONTROL On-Device Decisioning] toggle ingår inte i regelartefakten.
 
-När du har aktiverat [!UICONTROL On-Device Decisioning] växla [!DNL Target] börjar generera och sprida [regelartefakter](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) för kunden.
+När du har aktiverat [!UICONTROL On-Device Decisioning] växla [!DNL Target] börjar generera och sprida [regelartefakter](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank} för klienten.
 
 >[!IMPORTANT]
 >
@@ -269,7 +269,7 @@ Du kan konfigurera ett standardvärde [!UICONTROL Decisioning Method] för alla 
 
 ### Anpassad inställning
 
-Om du anger `decisioningMethod` in `window.targetGlobalSettings`, men vill åsidosätta `decisioningMethod` för varje Adobe Target-beslut utifrån ditt användningsfall kan du utföra den här proceduren genom att ange `decisioningMethod` in At.js2.5.0+&#39;s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) ring.
+Om du anger `decisioningMethod` in `window.targetGlobalSettings`, men vill åsidosätta `decisioningMethod` för varje Adobe Target-beslut utifrån ditt användningsfall kan du utföra den här proceduren genom att ange `decisioningMethod` in At.js2.5.0+&#39;s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}-anrop.
 
 ```javascript
 adobe.target.getOffers({ 

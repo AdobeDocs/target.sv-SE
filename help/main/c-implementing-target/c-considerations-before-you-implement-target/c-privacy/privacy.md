@@ -5,9 +5,9 @@ title: Hur [!DNL Target] Hantera sekretessproblem?
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -68,4 +68,4 @@ Besökare som klickar på den här länken tas inte med i några mbox-förfrågn
 
 ## Sekretess- och dataskyddsbestämmelser
 
-Se [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) om du vill ha information om EU:s allmänna dataskyddsförordning (GDPR), Kaliforniens konsumentintegritetslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar din organisation och Adobe Target.
+Se [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} om du vill ha information om EU:s allmänna dataskyddsförordning (GDPR), Kalifornien:s konsumentsekretesslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar din organisation och Adobe Target.

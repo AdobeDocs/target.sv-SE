@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target funktioner
 title: Var kan jag hitta svar på Mina optimerings- och personaliseringsfrågor?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Kolla in [Forum för målgrupper](/help/main/cmp-resources-and-contact-informati
 
 **Vilka webbläsare stöder Target?**
 
-Läs våra [Webbläsare som stöds](https://developer.adobe.com/target/before-implement/supported-browsers/) matris för mer information. Observera att det finns två aspekter: Stöd för gränssnitten Target Standard/Premium Experience Cloud och webbläsarstöd för slutanvändare på datorer/enheter.
+Läs våra [Webbläsare som stöds](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank} matris för mer information. Observera att det finns två aspekter: Stöd för gränssnitten Target Standard/Premium Experience Cloud och webbläsarstöd för slutanvändare på datorer/enheter.
 
 ## Verksamhet {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 

@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,12 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Tillagd [Klienttips för användaragent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
+* Tillagd [Klienttips för användaragent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Stöd för {target=_blank}.
 * Ett problem som orsakade timeout vid återgivning har korrigerats [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) aktiviteter. (TNT-44611)
 
 ## at.js version 2.9.0 (27 maj 2022)
 
-* Tillagd [Klienttips för användaragent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) support.
+* Tillagd [Klienttips för användaragent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Stöd för {target=_blank}.
 * Korrigerade ett fel där flera mbox-förfrågningar på samma sida har olika ID:n för intrycket.
 
 ## Ytterligare versionsinformation

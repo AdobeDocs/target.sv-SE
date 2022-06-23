@@ -5,9 +5,9 @@ title: Kan jag implementera [!DNL Target] för Single Page-program (SPA)?
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2787'
 ht-degree: 1%
 
 ---
@@ -233,7 +233,7 @@ Som bästa praxis för SPA:
 * Starta en anpassad händelse innan vyn börjar rendera
 * Starta en anpassad händelse när vyn är klar
 
-at.js 2.x lade till ett nytt API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) funktion. Du bör använda `triggerView()` att meddela at.js att en vy kommer att starta återgivningen.
+at.js 2.x lade till ett nytt API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)Funktionen {target=_blank}. Du bör använda `triggerView()` att meddela at.js att en vy kommer att starta återgivningen.
 
 För att se hur man kombinerar anpassade händelser, at.js 2.x och Analytics, ska vi ta ett exempel. I det här exemplet antas att HTML-sidan innehåller Visitor-API:t, följt av at.js 2.x, följt av AppMeasurement.
 

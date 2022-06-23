@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för mobila enhete
 title: Kan jag rikta in besökarna baserat på mobilalternativ?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ För att lösa problemet [!DNL Target] samlar in ytterligare data för att kunna
 
 >[!NOTE]
 >
->Kunder som använder Mobile SDK behöver inte göra något för att använda den här funktionen. Kunder som använder at.js måste [uppgradera till at.js version 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (eller senare).
+>Kunder som använder Mobile SDK behöver inte göra något för att använda den här funktionen. Kunder som använder at.js måste [uppgradera till at.js version 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (eller senare).
 
 Du kan välja mer än en mobil enhetsegenskap. Flera markeringar förenas med en OR-operator.
 

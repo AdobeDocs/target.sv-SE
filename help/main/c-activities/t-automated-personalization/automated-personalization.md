@@ -4,9 +4,9 @@ description: Lär dig hur du använder Automated Personalization-aktiviteter (AP
 title: Vad är en Automated Personalization-aktivitet (AP)?
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -67,8 +67,8 @@ Random Forest är en ledande maskininlärningsstrategi. I datavetenskapen är de
 
 Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller. Det finns flera sätt att mata in data i [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] personaliseringsalgoritmer.
 
-* [mbox-parametrar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
-* [Profilparametrar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+* [mbox-parametrar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
+* [Profilparametrar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
 * [API:er på serversidan för profiluppdatering](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
 
 För information om data som samlas in och används av [!UICONTROL Automated Personalization] och [!UICONTROL Auto-Target] personaliseringsalgoritmer, se [Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md).

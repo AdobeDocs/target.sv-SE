@@ -4,9 +4,9 @@ description: Lär dig hur du skapar undantag i Adobe [!DNL Target] Recommendatio
 title: Hur använder jag undantag i Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
    ![](assets/exclusions_list.png)
 
-   Antal poster som rapporteras för varje undantag på [!UICONTROL Exclusions] listvyn är antalet produkter som matchar reglerna för undantaget inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://developer.adobe.com/target/implement/recommendations/) om du vill ändra standardvärdgruppen.
+   Antal poster som rapporteras för varje undantag på [!UICONTROL Exclusions] listvyn är antalet produkter som matchar reglerna för undantaget inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://developer.adobe.com/target/implement/recommendations/){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Exclusion]**.
 

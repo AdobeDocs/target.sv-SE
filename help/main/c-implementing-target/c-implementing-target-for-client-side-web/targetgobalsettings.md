@@ -5,9 +5,9 @@ title: Hur använder jag funktionen targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2377'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Boolean
 * **Standardvärde**: false
-* **Beskrivning**: [!DNL Target] ger stöd för tillvalsfunktioner via [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket, lägg till `optinEnabled=true` inställning. I [!DNL Adobe Experience Platform] du måste välja&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Adobe Experience Platform-dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) för mer information. Mer information om den här inställningen när det gäller sekretess- och dataskyddsbestämmelser, inklusive EU:s allmänna dataskyddsförordning (GDPR) och Kaliforniens konsumentsekretesslag (CCPA), finns på [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **Beskrivning**: [!DNL Target] ger stöd för tillvalsfunktioner via [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket, lägg till `optinEnabled=true` inställning. I [!DNL Adobe Experience Platform] du måste välja&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Adobe Experience Platform-dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} om du vill ha mer information. Mer information om den här inställningen när det gäller sekretess- och dataskyddsbestämmelser, inklusive EU:s allmänna dataskyddsförordning (GDPR) och Kaliforniens konsumentsekretesslag (CCPA), finns på [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ Du kan åsidosätta följande inställningar:
 * **Standardvärde**: true (true med början från at.js version 1.6.2)
 * **Beskrivning**: Anger om vi ska använda `<clientCode>.tt.omtrdc.net` domän eller `mboxedge<clusterNumber>.tt.omtrdc.net` domän.
 
-   Om värdet är true, `mboxedge<clusterNumber>.tt.omtrdc.net` domänen sparas i en cookie. Arbetar för närvarande inte med [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) när du använder at.js-versioner före at.js 1.8.2 och at.js 2.3.1. Om detta är ett problem för dig bör du överväga [uppdatera at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) till en nyare version som stöds.
+   Om värdet är true, `mboxedge<clusterNumber>.tt.omtrdc.net` domänen sparas i en cookie. Arbetar för närvarande inte med [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank} när at.js-versioner används före at.js 1.8.2 och at.js 2.3.1. Om detta är ett problem för dig bör du överväga [uppdatera at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} till en nyare version som stöds.
 
 ### overrideMboxEdgeServerTimeout
 

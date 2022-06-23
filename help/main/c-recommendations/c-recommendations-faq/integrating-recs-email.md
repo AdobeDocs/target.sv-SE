@@ -4,9 +4,9 @@ description: Lär dig hur du integrerar e-post med Adobe [!DNL Target Recommenda
 title: Hur integrerar jag Recommendations med e-post?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1715'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Plats `clientcode` är din [!DNL Target] klientkod.
 >
 >Var noga med att ange ett unikt värde för båda `sessionId` och en av `tntId` eller `thirdPartyId` för varje e-postmottagare (till exempel för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svar ta lång tid eller misslyckas på grund av många händelser som genereras i en enskild profil.
 
-Se [Dokumentation för leverans-API](https://developer.adobe.com/target/implement/delivery-api/) för mer information.
+Se [Dokumentation för leverans-API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} om du vill ha mer information.
 
 ## Metod 2: Använda en e-postmall för en rawbox {#rawbox}
 

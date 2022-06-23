@@ -5,9 +5,9 @@ title: Vilka integreringar stöder .js?
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Om du har ett övertygande behov av en integrering som inte stöds eller nämns 
 | Integrering | Detaljer |
 |--- |--- |
 | Andra tagghanterare | at.js bör fungera med tagghanteringsplattformar som inte är Adobe, men var försiktig med att använda anpassade integreringsfunktioner som andra leverantörer har utvecklat. Deras integreringar kan vara beroende av interna mbox.js-funktioner som inte längre finns i at.js. |
-| Tredjepartsleverantörer av data (t.ex. Demandbase, Bluekai, API:er för väder) | Många tredjepartsdataleverantörer som används som komplement till Target-användarprofilering kan integreras med hjälp av at.js [Dataleverantörer](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) -funktion. |
+| Tredjepartsleverantörer av data (t.ex. Demandbase, Bluekai, API:er för väder) | Många tredjepartsdataleverantörer som används som komplement till Target-användarprofilering kan integreras med hjälp av at.js [Dataleverantörer](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}. |

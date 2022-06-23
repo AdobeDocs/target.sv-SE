@@ -5,9 +5,9 @@ title: Hur skapar jag en Adbox för en bild?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade impl
 
 1. Skapa aktiviteten.
 
-   Se [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/) för att hitta rätt lösning.
+   Se [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/){target=_blank} för att rätt inställningar ska uppfylla dina mål.
 1. Slutför Frågor och svar om aktiviteten.
 
    Det bästa är att skapa en dummy-sida och verifiera att alla upplevelser, standardinnehåll och rapporter fungerar som förväntat i alla webbläsartyper, för alla dina miljöer.

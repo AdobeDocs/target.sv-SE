@@ -5,9 +5,9 @@ title: Vad är vanliga frågor och svar om at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
@@ -205,7 +205,7 @@ Följande är möjliga rotorsaker om du ser det här varningsmeddelandet:
 * Den underliggande sidan är en del av en [!UICONTROL Single Page Application] (SPA) eller sidan innehåller element som visas längre ned på sidan och på sidan [!DNL at.js] &quot;väljaravsökningsmekanism&quot; kan inte hitta dessa element. Öka `selectorsPollingTimeout` kanske kan hjälpa. Mer information finns i [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 * Alla klickspårningsmått försöker lägga till sig själv på varje sida, oavsett vilken URL som måttet har ställts in på. Även om det är ofarligt visas många av dessa meddelanden.
 
-   Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) och [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+   Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} och [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 ## Vad är domänen tt.omtrdc.net som [!DNL Target] går serversamtal till? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ Se till att [!DNL Target] kan spåra användare och eftersom cookies genereras p
 
 ## I det bästa fallet, kan vi förvänta oss att användaren inte upplever några synliga effekter på sidinläsningen som relaterar till att dölja, ersätta och visa innehåll? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js försöker undvika att HTML BODY eller andra DOM-element döljs i förväg under en längre period, men detta beror på nätverksvillkoren och aktivitetsinställningarna. at.js innehåller [inställningar](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) du kan använda för att anpassa CSS-formatet BODY för att dölja, så att du bara kan dölja vissa delar av HTML BODY i förväg i stället för att dölja hela sidans BODY-format. Förväntningen är att dessa delar innehåller DOM-element som måste vara&quot;personaliserade&quot;.
+at.js försöker undvika att HTML BODY eller andra DOM-element döljs i förväg under en längre period, men detta beror på nätverksvillkoren och aktivitetsinställningarna. at.js innehåller [inställningar](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank} kan du använda för att anpassa CSS-formatet BODY så att du bara kan dölja vissa delar av HTML BODY i stället för att dölja hela sidans BODY-format. Förväntningen är att dessa delar innehåller DOM-element som måste vara&quot;personaliserade&quot;.
 
 ## Vilken händelsesekvens i ett genomsnittligt scenario där en användare kvalificerar sig för en aktivitet? {#section_56E6F448E901403FB77DF02F44C44452}
 

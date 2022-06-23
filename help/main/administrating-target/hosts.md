@@ -5,9 +5,9 @@ title: Vad är värdar och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Om en [!DNL Target] begäran görs på en obehörig värd, samtalet besvaras med
 
 >[!IMPORTANT]
 >
->**Bästa praxis för säkerhet**: Om du använder ubox-funktionen i [!DNL Target]styr den här tillåtelselista även listan över domäner som [redirectors](https://developer.adobe.com/target/implement/email/working-with-redirectors/) kan navigera. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista lämnas ospecificerat [!DNL Adobe] kan inte verifiera omdirigerings-URL:er och skydda mot potentiella skadliga omdirigeringar.
+>**Bästa praxis för säkerhet**: Om du använder ubox-funktionen i [!DNL Target]styr den här tillåtelselista även listan över domäner som [redirectors](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} kan navigera. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista lämnas ospecificerat [!DNL Adobe] kan inte verifiera omdirigerings-URL:er och skydda mot potentiella skadliga omdirigeringar.
 >
 >Tillåtelselista har företräde framför miljöer. Ta bort alla värdar innan du använder funktionen tillåtelselista, så visas bara de värdar som tillåts av tillåtelselista i din värdlista. Du kan sedan flytta värdarna till den önskade miljön.
 

@@ -5,9 +5,9 @@ title: Hur använder jag CNAME i Target?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Instruktioner för att arbeta med [!DNL Adobe] Kundtjänst för att implementera
 
    [!DNL Adobe] Client Care meddelar dig när implementeringen är klar.
 
-1. Uppdatera `serverDomain` ([dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)) till den nya CNAME-värdnamnet och uppsättningen `overrideMboxEdgeServer` till `false` ([dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)) i din at.js-konfiguration.
+1. Uppdatera `serverDomain` ([dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} till det nya CNAME-värdnamnet och uppsättningen `overrideMboxEdgeServer` till `false` ([dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} i at.js-konfigurationen.
 
 ## Vanliga frågor
 
