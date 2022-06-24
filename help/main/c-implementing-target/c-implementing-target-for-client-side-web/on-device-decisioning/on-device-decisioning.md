@@ -5,9 +5,9 @@ title: Hur fungerar On-device Decisioning med JavaScript-biblioteket at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3447'
+source-wordcount: '3455'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Adobe Target JS SDK ger kunderna flexibilitet att välja mellan prestanda och ak
 * Målgruppsanpassning
 * Allokeringsmetod
 
-Mer information finns i [Funktioner som stöds för beslut på enheten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Mer information finns i [Funktioner som stöds för beslut på enheten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 ## Hur fungerar beslut på enheter?
 
@@ -88,7 +88,7 @@ Följande lista motsvarar siffrorna i diagrammet:
 
 Enhetsbeslut kan leverera upplevelser och personaliseringsaktiviteter blixtsnabbt eftersom besluten fattas utifrån en cache-lagrad regelartefakt som innehåller alla aktiviteter som är kvalificerade för enhetsbeslut.
 
-Mer information om vilka aktiviteter som är kvalificerade för enhetsbeslut finns i [Funktioner som stöds vid beslut på enheten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Mer information om vilka aktiviteter som är kvalificerade för enhetsbeslut finns i [Funktioner som stöds vid beslut på enheten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 Den här beslutsmetoden bör endast användas om prestanda är mycket kritiskt för alla sidor som kräver beslut från [!DNL Target]. Tänk dessutom på att när du väljer den här beslutsmetoden ska du [!DNL Target] aktiviteter som inte är kvalificerade för enhetsbeslut kommer inte att levereras eller utföras. At.js-biblioteket 2.5.0+ är konfigurerat att endast söka efter den cachelagrade regelartefakten för att fatta beslut.
 
@@ -249,7 +249,7 @@ När du har aktiverat [!UICONTROL On-Device Decisioning] växla [!DNL Target] b�
 
 ### Globala inställningar
 
-Du kan konfigurera ett standardvärde [!UICONTROL Decisioning Method] för alla [!DNL Target] beslut. De olika beslutsmetoderna är [!UICONTROL Server-side only], [!UICONTROL On-device only]och [!UICONTROL Hybrid]. Den valda beslutsmetoden i målgränssnittet är konfigurerad i `window.targetGlobalSettings` under `decisioningMethod` fält. Läs mer om `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Du kan konfigurera ett standardvärde [!UICONTROL Decisioning Method] för alla [!DNL Target] beslut. De olika beslutsmetoderna är [!UICONTROL Server-side only], [!UICONTROL On-device only]och [!UICONTROL Hybrid]. Den valda beslutsmetoden i målgränssnittet är konfigurerad i `window.targetGlobalSettings` under `decisioningMethod` fält. Läs mer om `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ Du kan filtrera efter alla aktiviteter som är berättigade till enhetsbeslut p�
 
    Den första genereringen av JSON-regelartefakter kan ta upp till 10 minuter.
 
-1. Skapa och aktivera en [aktivitetstyp som stöds av enhetsbeslut](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/), och kontrollera att det är valbart att fatta beslut på enheten.
+1. Skapa och aktivera en [aktivitetstyp som stöds av enhetsbeslut](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}, och verifiera att det går att fatta beslut på enheten.
 1. Ange **[!UICONTROL Decisioning Method]** till antingen **[!UICONTROL “Hybrid”]** eller **[!UICONTROL “On-device only”]** via användargränssnittet för at.js-inställningarna.
 1. Ladda ned och driftsätt At.js 2.5.0+ på sidorna.

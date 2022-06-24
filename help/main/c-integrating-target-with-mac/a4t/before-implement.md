@@ -4,9 +4,9 @@ description: Lär dig implementeringskraven för Analytics för [!DNL Target] (A
 title: Vad ska jag veta innan jag implementerar A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Den här A4T-integreringen kräver att du implementerar följande biblioteksvers
 
 >[!NOTE]
 >
->Följande krav listar *minimum* versioner av at.js krävs för att implementera A4T. The [!DNL Target] teamet har bara två versioner av [!DNL at.js]- den aktuella versionen och den senaste versionen. Uppgradera [!DNL at.js] vid behov för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>Följande krav listar *minimum* versioner av at.js krävs för att implementera A4T. The [!DNL Target] teamet har bara två versioner av [!DNL at.js]- den aktuella versionen och den senaste versionen. Uppgradera [!DNL at.js] vid behov för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Krav krävs om *not* använda omdirigeringserbjudanden med A4T
 
@@ -41,7 +41,7 @@ För den här integreringen krävs att du implementerar följande biblioteksvers
 * [!DNL Adobe Target]: at.js version 0.9.1
 * Adobe Analytics: appMeasurement.js version 1.7.0
 
-Mer information om hur du implementerar A4T med [!DNL Platform Web SDK], se [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+Mer information om hur du implementerar A4T med [!DNL Platform Web SDK], se [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ### Krav krävs för omdirigeringserbjudanden med A4T
 
@@ -59,7 +59,7 @@ Om du vill använda omdirigeringserbjudanden med A4T måste du implementera föl
 
 Instruktioner för hämtning och distribution finns i [Analyser för målinriktad implementering](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-Mer information om hur du implementerar A4T med [!DNL Platform Web SDK], se [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+Mer information om hur du implementerar A4T med [!DNL Platform Web SDK], se [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ## Saker att känna till innan ni implementerar {#section_50D49CC52E11414089C89FB67F9B88F5}
 

@@ -5,9 +5,9 @@ title: Kan jag använda en global mbox från en äldre implementering?
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ Följande vanliga frågor och svar kan användas för att felsöka din globala m
 
 ### Varför läses inte den globala mbox in, eller varför finns det fördröjning i inläsningen av den globala mbox när sidan läses in?
 
-Kontrollera att referensen at.js är det första JavaScript-anropet på sidan. Andra lösningar på det här problemet finns i [Vanliga frågor och svar om Global Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).
+Kontrollera att referensen at.js är det första JavaScript-anropet på sidan. Andra lösningar på det här problemet finns i [Vanliga frågor och svar om Global Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/){target=_blank}.

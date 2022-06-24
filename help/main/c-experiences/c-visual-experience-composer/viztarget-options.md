@@ -4,9 +4,9 @@ description: Se vilka alternativ som finns i [!DNL Adobe Target] [!UICONTROL Vis
 title: Hur jag använder [!UICONTROL Visual Experience Composer] (VEC) Alternativ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2748'
 ht-degree: 0%
 
 ---
@@ -380,9 +380,9 @@ VEC stöder [Webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_C
 
 >[!NOTE]
 >
->VEC-stöd för anpassade element stöds i [at.js version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (eller senare). Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)måste den också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
+>VEC-stöd för anpassade element stöds i [at.js version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (eller senare){target=_blank}. Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)måste den också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
 >
->VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+>VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 De flesta VEC-åtgärder stöds för anpassade händelser och i anpassade händelser, med följande undantag:
 

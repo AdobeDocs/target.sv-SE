@@ -4,9 +4,9 @@ description: Lär dig hur du skickar anpassade parametrar till [!DNL Adobe Targe
 title: Kan jag rikta in besökare baserat på anpassade parametrar?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Egna parametrar är mbox-parametrar i [!DNL Adobe Target]. Om du skickar några mbox-parametrar till mbox eller använder `targetPageParams` -funktionen visas dessa parametrar här för att användas i målgrupper.
 
-Mer information finns i [Skicka parametrar till en global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
+Mer information finns i [Skicka parametrar till en global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
 
 När du skapar en anpassad målgrupp baserat på en mbox-parameter, `mboxParameter` frågar inte längre efter `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
 

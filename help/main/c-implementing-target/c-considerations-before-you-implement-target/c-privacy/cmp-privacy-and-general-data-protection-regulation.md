@@ -5,9 +5,9 @@ title: Hur [!DNL Target] Hantera sekretess- och dataskyddsreglerna?
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2229'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,7 @@ Följande tabell innehåller en beskrivning av JSON-fälten för den illustrativ
 
 | Fält | Beskrivning |
 |--- |--- |
-| Sample_Parameter | Flera informationsdelar i [!DNL Target] profiler överförs eller tillhandahålls direkt av Data Controller. I det här exemplet överfördes en parameter till [!DNL Target] profil med hjälp av API:t för profiluppdatering. Mer information finns i [Metoder som data hämtas till [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
+| Sample_Parameter | Flera informationsdelar i [!DNL Target] profiler överförs eller tillhandahålls direkt av Data Controller. I det här exemplet överfördes en parameter till [!DNL Target] profil med hjälp av API:t för profiluppdatering. Mer information finns i [Metoder som data hämtas till [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. |
 | user.ReturnTimeOfDay | I det här standardfältet anges tiden på dagen för en användares senaste besök. |
 | firstSessionStart | Detta standardfält innehåller den tid på dagen då användarens första session påbörjades. |
 | user.sessionCountScript | Flera informationsdelar i [!DNL Target] profiler överförs eller tillhandahålls direkt av Data Controller. I det här exemplet ökar ett profilskript antalet sessioner som den här besökaren har gjort på Data Controller-platsen. Mer information finns i [Profilskriptattribut](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ Följande tabell innehåller en beskrivning av JSON-fälten för den illustrativ
 
 ### Gör [!DNL Target] Vill du ha stöd för obehörig IP-hantering? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Integritet](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+[!DNL Target] har stöd för IP-förfalskning om du väljer att använda det som en del av GDPR- eller CCPA-implementeringsstrategin. Mer information finns i [Integritet](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ### Bör jag göra något för att förhindra att mina data delas eller säljs till tredje part?
 

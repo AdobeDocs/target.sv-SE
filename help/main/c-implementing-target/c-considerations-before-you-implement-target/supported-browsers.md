@@ -5,9 +5,9 @@ title: Vad webbläsare gör [!DNL Target] Support?
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 The [!DNL Adobe Target] applikationer och innehåll har testats i en rad olika webbläsare och enheter.
 
-Mer information om TLS finns i [Krypteringsändringar för TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+Mer information om TLS finns i [Krypteringsändringar för TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
 
 ## [!DNL Target] Standard-/Premium-gränssnitt {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -34,7 +34,7 @@ Materialet har testats i följande webbläsare och enheter:
 | Enhetstyp | Webbläsarversion |
 |--- |--- |
 | Windows | <ul><li>Microsoft Internet Explorer 9 och 10. Testad i emuleringsläge.<br>**Anteckning**: Innehållsleverans på IE 9 stöds inte längre med at.js 1.3.0 (och senare). Innehållsleverans på IE 10, 11 och alla äldre versioner stöds inte längre med at.js 2.5.0 (och senare).</li><li>Internet Explorer 11 <br>**Anteckning**: Innehållsleverans på IE 10, 11 och alla äldre versioner stöds inte längre med at.js 2.5.0 (och senare).</li><li>Microsoft Edge</li><li>Krom (senaste, senaste minus 1)</li><li>Firefox (senaste, senaste minus 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (senaste)<br>**Anteckning**: Mer information om hur Safari hanterar cookies från första och tredje part finns i [Målcookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/).</li><li>Firefox (senaste, senaste minus 1)</li><li>Krom (senaste, senaste minus 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (senaste)<br>**Anteckning**: Mer information om hur Safari hanterar cookies från första och tredje part finns i [Målcookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/){target=_blank}.</li><li>Firefox (senaste, senaste minus 1)</li><li>Krom (senaste, senaste minus 1)</li></ul> |
 | Mobil/surfplatta | <ul><li>Apple iOS (senaste)</li><li>Android-enheter och -surfplattor (Android 4 och senare)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Observera följande:

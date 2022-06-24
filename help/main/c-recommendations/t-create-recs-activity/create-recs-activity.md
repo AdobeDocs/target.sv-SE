@@ -4,9 +4,9 @@ description: Lär dig använda Adobe [!DNL Target] Visual Experience Composer (V
 title: Hur skapar jag en Recommendations-aktivitet?
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    >[!NOTE]
    >
-   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för aktuell artikel/aktuella kategorirekommendationer att vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten, avmarkerar du **[!UICONTROL Compatible]** kryssruta. The [!UICONTROL Compatible] det kan hända att alternativet inte visas, beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](https://developer.adobe.com/target/implement/recommendations/).
+   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för aktuell artikel/aktuella kategorirekommendationer att vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten, avmarkerar du **[!UICONTROL Compatible]** kryssruta. The [!UICONTROL Compatible] det kan hända att alternativet inte visas, beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
    ![Välj villkor, dialogruta](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

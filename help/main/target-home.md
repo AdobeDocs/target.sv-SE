@@ -4,9 +4,9 @@ title: Var kan jag hitta [!DNL Target] dokumentation?
 description: Lär dig använda Adobe [!DNL Target] för att personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 - Integrera Target med Adobe Experience Cloud: Förklarar hur man integrerar [!DNL Target] med andra [!DNL Experience Cloud] lösningar, inklusive [Analyser för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)och [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Här finns självstudiekurser och videoklipp som hjälper dig att få ut mesta möjliga av Target.
 - [Felsökningsmål](r-troubleshooting-target/troubleshooting-target.md): Tillhandahåller länkar till felsökningsinformation i den här handboken, inklusive information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar osv.) som påverkar aktiviteter och andra element i [!DNL Target].
-- [Mål för mobilappar](https://developer.adobe.com/target/implement/mobile/): Beskriver hur [!DNL Target] kan användas för mobilappsoptimering och -personalisering.
+- [Mål för mobilappar](https://developer.adobe.com/target/implement/mobile/){target=_blank}: Beskriver hur [!DNL Target] kan användas för mobilappsoptimering och -personalisering.
 - [Resurser och kontaktinformation](cmp-resources-and-contact-information.md): Ger information om fler resurser som kan hjälpa dig att lära dig mer om [!DNL Target] funktioner och hur du kontaktar [!DNL Adobe] behöver du hjälp.
 
 ## Marknadsförare {#marketers}
@@ -68,4 +68,4 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 
 | Adobe [!DNL Target] lösningar | [!DNL Adobe Experience Cloud] resurser |
 |--- |--- |
-| <ul><li>[Adobe Target Läs mer &amp; Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search &amp; Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Mål-API-dokumentation](https://developer.adobe.com/target/)</li></ul> | <ul><li>[Forum för målgrupper](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Hjälp om Experience Cloud - startsida](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud Documentation](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe och Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target Läs mer &amp; Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search &amp; Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Mål-API-dokumentation](https://developer.adobe.com/target/){target=_blank}</li></ul> | <ul><li>[Forum för målgrupper](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Hjälp om Experience Cloud - startsida](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud Documentation](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe och Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |

@@ -5,9 +5,9 @@ title: Vilka funktioner som stöds i Enhetsbeslut
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Tabellen nedan visar vilka målgruppsregler som stöds eller inte stöds för en
 
 ### Målinriktning för geolokalisering för beslut på enheter
 
-Adobe rekommenderar att du anger geovärdena själv i anropet till [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Ange Geo-objektet i sammanhanget för begäran. Det innebär att webbläsaren ska avgöra var besökarna befinner sig. Du kan till exempel utföra en IP-till-Geo-sökning med en tjänst som du konfigurerar. Vissa värdtjänstleverantörer, som Google Cloud, tillhandahåller den här funktionen via anpassade rubriker i varje `HttpServletRequest`.
+Adobe rekommenderar att du anger geovärdena själv i anropet till [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}. Ange Geo-objektet i sammanhanget för begäran. Det innebär att webbläsaren ska avgöra var besökarna befinner sig. Du kan till exempel utföra en IP-till-Geo-sökning med en tjänst som du konfigurerar. Vissa värdtjänstleverantörer, som Google Cloud, tillhandahåller den här funktionen via anpassade rubriker i varje `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

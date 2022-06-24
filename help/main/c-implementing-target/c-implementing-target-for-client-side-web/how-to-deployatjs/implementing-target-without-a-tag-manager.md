@@ -5,9 +5,9 @@ title: Kan jag implementera [!DNL Target] utan en tagghanterare?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1806'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Du kan ange följande inställningar på den här sidan:
 
 >[!NOTE]
 >
->Du kan åsidosätta inställningarna i at.js-biblioteket i stället för att konfigurera inställningarna i [!DNL Target Standard/Premium] Användargränssnitt eller med REST API:er. Mer information finns i [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+>Du kan åsidosätta inställningarna i at.js-biblioteket i stället för att konfigurera inställningarna i [!DNL Target Standard/Premium] Användargränssnitt eller med REST API:er. Mer information finns i [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Kontoinformation
 
@@ -96,7 +96,7 @@ Mer information finns i avsnitten:
 
 Aktivera eller inaktivera autentisering för batchuppdateringar via API och generera en profilautentiseringstoken.
 
-Mer information finns i [Profil-API-inställningar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
+Mer information finns i [Profil-API-inställningar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/){target=_blank}.
 
 ### Felsökningsverktyg
 
@@ -114,11 +114,11 @@ Välj önskad inställning i listrutan Förhindra besökarens IP-adress:
 * Hela IP-förvrängningen
 * Ingen
 
-Mer information finns i [Integritet](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+Mer information finns i [Integritet](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 >[!NOTE]
 >
->Alternativet Stöd för äldre webbläsare var tillgängligt i version 0.9.3 och tidigare av at.js. Det här alternativet togs bort i at.js version 0.9.4. En lista över webbläsare som stöds av at.js finns på [Webbläsare som stöds](https://developer.adobe.com/target/before-implement/supported-browsers/).<br>Äldre webbläsare är äldre webbläsare som inte har fullständigt stöd för CORS (Cross Origin Resource Sharing). Följande webbläsare innehåller: Internet Explorer-webbläsare tidigare än version 11 och Safari version 6 och tidigare. Om stöd för äldre webbläsare inaktiverades kunde Target inte leverera innehåll eller räkna besökare i rapporter för dessa webbläsare. Om det här alternativet är aktiverat rekommenderas kvalitetssäkring i äldre webbläsare för att säkerställa en bra kundupplevelse.
+>Alternativet Stöd för äldre webbläsare var tillgängligt i version 0.9.3 och tidigare av at.js. Det här alternativet togs bort i at.js version 0.9.4. En lista över webbläsare som stöds av at.js finns på [Webbläsare som stöds](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}.<br>Äldre webbläsare är äldre webbläsare som inte har fullständigt stöd för CORS (Cross Origin Resource Sharing). Följande webbläsare innehåller: Internet Explorer-webbläsare tidigare än version 11 och Safari version 6 och tidigare. Om stöd för äldre webbläsare inaktiverades kunde Target inte leverera innehåll eller räkna besökare i rapporter för dessa webbläsare. Om det här alternativet är aktiverat rekommenderas kvalitetssäkring i äldre webbläsare för att säkerställa en bra kundupplevelse.
 
 ## Ladda ned på.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -128,7 +128,7 @@ Instruktioner för att hämta biblioteket med [!DNL Target] för Download API.
 >
 >* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} är den metod som rekommenderas för implementering [!DNL Target] och biblioteket at.js. Följande information gäller inte när du använder taggar i [!DNL Adobe Experience Platform] implementera [!DNL Target].
 >
->* The [!DNL Target] team har stöd för både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>* The [!DNL Target] team har stöd för både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 
 ### Hämta at.js med [!DNL Target] gränssnitt {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ För nedladdning [!DNL at.js] med API:t.
 
    >[!IMPORTANT]
    >
-   >Target-teamet underhåller endast två versioner av [!DNL at.js]- den aktuella versionen och den senaste versionen. Uppgradera [!DNL at.js] vid behov för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+   >Target-teamet underhåller endast två versioner av [!DNL at.js]- den aktuella versionen och den senaste versionen. Uppgradera [!DNL at.js] vid behov för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
    När du läser in den här URL:en börjar nedladdningen av din anpassade [!DNL at.js] -fil.
 
@@ -247,7 +247,7 @@ Tänk på följande viktiga punkter:
 * Dokumenttypen HTML5 (till exempel `<!doctype html>`) ska användas. Dokumenttyper som inte stöds eller äldre kan göra att Target inte kan göra en begäran.
 * Föranslutning och Förhämtning är alternativ som kan hjälpa webbsidorna att läsas in snabbare. Om du använder dessa konfigurationer måste du ersätta `<client code>` med din egen klientkod, som du kan få från **[!UICONTROL Administration]** > **[!UICONTROL Implementation] sida.
 * Om du har ett datalager är det optimalt att definiera så mycket som möjligt av det i `<head>` av dina sidor innan at.js läses in. Den här placeringen ger maximal möjlighet att använda den här informationen i Target för personalisering.
-* Särskilda Target-funktioner, som `targetPageParams()`, `targetPageParamsAll()`, Data Providers och `targetGlobalSettings()` ska definieras efter datalagret och innan at.js läses in. Dessa funktioner kan också sparas i [!UICONTROL Library Header] i [!UICONTROL Edit at.js Settings] och sparas som en del av at.js-biblioteket. Mer information om de här funktionerna finns i [Funktionerna at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+* Särskilda Target-funktioner, som `targetPageParams()`, `targetPageParamsAll()`, Data Providers och `targetGlobalSettings()` ska definieras efter datalagret och innan at.js läses in. Dessa funktioner kan också sparas i [!UICONTROL Library Header] i [!UICONTROL Edit at.js Settings] och sparas som en del av at.js-biblioteket. Mer information om de här funktionerna finns i [Funktionerna at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 * Om du använder hjälpbibliotek för JavaScript, t.ex. jQuery, kan du inkludera dem före Target så att du kan använda deras syntax och metoder när du skapar Target-upplevelser.
 * Inkludera at.js i `<head>` av sidorna.
 

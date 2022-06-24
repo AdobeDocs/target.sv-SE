@@ -5,9 +5,9 @@ title: Hur använder jag funktionerna mboxDefine() och mboxUpdate()?
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Skapar en intern mappning mellan ett nodeId och ett mbox-namn, men kör inte beg
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-Kör begäran och tillämpar erbjudandet på det element som identifieras av `nodeId` i `mboxDefine()`. Kan även användas för att uppdatera en mbox som initierats av `mboxCreate`. Inbyggt i [!DNL at.js] mest för att underlätta övergången från [!DNL mbox.js] (nu borttagen) till [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` kan ersättas med [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} och [adobe.target.applyOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/){target=_blank} med alternativet väljare.
+Kör begäran och tillämpar erbjudandet på det element som identifieras av `nodeId` i `mboxDefine()`. Kan även användas för att uppdatera en mbox som initierats av `mboxCreate`. Inbyggt i [!DNL at.js] mest för att underlätta övergången från [!DNL mbox.js] (nu borttagen) till [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` kan ersättas med [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} och [adobe.target.applyOffer(){target=_blank}](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/){target=_blank} med alternativet väljare.
 
 ## Exempel {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

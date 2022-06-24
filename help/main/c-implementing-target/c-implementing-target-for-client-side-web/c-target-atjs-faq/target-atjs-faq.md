@@ -5,9 +5,9 @@ title: Vad är vanliga frågor och svar om at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Om du distribuerar at.js via en asynkron [!DNL Adobe Experience Platform] implem
 
 Om du distribuerar at.js via en synkron DTM-implementering kan det fördolda fragmentet läggas till via en sidinläsningsregel som aktiveras högst upp på sidan.
 
-Mer information finns i [Hur at.js hanterar flimmer](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+Mer information finns i [Hur at.js hanterar flimmer](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ## Är at.js kompatibel med [!DNL Adobe Experience Manager] integrering (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ Mer information finns i [Hur at.js hanterar flimmer](https://developer.adobe.com
 
 ## Hur förhindrar jag sidinläsningsflimmer med at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-I Target finns flera sätt att förhindra sidinläsningsflimmer. Mer information finns i [Förhindra flimmer med at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+I Target finns flera sätt att förhindra sidinläsningsflimmer. Mer information finns i [Förhindra flimmer med at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ## Vilken är filstorleken för at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ Ja, precis som med mbox.js.
 
 [!DNL Target] kunder använder ibland molnbaserade instanser med [!DNL Target] för testning eller enkla konceptbevis. Dessa domäner, och många andra, ingår i [Lista över offentliga suffix](https://publicsuffix.org/list/public_suffix_list.dat).
 
-I moderna webbläsare sparas inte cookies om du använder dessa domäner om du inte anpassar `cookieDomain` ange med targetGlobalSettings(). Mer information finns i [Använda molnbaserade instanser med mål](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/).
+I moderna webbläsare sparas inte cookies om du använder dessa domäner om du inte anpassar `cookieDomain` ange med targetGlobalSettings(). Mer information finns i [Använda molnbaserade instanser med mål](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/){target=_blank}.
 
 ## Kan IP-adresser användas som cookie-domän när du använder at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Ja, om du använder [at.js version 1.2 eller senare](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). [!DNL Adobe] Vi rekommenderar dock att du håller dig uppdaterad med den senaste versionen.
+Ja, om du använder [at.js version 1.2 eller senare](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. [!DNL Adobe] Vi rekommenderar dock att du håller dig uppdaterad med den senaste versionen.
 
 >[!NOTE]
 >
 >Följande exempel är inte nödvändiga om du använder at.js version 1.2 eller senare.
 
-Beroende på hur du använder [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)kan du behöva göra ytterligare ändringar i koden efter att ha laddat ned at.js. Om du t.ex. behövde lite olika inställningar för [!DNL Target] implementeringar på olika webbplatser och det gick inte att definiera dessa inställningar dynamiskt med anpassat JavaScript, gör anpassningarna manuellt efter att filen har laddats ned och innan den överförs till respektive webbplats.
+Beroende på hur du använder [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}, kan du behöva göra ytterligare ändringar i koden efter att ha laddat ned at.js. Om du t.ex. behövde lite olika inställningar för [!DNL Target] implementeringar på olika webbplatser och det gick inte att definiera dessa inställningar dynamiskt med anpassat JavaScript, gör anpassningarna manuellt efter att filen har laddats ned och innan den överförs till respektive webbplats.
 
 I följande exempel kan du använda `targetGlobalSettings()` funktionen at.js för att infoga ett kodfragment som stöder IP-adresser:
 
@@ -202,10 +202,10 @@ Följande är möjliga rotorsaker om du ser det här varningsmeddelandet:
 * Sidan byggs dynamiskt och at.js kan inte hitta elementet.
 * Sidan byggs långsamt (på grund av ett långsamt nätverk) och at.js kan inte hitta väljaren i DOM.
 * Sidstrukturen som är aktiv[!UICONTROL y is running on has been changed. If you reopen the activity in the ]VEC (Visual Experience Composer) bör du få ett varningsmeddelande. Uppdatera aktiviteten så att alla nödvändiga element kan hittas.
-* Den underliggande sidan är en del av en [!UICONTROL Single Page Application] (SPA) eller sidan innehåller element som visas längre ned på sidan och på sidan [!DNL at.js] &quot;väljaravsökningsmekanism&quot; kan inte hitta dessa element. Öka `selectorsPollingTimeout` kanske kan hjälpa. Mer information finns i [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+* Den underliggande sidan är en del av en [!UICONTROL Single Page Application] (SPA) eller sidan innehåller element som visas längre ned på sidan och på sidan [!DNL at.js] &quot;väljaravsökningsmekanism&quot; kan inte hitta dessa element. Öka `selectorsPollingTimeout` kanske kan hjälpa. Mer information finns i [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 * Alla klickspårningsmått försöker lägga till sig själv på varje sida, oavsett vilken URL som måttet har ställts in på. Även om det är ofarligt visas många av dessa meddelanden.
 
-   Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} och [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+   Du får bäst resultat om du laddar ned och använder den senaste versionen av [!DNL at.js]. Mer information finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} och [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ## Vad är domänen tt.omtrdc.net som [!DNL Target] går serversamtal till? {#section_999C29940E8B4CAD8A957A6B1D440317}
 

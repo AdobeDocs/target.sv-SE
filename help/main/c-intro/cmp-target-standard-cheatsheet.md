@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target funktioner
 title: Var kan jag hitta svar på Mina optimerings- och personaliseringsfrågor?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '2795'
 ht-degree: 0%
 
 ---
@@ -309,10 +309,10 @@ Vi beklagar att du har problem. Checka ut [Felsökningsmål](/help/main/r-troubl
 
 **Vi har en mobil SKU. Kan jag skapa mobilaktiviteter?**
 
-För optimering och personalisering på mobilen måste ni använda [formulärbaserad verksamhet](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) tillsammans med [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Läs mer om [Mål för mobilappar](https://developer.adobe.com/target/implement/mobile/).
+För optimering och personalisering på mobilen måste ni använda [formulärbaserad verksamhet](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) tillsammans med [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Läs mer om [Mål för mobilappar](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## Mål-API:er {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Var kan jag läsa mer om Target API:er?**
 
-Vi har utförlig dokumentation om API:er. Se [Dokumentation för leverans-API:er, NodeJS SDK och Recommendations API:er](https://developer.adobe.com/target/implement/server-side/).
+Vi har utförlig dokumentation om API:er. Se [Dokumentation för leverans-API:er, NodeJS SDK och Recommendations API:er](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

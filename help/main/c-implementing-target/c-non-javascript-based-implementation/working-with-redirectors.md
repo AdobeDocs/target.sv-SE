@@ -5,9 +5,9 @@ title: Hur arbetar jag med Redirectors?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Använd omdirigeraren för att göra följande:
 
 * Hitta den landningssida som leder till flest konverteringar
 
-Information om hur du bestämmer rätt inställningar finns i [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/).
+Information om hur du bestämmer rätt inställningar finns i [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 ## Skapa en omdirigerare {#redirector}
 

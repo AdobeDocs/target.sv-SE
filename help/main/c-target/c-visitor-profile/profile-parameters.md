@@ -4,9 +4,9 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2405'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Så här ställer du in profilattribut:
 
    | Parametertyp | Beskrivning |
    |--- |--- |
-   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).<br>**Anteckning**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka mer än 50 profilattribut till [!DNL Target]skickar du dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i [!DNL Adobe Target] API-dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.<br>**Anteckning**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka mer än 50 profilattribut till [!DNL Target]skickar du dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i [!DNL Adobe Target] API-dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Definieras direkt med ett JavaScript-kodfragment. De här fragmenten kan lagra summor som går åt som summor som förbrukas av konsumenten och de körs på varje mbox-begäran. Se Profilskriptattribut nedan. |
 
 ## Profilskriptattribut {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
 **Går det att använda profilskript för att hämta information från en sida som finns i ett datalager?**
 
-Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas via en mbox-begäran eller via andra [metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). När data finns i [!DNL Target]kan profilskript läsa data som en mbox-parameter eller profilparameter.
+Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas via en mbox-begäran eller via andra [metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. När data finns i [!DNL Target]kan profilskript läsa data som en mbox-parameter eller profilparameter.
 
 ## JavaScript-referens för skriptprofilparametrar
 

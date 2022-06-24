@@ -4,9 +4,9 @@ description: Ta en titt på Adobe Target. Lär dig mer om tillgängliga aktivite
 title: Var hittar jag en introduktion på hög nivå till Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2486'
+source-wordcount: '2490'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,8 @@ Många av er kanske vill använda [!DNL Target] för att testa och personalisera
 
 | Implementeringstyp | Detaljer |
 | --- | --- |
-| Klientsidan | Med denna implementering av [!DNL Target], [!DNL Target] levererar upplevelserna som är kopplade till en aktivitet direkt till klientwebbläsaren. Webbläsaren avgör vilken upplevelse som ska visas och visar den. Med klientsidan kan du använda en WYSIWYG-redigerare, **[!UICONTROL Visual Experience Composer]** (VEC), eller ett icke-visuellt gränssnitt, **[!UICONTROL Form-based Experience Composer]**, för att skapa test- och personaliseringsupplevelser. [Läs mer](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/). |
-| Serversidan | I den här typen av [!DNL Target] implementering, en klientenhet begär en upplevelse via servern, servern skickar begäran till [!DNL Target], [!DNL Target] skickar tillbaka svaret till servern och servern bestämmer vilken upplevelse som ska levereras till klientenheten för att den ska kunna återges. upplevelsen inte behöver visas i en webbläsare, den kan visas i ett e-postmeddelande eller i en kioskdator, via en röstassistent eller via någon annan icke-visuell upplevelse eller icke-webbläsarbaserad enhet. Eftersom servern är placerad mellan klienten och [!DNL Target]är den här typen av implementering också idealisk om du behöver större kontroll och säkerhet eller har komplexa serverprocesser som du vill köra på servern. [Läs mer](https://developer.adobe.com/target/implement/server-side/). |
+| Klientsidan | Med denna implementering av [!DNL Target], [!DNL Target] levererar upplevelserna som är kopplade till en aktivitet direkt till klientwebbläsaren. Webbläsaren avgör vilken upplevelse som ska visas och visar den. Med klientsidan kan du använda en WYSIWYG-redigerare, **[!UICONTROL Visual Experience Composer]** (VEC), eller ett icke-visuellt gränssnitt, **[!UICONTROL Form-based Experience Composer]**, för att skapa test- och personaliseringsupplevelser. [Läs mer](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
+| Serversidan | I den här typen av [!DNL Target] implementering, en klientenhet begär en upplevelse via servern, servern skickar begäran till [!DNL Target], [!DNL Target] skickar tillbaka svaret till servern och servern bestämmer vilken upplevelse som ska levereras till klientenheten för att den ska kunna återges. upplevelsen inte behöver visas i en webbläsare, den kan visas i ett e-postmeddelande eller i en kioskdator, via en röstassistent eller via någon annan icke-visuell upplevelse eller icke-webbläsarbaserad enhet. Eftersom servern är placerad mellan klienten och [!DNL Target]är den här typen av implementering också idealisk om du behöver större kontroll och säkerhet eller har komplexa serverprocesser som du vill köra på servern. [Läs mer](https://developer.adobe.com/target/implement/server-side/){target=_blank}. |
 | Hybrid-implementering | I den här implementeringen väljer du den implementeringsmetod som fungerar bäst för ett visst användningsfall. Du kan till exempel använda en implementering på klienten för att A/B-testa ett erbjudande i en hjältebanderoll på startsidan, men även använda en implementering på serversidan för att avgöra vilka interna sökresultat som ska visas i en klientwebbläsare, upplevelsen som ska visas på en smart bildinstrumentpanel eller röstsvaret som ska visas från en röstassistent. |
 
 ## Aktivitetselement

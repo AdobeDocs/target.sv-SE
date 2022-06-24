@@ -5,9 +5,9 @@ title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algor
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2763'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Det logiska flödet för den faktiska algoritmimplementeringen visas i följande
 
 Här följer information om de här stegen:
 
-* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementera mål](https://developer.adobe.com/target/implement/recommendations/){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementera mål](https://developer.adobe.com/target/implement/recommendations/){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -80,7 +80,7 @@ Algoritm:
 
 * [!UICONTROL Items with Similar Attributes]
 
-I den här typen av algoritm anses två objekt vara relaterade om deras namn och textbeskrivningar är semantiskt lika. Till skillnad från de flesta rekommendationsalgoritmer där beteendedatakällor måste användas, använder algoritmer för innehållets likhet metadata från produktkataloger för att härleda likheterna mellan objekt. [!DNL Target] kan därför leda till rekommendationer i så kallade&quot;kallstartsscenarier&quot;, där inga beteendedata har samlats in (t.ex. i början av en [!DNL Target] aktivitet).
+I den här typen av algoritm anses två objekt vara relaterade om deras namn och textbeskrivningar är semantiskt lika. Till skillnad från de flesta rekommendationsalgoritmer där beteendedatakällor måste användas, använder algoritmer för innehållets likhet metadata från produktkataloger för att härleda likheterna mellan objekt. [!DNL Target] kan därför leda till rekommendationer i så kallade&quot;kallstart&quot;-scenarier där inga beteendedata har samlats in (till exempel i början av en [!DNL Target] aktivitet).
 
 Även om modellservning och innehållsleverans är [!DNL Target]Likhetsalgoritmer för innehåll är identiska med andra objektbaserade algoritmer. Modellutbildningsstegen är helt olika och omfattar en serie naturliga språkbehandlings- och förbearbetningssteg enligt bilden nedan. Kärnan i likhetsberäkningen är användningen av den koniska likheten hos modifierade tf-idf-vektorer som representerar varje objekt i katalogen.
 
@@ -88,7 +88,7 @@ I den här typen av algoritm anses två objekt vara relaterade om deras namn och
 
 Här följer information om de här stegen:
 
-* **Indata**: Den här algoritmen är som tidigare enbart baserad på katalogdata (hämtas från [!DNL Target] via [Katalogfeed, Entity API eller från siduppdateringar](https://developer.adobe.com/target/implement/recommendations/).
+* **Indata**: Den här algoritmen är som tidigare enbart baserad på katalogdata (hämtas från [!DNL Target] via [Katalogfeed, Entity API eller från siduppdateringar](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -126,7 +126,7 @@ Logiken i modellutbildning och poängsättning visas i följande diagram:
 
 Här följer information om de här stegen:
 
-* **Indata**: Detta är identiskt med CF-metoder (item-item collaborative filtering). [!UICONTROL Both Recommended For You] och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlas in när du [implementera mål](https://developer.adobe.com/target/implement/recommendations/){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Indata**: Detta är identiskt med CF-metoder (item-item collaborative filtering). [!UICONTROL Both Recommended For You] och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlas in när du [implementera mål](https://developer.adobe.com/target/implement/recommendations/){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modellutbildning**:
 

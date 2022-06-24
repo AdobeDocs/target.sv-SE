@@ -5,9 +5,9 @@ title: Hur använder jag funktionen targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Du kan åsidosätta följande inställningar:
 * **Standardvärde**: body { opacity: 0 }
 * **Beskrivning**: Används endast när `globalMboxAutocreate === true` för att minimera risken för flimmer.
 
-   Mer information finns i [How at.js Manages Flicker](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+   Mer information finns i [How at.js Manages Flicker](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ Du kan åsidosätta följande inställningar:
 
 * **Typ**: Boolean
 * **Standardvärde**: false
-* **Beskrivning**: [!DNL Target] ger stöd för tillvalsfunktioner via [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket, lägg till `optinEnabled=true` inställning. I [!DNL Adobe Experience Platform] du måste välja&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Adobe Experience Platform-dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} om du vill ha mer information. Mer information om den här inställningen när det gäller sekretess- och dataskyddsbestämmelser, inklusive EU:s allmänna dataskyddsförordning (GDPR) och Kaliforniens konsumentsekretesslag (CCPA), finns på [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **Beskrivning**: [!DNL Target] ger stöd för tillvalsfunktioner via [!DNL Adobe Experience Platform] för att stödja er strategi för samtyckeshantering. Tack vare avanmälningsfunktionen kan kunderna styra hur och när [!DNL Target] -taggen utlöses. Det finns också ett alternativ via [!DNL Adobe Experience Platform] för att förgodkänna [!DNL Target] -tagg. Så här aktiverar du möjligheten att använda Opt-In i [!DNL Target] at.js-biblioteket, lägg till `optinEnabled=true` inställning. I [!DNL Adobe Experience Platform] du måste välja&quot;enable&quot; på [!UICONTROL GDPR Opt-In] nedrullningsbar lista i installationsvyn för tillägget. Se [Adobe Experience Platform-dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} om du vill ha mer information. Mer information om den här inställningen när det gäller sekretess- och dataskyddsbestämmelser, inklusive EU:s allmänna dataskyddsförordning (GDPR){target=_blank} och California Consumer Privacy Act (CCPA), finns på [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}.
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ Efter `cspScriptNonce` och `cspStyleNonce` -inställningarna anges, anger at.js 
 Du måste ha en hybridintegrering av [!DNL Target].
 
 * **Serversidan**: Du måste använda den nya [leverans-API](https://developers.adobetarget.com/api/delivery-api/) eller [Mål-SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Klientsidan**: Du måste använda [at.js version 2.2 eller senare](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Klientsidan**: Du måste använda [at.js version 2.2 eller senare](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Kodexempel
 

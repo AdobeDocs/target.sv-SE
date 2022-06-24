@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 | Resurs | Detaljer |
 |--- |--- |
 | [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
-| [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScript-bibliotek. |
+| [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScript-bibliotek. |
 
 ## Dokumentationsändringar, versionsinformation för senaste utgåvan och Experience Cloud
 

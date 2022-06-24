@@ -5,9 +5,9 @@ title: Var hittar jag information om [!DNL Target] Cookies?
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Cookie-beteendet beror på om det är en cookie från en annan leverantör, en c
 >
 >Det här avsnittet innehåller information om `mboxSession` och `mboxPC`. Bästa praxis för implementering rekommenderar att du inte länkar eller lagrar känslig information med cookie-data: `mboxSession` eller `mboxPC`.
 
-Se även [Ta bort målcookien](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/).
+Se även [Ta bort målcookien](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/){target=_blank}.
 
 ## När cookies från första eller tredje part ska användas {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -137,5 +137,5 @@ Från Apple:
 
 | Funktioner som påverkas | Detaljer |
 |--- |--- |
-| Stöd för avanmälan | Stöd för avanmälan om ändringsbrytningar för Apple WebKit-spårning.<br>[!DNL Target] avanmälan använder en cookie i `clientcode.tt.omtrdc.net` domän. Mer information finns i [Integritet](https://developer.adobe.com/target/before-implement/privacy/privacy/).<br>[!DNL Target] har stöd för två avanmälningar:<ul><li>En per klient (klienten hanterar länken för avanmälan).</li><li>En via [!DNL Adobe] som gör användaren borta från alla [!DNL Target] för alla kunder.</li></ul>Båda metoderna använder cookie-filen från tredje part. |
+| Stöd för avanmälan | Stöd för avanmälan om ändringsbrytningar för Apple WebKit-spårning.<br>[!DNL Target] avanmälan använder en cookie i `clientcode.tt.omtrdc.net` domän. Mer information finns i [Integritet](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.<br>[!DNL Target] har stöd för två avanmälningar:<ul><li>En per klient (klienten hanterar länken för avanmälan).</li><li>En via [!DNL Adobe] som gör användaren borta från alla [!DNL Target] för alla kunder.</li></ul>Båda metoderna använder cookie-filen från tredje part. |
 | [!DNL Target] verksamhet | Kunderna kan själva välja [livslängd för profil](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) för [!DNL Target] konton (upp till 90 dagar). Problemet är att om kontots profillivstid är längre än 30 dagar och cookie-filen rensas bort eftersom kundens domän har markerats som spårning av användare på alla webbplatser påverkas beteendet för Safari-besökare i följande områden i [!DNL Target]:<br>**[!DNL Target] rapporter **: Om en Safari-användare går in i en aktivitet returneras efter 30 dagar och konverteras sedan räknas användaren som två besökare och en konvertering.<br>Detta beteende är detsamma för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T).<br>** Profil- och aktivitetsmedlemskap **:<ul><li>Profildata raderas när cookie-filen från första part förfaller.</li><li>Aktivitetsmedlemskapet raderas när cookie-filen från första part förfaller.</li><li> [!DNL Target] fungerar inte i Safari för konton som använder en cookie-implementering från tredje part eller en cookie-implementering från första och tredje part. Det här beteendet är inte nytt. Safari har inte tillåtit cookies från tredje part på ett tag.</li></ul><br>**Förslag**: Om det finns en oro för att kunddomänen kan markeras som en spårning av besökare under en korssession, är det säkraste att ange profilens livstid till 30 dagar eller mindre under [!DNL Target]. Den här gränsen gör att användare spåras på liknande sätt i Safari och alla andra webbläsare. |

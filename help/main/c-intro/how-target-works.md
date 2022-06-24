@@ -4,9 +4,9 @@ description: Se hur Adobe [!DNL Target] verk, inklusive information om [!DNL Tar
 title: Hur [!DNL Target] Arbeta?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2555'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Lär dig mer [!DNL Adobe Target] verk, inklusive information om [!DNL Adobe Expe
 
 [!DNL Target] integreras med webbplatser med [!DNL Experience Platform Web SDK] eller JavaScript-bibliotek:
 
-* **Adobe Experience Platform Web SDK:** The [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} är ett nytt JavaScript-bibliotek på klientsidan. Experience Platform Web SDK ger kunder som [!DNL Adobe Experience Cloud] interagerar med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL Experience Platform] Edge Network. Adobe rekommenderar alla nya [!DNL Target] kunder implementerar [!DNL Experience Platform Web SDK].
-* **at.js:** at.js-biblioteket är ett implementeringsbibliotek för [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. Adobe rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till [senaste versionen av at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Adobe Experience Platform Web SDK:** The [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} är ett nytt JavaScript-bibliotek på klientsidan. Experience Platform Web SDK ger kunder som [!DNL Adobe Experience Cloud] interagerar med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]){target=_blank} via [!DNL Experience Platform] Edge Network. Adobe rekommenderar alla nya [!DNL Target] kunder implementerar [!DNL Experience Platform Web SDK].
+* **at.js:** at.js-biblioteket är ett implementeringsbibliotek för [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. Adobe rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till [senaste versionen av at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 * **mbox.js:** mbox.js-biblioteket är det äldre implementeringsbiblioteket för [!DNL Target]. Biblioteket mbox.js stöds inte längre efter den 31 mars 2021.
 
 Referera till [!DNL Experience Platform Web SDK] eller at.js på alla sidor på webbplatsen. Du kan till exempel lägga till ett av dessa bibliotek i det globala sidhuvudet. Du kan också överväga att använda [taggar i Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) implementera [!DNL Target].
@@ -131,7 +131,7 @@ The [!DNL Target Recommendations] är värd för en tjänst [!DNL Adobe] datacen
 >
 >[!DNL Adobe Target] för närvarande inte har något Edge Cluster i Kina och besökarens prestanda är begränsad för [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge Clusters i landet, är webbplatsernas upplevelser [!DNL Target] kan påverkas. Upplevelserna kan ta lång tid att återge och sidinläsningen kan påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target] redigeringsgränssnitt.
 
-Du kan tillåtslista [!DNL Target] Edge Clusters, om du vill. Mer information finns i [tillåtelselista: Hörnkantsnoder](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/).
+Du kan tillåtslista [!DNL Target] Edge Clusters, om du vill. Mer information finns i [tillåtelselista: Hörnkantsnoder](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## Skyddad användarupplevelse {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

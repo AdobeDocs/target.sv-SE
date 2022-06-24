@@ -5,9 +5,9 @@ title: Hur [!DNL Target] Vill du hantera cookie-principer för Google Samesite?
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Google börjar som standard införa nya cookie-principer för användare som bö
 
 Från och med Chrome 80 måste webbutvecklare uttryckligen ange vilka cookies som kan användas på olika webbplatser. Detta är den första av många meddelanden som Google planerar att göra för att förbättra integriteten och säkerheten på webben.
 
-Med tanke på att Facebook har varit på frammarsch när det gäller sekretess och säkerhet har andra stora aktörer som Apple och nu Google snabbt dragit nytta av möjligheten att skapa nya identiteter som integritets- och säkerhetsstyrkor. Apple ledde paketet genom att först meddela ändringar av cookie-reglerna tidigt i år via ITP 2.1 och nyligen ITP 2.2. I ITP 2.1 blockerar Apple helt cookies från tredje part och sparar cookies som skapats i webbläsaren i endast sju dagar. I ITP 2.2 sparas cookies i endast en dag. Google meddelande är inte alls lika aggressivt som Apple, men det är det första steget mot samma slutmål. Mer information om Apple policy finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
+Med tanke på att Facebook har varit på frammarsch när det gäller sekretess och säkerhet har andra stora aktörer som Apple och nu Google snabbt dragit nytta av möjligheten att skapa nya identiteter som integritets- och säkerhetsstyrkor. Apple ledde paketet genom att först meddela ändringar av cookie-reglerna tidigt i år via ITP 2.1 och nyligen ITP 2.2. I ITP 2.1 blockerar Apple helt cookies från tredje part och sparar cookies som skapats i webbläsaren i endast sju dagar. I ITP 2.2 sparas cookies i endast en dag. Google meddelande är inte alls lika aggressivt som Apple, men det är det första steget mot samma slutmål. Mer information om Apple policy finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}.
 
 ## Vad är cookies och hur används de?
 

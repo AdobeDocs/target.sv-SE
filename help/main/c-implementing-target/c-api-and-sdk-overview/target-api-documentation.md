@@ -5,9 +5,9 @@ title: Hur övergår jag från äldre API:er till Adobe I/O?
 feature: Implement Server-side
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Information som hjälper dig att använda övergången från Target-API:er till 
 
 När Adobe Target Classic har tagits bort har även de API:er som är anslutna till ditt Target Classic-konto gjorts otillgängliga. Det här dokumentet hjälper dig att övergå dina gamla API-baserade integreringar till Target-API:erna som drivs av Adobe I/O.
 
-Mer information om Target API-dokumentationen finns i [Mål-API:er och NodeJS SDK](https://developer.adobe.com/target/implement/server-side/).
+Mer information om Target API-dokumentationen finns i [Mål-API:er och NodeJS SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 
 ## Terminologi {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 

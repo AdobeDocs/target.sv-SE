@@ -5,9 +5,9 @@ title: Hur skapar jag en Adbox för en bild?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Använd en AdBox för att leverera bilder i en implementering utanför webbplats
 
 En AdBox är som en mbox, men den styrs av en URL i stället för JavaScript. AdBox skapas med en särskild AdBox-URL som läser in en &quot;ad&quot;-ruta (eller AdBox) i ditt Adobe-konto. Använd den här AdBox istället för mbox i dina aktiviteter. Använd AdBox-URL:en i stället för en direkt bildreferens i e-postmeddelanden eller andra icke-JavaScript-implementeringar.
 
-Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/).
+Hjälp med att välja rätt konfiguration finns i [Icke-JavaScript-baserade implementeringar](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 1. Skapa AdBox-URL:
 

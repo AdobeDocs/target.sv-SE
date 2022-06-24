@@ -5,9 +5,9 @@ title: Hur får jag in data på [!DNL Target] Använda Data Providers?
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Obs! Dataleverantörer kräver at.js 1.3 eller senare.
 
 The `window.targetGlobalSettings.dataProviders` -inställningen är en matris med dataleverantörer.
 
-Mer information om strukturen för varje DataProvider finns i [Dataleverantörer](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Mer information om strukturen för varje DataProvider finns i [Dataleverantörer](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Exempel på användningsområden
 
@@ -44,7 +44,7 @@ at.js försöker inte cachelagra data. Om dataleverantören bara hämtar data en
 
 ## Exempel på koder
 
-Flera exempel finns i [Dataleverantörer](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Flera exempel finns i [Dataleverantörer](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Länkar till relevant information
 

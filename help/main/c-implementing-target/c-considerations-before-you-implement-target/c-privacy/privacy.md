@@ -5,9 +5,9 @@ title: Hur [!DNL Target] Hantera sekretessproblem?
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Enskilda data om funktionsanvändning samlas in för intern användning [!DNL Adobe] syften för att identifiera om [!DNL Target] funktioner fungerar som avsett eller för att identifiera funktioner som används i alltför liten utsträckning. Olika latensmått samlas in för att bidra till att åtgärda prestandaproblem. Personuppgifter samlas inte in.
 
-Du kan välja bort att rapportera användningsdata i våra SDK:er genom att ange `telemetryEnabled` till false i klientinitieringsalternativen. Mer information finns i [telemetryEnabled in targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Du kan välja bort att rapportera användningsdata i våra SDK:er genom att ange `telemetryEnabled` till false i klientinitieringsalternativen. Mer information finns i [telemetryEnabled in targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Samling med IP-adresser {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -68,4 +68,4 @@ Besökare som klickar på den här länken tas inte med i några mbox-förfrågn
 
 ## Sekretess- och dataskyddsbestämmelser
 
-Se [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} om du vill ha information om EU:s allmänna dataskyddsförordning (GDPR), Kalifornien:s konsumentsekretesslag (CCPA) och andra internationella integritetskrav, och hur dessa bestämmelser påverkar din organisation och Adobe Target.
+Se [Sekretess- och dataskyddsbestämmelser](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} om du vill ha information om EU:s allmänna dataskyddsförordning (GDPR){target=_blank}, California Consumer Privacy Act (CCPA) och andra internationella sekretesskrav, samt om hur dessa bestämmelser påverkar din organisation och Adobe Target.

@@ -5,9 +5,9 @@ title: Hur uppgraderar jag från at.js version 1.x till version 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '2874'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Här är några fördelar med att använda at.js 2.*x* som inte är tillgänglig
 
 ## at.js 2.*x* systemdiagram
 
-Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*x* med Vyer och hur detta förbättrar SPA. För att få en bättre introduktion till de koncept som används i at.js 2.*x*, se [Implementering av Single Page-program](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
+Följande diagram hjälper dig att förstå arbetsflödet i at.js 2.*x* med Vyer och hur detta förbättrar SPA. För att få en bättre introduktion till de koncept som används i at.js 2.*x*, se [Implementering av Single Page-program](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.
 
 ![Målflöde med at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -62,7 +62,7 @@ Nu, var `triggerView()` är implementerat på SPA, hämtas vyer och åtgärder f
 
    eller
 
-   Ladda ned på.js 2 manuellt.*x* använda målgränssnittet och distribuera det med [valfri metod](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/).
+   Ladda ned på.js 2 manuellt.*x* använda målgränssnittet och distribuera det med [valfri metod](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}.
 
 ## Borttagna at.js-funktioner
 
@@ -72,7 +72,7 @@ Det finns flera funktioner som har tagits bort i at.js 2.*x*.
 >
 >Om dessa inaktuella funktioner fortfarande används på din webbplats i .js 2.*x* visas konsolvarningar när distribueras. Det rekommenderade tillvägagångssättet vid uppgradering är att testa distributionen av at.js 2.*x* i en staging-miljö och se till att du går igenom varje varning som har loggats i konsolen och översätter de borttagna funktionerna till nya funktioner som introducerades i at.js 2.*x*.
 
-Du hittar de borttagna funktionerna och deras motsvarighet nedan. En fullständig lista över funktioner finns i [Funktionerna at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+Du hittar de borttagna funktionerna och deras motsvarighet nedan. En fullständig lista över funktioner finns i [Funktionerna at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 
 >[!NOTE]
 >at.js 2.*x* inte längre automatiskt fördöljer `mboxDefault` markerade element. Kunderna måste därför anpassa sig till fördöljningslogiken manuellt på webbplatsen eller via en tagghanterare.
@@ -365,10 +365,10 @@ I följande tabeller beskrivs at.js. 2.*x* kompatibilitet med olika aktivitetsty
 | Målgrupper | Ja |
 | Kundattribut | Ja |
 | AEM Experience Fragments | Ja |
-| [!DNL Adobe Experience Platform] extension | [Ja](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
+| [!DNL Adobe Experience Platform] extension | [Ja](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} |
 | Felsökning | Ja |
 | Revisor | Regler har ännu inte uppdaterats för kl. 2.js.*x* |
-| Anmäl dig | Nej. Inbyggt stöd för [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} stöds i [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| Anmäl dig | Nej. Inbyggt stöd för [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} stöds i [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 | AEM Förbättrad personalisering med Adobe Target | Nej |
 
 ### Funktioner

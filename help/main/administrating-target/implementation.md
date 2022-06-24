@@ -5,9 +5,9 @@ title: Hur implementeras? [!DNL Target] på Min webbplats?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Mer information finns i de olika avsnitten under [Implementera mål](/help/main/
 
 >[!NOTE]
 >
->Taggar i [!DNL Adobe Experience Platform] är den metod som ska implementeras [!DNL Target]. Taggar i [!DNL Adobe Experience Platform] är nästa generations tagghanteringsfunktioner från [!DNL Adobe]. Taggar ger kunderna ett enkelt sätt att driftsätta och hantera de analys-, marknadsförings- och reklamtaggar som behövs för att skapa relevanta kundupplevelser. Mer information finns i [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+>Taggar i [!DNL Adobe Experience Platform] är den metod som ska implementeras [!DNL Target]. Taggar i [!DNL Adobe Experience Platform] är nästa generations tagghanteringsfunktioner från [!DNL Adobe]. Taggar ger kunderna ett enkelt sätt att driftsätta och hantera de analys-, marknadsförings- och reklamtaggar som behövs för att skapa relevanta kundupplevelser. Mer information finns i [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 1. Så här öppnar du [!UICONTROL Implementation] sida, klicka **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-1. Information om inställningarna på den här sidan finns i [Implementera mål utan tagghanterare](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+1. Information om inställningarna på den här sidan finns i [Implementera mål utan tagghanterare](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ![Implementeringssida](/help/main/administrating-target/assets/implementation.png)

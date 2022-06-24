@@ -5,9 +5,9 @@ title: Hur använder jag CNAME i Target?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Instruktioner för att arbeta med [!DNL Adobe] Kundtjänst för att implementera
 
    [!DNL Adobe] Client Care meddelar dig när implementeringen är klar.
 
-1. Uppdatera `serverDomain` ([dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} till det nya CNAME-värdnamnet och uppsättningen `overrideMboxEdgeServer` till `false` ([dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} i at.js-konfigurationen.
+1. Uppdatera `serverDomain` ([dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank} till det nya CNAME-värdnamnet och ange `overrideMboxEdgeServer` till `false` ([dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank} i at.js-konfigurationen.
 
 ## Vanliga frågor
 
@@ -80,7 +80,7 @@ Nej, [!DNL Target] kräver ett separat värdnamn och certifikat.
 
 ### Är min nuvarande implementering av [!DNL Target] påverkas av ITP 2.x?
 
-Apple ITP (Intelligent Tracking Prevention) version 2.3 innehåller funktionen för hantering av CNAME-insvepning, som kan upptäcka [!DNL Adobe Target] CNAME-implementeringar och reducerar cookie-utgångsdatum till sju dagar. För närvarande [!DNL Target] har ingen lösning för ITP:s hantering av CNAME-insvepning. Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
+Apple ITP (Intelligent Tracking Prevention) version 2.3 innehåller funktionen för hantering av CNAME-insvepning, som kan upptäcka [!DNL Adobe Target] CNAME-implementeringar och reducerar cookie-utgångsdatum till sju dagar. För närvarande [!DNL Target] har ingen lösning för ITP:s hantering av CNAME-insvepning. Mer information om ITP finns i [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}.
 
 ### Vilken typ av tjänstavbrott kan jag förvänta mig när CNAME-implementeringen distribueras?
 
@@ -335,7 +335,7 @@ Använd följande kommandouppsättning (i kommandoradsterminalen i macOS eller L
 Om du använder CNAME bör länken för avanmälan innehålla &quot;client=`clientcode` parameter, till exempel:
 `https://my.cname.domain/optout?client=clientcode`.
 
-Ersätt `clientcode` med klientkoden lägger du sedan till texten eller bilden som ska länkas till [avanmälnings-URL](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+Ersätt `clientcode` med klientkoden lägger du sedan till texten eller bilden som ska länkas till [avanmälnings-URL](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ## Kända begränsningar
 

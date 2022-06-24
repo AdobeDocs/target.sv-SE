@@ -5,16 +5,16 @@ title: Hur [!DNL Target] Vill du hantera CSP (Content Security Policies)?
 feature: Privacy & Security
 role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
 
 # CSP-direktiv (Content Security Policy)
 
-Om du använder [Skyddsprofil för innehåll](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) för [!DNL Adobe Target] implementering bör du lägga till följande CSP-direktiv när du använder [at.js 2.1 eller senare](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/):
+Om du använder [Skyddsprofil för innehåll](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) för [!DNL Adobe Target] implementering bör du lägga till följande CSP-direktiv när du använder [at.js 2.1 eller senare](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}:
 
 * `connect-src` med `*.tt.omtrdc.net` tillåtslista. Nödvändigt för att tillåta nätverksbegäran till [!DNL Target] kant.
 * `style-src unsafe-inline`. Krävs för att dölja och flimra kontrollen.

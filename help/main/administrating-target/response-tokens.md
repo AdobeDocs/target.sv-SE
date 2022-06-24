@@ -5,9 +5,9 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 | Mål-SDK | Föreslagna åtgärder |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} i *SDK för plattform* guide. Information om de nya funktionerna i respektive version av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i *SDK för plattform* guide. |
-| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/). Mer information om de nya funktionerna i alla versioner av at.js finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} i *SDK för plattform* guide. Information om de nya funktionerna i respektive version av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i *SDK för plattform* guide. |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. Mer information om de nya funktionerna i alla versioner av at.js finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
 
 ## Använda svarstoken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
    Mer information:
 
    * **Platform Web SDK**: Se [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i *SDK för plattform* guide.
-   * **at.js**: Se [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+   * **at.js**: Se [Ladda ned på.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 1. I [!DNL Target], klicka **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 

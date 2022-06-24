@@ -4,9 +4,9 @@ description: Lär dig använda Adobe [!DNL Target] QA-URL:er för enkel heltäck
 title: Hur gör jag QA-aktiviteter?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamhe
    Du kan också tvinga dig ut manuellt genom att läsa in en sida på webbplatsen med `at_preview_token` parameter med ett tomt värde (till exempel `https://www.mysite.com/?at_preview_token=`).
 
 * Om du angav &quot;URL is&quot; när du skapade aktiviteten [i den formulärbaserade dispositionen](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) eller [alternativ för sidleverans i Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)fungerar inte QA-URL:en eftersom [!UICONTROL Activity QA] lägger till URL-parametrar. Du löser det här problemet genom att klicka på QA-URL:en för att gå till webbplatsen, ta bort de tillagda parametrarna från URL:en och sedan läsa in den nya URL:en.
-* Om du har .js 1.*x*, [!UICONTROL Activity QA] Läget är inte fast om du använder Safari eller en annan webbläsare som blockerar cookies från tredje part. I dessa fall måste du lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till. Detsamma gäller om du har implementerat [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/).
+* Om du har .js 1.*x*, [!UICONTROL Activity QA] Läget är inte fast om du använder Safari eller en annan webbläsare som blockerar cookies från tredje part. I dessa fall måste du lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till. Detsamma gäller om du har implementerat [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}.
 * Om en aktivitet använder flera upplevelsemålgrupper (till exempel en amerikansk och brittisk webbplats som ingår i samma aktivitet) genereras inte QA-länkar för de fyra kombinationerna (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/UK Site). Endast två QA-länkar (Experience A och Experience B) skapas, och användarna måste kvalificera sig för att rätt målgrupp ska kunna se sidan. En brittisk QA-person kan inte se den amerikanska webbplatsen.
 * Alla `at_preview` parametrar och värden är redan URL-kodade. För det mesta fungerar allt som förväntat. Vissa kunder måste dock läsa in utjämnare eller webbservrar som försöker koda frågesträngsparametrarna igen.
 
