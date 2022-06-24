@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 24 juni | [Adobe Target Developer Guide portal](https://developer-stage.adobe.com/target/){target=_blank} | Startade *Adobe Target Developer Guide* portal för att konsolidera alla [!DNL Target] innehåll för utvecklare i en och samma portal. Portalen innehåller information om implementering [!DNL Target] och [!DNL Recommendations], [!DNL Target] SDK, och [!DNL Target] API:er. |
+|  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.6.2-utgåvan. |
 | 14 juni | [Planera och implementera Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Uppdaterade kodexempel i följande avsnitt:<ul><li>Vyer/utcheckningssidor för kundvagn</li><li>Uteslut artiklar som redan finns i besökarens kundvagn</li></ul> |
 | 7 juni | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.6.1-utgåvan. |
 
