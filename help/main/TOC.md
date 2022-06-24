@@ -1,17 +1,17 @@
 ---
-user-guide-title: Adobe [!DNL Target] Guide
+user-guide-title: Adobe Target Business Practitioner Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Target Guide {#using}
+# Adobe Target Business Practioner Guide {#using}
 
 + [Adobe Target Guide - startsida](target-home.md)
 + Versionsinformation för mål {#release-notes}
@@ -68,102 +68,6 @@ ht-degree: 0%
          + [Ge Adobe I/O integreringar åtkomst till arbetsytor och tilldela roller](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + Implementera mål {#implement-target}
    + [Implementera målöversikt](c-implementing-target/implementing-target.md)
-   + Innan du implementerar {#before-implement}
-      + [Innan du implementerar](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Förbered implementering av Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + Integritet och säkerhet {#privacy}
-         + [Sekretessöversikt](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Sekretess- och dataskyddsbestämmelser](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
-         + [Målcookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
-         + [Ta bort målcookien](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Cookiprinciper för Google Chrome SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [CSP-direktiv (Content Security Policy)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Tillåtelselista: Hörnkantsnoder](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
-      + Metoder för att hämta data till Target {#methods}
-         + [Översikt över metoder](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-         + [Sidparametrar](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
-         + [Profilattribut på sidan](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
-         + [Skriptprofilattribut](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
-         + [Dataleverantörer](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
-         + [API för gruppprofilsuppdatering](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
-         + [API för enkel profiluppdatering](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
-         + [Kundattribut](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
-         + [Profil-API-inställningar](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Översikt över målsäkerhet](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
-      + [Webbläsare som stöds](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-      + [TLS-krypteringsändringar (Transport Layer Security)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
-      + [CNAME och Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
-   + Webben på klientsidan: implementera mål {#client-side}
-      + [Översikt: implementera Target för webben på klientsidan](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Implementering av Adobe Experience Platform Web SDK {#aep-implementation}
-         + [AEP Web SDK - översikt](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + at.js-implementering {#at-js-implementation}
-         + Enhetsbeslut {#on-device-decisioning}
-            + [Översikt över beslut på enheter](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-            + [Funktioner som stöds](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
-            + [Regelartefakt](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
-            + [Felsökning](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
-         + Hur at.js fungerar {#at-js}
-            + [How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
-            + [Hur at.js hanterar flimmer](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
-            + [at.js-integreringar](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
-         + Så här distribuerar du at.js {#deploy-at-js}
-            + [Så här distribuerar du at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Implementera mål med Adobe Experience Platform](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
-            + [Implementera mål utan tagghanterare](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Implementera mål med Dynamic Tag Manager (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [Implementera mål för enkelsidiga program (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-         + Funktionerna at.js {#functions-overview}
-            + [at.js - funktionsöversikt](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-            + [adobe.target.getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-            + [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-            + [adobe.target.applyOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-            + [adobe.target.applyOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-            + [adobe.target.triggerView() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-            + [adobe.target.trackEvent()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-            + [mboxCreate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
-            + [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
-            + [mboxDefine() och mboxUpdate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
-            + [targetPageParams()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
-            + [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
-            + [registerExtension() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-            + [sendNotifications() - at.js 2.1](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
-            + [at.js, anpassade händelser](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
-            + [Felsöka at.js med Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-            + [Använd molnbaserade instanser med Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
-         + at.js Frågor och svar {#faq-at-js}
-            + [at.js Frågor och svar](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-         + [versionsinformation för at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-         + [Uppgradera från at.js 1.x till at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
-         + [at.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-         + [Tips för användaragent och klient](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
-      + Förstå den globala mbox {#global-mbox}
-         + [Förstå den globala mbox-översikten](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-         + [Anpassa en global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-         + [Använd en global mbox från en äldre implementering](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-         + [Skicka parametrar till en global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [Vanliga frågor om Global Mbox](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
-   + Mål för mobilappar {#mobile-apps}
-      + [Mål för mobilappar - översikt](c-target-mobile-app/target-mobile-app.md)
-      + [Hur Target fungerar i mobilappar](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-      + [Aktivera mål i SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
-      + [iOS - skapa en målplats och ett framgångsmått](c-target-mobile-app/mobile-create-location-and-metric.md)
-      + [iOS - skicka anpassade användardata](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Förhandsvisning av målmobiler](c-target-mobile-app/target-mobile-preview.md)
-      + [Förhämta erbjudandeinnehåll](c-target-mobile-app/prefetch-offer-content.md)
-      + [Mål för mobilappar - frågor och svar](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-      + [Använd platstjänst](/help/main/c-target-mobile-app/use-location-service.md)
-   + Serversida: implementera mål {#server-side}
-      + [Serversida: implementera målöversikt](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Övergång från äldre Target-API:er till Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
-      + [Enhetsbeslut](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
-   + [Hybrid-implementering](/help/main/c-implementing-target/hybrid-implementation.md)
-   + E-post: implementera mål {#implement-email}
-      + [E-post: implementera målöversikt](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
-      + [Skapa en Adbox för en bild](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
-      + [Testa en e-postbild i Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
-      + [Arbeta med regissörer](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Integrera Target med Experience Cloud {#integrate}
    + Adobe Analytics som rapportkälla för Target (A4T) {#a4t}
       + [A4T - översikt](c-integrating-target-with-mac/a4t/a4t.md)
