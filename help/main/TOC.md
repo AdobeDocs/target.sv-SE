@@ -3,17 +3,17 @@ user-guide-title: Adobe Target Business Practitioner Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
+source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Target Business Practioner Guide {#using}
+# Adobe Target Business Practitioner Guide {#using}
 
-+ [Adobe Target Guide - startsida](target-home.md)
++ [Adobe Target Business Practizer Guide - startsida](target-home.md)
 + Versionsinformation för mål {#release-notes}
    + [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md)
    + [Versionsinformation för mål (aktuell)](r-release-notes/release-notes.md)
