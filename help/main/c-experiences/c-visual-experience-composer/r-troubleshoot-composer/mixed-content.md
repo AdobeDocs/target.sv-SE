@@ -1,12 +1,12 @@
 ---
 keywords: blandat innehåll;säkert;osäkert;krom;felsökning;vec;visual experience comser;unsecure;http;https;firefox;internet explorer
-description: I vissa webbläsare blockeras visningen av en sida om säkert innehåll blandas med osäkert innehåll. Lär dig hur du aktiverar blandat innehåll i Chrome, Firefox och Edge.
-title: Hur aktiverar jag blandat innehåll i webbläsaren?
+description: Lär dig hur du aktiverar blandat innehåll i Chrome, Firefox och Edge. Du kan aktivera blandat innehåll när en webbläsare blockerar visningen av en sida eftersom säkert innehåll blandas med osäkert innehåll.
+title: Aktivera blandat innehåll i webbläsaren
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Blandat innehåll inträffar om den ursprungliga begäran är säker över HTTPS
 
 Nya webbläsare kan blockera visningen av en sida eller visa varningsmeddelanden om säkert innehåll blandas med osäkert innehåll.
 
-Ett varningsmeddelande visas om [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] försöker öppna en sida som innehåller blandat innehåll. Det här meddelandet informerar dig om hur du inaktiverar blockering i webbläsaren. Om du inaktiverar blockering kan du öppna en HTTP-webbplats eller en plats med blandade anrop (HTTPS och HTTP).
+Ett varningsmeddelande visas om [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] försöker öppna en sida som innehåller blandat innehåll. Det här meddelandet informerar dig om hur du inaktiverar blockering i webbläsaren. Om du inaktiverar blockering kan du öppna en HTTP-webbplats eller en plats med blandade anrop (HTTPS och HTTP).
 
 ![Varning om blandat innehåll](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
