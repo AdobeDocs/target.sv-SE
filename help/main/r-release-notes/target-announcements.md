@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -15,30 +15,42 @@ ht-degree: 0%
 
 Kommentarer och information om kommande [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
-## Adobe Target Community Coffee Break (29 juni 2022)
-
-+++Klicka på mig
-
-* **onsdagen den 29 juni 2022**
-* **8.00 till 9.00. (PDT, UTC-7)**
-* **[Mer information och registreringsinformation](https://adobe.ly/3wKhcQS){target=_blank}**
-
-Vi kommer att gå samman av Jordan Ison, Kati McKinney, Justine Lee och Kaela Cusack från Adobe Solutions Consulting-teamet för att chatta direkt med dig angående deras expertområden. De kommer även att besvara eventuella frågor som rör ämnen som behandlas under personaliseringen med Precision den 22/6: Adobe Analytics &amp; Target Webinar (mer information nedan):
-
-* Hur marknadsförare, utvecklare och produktteam kan öppna den svarta rutan i AI för att utveckla framtida strategier för testning och personalisering
-* Hur man övervinner utmaningar när det gäller att optimera webben, mobilappar, e-post, sakernas internet och varje digital kontaktyta för högre konvertering och engagemang
-* Adobe Analytics och Adobe Target arbetsflöden för personalisering, målinriktning och testning
-* Förstå användningsexempel för att låsa upp vilka attribut som förutsäger besökarnas beteende och vilka attribut som är viktigast för nyckelvisualiseringar och segmenteringsanalys
-
-+++
-
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
 Registrera dig för följande webbinarier för att se hur kunderna använder [!DNL Adobe Target] för att uppnå sina personaliserings- och optimeringsmål:
 
+### Adobe: Personalization Industry Insider - Retail (11 augusti 2022)
+
+2022 har gett företag en dynamisk och snabbt föränderlig miljö att driva och driva. Läs om hur branschexperterna ser nya trender inom konsumentbranschen ta form medan livet börjar återgå till det normala för arbetare och resenärer.
+
++++Klicka på mig
+
+* **Torsdagen den 21 juni 2022**
+* **1:00 till 2:00 (EDT, UTC-4)**
+* **[Mer information och registreringsinformation](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Följ Michael Klein (Director, Industry Strategy Retail) och Leina Betzer (Target Consultant, Adobe Premier Support) för att diskutera hur detaljhandeln skjuter i höjden när konsumenternas köpmönster och beteenden förändras, med ökad efterfrågan på varor och tjänster på vissa marknader.
++++
+
+### Planerade webbinarier
+
+Följande webbinarier planeras för den närmaste framtiden:
+
+* Industry Insiders: Personalization Industry Insider: Resor och turism
+* Industry Insiders: Personalization Industry Insider: Media och underhållning
+* Kunskapsbyggare: Nyhet, Premium Users/Product Managers, Mobile Developers, Marketers, Analysts, Business Users
+
+Håll utkik efter datum och registreringsinformation i [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+
+## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
+
+Åtkomst till inspelningar av tidigare händelser:
+
 ### Adobe: Personalisering med Precision - [!DNL Adobe Analytics] och [!DNL Target] (2 juni 2022)
 
 Läs om hur artificiell intelligens fortsätter att omdefiniera konsumenternas förväntningar, eftersom maskininlärningsmodeller och datainsikter öppnar nya dörrar för marknadsförare, utvecklare och produktägare att engagera konsumenterna med personaliserade upplevelser som är viktiga. Ta en stegvis demo av [!DNL Adobe Analytics] + [!DNL Adobe Target] arbetsflöden för personalisering, målinriktning och testning.
+
+* [Inspelningslänk](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++Klicka på mig
 
@@ -59,6 +71,8 @@ Gå med i Jordan Ison (Principal Expert Solution Consultant på [!DNL Adobe]) f�
 
 Lär dig de bästa sätten att bli en&quot;relationsbank&quot; för att öka varumärkeslojaliteten. Upptäck hur ni kan få människor och processer att bygga och skala framgångsrika personaliseringsprogram.
 
+* [Inspelningslänk](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
+
 +++Klicka på mig
 
 * **Torsdagen den 9 juni 2022**
@@ -71,6 +85,8 @@ Delta i Heather Adkins (SVP Marketing Technology) och lär dig de bästa sätten
 ### Adobe: Upptäck möjligheter till optimering av hög effekt (16 juni 2022)
 
 Läs om hur det nya normala - ett som är mer digitalt än någonsin tidigare - är avgörande att organisationer utnyttjar alla möjligheter att leverera digitala upplevelser utöver det vanliga. Bra nog är inte längre riktigt bra nog. Det krävs fantastiska upplevelser för att vara konkurrenskraftiga.
+
+* [Inspelningslänk](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++Klicka på mig
 
@@ -86,23 +102,6 @@ Delta i Kaitlin White (Adobe Product Marketing Manager) när vi delar beprövade
 * Och många fler idéer som hjälper er att hitta möjligheter som ger stor effekt på er organisation
 
 +++
-
-### Adobe: Personalization Industry Insider - Retail (21 juni 2022)
-
-2022 har gett företag en dynamisk och snabbt föränderlig miljö att driva och driva. Läs om hur branschexperterna ser nya trender inom konsumentbranschen ta form medan livet börjar återgå till det normala för arbetare och resenärer. 
-
-+++Klicka på mig
-
-* **Torsdagen den 21 juni 2022**
-* **1:00 till 2:00 (EDT, UTC-4)**
-* **[Mer information och registreringsinformation](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-Följ Michael Klein (Director, Industry Strategy Retail) och Leina Betzer (Target Consultant, Adobe Premier Support) för att diskutera hur detaljhandeln skjuter i höjden när konsumenternas köpmönster och beteenden förändras, med ökad efterfrågan på varor och tjänster på vissa marknader.
-+++
-
-## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
-
-Åtkomst till inspelningar av tidigare händelser:
 
 ### Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln (19 maj 2022)
 

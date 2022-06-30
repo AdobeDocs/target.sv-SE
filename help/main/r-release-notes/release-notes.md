@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## [!DNL Target Standard/Premium] 22.6.2 (24 juni 2022)
+## [!DNL Target Standard/Premium] 22.6.2 (30 juni 2022)
 
-Den här versionen innehåller följande förbättringar och korrigeringar:
+Den här versionen innehåller följande funktioner, förbättringar och korrigeringar:
+
+| Funktion | Beskrivning |
+| --- | ---  |
+| Meddelanden i produkten | Få följande relevanta produktmeddelanden:<ul><li>**Verksamhet**: Meddelanden för alla aktivitetstyper när en aktivitet har godkänts eller inaktiverats, antingen manuellt eller när start- eller slutdatumet nås. Meddelandet innehåller namnet på aktiviteten med en länk till aktivitetens översiktssida.</li><li>**Profilskript** Meddelanden när ett profilskript aktiveras eller inaktiveras, antingen manuellt eller av Target.</li><li>**Recommendations-flöden**: Meddelanden när en Recommendations-feed aktiveras eller inaktiveras, antingen manuellt eller av Target. Meddelanden skickas också när en Recommendations-feed misslyckas.</li></ul> Som standard tas meddelanden emot av produktadministratörer, utgivare och godkännare. Meddelanden kan konfigureras i inställningarna för Experience Cloud.<br>Mer information finns i [Meddelanden](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
+| *Adobe Target Developer Guide* | The *Adobe Target Developer Guide* konsoliderar alla [!DNL Target] i en och samma guide. Handboken innehåller information om implementering [!DNL Target] och [!DNL Recommendations], [!DNL Target] SDK, och [!DNL Target] API:er.<br>Mer information finns i [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}. |
 
 * Användare med [!UICONTROL Editor] kan inte längre redigera målgrupper i aktiva aktiviteter. (TGT-43582)
 * Ett varningsmeddelande visas om en kund försöker spara en publik med ett utropstecken ( ! ) som första tecken i publikens namn (till exempel !London). (TGT-43643)
