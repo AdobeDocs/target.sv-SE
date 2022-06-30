@@ -4,9 +4,9 @@ description: Bekanta dig med användargränssnittet och hitta länkar till mer d
 title: Hur jag använder [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,6 @@ Med hjälp av hjälpikonen kan du komma åt information, videoklipp, bloggar och
 ## Meddelanden {#notifications-announcements}
 
 The [!UICONTROL Notifications] och [!UICONTROL Announcements] paneler hjälper dig att hålla dig uppdaterad om allt [!DNL Adobe Target]. Proaktiva meddelanden hjälper dig att hålla dig à jour med statusen för [!DNL Adobe Experience Cloud] lösningar och [!DNL Target] händelser. Proaktiva meddelanden varnar dig för driftavbrott och underhållshändelser.
-
->[!NOTE]
->
->Information om de förbättrade [!UICONTROL Notifications and Announcements] panelen i det här avsnittet gäller för [!DNL Target] och kommer att lanseras för alla kunder de närmaste månaderna.
 
 Klicka på klockikonen i sidhuvudet för att visa meddelanden:
 
