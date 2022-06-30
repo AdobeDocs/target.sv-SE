@@ -1,12 +1,12 @@
 ---
-keywords: målanvändargränssnitt;användargränssnitt;ui;notiser;händelser
+keywords: målanvändargränssnitt;användargränssnitt;ui;notiser;händelser;meddelanden
 description: Bekanta dig med användargränssnittet och hitta länkar till mer detaljerad information som hjälper dig att få ut det mesta av [!DNL Target].
 title: Hur jag använder [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Panelen innehåller flikar för [!UICONTROL Notifications] och [!UICONTROL Annou
 
 ![Meddelanden](assets/notifications.png)
 
-Följande avsnitt innehåller information om varje flik och hur du konfigurerar meddelanden och meddelanden.
+Följande avsnitt innehåller information om varje flik och hur du konfigurerar meddelanden och meddelanden:
 
 ### Meddelanden
 
