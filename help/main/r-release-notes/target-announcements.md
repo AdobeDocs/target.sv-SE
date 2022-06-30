@@ -4,7 +4,7 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Registrera dig för följande webbinarier för att se hur kunderna använder [!D
 
 +++Klicka på mig
 
-* **Torsdagen den 21 juni 2022**
+* **Torsdag 11 augusti 2022**
 * **1:00 till 2:00 (EDT, UTC-4)**
 * **[Mer information och registreringsinformation](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
