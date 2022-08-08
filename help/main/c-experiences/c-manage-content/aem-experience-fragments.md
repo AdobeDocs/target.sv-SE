@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,10 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
 
 **Så här använder du upplevelsefragment med VEC:**
 
+>[!NOTE]
+>
+>Upplev fragment som exporterats som JSON i [!DNL Target] får inte användas i aktiviteter som skapats med VEC, endast HTML-upplevelsefragment stöds i VEC-baserade aktiviteter. Om du vill använda JSON-upplevelsefragment kan du använda dem i aktiviteter som skapats med [Formulärbaserad upplevelsedisposition](/help/main/c-experiences/form-experience-composer.md).
+
 1. I [!DNL Target]när du skapar eller redigerar en upplevelse i [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)klickar du på den plats på sidan där du vill infoga [!DNL AEM] väljer du ett alternativ för att visa [!UICONTROL Choose an Experience Fragment] lista.
 
    * [!UICONTROL Insert Before]
@@ -146,7 +150,7 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
 ## Överväganden {#considerations}
 
 * [!DNL Target] letar efter upplevelsefragment som ska importeras var tionde minut. Det importerade upplevelsefragmentet ska vara tillgängligt i [!DNL Target] inom tio minuter, men den här tidsramen bör korta av framåtgången.
-* Upplevelsefragmentet importeras till [!DNL Target] som ett HTML-erbjudande. Den primära versionen av upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
+* Upplevelsefragmentet importeras till [!DNL Target] som ett HTML- eller JSON-erbjudande. Den primära versionen av upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 * Du kan inte skapa upplevelsefragment med [!DNL Adobe I/O]. Skapa upplevelsefragment med hjälp av AEM, vilket förklaras ovan.
 * Om du uppdaterar ditt upplevelsefragment i AEM måste upplevelsefragmentet publiceras och exporteras till [!DNL Target] igen så [!DNL Target] kan använda de senaste ändringarna.
 
