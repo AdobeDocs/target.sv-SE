@@ -4,9 +4,9 @@ description: Lär dig hur du skapar aktiviteter för automatisk fördelning och 
 title: Har A4T stöd för automatisk fördelning och automatisk målanpassning?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: e8fc28ef2497c1dfea523a769c9c817cbd74fea2
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,11 @@ Så här kommer du igång:
 
    ![Avsnittet Rapporteringskälla på sidan Mål och inställningar](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. Välj ett primärt målmått.
+1. Välj ett primärt målmått. I den första listrutan kan du antingen ange ett mål i [!DNL Adobe Target] (som sedan spåras av [!DNL Adobe Analytics] som måttet&quot;Aktivitetskonverteringar&quot;), eller, om du vill använda en [!DNL Analytics] som ditt mål.
 
-   * Används [!DNL Adobe Target] om du vill ange optimeringsmålet väljer du **[!UICONTROL Conversion]** .
-   * Välj **[!UICONTROL Use an Analytics metric]** och välj sedan ett mätvärde från [!DNL Analytics] som ska användas som optimeringsmål. Du kan använda en färdig fil [!DNL Analytics] konverteringsmått eller [!DNL Analytics] anpassad händelse.
+   * Används [!DNL Adobe Target] om du vill ange optimeringsmålet väljer du **[!UICONTROL Conversion]** och ange sedan vilken åtgärd som målgruppen måste vidta för att ange att konverteringsmålet har uppnåtts.
+   * Om du väljer **[!UICONTROL Use an Analytics metric]** Då får du välja vilken typ av optimeringskriterium som ska användas.  Se [Målmått och optimeringskriterier som stöds](#supported) nedan om du vill ha mer information. När du har angett optimeringskriteriet kan du välja ett kompatibelt mätvärde från [!DNL Analytics] som ska användas som optimeringsmål. Du kan använda en färdig fil [!DNL Analytics] konverteringsmått eller [!DNL Analytics] anpassad händelse.
 
-   Se [Målmått som stöds](#supported) nedan om du vill ha mer information.
 
 1. Spara och aktivera aktiviteten.
 
@@ -52,9 +51,11 @@ Så här kommer du igång:
 
    [!UICONTROL Auto-Target] använder de mätvärden du väljer för att optimera aktiviteten och locka besökarna till en personaliserad, bästa upplevelse.
 
-1. Använd **[!UICONTROL Reports]** för att visa aktivitetens rapportering efter ditt val av [!DNL Adobe Analytics] mätvärden. Klicka **[!UICONTROL View in Analytics]** att fördjupa och segmentera rapportdata ytterligare.
+1. Använd **[!UICONTROL Reports]** för att visa aktivitetens rapportering och klicka på **[!UICONTROL View in Analytics]** att fördjupa och ytterligare segmentera rapporteringsdata i en Adobe Analytics Workspace. Du kan följa självstudiekurserna nedan för att se hur du konfigurerar dina rapporter i arbetsytan:
+* Automatisk fördelning: se [Ställa in A4T-rapporter i Analysis Workspace för automatisk fördelning av aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*
+* Automatiskt mål: se [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
 
-## Målmått som stöds {#supported}
+## Målmått och optimeringskriterier som stöds {#supported}
 
 [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] gör att du kan välja någon av följande måtttyper som det primära målmåttet för optimering:
 
@@ -62,18 +63,24 @@ Så här kommer du igång:
 * [!DNL Adobe Analytics] konverteringsmått
 * [!DNL Adobe Analytics] anpassade händelser
 
-[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] kräver att du väljer ett mätvärde som baseras på en binomial-händelse. En binomialhändelse inträffar eller inträffar inte. Binomiala händelser omfattar ett klick, en konvertering, en ordning och så vidare. Dessa typer av händelser kallas ibland även för Bernoulli, binära eller diskreta händelser.
+Men [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] modellerna optimeras för **normaliserad** versioner av dessa mätvärden, med exakt normalisering beroende på typ av aktivitet. Alternativen för optimeringskriterier för varje typ av aktivitet förklaras i tabellen nedan:
 
-[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] stöder inte optimering för kontinuerliga mätvärden. Kontinuerliga mätvärden är intäkter, antal beställda produkter, sessionstid, antal sidvisningar under sessionen osv. Dessa metattyper som inte stöds kallas ibland icke-binomiala eller icke-Bernoulli-mått.
+| Typ av aktivitet | Mätkälla | Optimeringsvillkor | Beskrivning |
+|---------------|---------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Automatisk allokering | Analyser | Maximera konverteringsgraden för unika besökare | Modeller försöker hitta upplevelsen med den högsta unika besökarkonverteringsgraden, som definieras som antalet besökare för vilka analysmåttet inte är noll, dividerat med det totala antalet besökare (som tog emot den upplevelsen). Detta innebär att mätvärdet behandlas som binärt - antingen 0 eller 1 för varje unik besökare i aktiviteten.   Använd det här alternativet om du bara bryr dig om hur mycket användare som gör en viss åtgärd eller när flera konverteringshändelser för en enskild användare inte är meningsfulla. |
+| Automatisk allokering | Analyser | Maximera måttvärde per besökare | Modeller försöker hitta upplevelsen med det högsta mätvärdet per besökare, vilket definieras som det totala värdet av mätvärdet för alla användare som exponeras för den upplevelsen, dividerat med det totala antalet besökare som erhöll den upplevelsen. Det innebär att mätvärdena kan ta vilket värde som helst för varje unik besökare i aktiviteten. Om en besökare till exempel konverterar flera gånger räknas varje konvertering.  Använd det här alternativet om du är intresserad av att maximera ett kontinuerligt mått som total intäkt, eller om flera konverteringshändelser för en enskild användare är mer meningsfulla än en (t.ex. flera order är värda mer än en) |
+| Automatisk allokering | Mål | (kan inte konfigureras) | Måttet behandlas som binärt och den unika besökarkonverteringsgraden maximeras. |
+| Automatiskt mål | Analyser | Maximera konverteringsgraden för unika besök | Till skillnad från automatisk fördelning eller manuella A/B-tester innebär det personliga syftet med Automatiskt mål att upplevelsen som besökaren ser kan ändras för varje nytt besök. Den lämpliga frekvensen är då en omräkningskurs som normaliseras vid besök, vilket definieras som den andel besök där ett mätvärde som inte är noll registreras. Detta är den konverteringsfrekvens som optimeras av Automatiskt mål.   På samma sätt som Automatisk allokering bör det här alternativet väljas när du bryr dig om den del av besöken där en konvertering sker, dvs. när det inte är viktigt med flera konverteringshändelser för ett enda besök. |
+| Automatiskt mål | Analyser | Maximera mätvärde per besök | När mätvärdena som optimeras för är kontinuerliga (t.ex. intäkter) eller när det är meningsfullt att ha flera konverteringshändelser vid ett enda besök (t.ex. flera order), kan du välja att maximera mätvärdet per besök. Den &quot;hastighet&quot; som optimeras är det totala värdet av mätvärdet dividerat med antalet besök. |
+| Automatiskt mål | Mål | (kan inte konfigureras) | Mätvärdet behandlas som binärt och den unika besökskonverteringsfrekvensen maximeras. |
 
-Följande måtttyper stöds inte som primära målmått:
 
-* [!DNL Adobe Target] interaktions- och intäktsmått
-* [!DNL Adobe Analytics] interaktions- och intäktsmått
 
-   Du kan välja en [!DNL Analytics] engagemangs- eller intäktsmått som det primära målmåttet eftersom [!DNL Target] kan inte identifiera och utesluta alla interaktions- och intäktsmått från [!DNL Analytics]. Välj endast binomikonverteringsmått eller anpassade händelser från [!DNL Analytics].
+Observera, att beroende på optimeringskriteriet kan vissa [!DNL Adobe Analytics] Mått stöds inte.
 
-* [!DNL Adobe Analytics] beräknade värden
+* [!DNL Adobe Analytics] beräknade värden stöds inte.
+* [!DNL Adobe Analytics] Mätvärdena måste alltid vara segmenterbara, och om värdet per besökare/besök optimeras måste mätvärdena ha positiv polaritet (dvs. positiva värden är bättre än negativa)
+* [!DNL Adobe Analytics] mått som används i [!DNL Auto-Target] Verksamheter måste finnas tillgängliga vid export från DataWarehouse.
 
 ## Begränsningar och anteckningar
 
@@ -83,10 +90,8 @@ Vissa begränsningar och anteckningar gäller för båda [!UICONTROL Auto-Alloca
 
 * När du använder [!DNL Adobe Analytics] som rapportkälla för [!UICONTROL Auto-Allocate] eller [!UICONTROL Auto-Target]bör du alltid visa rapporter i [!DNL Analytics].
 * Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller omvänt efter att en aktivitet har aktiverats.
-* Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. [!DNL Target] normaliserar automatiskt konverteringsmåtten per besök för att ta hänsyn till ojämn trafikfördelning, så det är inte nödvändigt att använda ett beräknat mätvärde för att utföra normaliseringen.
-* När du använder [!DNL Adobe Analytics] som rapportkälla för [!UICONTROL Auto-Allocate] eller [!UICONTROL Auto-Target] aktiviteter, du bör alltid visa rapporter i [!DNL Analytics].
-* Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller vice versa efter att en aktivitet har aktiverats.
-* Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. [!DNL Target] normaliserar automatiskt konverteringsstatistik per besökare för [!UICONTROL Auto-Allocate] -aktiviteter, så det är inte nödvändigt att använda ett beräknat mått för att utföra normalisering.
+* Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. Som förklaras i [Målmått och optimeringskriterier som stöds](#supported), beroende på aktivitetstyp och optimeringskriterier, [!DNL Target] normaliserar konverteringsmåtten automatiskt, så det är inte nödvändigt att använda ett beräknat mätvärde för att utföra normalisering.
+
 
 ### Automatisk allokering {#aa}
 
@@ -97,15 +102,19 @@ Vissa begränsningar och anteckningar gäller för båda [!UICONTROL Auto-Alloca
 
 ### Automatiskt mål {#at}
 
-* [!UICONTROL Auto-Target] modellerna fortsätter att träna var 24:e timme som vanligt. Konverteringshändelsedata kommer dock från [!DNL Analytics] fördröjs med ytterligare 6 till 24 timmar. Förseningen innebär fördelning av trafik med [!DNL Target] följer de senaste händelser som spelats in i [!DNL Analytics]. Den här fördröjningen har störst effekt de första 48 timmarna efter att en aktivitet initialt har aktiverats. Aktivitetens prestanda kommer att spegla bättre [!DNL Analytics] konverteringsbeteende efter fem dagar. Överväg att använda [!UICONTROL Auto-Allocate] i stället för [!UICONTROL Auto-Target] för korttidsverksamhet där den största trafiken förekommer inom de fem första dagarna av verksamhetens livstid.
+* **Utbildningsfrekvens**: [!UICONTROL Auto-Target] modellerna fortsätter att träna var 24:e timme som vanligt. Konverteringshändelsedata kommer dock från [!DNL Analytics] fördröjs med ytterligare 6 till 24 timmar. Förseningen innebär fördelning av trafik med [!DNL Target] följer de senaste händelser som spelats in i [!DNL Analytics]. Den här fördröjningen har störst effekt de första 48 timmarna efter att en aktivitet initialt har aktiverats. Aktivitetens prestanda kommer att spegla bättre [!DNL Analytics] konverteringsbeteende efter fem dagar. Överväg att använda [!UICONTROL Auto-Allocate] i stället för [!UICONTROL Auto-Target] för korttidsverksamhet där den största trafiken förekommer inom de fem första dagarna av verksamhetens livstid.
 * När du använder [!DNL Analytics] som datakälla för en [!UICONTROL Auto-Target] aktivitet, sessionerna avslutas efter sex timmar. Konverteringar som inträffar efter sex timmar räknas inte.
 
 Mer information finns i [Attributmodeller och uppslagsfönster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) i *Handbok för analysverktyg*.
 
-## Självstudiekurs: Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter {#tutorial}
+## Ställa in A4T-rapporter i Analysis Workspace för aktiviteterna Automatiskt mål och Automatisk fördelning {#tutorial}
 
-Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], några ändringar av standardinställningen [!UICONTROL Analytics for Target] -panelen krävs för att tolka Automatiskt mål-aktiviteter på rätt sätt. Dessa ändringar är nödvändiga på grund av skillnader mellan experimentella aktiviteter (manuell A/B och [!UICONTROL Auto-Allocate]) och personalisering ([!UICONTROL Auto-Target]).
+Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], några ändringar av standardinställningen [!UICONTROL Analytics for Target] för att automatisk allokering och automatisk målning ska kunna tolkas på rätt sätt.
 
-I den här självstudiekursen får du hjälp med de rekommenderade ändringarna för analys [!UICONTROL Auto-Target] verksamhet i [!UICONTROL Workspace].
+Dessa ändringar är nödvändiga på grund av de nya definitionerna av konverteringsgrader som beskrivs i [Målmått och optimeringskriterier som stöds](#supported)samt skillnaderna mellan experimentella aktiviteter (manuell A/B och [!UICONTROL Auto-Allocate]) och personalisering ([!UICONTROL Auto-Target]).
 
-Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
+De här självstudiekurserna vägleder dig igenom de rekommenderade ändringarna för analys [!UICONTROL A4T] [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet i [!UICONTROL Workspace].
+
+Mer information finns i
+* [Ställa in A4T-rapporter i Analysis Workspace för automatisk fördelning av aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
+* [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
