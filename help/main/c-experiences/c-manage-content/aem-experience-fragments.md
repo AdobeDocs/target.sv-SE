@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ När du har utfört de föregående åtgärderna visas upplevelsefragmentet på 
 >
 >* [!DNL Target] letar efter upplevelsefragment som ska importeras var tionde minut. Det importerade upplevelsefragmentet ska vara tillgängligt i [!DNL Target] inom tio minuter, men den här tidsramen bör korta av framåtgången.
 >
->* Upplevelsefragmentet importeras till [!DNL Target] som ett HTML-erbjudande. Den&quot;primära&quot; versionen av upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
+>* Upplevelsefragmentet importeras till [!DNL Target] som ett HTML- eller JSON-erbjudande. Den&quot;primära&quot; versionen av upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 
 
 Du kan hovra över ett upplevelsefragment i listan och sedan klicka på [!UICONTROL View] icon ![Ikonen Visa](assets/icon_info.png) för att få mer information om upplevelsefragmentet, inklusive dess URL för offentlig leverans och dess [!DNL AEM] bana.
@@ -104,10 +104,6 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
 >Experience fragments stöds inte i [!DNL Recommendations] verksamhet. Men om du vill använda upplevelsefragment för rekommendationer kan du skapa en [!UICONTROL A/B Test] aktivitet (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) eller en [!UICONTROL Experience Targeting] (XT) och [inkludera rekommendationer som ett erbjudande](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **Så här använder du upplevelsefragment med VEC:**
-
->[!NOTE]
->
->Upplev fragment som exporterats som JSON i [!DNL Target] får inte användas i aktiviteter som skapats med VEC, endast HTML-upplevelsefragment stöds i VEC-baserade aktiviteter. Om du vill använda JSON-upplevelsefragment kan du använda dem i aktiviteter som skapats med [Formulärbaserad upplevelsedisposition](/help/main/c-experiences/form-experience-composer.md).
 
 1. I [!DNL Target]när du skapar eller redigerar en upplevelse i [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)klickar du på den plats på sidan där du vill infoga [!DNL AEM] väljer du ett alternativ för att visa [!UICONTROL Choose an Experience Fragment] lista.
 
@@ -135,6 +131,10 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
    * **Experience Targeting (XT):** [Skapa en upplevelseinriktad aktivitet](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Multivariata tester (MVT):** [Skapa ett multivariata test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Recommendations:** [Skapa en Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>Upplev fragment som exporterats som JSON i [!DNL Target] får inte användas i aktiviteter som skapats med VEC, endast HTML-upplevelsefragment stöds i VEC-baserade aktiviteter. Om du vill använda JSON-upplevelsefragment kan du använda dem i aktiviteter som skapats med [Formulärbaserad upplevelsedisposition](/help/main/c-experiences/form-experience-composer.md).
 
 **Så här använder du upplevelsefragment med den formulärbaserade Experience Composer:**
 
