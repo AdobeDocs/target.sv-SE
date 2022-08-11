@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
 workflow-type: tm+mt
-source-wordcount: '4458'
+source-wordcount: '4585'
 ht-degree: 0%
 
 ---
@@ -209,6 +209,12 @@ Så här synkroniserar du om och korrigerar din rapportering:
 1. Ta bort de ursprungliga (påverkade) aktiviteterna.
 
 (TGT-38522, CSO 20201006007)
+
+### Tillgänglighetsindikator för Automatisk målmodell och Automated Personalization-modell {#at-ap-model}
+
+Funktionen för modelltillgänglighet för Automatiskt mål- och Automated Personalization-aktiviteter misslyckades regelbundet från 1 juni 2022 till 19 juli 2022. Detta innebar att gränssnittet för målrapportering kunde ha misslyckats med att visa en grön bockmarkering som indikerar att en modell har skapats, trots att upplevelser eller erbjudanden har delats på ett personaliserat sätt i antingen Automatiskt mål- eller Automated Personalization-aktiviteter.
+
+Observera att **skräddarsydd modellbyggnad** inte påverkades och modeller skapades med framgång under hela perioden. Endast systemet för modelltillgänglighet påverkades av det här felet. **Rapporteringsdata påverkades inte heller**. Med andra ord påverkades inte resultatet (besök, konverteringar och konverteringsgrader) av upplevelser och erbjudanden. Det är bara den gröna bockmarkeringen som anger att en anpassad modell är tillgänglig som inte kan visas.
 
 ### Rapportering {#conversions-audiences}
 
