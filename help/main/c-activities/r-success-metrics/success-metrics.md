@@ -4,9 +4,9 @@ description: Läs om framgångsstatistik i Adobe [!DNL Target] som hjälper dig 
 title: Vad är Success Metrics?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Intäktsmått som är inställda på[!UICONTROL Increment count & keep user in a
 
 >[!NOTE]
 >
->För aktiviteter som använder [Analyser som rapportkälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) målmåttet kommer alltid att använda[!UICONTROL Increment Count & Keep User in Activity]&quot; och &quot;[!UICONTROL On Every Impression]&quot;. Det här är *not* kan konfigureras.
+>För aktiviteter som använder [Analyser som rapportkälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) kommer målmåttet alltid att använda[!UICONTROL Increment Count & Keep User in Activity]&quot; och &quot;[!UICONTROL On Every Impression]&quot;. Det här är *not* kan konfigureras.
 
 Följande framgångsmått finns:
 
