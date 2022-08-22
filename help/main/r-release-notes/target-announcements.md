@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Gartner har namngett [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant 
 
 Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Community Q&amp;A - kaffebrytning
+## [!DNL Adobe Target] Gemenskapens Q&amp;A-kaffebrytning (31 augusti 2022)
 
 * **Onsdagen den 31 augusti 2022**
 * **9.00 till 10.00 (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Låt oss utforska idéer om:
 * Skapa personliga upplevelser
 +++
 
-## [!DNL Adobe Target] Kunskapsbyggare - optimering av mobila upplevelser (6 september 2022)
+### [!DNL Adobe Target] Kunskapsbyggare - optimering av mobila upplevelser (6 september 2022)
 
 Mobilupplevelser är grunden för innovation inom hur marknadsförings- och teknikteam utnyttjar produktledda strategier för kanalövergripande personalisering i webb och appar. Gå med i [!DNL Adobe] Mötet Kunskapsbyggare och lär dig hur [!DNL Adobe Target] frigör nya möjligheter till engagemang och ökade intäkter för marknadsförare, utvecklare och produktägare för att skapa framgångsrika produktcommunityn.
 
@@ -70,7 +70,7 @@ Mobilupplevelser är grunden för innovation inom hur marknadsförings- och tekn
 
 +++
 
-## [!DNL Adobe Target] Kunskapsbyggare - AI-styrd personalisering och Recommendations (15 september 2022)
+### [!DNL Adobe Target] Kunskapsbyggare - AI-styrd personalisering och Recommendations (15 september 2022)
 
 Automatisering av experiment och personalisering fortsätter att ge högsta konverteringsgrad och avkastning för marknadsförings-, konstruktions- och produktteam. Gå med i [!DNL Adobe] Sessionen Lär dig hur du använder Kunskapsbyggare [!DNL Adobe Target] avancerade AI-drivna användningsfall och funktioner med rekommendationer för produkter och innehåll som håller sig steget före konkurrenterna och vinner på alla upplevelser.
 

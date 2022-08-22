@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 9f758ce9b86bc795a6f846a759e7a3d0a8578a47
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # Dokumentationsändringar
 
 Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdokumentation.
+
+## Adobe Target Standard/Premium 22.7.1
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 22 augusti | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Information om följande meddelande har lagts till:<ul><li>[!DNL Target] utsedd ledare i Gartner Magic Quadrant for Personalization Engines (2022)</li></ul>Tillagd information om följande kommande evenemang:<ul><li>[!DNL Adobe Target] Gemenskapens Q&amp;A-kaffebrytning (31 augusti 2022)</li><li>Chef&#39;s Collection: Recept för personalisering (30 augusti 2022)</li><li>[!DNL Adobe Target] Kunskapsbyggare - optimering av mobila upplevelser (6 september 2022)</li><li>[!DNL Adobe Target] Kunskapsbyggare - AI-styrd personalisering och Recommendations (15 september 2022)</li></ul>Lagt till inspelningslänk för följande senaste webbinariesession:<ul><li>Adobe: Personalization Industry Insider - Retail (11 augusti 2022)</li></ul> |
 
 ## Adobe Target Standard/Premium 22.6.1 (staggered release: 7-9 juni 2022)
 
