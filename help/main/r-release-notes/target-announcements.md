@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
+source-git-commit: 87b89f72a502031224f416e9ec0f99aba4351cb3
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,36 +15,111 @@ ht-degree: 0%
 
 Kommentarer och information om kommande [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
+## Target named leader in Gartner Magic Quadrant for Personalization Engines (2022)
+
+Gartner har namngett [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant for Personalization Engines (PE) för femte året i rad. [!DNL Adobe] fick även toppresultat och betydande årsökningar över alla tre primära användningsfall: Digital marknadsföring, digital handel samt service och support. [!DNL Target] har också fått högsta poäng för våra testfunktioner hos alla utvärderade leverantörer.
+
+Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] Community Q&amp;A - kaffebrytning
+
+* **Onsdagen den 31 augusti 2022**
+* **9.00 till 10.00 (PDT, UTC-7)**
+* **[Registreringsinformation](https://adobe.ly/3buoDUt){target=_blank}**
+
+Vi kommer att bli sällskap av Senior [!DNL Adobe] Premier Support Consultant Moses Maxen för att prata om er [!DNL Adobe Target] frågor som rör de ämnen som behandlas i de senaste [8/11/22 Retail Personalization Industry Insiders Webinar](https://video.tv.adobe.com/v/346323){target=_blank}, samt hans expertområden med [!DNL Target]:
+
+* Hur e-handelsförsäljningen inom detaljhandeln har rusat i höjden när konsumenternas köpmönster och beteenden har förändrats under de senaste månaderna, med en högre efterfrågan på varor och tjänster på vissa marknader, bland annat konsumtionsvaror
+* Relaterad optimering och personaliseringsstrategier
+* [!DNL Target] Implementering
+* [!DNL Adobe] Funktioner i Sensei
+* Arbetsflöden i huvudgränssnittet
+
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
 Registrera dig för följande webbinarier för att se hur kunderna använder [!DNL Adobe Target] för att uppnå sina personaliserings- och optimeringsmål:
+
+### Chef&#39;s Collection: Recept för personalisering (30 augusti 2022)
+
+Gå med i [!DNL Adobe Target] [!DNL ]när de skapar nya idéer om hur du kan få ut det mesta av Target. Baserat på vår senaste e-bok &quot;Chef’s Collection: Ideas for Personalization&quot;.
+
++++Klicka på mig
+
+* **Torsdag 30 augusti 2022**
+* **1:00 till 2:00 (EDT, UTC-4)**
+* **[Mer information och registreringsinformation](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
+
+Vi kommer att fördjupa oss i berättelserna om våra &quot;kockar&quot; och vad de har lagat i sina egna personaliseringsköp.
+
+Låt oss utforska idéer om:
+
+* Så här använder du personalisering för att skapa lojalitet
+* Optimera för en konkurrensfördel
+* Skapa personliga upplevelser
++++
+
+## [!DNL Adobe Target] Kunskapsbyggare - optimering av mobila upplevelser (6 september 2022)
+
+Mobilupplevelser är grunden för innovation inom hur marknadsförings- och teknikteam utnyttjar produktledda strategier för kanalövergripande personalisering i webb och appar. Gå med i [!DNL Adobe] Mötet Kunskapsbyggare och lär dig hur [!DNL Adobe Target] frigör nya möjligheter till engagemang och ökade intäkter för marknadsförare, utvecklare och produktägare för att skapa framgångsrika produktcommunityn.
+
++++Klicka på mig
+
+* **Torsdag den 6 september 2022**
+* **1:00 till 2:00 (EDT, UTC-4)**
+* **[Mer information och registreringsinformation](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
+## [!DNL Adobe Target] Kunskapsbyggare - AI-styrd personalisering och Recommendations (15 september 2022)
+
+Automatisering av experiment och personalisering fortsätter att ge högsta konverteringsgrad och avkastning för marknadsförings-, konstruktions- och produktteam. Gå med i [!DNL Adobe] Sessionen Lär dig hur du använder Kunskapsbyggare [!DNL Adobe Target] avancerade AI-drivna användningsfall och funktioner med rekommendationer för produkter och innehåll som håller sig steget före konkurrenterna och vinner på alla upplevelser.
+
++++Klicka på mig
+
+* **Torsdag den 15 september 2022**
+* **1:00 till 2:00 (EDT, UTC-4)**
+* **[Mer information och registreringsinformation](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
+## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
+
+Åtkomstinspelningar av tidigare händelser (om sådana finns):
+
+### Aktivering av lojalitet i realtid (25 augusti 2022)
+
+Den ökande lojaliteten i en tid med allt snabbare frågor i försörjningskedjan, fel i tjänsten och begränsad personal är en utmaning som de flesta varumärken står inför när det gäller resor, turism och matlagning. Hur skalar varumärken upplevelserna i AI-tidsåldern utan de resurser som behövs och som har lämnat branschen. Digitala framsteg har ökat 20-25 snabbare för att klara inte bara accelererade kundförväntningar utan även för att skala team genom automatisering.
+
++++Klicka på mig
+
+* **Torsdag 25 augusti 2022**
+* **10.00 till 11.00 (PDT, UTC-7)**
+* **[Mer information och registreringsinformation](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&amp;event_id=e54793e9-107f-4e4e-8373-5a380974392b){target=_blank}**
+
+Under 2022 har systemen nått en vändpunkt när det gäller möjligheten att tillhandahålla kontinuerlig intelligens för att leverera lojalitetsaktivering i realtid.
+
+Ämnen vi ska titta på:
+
+* Accelerationen av digitala störningar och höjningen av AI
+* Varför tidiga användare vinner både i topp- och bottentillväxt
+* Automatisera personalisering inom resor
+* Lojalitetsaktivering i realtid in action
++++
 
 ### Adobe: Personalization Industry Insider - Retail (11 augusti 2022)
 
 2022 har gett företag en dynamisk och snabbt föränderlig miljö att driva och driva. Läs om hur branschexperterna ser nya trender inom konsumentbranschen ta form medan livet börjar återgå till det normala för arbetare och resenärer.
 
+* [Inspelningslänk](https://video.tv.adobe.com/v/346323){target=_blank}
+
 +++Klicka på mig
 
 * **Torsdag 11 augusti 2022**
-* **1:00 till 2:00 (EDT, UTC-4)**
+* **1:00 till 2:00 ()**
 * **[Mer information och registreringsinformation](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Följ Michael Klein (Director, Industry Strategy Retail) och Leina Betzer (Target Consultant, Adobe Premier Support) för att diskutera hur detaljhandeln skjuter i höjden när konsumenternas köpmönster och beteenden förändras, med ökad efterfrågan på varor och tjänster på vissa marknader.
 +++
-
-### Planerade webbinarier
-
-Följande webbinarier planeras för den närmaste framtiden:
-
-* Industry Insiders: Personalization Industry Insider: Resor och turism
-* Industry Insiders: Personalization Industry Insider: Media och underhållning
-* Kunskapsbyggare: Nyhet, Premium Users/Product Managers, Mobile Developers, Marketers, Analysts, Business Users
-
-Håll utkik efter datum och registreringsinformation i [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
-
-## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
-
-Åtkomst till inspelningar av tidigare händelser:
 
 ### Adobe: Personalisering med Precision - [!DNL Adobe Analytics] och [!DNL Target] (2 juni 2022)
 
