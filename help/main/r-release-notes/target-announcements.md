@@ -4,18 +4,18 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 87b89f72a502031224f416e9ec0f99aba4351cb3
+source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
 
-# Målmeddelanden och evenemang
+# [!DNL Adobe Target] meddelanden och evenemang
 
 Kommentarer och information om kommande [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
-## Target named leader in Gartner Magic Quadrant for Personalization Engines (2022)
+## [!DNL Target] utsedd ledare i Gartner Magic Quadrant for Personalization Engines (2022)
 
 Gartner har namngett [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant for Personalization Engines (PE) för femte året i rad. [!DNL Adobe] fick även toppresultat och betydande årsökningar över alla tre primära användningsfall: Digital marknadsföring, digital handel samt service och support. [!DNL Target] har också fått högsta poäng för våra testfunktioner hos alla utvärderade leverantörer.
 
