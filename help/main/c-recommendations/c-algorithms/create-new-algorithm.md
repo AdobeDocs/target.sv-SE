@@ -4,7 +4,7 @@ description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Re
 title: Hur skapar jag kriterier i Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
 workflow-type: tm+mt
 source-wordcount: '2650'
 ht-degree: 0%
@@ -170,10 +170,6 @@ Mer information om hur du väljer en [!UICONTROL Recommendation Key], se [Basera
 
    Mer information finns i [Ange inkluderingsregler](#inclusion) nedan.
 
-1. (Valfritt) Skjut **[!UICONTROL Recommend Previously Purchased Items]** växla till&quot;på&quot;-positionen.
-
-   Den här inställningen baseras på `productPurchasedId`. Standardbeteendet är att inte rekommendera tidigare inköpta artiklar. I de flesta fall vill du inte marknadsföra artiklar som en kund nyligen har köpt. Det är användbart om du säljer artiklar som normalt bara köps en gång, t.ex. kajaker. Om du säljer artiklar som personer återkommer till att köpa igen upprepade gånger, som schampo eller andra personliga artiklar, bör du aktivera det här alternativet.
-
 ## Liknande innehåll {#similarity}
 
 Använd [!UICONTROL Content Similarity] regler som gör rekommendationer baserade på objekt- eller medieattribut.
@@ -219,6 +215,10 @@ Inkluderingsregelalternativen varierar beroende på bransch-vertikal. Som standa
 Inkluderingsreglerna kombineras med en AND. Alla regler måste uppfyllas för att ett objekt ska kunna inkluderas i en rekommendation.
 
 Så här skapar du en enkel inkluderingsregel, som tidigare nämnts, som endast visar damskor som har en inventering på mer än 50 och ett pris på mellan 25 och 45 dollar:
+
+1. (Villkorligt) Skjut upp **[!UICONTROL Allow recently purchased items to be recommended?]** växla till&quot;på&quot;-positionen.
+
+   Den här inställningen baseras på `productPurchasedId`. Standardbeteendet är att inte rekommendera tidigare inköpta artiklar. I de flesta fall vill du inte marknadsföra artiklar som en kund nyligen har köpt. Det är användbart om du säljer artiklar som normalt bara köps en gång, t.ex. kajaker. Om du säljer artiklar som personer återkommer till att köpa igen upprepade gånger, som schampo eller andra personliga artiklar, bör du aktivera det här alternativet.
 
 1. Ange ett prisintervall för de produkter som du vill rekommendera.
 1. Ange det minsta lagerbeloppet för de produkter som du vill rekommendera.
