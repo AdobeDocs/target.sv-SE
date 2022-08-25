@@ -4,16 +4,16 @@ description: 'Lär dig hur du anger en analysspårningsserver för aktiviteter s
 title: Hur använder jag en Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
 
-# Använda en analysspårningsserver
+# Använd en [!DNL Analytics] spårningsserver
 
-Om du använder en äldre version av at.js måste du ange en analysspårningsserver för aktiviteter som använder [!DNL Adobe Analytics] for [!DNL Adobe Target] (A4T).
+Om du använder en äldre version av at.js måste du ange en [!DNL Analytics] spårningsserver för aktiviteter som använder [!DNL Adobe Analytics] for [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
@@ -21,21 +21,21 @@ Om du använder en äldre version av at.js måste du ange en analysspårningsser
 >
 >The [!DNL Target] team har stöd för både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information finns i [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
-För att säkerställa att data från [!DNL Target] går till rätt plats i [!DNL Analytics]kräver A4T att en analysspårningsserver skickas i alla anrop till Modstats från [!DNL Target]. För implementeringar som använder flera spårningsservrar använder du [!DNL Adobe Experience Platform Debugger] eller webbläsarens utvecklingsverktyg för att fastställa rätt spårningsserver för din aktivitet.
+För att säkerställa att data från [!DNL Target] går till rätt plats i [!DNL Analytics], kräver A4T [!DNL Analytics] spårningsserver som ska skickas i alla anrop till Modstats från [!DNL Target]. För implementeringar som använder flera spårningsservrar använder du [!DNL Adobe Experience Platform Debugger] eller webbläsarens utvecklingsverktyg för att fastställa rätt spårningsserver för din aktivitet.
 
-## Hämta Analytics-spårningsservern med Adobe Experience Platform Debugger
+## Skaffa [!DNL Analytics] spårningsserver med [!DNL Adobe Experience Platform Debugger]
 
 Felsökaren bör visas på en sida där aktiviteten levereras för att säkerställa att du väljer rätt spårningsserver. Du kan också ange en standardspårningsserver för varje konto. Kontakta kundtjänst om du vill ange eller ändra standardinställningen.
 
 1. Öppna sidan som du skapar aktiviteten på [!DNL Adobe Experience Platform Debugger].
 
-   Om du inte har installerat felsökaren kan du läsa [Introduktion till Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
-
-   ![](assets/Screen_DebuggerTrackServ.png)
+   Om du inte har installerat felsökaren kan du läsa [Adobe Experience Platform Debugger - översikt](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. Klicka **[!UICONTROL Analytics]** i den vänstra navigeringsmenyn.
 
-   Analysspårningsservern finns i [!UICONTROL Hostname] i felsökaren.
+   ![](assets/Screen_DebuggerTrackServ.png)
+
+   The [!DNL Analytics] spårningsservern finns i [!UICONTROL Hostname] i felsökaren.
 
    * **Spårningsserver för första part**: Om värdnamnet för begäran matchar den domän du är på är det en förstapartsspårningsserver. Om du till exempel är på `adobe.com`, `adobe.com` är förstahandsspårningsservern.
    * **Spårningsserver från tredje part**: En spårningsserver från tredje part är vanligtvis `[company].sc.omtrdc.net` där företaget är namnet på ditt företag, men alltid avslutas i `sc.omtrdc.net`.
@@ -49,7 +49,7 @@ Felsökaren bör visas på en sida där aktiviteten levereras för att säkerst�
    >
    >Välj [!UICONTROL Analytics as the Reporting Source] för din aktivitet på [!UICONTROL Tracking Server] som ska vara tillgängligt.
 
-## Hämta Analytics tracking-servern med hjälp av webbläsarens Developer Tools
+## Skaffa [!DNL Analytics] spårningsserver med hjälp av webbläsarens utvecklingsverktyg
 
 Utvecklarverktygen ska visas på en sida där aktiviteten levereras för att säkerställa att du väljer rätt spårningsserver. Du kan också ange en standardspårningsserver för varje konto. Kontakta kundtjänst om du vill ange eller ändra standardinställningen.
 
@@ -59,7 +59,7 @@ Utvecklarverktygen ska visas på en sida där aktiviteten levereras för att sä
 
 1. Klicka på **[!UICONTROL Network]** -fliken.
 
-1. Filter för `/ss,` för att visa Analytics-förfrågningar.
+1. Filter för `/ss,` för att visa [!DNL Analytics] förfrågningar.
 
    ![Verktyg för Chrome-utvecklare med /ss-sökning](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
