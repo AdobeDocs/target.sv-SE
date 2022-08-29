@@ -4,9 +4,9 @@ description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL
 title: Vad är en automatiskt fördelad aktivitet?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '3447'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Standardtester av A/B har en inneboende kostnad. Ni måste spendera trafik för 
 
 Ett normalt A/B-test i [!DNL Target] visar endast parvisa jämförelser av utmanare med kontroll. Om en aktivitet till exempel har upplevelser: A, B, C och D där A är kontrollen, ett normalt [!DNL Target] A/B-test skulle jämföra A med B, A mot C och A mot D.
 
-I sådana tester omfattar de flesta produkter, inklusive [!DNL Target], använder man Students t-test för att skapa p-value-based trust. Detta konfidensvärde används sedan för att avgöra om utmanaren är tillräckligt olik kontrollen. Men [!DNL Target] utför inte automatiskt de implicita jämförelser (B mot C, B mot D och C mot D) som krävs för att hitta den&quot;bästa&quot; upplevelsen. Därför måste marknadsföraren manuellt analysera resultaten för att fastställa den&quot;bästa&quot; upplevelsen.
+I sådana tester omfattar de flesta produkter, inklusive [!DNL Target], använder [Welch&#39;s t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} för att skapa p-value-based trust. Detta konfidensvärde används sedan för att avgöra om utmanaren är tillräckligt olik kontrollen. Men [!DNL Target] utför inte automatiskt de implicita jämförelser (B mot C, B mot D och C mot D) som krävs för att hitta den&quot;bästa&quot; upplevelsen. Därför måste marknadsföraren manuellt analysera resultaten för att fastställa den&quot;bästa&quot; upplevelsen.
 
 [!UICONTROL Auto-Allocate] utför alla implicita jämförelser mellan upplevelser och skapar en&quot;sann&quot; vinnare. Det finns ingen uppfattning om&quot;kontroll&quot; i testet.
 

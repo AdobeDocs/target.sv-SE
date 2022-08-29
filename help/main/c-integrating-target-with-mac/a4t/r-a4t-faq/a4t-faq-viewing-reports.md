@@ -4,10 +4,10 @@ description: Hitta svar på frågor som ofta ställs om att visa rapporter när 
 title: Hitta svar på frågor om att visa rapporter med A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2507'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,7 +84,7 @@ Det innebär att aktiviteter fortsätter att få sidvisningar, besök och så vi
 
 Detta är normalt och förväntat beteende. A4T-variabeln fungerar på samma sätt som andra eVar. Värdet associeras med användaren tills det når förfallotidsperioden (90 dagar). Om en aktivitet bara är aktiv i två veckor är därför värdet fortfarande associerat med användaren under minst de kommande 90 dagarna.
 
-Bästa praxis är att endast visa rapporter för den aktiviteten för den tidsperiod som aktiviteten var aktiv. Datumen bör anges korrekt som standard när du visar aktiviteten i [!DNL Analytics]så om du inte har förlängt datumet manuellt bör detta inte vara något problem ur en rapportsynpunkt.
+Bästa praxis är att endast visa rapporter för den aktiviteten för den tidsperiod som aktiviteten var aktiv. Datumen bör anges korrekt som standard när du visar aktiviteten i [!DNL Analytics], så om du inte har förlängt datumet manuellt bör det inte vara något problem ur en rapportsynpunkt.
 
 Låt oss till exempel anta att variabeln A4T upphör att gälla efter 90 dagar och att testet är aktivt från 1 januari till 15 januari.
 
@@ -94,7 +94,7 @@ Den 1 januari kommer användaren till webbplatsen och ser aktiviteten XYZ en gå
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter inte på fler Target-aktiviteter och den ursprungliga aktiviteten är inte längre aktiv. Även om aktiviteten inte längre är aktiv följer den fortfarande användaren via eVar persistence. Data ser nu ut så här:
+Användaren återgår den 1 februari, visar ytterligare fem sidor och stöter inte på fler målaktiviteter och den ursprungliga aktiviteten är inte längre aktiv. Även om aktiviteten inte längre är aktiv följer den fortfarande användaren via eVar persistence. Data ser nu ut så här:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare |
 |--- |--- |--- |--- |--- |
@@ -115,7 +115,7 @@ Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor oc
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Totalt | 2 | 20 | 3 | 1 | 1 |
 
-Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target] rapporter, eftersom du inte skapar [!DNL Target] aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, det spelar ingen roll att alla aktiviteter som användaren såg fick kredit. Du jämför resultatet av två objekt i en enskild aktivitet. Det är inte möjligt för en användare att se olika upplevelser i samma aktivitet, så du behöver inte bekymra dig om korskontaminering av orderkrediter.
+Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target] rapportering, eftersom du inte skickar [!DNL Target] aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, det spelar ingen roll att alla aktiviteter som användaren såg fick kredit. Du jämför resultaten av två objekt i den enskilda aktiviteten. Det är inte möjligt för en användare att se olika upplevelser i samma aktivitet, så du behöver inte bekymra dig om korskontaminering av orderkrediter.
 
 Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) i *Administratörshandbok för analyser*.
 
@@ -125,7 +125,7 @@ En källa till visningar för en A4T-aktivitets rapport efter inaktivering kan v
 
 ## Varför beräknas siffror för de unika besökarvärdena olika i Analytics och Analytics for Adobe Target (A4T)? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-När du kör ett A/B-test, där Students t-test (konfidensmåttet) används för att välja en testvinnare, är en av antagandena att det finns en fast tidshorisont. Testet är inte statistiskt giltigt om du inte tittar på den fasta provstorleken.
+När du kör ett A/B-test, som använder [Welch&#39;s t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (konfidensmåttet) för att välja en testvinnare. En av antagandena är att det finns en fast tidshorisont. Testet är inte statistiskt giltigt om du inte tittar på den fasta provstorleken.
 
 The [!UICONTROL Unique Visitors] är olika i [!DNL Analytics] och [!DNL Target] bara när du tittar på en period som är kortare än det faktiska testet. Om du inte har uppnått din provstorlek är testet inte lika tillförlitligt. Se [Så här kör du ett A/B-test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) på [Evan Millers webbplats](https://www.evanmiller.org/index.html) för mer information.
 

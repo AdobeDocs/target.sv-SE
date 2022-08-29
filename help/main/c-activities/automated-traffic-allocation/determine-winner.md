@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar resultatet av en automatisk fördelning av A
 title: Hur tolkar jag autofördelade rapporter?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ I Automatisk allokering definieras alltid den första upplevelsen (som standard 
 
 Det numeriska&quot;Lyft&quot;-värdet och 95 %-gränserna för varje upplevelse beräknas alltid med referens till den definierade&quot;Kontroll&quot;-upplevelsen. Den definierade kontrollupplevelsen kan inte ha en lyft i förhållande till sig själv, så ett tomt &quot;—&quot;-värde rapporteras för den här upplevelsen. Till skillnad från vid A/B-tester rapporteras inte ett negativt Lyft-värde i autofördelningstester om en upplevelse fungerar sämre än den definierade kontrollen. i stället visas &quot;—&quot;.
 
-Fälten för konfidensintervall representerar det 95-procentiga konfidensintervallet runt den genomsnittliga uppskattningen av en upplevelses konverteringsgrad. De är också färgkodade i förhållande till den definierade &quot;Kontroll&quot;-upplevelsen. Kontrollfältet är alltid grått. De delar av konfidensintervallen som ligger under &quot;Kontrollupplevelsens&quot; konfidensintervall är röda och de delar av konfidensintervallen som ligger över &quot;Kontrollupplevelsen&quot; är gröna.
+Fälten för konfidensintervall representerar det 95-procentiga konfidensintervallet runt den genomsnittliga uppskattningen av en upplevelses konverteringsgrad. De är också färgkodade i förhållande till den definierade &quot;Kontroll&quot;-upplevelsen. &quot;Kontrollfältet&quot; är alltid grått. De delar av konfidensintervallen som ligger under &quot;Kontroll&quot; - upplevelsens konfidensintervall är röda och de delar av konfidensintervallen som ligger över &quot;Kontroll&quot; - upplevelsen är färgade i grönt.
 
 En vinnare blir resultatet när den ledande upplevelsens 95-procentiga konfidensintervall inte överlappar några andra upplevelser. Den vinnande upplevelsen får en grön stjärna till vänster om upplevelsenamnet och i banderollen&quot;Vinnare&quot;. När ingen stjärna är synlig står det &quot;Ingen vinnare än&quot; på banderollen och ingen vinnare har hittats ännu.
 
@@ -71,7 +71,7 @@ En av följande orsaker beskriver varför 0 % visas i rapportens [!UICONTROL Con
 
 * Manuella A/B-tester och automatisk fördelning använder olika statistik för att visa konfidensvärden.
 
-   Manuella A/B-tester använder p-värden baserade på [Studentens test](https://en.wikipedia.org/wiki/Student%27s_t-test). Ett P-värde är sannolikheten att hitta den observerade (eller mer extrema) skillnaden mellan en upplevelse och kontrollen, eftersom det i verkligheten inte finns någon sådan skillnad. Dessa P-värden kan bara användas för att avgöra om observerade data är konsekventa med en viss upplevelse och om kontrollen är densamma. Dessa värden kan inte användas för att avgöra om en upplevelse skiljer sig från en annan upplevelse (inte kontroll).
+   Manuella A/B-tester använder p-värden baserade på [Welch&#39;s t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test). Ett P-värde är sannolikheten att hitta den observerade (eller mer extrema) skillnaden mellan en upplevelse och kontrollen, eftersom det i verkligheten inte finns någon sådan skillnad. Dessa P-värden kan bara användas för att avgöra om observerade data är konsekventa med en viss upplevelse och om kontrollen är densamma. Dessa värden kan inte användas för att avgöra om en upplevelse skiljer sig från en annan upplevelse (inte kontroll).
 
    Autoallokering visar sannolikheten för att en viss upplevelse ska bli en riktig vinnare för alla upplevelser i aktiviteten. Detta innebär att endast en vinnande upplevelse (som troligtvis kommer att vara vinnaren) kommer att ha ett värde som inte är noll. Alla andra är mest benägna att vara förlorare och kommer att visa 0 %.
 
