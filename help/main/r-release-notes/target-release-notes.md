@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 78c394a2e82bdf02f124240f0755f4b747804cf6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Den här versionen kommer att vara tillgänglig enligt följande uppdelade schem
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Lagt till en [!UICONTROL Cross-Domain] vid hämtning på .js 2.9.0 (och senare) för att tillåta eller inaktivera inställning av cookies från tredje part (TGT-43674)
+* Lagt till en [!UICONTROL Cross-Domain] vid hämtning på .js 2.9.1 (och senare) för att tillåta eller inaktivera inställning av cookies från tredje part (TGT-43674)
 * Korrigerade ett problem som orsakade [!UICONTROL Decision Offers] inte fungerar som det ska i [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Ett problem som orsakade att ett felmeddelande visades när användaren valde [!UICONTROL Clicked an Element] konverteringsmål när ett [!UICONTROL Multivariate Testing] (MVT) aktivitet. (TGT-43842)
 * Ett problem som förhindrade [!UICONTROL Impressions] kolumn från visa i den hämtade CSV-rapportfilen för [!UICONTROL Automated Personalization] (AP) aktiviteter. (TGT-43780)
