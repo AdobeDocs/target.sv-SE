@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelser?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
+source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,11 @@ Gartner har namngett [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant 
 
 Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Gemenskapens Q&amp;A-kaffebrytning (31 augusti 2022)
-
-* **Onsdagen den 31 augusti 2022**
-* **9.00 till 10.00 (PDT, UTC-7)**
-* **[Registreringsinformation](https://adobe.ly/3buoDUt){target=_blank}**
-
-Vi kommer att bli sällskap av Senior [!DNL Adobe] Premier Support Consultant Moses Maxen för att prata om er [!DNL Adobe Target] frågor som rör de ämnen som behandlas i de senaste [8/11/22 Retail Personalization Industry Insiders Webinar](https://video.tv.adobe.com/v/346323){target=_blank}, samt hans expertområden med [!DNL Target]:
-
-* Hur e-handelsförsäljningen inom detaljhandeln har rusat i höjden när konsumenternas köpmönster och beteenden har förändrats under de senaste månaderna, med en högre efterfrågan på varor och tjänster på vissa marknader, bland annat konsumtionsvaror
-* Relaterad optimering och personaliseringsstrategier
-* [!DNL Target] Implementering
-* [!DNL Adobe] Funktioner i Sensei
-* Arbetsflöden i huvudgränssnittet
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
 Registrera dig för följande webbinarier för att se hur kunderna använder [!DNL Adobe Target] för att uppnå sina personaliserings- och optimeringsmål:
 
-### Chef&#39;s Collection: Recept för personalisering (30 augusti 2022)
-
-Gå med i [!DNL Adobe Target] [!DNL ]när de skapar nya idéer om hur du kan få ut det mesta av Target. Baserat på vår senaste e-bok &quot;Chef’s Collection: Ideas for Personalization&quot;.
-
-+++Klicka på mig
-
-* **Torsdag 30 augusti 2022**
-* **1:00 till 2:00 (EDT, UTC-4)**
-* **[Mer information och registreringsinformation](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-Vi kommer att fördjupa oss i berättelserna om våra &quot;kockar&quot; och vad de har lagat i sina egna personaliseringsköp.
-
-Låt oss utforska idéer om:
-
-* Så här använder du personalisering för att skapa lojalitet
-* Optimera för en konkurrensfördel
-* Skapa personliga upplevelser
-+++
 
 ### [!DNL Adobe Target] Kunskapsbyggare - optimering av mobila upplevelser (6 september 2022)
 
@@ -85,6 +54,25 @@ Automatisering av experiment och personalisering fortsätter att ge högsta konv
 ## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
 
 Åtkomstinspelningar av tidigare händelser (om sådana finns):
+
+### Chef&#39;s Collection: Recept för personalisering (30 augusti 2022)
+
+Gå med i [!DNL Adobe Target] [!DNL ]när de skapar nya idéer om hur du kan få ut det mesta av Target. Baserat på vår senaste e-bok, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+
++++Klicka på mig
+
+* **Torsdag 30 augusti 2022**
+* **1:00 till 2:00 (EDT, UTC-4)**
+* **[Mer information och registreringsinformation](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
+
+Vi kommer att fördjupa oss i berättelserna om våra &quot;kock&quot; och vad de har lagat i sina egna personaliseringsköp.
+
+Låt oss utforska idéer om:
+
+* Så här använder du personalisering för att skapa lojalitet
+* Optimera för en konkurrensfördel
+* Skapa personliga upplevelser
++++
 
 ### Aktivering av lojalitet i realtid (25 augusti 2022)
 
