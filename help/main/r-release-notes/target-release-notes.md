@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Den här versionen kommer att vara tillgänglig enligt följande uppdelade schem
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Lagt till en [!UICONTROL Cross-Domain] vid hämtning på .js 2.9.1 (och senare) för att tillåta eller inaktivera inställning av cookies från tredje part (TGT-43674)
+* Lagt till en [!UICONTROL Cross-Domain] vid nedladdning på .js 2.9.1 (och senare) för att tillåta eller inaktivera inställning av cookies från tredje part. (TGT-43674)
 * Uppdaterade meddelanden i [!DNL Target] Gränssnittet för att informera kunderna om att aktiviteter har aktiverats, inaktiverats och nått mål- och höjdtröskeln. (TGT-35811)
 * Lagt till möjlighet att blockera attribut via API i [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto Target] verksamhet.
 * Korrigerade ett problem som orsakade [!UICONTROL Decision Offers] inte fungerar som det ska i [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
