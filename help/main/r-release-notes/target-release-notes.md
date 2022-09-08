@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
+source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Den här versionen kommer att vara tillgänglig enligt följande uppdelade schem
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Lagt till en [!UICONTROL Cross-Domain] vid nedladdning på .js 2.9.1 (och senare) för att tillåta eller inaktivera inställning av cookies från tredje part. (TGT-43674)
+* Lagt till en [!UICONTROL Cross-Domain] vid nedladdning på .js 2.10.0 (och senare) för att tillåta eller inaktivera inställning av cookies från tredje part. (TGT-43674)
 * Uppdaterade meddelanden i [!DNL Target] Gränssnittet för att informera kunderna om att aktiviteter har aktiverats, inaktiverats och nått mål- och höjdtröskeln. (TGT-35811)
 * Korrigerade ett problem som orsakade [!UICONTROL Decision Offers] inte fungerar som det ska i [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Ett problem som orsakade att ett felmeddelande visades när användaren valde [!UICONTROL Clicked an Element] konverteringsmål när ett [!UICONTROL Multivariate Testing] (MVT) aktivitet. (TGT-43842)
