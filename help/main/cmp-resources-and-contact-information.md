@@ -4,9 +4,9 @@ description: Läs om ytterligare resurser som kan hjälpa dig att lära dig mer 
 title: Var kan jag hitta resurser och kontaktinformation för Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -120,10 +120,10 @@ Vi välkomnar alla förslag och all feedback om den här lösningen. Förstärkt
 
 ### Juridik {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2021 Adobe Systems Incorporated. all rights reserved.
+* © 2022 Adobe Systems Incorporated. all rights reserved.
 * Publicerat av Adobe Systems Incorporated.
 
-[Användarvillkor](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Sekretesscenter](https://www.adobe.com/privacy.html)
+[Användarvillkor](https://www.adobe.com/legal/terms.html)
 
 Adobe och Adobe logotypen är antingen registrerade varumärken eller varumärken som tillhör Adobe Systems Incorporated i USA och/eller andra länder. Varumärkessymbol (®, ™ osv.) betecknar ett Adobe-varumärke.
 

@@ -5,9 +5,9 @@ title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algor
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '2763'
+source-wordcount: '2757'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Algoritmer är:
 
 De senaste tilläggen i [!DNL Target] en serie rekommendationsalgoritmer är [!UICONTROL Recommended For You] och en serie Cart-baserade rekommendationer-algoritmer. Båda typerna av algoritmer använder tekniker för samarbete vid filtrering för att skapa individuella objektbaserade rekommendationer. Sedan kan flera objekt i användarens webbläsarhistorik (för [!UICONTROL Recommended For You]) eller användarens aktuella kundvagn (för kundvagnsbaserade rekommendationer) används för att hämta dessa artikelbaserade rekommendationer, som sedan sammanfogas för att utgöra den slutliga listan med rekommendationer. Observera att det finns många varianter av personaliserade rekommendationsalgoritmer. Valet av en flernyckelalgoritm innebär att rekommendationer är omedelbart tillgängliga efter det att en besökare har en webbläsarhistorik och rekommendationer kan uppdateras för att svara på den senaste besökarfunktionen.
 
-Dessa algoritmer bygger på de grundläggande filtertekniker för samarbete som beskrivs i det objektbaserade rekommendationsavsnittet, men innehåller även hyperparameterjustering för att fastställa det optimala likhetsmåttet mellan objekten. Algoritmen utför en kronologisk delning av beteendedata för varje användare, och utbildar rekommendationsmodeller på tidigare data samtidigt som man försöker förutsäga objekt som en användare tittar på eller köper senare. Likhetsmåttet som ger optimalt resultat [Genomsnittlig precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision) väljs sedan.
+Dessa algoritmer bygger på de grundläggande filtertekniker för samarbete som beskrivs i det objektbaserade rekommendationsavsnittet, men innehåller även hyperparameterjustering för att fastställa det optimala likhetsmåttet mellan objekten. Algoritmen utför en kronologisk delning av beteendedata för varje användare, och utbildar rekommendationsmodeller på tidigare data samtidigt som man försöker förutsäga objekt som en användare tittar på eller köper senare. Likhetsmåttet som ger optimalt resultat [Genomsnittlig precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) väljs sedan.
 
 Logiken i modellutbildning och poängsättning visas i följande diagram:
 
@@ -138,7 +138,7 @@ Här följer information om de här stegen:
 
    ![Formel som visar beräkning av utbildning](assets/formula4.png)
 
-   * **Utvärdering av objektlikhetsmodell**: Modellutvärderingen görs genom att rekommendationerna som genererades i det föregående steget följs och att man gör prognoser för testdatauppsättningen. Onlinebedömningsfasen härleds genom att varje användares objektanvändning i testdatauppsättningen ordnas kronologiskt och sedan görs 100 rekommendationer för ordnade deluppsättningar av objekt i ett försök att förutse efterföljande vyer och inköp. En informationshämtning, [Genomsnittlig precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), används för att utvärdera kvaliteten på dessa rekommendationer. Detta mätresultat tar hänsyn till rekommendationsordningen och prioriterar relevanta poster högre upp i listan över rekommendationer, som är en viktig egenskap för rangordningssystem.
+   * **Utvärdering av objektlikhetsmodell**: Modellutvärderingen görs genom att rekommendationerna som genererades i det föregående steget följs och att man gör prognoser för testdatauppsättningen. Onlinebedömningsfasen härleds genom att varje användares objektanvändning i testdatauppsättningen ordnas kronologiskt och sedan görs 100 rekommendationer för ordnade deluppsättningar av objekt i ett försök att förutse efterföljande vyer och inköp. En informationshämtning, [Genomsnittlig precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) används för att utvärdera kvaliteten på dessa rekommendationer. Detta mätresultat tar hänsyn till rekommendationsordningen och prioriterar relevanta poster högre upp i listan över rekommendationer, som är en viktig egenskap för rangordningssystem.
    * **Modellval**: Efter offlineutvärdering väljs den modell som har den högsta genomsnittliga precisionen och alla rekommendationer för enskilda artiklar beräknas för den.
    * **Offlinefiltrering**: Det sista steget i modellutbildningen är att tillämpa eventuella tillämpliga dynamiska filter. Efter det här steget cachelagras förberäknade rekommendationer globalt så att de kan användas.
 
