@@ -4,7 +4,7 @@ description: Bekanta dig med användargränssnittet och hitta länkar till mer d
 title: Hur jag använder [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Panelen innehåller flikar för [!UICONTROL Notifications] och [!UICONTROL Annou
 
 Följande avsnitt innehåller information om varje flik och hur du konfigurerar meddelanden och meddelanden:
 
-### Meddelanden
+### Meddelanden {#notifications}
 
 [!DNL Target] händelsemeddelanden innehåller följande:
 
@@ -86,6 +86,7 @@ Följande avsnitt innehåller information om varje flik och hur du konfigurerar 
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 Du kan markera enskilda meddelanden som lästa genom att hålla muspekaren över meddelandet och sedan klicka på bockmarkeringen. Du kan markera alla meddelanden som lästa eller visa alla meddelanden genom att klicka på [!UICONTROL "Mark as Read"] eller [!UICONTROL "View All"] längst ned på panelen.
