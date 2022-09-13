@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 * Ett problem som orsakade att en timeout-varning för nätverk visades i [!DNL Target] Gränssnitt vid hämtning av parametrar. (TGT-43737)
 * Uppdaterat gränssnitt som ser till att vissa dra och släpp-åtgärder är tillgängliga via tangentbordet. (TGT-42969)
 * Uppdaterat användargränssnitt för att säkerställa att textinställningarna är korrekt lokaliserade.
+
+## at.js version 2.10.0 (13 september 2022)
+
+* Lagt till en [!UICONTROL Cross-Domain] vid nedladdning på .js 2.10.0 (och senare) för att tillåta eller inaktivera inställning av cookies från tredje part. (TGT-43674)
 
 ## Ytterligare versionsinformation
 
