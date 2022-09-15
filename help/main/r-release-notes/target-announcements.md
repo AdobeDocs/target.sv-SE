@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
+source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,13 @@ Läs om hur du kan höja konverteringsgraden med hjälp av [!DNL Adobe Target]ny
 
 Mobilupplevelser är grunden för innovation inom hur marknadsförings- och teknikteam utnyttjar produktledda strategier för kanalövergripande personalisering i webb och appar. Gå med i [!DNL Adobe] Mötet Kunskapsbyggare och lär dig hur [!DNL Adobe Target] frigör nya möjligheter till engagemang och ökade intäkter för marknadsförare, utvecklare och produktägare för att skapa framgångsrika produktcommunityn.
 
+* [Inspelningslänk](https://video.tv.adobe.com/v/347360){target=_blank}
+
 ### Chef&#39;s Collection: Recept för personalisering (30 augusti 2022)
 
 Gå med i [!DNL Adobe Target] [!DNL ]när de skapar nya idéer om hur du kan få ut det mesta av Target. Baserat på vår senaste e-bok, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+
+* [Inspelningslänk](https://video.tv.adobe.com/v/346970/){target=_blank}
 
 +++Information
 
