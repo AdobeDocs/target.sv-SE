@@ -4,7 +4,7 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1834'
 ht-degree: 0%
@@ -91,16 +91,16 @@ Utforska idéer om:
 
 Den ökande lojaliteten i en tid med allt snabbare frågor i försörjningskedjan, fel i tjänsten och begränsad personal är en utmaning som de flesta varumärken står inför när det gäller resor, turism och matlagning. Hur skalar varumärken upplevelserna i AI-tidsåldern utan de resurser som behövs och som har lämnat branschen. Digitala framsteg har ökat 20-25 snabbare för att klara inte bara accelererade kundförväntningar utan även för att skala team genom automatisering.
 
-+++Information
+* +++Information
 
-Under 2022 har systemen nått en vändpunkt när det gäller möjligheten att tillhandahålla kontinuerlig intelligens för att leverera lojalitetsaktivering i realtid.
+   Under 2022 har systemen nått en vändpunkt när det gäller möjligheten att tillhandahålla kontinuerlig intelligens för att leverera lojalitetsaktivering i realtid.
 
-Ämnen vi ska titta på:
+   Ämnen vi ska titta på:
 
-* Accelerationen av digitala störningar och höjningen av AI
-* Varför tidiga användare vinner både i topp- och bottentillväxt
-* Automatisera personalisering inom resor
-* Lojalitetsaktivering i realtid in action
+   * Accelerationen av digitala störningar och höjningen av AI
+   * Varför tidiga användare vinner både i topp- och bottentillväxt
+   * Automatisera personalisering inom resor
+   * Lojalitetsaktivering i realtid in action
 
 +++
 
@@ -110,9 +110,9 @@ Under 2022 har systemen nått en vändpunkt när det gäller möjligheten att ti
 
 * [Inspelningslänk](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Information
+* +++Information
 
-Följ Michael Klein (Director, Industry Strategy Retail) och Leina Betzer (Target Consultant, Adobe Premier Support) för att diskutera hur detaljhandeln skjuter i höjden när konsumenternas köpmönster och beteenden förändras, med ökad efterfrågan på varor och tjänster på vissa marknader.
+   Följ Michael Klein (Director, Industry Strategy Retail) och Leina Betzer (Target Consultant, Adobe Premier Support) för att diskutera hur detaljhandeln skjuter i höjden när konsumenternas köpmönster och beteenden förändras, med ökad efterfrågan på varor och tjänster på vissa marknader.
 
 +++
 
