@@ -4,7 +4,7 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4553'
 ht-degree: 0%
@@ -26,12 +26,6 @@ I följande avsnitt listas kända problem för [!DNL Target]:
 ### Ta bort platser med ad hoc-erbjudanden i aktiviteter som skapats i den formulärbaserade Experience Composer {#ad-hoc}
 
 Undvik att ta bort platser i en aktivitet som skapats i den formulärbaserade Experience Composer om platserna använder ad hoc-erbjudanden (erbjudanden som skapats i aktiviteten). Om du tar bort platser kan aktiviteten bli skadad. The [!DNL Target] -teamet arbetar på en fix till detta. Som en tillfällig lösning kan du skapa globala erbjudanden från [!UICONTROL Offer library] och använda dem på olika platser, eller skapa nya upplevelser vid behov. (KB-2014)
-
-### Analyser för Adobe Target-värden (A4T) för automatisk fördelning och automatisk målaktiviteter
-
-The [!DNL Target] Med användargränssnittet kan användare välja engagemangs- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet. Konverteringsmått stöds. interaktions- och intäktsstatistik är *not* stöds. Om du väljer målstatistik för engagemang eller intäkter skapas ingen optimeringsmodell.
-
-En lista över målvärden som stöds och som inte stöds finns på [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Enhanced Experience Composer (EEC) stöder inte förfrågningar från PUT.
 
@@ -122,6 +116,12 @@ Sanningens källa är alltid den rapport som visas i [!DNL Target] Gränssnitt.
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan har lösts flyttas de till följande avsnitt. Ytterligare anteckningar läggs till, om det behövs.
+
+### Analyser för Adobe Target-värden (A4T) för automatisk fördelning och automatisk målaktiviteter
+
+The [!DNL Target] Med användargränssnittet kan användare välja engagemangs- och intäktsmått som inte stöds som det primära målmåttet för optimering i [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet. Konverteringsmått stöds. interaktions- och intäktsstatistik är *not* stöds. Om du väljer målstatistik för engagemang eller intäkter skapas ingen optimeringsmodell.
+
+En lista över målvärden som stöds och som inte stöds finns på [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Trafikfördelning av [!DNL Auto-Allocate] aktiviteter med A4T {#aa-a4t}
 
