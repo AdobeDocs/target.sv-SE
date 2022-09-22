@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
+source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2027'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,27 @@ Gartner har namngett [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant 
 
 Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break (28 september 2022)
+
+Gå med i Gentry Lin och Brent Kostak för att i realtid besvara frågor från [!DNL Adobe Target] kunder i händelsespecifika [!UICONTROL Target Community] diskussionstråd. Den här kaffebrytningen är ett tillägg till webbseminariets Q&amp;A-konversation från den senaste [!DNL Adobe Target] Kunskapsbyggare - webbinarium om optimering av mobilupplevelser.
+
++++Information
+
+* **onsdagen den 28 september 2022**
+* **8.00 till 9.00. (PDT, UTC-7)**
+* **[Registerlänk](https://adobe.ly/3pYkmMG){target=_blank}**
+
+Du får ställa frågor om de ämnen som behandlas i [[!DNL Adobe Target] Webbseminarium om Experience Optimization Builder Expedition Series om optimering av mobilupplevelser](https://video.tv.adobe.com/v/347360){target=_blank}, samt andra som rör Gentry och Brents expertområden med [!DNL Target]:
+
+* [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), [!UICONTROL Experience Targeting] (XT), automatiserad testning och personalisering
+* Stegvisa arbetsflöden för aktivitetsinställningar
+* Förhämtning av upplevelser i batch, vilket gör det möjligt att alltid använda personalisering för mobilen
+* Livscykelstatistik för testning och målinriktning av kundupplevelser, mobil-SDK och API:er samt implementeringar av iOS och Android
+* Arbetsflöden för framtagning av webbmaterial
+* [!DNL Adobe Experience Cloud] integreringar
+
++++
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
