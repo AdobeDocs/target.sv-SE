@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
 workflow-type: tm+mt
-source-wordcount: '4585'
+source-wordcount: '4553'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,6 @@ I följande avsnitt listas kända problem för [!DNL Target]:
 ### Ta bort platser med ad hoc-erbjudanden i aktiviteter som skapats i den formulärbaserade Experience Composer {#ad-hoc}
 
 Undvik att ta bort platser i en aktivitet som skapats i den formulärbaserade Experience Composer om platserna använder ad hoc-erbjudanden (erbjudanden som skapats i aktiviteten). Om du tar bort platser kan aktiviteten bli skadad. The [!DNL Target] -teamet arbetar på en fix till detta. Som en tillfällig lösning kan du skapa globala erbjudanden från [!UICONTROL Offer library] och använda dem på olika platser, eller skapa nya upplevelser vid behov. (KB-2014)
-
-### Trafikfördelning av aktiviteter automatiskt med A4T {#aa-a4t}
-
-I vissa fall är trafikfördelningen [!UICONTROL Auto-Allocate] aktiviteter använda [!UICONTROL Analytics for Target] (A4T) kan variera från vad som ska ske baserat på den rapporterade konverteringsgraden för varje upplevelse. Detta inträffar oftare för aktiviteter med en hög andel av besökstrafiken för återvändande. Berörda kunder meddelas om vilka aktiviteter som påverkas.
-
-Använd [!UICONTROL Auto-Allocate] med standard [!DNL Target] rapportera eller använda standardtester A/B med [!DNL Analytics] rapportering som ett alternativ till [!UICONTROL Auto-Allocate] med [!DNL Analytics] rapportering. (TOP-131)
 
 ### Analyser för Adobe Target-värden (A4T) för automatisk fördelning och automatisk målaktiviteter
 
@@ -128,6 +122,10 @@ Sanningens källa är alltid den rapport som visas i [!DNL Target] Gränssnitt.
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan har lösts flyttas de till följande avsnitt. Ytterligare anteckningar läggs till, om det behövs.
+
+### Trafikfördelning av [!DNL Auto-Allocate] aktiviteter med A4T {#aa-a4t}
+
+I vissa fall är trafikfördelningen [!UICONTROL Auto-Allocate] aktiviteter använda [!UICONTROL Analytics for Target] (A4T) kan variera från vad som ska ske baserat på den rapporterade konverteringsgraden för varje upplevelse. Detta inträffar oftare för aktiviteter med en hög andel av besökstrafiken för återvändande. (TOP-131)
 
 ### at.js
 
