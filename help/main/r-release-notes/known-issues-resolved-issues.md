@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
-source-wordcount: '4553'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,6 @@ Information om kända fel för [!DNL Adobe Target]. Innehåller även informatio
 ## Kända fel {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 I följande avsnitt listas kända problem för [!DNL Target]:
-
-### Ta bort platser med ad hoc-erbjudanden i aktiviteter som skapats i den formulärbaserade Experience Composer {#ad-hoc}
-
-Undvik att ta bort platser i en aktivitet som skapats i den formulärbaserade Experience Composer om platserna använder ad hoc-erbjudanden (erbjudanden som skapats i aktiviteten). Om du tar bort platser kan aktiviteten bli skadad. The [!DNL Target] -teamet arbetar på en fix till detta. Som en tillfällig lösning kan du skapa globala erbjudanden från [!UICONTROL Offer library] och använda dem på olika platser, eller skapa nya upplevelser vid behov. (KB-2014)
 
 ### Enhanced Experience Composer (EEC) stöder inte förfrågningar från PUT.
 
@@ -116,6 +112,10 @@ Sanningens källa är alltid den rapport som visas i [!DNL Target] Gränssnitt.
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Eftersom kända problem ovan har lösts flyttas de till följande avsnitt. Ytterligare anteckningar läggs till, om det behövs.
+
+### Ta bort platser med ad hoc-erbjudanden i aktiviteter som skapats i den formulärbaserade Experience Composer {#ad-hoc}
+
+Undvik att ta bort platser i en aktivitet som skapats i den formulärbaserade Experience Composer om platserna använder ad hoc-erbjudanden (erbjudanden som skapats i aktiviteten). Om du tar bort platser kan aktiviteten bli skadad. The [!DNL Target] -teamet arbetar på en fix till detta. Som en tillfällig lösning kan du skapa globala erbjudanden från [!UICONTROL Offer library] och använda dem på olika platser, eller skapa nya upplevelser vid behov. (KB-2014)
 
 ### Analyser för Adobe Target-värden (A4T) för automatisk fördelning och automatisk målaktiviteter
 
