@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
+source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '4529'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,6 @@ När ett framgångsmått ställs in på ökning för varje intryck räknas besö
 När du använder Target-aktivitetsuttryck och -konverteringar i Analysis Workspace ska du använda samma Touch-modell för mätvärdena för att säkerställa korrekt räkning. Använda en [icke-standardattribueringsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), högerklicka på måttet för att **Ändra kolumninställningar > aktivera Använd icke-standardattribueringsmodell > välj samma Touch-modell**. Om den här modellen inte används överskattas mätvärdena.
 
 Alla aktuella Analytics-paket kan lägga till den här modellen med Attribution IQ. Om du inte har tillgång till Attribution IQ kan du lita på A4T-data i Rapporter och analyser.
-
-### Mål-API:er
-
-Kunder kan inte utföra CRUD-åtgärder på Automatisk allokering av aktiviteter via v3-versionen av API:t för A/B-aktiviteter på Adobe I/O.
 
 ### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i [!DNL Target] Gränssnitt. {#csv}
 
