@@ -5,7 +5,7 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 0%
@@ -301,8 +301,8 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
    Det här refererar till antalet radavgränsade värden i måltextområdet. Du kan till exempel ange 1 000 postkoder i ett postnummermål.
 
-### Riktningsregler
+### Riktningsregler {#targeting-rules}
 
 * **Rekommenderad gräns**: 2 500 tecken per målregelvärde.
-* **Rekommenderad gräns**: 30 000 unika värden per målgrupp över målinriktningsreglerna.
+* **Rekommenderad gräns**: 50 000 unika värden per målgrupp över målinriktningsreglerna.
 * **Rekommenderad gräns**: 100 000 unika målregelvärden per aktivitet.
