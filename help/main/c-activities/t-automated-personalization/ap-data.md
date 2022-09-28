@@ -4,9 +4,9 @@ description: Läs vilka data Adobe [!DNL Target] samlar in och använder för at
 title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2071'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,8 @@ I följande tabell visas kunddata som samlats in av [!UICONTROL Automated Person
 | URL-parametrar | URL | URL och eventuella URL-parametrar för den sida som visas för tillfället. | Anpassad - URL-parameter - [URL-parameter] |
 | Refererande URL | REF | Refererande URL och eventuella URL-parametrar för den refererande URL:en. | Anpassad - [Refererande URL-parameter] - [Parametervärde] |
 | Adobe Experience Cloud delade målgrupper | AAM | Alla målgrupper som delas med [!DNL Target] från andra [!DNL Adobe Experience Cloud] lösningar (till exempel [!DNL Adobe Audience Manager] och [!DNL Adobe Analytics], via [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Anpassad - Experience Cloud-målgrupp - [Målgruppsnamn] |
-| Adobe Experience Platform RTCDP-målgrupper | UPS | AEP RTCDP-målgrupper delade med [!DNL Target] via Destinationer. |  |
+| Adobe Experience Platform CDP-målgrupper i realtid | UPS | AEP CDP-målgrupper i realtid delade med [!DNL Target] via Destinationer. |  |
+| Adobe Experience Platform CDP-attribut i realtid | AEP | AEP CDP-attribut i realtid delade med [!DNL Target] via Destinationer. Den här funktionen finns för närvarande i Beta. |  |
 
 ## Blockera funktioner från [!DNL Target] maskininlärningsalgoritmer
 

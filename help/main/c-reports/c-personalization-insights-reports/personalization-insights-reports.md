@@ -4,9 +4,9 @@ description: Lär dig hur du använder specialrapporter för Automated Personali
 title: Hur använder jag personaliseringsInsights-rapporterna?
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,8 @@ Det finns två typer av attribut i [!UICONTROL Personalization Insights] rapport
 | Sidparametrar (kallas även&quot;mbox parameters&quot;) | Namn/värde-par som skickas direkt via sidkod som inte lagras i besökarens profil för framtida bruk. | `Custom - Mbox Parameter - [parameter name]` |
 | Kundattribut | Med kundattribut kan du överföra besökarprofildata via FTP till Experience Cloud. Använd data i Adobe Analytics och Adobe Target när de har överförts. | `Custom - Customer Attributes - [parameter name]` |
 | Delade målgrupper (Adobe Audience Manager eller Adobe Analytics) | Målgrupper skapade med Adobe Audience Manager eller Adobe Analytics och som delas med Target. | `Custom - Experience Cloud Segment - [segment name]` |
+| Delade målgrupper (Adobe Experience Platform/CDP i realtid) | Målgrupper som skapats med Adobe Experience Platform/CDP i realtid och som delas med Target via Destinations. | `Custom - Adobe Experience Platform Segment - [segment name]` |
+| Delade attribut (Adobe Experience Platform/CDP i realtid) | Attribut som har skapats med Adobe Experience Platform/Real-time CDP och som delas med Target via Destinations. Den här funktionen finns för närvarande i Beta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | Målgrupper/segment för rapportering i aktivitet | Målgrupper som definieras i din AP- eller Automatiskt mål-aktivitet under konfiguration i&quot;Mål och mått&quot;. | `Custom - Reporting Segment - [segment name]` |
 
 ## Vanliga frågor

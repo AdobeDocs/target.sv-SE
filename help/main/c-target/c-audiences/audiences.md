@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -108,19 +108,30 @@ Keep the following points in mind as you work with imported audiences:
 ## Använd målgrupper från [!DNL Adobe Experience Platform] {#aep}
 
 Använda målgrupper skapade i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), inbyggt [!DNL Adobe Experience Platform], hjälper företag att samla in kända och anonyma data från flera olika källor. Med den här processen kan ni skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser över alla kanaler och enheter i realtid.
++ Genom att ansluta [!DNL Target] till [!DNL Real-time Customer Data Platform]kan kunderna förbättra sin webbpersonalisering genom att låsa upp nya segment som tidigare inte var tillgängliga för [!DNL Target] för att möjliggöra millisekundpersonalisering i realtid på första sidan av en kunds webbbesök. Använda målgrupper och profilattribut som skapats i [!DNL Adobe Experience Platform] gör att du kan utöka de tillgängliga datapunkterna för bättre personalisering.
 
-Genom att ansluta [!DNL Target] till [!DNL Real-time Customer Data Platform]kan kunderna förbättra sin webbpersonalisering genom att låsa upp nya segment som tidigare inte var tillgängliga för [!DNL Target] för att möjliggöra millisekundpersonalisering i realtid på första sidan av en kunds webbbesök. Använda målgrupper skapade i [!DNL Adobe Experience Platform] gör att du kan utöka de tillgängliga datapunkterna för bättre personalisering.
-
-Den här integreringen låser upp viktiga användningsfall med RTCDP:
+Denna integrering låser upp viktiga användningsfall med CDP i realtid:
 
 * Personalisering med samma sida/nästa träff
 * Personalisering av okända användare
 
 Viktiga funktioner:
 
-* Integrering med Direct Target med RTCDP/[!DNL Adobe Experience Platform] på kanten (tar bort beroendet av [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations Card] med tillsyn
-* Kantsegmentering och kantprofil med enhetlig profil
+* Integrering med Direct Target och CDP i realtid/[!DNL Adobe Experience Platform] på kanten (tar bort beroendet av [!DNL Audience Core services] - AAM)
+* [!UICONTROL Target Edge Destinations Card] med styrning och policystyrning
+* CDP-segment och attribut för delad profil i realtid
+
+CDP-profilattribut i realtid har begränsningar och överväganden:
+
+* Attribut inom ett visst erbjudande måste komma från samma AEP-sandlåda. (Erbjudandet får med andra ord inte innehålla attribut från olika AEP-sandlådor.)
+* Attribut inom ett visst erbjudande kan komma från olika källor. det vill säga Target-profilen och AEP-profilen.(Du kan med andra ord kombinera attribut oavsett om de kommer från Target eller från AEP-profilen.)
+* När du definierar ett erbjudande kan du tilldela standardvärden för CDP-profilattribut i realtid om attributet inte har ett explicit värde. Om ett medgivande eller en styrningsprincip blockerar attributet som används i personaliseringstjänsten, kan standardvärdet användas i stället.
+* När CDP-profilattribut för realtid delas används de i personaliseringsmodellerna Artificial Intelligence/Machine Learning för Auto-Target och Automated Personalization.
+
+>[!NOTE]
+>
+>Funktionen CDP-profilattribut i realtid är för närvarande tillgänglig i betaversioner för HTML och [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
 
 Mer information finns i följande avsnitt:
 
