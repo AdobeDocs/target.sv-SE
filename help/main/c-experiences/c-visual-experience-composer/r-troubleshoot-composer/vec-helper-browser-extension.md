@@ -4,9 +4,9 @@ description: Upptäck varför vissa webbplatser kanske inte kan öppnas på ett 
 title: Hur använder jag hjälptillägget Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Med webbläsartillägget Helper för Google Chrome kan du läsa in webbplatser tillförlitligt i VEC för att snabbt skapa och skapa QA-webbupplevelser.
 
->[!NOTE]
+VEC Helper-webbläsaren är ett Chrome-tillägg. Det här tillägget är inte nödvändigt när du använder Mozilla Firefox.
+
+>[!IMPORTANT]
 >
->VEC Helper-webbläsaren är ett Chrome-tillägg. Det här tillägget är inte nödvändigt när du använder Mozilla Firefox.
+>Från och med januari 2023 är den nuvarande [!DNL Target] Tillägget VEC Helper slutar fungera i Google Chrome eftersom Google inte tillåter tillägg med Manifest V2. Ladda ned det nya tillägget för att fortsätta att visuellt utveckla dina webbplatser i [!DNL Target] från och med det nya året. Mer information finns i [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 

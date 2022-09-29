@@ -4,14 +4,14 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
 
-# Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer
+# Felsökning relaterade till [!UICONTROL Visual Experience Composer] och [!UICONTROL Enhanced Experience Composer]
 
 Visningsproblem och andra problem kan förekomma i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) och [!UICONTROL Enhanced Experience Composer] (EEG) på vissa villkor.
 
