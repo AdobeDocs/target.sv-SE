@@ -3,9 +3,9 @@ keywords: vec;Visual experience composer; vec;iframe;extension;browser
 description: Upptäck varför vissa webbplatser inte kan öppnas på ett tillförlitligt sätt i [!UICONTROL Visual Experience Composer] (VEC). The [!UICONTROL Visual Editing Helper] Med webbläsartillägg kan du läsa in webbplatser på ett tillförlitligt sätt i VEC.
 title: Hur jag använder [!UICONTROL Visual Editing Helper] Tillägget?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -56,12 +56,6 @@ Observera att med [Förbättrad Experience Composer](/help/main/administrating-t
 
    * Om du försöker att läsa in en webbplats med VEC som inte kan läsas in visas ett meddelande om att du har installerat [!UICONTROL Visual Editing Helper] webbläsartillägg.
    * Om at.js eller alloy.js ännu inte har implementerats på webbplatsen visas ett meddelande i VEC om att du har installerat tillägget.
-
-## Mer hjälp om den här funktionen
-
-* [Felsökning av problem relaterade till Visual Experience Composer och Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Felsökning av problem relaterade till Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Felsökning av problem relaterade till Förbättrad Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 
