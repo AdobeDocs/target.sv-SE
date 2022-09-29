@@ -3,7 +3,7 @@ user-guide-title: Adobe Target Business Practitioner Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 0%
@@ -234,7 +234,7 @@ ht-degree: 0%
          + [Felsöka Förbättrad Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Aktivera blandat innehåll i webbläsaren](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Sidändringsscenarier](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension)
+         + [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Omdirigera till en URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Skapa karuseller som fungerar i Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
