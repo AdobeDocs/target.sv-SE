@@ -4,7 +4,7 @@ description: Följ stegen som krävs för att implementera Analytics för [!DNL 
 title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Adobe rekommenderar att du tar bort den tidigare integreringen för att förenkl
 
 ### Steg 10: Aktivera alternativen för att använda Analytics som rapportkälla för Target
 
-I [!DNL Target], klicka **[!UICONTROL Administration > Visual Experience Composer]** och välj antingen **[!UICONTROL Select per activity]** eller **[!UICONTROL Adobe Analytics]** för att aktivera alternativen.
+I [!DNL Target], klicka **[!UICONTROL Administration > Reporting]** och välj antingen **[!UICONTROL Select per activity]** eller **[!UICONTROL Adobe Analytics]** för att aktivera alternativen.
 
 * **[!UICONTROL Select per activity]** låter dig välja mellan [!DNL Target] och [!DNL Analytics] när du skapar varje aktivitet.
 * **[!UICONTROL Adobe Analytics]** uppsättningar [!DNL Analytics] som rapportkälla för alla aktiviteter som du skapar.
