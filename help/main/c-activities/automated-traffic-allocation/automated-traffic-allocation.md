@@ -4,9 +4,9 @@ description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL
 title: Vad är en automatiskt fördelad aktivitet?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3456'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Mer information finns i [Automatisk allokering kan ge snabbare testresultat och 
 
 Följande avancerade måttinställningar stöds inte: [!UICONTROL Increment Count], [!UICONTROL Release User], [!UICONTROL Allow Reentry and Increment Count]och [!UICONTROL Release User and Bar from Reentry].
 
-**Besökare som ofta återvänder kan öka konverteringsgraden.**
+**Besökare som ofta återvänder kan öka upplevelsekonverteringsgraden.**
 
 Om en besökare som ser upplevelsen A returnerar ofta och konverterar flera gånger, ökar konverteringsgraden (CR) för upplevelsen A artificiellt. Jämför detta resultat med upplevelse B, där besökarna konverterar men inte återvänder ofta. Därför ser upplevelsen A bättre ut än upplevelsen B, så nya besökare är mer benägna att tilldelas A än B. Om du väljer att räkna en gång per deltagare kan CR för A och CR för B vara identiska.
 

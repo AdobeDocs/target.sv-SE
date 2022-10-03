@@ -4,7 +4,7 @@ description: Lär dig hur du hämtar data från Adobe [!DNL Target] aktiviteter 
 title: Hur hämtar jag rapportdata i en CSV-fil?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Data sparas till aktivitetens slut.
 
 >[!NOTE]
 >
->CSV-rapporten innehåller endast rådata och innehåller inte beräknade värden som intäkter per besökare, lyft eller förtroende som används för A/B-tester. Om du vill beräkna de beräknade måtten hämtar du målets [Slutför konfidensberäkning](/help/main/assets/complete_confidence_calculator.xlsx) Excel-fil för att ange aktivitetens värde eller granska [statistiska beräkningar som används av Target](/help/main/assets/statistical-calculations.pdf).
+>CSV-rapporten innehåller endast rådata och innehåller inte beräknade värden som intäkter per besökare, lyft eller förtroende som används för A/B-tester. Om du vill beräkna de beräknade måtten hämtar du målets [Slutför konfidensberäkning](/help/main/assets/complete_confidence_calculator.xlsx) Excel-fil för att ange aktivitetens värde eller granska [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Exportera beställningsinformation till CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

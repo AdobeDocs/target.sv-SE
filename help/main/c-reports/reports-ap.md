@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar sammanfattningsrapporten för Automated Pers
 title: Hur använder jag Automated Personalization Sammanfattningsrapporter?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ The [!UICONTROL Activity Level] rapporten jämför den sammanställda prestandan
 
 ![Aktivitetsnivårapport](/help/main/c-reports/assets/box_plot_ap.png)
 
-Standardreglerna för resultattolkning för A/B-tester gäller fortfarande, inklusive lyft, förtroende, trender, varaktighet och så vidare. Mer information om hur du tolkar resultat finns i [Om konverteringsgraden](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+Standardreglerna för resultattolkning för A/B-tester gäller fortfarande, inklusive lyft, förtroende, trender, varaktighet och så vidare. Mer information om hur du tolkar resultat finns i [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Erbjudandenivårapport {#section_CAA6409879E349C6906E2BE8156D87A1}
 

@@ -4,9 +4,9 @@ description: Hitta svar på frågor om lyft och självförtroende när ni använ
 title: Var hittar jag information om lyft och självförtroende med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om lyft och sj�
 
 ## Kan jag utföra offlineberäkningar för A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Du kan utföra offlineberäkningar för A4T, men det kräver ett steg med dataexport i [!DNL Analytics]. Mer information finns i&quot;Utföra offlineberäkningar för analys av mål (A4T)&quot; i [Konfidensnivå och konfidensintervall](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Du kan utföra offlineberäkningar för A4T, men det kräver ett steg med dataexport i [!DNL Analytics]. Mer information finns i [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Hur beräknas lift? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ Lyft är den procentuella skillnaden mellan kontrollsidans resultat och en lycka
 
 ## Hur beräknas förtroendet? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-Konfidensnivån är en sannolikhet, uttryckt i procent, som är lika med `1 - p-value`, där `p-value` beräknas från ett t-test. Se [Konverteringsgrad](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Konfidensnivån är en sannolikhet, uttryckt i procent, som är lika med `1 - p-value`, där `p-value` beräknas från ett t-test. Se [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Varför kan jag inte se lyft och självförtroende för beräknade mätvärden? {#lift-confidence}
 

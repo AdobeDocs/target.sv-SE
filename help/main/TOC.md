@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practitioner Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 0%
    + [Experience Performance Report (MVT)](c-reports/experience-performance-report.md)
    + [Platsavgiftsrapport](c-reports/location-contribution-report.md)
    + [Analyser för målrapportering (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Konverteringsgrad](c-reports/conversion-rate.md)
    + [Hämta data i en CSV-fil](c-reports/downloading-data-in-csv-file.md)
    + [Vanliga frågor om rapportering](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
