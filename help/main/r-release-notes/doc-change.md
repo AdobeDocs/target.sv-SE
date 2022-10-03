@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7deebcf7f6f6b0044748f598c53f165402d1cda3
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 3 oktober | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Uppdaterade datumen för [!DNL Target Standard/Premium] 22.10.1-utgåvan. |
 | 22 september | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A-kaffebrytning (28 september 2022)</li></ul> |
 | 15 september | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande webbinarium:<ul><li>Finjusterad AI-styrd personalisering: Nya funktioner i [!DNL Adobe Target] (11 oktober 2022)</li></ul> |
 | 13 september | [Förstå [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) | Lagt till information om meddelanden när en [!DNL Recommendations] feed misslyckas. |

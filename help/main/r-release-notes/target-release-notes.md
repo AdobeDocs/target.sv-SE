@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 29 september 2022**
+**Senast uppdaterad: 3 oktober 2022**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
@@ -23,9 +23,9 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-* **4 oktober**: Europa, Mellanöstern och Afrika (EMEA)
 * **5 oktober**: Asien-Stillahavsområdet (APAC)
 * **6 oktober**: Amerika
+* **7 oktober**: Europa, Mellanöstern och Afrika (EMEA)
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
