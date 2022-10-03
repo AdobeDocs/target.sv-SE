@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practitioner Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
+source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -258,6 +258,8 @@ ht-degree: 0%
       + [Genomsnittlig lyft, lyftgränser och konfidensintervall](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Visa flera mätvärden i en rapport](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Exkludera extrema värden](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + Statistikmetod {#statistical-methodology}
+      + [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + [Sammanfattningsrapport för automatiskt mål](c-reports/auto-target-summary-report.md)
    + [Automated Personalization Sammanfattningsrapporter](c-reports/reports-ap.md)
    + Rapport om personaliseringsinsikter {#insights}
