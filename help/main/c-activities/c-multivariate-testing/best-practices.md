@@ -4,7 +4,7 @@ description: Lär dig hur du förbättrar prestanda, undviker problem och åtgä
 title: Vilka är de bästa metoderna för multivariata tester?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -45,8 +45,8 @@ Tips som hjälper dig att förbättra prestanda, undvika problem och korrigera k
 
 ## Analysera {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Använd [Platsavgiftsrapport](/help/main/c-reports/location-contribution-report.md) övervaka resultatet för varje plats och varje erbjudande.
-* I [Experience Performance-rapport](/help/main/c-reports/experience-performance-report.md), basera dina beslut på de data som visas med hjälp av filtren Best 5 och Worst 5.
+* Använd [Platsavgiftsrapport](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) övervaka resultatet för varje plats och varje erbjudande.
+* I [Experience Performance-rapport](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), basera dina beslut på de data som visas med hjälp av filtren Best 5 och Worst 5.
 
    The [!UICONTROL All] filtret gör det svårt att extrahera den önskade informationen, och inte alla upplevelser kan visas i diagrammet. Använd [!UICONTROL All] om du vill titta på en viss upplevelse som inte är den bästa eller värsta av fem.
 

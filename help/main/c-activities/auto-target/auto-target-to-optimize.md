@@ -4,9 +4,9 @@ description: Lär dig hur en Automatisk målaktivitet i [!DNL Target] levererar 
 title: Vad är en aktivitet med automål?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ För [!UICONTROL Auto-Target]kan enkla tumregler användas för att förstå tra
 
 ## Rapportering och [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Mer information finns i [Sammanfattningsrapport för automatiskt mål](/help/main/c-reports/auto-target-summary-report.md) i [Rapporter](/help/main/c-reports/reports.md) -avsnitt.
+Mer information finns i [Sammanfattningsrapport för automatiskt mål](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).
 
 ## Utbildningsvideo: Förstå aktiviteter som mål automatiskt ![Märket Översikt](/help/main/assets/overview.png)
 

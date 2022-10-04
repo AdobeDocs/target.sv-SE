@@ -4,7 +4,7 @@ description: Se en lista med vanliga frågor och svar om Adobe Target funktioner
 title: Var kan jag hitta svar på Mina optimerings- och personaliseringsfrågor?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 0%
@@ -117,7 +117,7 @@ Använd kraften i [formulärbaserad verksamhet](/help/main/c-experiences/form-ex
 
 **Jag har bildat två aktiviteter. Hur vet jag vilken besökare som kommer att träffa?**
 
-**Kan jag ange prioritetsordning för några aktiviteter?**
+**Kan jag ange prioriteringsordning för några aktiviteter?**
 
 Använd inställningen Prioritet som finns i steg 3 i det guidade arbetsflödet i tre delar (sidan Mål och inställningar) för att [Definiera verksamheternas prioritet.](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
@@ -166,7 +166,7 @@ Checka ut [Mallregler](/help/main/c-experiences/c-visual-experience-composer/tem
 
 **Jag är trött på meddelandet&quot;Tillåt att webbläsaren läser in skript&quot; när jag försöker läsa in min sida i Visual Experience Composer (VEC). Hur kan jag undvika det här?**
 
-Det beror på att din webbplats har blandat innehåll - det är en plats som hämtar både HTTP- och HTTPS-resurser. Begär att IT-teamet flyttar till HTTPS helt.
+Detta beror på att din webbplats har blandat innehåll - det är en plats som hämtar både HTTP- och HTTPS-resurser. Begär att IT-teamet flyttar till HTTPS helt.
 
 Följ instruktionerna i [Aktivera blandat innehåll i webbläsaren](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) så att webbläsaren kan läsa in blandat innehåll. Detta är en säkerhetsfunktion i de flesta moderna webbläsare.
 
@@ -279,7 +279,7 @@ Det är här [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac
 
 **Kan jag utföra offlinerapporteringsberäkningar?**
 
-Använd [Alternativ för att exportera rapporter till CSV och hämta beställningsinformation till CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) på rapportsidan om du vill hämta önskade rapportdata.
+Använd [Alternativ för att exportera rapporter till CSV och hämta beställningsinformation till CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) på rapportsidan om du vill hämta önskade rapportdata.
 
 **Kan jag ändra kontrollupplevelsen för att utvärdera rapporter eller ändra beräkningsmetoden från besökare till besök?**
 

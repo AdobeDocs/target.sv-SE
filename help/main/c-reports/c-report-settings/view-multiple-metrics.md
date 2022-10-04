@@ -4,7 +4,7 @@ description: Lär dig hur du väljer flera mätvärden som ska visas i en rappor
 title: Hur visar jag flera mätvärden i en rapport?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Tänk på följande när du arbetar med flera mätvärden i rapporter:
 
 * Det finns möjlighet att visa flera mätvärden för [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md), [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)och [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md) (XT) endast aktiviteter.
 * Du kan inte lägga till mer än 20 mätvärden i en rapport för en aktivitet som använder [Analyser för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Du kan lägga till så många mätvärden som du har i din aktivitet i rapporter för aktiviteter som *not* använd A4T.
-* Du kan inte använda [Hämtningsalternativ](/help/main/c-reports/downloading-data-in-csv-file.md) för att hämta rapporter till CSV om du har valt flera mätvärden. Du måste välja ett enda mått för att aktivera [!UICONTROL Download] alternativ.
+* Du kan inte använda [Hämtningsalternativ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) för att hämta rapporter till CSV om du har valt flera mätvärden. Du måste välja ett enda mått för att aktivera [!UICONTROL Download] alternativ.
 * Du kan inte visa flera mått för aktiviteter som skapats före juli 2015 [!DNL Target] version (30 juli 2015).
 
 **Så här väljer du flera mätvärden som ska visas i rapporten:**

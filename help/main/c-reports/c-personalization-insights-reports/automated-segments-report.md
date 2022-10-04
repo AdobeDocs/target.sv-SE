@@ -4,9 +4,9 @@ description: Lär dig hur olika segment definieras av Adobe [!DNL Target] person
 title: Vad är rapporten om automatiserade segment?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2042'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-akti
 
 1. Klicka på **[!UICONTROL Reports]**.
 
-   The [Automated Personalization Summary](/help/main/c-reports/reports-ap.md) eller [Automatisk målsammanfattning](/help/main/c-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, som representeras av ikonen för första skärmen. De två ytterligare ikonerna representerar de två personaliseringsinsikterna: Automatiska segment och viktiga attribut. Automatiskt mål har en extra diagramikon för den grafiska vyn i [!UICONTROL Summary] rapport.
+   The [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) eller [Automatisk målsammanfattning](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, som representeras av ikonen för första skärmen. De två ytterligare ikonerna representerar de två personaliseringsinsikterna: Automatiska segment och viktiga attribut. Automatiskt mål har en extra diagramikon för den grafiska vyn i [!UICONTROL Summary] rapport.
 
-   ![](assets/personalization_insights.png)
+   ![](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,16 +56,15 @@ Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-akti
 
    Till skillnad från [!UICONTROL Summary] rapport (resultatrapportering), [!UICONTROL Personalization Insights], inklusive [!UICONTROL Automated Segments], är bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar och 60 dagar. Dessa fasta datumintervall tillåter [!UICONTROL Personalization Insights] om du vill använda ett stort och tillräckligt stort dataområde för att minska sannolikheten för att ni får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Du kan komma åt de tillgängliga fasta datumintervallen från [!UICONTROL Choose Duration] nedrullningsbar lista.
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Granska [!UICONTROL Automated Segments] rapportdata.
 
-   ![](assets/automated_segments_report.png)
-
+   ![Rapport över automatiserade segment](/help/main/c-reports/assets/automated_segments_report.png)
 
 1. (Valfritt) [Ladda ned rapporten i CSV-format](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) för analys i Excel och andra verktyg.
 
@@ -81,7 +80,7 @@ I följande tabell beskrivs hur du tolkar rapporten och dess element:
 |--- |--- |
 | Vänster sidopanel | Den vänstra panelen listar de 20 största&quot;automatiserade segmenten&quot; som identifieras av Target personaliseringsmodeller för den här aktiviteten. Ett&quot;automatiserat segment&quot; är som en målgrupp, men definieras av Target personaliseringsmodeller i stället för av marknadsföraren. Varje automatiserat segment består av specifika värden (eller värdeintervall) för specifika attribut.<br>Automatiska segment kan överlappa varandra. Automatiska segment kan definieras med ett, två, tre eller fyra attribut. Se exemplen nedan för mer information.<br>Mer information om Target personaliseringsmodeller finns i [Slumpmässig skogsalgoritm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Mer information om attributen Target personaliseringsmodeller använder för att skapa automatiserade segment finns i [Datainsamling för målets personaliseringsalgoritmer](/help/main/c-activities/t-automated-personalization/ap-data.md). |
 | Centrera diagram | I mittdiagrammen visas hur aktivitetens innehåll har utförts för det markerade automatiserade segmentet. När du klickar på olika segment på den vänstra panelen uppdateras diagrammen i mitten. |
-| Cirkeldiagram | Cirkeldiagrammen högst upp på mittpanelen visar det automatiserade segmentets storlek samt det totala antalet personaliserade besök i aktiviteten (till exempel trafik till den här aktiviteten som betjänades av personaliseringsmodellen). Omfattar inte kontrolltrafik eller trafik som betjänas av den övergripande vinnarmodellen). Segmentets storlek baseras endast på personaliserade besök.<br>![Cirkeldiagram](/help/main/c-reports/c-personalization-insights-reports/assets/pie.png) |
+| Cirkeldiagram | Cirkeldiagrammen högst upp på mittpanelen visar det automatiserade segmentets storlek samt det totala antalet personaliserade besök i aktiviteten (till exempel trafik till den här aktiviteten som betjänades av personaliseringsmodellen). Omfattar inte kontrolltrafik eller trafik som betjänas av den övergripande vinnarmodellen). Segmentets storlek baseras endast på personaliserade besök.<br>![Cirkeldiagram](/help/main/c-reports/assets/pie.png) |
 | Stapeldiagram med dubbla axlar | I stapeldiagrammet med dubbla axlar ingår besöks- och konverteringsinformation från erbjudandet eller upplevelsen för det specifika automatiserade segmentet. |
 | Rosa stapel | Det rosa strecket representerar konverteringsgraden och använder diagrammets nedre axel. Om du vill ha mer information håller du pekaren över fältet |
 | Blå stapel | Det blå fältet representerar antalet besök och använder diagrammets övre axel. Om du vill ha mer information håller du pekaren över fältet. |
@@ -91,13 +90,13 @@ I följande tabell beskrivs hur du tolkar rapporten och dess element:
 
 Detta automatiserade segment definieras utifrån endast ett attribut. Besökarna i det här automatiserade segmentet såg den här AP-aktiviteten på en veckodag utanför de vanliga arbetstiderna eller på en helg.
 
-![](assets/automated_segment_example_1.png)
+![Exempel 1 på rapporten Automatiska segment](/help/main/c-reports/assets/automated_segment_example_1.png)
 
 **Exempel 2 på automatiserat segment**
 
 Detta automatiska segment definieras baserat på två attribut. Besökare som ingick i det här automatiska segmentet och som såg denna AP-aktivitet hade färre än tre sidvisningar vid sitt aktuella besök och var geografiskt baserade i Latitude 42.57 och 47.29 (ungefär mellan New Hampshire/Oregon och Washington/Maine för ett amerikanskt företag).
 
-![](assets/automated_segment_example_2.png)
+![Exempel 2 på rapporten Automatiska segment](/help/main/c-reports/assets/automated_segment_example_2.png)
 
 ## Vanliga frågor om automatiserade segment {#section_740910A52FA646B4AC9452F98C2F5719}
 
@@ -123,13 +122,13 @@ Ett automatiserat segment består av specifika värden (eller värdeintervall) f
 
 Mer information om den slumpmässiga algoritmen för skogspersonalisering, som är grunden för Target personaliseringsmodeller, finns i [Slumpmässig skogsalgoritm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
-**Vilken ordning bestämmer de automatiserade segmenten? **
+**Vilken ordning bestämmer de automatiserade segmenten?**
 
 Poängen beräknas för varje segment utifrån dess storlek och hur annorlunda det utfördes med innehållet i din aktivitet. Kombinationen av dessa indata avgör ordningen på de automatiserade segmenten så att större segment med större skillnader i hur de svarade på det olika innehållet visas närmare segmentlistans övre del.
 
 **Varför visas bara några av mina erbjudanden/upplevelser i rapporten om automatiserade segment?**
 
-AP- och AT-aktiviteter bygger en modell per erbjudande (i fallet AP) och en modell per upplevelse (i fallet AT). Dessa aktiviteter börjar serva personaliserad trafik och skapar [!UICONTROL Personalization Insights] med så lite som två modeller. Om du inte ser alla erbjudanden/upplevelser i [!UICONTROL Personalization Insights], är det troligt att ni inte har några modeller byggda för just de erbjudandena/upplevelserna. Du kan kontrollera aktivitetens [!UICONTROL Summary] rapportera och se om det finns en klockikon bredvid erbjudandet/upplevelsen. Den här ikonen anger att modeller ännu inte har byggts för det erbjudandet/upplevelsen.
+AP- och AT-aktiviteter bygger en modell per erbjudande (i fallet AP) och en modell per upplevelse (i fallet AT). Dessa aktiviteter börjar serva personaliserad trafik och skapar [!UICONTROL Personalization Insights] med så lite som två modeller. Om du inte ser alla dina erbjudanden/upplevelser i [!UICONTROL Personalization Insights], är det troligt att du inte har några modeller byggda för just de erbjudandena/upplevelserna. Du kan kontrollera aktivitetens [!UICONTROL Summary] rapportera och se om det finns en klockikon bredvid erbjudandet/upplevelsen. Den här ikonen anger att modeller ännu inte har byggts för det erbjudandet/upplevelsen.
 
 **Varför får vissa erbjudanden/upplevelser med en lägre konverteringsgrad större trafik jämfört med andra erbjudanden/upplevelser för ett visst automatiserat segment?**
 
@@ -153,7 +152,7 @@ Insiktsrapportering för personalisering (båda [!UICONTROL Automated Segments] 
 
 **Varför finns det all besökstrafik i [!UICONTROL Automated Segments] matchar rapporten inte min AP- eller AT-sammanfattning/prestandarapport?**
 
-The [!UICONTROL Personalization Insights] rapporter omfattar endast besökare som såg en del av innehållet som valts ut i Target personaliseringsmodeller (dvs. inte kontrolltrafik eller trafik som betjänas av den övergripande vinnarmodellen). Denna trafiktyp kallas för&quot;personaliserad&quot; trafik. Den sammanfattande prestandarapporten i AP/AT omfattar kontroll kontra&quot;riktad&quot; trafik. Målstyrd trafik omfattar personaliserad trafik, liksom trafik som betjänades med den övergripande vinnarmodellen och viss slumpmässigt betjänad trafik som brukade lära sig mer.
+The [!UICONTROL Personalization Insights] rapporter omfattar endast besökare som såg en del av innehållet som valdes ut av Target personaliseringsmodeller (dvs. inte kontrolltrafik eller trafik som betjänas av den övergripande vinnarmodellen). Denna trafiktyp kallas för&quot;personaliserad&quot; trafik. Den sammanfattande prestandarapporten i AP/AT omfattar kontroll kontra&quot;riktad&quot; trafik. Målstyrd trafik omfattar personaliserad trafik, liksom trafik som betjänades med den övergripande vinnarmodellen och viss slumpmässigt betjänad trafik som brukade lära sig mer.
 
 **Kan de automatiserade segmenten utesluter varandra?**
 

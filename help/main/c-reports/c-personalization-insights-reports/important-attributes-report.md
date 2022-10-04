@@ -4,7 +4,7 @@ description: Lär dig använda [!UICONTROL Important Attributes] som visar de vi
 title: Vilken är den viktiga attributrapporten?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -40,13 +40,13 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
 1. Klicka på **[!UICONTROL Reports]**.
 
-   The [Automated Personalization Summary](/help/main/c-reports/reports-ap.md) eller [Automatisk målsammanfattning](/help/main/c-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, som representeras av ikonen för första skärmen. De två extra ikonerna representerar de två [!UICONTROL Personalization Insights] rapporter: [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes].
+   The [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) eller [Automatisk målsammanfattning](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, som representeras av ikonen för första skärmen. De två extra ikonerna representerar de två [!UICONTROL Personalization Insights] rapporter: [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes].
 
-   ![Sammanfattningsrapport för Automated Personalization-aktivitet](assets/summary-report-ap.png)
+   ![Sammanfattningsrapport för Automated Personalization-aktivitet](/help/main/c-reports/assets/summary-report-ap.png)
 
    Observera att [!UICONTROL Auto-Target] har en extra diagramikon för den grafiska vyn i [!UICONTROL Summary] rapport.
 
-   ![Sammanfattningsrapport för aktiviteten Automatiskt mål](assets/personalization_insights.png)
+   ![Sammanfattningsrapport för aktiviteten Automatiskt mål](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
 1. Efter 15 dagar från det att aktiviteten har aktiverats klickar du på **[!UICONTROL Important Attributes]** ikon.
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Välj önskat datumintervall.
 
@@ -66,16 +66,15 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
    Dessa fasta datumintervall tillåter [!UICONTROL Personalization Insights] om du vill använda ett stort och tillräckligt stort dataområde för att minska sannolikheten för att ni får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Du kan komma åt de tillgängliga fasta datumintervallen från [!UICONTROL Choose Duration] nedrullningsbar lista.
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Granska [!UICONTROL Important Attributes] rapportdata.
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Valfritt) [Ladda ned rapporten i CSV-format](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) för analys i Excel och andra verktyg.
 

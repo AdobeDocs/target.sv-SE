@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar rapportinställningar i Adobe Target, 
 title: Hur konfigurerar jag rapportinställningar?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Välj önskad förinställning på menyn **[!UICONTROL Target Preset]** nedrulln
 1. Markera den förinställning som du vill redigera.
 1. Redigera rapportens konfiguration efter behov (mått, datumintervall, målgrupper, avancerade inställningar och så vidare).
 
-   När du har klickat [!UICONTROL Save] När du har redigerat rapportens konfiguration visas en asterisk ( * ) efter förinställningsnamnet för att ange att förinställningen har ändrats, vilket visas nedan:
+   När du har klickat [!UICONTROL Save] efter redigering av rapportens konfiguration, en asterisk ( &#42; ) visas efter förinställningsnamnet för att ange att förinställningen har ändrats, vilket visas nedan:
 
    ![Rapportförinställning med asterisk](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -167,7 +167,7 @@ Klicka på **[!UICONTROL Download]** ikon för att ladda ned rapportdata i en [!
 
 ![Ikonen Hämta](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-Mer information finns i [Hämta data i en CSV-fil](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Mer information finns i [Hämta data i en CSV-fil](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Uppdatera {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ Du kan visa rapporten i olika format, beroende på aktivitetstypen. Välj önska
 
 Rapporterna innehåller flera datapunkter och visualiseringsrepresentationer som förstår vilka lyftgränser och konfidensnivåer din aktivitet har. På så sätt kan du bättre avgöra en vinnare.
 
-Mer information finns i [Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Mer information finns i [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Tänk på följande:
 

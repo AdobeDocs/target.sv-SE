@@ -4,7 +4,7 @@ description: Lär dig hur du skapar en [!UICONTROL Automated Personalization] (A
 title: Hur skapar jag en [!UICONTROL Automated Personalization] Aktivitet?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 0%
@@ -86,7 +86,7 @@ The [!UICONTROL Automated Personalization] (AP) aktivitetsarbetsflöde i [!DNL A
 
 1. (Villkorligt) Klicka **[!UICONTROL Offers]** för att markera delar av innehållet och tilldela dem till rapporteringsgrupper eller bara tillåta vissa besökare att se vissa erbjudanden med målinriktning.
 
-   Mer information finns i [Erbjud rapportgrupper i Automated Personalization](/help/main/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Mer information finns i [Erbjud rapportgrupper i Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
 
    Använd [!UICONTROL Location] lista för att filtrera erbjudanden efter plats. Använd [!UICONTROL Report Group] lista som ska filtreras efter erbjudanden efter rapporteringsgrupper. Du kan också använda [!UICONTROL Report Group] lista att filtrera efter [!UICONTROL Unassigned Offers] så att ni kan tilldela en rapporteringsgrupp till ett erbjudande som för närvarande inte är tilldelat någon rapporteringsgrupp.
 
@@ -164,4 +164,4 @@ The [!UICONTROL Automated Personalization] (AP) aktivitetsarbetsflöde i [!DNL A
 
 När du har klickat **[!UICONTROL Create]** visas aktivitetssammanfattningen. Klicka **Förhandsgranska upplevelser** för att förhandsgranska hur upplevelserna kommer att se ut när de levereras. Ett popup-fönster visas som du kan använda för att visa och dela länkar till dina AP-upplevelser på din webbplats för att få en&quot;riktig förhandsvisning&quot; av upplevelserna utanför Target Visual Experience Composer. Du måste dela länkarna från meddelandet för att kunna dela förhandsgranskningen. Det går inte att klicka på en länk och sedan kopiera URL-adressen direkt från sidan eftersom URL-adressen innehåller en parameter som bara visar sidan korrekt när du öppnar sidan från länken i meddelandet.
 
-Mer information om rapportering finns i [Automated Personalization Reports](/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Mer information om rapportering finns i [Automated Personalization Reports](/help/main/c-reports/personalization-reports/reports-ap.md).

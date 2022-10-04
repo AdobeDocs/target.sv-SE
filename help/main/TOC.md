@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practitioner Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -255,22 +255,23 @@ ht-degree: 0%
    + [Översikt över rapporter](c-reports/reports.md)
    + Rapportinställningar {#settings}
       + [Översikt över rapportinställningar](c-reports/c-report-settings/report-settings.md)
-      + [Genomsnittlig lyft, lyftgränser och konfidensintervall](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Visa flera mätvärden i en rapport](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Exkludera extrema värden](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [Hämta data i en CSV-fil](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Statistikmetod {#statistical-methodology}
       + [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [Sammanfattningsrapport för automatiskt mål](c-reports/auto-target-summary-report.md)
-   + [Automated Personalization Sammanfattningsrapporter](c-reports/reports-ap.md)
+   + Personaliseringsrapporter {#personalization-reports}
+      + [Sammanfattningsrapport för automatiskt mål](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Automated Personalization Sammanfattningsrapporter](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Erbjud rapporteringsgrupper i Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Rapport om personaliseringsinsikter {#insights}
       + [Översikt över personaliseringsinsikter](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport över automatiserade segment](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Viktiga attributrapporter](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Erbjud rapporteringsgrupper i Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [Experience Performance Report (MVT)](c-reports/experience-performance-report.md)
-   + [Platsavgiftsrapport](c-reports/location-contribution-report.md)
+   + Multivariata testrapporter {#multivariate-test-reports}
+      + [Experience Performance Report (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [Platsavgiftsrapport](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analyser för målrapportering (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Hämta data i en CSV-fil](c-reports/downloading-data-in-csv-file.md)
    + [Vanliga frågor om rapportering](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Recommendations - översikt](c-recommendations/recommendations.md)
