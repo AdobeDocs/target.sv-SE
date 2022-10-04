@@ -4,9 +4,9 @@ description: Visa aktuell status för Adobe [!DNL Target] för att hjälpa dig a
 title: Var kan jag se statusen för [!DNL Target] och andra Adobe-produkter?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Använd [!UICONTROL Adobe System Status] sida för att visa aktuell status för 
 
 För att se status för [!DNL Experience Cloud] lösningar, inklusive [!DNL Target]klickar du på [!UICONTROL Experience Cloud] -fliken.
 
-![](assets/system_status.png)
+![system_status, bild](assets/system_status.png)
 
 Överst på sidan finns information om pågående underhållshändelser och en länk för att prenumerera på uppdateringar för enskilda lösningar.
 
@@ -35,7 +35,7 @@ Ett meddelande i produkten visas alltid under den månadsvisa [!DNL Target] men 
 
 Längst ned på sidan finns en kalender över de senaste sju dagarna med statusvärden för varje lösning per dag. Håll pekaren över en statusindikator om du vill ha mer information:
 
-![](assets/system_status_indicator.png)
+![system_status_indikatorbild](assets/system_status_indicator.png)
 
 ## Proaktiva meddelanden
 

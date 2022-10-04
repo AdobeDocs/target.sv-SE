@@ -5,9 +5,9 @@ title: Hur hanterar jag undantag i Automated Personalization-aktiviteter?
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och käns
 
    Du kan se upplevelserna som skapats utifrån erbjudandena som du angav under [!UICONTROL Manage Content]. Du kommer att märka att inga upplevelser skapas i [!UICONTROL Manage Content] med det standarderbjudande du uteslöt.
 
-   ![](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4 image](assets/exclude_content_vec_4.png)
 
 **Så här exkluderar du standardinnehåll med formulärbaserad Experience Composer:**
 
@@ -130,14 +130,14 @@ Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och käns
 
    För text/HTML-innehåll:
 
-   ![](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1 image](assets/exclude_content_form_1.png)
 
    För bild-/videomaterial:
 
-   ![](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2 image](assets/exclude_content_form_2.png)
 
 1. Klicka på **[!UICONTROL Save]**.
 
    Du kan se upplevelserna som skapats utifrån erbjudandena som du angav under [!UICONTROL Manage Content]. Du kommer att märka att inga upplevelser skapas i [!UICONTROL Manage Content] med det standarderbjudande du uteslöt.
 
-   ![](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)

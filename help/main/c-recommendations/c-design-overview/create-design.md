@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en Adobe [!DNL Target] Recommendations-desig
 title: Hur skapar jag en design i Recommendations?
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
 1. För musen över kortet för den design du vill skapa och klicka sedan på knappen **[!UICONTROL Copy]** ikon.
 
-   ![](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign-bild](assets/Card_CopyDesign.png)
 
    The [!UICONTROL Create Design] visas.
 
-   ![](assets/createDesign.png)
+   ![createDesign, bild](assets/createDesign.png)
 
 1. I **[!UICONTROL Information]** panel, lägga till en **[!UICONTROL Content Name]** och en förhandsvisningsbild som du kan visa på designkortet.
 
@@ -104,7 +104,7 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 
 1. Se till att alternativet &quot;HTML Design&quot; är inaktiverat:
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle-bild](assets/html_design_toggle.png)
 
 1. Följande kod är ett exempel på vad du kan klistra in i din design:
 
@@ -169,7 +169,7 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 
 När algoritmen har körts och du har fått resultat bör svaret se ut ungefär så här:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendation image](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## Ytterligare tips och tricks för JSON-objekt {#section_C305673C68944749969DB239E3221DC2}
 

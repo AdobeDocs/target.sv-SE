@@ -4,9 +4,9 @@ description: Läs om Recommendations aktiviteter i Adobe [!DNL Target] som autom
 title: Vad är [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 Följande bild visar rekommendationer på en webbsida:
 
-![](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 En rekommendation avgör hur en produkt föreslås för en besökare, beroende på besökarens aktiviteter på webbplatsen. Exempel:
 

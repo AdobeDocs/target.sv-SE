@@ -4,9 +4,9 @@ description: Lär dig hur du använder start- och slutdatum och sluttider för a
 title: Kan jag rikta in mig på besökare som besöker min webbplats vid särskilda tillfällen?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Med [funktion för kombinerade ad hoc-målgrupper](/help/main/c-target/combining
 1. Namnge målgruppen och lägg till en valfri beskrivning.
 1. Dra och släpp **[!UICONTROL Time Frame]** till målgruppsverktyget.
 
-   ![](assets/target_timeframe_dialog.png)
+   ![target_timeframe_dialog image](assets/target_timeframe_dialog.png)
 
 1. Ange [!UICONTROL Start] och [!UICONTROL End] datum och tider för publiken.
 

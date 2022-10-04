@@ -4,9 +4,9 @@ description: Lär dig målinrikta olika versioner av samma upplevelse till olika
 title: Kan jag använda flera upplevelseversioner i en A/B-aktivitet?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ I det här fallet behöver du geospecifika versioner av upplevelsen, så att du 
 
 1. Klicka **[!UICONTROL Add Audience]** väljer du sedan den första målgruppen. Upprepa för varje publik.
 
-   ![](assets/exp-versions.png)
+   ![exp-versions image](assets/exp-versions.png)
 
    Om målgruppen inte finns än klickar du på [Skapa publik](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) och konfigurera det.
 

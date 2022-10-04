@@ -4,9 +4,9 @@ description: Lär dig hur du väljer ett framgångsmått i [!DNL Adobe Target] s
 title: Kan jag använda en rapportmålgrupp i ett framgångsmått?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Välj ett framgångsmått som kvalificerar användaren för den rapporterande m�
 
 För alla verksamheter gäller att [!UICONTROL Applied At] Med den nedrullningsbara listan kan du ange en målgrupp för ett framgångsmått så att du kan visa rapportnummer när mätvärdena har nåtts och för efterföljande åtgärder.
 
-![](assets/success_metric.png)
+![success_metric, bild](assets/success_metric.png)
 
 Anta till exempel att du har skapat en aktivitet för alla besökare som kommer in från din hemsida och når konverteringssidan, men du vill också detaljgranska mer för besökare som har lagt till mer än 50 USD i kundvagnen innan du konverterar.
 
@@ -32,4 +32,4 @@ Tänk på följande information när du använder en rapportpublik för ett fram
 
 Om du vill visa segmenteringen i rapporter väljer du önskad målgrupp på menyn [!UICONTROL Audience] nedrullningsbar lista i aktivitetens rapport.
 
-![](assets/reporting_audience_dropdown.png)
+![reporting_publik_dropdown image](assets/reporting_audience_dropdown.png)

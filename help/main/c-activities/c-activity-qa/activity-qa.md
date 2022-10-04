@@ -4,9 +4,9 @@ description: Lär dig använda Adobe [!DNL Target] QA-URL:er för enkel heltäck
 title: Hur gör jag QA-aktiviteter?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamhe
 
    Du kan navigera på webbplatsen för att se de andra sidorna eftersom [!UICONTROL Activity QA] Läget är fast. Detta gäller för at.js-implementeringar med version 2.*x* eller senare. För at.js 1.*x* implementeringar är detta bara sant om besökarens webbläsare inte blockerar cookies från tredje part.
 
-1. Om du vill visa rapporter som skapats från aktivitetslänkens URL:er klickar du på aktivitetens **[!UICONTROL Reports]** klickar du på **[!UICONTROL Settings]** ikon (  ![](assets/icon_gear.png) ) och sedan väljer **[!UICONTROL QA Mode Traffic]** från **[!UICONTROL Environment]** nedrullningsbar lista.
+1. Om du vill visa rapporter som skapats från aktivitetslänkens URL:er klickar du på aktivitetens **[!UICONTROL Reports]** klickar du på **[!UICONTROL Settings]** ikon (  ![icon_kugghjulsbild](assets/icon_gear.png) ) och sedan väljer **[!UICONTROL QA Mode Traffic]** från **[!UICONTROL Environment]** nedrullningsbar lista.
 
 ## Överväganden {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

@@ -4,9 +4,9 @@ description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test 
 title: Hur länge ska jag köra ett A/B-test?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3039'
+source-wordcount: '3051'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Det finns fem användardefinierade parametrar som definierar ett A/B-test. Dessa
 
 För ett A/B-test fastställs analytikern av den statistiska signifikansen, statistisk styrka, minsta tillförlitliga lyft som kan detekteras och baslinjekonverteringsgraden, och därefter beräknas det antal besökare som krävs utifrån dessa värden. I den här artikeln beskrivs dessa element och riktlinjer för hur du fastställer dessa mått för ett specifikt test.
 
-![](assets/samplesize.png)
+![samplingsstorleksbild](assets/samplesize.png)
 
 Bilden nedan visar de fyra möjliga resultaten av ett A/B-test:
 
-![](assets/outcomes.png)
+![resultatbild](assets/outcomes.png)
 
 Det är önskvärt att inte få några falska positiva eller falska negativ. Det går dock aldrig att garantera att nollvärdet för falskt positiva värden uppnås genom ett statistiskt test. Det är alltid möjligt att observerade trender inte är representativa för de underliggande konverteringssatserna. I ett test för att se om det var mer sannolikt att huvuden eller klave på ett mynt, även med ett rättvist mynt, skulle man kunna få tio huvuden på tio av slumpen. Den statistiska signifikansen och kraften hjälper oss att kvantifiera de falskt positiva och falska negativa frekvenserna och göra det möjligt för oss att hålla dem på rimliga nivåer för ett givet test.
 
@@ -109,11 +109,11 @@ Anta till exempel att två erbjudanden (A och B) har en konverteringsgrad på 10
 
 I figuren nedan visas dessa sannolikhetsfördelningar.
 
-![](assets/probability_distributions.png)
+![sannolikhet_fördelningsbild](assets/probability_distributions.png)
 
 På grund av den stora överlappningen mellan de två intervallen kan testet inte avgöra om konverteringsgraden är annorlunda. Därför kan detta test med 100 besökare inte skilja mellan de två erbjudandena. Men om Target exponerar erbjudandena för 5 000 besökare var finns det en 95-procentig risk för att den observerade konverteringsgraden sjunker mellan 9 % och 11 % respektive 14 % till 16 %.
 
-![](assets/probability_distributions2.png)
+![sannolikhet_fördelningar2 bild](assets/probability_distributions2.png)
 
 I det här fallet är det osannolikt att testet kommer till en felaktig slutsats, så testet med 5 000 besökare kan skilja mellan de två erbjudandena. Testet med 5 000 besökare har ett konfidensintervall på cirka +/-1 %. Det innebär att testet kan identifiera skillnader på cirka 1 %. Därför skulle ännu fler besökare behövas om den sanna konverteringsgraden för erbjudandena till exempel var 10 % och 10,5 % istället för 10 % och 15 %.
 
@@ -131,15 +131,15 @@ Beräkningsverktyget för provstorlek (länk ovan) ber dig att bestämma den sta
 
 Det finns en kompromiss mellan den minsta hiss som på ett tillförlitligt sätt kan identifieras av testet och det antal besökare som krävs. Figuren nedan, som gäller för en baslinjekonverteringsgrad (kontrollkonverteringsgrad) på 5 %, visar en kraftig minskning av avkastningen för att öka antalet besökare. Det minsta lyft som kan identifieras på ett tillförlitligt sätt förbättras avsevärt när de första besökarna läggs till i testet, men det tar allt fler besökare att förbättra testet. Figuren hjälper till att hitta en lämplig kompromiss mellan den tid som krävs för att köra testet (som bestäms av antalet besökare som krävs och platstrafiken) och den minsta lyft som kan identifieras tillförlitligt av testet.
 
-![](assets/samplesizecontrol.png)
+![samplesizecontrol-bild](assets/samplesizecontrol.png)
 
-I det här exemplet kan du bestämma att det räcker att identifiera en lyft på 5 % (motsvarande en konverteringsgrad för det alternativa erbjudandet på (100 %+5 %)*5 % = 5,25 %) i 80 av 100 tester, så du behöver en provstorlek på 100 000 besökare för varje erbjudande. Om sajten har 20 000 besökare per dag och du testar två erbjudanden bör testet tillåtas köras i 2*100 000/20 000 = 10 dagar innan det går att avgöra om det alternativa erbjudandet statistiskt sett är betydligt bättre än kontrollerbjudandet.
+I det här exemplet kan du bestämma att du kan identifiera en ökning på 5 % (vilket motsvarar en konverteringsgrad för det alternativa erbjudandet på (100 %+5 %)&#42;5 % = 5,25 %) i 80 av 100 tester räcker, så du behöver en exempelstorlek på 100 000 besökare för varje erbjudande. Om sajten har 20 000 besökare per dag och du testar två erbjudanden bör testet kunna köras i 2&#42;100,000/20,000 = 10 dagar innan det går att avgöra om det alternativa erbjudandet statistiskt sett är betydligt bättre än kontrollerbjudandet.
 
 Vi rekommenderar att den nödvändiga tiden alltid avrundas uppåt till närmaste hela vecka, så att veckodagens effekter undviks. I det här exemplet skulle testet därför köras i två veckor innan resultaten utvärderas.
 
 ### Intäkter per besök, mått {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-När du använder Intäkter per besök (RPV) som mätvärde läggs ytterligare en varianskälla till, eftersom RPV är produkten av intäkt per order och konverteringsgrad (RPV = Intäkter / #besökare = (Intäkt per order * #order) / # besökare = Intäkt per order * (#besökare * CTR) / #besökare = Intäkt per order * CTR), var och en med sin egen varians. Variansen i konverteringsgraden kan uppskattas direkt med hjälp av en matematisk modell, men variationen i intäkt per order är specifik för aktiviteten. Använd därför kunskap om denna avvikelse från tidigare aktiviteter eller kör A/B-testet under några dagar för att uppskatta intäktsavvikelsen. Avvikelsen beräknas utifrån värdena för Sum of Sales, Sum of Sales Squared och Number of Visitors som finns i CSV-nedladdningsfilen. När detta är fastställt använder du kalkylbladet för att beräkna den tid som krävs för att slutföra testet.
+När du använder Intäkter per besök (RPV) som mätvärde läggs en ytterligare variationskälla till, eftersom RPV är produkten av intäkt per order och konverteringsgrad (RPV = Intäkter / #besökare = (Intäkt per order) &#42; #order) / # besökare = Intäkter per order &#42; (#beställare &#42; CTR) / #besökare = Intäkter per order &#42; CTR), var och en med sin egen varians. Variansen i konverteringsgraden kan uppskattas direkt med hjälp av en matematisk modell, men variationen i intäkt per order är specifik för aktiviteten. Använd därför kunskap om denna avvikelse från tidigare aktiviteter eller kör A/B-testet under några dagar för att uppskatta intäktsavvikelsen. Avvikelsen beräknas utifrån värdena för Sum of Sales, Sum of Sales Squared och Number of Visitors som finns i CSV-nedladdningsfilen. När detta är fastställt använder du kalkylbladet för att beräkna den tid som krävs för att slutföra testet.
 
 Beräkningsverktyget för exempelstorlek (länk ovan) kan hjälpa dig att konfigurera RPV-måttet. När du öppnar beräkningsverktyget visas en flik med etiketten [!UICONTROL RPV Metric]. Du behöver följande information när du använder RPV-versionen av kalkylatorn:
 

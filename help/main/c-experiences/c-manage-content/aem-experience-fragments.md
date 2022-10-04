@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
    >
    >The [!UICONTROL Swap with Experience Fragment] är inte tillgängligt för bilder. Om du vill använda det här alternativet med en bild klickar du på behållarelementet som innehåller den önskade bilden.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list image](assets/experience_fragment_list.png)
 
 1. Välj önskat upplevelsefragment och klicka sedan på **[!UICONTROL Done]**.
 1. Slutför konfigurationen av aktiviteten.
@@ -140,7 +140,7 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
 
 1. I [!DNL Target]när du skapar eller redigerar en upplevelse i [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)väljer du den plats på sidan där du vill infoga [!DNL AEM] innehåll, markera **[!UICONTROL Change Experience Fragment]** för att visa [!UICONTROL Choose an Experience Fragment] lista.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list image](assets/experience_fragment_list.png)
 
    The [!UICONTROL Experience Fragment] listan visar innehållet som skapats i [!DNL AEM] som nu är inbyggda i [!DNL Target].
 

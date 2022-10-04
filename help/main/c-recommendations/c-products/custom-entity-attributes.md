@@ -5,9 +5,9 @@ title: Hur använder jag anpassade entitetsattribut?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Anpassade attribut för entiteter med flera värden får inte innehålla fler ä
 
 Anpassade entitetsattribut kan innehålla ett eller flera värden. Entitetsattributvärden visas i produktvyn.
 
-![](assets/multi-value_product.png)
+![multi-value_product image](assets/multi-value_product.png)
 
 Ett anpassat entitetsattribut med ett enda värde formateras på samma sätt som ett fördefinierat entitetsattribut med ett enda värde:
 
@@ -93,11 +93,11 @@ Du kan hantera dina CSV-filer i Raw-format med en textredigerare eller använda 
 
 CSV-filen med Raw-format ser ut så här:
 
-![](assets/multi-value_example_raw.png)
+![multi-value_example_raw-bild](assets/multi-value_example_raw.png)
 
 Samma katalog kommer att se ut så här i ett kalkylblad:
 
-![](assets/multi-value_example_excel.png)
+![multi-value_example_excel, bild](assets/multi-value_example_excel.png)
 
 När du konverterar till CSV-format lägger kalkylbladsprogrammet till citattecken runt cellinnehållet för att förhindra att kommatecken i cellen fungerar som kolumnavgränsare. Det lägger också till citattecken runt JSON-strängvärden som du inkluderar i anpassade attribut med flera värden. Det kan göra det okomplicerat att arbeta direkt med råfilen. Exempel:
 

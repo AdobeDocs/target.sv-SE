@@ -4,9 +4,9 @@ description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Re
 title: Hur skapar jag kriterier i Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2650'
+source-wordcount: '2658'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Att använda innehållets likhet för att generera rekommendationer är särskil
 
 När du väljer **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** kan du skapa regler för att öka eller minska vikten av specifika objektattribut när du fastställer rekommendationer. För t.ex. böcker kanske du vill öka vikten av attribut som *genre*, *författare*, *serie* och så vidare för att rekommendera liknande böcker.
 
-![](assets/ContentSimilarity.png)
+![ContentLikhet-bild](assets/ContentSimilarity.png)
 
 Eftersom innehållets likhet använder nyckelord för att jämföra objekt, finns det vissa attribut, som *message* eller *description*, kan infoga&quot;brus&quot; i jämförelsen. Du kan skapa regler för att ignorera dessa attribut.
 
@@ -224,7 +224,7 @@ Så här skapar du en enkel inkluderingsregel, som tidigare nämnts, som endast 
 1. Ange det minsta lagerbeloppet för de produkter som du vill rekommendera.
 1. Konfigurera rekommendationen så att endast objekt visas när de uppfyller vissa villkor.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Bilden Recs_InclusionRules](assets/Recs_InclusionRules.png)
 
    Du kan ange att objekt bara ska inkluderas när ett av attributen i listan uppfyller eller inte matchar ett eller flera angivna villkor.
 
@@ -254,7 +254,7 @@ Du kan t.ex. använda en högre viktning på artiklar som säljs så att de visa
 
    Den fullständiga regeln kan till exempel vara &quot;Kategori innehåller delsträngsskor&quot;.
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Recs_AttributeWeighting image](assets/Recs_AttributeWeighting.png)
 
 1. Välj den vikt som ska tilldelas regeln.
 

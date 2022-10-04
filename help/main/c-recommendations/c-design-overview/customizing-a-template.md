@@ -4,9 +4,9 @@ description: Lär dig använda designspråket Velocity med öppen källkod för 
 title: Hur anpassar jag en design snabbt?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Om du använder ett profilskript i din design måste $ före skriptnamnet escape
 
 Om du till exempel vill ha en design som visar något liknande:
 
-![](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 du kan använda följande kod:
 
@@ -201,9 +201,9 @@ Det gör du genom att skapa en kolumn i designen som använder `$key` attribut s
 </div>
 ```
 
-Resultatet är en design som följande, där nyckelobjektet visas i en kolumn.
+Resultatet är en design som följande, där en kolumn visar nyckelobjektet.
 
-![](assets/rec_key.png)
+![rec_key-bild](assets/rec_key.png)
 
 När du skapar [!DNL Recommendations] aktivitet, om nyckelobjektet hämtas från besökarens profil, till exempel&quot;senast köpta objekt&quot;, [!DNL Target] visar en slumpmässig produkt i [!UICONTROL Visual Experience Composer] (VEC). Detta beror på att en profil inte är tillgänglig när du designar aktiviteten. När besökarna visar sidan visas det förväntade nyckelobjektet.
 

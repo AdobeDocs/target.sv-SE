@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar rapportinställningar i Adobe Target, 
 title: Hur konfigurerar jag rapportinställningar?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -276,16 +276,16 @@ Om du hovrar över någon av de grå upplevelserna visas en ny grå rityta som m
 
 Följande bild visar en aktivitets diagram med 26 upplevelser:
 
-![](assets/graph_1.png)
+![graph_1 image](assets/graph_1.png)
 
 Diagrammet visar linjerna för de första 16 upplevelserna (vissa överlappar, så det verkar som om det finns färre än 16 linjer). Den färgade punkten i rutan Erfarenheter till vänster bredvid varje upplevelsenamn anger att upplevelsens rityta visas i motsvarande färg.
 
 Om du bläddrar nedåt i rutan Erfarenheter kommer du att märka att namnen för de 17 till 26:e upplevelserna är nedtonade, vilket visas på följande bild:
 
-![](assets/graph_2.png)
+![graph_2 image](assets/graph_2.png)
 
 Om du hovrar över en av de grå upplevelserna visas en ny grå rityta som motsvarar den upplevelsen tillfälligt i diagrammet.
 
 Anta att du vill visa ritytan för Experience R och att du inte vill se raden för Experience P. Du kan klicka på Experience P:s namn för att avmarkera det och sedan klicka på Experience R:s namn för att markera det, så som visas nedan:
 
-![](assets/graph_3.png)
+![graph_3 image](assets/graph_3.png)

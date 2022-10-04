@@ -4,9 +4,9 @@ description: Lär dig kombinera olika målgrupper (inklusive Adobe Experience Cl
 title: Kan jag kombinera flera olika målgrupper för att skapa en ny målgrupp?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Target] under det
 
       Anta till exempel att du i föregående exempel nu vill inkludera Safari-användare i den kombinerade publiken. Sök efter och dra målgruppen&quot;Safari Browser&quot; till rutan&quot;Firefox Browser&quot; till höger, som i följande exempel:
 
-      ![](assets/combine_multiple_audiences3.png)
+      ![kombinera_multiple_audiences3, bild](assets/combine_multiple_audiences3.png)
 
       Observera att operatorn mellan de två målgrupperna av webbläsartyp är&quot;AND&quot;. Välj [!UICONTROL And] nedrullningsbar lista och ändra den till &quot;OR&quot; för att skapa en ny kombinerad målgrupp för nya besökare med antingen Firefox eller Safari. Undvik att skapa regler som utesluter alla potentiella målgruppsmedlemmar. Det är till exempel inte möjligt för någon att besöka en sida med Firefox och Safari samtidigt.
 
@@ -65,7 +65,7 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Target] under det
 
    1. Om du vill lägga till ett undantag för en regel klickar du på **[!UICONTROL Exclude]**.
 
-      ![](assets/combine_multiple_audiences3a.png)
+      ![kombinera_multiple_audiences3a-bild](assets/combine_multiple_audiences3a.png)
 
       Dra och släpp en publik.
 
@@ -86,12 +86,12 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Goals & Settings]
 1. När du redigerar eller skapar en [aktivitet](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), på **[!UICONTROL Goals & Settings]** sida, markera **[!UICONTROL Conversion]** för framgångsmåttet väljer du **[!UICONTROL Viewed an Mbox]** som åtgärden.
 1. Markera önskad mbox i dialogrutan **[!UICONTROL Search mbox]** fält.
 
-   ![](assets/combine_multiple_audiences4.png)
+   ![kombinera_multiple_audiences4-bild](assets/combine_multiple_audiences4.png)
 
 1. Klicka på kugghjulsikonen och sedan på **[!UICONTROL Add Audience Targeting]**.
 1. Klicka på **[!UICONTROL Add Audience/Targeting Condition]** länk för att visa [!UICONTROL Choose Audience] -dialogrutan.
 
-   ![](assets/combine_multiple_audiences5.png)
+   ![kombinera_multiple_audiences5-bild](assets/combine_multiple_audiences5.png)
 
 1. Fortsätt med [Steg 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under&quot;Skapa en kombinerad publik när du skapar en aktivitet&quot; för att skapa den kombinerade målgruppen.
 
@@ -101,7 +101,7 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Goals & Settings]
 
 1. När du redigerar eller skapar en [aktivitet](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), på **[!UICONTROL Goals & Settings]** klickar du på **[!UICONTROL Add Audience]** ikon under [!UICONTROL Audiences for Reporting] för att visa [!UICONTROL Choose Audience] sida.
 
-   ![](assets/combine_multiple_audiences6.png)
+   ![kombinera_multiple_audiences6-bild](assets/combine_multiple_audiences6.png)
 
 1. Fortsätt med [Steg 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under&quot;Skapa en kombinerad publik när du skapar en aktivitet&quot; för att skapa den kombinerade målgruppen.
 

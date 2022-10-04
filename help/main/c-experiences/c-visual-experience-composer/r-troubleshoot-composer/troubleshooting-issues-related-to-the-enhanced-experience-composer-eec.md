@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör den förbättrade Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Följande felmeddelande kan visas i [!DNL Target]:
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![](assets/EEC_error.png)
+![EEC_error-bild](assets/EEC_error.png)
 
 Följande är orsaker till att du kan se det här felmeddelandet och åtgärda problemet:
 
@@ -56,15 +56,15 @@ Så här kontrollerar du TLS-versionen på din webbplats med Firefox (andra webb
 1. Öppna den berörda webbplatsen i Firefox.
 1. Klicka på **[!UICONTROL Show Site Information]** -ikonen i webbläsarens adressfält.
 
-   ![](assets/firefox_more_info.png)
+   ![firefox_more_info, bild](assets/firefox_more_info.png)
 
 1. Klicka på **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
-   ![](assets/firefox_more_info_2.png)
+   ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
 
 1. Se TLS-versionsinformationen under Technical Details (Teknisk information):
 
-   ![](assets/firefox_more_info_3.png)
+   ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
 
 1. Om du ser att din webbplats visar TLS 1.0 kan du gå till [Krypteringsändringar för TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} om du vill ha information om TLS-stödprincipen. För att åtgärda situationen (gäller till 12 september 2018){target=_blank}, kontakta [Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för konfiguration med TLS-versionen och domänen.
 

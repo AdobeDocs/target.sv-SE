@@ -4,9 +4,9 @@ description: Lär dig hur du förhandsgranskar varje upplevelse i en Multivariat
 title: Hur kan jag förhandsgranska upplevelser för ett multivariat test (MVT)?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ På grund av [!UICONTROL Multivariate Test] in [!DNL Adobe Target] jämför fler
 
    En lista över alla upplevelser visas.
 
-   ![](assets/preview.png)
+   ![förhandsvisa bild](assets/preview.png)
 
 1. Klicka på en upplevelse i listan för att visa den upplevelsen.
 

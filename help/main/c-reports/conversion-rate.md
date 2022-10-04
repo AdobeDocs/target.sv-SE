@@ -4,9 +4,9 @@ description: Se hur Adobe [!DNL Target] visar och beräknar konverteringsgraden,
 title: Hur visar jag konverteringsgraden, avbrottsnivån och konfidensnivån?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Konverteringsfrekvens, lyft, konfidensintervall och konfidensintervall rapporter
 
 Följande bild visar diagramrubriken för en exempelaktivitet med [!UICONTROL Conversion Rate], [!UICONTROL Lift]och [!UICONTROL Confidence] rubriker markerade.
 
-![](assets/conversion-rate.jpg)
+![bild med konverteringsgrad](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Visar mediankonverteringsfrekvens, konfidensintervall och antal konverteringar.
 
 Titta till exempel i följande rapportkolumn för konverteringsgrad:
 
-![](assets/conversion-rate-detail.jpg)
+![bild med konverteringsgrad-detalj](assets/conversion-rate-detail.jpg)
 
 Den första raden är kontrollupplevelsen. Den visar en konverteringsgrad på 15 %, med tre konverteringar. Den andra raden, Experience B, visar en konverteringsgrad på 15 %, med ett konfidensintervall på plus eller minus 15,65 % och tre konverteringar.
 
@@ -62,7 +62,7 @@ Förtroendet hos en upplevelse eller ett erbjudande som visas är en sannolikhet
 
 Konfidensen avrundar till upp till 100,00 % när förtroendet är större än eller lika med 99,995 %.
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![conf_report-bild](assets/conf_report.png)  ![conf_report_detail, bild](assets/conf_report_detail.png)
 
 Innan du fattar några affärsbeslut ska du försöka vänta tills exempelstorleken är tillräckligt stor och att de fyra konfidensintervallen för en eller flera upplevelser är konsekventa hela tiden för att säkerställa att resultaten är stabila.
 
@@ -75,7 +75,7 @@ Innan du fattar några affärsbeslut ska du försöka vänta tills exempelstorle
 
 The *konfidensintervall* är en serie uppskattningar inom vilka det verkliga värdet för mätvärdet kan hittas på en given konfidensnivå. Target har alltid 95% konfidensintervall. Konfidensintervallet visas som ett ljusgrått +/- procentvärde i kolumnen Konverteringsfrekvens. I exemplet nedan är konfidensintervallet för Experience B plus eller minus 15,65 %.
 
-![](assets/conversion_rate.png)
+![konvertering_rate, bild](assets/conversion_rate.png)
 
 **Exempel:** En upplevelse observerade RPV är $10 och dess 95% **konfidensintervall** är 5 till 15 dollar. Okänd för oss är dess verkliga RPV 12 dollar. Om vi sedan kör testet flera gånger kommer 95 % av tiden som vi beräknar att innehålla _true_ RPV på $12.
 

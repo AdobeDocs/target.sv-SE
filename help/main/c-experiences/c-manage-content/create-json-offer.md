@@ -4,9 +4,9 @@ description: Lär dig hur du skapar JSON-erbjudanden i Adobe [!DNL Target] för 
 title: Hur skapar jag JSON-erbjudanden?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Tänk på följande när du arbetar med JSON:
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
-   ![](assets/offer-json.png)
+   ![offer-json image](assets/offer-json.png)
 
 1. Skriv ett erbjudandenamn.
 1. Skriv eller klistra in JSON-koden i **[!UICONTROL Code]** box.
@@ -137,7 +137,7 @@ CDP-profilattribut i realtid kan delas med Target för användning i HTML och JS
 
 Exempel: Grace vill att AEP/Unified Profile ska dela attributvärden med Target för att kunna erbjuda personalisering i realtid. Med CDP-profilattribut i realtid kan Grace visa värdet för AEP-attributet i ett Target-erbjudande med tokenersättning. Hon kan till exempel anpassa sig efter kundens favoritfärg med `${aep.profile.favoriteColor}`eller deras lojalitetsnivå och förmånspoängvärde med hjälp av tokens `${aep.loyalty.tier}` och `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
 I exemplet ovan är det valfritt att tilldela standardvärden.
 
@@ -145,4 +145,4 @@ I exemplet ovan är det valfritt att tilldela standardvärden.
 
 Du kan filtrera [!UICONTROL Offers] biblioteket efter erbjudandetypen för JSON genom att klicka på **[!UICONTROL Type]** nedrullningsbar lista genom att välja **[!UICONTROL JSON]** kryssrutan.
 
-![](assets/offer-json-filter.png)
+![offer-json-filter, bild](assets/offer-json-filter.png)

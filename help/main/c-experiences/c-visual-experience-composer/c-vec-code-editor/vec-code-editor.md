@@ -4,9 +4,9 @@ description: Lär dig hur du använder panelen Ändringar i Adobe [!DNL Target] 
 title: Vilka ändringar kan jag göra på min sida?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2149'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ På sidan Ändringar visas alla ändringar som har gjorts på sidan i Visual Exp
 
 The [!UICONTROL Modifications] visas alla ändringar som har gjorts på sidan i VEC. Varje ändring du gör visas som en separat åtgärd eller ett separat element i [!UICONTROL Modifications] lista.
 
-![](assets/codeeditor_page_mods.png)
+![codeeditor_page_mods, bild](assets/codeeditor_page_mods.png)
 
 Använd sidan Modifications (Ändringar) för att göra små ändringar i väljaren som Target väljer när du använder VEC för att konfigurera hur innehåll levereras. Du kan ändra antingen innehållet eller ett HTML-attribut. Du kan också redigera koden och skapa motsvarigheten till ett HTML-erbjudande i en mbox.
 
@@ -29,39 +29,39 @@ Använd sidan Ändringar för att:
 
 * Visa en åtgärd som har utförts i den visuella dispositionen.
 
-   ![](assets/codeeditor_viewchange.png)
+   ![codeeditor_viewÄndra bild](assets/codeeditor_viewchange.png)
 
 * Redigera en befintlig åtgärd. Håll pekaren över den önskade ändringen och klicka sedan på **[!UICONTROL Edit]** ikon.
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_edit image](assets/codeeditor_edit.png)
 
    Gör ändringarna.
 
-   ![](assets/codeeditor_changechange1.png)
+   ![codeeditor_changeChange1 image](assets/codeeditor_changechange1.png)
 
 * Ta bort en befintlig åtgärd. Håll pekaren över den önskade ändringen och klicka sedan på **[!UICONTROL Delete]** ikon.
 
-   ![](assets/codeditor_delete.png)
+   ![codeditor_delete image](assets/codeditor_delete.png)
 
 * Lägg till en ny ändring. Klicka **[!UICONTROL Add Modification]** eller ikonen + anger du ändringarna enligt nedan.
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_new image](assets/codeeditor_new.png)
 
    Observera att när en ändring har skapats visas en +-ikon längst upp på panelen Ändringar i stället för knappen Lägg till ändring längst ned på panelen.
 
 * Docka ändringspanelen lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. Klicka på [!UICONTROL Dock] för att växla mellan de två inställningarna.
 
-   ![](assets/codeditor_dock.png)
+   ![codeditor_dock, bild](assets/codeditor_dock.png)
 
    I följande bild visas panelen Ändringar som är dockad längst ned på skärmen:
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom image](assets/codeeditor_dock_bottom.png)
 
 ## Lägg till ändringar {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. Visa [!UICONTROL Modifications] för en vald upplevelse, i VEC, klicka på **[!UICONTROL Modifications]** &lt;/>-ikon.
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ Använd sidan Ändringar för att:
 
    The [!UICONTROL Modifications] sidan öppnas och skärmen delas mellan det visuella läget till vänster och panelen Ändringar till höger. Klicka på [!UICONTROL Dock] -ikonen om du vill docka panelen Ändringar lodrätt längs sidan av målgränssnittet eller vågrätt längst ned. Observera att Experience A i följande bild inte har några tidigare ändringar.
 
-   ![](assets/codeeditor_page.png)
+   ![codeeditor_page image](assets/codeeditor_page.png)
 
    Experience B visar de tidigare ändringarna i [!UICONTROL Modifications] till höger.
 
-   ![](assets/codeeditor_page_mods.png)
+   ![codeeditor_page_mods, bild](assets/codeeditor_page_mods.png)
 
 1. Så här lägger du till en ändring:
 
@@ -82,7 +82,7 @@ Använd sidan Ändringar för att:
 
    På panelen Ändringar visas:
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
 1. Från **[!UICONTROL Modifications Type]** väljer du typ:
 
@@ -104,7 +104,7 @@ Väljare för efterföljande visuella åtgärder beror på vilka HTML-element so
 
 Panelen Egen kod används ofta för att lägga till JavaScript eller CSS högst upp på sidan.
 
-![](assets/codeeditor_custom.png)
+![codeeditor_custom image](assets/codeeditor_custom.png)
 
 Använd **[!UICONTROL Custom Code]** till:
 
@@ -215,7 +215,7 @@ Det här meddelandet anger att sidans struktur har ändrats sedan aktiviteten se
 
 De saknade väljarna kan nås i bläddringsläge. Vi rekommenderar att du tar bort och sedan återskapar varje upplevelse så att innehållet ser ut som du tänkt dig, vilket visas i varningsmeddelandet.
 
-![](assets/code_editor_2.png)
+![code_editor_2 image](assets/code_editor_2.png)
 
 ***När jag tar bort ett element visas ett varningsmeddelande som säger&quot;Om du tar bort den här åtgärden kan det påverka efterföljande åtgärder&quot;. Vad betyder det?***
 

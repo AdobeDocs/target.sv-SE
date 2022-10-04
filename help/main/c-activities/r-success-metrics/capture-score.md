@@ -4,9 +4,9 @@ description: Läs mer om Capture Score Engagement Metric i Adobe [!DNL Target] s
 title: Vad är mätvärdet för Capture Score?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Interaktionsstatistik för Capture Score i [!DNL Adobe Target] beräknar ett agg
 
 Följande exempel visar hur poängengagemang beräknas i en kampanj som testar två upplevelser, en med en kattbild och en med en hundbild.
 
-![](assets/example_score.png)
+![example_score image](assets/example_score.png)
 
 I det här exemplet upplever den första besökaren kattupplevelsen. Anta att en global [!DNL Target] begäran skickas i en sidpoäng som baseras på sidans värde. Om marknadsföraren har hämtat sidantalsengagemang för ett framgångsmått som är kopplat till `**any Target request**`läggs besökspoängen på alla förfrågningar som visas efter visningsbegäran runt kattbilden.
 
@@ -25,7 +25,7 @@ Den första sidan lägger till 1 i poängen, den andra sidan 0.25, den tredje 0.
 
 Du kan ta hänsyn till anskaffningskostnader och intäkter från länken genom att skicka adboxes och redirectors, vilket framgår av nästa sidflöde. Observera att i det här exemplet gäller båda [!DNL Target] begäranden på artikelsidan skickar ett poängtal, som kanske representerar en känd CPM.
 
-![](assets/example_score2.png)
+![example_score2 image](assets/example_score2.png)
 
 ## Tilldela en sidpoäng
 

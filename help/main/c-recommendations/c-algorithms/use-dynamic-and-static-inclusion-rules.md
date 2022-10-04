@@ -5,9 +5,9 @@ title: Hur använder jag regler för dynamisk och statisk inkludering i Recommen
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1997'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Processen för att skapa och använda inkluderingsregler för kriterier och kamp
 
 När du är [skapa villkor](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), klicka **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
 
-![](assets/inclusion_options_new.png)
+![include_options_new image](assets/inclusion_options_new.png)
 
 Vilka alternativ som är tillgängliga varierar beroende på vilken bransch- och rekommendationsnyckel som valts.
 
@@ -30,7 +30,7 @@ Vilka alternativ som är tillgängliga varierar beroende på vilken bransch- och
 
 while [skapa en kampanj](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), markera **[!UICONTROL Promote by Attribute]** och sedan klicka **[!UICONTROL Add Filtering Rule]**.
 
-![](assets/inclusion_options.png)
+![include_options image](assets/inclusion_options.png)
 
 ## Filtertyper {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ Du kan välja flera alternativ för att hantera tomma värden vid filtrering med
 
 Tidigare returnerades inga resultat om ett värde var tomt. &quot;If *x* is Empty&quot; gör att du kan välja lämplig åtgärd om villkoret har tomma värden, vilket visas på följande bild:
 
-![](assets/empty_value.png)
+![empty_value image](assets/empty_value.png)
 
-Håll pekaren över kugghjulsikonen (![](assets/icon_gear.png)) väljer du sedan önskad åtgärd:
+Håll pekaren över kugghjulsikonen (![icon_kugghjulsbild](assets/icon_gear.png)) väljer du sedan önskad åtgärd:
 
 | Åtgärd | Finns för | Detaljer |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ Håll pekaren över kugghjulsikonen (![](assets/icon_gear.png)) väljer du sedan
 >
 >Olika datatypsattribut kanske inte är kompatibla med operatorerna &quot;equals&quot; och &quot;does not equal&quot; under körning. Använd [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory]och [!UICONTROL Environment] värden klokt till höger om den vänstra sidan har fördefinierade attribut eller anpassade attribut.
 
-![](assets/left_right.png)
+![left_right image](assets/left_right.png)
 
 I följande tabell visas gällande regler och regler som kanske inte är kompatibla under körning:
 

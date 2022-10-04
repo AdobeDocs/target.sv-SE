@@ -4,9 +4,9 @@ description: Lär dig hur du skapar målgrupper som bara är aktiva i Adobe [!DN
 title: Kan jag skapa en publik som bara kan användas en gång?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Målgrupper som bara är aktiva har följande fördelar:
 
 1. Klicka på **[!UICONTROL This activity only]**.
 
-   ![](assets/activity-only-aud.png)
+   ![endast-ljudbild för aktivitet](assets/activity-only-aud.png)
 
 1. Skriv ett beskrivande målgruppsnamn.
 1. Dra och släpp önskade attribut i målgruppsverktyget.

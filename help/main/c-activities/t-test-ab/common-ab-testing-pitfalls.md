@@ -4,9 +4,9 @@ description: Lär dig hur du undviker de vanligaste fallgroparna och felen som f
 title: Hur undviker jag vanliga A/B-tester?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3884'
+source-wordcount: '3898'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ I A/B-tester använder marknadsförarna ofta 95 % konfidensnivåer. Baserat på 
 
 Som framgår av diagrammet nedan blir resultatet falskt positivt ju fler tester du kör, desto mer troligt blir minst ett av testerna. Om du t.ex. kör 10 tester med 95 % konfidensnivå, finns det ungefär en 40-procentig risk att du kommer att upptäcka en eller flera falska positiva effekter (eftersom det inte finns någon verklig lyft: Pr(minst en falsk positiv) = 1 - Pr(inga falska positiva) = 1 - 0,95^10 = 40 %).
 
-![](assets/pitfalls1.png)
+![fallfall1 bild](assets/pitfalls1.png)
 
 I en marknadsföringsorganisation utgör 95 procent vanligtvis en rimlig kompromiss mellan risken för ett falskt positivt och falskt negativt negativ.
 
@@ -59,7 +59,7 @@ Det finns dock två situationer som kräver stor uppmärksamhet för signifikans
 
 Med testning av flera erbjudanden deklarerar marknadsförarna ofta erbjudandet med högsta lyft som testvinnare, även om det inte finns någon statistiskt signifikant skillnad mellan vinnaren och löparen. Detta inträffar när skillnaden mellan alternativen är mindre än skillnaden mellan alternativen och kontrollen. Bilden nedan illustrerar detta koncept, med de svarta felstaplarna som representerar 95 % ökning av konfidensintervall. Den verkliga höjningen för varje erbjudande i förhållande till kontrollerbjudandet är 95 % troligtvis inkluderad i konfidensintervallet - det intervall som visas av felstaplarna.
 
-![](assets/pitfalls2.png)
+![fallgrop2, bild](assets/pitfalls2.png)
 
 Erbjudandena A och B har den högsta observerade lyften under testet, och det är osannolikt att erbjudandet C skulle överträffa dessa erbjudanden i ett framtida test, eftersom konfidensintervallet för C inte ens överlappar konfidensintervallen för A eller B. Även om A-erbjudandet har den högsta observerade lyften under testet är det dock helt möjligt att B-erbjudandet kan fungera bättre i ett framtida test eftersom konfidensintervallen överlappar varandra.
 
@@ -67,7 +67,7 @@ Här är processen att både erbjudanden A och B bör betraktas som testvinnare.
 
 Det är vanligtvis inte möjligt att köra testet tillräckligt länge för att identifiera alternativens verkliga relativa prestanda, och ofta är skillnaden i prestanda mellan alternativen för liten för att i hög grad påverka konverteringsgraden. I sådana fall kan du tolka resultatet som en länk och använda andra överväganden, som strategi eller anpassning till andra element på sidan, för att avgöra vilket erbjudande som ska implementeras. Med flera tester måste du vara öppen för fler än en vinnare, vilket i vissa fall avsevärt öppnar upp för möjligheterna att ta vägen till utvecklingen av din webbplats.
 
-Observera att om ni vill identifiera erbjudandet med den högsta konverteringsgraden jämför ni alla erbjudanden med varandra. I exemplet ovan har du n = 5 erbjudanden - du måste göra n(n-1)/2 jämförelser eller 5*(5-1)/2 = 10 jämförelser. I detta fall kräver Bonferroni-korrigeringen att signifikansnivån för testet är 5%/10 = 0,5%, vilket motsvarar en konfidensnivå på 99,5%. En sådan hög konfidensnivå kan dock kräva att du kör testet under en orimligt lång tid.
+Observera att om ni vill identifiera erbjudandet med den högsta konverteringsgraden jämför ni alla erbjudanden med varandra. I exemplet ovan har du n = 5 erbjudanden - du måste göra n(n-1)/2 jämförelser eller 5&#42;(5-1)/2 = 10 jämförelser. I detta fall kräver Bonferroni-korrigeringen att signifikansnivån för testet är 5%/10 = 0,5%, vilket motsvarar en konfidensnivå på 99,5%. En sådan hög konfidensnivå kan dock kräva att du kör testet under en orimligt lång tid.
 
 ## Pitfall 3: Ignorera effekten av statistisk styrka {#section_0D517079B7D547CCAA75F80981CBE12A}
 
@@ -77,7 +77,7 @@ Det finns två huvudfaktorer som avgör kraften i ett test. Den första är exem
 
 Dagens marknadsförare understyr ett anmärkningsvärt antal tester. Med andra ord använder de en samplingsstorlek som är för liten. Det innebär att de har en liten chans att upptäcka sanna positiva effekter, även när det faktiskt finns en betydande skillnad i konverteringsgraden. Om du ständigt kör underdrivna tester kan antalet falska positiva vara jämförbart med, eller till och med dominera, antalet sanna positiva. Detta leder ofta till implementering av neutrala förändringar av en plats (tidsslöseri) eller förändringar som faktiskt minskar konverteringsgraden.
 
-![](assets/pitfalls3.png)
+![fallgropar3, bild](assets/pitfalls3.png)
 
 För att undvika underdrift bör du tänka på att en typisk standard för ett väldrivet test inkluderar en konfidensnivå på 95 % och en statistisk styrka på 80 %. Ett sådant test ger en 95-procentig sannolikhet att du undviker ett falskt positivt test och en 80-procentig sannolikhet att du undviker ett falskt negativt.
 
@@ -109,7 +109,7 @@ Det är frestande att stoppa ett test om ett av erbjudandena fungerar mycket bä
 
 Bilden nedan visar fem erbjudanden med samma långsiktiga konverteringsgrad. Erbjudandet B hade en dålig konverteringsgrad för de första 2 000 besökarna och det tar lång tid innan den uppskattade konverteringsgraden återgår till den verkliga långfristiga räntan.
 
-![](assets/pitfalls4.png)
+![fallbild4](assets/pitfalls4.png)
 
 Fenomenet kallas &quot;regression till medelvärdet&quot; och kan leda till besvikelse när ett erbjudande som utfördes väl under testets första dagar inte klarar att prestera så bra på lång sikt. Det kan också leda till förlorade intäkter när ett bra erbjudande inte implementeras, eftersom det råkade underprestera under testets tidiga dagar bara av en slump.
 
@@ -145,7 +145,7 @@ Sådana erbjudanden uppmuntrar besökarna att konvertera snabbare och kommer att
 
 Bilden nedan visar två erbjudanden som två olika besökare ser samtidigt på en söndagseftermiddag. Ersättningsperioden för erbjudande A är kort och besökaren konverterar senare den dagen. Men erbjudande B har en längre tidsperiod och besökaren som såg erbjudandet B funderar på erbjudandet en stund och konverterar till måndag morgon. Om du stoppar testet på söndag kväll räknas konverteringen som är kopplad till erbjudande A in i A:s konverteringsmått, medan konverteringen som är kopplad till erbjudande B inte räknas in i erbjudandets konverteringsmått. Detta medför att erbjudande B hamnar i en betydande nackdel.
 
-![](assets/pitfalls5.png)
+![fallgropar5 bild](assets/pitfalls5.png)
 
 För att undvika detta fall bör besökare som exponerats för testerbjudandena få tid att konvertera efter att ett nytt tävlingsbidrag har stoppats. I det här steget får du en rättvis jämförelse av erbjudandena.
 
@@ -153,11 +153,11 @@ För att undvika detta fall bör besökare som exponerats för testerbjudandena 
 
 Marknadsförarna kan vara frestade att använda konverteringsvärden för hög trafik och låg varians i den övre tratten, som klickfrekvens (CTR), för att snabbare nå ett tillräckligt antal testkonverteringar. Tänk dock på om CTR är en lämplig proxy för det verksamhetsmål du vill uppnå. Erbjudanden med högre CTR kan enkelt leda till lägre intäkter. Det här kan hända när erbjudanden lockar besökare som har en lägre köpbenägenhet, eller när själva erbjudandet - till exempel - leder till ett rabatterbjudande - bara till lägre intäkter.
 
-![](assets/pitfalls6.png)
+![fallgropar6, bild](assets/pitfalls6.png)
 
 Titta på skiderbjudandet nedan. Det genererar en mycket högre CTR än cykelerbjudandet, men eftersom besökarna i genomsnitt spenderar mycket mer pengar när de följer cykelerbjudandet är den förväntade intäkten att placera cykelerbjudandet framför en viss besökare högre. Ett A/B-test med CTR som mätvärde skulle därför välja ett erbjudande som inte maximerar intäkterna - det grundläggande affärsmålet.
 
-![](assets/pitfalls7.png)
+![fallgropar7, bild](assets/pitfalls7.png)
 
 För att undvika det här problemet bör du övervaka dina affärsvärden noga för att identifiera affärseffekten av erbjudandena, eller ännu bättre, använda en mätmetod som ligger närmare ditt verksamhetsmål, om det är möjligt.
 
@@ -171,4 +171,4 @@ Stegen nedan hjälper dig att undvika dessa fallgropar och fokusera på att få 
 * Bestäm en konfidensnivå innan testet börjar och följ detta tröskelvärde när du utvärderar resultaten efter att testet har avslutats.
 * Beräkna provstorleken (antal besökare) innan testet startas.
 * Vänta tills den beräknade provstorleken har nåtts innan testet stoppas.
-* Justera konfidensnivån när du segmenterar efter testet eller utvärderar mer än ett alternativ, t.ex. med korrigeringen av Bonferroni.
+* Justera konfidensnivån när du segmenterar efter testet eller utvärderar mer än ett alternativ, till exempel med korrigeringen av Bonferroni.

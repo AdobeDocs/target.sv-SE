@@ -4,9 +4,9 @@ description: Lär dig hur du väljer flera mätvärden som ska visas i en rappor
 title: Hur visar jag flera mätvärden i en rapport?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Tänk på följande när du arbetar med flera mätvärden i rapporter:
 1. Om du vill visa en rapport klickar du på **[!UICONTROL Activities]** klickar du på önskad aktivitet i listan och sedan på **[!UICONTROL Reports]** -fliken.
 1. Klicka på **[!UICONTROL Report Metric]** nedrullningsbar lista som visar [!UICONTROL Shown Metrics] och [!UICONTROL Hidden Metrics] listor.
 
-   ![](assets/multiple_metrics.png)
+   ![multiple_metrics, bild](assets/multiple_metrics.png)
 
    Du kan använda [!UICONTROL Search] för att snabbt hitta tillgängliga mätvärden att lägga till i [!UICONTROL Shown Metrics] lista.
 
@@ -46,10 +46,10 @@ Tänk på följande när du arbetar med flera mätvärden i rapporter:
 1. Klicka **[!UICONTROL Save]** när du är klar.
 1. (Villkorligt) När du visar rapporten i [!UICONTROL Table View]placerar du muspekaren på kolumnrubriken för ett mått så att en blå pil visas. Klicka på pilen för att expandera tabellen så att [!UICONTROL Lift] och [!UICONTROL Confidence] för det måttet.
 
-   ![](assets/multiple_metrics_table.png)
+   ![multiple_metrics_table image](assets/multiple_metrics_table.png)
 
    Du kan bara expandera ett mått/en kolumn i taget. Klicka på pilen igen för att komprimera kolumnerna.
 
 1. (Villkorligt) När du visar rapporten i diagramvyn kan du välja enskilda mått att visa i listrutan:
 
-   ![](assets/multiple_metrics_graph.png)
+   ![multiple_metrics_graph, bild](assets/multiple_metrics_graph.png)

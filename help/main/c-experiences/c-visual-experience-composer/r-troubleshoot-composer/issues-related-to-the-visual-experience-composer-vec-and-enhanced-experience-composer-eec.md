@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer och Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,11 @@ Om webbplatsens CSP-rubriker blockerar Target-bibliotek läses webbplatsen in, m
 >
 >Förutom följande information kan du använda [Webbläsartillägg för Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) för Google Chrome.
 
-![](assets/cps_headers.png)
+![cps_headers, bild](assets/cps_headers.png)
 
 Som en tillfällig lösning kan du konfigurera en regel för att begära att ta bort CSP-rubriker, så som visas nedan:
 
-![](assets/cps_headers_2.png)
+![cps_headers_2 image](assets/cps_headers_2.png)
 
 Du kan konfigurera en liknande begäranderegel för en rubrik som gör att en resurs inte läses in i VEC.
 

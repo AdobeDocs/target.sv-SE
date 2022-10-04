@@ -4,9 +4,9 @@ description: Lär dig hur du använder Traffic Estimator som talar om för dig o
 title: Hur mycket trafik behövs för en multivariat testverksamhet?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Trafikberäkningsverktyget ger även feedback som talar om för dig om du har ti
 
    Trafikberäkningsverktyget öppnas. Du kan klicka på **[!UICONTROL Traffic]** om du vill dölja trafikberäkningsverktyget igen.
 
-   ![](assets/estimatorempty.png)
+   ![estimatorempty-bild](assets/estimatorempty.png)
 
 1. Ange typisk konverteringsgrad, uppskattade besökare per dag och testvaraktighet.
 
@@ -48,7 +48,7 @@ Trafikberäkningsverktyget ger även feedback som talar om för dig om du har ti
 
    I närheten av överkanten av trafikberäkningsverktyget beräknas de värden du anger och resultatet visas.
 
-   ![](assets/estimatorinsufficient.png)
+   ![estimatorotillräcklig bild](assets/estimatorinsufficient.png)
 
    När du ändrar siffrorna ändras uppskattningen. Om du till exempel testar ett stort antal upplevelser och din konverteringsgrad och dina visningar är för låga, visar Traffic Estimator hur länge testet måste köras för att lyckas. Eller, om trafiken är låg, kan Traffic Estimator föreslå ett lägre antal upplevelser så att du kan köra testet det önskade antalet dagar.
 
@@ -59,4 +59,4 @@ Trafikberäkningsverktyget ger även feedback som talar om för dig om du har ti
 
    Justera siffrorna tills Traffic Estimator säger att du har tillräckligt med trafik och utforma sedan testet därefter.
 
-   ![](assets/estimatorok.png)
+   ![uppskattningsbild](assets/estimatorok.png)

@@ -4,9 +4,9 @@ description: Visa en lista med vanliga frågor och svar om Adobe [!DNL Target] R
 title: Var hittar jag frågor och svar om [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3113'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Om du använder en plats där kategori-ID finns i rutan innehåller kriterieväl
 
 Så här öppnar du [!UICONTROL Filter Incompatible Criteria] inställning, klicka [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
-![](assets/recs_settings_filter.png)
+![recs_settings_filter, bild](assets/recs_settings_filter.png)
 
 Om [!UICONTROL Filter Incompatible Criteria] inställningen är INTE aktiverad, [!DNL Target] filtrerar inte algoritmer i algoritmväljaren och alla algoritmer visas.
 
@@ -110,7 +110,7 @@ Om [!UICONTROL Filter Incompatible Criteria] inställningen är aktiverad i VEC-
 
 Om [!UICONTROL Filter Incompatible Criteria] om inställningen är aktiverad kan du fortfarande visa icke-kompatibla algoritmer genom att avmarkera [!UICONTROL Compatible] när du väljer villkor.
 
-![](assets/compatible_checkbox.png)
+![compatible_checkbox image](assets/compatible_checkbox.png)
 
 Följande lista innehåller specialfall där [!DNL Target] visar inte [!UICONTROL Compatible] kryssruta:
 
@@ -126,7 +126,7 @@ Tänk på följande information om du ser en samling gå till noll som tidigare 
 * Du kan spara om samlingen och se om den uppdaterar numret. Genom att spara om genereras alla algoritmer som använder samlingen om.
 * Tittar du på rätt miljö? Gå till [!DNL /target/products.html#recsSettings] för att dubbelkontrollera (som visas nedan).
 
-   ![](assets/product_catalog.png)
+   ![product_catalog image](assets/product_catalog.png)
 
 * Är ditt index aktuellt? Gå till [!DNL /target/products.html#productSearch] och kontrollera hur många timmar som indexet är gammalt (t.ex. &quot;Indexerad för 3 timmar sedan&quot;). Du kan uppdatera indexet efter behov.
 * Har du ändrat något i feeden eller datalagret som resulterade i att dina enheter inte längre matchade samlingsreglerna? Se till att CASE-filen överensstämmer (skiftlägeskänslig).
@@ -139,13 +139,13 @@ Attributvikningen finns i två former: &quot;standardattribuering&quot; och &quo
 
 &quot;Standardattributviktning&quot; gäller de flesta, om inte alla, kriterietyper (inte bara innehållets likhet). Den här typen av viktning ger mer vikt åt vissa attributvärden. I följande exempel får Nike-produkter en ojämnhet i utdatarrekommendationerna.
 
-![](assets/attribute_weighting_example.png)
+![attribute_weight_example image](assets/attribute_weighting_example.png)
 
 &quot;Attributvikning för innehållets likhet&quot; gäller endast för kriterier för innehållets likhet.
 
 Den här typen av viktning är mer dynamisk och baseras på den aktuella rekommendationsnyckeln (det objekt som visas för närvarande). I följande exempel (varumärke x 16), om en besökare tittade på Nike sneakers, är det mer sannolikt att den besökaren rekommenderas till andra Nike-produkter (inte nödvändigtvis bara sneakers) än konkurrenternas sensorer. Om en besökare tittar på Adidas-sensorer är det troligare att den besökaren rekommenderar Adidas-produkter.
 
-![](assets/content_similarity_example.png)
+![content_Likity_example image](assets/content_similarity_example.png)
 
 ## Varför [!DNL Target] ibland inte kan visa rekommendationer? {#section_DB3F40673AED42228E407C05437D99E9}
 

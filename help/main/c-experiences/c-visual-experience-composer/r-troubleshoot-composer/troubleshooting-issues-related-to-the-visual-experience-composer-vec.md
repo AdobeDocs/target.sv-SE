@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -82,12 +82,12 @@ Om varken Visual Experience Composer eller Enhanced Experience Composer fungerar
 
       * Ändra **[!UICONTROL Equals]** till **[!UICONTROL Contains]** som villkor för käll-URL:en och ange URL:en för aktiviteten som du försöker läsa in i VEC:n.
 
-      ![](assets/chrome_extension.png)
+      ![chrome_extension, image](assets/chrome_extension.png)
 
 
 1. Klicka på **[!UICONTROL Save]**.
 
-   ![](assets/requestly.png)
+   ![begärd bild](assets/requestly.png)
 
    Nu bör du kunna läsa in sidan snabbt med Visual Experience Composer.
 
@@ -102,7 +102,7 @@ Om varken Visual Experience Composer eller Enhanced Experience Composer fungerar
 1. Klicka på **[!UICONTROL Add]**.
 1. Klicka på **[!UICONTROL Start]**.
 
-![](assets/firefox_extension.png)
+![firefox_extension-image](assets/firefox_extension.png)
 
 Öppna Target när du har konfigurerat ett tillägg. Dina sidor bör nu läsas in i Visual Experience Composer, även om Förbättrad Experience Composer är inaktiverat.
 

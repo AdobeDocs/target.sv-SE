@@ -4,9 +4,9 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2421'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,11 @@ Klicka **[!UICONTROL View full details]** för att se målgrupper och aktivitete
 
 När ett profilskript är inaktiverat visas en gul varningsikon bredvid profilskriptet i målgränssnittet, vilket visas nedan:
 
-![](assets/profile_script_invalid.png)
+![profile_script_invalid image](assets/profile_script_invalid.png)
 
 Vid hovring visas information om felet, enligt bilden nedan:
 
-![](assets/profile_script_hover.png)
+![profile_script_hover image](assets/profile_script_hover.png)
 
 Vanliga orsaker till att systemet inaktiverar profilskript är:
 
@@ -161,7 +161,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
    När du vill läsa in en sida för webbplatsen med [!DNL Target] en del av svaret från [!DNL Target] innehåller ditt värde för det angivna profilskriptet, vilket visas nedan:
 
-   ![](assets/debug_profile_script_1.png)
+   ![debug_profile_script_1 image](assets/debug_profile_script_1.png)
 
 * **Använd felsökningsverktyget mboxTrace för att felsöka profilskript.**
 
@@ -171,7 +171,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
    Det är lite mer informativt att lägga till de här parametrarna än svarstoken eftersom du får en ögonblicksbild och en ögonblicksbild av din profil som tagits i förväg. Här visas även alla tillgängliga profiler.
 
-   ![](assets/debug_profile_script_2.png)
+   ![debug_profile_script_2 image](assets/debug_profile_script_2.png)
 
 ## Vanliga frågor om profilskript {#section_1389497BB6D84FC38958AE43AAA6E712}
 

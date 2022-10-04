@@ -4,9 +4,9 @@ description: Se hur Adobe [!DNL Target] använder algoritmen Slumpmässig skog i
 title: Hur [!DNL Target] Använd slumpmässig skogsalgoritm?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Säg att postnummer är mest prediktivt. Den här variabeln utgör då den förs
 
 Den här åtgärden skulle resultera i det första skiktet i vårt beslutsträd:
 
-![](assets/decsion_tree_1.png)
+![decsion_tree_1 image](assets/decsion_tree_1.png)
 
 Beslutsträdet frågar frågan:&quot;Vilken är den mest förutsägbara variabeln?&quot; I vårt exempel har vi bara två variabler, så svaret här är tydligt genus. Trädet kommer nu att försöka slutföra en liknande övning för att dela data *inom varje gren*. Först ska vi titta på grenarna 1111, 2222 och 33333. I dessa postnummer, om det finns en skillnad i konvertering mellan män och kvinnor, finns det två löv (män och kvinnor), och den här grenen skulle vara fullständig. I den andra grenen, 44444 och 5555, antar vi att det inte finns någon statistisk skillnad mellan hur kvinnor och män konverterar. I det här fallet blir den första grenen den sista delningen.
 
 Vårt exempel skulle resultera i följande träd:
 
-![](assets/decsion_tree_2.png)
+![decsion_tree_2 image](assets/decsion_tree_2.png)
 
 ## Hur används beslutsträd av Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Beslutsträd kan vara ett kraftfullt statistiskt verktyg. De har dock vissa nack
 
 I följande diagram sammanfattas hur modeller byggs för Automatisk målgrupps- eller Automated Personalization-aktiviteter:
 
-![](assets/random_forest_flow.png)
+![random_forest_flow, bild](assets/random_forest_flow.png)
 
 1. Target samlar in data om besökare och levererar upplevelser/erbjudanden slumpmässigt
 1. När Target når en kritisk datamassa utför det funktionskonstruktion

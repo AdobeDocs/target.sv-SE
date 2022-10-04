@@ -4,9 +4,9 @@ description: Lär dig hantera kod- och bilderbjudanden med hjälp av Erbjudandeb
 title: Hur hanterar jag erbjudanden för kod och bilder?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Använd [!UICONTROL Offers] bibliotek i [!DNL Adobe Target] för att hantera kod
 
 1. (Valfritt) Klicka på **[!UICONTROL Type]** nedrullningsbar lista för att filtrera erbjudanden efter typ (HTML Offer, [Upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Fjärrerbjudande](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md)och [Mappar](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
-   ![](assets/offers_filter.png)
+   ![offers_filter, bild](assets/offers_filter.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Source]** nedrullningsbar lista för att filtrera erbjudanden efter källa (Adobe Target, Adobe Target Classic och Adobe Experience Manager).
 
@@ -66,7 +66,7 @@ Du kan visa information om erbjudandedefinitioner på ett popup-kort i dialogrut
 
 Du kan till exempel få åtkomst till följande erbjudande för ett HTML genom att hovra över ett erbjudande på [!UICONTROL Content] och sedan klicka på informationsikonen:
 
-![](assets/offer-card-html.png)
+![offer-card-html-bild](assets/offer-card-html.png)
 
 Följande information finns:
 
@@ -79,11 +79,11 @@ Följande information finns:
 
 Klicka på [!UICONTROL Offer Usage] för att visa aktiviteter som refererar till ett koderbjudande i varje erbjudande. Den här funktionen gäller inte bilderbjudanden. På så sätt kan du undvika att andra aktiviteter påverkas när du redigerar erbjudanden. Informationen innehåller [!UICONTROL Live Activities] och [!UICONTROL Inactive Activities].
 
-![](assets/offer-card-usage.png)
+![bild av kortanvändning](assets/offer-card-usage.png)
 
 Följande kort för erbjudandedefinition för ett omdirigeringserbjudande:
 
-![](assets/offer-card-redirect.png)
+![offer-card-redirect image](assets/offer-card-redirect.png)
 
 Följande information finns:
 
@@ -99,7 +99,7 @@ Följande information finns:
 
 Följande kort för definition av erbjudande för ett fjärrerbjudande:
 
-![](assets/offer-card-remote.png)
+![kort-fjärrbild](assets/offer-card-remote.png)
 
 Följande information finns:
 

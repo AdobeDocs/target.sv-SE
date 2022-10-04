@@ -4,9 +4,9 @@ description: Hitta svar på frågor om aktivitetskonfiguration när du använder
 title: Var hittar jag frågor och svar om aktivitetsinställningar med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Du kan ändra dina [!UICONTROL Reporting Settings] alternativ i [!UICONTROL Admi
 1. I [!DNL Target], klicka **[!UICONTROL Administration]**.
 1. I **[!UICONTROL Experience Cloud solution used for reporting]** nedrullningsbar lista, klicka **[!UICONTROL Select per Activity]**.
 
-![](assets/select-per-activity.png)
+![bild per aktivitet](assets/select-per-activity.png)
 
 The **[!UICONTROL Reporting Source]** nedrullningsbar lista är aktiverad i **[!UICONTROL Goal & Settings]** för att skapa och redigera aktiviteter.
 

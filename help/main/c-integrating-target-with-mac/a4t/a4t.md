@@ -4,9 +4,9 @@ description: Använd [!DNL Analytics] for [!DNL Target] (A4T) för att skapa akt
 title: Vad är [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -79,15 +79,15 @@ Du kan växla mellan [!UICONTROL Table View] och [!UICONTROL Graph View] genom a
 
 Följande bild visar [!UICONTROL Graph View] en A4T-rapport med [!UICONTROL Report Metric] nedrullningsbar lista med tillgängliga [!DNL Analytics] målmått:
 
-![](assets/a4t_report_graph1.png)
+![a4t_report_graph1 image](assets/a4t_report_graph1.png)
 
 Följande bild visar [!UICONTROL Graph View] en A4T-rapport med [!UICONTROL Audience] nedrullningsbar lista med tillgängliga [!DNL Analytics] målgrupper:
 
-![](assets/a4t_report_graph2.png)
+![a4t_report_graph2 image](assets/a4t_report_graph2.png)
 
 Följande bild visar [!UICONTROL Table View] för en A4T-rapport:
 
-![](assets/a4t_report_table.png)
+![a4t_report_table image](assets/a4t_report_table.png)
 
 Visa rapporten i [!DNL Analytics] i stället för i [!DNL Target], klicka **[!UICONTROL View in Analytics]** längs rapportens överkant.
 

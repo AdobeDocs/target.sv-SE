@@ -4,9 +4,9 @@ description: Lär dig rikta in dig på besökare som använder ett visst operati
 title: Kan jag rikta in besökare baserat på operativsystem?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan rikta in besökarna med [!DNL Adobe Target] som använder ett visst opera
 
 Följande bild visar en målgrupp som riktar sig till besökare med Macintosh OS.
 
-![](assets/target_os.png)
+![target_os-bild](assets/target_os.png)
 
 ## Utbildningsvideo: Skapa målgrupper
 

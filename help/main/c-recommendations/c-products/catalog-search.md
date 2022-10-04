@@ -4,9 +4,9 @@ description: Lär dig hur du använder Recommendations Catalog Search för att h
 title: Hur använder jag Recommendations Catalog Search?
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Du kan söka efter objekt i katalogen med hjälp av en enkel sökning eller en a
 
 1. (Valfritt) Du kan förfina sökningen genom att välja ett sökalternativ på Alternativ-menyn som visas när du klickar på nedpilen i sökfältet.
 
-   ![](assets/searchproductsmenu.png)
+   ![sökproduktmenybild](assets/searchproductsmenu.png)
 
    Sökalternativen omfattar följande:
 

@@ -4,9 +4,9 @@ description: Lär dig hur du använder designer i Adobe [!DNL Target] Recommenda
 title: Hur använder jag designen i Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Designer i [!DNL Adobe Target Recommendations] Definiera hur rekommendationer sk
 
 [!DNL Target] kan ge dig det utseende och känsla som dina rekommendationer ger, vilket visas på följande bild. Designen kan innehålla HTML, JavaScript och CSS. Den här designen kallas 4 x 1-design: fyra blanksteg i en rad.
 
-![](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 Target kan också skicka dina rekommendationer som JSON-objekt som kan användas i e-postmeddelanden, IoT-enheter (sakernas internet), konsol eller röstfall (Amazon Alexa eller Google Home).
 

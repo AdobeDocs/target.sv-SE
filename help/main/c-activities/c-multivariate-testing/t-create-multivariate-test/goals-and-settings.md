@@ -4,9 +4,9 @@ description: Lär dig hur du använder sidan Mål och inställningar i Adobe [!D
 title: Hur anger jag mål och inställningar i en multivariat testaktivitet?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ På sidan Mål och inställningar i Adobe Target anger du information om målen 
 
 Vilka inställningar som är tillgängliga beror på om du använder Target eller Analytics som datakälla.
 
-![](assets/mvt_settings.png)
+![mvt_settings image](assets/mvt_settings.png)
 
 ## Aktivitetsinställningar {#section_DCBDC354261F420EBD4B43EA34947BAC}
 

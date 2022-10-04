@@ -4,9 +4,9 @@ description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL
 title: Vad är en automatiskt fördelad aktivitet?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3458'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ När fler besökare går in i aktiviteten börjar vissa upplevelser bli mer fram
 
 Följande bild visar hur algoritmen kan utföra ett test med fyra olika upplevelser:
 
-![](assets/auto-allocate.png)
+![autoallokera bild](assets/auto-allocate.png)
 
 Bilden visar hur den trafik som tilldelats varje upplevelse fortskrider under flera omgångar av aktivitetens livstid tills en klar vinnare har fastställts.
 

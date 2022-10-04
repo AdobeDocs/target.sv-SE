@@ -1,12 +1,12 @@
 ---
 keywords: analysspårningsserver;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;Reporting source;developtools
-description: 'Lär dig hur du anger en analysspårningsserver för aktiviteter som använder Analytics för [!DNL Target] (A4T) om du använder en äldre version av at.js. '
+description: Lär dig hur du anger en analysspårningsserver för aktiviteter som använder Analytics för [!DNL Target] (A4T) om du använder en äldre version av at.js.
 title: Hur använder jag en Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Felsökaren bör visas på en sida där aktiviteten levereras för att säkerst�
 
 1. Klicka **[!UICONTROL Analytics]** i den vänstra navigeringsmenyn.
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Screen_DebuggerTrackServ, bild](assets/Screen_DebuggerTrackServ.png)
 
    The [!DNL Analytics] spårningsservern finns i [!UICONTROL Hostname] i felsökaren.
 

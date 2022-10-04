@@ -4,9 +4,9 @@ description: Lär dig hur du använder fjärrerbjudanden i Adobe [!DNL Target] f
 title: Hur skapar jag fjärrerbjudanden?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Dynamiska fjärrerbjudanden använder er dynamiska sidteknologi för att skicka 
 
 Erbjudandet verkställs när du har återgett sidan. En osynlig iframe samlar in data, kopierar dem utanför ramen och infogar dem på sidan och läser in de värden som skickas.
 
-![](assets/remote_offer_howitworks_2.jpeg)
+![remote_offer_howitworks_2 image](assets/remote_offer_howitworks_2.jpeg)
 
 ## Markeringsmatris för fjärrerbjudande {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 

@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i Adobe [!DNL Target] för att rikta in 
 title: Kan jag rikta in besökare baserat på sökmotor eller referenswebbplats?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan kombinera flera trafikkällor för att skapa en komplex målarregel.
    1. Namnge målgruppen och lägg till en valfri beskrivning.
 1. Dra och släpp **[!UICONTROL Traffic Sources]** till målgruppsverktyget.
 
-   ![](assets/target_traffic_source.png)
+   ![target_trafik_source-bild](assets/target_traffic_source.png)
 
 1. Klicka **[!UICONTROL Select]** väljer du sedan något av följande alternativ:
 

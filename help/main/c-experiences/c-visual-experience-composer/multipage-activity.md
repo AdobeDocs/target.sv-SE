@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en flersidig aktivitet i Adobe [!DNL Target]
 title: Hur skapar jag en flersidig aktivitet?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Så här lägger du till sidor i ett test:
 
    Ett navigeringsfält visas till vänster på skärmen.
 
-   ![](assets/multipage_nav.png)
+   ![multipage_nav-bild](assets/multipage_nav.png)
 
 1. Använd navigeringsfältet för att ange sidor och för att ange standardsida.
 
@@ -40,7 +40,7 @@ Så här lägger du till sidor i ett test:
 
    Klicka på ikonen med tre lodräta ellipser för att visa en åtgärdsmeny:
 
-   ![](assets/multipage_menu.png)
+   ![multipage_menu-bild](assets/multipage_menu.png)
 
    Använd den här menyn om du vill byta namn på sidorna, utföra ett omdirigeringstest i flersidesaktiviteten eller ta bort sidan.
 

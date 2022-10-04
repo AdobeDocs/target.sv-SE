@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target funktioner
 title: Var kan jag hitta svar på Mina optimerings- och personaliseringsfrågor?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2800'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Använd kraften i [formulärbaserad verksamhet](/help/main/c-experiences/form-ex
 
 **Jag har bildat två aktiviteter. Hur vet jag vilken besökare som kommer att träffa?**
 
-**Kan jag ange prioriteringsordning för några aktiviteter?**
+**Kan jag ange prioritetsordning för några aktiviteter?**
 
 Använd inställningen Prioritet som finns i steg 3 i det guidade arbetsflödet i tre delar (sidan Mål och inställningar) för att [Definiera verksamheternas prioritet.](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
@@ -212,13 +212,13 @@ Ett sätt är att använda [Anpassad kodredigerare](/help/main/c-experiences/c-v
 
 Använd funktionerna Disponera och Bläddra för att navigera till valfri sida och börja skapa din upplevelse.
 
-![](assets/vec2.png)
+![vec2 image](assets/vec2.png)
 
 **Hur kan jag gå till den upplevelse jag väljer från steg 2 i det guidade arbetsflödet i tre delar (målsida)?**
 
 Klicka på miniatyrbilden framför upplevelsenamnet i steg 2 så får du en bättre upplevelse.
 
-![](assets/thumbnail_experiences.png)
+![thumbnail_experiences, bild](assets/thumbnail_experiences.png)
 
 **Jag är en tidigare Target Classic-användare. Kan jag utnyttja mina lådor för vissa syften?**
 

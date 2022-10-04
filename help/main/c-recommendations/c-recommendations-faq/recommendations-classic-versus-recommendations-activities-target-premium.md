@@ -4,9 +4,9 @@ description: Granska informationen och se skillnaderna mellan de gamla Recommend
 title: Vad är skillnaden mellan Recommendations Classic och Recommendations i [!DNL Target] Premium?
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Mer information finns i [Recommendations som erbjudande](/help/main/c-recommenda
 
 [!DNL Target Recommendations] innehåller ett kriteriebibliotek som innehåller förpaketerade uppsättningar regler och konfigurationer. I [!DNL Recommendations Classic]skapades varje rekommendation manuellt genom att ett formulär fylldes i och sedan valdes i den stora listan med regler. Nu när du skapar en [!DNL Recommendations] väljer du bara en förkonfigurerad villkorsuppsättning. Du kan fortfarande skapa anpassade rekommendationer, men kriteriebiblioteket innehåller många av de vanligaste konfigurationerna, fördefinierade för att förenkla processen och använda språk som folk förstår. Dessa förpaketerade villkor kan användas som de är eller kopieras och redigeras efter dina behov.
 
-![](assets/overview_criteria.png)
+![overview_conditions image](assets/overview_criteria.png)
 
 Kriterierna är förkonfigurerade och sorterade efter vertikaler, sidtyper och implementering i branschen. Du kan t.ex. söka efter de kriterier som gäller för vertikal försäljning, för användning på en produktsida, och visa produkter från en viss kategori (enligt definitionen i `entity.categoryID` parameter).
 
@@ -68,10 +68,10 @@ Du kan förhandsgranska dina rekommendationer när du har konfigurerat dem och g
 
 I [!DNL Recommendations Classic], det fanns sex alternativ för målinriktning. Recommendations-aktiviteter utnyttjar Target alla sina målinriktningsalternativ. Definiera en målgrupp med antingen [!DNL Target] eller andra [!DNL Adobe Experience Cloud] målgrupper (som [!DNL Audience Manager] och [!DNL Analytics]) väljer du sedan hur många procent aktivitetsdeltagare som ska se respektive design och hur många procent som ska se kontrollen.
 
-![](assets/overview_targeting.png)
+![overview_targeting image](assets/overview_targeting.png)
 
 ## Rapportering {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 I [!DNL Target], [!DNL Recommendations] ger förbättrad rapportering som utnyttjar funktionerna i [!DNL Target] och [!DNL Experience Cloud]. I stället för att bara visa lyften från [!DNL Recommendations] jämfört med resultaten utan dem kan du visa fullständig information om [!DNL Recommendations] aktivitet.
 
-![](assets/overview_report.png)
+![overview_report image](assets/overview_report.png)

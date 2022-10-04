@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '34113'
+source-wordcount: '34117'
 ht-degree: 0%
 
 ---
@@ -2195,7 +2195,7 @@ Detta [!DNL Target] releasen innehåller följande förbättringar och korrigeri
 * The [!DNL Target] användargränssnittet har uppdaterats för att stödja omdirigeringserbjudanden i aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. Den här funktionen kräver [!DNL at.js] 0.9.6, som kommer att bli tillgänglig snart.
 * The [!DNL Target] användargränssnittet har uppdaterats på vissa platser:
 
-   * I rapporter och aktiviteter finns det vissa alternativ ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], osv.) går nu att komma åt genom att klicka på [!UICONTROL More Options] ikon (  ![](assets/icon_more_options.png)
+   * I rapporter och aktiviteter finns det vissa alternativ ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], osv.) går nu att komma åt genom att klicka på [!UICONTROL More Options] ikon (  ![icon_more_options-bild](assets/icon_more_options.png)
 
       ).
    * I [!UICONTROL Offers] bibliotek, erbjudanden visas nu i en lista i stället för som kort. Andra mindre ändringar av användargränssnittet gjordes under hela [!UICONTROL Offers] biblioteksgränssnitt.

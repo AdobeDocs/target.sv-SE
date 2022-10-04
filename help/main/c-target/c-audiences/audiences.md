@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Målgruppsinformationen kan hjälpa er att undvika oavsiktlig påverkan på andr
 
 Om en publik [tillsammans med en annan målgrupp](/help/main/c-target/combining-multiple-audiences.md) och den kombinerade målgruppen används för att skapa en aktivitet, användarinformationen för båda målgrupperna listar den nyskapade aktiviteten.
 
-![](assets/audience_definition_list_usage.png)
+![audiens_definition_list_usage image](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

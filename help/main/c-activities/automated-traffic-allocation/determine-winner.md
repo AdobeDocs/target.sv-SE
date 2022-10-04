@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar resultatet av en automatisk fördelning av A
 title: Hur tolkar jag autofördelade rapporter?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ När du använder [!UICONTROL Auto-Allocate] funktion, [!DNL Target] visar ett e
 
 När en klar vinnare deklareras [!DNL Target] visar &quot;Vinnare: Experience X.&quot;
 
-![](assets/winner.png)
+![vinnarbild](assets/winner.png)
 
 >[!NOTE]
 >

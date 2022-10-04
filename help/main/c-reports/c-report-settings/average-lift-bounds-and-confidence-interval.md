@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar Adobe [!DNL Target] rapporter, som innehåll
 title: Hur visar jag ett genomsnittligt lyft-, lyft- och konfidensintervall?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -57,18 +57,18 @@ Lyftgränserna representerar de 95-procentiga konfidensintervallen för lyften s
 
 Lyftgränserna beräknas med följande formel:
 
-![](assets/lift_diagram.png)
+![lift_chart image](assets/lift_diagram.png)
 
 Det finns ytterligare en beräkning som kommer fram till inmatningen till våra lyft-gränser:
 
 * **t-värde:** Den kritiska statistiken för vår 95-procentiga konfidensnivå är 1,96. Du kan lära dig mer om [t-värden här](https://en.wikipedia.org/wiki/T-statistic).
 * **Lyft varians:** Standardfelet i Experience N:s framgångsmått och standardfelet i kontrollupplevelsens framgångsmått behövs för att fastställa lyftoperationen, som beräknas med följande formel (som illustreras om framgångsmåttet är konvertering).
 
-   ![](assets/lift_variance.png)
+   ![lift_variance, bild](assets/lift_variance.png)
 
 * **Standardfel för konverteringsgrad/lyckat mått:** Standardfelet beräknas på samma sätt för Experience N och Control, med följande formel (visas om framgångsmåttet är konvertering). Du kan lära dig mer om [standardfel här](https://en.wikipedia.org/wiki/Standard_error).
 
-   ![](assets/standard_error.png)
+   ![standardfelbild](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ Baserat på våra formler kan vi beräkna de inmatningar vi behöver för lyft-g
 
 **Standardfel för Experience A (Kontroll)**
 
-![](assets/standard_error_A.png)
+![standard_error_A image](assets/standard_error_A.png)
 
 **Standardfel för Experience B**
 
-![](assets/standard_error_B.png)
+![standard_error_B-bild](assets/standard_error_B.png)
 
 **Lyft avvikelse för upplevelse B**
 
-![](assets/lift_variance_B.png)
+![lift_variance_B-bild](assets/lift_variance_B.png)
 
 **Lyft gränser för upplevelse B**
 
 Lyft för upplevelse B förväntades:
 
-![](assets/lift_bounds_B.png)
+![lift_bounds_B-bild](assets/lift_bounds_B.png)
 
 Lyftgränserna för Experience B skulle därför vara:
 
-![](assets/lift_bounds_B2.png)
+![lift_bounds_B2-bild](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

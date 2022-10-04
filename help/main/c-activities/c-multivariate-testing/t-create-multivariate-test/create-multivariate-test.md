@@ -4,9 +4,9 @@ description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe 
 title: Hur skapar jag ett multivariata test?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ The [!UICONTROL Multivariate Test] (MVT) tar en sida i taget. Testet körs med a
 
    Bilden nedan visar att aktiviteten inte har tillräckligt med trafik.
 
-   ![](assets/estimator.png)
+   ![uppskattningsbild](assets/estimator.png)
 
    Bilden nedan visar att aktiviteten inte har tillräckligt med trafik.
 
-   ![](assets/estimator2.png)
+   ![estimator2 image](assets/estimator2.png)
 
 1. Klicka **[!UICONTROL Next]** för att gå vidare till [!UICONTROL Targeting] sida.
 

@@ -4,9 +4,9 @@ description: Lär dig hur du definierar en målgrupp för att jämföra två pro
 title: Kan jag jämföra två profilattribut som kan användas i målgrupper?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Mer information finns i [Metoder för att hämta data till Target](https://devel
 
 1. Välj det ytterligare attribut du vill jämföra med det ursprungliga attributet.
 
-   ![](assets/propensity_score_4.png)
+   ![propensity_score_4 image](assets/propensity_score_4.png)
 
 1. Klicka på **[!UICONTROL Done]**.
 

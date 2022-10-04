@@ -1,12 +1,12 @@
 ---
 keywords: Experience Targeting;Landing Page Test
-description: 'En elementväljare är ett CSS-uttryck som kan identifiera ett eller flera element. Lär dig hur du använder elementväljare i Adobe [!DNL Target] Visual Experience Composer (VEC). '
+description: En elementväljare är ett CSS-uttryck som kan identifiera ett eller flera element. Lär dig hur du använder elementväljare i Adobe [!DNL Target] Visual Experience Composer (VEC).
 title: Kan jag använda elementväljare i Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Grundläggande information om CSS-väljare finns i [Väljare](https://developer.
 
 Du kan ange om element-ID:n som klassas eller element-ID:n ska användas i dina kontoinställningar. Klicka **[!UICONTROL Administration > Visual Experience Composer]** väljer du sedan dina CSS-väljare.
 
-![](assets/css_selectors.png)
+![css_selectors image](assets/css_selectors.png)
 
 >[!NOTE]
 >

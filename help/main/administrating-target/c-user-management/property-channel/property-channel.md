@@ -5,9 +5,9 @@ title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3129'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ Följande information förklarar hur behörigheter tillämpades tidigare i [!DNL
 
 Den nya [!UICONTROL Permissions] kan du skapa olika projekt (så kallade&quot;produktprofiler&quot;) i [!DNL Adobe Admin Console for Enterprise]). Med projekt kan du tilldela olika behörigheter till en enskild användare som bestämmer den användarens åtkomstbehörighet för varje projekt. Dessa distinkta projekt kan jämföras med hur rapportsviterna fungerar i [!DNL Adobe Analytics]. Varje projekt kan ha specifika användare med specifika roller som gäller för en uppsättning egenskaper. Resultatet är att kunderna kan begränsa åtkomst till vy, redigering och godkännande för sina användare baserat på region, miljö (dev/stage/prod), kanal eller andra anpassade kriterier, vilket visas nedan:
 
-![](assets/permissions.png)
+![permissions image](assets/permissions.png)
 
 En viss användare kan till exempel ha åtkomst till&quot;godkännande&quot; på amerikanska webbplatser, men bara visa åtkomst på den europeiska mobilappen. Samma användare kanske inte har tillgång till ens de aktiviteter som erbjuds på webb- och mobilsajter i APAC-regionen.
 
 Aktuell [!DNL Target] [!UICONTROL Permissions] Modellen har tre behörighetsroller (observatör, redigerare och godkännare), vilket visas i följande bild:
 
-![](assets/permissions_1.png)
+![permissions_1 image](assets/permissions_1.png)
 
 Varje roll har olika behörighetsnivåer:
 
@@ -124,17 +124,17 @@ Varje roll har olika behörighetsnivåer:
 
 Det är viktigt att notera att varje användares roll gäller för varje sida, egenskap eller webbplats i ditt konto som innehåller [!DNL Target] taggar, enligt nedan:
 
-![](assets/permissions_2.png)
+![permissions_2 image](assets/permissions_2.png)
 
 Den nya [!DNL Target] [!UICONTROL Permissions] Modellen har samma tre behörighetsroller (observatör, redigerare och godkännare). Du kan dock tilldela en användares behörigheter roller separat för enskilda sidor, egenskaper eller platser, vilket visas nedan:
 
-![](assets/permissions_3.png)
+![permissions_3 image](assets/permissions_3.png)
 
 I det här exemplet har Jan godkännarbehörighet till USA:s hemsida och behörigheten US Site och Observer till Frankrikes webbplats.
 
 Jan kan inte heller se sidor, egenskaper eller webbplatser i [!DNL Target] att hon inte har behörighet att se, vilket visas nedan:
 
-![](assets/permissions_4.png)
+![permissions_4 image](assets/permissions_4.png)
 
 I det här exemplet kan Jan inte se produktsidorna, Rysslands webbplats och karriärwebbplatsen.
 
@@ -191,18 +191,18 @@ Den nya behörighetsfunktionen kan visas på olika platser i [!DNL Target] Grän
 
 * **Listruta för arbetsyta (produktprofil):** Listrutan Arbetsyta visas högst upp i [!UICONTROL Activities], [!UICONTROL Audiences]och [!UICONTROL Offers] sidor. Välj önskad arbetsyta för att filtrera listan så att endast objekt i den markerade arbetsytan visas.
 
-   ![](assets/workspace_drop-down.png)
+   ![workspace_drop-down image](assets/workspace_drop-down.png)
 
 * **Skapa aktivitet:** När du skapar en aktivitet skapas den i den markerade arbetsytan. Du ser alternativ för kanalval i den första dialogrutan där du kan välja önskad kanal för aktiviteten: Webb, mobilapp, e-post eller annan/API.
 
-   ![](assets/channel_options.png)
+   ![channel_options, bild](assets/channel_options.png)
 
 * **Målgrupper:** När du skapar en målgrupp skapas den i den markerade arbetsytan.
 * **Mållista:** Du kan flytta målgrupper mellan arbetsytor med [!UICONTROL More Actions] > [!DNL Move] på [!UICONTROL Audiences] sida.
 * **Skapa erbjudande:** När du skapar ett erbjudande skapas det i den valda arbetsytan.
 * **Sidan Egenskaper (Administration > Egenskaper):** Du kan använda [!UICONTROL Search] sökruta [!UICONTROL Property] lista.
 
-   ![](assets/properties_list.png)
+   ![properties_list image](assets/properties_list.png)
 
 ## Caveats {#section_9714311B1CD9497A86F4910F8AE635E2}
 

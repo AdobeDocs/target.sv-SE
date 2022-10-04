@@ -4,9 +4,9 @@ description: Lär dig använda Adobe [!DNL Target] Formulärbaserad Experience C
 title: Hur använder jag den formulärbaserade Experience Composer?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Om du skapar en [!UICONTROL Recommendations] aktivitet, det finns inga upplevels
 
    The [!UICONTROL Form-Based Experience Composer] öppnas.
 
-   ![](assets/location_refinements.png)
+   ![location_refinements, bild](assets/location_refinements.png)
 
    Den här skärmen är annorlunda om du skapar en [!UICONTROL Recommendations] aktivitet. [!UICONTROL Recommendations] aktiviteter omfattar inte upplevelser.
 
@@ -46,13 +46,13 @@ Om du skapar en [!UICONTROL Recommendations] aktivitet, det finns inga upplevels
 
 1. Klicka **[!UICONTROL Add Audience Refinements]** väljer du en eller flera [publik](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) för den här aktiviteten klickar du på **[!UICONTROL Done]**.
 
-   ![](assets/location_refinements_2.png)
+   ![location_refinements_2 image](assets/location_refinements_2.png)
 
    I [!UICONTROL Form-based Experience Composer], har finjusteringarna ersatts med full målgruppsfunktionalitet. Förfiningar för befintliga aktiviteter har migrerats till [målgrupper endast för aktivitet](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Välj den typ av innehåll som du vill ska visas på den platsen.
 
-   ![](assets/form_content.png)
+   ![form_content image](assets/form_content.png)
 
 1. Ange innehållet för den innehållstyp som du valde.
 
@@ -96,11 +96,11 @@ Om du skapar en [!UICONTROL Recommendations] aktivitet, det finns inga upplevels
 
    När du väljer Recommendations-villkor i den formulärbaserade Experience Composer finns det nu en direktlänk till det valda kriteriekortet så att du snabbt och enkelt kan redigera villkoren.
 
-   ![](assets/change_criteria.png)
+   ![change_conditions image](assets/change_criteria.png)
 
    Från målsidan i det guidade arbetsflödet i tre steg:
 
-   ![](assets/change_criteria_2.png)
+   ![change_conditions_2 image](assets/change_criteria_2.png)
 
    **Beslut om att lägga till erbjudande:**
 

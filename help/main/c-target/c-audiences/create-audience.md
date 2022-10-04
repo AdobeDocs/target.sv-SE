@@ -4,9 +4,9 @@ description: Lär dig skapa anpassade målgrupper och spara dem i [!DNL Adobe Ta
 title: Hur skapar jag målgrupper?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Följande regel riktar sig till exempel till besökare som använder antingen Ch
 
 1. Klicka **[!UICONTROL Audiences]** i den övre menyraden.
 
-   ![](assets/audiences_list.png)
+   ![audiences_list image](assets/audiences_list.png)
 
 1. Från [!UICONTROL Audiences] lista, klicka på **[!UICONTROL Create Audience]**.
 

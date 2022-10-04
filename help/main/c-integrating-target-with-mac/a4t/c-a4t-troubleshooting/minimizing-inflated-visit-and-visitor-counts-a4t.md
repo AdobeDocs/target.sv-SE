@@ -4,9 +4,9 @@ description: Lär dig hur du minimerar effekterna av uppblåst besöks- och bes�
 title: Hur minimerar jag antalet uppblåsta besök och besökare i A4T?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Om du vill minimera träffar med delar av data kan du få sidan att läsas in sn
 
 Följande bild visar segmentdefinitionen för den virtuella rapportsviten:
 
-![](assets/ts_a4t.png)
+![ts_a4t-bild](assets/ts_a4t.png)
 
 När du skapar den virtuella rapportsviten anger du följande konfiguration för segmentdefinitionen (som på bilden ovan):
 

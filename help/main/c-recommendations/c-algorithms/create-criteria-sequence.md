@@ -4,9 +4,9 @@ description: Lär dig hur du ställer in sekvenser på upp till fem villkor för
 title: Hur skapar jag villkorssekvenser i Recommendations?
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Följande steg förutsätter att du har åtkomst till [!UICONTROL Create Criteri
 
 1. Klicka på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**.
 
-   ![](assets/CreateCriteriaSequence.png)
+   ![CreateCriteriaSequence-bild](assets/CreateCriteriaSequence.png)
 
 1. Fyll i informationen i [Grundläggande information](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) -avsnitt.
 
