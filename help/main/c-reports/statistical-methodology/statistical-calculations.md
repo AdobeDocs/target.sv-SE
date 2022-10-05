@@ -3,16 +3,16 @@ keywords: rapporter;statistisk metod;statistiska beräkningar;statistik;medel;ko
 description: Läs mer om de statistiska beräkningar som används i handboken [!UICONTROL A/B Test] verksamhet i [!DNL Adobe Target].
 title: Hur kan jag lära mig mer om de statistiska beräkningarna som används i [!UICONTROL A/B Test] Verksamheter?
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Statistiska beräkningar i A/Bn-tester
 
-På den här sidan visas detaljerade statistiska beräkningar som används vid manuella A/Bn-tester i [!DNL Adobe Target]. Definitioner finns för [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift]och [!UICONTROL Confidence].
+I den här artikeln beskrivs de detaljerade statistiska beräkningar som används vid manuella A/Bn-tester i [!DNL Adobe Target]. Definitioner finns för [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift]och [!UICONTROL Confidence].
 
 >[!NOTE]
 >
