@@ -3,18 +3,22 @@ keywords: rapporter;statistisk metod;statistiska beräkningar;statistik;medel;ko
 description: Läs mer om de statistiska beräkningar som används i handboken [!UICONTROL A/B Test] verksamhet i [!DNL Adobe Target].
 title: Hur kan jag lära mig mer om de statistiska beräkningarna som används i [!UICONTROL A/B Test] Verksamheter?
 feature: Reports
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
 
 # Statistiska beräkningar i A/Bn-tester
 
-På den här sidan visas detaljerade statistiska beräkningar som används vid manuella A/Bn-tester i [!DNL Adobe Target]. Definitioner finns för konverteringsgrad, konfidensintervall för konverteringsgrad, Lyft, konfidensintervall för Lyft och konfidensintervall.
+På den här sidan visas detaljerade statistiska beräkningar som används vid manuella A/Bn-tester i [!DNL Adobe Target]. Definitioner finns för [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift]och [!UICONTROL Confidence].
 
-![Målrapport som visar konverteringsgraden, det genomsnittliga lyft- och konfidensintervallet samt förtroendet för en A/B-testaktivitet.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+>[!NOTE]
+>
+>Informationen i den här artikeln ersätter *Adobe Target Calculations for A/B Testing* pdf-fil som tidigare fanns tillgänglig för hämtning på den här webbplatsen.
+
+![Målrapport som visar [!UICONTROL Conversion Rate], [!UICONTROL Average Lift and Confidence Interval]och [!UICONTROL Confidence] av en A/B-testaktivitet.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Genomsnittlig prestanda
 
@@ -36,15 +40,15 @@ Här,
 
 * Summan över enheter *i* beror på valet av beräkningsmetod.
 
-   * If *Besökare* används som beräkningsmetod, är varje enhet en unik besökare definierad som en unik deltagare i aktiviteten under aktivitetens livstid.
-   * If *Besök* används som beräkningsmetod, är varje enhet ett unikt besök definierat som en unik deltagare i en upplevelse under en [!DNL Target] session (med en unik `sessionId`). När `sessionId` eller om besökaren kommer till konverteringssteget räknas ett nytt besök.
-   * If *Aktivitetsexponeringar* används som beräkningsmetod, är varje enhet ett unikt intryck som definieras som varje gång en besökare läser in en sida i aktiviteten.
+   * If *[!UICONTROL Visitors]* används som beräkningsmetod, är varje enhet en unik besökare definierad som en unik deltagare i aktiviteten under aktivitetens livstid.
+   * If *[!UICONTROL Visits]* används som beräkningsmetod, är varje enhet ett unikt besök definierat som en unik deltagare i en upplevelse under en [!DNL Target] session (med en unik `sessionId`). När `sessionId` eller om besökaren kommer till konverteringssteget räknas ett nytt besök.
+   * If *[!UICONTROL Activity Impressions]* används som beräkningsmetod, är varje enhet ett unikt intryck som definieras som varje gång en besökare läser in en sida i aktiviteten.
 
-## Konfidensintervall för medelvärde/konverteringsgrad
+## [!UICONTROL Confidence Interval of Mean]/[!UICONTROL Conversion Rate]
 
 Konfidensintervallet för konverteringsgraden definieras intuitivt som ett intervall av möjliga konverteringsgrader som överensstämmer med underliggande data.
 
-När du kör experiment är den konverteringsgrad vi observerar för en viss upplevelse en *uppskattning* av konverteringsgraden&quot;true&quot;. För att kvantifiera osäkerheten i denna uppskattning kan vi använda ett konfidensintervall. [!DNL Target] alltid rapporterar ett 95% konfidensintervall, vilket betyder att i det långa loppet inkluderar 95% av de beräknade konfidensintervallen den verkliga konverteringsfrekvensen för upplevelsen.
+När du kör experiment är konverteringsgraden för en viss upplevelse en *uppskattning* av konverteringsgraden&quot;true&quot;. För att kvantifiera osäkerheten i denna uppskattning [!DNL Target] använder ett konfidensintervall. [!DNL Target] alltid rapporterar ett 95% konfidensintervall, vilket betyder att i det långa loppet inkluderar 95% av de beräknade konfidensintervallen den verkliga konverteringsfrekvensen för upplevelsen.
 
 Ett 95-procentigt konfidensintervall för konverteringsgraden *μ<sub>ν</sub>* definieras som värdeintervallet:
 
@@ -64,11 +68,11 @@ Observera att när kampanjen är en kampanj för konverteringsgrad (dvs. konvert
 
 ## Lyft
 
-I följande bild visas Lyft och konfidensintervall för Lyft i en [!DNL Target] Rapport. Siffran representerar medelvärdet av lyftomfånget och pilen reflekterar om lyften är positiv eller negativ. Pilen visas i grått tills förtroendet passerar 95%. När förtroendet passerat tröskelvärdet är pilen grön eller röd baserat på en positiv eller negativ lyft.
+Följande illustrationer [!UICONTROL Lift] och [!UICONTROL Confidence Interval of Lift] i en [!DNL Target] Rapport. Siffran representerar medelvärdet av lyftomfånget och pilen reflekterar om lyften är positiv eller negativ. Pilen visas i grått tills förtroendet passerar 95%. När förtroendet passerat tröskelvärdet är pilen grön eller röd baserat på en positiv eller negativ lyft.
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
-Lyften mellan en upplevelse  *ν* och kontrollupplevelsen *ν<sub>0</sub>* är relativ delta i konverteringsgrader, definierat som
+Lyft mellan upplevelser  *ν* och kontrollupplevelsen *ν<sub>0</sub>* är relativ delta i konverteringsgrader, definierat som
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
@@ -80,9 +84,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 Om kontrollupplevelsens konverteringsgrad *ν<sub>0</sub>* är 0, det finns ingen hiss.
 
-## Lyftets tillförlitlighetsintervall
+## [!DNL Confidence Interval of Lift]
 
-Kartongdiagrammet i [!UICONTROL Average Lift and Confidence Interval] -kolumnen representerar det genomsnittliga värdet och 95 % konfidensintervall för Lyft. Kartongen är grå om konfidensintervallet för en viss okontrollupplevelse överlappar konfidensintervallet för kontrollupplevelsen och är grön eller röd när intervallet för den givna upplevelsens konfidensintervall är över eller under konfidensintervallet för kontrollupplevelsen.
+Kartongdiagrammet i [!UICONTROL Average Lift and Confidence Interval] kolumn representerar medelvärdet och 95 % [!UICONTROL Confidence Interval of Lift]. Kartongen är grå om konfidensintervallet för en viss okontrollupplevelse överlappar konfidensintervallet för kontrollupplevelsen och är grön eller röd när intervallet för den givna upplevelsens konfidensintervall är över eller under konfidensintervallet för kontrollupplevelsen.
 
 Standardfelet mellan en upplevelse  *ν* och kontrollupplevelsen  *ν<sub>0</sub>* definieras som:
 
@@ -94,9 +98,9 @@ Därefter är 95% konfidensintervallet för lyften:
 
 Den här beräkningen använder metoden &quot;Delta&quot; och beskrivs [mer ingående i det här dokumentet](/help/main/assets/confidence_interval_lift.pdf)
 
-## Förtroende
+## [!UICONTROL Confidence]
 
-I den sista kolumnen visas förtroendet för [!DNL Target] rapport. Förtroendet hos en upplevelse är en sannolikhet (anges som en procentandel) att få ett resultat som är mindre extrem än det som faktiskt observeras med tanke på att nollhypotesen är sann. När det gäller p-värden visas det förtroende som *1 - p-värde*. Intuitivt innebär ett högre förtroende att det är mindre troligt att upplevelsen av kontroll och icke-kontroll har samma konverteringsgrad.
+I den sista kolumnen visas förtroendet för [!DNL Target] rapport. Förtroendet hos en upplevelse är en sannolikhet (anges som en procentandel) att få ett resultat som är mindre extrem än det som faktiskt observeras, med tanke på att nollhypotesen är sann. När det gäller p-värden visas det förtroende som *1 - p-värde*. Intuitivt innebär ett högre förtroende att det är mindre troligt att upplevelsen av kontroll och icke-kontroll har samma konverteringsgrad.
 
 I [!DNL Target], en tvåsidig **Welch&#39;s t-test** utförs mellan testupplevelsen och kontrollupplevelsen för att testa om metoderna för test- och kontrollupplevelser är desamma. eftersom vi vanligtvis inte vet om provstorlekar och variationer i två grupper är desamma innan vi kör experimentet, och [!DNL Target] gör det även möjligt för er att skicka olika mängder trafik till varje upplevelse, vi antar inte att variansen för varje upplevelse är lika. Welchs t-test väljs alltså istället för Students t-test.
 
@@ -126,7 +130,7 @@ Sedan kan p-värdet beräknas från området i bakgrunden av *t*-distribution:
 
 <p style="text-align:center;"><img width="20%" src="img/p_value.png"></p>
 
-Slutligen rapporterades förtroendet i [!DNL Target] definieras som:
+Slutligen rapporterade förtroendet för [!DNL Target] definieras som:
 
 <p style="text-align:center;"><img width="20%" src="img/confidence.png"></p>
 
