@@ -18,13 +18,13 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## [!DNL Target] Standard/Premium 22.10.1 (version 10-13 oktober 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (version 6-10 oktober 2022)
 
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
+* **6 oktober**: Amerika
+* **7 oktober**: Europa, Mellanöstern och Afrika (EMEA)
 * **10 oktober**: Asien-Stillahavsområdet (APAC)
-* **11 oktober**: Amerika
-* **13 oktober**: Europa, Mellanöstern och Afrika (EMEA)
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
