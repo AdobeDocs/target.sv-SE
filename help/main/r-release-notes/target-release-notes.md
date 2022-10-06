@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
 * **10 oktober**: Asien-Stillahavsområdet (APAC)
-* **11 oktober**: Amerika
+* **12 oktober**: Amerika
 * **13 oktober**: Europa, Mellanöstern och Afrika (EMEA)
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:

@@ -5,7 +5,7 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
 * **10 oktober**: Asien-Stillahavsområdet (APAC)
-* **11 oktober**: Amerika
+* **12 oktober**: Amerika
 * **13 oktober**: Europa, Mellanöstern och Afrika (EMEA)
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
