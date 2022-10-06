@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar sammanfattningsrapporten för Automated Pers
 title: Hur använder jag Automated Personalization Sammanfattningsrapporter?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ The [!UICONTROL Offer Level] rapporten för Random Forest Experience jämför re
 
 Klicka på upplevelsealgoritmen (Slumpmässig skog eller kontroll) för att visa [!UICONTROL Offer Level] rapport.
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Erbjudandenivårapport i Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 Erbjudandena kan visas i rapportgrupper och dessa kan komprimeras och utökas. Välj [!UICONTROL Reporting Group] i listrutan för att visa sammanställd information per rapporteringsgrupp, i stället för efter erbjudanden.
 

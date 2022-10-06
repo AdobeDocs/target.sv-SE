@@ -4,9 +4,9 @@ description: Lär dig använda [!UICONTROL Important Attributes] som visar de vi
 title: Vilken är den viktiga attributrapporten?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
 1. Efter 15 dagar från det att aktiviteten har aktiverats klickar du på **[!UICONTROL Important Attributes]** ikon.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Viktiga attributikoner i en Adobe Target-rapport](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Välj önskat datumintervall.
 
@@ -66,15 +66,15 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
    Dessa fasta datumintervall tillåter [!UICONTROL Personalization Insights] om du vill använda ett stort och tillräckligt stort dataområde för att minska sannolikheten för att ni får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Kalender i en Adobe Target-rapport](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Du kan komma åt de tillgängliga fasta datumintervallen från [!UICONTROL Choose Duration] nedrullningsbar lista.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Välj listrutan Varaktighet i en rapport](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Granska [!UICONTROL Important Attributes] rapportdata.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Viktiga attributrapporter i Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Valfritt) [Ladda ned rapporten i CSV-format](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) för analys i Excel och andra verktyg.
 

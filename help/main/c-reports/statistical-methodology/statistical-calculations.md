@@ -3,9 +3,9 @@ keywords: rapporter;statistisk metod;statistiska beräkningar;statistik;medel;ko
 description: Läs mer om de statistiska beräkningar som används i handboken [!UICONTROL A/B Test] verksamhet i [!DNL Adobe Target].
 title: Hur kan jag lära mig mer om de statistiska beräkningarna som används i [!UICONTROL A/B Test] Verksamheter?
 feature: Reports
-source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Här,
 
 Konfidensintervallet för konverteringsgraden definieras intuitivt som ett intervall av möjliga konverteringsgrader som överensstämmer med underliggande data.
 
-När du kör experiment är konverteringsgraden för en viss upplevelse en *uppskattning* av konverteringsgraden&quot;true&quot;. För att kvantifiera osäkerheten i denna uppskattning [!DNL Target] använder ett konfidensintervall. [!DNL Target] alltid rapporterar ett 95% konfidensintervall, vilket betyder att i det långa loppet inkluderar 95% av de beräknade konfidensintervallen den verkliga konverteringsfrekvensen för upplevelsen.
+När du kör experiment är konverteringsgraden för en viss upplevelse en *uppskattning* av konverteringsgraden&quot;true&quot;. För att kvantifiera osäkerheten i denna uppskattning [!DNL Target] använder ett konfidensintervall. [!DNL Target] alltid rapporterar ett 95% konfidensintervall, vilket innebär att i slutet av 95% av de beräknade konfidensintervallen inkluderar den verkliga konverteringsgraden för upplevelsen.
 
 Ett 95-procentigt konfidensintervall för konverteringsgraden *μ<sub>ν</sub>* definieras som värdeintervallet:
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
 
-där standardfelet för medelvärdet definieras som
+Där standardfelet för medelvärdet definieras som
 
 <p style="text-align:center;"><img width="75px" src="img/se_conv_continuous.png"></p>
 
@@ -62,7 +62,7 @@ Om en opartisk uppskattning av provets standardavvikelse används:
 
 <p style="text-align:center;"><img width="200px" src="img/stdev_definition.png"></p>
 
-Observera att när kampanjen är en kampanj för konverteringsgrad (dvs. konverteringsmåttet är binärt), minskas standardfelet till:
+När kampanjen är en kampanj med konverteringsgrad (dvs. konverteringsmåttet är binärt), minskar standardfelet till:
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
@@ -76,7 +76,7 @@ Lyft mellan upplevelser  *ν* och kontrollupplevelsen *ν<sub>0</sub>* är relat
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
-där de enskilda konverteringssatserna är de som anges ovan. Enklare,
+Om de enskilda konverteringssatserna är de som anges ovan. Enklare,
 
 ```
 Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control
@@ -86,7 +86,7 @@ Om kontrollupplevelsens konverteringsgrad *ν<sub>0</sub>* är 0, det finns inge
 
 ## [!DNL Confidence Interval of Lift]
 
-Kartongdiagrammet i [!UICONTROL Average Lift and Confidence Interval] kolumn representerar medelvärdet och 95 % [!UICONTROL Confidence Interval of Lift]. Kartongen är grå om konfidensintervallet för en viss okontrollupplevelse överlappar konfidensintervallet för kontrollupplevelsen och är grön eller röd när intervallet för den givna upplevelsens konfidensintervall är över eller under konfidensintervallet för kontrollupplevelsen.
+Kartongdiagrammet i [!UICONTROL Average Lift and Confidence Interval] kolumn representerar medelvärdet och 95 % [!UICONTROL Confidence Interval of Lift]. Kartongen är grå om konfidensintervallet för en viss okontrollupplevelse överlappar konfidensintervallet för kontrollupplevelsen. Kartongen är grön eller röd när intervallet för den givna upplevelsens konfidensintervall är över eller under konfidensintervallet för kontrollupplevelsen.
 
 Standardfelet mellan en upplevelse  *ν* och kontrollupplevelsen  *ν<sub>0</sub>* definieras som:
 
@@ -100,7 +100,7 @@ Den här beräkningen använder metoden &quot;Delta&quot; och beskrivs [mer ing�
 
 ## [!UICONTROL Confidence]
 
-I den sista kolumnen visas förtroendet för [!DNL Target] rapport. Förtroendet hos en upplevelse är en sannolikhet (anges som en procentandel) att få ett resultat som är mindre extrem än det som faktiskt observeras, med tanke på att nollhypotesen är sann. När det gäller p-värden visas det förtroende som *1 - p-värde*. Intuitivt innebär ett högre förtroende att det är mindre troligt att upplevelsen av kontroll och icke-kontroll har samma konverteringsgrad.
+I den sista kolumnen visas förtroendet för [!DNL Target] rapport. Förtroendet hos en upplevelse är en sannolikhet (anges som en procentandel) att få ett resultat som är mindre extrem än det som observeras, med tanke på att nollhypotesen är sann. När det gäller p-värden visas det förtroende som *1 - p-värde*. Intuitivt innebär ett högre förtroende att det är mindre troligt att upplevelsen av kontroll och icke-kontroll har samma konverteringsgrad.
 
 I [!DNL Target], en tvåsidig **Welch&#39;s t-test** utförs mellan testupplevelsen och kontrollupplevelsen för att testa om metoderna för test- och kontrollupplevelser är desamma. eftersom vi vanligtvis inte vet om provstorlekar och variationer i två grupper är desamma innan vi kör experimentet, och [!DNL Target] gör det även möjligt för er att skicka olika mängder trafik till varje upplevelse, vi antar inte att variansen för varje upplevelse är lika. Welchs t-test väljs alltså istället för Students t-test.
 
@@ -110,17 +110,17 @@ The *t*-statistik definieras som skillnaden mellan medelvärdet av två oberoend
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-där *μ<sub>v</sub>* och *μ<sub>v0</sub>* är *ν*  och *ν<sub>0</sub>* och standardfelet för skillnaden mellan *μ<sub>v</sub>* och *μ<sub>v0</sub>* ges av:
+Plats *μ<sub>v</sub>* och *μ<sub>v0</sub>* är *ν*  och *ν<sub>0</sub>* och standardfelet för skillnaden mellan *μ<sub>v</sub>* och *μ<sub>v0</sub>* ges av:
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-där *σ<sup>2</sup><sub>v</sub>* och *σ<sup>2</sup><sub>v<sub>0</sub></sub>* är skillnaderna mellan två upplevelser *ν*  och *ν<sub>0</sub>* och *N<sub>v</sub>* och *N<sub>v<sub>0</sub></sub>* är samplingsstorlekar för *ν* och *ν<sub>0</sub>* respektive.
+Plats *σ<sup>2</sup><sub>v</sub>* och *σ<sup>2</sup><sub>v<sub>0</sub></sub>* är skillnaderna mellan två upplevelser *ν*  och *ν<sub>0</sub>* och *N<sub>v</sub>* och *N<sub>v<sub>0</sub></sub>* är samplingsstorlekar för *ν* och *ν<sub>0</sub>* respektive.
 
 För Welchs t-test beräknas frihetsgraden enligt följande:
 
 <p style="text-align:center;"><img width="180px" src="img/degree_of_freedom.png"></p>
 
-och frihetsgraden för *ν*  och *ν<sub>0</sub>* definieras som:
+Och frihetsgraden för *ν*  och *ν<sub>0</sub>* definieras som:
 
 <p style="text-align:center;"><img width="100px" src="img/df_v.png"></p>
 

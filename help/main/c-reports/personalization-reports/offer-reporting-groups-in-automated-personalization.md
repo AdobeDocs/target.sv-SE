@@ -4,9 +4,9 @@ description: Lär dig hur du använder rapporteringsgrupper i Adobe [!DNL Target
 title: Kan jag använda rapporteringsgrupper i Automated Personalization-aktiviteter?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -34,16 +34,16 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 
 1. På [!UICONTROL Experiences] sidan för en AP-aktivitet klickar du på **[!UICONTROL Manage Content]** ikon.
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![Ikonen Hantera innehåll](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. Klicka på **[!UICONTROL Offers]** överst på [!UICONTROL Manage Content] -dialogrutan.
 1. (Villkorligt) Lägg till specifika upplevelser i en rapporteringsgrupp genom att hålla markören över önskat erbjudande och sedan klicka på **[!UICONTROL Reporting Group]** mappikon.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![Ikon för rapporteringsgrupp](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (Villkorligt) Gruppera för att inkludera upplevelser i en rapporteringsgrupp genom att markera kryssrutan för relevanta upplevelser och sedan klicka på **[!UICONTROL Reporting Group]** mappikon i dialogrutans övre högra hörn.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![Ikon för rapporteringsgrupp](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. (Villkorligt) Välj **[!UICONTROL Existing]** väljer du önskad rapportgrupp i listrutan och klickar sedan på **[!UICONTROL Apply]**.
 
@@ -51,4 +51,4 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 
    Om du vill skapa en ny rapporteringsgrupp att tilldela det valda erbjudandet till väljer du **[!UICONTROL New]**, namnge den nya rapporteringsgruppen och klicka sedan på **[!UICONTROL Apply]**.
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![Ny ikon för att skapa en ny rapporteringsgrupp](/help/main/c-reports/assets/ap_reporting_groups.png)

@@ -4,9 +4,9 @@ description: Lär dig hur du använder Experience Performance-rapporten för Ado
 title: Hur använder jag Experience Performance Report för multivariata tester?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Experience Performance-rapporten visar hur varje upplevelse i aktiviteten funger
 
 Du kan välja en eller flera upplevelser att jämföra. Klicka på en upplevelse och välj **[!UICONTROL Preview]** för att öppna upplevelsen på en webbläsarflik.
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Experience Performance-rapport i Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 I rapportens övre del visas mätvärden, start- och slutdatum samt målgrupp som används i rapporten. Du kan ändra någon av dessa faktorer.
 

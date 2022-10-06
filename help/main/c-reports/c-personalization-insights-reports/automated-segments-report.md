@@ -4,14 +4,14 @@ description: Lär dig hur olika segment definieras av Adobe [!DNL Target] person
 title: Vad är rapporten om automatiserade segment?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapport över automatiserade segment
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Automated Segments] rapport
 
 Information om [!UICONTROL Automated Segments] rapport, en av de två specialrapporterna som är tillgängliga för användare av [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet.
 
@@ -42,7 +42,7 @@ Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-akti
 
    The [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) eller [Automatisk målsammanfattning](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, som representeras av ikonen för första skärmen. De två ytterligare ikonerna representerar de två personaliseringsinsikterna: Automatiska segment och viktiga attribut. Automatiskt mål har en extra diagramikon för den grafiska vyn i [!UICONTROL Summary] rapport.
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Rapport om personaliseringsinsikter i Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-akti
 
    Till skillnad från [!UICONTROL Summary] rapport (resultatrapportering), [!UICONTROL Personalization Insights], inklusive [!UICONTROL Automated Segments], är bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar och 60 dagar. Dessa fasta datumintervall tillåter [!UICONTROL Personalization Insights] om du vill använda ett stort och tillräckligt stort dataområde för att minska sannolikheten för att ni får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Kalender i Adobe Target-rapport](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Du kan komma åt de tillgängliga fasta datumintervallen från [!UICONTROL Choose Duration] nedrullningsbar lista.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Listrutan Varaktighet i Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Granska [!UICONTROL Automated Segments] rapportdata.
 
