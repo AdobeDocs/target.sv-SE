@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: dddca90ac9280b6bab25b7e01d5ced33d1feead5
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdokumentation.
 
-## [!DNL Adobe Target] Standard/Premium 22.10.1 (version 5-7 oktober 2022)
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (version 10-13 oktober 2022)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
