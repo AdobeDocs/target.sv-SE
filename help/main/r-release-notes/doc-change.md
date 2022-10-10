@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dddca90ac9280b6bab25b7e01d5ced33d1feead5
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 10 oktober | [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Ny artikel. |
 | 4 oktober | [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nytt ämne.<br>Informationen i den här artikeln ersätter *Adobe Target Calculations for A/B Testing* pdf-fil som tidigare fanns tillgänglig för hämtning på den här webbplatsen. |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.10.1-utgåvan. |
 

@@ -3,9 +3,9 @@ keywords: vec;Visual experience composer; vec;iframe;extension;browser
 description: Upptäck varför vissa webbplatser inte kan öppnas på ett tillförlitligt sätt i [!UICONTROL Visual Experience Composer] (VEC). The [!UICONTROL Visual Editing Helper] Med webbläsartillägg kan du läsa in webbplatser på ett tillförlitligt sätt i VEC.
 title: Hur jag använder [!UICONTROL Visual Editing Helper] Tillägget?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] webbläsart
 
 ## Fördelar med att använda [!UICONTROL Visual Editing Helper] extension
 
-* Alla iframe-felsökningsrubriker, som `X-Frame-Options` och `Content-Security-Policy`, tas implicit bort från webbplatsen. Du behöver inte skapa komplicerade regler för att få rätt.
+* Alla iframe-busting-rubriker, som `X-Frame-Options` och `Content-Security-Policy`, tas implicit bort från webbplatsen. Du behöver inte skapa komplicerade regler för att få rätt.
 * Om en webbsida ännu inte innehåller [!DNL Target] at.js-biblioteket kan du använda tillägget för att mata in biblioteket så att du kan skapa upplevelser för webbplatsen. Du kan sedan skapa aktiviteter och köra frågor och svar med hjälp av förhandsgranskningslänkar.
 
-Observera att med [Förbättrad Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), inkluderar tillägget inte at.js, men funktionen SameSite Cookie finns fortfarande. Om du vill mata in at.js på webbsidan stänger du av EEC.
+Använda [Förbättrad Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), inkluderar tillägget inte at.js, men funktionen SameSite Cookie finns fortfarande. Om du vill mata in at.js på webbsidan stänger du av EEC.
 
 * [Mobilvisningsrutor](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) stöds även utan [!UICONTROL Enhanced Experience Composer] (EEG).
 * Kunder som är nybörjare på [!DNL Target] kan använda tillägget för att experimentera med [!DNL Target] även om deras IT-utvecklare ännu inte har implementerat [!DNL Target] på deras webbplatser.
@@ -56,6 +56,8 @@ Observera att med [Förbättrad Experience Composer](/help/main/administrating-t
 
    * Om du försöker att läsa in en webbplats med VEC som inte kan läsas in visas ett meddelande om att du har installerat [!UICONTROL Visual Editing Helper] webbläsartillägg.
    * Om at.js eller alloy.js ännu inte har implementerats på webbplatsen visas ett meddelande i VEC om att du har installerat tillägget.
+* Om du försöker använda det nya tillägget går du tillbaka till [gammalt tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) och [!DNL Target] kan inte läsa in webbplatsen, rensa alla webbläsardata och inaktivera det nya tillägget.
+
 
 
 
