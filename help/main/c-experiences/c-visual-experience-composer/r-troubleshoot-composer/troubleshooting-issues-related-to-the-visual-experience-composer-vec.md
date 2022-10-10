@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Om varken Visual Experience Composer eller Enhanced Experience Composer fungerar
 
 Öppna Target när du har konfigurerat ett tillägg. Dina sidor bör nu läsas in i Visual Experience Composer, även om Förbättrad Experience Composer är inaktiverat.
 
-## Min sida visas inte i VEC (endast VEC) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Min sida visas inte i VEC (endast VEC) {#does-not-load}
 
 * Webbläsaren stöds inte.
 * Webbläsaren blockerar en osäker sida på en säker webbplats.
@@ -115,7 +115,11 @@ Om varken Visual Experience Composer eller Enhanced Experience Composer fungerar
 * Du angav en ogiltig URL.
 * Du har inte angett någon standardwebbadress på sidan för kontoinställningar.
 
-Se till att den här inställningen är aktiverad och hämta och uppdatera på at.js på din webbplats.
+   Se till att den här inställningen är aktiverad och hämta och uppdatera på at.js på din webbplats.
+
+* Om du försöker använda [new [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) och sedan gå tillbaka till [gammalt tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) och [!DNL Target] kan inte läsa in webbplatsen, rensa alla webbläsardata och inaktivera det nya tillägget.
+
+* Om din webbplats inte kan läsas in i VEC, eller om den fungerar oväntat, är en möjlig åtgärd att acceptera cookies på din webbplats i webbläsaren innan du försöker läsa in webbplatsen i [!DNL Target].
 
 ## VEC-värdet visas som brutet när jag använder bläddringsläge. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
