@@ -4,9 +4,9 @@ description: Lär dig hur du hämtar data från Adobe [!DNL Target] aktiviteter 
 title: Hur hämtar jag rapportdata i en CSV-fil?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: abbb81f2c9d5503c72eb427e7ae20a560b1daf95
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Så här hämtar du data i en CSV-fil:
 
    ![Hämtningsalternativ](/help/main/c-reports/assets/download-options.png)
 
-## Exportera rapport till CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
+## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
-Rapporten Success Metrics visar information om dina framgångsmått, samt följande mått som inte finns tillgängliga i målgränssnittet:
+The [!UICONTROL Success Metrics] rapporten visar information om dina framgångsmått och följande mätvärden som inte är tillgängliga i [!DNL Target] Gränssnitt:
 
 * Genomsnittlig tid för konvertering i timmar, så att du kan se hur lång tid det tar för den genomsnittliga besökaren att nå konverteringspunkten
 * Summan av intäkter, fyrkantiga, för beräkningar av statistisk säkerhet offline
@@ -40,24 +40,24 @@ Data sparas till aktivitetens slut.
 
 >[!NOTE]
 >
->CSV-rapporten innehåller endast rådata och innehåller inte beräknade värden som intäkter per besökare, lyft eller förtroende som används för A/B-tester. Om du vill beräkna de beräknade måtten hämtar du målets [Slutför konfidensberäkning](/help/main/assets/complete_confidence_calculator.xlsx) Excel-fil för att ange aktivitetens värde eller granska [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+>CSV-rapporten innehåller endast rådata och innehåller inte beräknade värden som intäkter per besökare, lyft eller förtroende som används för A/B-tester. Om du vill beräkna dessa beräknade värden hämtar du [!DNL Target] [Slutför konfidensberäkning](/help/main/assets/complete_confidence_calculator.xlsx) Excel-fil för att ange aktivitetens värde eller granska [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
-## Exportera beställningsinformation till CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
+## [!UICONTROL Export Order Details to CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-I rapporten Orderdetaljer visas information om dina beställningar, inklusive:
+The [!UICONTROL Order Details] rapporten innehåller information om dina beställningar, inklusive:
 
 * Orderdatum och -tid
 * Orderbelopp (om du har infogat en monteringsorder)
 
-   Orderdetaljrapporten fungerar bara om du har beställningar.
+   The [!UICONTROL Order Details] fungerar bara om du har beställningar.
 
 * Orderflagga (duplicerad eller extrem ordning)
 
-   En order markeras som extrem om den är mer än +/- 3 standardavvikelser från det genomsnittliga ordervärdet med hjälp av den sista månaden med data (fram till den tidpunkt då beräkningen gjordes). En aktivitet kommer att få sina extrema order exkluderade när aktiviteten har pågått i en timme eller tills efter 15 order, beroende på vilket som kommer först. Mer information finns i [Exklusive extrema order](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+   En order markeras som extrem om den är mer än +/- 3 standardavvikelser från det genomsnittliga ordervärdet. I den här beräkningen används den sista månaden med data (fram till den tidpunkt då beräkningen gjordes). En aktivitet kommer att få sina extrema order exkluderade när aktiviteten har pågått i en timme eller tills efter 15 order, beroende på vilket som kommer först. Mer information finns i [Exklusive extrema order](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 * Produkt-ID
 
-   Den totala längden på produkt-ID:n, sammanfogade med kommatecken, får inte överstiga 255 tecken, annars visas inte ID:n korrekt i rapporten. Om din beställning till exempel innehåller produkter med ID:n &quot;aa, bb&quot; är den totala längden &quot;aa,bb&quot; = 5.
+   Den totala längden på produkt-ID:n, sammanfogade med kommatecken, får inte överstiga 255 tecken eller så visas ID:n inte korrekt i rapporten. Om din beställning till exempel innehåller produkter med ID:n &quot;aa, bb&quot; är den totala längden &quot;aa,bb&quot; = 5.
 
 * Upplevelse
 
@@ -70,20 +70,21 @@ I rapporten Orderdetaljer visas information om dina beställningar, inklusive:
 >[!NOTE]
 >
 >* Orderrapportdata innehåller fyra veckors data för standardmiljön (värdgrupp) och två veckor för alla miljöer som inte är standard.
->* Inkomstmått som är inställda på Ökningsantal och behåller användaren i aktiviteten, loggordningsinformation endast för den första ordern som gjorts av samma besökare. Alla efterföljande order ökar antalet konverteringar, men lägger inte till intäkter till RPV/AOV/Sales och inkluderas inte i rapporten Orderdetaljer.
+>* Intäktsmått som är inställda på[!UICONTROL Increment count and keep the user in the activity]&quot; loggordningsinformation endast för den första ordern som gjorts av samma besökare. Alla efterföljande order ökar antalet konverteringar, men lägger inte till några intäkter till RPV/AOV/Sales och ingår inte i [!UICONTROL Order Details] rapport.
 
 
 ## Bästa praxis
 
-* För att kunna registrera en orderpost `orderTotal` -parametern måste skickas.
-* Värden som skickas via `ProductPurchasedId` mbox-parametern visas i rapporten Orderdetaljer.
-* Bästa praxis är att inkludera en `orderID` samt en `orderTotal`. Detta gör att dubblettorder automatiskt ignoreras.
+* Om du vill spela in en orderpost väljer du `orderTotal` -parametern måste skickas.
+* Värden som skickas via `ProductPurchasedId` mbox-parametern finns i [!UICONTROL Order Details] rapport.
+* Bästa praxis är att inkludera en `orderID` och `orderTotal`. Detta gör att dubblettorder automatiskt ignoreras.
 
 ## Caveats {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-Följande information gäller för nedladdningsalternativet:
+Följande information gäller för [!UICONTROL Download] alternativ:
 
-* Du kan hämta båda rapporterna för A/B-tester, Automated Personalization, Experience Targeting och Multivariate-aktiviteter. Du kan inte hämta rapporten Success Metrics för rekommendationsaktiviteter.
-* Hämtningsalternativet är inte tillgängligt för aktiviteter av typen A/B och Experience Targeting som har skapats före målversion 15.7.1 (juli 2015).
+* Du kan hämta båda rapporterna för [!UICONTROL A/B Test], [!UICONTROL Automated Personalization], [!UICONTROL Experience Targeting]och [!UICONTROL Multivariate] verksamhet. Du kan inte hämta [!UICONTROL Success Metrics] rapport för [!UICONTROL Recommendations] verksamhet.
+* The [!UICONTROL Download] alternativ är inte tillgängligt för [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] aktiviteter skapade före [!DNL Target] version 15.7.1 (juli 2015).
 * Erfarenheter utan tillhörande data registreras inte i den hämtade rapporten.
-* Publiker som används i gränssnittet för målrapportering överförs inte till hämtningsrapporten.
+* Målgrupper som används i [!DNL Target] rapportanvändargränssnittet överförs inte till hämtningsrapporten.
+* Rapporter som genererats för hämtning som CSV-filer är inkonsekventa om aktiviteten använder mer än ett mätvärde. Den hämtningsbara rapporten genereras endast baserat på rapportinställningarna och tar hänsyn till samma värde för andra mätvärden som används. Sanningens källa är alltid den rapport som visas i [!DNL Target] Gränssnitt.

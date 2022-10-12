@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
 workflow-type: tm+mt
-source-wordcount: '4529'
+source-wordcount: '4464'
 ht-degree: 0%
 
 ---
@@ -98,12 +98,6 @@ När ett framgångsmått ställs in på ökning för varje intryck räknas besö
 När du använder Target-aktivitetsuttryck och -konverteringar i Analysis Workspace ska du använda samma Touch-modell för mätvärdena för att säkerställa korrekt räkning. Använda en [icke-standardattribueringsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), högerklicka på måttet för att **Ändra kolumninställningar > aktivera Använd icke-standardattribueringsmodell > välj samma Touch-modell**. Om den här modellen inte används överskattas mätvärdena.
 
 Alla aktuella Analytics-paket kan lägga till den här modellen med Attribution IQ. Om du inte har tillgång till Attribution IQ kan du lita på A4T-data i Rapporter och analyser.
-
-### Rapportering - Inkonsekventa data i den hämtningsbara CSV-rapporten jämfört med den rapport som visas i [!DNL Target] Gränssnitt. {#csv}
-
-Rapporter som genererats för hämtning som CSV-filer är inkonsekventa om aktiviteten använder mer än ett mätvärde. Den hämtningsbara rapporten genereras endast baserat på rapportinställningarna och tar hänsyn till samma värde för andra mätvärden som används.
-
-Sanningens källa är alltid den rapport som visas i [!DNL Target] Gränssnitt.
 
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
