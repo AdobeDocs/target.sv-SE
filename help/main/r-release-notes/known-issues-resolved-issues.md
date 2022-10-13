@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
 workflow-type: tm+mt
-source-wordcount: '4269'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -74,12 +74,6 @@ Följande är kända problem med at.js:
 * at.js kanske inte fungerar med Cordova/Hybrid-appar eftersom cookies från första part inte stöds i dem för närvarande. (TNT-26166)
 
    **Tillfällig lösning**: Konfigurera at.js med alternativet &quot;x-only&quot; aktiverat och skicka `mboxThirdPartyId` i samtal för att hantera användare.
-
-### Analyser för [!DNL Target] (A4T)
-
-När du använder Target-aktivitetsuttryck och -konverteringar i Analysis Workspace ska du använda samma Touch-modell för mätvärdena för att säkerställa korrekt räkning. Använda en [icke-standardattribueringsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), högerklicka på måttet för att **Ändra kolumninställningar > aktivera Använd icke-standardattribueringsmodell > välj samma Touch-modell**. Om den här modellen inte används överskattas mätvärdena.
-
-Alla aktuella Analytics-paket kan lägga till den här modellen med Attribution IQ. Om du inte har tillgång till Attribution IQ kan du lita på A4T-data i Rapporter och analyser.
 
 ## Lösta problem {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
