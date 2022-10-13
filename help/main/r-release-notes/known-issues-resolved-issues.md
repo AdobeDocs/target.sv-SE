@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4269'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,9 @@ Information om kända fel för [!DNL Adobe Target]. Innehåller även informatio
 
 I följande avsnitt listas kända problem för [!DNL Target]:
 
-### Enhanced Experience Composer (EEC) stöder inte förfrågningar från PUT.
-
-Ett problem med EEG förhindrar för närvarande att det stöder förfrågningar från PUT och leder till ett 504-timeout-fel. (TGT-41493)
-
-### [!DNL Adobe Experience Platform] segmentnamn inte visas i [!UICONTROL Important Attributes] rapport.
-
-[!DNL Adobe Experience Platform] segmentnamn inte visas i [!UICONTROL Important Attributes] rapport för [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet. (TOP-3813)
-
 ### Arkivering [!UICONTROL Auto-Target] aktiviteter kan orsaka synkroniseringsproblem
 
 Försöker arkivera inaktivt [!UICONTROL Auto-Target] aktiviteter kan leda till synkroniseringsproblem. Arkivera inte förrän problemet är åtgärdat [!UICONTROL Auto-Target] verksamhet. Lämna dem i [!UICONTROL Inactive] tillstånd. (TGT-40885)
-
-### Omdirigeringserbjudanden {#redirect}
-
-* Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) i stället för att utföra förhandsgranskning och kvalitetskontroll. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)
 
 ### Avbryt inläsning av en sida i Visual Experience Composer (VEC) {#cancel}
 
@@ -86,12 +74,6 @@ Följande är kända problem med at.js:
 * at.js kanske inte fungerar med Cordova/Hybrid-appar eftersom cookies från första part inte stöds i dem för närvarande. (TNT-26166)
 
    **Tillfällig lösning**: Konfigurera at.js med alternativet &quot;x-only&quot; aktiverat och skicka `mboxThirdPartyId` i samtal för att hantera användare.
-
-### Framgångsmått
-
-Framgångsmått med det avancerade alternativet &quot;Hur kommer antalet att ökas&quot; inställt på &quot;varje intryck&quot; eller &quot;varje intryck (exklusive uppdateringar)&quot; kan inte användas som ett framgångsmått som ett annat mätvärde är beroende av.
-
-När ett framgångsmått ställs in på ökning för varje intryck räknas besökaren igen varje gång besökaren besöker detta framgångsmått. Target återställer sedan resultatmåttet&quot;medlemskap&quot; till 0 så att det kan räknas igen vid nästa intryck. Om ett annat mått kräver att det här måttet har setts först, kommer Target alltså aldrig ihåg att användaren har sett det första måttet.
 
 ### Analyser för [!DNL Target] (A4T)
 

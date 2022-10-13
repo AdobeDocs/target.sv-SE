@@ -4,9 +4,9 @@ description: Läs om framgångsstatistik i Adobe [!DNL Target] som hjälper dig 
 title: Vad är Success Metrics?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,12 @@ Välj önskat beteende:
 * En gång per deltagare
 * Vid varje intryck (exklusive uppdatering av sidor)
 * På varje intryck
+
+## Kända fel
+
+* Framgångsmått med det avancerade alternativet &quot;Hur kommer antalet att ökas&quot; inställt på &quot;varje intryck&quot; eller &quot;varje intryck (exklusive uppdateringar)&quot; kan inte användas som ett framgångsmått som ett annat mätvärde är beroende av.
+
+När ett framgångsmått ställs in på att öka varje intryck, [!DNL Target] räknar besökaren igen varje gång besökaren besöker detta framgångsmått. [!DNL Target] återställer sedan mätvärdet för &quot;medlemskap&quot; till 0 så att det kan räkna med nästa intryck. Om ett annat mätvärde kräver att detta mätvärde har setts först, [!DNL Target] känner aldrig igen att användaren har sett det första måttet.
 
 ## Utbildningsvideo: Aktivitetsmått
 

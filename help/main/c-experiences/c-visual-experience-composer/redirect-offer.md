@@ -4,9 +4,9 @@ description: Lär dig hur du använder alternativet Omdirigera till URL i Adobe 
 title: Kan jag dirigera om en sida till en annan URL?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,9 @@ Så här skapar du ett omdirigeringserbjudande:
    * Hash-fragment (#)
    * Fråga
    * mbox-parameter
+
    Ytterligare regler kan kopplas till aktivitets-URL:en med AND eller OR. Alla regler som du lägger till utvärderas mot varandra med AND.
+
+## Kända fel
+
+* Omdirigeringsaktiviteter i at.js-implementeringar kan få URL:en för förhandsgranskning att gå in i en loop (erbjudandet levereras upprepade gånger). Du kan använda [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) i stället för att utföra förhandsgranskning och kvalitetskontroll. Problemet påverkar inte den faktiska leveransen av erbjudandet. (TGT-23019)

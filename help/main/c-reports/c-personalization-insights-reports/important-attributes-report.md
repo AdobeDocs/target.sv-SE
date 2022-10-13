@@ -4,9 +4,9 @@ description: Lär dig använda [!UICONTROL Important Attributes] som visar de vi
 title: Vilken är den viktiga attributrapporten?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -148,3 +148,9 @@ Det kan vara bra att veta hur modellen fungerar som en trafiktjänst. Var och en
 * Förstå vilka attribut som var viktigast för hur modellen lärde sig.
 * Se vilka attribut som används i personaliseringsmodellerna och hur viktiga de är.
 * Identifiera möjligheter för ytterligare datapunkter som ni kan skicka till Target för att ytterligare informera er personalisering.
+
+## Kända fel
+
+Följande problem håller för närvarande på att undersökas av [!DNL Target] konstruktörerna.
+
+* [!DNL Adobe Experience Platform] segmentnamn inte visas i [!UICONTROL Important Attributes] rapport för [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet. (TOP-3813)
