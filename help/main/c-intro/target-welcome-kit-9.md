@@ -4,20 +4,20 @@ description: Du har skapat din första aktivitet i Adobe Target. Vad kommer här
 title: Var kan jag hitta ytterligare resurser för att använda Target mer effektivt?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
 
 # Kapitel 9: Nästa steg och resurser
 
-Vi har gått igenom grunderna i hur du kör din första aktivitet. Vi hoppas att aktiviteten visade dig och ditt företag den otroliga potential som [!DNL Adobe Target] för att optimera och personalisera har en effekt på affärsresultatet. Det här är bara en början. Är det dags att fundera på vad du ska fokusera på i andra aktiviteten? Du kan skapa en prioriterad lista över aktiviteter som du vill köra. Ni kommer att bli förvånade över hur snabbt ni ser hur aktivitet efter aktivitet ni kan förbättra kundupplevelsen och driva verksamheten framåt.
+Vi har gått igenom grunderna i hur du kör din första aktivitet. Vi hoppas att aktiviteten visade dig och ditt företag den otroliga potential som [!DNL Adobe Target] för att optimera och personalisera har en effekt på affärsresultatet. Det här är bara en början. Är det dags att fundera på vad du ska fokusera på för din andra aktivitet? Du kan skapa en prioriterad lista över aktiviteter som du vill köra. Ni kommer att bli förvånade över hur snabbt ni ser hur aktivitet efter aktivitet ni kan förbättra kundupplevelsen och driva verksamheten framåt.
 
-Förresten, ni har många sätt att lära er mer om testning, personalisering och användning [!DNL Target]. Granska listan med resurser nedan för att börja bygga upp kunskapen. Lyssna på våra webbinarier, läs Adobe Target blogg, delta i Adobe Summit och bli aktiv i Adobe Target onlinecommunity. Glöm inte att vi alltid är här för att hjälpa er att lansera programmet och göra det till en framgång. Nå ut när som helst.
+Förresten, ni har många sätt att lära er mer om testning, personalisering och användning [!DNL Target]. Granska listan med resurser nedan för att börja bygga upp kunskapen. Lyssna på våra webbinarier, läs Adobe Target blogg, delta i Adobe Summit och bli aktiv i Adobe Target onlinecommunity. Glöm inte att vi alltid är här för att hjälpa er att starta programmet och göra det till en bra bit på vägen. Nå ut när som helst.
 
-Vi har sammanställt en ordnad lista med värdefull information som hjälper er att få ännu mer kunskap om optimering och personalisering med [!DNL Target].
+Vi har sammanställt en ordnad lista med värdefull information som hjälper dig att få ännu mer kunskap om optimering och personalisering med [!DNL Target].
 
 ## Resurslänkar
 
@@ -45,4 +45,3 @@ Vi har sammanställt en ordnad lista med värdefull information som hjälper er 
 * **Experience League**: Upptäck guider, event och utbildning som du behöver för att komma igång snabbt med upplevelseverksamheten och få kontakt med Target-communityn och hitta de svar du söker. Se [Adobe Experience League hemsida](https://experienceleague.adobe.com/#home).
 * **Adobe Target-certifiering**: Uppnå Adobe-certifierad expertstatus med nya Adobe Target-prov. Boka in en tentamen här eller kurser. Se [Utbildning och certifiering](/help/main/c-intro/training-and-certification.md).
 * **Versionsinformation för Adobe Target**: Information om funktioner, förbättringar och korrigeringar för varje [!DNL Target Standard] och [!DNL Target Premium] release. Versionsinformation om Target-API:er, SDK:er, JavaScript-biblioteket (at.js) och andra plattformsändringar inkluderas också, i tillämpliga fall. Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md).
-* **Adobe Target Newsletter**: Läs om produktuppdateringar och framtida planer, tips och tricks för personalisering och optimering, nöjda kunder, kommande event, populära blogginlägg med mera. Se [Nyhetsbrev om målinsider](/help/main/r-release-notes/target-insider-newsletter.md).
