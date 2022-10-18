@@ -3,9 +3,9 @@ keywords: rapporter;statistisk metod;statistiska beräkningar;statistik;medel;ko
 description: Läs mer om de statistiska beräkningar som används i handboken [!UICONTROL A/B Test] verksamhet i [!DNL Adobe Target].
 title: Hur kan jag lära mig mer om de statistiska beräkningarna som används i [!UICONTROL A/B Test] Verksamheter?
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -138,4 +138,4 @@ Slutligen rapporterade förtroendet för [!DNL Target] definieras som:
 
 The [hämtad CSV-rapport](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) innehåller endast rådata och omfattar inte beräknade värden, t.ex. intäkter per besökare, lyft eller förtroende som används för A/B-tester.
 
-Om du vill beräkna de statistiska mängderna hämtar du målets [Slutför konfidensberäkning](/help/main/assets/complete_confidence_calculator.xlsx) Excel-fil som anger aktivitetens värde.
+Ladda ned [!DNL Target] [Slutför konfidensberäkning](/help/main/assets/complete_confidence_calculator.xlsx) Excel-fil som anger aktivitetens värde.

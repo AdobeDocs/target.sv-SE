@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en [!UICONTROL Automated Personalization] (A
 title: Hur skapar jag en [!UICONTROL Automated Personalization] Aktivitet?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ The [!UICONTROL Automated Personalization] (AP) aktivitetsarbetsflöde i [!DNL A
 
    >[!NOTE]
    >
-   >Även om ni kan skapa upp till 30 000 upplevelser i en AP-aktivitet fungerar aktiviteten bäst när färre än 5 000 upplevelser används.
+   >Även om ni kan skapa upp till 30 000 upplevelser i en AP-aktivitet fungerar aktiviteten bäst när färre än 5 000 upplevelser används. Samma gräns gäller även när aktiviteten har aktiverat [!UICONTROL Dissalow Duplicates] alternativ.
 
    The [!UICONTROL Experiences] visar varje del av innehållet som har valts för aktiviteten och platsen som den har tilldelats.
 
@@ -106,7 +106,7 @@ The [!UICONTROL Automated Personalization] (AP) aktivitetsarbetsflöde i [!DNL A
 
    ![Fliken Uteslutningsgrupper i dialogrutan Hantera innehåll](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Även om ni kan skapa upp till 30 000 upplevelser i ett AP-test fungerar algoritmen bäst när färre än 10 000 distinkta upplevelser används.
+   Även om ni kan skapa upp till 30 000 upplevelser i ett AP-test fungerar algoritmen bäst när färre än 10 000 distinkta upplevelser används. Samma gräns gäller även när aktiviteten har aktiverat [!UICONTROL Dissalow Duplicates] alternativ.
 
    Om du inte har någon exkluderingsgrupp med i din aktivitet klickar du på **Skapa exkluderingsgrupp**. Du kan filtrera för att skapa en lista som endast visar de kombinationer som du vill utesluta. Namnge exkluderingsgruppen och klicka på **Spara**.
 

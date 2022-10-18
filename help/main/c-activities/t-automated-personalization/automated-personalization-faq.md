@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Automated Personalizati
 title: Hur hittar jag Frågor och svar om Automated Personalization Activity?
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Det finns inget körklart alternativ för att jämföra AP med en standardupplev
 
    Det finns tre scenarier att tänka på baserat på målet för din aktivitet och vilken typ av kontroll du har valt:
 
-   * **Random Experiences as your control and your activity target is to test the effective of the personalization algorithm**: Om målet är att utvärdera personaliseringsalgoritmen vill ni ha en mer exakt bild av lyften. Du skulle också troligtvis vilja jämföra med konverteringsgraden för dina upplevelser/erbjudanden om du bara gjorde ett A/B-test (en slumpmässigt kontrollerad kontroll). I sådana fall rekommenderas att man använder en tilldelning på 50 % för att kontrollera slumpmässigt hanterade upplevelser.
+   * **Random Experiences as your control and your activity target is to test the effective of the personalization algorithm**: Om ditt mål är att utvärdera personaliseringsalgoritmen vill du få en mer korrekt bild av lyften. Du skulle också troligtvis vilja jämföra med konverteringsgraden för dina upplevelser/erbjudanden om du bara gjorde ett A/B-test (en slumpmässigt kontrollerad kontroll). I sådana fall rekommenderas att man använder en tilldelning på 50 % för att kontrollera slumpmässigt hanterade upplevelser.
    * **&quot;Slumpmässiga upplevelser&quot; när din kontroll och ditt verksamhetsmål är att maximera personaliserad trafik**: Om du känner dig trygg med algoritmen och vill ha maximalt antal personaliserade trafikdata, rekommenderar vi att du använder 10 till 30 % för att kontrollera. Höjdpunkten här är den noggrannhet som du kommer att se i din lyftinformation (eftersom tillförlitlighetsintervallen för din kontrolltrafik kommer att bli större eftersom det finns mindre trafik till dem).
    * **En specifik upplevelse som din kontroll, med båda måltyperna**: Om du vill jämföra en specifik marknadsföringsdriven upplevelse med personaliseringsmodellerna rekommenderar vi att du anger 10 till 30 % för att få kontroll. När du bara väljer en upplevelse som kontroll sprids inte trafiken över alla erbjudanden/upplevelser i aktiviteten.
 
@@ -56,7 +56,9 @@ Se följande frågor och svar när du arbetar med [!UICONTROL Automated Personal
 
 ### Vilka begränsningar finns det i Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Target har en hård gräns på 30 000 upplevelser, men fungerar som bäst när färre än 10 000 upplevelser skapas.
+[!DNL Target] har en hård gräns på 30 000 upplevelser, men den fungerar som bäst när färre än 10 000 upplevelser skapas.
+
+Samma gräns gäller även när aktiviteten har aktiverat [!UICONTROL Dissalow Duplicates] alternativ.
 
 ### Hur implementeras målinriktning på erbjudandenivå? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
