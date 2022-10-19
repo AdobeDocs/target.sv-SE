@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
+source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -15,31 +15,28 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 5 oktober 2022**
+**Senast uppdaterad: 19 oktober 2022**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 22.10.1 (version 10-13 oktober 2022)
+## [!DNL Target] Standard/Premium 22.10.3 (version 25-27 oktober 2022)
 
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-* **10 oktober**: Asien-Stillahavsområdet (APAC)
-* **12 oktober**: Amerika
-* **13 oktober**: Europa, Mellanöstern och Afrika (EMEA)
+* **25 oktober**: Europa, Mellanöstern och Afrika (EMEA)
+* **26 oktober**: Asien-Stillahavsområdet (APAC)
+* **27 oktober**: Amerika
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
 | Funktion | Detaljer |
 | --- | --- |
-| [!DNL Adobe Experience Manager] (AEM) upplevelsefragment | Uppdateringar av funktionen AEM Experience fragments innehåller följande:<ul><li>Lagt till möjlighet att filtrera AEM upplevelsefragment efter typ (HTML eller JSON) i [!UICONTROL Offers] lista. (TGT-43121)</li><li>Ett problem som gjorde att kunder kunde infoga JSON har korrigerats [!UICONTROL Experience Fragment] erbjudanden när VEC används, vilket inte stöds. JSON-erbjudanden kan bara infogas när du använder [!UICONTROL Form-Based Experience] disposition. (TGT-43846)</li></ul>Mer information finns i AEM [upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
-| Nytt [!UICONTROL Visual Experience Composer] tillägg för Google Chrome | En ny [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)-tillägget för Chrome finns i Chrome Web Store.<br>Från och med januari 2023 är den nuvarande [!DNL Target] Tillägget VEC Helper slutar fungera i Google Chrome eftersom Google inte tillåter tillägg med Manifest V2. Ladda ned det nya tillägget för att fortsätta att visuellt utveckla dina webbplatser i [!DNL Target] från och med det nya året.<br>Följande länkar visar de två tilläggen i Chrome Web Store:<ul><li>[Nytt tillägg](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Gammalt tillägg](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Mer information finns i [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
-| Dokumentationsuppdateringar | Viktiga dokumentationsuppdateringar är bland annat följande:<ul><li>Nytt och uppdaterat [Dokumentation för Adobe Target Admin och Reporting API](https://developer.adobe.com/target/administer/admin-api/){target=_blank} innehåller omfattande täckning av Admin- och Reporting API-slutpunkter, inklusive egenskaper, erbjudanden, värdar, miljöer, klienter, målgrupper, aktiviteter med mera.<br>Se det här och mer utvecklarinnehåll i [[!DNL Adobe Target] [!UICONTROL Developer Guide]](https://developer.adobe.com/target/){target=_blank}.</li><li>[Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>I den här artikeln beskrivs de detaljerade statistiska beräkningar som används vid manuella A/Bn-tester i [!DNL Adobe Target].<br>Informationen i den här artikeln ersätter *Adobe Target Calculations for A/B Testing* pdf-fil som tidigare fanns tillgänglig för hämtning på den här webbplatsen.</li></ul> |
+| Kontinuerliga mätvärden | Lagt till möjlighet att använda kontinuerliga mätvärden, t.ex. intäkter, i [!UICONTROL Auto-Target] och [!UICONTROL Allocate-Allocate] verksamhet.<br>Tidigare [!UICONTROL Auto-Target] och [!UICONTROL Auto-Allocate] modellerna optimerades för att fungera med binära (konverteringsbaserade) mätvärden. (TGT-43649 &amp; TGT-43649) |
+| [!DNL Recommendations] egna namn | Egna namn har lagts till i [!UICONTROL Analytics for Target] A4T-rapportering. Tidigare [!DNL Target] listade upplevelse-ID:n. Den här förbättringen hjälper kunderna att effektivisera arbetet med att skapa rapporter i A4T. (TGT-41853) |
 
-* Ett problem som gjorde att målgruppsinformation inte kunde visas korrekt i dialogrutan har korrigerats [!UICONTROL Audiences Refinements] informationsfönstret. (TGT-43917)
-* Förbättrade prestanda för [!DNL Target] Gränssnitt vid inläsning av målgrupper som närmar sig [rekommenderad gräns för målinriktningsregler](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
-* Ett problem som gjorde att vissa komponenter inte visades korrekt i [!UICONTROL Modifications] på [!UICONTROL Experiences] sida när du skapar eller redigerar aktiviteter i VEC efter byte från [!UICONTROL Compose] till [!UICONTROL Browse] läge. (TGT-43300)
-* Ett problem som gjorde att vissa kunder inte kunde arkivera har åtgärdats [!UICONTROL A/B Test] aktiviteter som använder [!UICONTROL Auto-Target]. (TGT-40978)
-* Lagt till möjlighet att automatiskt använda ett enda erbjudande på flera platser inom en enda rapporteringsgrupp. (TGT-40689)
+* Fler verktygstips i [!DNL Target] Gränssnitt som hjälper kunderna att navigera effektivare i målgruppsbyggaren. (TGT-44139)
+* Funktioner som förhindrar kunderna från att redigera en aktivitet som inaktiverats av [!DNL Target] eftersom det använder mätvärden som inte stöds. Ett meddelande i användargränssnittet uppmanar kunderna att duplicera aktiviteten och sedan uppdatera konverteringsmåttet. (TGT-43860, TGT-43861 och TGT-43650)
+* Ett verktygstips har lagts till i [!DNL Target] Användargränssnitt som hjälper kunderna att välja ett optimeringsvillkor när de skapar eller redigerar ett [!UICONTROL Auto-Target] aktivitet som använder A4T. (TGT-43713)
 
 ## Ytterligare versionsinformation
 
