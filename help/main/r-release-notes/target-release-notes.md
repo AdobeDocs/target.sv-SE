@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,14 @@ Den här versionen innehåller följande nya funktioner, förbättringar och kor
 
 | Funktion | Detaljer |
 | --- | --- |
-| Kontinuerliga mätvärden | Lagt till möjlighet att använda kontinuerliga mätvärden, t.ex. intäkter, i [!UICONTROL Auto-Target] och [!UICONTROL Allocate-Allocate] verksamhet.<br>Tidigare [!UICONTROL Auto-Target] och [!UICONTROL Auto-Allocate] modellerna optimerades för att fungera med binära (konverteringsbaserade) mätvärden. (TGT-43649 &amp; TGT-43649) |
-| [!DNL Recommendations] egna namn | Egna namn har lagts till i [!UICONTROL Analytics for Target] A4T-rapportering. Tidigare [!DNL Target] listade upplevelse-ID:n. Den här förbättringen hjälper kunderna att effektivisera arbetet med att skapa rapporter i A4T. (TGT-41853) |
+| Kontinuerliga mätvärden | Lagt till möjlighet att använda kontinuerliga mätvärden, t.ex. intäkter, i [!UICONTROL Auto-Target] och [!UICONTROL Allocate-Allocate] verksamhet.<br>Tidigare [!UICONTROL Auto-Target] och [!UICONTROL Auto-Allocate] modellerna optimerades för att fungera med binära (konverteringsbaserade) mätvärden. (TGT-43649 &amp; TGT-43649)<BR>Observera att den här funktionen endast är tillgänglig för vissa kunder. Den här funktionen kommer att vara tillgänglig för alla kunder i en framtida version. |
+| [!DNL Recommendations] egna namn | Egna namn har lagts till i [!UICONTROL Analytics for Target] A4T-rapportering. Tidigare [!DNL Target] visas endast med upplevelse-ID:n. Den här förbättringen justerar rapporteringen mellan [!DNL Adobe Analytics] och [!DNL Target] och hjälper kunderna att effektivisera arbetet med att skapa rapporter i A4T. (TGT-41853) |
 
-* Fler verktygstips i [!DNL Target] Gränssnitt som hjälper kunderna att navigera effektivare i målgruppsbyggaren. (TGT-44139)
-* Funktioner som förhindrar kunderna från att redigera en aktivitet som inaktiverats av [!DNL Target] eftersom det använder mätvärden som inte stöds. Ett meddelande i användargränssnittet uppmanar kunderna att duplicera aktiviteten och sedan uppdatera konverteringsmåttet. (TGT-43860, TGT-43861 och TGT-43650)
+* Fler verktygstips i [!DNL Target] Användargränssnitt som hjälper kunderna att navigera effektivare i målgruppsbyggaren och för att lära sig hur de använder funktioner som kanske inte är kända. (TGT-44139)
+* Funktioner som förhindrar kunderna från att redigera en aktivitet som inaktiverats av [!DNL Target] eftersom det använder mätvärden som inte stöds. Ett meddelande i användargränssnittet uppmanar kunderna att duplicera aktiviteten och sedan uppdatera konverteringsmåttet.
+
+   Med den här versionen `averagetimespentonsite`, `bouncerate`och `entries` mätvärden i [!DNL Target] aktiviteter kommer att bli inaktuella för nya aktiviteter. Befintliga aktiviteter kan fortsätta att använda dessa mått fram till 6 februari 2023. (TGT-43860, TGT-43861 och TGT-43650)
+
 * Ett verktygstips har lagts till i [!DNL Target] Användargränssnitt som hjälper kunderna att välja ett optimeringsvillkor när de skapar eller redigerar ett [!UICONTROL Auto-Target] aktivitet som använder A4T. (TGT-43713)
 
 ## Ytterligare versionsinformation

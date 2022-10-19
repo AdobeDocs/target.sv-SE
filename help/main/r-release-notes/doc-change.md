@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 19 oktober | [Kategoritillhörighet](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | En anteckning som förklarar poängsättningen när flera kategorier skickas inom ett enskilt mbox-anrop har lagts till. |
 | 18 oktober | [Skapa en [!UICONTROL Automated Personalization] aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Uppdaterad text som indikerar att även om du kan skapa upp till 30 000 upplevelser i ett AP-test fungerar algoritmen bäst när färre än 10 000 distinkta upplevelser används. Samma gräns gäller även när aktiviteten har aktiverat [!UICONTROL Dissalow Duplicates] alternativ. |
 |  | [Vanliga frågor om Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Uppdaterad text som indikerar att även om du kan skapa upp till 30 000 upplevelser i ett AP-test fungerar algoritmen bäst när färre än 10 000 distinkta upplevelser används. Samma gräns gäller även när aktiviteten har aktiverat [!UICONTROL Dissalow Duplicates] alternativ. |
 | 14 oktober | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till registreringsinformation om [!DNL Adobe Target] Community Q&amp;A Coffee Break (26 oktober 2022). |

@@ -4,9 +4,9 @@ description: Läs om kategoritillhörighet i [!DNL Adobe Target] som automatiskt
 title: Vad är kategoritillhörighet?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '817'
 ht-degree: 3%
 
 ---
@@ -49,6 +49,10 @@ Algoritmen för kategoritillhörighet fungerar så här:
 * Om du klickar på en kategori (visas) subtraheras inte 1 från alla andra kategorier om du klickar på den igen
 * Om man klickar på en sjätte kategori tas den kategori som har lägst poäng i de fem första kategorierna bort från beräkningen
 * I slutet av sessionen dividerar du alla värden med 2
+
+>[!NOTE]
+>
+>När flera kategorier skickas inom ett enskilt mbox-anrop, ordnas kategorierna i `categoryAffinities` är inte garanterat. En godtycklig kategori registreras först och får poängen 10.
 
 ### Exempel: algoritm för kategoritillhörighet
 
