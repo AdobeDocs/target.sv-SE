@@ -4,10 +4,10 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör den förbättrade Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,7 +71,3 @@ Så här kontrollerar du TLS-versionen på din webbplats med Firefox (andra webb
 ## Jag ser timeout-fel eller&quot;åtkomst nekad&quot;-fel när webbplatser med proxy aktiverat läses in. (endast EEG) {#section_60CBB9022DC449F593606C0E6252302D}
 
 Kontrollera att proxy-IP:n inte är blockerade i din miljö.
-
-## Kända fel
-
-* Ett problem med EEG förhindrar för närvarande att det stöder förfrågningar från PUT och leder till ett 504-timeout-fel. (TGT-41493)

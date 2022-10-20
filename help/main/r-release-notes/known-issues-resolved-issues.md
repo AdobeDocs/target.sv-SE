@@ -4,9 +4,9 @@ description: Hitta information om kända fel i Adobe Target, inklusive tillfäll
 title: Var hittar jag information om kända fel och lösta problem?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '3926'
 ht-degree: 0%
 
 ---
@@ -27,32 +27,16 @@ I följande avsnitt listas kända problem för [!DNL Target]:
 
 Försöker arkivera inaktivt [!UICONTROL Auto-Target] aktiviteter kan leda till synkroniseringsproblem. Arkivera inte förrän problemet är åtgärdat [!UICONTROL Auto-Target] verksamhet. Lämna dem i [!UICONTROL Inactive] tillstånd. (TGT-40885)
 
-### Avbryt inläsning av en sida i Visual Experience Composer (VEC) {#cancel}
-
-* Följande kända fel inträffar för närvarande när inläsningen av ett [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting] (XT) aktivitet i VEC som innehåller en omdirigerings-URL.
-
-   När du avbryter sidinläsningen i steg ett av de guidade arbetsflödena för VEC visas [!UICONTROL Modifications] i VEC-skärmar och omdirigering till URL-mallen används på upplevelsen (till exempel &quot;Experience B&quot;). När du går vidare till steg två eller tre och sedan går tillbaka till steg ett, inträffar följande situation.
-
-   I&quot;Experience B&quot; återges som standard den avbrutna webbplatsens inläsningsmall och [!UICONTROL Modifications] -panelen är tillgänglig, vilket inte ska vara fallet eftersom en omdirigering till URL-mallen används. Omdirigering till URL-mallen ska visas.
-
-   Så här visar du det korrekta tillståndet för upplevelsen i VEC:
-
-   Om du byter till en annan upplevelse och sedan byter tillbaka till&quot;Experience B&quot;, [!DNL Target] visar omdirigering till URL-mallen som används för den här upplevelsen och [!UICONTROL Modifications] panelen är inte tillgänglig. (TGT-32138)
-
-* Om du avbryter inläsningen för SPA-webbplatser (Single Page Application) kan du inte redigera åtgärder under [!UICONTROL Modifications] -panelen.
-
 ### Recommendations
 
 Följande är kända problem med [!UICONTROL Recommendations] verksamhet:
 
 * När [!DNL Target] returnerar ett JSON-erbjudande med getOffer(), som returneras med typen JSON. Om du returnerar en JSON Recommendations-design returneras den emellertid med en typ av HTML.
-* Enheterna har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. (IRI-857)
-* Övertäckningarna &quot;Användningsinformation&quot; för villkor och design återspeglar inte deras användning i A/B- och Experience Targeting-aktiviteter (TGT-34331)
+* Enheter som har gått ut har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. Enheter som tas bort via feed eller API tas inte heller bort från indexet för katalogsökning. (IRI-857)
 * Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsvisning av Recommendations-fältet (TGT-33426)
 * Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av dessa objekt i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade. (TGT-35777)
 * Recommendations-aktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
 * Den feed-status för anpassade kriterier som visas i kriterielistan (kortvyn) uppdateras var tionde minut och kan i sällsynta fall vara mer än tio minuter gammal. Statusen som visas i redigeringsvyn för anpassade kriterier hämtas i realtid och är alltid uppdaterad. (TGT-35896, TGT-36173)
-* Kriterier och designkort visar inte korrekt antal aktiviteter som de används i. Om kriterierna eller designen används i en A/B-aktivitet kan kortet felaktigt visa att designen eller kriterierna inte används, även när designen eller kriterierna används i aktiviteten. (TGT-36621, TGT-37217)
 
 ### Multivariata testaktiviteter (MVT)
 
