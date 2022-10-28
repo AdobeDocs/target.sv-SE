@@ -1,28 +1,28 @@
 ---
-keywords: automatiserad personalisering;erbjudande;rapportering;grupp;rapporteringsgrupp
-description: Lär dig hur du använder rapporteringsgrupper i Adobe [!DNL Target] Automated Personalization verksamhet. Använda rapporteringsgrupper, [!DNL Target] skapar bara en personaliseringsmodell för varje rapporteringsgrupp.
+keywords: automatiserad personalisering;erbjudande;rapportering;grupp;rapporteringsgrupp;ap
+description: Lär dig hur du använder rapporteringsgrupper i Adobe [!DNL Target] [!UICONTROL Automated Personalization] verksamhet.
 title: Kan jag använda rapporteringsgrupper i Automated Personalization-aktiviteter?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Erbjud rapporteringsgrupper i Automated Personalization
+# ![PREMIUM](/help/main/assets/premium.png) Erbjud rapportgrupper i [!UICONTROL Automated Personalization]
 
-Information om hur du använder rapporteringsgrupper i [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) aktiviteter.
+Information om hur du använder rapporteringsgrupper i [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) aktiviteter.
 
 Rapportgrupper utför två nyckelfunktioner:
 
-* De gör att du kan se dina erbjudanden grupperade i en AP-aktivitetsrapportering.
-* De spelar en nyckelroll med hur [!DNL Target] funktionen för personaliseringsmodeller.
+* Med rapportgrupper kan du se dina erbjudanden grupperade i AP-aktivitetsrapporter.
+* Rapporteringsgrupper spelar en viktig roll när det gäller att [!DNL Target] funktionen för personaliseringsmodeller.
 
-När du använder rapporteringsgrupper [!DNL Target] skapar endast en personaliseringsmodell för varje rapporteringsgrupp i stället för varje erbjudande i din AP-aktivitet med hjälp av data från alla erbjudanden i gruppen.
+När du använder rapporteringsgrupper [!DNL Target] skapar en personaliseringsmodell för varje rapporteringsgrupp med hjälp av data från alla erbjudanden i gruppen. Utan rapporteringsgrupper [!DNL Target] skapar en personaliseringsmodell för varje erbjudande i din AP-aktivitet.
 
-Om din aktivitetsinställning inte har tillräckligt med data för att en personaliseringsmodell ska kunna skapas per erbjudande kan rapporteringsgrupper bidra till att minska datakraven för att använda Automated Personalization. Rapporteringsgrupper kan också bidra till att lösa problemet med att&quot;komma igång&quot; med nya erbjudanden genom att gruppera liknande erbjudanden så att varje modell får mer data att utbilda. Modelleringsgrupper kan också användas för aktiviteter där nya erbjudanden regelbundet introduceras i din AP-aktivitet.
+Om din aktivitetsinställning inte har tillräckligt med data för att en personaliseringsmodell ska kunna skapas per erbjudande, kan rapporteringsgrupper bidra till att minska datakraven [!UICONTROL Automated Personalization]. Rapporteringsgrupper kan också bidra till att lösa problemet med att&quot;komma igång&quot; med nya erbjudanden genom att gruppera liknande erbjudanden så att varje modell får mer data att utbilda. Modelleringsgrupper kan också användas för aktiviteter där nya erbjudanden regelbundet introduceras i din AP-aktivitet.
 
 Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i en grupp. Det bästa sättet är att gruppera erbjudanden som liknande grupper av besökare svarar på på liknande sätt. Med andra ord, grupperbjudanden med liknande konverteringsgrader. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp. Att gruppera alla erbjudanden eller grupperingserbjudanden med mycket olika konverteringsgrader minskar troligen effekten av [!DNL Target] personaliseringsmodeller.
 
@@ -32,7 +32,7 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 
 **Så här ställer du in rapporteringsgrupper:**
 
-1. På [!UICONTROL Experiences] sidan för en AP-aktivitet klickar du på **[!UICONTROL Manage Content]** ikon.
+1. På **[!UICONTROL Experiences]** sidan för en AP-aktivitet klickar du på **[!UICONTROL Manage Content]** ikon.
 
    ![Ikonen Hantera innehåll](/help/main/c-reports/assets/ap_manage_content.png)
 
@@ -45,7 +45,7 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 
    ![Ikon för rapporteringsgrupp](/help/main/c-reports/assets/ap_manage_content_3.png)
 
-1. (Villkorligt) Välj **[!UICONTROL Existing]** väljer du önskad rapportgrupp i listrutan och klickar sedan på **[!UICONTROL Apply]**.
+1. Om du vill tilldela ett valt erbjudande till en befintlig rapporteringsgrupp väljer du **[!UICONTROL Existing]** väljer du önskad rapportgrupp i listrutan och klickar sedan på **[!UICONTROL Apply]**.
 
    eller
 
