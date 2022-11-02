@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 
 När algoritmen har körts och du har fått resultat bör svaret se ut ungefär så här:
 
-![json_recommendation image](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendation image](assets/json_recommendation.png){width="575px"}
 
 ## Ytterligare tips och tricks för JSON-objekt {#section_C305673C68944749969DB239E3221DC2}
 
