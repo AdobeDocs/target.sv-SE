@@ -4,9 +4,9 @@ description: Lär dig hur du använder rapporteringsgrupper i Adobe [!DNL Target
 title: Kan jag använda rapporteringsgrupper i Automated Personalization-aktiviteter?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
+source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ När du använder rapporteringsgrupper [!DNL Target] skapar en personaliseringsm
 
 Om din aktivitetsinställning inte har tillräckligt med data för att en personaliseringsmodell ska kunna skapas per erbjudande, kan rapporteringsgrupper bidra till att minska datakraven [!UICONTROL Automated Personalization]. Rapporteringsgrupper kan också bidra till att lösa problemet med att&quot;komma igång&quot; med nya erbjudanden genom att gruppera liknande erbjudanden så att varje modell får mer data att utbilda. Modelleringsgrupper kan också användas för aktiviteter där nya erbjudanden regelbundet introduceras i din AP-aktivitet.
 
-Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i en grupp. Det bästa sättet är att gruppera erbjudanden som liknande grupper av besökare svarar på på liknande sätt. Med andra ord, grupperbjudanden med liknande konverteringsgrader. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp. Att gruppera alla erbjudanden eller grupperingserbjudanden med mycket olika konverteringsgrader minskar troligen effekten av [!DNL Target] personaliseringsmodeller.
+Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i en grupp. Det bästa sättet är att gruppera erbjudanden som liknande grupper av besökare svarar på på liknande sätt. Med andra ord, grupperbjudanden med liknande konverteringsgrader. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp. Att gruppera alla erbjudanden eller grupperingserbjudanden med olika konverteringsgrader minskar troligen effekten av [!DNL Target] personaliseringsmodeller.
 
 >[!NOTE]
 >
@@ -49,9 +49,17 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 
    eller
 
-   Om du vill skapa en ny rapporteringsgrupp att tilldela det valda erbjudandet till väljer du **[!UICONTROL New]**, namnge den nya rapporteringsgruppen och klicka sedan på **[!UICONTROL Apply]**.
+   Om du vill skapa en rapporteringsgrupp att tilldela det valda erbjudandet till väljer du **[!UICONTROL New]**, namnge den nya rapporteringsgruppen och klicka sedan på **[!UICONTROL Apply]**.
 
    ![Ny ikon för att skapa en ny rapporteringsgrupp](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+Du kan använda [!UICONTROL Location] lista för att filtrera erbjudanden efter plats. Använd [!UICONTROL Report Group] lista som ska filtreras efter erbjudanden efter rapporteringsgrupper. Du kan också använda [!UICONTROL Report Group] lista att filtrera efter [!UICONTROL Unassigned Offers] så att ni kan tilldela en rapporteringsgrupp till ett erbjudande som för närvarande inte är tilldelat någon rapporteringsgrupp.
+
+Mer information om att rikta ett erbjudande till specifika målgrupper finns i [Mål-AP-erbjudanden](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
+## Caveats
+
+* Det är viktigt att förstå att rapporteringsgrupper påverkar hur [!DNL Target] bygger sina modeller. Som en följd av detta [!DNL Adobe] rekommenderar att du endast använder rapporteringsgrupper om du tänker ersätta eller lägga till nya erbjudanden när en aktivitet är aktiv. Om ett nytt erbjudande införs i en liveaktivitet kan maskinen använda de data som redan samlats in för de andra erbjudandena i sin grupp för att lära sig mer om det nya erbjudandet genom att lägga in det nya erbjudandet i en grupp med befintliga liknande erbjudanden. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp.
 
 ## Visa erbjudanden i en rapporteringsgrupp
 
