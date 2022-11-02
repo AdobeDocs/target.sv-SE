@@ -4,9 +4,9 @@ description: Lär dig grunderna i hur du använder Visual Experience Composer (V
 title: Hur använder jag Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
@@ -103,10 +103,6 @@ Om du vill avbryta inläsningen av en sida i VEC klickar du på **[!UICONTROL Ca
 Om du vill fortsätta att hantera upplevelser i den aktuella aktiviteten eller lägga till nya ändringar måste du klicka på **[!UICONTROL Reload]** -knappen.
 
 ![Knappen Läs in igen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
-
->[!NOTE]
->
->Det finns ett känt fel med den här funktionen som kommer att åtgärdas i nästa version. Mer information finns i&quot;Avbryt inläsning av en sida i VEC&quot; på [Kända problem och lösta problem](/help/main/r-release-notes/known-issues-resolved-issues.md#cancel) sida.
 
 ## Utbildningsvideor
 

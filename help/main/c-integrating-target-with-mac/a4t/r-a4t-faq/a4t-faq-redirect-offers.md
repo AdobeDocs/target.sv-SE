@@ -4,9 +4,9 @@ description: Hitta svar på frågor om att använda omdirigeringserbjudanden nä
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om hur du anvä
 ## Har Analytics för Adobe Target (A4T) stöd för omdirigeringserbjudanden? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Ja, om implementeringen använder [!DNL at.js]. Implementeringen måste dock uppfylla de minimikrav som anges nedan för att du ska kunna använda [omdirigeringserbjudanden](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) i aktiviteter där Analytics används som rapportkälla.
-
->[!NOTE]
->
->Det finns ett känt fel som gör att ett begränsat antal kunder använder omdirigeringar med A4T för att se en högre procentandel av antalet träffar som inte sammanställts. Se [Kända problem och lösta problem](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Vilka är minimikraven för omdirigeringserbjudanden med A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -61,8 +57,6 @@ Om du använder en tidigare version av at.js som inte stöds finns det en risk f
 Vi rekommenderar att du använder den formulärbaserade dispositionen för att skapa en omdirigeringsaktivitet för att öka hastigheten på omdirigeringen på sidan på grund av var koden körs på sidan. Du bör också skapa ett omdirigeringserbjudande för varje upplevelse, även standardupplevelsen, där omdirigeringen skulle returnera originalsidan. Genom att skapa ett omdirigeringserbjudande för varje upplevelse säkerställer du att det sker i alla upplevelser om en felräkning inträffar. Rapportering och analys är fortfarande giltiga för testet.
 
 En anledning till att du kanske vill använda omdirigeringserbjudanden för alla upplevelser i aktiviteten, inklusive standardupplevelsen (kontrollen), är att ange samma villkor för alla upplevelser. Om till exempel standardupplevelsen inte har något omdirigeringserbjudande, men de andra upplevelserna har omdirigeringserbjudanden, har upplevelsen utan omdirigeringserbjudandet en inneboende fördel. Omdirigeringserbjudanden rekommenderas endast för tillfälliga scenarier, till exempel testning. Omdirigeringserbjudanden rekommenderas inte för permanenta scenarier, som personalisering. När du har bestämt vinnaren bör du ta bort omdirigeringen för att förbättra sidladdningsprestanda.
-
-Mer information om problemet finns i informationen om omdirigeringserbjudanden i [Kända fel](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Stöds både Visual Experience Composer (VEC) och Form-Based Experience Experience Composer? {#section_FDA26FE7909B48539DA770559E687677}
 

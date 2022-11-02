@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 2 november | Kända problem och lösta problem | Sidan har tagits bort och relevanta problem har flyttats till rätt sidor så att informationen är i sitt sammanhang. |
 | 25 oktober | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.10.3-utgåvan. |
 | 19 oktober | [Kategoritillhörighet](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | En anteckning som förklarar poängsättningen när flera kategorier skickas inom ett enskilt mbox-anrop har lagts till. |
 | 18 oktober | [Skapa en [!UICONTROL Automated Personalization] aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Uppdaterad text som indikerar att även om du kan skapa upp till 30 000 upplevelser i ett AP-test fungerar algoritmen bäst när färre än 10 000 distinkta upplevelser används. Samma gräns gäller även när aktiviteten har aktiverat [!UICONTROL Dissalow Duplicates] alternativ. |
@@ -103,7 +104,6 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | 22 mars | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Tillagd versionsinformation om [!DNL Target Standard/Premium] felkorrigeringar. |
 |  | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target Standard/Premium] 22.3.1-utgåvan. |
 | 17 mars | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target Standard/Premium] felkorrigeringar. |
-| 9 mars | [Kända problem och lösta problem](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Följande kända fel har lagts till:<ul><li>Ta bort platser med ad hoc-erbjudanden i aktiviteter som skapats i den formulärbaserade Experience Composer</li></ul> |
 |  | [Profilsynkronisering i realtid för mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | Uppdaterad mening om profilsynkronisering: &quot;Uppdateringar synkroniseras med profilarkivet var 5-10:e minut.&quot; |
 | 8 mars | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (30 mars 2022)</li></ul> |
 | 7 mars | [Skapa målgrupper](/help/main/c-target/c-audiences/audiences.md#aep) | Lagt till nytt avsnitt under&quot;Använda målgrupper från [!DNL Adobe Experience Platform]:&quot;<ul><li>Användningsexempel för personalisering</li></ul> |

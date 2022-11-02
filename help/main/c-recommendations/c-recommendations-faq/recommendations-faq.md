@@ -4,9 +4,9 @@ description: Visa en lista med vanliga frågor och svar om Adobe [!DNL Target] R
 title: Var hittar jag frågor och svar om [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Följande ändringar återspeglas inte förrän nästa algoritmkörning inträff
 * En ändring av andra villkorsinställningar kanske inte återspeglas förrän nästa algoritm körs:
 
    * Vissa villkorsinställningar (till exempel&quot;tillägg av en dynamisk inkluderingsregel&quot;) visas omedelbart.
-   * Andra villkorsinställningar (t.ex. &quot;borttagning av en dynamisk inkluderingsregel&quot;, ändring av uppslagsfönster o.s.v.) kan inte införlivas förrän nästa algoritm körs.
+   * Andra villkorsinställningar (t.ex. &quot;borttagning av en regel för dynamisk inkludering&quot;, ändring av uppslagsfönster o.s.v.) kan inte införlivas förrän nästa algoritm körs.
    * Algoritmkörningar utlöses av dessa ändringar men kan ta upp till 24 timmar att slutföra. Algoritmer körs också på schemalagd basis var 12:24:e timme.
 
 ## Hur lång tid tar det för en användares beteende (till exempel när man klickar på produkt A och köper produkt B) att återspeglas i rekommendationerna *att* får användaren?
@@ -251,7 +251,7 @@ En del kunder inom media och publicering vill se till att rekommenderade objekt 
 
 1. Skicka artikelns publiceringsdatum i YMMDDD-format som ett anpassat entitetsattribut.
 1. Skapa ett profilskript som är dagens datum minus 60 dagar, även i formatet YYYMMDD.
-1. Använd ett dynamiskt inkluderingsfilter i villkoren så att `publish date > today’s date minus 60 days`.
+1. Använd ett dynamiskt inkluderingsfilter i villkoren så att `publish date > today's date minus 60 days`.
 
 ### Skicka publiceringsdatumet som ett anpassat entitetsattribut:
 
@@ -274,3 +274,14 @@ En del kunder inom media och publicering vill se till att rekommenderade objekt 
 >[!NOTE]
 >
 >Det här exemplet kan också utföras med parametermatchning och genom att skicka `priorDate60` som en mbox-parameter.
+
+### Vad är kända problem vid användning [!DNL Recommendations] aktiviteter?
+
+Följande är kända problem med [!UICONTROL Recommendations] verksamhet:
+
+* När [!DNL Target] returnerar ett JSON-erbjudande med getOffer(), som returneras med typen JSON. Om du returnerar en JSON Recommendations-design returneras den emellertid med en typ av HTML.
+* Enheter som har gått ut har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. Enheter som tas bort via feed eller API tas inte heller bort från indexet för katalogsökning. (IRI-857)
+* Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsvisning av Recommendations-fältet (TGT-33426)
+* Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av dessa objekt i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade. (TGT-35777)
+* Recommendations-aktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
+* Den feed-status för anpassade kriterier som visas i kriterielistan (kortvyn) uppdateras var tionde minut och kan i sällsynta fall vara mer än tio minuter gammal. Statusen som visas i redigeringsvyn för anpassade kriterier hämtas i realtid och är alltid uppdaterad. (TGT-35896, TGT-36173)

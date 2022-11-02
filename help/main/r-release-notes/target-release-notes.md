@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1b737f963fe63770cb04d05f3414ed946548d882
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ Den här versionen innehåller följande nya funktioner, förbättringar och kor
 * Fler verktygstips i [!DNL Target] Användargränssnitt som hjälper kunderna att navigera effektivare i målgruppsbyggaren och för att lära sig hur de använder funktioner som kanske inte är kända. (TGT-44139)
 * Funktioner som förhindrar kunderna från att redigera en aktivitet som inaktiverats av [!DNL Target] eftersom det använder mätvärden som inte stöds. Ett meddelande i användargränssnittet uppmanar kunderna att duplicera aktiviteten och sedan uppdatera konverteringsmåttet.
 
-   Med den här versionen `averagetimespentonsite`, `bouncerate`och `entries` mätvärden i [!DNL Target] aktiviteter kommer att bli inaktuella för nya aktiviteter. Befintliga aktiviteter kan fortsätta att använda dessa mått fram till februari 2023. (TGT-43860, TGT-43861 och TGT-43650)
+   Med den här versionen `averagetimespentonsite`, `bouncerate`och `entries` mätvärden i [!DNL Target] aktiviteter kommer att bli inaktuella för nya aktiviteter. Befintliga aktiviteter kan fortsätta att använda dessa mått fram till maj 2023.
 
-* Ett verktygstips har lagts till i [!DNL Target] Användargränssnitt som hjälper kunderna att välja ett optimeringsvillkor när de skapar eller redigerar ett [!UICONTROL Auto-Target] aktivitet som använder A4T. (TGT-43713)
+* Ett verktygstips har lagts till i [!DNL Target] Användargränssnitt som hjälper kunderna att välja ett optimeringsvillkor när de skapar eller redigerar ett [!UICONTROL Auto-Target] aktivitet som använder A4T.
 
 ## Ytterligare versionsinformation
 

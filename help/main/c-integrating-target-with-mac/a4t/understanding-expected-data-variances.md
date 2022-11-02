@@ -4,9 +4,9 @@ description: Läs mer om de förväntade dataavvikelserna mellan Adobe [!DNL Tar
 title: Vad är den förväntade datavariansen mellan Analytics och A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Här följer några scenarier där du kan få en förväntad datavariation:
    Om ett omdirigeringstest har ställts in i Target för att dela upp trafik 50/50 (eller 25/25/25/25 och så vidare), är det inte säkert att användarbeteendet delas jämnt. Om du ser en ojämn delning betyder det bara att en grupp användare inte kunde genomföra ett Analytics-anrop på landningssidan mer än vad de andra grupperna gjorde. Det här misslyckandet med att köra Analytics-anropet för en grupp gjorde att Target-träffen för den användaren uteslöts, vilket skapade ojämnheten.
 
    Adobe hoppas kunna ta itu med denna fråga i framtiden när Adobe team arbetar mot A4T på Adobe Experience Platform. Adobe team avgör hur de olika händelserna ska hanteras vid olika tidpunkter på sidan.
-
-   >[!NOTE]
-   >
-   >Det finns ett känt fel som gör att ett begränsat antal kunder använder omdirigeringar med A4T för att se en högre procentandel av antalet träffar som inte sammanställts. Se [Kända problem och lösta problem](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Förväntad datavarians när *använder inte* A4T {#expected-not-using-a4t}
 

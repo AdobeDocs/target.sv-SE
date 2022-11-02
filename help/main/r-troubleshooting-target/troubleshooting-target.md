@@ -4,9 +4,9 @@ description: Granska en lista med ämnen som kan hjälpa dig att lösa problem i
 title: Hur felsöker jag Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -123,10 +123,6 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 * [Felsöka at.js med Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
 * [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam.
-
-## Kända fel
-
-* [Kända problem och lösta problem](/help/main/r-release-notes/known-issues-resolved-issues.md)
 
 ## Mobilappar
 
