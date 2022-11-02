@@ -4,9 +4,9 @@ description: Lär dig hur du använder rapporteringsgrupper i Adobe [!DNL Target
 title: Kan jag använda rapporteringsgrupper i Automated Personalization-aktiviteter?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 >
 >Om ett erbjudande tas bort eller ersätts från en viss modellgrupp tas även den historiska trafik som såg det erbjudandet bort från modellgruppen. Borttagna erbjudanden bidrar med andra ord inte till vilka data som används för [!DNL Target] personaliseringsmodeller att lära sig.
 
-**Så här ställer du in rapporteringsgrupper:**
+## Ställ in rapporteringsgrupper
 
 1. På **[!UICONTROL Experiences]** sidan för en AP-aktivitet klickar du på **[!UICONTROL Manage Content]** ikon.
 
@@ -52,3 +52,17 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
    Om du vill skapa en ny rapporteringsgrupp att tilldela det valda erbjudandet till väljer du **[!UICONTROL New]**, namnge den nya rapporteringsgruppen och klicka sedan på **[!UICONTROL Apply]**.
 
    ![Ny ikon för att skapa en ny rapporteringsgrupp](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## Visa erbjudanden i en rapporteringsgrupp
+
+1. Klicka **[!UICONTROL Activities]** klickar du på [!UICONTROL Automated Personalization] från listan och klicka sedan på **[!UICONTROL Reports]** för att visa [Erbjudandenivå](/help/main/c-reports/personalization-reports/reports-ap.md) rapport.
+
+   Om du har många aktiviteter kan du filtrera listan genom att välja [!UICONTROL Automated Personalization] från [!UICONTROL Type] nedrullningsbar lista.
+
+1. Klicka **[!UICONTROL Control]** eller **[!UICONTROL Targeted]** i tabellen för att visa ogrupperade erbjudanden och erbjudanden inuti rapporteringsgrupper.
+
+   ![Erbjudandegrupper: Kontroll och målinriktning](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+Mer information om hur du använder [!UICONTROL Automated Personalization] rapporter (inklusive [!UICONTROL Offer Level] rapport), se [Automated Personalization Sammanfattningsrapporter](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+

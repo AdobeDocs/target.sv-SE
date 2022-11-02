@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar sammanfattningsrapporten för Automated Pers
 title: Hur använder jag Automated Personalization Sammanfattningsrapporter?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ Klicka på upplevelsealgoritmen (Slumpmässig skog eller kontroll) för att visa
 
 ![Erbjudandenivårapport i Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-Erbjudandena kan visas i rapportgrupper och dessa kan komprimeras och utökas. Välj [!UICONTROL Reporting Group] i listrutan för att visa sammanställd information per rapporteringsgrupp, i stället för efter erbjudanden.
-
 >[!NOTE]
 >
->Klockikonen indikerar att algoritmmodellen fortfarande byggs. Kryssmarkeringsikonen anger att basalgoritmen har upprättats.
+>En klockikon anger att algoritmmodellen fortfarande byggs. En bockmarkeringsikon anger att basalgoritmen har upprättats.
+
+Erbjudandena kan visas inom [rapporteringsgrupper](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)och dessa rapporteringsgrupper kan komprimeras och utökas. Klicka **[!UICONTROL Control]** eller **[!UICONTROL Targeted]** i tabellen för att visa sammanställd information efter rapporteringsgrupper, i stället för efter erbjudanden.
 
 ## Automatiska segment
 
