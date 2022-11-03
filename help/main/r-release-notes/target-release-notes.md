@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Den här versionen innehåller följande nya funktioner, förbättringar och kor
 
 | Funktion | Detaljer |
 | --- | --- |
-| [!DNL Recommendations] | Egna namn har lagts till i [!UICONTROL Analytics for Target] A4T-rapportering. Tidigare [!DNL Target] visas endast med upplevelse-ID:n. Den här förbättringen justerar rapporteringen mellan [!DNL Adobe Analytics] och [!DNL Target] och hjälper kunderna att effektivisera arbetet med att skapa rapporter i A4T. (TGT-41853) |
 | Optimerade A4T-värden för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]<br>(Tillgängligt för utvalda kunder för testning. Kommer att vara tillgänglig för alla kunder i en framtida version.) | Tänk på följande ändringar:<ul><li>Stöd för binära värden och maximeringsvärden i [!UICONTROL Analytics for Target] A4T-rapportering för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet</li><li>Bevarat beteende för befintliga aktiviteter fram till februari 2023. Efter detta datum kommer aktiviteterna att avbrytas för att tvinga befintlig aktivitetsmigrering till nytt beteende</li><li>Från 20 februari 2023, stöd för `averagetimespentonsite`, `bouncerate`och `entries` mätvärden i [!DNL Target] aktiviteter kommer att bli inaktuella.</li></ul> |
 
 * Fler verktygstips i [!DNL Target] Användargränssnitt som hjälper kunderna att navigera effektivare i målgruppsbyggaren och för att lära sig hur de använder funktioner som kanske inte är kända. (TGT-44139)
