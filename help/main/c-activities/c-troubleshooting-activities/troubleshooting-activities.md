@@ -4,9 +4,9 @@ description: Hitta felsökningsförslag om din Adobe [!DNL Target] -aktiviteten 
 title: Hur felsöker jag aktiviteter?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -136,6 +136,6 @@ När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användar
 
 ## Efter aktivitetskonverteringen har besökaren ingen erfarenhet.
 
-Om aktivitetens konverteringsmått för att kvalificera sig för en upplevelse skickas i samma [!DNL Target] begär som aktivitetskvalificering kanske besökaren inte har någon erfarenhet efter att begäran har skickats. I det här fallet ser besökaren standardinnehåll. [!DNL Adobe] rekommenderar att aktivitetskonvertering och -kvalificering inte skickas i samma begäran.
+I sällsynta fall, om aktivitetens konverteringsmått för att kvalificera sig för en upplevelse skickas i samma begäran som en aktivitetskvalifikation, kanske besökaren inte har någon erfarenhet efter att begäran har skickats. I den här situationen ser besökaren att standardinnehålls- och upplevelse-ID som hämtas via tokens blir -1. [!DNL Adobe] rekommenderar inte att aktivitetskvalificering och konvertering skickas i samma [!DNL Target] begäran.
 
-Om du vill skicka båda inställningarna i samma begäran kan du använda [!UICONTROL Advanced Settings] för att ange att besökaren ska behålla samma upplevelse efter konverteringen.
+Om du vill skicka båda mätvärdena i samma begäran kan du använda [!UICONTROL Advanced Settings] för att ange att besökaren ska behålla samma upplevelse efter konverteringen.

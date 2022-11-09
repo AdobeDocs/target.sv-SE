@@ -5,7 +5,7 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
    * profilparametrar 50
    * profilparameternamn max längd 128
    * profilparametervärdet får inte vara null
-   * maxlängd för profilparametervärde 256
+   * maxlängd för profilparametervärde 5000
 
    **Slutpunkt för leverans-API**:
 
@@ -203,7 +203,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
    * profilparametrar 50
    * profilparameternamn max längd 128
    * profilparametervärdet får inte vara null
-   * maxlängd för profilparametervärde 256
+   * maxlängd för profilparametervärde 5000
 
 
 
