@@ -3,7 +3,7 @@ user-guide-title: Adobe Target Business Practitioner Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -134,6 +134,7 @@ ht-degree: 0%
       + [Förhandsgranska upplevelser för ett Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Automated Personalization erbjudanden](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Hantera undantag](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [Erbjud rapporteringsgrupper i Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Förhandsgranska Automated Personalization-aktiviteter med URL:er för förhandsgranskning av upplevelse](c-activities/t-automated-personalization/experience-preview.md)
@@ -261,7 +262,6 @@ ht-degree: 0%
    + Personaliseringsrapporter {#personalization-reports}
       + [Sammanfattningsrapport för automatiskt mål](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization Sammanfattningsrapporter](/help/main/c-reports/personalization-reports/reports-ap.md)
-      + [Erbjud rapporteringsgrupper i Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Rapport om personaliseringsinsikter {#insights}
       + [Översikt över personaliseringsinsikter](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport över automatiserade segment](c-reports/c-personalization-insights-reports/automated-segments-report.md)

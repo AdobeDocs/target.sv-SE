@@ -4,9 +4,9 @@ description: Lär dig hur du skickar anpassade parametrar till [!DNL Adobe Targe
 title: Kan jag rikta in besökare baserat på anpassade parametrar?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter, `mboxParamet
    * Om du kommer ihåg mbox-namnet, men inte parameternamnet, använder du [!UICONTROL Filter by] nedrullningsbar lista för att filtrera en känd ruta som skickar den önskade parametern.
 
    Om du använder någon av metoderna finns det ingen länk mellan mbox och parametern. Publiken arbetar baserat på parametern i alla mbox som skickar den parametern.
+
+   >[!NOTE]
+   >
+   >Den mbox du väljer i dialogrutan [!UICONTROL Filter By] nedrullningsbar lista sparas inte när aktiviteter skapas. Med det här alternativet kan du filtrera parametrarna baserat på den valda rutan.
 
    Om du redigerar en befintlig målgrupp visas filtervillkoren med namnet på mbox som angavs när målgruppen skapades.
 

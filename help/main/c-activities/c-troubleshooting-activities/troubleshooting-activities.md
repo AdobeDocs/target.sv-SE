@@ -4,9 +4,9 @@ description: Hitta felsökningsförslag om din Adobe [!DNL Target] -aktiviteten 
 title: Hur felsöker jag aktiviteter?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Följande avsnitt innehåller problem som du kan stöta på när du föreslår l
 
 ## Jag skapade en aktivitet med [!DNL Target] Gränssnittet och jag kan inte uppdatera det via API.
 
-Aktiviteter som skapas med målgränssnittet bör uppdateras via målgränssnittet. Aktiviteter som skapas via API ska uppdateras via API. Om du ursprungligen skapade en aktivitet med API, till exempel, men sedan redigerar aktiviteten via målgränssnittet, uppdateras inte alla ändringar. Alla ändringar lagras på serverdelen och kan uppdateras genom att du gör ett annat API-anrop.
+Aktiviteter som skapats med [!DNL Target] Gränssnittet bör uppdateras via [!DNL Target] Gränssnitt. Aktiviteter som skapas via API ska uppdateras via API. Om du ursprungligen skapade en aktivitet med API:t, till exempel, men sedan redigerar aktiviteten via [!DNL Target] Alla ändringar uppdateras inte. Alla ändringar lagras på serverdelen och kan uppdateras genom att du gör ett annat API-anrop.
 
 Det bästa är att försöka uppdatera aktiviteten med samma metod (UI eller API) som användes för att skapa aktiviteten från början.
 
 ## Du ser standardinnehåll.
 
-Kontrollera att aktiviteten är slutförd och att den har aktiverats.
+Se till att din aktivitet är slutförd och har aktiverats.
 
 ## Aktiviteten är inte aktiv.
 
-**Validera:** Gå till fliken Översikt och se om testet är markerat som inaktivt eller utkast.
+**Validera:** Gå till [!UICONTROL Overview] och se om testet är markerat som inaktivt eller utkast.
 
 **Alternativ:**
 
@@ -51,11 +51,11 @@ Kontrollera att aktiviteten är slutförd och att den har aktiverats.
 
 ## Sidan uppfyller inte villkoren för sidanpassning.
 
-**Validera:** På översiktssidan anger du om sidan ligger utanför målvillkoren.
+**Validera:** På [!UICONTROL Overview] bestämmer du om sidan ligger utanför målvillkoren.
 
 **Alternativ:**
 
-* Gå till Visual Experience Composer och klicka på URL\> Advanced\>current page.
+* Gå till [!UICONTROL Visual Experience Composer], klicka på URL > Avancerat > aktuell sida.
 
 ## En tidigare upplevelse visas i stället för den nya.
 
@@ -64,51 +64,50 @@ Kontrollera att aktiviteten är slutförd och att den har aktiverats.
 **Alternativ:**
 
 * Rensa cache och cookies och försök sedan igen.
-
 * Prova en annan webbläsare.
 * Använd läget Privat/Inkognito.
 
 ## Du har nyligen lagts till i [!DNL Target] men kan inte skapa aktiviteter.
 
-**Validera:** Klicka på Skapa aktivitet. Om alternativet inte är tillgängligt har du förmodligen inte fått tillräcklig behörighet för att skapa en aktivitet.
+**Validera:** Klicka [!UICONTROL Create Activity]. Om alternativet inte är tillgängligt har du förmodligen inte fått tillräcklig behörighet för att skapa en aktivitet.
 
 **Alternativ:**
 
-När du har lagts till som användare i Target måste du ha rollen Godkännare för att kunna skapa aktiviteter.
+När du har lagts till som användare i [!DNL Target]måste du ha [!UICONTROL Approver] roll för att skapa aktiviteter.
 
 * Be administratören för ditt konto att göra dig till godkännare.
-* Om du är administratör kan du ge dig själv rollen som godkännare från **[!UICONTROL Administration]** > **[!UICONTROL Users]** i Target.
+* Om du är administratör, ge dig själv [!UICONTROL Approver] roll från **[!UICONTROL Administration]** > **[!UICONTROL Users]** in [!DNL Target].
 
    Se [Tilldela dig själv rollen Godkännare](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Sidans struktur har ändrats sedan du konfigurerade aktiviteten.
 
-**Validera:** Gå till Visual Experience Composer för den befintliga aktiviteten. Leta efter ett varningsmeddelande som anger att väljarna (eller strukturen) har ändrats.
+**Validera:** Gå till [!UICONTROL Visual Experience Composer] för den befintliga aktiviteten. Leta efter ett varningsmeddelande som anger att väljarna (eller strukturen) har ändrats.
 
 **Alternativ:**
 
 * Återskapa aktiviteten.
 
-Mer information om hur sidändringar påverkar Target möjlighet att visa finns i [Scenarier för sidändring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Mer information om hur sidändringar påverkar [!DNL Target]kan visas, se [Scenarier för sidändring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Sidans struktur ändras under sidinläsning (vid körning).
 
 **Validera:** Fråga utvecklaren.
 
-**Obs!** För att Target ska kunna identifiera var aktivitetsändringar ska tillämpas bör du undvika att dynamiskt infoga element med samma klass eller dynamiskt ändra klassen för alla objekt på samma nivå.
+**Obs!** För att [!DNL Target] för att ta reda på var aktivitetsändringar ska tillämpas bör du undvika att dynamiskt infoga ett element med samma klass eller dynamiskt ändra klassen för alla objekt på samma nivå.
 
 **Alternativ:**
 
-* Uppdatera sidkoden så att varje element som ska testas identifieras unikt (med ett id).
+* Uppdatera sidkod så att varje element som testas identifieras unikt (med ett id).
 * Sluta dynamiskt ändra klassen eller jämställda objekt enligt beskrivningen ovan.
 
-Mer information om hur sidändringar påverkar Target möjlighet att visa finns i [Scenarier för sidändring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Mer information om hur sidändringar påverkar [!DNL Target]kan visas, se [Scenarier för sidändring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Andra aktiviteter körs på samma sida.
 
-**Validera:** Använd fliken Konflikter för att se om andra aktiviteter körs.
+**Validera:** Använd [!UICONTROL Collisions] för att se om andra aktiviteter körs.
 
-**Obs!** Fliken Konflikter fungerar inte med modulen Malltestning.
+**Obs!** The [!UICONTROL Collisions] Fliken fungerar inte med modulen Malltestning.
 
 **Alternativ:**
 
@@ -118,19 +117,25 @@ Mer information om hur sidändringar påverkar Target möjlighet att visa finns 
 
 ## Ett felmeddelande visas när du tar bort ett profilskript.
 
-**Validera:** Om du tar bort ett profilskript från Target Standard/Premium visas felmeddelandet&quot;Failed to delete profile script&quot;.
+**Validera:** Ta bort ett profilskript från [!DNL Target] I visas felmeddelandet&quot;Det gick inte att ta bort profilskriptet&quot;.
 
 **Alternativ:**
 
 Gör något av följande:
 
-* Ta bort igen. Meddelandet om att åtgärden lyckades visas.
-* Vänta i ungefär 10 minuter innan Target Standard-/Premium-importeraren körs. Importverktyget uppdaterar profillistan med skript.
+* Ta bort profilskriptet igen. Meddelandet om att åtgärden lyckades visas.
+* Vänta i ungefär 10 minuter med [!DNL Target] importfunktion. Importverktyget uppdaterar profillistan med skript.
 
 ## Lite ajax [!DNL Target] samtal fungerar inte.
 
-**Obs!** Flera ajax [!DNL Target] anrop med samma namn men olika parametrar fungerar inte på samma sida. Endast den första samtalet kommer att göras.
+**Obs!** Flera ajax [!DNL Target] anrop med samma namn men olika parametrar fungerar inte på samma sida. Endast första anropet görs.
 
 ## Du har aktiverat en aktivitet med [!DNL Target] API, men aktiviteten visar status för [!UICONTROL Inactive] i [!DNL Target] Gränssnitt.
 
-När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användargränssnittet med Target-API:t, kan det ta upp till tio minuter att uppdatera gränssnittet.
+När du utför vissa åtgärder, t.ex. aktiverar en aktivitet utanför användargränssnittet, med [!DNL Target] API: uppdateringen kan ta upp till tio minuter att sprida till användargränssnittet.
+
+## Efter aktivitetskonverteringen har besökaren ingen erfarenhet.
+
+Om aktivitetens konverteringsmått för att kvalificera sig för en upplevelse skickas i samma [!DNL Target] begär som aktivitetskvalificering kanske besökaren inte har någon erfarenhet efter att begäran har skickats. I det här fallet ser besökaren standardinnehåll. [!DNL Adobe] rekommenderar att aktivitetskonvertering och -kvalificering inte skickas i samma begäran.
+
+Om du vill skicka båda inställningarna i samma begäran kan du använda [!UICONTROL Advanced Settings] för att ange att besökaren ska behålla samma upplevelse efter konverteringen.

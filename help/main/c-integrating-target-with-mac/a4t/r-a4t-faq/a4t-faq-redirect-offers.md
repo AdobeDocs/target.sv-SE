@@ -4,9 +4,9 @@ description: Hitta svar på frågor om att använda omdirigeringserbjudanden nä
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Följande frågesträngsparametrar är associerade med omdirigeringserbjudanden:
 
 | Parameter | Beskrivning |
 |--- |--- |
-| `adobe_mc_sdid` | The `adobe_mc_sdid` parametern skickar SDID (Supplemental Data Id) och Experience Cloud Org Id från standardsidan till den nya sidan. Med dessa ID:n kan A4T&quot;sy ihop&quot; Target-begäran på standardsidan med Analytics-begäran på den nya sidan. |
+| `adobe_mc_sdid` | The `adobe_mc_sdid` parametern skickar SDID (Supplemental Data Id) och Experience Cloud Org Id från standardsidan till den nya sidan. Med dessa ID:n kan A4T&quot;sy ihop&quot; Target-begäran på standardsidan med Analytics-begäran på den nya sidan.<br>Det förväntade formatet som skickas i URL:en (för hybridappar eller från en app till webbplatsen eller en webbplats till en annan) är `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | The `adobe_mc_ref` parametern skickar den refererande URL-adressen för standardsidan till den nya sidan. När Analytics används med AppMeasurement.js version 2.1 (eller senare) används det här parametervärdet som den refererande URL:en på den nya sidan. |
 
 Parametrarna läggs automatiskt till i omdirigerings-URL:erna när de inbyggda omdirigeringserbjudandena i VEC och formulärbaserad Experience Composer används när besökar-ID-tjänsten implementeras på sidan. Om du använder din egen anpassade omdirigeringskod i VEC eller formulärbaserad disposition måste du se till att skicka de här parametrarna med din anpassade kod.

@@ -4,7 +4,7 @@ description: Lär dig hur du skapar en [!UICONTROL Automated Personalization] (A
 title: Hur skapar jag en [!UICONTROL Automated Personalization] Aktivitet?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -88,7 +88,7 @@ The [!UICONTROL Automated Personalization] (AP) aktivitetsarbetsflöde i [!DNL A
 
 1. (Villkorligt) Klicka **[!UICONTROL Offers]** för att markera delar av innehållet och tilldela dem till rapporteringsgrupper eller bara tillåta vissa besökare att se vissa erbjudanden med målinriktning.
 
-   Mer information om rapportgrupper finns i [Erbjud rapportgrupper i Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   Mer information om rapportgrupper finns i [Erbjud rapportgrupper i Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. (Villkorligt) Klicka **[!UICONTROL Exclusion Groups]** om du vill välja en kombination av element som du vill utesluta från aktiviteten.
 

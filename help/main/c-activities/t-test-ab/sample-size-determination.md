@@ -4,9 +4,9 @@ description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test 
 title: Hur länge ska jag köra ett A/B-test?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '3064'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Det är viktigt att fastställa en lämplig provstorlek (antal besökare) innan 
 
 Detta kan leda till många falskt positiva resultat, vilket leder till implementering av erbjudanden som inte i slutänden ger den förväntade höjningen. Dålig lyft i sig är ett otillfredsställande resultat, men en ännu allvarligare följd är att oförmågan att med tiden förutsäga lyft urholkar organisationens förtroende för testning som en metod.
 
-I den här artikeln beskrivs de faktorer som måste balanseras när en samplingsstorlek har bestämts, och en kalkylbladskalkylator som används för att beräkna en lämplig samplingsstorlek introduceras. Genom att beräkna provstorleken med hjälp av beräkningsverktyget för provstorlek (länken ovan) innan ett A/B-test börjar, säkerställs att du alltid kör högkvalitativa A/B-tester som uppfyller statistiska standarder.
+I den här artikeln beskrivs de faktorer som måste balanseras när en samplingsstorlek har bestämts, och här finns en beräkningsfunktion för att beräkna en lämplig samplingsstorlek. Genom att beräkna provstorleken med hjälp av beräkningsverktyget för provstorlek (länken ovan) innan ett A/B-test börjar, säkerställs att du alltid kör högkvalitativa A/B-tester som uppfyller statistiska standarder.
 
 Det finns fem användardefinierade parametrar som definierar ett A/B-test. Dessa parametrar är sammanlänkade så att när fyra av dem är fastställda kan den femte beräknas:
 
@@ -58,6 +58,11 @@ Det finns fem användardefinierade parametrar som definierar ett A/B-test. Dessa
 * Påvisbar minimihiss
 * Baslinjekonvertering
 * Antal besökare
+
+>[!IMPORTANT]
+>
+>För att få korrekta resultat måste du läsa in sidan igen innan du ändrar parameternummer.
+
 
 För ett A/B-test fastställs analytikern av den statistiska signifikansen, statistisk styrka, minsta tillförlitliga lyft som kan detekteras och baslinjekonverteringsgraden, och därefter beräknas det antal besökare som krävs utifrån dessa värden. I den här artikeln beskrivs dessa element och riktlinjer för hur du fastställer dessa mått för ett specifikt test.
 

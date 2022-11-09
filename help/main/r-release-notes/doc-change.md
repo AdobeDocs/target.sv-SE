@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,11 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 8 november | [Hur länge ska du köra ett A/B-test?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Viktigt att notera att du måste läsa in sidan igen innan du ändrar parameternummer i dialogrutan för att få korrekta resultat [!DNL Adobe Target] [!UICONTROL Sample Size Calculator]. Lägg även till en anteckning i den faktiska [kalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}. |
+|  | [Omdirigeringserbjudanden - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Beskrivningen för `adobe_mc_sdid` i tabellen. |
+|  | [Felsökningsaktiviteter](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Nytt avsnitt har lagts till: &quot;Efter aktivitetskonverteringen har besökaren ingen erfarenhet.&quot; |
+|  | [Egna parametrar](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Observera att rutan du väljer i dialogrutan [!UICONTROL Filter By] nedrullningsbar lista sparas inte när aktiviteter skapas. Med det här alternativet kan du filtrera parametrarna baserat på den valda rutan. |
+|  | [Målgrupper](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | Profilparametervärdets maxlängd har korrigerats. Begränsningen är 256 tecken. |
 | 2 november | Kända problem och lösta problem | Sidan har tagits bort och relevanta problem har flyttats till rätt sidor så att informationen är i sitt sammanhang. |
 | 25 oktober | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.10.3-utgåvan. |
 | 19 oktober | [Kategoritillhörighet](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | En anteckning som förklarar poängsättningen när flera kategorier skickas inom ett enskilt mbox-anrop har lagts till. |
