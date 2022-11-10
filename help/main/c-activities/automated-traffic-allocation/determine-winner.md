@@ -4,9 +4,9 @@ description: Lär dig hur du tolkar resultatet av en automatisk fördelning av A
 title: Hur tolkar jag autofördelade rapporter?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Normala A/B-tester beräknar tillförlitlighet baserat på p-värden. Autoalloke
 
 >[!IMPORTANT]
 >
->Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara på resultatet av Adobe Target [exempelstorlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). Målet beaktar inte den grundläggande konverteringsgraden för en plats och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target visar en vinnare efter ett fördefinierat minsta antal konverteringar. Men det slutliga beslutet att välja vinnare bör alltid vara baserat på resultatet av [!DNL Adobe Target] Beräkna samplingsstorlek. [!DNL Target] tar inte hänsyn till en områdes grundläggande konverteringsgrad och andra viktiga aspekter som matas in i beräknaren för att fastställa aktivitetens varaktighet. Det innebär att Target kan visa en vinnare som är tidigare än vad som krävs på grundval av ett minsta antal konverteringar. Mer information finns i [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Förstå Lyft- och förtroenderapportering i Automatisk allokering av aktiviteter {#lift-confidence}
 
@@ -75,7 +75,8 @@ En av följande orsaker beskriver varför 0 % visas i rapportens [!UICONTROL Con
 
    Autoallokering visar sannolikheten för att en viss upplevelse ska bli en riktig vinnare för alla upplevelser i aktiviteten. Detta innebär att endast en vinnande upplevelse (som troligtvis kommer att vara vinnaren) kommer att ha ett värde som inte är noll. Alla andra är mest benägna att vara förlorare och kommer att visa 0 %.
 
-* Automatisk allokering börjar visa självförtroende först efter att den vinnande upplevelsen fått 60 % självförtroende. Dessa konfidensnivåer uppträder vanligtvis på ungefär hälften så lång tid som ett normalt A/B-test skulle ta att slutföra (även om detta inte garanteras). För att avgöra hur länge ett normalt A/B-test skulle köras, använd en [exempelstorlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): plug-controls konverteringsgrad i &quot;Baseline conversion rate&quot;, &quot;5%&quot; för &quot;Lift&quot; och 95% för &quot;Confidence&quot;. Normalt börjar förtroendet visa sig efter att varje upplevelse har fyllt 50 % av det antal samplingar som krävs per upplevelse. Då får du en uppfattning om när självförtroende kommer att börja uppstå.
+* Automatisk allokering börjar visa självförtroende först efter att den vinnande upplevelsen fått 60 % självförtroende. Dessa konfidensnivåer uppträder vanligtvis på ungefär hälften så lång tid som ett normalt A/B-test skulle ta att slutföra (även om detta inte garanteras). Använd [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6): plug-controls konverteringsgrad i &quot;Baseline conversion rate&quot;, &quot;5%&quot; för &quot;Lift&quot; och 95% för &quot;Confidence&quot;. Normalt börjar förtroendet visa sig efter att varje upplevelse har fyllt 50 % av det antal samplingar som krävs per upplevelse. Då får du en uppfattning om när självförtroende kommer att börja uppstå.
+
 * Om rapporten visar 0 procent över hela linjen är det sannolikt för tidigt i verksamheten.
 
 ### Finns brickorna &quot;Ingen vinnare&quot;, &quot;vinnare&quot; och &quot;stjärna&quot; för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics as the reporting source] (A4T)?

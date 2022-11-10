@@ -4,18 +4,18 @@ description: Låt oss komma igång med din första aktivitet i Adobe [!DNL Targe
 title: Jag måste skapa min första aktivitet i Target. Var ska jag börja?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
 
 # Kapitel 7: Skapa och kör din första [!DNL Target] aktivitet
 
-Så du är redo att komma igång med din första aktivitet i [!DNL Target]? Underbar. Låt oss komma på en aktivitet för er webbplats, mobilsajt eller mobilapp som inte är alltför komplex, men som ger snabb avkastning och som gör att ni blir entusiastiska över potentialen med att använda [!DNL Target] att testa och personalisera. Beroende på din organisation och dess fokus kan du överväga att gå någon av tre olika vägar med den första aktiviteten.
+Så du är redo att komma igång med din första aktivitet i [!DNL Target]? Underbar. Låt oss komma på en aktivitet för er webbplats, mobilsajt eller mobilapp som inte är alltför komplex, men som kan ge snabb avkastning och hjälpa er att inse potentialen med att använda [!DNL Target] att testa och personalisera. Beroende på din organisation och dess fokus kan du överväga att gå någon av tre olika vägar med den första aktiviteten.
 
-Men nyckeln till din första aktivitet är att skapa en baslinje för de affärsmått du försöker förbättra - intäkter, klickfrekvens, formulärinskickning, slutförda registreringar och så vidare. I ett A/B-test kan du ofta använda den aktuella upplevelsen eller erbjudandet som en&quot;kontroll&quot; och mäta effekten av en variant av den upplevelsen eller erbjudandet mot den. Med de flesta personaliseringsaktiviteter skulle ni helst kunna avgöra hur den aktuella upplevelsen fungerar innan ni startar en personaliserad version av den. På så sätt kan ni mäta effekten av personalisering.
+Men nyckeln till din första aktivitet är att skapa en baslinje för de affärsmått du försöker förbättra - intäkter, klickfrekvens, formulärinskickning, slutförda registreringar och så vidare. I ett A/B-test kan du ofta använda den aktuella upplevelsen eller erbjudandet som en&quot;kontroll&quot; och mäta effekten av en variant av den upplevelsen eller erbjudandet mot den. Med de flesta personaliseringsaktiviteter skulle du helst kunna avgöra hur den aktuella upplevelsen fungerar innan du startar en personaliserad version av den. På så sätt kan ni mäta effekten av personalisering.
 
 ## Flöde 1: A/B-testning av all besökstrafik
 
@@ -51,7 +51,7 @@ När ni kommer på idén med testning bör ni tänka på att ni borde kunna för
 
 ## Planera din aktivitet med aktivitetsplaneraren
 
-Vi har tagit med [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) som en fristående PDF som du kan spara och använda om och om igen. Klicka på länken för att visa filen PDF. Högerklicka för att hämta PDF-filen.
+Vi har inkluderat [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) som en fristående PDF som du kan spara och använda om och om igen. Klicka på länken om du vill visa filen PDF. Högerklicka för att hämta PDF-filen.
 
 För att kunna utföra en effektiv aktivitet måste du fylla i varje område i planeringsområdet. Använd det här verktyget när du och andra brainstormar idéer för testning och personalisering.
 
@@ -91,7 +91,7 @@ Om din aktivitet kräver assistent till en designer, webbutvecklare eller dataan
 
 Du behöver ett visst antal besökare för att kunna dra en statistiskt signifikant slutsats av testet. Om bara två personer deltar i ditt test, kommer du att känna dig säker på resultatet?
 
-[!DNL Target] använder statistiska principer för att fastställa resultaten av ett test som är statistiskt giltiga. Adobe [exempelstorlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) hjälper dig att avgöra hur lång tid det tar att köra ett test baserat på den säkerhet du behöver för dina resultat. Klicka på [!UICONTROL Learn More] i den här rutan för att öppna och använda kalkylatorn.
+[!DNL Target] använder statistiska principer för att fastställa resultaten av ett test som är statistiskt giltiga. The [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hjälper dig att avgöra hur lång tid det tar att köra ett test baserat på den säkerhet du behöver för dina resultat. Klicka på [!UICONTROL Learn More] i den här rutan för att öppna och använda kalkylatorn.
 
 ### Hur viktig är den här aktiviteten?
 
@@ -107,4 +107,4 @@ Dina aktivitetsresultat ger ofta insikter i vilka åtgärder du bör vidta härn
 
 ## Öppna [!DNL Target] och skapa och starta din aktivitet
 
-Du har fyllt i din aktivitetsplanerare. Nu är det dags att sätta sig in i lösningen och skapa din aktivitet. [!DNL Target] gör det superenkelt att ändra webbsidan i [!UICONTROL Visual Experience Composer].
+Du har fyllt i din aktivitetsplanerare. Nu är det dags att sätta sig in i lösningen och bygga upp din aktivitet. [!DNL Target] gör det superenkelt att ändra webbsidan i [!UICONTROL Visual Experience Composer].

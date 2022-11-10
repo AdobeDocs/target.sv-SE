@@ -4,16 +4,16 @@ description: Läs tips från vår expertpanel om hur du använder Adobe [!DNL Ta
 title: Var hittar jag tips och tricks för att använda Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2899'
 ht-degree: 0%
 
 ---
 
 # Kapitel 4: Tips för att använda Target
 
-Baserat på vårt arbete med många [!DNL Target] har vi observerat sätt att få ut mer av dina [!DNL Target] lösning. Vi har sammanställt alla de tips vi har tagit med i det här kapitlet. Även om du inte är redo att använda alla dessa idéer med en gång, så håll fast vid den här listan. Ju mer du får en upplevelse av lösningen och ju mer programmet mognar desto mer får du se hur dessa tips kan hjälpa dig att uppnå mer med [!DNL Target].
+Baserat på vårt arbete med många [!DNL Target] har vi sett hur du kan få ut mer av dina [!DNL Target] lösning. Vi har sammanställt de i de många tipsen som vi har tagit med i det här kapitlet. Även om du inte är redo att använda alla dessa idéer med en gång, så håll fast vid den här listan. Ju mer man får med lösningen och ju mer programmet mognar desto mer får man se hur dessa tips kan hjälpa er att uppnå mer med [!DNL Target].
 
 ## Tips 1: Öka personaliseringen genom att utöka besökarprofilen med ytterligare data.
 
@@ -59,7 +59,7 @@ När du skapar målgrupper för målinriktning eller testning av kampanjer och e
 
 ## Tips 5: Ge användarna den åtkomstnivå de behöver för att kunna utföra sitt jobb.
 
-Gör det enkelt att arbeta med organisationens data samtidigt som de är säkra. [!DNL Target Premium] ger administratörer möjlighet att styra åtkomstnivån för olika interna och externa team.
+Gör det enkelt att arbeta med företagets data samtidigt som de är säkra. [!DNL Target Premium] ger administratörer möjlighet att styra åtkomstnivån för olika interna och externa team.
 
 Se [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) för mer information.
 
@@ -109,11 +109,11 @@ Många marknadsförare lanserar optimeringsprogram för målgruppssegmentering o
 * Vilken konverteringsgrad har sidan?
 * Hur länge tror du att du behöver köra testet innan du kan kalla det fullständigt?
 
-**Användbar tips**: Använd målet [exempelstorlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) för att avgöra vilken provstorlek som krävs för ett lyckat test.
+**Användbar tips**: Använd [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för att avgöra vilken provstorlek som krävs för ett lyckat test.
 
 ## Tips 12: Utforma enklare tester för att vara säker på att du kan skapa och implementera dem.
 
-Efter att ha övervägt alla aspekter av hur du utformar ett test kan en plan bli mycket komplex. Baserat på var ert företag är med testning och er grupps förmåga att utforma, koda, genomföra och analysera resultaten, kan ni avgöra om testet verkar för ambitiöst. Om så är fallet, var beredd att minska dess omfattning och komplexitet. Bättre att börja litet än att inte göra testet alls. Du kan inte ge en slagkraftig lyft om du aldrig startar testet. Det är viktigt att balansera teamets ambitioner med realiteterna i era resurser och förmågor.
+Efter att ha övervägt alla aspekter av hur du utformar ett test kan en plan bli mycket komplex. Baserat på var ert företag ligger med testning, och er grupps förmåga att utforma, koda, genomföra och analysera resultaten, kan ni avgöra om testet verkar för ambitiöst. Om så är fallet, var beredd att minska dess omfattning och komplexitet. Bättre att börja litet än att inte göra testet alls. Man kan inte ge en slagkraftig lyft om man aldrig startar testet. Det är viktigt att balansera teamets ambitioner med realiteterna i era resurser och förmågor.
 
 ## Tips 13: Dela upp komplexa tester i mindre testaktiviteter så att de blir möjliga att genomföra.
 
@@ -129,7 +129,7 @@ Testning så nära sidan där besökarna klickar på Complete Purchase, Submit A
 
 ## Tips 15: Uppdatera testerna kontinuerligt och gör iterativa förbättringar.
 
-Om din hypotes inte visar sig vara sann, tänk på sätt att förbättra testet. Tänk på att även om ingen av de testade upplevelserna fungerade bättre så var ditt experiment inte slöseri med tid. Ett lyckat test innebär inte alltid en ökning av intäkter eller konverteringar. Om testet faktiskt stödde er hypotes är ni på väg att utveckla en allmän teori. Men även om ni får ett tydligt vinnande resultat, sluta där. Alltför ofta gör marknadsförarna misstaget att testa en gång och sedan satsa på resultaten utan att förstå vad som ledde till framgången. I stället kan du iterera på dessa resultat för att ta reda på varför den främre körningsdelen var i framkanten. Detta kommer att leda till djupare insikter som ni kan använda i framtida kampanjer.
+Om din hypotes inte visar sig vara sann, tänk på sätt att förbättra testet. Tänk på att även om ingen av de testade upplevelserna fungerade bättre så var ditt experiment inte slöseri med tid. Ett lyckat test innebär inte alltid en ökning av intäkter eller konverteringar. Om testet faktiskt stöttade din hypotes är du på väg att utveckla en allmän teori. Men även om du har ett tydligt vinnande resultat, sluta inte där. Alltför ofta gör marknadsförarna misstaget att testa en gång och sedan satsa på resultaten utan att förstå vad som ledde till framgången. I stället kan du iterera på dessa resultat för att ta reda på varför den främre körningsdelen var i framkanten. Detta kommer att leda till djupare insikter som ni kan använda i framtida kampanjer.
 
 ## Tips 16: Jämför tester och personaliseringsaktiviteter för idéer för att förbättra målinriktningen.
 

@@ -4,9 +4,9 @@ description: Lär dig hur du använder en autoallokeringsaktivitet i Adobe [!DNL
 title: Vad är en automatiskt fördelad aktivitet?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3458'
+source-wordcount: '3453'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,10 @@ För närvarande gynnar logiken besökare som snabbt konverterar eller besöker 
 
 ### Kan jag använda beräkningsverktyget för provstorlek när jag använder [!UICONTROL Auto-Allocate] för att uppskatta hur lång tid det tar att identifiera vinnaren?
 
-Du kan använda den befintliga [exempelstorlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) för att få en uppskattning av hur länge testet körs. (Precis som vid traditionell A/B-testning ska du tillämpa Bonferroni-korrigering om du testar fler än två erbjudanden eller mer än ett konverteringsmått/-hypotes.) Den här räknaren är utformad för traditionell A/B-testning med fast horisont och ger endast en uppskattning. Använda kalkylatorn för en [!UICONTROL Auto-Allocate] aktiviteten är valfri eftersom [!UICONTROL Auto-Allocate] förklarar en vinnare för dig. Du behöver inte välja en fast tidpunkt för att se på testresultaten. De angivna värdena är alltid statistiskt giltiga. I våra experiment har vi hittat följande:
+Du kan använda den befintliga [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för att få en uppskattning av hur länge testet körs. (Precis som vid traditionell A/B-testning ska du tillämpa Bonferroni-korrigering om du testar fler än två erbjudanden eller mer än ett konverteringsmått/-hypotes.) Den här räknaren är utformad för traditionell A/B-testning med fast horisont och ger endast en uppskattning. Använda kalkylatorn för en [!UICONTROL Auto-Allocate] aktiviteten är valfri eftersom [!UICONTROL Auto-Allocate] förklarar en vinnare för dig. Du behöver inte välja en fast tidpunkt för att se på testresultaten. De angivna värdena är alltid statistiskt giltiga.
+
+I våra experiment har vi hittat följande:
+
 * När du testar exakt två upplevelser [!UICONTROL Auto-Allocate] hittar en vinnare snabbare än en testning med fast horisont (d.v.s. den tidsram som anges av beräknaren för samplingsstorlek) när prestandaskillnaden mellan upplevelserna är stor. Men [!UICONTROL Auto-Allocate] kan kräva extra tid för att identifiera en vinnare när skillnaden mellan upplevelserna är liten. I dessa fall skulle tester med fast horisont normalt ha avslutats utan ett statistiskt signifikant resultat.
 * När du testar mer än två upplevelser, [!UICONTROL Auto-Allocate] hittar en vinnare snabbare än en testning med fast horisont (dvs. den tidsram som anges av beräknaren för provstorlek) när en upplevelse är helt perfekt för alla andra upplevelser. När två eller flera upplevelser både&quot;vinner&quot; mot andra upplevelser men är nära sammankopplade med varandra, [!UICONTROL Auto-Allocate] kan kräva extra tid för att avgöra vilken som är överlägsen. I dessa fall skulle tester med fast horisont normalt ha avslutats genom att dra slutsatsen att de&quot;vinnande&quot; upplevelserna var bättre än de lågpresterande upplevelserna, men inte ha identifierat vilken som var bäst.
 

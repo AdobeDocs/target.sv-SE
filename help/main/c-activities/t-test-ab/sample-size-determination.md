@@ -4,9 +4,9 @@ description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test 
 title: Hur länge ska jag köra ett A/B-test?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3067'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Mer information finns i [Automatisk allokering - översikt](/help/main/c-activit
 
 Om du väljer att använda en handbok [!UICONTROL A/B Test] aktivitet i stället för [!UICONTROL Auto-Allocate], [!DNL Target] Beräkna samplingsstorlek hjälper dig att avgöra vilken provstorlek som krävs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är användbart. Använda kalkylatorn för en [!UICONTROL Auto-Allocate] aktiviteten är valfri eftersom [!UICONTROL Auto-Allocate] förklarar en vinnare för dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
 
-Gå till Adobe Target innan du konfigurerar A/B-testet [exempelstorlekskalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
+Innan du konfigurerar A/B-testet kan du gå till [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Beräkna exempelstorlek för Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ Det finns fem användardefinierade parametrar som definierar ett A/B-test. Dessa
 
 >[!IMPORTANT]
 >
->För att få korrekta resultat måste du läsa in sidan igen innan du ändrar parameternummer.
-
+>För att få korrekta resultat måste du läsa in sidan igen innan du ändrar parameternummer. Upprepa den här processen varje gång du ändrar några parameternummer.
 
 För ett A/B-test fastställs analytikern av den statistiska signifikansen, statistisk styrka, minsta tillförlitliga lyft som kan detekteras och baslinjekonverteringsgraden, och därefter beräknas det antal besökare som krävs utifrån dessa värden. I den här artikeln beskrivs dessa element och riktlinjer för hur du fastställer dessa mått för ett specifikt test.
 
