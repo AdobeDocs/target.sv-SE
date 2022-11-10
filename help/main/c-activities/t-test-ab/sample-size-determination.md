@@ -4,9 +4,9 @@ description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test 
 title: Hur länge ska jag köra ett A/B-test?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
+source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
 workflow-type: tm+mt
-source-wordcount: '3067'
+source-wordcount: '3072'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Om du väljer att använda en handbok [!UICONTROL A/B Test] aktivitet i stället
 
 Innan du konfigurerar A/B-testet kan du gå till [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-![Beräkna exempelstorlek för Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Beräkna exempelstorlek för Adobe Target](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
 
 Det är viktigt att fastställa en lämplig provstorlek (antal besökare) innan man gör ett A/B-test för att fastställa den tid som aktiviteten ska köras innan resultaten utvärderas. Genom att helt enkelt övervaka aktiviteten tills statistisk signifikans uppnås, underskattas konfidensintervallet avsevärt, vilket gör testet otillförlitligt. Det intuitiva bakom detta resultat är att om ett statistiskt signifikant resultat påträffas stoppas testet och en vinnare deklareras. Om resultatet inte är statistiskt signifikant får testet dock fortsätta. Detta förfarande gynnar starkt det positiva resultatet, vilket ökar den falskt positiva frekvensen och därmed förvränger testets effektiva signifikansnivå.
 
