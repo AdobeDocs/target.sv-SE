@@ -1,12 +1,12 @@
 ---
 keywords: variabler;profiler;parametrar;inbyggda profiler;metoder;url-variabler;geoprofiler;tredjepartsprofiler;mbox-variabler;kampanjvariabler;kundattribut
 description: Visa en lista med olika profiler, variabler och parametrar som är användbara i profilskript i Adobe Target.
-title: Vilka profiler, variabler och parametrar används i målet?
+title: Vilka profiler, variabler och parametrar som används i [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
+source-git-commit: dfb718d2ba0395e76c09234f7ccb69a69f1b976c
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,8 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | user.header(&#39;accept&#39;) | Besökarspråk och teckenkodning |
 | user.header(&#39;connection&#39;) | Serveranslutning. Till exempel: keep-live |
 | user.header(&#39;referrer&#39;) | Webbplats-URL för besökarens aktuella sida. Fungerar inte för Internet Explorer. |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.getLocal(&#39;param_name&#39;); | Hämta värdet som du angett med `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Skapa beständiga profilvärden i ett profilskript. Dessa värden behålls på samma sätt som ett profilskript, men du har bara åtkomst till det i skriptet som det angavs. |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Beständiga profilattribut som har skapats från profilskript. Refererar också till&quot;systemprofiler&quot; som geopositionering, besöksantal osv. |
 | profile.get(&#39;param_name&#39;) | Det rätta sättet att få en profilparameter att använda i ett profilskript är metoden profile.get(&#39;param_name&#39;). |
