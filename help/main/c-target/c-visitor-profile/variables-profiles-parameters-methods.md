@@ -4,9 +4,9 @@ description: Visa en lista med olika profiler, variabler och parametrar som är 
 title: Vilka profiler, variabler och parametrar används i målet?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | user.header(&#39;connection&#39;) | Serveranslutning. Till exempel: keep-live |
 | user.header(&#39;referrer&#39;) | Webbplats-URL för besökarens aktuella sida. Fungerar inte för Internet Explorer. |
 | user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Beständiga profilattribut som har skapats från profilskript. Refererar också till&quot;systemprofiler&quot; som geopositionering, besöksantal osv. |
 | profile.get(&#39;param_name&#39;) | Det rätta sättet att få en profilparameter att använda i ett profilskript är metoden profile.get(&#39;param_name&#39;). |
