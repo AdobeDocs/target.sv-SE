@@ -4,14 +4,14 @@ description: Lär dig hur en Automatisk målaktivitet i [!DNL Target] levererar 
 title: Vad är en aktivitet med automål?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Översikt över Automatiskt mål
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Auto-Target] översikt
 
 [!UICONTROL Auto-Target] verksamhet i [!DNL Adobe Target] använda avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser för att personalisera innehåll och driva konverteringar. Auto-Target levererar den mest skräddarsydda upplevelsen till varje besökare baserat på den enskilda kundprofilen och beteendet hos tidigare besökare med liknande profiler.
 
@@ -46,7 +46,7 @@ Till skillnad från en A/B-aktivitet där upplevelseallokeringen för en viss be
 Det finns ett antal viktiga saker att tänka på när du använder [!UICONTROL Auto-Target]:
 
 * Du kan inte växla en specifik aktivitet från [!UICONTROL Auto-Target] till Automated Personalization och vice versa.
-* Du kan inte växla från manuell trafiktilldelning (traditionellt A/B-test) till [!UICONTROL Auto-Target]och vice versa när en aktivitet är aktiv.
+* Du kan inte växla från manuell trafiktilldelning (traditionellt A/B-test) till [!UICONTROL Auto-Target]och vice versa när en aktivitet har sparats som utkast.
 * En modell är byggd för att identifiera den personaliserade strategins prestanda jämfört med slumpvis betjänad trafik jämfört med att skicka all trafik till den övergripande vinnande upplevelsen. Den här modellen hanterar endast träffar och konverteringar i standardmiljön.
 
    Trafik från en andra uppsättning modeller byggs för varje modellgrupp (AP) eller upplevelse (AT). För var och en av dessa modeller beaktas träffar och konverteringar i alla miljöer.
