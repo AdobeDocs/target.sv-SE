@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1979'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,22 @@ Kommentarer och information om kommande [!DNL Adobe Target] händelser, inklusiv
 Gartner har namngett [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant for Personalization Engines (PE) för femte året i rad. [!DNL Adobe] fick även toppresultat och betydande årsökningar över alla tre primära användningsfall: Digital marknadsföring, digital handel samt service och support. [!DNL Target] har fått högsta poäng för våra testmöjligheter bland alla utvärderade leverantörer.
 
 Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] Community Q&amp;A-kaffebrytning (29 november)
+
+* **Tisdagen den 29 november 2022**
+* **8.00 till 9.00. (PST GMT-8)**
+* **[Registreringsinformation](https://adobe.ly/3UtQoxv){target=_blank}**
+
+Cristinel Anastasoaie, Senior Product Manager för [!DNL Adobe Target], som besvarar dina frågor om [!DNL Adobe Target] webbinarium på [AI-driven personalisering och Recommendations](#AI).
+
+Se till att du läser inspelningen av webbinariet och ta sedan med dina uppföljningsfrågor för att få omfattande insikter, djupare förklaringar och strategiska förslag på dina unika användningsfall.
+
+* Optimera realtidsrekommendationer, personaliseringsaktiviteter med ett klick och automatiserade erbjudanden
+* Skapa och starta AI-drivna personaliseringsaktiviteter med [!UICONTROL Visual Experience Composer] (VEC)
+* Integrera med [!DNL Adobe Experience Platform] (AEP) för segmentdelning i realtid och delning av profilattribut
+
+[!DNL Adobe] Tekniksupportteknikern Simon Chen ger dig ytterligare insikter och svar på dina frågor.
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
@@ -52,7 +68,7 @@ Vi är glada över att kunna dela med oss av viktiga och banbrytande nyheter om 
 
 +++
 
-### [!DNL Adobe Target] Kunskapsbyggare - AI-styrd personalisering och Recommendations (15 september 2022)
+### [!DNL Adobe Target] Kunskapsbyggare - AI-styrd personalisering och Recommendations (15 september 2022) {#AI}
 
 Automatisering av experiment och personalisering fortsätter att ge högsta konverteringsgrad och avkastning för marknadsförings-, konstruktions- och produktteam. Gå med i [!DNL Adobe] Sessionen Lär dig hur du använder Kunskapsbyggare [!DNL Adobe Target] avancerade AI-drivna användningsfall och funktioner med rekommendationer för produkter och innehåll som håller sig steget före konkurrenterna och vinner på alla upplevelser.
 
