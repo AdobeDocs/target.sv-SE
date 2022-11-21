@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -271,7 +271,7 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
 * **Rekommenderad gräns**: 2 000 tecken.
 
-   Beroende på storleken på den kodade strängen, som kan vara mycket längre än Raw-strängen. Om strängen är för stor misslyckas den innan den kommer till Adobe Target.
+   Beroende på storleken på den kodade strängen, som kan vara mycket längre än Raw-strängen. Om strängen är för stor misslyckas den innan den når [!DNL Adobe Target].
 
 ## Skriptprofiler
 
