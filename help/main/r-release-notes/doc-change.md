@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
+source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -129,10 +129,10 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | 28 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Ytterligare information om at.js 2.8.1-versionen. |
 |  | [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ytterligare information om at.js 2.8.1-versionen. |
 | 27 januari | [AEM upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Uppdaterat ämne och tillagd information om [!DNL AEM as a Cloud Service] och [!DNL Adobe I/0]. |
-| 26 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om Target Standard/Premium 22.1.2. |
+| 26 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.1.2-utgåvan. |
 |  | [Skapa målgrupper](/help/main/c-target/c-audiences/audiences.md) | Lagt till information om [!DNL Adobe Experience Platform] målgrupper. |
 |  | [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md) | Lagt till information om [!DNL Adobe Experience Platform] målgrupper. |
 | 21 januari | [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ytterligare information om at.js 1.8.3-versionen. |
 | 19 januari | [Uppgraderar från at.js 1.*x* to at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Följande avsnitt har lagts till: &quot;at.js 2.*x* har inte stöd för att skapa målgrupper med vst.* parametrar&quot; |
-| 12 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om Target Standard/Premium 22.1.1. |
+| 12 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.1.1-versionen. |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Länk till självstudiekursen med implementeringsinstruktioner [!DNL Adobe Experience Cloud] med Web SDK. |
