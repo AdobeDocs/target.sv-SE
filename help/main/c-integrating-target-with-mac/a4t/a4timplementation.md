@@ -4,9 +4,9 @@ description: Följ stegen som krävs för att implementera Analytics för [!DNL 
 title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: f19d7de5b248ab1a55e7aad47d2e445eadf69717
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ I följande avsnitt beskrivs de steg som krävs för att distribuera integrering
 
 ### Steg 1: Begär etablering för [!DNL Analytics] och [!DNL Target]
 
-Innan du implementerar A4T måste du ha etablerat dig för [!DNL Analytics] och [!DNL Target]. [Använd det här formuläret för att begära etablering](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+Innan du implementerar A4T måste du ha etablerat dig för [!DNL Analytics] och [!DNL Target]. [Använd det här formuläret för att begära etablering](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
 ### Steg 2: Konfigurera användarbehörigheter
 
