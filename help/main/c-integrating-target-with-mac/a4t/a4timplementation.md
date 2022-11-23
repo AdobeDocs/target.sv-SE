@@ -4,9 +4,9 @@ description: Följ stegen som krävs för att implementera Analytics för [!DNL 
 title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ I följande avsnitt beskrivs de steg som krävs för att distribuera den här in
 
 ### Steg 1: Begär etablering för Analytics och Target
 
-Efter implementeringen [!DNL Analytics] som rapportkälla för [!DNL Target]måste du vara etablerad för [!DNL Analytics] och [!DNL Target]. [Använd det här formuläret för att begära etablering](https://www.adobe.com/go/audiences).
+Efter implementeringen [!DNL Analytics] som rapportkälla för [!DNL Target]måste du vara etablerad för [!DNL Analytics] och [!DNL Target]. [Använd det här formuläret för att begära etablering](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
 ### Steg 2: Konfigurera användarbehörigheter
 

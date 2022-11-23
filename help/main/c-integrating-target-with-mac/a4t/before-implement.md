@@ -4,9 +4,9 @@ description: Lär dig implementeringskraven för Analytics för [!DNL Target] (A
 title: Vad ska jag veta innan jag implementerar A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Innan du bestämmer dig för att använda den här integreringen ska du gå igen
 
 >[!IMPORTANT]
 >
->Innan du kan börja använda A4T måste du begära att ditt konto har etablerats för integreringen. Använd [Marketing Cloud integrations Provisioning Form](https://www.adobe.com/go/audiences) för att begära att få etableras.
+>Innan du kan börja använda A4T måste du begära att ditt konto har etablerats för integreringen. Använd [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} för begäran om etablering.
 
 Den här A4T-integreringen kräver att du implementerar följande biblioteksversioner (eller nyare), beroende på om du vill använda omdirigeringserbjudanden med A4T eller inte.
 
@@ -97,7 +97,7 @@ Det finns tillfällen då du kanske vill ha större kontroll över när och hur 
 
 ## Delade målgrupper
 
-När du fyller i [Marketing Cloud integrations Provisioning Form](https://www.adobe.com/go/audiences)bör du vara medveten om följande viktiga information om [!UICONTROL Shared Audiences] som anges under &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
+När du fyller i [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tänk på följande viktiga information om [!UICONTROL Shared Audiences] som anges under &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
 
 ![Formulär för förfrågningar](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

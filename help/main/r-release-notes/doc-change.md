@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1614'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 23 november | [Innan du implementerar Analytics för Target (A4T) med at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Länken till [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 november | [Adobe Target notiser och event](/help/main/r-release-notes/target-announcements.md) | Lagt till registreringsinformation för följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A-kaffebrytning (29 november)</li></ul> |
 | 8 november | [Hur länge ska du köra ett A/B-test?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Viktigt att notera att du måste läsa in sidan igen innan du ändrar parameternummer i dialogrutan för att få korrekta resultat [!DNL Adobe Target] [!UICONTROL Sample Size Calculator]. Lägg även till en anteckning i den faktiska [kalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}. |
 |  | [Omdirigeringserbjudanden - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Beskrivningen för `adobe_mc_sdid` i tabellen. |
