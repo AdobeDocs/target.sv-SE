@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 28 november | [API för modeller (Blockeringslistning) - översikt](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} i *Adobe Target Developer Guide*. | Nytt Models API.<br>Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer som förhindrar att de används i [!UICONTROL Auto-Target] eller [!UICONTROL Automated Personalization] modell eller aktivitet. |
+| 28 november | [API för modeller (Blockeringslistning) - översikt](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} i *Adobe Target Developer Guide*. | Nytt Models API.<br>Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer som förhindrar att de används i [!UICONTROL Auto-Target] eller [!UICONTROL Automated Personalization] modell eller aktivitet. |
 | 23 november | [Innan du implementerar Analytics för Target (A4T) med at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Länken till [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 november | [Adobe Target notiser och event](/help/main/r-release-notes/target-announcements.md) | Lagt till registreringsinformation för följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A-kaffebrytning (29 november)</li></ul> |
 | 8 november | [Hur länge ska du köra ett A/B-test?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Viktigt att notera att du måste läsa in sidan igen innan du ändrar parameternummer i dialogrutan för att få korrekta resultat [!DNL Adobe Target] [!UICONTROL Sample Size Calculator]. Lägg även till en anteckning i den faktiska [kalkylator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}. |
