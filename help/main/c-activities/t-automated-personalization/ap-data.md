@@ -4,9 +4,9 @@ description: Läs vilka data Adobe [!DNL Target] samlar in och använder för at
 title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2015'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,7 @@ I följande tabell visas kunddata som samlats in av [!UICONTROL Automated Person
 
 Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer som förhindrar att de används i [!UICONTROL Auto-Target] eller [!UICONTROL Automated Personalization] modell eller aktivitet.
 
-Så här blockerar du en kategori med funktioner från [!DNL Target] maskininlärningsalgoritmer, kontakta [Adobe kundtjänst](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) och ange de funktionskategorier som du vill blockera med hjälp av systemprefixen ovan.
-
-Blockera en eller flera specifika funktioner från [!DNL Target] maskininlärningsalgoritmer, kontakta [Adobe kundtjänst](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) och ange de specifika funktionsnamn som ska blockeras med hjälp av nedanstående systemnamn. Följande avsnitt innehåller detaljerad information om de olika datatyperna, inklusive attributnamn, beskrivningar och exempelvärden.
+Mer information finns i [API för modeller (Blockeringslistning) - översikt](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} i *Adobe Target Developer Guide*.
 
 ## Enhetsdata och mobildata {#device-mobile}
 
