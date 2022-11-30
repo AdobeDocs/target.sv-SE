@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 29 november | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Tydligare text genom att lägga till följande stycke:<ul><li>En besökares geografiska information bestäms av den ursprungliga IP-adressen för en [!DNL Target] platsbegäran (mbox-begäran). IP-till-geo-upplösning utförs för det första anropet av en ny session. Det innebär att om IP-adressen för en besökare ändras under ett besök, så baseras geoinformationen fortfarande på IP-adressen för det första samtalet.</li></ul> |
 | 28 november | [API för modeller (Blockeringslistning) - översikt](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} i *Adobe Target Developer Guide*. | Nytt Models API.<br>Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer som förhindrar att de används i [!UICONTROL Auto-Target] eller [!UICONTROL Automated Personalization] modell eller aktivitet. |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om Models API-versionen (23 november 2022). |
 | 23 november | [Innan du implementerar Analytics för Target (A4T) med at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Länken till [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |

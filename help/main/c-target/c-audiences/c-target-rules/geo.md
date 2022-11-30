@@ -5,10 +5,10 @@ title: Kan jag rikta besökarna baserat på plats?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 2%
+source-wordcount: '1022'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Använd målgrupper i [!DNL Adobe Target] målgruppsanpassning baserat på deras
 
 Med parametrar för geografisk plats kan ni inrikta er på aktiviteter och upplevelser baserat på besökarnas geografiska läge. Du kan inkludera eller exkludera besökare baserat på land, stat/provins, stad, postnummer, latitud, longitud, DMA eller mobiloperatör. Dessa data skickas med varje [!DNL Target] begär och baseras på besökarens IP-adress. Välj de här parametrarna precis som andra målvärden.
 
-## Skapa en publik med geoanpassning {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
+## Skapa en målgrupp med målinriktning {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. I [!DNL Target] gränssnitt, klicka **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Namnge målgruppen och lägg till en valfri beskrivning.
@@ -35,7 +35,7 @@ Med parametrar för geografisk plats kan ni inrikta er på aktiviteter och upple
    * [!UICONTROL DMA]
    * [!UICONTROL Mobile Carrier]
 
-   En besökares IP-adress skickas med en mbox-begäran, en gång per besök (session), för att matcha parametrar för geomål för den besökaren.
+   En besökares geografiska information bestäms av den ursprungliga IP-adressen för en [!DNL Target] platsbegäran (mbox-begäran). IP-till-geo-upplösning utförs för det första anropet av en ny session. Det innebär att om IP-adressen för en besökare ändras under ett besök, så baseras geoinformationen fortfarande på IP-adressen för det första samtalet.
 
    För [!UICONTROL Mobile Carrier], [!DNL Target] använder IP-adressregistreringsuppgifterna (som äger IP-adressblocket) för att avgöra vilket mobiloperatör som använder [MCC (Mobile Country Codes) och MNC (Mobile Network Codes)](https://www.mcc-mnc.com).
 
@@ -49,7 +49,7 @@ I följande bild visas en målgrupp som riktar sig till användare som har åtko
 
 ## Noggrannhet {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-Exaktheten i målinriktningen beror på flera faktorer. WiFi-anslutningar är exaktare än mobilnät. När besökaren använder en mobildataanslutning kan noggrannheten för geosökningen påverkas av platsen, providerns datarelation med [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)och andra faktorer. Celltornbaserade nätverksanslutningar kan vara mindre noggranna än kabelanslutningar och WiFi-anslutningar. En besökares IP-adress kan också mappas till besökarens Internet-leverantör, som kanske inte är samma som besökarens faktiska plats. Vissa problem med mobil geolokalisering kan lösas med [Geolocation-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+Exaktheten i målinriktningen beror på flera faktorer. WiFi-anslutningar är exaktare än mobilnät. När en besökare använder en mobildataanslutning kan noggrannheten för geosökningen påverkas av platsen, providerns datarelation med [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)och andra faktorer. Celltornbaserade nätverksanslutningar kan vara mindre noggranna än kabelanslutningar och WiFi-anslutningar. En besökares IP-adress kan också mappas till besökarens Internet-leverantör, som kanske inte är samma som besökarens faktiska plats. Vissa problem med mobil geolokalisering kan lösas med [Geolocation-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 I följande tabell visas riktigheten i IP-baserad geografisk information från [DigitalEnvoy](https://www.digitalelement.com/solutions/) för kabelanslutna eller WiFi-internetanslutningar. DigitalEnvoy ger branschens mest korrekta data. Den globala precisionen är mer än 99,9 procent på landsnivå och är upp till 97 procent korrekt på stadsnivå. Noggrannhetsinformation gäller inte för celltornbaserade nätverk.
 
@@ -110,21 +110,29 @@ Följande frågor ställs ofta om geoanpassning:
 
 ### Hur anger jag latitud och longitud?
 
++++Se information
 * Värdet för latitud och longitud ska vara ett numeriskt värde i grader.
 * Värdet för latitud och longitud kan ha en maxprecision på fem decimaler.
 * Värdet för latitud måste vara mellan -90 och 90.
 * Värdet för longitud ska vara mellan -180 och 180.
 
++++
+
 ### Hur fungerar geoanpassning för mobila enheter?
 
-De flesta användare av mobila enheter får tillgång till innehåll via WiFi, vilket betyder [!DNL Target]Den IP-baserade geolokaliseringen är lika exakt som på en stationär dator. Celltornbaserade anslutningar kan vara mindre exakta eftersom besökarens IP-adress baseras på tornet där signalen hämtas. Vissa problem med mobil geolokalisering kan lösas med [Geolocation-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++Se information De flesta användare av mobila enheter får tillgång till innehåll via WiFi, vilket betyder [!DNL Target]Den IP-baserade geolokaliseringen är lika exakt som på en stationär dator. Celltornbaserade anslutningar kan vara mindre exakta eftersom besökarens IP-adress baseras på tornet där signalen hämtas. Vissa problem med mobil geolokalisering kan lösas med [Geolocation-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+
++++
 
 ### Hur hanterar geo besökare från AOL?
 
-På grund av hur AOL proxiderar sin trafik, [!DNL Target] kan endast rikta sig till dem på landsnivå. En kampanj som riktar sig till Frankrike riktar sig till exempel till AOL-användare i Frankrike. Men en kampanj som riktar sig till Paris har inte lyckats rikta sig till AOL-användare i Paris. Om du avser att särskilt rikta in dig på AOL-användare kan du ställa in regionfältet på &quot;aol&quot;. Man kan faktiskt rikta in sig på AOL-användare genom att ange två målinriktningsvillkor: land matchar exakt&quot;USA&quot; och region matchar&quot;aol&quot;.
++++Se information På grund av hur AOL proxiderar sin trafik, [!DNL Target] kan endast rikta sig till dem på landsnivå. En kampanj som riktar sig till Frankrike riktar sig till exempel till AOL-användare i Frankrike. Men en kampanj som riktar sig till Paris har inte lyckats rikta sig till AOL-användare i Paris. Om du avser att särskilt rikta in dig på AOL-användare kan du ställa in regionfältet på &quot;aol&quot;. Man kan faktiskt rikta in sig på AOL-användare genom att ange två målinriktningsvillkor: land matchar exakt&quot;USA&quot; och region matchar&quot;aol&quot;.
+
++++
 
 ### Vilken platsgranularitet har geoanpassning?
 
++++Se information
 * Land - globalt
 * Stat/provins/region - global
 * Ort - global
@@ -132,8 +140,11 @@ På grund av hur AOL proxiderar sin trafik, [!DNL Target] kan endast rikta sig t
 * DMA/ITV (UK) - USA, Storbritannien
 * Mobiloperatör - globalt
 
++++
+
 ### Hur testar jag mina aktiviteter som om jag är en användare som kommer från en annan plats?
 
++++Se information
 * **at.js 1.*x***: Du kan åsidosätta din IP-adress med en IP-adress från en annan plats och använda `mboxOverride.browserIp url` parameter. Om ditt företag till exempel är i Storbritannien, men din globala kampanj riktar sig till besökare i Auckland i Nya Zeeland, använder du den här URL-adressen under förutsättning att `60.234.0.39` är en IP-adress i Auckland:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
@@ -146,13 +157,19 @@ På grund av hur AOL proxiderar sin trafik, [!DNL Target] kan endast rikta sig t
 
 * **at.js 2.*x***: Om du vill åsidosätta din IP-adress med at.js 2.*x*, installerar du ett webbläsartillägg/plugin-program (till exempel X-Forwarded-For Header för Chrome eller Firefox). Med det här tillägget kan du skicka det x-vidarebefordrade sidhuvudet i dina sidförfrågningar.
 
++++
+
 ### Hur är områden, som Puerto Rico och Hong Kong, mappade till strukturen för geografisk anpassning?
 
-Puerto Rico, Hong Kong och andra territorier behandlas som separata&quot;Country&quot;-värden.
++++Se information om Puerto Rico, Hongkong och andra områden behandlas som separata värden för&quot;Land&quot;.
+
++++
 
 ### Gör [!DNL Target] hämta (och lagra) information som Zip-kod när aktiviteten är inriktad på geolokalisering?
 
-Nej, [!DNL Target] använder endast geo-data under sessionen, och data ignoreras.
++++Se information nr, [!DNL Target] använder endast geo-data under sessionen, och data ignoreras.
+
++++
 
 ## Utbildningsvideo: Skapa målgrupper ![Självstudiemärke](/help/main/assets/tutorial.png)
 
