@@ -4,9 +4,9 @@ description: Hitta svar på frågor som ofta ställs om den gamla integreringen 
 title: Var kan jag hitta frågor och svar om integrationen mellan SiteCatalyst och Test&Target?
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,10 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om integrering 
 
 ## Varför visas en aktivitetsrapport och en Campaign>Recept-rapport i Analytics? {#section_ECF18A7E759A4E7F93553DB187A677E9}
 
-Integreringen mellan SiteCatalyst och Test&amp;Target (den gamla integreringen) och Analytics för Target (A4T) skiljer sig åt.
++++Svar Integreringen mellan SiteCatalyst och Test&amp;Target (den gamla integreringen) och Analytics för Target (A4T) skiljer sig åt.
 
 Aktivitetsrapporten är avsedd för den nyare A4T-integreringen.
 
 Rapporten Campaign>Recipes är avsedd för den äldre integreringen av SiteCatalyst till Test&amp;Target. Kontakta kundtjänst om du vill stänga av den här rapporten. De kan omedelbart stänga av rapporten. Rapporten är dold, men underliggande data är fortfarande tillgängliga om de måste återaktiveras.
+
++++
