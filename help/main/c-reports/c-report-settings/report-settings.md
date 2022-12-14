@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar rapportinställningar i Adobe Target, 
 title: Hur konfigurerar jag rapportinställningar?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1887'
 ht-degree: 0%
 
 ---
@@ -145,9 +145,14 @@ Välj önskad metod:
 
 Välj den kontrollupplevelse som ska användas vid beräkning och jämförelse av lyft.
 
-### Miljö
+### Miljö {#environment}
 
 Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information finns i [Värdar](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+>[!NOTE]
+>
+>Om din organisation använder [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) för att skicka mätdata till [!DNL Target], bör miljön i AEP Datastream matcha miljön i din [!DNL Target] rapportinställningar.
+
 
 ### Återställ rapportdata
 
