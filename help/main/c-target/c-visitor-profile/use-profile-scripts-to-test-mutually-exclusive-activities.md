@@ -4,7 +4,7 @@ description: Lär dig hur du använder profilattribut för att konfigurera teste
 title: Kan jag använda profilskript för att testa aktiviteter som utesluter varandra?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Om du vill sortera besökare i grupper som var och en ser olika aktiviteter mås
 
 ```javascript
 if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
+    var ran_number = Math.floor(Math.random() * 100); 
     if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
@@ -41,9 +41,9 @@ if (!user.get('twogroups')) {
 
 * `if (!user.get('twogroups'))` avgör om *två grupper* profilattributet har angetts för den aktuella besökaren. Om de gör det krävs ingen ytterligare åtgärd.
 
-* `var ran_number=Math.floor(Math.random() *99)` deklarerar en ny variabel som heter ran_number, anger värdet till ett slumpmässigt decimaltal mellan 0 och 1, multiplicerar den med 99 och avrundar den nedåt för att skapa ett intervall på 100 (0-99), vilket är användbart för att ange en procentandel av besökarna som ser aktiviteten.
+* `var ran_number=Math.floor(Math.random() *100)` deklarerar en ny variabel som heter ran_number, anger värdet till ett slumpmässigt decimaltal mellan 0 och 1, multiplicerar det med 100 och avrundar det nedåt för att skapa ett intervall på 100 (0-100), vilket är användbart för att ange en procentandel av besökarna som ser aktiviteten.
 
-* `if (ran_number <= 49)` börjar en rutin som avgör vilken grupp besökaren tillhör. Om det returnerade numret är 0-49 tilldelas besökaren GroupA. Om värdet är 50-99 tilldelas besökaren GruppB. Gruppen avgör vilken aktivitet besökaren ser.
+* `if (ran_number <= 49)` börjar en rutin som avgör vilken grupp besökaren tillhör. Om det returnerade numret är 0-49 tilldelas besökaren GroupA. Om värdet är 50-100 tilldelas besökaren GroupB. Gruppen avgör vilken aktivitet besökaren ser.
 
 När du har skapat profilattributet ställer du in den första aktiviteten för att rikta in den önskade populationen genom att kräva att parametern för användarprofilen `user.twogroups` matchar värdet som angetts för GroupA.
 
@@ -61,7 +61,7 @@ Om du till exempel vill skapa fyra grupper använder du följande JavaScript:
 
 ```javascript
 if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
+    var ran_number = Math.floor​(Math.random() * 100); 
     if (ran_number <= 24) { 
         return 'GroupA'; 
     } else if (ran_number <= 49) { 
@@ -78,17 +78,17 @@ I det här exemplet är den matematik som används för att generera det slumpm�
 
 Om du skapar ett ojämnt antal grupper, eller ett tal som 100 inte delar in jämnt, ska du inte runda av decimalvärdet nedåt till ett heltal. Om du inte avrundar decimaltalet kan du ange intervall som inte är heltal. Du gör detta genom att ändra den här raden:
 
-`var ran_number=Math.floor(Math.random()*99);`
+`var ran_number=Math.floor(Math.random()*100);`
 
 till:
 
-`var ran_number=Math.random()*99;`
+`var ran_number=Math.random()*100;`
 
 Om du till exempel vill placera besökare i tre lika grupper använder du följande kod:
 
 ```javascript
 if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
+    var ran_number = Math.random() * 100; 
     if (ran_number <= 32.33) { 
         return 'GroupA'; 
     } else if (ran_number <= 65.66) { 
