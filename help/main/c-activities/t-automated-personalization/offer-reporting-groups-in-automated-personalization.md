@@ -4,9 +4,9 @@ description: Lär dig hur du använder rapporteringsgrupper i Adobe [!DNL Target
 title: Kan jag använda rapporteringsgrupper i Automated Personalization-aktiviteter?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,14 @@ Mer information om att rikta ett erbjudande till specifika målgrupper finns i [
 ## Caveats
 
 * Det är viktigt att förstå att rapporteringsgrupper påverkar hur [!DNL Target] bygger sina modeller. Som en följd av detta [!DNL Adobe] rekommenderar att du endast använder rapporteringsgrupper om du tänker ersätta eller lägga till nya erbjudanden när en aktivitet är aktiv. Om ett nytt erbjudande införs i en liveaktivitet kan maskinen använda de data som redan samlats in för de andra erbjudandena i sin grupp för att lära sig mer om det nya erbjudandet genom att lägga in det nya erbjudandet i en grupp med befintliga liknande erbjudanden. Ni bör aldrig lägga alla erbjudanden i en enda rapporteringsgrupp.
+
+* AP-aktiviteter har kombinationer av location+offer (modellables). När [!DNL Target] registrera uppgifter i rapporter, [!DNL Target] tar hänsyn till sådana kombinationer så att det är tydligt från vilken händelse (display, click, o.s.v.) erbjudandet kom.
+
+   En aktivitet kan till exempel ha flera platser och erbjudanden, som kan överlappa varandra. Om en besökare ser mer än ett av dessa erbjudanden på olika platser, [!DNL Target] sparar endast data för dessa erbjudanden. Om samma besökare senare klickar på ett erbjudande, [!DNL Target] registrerar endast en händelse från den kombinationen (inte för alla kombinationer).
+
+   Om klickningen kommer från en annan plats, som finns i ett mätresultat men inte visar något erbjudande, loggas händelsen under aktiviteten, men inte för någon kombination av erbjudande och plats. Därför visas inte erbjudandet i rapporteringsgruppen för erbjudanden.
+
+   Detta beteende beror på att klickningen kan göras från en annan ruta och inte från den ruta som levererade erbjudandet. Därför är mätvärdet kopplat till aktiviteten, men inte till erbjudandet.
 
 ## Visa erbjudanden i en rapporteringsgrupp
 
