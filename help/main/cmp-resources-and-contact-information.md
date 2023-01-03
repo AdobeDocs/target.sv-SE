@@ -4,7 +4,7 @@ description: Läs om ytterligare resurser som kan hjälpa dig att lära dig mer 
 title: Var kan jag hitta resurser och kontaktinformation för Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
+source-git-commit: 69c610d930582defa031103ea0ba848753e675a9
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Vi välkomnar alla förslag och all feedback om den här lösningen. Förstärkt
 
 ### Juridik {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2022 Adobe Systems Incorporated. all rights reserved.
+* © 2023 Adobe Systems Incorporated. all rights reserved.
 * Publicerat av Adobe Systems Incorporated.
 
 [Användarvillkor](https://www.adobe.com/legal/terms.html)
