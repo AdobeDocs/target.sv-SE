@@ -4,9 +4,9 @@ description: Lär dig använda designspråket Velocity med öppen källkod för 
 title: Hur anpassar jag en design snabbt?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -21,22 +21,24 @@ Information om hastighet finns på [https://velocity.apache.org](https://velocit
 
 All snabbhetslogik, syntax och så vidare kan användas för en rekommendationsdesign. Det innebär att du kan skapa *for* slingor, *if* -programsatser och annan kod som använder Snabb i stället för JavaScript.
 
-Alla variabler som skickas till [!DNL Recommendations] i `productPage` mbox eller CSV-överföringen kan visas i en design. Dessa värden refereras med följande syntax:
+Entitetsattribut har skickats till [!DNL Recommendations] i `productPage` mbox eller CSV-överföringen kan visas i en design, med undantag för multivalue-attribut. Alla typer av attribut kan skickas; men [!DNL Target] skickar inte attribut av typen &quot;multi-value&quot; som en array över vilken en mall kan iterera (till exempel `entityN.categoriesList`).
+
+Dessa värden refereras med följande syntax:
 
 ```
 $entityN.variable
 ```
 
-Variabelnamn måste följa i förkortningen av Velocity, som består av ett radavstånd *$* följt av en VTL-identifierare (Velocity Template Language). VTL-identifieraren måste börja med ett alfabetiskt tecken (a-z eller A-Z).
+Entitetsattributnamn måste följa i Snabbredigering, som består av ett inledande tecken *$* följt av en VTL-identifierare (Velocity Template Language). VTL-identifieraren måste börja med ett alfabetiskt tecken (a-z eller A-Z).
 
-Variabelnamn för hastighet är begränsade till följande typer av tecken:
+Attributnamn för hastighetsenhet är begränsade till följande typer av tecken:
 
 * Alfabetisk (a-z, A-Z)
 * Numerisk (0-9)
 * Bindestreck ( - )
 * Understreck ( _ )
 
-Följande variabler är tillgängliga som Velocity-arrayer. Därför kan de itereras över eller refereras via index.
+Följande attribut finns som Velocity-arrayer. Därför kan de itereras över eller refereras via index.
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Mer information om hastighetsvariabler finns i [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Mer information om hastighetsvariabler (attribut) finns i [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Om du använder ett profilskript i din design måste $ före skriptnamnet escape-konverteras med ett \. Exempel, `\${user.script_name}`.
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Om du vill lägga till text efter värdet för en variabel före en -tagg som anger att variabelnamnet är slut, kan du göra det med formell notation för att omsluta variabelns namn. Exempel: `${entity1.thumbnailUrl}.gif`.
+>Om du vill lägga till text efter värdet för ett attribut före en tagg som anger att attributnamnet är slut, kan du göra det med hjälp av formell notation för att omsluta attributets namn. Exempel: `${entity1.thumbnailUrl}.gif`.
 
-Du kan också använda `algorithm.name` och `algorithm.dayCount` som variabler i designen, så att en design kan användas för att testa flera villkor, och villkorsnamnet kan visas dynamiskt i designen. Det här visar besökaren att han eller hon tittar på&quot;bästsäljare&quot; eller&quot;personer som såg det här köpte det&quot;. Du kan även använda dessa variabler för att visa `dayCount` (antal dagar med data som används i kriterierna, t.ex.&quot;de viktigaste säljarna under de senaste två dagarna&quot;).
+Du kan också använda `algorithm.name` och `algorithm.dayCount` som entitetsattribut i designen, så att en design kan användas för att testa flera villkor, och villkorsnamnet kan visas dynamiskt i designen. Det här visar besökaren att han eller hon tittar på&quot;bästsäljare&quot; eller&quot;personer som såg det här köpte det&quot;. Du kan även använda dessa attribut för att visa `dayCount` (antal dagar med data som används i kriterierna, t.ex.&quot;de viktigaste säljarna under de senaste två dagarna&quot;).
 
 ## Arbeta med siffror i hastighetsmallar
 
 Som standard hanteras alla entitetsattribut som strängvärden i snabbmeddelandemallar. Du kanske vill behandla ett entitetsattribut som ett numeriskt värde för att utföra en matematisk åtgärd eller jämföra det med ett annat numeriskt värde. Så här behandlar du ett entitetsattribut som ett numeriskt värde:
 
 1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller dubbelvärde.
-1. Kontrollera att det entitetsattribut du vill använda inte är tomt (krävs för att Recommendations mallparser för Target ska kunna validera och spara mallen).
+1. Se till att entitetsattributet som du vill använda inte är tomt (krävs för [!DNL Target Recommendations]&#39; mallparser för att validera och spara mallen).
 1. Skicka entitetsattributet till `parseInt` eller `parseDouble` på den dummy-variabel som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde.
 1. Utför matematisk åtgärd eller jämförelse på det nya numeriska värdet.
 
@@ -214,7 +216,7 @@ Du kan ändra designen och ersätta värden i en sträng. Du kan till exempel er
 I följande kod visas en rad i ett exempel på villkorsstyrd försäljningspris:
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 Följande kod är ett fullständigt villkorligt exempel på ett försäljningspris:
@@ -222,9 +224,9 @@ Följande kod är ett fullständigt villkorligt exempel på ett försäljningspr
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 
