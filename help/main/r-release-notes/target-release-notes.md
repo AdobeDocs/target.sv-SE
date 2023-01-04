@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
+source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,30 +15,24 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 19 oktober 2022**
+**Senast uppdaterad: 4 januari 2023**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 22.10.3 (version 25-27 oktober 2022)
-
-Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
-
-* **25 oktober**: Europa, Mellanöstern och Afrika (EMEA)
-* **26 oktober**: Asien-Stillahavsområdet (APAC)
-* **27 oktober**: Amerika
+## [!DNL Target] Standard/Premium 23.1.1 (23 januari 2023)
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
 | Funktion | Detaljer |
 | --- | --- |
-| Optimerade A4T-värden för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]<br>(Tillgängligt för utvalda kunder för testning. Kommer att vara tillgänglig för alla kunder i en framtida version.) | Tänk på följande ändringar:<ul><li>Stöd för icke-binära och maximeringsvärden har lagts till i [!UICONTROL Analytics for Target] A4T-rapportering för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet</li><li>Bevarat beteende för befintliga aktiviteter fram till februari 2023. Efter detta datum kommer aktiviteterna att avbrytas för att tvinga befintlig aktivitetsmigrering till nytt beteende</li><li>Från 20 februari 2023, stöd för `averagetimespentonsite`, `bouncerate`och `entries` mätvärden i [!DNL Target] aktiviteter kommer att bli inaktuella.</li></ul> |
+| AEM innehållsfragment<br>(Exakt releasedatum för den här funktionen ska fastställas.) | Använd innehållsfragment som skapats i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering.<br>Använda innehållsfragment som skapats i AEM i [!DNL Target] gör att du kan kombinera lättanvända och kraftfulla AEM med kraftfulla artificiella intelligens (AI) och maskininlärningsfunktioner (ML) i [!DNL Target] att testa och personalisera upplevelser i stor skala. |
 
-* Fler verktygstips i [!DNL Target] Användargränssnitt som hjälper kunderna att navigera effektivare i målgruppsbyggaren och för att lära sig hur de använder funktioner som kanske inte är kända. (TGT-44139)
-* Funktioner som förhindrar kunderna från att redigera en aktivitet som inaktiverats av [!DNL Target] eftersom det använder mätvärden som inte stöds. Ett meddelande i användargränssnittet uppmanar kunderna att duplicera aktiviteten och sedan uppdatera konverteringsmåttet.
-
-   Med den här versionen `averagetimespentonsite`, `bouncerate`och `entries` mätvärden i [!DNL Target] aktiviteter kommer att bli inaktuella för nya aktiviteter. Befintliga aktiviteter kan fortsätta att använda dessa mått fram till maj 2023.
-
-* Ett verktygstips har lagts till i [!DNL Target] Användargränssnitt som hjälper kunderna att välja ett optimeringsvillkor när de skapar eller redigerar ett [!UICONTROL Auto-Target] aktivitet som använder A4T.
+* Utökat stöd för JSON-erbjudanden i [!UICONTROL Automated Personalization] (AP) med formulärbaserad Experience Composer. (TGT-41460)
+* Lagt till möjlighet att söka efter och filtrera erbjudanden med hjälp av AEM taggar. (TGT-43837)
+* Ändrade namn på &quot;[!UICONTROL Experience Fragment]&quot; i Visual Experience Composer-arbetsflödet. Alternativet är nu &quot;[!UICONTROL HTML XF]&quot;.
+* Lagt till möjlighet att visa metadata för upplevelsefragment i verktygstipset för erbjudandeinformation. (TGT-43838)
+* Alternativen för 45-dagars och 90-dagars kalender har tagits bort från åtkomstpunkten och [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] och [!UICONTROL Important Attributes] rapporter i [!DNL Target] Gränssnitt. På grund av användningsmönster och för att förbättra prestanda har datumintervallen tagits bort. Gränssnittet har uppdaterats för att återspegla de aktuella tillåtna intervallen: 15, 30 och 60 dagar. (TGT-39357)
+* Möjligheten att ändra [!UICONTROL Same as Optimization Goal] på [!UICONTROL Goals & Settings] sida efter att aktiviteten är aktiv. (TGT-43923)
 
 ## Ytterligare versionsinformation
 
