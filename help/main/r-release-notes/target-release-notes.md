@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
+source-git-commit: ee1307da98bfd83e605f772c0727340f6d262f30
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funkti
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 23.1.1 (23 januari 2023)
+## [!DNL Target] Standard/Premium 23.1.1 (25-26 januari 2023)
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
