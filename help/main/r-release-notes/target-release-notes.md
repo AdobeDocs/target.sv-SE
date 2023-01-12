@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
+source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -19,16 +19,24 @@ Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funkti
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 23.1.1 (25-26 januari 2023)
+## [!DNL Target] Standard/Premium 22.13.3 (25-26 januari 2023)
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
 * Utökat stöd för JSON-erbjudanden i [!UICONTROL Automated Personalization] (AP) med formulärbaserad Experience Composer. (TGT-41460)
-* Lagt till möjlighet att söka efter och filtrera erbjudanden med hjälp av AEM taggar. (TGT-43837)
-* Ändrade namn på &quot;[!UICONTROL Experience Fragment]&quot; i Visual Experience Composer-arbetsflödet. Alternativet är nu &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
+* Implementerat [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) för AP-aktiviteter.
+* Experience names in [!DNL Recommendations] aktiviteter visas nu med egna namn så att kunderna bättre kan korrelera data i [!DNL Adobe Analytics] med det i [!DNL Target] Gränssnitt. (TGT-41853)
+* Ett problem som orsakade felet 500 i [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) aktiviteter som innehåller rekommendationer. Problemet uppstod när [!DNL Target] det gick inte att ta bort villkorsobjekt från [!DNL Target] Användargränssnitt och [!DNL Recommendations] som inte längre används. (TGT-44383)
+* Platsen har tagits bort från erbjudandets namn i [!UICONTROL Offer Level] rapport för [!UICONTROL Automated Personalization] verksamhet. Den här ändringen gör rapporten mer läsbar. (TGT-44294)
+* Ändrade namn på &quot;[!UICONTROL Experience Fragment]&quot; i [!UICONTROL Visual Experience Composer] (VEC) arbetsflöde. Alternativet är nu &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * Lagt till möjlighet att visa metadata för upplevelsefragment i verktygstipset för erbjudandeinformation. (TGT-43838)
 * Alternativen för 45-dagars och 90-dagars kalender har tagits bort från åtkomstpunkten och [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] och [!UICONTROL Important Attributes] rapporter i [!DNL Target] Gränssnitt. På grund av användningsmönster och för att förbättra prestanda har datumintervallen tagits bort. Gränssnittet har uppdaterats för att återspegla de aktuella tillåtna intervallen: 15, 30 och 60 dagar. (TGT-39357)
-* Möjligheten att ändra [!UICONTROL Same as Optimization Goal] på [!UICONTROL Goals & Settings] sida efter att aktiviteten är aktiv. (TGT-43923)
+* Otillåten möjlighet att ändra [!UICONTROL Same as Optimization Goal] på [!UICONTROL Goals & Settings] sida efter att aktiviteten är aktiv. (TGT-43923)
+* Ett problem som orsakade problem med standardarbetsytan i [!DNL Target] backend när du uppgraderar från [!DNL Target Standard] till [!DNL Target Premium]. (TGT-44081 &amp; TGT-44306)
+* Länken på [!UICONTROL Implementation] sida ([!UICONTROL Administration] > [!UICONTROL Implementation]) för&quot;Implementeringsmetoder med On-Device Decisioning&quot; så att de pekar på sidan som förklarar hur du använder enhetsbeslut för alla SDK:er som stöds: Node.js, Java, .NET och Python. Mer information finns i [Komma igång med mål-SDK:er](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* Ett problem som orsakade filöverföringsproblem vid användning har korrigerats [!DNL Scene7] och [!DNL Target].
+* Förbättrad tillgänglighet för [!DNL Target] Användargränssnitt för personer med funktionshinder genom att använda resultat från en intern användarvänlighetsrevision. Dessa tillgänglighetsförbättringar inkluderar åtkomst till funktioner som tidigare inte var tillgängliga via tangentbordet, alt-text-förbättringar, möjlighet att zooma delar av användargränssnittet så att de blir mer användbara, förbättrat tangentbordsfokus med mera.   (TGT-42759)
+* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
 
 ## Ytterligare versionsinformation
 
