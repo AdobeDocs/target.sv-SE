@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1818'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 12 januari | [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Uppdaterad viktig information som förklarar statusen för den aktuella [!UICONTROL Visual Experience Composer] hjälptillägg. |
+|  | [Mål och målgrupper Frågor och svar](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Lagt till information som förklarar målgrupps-URL och URL-mål tillagd via [!UICONTROL Template Rules] utvärderas som URL-mål. |
 |  | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation för version 22.13.3 har lagts till. |
 | 21 december | [Anpassa en design med Snabb](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Tydligare att entitetsattribut skickas till [!DNL Recommendations] i `productPage` mbox eller CSV-överföringen kan visas i en design, med undantag för multivalue-attribut. |
 | 20 december | [Erbjud rapportgrupper i [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Ytterligare information om rapporteringsgrupper har lagts till under&quot;Caveats&quot;. |

@@ -4,9 +4,9 @@ description: Visa vanliga frågor och svar om målgruppsanpassning och målgrupp
 title: Var kan jag hitta frågor och svar om mål och målgrupper?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '953'
 ht-degree: 1%
 
 ---
@@ -37,14 +37,17 @@ Målgrupps-URL söker efter en exakt URL-matchning. Om URL:en matchar varandra k
 
 Förutom målgruppsanpassning på URL:en kan du även ange specifika värden som kan finnas i frågan.
 
+Målgrupps-URL och URL-mål som lagts till via [!UICONTROL Template Rules] utvärdera som URL-mål (se URL-mål nedan).
+
 ### URL-mål
 
-Om du vill använda URL-adress när du skapar en målgrupp klickar du på Lägg till regel, klickar på Webbplatssidor, väljer ett alternativ i den första listrutan (Aktuell sida, Föregående sida eller Landningssida), väljer URL i den andra listrutan, anger en utvärderare och anger önskad URL.
+Om du vill använda URL-mål när du skapar en målgrupp klickar du på [!UICONTROL Add Rule], klicka [!UICONTROL Site Pages]väljer du ett alternativ i den första listrutan ([!UICONTROL Current Page], [!UICONTROL Previous Page], eller [!UICONTROL Landing Page]), välja [!UICONTROL URL] Ange en utvärderare i den andra listrutan och ange sedan önskad URL.
 
 ![Webbplatssidor > Aktuell sida > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL med målinriktning omvandlar URL:en till en uppsättning regler som ska utvärderas:
 
+* URL = `example.com/path1?query=something`
 * URL-domän = `example.com`
 * Sökväg = bana1/bana2/bana3
 * queryStringParam1 = test123
@@ -114,9 +117,9 @@ Exempel:
 | --- | --- | --- |
 | 1.0 | är lika med 1 | true |
 | 1 | equalsIgnoreCase 1.0 | true |
-| 1,230 | är lika med 1 | true |
-| 1 500 | är lika med 1,5 | true |
-| 1 200 | är mindre än 2 | true |
+| 1.230 | är lika med 1 | true |
+| 1.500 | är lika med 1,5 | true |
+| 1.200 | är mindre än 2 | true |
 | 2 | är större än 3.0 | false |
 | 045 | är lika med 45 | true |
 
