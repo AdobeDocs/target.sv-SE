@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1794'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 12 januari | [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Uppdaterad viktig information som förklarar statusen för den aktuella [!UICONTROL Visual Experience Composer] hjälptillägg. |
+|  | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation för version 22.13.3 har lagts till. |
 | 21 december | [Anpassa en design med Snabb](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Tydligare att entitetsattribut skickas till [!DNL Recommendations] i `productPage` mbox eller CSV-överföringen kan visas i en design, med undantag för multivalue-attribut. |
 | 20 december | [Erbjud rapportgrupper i [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Ytterligare information om rapporteringsgrupper har lagts till under&quot;Caveats&quot;. |
 | 14 december | [Rapportinställningar](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Anteckning har lagts till under avsnittet &quot;Miljö&quot; om användning [!DNL Adobe Experience Platform] (AEP) för att skicka mätdata till [!DNL Target]. |

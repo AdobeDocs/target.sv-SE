@@ -4,9 +4,9 @@ description: Upptäck varför vissa webbplatser kanske inte kan öppnas på ett 
 title: Hur använder jag hjälptillägget Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,16 @@ VEC Helper-webbläsaren är ett Chrome-tillägg. Det här tillägget är inte n�
 
 >[!IMPORTANT]
 >
->Från och med januari 2023 är den nuvarande [!DNL Target] Tillägget VEC Helper slutar fungera i Google Chrome eftersom Google inte tillåter tillägg med Manifest V2. Ladda ned det nya tillägget för att fortsätta att visuellt utveckla dina webbplatser i [!DNL Target] från och med det nya året. Mer information finns i [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>Aktuell [!DNL Target] Tillägget VEC Helper som beskrivs i den här artikeln skapades med Manifest v2. Google har nyligen meddelat att nya tillägg som skapats med Manifest v2 inte längre tillåts.
+>
+>Det befintliga tillägget fungerar fortfarande i Google Chrome. I framtiden [!DNL Adobe] tar bort hjälptillägget som beskrivs i det här avsnittet och kräver att kunderna går över till det nyare [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). Du meddelas via versionsinformation och text i den här artikeln när det här tillägget slutar fungera. På grund av säkerhetsförbättringar i manifestet v3, [!DNL Adobe] rekommenderar att du hämtar det nya tillägget för att fortsätta att visuellt skapa dina webbplatser i [!DNL Target].
 
 ## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 
 * Webbplatsen har strikta säkerhetsprinciper.
 * Webbplatsen ligger i en iframe.
 * at.js-biblioteket är ännu inte implementerat på webbplatsen.
-* Kundens QA- och/eller scensajt är inte tillgänglig för omvärlden (webbplatsen är intern).
+* Kundens QA- eller stage-sajt är inte tillgänglig för omvärlden (webbplatsen är intern).
 * Det finns vissa begränsningar när du försöker använda VEC för att öppna en webbplats som använder [Servicearbetare](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 En SWF-fil är en webbteknik som kan användas för att avlyssna begäranden för den domän som de är installerade på av en webbsida. Programvaran överlever sidbesöket och aktiverar sig själv vid efterföljande besök. Svartvyn avgör vilka förfrågningar som går igenom och vilka som fångas upp och hanteras från ett cacheminne istället.
