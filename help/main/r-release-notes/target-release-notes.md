@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
+source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation. Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 
-**Senast uppdaterad: 4 januari 2023**
+**Senast uppdaterad: 12 januari 2023**
 
 Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna släpps. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
@@ -24,7 +24,7 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
 * Utökat stöd för JSON-erbjudanden i [!UICONTROL Automated Personalization] (AP) med formulärbaserad Experience Composer. (TGT-41460)
-* Implementerat [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) för AP-aktiviteter.
+* Implementerat [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) för AP-aktiviteter. (TGT-44341)
 * Experience names in [!DNL Recommendations] aktiviteter visas nu med egna namn så att kunderna bättre kan korrelera data i [!DNL Adobe Analytics] med det i [!DNL Target] Gränssnitt. (TGT-41853)
 * Ett problem som orsakade felet 500 i [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) aktiviteter som innehåller rekommendationer. Problemet uppstod när [!DNL Target] det gick inte att ta bort villkorsobjekt från [!DNL Target] Användargränssnitt och [!DNL Recommendations] som inte längre används. (TGT-44383)
 * Platsen har tagits bort från erbjudandets namn i [!UICONTROL Offer Level] rapport för [!UICONTROL Automated Personalization] verksamhet. Den här ändringen gör rapporten mer läsbar. (TGT-44294)
