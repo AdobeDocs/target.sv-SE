@@ -3,7 +3,7 @@ user-guide-title: Adobe Target Business Practitioner Guide
 breadcrumb-title: Målguide
 user-guide-description: Lär er hur ni skräddarsyr och personaliserar era kunders upplevelser för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
@@ -123,7 +123,7 @@ ht-degree: 0%
    + Automatiskt mål {#auto-target}
       + [Översikt över Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Skapa en Automatisk målaktivitet](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Automatisk målsökning och vanliga frågor](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Vanliga frågor och felsökning för Automatiskt mål](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Rapportering och automatisk målgruppsanpassning](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization - översikt](c-activities/t-automated-personalization/automated-personalization.md)
