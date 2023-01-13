@@ -1,11 +1,12 @@
 ---
-keywords: vec;Visual experience composer; vec;iframe;extension;browser
+keywords: vec;Visual experience composer; vec;iframe;extension;browser;faq
 description: Upptäck varför vissa webbplatser inte kan öppnas på ett tillförlitligt sätt i [!UICONTROL Visual Experience Composer] (VEC). The [!UICONTROL Visual Editing Helper] Med webbläsartillägg kan du läsa in webbplatser på ett tillförlitligt sätt i VEC.
 title: Hur jag använder [!UICONTROL Visual Editing Helper] Tillägget?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] webbläsart
 
 >[!IMPORTANT]
 >
->Det nya tillägget ersätter det föregående [Webbläsartillägg för målets VEC-hjälp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+>Det nya tillägget ersätter det föregående [Webbläsartillägg för målets VEC-hjälp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln.
 
 ## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 
@@ -58,6 +59,12 @@ Använda [Förbättrad Experience Composer](/help/main/administrating-target/vis
    * Om at.js eller alloy.js ännu inte har implementerats på webbplatsen visas ett meddelande i VEC om att du har installerat tillägget.
 * Om du försöker använda det nya tillägget går du tillbaka till [gammalt tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) och [!DNL Target] kan inte läsa in webbplatsen, rensa alla webbläsardata och inaktivera det nya tillägget.
 
+## Vanliga frågor
 
+### Gör tillägget, när det är aktivt, något när det används utanför [!DNL Adobe Target] eller [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
+Tillägget aktiveras bara när webbplatsen i fråga läses in inuti en iFrame i [!DNL Adobe] produkter ([!DNL Target], [!DNL AJO]). Utanför det här flödet försöker tillägget inte lägga till, ta bort eller ändra några rubriker och tillägget försöker inte att mata in någon kod inuti webbplatsen.
 
+### Vad gör tillägget när det är aktivt i [!DNL Adobe Target] VEC?
+
+När en webbplats läses in inuti en iFrame in [!DNL Adobe] produkter ([!DNL Target], [!DNL AJO]) infogar tillägget kod (medföljer tillägget) på webbplatsen och hämtar hjälpfiler från [!DNL Adobe] CDN för visuell redigering.

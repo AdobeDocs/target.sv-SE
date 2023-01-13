@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 13 januari | [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Ett avsnitt med vanliga frågor har lagts till. |
 | 12 januari | [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Uppdaterad viktig information som förklarar statusen för den aktuella [!UICONTROL Visual Experience Composer] hjälptillägg. |
 |  | [Mål och målgrupper Frågor och svar](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Lagt till information som förklarar målgrupps-URL och URL-mål tillagd via [!UICONTROL Template Rules] utvärderas som URL-mål. |
 |  | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation för version 22.13.3 har lagts till. |

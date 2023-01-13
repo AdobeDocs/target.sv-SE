@@ -4,9 +4,9 @@ description: Granska en lista med ämnen som kan hjälpa dig att lösa problem i
 title: Hur felsöker jag Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -159,4 +159,5 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 * [Felsöka Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Bästa praxis och begränsningar för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Ändringar](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+* [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
