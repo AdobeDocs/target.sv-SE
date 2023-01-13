@@ -4,7 +4,7 @@ description: Upptäck varför vissa webbplatser inte kan öppnas på ett tillfö
 title: Hur jag använder [!UICONTROL Visual Editing Helper] Tillägget?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -32,7 +32,7 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] webbläsart
 * Alla iframe-busting-rubriker, som `X-Frame-Options` och `Content-Security-Policy`, tas implicit bort från webbplatsen. Du behöver inte skapa komplicerade regler för att få rätt.
 * Om en webbsida ännu inte innehåller [!DNL Target] at.js-biblioteket kan du använda tillägget för att mata in biblioteket så att du kan skapa upplevelser för webbplatsen. Du kan sedan skapa aktiviteter och köra frågor och svar med hjälp av förhandsgranskningslänkar.
 
-Använda [Förbättrad Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), inkluderar tillägget inte at.js, men funktionen SameSite Cookie finns fortfarande. Om du vill mata in at.js på webbsidan stänger du av EEC.
+   Använda [Förbättrad Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), inkluderar tillägget inte at.js, men funktionen SameSite Cookie finns fortfarande. Om du vill mata in at.js på webbsidan stänger du av EEC.
 
 * [Mobilvisningsrutor](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) stöds även utan [!UICONTROL Enhanced Experience Composer] (EEG).
 * Kunder som är nybörjare på [!DNL Target] kan använda tillägget för att experimentera med [!DNL Target] även om deras IT-utvecklare ännu inte har implementerat [!DNL Target] på deras webbplatser.
