@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ När du har utfört de föregående åtgärderna visas upplevelsefragmentet på 
 >
 >* Upplevelsefragmentet importeras till [!DNL Target] som ett HTML- eller JSON-erbjudande. Den&quot;primära&quot; versionen av upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 
+
+Du kan filtrera och söka efter [!UICONTROL HTML XF] och [!UICONTROL JSON XF] som hjälper dig att skilja mellan upplevelsefragmenttyper som exporteras till [!DNL Target].
 
 Du kan hovra över ett upplevelsefragment i listan och sedan klicka på [!UICONTROL View] icon ![Ikonen Visa](assets/icon_info.png) för att få mer information om upplevelsefragmentet, inklusive dess URL för offentlig leverans och dess [!DNL AEM] bana.
 
