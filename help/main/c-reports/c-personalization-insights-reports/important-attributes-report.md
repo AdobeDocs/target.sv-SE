@@ -4,9 +4,9 @@ description: Lär dig använda [!UICONTROL Important Attributes] som visar de vi
 title: Vilken är den viktiga attributrapporten?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,6 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 1. Välj önskat datumintervall.
 
    Till skillnad från [!UICONTROL Summary] rapport (resultatrapportering), [!UICONTROL Personalization Insights], inklusive [!UICONTROL Important Attributes], är bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar och 60 dagar.
-
-   >[!NOTE]
-   >
-   >The [!DNL Target] I användargränssnittet kan du välja datumintervall på 45 dagar och 90 dagar. Men [!DNL Target] I backend bearbetas inte dessa två intervall. På grund av användningsmönster och i ett försök att förbättra prestandan har datumintervallen tagits bort. Gränssnittet uppdateras för att återspegla de aktuella tillåtna intervallen: 15, 30 och 60 dagar.
 
    Dessa fasta datumintervall tillåter [!UICONTROL Personalization Insights] om du vill använda ett stort och tillräckligt stort dataområde för att minska sannolikheten för att ni får insikter från ett kort mönster i din aktivitet. De två beslut som du kan fatta för datumintervallet är&quot;Slutdatum&quot; och&quot;Varaktighet&quot;. Du kommer att märka att &quot;Start&quot; är nedtonat. Startdatumet ändras automatiskt baserat på dina val för slutdatumet och varaktigheten.
 

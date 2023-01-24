@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 24df83c228ef5ebb9f0cd2234a689244625be9a2
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,15 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
-* Utökat stöd för JSON-erbjudanden i [!UICONTROL Automated Personalization] (AP) med formulärbaserad Experience Composer. (TGT-41460)
-* Implementerat [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) för AP-aktiviteter för utvalda kunder. Den här funktionaliteten blir tillgänglig för alla kunder efter en inledande testfas. (TGT-44341)
-* Egna namn har lagts till i [!UICONTROL Analytics for Target] A4T-rapportering. Tidigare [!DNL Target] visas endast med upplevelse-ID:n. Den här förbättringen justerar rapporteringen mellan [!DNL Adobe Analytics] och [!DNL Target] och hjälper kunderna att effektivisera arbetet med att skapa rapporter i A4T. (TGT-41853)
+| Funktion | Detaljer |
+| --- | --- |
+| Automated Personalization (AP) | Utökat stöd för JSON-erbjudanden i [!UICONTROL Automated Personalization] (AP) med formulärbaserad Experience Composer.<br>Mer information finns i [Skapa JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| Recommendations | Eget namn i [!UICONTROL Analytics for Target] A4T-rapportering är nu tillgänglig. Tidigare [!DNL Target] visas endast med upplevelse-ID:n. Den här förbättringen justerar rapporteringen mellan [!DNL Adobe Analytics] och [!DNL Target] och hjälper kunderna att effektivisera arbetet med att skapa rapporter i A4T. (TGT-41853) |
+| Aktivitets-QA | Implementerat [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) för AP-aktiviteter för utvalda kunder. Den här funktionaliteten blir tillgänglig för alla kunder efter en inledande testfas. (TGT-44341) |
+
 * Ett problem som orsakade felet 500 i [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) aktiviteter som innehåller rekommendationer. Problemet uppstod när [!DNL Target] det gick inte att ta bort villkorsobjekt från [!DNL Target] Användargränssnitt och [!DNL Recommendations] som inte längre används. (TGT-44383)
 * Platsen har tagits bort från erbjudandets namn i [!UICONTROL Offer Level] rapport för [!UICONTROL Automated Personalization] verksamhet. Den här ändringen gör rapporten mer läsbar. (TGT-44294)
 * Ändrade namn på &quot;[!UICONTROL Experience Fragment]&quot; i [!UICONTROL Visual Experience Composer] (VEC) arbetsflöde. Alternativet är nu &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
-* Lagt till möjlighet att visa metadata för upplevelsefragment i verktygstipset för erbjudandeinformation. (TGT-43838)
 * Alternativen för 45-dagars och 90-dagars kalender har tagits bort från åtkomstpunkten och [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] och [!UICONTROL Important Attributes] rapporter i [!DNL Target] Gränssnitt. På grund av användningsmönster och för att förbättra prestanda har datumintervallen tagits bort. Gränssnittet har uppdaterats för att återspegla de aktuella tillåtna intervallen: 15, 30 och 60 dagar. (TGT-39357)
 * Otillåten möjlighet att ändra [!UICONTROL Same as Optimization Goal] på [!UICONTROL Goals & Settings] sida efter att aktiviteten är aktiv. (TGT-43923)
 * Ett problem som orsakade problem med standardarbetsytan i [!DNL Target] backend när du uppgraderar från [!DNL Target Standard] till [!DNL Target Premium]. (TGT-44081 &amp; TGT-44306)

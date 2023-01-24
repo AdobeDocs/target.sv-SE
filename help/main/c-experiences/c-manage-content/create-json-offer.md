@@ -1,12 +1,12 @@
 ---
 keywords: fjärrerbjudande;skapa fjärrerbjudande
-description: Lär dig hur du skapar JSON-erbjudanden i Adobe [!DNL Target] för användning i den formulärbaserade Experience Composer. JSON-erbjudanden är användbara för SPA ramverk eller integreringar på serversidan.
+description: Lär dig hur du skapar JSON-erbjudanden i Adobe [!DNL Target] för användning i den formulärbaserade Experience Composer.
 title: Hur skapar jag JSON-erbjudanden?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 Skapa JSON-erbjudanden i [!UICONTROL Offer Library] in [!DNL Adobe Target] för användning i [!UICONTROL Form-Based Experience Composer].
 
-JSON-erbjudanden kan användas i blankettbaserade aktiviteter, där man kan använda [!DNL Target]Vi måste fatta beslut för att kunna skicka ett erbjudande i JSON-format för konsumtion i SPA ramverk eller på serversidan.
+JSON-erbjudanden kan användas i blankettbaserade aktiviteter, där man kan använda [!DNL Target] Du måste fatta beslut för att skicka ett erbjudande i JSON-format för konsumtion i SPA ramverk eller serverintegreringar.
 
 ## JSON-överväganden
 
 Tänk på följande när du arbetar med JSON:
 
-* JSON-erbjudanden är för närvarande bara tillgängliga för [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) aktiviteter.
+* JSON-erbjudanden är för närvarande bara tillgängliga för [!UICONTROL A/B Test], Automated Personalization (AP) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
 * JSON-erbjudanden kan användas i [formulärbaserad verksamhet](/help/main/c-experiences/form-experience-composer.md) endast.
-* JSON-erbjudandet kan hämtas direkt när du använder API:t för serversidan, Mobile SDK eller NodeJS SDK.
+* JSON-erbjudandet kan hämtas direkt när du använder [API:er på serversidan och Mobile Node.js, Java, .NET och Python SDK:er](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 * I webbläsaren kan JSON-erbjudanden ENDAST hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} genom att filtrera åtgärder med `setJson` åtgärd.
 * JSON-erbjudanden levereras som systemspecifika JSON-objekt i stället för som strängar. Konsumenter av dessa objekt behöver inte längre hantera objekt som strängar och konvertera dem till JSON-objekt.
 * JSON-erbjudanden tillämpas inte automatiskt i motsats till andra erbjudanden (till exempel erbjudanden från HTML) eftersom JSON-erbjudanden är icke-visuella erbjudanden. Utvecklare måste skriva kod för att explicit få erbjudandet med [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
@@ -44,7 +44,7 @@ Tänk på följande när du arbetar med JSON:
 
 ## JSON-exempel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON-erbjudanden stöds endast i aktiviteter som skapats med [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). För närvarande är det enda sättet att kunna använda JSON-erbjudanden via direkta API-anrop.
+JSON-erbjudanden stöds endast i aktiviteter som skapats med [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). För närvarande är det enda sättet att kunna använda JSON-erbjudanden via direkta API-/SDK-anrop.
 
 Här är ett exempel:
 
@@ -68,7 +68,7 @@ De åtgärder som skickas till motringningen är en objektmatris. Förutsatt att
 }
 ```
 
-Åtgärdsarrayen har följande struktur:
+Arrayen actions har följande struktur:
 
 ```json
 [ 
@@ -81,7 +81,7 @@ De åtgärder som skickas till motringningen är en objektmatris. Förutsatt att
 ]
 ```
 
-Du kan extrahera JSON-erbjudandet genom åtgärder och hitta åtgärden med `setJson` och iterera sedan genom innehållsarrayen.
+Om du vill extrahera JSON-erbjudandet itererar du genom åtgärder och hittar åtgärden med `setJson` och iterera sedan genom content-arrayen.
 
 ## Använd skiftläge {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -133,13 +133,13 @@ adobe.target.getOffer({
 
 ## JSON erbjuder exempel med CDP-profilattribut i realtid
 
-CDP-profilattribut i realtid kan delas med Target för användning i HTML och JSON-erbjudanden. (Observera att den här funktionen för närvarande är i betaversionen.)
+CDP-profilattribut i realtid kan delas med [!DNL Target] för HTML och JSON. (Observera att den här funktionen för närvarande är i betaversionen.)
 
-Exempel: Grace vill att AEP/Unified Profile ska dela attributvärden med Target för att kunna erbjuda personalisering i realtid. Med CDP-profilattribut i realtid kan Grace visa värdet för AEP-attributet i ett Target-erbjudande med tokenersättning. Hon kan till exempel anpassa sig efter kundens favoritfärg med `${aep.profile.favoriteColor}`eller deras lojalitetsnivå och förmånspoängvärde med hjälp av tokens `${aep.loyalty.tier}` och `${aep.loyalty.points}`.
+Exempel: Som onlinemarknadsförare vill Grace att AEP/Unified Profile ska dela attributvärden med [!DNL Target] för att tillhandahålla personalisering i realtid. Med CDP-profilattribut i realtid kan Grace visa AEP-attributets värde i en [!DNL Target] Erbjudande med tokenersättning. Hon kan till exempel anpassa sig efter kundens favoritfärg med `${aep.profile.favoriteColor}`eller deras lojalitetsnivå och förmånspoängvärde med hjälp av tokens `${aep.loyalty.tier}` och `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
-I exemplet ovan är det valfritt att tilldela standardvärden.
+Observera att det är valfritt att tilldela standardvärden.
 
 ## Filtrera erbjudanden efter erbjudandetypen JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 

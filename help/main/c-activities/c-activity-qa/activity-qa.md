@@ -4,9 +4,9 @@ description: Lär dig använda Adobe [!DNL Target] QA-URL:er för enkel heltäck
 title: Hur gör jag QA-aktiviteter?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1783'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamhe
 * Länkar att dela med teammedlemmar som aldrig behöver ändras eller behöver genereras om, oavsett vilka uppdateringar som gjorts för upplevelserna eller aktiviteterna. Med den här funktionen kan du testa dina aktiviteter fullständigt under hela användarresan.
 * Målgruppsvillkor kan respekteras så att marknadsförarna kan testa målinriktningskriterier eller ignorera målinriktningskriterier för att få QA att visa hur upplevelserna ser ut utan att behöva uppfylla målgruppsvillkoren.
 * QA-rapportering samlas in så att marknadsförarna kan bekräfta att mätvärdena ökar som förväntat och att QA-rapportdata hålls åtskilda från produktionsrapporter (för icke-A4T-rapportering).
-* Möjlighet att förgranska en upplevelse separat eller med andra aktiva aktiviteter som uppfyller leveranskriterierna (sid/målbegäran/målgrupp).
+* Möjlighet att förgranska en upplevelse separat eller med andra aktiva aktiviteter som uppfyller leveranskriterierna (sida/[!DNL Target] förfrågan/målgrupp).
 * Möjlighet att köra QA under hela användarresan. Du kan komma åt din webbplats en gång med QA-länken och sedan bläddra på hela webbplatsen i Activity QA. Du är kvar i Activity QA tills du avslutar sessionen eller tills du använder [QA Target-bokmärke](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) att tvinga dig ut ur [!UICONTROL Activity QA]. Den här funktionen är användbar om du har en aktivitet som sträcker sig över flera webbsidor.
 
    >[!NOTE]
@@ -29,7 +29,7 @@ Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamhe
 
 ## Åtkomst till och delning av en QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Från en aktivitet [!UICONTROL Overview] klickar du på **[!UICONTROL Activity QA]** länk.
+1. Från en aktivitet [!UICONTROL Overview] sida, klicka **[!UICONTROL Activity QA]**.
 
    ![Länk till aktivitets-QA](assets/qa_link.png)
 
@@ -61,9 +61,14 @@ Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamhe
 
 ## Överväganden {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* The [!UICONTROL Activity QA] länken visas på [!UICONTROL Overview] sida med alla aktivitetstyper utom [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] (AP).
+* The [!UICONTROL Activity QA] länken visas på [!UICONTROL Overview] sida med alla aktivitetstyper utom [!UICONTROL Automated Personalization] (AP).
+
+   >[!NOTE]
+   >
+   >[Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) för AP-aktiviteter är för närvarande tillgängliga för utvalda kunder i ett Beta-program. Den här funktionaliteten blir tillgänglig för alla kunder efter en inledande testfas.
+
 * [!UICONTROL Activity QA] Förhandsgranskningslänkar för sparade aktiviteter läses kanske inte in om det finns för många sparade aktiviteter på ditt konto. Det bör fungera att försöka återanvända förhandsvisningslänkarna. Om du vill förhindra att den här situationen fortsätter att inträffa arkiverar du sparade aktiviteter som inte längre används aktivt.
-* [!UICONTROL Activity QA] URL:er är tillgängliga med aktiviteter med Analytics som rapportkälla (A4T). Träffar genereras när du utför QA med [!UICONTROL Activity QA] till samma rapportsvit där aktivitetens data flödar även efter att aktiviteten har publicerats.
+* [!UICONTROL Activity QA] URL:er är tillgängliga med aktiviteter med [Analyser som rapportkälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Träffar genereras när du utför QA med [!UICONTROL Activity QA] till samma rapportsvit där aktivitetens data flödar även efter att aktiviteten har publicerats.
 * [!UICONTROL Activity QA] visar inte innehåll för arkiverade aktiviteter eller aktiviteter som ligger efter slutdatumet. Om du inaktiverar en avslutad aktivitet måste du spara aktiviteten igen för att [!UICONTROL Activity QA] till jobbet.
 * Verksamhet som importeras till [!DNL Target Standard/Premium] (från [!DNL Target Classic], till exempel) saknar stöd för QA-URL:er.
 * I [!UICONTROL Auto-Allocate] och [!UICONTROL Recommendations] verksamheter, modellen inte påverkas av de besök som gjorts i [!UICONTROL Activity QA].
@@ -78,7 +83,7 @@ Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamhe
 
    På grund av den här dubbla kodningen, när [!DNL Target] försöker avkoda `at_preview_token`, [!DNL Target] kan inte extrahera rätt tokenvärde, vilket medför att förhandsvisningen inte fungerar.
 
-   Adobe rekommenderar att du pratar med IT-avdelningen för att säkerställa att alla förhandsgranskningsparametrar är tillåtslista så att dessa värden inte förändras på något sätt.
+   [!DNL Adobe] rekommenderar att du pratar med IT-avdelningen för att säkerställa att alla förhandsgranskningsparametrar är tillåtslista så att dessa värden inte förändras på något sätt.
 
    I följande tabell visas de parametrar som kan tillåtslista i din domän:
 
@@ -114,6 +119,10 @@ I följande tabell visas de olika aktivitetstyperna och om [!UICONTROL Activity 
 | [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
+
+>[!NOTE]
+>
+>[Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) för AP-aktiviteter är för närvarande tillgängliga för utvalda kunder i ett Beta-program. Den här funktionaliteten blir tillgänglig för alla kunder efter en inledande testfas.
 
 ## Förhandsgranska URL:er {#preview}
 
