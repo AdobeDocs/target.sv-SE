@@ -5,9 +5,9 @@ landing-page-description: Läs om de nya funktionerna, förbättringarna och kor
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 888c50e7052229c22136526d632f89fbaa548298
+source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Den här versionen innehåller följande nya funktioner, förbättringar och kor
 
 | Funktion | Detaljer |
 | --- | --- |
-| Automated Personalization (AP) | Utökat stöd för JSON-erbjudanden i [!UICONTROL Automated Personalization] (AP) med formulärbaserad Experience Composer.<br>Mer information finns i [Skapa JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| [JSON-erbjudande](/help/main/c-experiences/c-manage-content/create-json-offer.md) stöd i Automated Personalization (AP) | Utökat stöd för JSON-erbjudanden i [!UICONTROL Automated Personalization] (AP) med formulärbaserad Experience Composer. (TGT-41460) |
 | Recommendations | Eget namn i [!UICONTROL Analytics for Target] A4T-rapportering är nu tillgänglig. Tidigare [!DNL Target] visas endast med upplevelse-ID:n. Den här förbättringen justerar rapporteringen mellan [!DNL Adobe Analytics] och [!DNL Target] och hjälper kunderna att effektivisera arbetet med att skapa rapporter i A4T. (TGT-41853) |
-| AEM upplevelsefragment | Lagt till möjlighet att skilja mellan [!DNL Adobe Experience Manager] fragmenttyper (AEM XF) som exporteras till [!DNL Target]. I stället för alternativet Experience Fragment [!DNL Target] kan du nu filtrera och söka efter &quot;HTML XF&quot; och &quot;JSON XF&quot;. <br>Mer information finns i [AEM upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). (TGT-44132) |
+| [AEM upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Lagt till möjlighet att skilja mellan [!DNL Adobe Experience Manager] fragmenttyper (AEM XF) som exporteras till [!DNL Target]. I stället för alternativet Experience Fragment [!DNL Target] kan du nu filtrera och söka efter &quot;HTML XF&quot; och &quot;JSON XF&quot;. (TGT-44132) |
 
 * Ett problem som orsakade felet 500 i [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) aktiviteter som innehåller rekommendationer. Problemet uppstod när [!DNL Target] det gick inte att ta bort villkorsobjekt från [!DNL Target] Användargränssnitt och [!DNL Recommendations] som inte längre används. (TGT-44383)
 * Platsen har tagits bort från erbjudandets namn i [!UICONTROL Offer Level] rapport för [!UICONTROL Automated Personalization] verksamhet. Den här ändringen gör rapporten mer läsbar. (TGT-44294)
