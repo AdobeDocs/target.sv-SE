@@ -5,7 +5,7 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
+source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -163,17 +163,17 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 * **Gräns**: 250 tecken.
 
-För leverans-API (at.js 2.*x*), integrering av Batch Mbox V2 och AEP Web SDK (alloy.js), mbox-namn *kan* innehåller alfanumeriska tecken (A-Z, a-z, 0-9) och något av följande tecken:
+   För leverans-API (at.js 2.*x*), integrering av Batch Mbox V2 och AEP Web SDK (alloy.js), mbox-namn *kan* innehåller alfanumeriska tecken (A-Z, a-z, 0-9) och något av följande tecken:
 
-```
-- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-```
+   ```
+   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+   ```
 
-För at.js 1.*x* integreringar, mbox-namn *inte* innehåller något av följande tecken:
+   För at.js 1.*x* integreringar, mbox-namn *inte* innehåller något av följande tecken:
 
-```
-' " %22 %27 < > %3C %3E 
-```
+   ```
+   ' " %22 %27 < > %3C %3E 
+   ```
 
 ### mbox-parametrar {#mbox-parameters}
 
