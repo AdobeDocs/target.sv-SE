@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
+source-git-commit: 74bf5214a4b6cd771d8842781d855bb4bd00efe0
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1901'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 31 januari | [Gränser](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | En lista över tillåtna och otillåtna tecken i mbox-namn har lagts till. |
 | 25 januari | [Skapa JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Anger att stöd för JSON erbjuder i [!UICONTROL Automated Personalization] (AP)-aktiviteter som använder formulärbaserad Experience Composer är nu tillgängliga. |
 |  | [Adobe Target notiser och event](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break: Mobil- och autentiserade användningsexempel för upplevelseoptimering</li></ul> |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.13.3-utgåvan. |
