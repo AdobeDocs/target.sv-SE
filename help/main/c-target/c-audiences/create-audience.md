@@ -4,9 +4,9 @@ description: Lär dig skapa anpassade målgrupper och spara dem i [!DNL Adobe Ta
 title: Hur skapar jag målgrupper?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,15 @@ Följande regel riktar sig till exempel till besökare som använder antingen Ch
    Kopiera en befintlig målgrupp från [!UICONTROL Audiences] klickar du på **[!UICONTROL More Actions]** ikon (ellipsikonen) och klicka sedan på **[!UICONTROL Duplicate]**. Sedan kan ni redigera målgruppen för att skapa en liknande målgrupp.
 
 1. Skriv ett unikt, beskrivande målgruppsnamn och en valfri beskrivning.
+
+   Målgruppsnamn får inte börja med följande tecken:
+
+   `=  +  -  !  @`
+
+   Målgruppsnamn får inte innehålla någon av följande teckensekvenser:
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. Dra och släpp önskade attribut från **[!UICONTROL Attributes]** till höger om målgruppsbyggaren.
 
    ![Dra och släpp attribut](assets/drag-attribute.png)
