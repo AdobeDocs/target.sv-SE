@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
+source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -123,4 +123,8 @@ Om varken Visual Experience Composer eller Enhanced Experience Composer fungerar
 
 ## VEC-värdet visas som brutet när jag använder bläddringsläge. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Om du använder bläddringsläget och har åtkomst till en URL som inte har target.js eller som innehåller ett frame-buster-huvud, visas visuella Experience Composer som brutna. På grund av säkerhetsproblem i webbläsaren kan inte Target komma åt den URL du navigerade till.
+Om du använder bläddringsläge och har åtkomst till en URL som inte har [!DNL Target] implementerade bibliotek ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) eller innehåller en bildrutebusterrubrik, visas VEC som brutet. På grund av säkerhetsproblem i webbläsaren [!DNL Target] kan inte komma åt den URL du navigerade till eller så uppdateras inte VEC-URL:en konsekvent om sidan läses in.
+
+Problemet inträffar eftersom VEC läser in webbsidan i en `<iframe>`. De nuvarande säkerhetsfunktionerna i webbläsarna förhindrar [!DNL Target] Gränssnittet kan inte komma åt elementen i den angivna bildrutan på grund av principen för samma ursprung. Webbläsare blockerar skript som försöker få åtkomst till en bildruta med en annan ursprung och som innehåller information som `location.href`.
+
+Du måste använda den nya [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (rekommenderas) eller [gammalt tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) för att injicera [!DNL Target] Bibliotek på sidorna för att kunna bläddra optimalt.

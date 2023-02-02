@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 74bf5214a4b6cd771d8842781d855bb4bd00efe0
+source-git-commit: 6c58b7627d776bccf36165b80ed30f8537fc8f5e
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 2 februari | [Felsöka problem med Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Följande avsnitt har uppdaterats:<ul><li>VEC visas som brutet när jag använder bläddringsläge</li></ul> |
 | 31 januari | [Gränser](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | En lista över tillåtna och otillåtna tecken i mbox-namn har lagts till. |
 | 25 januari | [Skapa JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Anger att stöd för JSON erbjuder i [!UICONTROL Automated Personalization] (AP)-aktiviteter som använder formulärbaserad Experience Composer är nu tillgängliga. |
 |  | [Adobe Target notiser och event](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break: Mobil- och autentiserade användningsexempel för upplevelseoptimering</li></ul> |
