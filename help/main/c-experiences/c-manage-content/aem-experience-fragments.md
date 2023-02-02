@@ -4,24 +4,28 @@ description: Lär dig använda [!DNL Adobe Experience Manager] upplevelsefragmen
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) Upplev fragment?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
+source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # AEM upplevelsefragment
 
-Använd upplevelsefragment som skapats i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering.
+Använd upplevelsefragment (XF) skapade i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering.
 
 >[!NOTE]
 >
->Den här funktionen kräver att du är en [!DNL Adobe Experience Manager] (AEM) kund. Mer information finns i [Krav](#section_AE6F0971E1574B3AA324003599B96E5A) nedan.
+>Tänk på följande när du arbetar med AEM upplevelsefragment i [!DNL Target]:
+> 
+>* Den här funktionen kräver att du är en [!DNL Adobe Experience Manager] (AEM) kund. Mer information finns i [Krav](#section_AE6F0971E1574B3AA324003599B96E5A) nedan.
+>* Den här funktionen är tillgänglig för följande aktivitetstyper: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), och [!UICONTROL Experience Targeting] (XT). Den här funktionen är inte tillgänglig i [!UICONTROL Multivariate Test] (MVT) och [!UICONTROL Recommendations] verksamhet.
+
 
 Använda upplevelsefragment som skapats i [!DNL AEM] in [!DNL Target] gör att du kan kombinera användarvänligheten och kraften i [!DNL AEM] med kraftfulla funktioner för artificiell intelligens (AI) och maskininlärning (ML) i [!DNL Target] att testa och personalisera upplevelser i stor skala.
 
-[!DNL AEM] sammanför allt innehåll och alla resurser på en central plats för att understödja er personaliseringsstrategi. [!DNL AEM] gör att du enkelt kan skapa innehåll för datorer, surfplattor och mobila enheter på en plats utan att skriva kod. Du behöver inte skapa sidor för alla enheter. [!DNL AEM] anpassar automatiskt varje upplevelse med ditt innehåll.
+[!DNL AEM] sammanför allt innehåll och alla resurser på en central plats för att understödja er personaliseringsstrategi. [!DNL AEM] gör att du enkelt kan skapa innehåll för datorer, surfplattor och mobila enheter på en plats utan att skriva kod. Du behöver inte skapa sidor för alla enheter. [!DNL AEM] anpassar automatiskt varje upplevelse för varje enhet som använder ditt innehåll.
 
 [!DNL Target] Med kan ni leverera personaliserade upplevelser i stor skala baserat på en kombination av regelbaserade och AI-drivna maskininlärningsstrategier som innehåller beteendevariabler, sammanhangsbaserade variabler och offlinevariabler. Med [!DNL Target]kan du enkelt konfigurera och köra [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md) och [Multivariat](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) för att fastställa de bästa erbjudandena, innehållet och upplevelserna.
 
@@ -93,9 +97,13 @@ När du har utfört de föregående åtgärderna visas upplevelsefragmentet på 
 >* Upplevelsefragmentet importeras till [!DNL Target] som ett HTML- eller JSON-erbjudande. Den&quot;primära&quot; versionen av upplevelsefragmentet finns kvar i [!DNL AEM]. Du kan inte redigera upplevelsefragmentet i [!DNL Target].
 
 
-Du kan filtrera och söka efter [!UICONTROL HTML XF] och [!UICONTROL JSON XF] som hjälper dig att skilja mellan upplevelsefragmenttyper som exporteras till [!DNL Target].
+Du kan filtrera och söka efter [!UICONTROL HTML XFs] och [!UICONTROL JSON XFs] som hjälper dig att skilja mellan upplevelsefragmenttyper som exporteras till [!DNL Target].
 
-Du kan hovra över ett upplevelsefragment i listan och sedan klicka på [!UICONTROL View] icon ![Ikonen Visa](assets/icon_info.png) för att få mer information om upplevelsefragmentet, inklusive dess URL för offentlig leverans och dess [!DNL AEM] bana.
+![Filtrera efter upplevelsefragmenttyper: HTML eller JSON i målgränssnittet](/help/main/c-experiences/c-manage-content/assets/fragment-types.png)
+
+Du kan hovra över ett upplevelsefragment i listan och sedan klicka på [!UICONTROL View] icon ![Ikonen Visa](assets/icon_info.png) om du vill se ytterligare information om upplevelsefragmentet, inklusive namn, typ, erbjudande-ID, erbjudandesökväg och information om senaste ändringar. Klicka på fliken Erbjudandeanvändning för att se vilka aktiviteter som refererar till erbjudandet.
+
+![Popup för information om Experience fragment](/help/main/c-experiences/c-manage-content/assets/xf-info-popup.png)
 
 Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) eller [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
@@ -131,8 +139,6 @@ Du kan förbruka upplevelsefragment i [!DNL Target] aktiviteter som använder [V
    * **Automatiskt mål:** [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **Automated Personalization (AP):** [Skapa en Automated Personalization-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Experience Targeting (XT):** [Skapa en upplevelseinriktad aktivitet](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **Multivariata tester (MVT):** [Skapa ett multivariata test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Recommendations:** [Skapa en Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 >[!NOTE]
 >
