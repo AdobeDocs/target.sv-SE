@@ -4,7 +4,7 @@ description: Lär dig skapa anpassade målgrupper och spara dem i [!DNL Adobe Ta
 title: Hur skapar jag målgrupper?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Följande regel riktar sig till exempel till besökare som använder antingen Ch
 
    Målgruppsnamn får inte innehålla någon av följande teckensekvenser:
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. Dra och släpp önskade attribut från **[!UICONTROL Attributes]** till höger om målgruppsbyggaren.
 
