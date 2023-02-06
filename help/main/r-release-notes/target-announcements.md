@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: cead599ec57e0532cabe29295d19380eb80575f9
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -20,20 +20,6 @@ Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL T
 Gartner namngiven [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant for Personalization Engines (PE) för femte året i rad. [!DNL Adobe] fick även toppresultat och betydande årsökningar över alla tre primära användningsfall: Digital marknadsföring, digital handel samt service och support. [!DNL Target] fick högsta poäng för testningskapaciteten hos alla utvärderade leverantörer.
 
 Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
-
-## [!DNL Adobe Target] Community Q&amp;A Coffee Break
-
-* **Mobil- och autentiserade användningsexempel för upplevelseoptimering**
-* **onsdagen den 1 februari 2023**
-* **08:00 - 09:00. (PST, GMT-8)**
-* **[Registrering](https://adobe.ly/3IWsAiX){target=_blank}**
-
-Brent Kostak, Product Marketing Manager för [!DNL Adobe Target]som chattar direkt med dig i den här tråden om [!DNL Target] frågor om fall av mobil och autentiserad användning för Experience Optimization:
-
-* Arbetsflöden för aktivitetsinställningar i [!DNL Target]
-* Kundlivscykelstatistik för testning och anpassning av mobilupplevelser
-* Utnyttja AI/ML för personalisering i olika kanaler via webben och appar
-* SDK för mobiler och API:er för flexibla implementeringar som stöder iOS- och Android-plattformar
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
