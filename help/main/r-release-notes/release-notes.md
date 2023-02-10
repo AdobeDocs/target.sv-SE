@@ -5,9 +5,9 @@ landing-page-description: Lär dig om de nya funktionerna, förbättringarna och
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '866'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,19 @@ ht-degree: 1%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard] och [!DNL Target Premium] release. Versionsinformation om [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar ingår också, i tillämpliga fall.
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
+
+## [!DNL Target] Standard/Premium 22.14.5 (13-15 februari 2023)
+
+Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
+
+* **13 februari**: Amerika
+* **15 februari**: Europa, Mellanöstern och Afrika (EMEA)
+* **15 februari**: Asien-Stillahavsområdet (APAC)
+
+Den här versionen innehåller följande korrigeringar:
+
+* Ett problem som orsakade följande felmeddelande har korrigerats även om en egenskap angavs i Automated Personalization-aktiviteter (AP): &quot;Fel: Minst en egenskap måste tillhöra en icke-standardarbetsyta (TGT-44607)
+* Ett potentiellt säkerhetsproblem som påverkar Recommendations-flöden på serversidan har korrigerats. (TGT-43769)
 
 ## at.js version 2.10.1 (2 februari 2023)
 
