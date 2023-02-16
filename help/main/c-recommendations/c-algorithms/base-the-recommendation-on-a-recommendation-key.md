@@ -5,9 +5,9 @@ title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
 workflow-type: tm+mt
-source-wordcount: '3768'
+source-wordcount: '3774'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Olika rekommendationsalgoritmer passar in på olika typer av sidor. Mer informat
 
 ## Cart-baserad {#cart-based}
 
-The [!UICONTROL Cart-Based] Med algoritmtyp kan du rekommendera objekt baserat på innehållet i besökarens aktuella kundvagn. Rekommendationsnycklarna anges via parametern mbox `cartIds` i kommaavgränsade värden. Endast de första 10 värdena beaktas.
+The [!UICONTROL Cart-Based] Med algoritmtyp kan du rekommendera objekt baserat på innehållet i besökarens aktuella kundvagn. Rekommendationsnycklarna tillhandahålls via [mbox-parameter `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} i kommaavgränsade värden. Endast de första 10 värdena beaktas.
 
 Cart-baserad rekommendationslogik liknar den[!UICONTROL Recommended For You]användarbaserad algoritm och till[!UICONTROL People Who Viewed These, Bought Those]&quot; och &quot;[!UICONTROL People Who Bought These, Bought Those]objektbaserade algoritmer.
 
