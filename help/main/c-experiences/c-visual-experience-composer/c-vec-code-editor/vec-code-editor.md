@@ -4,9 +4,9 @@ description: Lär dig hur du använder panelen Ändringar i Adobe [!DNL Target] 
 title: Vilka ändringar kan jag göra på min sida?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2190'
 ht-degree: 0%
 
 ---
@@ -139,17 +139,17 @@ Använd **[!UICONTROL Custom Code]** till:
 
 * Växla på DOM-klar med jQuery
 
-I följande exempel med JQuery förutsätts att det finns jQuery tillgängligt på kundens webbplats när [!DNL Target] verkställer erbjudandena.
+   I följande exempel med JQuery förutsätts att det finns jQuery tillgängligt på kundens webbplats när [!DNL Target] verkställer erbjudandena.
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * Växla på DOM-klar, ingen jQuery (stöder inte Internet Explorer 8)
 
