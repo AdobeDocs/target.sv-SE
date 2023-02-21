@@ -4,9 +4,9 @@ description: Lär dig hur du använder panelen Ändringar i Adobe [!DNL Target] 
 title: Vilka ändringar kan jag göra på min sida?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
+source-git-commit: 85319079e00db70184950d36778f2e4060b44209
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Information om [!UICONTROL Modifications] sida in [!DNL Adobe Target] som gör att du kan visa ändringar på sidan och lägga till ytterligare ändringar (CSS-väljare, Mbox och anpassad kod).
 
-På sidan Ändringar visas alla ändringar som har gjorts på sidan i Visual Experience Composer (VEC). Du kan göra ytterligare ändringar genom att klicka på varje element på sidan och [välja en åtgärd](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Varje ändring du gör visas som en separat åtgärd eller ett separat element i [!UICONTROL Modifications] lista. Du kan också lägga till ändringar, bland annat följande ändringstyper: CSS-väljare, Mbox. och anpassad kod.
+The [!UICONTROL Modifications] visas alla ändringar som har gjorts på sidan i Visual Experience Composer (VEC) och där kan du göra ytterligare ändringar genom att klicka på varje element på sidan och [välja en åtgärd](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Varje ändring du gör visas som en separat åtgärd eller ett separat element i [!UICONTROL Modifications] lista. Du kan också lägga till ändringar, bland annat följande ändringstyper: CSS-väljare, Mbox. och anpassad kod.
 
 ## Översikt över ändringar {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -89,8 +89,8 @@ Använd sidan Ändringar för att:
    | Ändringstyp | Detaljer |
    |--- |--- |
    | CSS-väljare | I rutan CSS-elementväljare anger du önskat CSS-element som du vill ändra, väljer en åtgärdstyp ( Ange innehåll eller Ange attribut) och fyller sedan i den obligatoriska informationen och det önskade innehållet. |
-   | Mbox | Ange mbox-namnet och önskat innehåll.<br>**Anteckning**: Mboxes stöds inte längre i VEC på sidor som använder at.js 2.*x*.<br>Som tillfälliga lösningar:<ul><li>Om at.js 2 används.*x* lägger du till en CSS-väljarändring i stället för en Mbox-ändring och lägger till innehållet i väljaren som din mbox använde. </li><li>Använd formulärbaserade aktiviteter (fungerar med mboxes och at.js 1.)*x* och at.js 2.*x*).</li><li>Använd at.js 1.*x* i VEC.</li></ul> |
-   | Egen kod | Ange ett valfritt namn, markera eller avmarkera [!UICONTROL Add Code in the `<HEAD>` Avsnitt] markera kryssrutan efter behov och lägg sedan till din egen kod.<br>Om du väljer [!UICONTROL Add Code in the `<HEAD>` Avsnitt]läggs egen kod till i  `<head>`  -avsnittet och dess körning väntar inte på body- eller page-load-händelser. Lägg endast till `<script>` och  `<style>` -element. Lägger till  `<div>`  taggar och andra element kan orsaka resterande  `<head>`  element som ska visas i  `<body>`. Om du använder at.js kommer alla erbjudanden att levereras asynkront.<br> Om du avmarkerar [!UICONTROL Add Code in the `<HEAD>` Avsnitt], egen kod körs omedelbart efter `<body>` -tagg. Radbryt all kod i en enda `<div>` för att bevara DOM-strukturen. Om du använder at.js kommer alla erbjudanden att levereras asynkront.<br>Om HTML för `<BODY>` innehåller `<SCRIPT>` och `<DIV>`sedan `<DIV>` läggs till i `<BODY>` och `<SCRIPT>` körs i `<HEAD>`. Dessutom `<SCRIPT>` som läser in en extern fil läggs till i `<HEAD>`.<br>**Anteckning**: Skript körs asynkront. Det innebär att du inte kan använda `document.write`  eller liknande skriptmetoder.<br>Anpassad kod ger ett icke-visuellt gränssnitt för att visa, redigera och lägga till nya åtgärder i VEC, den formulärbaserade Experience Composer och HTML erbjuder redigerare. Panelen innehåller en kodvy med en upplevelse som hjälper dig att skapa mer komplexa upplevelser, finjustera befintliga upplevelser och felsöka problem.<br>Anpassad kod är avsedd för avancerade användare som känner sig bekväma med HTML, JavaScript och CSS. I kodvyn kan du finjustera eller finjustera ändringar eller åtgärda väljarproblem. Den kan också användas för att lägga till ny anpassad kod och åtgärder. Du kan lägga till mer än en anpassad kod och eventuellt namnge varje anpassad kod.<br>**Anteckning**: Anpassad kod är för närvarande endast tillgänglig för A/B- och Experience Targeting-aktiviteter (XT). Anpassad kod inaktiveras för övertäckning och om ett omdirigeringserbjudande används.<br>Anpassad kod har stöd för följande användningsexempel:<ul><li>Lägg till anpassad JavaScript, HTML eller CSS som ska köras högst upp på sidan</li><li>Visa eller redigera koden som genererats av VEC efter att ha gjort ändringar</li><li>Ange HTML-innehåll för en väljare (endast CSS-väljare)</li><li>Ange ett attribut för ett HTML-element</li><li>Lägg till erbjudandeinnehåll som ska levereras i en regional mbox</li><li>Växla på DOM-klar med jQuery</li><li>Växla på DOM-klar, ingen jquery (stöder inte Internet Explorer 8)</li><li>Växla med DOM-avsökning via plugin-programmet &quot;elementOnLoad&quot;</li><li>Anpassad omdirigering</li></ul>Anpassad kod ger:<ul><li>Radnummer ger bättre användbarhet.</li><li>Syntaxmarkering hjälper dig att undvika felaktig syntax för erbjudanden från HTML.</li><li>Möjlighet att skapa flera anpassade koder och ange ett valfritt namn för var och en. Om du skapar flera anpassade koder blir det enklare att felsöka i framtiden. I stället för att skapa en enda anpassad kod för att utföra flera ändringar kan du skapa en separat anpassad kod för varje ändring med ett beskrivande namn. Om du har separata anpassade koder blir ändringarna mer modulära och hanterbara. Observera att det inte är säkert att flera anpassade koder körs i den sekvens i vilken de skapades.</li></ul>Panelen Ändringar delar upp skärmen mellan det visuella läget och kodläget. Båda lägena är synkroniserade. Alla ändringar som görs visuellt har en motsvarande rad i kodvyn. På samma sätt visas alla ändringar som implementeras i kodvyn i den visuella upplevelsen. Om du klickar på en rad i kodvyn markeras motsvarande element på den visuella sidan.<br>Anpassad kod stöder HTML, skript och format. All giltig HTML-kod eller skript kan läggas till eller redigeras. |
+   | Mbox | Ange mbox-namnet och önskat innehåll.<p>**Anteckning**: Mboxes stöds inte längre i VEC på sidor som använder at.js 2.*x*.<p>Som tillfälliga lösningar:<ul><li>Om at.js 2 används.*x* lägger du till en CSS-väljarändring i stället för en Mbox-ändring och lägger till innehållet i väljaren som din mbox använde. </li><li>Använd formulärbaserade aktiviteter (fungerar med mboxes och at.js 1.)*x* och at.js 2.*x*).</li><li>Använd at.js 1.*x* i VEC.</li></ul> |
+   | Egen kod | Ange ett valfritt namn, markera eller avmarkera [!UICONTROL Add Code in the `<HEAD>` Avsnitt] markera kryssrutan efter behov och lägg sedan till din egen kod.<p>Om du väljer [!UICONTROL Add Code in the `<HEAD>` Avsnitt]läggs egen kod till i  `<head>`  -avsnittet och dess körning väntar inte på body- eller page-load-händelser. Lägg endast till `<script>` och  `<style>` -element. Lägger till  `<div>`  taggar och andra element kan orsaka resterande  `<head>`  element som ska visas i  `<body>`. Om du använder at.js kommer alla erbjudanden att levereras asynkront.<p> Om du avmarkerar [!UICONTROL Add Code in the `<HEAD>` Avsnitt], egen kod körs omedelbart efter `<body>` -tagg. Radbryt all kod i en enda `<div>` för att bevara DOM-strukturen. Om du använder at.js kommer alla erbjudanden att levereras asynkront.<p>Om HTML för `<BODY>` innehåller `<SCRIPT>` och `<DIV>`sedan `<DIV>` läggs till i `<BODY>` och `<SCRIPT>` körs i `<HEAD>`. Dessutom `<SCRIPT>` som läser in en extern fil läggs till i `<HEAD>`.<p>**Anteckning**: Skript körs asynkront. Det innebär att du inte kan använda `document.write`  eller liknande skriptmetoder.<p>Anpassad kod ger ett icke-visuellt gränssnitt för att visa, redigera och lägga till nya åtgärder i VEC, den formulärbaserade Experience Composer och HTML erbjuder redigerare. Panelen innehåller en kodvy med en upplevelse som hjälper dig att skapa mer komplexa upplevelser, finjustera befintliga upplevelser och felsöka problem.<p>Anpassad kod är avsedd för avancerade användare som känner sig bekväma med HTML, JavaScript och CSS. I kodvyn kan du finjustera eller finjustera ändringar eller åtgärda väljarproblem. Den kan också användas för att lägga till ny anpassad kod och åtgärder. Du kan lägga till mer än en anpassad kod och eventuellt namnge varje anpassad kod.<p>**Anteckning**: Anpassad kod är för närvarande endast tillgänglig för A/B- och Experience Targeting-aktiviteter (XT). Anpassad kod inaktiveras för övertäckning och om ett omdirigeringserbjudande används.<p>Anpassad kod har stöd för följande användningsexempel:<ul><li>Lägg till anpassad JavaScript, HTML eller CSS som ska köras högst upp på sidan</li><li>Visa eller redigera koden som genererats av VEC efter att ha gjort ändringar</li><li>Ange HTML-innehåll för en väljare (endast CSS-väljare)</li><li>Ange ett attribut för ett HTML-element</li><li>Lägg till erbjudandeinnehåll som ska levereras i en regional mbox</li><li>Växla på DOM-klar med jQuery</li><li>Växla på DOM-klar, ingen jquery (stöder inte Internet Explorer 8)</li><li>Växla med DOM-avsökning via plugin-programmet &quot;elementOnLoad&quot;</li><li>Anpassad omdirigering</li></ul>Anpassad kod ger:<ul><li>Radnummer ger bättre användbarhet.</li><li>Syntaxmarkering hjälper dig att undvika felaktig syntax för erbjudanden från HTML.</li><li>Möjlighet att skapa flera anpassade koder och ange ett valfritt namn för var och en. Om du skapar flera anpassade koder blir det enklare att felsöka i framtiden. I stället för att skapa en enda anpassad kod för att utföra flera ändringar kan du skapa en separat anpassad kod för varje ändring med ett beskrivande namn. Om du har separata anpassade koder blir ändringarna mer modulära och hanterbara. Observera att det inte är säkert att flera anpassade koder körs i den sekvens i vilken de skapades.</li></ul>Panelen Ändringar delar upp skärmen mellan det visuella läget och kodläget. Båda lägena är synkroniserade. Alla ändringar som görs visuellt har en motsvarande rad i kodvyn. På samma sätt visas alla ändringar som implementeras i kodvyn i den visuella upplevelsen. Om du klickar på en rad i kodvyn markeras motsvarande element på den visuella sidan.<p>Anpassad kod stöder HTML, skript och format. All giltig HTML-kod eller skript kan läggas till eller redigeras. |
 
 1. Lägg till ytterligare ändringar efter behov.
 
@@ -139,15 +139,17 @@ Använd **[!UICONTROL Custom Code]** till:
 
 * Växla på DOM-klar med jQuery
 
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   jQuery( document ).ready(function() { 
-       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-       jQuery("#default_content").css("visibility","visible"); 
-   }); 
-   </script> 
-   ```
+I följande exempel med JQuery förutsätts att det finns jQuery tillgängligt på kundens webbplats när [!DNL Target] verkställer erbjudandena.
+
+```javascript
+<style>#default_content {visibility:hidden;}</style> 
+<script> 
+jQuery( document ).ready(function() { 
+    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+    jQuery("#default_content").css("visibility","visible"); 
+}); 
+</script> 
+```
 
 * Växla på DOM-klar, ingen jQuery (stöder inte Internet Explorer 8)
 
