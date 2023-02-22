@@ -4,9 +4,9 @@ description: Lär dig använda designspråket Velocity med öppen källkod för 
 title: Hur anpassar jag en design snabbt?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 Mer information om hastighetsvariabler (attribut) finns i [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Om du använder ett profilskript i din design måste $ före skriptnamnet escape-konverteras med ett \. Exempel, `\${user.script_name}`.
+Om du använder ett profilskript i din design måste $ före skriptnamnet escape-konverteras med ett `\` (omvänt snedstreck). Exempel:
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
@@ -203,7 +205,7 @@ Det gör du genom att skapa en kolumn i designen som använder `$key` attribut s
 </div>
 ```
 
-Resultatet är en design som följande, där en kolumn visar nyckelobjektet.
+Resultatet är en design som följande, där nyckelobjektet visas i en kolumn.
 
 ![rec_key-bild](assets/rec_key.png)
 
