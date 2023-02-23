@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 419f675b0fdf0d48a0ddd5250c29e339020a278d
+source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2035'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 23 februari | [Migrera Target från at.js 2.*x* till Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | Ny självstudiekurs har lagts till. |
 | 21 februari | [Tillåtelselista: Hörnkantsnoder](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Uppdaterad lista över IP-adresser som ska tillåtslista för alla regioner i [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}. |
 |  | [Ändringar](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Tillagd text som förklarar att exemplet med JQuery förutsätter att kundens webbplats har jQuery tillgängligt på sidan när [!DNL Target] verkställer erbjudandena. |
 | 10 februari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.14.5-utgåvan. |
