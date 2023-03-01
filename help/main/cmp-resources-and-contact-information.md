@@ -4,9 +4,9 @@ description: Läs om ytterligare resurser som kan hjälpa dig att lära dig mer 
 title: Var kan jag hitta resurser och kontaktinformation för Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Aktuella målsessioner inkluderar:
 
 | Ämne/Körtid/Inspelningsdatum | Vad du kommer att lära dig |
 |--- |--- |
-| [at.js tips och översikt](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 juni 2019 | Du kommer att lära dig:<ul><li>Fördelar med att använda at.js</li><li>at.js-inställningar</li><li>Hantering av flimmer</li><li>Felsöka på.js</li><li>Kända fel</li><li>Vanliga frågor</li></ul>Mer information finns i [Hur at.js fungerar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=en){target=_blank}. |
+| [at.js tips och översikt](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 juni 2019 | Du kommer att lära dig:<ul><li>Fördelar med att använda at.js</li><li>at.js-inställningar</li><li>Hantering av flimmer</li><li>Felsöka på.js</li><li>Kända fel</li><li>Vanliga frågor</li></ul>Mer information finns i [Hur at.js fungerar](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
 | [Arbetsytor för Target Premium](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 september 2018 | Du kommer att lära dig:<ul><li>Skapa en arbetsyta (produktprofil)</li><li>Skapa egenskaper</li><li>Lägga till användare</li><li>Uppdaterar implementering</li></ul>Mer information finns i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>December 2017 | Du kommer att lära dig:<ul><li>Hur VEC fungerar</li><li>Hur man undviker vanliga problem med VEC</li><li>Sätter att kringgå arbetet med VEC</li></ul>Mer information om den här guiden finns i [Erfarenheter](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: Analys-/målintegrering (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Januari 2018 | Du kommer att lära dig:<ul><li>Konfigurera och verifiera att integreringen fungerar </li><li>Hur integreringen fungerar</li><li>Läs mer om de idealiska rapporterna som ska användas i Analytics</li><li>Svar på vanliga frågor om A4T</li></ul>Mer information om den här guiden finns i [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |

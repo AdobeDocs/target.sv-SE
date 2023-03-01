@@ -5,9 +5,9 @@ title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '3124'
+source-wordcount: '3127'
 ht-degree: 0%
 
 ---
@@ -252,7 +252,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 
    I en framtida version kommer Target att fungera på sidor där `at_property` token finns, eller sidor där en annan `at_property` token finns.
 
-* Funktionen Enterprise-användarbehörigheter stöds inte i Adobe I/O API-anrop.
+* Funktionen för Enterprise-användarbehörigheter stöds inte i [Adobe I/O API-anrop](https://developer.adobe.com/target/){target=_blank}.
 
 ## Vanliga frågor {#faqs}
 

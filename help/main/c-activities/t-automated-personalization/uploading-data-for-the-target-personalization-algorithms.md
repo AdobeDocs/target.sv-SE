@@ -4,9 +4,9 @@ description: Lär dig hur du överför offlinedata, som CRM-information, när du
 title: Hur överför jag data för personaliseringsalgoritmer?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du bygger personaliseringsmodeller i [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) aktiviteter.
 
-Det finns flera sätt att mata in data i [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] personaliseringsalgoritmer. Förutom metoderna i [Metoder för att hämta data till Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, Experience Cloud shared audiences (Adobe Analytics, Audience Management){target=_blank} och målgrupper för aktivitetsrapportering används också i våra algoritmer.
+Det finns flera sätt att mata in data i [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] personaliseringsalgoritmer. Förutom metoderna i [Metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}, Experience Cloud shared audiences (Adobe Analytics, Audience Management){target=_blank} och målgrupper för aktivitetsrapportering används också i våra algoritmer.
 
 Mer information om data som samlas in och används automatiskt av personaliseringsalgoritmer i Automated Personalization och Automatisk målanpassning finns i [Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

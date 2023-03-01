@@ -4,9 +4,9 @@ description: Läs vilka data Adobe [!DNL Target] samlar in och använder för at
 title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2012'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ I följande tabell visas kunddata som samlats in av [!UICONTROL Automated Person
 
 Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer som förhindrar att de används i [!UICONTROL Auto-Target] eller [!UICONTROL Automated Personalization] modell eller aktivitet.
 
-Mer information finns i [API för modeller (Blockeringslistning) - översikt](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} i *Adobe Target Developer Guide*.
+Mer information finns i [API för modeller (Blockeringslistning) - översikt](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} i *Adobe Target Developer Guide*.
 
 ## Enhetsdata och mobildata {#device-mobile}
 

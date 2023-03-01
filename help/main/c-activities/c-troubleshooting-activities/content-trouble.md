@@ -4,9 +4,9 @@ description: Hitta förslag på hjälp med att åtgärda problem om sidan inte v
 title: Hur felsöker jag innehållsleverans?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur T
 
 Mer information finns i utbildningsvideorna nedan:
 
-Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
 
 ## De största säljarna visas inte i Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target har inte längre stöd för IE 8.
 
 ## Målcookie har inte angetts {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Om din webbplats har en underdomän, som [!DNL us.domain.com], men du måste ha Target-cookien inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]) måste du åsidosätta `cookieDomain` inställning. Mer information finns i [targetGlobalSettings()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+Om din webbplats har en underdomän, som [!DNL us.domain.com], men du måste ha Target-cookien inställd på [!DNL domain.com] (i stället för [!DNL us.domain.com]) måste du åsidosätta `cookieDomain` inställning. Mer information finns i [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Målinnehållet flimrar eller visas inte om ett element också ingår i Adobe Experience Manager personalisering. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

@@ -5,9 +5,9 @@ title: Hur konfigurerar jag Enterprise-behörigheter?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Användare kan ingå i flera arbetsytor och kan till och med ha olika roller ino
 
 ### Hämta arbetsytans ID {#workspace-id}
 
-Du måste skicka arbetsytans ID för att kunna utnyttja Enterprise Permissions i [Mål-API:er](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+Du måste skicka arbetsytans ID för att kunna utnyttja Enterprise Permissions i [Mål-API:er](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 
 1. I [Adobe Admin Console](https://adminconsole.adobe.com)klickar du på [!UICONTROL Products] klickar du på produkten i den vänstra menyn för att visa PLC-listan (arbetsyta).
 1. Klicka på önskad PLC(arbetsyta) och leta sedan reda på &quot;profiler&quot;-ID:t i URL:en enligt nedan.
@@ -158,7 +158,7 @@ Så här använder du [!DNL Target] användarbehörigheter måste du lägga till
       </script>
       ```
 
-      Mer information om hur du gör detta med at.js finns i [targetPageParamsAll](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html){target=_blank}.
+      Mer information om hur du gör detta med at.js finns i [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
 
 ## Steg 6: Ange roller och behörigheter {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

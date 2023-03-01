@@ -6,9 +6,9 @@ title: Hur implementerar jag [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Innan du börjar använda [!DNL Adobe Target]måste du implementera den på din webbplats.
 
-The [Adobe Target Developer Guide portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} innehåller information som du behöver känna till innan du implementerar [!DNL Target].
+The [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank} innehåller information som du behöver känna till innan du implementerar [!DNL Target].
 
 På utvecklarportalen finns information om följande implementeringstyper:
 
@@ -28,11 +28,11 @@ På utvecklarportalen finns information om följande implementeringstyper:
 * **Mobilappar**: Information som hjälper dig att implementera med [!DNL Adobe Experience Platform Mobile] SDK:er.
 * **E-post**: Information som hjälper dig att implementera [!DNL Target] i e-postmeddelanden.
 
-Mer information finns i [Adobe Target Developer Guide portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+Mer information finns i [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank}.
 
 >[!NOTE]
 >
->All information som tidigare ingick i *Implementera mål* i den här guiden *Handbok för Adobe Target Practitioner*) ingår nu i [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+>All information som tidigare ingick i *Implementera mål* i den här guiden *Handbok för Adobe Target Practitioner*) ingår nu i [Utvecklarportal](https://developer.adobe.com/target/){target=_blank}.
 
 
 
