@@ -4,9 +4,9 @@ description: Lär dig använda SPA VEC i Adobe [!DNL Target] att skapa tester oc
 title: Hur använder jag Visual Experience Composer (SPA VEC) för en sida?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3681'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,11 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    ![Dialogrutan Implementeringsinformation](/help/main/c-experiences/assets/imp-200.png)
 
-   Ladda ned at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via taggar i [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
+   Ladda ned at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via taggar i [Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
 
-1. Implementera funktionen at.js 2.x: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} på dina platser.
+1. Implementera den senaste funktionen i .js 2.x: [triggerView()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} på era webbplatser.
 
-   När du har definierat vyer för SPA där du vill köra ett A/B- eller XT-test implementerar du at.js 2.x-tester `triggerView()` med de vyer som skickats in som en parameter. Detta gör att marknadsförarna kan använda VEC för att utforma och köra A/B- och XT-tester för de vyer som definierats. Om `triggerView()` funktionen är inte definierad för dessa vyer, VEC identifierar inte vyer och marknadsförarna kan därför inte använda VEC för att utforma och köra A/B- och XT-tester.
+   När du har definierat vyerna för SPA där du vill köra ett A/B- eller XT-test implementerar du at.js 2.x-tester `triggerView()` med de vyer som skickats in som en parameter. Detta gör att marknadsförarna kan använda VEC för att utforma och köra A/B- och XT-tester för de vyer som definierats. Om `triggerView()` funktionen är inte definierad för dessa vyer, VEC identifierar inte vyer och marknadsförarna kan därför inte använda VEC för att utforma och köra A/B- och XT-tester.
 
    **`adobe.target.triggerView(viewName, options)`**
 
@@ -114,7 +114,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    **Länk: [Produktwebbplats](https://target.enablementadobe.com/react/demo/#/products)**
 
-   Nu ska vi titta på ett exempel som är lite mer komplicerat. Som marknadsförare vill vi personalisera produktraden genom att ändra prisetikettens färg till röd efter att en användare klickat på knappen Läs in mer.
+   Låt oss titta på ett exempel som är lite mer komplicerat. Som marknadsförare vill vi personalisera produktraden genom att ändra prisetikettens färg till röd efter att en användare klickat på knappen Läs in mer.
 
    ![reaktionsprodukter](/help/main/c-experiences/assets/react4.png)
 
@@ -134,7 +134,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
      }
    
      handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component’s state
+       var page = this.state.page + 1; // assuming page number is derived from component's state
        this.setState({page: page});
        targetView('PRODUCTS-PAGE-' + page);
      }
@@ -268,9 +268,9 @@ Tänk dig att du är ett telekomföretag och att du har en SPA som använder at.
 Nu kan utvecklarna namnvisa och ringa `triggerView()` på följande sätt:
 
 * För `http://www.telecom.com/home` vynamnet är&quot;Utloggad hem&quot;
-   * `triggerView(“Logged Out Home”)` anropas.
+   * `triggerView("Logged Out Home")` anropas.
 * För `http://www.telecom.com/loggedIn/home` vynamnet är&quot;Inloggad i hemmet&quot;
-   * `triggerView(“Logged In Home”)` anropas vid flödesändring.
+   * `triggerView("Logged In Home")` anropas vid flödesändring.
 
 Dina marknadsförare kör sedan följande A/B-aktiviteter via VEC:
 
@@ -282,11 +282,11 @@ Låt oss nu tänka på det här användarflödet:
 1. En anonym utloggad användare hamnar på din sida.
 1. Eftersom du använder at.js 2.x skickar du parametern &quot;`loggedIn = false`&quot; vid sidinläsning för att hämta alla vyer som finns i aktiva aktiviteter som är kvalificerade för när målgruppen har parametern &quot;`loggedIn = false`&quot;.
 1. at.js 2.x hämtar sedan vyn Utloggad hemsida och åtgärden som visar erbjudandet&quot;Fri första månaden&quot; och lagrar det i cache-minnet.
-1. När `triggerView(“Logged Out Home”)` anropas hämtas erbjudandet&quot;First Month Free&quot; från cache och erbjudandet visas utan ett serversamtal.
+1. När `triggerView("Logged Out Home")` anropas hämtas erbjudandet&quot;First Month Free&quot; från cache och erbjudandet visas utan ett serversamtal.
 1. Användaren klickar nu på Logga in och anger sina uppgifter.
 1. Eftersom din webbplats är en SPA utför du inte en hel sidladdning utan dirigerar användaren till `http://www.telecom.com/loggedIn/home`.
 
-Här är problemet. Användaren loggar in och vi stöter på `triggerView(“Logged In Home”)` därför att vi har placerat den här koden i ruttändring. Detta anger att at.js 2.x ska hämta vyn och åtgärderna från cachen, men den enda vy som finns i cachen är Utloggad Hem.
+Här är problemet. Användaren loggar in och vi stöter på `triggerView("Logged In Home")` därför att vi har placerat den här koden i ruttändring. Detta anger att at.js 2.x ska hämta vyn och åtgärderna från cachen, men den enda vy som finns i cachen är Utloggad Hem.
 
 Så hur kan vi sedan hämta vår inloggade vy och visa&quot;Du är berättigad till en kostnadsfri telefon!&quot; erbjudandet? Och eftersom alla efterföljande åtgärder på din webbplats kommer från ett inloggat användarperspektiv, hur kan du se till att alla efterföljande åtgärder resulterar i personaliserade erbjudanden för inloggade användare?
 
@@ -329,7 +329,7 @@ Ja, at.js 2.x stöder A4T för SPA via `triggerView()` eftersom du har implement
 >[!NOTE]
 >Om du inte vill skicka meddelanden till Adobe Analytics för att göra en inläsningsinventering varje gång en vy aktiveras, skickar du `{page: false}` till `triggerView()` så att det inte blir något större när en vy aktiveras flera gånger för en komponent som återges kontinuerligt. Exempel:
 >
->`adobe.target.triggerView(“PRODUCTS-PAGE-2”, {page:false})`
+>`adobe.target.triggerView("PRODUCTS-PAGE-2", {page:false})`
 
 ## Stödda aktiviteter
 
@@ -354,7 +354,7 @@ Om du vill använda A/B-aktiviteter som mål automatiskt kan du flytta alla åtg
 | --- | --- |
 | [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
 | [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
-| [Kundattribut](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | Ja |
+| [Kundattribut](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Ja |
 | [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Funktioner som stöds {#supported-features}

@@ -4,9 +4,9 @@ description: Lär dig implementeringskraven för Analytics för [!DNL Target] (A
 title: Vad ska jag veta innan jag implementerar A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Innan du bestämmer dig för att använda den här integreringen ska du gå igen
 
 >[!IMPORTANT]
 >
->Innan du kan börja använda A4T måste du begära att ditt konto har etablerats för integreringen. Använd [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} för begäran om etablering.
+>Innan du kan börja använda A4T måste du begära att ditt konto har etablerats för integreringen. Använd [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} för att begära att få etableras.
 
 Den här A4T-integreringen kräver att du implementerar följande biblioteksversioner (eller nyare), beroende på om du vill använda omdirigeringserbjudanden med A4T eller inte.
 
 >[!NOTE]
 >
->Följande krav listar *minimum* versioner av at.js krävs för att implementera A4T. The [!DNL Target] teamet har bara två versioner av [!DNL at.js]- den aktuella versionen och den senaste versionen. Uppgradera [!DNL at.js] vid behov för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+>Följande krav listar *minimum* versioner av at.js krävs för att implementera A4T. The [!DNL Target] teamet har bara två versioner av [!DNL at.js]- den aktuella versionen och den senaste versionen. Uppgradera [!DNL at.js] vid behov för att säkerställa att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### Krav krävs om *not* använda omdirigeringserbjudanden med A4T
 
@@ -41,7 +41,7 @@ För den här integreringen krävs att du implementerar följande biblioteksvers
 * [!DNL Adobe Target]: at.js version 0.9.1
 * Adobe Analytics: appMeasurement.js version 1.7.0
 
-Mer information om hur du implementerar A4T med [!DNL Platform Web SDK], se [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+Mer information om hur du implementerar A4T med [!DNL Platform Web SDK], se [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ### Krav krävs för omdirigeringserbjudanden med A4T
 
@@ -59,7 +59,7 @@ Om du vill använda omdirigeringserbjudanden med A4T måste du implementera föl
 
 Instruktioner för hämtning och distribution finns i [Analyser för målinriktad implementering](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-Mer information om hur du implementerar A4T med [!DNL Platform Web SDK], se [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+Mer information om hur du implementerar A4T med [!DNL Platform Web SDK], se [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ## Saker att känna till innan ni implementerar {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -97,7 +97,7 @@ Det finns tillfällen då du kanske vill ha större kontroll över när och hur 
 
 ## Delade målgrupper
 
-När du fyller i [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tänk på följande viktiga information om [!UICONTROL Shared Audiences] som anges under &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
+När du fyller i [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}bör du vara medveten om följande viktiga information om [!UICONTROL Shared Audiences] som anges under &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
 
 ![Formulär för förfrågningar](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

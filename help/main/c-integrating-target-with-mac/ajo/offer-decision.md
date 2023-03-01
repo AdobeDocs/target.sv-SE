@@ -4,9 +4,9 @@ description: Lär dig hur du lägger till ett offertbeslut som skapats i [!DNL A
 title: Hur använder jag erbjudandebeslut?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Mer information om [!DNL Adobe Journey Optimizer] och erbjuda dina beslut, se f�
 
 Använda offertbeslut i [!DNL Target]behöver du följande:
 
-* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] implementerat med [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] implementerat med [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
    Funktionen är inte tillgänglig vid implementering [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
@@ -72,7 +72,7 @@ I [!DNL Adobe Journey Optimizer]kan ni skapa ett personligt hemsideshjältererbj
 
 1. I **[!UICONTROL Add Offer Decision]** väljer du önskad sandlåda och placering.
 
-   A [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} i [!DNL Adobe Experience Platform] I kan du partitionera instansen i virtuella miljöer. Du kan till exempel ha en produktionsmiljö och en staging-miljö. A [placering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} i [!DNL Adobe Journey Optimizer] hjälper till att säkerställa att rätt erbjudandeinnehåll visas på rätt plats.
+   A [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hjälper till att säkerställa att rätt erbjudandeinnehåll visas på rätt plats.
 
    ![Sandbox- och Placements-listrutor i dialogrutan Lägg till erbjudandebeslut](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -100,7 +100,7 @@ I [!DNL Adobe Journey Optimizer]kan ni skapa ett personligt hemsideshjältererbj
 
 Tänk på följande när du arbetar med offertbeslut:
 
-* Integreringen av offera decisioningar fungerar för [!DNL Target] implementeringar baserade på [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Den här funktionen är inte tillgänglig vid implementering [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
+* Integreringen av offera decisioningar fungerar för [!DNL Target] implementeringar baserade på [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Den här funktionen är inte tillgänglig vid implementering [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
 * Integreringen mellan Target och Adobe Journey Optimizer stöder [manuell [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) och [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) endast aktiviteter. Den här funktionen är inte tillgänglig för andra aktivitetstyper.
 

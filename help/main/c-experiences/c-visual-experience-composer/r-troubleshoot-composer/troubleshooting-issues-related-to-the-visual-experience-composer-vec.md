@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Om varken Visual Experience Composer eller Enhanced Experience Composer fungerar
 
 ## VEC-värdet visas som brutet när jag använder bläddringsläge. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Om du använder bläddringsläge och har åtkomst till en URL som inte har [!DNL Target] implementerade bibliotek ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) eller innehåller en bildrutebusterrubrik, visas VEC som brutet. På grund av säkerhetsproblem i webbläsaren [!DNL Target] kan inte komma åt den URL du navigerade till eller så uppdateras inte VEC-URL:en konsekvent om sidan läses in.
+Om du använder bläddringsläge och har åtkomst till en URL som inte har [!DNL Target] implementerade bibliotek ([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) eller innehåller en bildrutebusterrubrik, visas VEC som brutet. På grund av säkerhetsproblem i webbläsaren [!DNL Target] kan inte komma åt den URL du navigerade till eller så uppdateras inte VEC-URL:en konsekvent om sidan läses in.
 
 Problemet inträffar eftersom VEC läser in webbsidan i en `<iframe>`. De nuvarande säkerhetsfunktionerna i webbläsarna förhindrar [!DNL Target] Gränssnittet kan inte komma åt elementen i den angivna bildrutan på grund av principen för samma ursprung. Webbläsare blockerar skript som försöker få åtkomst till en bildruta med en annan ursprung och som innehåller information som `location.href`.
 

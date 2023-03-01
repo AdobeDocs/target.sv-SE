@@ -4,9 +4,9 @@ description: Lär dig hur du använder Automated Personalization-aktiviteter (AP
 title: Vad är en Automated Personalization-aktivitet (AP)?
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -61,15 +61,15 @@ Random Forest är en ledande maskininlärningsstrategi. I datavetenskapen är de
 
 **Målet använder automatiskt alla [!DNL Adobe Experience Cloud] delade målgrupper för att bygga personaliseringsmodeller.**
 
-* Ni behöver inte göra något specifikt för att lägga till målgrupper i modellen. Mer information om hur du använder [!DNL Experience Cloud Audiences] med [!DNL Target], se [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md).
+* Du behöver inte göra något specifikt för att lägga till målgrupper i modellen. Mer information om hur du använder [!DNL Experience Cloud Audiences] med [!DNL Target], se [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md).
 
 **Marknadsförarna kan överföra offlinedata, benägenhetspoäng eller andra anpassade data för att bygga personaliseringsmodeller.**
 
 Offlinedata, som CRM-information eller kundbortfallspoäng, kan vara oerhört värdefulla när du skapar personaliseringsmodeller. Det finns flera sätt att mata in data i [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] personaliseringsalgoritmer.
 
-* [mbox-parametrar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
-* [Profilparametrar](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
-* [API:er på serversidan för profiluppdatering](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+* [mbox-parametrar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [Profilparametrar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [API:er på serversidan för profiluppdatering](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
 
 För information om data som samlas in och används av [!UICONTROL Automated Personalization] och [!UICONTROL Auto-Target] personaliseringsalgoritmer, se [Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

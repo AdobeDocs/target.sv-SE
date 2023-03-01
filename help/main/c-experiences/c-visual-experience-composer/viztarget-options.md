@@ -4,9 +4,9 @@ description: Se vilka alternativ som finns i [!DNL Adobe Target] [!UICONTROL Vis
 title: Hur jag använder [!UICONTROL Visual Experience Composer] (VEC) Alternativ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2735'
 ht-degree: 0%
 
 ---
@@ -372,7 +372,7 @@ Markera det överordnade elementet förutom det ursprungligen markerade elemente
 
 ## Överväganden {#considerations}
 
-* Om ett erbjudande innehåller HTML finns mer information i&quot;How at.js renders offers with HTML content&quot; i [Hur at.js fungerar](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} om du vill ha mer information.
+* Om ett erbjudande innehåller HTML finns mer information i&quot;How at.js renders offers with HTML content&quot; i [Hur at.js fungerar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} för mer information.
 
 ## Stöd för anpassade element {#custom}
 
@@ -380,9 +380,9 @@ VEC stöder [Webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_C
 
 >[!NOTE]
 >
->VEC-stöd för anpassade element stöds i [at.js version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (eller senare){target=_blank}. Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)måste den också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
+>VEC-stöd för anpassade element stöds i [at.js version](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)måste den också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
 >
->VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+>VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 De flesta VEC-åtgärder stöds för anpassade händelser och i anpassade händelser, med följande undantag:
 
