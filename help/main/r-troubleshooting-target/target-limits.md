@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -66,17 +66,33 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
    Om en kund överstiger 100 samtidiga [!DNL Target] innehållsleveransbegäranden för en viss användarsession blockeras alla efterföljande begäranden för den användarsessionen. Två eller flera begäranden anses vara samtidiga om alla skickas till [!DNL Target] servern innan svaret tas emot för någon av dem. [!DNL Target] bearbetar samtidiga begäranden för samma session sekventiellt.
 
-* **Felbeteende**:
+   * **Felbeteende**:
 
-   * Delivery API and Batch Mbox v2:
-      * Felkod: HTTP 420 För många begäranden
-      * Felmeddelande: &quot;För många begäranden med samma sessions-ID&quot;
-   * Äldre mbox-API:
-      * Standardinnehåll med kommentaren &quot;För många begäranden med samma sessions-ID&quot;
-   * at.js:
-      * Standardinnehåll visas
+      * Delivery API and Batch Mbox v2:
+         * Felkod: HTTP 420 För många begäranden
+         * Felmeddelande: &quot;För många begäranden med samma sessions-ID&quot;
+      * Äldre mbox-API:
+         * Standardinnehåll med kommentaren &quot;För många begäranden med samma sessions-ID&quot;
+      * at.js:
+         * Standardinnehåll visas
 
 
+
+* **Gräns**: 50 lådor per [!DNL Target] batchförfrågan om innehållsleverans.
+
+   Mer än 50 lådor per [!DNL Target] batchbegäran om innehållsleverans resulterar i en svarsfelkod `HTTP 400` med felmeddelande `size must be between 0 and 50`.
+
+   Batch Mbox-begäranden bearbetas sekventiellt, vilket ökar den totala svarstiden för varje iteration. Ju fler kryssrutor på gruppbegäran, desto fler svarstider kan förväntas, och därför kan timeout-fel uppstå. Om upplevelseåtergivning blockeras på dessa batchbegäranden med hög fördröjning kan fördröjningen leda till en försämrad användarupplevelse när användarna väntar på att upplevelserna ska återges.
+
+* **Gräns**: 60 MB HTTP POST body size for [!DNL Target] förfrågningar om innehållsleverans.
+
+   Mer än 60 MB på HTTP-POSTENS brödstorlek för en [!DNL Target] innehållsleveransbegäran resulterar i en svarsfelkod `HTTP 413 Request Entity Too Large`.
+
+* **Rekommenderad gräns**: 50 meddelanden per [!DNL Target] batchförfrågan för leverans.
+
+   Mer än 50 meddelanden per [!DNL Target] batchbegäran om leverans resulterar troligen i ökad svarstid och tidsgränser.
+
+   Batchmeddelandebegäranden behandlas sekventiellt, vilket ökar den totala svarstiden för varje upprepning. Ju fler meddelanden om batchbegäran, desto fler svarstider kan förväntas, och därför kan timeout-problem uppstå. Vissa ytterligare latens för batchmeddelandebegäranden kan accepteras av vissa kunder, men tänk på att timeout och efterföljande försök kan orsaka ännu mer fördröjning.
 
 ## Kundattribut
 
