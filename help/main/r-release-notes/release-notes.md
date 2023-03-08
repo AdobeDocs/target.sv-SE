@@ -5,10 +5,10 @@ landing-page-description: Lär dig om de nya funktionerna, förbättringarna och
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 2%
 
 ---
 
@@ -18,51 +18,27 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## [!DNL Target] Standard/Premium 22.14.5 (13-15 februari 2023)
+## [!DNL Target] Standard/Premium 22.15.1 (8 och 9 mars 2023)
 
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-* **13 februari**: Amerika
-* **15 februari**: Europa, Mellanöstern och Afrika (EMEA)
-* **15 februari**: Asien-Stillahavsområdet (APAC)
+* **8 mars**: Amerika
+* **9 mars**: Europa, Mellanöstern och Afrika (EMEA)
+* **9 mars**: Asien-Stillahavsområdet (APAC)
 
-Den här versionen innehåller följande korrigeringar:
-
-* Ett problem som orsakade följande felmeddelande har korrigerats även om en egenskap angavs i Automated Personalization-aktiviteter (AP): &quot;Fel: Minst en egenskap måste tillhöra en icke-standardarbetsyta (TGT-44607)
-* Ett potentiellt säkerhetsproblem som påverkar Recommendations-flöden på serversidan har korrigerats. (TGT-43769)
-
-## at.js version 2.10.1 (2 februari 2023)
-
-* Korrigerade ett fel där aktiviteter som innehåller målgruppsregler som innehåller parametrar med punkter i namnen inte returnerade den förväntade upplevelsen för enhetsbeslut.
-* Korrigerade ett fel som introducerades i at.js 2.6.0 där at.js utlöste ett leveransanrop, även när `mboxDisable` har aktiverats.
-
-Mer information om alla at.js-versioner finns i [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
-
-## [!DNL Target] Standard/Premium 22.13.3 (25-26 januari 2023)
-
-Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
-
-* **25 januari**: Europa, Mellanöstern och Afrika (EMEA)
-* **25 januari**: Asien-Stillahavsområdet (APAC)
-* **26 januari**: Amerika
-
-Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
+Den här versionen innehåller följande nya funktioner och förbättringar:
 
 | Funktion | Detaljer |
 | --- | --- |
-| [JSON-erbjudande](/help/main/c-experiences/c-manage-content/create-json-offer.md) stöd i Automated Personalization (AP) | Utökat stöd för JSON-erbjudanden i [!UICONTROL Automated Personalization] (AP) med formulärbaserad Experience Composer. (TGT-41460) |
-| [AEM upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Lagt till möjlighet att skilja mellan [!DNL Adobe Experience Manager] fragmenttyper (AEM XF) som exporteras till [!DNL Target]. I stället för alternativet Experience Fragment [!DNL Target] kan du nu filtrera och söka efter &quot;HTML XF&quot; och &quot;JSON XF&quot;. (TGT-44132) |
+| Optimerade A4T-värden för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] | [!DNL Target] låter dig välja mätvärden baserat på binomiala händelser eller mätvärden baserade på kontinuerliga händelser när du använder [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet.<P>Observera följande tidskänsliga ändring av mätvärden som stöds:<ul><li>[!DNL Target] har behållit det tidigare beteendet för befintliga aktiviteter till och med 9 september 2023. Efter detta datum kommer aktiviteter som använder mätvärden som inte stöds att avbrytas för att tvinga befintlig aktivitetsmigrering till det nya beteendet.</li></ul>Mer information finns i [Målmått som stöds](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter*. |
+| [!UICONTROL Auto-Allocate] använda [!UICONTROL Analytics for Target] (A4T) | Ny självstudiekurs:<ul><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| [!UICONTROL Auto-Target] använda [!UICONTROL Analytics for Target] (A4T) | Ny självstudiekurs:<ul><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
-* Ett problem som orsakade felet 500 i [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] (XT) aktiviteter som innehåller rekommendationer. Problemet uppstod när [!DNL Target] det gick inte att ta bort villkorsobjekt från [!DNL Target] Användargränssnitt och [!DNL Recommendations] som inte längre används. (TGT-44383)
-* Platsen har tagits bort från erbjudandets namn i [!UICONTROL Offer Level] rapport för [!UICONTROL Automated Personalization] verksamhet. Den här ändringen gör rapporten mer läsbar. (TGT-44294)
-* Alternativen för 45-dagars och 90-dagars kalender har tagits bort från åtkomstpunkten och [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] och [!UICONTROL Important Attributes] rapporter i [!DNL Target] Gränssnitt. På grund av användningsmönster och för att förbättra prestanda har datumintervallen tagits bort. Gränssnittet har uppdaterats för att återspegla de aktuella tillåtna intervallen: 15, 30 och 60 dagar. (TGT-39357)
-* Otillåten möjlighet att ändra [!UICONTROL Same as Optimization Goal] på [!UICONTROL Goals & Settings] sida efter att aktiviteten är aktiv. (TGT-43923)
-* Ett problem som orsakade problem med standardarbetsytan i [!DNL Target] backend när du uppgraderar från [!DNL Target Standard] till [!DNL Target Premium]. (TGT-44081 &amp; TGT-44306)
-* Har gjort en ändring som tillåter [!DNL Analytics] rapportsviter som innehåller ett punkttecken &quot;.&quot; i de namn som ska användas i [!DNL Target] Gränssnitt att skapa [!DNL Analytics] klassificeringsfeeds.
-* Länken på [!UICONTROL Implementation] sida ([!UICONTROL Administration] > [!UICONTROL Implementation]) för&quot;Implementeringsmetoder med On-Device Decisioning&quot; så att de pekar på sidan som förklarar hur du använder enhetsbeslut för alla SDK:er som stöds: Node.js, Java, .NET och Python. Mer information finns i [Komma igång med mål-SDK:er](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
-* Ett problem som orsakade filöverföringsproblem vid användning har korrigerats [!DNL Scene7] och [!DNL Target].
-* Förbättrad tillgänglighet för [!DNL Target] Användargränssnitt för personer med funktionshinder genom att använda resultat från en intern användarvänlighetsrevision. Dessa tillgänglighetsförbättringar inkluderar åtkomst till funktioner som tidigare inte var tillgängliga via tangentbordet, alt-text-förbättringar, möjlighet att zooma delar av användargränssnittet så att de blir mer användbara, förbättrat tangentbordsfokus med mera.   (TGT-42759)
-* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
+## at.js version 2.10.2 (7 mars 2023)
+
+* Ett problem som orsakade `trackEvent` funktion som alltid returnerar ett fel.
+
+Mer information om alla at.js-versioner finns i [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## Ytterligare versionsinformation
 

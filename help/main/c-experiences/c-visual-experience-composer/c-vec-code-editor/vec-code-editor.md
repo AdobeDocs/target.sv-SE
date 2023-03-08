@@ -4,9 +4,9 @@ description: Lär dig hur du använder panelen Ändringar i Adobe [!DNL Target] 
 title: Vilka ändringar kan jag göra på min sida?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -210,6 +210,10 @@ Varje ändring skapar ett nytt element på panelen Ändringar. Eftersom den andr
 Om du använder den anpassade kodfunktionen för två aktiviteter som har samma URL som mål, kommer JavaScript-koden att matas in på sidan från båda aktiviteterna. Målet bestämmer automatiskt ordningen för levererat innehåll. Kontrollera att koden inte är beroende av placering. Det är upp till dig att se till att det inte finns några konflikter i koden.
 
 ## Felsökning av anpassad kod {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+
+**Anpassad kod körs inte när du använder `triggerView`.**
+
+Anpassade koderbjudanden i VEC återges inte om när `triggerView()` anropas med `{page: false}` som alternativ.
 
 **Jag fick en varning om att en åtgärd inte kan utföras på grund av strukturella ändringar på en sida. Vad betyder det?**
 

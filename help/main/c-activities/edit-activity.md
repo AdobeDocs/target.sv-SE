@@ -4,9 +4,9 @@ description: Lär dig olika sätt att redigera en befintlig aktivitet i Adobe Ta
 title: Hur redigerar jag en aktivitet eller sparar som utkast?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -105,3 +105,11 @@ Tänk på följande när du använder kopiera/redigera-funktionen med arbetsytor
 * När du kopierar en aktivitet till en annan arbetsyta kopieras aktiviteten till den andra arbetsytan utan att den öppnas i flödet där aktiviteten skapas. När aktiviteten har kopierats visas ett meddelande som anger att aktiviteten har kopierats och innehåller en länk för att öppna den nya aktiviteten.
 
 Om din miljö inte har funktionen Enterprise-användarbehörigheter aktiverad, öppnas alla aktiviteter i redigeringsläget innan de kopieras.
+
+## God praxis
+
+* Det bästa är att försöka uppdatera aktiviteten med samma metod (UI eller API) som användes för att skapa aktiviteten från början.
+
+   Aktiviteter som skapats med [!DNL Target] Gränssnittet bör uppdateras via [!DNL Target] Gränssnitt. Aktiviteter som skapas via API ska uppdateras via API. Om du ursprungligen skapade en aktivitet med API:t, till exempel, men sedan redigerar aktiviteten via [!DNL Target] Alla ändringar uppdateras inte. Alla ändringar lagras på serverdelen och kan uppdateras genom att du gör ett annat API-anrop.
+
+
