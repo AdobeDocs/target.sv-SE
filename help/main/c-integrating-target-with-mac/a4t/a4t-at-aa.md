@@ -4,9 +4,9 @@ description: Lär dig hur du skapar [!UICONTROL Auto-Allocate] och [!UICONTROL A
 title: Har A4T stöd [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] Verksamheter?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -76,25 +76,25 @@ Så här kommer du igång:
 
 | Måttnamn | Stöds inte längre i: |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | Konverteringsgrad, RPV |
-| [!UICONTROL averagetimespentonsite] | Konverteringsgrad, RPV |
-| [!UICONTROL bouncerate] | Konverteringsgrad, RPV |
-| [!UICONTROL bounces] | Konverteringsgrad, RPV |
-| [!UICONTROL entries] | Konverteringsgrad, RPV |
-| [!UICONTROL exits] | Konverteringsgrad, RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL reloads] | RPV |
-| [!UICONTROL visitors] | Konverteringsgrad, RPV |
-| [!UICONTROL visits] | RPV |
+| [!UICONTROL averagepagedepth] | Konverteringsgrad, maximera måttvärde |
+| [!UICONTROL averagetimespentonsite] | Konverteringsgrad, maximera måttvärde |
+| [!UICONTROL bouncerate] | Konverteringsgrad, maximera måttvärde |
+| [!UICONTROL bounces] | Konverteringsgrad, maximera måttvärde |
+| [!UICONTROL entries] | Konverteringsgrad, maximera måttvärde |
+| [!UICONTROL exits] | Konverteringsgrad, maximera måttvärde |
+| [!UICONTROL pageviews] | Maximera måttvärde |
+| [!UICONTROL reloads] | Maximera måttvärde |
+| [!UICONTROL visitors] | Konverteringsgrad, maximera måttvärde |
+| [!UICONTROL visits] | Maximera måttvärde |
 
 ### Effekt till [!UICONTROL Auto-Target] verksamhet
 
 | Måttnamn | Stöds inte längre i: |
 | --- | --- |
-| [!UICONTROL cartremovals] | RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL visitors] | Konverteringsgrad, RPV |
-| [!UICONTROL visits] | RPV |
+| [!UICONTROL cartremovals] | Maximera måttvärde |
+| [!UICONTROL pageviews] | Maximera måttvärde |
+| [!UICONTROL visitors] | Konverteringsgrad, maximera måttvärde |
+| [!UICONTROL visits] | Maximera måttvärde |
 
 ## Begränsningar och anteckningar
 
