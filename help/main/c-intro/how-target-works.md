@@ -4,9 +4,9 @@ description: Lär dig mer [!DNL Adobe Target] fungerar, inklusive information om
 title: Hur [!DNL Target] Arbeta?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
 workflow-type: tm+mt
-source-wordcount: '2541'
+source-wordcount: '2520'
 ht-degree: 0%
 
 ---
@@ -178,7 +178,7 @@ Riktlinjer presenterades i en [Google Webmaster Central Blog](https://webmasters
 
    [!DNL Adobe] fortsätter att leta efter användbara lösningar som helt överensstämmer med riktlinjerna för sökmotorer. För de klienter som måste använda separata URL:er för testning, [!DNL Adobe] Vi är övertygade om att en korrekt implementering av de kanoniska taggarna minskar riskerna med detta tillvägagångssätt.
 
-* **Kör bara experimenten så länge det behövs**: [!DNL Adobe] anser att &quot;så länge det behövs&quot; är så lång som det behövs för att uppnå statistisk signifikans. [!DNL Target] innehåller bästa praxis och [!DNL Adobe Target] [Beräkna samplingsstorlek] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för att avgöra när ditt test har nått den här punkten. [!DNL Adobe] rekommenderar att du inkluderar den hårdkodade implementeringen av vinnande tester i testarbetsflödet och tilldelar lämpliga resurser.
+* **Kör bara experimenten så länge det behövs**: [!DNL Adobe] anser att &quot;så länge det behövs&quot; är så lång som det behövs för att uppnå statistisk signifikans. [!DNL Target] innehåller bästa praxis och [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för att avgöra när testet har nått denna punkt. [!DNL Adobe] rekommenderar att du inkluderar den hårdkodade implementeringen av vinnande tester i testarbetsflödet och tilldelar lämpliga resurser.
 
    Använda [!DNL Target] att&quot;publicera&quot; vinnande tester rekommenderas inte som en permanent lösning. Om det vinnande testet publiceras för 100 % av användarna 100 % av tiden kan det här tillvägagångssättet användas medan processen med att hårdkoda det vinnande testet slutförs.
 
