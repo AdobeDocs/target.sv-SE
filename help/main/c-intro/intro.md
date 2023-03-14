@@ -5,9 +5,9 @@ landing-page-description: Personanpassa kundernas upplevelse för att maximera i
 title: Vad är Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1002'
 ht-degree: 3%
 
 ---
@@ -30,9 +30,9 @@ De bästa metoderna inom branschen är inbyggda i [!DNL Target Standard]. [!DNL 
 
 [!DNL Target Premium] är ett avancerat [!DNL Target] som kräver licens att lägga till premiumfunktioner i [!DNL Target Standard].
 
-Alla [!DNL Target Premium] artiklar i målstödlinjerna innehåller märket Premium längst upp på varje sida eller infogat nära den berörda texten. Premium-märket kan klickas och innehåller en länk till det här avsnittet.
+Alla [!DNL Target Premium] artiklar i [!DNL Target] innehåller [!UICONTROL Premium] högst upp på varje sida eller i närheten av den berörda texten. The [!UICONTROL Premium] emblemet kan klickas och innehåller en länk till det här avsnittet.
 
-[!DNL Target Premium] innehåller följande funktioner:
+**[!DNL Target Premium]innehåller följande funktioner:**
 
 ### Automated Personalization
 
@@ -83,7 +83,7 @@ Den här funktionen öppnar upp helt nya funktioner, som:
 
 [!BADGE Beta]{type=Informative}
 
-The [!DNL Adobe Target] teamet aktiverar ofta funktioner för utvalda kunder i testnings- och feedbacksyfte innan de aktiverar dessa funktioner för alla kunder i framtida versioner.
+The [!DNL Adobe Target] teamet har ofta nya funktioner för utvalda kunder för testning och feedback. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtiden [!DNL Target Standard/Premium] i versionsinformationen.
 
 Artiklar i [!DNL Target] Stödlinjer som beskriver Beta-funktioner är bl.a. Beta-märket överst på varje sida eller infogat nära texten. Beta-märket kan klickas och innehåller en länk till det här avsnittet.
 

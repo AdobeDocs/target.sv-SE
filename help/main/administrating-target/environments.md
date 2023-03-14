@@ -5,9 +5,9 @@ title: Vad är miljöer och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,7 @@ Du kan ta bort en miljö när den inte längre behövs.
 >
 >Du kan inte ta bort [!UICONTROL Production] -miljö, men du kan byta namn på den.
 
-## Recommendations: filtrera samlingar och uteslutningar efter miljö (värdgrupp)
-
-![Premium-märke](/help/main/assets/premium.png)
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Se vad som ingår i Target Premium."}
 
 Du kan förhandsgranska innehållet i Recommendations-samlingar och undantag för en vald miljö (värdgrupp).
 
