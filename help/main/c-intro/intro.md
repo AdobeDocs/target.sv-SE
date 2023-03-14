@@ -1,14 +1,14 @@
 ---
 keywords: Målstandard;Recommendations;Target Premium;Automated Personalization;auto target;auto target;permissions;what is adobe target;
 description: Lär dig grunderna i Adobe [!DNL Target] Standard och Adobe [!DNL Target] Premium. [!DNL Target] Premium innehåller avancerade funktioner som inte finns i standardprodukten.
-landing-page-description: Personalisera kundernas upplevelse för att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
+landing-page-description: Personanpassa kundernas upplevelse för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 title: Vad är Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 3%
 
 ---
 
@@ -26,13 +26,13 @@ De bästa metoderna inom branschen är inbyggda i [!DNL Target Standard]. [!DNL 
 
 ## Mål Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] är ett avancerat [!DNL Target] som kräver licens att lägga till premiumfunktioner i [!DNL Target Standard].
 
-Alla [!DNL Target Premium] artiklar i den här hjälpen innehåller Premium-märket överst på varje sida:
+Alla [!DNL Target Premium] artiklar i målstödlinjerna innehåller märket Premium längst upp på varje sida eller infogat nära den berörda texten. Premium-märket kan klickas och innehåller en länk till det här avsnittet.
 
-![Premium-märke](/help/main/assets/premium.png)
-
-Target Premium innehåller följande funktioner:
+[!DNL Target Premium] innehåller följande funktioner:
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Den här funktionen öppnar upp helt nya funktioner, som:
 ### Enterprise-användarbehörigheter
 
 [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) kan du skapa olika projekt (så kallade&quot;produktprofiler&quot;) i [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Enterprise User Permissions] gör att du kan tilldela olika behörigheter till en enskild användare som bestämmer den användarens åtkomstbehörighet för varje projekt. Dessa distinkta projekt kan jämföras med hur rapportsviterna fungerar i [!DNL Adobe Analytics]. Varje projekt kan ha specifika användare med specifika roller som gäller för en uppsättning egenskaper. Resultatet är att kunderna kan begränsa möjligheterna att visa, redigera, godkänna och publicera material för sina användare. Du kan begränsa användare baserat på region, miljö (dev/stage/prod), kanal eller andra anpassade villkor.
+
+## Betafunktioner {#beta}
+
+[!BADGE Beta]{type=Informative}
+
+The [!DNL Adobe Target] teamet aktiverar ofta funktioner för utvalda kunder i testnings- och feedbacksyfte innan de aktiverar dessa funktioner för alla kunder i framtida versioner.
+
+Artiklar i [!DNL Target] Stödlinjer som beskriver Beta-funktioner är bl.a. Beta-märket överst på varje sida eller infogat nära texten. Beta-märket kan klickas och innehåller en länk till det här avsnittet.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
