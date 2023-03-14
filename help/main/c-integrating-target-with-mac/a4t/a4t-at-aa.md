@@ -4,9 +4,9 @@ description: Lär dig hur du skapar [!UICONTROL Auto-Allocate] och [!UICONTROL A
 title: Har A4T stöd [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] Verksamheter?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -56,45 +56,24 @@ Så här kommer du igång:
 
 ## Målmått som stöds {#supported}
 
-[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] Med kan du välja någon av följande måtttyper som det primära målmåttet för optimering:
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] gör att du kan välja någon av följande måtttyper som det primära målmåttet för optimering:
 
 * [!DNL Adobe Target] konverteringsmått
 * [!DNL Adobe Analytics] konverteringsmått
 * [!DNL Adobe Analytics] anpassade händelser
 
-[!DNL Target] låter dig välja mätvärden baserat på binomiala händelser eller mätvärden baserade på kontinuerliga händelser när du använder [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet.
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] kräver att du väljer ett mätvärde som baseras på en binomial-händelse. En binomialhändelse inträffar eller inträffar inte. Binomiala händelser omfattar ett klick, en konvertering, en ordning och så vidare. Dessa typer av händelser kallas ibland även för Bernoulli, binära eller diskreta händelser.
 
-* **Mätvärden baserade på binomiala händelser**: En binomialhändelse inträffar eller inträffar inte. Binomiala händelser omfattar ett klick, en konvertering, en ordning och så vidare. Dessa typer av händelser kallas ibland även för Bernoulli, binära eller diskreta händelser.
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] stöder inte optimering för kontinuerliga mätvärden. Kontinuerliga mätvärden är intäkter, antal beställda produkter, sessionstid, antal sidvisningar under sessionen osv. Dessa metattyper som inte stöds kallas ibland icke-binomiala eller icke-Bernoulli-mått.
 
-* **Mätvärden baserade på kontinuerliga händelser**. Kontinuerliga mätvärden är intäkter, antal beställda produkter, sessionstid, antal sidvisningar under sessionen osv. Dessa typer av händelser kallas ibland icke-binomiala eller icke-Bernoulli-mått.
+Följande måtttyper stöds inte som primära målmått:
 
->[!IMPORTANT]
->
->Från och med [!DNL Adobe Target Standard/Premium] 22.15.1-utgåvan (8 och 9 mars 2023), [!DNL Target] fortsätter att stödja befintliga aktiviteter med de värden som nu inte stöds (visas i följande tabeller). Efter 9 september 2023 kommer dock dessa mått inte längre att stödjas i befintliga aktiviteter och alla aktiviteter som använder mätvärden som inte stöds kommer att upphöra för att tvinga den befintliga aktivitetsövergången till det nya beteendet.
+* [!DNL Adobe Target] interaktions- och intäktsmått
+* [!DNL Adobe Analytics] interaktions- och intäktsmått
 
-### Effekt till [!UICONTROL Auto-Allocate] verksamhet
+   Du kan välja en [!DNL Analytics] engagemangs- eller intäktsmått som det primära målmåttet eftersom [!DNL Target] kan inte identifiera och utesluta alla interaktions- och intäktsmått från [!DNL Analytics]. Välj endast binomikonverteringsmått eller anpassade händelser från [!DNL Analytics].
 
-| Måttnamn | Stöds inte längre i: |
-| --- | --- |
-| [!UICONTROL averagepagedepth] | Konverteringsgrad, maximera måttvärde |
-| [!UICONTROL averagetimespentonsite] | Konverteringsgrad, maximera måttvärde |
-| [!UICONTROL bouncerate] | Konverteringsgrad, maximera måttvärde |
-| [!UICONTROL bounces] | Konverteringsgrad, maximera måttvärde |
-| [!UICONTROL entries] | Konverteringsgrad, maximera måttvärde |
-| [!UICONTROL exits] | Konverteringsgrad, maximera måttvärde |
-| [!UICONTROL pageviews] | Maximera måttvärde |
-| [!UICONTROL reloads] | Maximera måttvärde |
-| [!UICONTROL visitors] | Konverteringsgrad, maximera måttvärde |
-| [!UICONTROL visits] | Maximera måttvärde |
-
-### Effekt till [!UICONTROL Auto-Target] verksamhet
-
-| Måttnamn | Stöds inte längre i: |
-| --- | --- |
-| [!UICONTROL cartremovals] | Maximera måttvärde |
-| [!UICONTROL pageviews] | Maximera måttvärde |
-| [!UICONTROL visitors] | Konverteringsgrad, maximera måttvärde |
-| [!UICONTROL visits] | Maximera måttvärde |
+* [!DNL Adobe Analytics] beräknade värden
 
 ## Begränsningar och anteckningar
 
