@@ -2,16 +2,17 @@
 keywords: skapa rekommendationer;rekommendationsaktivitet;nya rekommendationer;rekommendationer översikt
 description: Lär dig använda Adobe [!DNL Target] Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en [!DNL Target]-aktiverad sida.
 title: Hur skapar jag en Recommendations-aktivitet?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Skapa en Recommendations-aktivitet
+# Skapa en Recommendations-aktivitet
 
 Använd Target Visual Experience Composer (VEC) för att skapa en Recommendations-aktivitet direkt på en Target-aktiverad sida och för att ändra delar av sidan i Target.
 

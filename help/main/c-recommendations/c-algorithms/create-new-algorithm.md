@@ -2,16 +2,17 @@
 keywords: villkor;algoritm;branschvertikal;sidtyp;rekommendationsnyckel;rekommendationslogik;logik;dataintervall;uppslagsfönster;beteendedatakälla;partiell design;säkerhetskopieringsrekommendationer;inkluderingsregler;attributvikt;aktuell kategori;anpassat attribut;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade objekt;senast visade;favoriter;senast visade
 description: Lär dig hur du skapar villkor som styr innehållet i dina Adobe Recommendations-aktiviteter för att visa de rekommendationer som är mest lämpliga för din aktivitet.
 title: Hur skapar jag kriterier i Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2658'
+source-wordcount: '2657'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Skapa villkor
+# Skapa villkor
 
 Kriterier i [!UICONTROL Adobe Target] [!UICONTROL Recommendations] styr innehållet i [!UICONTROL Recommendations] verksamhet. Skapa villkor för att visa de rekommendationer som passar bäst för din aktivitet. Dessa kriterier använder besökarens åtgärder för att avgöra vilket innehåll eller vilka produkter som ska visas.
 

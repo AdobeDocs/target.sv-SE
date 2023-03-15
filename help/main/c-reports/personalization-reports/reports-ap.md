@@ -2,16 +2,17 @@
 keywords: Målgruppsanpassning;AP-rapporter;automatiserade personaliseringsrapporter;aktivitetsnivårapport;erbjudandenivårapport;erbjudandedetaljrapport;faq
 description: Lär dig hur du tolkar sammanfattningsrapporten för Automated Personalization i Adobe Target. Du kan växla till rapporterna Automatiserade segment och Viktiga attribut från den här rapporten.
 title: Hur använder jag Automated Personalization Sammanfattningsrapporter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization Sammanfattningsrapporter
+# Automated Personalization Sammanfattningsrapporter
 
 Specialiserade sammanfattningsrapporter är tillgängliga för användare av [!UICONTROL Automated Personalization] verksamhet i [!DNL Adobe Target].
 

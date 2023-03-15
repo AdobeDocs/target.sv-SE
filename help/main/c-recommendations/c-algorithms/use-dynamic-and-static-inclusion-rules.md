@@ -2,17 +2,18 @@
 keywords: inkluderingsregler;inkluderingskriterier;rekommendationer;skapa nya kriterier;befordran;kampanjer;dynamisk filtrering;dynamiska;tomma värden;ignorera filtreringsregel;statiskt filter;filter efter värde;entitetsattributmatchning;profilattributmatchning;parametermatchning;filter efter värde;statiskt filter
 description: Lär dig hur du skapar inkluderingsregler i Adobe [!DNL Target] Recommendations för kriterier och kampanjer. För att få bättre resultat lägger du till mer dynamiska eller statiska filtreringsregler.
 title: Hur använder jag regler för dynamisk och statisk inkludering i Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Använd dynamiska och statiska inkluderingsregler
+# Använd dynamiska och statiska inkluderingsregler
 
 Information om hur du skapar inkluderingsregler för kriterier och kampanjer i [!DNL Adobe Target] och lägga till dynamiska eller statiska filtreringsregler för att få bättre resultat för dina rekommendationer.
 

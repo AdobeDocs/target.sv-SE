@@ -2,17 +2,18 @@
 keywords: entitetsattribut med flera värden;attribut för anpassade entiteter;giltig JSON;entitetsattributvärde;JSON-matris;flervärd;flervärd
 description: Lär dig hur du använder anpassade entitetsattribut för ett och flera värden för att definiera ytterligare information om objekt i Adobe [!DNL Target] Recommendations-katalog.
 title: Hur använder jag anpassade entitetsattribut?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Anpassade entitetsattribut
+# Anpassade entitetsattribut
 
 Använd anpassade entitetsattribut med ett och flera värden i [!DNL Adobe Target Recommendations] om du vill definiera ytterligare information om objekt i katalogen.
 
@@ -36,7 +37,7 @@ Ett anpassat entitetsattribut med ett enda värde formateras på samma sätt som
 
 Ett anpassat entitetsattribut med flera värden måste skickas som en giltig JSON-matris:
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 Exempel på giltiga JSON-matriser som stöds av [!DNL Recommendations]:
 

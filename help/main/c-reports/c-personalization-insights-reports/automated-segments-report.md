@@ -2,16 +2,17 @@
 keywords: Riktning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;auto target report;personalization;insights;automatic segments;faq;Vanliga frågor
 description: Lär dig hur olika segment definieras av Adobe [!DNL Target] personaliseringsmodeller svarar på erbjudanden/upplevelser i aktiviteten genom att visa rapporten om automatiserade segment.
 title: Vad är rapporten om automatiserade segment?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Automated Segments] rapport
+# [!UICONTROL Automated Segments] rapport
 
 Information om [!UICONTROL Automated Segments] rapport, en av de två specialrapporterna som är tillgängliga för användare av [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet.
 

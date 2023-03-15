@@ -2,16 +2,17 @@
 keywords: katalogsökning;katalog;sökning;exkludering;samling;filter
 description: Lär dig hur du använder Recommendations Catalog Search för att hitta produkter eller innehåll, skapa samlingar eller uteslutningar, ta bort objekt från katalogen och mycket mer.
 title: Hur använder jag Recommendations Catalog Search?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Katalogsökning
+# Katalogsökning
 
 The [!UICONTROL Catalog Search] sida in [!DNL Adobe Recommendations] hjälper dig att hitta produkterna eller innehållet i din katalog. Den mest grundläggande uppgiften du kan utföra på den här sidan är att söka efter ett objekt. Dessutom kan du ändra miljön, spara sökresultat i samlingar eller uteslutningar, lägga till filteraspekter och ändra kolumner i tabellen, lägga till nya sökfaktorer och mycket mer.
 

@@ -2,17 +2,18 @@
 keywords: deduplicera;tillåta dubbletter;exkludera dubblerade erbjudanden;automatiserad personalisering;Tillåt inte dubblerade erbjudanden;exkludera;standardinnehåll;exkluderingsgrupp;
 description: Hantera undantag i Adobe [!DNL Target] Automated Personalization-aktiviteter. Skapa exkluderingsgrupper och exkludera dubblerade erbjudanden, specifika upplevelser och standardinnehåll.
 title: Hur hanterar jag undantag i Automated Personalization-aktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
 
-# ![Premium-märke](/help/main/assets/premium.png) Hantera undantag
+# Hantera undantag
 
 Hantera uteslutningar genom att skapa exkluderingsgrupper, exklusive dubblerade erbjudanden, exklusive specifika upplevelser, och exkludera standardinnehåll i [!UICONTROL Automated Personalization] (AP) aktiviteter i [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) aktiviteter.
 

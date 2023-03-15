@@ -2,16 +2,17 @@
 keywords: automatiserad personalisering;ap;målgrupper;ensemble;random forest;multi-väpnad bandit;thompson sampling;ml;maskininlärning
 description: Lär dig hur du använder Automated Personalization-aktiviteter (AP) i Adobe [!DNL Target] som använder avancerad maskininlärning för att matcha olika erbjudandevarianter för varje besökare.
 title: Vad är en Automated Personalization-aktivitet (AP)?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization (AP)
+# Automated Personalization (AP)
 
 [!UICONTROL Automated Personalization] (AP) aktiviteter i [!DNL Adobe Target] kombinera erbjudanden eller meddelanden och använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje enskild besökare baserat på deras individuella kundprofil, för att personalisera innehåll och driva på lyft.
 
@@ -61,7 +62,7 @@ Random Forest är en ledande maskininlärningsstrategi. I datavetenskapen är de
 
 **Målet använder automatiskt alla [!DNL Adobe Experience Cloud] delade målgrupper för att bygga personaliseringsmodeller.**
 
-* Ni behöver inte göra något specifikt för att lägga till målgrupper i modellen. Mer information om hur du använder [!DNL Experience Cloud Audiences] med [!DNL Target], se [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md).
+* Du behöver inte göra något specifikt för att lägga till målgrupper i modellen. Mer information om hur du använder [!DNL Experience Cloud Audiences] med [!DNL Target], se [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md).
 
 **Marknadsförarna kan överföra offlinedata, benägenhetspoäng eller andra anpassade data för att bygga personaliseringsmodeller.**
 

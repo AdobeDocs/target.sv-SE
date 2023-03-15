@@ -2,17 +2,18 @@
 keywords: upplevelse;kontrollera;automatiserad personalisering;automatisk målanpassning
 description: Lär dig hur du väljer en upplevelse som ska användas som kontroll när du skapar en Automated Personalization- (AP) eller Auto-Target-aktivitet i Adobe Target.
 title: Hur använder jag en specifik upplevelse som kontroll i en AP-aktivitet?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet
+# Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet
 
 Du kan välja en slumpmässigt hanterad upplevelse eller en specifik upplevelse som ska användas som kontroll när du skapar en [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) eller [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) aktivitet.
 
@@ -22,7 +23,7 @@ Alternativen för att ställa in en kontroll i AP- och AT-aktiviteter skiljer si
 
 Det finns två alternativ som du kan styra i dina AP- och AT-aktiviteter: slumpmässigt hanterade upplevelser eller en specifik upplevelse.
 
-* **Slumpmässigt serverad**: För en slumpmässig kontroll visar kontrollprocenten av trafiken slumpmässigt alla upplevelser i aktiviteten, utan att ta hänsyn till besökarens profil. Du kan tänka dig kontrollen som ett sätt att besvara frågan:&quot;Om jag bara slumpmässigt skickar ut en upplevelse (eller ett erbjudande) till besökarna och inte ser deras profiler, hur stor konverteringsgraden är för upplevelsen (eller erbjudandet)?&quot; Kontrollen är som ett A/B-test i AI-aktiviteten. Att ha denna information om den icke-personaliserade konverteringsgraden för varje upplevelse eller erbjudande kan vara praktiskt när du analyserar aktivitetsresultaten.
+* **Slumpmässigt serverad**: För en slumpmässig kontroll visar kontrollprocenten av trafiken slumpmässigt alla upplevelser i aktiviteten, utan att ta hänsyn till besökarens profil. Du kan tänka dig kontrollen som ett sätt att besvara frågan:&quot;Om jag bara slumpmässigt skickar ut en upplevelse (eller ett erbjudande) till besökare och inte ser deras profiler, hur stor konverteringsgraden är för upplevelsen (eller erbjudandet)?&quot; Kontrollen är som ett A/B-test i AI-aktiviteten. Att ha denna information om den icke-personaliserade konverteringsgraden för varje upplevelse eller erbjudande kan vara praktiskt när du analyserar aktivitetsresultaten.
 
 * **Specifik upplevelse**: Med en specifik upplevelsekontroll kan du jämföra den trafik som betjänas av Target personaliseringsmodeller med en specifik marknadsföringsdefinierad upplevelse (till exempel din standardhemsida). Med det här alternativet betjänar kontrollprocenten av trafiken slumpmässigt bara trafiken för den upplevelsen.
 

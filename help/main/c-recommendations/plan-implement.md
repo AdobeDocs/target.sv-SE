@@ -1,17 +1,18 @@
 ---
 keywords: Recommendations;settings;preferences;industry vertical;filter inkompatibla villkor;default host group;thumb base url;recommendations api token
-description: 'Lär dig implementera Recommendations-aktiviteter i Adobe Target. '
+description: Lär dig implementera Recommendations-aktiviteter i Adobe Target.
 title: Hur genomför jag Recommendations-aktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Planera och implementera [!DNL Recommendations]
+# Planera och implementera [!DNL Recommendations]
 
 Innan du börjar använda [!DNL Adobe Target Recommendations]måste du utföra flera steg.
 

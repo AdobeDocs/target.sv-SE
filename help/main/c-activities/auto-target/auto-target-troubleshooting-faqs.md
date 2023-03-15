@@ -2,16 +2,17 @@
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning;trafik
 description: Utforska felsökningsämnen och vanliga frågor och svar om Automatisk Target-aktiviteter i Adobe Target.
 title: Hur felsöker jag Automatiskt inriktade aktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1859'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Vanliga frågor och felsökning för Automatiskt mål
+# Vanliga frågor och felsökning för Automatiskt mål
 
 Felsökning och vanliga frågor (FAQ) om [!UICONTROL Auto-Target] verksamhet i [!DNL Adobe Target].
 

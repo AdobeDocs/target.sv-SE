@@ -2,16 +2,17 @@
 keywords: miljödata;sessionsdata;geodata;geografiska data;enhetsdata;mobildata;attribut;profilattribut;personaliseringsalgoritmer;maskininlärningsalgoritmer;maskininlärningsalgoritmer
 description: Läs vilka data Adobe [!DNL Target] samlar in och använder för att skapa maskininlärningsalgoritmer.
 title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Data som används av [!DNL Target] maskininlärningsalgoritmer
+# Data som används av [!DNL Target] maskininlärningsalgoritmer
 
 [!DNL Adobe Target] samlar automatiskt in och använder en mängd data för att bygga upp personaliseringsalgoritmer i [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet. När en besökare går in i en AP- eller AT-aktivitet skickas en ögonblicksbild av information till en uppsättning&quot;utbildningsposter&quot; (de besökardata som personaliseringsalgoritmerna kommer att lära sig).
 

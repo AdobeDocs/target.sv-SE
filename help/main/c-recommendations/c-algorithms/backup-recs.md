@@ -2,16 +2,17 @@
 keywords: rekommendation;säkerhetskopia;säkerhetskopiera
 description: Lär dig hur du använder rekommendationer för säkerhetskopiering i Adobe [!DNL Target] Recommendations. Rekommendationer som inte har tillräckligt många rekommenderade objekt visar resultatet av säkerhetskopieringsalgoritmen.
 title: Hur använder jag en rekommendation för säkerhetskopiering i Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Använd en rekommendation för säkerhetskopiering
+# Använd en rekommendation för säkerhetskopiering
 
 Om du använder funktionen för rekommenderad säkerhetskopiering i Adobe Target kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 
