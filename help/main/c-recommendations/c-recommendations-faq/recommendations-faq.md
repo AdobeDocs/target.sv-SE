@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3377'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Om platsen som du använder det här villkoret på inte innehåller kategori-ID:
 
 Om du använder en plats där kategori-ID finns i rutan innehåller kriterieväljaren alla tillämpliga villkor.
 
-[!DNL Target] har en [Filtrera inkompatibla villkor](https://developer.adobe.com/target/implement/recommendations/){target=_blank} för att styra intelligent filtrering av algoritmväljaren.
+[!DNL Target] har en [Filtrera inkompatibla villkor](https://developer.adobe.com/target/implement/recommendations/){target=_blank} inställning för att styra intelligent filtrering av algoritmväljaren.
 
 >[!NOTE]
 >
