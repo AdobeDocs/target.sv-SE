@@ -2,16 +2,17 @@
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;entitetsattributmatchning
 description: Lär dig filtrera dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra en pool med möjliga objekt med ett specifikt objekt som användaren har interagerat med.
 title: Hur filtrerar jag efter entitetsattributmatchning i Recommendations-aktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Matchande entitetsattribut
+# Matchande entitetsattribut
 
 Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra en pool med möjliga rekommendationsobjekt med ett specifikt objekt som användaren har interagerat med.
 

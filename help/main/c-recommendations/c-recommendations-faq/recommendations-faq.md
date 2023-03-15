@@ -2,16 +2,17 @@
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;rekommendationer;specialtecken;attributvikt;innehållets likhet
 description: Visa en lista med vanliga frågor och svar om Adobe [!DNL Target] Recommendations verksamhet.
 title: Var hittar jag frågor och svar om [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3376'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Recommendations FAQ
+# Recommendations FAQ
 
 Lista med vanliga frågor och svar om [!DNL Adobe Target] [!DNL Recommendations] verksamhet.
 

@@ -2,16 +2,17 @@
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;profilattributsmatchning
 description: Lär dig filtrera dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra artiklar (entiteter) med ett värde i användarens profil.
 title: Hur filtrerar jag efter matchning av profilattribut i Recommendations-aktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Matchning av profilattribut
+# Matchning av profilattribut
 
 Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra artiklar (entiteter) med ett värde i användarens profil.
 

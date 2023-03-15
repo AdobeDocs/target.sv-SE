@@ -2,16 +2,17 @@
 keywords: villkorssekvens;flera kriterier;algoritmer;kriterier;rekommendationer-kriterier;sekvens;gränsantal returnerade objekt;platshållarnivåkontroll;plats
 description: Lär dig hur du ställer in sekvenser på upp till fem villkor för att få bättre kontroll över objekten som visas i Adobe [!DNL Target] Recommendations verksamhet.
 title: Hur skapar jag villkorssekvenser i Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Skapa villkorssekvenser
+# Skapa villkorssekvenser
 
 Använd sekvenser med upp till fem kriterier för att få bättre kontroll över de objekt som visas i [!UICONTROL Recommendations] verksamhet. Du kan också begränsa antalet returnerade objekt (kallas ibland för&quot;platskontrollen&quot;).
 

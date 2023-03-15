@@ -2,16 +2,17 @@
 keywords: trafikuppskattare;automatiserad personalisering;ap;uppskattning av trafik;automål
 description: Använd Adobe [!DNL Target] Trafikberäkning för att avgöra om du har tillräckligt med trafik för att din Automated Personalization-aktivitet ska lyckas.
 title: Hur mycket trafik krävs för en framgångsrik verksamhet?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Uppskatta den trafik som krävs för att lyckas
+# Uppskatta den trafik som krävs för att lyckas
 
 The [!DNL Adobe Target] [!UICONTROL Traffic Estimator] ger feedback som talar om för dig om du har tillräckligt med trafik för [!UICONTROL Automated Personalization] för att lyckas.
 

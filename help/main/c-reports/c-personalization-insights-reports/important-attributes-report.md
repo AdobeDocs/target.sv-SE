@@ -2,16 +2,17 @@
 keywords: Målgruppsanpassning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;personalization;insights;faq;Vanliga frågor;viktiga attribut
 description: Lär dig använda [!UICONTROL Important Attributes] som visar de viktigaste attributen som påverkade personaliseringsmodellen och deras relativa betydelse.
 title: Vilken är den viktiga attributrapporten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Viktiga attributrapporter
+# Viktiga attributrapporter
 
 Information om [!UICONTROL Important Attributes] rapport, en av de två specialrapporterna som är tillgängliga för användare av [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet.
 

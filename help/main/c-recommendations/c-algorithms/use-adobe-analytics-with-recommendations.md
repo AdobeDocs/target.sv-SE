@@ -2,16 +2,17 @@
 keywords: beteendedatakälla;analys;rekommendationer;kriterier;produktvariabler
 description: Lär dig använda [!DNL Adobe Analytics] som den beteendedatakälla som ska använda vybaserade och/eller inköpsbaserade beteendedata från [!DNL Analytics] in [!DNL Target Recommendations].
 title: Hur jag använder [!DNL Adobe Analytics] med [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Använd [!DNL Adobe Analytics] med [!DNL Recommendations]
+# Använd [!DNL Adobe Analytics] med [!DNL Recommendations]
 
 Använda [!DNL Adobe Analytics] eftersom beteendedatakällan låter kunderna använda vybaserade och/eller inköpsbaserade beteendedata från [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] verksamhet. Den här funktionen är särskilt användbar i situationer där [!DNL Target Recommendations] är nytt och [!DNL Analytics] har mycket historiska data att använda.
 

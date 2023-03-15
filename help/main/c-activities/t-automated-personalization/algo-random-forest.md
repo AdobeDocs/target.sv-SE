@@ -2,16 +2,17 @@
 keywords: slumpskog;beslutsträd;ap;Automated Personalization
 description: Se hur Adobe [!DNL Target] använder algoritmen Slumpmässig skog i både Automated Personalization (AP) och Auto-Target-aktiviteter.
 title: Hur [!DNL Target] Använd slumpmässig skogsalgoritm?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Slumpmässig skogsalgoritm
+# Slumpmässig skogsalgoritm
 
 Målets huvudsakliga personaliseringsalgoritm som används i både Automated Personalization och Auto-Target är Slumpmässig skog. Ensemble-metoder som Slumpmässig skog använder flera inlärningsalgoritmer för att få bättre prediktiva prestanda än vad som kan uppnås med någon av de ingående inlärningsalgoritmerna. Algoritmen Slumpmässig skog i Automated Personalization är en klassificerings- eller regressionsmetod som fungerar genom att skapa en mängd beslutsträd när den tränas.
 

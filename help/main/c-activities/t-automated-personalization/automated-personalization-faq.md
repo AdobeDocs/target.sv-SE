@@ -2,16 +2,17 @@
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;Automatisk personalisering;kontroll;standardupplevelse;bästa praxis
 description: Se en lista med vanliga frågor och svar om Automated Personalization-aktiviteter i Adobe Target.
 title: Hur hittar jag Frågor och svar om Automated Personalization Activity?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1981'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Vanliga frågor om Automated Personalization
+# Vanliga frågor om Automated Personalization
 
 Lista med vanliga frågor och svar om Automated Personalization (AP).
 

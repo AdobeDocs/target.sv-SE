@@ -2,16 +2,17 @@
 keywords: Skapa automatiskt mål;A/B-test;automatiskt mål-aktivitet;ny a/b-aktivitet;automatiskt mål;automatiskt mål för personaliserade upplevelser;personaliserad;optimering
 description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe [!DNL Target] för att skapa A/B-testaktivitet automatiskt direkt på en [!DNL Target]-aktiverad sida.
 title: Hur skapar jag en automatiskt målaktivering?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Skapa en Automatisk målaktivitet
+# Skapa en Automatisk målaktivitet
 
 Använd [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] för att skapa [!UICONTROL Auto-Target] [!UICONTROL A/B Test] direkt på [!DNL Target]-aktiverad sida och ändra delar av sidan på [!DNL Target].
 

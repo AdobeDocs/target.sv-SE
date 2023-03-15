@@ -2,16 +2,17 @@
 keywords: Recommendations;intro;introduction;webbinar;demo
 description: Läs om Recommendations aktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter eller andra algoritmer.
 title: Vad är Recommendations aktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2113'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Introduktion till Recommendations
+# Introduktion till Recommendations
 
 Texten i den här artikeln kommer från *Introduktion till Recommendations* webbinarium, som du kan visa i sin helhet nedan.
 
@@ -25,7 +26,7 @@ Följande bild visar en rekommendation som visar tillbehör som vanligen köps m
 
 ![Rekommendationer som visar tillbehör som andra har köpt med en ny telefon.](/help/main/c-recommendations/assets/intro-1.png)
 
-Men det vi inte alltid tänker på är hur varumärken som tänker&quot;digitalt först&quot; ökar ribban för kundernas förväntningar. Det sätt vi konsumerar media och innehåll på styrs i allt högre grad av personaliserade rekommendationer. Tänk på det första du ser när du öppnar Netflix, Spotify eller YouTube. Dessa varumärken utgör grunden för kundupplevelsen med rekommendationer. I en värld där det finns fler alternativ än någonsin är det viktigt att ni kan identifiera det mest relevanta innehållet för kunden vid interaktionen.
+Men det vi inte alltid tänker på är hur varumärken som sätter det digitala först ökar ribban för kundernas förväntningar. Det sätt vi konsumerar media och innehåll på styrs i allt högre grad av personaliserade rekommendationer. Tänk på det första du ser när du öppnar Netflix, Spotify eller YouTube. Dessa varumärken utgör grunden för kundupplevelsen med rekommendationer. I en värld där det finns fler alternativ än någonsin är det viktigt att ni kan identifiera det mest relevanta innehållet för kunden vid interaktionen.
 
 ![Rekommendation som visar varumärken som tänker&quot;digitalt först&quot;](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -54,7 +55,7 @@ Stora rekommendationer bör vara relevanta och personaliserade. Det innebär att
 
 * **Marknadsföringskontroller** för att öka relevansen för de objekt som rekommenderas. Som marknadsförare ger ni tabellen ett värdefullt sammanhang och vet vilka attribut som är relevanta för en rekommendationsmodell. Om du kör en videowebbplats vet du att användarna kanske är intresserade av att se filmer från samma regissör, men du bryr dig antagligen inte om att se filmer som har producerats i samma studio. [!DNL Target] ger dig möjlighet att använda kontroller som gör att du kan förbättra dina algoritmer med den här domänkunskapen.
 * **Sofistikerade modeller** för att förstå miljontals objekt i katalogen och interaktionshändelser. [!DNL Target] har sofistikerade maskininlärningsfunktioner som byggts under ett decennium av erfarenhet och vi hanterar miljarder rekommendationer per år.
-* **Användarkontext** för att säkerställa att rekommendationerna är aktuella och relevanta för användarna. Du vill inte rekommendera videon som någon just tittade på eller skjortan som någon just lagt till i kundvagnen. Målets omfattande användarprofil kan användas i rekommendationer för att säkerställa personalisering.
+* **Användarkontext** för att säkerställa att rekommendationerna är aktuella och relevanta för användarna. Du vill inte rekommendera videon som någon just tittat på eller skjortan som någon just lagt till i kundvagnen. Målets omfattande användarprofil kan användas i rekommendationer för att säkerställa personalisering.
 
 ## Implementera [!DNL Target] Recommendations
 
@@ -102,7 +103,7 @@ Därefter bör du lägga till taggar eller utnyttja befintliga [!DNL Analytics] 
 
 ![Illustration som visar hur man fångar upp användarbeteenden](/help/main/c-recommendations/assets/intro-9.png)
 
-Du måste se till att [!DNL Target] är medveten om vilka objekt dina användare visar och köper. Om inköpen inte är relevanta för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av ett PDF, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
+Du måste se till att [!DNL Target] är medveten om vilka objekt dina användare visar och köper. Om köpet inte är relevant för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av PDF, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
 
 Om du redan använder [!DNL Target] Om du vill köra A/B-tester på din webbplats kanske du redan har slutfört det här steget. Eller om du redan använder [!DNL Adobe Analytics] om du vill rapportera om webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Du kan också skicka interaktioner offline eller i appen till [!DNL Target] via API i realtid.
 

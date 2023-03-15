@@ -1,17 +1,18 @@
 ---
 keywords: entitet;entitetsattribut;skicka information till Recommendations;beteendedata;dataräknare;definiera relativ URL;visa lagernivå;definiera pris;definiera vinstmarginal;anpassade attribut
 description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Target] Recommendations.
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Entitetsattribut
+# Entitetsattribut
 
 Använd entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Adobe Target Recommendations].
 
@@ -30,7 +31,7 @@ I allmänhet ser visningsinformationsrutan ut som i följande exempel om du anv�
 
 >[!NOTE]
 >
->Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använda [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. Ett exempel finns i [Planera och implementera Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+>Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använda [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -113,7 +114,7 @@ För kategoribaserade rekommendationer avgränsar ett kommatecken kategorivärde
 I följande kod delas kategorin Kvinnor in i flera underkategorier:
 
 ```javascript
-mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
+mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
 För leverans av mbox används det längsta attributnamnet för nyckeln. Om det finns en slips används det sista attributet. I exemplet ovan är kategorinyckeln Womens:Outerwear:Jackets:Caban.

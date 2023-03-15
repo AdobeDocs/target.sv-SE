@@ -2,16 +2,17 @@
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning
 description: Lär dig hur [!UICONTROL Auto-Target] aktivitet i [!DNL Target] levererar den mest skräddarsydda upplevelsen till varje besökare baserat på kundprofiler och beteendet hos liknande besökare.
 title: Vad är en [!UICONTROL Auto-Target] Aktivitet?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Auto-Target] översikt
+# [!UICONTROL Auto-Target] översikt
 
 [!UICONTROL Auto-Target] verksamhet i [!DNL Adobe Target] använda avancerad maskininlärning för att välja bland flera högpresterande marknadsföringsdefinierade upplevelser för att personalisera innehåll och driva konverteringar. [!UICONTROL Auto-Target] levererar den mest skräddarsydda upplevelsen till varje besökare baserat på den enskilda kundprofilen och beteendet hos tidigare besökare med liknande profiler.
 

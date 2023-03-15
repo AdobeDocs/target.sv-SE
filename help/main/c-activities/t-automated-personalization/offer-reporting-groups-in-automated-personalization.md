@@ -2,16 +2,17 @@
 keywords: automatiserad personalisering;erbjudande;rapportering;grupp;rapporteringsgrupp;ap
 description: Lär dig hur du använder rapporteringsgrupper i Adobe [!DNL Target] [!UICONTROL Automated Personalization] verksamhet.
 title: Kan jag använda rapporteringsgrupper i Automated Personalization-aktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Erbjud rapportgrupper i [!UICONTROL Automated Personalization]
+# Erbjud rapportgrupper i [!UICONTROL Automated Personalization]
 
 Information om hur du använder rapporteringsgrupper i [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) aktiviteter.
 

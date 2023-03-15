@@ -2,16 +2,17 @@
 keywords: IP-adress;IP-adresser;vitlista;tillåtelselista;brandvägg;recs;feed;servrar;adobe marketing cloud;rekommendationer
 description: Visa en lista över IP-adresser som används i [!DNL Target] Recommendations servrar för hantering av feeds som hjälper dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 title: Vilka IP-adresser använder Recommendations-servrar för mathantering?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) IP-adresser som används av Recommendations feed-bearbetningsservrar
+# IP-adresser som används av Recommendations feed-bearbetningsservrar
 
 Lista över IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations] servrar för feed-processing som hjälper dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 
