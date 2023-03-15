@@ -2,17 +2,18 @@
 keywords: integration;roller;användarbehörigheter;Admin Console
 description: Lär dig hur du ger integreringar med Adobe I/O tillgång till alla arbetsytor med önskad roll i Adobe Target.
 title: Hur ger jag Adobe I/O åtkomst till arbetsytor och tilldelar roller?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Ge Adobe I/O integreringar åtkomst till arbetsytor och tilldela roller
+# Ge Adobe I/O integreringar åtkomst till arbetsytor och tilldela roller
 
 [!UICONTROL Enterprise Permissions] tillåter [!DNL Target] kunder som vill använda en enda organisation, men dela upp den i arbetsytor för sina olika team eller arbetsflöden.
 

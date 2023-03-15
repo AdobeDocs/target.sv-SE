@@ -5,9 +5,9 @@ title: Hur konfigurerar jag Visual Experience Composer (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Det här alternativet är användbart om du till exempel:
 
 När du aktiverar ögonblicksbilder av upplevelser genereras miniatyrer för dina upplevelser i aktivitetsarbetsflödesdiagrammet. Om du inaktiverar ögonblicksbilder kan vissa användare få bättre prestanda.
 
-## ![Premium-märke](/help/main/assets/premium.png) Konfiguration av mobilvisningsruta
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Se vad som ingår i Target Premium."}
 
 Du kan lägga till enheter som ska användas när du förhandsgranskar upplevelser. Varje enhet har en associerad målgrupp.
 
