@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Den här versionen innehåller följande nya funktioner, förbättringar och kor
 * Uppdaterade länkar i [!DNL Target] Gränssnitt som pekar på det nya [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Förbättrat skydd för att förhindra SSRF-försök (Server-Side Request Forgery) i [!DNL Recommendations] feeds. (TGT-43769)
 * Ett problem som gjorde att kunderna inte kunde visa förhandsvisningsbilder i har korrigerats [!DNL Recommendations] skapar symboler om bildnamnet innehåller [GB18030 tecken](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Ett problem som orsakade vissa har korrigerats [GB18030 tecken](https://en.wikipedia.org/wiki/GB_18030){target=_blank} att rymmas i [!UICONTROL Modifications] panel vid redigering [!UICONTROL Text/HTML] på en aktivitet [!UICONTROL Experiences] sida.
+* Ett problem som orsakade vissa har korrigerats [GB18030 tecken](https://en.wikipedia.org/wiki/GB_18030){target=_blank} att rymmas i [!UICONTROL Modifications] panel vid redigering [!UICONTROL Text/HTML] på en aktivitet [!UICONTROL Experiences] sida. (TGT-44600)
 * Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
 
 
