@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
 workflow-type: tm+mt
-source-wordcount: '35173'
+source-wordcount: '35428'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,39 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
+
+### [!DNL Target] Standard/Premium 22.15.1 (8 och 9 mars 2023)
+
+Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
+
+* **8 mars**: Amerika
+* **9 mars**: Europa, Mellanöstern och Afrika (EMEA)
+* **9 mars**: Asien-Stillahavsområdet (APAC)
+
+>[!NOTE]
+>
+>På grund av problem som sedan dess har åtgärdats, &quot;Optimerade A4T-värden för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]&quot; som släpptes den 8 och 9 mars har tillfälligt tagits bort. Efter ytterligare intern testning kommer funktionen att släppas igen inom några veckor.
+
+Den här versionen innehåller följande korrigeringar:
+
+* Uppdateringar för utveckling av anpassade webbkomponenter med [!UICONTROL Visual Experience Composer] (VEC):
+
+   * Skuggans DOM-element har markerats i VEC genom att redigeringsprocessen har förbättrats så att det inte finns något beroende av [!DNL Target] implementeringstyp vid redigering av skuggroten. Nu ska det fungera för alla webbplatser att välja Shadow DOM-element i VEC.
+   * Korrigerade ett problem som förhindrade inläsning av HTML-element med #Shadow DOM i VEC. (TGT-35801)
+   * Korrigerade VEC-problem med SPA webbplatser som använder ShadowDOM. (TGT-43169)
+   * Ett problem med optimeringsmålet har korrigerats: &quot;klickade på ett element&quot; som inte kunde identifiera CSS-väljaren korrekt i ShadowDOM.
+
+>[!NOTE]
+>
+>För att vara säker på att ändringarna som har skapats i VEC levereras måste du se till att du använder en [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) med en version som är större än 2.8.
+
+**Känt fel**: Klickspårning på ett skuggrotelement vid användning [!DNL Adobe Experience Platform Web SDK] fungerar inte korrekt. (TNT-47012)
+
+### at.js version 2.10.2 (7 mars 2023)
+
+* Ett problem som orsakade `trackEvent` funktion som alltid returnerar ett fel.
+
+Mer information om alla at.js-versioner finns i [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.14.5 (13-15 februari 2023)
 
