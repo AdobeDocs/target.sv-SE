@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
+source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
 workflow-type: tm+mt
 source-wordcount: '2168'
 ht-degree: 0%
