@@ -2,10 +2,11 @@
 keywords: upplevelse;json;aem;adobe experience manager;exportera till adobe target;content fragments;fragments;CF;cf
 description: Lär dig använda [!DNL Adobe Experience Manager] [!UICONTROL Content Fragments] in [!DNL Adobe Target] verksamhet.
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: cdb0e3f3e1ebb2f9076d3994aed533bd7c296fad
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -13,6 +14,11 @@ ht-degree: 0%
 # AEM [!UICONTROL Content Fragments]
 
 Använd [!UICONTROL Content Fragments] (CF) skapad i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering.
+
+>[!NOTE]
+>
+>Den här funktionen kommer att släppas 6 april 2023.
+
 
 >[!NOTE]
 >
@@ -35,7 +41,7 @@ Kontakt [Adobe Target kundtjänst](/help/main/cmp-resources-and-contact-informat
 
 ## Konfigurera och arbeta med [!UICONTROL Content Fragments] in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Exportera [!UICONTROL Content Fragments] att använda i [!DNL Target] -aktiviteter måste du utföra några preliminära steg i AEM. Mer information finns i [Exportera innehållsfragment till Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
+Exportera [!UICONTROL Content Fragments] att använda i [!DNL Target] -aktiviteter måste du utföra några preliminära steg i AEM. Mer information finns i [Exportera innehållsfragment till Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} i *as a Cloud Service dokumentation för Experience Manager*. Observera att den här länken kommer att vara tillgänglig på releasedagen (6 april 2023)
 
 Mer information om att designa, skapa, strukturera och publicera [!UICONTROL Content Fragments], se [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
 
