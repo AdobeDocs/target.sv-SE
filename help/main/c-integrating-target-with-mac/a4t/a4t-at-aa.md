@@ -4,9 +4,9 @@ description: Lär dig hur du skapar [!UICONTROL Auto-Allocate] och [!UICONTROL A
 title: Har A4T stöd [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] Verksamheter?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
+source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,6 @@ Vissa begränsningar och anteckningar gäller för båda [!UICONTROL Auto-Alloca
 * När du använder [!DNL Adobe Analytics] som rapportkälla för [!UICONTROL Auto-Allocate] eller [!UICONTROL Auto-Target]bör du alltid visa rapporter i [!DNL Analytics].
 * Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller vice versa efter att en aktivitet har aktiverats.
 * Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. [!DNL Target] normaliserar automatiskt konverteringsmåtten per besök för att ta hänsyn till ojämn trafikfördelning, så det är inte nödvändigt att använda ett beräknat mätvärde för att utföra normaliseringen.
-* När du använder [!DNL Adobe Analytics] som rapportkälla för [!UICONTROL Auto-Allocate] eller [!UICONTROL Auto-Target] aktiviteter, du bör alltid visa rapporter i [!DNL Analytics].
-* Rapporteringskällan kan inte ändras från [!DNL Analytics] till [!DNL Target] eller vice versa efter att en aktivitet har aktiverats.
-* Även om beräknade mätvärden inte stöds som primära målmätvärden är det ofta möjligt att uppnå det avsedda resultatet genom att i stället välja en anpassad händelse som primärt målmått. Om du till exempel vill optimera för ett mått som&quot;formulärifyllningar per besökare&quot; väljer du en anpassad händelse som motsvarar&quot;formulärifyllningar&quot; som det primära målmåttet. [!DNL Target] normaliserar automatiskt konverteringsstatistik per besökare för [!UICONTROL Auto-Allocate] -aktiviteter, så det är inte nödvändigt att använda ett beräknat mått för att utföra normalisering.
 
 ### Automatisk allokering {#aa}
 
