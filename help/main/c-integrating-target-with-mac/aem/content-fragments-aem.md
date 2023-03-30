@@ -1,19 +1,21 @@
 ---
-keywords: upplevelse;json;aem;adobe experience manager;exportera till adobe target;content fragments;fragments;CF;cf
+keywords: upplevelse;json;aem;adobe experience manager;export till adobe target;content fragments;fragments;CF;cf;headless;personalization;experiment
 description: Lär dig använda [!DNL Adobe Experience Manager] [!UICONTROL Content Fragments] in [!DNL Adobe Target] verksamhet.
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # AEM [!UICONTROL Content Fragments]
 
-Använd [!UICONTROL Content Fragments] (CF) skapad i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta optimering eller personalisering.
+Använd [!UICONTROL Content Fragments] (CF) skapad i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta personalisering och experimenterande utan motstycke.
+
+AEM innehållsfragment för headless personalisering och experimenterande
 
 >[!NOTE]
 >
