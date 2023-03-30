@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,15 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 30 mars | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Uppdaterad versionsinformation för releasen av optimerade A4T-värden för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] funktion som låter dig välja mätvärden baserat på binomiala händelser eller mätvärden baserade på kontinuerliga händelser när du använder [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet. |
+|  | [A4T-stöd för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Uppdaterat avsnitt som innehåller information om måtten som stöds (och inte stöds) för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter använda [!UICONTROL Analytics for Target] (A4T) |
+|  | [Självstudiekurser om Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | Uppdaterade följande självstudiekurser:<ul><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 | 28 mars | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.3.1-utgåvan. |
 
 ## [!DNL Target] Standard/Premium 22.15.1 (8 och 9 mars 2023)
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 8 mars | [A4T-stöd för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Uppdaterat avsnitt som innehåller information om måtten som stöds (och inte stöds) för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter använda [!UICONTROL Analytics for Target] (A4T) |
-|  | [Självstudiekurser om Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | Följande nya självstudiekurser har lagts till:<ul><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 |  | [Redigera en aktivitet eller spara som utkast](/help/main/c-activities/edit-activity.md) | Lagt till ett avsnitt om bästa praxis. |
 |  | [Ändringar](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Följande kommentar har lagts till i avsnittet Felsökning av anpassad kod:<ul><li>Anpassade koderbjudanden i VEC återges inte om när `triggerView()` anropas med `{page: false}` som alternativ.</li></ul> |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Ytterligare information om at.js 2.10.2. |
