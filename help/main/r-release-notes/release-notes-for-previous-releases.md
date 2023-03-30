@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
+source-git-commit: cf82c6cc75dfe42b002cf6d8e17287cb11704870
 workflow-type: tm+mt
-source-wordcount: '35428'
+source-wordcount: '35388'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,6 @@ Den här versionen kommer att vara tillgänglig enligt följande uppdelade schem
 * **8 mars**: Amerika
 * **9 mars**: Europa, Mellanöstern och Afrika (EMEA)
 * **9 mars**: Asien-Stillahavsområdet (APAC)
-
->[!NOTE]
->
->På grund av problem som sedan dess har åtgärdats, &quot;Optimerade A4T-värden för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]&quot; som släpptes den 8 och 9 mars har tillfälligt tagits bort. Efter ytterligare intern testning kommer funktionen att släppas igen inom några veckor.
 
 Den här versionen innehåller följande korrigeringar:
 
