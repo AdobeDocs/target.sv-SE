@@ -5,9 +5,9 @@ title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
+source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
 workflow-type: tm+mt
-source-wordcount: '3774'
+source-wordcount: '3831'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,11 @@ Om du väljer algoritmen Mest visade av kategori kan du välja följande Recomme
 
 ### De viktigaste säljarna efter artikelattribut
 
-(Information kommer snart)
+Rekommenderar objekt eller media som liknar de mest köpta objekten eller medierna på din webbplats.
+
+Med den här algoritmen kan du välja vilket objektattribut du vill basera rekommendationen på, till exempel &quot;Namn&quot; eller &quot;Varumärke&quot;.
+
+Sedan väljer du vilka profilattribut som ska matchas i besökarens profil, till exempel &quot;Favorit Brand&quot;, &quot;Last Item Added to Cart&quot; eller &quot;Most Viewed Show.&quot;
 
 ### Top by Analytics Metric
 
