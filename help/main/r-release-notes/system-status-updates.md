@@ -1,12 +1,12 @@
 ---
 keywords: systemuppdatering;felsökning;underhåll;systemstatus;uppdateringsstatus
-description: Visa aktuell status för Adobe [!DNL Target] för att hjälpa dig att avgöra om de problem du kan råka ut för beror på systemuppdateringar eller rutinunderhåll.
-title: Var kan jag se statusen för [!DNL Target] och andra Adobe-produkter?
+description: Visa status för [!DNL Adobe Target] för att hjälpa dig att avgöra om de problem du kan råka ut för beror på systemuppdateringar eller rutinunderhåll.
+title: Var kan jag se statusen för [!DNL Target] och andra [!DNL Adobe] Produkter?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ Använd [!UICONTROL Adobe System Status] sida och proaktiva meddelanden för att
 
 ## Systemstatusuppdateringar
 
-Använd [!UICONTROL Adobe System Status] sida för att visa aktuell status för [!DNL Target] och andra [!DNL Adobe] produkter och [!DNL Adobe Experience Cloud] lösningar. På den här sidan kan du avgöra om de problem du kan råka ut för beror på systemuppdateringar eller rutinunderhåll.
+Använd [!UICONTROL Adobe System Status] sida för att visa status för [!DNL Target] och andra [!DNL Adobe] produkter och [!DNL Adobe Experience Cloud] lösningar. På den här sidan kan du avgöra om de problem du kan råka ut för beror på systemuppdateringar eller rutinunderhåll.
 
-Öppna [!UICONTROL System Status] genom att gå till följande URL:
+>[!NOTE]
+>
+>Ett meddelande i produkten visas alltid under den månadsvisa [!DNL Target] men det finns vissa mindre uppdateringar på den här sidan.
 
-[https://status.adobe.com](https://status.adobe.com)
+1. Öppna [[!UICONTROL System Status]](https://status.adobe.com/){target=_blank}.
 
-För att se status för [!DNL Experience Cloud] lösningar, inklusive [!DNL Target]klickar du på [!UICONTROL Experience Cloud] -fliken.
+1. För att se status för [!DNL Experience Cloud] lösningar, inklusive [!DNL Target]klickar du på [!UICONTROL Experience Cloud] -fliken.
 
-![system_status, bild](assets/system_status.png)
+   ![system_status, bild](assets/system_status.png)
 
-Överst på sidan finns information om pågående underhållshändelser och en länk för att prenumerera på uppdateringar för enskilda lösningar.
+   Överst på sidan finns information om pågående underhållshändelser och en länk för att hantera prenumerationer på uppdateringar för enskilda lösningar.
 
-I bilden ovan [!DNL Adobe Analytics], [!DNL Adobe Target]och [!DNL Adobe Campaign] genomgår underhållsuppdateringar. Alla andra produkter och lösningar fungerade normalt. Det är alltid bra att kontrollera den här sidan om du får problem när du använder [!DNL Target].
+   I bilden ovan [!DNL Adobe Advertising], [!DNL Adobe Analytics]och [!DNL Adobe Audience Manager] och andra lösningar har nyligen slutfört underhållsuppdateringar. Alla andra produkter och lösningar fungerade normalt. Det är alltid bra att kontrollera den här sidan om du får problem när du använder [!DNL Target].
 
-Ett meddelande i produkten visas alltid under den månadsvisa [!DNL Target] men det finns vissa mindre uppdateringar på den här sidan.
-
-Längst ned på sidan finns en kalender över de senaste sju dagarna med statusvärden för varje lösning per dag. Håll pekaren över en statusindikator om du vill ha mer information:
-
-![system_status_indikatorbild](assets/system_status_indicator.png)
+1. (Valfritt) Filtrera listan efter produkter, regioner eller datumintervall. Klicka på [!UICONTROL Major], [!UICONTROL Minor], [!UICONTROL Potential], eller [!UICONTROL Maintenance] länkar för att ytterligare filtrera resultaten.
 
 ## Proaktiva meddelanden
 
