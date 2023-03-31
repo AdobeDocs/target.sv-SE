@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,8 +45,6 @@ Den här versionen innehåller följande nya funktioner, förbättringar och kor
 * Ett problem som orsakade att POST begärde att få skapa nya har åtgärdats [!DNL Recommendations] feeds som ska misslyckas vid användning [!UICONTROL Analytics Classifications] med rapportsviter med punkter i namnen. (TGT-44598)
 * Uppdaterade länkar i [!DNL Target] Gränssnitt som pekar på det nya [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Förbättrat skydd för att förhindra SSRF-försök (Server-Side Request Forgery) i [!DNL Recommendations] feeds. (TGT-43769)
-* Ett problem som gjorde att kunderna inte kunde visa förhandsvisningsbilder i har korrigerats [!DNL Recommendations] skapar symboler om bildnamnet innehåller [GB18030 tecken](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Ett problem som orsakade vissa har korrigerats [GB18030 tecken](https://en.wikipedia.org/wiki/GB_18030){target=_blank} att rymmas i [!UICONTROL Modifications] panel vid redigering [!UICONTROL Text/HTML] på en aktivitet [!UICONTROL Experiences] sida. (TGT-44600)
 * Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
 
 ## at.js version 2.10.2 (7 mars 2023)
