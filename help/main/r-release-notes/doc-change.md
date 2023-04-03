@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2237'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 3 april | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om [!UICONTROL Adobe Target Community] Kaffebrytning planerad till onsdagen den 12 april 2023. |
 | 30 mars | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Uppdaterad versionsinformation för releasen av optimerade A4T-värden för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] funktion som låter dig välja mätvärden baserat på binomiala händelser eller mätvärden baserade på kontinuerliga händelser när du använder [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet. |
 |  | [A4T-stöd för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Avsnittet&quot;Måttvärden som stöds&quot; har uppdaterats för att innehålla information om de mått som stöds (och inte stöds) för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter använda [!UICONTROL Analytics for Target] (A4T) |
 |  | [Självstudiekurser om Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | Uppdaterade följande självstudiekurser:<ul><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
