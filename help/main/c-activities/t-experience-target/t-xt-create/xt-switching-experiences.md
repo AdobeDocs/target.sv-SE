@@ -4,9 +4,9 @@ description: Se hur besökare kan växla mellan upplevelser på Adobe [!DNL Targ
 title: Kan besökare byta upplevelser i en upplevelseinriktad aktivitet?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,6 @@ ht-degree: 0%
 # Byta upplevelser i Experience Targeting
 
 Information om hur besökare kan växla mellan upplevelser i en XT-aktivitet (Experience Targeting) allt eftersom deras profiler utvecklas.
-
->[!NOTE]
->
->**21 september 2017**
->
->I och med den 21 september 2017 ändrade Target det sätt på vilket användarna placerades i upplevelser i XT-aktiviteter (Experience Targeting) (landningssidkampanjer i Target Classic). För alla nya och befintliga aktiviteter måste användarna följa reglerna för målinriktning mot upplevelser för varje intryck för att kunna fortsätta att se upplevelsens innehåll och räknas i rapporter. Tidigare, om användaren inte längre är kvalificerad för någon upplevelse, skulle användaren fortsätta att se innehållet från och räknas i rapporter för den senaste upplevelsen som han/hon kvalificerat sig för.
->
->Den här ändringen inträffade automatiskt som en del av releasen för alla befintliga aktiviteter och för alla nya aktiviteter som skapats efter lanseringen. Om den föregående metoden (före den 21 september) önskas kan du skapa målgrupper med hjälp av profilskript så att användaren bara måste uppfylla ett villkor en gång för att kunna fortsätta inkräkta på den målgruppen i framtiden. Använd sedan dessa målgrupper för varje upplevelse i aktiviteten.
 
 Med Experience Targeting kan ni styra vilka upplevelsebesökare ser när deras profiler utvecklas. I följande lista visas bara några scenarier där besökarprofiler kan utvecklas och du kanske vill presentera olika innehåll:
 
