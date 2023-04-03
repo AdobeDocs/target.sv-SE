@@ -4,7 +4,7 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
 source-wordcount: '1876'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Mer information finns i [Adobe Experience Cloud Blog post](https://business.adob
 ## [!UICONTROL Adobe Target Community] Frågor och svar - Kaffebrytning
 
 * **onsdagen den 12 april 2023**
-* **8:00 till 9:00 (PDT, GMT -7)
+* **8.00 till 9.00. (PDT, GMT -7)**
 * **[Registreringsinformation](https://adobe.ly/42gQGfv){target=_blank}**
 
 Häng med Matthew Bailie och Georgia Frailey, båda Senior Solutions Consultants for [!DNL Adobe Target]som kan chatta direkt med dig om [!DNL Adobe Target] frågor om [!DNL Target] AI-funktioner, särskilt [!UICONTROL Automated Personalization] och [!UICONTROL Auto-Target].
