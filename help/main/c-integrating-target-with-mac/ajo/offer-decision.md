@@ -4,9 +4,9 @@ description: Lär dig hur du lägger till ett offertbeslut som skapats i [!DNL A
 title: Hur använder jag erbjudandebeslut?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Mer information om [!DNL Adobe Journey Optimizer] och erbjuda dina beslut, se f�
 
 * [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
+* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Förutsättningar
 
@@ -72,7 +72,7 @@ I [!DNL Adobe Journey Optimizer]kan ni skapa ett personligt hemsideshjältererbj
 
 1. I **[!UICONTROL Add Offer Decision]** väljer du önskad sandlåda och placering.
 
-   A [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hjälper till att säkerställa att rätt erbjudandeinnehåll visas på rätt plats.
+   A [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hjälper till att säkerställa att rätt erbjudandeinnehåll visas på rätt plats.
 
    ![Sandbox- och Placements-listrutor i dialogrutan Lägg till erbjudandebeslut](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -102,9 +102,11 @@ Tänk på följande när du arbetar med offertbeslut:
 
 * Integreringen av offera decisioningar fungerar för [!DNL Target] implementeringar baserade på [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Den här funktionen är inte tillgänglig vid implementering [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
-* Integreringen mellan Target och Adobe Journey Optimizer stöder [manuell [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) och [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) endast aktiviteter. Den här funktionen är inte tillgänglig för andra aktivitetstyper.
+* The [!DNL Target]/[!DNL Adobe Journey Optimizer] integreringsstöd [manuell [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) och [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) endast aktiviteter. Den här funktionen är inte tillgänglig för andra aktivitetstyper.
 
-* Erbjudanden med innehållstypen text/html stöder inte leveransURL-innehållsleverans. deliveryURL stöds endast via den formulärbaserade Experience Composer där klienten ansvarar för att hämta och disponera innehållet explicit.
+* Du kan inte använda [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) om du använder erbjudandebeslut i en aktivitet. Välj [!DNL Target] som rapportkälla i [!UICONTROL Goals and Settings] sida under aktivitetsinställningar om du använder offertbeslut i aktiviteten.
+
+* Erbjudanden med innehållstypen text/html stöder inte leveransURL-innehållsleverans. deliveryURL stöds via [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md) endast när klienten är ansvarig för att hämta och disponera innehållet.
 
 * [!DNL Target] rapportering inte ger rapportering på beslutsnivå.
 
