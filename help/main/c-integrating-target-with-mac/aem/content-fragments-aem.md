@@ -4,7 +4,7 @@ description: Lär dig använda [!DNL Adobe Experience Manager] [!UICONTROL Conte
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -19,7 +19,7 @@ AEM innehållsfragment för headless personalisering och experimenterande
 
 >[!NOTE]
 >
->Den här funktionen kommer att släppas 6 april 2023.
+>Den här funktionen kommer att släppas den 12 april 2023.
 
 >[!NOTE]
 >
