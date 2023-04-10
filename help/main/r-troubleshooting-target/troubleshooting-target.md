@@ -1,12 +1,12 @@
 ---
-keywords: felsökningsmål;felsökningsmål
+keywords: felsöka mål;felsöka mål;lösa problem
 description: Granska en lista med ämnen som kan hjälpa dig att lösa problem i Adobe Target, inklusive felsökningsfrågor, vanliga frågor och svar samt andra användbara ämnen.
 title: Hur felsöker jag Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,6 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
    * [Lyft och tillförsikt - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [Måttdefinitioner - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [Dela mått, segment och rapporter - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [Antal uppblåsta besök och besökare - Vanliga frågor om A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [Klassificeringar - A4T - vanliga frågor och svar](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [Integrering mellan äldre SiteCatalyst och Test &amp; Target - Vanliga frågor om A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
