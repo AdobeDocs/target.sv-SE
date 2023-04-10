@@ -4,9 +4,9 @@ description: Utforska vanliga problem som kunder har stött på när de använde
 title: Hur felsöker jag analysen och [!DNL Target] Integrering (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,11 @@ Om du bryter ned raden &quot;unspecified&quot; (ospecificerad) med dimensionen &
 
 Det kan finnas en[!UICONTROL Unspecified]&quot; som visas i din rapport, beroende på vilka mätvärden du använder för att visa data med.
 
-Vanligtvis visas den här raden om du väljer ett vanligt mått i rapporten som inte är [!DNL Target]-specific (till exempel [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors]och så vidare). I det här fallet [!UICONTROL “Unspecified”] raden innehåller alla [!UICONTROL Page Views], [!UICONTROL Visits]och [!UICONTROL Unique Visitors] som inte är kopplade till [!DNL Target] verksamhet.
+Vanligtvis visas den här raden om du väljer ett vanligt mått i rapporten som inte är [!DNL Target]-specific (till exempel [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors]och så vidare). I det här fallet [!UICONTROL "Unspecified"] raden innehåller alla [!UICONTROL Page Views], [!UICONTROL Visits]och [!UICONTROL Unique Visitors] som inte är kopplade till [!DNL Target] verksamhet.
 
 Den raden har inga [!DNL Target]-associerad information (t.ex. inga besökare, besök eller visningar). Mer information finns i [&quot;Ospecificerad&quot;, &quot;Ingen&quot;, &quot;Annan&quot; och &quot;Okänd&quot; vid rapportering](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) i *Tekniska anteckningar för analyser*.
 
-Om du väljer en [!DNL Target]-specifika mätvärden i rapporten, som [!UICONTROL “Unspecified”] raden visas inte. Det enda sättet att undvika detta i betänkandet är att sätta upp en [!DNL Target] anropa varje begäran som skickas från den sidan, som inte är vanlig eller nödvändig.
-
-## Mina analysdata visar ett uppblåst besöks- eller besökarantal sedan A4T startades. {#section_4BE374E573D44FB7918611699B74F58E}
-
-Mer information finns i [Minimera antalet uppblåsta besök och besökare i A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Om du väljer en [!DNL Target]-specifika mätvärden i rapporten, som [!UICONTROL "Unspecified"] raden visas inte. Det enda sättet att undvika detta i betänkandet är att sätta upp en [!DNL Target] anropa varje begäran som skickas från den sidan, som inte är vanlig eller nödvändig.
 
 ## Den beräknade ökningen av intäktsmått visar inte korrekta data. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
