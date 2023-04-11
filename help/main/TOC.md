@@ -3,10 +3,10 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
+source-git-commit: a50fa37c7d294773148b192a4b433746b6033916
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1226'
+ht-degree: 3%
 
 ---
 
@@ -89,16 +89,16 @@ ht-degree: 0%
          + [Dela mått, målgrupper och rapporter - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integrering mellan äldre SiteCatalyst till Test&amp;Target - Vanliga frågor om A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Förväntade datavariationer mellan Target och Analytics när A4T används och inte används](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrera Target med Adobe Journey Optimizer {#ajo}
+   + Integrera Target med Adobe Journey Optimizer (AJO) {#ajo}
       + [Använd offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Integrera Target med Adobe Experience Manager {#aem}
-      + [Integrera Target med Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+   + Integrera Target med Adobe Experience Manager (AEM) {#aem}
+      + [Integrera Target med Adobe Experience Manager (AEM) - översikt](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Upplev fragment och innehållsfragment {#fragments}
          + [Översikt över AEM Experience Fragments och Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM innehållsfragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
-   + [Integrera Target med Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Integrera Target med Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrera med Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrera Target med Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Verksamhet {#activities}
