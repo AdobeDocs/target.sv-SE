@@ -3,7 +3,7 @@ keywords: aem;experience manager;adobe experience manager;integration;experience
 description: Lär dig använda [!DNL Adobe Experience Manager] upplevelse och innehållsfragment i [!DNL Adobe Target] verksamhet.
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments]?
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -26,9 +26,21 @@ Använda [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] sk
 
 Tänk på följande när du arbetar med AEM [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] in [!DNL Target]:
 * Dessa funktioner kräver att du är en [!DNL Adobe Experience Manager] (AEM) kund. Kontrollera att du uppfyller kraven för varje fragmenttyp: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) eller [Innehållsfragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
-* De här funktionerna är tillgängliga för följande aktivitetstyper: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), och [!UICONTROL Experience Targeting] (XT). Den här funktionen är inte tillgänglig för [!UICONTROL Multivariate Test] (MVT) och [!UICONTROL Recommendations] verksamhet.
-* Du kan konsumera [!UICONTROL Experience Fragments] in [!DNL Target] aktiviteter som använder [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) eller [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md).
-* Du kan konsumera [!UICONTROL Content Fragments] i [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md) endast.
+* [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] är tillgängliga för följande aktivitetstyper:
+
+   * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] är inte tillgängliga för följande aktivitetstyper:
+
+   * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+
+* Du kan konsumera [!UICONTROL Experience Fragments] in [!DNL Target] aktiviteter som använder [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) och [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+* Du kan konsumera [!UICONTROL Content Fragments] in [!DNL Target] aktiviteter som använder [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md) endast.
 
 ## Vad är skillnaden mellan [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments]?
 
