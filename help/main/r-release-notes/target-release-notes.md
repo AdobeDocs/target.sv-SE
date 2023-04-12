@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Information om den aktuella versionen finns i [Versionsinformation för mål](re
 
 >[!NOTE]
 >
->Den här funktionen kommer att vara tillgänglig som en förhandsversion den 12 april 2023 och kommer att vara tillgänglig för GA-versionen (General Availability) den 26 april 2023.
+>Den här funktionen är tillgänglig som en förhandsversion den 12 april 2023. Som en förhandsversion kan du experimentera med [!UICONTROL Content Fragments] i dev- och staging-miljöer, men inte i produktionsmiljöer.
+>
+>Den här funktionen kommer att vara tillgänglig för GA-versionen (General Availability) den 26 april 2023.
 
 Den här versionen innehåller följande nya funktion:
 
