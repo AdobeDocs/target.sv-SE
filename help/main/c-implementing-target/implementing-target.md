@@ -2,14 +2,14 @@
 keywords: implementera;implementera
 description: Förstå grundläggande begrepp, var bekant med hur [!DNL Target] fungerar och integreras med er infrastruktur och förstår hur besökarna spåras.
 landing-page-description: Innan du börjar använda Adobe Target måste du implementera det på din webbplats.
-short-description: Before you start using Adobe Target, you must implement it on your site.
+short-description: Innan du börjar använda Adobe Target måste du implementera det på din webbplats.
 title: Hur implementerar jag [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---

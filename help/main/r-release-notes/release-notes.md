@@ -2,14 +2,14 @@
 keywords: versionsinformation;nya funktioner;utgåvor;uppdateringar;uppdatering;release;förbättring;förbättringar;korrigeringar;felkorrigeringar;uppdateringar
 description: Läs om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av [!DNL Adobe Target], inklusive SDK, API:er och JavaScript-bibliotek.
 landing-page-description: Lär dig om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av [!DNL Adobe Target].
-short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
+short-description: Lär dig om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av [!DNL Adobe Target].
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 2%
+source-wordcount: '756'
+ht-degree: 4%
 
 ---
 
