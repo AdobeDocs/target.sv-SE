@@ -4,9 +4,9 @@ description: Lär dig hur du skapar JSON-erbjudanden i Adobe [!DNL Target] för 
 title: Hur skapar jag JSON-erbjudanden?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -135,11 +135,7 @@ adobe.target.getOffer({
 
 CDP-profilattribut i realtid kan delas med [!DNL Target] för HTML och JSON. (Observera att den här funktionen för närvarande är i betaversionen.)
 
-Exempel: Som onlinemarknadsförare vill Grace att AEP/Unified Profile ska dela attributvärden med [!DNL Target] för att tillhandahålla personalisering i realtid. Med CDP-profilattribut i realtid kan Grace visa AEP-attributets värde i en [!DNL Target] Erbjudande med tokenersättning. Hon kan till exempel anpassa sig efter kundens favoritfärg med `${aep.profile.favoriteColor}`eller deras lojalitetsnivå och förmånspoängvärde med hjälp av tokens `${aep.loyalty.tier}` och `${aep.loyalty.points}`.
-
-![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
-
-Observera att det är valfritt att tilldela standardvärden.
+Mer information finns i [Dela CDP-profilattribut i realtid med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Filtrera erbjudanden efter erbjudandetypen JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
