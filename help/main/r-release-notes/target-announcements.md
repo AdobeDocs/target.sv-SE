@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,28 @@ Häng med Matthew Bailie och Georgia Frailey, båda Senior Solutions Consultants
 
 Registrera dig för följande webbinarier för att se hur kunderna använder [!DNL Target] för att uppnå sina personaliserings- och optimeringsmål:
 
-Ingen schemalagd just nu.
+### Leverera personaliserade kundupplevelser varje gång!
+
+* **Torsdag den 27 april 2023**
+* **9.00 till 10.00 (BST, GMT +1), 10.00 till 11.00 (CEST, GMT +2)**
+* **[Registreringsinformation](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Ligg steget före kunden med [!DNL Adobe Target]Kraftfulla testnings- och personaliseringsfunktioner. Se till att ni finns överallt där kunden finns genom att erbjuda dynamiskt kontextuella upplevelser på webben, i mobiler och i digitala enheter.
+
++++Information
+
+Webbseminariet kommer att innehålla följande:
+
+* Därför är personalisering en viktig del i alla strategier
+* Identifiera och använda olika aktivitetstyper
+* Strålkastare - användningsfall inom branschen
+* Recommendations för personalisering
+* Demo av [!DNL Target] användargränssnitt, markera
+   * Skapa målgrupper
+   * Inställningar [!UICONTROL Experience Targeting] (XT) aktiviteter
+   * Inställningar [!UICONTROL Auto-Target] och [!UICONTROL Auto Personalization] verksamhet
+
++++
 
 ## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
 

@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -19,7 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 12 april | [Viktiga attributrapporter](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Följande frågor och svar har lagts till:<ul><li>Jag ser ett eller flera attribut som jag inte vill att modellen ska använda för utbildning. Kan jag ta bort dessa attribut från utbildningsmodellen?</li></ul> |
+| 12 april | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Länk har lagts till för att registrera följande webbinarium:<ul><li>Leverera personaliserade kundupplevelser varje gång!</li></ul> |
+|  | [Viktiga attributrapporter](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Följande frågor och svar har lagts till:<ul><li>Jag ser ett eller flera attribut som jag inte vill att modellen ska använda för utbildning. Kan jag ta bort dessa attribut från utbildningsmodellen?</li></ul> |
 |  | [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Följande frågor och svar har lagts till:<ul><li>Vad händer om en användare har flera roller och behörigheter?</li></ul> |
 |  | [AEM innehållsfragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Nytt ämne. Observera att den här funktionen har statusen&quot;prerelease&quot; för teständamål. |
 | 5 april | [Använd offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Tillagd text som anger att [!UICONTROL Analytics as the reporting source] (A4t) stöds inte i aktiviteter som använder offertbeslut. |
