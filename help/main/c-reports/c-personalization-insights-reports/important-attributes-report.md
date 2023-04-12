@@ -5,9 +5,9 @@ title: Vilken är den viktiga attributrapporten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,9 @@ I följande tabell beskrivs hur du tolkar rapporten och dess element:
 
 ## Vanliga frågor om viktiga attribut {#section_740910A52FA646B4AC9452F98C2F5719}
 
-**Personaliseringsinsikter - rapporter är inte tillgängliga än för min aktivitet. Varför det?**
+I följande Frågor och svar hittar du svar på vanliga frågor om hur du använder [!UICONTROL Important Attributes] rapport.
+
+### Personaliseringsinsikter - rapporter är inte tillgängliga än för min aktivitet. Varför det?
 
 Det finns flera skäl till att [!UICONTROL Personalization Insights] rapporter kanske inte är tillgängliga för din aktivitet ännu:
 
@@ -98,33 +100,39 @@ Det finns flera skäl till att [!UICONTROL Personalization Insights] rapporter k
 * Din aktivitet har inte haft tillräckligt med trafik under den angivna tidsramen. Efter 15 dagar har passerat, förutsatt att det finns [tillräcklig personlig trafik](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) i din aktivitet för att skapa personaliseringsmodeller kommer rapporter om automatiserade segment och viktiga attribut att finnas tillgängliga.
 * Din aktivitet har ett intäktsoptimeringsmål. För närvarande [!UICONTROL Personalization Insights] är bara tillgängligt för målaktiviteter för konverteringsoptimering. Vi kommer att lägga till stöd för intäktsoptimeringsmålaktiviteter i en kommande release.
 
-**Vad är ett attribut?**
+### Vad är ett attribut?
 
 Ett attribut är information om en besökare eller hans eller hennes specifika besök som används av personaliseringsalgoritmerna för att lära sig att personalisera trafik. Ett attribut kan till exempel vara webbläsartyp, plats, tidpunkt på besöksdagen och så vidare.
 
 Mer information om vilka attribut [!DNL Target] i sina personaliseringsmodeller, se [Datainsamling för målets personaliseringsalgoritmer](/help/main/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target personaliseringsmodeller finns i [Metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
-**Finns informationen i [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporterar samma som i CSV-nedladdningen?**
+### Jag ser ett eller flera attribut som jag inte vill att modellen ska använda för utbildning. Kan jag ta bort dessa attribut från utbildningsmodellen? {#models-api}
+
+The [!UICONTROL Models API], även kallat Blockeringslista API, gör att användare kan visa och hantera listan med attribut (även kallade funktioner) som används i maskininlärningsmodeller för [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet. Om du vill utesluta ett eller flera attribut från att användas av modellerna för AP- eller AT-aktiviteter kan du använda API:t för modeller för att lägga till dessa attribut i blockeringslista.
+
+Mer information finns i [API-översikt för modeller](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+
+### Finns informationen i [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporterar samma som i CSV-nedladdningen?
 
 Nej, UI-rapporten innehåller urvalsinformation. CSV-nedladdningen innehåller ytterligare information. Nedladdningen av rapporten Automated Segment Insights innehåller ytterligare automatiserade segment utöver de främsta segmenten som ingår i användargränssnittet, tillsammans med hur dessa segment fungerade i förhållande till era erbjudanden eller upplevelser. Rapporten Viktiga attribut innehåller de 100 viktigaste besökarattributen och deras relativa betydelse, medan användargränssnittet endast innehåller de 10 viktigaste besökarattributen.
 
-**Kan jag se personaliseringsinsikter för ett anpassat datumintervall?**
+### Kan jag se personaliseringsinsikter för ett anpassat datumintervall?
 
 Insiktsrapportering för personalisering (båda [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes]) är bara tillgängligt för fasta datumintervall: 15 dagar, 30 dagar, 45 dagar, 60 dagar och 90 dagar. Dessa fasta datumintervall tillåter [!UICONTROL Personalization Insights] om du vill använda ett stort och tillräckligt stort dataområde för att minska sannolikheten för att ni får insikter från ett kort mönster i din aktivitet. Du kan välja de här varaktigheterna för ett slutdatum (där dessa data är tillräckligt många för att aktiviteten ska klara varaktigheten).
 
-**Hur [!UICONTROL Personalization Insights] skapad?**
+### Hur [!UICONTROL Personalization Insights] skapad?
 
 [!UICONTROL Personalization Insights] skapas med en patentsökt teknik i Adobe som kallas MAGIX (Model Agnostic Global Interpretable Förklarations). Du kan läsa mer om MAGIX i Adobe forskningsgruppens publicerade rapport på [arXiv.org webbplats](https://arxiv.org/abs/1706.07160).
 
-**Är [!UICONTROL Personalization Insights] finns det för intäktsbaserade modelleringsmål/primärt mål?**
+### är [!UICONTROL Personalization Insights] finns det för intäktsbaserade modelleringsmål/primärt mål?
 
 För närvarande [!UICONTROL Personalization Insights] är bara tillgängligt för målaktiviteter för konverteringsoptimering. Vi kommer att lägga till stöd för intäktsoptimeringsmålaktiviteter i en kommande release.
 
-**Vad är attributprioritetspoängen i rapporten Viktiga attribut?**
+### Vad är attributprioritetspoängen i rapporten Viktiga attribut?
 
 Prioritetspoängen i delen&quot;Attributprioritet rankning&quot; i rapporten innehåller information om vilka variabler algoritmen använde för att lära sig var viktigast när den bestämde hur alla besökare skulle delas upp i de segment som den identifierade. Det tilldelade ett procentvärde till de 100 översta attributen som används av modellen.
 
-**Varför får vissa erbjudanden/upplevelser med en lägre konverteringsgrad större trafik jämfört med andra erbjudanden/upplevelser för ett visst automatiserat segment?**
+### Varför får vissa erbjudanden/upplevelser med en lägre konverteringsgrad större trafik jämfört med andra erbjudanden/upplevelser för ett visst automatiserat segment?
 
 Det finns flera möjliga orsaker till varför du kan se fler besök i ett erbjudande/en upplevelse med lägre konverteringsgrad inom ett automatiserat segment, bland annat:
 
@@ -136,7 +144,7 @@ Det finns flera möjliga orsaker till varför du kan se fler besök i ett erbjud
 
 Det kan vara bra att veta hur modellen fungerar som en trafiktjänst. Var och en får sin tjänst baserat på sin totala profil. Insikterna-rapporterna generaliserar dock det här beteendet så att det blir lättare att tolka av en människa. Därför utesluter inte segment varandra. Detta kan leda till att enskilda segment visar den här typen av beteende eftersom samma person kan visas i flera segment.
 
-**Hur kan jag utnyttja informationen i personaliseringsinsikter på olika sätt?**
+### Hur kan jag utnyttja informationen i personaliseringsinsikter på olika sätt?
 
 * Upptäck nya målgrupper att inrikta sig på: Om du ser ett visst automatiserat segment som fungerar särskilt bra kan du skapa en målgrupp så att du kan återanvända det segmentet i andra rapporter.
 * Testa era hypoteser om vilken typ av besökare som kommer att svara på vilken av era upplevelser.

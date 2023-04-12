@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '3159'
+source-wordcount: '3160'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 
 Vanliga frågor om Enterprise permissions är:
 
-### Vad händer om en användare har flera roller och behörigheter?
+### Vad händer om en användare har flera roller och behörigheter? [#multiple-roles]
 
 Om en användare har flera roller och behörigheter används rollen med behörigheten för hierarkin. Om en användare till exempel har [!UICONTROL Observer] och [!UICONTROL Approver] roller, [!UICONTROL Approver] roll används.
 

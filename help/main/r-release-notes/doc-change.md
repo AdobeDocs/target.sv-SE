@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '2274'
+source-wordcount: '2324'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 12 april | [Viktiga attributrapporter](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Följande frågor och svar har lagts till:<ul><li>Jag ser ett eller flera attribut som jag inte vill att modellen ska använda för utbildning. Kan jag ta bort dessa attribut från utbildningsmodellen?</li></ul> |
+|  | [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Följande frågor och svar har lagts till:<ul><li>Vad händer om en användare har flera roller och behörigheter?</li></ul> |
 | 5 april | [Använd offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Tillagd text som anger att [!UICONTROL Analytics as the reporting source] (A4t) stöds inte i aktiviteter som använder offertbeslut. |
 | 3 april | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om [!UICONTROL Adobe Target Community] Kaffebrytning planerad till onsdagen den 12 april 2023. |
 |  | [Tillåtelselista: Hörnkantsnoder](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Anteckningen har lagts till för att tillåtslista alla [!DNL Adobe Analytics] IP-adressblock. |
