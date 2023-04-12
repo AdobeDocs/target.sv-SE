@@ -1,27 +1,27 @@
 ---
-keywords: arbetsytor;hantera egenskap;behörigheter;produktkonfiguration;produktprofil;roller;projekt
+keywords: arbetsytor;hantera egenskap;behörigheter;produktkonfiguration;produktprofil;roller;projekt;observatör;redigerare;godkännare;utgivare
 description: Lär dig hur du skapar separata arbetsytor (produktprofiler) och sedan tilldelar användare olika roller och behörigheter för enskilda sidor, egenskaper eller webbplatser.
 title: Vad är företagsanvändarbehörigheter och hur använder jag dem?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3159'
 ht-degree: 0%
 
 ---
 
 # Enterprise-användarbehörigheter
 
-Enterprise-användarbehörigheter är ett sätt att formellt administrera företagsövergripande användaråtkomst till [!DNL Adobe Target]. Lägg till användare i [!DNL Target], tilldela behörigheter baserat på deras roller och skapa arbetsytor för team baserat på olika avdelningar, globala platser, kanaler och andra logiska grupper. Du kan tilldela användare rollerna för [!UICONTROL Observer], [!UICONTROL Editor], eller [!UICONTROL Approver].
+Enterprise-användarbehörigheter är ett sätt att formellt administrera företagsövergripande användaråtkomst till [!DNL Adobe Target]. Lägg till användare i [!DNL Target], tilldela behörigheter baserat på deras roller och skapa arbetsytor för team baserat på olika avdelningar, globala platser, kanaler och andra logiska grupper. Du kan tilldela användare rollerna för [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], eller [!UICONTROL Publisher].
 
 ## Avgör om du har åtkomst till företagsanvändarbehörigheter
 
 >[!NOTE]
 >
->Egenskaper och behörigheter är tillgängliga som en del av [!DNL Target] Premiumlösning. De är inte tillgängliga i [!DNL Target] Standard utan [!DNL Target] Premiumlicens.
+>[!UICONTROL Properties and Permissions] finns som en del av [!DNL Target] Premiumlösning. De är inte tillgängliga i [!DNL Target] Standard utan [!DNL Target] Premiumlicens.
 >
 >Dina [!DNL Target] implementeringen kan använda vilken version som helst av at.js.
 
@@ -89,10 +89,10 @@ Roller och behörigheter avgör vilka åtkomstnivåer användare har för att sk
 
 | Roll | Beskrivning |
 |--- |--- |
-| Godkännare | Kan skapa, redigera och aktivera eller stoppa aktiviteter. |
-| Redigerare | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. |
-| Observer | Kan visa aktiviteter, men kan inte skapa eller redigera dem. |
-| Utgivare | Liknar observationsrollen (kan visa aktiviteter, men kan inte skapa eller redigera dem). Utgivarrollen har dock ytterligare behörighet att aktivera aktiviteter. |
+| [!UICONTROL Approver] | Kan skapa, redigera och aktivera eller stoppa aktiviteter. |
+| [!UICONTROL Editor] | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. |
+| [!UICONTROL Observer] | Kan visa aktiviteter, men kan inte skapa eller redigera dem. |
+| [!UICONTROL Publisher] | Liknar [!UICONTROL Observer] roll (kan visa aktiviteter, men inte skapa eller redigera dem). Men [!UICONTROL Publisher] rollen har ytterligare behörighet att aktivera aktiviteter. |
 
 ### Kanal
 
@@ -258,6 +258,10 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 ## Vanliga frågor {#faqs}
 
 Vanliga frågor om Enterprise permissions är:
+
+### Vad händer om en användare har flera roller och behörigheter?
+
+Om en användare har flera roller och behörigheter används rollen med behörigheten för hierarkin. Om en användare till exempel har [!UICONTROL Observer] och [!UICONTROL Approver] roller, [!UICONTROL Approver] roll används.
 
 ### Kan jag flytta en aktivitet från en arbetsyta till en annan?
 
