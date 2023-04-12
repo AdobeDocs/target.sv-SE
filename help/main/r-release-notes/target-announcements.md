@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,6 @@ Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL T
 Gartner namngiven [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant for Personalization Engines (PE) för femte året i rad. [!DNL Adobe] fick även toppresultat och betydande årsökningar över alla tre primära användningsfall: Digital marknadsföring, digital handel samt service och support. [!DNL Target] fick högsta poäng för testningskapaciteten hos alla utvärderade leverantörer.
 
 Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
-
-## [!UICONTROL Adobe Target Community] Frågor och svar - Kaffebrytning
-
-* **onsdagen den 12 april 2023**
-* **8.00 till 9.00. (PDT, GMT -7)**
-* **[Registreringsinformation](https://adobe.ly/42gQGfv){target=_blank}**
-
-Häng med Matthew Bailie och Georgia Frailey, båda Senior Solutions Consultants for [!DNL Adobe Target]som kan chatta direkt med dig om [!DNL Adobe Target] frågor om [!DNL Target] AI-funktioner, särskilt [!UICONTROL Automated Personalization] och [!UICONTROL Auto-Target].
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
