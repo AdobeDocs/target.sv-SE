@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Target]/[!DNL Real-Time Customer Data Platf
 title: Hur integrerar jag? [!DNL Target] med [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9db63ccce0d4f62f968cc99250f3ed3dec03a977
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,7 @@ Inbyggt [!DNL Adobe Experience Platform], [!DNL Real-Time Customer Data Platform
 
 Mer information om RTCDP finns i [Real-time Customer Data Platform - översikt](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}.
 
-## Använd målgrupper från [!DNL Adobe Experience Platform] {#aep}
-
-Använda [målgrupper](/help/main/c-target/c-audiences/audiences.md) skapad i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), på [!DNL Adobe Experience Platform], hjälper företag att samla in kända och anonyma data från flera olika källor. Med den här processen kan ni skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser över alla kanaler och enheter i realtid.
-
-Genom att ansluta [!DNL Target] till [!DNL Real-Time Customer Data Platform], kan kunderna förbättra sin webbpersonalisering. Tack vare den här integreringen kan du låsa upp nya segment som tidigare inte var tillgängliga för [!DNL Target] för att möjliggöra millisekundpersonalisering i realtid på första sidan av en kunds webbbesök. Använda målgrupper och profilattribut som skapats i [!DNL Adobe Experience Platform] gör att du kan utöka de tillgängliga datapunkterna för bättre personalisering.
-
-Integreringen låser upp viktiga användningsexempel med Real-Time CDP:
-
-* Personalisering med samma sida/nästa träff
-* Personalisering av okända användare
-
-### Viktiga funktioner
+## Viktiga funktioner
 
 Viktiga funktioner:
 
@@ -36,31 +25,31 @@ Viktiga funktioner:
 * [!UICONTROL Target Edge Destinations Card] med styrning och policystyrning
 * CDP-segment och attribut för delad profil i realtid
 
-### Användningsexempel för personalisering
+## Implementeringsscenarier
 
 I följande avsnitt visas vilken typ av användningsfall för personalisering (nästa session eller samma sida) som är tillgänglig när olika implementeringsmetoder används:
 
-#### at.js-implementering
+### at.js-implementering
 
 | Lösningar | Användningsfall aktiverat |
 | --- | --- |
 | <ul><li>[!DNL Adobe Audience Manager] (AAM) och [!DNL Target]</li><li>[!DNL RTCDP] (Premium eller Ultimate) och [!DNL Target]</li><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul> | Anpassa nästa session |
 
-#### [!DNL Adobe Experience Platform Web SDK] eller [!DNL Experience Platform Server-Side API] implementering
+### [!DNL Adobe Experience Platform Web SDK] eller [!DNL Experience Platform Server-Side API] implementering
 
 | Lösningar | Användningsfall aktiverat |
 | --- | --- |
 | <ul><li>[!DNL RTCDP] (valfri SKU) och [!DNL Target]</li></ul> | <ul><li>Anpassa nästa session</li><li>Personalisering på samma sida via Edge</li><li>Styrning som upprätthålls vid delning av segment</li></ul> |
 | <ul><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul> | <ul><li>Anpassa nästa session</li><ul><li>[!DNL AAM] segment</li><li>Tredjepartssegment via [!DNL AAM]</li></ul><li>Personalisering på samma sida via Edge</li><ul><li>[!DNL RTCDP] segment</li><li>Styrning som upprätthålls vid delning av segment</li></ul> |
 
-#### Blandning av [!UICONTROL at.js] och [!DNL Platform Web SDK] implementering
+### Blandning av [!UICONTROL at.js] och [!DNL Platform Web SDK] implementering
 
 | Lösningar | Användningsfall aktiverat |
 | --- | --- |
 | <ul><li>[!DNL RTCDP] (valfri SKU) och [!DNL Target]</li></ul> | <ul><li>Anpassa nästa session</li><ul><li>För alla sidor med [!UICONTROL at.js]</li></ul><li>Personalisering på samma sida</li><ul><li>För alla sidor med [!DNL Platform Web SDK]</li></ul> |
 | <ul><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul> | <ul><li>Anpassa nästa session</li><ul><li>För alla sidor med [!UICONTROL at.js]</li><li>[!DNL AAM] segment</li><li>Tredjepartssegment via [!DNL AAM]</li></ul> |
 
-### Utvärderingstid för segment
+## Utvärderingstid för segment
 
 I följande tabell visas segmentutvärderingstiden för händelser som kommer från olika implementeringsscenarier:
 
@@ -72,15 +61,16 @@ I följande tabell visas segmentutvärderingstiden för händelser som kommer fr
 | Händelser från batchöverföring | Nej | Nej | Ja |
 | Händelser från offlinedata (ström) | Nej | Ja | Ja |
 
-### Länkar till mer information
+## Använd målgrupper från [!DNL Adobe Experience Platform] {#aep}
 
-Mer information finns i följande avsnitt:
+Använda [målgrupper](/help/main/c-target/c-audiences/audiences.md) skapad i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), på [!DNL Adobe Experience Platform], hjälper företag att samla in kända och anonyma data från flera olika källor. Med den här processen kan ni skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser över alla kanaler och enheter i realtid.
 
-* [Versionsinformation om destinationer](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} i *Versionsinformation för Adobe Experience Platform*
-* [Konfigurera personaliseringsmål för personalisering på samma sida och nästa sida](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} i *Översikt över destinationer* guide.
-* [Anpassad personaliseringsanslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} i *Översikt över destinationer* guide
-* [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i *Översikt över destinationer* guide
-* [Konfigurera anpassningsmål för användning av samma sida och nästa sida](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} i *Översikt över destinationer* guide
+Genom att ansluta [!DNL Target] till [!DNL Real-Time Customer Data Platform], kan kunderna förbättra sin webbpersonalisering. Tack vare den här integreringen kan du låsa upp nya segment som tidigare inte var tillgängliga för [!DNL Target] för att möjliggöra millisekundpersonalisering i realtid på första sidan av en kunds webbbesök. Använda målgrupper och profilattribut som skapats i [!DNL Adobe Experience Platform] gör att du kan utöka de tillgängliga datapunkterna för bättre personalisering.
+
+Integreringen låser upp viktiga användningsexempel med Real-Time CDP:
+
+* Personalisering med samma sida/nästa träff
+* Personalisering av okända användare
 
 ## Dela Real-Time CDP-profilattribut med [!DNL Target] {#rtcdp-profile-attributes}
 
@@ -97,7 +87,6 @@ Tänk på följande:
 * Attribut inom ett visst erbjudande måste komma från samma [!UICONTROL Experience Platform] sandlåda. (Erbjudandet får med andra ord inte innehålla attribut från olika [!UICONTROL Experience Platform] sandlådor.)
 * Attribut inom ett visst erbjudande kan komma från olika källor. det vill säga [!DNL Target] och [!UICONTROL Experience Platform] profil. (Du kan med andra ord kombinera attribut oavsett om de kommer från [!DNL Target] eller från [!UICONTROL Experience Platform] profil.)
 * När du definierar ett erbjudande kan du tilldela standardvärden för [!UICONTROL Real-Time CDP Profile Attributes], om attributet inte har ett explicit värde. Om till exempel ett medgivande eller en styrningsprincip blockerar attributet som används i personaliseringstjänsten, kan standardvärdet användas i stället.
-* Vid delning, [!UICONTROL Real-Time CDP Profile Attributes] används i personaliseringsmodeller för artificiell intelligens/maskininlärning för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] verksamhet.
 
 ### JSON-exempel
 
@@ -111,9 +100,18 @@ Skapa ett JSON-erbjudande om att dela AEP/Unified Profile-attribut med [!DNL Tar
 1. (Valfritt) Från **[!UICONTROL Insert a default value]** väljer du önskade värden.
 1. Klicka på **[!UICONTROL Add]**.
 
-   I följande bild visas två profilattribut: `loyalty.tier` och `loyalty.points` har lagts till i JSON-erbjudandet.
+I följande bild visas två profilattribut: `loyalty.tier` och `loyalty.points` har lagts till i JSON-erbjudandet.
 
-   ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
+
+### Länkar till mer information
+
+Mer information finns i följande avsnitt:
+
+* [Versionsinformation om destinationer](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} i *Versionsinformation för Adobe Experience Platform*
+* [Konfigurera personaliseringsmål för personalisering på samma sida och nästa sida](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} i *Översikt över destinationer* guide.
+* [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i *Översikt över destinationer* guide
+* [Mappningsattribut](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} i *Översikt över destinationer* guide.
 
 ## Videor och blogginlägg
 
