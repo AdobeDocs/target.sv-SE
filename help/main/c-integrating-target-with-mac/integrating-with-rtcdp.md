@@ -4,14 +4,14 @@ description: Lär dig använda [!DNL Target]/[!DNL Real-time Customer Data Platf
 title: Hur integrerar jag? [!DNL Target] med [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
+source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Integrera med Real-time Customer Data Platform
+# Integrera med [!DNL Real-time Customer Data Platform]
 
 Inbyggt [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) hjälper företag att samla in kända och anonyma data från flera olika företagskällor för att skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser i alla kanaler och enheter i realtid.
 
@@ -36,29 +36,6 @@ Viktiga funktioner:
 * [!UICONTROL Target Edge Destinations Card] med styrning och policystyrning
 * CDP-segment och attribut för delad profil i realtid
 
-### CDP-profilattribut i realtid har begränsningar och överväganden
-
-Tänk på följande:
-
-* Attribut inom ett visst erbjudande måste komma från samma AEP-sandlåda. (Erbjudandet får med andra ord inte innehålla attribut från olika AEP-sandlådor.)
-* Attribut inom ett visst erbjudande kan komma från olika källor. det vill säga [!DNL Target] och AEP-profilen. (Du kan med andra ord kombinera attribut oavsett om de kommer från [!DNL Target] eller från AEP-profilen.)
-* När du definierar ett erbjudande kan du tilldela standardvärden för CDP-profilattribut i realtid om attributet inte har ett explicit värde. Om till exempel ett medgivande eller en styrningsprincip blockerar attributet som används i personaliseringstjänsten, kan standardvärdet användas i stället.
-* När CDP-profilattribut för realtid delas används de i personaliseringsmodellerna Artificial Intelligence/Machine Learning för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] verksamhet.
-
->[!NOTE]
->
->Funktionen CDP-profilattribut i realtid är för närvarande tillgänglig i betaversioner för HTML och [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-### Länkar till mer information
-
-Mer information finns i följande avsnitt:
-
-* [Versionsinformation om destinationer](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} i *Versionsinformation för Adobe Experience Platform*
-* [Konfigurera personaliseringsmål för personalisering på samma sida och nästa sida](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} i *Översikt över destinationer* guide.
-* [Anpassad personaliseringsanslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} i *Översikt över destinationer* guide
-* [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i *Översikt över destinationer* guide
-* [Konfigurera anpassningsmål för användning av samma sida och nästa sida](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} i *Översikt över destinationer* guide
-
 ### Användningsexempel för personalisering
 
 Tabellen nedan visar vilka typer av användningsfall för personalisering (nästa session eller samma sida) som är tillgängliga när du använder [!DNL Adobe Experience Platform Web SDK] jämfört med att använda at.js:
@@ -81,11 +58,36 @@ I följande tabell visas segmentutvärderingstiden för händelser som kommer fr
 | Händelser från batchöverföring | Nej | Nej | Ja |
 | Händelser från offlinedata (ström) | Nej | Ja | Ja |
 
+### Länkar till mer information
+
+Mer information finns i följande avsnitt:
+
+* [Versionsinformation om destinationer](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} i *Versionsinformation för Adobe Experience Platform*
+* [Konfigurera personaliseringsmål för personalisering på samma sida och nästa sida](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} i *Översikt över destinationer* guide.
+* [Anpassad personaliseringsanslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} i *Översikt över destinationer* guide
+* [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i *Översikt över destinationer* guide
+* [Konfigurera anpassningsmål för användning av samma sida och nästa sida](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} i *Översikt över destinationer* guide
+
 ## Dela CDP-profilattribut i realtid med [!DNL Target] {#rtcdp-profile-attributes}
 
-CDP-profilattribut i realtid kan delas med [!DNL Target] för användning i HTML och [JSON erbjuder](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Observera att den här funktionen för närvarande är i betaversionen.)
+CDP-profilattribut i realtid kan delas med [!DNL Target] för användning i HTML och [JSON erbjuder](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-Exempel: Som onlinemarkör vill du att AEP/Unified Profile ska dela attributvärden med [!DNL Target] för att tillhandahålla personalisering i realtid. Med CDP-profilattribut i realtid kan du visa AEP-attributets värde i en [!DNL Target] Erbjudande med tokenersättning. Du kan till exempel anpassa efter kundens favoritfärg med `${aep.profile.favoriteColor}`eller deras lojalitetsnivå och förmånspoängvärde med hjälp av tokens `${aep.loyalty.tier}` och `${aep.loyalty.points}`.
+### CDP-profilattribut i realtid har begränsningar och överväganden
+
+>[!NOTE]
+>
+>Funktionen CDP-profilattribut i realtid är för närvarande tillgänglig i betaversioner för HTML och [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
+Tänk på följande:
+
+* Attribut inom ett visst erbjudande måste komma från samma AEP-sandlåda. (Erbjudandet får med andra ord inte innehålla attribut från olika AEP-sandlådor.)
+* Attribut inom ett visst erbjudande kan komma från olika källor. det vill säga [!DNL Target] och AEP-profilen. (Du kan med andra ord kombinera attribut oavsett om de kommer från [!DNL Target] eller från AEP-profilen.)
+* När du definierar ett erbjudande kan du tilldela standardvärden för CDP-profilattribut i realtid om attributet inte har ett explicit värde. Om till exempel ett medgivande eller en styrningsprincip blockerar attributet som används i personaliseringstjänsten, kan standardvärdet användas i stället.
+* När CDP-profilattribut för realtid delas används de i personaliseringsmodellerna Artificial Intelligence/Machine Learning för [!UICONTROL Auto-Target] och [!UICONTROL Automated Personalization] verksamhet.
+
+### Exempel på användningsfall
+
+Som onlinemarkör vill du att AEP/Unified Profile ska dela attributvärden med [!DNL Target] för att tillhandahålla personalisering i realtid. Med CDP-profilattribut i realtid kan du visa AEP-attributets värde i en [!DNL Target] Erbjudande med tokenersättning. Du kan till exempel anpassa efter kundens favoritfärg med `${aep.profile.favoriteColor}`eller deras lojalitetsnivå och förmånspoängvärde med hjälp av tokens `${aep.loyalty.tier}` och `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
