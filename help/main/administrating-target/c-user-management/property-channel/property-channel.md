@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3161'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Enterprise-användarbehörigheter är ett sätt att formellt administrera föret
 >
 >[!UICONTROL Properties and Permissions] finns som en del av [!DNL Target] Premiumlösning. De är inte tillgängliga i [!DNL Target] Standard utan [!DNL Target] Premiumlicens.
 >
->Dina [!DNL Target] implementeringen kan använda vilken version som helst av at.js.
+>Dina [!DNL Target] kan implementeras med valfri version av at.js eller [!DNL Adobe Experience Platform Web SDK].
 
 Du kan se om din organisation har en Standard- eller Premium-licens genom att klicka på [!UICONTROL Administration] länk högst upp i [!DNL Target] Gränssnitt.
 
