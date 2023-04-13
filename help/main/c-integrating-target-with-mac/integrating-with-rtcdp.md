@@ -4,7 +4,7 @@ description: Lär dig använda [!DNL Target]/[!DNL Real-Time Customer Data Platf
 title: Hur integrerar jag? [!DNL Target] med [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -104,7 +104,7 @@ I följande bild visas två profilattribut: `loyalty.tier` och `loyalty.points` 
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
-### Länkar till mer information
+## Länkar till mer information
 
 Mer information finns i följande avsnitt:
 
