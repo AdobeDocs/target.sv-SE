@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Target]/[!DNL Real-time Customer Data Platf
 title: Hur integrerar jag? [!DNL Target] med [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9581cfd1e5a2f0329ceed00fd370dbaabe9b92f9
+source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -94,8 +94,6 @@ Mer information finns i [Nästa steg i personaliseringen med CDP och Adobe Targe
 ## Dela CDP-profilattribut i realtid med [!DNL Target] {#rtcdp-profile-attributes}
 
 CDP-profilattribut i realtid kan delas med [!DNL Target] för HTML och JSON. (Observera att den här funktionen för närvarande är i betaversionen.)
-
-Mer information finns i [Dela CDP-profilattribut i realtid med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
 
 Exempel: Som onlinemarknadsförare vill Grace att AEP/Unified Profile ska dela attributvärden med [!DNL Target] för att tillhandahålla personalisering i realtid. Med CDP-profilattribut i realtid kan Grace visa AEP-attributets värde i en [!DNL Target] Erbjudande med tokenersättning. Hon kan till exempel anpassa sig efter kundens favoritfärg med `${aep.profile.favoriteColor}`eller deras lojalitetsnivå och förmånspoängvärde med hjälp av tokens `${aep.loyalty.tier}` och `${aep.loyalty.points}`.
 
