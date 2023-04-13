@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Target]/[!DNL Real-time Customer Data Platf
 title: Hur integrerar jag? [!DNL Target] med [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
+source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,27 @@ Viktiga funktioner:
 
 ### Användningsexempel för personalisering
 
-Tabellen nedan visar vilka typer av användningsfall för personalisering (nästa session eller samma sida) som är tillgängliga när du använder [!DNL Adobe Experience Platform Web SDK] jämfört med att använda at.js:
+I följande avsnitt visas vilken typ av användningsfall för personalisering (nästa session eller samma sida) som är tillgänglig när olika implementeringsmetoder används:
 
-| Implementering | Lösningar/användningsfall aktiverat |
+#### at.js-implementering
+
+| Lösningar | Användningsfall aktiverat |
 | --- | --- |
-| at.js | **Lösningar**:<ul><li>[!DNL Adobe Audience Manager] (AAM) och [!DNL Target]</li><li>[!DNL RTCDP] (Premium eller Ultimate) och [!DNL Target]</li><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul>**Användningsfall**:<ul><li>Anpassa nästa session</li></ul> |
-| [!DNL Platform Web SDK] eller [!DNL AEP Server-Side API] | **Lösningar**:<ul><li>[!DNL RTCDP] (valfri SKU) och [!DNL Target]</li></ul>**Använd skiftläge**:<ul><li>Anpassa nästa session</li><li>Personalisering på samma sida via Edge</li><li>Styrning som upprätthålls vid delning av segment</li></ul>**Lösningar**:<ul><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul>**Använd skiftläge**:<ul><li>Anpassa nästa session</li><ul><li>[!DNL AAM] segment</li><li>Tredjepartssegment via [!DNL AAM]</li></ul><li>Personalisering på samma sida via Edge</li><ul><li>[!DNL RTCDP] segment</li><li>Styrning som upprätthålls vid delning av segment</li></ul> |
-| Blandning av [!UICONTROL at.js] och [!DNL Platform Web SDK] | **Lösningar**:<ul><li>[!DNL RTCDP] (valfri SKU) och [!DNL Target]</li></ul>**Använd skiftläge**:<ul><li>Anpassa nästa session</li><ul><li>För alla sidor med [!UICONTROL at.js]</li></ul><li>Personalisering på samma sida</li><ul><li>För alla sidor med [!DNL Platform Web SDK]</li></ul></ul>**Lösningar**:<ul><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul>**Använd skiftläge**:<ul><li>Anpassa nästa session</li><ul><li>För alla sidor med [!UICONTROL at.js]</li><li>[!DNL AAM] segment</li><li>Tredjepartssegment via [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL Adobe Audience Manager] (AAM) och [!DNL Target]</li><li>[!DNL RTCDP] (Premium eller Ultimate) och [!DNL Target]</li><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul> | Anpassa nästa session |
+
+#### Implementering av Adobe Experience Platform Web SDK eller AEP Server-side API
+
+| Lösningar | Användningsfall aktiverat |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] (valfri SKU) och [!DNL Target]</li></ul> | <ul><li>Anpassa nästa session</li><li>Personalisering på samma sida via Edge</li><li>Styrning som upprätthålls vid delning av segment</li></ul> |
+| <ul><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul> | <ul><li>Anpassa nästa session</li><ul><li>[!DNL AAM] segment</li><li>Tredjepartssegment via [!DNL AAM]</li></ul><li>Personalisering på samma sida via Edge</li><ul><li>[!DNL RTCDP] segment</li><li>Styrning som upprätthålls vid delning av segment</li></ul> |
+
+#### Blandning av [!UICONTROL at.js] och [!DNL Platform Web SDK] implementering
+
+| Lösningar | Användningsfall aktiverat |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] (valfri SKU) och [!DNL Target]</li></ul> | <ul><li>Anpassa nästa session</li><ul><li>För alla sidor med [!UICONTROL at.js]</li></ul><li>Personalisering på samma sida</li><ul><li>För alla sidor med [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] (valfri SKU), [!DNL AAM]och [!DNL Target]</li></ul> | <ul><li>Anpassa nästa session</li><ul><li>För alla sidor med [!UICONTROL at.js]</li><li>[!DNL AAM] segment</li><li>Tredjepartssegment via [!DNL AAM]</li></ul> |
 
 ### Utvärderingstid för segment
 
@@ -105,6 +119,6 @@ Mer information finns i [Nästa steg i personaliseringen med CDP och Adobe Targe
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Target blogg och video:
+### Adobe Target blogg och video: Förbättrad personalisering på samma sida
 
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] och [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] och [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
