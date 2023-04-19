@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2377'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 19 april | [[!UICONTROL Location Contribution] rapport (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | Uppdaterad information i anteckningen. |
 | 13 april | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Lagt till information om [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023). |
 | 12 april | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Länk har lagts till för att registrera följande webbinarium:<ul><li>Leverera personaliserade kundupplevelser varje gång!</li></ul> |
 |  | [Viktiga attributrapporter](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Följande frågor och svar har lagts till:<ul><li>Jag ser ett eller flera attribut som jag inte vill att modellen ska använda för utbildning. Kan jag ta bort dessa attribut från utbildningsmodellen?</li></ul> |
