@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b7ae9d841c4b455b59d31795ec5f6ee2ef742d21
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,8 @@ Den här versionen innehåller säkerhetsuppdateringar och följande nya funktio
 
 | Resurs | Detaljer |
 |--- |--- |
-| [Versionsinformation: [!UICONTROL Adobe Target Platform Experience Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} | Information om ändringarna i respektive version av Platform Web SDK. |
-| [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScript-bibliotek. |
 
+|[Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en)|Information om ändringar i varje version av Platform Web SDK.| |[versionsinformation för at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Information om ändringar i varje version av [!DNL Adobe Target] at.js JavaScript-bibliotek.|
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

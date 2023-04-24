@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2397'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 21 februari | [Tillåtelselista: Hörnkantsnoder](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Uppdaterad lista över IP-adresser som ska tillåtslista för alla regioner i [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}. |
+| 21 februari | [Tillåtelselista: Hörnkantsnoder](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Uppdaterad lista över IP-adresser som ska tillåtslista för alla regioner i [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}. |
 |  | [Ändringar](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Tillagd text som förklarar att exemplet med JQuery förutsätter att kundens webbplats har jQuery tillgängligt på sidan när [!DNL Target] verkställer erbjudandena. |
 | 10 februari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.14.5-utgåvan. |
 | 8 februari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för at.js 2.10.1 har lagts till. |
@@ -70,7 +70,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | 20 december | [Erbjud rapportgrupper i [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Ytterligare information om rapporteringsgrupper har lagts till under&quot;Caveats&quot;. |
 | 14 december | [Rapportinställningar](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Anteckning har lagts till under avsnittet &quot;Miljö&quot; om användning [!DNL Adobe Experience Platform] (AEP) för att skicka mätdata till [!DNL Target]. |
 | 29 november | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Tydligare text genom att lägga till följande stycke:<ul><li>En besökares geografiska information bestäms av den ursprungliga IP-adressen för en [!DNL Target] platsbegäran (mbox-begäran). IP-till-geo-upplösning utförs för det första anropet av en ny session. Det innebär att om IP-adressen för en besökare ändras under ett besök, så baseras geoinformationen fortfarande på IP-adressen för det första samtalet.</li></ul> |
-| 28 november | [API för modeller (Blockeringslistning) - översikt](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} i *Adobe Target Developer Guide*. | Nytt Models API.<br>Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer som förhindrar att de används i [!UICONTROL Auto-Target] eller [!UICONTROL Automated Personalization] modell eller aktivitet. |
+| 28 november | [API för modeller (Blockeringslistning) - översikt](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} i *Adobe Target Developer Guide*. | Nytt Models API.<br>Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer som förhindrar att de används i [!UICONTROL Auto-Target] eller [!UICONTROL Automated Personalization] modell eller aktivitet. |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om Models API-versionen (23 november 2022). |
 | 23 november | [Innan du implementerar Analytics för Target (A4T) med at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Länken till [Marketing Cloud integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 november | [Adobe Target notiser och event](/help/main/r-release-notes/target-announcements.md) | Lagt till registreringsinformation för följande händelse:<ul><li>[!DNL Adobe Target] Community Q&amp;A-kaffebrytning (29 november)</li></ul> |
@@ -110,10 +110,10 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 30 juni | [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} | Startade *Adobe Target Developer Guide* för att konsolidera alla [!DNL Target] innehåll för utvecklare i en och samma portal. Portalen innehåller information om implementering [!DNL Target] och [!DNL Recommendations], [!DNL Target] SDK, och [!DNL Target] API:er. |
+| 30 juni | [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | Startade *Adobe Target Developer Guide* för att konsolidera alla [!DNL Target] innehåll för utvecklare i en och samma portal. Portalen innehåller information om implementering [!DNL Target] och [!DNL Recommendations], [!DNL Target] SDK, och [!DNL Target] API:er. |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.6.2-utgåvan. |
 |  | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till inspelningslänkar för tidigare webbseminarier. |
-| 14 juni | [Planera och implementera Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Uppdaterade kodexempel i följande avsnitt:<ul><li>Vyer/utcheckningssidor för kundvagn</li><li>Uteslut artiklar som redan finns i besökarens kundvagn</li></ul> |
+| 14 juni | [Planera och implementera Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} | Uppdaterade kodexempel i följande avsnitt:<ul><li>Vyer/utcheckningssidor för kundvagn</li><li>Uteslut artiklar som redan finns i besökarens kundvagn</li></ul> |
 | 7 juni | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 22.6.1-utgåvan. |
 
 ## Adobe Target Standard/Premium 22.5.1 (staggerad release; 11-13 maj 2022)
@@ -123,12 +123,12 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | 7 juni | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation för [!DNL Target Standard/Premium] 22.6.1-utgåvan. |
 | 31 maj | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md#webinar-series) | Lagt till information om kommande [!DNL Adobe Target] Community Coffee Break (29 juni 2022) |
 | 25 maj | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target] plattformsversion (25 maj 2022) och version at.js 2.9.0 (27 maj 2022). |
-|  | [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ytterligare information om at.js 2.9.0. |
-|  | [Tips för användaragent och klient](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | Nytt ämne. |
+|  | [versionsinformation för at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Ytterligare information om at.js 2.9.0. |
+|  | [Tips för användaragent och klient](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank} | Nytt ämne. |
 |  | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md#webinar-series) | Länk har lagts till för inspelning av följande webbinarium: Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln (19 maj 2022) |
 | 23 maj | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation har lagts till för at.js version 2.9.0 (25 maj 2022). |
 | 11 maj | [Målmeddelanden och evenemang](/help/main/r-release-notes/target-announcements.md#webinar-series) | Lagt till informations- och registreringslänkar för följande webbinarier:<ul><li>Dick&#39;s Sporting Goods: Personalisering och det föränderliga landskapet inom detaljhandeln</li><li>Adobe: Personalization Industry Insider - Financial Services and Insurance</li><li>City National Bank: Så här uppnår du de 1 % viktigaste inom digital optimering</li><li>Adobe: Personalisering med Precision - [!DNL Adobe Analytics] och [!DNL Target]</li><li>City National Bank: Noll i Hero - Vi börjar och skalar ett personaliseringsprogram</li><li>Adobe: Upptäck möjligheter till optimering med hög effekt</li><li>Adobe: Personalization Industry Insider - Retail</li></ul>Inspelningen för följande webbinarium har lagts till:<ul><li>Personalisering i realtid med [!DNL Adobe Target]</li></ul> |
-|  | [CSP-direktiv (Content Security Policy)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | Avsnittet Vanliga frågor och svar har lagts till. |
+|  | [CSP-direktiv (Content Security Policy)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Avsnittet Vanliga frågor och svar har lagts till. |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.5.1 och Target-plattformen (11-13 maj 2022). |
 
 ## Adobe Target Standard/Premium 22.4.1 (28 april)
@@ -181,12 +181,12 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | --- | --- | --- |
 | 31 januari | [Versionsinformation för mål (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagd förhandsversionsinformation om [!DNL Target Standard/Premium] 22.2.1-versionen. |
 | 28 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Ytterligare information om at.js 2.8.1-versionen. |
-|  | [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ytterligare information om at.js 2.8.1-versionen. |
+|  | [versionsinformation för at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Ytterligare information om at.js 2.8.1-versionen. |
 | 27 januari | [AEM upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Uppdaterat ämne och tillagd information om [!DNL AEM as a Cloud Service] och [!DNL Adobe I/0]. |
 | 26 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.1.2-utgåvan. |
 |  | [Skapa målgrupper](/help/main/c-target/c-audiences/audiences.md) | Lagt till information om [!DNL Adobe Experience Platform] målgrupper. |
 |  | [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md) | Lagt till information om [!DNL Adobe Experience Platform] målgrupper. |
-| 21 januari | [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ytterligare information om at.js 1.8.3-versionen. |
-| 19 januari | [Uppgraderar från at.js 1.*x* to at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Följande avsnitt har lagts till: &quot;at.js 2.*x* har inte stöd för att skapa målgrupper med vst.* parametrar&quot; |
+| 21 januari | [versionsinformation för at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Ytterligare information om at.js 1.8.3-versionen. |
+| 19 januari | [Uppgraderar från at.js 1.*x* to at.js 2.*x*](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Följande avsnitt har lagts till: &quot;at.js 2.*x* har inte stöd för att skapa målgrupper med vst.* parametrar&quot; |
 | 12 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!DNL Target Standard/Premium] 22.1.1-versionen. |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Länk till självstudiekursen med implementeringsinstruktioner [!DNL Adobe Experience Cloud] med Web SDK. |
+|  | [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Länk till självstudiekursen med implementeringsinstruktioner [!DNL Adobe Experience Cloud] med Web SDK. |

@@ -5,9 +5,9 @@ title: Vad är Recommendations aktiviteter?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Därefter bör du lägga till taggar eller utnyttja befintliga [!DNL Analytics] 
 
 Du måste se till att [!DNL Target] är medveten om vilka objekt dina användare visar och köper. Om köpet inte är relevant för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av PDF, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
 
-Om du redan använder [!DNL Target] Om du vill köra A/B-tester på din webbplats kanske du redan har slutfört det här steget. Eller om du redan använder [!DNL Adobe Analytics] om du vill rapportera om webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Du kan också skicka interaktioner offline eller i appen till [!DNL Target] via API i realtid.
+Om du redan använder [!DNL Target] Om du vill köra A/B-tester på din webbplats kanske du redan har slutfört det här steget. Eller om du redan använder [!DNL Adobe Analytics] om du vill rapportera om webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Du kan också skicka interaktioner offline eller i appen till [!DNL Target] via API i realtid.
 
 ### Få rekommendationer i rätt sammanhang
 

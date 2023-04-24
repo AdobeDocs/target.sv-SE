@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe [!DNL Target] rap
 title: Var hittar jag svar på frågor om [!DNL Target] Rapportera?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,6 @@ Jag ställer till exempel in att trafikuppdelningen ska vara 50/50 eller 25/25/2
 * Det bästa sättet att göra A/B- och MVT-tester är att se till att trafikspliterna är jämna. Genom att ändra trafikfördelningen mellan upplevelser (t.ex. från 90/10 till 50/50) under ett test kan besökarna bli ojämna över olika upplevelser. Den lägre trafikupplevelsen kanske aldrig &quot;hinner ikapp&quot;.
 * Om du följer ovanstående metodtips och trafikdelningen inte normaliseras över tid bör du kontrollera följande:
 
-   * Använder du det senaste at.js-biblioteket? Mer information om den aktuella versionen och tillhörande versionsinformation finns i [versionsinformation för at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+   * Använder du det senaste at.js-biblioteket? Mer information om den aktuella versionen och tillhörande versionsinformation finns i [versionsinformation för at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
    * Är det ett omdirigeringstest? Felaktig timing för taggar som utlöses på sidan kan leda till ojämna trafikdelningar, särskilt när du använder [!DNL Analytics] som datakälla för en [!DNL Target] aktivitet. Mer information om hur du åtgärdar ojämn trafikfördelning för en omdirigeringsaktivitet med Analytics for Target (A4T) finns i [Omdirigeringserbjudanden - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

@@ -5,9 +5,9 @@ title: Vilken är den viktiga attributrapporten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Det finns flera skäl till att [!UICONTROL Personalization Insights] rapporter k
 
 Ett attribut är information om en besökare eller hans eller hennes specifika besök som används av personaliseringsalgoritmerna för att lära sig att personalisera trafik. Ett attribut kan till exempel vara webbläsartyp, plats, tidpunkt på besöksdagen och så vidare.
 
-Mer information om vilka attribut [!DNL Target] i sina personaliseringsmodeller, se [Datainsamling för målets personaliseringsalgoritmer](/help/main/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target personaliseringsmodeller finns i [Metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+Mer information om vilka attribut [!DNL Target] i sina personaliseringsmodeller, se [Datainsamling för målets personaliseringsalgoritmer](/help/main/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target personaliseringsmodeller finns i [Metoder för att hämta data till Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ### Jag ser ett eller flera attribut som jag inte vill att modellen ska använda för utbildning. Kan jag ta bort dessa attribut från utbildningsmodellen? {#models-api}
 

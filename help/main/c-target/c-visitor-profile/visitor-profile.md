@@ -4,9 +4,9 @@ description: Lär dig mer om besökarprofiler som innehåller information om hur
 title: Vad är besökarprofiler?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,6 @@ Följande avsnitt innehåller mer information:
 - [Livslängd för besökarprofil](visitor-profile-lifetime.md)
 - [Profilattribut](profile-parameters.md)
 - [Kategoritillhörighet](category-affinity.md)
-- [Kundattribut](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+- [Kundattribut](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Profilsynkronisering i realtid för mbox3rdPartyID](3rd-party-id.md)
 - [Profil och variabel ordlista](variables-profiles-parameters-methods.md)

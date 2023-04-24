@@ -4,7 +4,7 @@ description: Läs tips från vår expertpanel om hur du använder Adobe [!DNL Ta
 title: Var hittar jag tips och tricks för att använda Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Se [Anpassade attribut](https://experienceleague.adobe.com/docs/target/using/aud
 
 **Bra att veta**: För [!DNL Target] är en öppen och agnostisk plattform som fungerar bra med olika tekniker, och du kan lägga till CRM- eller köpta data på många olika sätt. Det innebär att du kan välja en metod som fungerar bäst för din organisation.
 
-Se [Metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} om du vill ha mer information.
+Se [Metoder för att hämta data till Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} för mer information.
 
 ## Tips 2: Gör personligare genom att blanda [!DNL Target] målgrupper med andra Adobe Experience Cloud-målgrupper.
 

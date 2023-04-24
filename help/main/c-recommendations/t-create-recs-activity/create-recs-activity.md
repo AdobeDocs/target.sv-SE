@@ -5,9 +5,9 @@ title: Hur skapar jag en Recommendations-aktivitet?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
 
    >[!NOTE]
    >
-   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för aktuell artikel/aktuella kategorirekommendationer att vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten, avmarkerar du **[!UICONTROL Compatible]** kryssruta. The [!UICONTROL Compatible] det kan hända att alternativet inte visas, beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+   >Alla villkor fungerar inte korrekt på alla sidor. Sidan eller mbox måste skickas `entity.id` eller `entity.categoryId` för aktuell artikel/aktuella kategorirekommendationer att vara kompatibla. I allmänhet är det bäst att bara visa kompatibla villkor. Om du vill att inkompatibla villkor ska vara tillgängliga för aktiviteten, avmarkerar du **[!UICONTROL Compatible]** kryssruta. The [!UICONTROL Compatible] det kan hända att alternativet inte visas, beroende på dina Recommendations-inställningar ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Mer information finns i [Inställningar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Välj villkor, dialogruta](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

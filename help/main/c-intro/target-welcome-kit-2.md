@@ -4,9 +4,9 @@ description: Ta en titt på Adobe Target. Lär dig mer om tillgängliga aktivite
 title: Var hittar jag en introduktion på hög nivå till Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2489'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Mer information om när och hur du använder funktionerna finns i [Målaktivitet
 
 ## Kanaler
 
-Du kan använda [!DNL Target] att testa och personalisera digitala upplevelser nästan var som helst - traditionella digitala kontaktytor som din webbplats, mobilsajt och mobilapp, men också på kontaktytor som kioskdatorer, e-post, IoT-enheter, spelkonsoler och till och med röstassistenter som Alexa och Cortana. Många företag börjar använda [!DNL Target] på deras webbplats. Men den senaste forskningen tyder på att fler människor besöker varumärken från sina mobila enheter. Det är nu viktigt att optimera mobilkanalerna. Det bästa är att ni kopplar samman besökarens upplevelser över alla era kontaktytor för att leverera en sömlös, enhetlig upplevelse.
+Du kan använda [!DNL Target] att testa och personalisera digitala upplevelser nästan var som helst - traditionella digitala kontaktytor som din webbplats, mobilsajt och mobilapp, men också på kontaktytor som kioskdatorer, e-post, IoT-enheter, spelkonsoler och till och med röstassistenter som Alexa och Cortana. Många företag börjar använda [!DNL Target] på deras webbplats. Men den senaste forskningen tyder på att fler människor besöker varumärken från sina mobila enheter. Det är nu viktigt att optimera mobilkanalerna. Helst ska ni koppla samman besökarens upplevelser över alla era kontaktytor för att leverera en sömlös, enhetlig upplevelse.
 
 | Kanal | Detaljer |
 | --- | --- |
@@ -52,8 +52,8 @@ Många av er kanske vill använda [!DNL Target] för att testa och personalisera
 
 | Implementeringstyp | Detaljer |
 | --- | --- |
-| Klientsidan | Med denna implementering av [!DNL Target], [!DNL Target] levererar upplevelserna som är kopplade till en aktivitet direkt till klientwebbläsaren. Webbläsaren avgör vilken upplevelse som ska visas och visar den. Med klientsidan kan du använda en WYSIWYG-redigerare, **[!UICONTROL Visual Experience Composer]** (VEC), eller ett icke-visuellt gränssnitt, **[!UICONTROL Form-based Experience Composer]**, för att skapa test- och personaliseringsupplevelser. [Läs mer](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
-| Serversidan | I den här typen av [!DNL Target] implementering, en klientenhet begär en upplevelse via servern, servern skickar begäran till [!DNL Target], [!DNL Target] skickar tillbaka svaret till servern och servern bestämmer vilken upplevelse som ska levereras till klientenheten för att den ska kunna återges. upplevelsen inte behöver visas i en webbläsare, den kan visas i ett e-postmeddelande eller i en kioskdator, via en röstassistent eller via någon annan icke-visuell upplevelse eller icke-webbläsarbaserad enhet. Eftersom servern är placerad mellan klienten och [!DNL Target]är den här typen av implementering också idealisk om du behöver större kontroll och säkerhet eller har komplexa serverprocesser som du vill köra på servern. [Läs mer](https://developer.adobe.com/target/implement/server-side/){target=_blank}. |
+| Klientsidan | Med denna implementering av [!DNL Target], [!DNL Target] levererar upplevelserna som är kopplade till en aktivitet direkt till klientwebbläsaren. Webbläsaren avgör vilken upplevelse som ska visas och visar den. Med klientsidan kan du använda en WYSIWYG-redigerare, **[!UICONTROL Visual Experience Composer]** (VEC), eller ett icke-visuellt gränssnitt, **[!UICONTROL Form-based Experience Composer]**, för att skapa test- och personaliseringsupplevelser. [Läs mer](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| Serversidan | I den här typen av [!DNL Target] implementering, en klientenhet begär en upplevelse via servern, servern skickar begäran till [!DNL Target], [!DNL Target] skickar tillbaka svaret till servern och servern bestämmer vilken upplevelse som ska levereras till klientenheten för att den ska kunna återges. upplevelsen inte behöver visas i en webbläsare, den kan visas i ett e-postmeddelande eller i en kioskdator, via en röstassistent eller via någon annan icke-visuell upplevelse eller icke-webbläsarbaserad enhet. Eftersom servern är placerad mellan klienten och [!DNL Target]är den här typen av implementering också idealisk om du behöver större kontroll och säkerhet eller har komplexa serverprocesser som du vill köra på servern. [Läs mer](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
 | Hybrid-implementering | I den här implementeringen väljer du den implementeringsmetod som fungerar bäst för ett visst användningsfall. Du kan till exempel använda en implementering på klienten för att A/B-testa ett erbjudande i en hjältebanderoll på startsidan, men även använda en implementering på serversidan för att avgöra vilka interna sökresultat som ska visas i en klientwebbläsare, upplevelsen som ska visas på en smart bildinstrumentpanel eller röstsvaret som ska visas från en röstassistent. |
 
 ## Aktivitetselement
@@ -110,13 +110,13 @@ Tänk på följande innan vi går vidare till nästa kapitel: &quot;Utveckla din
 
 ### Yttranden kan påverka dina resultat negativt
 
-* Yttranden som kan påverka effekten negativt. Highest Paid Person’s Opinion (HIPPO), attityder, biases. VD:n vill t.ex. minska storleken på sökrutan för att få mer plats på varje sida. Vi bör testa att se till att det inte minskar antalet sökningar.
-* Agerar du på åsikter? Jag tycker inte om hur testet ser ut. Kunden kommer inte alls att gilla den här upplevelsen. Intuition är användbar, men A/B-tester har gång på gång visat att det inte alltid fungerar.
-* Eller har du en optimeringsmetod? Jag är glad att se vilken upplevelse som vinner. Har vi tillräckligt med alternativ för att testa?
+* Yttranden som kan påverka effekten negativt. Highest Paid Person&#39;s Opinion (HIPPO), attityder, biases. VD:n vill t.ex. minska storleken på sökrutan för att få mer plats på varje sida. Vi bör testa att se till att det inte minskar antalet sökningar.
+* Agerar du på åsikter? Jag tycker inte om hur testet ser ut. Kunden kommer inte alls att gilla den här upplevelsen. Intuition är användbar, men A/B-tester har gång på gång visat att det inte alltid är på plats.
+* Eller har du en optimeringsmetod? Jag är glad att se vilken erfarenhet som vinner. Har vi tillräckligt med alternativ för att testa?
 
 ### Antaganden kan också påverka resultatet negativt
 
 * Antaganden som kan påverka effektiviteten negativt. Herd mentality (det är så våra konkurrenter gör det). Alla våra konkurrenter använder till exempel hjältebanners med roterande bilder, så vi bör också göra det.
-* Anta att vi vet varför något fungerar eller inte. Anta att vi inte behöver testa någonting. Vi listar t.ex. alltid hotellrum i ordningen högst till lägst pris som standard.
+* Anta att vi vet varför något fungerar eller inte. Om vi inte behöver testa något. Vi listar t.ex. alltid hotellrum i ordningen högst till lägst pris som standard.
 * Agerar du utifrån antaganden? Vi behöver inte testa det, vi har kollat analyser. (Ja, men det kan finnas mer i berättelsen än vad analyserna visar.)
 * Eller har du en optimeringsmetod? Vi testar allt.

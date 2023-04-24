@@ -4,9 +4,9 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Så här ställer du in profilattribut:
 
    | Parametertyp | Beskrivning |
    |--- |--- |
-   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.<br>**Anteckning**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka mer än 50 profilattribut till [!DNL Target]skickar du dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i [!DNL Adobe Target] API-dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Anteckning**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka mer än 50 profilattribut till [!DNL Target]skickar du dem med API-metoden för profiluppdatering. Mer information finns i [Profiluppdatering i [!DNL Adobe Target] API-dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Definieras direkt med ett JavaScript-kodfragment. De här fragmenten kan lagra summor som går åt som summor som förbrukas av konsumenten och de körs på varje mbox-begäran. Se Profilskriptattribut nedan. |
 
 ## Profilskriptattribut {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
 **Går det att använda profilskript för att hämta information från en sida som finns i ett datalager?**
 
-Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas via en mbox-begäran eller via andra [metoder för att hämta data till Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. När data finns i [!DNL Target]kan profilskript läsa data som en mbox-parameter eller profilparameter.
+Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas via en mbox-begäran eller via andra [metoder för att hämta data till Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. När data finns i [!DNL Target]kan profilskript läsa data som en mbox-parameter eller profilparameter.
 
 ## JavaScript-referens för skriptprofilparametrar
 
@@ -246,14 +246,14 @@ Följande objekt och metoder kan refereras av parametrar för skriptprofiler:
 | `page.url` | Aktuell URL. |
 | `page.protocol` | Protokollet som används för sidan (http eller https). |
 | `page.domain` | Den aktuella URL-domänen (allt före det första snedstrecket). Till exempel: `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blue&size=small`. |
-| `page.query` | Frågesträngen för den aktuella sidan. Allt efter&quot;?&quot;. Till exempel: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
-| `page.param(‘<par_name>’)` | Värdet på parametern som anges av `<par_name>`. Om din nuvarande URL är Google söksida och du har angett `page.param('hl')`, får du &quot;en&quot; för URL:en `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.query` | Frågesträngen för den aktuella sidan. Allt efter &#39;?&#39;. Till exempel: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
+| `page.param('<par_name>')` | Värdet på parametern som anges av `<par_name>`. Om din nuvarande URL är Google söksida och du har angett `page.param('hl')`, får du &quot;en&quot; för URL:en `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Samma uppsättning åtgärder som ovan gäller för hänvisaren och landningen (dvs. referrer.url är referentens URL-adress). |
 | `landing.url`, `landing.protocol`, `landing.query`och `landing.param` | Liknar sidan, men för landningssidan. |
 | `mbox.name` | Den aktiva mbox-namnet. |
-| `mbox.param(‘<par_name>’)` | En mbox-parameter med det angivna namnet i den aktiva mbox. |
-| `profile.get(‘<par_name>’)` | Den klientskapade användarprofilsparametern med namnet `<par_name>`. Om användaren till exempel anger en profilparameter med namnet &quot;kön&quot; kan värdet extraheras med &quot;profile.kön&quot;. Returnerar värdet för &quot;`profile.<par_name>`&quot; för den nuvarande besökaren, returnerar null om inget värde har angetts. Observera att `profile.get(<par_name>)` är kvalificerat som ett funktionsanrop. |
-| `user.get(‘<par_name>’)` | Returnerar värdet för &quot;`user.<par_name>`&quot; för den nuvarande besökaren, returnerar null om inget värde har angetts. |
+| `mbox.param('<par_name>')` | En mbox-parameter med det angivna namnet i den aktiva mbox. |
+| `profile.get('<par_name>')` | Den klientskapade användarprofilsparametern med namnet `<par_name>`. Om användaren till exempel anger en profilparameter med namnet &quot;kön&quot; kan värdet extraheras med &quot;profile.kön&quot;. Returnerar värdet för &quot;`profile.<par_name>`&quot; för den nuvarande besökaren, returnerar null om inget värde har angetts. Observera att `profile.get(<par_name>)` är kvalificerat som ett funktionsanrop. |
+| `user.get('<par_name>')` | Returnerar värdet för &quot;`user.<par_name>`&quot; för den nuvarande besökaren, returnerar null om inget värde har angetts. |
 | `user.categoryAffinity` | Returnerar namnet på den bästa kategorin. |
 | `user.categoryAffinities` | Returnerar en array med de bästa kategorierna. |
 | `user.isFirstSession` | Returnerar true om det är besökarens första session. |

@@ -4,9 +4,9 @@ description: Lär dig mer [!DNL Adobe Target] fungerar, inklusive information om
 title: Hur [!DNL Target] Arbeta?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2523'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Lär dig mer [!DNL Adobe Target] fungerar, inklusive information om JavaScript-b
 
 [!DNL Target] integreras med webbplatser med [!DNL Experience Platform Web SDK] eller at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** The [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} är ett nytt JavaScript-bibliotek på klientsidan. The [!DNL Experience Platform Web SDK] för kunder som [!DNL Adobe Experience Cloud] interagerar med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL Experience Platform] Edge Network. [!DNL Adobe] rekommenderar alla nya [!DNL Target] kunder implementerar [!DNL Experience Platform Web SDK].
-* **at.js:** at.js-biblioteket är ett implementeringsbibliotek för [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. [!DNL Adobe] rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till [senaste versionen av at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:** The [Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} är ett nytt JavaScript-bibliotek på klientsidan. The [!DNL Experience Platform Web SDK] för kunder som [!DNL Adobe Experience Cloud] interagerar med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL Experience Platform] Edge Network. [!DNL Adobe] rekommenderar alla nya [!DNL Target] kunder implementerar [!DNL Experience Platform Web SDK].
+* **at.js:** at.js-biblioteket är ett implementeringsbibliotek för [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. [!DNL Adobe] rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till [senaste versionen av at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
@@ -30,8 +30,8 @@ Referera till [!DNL Experience Platform Web SDK] eller at.js på alla sidor på 
 
 Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera [!DNL Experience Platform Web SDK] eller at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
-* [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
+* [[!DNL Adobe Experience Platform Web SDK] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 Varje gång en besökare begär en sida som har optimerats för [!DNL Target]skickas en begäran till målinriktningssystemet. Begäran hjälper till att avgöra vilket innehåll som ska användas för besökaren. Den här processen utförs i realtid. Varje gång en sida läses in görs en begäran om innehållet och utförs av systemet. Innehållet styrs av reglerna för marknadsföringsstyrda aktiviteter och upplevelser och är riktat till den enskilda besökaren. Innehållet får det att varje besökare mest sannolikt svarar på, interagerar med eller till slut köper. Personaliserat innehåll hjälper till att maximera svarsfrekvenser, förvärvsfrekvens och intäkter.
 
@@ -134,7 +134,7 @@ The [!DNL Target Recommendations] är värd för en tjänst [!DNL Adobe] datacen
 >
 >[!DNL Adobe Target] för närvarande inte har något Edge Cluster i Kina och besökarens prestanda är begränsad för [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge Clusters i landet, är webbplatsernas upplevelser [!DNL Target] kan påverkas. Upplevelserna kan ta lång tid att återge och sidinläsningen kan påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target] redigeringsgränssnitt.
 
-Du kan tillåtslista [!DNL Target] Edge Clusters, om du vill. Mer information finns i [tillåtelselista: Hörnkantsnoder](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
+Du kan tillåtslista [!DNL Target] Edge Clusters, om du vill. Mer information finns i [tillåtelselista: Hörnkantsnoder](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
 
 ## Skyddad användarupplevelse {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

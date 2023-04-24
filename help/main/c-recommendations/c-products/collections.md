@@ -5,9 +5,9 @@ title: Hur använder jag samlingar i Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
    ![Hovringsikoner: redigera, kopiera och ta bort](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Antal objekt som rapporteras för varje samling på [!UICONTROL Collections] listvyn är antalet produkter som matchar reglerna för den samlingen inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://developer.adobe.com/target/implement/recommendations/){target=_blank} om du vill ändra standardvärdgruppen.
+   Antal objekt som rapporteras för varje samling på [!UICONTROL Collections] listvyn är antalet produkter som matchar reglerna för den samlingen inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 

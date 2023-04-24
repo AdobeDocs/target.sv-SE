@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ The [!UICONTROL Audiences] -listan innehåller de målgrupper som du kan använd
 
    >[!NOTE]
    >
-   >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller [kombinerat med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
+   >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller [kombinerat med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Användarna måste ha [!UICONTROL Approver] eller ovanför status i [!DNL Target] för att konfigurera [!DNL Target] [!UICONTROL Destinations] kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >

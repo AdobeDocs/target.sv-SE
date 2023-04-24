@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2741'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Det logiska flödet för den faktiska algoritmimplementeringen visas i följande
 
 Här följer information om de här stegen:
 
-* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementera mål](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementera mål](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -89,7 +89,7 @@ I den här typen av algoritm anses två objekt vara relaterade om deras namn och
 
 Här följer information om de här stegen:
 
-* **Indata**: Den här algoritmen är som tidigare enbart baserad på katalogdata (hämtas från [!DNL Target] via [Katalogfeed, Entity API eller från siduppdateringar](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+* **Indata**: Den här algoritmen är som tidigare enbart baserad på katalogdata (hämtas från [!DNL Target] via [Katalogfeed, Entity API eller från siduppdateringar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -127,7 +127,7 @@ Logiken i modellutbildning och poängsättning visas i följande diagram:
 
 Här följer information om de här stegen:
 
-* **Indata**: Detta är identiskt med CF-metoder (item-item collaborative filtering). [!UICONTROL Both Recommended For You] och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlas in när du [implementera mål](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Indata**: Detta är identiskt med CF-metoder (item-item collaborative filtering). [!UICONTROL Both Recommended For You] och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlas in när du [implementera mål](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modellutbildning**:
 
