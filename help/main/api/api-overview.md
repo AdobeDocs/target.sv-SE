@@ -5,9 +5,9 @@ title: Var kan jag hitta [!DNL Target] API- och SDK-dokumentation?
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Innan du börjar använda [!DNL Adobe Target]måste du implementera den på din webbplats.
 
-The [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank} innehåller information som du behöver känna till innan du implementerar [!DNL Target].
+The [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} innehåller information som du behöver känna till innan du implementerar [!DNL Target].
 
 På utvecklarportalen finns information om följande implementeringstyper:
 
@@ -33,4 +33,4 @@ På utvecklarportalen finns information om följande implementeringstyper:
 * Rapporterings-API:er.
 * Rekommendations-API:er.
 
-Mer information finns i [Översikt över mål-API](https://developer.adobe.com/target/before-administer/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} portal.
+Mer information finns i [Översikt över mål-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.

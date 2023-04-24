@@ -4,9 +4,9 @@ description: Följ stegen som krävs för att implementera Analytics för [!DNL 
 title: Hur implementerar jag analyser för [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -116,9 +116,9 @@ Den här konfigurationen har en global effekt, vilket innebär att alla anrop fr
 }
 ```
 
-Nyttolasten kan sedan vidarebefordras till Analytics via [API för datainfogning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Om du vill använda Automatisk allokering och Automatiskt mål-aktiviteter måste du även vidarebefordra sessions-ID. Mer information finns i [Analyser för målrapportering (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} i *Adobe Target SDKs* guide.
+Nyttolasten kan sedan vidarebefordras till Analytics via [API för datainfogning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Om du vill använda Automatisk allokering och Automatiskt mål-aktiviteter måste du även vidarebefordra sessions-ID. Mer information finns i [Analyser för målrapportering (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} i *Adobe Target SDKs* guide.
 
-Om en global inställning inte är önskad och en mer on-demand-metod är att föredra använder du funktionen at.js [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} genom att skicka in **analyticsLogging: &quot;client_side&quot;**. Analysens nyttolast returneras endast för det här anropet och [!DNL Target] backend vidarebefordrar inte nyttolasten till [!DNL Analytics]. Genom att följa detta tillvägagångssätt [!DNL Target] begäran returnerar nyttolasten som standard, men i stället bara när det önskas och anges.
+Om en global inställning inte är önskad och en mer on-demand-metod är att föredra använder du funktionen at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} genom att skicka in **analyticsLogging: &quot;client_side&quot;**. Analysens nyttolast returneras endast för det här anropet och [!DNL Target] backend vidarebefordrar inte nyttolasten till [!DNL Analytics]. Genom att följa detta tillvägagångssätt [!DNL Target] begäran returnerar nyttolasten som standard, men i stället bara när det önskas och anges.
 
 Exempel:
 

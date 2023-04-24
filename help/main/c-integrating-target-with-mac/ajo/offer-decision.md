@@ -4,9 +4,9 @@ description: Lär dig hur du lägger till ett offertbeslut som skapats i [!DNL A
 title: Hur använder jag erbjudandebeslut?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Mer information om [!DNL Adobe Journey Optimizer] och erbjuda dina beslut, se f�
 
 Använda offertbeslut i [!DNL Target]behöver du följande:
 
-* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] implementerat med [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] implementerat med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
    Funktionen är inte tillgänglig vid implementering [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
@@ -100,7 +100,7 @@ I [!DNL Adobe Journey Optimizer]kan ni skapa ett personligt hemsideshjältererbj
 
 Tänk på följande när du arbetar med offertbeslut:
 
-* Integreringen av offera decisioningar fungerar för [!DNL Target] implementeringar baserade på [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Den här funktionen är inte tillgänglig vid implementering [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
+* Integreringen av offera decisioningar fungerar för [!DNL Target] implementeringar baserade på [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Den här funktionen är inte tillgänglig vid implementering [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
 * The [!DNL Target]/[!DNL Adobe Journey Optimizer] integreringsstöd [manuell [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) och [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) endast aktiviteter. Den här funktionen är inte tillgänglig för andra aktivitetstyper.
 

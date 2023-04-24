@@ -5,9 +5,9 @@ title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ I följande tabell visas kunddata som samlats in av [!UICONTROL Automated Person
 
 Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer som förhindrar att de används i [!UICONTROL Auto-Target] eller [!UICONTROL Automated Personalization] modell eller aktivitet.
 
-Mer information finns i [API för modeller (Blockeringslistning) - översikt](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} i *Adobe Target Developer Guide*.
+Mer information finns i [API för modeller (Blockeringslistning) - översikt](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} i *Adobe Target Developer Guide*.
 
 ## Enhetsdata och mobildata {#device-mobile}
 

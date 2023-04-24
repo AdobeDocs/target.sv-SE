@@ -5,9 +5,9 @@ title: Vilken är den viktiga attributrapporten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Mer information om vilka attribut [!DNL Target] i sina personaliseringsmodeller,
 
 The [!UICONTROL Models API], även kallat Blockeringslista API, gör att användare kan visa och hantera listan med attribut (även kallade funktioner) som används i maskininlärningsmodeller för [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet. Om du vill utesluta ett eller flera attribut från att användas av modellerna för AP- eller AT-aktiviteter kan du använda API:t för modeller för att lägga till dessa attribut i blockeringslista.
 
-Mer information finns i [API-översikt för modeller](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+Mer information finns i [API-översikt för modeller](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### Finns informationen i [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporterar samma som i CSV-nedladdningen?
 
