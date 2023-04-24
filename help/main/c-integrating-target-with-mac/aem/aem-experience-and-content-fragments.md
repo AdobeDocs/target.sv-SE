@@ -3,7 +3,8 @@ keywords: aem;experience manager;adobe experience manager;integration;experience
 description: Lär dig använda [!DNL Adobe Experience Manager] upplevelse och innehållsfragment i [!DNL Adobe Target] verksamhet.
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments]?
 feature: Integrations
-source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
+exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
+source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
