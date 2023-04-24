@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '35401'
+source-wordcount: '35832'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,34 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
+
+### [!DNL Target] Standard/Premium 23.3.1 (28-30 mars 2023)
+
+Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
+
+| Funktion | Detaljer |
+|--- |--- |
+| Optimerade A4T-värden för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]<p>(Releasedatum 30 mars 2023) | [!DNL Target] låter dig välja mätvärden baserat på binomiala händelser eller mätvärden baserade på kontinuerliga händelser när du använder [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet.<P>Observera följande ändring av mätvärden som stöds:<ul><li>[!DNL Target] har behållit det tidigare beteendet för befintliga aktiviteter till och med 9 september 2023. Efter detta datum kommer aktiviteter som använder mätvärden som inte stöds att avbrytas för att tvinga befintlig aktivitetsmigrering till det nya beteendet.</li></ul>Mer information finns i&quot;Målmått som stöds&quot; i [A4T-stöd för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Följande självstudiekurser har uppdaterats med den här funktionen:<ul><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+
+* Förbättrad målgrupps- och aktivitetssynkronisering så att objekt som skapats i [!DNL Adobe Experience Platform] och [!DNL Adobe Audience Manager] finns i [!DNL Target] Snabbare gränssnitt. (TGT-44568)
+* Förbättrat användargränssnitt som gör att användarna kan ta bort [!UICONTROL Default URL] under [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]. Med den här ändringen kan kunderna ändra standard-URL:en tillbaka till en tom sträng, vilket tidigare inte var möjligt efter den initiala konfigurationen. (TGT-44577)
+* Tog bort begränsningar som hindrade kunderna från att redigera eller ta bort körklara målgrupper (målgrupper med reserverade namn). (TGT-44655)
+* Inaktiverade &quot;[!UICONTROL Done]&quot; när du laddade mellanrum visades i [!DNL Target] Gränssnitt när du skapar [kombinerade målgrupper](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* Korrigerade [!UICONTROL Language] länken längst ned i [!UICONTROL Audiences] så att den länkar till[!UICONTROL Account communication preferences]&quot;. (TGT-43562)
+* Löste ett problem som ibland hindrade kunder från att skapa [!UICONTROL A/B Test] aktiviteter efter att du har valt [!UICONTROL Adobe Analytics] option under [!UICONTROL Administration] > [!UICONTROL Reporting] > [!UICONTROL Reporting Experience Cloud Solution]. (TGT-44844)
+* Ett problem som gjorde att kunderna inte kunde visa den senaste upplevelsen i ett [!UICONTROL Multivariate Test] aktivitet med många upplevelser inifrån [!UICONTROL Visual Experience Composer] (VEC). The [DOM-sökväg](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) längst ned på VEC hindrade ibland kunderna från att se den senaste upplevelsen. (TGT-44578)
+* Korrigerade ett problem som gjorde att Bläddra-URL:en i VEC inte reflekterade den aktuella sidan som är synlig i en normal webbläsarsession om sidan kräver auktorisering eller anropar omdirigeringar. (TGT-44350)
+* Ett problem som hindrade kunderna från att ändra [!UICONTROL Filter Incompatible Criteria] ange [!UICONTROL Recommendations] > [!UICONTROL Settings]. (TGT-44398)
+* Korrigerade ett problem som orsakade att POSTEN begärde att få skapa [!DNL Recommendations] feeds som ska misslyckas vid användning [!UICONTROL Analytics Classifications] med rapportsviter med punkter i namnen. (TGT-44598)
+* Uppdaterade länkar i [!DNL Target] Gränssnitt som pekar på det nya [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
+* Förbättrat skydd för att förhindra SSRF-försök (Server-Side Request Forgery) i [!DNL Recommendations] feeds. (TGT-43769)
+* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
+
+### at.js version 2.10.2 (7 mars 2023)
+
+* Ett problem som orsakade `trackEvent` funktion som alltid returnerar ett fel.
+
+Mer information om alla at.js-versioner finns i [versionsinformation för at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.15.1 (8 och 9 mars 2023)
 

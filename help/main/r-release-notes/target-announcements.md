@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,29 @@ Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL T
 Gartner namngiven [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant for Personalization Engines (PE) för femte året i rad. [!DNL Adobe] fick även toppresultat och betydande årsökningar över alla tre primära användningsfall: Digital marknadsföring, digital handel samt service och support. [!DNL Target] fick högsta poäng för testningskapaciteten hos alla utvärderade leverantörer.
 
 Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!UICONTROL Adobe Target Community] Kaffebrytning - frågor och svar: Optimering och personalisering av mobilupplevelser för autentiserade miljöer
+
+* **onsdagen den 26 april 2023**
+* **1:00 (EDT, UTC-4)**
+* **[Registreringsinformation](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
+
+Hörn [!DNL Adobe Target] Marknadsförare, Brent Kostak, diskuterar hur han [!DNL Target] och [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP) kan öka engagemanget, intäkterna och kundlojaliteten inom reglerade branscher.
+
++++Information
+
+Varumärken måste kunna leverera personaliserade och relevanta upplevelser som bygger på specifika kundbehov och beteenden. Med frågor om en framtid utan cookies i marknadsföringsteknologi vill reglerade branscher ta till sig ett mer robust ramverk för kundengagemang och optimera varje kundinteraktion för rätt innehåll och erbjudande.
+
+Hur kan varumärken inom finanssektorn, försäkringsbranschen, detaljhandeln, rese- och turismbranschen samt telekombranschen använda bästa praxis för optimering och personalisering i autentiserade miljöer? Om ni förstår hur viktiga mobilappar är för lojala kunders engagemang och lojalitet, hur kan varumärken möjliggöra digital självbetjäning eller öka användningen av nya funktioner med personaliserade upplevelser?
+
+Läs om hur [!DNL Target] och [!DNL Real-Time Customer Data Platform] kan öka engagemanget, intäkterna och kundlojaliteten inom reglerade branscher när vi diskuterar:
+
+* Hur team levererar personaliserade upplevelser till både anonyma och autentiserade besökare
+* Förstå konsumenternas behörigheter och integritetsstandarder med personalisering
+* Personaliserat innehåll och erbjudanden till autentiserade besökare via anonyma identiteter
+* Unika användningsexempel för autentiserade, säkra webbplatser på webben och i mobilen
+
++++
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
