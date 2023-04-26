@@ -5,7 +5,7 @@ title: Hur skapar jag kriterier i Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: b5fbf23e9c2dfd76565fd6287ae07df2b7df2e21
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Mer information om hur du väljer en [!UICONTROL Recommendation Key], se [Basera
 
    De tillgängliga dataintervallen är:
 
-   | Alternativet Fönster för uppläsning | Uppdaterad frekvens (visas vid hovring) | Symboler som stöds |
+   | Alternativet Fönster för uppläsning | Uppdaterad frekvens (visas vid hovring) | Algoritmer som stöds |
    | --- | --- | --- |
    | Sex timmar | Algoritmen körs var 3:e till 6:e timme | [!UICONTROL Popularity-Based] algoritmer när det markerade [!UICONTROL Behavioral Data Source] är [!DNL Adobe Target] |
    | En dag | Algoritmen körs var 12-24:e timme | [!UICONTROL Popularity-Based] algoritmer |
