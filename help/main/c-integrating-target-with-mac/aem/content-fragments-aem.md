@@ -2,12 +2,11 @@
 keywords: upplevelse;json;aem;adobe experience manager;export till adobe target;content fragments;fragments;CF;cf;headless;personalization;experiment
 description: Lär dig använda [!DNL Adobe Experience Manager] [!UICONTROL Content Fragments] in [!DNL Adobe Target] verksamhet.
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
-badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -15,12 +14,6 @@ ht-degree: 0%
 # AEM [!UICONTROL Content Fragments]
 
 Använd [!UICONTROL Content Fragments] (CF) skapad i [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] aktiviteter för att underlätta personalisering och experimenterande utan motstycke.
-
->[!NOTE]
->
->Den här funktionen är tillgänglig som en förhandsversion den 12 april 2023. Som en förhandsversion kan du experimentera med [!UICONTROL Content Fragments] i dev- och staging-miljöer, men inte i produktionsmiljöer.
->
->Den här funktionen kommer att vara tillgänglig för GA-versionen (General Availability) den 26 april 2023.
 
 ## Överväganden
 
