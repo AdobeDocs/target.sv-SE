@@ -4,9 +4,9 @@ description: Hitta svar på frågor som ofta ställs om att visa rapporter när 
 title: Hitta svar på frågor om att visa rapporter med A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '2637'
 ht-degree: 1%
 
 ---
@@ -154,7 +154,7 @@ Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.
 
 ## Varför [!DNL Analytics] och [!UICONTROL Analytics for Adobe Target] (A4T) beräkna tal för [!UICONTROL Unique Visitors] mätvärden annorlunda? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-+++Svar När du kör ett A/B-test, som använder [Welch&#39;s t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (konfidensmåttet) för att välja en testvinnare. En av antagandena är att det finns en fast tidshorisont. Testet är inte statistiskt giltigt om du inte tittar på den fasta provstorleken.
++++Svar När du kör ett A/B-test, som använder [Welch&#39;s t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (konfidensmåttet) för att välja en vinnare av ett test är en av antagandena att det finns en fast tidshorisont. Testet är inte statistiskt giltigt om du inte tittar på den fasta provstorleken.
 
 The [!UICONTROL Unique Visitors] är olika i [!DNL Analytics] och [!DNL Target] bara när du tittar på en period som är kortare än det faktiska testet. Om du inte har uppnått din provstorlek är testet inte lika tillförlitligt. Se [Så här kör du ett A/B-test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) på [Evan Millers webbplats](https://www.evanmiller.org/index.html) för mer information.
 
@@ -198,5 +198,19 @@ Här är några saker du bör tänka på när du tittar [!DNL Analytics] rapport
 * Om en konvertering sker utanför rapportens fönster visas inte konverteringen i [!DNL Analytics].
 * I den&quot;riktade&quot; delen av trafiken för [!UICONTROL Auto-Target] aktiviteter kan besökarna se olika upplevelser från en session till nästa. Om deras profil eller kontext till exempel har ändrats och [!DNL Target]Med maskininlärningsalgoritmerna vet vi att de är mer benägna att konvertera till en ny upplevelse. När besökarna rör sig från upplevelse till upplevelse ökar besöksantalet för varje upplevelse som ses. Detta skiljer sig från vanliga A/B-testningsaktiviteter där upplevelserna är kladdiga för besökarna vid olika besök.
 * Om en besökare ser flera upplevelser på flera besök, tillskrivs all konvertering alltid den senaste upplevelsen som besökaren såg. Som vi nämnt ökas besöksantalet för varje upplevelse som besökaren såg. Detta kan på ett konstlat sätt påverka konverteringsgraden per upplevelse när du visar upplevelser under &quot;[!UICONTROL Targeted]&quot; dimension in [!DNL Adobe Analytics] rapporter.
+
++++
+
+## Hur spårar jag aktivitetsintryck i [!DNL Analysis Workspace] när [!UICONTROL Analytics for Target] (A4T)? {#activity-impressions}
+
++++Svar
+
+Visa aktivitetsuttryck i [!DNL Analysis Workspace]:
+
+1. I [!DNL Target] Gränssnitt, klicka **[!UICONTROL View in Analytics]**.
+1. Lägg till **[!UICONTROL Activity Impressions]** kolumn till [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} rapport.
+1. På **[!UICONTROL Activity Impressions]** kolumn, klicka på [!UICONTROL Gear] ikon.
+1. Klicka på **[!UICONTROL Use non-default attribution model]**.
+1. Välj **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.
 
 +++
