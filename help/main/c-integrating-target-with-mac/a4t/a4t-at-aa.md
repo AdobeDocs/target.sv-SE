@@ -4,7 +4,7 @@ description: Lär dig hur du skapar [!UICONTROL Auto-Allocate] och [!UICONTROL A
 title: Har A4T stöd [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] Verksamheter?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
+source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Se till att du har [implementerat A4T för användning med A/B Test- och Experie
 
 Så här kommer du igång:
 
-1. När en [!UICONTROL A/B Test] aktivitet, på **[!UICONTROL Targeting]** väljer du något av följande alternativ som **[!UICONTROL Traffic Allocation Method]**:
+1. while [skapa [!UICONTROL A/B Test] aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), på **[!UICONTROL Targeting]** väljer du något av följande alternativ som **[!UICONTROL Traffic Allocation Method]**:
 
    * [!UICONTROL Auto-Allocate to best experience]
    * [!UICONTROL Auto-Target for personalized experiences]
