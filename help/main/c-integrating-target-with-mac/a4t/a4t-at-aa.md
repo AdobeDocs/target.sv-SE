@@ -4,9 +4,9 @@ description: Lär dig hur du skapar [!UICONTROL Auto-Allocate] och [!UICONTROL A
 title: Har A4T stöd [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] Verksamheter?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
+source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ The [!DNL Adobe Target]-till-[!DNL Adobe Analytics] integrering, kallas [Analyse
 Med A4T-integreringen kan du:
 
 * Använd [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) multiväpnad bandit-kapacitet som driver trafik till vinnande upplevelser.
-* Använd [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) skapa en unik algoritm för maskininlärning för att välja den bästa upplevelsen för varje besökare. [!UICONTROL Auto-Target] Väljer den bästa upplevelsen baserat på användarnas profiler, beteenden och sammanhang när de använder en [!DNL Adobe Analytics] målmått och [!DNL Adobe Analytics]&quot; omfattande rapporterings- och analysfunktioner.
+* Använd [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) skapa en unik algoritm för maskininlärning för att välja den bästa upplevelsen för varje besökare. [!UICONTROL Auto-Target] väljer den bästa upplevelsen baserat på varje användares profil, beteende och sammanhang, allt medan en [!DNL Adobe Analytics] målmätvärden och de omfattande rapporterings- och analysfunktionerna i [!DNL Adobe Analytics].
 
-Se till att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side`måste du också skicka `sessionId` värde till [!DNL Analytics]. Mer information finns i [Analyser för målrapportering (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} i *Adobe Target SDKs* guide.
+Se till att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side`måste du också skicka `sessionId` värde till [!DNL Analytics]. Mer information finns i [Analyser för målrapportering (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} i *Adobe Target Developer Guide*.
 
 Så här kommer du igång:
 
@@ -110,8 +110,8 @@ Vissa begränsningar och anteckningar gäller för båda [!UICONTROL Auto-Alloca
 
 * **Utbildningsfrekvens**: [!UICONTROL Auto-Allocate] fortsätter modellerna att träna varje timme som vanligt.
 * **Attributionsmodeller**: [!DNL Target] använder [!DNL Adobe Analytics] standardattribueringsmodell för[!UICONTROL  Auto-Allocate] aktiviteter som använder A4T.
-* **Förtroende**: Konfidensformeln som används av [!UICONTROL Auto-Allocate] aktiviteterna skiljer sig från formeln som visas som standard i [!DNL Adobe Analytics] [!UICONTROL A4T] -panelen. [Enligt beskrivning](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] använder mer försiktiga konfidensintervall än med regelbundna [!UICONTROL A/B Test] verksamhet. Dessa konservativa konfidensnivåer kompenserar för upprepade utvärderingar (peeks) vid data. Därför är standardrapporten i [!DNL Adobe Analytics] visar snävare konfidensintervall jämfört med dem som används av [!UICONTROL Auto-Allocate] algoritm. Ni kan dock avgöra vilken upplevelse som prioriteras av algoritmerna utifrån vilken upplevelse som har fler unika besökare som skickas till den.
-* **Vinnarstatus**: För närvarande är [&quot;Ingen vinnare ännu&quot; och &quot;vinnare&quot;-märken](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) är inte tillgängliga i [!UICONTROL A4T] panel i [!DNL Analysis Workspace]. Dessa emblem är inte heller tillgängliga om samma rapport visas i [!DNL Target]. En &quot;stjärna&quot;-bricka som visas i en [!DNL Target] rapport för [!UICONTROL Auto-Allocate] -aktivitet som använder A4T ska ignoreras. Den här ikonen visar vanliga konfidensberäkningar och inte de som används av [!UICONTROL Auto-Allocate].
+* **Förtroende**: Konfidensformeln som används av [!UICONTROL Auto-Allocate] aktiviteterna skiljer sig från formeln som visas som standard i [!DNL Adobe Analytics] [!UICONTROL A4T] -panelen. [Enligt beskrivning](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] använder mer försiktiga konfidensintervall än med regelbundna [!UICONTROL A/B Test] verksamhet. Dessa konservativa konfidensnivåer kompenserar för upprepade utvärderingar (peeks) vid data. Därför är standardrapporten i [!DNL Adobe Analytics] visar snävare konfidensintervall jämfört med de intervall som används av [!UICONTROL Auto-Allocate] algoritm. Ni kan dock avgöra vilken upplevelse som prioriteras av algoritmerna utifrån vilken upplevelse som har fler unika besökare som skickas till den.
+* **Vinnarstatus**: För närvarande är [&quot;Ingen vinnare ännu&quot; och &quot;vinnare&quot;-märken](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) är inte tillgängliga i [!UICONTROL A4T] panel i [!DNL Analysis Workspace]. Dessa emblem är inte heller tillgängliga om samma rapport visas i [!DNL Target]. En &quot;stjärna&quot;-bricka som visas i en [!DNL Target] rapport för [!UICONTROL Auto-Allocate] -aktivitet som använder A4T ska ignoreras. Den här badgen återspeglar vanliga konfidensberäkningar och inte de beräkningar som används av [!UICONTROL Auto-Allocate].
 
 ### Automatiskt mål {#at}
 
