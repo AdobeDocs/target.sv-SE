@@ -4,7 +4,7 @@ description: Lär dig hur du skapar [!UICONTROL Auto-Allocate] och [!UICONTROL A
 title: Har A4T stöd [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] Verksamheter?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 073c1ce6ad591204fb0f27ca2887bcb65b7c5809
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -17,8 +17,8 @@ The [!DNL Adobe Target]-till-[!DNL Adobe Analytics] integrering, kallas [Analyse
 
 Med A4T-integreringen kan du:
 
-* Använd [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)s multiväpnade bandit-kapacitet som driver trafik till vinnande upplevelser.
-* Använd [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)En unik maskininlärningsalgoritm som ger varje besökare den bästa upplevelsen. [!UICONTROL Auto-Target] Väljer den bästa upplevelsen baserat på användarnas profiler, beteenden och sammanhang när de använder en [!DNL Adobe Analytics] målmått och [!DNL Adobe Analytics]&quot; omfattande rapporterings- och analysfunktioner.
+* Använd [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) multiväpnad bandit-kapacitet som driver trafik till vinnande upplevelser.
+* Använd [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) skapa en unik algoritm för maskininlärning för att välja den bästa upplevelsen för varje besökare. [!UICONTROL Auto-Target] Väljer den bästa upplevelsen baserat på användarnas profiler, beteenden och sammanhang när de använder en [!DNL Adobe Analytics] målmått och [!DNL Adobe Analytics]&quot; omfattande rapporterings- och analysfunktioner.
 
 Se till att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side`måste du också skicka `sessionId` värde till [!DNL Analytics]. Mer information finns i [Analyser för målrapportering (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} i *Adobe Target SDKs* guide.
 
