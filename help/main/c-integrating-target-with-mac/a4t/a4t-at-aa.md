@@ -1,12 +1,12 @@
 ---
-keywords: a4t;A4T;Analyser som rapportkälla för Target
+keywords: a4t;A4T;Analytics as reporting source for Target;analytics for target
 description: Lär dig hur du skapar [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] verksamhet i [!DNL Target] som använder [!DNL Analytics] som rapportkälla (A4T).
 title: Har A4T stöd [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] Verksamheter?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 073c1ce6ad591204fb0f27ca2887bcb65b7c5809
+source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
