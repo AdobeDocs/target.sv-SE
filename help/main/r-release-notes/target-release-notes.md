@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 24 april 2023**
+**Senast uppdaterad: 15 maj 2023**
 
 >[!NOTE]
 >
@@ -23,15 +23,13 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
+## [!DNL Target] Standard/Premium 23.5.1 (23-25 maj 2023)
 
-Den här versionen innehåller säkerhetsuppdateringar och följande nya funktioner:
+Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
 | Funktion | Detaljer |
 |--- |--- |
-| AEM [!UICONTROL Content Fragments] för headless personalisering och experimenterande | Använd [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] verksamhet. Kombinera enkelheten och kraften i AEM med kraftfulla artificiella intelligens (AI) och maskininlärningsfunktioner (ML) i [!DNL Target] för att hjälpa till med personalisering och experimenterande utan motstycke.<P>Mer information finns i [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
-| Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>**ANMÄRKNING**: Den här funktionen kommer att vara tillgänglig för alla kunder den 9 maj 2023. |
-| [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | The *Adobe Target Developer Guide* har flyttats till *[!UICONTROL Adobe Experience League]*. Flytta till *[!UICONTROL Experience League]* hjälpmedel för lokalisering av text på ytterligare språk, gör sökningen på *Experience League* för att spänna över och erbjuda sökresultat från båda *[!UICONTROL Adobe Target Business Practitioner Guide]* och *[!UICONTROL Adobe Target Developer Guide]* och ger ytterligare fördelar.<P>Du kommer att omdirigeras från föregående plats till *[!UICONTROL Experience League]* automatiskt. Uppdatera bokmärkena efter behov. |
+| Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## Ytterligare versionsinformation
 
