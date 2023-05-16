@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8c9693d6c20f7441bd1972188bf082c33f6a73c5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2585'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 16 maj | [Entitetsattribut](/help/main/c-recommendations/c-products/entity-attributes.md) | Anger att&quot;blanksteg&quot; inte tillåts i `entity.id` värden. |
 | 4 maj | [Konfigurera autentisering för Adobe Target API:er](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | En kommentar som förklarar behovet av att migrera från en JWT-autentiseringsuppgift till en OAuth Server-till-Server-autentiseringsuppgift har lagts till. |
 | 3 maj | [Visa rapporter - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Följande frågor och svar har lagts till:<ul><li>Hur spårar jag aktivitetsintryck i [!DNL Analysis Workspace] när [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
-|  | [Profilattribut](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | Ytterligare information har lagts till på raden&quot;landing.URL&quot;. |
 | 26 april | [AEM [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] översikt](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | The [!UICONTROL AEM Content Fragments] funktionen är nu tillgänglig för alla [!DNL Target customers]. |
 |  | [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | The [!UICONTROL AEM Content Fragments] funktionen är nu tillgänglig för alla [!DNL Target customers]. |
 |  | [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | The *Adobe Target Developer Guide* har flyttats till *[!UICONTROL Adobe Experience League]*. Flytta till *[!UICONTROL Experience League]* hjälpmedel för lokalisering av text på ytterligare språk, gör sökningen på *Experience League* för att spänna över och erbjuda sökresultat från båda *[!UICONTROL Adobe Target Business Practitioner Guide]* och *[!UICONTROL Adobe Target Developer Guide]* och ger ytterligare fördelar.<P>Du kommer att omdirigeras från föregående plats till *[!UICONTROL Experience League]* automatiskt. Uppdatera bokmärkena efter behov. |

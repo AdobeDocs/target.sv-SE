@@ -4,9 +4,9 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2430'
 ht-degree: 0%
 
 ---
@@ -249,7 +249,7 @@ Följande objekt och metoder kan refereras av parametrar för skriptprofiler:
 | `page.query` | Frågesträngen för den aktuella sidan. Allt efter &#39;?&#39;. Till exempel: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param('<par_name>')` | Värdet på parametern som anges av `<par_name>`. Om din nuvarande URL är Google söksida och du har angett `page.param('hl')`, får du &quot;en&quot; för URL:en `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Samma uppsättning åtgärder som ovan gäller för hänvisaren och landningen (dvs. referrer.url är referentens URL-adress). |
-| `landing.url`, `landing.protocol`, `landing.query`och `landing.param` | Liknar sidan, men för landningssidan.<P>För att landningssidans URL ska fungera som förväntat anger du `context` > `browser` > `host`.<P>Du kan inte heller ha den refererande URL:en för det allra första anropet av sessionen. Vid efterföljande anrop måste du se till att `referringURL` är verkligen den tidigare URL som användaren besökte under den aktuella sessionen.<!-- KB-2092 --> |
+| `landing.url`, `landing.protocol`, `landing.query`och `landing.param` | Liknar sidan, men för landningssidan.<P>För att landningssidans URL ska fungera som förväntat anger du `context` > `browser` > `host`. |
 | `mbox.name` | Den aktiva mbox-namnet. |
 | `mbox.param('<par_name>')` | En mbox-parameter med det angivna namnet i den aktiva mbox. |
 | `profile.get('<par_name>')` | Den klientskapade användarprofilsparametern med namnet `<par_name>`. Om användaren till exempel anger en profilparameter med namnet &quot;kön&quot; kan värdet extraheras med &quot;profile.kön&quot;. Returnerar värdet för &quot;`profile.<par_name>`&quot; för den nuvarande besökaren, returnerar null om inget värde har angetts. Observera att `profile.get(<par_name>)` är kvalificerat som ett funktionsanrop. |

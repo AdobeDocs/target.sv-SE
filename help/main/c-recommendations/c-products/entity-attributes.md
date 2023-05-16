@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Endast ett värde.
 
 Den här obligatoriska parametern identifierar produkten. Detta alfanumeriska ID måste vara detsamma för alla [!DNL Adobe Experience Cloud] produkter som används, inklusive [!DNL Analytics], för de olika produkterna för att identifiera artikeln och dela data om den.
 
-The `entity.id` värden måste *not* innehåller snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck tillåts. Inkludera ogiltig interpunktion i en `entity.id` värde orsakar vissa [!DNL Recommendations] funktioner som ska misslyckas.
+The `entity.id` värden måste *not* innehåller mellanslag, snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck tillåts. Inkludera ogiltig interpunktion i en `entity.id` värde orsakar vissa [!DNL Recommendations] funktioner som ska misslyckas.
 
 Exempel: `'entity.id=67833'`
 
