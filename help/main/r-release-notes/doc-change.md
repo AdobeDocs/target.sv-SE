@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1bbfdf81353ca40c252e520ae5e7ac5cc9ac8eae
+source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
 workflow-type: tm+mt
 source-wordcount: '2636'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | --- | --- | --- |
 | 16 maj | [Entitetsattribut](/help/main/c-recommendations/c-products/entity-attributes.md) | Anger att&quot;blanksteg&quot; inte tillåts i `entity.id` värden. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Uppdaterat `viewsEnabled` description. |
-|  | [Implementering av Single Page-program](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Utför följande uppdateringar:<ul><li>Anteckning har lagts till efter steg 2 under Implementera Adobe Target-vyer.</li><li>Uppdaterat steg 2&quot;Kör målbegäran&quot; under Ordning för åtgärder för inledande sidinläsning.&quot;</li></ul> |
+|  | [Implementering av Single Page-program](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Utför följande uppdateringar:<ul><li>Anteckning har lagts till efter steg 2 under Implementera Adobe Target-vyer.</li><li>Uppdaterat steg 2&quot;Kör målbegäran&quot; under&quot;Åtgärdsordning för första sidinläsning&quot;.</li></ul> |
 | 4 maj | [Konfigurera autentisering för Adobe Target API:er](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | En kommentar som förklarar behovet av att migrera från en JWT-autentiseringsuppgift till en OAuth Server-till-Server-autentiseringsuppgift har lagts till. |
 | 3 maj | [Visa rapporter - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Följande frågor och svar har lagts till:<ul><li>Hur spårar jag aktivitetsintryck i [!DNL Analysis Workspace] när [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
 | 26 april | [AEM [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] översikt](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | The [!UICONTROL AEM Content Fragments] funktionen är nu tillgänglig för alla [!DNL Target customers]. |
