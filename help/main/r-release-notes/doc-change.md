@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 17 maj | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om [!UICONTROL Adobe Target Community] Q&amp;A Coffee Break on onsdagen den 24 maj 2023. |
 | 16 maj | [Entitetsattribut](/help/main/c-recommendations/c-products/entity-attributes.md) | Anger att&quot;blanksteg&quot; inte tillåts i `entity.id` värden. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Uppdaterat `viewsEnabled` description. |
 |  | [Implementering av Single Page-program](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Utför följande uppdateringar:<ul><li>Anteckning har lagts till efter steg 2 under Implementera Adobe Target-vyer.</li><li>Uppdaterat steg 2&quot;Kör målbegäran&quot; under&quot;Åtgärdsordning för första sidinläsning&quot;.</li></ul> |

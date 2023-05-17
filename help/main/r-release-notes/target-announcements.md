@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 
 Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
-## [!DNL Target] utsedd ledare i Gartner Magic Quadrant for Personalization Engines (2022)
+## [!UICONTROL Adobe Target Community] Frågor och svar - Kaffebrytning
 
-Gartner namngiven [!DNL Adobe Target] en ledare i sin senaste Magic Quadrant for Personalization Engines (PE) för femte året i rad. [!DNL Adobe] fick även toppresultat och betydande årsökningar över alla tre primära användningsfall: Digital marknadsföring, digital handel samt service och support. [!DNL Target] fick högsta poäng för testningskapaciteten hos alla utvärderade leverantörer.
+* **Onsdagen den 24 maj 2023**
+* **8:00-9:00.00 (PT, UTC-7)**
+* **[Registreringsinformation](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-Mer information finns i [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+Vi kommer att förenas av Ryan Roberts, Gentry Lin och Ryan Pizzuto i [!UICONTROL Adobe Target Consulting] team och Mihnea Docea på [!UICONTROL Adobe Technical Support Engineering] team, som loggas in på [Adobe Target Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} för att chatta direkt med dig på den här tråden om [!DNL Adobe Target] frågor relaterade till dina frågor relaterade till [!DNL Target] @ [!UICONTROL Adobe Summit] 2023.
+
+Du kan granska alla [on-demand inspelningar från Adobe Target Summit Session](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} i förväg för att få dina uppföljningsfrågor till den här chatten.
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
