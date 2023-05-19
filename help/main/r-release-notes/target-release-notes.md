@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 15 maj 2023**
+**Senast uppdaterad: 19 maj 2023**
 
 >[!NOTE]
 >
@@ -25,11 +25,35 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 maj 2023)
 
+Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
+
+23 maj: Europa, Mellanöstern och Afrika (EMEA) Asien-Stillahavsområdet (APAC), 25 maj: Amerika
+
 Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
 
 | Funktion | Detaljer |
 |--- |--- |
 | Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+
+* Ett problem som hindrade vissa kunder från att skapa målgrupper med besökarprofiler med operatorerna &quot;större än&quot; eller &quot;mindre än&quot; har åtgärdats. (TGT-45271)
+
+## [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Korrigerade ett problem som gjorde att en tom sida visades när en auktoriseringstoken för profil-API genererades. (TGT-45387)
+* Ett problem som gjorde att en bild inte kunde visas i [!UICONTROL Create Design] om bildnamnet innehåller GB 18030-tecken. (TGT-44614)
+* Korrigerade ett problem som orsakade rapporter för [!UICONTROL Auto Personalization] aktiviteter som ska frysas under analysen. (TGT-44820)
+
+## [!DNL Target] Standard/Premium 23.5.3 (datum ska fastställas)
+
+Den här versionen innehåller följande förbättringar:
+
+| Funktion | Detaljer |
+|--- |--- |
+| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] verksamhet | [!DNL Adobe Target] [!UICONTROL QA mode] är nu tillgängligt för [!UICONTROL Automated Personalization] aktiviteter, ersätta [!UICONTROL Preview links] funktionalitet.<P>Mer information finns i [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+
+* Förbättrade prestanda när du använder [!UICONTROL Disallow Duplicates] option while [hantera undantag](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] verksamhet.
 
 ## Ytterligare versionsinformation
 
