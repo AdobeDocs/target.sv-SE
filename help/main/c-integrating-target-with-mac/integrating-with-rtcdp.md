@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Target]/[!DNL Real-Time Customer Data Platf
 title: Hur integrerar jag? [!DNL Target] med [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Mer information finns i följande avsnitt:
 * [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i *Översikt över destinationer* guide
 * [Mappningsattribut](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} i *Översikt över destinationer* guide.
 
-## Videor och blogginlägg
+## Videor och blogginlägg {#videos-blogs}
 
 I följande videofilmer och blogginlägg finns mer information om förbättrad personalisering med Target och RTCDP:
 
@@ -124,6 +124,30 @@ Läs om hur ni personaliserar nästa träff med [!DNL Real-Time Customer Data Pl
 Mer information finns i [Nästa steg i personaliseringen med Real-Time CDP och Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} i *Platform Tutorials* guide.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Video: Konfigurera [!DNL Adobe Target] mål in [!DNL Real-Time Customer Data Platform]
+
+Lär dig hur du konfigurerar [!DNL Adobe Target] mål in [!DNL Real-Time Customer Data Platform] för att börja skicka segment och profilattribut från [!DNL Real-Time CDP] till [!DNL Target].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+
+### Video: Aktivera segment och profilattribut
+
+Lär dig hur du aktiverar segment och profilattribut från [!DNL Adobe Real-Time Customer Data Platform] till [!DNL Adobe Target] för att visa personaliserat innehåll i realtid på webbplatser, i mobilappar och andra digitala resurser.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+
+### Video: Använd [!DNL Real-Time CDP] segment i [!DNL Target]
+
+Lär dig använda [!DNL Real-Time Customer Data Platform] segment i [!DNL Adobe Target] för att leverera personaliserade upplevelser på er webbplats och i era mobilappar.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+
+### Video: Använd [!DNL Real-Time CDP] profilattribut i [!DNL Adobe Target]
+
+Lär dig använda [!DNL Adobe Real-Time Customer Data Platform] profilattribut i [!DNL Adobe Target] för att leverera personaliserade upplevelser på er webbplats och i era mobilappar.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### [!DNL Adobe Target] blogg och video: Förbättrad personalisering på samma sida
 
