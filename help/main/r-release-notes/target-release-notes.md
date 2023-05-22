@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
+source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Den här versionen innehåller följande nya funktioner, förbättringar och kor
 | Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Ett problem som hindrade vissa kunder från att skapa målgrupper med besökarprofiler med operatorerna &quot;större än&quot; eller &quot;mindre än&quot; har åtgärdats. (TGT-45271)
+* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
+* Målgränssnittet uppdaterades på olika platser för en kommande gränssnittsuppdatering (ändringarna ligger bakom en funktionsflagga tills uppdateringarna släpps).
 
 ## [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
 
