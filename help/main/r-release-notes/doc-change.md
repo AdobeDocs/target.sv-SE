@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
+source-git-commit: e4029b203ad4d7c1ea12ba04f72628b272703973
 workflow-type: tm+mt
-source-wordcount: '2685'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 22 maj | [Integrera med [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Följande nya videoklipp har lagts till:<ul><li>Konfigurera [!DNL Adobe Target] mål in [!DNL Real-Time Customer Data Platform]</li><li>Aktivera segment och profilattribut</li><li>Använd [!DNL Real-Time CDP] segment i [!DNL Target]</li><li>Använd [!DNL Real-Time CDP] profilattribut i [!DNL Adobe Target]</li></ul> |
+|  | [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Uppdaterad viktig anteckning. |
 | 19 maj | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Uppdaterad förhandsversionsinformation för kommande versioner. |
 | 17 maj | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om [!UICONTROL Adobe Target Community] Q&amp;A Coffee Break on onsdagen den 24 maj 2023. |
 | 16 maj | [Entitetsattribut](/help/main/c-recommendations/c-products/entity-attributes.md) | Anger att&quot;blanksteg&quot; inte tillåts i `entity.id` värden. |
