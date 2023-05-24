@@ -6,10 +6,10 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 12%
+source-wordcount: '396'
+ht-degree: 13%
 
 ---
 
@@ -19,14 +19,17 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
+## [!DNL Target] Standard/Premium 23.5.1 (23-25 maj 2023)
 
-Den här versionen innehåller säkerhetsuppdateringar och följande nya funktioner:
+Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-| Funktion | Detaljer |
-|--- |--- |
-| AEM [!UICONTROL Content Fragments] för headless personalisering och experimenterande | Använd [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] verksamhet. Kombinera enkelheten och kraften i AEM med kraftfulla artificiella intelligens (AI) och maskininlärningsfunktioner (ML) i [!DNL Target] för att hjälpa till med personalisering och experimenterande utan motstycke.<P>Mer information finns i [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
-| [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | The *Adobe Target Developer Guide* har flyttats till *[!UICONTROL Adobe Experience League]*. Flytta till *[!UICONTROL Experience League]* hjälpmedel för lokalisering av text på ytterligare språk, gör sökningen på *Experience League* för att spänna över och erbjuda sökresultat från båda *[!UICONTROL Adobe Target Business Practitioner Guide]* och *[!UICONTROL Adobe Target Developer Guide]* och ger ytterligare fördelar.<P>Du kommer att omdirigeras från föregående plats till *[!UICONTROL Experience League]* automatiskt. Uppdatera bokmärkena efter behov. |
+23 maj: Europa, Mellanöstern och Afrika (EMEA) Asien-Stillahavsområdet (APAC), 25 maj: Amerika
+
+Den här versionen innehåller följande nya förbättringar och korrigeringar:
+
+* Ett problem som hindrade vissa kunder från att skapa målgrupper med besökarprofiler med operatorerna &quot;större än&quot; eller &quot;mindre än&quot; har åtgärdats. (TGT-45271)
+* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
+* Målgränssnittet uppdaterades på olika platser för en kommande gränssnittsuppdatering (ändringarna ligger bakom en funktionsflagga tills uppdateringarna släpps).
 
 ## Ytterligare versionsinformation
 
