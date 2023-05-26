@@ -55,16 +55,16 @@ I följande tabell visas riktigheten i IP-baserad geografisk information från [
 
 | Land | Läge | Ort | Län |
 |--- |--- |--- |--- |
-| USA | 99,99 % | 96 % | 94 % |
-| Kanada | 99,99 % | 96 % | 94 % |
-| Europa | 99,99 % |  |  |
-| Storbritannien | 99,99 % |  | 87 % |
-| Tyskland | 99,99 % | 95 % | 93 % |
-| Skandinavien | 99 % | Låg 90-tal | Mid 80s |
-| Spanien | 99,99 % | Cirka 90 % | Från medelhög till hög 90-tal |
-| Asien | 99 % | Mid 90s | Låg 90-tal |
-| Japan | 99,99 % | Mid 90s | Låg 90-tal |
-| Australien | 99,99 % | 94 % | 91 % |
+| USA | 99.99% | 96% | 94% |
+| Kanada | 99.99% | 96% | 94% |
+| Europa | 99.99% |  |  |
+| Storbritannien | 99.99% |  | 87% |
+| Tyskland | 99.99% | 95% | 93% |
+| Skandinavien | 99% | Låg 90-tal | Mid 80s |
+| Spanien | 99.99% | Cirka 90 % | Från medelhög till hög 90-tal |
+| Asien | 99% | Mid 90s | Låg 90-tal |
+| Japan | 99.99% | Mid 90s | Låg 90-tal |
+| Australien | 99.99% | 94% | 91% |
 
 ## Använd geoanpassning i profilskript {#section_92C93138542C4A94997E3F4BE3F5DA28}
 

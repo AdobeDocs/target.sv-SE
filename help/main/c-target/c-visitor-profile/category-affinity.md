@@ -58,9 +58,9 @@ Algoritmen för kategoritillhörighet fungerar så här:
 
 Du kan till exempel visa `mens-clothing` kategori, sedan `accessories`sedan `jewelry`sedan `accessories` igen i en session resulterar i följande tillhörigheter:
 
-* `accessories`: 9 (+5 - 1 + 5)
+* `accessories`: 9 (+5 – 1 + 5)
 
-* `mens-clothing`: 8 (+10 - 1 - 1)
+* `mens-clothing`: 8 (+10 – 1 – 1)
 
 * `jewelry`: 5 (+5)
 
@@ -74,15 +74,15 @@ När sessionen avslutas och användaren senare återgår till webbplatsen halver
 
 Anta att användaren sedan tittar i ordning, `jewelry`, `accessories`, `beauty`, `shoes`och `womens-clothing`:
 
-* `accessories`: 6.5 (4.5 + 5 - 1 - 1 - 1)
+* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
 
 * `womens-clothing`: 5 (+5)
 
-* `jewelry`: 4.5 (2.5 + 5 - 1 - 1 - 1)
+* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
 
-* `shoes`: 4 (+5 - 1)
+* `shoes`: 4 (+5 – 1)
 
-* `beauty`: 3 (+5 - 1 - 1)
+* `beauty`: 3 (+5 – 1 - 1)
 
 * `mens-clothing` släpps när du klickar sist på `womens-clothing` som kategorin med lägst poäng med poängen 1 (4 - 1 - 1 - 1)
 

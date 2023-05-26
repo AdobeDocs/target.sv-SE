@@ -6,7 +6,7 @@ feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2137'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Om du vill beräkna de beräknade måtten hämtar du målets [Slutför konfidens
 
 Du kan utföra offlineberäkningar för A4T, men det kräver ett steg med dataexport i [!DNL Analytics].
 
-För A4T använder vi en [Welch&#39;s t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}-beräkning för kontinuerliga variabler (i stället för binära värden). I Analytics spåras alltid en besökare, och alla åtgärder som vidtas räknas. Om besökaren köper flera gånger eller besöker ett framgångsmått flera gånger räknas de ytterligare träffarna. Detta gör mätvärdet till en kontinuerlig variabel. För att utföra Welchs t-test-beräkning krävs ’summan av kvadrater’ för att beräkna variansen, som används i t-statistikens nämnare. [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md) I förklaras detaljerna för de matematiska formler som används. Summan av fyrkanter kan hämtas från [!DNL Analytics]. Om du vill få summan av kvadratdata måste du utföra en export på besökarnivå för det mätresultat som du optimerar för, under en provtidsperiod.
+För A4T använder vi en [Welch&#39;s t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} för kontinuerliga variabler (i stället för binära värden). I Analytics spåras alltid en besökare, och alla åtgärder som vidtas räknas. Om besökaren köper flera gånger eller besöker ett framgångsmått flera gånger räknas de ytterligare träffarna. Detta gör mätvärdet till en kontinuerlig variabel. För att utföra Welchs t-test-beräkning krävs ’summan av kvadrater’ för att beräkna variansen, som används i t-statistikens nämnare. [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md) I förklaras detaljerna för de matematiska formler som används. Summan av fyrkanter kan hämtas från [!DNL Analytics]. Om du vill få summan av kvadratdata måste du utföra en export på besökarnivå för det mätresultat som du optimerar för, under en provtidsperiod.
 
 Om du till exempel optimerar till sidvisningar per besökare, kan du exportera ett exempel på det totala antalet sidvisningar per besökare för en viss tidsperiod, kanske några dagar (ett par tusen datapunkter är allt du behöver). Därefter fyrkantiga varje värde och summerar summan (operationsordningen är viktig här). Värdet&quot;summan av kvadrater&quot; används sedan i Complete Confidence Calculator. Använd avsnittet &quot;intäkt&quot; i kalkylbladet för dessa värden.
 

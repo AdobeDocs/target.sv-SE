@@ -3,9 +3,10 @@ keywords: upplevelse;json;aem;adobe experience manager;export till adobe target;
 description: Lär dig använda [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] in [!DNL Adobe Target] verksamhet.
 title: Hur jag använder [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]?
 feature: Integrations
-source-git-commit: 47e1c7290011c21fd0710280d35c862a81b4f558
+exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
+source-git-commit: 7c81362a82ca6692bb8c183b8e8fc50c6329e2e8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---

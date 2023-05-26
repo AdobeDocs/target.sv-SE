@@ -49,7 +49,7 @@ Beslutsträd kan vara ett kraftfullt statistiskt verktyg. De har dock vissa nack
 
 ## Hur använder Target personaliseringsalgoritmer Slumpmässig skog? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
-**Hur modeller byggs**
+**Så här bygger du modeller**
 
 I följande diagram sammanfattas hur modeller byggs för Automatisk målgrupps- eller Automated Personalization-aktiviteter:
 

@@ -4,7 +4,8 @@ description: Lär dig tolka [!UICONTROL Auto-Target] aktivitetsrapporter i [!DNL
 title: Hur tolkar jag en [!UICONTROL Auto-Target] Rapportera?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
+source-git-commit: 7c81362a82ca6692bb8c183b8e8fc50c6329e2e8
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%

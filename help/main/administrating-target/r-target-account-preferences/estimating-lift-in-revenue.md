@@ -30,7 +30,7 @@ Denna uppskattning beräknar den lyft som den vinnande upplevelsen och det total
 
 Den uppskattade ökningen av intäkterna beräknas utifrån de intäkter per besök (RPV) som erhållits från det primära målmåttet.
 
-Den uppskattade lyften beräknas med hjälp av följande formel: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; total=&quot;&quot; number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>
+Den uppskattade lyften beräknas med hjälp av följande formel: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
 
 Det resulterande talet avrundas till en decimal, max, om det komprimerade formuläret bara har en siffra före decimaltalet. Till exempel: 1,6 miljoner dollar, 60 000 dollar, 900 dollar, 8,5 000 dollar
 

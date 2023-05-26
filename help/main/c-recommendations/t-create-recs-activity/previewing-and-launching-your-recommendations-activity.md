@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;erbjudande;förhandsvisa;starta;status;villkor;algoritm
-description: 'Lär dig förhandsgranska Adobe [!DNL Target] Recommendations-aktivitet för att säkerställa att resultaten är tillgängliga innan du startar aktiviteten. '
+description: Lär dig förhandsgranska Adobe [!DNL Target] Recommendations-aktivitet för att säkerställa att resultaten är tillgängliga innan du startar aktiviteten.
 title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530

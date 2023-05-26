@@ -26,19 +26,19 @@ Du kan skapa målgrupper i [!DNL Adobe Target] baserat på nätverksinformation 
 
       | Populärt namn | ISP-namn | Domännamn | Exempel på IP-adress |
       |---|---|---|---|
-      | Cablevision | Cablevision Systems Corp. | *.optonline.net | 68.196.130.239 |
-      | CenturyLink | Qwest Communications Company, LLC | *.centurylink.net | 64.40.65.0 |
-      | Stadskommunikation | Stadskommunikation | *.charter.com | 71.85.225.124 |
-      | Comcast | Comcast Cable Communications, Inc. | *.comcast.net | 76.27.24.28 |
-      | Cox | Cox Communications Inc. | *cox.net | 68.224.174.22 |
-      | Speakeasy | MegaPath Corporation | *.högtaleasy.net | 66.93.240.0 |
-      | Time Warner | Time Warner Cable Internet LLC | *.res.rr.com | 72.229.28.185 |
-      | Verizon FiOS | MCI Communications Services, Inc. d/b/a Verizon Business | *.fios.verizon.net | 173.68.112.34 |
-      | Vivint | Smartrove Inc. | *.vivinttrådlös.net | 170.72.26.105 |
-      | AT&amp;T Wireless | AT | *.mycingular.net |  |
+      | Cablevision | Cablevision Systems Corp. | &#42;.optonline.net | 68.196.130.239 |
+      | CenturyLink | Qwest Communications Company, LLC | &#42;.centurylink.net | 64.40.65.0 |
+      | Stadskommunikation | Stadskommunikation | &#42;.charter.com | 71.85.225.124 |
+      | Comcast | Comcast Cable Communications, Inc. | &#42;.comcast.net | 76.27.24.28 |
+      | Cox | Cox Communications Inc. | &#42;cox.net | 68.224.174.22 |
+      | Speakeasy | MegaPath Corporation | &#42;.högtaleasy.net | 66.93.240.0 |
+      | Time Warner | Time Warner Cable Internet LLC | &#42;.res.rr.com | 72.229.28.185 |
+      | Verizon FiOS | MCI Communications Services, Inc. d/b/a Verizon Business | &#42;.fios.verizon.net | 173.68.112.34 |
+      | Vivint | Smartrove Inc. | &#42;.vivintWireless.net | 170.72.26.105 |
+      | AT&amp;T Wireless | AT | &#42;.mycingular.net |  |
       | Sprint Mobile | Sprint Personal Communications Systems | IP-adress |  |
       | T-Mobile | T-Mobile USA, Inc. | IP-adress | 208.54.86.0 |
-      | Verizon Wireless | Cellco Parternship DBA Verizon Wireless | *.myvzw.com | 70.195.74.199 |
+      | Verizon Wireless | Cellco Parternship DBA Verizon Wireless | &#42;.myvzw.com | 70.195.74.199 |
 
       >[!NOTE]
       >

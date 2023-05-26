@@ -117,7 +117,7 @@ Använd kraften i [formulärbaserad verksamhet](/help/main/c-experiences/form-ex
 
 **Jag har bildat två aktiviteter. Hur vet jag vilken besökare som kommer att träffa?**
 
-**Kan jag ange prioriteringsordning för några aktiviteter?**
+**Kan jag ange prioritetsordning för några aktiviteter?**
 
 Använd inställningen Prioritet som finns i steg 3 i det guidade arbetsflödet i tre delar (sidan Mål och inställningar) för att [Definiera verksamheternas prioritet.](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 

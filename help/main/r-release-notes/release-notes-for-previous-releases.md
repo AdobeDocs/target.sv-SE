@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '35952'
+source-wordcount: '35832'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,6 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
-
-### [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
-
-Den här versionen innehåller säkerhetsuppdateringar och följande nya funktioner:
-
-| Funktion | Detaljer |
-|--- |--- |
-| AEM [!UICONTROL Content Fragments] för headless personalisering och experimenterande | Använd [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] verksamhet. Kombinera enkelheten och kraften i AEM med kraftfulla artificiella intelligens (AI) och maskininlärningsfunktioner (ML) i [!DNL Target] för att hjälpa till med personalisering och experimenterande utan motstycke.<P>Mer information finns i [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
-| [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | The *Adobe Target Developer Guide* har flyttats till *[!UICONTROL Adobe Experience League]*. Flytta till *[!UICONTROL Experience League]* hjälpmedel för lokalisering av text på ytterligare språk, gör sökningen på *Experience League* för att spänna över och erbjuda sökresultat från båda *[!UICONTROL Adobe Target Business Practitioner Guide]* och *[!UICONTROL Adobe Target Developer Guide]* och ger ytterligare fördelar.<P>Du kommer att omdirigeras från föregående plats till *[!UICONTROL Experience League]* automatiskt. Uppdatera bokmärkena efter behov. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (28-30 mars 2023)
 

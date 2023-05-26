@@ -85,11 +85,11 @@ Typiska tolkningar av konfidensnivån sammanfattas i tabellen nedan:
 
 | Konfidensnivå | Tolkning |
 |--- |--- |
-| &lt; 90 % | Inga bevis för att det finns någon skillnad mellan konverteringsgraden |
-| 90-95 % | Svag bevisning för att det finns en skillnad mellan konverteringsgraden |
-| 95-99 % | Måttliga bevis för att det finns en skillnad mellan konverteringsgraden |
-| 99-99,9 % | Stabila bevis för att det finns en skillnad mellan konverteringsgraden |
-| +99.9 % | Mycket starka bevis för att det finns en skillnad mellan konverteringsgraden |
+| &lt; 90% | Inga bevis för att det finns någon skillnad mellan konverteringsgraden |
+| 90-95% | Svag bevisning för att det finns en skillnad mellan konverteringsgraden |
+| 95-99% | Måttliga bevis för att det finns en skillnad mellan konverteringsgraden |
+| 99-99.9% | Stabila bevis för att det finns en skillnad mellan konverteringsgraden |
+| +99.9% | Mycket starka bevis för att det finns en skillnad mellan konverteringsgraden |
 
 Det rekommenderas att alltid använda en konfidensnivå på 95% eller högre.
 

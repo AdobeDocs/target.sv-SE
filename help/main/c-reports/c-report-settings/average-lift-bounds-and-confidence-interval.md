@@ -80,8 +80,8 @@ Låt oss titta på en exempelaktivitet med två upplevelser och följande result
 
 | Upplevelse | Besökare | Konverteringar | Konverteringsgrad |
 |--- |--- |--- |--- |
-| Upplevelse A (kontroll) | 219, 328 | 2 466 | 1,12 % |
-| Upplevelse B | 218, 362 | 3 040 | 1,39 % |
+| Upplevelse A (kontroll) | 219, 328 | 2,466 | 1.12% |
+| Upplevelse B | 218, 362 | 3,040 | 1.39% |
 
 Baserat på våra formler kan vi beräkna de inmatningar vi behöver för lyft-gränserna.
 

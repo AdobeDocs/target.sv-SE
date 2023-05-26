@@ -206,7 +206,7 @@ Det gör du genom att skapa en kolumn i designen som använder `$key` attribut s
 </div>
 ```
 
-Resultatet är en design som följande, där nyckelobjektet visas i en kolumn.
+Resultatet är en design som följande, där en kolumn visar nyckelobjektet.
 
 ![rec_key-bild](assets/rec_key.png)
 

@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,29 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 24 maj 2023**
+**Senast uppdaterad: 22 maj 2023**
 
 >[!NOTE]
 >
 >Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
+
+## [!DNL Target] Standard/Premium 23.5.1 (23-25 maj 2023)
+
+Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
+
+23 maj: Europa, Mellanöstern och Afrika (EMEA) Asien-Stillahavsområdet (APAC), 25 maj: Amerika
+
+Den här versionen innehåller följande nya funktioner, förbättringar och korrigeringar:
+
+| Funktion | Detaljer |
+|--- |--- |
+| Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+
+* Ett problem som hindrade vissa kunder från att skapa målgrupper med besökarprofiler med operatorerna &quot;större än&quot; eller &quot;mindre än&quot; har åtgärdats. (TGT-45271)
+* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
+* Målgränssnittet uppdaterades på olika platser för en kommande gränssnittsuppdatering (ändringarna ligger bakom en funktionsflagga tills uppdateringarna släpps).
 
 ## [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
 
@@ -42,7 +58,6 @@ Den här versionen innehåller följande förbättringar:
 | Funktion | Detaljer |
 |--- |--- |
 | [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] verksamhet | [!DNL Adobe Target] [!UICONTROL QA mode] är nu tillgängligt för [!UICONTROL Automated Personalization] aktiviteter, ersätta [!UICONTROL Preview links] funktionalitet.<P>Mer information finns i [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
-| Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Prestandaförbättringar som gör att dubblettfunktioner inte tillåts (inklusive minskning av inläsningstiden) under [hantera undantag](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] verksamhet.
 

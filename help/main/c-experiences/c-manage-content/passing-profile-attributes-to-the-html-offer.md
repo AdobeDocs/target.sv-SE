@@ -36,7 +36,7 @@ Följande värden kan vara &quot;token replace&quot;:
 
 | Värde | Exempel |
 |--- |--- |
-| Profilparametrar i mbox | `${profile.age}` |
+| Profilparametrar i InDesign | `${profile.age}` |
 | Skriptprofilparametrar | `${user.lifetimeSpend}` |
 | Mbox-parametrar | `${mbox.favoriteColor}` |
 | Kampanjinformation | `${campaign.name}`, `${campaign.recipe.name}`, `${campaign.id}`, `${campaign.recipe.id}`och `${campaign.recipe.trafficType}` |

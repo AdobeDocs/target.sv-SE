@@ -1,6 +1,6 @@
 ---
 keywords: Målstandard;Recommendations;Target Premium;Automated Personalization;auto target;auto target;permissions;what is adobe target;
-description: Lär dig grunderna i Adobe [!DNL Target] Standard och Adobe [!DNL Target] Premium. [!DNL Target] Premium innehåller avancerade funktioner som inte finns i standardprodukten.
+description: Lär dig grunderna i Adobe  [!DNL Target]  Standard och Adobe  [!DNL Target]  Premium. [!DNL Target] Premium innehåller avancerade funktioner som inte finns i standardprodukten.
 landing-page-description: Personanpassa kundernas upplevelse för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 short-description: Personanpassa kundernas upplevelse för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 title: Vad är Target?
@@ -9,7 +9,7 @@ exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 

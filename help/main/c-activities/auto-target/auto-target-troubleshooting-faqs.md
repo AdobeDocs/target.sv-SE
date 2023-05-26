@@ -139,7 +139,7 @@ Denna vägledning gäller även för [!UICONTROL Auto-Allocate] och [!UICONTROL 
 +++Svar
 [!DNL Target] bygger en modell per upplevelse, vilket innebär att en upplevelse tas bort [!DNL Target] skapar en modell med mindre storlek och påverkar inte modeller för de andra upplevelserna.
 
-Anta att du har en [!UICONTROL Auto-Target] med åtta upplevelser och du tycker inte om en upplevelse. Ni kan ta bort den upplevelsen och den påverkar inte modellerna för de sju återstående upplevelserna.
+Anta till exempel att du har en [!UICONTROL Auto-Target] med åtta upplevelser och du tycker inte om en upplevelse. Ni kan ta bort den upplevelsen och den påverkar inte modellerna för de sju återstående upplevelserna.
 
 +++
 
