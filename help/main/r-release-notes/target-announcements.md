@@ -4,7 +4,7 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Vi kommer att gå samman av [!DNL Adobe Target] experter: Bill Ozinga, John Mosb
 
 * **Onsdagen den 21 juni 2023**
 * **8:00-9:00.00 (PDT, UTC-7)**
-* **[Mer information]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+* **[Mer information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
 Vi kommer att få sällskap av Adobe Target experter, Ramon Cespedes och Kevin Jemison. I det här AMA-evenemanget (Fråga mig vad som helst) loggas experterna in och är redo att svara på frågor som rör de ämnen som behandlas i det senaste 5/24-webbinariet den [Vägen till tillväxt med personalisering](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
