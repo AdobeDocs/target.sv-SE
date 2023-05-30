@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,25 @@ ht-degree: 0%
 
 Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
-## [!UICONTROL Adobe Target Community] Frågor och svar - Kaffebrytning
+## [!UICONTROL Adobe Target Community] Frågor och svar - Kaffebrytningar
 
-* **Onsdagen den 24 maj 2023**
-* **8:00-9:00.00 (PT, UTC-7)**
-* **[Registreringsinformation](https://adobe.ly/3BgfeZZ){target=_blank}**
+Information om följande kommande kaffebrytningar:
 
-Vi kommer att förenas av Ryan Roberts, Gentry Lin och Ryan Pizzuto i [!UICONTROL Adobe Target Consulting] team och Mihnea Docea på [!UICONTROL Adobe Technical Support Engineering] team, som loggas in på [Adobe Target Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} för att chatta direkt med dig på den här tråden om [!DNL Adobe Target] frågor relaterade till dina frågor relaterade till [!DNL Target] @ [!UICONTROL Adobe Summit] 2023.
+### [!DNL Adobe Target Recommendations] Kaffebrytning
 
-Du kan granska alla [on-demand inspelningar från Adobe Target Summit Session](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} i förväg för att få dina uppföljningsfrågor till den här chatten.
+* **Onsdagen den 7 juni 2023**
+* **8:00-9:00.00 (PDT, UTC-7)**
+* **[Mer information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+
+Vi kommer att gå samman av [!DNL Adobe Target] experter: Bill Ozinga, John Mosbaugh, Justin Patrick och Eric Thibeault. I det här AMA-evenemanget (Fråga mig vad som helst) loggas experterna in och är redo att svara på frågor som rör [!DNL Target Recommendations] -funktion.
+
+### Uppföljning av webbseminariet om beredskap för personaliseringsprogram
+
+* **Onsdagen den 21 juni 2023**
+* **8:00-9:00.00 (PDT, UTC-7)**
+* **[Mer information]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+
+Vi kommer att få sällskap av Adobe Target experter, Ramon Cespedes och Kevin Jemison. I det här AMA-evenemanget (Fråga mig vad som helst) loggas experterna in och är redo att svara på frågor som rör de ämnen som behandlas i det senaste 5/24-webbinariet den [Vägen till tillväxt med personalisering](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
