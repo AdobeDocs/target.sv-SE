@@ -6,9 +6,9 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '642'
 ht-degree: 8%
 
 ---
@@ -22,6 +22,10 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 ## [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
+
+| Funktion | Detaljer |
+|--- |--- |
+| Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Korrigerade ett problem som gjorde att en tom sida visades när en auktoriseringstoken för profil-API genererades. (TGT-45387 &amp; TGT-45423)
 * Ett problem som gjorde att en bild inte kunde visas i [!UICONTROL Create Design] om bildnamnet innehåller GB 18030-tecken. (TGT-44614)

@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '2772'
+source-wordcount: '2788'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 30 maj | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.5.2-utgåvan. |
+|  | [Integrera med [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Uppdaterad artikel med information om delning [!UICONTROL Real-Time CDP Profile Attributes] med [!DNL Target] för användning i HTML och JSON. |
 |  | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Information om följande kommande Coffee Break-händelser har lagts till:<ul><li>[!DNL Adobe Target Recommendations] Kaffebrytning (7 juni)</li><li>Uppföljning av webbseminariet om beredskap för personaliseringsprogram (21 juni)</li></ul> |
 | 23 maj | [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Uppdaterad viktig anteckning. |
 |  | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Uppdaterad förhandsversionsinformation för kommande versioner. |
