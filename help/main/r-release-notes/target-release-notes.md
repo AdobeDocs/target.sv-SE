@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -22,18 +22,6 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
-
-## [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
-
-Den här versionen innehåller följande förbättringar och korrigeringar:
-
-* Korrigerade ett problem som gjorde att en tom sida visades när en auktoriseringstoken för profil-API genererades. (TGT-45387)
-* Ett problem som gjorde att en bild inte kunde visas i [!UICONTROL Create Design] om bildnamnet innehåller GB 18030-tecken. (TGT-44614)
-* Korrigerade ett problem som orsakade rapporter för [!UICONTROL Auto Personalization] aktiviteter som ska frysas under analysen. (TGT-44820)
-* Korrigerade ett problem som gjorde att inga aktiviteter visades i målgränssnittet för standardarbetsytan för vissa kunder. (TGT-45286)
-* Beteendet för flaggan&quot;Tillåt inte dubbletter&quot; har uppdaterats. Uteslutna upprepade erbjudandeflaggor uppdateras för att tillåta upprepade erbjudanden om de är standarderbjudandet (för API:er v3, v4) och tillåter dubblettalternativ om alternativen refererar till standarderbjudandet och inte har några definierade mallar. (TNT-46617)
-* Korrigerade ett problem där en frågeparameter lades till i en URL som hindrade sidan från att läsas in i Visual Experience Composer (VEC). (TGT-44873)
-* Korrigerade ett problem där vissa tecken felaktigt utelämnades i text/HTML i upplevelser. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (datum ska fastställas)
 

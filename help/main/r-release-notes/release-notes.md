@@ -6,10 +6,10 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 13%
+source-wordcount: '613'
+ht-degree: 8%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 13%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard] och [!DNL Target Premium] release. Versionsinformation om [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar ingår också, i tillämpliga fall.
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
+
+## [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Korrigerade ett problem som gjorde att en tom sida visades när en auktoriseringstoken för profil-API genererades. (TGT-45387 &amp; TGT-45423)
+* Ett problem som gjorde att en bild inte kunde visas i [!UICONTROL Create Design] om bildnamnet innehåller GB 18030-tecken. (TGT-44614)
+* Korrigerade ett problem där vissa GB-symboltecken på 18030 felaktigt utelämnades i Text/HTML i upplevelser. (TGT-44600)
+* Korrigerade ett problem som orsakade rapporter för [!UICONTROL Auto Personalization] aktiviteter som ska frysas under analysen. (TGT-44820)
+* Ett problem som gjorde att det inte gick att söka efter en aktivitet på [!UICONTROL Activity] sida om aktivitetsnamnet innehåller en hakparentes ( [ eller ] ). (TGT-44777)
+* Korrigerade ett problem som förhindrade en aktivitet från att synkroniseras om aktivitetens mål innehåller specialtecken. (TGT-44982)
+* Korrigerat ett problem som gjorde att inga aktiviteter visades i [!DNL Target] Gränssnitt för standardarbetsytan för vissa kunder. (TGT-45286)
+* Beteendet för flaggan&quot;Tillåt inte dubbletter&quot; har uppdaterats. Uteslutna upprepade erbjudandeflaggor uppdateras för att tillåta upprepade erbjudanden om de är standarderbjudandet (för API:er v3, v4) och tillåter dubblettalternativ om alternativen refererar till standarderbjudandet och inte har några definierade mallar. (TNT-46617)
+* Ett problem där en frågeparameter lades till i en URL som förhindrade att sidan lästes in i [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
+* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 maj 2023)
 
