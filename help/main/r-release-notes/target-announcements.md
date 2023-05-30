@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,14 @@ Ingen schemalagd just nu.
 ## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
 
 Åtkomstinspelningar av tidigare händelser (om sådana finns):
+
+### Vägen till tillväxt med personalisering
+
+Öka er organisations förmåga att leverera personalisering, som presenteras av Adobe Customer Success Manager, Ramon Cespedes.
+
+Viktiga analysrapporter tyder på att företag som är ledande inom personalisering genererar 40 procent mer intäkter än sina motsvarigheter. För att möta efterfrågan på nya, relevanta och extremt personaliserade upplevelser med varje klick behöver marknadsförarna rätt ramverk och strategi på plats. På det här webbinariet kan du gå med i Adobe experter för att lära dig hur ni kan använda datadrivna ramverk för att skapa organisationens personaliseringsprogram och öka framgången.
+
+* [Inspelningslänk](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Finjusterad AI-styrd personalisering: Nya funktioner i [!DNL Adobe Target] (11 oktober 2022)
 
