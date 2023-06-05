@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '2829'
+source-wordcount: '2855'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 5 juni | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Uppdaterad information om följande händelser:<ul><li>Registreringslänken för [!DNL Adobe Target Recommendations] Kaffebrytning (onsdag den 7 juni 2023)</li><li>Lagt till information om det senaste webbinariet&quot;Mobilupplevelseoptimering och personalisering för autentiserade miljöer&quot; och lade till en länk till inspelningen.</li></ul> |
+|  | [Tillämpa en rapportmålgrupp på ett framgångsmått](/help/main/c-target/apply-reporting-audience-success-metric.md) | Avsnittet&quot;Överväganden&quot; har uppdaterats och avsnittet&quot;Exempel&quot; har lagts till. |
+|  | [Mål och målgrupper Frågor och svar](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Uppdaterat avsnittet &quot;URL-målgruppsanpassning&quot;. |
 | 30 maj | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.5.2-utgåvan. |
 |  | [Integrera med [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Uppdaterad artikel med information om delning [!UICONTROL Real-Time CDP Profile Attributes] med [!DNL Target] för användning i HTML och JSON. |
 |  | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Information om följande kommande Coffee Break-händelser har lagts till:<ul><li>[!DNL Adobe Target Recommendations] Kaffebrytning (7 juni)</li><li>Uppföljning av webbseminariet om beredskap för personaliseringsprogram (21 juni)</li></ul> |

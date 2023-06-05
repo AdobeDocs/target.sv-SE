@@ -4,9 +4,9 @@ description: Visa vanliga frågor och svar om målgruppsanpassning och målgrupp
 title: Var kan jag hitta frågor och svar om mål och målgrupper?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Förutom målgruppsanpassning på URL:en kan du även ange specifika värden som
 
 Målgrupps-URL och URL-mål som lagts till via [!UICONTROL Template Rules] utvärdera som URL-mål (se URL-mål nedan).
 
-### URL-mål
+### URL-mål {#url-targeting}
 
 Om du vill använda URL-mål när du skapar en målgrupp klickar du på [!UICONTROL Add Rule], klicka [!UICONTROL Site Pages]väljer du ett alternativ i den första listrutan ([!UICONTROL Current Page], [!UICONTROL Previous Page], eller [!UICONTROL Landing Page]), välja [!UICONTROL URL] Ange en utvärderare i den andra listrutan och ange sedan önskad URL.
 
@@ -47,11 +47,10 @@ Om du vill använda URL-mål när du skapar en målgrupp klickar du på [!UICONT
 
 URL med målinriktning omvandlar URL:en till en uppsättning regler som ska utvärderas:
 
-* URL = `example.com/path1?query=something`
-* URL-domän = `example.com`
-* Sökväg = bana1/bana2/bana3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* Domän = `example.com`
+* Sökväg = `path1/path2/path3`
+* Fråga = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## När du skapar komplexa URL-strängar gör det [!DNL Target] Vill du utvärdera hela URL:en?
 
