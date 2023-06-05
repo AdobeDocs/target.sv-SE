@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
+source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '2148'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Information om följande kommande kaffebrytningar:
 
 * **Onsdagen den 7 juni 2023**
 * **8:00-9:00.00 (PDT, UTC-7)**
-* **[Mer information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+* **[Mer information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
 
 Vi kommer att gå samman av [!DNL Adobe Target] experter: Bill Ozinga, John Mosbaugh, Justin Patrick och Eric Thibeault. I det här AMA-evenemanget (Fråga mig vad som helst) loggas experterna in och är redo att svara på frågor som rör [!DNL Target Recommendations] -funktion.
 
@@ -44,6 +44,21 @@ Ingen schemalagd just nu.
 ## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
 
 Åtkomstinspelningar av tidigare händelser (om sådana finns):
+
+### Optimering och personalisering av mobila upplevelser för autentiserade miljöer (26 april 2023)
+
+Varumärken måste kunna leverera personaliserade och relevanta upplevelser som bygger på specifika kundbehov och beteenden. Med frågor om en framtid utan cookies i marknadsföringsteknologi vill reglerade branscher ta till sig ett mer robust ramverk för kundengagemang och optimera varje kundinteraktion för rätt innehåll och erbjudande.
+
+Hur kan varumärken inom finanssektorn, försäkringsbranschen, detaljhandeln, rese- och turismbranschen samt telekombranschen använda bästa praxis för optimering och personalisering i autentiserade miljöer? Om ni förstår hur viktiga mobilappar är för lojala kunders engagemang och lojalitet, hur kan varumärken möjliggöra digital självbetjäning eller öka användningen av nya funktioner med personaliserade upplevelser?
+
+Läs om hur [!DNL Adobe Target] och [!DNL Real-Time CDP] kan öka engagemanget, intäkterna och kundlojaliteten inom reglerade branscher när vi diskuterar:
+
+* Hur team levererar personaliserade upplevelser till både anonyma och autentiserade besökare
+* Förstå konsumenternas behörigheter och integritetsstandarder med personalisering
+* Personaliserat innehåll och erbjudanden till autentiserade besökare via anonyma identiteter
+* Unika användningsexempel för autentiserade, säkra webbplatser på webben och i mobilen
+
+[Inspelningslänk](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### Vägen till tillväxt med personalisering
 
