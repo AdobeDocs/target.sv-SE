@@ -4,9 +4,9 @@ description: Läs om ytterligare resurser som kan hjälpa dig att lära dig mer 
 title: Var kan jag hitta resurser och kontaktinformation för Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Kundtjänst är redo att hjälpa dig att lösa eventuella problem som kan uppst�
 
 Om du stöter på problem eller har frågor när du använder Target har du ett antal alternativ
 
-Om du har frågor kan du ställa Adobe Target experter i [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} or ask us on [Twitter](https://twitter.com/adobeglobal){target=_blank}.
+Om du har frågor kan du ställa Adobe Target experter i [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
 
 Om du har tekniska problem eller vill logga ett fel kan du kontakta kundtjänst. Ring 1-800-497-0335 om du vill kontakta kundtjänst. Avgiftsfria nummer utanför USA finns på [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) sida. När du blir ombedd att välja ett alternativ för produkten trycker du på 3 för att kontakta Target-teamet.
 
@@ -101,7 +101,6 @@ Information som kan hjälpa dig att kontakta Adobe och förstå juridiska frågo
 Adobe Experience Cloud kundtjänstteam är här för att hjälpa dig och tillhandahåller ett antal mekanismer som de kan använda:
 
 * [På hjälpsidorna för Experience Cloud finns råd, tips och vanliga frågor](https://helpx.adobe.com/marketing-cloud.html)
-* Fråga oss på [Twitter](https://twitter.com/adobeglobal){target=_blank}
 * [Öppna en biljett för att få hjälp från supporten](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [Kontakta kundtjänstteamet direkt](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [Kontrollera Experience Cloud Solutions tillgänglighet och status](https://status.adobe.com/)

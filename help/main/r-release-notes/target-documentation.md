@@ -4,9 +4,9 @@ description: Åtkomst [!DNL Adobe Target] dokumentation och resurser, inklusive 
 title: Var hittar jag dokumentation och resurser för [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Följande handböcker och resurser är tillgängliga för [!DNL Target]:
 | [Ange Recommendations API:er](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank} | Information om [!UICONTROL Recommendations] API:er som gör att du programmässigt kan interagera med [!DNL Target] rekommendationsservrar. Dessa API:er kan integreras med en rad programstackar för att utföra funktioner som du vanligtvis gör via [!DNL Target] Gränssnitt. |
 | [API:er för leverans på serversidan](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} | Information om de resurser som utgör Adobe Target Delivery API. |
 | [SDK på serversidan](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Beskriver hur man distribuerar [!DNL Target] serversidan som använder SDK:er. |
-| [Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Information om implementering [!DNL Target] i mobilappar. |
+| [Adobe Experience Platform Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html) | Information om implementering [!DNL Target] i mobilappar. |
 
 Förutom ovanstående resurser finns på [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), där du kan:
 
