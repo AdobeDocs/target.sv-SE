@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '35952'
+source-wordcount: '35951'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Den här versionen innehåller följande nya funktioner, förbättringar och kor
 
 Den nya [!DNL Adobe Target] Med API:t för modeller, som även kallas API för Blockeringslista, kan användare visa och hantera listan med funktioner som används i maskininlärningsmodeller för [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) verksamhet.
 
-Mer information finns i [API-översikt för modeller](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} i *Adobe Target Developer Guide*.
+Mer information finns i [API-översikt för modeller](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} i *Adobe Target Developer Guide*.
 
 ### [!DNL Target] Standard/Premium 22.10.3 (version 25-27 oktober 2022)
 
@@ -238,12 +238,12 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Tillagd [Klienttips för användaragent](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank} support.
+* Tillagd [Klienttips för användaragent](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} support.
 * Ett problem som orsakade timeout vid återgivning har korrigerats [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) aktiviteter. (TNT-44611)
 
 ### at.js version 2.9.0 (27 maj 2022)
 
-* Tillagd [Klienttips för användaragent](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank} support.
+* Tillagd [Klienttips för användaragent](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} support.
 * Korrigerade ett fel där flera mbox-förfrågningar på samma sida har olika ID:n för intrycket.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (stegvis frisättning; 11-13 maj 2022)
@@ -1224,7 +1224,7 @@ Detta [!DNL Target] releasen innehåller följande förbättringar, korrigeringa
    <td colname="col2"> <p>Detta är en underhållsrelease som åtgärdar följande problem: </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Korrigerade ett problem som på vissa kundsajter ledde till en oändlig asynkron slinga. </p> </li> 
-     </ul> </p> <p> <p>Viktigt: Dessutom innehåller version 1.6.2 av at.js även alla förbättringar och korrigeringar som ingår i version 1.6.1 och 1.6.0 av at.js. Dessa versioner är inte längre tillgängliga för hämtning. Vi rekommenderar att du uppgraderar till version 1.6.2 om du använder 1.6.1 eller 1.6.0. </p> </p> <p>Mer information finns i <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> at.js Versionsinformation </a>. </p> </td> 
+     </ul> </p> <p> <p>Viktigt: Dessutom innehåller version 1.6.2 av at.js även alla förbättringar och korrigeringar som ingår i version 1.6.1 och 1.6.0 av at.js. Dessa versioner är inte längre tillgängliga för hämtning. Vi rekommenderar att du uppgraderar till version 1.6.2 om du använder 1.6.1 eller 1.6.0. </p> </p> <p>Mer information finns i <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external"> at.js Versionsinformation </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1945,7 +1945,7 @@ Den här versionen innehåller följande funktioner och förbättringar (nummer 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Batch- och förhämtningsleverans för mobila enheter </p> </td> 
-   <td colname="col2"> <p><b>Uppdaterat: 12 oktober 2017</b> </p> <p> Innehåll för flera kartor kan förhämtas i ett enda anrop och cachas lokalt på enheten utan att man behöver oroa sig för hur, när och om slutanvändaren ska se innehållet. </p> <p>Den här funktionen kräver att du hämtar och installerar lämplig version av version 4.14 (eller senare) av Adobe Mobile SDK. </p> <p>Mer information finns i <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/prefetch-offer-content.html" format="dita" scope="local"> Förhämta innehåll </a>. </p> </td> 
+   <td colname="col2"> <p><b>Uppdaterat: 12 oktober 2017</b> </p> <p> Innehåll för flera kartor kan förhämtas i ett enda anrop och cachas lokalt på enheten utan att man behöver oroa sig för hur, när och om slutanvändaren ska se innehållet. </p> <p>Den här funktionen kräver att du hämtar och installerar lämplig version av version 4.14 (eller senare) av Adobe Mobile SDK. </p> <p>Mer information finns i <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Förhämta innehåll </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verksamhet </p> </td> 
@@ -2425,7 +2425,7 @@ Detta [!DNL Target] release fokuserar på användbarhets- och prestandaförbätt
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> Nu kan mbox-namn innehålla specialtecken, inklusive et-tecken ( &amp; ). (TNT-26144) </p> <p>Mer information finns i <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js Configurations </a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Tillagd <span class="codeph"> secureOnly </span> inställning som anger om <span class="codeph"> at.js </span> ska endast använda HTTPS eller tillåtas växla mellan HTTP och HTTPS baserat på sidprotokollet. Det här är en avancerad inställning som har standardvärdet False och som kan åsidosättas via <span class="codeph"> targetGlobalSettings </span>. (TNT-26183) </p> <p>Mer information finns i <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> targetGlobalSettings() </a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>The <span class="wintitle"> Stöd för äldre webbläsare </span> finns i <span class="codeph"> at.js </span> version 0.9.3 och tidigare. Det här alternativet har tagits bort i <span class="codeph"> at.js </span> version 0.9.4. </p> <p>Mer information finns i <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js Configurations </a>. </p> </li> 
-     </ul> </p> <p>Detaljerad information om ändringarna i respektive version av <span class="codeph"> at.js </span>, se <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> at.js Versionsinformation </a>. </p> </td> 
+     </ul> </p> <p>Detaljerad information om ändringarna i respektive version av <span class="codeph"> at.js </span>, se <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external"> at.js Versionsinformation </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

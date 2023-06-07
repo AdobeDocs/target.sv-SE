@@ -4,9 +4,9 @@ description: Du har skapat din första aktivitet i Adobe Target. Vad kommer här
 title: Var kan jag hitta ytterligare resurser för att använda Target mer effektivt?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Vi har sammanställt en ordnad lista med värdefull information som hjälper dig
 ## Ytterligare resurser
 
 * **Adobe Target hemsida**: Hemsidan för [!DNL Adobe Target], läs mer om våra funktioner och se våra senaste framgångsberättelser här. Se [Adobe Target](https://www.adobe.com/marketing/target.html).
-* **Bloggen**: Håll dig à jour med de senaste nyheterna, tipsen och framgångarna genom att följa [Målblogg](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
+* **Bloggen**: Håll dig à jour med de senaste nyheterna, tipsen och framgångarna genom att följa [Målblogg](https://blog.adobe.com/en/topics/target).
 * **Experience League**: Upptäck guider, event och utbildning som du behöver för att komma igång snabbt med upplevelseverksamheten och få kontakt med Target-communityn och hitta de svar du söker. Se [Adobe Experience League hemsida](https://experienceleague.adobe.com/#home).
 * **Adobe Target-certifiering**: Uppnå Adobe-certifierad expertstatus med nya Adobe Target-prov. Boka in en tentamen här eller kurser. Se [Utbildning och certifiering](/help/main/c-intro/training-and-certification.md).
 * **Versionsinformation för Adobe Target**: Information om funktioner, förbättringar och korrigeringar för varje [!DNL Target Standard] och [!DNL Target Premium] release. Versionsinformation om Target-API:er, SDK:er, JavaScript-biblioteket (at.js) och andra plattformsändringar inkluderas också, i tillämpliga fall. Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md).
