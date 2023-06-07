@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
+source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,6 @@ Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL T
 ## [!UICONTROL Adobe Target Community] Frågor och svar - Kaffebrytningar
 
 Information om följande kommande kaffebrytningar:
-
-### [!DNL Adobe Target Recommendations] Kaffebrytning
-
-* **Onsdagen den 7 juni 2023**
-* **8:00-9:00.00 (PDT, UTC-7)**
-* **[Mer information](https://shorturl.at/irzD5){target=_blank}**
-
-Vi kommer att gå samman av [!DNL Adobe Target] experter: Bill Ozinga, John Mosbaugh, Justin Patrick och Eric Thibeault. I det här AMA-evenemanget (Fråga mig vad som helst) loggas experterna in och är redo att svara på frågor som rör [!DNL Target Recommendations] -funktion.
 
 ### Uppföljning av webbseminariet om beredskap för personaliseringsprogram
 
