@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e7157e8c8b8189e0e8c7f12a363b91d300ca259
+source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 12 juni | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Uppdaterad artikel i *Handbok för gränssnittskomponenter i Experience Cloud Central* förklara cookies som används av [!DNL Target]. |
+|  | [Initiera Java SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Lagt till information om parametern &quot;environment&quot;. |
+|  | [Initiera Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | Lagt till information om parametern &quot;environment&quot;. |
 | 5 juni | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Uppdaterad information om följande händelser:<ul><li>Registreringslänken för [!DNL Adobe Target Recommendations] Kaffebrytning (onsdag den 7 juni 2023)</li><li>Lagt till information om det senaste webbinariet&quot;Mobilupplevelseoptimering och personalisering för autentiserade miljöer&quot; och lade till en länk till inspelningen.</li></ul> |
 |  | [Tillämpa en rapportmålgrupp på ett framgångsmått](/help/main/c-target/apply-reporting-audience-success-metric.md) | Avsnittet&quot;Överväganden&quot; har uppdaterats och avsnittet&quot;Exempel&quot; har lagts till. |
 |  | [Mål och målgrupper Frågor och svar](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Uppdaterat avsnittet &quot;URL-målgruppsanpassning&quot;. |
