@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Target]/[!DNL Real-Time Customer Data Platf
 title: Hur integrerar jag? [!DNL Target] med [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
+source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -112,6 +112,8 @@ Mer information finns i följande avsnitt:
 * [Konfigurera personaliseringsmål för personalisering på samma sida och nästa sida](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} i *Översikt över destinationer* guide.
 * [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i *Översikt över destinationer* guide
 * [Mappningsattribut](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} i *Översikt över destinationer* guide.
+* [Aktivera målgrupper för att kanalisera personaliseringsmål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} i *Översikt över destinationer* guide.
+* [Personalisering på samma sida och nästa sida via [!DNL Adobe Target] och anpassade destinationer för personalisering](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} under Vanliga frågor och svar i dialogrutan *Översikt över destinationer* guide.
 
 ## Videor och blogginlägg {#videos-blogs}
 
