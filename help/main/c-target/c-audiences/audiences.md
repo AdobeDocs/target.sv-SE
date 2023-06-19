@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Det finns två typer av målgrupper i [!DNL Target]:
 * **Målgrupper:** Används för att leverera olika innehåll till olika typer av besökare.
 * **Rapportera målgrupper:** Används för att avgöra hur olika typer av besökare svarar på samma innehåll så att du kan analysera testresultaten.
 
-   I [!DNL Target]kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du använder [Adobe Analytics som rapporteringskälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper inom [!DNL Analytics].
+  I [!DNL Target]kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du använder [Adobe Analytics som rapporteringskälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper inom [!DNL Analytics].
 
 ## Använd [!UICONTROL Audiences] list {#use-list}
 
@@ -43,13 +43,13 @@ The [!UICONTROL Audiences] -listan innehåller de målgrupper som du kan använd
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller [kombinerat med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >Användarna måste ha [!UICONTROL Approver] eller ovanför status i [!DNL Target] för att konfigurera [!DNL Target] [!UICONTROL Destinations] kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
-   >
-   >Mer information finns i [Använda målgrupper från Adobe Experience Platform](#aep).
+  >[!NOTE]
+  >
+  >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller [kombinerat med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >Användarna måste ha [!UICONTROL Approver] eller ovanför status i [!DNL Target] för att konfigurera [!DNL Target] [!UICONTROL Destinations] kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >
+  >Mer information finns i [Använda målgrupper från Adobe Experience Platform](#aep).
 
 Fördefinierade målgrupper, till exempel[!UICONTROL New Visitors]&quot; och &quot;[!UICONTROL Returning Visitors],&quot; kan inte byta namn.
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 Använda målgrupper skapade i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering.
 
 Mer information finns i [Använd målgrupper från [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## Använd CDP-profilattribut i realtid i HTML och JSON erbjuder
+
+CDP-profilattribut i realtid kan delas med Target för användning i HTML-erbjudanden och JSON-erbjudanden. Mer information finns i Integrera med [!DNL Real-Time Customer Data Platform].
+
+Mer information finns i [Hantera innehåll](/help/main/c-experiences/c-manage-content/manage-content.md) och [Skapa JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Utbildningsvideo: Använda målgrupper ![Självstudiemärke](/help/main/assets/tutorial.png)
 
