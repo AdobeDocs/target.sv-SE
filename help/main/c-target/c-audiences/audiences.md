@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 Använda målgrupper skapade i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering.
 
 Mer information finns i [Använd målgrupper från [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## Använd CDP-profilattribut i realtid i HTML och JSON erbjuder
-
-CDP-profilattribut i realtid kan delas med Target för användning i HTML-erbjudanden och JSON-erbjudanden. Mer information finns i Integrera med [!DNL Real-Time Customer Data Platform].
-
-Mer information finns i [Hantera innehåll](/help/main/c-experiences/c-manage-content/manage-content.md) och [Skapa JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Utbildningsvideo: Använda målgrupper ![Självstudiemärke](/help/main/assets/tutorial.png)
 
