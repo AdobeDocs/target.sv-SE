@@ -4,9 +4,9 @@ description: Lär dig hur du skapar JSON-erbjudanden i Adobe [!DNL Target] för 
 title: Hur skapar jag JSON-erbjudanden?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ adobe.target.getOffer({
 
 ## JSON erbjuder exempel med CDP-profilattribut i realtid
 
-CDP-profilattribut i realtid kan delas med [!DNL Target] för HTML och JSON. (Observera att den här funktionen för närvarande är i betaversionen.)
+CDP-profilattribut i realtid kan delas med [!DNL Target] för HTML och JSON.
 
 Mer information finns i [Dela CDP-profilattribut i realtid med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
