@@ -6,7 +6,7 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 8%
@@ -34,7 +34,7 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 * Ett problem där en frågeparameter lades till i en URL som förhindrade att sidan lästes in i [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
 * Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
 
-## Real-Time CDP-profilattribut som delas med [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] (13 juni 2023)
+## Real-Time CDP-profilattribut som delas med [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] (13 juni 2023)
 
 Den här versionen innehåller följande förbättringar:
 
