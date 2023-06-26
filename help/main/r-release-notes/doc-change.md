@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 286cc7cab27f952208e5dacf6cc0b01129d199b9
+source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 26 juni | [Mål för mobilappar](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html){target=_blank} | Länk till implementeringen har lagts till [!DNL Adobe Experience Cloud] i självstudiekursen om mobilappar. |
+| 26 juni | [Mål för mobilappar](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank} | Länk till implementeringen har lagts till [!DNL Adobe Experience Cloud] i självstudiekursen om mobilappar. |
 | 12 juni | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Uppdaterad artikel i *Handbok för gränssnittskomponenter i Experience Cloud Central* förklara cookies som används av [!DNL Target]. |
 |  | [Initiera Java SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Lagt till information om parametern &quot;environment&quot;. |
 |  | [Initiera Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | Lagt till information om parametern &quot;environment&quot;. |
