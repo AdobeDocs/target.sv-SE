@@ -6,10 +6,10 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 8%
+source-wordcount: '375'
+ht-degree: 14%
 
 ---
 
@@ -19,40 +19,21 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
+## [!DNL Target] Standard/Premium 23.6.1 (27-29 juni)
 
-Den här versionen innehåller följande förbättringar och korrigeringar:
+Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-* Korrigerade ett problem som gjorde att en tom sida visades när en auktoriseringstoken för profil-API genererades. (TGT-45387 &amp; TGT-45423)
-* Ett problem som gjorde att en bild inte kunde visas i [!UICONTROL Create Design] om bildnamnet innehåller GB 18030-tecken. (TGT-44614)
-* Korrigerade ett problem där vissa GB-symboltecken på 18030 felaktigt utelämnades i Text/HTML i upplevelser. (TGT-44600)
-* Korrigerade ett problem som orsakade rapporter för [!UICONTROL Auto Personalization] aktiviteter som ska frysas under analysen. (TGT-44820)
-* Ett problem som gjorde att det inte gick att söka efter en aktivitet på [!UICONTROL Activity] sida om aktivitetsnamnet innehåller en hakparentes ( [eller] ). (TGT-44777)
-* Korrigerade ett problem som förhindrade en aktivitet från att synkroniseras om aktivitetens mål innehåller specialtecken. (TGT-44982)
-* Korrigerat ett problem som gjorde att inga aktiviteter visades i [!DNL Target] Gränssnitt för standardarbetsytan för vissa kunder. (TGT-45286)
-* Beteendet för flaggan&quot;Tillåt inte dubbletter&quot; har uppdaterats. Uteslutna upprepade erbjudandeflaggor uppdateras för att tillåta upprepade erbjudanden om de är standarderbjudandet (för API:er v3, v4) och tillåter dubblettalternativ om alternativen refererar till standarderbjudandet och inte har några definierade mallar. (TNT-46617)
-* Ett problem där en frågeparameter lades till i en URL som förhindrade att sidan lästes in i [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
-* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
-
-## Real-Time CDP-profilattribut som delas med [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] (13 juni 2023)
+* **27 juni**: Europa, Mellanöstern och Afrika (EMEA)
+* **28 juni**: Asien-Stillahavsområdet (APAC)
+* **29 juni**: Amerika
 
 Den här versionen innehåller följande förbättringar:
 
 | Funktion | Detaljer |
 |--- |--- |
-| Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] verksamhet | [!DNL Adobe Target] [!UICONTROL QA mode] är nu tillgängligt för [!UICONTROL Automated Personalization] aktiviteter, ersätta [!UICONTROL Preview links] funktionalitet.<P>Mer information finns i [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
-## [!DNL Target] Standard/Premium 23.5.1 (23-25 maj 2023)
-
-Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
-
-23 maj: Europa, Mellanöstern och Afrika (EMEA) Asien-Stillahavsområdet (APAC), 25 maj: Amerika
-
-Den här versionen innehåller följande nya förbättringar och korrigeringar:
-
-* Ett problem som hindrade vissa kunder från att skapa målgrupper med besökarprofiler med operatorerna &quot;större än&quot; eller &quot;mindre än&quot; har åtgärdats. (TGT-45271)
-* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
-* Målgränssnittet uppdaterades på olika platser för en kommande gränssnittsuppdatering (ändringarna ligger bakom en funktionsflagga tills uppdateringarna släpps).
+* Prestandaförbättringar som gör att dubblettfunktioner inte tillåts (inklusive minskning av inläsningstiden) under [hantera undantag](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] verksamhet.
 
 ## Ytterligare versionsinformation
 

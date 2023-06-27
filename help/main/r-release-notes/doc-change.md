@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 0%
 # Dokumentationsändringar
 
 Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdokumentation.
+
+## [!DNL Target] Standard/Premium 23.6.1 (27-29 juni 2023)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+| 27 juni | [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Aktivitets-QA är nu tillgängligt för alla målaktivitetstyper, inklusive [!UICONTROL Automated Personalization] (AP) aktiviteter. Information om förhandsgranskningslänkar har tagits bort. |
+|  | Förhandsgranska URL:er | Eftersom alla aktivitetstyper nu stöder Aktivitets-QA har det här avsnittet tagits bort och omdirigerats till [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) ämne. |
+|  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.6.1-utgåvan. |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 maj 2023)
 

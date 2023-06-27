@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 37610e658a25027ae614818b0be425dfc9dbffc6
 workflow-type: tm+mt
-source-wordcount: '35951'
+source-wordcount: '36273'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,37 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
+
+### [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Korrigerade ett problem som gjorde att en tom sida visades när en auktoriseringstoken för profil-API genererades. (TGT-45387 &amp; TGT-45423)
+* Ett problem som gjorde att en bild inte kunde visas i [!UICONTROL Create Design] om bildnamnet innehåller GB 18030-tecken. (TGT-44614)
+* Korrigerade ett problem där vissa GB-symboltecken på 18030 felaktigt utelämnades i Text/HTML i upplevelser. (TGT-44600)
+* Korrigerade ett problem som orsakade rapporter för [!UICONTROL Auto Personalization] aktiviteter som ska frysas under analysen. (TGT-44820)
+* Ett problem som gjorde att det inte gick att söka efter en aktivitet på [!UICONTROL Activity] sida om aktivitetsnamnet innehåller en hakparentes ( [eller] ). (TGT-44777)
+* Korrigerade ett problem som förhindrade en aktivitet från att synkroniseras om aktivitetens mål innehåller specialtecken. (TGT-44982)
+* Korrigerat ett problem som gjorde att inga aktiviteter visades i [!DNL Target] Gränssnitt för standardarbetsytan för vissa kunder. (TGT-45286)
+* Beteendet för flaggan&quot;Tillåt inte dubbletter&quot; har uppdaterats. Uteslutna upprepade erbjudandeflaggor uppdateras för att tillåta upprepade erbjudanden om de är standarderbjudandet (för API:er v3, v4) och tillåter dubblettalternativ om alternativen refererar till standarderbjudandet och inte har några definierade mallar. (TNT-46617)
+* Ett problem där en frågeparameter lades till i en URL som förhindrade att sidan lästes in i [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
+* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
+
+### Real-Time CDP-profilattribut som delas med [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] (13 juni 2023)
+
+Den här versionen innehåller följande förbättringar:
+
+| Funktion | Detaljer |
+|--- |--- |
+| Real-Time CDP-profilattribut som delas med [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan delas med [!DNL Target] för användning i HTML och JSON.<P>Mer information finns i [Dela Real-Time CDP-profilattribut med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+
+### [!DNL Target] Standard/Premium 23.5.1 (23-25 maj 2023)
+
+Den här versionen innehåller följande nya förbättringar och korrigeringar:
+
+* Ett problem som hindrade vissa kunder från att skapa målgrupper med besökarprofiler med operatorerna &quot;större än&quot; eller &quot;mindre än&quot; har åtgärdats. (TGT-45271)
+* Utför olika lokaliseringsåtgärder i hela [!DNL Target] Gränssnitt.
+* Målgränssnittet uppdaterades på olika platser för en kommande gränssnittsuppdatering (ändringarna ligger bakom en funktionsflagga tills uppdateringarna släpps).
 
 ### [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
 
@@ -150,7 +181,7 @@ Den här versionen innehåller följande korrigeringar:
 * Fler verktygstips i [!DNL Target] Användargränssnitt som hjälper kunderna att navigera effektivare i målgruppsbyggaren och för att lära sig hur de använder funktioner som kanske inte är kända. (TGT-44139)
 * Funktioner som förhindrar kunderna från att redigera en aktivitet som inaktiverats av [!DNL Target] eftersom det använder mätvärden som inte stöds. Ett meddelande i användargränssnittet uppmanar kunderna att duplicera aktiviteten och sedan uppdatera konverteringsmåttet.
 
-   Med den här versionen `averagetimespentonsite`, `bouncerate`och `entries` mätvärden i [!DNL Target] aktiviteter kommer att bli inaktuella för nya aktiviteter. Befintliga aktiviteter kan fortsätta att använda dessa mått fram till maj 2023.
+  Med den här versionen `averagetimespentonsite`, `bouncerate`och `entries` mätvärden i [!DNL Target] aktiviteter kommer att bli inaktuella för nya aktiviteter. Befintliga aktiviteter kan fortsätta att använda dessa mått fram till maj 2023.
 
 * Ett verktygstips har lagts till i [!DNL Target] Användargränssnitt som hjälper kunderna att välja ett optimeringsvillkor när de skapar eller redigerar ett [!UICONTROL Auto-Target] aktivitet som använder A4T.
 
@@ -386,27 +417,27 @@ Följande förbättringar har lagts till när du använder [!DNL Target] [!UICON
 
 * Lagt till varningsikoner, poseringar och meddelanden på olika platser i [!DNL Target] Gränssnitt som anger att målgruppen togs bort vid källan och inte längre är tillgänglig för användning i [!DNL Target] verksamhet.
 
-   Följande bilder visar några av de platser där ikonerna, poseringarna och meddelandena visas:
+  Följande bilder visar några av de platser där ikonerna, poseringarna och meddelandena visas:
 
    * [!UICONTROL Activity] listsida
 
-      ![Målgruppen togs bort vid källmeddelandet på sidan med aktivitetslistan](assets/deleted-at-source-audiences-list.png)
+     ![Målgruppen togs bort vid källmeddelandet på sidan med aktivitetslistan](assets/deleted-at-source-audiences-list.png)
 
    * Aktivitet [!UICONTROL Overview] sidor:
 
-      ![Målgruppen togs bort vid källmeddelandet på översiktssidan](assets/deleted-at-source-overview.png)
+     ![Målgruppen togs bort vid källmeddelandet på översiktssidan](assets/deleted-at-source-overview.png)
 
    * [!UICONTROL Experiences] steg i arbetsflödet för att skapa aktiviteter:
 
-      ![Målgruppen togs bort i källmeddelandet den [!UICONTROL Experiences] page](assets/deleted-at-source-experiences.png)
+     ![Målgruppen togs bort i källmeddelandet den [!UICONTROL Experiences] page](assets/deleted-at-source-experiences.png)
 
    * [!UICONTROL Targeting] steg i arbetsflödet för att skapa aktiviteter:
 
-      ![Målgruppen togs bort i källmeddelandet den [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
+     ![Målgruppen togs bort i källmeddelandet den [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
 
    * [!UICONTROL Goals & Settings] steg i arbetsflödet för att skapa aktiviteter:
 
-      ![Målgruppen togs bort vid källmeddelandet på [!UICONTROL Goals & Settings] page](assets/deleted-at-source-goals-settings.png)
+     ![Målgruppen togs bort vid källmeddelandet på [!UICONTROL Goals & Settings] page](assets/deleted-at-source-goals-settings.png)
 
    * Målgruppsförbättringar ([!UICONTROL Replace Audience] på [!UICONTROL Targeting] steg i arbetsflödet för att skapa aktivitet):
 
@@ -469,7 +500,7 @@ Den här versionen innehåller följande förbättringar:
    * dataPartnerId: ID för en datapartner.
    * dataPartnerUserId: Det användar-ID som anges av en datapartner.
 
-   Tidigare ingick leverans-API `dcsLocationHint` och `blob` endast. (TNT-41644)
+  Tidigare ingick leverans-API `dcsLocationHint` och `blob` endast. (TNT-41644)
 
 ### [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
 
@@ -551,11 +582,11 @@ Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
 * Ökade den tillåtna erbjudandestorleken (TGT-38304):
 
-   | Typ | Föregående gräns | Ny gräns |
-   | --- | --- | --- |
-   | HTML | 256 kB | 1024 kB |
-   | Visuella erbjudanden från målgränssnittet | 64 kB | 1 024 kB för varje upplevelse |
-   | Via API | 512 kB | 1024 kB |
+  | Typ | Föregående gräns | Ny gräns |
+  | --- | --- | --- |
+  | HTML | 256 kB | 1024 kB |
+  | Visuella erbjudanden från målgränssnittet | 64 kB | 1 024 kB för varje upplevelse |
+  | Via API | 512 kB | 1024 kB |
 
 * [!UICONTROL Personalization Insights] rapporter för [!UICONTROL Auto-Target] (AT) och [!UICONTROL Automated Personalization] (AP)-aktiviteter produceras nu dagligen. Du kan välja en rapport med [!UICONTROL Automated Segments] eller [!UICONTROL Important Attributes] de senaste 15, 30 och 60 dagarna. Alternativen för 45 dagar och 90 dagar har tagits bort så att de andra inställningarna för uppslagsfönstret kan köras dagligen. (TGT-39472)
 * Ett problem som orsakade att det aktuella beroendet inte visades när kunderna klickade har åtgärdats [!UICONTROL Edit Dependency] på en aktivitet [!UICONTROL Goals & Settings] sida. (TGT-39340)
@@ -603,7 +634,7 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 * Ett problem som påverkade har korrigerats [!DNL Adobe Target Premium] användare [!UICONTROL Auto-Target] från och med 15 september 2:30 (PDT) till 6 oktober kl. 9.25. (PDT). Vid visning av rapporter för påverkad konverteringsstatistik (konfigurerad med antingen[!UICONTROL Viewed a page]&quot; eller &quot;[!UICONTROL Clicked on mbox]&quot;option) rapporteras konverteringsgraden felaktigt. Det finns för närvarande inget känt leveransproblem.
 * Lagt till en valbar [!UICONTROL Last Updated At] kolumn i [!UICONTROL Catalog Search] tabell och en [!UICONTROL Last Updated At] filter. Den här förbättringen sparar tid och arbete eftersom du inte behöver öppna varje enskilt objekt för att se när det uppdaterades senast och du kan filtrera efter det datum då objekten uppdaterades senast.
 
-   ![Senast uppdaterad vid illustration av kolumner och filter](/help/main/r-release-notes/assets/column-and-filter.png)
+  ![Senast uppdaterad vid illustration av kolumner och filter](/help/main/r-release-notes/assets/column-and-filter.png)
 
 * Uppdateringar gjordes för att göra målgränssnittet kompatibelt med [Riktlinjer för hjälpmedel för webbinnehåll](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A och AA Success Criteria (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
 * Förbättrad CSP (Content Security Policy). (TGT-37035)
@@ -814,19 +845,19 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
 * Löste lokaliseringsproblem så att gränssnittstext på olika språk visas korrekt.
 * Vi har standardiserat listan med tillgängliga mätvärden från Adobe Analytics för Target-aktiviteter (A4T) genom att ta bort Adobe Analytics-statistik som inte stöds i den aktuella versionen av Adobe Analytics API:er. Detta gör att vi kan utöka vår A4T-support i framtida versioner av Adobe Target.
 
-   Följande ändringar har gjorts:
+  Följande ändringar har gjorts:
 
    * &quot;Genomsnittlig tid spenderad på sidan&quot; har ersatts med &quot;Genomsnittlig tid spenderad på webbplatsen.&quot; Alla aktiviteter som använder detta som mått för det primära målmåttet kommer att ha &quot;Genomsnittlig tid spenderad på platsen&quot; (Obs! anges i minuter i stället för sekunder) väljs som primärt målmått nästa gång aktiviteten redigeras.
    * &quot;Besökare&quot; har ersatts med &quot;unika besökare&quot;. Alla aktiviteter som använder det här måttet som primärt målmått kommer att ha &quot;Unika besökare&quot; valt som primärt målmått nästa gång aktiviteten redigeras.
 
 * Följande mått har tagits bort och kan inte längre väljas som primärt målmått när en ny A4T-aktivitet skapas.
 
-   | Inaktuella mått | Föreslagna ersättningsmått |
-   |--- |--- |
-   | Dagliga besökare, timbesökare, månatliga besökare, kvartalsbesök, veckobesökare och årsbesök | Unika besökare |
-   | Genomsnittligt besöksdjup | Ej tillämpligt. Ej rekommenderat som primärt målmått |
-   | Bots | Ej tillämpligt. Ej rekommenderat som primärt målmått |
-   | Kraschfrekvens för mobiler, genomsnittlig tidigare sessionslängd för mobiler, genomsnittlig App Store-gradering för mobilappar, kraschfrekvens för prestanda för mobilappar, genomsnittlig App Store-gradering för mobiler | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+  | Inaktuella mått | Föreslagna ersättningsmått |
+  |--- |--- |
+  | Dagliga besökare, timbesökare, månatliga besökare, kvartalsbesök, veckobesökare och årsbesök | Unika besökare |
+  | Genomsnittligt besöksdjup | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+  | Bots | Ej tillämpligt. Ej rekommenderat som primärt målmått |
+  | Kraschfrekvens för mobiler, genomsnittlig tidigare sessionslängd för mobiler, genomsnittlig App Store-gradering för mobilappar, kraschfrekvens för prestanda för mobilappar, genomsnittlig App Store-gradering för mobiler | Ej tillämpligt. Ej rekommenderat som primärt målmått |
 
 ### Adobe Experience Cloud navigering (22 februari 2019)
 
@@ -838,9 +869,10 @@ Den här versionen innehåller följande förbättringar, korrigeringar och änd
    * Förbättrad feedback för NPS (Net Promoter Score), så att undersökningen inte stör arbetsflödet.
 
    * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i [!UICONTROL Notifications] nedrullningsbar meny i sidhuvudet.
-   >[!NOTE]
-   >
-   >Som en del av utrullningen av det nya navigeringsfältet kommer du även att märka vissa URL-ändringar. Alla tidigare länkar med bokmärken fortsätter att fungera, men vi rekommenderar att du bokmärker nya länkar för snabbare öppning.
+
+  >[!NOTE]
+  >
+  >Som en del av utrullningen av det nya navigeringsfältet kommer du även att märka vissa URL-ändringar. Alla tidigare länkar med bokmärken fortsätter att fungera, men vi rekommenderar att du bokmärker nya länkar för snabbare öppning.
 
 ### Target Standard/Premium 20.1.1 (4 februari 2020)
 
@@ -889,11 +921,12 @@ Följande problem har åtgärdats i version 1.0.1:
    * Förbättrad feedback för NPS (Net Promoter Score), så att undersökningen inte stör arbetsflödet.
 
    * Meddelanden för [!DNL Target] är för närvarande inte tillgängliga i [!UICONTROL Notifications] nedrullningsbar meny i sidhuvudet.
-   >[!NOTE]
-   >
-   >De här funktionerna kommer inte att lanseras samtidigt och kommer inte heller att lanseras för alla kunder tillsammans. Vi kommer att lansera de här funktionerna under de närmaste veckorna, med början med [!DNL Target Standard/Premium] 19.10.1 (22 oktober 2019).
-   >
-   >Som en del av utrullningen av det nya navigeringsfältet kommer du även att märka vissa URL-ändringar. Alla tidigare länkar med bokmärken fortsätter att fungera, men vi rekommenderar att du bokmärker nya länkar för snabbare öppning.
+
+  >[!NOTE]
+  >
+  >De här funktionerna kommer inte att lanseras samtidigt och kommer inte heller att lanseras för alla kunder tillsammans. Vi kommer att lansera de här funktionerna under de närmaste veckorna, med början med [!DNL Target Standard/Premium] 19.10.1 (22 oktober 2019).
+  >
+  >Som en del av utrullningen av det nya navigeringsfältet kommer du även att märka vissa URL-ändringar. Alla tidigare länkar med bokmärken fortsätter att fungera, men vi rekommenderar att du bokmärker nya länkar för snabbare öppning.
 
 ### at.js version 2.2 och 1.8 (10 oktober 2019)
 
@@ -1018,12 +1051,12 @@ Den här versionen innehåller följande funktioner, ändringar och förbättrin
 * Vi förbättrade arbetsflödet när du tog bort resurser med VEC. Borttagna resurser tas nu bort från [!UICONTROL Offers library] och från [!DNL Scene7] (om tillämpligt). Borttagna resurser visas inte längre i sökresultaten. (TGT-31981)
 * Du kan nu ta bort resursmappar även om de innehåller bilder (mappar som inte är tomma). (TGT-33265)
 
-   Tidigare gick det inte att ta bort en mapp som inte är tom från målbildens Erbjudandebibliotek ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Du får då ett meddelande om att mappen inte är tom. när du försöker ta bort mappen från användargränssnittet.  Med den här funktionen lägger vi till en funktion som gör att du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i målgränssnittet och i användargränssnittet för Adobe Experience Cloud Assets.
+  Tidigare gick det inte att ta bort en mapp som inte är tom från målbildens Erbjudandebibliotek ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Du får då ett meddelande om att mappen inte är tom. när du försöker ta bort mappen från användargränssnittet.  Med den här funktionen lägger vi till en funktion som gör att du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i målgränssnittet och i användargränssnittet för Adobe Experience Cloud Assets.
 
    * Mappar som inte är tomma i bilderbjudandebiblioteket kan tas bort. Om inga referenser finns till alla bilder i mappen i någon aktivitet tas hela mappen och dess innehåll bort. Om det finns referenser till vissa bilder i mappen i någon aktivitet, tas alla bilder som inte refereras bort, men refererade bilder och mappar som innehåller dessa bilder behålls.
    * Rendering av bildeerbjudanden i Image Asset-väljaren går snabbare och effektivare.
 
-   Mer information finns i [Arbeta med innehåll i biblioteket](/help/main/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
+  Mer information finns i [Arbeta med innehåll i biblioteket](/help/main/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
 
 * Vi förbättrade återgivningen av bilderbjudandena i Assets-väljaren. Nu går det snabbare och effektivare att visa och välja ut bilderbjudanden. (TGT-32897)
 * Vi förbättrade hanteringen av omdirigeringar till URL:er när du avbryter inläsningen av en sida i VEC. (TGT-33815)
@@ -1205,7 +1238,7 @@ Detta [!DNL Target] releasen innehåller följande förbättringar, korrigeringa
    * Om en målgrupp togs bort i AAM visas en varningsikon i båda [!UICONTROL Audience] -listan och publikväljaren visas. Ett verktygstips i användargränssnittet anger också att målgruppen togs bort i AAM.
    * Om du försöker kombinera flera målgrupper med en borttagen målgrupp, eller om du försöker spara en aktivitet som refererar till en borttagen målgrupp, visas ett varningsmeddelande.
 
-   Se [Om målgrupper](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html).
+  Se [Om målgrupper](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html).
 
 * Ett problem som gjorde att användare i vissa situationer inte kunde skapa en aktivitet när Adobe Analytics valdes som rapportkälla på [!UICONTROL Administration] sida. Användarna såg meddelandet&quot;Välj en rapportsserie&quot; trots att de inte fick möjligheten att välja rapportsviten. (TGT-31968)
 
@@ -1458,9 +1491,9 @@ Den här versionen innehåller följande förbättringar:
 
 * Enhetslistan har uppdaterats med de senaste telefonmodellerna. Lagt till funktioner för att leverera riktat innehåll till specifika iPhone-modeller med hjälp av Device Marketing Name eller Device Model.
 
-   Kunder som använder Mobile SDK behöver inte göra något för att utnyttja den här funktionen. Kunder som använder at.js måste uppgradera till at.js version 1.5.0.
+  Kunder som använder Mobile SDK behöver inte göra något för att utnyttja den här funktionen. Kunder som använder at.js måste uppgradera till at.js version 1.5.0.
 
-   Mer information finns i [Mobil](/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
+  Mer information finns i [Mobil](/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
 
 ### Target Download API (5 juni 2018) {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
@@ -1994,7 +2027,7 @@ Detta [!DNL Target] releasen innehåller följande kundrelaterade förbättringa
 
 * Användare med behörigheten Godkännare kan nu generera och aktivera autentiseringstoken för profil-API. (TGT-24074)
 
-   Mer information finns i [Profil-API-inställningar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}.
+  Mer information finns i [Profil-API-inställningar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}.
 
 * När du skapar en aktivitet i Visual Experience Composer och användaren läser in sidan igen, behålls aktivitets-URL:en och tillhörande egenskaper i användargränssnittet. Behovet av att läsa in på nytt kan uppstå om aktiviteten använder blandat innehåll (säkert och osäkert innehåll) eller om det finns behörighetsproblem. (TGT-28230)
 * Förbättrade meddelanden när en aktivitet använder blandat innehåll (säkert och osäkert innehåll). Meddelandet innehåller information som hjälper användare att utföra de steg som krävs för att öppna en HTTP-webbplats eller en webbplats med blandade anrop (HTTPS och HTTP). (TGT-26271)
@@ -2174,7 +2207,7 @@ Detta [!DNL Target] releasen innehåller följande förbättringar och korrigeri
 
 * Förbättrade arbetsflöden när en användares [!DNL Target] timeout när du skapar eller redigerar en aktivitet eller ett erbjudande. När användaren klickar [!UICONTROL Save]visas det meddelande som har upphört att gälla för sessionen, men när du har loggat in igen visas en dialogruta som informerar användaren om att inloggningen lyckades och användargränssnittet finns kvar på samma sida i [!DNL Target] utan dataförlust.
 
-   Om en användare utför en intermittent åtgärd på en [!DNL Target] sida och upplever en timeout för sessionerna, användaren dirigeras till att logga in igen och dirigeras sedan till den sista sidan som bearbetats i [!DNL Target] Gränssnitt.
+  Om en användare utför en intermittent åtgärd på en [!DNL Target] sida och upplever en timeout för sessionerna, användaren dirigeras till att logga in igen och dirigeras sedan till den sista sidan som bearbetats i [!DNL Target] Gränssnitt.
 
 * Korrigerade ett problem som gjorde att anpassade kodändringar gick förlorade om användaren bläddrar bort (ändrar upplevelser, växlar sida, byter målgrupp, klickar på Nästa, osv.) och glömmer att spara ändringarna. Användaren uppmanas nu att spara ändringarna. (TGT-23766)
 * När en aktivitet arkiveras visas&quot;Arkiverad aktivitet&quot; i stället för&quot;Uppdatera aktiviteten&quot;. (KB-1517)
@@ -2188,19 +2221,19 @@ Detta [!DNL Target] releasen innehåller följande förbättringar och korrigeri
 * Rapporter i Target Standard/Premium visas nu i ditt kontos tidszon i stället för i målserverns tidszon (US EST). (TGT-24868)
 * Om aktiviteter skapas i [!DNL Target] uppdateras utifrån [!DNL Target] (till exempel via Adobe I/O) importeras följande aktivitetsattribut tillbaka till [!DNL Target]:
 
-   `thirdpartyId`
+  `thirdpartyId`
 
-   `startDate`
+  `startDate`
 
-   `endDate`
+  `endDate`
 
-   `status`
+  `status`
 
-   `priority`
+  `priority`
 
-   `marketingCloudMetadata(remoteModifiedBy)`
+  `marketingCloudMetadata(remoteModifiedBy)`
 
-   Det här importjobbet körs när aktivitetssidan öppnas, med en maximal fördröjning på tio minuter. (KB-1526)
+  Det här importjobbet körs när aktivitetssidan öppnas, med en maximal fördröjning på tio minuter. (KB-1526)
 
 ### Target Standard/Premium 17.6.2 (22 juni 2017) {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -2369,7 +2402,7 @@ Detta [!DNL Target] releasen innehåller följande förbättringar och korrigeri
 
    * I rapporter och aktiviteter finns det vissa alternativ ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], osv.) går nu att komma åt genom att klicka på [!UICONTROL More Options] ikon (  ![icon_more_options-bild](assets/icon_more_options.png)
 
-      ).
+     ).
    * I [!UICONTROL Offers] bibliotek, erbjudanden visas nu i en lista i stället för som kort. Andra mindre ändringar av användargränssnittet gjordes under hela [!UICONTROL Offers] biblioteksgränssnitt.
 
 * Avsevärt förbättrade prestanda på [!UICONTROL Activity] och [!UICONTROL Audience] listor. Inläsningstiderna för sökresultaten returneras också avsevärt snabbare.
@@ -2406,7 +2439,7 @@ Detta [!DNL Target] release fokuserar på användbarhets- och prestandaförbätt
 * Ett problem som förhindrade [!UICONTROL Disable JavaScript] kan du inte arbeta korrekt med flersidiga aktiviteter. (TGT-15130)
 * Om du använder den formulärbaserade Experience Composer med en annan ruta än den automatiskt skapade globala mbox ( `target-global-mbox`) och sedan välja ett interaktionsmått som framgångsmått, så ökas måtten bara på sidor där mbox används i aktiviteten. Om din mbox är `homepage_mbox`, [!UICONTROL Pages Per Visit] mått är antalet träffar i `homepage_mbox` under det besöket.
 
-   Om detta inte är vad du vill ha kan du lägga till en annan plats till aktiviteten och tilldela den globala mbox till den platsen och ge den standardinnehåll. Den här lösningen kopplar den globala mbox till aktiviteten och gör att Target kan räkna måttet för rapportering.
+  Om detta inte är vad du vill ha kan du lägga till en annan plats till aktiviteten och tilldela den globala mbox till den platsen och ge den standardinnehåll. Den här lösningen kopplar den globala mbox till aktiviteten och gör att Target kan räkna måttet för rapportering.
 
 ### Ändringar av målplattform (18 januari 2017) {#section_EA41802B2B24426FBA88D25E17DBE360}
 
@@ -2840,16 +2873,16 @@ Följande kända fel har rapporterats:
 
 * Dokumentationen visar det förväntade beteendet för kryssrutan Omdirigerings-URL. På grund av ett fel visas dock inte kryssrutan som vald som standard. Den här defekten kommer snart att åtgärdas.
 
-   Om du vill kontrollera det här alternativet i en befintlig aktivitet med ett omdirigeringserbjudande använder du följande lösning:
+  Om du vill kontrollera det här alternativet i en befintlig aktivitet med ett omdirigeringserbjudande använder du följande lösning:
 
    1. Öppna popup-fönstret Omdirigera till URL.
    1. Ändra URL:en till en dummy-URL och spara den.
    1. Ändra dummy-URL:en igen till kampanjens förväntade omdirigerings-URL.
    1. Markera alternativet Inkludera aktuella frågeparametrar och spara.
 
-   Om du markerar alternativet när du skapar ett nytt omdirigeringserbjudande kan du förvänta dig att dina frågeparametrar inkluderas i omdirigeringen.
+  Om du markerar alternativet när du skapar ett nytt omdirigeringserbjudande kan du förvänta dig att dina frågeparametrar inkluderas i omdirigeringen.
 
-   Om det här alternativet är markerat i aktivitetens upplevelsedisposition för äldre aktiviteter innebär det att din omdirigering kommer att innehålla frågeparametrarna. Om den inte är markerad inkluderas inte aktuella frågeparametrar i omdirigeringen.
+  Om det här alternativet är markerat i aktivitetens upplevelsedisposition för äldre aktiviteter innebär det att din omdirigering kommer att innehålla frågeparametrarna. Om den inte är markerad inkluderas inte aktuella frågeparametrar i omdirigeringen.
 
 ### Adobe [!DNL Target] Standard/Premium 16.5.1 (19 maj 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
 
@@ -2869,7 +2902,7 @@ Adobe Target Standard/Premium 16.5.1 (19 maj 2016) innehåller följande funktio
   </tr> 
   <tr> 
    <td colname="col1"> URL för frågor och svar/förhandsgranskning </td> 
-   <td colname="col2"> <p>URL:er för förhandsgranskning är nu tillgängliga för den formulärbaserade upplevelsedispositionen. </p> <p>Se <a href="/help/main/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC" format="dita" scope="local"> Visa URL för upplevelse </a>. </p> </td> 
+   <td colname="col2"> <p>URL:er för förhandsgranskning är nu tillgängliga för den formulärbaserade upplevelsedispositionen. </p> <p>Se <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> Visa URL för upplevelse </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations anpassade algoritmer </td> 
@@ -2945,14 +2978,14 @@ Tänk på följande när du implementerar at.js:
 * at.js v 0.8.0 kan nu laddas ned från Target-gränssnittet.
 * Mål-API har ändrats. `applyOffer` nu kräver `mbox param [0]`.
 
-   ```
-   adobe.target.applyOffer({ 
-       "mbox": "target-global-mbox", 
-    "params": {"test": "true"}, 
-       "selector": ".banner-text", 
-       "offer": offer 
-   });
-   ```
+  ```
+  adobe.target.applyOffer({ 
+      "mbox": "target-global-mbox", 
+   "params": {"test": "true"}, 
+      "selector": ".banner-text", 
+      "offer": offer 
+  });
+  ```
 
 ### Adobe [!DNL Target] Standard/Premium 16.4.1 (21 april 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
 
