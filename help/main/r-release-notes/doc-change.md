@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 10 juli | [Överväganden och kända begränsningar](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | Lagt till information i *Målleverans-API* dokumentation om att HTTP/2 använder gemena rubriknamn. |
 | 27 juni | [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Aktivitets-QA är nu tillgängligt för alla målaktivitetstyper, inklusive [!UICONTROL Automated Personalization] (AP) aktiviteter. Information om förhandsgranskningslänkar har tagits bort. |
 |  | Förhandsgranska URL:er | Eftersom alla aktivitetstyper nu stöder Aktivitets-QA har det här avsnittet tagits bort och omdirigerats till [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) ämne. |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.6.1-utgåvan. |
