@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
+source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 20 juli | [CSP-direktiv (Content Security Policy)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Följande frågor och svar har lagts till i *Adobe Target Developer Guide*: Hur tillåter eller förhindrar jag att min webbplats bäddas in som en iFrame under utländska domäner? |
 | 10 juli | [Överväganden och kända begränsningar](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | Lagt till information i *Målleverans-API* dokumentation om att HTTP/2 använder gemena rubriknamn. |
 | 27 juni | [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Aktivitets-QA är nu tillgängligt för alla målaktivitetstyper, inklusive [!UICONTROL Automated Personalization] (AP) aktiviteter. Information om förhandsgranskningslänkar har tagits bort. |
 |  | Förhandsgranska URL:er | Eftersom alla aktivitetstyper nu stöder Aktivitets-QA har det här avsnittet tagits bort och omdirigerats till [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) ämne. |
