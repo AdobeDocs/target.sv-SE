@@ -4,7 +4,7 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -36,7 +36,6 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 * Förbättrad sökning när [navigera element med DOM-sökvägen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i [!UICONTROL Visual Experience Composer] (VEC) för att inkludera skuggans DOM-element. (TGT-45262)
 * Ett problem som förhindrade [Ändra övertäckning](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) inställningen inte fungerar som den ska. (TGT-45202)
 * Ett problem som gjorde att vissa kunder inte kunde hämta aktivitetsrapporter efter att ha fått följande felmeddelande har åtgärdats: &quot;Användaren har inte behörighet att komma åt rapporten.&quot; (TGT-45724 och TGT-45747)
-
 
 ## Ytterligare versionsinformation
 

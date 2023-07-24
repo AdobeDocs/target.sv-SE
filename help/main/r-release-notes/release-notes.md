@@ -6,10 +6,10 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 14%
+source-wordcount: '402'
+ht-degree: 13%
 
 ---
 
@@ -19,21 +19,19 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## [!DNL Target] Standard/Premium 23.6.1 (27-29 juni)
+## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
 
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-* **27 juni**: Europa, Mellanöstern och Afrika (EMEA)
-* **28 juni**: Asien-Stillahavsområdet (APAC)
-* **29 juni**: Amerika
+* **24 juli**: Europa, Mellanöstern och Afrika (EMEA)
+* **25 juli**: Asien-Stillahavsområdet (APAC)
+* **26 juli**: Amerika
 
-Den här versionen innehåller följande förbättringar:
+Den här versionen innehåller följande förbättringar och korrigeringar:
 
-| Funktion | Detaljer |
-|--- |--- |
-| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] verksamhet | [!DNL Adobe Target] [!UICONTROL QA mode] är nu tillgängligt för [!UICONTROL Automated Personalization] aktiviteter, ersätta [!UICONTROL Preview links] funktionalitet.<P>Mer information finns i [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
-
-* Prestandaförbättringar som gör att dubblettfunktioner inte tillåts (inklusive minskning av inläsningstiden) under [hantera undantag](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] verksamhet.
+* Förbättrad sökning när [navigera element med DOM-sökvägen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i [!UICONTROL Visual Experience Composer] (VEC) för att inkludera skuggans DOM-element. (TGT-45262)
+* Ett problem som förhindrade [Ändra övertäckning](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) inställningen inte fungerar som den ska. (TGT-45202)
+* Ett problem som gjorde att vissa kunder inte kunde hämta aktivitetsrapporter efter att ha fått följande felmeddelande har åtgärdats: &quot;Användaren har inte behörighet att komma åt rapporten.&quot; (TGT-45724 och TGT-45747)
 
 ## Ytterligare versionsinformation
 

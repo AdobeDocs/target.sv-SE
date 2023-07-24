@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 37610e658a25027ae614818b0be425dfc9dbffc6
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '36273'
+source-wordcount: '36315'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
+
+### [!DNL Target] Standard/Premium 23.6.1 (27-29 juni)
+
+Den här versionen innehåller följande förbättringar:
+
+| Funktion | Detaljer |
+|--- |--- |
+| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] verksamhet | [!DNL Adobe Target] [!UICONTROL QA mode] är nu tillgängligt för [!UICONTROL Automated Personalization] aktiviteter, ersätta [!UICONTROL Preview links] funktionalitet.<P>Mer information finns i [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+
+* Prestandaförbättringar som gör att dubblettfunktioner inte tillåts (inklusive minskning av inläsningstiden) under [hantera undantag](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] verksamhet.
 
 ### [!DNL Target] Standard/Premium 23.5.2 (31 maj 2023)
 

@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # Dokumentationsändringar
 
 Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdokumentation.
+
+## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli 2023)
+
+| Datum | Ämne | Ändringar |
+| --- | --- | --- |
+|  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.7.1-utgåvan. |
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27-29 juni 2023)
 
