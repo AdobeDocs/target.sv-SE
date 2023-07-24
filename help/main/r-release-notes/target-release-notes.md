@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: e4bfdd4b777d90fc79a0f275a1cd6dd25e19b79d
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,20 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 23.6.1 (27-29 juni)
+## [!DNL Target] Standard/Premium 23.7.1 (25-27 juli)
 
 Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
 
-* **27 juni**: Europa, Mellanöstern och Afrika (EMEA)
-* **28 juni**: Asien-Stillahavsområdet (APAC)
-* **29 juni**: Amerika
+* **24 juli**: Europa, Mellanöstern och Afrika (EMEA)
+* **25 juli**: Asien-Stillahavsområdet (APAC)
+* **26 juli**: Amerika
 
-Den här versionen innehåller följande förbättringar:
+Den här versionen innehåller följande förbättringar och korrigeringar:
 
-| Funktion | Detaljer |
-|--- |--- |
-| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] verksamhet | [!DNL Adobe Target] [!UICONTROL QA mode] är nu tillgängligt för [!UICONTROL Automated Personalization] aktiviteter, ersätta [!UICONTROL Preview links] funktionalitet.<P>Mer information finns i [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+* Förbättrad sökning när [navigera element med DOM-sökvägen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i [!UICONTROL Visual Experience Composer] (VEC) för att inkludera skuggans DOM-element. (TGT-45262)
+* Ett problem som förhindrade [Ändra övertäckning](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) inställningen inte fungerar som den ska. (TGT-45202)
+* Ett problem som gjorde att vissa kunder inte kunde hämta aktivitetsrapporter efter att ha fått följande felmeddelande har åtgärdats: &quot;Användaren har inte behörighet att komma åt rapporten.&quot; (TGT-45724 och TGT-45747)
 
-* Prestandaförbättringar som gör att dubblettfunktioner inte tillåts (inklusive minskning av inläsningstiden) under [hantera undantag](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] verksamhet.
 
 ## Ytterligare versionsinformation
 
