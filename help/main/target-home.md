@@ -1,10 +1,10 @@
 ---
 keywords: Mål;hem;populära ämnen;adobe target;target standard;target premium;target documentation;adobe target documentation
 title: Användarhandbok om Adobe Target Business Practitioner
-description: Lär dig använda Adobe [!DNL Target] för att personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar och andra digitala kanaler.
+description: Lär dig hur du använder Adobe [!DNL Target] för att personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
+source-git-commit: 02cf6f038f3bca7b781cbed40ade21c2c0612324
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 [!DNL Adobe Target] är [!DNL Adobe Experience Cloud] en lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse, så att ni kan maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 25 juli 2023 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
+**Senast uppdaterad: 7 augusti 2023 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -43,12 +43,12 @@ Följande avsnitt pekar på användbara länkar i den här guiden, ordnade efter
 Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 
 - [Versionsinformation för mål](r-release-notes/release-notes.md): Innehåller information om den aktuella versionen, information om kända fel som påverkar [!DNL Target], en lista över viktiga ändringar i den här dokumentationen och ett arkiv med information om tidigare versioner.
-- [Introduktion till Target](c-intro/intro.md): Beskriver grundbegreppen i [!DNL Target] lösning.
+- [Introduktion till Target](c-intro/intro.md): Beskriver de centrala begreppen i [!DNL Target] lösning.
 - Integrera Target med Adobe Experience Cloud: Förklarar hur man integrerar [!DNL Target] med andra [!DNL Experience Cloud] lösningar, inklusive [Analyser för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)och [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
-- [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Här finns självstudiekurser och videoklipp som hjälper dig att få ut mesta möjliga av Target.
+- [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Innehåller självstudiekurser och videoklipp som hjälper dig att få ut det mesta av Target.
 - [Felsökningsmål](r-troubleshooting-target/troubleshooting-target.md): Tillhandahåller länkar till felsökningsinformation i den här handboken, inklusive information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar osv.) som påverkar aktiviteter och andra element i [!DNL Target].
 - [Mål för mobilappar](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}: Beskriver hur [!DNL Target] kan användas för mobilappsoptimering och -personalisering.
-- [Resurser och kontaktinformation](cmp-resources-and-contact-information.md): Ger information om fler resurser som kan hjälpa dig att lära dig mer om [!DNL Target] funktioner och hur du kontaktar [!DNL Adobe] behöver du hjälp.
+- [Resurser och kontaktinformation](cmp-resources-and-contact-information.md): Tillhandahåller information om fler resurser som kan hjälpa dig att lära dig mer om [!DNL Target] funktioner och hur du kontaktar [!DNL Adobe] behöver du hjälp.
 
 ## Marknadsförare {#marketers}
 
