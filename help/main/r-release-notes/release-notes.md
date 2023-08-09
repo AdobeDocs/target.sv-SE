@@ -6,9 +6,9 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '479'
 ht-degree: 11%
 
 ---
@@ -25,19 +25,15 @@ Den planerade uppgraderingen av Edge-infrastrukturen kräver att ytterligare IP-
 
 Mer information finns i [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} i *Adobe Target Developer Guide*.
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
-
-Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
-
-* **24 juli**: Europa, Mellanöstern och Afrika (EMEA)
-* **25 juli**: Asien-Stillahavsregionen (APAC)
-* **26 juli**: Amerika
+## [!DNL Target] Standard/Premium 23.8.1 (9 augusti 2023)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Förbättrad sökning när [navigera element med DOM-sökvägen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i [!UICONTROL Visual Experience Composer] (VEC) för att inkludera skuggans DOM-element. (TGT-45262)
-* Ett problem som förhindrade [Ändra övertäckning](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) inställningen inte fungerar som den ska. (TGT-45202)
-* Korrigerade ett problem som förhindrade vissa kunder från att hämta aktivitetsrapporter efter att ha fått följande felmeddelande: &quot;Användaren har inte behörighet att komma åt rapporten.&quot; (TGT-45724 och TGT-45747)
+* Korrigerade ett problem som ibland förhindrade aktiviteter från att synkroniseras korrekt, vilket visas i[!UICONTROL Status]&quot; -kolumnen på [!UICONTROL Activity] listsida. (TGT-46010 &amp; TGT-44831)
+* Ett problem som ibland förhindrade felet har korrigerats[!UICONTROL View in Analytics]&quot; länk från att visas på [!UICONTROL Reports] sida med aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. (TGT-45808)
+* Justerade presentationen av värden i tabeller så att de visas som procenttal i stället för siffror med decimaler. Till exempel 8 % i stället för 0,08. (TGT-45548)
+* Ett problem som hindrade kunder från att använda tangentbordsfokus för att gå till nästa element i [!UICONTROL Goals & Settings] sida för [!UICONTROL Experience Targeting] (XT) aktiviteter. (TGT-44526)
+* Ett problem som orsakade att tangentbordsfokus gick förlorat när du öppnade[!UICONTROL Add audiences]när du skapar en aktivitet. (TGT-44525)
 
 ## Ytterligare versionsinformation
 

@@ -1,12 +1,12 @@
 ---
 keywords: versionsinformation;utgåvor;uppdateringar;framtida utgåvor;förbättringar;nya funktioner;korrigeringar;uppdateringar;prerelease
-description: Läs om de nya funktionerna, förbättringarna och korrigeringarna i den kommande versionen av [!DNL Adobe Target], inklusive SDK, API:er och JavaScript-bibliotek.
+description: Läs om de nya funktionerna, förbättringarna och korrigeringarna i den kommande versionen av [!DNL Adobe Target], inklusive SDK, API och JavaScript-bibliotek.
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
+source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 24 juli 2023**
+**Senast uppdaterad: 9 augusti 2023**
 
 >[!NOTE]
 >
@@ -23,23 +23,19 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
-
-Den här versionen kommer att vara tillgänglig enligt följande uppdelade schema:
-
-* **24 juli**: Europa, Mellanöstern och Afrika (EMEA)
-* **25 juli**: Asien-Stillahavsområdet (APAC)
-* **26 juli**: Amerika
+## [!DNL Target] Standard/Premium 23.8.1 (9 augusti 2023)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Förbättrad sökning när [navigera element med DOM-sökvägen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) i [!UICONTROL Visual Experience Composer] (VEC) för att inkludera skuggans DOM-element. (TGT-45262)
-* Ett problem som förhindrade [Ändra övertäckning](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) inställningen inte fungerar som den ska. (TGT-45202)
-* Ett problem som gjorde att vissa kunder inte kunde hämta aktivitetsrapporter efter att ha fått följande felmeddelande har åtgärdats: &quot;Användaren har inte behörighet att komma åt rapporten.&quot; (TGT-45724 och TGT-45747)
+* Korrigerade ett problem som ibland förhindrade aktiviteter från att synkroniseras korrekt, vilket visas i[!UICONTROL Status]&quot; -kolumnen på [!UICONTROL Activity] listsida. (TGT-46010 &amp; TGT-44831)
+* Ett problem som ibland förhindrade felet har korrigerats[!UICONTROL View in Analytics]&quot; länk från att visas på [!UICONTROL Reports] sida med aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. (TGT-45808)
+* Justerade presentationen av värden i tabeller så att de visas som procenttal i stället för siffror med decimaler. Till exempel 8 % i stället för 0,08. (TGT-45548)
+* Ett problem som hindrade kunder från att använda tangentbordsfokus för att gå till nästa element i [!UICONTROL Goals & Settings] sida för [!UICONTROL Experience Targeting] (XT) aktiviteter. (TGT-44526)
+* Ett problem som orsakade att tangentbordsfokus gick förlorat när du öppnade[!UICONTROL Add audiences]när du skapar en aktivitet. (TGT-44525)
 
 ## Ytterligare versionsinformation
 
-| Resurs | Detaljer |
+| Resurs | Information |
 |--- |--- |
 | [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
 | [versionsinformation för at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringarna i varje version av [!DNL Adobe Target] at.js JavaScript-bibliotek. |
