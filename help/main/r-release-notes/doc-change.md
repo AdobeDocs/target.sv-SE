@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 02cf6f038f3bca7b781cbed40ade21c2c0612324
+source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 9 augusti | [Förhandsvisning av målmobiler](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Uppdaterat ämne med information om aktuella versioner av [!DNL Adobe Experience Platform Mobile SDK]. |
+|  | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande webbinarium som planeras äga rum den 17 augusti 2023: *Strategiera för maximal ROI-påverkan med beredskap för högsäsong*. |
 | 7 augusti | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Tydligare information om vilka versioner av at.js som stöds. |
 | 25 juli | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md#edge) | Lagt till information om den planerade uppgraderingen av Edge-infrastrukturen som är planerad till 9 augusti 2023. |
 |  | [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Uppdaterade NAT och IP/domäner för edge-driftsättningar 41-48. |
