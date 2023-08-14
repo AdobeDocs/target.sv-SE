@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1489'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 14 augusti | [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Lagt till information som klargör att det inte går att läsa in en sida på webbplatsen med ett tomt värde *not* ta bort QA-cookien från webbläsaren när at.js 2.*x* distribueras. |
+|  | [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Definitionen av&quot;konfidentialitet&quot; har uppdaterats. |
+|  | [Erbjudanden](/help/main/c-experiences/c-manage-content/manage-content.md) | En kommentar som förklarar att bilderbjudandena inte ingår i [!UICONTROL Enterprise User Permissions] modell. |
+| 9 augusti | [Förhandsvisning av målmobiler](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Uppdaterat ämne med information om aktuella versioner av [!DNL Adobe Experience Platform Mobile SDK]. |
 | 9 augusti | [Förhandsvisning av målmobiler](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Uppdaterat ämne med information om aktuella versioner av [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande webbinarium som planeras äga rum den 17 augusti 2023: *Strategiera för maximal ROI-påverkan med beredskap för högsäsong*. |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.8.1-utgåvan. |
@@ -27,7 +31,6 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 9 augusti | [Förhandsvisning av målmobiler](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Uppdaterat ämne med information om aktuella versioner av [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om följande webbinarium som planeras äga rum den 17 augusti 2023: *Strategiera för maximal ROI-påverkan med beredskap för högsäsong*. |
 | 7 augusti | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Tydligare information om vilka versioner av at.js som stöds. |
 | 25 juli | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md#edge) | Lagt till information om den planerade uppgraderingen av Edge-infrastrukturen som är planerad till 9 augusti 2023. |
