@@ -4,7 +4,7 @@ description: Läs mer om de statistiska beräkningar som används i handboken [!
 title: Hur kan jag lära mig mer om de statistiska beräkningarna som används i [!UICONTROL A/B Test] Verksamheter?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -27,7 +27,7 @@ I följande avsnitt förklaras beräkningarna som användes i föregående bild.
 
 ### Kampanjer för konverteringsgrad och intäkter per besökare
 
-Följande illustrationer [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate]och antalet [!UICONTROL Conversions] i en [!DNL Target] rapport. Den första raden visar till exempel att för upplevelse A: den [!UICONTROL Conversion Rate] är 25,81 % med en [!UICONTROL Confidence Interval] av ±7,7 % och 32 konverteringar registrerades. Med tanke på att 124 besökare såg upplevelsen motsvarar detta 32/124 = 25,81 %.
+Följande illustrationer [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate]och antalet [!UICONTROL Conversions] i en [!DNL Target] rapport. Den första raden visar till exempel att för upplevelse A: [!UICONTROL Conversion Rate] är 25,81 % med en [!UICONTROL Confidence Interval] av ±7,7 % och 32 konverteringar registrerades. Med tanke på att 124 besökare såg upplevelsen motsvarar detta 32/124 = 25,81 %.
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -42,14 +42,14 @@ Här,
 * Summan över enheter *i* beror på valet av beräkningsmetod.
 
    * If *[!UICONTROL Visitors]* används som beräkningsmetod, är varje enhet en unik besökare definierad som en unik deltagare i aktiviteten under aktivitetens livstid.
-   * If *[!UICONTROL Visits]* används som beräkningsmetod, är varje enhet ett unikt besök definierat som en unik deltagare i en upplevelse under en [!DNL Target] session (med en unik `sessionId`). När `sessionId` eller om besökaren kommer till konverteringssteget räknas ett nytt besök.
+   * If *[!UICONTROL Visits]* används som beräkningsmetod, är varje enhet ett unikt besök definierat som en unik deltagare i en upplevelse under en [!DNL Target] session (med en unik `sessionId`). När `sessionId` ändringar, eller besökaren kommer till konverteringssteget, räknas ett nytt besök.
    * If *[!UICONTROL Activity Impressions]* används som beräkningsmetod, är varje enhet ett unikt intryck som definieras som varje gång en besökare läser in en sida i aktiviteten.
 
 ## [!UICONTROL Confidence Interval of Mean]/[!UICONTROL Conversion Rate]
 
 Konfidensintervallet för konverteringsgraden definieras intuitivt som ett intervall av möjliga konverteringsgrader som överensstämmer med underliggande data.
 
-När du kör experiment är konverteringsgraden för en viss upplevelse en *uppskattning* av konverteringsgraden&quot;true&quot;. För att kvantifiera osäkerheten i denna uppskattning [!DNL Target] använder ett konfidensintervall. [!DNL Target] alltid rapporterar ett 95% konfidensintervall, vilket innebär att i slutet av 95% av de beräknade konfidensintervallen inkluderar den verkliga konverteringsgraden för upplevelsen.
+När du kör experiment är konverteringsgraden för en viss upplevelse en *uppskattning* av konverteringsgraden &quot;true&quot;. För att kvantifiera osäkerheten i denna uppskattning [!DNL Target] använder ett konfidensintervall. [!DNL Target] alltid rapporterar ett 95% konfidensintervall, vilket innebär att i slutet av 95% av de beräknade konfidensintervallen inkluderar den verkliga konverteringsgraden för upplevelsen.
 
 Ett 95-procentigt konfidensintervall för konverteringsgraden *μ<sub>ν</sub>* definieras som värdeintervallet:
 
@@ -101,7 +101,7 @@ Den här beräkningen använder metoden &quot;Delta&quot; och beskrivs [mer ing�
 
 ## [!UICONTROL Confidence]
 
-I den sista kolumnen visas förtroendet för [!DNL Target] rapport. Förtroendet hos en upplevelse är en sannolikhet (anges som en procentandel) att få ett resultat som är mindre extrem än det som observeras, med tanke på att nollhypotesen är sann. När det gäller p-värden visas det förtroende som *1 - p-värde*. Intuitivt innebär ett högre förtroende att det är mindre troligt att upplevelsen av kontroll och icke-kontroll har samma konverteringsgrad.
+I den sista kolumnen visas förtroendet för [!DNL Target] rapport. Förtroendet hos en upplevelse är en sannolikhet (anges som en procentandel) att få ett resultat som är lika högt som det som observeras, med tanke på att nollhypotesen är sann. När det gäller p-värden visas det förtroende som *1 - p-värde*. Intuitivt innebär ett högre förtroende att det är mindre troligt att upplevelsen av kontroll och icke-kontroll har samma konverteringsgrad.
 
 I [!DNL Target], en tvåsidig **Welch&#39;s t-test** utförs mellan testupplevelsen och kontrollupplevelsen för att testa om metoderna för test- och kontrollupplevelser är desamma. eftersom vi vanligtvis inte vet om provstorlekar och variationer i två grupper är desamma innan vi kör experimentet, och [!DNL Target] gör det även möjligt för er att skicka olika mängder trafik till varje upplevelse, vi antar inte att variansen för varje upplevelse är lika. Welchs t-test väljs alltså istället för Students t-test.
 
