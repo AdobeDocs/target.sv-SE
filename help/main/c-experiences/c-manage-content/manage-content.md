@@ -4,9 +4,9 @@ description: Lär dig hantera kod- och bilderbjudanden med hjälp av Erbjudandeb
 title: Hur hanterar jag erbjudanden för kod och bilder?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Använd [!UICONTROL Offers] bibliotek i [!DNL Adobe Target] för att hantera kod
 
 1. Klicka **[!UICONTROL Offers]** för att öppna biblioteket.
 
-   Biblioteket innehåller erbjudanden som har konfigurerats via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) och API:er. Erbjudanden skapade i [!DNL Target Classic] eller andra lösningar kan redigeras i [!DNL Target Standard/Premium].
+   Biblioteket innehåller erbjudanden som har konfigurerats via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM) [!DNL Adobe Mobile Services] (AMS) och API:er. Erbjudanden skapade i [!DNL Target Classic] eller andra lösningar kan redigeras i [!DNL Target Standard/Premium].
 
    The [!UICONTROL Offers] sidan har två flikar längs den högra sidan: [!UICONTROL Code Offers] och [!UICONTROL Image Offers] som gör att du kan visa erbjudanden efter typ.
 
@@ -52,13 +52,18 @@ Använd [!UICONTROL Offers] bibliotek i [!DNL Adobe Target] för att hantera kod
    Alternativen är:
 
    * Välj
-   * Hämta
+   * Ladda ned
    * Visa egenskaper
    * Redigera
    * Anteckna
    * Kopiera
 
    Detaljerad information om de uppgifter du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+   >[!NOTE]
+   >
+   >Bilderbjudandena ingår inte i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modell.
+
 
 ## Visa definitioner för erbjudanden {#section_6B059DD121434E6292CAB393507D010E}
 
@@ -93,13 +98,13 @@ Följande information finns:
 * Erbjudande-ID
 * Erbjudandesökväg
 * Senast ändrad
-* Omdirigerings-URL
+* Omdirigeringsadress
 * Inkludera alla URL-parametrar (På eller Av)
 * Sessions-ID för lösenordssession (På eller Av)
 
 Följande kort för definition av erbjudande för ett fjärrerbjudande:
 
-![kort-fjärrbild](assets/offer-card-remote.png)
+![erbjudandekort-fjärrbild](assets/offer-card-remote.png)
 
 Följande information finns:
 
@@ -112,7 +117,7 @@ Följande information finns:
 * Omdirigera URL-typ
 * Absolut eller relativ URL
 
-## Utbildningsvideo: Innehållsdatabasen ![Märket Översikt](/help/main/assets/overview.png)
+## Utbildningsvideo: Innehållsarkivet ![Märket Översikt](/help/main/assets/overview.png)
 
 Den här videon innehåller information om hur du hanterar erbjudanden.
 
