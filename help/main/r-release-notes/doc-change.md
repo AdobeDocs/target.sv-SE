@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
+source-git-commit: e782fe4a26a624d3c407b991092dc0cfce18fdb7
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 29 augusti | [Implementera Target med AEP Mobile SDK i en inbyggd app med webbvyer](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Ny artikel. |
 | 14 augusti | [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Lagt till information som klargör att det inte går att läsa in en sida på webbplatsen med ett tomt värde *not* ta bort QA-cookien från webbläsaren när at.js 2.*x* distribueras. |
 |  | [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Definitionen av&quot;konfidentialitet&quot; har uppdaterats. |
 |  | [Erbjudanden](/help/main/c-experiences/c-manage-content/manage-content.md) | En kommentar som förklarar att bilderbjudandena inte ingår i [!UICONTROL Enterprise User Permissions] modell. |
