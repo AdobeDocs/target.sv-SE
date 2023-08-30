@@ -4,7 +4,7 @@ description: Hitta svar på frågor om aktivitetskonfiguration när du använder
 title: Var hittar jag frågor och svar om aktivitetsinställningar med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -23,16 +23,16 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om aktivitetsin
 
 ## Varför har jag inte åtkomst till Avancerade inställningar när jag konfigurerar mina målvärden?
 
-+++Besvara aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; och &quot;[!UICONTROL On Every Impression]&quot;. Dessa inställningar *not* kan konfigureras.
++++Besvara aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet &quot;[!UICONTROL Increment Count & Keep User in Activity]och &quot;[!UICONTROL On Every Impression]&quot;. Dessa inställningar *not* kan konfigureras.
 
 Mer information finns i&quot;När jag konfigurerar mina målmått, varför kan jag inte komma åt alternativen för Avancerade inställningar?&quot; in [Måttdefinitioner - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 +++
 
-## Jag har just skapat en aktivitet. Varför ser jag inga data som kommer in? {#section_9F8092BE4225442896F926540292F221}
+## Jag har just skapat en aktivitet. Varför ser jag inga data komma in? {#section_9F8092BE4225442896F926540292F221}
 
 
-+++Svar När en aktivitet skapas, [!DNL Target] skickar en klassificeringsfil till [!DNL Analytics]. Fast [!DNL Analytics] hämtar in och bearbetar data, visar det inte i rapporterna förrän klassificeringsfilen har uppdaterats. Denna process kan ta upp till 24 timmar. Om du inte ser dina data inom 48 timmar kan du [kontakta kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Om du vet att du startar en aktivitet kan du skapa aktiviteten några dagar i förväg och klassificeringarna skickas när aktiviteten sparas. På så sätt visas data i rapporterna när programmet startas. Observera att det tar 45-90 minuter för data att behandlas i [!DNL Analytics].
++++Svar När en aktivitet skapas, [!DNL Target] skickar en klassificeringsfil till [!DNL Analytics]. Fast [!DNL Analytics] hämtar in och bearbetar data, visar det inte i rapporterna förrän klassificeringsfilen har uppdaterats. Den här processen kan ta 24 till 72 timmar att slutföra. Om du inte ser dina data efter 72 timmar [kontakta kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Om du vet att du startar en aktivitet kan du skapa aktiviteten några dagar i förväg och klassificeringarna skickas när aktiviteten sparas. På så sätt visas data i rapporterna när programmet startas. Observera att det tar 45-90 minuter för data att behandlas i [!DNL Analytics].
 
 +++
 
@@ -41,11 +41,11 @@ Mer information finns i&quot;När jag konfigurerar mina målmått, varför kan j
 +++Svar Du kan ändra [!UICONTROL Reporting Settings] alternativ i [!UICONTROL Administration].
 
 1. I [!DNL Target], klicka **[!UICONTROL Administration]**.
-1. I **[!UICONTROL Experience Cloud solution used for reporting]** nedrullningsbar lista, klicka **[!UICONTROL Select per Activity]**.
+1. I **[!UICONTROL Experience Cloud solution used for reporting]** listruta, klicka **[!UICONTROL Select per Activity]**.
 
 ![bild per aktivitet](assets/select-per-activity.png)
 
-The **[!UICONTROL Reporting Source]** nedrullningsbar lista är aktiverad i **[!UICONTROL Goal & Settings]** för att skapa och redigera aktiviteter.
+The **[!UICONTROL Reporting Source]** listrutan är aktiverad i **[!UICONTROL Goal & Settings]** för att skapa och redigera aktiviteter.
 
 Att alltid använda [!DNL Analytics] som rapportkälla, välj **[!UICONTROL Adobe Analytics]** från listrutan i [!UICONTROL Administration].
 
@@ -66,6 +66,6 @@ Om procentsatserna inte justeras efter medelaktiviteten skickas alltid en besök
 
 ## Kan jag använda en binomial [!DNL Analytics] mätvärden med ett segment tillämpat som optimeringsmål i ett [!UICONTROL Auto-Allocate] aktivitet? {#binomial}
 
-+++Svar Du kan inte använda en [!DNL Analytics] mätvärden med ett segment tillämpat som optimeringsmål i ett [!UICONTROL Auto-Allocate] aktivitet. Som en tillfällig lösning kan du definiera en anpassad händelse som uppnår samma mål och använder det som optimeringsmålmåttet.
++++Svara Du kan inte använda en [!DNL Analytics] mätvärden med ett segment tillämpat som optimeringsmål i ett [!UICONTROL Auto-Allocate] aktivitet. Som en tillfällig lösning kan du definiera en anpassad händelse som uppnår samma mål och använder det som optimeringsmålmåttet.
 
 +++
