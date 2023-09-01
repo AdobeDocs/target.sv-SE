@@ -5,9 +5,9 @@ title: Vad är miljöer och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Så här anger du standardmiljön för rapportering:
 >
 >[!DNL Recommendations] -användare måste återskapa sin beteendedatabas och produktdatabas om värdar byter värdgrupper.
 >
->Om du anger en [standardmiljö i en Adobe Experience Platform-datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}åsidosätter den här miljön inställningen i [!DNL Target Recommendations].
+>Om du anger en [standardmiljö i en [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}åsidosätter den här inställningen [!DNL Target].
 
 ## Ändra namnet på en miljö {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
