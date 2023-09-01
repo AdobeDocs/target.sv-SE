@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1661'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 1 september | [Miljö](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Uppdaterad anmärkning under&quot;Ange standardmiljön för rapportering&quot;. |
 | 30 augusti | [Integritet](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Nytt avsnitt har lagts till:&quot;IP-obehörig på datasterivå när Adobe Experience Platform Web SDK används&quot; |
 |  | [Aktivitetsinställningar - vanliga A4T-frågor](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Korrigerad tidsram för att data ska visas i rapporter i vanliga frågor och svar:&quot;Jag har just skapat en aktivitet. Varför ser jag inga data som kommer in?&quot; |
 | 29 augusti | [Funktioner som stöds för beslut på enheten](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Listan med Geo-attribut som stöds för målinriktning har lagts till när ODD (On-device decisioning) används på klientsidan. |
