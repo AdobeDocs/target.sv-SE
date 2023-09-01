@@ -5,7 +5,7 @@ title: Hur konfigurerar jag rapportering i Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Du kan ange följande inställningar på den här sidan:
 
 ![Rapporteringssida](/help/main/administrating-target/assets/reporting.png)
 
-## Reporting Cloud Solution
+## Reporting Cloud Solution {#solution}
 
 Ange alternativ som avgör vilka data som används för dina resultat och rapporter.
 
@@ -44,7 +44,7 @@ Tänk på följande när du väljer rapportkälla:
 * Om rapportkällan är inställd på **[!DNL Target]** här får du inte aktivera en aktivitet som använder [!DNL Analytics] som rapportkälla. Du måste ändra rapportkällan till [!DNL Target] i din aktivitet eller ändra rapportkällan till **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * Om rapportkällan är inställd på **[!DNL Analytics]** här får du inte aktivera en aktivitet som använder [!DNL Target] som rapportkälla (rapportkällan anges som **[!UICONTROL Target per activity])**. Du måste ändra rapportkällan till [!DNL Analytics] i din aktivitet eller ändra rapporteringsmotorn till **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * Om rapportkällan är inställd på **[!UICONTROL Select per activity]** Här kan du skapa, aktivera och inaktivera aktiviteter som stöds av den valda rapportkällan. En matris med aktiviteter som stöds finns på [Aktivitetstyper som stöds](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) skapande, aktivering och inaktivering av aktivitet tillåts oavsett vald rapportkälla. Automated Personalization-aktiviteter stöds inte när du väljer [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Även om du anger [!DNL Analytics] som rapportkälla, [!DNL Target] används som rapporteringskälla för Automated Personalization-aktiviteter. Mer information finns i [Aktivitetstyper som stöds](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
+* [!UICONTROL Automated Personalization] (AP) skapande, aktivering och inaktivering av aktivitet tillåts oavsett vilken rapportkälla som valts. Automated Personalization-aktiviteter stöds inte när du väljer [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Även om du anger [!DNL Analytics] som rapportkälla, [!DNL Target] används som rapporteringskälla för Automated Personalization-aktiviteter. Mer information finns i [Aktivitetstyper som stöds](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics som rapportkälla för Adobe Target (A4t)*.
 
 ## Tidszon för rapportering
 
