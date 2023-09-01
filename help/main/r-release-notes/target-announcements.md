@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2233'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,38 @@ ht-degree: 0%
 
 Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break (30 augusti 2023)
+
+* **Ämne:&quot;Strategize for maximum ROI impact with peak säsonreadiness readiness&quot; (Strategize for maximal ROI impact with peak säsonreadiness readiness readiness) - uppföljning av webbinariet**
+* **Onsdagen den 30 augusti 2023**
+* **8:00-9:00.00 (PDT, UTC-7)**
+* **[Registrera dig här](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+
+[!DNL Adobe Target] Experterna John Magnusson och John Mosbaugh kommer att vara tillgängliga i det här eventet med frågor och svar om de ämnen som behandlas i webbseminariet&quot;Strategize for maximum ROI impact with peak säsoniness readiness&quot; (17 augusti 2023).
+
++++Se information
+
+Ämnen:
+
+* Skapa instrumentpaneler och rapportera viktiga mätvärden effektivt
+* Undersöka effekten av varje marknadsföringskanal
+* Gräv djupare in i kundbeteende och köptrender
+* Identifiera dåliga kundupplevelser och förbättra dem via testning
+* Identifierar områden som ger möjlighet att öka konverteringsgraden
+
++++
+
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
 Registrera dig för följande webbinarier för att se hur kunderna använder [!DNL Target] för att uppnå sina personaliserings- och optimeringsmål:
 
-### Strategiera för maximal ROI-påverkan med beredskap för högsäsong
+Ingen schemalagd just nu.
 
-* **Torsdag 17 augusti 2023**
-* **8:00-9:00.00 (PDT, UTC-7)**
-* **[Registrera dig här](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
+
+Åtkomstinspelningar av tidigare händelser (om sådana finns):
+
+### Strategiera för maximal ROI-påverkan med beredskap för högsäsong
 
 Leverera engagerande kundupplevelser för att öka konverteringsgraden. Är ditt företag redo för högsäsong? Delta i oss och få tillgång till experttips om hur du kan uppnå optimala prestanda och maximal avkastning den här gången.
 
@@ -40,10 +63,6 @@ Träffa John Magnusson, Adobe Customer Success Manager och Katherine Klein, Dire
 * Upptäck områden där du har möjlighet att driva webbplatskonverteringen
 
 +++
-
-## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
-
-Åtkomstinspelningar av tidigare händelser (om sådana finns):
 
 ### Optimering och personalisering av mobila upplevelser för autentiserade miljöer (26 april 2023)
 
