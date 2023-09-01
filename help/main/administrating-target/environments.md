@@ -5,9 +5,9 @@ title: Vad är miljöer och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En miljö, standardmiljön, är förnamngiven [!UICONTROL Production]. Den här 
 
 När en [!DNL Target] begäran tas emot från nya webbplatser eller domäner. De nya domänerna visas alltid i [!UICONTROL Production] miljö. The [!UICONTROL Production] -miljön kan inte ändra inställningarna, så okända eller nya webbplatser kan garanterat bara se innehåll som är aktivt och klart. Med värdhantering kan du enkelt säkerställa kvaliteten på nya aktiviteter och innehåll i test-, staging- och utvecklingsmiljöer innan du aktiverar aktiviteterna.
 
-Om du vill hantera miljöer klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
+Om du vill hantera miljöer klickar du **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
 ![Miljölista](/help/main/administrating-target/assets/environments.png)
 
@@ -40,19 +40,21 @@ Om du vill hantera miljöer klickar du på **[!UICONTROL Administration]** > **[
 
 Du kan välja den miljö som du vill använda som standard för alla aktivitetsrapporter.
 
-Om du använder [!UICONTROL Production] Som standard läggs alla okända värdar automatiskt till här och rapportdata från dem inkluderas i standardrapportvyn. Om du i stället skapar en&quot;ren&quot; miljö omfattas bara dina kärnwebbplatser/domäner.
+Om du [!UICONTROL Production] Som standard läggs alla okända värdar automatiskt till här och rapportdata från dem inkluderas i standardrapportvyn. Om du i stället skapar en&quot;ren&quot; miljö omfattas bara dina kärnwebbplatser/domäner.
 
 Så här anger du standardmiljön för rapportering:
 
-1. Från [!UICONTROL Environments] klicka på ikonen Stjärna
+1. Från [!UICONTROL Environments] klickar du på ikonen Stjärna
 
 >[!NOTE]
 >
 >[!DNL Recommendations] -användare måste återskapa sin beteendedatabas och produktdatabas om värdar byter värdgrupper.
+>
+>Om du anger en [standardmiljö i en Adobe Experience Platform-datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}åsidosätter den här miljön inställningen i [!DNL Target Recommendations].
 
 ## Ändra namnet på en miljö {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Från [!UICONTROL Environment] klickar du på **[!UICONTROL Edit]** ikon.
+1. Från [!UICONTROL Environment] klickar du på **[!UICONTROL Edit]** -ikon.
 1. Ändra miljönamnet.
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -60,7 +62,7 @@ Så här anger du standardmiljön för rapportering:
 
 Du kan ta bort en miljö när den inte längre behövs.
 
-1. Från [!UICONTROL Environment] klickar du på **[!UICONTROL Delete]** ikon.
+1. Från [!UICONTROL Environment] klickar du på **[!UICONTROL Delete]** -ikon.
 1. Klicka **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
 >[!NOTE]
@@ -89,6 +91,6 @@ The [!UICONTROL Environment] -filtret är tillgängligt från följande platser 
 
 * Katalogsökning ([!UICONTROL Recommendations > Catalog Search])
 * Dialogrutan Skapa samling ([!UICONTROL Recommendations > Collections > Create New])
-* Uppdatera samling, dialogruta ([!UICONTROL Recommendations > Collections > Edit])
+* Dialogrutan Uppdatera samling ([!UICONTROL Recommendations > Collections > Edit])
 * Dialogrutan Skapa undantag ([!UICONTROL Recommendations > Exclusions > Create New])
 * Dialogrutan Uppdatera undantag ([!UICONTROL Recommendations > Exclusions > Edit])
