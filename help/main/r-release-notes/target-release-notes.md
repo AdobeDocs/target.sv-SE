@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 * Ett problem som visade fel rapportnamn vid växling mellan [!UICONTROL Table View] och [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter. (TGT-46040)
 * Förbättrade [!UICONTROL Visual Experience Composer] (VEC) för att stödja Lightning DOM (webbkomponenter). (TGT-45422)
 * Korrigerade ett problem som gjorde att VEC-åtgärder tillämpades i fel ordning. I vissa fall tillämpade VEC vissa ändringar asynkront och när extra ändringar lades till i ett element uppstod fel om det elementet visas efter ett [!UICONTROL Insert] åtgärd. (TGT-45983)
-* Lagt till möjlighet att ange en CSS-väljare i VEC. (TGT-45958 och TGT-46017)
 * Ett problem som uppstod när en SPA öppnades i VEC-läget och sedan gick till bläddringsläget orsakade att bakåt- och framåtpilarna inte fungerade korrekt. (TGT-45956)
 * Ett problem som gjorde att URL:en inte kunde uppdateras kontinuerligt när du bläddrar genom en webbplats för ett program (SPA) har åtgärdats. (TGT-45417)
 

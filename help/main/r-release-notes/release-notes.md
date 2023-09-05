@@ -6,10 +6,10 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 11%
+source-wordcount: '505'
+ht-degree: 10%
 
 ---
 
@@ -19,21 +19,23 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## [!DNL Adobe Target] Uppgradering av planerad infrastruktur {#edge}
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 september 2023)
 
-Den planerade uppgraderingen av Edge-infrastrukturen kräver att ytterligare IP-domäner eller domäner är tillåtna. Granska och tillåt-lista NAT och IP/domäner för edge-distributioner 41-48. Uppgraderingar av infrastrukturen börjar 9 augusti 2023.
+Den här versionen är tillgänglig enligt följande schema:
 
-Mer information finns i [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} i *Adobe Target Developer Guide*.
-
-## [!DNL Target] Standard/Premium 23.8.1 (9 augusti 2023)
+* **6 september**: Amerika
+* **7 september**: Europa, Mellanöstern och Afrika (EMEA)
+* **11 september**: Asien-Stillahavsregionen (APAC)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Korrigerade ett problem som ibland förhindrade aktiviteter från att synkroniseras korrekt, vilket visas i[!UICONTROL Status]&quot; -kolumnen på [!UICONTROL Activity] listsida. (TGT-46010 &amp; TGT-44831)
-* Ett problem som ibland förhindrade felet har korrigerats[!UICONTROL View in Analytics]&quot; länk från att visas på [!UICONTROL Reports] sida med aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. (TGT-45808)
-* Justerade presentationen av värden i tabeller så att de visas som procenttal i stället för siffror med decimaler. Till exempel 8 % i stället för 0,08. (TGT-45548)
-* Ett problem som hindrade kunder från att använda tangentbordsfokus för att gå till nästa element i [!UICONTROL Goals & Settings] sida för [!UICONTROL Experience Targeting] (XT) aktiviteter. (TGT-44526)
-* Ett problem som orsakade att tangentbordsfokus gick förlorat när du öppnade[!UICONTROL Add audiences]när du skapar en aktivitet. (TGT-44525)
+* Ett problem som orsakade inkonsekventa rapporteringsdata i [!DNL Target] Användargränssnittet och [!DNL Adobe Analytics] Användargränssnitt för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. (TGT-46112)
+* Ökade tidsgränsen för PUT-anrop till Target Delivery API till 15 sekunder för att undvika timeoutfel. (TGT-46091)
+* Ett problem som visade fel rapportnamn vid växling mellan [!UICONTROL Table View] och [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter. (TGT-46040)
+* Förbättrade [!UICONTROL Visual Experience Composer] (VEC) för att stödja Lightning DOM (webbkomponenter). (TGT-45422)
+* Korrigerade ett problem som gjorde att VEC-åtgärder tillämpades i fel ordning. I vissa fall tillämpade VEC vissa ändringar asynkront och när extra ändringar lades till i ett element uppstod fel om det elementet visas efter ett [!UICONTROL Insert] åtgärd. (TGT-45983)
+* Ett problem som uppstod när en SPA öppnades i VEC-läget och sedan gick till bläddringsläget orsakade att bakåt- och framåtpilarna inte fungerade korrekt. (TGT-45956)
+* Ett problem som gjorde att URL:en inte kunde uppdateras kontinuerligt när du bläddrar genom en webbplats för ett program (SPA) har åtgärdats. (TGT-45417)
 
 ## Ytterligare versionsinformation
 

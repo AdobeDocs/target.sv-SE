@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '36384'
+source-wordcount: '36556'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,22 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
+
+### [!DNL Adobe Target] Uppgradering av planerad infrastruktur {#edge}
+
+Den planerade uppgraderingen av Edge-infrastrukturen kräver att ytterligare IP-domäner eller domäner är tillåtna. Granska och tillåt-lista NAT och IP/domäner för edge-distributioner 41-48. Uppgraderingar av infrastrukturen börjar 9 augusti 2023.
+
+Mer information finns i [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} i *Adobe Target Developer Guide*.
+
+### [!DNL Target] Standard/Premium 23.8.1 (9 augusti 2023)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Korrigerade ett problem som ibland förhindrade aktiviteter från att synkroniseras korrekt, vilket visas i[!UICONTROL Status]&quot; -kolumnen på [!UICONTROL Activity] listsida. (TGT-46010 &amp; TGT-44831)
+* Ett problem som ibland förhindrade felet har korrigerats[!UICONTROL View in Analytics]&quot; länk från att visas på [!UICONTROL Reports] sida med aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. (TGT-45808)
+* Justerade presentationen av värden i tabeller så att de visas som procenttal i stället för siffror med decimaler. Till exempel 8 % i stället för 0,08. (TGT-45548)
+* Ett problem som hindrade kunder från att använda tangentbordsfokus för att gå till nästa element i [!UICONTROL Goals & Settings] sida för [!UICONTROL Experience Targeting] (XT) aktiviteter. (TGT-44526)
+* Ett problem som orsakade att tangentbordsfokus gick förlorat när du öppnade[!UICONTROL Add audiences]när du skapar en aktivitet. (TGT-44525)
 
 ### [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
 
@@ -2988,7 +3004,7 @@ Tänk på följande när du implementerar at.js:
 
 * Omdirigeringar för Visual Experience Composer fungerar inte.
 * Tidigare versioner än 8 av Internet Explorer stöds inte.
-* Asynkron implementering innebär att äldre integreringar som plugin-programmet Test&amp;Target till SiteCatalyst kanske inte fungerar.
+* Asynkron implementering innebär att äldre integreringar som plugin-programmet Test&amp;Target to SiteCatalyst kanske inte fungerar.
 * Alla anrop till Target görs via XMLHTTPRequest och innehållet returneras via JSON.
 
 ### Adobe [!DNL Target] Standard/Premium 16.4.1 Fix (5 maj 2016) {#section_70552F61E83140C7B4D2A245198B630E}
@@ -3095,7 +3111,7 @@ Den här versionen innehåller följande funktioner och förbättringar:
      <ul id="ul_8C50C669AA7B4464A5FDECFCFD8662ED"> 
       <li id="li_6065B208480D46178055B40A2654E0C6">Omdirigeringar för Visual Experience Composer fungerar inte. </li> 
       <li id="li_A2FABD3C21994511A45DED84283E526E">Tidigare versioner än 8 av Internet Explorer stöds inte. </li> 
-      <li id="li_04499B391F784B89B09A1D6329B1C790">Asynkron implementering innebär att äldre integreringar som plugin-programmet Test&amp;Target till SiteCatalyst kanske inte fungerar. </li>  
+      <li id="li_04499B391F784B89B09A1D6329B1C790">Asynkron implementering innebär att äldre integreringar som plugin-programmet Test&amp;Target to SiteCatalyst kanske inte fungerar. </li>  
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -3908,7 +3924,7 @@ Den här versionen innehåller följande nya funktioner:
       </ul> </li> 
      <li id="li_36E18493A95B4C96BFA3133CDFD8826A">Kodimplementering på en rad med WYSIWYG-redigering </li> 
      <li id="li_79B1878FA64A40E88A973C57C39FC5FF">Det primära målet för aktiviteten använder för närvarande konverteringsmåttet. Intäkter och engagemang finns som ytterligare mått. </li> 
-     <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B">Anslutning till <span class="keyword"> Överordnad marknadsföringsprofil </span> för smidig insamling av avancerade beteendedata från besökare </li> 
+     <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B">Anslutning till <span class="keyword"> Huvudmarknadsföringsprofil </span> för smidig insamling av avancerade beteendedata från besökare </li> 
     </ul> <p>Se <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -3955,8 +3971,8 @@ Den här versionen innehåller följande nya funktioner:
    <td colname="col2"> Adobe Analytics-kunder kan välja Analytics som standardrapportkälla under <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> testkonfigurationsprocess </a>. Det är inte längre nödvändigt att välja alla framgångsmått eller målgrupper som du vill använda för att filtrera resultaten. I rapporter kan ni välja vilket framgångsmått eller målgruppssegment som helst som definieras i Analytics och retroaktivt använda det i era rapporter för omfattande filtrering och detaljanalys av optimeringsresultaten. <p> <p>Obs! Om du vill begära åtkomst till den här funktionen går du till <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Överordnad marknadsföringsprofil för målgrupper i realtid </td> 
-   <td colname="col2"> Utnyttja den överordnad marknadsföringsprofil som förenar besökar-ID:n och data till en enda hanterbar profil som kan användas i alla lösningar. Med en kryssruta när du skapar segment i Adobe Analytics är segmentet tillgängligt i Adobe Target anpassade målgruppsbibliotek. Ett segment som skapats i Analytics eller Audience Manager kan användas för att rikta in sig på besökare i Target. <p> <p>Obs! Om du vill begära åtkomst till den här funktionen går du till <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
+   <td colname="col1"> Masterprofil för marknadsföring i realtid </td> 
+   <td colname="col2"> Utnyttja den masterprofil för marknadsföring som förenar besökar-ID:n och data i en enda hanterbar profil för användning i olika lösningar. Med en kryssruta när du skapar segment i Adobe Analytics är segmentet tillgängligt i Adobe Target anpassade målgruppsbibliotek. Ett segment som skapats i Analytics eller Audience Manager kan användas för att rikta in sig på besökare i Target. <p> <p>Obs! Om du vill begära åtkomst till den här funktionen går du till <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Aktivitetstyp för målinriktning </td> 
@@ -4067,7 +4083,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
   </tr> 
   <tr> 
    <td colname="col1"> Ångra/Gör om </td> 
-   <td colname="col2"> <p>Du kan ångra ändringar du gör i dina aktiviteter under en redigeringssession. Du kan även göra om ångra ändringar. </p> <p>Se <a href="/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Alternativ för Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Du kan ångra ändringar som du gör i dina aktiviteter under en redigeringssession. Du kan även göra om ångra ändringar. </p> <p>Se <a href="/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Alternativ för Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Flytta element </td> 
