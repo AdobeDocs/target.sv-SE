@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 4 september 2023**
+**Senast uppdaterad: 6 september 2023**
 
 >[!NOTE]
 >
@@ -35,10 +35,6 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 
 * Ett problem som orsakade inkonsekventa rapporteringsdata i [!DNL Target] Användargränssnittet och [!DNL Adobe Analytics] Användargränssnitt för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. (TGT-46112)
 * Ökade tidsgränsen för PUT-anrop till Target Delivery API till 15 sekunder för att undvika timeoutfel. (TGT-46091)
-* Ett problem som visade fel rapportnamn vid växling mellan [!UICONTROL Table View] och [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter. (TGT-46040)
-* Förbättrade [!UICONTROL Visual Experience Composer] (VEC) för att stödja Lightning DOM (webbkomponenter). (TGT-45422)
-* Korrigerade ett problem som gjorde att VEC-åtgärder tillämpades i fel ordning. I vissa fall tillämpade VEC vissa ändringar asynkront och när extra ändringar lades till i ett element uppstod fel om det elementet visas efter ett [!UICONTROL Insert] åtgärd. (TGT-45983)
-* Ett problem som uppstod när en SPA öppnades i VEC-läget och sedan gick till bläddringsläget orsakade att bakåt- och framåtpilarna inte fungerade korrekt. (TGT-45956)
 * Ett problem som gjorde att URL:en inte kunde uppdateras kontinuerligt när du bläddrar genom en webbplats för ett program (SPA) har åtgärdats. (TGT-45417)
 
 ## Ytterligare versionsinformation
