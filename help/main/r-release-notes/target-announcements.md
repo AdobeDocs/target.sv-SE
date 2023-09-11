@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
+source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2120'
 ht-degree: 0%
 
 ---
@@ -14,27 +14,6 @@ ht-degree: 0%
 # [!DNL Adobe Target] meddelanden och evenemang
 
 Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
-
-## [!DNL Adobe Target] Community Q&amp;A Coffee Break (30 augusti 2023)
-
-* **Ämne:&quot;Strategize for maximum ROI impact with peak säsonreadiness readiness&quot; (Strategize for maximal ROI impact with peak säsonreadiness readiness readiness) - uppföljning av webbinariet**
-* **Onsdagen den 30 augusti 2023**
-* **8:00-9:00.00 (PDT, UTC-7)**
-* **[Registrera dig här](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
-
-[!DNL Adobe Target] Experterna John Magnusson och John Mosbaugh kommer att vara tillgängliga i det här eventet med frågor och svar om de ämnen som behandlas i webbseminariet&quot;Strategize for maximum ROI impact with peak säsoniness readiness&quot; (17 augusti 2023).
-
-+++Se information
-
-Ämnen:
-
-* Skapa instrumentpaneler och rapportera viktiga mätvärden effektivt
-* Undersöka effekten av varje marknadsföringskanal
-* Gräv djupare in i kundbeteende och köptrender
-* Identifiera dåliga kundupplevelser och förbättra dem via testning
-* Identifierar områden som ger möjlighet att öka konverteringsgraden
-
-+++
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 
