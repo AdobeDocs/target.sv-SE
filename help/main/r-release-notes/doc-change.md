@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
+source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
-| 11 september | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.9.2-utgåvan. |
+| 12 september | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.9.2-utgåvan. |
+| 11 september | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagda förhandsversionsinformation för [!DNL Target Standard/Premium] 23.9.2-utgåvan. |
 | 6 september | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.9.1-utgåvan. |
 
 ## [!DNL Target] Standard/Premium 23.8.1 (9 augusti 2023)
