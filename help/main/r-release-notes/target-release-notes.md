@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
+source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,23 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 14 september 2023**
+**Senast uppdaterad: 15 september 2023**
 
 >[!NOTE]
 >
 >Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
+
+## [!DNL Target] Standard/Premium 23.9.3 (18 september 2023)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Förbättrade [!UICONTROL Visual Experience Composer] (VEC) för att stödja Lightning DOM (webbkomponenter). (TGT-45422)
+* Korrigerade ett problem som gjorde att VEC-åtgärder tillämpades i fel ordning. I vissa fall tillämpade VEC vissa ändringar asynkront och när extra ändringar lades till i ett element uppstod fel om det elementet visas efter ett [!UICONTROL Insert] åtgärd. (TGT-45983)
+* Ett problem med VEC har korrigerats [!UICONTROL Overlay] som nu stöder element i skugg-DOM. (TGT-45202 &amp; TGT-45262)
+* Ett problem har korrigerats när en SPA öppnades i VEC och sedan [!UICONTROL Browse] läge fick bakåt- och framåtpilarna att inte fungera korrekt. (TGT-45956)
+* Ett problem som gjorde att vissa webbsidor inte kunde läsas in i VEC har korrigerats. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12-14 september 2023)
 
