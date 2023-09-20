@@ -5,9 +5,9 @@ title: Vad är [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
+source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ Tänk på följande information innan du använder CJA4T-integreringen:
    * Om du har en [Målstandard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) konto, se [Ange roller och behörigheter](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Användare*.
    * Om du har en [Mål Premium](/help/main/c-intro/intro.md#premium) konto, se [Roller och behörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Enterprise-användarbehörigheter*.
 
+* Du måste ingå i en roll i [!DNL Adobe Experience Platform] för att konfigurera en [!DNL Target] aktivitet med [!DNL Customer Journey Analytics] som rapportkälla. Mer information finns i [Lägg till en roll i [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} in *Konfigurera behörigheter* i *Självstudiekurs om dataarkitekt och ingenjör.*
 * Beroende på dina inställningar kan rapporteringen ändras per aktivitet eller på organisationsnivå. Se [Reporting Cloud Solution](/help/main/administrating-target/reporting.md#solution) in *Konfigurera rapportering i mål*.
 * Använd en rapportkälla eller en annan. Du kan inte samla in data för en enskild aktivitet till flera rapportkällor.
 * När du anger [!DNL Customer Journey Analytics] som rapportkälla uppmanas du att ange sandlådan för rapportering. Under konfigurationen visas bara de sandlådor som du har åtkomst till.
