@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,23 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 * Ett problem som orsakade inkonsekventa rapporteringsdata i [!DNL Target] Användargränssnittet och [!DNL Adobe Analytics] Användargränssnitt för [!UICONTROL Auto-Allocate] aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. (TGT-46112)
 * Ökade tidsgränsen för PUT-anrop till Target Delivery API till 15 sekunder för att undvika timeoutfel. (TGT-46091)
 * Ett problem som gjorde att URL:en inte kunde uppdateras kontinuerligt när du bläddrar genom en webbplats för ett program (SPA) har åtgärdats. (TGT-45417)
+
+## [!DNL Target] Standard/Premium 23.5.2 (datum ska fastställas)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Val av aktiverade optimeringskriterier för [!DNL Adobe Analytics] mätvärden.
+* Aktiverad synkronisering av externa målgrupper med sling-jobb.
+* Ett problem har korrigerats där SC-rapportsviter som innehåller ett punkttecken i namnet inte stöds.
+* Funktioner som gör att kunderna kan ta bort och redigera inbyggda målgrupper.
+
+## [!DNL Target] Standard/Premium 23.5.3 (datum ska fastställas)
+
+Den här versionen innehåller följande förbättringar:
+
+| Funktion | Information |
+|--- |--- |
+| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] verksamhet | [!DNL Adobe Target] [!UICONTROL QA mode] är nu tillgängligt för [!UICONTROL Automated Personalization] aktiviteter, ersätta [!UICONTROL Preview links] funktionalitet.<P>Mer information finns i [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
 ## Ytterligare versionsinformation
 

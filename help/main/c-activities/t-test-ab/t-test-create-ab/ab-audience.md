@@ -4,9 +4,9 @@ description: Publiken avgör vilka besökare som läggs in i Adobe [!DNL Target]
 title: Hur väljer jag en publik i en [!DNL Target] A/B-aktivitet?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -19,29 +19,40 @@ Publiken avgör vilka besökare som läggs in på webbplatsen [!DNL Adobe Target
 >
 >Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-I [!UICONTROL Audience] klickar du på ikonen Redigera (tre lodräta ellipser) och sedan på **[!UICONTROL Replace Audience]**.
+1. I [!UICONTROL Audience] klickar du på **[!UICONTROL Edit]** (den lodräta ellipsen) och klicka sedan på **[!UICONTROL Replace Audience]**.
 
-![Alternativet Ersätt publik](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+   ![Alternativet Ersätt publik](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Målgrupper väljs ut från målgruppsbiblioteket eller så kan du skapa en målgrupp som bara är aktiv. Målgruppsbiblioteket innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är färdigbyggda som en del av Target. Du kan välja en målgrupp i biblioteket, [skapa en ny målgrupp](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), eller [skapa en målgrupp som bara innehåller aktivitet](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). För ett A/B-test utan specifik målgruppsanpassning väljer du standardinställningen Alla besökare.
+   Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Målgrupper väljs ut från målgruppsbiblioteket eller så kan du skapa en målgrupp som bara är aktiv. Målgruppsbiblioteket innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är färdigbyggda som en del av [!DNL Target].
 
-Observera att du även kan redigera eller kopiera en publik genom att hovra över den önskade publiken i [!UICONTROL Choose Audience] som visas nedan. Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringarna och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
+1. Välj eller skapa önskad målgrupp:
 
-![Målgruppshovring](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+   * Välj en målgrupp i biblioteket
+   * [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
+   * [Skapa en ny målgrupp](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
+   * [Skapa en målgrupp som bara är aktiv](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-När du skapar en målgrupp kan du välja en plats (mbox) och ange parametrar för den platsen. Markera rutan under Egna parametrar och ange sedan önskade parametrar.
+   För ett A/B-test utan specifik målgruppsanpassning väljer du standardvärdet, [!UICONTROL All Visitors].
 
->[!NOTE]
->
->Publiken importeras automatiskt i bakgrunden när du öppnar målgruppslistan och de importerade målgrupperna är mer än tio minuter gamla.
+   Du kan också redigera eller kopiera en publik genom att hålla pekaren över den önskade publiken i [!UICONTROL Add Audience] som visas nedan.
 
-Klicka på nedpilen för att ta bort den befintliga publiken eller ändra målgruppen.
+   Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringar och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
 
-Du kan ange hur många procent kvalificerade besökare som ska inkluderas i aktiviteten. Du kan till exempel välja att ta med 50 % av alla besökare.
+   ![Målgruppshovring](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-![Målgrupp i procent](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   När du skapar en målgrupp kan du välja en plats (mbox) och ange parametrar för den platsen. Under [!UICONTROL Custom Parameters]markerar du rutan och anger sedan önskade parametrar.
 
-Du kan också välja att låta Mål [tilldela trafik automatiskt](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   >[!NOTE]
+   >
+   >Publiken importeras automatiskt i bakgrunden när du öppnar målgruppslistan och de importerade målgrupperna är mer än tio minuter gamla.
+
+1. (Villkorligt) Ange den procentandel kvalificerade besökare som ska inkluderas i aktiviteten.
+
+   Du kan till exempel välja att ta med 50 % av alla besökare.
+
+   ![Målgrupp i procent](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+
+   Du kan också välja att låta Mål [tilldela trafik automatiskt](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Utbildningsvideor
 

@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '36556'
+source-wordcount: '36539'
 ht-degree: 0%
 
 ---
@@ -2933,10 +2933,6 @@ Adobe Target Standard/Premium 16.5.1 (19 maj 2016) innehåller följande funktio
   <tr> 
    <td colname="col1"> Experience Versions </td> 
    <td colname="col2"> <p>Versioner som riktar sig till olika målgrupper kan nu skapas med upplevelser i A/B-aktiviteter. </p> <p>Se <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local"> Rikta en upplevelse mot flera målgrupper </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> URL för frågor och svar/förhandsgranskning </td> 
-   <td colname="col2"> <p>Förhandsgransknings-URL:er är nu tillgängliga för den formulärbaserade upplevelsedispositionen. </p> <p>Se <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> Visa URL:er för upplevelse </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations anpassade algoritmer </td> 

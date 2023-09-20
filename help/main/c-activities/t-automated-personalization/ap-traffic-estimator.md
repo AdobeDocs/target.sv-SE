@@ -1,38 +1,38 @@
 ---
-keywords: trafikuppskattare;automatiserad personalisering;ap;uppskattning av trafik;automål
-description: Använd Adobe [!DNL Target] Trafikberäkning för att avgöra om du har tillräckligt med trafik för att din Automated Personalization-aktivitet ska lyckas.
-title: Hur mycket trafik krävs för en framgångsrik verksamhet?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: trafikskattare;automatiserad personalisering;ap;uppskattning av trafik
+description: Använd [!DNL Adobe Target] [!UICONTROL Traffic Estimator] för att avgöra om ni har tillräckligt med trafik för [!UICONTROL Automated Personalization] för att lyckas.
+title: Hur mycket trafik krävs för att lyckas [!UICONTROL Automated Personalization] Aktivitet?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Uppskatta den trafik som krävs för att lyckas
 
-The [!DNL Adobe Target] [!UICONTROL Traffic Estimator] ger feedback som talar om för dig om du har tillräckligt med trafik för [!UICONTROL Automated Personalization] för att lyckas.
+The [!DNL Adobe Target] [!UICONTROL Traffic Estimator] ger feedback som talar om för dig om du har tillräckligt med trafik för [!UICONTROL Automated Personalization] (AP)-aktivitet för att lyckas.
 
-Eftersom en [!UICONTROL Automated Personalization] aktiviteten använder flera kombinationer av erbjudanden, det är viktigt att veta hur mycket trafik som krävs för att ge meningsfulla resultat. The [!UICONTROL Traffic Estimator] använder statistik om er sida och antalet upplevelser som testas för att uppskatta mängden trafik och hur lång tid som krävs för att aktiviteten ska lyckas.
+För [!UICONTROL Automated Personalization] aktiviteter använder flera kombinationer av erbjudanden, det är viktigt att veta hur mycket trafik som krävs för att skapa meningsfulla resultat. The [!UICONTROL Traffic Estimator] använder statistik om er sida och antalet upplevelser som testas för att uppskatta mängden trafik och hur lång tid som krävs för att aktiviteten ska lyckas.
 
-The [!UICONTROL Traffic Estimator] avgör om det finns tillräckligt med trafik för att generera personaliserade modeller genom att jämföra sidornas uppskattade visningar och typiska konverteringsgrad. Det bästa är om du väljer en lyckad aktivitet med rätt samplingsstorlek, så att det anpassade innehållet är klart inom 50 % av aktivitetens varaktighet eller 14 dagar, beroende på vilket värde som är lägst. Denna process ger tillräckligt med tid för att få personaliserat innehåll och lära sig vilket innehåll som ska levereras.
+The [!UICONTROL Traffic Estimator] avgör om det finns tillräckligt med trafik för att generera personaliserade modeller genom att jämföra de uppskattade sidavtrycken och den typiska konverteringsgraden för sidorna. Det bästa är om du väljer en lyckad aktivitet med rätt samplingsstorlek, så att det anpassade innehållet är klart inom 50 % av aktivitetens varaktighet eller 14 dagar, beroende på vilket värde som är lägst. Denna process ger tillräckligt med tid för att få personaliserat innehåll och lära sig vilket innehåll som ska levereras.
 
 Kom ihåg att [!DNL Target] levererar upplevelser slumpmässigt tills personaliseringsalgoritmerna byggs. bockmarkeringsikonen bredvid varje erbjudande visar när modellen för det erbjudandet är klar och [!DNL Target] kan börja leverera personaliserat innehåll. Eftersom lift (lift) förväntas först när modellerna är klara kan du med den visuella indikeringen ställa in rätt förväntningar. Använd [!UICONTROL Traffic Estimator] i [!UICONTROL Visual Experience Composer] (VEC) för att få riktlinjer för när modellerna är klara.
 
 ## Använda Traffic Estimator
 
-1. Från [!UICONTROL Visual Experience Composer], klicka **[!UICONTROL Traffic]**.
+1. Från [!UICONTROL Experiences] sidan på [!UICONTROL Visual Experience Composer] i en [!UICONTROL Automated Personalization] aktivitet, klicka på  **[!UICONTROL Traffic]** -ikon.
 
    ![Trafikikon](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   The [!UICONTROL Traffic Estimator] öppnas. Du kan klicka **[!UICONTROL Traffic]** igen för att dölja [!UICONTROL Traffic Estimator].
+   The [!UICONTROL Traffic Estimator] öppnas. Klicka **[!UICONTROL Traffic]** igen för att dölja [!UICONTROL Traffic Estimator].
 
    ![Trafikberäkning, användargränssnitt](assets/ap_est.png)
 
-1. Ange typisk konverteringsgrad (eller den konverteringsgrad du förväntar dig av den här aktiviteten), beräknade aktivitetsavtryck per dag och testets varaktighet.
+1. Ange typisk konverteringsgrad (eller den konverteringsgrad som du förväntar dig av den här aktiviteten), uppskattade aktivitetsavtryck per dag och testets varaktighet.
 
    | Mått | Beskrivning |
    | --- | --- |
@@ -47,11 +47,11 @@ Kom ihåg att [!DNL Target] levererar upplevelser slumpmässigt tills personalis
 
    ![Trafikberäkning med värden och resultat visade](assets/ap_est_no.png)
 
-   När du ändrar siffrorna ändras uppskattningen. Om du till exempel testar många kombinationer och konverteringsgraden och antalet visningar är för låga, är [!UICONTROL Traffic Estimator] visar hur länge testet måste köras för att lyckas. Eller, om trafiken är låg, [!UICONTROL Traffic Estimator] kan tyda på ett lägre antal erbjudandekombinationer så att du kan köra testet det önskade antalet dagar.
+   När du ändrar siffrorna ändras uppskattningen. Om du till exempel testar många kombinationer och konverteringsgraden och antalet visningar är för låga, är [!UICONTROL Traffic Estimator] visar hur länge testet måste köras för att lyckas. Om trafiken är låg kan [!UICONTROL Traffic Estimator] kan tyda på ett lägre antal erbjudandekombinationer så att du kan köra testet det önskade antalet dagar.
 
    Om du inte har tillräckligt med trafik bör du tänka på följande:
 
-   * Överväg att använda en [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) aktivitet i stället för [!UICONTROL Automated Personalization] för att skapa upplevelser med flera olika erbjudanden i en upplevelsevariation.
+   * Överväg att använda [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) aktivitet i stället för [!UICONTROL Automated Personalization] för att skapa upplevelser med flera olika erbjudanden i en upplevelsevariation.
    * Minska antalet erbjudandekombinationer i er [!UICONTROL Automated Personalization] aktivitet.
    * Öka aktivitetens varaktighet.
 

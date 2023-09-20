@@ -1,18 +1,18 @@
 ---
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning;trafik
-description: Utforska felsökningsämnen och vanliga frågor och svar om Automatisk Target-aktiviteter i Adobe Target.
-title: Hur felsöker jag Automatiskt inriktade aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: Utforska felsökningsämnen och Frågor och svar om [!UICONTROL Auto-Target] verksamhet.
+title: Hur felsöker jag [!UICONTROL Auto-Target] Verksamheter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%
 
 ---
 
-# Vanliga frågor och felsökning för Automatiskt mål
+# [!UICONTROL Auto-Target] Vanliga frågor och felsökning
 
 Felsökning och vanliga frågor (FAQ) om [!UICONTROL Auto-Target] verksamhet i [!DNL Adobe Target].
 
@@ -25,22 +25,21 @@ Se följande frågor och svar när du arbetar med [!UICONTROL Auto-Target] verks
 +++Svar
 * Bestäm om affärsvärdet för en [!UICONTROL Revenue per Visit] (RPV) framgångsmått är värt de extra trafikkraven. RPV behöver vanligtvis minst 1 000 konverteringar per upplevelse för att en aktivitet ska fungera jämfört med konvertering.
 * Bestäm allokeringen mellan kontroll och personaliserade upplevelser innan du påbörjar aktiviteten utifrån era mål.
-* Kontrollera om du har tillräckligt med trafik till sidan där [!UICONTROL Auto-Target] aktiviteten kommer att köras så att personaliseringsmodeller kan byggas upp inom rimlig tid.
-   * Om du testar personaliseringsalgoritmen bör du inte ändra upplevelser eller lägga till eller ta bort profilattribut när aktiviteten är aktiv.
+* Kontrollera om du har tillräckligt med trafik till sidan där [!UICONTROL Auto-Target] för att personaliseringsmodeller ska kunna byggas på rimlig tid.
+* Om du testar personaliseringsalgoritmen bör du inte ändra upplevelser eller lägga till eller ta bort profilattribut när aktiviteten är aktiv.
+* Överväg att slutföra en A/B-aktivitet mellan erbjudandena och platserna som du tänker använda i [!UICONTROL Auto-Target] aktivitet för att säkerställa att platserna och erbjudandena påverkar optimeringsmålet. Om en A/B-aktivitet inte uppvisar någon signifikant skillnad, [!UICONTROL Auto-Target] sannolikt inte heller genererar lyft.
 
-* Överväg att slutföra en A/B-aktivitet mellan erbjudandena och platserna som du tänker använda i [!UICONTROL Auto-Target] för att säkerställa att platserna och erbjudandena påverkar optimeringsmålet. Om en A/B-aktivitet inte uppvisar någon signifikant skillnad, [!UICONTROL Auto-Target] sannolikt inte heller kommer att generera någon lyft.
+  Om ett A/B-test inte visar några statistiskt signifikanta skillnader mellan upplevelserna, är det troligt att de erbjudanden du överväger inte skiljer sig tillräckligt mycket från varandra, att de platser du valde inte påverkar framgångsmåttet eller att optimeringsmålet är för långt i konverteringsprocessen för att påverkas av dina valda erbjudanden.
 
-   * Om ett A/B-test inte visar några statistiskt signifikanta skillnader mellan upplevelserna, är det troligt att de erbjudanden du överväger inte skiljer sig tillräckligt mycket från varandra, att de platser du valde inte påverkar framgångsmåttet eller att optimeringsmålet är för långt i konverteringsprocessen för att påverkas av dina valda erbjudanden.
-
-* Försök att inte göra några större ändringar av upplevelserna under aktivitetens gång.
+* Försök att inte göra några större ändringar av upplevelserna under aktiviteten.
 
 +++
 
-### Rekommenderar du att använda Adobe? [!UICONTROL Auto Target] med 90 (Kontroll)/10 (Riktat) delat tills modellerna har byggts?
+### Gör [!UICONTROL Adobe] som du rekommenderar med [!UICONTROL Auto Target] med 90 (Kontroll)/10 (Riktat) delat tills modellerna har byggts?
 
 +++Svara på Din optimala trafikallokering beror på vad du vill uppnå.
 
-Om målet är att personalisera så mycket trafik som möjligt kan ni behålla 90 % riktad tilldelning och 10 % kontroll över aktivitetens livstid. Om målet är att köra ett experiment där man jämför hur väl personaliserade algoritmer fungerar jämfört med kontrollen är en delning på 50/50 bäst under aktivitetens livstid.
+Om målet är att personalisera så mycket trafik som möjligt kan ni behålla 90 % riktad tilldelning och 10 % kontroll över aktivitetens livstid. Om målet är att köra ett experiment där personaliserade algoritmer jämförs med kontrollen, är en delning på 50/50 bäst under aktivitetens livstid.
 
 Det bästa sättet är att behålla uppdelningen av trafikallokeringen under aktivitetens livstid så att besökarna inte växlar mellan målinriktade upplevelser och kontrollupplevelser.
 
@@ -54,13 +53,13 @@ No, check marks for model generation show only the models built to date. There's
 
 ### Om en besökare gör det **not** se [!UICONTROL Auto-Target] räknar konverteringen i min aktivitet?
 
-+++svarsnr, endast besökare som är berättigade till och kan visa [!UICONTROL Auto-Target] aktivitet räknas i rapporteringen.
++++Svarsnr Endast besökare som är berättigade att visa [!UICONTROL Auto-Target] aktivitet räknas i rapporteringen.
 
 +++
 
-### Varför inte min [!UICONTROL Auto-Target] aktiviteten verkar generera något lyft.
+### Varför är inte min [!UICONTROL Auto-Target] aktiviteten verkar generera något lyft.
 
-+++Svar Det krävs fyra faktorer för en [!UICONTROL Auto-Target] verksamhet för att skapa lyft:
++++Svar Det krävs fyra faktorer för en [!UICONTROL Auto-Target] Aktivitet för att skapa lyft:
 
 * Erbjudandena måste vara tillräckligt olika för att påverka besökarna.
 * Erbjudandena måste finnas någonstans som gör skillnad för optimeringsmålet.
@@ -69,14 +68,14 @@ No, check marks for model generation show only the models built to date. There's
 
 Det bästa sättet att agera är att först se till att det innehåll och de platser som utgör aktivitetsupplevelserna verkligen gör skillnad i den totala svarsfrekvensen med hjälp av ett enkelt, icke-personaliserat A/B-test. Se till att beräkna provstorlekarna i förväg för att säkerställa att det finns tillräckligt med kraft för att se en rimlig lyft och köra A/B-provningen under en fast varaktighet utan att stoppa den eller göra några ändringar.
 
-Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet kommer att fungera. Personalisering kan förstås fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på att erbjudandena/platserna inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
+Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet kommer att fungera. Personalisering kan förstås fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på erbjudanden och platser som inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
 
 +++
 
 ### När borde jag stoppa min [!UICONTROL Auto-Target] aktivitet?
 
 +++Svar
-[!UICONTROL Auto-Target] kan användas som&quot;alltid on&quot;-personalisering som hela tiden optimeras. I synnerhet när det gäller innehåll som alltid är grönt behöver du inte stoppa [!UICONTROL Auto-Target] aktivitet.
+[!UICONTROL Auto-Target] kan användas som&quot;alltid on&quot;-personalisering som ständigt optimeras. I synnerhet när det gäller innehåll som alltid är grönt behöver du inte stoppa [!UICONTROL Auto-Target] aktivitet.
 
 Om du vill göra väsentliga ändringar av innehållet i [!UICONTROL Auto-Target] är det bästa sättet att starta en ny aktivitet så att andra användare som granskar rapporter inte förväxlar eller relaterar tidigare resultat med annat innehåll.
 
@@ -90,9 +89,9 @@ Om du vill göra väsentliga ändringar av innehållet i [!UICONTROL Auto-Target
 
 Några andra saker att tänka på [!UICONTROL Auto-Target]Modelluppbyggnad:
 
-* När en aktivitet är aktiv, [!UICONTROL Auto-Target] tar hänsyn till upp till de 45 sista dagarna med slumpmässigt betjänade data när man försöker skapa modeller (till exempel kontrolltrafik, plus några extra slumpmässigt hanterade data som lagras av algoritmen).
+* När en aktivitet är aktiv, [!UICONTROL Auto-Target] tar hänsyn till de senaste 45 dagarna med slumpmässigt använda data när man försöker skapa modeller. Styr till exempel trafiken, plus vissa extra data som spelas upp slumpmässigt av algoritmen.
 * När [!UICONTROL Revenue per Visit] är dina framgångsmått, kräver dessa aktiviteter vanligtvis mer data för att bygga modeller på grund av den högre datavariationen som vanligtvis finns i besöksinkomster jämfört med konverteringsgraden.
-* Eftersom modellerna byggs per upplevelse innebär en ersättning av en upplevelse med en annan att tillräcklig trafik (minst 50 konverteringar) måste samlas in för den nya upplevelsen innan personaliserade modeller kan byggas om.
+* Eftersom modellerna byggs per upplevelse innebär en ersättning av en upplevelse med en annan att tillräcklig trafik (minst 50 konverteringar) måste samlas in för den nya upplevelsen innan personaliserade modeller kan återskapas.
 
 +++
 
@@ -104,7 +103,7 @@ Några andra saker att tänka på [!UICONTROL Auto-Target]Modelluppbyggnad:
 
 ### När kan jag börja titta på resultaten från [!UICONTROL Auto-Target] aktivitet?
 
-+++Svar Du kan börja titta på resultaten av [!UICONTROL Auto-Target] testa efter att du har minst två upplevelser med modeller byggda (grön bock) för upplevelsen med modeller skapade.
++++Svar Du kan börja titta på resultaten av [!UICONTROL Auto-Target] testa efter att du har minst två upplevelser med modeller byggda (grön bock) för upplevelsen som har modeller skapade.
 
 +++
 
@@ -120,7 +119,7 @@ Mer information finns i [Använd en specifik upplevelse som kontroll](/help/main
 
 ### Kan jag ändra målmåttet genom en [!UICONTROL Auto-Target] aktivitet? {#change-metric}
 
-+++Besvara Adobe rekommenderar inte att du ändrar målmåttet genom en aktivitet. Även om det är möjligt att ändra målmåttet under en aktivitet med [!DNL Target] Gränssnittet, du bör alltid starta en ny aktivitet. Vi garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
++++Besvara Adobe rekommenderar inte att du ändrar målmåttet genom en aktivitet. Även om det är möjligt att ändra målmåttet under en aktivitet med [!DNL Target] Gränssnittet, du bör alltid starta en ny aktivitet. Adobe garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
 
 Denna rekommendation gäller [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]och [!UICONTROL Automated Personalization] aktiviteter som använder [!DNL Target] eller [!DNL Analytics] (A4T) som rapportkälla.
 
@@ -139,13 +138,13 @@ Denna vägledning gäller även för [!UICONTROL Auto-Allocate] och [!UICONTROL 
 +++Svar
 [!DNL Target] bygger en modell per upplevelse, vilket innebär att en upplevelse tas bort [!DNL Target] skapar en modell med mindre storlek och påverkar inte modeller för de andra upplevelserna.
 
-Anta till exempel att du har en [!UICONTROL Auto-Target] med åtta upplevelser och du tycker inte om en upplevelse. Ni kan ta bort den upplevelsen och den påverkar inte modellerna för de sju återstående upplevelserna.
+Anta att du har en [!UICONTROL Auto-Target] med åtta upplevelser och du tycker inte om en upplevelse. Ni kan ta bort den upplevelsen och den påverkar inte modellerna för de sju återstående upplevelserna.
 
 +++
 
 ## Felsökning [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
-Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utmaningar du kan ställas inför när du använder [!UICONTROL Auto-Target] och några förslag på lösningar.
+Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utmaningar som du kan stöta på när du använder [!UICONTROL Auto-Target] och några förslag på lösningar.
 
 ### Min [!UICONTROL Auto-Target] aktiviteten tar för lång tid att skapa modeller.
 
@@ -162,7 +161,7 @@ Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utma
 
 ### Min [!UICONTROL Auto-Target] aktiviteten inte genererar något lyft.
 
-+++Felsökningsförslag Det finns fyra faktorer som krävs för att en AT-aktivitet ska generera en lyft:
++++Felsökningsförslag Det finns fyra faktorer som krävs för en [!UICONTROL Auto-Target] Aktivitet för att skapa lyft:
 
 * Erbjudandena måste vara tillräckligt olika för att påverka besökarna.
 * Erbjudandena måste finnas någonstans som gör skillnad för optimeringsmålet.
@@ -171,7 +170,7 @@ Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utma
 
 **Lösning:** Kontrollera först att din aktivitet personaliserar trafik. Om modellerna inte har byggts för alla upplevelser, [!UICONTROL Auto-Target] aktiviteten ger fortfarande en slumpvis stor del av besöken för att försöka skapa alla modeller så snabbt som möjligt. Om modeller inte byggs [!UICONTROL Auto-Target] personaliserar inte trafik.
 
-Se sedan till att erbjudandena och aktivitetsplatserna verkligen gör skillnad för den totala svarsfrekvensen med hjälp av ett enkelt, icke-personaliserat A/B-test. Se till att beräkna provstorlekarna i förväg för att säkerställa att det finns tillräckligt med kraft för att se en rimlig lyft och köra A/B-provningen under en fast varaktighet utan att stoppa den eller göra några ändringar. Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet kommer att fungera. Personalisering kan förstås fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på erbjudanden och platser som inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
+Se sedan till att erbjudandena och aktivitetsplatserna verkligen gör skillnad i den totala svarsfrekvensen med hjälp av ett enkelt, icke-personaliserat A/B-test. Se till att beräkna provstorlekarna i förväg för att säkerställa att det finns tillräckligt med kraft för att se en rimlig lyft och köra A/B-provningen under en fast varaktighet utan att stoppa den eller göra några ändringar. Om resultaten från ett A/B-test visar en statistiskt signifikant förbättring av en eller flera av upplevelserna är det troligt att en personaliserad aktivitet fungerar. Personalisering kan fungera även om det inte finns några skillnader i den totala svarsfrekvensen för upplevelserna. Vanligtvis beror problemet på erbjudanden och platser som inte har tillräckligt stor inverkan på optimeringsmålet för att kunna identifieras med statistisk betydelse.
 
 +++
 
@@ -181,6 +180,6 @@ Se sedan till att erbjudandena och aktivitetsplatserna verkligen gör skillnad f
 
 I en [!UICONTROL Auto-Target] när ett konverteringsmått (vare sig optimeringsmål eller postmål) konverteras, släpps användaren från upplevelsen och aktiviteten startas om.
 
-Det finns till exempel en aktivitet med ett konverteringsmått (C1) och ett ytterligare mått (A1). A1 är beroende av C1. När en besökare går in i aktiviteten för första gången och villkoren för konvertering av A1 och C1 inte konverteras, konverteras inte mätvärdena A1 på grund av beroendet av framgångsmått. Om besökaren konverterar C1 och sedan konverterar A1 konverteras A1 fortfarande inte eftersom besökaren släpps när C1 konverteras.
+Det finns till exempel en aktivitet med ett konverteringsmått (C1) och ett ytterligare mått (A1). A1 är beroende av C1. När en besökare går in i aktiviteten för första gången och villkoren för konvertering av A1 och C1 inte konverteras, konverteras inte mätvärdena A1 på grund av beroendet av framgångsmått. Om besökaren konverterar C1 och sedan konverterar A1, konverteras A1 fortfarande inte eftersom besökaren frigörs när C1 konverteras.
 
 +++

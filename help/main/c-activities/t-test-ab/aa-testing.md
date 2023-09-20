@@ -4,9 +4,9 @@ description: Lär dig vad ett A/A-test är, varför du kanske vill göra ett A/A
 title: Vad är A/A-testning?
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4f0ebdd06287a438e519d9bccb677ab1a9093396
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -31,17 +31,17 @@ Vissa organisationer utför A/A-tester när de implementerar ett nytt testverkty
 * Koden implementerades korrekt
 * Rapporteringen är korrekt
 
-Även om få organisationer kör A/A-tester är det i själva verket bra rutin att köra dem som&quot;friska&quot; experiment för att bygga upp förtroende efter att ha implementerat verktyget eller innan A/B-tester utförs som kan påverka konvertering och intäkter.
+Även om få organisationer kör A/A-tester är det god praxis att köra dem som&quot;sanitetsexperiment&quot; för att bygga upp förtroende efter att verktyget har implementerats eller innan A/B-tester utförs som kan påverka konvertering och intäkter.
 
 ## Varför skulle ni vilja lyfta för en upplevelse när upplevelserna är identiska?
 
-Det finns många orsaker till varför du kan se en ökning i en upplevelse jämfört med en annan (identisk) upplevelse:
+Det finns många orsaker till varför du kan se en ny upplevelse framför en annan (identisk) upplevelse:
 
 ### A/A-testet övervakades kontinuerligt
 
-Ett vanligt problem med att köra alla typer av tester, inklusive ett A/A-test, är att undersöka resultaten kontinuerligt och i förtid stoppa ett test så snart du ser statistisk signifikans och deklarera en vinnande upplevelse. Analytikerna gör ofta det som kallas&quot;datasökning&quot;. Vid sökning efter data måste man titta på testdata tidigt och ofta, samtidigt som man försöker avgöra vilken upplevelse som fungerar bättre. Risken är att stoppa testet i förtid, vilket kan göra resultaten ogiltiga.
+Ett vanligt problem med att köra alla typer av tester, inklusive A/A-tester, är att titta på resultaten kontinuerligt och i förtid stoppa ett test när du ser statistisk signifikans och deklarera en vinnande upplevelse. Analytikerna gör ofta det som kallas&quot;datasökning&quot;. Vid sökning efter data måste man titta på testdata tidigt och ofta, samtidigt som man försöker avgöra vilken upplevelse som fungerar bättre. Risken är att stoppa testet i förtid, vilket kan göra resultaten ogiltiga.
 
-I ett A/A-test kan dataperspektiv ofta få analytiker att se en lyft i en upplevelse, när det i själva verket inte ska vara någon skillnad, eftersom de två upplevelserna är identiska. I själva verket är A/A-tester faktiskt _garanterad_ att visa &quot;statistisk signifikans&quot; (dvs. en konfidensnivå över ett visst tröskelvärde, såsom 95 %) vid något tillfälle under testet.
+I ett A/A-test kan dataperspektiv ofta få analytiker att se en lyft i en upplevelse, när det i själva verket inte ska vara någon skillnad, eftersom de två upplevelserna är identiska. A/A-tester är faktiskt *garanterad* att visa &quot;statistisk signifikans&quot; (dvs. en konfidensnivå över ett visst tröskelvärde, såsom 95 %) vid något tillfälle under testet.
 
 För att undvika detta, och på samma sätt som med ett vanligt A/B-test, bör du därför i förväg bestämma vilken provstorlek som ska användas, baserat på den minsta effektstorleken (den minsta lyft under vilken en effekt inte är viktig för ditt företag), den effekt och de signifikansnivåer som du anser godtagbara.
 
@@ -51,7 +51,7 @@ The [!UICONTROL Adobe Target Sample Size Calculator] är ett viktigt verktyg som
 
 * [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
-I följande artiklar finns dessutom information om hur länge du ska köra en aktivitet samt andra användbara tips och tricks:
+I följande artiklar finns dessutom information om hur länge du ska köra en aktivitet och andra användbara tips och tricks:
 
 * [Hur länge ska du köra ett A/B-test?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
 * [Tio vanliga A/B-fallfall och hur man undviker dem](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
@@ -62,12 +62,12 @@ Betydelsenivån för ett test avgör hur sannolikt det är att testet rapportera
 
 En vanlig signifikansnivå vid A/A- och A/B-testning är 5%, vilket motsvarar en konfidensnivå på 95% (konfidensnivå = 100% - signifikansnivå). En konfidensnivå på 95 % innebär att det varje gång du utför ett test finns en 5-procentig risk för att upptäcka en statistiskt signifikant ökning, även om det inte finns någon skillnad mellan upplevelserna.
 
-Anta att du vill uppnå en 95-procentig konfidensnivå med A/A-testet. Med en konfidensnivå på 95% kan 1 av 20 A/A-tester visa statistiskt signifikant ökning av konverteringarna. Med en konfidensnivå på 90 % kan 1 av 10 tester visa ökad konverteringsgrad när identiska upplevelser testas.
+Anta att du vill uppnå en 95-procentig konfidensnivå med A/A-testet. Med en konfidensnivå på 95% kan 1 av 20 A/A-tester visa statistiskt signifikant ökning av konverteringarna. Med en konfidensnivå på 90 % kan 1 av 10 tester visa ökning av antalet konverteringar när identiska upplevelser testas.
 
 ## Bästa praxis
 
 Om du bestämmer dig för att ett A/A-test är nödvändigt i din organisation, ska du vara medveten om att identiska upplevelser tillfälligt kan visa en skillnad från kontrollen. Detta kan vara normalt, beroende på den tid som testet tillåts köras. Skillnaden bör krympa med tanke på mer tid och besökare.
 
-Det bästa sättet är att använda regelbundna A/B-testmetoder: bestämma provstorleken i förväg baserat på minsta relevanta effektstorlek, önskad effekt och signifikans med hjälp av [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Bästa praxis är att använda regelbundna A/B-testmetoder: bestämma provstorleken i förväg baserat på en minsta relevant effektstorlek, önskad effekt och signifikans med hjälp av [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 Låt sedan besökarna lägga ned tillräckligt med tid innan ni kommer fram till några slutsatser, och kom ihåg att beroende på testets signifikansnivå finns det en chans att en upplevelse visar skillnad och till och med förklaras vinnare.
