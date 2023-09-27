@@ -1,27 +1,27 @@
 ---
 keywords: aktivitetsinställningar;mål och inställningar;multivariera;mvt
-description: Lär dig hur du använder sidan Mål och inställningar i Adobe [!DNL Target] för att ange information om målen för en multivariattestaktivitet (MVT).
-title: Hur anger jag mål och inställningar i en multivariat testaktivitet?
+description: Lär dig använda [!UICONTROL Goals & Settings] sida in [!DNL Adobe Target] för att ange information om målen för en [!UICONTROL Multivariate Test] (MVT) aktivitet.
+title: Hur anger jag mål och inställningar i en [!UICONTROL Multivariate Test] Aktivitet?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
-# Mål och inställningar (multivariata tester)
+# Mål och inställningar ([!UICONTROL Multivariate Test])
 
-På sidan Mål och inställningar i Adobe Target anger du information om målen för [!UICONTROL Multivariate] (MVT) tester.
+The [!UICONTROL Goals & Settings] sida in [!DNL Adobe Target] är där du anger information om målen för [!UICONTROL Multivariate Test] (MVT).
 
-* Aktivitetsinställningar
-* Rapportinställningar
-* Andra metadata
+Följande avsnitt är tillgängliga:
 
-Vilka inställningar som är tillgängliga beror på om du använder Target eller Analytics som datakälla.
+* [!UICONTROL Activity Settings]
+* [!UICONTROL Reporting Settings]
+* [!UICONTROL Other Metadata]
 
-![mvt_settings image](assets/mvt_settings.png)
+Vilka inställningar som är tillgängliga i varje avsnitt beror på om du använder [!DNL Target] eller [!DNL Analytics] som rapportkälla.
 
 ## Aktivitetsinställningar {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -33,20 +33,20 @@ Ange ett valfritt mål. Målet kan vara vilken information som helst som hjälpe
 
 ### Prioritet
 
-Beroende på dina inställningar varierar gränssnittet och alternativen för prioritet. Du kan använda de äldre inställningarna Låg, Medel eller Hög, eller aktivera finkorniga prioriteringar mellan 0 och 999.
+Beroende på dina inställningar kan [!DNL Target] Användargränssnitt och alternativ för [!UICONTROL Priority] varierar. Du kan använda de äldre inställningarna för [!UICONTROL Low], [!UICONTROL Medium], eller [!UICONTROL High]eller så kan du aktivera finkorniga prioriteringar mellan 0 och 999.
 
 Prioriteten används om flera aktiviteter tilldelas till samma plats med samma målgrupp. Om två eller flera aktiviteter har tilldelats platsen visas aktiviteten med den högsta prioriteten.
 
-Om det här alternativet inte är aktiverat i S[!UICONTROL Administration] > [!UICONTROL Reporting] (standard), ange en prioritet: Låg, Medel eller Hög.
+Om det här alternativet inte är aktiverat i [!UICONTROL Administration] > [!UICONTROL Reporting] (standard), ange en prioritet: [!UICONTROL Low], [!UICONTROL Medium], eller [!UICONTROL High].
 
-Om du vill aktivera detaljerade prioriteringar klickar du på [!UICONTROL Administration] > [!UICONTROL Reporting]och sedan växla alternativet Aktivera finkorniga prioriteringar till läget&quot;På&quot;.
+Om du vill aktivera detaljerade prioriteringar klickar du på [!UICONTROL Administration] > [!UICONTROL Reporting]och växla sedan [!UICONTROL Enable Fine-Grained Priorities] till På-positionen.
 
 Om det här alternativet är aktiverat anger du ett värde mellan 0 och 999:
 
 * 0 = Låg
 * 999 = Hög
 
-För aktiviteter som skapats i tidigare versioner av Target Standard/Premium konverteras låg prioritet till 0, Medel konverteras till 5 och Hög konverteras till 10. Du kan justera dessa värden om det behövs.
+För aktiviteter som skapats i tidigare versioner av [!DNL Target], [!UICONTROL Low] prioriteten konverteras till 0, [!UICONTROL Medium] prioriteten konverteras till 5, och [!UICONTROL High] prioriteten konverteras till 10. Du kan justera dessa värden om det behövs.
 
 >[!NOTE]
 >
@@ -60,13 +60,13 @@ Aktiviteten kan starta när den har godkänts eller du kan ange ett specifikt da
 
 Följande inställningar är tillgängliga:
 
-### Rapporteringslösning
+### Rapporteringskälla
 
-Ange om data samlas in från Adobe Target eller från Adobe Analytics. Se [Adobe Analytics som rapportkälla för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) för att lära sig om skillnaderna mellan rapporteringslösningarna och fördelarna med varje lösning.
+Ange om data samlas in från [!DNL Adobe Target] eller från [!DNL Adobe Analytics]. Se [Adobe Analytics som rapportkälla för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) för att lära dig mer om skillnaderna mellan rapporteringslösningarna och fördelarna med varje.
 
-När du väljer Analytics som rapportkälla för Target väljer du en Analytics-rapportsserie som tar emot Target-aktivitetsdata. För att göra detta väljer du först något av Analytics-företagen som ditt konto är knutet till och väljer sedan lämplig rapportsvit för aktiviteten. Endast rapportsviter som har etablerats för att ansluta till Adobe Target kan väljas. Om du inte ser de rapportsviter du förväntar dig kan du först logga ut och logga in på Adobe Experience Cloud för att försöka igen. Kontakta kundtjänst om rapportsviten fortfarande saknas i listan.
+Vid val [!DNL Analytics] som rapportkälla för [!DNL Target]väljer du en [!DNL Analytics] rapportsvit att ta emot [!DNL Target] aktivitetsdata. Om du vill göra det måste du först välja något av de [!DNL Analytics] företag som ditt konto är knutet till och väljer sedan lämplig rapportsserie för aktiviteten. Rapportera endast programsviter som har etablerats för att ansluta till [!DNL Target] kan väljas. Om du inte ser den rapportserie du förväntar dig kan du först logga ut och logga in på [!DNL Adobe Experience Cloud] för att försöka igen. Om rapportsviten fortfarande saknas i listan kontaktar du [Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-Analyser för Target kräver en spårningsserver för att kunna rapportera resultaten korrekt. En standardspårningsserver visas i fältet Spårningsserver. Om du använder mer än en spårningsserver bör du kontrollera att du inkluderar rätt spårningsserver i det här fältet. Se [Använda en analysspårningsserver](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för mer information.
+[!UICONTROL Analytics for Target] (A4T) kräver att en spårningsserver rapporterar resultaten korrekt. En standardspårningsserver visas i [!UICONTROL Tracking Server] fält. Om du använder mer än en spårningsserver måste du ta med rätt spårningsserver i det här fältet. Se [Använda en analysspårningsserver](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för mer information.
 
 Om en rapporteringslösning anges i dina kontoinställningar används den angivna lösningen och den här inställningen syns inte.
 
@@ -74,54 +74,54 @@ Om en rapporteringslösning anges i dina kontoinställningar används den angivn
 >
 >Du kan inte ändra rapportkällan efter att aktiviteten har publicerats för att rapporterna ska vara konsekventa.
 
-### Mål
+### Målmått
 
-Välj den åtgärd som en besökare ska utföra för att uppnå målet. Välj till exempel ett konverteringsmått och ange sedan parametrarna som avgör när resultatet uppnås.
+Välj den åtgärd som en besökare ska utföra för att uppnå målet. Välj till exempel en [!UICONTROL Conversion] anger du sedan parametrarna som avgör när resultatet uppnås.
 
 >[!NOTE]
 >
->Om rapporteringslösningen är inställd på Analytics (Analyser) är det enda tillgängliga målmåttet Konvertering. Analysmått kan inte väljas som mål.
+>Om rapporteringslösningen är inställd på [!DNL Analytics]är det enda tillgängliga målmåttet [!UICONTROL Conversion]. [!DNL Analytics] Det går inte att välja mått som mål.
 
 När du väljer ett framgångsmått visas en väljare. Använd den här väljaren för att välja de specifika värdena för framgångsmåttet.
 
-Om det här alternativet är aktiverat ger det beräknade värdet i konverteringsfältet (inte tillgängligt för sidpoängsmått) ett värde för ditt mål, men inte för andra mått. Detta värde gör att Target kan beräkna en uppskattad ökning av intäkterna. Detta fält är valfritt; Inkrementella intäkter för icke-intäktsmått kan dock inte beräknas utan detta. För alla intäktsmått (Intäkt per besökare, Genomsnittligt ordervärde, Total försäljning och Beställningar) används Intäkt per besökare i uppskattningen. Datatypen är valuta.
+Om den är aktiverad visas [!UICONTROL Estimated Value of the Conversion] fält (ej tillgängligt för [!UICONTROL Page Score] mätvärden) ger ett värde för ditt mål, men inte för andra mätvärden. Detta värde aktiverar [!DNL Target] att beräkna en uppskattad ökning av intäkterna. Det här fältet är valfritt, men inkrementella intäkter för icke-intäktsmått kan inte beräknas utan det. För alla intäktsmått ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales]och [!UICONTROL Orders]), uppskattningens användning [!UICONTROL Revenue per Visitor]. Datatypen är valuta.
 
-När aktivitetsmålet har uppnåtts fortsätter besökaren att se aktivitetsinnehållet, såvida inte besökaren kvalificerar sig för en aktivitet med högre prioritet. Om besökaren når målet igen räknas det som en annan konvertering. Observera att detta inte är standardbeteendet i Target Classic, som räknar besökare som nya om de ser testet igen.
+När aktivitetsmålet har uppnåtts fortsätter besökaren att se aktivitetsinnehållet, såvida inte besökaren kvalificerar sig för en aktivitet med högre prioritet. Om besökaren når målet igen räknas det som en annan konvertering. Det här beteendet skiljer sig från standardbeteendet i [!DNL Target Classic], som räknar besökarna som nya om de ser testet igen.
 
 ### Ytterligare mått
 
 Skapa fler framgångsmått.
 
-Den här inställningen är inte tillgänglig om rapporteringslösningen är inställd på Analytics. I det här fallet används de mått som definierats för Analytics-rapportsviten.
+Den här inställningen är inte tillgänglig om rapporteringslösningen är inställd på [!DNL Analytics]. I det här fallet är de mått som definierats för [!DNL Analytics] rapporteringsprogram används.
 
-Målgrupper för rapportering
+### Målgrupper för rapportering
 
-### Som standard visar rapporter resultat för alla kvalificerade besökare. Du kan lägga till rapportmålgrupper för att bara visa information om specifika målgrupper.
+Som standard visar rapporter resultat för alla kvalificerade besökare. Du kan lägga till rapportmålgrupper för att bara visa information om specifika målgrupper.
 
-## Avancerade inställningar {#section_E2FE441AFB324E498793ABB025ED9974}
+### Avancerade inställningar {#section_E2FE441AFB324E498793ABB025ED9974}
 
-Avancerade inställningar är tillgängliga för multivariata testmålmått.
+Avancerade inställningar är tillgängliga för [!UICONTROL Multivariate Test] målstatistik.
 
 ![Menyn Avancerade inställningar](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
->Om du använder Adobe Analytics som rapportkälla hanteras inställningarna av Analytics-servern. Alternativet för avancerade inställningar är inte tillgängligt.
+>Om du [!DNL Adobe Analytics] som rapportkälla hanteras inställningarna av [!DNL Analytics] server. Alternativet för avancerade inställningar är inte tillgängligt.
 
-### Vilket framgångsmått måste uppnås innan mätvärdet ökas?
+#### Vilket framgångsmått måste uppnås innan mätvärdet ökas?
 
 Använd det här alternativet om du bara vill räkna någon som uppnår framgångsmåttet om de tidigare har nått ett annat framgångsmått. En testkonvertering kan till exempel bara vara giltig om besökaren klickar på erbjudandet eller når en viss sida innan konverteringen.
 
 Du kan ange beroende av flera mätvärden tillsammans med flexibiliteten att välja om mätvärdet ska nås eller inte för att antalet ska öka.
 
-Du måste definiera båda (eller flera) framgångsmått innan du kan göra en beroende av en annan.
+Definiera båda (eller flera) framgångsmått innan du kan göra en beroende av en annan.
 
-Alternativet Lägg till beroende gör att framgångsmåttet ökar om ett annat framgångsmått har nåtts eller inte har nåtts.
+The [!UICONTROL Add Dependency] gör det möjligt för framgångsmåttet att öka om ett annat framgångsmått har nåtts eller inte har nåtts.
 
 Så här lägger du till ett beroende:
 
 1. När du har lagt till ytterligare mätvärden klickar du på **[!UICONTROL Advanced Settings]**.
-2. Klicka på alternativet Lägg till beroende:
+2. Klicka på **[!UICONTROL Add Dependency]** alternativ:
 
    ![Lägg till beroende](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
@@ -135,11 +135,11 @@ Du kan redigera eller ta bort beroenden när du har lagt till dem.
 
 Det finns tre alternativ för vad som händer när en besökare når målmåttet:
 
-* Välj Öka antal och behåll användare i aktivitet om du vill ange hur antalet ska ökas.
-* Välj Öka antal, Frigör användare och Tillåt återinträde om du vill ange vilken upplevelse användaren ser om han/hon återupptar aktiviteten.
-* Välj Öka antal, Frigör användare och fält från Inmatning igen om du vill ange vad användaren ser i stället för aktivitetsinnehållet.
+* [!UICONTROL Select Increment Count & Keep User in Activity] för att ange hur antalet ökas.
+* [!UICONTROL Select Increment Count, Release User & Allow Reentry] för att ange den upplevelse som användaren ser om aktiviteten återupptas.
+* [!UICONTROL Select Increment Count, Release User & Bar from Reentry] för att ange vad användaren ser i stället för aktivitetsinnehållet.
 
-Se [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) för mer information om avancerade inställningar.
+Se [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) om du vill ha mer information om avancerade inställningar.
 
 ## Andra metadata {#section_2E8917BEFB954480A4206B9E9E917F80}
 
@@ -147,13 +147,13 @@ Följande inställning är tillgänglig:
 
 ### Anteckningar
 
-Skriv in information om din aktivitet som är användbar för dig själv eller andra teammedlemmar. Det går att ändra storlek på anteckningsrutan.
+Skriv in information om din aktivitet som är användbar för dig själv eller andra teammedlemmar. The [!UICONTROL Notes] fönstret kan storleksändras.
 
 ## Utbildningsvideor
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Aktivitetsinställningar (3:02) ![Självstudiemärke](/help/main/assets/tutorial.png)
+### Aktivitetsinställningar (3:02)
 
 Den här videon innehåller information om aktivitetsinställningar.
 
@@ -165,9 +165,9 @@ Den här videon innehåller information om aktivitetsinställningar.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Skapa multivariata tester (9:25) ![Självstudiemärke](/help/main/assets/tutorial.png)
+### Skapa multivariata tester (9:25)
 
-I den här videon visas hur du skapar ett multivariata test med det guidade arbetsflödet i tre steg för Target. Mål och inställningar diskuteras från kl. 7.00.
+I den här videon visas hur du skapar ett multivariata test med [!DNL Target] guidat arbetsflöde i tre steg. Mål och inställningar diskuteras från kl. 7.00.
 
 * Definiera och utforma ett multivariat test
 * Skapa ett multivariata test

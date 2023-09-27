@@ -1,17 +1,17 @@
 ---
 keywords: sammanfattning
-description: Se en översikt över MVT-aktiviteten (Multivariate Test) som ger en visuell översikt över MVT-aktiviteten i Adobe Target.
-title: Hur visar jag sammanfattningen av en multivariat-aktivitet (MVT)?
+description: Visa en [!UICONTROL Multivariate Test] (MVT) aktivitetens sammanfattning som ger en visuell översikt över din aktivitet i [!DNL Adobe Target].
+title: Hur kan jag visa en [!UICONTROL Multivariate Test] (MVT) Sammanfattning av aktivitet?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Testsammanfattning (multivariata tester)
+# Testsammanfattning ([!UICONTROL Multivariate Test])
 
 Testsammanfattningen ger en visuell översikt över [!DNL Adobe Target] [!UICONTROL Multivariate Test].
 
@@ -21,12 +21,8 @@ Testsammanfattningen visar:
 
 * Testnamn
 * URL
-* Målgrupp
-
-   Klicka på målgruppen för att välja en annan målgrupp i listan över tillgängliga målgrupper.
-* Algoritm
-
-   För närvarande är den enda tillgängliga algoritmen Full Factorial. Algoritmnamnet anges i informationssyfte, så du är medveten om vilken algoritm som används.
+* Målgrupp: Klicka på målgruppen för att välja en annan målgrupp i listan över tillgängliga målgrupper.
+* Algoritm: Den enda tillgängliga algoritmen är [!UICONTROL Full Factorial]. Algoritmnamnet anges i informationssyfte, så du är medveten om vilken algoritm som används.
 * Antalet inkluderade och exkluderade upplevelser.
 
 Klicka **[!UICONTROL Continue]** när du är nöjd med testkonfigurationen. Sidan Mål och inställningar öppnas.
