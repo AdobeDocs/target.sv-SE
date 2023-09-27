@@ -1,21 +1,21 @@
 ---
 keywords: multivariat;mvt;preview;experiences
-description: Lär dig hur du förhandsgranskar varje upplevelse i en Multivariate Test-aktivitet (MVT) i Adobe [!DNL Target] med Visual Experience Composer (VEC).
-title: Hur kan jag förhandsgranska upplevelser för ett multivariat test (MVT)?
+description: Lär dig förhandsgranska varje upplevelse i en [!UICONTROL Multivariate Test] (MVT) aktivitet inom [!DNL Adobe Target] med [!UICONTROL Visual Experience Composer] (VEC)
+title: Hur kan jag förhandsgranska upplevelser för en [!UICONTROL Multivariate Test] (MVT)
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Förhandsgranska upplevelser för ett multivariat test
+# Förgranska upplevelser för en [!UICONTROL Multivariate Test]
 
-På grund av [!UICONTROL Multivariate Test] in [!DNL Adobe Target] jämför flera upplevelser på en sida, det är praktiskt att förhandsgranska sidan med varje upplevelse.
+För en [!UICONTROL Multivariate Test] in [!DNL Adobe Target] jämför flera upplevelser på en sida, det är praktiskt att förhandsgranska sidan med varje upplevelse.
 
-1. I Visual Experience Composer (VEC) klickar du på **[!UICONTROL Preview]**.
+1. Från [!UICONTROL Visual Experience Composer] (VEC), klicka **[!UICONTROL Preview]**.
 
    En lista över alla upplevelser visas.
 
@@ -31,8 +31,8 @@ På grund av [!UICONTROL Multivariate Test] in [!DNL Adobe Target] jämför fler
 
    >[!NOTE]
    >
-   >När du skapar multivariata tester kan du nu exkludera mer än 10 procent av upplevelserna från testet, förutsatt att du anger att du måste använda offlinerapporter för analys.
+   >När du skapar multivariata tester kan du exkludera mer än 10 procent av upplevelserna från testet, förutsatt att du bekräftar att du måste använda offlinerapporter för analys.
 
    Som standard ingår alla upplevelser i multivariattestet. Om du vill inkludera en upplevelse som har uteslutits väljer du den uteslusta upplevelsen och klickar på **[!UICONTROL Include]**.
 
-Klicka **[!UICONTROL Exit Preview Mode]** om du vill gå tillbaka till Experience Composer och göra ändringar, eller klicka **[!UICONTROL Continue]** för att gå till testsammanfattningen.
+1. Klicka **[!UICONTROL Exit Preview Mode]** för att gå tillbaka till [!UICONTROL Visual Experience Composer] så att du kan göra ändringar, eller klicka **[!UICONTROL Continue]** för att gå till testsammanfattningen.

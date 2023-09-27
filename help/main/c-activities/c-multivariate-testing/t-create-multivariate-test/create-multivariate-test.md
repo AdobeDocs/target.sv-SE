@@ -1,19 +1,19 @@
 ---
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
-description: Lär dig hur du använder Visual Experience Composer (VEC) i Adobe [!DNL Target] för att skapa ett multivariat test (MVT) direkt på en [!DNL Target]-aktiverad sida.
-title: Hur skapar jag ett multivariata test?
+description: Lär dig använda [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] för att skapa [!UICONTROL Multivariate Test] (MVT).
+title: Hur skapar jag en [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
 # Skapa ett multivariata test
 
-The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] gör det enkelt att skapa testet direkt på en målaktiverad sida och att ändra delar av sidan i [!DNL Target].
+The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] gör det enkelt att skapa en [!UICONTROL Multivariate Test] och ändra delar av sidan på [!DNL Target].
 
 The [!DNL Target] Med redigeraren kan du välja valfri plats och lägga till flera erbjudanden.
 
@@ -25,23 +25,13 @@ The [!UICONTROL Multivariate Test] (MVT) tar en sida i taget. Testet körs med a
 
    >[!NOTE]
    >
-   >Vilka aktivitetstyper som är tillgängliga beror på ditt Target-konto. Vissa aktivitetstyper kanske inte visas i listan. Till exempel: [!UICONTROL Automated Personalization] är en [Target Premium-funktion](/help/main/c-intro/intro.md#premium).
-   >
    >Mer information om de olika aktivitetstyperna finns i [!DNL Target] och skillnaderna [Verksamhet](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Se [Typ av målaktivitet](/help/main/c-activities/target-activities-guide.md) för att hjälpa dig att avgöra vilken typ av aktivitet som bäst passar dina behov.
 
-1. Välj **[!UICONTROL Visual (Default)]**, om det behövs.
+1. (Villkorligt) Välj leveranstyp: [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email], eller [!UICONTROL Other/API].
 
-   ![Skapa multivariat testaktivitet, dialogruta](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
+1. (Villkorligt) Om du är en [Mål Premium](/help/main/c-intro/intro.md#premium) kund, [välja en arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   >[!NOTE]
-   >
-   >Felsökningsinformation om VEC finns i [Felsöka Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >The [!UICONTROL Choose Workplace] i föregående bild är ett [Mål Premium](/help/main/c-intro/intro.md) -funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
-
-1. (Villkorligt) Om du är en Target Premium-kund, [välja en arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
-
-1. [Ange URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) för sidan som du vill testa och klicka sedan på **[!UICONTROL Next]**.
+1. [Ange URL-adressen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) för sidan som du vill testa och klicka sedan på **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
@@ -49,7 +39,7 @@ The [!UICONTROL Multivariate Test] (MVT) tar en sida i taget. Testet körs med a
 
    Om ett meddelande visas där du uppmanas att aktivera webbläsaren för blandat innehåll följer du instruktionerna i meddelandet. När du har aktiverat din webbläsare för blandat innehåll börjar du om på steg 1.
 
-   Visual Experience Composer öppnas.
+   The [!UICONTROL Visual Experience Composer] öppnas.
 
 1. Ange ett namn för aktiviteten.
 
@@ -63,6 +53,21 @@ The [!UICONTROL Multivariate Test] (MVT) tar en sida i taget. Testet körs med a
    | `+` | Plus |
    | `-` | Minus |
    | `@` | Vid tecken |
+
+   Aktivitetsnamnet får inte innehålla någon av följande teckensekvenser:
+
+   | Teckensekvens | Beskrivning |
+   |--- |--- |
+   | ;= | Semikolon, lika med |
+   | ;+ | Semikolon, Plus |
+   | ;- | Semikolon, minus |
+   | ;@ | Semikolon, tecken |
+   | ,= | Komma, motsvarar |
+   | ,+ | komma, plus |
+   | ,- | Komma, Minus |
+   | ,@ | Komma, Vid tecken |
+   | `[`&quot; | Öppen hakparentes, dubbla citattecken |
+   | &quot;`]` | Dubbla citattecken, avslutande hakparentes |
 
 1. [Skapa erbjudanden på varje plats](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
@@ -92,7 +97,7 @@ The [!UICONTROL Multivariate Test] (MVT) tar en sida i taget. Testet körs med a
 
    Bilden nedan visar att aktiviteten inte har tillräckligt med trafik.
 
-   ![estimator2 image](assets/estimator2.png)
+   ![estimator2-bild](assets/estimator2.png)
 
 1. Klicka **[!UICONTROL Next]** för att gå vidare till [!UICONTROL Targeting] sida.
 
@@ -114,7 +119,7 @@ The [!UICONTROL Multivariate Test] (MVT) tar en sida i taget. Testet körs med a
 
 ## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiemärke](/help/main/assets/tutorial.png)
 
-I den här videon visas hur du planerar och skapar ett multivariata test med hjälp av det guidade arbetsflödet i tre steg för Target.
+I den här videon visas hur du planerar och skapar ett multivariata test med [!DNL Target] guidat arbetsflöde i tre steg.
 
 * Definiera och utforma ett multivariat test
 * Skapa ett multivariata test
