@@ -4,9 +4,9 @@ description: Läs om aktiviteter i Adobe [!DNL Target] gör att ni kan personali
 title: Hur kan jag personalisera innehåll och testa siddesign med [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
+source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,6 @@ När du utformar en aktivitet bör du planera noggrant. Bestäm när aktiviteten
 The [!UICONTROL Activities] är standardvyn när du öppnar [!DNL Target]. Du kan skapa aktiviteter från den här sidan och hantera befintliga aktiviteter.
 
 Du kan även visa [!UICONTROL Activities] genom att klicka på [!UICONTROL Activities] överst på [!DNL Target] Gränssnitt.
-
->[!NOTE]
->
->Följande bild och tabell visar funktionaliteten i det uppdaterade aktivitetslisteanvändargränssnittet som är i betaversion och som kommer att släppas snart.
-
 
 ![Aktivitetslista](/help/main/c-activities/assets/activities-list-new.png)
 
