@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Den här versionen är tillgänglig enligt följande schema:
 * **4 oktober**: Asien-Stillahavsregionen (APAC)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
+
+| Funktion | Information |
+| --- | --- |
+| [!UICONTROL Activities] Uppdatering av användargränssnittet<P>[!UICONTROL Feeds] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target] teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target] användare, den här versionen uppdaterar [!UICONTROL Activities] och [!DNL Recommendations] [!UICONTROL Feeds] sidor på [!DNL Target] Gränssnitt. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till. |
 
 * Tillagd [!UICONTROL Visual Experience Composer] (VEC) förbättringar för dynamiska ramverk. (TGT-44064)
 * Ett problem som orsakade det valda datumet i `getViewInAnalyticsId` begäran om att inte uppdatera korrekt. Den här korrigeringen hjälper dig att beräkna om [!DNL Analytics] länk i rapportering när inställningarna för datumintervall och mätvärden ändras. (TGT-46246)
