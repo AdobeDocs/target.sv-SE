@@ -5,9 +5,10 @@ title: Vad är [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
+exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
+source-git-commit: 034d95dd797a7a9cb323094ce5bea0c78b1426ab
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -16,10 +17,11 @@ ht-degree: 0%
 
 The [!DNL Customer Journey Analytics for Target] (CJA4T) integration mellan [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} och [!DNL Target] innehåller kraftfulla analys- och tidsbesparande verktyg för optimeringsprogrammet.
 
-De främsta fördelarna med att använda [!DNL Customer Journey Analytics] data i [!DNL Target] är:
+De främsta fördelarna med att använda [!DNL Customer Journey Analytics] som rapportkälla för [!DNL Target] är:
 
 * Marknadsförare kan tillämpa [!DNL Customer Journey Analytics] framgångsmått till [!DNL Target] aktivitetsrapporter när som helst. Du behöver inte ange allt innan du kör aktiviteten.
-* En enda datakälla minimerar den varians som uppstår när data samlas in i två olika system.
+* Dra nytta av Customer Journey Analytics funktioner som [Panelen Experimentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#:~:text=The%20Experimentation%20panel%20lets%20analysts%20compare%20different%20user,which%20is%20best%20at%20driving%20a%20specific%20outcome.) för att ytterligare analysera er webbplatspersonalisering.
+* ha en enda rapportkälla för [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html?lang=en) och Target. Båda personaliseringsprodukterna kan anslutas till Customer Journey Analytics för en mer hollistisk bild av er webbpersonalisering.
 
 ## Överväganden
 
@@ -35,7 +37,7 @@ Tänk på följande information innan du använder CJA4T-integreringen:
 * Använd en rapportkälla eller en annan. Du kan inte samla in data för en enskild aktivitet till flera rapportkällor.
 * När du anger [!DNL Customer Journey Analytics] som rapportkälla uppmanas du att ange sandlådan för rapportering. Under konfigurationen visas bara de sandlådor som du har åtkomst till.
 * Alla befintliga [!DNL Target] aktiviteter fortsätter att använda [!DNL Target] datainsamling och påverkas inte av att CJA4T aktiveras.
-* CJA4T är bara tillgängligt om du har [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Stöd för [!DNL Analytics Data Connector] planeras för framtiden.
+* För att använda CJA4T har implementeringsmetoden [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Om du inte har Adobe Experience Platform Web SDK kan du även skapa en [Adobe Analytics källanslutning](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) för att föra in data i Adobe Experience Platform.
 * Om du har frågor om timing kan du läsa [Svarstidsfrågor](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} in *Vanliga frågor* i *Adobe Customer Analytics Guide*.
 
 ## Aktivitetstyper som stöds {#supported-activities}
