@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 29 september 2023**
+**Senast uppdaterad: 2 oktober 2023**
 
 >[!NOTE]
 >
@@ -23,13 +23,7 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 23.9.4 (2-4 oktober 2023)
-
-Den här versionen är tillgänglig enligt följande schema:
-
-* **2 oktober**: Europa, Mellanöstern och Afrika (EMEA)
-* **3 oktober**: Amerika
-* **4 oktober**: Asien-Stillahavsregionen (APAC)
+## [!DNL Target] Standard/Premium 23.9.4 (datum som ska fastställas)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 

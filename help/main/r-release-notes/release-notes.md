@@ -6,9 +6,9 @@ short-description: Lär dig om de nya funktionerna, förbättringarna och korrig
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '763'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,7 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## [!DNL Target] Standard/Premium 23.9.4 (2-4 oktober 2023)
-
-Den här versionen är tillgänglig enligt följande schema:
-
-* **2 oktober**: Europa, Mellanöstern och Afrika (EMEA)
-* **3 oktober**: Amerika
-* **4 oktober**: Asien-Stillahavsregionen (APAC)
+## [!DNL Target] Standard/Premium 23.9.4 (datum som ska fastställas)
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
