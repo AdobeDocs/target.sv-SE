@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 4 oktober | [Verksamhet](/help/main/c-activities/activities.md) | Uppdaterad text och bilder som återspeglar den gränssnittsuppdatering som ingår i [!DNL Target] 23.9.4-utgåvan. |
+|  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Uppdaterad text och bilder som återspeglar den gränssnittsuppdatering som ingår i [!DNL Target] 23.9.4-utgåvan. |
 | 2 oktober | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.9.3-utgåvan. |
 |  | [[!DNL Recommendations] implementeringsmönster](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | Den nya *Recommendations implementeringsmönster med at.js* artiklar hjälper dig att förstå och skapa [!DNL Adobe Target Recommendations] implementering när du använder JavaScript-biblioteket at.js.<P>Allmän information om [!DNL Target] mönster, se [Översikt över implementeringsmönster](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} i *Adobe Target Developer Guide*.<P>Det nya implementeringsmönstret för Recommendations består av följande artiklar:<ul><li>[Recommendations implementeringsmönster med översikten at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Initiera SDK:er](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Konfigurera datainsamling](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Återge upplevelser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Meddela [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 | 29 september | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagda förhandsversionsinformation för [!DNL Target Standard/Premium] 23.9.3-utgåvan. |
