@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 6 oktober | [Svarstoken](/help/main/administrating-target/response-tokens.md) | Alla kodexempel har uppdaterats. |
+|  | [Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | Hela självstudiekursen i *[!UICONTROL Adobe Target Tutorials]* guide. |
 | 4 oktober | [Verksamhet](/help/main/c-activities/activities.md) | Uppdaterad text och bilder som återspeglar den gränssnittsuppdatering som ingår i [!DNL Target] 23.9.4-utgåvan. |
 |  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Uppdaterad text och bilder som återspeglar den gränssnittsuppdatering som ingår i [!DNL Target] 23.9.4-utgåvan. |
 | 2 oktober | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.9.3-utgåvan. |
