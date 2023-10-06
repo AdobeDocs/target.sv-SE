@@ -5,7 +5,7 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 791274dc320912629b9425ef400d0008e0bb086b
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -26,8 +26,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 | Mål-SDK | Föreslagna åtgärder |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} i *SDK för plattform* guide. Information om de nya funktionerna i respektive version av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i *SDK för plattform* guide. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Ladda ned på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} i *SDK för plattform - översikt* guide. Information om de nya funktionerna i respektive version av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i *SDK för plattform - översikt* guide. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
 
 ## Använda svarstoken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -35,8 +35,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    Mer information:
 
-   * **Platform Web SDK**: Se [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i *SDK för plattform* guide.
-   * **at.js**: Se [Ladda ned på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **Platform Web SDK**: Se [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i *SDK för plattform - översikt* guide.
+   * **at.js**: Se [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. I [!DNL Target], klicka **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -149,7 +149,7 @@ Följande svarsexempel lägger till en [!DNL Platform Web SDK] anpassad händels
 
 ### ![at.js badge](/help/main/assets/atjs.png) at.js med anpassade händelser
 
-Använd [at.js, anpassade händelser](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} att lyssna efter [!DNL Target] svara och läsa svarstoken.
+Använd [at.js, anpassade händelser](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} för att lyssna efter [!DNL Target] svara och läsa svarstoken.
 
 Följande kodexempel lägger till en [!DNL at.js] anpassad händelsehanterare direkt till HTML-sidan:
 
@@ -186,13 +186,13 @@ Svarstoken visas, men at.js kan inte använda dem.
 
 **Kan jag få båda [!DNL Target Classic] aktiva plugin-program och svarstoken samtidigt?**
 
-Plugins och svarstoken finns tillgängliga parallellt. plugin-program kommer dock att bli inaktuella i framtiden.
+Plugin-program och svarstoken är tillgängliga parallellt, men plugin-program kommer att bli inaktuella i framtiden.
 
 **Levereras svarstoken via alla [!DNL Target] eller bara via [!DNL Target] svar på en aktivitet?**
 
 Svarstoken levereras endast via [!DNL Target] svar som levererar en aktivitet.
 
-**Min [!DNL Target Classic] plugin-programmet innehåller JavaScript. Hur replikerar jag funktionaliteten med svarstoken?**
+**Min [!DNL Target Classic] plugin-programmet innehåller JavaScript. Hur replikerar jag funktionaliteten med hjälp av svarstoken?**
 
 När du migrerar till svarstoken måste den här typen av JavaScript finnas i kodbas- eller tagghanteringslösningen. Du kan aktivera den här koden med [!DNL Platform Web SDK] eller [!DNL at.js] anpassade händelser och skicka svarstokenvärden till dina JavaScript-funktioner.
 
@@ -204,7 +204,7 @@ Om parametern innehåller något annat än icke-alfanumeriska tecken eller någo
 
 **Levererar svarstoken fortfarande innehåll om den använder ett borttaget profilskript eller en profilparameter?**
 
-Svarstoken extraherar information från användarprofiler och skickar sedan informationen. Om du tar bort ett profilskript eller en parameter innebär det inte att informationen har tagits bort från användarprofilerna. Användarprofilerna har fortfarande data som motsvarar profilskriptet. Svarstoken fortsätter leverera innehållet. För användare som inte har den informationen sparad i sina profiler, eller för nya besökare, levereras inte denna token eftersom informationen inte finns i deras profiler.
+Svarstoken extraherar information från användarprofiler och skickar sedan informationen. Om du tar bort ett profilskript eller en parameter innebär det inte att informationen har tagits bort från användarprofilerna. Användarprofilerna har fortfarande data som motsvarar profilskriptet. Svarstoken fortsätter att leverera innehållet. För användare som inte har den informationen sparad i sina profiler, eller för nya besökare, levereras inte denna token eftersom informationen inte finns i deras profiler.
 
 [!DNL Target] tar inte bort token automatiskt. Om du tar bort ett profilskript och inte längre vill att variabeln ska levereras, måste du inaktivera variabeln själv.
 
@@ -282,64 +282,50 @@ Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) g
 Google Analytics kan skicka data via at.js genom att lägga till följande kod på HTML-sidan:
 
 ```javascript
-<script type="text/javascript"> 
-  (function(i, s, o, g, r, a, m) { 
-    i['GoogleAnalyticsObject'] = r; 
-    i[r] = i[r] || function() { 
-      (i[r].q = i[r].q || []).push(arguments) 
-    }, i[r].l = 1 * new Date(); 
-    a = s.createElement(o), 
-      m = s.getElementsByTagName(o)[0]; 
-    a.async = 1; 
-    a.src = g; 
-    m.parentNode.insertBefore(a, m) 
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-  ga('create', 'Google Client Id', 'auto'); 
-</script> 
- 
-<script type="text/javascript"> 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-    var tokens = e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
- 
-    var activityNames = []; 
-    var experienceNames = []; 
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      activityNames.push(token["activity.name"]); 
-      experienceNames.push(token["experience.name"]); 
-    }); 
- 
-    ga('send', 'event', { 
-      eventCategory: "target", 
-      eventAction: experienceNames, 
-      eventLabel: activityNames 
-    }); 
-  }); 
- 
-  function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+
+<script type="text/javascript">
+    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+        var tokens = e.detail.responseTokens;
+
+        if (isEmpty(tokens)) {
+            return;
+        }
+
+        var activityNames = [];
+        var experienceNames = [];
+        var uniqueTokens = distinct(tokens);
+
+        uniqueTokens.forEach(function(token) {
+            activityNames.push(token["activity.name"]);
+            experienceNames.push(token["experience.name"]);
+        });
+
+        gtag('config', 'TAG_ID');
+        gtag('event', 'action_name', {'eventCategory': 'target',
+            'eventAction': experienceNames, 'eventLabel': activityNames
+        });
+    });
+
+    function isEmpty(val) {
+        return (val === undefined || val == null || val.length <= 0) ? true : false;
+    }
+
+    function key(obj) {
+        return Object.keys(obj)
+        .map(function(k) { return k + "" + obj[k]; })
+        .join("");
+    }
+
+    function distinct(arr) {
+        var result = arr.reduce(function(acc, e) {
+            acc[key(e)] = e;
+            return acc;
+        }, {});
+
+        return Object.keys(result)
+        .map(function(k) { return result[k]; });
+    }
 </script>
 ```
 
@@ -464,14 +450,14 @@ Motsvarigheten till ttMeta-plugin-programmet för felsökning kan skapas genom a
 </script>
 ```
 
-## ![at.js](/help/main/assets/atjs.png) Utbildningsvideo: Svarstoken och anpassade at.js-händelser {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/main/assets/atjs.png) Utbildningsvideo: Response Tokens och at.js Custom Events {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 I följande video förklaras hur du använder svarstoken och anpassade at.js-händelser för att dela profilinformation från [!DNL Target] till system från tredje part.
 
 >[!NOTE]
 >
->The [!DNL Target] [!UICONTROL Administration] menygränssnitt (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är korrekt: Men alternativen finns på något olika platser.
+>The [!DNL Target] [!UICONTROL Administration] menygränssnitt (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är korrekt, men alternativen finns på något olika platser.
 >
->Videon omnämns `option.name` och `option.id`som har ersatts med `offer.name` och `offer.id`, respektive.
+>Videon omnämns `option.name` och `option.id`som har ersatts med `offer.name` och `offer.id`, respektive
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
