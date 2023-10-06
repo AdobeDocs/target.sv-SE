@@ -1,13 +1,13 @@
 ---
-keywords: svarstoken;tokens;plugins;plugins;at.js;response;platform web sdk
+keywords: svarstoken;tokens;plugins;plugins;at.js;response;platform web sdk;google analytics
 description: Lär dig hur du använder svarstoken i [!DNL Adobe Target] till utdataspecifik information för felsökning och integrering med verktyg från tredje part.
 title: Vad är svarstoken och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,7 @@ Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats f
 
 ## Skicka data till Google Analytics
 
-I följande avsnitt beskrivs hur du skickar [!DNL Target] data till Google Analytics. Data som skickas av svarstoken kan också skickas till andra tredjepartsintegreringar.
+I följande avsnitt beskrivs hur du skickar [!DNL Target] uppgifter till Google Analytics 4. Data som skickas av svarstoken kan också skickas till andra tredjepartsintegreringar.
 
 ### ![AEP-märke](/help/main/assets/platform.png) Skicka data till Google Analytics via Platform Web SDK
 
