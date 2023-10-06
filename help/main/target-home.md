@@ -4,7 +4,7 @@ title: Användarhandbok om Adobe Target Business Practitioner
 description: Lär dig hur du använder Adobe [!DNL Target] för att personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 [!DNL Adobe Target] är [!DNL Adobe Experience Cloud] en lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse, så att ni kan maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 2 oktober 2023 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
+**Senast uppdaterad: 6 oktober 2023 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >

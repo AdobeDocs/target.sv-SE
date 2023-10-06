@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
+source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1948'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 6 oktober | [Svarstoken](/help/main/administrating-target/response-tokens.md) | Alla kodexempel har uppdaterats. |
 | 4 oktober | [Verksamhet](/help/main/c-activities/activities.md) | Uppdaterad text och bilder som återspeglar den gränssnittsuppdatering som ingår i [!DNL Target] 23.9.4-utgåvan. |
 |  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Uppdaterad text och bilder som återspeglar den gränssnittsuppdatering som ingår i [!DNL Target] 23.9.4-utgåvan. |
 | 2 oktober | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.9.3-utgåvan. |
