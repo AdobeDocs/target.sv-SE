@@ -4,9 +4,9 @@ description: Använd [!DNL Analytics] for [!DNL Target] (A4T) för att skapa akt
 title: Vad är [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
+source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,8 @@ Följande avsnitt innehåller information om vilka aktivitetstyper som stöds n�
 | Typ av aktivitet | A4T-kompatibel? | Anteckningar, om tillämpligt |
 |--- |--- |--- |
 | [A/B-aktivitet med manuell trafikdelning](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |  |
-| [A/B-aktivitet med automatisk fördelning](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Se [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [A/B-aktivitet med automål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja (at.js)<P>Nej (Platform Web SDK) | A4T-stöd för Auto-Target-aktiviteter stöds för närvarande endast för at.js. |
+| [A/B-aktivitet med automatisk fördelning](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Se [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| [A/B-aktivitet med automål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja | A4T-stöd för Automatiskt mål-aktiviteter stöds nu för båda [!DNL Platform Web SDK] och at.js. |
 | [Experience Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |  |
 | [Multivariata tester (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Kräver mbox-baserat målmätningsmål för att få [!UICONTROL Element Contribution] rapport. The [!UICONTROL Element Contribution] rapporten stöder för närvarande inte [!DNL Analytics] mätvärden. |
 | [Automated Personalization-aktivitet (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nej |  |
