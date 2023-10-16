@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Det finns två alternativ för din kontroll i [!UICONTROL Automated Personalizat
 
 ## Ange en specifik upplevelse som kontroll
 
-1. När en [[!UICONTROL Automated Personalization] aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) eller [[!UICONTROL Auto-Target] aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), konfigurera upplevelserna efter behov.
+1. När du skapar eller redigerar en [[!UICONTROL Automated Personalization] aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) eller [[!UICONTROL Auto-Target] aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), konfigurera upplevelserna efter behov.
 1. På [!UICONTROL Targeting] (steg 2 i det guidade arbetsflödet i tre delar), välj önskad upplevelse som kontroll.
 1. Ange önskad trafikallokering för kontrollupplevelsen och andra upplevelser.
 

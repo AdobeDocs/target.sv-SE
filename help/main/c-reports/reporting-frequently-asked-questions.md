@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe [!DNL Target] rap
 title: Var hittar jag svar på frågor om [!DNL Target] Rapportera?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Eftersom profilens livstid är inställd på 14 dagar inkluderas den här besök
 
 ### Exempel som förklarar avvikelser mellan mätvärden
 
-**Exempel 1**: Om dessa två segment används för en aktivitet, kommer segmenten Nya besökare och Återkommande besökare inte alltid att öka det totala antalet besökare.
+**Exempel 1**: Om de här två segmenten används för en aktivitet kommer segmenten Nya besökare och Returning Visitors inte alltid att öka det totala antalet besökare.
 
 Ta följande exempel som exempel, med de villkor som anges ovan för nya besökare och återkommande besökare:
 
@@ -53,13 +53,13 @@ Ta följande exempel som exempel, med de villkor som anges ovan för nya besöka
 
 Den här besökaren räknas som en enskild besökare i aktivitetens totala besökarantal även om den räknas både i segmenten för nya besökare och återkommande besökare.
 
-**Exempel 2**: Skillnaden mellan antalet nya besökare och återkommande besökare beror också på hur du konfigurerar aktivitetens [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Exempel 2**: Skillnader mellan antalet nya besökare och återkommande besökare beror också på hur du konfigurerar aktivitetens [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Exempel:
 
 Flera nya besökare besöker er webbplats och är kvalificerade för en aktivitet. Dessa nya besökare räknas in i segmentet Nya besökare. Alla dessa besökare registrerade också ett besök i den aktiviteten.
 
-Vissa besökare nådde konverteringsmåttet, som konfigurerades som&quot;Öka antal och behåll användare i aktivitet&quot;. Anta att vissa av dessa användare når konverteringsmåttet flera gånger, så ökar inte konverteringsmåttet. Med tanke på konfigurationen kan vissa användare dock komma till konverteringsmåttet och sedan gå tillbaka till startsidan och kvalificera sig för aktiviteten igen för att registrera ett nytt besök.
+En del besökare nådde konverteringsmåttet, som konfigurerades som&quot;Öka antal och behåll användare i aktivitet&quot;. Anta att vissa av dessa användare når konverteringsmåttet flera gånger, så ökar inte konverteringsmåttet. Med tanke på konfigurationen kan vissa användare dock komma till konverteringsmåttet och sedan gå tillbaka till startsidan och kvalificera sig för aktiviteten igen för att registrera ett nytt besök.
 
 ## Varför gör jag [!UICONTROL Experience Targeting] (XT)-rapporter innehåller mätvärden för att styra upplevelserna?
 
@@ -74,9 +74,16 @@ Mätvärden, till exempel besök, som rapporteras av [!DNL Target] är alltid l�
 
 ## Varför finns det inga data tillgängliga för min aktivitetsrapport? {#section_E4722F6445884130951DF79981C8289B}
 
-Om en aktivitets innehåll har levererats till användarna men rapporten inte innehåller några data kontrollerar du att du har rätt miljö ([värdgrupp](/help/main/administrating-target/hosts.md)) i rapportens inställningar.
+Om en aktivitets innehåll levererades till besökare men rapporten inte innehåller några data, kan du få följande felmeddelande:&quot;Det finns inga data tillgängliga för de valda rapportinställningarna.&quot;
 
-Om du har valt en utvecklingsmiljö kan följande felmeddelande visas: &quot;Det finns inga tillgängliga data för de valda rapportinställningarna.&quot;
+Det finns några möjliga orsaker till att data saknas i aktivitetsrapporter:
+
+* Du har inte markerat rätt miljö i rapportens inställningar
+* Du har ingen trafik tilldelad kontrollupplevelsen
+
+### Du har inte valt rätt miljö i rapportens inställningar:
+
+Om en aktivitets innehåll har levererats till användarna men rapporten inte innehåller några data kontrollerar du att du har rätt miljö ([värdgrupp](/help/main/administrating-target/hosts.md)) i rapportens inställningar.
 
 Så här ändrar du miljön för en aktivitetsrapport:
 
@@ -84,10 +91,6 @@ Så här ändrar du miljön för en aktivitetsrapport:
 1. Klicka på kugghjulsikonen för att konfigurera rapportinställningar.
 
    ![Dialogrutan A/B-inställningar](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
-
-   >[!NOTE]
-   >
-   >Kugghjulsikonen är inte tillgänglig för [!UICONTROL Automated Personalization] (AP)-rapporter.
 
 1. I listrutan **[!UICONTROL Environment]** väljer du **[!UICONTROL Production]**.
 
@@ -97,12 +100,28 @@ Så här ändrar du miljön för en aktivitetsrapport:
 
 Mer information om miljöer finns i [Värdar](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
+### Du har ingen trafik tilldelad kontrollupplevelsen
+
+Om innehållet i en aktivitet har levererats till användarna men rapporten inte innehåller några data kontrollerar du att du har tilldelad trafik till kontrollupplevelsen.
+
+1. Klicka **[!UICONTROL Activities]** klickar du på önskad aktivitet i listan och sedan på **[!UICONTROL Reports]** -fliken.
+1. Klicka på kugghjulsikonen för att konfigurera rapportinställningar.
+
+1. Från **[!UICONTROL Control]** väljer du en upplevelse som tar emot trafik.
+
+1. Klicka på **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Mer information om hur du uppdaterar en [!UICONTROL Automated Personalization] (AP) och ändra kontrollupplevelsen till en upplevelse som tar emot trafik, se [Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
+
 ## Varför är trafiken delad mellan mina upplevelser ojämn i min A/B- eller MVT-aktivitet? {#uneven}
 
-Jag ställer till exempel in att trafikuppdelningen ska vara 50/50 eller 25/25/25/25, men jag ser en oerhört annorlunda fördelning mellan upplevelserna i rapporten. Det finns flera orsaker till ojämnt antal besökare i [!DNL Target] rapportering:
+Jag ställer till exempel in att trafikuppdelningen ska vara 50/50 eller 25/25/25/25, men jag ser en oerhört annorlunda fördelning mellan upplevelserna i rapporten. Det finns flera orsaker till ojämna besökarantal i [!DNL Target] rapportering:
 
 * När en [!DNL Target] aktiviteten startas för första gången kan trafikfördelningen vara ojämn på grund av edge node-arkitekturen som [!DNL Target] använder för att optimera upplevelseleveransen. Det bästa sättet är att ge en aktivitet lite tid att samla in mer data och distributionen normaliseras. Mer information om [!DNL Adobe Target] arkitektur och Edge-noder, se [Så här fungerar Adobe Target](/help/main/c-intro/how-target-works.md).
-* Om du är [!DNL Target] eller [!DNL Analytics] och du använder **[!UICONTROL Visits]** mätvärden, kom ihåg att [!DNL Target] är ett besöksbaserat system och trafikfördelningen för ett A/B- eller MVT-test tilldelas på besökarnivå. Om du undersöker aktivitetsresultaten med **[!UICONTROL Visits]** trafikfördelningen kan se ojämn ut eftersom vissa besökare kan ha flera besök. Besökare är standardmätvärdet för normalisering när aktivitetsprestanda utvärderas.
+* Om du är [!DNL Target] eller [!DNL Analytics] och du använder **[!UICONTROL Visits]** mätvärden, kom ihåg att [!DNL Target] är ett besöksbaserat system och trafikfördelningen för ett A/B- eller MVT-test tilldelas på besökarnivå. Om du undersöker aktivitetsresultaten med **[!UICONTROL Visits]** trafikfördelningen kan se ojämn ut, eftersom vissa besökare kan ha flera besök. Besökare är standardmätvärdet för normalisering när aktivitetsprestanda utvärderas.
 * Det bästa sättet att göra A/B- och MVT-tester är att se till att trafikspliterna är jämna. Genom att ändra trafikfördelningen mellan upplevelser (t.ex. från 90/10 till 50/50) under ett test kan besökarna bli ojämna över olika upplevelser. Den lägre trafikupplevelsen kanske aldrig &quot;hinner ikapp&quot;.
 * Om du följer ovanstående metodtips och trafikdelningen inte normaliseras över tid bör du kontrollera följande:
 
