@@ -6,9 +6,7 @@ audience: end-user
 type: Documentation
 git-repo: https://github.com/AdobeDocs/target.sv-SE
 index: true
-role: User
-level: Intermediate
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: e68fafde622d2478dcebe67df6d3a65e137b5dc3
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -28,4 +26,4 @@ Filen metadata.md innehåller metadata på postnivå som skickas till TOC.md-fil
 | getting-started-url | Länk till hjälpsidan Komma igång |
 | tutorials-url | Länka till videosjälvstudiekurser - antingen hjälpstudiekurser eller självstudiekurser på engelska |
 | mini-toc-nivåer | Anger antalet rubriknivåer som visas i den högra listen. standard är 2 |
-| git-repo | Anger platsen för den överordnad rapporten för intern användning |
+| git-repo | Anger platsen för huvudrapporten för intern användning |
