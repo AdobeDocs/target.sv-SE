@@ -6,9 +6,9 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
+source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,5 +125,12 @@ Konfigurera en datavy i [!DNL Customer Journey Analytics]. En datavy säkerstäl
    * Aktivitets-ID
 
    ![Alternativ för namn och ID:n i Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. Används [!DNL Target] måtten i [!UICONTROL Experimentation] ställer du in följande sammanhangsetiketter:
+
+   * För [!UICONTROL Activity Name], använd&quot;Experimentation Experiment&quot;.
+   * [!UICONTROL Experience Name], använd&quot;Experimentationsvariant&quot;.
+
+   ![Sammanhangsetiketter på panelen Experimentera](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. Slutför konfigurationen av andra fält och klicka sedan på **[!UICONTROL Save and continue]** när det är klart.
