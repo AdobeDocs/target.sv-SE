@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe [!DNL Target] rap
 title: Var hittar jag svar på frågor om [!DNL Target] Rapportera?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Mer information om miljöer finns i [Värdar](/help/main/administrating-target/h
 
 ### Du har ingen trafik tilldelad kontrollupplevelsen
 
-Om innehållet i en aktivitet har levererats till användarna men rapporten inte innehåller några data kontrollerar du att du har tilldelad trafik till kontrollupplevelsen.
+Om en aktivitets innehåll levererades till användarna men rapporten inte innehåller några data, måste du se till att du använder en upplevelse med trafik som kontrollupplevelse.
 
 1. Klicka **[!UICONTROL Activities]** klickar du på önskad aktivitet i listan och sedan på **[!UICONTROL Reports]** -fliken.
 1. Klicka på kugghjulsikonen för att konfigurera rapportinställningar.
