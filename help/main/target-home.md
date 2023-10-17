@@ -4,7 +4,7 @@ title: Användarhandbok om Adobe Target Business Practitioner
 description: Lär dig hur du använder Adobe [!DNL Target] för att personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5e77907694ae65f9f2d20b0fe0264b7b03fa290a
+source-git-commit: e005c497f8afc4cda39148f6245fa025d447f1bd
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 2%
@@ -22,7 +22,6 @@ ht-degree: 2%
 >Utöver den här guiden finns följande [!DNL Adobe Target] Det finns även stödlinjer:
 >
 >- [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
->
 >- [*Självstudiekurser om Adobe Target*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
 >
 >Versionsinformation finns i [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) i den här guiden.
