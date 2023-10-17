@@ -5,9 +5,9 @@ title: Hur konfigurerar jag rapportering i Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan ange följande inställningar på den här sidan:
 
 >[!NOTE]
 >
->Observera att tidszonen, valutan och IP-adresserna som ska exkluderas gäller för aktiviteter som använder [!DNL Target] rapportering. De här inställningarna gäller inte för aktiviteter som använder [Analyser för mål (A4T)] som rapportkälla (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Observera att tidszonen, valutan och IP-adresserna som ska exkluderas gäller för aktiviteter som använder [!DNL Target] rapportering. De här inställningarna gäller inte för aktiviteter som använder [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) som rapportkälla.
 
 ![Rapporteringssida](/help/main/administrating-target/assets/reporting.png)
 

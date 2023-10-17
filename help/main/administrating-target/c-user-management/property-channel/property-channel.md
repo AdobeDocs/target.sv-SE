@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '3177'
+source-wordcount: '3180'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Användare kan ingå i flera arbetsytor och kan till och med ha olika roller ino
 
 Användare kan ha olika vyer av [!DNL Adobe Target] genom att flytta mellan arbetsytor, ungefär som [!DNL Analytics] användare har olika vyer av [!DNL Analytics] genom att gå mellan olika rapportsviter.
 
-Arbetsytorna kan omfatta olika målgrupper, olika erbjudanden och aktiviteter.
+Arbetsytor kan innehålla helt olika målgrupper, koderbjudanden och aktiviteter.
 
 Alla målgrupper och aktiviteter som skapats före migreringen av den nya Enterprise Permissions-modellen grupperas i &quot;Default Workspace&quot;, vilket beskrivs nedan.
 
@@ -81,7 +81,7 @@ Alla användarroller och åtkomst till alla [!DNL Target] funktionerna är desam
 
 ### Användargrupper
 
-Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer och så vidare. Du kan sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att utse en ny teammedlem kan vara lika enkelt som att lägga till dem i en viss användargrupp.
+Du kan skapa användargrupper, till exempel utvecklare, analytiker, marknadsförare och chefer. Du kan sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att utse en ny teammedlem kan vara lika enkelt som att lägga till dem i en viss användargrupp.
 
 ### Roller och behörigheter {#roles-permissions}
 
@@ -110,7 +110,7 @@ Den nya [!UICONTROL Permissions] kan du skapa olika projekt (så kallade&quot;pr
 
 En viss användare kan till exempel ha åtkomst till&quot;godkännande&quot; på amerikanska webbplatser, men bara visa åtkomst på den europeiska mobilappen. Samma användare kanske inte har tillgång till ens de aktiviteter som erbjuds på webb- och mobilsajter i APAC-regionen.
 
-Aktuell [!DNL Target] [!UICONTROL Permissions] Modellen har tre behörighetsroller (observatör, redigerare och godkännare), vilket visas i följande bild:
+The [!DNL Target] [!UICONTROL Permissions] modellen har följande behörighetsroller (observatör, redigerare, godkännare och observatör). Observerrollen visas inte i illustrationer i den här artikeln.
 
 ![permissions_1 image](assets/permissions_1.png)
 
@@ -158,7 +158,7 @@ Efter en omorganisering, med hjälp av de profiler som visas på bilderna ovan, 
 
 * **Ernie**: Ernie är marknadschef för organisationen med ansvar för marknadsföring i USA.
 
-  Eftersom Ernie är ganska ny i organisationen och oerfaren av Target har han redigeringsbehörighet för USA:s hemsida, amerikanska webbplats och produktsidor. Med redigeringsbehörigheter kan Ernie skapa och redigera aktiviteter innan de publiceras. Han kan inte godkänna lanseringen av en aktivitet - någon med godkännandebehörighet, som Jan, måste godkänna aktiviteten innan den kan tas i produktion.
+  Eftersom Ernie är ganska ny i organisationen och oerfaren av Target har han redigeringsbehörighet för USA:s hemsida, amerikanska webbplats och produktsidor. Med redigeringsbehörigheter kan Ernie skapa och redigera aktiviteter innan de publiceras. Han kan inte godkänna lanseringen av en aktivitet - någon med godkännande, t.ex. Jan, måste godkänna aktiviteten innan den kan tas i produktion.
 
   Eftersom Ernie inte har någon roll som gör det nödvändigt att han ser Rysslands webbplats, Frankrikes webbplats eller karriärsajten, kan han inte se aktiviteter för dessa sajter.
 
@@ -180,7 +180,7 @@ Efter en omorganisering, med hjälp av personerna i illustrationerna ovan, kan d
 
 * **Ernie**: Ernie är marknadschef för organisationen med ansvar för marknadsföring på konsumentproduktområdet.
 
-  Eftersom Ernie är ganska ny i organisationen och oerfaren av Target har han redigeringsbehörigheter för konsumentwebbplatsen. Med redigeringsbehörigheter kan Ernie skapa och redigera aktiviteter innan de publiceras. Han kan inte godkänna lanseringen av en aktivitet. Någon med behörigheten Godkännanden för konsumentwebbplatsen, men inte Jan i det här scenariot, måste godkänna aktiviteten innan den kan tas i produktion.
+  Eftersom Ernie är ganska ny i organisationen och oerfaren av Target har han redigeringsbehörighet för konsumentwebbplatsen. Med redigeringsbehörigheter kan Ernie skapa och redigera aktiviteter innan de publiceras. Han kan inte godkänna lanseringen av en aktivitet. Någon med behörigheten Godkännanden för konsumentwebbplatsen, men inte Jan i det här scenariot, måste godkänna aktiviteten innan den kan tas i produktion.
 
   Eftersom Ernie inte har någon roll som gör det nödvändigt att han ser webbplatsen kan han inte se aktiviteter för den sajten.
 
@@ -253,7 +253,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 
   I en framtida version kommer Target att fungera på sidor där `at_property` token finns, eller sidor där en annan `at_property` token finns.
 
-* Funktionen Enterprise-användarbehörigheter stöds inte i Adobe I/O API-anrop.
+* Enterprise-användarbehörigheten stöds inte i Adobe Developer API-anrop.
 
 ## Vanliga frågor {#faqs}
 
@@ -267,7 +267,7 @@ Om en användare har flera roller och behörigheter används rollen med behörig
 
 Tyvärr kan du inte flytta aktiviteter från en arbetsyta till en annan. Du kan dock kopiera en aktivitet till valfri arbetsyta i vetskap om att rapportdata inte överförs. Mer information finns i&quot;Kopiera/redigera en aktivitet när du använder arbetsytor&quot; i [Kopiera/redigera en aktivitet när du använder arbetsytor](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-Aktiviteter som skapas före migreringen fortsätter att köras på samma sätt i standardarbetsytan, såvida de inte redigeras och tilldelas egenskaper. Aktiviteter under en viss arbetsyta följer egenskaper som tilldelats den arbetsytan och beteendet kanske därför inte ändras före migreringen.
+Aktiviteter som skapas före migreringen fortsätter att köras på samma sätt i standardarbetsytan, såvida de inte redigeras och tilldelas egenskaper. Aktiviteter under en specifik arbetsyteegenskap som tilldelats den arbetsytan och därför kanske inte beteendet är detsamma som före migreringen.
 
 ### Kan jag flytta en målgrupp från en arbetsyta till en annan? {#move-audience}
 
@@ -289,7 +289,7 @@ Ja, du kan flytta målgrupper mellan arbetsytor med [!UICONTROL More Actions] p�
 
 Om du implementerat [!DNL Target] med taggar i [!DNL Adobe Experience Platform] och få ett felmeddelande som anger att ingen egenskap är associerad med aktiviteten, skicka `at_property` parametern med `targetPageParams` funktion.
 
-### Spelas klickspårskonverteringar in om en omdirigeringssida och aktivitets-URL:en tillhör olika egenskaper?
+### Spelas klickspårskonverteringar in om en omdirigerad sida och aktivitets-URL:en tillhör olika egenskaper?
 
 Klickspårning registreras inte på sidor där sid- och aktivitets-URL:en tillhör olika egenskaper.
 
