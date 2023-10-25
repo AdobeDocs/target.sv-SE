@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
 workflow-type: tm+mt
-source-wordcount: '36942'
+source-wordcount: '36893'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 
 | Funktion | Information |
 | --- | --- |
-| [!UICONTROL Activities] Uppdatering av användargränssnittet<P>och<P>[!UICONTROL Feeds] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target] teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target] användare, den här versionen uppdaterar [!UICONTROL Activities] och [!DNL Recommendations] [!UICONTROL Feeds] sidor på [!DNL Target] Gränssnitt. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till.<P>Mer information finns i [Verksamhet](/help/main/c-activities/activities.md) och [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
 | [!DNL Recommendations] implementeringsmönster | The *Recommendations implementeringsmönster med at.js* artiklar hjälper dig att förstå och skapa [!DNL Adobe Target Recommendations] implementering när du använder JavaScript-biblioteket at.js.<P>Mer information finns i [Recommendations implementeringsmönster med översikten at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} i *Adobe Target Developer Guide*. |
 
 * Tillagd [!UICONTROL Visual Experience Composer] (VEC) förbättringar för dynamiska ramverk. (TGT-44064)
