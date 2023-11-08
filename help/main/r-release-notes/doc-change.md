@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aef672454e3f5fe2980411b821de1cf49f1ec4f9
+source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 8 november | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagda förhandsversionsinformation för kommande [!DNL Target Standard/Premium] 23.11.1-utgåvan. |
 | 28 oktober | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Mer information om version 2.11.2 av at.js har lagts till. |
 | 25 oktober | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!UICONTROL Activities] uppdatering av sidanvändargränssnittet (25 oktober 2023) |
 | 24 oktober | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.10.2-utgåvan. |
@@ -28,7 +29,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 17 oktober | [Vanliga frågor om rapportering](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | Uppdaterade följande vanliga frågor och svar:&quot;Varför finns det inga data tillgängliga för min aktivitetsrapport? &quot; |
-| 11 oktober | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Uppdaterad information om A4T-stöd för [!DNL Adobe Experience Platform Web SDK]. |
+| 11 oktober | [[!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Uppdaterad information om A4T-stöd för [!DNL Adobe Experience Platform Web SDK]. |
 | 10 oktober | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Versionsinformation för at.js version 2.11.0 har lagts till. |
 | 6 oktober | [Svarstoken](/help/main/administrating-target/response-tokens.md) | Alla kodexempel har uppdaterats. |
 |  | [Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] verksamhet](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | Hela självstudiekursen i *[!UICONTROL Adobe Target Tutorials]* guide. |
