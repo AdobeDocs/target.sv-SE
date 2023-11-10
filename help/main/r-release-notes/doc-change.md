@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
+source-git-commit: f013c2a16de857543594ebeccc4ced0b4241b3dd
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2103'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 10 november | [Recommendations API-referens](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | The [!DNL Adobe Target] [!DNL Recommendations] API har flyttats till [!DNL Adobe Developer] webbplats. Uppdatera bokmärkena om det behövs. |
 | 8 november | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagda förhandsversionsinformation för kommande [!DNL Target Standard/Premium] 23.11.1-utgåvan. |
 | 28 oktober | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Mer information om version 2.11.2 av at.js har lagts till. |
 | 25 oktober | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!UICONTROL Activities] uppdatering av sidanvändargränssnittet (25 oktober 2023) |
