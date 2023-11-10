@@ -4,9 +4,9 @@ description: Lär dig hur du använder start- och slutdatum och sluttider för a
 title: Kan jag rikta in mig på besökare som besöker min webbplats vid särskilda tillfällen?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Du kan lägga till start- och slutdatum samt sluttider i [!DNL Adobe Target] för målanvändare som besöker webbplatsen under en viss tidsperiod. Du kan också ange alternativen Vecka och Dag-delning för att skapa återkommande mönster för målgruppsanpassning.
 
-Med [funktion för kombinerade ad hoc-målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)kan du rikta in dig på låglönelser med specifikt innehåll under de tre dagarna före Black Friday och annat innehåll efter Black Friday.
+Använd till exempel [funktion för kombinerade ad hoc-målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)kan du rikta in dig på låglönelser med specifikt innehåll under de tre dagarna före Black Friday och annat innehåll efter Black Friday.
 
 1. I [!DNL Target] gränssnitt, klicka **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Namnge målgruppen och lägg till en valfri beskrivning.
@@ -31,7 +31,11 @@ Med [funktion för kombinerade ad hoc-målgrupper](/help/main/c-target/combining
 
    >[!NOTE]
    >
-   >Tidszonen för Start-/slutdatum visas som GMT +/- NN:NN, där NN är förskjutningen från GMT och återspeglar tidszonen på kontonivå i stället för besökarens tidszon. Kaliforniens tidszon skulle till exempel visas som GMT -08:00.
+   >Tänk på följande:
+   >
+   >* Tidszonen för Start-/slutdatum visas som GMT +/- NN:NN, där NN är förskjutningen från GMT och återspeglar tidszonen på kontonivå i stället för besökarens tidszon. Kaliforniens tidszon skulle till exempel visas som GMT -08:00.
+   >
+   >* [!DNL Target] målgrupper inte tar hänsyn till DST-ändringar (Daylight Saving Time). Du måste uppdatera målgrupperna manuellt för att kunna ta hänsyn till DST-ändringar.
 
 1. (Villkorligt) Klicka **[!UICONTROL Set frequency]** för att bestämma återkommande mönster, inklusive veckodagar och tider.
 
@@ -51,7 +55,7 @@ Med [funktion för kombinerade ad hoc-målgrupper](/help/main/c-target/combining
 
 1. Klicka på **[!UICONTROL Done]**.
 
-## Utbildningsvideo: Skapa målgrupper ![Märket Översikt](/help/main/assets/overview.png)
+## Utbildningsvideo: Skapa publiker ![Märket Översikt](/help/main/assets/overview.png)
 
 Den här videon innehåller information om hur du använder målgruppskategorier.
 

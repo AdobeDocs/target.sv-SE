@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f013c2a16de857543594ebeccc4ced0b4241b3dd
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 10 november | [Recommendations API-referens](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | The [!DNL Adobe Target] [!DNL Recommendations] API har flyttats till [!DNL Adobe Developer] webbplats. Uppdatera bokmärkena om det behövs. |
+|  | [Tidsram](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Observera att [!DNL Target] målgrupper inte tar hänsyn till DST-ändringar (Daylight Saving Time). Du måste uppdatera målgrupperna manuellt för att kunna ta hänsyn till DST-ändringar. |
 | 8 november | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Tillagda förhandsversionsinformation för kommande [!DNL Target Standard/Premium] 23.11.1-utgåvan. |
 | 28 oktober | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Mer information om version 2.11.2 av at.js har lagts till. |
 | 25 oktober | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Lagt till information om [!UICONTROL Activities] uppdatering av sidanvändargränssnittet (25 oktober 2023) |
