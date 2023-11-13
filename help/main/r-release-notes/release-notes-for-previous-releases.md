@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '36893'
+source-wordcount: '36989'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
+
+### [!DNL Target] Standard/Premium 23.10.2 (24 oktober 2023)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Förbättrade nya [!UICONTROL Activities] Gränssnitt så att [!UICONTROL Visual Experience Composer] (VEC) öppnas med standardinställningarna för `selectorCriteria` när du skapar en ny aktivitet. (TGT-46586)
+* Ett problem som hindrade vissa kunder från att redigera element i har korrigerats [!UICONTROL Composer] VEC-läge. (TGT-46470)
+* Lagt till möjlighet att ange en allmän föredragen väljare när du använder anpassade attribut. (TGT-46545)
+* Ett problem som ibland förhindrade en [!UICONTROL Auto-Target] rapport som använder [!UICONTROL Analytics for Target] (A4T) visas inte i [!DNL Target] användargränssnitt, även om rapporten visas korrekt i [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Uppdaterade olika lokaliserade strängar i målgränssnittet. (TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4 (4 oktober 2023)
 
