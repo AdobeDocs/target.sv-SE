@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
 workflow-type: tm+mt
-source-wordcount: '36989'
+source-wordcount: '37059'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,14 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
+
+### [!UICONTROL Activities] uppdatering av sidanvändargränssnittet (25 oktober 2023)
+
+Som en del av [!DNL Adobe Target] teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target] användare, den här versionen uppdaterar [!UICONTROL Activities] sidan i [!DNL Target] Gränssnitt. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till.
+
+Från och med onsdagen den 25 oktober har en procentandel av kunderna tillgång till det nya användargränssnittet och fler kunder får tillgång till det under de kommande dagarna.
+
+Mer information finns i [Verksamhet](/help/main/c-activities/activities.md).
 
 ### [!DNL Target] Standard/Premium 23.10.2 (24 oktober 2023)
 
