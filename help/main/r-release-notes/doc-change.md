@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0cf2cda5c765887d9c64a85ade56f3e8f6c58db0
+source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2225'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 17 november | [Administratörssteg](/help/main/administrating-target/start-target.md) | Följande viktiga anteckning har lagts till:<ul><li>Användare med [!UICONTROL Product Admin] eller [!UICONTROL System Admin] rättigheter i [!DNL Adobe Admin Console] kan redigera eller ändra alla inställningar på [!UICONTROL Administration] sida av [!DNL Target], oavsett [!DNL Target] roll. Användare utan [!UICONTROL Product Admin] eller [!UICONTROL System Admin] rättigheter i [!DNL Adobe Admin Console] måste ha den specifika [!DNL Target] roll att göra dessa ändringar.1</li></ul> |
 | 16 november | [API för gruppprofilsuppdatering](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Följande caveat tillagdes:&quot;Uppdateringar inträffar vanligtvis på mindre än en timme, men kan ta upp till 24 timmar att reflektera.&quot; |
 | 13 november | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.11.1-utgåvan. |
 
