@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ## Mål-API-anrop
 
-* **Gräns**: 50 anrop per minut för API:er för Admin-, Reporting- och bulkprofilsuppdatering. Denna gräns gäller inte för API:er för leverans- och enprofilsuppdatering.
+* **Gräns**: 50 anrop per minut för API:erna för uppdatering av Admin-, Reporting- och bulkprofiler. Den här gränsen gäller inte för API:er för leverans- och enprofilsuppdatering.
 
-   Om du gör fler än 50 API-anrop per minut, [!DNL Target] returnerar felmeddelandet &quot;503 HTTP-status&quot;.
+  Om du gör fler än 50 API-anrop per minut, [!DNL Target] returnerar felmeddelandet &quot;503 HTTP-status&quot;.
 
 ## Målgrupper
 
@@ -64,35 +64,35 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 * **Gräns**: 100 samtidiga [!DNL Target] innehållsleveransbegäranden per användarsession.
 
-   Om en kund överstiger 100 samtidiga [!DNL Target] innehållsleveransbegäranden för en viss användarsession blockeras alla efterföljande begäranden för den användarsessionen. Två eller flera begäranden anses vara samtidiga om alla skickas till [!DNL Target] servern innan svaret tas emot för någon av dem. [!DNL Target] bearbetar samtidiga begäranden för samma session sekventiellt.
+  Om en kund överstiger 100 samtidiga [!DNL Target] innehållsleveransbegäranden för en viss användarsession blockeras alla efterföljande begäranden för den användarsessionen. Två eller flera begäranden anses vara samtidiga om alla skickas till [!DNL Target] servern innan svaret tas emot för någon av dem. [!DNL Target] bearbetar samtidiga begäranden för samma session sekventiellt.
 
    * **Felbeteende**:
 
       * Delivery API and Batch Mbox v2:
-         * Felkod: HTTP 420 För många begäranden
+         * Felkod: HTTP 420 för många begäranden
          * Felmeddelande: &quot;För många begäranden med samma sessions-ID&quot;
+
       * Äldre mbox-API:
          * Standardinnehåll med kommentaren &quot;För många begäranden med samma sessions-ID&quot;
+
       * at.js:
          * Standardinnehåll visas
 
+* **Gräns**: 50 mbox per [!DNL Target] batchförfrågan om innehållsleverans.
 
+  Mer än 50 lådor per [!DNL Target] batchbegäran om innehållsleverans resulterar i en svarsfelkod `HTTP 400` med felmeddelande `size must be between 0 and 50`.
 
-* **Gräns**: 50 lådor per [!DNL Target] batchförfrågan om innehållsleverans.
-
-   Mer än 50 lådor per [!DNL Target] batchbegäran om innehållsleverans resulterar i en svarsfelkod `HTTP 400` med felmeddelande `size must be between 0 and 50`.
-
-   Batch Mbox-begäranden bearbetas sekventiellt, vilket ökar den totala svarstiden för varje iteration. Ju fler kryssrutor på gruppbegäran, desto fler svarstider kan förväntas, och därför kan timeout-fel uppstå. Om upplevelseåtergivning blockeras på dessa batchbegäranden med hög fördröjning kan fördröjningen leda till en försämrad användarupplevelse när användarna väntar på att upplevelserna ska återges.
+  Batch Mbox-begäranden bearbetas sekventiellt, vilket ökar den totala svarstiden för varje iteration. Ju fler kryssrutor på gruppbegäran, desto fler svarstider kan förväntas, och därför kan timeout-fel uppstå. Om upplevelseåtergivning blockeras på dessa batchbegäranden med hög fördröjning kan fördröjningen leda till en försämrad användarupplevelse när användarna väntar på att upplevelserna ska återges.
 
 * **Gräns**: 60 MB HTTP POST body size for [!DNL Target] förfrågningar om innehållsleverans.
 
-   Mer än 60 MB på HTTP-POSTENS brödstorlek för en [!DNL Target] innehållsleveransbegäran resulterar i en svarsfelkod `HTTP 413 Request Entity Too Large`.
+  Mer än 60 MB på HTTP-POSTENS brödstorlek för en [!DNL Target] innehållsleveransbegäran resulterar i en svarsfelkod `HTTP 413 Request Entity Too Large`.
 
 * **Rekommenderad gräns**: 50 meddelanden per [!DNL Target] batchförfrågan för leverans.
 
-   Mer än 50 meddelanden per [!DNL Target] batchbegäran om leverans resulterar troligen i ökad svarstid och tidsgränser.
+  Mer än 50 meddelanden per [!DNL Target] batchbegäran om leverans resulterar troligen i ökad svarstid och tidsgränser.
 
-   Batchmeddelandebegäranden behandlas sekventiellt, vilket ökar den totala svarstiden för varje upprepning. Ju fler meddelanden om batchbegäran, desto fler svarstider kan förväntas, och därför kan timeout-problem uppstå. Vissa ytterligare latens för batchmeddelandebegäranden kan accepteras av vissa kunder, men tänk på att timeout och efterföljande försök kan orsaka ännu mer fördröjning.
+  Batchmeddelandebegäranden behandlas sekventiellt, vilket ökar den totala svarstiden för varje upprepning. Ju fler meddelanden om batchbegäran, desto fler svarstider kan förväntas, och därför kan timeout-problem uppstå. Vissa ytterligare latens för batchmeddelandebegäranden kan accepteras av vissa kunder, men tänk på att timeout och efterföljande försök kan orsaka ännu mer fördröjning.
 
 ## Kundattribut
 
@@ -127,25 +127,25 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
    * 15 000 tecken (språk med ett värde, en och två byte)
    * 500 värden, 100 tecken per värde (flervärde)
 
-   Den maximala längden för anpassade attribut för en entitet med ett värde är 15 000 tecken (för UTF-8-kodade språk med en byte och två byte, som engelska och andra latinska skriftspråk) eller 10 000 tecken (för UTF-8-kodade språk med tre byte som kinesiska, japanska och koreanska).
+  Den maximala längden för anpassade attribut för en entitet med ett värde är 15 000 tecken (för UTF-8-kodade språk med en byte och två byte, som engelska och andra latinska skriftspråk) eller 10 000 tecken (för UTF-8-kodade språk med tre byte som kinesiska, japanska och koreanska).
 
-   Anpassade attribut för entiteter med flera värden får inte innehålla fler än 500 värden. Varje enskilt värde är begränsat till 100 tecken. Det totala antalet tecken i alla värden måste uppfylla begränsningarna för den maximala längden för anpassade entitetsattribut med ett värde (se ovan).
+  Anpassade attribut för entiteter med flera värden får inte innehålla fler än 500 värden. Varje enskilt värde är begränsat till 100 tecken. Det totala antalet tecken i alla värden måste uppfylla begränsningarna för den maximala längden för anpassade entitetsattribut med ett värde (se ovan).
 
 ### entity.id
 
 * **Begränsning för implementeringar som kräver att man hämtar inköpsinformation**: 50 tecken.
 
-   Den här begränsningen används eftersom `productPurchasedId` mbox-parametern fångar entity.ids, vilket begränsar teckenantalet till 50.
+  Den här begränsningen används eftersom `productPurchasedId` mbox-parametern fångar entity.ids, vilket begränsar teckenantalet till 50.
 
 * **Begränsning för implementeringar som endast kräver vybaserade algoritmer:**: 1 000 tecken.
 
-   Vybaserade algoritmer omfattar vy/vy, de senast visade, nyligen visade och så vidare.
+  Vybaserade algoritmer omfattar vy/vy, de senast visade, nyligen visade och så vidare.
 
 ## excludeIds {#excludedid}
 
-* **Gräns**: 5 kB för förfrågningar om POST. 2 083 tecken minus längden på URL:en för GET-begäranden.
+* **Gräns**: 5 kB för POST. 2 083 tecken minus längden på URL:en för GET-begäranden.
 
-   För GET-förfrågningar gäller att även om gränsen för backend är 5 kB så är den realistiska gränsen 2 083 tecken minus den aktuella URL-längden eftersom Microsoft Internet Explorer begränsar URL:en till 2 083 tecken.
+  För GET-förfrågningar gäller att även om gränsen för backend är 5 kB så är den realistiska gränsen 2 083 tecken minus den aktuella URL-längden eftersom Microsoft Internet Explorer begränsar URL:en till 2 083 tecken.
 
 ## Erfarenheter
 
@@ -157,7 +157,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 * **Gräns**: 2 000 upplevelser per [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), och [!UICONTROL Auto-Target] aktivitet.
 
-   30 000 upplevelser per Automated Personalization-aktivitet (AP).
+  30 000 upplevelser per Automated Personalization-aktivitet.
 
 ### Ändringar per upplevelse
 
@@ -165,11 +165,11 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ## mboxes
 
-### Attributvärde för profil i rutan
+### Attributvärde för profil i rutan {#in-mbox}
 
 * **Gräns**: 256 tecken.
 
-   Värden som är längre än detta trunkeras.
+  Värden som är längre än detta trunkeras när at.js 1 används.*x*. Om du skickar mer än 256 tecken när du använder at.js 2.*x* eller [!DNL Adobe Experience Platform Web SDK]får du ett felmeddelande (värdena trunkeras inte automatiskt).
 
 ### Profilnamn i mbox
 
@@ -179,50 +179,39 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 * **Gräns**: 250 tecken.
 
-   För leverans-API (at.js 2.*x*), integrering av Batch Mbox V2 och AEP Web SDK (alloy.js), mbox-namn *kan* innehåller alfanumeriska tecken (A-Z, a-z, 0-9) och något av följande tecken:
+  För leverans-API (at.js 2.*x*), integrering av Batch Mbox V2 och AEP Web SDK (alloy.js), mbox-namn *kan* innehåller alfanumeriska tecken (A-Z, a-z, 0-9) och något av följande tecken:
 
-   ```
-   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-   ```
+  ```
+  - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+  ```
 
-   För at.js 1.*x* integreringar, mbox-namn *inte* innehåller något av följande tecken:
+  För at.js 1.*x* integreringar, mbox-namn *inte* innehåller något av följande tecken:
 
-   ```
-   ' " %22 %27 < > %3C %3E 
-   ```
+  ```
+  ' " %22 %27 < > %3C %3E 
+  ```
 
 ### mbox-parametrar {#mbox-parameters}
 
 * **Gräns**: Följande begränsningar gäller för mbox-parametrar:
 
-   För vanliga mbox-anrop:
+  För vanliga mbox-anrop:
 
    * mbox-parametrar: 500 parametrar per mbox.
-   * Profilparametrar: 500 parameterprofilparametrar per mbox.
-   * Andra parametrar (URL, refererande URL, osv.): 50 per mbox för varannan parametertyp.
+   * Profilparametrar: 500 parameterprofilparametrar per ruta.
+   * Andra parametrar (URL, refererande URL, osv.): 50 per mbox för varje annan parametertyp.
 
-   Dessa begränsningar gäller såvida inte begäran förkortas på grund av webbläsarbegränsningar.
+  Dessa begränsningar gäller såvida inte begäran förkortas på grund av webbläsarbegränsningar.
 
-   Om du använder API:t för gruppleverans är gränsen 50 mbox per batch-begäran.
+  Om du använder API:t för gruppleverans är gränsen 50 mbox per batch-begäran.
 
-   Om du använder API:t för gruppleverans i SDK för mobila tjänster är begränsningen 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
+  Om du använder API:t för gruppleverans i SDK för mobila tjänster är begränsningen 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
 
-   &quot;Antalet mboxParameters får inte överskrida 50.&quot;
+  &quot;Antalet mboxParameters får inte överskrida 50.&quot;
 
-   Begränsningar för slutpunkter:
+  Begränsningar för slutpunkter:
 
-   **Batchruta v2**:
-
-   * mbox parameters 100
-   * mbox-parameternamn max length 128
-   * mbox-parametervärdet får inte vara null
-   * mbox-parametervärde 5000
-   * profilparametrar 50
-   * profilparameternamn max längd 128
-   * profilparametervärdet får inte vara null
-   * maxlängd för profilparametervärde 5000
-
-   **Slutpunkt för leverans-API**:
+  **Batchruta v2**:
 
    * mbox parameters 100
    * mbox-parameternamn max length 128
@@ -233,13 +222,22 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
    * profilparametervärdet får inte vara null
    * maxlängd för profilparametervärde 5000
 
+  **Slutpunkt för leverans-API**:
 
+   * mbox parameters 100
+   * mbox-parameternamn max length 128
+   * mbox-parametervärdet får inte vara null
+   * mbox-parametervärde 5000
+   * profilparametrar 50
+   * profilparameternamn max längd 128
+   * profilparametervärdet får inte vara null
+   * maxlängd för profilparametervärde 5000
 
 ### URL för mbox-begäran
 
 * **Gräns**: 2 083 tecken.
 
-   Den här gränsen beror på längdbegränsningar i URL:en för Microsoft Internet Explorer.
+  Den här gränsen beror på längdbegränsningar i URL:en för Microsoft Internet Explorer.
 
 ### parametern mbox3rdPartyId
 
@@ -253,7 +251,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ### Antal erbjudanden
 
-* **Rekommenderad gräns**: Totalt 50 000 erbjudanden.
+* **Rekommenderad gräns** Totalt 50 000 erbjudanden.
 
 ### Erbjudandestorlek {#offer-size}
 
@@ -263,9 +261,9 @@ Följande storleksbegränsningar gäller för erbjudanden:
 * 1 024 kB (för varje upplevelse) för visuella erbjudanden från användargränssnittet.
 * 1 024 kB från API:t.
 
-   Om du använder en global mbox är gränsen för hela den innehållsuppsättning som returneras för sidan. Genom att begränsa erbjudandestorleken förbättras sidinläsningstiden. Om gränsen överskrids visas följande meddelande:
+  Om du använder en global mbox är gränsen för hela den innehållsuppsättning som returneras för sidan. Genom att begränsa erbjudandestorleken förbättras sidinläsningstiden. Om gränsen överskrids visas följande meddelande:
 
-   &quot;Innehållet i upplevelsen är för stort för att kunna leverera. Ändra upplevelsen så att den påverkar mindre sidkod.&quot;
+  &quot;Innehållet i upplevelsen är för stort för att kunna leverera. Ändra upplevelsen så att den påverkar mindre sidkod.&quot;
 
 ## orderId-parameter
 
@@ -293,13 +291,13 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
 ## Rapportera målgrupper/segment
 
-* **Gräns**: 50 rapportmålgrupper/segment per verksamhet.
+* **Gräns**: 50 rapportmålgrupper/segment per aktivitet.
 
 ## Skriptprofilens inmatningsruta i [!DNL Target] UI
 
 * **Rekommenderad gräns**: 2 000 tecken.
 
-   Beroende på storleken på den kodade strängen, som kan vara mycket längre än Raw-strängen. Om strängen är för stor misslyckas den innan den når [!DNL Adobe Target].
+  Beroende på storleken på den kodade strängen, som kan vara mycket längre än Raw-strängen. Om strängen är för stor misslyckas den innan den når [!DNL Adobe Target].
 
 ## Skriptprofiler
 
@@ -311,11 +309,11 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
 * **Gräns**: 2 048 tecken.
 
-   Av prestandaskäl rekommenderar vi ett returvärde som inte är längre än 256 tecken.
+  Av prestandaskäl rekommenderar vi ett returvärde på högst 256 tecken.
 
-   Om returvärdet för ett String-returvärde är större än 2 048 tecken inaktiveras skriptet av systemet.
+  Om returvärdet för ett String-returvärde är större än 2 048 tecken inaktiveras skriptet av systemet.
 
-   Om storleken på de sammanfogade värdena i arrayen överstiger 2 048 tecken inaktiveras skriptet av systemet för ett arrayreturvärde.
+  Om storleken på de sammanfogade värdena i arrayen överstiger 2 048 tecken inaktiveras skriptet av systemet för ett arrayreturvärde.
 
 ## Framgångsmått
 
@@ -327,7 +325,7 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
 * **Rekommenderad gräns**: 1 000 värden.
 
-   Det här refererar till antalet radavgränsade värden i måltextområdet. Du kan till exempel ange 1 000 postkoder i ett postnummermål.
+  Det här refererar till antalet radavgränsade värden i måltextområdet. Du kan till exempel ange 1 000 postkoder i ett postnummermål.
 
 ### Riktningsregler {#targeting-rules}
 

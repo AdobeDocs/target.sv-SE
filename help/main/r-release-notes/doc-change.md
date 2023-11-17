@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
 | 17 november | [Administratörssteg](/help/main/administrating-target/start-target.md) | Följande viktiga anteckning har lagts till:<ul><li>Användare med [!UICONTROL Product Admin] eller [!UICONTROL System Admin] rättigheter i [!DNL Adobe Admin Console] kan redigera eller ändra alla inställningar på [!UICONTROL Administration] sida av [!DNL Target], oavsett [!DNL Target] roll. Användare utan [!UICONTROL Product Admin] eller [!UICONTROL System Admin] rättigheter i [!DNL Adobe Admin Console] måste ha den specifika [!DNL Target] roll att göra dessa ändringar.1</li></ul> |
+|  | [Gränser](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Uppdaterat avsnitt med information om hur [!DNL Target] hanterar trunkering i at.js 2.*x* och [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Leverans-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Lagt till omdirigeringar till den aktuella dokumentationen för leverans-API och har ersatt den tidigare dokumentationen (`http://developers.adobetarget.com/api/delivery-api/`). Uppdatera bokmärken efter behov. |
 | 16 november | [API för gruppprofilsuppdatering](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Följande caveat tillagdes:&quot;Uppdateringar inträffar vanligtvis på mindre än en timme, men kan ta upp till 24 timmar att reflektera.&quot; |
 | 13 november | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.11.1-utgåvan. |
 
