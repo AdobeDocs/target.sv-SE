@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 * **Gräns**: 256 tecken.
 
-  Värden som är längre än detta trunkeras när at.js 1 används.*x*. Om du skickar mer än 256 tecken när du använder at.js 2.*x* eller [!DNL Adobe Experience Platform Web SDK]får du ett felmeddelande (värdena trunkeras inte automatiskt).
+  Värden med fler än 256 tecken trunkeras när at.js 1 används.*x*. Du får ett felmeddelande när du skickar värden med fler än 256 tecken när du använder at.js 2.*x* eller [!DNL Adobe Experience Platform Web SDK]. Värden trunkeras inte automatiskt.
 
 ### Profilnamn i mbox
 
