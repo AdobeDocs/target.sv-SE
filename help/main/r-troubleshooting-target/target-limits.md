@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i [!DNL Adobe 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 * **Gräns**: 250 tecken.
 
-  För leverans-API (at.js 2.*x*), integrering av Batch Mbox V2 och AEP Web SDK (alloy.js), mbox-namn *kan* innehåller alfanumeriska tecken (A-Z, a-z, 0-9) och något av följande tecken:
+  För [!DNL Delivery API] (at.js 2.*x*), Batch mbox V2, och [!DNL Adobe Experience Platform Web SDK] (alloy.js) integreringar, mbox-namn *kan* innehåller alfanumeriska tecken (A-Z, a-z, 0-9) och något av följande tecken:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
