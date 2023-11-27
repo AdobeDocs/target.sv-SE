@@ -3,12 +3,13 @@ keywords: cja4t;kundreseanalys;kundreseanalys för mål;kundreseanalys, rapportk
 description: Använd [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (A4T) för att skapa aktiviteter baserade på [!DNL Customer Journey Analytics] konverteringsstatistik och målgruppssegment samt användning [!DNL Customer Journey Analytics] rapporter för att undersöka resultaten.
 title: Vad är [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)?
 feature: Integrations
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
+source-git-commit: 16b325431224dfb6cd3e580937f6a3989d0ca577
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
