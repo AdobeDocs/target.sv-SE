@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
+source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2324'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 29 november | [API för gruppprofiluppdatering](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Tydligare skillnader om hur [!DNL Target] hanterar kundattribut när en profil skapas för en användare [!DNL Target] har ännu inte setts när du använder [!UICONTROL Bulk Profile Update API] v2 till skillnad från v1. |
 | 21 november | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Versionsinformation för at.js 2.11.3 har lagts till. |
 | 17 november | [Administratörssteg](/help/main/administrating-target/start-target.md) | Följande viktiga anteckning har lagts till:<ul><li>Användare med [!UICONTROL Product Admin] eller [!UICONTROL System Admin] rättigheter i [!DNL Adobe Admin Console] kan redigera eller ändra alla inställningar på [!UICONTROL Administration] sida av [!DNL Target], oavsett [!DNL Target] roll. Användare utan [!UICONTROL Product Admin] eller [!UICONTROL System Admin] rättigheter i [!DNL Adobe Admin Console] måste ha den specifika [!DNL Target] roll att göra dessa ändringar.1</li></ul> |
 |  | [Gränser](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Uppdaterat avsnitt med information om hur [!DNL Target] hanterar trunkering i at.js 2.*x* och [!DNL Adobe Experience Platform Web SDK]. |
