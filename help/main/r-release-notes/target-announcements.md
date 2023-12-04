@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,25 @@ ht-degree: 0%
 # [!DNL Adobe Target] meddelanden och evenemang
 
 Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
+
+## [!DNL Adobe Target Community] Kaffebrytning
+
+* **Maskininlärning och AI-rapportering och -analys**
+* **onsdagen den 6 december 2023**
+* **8.00 - 9.00 (PST -8 GMT)**
+* **[Registrera dig här](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+Hörn [!DNL Adobe Target] experterna Brent Kostak, Cristinel Anastasoaie, Drew Burns och Marisol St. John i en fråga om maskininlärning och AI-rapportering och -analys i [!DNL Adobe Target].
+
++++Detaljer Diskussionen kommer att inriktas på följande ämnen:
+
+* Är du intresserad av ML och AI och vill du bättre förstå hur du rapporterar framgångar för dina aktiviteter?
+* Söker du nya idéer och användningsexempel där du kan använda personalisering i realtid för innehåll, erbjudanden och meddelanden?
+* Vill du veta hur man skapar formulärbaserade aktiviteter för testning på serversidan?
+* Vill du förbättra aktivitetsanalys och -mätning inom [!UICONTROL Analytics for Target] (A4T) rapportera?
+* Är era team nyfikna på hur ni kan utöka bortom A/B-tester med testning och personalisering av autentiserade och kända kundupplevelser?
+
++++
 
 ## [!DNL Adobe Target] webbinarier {#webinar-series}
 

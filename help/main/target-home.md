@@ -4,10 +4,10 @@ title: Användarhandbok om Adobe Target Business Practitioner
 description: Lär dig hur du använder Adobe [!DNL Target] för att personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 2%
+source-wordcount: '506'
+ht-degree: 1%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 2%
 
 [!DNL Adobe Target] är [!DNL Adobe Experience Cloud] en lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse, så att ni kan maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 1 december 2023 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
+**Senast uppdaterad: 4 december 2023 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
 >Utöver den här guiden finns följande [!DNL Adobe Target] Det finns även stödlinjer:
 >
 >- [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
->- [*Självstudiekurser om Adobe Target*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
+>- [*Adobe Target Tutorials*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
 >
 >Versionsinformation finns i [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) i den här guiden.
 
