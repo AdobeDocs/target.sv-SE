@@ -4,7 +4,7 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 0%
@@ -30,22 +30,22 @@ Varför ska du vara med?
 +++Datum och information
 
 * **Konst av möjligheterna**
-* **Tisdagen den 16 januari 2024**
-* **10.00 - 11.00 (PST -8 GMT)**
+   * **Tisdagen den 16 januari 2024**
+   * **10.00 - 11.00 (PST -8 GMT)**
 
-En viktig del av mognaden är artificiell intelligens och maskininlärning. [!DNL Adobe Target] utnyttjar dessa tekniker för att förstå användarbeteende, förutse preferenser och dynamiskt skräddarsy innehåll. Genom att utnyttja kraften i AI och ML kan ni lära er hur varumärken går bortom statiska A/B-tester och regelbaserad personalisering för att leverera dynamiska, sammanhangsberoende upplevelser.
+     En viktig del av mognaden är artificiell intelligens och maskininlärning. [!DNL Adobe Target] utnyttjar dessa tekniker för att förstå användarbeteende, förutse preferenser och dynamiskt skräddarsy innehåll. Genom att utnyttja kraften i AI och ML kan ni lära er hur varumärken går bortom statiska A/B-tester och regelbaserad personalisering för att leverera dynamiska, sammanhangsberoende upplevelser.
 
 * **Högpresterande Recommendations**
-* **Tisdagen den 13 februari 2024**
-* **10.00 - 11.00 (PST -8 GMT)**
+   * **Tisdagen den 13 februari 2024**
+   * **10.00 - 11.00 (PST -8 GMT)**
 
-Läs om hur rekommendationsalgoritmer kan bli en förändringsfaktor för företag och öka engagemanget och intäkterna. Möjligheten att guida användarna smidigt genom hela kundresan bidrar direkt till att frigöra en betydande tillväxt. Det kan gälla allt från personaliserade produktförslag till innehållsrekommendationer.
+     Läs om hur rekommendationsalgoritmer kan bli en förändringsfaktor för företag och öka engagemanget och intäkterna. Möjligheten att guida användarna smidigt genom hela kundresan bidrar direkt till att frigöra en betydande tillväxt. Det kan gälla allt från personaliserade produktförslag till innehållsrekommendationer.
 
 * **Låsa upp AI-styrd personalisering**
-* **Tisdagen den 12 mars 2024**
-* **10.00 - 11.00 (PST -8 GMT)**
+   * **Tisdagen den 12 mars 2024**
+   * **10.00 - 11.00 (PST -8 GMT)**
 
-[!DNL Adobe Target] möjliggör AI-baserade personaliseringsfunktioner i alla faser av kundlivscykeln för personaliserade upplevelser. Läs om hur företag får insikt i hur de effektiviserar sina processer, minimerar de manuella ansträngningarna och levererar sammanhangsbaserade, engagerande kundupplevelser i stor skala - från kundvärvning till lojalitet.
+     [!DNL Adobe Target] möjliggör AI-baserade personaliseringsfunktioner i alla faser av kundlivscykeln för personaliserade upplevelser. Läs om hur företag får insikt i hur de effektiviserar sina processer, minimerar de manuella ansträngningarna och levererar sammanhangsbaserade, engagerande kundupplevelser i stor skala - från kundvärvning till lojalitet.
 
 +++
 
