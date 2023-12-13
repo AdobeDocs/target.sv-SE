@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
@@ -15,30 +15,39 @@ ht-degree: 0%
 
 Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
-## [!DNL Adobe Target Community] Kaffebrytning
+## Adobe Target 2024 Personalization Maturity Webinar Series
 
-* **Maskininlärning och AI-rapportering och -analys**
-* **onsdagen den 6 december 2023**
-* **8.00 - 9.00 (PST -8 GMT)**
-* **[Registrera dig här](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+Denna live-webbinariserie sätter fokus på nyckeln [!DNL Adobe Target] funktioner, användningsexempel och tips för att låsa upp AI-driven personalisering när kunderna utökar sina experiment- och personaliseringsresor med [!DNL Adobe Experience Platform].
 
-Hörn [!DNL Adobe Target] experterna Brent Kostak, Cristinel Anastasoaie, Drew Burns och Marisol St. John i en fråga om maskininlärning och AI-rapportering och -analys i [!DNL Adobe Target].
+Varför ska du vara med?
 
-+++Detaljer Diskussionen kommer att inriktas på följande ämnen:
+* **Läs om de vanligaste användningsområdena**: Omvandla visioner till verklighet med en plan för intelligent optimering, mognad [!DNL Adobe Target] kunder bortom regelbaserade experiment och A/B-tester.
+* **Maximera unika funktioner**: Skräddarsy upplevelser för framgång med högpresterande rekommendationer för maximal avkastning, intäkter och konvertering.
+* **Avancerade strategier för personalisering**: Fördjupa dig i avancerad AI/ML-teknik för att skala affärsmässiga konsekvenser, anpassa till nya segment/målgrupper och finjustera personaliseringsmodeller för optimerade upplevelser
 
-* Är du intresserad av ML och AI och vill du bättre förstå hur du rapporterar framgångar för dina aktiviteter?
-* Söker du nya idéer och användningsexempel där du kan använda personalisering i realtid för innehåll, erbjudanden och meddelanden?
-* Vill du veta hur man skapar formulärbaserade aktiviteter för testning på serversidan?
-* Vill du förbättra aktivitetsanalys och -mätning inom [!UICONTROL Analytics for Target] (A4T) rapportera?
-* Är era team nyfikna på hur ni kan utöka bortom A/B-tester med testning och personalisering av autentiserade och kända kundupplevelser?
+* **[Registrera dig här](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++Datum och information
+
+* **Konst av möjligheterna**
+* **Tisdagen den 16 januari 2024**
+* **10.00 - 11.00 (PST -8 GMT)**
+
+En viktig del av mognaden är artificiell intelligens och maskininlärning. [!DNL Adobe Target] utnyttjar dessa tekniker för att förstå användarbeteende, förutse preferenser och dynamiskt skräddarsy innehåll. Genom att utnyttja kraften i AI och ML kan ni lära er hur varumärken går bortom statiska A/B-tester och regelbaserad personalisering för att leverera dynamiska, sammanhangsberoende upplevelser.
+
+* **Högpresterande Recommendations**
+* **Tisdagen den 13 februari 2024**
+* **10.00 - 11.00 (PST -8 GMT)**
+
+Läs om hur rekommendationsalgoritmer kan bli en förändringsfaktor för företag och öka engagemanget och intäkterna. Möjligheten att guida användarna smidigt genom hela kundresan bidrar direkt till att frigöra en betydande tillväxt. Det kan gälla allt från personaliserade produktförslag till innehållsrekommendationer.
+
+* **Låsa upp AI-styrd personalisering**
+* **Tisdagen den 12 mars 2024**
+* **10.00 - 11.00 (PST -8 GMT)**
+
+[!DNL Adobe Target] möjliggör AI-baserade personaliseringsfunktioner i alla faser av kundlivscykeln för personaliserade upplevelser. Läs om hur företag får insikt i hur de effektiviserar sina processer, minimerar de manuella ansträngningarna och levererar sammanhangsbaserade, engagerande kundupplevelser i stor skala - från kundvärvning till lojalitet.
 
 +++
-
-## [!DNL Adobe Target] webbinarier {#webinar-series}
-
-Registrera dig för följande webbinarier för att se hur kunderna använder [!DNL Target] för att uppnå sina personaliserings- och optimeringsmål:
-
-Ingen schemalagd just nu.
 
 ## Inspelningar av tidigare webbinarier och kunskapsskapande sessioner
 
