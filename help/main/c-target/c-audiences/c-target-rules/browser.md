@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Följande webbläsare kan ha följande mål:
 * Microsoft Edge
 * Opera
 * iPad
-* iPhone|
+* iPhone
 
 Det finns två sätt att rikta in sig på webbläsare:
 
@@ -49,12 +49,13 @@ Det finns två sätt att rikta in sig på webbläsare:
       * **Typ:** Ange eller exkludera en viss webbläsare. Se [Typ](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Språk:** Använd eller exkludera vissa webbläsare som är inställda på specifika språk. Se [Språk](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Version:** Ange eller exkludera vissa webbläsarversioner. Se [Version](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+
    1. (Valfritt) Ange ytterligare regler för målgruppen.
    1. Klicka på **[!UICONTROL Done]**.
 
-   I följande exempel visas en publik som inkluderar Microsoft Edge-användare i version 91 eller 92:
+  I följande exempel visas en publik som inkluderar Microsoft Edge-användare i version 91 eller 92:
 
-   ![Målkant 91 eller 92](assets/target_edge.png)
+  ![Målkant 91 eller 92](assets/target_edge.png)
 
 ## Webbläsaralternativ {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -66,8 +67,8 @@ Ange eller exkludera en viss webbläsare.
 
 Välj **[!UICONTROL Type]** väljer du antingen lika med eller inte lika med.
 
-* Lika med: Välj de valda webbläsarna.
-* Är inte lika med: Uteslut de valda webbläsarna.
+* Lika med: Använd de valda webbläsarna som mål.
+* Är inte lika med: Exkludera de valda webbläsarna.
 
 Välj en eller flera webbläsare. Flera alternativ är kopplade till en OR.
 
@@ -77,12 +78,12 @@ Använd eller exkludera vissa webbläsare som är inställda på specifika språ
 
 Om ett erbjudande t.ex. bara finns på engelska kan du rikta dig till webbläsare där språket är engelska. Om sidan inte är aktiverad med dubbla byte kan du utesluta webbläsare som är inställda på östasiatiska språk.
 
-Att inkludera eller exkludera webbläsarspråk kan ge en mer exakt besökaranpassning än att rikta in er baserat på geografisk orientering i fall där språket är viktigare än platsen. Om du t.ex. erbjuder en artikel skriven på engelska kan du antingen rikta dig till engelskspråkiga länder eller till webbläsare som är inställda på engelska. Artikeln blir tillgänglig för engelska talare i länder där engelska inte är det primära språket.
+Att inkludera eller exkludera webbläsarspråk kan ge en mer exakt besökaranpassning än att rikta in er baserat på geografisk orientering i fall där språket är viktigare än platsen. Om du t.ex. erbjuder en artikel skriven på engelska kan du antingen rikta dig till engelskspråkiga länder eller till webbläsare som är inställda på engelska. Artikeln är avsedd för webbläsare och är tillgänglig för engelska talare i länder där engelska inte är det primära språket.
 
 Välj **[!UICONTROL Language]** väljer du antingen lika med eller inte lika med.
 
-* Lika med: Ange de valda webbläsarspråken.
-* Är inte lika med: Uteslut de valda webbläsarspråken.
+* Lika med: Ange de valda webbläsarspråken som mål.
+* Är inte lika med: Exkludera de valda webbläsarspråken.
 
 Markera ett eller flera språk. Flera alternativ är kopplade till en OR.
 
@@ -117,7 +118,7 @@ Skriv versionsnumret. Endast större versioner kan anges i textfältet. Den angi
 
 Flera alternativ är kopplade till en OR.
 
-## Utbildningsvideo: Skapa målgrupper ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa publiker ![Självstudiemärke](/help/main/assets/tutorial.png)
 
 Den här videon innehåller information om hur du använder målgruppskategorier.
 
