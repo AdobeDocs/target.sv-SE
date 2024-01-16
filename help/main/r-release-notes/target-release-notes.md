@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
+source-git-commit: 78bedce2134061edc48baf7023107e1dd48da2a1
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 8 november 2023**
+**Senast uppdaterad: 16 januari 2023**
 
 >[!NOTE]
 >
@@ -23,23 +23,27 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 23.11.1 (13 och 14 november 2023)
+## Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)
+
+| Föråldring | Information |
+|--- |--- |
+| [!DNL iPad] och [!DNL iPhone] tas bort från [Webbläsarattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md) används när målgrupper skapas.<p>Föråldringsdatum:<P>30 april 2024 | [!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive användare som använder en viss [webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md) när de besöker din sida.<P><B>Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper.</b><P>Om du har målgrupper som använder iPad eller iPhone med [!UICONTROL Browser] måste du ändra dessa inställningar före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.<P>Följande inställningar bör användas framåt:<ul><li>[!UICONTROL Mobile] > [!UICONTROL is Tablet]<P>![mobil är surfplatta](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+
+## [!DNL Target] Standard/Premium 24.1.1 (22 januari, 23 och 25 januari 2024)
 
 Den här versionen är schemalagd för följande dagar:
 
-* **13 november**: Asien-Stillahavsregionen (APAC)
-* **14 november**: Amerika
-* **14 november**: Europa, Mellanöstern och Afrika (EMEA)
+* **22 januari**: Europa, Mellanöstern och Afrika (EMEA)
+* **23 januari**: Asien-Stillahavsregionen (APAC)
+* **25 januari**: Amerika
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* Förbättrade [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) funktioner som stöds [inte tillåter dubbla erbjudanden](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) för upplevelser i [!UICONTROL Automated Personalization] verksamhet. (TGT-46627)
-* Ett verktygstips har lagts till i [!DNL Target] Användargränssnitt som hjälper kunderna att förstå varför det kanske inte finns data tillgängliga i aktivitetsrapporter om ingen trafik tilldelas till kontrollupplevelsen. En länk till mer information finns i verktygstipset: [Varför finns det inga data tillgängliga för min aktivitetsrapport?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* Korrigerat ett problem som förhindrade aktiviteter från att visas korrekt på [!UICONTROL Activities] sida för några kunder. (TGT-46830)
-* Åtgärdade följande problem som påverkade aktiviteter som använder [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) som rapportkälla:
-   * Ett problem som gjorde att vissa kunder inte kunde visa rapporteringsdata har korrigerats. (TGT-46557)
-   * Korrigerade ett problem som ibland orsakade [!UICONTROL View in Analytics] länkar på aktivitetsrapporteringssidor för att inte fungera som de ska. (TGT-46731)
-   * Korrigerade ett problem som förhindrade data för [!UICONTROL Lift] och [!UICONTROL Confidence] för att visas korrekt i [!DNL Target] Gränssnitt. (TGT-46592, TGT-46554 och TGT-46586)
+* Korrigerade ett problem som gjorde att rapportdatumintervaller inte fungerade korrekt. (TGT-47396)
+* Ett problem som orsakade att felaktig status visades på [!UICONTROL All Activities] sidan efter att kunderna aktiverat eller inaktiverat en aktivitet med [!UICONTROL More Actions] -ikon. (TGT-47367)
+* Ett problem som orsakade [!UICONTROL Important Attributes] som inte visas för en kund. (TGT-47272)
+* Korrigerade ett problem som orsakade att ett meddelande om ogiltig nyttolast visades när en kund försökte aktivera&quot;Kräv autentisering&quot;. (TGT-47195)
+* Uppdaterat flera lokaliserade strängar i [!DNL Target] Gränssnitt.
 
 ## Ytterligare versionsinformation
 
