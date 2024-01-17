@@ -4,7 +4,7 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 77c8a3460b800183481637723b9631c11157d143
+source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 0%
@@ -141,35 +141,35 @@ Om du har målgrupper som använder iPad eller iPhone med [!UICONTROL Browser] m
 
 Följande inställningar kan användas framåt:
 
-* För webbläsarmatchningar [!DNL Apple]: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* **För webbläsarmatchningar[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* För webbläsare som matchar surfplatta: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **För webbläsare matchar surfplattan**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![mobil är surfplatta](/help/main/r-release-notes/assets/is-tablet.png)
 
-* För webbläsare som matchar iPad: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] med en And-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Tablet] är [!DNL true]
+* **För webbläsare som matchar iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] med en And-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Tablet] är [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* För webbläsare som matchar iPhone: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] med en And-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] är [!DNL true]
+* **För webbläsare som matchar iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] med en And-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] är [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Det finns många andra inställningar som kan användas, till exempel när villkoren negeras. Exempel på negerade förhållanden kan se ut så här:
 
-* Webbläsaren matchar inte iPhone: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] med en Eller-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] är [!UICONTROL false]
+* **Webbläsaren matchar inte iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] med en Eller-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] är [!UICONTROL false]
 
   ![Inte mobiltelefon](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* Webbläsaren matchar inte iPad: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] med en Eller-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Tablet] är [!UICONTROL false].
+* **Webbläsaren matchar inte iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] med en Eller-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Tablet] är [!UICONTROL false].
 
   ![Inte surfplatta](/help/main/r-release-notes/assets/tablet-false.png)
 
 Om du `user.browserType` i JavaScript-segment kan följande ändringar göras:
 
-* BrowserType är iPhone
+* **BrowserType är iPhone**:
 
   Ersätt:
 
@@ -179,7 +179,7 @@ Om du `user.browserType` i JavaScript-segment kan följande ändringar göras:
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType är inte iPhone
+* **BrowserType är inte iPhone**:
 
   Ersätt:
 
@@ -189,7 +189,7 @@ Om du `user.browserType` i JavaScript-segment kan följande ändringar göras:
 
   `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType är iPad
+* **BrowserType är iPad**:
 
   Ersätt:
 
@@ -199,7 +199,7 @@ Om du `user.browserType` i JavaScript-segment kan följande ändringar göras:
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
 
-* BrowserType är inte iPad
+* **BrowserType är inte iPad**:
 
   Ersätt:
 
