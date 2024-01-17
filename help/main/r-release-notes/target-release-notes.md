@@ -4,7 +4,7 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 78bedce2134061edc48baf7023107e1dd48da2a1
+source-git-commit: b76a0541b181ee5ebe88f2d11f5556c6c7b91126
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 16 januari 2023**
+**Senast uppdaterad: 16 januari 2024**
 
 >[!NOTE]
 >
