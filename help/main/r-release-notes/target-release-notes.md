@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 17 januari 2024**
+**Senast uppdaterad: 18 januari 2024**
 
 >[!NOTE]
 >
@@ -23,11 +23,6 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)
-
-| Föråldring | Information |
-|--- |--- |
-| [!DNL iPad] och [!DNL iPhone] tas bort från [Webbläsarattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md) används när målgrupper skapas.<p>Föråldringsdatum:<P>30 april 2024 | [!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive användare som använder en viss [webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md) när de besöker din sida.<P><B>Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper.</b><P>Om du har målgrupper som använder iPad eller iPhone med [!UICONTROL Browser] måste du ändra dessa inställningar före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.<p>Exempel på alternativa inställningar finns i [Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22 januari, 23 och 25 januari 2024)
 
@@ -39,10 +34,11 @@ Den här versionen är schemalagd för följande dagar:
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
+* [!UICONTROL Analytics for Target] (A4T) aktiviteter med intäktsmålmått visade inte &quot;Intäkt&quot; eftersom kolumnnamnet och intäktsmåttet inte visades i ($)-format vid rapportering. Detta var en kosmetisk fråga som har åtgärdats. (TGT-46995)
 * Korrigerade ett problem som gjorde att rapportdatumintervaller inte fungerade korrekt. (TGT-47396)
 * Ett problem som orsakade att felaktig status visades på [!UICONTROL All Activities] sidan efter att kunderna aktiverat eller inaktiverat en aktivitet med [!UICONTROL More Actions] -ikon. (TGT-47367)
-* Ett problem som orsakade [!UICONTROL Important Attributes] som inte visas för en kund. (TGT-47272)
-* Korrigerade ett problem som orsakade att ett meddelande om ogiltig nyttolast visades när en kund försökte aktivera&quot;Kräv autentisering&quot;. (TGT-47195)
+* Ett problem som orsakade [!UICONTROL Important Attributes] som inte visas för en enskild kund. (TGT-47272)
+* Korrigerade ett problem som orsakade att ett meddelande om ogiltig nyttolast visades när en enskild kund försökte aktivera&quot;Kräv autentisering&quot;. (TGT-47195)
 * Uppdaterat flera lokaliserade strängar i [!DNL Target] Gränssnitt.
 
 ## Ytterligare versionsinformation
