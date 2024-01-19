@@ -1,13 +1,13 @@
 ---
 keywords: entitet;entitetsattribut;skicka information till Recommendations;beteendedata;dataräknare;definiera relativ URL;visa lagernivå;definiera pris;definiera vinstmarginal;anpassade attribut
 description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ I allmänhet ser visningsinformationsrutan ut som i följande exempel om du anv�
 
 >[!NOTE]
 >
->Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använda [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använda [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -105,9 +105,9 @@ The `categoryId` värdet är begränsat till 250 tecken.
 
 Exempel:
 
-* Exempel på produktinformationssida: kvinnor, kvinnor:trötthet, kvinnor:sweaters:codigans
-* Exempel: Kategorisidomatare: kvinnor:trötthet
-* Exempel: Kategorisidnumrering: kvinnor:sweaters:codigans
+* Exempel på produktinformationssida: kvinnor, kvinnor:fritidsanställda, kvinnor:sweaters:codigans
+* Exempel på kategorisidomatare: kvinnor:tröjor
+* Exempel på kategorisidnumrering: kvinnor:sweaters:codigans
 
 För kategoribaserade rekommendationer avgränsar ett kommatecken kategorivärdet. Alla värden som avgränsas med kommatecken blir kategorier. Du kan också definiera underkategorier genom att använda en annan avgränsare, t.ex. ett kolon (:), för att skilja underkategorier inom kategorivärdet.
 
@@ -159,7 +159,7 @@ Visar artikelns lagernivå.
 
 Exempel: `'entity.inventory=1'`
 
-**Tom attributhantering för lager:** För leverans, om du har en inkluderingsregel, samlingsregel eller kriterieinställning med `entity.inventory` > 0 eller `entity.inventory` = 0 och produkten har inget lager angivet, [!DNL Target] utvärderar värdet till TRUE och inkluderar produkter där lagret inte är inställt. Detta resulterar i att produkter med lager som inte är inställda visas i rekommendationsresultat.
+**Tom attributhantering för lager:** För leverans, om du har en inkluderingsregel, samlingsregel eller kriterieinställning med `entity.inventory` > 0 eller `entity.inventory` = 0 och produkten har inget lager angivet, [!DNL Target] utvärderar det här värdet till TRUE och inkluderar produkter där lagret inte är inställt. Detta resulterar i att produkter med lager som inte är inställda visas i rekommendationsresultat.
 
 Om du har en global exkluderingsregel med `entity.inventory` = 0 och `entity.inventory` är inte inställd, [!DNL Target] utvärderar den här regeln till TRUE och utesluter produkten.
 
@@ -187,7 +187,7 @@ Exempel: `'entity.margin=1.00'`
 
 Stöder flervärdesmatris (JSON-matris).
 
-Definiera upp till 100 anpassade variabler som innehåller ytterligare information om objektet. Du kan ange vilket attributnamn som inte används för varje anpassat attribut. Du kan till exempel skapa ett anpassat attribut med namnet `entity.genre` för att definiera en bok eller film. En biljettleverantör kan skapa attribut för en evenemangsplats för en sekundär utförare, till exempel ett besöksteam vid ett idrottsevenemang eller en öppningsakt på en konsert.
+Definiera upp till 100 anpassade variabler som innehåller ytterligare information om objektet. Du kan ange vilket attributnamn som inte används för varje anpassat attribut. Du kan till exempel skapa ett anpassat attribut med namnet `entity.genre` för att definiera en bok eller film. En biljettleverantör kan skapa attribut för en evenemangsplats för en sekundär utförare, till exempel ett besöksteam i ett idrottsevenemang eller en öppningsakt på en konsert.
 
 Begränsningar:
 
@@ -224,4 +224,3 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 >[!MORELIKETHIS]
 >
 >* [Anpassade entitetsattribut](/help/main/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
-

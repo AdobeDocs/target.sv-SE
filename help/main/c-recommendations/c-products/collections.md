@@ -2,12 +2,12 @@
 keywords: samling;Riktning
 description: Lär dig hur du använder samlingar i Adobe [!DNL Target] Recommendations. En samling är en uppsättning produkter eller artiklar som är berättigade till en rekommendation.
 title: Hur använder jag samlingar i Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
    ![Hovringsikoner: redigera, kopiera och ta bort](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Antal objekt som rapporteras för varje samling på [!UICONTROL Collections] listvyn är antalet produkter som matchar reglerna för den samlingen inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
+   Antal objekt som rapporteras för varje samling på [!UICONTROL Collections] listvyn är antalet produkter som matchar reglerna för den samlingen inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 
-1. (Villkorligt) Välj en miljö på **[!UICONTROL Environment]** när du skapar (eller uppdaterar) en samling för att förhandsgranska innehållet i samlingen i den miljön. Som standard visas resultat från standardvärdgruppen.
+1. (Villkorligt) Välj en miljö på **[!UICONTROL Environment]** filtrera när du skapar (eller uppdaterar) en samling för att förhandsgranska innehållet i samlingen i den miljön. Som standard visas resultat från standardvärdgruppen.
 
    ![Skapa samling](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
@@ -58,7 +58,7 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
    Du kan också ange ett valfritt **[!UICONTROL Description]**.
 
-1. Ange reglerna som används för att skapa samlingen.
+1. Ange de regler som ska användas för att skapa samlingen.
 
    Samlingen kan t.ex. bygga på ett produkt-ID eller en kategori, marginal eller någon annan parameter i listan.
 
@@ -68,19 +68,19 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
 ## Skapa en samling med avancerad sökning
 
-Du kan också skapa samlingar med avancerad sökning på [Katalogsökning](/help/main/c-recommendations/c-products/catalog-search.md#save-as) sida ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Du kan också skapa samlingar med Avancerad sökning på [Katalogsökning](/help/main/c-recommendations/c-products/catalog-search.md#save-as) sida ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![Dialogrutan Spara som](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Spara som dialogruta](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel klicka på [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->Funktionen för avancerad sökning är inte skiftlägeskänslig; men de produkter som returneras vid leveranstillfället bygger på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte.
+>Funktionen för avancerad sökning är inte skiftlägeskänslig, men de produkter som returneras vid leveranstillfället baseras på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte.
 
 ## Redigera, kopiera eller ta bort en samling
 
-Håll muspekaren över önskad samling i listan och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
+Håll markören över önskad samling i listan och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
 
 ![Hovringsikoner för en samling](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 

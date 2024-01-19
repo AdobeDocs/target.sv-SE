@@ -4,9 +4,9 @@ description: Åtkomst [!DNL Adobe Target] dokumentation och resurser, inklusive 
 title: Var hittar jag dokumentation och resurser för [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Följande handböcker och resurser är tillgängliga för [!DNL Target]:
 | [Adobe Target produktdokumentation](/help/main/target-home.md)<br>(Den här guiden) | Översikt över information, steg och skärmbilder som fokuserar på interaktion med [!DNL Target] via användargränssnittet. I den här handboken beskrivs alla tillgängliga åtgärder och alternativ, inklusive&quot;gotchas&quot; som ska undvikas. Det här är den mest detaljerade resursen för att arbeta med [!DNL Target] Gränssnitt. |
 | [Adobe Target självstudiekurser](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | Videor och självstudiekurser som hjälper dig att lära dig de många komponenterna i [!DNL Target]. |
 | [Adobe Experience League Target-innehållsbibliotek](https://guided.adobe.com/#recommended/solutions/target) | En samling självstudiekurser och självstudiekurser som visar hur [!DNL Target] finns på [!DNL Adobe Target Experience League] sida. |
-| [Adobe Experience Platform Target-dokumentation](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank} | Information om implementering [!DNL Target] använda taggar i [!DNL Adobe Experience Platform], nästa generations tagghanteringsplattform från [!DNL Adobe]. Detta är den metod som rekommenderas för implementering [!DNL Target]. |
+| [Adobe Experience Platform Target-dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank} | Information om implementering [!DNL Target] använda taggar i [!DNL Adobe Experience Platform], nästa generations tagghanteringsplattform från [!DNL Adobe]. Detta är den metod som rekommenderas för implementering [!DNL Target]. |
 | [Adobe kundtjänsttimmar](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Information om&quot;Kontorstid&quot;, ett initiativ som leds av kundtjänstteamet på Adobe. Sessionerna är avsedda att informera deltagare och hjälpa dem att felsöka problem samt ge tips och råd för att lyckas med [!DNL Adobe Experience Cloud] lösningar, inklusive [!DNL Target]. |
 | [Grundläggande om webbseminarier](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registreringsinformation och länkar till tidigare sessioner i [!DNL Target] Basics Webinar Series, en Customer Success Webinar Series som du får från communityn. |
-| [Adobe Target Developers Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | Information om Adobe Target Developers webbplats hjälper er att implementera [!DNL Target] på klientapplikationer, serverprogram, mobilappar, IoT med mera. Du kan också exportera [!DNL Target] data till tredjepartslösningar. |
+| [Adobe Target Developers Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | Information om Adobe Target Developers webbplats hjälper er att implementera [!DNL Target] på klientapplikationer, serverprogram, mobilappar, IoT med mera. Du kan också exportera [!DNL Target] data till tredjepartslösningar. |
 | [Ange Recommendations API:er](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank} | Information om [!UICONTROL Recommendations] API:er som gör att du programmässigt kan interagera med [!DNL Target] rekommendationsservrar. Dessa API:er kan integreras med en rad programstackar för att utföra funktioner som du vanligtvis gör via [!DNL Target] Gränssnitt. |
-| [API:er för leverans på serversidan](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} | Information om de resurser som utgör Adobe Target Delivery API. |
-| [SDK på serversidan](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Beskriver hur man distribuerar [!DNL Target] serversidan som använder SDK:er. |
+| [API:er för leverans på serversidan](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} | Information om de resurser som utgör Adobe Target Delivery API. |
+| [Målserver-side SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Beskriver hur man distribuerar [!DNL Target] serversidan som använder SDK:er. |
 | [Adobe Experience Platform Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html) | Information om implementering [!DNL Target] i mobilappar. |
 
 Förutom ovanstående resurser finns på [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), där du kan:
 
-* Läs mer om vad [!DNL Target] måste erbjuda
+* Läs mer om vad [!DNL Target] måste erbjudas
 * Kommunicera med kollegor och [!DNL Adobe] experter
 * Rösta eller skicka in en egen idé för en framtid [!DNL Target] release

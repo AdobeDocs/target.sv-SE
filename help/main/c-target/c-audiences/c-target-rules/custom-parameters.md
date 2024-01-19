@@ -4,18 +4,18 @@ description: Lär dig hur du skickar anpassade parametrar till [!DNL Adobe Targe
 title: Kan jag rikta in besökare baserat på anpassade parametrar?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Egna parametrar
 
-Egna parametrar är mbox-parametrar i [!DNL Adobe Target]. Om du skickar några mbox-parametrar till mbox eller använder `targetPageParams` -funktionen visas dessa parametrar här för att användas i målgrupper.
+Egna parametrar är mbox-parametrar i [!DNL Adobe Target]. Om du skickar några mbox-parametrar till mbox eller använder `targetPageParams` -funktionen visas de här parametrarna här för att användas i målgrupper.
 
-Mer information finns i [Skicka parametrar till en global mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
+Mer information finns i [Skicka parametrar till en global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 När du skapar en anpassad målgrupp baserat på en mbox-parameter, `mboxParameter` frågar inte längre efter `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
 
@@ -69,9 +69,9 @@ Publiken [popup-kort för definitionsinformation](/help/main/c-target/c-audience
 ## Överväganden {#considerations}
 
 * Målgrupper och aktiviteter utvärderas för en viss ruta. Om till exempel den globala mbox skickar en viss parameter, men den regionala mbox inte gör det, är aktiviteten/målgruppen som anger den parametern inte kvalificerad för i den regionala mbox.
-* Målinriktning utvärderas inte för interna mbox-parametrar, som mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId och mboxVersion.
+* Målinriktning utvärderas inte för interna mbox-parametrar, till exempel mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId och mboxVersion.
 
-## Utbildningsvideo: Skapa målgrupper ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa publiker ![Självstudiemärke](/help/main/assets/tutorial.png)
 
 Den här videon innehåller information om hur du använder målgruppskategorier.
 

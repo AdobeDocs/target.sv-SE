@@ -4,42 +4,42 @@ description: Ta en titt på Adobe Target. Lär dig mer om tillgängliga aktivite
 title: Var hittar jag en introduktion på hög nivå till Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2489'
+source-wordcount: '2478'
 ht-degree: 0%
 
 ---
 
 # Kapitel 2: Adobe [!DNL Target] i korthet
 
-Innan du börjar använda [!DNL Adobe Target]kan det vara praktiskt att få en översikt över lösningen på hög nivå. I det här kapitlet får du veta vilka nyckelfunktioner lösningen har, vilka kontaktytor du kan använda den på, implementeringsalternativ, viktiga funktioner och arbetsflöden i användargränssnittet, styrningsfunktioner och dess roll i det övergripande [!DNL Adobe Experience Cloud]. Såvida inget anges som [!DNL Adobe Target Premium] funktioner, de objekt som beskrivs i det här kapitlet är tillgängliga med båda [!DNL Adobe Target Premium] och [!DNL Adobe Target Standard]. Mer information finns i [Introduktion till Target](/help/main/c-intro/intro.md).
+Innan du börjar använda [!DNL Adobe Target]kan det vara praktiskt att få en översikt över lösningen på hög nivå. I det här kapitlet får du veta vilka nyckelfunktioner lösningen har, vilka kontaktytor du kan använda den på, implementeringsalternativ, viktiga funktioner och arbetsflöden i användargränssnittet, styrningsfunktioner och dess roll i det övergripande [!DNL Adobe Experience Cloud]. Såvida inget anges som [!DNL Adobe Target Premium] funktioner, de objekt som beskrivs i detta kapitel är tillgängliga med båda [!DNL Adobe Target Premium] och [!DNL Adobe Target Standard]. Mer information finns i [Introduktion till Target](/help/main/c-intro/intro.md).
 
 ## Kapacitet och verksamhet
 
-Testning och personalisering är de två stora typerna av funktioner som [!DNL Target] erbjudanden och som du kan använda när du skapar en aktivitet i [!DNL Target]. termen&quot;testning&quot; används som en omväxlande funktion med&quot;optimering&quot; och&quot;personalisering&quot; som används omväxlande med&quot;målinriktning&quot;.
+Testning och personalisering är de två stora typerna av funktioner som [!DNL Target] erbjudanden och som du kan använda när du skapar en aktivitet i [!DNL Target]. termen&quot;testning&quot; används omväxlande med&quot;optimering&quot; och&quot;personalisering&quot; som används omväxlande med&quot;målinriktning&quot;.
 
-I en testaktivitet jämför du en variant av en digital upplevelse med en eller flera andra varianter för att upptäcka att en sådan som får de flesta besökare att vidta önskad åtgärd. [!DNL Target] erbjuder följande testfunktioner: A/B-testning, multivariata tester (MVT) och automatisk fördelning.
+I en testaktivitet jämför du en variant av en digital upplevelse med en eller flera andra varianter för att upptäcka att en sådan som får de flesta besökare att vidta önskad åtgärd. [!DNL Target] erbjuder följande testfunktioner: A/B-testning, Multivariate-testning (MVT) och Auto-Allocate.
 
-Med en personaliseringsaktivitet levererar ni en digital upplevelse som är skräddarsydd för en viss grupp besökare eller för varje enskild besökare. [!DNL Target] erbjuder följande personaliseringsfunktioner: Upplev Target, Auto-Target, Automated Personalization och Recommendations.
+Med en personaliseringsaktivitet kan ni leverera en digital upplevelse som är skräddarsydd för en viss grupp besökare eller för varje enskild besökare. [!DNL Target] erbjuder följande personaliseringsfunktioner: Experience Targeting, Auto-Target, Automated Personalization och Recommendations.
 
-Mer information om när och hur du använder funktionerna finns i [Målaktivitetstyper](/help/main/c-activities/target-activities-guide.md).
+Mer ingående information om när och hur du använder de olika funktionerna finns i [Målaktivitetstyper](/help/main/c-activities/target-activities-guide.md).
 
-| Typ av aktivitet | Detaljer |
+| Typ av aktivitet | Information |
 | --- | --- |
 | A/B-testning | Jämför två eller flera varianter av era upplevelser eller erbjudanden på er webbplats eller andra kontaktytor för digitala kunder för att se vilken variation som förbättrar de viktigaste affärsåtgärderna under en förspecificerad testperiod. A/B-tester är väl lämpade för stora förändringar, som nya webbsideslayouter, olika strategier för webbplatsnavigering eller drastiskt olika behandlingar av enskilda element i en digital upplevelse som kopiera, bilder och knappar för att ringa in. [Läs mer](/help/main/c-activities/t-test-ab/test-ab.md). |
 | Automatisk allokering | Identifiera den bästa upplevelsen av två eller fler upplevelser och omfördela automatiskt mer trafik till vinnaren för att öka konverteringsgraden medan testet fortsätter att köras och lära sig mer. Använder artificiell intelligens som drivs av [!DNL Adobe Sensei]. [Läs mer](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
 | Automatiskt mål<br>(Premium) | Utnyttja Adobe Sensei AI i [!DNL Target] fastställa och leverera den bästa upplevelsen av flera besökare baserat på besökarens individuella kundprofil och beteendet hos tidigare besökare med liknande profiler. Automatisk målgruppsanpassning möjliggör personalisering i stor skala. [Läs mer](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Använd avancerade maskininlärningsalgoritmer och automatisering som drivs av [!DNL Adobe Sensei] för att granska olika kombinationer av bilder, kopior och andra element i ett erbjudande och leverera den bästa kombinationen till varje besökare baserat på vilka affärsmål som bäst uppnås, till exempel ökad konvertering eller intäkt per besökare. [Läs mer](/help/main/c-activities/t-automated-personalization/automated-personalization.md). |
 | Experience Targeting (XT) | Leverera innehåll till en viss målgrupp baserat på en uppsättning användardefinierade regler och kriterier. **[!UICONTROL Experience Targeting]** är värdefullt för att rikta en specifik upplevelse eller innehåll till en viss målgrupp när ni förstår att en målgrupp är värdefull och har en bra uppfattning om vilken upplevelse som får genklang med dem. [Läs mer](/help/main/c-activities/t-experience-target/experience-target.md). |
-| Multivariate Testing (MVT) | Jämför alla möjliga kombinationer av olika element på sidan eller i den digitala upplevelsen, till exempel tre olika bakgrundsbilder, två varianter av text och två olika knappfärger. MVT avgör vilken kombination som fungerar bäst för en viss målgrupp och vilka element som påverkar resultatet mest. [Läs mer](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md). |
+| Multivariate Testing (MV) | Jämför alla möjliga kombinationer av olika element på sidan eller i den digitala upplevelsen, till exempel tre olika bakgrundsbilder, två varianter av text och två olika knappfärger. MVT avgör vilken kombination som fungerar bäst för en viss målgrupp och vilka element som påverkar resultatet mest. [Läs mer](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Recommendations<br>(Premium) | Använd Adobe Sensei AI för att automatiskt föreslå produkter eller innehåll som kan intressera dina kunder baserat på deras tidigare och andra kunders aktivitet. [Läs mer](/help/main/c-recommendations/recommendations.md). |
 
 ## Kanaler
 
-Du kan använda [!DNL Target] att testa och personalisera digitala upplevelser nästan var som helst - traditionella digitala kontaktytor som din webbplats, mobilsajt och mobilapp, men också på kontaktytor som kioskdatorer, e-post, IoT-enheter, spelkonsoler och till och med röstassistenter som Alexa och Cortana. Många företag börjar använda [!DNL Target] på deras webbplats. Men den senaste forskningen tyder på att fler människor besöker varumärken från sina mobila enheter. Det är nu viktigt att optimera mobilkanalerna. Helst ska ni koppla samman besökarens upplevelser över alla era kontaktytor för att leverera en sömlös, enhetlig upplevelse.
+Du kan använda [!DNL Target] att testa och personalisera digitala upplevelser nästan var som helst - traditionella digitala kontaktytor som din webbplats, mobilsajt och mobilapp, men också på kontaktytor som kioskdatorer, e-post, IoT-enheter, spelkonsoler och till och med röstassistenter som Alexa och Cortana. Många företag börjar använda [!DNL Target] på deras webbplats. Men den senaste forskningen tyder på att fler människor besöker varumärken från sina mobila enheter. Det är nu viktigt att optimera mobilkanalerna. Det bästa är att ni kopplar samman besökarens upplevelser över alla era kontaktytor för att leverera en sömlös, enhetlig upplevelse.
 
-| Kanal | Detaljer |
+| Kanal | Information |
 | --- | --- |
 | Webbplats | [!DNL Target] kan användas för att köra A/B-testning, Multivariate Testing, Experience Targeting, Auto-Allocate, Auto-Target, Automated Personalization och Recommendations på sidor av era flersidiga, single page-applikationer (SPA) och mobilsajter för att förbättra besökarens och kundens engagemang, öka konverteringarna och öka intäkterna. |
 | Mobil webb | [!DNL Target] kan användas för att köra alla de aktivitetstyper som du kör på din webbplats på dina mobilsidor för att på liknande sätt förbättra besökares och kunders engagemang, öka konverteringarna och öka intäkterna. |
@@ -50,17 +50,17 @@ Du kan använda [!DNL Target] att testa och personalisera digitala upplevelser n
 
 Många av er kanske vill använda [!DNL Target] för att testa och personalisera på många olika digitala kontaktytor, inklusive traditionella webb- och mobilkontaktytor, men även kontaktytor som saknar webbläsare eller som inte använder JavaScript-kod. I vissa fall kräver den interna eller externa principen att du har ytterligare nivåer av kontroll och säkerhet. Det kan också finnas processer som av prestandaskäl måste köras på en serverdel. För att klara detta har du möjlighet att implementera [!DNL Target] på olika sätt: klientsidan, serversidan eller en kombination av båda.
 
-| Implementeringstyp | Detaljer |
+| Implementeringstyp | Information |
 | --- | --- |
-| Klientsidan | Med denna implementering av [!DNL Target], [!DNL Target] levererar upplevelserna som är kopplade till en aktivitet direkt till klientwebbläsaren. Webbläsaren avgör vilken upplevelse som ska visas och visar den. Med klientsidan kan du använda en WYSIWYG-redigerare, **[!UICONTROL Visual Experience Composer]** (VEC), eller ett icke-visuellt gränssnitt, **[!UICONTROL Form-based Experience Composer]**, för att skapa test- och personaliseringsupplevelser. [Läs mer](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
-| Serversidan | I den här typen av [!DNL Target] implementering, en klientenhet begär en upplevelse via servern, servern skickar begäran till [!DNL Target], [!DNL Target] skickar tillbaka svaret till servern och servern bestämmer vilken upplevelse som ska levereras till klientenheten för att den ska kunna återges. upplevelsen inte behöver visas i en webbläsare, den kan visas i ett e-postmeddelande eller i en kioskdator, via en röstassistent eller via någon annan icke-visuell upplevelse eller icke-webbläsarbaserad enhet. Eftersom servern är placerad mellan klienten och [!DNL Target]är den här typen av implementering också idealisk om du behöver större kontroll och säkerhet eller har komplexa serverprocesser som du vill köra på servern. [Läs mer](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
+| Klientsidan | Med denna implementering av [!DNL Target], [!DNL Target] levererar upplevelserna som är kopplade till en aktivitet direkt till klientwebbläsaren. Webbläsaren avgör vilken upplevelse som ska visas och visar den. Med klientsidan kan du använda en WYSIWYG-redigerare, **[!UICONTROL Visual Experience Composer]** (VEC), eller ett icke-visuellt gränssnitt, **[!UICONTROL Form-based Experience Composer]**, för att skapa test- och personaliseringsupplevelser. [Läs mer](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| Serversidan | I den här typen av [!DNL Target] implementering, en klientenhet begär en upplevelse via servern, servern skickar begäran till [!DNL Target], [!DNL Target] skickar tillbaka svaret till servern och servern bestämmer vilken upplevelse som ska levereras till klientenheten för att den ska kunna återges. Upplevelsen behöver inte visas i en webbläsare. Den kan visas i ett e-postmeddelande eller i en kioskdator, via en röstassistent eller via någon annan icke-visuell upplevelse eller icke-webbläsarbaserad enhet. Eftersom servern är placerad mellan klienten och [!DNL Target]är den här typen av implementering också idealisk om du behöver större kontroll och säkerhet eller har komplexa serverprocesser som du vill köra på servern. [Läs mer](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
 | Hybrid-implementering | I den här implementeringen väljer du den implementeringsmetod som fungerar bäst för ett visst användningsfall. Du kan till exempel använda en implementering på klienten för att A/B-testa ett erbjudande i en hjältebanderoll på startsidan, men även använda en implementering på serversidan för att avgöra vilka interna sökresultat som ska visas i en klientwebbläsare, upplevelsen som ska visas på en smart bildinstrumentpanel eller röstsvaret som ska visas från en röstassistent. |
 
 ## Aktivitetselement
 
 I [!DNL Target]kan ni skapa en personaliseringsaktivitet, en optimeringsaktivitet eller en aktivitet som optimerar er personaliseringsstrategi. Varje aktivitet har nyckelelement - de upplevelser eller erbjudanden ni testar eller personaliserar, de målgrupper eller individer ni levererar en upplevelse till, de mätvärden som ni mäter aktivitetens effekt med och de rapporter som visuellt visar den effekten.
 
-| Elementtyp | Detaljer |
+| Elementtyp | Information |
 | --- | --- |
 | Erfarenheter | Ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Ni testar eller personaliserar upplevelser i [!DNL Target] verksamhet. [Läs mer](/help/main/c-experiences/experiences.md). |
 | Erbjudanden | Ett block med innehåll som kan innehålla bilder, text, HTML, länkar, video, en knapp för att ringa in åtgärder, ett röstassistentsvar eller någon annan typ av innehåll. Erbjudandet kan omfatta rabatter, fri frakt och så vidare. Ett erbjudande kan visas på en webbsida, men det kan också visas på alla kundkontaktytor, som en röstassistent eller spelkonsol. När du testar ett erbjudande mäter du hur väl det lyckades jämfört med andra erbjudanden eller inget erbjudande. [Läs mer](/help/main/c-experiences/c-manage-content/manage-content.md). |
@@ -70,9 +70,9 @@ I [!DNL Target]kan ni skapa en personaliseringsaktivitet, en optimeringsaktivite
 
 ## Verktyg för att skapa aktiviteter
 
-[!DNL Target] ger dig tre sätt att konfigurera dina test- och personaliseringsaktiviteter, [!UICONTROL Visual Experience Composer] (VEC), [!UICONTROL Form-based Experience Composer]och [!UICONTROL Single Page Application (SPA) Visual Experience Composer]. Båda vägleder dig genom processen för aktivitetskonfiguration i tre steg - definiera upplevelser, välja ut eller definiera målgrupper och välja primära och sekundära framgångsmått som du kan använda för att mäta aktivitetens resultat.
+[!DNL Target] ger dig tre sätt att konfigurera dina test- och personaliseringsaktiviteter, [!UICONTROL Visual Experience Composer] (VEC) [!UICONTROL Form-based Experience Composer]och [!UICONTROL Single Page Application (SPA) Visual Experience Composer]. Båda vägleder dig genom processen för aktivitetskonfiguration i tre steg - definiera upplevelser, välja ut eller definiera målgrupper och välja primära och sekundära framgångsmått som du kan använda för att mäta aktivitetens resultat.
 
-| Verktyg | Detaljer |
+| Verktyg | Information |
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] (VEC) | Ett WYSIWYG-användargränssnitt som gör det enkelt att skapa och testa personaliserade upplevelser och erbjudanden i webbplatskontexten. Ni kan skapa upplevelser och erbjudanden för [!DNL Target] genom att dra och släppa, byta och ändra layouten och innehållet på en webbsida (eller ett erbjudande) eller en mobil webbsida. [Läs mer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). |
 | [!UICONTROL Form-based Experience Composer] | En icke-visuell upplevelse och ett gränssnitt som gör att du kan skapa upplevelser som kan användas i A/B-tester, Experience Targeting, Automated Personalization och Recommendations när Visual Experience Composer inte är tillgängligt eller praktiskt att använda. Du kan till exempel använda den formulärbaserade dispositionen för att skapa upplevelser och erbjudanden för e-post, kioskdatorer och röstassistenter. [Läs mer](/help/main/c-experiences/form-experience-composer.md). |
@@ -82,7 +82,7 @@ I [!DNL Target]kan ni skapa en personaliseringsaktivitet, en optimeringsaktivite
 
 Att ge rätt personer rätt roller och tillhörande åtkomstnivåer och behörigheter till [!DNL Target]har vi en administrationskonsol. För [!UICONTROL Target Premium] -användare, vi erbjuder mer detaljerad styrning och kontroll med [!UICONTROL Enterprise Permissions].
 
-| Verktyg | Detaljer |
+| Verktyg | Information |
 | --- | --- |
 | [!UICONTROL Adobe Admin Console for Enterprise] | Lägg till användare i Adobe Target och tilldela behörigheter från Adobe Admin Console. [Läs mer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md). |
 | [!UICONTROL Enterprise Permission]s<br>(Premium) | Ett formellt sätt att administrera åtkomst för användare i hela företaget till [!DNL Target]. Lägg till användare i [!DNL Target], tilldela behörigheter baserat på deras roller och skapa arbetsytor för team baserat på olika avdelningar, globala platser, kanaler och andra logiska grupper. Du kan tilldela användare rollerna observatör, redigerare, utgivare och godkännare. [Läs mer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
@@ -91,21 +91,21 @@ Att ge rätt personer rätt roller och tillhörande åtkomstnivåer och behörig
 
 [!DNL Target] kan integreras med många första-, andra- och tredjepartssystem. Dessa integreringar kan vara värdefulla för att ge er tillgång till besöks- och kunddata som är tillgängliga från dessa system och som kan användas för att skapa målgrupper för testning och personalisering. Som en del av [!DNL Adobe Experience Cloud], [!DNL Target] är nära integrerat med [!DNL Experience Cloud] lösningar och dess bastjänster.
 
-| Integrering | Detaljer |
+| Integrering | Information |
 | --- | --- |
-| Adobe Experience Cloud | [!DNL Target] har inbäddade funktioner med andra [!DNL Adobe Experience Cloud] lösningar för att personalisera upplevelser i stor skala. Utnyttja kraften i [!DNL Target] tillsammans med [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md), [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md), [Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md) (AAM) och [Adobe Experience Manager](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) (AEM). |
+| Adobe Experience Cloud | [!DNL Target] har inbäddade funktioner med andra [!DNL Adobe Experience Cloud] lösningar för att personalisera upplevelser i stor skala. Utnyttja kraften i [!DNL Target] tillsammans med [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md), [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md), [Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md) (AAM) och [Adobe Experience Manager](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) AEM. |
 | Mål-API:er (Premium) | [!UICONTROL Target] erbjuder mer än 40 API:er som du kan använda för att integrera Adobe Target med första-, andra- och tredjepartssystem. [Läs mer](/help/main/api/api-overview.md). |
 
 ## Kom ihåg
 
-Tänk på följande innan vi går vidare till nästa kapitel: &quot;Utveckla dina idéer om testning och personalisering.&quot;
+Tänk på följande innan vi går vidare till nästa kapitel:&quot;Utveckla dina idéer om testning och personalisering&quot;.
 
 ### Bästa tillvägagångssätt för optimering
 
 * **Bra strategi**: Vad är vår målsättning och hypotes? Är de justerade? Vi vill till exempel öka inskickandet av låneansökningar, så vi rekommenderar att en minskning av antalet fält i ansökningsformuläret gör det.
 * **Disciplinerad metod** Börjar vi testa på rätt ställen? Ni behöver till exempel platser som har tillräckligt med trafik och som påverkar de mätvärden som är viktiga för företaget.
 * **Korrekt inställning** Är vår aktivitet inställd på att uppnå vårt mål? Om vi till exempel försöker öka inskickade låneansökningar bör vi rikta in oss på personer som är intresserade av lån och mäta klick på knappen&quot;Skicka&quot;.
-* **Detaljerad analys**: Kördes testaktiviteten tills den var klar? Vad säger resultaten? Kör aktiviteten tills den uppnår mellan 95 % och 99 % statistisk säkerhet. Dokumentera varför du tror att den vinnande upplevelsen vinner och använd inlärningen någon annanstans.
+* **Detaljerad analys**: Kördes testaktiviteten tills den var klar? Vad säger resultaten? Kör aktiviteten tills den uppnår mellan 95 % och 99 % statistisk säkerhet. Dokumentera varför du tror att den vinnande upplevelsen vinner och använd den på andra håll.
 * **Interaktiv testning**: Bygger vi på inlärningen av tidigare aktiviteter? Om du hittar en vinnande taktik kan du försöka förbättra den eller göra ändringar som fungerar med den för att ytterligare förbättra dina framgångsmått.
 
 ### Yttranden kan påverka dina resultat negativt
@@ -117,6 +117,6 @@ Tänk på följande innan vi går vidare till nästa kapitel: &quot;Utveckla din
 ### Antaganden kan också påverka resultatet negativt
 
 * Antaganden som kan påverka effektiviteten negativt. Herd mentality (det är så våra konkurrenter gör det). Alla våra konkurrenter använder till exempel hjältebanners med roterande bilder, så vi bör också göra det.
-* Anta att vi vet varför något fungerar eller inte. Om vi inte behöver testa något. Vi listar t.ex. alltid hotellrum i ordningen högst till lägst pris som standard.
+* Anta att vi vet varför något fungerar eller inte. Vi antar att vi inte behöver testa någonting. Vi listar t.ex. alltid hotellrum i ordningen högst till lägst pris som standard.
 * Agerar du utifrån antaganden? Vi behöver inte testa det, vi har kollat analyser. (Ja, men det kan finnas mer i berättelsen än vad analyserna visar.)
 * Eller har du en optimeringsmetod? Vi testar allt.

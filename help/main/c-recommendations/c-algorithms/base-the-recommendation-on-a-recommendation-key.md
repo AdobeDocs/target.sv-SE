@@ -5,9 +5,9 @@ title: Hur baserar jag rekommendationen på en rekommendationsnyckel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3831'
+source-wordcount: '3845'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Recommendations baserat på algoritmer använder besökarbeteendekontext för att visa relevanta resultat i [!DNL Adobe Target] [!DNL Recommendations] verksamhet.
 
-Varje algoritmtyp innehåller olika algoritmer som passar dess typ, vilket visas i följande tabell:
+Varje algoritmtyp innehåller olika algoritmer som passar för dess typ, vilket visas i följande tabell:
 
-| Algoritmtyp | När ska användas | Tillgängliga algoritmer |
+| Algoritmtyp | När ska du använda | Tillgängliga algoritmer |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som såg de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
+| [!UICONTROL Cart-Based] | Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som tittade på de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul> |
 | [!UICONTROL Popularity-Based] | Utför rekommendationer baserat på hur populärt ett objekt på webbplatsen är eller utifrån hur populärt det är att ha objekt inom en användares favoritkategori, varumärke, genre osv. | <ul><li>Visas bäst på webbplatsen</li><li>Mest visade per kategori</li><li>Mest visad av objektattribut</li><li>De största säljarna på webbplatsen</li><li>De viktigaste säljarna per kategori</li><li>De viktigaste säljarna efter artikelattribut</li><li>Top by Analytics Metric</li></ul> |
 | [!UICONTROL Item-Based] | Rekommendationer baserade på sökning efter liknande objekt för ett objekt som användaren för närvarande visar eller nyligen har visat. | <ul><li>Folk som tittade på det här, såg det</li><li>Folk som såg det här, köpte det</li><li>Folk som köpte den här, köpte den där</li><li>Objekt med liknande attribut</li></ul> |
-| [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Senast visade objekt</li><li>Rekommenderas för dig</li></ul> |
+| [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Nyligen visade objekt</li><li>Rekommenderas för dig</li></ul> |
 | [!UICONTROL Custom Criteria] | Utför rekommendationer baserat på en anpassad fil som du överför. | <ul><li>Anpassad algoritm</li></ul> |
 
 Varje villkor definieras på en egen flik. Trafiken fördelas jämnt mellan olika kriterietester. Med andra ord, om du har två kriterier, delas trafiken lika mellan dem. Om du har två kriterier och två designer, delas trafiken jämnt mellan de fyra kombinationerna. Du kan också ange en procentandel besökare som ser standardinnehållet för jämförelse. I så fall ser den angivna procentandelen besökare standardinnehållet och resten delas mellan dina kriterier och designkombinationer.
@@ -34,21 +34,21 @@ Olika rekommendationsalgoritmer passar in på olika typer av sidor. Mer informat
 
 ## Cart-baserad {#cart-based}
 
-The [!UICONTROL Cart-Based] Med algoritmtyp kan du rekommendera objekt baserat på innehållet i besökarens aktuella kundvagn. Rekommendationsnycklarna tillhandahålls via [mbox-parameter `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} i kommaavgränsade värden. Endast de första 10 värdena beaktas.
+The [!UICONTROL Cart-Based] Med algoritmtyp kan du rekommendera objekt baserat på innehållet i besökarens aktuella kundvagn. Rekommendationsnycklarna tillhandahålls via [mbox-parameter `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} i kommaavgränsade värden. Endast de första 10 värdena beaktas.
 
-Cart-baserad rekommendationslogik liknar den[!UICONTROL Recommended For You]användarbaserad algoritm och till[!UICONTROL People Who Viewed These, Bought Those]&quot; och &quot;[!UICONTROL People Who Bought These, Bought Those]objektbaserade algoritmer.
+Cart-baserad rekommendationslogik liknar den i[!UICONTROL Recommended For You]användarbaserad algoritm och till[!UICONTROL People Who Viewed These, Bought Those]och &quot;[!UICONTROL People Who Bought These, Bought Those]objektbaserade algoritmer.
 
 [!DNL Target] använder tekniker för samverkansfiltrering för att fastställa likheter för varje objekt i besökarens kundvagn, och kombinerar sedan dessa beteendelikheter för varje objekt för att få en sammanfogad lista.
 
-[!DNL Target] ger även marknadsförarna möjlighet att se besökarnas beteende i en eller flera sessioner:
+[!DNL Target] ger också marknadsförarna möjlighet att se besökarnas beteende i en eller flera sessioner:
 
 * **[!UICONTROL Single Session]**: Baserat på vad andra besökare gjorde under en och samma session.
 
-   Om du tittar på beteenden under en session kan det verka klokt om du tycker att produkter &quot;passar ihop&quot; baserat på användning, tillfälle eller händelse. En besökare köper till exempel en skrivare och kan även behöva bläck och papper. Eller så köper besökaren jordnötssmör och behöver bröd och gelé.
+  Om du tittar på beteenden under en session kan det verka klokt om du tycker att produkter &quot;passar ihop&quot; baserat på användning, tillfälle eller händelse. En besökare köper till exempel en skrivare och kan även behöva bläck och papper. Eller så köper besökaren jordnötssmör och behöver bröd och gelé.
 
 * **[!UICONTROL Across Sessions]**: Baserat på vad andra besökare gjorde under flera sessioner.
 
-   Om du tittar på beteenden i flera sessioner kan det vara bra om det finns en känsla av att produkterna&quot;följer med&quot; varandra baserat på besökarens önskemål eller smak. En besökare gillar till exempel Star Wars och kan också gilla Indiana Jones, även om besökaren inte nödvändigtvis vill se båda filmerna på samma plats. Eller så tycker en besökare om styrelsemötet&quot;Codenames&quot; och kanske också om styrelsemötet&quot;Avalon&quot;, även om besökaren inte kan spela båda spelen samtidigt. 
+  Om du tittar på beteenden i flera sessioner kan det vara bra om det finns en känsla av att produkterna&quot;följer med&quot; varandra baserat på besökarens önskemål eller smak. En besökare gillar till exempel Star Wars och kan också gilla Indiana Jones, även om besökaren inte nödvändigtvis vill se båda filmerna på samma plats. Eller så tycker en besökare om styrelsemötet&quot;Codenames&quot; och kanske också om styrelsemötet&quot;Avalon&quot;, även om besökaren inte kan spela båda spelen samtidigt. 
 
 [!DNL Target] ger rekommendationer för varje besökare baserat på artiklarna i den aktuella kundvagnen, oavsett om du tittar på besökarnas beteende under en eller flera sessioner.
 
@@ -58,7 +58,7 @@ Följande algoritmer är tillgängliga med [!UICONTROL Cart-Based] algoritmtyp:
 
 Rekommenderar objekt som oftast visas i samma session som det angivna objektet visas.
 
-Den här logiken returnerar andra produkter som visas när du har tittat på den här. den angivna produkten ingår inte i resultatuppsättningen.
+Den här logiken returnerar andra produkter som visas när du har tittat på den här. Den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du skapa ytterligare konverteringsmöjligheter genom att rekommendera objekt som andra besökare som tittade på ett objekt också kan se. Besökare som tittar på cyklar på er webbplats kan till exempel också titta på cykelhjälmar, cykelkit, lås osv. Du kan skapa en rekommendation med hjälp av den här logiken som föreslår att andra produkter hjälper dig att öka intäkterna.
 
@@ -73,7 +73,7 @@ Om du väljer den här algoritmen kan du välja följande Recommendations-nyckla
 
 Rekommenderar artiklar som oftast köps i samma session som det angivna objektet visas. Detta villkor returnerar andra produkter som köpts efter att ha tittat på den här produkten. Den angivna produkten ingår inte i resultatmängden.
 
-Den här logiken returnerar andra produkter som köpts efter att ha tittat på den här. den angivna produkten ingår inte i resultatuppsättningen.
+Den här logiken returnerar andra produkter som köpts efter att ha tittat på den här. Den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en produktsida, som till exempel visar objekt som andra besökare som visade det köpta objektet. Om besökaren till exempel tittar på en fiskepunkt kan rekommendationen visa ytterligare saker som andra besökare har köpt, som t.ex. kryssrutor för taggar, skölder och fiskekurser. När besökarna besöker er webbplats kan ni ge dem ytterligare inköpsrekommendationer.
 
@@ -88,7 +88,7 @@ Om du väljer den här algoritmen kan du välja följande Recommendations-nyckla
 
 Rekommenderar artiklar som oftast köps av kunder samtidigt som det angivna objektet.
 
-Den här logiken returnerar andra produkter som köpts efter att ha köpt den här. den angivna produkten ingår inte i resultatuppsättningen.
+Den här logiken returnerar andra produkter som köpts in efter att ha köpt den här produkten. Den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en kundvagnssammanfattning, som t.ex. visar artiklar som andra köpare också har köpt. Om besökaren till exempel köper en kostym kan rekommendationen visa ytterligare objekt som andra besökare har köpt tillsammans med kostymen, som slipsar, klädskor och kufflänkar. När besökarna granskar sina inköp ger ni dem ytterligare rekommendationer.
 
@@ -101,19 +101,19 @@ Om du väljer den här algoritmen kan du välja följande Recommendations-nyckla
 
 ## [!UICONTROL Popularity-Based]
 
-The [!UICONTROL Popularity-Based] Med algoritmtyp kan du göra rekommendationer baserat på den övergripande populariteten hos ett objekt på webbplatsen eller baserat på populariteten hos objekt i en användares favoritkategori eller mest visade kategori, varumärke, genre o.s.v.
+The [!UICONTROL Popularity-Based] Med algoritmtyp kan du göra rekommendationer baserat på den övergripande populariteten hos ett objekt på webbplatsen eller baserat på populariteten hos objekt i en användares favoritkategori eller mest visade kategori, varumärke, genre osv.
 
 Följande algoritmer är tillgängliga med [!UICONTROL Popularity-Based] algoritmtyp:
 
 ### Visas bäst på webbplatsen {#most-viewed}
 
-Rekommendationen avgörs av det objekt som har visats oftast. Detta bestäms av kriterier för aktuell frekvens och frekvens som fungerar enligt följande:
+Rekommendationen avgörs av det objekt som har visats oftast. Detta bestäms av de kriterier för senaste frekvens/frekvens som fungerar enligt följande:
 
 * 10 poäng för den första produktvyn
 * 5 poäng för varje efterföljande vy
 * I slutet av sessionen divideras alla värden med 2
 
-Om du till exempel visar surfboardA och sedan surfboardB i en session blir resultatet A: 10 B: 5. När sessionen avslutas har du en: 5 B: 2.5. Om du visar samma objekt i nästa session ändras värdena till A: 15 B: 7.5.
+Om du till exempel visar surfboardA och sedan surfboardB i en session blir resultatet A: 10, B: 5. När sessionen avslutas har du A: 5, B: 2.5. Om du visar samma objekt i nästa session ändras värdena till A: 15 B: 7.5.
 
 Använd den här algoritmen på allmänna sidor, som startsidor, landningssidor och annonser utanför webbplatsen.
 
@@ -121,14 +121,14 @@ Använd den här algoritmen på allmänna sidor, som startsidor, landningssidor 
 
 Rekommendationen avgörs av den kategori som har fått mest aktivitet, med samma metod som används för&quot;mest visade objekt&quot; förutom att kategorier räknas i stället för produkter.
 
-Detta bestäms av kriterier för aktuell frekvens och frekvens som fungerar enligt följande:
+Detta bestäms av de kriterier för senaste frekvens/frekvens som fungerar enligt följande:
 
 * 10 poäng för den första kategorivyn
 * 5 poäng för varje efterföljande vy
 
 De kategorier som besöktes för första gången får 10 poäng. Fem poäng ges för efterföljande besök i samma kategori. Vid varje besök minskas inaktuella kategorier som har visats tidigare med 1.
 
-Om du till exempel visar kategori A och sedan kategori B i en session blir resultatet A: 9 B: 10. Om du visar samma objekt i nästa session ändras värdena till A: 20 B: 9.
+Om du till exempel visar kategori A och sedan kategori B i en session blir resultatet A: 9, B: 10. Om du visar samma objekt i nästa session ändras värdena till A: 20 B: 9.
 
 Använd den här algoritmen på allmänna sidor, som startsidor, landningssidor och annonser utanför webbplatsen.
 
@@ -147,7 +147,7 @@ Sedan väljer du vilka profilattribut som ska matchas i besökarens profil, till
 
 ### De största säljarna på webbplatsen {#top-sellers}
 
-Visar de artiklar som ingår i de mest slutförda beställningarna på webbplatsen. Flera enheter av samma artikel i en enda order räknas som en order.
+Visar de artiklar som ingår i de mest slutförda beställningarna från hela webbplatsen. Flera enheter av samma artikel i en enda order räknas som en order.
 
 Med den här algoritmen kan du skapa rekommendationer för toppförsäljningsartiklar på webbplatsen för att öka konverteringen och intäkterna. Den här logiken passar särskilt bra för förstagångsbesökare på er webbplats.
 
@@ -184,7 +184,7 @@ Följande algoritmer är tillgängliga med [!UICONTROL Item-Based] algoritmtyp:
 
 Rekommenderar objekt som oftast visas i samma session som det angivna objektet visas.
 
-Den här logiken returnerar andra produkter som visas när du har tittat på den här. den angivna produkten ingår inte i resultatuppsättningen.
+Den här logiken returnerar andra produkter som visas när du har tittat på den här. Den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du skapa ytterligare konverteringsmöjligheter genom att rekommendera objekt som andra besökare som tittade på ett objekt också kan se. Besökare som tittar på cyklar på er webbplats kan till exempel också titta på cykelhjälmar, cykelkit, lås osv. Du kan skapa en rekommendation med hjälp av den här logiken som föreslår att andra produkter hjälper dig att öka intäkterna.
 
@@ -199,7 +199,7 @@ Om du väljer den här algoritmen kan du välja följande Recommendations-nyckla
 
 Rekommenderar artiklar som oftast köps i samma session som det angivna objektet visas. Detta villkor returnerar andra produkter som köpts efter att ha tittat på den här produkten. Den angivna produkten ingår inte i resultatmängden.
 
-Den här logiken returnerar andra produkter som köpts efter att ha tittat på den här. den angivna produkten ingår inte i resultatuppsättningen.
+Den här logiken returnerar andra produkter som köpts efter att ha tittat på den här. Den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en produktsida, som till exempel visar objekt som andra besökare som visade det köpta objektet. Om besökaren till exempel tittar på en fiskepunkt kan rekommendationen visa ytterligare saker som andra besökare har köpt, som t.ex. kryssrutor för taggar, skölder och fiskekurser. När besökarna besöker er webbplats kan ni ge dem ytterligare inköpsrekommendationer.
 
@@ -214,7 +214,7 @@ Om du väljer den här algoritmen kan du välja följande Recommendations-nyckla
 
 Rekommenderar artiklar som oftast köps av kunder samtidigt som det angivna objektet.
 
-Den här logiken returnerar andra produkter som köpts efter att ha köpt den här. den angivna produkten ingår inte i resultatuppsättningen.
+Den här logiken returnerar andra produkter som köpts in efter att ha köpt den här produkten. Den angivna produkten ingår inte i resultatuppsättningen.
 
 Med den här logiken kan du öka möjligheterna till korsförsäljning genom att visa en rekommendation på en kundvagnssammanfattning, som t.ex. visar artiklar som andra köpare också har köpt. Om besökaren till exempel köper en kostym kan rekommendationen visa ytterligare objekt som andra besökare har köpt tillsammans med kostymen, som slipsar, klädskor och kufflänkar. När besökarna granskar sina inköp ger ni dem ytterligare rekommendationer.
 
@@ -240,7 +240,7 @@ Om du väljer den här algoritmen kan du välja följande Recommendations-nyckla
 * Senast visade objekt
 * Mest visade objekt
 
-Mer information finns i [Liknande innehåll](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Mer information finns i [Likhet för innehåll](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 ## [!UICONTROL User-Based]
 
@@ -248,7 +248,7 @@ Med den användarbaserade algoritmtypen kan du göra rekommendationer baserat p�
 
 Följande algoritmer är tillgängliga med [!UICONTROL User-Based] algoritmtyp:
 
-### Senast visade objekt {#recently-viewed}
+### Nyligen visade objekt {#recently-viewed}
 
 Använder besökarens historik (spridningssessioner) för att presentera den senaste *x* objekt som besökaren har visat, baserat på antalet platser i designen.
 
@@ -273,7 +273,7 @@ Använd den här algoritmen på allmänna sidor, som startsidor, landningssidor 
 
 ### Rekommenderas för dig {#recommended-for-you}
 
-Rekommenderar objekt baserat på besökarens webbsurfning, visning och inköpshistorik.
+Rekommenderar objekt baserat på besökarens webbsurfning, visning och köphistorik.
 
 Med den här algoritmen kan ni leverera personaliserat innehåll och personaliserade upplevelser till både nya och återkommande besökare. Listan med rekommendationer vägs mot besökarens senaste aktivitet och uppdateras under sessionen och anpassas mer när användaren bläddrar på webbplatsen.
 
@@ -318,7 +318,7 @@ Möjliga användningsområden:
 
 ## Rekommendationsnycklar {#keys}
 
-Följande rekommendationsnycklar är tillgängliga från [!UICONTROL Recommendation Key] nedrullningsbar lista:
+Följande rekommendationsnycklar är tillgängliga från [!UICONTROL Recommendation Key] listruta:
 
 ### Aktuellt objekt {#current-item}
 
@@ -397,7 +397,7 @@ Använd [!UICONTROL Last Viewed Item] rekommendationsnyckel på din webbplats:
 
 ### Mest visade objekt {#most-viewed-logic}
 
-Visar de objekt eller media som visas oftast på din plats.
+Visar de objekt eller medier som visas oftast på platsen.
 
 Med den här logiken kan du visa rekommendationer baserat på de mest visade objekten på webbplatsen för att öka konverteringsgraden för andra objekt. En mediewebbplats kan till exempel visa rekommendationer på sin hemsida för sina mest visade videor för att uppmuntra besökarna att titta på ytterligare videor.
 

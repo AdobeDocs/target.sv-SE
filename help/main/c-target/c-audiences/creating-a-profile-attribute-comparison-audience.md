@@ -1,12 +1,12 @@
 ---
 keywords: målgrupp;benägenhet;profilattribut;jämför;jämförelse;skapa målgrupp;skapa målgrupp
-description: Lär dig hur du definierar en målgrupp för att jämföra två profilattribut.
+description: Lär dig definiera en målgrupp för att jämföra två profilattribut.
 title: Kan jag jämföra två profilattribut som kan användas i målgrupper?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Definiera en målgrupp i [!DNL Adobe Target] för att jämföra två profilattri
 >
 >Den här funktionen är tillgänglig för [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) endast kategori.
 
-## Översikt {#section_303CBC78194D49A2A004945D425441E1}
+## Ökning {#section_303CBC78194D49A2A004945D425441E1}
 
 Målgrupper definieras av regler som bestämmer vem som är inkluderad i eller utesluten från en [!DNL Target] aktivitet. En målgruppsdefinition kan innehålla flera regler, och varje regel kan innehålla flera parametrar. Om en av reglerna du inkluderar använder [!UICONTROL Visitor Profile] -kategori kan du definiera en regel baserat på ett besökarprofilattribut specifika värde eller jämföra värdet för det attributet med ett annat besökarprofilattribut.
 
@@ -28,13 +28,13 @@ Låt oss anta att du jobbar för ett möbelföretag och överförde två kundben
 * Sannolikheten att köpa möbler till matsalar under de kommande 90 dagarna
 * Sannolikheten att köpa möbler för vardagsrumsmöbler under de kommande 90 dagarna
 
-Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än sannolikheten att köpa möbler för vardagsrum. [!DNL Target] skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för denna målgrupp.
+Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än benägenheten att köpa möbler för vardagsrum. [!DNL Target] skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för denna målgrupp.
 
-Mer information finns i [Metoder för att hämta data till Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Mer information finns i [Metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Skapa en målgrupp för profilattributsjämförelse {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicka **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Namnge målgruppen och lägg till en valfri beskrivning.
 1. Dra och släpp **[!UICONTROL Visitor Profile]** till målgruppsverktyget.
 1. Från **[!UICONTROL Visitor Profile]** väljer du ett attribut:

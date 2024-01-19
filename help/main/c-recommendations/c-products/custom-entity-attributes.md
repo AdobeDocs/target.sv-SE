@@ -2,13 +2,13 @@
 keywords: entitetsattribut med flera värden;attribut för anpassade entiteter;giltig JSON;entitetsattributvärde;JSON-matris;flervärd;flervärd
 description: Lär dig hur du använder anpassade entitetsattribut för ett och flera värden för att definiera ytterligare information om objekt i Adobe [!DNL Target] Recommendations-katalog.
 title: Hur använder jag anpassade entitetsattribut?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ När ett anpassat attribut har skickats som en giltig JSON-array behandlas attri
 
 ## Implementera attribut med flera värden {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Anpassade entitetsattribut med flera värden stöds vid användning av feeds (CSV). `targetPageParams`och leverans-API för att överföra produkter. Nya värden ersätter aktuella värden; de är inte tillagda. Tomma arrayer ( [] ) behandlas som om de inte har några värden.
+Anpassade entitetsattribut med flera värden stöds vid användning av feeds (CSV). `targetPageParams`och leverans-API för att överföra produkter. Nya värden ersätter aktuella värden. De läggs inte till. Tomma arrayer ( [] ) behandlas som om de inte har några värden.
 
 Dubbla citattecken måste undantas. Till exempel: `"[""test"", ""value""]"` är en giltig JSON-array som kan användas i CSV.
 
@@ -127,7 +127,7 @@ Du kan skicka flervärdesattribut med leverans-API:t i en mbox-parameter som ett
   }
 ```
 
-Se [Adobe Recommendations API-dokumentation](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ha information om hur du använder enhets-API:erna Delivery och Save.
+Se [Adobe Recommendations API-dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ha information om hur du använder enhets-API:erna Delivery och Save.
 
 ## Använda operatorer med attribut för flera värden {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -144,7 +144,7 @@ I följande avsnitt finns information om operatorbeteende i algoritminkluderings
 
 ### Lika med
 
-Om ett attributvärde är lika med indatavärdet, blir resultatet true.
+Om något attributvärde är lika med indatavärdet, blir resultatet true.
 
 Exempel: `genre equals abc`
 
@@ -239,7 +239,7 @@ Exempel: `genre does not match abc`
 * Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde matchar `abc`.
 * Fall 2: `entity.genre = ["abc", "de", "ef"]`. Regeln resulterar i false eftersom ett värde matchar `abc`.
 
-### Dynamiskt omfång (endast tillgängligt i objektbaserade algoritmer, endast numeriska värden)
+### Dynamiska intervall (endast tillgängligt i objektbaserade algoritmer, endast numeriska värden)
 
 Om ett numeriskt attributvärde ligger inom det angivna intervallet blir resultatet sant.
 

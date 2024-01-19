@@ -2,17 +2,17 @@
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;rekommendationer;specialtecken;attributvikt;innehållets likhet
 description: Visa en lista med vanliga frågor och svar om Adobe [!DNL Target] Recommendations verksamhet.
 title: Var hittar jag frågor och svar om [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3448'
 ht-degree: 0%
 
 ---
 
-# Recommendations FAQ
+# RECOMMENDATIONS FAQ
 
 Lista med vanliga frågor och svar om [!DNL Adobe Target] [!DNL Recommendations] verksamhet.
 
@@ -26,21 +26,21 @@ För närvarande finns det ingen tillgänglig funktion som gör att kunderna kan
 
 Tidsramen och resultaten varierar beroende på hur objekten uppdateras.
 
-| Källa | Detaljer |
+| Källa | Information |
 | --- | --- |
 | Objektattribut uppdaterade via mbox eller API | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
 | Objektattribut uppdaterade via feed | <ul><li>Recommendations uppdateras efter foderkonsumtion (2-8 timmar).</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter efterföljande katalogindex (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
-| Objektet togs bort från katalogen via [!DNL Target] Gränssnitt eller API | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
+| Objektet har tagits bort från katalogen via [!DNL Target] Gränssnitt eller API | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
 | Objekt som lagts till i katalogen via mbox eller API | <ul><li>Recommendations uppdateras efter att algoritmen har körts. Algoritmkörningar schemaläggs var tolfte timme för 1-2-dagars algoritmer och varannan timme för 7+-dagars algoritmer.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
-| Objekt som lagts till i katalogen via feed | <ul><li>Recommendations uppdateras efter att fodret har importerats (2-8 timmar). Efterföljande algoritmkörningar schemaläggs var tolfte timme för 1-2-dagarsalgoritmer och var 24:e timme för 7+-dagarsalgoritmer. Recommendations uppdateras inom 2-32 timmar totalt.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter katalogindexet (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
+| Objekt som lagts till i katalogen via feed | <ul><li>Recommendations uppdateras efter att fodret har importerats (2-8 timmar). Efterföljande algoritmkörningar schemaläggs var tolfte timme för 1-2-dagarsalgoritmer och varannan timme för 7+-dagsalgoritmer. Recommendations uppdateras inom 2-32 timmar totalt.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter katalogindexet (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
 
 När du har importerat en feed-fil eller efter att ha tagit emot entitetsuppdateringar via API eller mbox visas följande ändringar under 60 minuter:
 
 * Om ett objekt tidigare har uteslutits men nu ska inkluderas objektet i nästa algoritmkörning (12-24 timmar).
 
-   Den här situationen beror på att [!DNL Target] tillämpar undantag både online och offline. När ett objekt nyligen har uteslutits tillämpas detta snabbt. När ett objekt nyligen ingår försvinner undantaget från webben snabbt, men offlineundantaget försvinner inte förrän nästa algoritm körs.
+  Detta beror på att [!DNL Target] tillämpar undantag både online och offline. När ett objekt nyligen har uteslutits tillämpas detta snabbt. När ett objekt nyligen ingår försvinner undantaget från webben snabbt, men offlineundantaget försvinner inte förrän nästa algoritm körs.
 
-* Om ett objekt tidigare inkluderades men nu ska exkluderas, exkluderas objektet enligt&quot;Uppdaterade artikelattribut..&quot;. tidsrad som beskrivs ovan beroende på matningskälla (15 minuter via mbox/API eller 12-24 timmar via feed).
+* Om ett objekt tidigare inkluderades men nu ska exkluderas, exkluderas objektet enligt tidsraden&quot;Uppdaterade artikelattribut..&quot; som beskrivs ovan beroende på flödeskälla (15 minuter via mbox/API eller 12-24 timmar via feed).
 
 Följande ändringar återspeglas inte förrän nästa algoritmkörning inträffar (inom 12-24 timmar):
 
@@ -59,7 +59,7 @@ Följande ändringar återspeglas inte förrän nästa algoritmkörning inträff
 * En ändring av kampanjinställningarna kan ta upp till fem timmar att reflektera på plats.
 * En ändring av andra villkorsinställningar kanske inte återspeglas förrän nästa algoritm körs:
 
-   * Vissa villkorsinställningar (till exempel&quot;tillägg av en dynamisk inkluderingsregel&quot;) visas omedelbart.
+   * Vissa villkorsinställningar (till exempel&quot;tillägg av en regel för dynamisk infogning&quot;) visas omedelbart.
    * Andra villkorsinställningar (t.ex. &quot;borttagning av en regel för dynamisk inkludering&quot;, ändring av uppslagsfönster o.s.v.) kan inte införlivas förrän nästa algoritm körs.
    * Algoritmkörningar utlöses av dessa ändringar men kan ta upp till 24 timmar att slutföra. Algoritmer körs också på schemalagd basis var 12:24:e timme.
 
@@ -95,7 +95,7 @@ Om platsen som du använder det här villkoret på inte innehåller kategori-ID:
 
 Om du använder en plats där kategori-ID finns i rutan innehåller kriterieväljaren alla tillämpliga villkor.
 
-[!DNL Target] har en [Filtrera inkompatibla villkor](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} inställning för att styra intelligent filtrering av algoritmväljaren.
+[!DNL Target] har en [Filtrera inkompatibla villkor](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} inställning för att styra intelligent filtrering av algoritmväljaren.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Om du använder en plats där kategori-ID finns i rutan innehåller kriterieväl
 
 Så här öppnar du [!UICONTROL Filter Incompatible Criteria] inställning, klicka [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
-![recs_settings_filter, bild](assets/recs_settings_filter.png)
+![recs_settings_filterBild](assets/recs_settings_filter.png)
 
 Om [!UICONTROL Filter Incompatible Criteria] inställningen är INTE aktiverad, [!DNL Target] filtrerar inte algoritmer i algoritmväljaren och alla algoritmer visas.
 
@@ -117,7 +117,7 @@ Följande lista innehåller specialfall där [!DNL Target] visar inte [!UICONTRO
 
 * Både entityId och category Id finns på platsen och inget filtreras.
 * Du använder [!DNL mbox.js] version 55 eller tidigare.
-* Inget mbox-anrop utlöses från sidan (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
+* Inget mbox-anrop aktiveras från sidan (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * [!DNL Target] parametrar har inte definierats.
 
 ## Vad ska jag göra om en samling i Recommendations blir noll (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
@@ -127,16 +127,16 @@ Tänk på följande information om du ser en samling gå till noll som tidigare 
 * Du kan spara om samlingen och se om den uppdaterar numret. Genom att spara om genereras alla algoritmer som använder samlingen om.
 * Tittar du på rätt miljö? Gå till [!DNL /target/products.html#recsSettings] för att dubbelkontrollera (som visas nedan).
 
-   ![product_catalog image](assets/product_catalog.png)
+  ![product_catalog image](assets/product_catalog.png)
 
-* Är ditt index aktuellt? Gå till [!DNL /target/products.html#productSearch] och kontrollera hur många timmar som indexet är gammalt (t.ex. &quot;Indexerad för 3 timmar sedan&quot;). Du kan uppdatera indexet efter behov.
+* Är ditt index uppdaterat? Gå till [!DNL /target/products.html#productSearch] och kontrollera hur många timmar som indexet är gammalt (t.ex. &quot;Indexerad för 3 timmar sedan&quot;). Du kan uppdatera indexet efter behov.
 * Har du ändrat något i feeden eller datalagret som resulterade i att dina enheter inte längre matchade samlingsreglerna? Se till att CASE-filen överensstämmer (skiftlägeskänslig).
 * Kördes din feed korrekt? Ändrade någon FTP-katalog, lösenord och så vidare?
 * [!DNL Target] gör sitt bästa för att göra uppdateringar av leveransen (på kundens sida/app) så snabbt som möjligt. Ändå [!DNL Target] måste även tillhandahålla viss representation i användargränssnittet för marknadsföraren. [!DNL Target] fördröjer inte leveransuppdateringar att vänta på att gränssnittsuppdateringarna ska vara synkroniserade. Du kan använda [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) för att se vad som finns i systemet när en begäran kommer in.
 
 ## Vad är skillnaden mellan allmän attributviktning och innehållets likhetsspecifika attributviktning? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
-Attributvikningen finns i två former: &quot;standardattribuering&quot; och &quot;attribuering av likhetsattribut för innehåll&quot;.
+Attributviktningen finns i två former: &quot;standardattributviktning&quot; och &quot;attributviktning för likhet med innehåll&quot;.
 
 &quot;Standardattributviktning&quot; gäller de flesta, om inte alla, kriterietyper (inte bara innehållets likhet). Den här typen av viktning ger mer vikt åt vissa attributvärden. I följande exempel får Nike-produkter en ojämnhet i utdatarrekommendationerna.
 
@@ -148,7 +148,7 @@ Den här typen av viktning är mer dynamisk och baseras på den aktuella rekomme
 
 ![content_Likity_example image](assets/content_similarity_example.png)
 
-## Varför [!DNL Target] ibland inte kan visa rekommendationer? {#section_DB3F40673AED42228E407C05437D99E9}
+## Varför [!DNL Target] kan det ibland vara svårt att visa rekommendationer? {#section_DB3F40673AED42228E407C05437D99E9}
 
 [!DNL Target] kan ibland inte visa rekommendationer på grund av det låga antalet tillgängliga rekommendationer.
 
@@ -167,7 +167,7 @@ Följande JavaScript kan användas i början av designen för att öka antalet b
 
 ## Vilken är storleksgränsen för ett API-anrop för infognings-/uppdateringsprodukter? Kan jag uppdatera 50 000 produkter i ett samtal med API:t istället för en feed? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-[!DNL Target] har en postgräns på 50 MB på ansökningsnivå, det är dock bara när du skickar `application/x-www-form-urlencoded` innehållstypsrubrik.
+[!DNL Target] lägger till en postgräns på 50 MB på programnivå, men det är bara när du skickar `application/x-www-form-urlencoded` innehållstypsrubrik.
 
 Du kan försöka att skicka 50 000 produkter i ett enda samtal. Om det inte fungerar kan du dela upp det i grupper. Adobe rekommenderar att kunderna delar upp sina samtal i produktgrupper om 5 000 eller 10 000 för att minska sannolikheten för timeout på grund av systembelastning.
 
@@ -194,11 +194,11 @@ Det finns ingen hård gräns för antalet rader eller filstorleken för en feed 
 
 ## Kan jag utesluta en entitet dynamiskt? {#exclude}
 
-I frågesträngen kan du skicka enhets-ID:n för entiteter som du vill utesluta från dina rekommendationer. Du kan till exempel utesluta artiklar som redan finns i kundvagnen.
+I frågesträngen kan du skicka enhets-ID:n för entiteter som du vill utesluta från dina rekommendationer. Du kan t.ex. utesluta artiklar som redan finns i kundvagnen.
 
-Om du vill aktivera exkluderingsfunktionen använder du `excludedIds` mbox-parameter. Den här parametern pekar på en lista med kommaavgränsade enhets-ID:n. Exempel, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Värdet skickas när rekommendationer begärs.
+Om du vill aktivera exkluderingsfunktionen använder du `excludedIds` mbox-parameter. Den här parametern pekar på en lista med kommaavgränsade enhets-ID:n. Till exempel: `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Värdet skickas när rekommendationer begärs.
 
-Exkluderingen utförs för den aktuella [!DNL Target] endast ringa, objekt exkluderas inte på följande [!DNL Target] anrop såvida inte `excludedIds` värdet skickas igen. Om du vill utesluta artiklar i kundvagnen från rekommendationer på varje sida fortsätter du skicka `excludedIds` på varje sida.
+Exkluderingen utförs för den aktuella [!DNL Target] endast anrop; objekt exkluderas inte vid efterföljande [!DNL Target] anrop såvida inte `excludedIds` värdet skickas igen. Om du vill utesluta artiklar i kundvagnen från rekommendationer på varje sida fortsätter du skicka `excludedIds` på varje sida.
 
 >[!NOTE]
 >
@@ -214,19 +214,19 @@ NO_CONTENT returneras när rekommendationer inte är tillgängliga för den beg�
 
 * Resultaten är inte klara än.
 
-   Den här situationen inträffar vanligtvis när en nyskapad aktivitet sparas eller efter att konfigurationsändringar har gjorts i den samling, de kriterier eller kampanjer som används i aktiviteten.
+  Den här situationen inträffar vanligtvis när en nyskapad aktivitet sparas eller efter att konfigurationsändringar har gjorts i den samling, de kriterier eller kampanjer som används i aktiviteten.
 
 * Resultaten är klara, men har ännu inte cachelagrats på närmaste edge-server, för den begärda algoritm-/tangentkombinationen.
 
-   Begäran initierar en cachelagringsåtgärd, så problemet bör lösas efter att några sidor har lästs in och/eller några minuter framåt.
+  Begäran initierar en cachelagringsåtgärd, så problemet bör lösas efter att några sidor har lästs in och/eller några minuter framåt.
 
 * Resultaten är klara, men inte tillgängliga för det angivna nyckelvärdet.
 
-   Den här situationen inträffar vanligtvis när du begär rekommendationer för ett objekt som har lagts till i katalogen efter att den senaste algoritmen har körts och kommer att matchas automatiskt efter nästa algoritmkörning.
+  Den här situationen inträffar vanligtvis när du begär rekommendationer för ett objekt som har lagts till i katalogen efter att den senaste algoritmen har körts och kommer att matchas automatiskt efter nästa algoritmkörning.
 
 * Delvis mallåtergivning är inaktiverat och det finns inte tillräckligt med resultat för att fylla mallen.
 
-   Den här situationen inträffar vanligtvis när du har en regel för dynamisk inkludering som tar bort många objekt från möjliga resultat. Du kan undvika en situation genom att aktivera säkerhetskopieringar och inte tillämpa inkluderingsregeln på säkerhetskopieringar, eller använda villkoren i följd med ett mindre aggressivt filtrerat villkor.
+  Den här situationen inträffar vanligtvis när du har en regel för dynamisk inkludering som tar bort många objekt från möjliga resultat. Du kan undvika en situation genom att aktivera säkerhetskopieringar och inte tillämpa inkluderingsregeln på säkerhetskopieringar, eller använda villkoren i följd med ett mindre aggressivt filtrerat villkor.
 
 ## Bevaras rekommendationer baserade på nyligen visade objekt på flera enheter för en enskild besökare? {#persist-across-devices}
 
@@ -244,7 +244,7 @@ Om besökaren inte har två aktiva sessioner samtidigt uppdaterar nyligen visade
 
 ## Kan jag använda en algoritm som har skapats i [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?
 
-En algoritm som skapats i [!DNL Recommendations Classic] stöds inte i [!DNL Recommendations Premium]. Du kanske kan använda den äldre algoritmen i [!DNL Target Premium]; algoritmen kan dock skapa synkroniseringsproblem när aktiviteten i [!DNL Target Premium] Gränssnitt. Mer information om skillnaderna mellan de två lösningarna finns i [[!DNL Recommendations Classic] versus [!DNL Recommendations] verksamhet i [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+En algoritm som skapats i [!DNL Recommendations Classic] stöds inte i [!DNL Recommendations Premium]. Du kanske kan använda den äldre algoritmen i [!DNL Target Premium]Men algoritmen kan skapa synkroniseringsproblem när aktiviteten i [!DNL Target Premium] Gränssnitt. Mer information om skillnaderna mellan de två lösningarna finns i [[!DNL Recommendations Classic] kontra [!DNL Recommendations] verksamhet i [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## Hur kan jag rekommendera enbart nya artiklar eller videoklipp? {#recommend-new-articles}
 
@@ -281,8 +281,8 @@ En del kunder inom media och publicering vill se till att rekommenderade objekt 
 Följande är kända problem med [!UICONTROL Recommendations] verksamhet:
 
 * När [!DNL Target] returnerar ett JSON-erbjudande med getOffer(), som returneras med typen JSON. Om du returnerar en JSON Recommendations-design returneras den emellertid med en typ av HTML.
-* Enheter som har gått ut har gått ut korrekt efter 60 dagar efter det att inga uppdateringar har tagits emot via feed eller API. men de enheter som har gått ut tas inte bort från katalogens sökindex efter att de har gått ut. Enheter som tas bort via feed eller API tas inte heller bort från indexet för katalogsökning. (IRI-857)
+* Enheter som har gått ut har gått ut 60 dagar efter att de inte har fått några uppdateringar via feed eller API. De enheter som har gått ut tas dock inte bort från katalogens sökindex efter att de har gått ut. Enheter som tas bort via feed eller API tas inte heller bort från indexet för katalogsökning. (IRI-857)
 * Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsvisning av Recommendations-fältet (TGT-33426)
-* Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av dessa objekt i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade. (TGT-35777)
+* Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av de här objekten i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade. (TGT-35777)
 * Recommendations-aktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
 * Den feed-status för anpassade kriterier som visas i kriterielistan (kortvyn) uppdateras var tionde minut och kan i sällsynta fall vara mer än tio minuter gammal. Statusen som visas i redigeringsvyn för anpassade kriterier hämtas i realtid och är alltid uppdaterad. (TGT-35896, TGT-36173)

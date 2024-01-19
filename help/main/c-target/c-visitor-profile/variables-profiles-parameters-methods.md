@@ -4,9 +4,9 @@ description: Visa en lista med olika profiler, variabler och parametrar som är 
 title: Vilka profiler, variabler och parametrar som används i [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | user.header(&#39;accept-language&#39;) | Besökarspråk |
 | user.header(&#39;accept-encoding&#39;) | Teckenkodning för besökare |
 | user.header(&#39;accept&#39;) | Besökarspråk och teckenkodning |
-| user.header(&#39;connection&#39;) | Serveranslutning. Till exempel: keep-live |
-| user.header(&#39;referrer&#39;) | Webbplats-URL för besökarens aktuella sida. Fungerar inte för Internet Explorer. |
+| user.header(&#39;connection&#39;) | Serveranslutning. Exempel: keep-live |
+| user.header(&#39;referrer&#39;) | Webbadress till besökarens aktuella sida. Fungerar inte för Internet Explorer. |
 | user.getLocal(&#39;param_name&#39;); | Hämta värdet som du angett med `user.setLocal`. |
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Skapa beständiga profilvärden i ett profilskript. Dessa värden behålls på samma sätt som ett profilskript, men du har bara åtkomst till det i skriptet som det angavs. |
 | user.get(&#39;param_name&#39;) |  |
@@ -82,7 +82,7 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | mbox.param(&#39;param_name&#39;) |  |
 | Parametrar skickas automatiskt med varje begäran:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Parametrar skickade med orderrutor:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | En mbox-parameter för att synkronisera ett kund-ID till Target mboxPCID. Ett kund-ID är ett ID som ditt företag använder för att spåra besökare, till exempel ett CRM-ID, ett medlems-ID eller något liknande. Detta ID kan sedan användas för att lägga till information via profilens API:er och [Kundattribut](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
+| mbox3rdPartyId | En mbox-parameter för att synkronisera ett kund-ID till Target mboxPCID. Ett kund-ID är ett ID som ditt företag använder för att spåra besökare, till exempel ett CRM-ID, ett medlems-ID eller något liknande. Detta ID kan sedan användas för att lägga till information via profilens API:er och [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | I varje mbox-anrop tilldelas sidan ett värde. |
 | mboxDebug | Används endast för felsökningsinformation. Tillagd på sid-URL:en där at.js söker efter den. |
 | mboxOverride.browserIp | Ställer in en annan region än den faktiska platsen så att du kan testa hur någonting skulle se ut på en annan plats.<br>**Obs!** Parametrar för mboxOverride ska bara användas när aktiviteten testas och inte i produktionen. Om du använder någon av parametrarna mboxOverride kan det orsaka rapporteringsdiskrepanser när du använder  [Analyser för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)  (A4T). Du bör använda [Aktivitets-QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) när du testar för att säkerställa att din aktivitet fungerar som förväntat innan du flyttar aktiviteten till din aktiva miljö. |

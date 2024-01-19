@@ -4,9 +4,9 @@ description: Lär dig använda målgrupper i [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ Målgrupper i [!DNL Adobe Target] avgöra vilka som ser innehåll och upplevelse
 Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. När du riktar in dig på en aktivitet har du följande alternativ:
 
 * Välj en återanvändbar målgrupp på [!UICONTROL Audiences] list
-* [Skapa en aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) och rikta in dem
+* [Skapa en aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) och inrikta er på det
 * [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) skapa en ad hoc-målgrupp
 
 Du kan också använda målgruppsdata som samlats in av [!DNL Adobe Analytics] för målinriktning och personalisering i realtid i [!DNL Target] och andra [!DNL Adobe Experience Cloud] program. Se [Experience Cloud målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *Gränssnittskomponenter i Experience Cloud* guide.
 
 Det finns två typer av målgrupper i [!DNL Target]:
 
-* **Målgrupper:** Används för att leverera olika innehåll till olika typer av besökare.
+* **Målgrupper:** Används för att leverera olika typer av besökare.
 * **Rapportera målgrupper:** Används för att avgöra hur olika typer av besökare svarar på samma innehåll så att du kan analysera testresultaten.
 
-  I [!DNL Target]kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du använder [Adobe Analytics som rapporteringskälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper inom [!DNL Analytics].
+  I [!DNL Target]kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du [Adobe Analytics som rapporteringskälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper inom [!DNL Analytics].
 
 ## Använd [!UICONTROL Audiences] list {#use-list}
 
@@ -45,20 +45,20 @@ The [!UICONTROL Audiences] -listan innehåller de målgrupper som du kan använd
 
   >[!NOTE]
   >
-  >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller [kombinerat med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
+  >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som eller [kombinerat med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
   >
-  >Användarna måste ha [!UICONTROL Approver] eller ovanför status i [!DNL Target] för att konfigurera [!DNL Target] [!UICONTROL Destinations] kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >Användarna måste ha [!UICONTROL Approver] eller ovanför status i [!DNL Target] konfigurera [!DNL Target] [!UICONTROL Destinations] kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
   >Mer information finns i [Använda målgrupper från Adobe Experience Platform](#aep).
 
-Fördefinierade målgrupper, till exempel[!UICONTROL New Visitors]&quot; och &quot;[!UICONTROL Returning Visitors],&quot; kan inte byta namn.
+Fördefinierade målgrupper, till exempel[!UICONTROL New Visitors]och &quot;[!UICONTROL Returning Visitors],&quot; kan inte byta namn.
 
 När du arbetar med målgrupper som ursprungligen skapades i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform], [!DNL Target] varnar dig om du refererar till en publik i [!DNL Target] aktiviteter som senare har tagits bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform].
 
 * Om en målgrupp togs bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform], en varningsikon i båda [!UICONTROL Audience] -listan och publikväljaren visas. Ett verktygstips i [!DNL Target] Gränssnittet anger också att målgruppen togs bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform].
 * Om du försöker kombinera flera målgrupper med en borttagen målgrupp, eller om du försöker spara en aktivitet som refererar till en borttagen målgrupp, visas ett varningsmeddelande.
 
-Du kan också ange anpassade profilparametrar och `user.` parametrar. När du skapar en målgrupp drar du de attribut du vill använda för att rikta aktiviteten till målgruppsfönstret. Om det önskade attributet inte visas har attributet inte utlösts av en mbox. Andra anpassade mbox-parametrar är tillgängliga i [!UICONTROL Custom Parameters] nedrullningsbar lista.
+Du kan också ange anpassade profilparametrar och `user.` parametrar. När du skapar en målgrupp drar du de attribut du vill använda för att rikta aktiviteten till målgruppsfönstret. Om det önskade attributet inte visas har attributet inte utlösts av en mbox. Andra anpassade mbox-parametrar är tillgängliga i [!UICONTROL Custom Parameters] listruta.
 
 Använd [!UICONTROL Filters] för att filtrera [!UICONTROL Audiences] lista efter källa: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud]och [!DNL Adobe Experience Platform].
 
@@ -86,7 +86,7 @@ Målgruppsinformationen kan hjälpa er att undvika oavsiktlig påverkan på andr
 
 Om en publik [tillsammans med en annan målgrupp](/help/main/c-target/combining-multiple-audiences.md) och den kombinerade målgruppen används för att skapa en aktivitet, användarinformationen för båda målgrupperna listar den nyskapade aktiviteten.
 
-![audiens_definition_list_usage image](assets/audience_definition_list_usage.png)
+![audiens_definition_list_usage, bild](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Använd målgrupper från [!DNL Adobe Experience Platform] {#aep}
 
-Använda målgrupper skapade i [!DNL Adobe Experience Platform] ge mer omfattande kunddata som leder till mer slagkraftig personalisering.
+Använda målgrupper skapade i [!DNL Adobe Experience Platform] tillhandahålla mer omfattande kunddata som leder till mer slagkraftig personalisering.
 
 Mer information finns i [Använd målgrupper från [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 

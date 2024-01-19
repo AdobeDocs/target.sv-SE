@@ -4,9 +4,9 @@ description: Lär dig mer [!DNL Adobe Target] fungerar, inklusive information om
 title: Hur [!DNL Target] Arbeta?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Lär dig mer [!DNL Adobe Target] fungerar, inklusive information om JavaScript-b
 
 [!DNL Target] integreras med webbplatser med [!DNL Experience Platform Web SDK] eller at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** The [Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} är ett nytt JavaScript-bibliotek på klientsidan. The [!DNL Experience Platform Web SDK] för kunder som [!DNL Adobe Experience Cloud] interagerar med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL Experience Platform] Edge Network. [!DNL Adobe] rekommenderar alla nya [!DNL Target] kunder implementerar [!DNL Experience Platform Web SDK].
-* **at.js:** at.js-biblioteket är ett implementeringsbibliotek för [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. [!DNL Adobe] rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till [senaste versionen av at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:** The [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} är ett nytt JavaScript-bibliotek på klientsidan. The [!DNL Experience Platform Web SDK] för kunder som [!DNL Adobe Experience Cloud] interagerar med de olika tjänsterna i [!DNL Experience Cloud] (inklusive [!DNL Target]) via [!DNL Experience Platform] Edge Network. [!DNL Adobe] rekommenderar alla nya [!DNL Target] kunder implementerar [!DNL Experience Platform Web SDK].
+* **at.js:** at.js-biblioteket är ett implementeringsbibliotek för [!DNL Target]. at.js-biblioteket ger bättre sidladdningstider för webbimplementeringar och ger bättre implementeringsalternativ för enkelsidiga program. at.js uppdateras ofta med nya funktioner. [!DNL Adobe] rekommenderar att alla kunder som använder at.js uppdaterar sina implementeringar till [senaste versionen av at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Referera till [!DNL Experience Platform Web SDK] eller at.js på alla sidor på 
 Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera [!DNL Experience Platform Web SDK] eller at.js:
 
 * [[!DNL Adobe Experience Platform Web SDK] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
+* [Implementera [!DNL Target] använda [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 Varje gång en besökare begär en sida som har optimerats för [!DNL Target]skickas en begäran till målinriktningssystemet. Begäran hjälper till att avgöra vilket innehåll som ska användas för besökaren. Den här processen utförs i realtid. Varje gång en sida läses in görs en begäran om innehållet och utförs av systemet. Innehållet styrs av reglerna för marknadsföringsstyrda aktiviteter och upplevelser och är riktat till den enskilda besökaren. Innehållet får det att varje besökare mest sannolikt svarar på, interagerar med eller till slut köper. Personaliserat innehåll hjälper till att maximera svarsfrekvenser, förvärvsfrekvens och intäkter.
 
@@ -100,13 +100,13 @@ Aktivitets- och innehållsdatabaser, [!DNL Analytics] data, API:er och marknadsf
 
 Varje Edge Cluster har all information som krävs för att besvara besökarens innehållsförfrågan och spåra analysdata på begäran. Besöksförfrågningar dirigeras till närmaste Edge-kluster.
 
-Mer information finns i [Adobe Target - säkerhetsöversikt](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) rapport.
+Mer information finns i [Adobe Target - säkerhetsöversikt](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) vitbok.
 
 The [!DNL Target] lösningen finns på datacenter som ägs av Adobe och som hyrs ut av Adobe över hela världen.
 
 Platserna för centrala kluster innehåller både en datainsamlingscentral och en datacentral. Edge Cluster-platser innehåller bara ett datainsamlingscenter. Varje rapportsvit tilldelas ett specifikt databehandlingscenter.
 
-Data om kundwebbplatsaktivitet samlas in av de närmaste sju Edge-kluster. Dessa data dirigeras till en kunds förbestämda mål för centrala kluster (en av tre platser: Oregon, Dublin, Singapore) för beredning. Data för besökarprofilen lagras på det Edge-kluster som ligger närmast besökaren. Bland Edge-klusterplatserna finns Central Cluster-platserna och Virginia, Mumbai, Sydney och Tokyo.
+Data om kundwebbplatsaktivitet samlas in av de närmaste sju Edge-kluster. Dessa data är avsedda för en kunds förbestämda mål för centrala kluster (en av tre platser: Oregon, Dublin, Singapore) för behandling. Data för besökarprofilen lagras på det Edge-kluster som ligger närmast besökaren. Bland Edge-klusterplatserna finns Central Cluster-platserna och Virginia, Mumbai, Sydney och Tokyo.
 
 I stället för att svara på alla målförfrågningar från en enda plats, behandlas förfrågningar av det Edge-kluster som ligger närmast besökaren. Denna process bidrar till att minska effekten av restiden mellan nätverk och Internet.
 
@@ -134,11 +134,11 @@ The [!DNL Target Recommendations] är värd för en tjänst [!DNL Adobe] datacen
 >
 >[!DNL Adobe Target] för närvarande inte har något Edge Cluster i Kina och besökarens prestanda är begränsad för [!DNL Target] kunder i Kina. På grund av brandväggen och bristen på Edge Clusters i landet, är webbplatsernas upplevelser [!DNL Target] kan påverkas. Upplevelserna kan ta lång tid att återge och sidinläsningen kan påverkas. Marknadsförarna kan även uppleva fördröjning när de använder [!DNL Target] redigeringsgränssnitt.
 
-Du kan tillåtslista [!DNL Target] Edge Clusters, om du vill. Mer information finns i [tillåtelselista: Hörnkantsnoder](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
+Du kan tillåtslista [!DNL Target] Edge Clusters, om du vill. Mer information finns i [tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
 
 ## Skyddad användarupplevelse {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-[!DNL Adobe] ser till att infrastruktur för målinriktning blir så tillförlitlig som möjligt och presterar. En kommunikationsanalys mellan en besökares webbläsare och [!DNL Adobe] -servrar kan orsaka avbrott i innehållsleveransen.
+[!DNL Adobe] ser till att infrastruktur för målinriktning blir så tillförlitlig som möjligt och presterar. En kommunikationsanalys mellan en besökares webbläsare och [!DNL Adobe] kan orsaka avbrott i innehållsleveransen.
 
 För att skydda mot avbrott i tjänsten och anslutningsproblem ställs alla platser in på att inkludera standardinnehåll (definieras av klienten). Det här standardinnehållet visas om användarens webbläsare inte kan ansluta till [!DNL Target].
 
@@ -148,7 +148,7 @@ Inga ändringar görs på sidan om användarens webbläsare inte kan ansluta ino
 
 * [!DNL Adobe] säkerställer prestandatester baserade på branschstandarder som garanteras av Adobe Service Level Agreement.
 * Edge Network ger snabb leverans av data.
-* [!UICONTROL Adobe] har ett flernivåbaserat arbetssätt för att skydda sina applikationer och ger kunderna högsta möjliga tillgänglighet och tillförlitlighet.
+* [!UICONTROL Adobe] har ett flernivåbaserat arbetssätt för att skydda sina applikationer, vilket ger högsta möjliga tillgänglighet och tillförlitlighet för kunderna.
 * [!DNL Target] Konsulttjänster ger implementeringshjälp och fortlöpande produktsupport.
 
 ## SEO-testning (Search Engine Optimization) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
@@ -164,27 +164,27 @@ Mer information finns i följande Google-resurser:
 
 Riktlinjer presenterades i en [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) publicera. Även om posten är från 2012 är den fortfarande Google senaste uttalande om ärendet och riktlinjerna är fortfarande relevanta.
 
-* **Ingen insvepning**: Insvepning visar en uppsättning innehåll för användarna och en annan uppsättning innehåll för sökmotorrobotar. Insvepning åstadkoms genom att man specifikt identifierar botar och målmedvetet matar in olika innehåll.
+* **Ingen insvepning**: Insvepning visar en uppsättning innehåll för dina användare och en annan uppsättning innehåll för sökmotorbotar. Insvepning åstadkoms genom att man specifikt identifierar botar och målmedvetet matar in olika innehåll.
 
-   [!DNL Target], som en plattform, har konfigurerats för att behandla sökmotorobjekt på samma sätt som andra användare. Detta innebär att botar kan inkluderas i aktiviteter om de väljs slumpmässigt och&quot;se&quot; testvariationerna.
+  [!DNL Target], som en plattform, har konfigurerats för att behandla sökmotorobjekt på samma sätt som andra användare. Detta innebär att botar kan inkluderas i aktiviteter om de väljs slumpmässigt och&quot;se&quot; testvariationerna.
 
 * **Använd rel=&quot;canonical&quot;**: Ibland måste ett A/B-test konfigureras med olika URL:er för variationerna. I dessa fall bör alla variationer innehålla en `rel="canonical"` -tagg som refererar till den ursprungliga (kontroll) URL-adressen. Anta till exempel att [!DNL Adobe] testar sin hemsida med olika URL:er för varje variation. Följande kanoniska tagg för hemsidan finns i `<head>` tagg för varje variant:
 
-   `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **Använd 302 (tillfälliga) omdirigeringar**: I de fall där separata URL:er används för variationssidorna i ett test rekommenderar Google att man använder en 302-omdirigering för att dirigera trafik till testvariationerna. Omdirigeringen 302 meddelar sökmotorerna att omdirigeringen är tillfällig och endast är aktiv så länge som testet körs.
+* **Använd 302 (tillfälliga) omdirigeringar**: I de fall där separata URL:er används för variationssidorna i ett test rekommenderar Google att man använder en 302-omdirigering för att dirigera trafik till testvarianterna. Omdirigeringen 302 meddelar sökmotorerna att omdirigeringen är tillfällig och endast är aktiv så länge som testet körs.
 
-   En 302-omdirigering är en omdirigering på serversidan, och [!DNL Target], tillsammans med de flesta optimeringsleverantörer, använder funktioner på klientsidan. Därför är omdirigering ett område där [!DNL Target] följer inte Google rekommendationer fullt ut. Detta tillvägagångssätt påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester genom [!DNL Target] anropar ändring av innehåll inom en enda URL, så ingen omdirigering behövs. Det finns tillfällen när klienter måste använda flera URL:er för att representera testvariationerna. I dessa fall [!DNL Target] använder JavaScript `window.location` -kommando. Det här kommandot instruerar användare att testa variationer, vilket inte uttryckligen anger om omdirigeringen är 301 eller 302.
+  En 302-omdirigering är en omdirigering på serversidan, och [!DNL Target], tillsammans med de flesta optimeringsleverantörer, använder funktioner på klientsidan. Därför är omdirigering ett område där [!DNL Target] följer inte Google rekommendationer fullt ut. Detta tillvägagångssätt påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester genom [!DNL Target] anropar ändring av innehåll inom en enda URL, så ingen omdirigering behövs. Det finns tillfällen när klienterna måste använda flera URL:er för att representera testvariationerna. I dessa fall [!DNL Target] använder JavaScript `window.location` -kommando. Det här kommandot instruerar användare att testa variationer, vilket inte uttryckligen anger om omdirigeringen är 301 eller 302.
 
-   [!DNL Adobe] fortsätter att leta efter användbara lösningar som helt överensstämmer med riktlinjerna för sökmotorer. För de klienter som måste använda separata URL:er för testning, [!DNL Adobe] Vi är övertygade om att en korrekt implementering av de kanoniska taggarna minskar riskerna med detta tillvägagångssätt.
+  [!DNL Adobe] fortsätter att leta efter användbara lösningar som helt överensstämmer med riktlinjerna för sökmotorer. För de klienter som måste använda separata URL:er för testning, [!DNL Adobe] Vi är övertygade om att en korrekt implementering av de kanoniska taggarna minskar riskerna med detta tillvägagångssätt.
 
 * **Kör bara experimenten så länge det behövs**: [!DNL Adobe] anser att &quot;så länge det behövs&quot; är så lång som det behövs för att uppnå statistisk signifikans. [!DNL Target] innehåller bästa praxis och [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för att avgöra när testet har nått denna punkt. [!DNL Adobe] rekommenderar att du inkluderar den hårdkodade implementeringen av vinnande tester i testarbetsflödet och tilldelar lämpliga resurser.
 
-   Använda [!DNL Target] att&quot;publicera&quot; vinnande tester rekommenderas inte som en permanent lösning. Om det vinnande testet publiceras för 100 % av användarna 100 % av tiden kan det här tillvägagångssättet användas medan processen med att hårdkoda det vinnande testet slutförs.
+  Använda [!DNL Target] att&quot;publicera&quot; vinnande tester rekommenderas inte som en permanent lösning. Om det vinnande testet publiceras för 100 % av användarna 100 % av tiden kan det här tillvägagångssättet användas medan processen med att hårdkoda det vinnande testet slutförs.
 
-   Det är också viktigt att tänka på vad ditt test har ändrats. Om du bara uppdaterar färgen på knappar eller andra mindre objekt som inte är textbaserade på sidan påverkas inte den organiska rankningen. Ändringar av text bör dock vara hårdkodade.
+  Det är också viktigt att tänka på vad ditt test har ändrats. Om du bara uppdaterar färgen på knappar eller andra mindre objekt som inte är textbaserade på sidan påverkas inte den organiska rankningen. Ändringar av text bör dock vara hårdkodade.
 
-   Det är också viktigt att tänka på tillgängligheten för sidan som du testar. Om sidan inte är tillgänglig för sökmotorer och inte har utformats för att rangordnas i organiska sökningar, gäller inget av ovanstående. Ett exempel är en dedikerad landningssida för en e-postkampanj.
+  Det är också viktigt att tänka på tillgängligheten för sidan som du testar. Om sidan inte är tillgänglig för sökmotorer och inte har utformats för att rangordnas i organiska sökningar, gäller inget av ovanstående. Ett exempel är en dedikerad landningssida för en e-postkampanj.
 
 Google uppger att om du följer dessa riktlinjer&quot;bör testerna få liten eller ingen effekt på webbplatsen i sökresultaten&quot;.
 
@@ -210,7 +210,7 @@ Särskilt för känd robottrafik [!DNL Target] inte:
 
 * Skapa eller hämta en besökarprofil
 * Logga alla profilattribut eller kör profilskript
-* Slå upp [!DNL Adobe Audience Manager] (AAM) segment (om tillämpligt)
+* Slå upp [!DNL Adobe Audience Manager] AAM segment (om tillämpligt)
 * Använd robottrafik för att modellera och leverera personaliserat innehåll för [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization], eller [!UICONTROL Auto-Allocate] verksamhet
 * Logga ett aktivitetsbesök för rapportering
 * Loggdata som ska skickas till [!DNL Adobe Experience Cloud] plattform
@@ -219,6 +219,6 @@ För känd robottrafik vid användning [!UICONTROL Analytics for Target] (A4T), 
 
 * Skicka händelser till [!DNL Analytics]
 
-För känd robottrafik när du använder loggning på klientsidan, [!DNL Target] returnerar inte:
+För känd robottrafik vid användning av klientloggning, [!DNL Target] returnerar inte:
 
 * talnyttolast

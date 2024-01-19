@@ -4,9 +4,9 @@ description: Lär dig hur du skapar undantag i Adobe [!DNL Target] Recommendatio
 title: Hur använder jag undantag i Recommendations-aktiviteter?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Antal poster som rapporteras för varje undantag på [!UICONTROL Exclusions] listvyn är antalet produkter som matchar reglerna för undantaget inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
+   Antal poster som rapporteras för varje undantag på [!UICONTROL Exclusions] listvyn är antalet produkter som matchar reglerna för undantaget inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Exclusion]**.
 
@@ -57,13 +57,13 @@ Några exempel på hur du skulle kunna använda undantag är:
 
 Du kan också skapa undantag med [!UICONTROL Advanced Search] på [Katalogsökning](/help/main/c-recommendations/c-products/catalog-search.md#save-as) sida ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![Dialogrutan Spara som](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Spara som dialogruta](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel klicka på [!UICONTROL Save As] > [!UICONTROL Exclusion].
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] Funktionen är inte skiftlägeskänslig. men de produkter som returneras vid leveranstillfället bygger på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar undantag baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan gör ett undantag med avsikten att utesluta produkter som innehåller &quot;semester&quot;, exkluderas endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; är inte undantagna.
+>The [!UICONTROL Advanced Search] är skiftlägeskänsligt, men de produkter som returneras vid leveranstillfället baseras på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar undantag baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan gör ett undantag med avsikten att utesluta produkter som innehåller &quot;semester&quot;, exkluderas endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; är inte undantagna.
 
 ## Redigera, kopiera eller ta bort ett undantag
 

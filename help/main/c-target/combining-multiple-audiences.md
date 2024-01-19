@@ -1,23 +1,23 @@
 ---
 keywords: målgrupp;målgruppsregler;kombinera målgrupper;exkludering;exkludera;kombinera målgrupper;ad hoc-målgrupper;ad hoc-målgrupper
-description: Lär dig kombinera olika målgrupper (inklusive Adobe Experience Cloud-målgrupper och [!DNL Target] målgrupper) i farten för att skapa ad hoc-målgrupper.
+description: Lär dig kombinera olika målgrupper (inklusive Adobe Experience Cloud-målgrupper och [!DNL Target] målgrupper) snabbt och enkelt skapa ad hoc-målgrupper.
 title: Kan jag kombinera flera olika målgrupper för att skapa en ny målgrupp?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 # Kombinera flera målgrupper
 
-Kombinera olika målgrupper (inklusive [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform]och [!DNL Target] målgrupper) i farten för att skapa ad hoc-målgrupper. Du kan också skapa exkluderingsregler och exkludera målgrupper från en regel.
+Kombinera olika målgrupper (inklusive [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform]och [!DNL Target] målgrupper) snabbt och enkelt skapa ad hoc-målgrupper. Du kan också skapa exkluderingsregler och exkludera målgrupper från en regel.
 
 >[!NOTE]
 >
->The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller kombineras med befintliga målgrupper, vilket förklaras i detta avsnitt.
+>The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som det är eller kombineras med befintliga målgrupper, vilket förklaras i detta avsnitt.
 >
 >Mer information finns i [Använda målgrupper från Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -43,7 +43,7 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Target] under det
 
    ![Stegresultat](assets/combine_multiple_audiences1.png)
 
-1. Klicka **[!UICONTROL Combine Multiple Audiences]** i det övre högra hörnet.
+1. Klicka **[!UICONTROL Combine Multiple Audiences]** längst upp till höger.
 
    ![Stegresultat](assets/combine_multiple_audiences2.png)
 
@@ -61,7 +61,7 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Target] under det
 
       >[!NOTE]
       >
-      >Operatorn (AND eller OR) måste vara densamma som du kombinerar målgrupper. Du kan inte blanda och matcha operatorer.
+      >Operatorn (AND eller OR) måste vara densamma som du kombinerar målgrupper. Du kan inte blanda operatorer och matchningsoperatorer.
 
    1. Om du vill lägga till ett undantag för en regel klickar du på **[!UICONTROL Exclude]**.
 
@@ -69,7 +69,7 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Target] under det
 
       Dra och släpp en publik.
 
-      Om du till exempel vill utesluta besökare från USA från nya besökare kan du dra Market: Amerikansk publik i lådan.
+      Om du till exempel vill utesluta besökare från USA från nya besökare kan du dra Market: USA-målgruppen till rutan.
 
       Den här kombinerade publiken innehåller alla nya besökare på din webbplats (utom de som kommer från San Francisco) som använder Safari eller Firefox.
 
@@ -109,7 +109,7 @@ Du kan skapa en ad hoc-målgrupp för aktivitetens [!UICONTROL Goals & Settings]
 
 Du kan skapa en ad hoc-målgrupp samtidigt som du redigerar en befintlig aktivitet.
 
-1. Från [!UICONTROL Activities] hovra över önskad aktivitet och klicka sedan på **[!UICONTROL Edit]** ikon.
+1. Från [!UICONTROL Activities] hovra över önskad aktivitet och klicka sedan på **[!UICONTROL Edit]** -ikon.
 
    eller
 

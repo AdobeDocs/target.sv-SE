@@ -4,9 +4,9 @@ description: Lär dig använda [!DNL Adobe Experience Manager] [!UICONTROL Conte
 title: Hur jag använder [!DNL Adobe Experience Manager] AEM [!UICONTROL Content Fragments]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Mer information om AEM [!UICONTROL Content Fragments] och [!UICONTROL Experience
 
 ## Krav {#requirements}
 
-Du måste använda [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
+Du måste använda [[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
 
 Kontakt [Adobe Target kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att aktivera integreringen och ge dig autentiseringsinformation.
 
