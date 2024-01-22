@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1225'
 ht-degree: 3%
 
 ---
@@ -93,6 +93,7 @@ ht-degree: 3%
       + [Adobe Customer Journey Analytics som rapportkälla för Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Integrera Target med Adobe Journey Optimizer (AJO) {#ajo}
       + [Använd offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Integrera [!DNL Adobe Target Recommendations] och [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrera Target med Adobe Experience Manager (AEM) {#aem}
       + [Integrera Target med AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
