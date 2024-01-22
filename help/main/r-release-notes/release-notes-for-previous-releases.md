@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '37330'
+source-wordcount: '37522'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,24 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2023
+
+### [!DNL Target] Standard/Premium 23.11.1 (13 och 14 november 2023)
+
+Den här versionen är schemalagd för följande dagar:
+
+* **13 november**: Asien-Stillahavsregionen (APAC)
+* **14 november**: Amerika
+* **14 november**: Europa, Mellanöstern och Afrika (EMEA)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Förbättrade [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) funktioner som stöds [inte tillåter dubbla erbjudanden](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) för upplevelser i [!UICONTROL Automated Personalization] verksamhet. (TGT-46627)
+* Ett verktygstips har lagts till i [!DNL Target] Användargränssnitt som hjälper kunderna att förstå varför det kanske inte finns data tillgängliga i aktivitetsrapporter om ingen trafik tilldelas till kontrollupplevelsen. En länk till mer information finns i verktygstipset: [Varför finns det inga data tillgängliga för min aktivitetsrapport?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* Korrigerat ett problem som förhindrade aktiviteter från att visas korrekt på [!UICONTROL Activities] sida för några kunder. (TGT-46830)
+* Åtgärdade följande problem som påverkade aktiviteter som använder [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) som rapportkälla:
+   * Ett problem som gjorde att vissa kunder inte kunde visa rapporteringsdata har korrigerats. (TGT-46557)
+   * Korrigerade ett problem som ibland orsakade [!UICONTROL View in Analytics] länkar på aktivitetsrapporteringssidor för att inte fungera som de ska. (TGT-46731)
+   * Korrigerade ett problem som förhindrade data för [!UICONTROL Lift] och [!UICONTROL Confidence] för att visas korrekt i [!DNL Target] Gränssnitt. (TGT-46592, TGT-46554 och TGT-46586)
 
 ### [!UICONTROL Activities] uppdatering av sidanvändargränssnittet (25 oktober 2023)
 

@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Följande webbläsare kan ha följande mål:
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper. Information om inställningar för tillfällig lösning finns i [Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)](#deprecation) nedan.
 
 Det finns två sätt att rikta in sig på webbläsare:
 
@@ -126,3 +130,90 @@ Den här videon innehåller information om hur du använder målgruppskategorier
 * Definiera målgruppskategorier
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024) {#deprecation}
+
+[!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive användare som använder en viss webbläsare eller webbläsaralternativ när de besöker din sida.
+
+Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper.
+
+Om du har målgrupper som använder iPad eller iPhone med [!UICONTROL Browser] måste du ändra dessa inställningar före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
+
+Följande inställningar kan användas framåt:
+
+* **För webbläsarmatchningar[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* **För webbläsare matchar surfplattan**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+
+  ![mobil är surfplatta](/help/main/r-release-notes/assets/is-tablet.png)
+
+* **För webbläsare som matchar iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] med en And-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Tablet] är [!DNL true]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* **För webbläsare som matchar iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] med en And-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] är [!DNL true]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+Det finns många andra inställningar som kan användas, till exempel när villkoren negeras. Exempel på negerade förhållanden kan se ut så här:
+
+* **Webbläsaren matchar inte iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] med en Eller-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] är [!UICONTROL false]
+
+  ![Inte mobiltelefon](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* **Webbläsaren matchar inte iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] med en Eller-behållare med [!UICONTROL Mobile] > [!UICONTROL Is Tablet] är [!UICONTROL false].
+
+  ![Inte surfplatta](/help/main/r-release-notes/assets/tablet-false.png)
+
+Om du `user.browserType` i JavaScript-segment ska ändringarna omfatta följande:
+
+>[!NOTE]
+>
+>Följande tillägg planeras släppas den 24 januari 2024. Dessa tillägg gör följande ändringar möjliga:
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
+
+
+* **BrowserType är iPhone**:
+
+  Ersätt:
+
+  `user.browserType=="iphone"`
+
+  Med:
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isMobilePhone`
+
+* **BrowserType är inte iPhone**:
+
+  Ersätt:
+
+  `user.browserType!="iphone"`
+
+  Med:
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isMobilePhone`
+
+* **BrowserType är iPad**:
+
+  Ersätt:
+
+  `user.browserType=="ipad"`
+
+  Med:
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isTablet`
+
+* **BrowserType är inte iPad**:
+
+  Ersätt:
+
+  `user.browserType!="ipad"`
+
+  Med:
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isTablet`
