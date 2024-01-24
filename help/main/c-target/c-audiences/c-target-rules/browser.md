@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -17,22 +17,22 @@ Du kan rikta in dig på användare som använder en viss webbläsare eller särs
 
 Följande webbläsare kan ha följande mål:
 
-* Krom
-* Firefox
-* Safari
-* Internet Explorer
-* Microsoft Edge
-* Opera
-* iPad
-* iPhone
+* [!UICONTROL Chrome]
+* [!UICONTROL Firefox]
+* [!UICONTROL Safari]
+* [!UICONTROL Internet Explorer]
+* [!UICONTROL Microsoft Edge]
+* [!UICONTROL Opera]
+* [!DNL iPad]
+* [!DNL iPhone]
 
 >[!IMPORTANT]
 >
->Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper. Information om inställningar för tillfällig lösning finns i [Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)](#deprecation) nedan.
+>Från 30 april 2024, [!DNL iPad] och [!DNL iPhone] tas bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper. Information om inställningar för tillfällig lösning finns i [Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)](#deprecation) nedan.
 
 Det finns två sätt att rikta in sig på webbläsare:
 
-* **Fördefinierad målgrupp:** Använd den fördefinierade målgruppen om du bara vill rikta dig till besökare som använder en viss webbläsare för att besöka webbplatsen. Om du till exempel erbjuder ett Chrome-tillägg bör du bara rikta dig till Chrome-användare.
+* **Fördefinierad målgrupp:** Använd den fördefinierade målgruppen om du bara vill rikta dig till besökare som använder en viss webbläsare för att besöka webbplatsen. Om du till exempel erbjuder en [!DNL Chrome] tillägg, du bara aktiverar [!DNL Chrome] -användare.
 
    1. När du konfigurerar aktiviteten väljer du webbläsaren i listrutan.
 
@@ -57,7 +57,7 @@ Det finns två sätt att rikta in sig på webbläsare:
    1. (Valfritt) Ange ytterligare regler för målgruppen.
    1. Klicka på **[!UICONTROL Done]**.
 
-  I följande exempel visas en publik som inkluderar Microsoft Edge-användare i version 91 eller 92:
+  I följande exempel visas en publik som innehåller [!DNL Microsoft Edge] användare i version 91 eller 92:
 
   ![Målkant 91 eller 92](assets/target_edge.png)
 
@@ -71,8 +71,8 @@ Ange eller exkludera en viss webbläsare.
 
 Välj **[!UICONTROL Type]** väljer du antingen lika med eller inte lika med.
 
-* Lika med: Använd de valda webbläsarna som mål.
-* Är inte lika med: Exkludera de valda webbläsarna.
+* [!UICONTROL Equals]: Ange de valda webbläsarna som mål.
+* [!UICONTROL Does not equal]: Uteslut de valda webbläsarna.
 
 Välj en eller flera webbläsare. Flera alternativ är kopplade till en OR.
 
@@ -86,8 +86,8 @@ Att inkludera eller exkludera webbläsarspråk kan ge en mer exakt besökaranpas
 
 Välj **[!UICONTROL Language]** väljer du antingen lika med eller inte lika med.
 
-* Lika med: Ange de valda webbläsarspråken som mål.
-* Är inte lika med: Exkludera de valda webbläsarspråken.
+* [!UICONTROL Equals]: Ange de valda webbläsarspråken som mål.
+* [!UICONTROL Does not equal]: Uteslut de valda webbläsarspråken.
 
 Markera ett eller flera språk. Flera alternativ är kopplade till en OR.
 
@@ -107,16 +107,16 @@ Följande webbläsarspråk kan anges som mål eller utelämnas:
 
 Ange eller exkludera vissa webbläsarversioner.
 
-Om sidan inte visas som den ska i Internet Explorer version 11 eller tidigare kan du skapa en publik som inte innehåller dessa versioner. I så fall skapar du en regel där webbläsartypen är lika med Internet Explorer och lägger till en andra regel där versionen är mindre än eller lika med 11.
+Om sidan inte visas korrekt i [!DNL Internet Explorer] version 11 eller tidigare kan du skapa en målgrupp som utesluter dessa versioner. I så fall skapar du en regel där webbläsartypen är lika med [!DNL Internet Explorer] och lägger till en andra regel där versionen är mindre än eller lika med 11.
 
 Välj **[!UICONTROL Version]** väljer du sedan en operator:
 
-* Lika med
-* Är inte lika med
-* Är större än
+* [!UICONTROL Equals]
+* [!UICONTROL Does not equal]
+* [!UICONTROL Is greater than]
 * Är större än eller lika med
-* Är mindre än
-* Är mindre än eller lika med
+* [!UICONTROL Is less than]
+* [!UICONTROL Is less than or equal to]
 
 Skriv versionsnumret. Endast större versioner kan anges i textfältet. Den angivna versionen innehåller en delversion av den versionen. Om du till exempel anger version 10 inkluderas även besökare i version 10.1.
 
@@ -137,7 +137,9 @@ Den här videon innehåller information om hur du använder målgruppskategorier
 
 Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper.
 
-Om du har målgrupper som använder iPad eller iPhone med [!UICONTROL Browser] måste du ändra dessa inställningar före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
+Inbyggda målgrupper, t.ex.&quot;Webbläsare: iPad&quot; och&quot;Webbläsare: iPhone&quot;, flyttas automatiskt till den nya målgruppsdefinitionen. Alla profilskript som använder &quot;user.browserType&quot; kommer att *not* uppdateras automatiskt: om du inte uppdaterar dem manuellt kanske användarkvalificeringen inte inträffar som förväntat.
+
+Om du har målgrupper som använder iPad eller iPhone med [!UICONTROL Browser] bör du ändra dessa inställningar före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
 
 ### Målgrupper skapade med [!DNL Target] UI
 
@@ -171,17 +173,17 @@ Det finns många andra inställningar som kan användas, till exempel när villk
 
 ### Målgrupper skapade med profilskript
 
-Om du `user.browserType` i JavaScript-segment enligt [Profil och variabel ordlista](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)bör ändringarna omfatta följande:
+Om du `user.browserType` i målgrupper som använder profilskript, vilket förklaras i [Profil och variabel ordlista](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)bör ändringarna omfatta följande:
 
 >[!NOTE]
 >
 >Följande profiler kommer att släppas de närmaste dagarna från och med den 24 januari 2024. The [aktuell versionsinformation](/help/main/r-release-notes/release-notes.md) uppdateras när de här profilerna är tillgängliga.
-
-Dessa profiler gör följande ändringar möjliga:
->>
-* `profile.mobile.isTablet`
->>
-* `profile.mobile.isMobilePhone`
+>
+>Dessa profiler gör följande ändringar möjliga:
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
 
 * **BrowserType är iPhone**:
 
