@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,8 @@ Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICON
 
 Om du har målgrupper som använder iPad eller iPhone med [!UICONTROL Browser] måste du ändra dessa inställningar före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
 
+### Målgrupper skapade med [!DNL Target] UI
+
 Följande inställningar kan användas framåt:
 
 * **För webbläsarmatchningar[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
@@ -167,16 +169,19 @@ Det finns många andra inställningar som kan användas, till exempel när villk
 
   ![Inte surfplatta](/help/main/r-release-notes/assets/tablet-false.png)
 
-Om du `user.browserType` i JavaScript-segment ska ändringarna omfatta följande:
+### Målgrupper skapade med profilskript
+
+Om du `user.browserType` i JavaScript-segment enligt [Profil och variabel ordlista](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)bör ändringarna omfatta följande:
 
 >[!NOTE]
 >
->Följande tillägg planeras släppas den 24 januari 2024. Dessa tillägg gör följande ändringar möjliga:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>Följande profiler kommer att släppas de närmaste dagarna från och med den 24 januari 2024. The [aktuell versionsinformation](/help/main/r-release-notes/release-notes.md) uppdateras när de här profilerna är tillgängliga.
 
+Dessa profiler gör följande ändringar möjliga:
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType är iPhone**:
 
