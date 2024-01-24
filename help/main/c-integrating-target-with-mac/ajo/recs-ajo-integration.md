@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: f0e8ec873b2cc7bb6bb03aa99d5e5e96beac3b56
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,22 @@ Använd [!DNL Target Recommendations] och [!DNL Adobe Journey Optimizer] -integr
 
 Nedan följer några exempel på hur du kan integrera [!DNL Target Recommendations] med [!DNL Adobe Journey Optimizer]:
 
-* **[!DNL A Journey Optimizer]skickar ett personaliserat e-postmeddelande när kundvagnen har övergetts**: Det här användningsexemplet bygger på att en kund besöker en webbplats, placerar artiklar i kundvagnen och sedan lämnar webbplatsen utan att slutföra köpprocessen.
+* **[!DNL Adobe Journey Optimizer]skickar ett personaliserat e-postmeddelande när kundvagnen har övergetts**: Det här användningsexemplet bygger på att en kund besöker en webbplats, placerar artiklar i kundvagnen och sedan lämnar webbplatsen utan att slutföra köpprocessen.
 
   Anta till exempel att en besökare besöker ett klädföretags webbplats och placerar två vinterkattor och en tröja i kundvagnen. Besökaren distraheras sedan och lämnar webbplatsen eller är osäker på köpet och stänger webbläsaren eller appen.
 
-  Efter en viss tid, kanske några timmar eller dag, kan en anpassad åtgärd som [!DNL Adobe Journey Optimizer] ringer till [!DNL Target Recommendations] för att bestämma innehållet i den övergivna kundvagnen med hjälp av en [kundvagnsbaserade rekommendationer](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritm. [!DNL Adobe Journey Optimizer] skickar sedan ett personligt mejl till besökaren som en påminnelse om att köpprocessen inte har slutförts, tillsammans med bilder och länkar till de övergivna objekten.
+  Efter en viss period, kanske några timmar eller dag, kan en anpassad åtgärd i [!DNL Adobe Journey Optimizer] ringer till [!DNL Target Recommendations] för att bestämma innehållet i den övergivna kundvagnen med hjälp av en [kundvagnsbaserade rekommendationer](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritm. [!DNL Adobe Journey Optimizer] skickar sedan ett personligt mejl till besökaren som en påminnelse om att köpprocessen inte har slutförts, tillsammans med bilder och länkar till de övergivna objekten.
 
 * **[!DNL Adobe Journey Optimizer]skickar ett e-postmeddelande efter besöket för att påminna besökaren om vilka objekt som visades**: Det här användningsexemplet bygger på att en besökare besöker en webbplats, visar olika artiklar och sedan lämnar webbplatsen utan att placera artiklar i kundvagnen.
 
-  Efter en angiven tidsperiod utförs en anpassad åtgärd i [!DNL Adobe Journey Optimizer] ringer till [!DNL Target Recommendations] för att avgöra vilka objekt besökaren visade med hjälp av besökarens [!DNL Adobe Experience Cloud Identifier] (EDID), besökarens [!DNL Target] och en [användarbaserad](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritm. [!DNL Adobe Journey Optimizer] skickar sedan besökaren ett personligt e-postmeddelande med bilder och länkar till de visade objekten så att besökaren kan gå tillbaka till webbplatsen och göra ett köp.
+  Efter en angiven punkt utförs en anpassad åtgärd i [!DNL Adobe Journey Optimizer] ringer till [!DNL Target Recommendations] för att avgöra vilka objekt besökaren visade med hjälp av besökarens [!DNL Adobe Experience Cloud Identifier] (EDID), besökarens [!DNL Target] och en [användarbaserad](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritm. [!DNL Adobe Journey Optimizer] skickar sedan besökaren ett personligt e-postmeddelande med bilder och länkar till de visade objekten så att besökaren kan gå tillbaka till webbplatsen och göra ett köp.
 
   I det här scenariot är [!UICONTROL Experience Cloud Visitor ID] (ECID) och innehållet i användarens [!DNL Target] profil används för att generera rekommendationen baserat på algoritmen som visades nyligen.
 
-  Anta till exempel att en besökare besöker en återförsäljarwebbplats och ser flera bevakningar. Den här besökarens [!DNL Target] profilen uppdateras med en lista över de olika rutor som visades. Använda ECID och besökarens [!DNL Target] profil, [!DNL Target] skickar rekommendationen till [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] skickar sedan ett e-postmeddelande med bilder och länkar till de bevakningar som besökaren visade med algoritmen som visades nyligen.
+  Anta till exempel att en besökare besöker en återförsäljarwebbplats och ser flera bevakningar. Den här besökarens [!DNL Target] profilen uppdateras med en lista över de visade bevakningarna. Använda ECID och besökarens [!DNL Target] profil, [!DNL Target] skickar rekommendationen till [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] skickar sedan ett e-postmeddelande med bilder och länkar till de bevakningar som besökaren visade med algoritmen som visades nyligen.
 
-* **[!DNL Adobe Journey Optimizer]skickar ett e-postmeddelande efter webbplatsbesök för att föreslå populära objekt**: Det här användningsexemplet bygger på att en besökare besöker en webbplats, men inte visar några särskilda objekt.
+* **[!DNL Adobe Journey Optimizer]skickar ett e-postmeddelande efter webbplatsbesök för att föreslå populära objekt**: Det här användningsexemplet bygger på att en besökare besöker en webbplats, men inte visar några särskilda objekt. Till skillnad från tidigare användningsfall skickas e-postmeddelandet i bulk till alla som är kvalificerade för en viss målgrupp, till exempel.
 
-  Anta t.ex. att besökaren inte visar några särskilda bevakningar. Besökaren kanske bara klickade på webbplatsen och visade kategorisidor eller blogginlägg. Resultatet blev att [!DNL Target] profilen saknar specifik information om nyligen visade objekt. I denna situation [!DNL Target Recommendations] kan använda [rekommendation för säkerhetskopiering](/help/main/c-recommendations/c-algorithms/backup-recs.md) så att [!DNL Adobe Journey Optimizer] kan skicka ett e-postmeddelande med bilder och länkar till populära objekt på webbplatsen för att få besökaren att återvända till webbplatsen och göra ett köp.
+  Anta att besökaren inte visar några särskilda bevakningar. Kanske klickade besökaren bara runt webbplatsen och visade kategorisidor eller blogginlägg. Resultatet blev att [!DNL Target] profilen saknar specifik information om nyligen visade objekt. I denna situation [!DNL Target Recommendations] kan använda [rekommendation för säkerhetskopiering](/help/main/c-recommendations/c-algorithms/backup-recs.md) så att [!DNL Adobe Journey Optimizer] kan skicka ett e-postmeddelande med bilder och länkar till populära objekt på webbplatsen för att få besökaren att återvända till webbplatsen och eventuellt göra ett köp.
 
 
