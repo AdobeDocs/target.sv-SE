@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | --- | --- | --- |
 | 24 januari | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Versionsinformation för at.js version 2.11.4 har lagts till. |
 |  | [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | De två nya profilerna är ännu inte tillgängliga. Anteckningarna uppdateras när profilerna är tillgängliga. |
+|  | [at.js Frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Tillagda frågor och svar om at.js i en Ionic App-miljö. Implementeringen har inte testats eller rekommenderas inte. |
 | 22 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Viktig information om borttagningen av iPad och iPhone från [!UICONTROL Browser] målgruppsattribut som kräver ändringar från din sida före 30 april 2024. |
 |  | [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Nytt avsnitt har lagts till: <ul><li>Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)</li></ul> |
 |  | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 24.1.1-utgåvan. |
