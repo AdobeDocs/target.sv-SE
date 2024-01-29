@@ -4,9 +4,9 @@ description: Visa en lista med olika profiler, variabler och parametrar som är 
 title: Vilka profiler, variabler och parametrar som används i [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
+source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | profile.browserTime | Besökarens lokala webbläsartid. Skapa ett nytt datumobjekt i profilskriptet för systemtid |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | Besökarenheten är en surfplatta.<P>Den här profilen ersätter det tidigare [Webbläsaren är iPad målgrupp](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
-| profile.mobile.isMobilePhone | Besökarenheten är en mobiltelefon.<P>Den här profilen ersätter det tidigare [Webbläsaren är iPhone målgrupp](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isTablet | Besökarenheten är en surfplatta.<P>**ANMÄRKNING**: Den här profilen ersätter den inaktuella äldre webbläsaren med målgruppskategorin iPad. Se [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) för mer information. |
+| profile.mobile.isMobilePhone | Besökarenheten är en mobiltelefon.<P>**ANMÄRKNING**: Den här profilen ersätter den inaktuella äldre webbläsaren med målgruppskategorin iPhone. Se [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) för mer information. |
 | parameter= | Allmän term för ytterligare värden som skickas med en mbox, vanligtvis som namn/värde-par. Inte beständig såvida den inte har gjorts med `profile.parameter` eller `user.parameter`. |
 
 ## URL-variabler {#section_8F25958273164EBAA6DC659302993FD3}
