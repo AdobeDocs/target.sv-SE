@@ -4,7 +4,7 @@ description: Visa en lista med olika profiler, variabler och parametrar som är 
 title: Vilka profiler, variabler och parametrar som används i [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
+source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -48,8 +48,8 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | profile.browserTime | Besökarens lokala webbläsartid. Skapa ett nytt datumobjekt i profilskriptet för systemtid |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | Besökarenheten är en surfplatta.<P>**ANMÄRKNING**: Den här profilen ersätter den inaktuella äldre webbläsaren med målgruppskategorin iPad. Se [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) för mer information. |
-| profile.mobile.isMobilePhone | Besökarenheten är en mobiltelefon.<P>**ANMÄRKNING**: Den här profilen ersätter den inaktuella äldre webbläsaren med målgruppskategorin iPhone. Se [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) för mer information. |
+| profile.mobile.isTablet | Besökarenheten är en surfplatta.<P>**ANMÄRKNING**: Den här profilen ersätter den inaktuella äldre webbläsaren med målgruppskategorin iPad. Se [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) för mer information. |
+| profile.mobile.isMobilePhone | Besökarenheten är en mobiltelefon.<P>**ANMÄRKNING**: Den här profilen ersätter den inaktuella äldre webbläsaren med målgruppskategorin iPhone. Se [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) för mer information. |
 | parameter= | Allmän term för ytterligare värden som skickas med en mbox, vanligtvis som namn/värde-par. Inte beständig såvida den inte har gjorts med `profile.parameter` eller `user.parameter`. |
 
 ## URL-variabler {#section_8F25958273164EBAA6DC659302993FD3}
