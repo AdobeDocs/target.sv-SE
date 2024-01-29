@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
@@ -135,13 +135,13 @@ Den här videon innehåller information om hur du använder målgruppskategorier
 
 [!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive användare som använder en viss webbläsare eller webbläsaralternativ när de besöker din sida.
 
-Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper.
+Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type i [!DNL Target] Gränssnitt när du skapar kategorier för målgrupper.
 
-Inbyggda målgrupper, t.ex.&quot;Webbläsare: iPad&quot; och&quot;Webbläsare: iPhone&quot;, flyttas automatiskt till den nya målgruppsdefinitionen. Alla profilskript som använder &quot;user.browserType&quot; kommer att *not* uppdateras automatiskt: om du inte uppdaterar dem manuellt kanske användarkvalificeringen inte inträffar som förväntat.
+Inbyggda målgrupper skapade med [!DNL Target] Gränssnittet, t.ex. &quot;Webbläsare: iPad&quot; och &quot;Webbläsare: iPhone&quot;, flyttas automatiskt till den nya målgruppsdefinitionen. Om du fortsätter bör du dock använda inställningarna [beskrivs nedan](#ui).
 
-Om du har målgrupper som använder iPad eller iPhone med [!UICONTROL Browser] bör du ändra dessa inställningar före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
+Om du `user.browserType` i alla profilskript för att kontrollera om det är en iPhone eller iPad (till exempel `user.browserType == 'iphone'` eller `user.browserType != 'ipad'`) ska dessa profilskript ändras som [instrueras nedan](#profile-scripts) före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
 
-### Målgrupper skapade med [!DNL Target] UI
+### Målgrupper skapade med [!DNL Target] UI {#ui}
 
 Följande inställningar kan användas framåt:
 
@@ -171,7 +171,7 @@ Det finns många andra inställningar som kan användas, till exempel när villk
 
   ![Inte surfplatta](/help/main/r-release-notes/assets/tablet-false.png)
 
-### Målgrupper skapade med profilskript
+### Målgrupper skapade med profilskript {#profile-scripts}
 
 Om du `user.browserType` i målgrupper som använder profilskript, vilket förklaras i [Profil och variabel ordlista](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)bör ändringarna omfatta följande:
 
