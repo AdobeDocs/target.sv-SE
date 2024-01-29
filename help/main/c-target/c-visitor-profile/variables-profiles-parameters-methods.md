@@ -4,9 +4,9 @@ description: Visa en lista med olika profiler, variabler och parametrar som är 
 title: Vilka profiler, variabler och parametrar som används i [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | profile.browserTime | Besökarens lokala webbläsartid. Skapa ett nytt datumobjekt i profilskriptet för systemtid |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
+| profile.mobile.isTablet | Besökarenheten är en surfplatta.<P>Den här profilen ersätter det tidigare [Webbläsaren är iPad målgrupp](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isMobilePhone | Besökarenheten är en mobiltelefon.<P>Den här profilen ersätter det tidigare [Webbläsaren är iPhone målgrupp](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
 | parameter= | Allmän term för ytterligare värden som skickas med en mbox, vanligtvis som namn/värde-par. Inte beständig såvida den inte har gjorts med `profile.parameter` eller `user.parameter`. |
 
 ## URL-variabler {#section_8F25958273164EBAA6DC659302993FD3}
