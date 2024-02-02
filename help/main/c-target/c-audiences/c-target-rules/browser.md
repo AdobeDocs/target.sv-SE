@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,8 @@ Inbyggda målgrupper skapade med [!DNL Target] Gränssnittet, t.ex. &quot;Webbl�
 
 Om du `user.browserType` i alla profilskript för att kontrollera om det är en iPhone eller iPad (till exempel `user.browserType == 'iphone'` eller `user.browserType != 'ipad'`) ska dessa profilskript ändras som [instrueras nedan](#profile-scripts) före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
 
+JavaScript-målgrupper som använder profilskript är äldre målgrupper som har tagits bort med [!DNL Target Classic] Gränssnitt. Dessa målgrupper kan endast ändras via API. Kunderna måste uppdatera dessa målgrupper endast om de använder äldre målgrupper i aktiviteter i de nya [!DNL Target Standard/Premium] Gränssnitt.
+
 ### Målgrupper skapade med [!DNL Target] UI {#ui}
 
 Följande inställningar kan användas framåt:
@@ -173,11 +175,11 @@ Det finns många andra inställningar som kan användas, till exempel när villk
 
 ### Målgrupper skapade med profilskript {#profile-scripts}
 
-Om du `user.browserType` i målgrupper som använder profilskript, vilket förklaras i [Profil och variabel ordlista](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)bör ändringarna omfatta följande:
+Om du `user.browserType` i äldre [!DNL Target Classic] målgrupper som använder profilskript, vilket förklaras i [Profil och variabel ordlista](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)bör ändringarna omfatta följande:
 
 >[!NOTE]
 >
->Följande profiler kommer att släppas de närmaste dagarna från och med den 24 januari 2024. The [aktuell versionsinformation](/help/main/r-release-notes/release-notes.md) uppdateras när de här profilerna är tillgängliga.
+>Följande profiler kommer att släppas under de kommande veckorna från och med den 24 januari 2024. The [aktuell versionsinformation](/help/main/r-release-notes/release-notes.md) uppdateras när de här profilerna är tillgängliga.
 >
 >Dessa profiler gör följande ändringar möjliga:
 >
