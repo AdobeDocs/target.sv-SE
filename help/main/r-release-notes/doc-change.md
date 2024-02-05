@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | --- | --- | --- |
 | 5 februari | [Skapa en aktivitet som använder Analytics som rapportkälla](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Text som anger att du inte kan använda samma aktivitetsnamn för två aktiviteter från separata arbetsytor när du använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. |
 |  | [Aktivitetsinställningar - vanliga A4T-frågor](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Text som anger att du inte kan använda samma aktivitetsnamn för två aktiviteter från separata arbetsytor när du använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. |
+|  | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om Adobe Target Community Coffee Break som beräknas släppas den 7 februari 2024. |
 | 24 januari | [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Versionsinformation för at.js version 2.11.4 har lagts till. |
 |  | [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | De två nya profilerna är ännu inte tillgängliga. Anteckningarna uppdateras när profilerna är tillgängliga. |
 |  | [at.js Frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Tillagda frågor och svar om at.js i en Ionic App-miljö. Implementeringen har inte testats eller rekommenderas inte. |

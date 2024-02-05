@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,26 @@ ht-degree: 0%
 
 Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
-## Adobe Target 2024 Personalization Maturity Webinar Series
+## Adobe Target Community Q&amp;A Coffee Break
+
+* **Konst i eventuella uppföljningsfrågor för webbinariet (del 1 i Personalization Maturity Series)**
+* **onsdagen den 7 februari 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registreringsinformation](https://shorturl.at/gknVY){target=_blank}**
+
++++Information
+
+Hörn [!DNL Adobe Target] experterna Brent Kostak, Ryan Roberts och Drew Burns svarar i realtid på kundernas frågor om innehåll som behandlas under [Del 1 i [!DNL Adobe Target] Webinar Series on the &quot;Art of the Possible](#maturity-series),&quot; där våra experter behandlade följande frågor:
+
+* Hur [!DNL Target] kapacitet spelar en strategisk roll när det gäller att utföra personalisering i stor skala
+* De vanligaste fallen som kunderna konfigurerar AI-funktioner för att uppnå i stor skala
+* Hur du styr maskininlärningen för att aktivera AI-baserad personalisering efter dina specifika mål
+
+Om du missade det ursprungliga webbinariet [lyssna på inspelningen](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+
++++
+
+## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
 Denna live-webbinariserie sätter fokus på nyckeln [!DNL Adobe Target] funktioner, användningsexempel och tips för att låsa upp AI-driven personalisering när kunderna utökar sina experiment- och personaliseringsresor med [!DNL Adobe Experience Platform].
 
@@ -34,6 +53,8 @@ Varför ska du vara med?
    * **10.00 - 11.00 (PST -8 GMT)**
 
      En viktig del av mognaden är artificiell intelligens och maskininlärning. [!DNL Adobe Target] utnyttjar dessa tekniker för att förstå användarbeteende, förutse preferenser och dynamiskt skräddarsy innehåll. Genom att utnyttja kraften i AI och ML kan ni lära er hur varumärken går bortom statiska A/B-tester och regelbaserad personalisering för att leverera dynamiska, sammanhangsberoende upplevelser.
+
+     [Lyssna på inspelningen.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Högpresterande Recommendations**
    * **Tisdagen den 13 februari 2024**
