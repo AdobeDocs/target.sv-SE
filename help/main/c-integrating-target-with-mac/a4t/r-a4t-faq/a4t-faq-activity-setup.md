@@ -4,9 +4,9 @@ description: Hitta svar på frågor om aktivitetskonfiguration när du använder
 title: Var hittar jag frågor och svar om aktivitetsinställningar med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,19 @@ ht-degree: 0%
 
 Det här avsnittet innehåller svar på frågor som ofta ställs om aktivitetsinställningar och användning [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T).
 
-## Vilka aktivitetstyper stöder Analytics som rapportkälla (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## Vilka aktivitetstyper som stöds [!DNL Analytics] som rapportkälla (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++Svar En fullständig lista finns i&quot;Aktivitetstyper som stöds&quot; i [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## Kan jag använda samma aktivitetsnamn för två aktiviteter från separata arbetsytor när jag använder A4T-rapportering?
+
++++Svar
+
+Använd inte samma aktivitetsnamn för två aktiviteter från separata [arbetsytor](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) som använder A4T-rapportering.
+
+Detta stöds även om du använder [!DNL Target] som rapportkälla, stöds inte användning av samma aktivitetsnamn för två aktiviteter när du använder [!UICONTROL Analytics for Target] som rapportkälla.
 
 +++
 

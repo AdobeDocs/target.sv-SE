@@ -1,12 +1,12 @@
 ---
 keywords: a4t;A4T;Analyser som rapportkälla för Target
-description: Lär dig konfigurera en aktivitet i Adobe [!DNL Target] som använder Adobe Analytics som rapportkälla (A4T).
+description: Lär dig hur du konfigurerar en aktivitet i Adobe [!DNL Target] som använder Adobe Analytics som rapportkälla (A4T).
 title: Hur skapar jag en aktivitet som använder A4T?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] eftersom rapport
    >[!NOTE]
    >
    >Ett aktivitetsnamn får inte innehålla tecknet % om [!DNL Analytics] används som rapportkälla.
+   >
+   >Använd inte samma aktivitetsnamn för två aktiviteter från separata [arbetsytor](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) som använder A4T-rapportering.
 
 1. Välj aktivitetstyp och börja konfigurera aktiviteten.
 
@@ -40,12 +42,13 @@ Skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] eftersom rapport
 
    * Du får ett fel om att det inte finns några rapportsviter tillgängliga, men att ditt konto är korrekt konfigurerat.
 
-      Kontrollera [!DNL Analytics] företag. Om [!DNL Adobe Experience Cloud] kontot är knutet till mer än ett [!DNL Analytics] företag, logga ut från [!DNL Target]och logga in på [!DNL Analytics] under rätt företag. Återgå sedan till [!DNL Target]och rapportsviterna läses in.
+     Kontrollera [!DNL Analytics] företag. Om [!DNL Adobe Experience Cloud] kontot är knutet till mer än ett [!DNL Analytics] företag, logga ut från [!DNL Target]och logga in på [!DNL Analytics] under rätt företag. Återgå sedan till [!DNL Target]och rapportsviterna läses in.
 
    * Du ser inte den rapportserie som du förväntar dig.
 
-      Rapportera endast programsviter som har etablerats för att ansluta till [!DNL Target] är tillgängliga för markering. Om du inte ser de rapportsviter du förväntar dig kan du först logga ut och sedan logga in på [!DNL Adobe Experience Cloud] för att försöka igen.
-   Om en eller flera rapportsviter fortfarande saknas i listan kan du [kontakta kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+     Rapportera endast programsviter som har etablerats för att ansluta till [!DNL Target] kan väljas. Om du inte ser de rapportsviter du förväntar dig kan du först logga ut och sedan logga in på [!DNL Adobe Experience Cloud] för att försöka igen.
+
+   Om en eller flera rapportsviter fortfarande saknas i listan kan du [kontakta Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 1. Ange spårningsservern.
 
@@ -58,7 +61,7 @@ Skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] eftersom rapport
 
    >[!NOTE]
    >
-   >Du kan skicka ett anpassat målbaserat mått till [!DNL Analytics] i stället för att bara förlita dig på [!DNL Analytics] data. Du kan till exempel övervaka att klicka på en sida som vanligtvis inte spåras av [!DNL Analytics]. Det här anpassade måttet skickas till [!DNL Analytics] från [!DNL Target] och visas som[!DNL Target] Konvertering i metrisk väljare i [!DNL Analytics]. The [!DNL Target] Konverteringsmåttet är tomt om du väljer att använda [!DNL Analytics] mätvärden.
+   >Du kan skicka ett anpassat målbaserat mått till [!DNL Analytics] i stället för att bara förlita dig på [!DNL Analytics] data. Du kan till exempel övervaka att klicka på en sida som vanligtvis inte spåras av [!DNL Analytics]. Det här anpassade måttet skickas till [!DNL Analytics] automatiskt från [!DNL Target] och visas som[!DNL Target] Konvertering i metrisk väljare i [!DNL Analytics]. The [!DNL Target] Konverteringsmåttet är tomt om du väljer att använda [!DNL Analytics] mätvärden.
 
    Att du anger ett mål innebär inte att du inte kan använda ett annat mått när du utvärderar testresultat. Målet är dock en påminnelse om det som du vill förbättra med aktiviteten.
 
@@ -66,7 +69,7 @@ Skapa en [!DNL Target] aktivitet som använder [!DNL Analytics] eftersom rapport
 
    >[!NOTE]
    >
-   >När en aktivitet konfigureras efter konfiguration [!DNL Analytics] som rapportkälla finns det inget alternativ för att skapa målgrupper för rapportering. [!DNL Analytics] segment är tillgängliga i [!DNL Target] Verksamhetsrapport.
+   >När du konfigurerar en aktivitet efter konfiguration [!DNL Analytics] som rapportkälla finns det inget alternativ för att skapa målgrupper för rapportering. [!DNL Analytics] segment är tillgängliga i [!DNL Target] Verksamhetsrapport.
 
 1. Klicka på **[!UICONTROL Save]**.
 
