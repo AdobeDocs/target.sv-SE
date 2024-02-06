@@ -4,9 +4,9 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Inbyggda målgrupper skapade med [!DNL Target] Gränssnittet, t.ex. &quot;Webbl�
 
 Om du `user.browserType` i alla profilskript för att kontrollera om det är en iPhone eller iPad (till exempel `user.browserType == 'iphone'` eller `user.browserType != 'ipad'`) ska dessa profilskript ändras som [instrueras nedan](#profile-scripts) före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
 
-JavaScript-målgrupper som använder profilskript är äldre målgrupper som har tagits bort med [!DNL Target Classic] Gränssnitt. Dessa målgrupper kan endast ändras via API. Kunderna måste uppdatera dessa målgrupper endast om de använder äldre målgrupper i aktiviteter i de nya [!DNL Target Standard/Premium] Gränssnitt.
+JavaScript-målgrupper är äldre målgrupper som använder Target-uttryck som har tagits bort med [!DNL Target Classic] Gränssnitt. Dessa målgrupper kan endast ändras via API. Kunderna måste uppdatera dessa målgrupper endast om de fortsätter att använda äldre målgrupper i aktiviteter.
 
 ### Målgrupper skapade med [!DNL Target] UI {#ui}
 
@@ -175,7 +175,7 @@ Det finns många andra inställningar som kan användas, till exempel när villk
 
 ### Målgrupper skapade med profilskript {#profile-scripts}
 
-Om du `user.browserType` i äldre [!DNL Target Classic] målgrupper som använder profilskript, vilket förklaras i [Profil och variabel ordlista](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)bör ändringarna omfatta följande:
+Om du `user.browserType` i äldre [!DNL Target Classic] målgrupper eller i profilskript bör ändringarna omfatta följande:
 
 >[!NOTE]
 >

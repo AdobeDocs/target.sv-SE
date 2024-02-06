@@ -4,9 +4,9 @@ description: Visa en lista med olika profiler, variabler och parametrar som är 
 title: Vilka profiler, variabler och parametrar som används i [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | Användaragenten |
+| user.browserType | Returnerar webbläsartypen, till exempel safari, chrome o.s.v. |
 | user.header | Alla `user.header` profiler är inbyggda från mbox request header-data |
 | user.header(&#39;x-forward-for&#39;) | Den offentliga IP-adressen för den nätverksanslutning som besökaren är ansluten till.<br>Du kan till exempel få detta på flera sätt [whatismyip.com](https://www.whatismyip.com/). IP-adressen är inte NAT-adressen (intern adress), med början 10.192.168 eller 172.<br>Obs! user.header(&#39;x-Cluster-client-ip&#39;) har tagits bort. |
 | user.header(&#39;host&#39;) | Värdnamn för webbplats |
