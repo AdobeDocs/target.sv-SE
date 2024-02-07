@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
+source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Använd [!DNL Target Recommendations] och [!DNL Adobe Journey Optimizer] -integr
 
 ## Exempel på användningsområden
 
-Nedan följer några exempel på hur du kan integrera [!DNL Target Recommendations] med [!DNL Adobe Journey Optimizer]:
+Detta är bara några exempel på hur man kan integrera [!DNL Target Recommendations] med [!DNL Adobe Journey Optimizer]:
 
 * **[!DNL Adobe Journey Optimizer]skickar ett personaliserat e-postmeddelande när kundvagnen har övergetts**: Det här användningsexemplet bygger på att en kund besöker en webbplats, placerar artiklar i kundvagnen och sedan lämnar webbplatsen utan att slutföra köpprocessen.
 
