@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 8 februari | [Förhämtning](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Nytt avsnitt har lagts till:&quot;Förhämta rutor med clickTrack-statistik när Analytics for Target (A4T) används&quot; |
 | 5 februari | [Skapa en aktivitet som använder Analytics som rapportkälla](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Text som anger att du inte kan använda samma aktivitetsnamn för två aktiviteter från separata arbetsytor när du använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. |
 |  | [Aktivitetsinställningar - vanliga A4T-frågor](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Text som anger att du inte kan använda samma aktivitetsnamn för två aktiviteter från separata arbetsytor när du använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. |
 |  | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om Adobe Target Community Coffee Break som beräknas släppas den 7 februari 2024. |
