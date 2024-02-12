@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
+source-git-commit: ce74c85380333476b97f47fab4d2659a3c9c86e1
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,6 @@ Detta är bara några exempel på hur man kan integrera [!DNL Target Recommendat
 
 * **[!DNL Adobe Journey Optimizer]skickar ett e-postmeddelande till kvalificerade besökare efter webbplatsbesök för att föreslå populära objekt**: Det här användningsexemplet bygger på att en besökare besöker en webbplats, men inte visar några särskilda objekt. E-postmeddelandet skickas i bulk till alla som är berättigade för en viss målgrupp, till exempel:
 
-  Anta att besökaren inte visar några särskilda bevakningar. Kanske klickade besökaren bara runt webbplatsen och visade kategorisidor eller blogginlägg. Resultatet blev att [!DNL Target] profilen saknar specifik information om nyligen visade objekt. I denna situation [!DNL Target Recommendations] kan använda [rekommendation för säkerhetskopiering](/help/main/c-recommendations/c-algorithms/backup-recs.md) så att [!DNL Adobe Journey Optimizer] kan skicka ett e-postmeddelande med bilder och länkar till populära objekt på webbplatsen för att få besökaren att återvända och eventuellt göra ett köp.
+  Anta att besökaren inte visar några särskilda bevakningar. Kanske klickade besökaren bara runt webbplatsen och visade kategorisidor eller blogginlägg. Resultatet blev att [!DNL Target] profilen saknar specifik information om nyligen visade objekt. I denna situation [!DNL Target Recommendations] använder [rekommendation för säkerhetskopiering](/help/main/c-recommendations/c-algorithms/backup-recs.md) så att [!DNL Adobe Journey Optimizer] kan skicka ett e-postmeddelande med bilder och länkar till populära objekt på webbplatsen för att få besökaren att återvända och eventuellt göra ett köp.
 
 
