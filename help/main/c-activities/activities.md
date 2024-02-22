@@ -1,12 +1,12 @@
 ---
 keywords: aktivitetslista;aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;aktivitetsåtgärder;aktivitetsattribut;aktivitetslista filter;aktivitetsbegränsningar;anpassa;personalisering
-description: Läs om aktiviteter i Adobe [!DNL Target] gör att ni kan personalisera innehåll efter specifika målgrupper och testa siddesign.
+description: Lär dig mer om aktiviteter i [!DNL Target] gör att ni kan personalisera innehåll efter specifika målgrupper och testa siddesign.
 title: Hur kan jag personalisera innehåll och testa siddesign med [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
+source-git-commit: 38a3eb1f194a63620b8b4866a48a17903801fa46
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2284'
 ht-degree: 0%
 
 ---
