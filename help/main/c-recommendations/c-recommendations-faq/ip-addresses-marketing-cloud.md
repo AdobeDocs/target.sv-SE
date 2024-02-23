@@ -5,9 +5,9 @@ title: Vilka IP-adresser använder Recommendations-servrar för mathantering?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Lista över IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations
 
 >[!IMPORTANT]
 >
->23 februari 2023: [!DNL Target] teamet uppdaterar för närvarande NAT-gatewayadresserna för hämtning [!DNL Recommendations] feeds. Om du implementerar IP-tillåtelselistning måste du tillåtslista följande nya AWS-värdar. De befintliga värdarna kommer att avvecklas i framtiden. Alla nio värdar är nu i drift.
+>The [!DNL Target] teamet uppdaterar för närvarande NAT-gatewayadresserna för hämtning [!DNL Recommendations] feeds. Om du implementerar IP-tillåtelselistning måste du tillåtslista följande nya AWS-värdar. De befintliga värdarna planeras att avvecklas den 30 juni 2024. Om du vill ha en mjuk övergång tillåtslista du alla nio adresserna. Det är inte brådskande att ta bort de befintliga adresserna.
 
 [!DNL Target] [!UICONTROL Recommendations] Följande AWS-värdar används för att komma åt kundernas FTP-servrar:
 

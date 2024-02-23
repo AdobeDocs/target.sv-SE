@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 23 februari | [IP-adresser som används av [!DNL Recommendations] servrar för hantering av feeds](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Följande viktiga anteckning och nya IP-adresser som du bör tillåtslista har lagts till.<P>**Viktigt**: [!DNL Target] teamet uppdaterar för närvarande NAT-gatewayadresserna för hämtning [!DNL Recommendations] feeds. Om du implementerar IP-tillåtelselistning måste du tillåtslista följande nya AWS-värdar. De befintliga värdarna planeras att avvecklas den 30 juni 2024. Om du vill ha en mjuk övergång tillåtslista du alla nio adresserna. Det är inte brådskande att ta bort de befintliga adresserna. |
 | 8 februari | [Förhämtning](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Nytt avsnitt har lagts till:&quot;Förhämta rutor med clickTrack-statistik när Analytics for Target (A4T) används&quot; |
 | 5 februari | [Skapa en aktivitet som använder Analytics som rapportkälla](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Text som anger att du inte kan använda samma aktivitetsnamn för två aktiviteter från separata arbetsytor när du använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. |
 |  | [Aktivitetsinställningar - vanliga A4T-frågor](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Text som anger att du inte kan använda samma aktivitetsnamn för två aktiviteter från separata arbetsytor när du använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. |
