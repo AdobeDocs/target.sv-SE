@@ -4,9 +4,9 @@ description: Läs meddelanden och anmäl dig till Adobe [!DNL Target] event, ink
 title: Var kan jag hitta [!DNL Target] Meddelanden och händelseinformation?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
+source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
 workflow-type: tm+mt
-source-wordcount: '2345'
+source-wordcount: '2519'
 ht-degree: 0%
 
 ---
@@ -15,24 +15,26 @@ ht-degree: 0%
 
 Meddelanden och information om [!DNL Adobe Target] händelser, inklusive [!DNL Target] Sessioner med kaffebrytning [!DNL Target] webbinarier, [!DNL Target] Sessioner i SKompetensbyggaren, chatt för utvecklare med mera. Länkar till tidigare inspelningar inkluderas om sådana finns.
 
-<!--## Adobe Target Community Q&A Coffee Break
+## Adobe Target Community Q&amp;A Coffee Break
 
-* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
-* **Wednesday, February 7, 2024**
+* **Uppföljningsfrågor för Recommendations webbinarium med höga prestanda (del 2 i Maturity-serien för personalisering)**
+* **onsdagen den 28 februari 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
+* **[Registreringsinformation](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
-+++Details
++++Information
 
-Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
+Hörn [!DNL Adobe Target] experterna Cristinel Anastasoaie, Brent Kostak och Timothy Furlow (Recommendations-expert och Senior Manager of Personalization &amp; Optimization på Lenovo) ger svar i realtid på kundernas frågor om innehåll som behandlas under [Del 2 i [!DNL Adobe Target] Webinar Series on the &quot;High Performance Recommendations](#maturity-series),&quot; där våra experter behandlade följande frågor:
 
-* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
-* Top use cases that customers are configuring AI capabilities to accomplish at scale
-* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
+* Mer avancerade funktioner som frigör mer precision och anpassningsbara rekommendationer när kunden utvecklar ett förhållande till ert varumärke.
+* Hur en icke-teknisk användare eller marknadsförare har full kontroll över att konfigurera och hantera algoritmerna.
+* Så här använder du AI och anpassade funktioner med rekommendationer för att låsa upp användningsfall som har stor inverkan på klickminskningen och ökade intäkter.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+Om du missade det ursprungliga webbinariet [lyssna på inspelningen](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++-->
+Se till att registrera dig för del 3 av Webbinar Series som kommer den 24 mars 2012 och omfattar&quot;[Låsa upp AI-strömsgenererade Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}.&quot;
+
++++
 
 ## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
@@ -42,7 +44,7 @@ Varför ska du vara med?
 
 * **Läs om de vanligaste användningsområdena**: Omvandla visioner till verklighet med en plan för intelligent optimering, mognad [!DNL Adobe Target] kunder bortom regelbaserade experiment och A/B-tester.
 * **Maximera unika funktioner**: Skräddarsy upplevelser för framgång med högpresterande rekommendationer för maximal avkastning, intäkter och konvertering.
-* **Avancerade strategier för personalisering**: Fördjupa dig i avancerad AI/ML-teknik för att skala affärsmässiga konsekvenser, anpassa till nya segment/målgrupper och finjustera personaliseringsmodeller för optimerade upplevelser
+* **Avancerade strategier för personalisering**: Fördjupa dig i avancerad AI/ML-teknik för att skala affärsmässiga konsekvenser, hitta nya segment/målgrupper och finjustera personaliseringsmodeller för optimerade upplevelser.
 
 * **[Registrera dig här](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -61,6 +63,8 @@ Varför ska du vara med?
    * **10.00 - 11.00 (PST -8 GMT)**
 
      Läs om hur rekommendationsalgoritmer kan bli en förändringsfaktor för företag och öka engagemanget och intäkterna. Möjligheten att guida användarna smidigt genom hela kundresan bidrar direkt till att frigöra en betydande tillväxt. Det kan gälla allt från personaliserade produktförslag till innehållsrekommendationer.
+
+     [Lyssna på inspelningen.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Låsa upp AI-styrd personalisering**
    * **Tisdagen den 12 mars 2024**
