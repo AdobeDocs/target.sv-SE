@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 28 februari | [[!DNL Target] versionsinformation (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Lagt till information om [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024). |
 | 26 februari | [[!DNL Adobe Target] meddelanden och evenemang](/help/main/r-release-notes/target-announcements.md) | Lagt till information om kommande [!UICONTROL Adobe Target Community] Kaffebrytning (28 februari 2024). |
 | 23 februari | [IP-adresser som används av [!DNL Recommendations] servrar för hantering av feeds](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Följande viktiga anteckning och nya IP-adresser som du bör tillåtslista har lagts till.<P>**Viktigt**: [!DNL Target] teamet uppdaterar för närvarande NAT-gatewayadresserna för hämtning [!DNL Recommendations] feeds. Om du implementerar IP-tillåtelselistning måste du tillåtslista följande nya AWS-värdar. De befintliga värdarna planeras att avvecklas den 30 juni 2024. Om du vill ha en mjuk övergång tillåtslista du alla nio adresserna. Det är inte brådskande att ta bort de befintliga adresserna. |
 | 8 februari | [Förhämtning](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Nytt avsnitt har lagts till:&quot;Förhämta rutor med clickTrack-statistik när Analytics for Target (A4T) används&quot; |

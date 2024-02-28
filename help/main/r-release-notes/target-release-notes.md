@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,28 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 22 januari 2024**
+**Senast uppdaterad: 28 februari 2024**
 
 >[!NOTE]
 >
 >Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
+
+## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
+
+Den här versionen är schemalagd för följande dagar:
+
+* **4 mars**: Europa, Mellanöstern och Afrika (EMEA)
+* **5 mars**: Asien-Stillahavsregionen (APAC)
+* **6 mars**: Amerika
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Åtgärdade logiken som beräknar antalet unika väljare i en aktivitet. (TGT-47878)
+* Korrigerade ett problem som orsakade [!UICONTROL Multivariate] (MVT) aktiviteter konfigurerade med [!UICONTROL Analytics for Target] (A4T)-rapportering visas inte korrekt. (TGT-47490)
+* Förbättrade varningsmeddelandet som visas i rapporter när en upplevelse utan trafik används som kontrollupplevelse. (TGT-47537)
+* Flera åtgärder för backend och lokalisering har lagts till.
 
 ## Ytterligare versionsinformation
 
