@@ -6,9 +6,9 @@ short-description: Läs om de nya funktionerna, förbättringarna och korrigerin
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -19,28 +19,26 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.)
 
-## Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)
+## Uppdateringar för `Browser:iPad` och `Browser:iPhone` in [!UICONTROL Browser] publikattribut (30 april 2024)
 
-| Föråldring | Information |
+| Uppdateringar | Information |
 |--- |--- |
-| [!DNL iPad] och [!DNL iPhone] tas bort från [Webbläsarattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md) används när målgrupper skapas.<p>Föråldringsdatum:<P>30 april 2024 | [!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive användare som använder en viss [webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md) när de besöker din sida.<P><B>Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper.</b><P>Inbyggda målgrupper skapade med [!DNL Target] Gränssnittet, t.ex. &quot;Webbläsare: iPad&quot; och &quot;Webbläsare: iPhone&quot;, flyttas automatiskt till den nya målgruppsdefinitionen.<p>Exempel på alternativa inställningar som måste ändras manuellt finns i [Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| [!UICONTROL Browser:iPad] och [!UICONTROL Browser:iPhone] uppdaterat i [Webbläsarattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md) används när målgrupper skapas. | [!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive besökare som använder en viss [webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md) när de besöker din sida.<P>Börja med [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024), inbyggda målgrupper som skapats med målgränssnittet, som `Browser:iPad` och `Browser:iPhone` kommer att uppdateras för att utföra korrekt målinriktning för [!DNL iPad] och [!DNL iPhone] använda `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` och `profile.mobile.isTablet`.<P>Uppdateringen kräver inga åtgärder från kundens sida.<p><B>Viktigt</b>: För att kunderna ska kunna målinrikta [!DNL iPad] och [!DNL iPhone] i profilskript (och JavaScript-segment) måste kunden göra manuella ändringar av **30 april 2024**. Exempel på alternativa inställningar som måste ändras manuellt finns i [Uppdateringar för [!DNL iPad] och [!DNL iPhone] in [!UICONTROL Browser] publikattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!DNL Target] Standard/Premium 24.1.1 (22 januari, 23 och 25 januari 2024)
+## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
 
 Den här versionen är schemalagd för följande dagar:
 
-* **22 januari**: Europa, Mellanöstern och Afrika (EMEA)
-* **23 januari**: Asien-Stillahavsregionen (APAC)
-* **25 januari**: Amerika
+* **4 mars**: Europa, Mellanöstern och Afrika (EMEA)
+* **5 mars**: Asien-Stillahavsregionen (APAC)
+* **6 mars**: Amerika
 
 Den här versionen innehåller följande förbättringar och korrigeringar:
 
-* [!UICONTROL Analytics for Target] (A4T) aktiviteter med intäktsmålmått visade inte &quot;Intäkt&quot; eftersom kolumnnamnet och intäktsmåttet inte visades i ($)-format vid rapportering. Detta var en kosmetisk fråga som har åtgärdats. (TGT-46995)
-* Korrigerade ett problem som gjorde att rapportdatumintervaller inte fungerade korrekt. (TGT-47396)
-* Ett problem som orsakade att felaktig status visades på [!UICONTROL All Activities] sidan efter att kunderna aktiverat eller inaktiverat en aktivitet med [!UICONTROL More Actions] -ikon. (TGT-47367)
-* Ett problem som orsakade [!UICONTROL Important Attributes] som inte visas för en enskild kund. (TGT-47272)
-* Korrigerade ett problem som orsakade att ett meddelande om ogiltig nyttolast visades när en enskild kund försökte aktivera&quot;Kräv autentisering&quot;. (TGT-47195)
-* Uppdaterat flera lokaliserade strängar i [!DNL Target] Gränssnitt.
+* Åtgärdade logiken som beräknar antalet unika väljare i en aktivitet. (TGT-47878)
+* Korrigerade ett problem som orsakade [!UICONTROL Multivariate] (MVT) aktiviteter konfigurerade med [!UICONTROL Analytics for Target] (A4T)-rapportering visas inte korrekt. (TGT-47490)
+* Förbättrade varningsmeddelandet som visas i rapporter när en upplevelse utan trafik används som kontrollupplevelse. (TGT-47537)
+* Flera åtgärder för backend och lokalisering har lagts till.
 
 ## Ytterligare versionsinformation
 

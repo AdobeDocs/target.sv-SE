@@ -4,14 +4,14 @@ description: Lär dig skapa målgrupper i [!DNL Adobe Target] för användare so
 title: Kan jag rikta in besökarna baserat på webbläsartyp?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
 
-# Webbläsare
+# [!UICONTROL Browser]
 
 Du kan rikta in dig på användare som använder en viss webbläsare eller särskilda webbläsaralternativ när de besöker sidan.
 
@@ -28,7 +28,11 @@ Följande webbläsare kan ha följande mål:
 
 >[!IMPORTANT]
 >
->Från 30 april 2024, [!DNL iPad] och [!DNL iPhone] tas bort från tillgängliga [!UICONTROL Browser] listrutan type när du skapar kategorier för målgrupper. Information om inställningar för tillfällig lösning finns i [Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024)](#deprecation) nedan.
+>Börja med [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024), inbyggda målgrupper som skapats med målgränssnittet, som `Browser:iPad` och `Browser:iPhone` har uppdaterats för att kunna utföra korrekt målinriktning för [!DNL iPad] och [!DNL iPhone] använda `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone`och `profile.mobile.isTablet`.
+>
+>Uppdateringen kräver inga åtgärder från kundens sida. Etiketterna i [!DNL Target] Gränssnittet kommer att ändras i framtiden och kommer att tillkännages i [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) när dessa ändringar görs.
+>
+>Information om inställningar för tillfällig lösning finns i [Uppdateringar för [!DNL iPad] och [!DNL iPhone] in [!UICONTROL Browser] publikattribut (30 april 2024)](#updates) nedan.
 
 Det finns två sätt att rikta in sig på webbläsare:
 
@@ -131,17 +135,17 @@ Den här videon innehåller information om hur du använder målgruppskategorier
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Borttagning av iPad och iPhone från Browser-målgruppsattribut (30 april 2024) {#deprecation}
+## Uppdateringar för [!DNL iPad] och [!DNL iPhone] in [!UICONTROL Browser] publikattribut (30 april 2024) {#updates}
 
 [!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive användare som använder en viss webbläsare eller webbläsaralternativ när de besöker din sida.
 
-Från och med 30 april 2024 tas iPad och iPhone bort från tillgängliga [!UICONTROL Browser] listrutan type i [!DNL Target] Gränssnitt när du skapar kategorier för målgrupper.
+Börja med [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024), inbyggda målgrupper som skapats med målgränssnittet, som `Browser:iPad` och `Browser:iPhone` har uppdaterats för att kunna utföra korrekt målinriktning för [!DNL iPad] och [!DNL iPhone] använda `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` och `profile.mobile.isTablet`.
 
-Inbyggda målgrupper skapade med [!DNL Target] Gränssnittet, t.ex. &quot;Webbläsare: iPad&quot; och &quot;Webbläsare: iPhone&quot;, flyttas automatiskt till den nya målgruppsdefinitionen. Om du fortsätter bör du dock använda inställningarna [beskrivs nedan](#ui).
+Inbyggda målgrupper skapade med [!DNL Target] användargränssnitt, som `Browser:iPad` och `Browser:iPhone`, flyttas automatiskt över till den nya målgruppsdefinitionen och kräver inga åtgärder från kundens sida. Om du fortsätter bör du dock använda inställningarna [beskrivs nedan](#ui).
 
-Om du `user.browserType` i alla profilskript för att kontrollera om det är en iPhone eller iPad (till exempel `user.browserType == 'iphone'` eller `user.browserType != 'ipad'`) ska dessa profilskript ändras som [instrueras nedan](#profile-scripts) före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
+Om du `user.browserType` i alla profilskript för att kontrollera om det är ett [!DNL iPhone] eller [!DNL iPad] (till exempel `user.browserType == 'iphone'` eller `user.browserType != 'ipad'`) ska dessa profilskript ändras som [instrueras nedan](#profile-scripts) före 30 april 2024 för att säkerställa att dessa målgrupper fortsätter att fungera som förväntat.
 
-JavaScript-målgrupper är äldre målgrupper som använder Target-uttryck som har tagits bort med [!DNL Target Classic] Gränssnitt. Dessa målgrupper kan endast ändras via API. Kunderna måste uppdatera dessa målgrupper endast om de fortsätter att använda äldre målgrupper i aktiviteter.
+JavaScript-målgrupper är äldre målgrupper som använder [!DNL Target] uttryck som har tagits bort med [!DNL Target Classic] Gränssnitt. Dessa målgrupper kan endast ändras via API. Kunderna måste uppdatera dessa målgrupper endast om de fortsätter att använda äldre målgrupper i aktiviteter.
 
 ### Målgrupper skapade med [!DNL Target] UI {#ui}
 
@@ -176,16 +180,6 @@ Det finns många andra inställningar som kan användas, till exempel när villk
 ### Målgrupper skapade med profilskript {#profile-scripts}
 
 Om du `user.browserType` i äldre [!DNL Target Classic] målgrupper eller i profilskript bör ändringarna omfatta följande:
-
->[!NOTE]
->
->Följande profiler kommer att släppas under de kommande veckorna från och med den 24 januari 2024. The [aktuell versionsinformation](/help/main/r-release-notes/release-notes.md) uppdateras när de här profilerna är tillgängliga.
->
->Dessa profiler gör följande ändringar möjliga:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
 
 * **BrowserType är iPhone**:
 
