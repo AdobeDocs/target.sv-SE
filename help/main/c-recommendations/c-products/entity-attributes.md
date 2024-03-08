@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Exempel: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Stöder flera värden (kommaavgränsad lista).
 
-Den aktuella sidans kategori. Entity.categoryID kan innehålla flera kategorier, t.ex. underavsnittet &quot;Cardigans&quot; (t.ex. kvinnor, kvinnor:trötthet, kvinnor):sweaters:cardigans). Flera kategorier måste avgränsas med kommatecken.
+Den aktuella sidans kategori. Entity.categoryID kan innehålla flera kategorier, t.ex. underavsnittet cardigans (t.ex. `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Flera kategorier måste avgränsas med kommatecken.
 
 The `categoryId` värdet är begränsat till 250 tecken.
 
@@ -105,9 +105,9 @@ The `categoryId` värdet är begränsat till 250 tecken.
 
 Exempel:
 
-* Exempel på produktinformationssida: kvinnor, kvinnor:fritidsanställda, kvinnor:sweaters:codigans
-* Exempel på kategorisidomatare: kvinnor:tröjor
-* Exempel på kategorisidnumrering: kvinnor:sweaters:codigans
+* Exempel på informationssida: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Exempel: Kategorisidomatare: `womens:sweaters`
+* Exempel: Kategorisidnumrering: `womens:sweaters:cardigans`
 
 För kategoribaserade rekommendationer avgränsar ett kommatecken kategorivärdet. Alla värden som avgränsas med kommatecken blir kategorier. Du kan också definiera underkategorier genom att använda en annan avgränsare, t.ex. ett kolon (:), för att skilja underkategorier inom kategorivärdet.
 
@@ -117,7 +117,7 @@ I följande kod delas kategorin Kvinnor in i flera underkategorier:
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-För leverans av mbox används det längsta attributnamnet för nyckeln. Om det finns en slips används det sista attributet. I exemplet ovan är kategorinyckeln Womens:Outerwear:Jackets:Caban.
+För leverans av mbox används det längsta attributnamnet för nyckeln. Om det finns en slips används det sista attributet. I exemplet ovan är kategorinyckeln `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
