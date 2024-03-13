@@ -4,14 +4,14 @@ description: Lär dig hur du använder start- och slutdatum och sluttider för a
 title: Kan jag rikta in mig på besökare som besöker min webbplats vid särskilda tillfällen?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
+source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
 
-# Tidsram
+# [!UICONTROL Time Frame]
 
 Du kan lägga till start- och slutdatum samt sluttider i [!DNL Adobe Target] för målanvändare som besöker webbplatsen under en viss tidsperiod. Du kan också ange alternativen Vecka och Dag-delning för att skapa återkommande mönster för målgruppsanpassning.
 
@@ -35,7 +35,7 @@ Använd till exempel [funktion för kombinerade ad hoc-målgrupper](/help/main/c
    >
    >* Tidszonen för Start-/slutdatum visas som GMT +/- NN:NN, där NN är förskjutningen från GMT och återspeglar tidszonen på kontonivå i stället för besökarens tidszon. Kaliforniens tidszon skulle till exempel visas som GMT -08:00.
    >
-   >* [!DNL Target] målgrupper inte tar hänsyn till DST-ändringar (Daylight Saving Time). Du måste uppdatera målgrupperna manuellt för att kunna ta hänsyn till DST-ändringar.
+   >* [!DNL Target] målgrupper inte tar hänsyn till DST-ändringar (Daylight Saving Time). Du måste spara om målgrupperna manuellt för att kunna ta hänsyn till DST-ändringar.
 
 1. (Villkorligt) Klicka **[!UICONTROL Set frequency]** för att bestämma återkommande mönster, inklusive veckodagar och tider.
 
