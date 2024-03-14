@@ -6,9 +6,9 @@ short-description: Läs om de nya funktionerna, förbättringarna och korrigerin
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 | Uppdateringar | Information |
 |--- |--- |
 | [!UICONTROL Browser:iPad] och [!UICONTROL Browser:iPhone] uppdaterat i [Webbläsarattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md) används när målgrupper skapas. | [!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive besökare som använder en viss [webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md) när de besöker din sida.<P>Börja med [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024), inbyggda målgrupper som skapats med målgränssnittet, som `Browser:iPad` och `Browser:iPhone` kommer att uppdateras för att utföra korrekt målinriktning för [!DNL iPad] och [!DNL iPhone] använda `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` och `profile.mobile.isTablet`.<P>Uppdateringen kräver inga åtgärder från kundens sida.<p><B>Viktigt</b>: För att kunderna ska kunna målinrikta [!DNL iPad] och [!DNL iPhone] i profilskript (och JavaScript-segment) måste kunden göra manuella ändringar av **30 april 2024**. Exempel på alternativa inställningar som måste ändras manuellt finns i [Uppdateringar för [!DNL iPad] och [!DNL iPhone] in [!UICONTROL Browser] publikattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+## [!UICONTROL Visual Editing Helper] förlängning (14 mars 2023)
+
+Den här versionen innehåller följande förbättringar och korrigeringar för [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) tillägg för [!DNL Google Chrome]:
+
+* Förbättrade inläsningsfunktionen för iFrame när du redigerar på kundernas webbplatser.
+* Ett problem som orsakade att tillägget dubblerade cookies när redigering i dialogrutan utfördes har korrigerats [!UICONTROL Visual Experience Composer] (VEC)
+* Tog bort beroendet att hämta at.js för kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
 
