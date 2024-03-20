@@ -6,9 +6,9 @@ short-description: Läs om de nya funktionerna, förbättringarna och korrigerin
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Den här versionen innehåller följande förbättringar och korrigeringar för 
 
 * Förbättrade inläsningsfunktionen för iFrame när du redigerar på kundernas webbplatser.
 * Ett problem som orsakade att tillägget dubblerade cookies när redigering i dialogrutan utfördes har korrigerats [!UICONTROL Visual Experience Composer] (VEC)
-* Tog bort beroendet att hämta at.js för kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
 

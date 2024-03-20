@@ -4,9 +4,9 @@ description: Lär dig förhandsgranska Adobe [!DNL Target] Recommendations-aktiv
 title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ En CSV-fil hämtas. Öppna den och se rekommenderade objekt:
 
 Från vänster till höger finns en lista med rekommenderade objekt, i det här fallet de som visas mest. Rekommendationerna separeras av miljön, i det här fallet har endast produktionsmiljön rekommendationer.
 
-Om en asterisk (*) är det första värdet på en rad visas säkerhetskopierade objekt. Säkerhetskopierade objekt visas om inte alla kortplatser i en design kan fyllas med de rekommenderade objekten i algoritmen (villkor). För en popularitetsalgoritm som toppsåld kan det bara finnas noll eller en icke-säkerhetskopierad rad för varje miljö i CSV-filen eftersom dessa algoritmtyper inte har en &quot;nyckel&quot;, t.ex. &quot;visa kunden de populäraste produkterna oavsett vad de tittar på eller köper&quot;. Till skillnad från andra nyckelbaserade algoritmer, t.ex. view-view, är det första värdet i raden INTE nyckeln, men det första objektet i listan med rekommenderade objekt.
+Om en asterisk (*) är det första värdet på en rad visas [säkerhetskopiera objekt](/help/main/c-recommendations/c-algorithms/backup-recs.md). Säkerhetskopierade objekt visas om inte alla kortplatser i en design kan fyllas med de rekommenderade objekten i algoritmen (villkor).
 
 För andra algoritmtyper baserade på ett nyckelvärde, som [!UICONTROL People Who Viewed This, Viewed That], listas nyckelvärdena (d.v.s.&quot;This&quot; items) i kolumnen längst till vänster och de rekommenderade objekten (t.ex.&quot;That&quot;-objekten) listas från vänster till höger i kolumnerna recommendation_X.
 
