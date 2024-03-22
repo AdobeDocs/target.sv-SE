@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 22 mars | [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Referenser till kantnoderna 31 till 38 har tagits bort eftersom dessa noder inte längre finns. Se till att tillåtelselista är uppdaterad. |
+|  | [Inverkan av borttagning av cookies från tredje part på Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nytt blogginlägg som beskriver vad Google planerade borttagning av cookies från tredje part innebär för din [!DNL Adobe Target] implementering av at.js. |
 | 14 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Adobe Experience Platform Visual Editing Helper] for [!DNL Google Chrome]. |
 | 13 mars | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Information har lagts till som anteckning för att spara tidsbaserade målgrupper på nytt med hänsyn till DST (Daylight Saving Time). |
 | 6 mars | [Webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Uppdaterad information i följande avsnitt:&quot;Uppdateringar för [!DNL iPad] och [!DNL iPhone] in [!UICONTROL Browser] publikattribut (30 april 2024)&quot;. |
