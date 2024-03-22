@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a470b414705135885b0671cb2008315848703724
+source-git-commit: 31ad1682fc85f65fb80e96d7303cce55e36a442f
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 0%
@@ -124,4 +124,3 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 | 25 juli | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md#edge) | Lagt till information om den planerade uppgraderingen av Edge-infrastrukturen som är planerad till 9 augusti 2023. |
 |  | [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Uppdaterade NAT och IP/domäner för edge-driftsättningar 41-48. |
 | 24 juli | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Target Standard/Premium] 23.7.1-utgåvan. |
-
