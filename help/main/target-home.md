@@ -4,7 +4,7 @@ title: Användarhandbok om Adobe Target Business Practitioner
 description: Lär dig hur du använder Adobe [!DNL Target] för att personalisera kundernas upplevelse och maximera intäkterna på era webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
+source-git-commit: 0b690563d9719b3374f5a6be16a75990e629ab2b
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -76,3 +76,4 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 | Adobe [!DNL Target] lösningar | [!DNL Adobe Experience Cloud] resurser |
 |--- |--- |
 | <ul><li>[Adobe Target Läs mer &amp; Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search &amp; Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Mål-API-dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Forum för målgrupper](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Hjälp om Experience Cloud - startsida](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud Documentation](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe och Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+
