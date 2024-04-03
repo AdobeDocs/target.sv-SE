@@ -2,36 +2,55 @@
 keywords: Målgruppsanpassning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;personalization;insights;automatic segments;faq;ofta questions;important attributes
 description: Lär dig hur du använder specialrapporter för Automated Personalization- (AP) och Auto-Target-aktiviteter (AT) - automatiserade segment och viktiga attribut.
 title: Hur använder jag personaliseringsInsights-rapporterna?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
 
-# Insikter om personalisering - rapporter
+# [!UICONTROL Personalization Insights] rapporter
 
-Två specialrapporter är tillgängliga för användare av [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] AT-verksamhet: den [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter.
+Två specialrapporter är tillgängliga för användare av [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] AT-verksamhet: [!UICONTROL Automated Segments] och [!UICONTROL Important Attributes] rapporter.
 
->[!NOTE]
->
->Tänk på följande när du använder personaliseringsInsights-rapporter:
->
->* AP- och AT-aktiviteter är tillgängliga som en del av [!DNL Target Premium] lösning. De ingår inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
->
->* [!UICONTROL Personalization Insights] rapporter är bara tillgängliga för AP- och AT-aktiviteter som använder ett konverteringsoptimeringsmål. Aktiviteter där optimeringsmålet ändrades till konvertering från intäkt efter att aktiviteten redan var aktiv stöds inte heller.
->
->* [!UICONTROL Personalization Insights] rapporter är bara tillgängliga om [!UICONTROL Primary Goal] är markerat på menyn [!UICONTROL Report Metric] nedrullningsbar lista.
->
->* [!UICONTROL Personalization Insights] rapporter stöds i [standardmiljö](/help/main/administrating-target/hosts.md) endast.
->
->* [!UICONTROL Personalization Insights] rapporter genereras bara för aktiviteter som finns i [!UICONTROL Live] status och har aktiverats och tagit emot trafik i minst 15 dagar.
+## Överväganden
 
+Tänk på följande när du använder [!UICONTROL Personalization Insights] rapporter:
 
-## Översikt över rapportering av personaliseringsinsikter {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
+* AP- och AT-aktiviteter är tillgängliga som en del av [[!DNL Target Premium] lösning](/help/main/c-intro/intro.md#premium). De ingår inte i [!DNL Target Standard] utan [!DNL Target Premium] licens.
+
+* [!UICONTROL Personalization Insights] rapporter är bara tillgängliga för AP- och AT-aktiviteter som har konfigurerats enligt följande:
+
+   * [!DNL Target] rapporter > [!UICONTROL Conversion]
+
+     Exempel:
+
+     ![Målrapportering > Konvertering](/help/main/c-reports/assets/conversion.png)
+
+   * [!DNL Analytics] rapporter > [!DNL Conversion]
+
+     Exempel:
+
+     ![Analytisk rapportering > Konvertering](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+
+   * [!DNL Analytics] rapporter > [!UICONTROL Use an Analytics metric] > [!UICONTROL Maximize Visit Conversion Rate]
+
+     Exempel:
+
+     ![Använd ett analysmått > Maximera besökskonverteringsgraden](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+
+* Aktiviteter där optimeringsmålet ändrades till konvertering från intäkter efter att aktiviteten redan var aktiv stöds inte heller.
+
+* [!UICONTROL Personalization Insights] rapporter är bara tillgängliga om [!UICONTROL Primary Goal] är markerat på menyn [!UICONTROL Report Metric] listruta.
+
+* [!UICONTROL Personalization Insights] rapporter stöds i [standardmiljö](/help/main/administrating-target/hosts.md) endast.
+
+* [!UICONTROL Personalization Insights] rapporter genereras bara för aktiviteter som finns i [!UICONTROL Live] status och har aktiverats och tagit emot trafik i minst 15 dagar.
+
+## Översikt över rapporten om personalisering {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
 Målsättningen med [!UICONTROL Personalization Insights] rapporter ska innehålla mer information om hur [!UICONTROL Target] personaliseringsmodeller bakom era AP- och AT-aktiviteter personaliserar besökstrafiken. The [Slumpmässig skogsalgoritm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) är grunden för [!DNL Target] personaliseringsmodeller.
 
@@ -39,7 +58,7 @@ På grund av målet för [!UICONTROL Personalization Insights] rapporterna ska f
 
 Två [!UICONTROL Personalization Insights] rapporter finns:
 
-| Rapport | Detaljer |
+| Rapport | Information |
 |--- |--- |
 | [!UICONTROL Automated Segments] | Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-aktivitet. Den här rapporten visar hur olika automatiserade segment definieras av [!DNL Target] personaliseringsmodellerna svarade på aktivitetens erbjudanden/upplevelser. |
 | [!UICONTROL Important Attributes] | I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur modellen bestämmer sig för att personalisera. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse. |
@@ -61,7 +80,7 @@ Det finns två typer av attribut i [!UICONTROL Personalization Insights] rapport
 | Delade målgrupper (Adobe Audience Manager eller Adobe Analytics) | Målgrupper skapade med Adobe Audience Manager eller Adobe Analytics och som delas med Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Delade målgrupper (Adobe Experience Platform/CDP i realtid) | Målgrupper som skapats med Adobe Experience Platform/CDP i realtid och som delas med Target via Destinations. | `Custom - Adobe Experience Platform Segment - [segment name]` |
 | Delade attribut (Adobe Experience Platform/CDP i realtid) | Attribut som har skapats med Adobe Experience Platform/Real-time CDP och som delas med Target via Destinations. Den här funktionen finns för närvarande i Beta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
-| Målgrupper/segment för rapportering i aktivitet | Målgrupper som definieras i din AP- eller Automatiskt mål-aktivitet under konfiguration i&quot;Mål och mått&quot;. | `Custom - Reporting Segment - [segment name]` |
+| Målgrupper/segment för rapportering i aktivitet | Målgrupper som definieras i din AP- eller Automatiskt mål-aktivitet under konfiguration i&quot;Mål och mätvärden&quot;. | `Custom - Reporting Segment - [segment name]` |
 
 ## Vanliga frågor
 
@@ -73,7 +92,7 @@ Lista med vanliga frågor om [!UICONTROL Automated Personalization] (AP) och [!U
 
 [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] modellerna behåller användarbeteende, utbildningsdokumentation och modellbeslutsdata i 90 dagar för att producera [!UICONTROL Insights] rapporter. Efter 90 dagar tas utbildningsdokumentation och modellbeslut bort. [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] Modellerna behåller också aggregerade uppgifter om upplevelser/exponering och konvertering på erbjudandenivå för rapportering i två år. Dessa data är endast sammanställningsdata och innehåller inga profildata på individuell nivå.
 
-## Utbildningsvideo: Använda Insights-rapporter om personalisering ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Använda rapporter om personaliseringsinsikter ![Självstudiemärke](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
