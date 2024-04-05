@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
+source-git-commit: 07b7dd8e0e2dbf2b57d5b847f89886208eb66614
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Tänk på följande information innan du använder [!DNL Customer Journey Analyt
    * Om du har en [Målstandard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) konto, se [Ange roller och behörigheter](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Användare*.
    * Om du har en [Mål Premium](/help/main/c-intro/intro.md#premium) konto, se [Roller och behörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Enterprise-användarbehörigheter*.
 
-* Du måste ingå i en roll i [!DNL Adobe Experience Platform] för att konfigurera en [!DNL Target] aktivitet med [!DNL Customer Journey Analytics] som rapportkälla. Mer information finns i [Lägg till en roll i [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions){target=_blank} in *Konfigurera behörigheter* i *Självstudiekurs om dataarkitekt och ingenjör.*
+* Du måste ingå i en roll i [!DNL Adobe Experience Platform] för att konfigurera en [!DNL Target] aktivitet med [!DNL Customer Journey Analytics] som rapportkälla. Mer information finns i [Lägg till en roll i [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Konfigurera behörigheter* i *Självstudiekurs om dataarkitekt och ingenjör.*
 * Beroende på dina inställningar kan rapporteringen ändras per aktivitet eller på organisationsnivå. Se [Reporting Cloud Solution](/help/main/administrating-target/reporting.md#solution) in *Konfigurera rapportering i mål*.
 * Använd en rapportkälla eller en annan. Du kan inte samla in data för en enskild aktivitet till flera rapportkällor.
 * När du anger [!DNL Customer Journey Analytics] som rapportkälla uppmanas du att ange sandlådan för rapportering. Under konfigurationen visas bara de sandlådor som du har åtkomst till.
