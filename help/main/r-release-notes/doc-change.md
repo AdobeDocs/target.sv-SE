@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 31ad1682fc85f65fb80e96d7303cce55e36a442f
+source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 9 april | [Felsökning relaterade till [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Följande avsnitt har uppdaterats:<ul><li>Min sida visas inte i VEC (endast VEC)</li></ul>Följande nya avsnitt har lagts till:<ul><li>Problem orsakade av CSS-konflikter i [!UICONTROL Visual Experience Composer]</li></ul> |
+|  | [Insikter om personalisering - rapporter](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Uppdaterade avsnittet Att tänka på. |
 | 22 mars | [Tillåtelselista: Hörnkantsnoder](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Referenser till kantnoderna 31 till 38 har tagits bort eftersom dessa noder inte längre finns. Se till att tillåtelselista är uppdaterad. |
 |  | [Inverkan av borttagning av cookies från tredje part på Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nytt blogginlägg som beskriver vad Google planerade borttagning av cookies från tredje part innebär för din [!DNL Adobe Target] implementering av at.js. |
 | 14 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för [!DNL Adobe Experience Platform Visual Editing Helper] for [!DNL Google Chrome]. |
