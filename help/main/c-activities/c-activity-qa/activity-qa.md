@@ -4,9 +4,9 @@ description: Lär dig hur du använder Adobe [!DNL Target] QA-URL:er för enkel 
 title: Hur gör jag QA-aktiviteter?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -63,15 +63,21 @@ Använd QA-URL:er i [!DNL Adobe Target] att utföra enkel QA för hela verksamhe
 
 [!UICONTROL Activity QA] är klibbig. När du har bläddrat på en webbplats i [!UICONTROL Activity QA], dina [!DNL Target] sessionen måste förfalla eller så måste du ha [!DNL Target] släppa dig från [!UICONTROL Activity QA] innan du kan se webbplatsen som en vanlig besökare.
 
-* **at.js 2.*x***: Om din webbplats har at.js 2.*x* distribuerad, använda [Mål-QA-bokmärke](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) att tvinga dig ut ur [!UICONTROL Activity QA]. Att läsa in en sida på webbplatsen med ett tomt värde, vilket beskrivs i nästa punkt, gör *not* ta bort QA-cookien från webbläsaren när at.js 2.*x* distribueras.
+### at.js 2.*x*
 
-* **at.js 1.*x***: Om din webbplats har at.js 1.*x* distribuerad, förutom att använda [Mål-QA-bokmärke](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)kan du också manuellt tvinga ut dig själv genom att läsa in en sida på webbplatsen med `at_preview_token` parameter med ett tomt värde. Exempel:
+Om din webbplats har .js 2.*x* distribuerad, använda [Mål-QA-bokmärke](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) att tvinga dig ut ur [!UICONTROL Activity QA]. Att läsa in en sida på webbplatsen med ett tomt värde, vilket beskrivs i nästa punkt, gör *not* ta bort QA-cookien från webbläsaren när at.js 2.*x* distribueras.
 
-  `https://www.mysite.com/?at_preview_token=`
+### at.js 1.*x*
 
-* **[!DNL Adobe Experience Platform Web SDK]**: Om webbplatsen har [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} kan du manuellt tvinga ut dig själv genom att läsa in en sida på webbplatsen med `at_qa_mode` parameter med ett tomt värde. Exempel:
+Om din webbplats har .js 1.*x* distribuerad, förutom att använda [Mål-QA-bokmärke](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)kan du också manuellt tvinga ut dig själv genom att läsa in en sida på webbplatsen med `at_preview_token` parameter med ett tomt värde. Exempel:
 
-  `https://www.mysite.com/?at_qa_mode=`
+`https://www.mysite.com/?at_preview_token=`
+
+### [!DNL Adobe Experience Platform Web SDK]
+
+Om din webbplats har [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} kan du manuellt tvinga ut dig själv genom att läsa in en sida på webbplatsen med `at_qa_mode` parameter med ett tomt värde. Exempel:
+
+`https://www.mysite.com/?at_qa_mode=`
 
 ## Överväganden {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1228'
 ht-degree: 3%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 3%
    + [Visual Experience Composer (SPA) med en sida](c-experiences/spa-visual-experience-composer.md)
    + Erbjudanden {#offers}
       + [Översikt över erbjudanden](c-experiences/c-manage-content/manage-content.md)
+      + [Betaversion av erbjudanden](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [Skapa erbjudandemapp](c-experiences/c-manage-content/create-content-folder.md)
       + [Överför innehåll](c-experiences/c-manage-content/assets-upload.md)
       + [Skapa omdirigeringserbjudanden](c-experiences/c-manage-content/offer-redirect.md)
