@@ -7,70 +7,98 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 646472f35ef4623666545f9945255d61bfe16073
+source-git-commit: ebce41ea70be81ea0d27abee4b760117cc6ee10c
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
 
 # Erbjudanden
 
-Använd [!UICONTROL Offers] bibliotek i [!DNL Adobe Target] för att hantera koderbjudanden och innehåll i bilderbjudanden.
+Använd [!UICONTROL Offers] bibliotek i [!DNL Adobe Target] för att hantera koden och bilderbjudandeinnehållet.
 
 >[!NOTE]
 >
 >Den här artikeln innehåller information om uppdateringar av [!DNL Target] användargränssnitt som för närvarande ingår i ett Beta-program. The [!DNL Adobe Target] teamet har ofta nya funktioner för utvalda kunder för testning och feedback. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtiden [!DNL Target Standard/Premium] i versionsinformationen.
 
-1. Klicka **[!UICONTROL Offers]** för att öppna biblioteket.
+Klicka på **[!UICONTROL Offers]** överst på [!DNL Target] Gränssnitt för att visa [!UICONTROL Offers] bibliotek.
 
-   Biblioteket innehåller erbjudanden som har konfigurerats via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM) [!DNL Adobe Mobile Services] (AMS) och API:er. Erbjudanden skapade i [!DNL Target Classic] eller andra lösningar kan redigeras i [!DNL Target Standard/Premium].
+![Erbjudandebibliotek i Adobe Target](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-   The [!UICONTROL Offers] sidan har två flikar längs den högra sidan: [!UICONTROL Code Offers] och [!UICONTROL Image Offers] som gör att du kan visa erbjudanden efter typ.
+The [!UICONTROL Offers] biblioteket innehåller erbjudanden som har konfigurerats via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM) [!DNL Adobe Mobile Services] (AMS) och API:er. Erbjudanden skapade i [!DNL Target Classic] eller andra lösningar kan redigeras i [!DNL Target Standard/Premium].
 
-   ![Sidan Erbjudanden visar flikarna Koderbjudanden och Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
+Biblioteket för erbjudanden innehåller en översikt över all kod och alla bilder som erbjuds, och där kan du utföra olika åtgärder:
 
-1. (Valfritt) Klicka på **[!UICONTROL Type]** nedrullningsbar lista för att filtrera erbjudanden efter typ (HTML Offer, [Upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Fjärrerbjudande](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md)och [Mappar](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+| Element | Beskrivning |
+|--- |--- |
+| Vänster navigeringsspår | Växla mellan listor [!UICONTROL Code Offers] eller [!UICONTROL Image Offers]. |
+| [!UICONTROL Show filters] icon<P>![Ikonen Visa filter](/help/main/c-activities/assets/show-filters-icon.png) | Klicka på **[!UICONTROL Show filters]** ikon för att filtrera erbjudanden efter [!UICONTROL Type], [!UICONTROL Source]och [!UICONTROL AEM Type]<P>Mer information finns i [Använda filter i listan Erbjudanden](#filters) nedan. |
+| Sökfält | Använd **[!UICONTROL Search in]** fält för att snabbt hitta ett erbjudande eller för att minska antalet erbjudanden som visas i [!UICONTROL Offers] bibliotek. Du kan söka efter [!UICONTROL Offer Name], [!UICONTROL AEM Paths], eller [!UICONTROL AEM Tags]. |
+| [!UICONTROL Create Folder] | Klicka på Skapa mapp för att skapa mappar i [!UICONTROL Offer] bibliotek för koderbjudanden, bilderbjudanden och andra mappar för att skapa en undermappsstruktur. Mer information finns i [Skapa erbjudandemappar](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
+| [!UICONTROL [!UICONTROL Create Offer]] | Skapa ett erbjudande. Mer information om hur du skapar olika typer av erbjudanden finns i: <ul><li>HTML</li><li>[JSON-erbjudande](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Fjärrerbjudande](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
+| Kryssrutor för gruppåtgärd | Utför massåtgärder för alla aktiviteter eller för valda aktiviteter.<P>En lista över tillgängliga åtgärder (beroende på din behörighet och erbjudandestatus) finns i [Utför snabbåtgärder](#quick-actions) nedan. |
+| [!UICONTROL Name] | Namnet på varje erbjudande.<P>Klicka på **[!UICONTROL Quick Info]** -ikonen bredvid varje erbjudandenamn om du vill visa mer information om erbjudandet på ett popup-kort, inklusive erbjudande-ID, typ, datum då erbjudandet senast ändrades och av vem, med mera.<p>Klicka på **[!UICONTROL More actions]** -ikonen (den vågräta ellipsen) bredvid varje erbjudandenamn för att öppna en meny där du kan utföra snabba åtgärder för en aktivitet. Följande åtgärder är tillgängliga (beroende på din behörighet och erbjudandestatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete]och [!UICONTROL Move]. Mer information om de olika åtgärderna finns i [Utför snabbåtgärder](#quick-actions) nedan.<P>Klicka på tabellrubriken om du vill sortera listan i stigande eller fallande ordning efter namn. |
+| [!UICONTROL Type] | Erbjudandetyp: HTML Offers, [Omdirigeringserbjudanden](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Fjärrerbjudanden](/help/main/c-experiences/c-manage-content/about-remote-offers.md)och [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
+| [!UICONTROL Source] | Visar var erbjudandet skapades: [!DNL Adobe Target], [!DNL Adobe Target Classic]och [!DNL Adobe Experience Manager]. |
 
-   ![offers_filter, bild](assets/offers_filter.png)
+## Använda filter i erbjudandebiblioteket {#filters}
 
-1. (Valfritt) Klicka på **[!UICONTROL Source]** nedrullningsbar lista för att filtrera erbjudanden efter källa (Adobe Target, Adobe Target Classic och Adobe Experience Manager).
+Klicka på **[!UICONTROL Show filters]** ikon ( ![Ikonen Visa filter på sidan Erbjudanden](/help/main/c-experiences/c-manage-content/assets/show-filters-icon.png) ) för att filtrera erbjudanden efter [!UICONTROL Type], [!UICONTROL Source]och [!UICONTROL AEM Type].
 
-1. (Valfritt) Utför ytterligare uppgifter genom att hålla markören över önskat erbjudande eller önskad mapp på [!UICONTROL Code Offers] genom att klicka på önskad ikon.
+![offers_filter, bild](assets/offers-filter-new.png)
 
-   ![Alternativ för erbjudanden](assets/offer-picker-large.png)
+The **[!UICONTROL Show filters]** Med ikonen kan du filtrera erbjudanden efter följande kategorier:
 
-   Alternativen är:
+* **Typ**: HTML, [JSON-erbjudande](/help/main/c-experiences/c-manage-content/create-json-offer.md), [Omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Fjärrerbjudande](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
-   * Visa (Mer information finns i [Visa definitioner för erbjudanden](#section_6B059DD121434E6292CAB393507D010E) nedan.)
-   * Redigera
-   * Kopiera
-   * Flytta (om du till exempel vill flytta ett eller flera objekt till en mapp klickar du på **[!UICONTROL Move]** -ikonen för det önskade objektet klickar du på önskad mapp och sedan på **[!UICONTROL Drop]**.)
-   * Ta bort
+* **Källa**: [!DNL Adobe Target], [!DNL Adobe Target Classic]och [!DNL Adobe Experience Manager].
 
-   Beroende på din behörighet kanske du inte ser ikoner för alla alternativ. En användare med [!UICONTROL Observer] har inte behörighet att använda [!UICONTROL Copy] alternativ.
+* **AEM**: [Innehållsfragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) och [Upplevelsefragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Mer information om de olika fragmenttyperna finns i [Översikt över AEM Experience Fragments och Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
-   Detaljerad information om de uppgifter du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
+## Utför snabbåtgärder {#quick-actions}
 
-1. (Valfritt) Utför ytterligare åtgärder genom att hålla markören över önskat bilderbjudande eller önskad mapp på [!UICONTROL Image Offers] genom att klicka på önskad ikon.
+Du kan utföra följande snabbåtgärder genom att klicka på lämplig ikon:
 
-   ![Alternativ för bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
+### Snabbinformation
 
-   Alternativen är:
+Klicka på **[!UICONTROL Quick Info]** -ikonen bredvid varje erbjudandenamn om du vill visa mer information om erbjudandet på ett popup-kort, inklusive erbjudande-ID, typ, datum då erbjudandet senast ändrades och av vem, med mera.
 
-   * Välj
-   * Ladda ned
-   * Visa egenskaper
-   * Redigera
-   * Anteckna
-   * Kopiera
+![](/help/main/c-experiences/c-manage-content/assets/quick-actions.png)
 
-   Detaljerad information om de uppgifter du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
+### Fler åtgärder
 
-   >[!NOTE]
-   >
-   >Bilderbjudandena ingår inte i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modell.
+Klicka på **[!UICONTROL More actions]** -ikonen (den vågräta ellipsen) bredvid varje erbjudandenamn för att öppna en meny där du kan utföra snabba åtgärder för en aktivitet. Följande åtgärder är tillgängliga (beroende på din behörighet och erbjudandestatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete]och [!UICONTROL Move].
 
+![Alternativet Fler åtgärder i biblioteket för målerbjudanden](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
+
+* Redigera
+* Kopiera
+* Ta bort
+* Flytta (om du till exempel vill flytta ett eller flera objekt till en mapp klickar du på **[!UICONTROL Move]** -ikonen för det önskade objektet klickar du på önskad mapp och sedan på **[!UICONTROL Drop]**.)
+
+Beroende på din behörighet kanske du inte ser ikoner för alla alternativ. En användare med [!UICONTROL Observer] har inte behörighet att använda [!UICONTROL Copy] alternativ.
+
+Detaljerad information om de uppgifter du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+Utför ytterligare åtgärder genom att hålla markören över önskat bilderbjudande eller önskad mapp på [!UICONTROL Image Offers] genom att klicka på önskad ikon.
+
+![Alternativ för bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
+
+Alternativen är:
+
+* Välj
+* Ladda ned
+* Visa egenskaper
+* Redigera
+* Anteckna
+* Kopiera
+
+Detaljerad information om de uppgifter du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+>[!NOTE]
+>
+>Bilderbjudandena ingår inte i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modell.
 
 ## Visa definitioner för erbjudanden {#section_6B059DD121434E6292CAB393507D010E}
 
