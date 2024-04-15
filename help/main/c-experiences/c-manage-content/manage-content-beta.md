@@ -6,9 +6,10 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: fb6383c86503ac9a8313aed65418e9564c93aa1c
+exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
+source-git-commit: 646472f35ef4623666545f9945255d61bfe16073
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Använd [!UICONTROL Offers] bibliotek i [!DNL Adobe Target] för att hantera kod
 
 >[!NOTE]
 >
->Den här artikeln innehåller information om [!DNL Target] som för närvarande ingår i ett betaprogram. The [!DNL Adobe Target] teamet har ofta nya funktioner för utvalda kunder för testning och feedback. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtiden [!DNL Target Standard/Premium] i versionsinformationen.
+>Den här artikeln innehåller information om uppdateringar av [!DNL Target] användargränssnitt som för närvarande ingår i ett Beta-program. The [!DNL Adobe Target] teamet har ofta nya funktioner för utvalda kunder för testning och feedback. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtiden [!DNL Target Standard/Premium] i versionsinformationen.
 
 1. Klicka **[!UICONTROL Offers]** för att öppna biblioteket.
 
