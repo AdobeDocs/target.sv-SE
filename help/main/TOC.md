@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 3%
 
 ---
@@ -247,10 +247,11 @@ ht-degree: 3%
    + [Visual Experience Composer (SPA) med en sida](c-experiences/spa-visual-experience-composer.md)
    + Erbjudanden {#offers}
       + [Översikt över erbjudanden](c-experiences/c-manage-content/manage-content.md)
-      + [Betaversion av erbjudanden](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
+      + [Betaversion av erbjudanden](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
       + [Skapa erbjudandemapp](c-experiences/c-manage-content/create-content-folder.md)
-      + [Skapa betaversion av erbjudandemapp](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
+      + [Skapa betaversion av erbjudandemapp](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
       + [Överför innehåll](c-experiences/c-manage-content/assets-upload.md)
+      + [Överför eller ta bort bilderbjudanden](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
       + [Skapa omdirigeringserbjudanden](c-experiences/c-manage-content/offer-redirect.md)
       + [Skapa fjärrerbjudanden](c-experiences/c-manage-content/about-remote-offers.md)
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
