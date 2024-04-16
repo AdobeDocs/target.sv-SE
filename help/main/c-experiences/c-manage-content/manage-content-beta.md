@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: ebce41ea70be81ea0d27abee4b760117cc6ee10c
+source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Du kan utföra följande snabbåtgärder genom att klicka på lämplig ikon:
 
 ### Snabbinformation
 
-Klicka på **[!UICONTROL Quick Info]** -ikonen bredvid varje erbjudandenamn om du vill visa mer information om erbjudandet på ett popup-kort, inklusive erbjudande-ID, typ, datum då erbjudandet senast ändrades och av vem, med mera.
+Klicka på **[!UICONTROL Quick Info]** -ikonen bredvid varje erbjudandenamn om du vill visa mer information om erbjudandet på ett popup-kort, inklusive erbjudande-ID, typ, datum då erbjudandet senast ändrades och av vem, med mera. Vilka alternativ som är tillgängliga beror på erbjudandetypen: HTML, [JSON-erbjudande](/help/main/c-experiences/c-manage-content/create-json-offer.md), [Omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Fjärrerbjudande](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
 ![](/help/main/c-experiences/c-manage-content/assets/quick-actions.png)
 
@@ -70,7 +70,7 @@ Klicka på **[!UICONTROL Quick Info]** -ikonen bredvid varje erbjudandenamn om d
 
 Klicka på **[!UICONTROL More actions]** -ikonen (den vågräta ellipsen) bredvid varje erbjudandenamn för att öppna en meny där du kan utföra snabba åtgärder för en aktivitet. Följande åtgärder är tillgängliga (beroende på din behörighet och erbjudandestatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete]och [!UICONTROL Move].
 
-![Alternativet Fler åtgärder i biblioteket för målerbjudanden](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
+![Alternativet Fler åtgärder i målerbjudandebiblioteket](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
 
 * Redigera
 * Kopiera
@@ -100,64 +100,68 @@ Detaljerad information om de uppgifter du kan utföra på erbjudanden och mappar
 >
 >Bilderbjudandena ingår inte i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modell.
 
-## Visa definitioner för erbjudanden {#section_6B059DD121434E6292CAB393507D010E}
+<!--
 
-Du kan visa information om erbjudandedefinitioner på ett popup-kort i dialogrutan [!UICONTROL Offers] utan att öppna erbjudandet.
+## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
 
-Du kan till exempel få åtkomst till följande erbjudande för ett HTML genom att hovra över ett erbjudande på [!UICONTROL Content] och sedan klicka på informationsikonen:
+You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
 
-![offer-card-html-bild](assets/offer-card-html.png)
+For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
 
-Följande information finns:
+![offer-card-html image](assets/offer-card-html.png)
 
-* Namn
-* Källa
-* Typ
-* Erbjudande-ID
-* Erbjudandesökväg
-* Senast ändrad
+The following information is available:
 
-Klicka på [!UICONTROL Offer Usage] för att visa aktiviteter som refererar till ett koderbjudande i varje erbjudande. Den här funktionen gäller inte bilderbjudanden. På så sätt kan du undvika att andra aktiviteter påverkas när du redigerar erbjudanden. Informationen innehåller [!UICONTROL Live Activities] och [!UICONTROL Inactive Activities].
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer path 
+* Last Modified
 
-![bild av kortanvändning](assets/offer-card-usage.png)
+Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
 
-Följande kort för erbjudandedefinition för ett omdirigeringserbjudande:
+![offer-card-usage image](assets/offer-card-usage.png)
+
+The following offer definition card for a Redirect offer:
 
 ![offer-card-redirect image](assets/offer-card-redirect.png)
 
-Följande information finns:
+The following information is available:
 
-* Namn
-* Källa
-* Typ
-* Erbjudande-ID
-* Erbjudandesökväg
-* Senast ändrad
-* Omdirigeringsadress
-* Inkludera alla URL-parametrar (På eller Av)
-* Sessions-ID för lösenordssession (På eller Av)
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL 
+* Include all URL parameters (On or Off) 
+* Pass mbox session ID (On or Off)
 
-Följande kort för definition av erbjudande för ett fjärrerbjudande:
+The following offer definition card for a Remote offer:
 
-![erbjudandekort-fjärrbild](assets/offer-card-remote.png)
+![offer-card-remote image](assets/offer-card-remote.png)
 
-Följande information finns:
+The following information is available:
 
-* Namn
-* Källa
-* Typ
-* Erbjudande-ID
-* Erbjudandesökväg
-* Senast ändrad
-* Omdirigera URL-typ
-* Absolut eller relativ URL
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL Type 
+* Absolute or Relative URL
 
-## Utbildningsvideo: Innehållsarkivet ![Märket Översikt](/help/main/assets/overview.png)
+## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
 
-Den här videon innehåller information om hur du hanterar erbjudanden.
+This video includes information about managing offers.
 
-* Anslutning mellan [Experience Cloud resursbibliotek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
-* Erbjudanden för anpassade HTML
-* Anpassat HTML-erbjudande i Visual Experience Composer
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->
