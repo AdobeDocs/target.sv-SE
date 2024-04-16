@@ -3,9 +3,12 @@ keywords: innehåll;skapa mapp;resurser;flytta mapp;kopiera mapp;ta bort mapp;h�
 description: Hur skapar jag mappar i [!UICONTROL Offers] bibliotek?
 title: Lär dig hur du skapar mappar i [!UICONTROL Offers] bibliotek som innehåller kod och bilderbjudanden samt andra mappar.
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
+hide: true
+hidefromtoc: true
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
