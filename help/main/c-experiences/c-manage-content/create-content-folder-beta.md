@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Skapa mappar i [!DNL Adobe Target] [!UICONTROL Offer] bibliotek för koderbjudan
 
 Processen att skapa mappar för koderbjudanden och bilderbjudanden skiljer sig något. Följande avsnitt innehåller mer information.
 
-## Mappar för erbjudanden
+## [!UICONTROL Code Offer] mappar
 
 1. Klicka **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ Processen att skapa mappar för koderbjudanden och bilderbjudanden skiljer sig n
 
 Mer information om vilka åtgärder du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Mappar för bilderbjudande
+## [!UICONTROL Image Offer] mappar
 
 1. Klicka **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
