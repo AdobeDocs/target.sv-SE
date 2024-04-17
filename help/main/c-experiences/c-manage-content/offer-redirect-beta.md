@@ -6,7 +6,7 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 3fe1094ff5a2610207034c38d749ae031e7b8caf
+source-git-commit: bd19686d2aa716af64f520fb0be798a300ed9fa3
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
