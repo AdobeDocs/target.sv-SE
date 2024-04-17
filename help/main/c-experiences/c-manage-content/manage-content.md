@@ -4,9 +4,9 @@ description: Lär dig hantera kod- och bilderbjudanden med hjälp av Erbjudandeb
 title: Hur hanterar jag erbjudanden för kod och bilder?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
+source-git-commit: f93e33e91fb7be9c0d1772a2014864b46c1dfe47
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -69,60 +69,33 @@ Använd [!UICONTROL Offers] bibliotek i [!DNL Adobe Target] för att hantera kod
 
 Du kan visa information om erbjudandedefinitioner på ett popup-kort i dialogrutan [!UICONTROL Offers] utan att öppna erbjudandet.
 
-Du kan till exempel få åtkomst till följande erbjudande för ett HTML genom att hovra över ett erbjudande på [!UICONTROL Content] och sedan klicka på informationsikonen:
+Du kan till exempel få åtkomst till följande erbjudande för ett HTML genom att klicka på informationsikonen:
 
-![offer-card-html-bild](assets/offer-card-html.png)
-
-Följande information finns:
-
-* Namn
-* Källa
-* Typ
-* Erbjudande-ID
-* Erbjudandesökväg
-* Senast ändrad
-
-Klicka på [!UICONTROL Offer Usage] för att visa aktiviteter som refererar till ett koderbjudande i varje erbjudande. Den här funktionen gäller inte bilderbjudanden. På så sätt kan du undvika att andra aktiviteter påverkas när du redigerar erbjudanden. Informationen innehåller [!UICONTROL Live Activities] och [!UICONTROL Inactive Activities].
-
-![bild av kortanvändning](assets/offer-card-usage.png)
-
-Följande kort för erbjudandedefinition för ett omdirigeringserbjudande:
-
-![offer-card-redirect image](assets/offer-card-redirect.png)
+![offer-card-html-bild](assets/offer-card-html-new.png)
 
 Följande information finns:
 
 * Namn
-* Källa
-* Typ
 * Erbjudande-ID
-* Erbjudandesökväg
-* Senast ändrad
-* Omdirigeringsadress
-* Inkludera alla URL-parametrar (På eller Av)
-* Sessions-ID för lösenordssession (På eller Av)
-
-Följande kort för definition av erbjudande för ett fjärrerbjudande:
-
-![erbjudandekort-fjärrbild](assets/offer-card-remote.png)
-
-Följande information finns:
-
-* Namn
-* Källa
 * Typ
-* Erbjudande-ID
-* Erbjudandesökväg
 * Senast ändrad
-* Omdirigera URL-typ
-* Absolut eller relativ URL
 
-## Utbildningsvideo: Innehållsarkivet ![Märket Översikt](/help/main/assets/overview.png)
+Klicka på [!UICONTROL View Full Details] länk för att visa erbjudandets innehåll och de aktiviteter som refererar till ett koderbjudande. På så sätt kan du undvika att andra aktiviteter påverkas när du redigerar erbjudanden. Informationen innehåller [!UICONTROL Live Activities] och [!UICONTROL Inactive Activities].
 
-Den här videon innehåller information om hur du hanterar erbjudanden.
+Tillgänglig information på varje kort varierar beroende på erbjudandetyp: HTML Offer, [Upplevelsefragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Fjärrerbjudande](/help/main/c-experiences/c-manage-content/about-remote-offers.md), eller [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-* Anslutning mellan [Experience Cloud resursbibliotek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
-* Erbjudanden för anpassade HTML
-* Anpassat HTML-erbjudande i Visual Experience Composer
+Funktionen för erbjudandeinformation gäller inte för bilderbjudanden.
+
+<!--
+
+## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
+
+This video includes information about managing offers.
+
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->
