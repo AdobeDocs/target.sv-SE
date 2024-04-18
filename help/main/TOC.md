@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 3ddd97008dc40634de876851c2d798eb57a6a3ee
+source-git-commit: bd7e6cc206f0d38ee6672c37d836e40b8831da1c
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1244'
 ht-degree: 3%
 
 ---
@@ -255,6 +255,7 @@ ht-degree: 3%
       + [Skapa omdirigeringserbjudanden](c-experiences/c-manage-content/offer-redirect.md)
       + [Skapa omdirigeringserbjudanden](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
       + [Skapa fjärrerbjudanden](c-experiences/c-manage-content/about-remote-offers.md)
+      + [Create remote offers beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
       + [Arbeta med innehåll i biblioteket](c-experiences/c-manage-content/assets-working.md)
       + [Sök innehåll](c-experiences/c-manage-content/filter-and-search-content.md)
