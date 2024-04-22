@@ -4,9 +4,9 @@ description: Upptäck varför vissa webbplatser inte kan öppnas på ett tillfö
 title: Hur jag använder [!UICONTROL Visual Editing Helper] Tillägg?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] webbläsart
 
 >[!IMPORTANT]
 >
->Det nya tillägget ersätter det föregående [Webbläsartillägg för målets VEC-hjälp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln.
+>Det nya tillägget ersätter det föregående [Webbläsartillägg för målets VEC-hjälp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln. På grund av säkerhetsförbättringar i manifestet v3, [!DNL Adobe] kräver att det nya tillägget hämtas för att du ska kunna fortsätta att redigera dina webbplatser visuellt i [!DNL Target].
 
 ## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 
