@@ -4,9 +4,9 @@ description: Upptäck varför vissa webbplatser inte kan öppnas på ett tillfö
 title: Hur jag använder [!UICONTROL Visual Experience Composer] (VEC) Hjälptillägg?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,9 @@ VEC Helper-webbläsaren är en [!DNL Chrome] tillägg. Det här tillägget behö
 
 >[!IMPORTANT]
 >
->Aktuell [!DNL Target] Tillägget VEC Helper som beskrivs i den här artikeln skapades med Manifest v2. Google meddelade nyligen att man inte längre kommer att tillåta nya tillägg som skapats med Manifest v2 från och med juni 2024. Mer information finns i [Manifest V2 support timeline notification](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} från [!DNL Google] på *Chrome för utvecklare* webbplats.
+>Det gamla [!DNL Target] VEC Helper-tillägget som beskrivs i den här artikeln skapades med Manifest V2. [!DNL Google] meddelade att tillägg som skapats med Manifest V2 inte längre tillåts från och med juni 2024. Mer information finns i [Manifest V2 support timeline notification](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} från [!DNL Google] på *Chrome för utvecklare* webbplats.
 >
->Det befintliga tillägget fungerar fortfarande i Google Chrome. med början i juni 2024, [!DNL Adobe] kommer att börja inaktivera hjälptillägget som beskrivs i det här avsnittet och kräva att kunderna går över till det nyare [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
->
-Du kommer att meddelas via versionsinformation, ett meddelande i produkten och text i den här artikeln när det här tillägget inte längre fungerar. På grund av säkerhetsförbättringar i manifestet v3, [!DNL Adobe] hämtar det nya tillägget för att fortsätta att visuellt skapa dina webbplatser i [!DNL Target].
+>med början i juni 2024, [!DNL Google] börjar inaktivera tillägg som skapats med Manifest V2, inklusive tillägget som beskrivs i det här avsnittet. [!DNL Adobe] rekommenderar att kunderna går över till nyare [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) så snart som möjligt.
 
 ## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 
