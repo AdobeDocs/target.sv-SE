@@ -4,14 +4,14 @@ description: Lär dig hur du skapar JSON-erbjudanden i Adobe [!DNL Target] för 
 title: Hur skapar jag JSON-erbjudanden?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 45b81a2a77410947ce828cbea69e4dad7fc1cb03
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
-# Skapa JSON-erbjudanden
+# Create JSON offers
 
 Skapa JSON-erbjudanden i [!UICONTROL Offer Library] in [!DNL Adobe Target] för användning i [!UICONTROL Form-Based Experience Composer].
 
@@ -22,19 +22,19 @@ JSON-erbjudanden kan användas i blankettbaserade aktiviteter, där man kan anv�
 Tänk på följande när du arbetar med JSON:
 
 * JSON-erbjudanden är för närvarande bara tillgängliga för [!UICONTROL A/B Test], Automated Personalization (AP) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
-* JSON-erbjudanden kan användas i [formulärbaserad verksamhet](/help/main/c-experiences/form-experience-composer.md) endast.
+* JSON-erbjudanden kan användas i [blankettbaserad verksamhet](/help/main/c-experiences/form-experience-composer.md) endast.
 * JSON-erbjudandet kan hämtas direkt när du använder [API:er på serversidan och Mobile Node.js, Java, .NET och Python SDK:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* I webbläsaren kan JSON-erbjudanden ENDAST hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} genom att filtrera åtgärder med `setJson` åtgärd.
+* I webbläsaren kan JSON-erbjudanden ENDAST hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} genom att filtrera funktionsmakron med `setJson` åtgärd.
 * JSON-erbjudanden levereras som systemspecifika JSON-objekt i stället för som strängar. Konsumenter av dessa objekt behöver inte längre hantera objekt som strängar och konvertera dem till JSON-objekt.
 * JSON-erbjudanden tillämpas inte automatiskt i motsats till andra erbjudanden (till exempel erbjudanden från HTML) eftersom JSON-erbjudanden är icke-visuella erbjudanden. Utvecklare måste skriva kod för att explicit få erbjudandet med [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## Skapa ett JSON-erbjudande {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. Klicka **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
    ![Erbjudanden > fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Klicka **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
    ![offer-json image](assets/offer-json.png)
 
@@ -98,7 +98,7 @@ Låt oss säga att följande JSON-erbjudande levereras till din webbsida:
     "tags": [ 
       "esse", 
       "commodo", 
-      "excepteur", 
+      "excepteur"
     ], 
     "friends": [ 
       { 
@@ -108,7 +108,7 @@ Låt oss säga att följande JSON-erbjudande levereras till din webbsida:
       { 
         "id": 1, 
         "name": "Ollie Mooney" 
-      }, 
+      } 
     ], 
     "greeting": "Hello, Stephenson Fernandez! You have 4 unread messages.", 
     "favoriteFruit": "strawberry" 
