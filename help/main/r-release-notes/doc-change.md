@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i [!DNL Ad
 title: Var kan jag se dokumentationsuppdateringar för [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 83c6f67b141a3dbaf58df3b6b3b1172930939537
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Den här sidan innehåller viktiga ändringar av [!DNL Adobe Target] produktdoku
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 8 maj | [[!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Ny artikel: Lagt till information om [!DNL Target] integrering med [!DNL Adobe Customer Journey Analytics]. |
 | 30 april | [Felsökning relaterade till [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Uppdaterade listan över IP-adresser för Adobe-server som används för EEG-proxyn till tillåtslista. |
 | 23 april | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Information som förklarar Google plan för att inaktivera tillägg som skapats med Manifest V2 har lagts till. [!DNL Adobe] rekommenderar att kunderna går över till det nya [!UICONTROL Visual Editing Helper] tillägg så snart som möjligt. |
 | 23 april | [[!UICONTROL Visual Experience Composer] hjälptillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Viktigt meddelande uppdaterades högst upp på sidan med information om Google plan att börja inaktivera tillägg som skapats med Manifest V2, som innehåller det tillägg som beskrivs i den här artikeln. [!DNL Adobe] rekommenderar att kunderna går över till det nya [!UICONTROL Visual Editing Helper] tillägg så snart som möjligt. |
