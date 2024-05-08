@@ -3,10 +3,11 @@ keywords: json offer;create json offer
 description: Lär dig hur du skapar JSON-erbjudanden i för användning i [!UICONTROL Form-Based Experience Composer].
 title: Hur skapar jag JSON-erbjudanden?
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: true
+hidefromtoc: true
 source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -32,15 +33,17 @@ Tänk på följande när du arbetar med JSON:
 
 1. Klicka **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Erbjudanden > fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![Erbjudanden > fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Klicka **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Klicka **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![offer-json image](assets/offer-json.png)
+   ![offer-json image](assets/offer-json-new.png)
 
 1. Skriv ett erbjudandenamn.
+1. (Villkorligt) Om du har en [[!DNL Target] Premium-konto](/help/main/c-intro/intro.md#premium)väljer du [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Villkorligt) Välj önskade profilattribut.
 1. Skriv eller klistra in JSON-koden i **[!UICONTROL Code]** box.
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Create]**.
 
 ## JSON-exempel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -60,7 +63,7 @@ adobe.target.getOffer({
 });
 ```
 
-De åtgärder som skickas till motringningen är en objektmatris. Förutsatt att vi har ett enda JSON-erbjudande har det här innehållet:
+De åtgärder som skickas till motringningen är en objektmatris. Förutsatt att du har ett enda JSON-erbjudande har det här innehållet:
 
 ```json
 { 
@@ -139,6 +142,6 @@ Mer information finns i [Dela CDP-profilattribut i realtid med [!DNL Target]](/h
 
 ## Filtrera erbjudanden efter erbjudandetypen JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Du kan filtrera [!UICONTROL Offers] biblioteket efter erbjudandetypen för JSON genom att klicka på **[!UICONTROL Type]** nedrullningsbar lista genom att välja **[!UICONTROL JSON]** kryssrutan.
+Du kan filtrera [!UICONTROL Offers] biblioteket efter erbjudandetypen för JSON genom att klicka på **[!UICONTROL Show filters]** ikonen, sedan genom att välja **[!UICONTROL JSON]** kryssrutan.
 
-![offer-json-filter, bild](assets/offer-json-filter.png)
+![offer-json-filter, bild](assets/offer-json-filter-new.png)

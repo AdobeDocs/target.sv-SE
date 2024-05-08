@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
+source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '3180'
+source-wordcount: '3172'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Egenskaper aktiveras genom att ett specifikt namn/värde-par läggs till som en 
 
 Egenskaperna tillhör specifika kanaler (webb, mobil, e-post eller API/annan).
 
-### Arbetsyta (produktprofil)
+### Arbetsyta (produktprofil) {#workspace}
 
 Med en arbetsyta kan en organisation tilldela en viss uppsättning användare till en viss uppsättning egenskaper. På många sätt liknar en arbetsyta en rapportserie i [!DNL Adobe Analytics].
 
