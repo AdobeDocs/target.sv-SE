@@ -4,9 +4,9 @@ description: Läs om de nya funktionerna, förbättringarna och korrigeringarna 
 title: Vilka nya funktioner och förbättringar som ingår i de kommande [!DNL Target] Frisläpp?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target] releaser, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 28 februari 2024**
+**Senast uppdaterad: 8 maj 2024**
 
 >[!NOTE]
 >
@@ -23,20 +23,17 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utgivningsnumren inom parentes är för interna [!DNL Adobe] använd.
 
-## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
+## [!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics] (8 maj 2024)
 
-Den här versionen är schemalagd för följande dagar:
+Integrationen mellan [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} och [!DNL Target] innehåller kraftfulla analys- och tidsbesparande verktyg för optimeringsprogrammet.
 
-* **4 mars**: Europa, Mellanöstern och Afrika (EMEA)
-* **5 mars**: Asien-Stillahavsregionen (APAC)
-* **6 mars**: Amerika
+De främsta fördelarna med att använda [!DNL Customer Journey Analytics] som rapportkälla för [!DNL Target] är:
 
-Den här versionen innehåller följande förbättringar och korrigeringar:
+* Marknadsförare kan tillämpa [!DNL Customer Journey Analytics] framgångsmått till [!DNL Target] aktivitetsrapporter när som helst. Du behöver inte ange allt innan du kör aktiviteten.
+* Marknadsförarna kan utnyttja [!DNL Customer Journey Analytics] funktioner, som [Panelen Experimentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}för att ytterligare analysera webbplatspersonaliseringen.
+* Marknadsförarna kan ha en enda rapportkälla för [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} och [!DNL Target]. Båda personaliseringsprodukterna kan kopplas till [!DNL Customer Journey Analytics] för en mer helhetssyn på er webbpersonalisering.
 
-* Åtgärdade logiken som beräknar antalet unika väljare i en aktivitet. (TGT-47878)
-* Korrigerade ett problem som orsakade [!UICONTROL Multivariate] (MVT) aktiviteter konfigurerade med [!UICONTROL Analytics for Target] (A4T)-rapportering visas inte korrekt. (TGT-47490)
-* Förbättrade varningsmeddelandet som visas i rapporter när en upplevelse utan trafik används som kontrollupplevelse. (TGT-47537)
-* Flera åtgärder för backend och lokalisering har lagts till.
+Mer information finns i [Målrapportering i Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
 ## Ytterligare versionsinformation
 

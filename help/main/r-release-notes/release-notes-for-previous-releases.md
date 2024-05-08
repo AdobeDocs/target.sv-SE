@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '37672'
+source-wordcount: '37965'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,34 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) för information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium).
 
 ## Versionsinformation - 2024
+
+### [!UICONTROL Visual Experience Composer] förlängning av hjälpen (23 april 2024)
+
+Det gamla [!DNL Target] Hjälptillägget Visual Experience Composer skapades med Manifest V2. [!DNL Google] meddelade att tillägg som skapats med Manifest V2 inte längre tillåts från och med juni 2024. Mer information finns i [[!UICONTROL Visual Experience Composer] hjälptillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] rekommenderar att kunderna går över till nyare [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) så snart som möjligt.
+
+### Uppdateringar för `Browser:iPad` och `Browser:iPhone` in [!UICONTROL Browser] publikattribut (30 april 2024)
+
+| Uppdateringar | Information |
+|--- |--- |
+| [!UICONTROL Browser:iPad] och [!UICONTROL Browser:iPhone] uppdaterat i [Webbläsarattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md) används när målgrupper skapas. | [!DNL Adobe Target] låter dig [mål för någon av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive besökare som använder en viss [webbläsare](/help/main/c-target/c-audiences/c-target-rules/browser.md) när de besöker din sida.<P>Börja med [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024), inbyggda målgrupper som skapats med målgränssnittet, som `Browser:iPad` och `Browser:iPhone` kommer att uppdateras för att utföra korrekt målinriktning för [!DNL iPad] och [!DNL iPhone] använda `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` och `profile.mobile.isTablet`.<P>Uppdateringen kräver inga åtgärder från kundens sida.<p><B>Viktigt</b>: För att kunderna ska kunna målinrikta [!DNL iPad] och [!DNL iPhone] i profilskript (och JavaScript-segment) måste kunden göra manuella ändringar av **30 april 2024**. Exempel på alternativa inställningar som måste ändras manuellt finns i [Uppdateringar för [!DNL iPad] och [!DNL iPhone] in [!UICONTROL Browser] publikattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+### [!UICONTROL Visual Editing Helper] förlängning (14 mars 2024)
+
+Den här versionen innehåller följande förbättringar och korrigeringar för [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) tillägg för [!DNL Google Chrome]:
+
+* Förbättrade inläsningsfunktionen för iFrame när du redigerar på kundernas webbplatser.
+* Ett problem som orsakade att tillägget dubblerade cookies när redigering i dialogrutan utfördes har korrigerats [!UICONTROL Visual Experience Composer] (VEC)
+
+### [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
+
+Den här versionen innehåller följande förbättringar och korrigeringar:
+
+* Åtgärdade logiken som beräknar antalet unika väljare i en aktivitet. (TGT-47878)
+* Korrigerade ett problem som orsakade [!UICONTROL Multivariate] (MVT) aktiviteter konfigurerade med [!UICONTROL Analytics for Target] (A4T)-rapportering visas inte korrekt. (TGT-47490)
+* Förbättrade varningsmeddelandet som visas i rapporter när en upplevelse utan trafik används som kontrollupplevelse. (TGT-47537)
+* Flera åtgärder för backend och lokalisering har lagts till.
 
 ### [!DNL Target] Standard/Premium 24.1.1 (22 januari, 23 och 25 januari 2024)
 
@@ -570,7 +598,7 @@ Den här versionen innehåller följande nya funktioner:
 | --- | --- |
 | [!UICONTROL Audiences] Uppdatering av användargränssnittet | Som en del av [!DNL Adobe Target] teamets pågående arbete med att förbättra användarupplevelsen för [!DNL Target] användare, den här versionen uppdaterar [!UICONTROL Audiences] och [!UICONTROL Profile Scripts] sidor på [!DNL Target] Gränssnitt. Uppdateringen förenar och standardiserar designmönster som tidigare varit inkonsekventa, samtidigt som nya förbättringar läggs till, till exempel:<ul><li>Möjlighet att markera och ta bort flera målgrupper samtidigt</li><li>En uppdaterad [målgruppsbyggare](/help/main/c-target/c-audiences/create-audience.md)</li><li>Stöd för undantagsregel i [!UICONTROL Audience] biblioteksregelbyggaren</li><li>Ett nytt &quot;Audience Source&quot;-filter som ger snabbare målgruppsidentifiering</li><li>Alternativ för beständig sökning och filtrering av sessioner</li></ul>Mer information finns i [Målgrupper](/help/main/c-target/target.md). |
 | [!UICONTROL Profile Scripts] Uppdatering av användargränssnittet | The [!UICONTROL Profile Scripts] biblioteket uppdaterades också och innehåller ett uppdaterat gränssnitt samt flera produktivitetsuppdateringar:<ul><li>Möjlighet att markera och ta bort flera profilskript samtidigt</li><li>En ny kodredigerare för profilskript</li><li>Syntaxmarkering och felkontroll inuti kodredigeraren</li><li>Fyll i tokens-parametrar automatiskt (mbox eller profile) via kortkommandon</li></ul>Mer information finns i [Besökarprofiler](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Se vad som ingår i Target Premium."} Recommendations Criteria create and edit | The [!UICONTROL Recommendations Criteria] arbetsflödet för att skapa och redigera har effektiviserats för att förenkla valet av rätt rekommendationsalgoritm och inställningar för att uppnå dina mål.<br>Mer information finns i [Skapa villkor](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;Se vad som ingår i Target Premium.&quot;} Recommendations Criteria create and edit | The [!UICONTROL Recommendations Criteria] arbetsflödet för att skapa och redigera har effektiviserats för att förenkla valet av rätt rekommendationsalgoritm och inställningar för att uppnå dina mål.<br>Mer information finns i [Skapa villkor](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium-märke](/help/main/assets/premium.png) Förbättrad uppdateringsfrekvens för Recommendations-fönster och algoritm | Nu kan du köra algoritmerna&quot;Mest visade&quot; och&quot;Mest visade&quot; säljare&quot; med ett sextimmars uppslagsfönster för att fånga det innehåll som är mest aktuellt. När du har valt ett sextimmars uppslagsfönster uppdateras dina rekommendationer var 3:e till 6:e timme under hela dagen.<br>Mer information finns i [Datakälla](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Skapa villkor*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)
