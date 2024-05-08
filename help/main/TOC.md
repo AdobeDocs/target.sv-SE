@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 3%
@@ -89,7 +89,7 @@ ht-degree: 3%
          + [Dela mått, målgrupper och rapporter - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Äldre SiteCatalyst till Test&amp;Target-integrering - Vanliga frågor om A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Förväntade dataavvikelser mellan Target och Analytics när A4T används och inte används](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrera Target med Adobe Customer Journey Analytics {#cja} {#hidden}
+   + Integrera Target med Adobe Customer Journey Analytics {#cja}
       + [Målrapportering i Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integrera Target med Adobe Journey Optimizer (AJO) {#ajo}
       + [Använd offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)

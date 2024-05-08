@@ -3,13 +3,10 @@ keywords: kundreseanalys;kundreseanalys för mål;rapportkälla för kundreseana
 description: Använd [!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics] skapa aktiviteter baserade på [!DNL Customer Journey Analytics] konverteringsstatistik och målgruppssegment samt användning [!DNL Customer Journey Analytics] rapporter för att undersöka resultaten.
 title: Vad är [!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
-hide: true
-hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 8475365099315f3f8f2a47bfca9dd9f245b16720
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
