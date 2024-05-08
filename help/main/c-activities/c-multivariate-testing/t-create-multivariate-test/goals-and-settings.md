@@ -4,9 +4,9 @@ description: Lär dig använda [!UICONTROL Goals & Settings] sida in [!DNL Adobe
 title: Hur anger jag mål och inställningar i en [!UICONTROL Multivariate Test] Aktivitet?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
+source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -62,17 +62,23 @@ Följande inställningar är tillgängliga:
 
 ### Rapporteringskälla
 
-Ange om data samlas in från [!DNL Adobe Target] eller från [!DNL Adobe Analytics]. Se [Adobe Analytics som rapportkälla för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) för att lära dig mer om skillnaderna mellan rapporteringslösningarna och fördelarna med varje.
+Ange vilka lösningsdata som samlas in från:
 
-Vid val [!DNL Analytics] som rapportkälla för [!DNL Target]väljer du en [!DNL Analytics] rapportsvit att ta emot [!DNL Target] aktivitetsdata. Om du vill göra det måste du först välja något av de [!DNL Analytics] företag som ditt konto är knutet till och väljer sedan lämplig rapportsserie för aktiviteten. Rapportera endast programsviter som har etablerats för att ansluta till [!DNL Target] kan väljas. Om du inte ser den rapportserie du förväntar dig kan du först logga ut och logga in på [!DNL Adobe Experience Cloud] för att försöka igen. Om rapportsviten fortfarande saknas i listan kontaktar du [Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+* [!DNL Adobe Target]
+* [!DNL Adobe Analytics]
+* [!DNL Adobe Customer Journey Analytics]
 
-[!UICONTROL Analytics for Target] (A4T) kräver att en spårningsserver rapporterar resultaten korrekt. En standardspårningsserver visas i [!UICONTROL Tracking Server] fält. Om du använder mer än en spårningsserver måste du ta med rätt spårningsserver i det här fältet. Se [Använda en analysspårningsserver](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för mer information.
+Om en rapporteringslösning har angetts i [kontoinställningar](/help/main/administrating-target/reporting.md)används den angivna lösningen och den här inställningen syns inte.
 
-Om en rapporteringslösning anges i dina kontoinställningar används den angivna lösningen och den här inställningen syns inte.
+Du kan inte ändra rapportkällan efter att aktiviteten har publicerats för att rapporterna ska vara konsekventa.
 
->[!NOTE]
->
->Du kan inte ändra rapportkällan efter att aktiviteten har publicerats för att rapporterna ska vara konsekventa.
+**[!DNL Adobe Analytics]**: Se [[!DNL Adobe Analytics] som rapportkälla för [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) för att lära sig om skillnaderna mellan rapporteringslösningarna och fördelarna med varje lösning.
+
+Vid val [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T) väljer du en [!DNL Analytics] rapportsvit att ta emot [!DNL Target] aktivitetsdata. Om du vill göra det måste du först välja något av de [!DNL Analytics] företag som ditt konto är knutet till och väljer sedan lämplig rapportsserie för aktiviteten. Rapportera endast programsviter som har etablerats för att ansluta till [!DNL Target] kan väljas. Om du inte ser den rapportserie du förväntar dig kan du först logga ut och logga in på [!DNL Adobe Experience Cloud] för att försöka igen. Om rapportsviten fortfarande saknas i listan kontaktar du [Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
+[!DNL Analytics for Target] (A4T) kräver att en spårningsserver rapporterar resultaten korrekt. En standardspårningsserver visas i [!UICONTROL Tracking Server] fält. Om du använder mer än en spårningsserver måste du ta med rätt spårningsserver i det här fältet. Se [Använda en analysspårningsserver](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för mer information.
+
+**[!DNL Adobe Customer Journey Analytics]**: Se [[!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) för mer information om integrationen mellan [!DNL Adobe Customer Journey Analytics] och [!DNL Target].
 
 ### Målmått
 

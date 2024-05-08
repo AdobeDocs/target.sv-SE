@@ -4,16 +4,16 @@ description: Lär dig hur du använder rapportfunktionerna i Adobe [!DNL Target]
 title: Hur visar jag rapporter?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: a7a03cba466fbe7abfc8eb1f80292e1a2de7fe2d
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
 
 # Rapporter
 
-Rapporterna innehåller information om förloppet och resultaten av dina [!DNL Adobe Target] aktiviteter som hjälper er att fatta beslut baserat på era data. Rapportdata kan hjälpa er att avgöra när ni ska avsluta en aktivitet, visa er vilken upplevelse av erbjudandet som är vinnaren och ge er insikter eller inlärningar ni behöver för att avgöra nästa åtgärd.
+Rapporterna innehåller information om förloppet och resultaten av [!DNL Adobe Target] aktiviteter som hjälper er att fatta beslut baserat på era data. Rapportdata kan hjälpa er att avgöra när ni ska avsluta en aktivitet, visa er vilken upplevelse av erbjudandet som är vinnaren och ge er insikter eller inlärningar ni behöver för att avgöra nästa åtgärd.
 
 ## Visa en rapport {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
@@ -21,7 +21,7 @@ Rapporterna innehåller information om förloppet och resultaten av dina [!DNL A
 
    Om du har många aktiviteter kan du filtrera listan genom att välja alternativ på menyn [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type]och [!UICONTROL Activity Source] nedrullningsbara listor.
 
-   Du kan till exempel välja [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] från [!UICONTROL Type] nedrullningsbar lista och [!UICONTROL Live] från [!UICONTROL Status] nedrullningsbar lista om du bara vill visa A/B-tester och aktiviteter för Experience Targeting som är i ett aktivt läge.
+   Du kan till exempel välja [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] från [!UICONTROL Type] nedrullningsbar lista [!UICONTROL Live] från [!UICONTROL Status] nedrullningsbar lista om du bara vill visa A/B-tester och aktiviteter för Experience Targeting som är i ett aktivt läge.
 
    Följande bild visar [!UICONTROL Type] nedrullningsbar lista med två valda typer: [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting]. Observera att de tre typerna av A/B-tester (manuella, [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)och [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)) är markerat som standard. Du kan avmarkera en eller flera typer efter behov.
 
@@ -43,7 +43,7 @@ Rapporterna innehåller information om förloppet och resultaten av dina [!DNL A
    >Upplevelseresultat visas efter att minst en deltagare har sett upplevelsen.
 
 1. (Valfritt) [Konfigurera rapporten](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), efter behov.
-1. (Valfritt) [Ladda ned rapporten i CSV-format](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) för analys i Excel och andra verktyg.
+1. (Valfritt) [Hämta rapporten i CSV-format](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) för analys i Excel och andra verktyg.
 
    Följande alternativ är tillgängliga:
 
@@ -66,14 +66,15 @@ Rapporterna innehåller information om förloppet och resultaten av dina [!DNL A
 
 Utöver den allmänna rapporteringsinformationen i detta avsnitt och dess underavsnitt finns ytterligare information som är specifik för enskilda aktivitetstyper på annan plats i denna handbok:
 
-| Typ av aktivitet | Detaljer |
+| Typ av aktivitet | Information |
 |--- |--- |
 | [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md) | Att förstå lyft och förtroende samt de statistiska metoder som används för [!DNL Target], se [Planera ett A/B-test](/help/main/c-activities/t-test-ab/sample-size-determination.md). |
 | [Tolka autofördelningsrapporter](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Tolka resultatet av en [!UICONTROL Auto-Allocate] A/B-verksamhet genom att undersöka viktiga indikatorer, bland annat lyft och förtroende för [!DNL Target] Gränssnitt. |
 | [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | Information om [!UICONTROL Summary] Rapportera om AT-verksamhet. Mer information finns i [Sammanfattningsrapport för automatiskt mål](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).<br>Information om de två [!UICONTROL Personalization Insights] Rapporter om AT- och AP-verksamhet: [!UICONTROL Automated Segments] rapportera och [!UICONTROL Important Attributes] rapport. Mer information finns i [Insikter om personalisering - rapporter](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Information om de två [!UICONTROL Automated Personalization Summary] rapporter för AP-aktiviteter: [!UICONTROL Activity Level] rapportera och [!UICONTROL Offer Level] rapport. Mer information finns i [Automated Personalization - sammanfattningsrapporter](/help/main/c-reports/personalization-reports/reports-ap.md).<br>Information om de två [!UICONTROL Personalization Insights] Rapporter om AT- och AP-verksamhet: [!UICONTROL Automated Segments] rapportera och [!UICONTROL Important Attributes] rapport. Mer information finns i [Insikter om personalisering - rapporter](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
-| [Multivariata tester](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Information om de två rapporterna för MVT-aktiviteter: [!UICONTROL Experience Performance] rapportera och [!UICONTROL Location Contribution] rapport. Mer information finns i [Rapport om prestanda för upplevelser](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT) och  [Platsbidragsrapport](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT). |
+| [Multivariata tester](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Information om de två rapporterna för MVT-aktiviteter: [!UICONTROL Experience Performance] rapportera och [!UICONTROL Location Contribution] rapport. Mer information finns i [Rapport om prestanda för upplevelser](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT)  [Platsbidragsrapport](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT). |
 | [Adobe Analytics som rapportkälla för Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Information om hur du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Target]. A4T ger dig tillgång till [!DNL Analytics] rapporter för [!DNL Target] verksamhet. Mer information finns i [Analyser för målrapportering (A4T)](/help/main/c-reports/analytics-for-target-a4t-reporting.md). |
+| [[!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Information om integrationen mellan [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} och [!DNL Target] som ger kraftfulla analyser och tidsbesparande verktyg för optimeringsprogrammet. |
 
 ## Blockera rapporteringsdata från angivna IP-adresser
 

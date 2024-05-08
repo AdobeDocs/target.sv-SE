@@ -2,12 +2,12 @@
 keywords: Recommendations;Inställningar;namn;mål;prioritet;varaktighet;rapporteringsinställningar;andra metadata
 description: Lär dig hur du konfigurerar inställningarna som används för att beskriva och styra en Recommendations-aktivitet i Adobe Target.
 title: Hur konfigurerar jag aktivitetsinställningar för Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,24 @@ Aktiviteten kan starta när den är aktiverad eller du kan ange ett specifikt da
 
 ## Rapportinställningar
 
-* **Rapporteringskälla:** Välj rapportkälla: [!DNL Adobe Target] eller [Analyser](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Ändra inte rapportkällan efter att aktiviteten har publicerats. Om du ändrar rapportkällan efter att en aktivitet har publicerats blir rapporteringen inkonsekvent.
+* **Rapporteringskälla:** Ange vilka lösningsdata som samlas in från:
+
+   * [!DNL Adobe Target]
+   * [!DNL Adobe Analytics]
+   * [!DNL Adobe Customer Journey Analytics]
+
+  Om en rapporteringslösning har angetts i [kontoinställningar](/help/main/administrating-target/reporting.md)används den angivna lösningen och den här inställningen syns inte.
+
+  Du kan inte ändra rapportkällan efter att aktiviteten har publicerats för att rapporterna ska vara konsekventa.
+
+  **[!DNL Adobe Analytics]**: Se [[!DNL Adobe Analytics] som rapportkälla för [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) för att lära sig om skillnaderna mellan rapporteringslösningarna och fördelarna med varje lösning.
+
+  Vid val [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T) väljer du en [!DNL Analytics] rapportsvit att ta emot [!DNL Target] aktivitetsdata. Om du vill göra det måste du först välja något av de [!DNL Analytics] företag som ditt konto är knutet till och väljer sedan lämplig rapportsserie för aktiviteten. Rapportera endast programsviter som har etablerats för att ansluta till [!DNL Target] kan väljas. Om du inte ser den rapportserie du förväntar dig kan du först logga ut och logga in på [!DNL Adobe Experience Cloud] för att försöka igen. Om rapportsviten fortfarande saknas i listan kontaktar du [Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
+  [!DNL Analytics for Target] (A4T) kräver att en spårningsserver rapporterar resultaten korrekt. En standardspårningsserver visas i [!UICONTROL Tracking Server] fält. Om du använder mer än en spårningsserver måste du ta med rätt spårningsserver i det här fältet. Se [Använda en analysspårningsserver](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) för mer information.
+
+  **[!DNL Adobe Customer Journey Analytics]**: Se [[!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) för mer information om integrationen mellan [!DNL Adobe Customer Journey Analytics] och [!DNL Target].
+
 * **Målmått:** Välj det framgångsmått som avgör om aktiviteten lyckas eller inte.
 * **Ytterligare mått:** Konfigurera ytterligare framgångsmått som ska användas i dina rapporter.
 * **Målgrupper för rapportering:** Definiera målgrupper som kan användas vid filtrering av rapporter.
