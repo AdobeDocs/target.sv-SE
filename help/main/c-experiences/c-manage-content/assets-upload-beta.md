@@ -6,7 +6,8 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
+exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Överför eller ta bort bilderbjudanden
 
-Du kan överföra bilder till [!UICONTROL Image Offers] lista i [!DNL Adobe Target] som kan användas som bilderbjudanden i aktiviteter. Du kan också ta bort bilderbjudanden när de inte längre behövs i aktiviteter.
+Du kan överföra bilder till [!UICONTROL Image Offers] sida in [!DNL Adobe Target] som kan användas som bilderbjudanden i aktiviteter. Du kan också ta bort bilderbjudanden när de inte längre behövs i aktiviteter.
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Du kan överföra bilder till [!UICONTROL Image Offers] lista i [!DNL Adobe Targ
 
 1. Klicka **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Erbjudanden > Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![Erbjudanden > Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. Klicka **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. Bläddra till och markera det objekt som du vill lägga till och klicka sedan på **[!UICONTROL Open]**.

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1252'
 ht-degree: 3%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 3%
    + [Visual Experience Composer (SPA) med en sida](c-experiences/spa-visual-experience-composer.md)
    + Erbjudanden {#offers}
       + [Översikt över erbjudanden](c-experiences/c-manage-content/manage-content.md)
-      + [Betaversion av erbjudanden](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [Betaversion av erbjudanden](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [Skapa erbjudandemapp](c-experiences/c-manage-content/create-content-folder.md)
-      + [Skapa betaversion av erbjudandemapp](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [Skapa betaversion av erbjudandemapp](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [Överför innehåll](c-experiences/c-manage-content/assets-upload.md)
-      + [Överför eller ta bort bilderbjudanden](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [Ladda upp eller ta bort bilder erbjuder beta](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [Skapa omdirigeringserbjudanden](c-experiences/c-manage-content/offer-redirect.md)
-      + [Skapa omdirigeringserbjudanden](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [Create redirect offers beta](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [Skapa fjärrerbjudanden](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Create remote offers beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [Create remote offers beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
-      + [Create JSON offers beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [Create JSON offers beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Arbeta med innehåll i biblioteket](c-experiences/c-manage-content/assets-working.md)
-      + [Arbeta med innehåll i bibliotekets beta](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [Arbeta med innehåll i bibliotekets beta](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [Sök innehåll](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Överför dynamiska data till erbjudanden](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM upplevelse och innehållsfragment](c-experiences/c-manage-content/aem-experience-fragments.md)
