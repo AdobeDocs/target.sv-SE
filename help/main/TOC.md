@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
+source-git-commit: 5931aef4a16e6e9777112fdda4b3277f8e6f7386
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 3%
@@ -259,7 +259,7 @@ ht-degree: 3%
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
       + [Create JSON offers beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Arbeta med innehåll i biblioteket](c-experiences/c-manage-content/assets-working.md)
-      + [Arbeta med innehåll i bibliotekets beta](/help/main/c-experiences/c-manage-content/assets-working-beta)
+      + [Arbeta med innehåll i bibliotekets beta](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [Sök innehåll](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Överför dynamiska data till erbjudanden](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM upplevelse och innehållsfragment](c-experiences/c-manage-content/aem-experience-fragments.md)
