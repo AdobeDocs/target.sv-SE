@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!
 title: Hur felsöker jag problem som rör den förbättrade Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,15 @@ Detta kan du lösa genom att tillåtslista följande IP-adresser. Dessa IP-adres
 
 Be IT-teamet att tillåtslista följande IP-adresser:
 
+* 34 254 77 200
+* 54.73.207.147
+* 54.229.152.123
+* 3.224.194.242
+* 54.90.51.39
+* 34.228.136.112
+* 54.150.116.11
+* 18.178.142.8
+* 54.199.107.77
 * 99.80.139.221
 * 54.78.56.224
 * 54.247.179.246
@@ -66,7 +75,7 @@ Så här kontrollerar du TLS-versionen på din webbplats med Firefox (andra webb
 
    ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
 
-1. Om du ser att din webbplats visar TLS 1.0 kan du gå till [Krypteringsändringar för TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, kontakta [Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för konfiguration med TLS-versionen och domänen.
+1. Om du ser att din webbplats visar TLS 1.0 kan du gå till [Krypteringsändringar för TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} om du vill ha information om Target TLS-supportpolicy. För att avhjälpa situationen (gäller till den 12 september 2018){target=_blank}, kontakta [Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för konfiguration med TLS-versionen och domänen.
 
 ## Jag ser timeout-fel eller&quot;åtkomst nekad&quot;-fel när webbplatser med proxy aktiverat läses in. (endast EEG) {#section_60CBB9022DC449F593606C0E6252302D}
 
