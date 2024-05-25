@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: c6393642a8170e1f2ef207eb0daf972e380f79b5
+source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 3%
@@ -64,7 +64,7 @@ ht-degree: 3%
          + [Enterprise-användarbehörigheter](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurera företagsbehörigheter](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Ge Adobe I/O integreringar åtkomst till arbetsytor och tilldela roller](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Recommendations](/help/main/administrating-target/reommendations-settings.md)
+   + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
 + Implementera mål {#implement-target}
    + [Implementera målöversikt](c-implementing-target/implementing-target.md)
 + Integrera Target med Experience Cloud {#integrate}
