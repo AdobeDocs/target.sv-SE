@@ -4,20 +4,20 @@ description: Lär dig mer [!DNL Adobe Target] avgör vilken aktivitet (eller vil
 title: Hur [!DNL Target] Vill du tilldela prioritet till olika aktiviteter?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: 18765a82b5dca94654a412e2012a3f6c1a7b5128
+source-git-commit: f935b963d8686ca8991544a96720adfc32b1083e
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
 
 # Prioritet
 
-[!DNL Adobe Target] avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilken [!DNL Target] gränssnitt och funktion för att skapa aktiviteter ([[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) eller [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md)) som du använder.
+[!DNL Adobe Target] avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilken [!DNL Target] gränssnitt och funktion för att skapa aktiviteter ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) eller [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md)) som du använder.
 
 ## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] endast eller [!UICONTROL Form-Based Experience Composer] använda en global [!DNL Target] endast begäran {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-Om ditt företag använder [!DNL Target Standard/Premium] och [!UICONTROL Visual Experience Composer] exklusivt kan innehåll från flera aktiviteter returneras för samma anrop. Verksamheter levereras med hjälp av följande beslutsflöde:
+Om ditt företag använder [!DNL Target Standard/Premium] och VEC exklusivt kan innehåll från flera aktiviteter returneras för samma anrop. Verksamheter levereras med hjälp av följande beslutsflöde:
 
 1. The [!DNL Target] serversamtal kommer till [!DNL Target] med information om URL:en.
 1. [!DNL Target] Hämtar alla aktiviteter som körs på den URL:en.
@@ -43,18 +43,20 @@ Om ditt företag använder [!DNL Target Standard/Premium] och [!UICONTROL Visual
 
 >[!NOTE]
 >
->Den här informationen gäller även alla kampanjer som körs och som skapats i [!DNL Target Classic].
+>Denna information gäller även alla aktiviteter som körs och som skapats i [!DNL Target Classic].
 
-Om ditt företag använder [!UICONTROL Form-Based Experience Composer] in [!DNL Target Standard/Premium] och [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer], sedan innehåll från flera [!UICONTROL Visual Experience Composer] -aktiviteter kan leverera, men bara en aktivitet från det formulärbaserade arbetsflödet. Aktivitetsleveransen bestäms med hjälp av följande beslutsflöde:
+Om ditt företag använder [!UICONTROL Form-Based Experience Composer] *och* VEC, innehåll från flera [!UICONTROL Form-Based Experience Composer] och VEC-aktiviteter kan leverera. Tidigare kunde bara en aktivitet i det formulärbaserade arbetsflödet levereras. Det finns inte längre någon gräns för hur många formulärbaserade aktiviteter som kan leverera.
+
+Aktivitetsleveransen bestäms med hjälp av följande beslutsflöde:
 
 1. [!DNL Target] serversamtal kommer till [!DNL Target] med information om [!DNL Target] request och URL.
-1. [!DNL Target Classic] och [!DNL Target Standard/Premium] dra igång alla aktiviteter som körs i [!DNL Target] begäran.
+1. [!DNL Target Standard/Premium] hämtar all aktivitet som körs i [!DNL Target] begäran.
 1. [!DNL Target] försök att matcha besökaren med aktiviteter.
 
    Om besökaren redan är i en [!UICONTROL A/B Test] eller [!UICONTROL Multivariate Test] -aktivitet, matchar de i det testet tills de konverteras. Om de tidigare var i [!UICONTROL Experience Targeting] måste de matcha in i det igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
 
-1. Om en formulärbaserad aktivitet har högst prioritet returneras aktivitetsinnehållet tillsammans med allt matchande aktivitetsinnehåll från [!UICONTROL Visual Experience Composer] verksamhet.
-1. Om en [!UICONTROL Visual Experience Composer] aktiviteten har högsta prioritet, sedan innehåll från alla matchande [!UICONTROL Visual Experience Composer] aktiviteter returneras, men inte [!DNL Target Classic] eller formulärbaserat aktivitetsinnehåll returneras.
+1. Om en formulärbaserad aktivitet har högst prioritet returneras aktivitetsinnehållet tillsammans med allt matchande aktivitetsinnehåll från VEC-aktiviteter.
+1. Om en VEC-aktivitet har högst prioritet returneras innehåll från alla matchande VEC-aktiviteter, men inget [!DNL Target Classic] eller formulärbaserat aktivitetsinnehåll returneras.
 
    Resultaten från alla aktiviteter som körs på sidan räknas och återspeglas i rapporterna.
 
