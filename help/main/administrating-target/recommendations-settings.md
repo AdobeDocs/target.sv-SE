@@ -2,13 +2,15 @@
 keywords: rekommendationer;implementera rekommendationer;klientkod;autentiseringstoken;branschvertikal;filterinkompatibelt läge;standardvärdgrupp;miniatyrbas;generera autentiseringstoken;autentiseringstoken;
 description: Lär dig hur du konfigurerar inställningar för [!DNL Adobe Target Recommendations].
 title: Hur konfigurerar jag inställningarna för Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Administration & Configuration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
+exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
+source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
