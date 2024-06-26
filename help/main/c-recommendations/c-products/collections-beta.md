@@ -4,10 +4,11 @@ description: Lär dig hur du använder produktsamlingar eller artiklar i [!DNL T
 title: Hur använder jag samlingar i Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
-exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
+hide: true
+hidefromtoc: true
 source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Vanligtvis är en samling en uppsättning med liknande eller relaterade artiklar
 
 Använd samlingar för att ordna produkterna i logiska områden. Om vissa objekt till exempel är tillgängliga i en region men inte i en annan, kan du skapa en samling som utesluter objekt som inte är tillgängliga i besökarens region. Du kan också använda samlingar för att ordna säsongsobjekt eller andra organisationsparametrar som gäller för ditt företag.
 
-The [rekommendationer för säkerhetskopiering](/help/main/c-recommendations/c-algorithms/backup-recs.md) som genererats för varje villkor i rekommendationen använder även den här samlingen, så endast objekt i samlingen inkluderas i rekommendationen för säkerhetskopiering. Med samlingar kan du vara säker på att endast produkter som är bra att visa på en plats visas.
+[Rekommendationer för säkerhetskopiering](/help/main/c-recommendations/c-algorithms/backup-recs.md) som genererats för varje villkor i rekommendationen använder även den här samlingen, så endast objekt i samlingen inkluderas i rekommendationen för säkerhetskopiering. Med samlingar kan du vara säker på att endast produkter som är bra att visa på en plats visas.
 
 Samlingar byggs om eller uppdateras varje gång varje villkor körs.
 
@@ -40,23 +41,21 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
 1. Klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** om du vill visa en lista över befintliga samlingar.
 
-   ![Samlingslista](assets/collections_list.png)
+   ![Samlingslista](assets/collections-list.png)
 
-   The [!UICONTROL Collections] visas en lista med dina befintliga samlingar. Du skapar nya samlingar genom att klicka på [!UICONTROL Create Collection] -knappen. Du kan också redigera, kopiera och ta bort befintliga samlingar genom att hålla markören över den önskade samlingen och klicka på önskad ikon.
-
-   ![Hovringsikoner: redigera, kopiera och ta bort](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   The [!UICONTROL Collections] visas en lista med dina befintliga samlingar. Du skapar nya samlingar genom att klicka på [!UICONTROL Create Collection] -knappen. Du kan också redigera, kopiera och ta bort befintliga samlingar genom att klicka på ellipsikonen bredvid önskad samling och sedan klicka på önskat alternativ.
 
    Antal objekt som rapporteras för varje samling på [!UICONTROL Collections] listvyn är antalet produkter som matchar reglerna för den samlingen inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 
-1. (Villkorligt) Välj en miljö på **[!UICONTROL Environment]** filtrera när du skapar (eller uppdaterar) en samling för att förhandsgranska innehållet i samlingen i den miljön. Som standard visas resultat från standardvärdgruppen.
-
-   ![Skapa samling](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
+   ![Skapa samling](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. Skriv a **[!UICONTROL Name]** för samlingen.
 
    Du kan också ange ett valfritt **[!UICONTROL Description]**.
+
+1. (Villkorligt) Välj en [miljö](/help/main/administrating-target/environments.md) från **[!UICONTROL Environment]** filtrera när du skapar (eller uppdaterar) en samling för att förhandsgranska innehållet i samlingen i den miljön. Som standard visas resultat från standardvärdgruppen.
 
 1. Ange de regler som ska användas för att skapa samlingen.
 
@@ -64,11 +63,11 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
    Du kan lägga till regler för att använda flera parametrar för att definiera en samling. Flera regler kopplas till en AND-operator. Alla angivna regler måste matchas för att samlingen ska kunna användas.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Create]**.
 
-## Skapa en samling med avancerad sökning
+## Skapa en samling med [!UICONTROL Advanced Search]
 
-Du kan också skapa samlingar med Avancerad sökning på [Katalogsökning](/help/main/c-recommendations/c-products/catalog-search.md#save-as) sida ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Du kan också skapa samlingar med [!UICONTROL Advanced Search] på [Katalogsökning](/help/main/c-recommendations/c-products/catalog-search.md#save-as) sida ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![Spara som dialogruta](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -76,25 +75,25 @@ När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel 
 
 >[!IMPORTANT]
 >
->Funktionen för avancerad sökning är inte skiftlägeskänslig, men de produkter som returneras vid leveranstillfället baseras på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte.
+>The [!UICONTROL Advanced Search] är skiftlägeskänsligt, men de produkter som returneras vid leveranstillfället baseras på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar baserat på resultat med [!UICONTROL Advanced Search] funktionalitet. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte.
 
 ## Redigera, kopiera eller ta bort en samling
 
-Håll markören över önskad samling i listan och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
+Klicka på **ellips** bredvid önskad samling i listan och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
 
-![Hovringsikoner för en samling](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+![Hovringsikoner: redigera, kopiera och ta bort](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
 Du kan kopiera en befintlig samling för att skapa en dubblettsamling som du sedan kan ändra. På så sätt kan du skapa ett liknande undantag utan ansträngning.
 
 Observera att samlingar är tillgängliga för hela kontot. Tänk på detta innan du tar bort en samling. Borttagna samlingar kan inte återställas.
 
-## Använda en samling i en Recommendations-aktivitet
+## Använda en samling i en [!DNL Recommendations] aktivitet
 
 1. Skapa en samling med någon av metoderna ovan.
 
 1. Klicka **[!UICONTROL Activities]** och [skapa en ny Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) eller redigera en befintlig aktivitet.
 
-1. När du har valt ett villkor och en design visas [!UICONTROL Options] visas där du har valt önskad samling.
+1. När du har valt ett villkor och en design visas [!UICONTROL Options] visas där du väljer önskad samling.
 
    ![Välj samlingsalternativ](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 

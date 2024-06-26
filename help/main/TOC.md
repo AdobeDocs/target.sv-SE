@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: c2d553a9f292ff9942fe973c17040e003db8c60d
+source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1260'
 ht-degree: 3%
 
 ---
@@ -273,11 +273,11 @@ ht-degree: 3%
       + [Hämta data i en CSV-fil](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Statistikmetod {#statistical-methodology}
       + [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Personaliseringsrapporter {#personalization-reports}
+   + Personalization-rapporter {#personalization-reports}
       + [Sammanfattningsrapport för automatiskt mål](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization Sammanfattningsrapporter](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Rapport om personaliseringsinsikter {#insights}
-      + [Översikt över personaliseringsinsikter](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+   + Personalization Insights - rapport {#insights}
+      + [Översikt över Personalization Insights-rapporter](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport över automatiserade segment](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Viktiga attributrapporter](c-reports/c-personalization-insights-reports/important-attributes-report.md)
    + Multivariata testrapporter {#multivariate-test-reports}
@@ -298,6 +298,7 @@ ht-degree: 3%
       + [Katalogsökning](c-recommendations/c-products/catalog-search.md)
       + [Betaversion av katalogsökning](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [Samlingar](c-recommendations/c-products/collections.md)
+      + [Betaversion av samlingar](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Undantag](c-recommendations/c-products/exclusions.md)
    + Kriterier {#criteria}
       + [Villkorsöversikt](c-recommendations/c-algorithms/algorithms.md)
