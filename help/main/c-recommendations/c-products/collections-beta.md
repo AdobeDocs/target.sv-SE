@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -65,17 +65,17 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
 1. Klicka på **[!UICONTROL Create]**.
 
-## Skapa en samling med [!UICONTROL Advanced Search]
+<!-- ## Create a collection using [!UICONTROL Advanced Search]
 
-Du kan också skapa samlingar med [!UICONTROL Advanced Search] på [Katalogsökning](/help/main/c-recommendations/c-products/catalog-search.md#save-as) sida ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+You can also create collections using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![Spara som dialogruta](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel klicka på [!UICONTROL Save As] > [!UICONTROL Collection].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] är skiftlägeskänsligt, men de produkter som returneras vid leveranstillfället baseras på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar samlingar baserat på resultat med [!UICONTROL Advanced Search] funktionalitet. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan skapar en katalog med avsikten att returnera produkter som innehåller &quot;semester&quot; returneras endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; returneras inte.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. -->
 
 ## Redigera, kopiera eller ta bort en samling
 
@@ -100,12 +100,3 @@ Observera att samlingar är tillgängliga för hela kontot. Tänk på detta inna
 1. (Villkorligt) Om du vill ändra en befintlig samlingsinställning väljer du **[!UICONTROL Experiences]** sida (steg 2 i det guidade arbetsflödet i tre delar), klicka på en plats där du placerade dina rekommendationer, klicka **[!UICONTROL Change Collection]** väljer du sedan önskad samling.
 
    ![Ändra samlingsalternativ](/help/main/c-recommendations/c-products/assets/change-collection.png)
-
-## Utbildningsvideo: Skapa samlingar och undantag i Recommendations (7:05) ![Självstudiemärke](/help/main/assets/tutorial.png)
-
-Den här videon innehåller följande information:
-
-* Skapa en samling
-* Skapa ett undantag
-
->[!VIDEO](https://video.tv.adobe.com/v/27689)
