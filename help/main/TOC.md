@@ -3,10 +3,10 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 3%
+source-wordcount: '1284'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 3%
    + [Administrera målöversikt](administrating-target/administrating-target.md)
    + [Administratörssteg](administrating-target/start-target.md)
    + [Konfigurera Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
-   + Rapportering {#reporting}
+   + Rapporterar {#reporting}
       + [Konfigurera rapportering](/help/main/administrating-target/reporting.md)
       + [Uppskattad ökning av intäkterna](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7-konfiguration](administrating-target/scene7-settings.md)
@@ -60,15 +60,15 @@ ht-degree: 3%
       + Användare {#users}
          + [Översikt](administrating-target/c-user-management/c-user-management/user-management.md)
          + [Felsöka användarhantering](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
-      + Enterprise-användarbehörigheter {#enterprise}
+      + Företagsanvändarbehörigheter {#enterprise}
          + [Enterprise-användarbehörigheter](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurera företagsbehörigheter](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Ge Adobe I/O integreringar åtkomst till arbetsytor och tilldela roller](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
 + Implementera mål {#implement-target}
    + [Implementera målöversikt](c-implementing-target/implementing-target.md)
-+ Integrera Target med Experience Cloud {#integrate}
-   + Adobe Analytics som rapportkälla för Target (A4T) {#a4t}
++ Integrera mål med Experience Cloud {#integrate}
+   + Adobe Analytics som rapportkälla för mål (A4T) {#a4t}
       + [A4T - översikt](c-integrating-target-with-mac/a4t/a4t.md)
       + [Innan du implementerar](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analyser för Target-implementering](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -77,9 +77,9 @@ ht-degree: 3%
       + [A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Använda en analysspårningsserver](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T-rapportering](c-integrating-target-with-mac/a4t/reporting.md)
-      + Felsöka integreringen med Analytics och Target (A4T) {#troubleshoot-a4t}
+      + Felsökning av analys- och målintegrering (A4T) {#troubleshoot-a4t}
          + [Felsök A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-      + A4T Frågor och svar {#a4t-faq}
+      + A4T Vanliga frågor {#a4t-faq}
          + [Inledande etablering - Vanliga frågor om A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Aktivitetsinställningar - vanliga A4T-frågor](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Visa rapporter - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -90,13 +90,13 @@ ht-degree: 3%
          + [Dela mått, målgrupper och rapporter - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Äldre SiteCatalyst till Test&amp;Target-integrering - Vanliga frågor om A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Förväntade dataavvikelser mellan Target och Analytics när A4T används och inte används](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrera Target med Adobe Customer Journey Analytics {#cja}
+   + Integrera mål med Adobe Customer Journey Analytics {#cja}
       + [Målrapportering i Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Integrera Target med Adobe Journey Optimizer (AJO) {#ajo}
+   + Integrera mål med Adobe Journey Optimizer (AJO) {#ajo}
       + [Använd offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrera [!DNL Adobe Target Recommendations] och [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Integrera Target med Adobe Experience Manager (AEM) {#aem}
+   + Integrera mål med Adobe Experience Manager (AEM) {#aem}
       + [Integrera Target med AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Upplev fragment och innehållsfragment {#fragments}
          + [Översikt över AEM Experience Fragments och Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
@@ -105,7 +105,7 @@ ht-degree: 3%
    + [Integrera Target med Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrera med Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrera Target med Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
-+ Verksamhet {#activities}
++ Aktiviteter {#activities}
    + [Översikt över aktiviteter](c-activities/activities.md)
    + [Målaktivitetstyper](c-activities/target-activities-guide.md)
    + A/B-test {#abtest}
@@ -122,7 +122,7 @@ ht-degree: 3%
          + [Använd analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Målgrupper med olika upplevelser i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-   + Automatisk allokering {#auto-allocate}
+   + Autoallokera {#auto-allocate}
       + [Automatisk allokering - översikt](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -155,11 +155,11 @@ ht-degree: 3%
          + [Byta upplevelser i Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
          + [Mål och inställningar](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Ange mått](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
-   + Multivariata tester {#multivariate-test}
+   + Multivariattest {#multivariate-test}
       + [Översikt över multivariata tester](c-activities/c-multivariate-testing/multivariate-testing.md)
       + [Metodtips för multivariata tester](c-activities/c-multivariate-testing/best-practices.md)
       + [Planera ett multivariata test](c-activities/c-multivariate-testing/plan-mvt.md)
-      + Skapa ett multivariata test {#create-mvt}
+      + Skapa ett multivariattest {#create-mvt}
          + [Skapa ett test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
          + [Aktivitets-URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
          + [Skapa kombinationer](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
@@ -173,7 +173,7 @@ ht-degree: 3%
    + [Redigera en aktivitet eller spara som utkast](c-activities/edit-activity.md)
    + [Prioritet](c-activities/priority.md)
    + [Aktivitetsinställningar](c-activities/activity-settings.md)
-   + Framgångsmått {#success-metrics}
+   + Resultatmått {#success-metrics}
       + [Framgångsmått](c-activities/r-success-metrics/success-metrics.md)
       + [Klickspårning](c-activities/r-success-metrics/click-tracking.md)
       + [Hämta poäng](c-activities/r-success-metrics/capture-score.md)
@@ -217,7 +217,7 @@ ht-degree: 3%
       + [Kundattribut](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Profilsynkronisering i realtid för mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Profil och variabel ordlista](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
-   + Mål och målgrupper Frågor och svar {#faq-audiences}
+   + Mål och målgrupper - frågor och svar {#faq-audiences}
       + [Mål och målgrupper Frågor och svar](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Erfarenheter och erbjudanden {#experiences}
    + [Erfarenheter och erbjudanden - översikt](c-experiences/experiences.md)
@@ -233,7 +233,7 @@ ht-degree: 3%
       + [Elementväljare som används i Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-selectors.md)
       + [Mobila visningsportar för responsiva upplevelser](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [Bästa praxis och begränsningar för Visual Experience Composer](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
-      + Felsöka Visual Experience Composer {#troubleshoot-composer}
+      + Felsökning av Visual Experience Composer {#troubleshoot-composer}
          + [Felsöka översikten för Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Felsöka Visual Experience Composer och Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Felsöka Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
@@ -271,12 +271,12 @@ ht-degree: 3%
       + [Visa flera mätvärden i en rapport](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Exkludera extrema värden](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [Hämta data i en CSV-fil](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
-   + Statistikmetod {#statistical-methodology}
+   + Statistisk metod {#statistical-methodology}
       + [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Personalization-rapporter {#personalization-reports}
+   + Personalization rapporterar {#personalization-reports}
       + [Sammanfattningsrapport för automatiskt mål](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization Sammanfattningsrapporter](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Personalization Insights - rapport {#insights}
+   + Personalization Insights-rapport {#insights}
       + [Översikt över Personalization Insights-rapporter](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport över automatiserade segment](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Viktiga attributrapporter](c-reports/c-personalization-insights-reports/important-attributes-report.md)
@@ -301,13 +301,18 @@ ht-degree: 3%
       + [Betaversion av samlingar](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Undantag](c-recommendations/c-products/exclusions.md)
       + [Betaversion av undantag](/help/main/c-recommendations/c-products/exclusions-beta.md)
-   + Kriterier {#criteria}
+   + Kriterium {#criteria}
       + [Villkorsöversikt](c-recommendations/c-algorithms/algorithms.md)
+      + [Villkorsöversikt beta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [Skapa villkor](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [Skapa villkorsbetaversion](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [Skapa villkorssekvenser](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [Skapa villkorssekvenser beta](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [Basera rekommendationen på en rekommendationsnyckel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Basera rekommendationen på en betaversion av en rekommendationsnyckel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Forskningen bakom Target:s rekommendationsalgoritmer](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Överför anpassade villkor](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [Ladda upp betaversion av anpassade kriterier](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Dynamiska och statiska inkluderingsregler {#dynamic-static}
          + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Matchning av enhetsattribut](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
@@ -329,7 +334,7 @@ ht-degree: 3%
       + [Recommendations aktivitetsinställningar](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Förhandsgranska och starta din Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations som erbjudande](c-recommendations/recommendations-as-an-offer.md)
-   + Frågor och svar {#recommendations-faq}
+   + Vanliga frågor {#recommendations-faq}
       + [RECOMMENDATIONS FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Integrera Recommendations med e-post](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [IP-adresser som används av Recommendations feed-bearbetningsservrar](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
