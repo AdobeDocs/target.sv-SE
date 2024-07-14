@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1291'
 ht-degree: 2%
 
 ---
@@ -315,6 +315,7 @@ ht-degree: 2%
       + [Ladda upp betaversion av anpassade kriterier](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Dynamiska och statiska inkluderingsregler {#dynamic-static}
          + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Använd betaversion av dynamiska och statiska inkluderingsregler](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Matchning av enhetsattribut](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Profilattributsmatchning](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [Parametermatchning](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
