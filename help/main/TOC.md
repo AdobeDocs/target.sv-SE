@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
+source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1305'
 ht-degree: 2%
 
 ---
@@ -317,9 +317,13 @@ ht-degree: 2%
          + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Använd betaversion av dynamiska och statiska inkluderingsregler](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Matchning av enhetsattribut](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Enhetsattribut som matchar beta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [Profilattributsmatchning](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Profilattribut som matchar beta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [Parametermatchning](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Parameter som matchar beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [Statiskt filter](/help/main/c-recommendations/c-algorithms/static-value.md)
+         + [Statiskt filter beta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Använd en rekommendation för säkerhetskopiering](c-recommendations/c-algorithms/backup-recs.md)
       + [Arbeta med attribut för flera värden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Använd Adobe Analytics med Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
