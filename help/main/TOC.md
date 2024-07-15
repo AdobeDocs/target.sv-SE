@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1320'
 ht-degree: 2%
 
 ---
@@ -325,8 +325,11 @@ ht-degree: 2%
          + [Statiskt filter](/help/main/c-recommendations/c-algorithms/static-value.md)
          + [Statiskt filter beta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Använd en rekommendation för säkerhetskopiering](c-recommendations/c-algorithms/backup-recs.md)
+      + [Använd en rekommendation för säkerhetskopiering](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [Arbeta med attribut för flera värden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Arbeta med betaversioner av flervärdesattribut](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Använd Adobe Analytics med Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Använd Adobe Analytics med Recommendations beta](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + Design {#recommendations-design}
       + [Designöversikt](c-recommendations/c-design-overview/design-overview.md)
       + [Skapa en design](c-recommendations/c-design-overview/create-design.md)
