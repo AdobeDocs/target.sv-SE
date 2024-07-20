@@ -1,6 +1,6 @@
 ---
 keywords: multivalue;attributes;recommendations;multi-value;multivalue;multi-value
-description: Lär dig hur du arbetar med ett flervärdesfält i Adobe [!DNL Target] Recommendations med särskilda operatorer för flera värden, till exempel, när du rekommenderar filmer med flera skådespelare.
+description: Lär dig hur du arbetar med ett flervärdesfält i Adobe [!DNL Target] Recommendations med hjälp av särskilda flervärdesoperatorer, till exempel, när du rekommenderar filmer med flera skådespelare.
 title: Kan jag använda attribut med flera värden i Recommendations?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
@@ -19,9 +19,9 @@ Ibland kanske du vill arbeta med ett fält med flera värden. Titta på följand
 * Du säljer biljetter till konserter. En viss användare har flera favoritband.
 * Du säljer kläder. En skjorta finns i flera storlekar.
 
-Om du vill hantera rekommendationer i de här scenarierna kan du skicka data med flera värden till [!DNL Target Recommendations] och använd särskilda operatorer för flera värden.
+Om du vill hantera rekommendationer i de här scenarierna kan du skicka data med flera värden till [!DNL Target Recommendations] och använda speciella operatorer med flera värden.
 
-Tillåt [!DNL Recommendations] för att identifiera data med flera värden ska de skickas som en JSON-array, som i kodexemplen nedan.
+Om du vill att [!DNL Recommendations] ska kunna identifiera data med flera värden, ska det skickas som en JSON-matris, som i nedanstående kodexempel.
 
 ## Skicka en flervärdesparameter i JavaScript
 
@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-Mer information finns i [Implementera attribut med flera värden](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Anpassade entitetsattribut*.
+Mer information finns i [Implementera attribut med flera värden](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) i *Anpassade entitetsattribut*.
 
 ## Skicka ett entitetsattribut med flera värden i en CSV-fil
 
@@ -59,7 +59,7 @@ Mer information finns i [Implementera attribut med flera värden](/help/main/c-r
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-När ett entitetsattribut, profilattribut eller en mbox-parameter anges som ett flervärde enligt ovanstående format, [!DNL Recommendations] infogar automatiskt att fältet har flera värden.
+När ett entitetsattribut, profilattribut eller mbox-parameter anges som flervärde enligt ovanstående format, visar [!DNL Recommendations] automatiskt att fältet är flervärde.
 
 Följande operatorer är tillgängliga för användning med entitets-, profil- och mbox-attribut med flera värden:
 
@@ -74,7 +74,7 @@ Följande operatorer är tillgängliga för användning med entitets-, profil- o
 
 ### Exempel: Uteslut nyligen bevakade objekt
 
-Anta att du vill förhindra att filmer som finns i användarens senaste tio bevakade filmer rekommenderas. Först skriver du ett profilskript som kallas `user.lastWatchedMovies` för att spåra de tio senast visade filmerna som en JSON-array. Sedan kan du exkludera objekten med följande inkluderingsregel:
+Anta att du inte vill att filmer som finns i användarens senaste tio bevakade filmer ska kunna rekommenderas. Först skriver du ett profilskript med namnet `user.lastWatchedMovies` för att spåra de tio senast visade filmerna som en JSON-array. Sedan kan du exkludera objekten med följande inkluderingsregel:
 
 ```
 `Profile Attribute Matching`
@@ -96,7 +96,7 @@ JSON API-representation av inkluderingsregeln:
 
 ### Exempel: Rekommendera objekt från användarens favoriter
 
-Anta att du bara vill rekommendera biljetter till konserter om bandet som spelas är ett av användarens favoritband. Kontrollera först att du har en profilvariabel som kallas `profile.favoriteBands` som innehåller användarens favoritband. Se sedan till att katalogen innehåller ett attribut `entity.artistPerforming` som omfattar konstnären som utför konserten. Sedan kan du använda följande inkluderingsregel:
+Anta att du bara vill rekommendera biljetter till konserter om bandet som spelas är ett av användarens favoritband. Kontrollera först att du har en profilvariabel med namnet `profile.favoriteBands` som innehåller användarens favoritband. Kontrollera sedan att din katalog innehåller attributet `entity.artistPerforming` som innehåller artisten som utför konserten. Sedan kan du använda följande inkluderingsregel:
 
 ```
 `Profile Attribute Matching`
@@ -118,7 +118,7 @@ JSON API-representation av inkluderingsregeln:
 
 ### Exempel: API-generering av villkor som rekommenderar objekt från en användares favoriter
 
-Kriterier med flervärdesfiltreringsregler, precis som alla villkor, kan skapas via Adobe I/O API:er. Ett exempel-API-anrop för att skapa ett villkor där entitetsattributet `id` finns i parameterlistan för mbox `favorites` anges här:
+Kriterier med flervärdesfiltreringsregler, precis som alla villkor, kan skapas via Adobe I/O API:er. Ett exempel-API-anrop för att skapa ett villkor där entitetsattributet `id` finns i mbox-parameterlistan `favorites` anges här:
 
 ```
 curl -X POST \
@@ -155,7 +155,7 @@ curl -X POST \
 }'
 ```
 
-Den här kombineras med JavaScript på sidan för att skicka favoritinnehållet:
+Detta paras med JavaScript på sidan för att skicka in favoritinnehållet:
 
 ```
 <!-- pass in the value of mbox parameter “favorites” as JSON array -->

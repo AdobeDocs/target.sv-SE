@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Använd en rekommendation för säkerhetskopiering
 
-Om du använder funktionen för rekommenderad säkerhetskopiering i [!DNL Adobe Target]kommer inte standardinnehåll att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
+Om du använder funktionen för rekommenderad säkerhetskopiering i [!DNL Adobe Target] kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 
 Om du inte använder en rekommendation för säkerhetskopiering och en rekommendation inte har tillräckligt många objekt för att fylla skärmen, visas standardinnehållet för användaren.
 
 >[!NOTE]
 >
->Ytterligare information finns i [Innehållsavsnitt i Skapa-villkoret](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) , inklusive en matris som förklarar de resultat du kommer att se när du använder [!UICONTROL Partial Design Rendering] och [!UICONTROL Show Backup Recommendations] tillsammans eller separat.
+>Ytterligare information finns i avsnittet [Innehåll i avsnittet Skapa villkor](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), inklusive en matris som förklarar resultaten du kommer att se när du använder alternativen [!UICONTROL Partial Design Rendering] och [!UICONTROL Show Backup Recommendations] tillsammans eller separat.
 
-Funktionen för rekommendation av säkerhetskopiering använder alltid de mest visade objekten på webbplatsen för att fylla i återstående platser efter att algoritmens data har använts. Mallen är till exempel konfigurerad att visa fem rekommenderade objekt och du använder *Inköpstillhörigheter* algoritm. Men du har bara tillräckligt med data för att fylla två av de fem kortplatserna, så funktionen för rekommendation av säkerhetskopiering fyller de andra tre platserna med toppvisade objekt.
+Funktionen för rekommendation av säkerhetskopiering använder alltid de mest visade objekten på webbplatsen för att fylla i återstående platser efter att algoritmens data har använts. Mallen är till exempel konfigurerad att visa fem rekommenderade objekt och du använder algoritmen *Inköpstillhörigheter*. Men du har bara tillräckligt med data för att fylla två av de fem kortplatserna, så funktionen för rekommendation av säkerhetskopiering fyller de andra tre platserna med toppvisade objekt.
 
 Rekommendationer för säkerhetskopiering väljs slumpmässigt bland de 500 mest visade produkterna på hela webbplatsen. Datatidperioden för rekommendationer för säkerhetskopiering är en vecka.
 
@@ -49,4 +49,4 @@ Dubbletter tas bort från grupper med rekommendationer.
 
 Att använda rekommendationer för säkerhetskopiering är vanligtvis en del av diskussionen med implementeringsteamet under din första konfiguration. Kontakta din kontoansvarige om du vill ändra inställningen för rekommenderad säkerhetskopiering efter implementeringen.
 
-Om Aktivera partiell designåtergivning (se [Innehållsinställningar](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) är inte aktiverat och mallen inte visas. I stället visas rekommendationen eller standardinnehållet.
+Om Aktivera partiell designåtergivning (se [Innehållsinställningar](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) inte är aktiverat och mallen inte visas, visas antingen säkerhetskopieringsrekommendationen eller standardinnehållet.

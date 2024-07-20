@@ -1,43 +1,47 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;lift;ad hoc;report builder;trust
-description: Hitta svar på frågor om lyft och självförtroende när ni använder Analytics för [!DNL Target] (A4T). Med A4T kan ni använda analysrapporter för [!DNL Target] verksamhet.
+description: Hitta svar på frågor om lyft och förtroende när du använder Analytics för  [!DNL Target] (A4T). Med A4T kan du använda Analytics-rapportering för  [!DNL Target] aktiviteter.
 title: Var hittar jag information om lyft och självförtroende med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Lyft och tillförsikt - A4T FAQ
 
-Det här avsnittet innehåller svar på frågor som ofta ställs om lyft och självförtroende när man använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target] (A4T).
+Det här avsnittet innehåller svar på frågor som ofta ställs om lift och trust när [!DNL Adobe Analytics] används som rapportkälla för [!DNL Adobe Target] (A4T).
 
 ## Kan jag utföra offlineberäkningar för A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-+++Svar Du kan utföra offlineberäkningar för A4T, men det krävs ett steg med dataexport i [!DNL Analytics]. Mer information finns i [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
++++Svar
+Du kan utföra offlineberäkningar för A4T, men det krävs ett steg med dataexporter i [!DNL Analytics]. Mer information finns i [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 
 ## Hur beräknas lift? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
-+++Besvaringslyft är den procentuella skillnaden mellan kontrollsidans resultat och en lyckad testvariant.
++++Svar
+Lyft är procentskillnaden mellan kontrollsidans resultat och en lyckad testvariant.
 
 +++
 
 ## Hur beräknas förtroendet? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-+++Svar Konfidensnivån är en sannolikhet, uttryckt i procent, som är lika med `1 - p-value`, där `p-value` beräknas från ett t-test. Se [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
++++Svar
+Konfidensnivån är en sannolikhet, uttryckt i procent, som är lika med `1 - p-value`, där `p-value` beräknas från ett t-test. Se [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 
 ## Varför kan jag inte se lyft och självförtroende för beräknade mätvärden? {#lift-confidence}
 
-+++Besvara beräknade värden stöds för närvarande inte i lyftnings- och förtroendefunktioner. Analyser beräknar mätvärden på aggregeringsnivå i stället för på besökarnivå. Särskilt förtroendet är en beräkning på besökarnivå.
++++Svar
+Beräknade mätvärden stöds för närvarande inte för lyftnings- och förtroendefunktioner. Analyser beräknar mätvärden på aggregeringsnivå i stället för på besökarnivå. Särskilt förtroendet är en beräkning på besökarnivå.
 
-Icke-beräknade (standard) händelser stöds i lift och Confidence. De blir täljare i lyftfunktionen. täljaren kan inte vara en beräkning i sig. Nämnaren är normaliseringsmåtten (visningar, besök eller besökare). Exempel på standardhändelser är order, intäkter, aktivitetskonverteringar, anpassade händelser 1-1000 och så vidare. Vanliga optimeringsmått, som konversationshastighet (beställningar/besökare) och RPV (intäkt/besökare) stöds för lyft och förtroende.
+Icke-beräknade (standard) händelser stöds i lift och Confidence. De blir täljare i lyftfunktionen. Täljaren kan inte vara en beräkning i sig. Nämnaren är normaliserande mått (visningar, besök eller besökare). Exempel på standardhändelser är order, intäkter, aktivitetskonverteringar, anpassade händelser 1-1000 och så vidare. Vanliga optimeringsmått, som konversationshastighet (beställningar/besökare) och RPV (intäkt/besökare) stöds för lyft och förtroende.
 
 Exempel på mätvärden eller användningsfall som inte stöds är:
 
@@ -55,5 +59,6 @@ Exempel på mätvärden eller användningsfall som inte stöds är:
 
 ## Jobbar hiss och självförtroende i Ad Hoc och Report Builder? Kan jag göra det själv om det inte är inbyggt? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
-+++Besvara Lyft och förtroende fungerar inte i Ad Hoc eller Report Builder och kan inte beräknas själv för kontinuerliga variabler. Det går att beräkna den manuellt för binära mått.
++++Svar
+Lyft och förtroende fungerar inte i Ad Hoc eller Report Builder och kan inte beräknas själv för kontinuerliga variabler. Det går att beräkna den manuellt för binära mått.
 +++

@@ -1,7 +1,7 @@
 ---
 keywords: sammanfattning
-description: Visa en [!UICONTROL Multivariate Test] (MVT) aktivitetens sammanfattning som ger en visuell översikt över din aktivitet i [!DNL Adobe Target].
-title: Hur kan jag visa en [!UICONTROL Multivariate Test] (MVT) Sammanfattning av aktivitet?
+description: Visa en sammanfattning av en [!UICONTROL Multivariate Test]-aktivitet (MVT) som ger en visuell översikt över din aktivitet i  [!DNL Adobe Target].
+title: Hur visar jag sammanfattningen för en [!UICONTROL Multivariate Test]-aktivitet (MVT)?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
 source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Testsammanfattningen ger en visuell översikt över [!DNL Adobe Target] [!UICONTROL Multivariate Test].
 
-![Testsammanfattning, dialogruta](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
+![Dialogrutan Testsammanfattning](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 
 Testsammanfattningen visar:
 
@@ -25,4 +25,4 @@ Testsammanfattningen visar:
 * Algoritm: Den enda tillgängliga algoritmen är [!UICONTROL Full Factorial]. Algoritmnamnet anges i informationssyfte, så du är medveten om vilken algoritm som används.
 * Antalet inkluderade och exkluderade upplevelser.
 
-Klicka **[!UICONTROL Continue]** när du är nöjd med testkonfigurationen. Sidan Mål och inställningar öppnas.
+Klicka på **[!UICONTROL Continue]** när du är nöjd med testkonfigurationen. Sidan Mål och inställningar öppnas.

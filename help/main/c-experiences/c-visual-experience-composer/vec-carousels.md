@@ -15,7 +15,7 @@ ht-degree: 0%
 
 I det här avsnittet visas hur du skapar en karusell som kan redigeras i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 
-När du använder stegen nedan [!DNL Target] alltid vet att den markerade bildrutan kommer att ha väljaren för rätt bildruta, även om den ändras i Visual Experience Composer efter några sekunder.
+När du använder stegen nedan vet [!DNL Target] alltid att den valda bildrutan kommer att ha väljaren för rätt bildruta, även om den ändras i Visual Experience Composer efter några sekunder.
 
 1. Skapa statiska platshållare för HTML.
 
@@ -33,7 +33,7 @@ När du använder stegen nedan [!DNL Target] alltid vet att den markerade bildru
 
    >[!NOTE]
    >
-   >The [!UICONTROL Render Using JavaScript] för närvarande stöds inte om det används tillsammans med anpassad kod i Visual Experience Composer.
+   >Alternativet [!UICONTROL Render Using JavaScript] stöds för närvarande inte om det används tillsammans med anpassad kod i Visual Experience Composer.
 
 1. Uppdatera bara classNames för att dölja andra och visa nästa med timern/animeringen.
 

@@ -1,33 +1,33 @@
 ---
 keywords: multivariat test;mvt;full factorial;mvt eller a/b;multivariate a/b;trafikskattare;när mvt;mvt Consider;multivariate;partiell factorial;partiell factorial;full factorial
-description: Lär dig använda en [!UICONTROL Multivariate Test] (MVT) in [!DNL Adobe Target] för att jämföra kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst.
+description: Lär dig hur du använder en [!UICONTROL Multivariate Test] (MVT) i [!DNL Adobe Target]  för att jämföra kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst.
 title: Vad är en [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Multivariate Test] översikt
+# [!UICONTROL Multivariate Test] - översikt
 
-A [!UICONTROL Multivariate Test] (MVT) aktivitet inom [!DNL Adobe Target] jämför kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp. A [!UICONTROL Multivariate Test] aktiviteten hjälper också till att identifiera vilket element som mest påverkar aktivitetens framgång.
+En [!UICONTROL Multivariate Test]-aktivitet (MVT) i [!DNL Adobe Target] jämför kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp. En [!UICONTROL Multivariate Test]-aktivitet hjälper också till att identifiera vilket element som mest påverkar aktivitetens framgång.
 
 Multivariata tester hjälper dig att identifiera den relativa påverkan specifika element har på konverteringen, jämfört med andra element på sidan. Multivariata tester kan också hjälpa dig att förfina en kombination av element som har visat sig vara effektiva.
 
-En fördel [!UICONTROL Multivariate Test] ger jämfört med ett A/B-test är möjligheten att visa vilka element på sidan som har störst påverkan på konverteringen. Den här fördelen kallas även&quot;huvudeffekt&quot;. Den här informationen är till exempel användbar för att hjälpa dig att avgöra var du ska placera innehåll som du vill ska få mest uppmärksamhet.
+En fördel med [!UICONTROL Multivariate Test] jämfört med ett A/B-test är möjligheten att visa vilka element på sidan som har störst påverkan på konverteringen. Den här fördelen kallas även&quot;huvudeffekt&quot;. Den här informationen är till exempel användbar för att hjälpa dig att avgöra var du ska placera innehåll som du vill ska få mest uppmärksamhet.
 
-[!UICONTROL Multivariate Test] Med hjälp av -aktiviteter kan du också söka efter sammansatta effekter mellan två eller flera element på en sida. En viss annons kan till exempel ge fler konverteringar när den kombineras med en viss banderoll eller hjältebild. Detta kallas även&quot;interaktionseffekt&quot;.
+[!UICONTROL Multivariate Test]-aktiviteter hjälper dig även att hitta sammansatta effekter mellan två eller flera element på en sida. En viss annons kan till exempel ge fler konverteringar när den kombineras med en viss banderoll eller hjältebild. Detta kallas även&quot;interaktionseffekt&quot;.
 
-[!DNL Target] använder multivariata helfaktoriella tester som hjälper dig att optimera innehållet. I ett multivariat helfaktoriellt test undersöks alla möjliga kombinationer av innehåll med samma sannolikhet. Om du till exempel har två sidelement med tre olika erbjudanden finns det nio möjliga kombinationer (3x3). Tre element, med två som innehåller tre möjliga erbjudanden och en som har två erbjudanden, har 18 alternativ (3x3x2).
+[!DNL Target] använder multivariata helfaktoriella tester för att hjälpa dig att optimera ditt innehåll. I ett multivariat helfaktoriellt test undersöks alla möjliga kombinationer av innehåll med samma sannolikhet. Om du till exempel har två sidelement med tre olika erbjudanden finns det nio möjliga kombinationer (3x3). Tre element, med två som innehåller tre möjliga erbjudanden och en som har två erbjudanden, har 18 alternativ (3x3x2).
 
-I [!DNL Target]är varje kombination en upplevelse. The [!UICONTROL Multivariate Test] jämför varje upplevelse så att du kan ta reda på vilka kombinationer som är mest framgångsrika. Samtidigt samlas data in och analyseras för att förstå hur varje plats och erbjudanden påverkar mätresultatet.
+I [!DNL Target] är varje kombination en upplevelse. [!UICONTROL Multivariate Test] jämför varje upplevelse så att du kan ta reda på vilka kombinationer som är mest framgångsrika. Samtidigt samlas data in och analyseras för att förstå hur varje plats och erbjudanden påverkar mätresultatet.
 
-![multivariata bilder](assets/multivariate.png)
+![multivariatbild](assets/multivariate.png)
 
-På grund av antalet kombinationer som kan genereras kan en [!UICONTROL Multivariate Test] kräver mer tid och trafik än ett A/B-test. Sidan måste få tillräckligt mycket trafik för att kunna ge statistiskt signifikanta resultat för varje upplevelse. För att få användbara resultat måste du förstå hur mycket trafik sidan tar emot och testa det optimala antalet kombinationer för rätt tidsåtgång för att få önskat resultat.
+På grund av antalet kombinationer som kan genereras kräver en [!UICONTROL Multivariate Test] mer tid och trafik än ett A/B-test. Sidan måste få tillräckligt mycket trafik för att kunna ge statistiskt signifikanta resultat för varje upplevelse. För att få användbara resultat måste du förstå hur mycket trafik sidan tar emot och testa det optimala antalet kombinationer för rätt tidsåtgång för att få önskat resultat.
 
 Målets [Trafikberäkning](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan hjälpa dig att utforma ett test som fungerar med trafiken. Innan du använder Traffic Estimator bör du ha bra statistik som visar hur många visningar och konverteringar webbplatsen normalt tar emot. Ta hänsyn till era trafiknivåer per dag. Ju fler upplevelser en aktivitet har, desto mer trafik måste aktiviteten omfatta, eller hur länge den måste köras. Om trafiken inte är så hög bör du testa några kombinationer. Annars kan det ta för lång tid att skapa meningsfulla testresultat.
 
@@ -37,15 +37,15 @@ När du skapar ett multivariat-test är det bra att förstå vissa grundläggand
 
 Det finns flera termer som används på olika sätt i branschen. I det här avsnittet definieras de termer som används av [!DNL Target].
 
-**Kombination:** De innehållsvariationer som skapas när du testar flera innehållsalternativ på flera platser. Om du till exempel testar tre platser, var och en med tre innehållsalternativ, finns det 27 möjliga kombinationer (3x3x3). En besökare på din webbplats ser en kombination som också kallas upplevelse.
+**Kombination:** Innehållsvariationerna som skapas när du testar flera innehållsalternativ på flera platser. Om du till exempel testar tre platser, var och en med tre innehållsalternativ, finns det 27 möjliga kombinationer (3x3x3). En besökare på din webbplats ser en kombination som också kallas upplevelse.
 
-**Innehåll:** Texten eller bilden som består av en provvariation på en plats. I ett multivariata test jämförs flera innehållsalternativ på flera platser. I MVT-metoden kallas innehållet ibland för *nivå*.
+**Innehåll:** Texten eller bilden som består av en testvariation inom en plats. I ett multivariata test jämförs flera innehållsalternativ på flera platser. I MVT-metoden kallas innehållet ibland för *nivå*.
 
 **Element:** Ett DOM-element som innehåller innehållsvariationer som ska testas i MVT-testet. Se även *Plats*.
 
-**Plats:** Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-element. I MVT-metoden kallas en plats ibland för *faktor*. I ett multivariat helfaktoriellt test jämförs alla möjliga kombinationer av erbjudanden på dina platser.
+**Plats:** Ett specifikt innehållsområde på en sida, som ofta finns i ett enskilt DOM-element. I MVT-metoden kallas en plats ibland för *faktor*. I ett multivariat helfaktoriellt test jämförs alla möjliga kombinationer av erbjudanden på dina platser.
 
-## När ska du använda [!UICONTROL Multivariate Test] vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## När [!UICONTROL Multivariate Test] ska användas jämfört med A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 Multivariata tester kan användas tillsammans med A/B-tester för att optimera sidan. Exempel på när du kanske vill använda dem tillsammans är:
 
@@ -71,7 +71,8 @@ Multivariata tester kan användas tillsammans med A/B-tester för att optimera s
 
 ## Delfaktoriell testning
 
-[!DNL Target] erbjuder fullständig, faktoriell multivariattestning som ett inbyggt aktivitetsalternativ. I statistiken ger&quot;Design of Experiments&quot; många strategier, eller utformningar, för att avgöra vilka faktorer som påverkar resultaten. En sådan strategi är [Taguchi-metod](https://en.wikipedia.org/wiki/Taguchi_methods) för partiell faktoriell testning. Taguchi gör det möjligt för marknadsförare att göra en uppsättning antaganden som minskar antalet permutationer i upplevelser som måste testas, och som i sin tur minskar trafikkraven för ett multivariat test. Den här funktionaliteten och testmetoden kan användas i [!DNL Target] använda [offlinekalkylblad](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+[!DNL Target] erbjuder multivariata tester i helfakultet som ett inbyggt aktivitetsalternativ. I statistik
+&quot;Design of Experiments&quot; erbjuder många metoder, eller utformningar, för att avgöra vilka faktorer som påverkar resultaten. En sådan metod är [Taguchi-metoden](https://en.wikipedia.org/wiki/Taguchi_methods) för partiell faktoriell testning. Taguchi gör det möjligt för marknadsförare att göra en uppsättning antaganden som minskar antalet permutationer i upplevelser som måste testas, och som i sin tur minskar trafikkraven för ett multivariat test. Den här funktionaliteten och testmetoden kan användas i [!DNL Target] med det här [offlinekalkylbladet](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Om ditt team använder andra designstrategier för experiment kan du använda det här beräkningskalkylbladet som en referensimplementering för anpassad experimentdesign.
 
@@ -83,7 +84,7 @@ När du använder offlineberäkningskalkylbladet bör du tänka på följande:
 * Bygg upplevelserna i A/B-arbetsflödet med [Visual Experience Composer (VEC)](/help/main/c-experiences/experiences.md). Du kan använda anpassad kod, redigera HTML, WYSIWYG eller valfri kombination.
 * När aktiviteten är över (baserat på beräknare av exempelstorlek) kör du resultatet via kalkylbladet för att få den andra informationen.
 
-Mer information om tips och metodtips finns i [Metodtips för multivariata tester](/help/main/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+Mer information och metodtips finns i [Bästa praxis för multivariata tester](/help/main/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Utbildningsvideor
 
@@ -91,7 +92,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 ### Aktivitetstyper (9:03) ![Märket Översikt](/help/main/assets/overview.png)
 
-I den här översiktsvideon förklaras vilka aktivitetstyper som finns i [!DNL Target]. Multivariata tester behandlas från 4:20.
+I den här översiktsvideon förklaras vilka aktivitetstyper som är tillgängliga i [!DNL Target]. Multivariata tester behandlas från 4:20.
 
 * Beskriv de typer av aktiviteter som ingår i [!DNL Adobe Target]
 * Välj lämplig aktivitetstyp för att uppnå dina mål
@@ -101,7 +102,7 @@ I den här översiktsvideon förklaras vilka aktivitetstyper som finns i [!DNL T
 
 ### Skapa multivariata tester (9:25) ![Självstudiemärke](/help/main/assets/tutorial.png)
 
-I den här videon förklaras hur du förstår, planerar och skapar ett multivariat-test med [!DNL]Rikta in dig på ett guidat arbetsflöde i tre steg.
+I den här videon förklaras hur du förstår, planerar och skapar ett multivariat-test med hjälp av det guidade arbetsflödet i tre steg för [!DNL]Target.
 
 * Definiera och utforma ett multivariat test
 * Skapa ett multivariata test

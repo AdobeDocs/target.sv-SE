@@ -35,7 +35,7 @@ Det är möjligt att den första klassen i elementet kan läggas till av JavaScr
 <li class="kids-section">Kids</li>
 ```
 
-**Markerat:**
+**Markerad:**
 
 `<li class="women-section">Women</li>`
 
@@ -43,7 +43,7 @@ Väljare: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultat:**
 
-Väljaren fungerar som förväntat eftersom `li.women-section:eq(0)` påverkas inte.
+Väljaren fungerar som förväntat eftersom `li.women-section:eq(0)` inte påverkas.
 
 Före:
 
@@ -127,7 +127,7 @@ I det här scenariot infogas ett listobjekt efter det markerade elementet.
 </ul>
 ```
 
-**Markerat:**
+**Markerad:**
 
 `<li class="women-section">Women Shoes</li>`
 
@@ -166,13 +166,13 @@ Efter:
 
 I det här scenariot tas listobjektet före det valda elementet bort.
 
-**Borttaget element:**
+**Elementet har tagits bort:**
 
 ```html
 <li class="men-section"> Men </li>
 ```
 
-**Markerat:**
+**Markerad:**
 
 `<li class="women-section">Women</li>`
 
@@ -207,13 +207,13 @@ Efter:
 
 I det här scenariot tas listobjektet efter det valda elementet bort.
 
-**Borttaget element:**
+**Elementet har tagits bort:**
 
 ```html
 <li class="kids-section">Kids</li>
 ```
 
-**Markerat:**
+**Markerad:**
 
 `<li class="women-section">Women</li>`
 
@@ -250,13 +250,13 @@ Efter:
 
 I det här scenariot tas det markerade listobjektet bort.
 
-**Borttaget element:**
+**Elementet har tagits bort:**
 
 ```html
 <li class="women-shoes">Women</li>
 ```
 
-**Markerat:**
+**Markerad:**
 
 `<li class="women-shoes">Women</li>`
 
@@ -297,7 +297,7 @@ I det här scenariot ändras klassen för det markerade listobjektet.
 <li class="women-section">Women</li>
 ```
 
-**Markerat:**
+**Markerad:**
 
 `<li class="women-section">Women</li>`
 
@@ -305,7 +305,7 @@ Väljare: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultat:**
 
-Det går inte att byta namn på elementklassen eftersom `class` hittades inte.
+Det går inte att byta namn på elementklassen eftersom `class` inte hittades.
 
 Före:
 

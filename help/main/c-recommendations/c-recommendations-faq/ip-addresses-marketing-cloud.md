@@ -1,6 +1,6 @@
 ---
 keywords: IP-adress;IP-adresser;vitlista;tillåtelselista;brandvägg;recs;feed;servrar;adobe marketing cloud;rekommendationer
-description: Visa en lista över IP-adresser som används i [!DNL Target] Recommendations servrar för hantering av feeds som hjälper dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
+description: Visa en lista över IP-adresser som används i  [!DNL Target] Recommendations-servrar för feeds som hjälper dig att konfigurera brandväggen så att IP-adresser från Adobe-servrar tillåts.
 title: Vilka IP-adresser använder Recommendations-servrar för mathantering?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# IP-adresser som används av [!DNL Recommendations] servrar för hantering av feeds
+# IP-adresser som används av [!DNL Recommendations] feeds-bearbetningsservrar
 
-Lista över IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations] servrar för feed-processing som hjälper dig att konfigurera brandväggen så att IP-adresser från [!DNL Adobe] servrar.
+Lista över IP-adresser som används i [!DNL Adobe Target] [!DNL Recommendations]-servrar för feed-bearbetning för att hjälpa dig konfigurera brandväggen så att IP-adresser från [!DNL Adobe]-servrar tillåts.
 
 >[!IMPORTANT]
 >
->The [!DNL Target] teamet uppdaterar för närvarande NAT-gatewayadresserna för hämtning [!DNL Recommendations] feeds. Om du implementerar IP-tillåtelselistning måste du tillåtslista följande nya AWS-värdar. De befintliga värdarna planeras att avvecklas den 30 juni 2024. Om du vill ha en mjuk övergång tillåtslista du alla nio adresserna. Det är inte brådskande att ta bort de befintliga adresserna.
+>Teamet [!DNL Target] uppdaterar NAT-gatewayadresserna för hämtning av [!DNL Recommendations]-feeds. Om du implementerar IP-tillåtelselistning måste du tillåtslista följande nya AWS-värdar. De befintliga värdarna planeras att avvecklas den 30 juni 2024. Om du vill ha en mjuk övergång tillåtslista du alla nio adresserna. Det är inte brådskande att ta bort de befintliga adresserna.
 
-[!DNL Target] [!UICONTROL Recommendations] Följande AWS-värdar används för att komma åt kundernas FTP-servrar:
+[!DNL Target] [!UICONTROL Recommendations]-aktiviteter använder följande AWS-värdar vid åtkomst till kundens FTP-servrar:
 
 **Nya värdar**:
 

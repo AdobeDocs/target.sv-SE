@@ -6,22 +6,22 @@ feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 271d5bd8730830dd58be33f88793f2bef2b8d211
 workflow-type: tm+mt
-source-wordcount: '3853'
+source-wordcount: '3933'
 ht-degree: 0%
 
 ---
 
 # Tio vanliga A/B-testfall och hur man undviker dem
 
-A/B-testning i [!DNL Adobe Target] utgör ryggraden i de flesta program för optimering av digital marknadsföring, och hjälper marknadsförarna att erbjuda optimerade och målinriktade upplevelser till sina besökare och kunder. I den här artikeln beskrivs tio av de största fallgropar som företag kan räkna med när de utför A/B-tester. Det innehåller även sätt att undvika dem, så att ditt företag kan få större avkastning genom sina testsatsningar och ha större förtroende för de rapporterade A/B-testresultaten.
+A/B-testning i [!DNL Adobe Target] utgör ryggraden i de flesta optimeringsprogram för digital marknadsföring, vilket hjälper marknadsförare att erbjuda optimerade och målinriktade upplevelser till sina besökare och kunder. I den här artikeln beskrivs tio av de största fallgropar som företag kan räkna med när de utför A/B-tester. Det innehåller även sätt att undvika dem, så att ditt företag kan få större avkastning genom sina testsatsningar och ha större förtroende för de rapporterade A/B-testresultaten.
 
 ## Pitfall 1: Ignorerar effekterna av signifikansnivån {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
-Hur sannolikt är det att ditt test rapporterar en betydande skillnad i konverteringsgrad mellan två erbjudanden när det i själva verket inte finns någon? Det är det som *signifikansnivå* av ett test hjälper till att bestämma. Sådana missvisande resultat kallas ofta falskt positiva och i statistikens värld kallas ett Type I-fel (om du felaktigt avvisar den nollhypotes som är sann).
+Hur sannolikt är det att ditt test rapporterar en betydande skillnad i konverteringsgrad mellan två erbjudanden när det i själva verket inte finns någon? Det är vad *signifikansnivån* för ett test kan avgöra. Sådana missvisande resultat kallas ofta falskt positiva och i statistikens värld kallas ett Type I-fel (om du felaktigt avvisar den nollhypotes som är sann).
 
-När du anger signifikansnivån för ett A/B-test gör du en kompromiss mellan toleransen för att acceptera att en upplevelse är bättre än den andra när den egentligen inte är det (Type I-fel eller&quot;false positive&quot;) och att inte se någon statistisk skillnad mellan upplevelserna när det faktiskt finns en verklig skillnad (Type II-fel eller&quot;false negative&quot;). The *konfidensnivå* bestäms innan ett test körs.
+När du anger signifikansnivån för ett A/B-test gör du en kompromiss mellan toleransen för att acceptera att en upplevelse är bättre än den andra när den egentligen inte är det (Type I-fel eller&quot;false positive&quot;) och att inte se någon statistisk skillnad mellan upplevelserna när det faktiskt finns en verklig skillnad (Type II-fel eller&quot;false negative&quot;). *konfidensnivån* bestäms innan ett test körs.
 
-The *konfidensintervall* som bestäms när testet är klart påverkas av tre viktiga faktorer:
+*konfidensintervallet*, som bestäms när ett test har slutförts, påverkas av tre huvudfaktorer:
 
 * Provstorlek
 * Signifikansnivå
@@ -29,7 +29,7 @@ The *konfidensintervall* som bestäms när testet är klart påverkas av tre vik
 
 Eftersom markören valde signifikansnivån innan testet konstruerades och populationsstandardavvikelsen inte kan påverkas, är den enda kontrollerbara faktorn samplingsstorleken. Den provstorlek som krävs för ett konfidensintervall som du känner dig bekväm med, och den resulterande tid det tar att uppnå den provstorleken, är ett nyckelbeslut som en marknadsförare måste bestämma under testdesignen.
 
-En annan direkt relaterad term, *konfidensnivå*, tar mer av ett glas halvfullt. I stället för att ange sannolikheten för att du blir falskt positiv, som signifikansnivån gör, representerar konfidensnivån sannolikheten för att testet inte gör det felet.
+En annan direkt relaterad term, *konfidensnivån*, har mer av ett glas som är halvfullt. I stället för att ange sannolikheten för att du blir falskt positiv, som signifikansnivån gör, representerar konfidensnivån sannolikheten för att testet inte gör det felet.
 
 Konfidensnivå och signifikansnivå har ett direkt samband eftersom:
 
@@ -45,7 +45,7 @@ I en marknadsföringsorganisation utgör 95 procent vanligtvis en rimlig komprom
 
 Två situationer kräver dock att man noga beaktar signifikansnivån och dess konsekvenser för testresultaten: segmentering efter testet och testning av flera erbjudanden.
 
-* **Segmentering efter provning:** Marknadsförarna segmenterar och tonar ofta resultaten av ett test baserat på besökarsegment efter att A/B-testet är avslutat. Vanliga segment är webbläsartyp, enhetstyp, geografiska områden, tid på dygnet och nya jämfört med återkommande besökare. Denna metod, som kallas segmentering efter test, ger en utmärkt inblick i besökarsegment. Marknadsförarna kan i sin tur använda dessa insikter för att skapa mer målinriktat, relevant och differentierat innehåll.
+* **Eftertestsegmentering:** Marknadsförare segmenterar ofta och tonar ned resultatet av en test baserat på besökarsegment efter att A/B-testet har slutförts. Vanliga segment är webbläsartyp, enhetstyp, geografiska områden, tid på dygnet och nya jämfört med återkommande besökare. Denna metod, som kallas segmentering efter test, ger en utmärkt inblick i besökarsegment. Marknadsförarna kan i sin tur använda dessa insikter för att skapa mer målinriktat, relevant och differentierat innehåll.
 
   Om det inte finns någon verklig skillnad i konverteringsgrad är sannolikheten för ett falskt positivt värde lika med signifikansnivån varje gång du testar ett segment. Och ju fler tester ni kör, desto större är sannolikheten att ni upplever minst ett falskt positivt test bland dessa tester. Varje post-test representerar alltså ett separat test. Med en signifikansnivå på 5 % faller ni i genomsnitt till en falsk positiv nivå varje gång ni tittar på 20 segment efter testet. Diagrammet ovan visar hur sannolikheten ökar.
 
@@ -53,9 +53,9 @@ Två situationer kräver dock att man noga beaktar signifikansnivån och dess ko
 
   Ska du inte segmentera efter testet? Nej, posttestsegment är värdefulla. För att undvika detta kumulativa falskt positiva problem med segmentering efter testet bör du testa det i ett nytt test när du har identifierat ett segment efter testet. Du kan också använda Bonferroni-korrigeringen, som beskrivs nedan.
 
-* **Testa flera erbjudanden:** Marknadsförarna testar ofta fler än två erbjudanden (eller upplevelser) mot varandra. Därför ser du ibland A/B-testningslösningar som kallas A/B/n-testning, där n är antalet erbjudanden som du testar samtidigt.
+* **Testa flera erbjudanden:** Marknadsförare testar ofta fler än två erbjudanden (eller upplevelser) mot varandra. Därför ser du ibland A/B-testningslösningar som kallas A/B/n-testning, där n är antalet erbjudanden som du testar samtidigt.
 
-  Det är viktigt att notera att *var* det testade erbjudandet har en falskt positiv frekvens som motsvarar signifikansnivån, enligt beskrivningen ovan. Även här kör du effektivt flera tester när flera erbjudanden skickas mot varandra i en och samma testmiljö. Om du till exempel jämför fem erbjudanden i ett A/B/C/D/E-test kan du skapa fyra jämförelser: kontroll till B, kontroll till C, kontroll till D, kontroll till E. Med en konfidensnivå på 95 %, snarare än 5 % sannolikhet för falskt positiva resultat, har du i själva verket 18,5 %.
+  Observera att *varje*-erbjudande som testas har en falskt positiv hastighet som är lika med signifikansnivån, vilket beskrivs ovan. Även här kör du effektivt flera tester när flera erbjudanden skickas mot varandra i en och samma testmiljö. Om du till exempel jämför fem erbjudanden i ett A/B/C/D/E-test kan du skapa fyra jämförelser: kontroll till B, kontroll till C, kontroll till D, kontroll till E. Med en konfidensnivå på 95 %, snarare än 5 % sannolikhet för falskt positiva resultat, har du i själva verket 18,5 %.
 
   För att behålla den totala konfidensnivån på 95 % och undvika det här problemet använder du det som kallas Bonferroni-korrigeringen. Med hjälp av den här korrigeringen delar du bara in signifikansnivån med antalet jämförelser för att komma fram till signifikansnivån som du måste uppnå en konfidensnivå på 95 %.
 
@@ -65,7 +65,7 @@ Två situationer kräver dock att man noga beaktar signifikansnivån och dess ko
 
 Med testning av flera erbjudanden deklarerar marknadsförarna ofta erbjudandet med högsta lyft som testvinnare, även om det inte finns någon statistiskt signifikant skillnad mellan vinnaren och löparen. Detta inträffar när skillnaden mellan alternativen är mindre än skillnaden mellan alternativen och kontrollen. Bilden nedan illustrerar detta koncept, med de svarta felstaplarna som representerar 95 % ökning av konfidensintervall. Den verkliga höjningen för varje erbjudande i förhållande till kontrollerbjudandet är 95 % troligtvis inkluderad i konfidensintervallet - det intervall som visas av felstaplarna.
 
-![fallgrop2, bild](assets/pitfalls2.png)
+![fallfall2-bild](assets/pitfalls2.png)
 
 Erbjudandena A och B har den högsta observerade lyften under testet, och det är osannolikt att erbjudandet C skulle gå utöver de erbjudandena under en framtida provning, eftersom konfidensintervallet för C inte överlappar konfidensintervallen för A eller B. Även om A-erbjudandet har den högsta observerade lyften under testet är det dock möjligt att B-erbjudandet kan fungera bättre i ett framtida test eftersom konfidensintervallen överlappar varandra.
 
@@ -73,7 +73,7 @@ Här är processen att både erbjudanden A och B bör betraktas som testvinnare.
 
 Det är vanligtvis inte möjligt att köra testet tillräckligt länge för att identifiera alternativens verkliga relativa prestanda, och ofta är skillnaden i prestanda mellan alternativen för liten för att i hög grad påverka konverteringsgraden. I sådana fall kan du tolka resultatet som en länk och använda andra överväganden, som strategi eller anpassning till andra element på sidan, för att avgöra vilket erbjudande som ska implementeras. Med flera tester måste ni vara öppna för fler än en vinnare, vilket ibland avsevärt öppnar upp för möjligheterna att ta med er webbplatsutveckling.
 
-Om ni vill identifiera erbjudandet med den högsta konverteringsgraden jämför ni alla erbjudanden med varandra. I exemplet ovan har du n = 5 erbjudanden - du måste göra n(n-1)/2 jämförelser eller 5&#42;(5-1)/2 = 10 jämförelser. I detta fall kräver Bonferroni-korrigeringen att signifikansnivån för testet är 5%/10 = 0,5%, vilket motsvarar en konfidensnivå på 99,5%. En sådan hög konfidensnivå kan dock kräva att du kör testet under en orimligt lång period.
+Om ni vill identifiera erbjudandet med den högsta konverteringsgraden jämför ni alla erbjudanden med varandra. I exemplet ovan har du n = 5 erbjudanden - du måste göra n(n-1)/2-jämförelser eller 5&#42;(5-1)/2 = 10 jämförelser. I detta fall kräver Bonferroni-korrigeringen att signifikansnivån för testet är 5%/10 = 0,5%, vilket motsvarar en konfidensnivå på 99,5%. En sådan hög konfidensnivå kan dock kräva att du kör testet under en orimligt lång period.
 
 ## Pitfall 3: Effekterna av statistisk effekt ignoreras {#section_0D517079B7D547CCAA75F80981CBE12A}
 
@@ -83,7 +83,7 @@ Det finns två huvudfaktorer som avgör kraften i ett test. Den första är exem
 
 Dagens marknadsförare understyr ett anmärkningsvärt antal tester. Med andra ord använder de en samplingsstorlek som är för liten. Det innebär att de har en liten chans att upptäcka sanna positiva effekter, även när det faktiskt finns en betydande skillnad i konverteringsgraden. Om du ständigt kör underdrivna tester kan antalet falskt positiva vara jämförbart med, eller till och med dominera, antalet sanna positiva. Detta leder ofta till implementering av neutrala förändringar av en plats (tidsslöseri) eller förändringar som faktiskt minskar konverteringsgraden.
 
-![fallgropar3, bild](assets/pitfalls3.png)
+![fallfall3, bild](assets/pitfalls3.png)
 
 För att undvika underdrift bör du tänka på att en typisk standard för ett väldrivet test inkluderar en konfidensnivå på 95 % och en statistisk styrka på 80 %. Ett sådant test ger en 95-procentig sannolikhet att du undviker ett falskt positivt test och en 80-procentig sannolikhet att du undviker ett falskt negativt.
 
@@ -91,9 +91,9 @@ För att undvika underdrift bör du tänka på att en typisk standard för ett v
 
 Enkelsidiga tester kräver en mindre observerad skillnad i konverteringsgraden mellan erbjudandena för att ringa en vinnare på en viss signifikansnivå. Den här typen av test verkar tilltalande eftersom vinnarna kan kallas tidigare och oftare än vid dubbelsidiga tester. Men i enlighet med talesättet &quot;Det finns ingen gratis lunch&quot; kostar ensidiga tester.
 
-I ett ensidigt test testar ni om erbjudande B är bättre än erbjudande A. Testets riktning måste bestämmas innan testet börjar, eller &quot;a priori&quot; i statistiken. Du måste alltså bestämma om du ska testa om B är bättre än A eller A är bättre än B *före* starta testet. Om du tittar på resultaten av A/B-testet och ser att B klarar sig bättre än A och *sedan* besluta att göra ett ensidigt test för att se om skillnaden är statistiskt signifikant, bryter ni mot antagandena bakom det statistiska testet. Om du bryter antagandena i testet innebär det att dina konfidensintervall är otillförlitliga och att testet har en högre falskt positiv frekvens än du hade förväntat dig.
+I ett ensidigt test testar ni om erbjudande B är bättre än erbjudande A. Testets riktning måste bestämmas innan testet börjar, eller &quot;a priori&quot; i statistiken. Du måste med andra ord bestämma om du ska testa om B är bättre än A eller A är bättre än B *innan* testet påbörjas. Om du tittar på resultaten av A/B-testet och ser att B är bättre än A och *sedan* bestämmer dig för att göra ett ensidigt test för att se om skillnaden är statistiskt signifikant, bryter du mot antagandena bakom det statistiska testet. Om du bryter antagandena i testet innebär det att dina konfidensintervall är otillförlitliga och att testet har en högre falskt positiv frekvens än du hade förväntat dig.
 
-Du kan se ett ensidigt test som att ställa ett erbjudande inför rätta till en domare som redan har bestämt sig. I ett ensidigt test har ni redan bestämt vad det vinnande erbjudandet är och vill bevisa det, i stället för att ge varje upplevelse en lika stor chans att visa sig som vinnaren. Enkelsidiga tester bör endast användas i sällsynta fall där du bara är intresserad av om ett erbjudande är bättre än det andra och inte tvärtom. För att undvika problemet med ensidigt test bör du använda en A/B-testlösning som alltid använder tvåsidiga tester, som [!DNL Adobe Target].
+Du kan se ett ensidigt test som att ställa ett erbjudande inför rätta till en domare som redan har bestämt sig. I ett ensidigt test har ni redan bestämt vad det vinnande erbjudandet är och vill bevisa det, i stället för att ge varje upplevelse en lika stor chans att visa sig som vinnaren. Enkelsidiga tester bör endast användas i sällsynta fall där du bara är intresserad av om ett erbjudande är bättre än det andra och inte tvärtom. För att undvika problemet med ensidigt test använder du en A/B-testlösning som alltid använder tvåsidiga tester, till exempel [!DNL Adobe Target].
 
 ## Pitfall 5: Övervakningstester {#section_EA42F8D5967B439284D863C46706A1BA}
 
@@ -115,7 +115,7 @@ Det är frestande att stoppa ett test om ett av erbjudandena fungerar bättre el
 
 Bilden nedan visar fem erbjudanden med samma långsiktiga konverteringsgrad. Erbjudandet B hade en dålig konverteringsgrad för de första 2 000 besökarna och det tar lång tid innan den uppskattade konverteringsgraden återgår till den verkliga långfristiga räntan.
 
-![fallgropar4 bild](assets/pitfalls4.png)
+![fallfall4 bild](assets/pitfalls4.png)
 
 Detta fenomen kallas &quot;regression till medelvärdet&quot; och kan leda till besvikelse när ett erbjudande som utfördes väl under testets första dagar inte klarar att till slut hålla upp denna prestandanivå. Det kan också leda till förlorade intäkter när ett bra erbjudande inte implementeras eftersom det råkade prestera dåligt under testets tidiga dagar bara av en slump.
 
@@ -153,7 +153,7 @@ Sådana erbjudanden uppmuntrar besökarna att konvertera snabbare och kommer att
 
 Bilden nedan visar två erbjudanden som två olika besökare ser samtidigt på en söndagseftermiddag. Ersättningsperioden för erbjudande A är kort och besökaren konverterar senare den dagen. Men erbjudande B har en längre tidsperiod och besökaren som såg erbjudandet B funderar på erbjudandet en stund och konverterar till måndag morgon. Om du stoppar testet på söndag kväll räknas konverteringen som är kopplad till erbjudande A in i A:s konverteringsmått, medan konverteringen som är kopplad till erbjudande B inte räknas in i erbjudandets konverteringsmått. Detta medför att erbjudande B hamnar i en betydande nackdel.
 
-![fallgropar5 bild](assets/pitfalls5.png)
+![fallfall5-bild](assets/pitfalls5.png)
 
 För att undvika detta fall bör besökare som exponerats för testerbjudandena få tid att konvertera efter att ett nytt tävlingsbidrag har stoppats. I det här steget kan du göra en rättvis jämförelse av erbjudandena.
 
@@ -161,11 +161,11 @@ För att undvika detta fall bör besökare som exponerats för testerbjudandena 
 
 Marknadsförarna kan vara frestade att använda konverteringsvärden för hög trafik och låg varians i den övre tratten, som klickfrekvens (CTR), för att snabbare nå ett tillräckligt antal testkonverteringar. Tänk dock på om CTR är en lämplig proxy för det verksamhetsmål du vill uppnå. Erbjudanden med högre CTR kan enkelt leda till lägre intäkter. Det här kan hända när erbjudanden lockar besökare med lägre köpbenägenhet, eller när själva erbjudandet, till exempel, leder till ett rabatterbjudande som helt enkelt leder till lägre intäkter.
 
-![fallgropar6, bild](assets/pitfalls6.png)
+![fallfall6-bild](assets/pitfalls6.png)
 
 Ta en titt på skiderbjudandet nedan. Det genererar en högre CTR än cykelerbjudandet, men eftersom besökarna spenderar mer pengar i genomsnitt när de följer cykelerbjudandet är den förväntade intäkten att placera cykelerbjudandet framför en viss besökare högre. Ett A/B-test med CTR som mätvärde skulle därför välja ett erbjudande som inte maximerar intäkterna, vilket kan vara det grundläggande affärsmålet.
 
-![fallgropar7, bild](assets/pitfalls7.png)
+![fallfall7-bild](assets/pitfalls7.png)
 
 För att undvika det här problemet bör du övervaka dina affärsvärden noga för att identifiera affärseffekten av erbjudandena, eller ännu bättre, använda en mätmetod som ligger närmare ditt verksamhetsmål, om det är möjligt.
 

@@ -1,34 +1,33 @@
 ---
 keywords: mvt;multivariata test;platsavgiftsrapport
-description: Lär dig hur du använder platsbidragsrapporten för Adobe [!DNL Target] [!UICONTROL Experience Targeting] aktiviteter som visar resultatet för varje element och varje erbjudande.
-title: Hur jag använder [!UICONTROL Location Contribution] Rapport för [!UICONTROL Multivariate Test] aktiviteter?
+description: Lär dig hur du använder platsbidragsrapporten för Adobe [!DNL Target] [!UICONTROL Experience Targeting]-aktiviteter som visar prestanda för varje element och varje erbjudande.
+title: Hur använder jag [!UICONTROL Location Contribution]-rapporten för [!UICONTROL Multivariate Test]-aktiviteter?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Location Contribution] rapport (MVT)
+# [!UICONTROL Location Contribution]-rapport (MVT)
 
-The [!UICONTROL Location Contribution] rapporten visar resultatet för varje element och varje erbjudande.
+Rapporten [!UICONTROL Location Contribution] visar prestanda för varje element och varje erbjudande.
 
 I rapportens övre del visas mätvärden, start- och slutdatum samt målgrupp som används i rapporten. Du kan ändra någon av dessa faktorer.
 
 >[!NOTE]
 >
->Tänk på följande när du arbetar med [!UICONTROL Location Contribution] rapport:
+>Tänk på följande information när du arbetar med rapporten [!UICONTROL Location Contribution]:
 >
 >* Publiken och mätväljarna är bara tillgängliga om [!DNL Analytics] används som rapportkälla (A4T).
 >
->* Data för [!UICONTROL Location Contribution] rapporten hämtas från [!DNL Target] backend även om aktiviteten är konfigurerad att använda [!UICONTROL Analytics as the reporting source] (A4T).
+>* Data för [!UICONTROL Location Contribution]-rapporten hämtas från [!DNL Target]-serverdelen även om aktiviteten har konfigurerats att använda [!UICONTROL Analytics as the reporting source] (A4T).
 >
->* Data för [!UICONTROL Location Contribution] rapporten hämtas för produktionsmiljön även om en annan standardmiljö har definierats på [!DNL Target] kontonivå.
+>* Data för rapporten [!UICONTROL Location Contribution] hämtas för produktionsmiljön även om en annan standardmiljö har definierats på kontonivån [!DNL Target].
 
-
-The [!UICONTROL Location Contribution] rapporten innehåller två tabeller.
+Rapporten [!UICONTROL Location Contribution] innehåller två tabeller.
 
 Den första tabellen visar den relativa effekten av varje element. I den här tabellen visas vilka av de element du har lagt till erbjudanden som ger flest konverteringar.
 
@@ -38,7 +37,7 @@ Den andra tabellen innehåller en rapport på erbjudandenivå. Den visar konvert
 
 ![Platsbidragsrapport i Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
 
-## Utbildningsvideo: Skapa ett MVT-test ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa ett MVT-test ![självstudiekursetikett](/help/main/assets/tutorial.png)
 
 I den här videon visas hur du skapar ett multivariata test med det guidade arbetsflödet i tre steg för Target. Platsbidragsrapporten beskrivs från och med 08:45.
 

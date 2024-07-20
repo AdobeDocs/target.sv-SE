@@ -1,12 +1,13 @@
 ---
 keywords: innehåll;skapa mapp;resurser;flytta mapp;kopiera mapp;ta bort mapp;hämta mapp;hämta mapp
-description: Hur skapar jag mappar i [!UICONTROL Offers] bibliotek?
-title: Lär dig hur du skapar mappar i [!UICONTROL Offers] bibliotek som innehåller kod och bilderbjudanden samt andra mappar.
+description: Hur skapar jag mappar i [!UICONTROL Offers]-biblioteket?
+title: Lär dig hur du skapar mappar i biblioteket [!UICONTROL Offers] som innehåller kod och bilderbjudanden, samt andra mappar.
 feature: Experiences and Offers
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+exl-id: 3959641b-e436-4890-86ec-72abf173540d
+source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -15,52 +16,52 @@ ht-degree: 0%
 
 # Skapa erbjudandemappar
 
-Skapa mappar i [!DNL Adobe Target] [!UICONTROL Offer] bibliotek för koderbjudanden, bilderbjudanden och andra mappar för att skapa en undermappsstruktur.
+Skapa mappar i biblioteket [!DNL Adobe Target] [!UICONTROL Offer] som innehåller koderbjudanden, bilderbjudanden och andra mappar för att skapa en undermappsstruktur.
 
 >[!NOTE]
 >
->Den här artikeln innehåller information om uppdateringar av [!DNL Target] användargränssnitt som för närvarande ingår i ett Beta-program. The [!DNL Adobe Target] teamet har ofta nya funktioner för utvalda kunder för testning och feedback. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtiden [!DNL Target Standard/Premium] i versionsinformationen.
+>Den här artikeln innehåller information om uppdateringar av användargränssnittet [!DNL Target] som för närvarande ingår i ett Beta-program. [!DNL Adobe Target]-teamet aktiverar ofta nya funktioner för utvalda kunder i testnings- och feedbacksyfte. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtida [!DNL Target Standard/Premium]-versioner och presenteras i versionsinformationen.
 
 Processen att skapa mappar för koderbjudanden och bilderbjudanden skiljer sig något. Följande avsnitt innehåller mer information.
 
 ## [!UICONTROL Code Offer] mappar
 
-1. Klicka **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
    ![Fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Klicka **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
 
 1. Ange ett beskrivande namn för mappen.
 
-1. (Villkorligt) Om du har en [Mål Premium](/help/main/c-intro/intro.md#premium) konto och användning [arbetsytor](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)väljer du en arbetsyta.
+1. (Villkorligt) Om du har ett [Target Premium](/help/main/c-intro/intro.md#premium)-konto och använder [arbetsytor](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) väljer du en arbetsyta.
 
 1. Klicka på **[!UICONTROL Create]**.
 
-Mer information om vilka åtgärder du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
+Mer information om de åtgärder du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## [!UICONTROL Image Offer] mappar
 
-1. Klicka **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
    ![Fliken Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
 
-1. Klicka **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
-1. Ange en beskrivning **[!UICONTROL Title]** för mappen.
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Ange en beskrivande **[!UICONTROL Title]** för mappen.
 
    Du kan t.ex. inkludera den typ av innehåll som det innehåller.
 
-   Namnet får inte innehålla följande tecken: Procent-tecken `%`,Snedstreck `/`,Backslash `\`, Kolon `:`, Asterisk `*`, frågetecken `?`, dubbla citattecken `"`, hakparentes `[`, hakparentes `]`, plustecken: `+`, Pipe: `|`, Period: `.`, nummertecken: `#`, Klammerparentes: `{`, klammerparentes `}`, Cirkumflex `^`eller semikolon `;`. Du kan använda ett bindestreck ( `- `) i stället för dessa tecken.
+   Namnet får inte innehålla följande tecken: Percent-tecken `%`, snedstreck `/`, omvänt snedstreck `\`, kolon `:`, asterisk `*`, frågetecken `?`, dubbla citattecken `"`, hakparentes `[`, hakparentes `]`, plustecken: `+`, pipe: `|`, punkt: `.`, Number -tecken: `#`, klammerparentes: `{`, klammerparentes `}`, cirkumflex `^` eller semikolon `;` . Du kan använda ett bindestreck ( `- `) i stället för dessa tecken.
 
-1. (Valfritt) Ange en beskrivning **[!UICONTROL Name]**.
-1. (Valfritt) Välj **[!UICONTROL Private]** för att ange att mappen är privat så att bara du kan se den och dess innehåll.
+1. (Valfritt) Ange en beskrivande **[!UICONTROL Name]**.
+1. (Valfritt) Markera kryssrutan **[!UICONTROL Private]** för att ange att mappen är privat så att bara du kan se den och dess innehåll.
 
-1. (Valfritt) Välj **[!UICONTROL Reorder-able in List View]** för att ange att du och andra kan ändra ordning på mappens position i [!UICONTROL List View].
+1. (Valfritt) Markera kryssrutan **[!UICONTROL Reorder-able in List View]** för att ange att du och andra kan ändra ordning på mappens position i [!UICONTROL List View].
 
 1. Klicka på **[!UICONTROL Create]**.
 
 >[!NOTE]
 >
->Bilderbjudandena ingår inte i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modell.
+>Bilderbjudandena ingår inte i modellen [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) .
 
-Mer information om vilka åtgärder du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).
+Mer information om de åtgärder du kan utföra på erbjudanden och mappar finns i [Arbeta med innehåll i resursbiblioteket](/help/main/c-experiences/c-manage-content/assets-working.md).

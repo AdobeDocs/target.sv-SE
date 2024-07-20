@@ -1,6 +1,6 @@
 ---
 keywords: rekommendationer
-description: Hitta information om Recommendations aktiviteter i Adobe [!DNL Target] som automatiskt visar produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter.
+description: Hitta information om Recommendations-aktiviteter i Adobe [!DNL Target] som automatiskt visar produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet.
 title: Var hittar jag information om Recommendations aktiviteter?
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963

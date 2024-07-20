@@ -1,32 +1,32 @@
 ---
 keywords: Riktning;trafikkällor;måltrafikkällor;målsökmotor;sökmotor;landningssida;målstartsida;hänvisande landningssida
-description: Lär dig skapa målgrupper i Adobe [!DNL Target] för att rikta in sig på besökare baserat på den sökmotor eller landningssida som hänvisar dem till er webbplats.
+description: Lär dig hur du skapar målgrupper i Adobe [!DNL Target] för att rikta in besökare baserat på sökmotorn eller landningssidan som refererar till dem på din webbplats.
 title: Kan jag rikta in besökare baserat på sökmotor eller referenswebbplats?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
 # Trafikkällor
 
-Skapa målgrupper i [!DNL Adobe Target] för att rikta in sig på besökare baserat på den sökmotor eller landningssida som hänvisar dem till er webbplats.
+Skapa målgrupper i [!DNL Adobe Target] för att rikta in besökare baserat på sökmotorn eller landningssidan som refererar till dem på din webbplats.
 
-Du kan till exempel ange mål baserat på besökarens webbläsare, sökmotor eller den hänvisande landningssidan. Den hänvisande landningssidan är den sida besökaren klickade på för att nå den aktuella platsen under sessionen. (Om besökaren till exempel klickade på en annons på Google och den leder honom till `adobe.com` startsida, den hänvisande landningssidan är `google.com`.)
+Du kan till exempel ange mål baserat på besökarens webbläsare, sökmotor eller den hänvisande landningssidan. Den hänvisande landningssidan är den sida besökaren klickade på för att nå den aktuella platsen under den här sessionen. (Om besökaren till exempel klickade på en annons på Google och leder honom eller henne till startsidan för `adobe.com` är den hänvisande landningssidan `google.com`.)
 
 Du kan kombinera flera trafikkällor för att skapa en komplex målarregel.
 
-1. I [!DNL Target] gränssnitt, klicka **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. 
    1. Namnge målgruppen och lägg till en valfri beskrivning.
-1. Dra och släpp **[!UICONTROL Traffic Sources]** till målgruppsverktyget.
+1. Dra och släpp **[!UICONTROL Traffic Sources]** i rutan för målgruppsbyggaren.
 
-   ![target_trafik_source-bild](assets/target_traffic_source.png)
+   ![target_trafik_source image](assets/target_traffic_source.png)
 
-1. Klicka **[!UICONTROL Select]** väljer du sedan något av följande alternativ:
+1. Klicka på **[!UICONTROL Select]** och välj sedan ett av följande alternativ:
 
    * **[!UICONTROL From Baidu]**
    * **[!UICONTROL From Bing]**
@@ -43,7 +43,7 @@ Du kan kombinera flera trafikkällor för att skapa en komplex målarregel.
 
 Du kan rikta in dig på användare som hänvisas till din webbplats av en specifik sökmotor eller från en specifik landningssida.
 
-## Utbildningsvideo: Skapa målgrupper ![Märket Översikt](/help/main/assets/overview.png)
+## Utbildningsvideo: Skapar märket ![Översikt](/help/main/assets/overview.png)
 
 Den här videon innehåller information om hur du använder målgruppskategorier.
 

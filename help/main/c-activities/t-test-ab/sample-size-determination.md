@@ -1,47 +1,47 @@
 ---
 keywords: AB;A/B;AB...n;samplingsstorlek;samplingsstorlekskalkylator;autoallokera;autoallokera;kalkylator
-description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test i [!DNL Adobe Target] kräver tillräckligt många besökare (samplingsstorlek) för att förbättra konverteringsgraden.
+description: Lär dig hur länge du ska köra ett A/B-test. Ett lyckat A/B-test i  [!DNL Adobe Target] kräver tillräckligt många besökare (provstorlek) för att förbättra konverteringsgraden.
 title: Hur länge ska jag köra ett A/B-test?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
 workflow-type: tm+mt
-source-wordcount: '3063'
+source-wordcount: '3123'
 ht-degree: 0%
 
 ---
 
 # Hur länge ska du köra ett A/B-test?
 
-Slutförd [!UICONTROL A/B Test] aktivitet i [!DNL Adobe Target] kräver tillräckligt många besökare (samplingsstorlek) för att förbättra konverteringsgraden. Hur länge ska ett A/B-test köras? Den här artikeln innehåller information om [!UICONTROL Auto-Allocate] verksamhet och [!UICONTROL Adobe Target] Beräkna samplingsstorlek för att se till att din aktivitet har tillräckligt många besökare för att nå dina mål.
+En lyckad [!UICONTROL A/B Test]-aktivitet i [!DNL Adobe Target] kräver tillräckligt många besökare (provstorlek) för att förbättra konverteringsgraden. Hur länge ska ett A/B-test köras? Den här artikeln innehåller information om [!UICONTROL Auto-Allocate] aktiviteter och [!UICONTROL Adobe Target] Sample Size Calculator som hjälper dig att se till att din aktivitet har tillräckligt många besökare för att uppnå dina mål.
 
 Det är frestande att stoppa en aktivitet om ett av erbjudandena fungerar bättre eller sämre än de andra under de första dagarna i aktiviteten. När antalet observationer är lågt är det dock en stor sannolikhet att en positiv eller negativ lyft kan observeras av en slump, eftersom konverteringsgraden är ett medelvärde för ett lågt antal besökare. När aktiviteten samlar in fler datapunkter konvergerar konverteringsgraden till sina sanna långsiktiga värden.
 
 >[!IMPORTANT]
 >
->Att stoppa en aktivitet i förtid är en av de tio största fallgropar som kan uppstå när du utför A/B-testning. Mer information finns i [Tio vanliga A/B-testfall och hur man undviker dem](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>Att stoppa en aktivitet i förtid är en av de tio största fallgropar som kan uppstå när du utför A/B-testning. Mer information finns i [Tio vanliga A/B-testfall och hur du undviker dem](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
-[!DNL Adobe Target] innehåller verktyg som hjälper dig att se till att din aktivitet har en tillräckligt stor samplingsstorlek för att konverteringsmålen ska uppnås: Automatisk allokering.
+[!DNL Adobe Target] innehåller verktyg för att säkerställa att din aktivitet har en tillräckligt stor samplingsstorlek för att konverteringsmålen ska uppnås: Automatisk allokering.
 
 ## Automatisk allokering {#auto-allocate}
 
-An [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) aktivitet är en typ av A/B-test som identifierar en vinnare bland två eller flera upplevelser. An [!UICONTROL Auto-Allocate] testningen omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
+En [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)-aktivitet är en typ av A/B-test som identifierar en vinnare av två eller flera upplevelser. Ett [!UICONTROL Auto-Allocate]-test omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer.
 
 Standardtester av A/B har en inneboende kostnad. Ni måste spendera trafik för att mäta prestanda för varje upplevelse och med hjälp av analyser räkna ut den vinnande upplevelsen. Trafikfördelningen är fast även efter det att ni har insett att vissa upplevelser är bättre än andra. Det är dessutom komplicerat att ta reda på exempelstorleken, och aktiviteten måste gå hela kursen innan du kan agera på en vinnare. Och det finns fortfarande en chans att den identifierade vinnaren inte är en riktig vinnare.
 
-Lösningen är [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] minskar kostnaderna och kostnaderna för att fastställa en vinnande upplevelse. [!UICONTROL Auto-Allocate] övervakar målmätresultaten för alla upplevelser och skickar fler nya deltagare till högpresterande upplevelser proportionerligt. Det finns tillräckligt med trafik för att utforska de andra upplevelserna. Du kan se fördelarna med aktiviteten på dina resultat, även medan aktiviteten fortfarande körs: optimering sker parallellt med inlärning.
+Lösningen är [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] minskar den här kostnaden och de totala kostnaderna för att fastställa en vinnande upplevelse. [!UICONTROL Auto-Allocate] övervakar målmätningsprestanda för alla upplevelser och skickar fler nya deltagare proportionellt till de högpresterande upplevelserna. Det finns tillräckligt med trafik för att utforska de andra upplevelserna. Du kan se fördelarna med aktiviteten på dina resultat, även medan aktiviteten fortfarande körs: optimering sker parallellt med inlärning.
 
-[!UICONTROL Auto-Allocate] flyttar besökarna mot vinnande upplevelser gradvis i stället för att kräva att ni väntar tills en aktivitet upphör för att avgöra en vinnare. Ni tjänar på att lyfta snabbare eftersom aktivitetsdeltagare som skulle ha skickats till mindre framgångsrika upplevelser visas som potentiella vinnare upplevelser.
+[!UICONTROL Auto-Allocate] flyttar besökare mot vinnande upplevelser gradvis, i stället för att kräva att du väntar tills en aktivitet avslutas för att avgöra en vinnare. Ni tjänar på att lyfta snabbare eftersom aktivitetsdeltagare som skulle ha skickats till mindre framgångsrika upplevelser visas som potentiella vinnare upplevelser.
 
-När du använder [!UICONTROL Auto-Allocate], [!DNL Target] visar ett emblem högst upp på aktivitetens sida som anger &quot;Ingen vinnare ännu&quot; tills aktiviteten når det minsta antalet konverteringar med tillräcklig säkerhet. [!DNL Target] deklarerar den vinnande upplevelsen genom att visa ett märke högst upp på aktivitetens sida.
+När du använder [!UICONTROL Auto-Allocate] visar [!DNL Target] ett emblem högst upp på aktivitetens sida som anger &quot;Ingen vinnare än&quot; tills aktiviteten når det minsta antalet konverteringar med tillräcklig säkerhet. [!DNL Target] deklarerar sedan den vinnande upplevelsen genom att visa ett märke högst upp på aktivitetens sida.
 
-Mer information finns i [Automatisk allokering - översikt](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Mer information finns i [Översikt över automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Adobe [!DNL Target] Beräkna samplingsstorlek {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Beräkna provstorlek för Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Om du väljer att använda en handbok [!UICONTROL A/B Test] aktivitet i stället för [!UICONTROL Auto-Allocate], [!DNL Target] Beräkna samplingsstorlek hjälper dig att avgöra vilken provstorlek som krävs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är användbart. Använda kalkylatorn för en [!UICONTROL Auto-Allocate] aktiviteten är valfri eftersom [!UICONTROL Auto-Allocate] förklarar en vinnare för dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
+Om du väljer att använda en manuell [!UICONTROL A/B Test]-aktivitet i stället för [!UICONTROL Auto-Allocate] kan du med [!DNL Target]-beräkningen ta reda på vilken provstorlek som behövs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är användbart. Det är valfritt att använda beräkningsverktyget för en [!UICONTROL Auto-Allocate]-aktivitet eftersom [!UICONTROL Auto-Allocate] deklarerar en vinnare åt dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
 
-Innan du konfigurerar A/B-testet kan du gå till [!DNL Adobe Target] [Beräkna samplingsstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
+Gå till [!DNL Adobe Target] [Beräkna provstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) innan du konfigurerar A/B-testet.
 
 ![Beräkna exempelstorlek för Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -77,7 +77,7 @@ Det är önskvärt att inte få några falska positiva eller falska negativ. Det
 
 Betydelsenivån för ett test avgör hur sannolikt det är att testet rapporterar en betydande skillnad i konverteringsgraden mellan två olika erbjudanden när det i själva verket inte finns någon verklig skillnad. Denna situation kallas falskt positiv eller ett Type I-fel. Signaturnivån är ett tröskelvärde som anges av användaren och är en kompromiss mellan toleransen för falska positiva värden och antalet besökare som måste ingå i testet.
 
-I ett A/B-test antas inledningsvis att båda erbjudandena har samma konverteringsgrad. Sannolikheten för det observerade resultatet beräknas sedan utifrån detta antagande. Om denna sannolikhet (p-värdet) är mindre än ett fördefinierat tröskelvärde (signifikansnivån), [!DNL Target] drar slutsatsen att det ursprungliga antagandet att båda erbjudandena har samma konverteringsgrad är felaktigt. Därför skiljer sig konverteringsgraden för A och B statistiskt på den givna signifikansnivån.
+I ett A/B-test antas inledningsvis att båda erbjudandena har samma konverteringsgrad. Sannolikheten för det observerade resultatet beräknas sedan utifrån detta antagande. Om den här sannolikheten (p-värdet) är mindre än ett fördefinierat tröskelvärde (signifikansnivån) drar [!DNL Target] slutsatsen att det ursprungliga antagandet, som båda erbjudandena har samma konverteringsgrad, är felaktigt. Därför skiljer sig konverteringsgraden för A och B statistiskt på den givna signifikansnivån.
 
 En vanlig signifikansnivå vid A/B-testning är 5%, vilket motsvarar en konfidensnivå på 95% (konfidensnivå = 100% - signifikansnivå). En konfidensnivå på 95 % innebär att varje gång du gör ett test finns det en 5-procentig risk för att upptäcka en statistiskt signifikant ökning, även om det inte finns någon skillnad mellan erbjudandena.
 
@@ -85,11 +85,11 @@ Typiska tolkningar av konfidensnivån sammanfattas i tabellen nedan:
 
 | Konfidensnivå | Tolkning |
 |--- |--- |
-| &lt; 90% | Inga bevis för att det finns någon skillnad mellan konverteringsgraden |
-| 90-95% | Svag bevisning för att det finns en skillnad mellan konverteringsgraden |
-| 95-99% | Måttliga bevis för att det finns en skillnad mellan konverteringsgraden |
-| 99-99.9% | Stabila bevis för att det finns en skillnad mellan konverteringsgraden |
-| +99.9% | Mycket starka bevis för att det finns en skillnad mellan konverteringsgraden |
+| &lt; 90 % | Inga bevis för att det finns någon skillnad mellan konverteringsgraden |
+| 90-95 % | Svag bevisning för att det finns en skillnad mellan konverteringsgraden |
+| 95-99 % | Måttliga bevis för att det finns en skillnad mellan konverteringsgraden |
+| 99-99,9 % | Stabila bevis för att det finns en skillnad mellan konverteringsgraden |
+| +99.9 % | Mycket starka bevis för att det finns en skillnad mellan konverteringsgraden |
 
 Det rekommenderas att alltid använda en konfidensnivå på 95% eller högre.
 
@@ -115,7 +115,7 @@ I figuren nedan visas dessa sannolikhetsfördelningar.
 
 ![sannolikhet_fördelningsbild](assets/probability_distributions.png)
 
-På grund av den stora överlappningen mellan de två intervallen kan testet inte avgöra om konverteringsgraden är annorlunda. Därför kan detta test med 100 besökare inte skilja mellan de två erbjudandena. Om [!DNL Target] visar erbjudandena för 5 000 besökare var, det finns en 95-procentig chans att den observerade konverteringsgraden sjunker mellan 9 % och 11 % respektive 14 % till 16 %.
+På grund av den stora överlappningen mellan de två intervallen kan testet inte avgöra om konverteringsgraden är annorlunda. Därför kan detta test med 100 besökare inte skilja mellan de två erbjudandena. Men om [!DNL Target] visar erbjudandena för 5 000 besökare var finns det en 95-procentig risk att den observerade konverteringsgraden sjunker mellan 9 % och 11 % respektive 14 % till 16 %.
 
 ![sannolikhet_fördelningar2 bild](assets/probability_distributions2.png)
 
@@ -137,15 +137,15 @@ Det finns en kompromiss mellan den minsta hiss som på ett tillförlitligt sätt
 
 ![samplesizcontrol-bild](assets/samplesizecontrol.png)
 
-I det här exemplet kan du bestämma att du kan identifiera en ökning på 5 % (vilket motsvarar en konverteringsgrad för det alternativa erbjudandet på (100 %+5 %)&#42;5 % = 5,25 %) i 80 av 100 tester räcker, så du behöver en exempelstorlek på 100 000 besökare för varje erbjudande. Om sajten har 20 000 besökare per dag och du testar två erbjudanden bör testet kunna köras i 2&#42;100,000/20,000 = 10 dagar innan det går att avgöra om det alternativa erbjudandet statistiskt sett är betydligt bättre än kontrollerbjudandet.
+I det här exemplet kan du bestämma att det räcker att identifiera en ökning på 5 % (motsvarande en konverteringsgrad för det alternativa erbjudandet (100 %+5 %)&#42;5 % = 5,25 %) i 80 av 100 test, så du behöver en provstorlek på 100 000 besökare för varje erbjudande. Om sajten har 20 000 besökare per dag och du testar två erbjudanden, bör testet kunna köras i &#42;100 000/20 000 = 10 dagar innan det kan fastställas om det alternativa erbjudandet statistiskt sett är betydligt bättre än kontrollerbjudandet.
 
 Vi rekommenderar att den nödvändiga tiden alltid avrundas uppåt till närmaste hela vecka, så att veckodagens effekter undviks. I det här exemplet skulle testet därför köras i två veckor innan resultaten utvärderas.
 
 ### Intäkter per besök, mått {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-När du använder Intäkter per besök (RPV) som mätvärde läggs en ytterligare variationskälla till, eftersom RPV är produkten av intäkt per order och konverteringsgrad (RPV = Intäkter / #besökare = (Intäkt per order) &#42; #order) / # besökare = Intäkter per order &#42; (#beställare &#42; CTR) / #besökare = Intäkter per order &#42; CTR), var och en med sin egen varians. Variansen i konverteringsgraden kan uppskattas direkt med hjälp av en matematisk modell, men variationen i intäkt per order är specifik för aktiviteten. Använd därför kunskap om denna avvikelse från tidigare aktiviteter eller kör A/B-testet under några dagar för att uppskatta intäktsavvikelsen. Avvikelsen beräknas utifrån värdena för Sum of Sales, Sum of Sales Squared och Number of Visitors som finns i CSV-nedladdningsfilen. När detta är fastställt använder du kalkylbladet för att beräkna den tid som krävs för att slutföra testet.
+När du använder Intäkter per besök (RPV) som mätvärde läggs en ytterligare variationskälla till eftersom RPV är produkten av intäkt per order och konverteringsgrad (RPV = Intäkter / #besökare = (Intäkt per order &#42; #order) / # besökare = Intäkt per order &#42; (#beställnings &#42; CTR) / #besökare = Intäkt per order &#42;), var och en egen varians. Variansen i konverteringsgraden kan uppskattas direkt med hjälp av en matematisk modell, men variationen i intäkt per order är specifik för aktiviteten. Använd därför kunskap om denna avvikelse från tidigare aktiviteter eller kör A/B-testet under några dagar för att uppskatta intäktsavvikelsen. Avvikelsen beräknas utifrån värdena för Sum of Sales, Sum of Sales Squared och Number of Visitors som finns i CSV-nedladdningsfilen. När detta är fastställt använder du kalkylbladet för att beräkna den tid som krävs för att slutföra testet.
 
-Beräkningsverktyget för exempelstorlek (länk ovan) kan hjälpa dig att konfigurera RPV-måttet. När du öppnar beräkningsverktyget visas en flik med etiketten [!UICONTROL RPV Metric]. Du behöver följande information när du använder RPV-versionen av kalkylatorn:
+Beräkningsverktyget för exempelstorlek (länk ovan) kan hjälpa dig att konfigurera RPV-måttet. När du öppnar kalkylatorn visas en flik med namnet [!UICONTROL RPV Metric]. Du behöver följande information när du använder RPV-versionen av kalkylatorn:
 
 * Antal besökare till kontrollerbjudandet
 * Total intäkt för kontrollerbjudandet
@@ -164,6 +164,6 @@ Varje gång du jämför två alternativ kan du få en falsk positiv effekt (obse
 
 ## Slutsats {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Genom att använda [!UICONTROL Auto-Allocate] verksamhet, [!DNL Target] identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig mer. [!UICONTROL Auto-Allocate] gör det enkelt att uppnå konverteringsmålen samtidigt som gissningsarbetet tas bort.
+Genom att använda en [!UICONTROL Auto-Allocate]-aktivitet identifierar [!DNL Target] en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren för att öka antalet konverteringar medan testet fortsätter att köras och lära sig. [!UICONTROL Auto-Allocate] gör det enkelt att uppnå konverteringsmålen samtidigt som gissningsarbetet tas bort.
 
 Genom att använda den exempelstorlekskalkylator (länk ovan) som introduceras i den här artikeln och låta testet köras under den tid som föreslås av den, kan du se till att du alltid utför A/B-tester av hög kvalitet som följer de falska positiva och falska negativa frekvenserna som du har bestämt är lämpliga för det specifika testet. På så sätt kan du vara säker på att dina provningar är konsekventa och att du på ett tillförlitligt sätt kan upptäcka den hiss du är ute efter.

@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Planera och implementera [!DNL Recommendations]
 
-Innan du börjar använda [!DNL Adobe Target Recommendations]måste du utföra flera steg.
+Innan du börjar använda [!DNL Adobe Target Recommendations] måste du slutföra flera steg.
 
-The [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} innehåller information om hur du implementerar [!DNL Recommendations] på er webbplats, samt hur ni implementerar [!DNL Target].
+[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} innehåller information om hur du implementerar [!DNL Recommendations] på din webbplats samt hur du implementerar [!DNL Target].
 
-Mer information och stegvisa instruktioner finns i [Planera och implementera Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} i *Adobe Target Developer Guide* portal.
+Mer information och stegvisa instruktioner finns i [Planera och implementera Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} i *Adobe Target Developer Guide* -portalen.

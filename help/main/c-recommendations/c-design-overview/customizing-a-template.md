@@ -1,36 +1,36 @@
 ---
 keywords: egen design;snabbhet;decimal;komma;anpassa design
-description: Lär dig använda designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i Adobe [!DNL Target] Recommendations.
+description: Lär dig hur du använder designspråket Velocity med öppen källkod för att anpassa rekommendationsdesign i Adobe [!DNL Target] Recommendations.
 title: Hur anpassar jag en design snabbt?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
 
 # Anpassa en design med Snabb
 
-Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesignen i [!DNL Adobe Target Recommendations].
+Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesigner i [!DNL Adobe Target Recommendations].
 
 ## Översikt över hastighet {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org).
 
-All snabbhetslogik, syntax och så vidare kan användas för en rekommendationsdesign. Det innebär att du kan skapa *for* slingor, *if* -programsatser och annan kod som använder Snabb i stället för JavaScript.
+All snabbhetslogik, syntax o.s.v. kan användas för en rekommendationsdesign. Det innebär att du kan skapa *for*-slingor, *if*-programsatser och annan kod med hjälp av Snabb i stället för JavaScript.
 
-Entitetsattribut har skickats till [!DNL Recommendations] i `productPage` mbox eller CSV-överföringen kan visas i en design, med undantag för multivalue-attribut. Alla typer av attribut kan skickas; men [!DNL Target] skickar inte attribut av typen &quot;multi-value&quot; som en array över vilken en mall kan iterera (till exempel `entityN.categoriesList`).
+Entitetsattribut som skickas till [!DNL Recommendations] i mbox `productPage` eller CSV-överföringen kan visas i en design, med undantag för multivärdeattribut. Alla typer av attribut kan skickas, men [!DNL Target] skickar inte attribut av typen &quot;multi-value&quot; som en array över vilken en mall kan iterera (till exempel `entityN.categoriesList`).
 
-Dessa värden refereras med följande syntax:
+Dessa värden refereras till med följande syntax:
 
 ```
 $entityN.variable
 ```
 
-Entitetsattributnamn måste följa i Snabbredigering, som består av ett inledande tecken *$* följt av en VTL-identifierare (Velocity Template Language). VTL-identifieraren måste börja med ett alfabetiskt tecken (a-z eller A-Z).
+Entitetsattributnamn måste följa efter i kortskrift av hastighet, som består av ett inledande *$*-tecken, följt av en VTL-identifierare (Velocity Template Language). VTL-identifieraren måste börja med ett alfabetiskt tecken (a-z eller A-Z).
 
 Attributnamn för hastighetsenhet är begränsade till följande typer av tecken:
 
@@ -62,7 +62,7 @@ $entities[0].categoriesList[2]
 
 Mer information om hastighetsvariabler (attribut) finns i [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Om du använder ett profilskript i din design måste $ före skriptnamnet escape-konverteras med ett `\` (omvänt snedstreck). Exempel:
+Om du använder ett profilskript i din design måste $ som föregår skriptnamnet escape-konverteras med ett `\` (omvänt snedstreck). Exempel:
 
 `\${user.script_name}`
 
@@ -123,17 +123,17 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Om du vill lägga till text efter värdet för ett attribut före en tagg som anger att attributnamnet är slut, kan du göra det med hjälp av formell notation för att omsluta attributets namn. Exempel: `${entity1.thumbnailUrl}.gif`.
+>Om du vill lägga till text efter värdet för ett attribut före en tagg som anger att attributnamnet är slut, kan du göra det med hjälp av formell notation för att omsluta attributets namn. Till exempel: `${entity1.thumbnailUrl}.gif`.
 
-Du kan också använda `algorithm.name` och `algorithm.dayCount` som entitetsattribut i designen, så att en design kan användas för att testa flera villkor, och villkorsnamnet kan visas dynamiskt i designen. Det här visar besökaren att han eller hon tittar på&quot;bästsäljare&quot; eller&quot;personer som såg det här köpte det&quot;. Du kan även använda dessa attribut för att visa `dayCount` (antal dagar med data som används i kriterierna, t.ex.&quot;de viktigaste säljarna under de senaste två dagarna&quot;).
+Du kan också använda `algorithm.name` och `algorithm.dayCount` som entitetsattribut i designer, så att en design kan användas för att testa flera villkor, och villkorsnamnet kan visas dynamiskt i designen. Det här visar besökaren att han eller hon tittar på&quot;bästsäljare&quot; eller&quot;personer som såg det här köpte det&quot;. Du kan till och med använda dessa attribut för att visa `dayCount` (antal dagar med data som används i villkoren, t.ex.&quot;bästsäljare de senaste två dagarna&quot;).
 
 ## Arbeta med siffror i hastighetsmallar
 
 Som standard hanteras alla entitetsattribut som strängvärden i snabbmeddelandemallar. Du kanske vill behandla ett entitetsattribut som ett numeriskt värde för att utföra en matematisk åtgärd eller jämföra det med ett annat numeriskt värde. Så här behandlar du ett entitetsattribut som ett numeriskt värde:
 
-1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller dubbelvärde.
-1. Se till att entitetsattributet som du vill använda inte är tomt (krävs för [!DNL Target Recommendations]&#39; mallparser för att validera och spara mallen).
-1. Skicka entitetsattributet till `parseInt` eller `parseDouble` på den dummy-variabel som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde.
+1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller ett dubbelvärde.
+1. Kontrollera att entitetsattributet som du vill använda inte är tomt (krävs för mallparsern [!DNL Target Recommendations] för att validera och spara mallen).
+1. Skicka entitetsattributet till metoden `parseInt` eller `parseDouble` för den dummy-variabel som du skapade i steg 1 för att omvandla strängen till ett heltal eller ett dubbelvärde.
 1. Utför matematisk åtgärd eller jämförelse på det nya numeriska värdet.
 
 ### Exempel: Beräkna ett rabattpris
@@ -151,7 +151,7 @@ Anta att du vill minska det visade priset för en artikel med $0,99 för att til
 #end
 ```
 
-### Exempel: Välja hur många stjärnor som ska visas baserat på ett objekts klassificering
+### Exempel: Välj hur många stjärnor som ska visas baserat på ett objekts klassificering
 
 Anta att du vill visa ett lämpligt antal stjärnor baserat på ett objekts numeriska genomsnittliga kundomdöme. Du kan använda följande metod för att uppnå detta resultat:
 
@@ -176,7 +176,7 @@ Anta att du vill visa ett lämpligt antal stjärnor baserat på ett objekts nume
 #end
 ```
 
-### Exempel: Beräkna tiden i timmar och minuter baserat på en artikels längd i minuter
+### Exempel: Beräkna tiden i timmar och minuter baserat på ett objekts längd i minuter
 
 Anta att du lagrar längden på en film i minuter, men vill visa längden i timmar och minuter. Du kan använda följande metod för att uppnå detta resultat:
 
@@ -191,9 +191,9 @@ Anta att du lagrar längden på en film i minuter, men vill visa längden i timm
 
 ## Visa ett nyckelobjekt med rekommenderade produkter {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
-Du kan ändra designen så att nyckelobjektet visas tillsammans med andra rekommenderade produkter. Du kanske vill visa det aktuella objektet som referens bredvid rekommendationerna.
+Du kan ändra designen så att nyckelobjektet visas tillsammans med andra rekommenderade produkter. Du kan till exempel visa det aktuella objektet som referens bredvid rekommendationerna.
 
-Det gör du genom att skapa en kolumn i designen som använder `$key` attribut som du baserar din rekommendation på i stället för `$entity` -attribut. Koden för nyckelkolumnen kan till exempel se ut så här:
+Det gör du genom att skapa en kolumn i designen som använder attributet `$key` som du baserar din rekommendation på i stället för attributet `$entity`. Koden för nyckelkolumnen kan till exempel se ut så här:
 
 ```
 <div class="at-table-column"> 
@@ -206,11 +206,11 @@ Det gör du genom att skapa en kolumn i designen som använder `$key` attribut s
 </div>
 ```
 
-Resultatet är en design som följande, där en kolumn visar nyckelobjektet.
+Resultatet är en design som följande, där nyckelobjektet visas i en kolumn.
 
 ![rec_key-bild](assets/rec_key.png)
 
-När du skapar [!DNL Recommendations] aktivitet, om nyckelobjektet hämtas från besökarens profil, till exempel&quot;senast köpta objekt&quot;, [!DNL Target] visar en slumpmässig produkt i [!UICONTROL Visual Experience Composer] (VEC). Detta beror på att en profil inte är tillgänglig när du designar aktiviteten. När besökarna visar sidan visas det förväntade nyckelobjektet.
+När du skapar din [!DNL Recommendations]-aktivitet visas en slumpmässig produkt i [!UICONTROL Visual Experience Composer] (VEC) om nyckelobjektet hämtas från besökarens profil, till exempel&quot;senast köpta objekt&quot;. [!DNL Target] Detta beror på att en profil inte är tillgänglig när du designar aktiviteten. När besökarna visar sidan visas det förväntade nyckelobjektet.
 
 ## Utföra ersättningar i ett strängvärde {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -240,7 +240,7 @@ Följande kod är ett fullständigt villkorligt exempel på ett försäljningspr
 
 ## Anpassa mallstorleken och kontrollera om det finns tomma värden {#default}
 
-Med hjälp av ett hastighetsskript som styr för dynamisk storleksanpassning av enhetsvisningen ger följande mall ett-till-många-resultat för att undvika att skapa tomma HTML-element när det inte finns tillräckligt med matchande entiteter som returnerats från [!DNL Recommendations]. Det här skriptet är bäst för scenarier när det inte går att förvränga säkerhetskopieringsrekommendationer och [!UICONTROL Partial Template Rendering] är aktiverat.
+Med hjälp av ett hastighetsskript för att styra för dynamisk storleksanpassning av enhetsvisningen får följande mall ett-till-många-resultat för att undvika att skapa tomma HTML-element när det inte finns tillräckligt med matchande entiteter returnerade från [!DNL Recommendations]. Det här skriptet är bäst för scenarier när det inte går att förvränga säkerhetskopieringsrekommendationer och [!UICONTROL Partial Template Rendering] är aktiverat.
 
 Följande HTML-fragment ersätter den befintliga HTML-delen i standarddesignen 4x2 (CSS inkluderas inte här av förenklingsskäl):
 

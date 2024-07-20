@@ -1,7 +1,7 @@
 ---
 keywords: katalogsökning;katalog;sökning;exkludering;samling;filter;rekommendationer
-description: Lär dig använda [!DNL Recommendations] [!UICONTROL Catalog Search] om du vill hitta produkter eller innehåll tar du bort objekt från katalogen och mycket mer.
-title: Hur jag använder [!DNL Recommendations] [!UICONTROL Catalog Search]?
+description: Lär dig hur du använder  [!DNL Recommendations] [!UICONTROL Catalog Search] för att hitta produkter eller innehåll, ta bort objekt från katalogen och mycket mer.
+title: Hur använder jag  [!DNL Recommendations] [!UICONTROL Catalog Search]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 hide: true
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog Search]
 
-The [!UICONTROL Catalog Search] sida in [!DNL Adobe Recommendations] hjälper dig att hitta produkterna eller innehållet i katalogen. Den mest grundläggande uppgiften du kan utföra på den här sidan är att söka efter ett objekt. Dessutom kan du ändra miljö, filtrera aspekter, ändra kolumner i tabellen, lägga till nya sökfaktorer och mycket mer.
+Sidan [!UICONTROL Catalog Search] i [!DNL Adobe Recommendations] hjälper dig att hitta produkterna eller innehållet i katalogen. Den mest grundläggande uppgiften du kan utföra på den här sidan är att söka efter ett objekt. Dessutom kan du ändra miljö, filtrera aspekter, ändra kolumner i tabellen, lägga till nya sökfaktorer och mycket mer.
 
 Kataloger avser hela produktuppsättningen (enheter). Katalogen kan innehålla många samlingar, ett sätt att ordna dina produkter i logiska områden.
 
 ## Åtkomst [!UICONTROL Catalog Search]
 
-Så här öppnar du [!UICONTROL Catalog Search] sida, klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+Du öppnar sidan [!UICONTROL Catalog Search] genom att klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 ![Katalogsöksida](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
 
 ## Utför en enkel sökning
 
-1. Ange ett sökord i **[!UICONTROL Search In]** fält.
+1. Skriv ett sökord i fältet **[!UICONTROL Search In]**.
 
-1. (Valfritt) Du kan förfina sökningen genom att välja ett sökalternativ på Alternativ-menyn som visas när du klickar på nedpilen i dialogrutan [!UICONTROL Search In] fält.
+1. (Valfritt) Du kan förfina sökningen genom att välja ett sökalternativ på Alternativ-menyn som visas när du klickar på nedpilen i fältet [!UICONTROL Search In].
 
    Sökalternativen omfattar följande:
 
@@ -44,9 +44,9 @@ Så här öppnar du [!UICONTROL Catalog Search] sida, klicka **[!UICONTROL Recom
    >
    > När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
    >
-   >Det finns för närvarande ingen funktion som gör att du kan ändra attributtypen. Om du vill göra en ändring [öppna ett kundproblem](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till de attribut som behöver typen ändrad från sträng till numerisk.
+   >Det finns för närvarande ingen funktion som gör att du kan ändra attributtypen. Om du vill göra en ändring [öppnar du ett kundproblem](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till de attribut som behöver typen ändrad från sträng till numerisk.
 
-   Du kan också använda filter för att hitta önskade produkter. Genom att klicka på **[!UICONTROL Show Filters]** ikon ( ![Ikonen Visa filter](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), expandera [!UICONTROL Collections] och sedan välja en eller flera samlingar, alla produkter som tillhör de valda samlingarna i din katalog, visas.
+   Du kan också använda filter för att hitta önskade produkter. Om du till exempel klickar på ikonen **[!UICONTROL Show Filters]** ( ![Visa filterikon](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), expanderar [!UICONTROL Collections]-aspekten och sedan väljer en eller flera samlingar visas alla produkter som tillhör de valda samlingarna i din katalog.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -88,7 +88,7 @@ All information om det objektet tas bort från katalogindexet. Objektet tas enda
 
 ## Uppdatera katalogen
 
-Indexet för katalogen skapas automatiskt när du överför din första feed och uppdateras enligt [angivet schema](/help/main/c-recommendations/c-products/feeds.md#steps).
+Indexet för din katalog skapas automatiskt när du överför din första feed och uppdateras enligt det [angivna schemat](/help/main/c-recommendations/c-products/feeds.md#steps).
 
 Katalogen uppdateras automatiskt när uppdateringar tas emot via feedsfiler, API eller mbox-uppdateringar. Uppdateringarna slutförs vanligtvis inom en timme. Om uppdateringar pågår visas den tid då den senaste uppdateringen startades. Om inga uppdateringar pågår visas den tid då den senaste uppdateringen startades och avslutades.
 
@@ -108,11 +108,11 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## Byt miljö
 
-[Miljö](/help/main/administrating-target/environments.md) kan ni ordna era sajter och förproduktionsmiljöer för enkel hantering och separat rapportering.
+Med [miljöer](/help/main/administrating-target/environments.md) kan du ordna dina platser och förproduktionsmiljöer för enkel hantering och separat rapportering.
 
-1. Klicka på ikonen Visa filter ( ![Ikonen Visa filter](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
+1. Klicka på ikonen Visa filter ( ![ikonen Visa filter](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
 
-1. Välj önskad miljö i dialogrutan **[!UICONTROL Environment]** listruta.
+1. Välj önskad miljö i listrutan **[!UICONTROL Environment]**.
 
 <!-- ## Modify the Catalog Search page (filters and columns)
 
@@ -134,9 +134,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Ändra kolumner
 
-Du kan tillfälligt ändra de aktiva kolumnerna i [!UICONTROL Catalog Search] sida.
+Du kan tillfälligt ändra de aktiva kolumnerna på sidan [!UICONTROL Catalog Search].
 
-1. Klicka på **[!UICONTROL Customize Table]** ikon (  ![Ikonen Anpassa tabell](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. Klicka på ikonen **[!UICONTROL Customize Table]** ( ![Anpassa tabell ](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
 
 1. Markera eller avmarkera de kolumner som du vill visa eller dölja.
 

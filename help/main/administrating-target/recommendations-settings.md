@@ -1,6 +1,6 @@
 ---
 keywords: rekommendationer;implementera rekommendationer;klientkod;autentiseringstoken;branschvertikal;filterinkompatibelt läge;standardvärdgrupp;miniatyrbas;generera autentiseringstoken;autentiseringstoken;
-description: Lär dig hur du konfigurerar inställningar för [!DNL Adobe Target Recommendations].
+description: Lär dig konfigurera inställningar för  [!DNL Adobe Target Recommendations].
 title: Hur konfigurerar jag inställningarna för Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Administration & Configuration
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Lär dig konfigurera inställningar för [!DNL Adobe Target Recommendations].
 
-Så här öppnar du [!DNL Recommendations] inställningsalternativ, öppna [!DNL Target] i [!DNL Adobe Experience Cloud]och sedan klicka [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Öppna [!DNL Target] i [!DNL Adobe Experience Cloud] och klicka sedan på [!UICONTROL Administration] > [!UICONTROL Recommendations] för att komma åt inställningarna för [!DNL Recommendations].
 
 Du kan konfigurera följande inställningar:
 

@@ -1,6 +1,6 @@
 ---
 keywords: Multivariata tester;felsökning;felsökning;mvt
-description: Utforska potentiella utmaningar som du kan ställas inför när du använder [!UICONTROL Multivariate Test] MVT-verksamhet [!DNL Adobe Target], tillsammans med förslag på lösningar.
+description: Utforska potentiella utmaningar som du kan ställas inför när du använder [!UICONTROL Multivariate Test] (MVT)-aktiviteter i  [!DNL Adobe Target], tillsammans med förslag på lösningar.
 title: Hur felsöker jag en [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
@@ -11,14 +11,14 @@ ht-degree: 0%
 
 ---
 
-# Felsökning [!UICONTROL Multivariate Test] verksamhet
+# Felsöka [!UICONTROL Multivariate Test] aktiviteter
 
-Den här artikeln innehåller förslag på hur du löser vissa problem som kan uppstå när du designar en [!UICONTROL Multivariate Test] (MVT) in [!DNL Adobe Target].
+Den här artikeln innehåller förslag på hur du löser vissa problem som kan uppstå när du designar en [!UICONTROL Multivariate Test] (MVT) i [!DNL Adobe Target].
 
-* När du redigerar en aktivitet, om du använde [!DNL Analytics]-baserade mätvärden och rapportsviten inte läses in (snurrskärmar), växla mätvärdena till [!DNL Target] mätvärden och växla sedan igen till [!DNL Analytics]-baserat mätresultat. Rapportsviten bör nu läsas in.
+* Om du använde [!DNL Analytics]-baserade mätvärden när du redigerade en aktivitet och rapportsviten inte läses in (snurrskärmar), växlar du måtten till [!DNL Target] och växlar sedan igen till [!DNL Analytics]-baserade mätvärden. Rapportsviten bör nu läsas in.
 * Om du ändrar ett test som redan körs kan du återställa testet och dess data.
 
-  [!DNL Target] gör att du kan redigera en aktiv aktivitet. Om du redigerar en pågående aktivitet kan testet återställas, så rapporter kanske inte känner igen vissa ändringar.
+  Med [!DNL Target] kan du redigera en aktiv aktivitet. Om du redigerar en pågående aktivitet kan testet återställas, så rapporter kanske inte känner igen vissa ändringar.
 
   Det är säkert att göra små ändringar, till exempel redigera befintlig text eller HTML-erbjudanden.
 

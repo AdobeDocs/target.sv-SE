@@ -1,25 +1,25 @@
 ---
-keywords: dynamiska data;resurser;data;erbjudanden;personaliserade erbjudanden;personliga erbjudanden;tokenersättning
-description: Lär dig hur du skickar dynamiska data till [!DNL Adobe Target] Erbjudanden.
+keywords: dynamiska data;resurser;data;erbjudanden;personliga erbjudanden;token replace
+description: Lär dig hur du skickar dynamiska data till  [!DNL Adobe Target] erbjudanden.
 title: Hur överför jag dynamiska data till erbjudanden?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # Överför dynamiska data till erbjudanden
 
-Du kan dynamiskt visa besökarinformation som lagras i [!DNL Adobe Target] profil. På samma sätt kan aktivitetsinformation (som namnet på aktiviteten eller namnet på upplevelsen) också användas för att skapa ett enda erbjudande som dynamiskt returnerar personaliserat innehåll baserat på besökarens intressen, tidigare beteende och övergripande profil.
+Du kan dynamiskt visa besökarinformation som lagras i profilen [!DNL Adobe Target]. På samma sätt kan aktivitetsinformation (som namnet på aktiviteten eller namnet på upplevelsen) också användas för att skapa ett enda erbjudande som dynamiskt returnerar personaliserat innehåll baserat på besökarens intressen, tidigare beteende och övergripande profil.
 
 ## Affärsfall
 
 * Erbjud ett rabatterat erbjudande om att&quot;fylla på&quot; eller&quot;fylla på&quot; den senast köpta produkten. I stället för att skapa ett separat erbjudande för varje objekt i din katalog kan du skapa ett erbjudande med dynamisk text som läser den&quot;senaste köpta produkten&quot; från profilen och visar en länk i erbjudandet.
-* En besökare kommer till din landningssida med `keyword=world` `cup`. Du visar termen *Världskopp* i erbjudandet.
-* Anpassa en rekommendationsetikett med t.ex. (1) det sista objektet som läggs till i en besökares kundvagn (Nike Air Max 1000-tal), (2) besökarens färgpreferens (svart) och (3) besökarens favoritkategori utanför sko (hoodies). Exempel: &quot;Tillbehör din &#39;Nike Air Max 1000s&#39; med dessa coola &#39;svarta&#39; &#39;hookaler&#39;!&quot;
+* En besökare kommer till din landningssida med `keyword=world` `cup`. Du visar termen *World Cup* i erbjudandet.
+* Anpassa en rekommendationsetikett med t.ex. (1) det sista objektet som läggs till i en besökares kundvagn (Nike Air Max 1000-tal), (2) besökarens färgpreferens (svart) och (3) besökarens favoritkategori utanför sko (hoodies). Exempel:&quot;Ge din Nike Air Max 1000s åtkomst till dessa coola &#39;svarta&#39; &#39;hookaler&#39;!&quot;
 
 ## Tekniska fördelar
 
@@ -29,17 +29,17 @@ Eftersom besökarspecifika inställningar, beteenden, status kan lagras i besök
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
-* HTML-erbjudandekod: `Get your ${profile.keyword} information here!`
+* Erbjudandekod för HTML: `Get your ${profile.keyword} information here!`
 * Besökaren ser: Hämta information om World Cup här!
 
 Följande värden kan vara &quot;token replace&quot;:
 
 | Värde | Exempel |
 |--- |--- |
-| Profilparametrar i InDesign | `${profile.age}` |
+| Profilparametrar i mbox | `${profile.age}` |
 | Skriptprofilparametrar | `${user.lifetimeSpend}` |
 | Mbox-parametrar | `${mbox.favoriteColor}` |
-| Kampanjinformation | `${campaign.name}`, `${campaign.recipe.name}`, `${campaign.id}`, `${campaign.recipe.id}`och `${campaign.recipe.trafficType}` |
+| Kampanjinformation | `${campaign.name}`, `${campaign.recipe.name}`, `${campaign.id}`, `${campaign.recipe.id}` och `${campaign.recipe.trafficType}` |
 | Unikt besökar-ID | `${user.pcId}` |
 | Unikt sessions-ID | `${user.sessionId}` |
 | Besökarens första session (true eller false) | `${user.isFirstSession}` |
@@ -47,7 +47,7 @@ Följande värden kan vara &quot;token replace&quot;:
 
 Logga information i konsolen i felsökningssyfte, till exempel `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-För [!DNL Recommendations] designer, se fler exempel i [Designöversikt](/help/main/c-recommendations/c-design-overview/design-overview.md).
+Mer information om [!DNL Recommendations]-designer finns i ytterligare exempel i [Designöversikt](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
 ## Implementering
 
@@ -59,21 +59,21 @@ Använd syntaxen för profilparametrar som skapats i ett profilskript:
 
 `${user.parameter}`
 
-När dynamiska attribut används i en [!DNL Recommendations] design måste du infoga ett omvänt snedstreck ( \ ) före dollartecknet ( $ ) för att det dynamiska värdet ska återges korrekt:
+När du använder dynamiska attribut i en [!DNL Recommendations]-design måste du infoga ett omvänt snedstreck ( \ ) före dollartecknet ( $ ) för att det dynamiska värdet ska återges korrekt:
 
 `\${user.endpoint.lastViewedEntity}`
 
-Variablerna ersätts med värdet på serversidan, så det behövs inga citattecken eller andra JavaScript för att visningen ska bli korrekt.
+Variablerna ersätts med värdet på serversidan, så det krävs inga citattecken eller andra JavaScript för att de ska visas korrekt.
 
 Standardvärden kan också anges för värden som du vill exponera för erbjudanden. Syntaxen är följande:
 
 `${user.testAttribute default="All Items!"}`
 
-När `testAttribute` finns inte eller är tom,&quot;Alla objekt!&quot; är skriven. Om ett tomt attributvärde är giltigt och du vill skriva ut det i stället för att visa standardvärdet, kan du använda:
+När `testAttribute` inte finns eller är tom, &quot;Alla objekt!&quot; är skriven. Om ett tomt attributvärde är giltigt och du vill skriva ut det i stället för att visa standardvärdet, kan du använda:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Du kan också visa värden för escape och unescape. Om värdet till exempel har en apostrof kan du undvika värdet så att det inte bryter JavaScript-koden på sidan. (Erbjudandena är skrivna i JavaScript, vilket innebär att en enda apostrof kan blandas ihop som citat.) Exempel:
+Du kan också visa värden för escape och unescape. Om värdet till exempel har en apostrof kan du undvika värdet så att det inte bryter JavaScript på sidan. (Erbjudandena skrivs i JavaScript, så en enda apostrof kan blandas ihop för en offert.) Exempel:
 
 `${user.encodedValue encode="unescape"}`
 

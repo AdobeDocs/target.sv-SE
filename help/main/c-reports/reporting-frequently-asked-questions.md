@@ -1,7 +1,7 @@
 ---
 keywords: felsökning;måttskillnader;vanliga frågor och svar;rapporter;ny besökare;återkommande besökare;återkommande besökare;återkommande besökare;återbesök;nytt besök
-description: Se en lista med vanliga frågor och svar om Adobe [!DNL Target] rapportering.
-title: Var hittar jag svar på frågor om [!DNL Target] Rapportera?
+description: Utforska en lista med vanliga frågor och svar om rapportering från Adobe [!DNL Target] .
+title: Var hittar jag svar på frågor om  [!DNL Target] rapportering?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
@@ -29,7 +29,7 @@ En besökare inkluderas i segmentet Nya besökare om något av följande villkor
 
 * Det är besökarens första besök på webbplatsen.
 * Det är besökarens första besök sedan cookies rensades.
-* Det är besökarens första besök sedan [Livslängd för besökarprofil](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) har gått ut.
+* Det är besökarens första besök på webbplatsen sedan [besökarprofilens livstid](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) har gått ut.
 
 ### Returnerande besökare
 
@@ -44,7 +44,7 @@ Eftersom profilens livstid är inställd på 14 dagar inkluderas den här besök
 
 ### Exempel som förklarar avvikelser mellan mätvärden
 
-**Exempel 1**: Om de här två segmenten används för en aktivitet kommer segmenten Nya besökare och Returning Visitors inte alltid att öka det totala antalet besökare.
+**Exempel 1**: Om de här två segmenten används i en aktivitet, läggs inte alltid segmenten Nya besökare och Återkommande besökare till det totala antalet besökare.
 
 Ta följande exempel som exempel, med de villkor som anges ovan för nya besökare och återkommande besökare:
 
@@ -53,7 +53,7 @@ Ta följande exempel som exempel, med de villkor som anges ovan för nya besöka
 
 Den här besökaren räknas som en enskild besökare i aktivitetens totala besökarantal även om den räknas både i segmenten för nya besökare och återkommande besökare.
 
-**Exempel 2**: Skillnader mellan antalet nya besökare och återkommande besökare beror också på hur du konfigurerar aktivitetens [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Exempel 2**: Skillnader mellan antalet för nya besökare och återkommande besökare beror också på hur du konfigurerar aktivitetens [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Exempel:
 
@@ -61,16 +61,16 @@ Flera nya besökare besöker er webbplats och är kvalificerade för en aktivite
 
 En del besökare nådde konverteringsmåttet, som konfigurerades som&quot;Öka antal och behåll användare i aktivitet&quot;. Anta att vissa av dessa användare når konverteringsmåttet flera gånger, så ökar inte konverteringsmåttet. Med tanke på konfigurationen kan vissa användare dock komma till konverteringsmåttet och sedan gå tillbaka till startsidan och kvalificera sig för aktiviteten igen för att registrera ett nytt besök.
 
-## Varför gör jag [!UICONTROL Experience Targeting] (XT)-rapporter innehåller mätvärden för att styra upplevelserna?
+## Varför innehåller mina [!UICONTROL Experience Targeting] (XT)-rapporter mätvärden för kontrollupplevelser?
 
-XT-aktiviteter ska alltid ha en kontrollupplevelse. Om du använder en XT-aktivitet på ungefär samma sätt som en [!UICONTROL A/B Test] -aktiviteten, som är ett ganska vanligt scenario, är data för kontrollupplevelsen användbara. Du kan ignorera data om kontrollupplevelsen om du inte tycker att de är användbara i dina rapporter.
+XT-aktiviteter ska alltid ha en kontrollupplevelse. Om du använder en XT-aktivitet på ungefär samma sätt som en [!UICONTROL A/B Test]-aktivitet, vilket är ett ganska vanligt scenario, är data för kontrollupplevelsen användbara. Du kan ignorera data om kontrollupplevelsen om du inte tycker att de är användbara i dina rapporter.
 
-## Varför är antalet besök lägre i [!DNL Target] inte i andra [!DNL Adobe Experience Cloud] lösningar? {#section_7E626FDB417E41B8B58BBF30FB207409}
+## Varför är antalet besök lägre i [!DNL Target] än i andra [!DNL Adobe Experience Cloud]-lösningar? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
-Mätvärden, till exempel besök, som rapporteras av [!DNL Target] är alltid lägre än de rapporterade talen i andra [!DNL Experience Cloud] lösningar av flera orsaker:
+Mätvärden, till exempel besök, som rapporteras av [!DNL Target] är alltid lägre än de rapporterade siffrorna i andra [!DNL Experience Cloud]-lösningar av flera anledningar:
 
 * [!DNL Target] räknar endast besök för besökare som är kvalificerade för aktiviteten. Andra lösningar kräver besök för besökare som visar sidan, oavsett vilken aktivitet som fört dem till sidan.
-* Det kan finnas situationer där olika aktiviteter konkurrerar om samma plats (ömsesidigt uteslutande). Det innebär att besökarna ser olika innehåll på en webbsida, vilket påverkar de mätvärden som rapporteras av [!DNL Target].
+* Det kan finnas situationer där olika aktiviteter konkurrerar om samma plats (ömsesidigt uteslutande). Det innebär att besökarna ser olika innehåll på en webbsida, vilket påverkar de måttnummer som rapporteras av [!DNL Target].
 
 ## Varför finns det inga data tillgängliga för min aktivitetsrapport? {#section_E4722F6445884130951DF79981C8289B}
 
@@ -83,11 +83,11 @@ Det finns några möjliga orsaker till att data saknas i aktivitetsrapporter:
 
 ### Du har inte valt rätt miljö i rapportens inställningar:
 
-Om en aktivitets innehåll har levererats till användarna men rapporten inte innehåller några data kontrollerar du att du har rätt miljö ([värdgrupp](/help/main/administrating-target/hosts.md)) i rapportens inställningar.
+Om en aktivitets innehåll levererades till användarna men rapporten inte innehåller några data kontrollerar du att rätt miljö ([värdgrupp](/help/main/administrating-target/hosts.md)) är markerad i rapportens inställningar.
 
 Så här ändrar du miljön för en aktivitetsrapport:
 
-1. Klicka **[!UICONTROL Activities]** klickar du på önskad aktivitet i listan och sedan på **[!UICONTROL Reports]** -fliken.
+1. Klicka på **[!UICONTROL Activities]**, klicka på önskad aktivitet i listan och klicka sedan på fliken **[!UICONTROL Reports]**.
 1. Klicka på kugghjulsikonen för att konfigurera rapportinställningar.
 
    ![Dialogrutan A/B-inställningar](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -104,27 +104,27 @@ Mer information om miljöer finns i [Värdar](/help/main/administrating-target/h
 
 Om en aktivitets innehåll levererades till användarna men rapporten inte innehåller några data, måste du se till att du använder en upplevelse med trafik som kontrollupplevelse.
 
-1. Klicka **[!UICONTROL Activities]** klickar du på önskad aktivitet i listan och sedan på **[!UICONTROL Reports]** -fliken.
+1. Klicka på **[!UICONTROL Activities]**, klicka på önskad aktivitet i listan och klicka sedan på fliken **[!UICONTROL Reports]**.
 1. Klicka på kugghjulsikonen för att konfigurera rapportinställningar.
 
-1. Från **[!UICONTROL Control]** väljer du en upplevelse som tar emot trafik.
+1. Välj en upplevelse som tar emot trafik i listrutan **[!UICONTROL Control]**.
 
 1. Klicka på **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Mer information om hur du uppdaterar en [!UICONTROL Automated Personalization] (AP) och ändra kontrollupplevelsen till en upplevelse som tar emot trafik, se [Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Mer information om hur du uppdaterar en [!UICONTROL Automated Personalization]-aktivitet (AP) och ändrar kontrollupplevelsen till en upplevelse som tar emot trafik finns i [Välja kontrollen för din Automated Personalization- eller Auto-Target-aktivitet](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## Varför är trafiken delad mellan mina upplevelser ojämn i min A/B- eller MVT-aktivitet? {#uneven}
 
-Jag ställer till exempel in att trafikuppdelningen ska vara 50/50 eller 25/25/25/25, men jag ser en oerhört annorlunda fördelning mellan upplevelserna i rapporten. Det finns flera orsaker till ojämna besökarantal i [!DNL Target] rapportering:
+Jag ställer till exempel in att trafikuppdelningen ska vara 50/50 eller 25/25/25/25, men jag ser en oerhört annorlunda fördelning mellan upplevelserna i rapporten. Det finns flera orsaker till ojämnt antal besökare i [!DNL Target]-rapportering:
 
-* När en [!DNL Target] aktiviteten startas för första gången kan trafikfördelningen vara ojämn på grund av edge node-arkitekturen som [!DNL Target] använder för att optimera upplevelseleveransen. Det bästa sättet är att ge en aktivitet lite tid att samla in mer data och distributionen normaliseras. Mer information om [!DNL Adobe Target] arkitektur och Edge-noder, se [Så här fungerar Adobe Target](/help/main/c-intro/how-target-works.md).
-* Om du är [!DNL Target] eller [!DNL Analytics] och du använder **[!UICONTROL Visits]** mätvärden, kom ihåg att [!DNL Target] är ett besöksbaserat system och trafikfördelningen för ett A/B- eller MVT-test tilldelas på besökarnivå. Om du undersöker aktivitetsresultaten med **[!UICONTROL Visits]** trafikfördelningen kan se ojämn ut, eftersom vissa besökare kan ha flera besök. Besökare är standardmätvärdet för normalisering när aktivitetsprestanda utvärderas.
+* När en [!DNL Target]-aktivitet startas för första gången kan trafikfördelningen vara ojämn på grund av edge node-arkitekturen som [!DNL Target] använder för att optimera upplevelseleveransen. Det bästa sättet är att ge en aktivitet lite tid att samla in mer data och distributionen normaliseras. Mer information om [!DNL Adobe Target]-arkitekturen och Edge-noder finns i [Hur Adobe Target fungerar](/help/main/c-intro/how-target-works.md).
+* Om du är i [!DNL Target] eller [!DNL Analytics] och använder måttet **[!UICONTROL Visits]** måste du komma ihåg att [!DNL Target] är ett besöksbaserat system och trafikfördelningen för ett A/B- eller MVT-test tilldelas på besökarnivå. Om du undersöker aktivitetsresultat med måttet **[!UICONTROL Visits]** kan trafikfördelningen därför se ojämn ut eftersom vissa besökare kan ha flera besök. Besökare är standardmätvärdet för normalisering när aktivitetsprestanda utvärderas.
 * Det bästa sättet att göra A/B- och MVT-tester är att se till att trafikspliterna är jämna. Genom att ändra trafikfördelningen mellan upplevelser (t.ex. från 90/10 till 50/50) under ett test kan besökarna bli ojämna över olika upplevelser. Den lägre trafikupplevelsen kanske aldrig &quot;hinner ikapp&quot;.
 * Om du följer ovanstående metodtips och trafikdelningen inte normaliseras över tid bör du kontrollera följande:
 
-   * Använder du det senaste at.js-biblioteket? Mer information om den aktuella versionen och tillhörande versionsinformation finns i [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * Använder du det senaste at.js-biblioteket? Mer information om den aktuella versionen och tillhörande versionsinformation finns i [versionsinformationen för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
-   * Är det ett omdirigeringstest? Felaktig timing för taggar som utlöses på sidan kan leda till ojämna trafikdelningar, särskilt när du använder [!DNL Analytics] som datakälla för en [!DNL Target] aktivitet. Mer information om hur du åtgärdar ojämn trafikfördelning för en omdirigeringsaktivitet med Analytics for Target (A4T) finns i [Omdirigeringserbjudanden - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+   * Är det ett omdirigeringstest? Felaktig timing för taggar som utlöses på sidan kan leda till ojämna trafikdelningar, särskilt när [!DNL Analytics] används som datakälla för en [!DNL Target]-aktivitet. Mer information om hur du åtgärdar ojämn trafikfördelning för en omdirigeringsaktivitet med Analytics for Target (A4T) finns i [Omdirigeringserbjudanden - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

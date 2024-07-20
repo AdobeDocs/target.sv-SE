@@ -1,6 +1,6 @@
 ---
 keywords: entitetsattribut med flera värden;attribut för anpassade entiteter;giltig JSON;entitetsattributvärde;JSON-matris;flervärd;flervärd
-description: Lär dig hur du använder anpassade entitetsattribut för ett och flera värden för att definiera ytterligare information om objekt i Adobe [!DNL Target] Recommendations-katalog.
+description: Lär dig hur du använder anpassade entitetsattribut för ett eller flera värden för att definiera ytterligare information om objekt i din Adobe [!DNL Target] Recommendations-katalog.
 title: Hur använder jag anpassade entitetsattribut?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Anpassade entitetsattribut
 
-Använd anpassade entitetsattribut med ett och flera värden i [!DNL Adobe Target Recommendations] om du vill definiera ytterligare information om objekt i katalogen.
+Använd anpassade entitetsattribut med ett eller flera värden i [!DNL Adobe Target Recommendations] för att definiera ytterligare information om objekt i din katalog.
 
 ## Gränser {#limits}
 
@@ -46,26 +46,26 @@ Exempel på giltiga JSON-matriser som stöds av [!DNL Recommendations]:
 
 >[!NOTE]
 >
->[!DNL Recommendations] stöder inte blandade värdetyper i entitetsattribut med flera värden. Till exempel: `["AB",1,true, [1,2,3]]` är en giltig JSON-matris, men stöds inte i [!DNL Recommendations] eftersom det innehåller blandade värdetyper (sträng, numeriskt, booleskt, objekt).
+>[!DNL Recommendations] stöder inte blandade värdetyper i entitetsattribut med flera värden. `["AB",1,true, [1,2,3]]` är till exempel en giltig JSON-matris, men stöds inte i [!DNL Recommendations] eftersom den innehåller blandade värdetyper (sträng, numeriskt, booleskt, objekt).
 
 När ett anpassat attribut har skickats som en giltig JSON-array behandlas attributet som ett flervärdesattribut för alla produkter i katalogen.
 
 >[!NOTE]
 >
->Om du vill ändra ett attribut från flera värden till ett enda värde måste du ta bort katalogen och överföra korrigerade produktdata. När du tar bort katalogen tas inte de historiska data som är kopplade till dina produkt-ID:n bort. Se [Tar bort alla objekt från systemet](/help/main/assets/adobe-recommendations-classic.pdf) i *Adobe Recommendations Classic* mer information.
+>Om du vill ändra ett attribut från flera värden till ett enda värde måste du ta bort katalogen och överföra korrigerade produktdata. När du tar bort katalogen tas inte de historiska data som är kopplade till dina produkt-ID:n bort. Mer information finns i [Ta bort alla objekt från systemet](/help/main/assets/adobe-recommendations-classic.pdf) i *Adobe Recommendations Classic* -dokumentationen.
 
 **Begränsningar**:
 
 * Du kan inte använda fördefinierade entitetsattributnamn för anpassade entitetsattribut. (Se [Entitetsattribut](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
-* Attributet `entity.environment` är reserverad av systemet och kan inte användas för anpassade entitetsattribut. Försök att skicka `entity.environment` använda `targetPageParams`, feeds och API:er ignoreras.
-* Matriser måste innehålla en värdetyp. Arrayer med blandade värden ( `["AB",1,true]`) stöds inte.
-* Ett flervärdesattribut som innehåller en kapslad JSON-array ( `[10,12,[1,2,3]]`) behandlas som ett attribut med ett värde.
+* Attributet `entity.environment` är reserverat av systemet och kan inte användas för anpassade entitetsattribut. Försök att skicka `entity.environment` med `targetPageParams`, feeds eller API:er ignoreras.
+* Matriser måste innehålla en värdetyp. Matriser med blandade värden ( `["AB",1,true]`) stöds inte.
+* Ett flervärdesattribut som innehåller en kapslad JSON-matris ( `[10,12,[1,2,3]]`) behandlas som ett enkelvärdesattribut.
 
 ## Implementera attribut med flera värden {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Anpassade entitetsattribut med flera värden stöds vid användning av feeds (CSV). `targetPageParams`och leverans-API för att överföra produkter. Nya värden ersätter aktuella värden. De läggs inte till. Tomma arrayer ( [] ) behandlas som om de inte har några värden.
+Anpassade entitetsattribut för flera värden stöds när flöden (CSV), `targetPageParams` och leverans-API används för att överföra produkter. Nya värden ersätter aktuella värden. De läggs inte till. Tomma matriser ( []) behandlas som om de saknar värden.
 
-Dubbla citattecken måste undantas. Till exempel: `"[""test"", ""value""]"` är en giltig JSON-array som kan användas i CSV.
+Dubbla citattecken måste undantas. `"[""test"", ""value""]"` är till exempel en giltig JSON-matris som kan användas i CSV.
 
 Du kan ta med upp till 500 värden i ett flervärdesattribut.
 
@@ -98,12 +98,12 @@ CSV-filen med Raw-format ser ut så här:
 
 Samma katalog kommer att se ut så här i ett kalkylblad:
 
-![multi-value_example_excel, bild](assets/multi-value_example_excel.png)
+![multi-value_example_excel image](assets/multi-value_example_excel.png)
 
 När du konverterar till CSV-format lägger kalkylbladsprogrammet till citattecken runt cellinnehållet för att förhindra att kommatecken i cellen fungerar som kolumnavgränsare. Det lägger också till citattecken runt JSON-strängvärden som du inkluderar i anpassade attribut med flera värden. Det kan göra det okomplicerat att arbeta direkt med råfilen. Exempel:
 
 * Kalkylblad: `["1","2","3"]`
-* Råformat: `"[""1"",""2"",""3""]"`
+* Raw: `"[""1"",""2"",""3""]"`
 
 Var försiktig när du redigerar en CSV-fil med Raw-katalog direkt.
 
@@ -127,18 +127,18 @@ Du kan skicka flervärdesattribut med leverans-API:t i en mbox-parameter som ett
   }
 ```
 
-Se [Adobe Recommendations API-dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ha information om hur du använder enhets-API:erna Delivery och Save.
+Mer information om hur du använder enhets-API:erna Delivery och Save finns i [Adobe Recommendations API-dokumentationen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ## Använda operatorer med attribut för flera värden {#section_83C2288A805242D9A02EBC4F07DEE945}
 
-När du tillämpar operatorer på anpassade attribut med flera värden i inkluderingsregler för algoritmer, katalogregler och exkluderingsregler, blir resultatet *true* om minst ett värde i listan klarar åtgärden (booleskt) *eller*).
+När du tillämpar operatorer på anpassade attribut med flera värden i inkluderingsregler för algoritmer, katalogregler och exkluderingsregler blir resultatet *true* om minst ett värde i listan klarar åtgärden (booleskt *eller*).
 
 I följande exempel är regeln `message contains abc`.
 
 * Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde innehåller `abc`.
 * Fall 2: `entity.genre = ["abcde","de","ef"]`. Resultatet är sant eftersom ett värde innehåller `abc`.
 
-För negativa operatorer måste alla attributvärden skickas (booleskt) *och*). Om operatorn till exempel är `notEquals`blir resultatet *false* om något värde matchar.
+För negativa operatorer måste alla attributvärden skickas (booleskt *och*). Om operatorn till exempel är `notEquals` blir resultatet *false* om något värde matchar.
 
 I följande avsnitt finns information om operatorbeteende i algoritminkluderingsregler, katalogregler och exkluderingsregler.
 
@@ -150,7 +150,7 @@ Exempel: `genre equals abc`
 
 * Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är false eftersom inget värde är lika med `abc`.
 * Fall 2: `entity.genre = ["abc", "de", "ef"]`. Resultatet är sant eftersom ett värde är lika med `abc`.
-* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är falskt eftersom `abc` är inte lika med något element i listan.
+* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är falskt eftersom `abc` inte är lika med något element i listan.
 
 ### Är inte lika med
 
@@ -160,7 +160,7 @@ Exempel: `genre not equals abc`
 
 * Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde är lika med `abc`.
 * Fall 2: `entity.genre = ["abc", "de", "ef"]`. Resultatet är false eftersom ett värde är lika med `abc`.
-* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är sant eftersom `abc`är inte lika med något element i listan.
+* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Resultatet är sant eftersom `abc` inte är lika med något element i listan.
 
 ### Innehåller
 
@@ -178,7 +178,7 @@ Om inget värde för attributet innehåller indatavärdet blir true.
 Exempel: `genre does not contain abc`
 
 * Fall 1: `entity.genre = ["ab", "bc", "de"]`. Resultatet är sant eftersom inget värde innehåller `abc`.
-* Fall 2: `entity.genre = ["abcde", "de", "ef"]`. Regeln resulterar i false eftersom ett värde innehåller`abc`.
+* Fall 2: `entity.genre = ["abcde", "de", "ef"]`. Regeln resulterar i false eftersom ett värde innehåller `abc`.
 
 ### Börjar med
 
@@ -207,7 +207,7 @@ Efter bearbetning blir alla attributvärden som är större än eller lika med i
 
 Exempel: `price greater than or equal to 100`
 
-* Fall 1: `entity.price = ["10", "20", "45"]`. Resultatet är false eftersom inget värde är större än eller lika med 100. Värdet `de` hoppas över eftersom det inte går att konvertera till dubbel.
+* Fall 1: `entity.price = ["10", "20", "45"]`. Resultatet är false eftersom inget värde är större än eller lika med 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.
 * Fall 2: `entity.price = ["100", "101", "90", "80"]`. Resultatet är sant eftersom två värden är större än eller lika med 100.
 
 ### Mindre än eller lika med (endast numeriska värden)
@@ -218,7 +218,7 @@ Efter bearbetning blir alla attributvärden som är mindre än eller lika med in
 
 Exempel: `price less than or equal to 100`
 
-* Fall 1: `entity.price = ["101", "200", "141"]`. Resultatet är false eftersom inget värde är mindre än eller lika med 100. Värdet `de` hoppas över eftersom det inte går att konvertera till dubbel.
+* Fall 1: `entity.price = ["101", "200", "141"]`. Resultatet är false eftersom inget värde är mindre än eller lika med 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.
 * Fall 2: `entity.price = ["100", "101", "90", "80"]`. Resultatet är sant eftersom två värden är mindre än eller lika med 100.
 
 ### Matchar dynamiskt (endast tillgängligt i objektbaserade algoritmer)
@@ -245,12 +245,12 @@ Om ett numeriskt attributvärde ligger inom det angivna intervallet blir resulta
 
 Exempel: `price dynamically ranges in 80% to 120% of 100`
 
-* Fall 1: `entity.price = ["101", "200", "125"]`. Resultatet är sant eftersom `101` ligger mellan 80 % och 120 % av 100. Värdet `de` hoppas över eftersom det inte går att konvertera till dubbel.
+* Fall 1: `entity.price = ["101", "200", "125"]`. Resultatet är sant eftersom `101` ligger mellan 80 % och 120 % av 100. Värdet `de` hoppas över eftersom det inte kan konverteras till dubbel.
 * Fall 2: `entity.price = ["130", "191", "60", "75"]`. Resultatet är false eftersom inget värde ligger i intervallet 80 % till 120 % av 100.
 
 >[!NOTE]
 >
->*Dubbel* är en Java-datatyp. Om du konverterar till dubbel för operatorer som kräver numeriska värden tas icke-numeriska värden bort från resultatet.
+>*Double* är en Java-datatyp. Om du konverterar till dubbel för operatorer som kräver numeriska värden tas icke-numeriska värden bort från resultatet.
 
 ## Attribut med flera värden i design {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
@@ -258,7 +258,7 @@ Flervärdesattribut visas som kommaavgränsade listor när de refereras i en des
 
 Exempel:
 
-När `entity.genre=["genre1","genre2"]` refereras i en design som `$entity<N>.genre`, resultatet blir `genre1, genre2`.
+När `entity.genre=["genre1","genre2"]` i en design refereras som `$entity<N>.genre` blir resultatet `genre1, genre2`.
 
 ## Relaterade ämnen:
 

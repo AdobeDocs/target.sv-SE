@@ -2,42 +2,42 @@
 keywords: Recommendations;erbjudande
 description: Lär dig hur du använder Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och Experience Targeting-aktiviteter (XT).
 title: Hur använder jag Recommendations som erbjudande i andra aktivitetstyper?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # Recommendations som erbjudande
 
-Nu kan du inkludera rekommendationer i [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
+Du kan nu inkludera rekommendationer inuti [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
 
 Den här funktionen öppnar upp helt nya funktioner, som:
 
 * Testa och målinrikta rekommendationer och innehåll som inte är rekommendationer inom samma aktivitet.
 * Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning olika rekommendationer ska ges.
 * Skicka automatiskt trafik till den bästa rekommenderade upplevelsen med [!UICONTROL Auto-Allocate].
-* Tilldela besökare dynamiskt skräddarsydda rekommendationer baserat på deras profil med [!UICONTROL Auto-Target].
+* Tilldela besökare dynamiskt anpassade rekommendationer baserat på deras profil med [!UICONTROL Auto-Target].
 
-Skapa en [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting] aktivitet med [!UICONTROL Visual Experience Composer] och använder [!UICONTROL Insert Before], [!UICONTROL Insert After], eller [!UICONTROL Replace With] åtgärd för att lägga till rekommendationer i en upplevelse.
+Om du vill komma igång skapar du en [!UICONTROL A/B Test]- eller [!UICONTROL Experience Targeting]-aktivitet med [!UICONTROL Visual Experience Composer] och använder åtgärden [!UICONTROL Insert Before], [!UICONTROL Insert After] eller [!UICONTROL Replace With] för att lägga till rekommendationer till en upplevelse.
 
 ## Lägg till en rekommendation som ett erbjudande i en A/B-test eller en XT-aktivitet
 
-1. Starta det guidade arbetsflödet i tre steg med Visual Experience Composer (VEC) för att skapa ett [A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) eller [Experience Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT) aktivitet.
+1. Starta det guidade trestegsarbetsflödet med Visual Experience Composer (VEC) för att skapa en [A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)- eller [Experience Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)-aktivitet (XT).
 
    >[!NOTE]
    >
-   >Kom ihåg att du kan välja [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) möjlighet att automatiskt flytta trafik till de bästa rekommendationerna eller [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) möjlighet att tilldela besökare skräddarsydda rekommendationer baserat på deras profil.
+   >För A/B-tester måste du komma ihåg att du kan välja alternativet [Automatisk fördelning](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) för att automatiskt överföra trafik till de bästa rekommendationerna eller alternativet [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) för att tilldela besökare anpassade rekommendationer baserat på deras profil.
 
-1. När en [upplevelse](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), klicka på elementet som du vill lägga till en rekommendation i som ett erbjudande, välj **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, eller **[!UICONTROL Replace With]** åtgärd, välj [!UICONTROL Recommendation].
+1. När du skapar en [upplevelse](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) klickar du på elementet som du vill lägga till en rekommendation till som ett erbjudande, väljer åtgärden **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]** eller **[!UICONTROL Replace With]** och väljer sedan [!UICONTROL Recommendation].
 
-   Följande bild visar [!UICONTROL Insert After > Recommendation] alternativ.
+   Följande bild visar alternativet [!UICONTROL Insert After > Recommendation].
 
-   ![Infoga rekommendation som erbjudande](/help/main/c-recommendations/assets/replace-after-recommendations.png)
+   ![Infoga rekommendation som ett erbjudande](/help/main/c-recommendations/assets/replace-after-recommendations.png)
 
 1. Välj bland följande alternativ för att visa vanliga rekommendationer per sidtyp:
 
@@ -50,12 +50,12 @@ Skapa en [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting] aktivitet
    * Tack
    * Övriga
 
-1. Markera önskat [kriterier](/help/main/c-recommendations/c-algorithms/algorithms.md)och sedan klicka [!UICONTROL Next].
-1. Markera önskat [design](/help/main/c-recommendations/c-design-overview/design-overview.md)och sedan klicka [!UICONTROL Next].
-1. I [!UICONTROL Options] anger du följande:
+1. Välj önskat [villkor](/help/main/c-recommendations/c-algorithms/algorithms.md) och klicka sedan på [!UICONTROL Next].
+1. Välj önskad [design](/help/main/c-recommendations/c-design-overview/design-overview.md) och klicka sedan på [!UICONTROL Next].
+1. Ange följande i dialogrutan [!UICONTROL Options]:
 
    * Välj en [samling](/help/main/c-recommendations/c-products/collections.md).
-   * Konfigurera [Främre kampanj och Bakåtmarknadsföring](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) vid behov.
+   * Konfigurera alternativen för [Främre befordran och Bakåt ](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) efter behov.
 
 1. Klicka på [!UICONTROL Save].
 1. Slutför konfigurationen av A/B-testaktiviteten eller XT-aktiviteten med det guidade arbetsflödet i tre delar.
@@ -64,8 +64,8 @@ Skapa en [!UICONTROL A/B Test] eller [!UICONTROL Experience Targeting] aktivitet
 
 Det finns två sätt att redigera konfigurationen för ett erbjudande:
 
-* Använda [!UICONTROL Edit] meny
-* Använda [!UICONTROL Modifications] panel
+* Använda menyn [!UICONTROL Edit]
+* Använda panelen [!UICONTROL Modifications]
 
 ### Redigera ett rekommendationserbjudande med Redigera-menyn
 
@@ -84,19 +84,19 @@ Det finns två sätt att redigera konfigurationen för ett erbjudande:
 
 ### Redigera ett rekommendationserbjudande med hjälp av panelen Ändringar
 
-1. Klicka på [!UICONTROL Modifications] icon  **( `</>` )** för att visa [Ändringar](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) fönster.
-1. Håll muspekaren över önskad åtgärd och klicka sedan på **[!UICONTROL Edit]** ikon.
+1. Klicka på ikonen [!UICONTROL Modifications] **( `</>` )** för att visa rutan [Ändringar](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Håll pekaren över önskad åtgärd och klicka sedan på ikonen **[!UICONTROL Edit]**.
 
    ![Panelen Ändringar](/help/main/c-recommendations/assets/recs-offer-modifications.png)
 
 1. Redigera.
 
-## Ta bort ett rekommendationserbjudande
+## Ta bort ett rekommendationer
 
 Det finns två sätt att ta bort ett rekommendationserbjudande:
 
-* Använda [!UICONTROL Edit] meny
-* Använda [!UICONTROL Modifications] panel
+* Använda menyn [!UICONTROL Edit]
+* Använda panelen [!UICONTROL Modifications]
 
 ### Ta bort ett rekommendationserbjudande med hjälp av menyn Redigera
 
@@ -106,21 +106,21 @@ Det finns två sätt att ta bort ett rekommendationserbjudande:
 
 ### Ta bort ett rekommendationserbjudande med hjälp av panelen Ändringar
 
-1. Klicka på [!UICONTROL Modifications] icon **( &lt;/> )** för att visa [Ändringar](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) fönster.
-1. Håll muspekaren över önskad åtgärd och klicka sedan på [!UICONTROL Delete] ikon.
+1. Klicka på ikonen [!UICONTROL Modifications] **( &lt;/> )** för att visa rutan [Ändringar](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Håll pekaren över önskad åtgärd och klicka sedan på ikonen [!UICONTROL Delete].
 
-   ![Ikonen Ta bort](/help/main/c-recommendations/assets/recs-offer-delete.png)
+   ![Ta bort ikon](/help/main/c-recommendations/assets/recs-offer-delete.png)
 
 ### Visa rekommendationserbjudandets status {#status}
 
-Rekommendationserbjudandets (algoritm) status visas längst ned i [!UICONTROL Overview] sida för A/B Test- och XT-aktiviteter som innehåller Recommendations erbjuder:
+Rekommendationserbjudandets (algoritm) status visas längst ned på sidan [!UICONTROL Overview] för A/B Test- och XT-aktiviteter som innehåller Recommendations erbjuder:
 
 * Resultatförberedda
 * Resultaten är inte klara
 * Feed-fel
 
-![Recommendations erbjudandestatus](/help/main/c-recommendations/assets/recs-offer-status.png)
+![Status för Recommendations-erbjudande](/help/main/c-recommendations/assets/recs-offer-status.png)
 
-## Utbildningsvideo: Recommendations som erbjudande ![Märket Översikt](/help/main/assets/overview.png)
+## Utbildningsvideo: Recommendations som erbjudande ![Översikt](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

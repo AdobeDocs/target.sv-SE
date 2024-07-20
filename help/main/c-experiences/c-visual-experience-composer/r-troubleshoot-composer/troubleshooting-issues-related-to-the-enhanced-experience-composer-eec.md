@@ -1,6 +1,6 @@
 ---
 keywords: Rikting;eec;visual experience disposition;felsök förbättrad experience disposition;felsökning
-description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!DNL Target] Förbättrad Experience Composer (EEC) under vissa förhållanden.
+description: Lär dig hur du felsöker problem som ibland kan uppstå i Adobe [!DNL Target] Enhanced Experience Composer (EEC) under vissa förhållanden.
 title: Hur felsöker jag problem som rör den förbättrade Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Felsökning relaterade till [!UICONTROL Enhanced Experience Composer]
+# Felsökning av problem relaterade till [!UICONTROL Enhanced Experience Composer]
 
-Visningsproblem kan ibland uppstå i [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEG) på vissa villkor.
+Visningsproblem kan ibland uppstå i [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) under vissa villkor.
 
 ## EEG läser inte in en intern QA-URL som inte är tillgänglig på offentlig IP. {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -48,26 +48,26 @@ Följande felmeddelande kan visas i [!DNL Target]:
 
 Följande är orsaker till att du kan se det här felmeddelandet och åtgärda problemet:
 
-* **Problem:** Din webbplatsdomän (ISP) blockerar [!UICONTROL Enhanced Experience Composer].
+* **Problem:** Webbplatsdomänen (ISP) blockerar [!UICONTROL Enhanced Experience Composer].
 
-  **Åtgärda:** Tillåtslista de IP-adresser som anges ovan.
+  **Åtgärd:** Tillåtslista de IP-adresser som anges ovan.
 
-* **Problem:** IP-adresserna är tillåtslista men din webbplats stöder inte TLS version 1.2. [!DNL Target] använder för närvarande standardkonfigurationen 1.2. Före [!DNL Target] 18.4.1 (25 april 2018), standardkonfigurationen som stöder TLS 1.0. Mer information finns i [Krypteringsändringar för TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+* **Problem:** IP-adresserna har tillåtslista men webbplatsen stöder inte TLS version 1.2. [!DNL Target] använder för närvarande standardkonfigurationen 1.2. Före [!DNL Target] 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [ TLS (Transport Layer Security) Krypteringsändringar ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-  **Lösning:** Se följande fråga ( [!UICONTROL Enhanced Visual Experience Composer] läses inte in på säkra sidor på min webbplats som använder TLS 1.2).
+  **Lösning:** Se följande fråga ([!UICONTROL Enhanced Visual Experience Composer] läses inte in på säkra sidor på min webbplats som använder TLS 1.2).
 
 ## EEC laddas inte på säkra sidor som använder TLS 1.0. (endast EEG) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Felmeddelandet som beskrivs ovan finns i [!UICONTROL Enhanced Visual Experience Composer] kommer inte att läsas in på säkra sidor på min webbplats.&quot; om IP-adresserna ovan är tillåtslista men webbplatsen inte stöder TLS version 1.2. [!DNL Target] använder för närvarande standardkonfigurationen 1.2. Före [!DNL Target] 18.4.1 (25 april 2018), standardkonfigurationen som stöder TLS 1.0. Mer information finns i [Krypteringsändringar för TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+Felmeddelandet som beskrivs ovan kan visas i &quot;[!UICONTROL Enhanced Visual Experience Composer] kommer inte att läsas in på säkra sidor på min webbplats.&quot; om IP-adresserna ovan är tillåtslista men webbplatsen saknar stöd för TLS version 1.2. [!DNL Target] använder för närvarande standardkonfigurationen 1.2. Före [!DNL Target] 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [ TLS (Transport Layer Security) Krypteringsändringar ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html) {target=_blank} .
 
 Så här kontrollerar du TLS-versionen på din webbplats med Firefox (andra webbläsare har liknande steg):
 
 1. Öppna den webbplats som påverkas i Firefox.
-1. Klicka på **[!UICONTROL Show Site Information]** -ikonen i webbläsarens adressfält.
+1. Klicka på ikonen **[!UICONTROL Show Site Information]** i webbläsarens adressfält.
 
-   ![firefox_more_info, bild](assets/firefox_more_info.png)
+   ![firefox_more_info image](assets/firefox_more_info.png)
 
-1. Klicka **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
+1. Klicka på **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
    ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
 
@@ -75,7 +75,7 @@ Så här kontrollerar du TLS-versionen på din webbplats med Firefox (andra webb
 
    ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
 
-1. Om du ser att din webbplats visar TLS 1.0 kan du gå till [Krypteringsändringar för TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} om du vill ha information om Target TLS-supportpolicy. För att avhjälpa situationen (gäller till den 12 september 2018){target=_blank}, kontakta [Kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för konfiguration med TLS-versionen och domänen.
+1. Om du upptäcker att TLS 1.0 visas på din webbplats kan du läsa [TLS (Transport Layer Security) Krypteringsändringar](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} om du vill ha information om TLS-stödsregler för mål. Om du vill åtgärda situationen för tillfället (gäller till den 12 september 2018){target=_blank} kan du kontakta [kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att få hjälp med konfigurationen för din TLS-version och domänen.
 
 ## Jag ser timeout-fel eller&quot;åtkomst nekad&quot;-fel när webbplatser med proxy aktiverat läses in. (endast EEG) {#section_60CBB9022DC449F593606C0E6252302D}
 

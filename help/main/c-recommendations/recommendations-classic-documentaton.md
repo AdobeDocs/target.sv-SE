@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Recommendations Classic-dokumentation
 
-[!DNL Recommendations Classic] visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktiviteter på din webbplats.
+[!DNL Recommendations Classic] visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet på din webbplats.
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] är en äldre produkt som inte längre är licensierad till nya kunder. För bästa [!DNL Recommendations] upplevelse, uppgradera till [!DNL Recommendations] aktiviteter tillgängliga i [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] är en äldre produkt och är inte längre licensierad till nya kunder. Uppgradera till [!DNL Recommendations] aktiviteter i [Adobe Target Premium](/help/main/c-intro/intro.md) för att få bästa möjliga [!DNL Recommendations]-upplevelse.
 
-Recommendations hjälper kunderna att dirigera till objekt de annars kanske inte känner till, vilket förbättrar försäljningen på er webbplats.
+Recommendations hjälper kunderna att hänvisa till objekt de annars kanske inte känner till, vilket förbättrar försäljningen på er webbplats.
 
-För information som hjälper dig att välja mellan [!DNL Recommendations Classic] och Recommendations i [!DNL Target Premium], se [Recommendations Classic jämfört med Recommendations-aktiviteter i Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Mer information om hur du kan välja mellan [!DNL Recommendations Classic] och Recommendations-aktiviteter i [!DNL Target Premium] finns i [Recommendations Classic jämfört med Recommendations-aktiviteter i Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-Ladda ned dokumentationen för [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) i PDF-format.
+Hämta dokumentationen för [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) i PDF-format.

@@ -37,14 +37,14 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 ### Automatiskt mål
 
 * [Automatisk målsökning och vanliga frågor](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
-* [Insikter om personalisering - rapporter](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+* [Personalization Insights-rapporter](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
 * [AUTOMATED PERSONALIZATION FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Felsökning av Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md)
 * [Automated Personalization Sammanfattningsrapporter](/help/main/c-reports/personalization-reports/reports-ap.md)
-* [Insikter om personalisering - rapporter](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+* [Personalization Insights-rapporter](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Multivariata tester (MVT)
 
@@ -57,10 +57,10 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 * [RECOMMENDATIONS FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Vanliga frågor om design](/help/main/c-recommendations/c-design-overview/template-faq.md)
 
-## Analyser och [!DNL Target] integrering (A4T)
+## Analyser och integrering med [!DNL Target] (A4T)
 
 * [Felsökning Analytics och Target-integrering](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [Adobe Analytics som rapportkälla för Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+* &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam. Se [Adobe Analytics som Reporting Source för Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 * A4T Frågor och svar
    * [Inledande etablering - Vanliga frågor om A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [Aktivitetsinställningar - A4T - vanliga frågor och svar](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
@@ -113,13 +113,13 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ### Globala mboxes
 
-* [Vanliga frågor om global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Vanliga frågor om den globala mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [at.js Frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
+* [at.js - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
 * [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam.
 
 ## Mobilappar
@@ -133,7 +133,7 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ## Sökmotoroptimering (SEO)
 
-* [SEO-testning (Search Engine Optimization)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Anpassad testning för sökmotoroptimering (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Säkerhet
 

@@ -1,6 +1,6 @@
 ---
 keywords: målgrupp;målgruppsregler;skapa målgrupp;målgrupp;målgrupp;rapportmålgrupp;segment;anpassade profilparametrar;målgruppsdefinition;målgruppslista
-description: Lär dig använda målgrupper i [!DNL Adobe Target].
+description: Lär dig hur du använder målgrupper i  [!DNL Adobe Target].
 title: Hur använder jag målgruppslistan?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
@@ -13,30 +13,30 @@ ht-degree: 0%
 
 # Skapa målgrupper
 
-Målgrupper i [!DNL Adobe Target] avgöra vilka som ser innehåll och upplevelser i en målinriktad aktivitet.
+Målgrupper i [!DNL Adobe Target] avgör vem som ser innehåll och upplevelser i en målinriktad aktivitet.
 
 Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. När du riktar in dig på en aktivitet har du följande alternativ:
 
-* Välj en återanvändbar målgrupp på [!UICONTROL Audiences] list
-* [Skapa en aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) och inrikta er på det
-* [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) skapa en ad hoc-målgrupp
+* Välj en återanvändbar målgrupp i listan [!UICONTROL Audiences]
+* [Skapa en aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) och ange den som mål
+* [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa en ad hoc-målgrupp
 
-Du kan också använda målgruppsdata som samlats in av [!DNL Adobe Analytics] för målinriktning och personalisering i realtid i [!DNL Target] och andra [!DNL Adobe Experience Cloud] program. Se [Experience Cloud målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *Gränssnittskomponenter i Experience Cloud* guide.
+Du kan också använda målgruppsdata som samlats in av [!DNL Adobe Analytics] för målinriktning och personalisering i realtid i [!DNL Target] och andra [!DNL Adobe Experience Cloud]-program. Se [Publiker i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i guiden *Komponenter i det centrala Experience Cloud-gränssnittet*.
 
 Det finns två typer av målgrupper i [!DNL Target]:
 
 * **Målgrupper:** Används för att leverera olika typer av besökare.
 * **Rapportera målgrupper:** Används för att avgöra hur olika typer av besökare svarar på samma innehåll så att du kan analysera testresultaten.
 
-  I [!DNL Target]kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du [Adobe Analytics som rapporteringskälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper inom [!DNL Analytics].
+  I [!DNL Target] kan du bara konfigurera rapportmålgrupper om du använder [!DNL Target] som rapportkälla. Om du använder [Adobe Analytics som rapportkälla](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste du konfigurera dina rapportmålgrupper i [!DNL Analytics].
 
-## Använd [!UICONTROL Audiences] list {#use-list}
+## Använd listan [!UICONTROL Audiences] {#use-list}
 
-Så här öppnar du [!UICONTROL Audiences] lista, klicka på **[!UICONTROL Audiences]** i den övre menyraden:
+Du öppnar listan [!UICONTROL Audiences] genom att klicka på **[!UICONTROL Audiences]** i den övre menyraden:
 
-![[!UICONTROL Audiences] list](assets/audiences_list.png)
+![[!UICONTROL Audiences] lista ](assets/audiences_list.png)
 
-The [!UICONTROL Audiences] -listan innehåller de målgrupper som du kan använda i dina aktiviteter. Använd [!UICONTROL Audiences] skapa, redigera, duplicera, kopiera eller kombinera målgrupper. Listan visar också källan till målgruppen:
+Listan [!UICONTROL Audiences] innehåller de målgrupper som du kan använda i dina aktiviteter. Använd listan [!UICONTROL Audiences] för att skapa, redigera, duplicera, kopiera eller kombinera målgrupper. Listan visar också källan till målgruppen:
 
 * [!DNL Adobe Target]
 * [!DNL Adobe Target Classic]
@@ -45,48 +45,48 @@ The [!UICONTROL Audiences] -listan innehåller de målgrupper som du kan använd
 
   >[!NOTE]
   >
-  >The [!DNL Adobe Experience Platform] källan är tillgänglig för alla [!DNL Target] kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiker som finns på [!DNL Adobe Experience Platform] kan användas som eller [kombinerat med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
+  >[!DNL Adobe Experience Platform]-källan är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller [kombineras med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
   >
-  >Användarna måste ha [!UICONTROL Approver] eller ovanför status i [!DNL Target] konfigurera [!DNL Target] [!UICONTROL Destinations] kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >Användare måste ha statusvärdet [!UICONTROL Approver] eller högre i [!DNL Target] för att kunna konfigurera [!DNL Target] [!UICONTROL Destinations]-kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
   >Mer information finns i [Använda målgrupper från Adobe Experience Platform](#aep).
 
-Fördefinierade målgrupper, till exempel[!UICONTROL New Visitors]och &quot;[!UICONTROL Returning Visitors],&quot; kan inte byta namn.
+Fördefinierade målgrupper, som [!UICONTROL New Visitors] och [!UICONTROL Returning Visitors], kan inte byta namn.
 
-När du arbetar med målgrupper som ursprungligen skapades i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform], [!DNL Target] varnar dig om du refererar till en publik i [!DNL Target] aktiviteter som senare har tagits bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform].
+När du arbetar med målgrupper som ursprungligen skapades i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform] får du ett varningsmeddelande i [!DNL Target] om du refererar till en målgrupp i [!DNL Target] aktiviteter som senare har tagits bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform].
 
-* Om en målgrupp togs bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform], en varningsikon i båda [!UICONTROL Audience] -listan och publikväljaren visas. Ett verktygstips i [!DNL Target] Gränssnittet anger också att målgruppen togs bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform].
+* Om en målgrupp togs bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform] visas en varningsikon både i listan [!UICONTROL Audience] och i målgruppsväljaren. Ett verktygstips i användargränssnittet för [!DNL Target] anger också att målgruppen togs bort i [!DNL Experience Cloud] eller [!DNL Adobe Experience Platform].
 * Om du försöker kombinera flera målgrupper med en borttagen målgrupp, eller om du försöker spara en aktivitet som refererar till en borttagen målgrupp, visas ett varningsmeddelande.
 
-Du kan också ange anpassade profilparametrar och `user.` parametrar. När du skapar en målgrupp drar du de attribut du vill använda för att rikta aktiviteten till målgruppsfönstret. Om det önskade attributet inte visas har attributet inte utlösts av en mbox. Andra anpassade mbox-parametrar är tillgängliga i [!UICONTROL Custom Parameters] listruta.
+Du kan också ange anpassade profilparametrar och `user.` parametrar som mål. När du skapar en målgrupp drar du de attribut du vill använda för att rikta aktiviteten till målgruppsfönstret. Om det önskade attributet inte visas har attributet inte utlösts av en mbox. Andra anpassade mbox-parametrar är tillgängliga i listrutan [!UICONTROL Custom Parameters].
 
-Använd [!UICONTROL Filters] för att filtrera [!UICONTROL Audiences] lista efter källa: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud]och [!DNL Adobe Experience Platform].
+Använd knappen [!UICONTROL Filters] för att filtrera listan [!UICONTROL Audiences] efter källa: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud] och [!DNL Adobe Experience Platform].
 
-![Alternativet Filter i [!UICONTROL Audiences] list](assets/filters.png)
+![Alternativet Filter i [!UICONTROL Audiences]-listan](assets/filters.png)
 
-Använd [!UICONTROL Search audiences] sökruta [!UICONTROL Audiences] lista. Du kan söka efter valfri del av ett målgruppsnamn eller omge en viss sträng med citattecken.
+Använd rutan [!UICONTROL Search audiences] för att söka i listan [!UICONTROL Audiences]. Du kan söka efter valfri del av ett målgruppsnamn eller omge en viss sträng med citattecken.
 
-Du kan sortera [!UICONTROL Audiences] efter målgruppsnamn eller efter det datum då den senast ändrades. Om du vill sortera efter namn eller datum klickar du på kolumnrubriken och väljer sedan att visa målgrupper i stigande eller fallande ordning.
+Du kan sortera listan [!UICONTROL Audiences] efter målgruppsnamn eller efter det datum då den senast ändrades. Om du vill sortera efter namn eller datum klickar du på kolumnrubriken och väljer sedan att visa målgrupper i stigande eller fallande ordning.
 
 ## Visa målgruppsdefinitioner {#section_11B9C4A777E14D36BA1E925021945780}
 
-Du kan visa information om målgruppsdefinitioner på ett popup-kort på olika platser i [!DNL Target] utan att öppna publiken. Den här funktionen gäller för målgrupper som skapats i [!DNL Target Standard/Premium] och målgrupper som importerats från [!DNL Target Classic] eller som har skapats via API.
+Du kan visa information om målgruppsdefinitioner på ett popup-kort på olika platser i [!DNL Target]-gränssnittet utan att öppna målgruppen. Den här funktionen gäller för målgrupper som skapats i [!DNL Target Standard/Premium] och målgrupper som importerats från [!DNL Target Classic] eller skapats via API.
 
-Du kommer till exempel åt följande grafikkort genom att klicka på [!UICONTROL View Details] -ikon för den önskade publiken:
+Du kommer till exempel åt följande publikdefinitionskort genom att klicka på ikonen [!UICONTROL View Details] för den önskade publiken:
 
-![Verksamheter > Målgruppsdefinition](assets/audience_definition_list.png)
+![Aktiviteter > Målgruppsdefinition](assets/audience_definition_list.png)
 
-Du kommer åt följande målgruppsdefinitionskort genom att klicka på [!UICONTROL View Details] ikon på en aktivitets [!UICONTROL Overview] sida:
+Du kommer åt följande målgruppsdefinitionskort genom att klicka på ikonen [!UICONTROL View Details] på en aktivitets [!UICONTROL Overview]-sida:
 
-![Verksamheter > Målgruppsdefinition](assets/view-details-activity-overview.png)
+![Aktiviteter > Målgruppsdefinition](assets/view-details-activity-overview.png)
 
-Målgruppsdefinitionskortet visar målgruppens typ, källa och attribut. Klicka **[!UICONTROL View full details]** för att se andra aktiviteter som hänvisar till den målgruppen, om tillämpligt. Om du visar ett målgruppsdefinitionskort från en aktivitets [!UICONTROL Overview] sida, klicka **[!UICONTROL Audience Usage]**.
+Målgruppsdefinitionskortet visar målgruppens typ, källa och attribut. Klicka på **[!UICONTROL View full details]** om du vill se andra aktiviteter som refererar till den målgruppen, om tillämpligt. Om du visar ett målgruppsdefinitionskort från en aktivitets [!UICONTROL Overview]-sida klickar du på **[!UICONTROL Audience Usage]**.
 
-Målgruppsinformationen kan hjälpa er att undvika oavsiktlig påverkan på andra aktiviteter samtidigt som ni redigerar målgrupper. Informationen innehåller [!UICONTROL Live Activities], [!UICONTROL Inactive Activities], [!UICONTROL Archived Activities]och [!UICONTROL Syncing Activities]. Den här funktionen är tillgänglig för alla målgrupper (biblioteksmålgrupper och [målgrupper endast för aktivitet](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Målgruppsinformationen kan hjälpa er att undvika oavsiktlig påverkan på andra aktiviteter samtidigt som ni redigerar målgrupper. Informationen omfattar [!UICONTROL Live Activities], [!UICONTROL Inactive Activities], [!UICONTROL Archived Activities] och [!UICONTROL Syncing Activities]. Den här funktionen är tillgänglig för alla målgrupper (biblioteksmålgrupper och [endast aktivitetsmålgrupper](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
-Om en publik [tillsammans med en annan målgrupp](/help/main/c-target/combining-multiple-audiences.md) och den kombinerade målgruppen används för att skapa en aktivitet, användarinformationen för båda målgrupperna listar den nyskapade aktiviteten.
+Om en målgrupp [kombineras med en annan målgrupp](/help/main/c-target/combining-multiple-audiences.md) och den kombinerade målgruppen används för att skapa en aktivitet, listas den nya aktiviteten i användningsinformationen för båda målgrupperna.
 
-![audiens_definition_list_usage, bild](assets/audience_definition_list_usage.png)
+![audition_definition_list_usage image](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
@@ -107,11 +107,11 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Använd målgrupper från [!DNL Adobe Experience Platform] {#aep}
 
-Använda målgrupper skapade i [!DNL Adobe Experience Platform] tillhandahålla mer omfattande kunddata som leder till mer slagkraftig personalisering.
+Om målgrupper skapas i [!DNL Adobe Experience Platform] får du mer omfattande kunddata som leder till mer slagkraftig personalisering.
 
-Mer information finns i [Använd målgrupper från [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+Mer information finns i [Använda målgrupper från [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 
-## Utbildningsvideo: Använda målgrupper ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Använda märket ![Självstudiekurs](/help/main/assets/tutorial.png)
 
 Den här videon innehåller information om hur du använder målgrupper.
 

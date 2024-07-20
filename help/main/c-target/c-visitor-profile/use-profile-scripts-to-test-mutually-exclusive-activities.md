@@ -1,19 +1,19 @@
 ---
 keywords: Profilskript;profilskriptattribut;ömsesidigt uteslutande aktiviteter
-description: Lär dig hur du använder profilattribut för att konfigurera tester i Adobe [!DNL Target] som jämför flera aktiviteter men inte låter samma besökare delta i varje aktivitet.
+description: Lär dig hur du använder profilattribut för att ställa in tester i Adobe [!DNL Target]  som jämför flera aktiviteter men inte låter samma besökare delta i varje aktivitet.
 title: Kan jag använda profilskript för att testa aktiviteter som utesluter varandra?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Använd profilskript för att testa aktiviteter som utesluter varandra
 
-Du kan använda profilattribut i [!DNL Adobe Target] att ställa in tester som jämför två eller flera aktiviteter men inte låter samma besökare delta i varje aktivitet.
+Du kan använda profilattribut i [!DNL Adobe Target] för att konfigurera tester som jämför två eller flera aktiviteter, men inte låter samma besökare delta i varje aktivitet.
 
 Genom att testa aktiviteter som utesluter varandra förhindrar du att en besökare i en aktivitet påverkar testresultaten för de andra aktiviteterna. När en besökare deltar i flera aktiviteter kan det vara svårt att avgöra om en positiv eller negativ ökning beror på besökarens erfarenhet av en aktivitet eller om interaktionen mellan flera aktiviteter påverkade resultatet av en eller flera aktiviteter.
 
@@ -39,23 +39,23 @@ if (!user.get('twogroups')) {
 }
 ```
 
-* `if (!user.get('twogroups'))` avgör om *två grupper* profilattributet har angetts för den aktuella besökaren. Om de gör det krävs ingen ytterligare åtgärd.
+* `if (!user.get('twogroups'))` avgör om profilattributet *twogroups* är inställt för den aktuella besökaren. Om de gör det krävs ingen ytterligare åtgärd.
 
-* `var ran_number=Math.floor(Math.random() *100)` deklarerar en ny variabel som heter ran_number, anger värdet till ett slumpmässigt decimaltal mellan 0 och 1, multiplicerar det med 100 och avrundar det nedåt för att skapa ett intervall på 100 (0-100), vilket är användbart för att ange en procentandel av besökarna som ser aktiviteten.
+* `var ran_number=Math.floor(Math.random() *100)` deklarerar en ny variabel som heter ran_number, anger värdet till ett slumpmässigt decimaltal mellan 0 och 1, multiplicerar den med 100 och avrundar den nedåt för att skapa ett intervall på 100 (0-100), vilket är användbart för att ange en procentandel av besökarna som ser aktiviteten.
 
-* `if (ran_number <= 49)` börjar en rutin som avgör vilken grupp besökaren tillhör. Om det returnerade numret är 0-49 tilldelas besökaren GroupA. Om värdet är 50-100 tilldelas besökaren GroupB. Gruppen avgör vilken aktivitet besökaren ser.
+* `if (ran_number <= 49)` påbörjar en rutin som avgör vilken grupp besökaren tillhör. Om det returnerade numret är 0-49 tilldelas besökaren GroupA. Om värdet är 50-100 tilldelas besökaren GroupB. Gruppen avgör vilken aktivitet besökaren ser.
 
-När du har skapat profilattributet ställer du in den första aktiviteten för att rikta in den önskade populationen genom att kräva att parametern för användarprofilen `user.twogroups` matchar värdet som angetts för GroupA.
+När du har skapat profilattributet anger du den första aktiviteten för att rikta in den önskade populationen genom att kräva att användarprofilparametern `user.twogroups` matchar det värde som har angetts för GroupA.
 
 >[!NOTE]
 >
->Välj en ruta tidigt på sidan. Den här koden avgör om en besökare upplever aktiviteten. Så länge webbläsaren påträffar en mbox kan den användas för att ange det här värdet.
+>Välj en mbox tidigt på sidan. Den här koden avgör om en besökare upplever aktiviteten. Så länge webbläsaren påträffar en mbox kan den användas för att ange det här värdet.
 
-Ställ in den andra kampanjen så att användarprofilsparametern `user.twogroups` matchar värdet som angetts för GroupB.
+Konfigurera den andra kampanjen så att användarprofilparametern `user.twogroups` matchar det värde som angetts för GroupB.
 
 ## Konfigurera tre eller flera aktiviteter
 
-Att konfigurera tre eller flera aktiviteter som utesluter varandra liknar att ställa in två, men du måste ändra profilattributet JavaScript för att skapa en separat grupp för varje aktivitet och bestämma vem som ser var och en av dem. Genereringen av slumpmässiga tal skiljer sig åt beroende på om du skapar ett udda eller jämnt antal grupper.
+Att konfigurera tre eller flera aktiviteter som utesluter varandra liknar att ställa in två, men du måste ändra profilattributet JavaScript för att skapa en separat grupp för varje aktivitet och avgöra vem som ser var och en av dem. Genereringen av slumpmässiga tal skiljer sig åt beroende på om du skapar ett ojämnt eller ojämnt antal grupper.
 
 Om du till exempel vill skapa fyra grupper använder du följande JavaScript:
 

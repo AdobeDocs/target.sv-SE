@@ -11,6 +11,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Den här funktionen är tillgänglig som en del av [Mål Premium](/help/main/c-intro/intro.md#premium) licens. Den här funktionen är inte tillgänglig i [!DNL Target Standard].
+>Den här funktionen är tillgänglig som en del av [Target Premium](/help/main/c-intro/intro.md#premium)-licensen. Den här funktionen är inte tillgänglig i [!DNL Target Standard].
 
 

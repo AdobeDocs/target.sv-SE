@@ -1,20 +1,20 @@
 ---
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;statiskt;statiskt filter
-description: Lär dig hur du manuellt anger ett eller flera statiska värden som ska filtreras med inkluderingsregler i Adobe [!DNL Target] Recommendations.
+description: Lär dig hur du anger ett eller flera statiska värden manuellt för att filtrera med inkluderingsregler i Adobe [!DNL Target] Recommendations.
 title: Hur filtrerar jag efter statiska värden i Recommendations-aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # Statiskt filter
 
-Ange ett eller flera statiska värden manuellt för att filtrera med inkluderingsregler i [!DNL Adobe Target] [!DNL Recommendations].
+Ange manuellt ett eller flera statiska värden som ska filtreras med inkluderingsregler i [!DNL Adobe Target] [!DNL Recommendations].
 
 Rekommendera t.ex. endast innehåll med graderingen &quot;G&quot; eller &quot;PG&quot; i Motion Picture Association (MPA).
 
@@ -28,4 +28,4 @@ Du kan skapa så många inkluderingsregler som behövs. Inkluderingsreglerna kop
 
 Om du vill skapa en inkluderingsregel med statiska värden för att rekommendera innehåll med MPA-klassificeringen &quot;G&quot; eller &quot;PG&quot; (exkludera innehållet &quot;R&quot; och &quot;NC17&quot;) kan du skapa följande filtreringsregler &quot;filmrankning lika med g-rating&quot; och &quot;filmrankning lika med pg-klassificering&quot;, som visas nedan.
 
-![filmrankningsexempel](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+![Exempel på filmklassificering](/help/main/c-recommendations/c-algorithms/assets/movies.png)

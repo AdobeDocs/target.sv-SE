@@ -1,19 +1,19 @@
 ---
 keywords: flera målgrupper;upplevelseversioner;målversioner
-description: Lär dig målinrikta olika versioner av samma upplevelse till olika målgrupper i [!DNL Adobe Target] A/B-aktiviteter.
+description: Lär dig att rikta versioner av samma upplevelse till olika målgrupper i [!DNL Adobe Target] A/B-aktiviteter.
 title: Kan jag använda flera Experience-versioner i en A/B-aktivitet?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # Målgrupper med olika upplevelser i ett A/B-test
 
-Ni kan rikta olika versioner av samma upplevelse till olika målgrupper i [!DNL Adobe Target] A/B-aktiviteter. Du kan konfigurera flera målgrupper för en upplevelse i [!UICONTROL Visual Experience Composer] (VEC) eller i formulärbaserad Experience Composer.
+Du kan rikta versioner av samma upplevelse till olika målgrupper i [!DNL Adobe Target] A/B-aktiviteter. Du kan konfigurera flera målgrupper för en upplevelse i [!UICONTROL Visual Experience Composer] (VEC) eller i den formulärbaserade Experience Composer.
 
 Besökarna kan växla mellan olika upplevelsegrupper när deras profil ändras. Besökarna sitter inte fast i samma upplevelse under aktivitetens livstid.
 
@@ -33,15 +33,15 @@ I det här fallet behöver ni geospecifika versioner av upplevelsen, så att ni 
 
    När du konfigurerar en upplevelse som ska ha flera versioner väljer du målgrupp för varje version, vilket visas i följande steg.
 
-1. Välj upplevelsen och klicka sedan på **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Markera upplevelsen och klicka sedan på **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Flera publiker, alternativ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![Alternativet Flera målgrupper](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Klicka **[!UICONTROL Add Audience]** väljer du sedan den första målgruppen. Upprepa för varje publik.
+1. Klicka på **[!UICONTROL Add Audience]** och välj sedan den första målgruppen som du vill ha som mål. Upprepa för varje publik.
 
-   ![exp-versions image](assets/exp-versions.png)
+   ![exp-versions-bild](assets/exp-versions.png)
 
-   Om målgruppen inte finns än klickar du på [Skapa publik](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) och konfigurera det.
+   Om målgruppen inte finns än klickar du på [Skapa målgrupp](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) och konfigurerar den.
 
    Om en besökare kvalificerar sig för mer än en målgrupp returneras innehållet för alla målgrupper, och det sista innehållet i listan återges faktiskt på sidan.
 

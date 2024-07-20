@@ -13,31 +13,31 @@ ht-degree: 0%
 
 # Skapa en målgrupp för profilattributsjämförelse
 
-Definiera en målgrupp i [!DNL Adobe Target] för att jämföra två profilattribut för [Målgruppsbibliotek](/help/main/c-target/c-audiences/audiences.md) eller i en [målgrupp endast för aktivitet](/help/main/c-target/creating-activity-only-audience.md). Med operatorer, till exempel större än, mindre än eller lika med, kan du definiera en målgrupp för att dynamiskt jämföra värdena för två olika profilattribut.
+Definiera en målgrupp i [!DNL Adobe Target] om du vill jämföra två profilattribut för ditt [målgruppsbibliotek](/help/main/c-target/c-audiences/audiences.md) eller för en [målgrupp som bara är aktivt](/help/main/c-target/creating-activity-only-audience.md). Med operatorer, till exempel större än, mindre än eller lika med, kan du definiera en målgrupp för att dynamiskt jämföra värdena för två olika profilattribut.
 
 >[!NOTE]
 >
->Den här funktionen är tillgänglig för [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) endast kategori.
+>Den här funktionen är endast tillgänglig för kategorin [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 ## Ökning {#section_303CBC78194D49A2A004945D425441E1}
 
-Målgrupper definieras av regler som bestämmer vem som är inkluderad i eller utesluten från en [!DNL Target] aktivitet. En målgruppsdefinition kan innehålla flera regler, och varje regel kan innehålla flera parametrar. Om en av reglerna du inkluderar använder [!UICONTROL Visitor Profile] -kategori kan du definiera en regel baserat på ett besökarprofilattribut specifika värde eller jämföra värdet för det attributet med ett annat besökarprofilattribut.
+Målgrupper definieras av regler som bestämmer vem som är inkluderad eller exkluderad från en [!DNL Target]-aktivitet. En målgruppsdefinition kan innehålla flera regler, och varje regel kan innehålla flera parametrar. Om en av reglerna som du inkluderar använder kategorin [!UICONTROL Visitor Profile] kan du definiera en regel baserat på ett besökarprofilattribut specifika värde eller jämföra värdet för det attributet med ett annat attribut för besökarprofilen.
 
-Låt oss anta att du jobbar för ett möbelföretag och överförde två kundbenägenhetspoängen till [!DNL Target]:
+Låt oss anta att du arbetar för ett möbelföretag och har överfört två kundbenägenhetspoäng till [!DNL Target]:
 
 * Sannolikheten att köpa möbler till matsalar under de kommande 90 dagarna
 * Sannolikheten att köpa möbler för vardagsrumsmöbler under de kommande 90 dagarna
 
-Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än benägenheten att köpa möbler för vardagsrum. [!DNL Target] skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för denna målgrupp.
+Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än benägenheten att köpa möbler för vardagsrum. [!DNL Target] skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för den här målgruppen.
 
-Mer information finns i [Metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Mer information finns i [Metoder för att hämta data till målet](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Skapa en målgrupp för profilattributsjämförelse {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Klicka **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Namnge målgruppen och lägg till en valfri beskrivning.
-1. Dra och släpp **[!UICONTROL Visitor Profile]** till målgruppsverktyget.
-1. Från **[!UICONTROL Visitor Profile]** väljer du ett attribut:
+1. Dra och släpp **[!UICONTROL Visitor Profile]** i rutan för målgruppsbyggaren.
+1. Välj ett attribut i listrutan **[!UICONTROL Visitor Profile]**:
 
    ![Propensitetspoäng 1](assets/propensity_score_1.png)
 
@@ -45,11 +45,11 @@ Mer information finns i [Metoder för att hämta data till Target](https://exper
 
    ![Propensitetspoäng 2](assets/propensity_score_2.png)
 
-1. Från **[!UICONTROL Choose Comparison Type]** nedrullningsbar lista, välja **[!UICONTROL Attribute]**.
+1. Välj **[!UICONTROL Attribute]** i listrutan **[!UICONTROL Choose Comparison Type]**.
 
    Jämförelsetypen för&quot;statiskt värde&quot; gör att du kan jämföra din besökarprofils attribut med specifika värden.
 
-   ![Propensivt poäng 3](assets/propensity_score_3.png)
+   ![Propensitetspoäng 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Mer information finns i [Metoder för att hämta data till Target](https://exper
 
 1. Klicka på **[!UICONTROL Done]**.
 
-## Utbildningsvideo ![Märket Översikt](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Utbildningsvideoklippet ![Översikt](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Titta på följande video för mer information och ett scenario där du kan använda den här funktionen:
 

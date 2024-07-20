@@ -1,7 +1,7 @@
 ---
 keywords: inställningar;prioritet
-description: Lär dig mer [!DNL Adobe Target] avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilken [!DNL Target] och vilken aktivitetsskapande funktion du använder.
-title: Hur [!DNL Target] Vill du tilldela prioritet till olika aktiviteter?
+description: Lär dig hur [!DNL Adobe Target] avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilket  [!DNL Target] gränssnitt och vilken funktion du använder för att skapa aktiviteter.
+title: Hur tilldelar  [!DNL Target] prioritet till olika aktiviteter?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
@@ -13,20 +13,20 @@ ht-degree: 0%
 
 # Prioritet
 
-[!DNL Adobe Target] avgör vilken aktivitet (eller vilka aktiviteter) som ska levereras till en sida på olika sätt beroende på vilken [!DNL Target] gränssnitt och funktion för att skapa aktiviteter ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) eller [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md)) som du använder.
+[!DNL Adobe Target] avgör vilken eller vilka aktiviteter som ska levereras till en sida på olika sätt beroende på vilket [!DNL Target] gränssnitt och vilken aktivitetsskapande funktion ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) eller [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md)) du använder.
 
-## [!UICONTROL Visual Experience Composer] endast eller [!UICONTROL Form-Based Experience Composer] använda en global [!DNL Target] endast begäran {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Endast [!UICONTROL Visual Experience Composer] eller [!UICONTROL Form-Based Experience Composer] som endast använder en global [!DNL Target]-begäran {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Om ditt företag använder VEC exklusivt kan innehåll från flera aktiviteter returneras för samma samtal. Verksamheter levereras med hjälp av följande beslutsflöde:
 
-1. The [!DNL Target] serversamtal kommer till [!DNL Target] med information om URL:en.
-1. [!DNL Target] Hämtar alla aktiviteter som körs på den URL:en.
-1. [!DNL Target] försök att matcha besökaren med aktiviteter.
+1. Serveranropet [!DNL Target] kommer till [!DNL Target] med information om URL:en.
+1. [!DNL Target] hämtar alla aktiviteter som körs på den URL:en.
+1. [!DNL Target] försöker matcha besökaren med aktiviteter.
 
-   Om besökaren redan är i en [!UICONTROL A/B Test] eller [!UICONTROL Multivariate Test] -aktivitet, matchar de i den aktiviteten tills de konverteras. Om de tidigare var i [!UICONTROL Experience Targeting] måste de matcha in i det igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
+   Om besökaren redan är i en [!UICONTROL A/B Test]- eller [!UICONTROL Multivariate Test]-aktivitet matchar de den aktiviteten tills de konverteras. Om de tidigare fanns i en [!UICONTROL Experience Targeting]-aktivitet måste de matcha in den igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
 
 1. Innehåll för alla aktiviteter och upplevelser som besökaren matchar återgår till sidan.
-1. Om innehållet för varje aktivitet refererar till olika [CSS-väljare](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)och allt innehåll visas.
+1. Om innehållet för varje aktivitet refererar till olika [CSS-väljare](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) visas allt innehåll.
 
    Om det finns en överlappning eller en duplicerad CSS-väljare visas aktivitetsinnehållet med den högsta prioriteten. Resultaten från alla aktiviteter som körs på sidan räknas och återspeglas i rapporterna.
 
@@ -41,15 +41,15 @@ Om ditt företag använder VEC exklusivt kan innehåll från flera aktiviteter r
 
 ## [!UICONTROL Form-Based Experience Composer] och [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
-Om ditt företag använder [!UICONTROL Form-Based Experience Composer] *och* VEC, innehåll från flera [!UICONTROL Form-Based Experience Composer] och VEC-aktiviteter kan leverera. Tidigare kunde bara en aktivitet i det formulärbaserade arbetsflödet levereras. Det finns inte längre någon gräns för hur många formulärbaserade aktiviteter som kan leverera.
+Om ditt företag använder [!UICONTROL Form-Based Experience Composer] *och* VEC kan innehåll från flera [!UICONTROL Form-Based Experience Composer]- och VEC-aktiviteter leverera. Tidigare kunde bara en aktivitet i det formulärbaserade arbetsflödet levereras. Det finns inte längre någon gräns för hur många formulärbaserade aktiviteter som kan leverera.
 
 Aktivitetsleveransen bestäms med hjälp av följande beslutsflöde:
 
-1. [!DNL Target] serversamtal kommer till [!DNL Target] med information om [!DNL Target] request och URL.
-1. [!DNL Target] hämtar all aktivitet som körs i [!DNL Target] begäran.
-1. [!DNL Target] försök att matcha besökaren med aktiviteter.
+1. [!DNL Target]-serveranropet kommer till [!DNL Target] med information om [!DNL Target]-begäran och URL:en.
+1. [!DNL Target] hämtar alla aktiviteter som körs i den [!DNL Target]-begäran.
+1. [!DNL Target] försöker matcha besökaren med aktiviteter.
 
-   Om besökaren redan är i en [!UICONTROL A/B Test] eller [!UICONTROL Multivariate Test] -aktivitet, matchar de i det testet tills de konverteras. Om de tidigare var i [!UICONTROL Experience Targeting] måste de matcha in i det igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
+   Om besökaren redan är i en [!UICONTROL A/B Test]- eller [!UICONTROL Multivariate Test]-aktivitet matchar de det testet tills de konverteras. Om de tidigare fanns i en [!UICONTROL Experience Targeting]-aktivitet måste de matcha in den igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
 
 1. Om en formulärbaserad aktivitet har högst prioritet returneras aktivitetsinnehållet tillsammans med allt matchande aktivitetsinnehåll från VEC-aktiviteter.
 1. Om en VEC-aktivitet har högst prioritet returneras innehåll från alla matchande VEC-aktiviteter, men inget formulärbaserat aktivitetsinnehåll returneras.
@@ -62,15 +62,15 @@ Om du har två aktiviteter, den ena med nyckelordet Nike som mål och den andra 
 
 Om båda målinriktade aktiviteter har samma prioritet visas den aktivitet som senast visades. Om besökaren är nybörjare på sidan visas den aktivitet som aktiverades senast.
 
-## [!UICONTROL Form-Based Experience Composer] med icke-global [!DNL Target] förfrågningar {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!UICONTROL Form-Based Experience Composer] med icke-globala [!DNL Target]-begäranden {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
-Om ditt företag använder [!DNL Target] andra förfrågningar än de globala [!DNL Target] -begäran i den formulärbaserade dispositionen kan innehåll från endast en aktivitet returneras per anrop. Aktivitetsleveransen bestäms med hjälp av följande beslutsflöde:
+Om ditt företag använder [!DNL Target] andra förfrågningar än den globala [!DNL Target]-förfrågan i den formulärbaserade dispositionen kan innehåll från endast en aktivitet returneras per anrop. Aktivitetsleveransen bestäms med hjälp av följande beslutsflöde:
 
-1. The [!DNL Target] serversamtal kommer till [!DNL Target] med information om [!DNL Target] request och URL.
-1. [!DNL Target] hämtar all aktivitet som körs i [!DNL Target] begäran.
-1. [!DNL Target] försöker att matcha besökaren med den högsta prioritetsaktiviteten.
+1. Serveranropet [!DNL Target] kommer till [!DNL Target] med information om begäran [!DNL Target] och URL:en.
+1. [!DNL Target] hämtar alla aktiviteter som körs i den [!DNL Target]-begäran.
+1. [!DNL Target] försöker matcha besökaren med aktiviteten med högst prioritet.
 
-   Om besökaren redan är i en [!UICONTROL A/B Test] eller [!UICONTROL Multivariate Test] -aktivitet, matchar de i den aktiviteten tills de konverteras. Om de tidigare var i [!UICONTROL Experience Targeting] måste de matcha in i det igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
+   Om besökaren redan är i en [!UICONTROL A/B Test]- eller [!UICONTROL Multivariate Test]-aktivitet matchar de den aktiviteten tills de konverteras. Om de tidigare fanns i en [!UICONTROL Experience Targeting]-aktivitet måste de matcha in den igen. Om de uppfyller målgruppsreglerna faller besökaren in i dessa aktiviteter och i särskilda upplevelser.
 
 1. Om flera aktiviteter har samma prioritetsnivå finns det två brytningar:
 
@@ -81,7 +81,7 @@ Om ditt företag använder [!DNL Target] andra förfrågningar än de globala [!
 
 >[!NOTE]
 >
->Beroende på dina inställningar varierar prioritetsvärdena. Du kan använda de äldre inställningarna för [!UICONTROL Low], [!UICONTROL Medium], eller [!UICONTROL High]eller så kan du aktivera finkorniga prioriteringar mellan 0 och 999. Mer information finns i [Aktivitetsinställningar](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Beroende på dina inställningar varierar prioritetsvärdena. Du kan använda de äldre inställningarna för [!UICONTROL Low], [!UICONTROL Medium] eller [!UICONTROL High], eller så kan du aktivera finjusterade prioriteter från 0 till 999. Mer information finns i [Aktivitetsinställningar](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 Svar: erbjudande1
 
@@ -92,7 +92,7 @@ Svar: erbjudande1
 
 Svar: visualExpCompOffer1, visualExpCompOffer2
 
-**Två aktiviteter använder endast erbjudanden som skapats i [!UICONTROL Visual Experience Composer] för samma väljare**
+**Två aktiviteter använder bara erbjudanden som skapats i [!UICONTROL Visual Experience Composer] för samma väljare**
 
 * Aktivitet 1: target-global-mbox, selector1, visualExpCompOffer1, priority low
 * Aktivitet 2: target-global-mbox, selector1, visualExpCompOffer2, priority high

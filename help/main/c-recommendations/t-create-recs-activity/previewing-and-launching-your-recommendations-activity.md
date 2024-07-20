@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;erbjudande;förhandsvisa;starta;status;villkor;algoritm
-description: Lär dig förhandsgranska Adobe [!DNL Target] Recommendations-aktivitet för att säkerställa att resultaten är tillgängliga innan du startar aktiviteten.
+description: Lär dig hur du förhandsgranskar din Adobe [!DNL Target] Recommendations-aktivitet för att se till att resultat är tillgängliga innan du startar aktiviteten.
 title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
@@ -13,77 +13,77 @@ ht-degree: 0%
 
 # Förhandsgranska och starta din Recommendations-aktivitet
 
-När du har skapat [!UICONTROL Recommendations], [!UICONTROL A/B Test], eller [!UICONTROL Experience Targeting] (XT) aktivitet som innehåller [Recommendations erbjuder](/help/main/c-recommendations/recommendations-as-an-offer.md)vill du förhandsgranska dina rekommendationer för att se till att resultaten är tillgängliga innan du startar aktiviteten. [!DNL Target Recommendations] erbjuder flera sätt att förhandsgranska dina rekommendationer.
+När du har skapat din [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]- eller [!UICONTROL Experience Targeting] (XT)-aktivitet som innehåller [Recommendations-erbjudanden](/help/main/c-recommendations/recommendations-as-an-offer.md), vill du förhandsgranska dina rekommendationer för att se till att resultaten är tillgängliga innan du startar aktiviteten. [!DNL Target Recommendations] erbjuder flera sätt att förhandsgranska dina rekommendationer.
 
 ## Kontrollerar Recommendations-algoritmstatus
 
-När du har skapat en aktivitet [!DNL Recommendations] kör en algoritm för att generera rekommendationer. Den här algoritmen kan ta några timmar att köra.
+När en aktivitet har skapats kör [!DNL Recommendations] en algoritm för att generera rekommendationer. Den här algoritmen kan ta några timmar att köra.
 
-Du kan kontrollera om algoritmen har körts färdigt i [!UICONTROL Activity] översiktsdiagram, där villkorsstatusen listas. Följande bild visar statusen i aktivitetsdiagrammet på en [!DNL Recommendations] aktivitet [!UICONTROL Overview] sida:
+Du kan kontrollera om algoritmen har körts färdigt i översiktsdiagrammet [!UICONTROL Activity], där villkorsstatusen listas. Följande bild visar statusen i aktivitetsdiagrammet på [!UICONTROL Overview]-sidan för en [!DNL Recommendations]-aktivitet:
 
 ![Översikt över Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
-Följande bild visar statusen för en [!UICONTROL A/B Test] eller XT-aktiviteter [!UICONTROL Overview] sida:
+Följande bild visar statusen på en [!UICONTROL A/B Test]- eller XT-aktivitets [!UICONTROL Overview]-sida:
 
-![Översikt över A/B-tester](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Sidan Översikt över A/B-tester](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
 
 Statusresultaten är följande:
 
 * [!UICONTROL Results Ready]: Anger att algoritmen har returnerat resultat
 * [!UICONTROL Results Not Ready]: Anger att algoritmen inte har slutförts.
-* [!UICONTROL Feed Failure]: Anger att det inte gick att hämta den anpassade villkorsfeed-filen.
+* [!UICONTROL Feed Failure]: Anger att det inte gick att hämta den anpassade villkorsfeeden.
 
-![Resultatdialogruta](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
+![Dialogrutan Resultat](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## Hur lång tid tar det att köra algoritmen?
 
-När du har sparat en aktivitet som innehåller ett villkor [!DNL Target] beräknar rekommendationer baserat på den valda samlingen, de valda kriterierna, designen och kampanjerna. Beräkningen tar en stund och tidsramen skiljer sig åt beroende på vald rekommendationslogik, dataintervall, antal objekt i katalogen, mängden beteendedata som kunderna har genererat och den valda beteendedatakällan.
+När en aktivitet som innehåller ett villkor har sparats beräknar [!DNL Target] rekommendationer baserat på den valda samlingen, villkoren, designen och kampanjerna. Beräkningen tar en stund och tidsramen skiljer sig åt beroende på vald rekommendationslogik, dataintervall, antal objekt i katalogen, mängden beteendedata som kunderna har genererat och den valda beteendedatakällan.
 
 Beteendedatakällan har störst inverkan på bearbetningstiden, enligt följande:
 
 ### mboxes
 
-Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en omkörning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en omkörning är slutförd. Om en algoritm inte ändras körs den automatiskt igen av [!DNL Target] var 12-48:e timme, beroende på vilket dataområde som valts.
+Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en omkörning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en omkörning är slutförd. Om en algoritm inte ändras körs den automatiskt om med [!DNL Target] var 12:48:e timme, beroende på det valda dataområdet.
 
 ### Adobe Analytics
 
-Om kriterierna använder [!DNL Adobe Analytics] När den har skapats som en beteendedatakälla beror tiden för villkorstillgänglighet på om den valda rapportsviten och uppslagsfönstret har använts för andra villkor.
+Om villkoret använder [!DNL Adobe Analytics] som beteendedatakälla beror tiden för kriteriernas tillgänglighet på om den valda rapportsviten och uppslagsfönstret har använts för andra villkor när de har skapats.
 
-* **Installation av engångsavisering**: Första gången en rapportserie används med ett visst fönster för dataintervallsökning, [!DNL Target Recommendations] kan ta mellan två och sju dagar att helt hämta beteendedata för den valda rapportsviten från [!DNL Analytics]. Tidsramen är beroende av [!DNL Analytics] systembelastning.
-* **Nya eller redigerade villkor med hjälp av ett rapportpaket som redan är tillgängligt**: När du skapar ett nytt villkor eller redigerar ett befintligt villkor, om det valda rapportpaketet redan har använts med [!DNL Target Recommendations], med ett dataintervall som är lika med eller mindre än det markerade dataintervallet, är data omedelbart tillgängliga och ingen engångsinställning krävs. I det här fallet, eller om en algoritms inställningar redigeras utan att den valda rapportsviten eller det valda dataintervallet ändras, körs eller körs om inom 12 timmar.
-* **Pågående algoritmkörningar**: Dataflöden från [!DNL Analytics] till [!DNL Target Recommendations] på daglig basis. För [!UICONTROL Viewed Affinity] när en användare tittar på en produkt skickas ett spårningsanrop till produktvyn till [!DNL Analytics] nära realtid. The [!DNL Analytics] data skickas till [!DNL Target] tidigt nästa dag och [!DNL Target] kör algoritmen på mindre än 12 timmar.
+* **Installation av en engångsrapportsserie**: Första gången en rapportsvit används med ett visst fönster för dataområdessökning kan det ta mellan två och sju dagar för [!DNL Target Recommendations] att helt hämta beteendedata för den valda rapportsviten från [!DNL Analytics]. Den här tidsramen är beroende av systeminläsningen för [!DNL Analytics].
+* **Nya eller redigerade villkor med en redan tillgänglig rapportsvit**: När du skapar ett nytt villkor eller redigerar ett befintligt villkor, och den valda rapportsviten redan har använts med [!DNL Target Recommendations], med ett dataintervall som är lika med eller mindre än det valda dataintervallet, är data omedelbart tillgängliga och ingen engångsinställning krävs. I det här fallet, eller om en algoritms inställningar redigeras utan att den valda rapportsviten eller det valda dataintervallet ändras, körs eller körs om inom 12 timmar.
+* **Pågående algoritm kör**: Data flödar från [!DNL Analytics] till [!DNL Target Recommendations] dagligen. För rekommendationen [!UICONTROL Viewed Affinity] skickas till exempel ett spårningsanrop i produktvyn till [!DNL Analytics] i närheten av realtid när en användare tittar på en produkt. [!DNL Analytics]-data skickas till [!DNL Target] tidigt nästa dag och [!DNL Target] kör algoritmen på mindre än 12 timmar.
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] kräver att ingen offlinealgoritm körs och resultaten är omedelbart tillgängliga. [!UICONTROL Top Viewed] och [!UICONTROL Top Sellers] algoritmer som bygger på mbox-data ger i allmänhet resultat mycket snabbt på grund av den enklare beräkning som krävs. Detta kan vara bra alternativ när du vill förhandsgranska en designändring eller bekräfta att beteendedata samlas in korrekt.
+>[!UICONTROL Recently Viewed Items] kräver att ingen offlinealgoritm körs och resultaten är omedelbart tillgängliga. [!UICONTROL Top Viewed]- och [!UICONTROL Top Sellers]-algoritmer som baseras på mbox-data ger i allmänhet resultat mycket snabbt på grund av den enklare beräkning som krävs. Detta kan vara bra alternativ när du vill förhandsgranska en designändring eller bekräfta att beteendedata samlas in korrekt.
 
 ## Använda QA-länkar för att förhandsgranska Recommendations
 
-När algoritmen har fått resultat klara kan du förhandsgranska dessa resultat med [QA-länk](/help/main/c-activities/c-activity-qa/activity-qa.md) funktionaliteten i [!DNL Adobe Target]. QA-länkar finns i [!UICONTROL Activity QA] på sidan Aktivitetsöversikt:
+När algoritmen har resultat klara kan du förhandsgranska dessa resultat med funktionen [QA link](/help/main/c-activities/c-activity-qa/activity-qa.md) i [!DNL Adobe Target]. QA-länkar är tillgängliga i avsnittet [!UICONTROL Activity QA] på sidan Aktivitetsöversikt:
 
-![Länk till aktivitets-QA](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+![Aktivitets-QA-länk](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
 
 >[!NOTE]
 >
->Som standard [!DNL Target] lägger automatiskt till dig till den önskade målgruppen för QA-länken. Om den här inställningen är inaktiverad och din aktivitet har målinriktningsregler, måste din användarprofil uppfylla dessa målinriktningsregler för att se upplevelsen som innehåller rekommendationer.
+>Som standard lägger [!DNL Target] automatiskt till dig till den önskade målgruppen för QA-länken. Om den här inställningen är inaktiverad och din aktivitet har målinriktningsregler, måste din användarprofil uppfylla dessa målinriktningsregler för att se upplevelsen som innehåller rekommendationer.
 
 Om du använder en QA-länk kan du förhandsgranska rekommendationerna på sidan:
 
-![Produkter](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
+![Aktuella produkter](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
 
 >[!NOTE]
 >
 >* Mål-QA-läget är&quot;klisterlöst&quot; och sparas i en cookie. Om du inte avslutar QA-läget kommer du att fortsätta se QA-resultaten på hela webbplatsen. Om du vill avsluta QA-läget använder du [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
->* När du är i QA-läge kommer surfning av webbplatsen inte att påverka din profils [!UICONTROL Recently Viewed Items] eller [!UICONTROL Recently Purchased Items]. Detta beteende sker genom design för att undvika oavsiktlig förorening av produktionsbeteendedata. Förhandsgranska resultat från en [!UICONTROL Recently Viewed Items] eller [!UICONTROL User-Based Recommendations] -villkor, bläddra först på webbplatsen utanför QA-läget och använd sedan samma session för att öppna en QA-lägeslänk.
+>* I QA-läge kommer inte din profils [!UICONTROL Recently Viewed Items] eller [!UICONTROL Recently Purchased Items] att påverkas om du bläddrar på webbplatsen. Detta beteende sker genom design för att undvika oavsiktlig förorening av produktionsbeteendedata. Om du vill förhandsgranska resultat från ett [!UICONTROL Recently Viewed Items]- eller [!UICONTROL User-Based Recommendations]-villkor bläddrar du först till webbplatsen utanför QA-läget och använder sedan samma session för att öppna en QA-lägeslänk.
 
 ## Använda CSV-nedladdning för att förhandsgranska rekommendationer
 
-I vissa fall kanske du vill granska de specifika objekten som rekommenderas. Detta är särskilt användbart när du använder algoritmer som [!UICONTROL People Who Viewed This, Viewed That], där olika objektuppsättningar rekommenderas beroende på vilket objekt användaren visar just nu, och du kan ha tusentals eller miljontals olika objekt i katalogen.
+I vissa fall kanske du vill granska de specifika objekten som rekommenderas. Detta är särskilt användbart när du använder algoritmer som [!UICONTROL People Who Viewed This, Viewed That], där olika objektuppsättningar rekommenderas beroende på vilket objekt användaren tittar på just nu och du kan ha tusentals eller miljontals olika objekt i katalogen.
 
-Resultaten kan inte hämtas förrän en [!UICONTROL Results Ready] status visas för minst en algoritm i aktiviteten.
+Resultat är inte tillgängliga för hämtning förrän en [!UICONTROL Results Ready]-status visas för minst en algoritm i aktiviteten.
 
-Om du vill hämta resultat för förhandsgranskning klickar du på menyikonen i det övre högra hörnet av sidan Aktivitetsöversikt och sedan på **[!UICONTROL Download data]**.
+Om du vill hämta resultat för förhandsgranskning klickar du på menyikonen i det övre högra hörnet på sidan Aktivitetsöversikt och sedan på **[!UICONTROL Download data]**.
 
 ![Alternativet Hämta data](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
@@ -93,25 +93,25 @@ En CSV-fil hämtas. Öppna den och se rekommenderade objekt:
 
 Från vänster till höger finns en lista med rekommenderade objekt, i det här fallet de som visas mest. Rekommendationerna separeras av miljön, i det här fallet har endast produktionsmiljön rekommendationer.
 
-Om en asterisk (*) är det första värdet på en rad visas [säkerhetskopiera objekt](/help/main/c-recommendations/c-algorithms/backup-recs.md). Säkerhetskopierade objekt visas om inte alla kortplatser i en design kan fyllas med de rekommenderade objekten i algoritmen (villkor).
+Om en asterisk (*) är det första värdet på en rad visas [säkerhetskopierade objekt](/help/main/c-recommendations/c-algorithms/backup-recs.md). Säkerhetskopierade objekt visas om inte alla kortplatser i en design kan fyllas med de rekommenderade objekten i algoritmen (villkor).
 
-För andra algoritmtyper baserade på ett nyckelvärde, som [!UICONTROL People Who Viewed This, Viewed That], listas nyckelvärdena (d.v.s.&quot;This&quot; items) i kolumnen längst till vänster och de rekommenderade objekten (t.ex.&quot;That&quot;-objekten) listas från vänster till höger i kolumnerna recommendation_X.
+För andra algoritmtyper som baseras på ett nyckelvärde, till exempel [!UICONTROL People Who Viewed This, Viewed That], listas nyckelvärdena (d.v.s.&quot;This&quot; items) i kolumnen längst till vänster och de rekommenderade objekten (d.v.s.&quot;That&quot; items) listas från vänster till höger i kolumnerna Recommend_X.
 
 >[!NOTE]
 >
->Resultathämtningar är inte tillgängliga för aktiviteter som innehåller en [!UICONTROL User-Based Recommendations] algoritm. Resultathämtningar är inte tillgängliga för villkor som använder [!UICONTROL Recently-Viewed Items] rekommendationslogik.
+>Resultathämtningar är inte tillgängliga för aktiviteter som innehåller en [!UICONTROL User-Based Recommendations]-algoritm. Resultathämtningar är inte tillgängliga för villkor som använder rekommendationslogiken [!UICONTROL Recently-Viewed Items].
 
 ## Aktivera din Recommendations-aktivitet
 
-Från [!UICONTROL Activity Overview] klickar du på listrutepilen bredvid statusen och väljer **[!UICONTROL Activate]**.
+Klicka på listrutepilen bredvid statusen på fliken [!UICONTROL Activity Overview] och välj sedan **[!UICONTROL Activate]**.
 
-![Alternativet Aktivera](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+![Aktivera alternativ](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
 
 Observera att statusen blir [!UICONTROL Activating]:
 
-![Aktivera](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
+![Aktiverar](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
 
-Efter några sekunder till några minuter ändras statusen till [!UICONTROL Live]:
+Efter några sekunder till några minuter växlar statusen till [!UICONTROL Live]:
 
 ![Live](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
 
@@ -119,7 +119,7 @@ Observera att du även kan inaktivera eller arkivera aktiviteten med samma nedru
 
 ## Undvik avbrott vid ändring av Recommendations-inställningar
 
-Ändrar [!DNL Recommendations] samlingar, villkor, kampanjer eller designinställningar i en aktiv aktivitet kan göra att algoritmresultaten blir ogiltiga och algoritmens status ändras till [!UICONTROL Results Not Ready].
+Om du ändrar [!DNL Recommendations] samlingar, villkor, kampanjer eller designinställningar i en aktiv aktivitet kan algoritmresultaten bli ogiltiga och algoritmens status ändras till [!UICONTROL Results Not Ready].
 
 För att undvika avbrott i en live-aktivitet rekommenderar vi att du använder följande tillvägagångssätt när du ändrar en live-aktivitet:
 

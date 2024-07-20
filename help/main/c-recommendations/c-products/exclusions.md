@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Skapa ett undantag i [!DNL Adobe Target Recommendations] för att förhindra att produkter eller innehåll rekommenderas för besökare. Ett undantag är en delmängd av produkter eller innehåll som inte bör rekommenderas för besökare.
 
-Undantag är tillgängliga för hela kontot. Till skillnad från samlingar, där du anger en specifik samling för varje upplevelse när du skapar en [!UICONTROL Recommendations] verksamhet, undantag gäller för alla aktiviteter på kontot. Det finns inget alternativ för att tilldela en exkluderingsgrupp när en aktivitet skapas.
+Undantag är tillgängliga för hela kontot. Till skillnad från samlingar, där du anger en specifik samling för varje upplevelse när du skapar en [!UICONTROL Recommendations]-aktivitet, gäller undantag för alla aktiviteter på kontot. Det finns inget alternativ för att tilldela en exkluderingsgrupp när en aktivitet skapas.
 
 Några exempel på hur du skulle kunna använda undantag är:
 
@@ -33,19 +33,19 @@ Några exempel på hur du skulle kunna använda undantag är:
 
 ## Skapa ett undantag
 
-1. Klicka **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** för att visa en lista över befintliga undantag.
+1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** för att visa listan över befintliga undantag.
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Antal poster som rapporteras för varje undantag på [!UICONTROL Exclusions] listvyn är antalet produkter som matchar reglerna för undantaget inom den konfigurerade standardversionen av Recommendations [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
+   Antalet objekt som rapporteras för varje undantag i listvyn [!UICONTROL Exclusions] är antalet produkter som matchar reglerna för undantaget i den konfigurerade standardvärdgruppen [Recommendations](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Exclusion]**.
 
-1. (Villkorligt) Välj en miljö på **[!UICONTROL Environment]** filtrera när du skapar (eller uppdaterar) ett undantag för att förhandsvisa innehållet i undantaget i den miljön. Som standard visas resultat från standardvärdgruppen.
+1. (Villkorligt) Välj en miljö från filtret **[!UICONTROL Environment]** när du skapar (eller uppdaterar) ett undantag för att förhandsvisa innehållet i undantaget i den miljön. Som standard visas resultat från standardvärdgruppen.
 
    ![Skapa undantag](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Ange ett undantag **[!UICONTROL Name]** och ange en valfri beskrivning.
+1. Skriv ett undantag **[!UICONTROL Name]** och ange en valfri beskrivning.
 
 1. Använd regelverktyget för att skapa undantag.
 
@@ -55,7 +55,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
 ## Skapa ett undantag med avancerad sökning
 
-Du kan också skapa undantag med [!UICONTROL Advanced Search] på [Katalogsökning](/help/main/c-recommendations/c-products/catalog-search.md#save-as) sida ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Du kan också skapa undantag med [!UICONTROL Advanced Search] på sidan [ Katalogsökning ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![Spara som dialogruta](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -63,7 +63,7 @@ När du har skapat en sökning med&quot;id > contains&quot; kan du till exempel 
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] är skiftlägeskänsligt, men de produkter som returneras vid leveranstillfället baseras på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar undantag baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan gör ett undantag med avsikten att utesluta produkter som innehåller &quot;semester&quot;, exkluderas endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; är inte undantagna.
+>Funktionen [!UICONTROL Advanced Search] är skiftlägeskänslig, men produkter som returneras vid leveranstillfället baseras på skiftlägeskänslig sökning. Denna felmatchning kan leda till förvirring. Se till att du tar hänsyn till skiftlägeskänslighet när du skapar undantag baserat på resultat med funktionen Avancerad sökning. Om du till exempel söker efter Semester visas resultatet som innehåller Semester och Semester i den inledande sökningen. Om du sedan gör ett undantag med avsikten att utesluta produkter som innehåller &quot;semester&quot;, exkluderas endast produkter som innehåller &quot;semester&quot;. Produkter som innehåller &quot;Semester&quot; är inte undantagna.
 
 ## Redigera, kopiera eller ta bort ett undantag
 
@@ -75,7 +75,7 @@ Du kan kopiera ett befintligt undantag för att skapa ett duplicerat undantag so
 
 Observera att det finns undantag för hela kontot. Tänk på detta innan du tar bort ett undantag. Borttagna undantag kan inte återställas.
 
-## Utbildningsvideo: Skapa samlingar och undantag i Recommendations (7:05) ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa samlingar och undantag i Recommendations (7:05) ![Självstudiekurs](/help/main/assets/tutorial.png)
 
 Den här videon innehåller följande information:
 

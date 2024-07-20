@@ -1,12 +1,12 @@
 ---
-description: Vad används olika termer i Adobe? [!DNL Target] menar du? Hitta definitioner av vanliga termer som hjälper dig att få ut mer av [!DNL Target].
+description: Vad betyder olika termer som används i Adobe [!DNL Target] ? Hitta definitioner av vanliga termer som hjälper dig att få ut mer av  [!DNL Target].
 title: Var hittar jag de termer och definitioner som används i Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2481'
-ht-degree: 1%
+source-wordcount: '2480'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Gör att du kan testa siddesign och rikta innehåll till specifika målgrupper.
 
 En förteckning över vem som ändrat dina aktiviteter och när ändringarna inträffade.
 
-**aktivitetskollision**
+**aktivitetskonflikt**
 
 En aktivitetskollision inträffar när flera aktiviteter har konfigurerats för att leverera innehåll till samma sida. Om en aktivitetskonflikt inträffar kanske du inte ser det förväntade innehållet på sidan.
 
@@ -42,11 +42,11 @@ Den standardwebbadress som används för en aktivitet.
 
 **AdBox**
 
-Användbar för att testa marknadsföring från webbplatser som saknar en mbox, till exempel filialer.
+Användbar för att testa marknadsföring från webbplatser som inte har någon mbox, till exempel filialer.
 
 **at.js**
 
-The [!DNL at.js] biblioteket är ett nytt implementeringsbibliotek för [!DNL Adobe Target] som är utformade för både vanliga webbimplementeringar och ensidiga program. The [!DNL at.js] biblioteksersättningar [!DNL mbox.js] for [!DNL Target] implementeringar.
+Biblioteket [!DNL at.js] är ett nytt implementeringsbibliotek för [!DNL Adobe Target] som är utformat för både vanliga webbimplementeringar och enkelsidiga program. Biblioteket [!DNL at.js] ersätter [!DNL mbox.js] för [!DNL Target]-implementeringar.
 
 **publik**
 
@@ -66,7 +66,7 @@ Automated Personalization (AP) kombinerar erbjudanden och meddelanden och använ
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
-**beteendeannonser**
+**Beteendeannonser**
 
 Testar och spårar besök i annonser och annat externt innehåll. Ni kan också använda beteendeannonser för att identifiera samma användare både på och utanför er webbplats och leverera en enhetlig upplevelse genom hela deras webbupplevelse.
 
@@ -104,7 +104,7 @@ Texten eller bilden som består av en provvariation på en plats. I ett multivar
 
 Loggar test- eller aktivitetsresultat, som registreringar, order eller försäljning. En konverteringsruta visas vanligtvis bara som en avlyssning. Vanliga platser för konverteringsrutan är en registreringssida, en ordertacksida eller en klickbar sida. Du kan också använda en global mbox för att beräkna konverteringsvärden.
 
-**kriterier**
+**villkor**
 
 Regler som bestämmer vilka produkter eller vilket innehåll som ska rekommenderas. Kriterierna kan baseras på populära trender, en besökares aktuella och tidigare beteenden eller liknande produkter och innehåll.
 
@@ -128,7 +128,7 @@ Den tid som en aktivitet körs, från startdatum och -tid till slutdatum och slu
 
 **dynamiskt innehåll**
 
-Kan ingå i alla typer av tester eller aktiviteter. Ingen ytterligare programmering krävs. Besökarens session på din domän bevaras.
+Kan vara en del av alla typer av tester eller aktiviteter. Ingen ytterligare programmering krävs. Besökarens session på din domän bevaras.
 
 **dynamisk mbox**
 
@@ -144,11 +144,11 @@ Använder dynamisk sidteknik för att skicka värden till erbjudandet.
 
 Mätningen av besökarens intresse för en webbplats, mätt som tid på webbplatsen, klick, konverteringar och andra interaktionsvärden.
 
-**förbättrad upplevelsedisposition**
+**Förbättrad upplevelsedisposition**
 
-The [!UICONTROL Enhanced Experience Composer] är en förlängning av [!UICONTROL Visual Experience Composer] som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte innehåller [!DNL Target] implementering. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer], prova [!UICONTROL Enhanced Experience Composer].
+[!UICONTROL Enhanced Experience Composer] är ett tillägg till [!UICONTROL Visual Experience Composer] som hjälper dig att redigera en upplevelse för en iframe-busting-webbplats eller sidor som ännu inte inkluderar implementeringen av [!DNL Target]. Om du har problem med att öppna sidan i [!UICONTROL Visual Experience Composer] provar du [!UICONTROL Enhanced Experience Composer].
 
-**Enterprise-användarbehörigheter**
+**Företagsanvändarbehörigheter**
 
 Ett sätt att formellt administrera åtkomst för användare i hela företaget till Target. Lägg till användare i Target, tilldela behörigheter baserat på deras roller och skapa arbetsytor för team baserat på olika avdelningar, globala platser, kanaler och andra logiska grupperingar. Du kan tilldela användare rollerna observatör, redigerare eller godkännare.
 
@@ -156,7 +156,7 @@ Ett sätt att formellt administrera åtkomst för användare i hela företaget t
 
 Egna parametrar som används för att skicka produkt- eller innehållsinformation till Recommendations.
 
-**entré**
+**entrant**
 
 En deltagare är en besökare som uppfyller kriterierna för att delta i en aktivitet.
 
@@ -166,7 +166,7 @@ Värdar paketeras i miljöer för enkel hantering. De förinställda värdgruppe
 
 **upplevelse**
 
-Ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Ni testar eller personaliserar upplevelser i [!DNL Target] verksamhet.
+Ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Du testar eller personaliserar upplevelser i [!DNL Target]-aktiviteter.
 
 **upplevelseanpassning**
 
@@ -180,7 +180,7 @@ Innehåller metoder för att hämta produkt- eller innehållsinformation till di
 
 **flödesdiagram**
 
-Den visuella representationen av en aktivitet i Target Standard.
+Visuell representation av en aktivitet i Target Standard.
 
 **Formulärbaserad Experience Composer**
 
@@ -188,9 +188,9 @@ En icke-visuell upplevelse och ett gränssnitt som gör att du kan skapa uppleve
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
-**geo location-parameter**
+**geo-positionsparameter**
 
-Gör att ni kan rikta aktiviteter och upplevelser baserat på besökarnas geografiska läge. Kallas även parameter för geolokalisering.
+Gör att ni kan inrikta er på aktiviteter och upplevelser baserat på besökarnas geografiska läge. Kallas även parameter för geolokalisering.
 
 **mål**
 
@@ -204,11 +204,11 @@ Alla webbservrar (eller webbdomäner) som du använder för att leverera innehå
 
 **värdgrupp**
 
-Se *Miljö*. Värdgrupper kallas&quot;miljöer&quot; i [!DNL Target Standard/Premium].
+Se *Miljö*. Värdgrupper kallas för miljöer i [!DNL Target Standard/Premium].
 
 ## I {#section_8ABE89A86AF54BD4B6B2CC909F651B5C}
 
-**Profilparameter i rutan**
+**Profilparameter i mbox**
 
 Besökarspecifik parameter som skickas till besökarens cookie från mbox. Returnerande besökare är ett exempel på en profilparameter i rutan.
 
@@ -216,7 +216,7 @@ Besökarspecifik parameter som skickas till besökarens cookie från mbox. Retur
 
 **landningssidaktivitet**
 
-Med en landningssidaktivitet kan du använda målinriktning för att visa olika landningssidinnehåll för olika besök. I annat fall visas samma innehåll för varje besök på landningssidan. En aktivitet på en landningssida jämför olika versioner av sidan för att hjälpa dig att se vilken version av landningssidan som ger ett bättre resultat. I Target Standard, ersatt med *upplevelseanpassning*.
+Med en landningssidaktivitet kan du använda målinriktning för att visa olika landningssidinnehåll för olika besök. I annat fall visas samma innehåll för varje besök på landningssidan. En aktivitet på en landningssida jämför olika versioner av sidan för att hjälpa dig att se vilken version av landningssidan som ger ett bättre resultat. I Target Standard, ersatt av *Experience targeting*.
 
 **plats**
 
@@ -226,19 +226,19 @@ Ett visst innehållsområde på en sida, som ofta finns i ett enskilt DOM-elemen
 
 **mbox**
 
-&quot;Marknadsföringsruta&quot;, den plats på webbsidan där innehållet visas och besökarnas beteende registreras. Vissa rutor visar ingenting. De kan spåra besökarens framsteg på webbplatsen eller kanske spåra om besökaren har slutfört ett visst mått för framgång, som att lägga till en artikel i kundvagnen eller slutföra ett köp. En sådan lådtyp är en *konverteringsruta*.
+&quot;Marknadsföringsruta&quot;, den plats på webbsidan där innehållet visas och besökarnas beteende registreras. Vissa rutor visar ingenting. De kan spåra besökarens framsteg på webbplatsen eller kanske spåra om besökaren har slutfört ett visst mått för framgång, som att lägga till en artikel i kundvagnen eller slutföra ett köp. En sådan typ av mbox är en *konverteringsmbox*.
 
 **mbox.js**
 
-A [!DNL Target] JavaScript-implementeringsbibliotek som har tagits bort.
+Ett [!DNL Target] JavaScript-implementeringsbibliotek som har tagits bort.
 
 **mbox-parameter**
 
 Skickades på sidan, inte URL-adressen. Parametrar används för att skicka data från databasen och för att spåra försäljningsdata eller för att köra Adobe Recommendations. Kallas även sidparameter.
 
-**multivariata tester**
+**multivariattest**
 
-Med multivariata tester (MVT) jämförs kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och det element som har störst påverkan på aktivitetens framgång identifieras
+Multivariate Testing (MVT) jämför kombinationer av erbjudanden i element på en sida för att avgöra vilken kombination som fungerar bäst för en viss målgrupp och identifierar vilket element som bäst påverkar aktivitetens framgång
 
 ## N
 
@@ -248,9 +248,9 @@ En besökare inkluderas i segmentet Nya besökare om något av följande villkor
 
 * Det är besökarens första besök på webbplatsen.
 * Det är besökarens första besök sedan cookies rensades.
-* Det är besökarens första besök sedan [Livslängd för besökarprofil](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) har gått ut.
+* Det är besökarens första besök på webbplatsen sedan [besökarprofilens livstid](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) har gått ut.
 
-Mer information finns i [Hur räknas värdena för nya besökare och återkommande besökare?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapporteringsfrågor och svar. Kontrast med&quot;Returning Visitor&quot; nedan.
+Mer information finns i [Hur räknas mätvärdena för nya besökare och återkommande besökare?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapportera frågor och svar. Kontrast med&quot;Returning Visitor&quot; nedan.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -268,7 +268,7 @@ Gör det möjligt för besökare att avanmäla sig från all spårning och inneh
 
 ## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
-**antal sidor**
+**sidantal**
 
 Ett engagemangsmått som mäter antalet sidor som visas vid ett besök från den punkt besökaren först ser aktivitetens första visningsruta.
 
@@ -294,19 +294,19 @@ Omdirigerar en besökare till en annan webbsida. Använd den här omdirigeraren 
 
 Skickar värden till målsidans mbox som refererande URL-parametrar och -värden. Använd dessa om du till exempel vill ange besökarens ursprung som mål.
 
-**Returnerar besökare**
+**Returnerande besökare**
 
 Besökaren inkluderas i segmentet Återkommande besökare om användaren tidigare besökt webbplatsen, lämnat den i minst 30 minuter och återgått till webbplatsen igen med samma cookies. Så länge en besökare återvänder inom sin profillivstid är den här besökaren en återkommande besökare.
 
-Mer information finns i [Hur räknas mätvärdena för nya besökare och återkommande besökare?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) i Rapporteringsfrågor och svar. Kontrast mot&quot;Ny besökare&quot; ovan.
+Mer information finns i [Hur räknas mätvärdena för nya besökare och återkommande besökare](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) i rapportfrågor och svar. Kontrast mot&quot;Ny besökare&quot; ovan.
 
 **roll**
 
 En grupp användare med en viss behörighetsgrupp.
 
-**fjärterbjudande**
+**fjärrenderbjudande**
 
-Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Target] att [!DNL Target] referenser och levererar till användarnas webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
+Använd fjärrerbjudanden som värd för innehåll utanför [!DNL Target] som [!DNL Target] refererar till och levererar till användarens webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem eller i ett annat system, antingen av användarvänliga skäl eller av säkerhetsskäl.
 
 **rapporter**
 
@@ -340,7 +340,7 @@ De parametrar som används för att mäta en aktivitets framgång. Framgångssta
 
 En aktivitet som jämför två eller flera upplevelser med de framgångsmått som ni anger, så att ni kan välja den upplevelse som troligen ger de resultat ni vill ha.
 
-**tid på plats**
+**tid på platsen**
 
 En engagemangstyp som representerar den tid som har ägnats åt besöket (i sekunder) från den punkt där besökaren ser aktivitetens första visningsruta till den sista sidan i en session med en mbox.
 
@@ -358,11 +358,11 @@ Ett besök kallas ibland för en session. Ett besök avslutas efter 30 minuters 
 
 **besökare**
 
-En besökare är en person som har åtkomst till din webbplats. En besökare utvärderas mot aktivitetskriterier för att avgöra om besökaren ingår i en aktivitet. Se *entré*.
+En besökare är en person som har åtkomst till din webbplats. En besökare utvärderas mot aktivitetskriterier för att avgöra om besökaren ingår i en aktivitet. Se *entrant*.
 
 **Visual Experience Composer**
 
-I Target Standard är det ett WYSIWYG-användargränssnitt som gör att du enkelt kan skapa och testa personaliserade upplevelser och erbjudanden i webbplatskontexten. Du kan skapa upplevelser och erbjudanden för Target-aktiviteter genom att dra och släppa, byta och ändra layouten och innehållet på en webbsida (eller ett erbjudande).
+I Target Standard är det ett WYSIWYG-användargränssnitt där du enkelt kan skapa och testa personaliserade upplevelser och erbjudanden i webbplatskontexten. Du kan skapa upplevelser och erbjudanden för Target-aktiviteter genom att dra och släppa, byta och ändra layouten och innehållet på en webbsida (eller ett erbjudande).
 
 ## B {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 

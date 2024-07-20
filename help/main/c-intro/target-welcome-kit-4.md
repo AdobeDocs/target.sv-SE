@@ -1,6 +1,6 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Läs tips från vår expertpanel om hur du använder Adobe [!DNL Target] som en del av testnings- och personaliseringsarbetet.
+description: Läs tips från vår expertpanel om hur du använder Adobe [!DNL Target]  som en del av dina test- och personaliseringssatsningar.
 title: Var hittar jag tips och tricks för att använda Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # Kapitel 4: Tips för att använda Target
 
-Baserat på vårt arbete med många [!DNL Target] har vi sett hur du kan få ut mer av dina [!DNL Target] lösning. Vi har sammanställt de i de många tipsen vi har tagit med i detta kapitel. Även om du inte är redo att använda alla dessa idéer med en gång, så håll fast vid den här listan. Ju mer man får med lösningen och ju mer programmet mognar desto mer får man se hur dessa tips kan hjälpa er att uppnå mer med [!DNL Target].
+Baserat på vårt arbete med många [!DNL Target] användare har vi observerat sätt att få ut mer av din [!DNL Target]-lösning. Vi har sammanställt de i de många tipsen vi har tagit med i detta kapitel. Även om du inte är redo att använda alla dessa idéer med en gång, så håll fast vid den här listan. Ju mer upplevelse du får av lösningen och ju mer programmet mognar, desto mer kommer du att se hur de här tipsen kan hjälpa dig att uppnå mer med [!DNL Target].
 
 ## Tips 1: Öka personaliseringen genom att utöka besökarprofilen med ytterligare data.
 
-Ni kan personalisera upplevelser med [!DNL Target] data direkt vid leverans. Men personalisera djupare genom att lägga in egna data i mixen. Du kan utöka din profil med historiska data från [!DNL Adobe Analytics] och realtidsdata från [!DNL Adobe Audience Manager]. Du kan också använda kundattribut, en funktion i personbastjänsten i [!DNL Adobe Experience Cloud]för att enkelt överföra CRM-data, data från andra leverantörer och data som köpts från tredje part till [!DNL Target].
+Du kan personalisera upplevelser med [!DNL Target] data direkt när du packar upp dem. Men personalisera djupare genom att lägga in egna data i mixen. Du kan utöka din profil med historiska data från [!DNL Adobe Analytics] och realtidsdata från [!DNL Adobe Audience Manager]. Du kan också använda kundattribut, en funktion i personbastjänsten i [!DNL Adobe Experience Cloud], för att enkelt hämta CRM-data, andra parts partnerdata och data som köpts från tredje part till [!DNL Target].
 
-Du kan till exempel koppla inköpsdata från ditt butikssystem till en besökarprofil. Det gör du genom att skapa en CSV-fil med upp till 200 offlinevariabler och sedan överföra den direkt till [!DNL Adobe Experience Cloud] via en filöverföring, eller använd FTP för att lagra och schemalägga filen så att den uppdateras regelbundet. När kundattributen är inlagda [!DNL Adobe Experience Cloud]kan du mappa dem till [!DNL Experience Cloud] lösningar som [!DNL Adobe Analytics] och [!DNL Target] där de kommer att finnas tillgängliga för analys, testning och personalisering.
+Du kan till exempel koppla inköpsdata från ditt butikssystem till en besökarprofil. Det gör du genom att skapa en CSV-fil med upp till 200 offlinevariabler och antingen överföra den direkt till [!DNL Adobe Experience Cloud] via en filöverföring, eller genom att använda FTP som värd och schemalägga att filen uppdateras regelbundet. När dina kundattribut finns i [!DNL Adobe Experience Cloud] kan du mappa dem till [!DNL Experience Cloud] lösningar som [!DNL Adobe Analytics] och [!DNL Target] där de är tillgängliga för analys, testning och personalisering.
 
-Se [Anpassade attribut](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) för steg-för-steg-instruktioner.
+I [Anpassade attribut](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) finns stegvisa instruktioner.
 
-**Bra att veta**: Därför [!DNL Target] är en öppen och agnostisk plattform som fungerar bra med olika tekniker, och du kan lägga till CRM- eller köpta data på många olika sätt. Det innebär att du kan välja en metod som fungerar bäst för din organisation.
+**Bra att veta**: Eftersom [!DNL Target] är en öppen och agnostisk plattform som fungerar bra med olika tekniker kan du lägga till CRM-data eller inköpt data på många olika sätt. Det innebär att du kan välja en metod som fungerar bäst för din organisation.
 
-Se [Metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} för mer information.
+Mer information finns i [Metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Tips 2: Gör djupare personalisering genom att blanda [!DNL Target] målgrupper med andra Adobe Experience Cloud-målgrupper.
 
-Blanda målgrupper som lever i olika [!DNL Adobe Experience Cloud] -lösningar kan ge er en mycket vidare förståelse för era kunder och även förmågan att personalisera djupare. Till exempel, men [!DNL Target] tillhandahåller målgruppsdata i realtid, [!DNL Adobe Analytics] tillhandahåller historiska målgruppsdata. Genom att kombinera de två kan ni identifiera när en kunds beteende är konsekvent och när det kan finnas en möjlighet att agera på ett nytt beteende. Klicka bara på listrutan bredvid&quot;Alla besökare&quot; när du skapar en aktivitet. Markera sedan rutorna för upp till tjugo målgrupper, klicka på Kombinera flera målgrupper och klicka på Spara.
+Att blanda målgrupper som lever i olika [!DNL Adobe Experience Cloud]-lösningar kan ge er en mycket bredare förståelse för era kunder och möjlighet att personalisera mer ingående. Även om [!DNL Target] tillhandahåller målgruppsdata i realtid, innehåller [!DNL Adobe Analytics] till exempel historiska målgruppsdata. Genom att kombinera de två kan ni identifiera när en kunds beteende är konsekvent och när det kan finnas en möjlighet att agera på ett nytt beteende. Klicka bara på listrutan bredvid&quot;Alla besökare&quot; när du skapar en aktivitet. Markera sedan rutorna för upp till tjugo målgrupper, klicka på Kombinera flera målgrupper och klicka på Spara.
 
-Se [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md) för steg-för-steg-instruktioner.
+Se [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md) för stegvisa instruktioner.
 
-**Bra att veta**: [!DNL Adobe Audience Manager] målgrupper finns i [!DNL Target] automatiskt. Men [!DNL Adobe Analytics] målgruppsdelning kräver lite manuell konfiguration. Markera bara rutan&quot;Make this an Experience Cloud)&quot; under målgruppsprocessen i [!DNL Analytics]. Sedan från [!DNL Target]klickar du på Importera Experience Cloud-målgrupper.
+**Bra att veta**: [!DNL Adobe Audience Manager] målgrupper är automatiskt tillgängliga i [!DNL Target]. Men målgruppsdelning för [!DNL Adobe Analytics] kräver lite manuell konfiguration. Markera bara kryssrutan&quot;Make this an Experience Cloud publik&quot; under målgruppsprocessen i [!DNL Analytics]. Klicka sedan på Importera målgrupper från [!DNL Target].
 
-## Tips 3: Exportera data från [!DNL Target] som du kan använda med verktyg från tredje part.
+## Tips 3: Exportera data från [!DNL Target] som ska användas med verktyg från tredje part.
 
-Med svarstoken kan administratörer enkelt få ut data från [!DNL Target] och till verktyg från tredje part. Detta kan vara praktiskt när du vill lägga till data till data som samlats in med ett undersökningsverktyg. Om en undersökning till exempel visar ett urval av en population som fick upplevelsen &quot;9&quot; och en annan fick upplevelsen &quot;4&quot;, kan du använda dina data för att se vem som fick upplevelsen A och vem som såg upplevelsen B. Du kan också använda svarstoken för att exportera [!DNL Target] till ert interna datalager. Klicka bara på&quot;Administration&quot; och växla sedan till den aktuella positionen bredvid den önskade svarstoken. Skapa sedan en aktivitet. Data kan sedan överföras till tredjepartsleverantören. Du kan verifiera att [!DNL Target] exporterar data med felsökningsverktyg.
+Med svarstoken kan administratörer enkelt hämta data från [!DNL Target] och in i verktyg från tredje part. Detta kan vara praktiskt när du vill lägga till data till data som samlats in med ett undersökningsverktyg. Om en undersökning till exempel visar ett urval av en population som fick upplevelsen &quot;9&quot; och en annan fick upplevelsen &quot;4&quot;, kan du använda dina data för att se vem som fick upplevelsen A och vem som såg upplevelsen B. Du kan också använda svarstoken för att exportera [!DNL Target]-data till ditt interna datalager. Klicka bara på&quot;Administration&quot; och växla sedan till den aktuella positionen bredvid den önskade svarstoken. Skapa sedan en aktivitet. Data kan sedan överföras till tredjepartsleverantören. Du kan verifiera att [!DNL Target] exporterar data med felsökningsverktygen.
 
 Se [Svarstoken](/help/main/administrating-target/response-tokens.md) för steg-för-steg-instruktioner.
 
-**Användbar ledtråd**: Innan en administratör kan aktivera en svarstoken som är associerad med en tredje part måste en utvecklare skapa ett partnerskap med det tredjepartsföretaget.
+**Användbart tips**: Innan en administratör kan aktivera en svarstoken som är associerad med en tredje part måste en utvecklare skapa ett partnerskap med det tredjepartsföretaget.
 
 Se [Svarstoken](/help/main/administrating-target/response-tokens.md) för steg-för-steg-instruktioner.
 
@@ -59,13 +59,13 @@ När du skapar målgrupper för målinriktning eller testning av kampanjer och e
 
 ## Tips 5: Ge användarna den åtkomstnivå de behöver för att utföra sitt jobb.
 
-Gör det enkelt att arbeta med företagets data samtidigt som de är säkra. [!DNL Target Premium] ger administratörer möjlighet att styra åtkomstnivån för olika interna och externa team.
+Gör det enkelt att arbeta med företagets data samtidigt som de är säkra. Med [!DNL Target Premium] kan administratörer styra åtkomstnivån som ges till olika interna och externa team.
 
-Se [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) för mer information.
+Mer information finns i [Företagsanvändarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-**Användbar ledtråd**: När du lägger till användare och namnet på en teammedlem inte har lagts till i organisationen tidigare, vilket kan vara fallet med en tredjepartsanställd, utlöser en e-postinbjudan om att gå med i teamets arbetsyta om du anger deras e-postadress och lösenord.
+**Användbar ledtråd**: Om du lägger till användare och namnet på en teammedlem inte har lagts till tidigare i din organisation, till exempel med en anställd från en annan leverantör, utlöser ett e-postmeddelande om du anger deras e-postadress och lösenord en inbjudan om att gå med i teamets arbetsyta.
 
-Använder du målstandard? Du kan fortfarande [tilldela tre åtkomstnivåer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) för dina användare med skrivskyddade roller, redigeringsroller och godkännarroller!
+Använda Target Standard? Du kan fortfarande [tilldela tre åtkomstnivåer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) till dina användare med skrivskyddade roller, redigeringsroller och godkännarroller!
 
 ## Tips 6: Upptäck hur ett erbjudande fungerar under en kundresa genom att testa det på alla sidor i resan.
 
@@ -73,25 +73,25 @@ Se hur ett erbjudande, till exempel fri frakt, fungerar under en kundresa som ä
 
 Se [Flersidig aktivitet](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) för steg-för-steg-instruktioner.
 
-**Användbar ledtråd**: Om du ändrar URL:en efter att du har angett ett sidintervall återställs upplevelsen. Det innebär att de angivna variationerna inte visas längre. Kom ihåg att definiera om upplevelsen om du behöver ändra URL-adressen.
+**Användbart tips**: Om du ändrar URL:en efter att du har angett ett sidintervall återställs upplevelsen. Det innebär att de angivna variationerna inte visas längre. Kom ihåg att definiera om upplevelsen om du behöver ändra URL-adressen.
 
 ## Tips 7: Testa ett erbjudande med olika målgrupper och se om målgrupperna har olika preferenser.
 
 Med Experience Versions kan ni göra ett test med variationer för så många målgrupper ni vill. Du kan t.ex. skapa en banner-annons som erbjuder fri frakt - med bild- och valutavariationer för kunder i USA, Storbritannien och USA - utan att behöva göra tester för tre olika målgrupper.
 
-Se [Målgrupper med olika upplevelser i ett A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) och [Upplevelseversioner i Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) för steg-för-steg-instruktioner.
+Se efter [flera olika upplevelsemålgrupper i ett A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) och [Experience-versioner i Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) om du vill ha stegvisa instruktioner.
 
 ## Tips 8: Spara tid genom att replikera aktivitetsupplevelser på liknande sidor.
 
 Skapa en variant på en webbsida, till exempel en ny knappfärg, och tillämpa den automatiskt på alla sidor som delar samma mall. Du kan ange sidor eller använda variationerna på alla liknande sidor på webbplatsen.
 
-Se [Inkludera samma upplevelse på liknande sidor](/help/main/c-experiences/c-visual-experience-composer/temtest.md) för steg-för-steg-instruktioner.
+Se [Inkludera samma upplevelse på liknande sidor](/help/main/c-experiences/c-visual-experience-composer/temtest.md) om du vill ha stegvisa instruktioner.
 
 ## Tips 9: Minska störningen i målgruppsbiblioteket genom att skapa engångspubliker.
 
 Om ni riktar in er på ett segment som ni vet inte riktar in er på igen - till exempel kunder som drabbats av ett oväntat väderläge - kan ni få jobbet gjort utan att ni behöver lära er mer om målgruppsbiblioteket. Det gör det enklare att hitta målgrupper som du använder om och om igen.
 
-Se [Skapa en målgrupp som bara är aktiv](/help/main/c-target/creating-activity-only-audience.md) för steg-för-steg-instruktioner.
+Mer stegvisa instruktioner finns i [Skapa en målgrupp som bara innehåller aktiviteter](/help/main/c-target/creating-activity-only-audience.md).
 
 **Mycket efterfrågad funktion**: Våra kunder bad oss att göra det möjligt att förhindra att enstaka målgrupper sparas automatiskt i målgruppsbiblioteket. Nu behöver de inte längre ta bort målgrupper manuellt för att hålla sina bibliotek organiserade.
 
@@ -99,7 +99,7 @@ Se [Skapa en målgrupp som bara är aktiv](/help/main/c-target/creating-activity
 
 Det finns inget värre än att ha en aktivitet redo att gå och sedan vänta veckor på att den ska slutföra den vanliga kvalitetssäkringsprocessen. Du kan använda QA-funktioner i de flesta fall genom att bara skicka runt några QA-länkar till kollegor och testa dem i olika webbläsare. Du kommer troligen att vilja göra fler kvalitetstester för att få saker som förändrar webbplatsens funktion dramatiskt, men i verkligheten bör du ha färre av dessa aktiviteter och mycket mer av de mer grundläggande aktiviteterna. Genom att lägga till bättre behörighetskontroller så att färre personer kan ge liv åt saker och ting får du också meningsfulla begränsningar och kan uppnå det du behöver utan att offra hastighet och effektivitet. Ett annat alternativ är att ha en utsedd IT-resurs för att ge snabb överblick över QA-processen.
 
-Se [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) för steg-för-steg-instruktioner.
+Se [Aktivitets-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) om du vill ha stegvisa instruktioner.
 
 ## Tips 11: Kör tester på sidor med hög trafik så att de blir statistiskt signifikanta snabbare.
 
@@ -109,7 +109,7 @@ Många marknadsförare lanserar optimeringsprogram för målgruppssegmentering o
 * Vilken konverteringsgrad har sidan?
 * Hur länge tror du att du behöver köra testet innan du kan kalla det fullständigt?
 
-**Användbar tips**: Använd [!DNL Adobe Target] [Beräkna samplingsstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för att avgöra vilken provstorlek som krävs för ett lyckat test.
+**Användbar tips**: Använd [!DNL Adobe Target] [Beräkna provstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för att avgöra vilken provstorlek som krävs för ett lyckat test.
 
 ## Tips 12: Designa enklare tester för att vara säker på att du kan skapa och implementera dem.
 
@@ -125,7 +125,7 @@ I stället för att utveckla ett stort test med flera variabler och komplex utve
 
 Testning så nära sidan där besökarna klickar på Complete Purchase, Submit Application eller på annat sätt slutför en konvertering tenderar att ge mest effektiva resultat. Besökare som kommer till slutet av processen är mer kvalificerade, har investerat mer tid och är redo att köpa, så att ni kan testa insikter om deras preferenser och åtgärder och göra lönsamma ändringar. Eftersom sidorna på köpbanan är avgörande för konverteringsgraden, bör testerna som utförs på dessa sidor integreras med viktiga intressenter innan de distribueras.
 
-![Illustration av konverteringsprocessen](/help/main/c-intro/assets/conversion-funnel.png)
+![Bild på konverteringstratten](/help/main/c-intro/assets/conversion-funnel.png)
 
 ## Tips 15: Uppdatera testerna kontinuerligt och gör iterativa förbättringar.
 

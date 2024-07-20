@@ -1,34 +1,34 @@
 ---
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;entitetsattributmatchning
-description: Lär dig filtrera dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra en pool med möjliga objekt med ett specifikt objekt som användaren har interagerat med.
+description: Lär dig hur du filtrerar dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra en pool med potentiella objekt med ett specifikt objekt som användaren har interagerat med.
 title: Hur filtrerar jag efter entitetsattributmatchning i Recommendations-aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
 # Matchande entitetsattribut
 
-Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra en pool med möjliga rekommendationsobjekt med ett specifikt objekt som användaren har interagerat med.
+Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användaren har interagerat med.
 
 >[!NOTE]
 >
->The [process för att skapa och använda inkluderingsregler](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) för villkor och kampanjer är lika, liksom för användningsexempel och exempel.
+>Processen [för att skapa och använda inkluderingsregler](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) för villkor och kampanjer är liknande, liksom användningsexempel och exempel.
 
 Rekommendera till exempel endast objekt som matchar det aktuella objektets varumärke som i följande exempel:
 
-Om rutan på en varumärkesstartsida returneras `entity.brand=brandA`, returneras och visas endast produkter av typen Brand A på den sidan. På samma sätt returneras endast produkter av typen Varumärkeslandning för Varumärke B. Med den här typen av regel för dynamisk inkludering behöver användaren bara ange en rekommendationsregel som returnerar relevanta varumärkesresultat på alla varumärkessidor i stället för att ange en samling eller ett statiskt filter som matchar varje varumärkesnamn.
+Om mbox på en varumärkeslandningssida returnerar `entity.brand=brandA` returneras endast produkter av typen Brand A och visas på den sidan. På samma sätt returneras endast produkter av typen Varumärkeslandning för Varumärke B. Med den här typen av regel för dynamisk inkludering behöver användaren bara ange en rekommendationsregel som returnerar relevanta varumärkesresultat på alla varumärkessidor i stället för att ange en samling eller ett statiskt filter som matchar varje varumärkesnamn.
 
-Observera att du måste leverera `entity.brand` i rutan på landningssidorna för att detta ska fungera.
+Observera att du måste leverera `entity.brand` i mbox på de landningssidorna för att detta ska fungera.
 
 ## Exempel på matchning av enhetsattribut
 
-[!UICONTROL Entity Attribute Matching] I kan du bara rekommendera de objekt som matchar, till exempel:
+I [!UICONTROL Entity Attribute Matching] kan du bara rekommendera de objekt som matchar, till exempel:
 
 * Ett attribut från det objekt som användaren för närvarande visar
 * Det objekt som användaren senast visade
@@ -42,17 +42,17 @@ När entitetsattributreglerna har skapats filtrerar de bort alla rekommendatione
 
 I följande exempel visas rekommendationer för att matcha produktvarumärket som visas på sidan:
 
-När du besöker en sida som innehåller en produkt av typen Varumärke A anger sidan värdet för `entity.brand` parametern till &quot;BrandA&quot;.
+När du besöker en sida som innehåller en produkt av typen Varumärke A, ställer sidan in värdet för parametern `entity.brand` till &quot;VarumärkeA&quot;.
 
-![Exempel på Target-anrop](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
+![Exempel på målanrop](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
 
 I rekommendationerna på sidan visas endast produkter från varumärket A.
 
-![Rekommendationer för varumärke A](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
+![Varumärke A rekommendationer](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
-Om du sedan visar en produktsida för varumärket B, `entity.brand` värdet återställs till &quot;BrandB&quot; och du ser vilka produkter av Brand B som rekommenderas på produktsidorna för Brand B.
+Om du sedan visar en produktsida för varumärke B återställs värdet `entity.brand` till&quot;varumärkeB&quot; och du ser vilka produkter för varumärket B som rekommenderas på produktsidorna för varumärket B.
 
-![Rekommendationer för varumärke B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
+![Varumärkesrekommendationer B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Merförsäljning av en dyrare produkt
 

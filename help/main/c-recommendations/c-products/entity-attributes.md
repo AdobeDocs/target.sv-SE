@@ -1,13 +1,13 @@
 ---
 keywords: entitet;entitetsattribut;skicka information till Recommendations;beteendedata;dataräknare;definiera relativ URL;visa lagernivå;definiera pris;definiera vinstmarginal;anpassade attribut
-description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till [!DNL Target] Recommendations.
+description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till  [!DNL Target] Recommendations.
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,16 @@ Enheter refererar till de objekt som du vill rekommendera. Exempel på organisat
 
 Tänk på följande:
 
-* `entity.id` måste matcha `productPurchasedId` skickas till orderbekräftelsesidan och `productId` används i [!DNL Adobe Analytics] produktrapporter.
+* `entity.id` måste matcha det `productPurchasedId` som skickas till orderbekräftelsesidan och det `productId` som används i [!DNL Adobe Analytics] produktrapporter.
 * Entitetsattributvärden som du skickar till [!DNL Recommendations] upphör att gälla efter 61 dagar. Adobe rekommenderar att du skickar det senaste värdet för varje entitetsattribut till [!DNL Recommendations] minst en gång i månaden för varje objekt i katalogen.
 
-De flesta fördefinierade parametrar accepterar endast ett värde, med nya värden som skriver över gamla värden. The `categoryId` parametern kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nytt `categoryId` värden skriver inte över befintliga värden, utan läggs i stället till under entitetsuppdatering (högst 250 tecken).
+De flesta fördefinierade parametrar accepterar endast ett värde, med nya värden som skriver över gamla värden. Parametern `categoryId` kan acceptera en kommaavgränsad lista med värden för varje kategori som innehåller den produkten. Nya `categoryId`-värden skriver inte över befintliga värden, utan läggs till under entitetsuppdateringen (högst 250 tecken).
 
 I allmänhet ser visningsinformationsrutan ut som i följande exempel om du använder at.js 1.*x* med `mboxCreate`. Alla entitetsparameterattribut är skiftlägeskänsliga.
 
 >[!NOTE]
 >
->Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använda [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Om du vill skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använd [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Se till exempel [Planera och implementera Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -65,7 +65,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->Relativa URL-adresser rekommenderas för `pageUrl` och `thumbnailUrl` i stället för absoluta URL:er eftersom rekommendationer tar emot data från alla miljöer på din plats. Genom att använda relativa URL-adresser undviker du hårdkodade länkar till en mellanlagrings- eller utvecklingsserver.
+>Relativa URL:er rekommenderas för `pageUrl` och `thumbnailUrl` i stället för absoluta URL:er eftersom rekommendationer tar emot data från alla miljöer på webbplatsen. Genom att använda relativa URL-adresser undviker du hårdkodade länkar till en mellanlagrings- eller utvecklingsserver.
 
 Om mbox finns på en produktsida kan du inkludera både produkt-ID och kategori-ID. Den valda algoritmen avgör vilka som visas. Produkt-ID används för tillhörighetsalgoritmer och kategori-ID används för kategorialgoritmer.
 
@@ -77,9 +77,9 @@ I följande lista beskrivs de tillgängliga variablerna.
 
 Endast ett värde.
 
-Den här obligatoriska parametern identifierar produkten. Detta alfanumeriska ID måste vara detsamma för alla [!DNL Adobe Experience Cloud] produkter som används, inklusive [!DNL Analytics], för de olika produkterna för att identifiera artikeln och dela data om den.
+Den här obligatoriska parametern identifierar produkten. Detta alfanumeriska ID måste vara samma för alla [!DNL Adobe Experience Cloud]-produkter som används, inklusive [!DNL Analytics], för att de olika produkterna ska kunna identifiera objektet och dela data om det.
 
-The `entity.id` värden måste *not* innehåller mellanslag, snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck tillåts. Inkludera ogiltig interpunktion i en `entity.id` värde orsakar vissa [!DNL Recommendations] funktioner som ska misslyckas.
+`entity.id`-värdena får *inte* innehålla mellanslag, snedstreck, et-tecken, frågetecken, procentsymboler, kommatecken eller andra skiljetecken som kräver URL-kodning när de skickas i ett REST API-anrop. Bindestreck och understreck tillåts. Om ogiltig interpunktion ingår i ett `entity.id`-värde misslyckas vissa [!DNL Recommendations]-funktioner.
 
 Exempel: `'entity.id=67833'`
 
@@ -97,17 +97,17 @@ Stöder flera värden (kommaavgränsad lista).
 
 Den aktuella sidans kategori. Entity.categoryID kan innehålla flera kategorier, t.ex. underavsnittet cardigans (t.ex. `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Flera kategorier måste avgränsas med kommatecken.
 
-The `categoryId` värdet är begränsat till 250 tecken.
+Värdet `categoryId` får innehålla högst 250 tecken.
 
 >[!NOTE]
 >
->Visa en rekommendation baserad på en kategori i en [!UICONTROL Category] sida, endast en `categoryId` kan skickas till den mbox som används för att visa den aktuella rekommendationen. Värdet för `categoryId` måste matcha exakt värdet för `entity.categoryId` som [!UICONTROL Product Detail] sida.
+>Om du vill visa en rekommendation baserad på en kategori på en [!UICONTROL Category]-sida kan bara en `categoryId` skickas till mbox som används för att visa den aktuella rekommendationen. Värdet för `categoryId` måste matcha exakt värdet för `entity.categoryId` som skickats på sidan [!UICONTROL Product Detail].
 
 Exempel:
 
-* Exempel på informationssida: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
-* Exempel: Kategorisidomatare: `womens:sweaters`
-* Exempel: Kategorisidnumrering: `womens:sweaters:cardigans`
+* Exempel på produktinformationssida: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Exempel på kategorisidomatare: `womens:sweaters`
+* Exempel på sidnumrering för kategori: `womens:sweaters:cardigans`
 
 För kategoribaserade rekommendationer avgränsar ett kommatecken kategorivärdet. Alla värden som avgränsas med kommatecken blir kategorier. Du kan också definiera underkategorier genom att använda en annan avgränsare, t.ex. ett kolon (:), för att skilja underkategorier inom kategorivärdet.
 
@@ -159,11 +159,11 @@ Visar artikelns lagernivå.
 
 Exempel: `'entity.inventory=1'`
 
-**Tom attributhantering för lager:** För leverans, om du har en inkluderingsregel, samlingsregel eller kriterieinställning med `entity.inventory` > 0 eller `entity.inventory` = 0 och produkten har inget lager angivet, [!DNL Target] utvärderar det här värdet till TRUE och inkluderar produkter där lagret inte är inställt. Detta resulterar i att produkter med lager som inte är inställda visas i rekommendationsresultat.
+**Tom attributhantering för lager:** Om du har en inkluderingsregel, samlingsregel eller kriterieinställning med `entity.inventory` > 0 eller `entity.inventory` = 0 och produkten inte har angett något lager utvärderar [!DNL Target] det här värdet till TRUE och inkluderar produkter där lagret inte har angetts. Detta resulterar i att produkter med lager som inte är inställda visas i rekommendationsresultat.
 
-Om du har en global exkluderingsregel med `entity.inventory` = 0 och `entity.inventory` är inte inställd, [!DNL Target] utvärderar den här regeln till TRUE och utesluter produkten.
+Om du har en global exkluderingsregel med `entity.inventory` = 0 och `entity.inventory` inte har angetts utvärderar [!DNL Target] den här regeln till TRUE och utesluter produkten.
 
-**Känt fel:** Produktsökningen är inkonsekvent med leveransen för lagervärdesattribut som inte har angetts. Till exempel för en regel med `entity.inventory` = 0, Produktsökning visar inte produkter där lagervärdet inte har angetts.
+**Känt fel:** Produktsökning är inkonsekvent med leverans för lagervärdesattribut som inte har angetts. För en regel med `entity.inventory` = 0 visar produktsökningen inte produkter där lagervärdet inte har angetts.
 
 ### entity.value
 

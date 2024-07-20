@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Besökarprofiler
 
-Besökarprofiler i [!DNL Adobe Target] innehåller information om hur besökarna använder era sidor och andra optimerade innehållsplatser.
+Besöksprofiler i [!DNL Adobe Target] innehåller information om hur besökarna använder dina sidor och andra optimerade innehållsplatser.
 
-If [!DNL Target] används med andra [!DNL Adobe Experience Cloud] lösningar, som [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] delar besökarinformation mellan olika lösningar.
+Om [!DNL Target] används med andra [!DNL Adobe Experience Cloud]-lösningar, till exempel [!DNL Adobe Analytics], delar [!DNL Experience Cloud Audiences] besökarinformation mellan olika lösningar.
 
-Som standard [!DNL Target] profilinformation lagras i en enda cookie från en annan leverantör. Konfigurationen kan enkelt ändras för att även hantera cookies från tredje part.
+Som standard lagras profilinformation för [!DNL Target] i en cookie från en annan leverantör. Konfigurationen kan enkelt ändras för att även hantera cookies från tredje part.
 
 Följande avsnitt innehåller mer information:
 

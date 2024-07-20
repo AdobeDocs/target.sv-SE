@@ -13,38 +13,38 @@ ht-degree: 0%
 
 # Create JSON offers
 
-Skapa JSON-erbjudanden i [!UICONTROL Offer Library] in [!DNL Adobe Target] för användning i [!UICONTROL Form-Based Experience Composer].
+Skapa JSON-erbjudanden i [!UICONTROL Offer Library] i [!DNL Adobe Target] för användning i [!UICONTROL Form-Based Experience Composer].
 
-JSON-erbjudanden kan användas i formulärbaserade aktiviteter för att möjliggöra användningsfall där [!DNL Target] Du måste fatta beslut för att skicka ett erbjudande i JSON-format för konsumtion i SPA ramverk eller serverintegreringar.
+JSON-erbjudanden kan användas i formulärbaserade aktiviteter för att aktivera användningsfall där [!DNL Target] måste fatta beslut för att skicka ett erbjudande i JSON-format för konsumtion i SPA ramverk eller serverbaserade integreringar.
 
 ## JSON-överväganden
 
 Tänk på följande när du arbetar med JSON:
 
-* JSON-erbjudanden är för närvarande bara tillgängliga för [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
-* JSON-erbjudanden kan användas i [blankettbaserad verksamhet](/help/main/c-experiences/form-experience-composer.md) endast.
+* JSON-erbjudanden är för närvarande bara tillgängliga för [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization]- (AP) och [!UICONTROL Experience Targeting] (XT)-aktiviteter.
+* JSON-erbjudanden kan endast användas i [formulärbaserade aktiviteter](/help/main/c-experiences/form-experience-composer.md).
 * JSON-erbjudanden kan hämtas direkt när du använder [API:er på serversidan och Mobile Node.js, Java, .NET och Python SDK:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* I webbläsaren kan JSON-erbjudanden bara hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} genom att filtrera funktionsmakron med `setJson` åtgärd.
+* I webbläsaren kan JSON-erbjudanden bara hämtas via at.js 1.2.3 (eller senare) och med [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} genom att filtrera åtgärder med åtgärden `setJson`.
 * JSON-erbjudanden levereras som systemspecifika JSON-objekt i stället för som strängar. Konsumenter av dessa objekt behöver inte längre hantera objekt som strängar och konvertera dem till JSON-objekt.
-* JSON-erbjudanden tillämpas inte automatiskt i motsats till andra erbjudanden (till exempel erbjudanden från HTML) eftersom JSON-erbjudanden är icke-visuella erbjudanden. Utvecklare måste skriva kod för att explicit få erbjudandet med [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* JSON-erbjudanden tillämpas inte automatiskt i motsats till andra erbjudanden (till exempel erbjudanden från HTML) eftersom JSON-erbjudanden är icke-visuella erbjudanden. Utvecklare måste skriva kod för att uttryckligen få erbjudandet med [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## Skapa ett JSON-erbjudande {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Klicka **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
    ![Erbjudanden > fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. Klicka **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
-   ![offer-json image](assets/offer-json.png)
+   ![offer-json-bild](assets/offer-json.png)
 
 1. Skriv ett erbjudandenamn.
-1. Skriv eller klistra in JSON-koden i **[!UICONTROL Code]** box.
+1. Skriv eller klistra in JSON-koden i rutan **[!UICONTROL Code]**.
 1. Klicka på **[!UICONTROL Save]**.
 
 ## JSON-exempel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON-erbjudanden stöds endast i aktiviteter som skapats med [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). För närvarande är det enda sättet att kunna använda JSON-erbjudanden via direkta API-/SDK-anrop.
+JSON-erbjudanden stöds endast i aktiviteter som skapats med [formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). För närvarande är det enda sättet att kunna använda JSON-erbjudanden via direkta API-/SDK-anrop.
 
 Här är ett exempel:
 
@@ -81,7 +81,7 @@ Arrayen actions har följande struktur:
 ]
 ```
 
-Om du vill extrahera JSON-erbjudandet itererar du genom åtgärder och hittar åtgärden med `setJson` och iterera sedan genom content-arrayen.
+Om du vill extrahera JSON-erbjudandet itererar du genom åtgärder och söker efter åtgärden med åtgärden `setJson`, och itererar sedan genom innehållsarrayen.
 
 ## Använd skiftläge {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -135,10 +135,10 @@ adobe.target.getOffer({
 
 CDP-profilattribut i realtid kan delas med [!DNL Target] för användning i HTML och JSON.
 
-Mer information finns i [Dela CDP-profilattribut i realtid med [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
+Mer information finns i [Dela CDP-profilattribut i realtid med  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Filtrera erbjudanden efter erbjudandetypen JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Du kan filtrera [!UICONTROL Offers] biblioteket efter erbjudandetypen för JSON genom att klicka på **[!UICONTROL Type]** nedrullningsbar lista genom att välja **[!UICONTROL JSON]** kryssrutan.
+Du kan filtrera biblioteket [!UICONTROL Offers] med JSON-erbjudandetypen genom att klicka på listrutan **[!UICONTROL Type]** och sedan markera kryssrutan **[!UICONTROL JSON]**.
 
-![offer-json-filter, bild](assets/offer-json-filter.png)
+![offer-json-filterbild](assets/offer-json-filter.png)

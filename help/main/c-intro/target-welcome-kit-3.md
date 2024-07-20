@@ -1,12 +1,12 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
 description: Lär dig sex steg som beskriver en beprövad process för att förbättra dina idéer om testning och personalisering innan du skapar aktiviteter i Adobe Target.
-title: Hur kan jag utveckla mina test- och personaliseringsideer?
+title: Hur utvecklar jag mina testnings- och Personalization-idéer?
 feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 För den första aktiviteten kan du testa något superenkelt som att ändra färg eller kopiera på en åtgärdsknapp. Bara för att bli blöt. På lång sikt kommer ni dock att vilja skapa en formell, upprepningsbar process för att komma fram till idéer för testning och personalisering som hjälper er att utveckla ert optimerings- och personaliseringsprogram. I följande sex steg beskrivs en beprövad process för att göra just det, tillsammans med information om vad du ska göra i varje steg.
 
-![Interaktivt genomförande av strategidiagram för optimering och personalisering](/help/main/c-intro/assets/six-steps.png)
+![Interaktivt utförande av optimering och Personalization strategidiagram](/help/main/c-intro/assets/six-steps.png)
 
-## Steg 1: Strategize
+## Steg 1: Strategiera
 
 Identifiera möjligheter för aktiviteter som är anpassade till affärsmålen.
 
 Gör detta genom att:
 
-* Brainstorming potential [!DNL Target] aktiviteter baserade på webbplatsens resultatdata, konkurrentanalys och tidigare testresultat.
+* Brainstorming potential [!DNL Target] aktiviteter based on site performance data, Competitor analysis, and last test results.
 * Utveckla idéer för aktiviteter för granskning, feedback och godkännande.
 
 Du kan till exempel leta efter en sida på webbplatsen med hög avhoppsfrekvens, fundera över vad som kan orsaka problemet och brainstorma sätt att minska avhoppsfrekvensen.
@@ -48,13 +48,13 @@ Gör detta genom att:
 
 * Slutför aktivitetspostkriterier och mått som krävs för att fastställa aktivitetens prestanda.
 * Fylla i och godkänna färdiga designer för aktivitetsupplevelser.
-* Dokumentationskrav för [!DNL Target] aktivitet, inklusive kriterier för testregistrering, rapportvärden och upplevelseförändringar.
+* Dokumentationskrav för aktiviteten [!DNL Target], inklusive kriterier för testregistrering, rapporteringsmått och upplevelseändringar.
 
-Använd aktivitetsplaneraren, som finns med senare i välkomstpaketet, för att dokumentera aktivitetens detaljer, inklusive de mått du kommer att använda för att mäta aktivitetsprestanda, t.ex. klick på en åtgärdsknapp, videostarter eller genererade intäkter. Ta med skärmbilder eller bilder av de upplevelsedesigner du tänker testa eller personalisera.
+Använd aktivitetsplaneraren, som finns senare i välkomstpaketet, för att dokumentera aktivitetens detaljer, inklusive de mätvärden du ska använda för att mäta aktivitetsprestanda, till exempel klick på en åtgärdsknapp, videostarter eller genererade intäkter. Ta med skärmbilder eller bilder av de upplevelsedesigner du tänker testa eller personalisera.
 
-## Steg 4: Bygg och kör
+## Steg 4: Skapa och kör
 
-Bygg och kör aktiviteten i [!DNL Target], utveckla kod om det behövs, utföra kvalitetstestning och starta aktiviteten.
+Bygg och kör aktiviteten inom [!DNL Target], utveckla kod om det behövs, genomför QA-testning och starta aktiviteten.
 
 Gör detta genom att:
 
@@ -62,7 +62,7 @@ Gör detta genom att:
 * Säkra signering från alla intressenter som behövs.
 * Starta aktiviteten och granska mätvärden en timme, vid 24 timmar och periodvis under aktivitetens varaktighet.
 
-Om du till exempel vill rikta in dig på nya besökare med ett ljuslådeerbjudande som ger 10 % rabatt på deras första beställning, får dina kreatörer att ta fram ljuslådedesign och -text, få en signering från intressenter på designen, låta utvecklarna skriva koden för den, köra QA i en testmiljö och sedan starta aktiviteten. Därefter övervakar du aktiviteten för att vara säker på att den inte orsakar någon större negativ påverkan.
+Om du till exempel vill rikta in dig på nya besökare med ett ljuslådeerbjudande som ger 10 % rabatt på deras första beställning, får dina kreatörer att ta fram ljuslådedesign och -text, få en signering från intressenter på designen, låta utvecklarna skriva koden för den, köra QA i en testmiljö och sedan starta din aktivitet. Därefter övervakar du aktiviteten för att vara säker på att den inte orsakar någon större negativ påverkan.
 
 ## Steg 5: Analysera
 
@@ -86,4 +86,4 @@ Gör detta genom att:
 * Godkänna intressenter som verkställer aktivitetsrekommendationer.
 * Definiera och genomföra planen för att implementera den vinnande upplevelsen.
 
-Om ljuslådeaktiviteten till exempel lyckades öka förstagångsköp av besökare kanske du vill fortsätta med den här aktiviteten. Var noga med att förmedla det värde som testet gav upphov till till intressenter och chefer med den mall för sammanfattning av ledningen som ingår i välkomstpaketet. Och fundera över hur ni kan återanvända detta lärande; kanske ni kan inrikta er på förstagångsköparna med ett andra erbjudande för att få ut mer av varje kund.
+Om ljuslådeaktiviteten till exempel lyckades öka förstagångsköp av besökare kanske du vill fortsätta med den här aktiviteten. Var noga med att förmedla det värde som testet gav upphov till till intressenter och chefer med den mall för sammanfattning av ledningen som ingår i välkomstpaketet. Och tänk på hur ni kan återanvända den här inlärningen. Kanske kan ni rikta in er på förstagångsköpare med ett andra erbjudande för att få mer värde från varje kund.

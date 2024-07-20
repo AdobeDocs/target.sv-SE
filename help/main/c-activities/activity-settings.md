@@ -6,34 +6,34 @@ feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Aktivitetsinställningar
 
-Använd [!UICONTROL Activity Settings] in [!DNL Adobe Target] för att hantera mål, prioritet och varaktighet för dina aktiviteter.
+Använd [!UICONTROL Activity Settings] i [!DNL Adobe Target] för att hantera mål, prioritet och varaktighet för dina aktiviteter.
 
 1. Skriv anteckningar om aktivitetens mål.
 
-   Skriv in information om din aktivitet som är användbar för dig själv eller andra teammedlemmar. Dra för att ändra storlek på [!UICONTROL Objective] fält.
+   Skriv in information om din aktivitet som är användbar för dig själv eller andra teammedlemmar. Dra för att ändra storlek på fältet [!UICONTROL Objective].
 1. Ange aktivitetsprioritet.
 
-   Beroende på dina inställningar kan användargränssnittet och alternativen för [!UICONTROL Priority] varierar. Du kan använda de äldre inställningarna Låg, Medel eller Hög, eller aktivera finkorniga prioriteringar mellan 0 och 999.
+   Beroende på dina inställningar varierar gränssnittet och alternativen för [!UICONTROL Priority]. Du kan använda de äldre inställningarna Låg, Medium eller Hög, eller aktivera finjusterade prioriteringar mellan 0 och 999.
 
    Prioriteten används om flera aktiviteter tilldelas till samma plats med samma målgrupp. Om två eller flera aktiviteter har tilldelats platsen visas aktiviteten med den högsta prioriteten.
 
-   Om det här alternativet inte är aktiverat i [!UICONTROL Administration] > [!UICONTROL Reporting] (standard), ange en prioritet: Låg, Medel eller Hög.
+   Om det här alternativet inte är aktiverat i [!UICONTROL Administration] > [!UICONTROL Reporting] (standard) anger du en prioritet: Låg, Medium eller Hög.
 
-   Om du vill aktivera detaljerade prioriteringar klickar du på [!UICONTROL Administration] > [!UICONTROL Reporting]och sedan växla [!UICONTROL Enable Fine-Grained Priorities] till På-positionen.
+   Om du vill aktivera finkorniga prioriteringar klickar du på [!UICONTROL Administration] > [!UICONTROL Reporting] och växlar sedan alternativet [!UICONTROL Enable Fine-Grained Priorities] till På-positionen.
 
    Om det här alternativet är aktiverat anger du ett värde mellan 0 och 999:
 
    * 0 = Låg
    * 999 = Hög
 
-   För aktiviteter som skapats i tidigare versioner av [!DNL Target Standard/Premium], Låg prioritet konverteras till 0, Medel konverteras till 5 och Hög konverteras till 10. Du kan justera dessa värden om det behövs.
+   För aktiviteter som skapats i tidigare versioner av [!DNL Target Standard/Premium] konverteras låg prioritet till 0, Medium konverteras till 5 och Hög konverteras till 10. Du kan justera dessa värden om det behövs.
 
    >[!NOTE]
    >
@@ -45,17 +45,17 @@ Använd [!UICONTROL Activity Settings] in [!DNL Adobe Target] för att hantera m
 
    >[!NOTE]
    >
-   >Schemaläggning av en aktivitet styr aktivitetens leveranstid. Aktiviteten måste dock aktiveras explicit innan den kan levereras enligt angivet schema.
+   >Schemaläggning av en aktivitet styr leveranstidsramen för aktiviteten, men aktiviteten måste aktiveras explicit innan den kan levereras enligt angivet schema.
 
-The [!UICONTROL Goal & Settings] sidan innehåller ytterligare inställningar som varierar beroende på vilken typ av aktivitet du skapar. Mer information om de här inställningarna finns i din aktivitetstyp:
+Sidan [!UICONTROL Goal & Settings] innehåller ytterligare inställningar som varierar beroende på vilken typ av aktivitet du skapar. Mer information om de här inställningarna finns i din aktivitetstyp:
 
 * [A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
 * [Experience Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Multivariata tester](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Multivariattest](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Utbildningsvideo: Aktivitetsinställningar ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Aktivitetsinställningar ![Självstudiekurs](/help/main/assets/tutorial.png)
 
 Den här videon innehåller information om aktivitetsinställningar.
 
@@ -65,4 +65,4 @@ Den här videon innehåller information om aktivitetsinställningar.
 * Lägg till målgrupper för rapportering för att skapa rapportfilter
 * Ange anteckningar för dina aktiviteter
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

@@ -6,30 +6,30 @@ feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2402'
 ht-degree: 0%
 
 ---
 
 # Bästa praxis och begränsningar för Visual Experience Composer
 
-Med hjälp av bästa praxis kan ni få era upplevelser att fungera som förväntat. Det finns även andra tips och begränsningar som du bör vara medveten om när du använder Visual Experience Composer (VEC) i [!DNL Adobe Target].
+Med hjälp av bästa praxis kan ni få era upplevelser att fungera som förväntat. Det finns även andra tips och begränsningar som du bör känna till när du använder Visual Experience Composer (VEC) i [!DNL Adobe Target].
 
 Genom att följa dessa standarder är det mindre troligt att du får oväntade problem med de upplevelser du designar.
 
 ## Bästa praxis {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Placera at.js-referensen högst upp i `<head>` på sidan.**
+**Placera referensen at.js högst upp i avsnittet `<head>` på sidan.**
 
 Om du även använder Visitor API-tjänsten placerar du besökar-API-skriptet ovanför at.js.
 
 **Du kan aktivera Förbättrad Experience Composer på kontonivå (aktiverat för alla aktiviteter som skapas i kontot) eller på den enskilda aktivitetsnivån.**
 
-Om du vill aktivera Förbättrad Experience Composer på kontonivån klickar du på [!UICONTROL Administration > Visual Experience Composer]och växla sedan till På-position.
+Om du vill aktivera Förbättrad Experience Composer på kontonivån klickar du på [!UICONTROL Administration > Visual Experience Composer] och växlar sedan till På-position.
 
-Om du vill aktivera Förbättrad Experience Composer på aktivitetsnivå när du skapar en aktivitet i Visual Experience Composer klickar du på [!UICONTROL Configure > URL]och växla sedan till På-position.
+Om du vill aktivera Förbättrad Experience Composer på aktivitetsnivå när du skapar en aktivitet i Visual Experience Composer klickar du på [!UICONTROL Configure > URL] och växlar sedan till På-position.
 
-**Du kan tillåtslista vissa IP-adresser om Förbättrad Visual Experience Composer inte läses in på säkra sidor på din webbplats.**
+**Du kan tillåtslista vissa IP-adresser om den utökade Visual Experience Composer inte kan läsas in på säkra sidor på din webbplats.**
 
 Problem med att läsa in den utökade Visual Experience Composer kan lösas genom att du tillåtslista följande IP-adresser. De här IP-adresserna är för Adobe-servern som används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på webbplatsen behöver inte tillåtslista dessa IP-adresser.
 
@@ -39,17 +39,17 @@ Europa, Mellanöstern och Afrika (EMEA): 52.51.238.221, 52.210.199.44 och 54.72.
 
 Asien-Stillahavsområdet (APAC): 52.193.67.35, 54.199.198.109 och 54.199.241.57
 
-**Använd unika ID:n för element på den översta nivån och andra element som kan vara bra test-/målinriktningssökande.**
+**Använd unika ID:n för element på den översta nivån och andra element som kan vara bra test-/målkandidater.**
 
 Allt som finns omedelbart inuti body-elementet ska ha ett unikt ID. Om nya element infogas i brödtexten och koden flyttas runt, är det lättare att identifiera åtminstone de överordnade elementen.
 
-Adobe Target behöver inga ID, men om du använder ID:n blir upplevelserna som skapas med upplevelsedispositionen tillförlitligare. Target använder CSS-väljare för att ändra innehållet när upplevelsen levereras. När du redigerar en upplevelse fäster Visual Experience Composer väljaren till det närmaste överordnade objektet med ett id-attribut som inte är null till det HTML-element som ändras. Därför är det inte tillrådligt att använda någon mekanism, inklusive JavaScript-bibliotek, som ställer in eller ändrar HTML ID-attribut. Dessa ID:n kan vara tillgängliga för Target Experience Composer för att skapa aktiviteter, men om JavaScript ändrar ID:n är det ID som användes när upplevelsen skapades kanske inte tillgängligt när upplevelsen körs. Om ett ID inte är tillgängligt misslyckas väljaren som är förankrad till ID:t.
+Adobe Target behöver inga ID, men om du använder ID:n blir upplevelserna som skapas med upplevelsedispositionen tillförlitligare. Target använder CSS-väljare för att ändra innehållet när upplevelsen levereras. När du redigerar en upplevelse fäster Visual Experience Composer väljaren till det närmaste överordnade objektet med ett id-attribut som inte är null till det HTML-element som ändras. Det är därför inte tillrådligt att använda någon mekanism, inklusive JavaScript-bibliotek, som ställer in eller ändrar HTML ID-attribut. Även om dessa ID:n kan vara tillgängliga för Target Experience Composer för att skapa aktiviteter, kanske det ID som användes när upplevelsen skapades inte är tillgängligt när upplevelsen körs om JavaScript ändrar ID:n. Om ett ID inte är tillgängligt misslyckas väljaren som är förankrad till ID:t.
 
 **Namnge CSS-klasser så att de är lätta att identifiera.**
 
 När du redigerar CSS-klasser i Visual Experience Composer kan det vara praktiskt att göra klasserna enkla att identifiera genom att använda beskrivande klassnamn. Detta säkerställer att du redigerar rätt CSS-klasser och att sidorna visas som förväntat.
 
-Använd inte `!important` CSS-egenskap när element döljs eller tas bort.
+Använd inte CSS-egenskapen `!important` när du döljer eller tar bort element.
 
 Om CSS-egenskapen 1!important1 finns kommer ändringar som görs av target.js under leveransen att åsidosättas av webbplatsens CSS-regler.
 
@@ -61,7 +61,7 @@ Target Standard och Premium använder JavaScript för att formatera en sida. Det
 
 Det är en god vana att minimera användningen av iFrames för att förenkla hantering av sidor och tester. Den visuella upplevelsedispositionen kan använda vissa åtgärder i en iFrame, men vissa åtgärder, som storleksändring, fungerar inte korrekt. Det är svårt att hantera och ändra storlek på sidor som använder flera iFrames. Det kan leda till problem om du testar stora iFrame-sidor.
 
-**Försök att ordna alla dynamiska DOM-ändringar så snart DOM är klar.**
+**Försök att ordna alla dynamiska DOM-ändringar så snart DOM-funktionen är klar.**
 
 Om ändringarna inte tillämpas innan upplevelseprogrammet körs av target.js kan innehållsleveransen brytas. Detta händer bara när det finns en DOM-ändring i hierarkin för ett målelement.
 
@@ -77,7 +77,7 @@ ELLER
 
 Blocknivåelement ska inte användas i infogade element som ankarpunkter, omfång och så vidare. Om du gör det förlorar infogade element sin höjd och bredd, vilket innebär att övertäckningsverktyget i Visual Experience Composer kanske inte fungerar som förväntat.
 
-**Använd inte bastaggen på webbplatsen för att lösa URL:er och länkar.**
+**Använd inte bastaggen på webbplatsen för att matcha URL:er och länkar.**
 
 Visual Experience Composer hanterar webbplatsen bakom scenerna med en proxyserver som uppdaterade länkarna. Om du lägger till en bastagg tolkas URL-adresserna som används av proxyservern igen av webbläsaren och visas som brutna.
 
@@ -94,20 +94,20 @@ Om du lägger till ett element med text och sedan redigerar elementet med annan 
 
 Se [Elementväljare som används i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) .
 
-**Använd `<b>` och `<i>` taggar när textelement formateras med textredigeraren.**
+**Använd taggarna `<b>` och `<i>` när du formaterar textelement med textredigeraren.**
 
-* Använd fet text `<b>` i stället för `<strong>`.
-* Använd för kursiv text `<i>` i stället för `<em>`.
+* Använd `<b>` i stället för `<strong>` för fetstil.
+* Använd `<i>` i stället för `<em>` för kursiv text.
 
-`<strong>` och `<em>` -taggar kan ge oväntade resultat.
+`<strong>`- och `<em>`-taggar kan ge oväntade resultat.
 
 **Var försiktig när du tar bort formulärfält.**
 
 Vissa formulärfält kan vara obligatoriska för att skickas. Om du tar bort de formulärfälten kan det påverka inskickade data.
 
-**Inkludera inte `mboxCreate` i skript.**
+**Ta inte med `mboxCreate` i skript.**
 
-För `mboxCreate` använder `document.write`bör du inte ta med `mboxCreate` i skript. Använd i stället `mboxDefine` och `mboxUpdate` för samma ändamål.
+Eftersom `mboxCreate` använder `document.write` bör du inte ta med `mboxCreate` i skript. Använd i stället `mboxDefine` och `mboxUpdate` för samma syfte.
 
 **Uppdatera inte ett HTML-kodfragment med Target Standard om det kräver JavaScript-kod för initieringen.**
 
@@ -117,16 +117,16 @@ När sidans innehåll levereras till besökare tillämpas åtgärden innan kompo
 
 Om du testar leveransen och den fungerar första gången är det inte säkert att den kommer att fortsätta fungera. Det kan finnas (eller inte vara) ett konkurrenstillstånd.
 
-* Om det finns ett tävlingsvillkor fungerar leveransen då och då.
+* Om det finns ett tävlingsvillkor kommer leveransen att fungera då och då.
 * Om det inte finns något tävlingsvillkor kommer det alltid att fungera.
 
 Testa sidan flera gånger för att säkerställa att leveransen fungerar som förväntat.
 
-**Använd inte en bastagg på webbplatsen för att lösa URL:er och länkar.**
+**Använd inte en bastagg på webbplatsen för att matcha URL:er och länkar.**
 
-När du använder Förbättrad Experience Composer hanteras webbplatsen bakom kulisserna av en proxyserver som uppdaterar alla länk-URL:er så att de fungerar i proxyn. Om du lägger till en bastagg tolkas alla dessa URL:er av webbläsaren så att de ser brutna ut.
+När du använder Förbättrad Experience Composer hanteras webbplatsen bakom scenerna av en proxyserver som uppdaterar alla länk-URL:er så att de fungerar i utkastet. Om du lägger till en bastagg tolkas alla dessa URL:er av webbläsaren så att de ser brutna ut.
 
-**Viktig text på webbplatsen som kan användas för målinriktning bör behållas i HTML-kod i ett element.**
+**Viktig text på webbplatsen som kan användas för målinriktning ska finnas i HTML-kod i ett element.**
 
 Du kan t.ex. inte ange text i kundvagnen som mål i VEC om koden är som följer:
 
@@ -144,9 +144,9 @@ Du kan t.ex. inte ange text i kundvagnen som mål i VEC om koden är som följer
 
 I det här exemplet markeras hela ankarelementet i VEC, vilket påverkar andra element negativt om du väljer målinriktning.
 
-**Använd inte `top` eller `self` variabler i JavaScript-kod.**
+**Använd inte `top`- eller `self`-variabler i JavaScript-kod.**
 
-När Förbättrad Experience Composer är aktiverat uppdateras värdet för de översta variablerna och självvariablerna för att inaktivera iframe-publicering. Använd ett X-frame-options-huvud för att lägga till iframe busting i stället för anpassade JavaScript-koder.
+När Förbättrad Experience Composer är aktiverat uppdateras värdet för de översta variablerna och självvariablerna för att inaktivera iframe-publicering. Använd en rubrik för X-frame-options för att lägga till iframe busting i stället för anpassade JavaScript-koder.
 
 **Testa alltid webbplatsen om parametrar läggs till när sidan läses in.**
 
@@ -154,7 +154,7 @@ Om du till exempel vill öppna www.abc.com används följande URL-parametrar:
 
 `www.abc.com?mboxEdit=1&mboxDisable=1`
 
-Dessa parametrar gör det möjligt att redigera i en iframe.
+Med de här parametrarna kan du redigera i en iframe.
 
 Kontrollera att webbplatsen läses in som förväntat när du har lagt till parametrar som dessa.
 
@@ -181,27 +181,27 @@ Stäng av felsökningstekniker för iframe på webbplatsen och kontrollera om de
 
 Tänk på följande när du använder Visual Experience Composer för att utforma din aktivitet.
 
-**Funktionen Flytta stöder inte z-index.**
+**Flyttfunktionen stöder inte z-index.**
 
-Eftersom det inte finns någon z-index-funktion kan det flyttade elementet inte flyttas över ett annat element. Se [Begränsningar](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) för mer information.
+Eftersom det inte finns någon z-index-funktion kan det flyttade elementet inte flyttas över ett annat element. Mer information finns i [Begränsningar](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-**Om du ändrar ordning på elementen påverkas klickspårningen.**
+**Omordningen av element påverkar klickspårning.**
 
 Om ett element som är markerat för klickspårning ordnas om ändras sökvägarna för de omordnade elementen. Det innebär att elementet på den plats där det ursprungliga elementet fanns innan det sorterades om är det vars klick spåras.
 
 Detta beror på att både koden för att leverera aktivitetsinnehållet och koden för att spåra klickningar ingår i en del kod som levereras till sidan. Om du bläddrar till en annan sida och ställer in klickspårning skickas aktivitetsinnehållskoden och klickspårningskoden till den sidan. Om klickspårningssidan har en liknande sidstruktur som den sida där testet körs, kan testinnehållet också visas på klickspårningssidan.
 
-**Det är inte säkert att infogning av ett element fungerar i en `<div>` det där är en mbox.**
+**Att infoga ett element kanske inte fungerar i en `<div>` som är en mbox.**
 
 Om en mbox innehåller ett erbjudande kan infogning av ett element visas som insertBefore och inte insertAfter, om mbox implementeras felaktigt.
 
-**När du redigerar både ett överordnat och ett underordnat element redigerar du det överordnade först.**
+**Redigera det överordnade elementet först när du redigerar både ett överordnat och ett underordnat element.**
 
 Om du byter ut en bildåtgärd mot ett element och sedan redigerar texten eller HTML i det överordnade elementet kan leveransproblem uppstå. Det bästa arbetsflödet är att redigera det överordnade elementet innan bilden byts ut mot det underordnade elementet.
 
 **Det går inte att markera sidelement som innehåller en mbox som underordnat element.**
 
-Om sidan till exempel innehåller:
+Om sidan innehåller:
 
 ```html
 <div> 
@@ -213,11 +213,11 @@ Om sidan till exempel innehåller:
 
 Den yttre diven ska inte väljas i en upplevelse eftersom mbox som är hårdkodad på sidan fortfarande anropar Target och får ett svar. Detta svar stör det svar som är avsett för det större sidelementet.
 
-**Proxy-IP:n kan blockeras i kundmiljön.**
+**Proxy-IP:n kan vara blockerade i kundmiljön.**
 
 Om du använder Förbättrad upplevelsedisposition på en icke-aktiv webbplats, till exempel en staging-miljö, kan du se timeout och få åtkomst till nekade fel om webbplatsen blockerar RIP.
 
-**När du lägger till flera sidor öppnas både upplärningslisten och sidlisten samtidigt. Det här minskar till slut bredden på Visual Experience Composer så att webbplatsen visas för optimeringar. Därför kan omflödningsbara platser börja se annorlunda ut än väntat i det reducerade utrymmet.**
+**När du lägger till flera sidor öppnas både upplärningslisten och sidlisten samtidigt. Detta minskar så småningom bredden på Visual Experience Composer så att webbplatsen visas för optimeringar. Därför kan omflödningsbara platser börja se annorlunda ut än väntat i det reducerade utrymmet.**
 
 Du kan kringgå problemet genom att komprimera upplevelsefältet och sidlisten genom att klicka på de vänstra ikonerna överst.
 
@@ -227,21 +227,21 @@ Du kan kringgå problemet genom att komprimera upplevelsefältet och sidlisten g
 
 Ett element kan inte flyttas utanför en behållare som följs av en CSS-egenskap.
 
-**Endast utbyteserbjudanden är tillgängliga för mboxes.**
+**Endast växlingserbjudanden är tillgängliga för kryssrutor.**
 
 Åtgärder som Redigera klass och Ändra ordning tillåts inte i en mbox.
 
 **Du bör inte ordna om och flytta samma element.**
 
-Om ett element har flyttats till en annan plats, och du väljer den överordnade behållaren och försöker att ordna om de underordnade elementen, påverkas inte det flyttade elementet, utan behåller sin plats. Omordningen kanske inte ser ut som du önskar.
+Om ett element har flyttats till en annan plats, och du väljer den överordnade behållaren och försöker att ordna om de underordnade elementen, påverkas inte det flyttade elementet, utan behåller sin plats. Omordningen kanske inte ser ut som du vill ha den.
 
-**Växla bildåtgärd fungerar inte på en bild i en karusell.**
+**Åtgärden Växla bild fungerar inte på en bild i en karusell.**
 
 Om sidan till exempel innehåller en karusell med sex bilder och du vill byta ut en bild mot den andra bilden i karusellen, fungerar inte åtgärden Växla bild.
 
 Du kan lösa problemet genom att markera den överordnade behållaren och använda åtgärden Redigera HTML för att redigera HTML i karusellen för att uppdatera bildkällan för den önskade bilden.
 
-**Det går inte att ändra storlek på bilder i en mbox.**
+**Det går inte att ändra storlek på bilder i en ruta.**
 
 Om du byter ut en bild i ett mbox-element och sedan försöker ändra storlek på bilden enligt mbox-elementets storlek, tillåts inte storleksändring.
 
@@ -249,11 +249,11 @@ Om du byter ut en bild i ett mbox-element och sedan försöker ändra storlek p�
 
 När du har bytt bild kan du inte redigera Scene7-URL:en.
 
-**Det går inte att redigera HTML-element med extern källa.**
+**HTML-element med extern källa kan inte redigeras.**
 
 Till exempel: video, ljudtaggar, inbäddning, iFrames, bildrutor.
 
-**Klickspårning fungerar inte för fästpunktselement som innehåller något annat än oformaterad text eller bildtaggar.**
+**Klickspårning fungerar inte för ankarelement som innehåller något annat än oformaterad text eller bildtaggar.**
 
 Klickspårning fungerar till exempel inte om elementet innehåller JavaScript.
 
@@ -261,7 +261,7 @@ Klickspårning fungerar till exempel inte om elementet innehåller JavaScript.
 
 Vissa webbplatser tar bort URL-parametrar för sina sidor. Visual Experience Composer kräver dock dessa parametrar.
 
-**När du använder ett skript som en del av html ska alla variabler och funktioner som är åtkomliga utifrån deklareras under fönstrets namnutrymme.**
+**När du använder ett skript som en del av html måste alla variabler och funktioner som är åtkomliga utifrån deklareras under fönstrets namnutrymme.**
 
 Skriptet körs inom omfånget för target.js efter att sidan har lästs in. Därför går det inte att komma åt variabeln eller funktionen som deklarerats lokalt utanför skriptblocket.
 

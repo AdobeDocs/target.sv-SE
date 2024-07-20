@@ -1,19 +1,19 @@
 ---
 keywords: qa;förhandsvisa;bokmärkesdiagram;förhandsvisa länkar
-description: Lär dig använda Adobe [!DNL Target] QA-bokmärkesdiagram som ska framtvingas [!DNL Target] för att frigöra dig från QA-läge.
+description: Lär dig hur du använder bokmärket Adobe [!DNL Target] QA för att tvinga [!DNL Target]  att släppa dig från QA-läget.
 title: Hur använder jag Activity QA Bookmarklet?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 # Activity QA bookmarklet
 
-Information som hjälper dig att använda [!DNL Target] QA-bokmärkesdiagram som ska framtvingas [!DNL Target] för att frigöra dig från QA-läge.
+Information som hjälper dig att använda [!DNL Target] QA-bokmärket för att tvinga [!DNL Target] att släppa dig från QA-läget.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ Information som hjälper dig att använda [!DNL Target] QA-bokmärkesdiagram som
 
 ## Activity QA bookmarklet for at.js 1.*x*
 
-För [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) är kladdig, när du har bläddrat på en webbplats i QA-läge [!DNL Target] sessionen måste förfalla eller så måste du ha [!DNL Target] släppa dig från QA-läget innan du kan visa webbplatsen som en vanlig besökare. Använd QA [!DNL Target] om du vill tvinga dig ut ur QA-läget.
+Eftersom [QA-läget](/help/main/c-activities/c-activity-qa/activity-qa.md) fortfarande är kladdigt måste din [!DNL Target]-session förfalla när du har bläddrat på en webbplats i QA-läge, annars måste du ha [!DNL Target] släppt dig från QA-läge innan du kan visa webbplatsen som en vanlig besökare. Använd QA-bokmärket [!DNL Target] för att tvinga dig själv från QA-läget.
 
-Så här använder du [!DNL Target] Skapa ett bokmärkesdiagram, som innehåller följande JavaScript-kod, och lägg till det i webbläsarens bokmärkesverktygsfält:
+Om du vill använda [!DNL Target] QA-bokmärket skapar du ett bokmärkesdiagram som innehåller följande JavaScript-kod och lägger till det i webbläsarens bokmärkesverktygsfält:
 
 ```javascript
 javascript:(
@@ -42,7 +42,7 @@ javascript:(
 )();
 ```
 
-Du kan också manuellt tvinga dig ut ur QA-läget genom att läsa in en sida på webbplatsen med `at_preview_token` parameter med ett tomt värde.
+Du kan också manuellt tvinga dig ut ur QA-läget genom att läsa in en sida på webbplatsen med parametern `at_preview_token` med ett tomt värde.
 
 Exempel:
 
@@ -50,9 +50,9 @@ Exempel:
 
 ## Activity QA bookmarklet for at.js 2.*x*
 
-Till skillnad från at.js 1.*x*, at.js 2.*x* stöder inte cookies från tredje part, och QA-läget är bara klisterlöst för förstahandsdomänen (genom en cookie som har angetts av at.js). I at.js 2.*x*, hanteras endast sessioner i QA-läge på klientsidan och inga cookies i QA-läge skickas till Target.
+Till skillnad från at.js 1.*x*, at.js 2.*x* stöder inte cookies från tredje part, och QA-läget är bara klisterlöst för förstahandsdomänen (genom en cookie som har angetts av at.js). I at.js 2.*x*, QA-lägessessionen hanteras bara på klientsidan och inga QA-lägescookies skickas till Target.
 
-Så här använder du [!DNL Target] Skapa ett bokmärkesdiagram, som innehåller följande JavaScript-kod, och lägg till det i webbläsarens bokmärkesverktygsfält:
+Om du vill använda [!DNL Target] QA-bokmärket skapar du ett bokmärkesdiagram som innehåller följande JavaScript-kod och lägger till det i webbläsarens bokmärkesverktygsfält:
 
 ```javascript
 javascript:(

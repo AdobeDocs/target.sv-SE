@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Administrera [!DNL Target] Översikt
+# Administrera [!DNL Target] - översikt
 
-Information som kan hjälpa dig att administrera [!DNL Adobe Target], inklusive konfigurationsinställningar för Visual Experience Composer (VEC), rapportering, Scene7-konfiguration, implementering, värdar, miljöer, svarstoken och användare.
+Information som hjälper dig att administrera [!DNL Adobe Target], inklusive konfigurationsinställningar för Visual Experience Composer (VEC), rapportering, Scene7-konfiguration, implementering, värdar, miljöer, svarstoken och användare.
 
-Så här öppnar du [!UICONTROL Administration] menyalternativ, klicka **[!UICONTROL Administration]** i den övre menyraden klickar du på den önskade fliken till vänster:
+Om du vill komma åt [!UICONTROL Administration]-menyalternativen klickar du på **[!UICONTROL Administration]** i den övre menyraden och sedan på den önskade fliken till vänster:
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Rapportering](/help/main/administrating-target/reporting.md)

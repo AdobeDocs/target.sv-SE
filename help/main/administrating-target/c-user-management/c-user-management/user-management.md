@@ -1,46 +1,46 @@
 ---
 keywords: lägg till användare;hantera användare;användarbehörigheter
-description: Lär dig använda [!DNL Adobe Admin Console] hantera användare och deras behörigheter och rättigheter i [!DNL Adobe Target Standard].
-title: Hur lägger jag till användare och hanterar behörigheter för en [!DNL Target Standard] Konto?
+description: Lär dig hur du använder  [!DNL Adobe Admin Console] för att hantera användare och deras behörigheter och rättigheter i  [!DNL Adobe Target Standard].
+title: Hur lägger jag till användare och hanterar behörigheter för ett [!DNL Target Standard] konto?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # Användare
 
-Lägg till användare och hantera deras behörigheter i [!DNL Adobe Admin Console] för [!DNL Target Standard] konto.
+Lägg till användare och hantera deras behörigheter i [!DNL Adobe Admin Console] för ett [!DNL Target Standard]-konto.
 
 >[!NOTE]
 >
->[!UICONTROL Properties] och [!UICONTROL Permissions] finns som en del av [!DNL Target Premium] lösning. De är inte tillgängliga i [!DNL Target] Standard utan [!DNL Target] Premiumlicens.
+>Funktionerna [!UICONTROL Properties] och [!UICONTROL Permissions] är tillgängliga som en del av lösningen [!DNL Target Premium]. De är inte tillgängliga i [!DNL Target] Standard utan en [!DNL Target] Premium-licens.
 >
->Du kan se om din organisation har en [!UICONTROL Standard] eller [!UICONTROL Premium] genom att klicka på [!UICONTROL Administration] länk högst upp i [!DNL Target] Gränssnitt.
+>Du kan se om din organisation har en [!UICONTROL Standard]- eller [!UICONTROL Premium]-licens genom att klicka på länken [!UICONTROL Administration] överst i användargränssnittet för [!DNL Target].
 >
->* **[!DNL Target][!UICONTROL Standard] Kunder**: Om [!UICONTROL Users] tab ([!UICONTROL Administration > Users]) (och inte **[!UICONTROL Properties]** -fliken) har din organisation en [!DNL Target] [!UICONTROL Standard] licens. [!DNL Target] [!UICONTROL Standard] ska kunderna följa instruktionerna i den här artikeln för att lägga till användare och tilldela behörigheter i [!DNL Adobe Admin Console].
+>* **[!DNL Target][!UICONTROL Standard] Kunder**: Om du ser fliken [!UICONTROL Users] ([!UICONTROL Administration > Users]) (och inte fliken **[!UICONTROL Properties]**) har din organisation en [!DNL Target] [!UICONTROL Standard]-licens. [!DNL Target] [!UICONTROL Standard]-kunder bör följa instruktionerna i den här artikeln för att lägga till användare och tilldela behörigheter i [!DNL Adobe Admin Console].
 >
->* **[!DNL Target]Premiumkunder**: Om [!UICONTROL Users] -fliken och [!UICONTROL Properties] tab ([!UICONTROL Administration > Properties]) har din organisation en [!DNL Target] Premiumlicens. [!DNL Target] Premium-kunder bör följa instruktionerna i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) och [Konfigurera företagsbehörigheter](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) för att lägga till användare och tilldela behörigheter i [!DNL Adobe Admin Console].
+>* **[!DNL Target]Premium-kunder**: Om du ser fliken [!UICONTROL Users] och fliken [!UICONTROL Properties] ([!UICONTROL Administration > Properties]) har din organisation en [!DNL Target] Premium-licens. [!DNL Target] Premium-kunder bör följa instruktionerna i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) och [Konfigurera företagsbehörigheter](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) för att lägga till användare och tilldela behörigheter i [!DNL Adobe Admin Console].
 >
->Detaljerad information om hur du hanterar användare och behörigheter finns i [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) i *Användarhandbok för Enterprise &amp; Teams*.
+>Detaljerad information om hur du hanterar användare och behörigheter finns i [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) i *användarhandboken för Enterprise &amp; Teams*.
 
-När du börjar med [!DNL Adobe Target], hittar du ID:n (som slutar i Adobe.com) som är förifyllda i [!DNL Adobe Experience Cloud] konto. Dessa ID:n är för medlemmar i [!DNL Adobe] så att de kan hjälpa dig med ditt nya konto och med din användning av [!DNL Adobe Target], om du behöver hjälp. Kontakta era Adobe-team på vanligt sätt för att få hjälp.
+När du börjar med [!DNL Adobe Target] hittar du ID:n (som slutar med Adobe.com) som är förifyllda i ditt [!DNL Adobe Experience Cloud]-konto. Dessa ID:n är till för medlemmar i [!DNL Adobe]-team så att de kan hjälpa dig med ditt nya konto och använda [!DNL Adobe Target] om du behöver hjälp. Kontakta era Adobe-team på vanligt sätt för att få hjälp.
 
-Du kommer inte att se nya användare i listan på [!UICONTROL Users] tills de loggar in med sina [!DNL Adobe Experience Cloud] konto och logga sedan in på [!DNL Target].
+Nya användare visas inte på sidan [!UICONTROL Users] förrän de loggar in med sitt [!DNL Adobe Experience Cloud]-konto och sedan loggar in på [!DNL Target].
 
-Som standard är alla [!DNL Target] användare börjar med [!UICONTROL Observer] behörigheter.
+Som standard börjar alla [!DNL Target]-användare med [!UICONTROL Observer]-behörigheter.
 
-Administratörsanvändare identifieras i [!UICONTROL Users] lista. Kontakta en av systemadministratörsanvändarna om du behöver ändra åtkomstnivån.
+Administratörsanvändare identifieras i listan [!UICONTROL Users]. Kontakta en av systemadministratörsanvändarna om du behöver ändra åtkomstnivån.
 
 ## Visa användarinformation inifrån [!DNL Target]
 
-Du kan visa en lista över dina nuvarande användare i [!DNL Target] Användargränssnitt, inklusive deras roller per arbetsyta och e-postadresser.
+Du kan visa en lista över dina aktuella användare i användargränssnittet för [!DNL Target], inklusive deras roller per arbetsyta och e-postadresser.
 
-Så här visar du [!UICONTROL Users] sida, klicka **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
+Om du vill visa sidan [!UICONTROL Users] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 
 ![Användarlista från mål](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
@@ -48,51 +48,51 @@ Så här visar du [!UICONTROL Users] sida, klicka **[!UICONTROL Administration]*
 >
 >Om du vill hantera en befintlig användare eller lägga till nya användare måste du använda [!UICONTROL Adobe Admin Console], vilket förklaras nedan.
 
-## Öppna [!DNL Adobe Admin Console] {#access}
+## Åtkomst till [!DNL Adobe Admin Console] {#access}
 
-För uppgifter som utförs i [!DNL Adobe Admin Console]öppnar du konsolen genom att följa dessa steg:
+För uppgifter som utförs i [!DNL Adobe Admin Console] kan du få åtkomst till konsolen genom att följa de här stegen:
 
-1. Från [!DNL Target], klicka **[!UICONTROL Administration]** > **[!UICONTROL Users]** > **[!UICONTROL Users Management]**.
+1. I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Users]** > **[!UICONTROL Users Management]**.
 
    eller
 
-   Gå till [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/)loggar du sedan in med din Adobe ID, om du inte redan har loggat in.
+   Gå till [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) och logga sedan in med din Adobe ID, om du inte redan har loggat in.
 
-1. (Villkorligt) Om du har tillgång till [!DNL Admin Console for Enterprise] för mer än en organisation klickar du på användarens avatar i det högra hörnet eller i det övre navigeringsfältet och väljer önskad organisation.
+1. (Villkorligt) Om du har åtkomst till [!DNL Admin Console for Enterprise] för mer än en organisation klickar du på användaravataren i det högra hörnet eller det övre navigeringsfältet och väljer önskad organisation.
 
 ## Lägg till användare {#add-users}
 
-All användarhantering måste utföras i [!DNL Adobe Admin Console for Enterprise]. Alla dina befintliga användare i [!DNL Target] migreras från [!DNL Target] till [!DNL Admin Console for Enterprise].
+All användarhantering måste utföras i [!DNL Adobe Admin Console for Enterprise]. Alla dina befintliga användare i [!DNL Target] migreras dock från [!DNL Target] till [!DNL Admin Console for Enterprise].
 
-1. [I ADMIN CONSOLE](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klicka **[!UICONTROL Users]** > **[!UICONTROL Users]** för att skapa nya användare eller redigera befintliga användare.
-1. Följ instruktionerna i [Hantera användare och grupper i Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) i *Enterprise User Guide*.
+1. [Klicka på **[!UICONTROL Users]** > **[!UICONTROL Users]** i Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) om du vill skapa nya användare eller redigera befintliga användare.
+1. Följ instruktionerna i [Hantera användare och grupper på Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) i *Enterprise User Guide*.
 
 ## Skapa användargrupper {#user-groups}
 
-Du kan skapa användargrupper som utvecklare, analytiker, marknadsförare, chefer och så vidare, och sedan tilldela behörigheter i flera [!DNL Adobe] produkter och arbetsytor. Tilldela en ny teammedlem alla behörigheter som krävs för olika [!DNL Adobe] -produkter kan vara lika enkla som att lägga till dem i en viss användargrupp.
+Du kan skapa användargrupper, till exempel utvecklare, analytiker, marknadsförare, chefer och så vidare, och sedan tilldela behörigheter för flera [!DNL Adobe]-produkter och arbetsytor. Att tilldela en ny teammedlem alla lämpliga behörigheter för olika [!DNL Adobe]-produkter kan vara lika enkelt som att lägga till dem i en viss användargrupp.
 
-1. [I ADMIN CONSOLE](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klicka **[!UICONTROL Users]** > **[!UICONTROL User Groups]** för att skapa nya användargrupper eller redigera befintliga grupper.
-1. Följ instruktionerna i [Hantera användare och grupper i Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) i *Enterprise User Guide*.
+1. [Klicka på **[!UICONTROL Users]** > **[!UICONTROL User Groups]** i Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) om du vill skapa nya användargrupper eller redigera befintliga grupper.
+1. Följ instruktionerna i [Hantera användare och grupper på Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) i *Enterprise User Guide*.
 
 ## Ange roller och behörigheter {#roles-permissions}
 
-Endast systemadministratörer kan ange användarroller i [!DNL Target]. Till exempel en [!UICONTROL Standard] godkännaranvändaren kan inte ändra en observatör till en godkännare utan att också ha [!DNL Experience Cloud] Administratörsrättigheter.
+Endast systemadministratörer kan ange användarroller i [!DNL Target]. En [!UICONTROL Standard]-godkännaranvändare kan till exempel inte ändra en observatör till en godkännare utan att ha [!DNL Experience Cloud] administratörsbehörighet.
 
 Systemadministratörsanvändare måste lägga till användare i systemet. Användare läggs inte till automatiskt. De bjuds in via e-post från [!DNL Experience Cloud] och måste bekräfta sina e-postadresser innan deras konton registreras.
 
-1. [I ADMIN CONSOLE](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klicka **[!UICONTROL Products]** väljer du sedan namnet på önskad produkt.
+1. [Klicka på **[!UICONTROL Products]** i Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) och välj sedan namnet på önskad produkt.
 
    ![Fliken Produkter](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Klicka på önskad arbetsyta (till exempel Standardarbetsyta).
+1. Klicka på önskad arbetsyta (till exempel Workspace som standard).
 
-   ![Standardarbetsyta](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+   ![Workspace](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png) som standard
 
-   The [!UICONTROL Users] -fliken visar alla användare på den arbetsytan.
+   Fliken [!UICONTROL Users] visar alla användare på den arbetsytan.
 
    ![konfigurationsanvändare](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Välj önskad behörighetsroll ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] eller [!UICONTROL Publisher]) genom att använda listrutan för varje användare i [!UICONTROL Product Role] kolumn.
+1. Välj önskad behörighetsroll ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] eller [!UICONTROL Publisher]) genom att använda listrutan för varje användare i kolumnen [!UICONTROL Product Role].
 
    ![Listruta för produktroll](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -101,11 +101,11 @@ Systemadministratörsanvändare måste lägga till användare i systemet. Använ
    | [!UICONTROL Approver] | Kan skapa, redigera och aktivera eller stoppa aktiviteter. |
    | [!UICONTROL Editor] | Kan skapa och redigera aktiviteter innan de är aktiva, men kan inte godkänna att en aktivitet startas. |
    | [!UICONTROL Observer] | Kan visa aktiviteter, men kan inte skapa eller redigera dem. |
-   | [!UICONTROL Publisher] | Liknar [!UICONTROL Observer] roll (kan visa aktiviteter, men inte skapa eller redigera dem). Men [!UICONTROL Publisher] rollen har ytterligare behörighet att aktivera aktiviteter. |
+   | [!UICONTROL Publisher] | Liknar rollen [!UICONTROL Observer] (kan visa aktiviteter, men inte skapa eller redigera dem). Rollen [!UICONTROL Publisher] har dock ytterligare behörighet att aktivera aktiviteter. |
 
-Mer information finns i [Hantera produktbehörigheter och roller i Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) i *Enterprise User Guide*.
+Mer information finns i [Hantera produktbehörigheter och roller i Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) i *Enterprise-användarhandboken*.
 
-## Utbildningsvideo: Konfigurera Adobe Target Workspaces ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Så här konfigurerar du Adobe Target Workspaces ![Självstudiekurs](/help/main/assets/tutorial.png)
 
 Utbildningsmål:
 
@@ -117,6 +117,6 @@ Utbildningsmål:
 
 >[!NOTE]
 >
->The [!DNL Target] [!UICONTROL Administration] menygränssnitt (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt, men alternativen kan finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
+>Gränssnittet för [!DNL Target] [!UICONTROL Administration]-menyn (tidigare [!UICONTROL Setup]) har gjorts om för att ge bättre prestanda, minska den underhållstid som krävs när nya funktioner släpps och för att förbättra användarupplevelsen i hela produkten. Informationen i följande video är i allmänhet korrekt, men alternativen kan finnas på något olika platser. Uppdaterade videor kommer snart att publiceras.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
