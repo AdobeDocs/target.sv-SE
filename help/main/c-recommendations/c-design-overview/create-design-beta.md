@@ -1,13 +1,14 @@
 ---
 keywords: rekommendationsdesign;skapa design;kopiera design
-description: Lär dig hur du skapar en Adobe [!DNL Target] Recommendations-design med en standarddesign eller genom att skapa en anpassad design som passar sidans layout bäst.
+description: Lär dig hur du skapar en  [!DNL Target Recommendations] design med en standarddesign eller genom att skapa en anpassad design som passar sidans layout bäst.
 title: Hur skapar jag en design i Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
-exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
+hide: true
+hidefromtoc: true
 source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Den här bilden visar en egen design:
 
 ![Egen design](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-Du kan skapa en design under aktivitetsskapandet i Visual Experience Composer (VEC) eller från designbiblioteket utanför aktivitetsskapandet. I följande avsnitt antas du skapa designer från biblioteket, men stegen är liknande.
+Du kan skapa en design när aktiviteten skapas från [!UICONTROL Visual Experience Composer] (VEC) eller från designbiblioteket utanför aktivitetsskapandet. I följande avsnitt antas du skapa designer från biblioteket, men stegen är liknande.
 
 ## Skapa designer
 
@@ -43,15 +44,12 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
 1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** för att visa biblioteket [!UICONTROL Designs].
 
-   ![Designbibliotek](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. För musen över kortet för den design du vill skapa och klicka sedan på ikonen **[!UICONTROL Copy]**.
 
-   ![Card_CopyDesign-bild](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign-bild](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
 
    Dialogrutan [!UICONTROL Create Design] visas.
-
-   ![createDesign-bild](assets/createDesign.png)
 
 1. Lägg till en **[!UICONTROL Content Name]** och en förhandsvisningsbild som du vill visa på designkortet på panelen **[!UICONTROL Information]**.
 
@@ -59,7 +57,7 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
 1. (Villkorligt) Redigera designen **[!UICONTROL Code]** efter behov.
 
-   Rekommendationsdesigner använder designspråket [!DNL Velocity] med öppen källkod. Information om [!DNL Velocity] finns på [https://velocity.apache.org](https://velocity.apache.org) och i [Anpassa en design med  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   I rekommendationsdesignen används designspråket Velocity med öppen källkod. Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org) och i [Anpassa en design med Snabb](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    En design kan vara HTML eller icke-HTML. Som standard är HTML-designer omslutna av en `<div>`-tagg som tillåter klickspårning i en webbmiljö. Designer som inte är HTML är avsedda för andra miljöer än webbmiljöer där klickspårning inte är möjlig. Dra [!UICONTROL HTML Design]-växeln till avmarkeringspositionen om du vill använda kod som inte är HTML.
 
@@ -91,17 +89,15 @@ Kom ihåg att du inte kan redigera eller kopiera en standarddesign. Du kan bara 
 
 Håll pekaren över önskad design i biblioteket [!UICONTROL Design] och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
 
-![Hovringsikoner för en design](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
-
 Du kan kopiera en befintlig design och skapa en dubblettdesign som du sedan kan ändra. Med den här processen kan du enkelt skapa en liknande design.
 
-Observera att det finns design för hela kontot. Överväg användningen i andra konton innan du tar bort en design. Borttagna designer kan inte återställas.
+Observera att det finns design för hela kontot. Se till att du tar hänsyn till användningen mellan konton innan du tar bort en design. Borttagna designer kan inte återställas.
 
 ## JSON-exempel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigureras via den formulärbaserade redigeraren.
+I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigureras via den [formulärbaserade redigeraren](/help/main/c-experiences/form-experience-composer.md).
 
-1. Skapa en design inifrån designbiblioteket eller i det formulärbaserade arbetsflödet. Om du försöker skapa en design i arbetsflödet [!UICONTROL Visual Experience Composer] (VEC) kan du inte skapa något annat än en HTML-design, som är inkapslad i en `<div>` för klickningsspårning.
+1. Skapa en design i [!UICONTROL Design library] eller i det formulärbaserade arbetsflödet. Om du försöker skapa en design i arbetsflödet [!UICONTROL Visual Experience Composer] (VEC) kan du inte skapa något annat än en HTML-design, som är inkapslad i en `<div>` för klickningsspårning.
 
 1. Se till att alternativet &quot;HTML Design&quot; är inaktiverat:
 
@@ -180,7 +176,7 @@ Du kan också skicka tillbaka en enkel kommaavgränsad lista med objekt genom at
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Du kan också skicka ytterligare information i svaret. Följande kodfil är ett mer komplext exempel som returnerar mycket mer än enhets-ID:n med associerade platser (ordning). Det här designexemplet returnerar även aktivitetsinformation, målprofilinformation (om tillämpligt) och andra `entity.attributes` som är associerade med de returnerade objekten.
+Du kan också skicka ytterligare information i svaret. Följande kodfil är ett mer komplext exempel som returnerar mycket mer än enhets-ID:n med associerade platser (ordning). Det här designexemplet returnerar även aktivitetsinformation, [!UICONTROL Target Profile] detaljer (om tillämpligt) och andra `entity.attributes` som är associerade med de returnerade objekten.
 
 ```javascript
     {   

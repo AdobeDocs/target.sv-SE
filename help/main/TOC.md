@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1323'
 ht-degree: 2%
 
 ---
@@ -333,6 +333,7 @@ ht-degree: 2%
    + Design {#recommendations-design}
       + [Designöversikt](c-recommendations/c-design-overview/design-overview.md)
       + [Skapa en design](c-recommendations/c-design-overview/create-design.md)
+      + [Skapa en design](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Vanliga frågor om design](c-recommendations/c-design-overview/template-faq.md)
       + [Anpassa en design med Snabb](c-recommendations/c-design-overview/customizing-a-template.md)
    + Aktivitet {#recommendations-activity}

@@ -1,26 +1,26 @@
 ---
 keywords: egen design;snabbhet;decimal;komma;anpassa design
-description: Lär dig hur du använder designspråket Velocity med öppen källkod för att anpassa rekommendationsdesign i Adobe [!DNL Target] Recommendations.
+description: Lär dig hur du använder designspråket  [!DNL Velocity] med öppen källkod för att anpassa rekommendationsdesign i [!DNL Target] Recommendations.
 title: Hur anpassar jag en design snabbt?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
 
-# Anpassa en design med Snabb
+# Anpassa en design med [!DNL Velocity]
 
-Använd designspråket Velocity med öppen källkod för att anpassa rekommendationsdesigner i [!DNL Adobe Target Recommendations].
+Använd designspråket [!DNL Velocity] med öppen källkod för att anpassa rekommendationsdesigner i [!DNL Adobe Target Recommendations].
 
-## Översikt över hastighet {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity] - översikt {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org).
+Information om [!DNL Velocity] finns på [https://velocity.apache.org](https://velocity.apache.org).
 
-All snabbhetslogik, syntax o.s.v. kan användas för en rekommendationsdesign. Det innebär att du kan skapa *for*-slingor, *if*-programsatser och annan kod med hjälp av Snabb i stället för JavaScript.
+All [!DNL Velocity]-logik, syntax o.s.v. kan användas för en rekommendationsdesign. Det innebär att du kan skapa *for*-slingor, *if*-programsatser och annan kod med [!DNL Velocity] i stället för JavaScript.
 
 Entitetsattribut som skickas till [!DNL Recommendations] i mbox `productPage` eller CSV-överföringen kan visas i en design, med undantag för multivärdeattribut. Alla typer av attribut kan skickas, men [!DNL Target] skickar inte attribut av typen &quot;multi-value&quot; som en array över vilken en mall kan iterera (till exempel `entityN.categoriesList`).
 
@@ -30,7 +30,7 @@ Dessa värden refereras till med följande syntax:
 $entityN.variable
 ```
 
-Entitetsattributnamn måste följa efter i kortskrift av hastighet, som består av ett inledande *$*-tecken, följt av en VTL-identifierare (Velocity Template Language). VTL-identifieraren måste börja med ett alfabetiskt tecken (a-z eller A-Z).
+Entitetsattributnamn måste följa efter [!DNL Velocity] kortskrift, som består av ett inledande *$*-tecken, följt av en [!DNL Velocity] VTL-identifierare (Template Language). VTL-identifieraren måste börja med ett alfabetiskt tecken (a-z eller A-Z).
 
 Attributnamn för hastighetsenhet är begränsade till följande typer av tecken:
 
@@ -39,7 +39,7 @@ Attributnamn för hastighetsenhet är begränsade till följande typer av tecken
 * Bindestreck ( - )
 * Understreck ( _ )
 
-Följande attribut finns som Velocity-arrayer. Därför kan de itereras över eller refereras via index.
+Följande attribut är tillgängliga som [!DNL Velocity]-arrayer. Därför kan de itereras över eller refereras via index.
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,7 +60,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Mer information om hastighetsvariabler (attribut) finns i [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Mer information om [!DNL Velocity]-variabler (attribut) finns i [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Om du använder ett profilskript i din design måste $ som föregår skriptnamnet escape-konverteras med ett `\` (omvänt snedstreck). Exempel:
 
@@ -127,9 +127,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 Du kan också använda `algorithm.name` och `algorithm.dayCount` som entitetsattribut i designer, så att en design kan användas för att testa flera villkor, och villkorsnamnet kan visas dynamiskt i designen. Det här visar besökaren att han eller hon tittar på&quot;bästsäljare&quot; eller&quot;personer som såg det här köpte det&quot;. Du kan till och med använda dessa attribut för att visa `dayCount` (antal dagar med data som används i villkoren, t.ex.&quot;bästsäljare de senaste två dagarna&quot;).
 
-## Arbeta med siffror i hastighetsmallar
+## Arbeta med siffror i [!DNL Velocity] mallar
 
-Som standard hanteras alla entitetsattribut som strängvärden i snabbmeddelandemallar. Du kanske vill behandla ett entitetsattribut som ett numeriskt värde för att utföra en matematisk åtgärd eller jämföra det med ett annat numeriskt värde. Så här behandlar du ett entitetsattribut som ett numeriskt värde:
+Som standard hanteras alla entitetsattribut som strängvärden i [!DNL Velocity]-mallar. Du kanske vill behandla ett entitetsattribut som ett numeriskt värde för att utföra en matematisk åtgärd eller jämföra det med ett annat numeriskt värde. Så här behandlar du ett entitetsattribut som ett numeriskt värde:
 
 1. Deklarera en dummy-variabel och initiera den till ett godtyckligt heltal eller ett dubbelvärde.
 1. Kontrollera att entitetsattributet som du vill använda inte är tomt (krävs för mallparsern [!DNL Target Recommendations] för att validera och spara mallen).
@@ -240,7 +240,7 @@ Följande kod är ett fullständigt villkorligt exempel på ett försäljningspr
 
 ## Anpassa mallstorleken och kontrollera om det finns tomma värden {#default}
 
-Med hjälp av ett hastighetsskript för att styra för dynamisk storleksanpassning av enhetsvisningen får följande mall ett-till-många-resultat för att undvika att skapa tomma HTML-element när det inte finns tillräckligt med matchande entiteter returnerade från [!DNL Recommendations]. Det här skriptet är bäst för scenarier när det inte går att förvränga säkerhetskopieringsrekommendationer och [!UICONTROL Partial Template Rendering] är aktiverat.
+Med hjälp av ett [!DNL Velocity]-skript för att styra dynamisk storleksanpassning av enhetsvisningen får följande mall ett 1:N-resultat för att undvika att skapa tomma HTML-element när det inte finns tillräckligt med matchande entiteter som returnerats från [!DNL Recommendations]. Det här skriptet är bäst för scenarier när det inte går att förvränga säkerhetskopieringsrekommendationer och [!UICONTROL Partial Template Rendering] är aktiverat.
 
 Följande HTML-fragment ersätter den befintliga HTML-delen i standarddesignen 4x2 (CSS inkluderas inte här av förenklingsskäl):
 

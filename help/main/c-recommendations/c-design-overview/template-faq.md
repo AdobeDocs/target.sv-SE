@@ -1,13 +1,13 @@
 ---
 keywords: rekommendationer;vanliga frågor;frågor
-description: Granska en lista med vanliga frågor och svar och deras svar om Adobe [!DNL Target] Recommendations-design.
-title: Var kan jag svara på designfrågor för  [!DNL Target] Recommendations?
+description: Vanliga frågor och svar om  [!DNL Target Recommendations] design.
+title: Var kan jag få svar på designfrågor för  [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Det finns två alternativ för att åtgärda problemet:
 
 ## Varför visas inte kategorier i designen? Jag använder `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-Kategori-ID kan inte visas i designen. Eftersom det går att lagra flera kategorier vet systemet inte vilken kategori som ska visas.
+Kategori-ID kan inte visas i designen. Eftersom flera kategorier kan lagras vet systemet inte vilken kategori som ska visas.
 
 ## Hur ska jag ändra en design för att få en omedelbar uppdatering? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -40,13 +40,13 @@ Det tar en stund att uppdatera den design som används. Om du vill ändra design
 
 ## Hur samlar jag in viktig information som ska visas i designen? Exempel: Om vi vill visa nyckelproduktens kategori, hur skulle jag koda det värdet i snabbdesignen? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-Parametern `$key. *`value`*` hämtar större delen av nyckelproduktens information som ska visas i designen. Exempel: Om du vill visa nyckelproduktens miniatyrbild använder du `$key.thumbnailURL`.
+Parametern `$key. *`value`*` hämtar större delen av nyckelproduktens information som ska visas i designen. Om du till exempel vill visa nyckelproduktens miniatyrbild använder du `$key.thumbnailURL`.
 
 ## Vilken version av Velocity används? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 Version 1.7 utan ytterligare verktyg eller bibliotek tillagda i. Det finns grundläggande snabbhetsfunktioner.
 
-## Hur ersätter jag ett befintligt enhetsvärde med ett tomt värde? Till exempel måste ett objekts entity.message rensas när en kampanj avslutas. {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## Hur ersätter jag ett befintligt enhetsvärde med ett tomt värde? Till exempel måste ett objekts `entity.message` rensas när en befordran avslutas. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 Att skicka i ett hårt JavaScript-format verkar göra detta. Låt utvecklarna skicka in `\u00A0` som värde. Exempel: `entity.message=\u00A0`. Du kan överväga att använda det som standardvärde när det inte finns något värde i stället för ett null-värde.
 
