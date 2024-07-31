@@ -4,7 +4,7 @@ description: Lär dig hur du med aktiviteter i  [!DNL Target] kan anpassa inneh�
 title: Hur kan jag personalisera innehåll och testa siddesign med  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: be63fa4c89f229e3f4566cb400e1268d2cdf08d2
+source-git-commit: 0e2bc5c96671b47532b90f3ecb525a6a0506eb8d
 workflow-type: tm+mt
 source-wordcount: '2290'
 ht-degree: 0%
@@ -71,16 +71,17 @@ Du kan få åtkomst till filter genom att klicka på ikonen **[!UICONTROL Show F
 ![Filteralternativ](/help/main/c-activities/assets/show-filters-options.png)
 
 På menyn kan du filtrera aktiviteter efter följande attribut:
-|Attribut|Information|
-| — | — |
-|[!UICONTROL Type]|Filtrera efter [aktivitetstyp](#types).|
-|[!UICONTROL Status]|Filtrera efter aktivitetsstatus.|
-|[!UICONTROL Reporting Source]|Filtrera efter rapportkälla.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Visa aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): Visa aktiviteter som använder [!DNL Target] som rapportkälla.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): Visa aktiviteter som använder [!DNL Adobe Customer Analytics] som rapportkälla.</li></ul>|
-|[!UICONTROL Experience Composer]|Filter som Experience Composer användes efter när aktiviteten skapades:<ul><li>[Visuell](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Visar aktiviteter som har skapats med [!UICONTROL Visual Experience Composer] (VEC).</li><li>[Formulärbaserad](/help/main/c-experiences/form-experience-composer.md): Visa aktiviteter som har skapats med [!UICONTROL Form-Based Experience Composer].</li></ul>|
-|[!UICONTROL Metrics Type]|Filter som [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md) valdes för när aktiviteten skapades.<ul><li>Konvertering</li><li>Intäkter</li><li>Engagemang</li></ul>|
-|[!UICONTROL Decisioning Method]|Filtrera efter den beslutsmetod som används i varje aktivitet<ul><li>[Serversida](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html): Visa aktiviteter som använder serversidesbeslut.</li><li>[Klientsida](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): Visa aktiviteter som använder beslut på klientsidan.</li></ul>|
-|[!UICONTROL Activity Source]|Filtrera efter aktivitetskällan som används för att skapa varje aktivitet.<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[Mobiltjänster för Adobe](https://developer.adobe.com/client-sdks/documentation/)</li></ul>|
-|[!UICONTROL Property]|Filtrera efter den [egenskap](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) som aktiviteten skapades i.|
+
+| Attribut | Information |
+| --- | --- |
+| [!UICONTROL Type] | Filtrera efter [aktivitetstyp](#types). |
+| [!UICONTROL Status] | Filtrera efter aktivitetsstatus. |
+| [!UICONTROL Reporting Source] | Filtrera efter rapportkälla.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Visa aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): Visa aktiviteter som använder [!DNL Target] som rapportkälla.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): Visa aktiviteter som använder [!DNL Adobe Customer Analytics] som rapportkälla.</li></ul> |
+| [!UICONTROL Experience Composer] | Filtrera efter vilken upplevelsedisposition som användes när aktiviteten skapades:<ul><li>[Visuell](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Visar aktiviteter som har skapats med [!UICONTROL Visual Experience Composer] (VEC).</li><li>[Formulärbaserad](/help/main/c-experiences/form-experience-composer.md): Visa aktiviteter som har skapats med [!UICONTROL Form-Based Experience Composer].</li></ul> |
+| [!UICONTROL Metrics Type] | Filtrera efter vilket [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md) valdes när aktiviteten skapades.<ul><li>Konvertering</li><li>Intäkter</li><li>Engagemang</li></ul> |
+| [!UICONTROL Decisioning Method] | Filtrera efter den beslutsmetod som används i varje aktivitet<ul><li>[Serversida](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html): Visa aktiviteter som använder serversidesbeslut.</li><li>[Klientsida](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): Visa aktiviteter som använder beslut på klientsidan.</li></ul> |
+| [!UICONTROL Activity Source] | Filtrera efter aktivitetskällan som används för att skapa varje aktivitet.<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[Mobiltjänster för Adobe](https://developer.adobe.com/client-sdks/documentation/)</li></ul> |
+| [!UICONTROL Property] | Filtrera efter [egenskapen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) som aktiviteten skapades i. |
 
 ## Utför snabbåtgärder {#quick-actions}
 
