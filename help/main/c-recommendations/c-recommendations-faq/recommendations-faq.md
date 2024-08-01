@@ -1,13 +1,13 @@
 ---
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;rekommendationer;specialtecken;attributvikt;innehållets likhet
-description: Visa en lista med vanliga frågor och svar om Adobe [!DNL Target] Recommendations-aktiviteter.
-title: Var hittar jag frågor och svar om  [!DNL Target] Recommendations?
+description: Visa en lista med vanliga frågor och svar om [!DNL Target Recommendations] aktiviteter.
+title: Var hittar jag frågor och svar om  [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '3448'
+source-wordcount: '3485'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # RECOMMENDATIONS FAQ
 
 Lista med vanliga frågor och svar om [!DNL Adobe Target] [!DNL Recommendations] aktiviteter.
+
+## Kan jag hantera [!DNL Target] visuella erbjudanden som har skapats i användargränssnittet med API:erna i [!DNL Target]?
+
+Nej. [!DNL Recommendations] aktiviteter med visuella erbjudanden skapade i [!DNL Target]-gränssnittet kan inte hanteras med API:erna för [!DNL Target]. Även om dessa aktiviteter visas i listan [!UICONTROL Activities] kan du inte läsa eller uppdatera dem (med GET/PUT).
 
 ## Varför visar [!UICONTROL Catalog Search] inte rätt resultat när jag söker efter ett anpassat attribut med ett numeriskt värde?
 

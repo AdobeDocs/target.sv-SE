@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 ## Uppdateringar
 
 |Datum|Ämne|Ändringar|
+|1 augusti|[Vanliga frågor om Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Följande vanliga frågor och svar har lagts till: &quot;Kan jag hantera [!DNL Target] visuella erbjudanden skapade i användargränssnittet med [!DNL Target] API:er?&quot;|
 |10 juli|[Proxykonfiguration (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Ett nytt avsnitt har lagts till: Enhetsbeslut|
 |3 juni|[Prioritet](/help/main/c-activities/priority.md)|Uppdaterat hela ämne, inklusive information om att innehåll från flera [!UICONTROL Form-Based Experience Composer] - och VEC-aktiviteter kan leverera. Tidigare kunde bara en aktivitet i det formulärbaserade arbetsflödet levereras. Det finns inte längre någon gräns för hur många formulärbaserade aktiviteter som kan leverera.|
 |17 maj|[Felsökning relaterade till [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Ytterligare IP-adresser som du kan tillåtslista när du använder [!UICONTROL Enhanced Experience Composer] har lagts till.|
