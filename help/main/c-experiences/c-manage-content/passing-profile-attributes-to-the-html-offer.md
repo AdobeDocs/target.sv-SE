@@ -1,12 +1,12 @@
 ---
 keywords: dynamiska data;resurser;data;erbjudanden;personliga erbjudanden;token replace
-description: Lär dig hur du skickar dynamiska data till  [!DNL Adobe Target] erbjudanden.
+description: Lär dig hur du skickar dynamiska data till erbjudanden i  [!DNL Adobe Target].
 title: Hur överför jag dynamiska data till erbjudanden?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Du kan dynamiskt visa besökarinformation som lagras i profilen [!DNL Adobe Targ
 
 * Erbjud ett rabatterat erbjudande om att&quot;fylla på&quot; eller&quot;fylla på&quot; den senast köpta produkten. I stället för att skapa ett separat erbjudande för varje objekt i din katalog kan du skapa ett erbjudande med dynamisk text som läser den&quot;senaste köpta produkten&quot; från profilen och visar en länk i erbjudandet.
 * En besökare kommer till din landningssida med `keyword=world` `cup`. Du visar termen *World Cup* i erbjudandet.
-* Anpassa en rekommendationsetikett med t.ex. (1) det sista objektet som läggs till i en besökares kundvagn (Nike Air Max 1000-tal), (2) besökarens färgpreferens (svart) och (3) besökarens favoritkategori utanför sko (hoodies). Exempel:&quot;Ge din Nike Air Max 1000s åtkomst till dessa coola &#39;svarta&#39; &#39;hookaler&#39;!&quot;
+* Anpassa en rekommendationsetikett med information, t.ex. (1) det sista objektet som läggs till i en besökares kundvagn (Nike Air Max 1000-tal), (2) besökarens färgpreferens (svart) och (3) besökarens favoritkategori (icke-skugga). Exempel:&quot;Ge din Nike Air Max 1000s åtkomst till dessa coola &#39;svarta&#39; &#39;hookaler&#39;!&quot;
 
 ## Tekniska fördelar
 
