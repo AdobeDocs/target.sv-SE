@@ -1,29 +1,27 @@
 ---
 keywords: innehållsbibliotek;resurser;anteckna;kopiera;ta bort resurs;hämta resurs;redigera innehåll;dela kort;visa innehållsegenskaper
-description: Lär dig hur du hanterar kod och bilderbjudanden i biblioteket  [!DNL Target] [!UICONTROL Offers].
-title: Hur arbetar jag med innehåll i [!UICONTROL Offers]-biblioteket?
+description: Upptäck hur du organiserar och optimerar din kod och dina bilderbjudanden i biblioteket  [!DNL Target] [!UICONTROL Offers].
+title: Huvudinnehållshantering i biblioteket [!UICONTROL Offers]
 feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: 5d836037-3f51-4c63-8717-65de72e5c793
-source-git-commit: 6622453ec334dbd955d405bbd16478b8666f8c27
+source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
 
 # Arbeta med innehåll i resursbiblioteket
 
-Information om de uppgifter du kan utföra på en resurs i innehållsbiblioteket i [!DNL Adobe Target], inklusive att anteckna, kopiera, ta bort, hämta, redigera, dela och visa egenskaper.
+Information om de uppgifter du kan utföra på en resurs i [!UICONTROL Content Library] i [!DNL Adobe Target]. Bland uppgifterna finns anteckning, kopiering, borttagning, hämtning, redigering, delning och visningsegenskaper.
 
 1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** eller **[!UICONTROL Image Offers]**.
 
-   ![Flikarna Koderbjudanden och Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
+   Mer information om hur du söker i [!UICONTROL Offer library] och skapar [!UICONTROL Smart Collections] finns i [Filtrera och söka efter innehåll](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-   Mer information om hur du söker i erbjudandebiblioteket och skapar smarta samlingar finns i [Filtrera och söka efter innehåll](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
-
-1. (Valfritt) Växla mellan [!UICONTROL Card View] och [!UICONTROL List View], klicka på ikonen [!UICONTROL Card View] eller ikonen [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket. Du kan också använda [!UICONTROL View Settings] för att konfigurera kolumnerna ytterligare när du visar [!UICONTROL List View].
+1. (Villkorligt) För bildeffekter växlar du mellan [!UICONTROL Card View] och [!UICONTROL List View] genom att klicka på ikonen [!UICONTROL Card View] eller ikonen [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket. Du kan också använda [!UICONTROL View Settings] för att konfigurera kolumnerna när du visar [!UICONTROL List View].
 
    Följande bild visar de tillgängliga alternativen när du visar [!UICONTROL List View]:
 
@@ -31,19 +29,19 @@ Information om de uppgifter du kan utföra på en resurs i innehållsbiblioteket
 
 1. Utför den önskade åtgärden enligt följande avsnitt:
 
-## Alternativ för erbjudanden
+## Alternativ för [!UICONTROL Code Offers]
 
 När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder för ett objekt genom att hålla markören över ett erbjudande eller en mapp och sedan välja lämplig ikon.
 
-![Hovringsikoner på fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
+![Hovringsikoner på fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons-new.png)
 
-* **Information**: Visa information om erbjudandet.
+* **Information**: Klicka på ikonen [!UICONTROL Information] om du vill visa erbjudandets information, inklusive [!UICONTROL Offer ID], [!UICONTROL Type], [!UICONTROL Last Modified] (datum, tid och modifierarens namn). Klicka på [!UICONTROL Full Details] om du vill visa ytterligare information, inklusive erbjudandeattribut och aktivitetsanvändning (aktivitetsnamn, status, arbetsyta och ändringsdatum och -tid).
 * **Redigera**: Redigera mappen eller erbjudandet.
 * **Kopiera**: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
-* **Flytta**: Klicka på ikonen Flytta, navigera till den plats där du vill flytta erbjudandet eller mappen och klicka sedan på ikonen **[!UICONTROL Drop]** . Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar. Klicka på [!UICONTROL Clear Selection] om du vill avmarkera erbjudanden eller mappar som du har markerat.
 * **Ta bort**: Ta bort erbjudandet eller mappen. Se [Att tänka på när du tar bort objekt](#delete).
+* **Flytta**: Klicka på ikonen [!UICONTROL Move], navigera till platsen dit du vill flytta erbjudandet eller mappen och klicka sedan på **[!UICONTROL Move]**. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar.
 
-## Alternativ för bilderbjudanden
+## Alternativ för [!UICONTROL Image Offers]
 
 När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder för ett objekt genom att hålla markören över ett erbjudande eller en mapp och sedan välja lämplig ikon.
 
@@ -72,24 +70,15 @@ Följande bild visar hovringsikonerna när [!UICONTROL List View] visas. Om du v
    * Flytta
 
 * **Hämta**: Hämta bilderbjudandet eller mappen och dess innehåll.
-* **Visa egenskaper**: Visa objektets egenskaper. Klicka på fliken [!UICONTROL Basic] och fliken [!UICONTROL Advanced] för att visa all tillgänglig information. Klicka på pennikonen på egenskapssidan för att redigera egenskaperna och lägga till mer information. Du kan lägga till metadatainformation, publiceringsstatus och licensdata.
+* **Visa egenskaper**: Visa objektets egenskaper. Klicka på fliken [!UICONTROL Basic] och fliken [!UICONTROL Advanced] för att visa all tillgänglig information. Du kan redigera egenskaperna och lägga till mer information. Du kan lägga till metadatainformation, publiceringsstatus och licensdata.
 * **Fler åtgärder**: Visa ytterligare alternativ i [!UICONTROL Card View].
 * **Redigera**: Redigera mappen eller erbjudandet.
 * **Anteckning**: Lägg till en anteckning till resursen. Klicka på resursen, markera området som du vill kommentera och skriv anteckningen.
 * **Kopiera**: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
+* **Flytta**: Klicka på ikonen [!UICONTROL Move], navigera till platsen dit du vill flytta erbjudandet eller mappen och klicka sedan på **[!UICONTROL Move]**. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar.
 
 ## Att tänka på när du tar bort objekt {#delete}
 
-* Du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i målgränssnittet och i användargränssnittet för Adobe Experience Cloud Assets.
+* Du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i användargränssnittet för [!DNL Target] och i användargränssnittet för [!DNL Adobe Experience Cloud Assets].
 * Om du tar bort en mapp med ett stort antal bilder kan processen som körs bakom scenerna ta tid (flera minuter) innan användargränssnittet uppdateras för att visa det slutliga läget. Den tid som krävs är en funktion av antalet bilder, inte bildens storlek. En bra uppskattning är tio minuter för 2 000 bilder. Du kan fortsätta med annat arbete och kontrollera det slutliga läget efter flera minuter för att bekräfta borttagningen.
-* Mappar som inte är tomma i bilderbjudandebiblioteket kan tas bort. Om inga referenser finns till alla bilder i mappen i någon aktivitet tas hela mappen och dess innehåll bort. Om det finns referenser till vissa bilder i mappen i någon aktivitet, tas alla bilder som inte refereras bort, men refererade bilder och mappar som innehåller dessa bilder behålls.
-
-## Utbildningsvideo: Märket ![Översikt för innehållsdatabasen](/help/main/assets/overview.png)
-
-Den här videon innehåller information om hur du hanterar innehåll. (4:56)
-
-* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
-* Erbjudanden för anpassade HTML
-* Anpassat HTML-erbjudande i Visual Experience Composer
-
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+* Mappar som inte är tomma i [!UICONTROL Image Offer library] kan tas bort. Om inga referenser finns till alla bilder i mappen i någon aktivitet tas hela mappen och dess innehåll bort. Om det finns referenser till vissa bilder i mappen i någon aktivitet, tas alla bilder som inte refereras bort, men refererade bilder och mappar som innehåller dessa bilder behålls.
