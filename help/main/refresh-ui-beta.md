@@ -6,22 +6,24 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers] och [!UICONTROL Recommendations] UI-uppdateringsprogram för Beta
 
-Använd länkarna i den här artikeln för att komma åt uppdaterad dokumentation som en del av Beta-programmet för [!DNL Adobe Target]-gränssnittsuppdateringen för [!UICONTROL Activities], [!UICONTROL Offers] och [!UICONTROL Recommendations].
+Använd de här länkarna för att komma åt uppdaterad dokumentation som en del av Beta-programmet för gränssnittsuppdateringen [!DNL Adobe Target] för [!UICONTROL Activities], [!UICONTROL Offers] och [!UICONTROL Recommendations].
 
 >[!NOTE]
 >
->Informationen i dessa artiklar uppdateras ofta under Beta.
+>[!DNL Adobe Target]-teamet aktiverar ofta nya funktioner för utvalda kunder i testnings- och feedbacksyfte. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtida [!DNL Target]-versioner och presenteras i versionsinformationen.
+>
+>Informationen i dessa artiklar uppdateras ofta under Beta utan föregående meddelande.
 
-+++ Aktiviteter (klicka för att expandera)
++++aktiviteter (klicka för att expandera)
 
 + [Översikt över aktiviteter](c-activities/activities.md){target=_blank}
 + [Målaktivitetstyper](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ Använd länkarna i den här artikeln för att komma åt uppdaterad dokumentatio
 
 +++
 
-+++ Erbjudanden (klicka för att expandera)
++++Erbjudanden (klicka för att expandera)
 
 + [Översikt över erbjudanden](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [Skapa erbjudandemapp](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
