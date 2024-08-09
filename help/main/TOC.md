@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 4e5c3c1f93459619ff4d016af47f7f8ba9b16c2d
+source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
    + [Systemstatusuppdateringar och proaktiva meddelanden](r-release-notes/system-status-updates.md)
    + [Dokumentationsändringar](r-release-notes/doc-change.md)
    + [Versionsinformation för tidigare versioner](r-release-notes/release-notes-for-previous-releases.md)
-   + [Verksamheter, erbjudanden och Recommendations UI - uppdatera Beta](/help/main/r-release-notes/refresh-ui-beta.md)
+   + [Verksamheter, erbjudanden och Recommendations UI - uppdatera Beta](/help/main/refresh-ui-beta.md)
 + Introduktion {#introduction}
    + [Introduktion till Target](c-intro/intro.md)
    + [Åtkomstmål från Adobe Experience Cloud](c-intro/target-access-from-mac.md)
