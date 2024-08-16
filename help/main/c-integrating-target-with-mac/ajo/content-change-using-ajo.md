@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bbf56b2d041ea6537116d900278242a7a679dedd
+source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Innehållet ändras via A/B-testning i [!DNL Adobe Journey Optimizer]
 
 Det här användningsexemplet hjälper dig att låsa upp hemligheter för effektiva ändringar av A/B-testinnehåll i [!DNL Adobe Journey Optimizer].
+
+Det här användningsexemplet är utformat för att visa hur du utför en välbekant åtgärd i [!DNL Adobe Target], A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md), men med [!DNL Journey Optimizer].
 
 ## Scenario
 
@@ -29,6 +31,10 @@ Ett klädföretag ökade konverteringarna genom att testa olika bilder och perso
 
 ## Stegvisa instruktioner
 
+>[!NOTE]
+>
+>Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*.
+
 Utför följande steg för att optimera en webbsida genom att testa olika bilder och anpassa meddelanden med användarnas förnamn:
 
 1. I [!DNL Adobe Journey Optimizer] klickar du på **Kampanjer** i den vänstra listen för att visa sidan [!UICONTROL Campaigns].
@@ -41,21 +47,27 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
 
    ![Kampanjinformationssida i Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. Ange ett beskrivande namn och en valfri beskrivning av kampanjen.
+1. I avsnittet **[!UICONTROL Properties]** anger du ett beskrivande namn och en valfri beskrivning för kampanjen.
 
-1. (Villkorligt) Klicka på **[!UICONTROL Select Audience]** och välj önskade målgrupper.
+1. (Villkorligt) Klicka på **[!UICONTROL Select Audience]** i avsnittet **[!UICONTROL Audience]** och välj önskad målgrupp.
 
    I det här fallet valde vi att aktivera kampanjen för alla besökare (standardinställningen).
 
-1. Välj **[!UICONTROL Web]** i listrutan **[!UICONTROL Action]** och välj eller skapa en ny webbkonfiguration.
+1. I avsnittet **[!UICONTROL Action]** väljer du **[!UICONTROL Web]** i listrutan **[!UICONTROL Action]** och väljer eller skapar sedan en ny webbkonfiguration.
 
-   En webbkonfiguration, eller kanalyta, är en konfiguration som har definierats av en systemadministratör. Webbkonfigurationen innehåller alla tekniska parametrar för att skicka meddelandet, som rubrikparameter, underdomän, mobilappar och så vidare.
+   En webbkonfiguration, eller kanalyta, är en konfiguration som definieras av en systemadministratör. Webbkonfigurationen innehåller alla tekniska parametrar för att skicka meddelandet, som rubrikparameter, underdomän, mobilappar och så vidare.
 
    Mer information finns i [Konfigurera kanalytor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} i *Journey Optimizer-dokumentationen*.
 
-1. Klicka på **[!UICONTROL Edit Content]** för att öppna din webbplats i webbdesignern [!DNL Journey Optimizer].
+1. Klicka på **[!UICONTROL Edit Content]** i avsnittet **[!UICONTROL Action]** för att öppna din webbplats i webbdesignern [!DNL Journey Optimizer].
+
+   Två eller flera försök krävs för A/B-testning. Du kan använda din befintliga hemsida som första experiment. Efterföljande steg förklarar hur du skapar ett andra experiment.
 
    ![Yoga-landningssida på LUMA-webbplatsen](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+
+1. Om du vill skapa ett experiment för att testa vilket innehåll som fungerar bäst klickar du på **[!UICONTROL Create Experiment]**.
+
+   Med innehållsexperiment kan du ändra meddelandets innehåll, ämne eller avsändare för att definiera flera behandlingar och avgöra vilken kombination som är bäst för era målgrupper. Mer information finns i [Skapa ett innehållsexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 1. Klicka på **[!UICONTROL Edit Web Page]** i den högra listen.
 
@@ -73,6 +85,8 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
 
    ![Knappen Lägg till Personalization.](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
+   Mer information om profilattribut finns i [Kom igång med personaliseringsredigeraren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} i *Journey Optimizer-dokumentationen*.
+
 1. Sök efter och markera profilattributet för förnamn, justera texten efter behov och klicka sedan på **[!UICONTROL Save]**.
 
    ![Lägg till profilattribut för namnet](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
@@ -84,6 +98,15 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
    ![Bakåtpil](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
 1. Klicka på **[!UICONTROL Review to Activate]**, kontrollera att allt ser ut som förväntat och klicka sedan på **Aktivera**.
+
+## Visa rapporter
+
+Klicka på knappen Rapporter och klicka sedan på önskad rapportperiod:
+
+* [!UICONTROL View all time report]
+* [!UICONTROL View last 24hrs report]
+
+Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 >[!MORELIKETHIS]
 >
