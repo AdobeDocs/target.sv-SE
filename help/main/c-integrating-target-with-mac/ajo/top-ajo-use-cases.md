@@ -1,19 +1,19 @@
 ---
-keywords: optimera;personalisering;adobe-reseoptimering;ajo;användningsfall;scenarier
+keywords: optimering;personalisering;adobe-reseoptimering;ajo;användningsfall;scenarier;webb;kodbaserad
 description: Upptäck hur ni kan implementera de mest effektiva optimeringsanvändningsexemplen i  [!DNL Adobe Journey Optimizer].
-title: Mastering Optimization - Top Use Case in [!DNL Adobe Journey Optimizer]
+title: Top Optimization Use Case in [!DNL Adobe Journey Optimizer] - web and code-based channel
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: b41785c4dfd0270bb234f54fc1bf88ed2343e905
+source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
 
-# Mastering Optimization - Top Use Case in [!DNL Adobe Journey Optimizer]
+# De vanligaste användningsexemplen för optimering i [!DNL Adobe Journey Optimizer] - webb- och kodbaserade kanaler
 
 Upptäck hur ni effektivt implementerar de mest effektiva optimeringsanvändningsexemplen i [!DNL Adobe Journey Optimizer].
 
@@ -27,5 +27,7 @@ För följande användningsområden behöver du följande:
 ## Användningsexempel
 
 I följande exempel visas hur du utför välkända uppgifter från [!DNL Target] i [!DNL Adobe Journey Optimizer], så att du kan se skillnader och likheter i körningen.
+
+De här användningsområdena gäller webb- och kodbaserade kanaler.
 
 * [Innehållet ändras via A/B-testning i  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
