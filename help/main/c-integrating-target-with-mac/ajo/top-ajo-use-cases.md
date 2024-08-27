@@ -6,16 +6,16 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# De vanligaste användningsexemplen för optimering i [!DNL Adobe Journey Optimizer] - webb- och kodbaserade kanaler
+# De vanligaste användningsområdena för optimering i [!DNL Adobe Journey Optimizer] - webb- och kodbaserade kanaler
 
-Upptäck hur ni effektivt implementerar de mest effektiva optimeringsanvändningsexemplen i [!DNL Adobe Journey Optimizer].
+Upptäck hur ni effektivt implementerar de mest effektiva optimeringsanvändningsexemplen i [!DNL Adobe Journey Optimizer] i webb- och kodbaserade kanaler.
 
 ## Förutsättningar
 

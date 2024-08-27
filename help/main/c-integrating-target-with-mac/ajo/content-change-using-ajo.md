@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,13 @@ ht-degree: 0%
 
 Det här användningsexemplet hjälper dig att låsa upp hemligheter för effektiva ändringar av A/B-testinnehåll i [!DNL Adobe Journey Optimizer].
 
-Det här användningsexemplet är utformat för att visa hur du utför en välbekant åtgärd i [!DNL Adobe Target], A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md), men med [!DNL Journey Optimizer].
+Det här användningsexemplet är utformat för att visa hur du utför välkända uppgifter i [!DNL Adobe Target], A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md), men med [!DNL Journey Optimizer].
 
-## Scenario
+## Möjliga scenarier
 
-Ett klädföretag ökade konverteringarna genom att testa olika bilder och personalisera kampanjlandningssidor med användarnas förnamn från sina profilattribut.
+* Ett klädföretag ökade konverteringarna genom att testa olika bilder och personalisera kampanjlandningssidor med användarnas förnamn från sina profilattribut.
+
+* Genom att testa olika produktbeskrivningar och bilder på en kampanjlandningssida fann ett e-handelsföretag att dess guldkunder hade högre konverteringsgrad, vilket ledde till ökad försäljning.
 
 ## Fördelar och värde
 
@@ -29,13 +31,13 @@ Ett klädföretag ökade konverteringarna genom att testa olika bilder och perso
 * **Datadrivna beslut**: Utnyttja data för att fatta välgrundade beslut i hela innehållsstrategin, vilket ger maximal effekt.
 * **Personlig användarupplevelse**: Anpassa innehållet efter de unika preferenserna och behoven för alla era målgruppssegment.
 
-## Stegvisa instruktioner
+## Steg
 
 >[!NOTE]
 >
->Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*.
+>Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*. Videon längst ned på sidan är särskilt användbar.
 
-Utför följande steg för att optimera en webbsida genom att testa olika bilder och anpassa meddelanden med användarnas förnamn:
+Utför följande steg för att optimera en webbsida genom att testa olika bilder och anpassa meddelanden med användarens förnamn med hjälp av ett profilskript:
 
 1. I [!DNL Adobe Journey Optimizer] klickar du på **Kampanjer** i den vänstra listen för att visa sidan [!UICONTROL Campaigns].
 
@@ -51,7 +53,7 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
 
 1. (Villkorligt) Klicka på **[!UICONTROL Select Audience]** i avsnittet **[!UICONTROL Audience]** och välj önskad målgrupp.
 
-   I det här fallet valde vi att aktivera kampanjen för alla besökare (standardinställningen).
+   I det här fallet valde vi att aktivera kampanjen för [!UICONTROL All Visitors] (standardvärdet).
 
 1. I avsnittet **[!UICONTROL Action]** väljer du **[!UICONTROL Web]** i listrutan **[!UICONTROL Action]** och väljer eller skapar sedan en ny webbkonfiguration.
 
@@ -111,6 +113,6 @@ Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](http
 >[!MORELIKETHIS]
 >
 >[Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*
->[Instruktionsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank} i *Journey Optimizer-dokumentationen*
+>[Instruktionsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} i *Journey Optimizer-dokumentationen*
 >[Skapa en kampanj ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer Tutorials*
 
