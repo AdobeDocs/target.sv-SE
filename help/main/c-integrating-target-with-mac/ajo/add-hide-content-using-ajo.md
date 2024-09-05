@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,13 @@ Utför följande steg för att lägga till komponenter eller för att dölja kom
 
    ![Yoga-landningssida på LUMA-webbplatsen](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Om du vill lägga till en knapp för att ringa upp till åtgärd klickar du på **[!UICONTROL Edit Web Page]** i den högra listen.
+1. Om du vill lägga till ett dolt element klickar du på **[!UICONTROL Edit Web Page]** i den högra listen.
 
-1. Klicka på
+1. Klicka på elementet som du vill dölja och klicka sedan på knappen [!UICONTROL Hide] i den högra listen.
+
+   Den högra listen visar alternativ som du kan utföra på det markerade elementet. De här alternativen varierar beroende på vilket element som är markerat.
+
+   ![Dölj elementknapp](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Klicka på bakåtpilen i det övre vänstra hörnet för att gå tillbaka till webbdesignern.
 
