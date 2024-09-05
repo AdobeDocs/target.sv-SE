@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,7 @@ ht-degree: 2%
       + Adobe Journey Optimizer-användningsexempel {#use-cases}
          + [De vanligaste användningsområdena för optimering i Adobe Journey Optimizer - webb- och kodbaserade kanaler](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Innehållsförändringar via A/B-tester i Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + [Lägga till eller dölja komponenter på webbsidan](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrera mål med Adobe Experience Manager (AEM) {#aem}
       + [Integrera Target med AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
