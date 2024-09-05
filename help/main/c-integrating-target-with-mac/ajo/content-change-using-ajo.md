@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,9 @@ ht-degree: 0%
 
 Det här användningsexemplet hjälper dig att låsa upp hemligheter för effektiva ändringar av A/B-testinnehåll i [!DNL Adobe Journey Optimizer].
 
-Det här användningsexemplet är utformat för att visa hur du utför välkända uppgifter i [!DNL Adobe Target], A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md), men med [!DNL Journey Optimizer].
+I det här användningsexemplet visas hur du utför välkända uppgifter, till exempel A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md), med [!DNL Journey Optimizer] i stället för [!DNL Adobe Target].
 
-## Möjliga scenarier
-
-* Ett klädföretag ökade konverteringarna genom att testa olika bilder och personalisera kampanjlandningssidor med användarnas förnamn från sina profilattribut.
-
-* Genom att testa olika produktbeskrivningar och bilder på en kampanjlandningssida fann ett e-handelsföretag att dess guldkunder hade högre konverteringsgrad, vilket ledde till ökad försäljning.
+Det här användningsexemplet är utformat för att visa hur du utför välkända uppgifter som du kan ha utfört med [!DNL Adobe Target], A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md), men med [!DNL Journey Optimizer].
 
 ## Fördelar och värde
 
@@ -31,11 +27,19 @@ Det här användningsexemplet är utformat för att visa hur du utför välkänd
 * **Datadrivna beslut**: Utnyttja data för att fatta välgrundade beslut i hela innehållsstrategin, vilket ger maximal effekt.
 * **Personlig användarupplevelse**: Anpassa innehållet efter de unika preferenserna och behoven för alla era målgruppssegment.
 
+## Möjliga scenarier
+
+* Ett klädföretag ökade konverteringarna genom att testa olika bilder och personalisera kampanjlandningssidor med användarnas förnamn i texten som anropar till åtgärd.
+
+* Ett e-handelsföretag fann att deras guldkunder hade högre konverteringsgrad genom att testa olika produktbeskrivningar och bilder på en kampanjstartsida, vilket ledde till ökad försäljning.
+
 ## Steg
 
 >[!NOTE]
 >
->Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*. Videon längst ned på sidan är särskilt användbar.
+>Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*.
+>
+>Videon längst ned på sidan är särskilt användbar.
 
 Utför följande steg för att optimera en webbsida genom att testa olika bilder och anpassa meddelanden med användarens förnamn med hjälp av ett profilskript:
 
@@ -53,7 +57,7 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
 
 1. (Villkorligt) Klicka på **[!UICONTROL Select Audience]** i avsnittet **[!UICONTROL Audience]** och välj önskad målgrupp.
 
-   I det här fallet valde vi att aktivera kampanjen för [!UICONTROL All Visitors] (standardvärdet).
+   I det här fallet kan du aktivera kampanjen för [!UICONTROL All Visitors] (standardvärdet).
 
 1. I avsnittet **[!UICONTROL Action]** väljer du **[!UICONTROL Web]** i listrutan **[!UICONTROL Action]** och väljer eller skapar sedan en ny webbkonfiguration.
 
@@ -67,9 +71,23 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
 
    ![Yoga-landningssida på LUMA-webbplatsen](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Om du vill skapa ett experiment för att testa vilket innehåll som fungerar bäst klickar du på **[!UICONTROL Create Experiment]**.
+1. Om du vill skapa ett experiment för att avgöra vilket innehåll som fungerar bättre klickar du på **[!UICONTROL Create Experiment]**.
 
-   Med innehållsexperiment kan du ändra meddelandets innehåll, ämne eller avsändare för att definiera flera behandlingar och avgöra vilken kombination som är bäst för era målgrupper. Mer information finns i [Skapa ett innehållsexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} i *Journey Optimizer-dokumentationen*.
+   Med innehållsexperiment kan du variera meddelandeinnehåll, ämne eller avsändare för att definiera flera behandlingar och för att fastställa den bästa kombinationen för era målgrupper. Mer information finns i [Skapa ett innehållsexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} i *Journey Optimizer-dokumentationen*.
+
+1. Välj ett framgångsmått och klicka på åtgärden.
+
+   Klicka på hjälpikonerna om du vill ha mer information och länkar till relevanta artiklar.
+
+1. Klicka på **[!UICONTROL Add Treatment]** och sedan på **[!UICONTROL Create]**.
+
+   I det här fallet kan du lämna fördelningen på 50 % för varje experiment.
+
+1. Klicka på **[!UICONTROL Edit Content]** under **[!UICONTROL Action]** på informationssidan för [!UICONTROL Campaign].
+
+1. Klicka på Webb under Behandling B
+
+   I det här fallet ska [!UICONTROL Treatment A] inte ändras om du vill använda den ursprungliga upplevelsen som första upplevelse i A/B-testet.
 
 1. Klicka på **[!UICONTROL Edit Web Page]** i den högra listen.
 
@@ -89,7 +107,7 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
 
    Mer information om profilattribut finns i [Kom igång med personaliseringsredigeraren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} i *Journey Optimizer-dokumentationen*.
 
-1. Sök efter och markera profilattributet för förnamn, justera texten efter behov och klicka sedan på **[!UICONTROL Save]**.
+1. Sök efter och klicka på plustecknet för att lägga till profilattributet för&quot;förnamn&quot;, justera texten efter behov och klicka sedan på **[!UICONTROL Save]**.
 
    ![Lägg till profilattribut för namnet](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
@@ -103,7 +121,7 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
 
 ## Visa rapporter
 
-Klicka på knappen Rapporter och klicka sedan på önskad rapportperiod:
+Klicka på knappen [!UICONTROL Reports] och klicka sedan på önskad rapportperiod:
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
