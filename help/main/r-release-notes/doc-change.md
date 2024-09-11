@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 95e6802f5ba5e56962302c37691cc499d79cf68a
+source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 11 september | [Användare](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Följande anteckning har lagts till under Ange roller och behörigheter:<P> Om du vill visa aktiviteter i [!DNL Target] måste användare tilldelas direkt till en arbetsyta med minst rollen [!UICONTROL Observer]. Tilldelning via enbart användargrupper är inte tillräcklig. Vi rekommenderar att du ger användarna tillgång till standardarbetsytan. |
 | 1 augusti | [Vanliga frågor om Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Följande vanliga frågor och svar har lagts till:&quot;Kan jag hantera [!DNL Target] visuella erbjudanden skapade i användargränssnittet med [!DNL Target] API:er?&quot; |
 | 10 juli | [Proxykonfiguration (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | Lagt till nytt avsnitt: Enhetsbeslut |
 | 3 juni | [Prioritet](/help/main/c-activities/priority.md) | Hela ämnet har uppdaterats, inklusive att innehåll från flera [!UICONTROL Form-Based Experience Composer]- och VEC-aktiviteter kan leverera. Tidigare kunde bara en aktivitet i det formulärbaserade arbetsflödet levereras. Det finns inte längre någon gräns för hur många formulärbaserade aktiviteter som kan leverera. |

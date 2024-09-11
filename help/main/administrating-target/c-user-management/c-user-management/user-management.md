@@ -5,9 +5,9 @@ title: Hur lägger jag till användare och hanterar behörigheter för ett [!DNL
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,10 @@ Du kan skapa användargrupper, till exempel utvecklare, analytiker, marknadsför
 Endast systemadministratörer kan ange användarroller i [!DNL Target]. En [!UICONTROL Standard]-godkännaranvändare kan till exempel inte ändra en observatör till en godkännare utan att ha [!DNL Experience Cloud] administratörsbehörighet.
 
 Systemadministratörsanvändare måste lägga till användare i systemet. Användare läggs inte till automatiskt. De bjuds in via e-post från [!DNL Experience Cloud] och måste bekräfta sina e-postadresser innan deras konton registreras.
+
+>[!NOTE]
+>
+>Om du vill visa aktiviteter i [!DNL Target] måste användare tilldelas direkt till en arbetsyta med minst rollen [!UICONTROL Observer]. Tilldelning via enbart användargrupper är inte tillräcklig. Vi rekommenderar att du ger användarna tillgång till standardarbetsytan.
 
 1. [Klicka på **[!UICONTROL Products]** i Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) och välj sedan namnet på önskad produkt.
 
