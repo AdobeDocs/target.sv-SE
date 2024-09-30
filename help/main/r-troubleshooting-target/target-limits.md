@@ -5,9 +5,9 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i  [!DNL Adobe
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,9 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ### Antal erbjudanden
 
-* **Rekommenderad begränsning**: totalt 50 000 erbjudanden.
+* **Max**: totalt 150 000 erbjudanden.
+
+  Fel vid synkronisering av aktivitet uppstår om gränsen på 150 000 erbjudanden överskrids.
 
 ### Erbjudandestorlek {#offer-size}
 

@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 30 september | [Gränser](/help/main/r-troubleshooting-target/target-limits.md) | Antalet tillåtna erbjudanden har uppdaterats. |
 | 29 september | [versionsinformation för at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ytterligare information om at.js 2.11.6-versionen. |
 | 11 september | [Användare](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Följande anteckning har lagts till under Ange roller och behörigheter:<P> Om du vill visa aktiviteter i [!DNL Target] måste användare tilldelas direkt till en arbetsyta med minst rollen [!UICONTROL Observer]. Tilldelning via enbart användargrupper är inte tillräcklig. Vi rekommenderar att du ger användarna tillgång till standardarbetsytan. |
 | 1 augusti | [Vanliga frågor om Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Följande vanliga frågor och svar har lagts till:&quot;Kan jag hantera [!DNL Target] visuella erbjudanden skapade i användargränssnittet med [!DNL Target] API:er?&quot; |
