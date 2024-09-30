@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
+source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -19,29 +19,11 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
-## [!DNL Target] rapporterar i [!DNL Adobe Customer Journey Analytics] (8 maj 2024)
+## at.js version 2.11.6 (29 september 2024)
 
-Integrationen mellan [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} och [!DNL Target] ger kraftfulla analys- och tidsbesparande verktyg för optimeringsprogrammet.
+* Korrigerade ett problem som förhindrade [!DNL Target] från att fungera korrekt med omdirigeringserbjudanden i [!UICONTROL Visual Experience Composer] (VEC) eller [!UICONTROL Form-Based Experience Composer].
 
-De främsta fördelarna med att använda [!DNL Customer Journey Analytics] som rapportkälla för [!DNL Target] är:
-
-* Marknadsförarna kan när som helst dynamiskt tillämpa [!DNL Customer Journey Analytics]-framgångsmått på [!DNL Target]-aktivitetsrapporter. Du behöver inte ange allt innan du kör aktiviteten.
-* Marknadsförarna kan utnyttja [!DNL Customer Journey Analytics] funktioner, som [panelen Experimentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, för att ytterligare analysera webbplatspersonaliseringen.
-* Marknadsförare kan ha en enda rapportkälla för [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} och [!DNL Target]. Båda personaliseringsprodukterna kan anslutas till [!DNL Customer Journey Analytics] för en mer helhetsbild av din webbpersonalisering.
-
-Mer information finns i [Målrapportering i Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
-
-## [!UICONTROL Visual Experience Composer] hjälptillägg (23 april 2024)
-
-Det gamla hjälptillägget [!DNL Target] för Visual Experience Composer skapades med Manifest V2. [!DNL Google] meddelade att tillägg som skapats med Manifest V2 inte längre tillåts från och med juni 2024. Mer information finns i [[!UICONTROL Visual Experience Composer] hjälptillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
-
-[!DNL Adobe] rekommenderar att kunderna går över till det nyare [hjälptillägget för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) så snart som möjligt.
-
-## Uppdateringar för `Browser:iPad` och `Browser:iPhone` i [!UICONTROL Browser] målgruppsattribut (30 april 2024)
-
-| Uppdateringar | Information |
-|--- |--- |
-| [!UICONTROL Browser:iPad] och [!UICONTROL Browser:iPhone] har uppdaterats i [Webbläsarattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md) som används när målgrupper skapas. | Med [!DNL Adobe Target] kan du [ange mål för ett av flera kategoriattribut](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inklusive besökare som använder en viss [webbläsare eller webbläsaralternativ](/help/main/c-target/c-audiences/c-target-rules/browser.md) när de besöker din sida.<P>Från och med [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024) kommer inbyggda målgrupper som skapats med målgränssnittet, som `Browser:iPad` och `Browser:iPhone`, att uppdateras för att kunna utföra korrekt målinriktning för [!DNL iPad] och [!DNL iPhone] med `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` och `profile.mobile.isTablet`.<P>Uppdateringen kräver inga åtgärder från kundens sida.<p><B>Viktigt</b>: För att kunder ska kunna utföra korrekt målinriktning för [!DNL iPad] och [!DNL iPhone] i profilskript (och JavaScript-segment) måste kunden göra manuella ändringar senast den **30 april 2024**. Exempel på alternativa inställningar som måste ändras manuellt finns i [Uppdateringar för  [!DNL iPad]  och  [!DNL iPhone]  i [!UICONTROL Browser] målgruppsattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+Mer information om at.js-versioner finns i [at.js versionsinformation](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} i *Adobe Target Developer Guide*.
 
 ## Ytterligare versionsinformation
 
