@@ -1,15 +1,15 @@
 ---
 keywords: innehåll;resurser;hantera innehåll;erbjudanden;hantera resurser;ange markeringsläge;markeringsläge
-description: Upptäck hur du effektivt kan hantera kod- och bilderbjudanden med hjälp av biblioteket [!UICONTROL Offers]. Lär dig de bästa sätten och tipsen för att effektivisera arbetsflödet och förbättra dina projekt.
+description: Upptäck hur du effektivt kan hantera kod- och bilderbjudanden med hjälp av biblioteket [!UICONTROL Offers].
 title: Hur hanterar jag erbjudanden för kod och bilder?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---

@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Processen att skapa mappar för koderbjudanden och bilderbjudanden skiljer sig n
 
    ![Fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Klicka på **[!UICONTROL Create Folder].
 
 1. Ange ett beskrivande namn för mappen.
 
@@ -44,9 +44,8 @@ Mer information om de åtgärder du kan utföra på erbjudanden och mappar finns
 
 1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Fliken Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+
 1. Ange en beskrivande **[!UICONTROL Title]** för mappen.
 
    Du kan t.ex. inkludera den typ av innehåll som det innehåller.
@@ -54,9 +53,9 @@ Mer information om de åtgärder du kan utföra på erbjudanden och mappar finns
    Namnet får inte innehålla följande tecken: Percent-tecken `%`, snedstreck `/`, omvänt snedstreck `\`, kolon `:`, asterisk `*`, frågetecken `?`, dubbla citattecken `"`, hakparentes `[`, hakparentes `]`, plustecken: `+`, pipe: `|`, punkt: `.`, Number -tecken: `#`, klammerparentes: `{`, klammerparentes `}`, cirkumflex `^` eller semikolon `;` . Du kan använda ett bindestreck ( `- `) i stället för dessa tecken.
 
 1. (Valfritt) Ange en beskrivande **[!UICONTROL Name]**.
-1. (Valfritt) Markera kryssrutan **[!UICONTROL Private]** för att ange att mappen är privat så att bara du kan se den och dess innehåll.
+1. (Valfritt) Välj **[!UICONTROL Private]** om du vill ange att mappen är privat så att bara du kan se den och dess innehåll.
 
-1. (Valfritt) Markera kryssrutan **[!UICONTROL Reorder-able in List View]** för att ange att du och andra kan ändra ordning på mappens position i [!UICONTROL List View].
+1. (Valfritt) Välj **[!UICONTROL Reorder-able in List View]** för att ange att du och andra kan ändra ordning på mappens position i [!UICONTROL List View].
 
 1. Klicka på **[!UICONTROL Create]**.
 

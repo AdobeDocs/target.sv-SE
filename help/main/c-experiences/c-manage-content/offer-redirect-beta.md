@@ -1,15 +1,15 @@
 ---
-keywords: omdirigeringserbjudande;skapa omdirigeringserbjudande;lägg till html-erbjudande;Skicka alla URL-parametrar i omdirigering;Pass mboxSessionId i omdirigering (behövs endast när omdirigeringen går till en annan domän)
-description: Lär dig hur du skapar omdirigeringserbjudanden i  [!DNL Target]  för att få en webbläsare att dirigera om till en ny sida.
+keywords: omdirigeringserbjudande;skapa omdirigeringserbjudande;lägg till html-erbjudande;Skicka alla URL-parametrar vid omdirigering
+description: Lär dig hur du skapar omdirigeringserbjudanden för att få en webbläsare att dirigera om till en ny sida.
 title: Hur skapar jag omdirigeringserbjudanden?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 182b5f286edd33f24b2b7efe3f9c583f7d0bc1ca
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Det kan finnas två helt olika sidor att testa i stället för att bara ändra i
 >
 >* Du kan inte använda omdirigeringserbjudanden i AJAX (`mboxUpdate`).
 >
->* För omdirigeringserbjudanden i aktiviteter där Analytics används som rapportkälla (A4T) måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T - frågor och svar](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+>* För omdirigeringserbjudanden i aktiviteter som använder [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Mer information finns i [Omdirigeringserbjudanden - A4T - frågor och svar](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
 >* Mer information om hur du konfigurerar en omdirigerad upplevelse finns i [Omdirigera till en URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
 
@@ -43,18 +43,12 @@ Omdirigeringserbjudandet verkställer JavaScript-kod för omdirigering av webbl�
 ## Skapa ett omdirigeringserbjudande från sidan [!UICONTROL Code Offers]
 
 1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Code Offers]**.
-
-   ![Fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. Klicka på **[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]**.
-
-   ![Dialogrutan Skapa omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer-new.png)
-
 1. Ange ett beskrivande namn för erbjudandet.
 
    Ett beskrivande namn hjälper dig och andra att snabbt hitta erbjudandet i biblioteket [!UICONTROL Assets].
 
-1. (Villkorligt) Om du har ett [målPremium-konto](/help/main/c-intro/intro.md#premium) väljer du önskad [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Villkorligt) Om du har ett [Target Premium-konto](/help/main/c-intro/intro.md#premium) väljer du önskad [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Ange URL:en för det unika innehåll eller mål som du vill omdirigera till. Denna URL måste vara en absolut URL.
 
@@ -64,7 +58,7 @@ Omdirigeringserbjudandet verkställer JavaScript-kod för omdirigering av webbl�
 
 1. Välj alternativ för att anpassa omdirigeringserbjudandet:
 
-   * **Inkludera alla URL-parametrar:** Aktivera det här alternativet genom att dra i växlingsknappen om du vill att alla URL-parametrar som finns på föregående sida ska spridas till den omdirigerade sidan.
+   * **Inkludera alla URL-parametrar:** Aktivera det här alternativet om du vill att alla URL-parametrar som finns på föregående sida ska spridas till den omdirigerade sidan.
 
      Du vill t.ex. omdirigera personer direkt från en mäns sida till en mäns skjortkategorisida. Du vill också att de dynamiska parametrarna i URL:en ska skickas eftersom det är så här du spårar om någon har nått webbplatsen via e-post, banderollannons, sökannons eller organiskt. Genom att aktivera det här alternativet blir ditt omdirigeringserbjudande på sidan `https://www.mycompany.com/mens.html?emailId=123` automatiskt `https://www.mycompany.com/mensShirts.html?emailId=123` när allt du angav i URL-rutan var `https://www.mycompany.com/mensShirts.html`.
 
@@ -81,17 +75,8 @@ Omdirigeringserbjudandet verkställer JavaScript-kod för omdirigering av webbl�
 ## Skapa ett omdirigeringserbjudande med [!UICONTROL Form-Based Experience Composer]
 
 1. När du skapar en aktivitet med [formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md) väljer du platsen där avsnittet **[!UICONTROL Content]** ska visas.
-
-   ![Innehållsavsnitt i formulärbaserad Experience Composer](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. Klicka på listrutan **[!UICONTROL Default Content]** och sedan på **[!UICONTROL Change Redirect Offer]**.
-
-   ![Ändra omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
-
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
-
-   ![Dialogrutan Skapa omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
-
 1. Ange ett beskrivande namn för erbjudandet.
 
    Ett beskrivande namn hjälper dig och andra att snabbt hitta erbjudandet i biblioteket [!UICONTROL Assets].
@@ -122,7 +107,7 @@ Omdirigeringserbjudandet verkställer JavaScript-kod för omdirigering av webbl�
 
 Du måste tillämpa omdirigeringserbjudanden med [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md). Du kan för närvarande inte tillämpa omdirigeringserbjudanden med [!UICONTROL Visual Experience Composer] (VEC).
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] är en icke-visuell upplevelse och erbjuder ett gränssnitt som är användbart när du skapar upplevelser som ska användas i [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- och [!UICONTROL Recommendations]-aktiviteter när den visuella upplevelsedispositionen inte är tillgänglig eller praktisk att använda. Du kan till exempel använda [!UICONTROL Form-Based Experience Composer] för att skapa upplevelser som använder omdirigeringserbjudanden.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] är en icke-visuell upplevelse och erbjuder ett gränssnitt som är användbart när du skapar upplevelser som ska användas i [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- och [!UICONTROL Recommendations]-aktiviteter när Visual Experience Composer inte är tillgängligt eller praktiskt att använda. Du kan till exempel använda [!UICONTROL Form-Based Experience Composer] för att skapa upplevelser som använder omdirigeringserbjudanden.
 
 1. Skapa eller redigera en aktivitet i [!UICONTROL Form-Based Experience Composer].
 
@@ -131,11 +116,7 @@ Du måste tillämpa omdirigeringserbjudanden med [[!UICONTROL Form-Based Experie
 1. Ange önskad plats och lägg till eventuella målgruppsförbättringar efter behov.
 
 1. Klicka på listrutan i avsnittet **[!UICONTROL Content]** och sedan på **[!UICONTROL Change Redirect Offer]**.
-
-   ![Ändra omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
-
 1. Välj önskat omdirigeringserbjudande i dialogrutan [!UICONTROL Select Remote Offer] och klicka sedan på **[!UICONTROL Done]**.
-
 1. Slutför konfigurationen av aktiviteten.
 
 ## Utbildningsvideo: Formulärbaserad disposition ![Tutorial badge](/help/main/assets/tutorial.png)
