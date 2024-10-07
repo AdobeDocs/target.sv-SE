@@ -4,9 +4,9 @@ description: Hitta svar på frågor som ofta ställs om att visa rapporter när 
 title: Hitta svar på frågor om att visa rapporter med A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2539'
 ht-degree: 1%
 
 ---
@@ -33,12 +33,10 @@ Ett segment kan också läggas i lager direkt i friformstabellen, men observera 
 
 +++
 
-## Kan jag använda samma Touch-Attribution IQ i [!DNL Analysis Workspace]?
+## Vilken Attribution IQ används i [!DNL Analysis Workspace]?
 
 +++Svar
-När du använder [!DNL Target] aktivitetsavtryck och konverteringar i [!DNL Analysis Workspace] ska du använda modellen Same Touch för Attribution IQ för att säkerställa korrekt räkning. Om du vill använda en [icke-standardattribueringsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) högerklickar du på måttet för att **ändra kolumninställningar > aktivera Använd icke-standardattribueringsmodell > välj samma Touchmodell**. Om den här modellen inte används överskattas mätvärdena.
-
-Alla aktuella [!DNL Adobe Analytics]-paket kan lägga till modellen med [!UICONTROL Attribution IQ]. Om du inte har tillgång till [!UICONTROL Attribution IQ] kan du förlita dig på A4T-data i [!UICONTROL Reports & Analytics].
+När du använder [!DNL Target] aktivitetsavtryck och konverteringar i [!DNL Analysis Workspace] är Attribution IQ&quot;Same Touch&quot; standardmodellen som används för mätvärdena för att säkerställa korrekt räkning. Den här modellen fungerar bra i 99 % av fallen. Du kan dock åsidosätta den här standardtilldelningen i Attribution IQ.
 
 +++
 
