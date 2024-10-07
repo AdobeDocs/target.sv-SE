@@ -4,14 +4,14 @@ description: Lär dig hur du söker efter kod och bilderbjudanden i biblioteket 
 title: Hur söker jag efter innehåll i offertbiblioteket?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Sök innehåll
+# Söka efter och filtrera innehåll
 
 Sök efter resurser efter nyckelord i biblioteket [!UICONTROL Offers] i [!DNL Adobe Target].
 

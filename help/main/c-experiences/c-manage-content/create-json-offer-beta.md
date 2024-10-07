@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,7 @@ Tänk på följande när du arbetar med JSON:
 ## Skapa ett JSON-erbjudande {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-
-   ![Erbjudanden > fliken Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
 1. Klicka på **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
-
-   ![offer-json-bild](assets/offer-json-new.png)
-
 1. Skriv ett erbjudandenamn.
 1. (Villkorligt) Om du har ett [[!DNL Target] Premium-konto](/help/main/c-intro/intro.md#premium) väljer du önskad [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
 1. (Villkorligt) Välj önskade profilattribut.
@@ -143,6 +137,4 @@ Mer information finns i [Dela CDP-profilattribut i realtid med  [!DNL Target]](/
 
 ## Filtrera erbjudanden efter erbjudandetypen JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Du kan filtrera biblioteket [!UICONTROL Offers] med JSON-erbjudandetypen genom att klicka på ikonen **[!UICONTROL Show filters]** och sedan markera kryssrutan **[!UICONTROL JSON]**.
-
-![offer-json-filterbild](assets/offer-json-filter-new.png)
+Du kan filtrera biblioteket [!UICONTROL Offers] med JSON-erbjudandetypen genom att klicka på ikonen **[!UICONTROL Show filters]** ( ![ikonen Visa filter](/help/main/assets/icons/Filter.svg) ) och sedan markera kryssrutan **[!UICONTROL JSON Offers]** .
