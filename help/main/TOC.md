@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
+source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1394'
 ht-degree: 2%
 
 ---
@@ -123,8 +123,11 @@ ht-degree: 2%
          + [Skapa ett A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Skapa en betaversion av A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [Aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
+         + [Beta för aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [Lägg till upplevelse](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
+         + [Lägg till upplevelsebetaversion](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [Välj målgrupp](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [Välj målgruppsbeta](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Använd analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
