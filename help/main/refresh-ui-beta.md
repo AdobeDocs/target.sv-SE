@@ -6,7 +6,8 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 23f6a8bfd198649ea1e234dbd57593eb868fc569
+exl-id: 54834393-9121-41e7-93fb-b00924869d73
+source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -30,19 +31,19 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
 * [Översikt över aktiviteter](c-activities/activities.md){target=_blank}
 * [Målaktivitetstyper](c-activities/target-activities-guide.md){target=_blank}
 * A/B-test {#abtest}
-   * [Översikt över A/B-tester](c-activities/t-test-ab/test-ab.md){target=_blank}
+   * [Översikt över A/B-tester](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
    * [Hur länge ska du köra ett A/B-test?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
    * [Tio vanliga A/B-testfall och hur man undviker dem](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
    * [A/A-testning](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
    * Skapa ett A/B-test {#create}
-      * [Skapa ett A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
-      * [Aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
-      * [Lägg till upplevelse](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
+      * [Skapa ett A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
+      * [Aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
+      * [Lägg till upplevelse](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
       * [Välj målgrupp](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
-      * [Mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
+      * [Mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
       * [Använd analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
-      * [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [Flera upplevelsemålgrupper i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
+      * [Flera upplevelsemålgrupper i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Autoallokera {#auto-allocate}
    * [Översikt över automatisk allokering](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
@@ -180,4 +181,3 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
    * [Recommendations Classic-dokumentation](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
-
