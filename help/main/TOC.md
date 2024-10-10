@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1410'
 ht-degree: 2%
 
 ---
@@ -129,9 +129,12 @@ ht-degree: 2%
          + [Välj målgrupp](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Välj målgruppsbeta](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [Betaversion av mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Använd analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [Ange betaversion av mätvärden](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Målgrupper med olika upplevelser i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [En betaversion av flera upplevelser](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Autoallokera {#auto-allocate}
       + [Automatisk allokering - översikt](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
