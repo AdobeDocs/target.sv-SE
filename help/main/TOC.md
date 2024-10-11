@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1447'
 ht-degree: 2%
 
 ---
@@ -153,10 +153,13 @@ ht-degree: 2%
       + [Automated Personalization - översikt](c-activities/t-automated-personalization/automated-personalization.md)
       + [Slumpmässig skogsalgoritm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Skapa en Automated Personalization-aktivitet](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Skapa en betaversion av Automated Personalization-aktivitet](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Överför data för målpersonaliseringsalgoritmerna](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Datainsamling för målpersonaliseringsalgoritmer](c-activities/t-automated-personalization/ap-data.md)
       + [Uppskatta den trafik som krävs för att lyckas](c-activities/t-automated-personalization/ap-traffic-estimator.md)
+      + [Uppskatta den trafik som krävs för betaversionen](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Förhandsgranska upplevelser för ett Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Förhandsgranska upplevelser för en testbeta från Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Automated Personalization erbjudanden](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Hantera undantag](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Erbjud rapporteringsgrupper i Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
