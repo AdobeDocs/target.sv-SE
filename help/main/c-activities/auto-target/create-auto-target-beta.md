@@ -1,28 +1,27 @@
 ---
-keywords: Skapa A/B;A/B-test;A/B-aktivitet;ny a/b-aktivitet;skapa a/b
-description: Hantera [!UICONTROL Visual Experience Composer] (VEC) för att skapa A/B-testaktiviteter direkt på en  [!DNL Target]-aktiverad sida.
-title: Hur skapar jag ett A/B-test?
-feature: A/B Tests
+keywords: Skapa automatiskt mål;A/B-test;automatiskt mål-aktivitet;ny a/b-aktivitet;automatiskt mål;automatiskt mål för personaliserade upplevelser;personaliserad;optimering
+description: Lär dig hur du använder [!UICONTROL Visual Experience Composer] (VEC) för att skapa en [!UICONTROL Auto-Target] A/B-testaktivitet.
+title: Hur skapar jag en [!UICONTROL Auto-Target]-aktivitet?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+feature: Auto-Target
 hide: true
 hidefromtoc: true
 source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
-# Skapa en A/B-testaktivitet
+# Skapa en [!UICONTROL Auto-Target]-aktivitet
 
-Utnyttja [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Adobe Target] för att skapa [!UICONTROL A/B Test]-aktiviteter direkt på en [!DNL Target]-aktiverad sida och för att ändra sidavsnitt i [!DNL Target].
+Använd [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Adobe Target] för att skapa din [!UICONTROL Auto-Target] [!UICONTROL A/B Test]-aktivitet direkt på en [!DNL Target]-aktiverad sida och för att ändra delar av sidan i [!DNL Target].
 
 >[!NOTE]
 >
->Utöver aktiviteten [!UICONTROL Manual] (standard) [!UICONTROL A/B Test] (som beskrivs i den här artikeln) innehåller [!DNL Target] ytterligare två typer av [!UICONTROL A/B Test] aktiviteter: [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target].
->
->Se [Typer av A/B-testningsaktiviteter](/help/main/c-activities/t-test-ab/test-ab.md#types) i *Översikt över A/B-tester*.
+>[!UICONTROL Auto-Target] är tillgänglig som en del av lösningen [!DNL Target Premium]. Den här funktionen är inte tillgänglig i [!DNL Target Standard] utan en [!DNL Target Premium]-licens. Mer information om de avancerade funktioner som den här licensen innehåller finns i [Target Premium](/help/main/c-intro/intro.md).
 
-Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
+Skapa en [!UICONTROL Auto-Target]-aktivitet:
 
 1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]** i listan **[!UICONTROL Activities]**.
 
@@ -108,11 +107,11 @@ Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
 
    Du kan t.ex. begränsa antalet deltagare till 50 % av alla besökare eller 45 % av alla dina&quot;Kalifornier&quot;-målgrupper.
 
-1. Klicka på kontrollen **[!UICONTROL Traffic Allocation]** och välj sedan den trafikallokeringsmetod som du vill använda i den högra rutan enligt nedan:
+1. Klicka på kontrollen **[!UICONTROL Traffic Allocation]** och välj sedan önskad metod för trafikallokering i den högra rutan. I det här scenariot klickar du på **[!UICONTROL Auto-Taget for personalized experiences]**.
 
    ![Inställningar för trafikallokeringsmetod](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   Välj den trafikallokeringsmetod du vill använda:
+   Följande metoder för trafiktilldelning är tillgängliga:
 
    * **[!UICONTROL Manual (Default)]**: Ange hur många procent deltagare som ska se varje upplevelse. Ni kan dela upp procentsatserna jämnt mellan alla upplevelser eller ange högre eller lägre procenttal för varje upplevelse. Det totala antalet upplevelser måste vara 100 %.
 
@@ -125,6 +124,10 @@ Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
 1. När du är nöjd med din målgrupp, dina upplevelseval och dina val av trafikallokering klickar du på **[!UICONTROL Next]** för att gå till det tredje steget i det guidade arbetsflödet i tre steg.
 
 1. Ange [mål och inställningar](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) för aktiviteten.
+
+   >[!NOTE]
+   >
+   >Om du vill använda [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) med den här aktiviteten läser du viktig information i [A4T-stöd för Automatisk allokering och Automatisk målaktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klicka på **[!UICONTROL Save & Close]** eller **[!UICONTROL Save]**.
 

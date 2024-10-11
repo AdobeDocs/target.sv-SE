@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1426'
 ht-degree: 2%
 
 ---
@@ -138,11 +138,15 @@ ht-degree: 2%
    + Autoallokera {#auto-allocate}
       + [Automatisk allokering - översikt](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Tolka betaversion av autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Automatiskt mål {#auto-target}
       + [Översikt över Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Betaversion av automål](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Skapa en Automatisk målaktivitet](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [Skapa en aktivitetsbetaversion av Automatiskt mål](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Vanliga frågor och felsökning för Automatiskt mål](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Rapportering och automatisk målgruppsanpassning](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
