@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 14 oktober | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 24.10.2 har lagts till. |
 | 30 september | [Gränser](/help/main/r-troubleshooting-target/target-limits.md) | Antalet tillåtna erbjudanden har uppdaterats. |
 | 29 september | [versionsinformation för at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ytterligare information om at.js 2.11.6-versionen. |
 | 11 september | [Användare](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Följande anteckning har lagts till under Ange roller och behörigheter:<P> Om du vill visa aktiviteter i [!DNL Target] måste användare tilldelas direkt till en arbetsyta med minst rollen [!UICONTROL Observer]. Tilldelning via enbart användargrupper är inte tillräcklig. Vi rekommenderar att du ger användarna tillgång till standardarbetsytan. |
