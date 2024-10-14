@@ -4,9 +4,9 @@ description: Identifiera varför vissa webbplatser kanske inte kan öppnas på e
 title: Hur använder jag [!UICONTROL Visual Editing Helper]-tillägget?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ Med webbläsartillägget [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editin
 
 >[!IMPORTANT]
 >
->Det här nya tillägget ersätter det tidigare [VEC Helper-webbläsartillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln. På grund av säkerhetsförbättringar i manifest v3, kräver [!DNL Adobe] att det nya tillägget hämtas för att du ska kunna fortsätta att redigera dina webbplatser visuellt i [!DNL Target].
+>* Det här nya tillägget ersätter det tidigare [VEC Helper-webbläsartillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln. På grund av säkerhetsförbättringar i manifest v3, kräver [!DNL Adobe] att det nya tillägget hämtas för att du ska kunna fortsätta att redigera dina webbplatser visuellt i [!DNL Target].
+>
+>* Det nya tillägget har för närvarande inte stöd för privata Chrome Web Stores. Den här funktionen stöds i slutet av januari 2025. För kunder som använder privata Chrome Web Stores för att överföra tillägg ska du i stället använda [det gamla [!UICONTROL Visual Experience Composer] hjälptillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 ## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 
