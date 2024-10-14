@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
+source-git-commit: 8038be5a536ad52b5fd7e1c835bb0b48630a8a11
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -28,42 +28,27 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
 
 +++klicka för att expandera
 
-* [Översikt över aktiviteter](c-activities/activities.md){target=_blank}
-* [Målaktivitetstyper](c-activities/target-activities-guide.md){target=_blank}
 * A/B-test {#abtest}
    * [Översikt över A/B-tester](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
-   * [Hur länge ska du köra ett A/B-test?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
-   * [Tio vanliga A/B-testfall och hur man undviker dem](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
-   * [A/A-testning](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
-   * Skapa ett A/B-test {#create}
       * [Skapa ett A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
       * [Aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
       * [Lägg till upplevelse](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
-      * [Välj målgrupp](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [Mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
-      * [Använd analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
       * [Flera upplevelsemålgrupper i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Autoallokera {#auto-allocate}
-   * [Översikt över automatisk allokering](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
-   * [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
-   * [Tolka automatiskt fördelade rapporter](c-activities/automated-traffic-allocation/determine-winner.md){target=_blank}
-   * [Automatisk allokering kan ge dig snabbare testresultat och högre intäkter än ett manuellt test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md){target=_blank}
+   * [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank}
+   * [Tolka automatiskt fördelade rapporter](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank}
 * Automatiskt mål {#auto-target}
-   * [Översikt över Automatisk målning](/help/main/c-activities/auto-target/auto-target-to-optimize.md){target=_blank}
-   * [Skapa en Automatisk målaktivitet](/help/main/c-activities/auto-target/create-auto-target.md){target=_blank}
+   * [Översikt över Automatisk målning](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
+   * [Skapa en Automatisk målaktivitet](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [Vanliga frågor och svar om Automatiskt mål och felsökning](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-   * [Rapportering och Automatiskt mål](/help/main/c-activities/auto-target/reporting-and-auto-target.md){target=_blank}
 * Automated Personalization {#automated-personalization}
-   * [Automated Personalization - översikt](c-activities/t-automated-personalization/automated-personalization.md){target=_blank}
-   * [Slumpmässig skogsalgoritm](c-activities/t-automated-personalization/algo-random-forest.md){target=_blank}
-   * [Skapa en Automated Personalization-aktivitet](c-activities/t-automated-personalization/create-ap-activity.md){target=_blank}
-   * [Överför data för målpersonaliseringsalgoritmerna](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md){target=_blank}
-   * [Datainsamling för målpersonaliseringsalgoritmerna](c-activities/t-automated-personalization/ap-data.md){target=_blank}
-   * [Uppskatta den trafik som krävs för att lyckas](c-activities/t-automated-personalization/ap-traffic-estimator.md){target=_blank}
-   * [Förhandsgranska upplevelser för ett Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md){target=_blank}
+   * [Skapa en Automated Personalization-aktivitet](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [Uppskatta den trafik som krävs för att lyckas](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
+   * [Förhandsgranska upplevelser för ett Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
    * [Automated Personalization-målerbjudanden](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [Hantera undantag](c-activities/t-automated-personalization/managing-exclusions.md){target=_blank}
+   * [Hantera undantag](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
    * [Erbjud rapportgrupper i Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
    * [Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
    * [Vanliga frågor om Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
