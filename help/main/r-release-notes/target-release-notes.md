@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
+source-git-commit: 4b613a26824bff069c189f5e401b008fe2632e11
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 14 oktober 2024**
+**Senast uppdaterad: 17 oktober 2024**
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
-## [!DNL Target Standard/Premium] 24.10.2 (16 oktober 2024)
+## [!DNL Target Standard/Premium] 24.10.2 (21 oktober 2024)
 
 Den här versionen innehåller följande korrigeringar:
 
