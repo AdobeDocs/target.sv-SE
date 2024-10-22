@@ -1,12 +1,12 @@
 ---
-keywords: måldokumentets ändringslogg;dokumentationsuppdateringar;nya ämnen;redigeringar;uppdateringar;uppdatera
+keywords: måldokumentationsändringslogg;dokumentationsuppdateringar;nya ämnen;redigeringar;uppdateringar;uppdatera;ändringar
 description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokumentationen för  [!DNL Adobe Target] .
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---

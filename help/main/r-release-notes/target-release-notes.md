@@ -1,12 +1,12 @@
 ---
-keywords: versionsinformation;utgåvor;uppdateringar;framtida utgåvor;förbättringar;nya funktioner;korrigeringar;uppdateringar;prerelease
+keywords: versionsinformation;utgåvor;uppdateringar;framtida utgåvor;förbättringar;nya funktioner;korrigeringar;uppdateringar;prerelease;tidig åtkomst
 description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna som ingår i den kommande versionen av  [!DNL Adobe Target], inklusive SDK:er, API:er och JavaScript-bibliotek.
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---

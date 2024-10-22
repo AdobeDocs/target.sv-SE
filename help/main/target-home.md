@@ -1,12 +1,12 @@
 ---
-keywords: Mål;hem;populära ämnen;adobe target;target standard;target premium;target documentation;adobe target documentation
+keywords: Mål;hem;populära ämnen;adobe target;target standard;target premium;target documentation;adobe target documentation;tillämparguide;användarhandbok
 title: Användarhandbok om Adobe Target Business Practitioner
 description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa dina kunders upplevelse och maximera intäkterna på webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
