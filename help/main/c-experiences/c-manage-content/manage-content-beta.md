@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Upptäck hur du effektivt hanterar kod och bilderbjudanden med hjälp av bibliot
 
 >[!NOTE]
 >
->Den här artikeln innehåller information om uppdateringar av användargränssnittet [!DNL Target] som för närvarande ingår i ett Beta-program. [!DNL Adobe Target]-teamet aktiverar ofta nya funktioner för utvalda kunder i testnings- och feedbacksyfte. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtida [!DNL Target Standard/Premium]-versioner och presenteras i versionsinformationen.
+>Den här artikeln innehåller information om uppdateringar av användargränssnittet [!DNL Target] som för närvarande ingår i ett Beta-program. [!DNL Adobe Target]-teamet aktiverar ofta nya funktioner för utvalda kunder i testnings- och feedbacksyfte. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtida [!DNL Target]-versioner och tillkännages i [versionsinformationen](/help/main/r-release-notes/release-notes.md).
 
 Om du vill visa biblioteket [!UICONTROL Offers] klickar du på fliken **[!UICONTROL Offers]** högst upp i användargränssnittet för [!DNL Target].
 
@@ -33,6 +33,7 @@ Biblioteket [!UICONTROL Offers] ger en översikt över all kod och alla bilder s
 | Element | Beskrivning |
 |--- |--- |
 | Vänster navigeringsspår | Växla mellan att visa [!UICONTROL Code Offers] eller [!UICONTROL Image Offers]. |
+| [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Ikonen Visa filter/dölj filter](/help/main/assets/icons/RailLeft.svg) | Klicka på ikonen **[!UICONTROL Show Folders]** eller **[!UICONTROL Hide Folders]** om du vill växla mellan att visa mappstrukturen för erbjudanden eller att inte visa mappstrukturen.<P>Mer information finns i [Skapa erbjudandemappar](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | ikonen [!UICONTROL Show filters]<P>![Ikonen Visa filter](/help/main/assets/icons/Filter.svg) | Klicka på ikonen **[!UICONTROL Show filters]** om du vill filtrera erbjudanden efter [!UICONTROL Type], [!UICONTROL Source] och [!UICONTROL AEM Type].<P>Mer information finns i [Använda filter i listan ](#filters) nedan. |
 | Sökfält | Använd fälten **[!UICONTROL Search in]** för att snabbt hitta ett erbjudande eller för att minska antalet erbjudanden som visas i biblioteket [!UICONTROL Offers]. Du kan söka efter [!UICONTROL Offer Name], [!UICONTROL AEM Paths] eller [!UICONTROL AEM Tags]. |
 | [!UICONTROL Create Folder] | Klicka på **[!UICONTROL Create Folder]** om du vill skapa mappar i biblioteket [!UICONTROL Offer] som innehåller koderbjudanden, bilderbjudanden och andra mappar för att skapa en undermappsstruktur.<P>Mer information finns i [Skapa erbjudandemappar](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
@@ -41,6 +42,7 @@ Biblioteket [!UICONTROL Offers] ger en översikt över all kod och alla bilder s
 | [!UICONTROL Name] | Namnet på varje erbjudande.<P>Klicka på ikonen **[!UICONTROL Quick Info]** ( ![Snabbinfo-ikon ](/help/main/assets/icons/InfoOutline.svg) ) bredvid varje erbjudandenamn om du vill visa mer information om erbjudandet på ett popup-kort, inklusive erbjudande-ID, typ, datum då erbjudandet senast ändrades och av vem, med mera.<p>Klicka på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmallList.svg) ) bredvid varje erbjudandenamn för att öppna en meny där du kan utföra snabbåtgärder för en aktivitet. Följande åtgärder är tillgängliga (beroende på din behörighet och erbjudandestatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] och [!UICONTROL Move]. Mer information om de olika åtgärderna finns i [Utför snabbåtgärder](#quick-actions) nedan.<P>Klicka på tabellrubriken om du vill sortera listan i stigande eller fallande ordning efter namn. |
 | [!UICONTROL Type] | Erbjudandetypen: [!UICONTROL HTML Offers], [[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) och [[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
 | [!UICONTROL Source] | Visar var erbjudandet skapades: [!DNL Adobe Target], [!DNL Adobe Target Classic] och [!DNL Adobe Experience Manager]. |
+| [!UICONTROL Last updated] | Visar datum och tid då erbjudandet senast ändrades och av vem.<P>Klicka på tabellrubriken om du vill sortera listan i stigande eller fallande ordning efter datum. |
 
 ## Använda filter i erbjudandebiblioteket {#filters}
 
@@ -64,18 +66,18 @@ Klicka på ikonen **[!UICONTROL Quick Info]** ( ![Snabbinfo-ikon ](/help/main/as
 
 ### Fler åtgärder
 
-Vilka åtgärder som är tillgängliga för Koderbjudanden och Bilderbjudanden skiljer sig något åt. Följande avsnitt innehåller mer information:
+De åtgärder som är tillgängliga för [!UICONTROL Code Offers] och för [!UICONTROL Image Offers] skiljer sig något åt. Följande avsnitt innehåller mer information:
 
 #### Alternativ för [!UICONTROL Code Offer]
 
 Klicka på ikonen **[!UICONTROL More actions]** ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmallList.svg) ) bredvid varje erbjudandenamn för att öppna en meny där du kan utföra snabbåtgärder för en aktivitet.
 
-Följande åtgärder är tillgängliga (beroende på din behörighet och erbjudandestatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] och [!UICONTROL Move].
+Följande åtgärder är tillgängliga (beroende på din behörighet och erbjudandestatus):
 
 * [!UICONTROL Edit]
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
-* [!UICONTROL Move] (Om du till exempel vill flytta ett eller flera objekt till en mapp klickar du på ikonen **[!UICONTROL Move]** för det önskade objektet, klickar på önskad mapp och sedan på **[!UICONTROL Drop]**.)
+* [!UICONTROL Move] (Om du till exempel vill flytta ett eller flera objekt till en mapp klickar du på **[!UICONTROL Move]** bredvid det önskade objektet, klickar på önskad mapp och sedan på **[!UICONTROL Move]**.)
 
 Beroende på din behörighet kanske du inte ser ikoner för alla alternativ. En användare med behörigheten [!UICONTROL Observer] har till exempel inte behörighet att använda alternativet [!UICONTROL Copy].
 
@@ -108,11 +110,8 @@ Om du vill visa information om erbjudandedefinitioner på ett popup-kort i [!UIC
 Följande information finns:
 
 * [!UICONTROL Name]
-* [!UICONTROL Source]
 * [!UICONTROL Offer ID]
 * [!UICONTROL Type]
 * [!UICONTROL Last Modified]
-* [!UICONTROL Offer path]
-
 
 Klicka på länken [!UICONTROL View Full Details] om du vill visa attributen och aktiviteterna för erbjudandet som refererar till ett koderbjudande i varje erbjudande. Den här funktionen gäller inte bilderbjudanden. På så sätt kan du undvika att andra aktiviteter påverkas när du redigerar erbjudanden. Informationen innehåller information om [!UICONTROL Live Activities] och [!UICONTROL Inactive Activities].
