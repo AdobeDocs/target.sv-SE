@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Adobe Target],
 
 >[!NOTE]
 >
->Den här artikeln innehåller information om uppdateringar av användargränssnittet [!DNL Target] som för närvarande ingår i ett Beta-program. [!DNL Adobe Target]-teamet aktiverar ofta nya funktioner för utvalda kunder i testnings- och feedbacksyfte. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtida [!DNL Target Standard/Premium]-versioner och presenteras i versionsinformationen.
+>Den här artikeln innehåller information om uppdateringar av användargränssnittet [!DNL Target] som för närvarande ingår i ett Beta-program. [!DNL Adobe Target]-teamet aktiverar ofta nya funktioner för utvalda kunder i testnings- och feedbacksyfte. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtida [!DNL Target]-versioner och tillkännages i [versionsinformationen](/help/main/r-release-notes/release-notes.md).
 
 Fjärrerbjudanden kan skapas på [!UICONTROL Offers] > [!UICONTROL Code Offers]-sidan eller i [Forms-baserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). Du kan inte skapa eller använda fjärrerbjudanden i [!UICONTROL Visual Experience Composer] (VEC). Innehållet injiceras på [!DNL Target]-begärandeplatserna, så de här platserna passar troligtvis inte för en global [!DNL Target]-begäran.
 
@@ -70,14 +70,15 @@ Bästa tillvägagångssätt för att använda fjärrerbjudanden i dina aktivitet
 ## Skapa ett fjärrerbjudande med [!UICONTROL Form-Based Experience Composer]
 
 1. När du skapar en aktivitet med [formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md) väljer du platsen där avsnittet **[!UICONTROL Content]** ska visas.
+1. Klicka på listrutan **[!UICONTROL Content]**, klicka på ikonen **[!UICONTROL List]** ( ![Lista](/help/main/assets/icons/MoreSmallList.svg) ) och sedan på **[!UICONTROL Change Remote Offer]**.
 
-1. Klicka på listrutan **[!UICONTROL Default Content]** och sedan på **[!UICONTROL Change Remote Offer]**.
-
-1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
+1. Klicka på **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
 1. Ange ett beskrivande namn för erbjudandet.
 
    Ett beskrivande namn hjälper dig och andra att snabbt hitta erbjudandet i biblioteket [!UICONTROL Assets].
+
+1. (Villkorligt) Om du har ett [Target Premium-konto](/help/main/c-intro/intro.md#premium) väljer du önskad [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Ange typ av omdirigerings-URL.
 
@@ -85,7 +86,7 @@ Bästa tillvägagångssätt för att använda fjärrerbjudanden i dina aktivitet
 
 1. Ange fjärr-URL för fjärrerbjudandet.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Create]**.
 
 ## Omdirigerings-URL-typ: [!UICONTROL Onsite Cached] eller [!UICONTROL Onsite Dynamic] {#url-type}
 
@@ -111,7 +112,7 @@ Du kan klicka på **[!UICONTROL Add Parameter]** om du vill lägga till en eller
 
 ## Använd fjärrerbjudanden i aktiviteter
 
-Du måste tillämpa fjärrerbjudanden med [!UICONTROL Form-Based Experience Composer]. Du kan för närvarande inte använda fjärrerbjudanden med [!UICONTROL Visual Experience Composer] (VEC).
+Använd fjärrerbjudanden med [!UICONTROL Form-Based Experience Composer]. Du kan för närvarande inte använda fjärrerbjudanden med [!UICONTROL Visual Experience Composer] (VEC).
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] är en icke-visuell upplevelse och erbjuder ett gränssnitt för att skapa upplevelser som är användbara när det gäller att skapa upplevelser som kan användas i [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- och [!UICONTROL Recommendations]-aktiviteter när [!UICONTROL Visual Experience Composer] inte är tillgänglig eller praktiskt att använda. Du kan till exempel använda [!UICONTROL Form-Based Experience Composer] för att skapa upplevelser som använder fjärrerbjudanden.
 
@@ -121,9 +122,9 @@ Du måste tillämpa fjärrerbjudanden med [!UICONTROL Form-Based Experience Comp
 
 1. Ange önskad plats och lägg till eventuella målgruppsförbättringar efter behov.
 
-1. Klicka på listrutan i avsnittet **[!UICONTROL Content]** och sedan på **[!UICONTROL Change Remote Offer]**.
+1. Klicka på listrutan **[!UICONTROL Content]**, klicka på ikonen **[!UICONTROL List]** ( ![Lista](/help/main/assets/icons/MoreSmallList.svg) ) och sedan på **[!UICONTROL Change Remote Offer]**.
 
-1. Välj önskat fjärrerbjudande i dialogrutan [!UICONTROL Select Remote Offer] och klicka sedan på **[!UICONTROL Done]**.
+1. Välj önskat fjärrerbjudande i dialogrutan [!UICONTROL Change Remote Offer] och klicka sedan på **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
 1. Slutför konfigurationen av aktiviteten.
 
@@ -141,9 +142,9 @@ Erbjudandet verkställs när du har återgett sidan. En osynlig iFrame samlar in
 
 3. `mboxCreate`-anropet innehåller parametrar som krävs för att återge dynamiskt innehåll.
 
-4. [!DNL Target] returnerar en URL med platsen för dynamiskt innehåll och dess parametrar. Anger en iFrame i mbox-området.
+4. [!DNL Target] returnerar en URL med platsen för dynamiskt innehåll och dess parametrar. Anger en iFrame i rutan.
 
-5. Webbläsaren begär URL och återger på sidan.
+5. Webbläsaren begär webbadressen och återger den på sidan.
 
 ## Markeringsmatris för fjärrerbjudande {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
@@ -158,13 +159,3 @@ Med matrisen för val av fjärrerbjudande kan du avgöra vilken typ av fjärrerb
 | Erbjudandena kan omfatta JavaScript | Ja | Ja |
 | Erbjudandets URL | Absolut eller relativt | Relativ |
 | Begär dator | Adobe-servrar | Besökarens dator som bär besökarens cookies |
-
-## Utbildningsvideo: Formulärbaserad disposition ![Tutorial badge](/help/main/assets/tutorial.png)
-
-Den här videon innehåller en demonstration av [!UICONTROL Form-Based Experience Composer] som du kan använda för att skapa fjärrerbjudanden.
-
-* Skapa en aktivitet med [!UICONTROL Form-Based Experience Composer]
-* Förstå när [!UICONTROL Form-Based Experience Composer] ska användas jämfört med [!UICONTROL Visual Experience Composer]
-* Använd förfiningar för att ange en plats som mål
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)
