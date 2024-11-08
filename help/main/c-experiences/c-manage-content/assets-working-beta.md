@@ -1,21 +1,23 @@
 ---
 keywords: innehållsbibliotek;resurser;anteckna;kopiera;ta bort resurs;hämta resurs;redigera innehåll;dela kort;visa innehållsegenskaper
-description: Lär dig organisera och optimera koden och bilderna i biblioteket  [!DNL Target] [!UICONTROL Offers].
-title: Huvudinnehållshantering i biblioteket [!UICONTROL Offers]
+description: Ordna och optimera koden och bilderna i biblioteket [!UICONTROL Offers].
+title: Utforska innehållshantering i biblioteket [!UICONTROL Offers]
 feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: 5d836037-3f51-4c63-8717-65de72e5c793
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 36333f8d22efb0c877f3f21cc12532654da67292
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
 # Arbeta med innehåll i biblioteket [!UICONTROL Asset]
 
-Upptäck de uppgifter du kan utföra på resurser i [!UICONTROL Content Library] av [!DNL Adobe Target], inklusive att anteckna, kopiera, ta bort, hämta, redigera, dela och visa egenskaper.
+Identifiera de uppgifter som du kan utföra på resurser i [!UICONTROL Adobe Target] [!UICONTROL Content Library]. Bland uppgifterna finns anteckning, kopiering, borttagning, hämtning, redigering, delning och visningsegenskaper.
+
+## Få åtkomst till erbjudandebiblioteket
 
 1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** eller **[!UICONTROL Image Offers]**.
 
@@ -27,57 +29,41 @@ Upptäck de uppgifter du kan utföra på resurser i [!UICONTROL Content Library]
 
 ## Alternativ för [!UICONTROL Code Offers]
 
-När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder för ett objekt genom att klicka på ikonen [!UICONTROL Quick Info] ( ![ikonen Snabbinformation](/help/main/assets/icons/InfoOutline.svg) ) eller [!UICONTROL More Actions] ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) bredvid ett erbjudande eller en mapp och sedan välja lämplig ikon.
+När du visar sidan [!UICONTROL Code Offers] kan du utföra följande åtgärder för ett objekt genom att klicka på ikonen [!UICONTROL Quick Info] ( ![ikonen Snabbinformation](/help/main/assets/icons/InfoOutline.svg) ) eller [!UICONTROL More Actions] ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) bredvid ett erbjudande eller en mapp, och sedan välja lämplig ikon.
 
-* **Information**: Klicka på ikonen **[!UICONTROL Quick Info]** ( ![ikonen Snabbinformation](/help/main/assets/icons/InfoOutline.svg) ) för att visa information om erbjudandet, inklusive [!UICONTROL Offer ID], [!UICONTROL Type], [!UICONTROL Last Modified] (datum, tid och modifierarens namn). Klicka på [!UICONTROL Full Details] om du vill visa ytterligare information, inklusive erbjudandeattribut och aktivitetsanvändning (aktivitetsnamn, status, arbetsyta och ändringsdatum och -tid).
+* **Information**: Klicka på ikonen **[!UICONTROL Quick Info]** ( ![ikonen Snabbinformation](/help/main/assets/icons/InfoOutline.svg) ) för att visa information om erbjudandet, inklusive [!UICONTROL Offer ID], [!UICONTROL Type], [!UICONTROL Last Modified] (datum, tid och modifierarens namn). Klicka på [!UICONTROL View Full Details] om du vill visa ytterligare information, inklusive erbjudandeattribut och aktivitetsanvändning (aktivitetsnamn, status, arbetsyta och ändringsdatum och -tid).
 * **[!UICONTROL Edit]**: Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Edit]** om du vill redigera mappen eller erbjudandet.
 * **[!UICONTROL Copy]**: Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Copy]** för att kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
-* **[!UICONTROL Delete]**: Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Delete]** för att ta bort erbjudandet eller mappen. Se [Att tänka på när du tar bort objekt](#delete).
+* **[!UICONTROL Delete]**: Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Delete]** för att ta bort erbjudandet eller mappen.
+
+  Mer information finns i [Saker att tänka på när du tar bort objekt](#delete).
+
 * **[!UICONTROL Move]**: Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Move]**, navigera till den plats där du vill flytta erbjudandet eller mappen och klicka sedan på **[!UICONTROL Move]**. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar.
 
 ## Alternativ för [!UICONTROL Image Offers]
 
-När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder för ett objekt genom att hålla markören över ett erbjudande eller en mapp och sedan välja lämplig ikon.
+När du visar sidan [!UICONTROL Image Offers] kan du utföra följande åtgärder för ett objekt genom att markera ett erbjudande eller en mapp genom att klicka på dess miniatyrbild till vänster i kolumnen [!UICONTROL Title] och sedan välja lämplig åtgärd.
 
-Följande bild visar hovringsikonerna när [!UICONTROL Card View] visas.
+* **Mappar**: Välj en eller flera mappar som du vill utföra följande åtgärder på:
 
-![Hovringsikoner på fliken Bilderbjudanden i kortvyn](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons-new.png)
-
-Följande bild visar hovringsikonerna när [!UICONTROL List View] visas. Om du vill visa ikonerna klickar du på ett objekt i listan.
-
-![Hovringsikoner på fliken Bilderbjudanden i listvyn](/help/main/c-experiences/c-manage-content/assets/list-view-hover-new.png)
-
-* **Välj**: Markera en eller flera mappar som du vill utföra följande åtgärder på:
-
-   * Ladda ned
-   * Kopiera
-   * Flytta
+   * Hämta: Hämta mappen och dess innehåll.
+   * Kopiera: Kopiera mappen och dess innehåll.
+   * Flytta: Klicka på ikonen **[!UICONTROL Move]**, håll samma namn på mappen eller byt namn på den, klicka på **[!UICONTROL Select Destination]** för att markera platsen dit du vill flytta mappen och klicka sedan på **[!UICONTROL Move]**.
    * Ta bort (Se [Att tänka på när du tar bort objekt](#delete).)
 
-  Välj en eller flera bilder som du vill utföra följande åtgärder på:
+* **Erbjudanden**: Välj en eller flera bilder som du vill utföra följande åtgärder på:
 
-   * [!UICONTROL Share]
-   * [!UICONTROL Download]
-   * [!UICONTROL View Properties]
-   * [!UICONTROL Edit]
-   * [!UICONTROL Annotate]
-   * [!UICONTROL Copy]
-   * [!UICONTROL Move]
-   * [!UICONTROL Delete]
-
-
-* **Dela**: Dela bilderbjudandet till personer eller grupper i organisationen.
-* **Hämta**: Hämta bilderbjudandet eller mappen och dess innehåll.
-* **Visa egenskaper**: Visa objektets egenskaper. Klicka på fliken [!UICONTROL Basic] och fliken [!UICONTROL Advanced] för att visa all tillgänglig information. Du kan redigera egenskaperna och lägga till mer information. Du kan lägga till metadatainformation, publiceringsstatus och licensdata.
-* **Fler åtgärder**: Visa ytterligare alternativ i [!UICONTROL Card View].
-* **Redigera**: Redigera mappen eller erbjudandet.
-* **Anteckning**: Lägg till en anteckning till resursen. Klicka på resursen, markera området som du vill kommentera och skriv anteckningen.
-* **Kopiera**: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
-* **Flytta**: Klicka på ikonen [!UICONTROL Move], navigera till platsen dit du vill flytta erbjudandet eller mappen och klicka sedan på **[!UICONTROL Move]**. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar.
-* **Ta bort**: Ta bort erbjudandet. Mer information finns i [Saker att tänka på när du tar bort objekt](#delete) nedan:
+   * [!UICONTROL Share]: Dela bilderbjudandet till personer eller grupper i organisationen.
+   * [!UICONTROL Download]: Hämta bilderbjudandet för mappen och dess innehåll.
+   * [!UICONTROL View Properties]: Visa objektets egenskaper. Klicka på fliken [!UICONTROL Basic] och fliken [!UICONTROL Advanced] för att visa all tillgänglig information. Du kan redigera egenskaperna och lägga till mer information. Du kan lägga till metadatainformation, publiceringsstatus och licensdata.
+   * [!UICONTROL Edit]: Redigera mappen eller erbjudandet.
+   * [!UICONTROL Annotate]: Lägg till en anteckning till resursen. Klicka på resursen, markera området som du vill kommentera och skriv anteckningen.
+   * [!UICONTROL Copy]: Kopiera erbjudandet. Om du kopierar och sedan redigerar erbjudandet kan du enkelt skapa ett liknande nytt erbjudande.
+   * [!UICONTROL Move]: Klicka på ikonen [!UICONTROL Move], navigera till platsen dit du vill flytta erbjudandet eller mappen och klicka sedan på **[!UICONTROL Move]**. Du kan till exempel flytta en eller flera mappar till en annan mapp för att skapa undermappar.
+   * [!UICONTROL Delete]: Ta bort erbjudandet. Mer information finns i [Att tänka på när du tar bort objekt](#delete) nedan.
 
 ## Att tänka på när du tar bort objekt {#delete}
 
 * Du kan ta bort en hel mapp som innehåller valfritt antal resurser och undermappar. Den här funktionen är tillgänglig i användargränssnittet för [!DNL Target] och i användargränssnittet för [!DNL Adobe Experience Cloud Assets].
-* Om du tar bort en mapp med ett stort antal bilder kan processen som körs bakom scenerna ta tid (flera minuter) innan användargränssnittet uppdateras för att visa det slutliga läget. Den tid som krävs är en funktion av antalet bilder, inte bildens storlek. En bra uppskattning är tio minuter för 2 000 bilder. Du kan fortsätta med annat arbete och kontrollera det slutliga läget efter flera minuter för att bekräfta borttagningen.
-* Mappar som inte är tomma i [!UICONTROL Image Offer library] kan tas bort. Om inga referenser finns till alla bilder i mappen i någon aktivitet tas hela mappen och dess innehåll bort. Om det finns referenser till vissa bilder i mappen i någon aktivitet, tas alla bilder som inte refereras bort, men refererade bilder och mappar som innehåller dessa bilder behålls.
+* Om du tar bort en mapp med ett stort antal bilder kan processen som körs bakom scenerna ta flera minuter innan användargränssnittet uppdateras för att visa det slutliga läget. Den tid som krävs är en funktion av antalet bilder, inte bildens storlek. En bra uppskattning är tio minuter för 2 000 bilder. Du kan fortsätta med annat arbete och kontrollera det slutliga tillståndet senare för att bekräfta borttagningen.
+* Mappar som inte är tomma i [!UICONTROL Image Offer library] kan tas bort. Om inga referenser finns till alla bilder i mappen i någon aktivitet tas hela mappen och dess innehåll bort. Om det finns referenser till vissa bilder i mappen i någon aktivitet tas alla bilder som inte refereras bort. Refererade bilder och mappar som innehåller dessa bilder behålls.
