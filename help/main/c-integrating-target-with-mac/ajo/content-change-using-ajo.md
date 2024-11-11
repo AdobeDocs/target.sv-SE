@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 0%
 
 Det här användningsexemplet hjälper dig att låsa upp hemligheter för effektiva ändringar av A/B-testinnehåll i [!DNL Adobe Journey Optimizer].
 
-I det här användningsexemplet visas hur du utför välkända uppgifter, till exempel A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md), med [!DNL Journey Optimizer] i stället för [!DNL Adobe Target].
-
-Det här användningsexemplet är utformat för att visa hur du utför välkända uppgifter som du kan ha utfört med [!DNL Adobe Target], A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md), men med [!DNL Journey Optimizer].
+Det här användningsexemplet visar hur du utför välkända uppgifter, till exempel A/B-testning med en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md) i [!DNL Adobe Target], med [!DNL Journey Optimizer] i stället för [!DNL Adobe Target].
 
 ## Fördelar och värde
 
@@ -31,7 +30,7 @@ Det här användningsexemplet är utformat för att visa hur du utför välkänd
 
 * Ett klädföretag ökade konverteringarna genom att testa olika bilder och personalisera kampanjlandningssidor med användarnas förnamn i texten som anropar till åtgärd.
 
-* Ett e-handelsföretag fann att deras guldkunder hade högre konverteringsgrad genom att testa olika produktbeskrivningar och bilder på en kampanjstartsida, vilket ledde till ökad försäljning.
+* Ett e-handelsföretag fann att deras Gold-lojalitetsmedlemmar hade högre konverteringsgrad genom att testa olika produktbeskrivningar och bilder på en kampanjstartsida, vilket ledde till ökad försäljning.
 
 ## Steg
 
@@ -41,17 +40,13 @@ Det här användningsexemplet är utformat för att visa hur du utför välkänd
 >
 >Videon längst ned på sidan är särskilt användbar.
 
-Utför följande steg för att optimera en webbsida genom att testa olika bilder och anpassa meddelanden med användarens förnamn med hjälp av ett profilskript:
+Så här optimerar du en webbsida genom att testa olika bilder och anpassa meddelanden med användarens förnamn med hjälp av ett profilskript:
 
-1. I [!DNL Adobe Journey Optimizer] klickar du på **Kampanjer** i den vänstra listen för att visa sidan [!UICONTROL Campaigns].
-
-   ![Adobe Journey Optimizer landningssida med fliken Kampanjer markerad.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. I [!DNL Journey Optimizer] klickar du på **Kampanjer** i den vänstra listen för att visa sidan [!UICONTROL Campaigns].
 
 1. Klicka på **[!UICONTROL Create Campaign]** i det övre högra hörnet på sidan [!UICONTROL Campaigns].
 
 1. Välj **[!UICONTROL Scheduled - Marketing]** (standard) och klicka sedan på **Skapa** för att visa informationssidan för [!UICONTROL Campaign].
-
-   ![Kampanjinformationssida i Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. I avsnittet **[!UICONTROL Properties]** anger du ett beskrivande namn och en valfri beskrivning för kampanjen.
 
@@ -85,7 +80,7 @@ Utför följande steg för att optimera en webbsida genom att testa olika bilder
 
 1. Klicka på **[!UICONTROL Edit Content]** under **[!UICONTROL Action]** på informationssidan för [!UICONTROL Campaign].
 
-1. Klicka på Webb under Behandling B
+1. Klicka på Webb under Behandling B.
 
    I det här fallet ska [!UICONTROL Treatment A] inte ändras om du vill använda den ursprungliga upplevelsen som första upplevelse i A/B-testet.
 
@@ -133,4 +128,3 @@ Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](http
 >[Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*
 >[Instruktionsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} i *Journey Optimizer-dokumentationen*
 >[Skapa en kampanj ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer Tutorials*
-
