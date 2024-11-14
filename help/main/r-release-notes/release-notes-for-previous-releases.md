@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
+source-wordcount: '38296'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Mer information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium) finns i [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionsinformation - 2024
+
+### at.js version 2.11.6 (29 september 2024)
+
+* Korrigerade ett problem som förhindrade [!DNL Target] från att fungera korrekt med omdirigeringserbjudanden i [!UICONTROL Visual Experience Composer] (VEC) eller [!UICONTROL Form-Based Experience Composer].
+
+Mer information om at.js-versioner finns i [at.js versionsinformation](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} i *Adobe Target Developer Guide*.
 
 ### [!DNL Target] rapporterar i [!DNL Adobe Customer Journey Analytics] (8 maj 2024)
 
@@ -2093,7 +2099,7 @@ Den här versionen innehåller följande funktioner och förbättringar (nummer 
 
 Den här [!DNL Target]-versionen innehåller följande förbättringar, korrigeringar och ändringar som riktas mot kunden:
 
-* Du kan ta bort importerade målgrupper (Target Classic, Experience Cloud, osv.) från målgruppsbiblioteket. Target varnar dig om du försöker ta bort en målgrupp som används för en aktiv aktivitet. (TGT-25171)
+* Du kan ta bort importerade målgrupper (Target Classic, Experience Cloud o.s.v.) från målgruppsbiblioteket. Target varnar dig om du försöker ta bort en målgrupp som används för en aktiv aktivitet. (TGT-25171)
 * Publiker som importeras från Target Classic får nu etiketten Adobe Target Classic i målgruppsbiblioteket. Tidigare skiljde sig inte användargränssnittet mellan Target Standard/Premium och Target Classic. (TGT-27093)
 * Samlingar gäller nu för alla villkor (inklusive nyligen visade objekt). (TGT-26646)
 * Du kan filtrera efter Workspace i målgruppsbiblioteket och erbjudandebiblioteket (gäller för Target Premium-användare med Enterprise-användarbehörigheter). (TGT-26813)
@@ -2368,7 +2374,7 @@ Den här [!DNL Target]-versionen innehåller följande förbättringar och korri
 
   Om en användare utför en intermittent åtgärd på en [!DNL Target]-sida och upplever en sessionstimeout, dirigeras användaren till inloggningen på nytt och dirigeras sedan till den sista sidan som bearbetades i [!DNL Target]-gränssnittet.
 
-* Korrigerade ett problem som gjorde att anpassade kodändringar gick förlorade om användaren bläddrar bort (ändrar upplevelser, växlar sida, byter målgrupp, klickar på Nästa, osv.) och glömmer att spara ändringarna. Användaren uppmanas nu att spara ändringarna. (TGT-23766)
+* Korrigerade ett problem som gjorde att anpassade kodändringar gick förlorade om användaren bläddrar bort (ändrar upplevelser, växlar sida, byter målgrupp, klickar på Nästa, osv.) och glömmer att spara ändringar. Användaren uppmanas nu att spara ändringarna. (TGT-23766)
 * När en aktivitet arkiveras visas&quot;Arkiverad aktivitet&quot; i stället för&quot;Uppdatera aktiviteten&quot;. (KB-1517)
 * Den nedrullningsbara listrutan på följande platser i målgränssnittet har ersatts med funktioner för automatisk komplettering för att förbättra hastighet och prestanda: (TGT-22939)
 
@@ -2559,7 +2565,7 @@ Den här [!DNL Target]-versionen innehåller följande förbättringar och korri
 * Användargränssnittet [!DNL Target] har uppdaterats för att stödja omdirigeringserbjudanden i aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla. Den här funktionen kräver [!DNL at.js] 0.9.6, som kommer att vara tillgänglig snart.
 * Användargränssnittet [!DNL Target] har uppdaterats på vissa platser:
 
-   * I rapporter och aktiviteter finns det vissa alternativ ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] osv.) går nu att komma åt genom att klicka på ikonen [!UICONTROL More Options] ( ![icon_more_options image](assets/icon_more_options.png)
+   * I rapporter och aktiviteter finns det nu vissa alternativ ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] osv.) genom att klicka på ikonen [!UICONTROL More Options] ( ![icon_more_options image](assets/icon_more_options.png) )
 
      ).
    * Erbjudandena visas nu i en lista i stället för som kort i biblioteket [!UICONTROL Offers]. Andra mindre gränssnittsändringar gjordes i användargränssnittet för [!UICONTROL Offers]-biblioteket.

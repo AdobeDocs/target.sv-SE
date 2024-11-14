@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 22 oktober 2024**
+**Senast uppdaterad: 14 november 2024**
 
 >[!NOTE]
 >
@@ -58,12 +58,13 @@ Beroende på implementeringen kan du kontrollera om [!DNL Analytics] och A4T har
 
 Kontakta [Adobe kundtjänst](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C) om du har frågor. (KB-2179)
 
-## [!DNL Target Standard/Premium] 24.10.2 (21 oktober 2024)
+<!-- 
+## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)
 
-Den här versionen innehåller följande korrigeringar:
+This release contains the following fixes:
 
-* Ett problem som förhindrade [!UICONTROL Recommendations] aktiviteter från att läsas in i [!UICONTROL Compose]- och [!UICONTROL Browse]-lägen har korrigerats. (TGT-50709)
-* Ett problem med det nya [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper]-tillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som orsakade en omdirigering från [!UICONTROL Visual Experience Composer] (VEC) till [!UICONTROL Activities Library] har korrigerats efter att du klickat på Avbryt. Före den här korrigeringen behövde kunderna uppdatera [!UICONTROL Activities Library] innan de kunde skapa nya aktiviteter. (TGT-49980)
+* Fixed an issue that prevented [!UICONTROL Recommendations] activities from loading in [!UICONTROL Compose] and [!UICONTROL Browse] modes. (TGT-50709)
+* Fixed an issue with the new [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) that caused a redirect from the [!UICONTROL Visual Experience Composer] (VEC) to the [!UICONTROL Activities Library] after clicking Cancel. Before this fix, customers needed to refresh the [!UICONTROL Activities Library] before being able to create new activities. (TGT-49980)-->
 
 ## Ytterligare versionsinformation
 
