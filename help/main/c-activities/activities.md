@@ -4,9 +4,9 @@ description: Anpassa innehåll och testa siddesign för specifika målgrupper me
 title: Hur kan jag personalisera innehåll och testa siddesign med  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d7515bab57c5e2973cfd5d2ac75d76c048786646
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ På menyn kan du filtrera aktiviteter efter följande attribut:
 | Attribut | Information |
 | --- | --- |
 | [!UICONTROL Type] | Filtrera efter [aktivitetstyp](#types). |
-| [!UICONTROL Status] | Filtrera efter aktivitetsstatus. |
+| [!UICONTROL Status] | Filtrera efter aktivitetsstatus.<ul><li>**[!UICONTROL Live]**: Aktiviteten körs för närvarande.</li><li>**[!UICONTROL Draft]**: Aktivitetsinställningarna har startats men aktiviteten är i [utkastläge](/help/main/c-activities/edit-activity.md) och är inte klar att köras än.</li><li>**[!UICONTROL Scheduled]**: Aktiviteten är klar att aktiveras när angivet startdatum och angiven starttid kommer.</li><li>**[!UICONTROL Inactive]**: Aktiviteten har pausats eller inaktiverats.</li><li>**[!UICONTROL Syncing]**: Aktiviteten har sparats och synkroniseras med leveransnätverket [!DNL Target].</li><li>**[!UICONTROL Ended]**: Aktivitetens angivna slutdatum och sluttid har uppnåtts och aktiviteten hanteras inte längre.</li><li>**[!UICONTROL Archived]**: Aktiviteten har arkiverats. Du kan aktivera en arkiverad aktivitet och använda den igen.</li></ul> |
 | [!UICONTROL Reporting Source] | Filtrera efter rapportkälla.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Visa aktiviteter som använder [!UICONTROL Analytics for Target] (A4T) som rapportkälla.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): Visa aktiviteter som använder [!DNL Target] som rapportkälla.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): Visa aktiviteter som använder [!DNL Adobe Customer Analytics] som rapportkälla.</li></ul> |
 | [!UICONTROL Experience Composer] | Filtrera efter vilken upplevelsedisposition som användes när aktiviteten skapades:<ul><li>[Visuell](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Visar aktiviteter som har skapats med [!UICONTROL Visual Experience Composer] (VEC).</li><li>[Formulärbaserad](/help/main/c-experiences/form-experience-composer.md): Visa aktiviteter som har skapats med [!UICONTROL Form-Based Experience Composer].</li></ul> |
 | [!UICONTROL Metrics Type] | Filtrera efter vilket [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md) valdes när aktiviteten skapades.<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
@@ -94,7 +94,7 @@ Följande åtgärder är tillgängliga (beroende på dina behörigheter och akti
 | [!UICONTROL Edit] | Ändra aktiviteten. Alla aktiviteter kan redigeras.<P>Mer information om olika sätt att redigera aktiviteter finns i [Redigera en aktivitet eller Spara som utkast](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Deactivate] | Stoppa en aktiv eller schemalagd aktivitet. En inaktiverad aktivitet kan återaktiveras eller arkiveras.<P>Om du inaktiverar eller arkiverar en aktivitet och sedan återaktiverar den, fortsätter besökaren att vara en del av den aktiviteten efter omaktiveringen om de fanns i den innan den inaktiverades eller arkiverades. Konverteringsvärden som registreras under tiden mellan de två händelserna kommer inte att tillskrivas den aktiviteten. |
 | [!UICONTROL Activate] | Starta en inaktiv aktivitet eller en aktivitet som är klar att aktiveras. |
-| [!UICONTROL Archive] | Skicka aktiviteten till arkivet. Som standard visas inte längre arkiverade aktiviteter i listan [!UICONTROL Activities]. Ändra filtret för aktivitetslistan så att den innehåller arkiverade aktiviteter för att se dem. Du kan aktivera en arkiverad aktivitet och använda den igen.<P>Om du inaktiverar eller arkiverar en aktivitet och sedan återaktiverar den fortsätter besökaren att vara en del av den aktiviteten efter omaktiveringen om de befann sig i den aktiviteten innan den inaktiverades eller arkiverades. Konverteringsvärden som registreras under tiden mellan de två händelserna kommer inte att tillskrivas den aktiviteten. |
+| [!UICONTROL Archive] | Skicka aktiviteten till arkivet. Som standard visas inte längre arkiverade aktiviteter i listan [!UICONTROL Activities]. Ändra filtret för listan [!UICONTROL Activities] så att den innehåller arkiverade aktiviteter för att se dem. Du kan aktivera en arkiverad aktivitet och använda den igen.<P>Om du inaktiverar eller arkiverar en aktivitet och sedan återaktiverar den fortsätter besökaren att vara en del av den aktiviteten efter omaktiveringen om de befann sig i den aktiviteten innan den inaktiverades eller arkiverades. Konverteringsvärden som registreras under tiden mellan de två händelserna kommer inte att tillskrivas den aktiviteten. |
 | [!UICONTROL Copy] | Kopiera en aktivitet. Alla aktiviteter kan kopieras. När du kopierar en aktivitet skapas en ny aktivitet med samma namn, som läggs till med &quot;Kopiera&quot;. Ett test med namnet&quot;Browser Offers&quot; kopieras till exempel till&quot;Browser Offers Copy&quot;.<P>Visuella erbjudanden kopieras med aktiviteten. Du kan redigera erbjudandena i kopian utan att det påverkar den ursprungliga aktiviteten. Det enda undantaget är sparade erbjudanden och bilder i mappen Content/Assets. |
 | [!UICONTROL Delete] | Ta bort ett utkast eller en aktivitet.<P>**Obs!** Borttagna aktiviteter kan inte återställas. Använd åtgärden [!UICONTROL Archive] om du inte är säker på att du aldrig behöver den här aktiviteten igen. Du kan sedan återaktivera aktiviteten om det behövs. |
 
@@ -102,7 +102,7 @@ Följande åtgärder är tillgängliga (beroende på dina behörigheter och akti
 
 Observera följande information om listan [!UICONTROL Activity]:
 
-* Arkiverade och avslutade aktiviteter visas inte i listan [!UICONTROL Activities]. Om du vill visa de här aktiviteterna filtrerar du dem med [filterikonen](#filters) ( ![Visa filterikonen](/help/main/assets/icons/Filter.svg) ) högst upp i listan.
+* [!UICONTROL Archived] och [!UICONTROL Ended] aktiviteter visas inte i listan [!UICONTROL Activities]. Om du vill visa de här aktiviteterna filtrerar du dem med [filterikonen](#filters) ( ![Visa filterikonen](/help/main/assets/icons/Filter.svg) ) högst upp i listan.
 * När en aktivitet som ursprungligen skapades i [!DNL Target Classic] inaktiveras eller tas bort tas den bort från [!DNL Target Standard/Premium]. Borttagna aktiviteter som ursprungligen skapats i [!DNL Target Classic] skickas inte till mappen [!UICONTROL Archive] i [!DNL Target Standard/Premium]. Den arkiverade mappfunktionen gäller endast aktiviteter som skapats i [!DNL Target Standard/Premium].
 * Alla aktivitetstyper förutom [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] ger dig möjlighet att använda antingen [!DNL Target] eller [!DNL Adobe Analytics] som datakälla. [!UICONTROL Automated Personalization], [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] *always* använder [!DNL Target] data.
 * Verksamheter är tillgängliga i flera kanaler:
@@ -115,7 +115,7 @@ Observera följande information om listan [!UICONTROL Activity]:
 
 ## Begränsningar {#section_049D4684403A4E07B998067EB8E9BE56}
 
-Varje Target-aktivitet har följande innehållsbegränsningar:
+Varje [!DNL Target]-aktivitet har följande innehållsbegränsningar:
 
 | Objekt | Gräns |
 |--- |--- |
@@ -129,11 +129,11 @@ Det går inte att spara aktiviteten om du överskrider någon av dessa gränser.
 
 Om du ökar antalet av dessa objekt i din aktivitet ökar även tiden det tar att synkronisera aktiviteten över [!DNL Target].
 
-Mer information om begränsningar för V[!UICONTROL Visual Experience Composer] VEC finns i [Gränser för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Mer information om begränsningar för [!UICONTROL Visual Experience Composer] (VEC) finns i [Gränser för visuell Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 ## Attribut som importerats till [!DNL Target] för aktiviteter som uppdaterats utanför [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 Om aktiviteter som skapats i [!DNL Target] uppdateras utanför [!DNL Target] (till exempel via API) importeras följande aktivitetsattribut tillbaka till [!DNL Target]: `thirdpartyId`, `startDate`, `endDate`, `status`, `priority` och `marketingCloudMetadata(remoteModifiedBy)`.
 
-Det här importjobbet körs när aktivitetssidan öppnas, med en maximal fördröjning på tio minuter.
+Det här importjobbet körs när listan [!UICONTROL Activities] öppnas, med en maximal fördröjning på tio minuter.
 

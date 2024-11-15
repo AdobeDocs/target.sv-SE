@@ -4,7 +4,7 @@ description: Hämta ett interaktivt PDF som beskriver de olika aktivitetstyperna
 title: Vilka aktivitetstyper är tillgängliga i  [!DNL Target]?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
 source-wordcount: '1413'
 ht-degree: 0%
