@@ -5,9 +5,10 @@ title: Kan jag använda flera Experience-versioner i en A/B-aktivitet?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ I det här fallet behöver ni geospecifika versioner av upplevelsen, så att ni 
 
 1. Välj upplevelsen och klicka sedan på **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-1. Klicka på ikonen **[!UICONTROL Add Audience]** ( ![ Lägg till ikon ](/help/main/assets/icons/Add.svg) ) i rutan Experience Audiences och välj sedan den första målgrupp du vill ha som mål. Upprepa för varje publik.
+1. Klicka på ikonen **[!UICONTROL Add Audience]** ( ![ Lägg till ikon ](/help/main/assets/icons/Add.svg) ) i rutan [!UICONTROL Experience Audiences] och välj sedan den första målgrupp du vill ha. Upprepa för varje publik.
 
    Om målgruppen inte finns än klickar du på [Skapa målgrupp](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) och konfigurerar den.
 

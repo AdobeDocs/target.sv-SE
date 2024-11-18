@@ -5,9 +5,10 @@ title: Hur väljer jag en publik i en [!DNL Target] A/B-aktivitet?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -40,10 +41,12 @@ Mer information om alla alternativ i flödesdiagrammet finns i [Skapa en A/B-tes
 
 1. (Villkorligt) Klicka på **Kombinera publiker** för att [skapa en målgrupp som kombinerar flera målgrupper](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Villkorligt) Om du vill skapa en ny publik som inte redan finns i [!UICONTROL Audience Library] klickar du på **Skapa publik**. Under [målgruppsarbetsflödet](/help/main/c-target/c-audiences/audiences.md) kan du välja bland följande alternativ:
+1. (Villkorligt) Om du vill skapa en ny publik som inte redan finns i [!UICONTROL Audience Library] klickar du på **Skapa publik**, definierar målgruppen och klickar sedan på **[!UICONTROL Done]**.
 
-   * Skapa en on demand-målgrupp som sparas till [!UICONTROL Audience Library] som kan återanvändas i andra aktiviteter
-   * Skapa en [aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) som inte har sparats i [!UICONTROL Audience Library] och som bara kan användas i den aktuella aktiviteten
+   Under [målgruppsarbetsflödet](/help/main/c-target/c-audiences/audiences.md) kan du välja bland följande alternativ:
+
+   * **[!UICONTROL Audience Library]**: Skapa en målgrupp på begäran som sparas i [!UICONTROL Audience Library] som kan återanvändas i andra aktiviteter.
+   * **[!UICONTROL This activity only]**: Skapa en [aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) som inte har sparats i [!UICONTROL Audience Library] och som bara kan användas i den aktuella aktiviteten.
 
 1. Klicka på **[!UICONTROL Visitor Percentage]** i den högra rutan och ange sedan hur många procent kvalificerade besökare som ska inkluderas i aktiviteten.
 
@@ -51,7 +54,7 @@ Mer information om alla alternativ i flödesdiagrammet finns i [Skapa en A/B-tes
 
 >[!NOTE]
 >
->Publiken importeras automatiskt i bakgrunden när du öppnar målgruppslistan och de importerade målgrupperna är mer än tio minuter gamla.
+>Publiker importeras automatiskt i bakgrunden när du öppnar listan [!UICONTROL Audience] och de importerade målgrupperna är mer än tio minuter gamla.
 
 ## Visa information om en viss målgrupp
 
@@ -64,4 +67,3 @@ Mer information om alla alternativ i flödesdiagrammet finns i [Skapa en A/B-tes
 Du kan redigera eller kopiera en målgrupp genom att klicka på ikonen [!UICONTROL More Actions] ( ![Fler åtgärder ](/help/main/assets/icons/More.svg) ) bredvid den önskade målgruppen i dialogrutan [!UICONTROL Add Audience] och sedan klicka på [!UICONTROL Edit] eller [!UICONTROL Copy].
 
 Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringar och sedan spara den som en ny målgrupp.
-

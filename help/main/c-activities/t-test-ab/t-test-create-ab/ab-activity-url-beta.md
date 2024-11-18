@@ -5,9 +5,10 @@ title: Vad är aktivitets-URL:en i en A/B-aktivitet?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Ange aktivitets-URL när du uppmanas att göra det när aktiviteten skapas. Skri
 
 Som standard öppnar [!UICONTROL Visual Experience Composer] sidan som anges i [inställningarna för Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Du kan ange en annan sida när du skapar en aktivitet.
 
-1. Om du vill visa en annan sida efter att [!UICONTROL Visual Experience Composer] har öppnats klickar du **[!UICONTROL Configure]** överst på sidan på sidan **[!UICONTROL Experiences]** och väljer sedan **[!UICONTROL Page Delivery]**.
+1. (Villkorligt) Om du vill visa en annan sida efter att [!UICONTROL Visual Experience Composer] har öppnats klickar du **[!UICONTROL Experiences]** överst på sidan och väljer **[!UICONTROL Configure]**.**[!UICONTROL Page Delivery]**
 
 1. Ange URL-adressen i fältet **[!UICONTROL URL]**.
 
@@ -40,6 +41,7 @@ Som standard öppnar [!UICONTROL Visual Experience Composer] sidan som anges i [
    * Hash-fragment (#)
    * Fråga
    * mbox-parameter
+   * Egen
 
    Ytterligare regler kan kopplas till aktivitets-URL:en med AND eller OR. Alla regler som du lägger till utvärderas mot varandra med AND.
 

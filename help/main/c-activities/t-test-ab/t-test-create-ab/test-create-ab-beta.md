@@ -1,11 +1,12 @@
 ---
 keywords: Skapa A/B;A/B-test;A/B-aktivitet;ny a/b-aktivitet;skapa a/b
-description: Hantera [!UICONTROL Visual Experience Composer] (VEC) för att skapa A/B-testaktiviteter direkt på en  [!DNL Target]-aktiverad sida.
+description: Använd [!UICONTROL Visual Experience Composer] (VEC) för att skapa A/B-testaktiviteter direkt på en  [!DNL Target]-aktiverad sida.
 title: Hur skapar jag ett A/B-test?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 0%
@@ -101,8 +102,8 @@ Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
 
       Om du behöver skapa en ny målgrupp som inte redan finns i [!UICONTROL Audience Library] klickar du på **Skapa målgrupp**. Under arbetsflödet [skapa målgrupper](/help/main/c-target/c-audiences/audiences.md) kan du välja bland följande alternativ:
 
-      * Skapa en on demand-målgrupp som sparas till [!UICONTROL Audience Library] som kan återanvändas i andra aktiviteter
-      * Skapa en [aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) som inte har sparats i [!UICONTROL Audience Library] och som bara kan användas i den aktuella aktiviteten
+      * **[!UICONTROL Audience Library]**: Skapa en målgrupp på begäran som sparas i [!UICONTROL Audience Library] som kan återanvändas i andra aktiviteter.
+      * **[!UICONTROL This activity only]**: Skapa en [aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) som inte har sparats i [!UICONTROL Audience Library] och som bara kan användas i den aktuella aktiviteten.
 
    1. Klicka på **[!UICONTROL Visitor Percentage]** i den högra bildrutan och välj sedan den procentandel kvalificerade besökare som du vill ange aktiviteten för.
 

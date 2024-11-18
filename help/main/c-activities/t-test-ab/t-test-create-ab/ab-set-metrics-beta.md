@@ -5,7 +5,8 @@ title: Hur ställer jag in målvärden i en A/B-aktivitet?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: b7955ed7-61b4-429f-80ff-8efcafc10542
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Använd mätvärden i en [!DNL Adobe Target] A/B-aktivitet för att avgöra när
 
 Mer information om framgångsmått finns i [Framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. Välj ett [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) i avsnittet **[!UICONTROL Reporting Settings]** på sidan **[!UICONTROL Goals & Settings]**
+1. Välj ett [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) i avsnittet **[!UICONTROL Reporting Settings]** på sidan **[!UICONTROL Goals & Settings]**.
 
    Alternativet [!UICONTROL Select Metrics] visar de framgångsmått som du kan välja för din aktivitet. Resultaten delas in i följande kategorier:
 
