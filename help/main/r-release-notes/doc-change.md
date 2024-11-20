@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: 5b66b2d209398f8cbc69eac7fb2e2f12844fcc7d
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 20 november | [Tillåtslista kantnoder för mål](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Listan över IP-adresser för målkant som ska tillåtslista har uppdaterats. |
 | 19 november | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Följande viktiga anteckning har lagts till i avsnittet [!DNL Adobe Experience Platform Web SDK] `__view__`-scopeoptimering (22 oktober 2024):<ul><li>VIKTIGT! Om du inte kan slutföra implementeringsgranskningen och åtgärda eventuella problem före 3 februari 2025 kan du begära en förlängning på en gång i sex månader. Se till att din ansökan har skickats in senast den 31 januari 2025. Adobe granskar och fattar beslut om din begäran.</li><ul> |
 | 22 oktober | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Följande viktiga information har lagts till:<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` scopeoptimering</li></ul> |
 | 14 oktober | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 24.10.2 har lagts till. |
