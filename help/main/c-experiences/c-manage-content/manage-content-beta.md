@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Biblioteket [!UICONTROL Offers] ger en översikt över all kod och alla bilder s
 | Vänster navigeringsspår | Växla mellan att visa [!UICONTROL Code Offers] eller [!UICONTROL Image Offers]. |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Ikonen Visa filter/dölj filter](/help/main/assets/icons/RailLeft.svg) | Klicka på ikonen **[!UICONTROL Show Folders]** eller **[!UICONTROL Hide Folders]** om du vill växla mellan att visa mappstrukturen för erbjudanden eller att inte visa mappstrukturen.<P>Mer information finns i [Skapa erbjudandemappar](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | ikonen [!UICONTROL Show filters]<P>![Ikonen Visa filter](/help/main/assets/icons/Filter.svg) | Klicka på ikonen **[!UICONTROL Show filters]** om du vill filtrera erbjudanden efter [!UICONTROL Type], [!UICONTROL Source] och [!UICONTROL AEM Type].<P>Mer information finns i [Använda filter i listan ](#filters) nedan. |
-| Sökfält | Använd fälten **[!UICONTROL Search in]** för att snabbt hitta ett erbjudande eller för att minska antalet erbjudanden som visas i biblioteket [!UICONTROL Offers]. Du kan söka efter [!UICONTROL Offer Name], [!UICONTROL AEM Paths] eller [!UICONTROL AEM Tags]. |
+| Sökfält | Använd fälten **[!UICONTROL Search in]** för att snabbt hitta ett erbjudande eller för att minska antalet erbjudanden som visas i biblioteket [!UICONTROL Offers]. Du kan söka efter [!UICONTROL Offer Name], [!UICONTROL AEM Paths] eller [!UICONTROL AEM Tags]. Sökalternativen är sessionskonstanta. |
 | [!UICONTROL Create Folder] | Klicka på **[!UICONTROL Create Folder]** om du vill skapa mappar i biblioteket [!UICONTROL Offer] som innehåller koderbjudanden, bilderbjudanden och andra mappar för att skapa en undermappsstruktur.<P>Mer information finns i [Skapa erbjudandemappar](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | [!UICONTROL [!UICONTROL Create Offer]] | Klicka på **[!UICONTROL Create Offer]** om du vill skapa ett erbjudande.<P>Mer information om hur du skapar olika typer av erbjudanden finns i: <ul><li>HTML</li><li>[JSON-erbjudande](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Omdirigeringserbjudande](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Fjärrerbjudande](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Kryssrutor för gruppåtgärd<P>![Ikon för gruppåtgärd](/help/main/assets/icons/Rectangle.svg) | Klicka på kryssrutorna [!UICONTROL Bulk Operations] för att utföra gruppåtgärder för alla erbjudanden eller för valda erbjudanden.<P>En lista med tillgängliga åtgärder (beroende på dina behörigheter och erbjudandestatus) finns i [Utför snabbåtgärder](#quick-actions) nedan. |
@@ -55,6 +55,8 @@ Med ikonen **[!UICONTROL Show filters]** kan du filtrera erbjudanden efter följ
 * **[!UICONTROL Source]**: [!DNL Adobe Target], [!DNL Adobe Target Classic] och [!DNL Adobe Experience Manager].
 
 * **AEM typ**: [Innehållsfragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) och [Upplevelsefragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Mer information om de olika fragmenttyperna finns i [AEM Översikt över Experience Fragments och Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+
+Filter är sessionskonstanta.
 
 ## Utför snabbåtgärder {#quick-actions}
 
