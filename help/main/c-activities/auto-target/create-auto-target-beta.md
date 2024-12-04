@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: d2c4532d-91ce-4bec-9cd3-a70a02f6b289
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -75,7 +76,7 @@ Skapa en [!UICONTROL Auto-Target]-aktivitet:
 
 1. Skapa nya upplevelser genom att ändra elementen på sidan.
 
-   [!UICONTROL Visual Experience Composer] visar två flikar till vänster när du har skapat en ny aktivitet: Upplevelse A och Upplevelse B. Upplevelse A är kontrollupplevelsen. Fokus ligger på fliken Experience B, som ni kan ändra efter behov. Upplevelse B är den alternativa upplevelse som ni kan lägga till i ert test. Du kan lägga till flera upplevelser i testet genom att klicka på ikonen [!UICONTROL Add] ( ![ Lägg till ikon ](/help/main/assets/icons/Add.svg) ) högst upp i rutan [!UICONTROL Experiences]. Du kan också ta bort Experience A från aktiviteten om du inte vill inkludera en standardwebbplatsupplevelse som ett alternativ.
+   [!UICONTROL Visual Experience Composer] visar två flikar till vänster när du har skapat en ny aktivitet: [!UICONTROL Experience A] och [!UICONTROL Experience B]. [!UICONTROL Experience A] är kontrollupplevelsen. Fokus ligger på fliken [!UICONTROL Experience B] som du kan ändra efter behov. [!UICONTROL Experience B] är den alternativa upplevelse som du kan lägga till i testet. Du kan lägga till flera upplevelser i testet genom att klicka på ikonen [!UICONTROL Add] ( ![ Lägg till ikon ](/help/main/assets/icons/Add.svg) ) högst upp i rutan [!UICONTROL Experiences]. Du kan också ta bort Experience A från aktiviteten om du inte vill inkludera en standardwebbplatsupplevelse som ett alternativ.
 
    Mer information om hur du lägger till och ändrar upplevelser i [!UICONTROL Visual Experience Composer] finns i [Lägg till upplevelse](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Om du vill ändra upplevelse B börjar du med steg 2.
 
@@ -100,8 +101,8 @@ Skapa en [!UICONTROL Auto-Target]-aktivitet:
 
       Om du behöver skapa en ny målgrupp som inte redan finns i [!UICONTROL Audience Library] klickar du på **Skapa målgrupp**. Under arbetsflödet [skapa målgrupper](/help/main/c-target/c-audiences/audiences.md) kan du välja bland följande alternativ:
 
-      * Skapa en on demand-målgrupp som sparas till [!UICONTROL Audience Library] som kan återanvändas i andra aktiviteter
-      * Skapa en [aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) som inte har sparats i [!UICONTROL Audience Library] och som bara kan användas i den aktuella aktiviteten
+      * **[!UICONTROL Audience Library]**: Skapa en målgrupp på begäran som sparas i [!UICONTROL Audience Library] som kan återanvändas i andra aktiviteter
+      * **[!UICONTROL This activity only]**: Skapa en [aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) som inte har sparats i [!UICONTROL Audience Library] och som bara kan användas i den aktuella aktiviteten
 
    1. Klicka på **[!UICONTROL Visitor Percentage]** i den högra bildrutan och välj sedan den procentandel kvalificerade besökare som du vill ange aktiviteten för.
 
@@ -109,7 +110,7 @@ Skapa en [!UICONTROL Auto-Target]-aktivitet:
 
 1. Klicka på kontrollen **[!UICONTROL Traffic Allocation]** och välj sedan önskad metod för trafikallokering i den högra rutan. I det här scenariot klickar du på **[!UICONTROL Auto-Taget for personalized experiences]**.
 
-   ![Inställningar för trafikallokeringsmetod](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![Inställningar för trafikallokeringsmetod](/help/main/c-activities/assets/auto-target.png)
 
    Följande metoder för trafiktilldelning är tillgängliga:
 
