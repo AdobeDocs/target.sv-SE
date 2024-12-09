@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 
 ## [!UICONTROL Offers Library] uppdatering av användargränssnittet (9 januari 2024)
 
-För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare uppdaterar den här versionen användargränssnittet för [!UICONTROL Offers Library]. Med det senaste [!DNL Adobe Spectrum]-designsystemet standardiserar den här uppdateringen inkonsekventa designmönster och introducerar nya förbättringar, bland annat:
+För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare uppdaterar den här versionen användargränssnittet för [!UICONTROL Offers Library]. Med det senaste [!DNL Adobe Spectrum]-designsystemet standardiserar den här uppdateringen inkonsekventa designmönster och introducerar nya förbättringar, bland annat följande:
 
-* **Erbjudandehantering i grupp**: Markera och ta bort flera erbjudanden samtidigt.
+* **Hantering av masserbjudanden**: Markera och ta bort flera erbjudanden samtidigt.
 
-* **Kodredigeraren uppgraderar**: Uppdaterade HTML- och JSON-redigerare med syntaxmarkering och radnumrering.
+* **[!UICONTROL Code Editor]uppgraderingar**: Uppdaterade HTML- och JSON-redigerare med syntaxmarkering och radnumrering.
 
-* **Förbättrade erbjudandekort**: Förbättrad snabbinformation och detaljkort för enklare åtkomst till information.
+* **Förbättrade kort för erbjudanden**: Förbättrade kort för snabb information och detaljer för enklare åtkomst till information.
 
 * **Beständig sökning och filter**: Lägger till alternativ för beständig sökning och filtrering för sessioner.
 

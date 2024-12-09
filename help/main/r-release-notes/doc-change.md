@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 9 december | [[!UICONTROL Visual Experience Composer] bästa praxis och begränsningar](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | Följande begränsning har lagts till:<ul><li>Du kan inte välja elementet [!UICONTROL Button] för att ordna om.<P>[!UICONTROL Button] element kan inte väljas direkt för att sortera om. Om du vill aktivera omsortering placerar du knappar i en större behållare.</li></ul> |
 | 3 december | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation har lagts till för den kommande uppdateringen av användargränssnittet för [!UICONTROL Offers Library]. |
 | 20 november | [Tillåtslista kantnoder för mål](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Listan över IP-adresser för målkant som ska tillåtslista har uppdaterats. |
 | 19 november | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Följande viktiga anteckning har lagts till i avsnittet [!DNL Adobe Experience Platform Web SDK] `__view__`-scopeoptimering (22 oktober 2024):<ul><li>VIKTIGT! Om du inte kan slutföra implementeringsgranskningen och åtgärda eventuella problem före 3 februari 2025 kan du begära en förlängning på en gång i sex månader. Se till att din ansökan har skickats in senast den 31 januari 2025. Adobe granskar och fattar beslut om din begäran.</li><ul> |
