@@ -6,9 +6,9 @@ feature: Auto-Allocate
 hide: true
 hidefromtoc: true
 exl-id: 1bfa311a-cbd9-48be-9b28-840be55b1118
-source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Skapa en [!UICONTROL Auto-Allocate]-aktivitet:
 
    [!UICONTROL Visual Experience Composer] öppnas och sidan som anges i URL:en visas.
 
-1. Klicka på **[!UICONTROL Untitled Activity]** högst upp i VEC och ange sedan ett namn för aktiviteten i det angivna utrymmet.
+1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 

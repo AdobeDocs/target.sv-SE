@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: fe6e5130-53a0-4254-8299-b52086c20004
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ Arbetsflödet för [!UICONTROL Automated Personalization]-aktivitet (AP) i [!DNL
 
    Sidan med den angivna URL:en öppnas i VEC.
 
-1. Klicka på **[!UICONTROL Untitled Activity]** högst upp i VEC och ange sedan ett namn för aktiviteten i det angivna utrymmet.
+1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 

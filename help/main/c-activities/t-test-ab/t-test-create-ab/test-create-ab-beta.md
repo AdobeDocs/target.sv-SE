@@ -6,9 +6,9 @@ feature: A/B Tests
 hide: true
 hidefromtoc: true
 exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
-source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
 
    [!UICONTROL Visual Experience Composer] öppnas och sidan som anges i URL:en visas.
 
-1. Klicka på **[!UICONTROL Untitled Activity]** högst upp i VEC och ange sedan ett namn för aktiviteten i det angivna utrymmet.
+1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 
