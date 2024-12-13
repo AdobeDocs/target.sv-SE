@@ -4,7 +4,7 @@ description: Lär dig hur du använder [!UICONTROL Visual Experience Composer] (
 title: Hur skapar jag kombinationer i en [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -64,3 +64,4 @@ Varje Text/HTML-erbjudande blir en separat upplevelse på den platsen.
 * Du måste ha minst tre element att testa. Om du har färre ska du köra en serie A/B-tester.
 * Alternativen för varje element bör skilja sig avsevärt från varandra.
 * Även om det inte är nödvändigt är det god praxis att ha samma antal alternativ för varje element.
+
