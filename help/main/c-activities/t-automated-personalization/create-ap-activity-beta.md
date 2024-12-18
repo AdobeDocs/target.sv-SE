@@ -7,9 +7,9 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -74,9 +74,7 @@ Arbetsflödet för [!UICONTROL Automated Personalization]-aktivitet (AP) i [!DNL
 
    Du kan välja flera bilder samtidigt i resurshanteraren. På så sätt kan du snabbt visa sidan med varje bild som är konfigurerad för aktiviteten. Du kan också enkelt redigera textelement i dina erbjudanden. När du redigerar ett element visas staplar på det elementet för att ange att du har ändrat det.
 
-1. Klicka på **[!UICONTROL Manage Content]** för att konfigurera tillgängliga kombinationer.
-
-   ![Hantera innehåll, alternativ](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. Klicka på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll](/help/main/assets/icons/Experience.svg) ) för att konfigurera tillgängliga kombinationer.
 
    En dialogruta visas med tre alternativ högst upp på skärmen: [!UICONTROL Experiences], [!UICONTROL Offers] och [!UICONTROL Exclusion Groups].
 
