@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 65367f0a032d2eb680e26d43ee79f5ae0890024b
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1420'
 ht-degree: 2%
 
 ---
@@ -271,21 +271,13 @@ ht-degree: 2%
    + [Visual Experience Composer (SPA) med en sida](c-experiences/spa-visual-experience-composer.md)
    + Erbjudanden {#offers}
       + [Översikt över erbjudanden](c-experiences/c-manage-content/manage-content.md)
-      + [Betaversion av erbjudanden](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [Skapa erbjudandemapp](c-experiences/c-manage-content/create-content-folder.md)
-      + [Skapa betaversion av erbjudandemapp](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [Överför innehåll](c-experiences/c-manage-content/assets-upload.md)
-      + [Ladda upp eller ta bort bilder erbjuder beta](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [Skapa omdirigeringserbjudanden](c-experiences/c-manage-content/offer-redirect.md)
-      + [Create redirect offers beta](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [Skapa fjärrerbjudanden](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Create remote offers beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
-      + [Create JSON offers beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Arbeta med innehåll i biblioteket](c-experiences/c-manage-content/assets-working.md)
-      + [Arbeta med innehåll i bibliotekets beta](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [Söka efter och filtrera innehåll](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [Betaversion av sök och filtrera innehåll](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [Överför dynamiska data till erbjudanden](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM upplevelse och innehållsfragment](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporter {#reports}

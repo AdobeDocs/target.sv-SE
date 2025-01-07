@@ -1,46 +1,31 @@
 ---
-keywords: innehåll;uppdatera innehåll;resurser;överföra innehåll;överföra resurs
-description: Lär dig hur du överför bilder som ska användas som bilderbjudanden i Adobe Target.
-title: Hur överför jag innehåll till offertbiblioteket?
+keywords: innehåll;uppdatera innehåll;resurser;överföra innehåll;överföra resurs;ta bort innehåll
+description: Lär dig hur du överför eller tar bort bilder som används som bilderbjudanden.
+title: Hur överför eller tar jag bort innehåll i [!UICONTROL Offers]-biblioteket?
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
-# Överför innehåll
+# Överför eller ta bort bilderbjudanden
 
-Du kan överföra bilder till listan [!UICONTROL Image Offers] i [!DNL Adobe Target] och använda dem som bilderbjudanden i aktiviteter. Du kan också ta bort bilderbjudanden när de inte längre behövs i aktiviteter.
+Du kan överföra bilder till biblioteket [!UICONTROL Image Offers] i [!DNL Adobe Target] och använda dem som bilderbjudanden i aktiviteter. Du kan också ta bort bilderbjudanden när de inte längre behövs i aktiviteter.
 
 ## Lägg till bilderbjudanden i listan
 
 1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
-
-   ![Erbjudanden > Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
-
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. Bläddra till och markera det objekt som du vill lägga till och klicka sedan på **[!UICONTROL Open]**.
 1. Redigera objektets filnamn om det behövs och klicka sedan på **[!UICONTROL Upload]**.
 
 ## Ta bort bilderbjudanden eller mappar
 
-Om du vill växla mellan [!UICONTROL Card View] och [!UICONTROL List View] klickar du på ikonen [!UICONTROL Card View] eller ikonen [!UICONTROL List View] i det övre högra hörnet av innehållsbiblioteket.
+1. (Villkorligt) Om du vill växla mellan [!UICONTROL Card View] och [!UICONTROL List View] klickar du på ikonen för [!UICONTROL Card View] ( ![kortvyn ](/help/main/assets/icons/ViewCard.svg) ) eller på ikonen för [!UICONTROL List View] ( ![listvyn ](/help/main/assets/icons/ViewList.svg) ) i det övre högra hörnet av innehållsbiblioteket.
 
-I [!UICONTROL Card View] håller du muspekaren över önskat bilderbjudande eller önskad mapp och klickar på ikonen **[!UICONTROL Select]** (bockmarkeringen) och sedan på **[!UICONTROL Delete]**.
+1. I [!UICONTROL Card View] håller du muspekaren över önskat bilderbjudande eller önskad mapp och klickar på ikonen **[!UICONTROL Select]** ( ![Välj ikon](/help/main/assets/icons/CheckmarkCircleOutline.svg) ) och sedan på ikonen **[!UICONTROL Delete]** ( ![Ta bort ikon](/help/main/assets/icons/DeleteOutline.svg) ).
 
-I [!UICONTROL List View] klickar du på miniatyrbilden till vänster om listan för att välja önskat bilderbjudande eller önskad mapp. Klicka sedan på **[!UICONTROL Delete]** enligt nedan:
-
-![Ta bort markerat objekt](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
-
-## Utbildningsvideo: Märket ![Översikt för innehållsdatabasen](/help/main/assets/overview.png)
-
-Den här videon innehåller information om hur du hanterar innehåll.
-
-* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
-* Erbjudanden för anpassade HTML
-* Anpassat HTML-erbjudande i Visual Experience Composer
-
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+1. I [!UICONTROL List View] klickar du på miniatyrbilden till vänster om listan för att välja önskat bilderbjudande eller önskad mapp och klickar sedan på ikonen **[!UICONTROL Delete]** ( ![Ta bort ikon](/help/main/assets/icons/DeleteOutline.svg) ).

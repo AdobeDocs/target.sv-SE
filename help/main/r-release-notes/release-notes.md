@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,26 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!UICONTROL Offers Library] uppdatering av användargränssnittet (9 januari 2025)
+
+För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare uppdaterar den här versionen användargränssnittet för [!UICONTROL Offers Library]. Med det senaste [!DNL Adobe Spectrum]-designsystemet standardiserar den här uppdateringen inkonsekventa designmönster och introducerar nya förbättringar, bland annat följande:
+
+* **Hantering av masserbjudanden**: Markera och ta bort eller flytta flera erbjudanden samtidigt.
+
+* **[!UICONTROL Code Editor]uppgraderingar**: Uppdaterade HTML- och JSON-redigerare med syntaxmarkering och radnumrering.
+
+* **Förbättrade kort för erbjudanden**: Förbättrade kort för snabb information och detaljer för enklare åtkomst till information.
+
+* **Beständig sökning och filter**: Lägger till alternativ för beständig sökning och filtrering för sessioner.
+
+Från och med 9 januari 2025 får alla [!DNL Target]-kunder tillgång till det nya användargränssnittet, med möjlighet att vid behov växla tillbaka till den aktuella versionen av användargränssnittet.
+
+Mer information finns i [Erbjudanden](/help/main/c-experiences/c-manage-content/manage-content.md) och underartiklarna i det här avsnittet.
+
+Här är ett kort videoklipp som visar förändringarna i den här versionen:
+
+![Erbjuder gränssnittsuppdateringsvideo](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` scopeoptimering (22 oktober 2024)
 

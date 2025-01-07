@@ -1,25 +1,21 @@
 ---
-keywords: fjärterbjudande;matris för urval av fjärrerbjudanden;cachelagrat innehåll;dynamiskt innehåll;URL-typ
-description: Lär dig hur du använder fjärrerbjudanden i Adobe [!DNL Target]  för att lagra externt innehåll (innehåll i ett CMS-system eller annat system). Upptäck varför du kanske vill använda fjärrerbjudanden.
+keywords: fjärterbjudande;cachelagrat innehåll;dynamiskt innehåll;URL-typ
+description: Upptäck hur ni kan utnyttja fjärrerbjudanden i  [!DNL Target]  för att lagra externt innehåll från CMS eller andra system.
 title: Hur skapar jag fjärrerbjudanden?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
 # Skapa fjärrerbjudanden
 
-Använd fjärrerbjudanden som värd för innehåll utanför [!DNL Adobe Target] som [!DNL Target] refererar till och levererar till användarens webbplatser. Det här innehållet kan finnas i ett CMS-system eller andra system, antingen av användarvänliga skäl eller av säkerhetsskäl.
+Använd fjärrerbjudanden för att lagra innehåll utanför [!DNL Adobe Target], så att [!DNL Target] kan referera till och leverera det här innehållet till användarens webbplatser. Det här innehållet kan finnas i ett innehållshanteringssystem (CMS) eller i ett annat system av användarvänliga eller säkerhetsskäl.
 
->[!NOTE]
->
->Fjärrerbjudanden kan skapas på [!UICONTROL Offers] > [!UICONTROL Code Offers]-sidan eller i [Forms-baserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). Du kan inte skapa eller använda fjärrerbjudanden i Visual Experience Composer (VEC). Innehållet kommer att injiceras på [!DNL Target]-begärandeplatserna, så de lämpar sig troligtvis inte för en global [!DNL Target]-begäran.
->
->[!DNL Target Classic] innehöll liknande funktioner: [!UICONTROL Offer on Your Site] och [!UICONTROL Offer Outside Test&Target].
+Fjärrerbjudanden kan skapas på [!UICONTROL Offers] > [!UICONTROL Code Offers]-sidan eller i [Forms-baserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). Du kan inte skapa eller använda fjärrerbjudanden i [!UICONTROL Visual Experience Composer] (VEC). Innehållet injiceras på [!DNL Target]-begärandeplatserna, så de här platserna passar troligtvis inte för en global [!DNL Target]-begäran.
 
 Några exempel på fjärrerbjudanden är:
 
@@ -44,69 +40,62 @@ Bästa tillvägagångssätt för att använda fjärrerbjudanden i dina aktivitet
 * Om du bara vill testa utseendet på ditt befintliga innehåll för fjärrerbjudanden använder du [!UICONTROL Visual Experience Composer] för att ändra utseendet på innehållet som returneras från innehållshanteringssystemet.
 * Använd matrisen [för val av fjärrerbjudande](#reference_B23BEDD29DDD47709A7651AFD27E776B) (nedan) för att få hjälp att välja det erbjudande som passar ditt specifika fall bäst. Kontakta din kontorepresentant om du har frågor.
 
-## Skapa ett fjärrerbjudande från sidan Koderbjudanden
+## Skapa ett fjärrerbjudande från sidan [!UICONTROL Code Offers]
 
 1. Klicka på **[!UICONTROL Offers]** och välj sedan fliken **[!UICONTROL Code Offers]**.
 
-   ![Erbjudanden > Koderbjudanden](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+1. Klicka på **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
-1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
+1. Ange ett beskrivande namn för erbjudandet i dialogrutan [!UICONTROL Create Remote Offer].
 
-   ![Dialogrutan Skapa fjärrerbjudande](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+   Ett beskrivande namn hjälper dig och andra att snabbt hitta erbjudandet i biblioteket [!UICONTROL Offers].
 
-1. Ange ett beskrivande namn för erbjudandet.
+1. (Villkorligt) Om du har ett [Target Premium-konto](/help/main/c-intro/intro.md#premium) väljer du önskad [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
-   Ett beskrivande namn hjälper dig och andra att snabbt hitta erbjudandet i biblioteket [!UICONTROL Assets].
+1. Ange typ av omdirigerings-URL.
 
-1. Ange URL-typen för omdirigering.
+   Mer information finns i [Omdirigerings-URL-typ: [!UICONTROL Onsite Cached] eller [!UICONTROL Onsite Dynamic]](#url-type) nedan.
 
-   Mer information finns i [Omdirigerings-URL-typ: cachelagrad eller dynamisk](#url-type) nedan.
+1. Ange den absoluta fjärr-URL:en för fjärrerbjudandet.
 
-1. Ange fjärr-URL för fjärrerbjudandet.
+1. Klicka på **[!UICONTROL Create]**.
 
-1. Klicka på **[!UICONTROL Save]**.
-
-## Skapa ett fjärrerbjudande med formulärbaserad Experience Composer
+## Skapa ett fjärrerbjudande med [!UICONTROL Form-Based Experience Composer]
 
 1. När du skapar en aktivitet med [formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md) väljer du platsen där avsnittet **[!UICONTROL Content]** ska visas.
+1. Klicka på listrutan **[!UICONTROL Content]**, klicka på ikonen **[!UICONTROL List]** ( ![Lista](/help/main/assets/icons/MoreSmallList.svg) ) och sedan på **[!UICONTROL Change Remote Offer]**.
 
-   ![Innehållsavsnitt i formulärbaserad Experience Composer](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
-1. Klicka på listrutan **[!UICONTROL Default Content]** och sedan på **[!UICONTROL Change Remote Offer]**.
-
-   ![Ändra alternativ för fjärrerbjudande](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
-1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
-
-   ![Dialogrutan Skapa fjärrerbjudande](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+1. Klicka på **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
 1. Ange ett beskrivande namn för erbjudandet.
 
    Ett beskrivande namn hjälper dig och andra att snabbt hitta erbjudandet i biblioteket [!UICONTROL Assets].
 
-1. Ange URL-typen för omdirigering.
+1. (Villkorligt) Om du har ett [Target Premium-konto](/help/main/c-intro/intro.md#premium) väljer du önskad [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
-   Mer information finns i [Omdirigerings-URL-typ: cachelagrad eller dynamisk](#url-type) nedan.
+1. Ange typ av omdirigerings-URL.
+
+   Mer information finns i [Omdirigerings-URL-typ: [!UICONTROL Onsite Cached] eller [!UICONTROL Onsite Dynamic]](#url-type) nedan.
 
 1. Ange fjärr-URL för fjärrerbjudandet.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Create]**.
 
-## Omdirigerings-URL-typ: cachelagrad eller dynamisk {#url-type}
+## Omdirigerings-URL-typ: [!UICONTROL Onsite Cached] eller [!UICONTROL Onsite Dynamic] {#url-type}
 
 Följande information hjälper dig att förstå skillnaderna mellan de två alternativen:
 
-### Cachelagrad URL
+### URL för [!UICONTROL Onsite Cached]
 
 Innehållet i ett cachelagrat fjärrerbjudande hanteras från [!DNL Target].
 
-Varannan timme hämtar [!DNL Target] innehållet på fjärr-URL:en och lagrar sedan innehållet i [!DNL Target]. När besökare läser in en webbplats med en upplevelse som innehåller ett fjärrerbjudande levereras erbjudandet av [!DNL Target].
+Varannan timme hämtar [!DNL Target] innehållet på fjärr-URL:en och lagrar sedan innehållet i [!DNL Target]. När besökare läser in en webbplats med en upplevelse som inkluderar ett fjärrerbjudande, levererar [!DNL Target] erbjudandet.
 
 Cachelagrade fjärrerbjudanden ger förbättrad säkerhet eftersom någon som är inloggad på [!DNL Target] inte kan ändra innehållet. För att ändra innehållet måste någon logga in på innehållshanteringen eller något annat system och ändra innehållet där.
 
 Du kan ange en absolut eller relativ URL för ett cachelagrat fjärrerbjudande.
 
-### Dynamisk URL
+### URL för [!UICONTROL Onsite Dynamic]
 
 Ett dynamiskt fjärrerbjudande levereras från innehållshanteringen eller något annat system i stället för från [!DNL Target].
 
@@ -116,9 +105,9 @@ Du kan klicka på **[!UICONTROL Add Parameter]** om du vill lägga till en eller
 
 ## Använd fjärrerbjudanden i aktiviteter
 
-Du måste tillämpa fjärrerbjudanden med [!UICONTROL Form-Based Experience Composer]. Du kan för närvarande inte använda fjärrerbjudanden med VEC.
+Använd fjärrerbjudanden med [!UICONTROL Form-Based Experience Composer]. Du kan för närvarande inte använda fjärrerbjudanden med [!UICONTROL Visual Experience Composer] (VEC).
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] är en icke-visuell upplevelse och erbjuder ett gränssnitt som är användbart när du skapar upplevelser som ska användas i [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- och [!UICONTROL Recommendations]-aktiviteter när den visuella upplevelsedispositionen inte är tillgänglig eller praktisk att använda. Du kan till exempel använda [!UICONTROL Form-Based Experience Composer] för att skapa upplevelser som använder fjärrerbjudanden.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] är en icke-visuell upplevelse och erbjuder ett gränssnitt för att skapa upplevelser som är användbara när det gäller att skapa upplevelser som kan användas i [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- och [!UICONTROL Recommendations]-aktiviteter när [!UICONTROL Visual Experience Composer] inte är tillgänglig eller praktiskt att använda. Du kan till exempel använda [!UICONTROL Form-Based Experience Composer] för att skapa upplevelser som använder fjärrerbjudanden.
 
 1. Skapa eller redigera en aktivitet i [!UICONTROL Form-Based Experience Composer].
 
@@ -126,11 +115,9 @@ Du måste tillämpa fjärrerbjudanden med [!UICONTROL Form-Based Experience Comp
 
 1. Ange önskad plats och lägg till eventuella målgruppsförbättringar efter behov.
 
-1. Klicka på listrutan i avsnittet **[!UICONTROL Content]** och sedan på **[!UICONTROL Change Remote Offer]**.
+1. Klicka på listrutan **[!UICONTROL Content]**, klicka på ikonen **[!UICONTROL List]** ( ![Lista](/help/main/assets/icons/MoreSmallList.svg) ) och sedan på **[!UICONTROL Change Remote Offer]**.
 
-   ![Ändra alternativ för fjärrerbjudande](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
-1. Välj önskat fjärrerbjudande i dialogrutan [!UICONTROL Select Remote Offer] och klicka sedan på **[!UICONTROL Done]**.
+1. Välj önskat fjärrerbjudande i dialogrutan [!UICONTROL Change Remote Offer] och klicka sedan på **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
 1. Slutför konfigurationen av aktiviteten.
 
@@ -138,15 +125,25 @@ Du måste tillämpa fjärrerbjudanden med [!UICONTROL Form-Based Experience Comp
 
 Dynamiska fjärrerbjudanden använder er dynamiska sidteknologi för att skicka värden till erbjudandet.
 
-Erbjudandet verkställs när du har återgett sidan. En osynlig iframe samlar in data, kopierar dem utanför ramen och infogar dem på sidan och läser in de värden som skickas.
+Erbjudandet verkställs när du har återgett sidan. En osynlig iFrame samlar in data, kopierar dem från ramen och infogar dem på sidan och läser in de värden som skickas.
 
 ![remote_offer_howitworks_2 image](assets/remote_offer_howitworks_2.jpeg)
 
+1. Besökarens webbläsare begär en sida från servern.
+
+2. Webbläsaren återger sidan, inklusive rutor.
+
+3. `mboxCreate`-anropet innehåller parametrar som krävs för att återge dynamiskt innehåll.
+
+4. [!DNL Target] returnerar en URL med platsen för dynamiskt innehåll och dess parametrar. Anger en iFrame i rutan.
+
+5. Webbläsaren begär webbadressen och återger den på sidan.
+
 ## Markeringsmatris för fjärrerbjudande {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-Med matrisen för val av fjärrerbjudande kan du avgöra vilken typ av fjärrerbjudande du vill välja: [!UICONTROL Cached] eller [!UICONTROL Dynamic].
+Med matrisen för val av fjärrerbjudande kan du avgöra vilken typ av fjärrerbjudande du ska välja: [!UICONTROL Onsite Cached] eller [!UICONTROL Onsite Dynamic].
 
-| Funktion | Cachelagrad | Dynamisk |
+| Funktion | Cachelagrad på plats | Dynamisk på plats |
 |--- |--- |--- |
 | Uppdateringar varje gång en besökare gör en begäran | Nej | Ja |
 | Innehållsuppdateringar | Cachelagras varannan timme | Uppdateras omedelbart efter varje begäran |
@@ -155,13 +152,3 @@ Med matrisen för val av fjärrerbjudande kan du avgöra vilken typ av fjärrerb
 | Erbjudandena kan omfatta JavaScript | Ja | Ja |
 | Erbjudandets URL | Absolut eller relativt | Relativ |
 | Begär dator | Adobe-servrar | Besökarens dator som bär besökarens cookies |
-
-## Utbildningsvideo: Formulärbaserad disposition ![Tutorial badge](/help/main/assets/tutorial.png)
-
-Den här videon innehåller en demonstration av den formulärbaserade dispositionen, som du kan använda för att skapa fjärrerbjudanden.
-
-* Skapa en aktivitet med formulärbaserad Experience Composer
-* Förstå när formulärbaserad Experience Composer ska användas jämfört med Visual Experience Composer
-* Använd förfiningar för att ange en plats som mål
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)

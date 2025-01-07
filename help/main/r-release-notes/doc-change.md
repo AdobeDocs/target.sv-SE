@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 7 januari | [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation har lagts till för uppdateringen av användargränssnittet [!UICONTROL Offers Library] (schemalagd till 9 januari 2025). Alla artiklar om erbjudanden uppdaterades för att återspegla gränssnittsändringarna. |
 | 9 december | [[!UICONTROL Visual Experience Composer] bästa praxis och begränsningar](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | Följande begränsning har lagts till:<ul><li>Du kan inte välja elementet [!UICONTROL Button] för att ordna om.<P>[!UICONTROL Button] element kan inte väljas direkt för att sortera om. Om du vill aktivera omsortering placerar du knappar i en större behållare.</li></ul> |
 |  | [adobe.target.triggerView (viewName, options) - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | Följande avsnitt har lagts till:<ul><li>Exempel: Bästa kompatibilitet för `triggerView()` med hjälptillägget för visuell redigering i Adobe</li></ul> |
 | 3 december | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation har lagts till för den kommande uppdateringen av användargränssnittet för [!UICONTROL Offers Library]. |

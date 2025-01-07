@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 11 december 2024**
+**Senast uppdaterad: 7 januari 2025**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 
 För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare uppdaterar den här versionen användargränssnittet för [!UICONTROL Offers Library]. Med det senaste [!DNL Adobe Spectrum]-designsystemet standardiserar den här uppdateringen inkonsekventa designmönster och introducerar nya förbättringar, bland annat följande:
 
-* **Hantering av masserbjudanden**: Markera och ta bort flera erbjudanden samtidigt.
+* **Hantering av masserbjudanden**: Markera och ta bort eller flytta flera erbjudanden samtidigt.
 
 * **[!UICONTROL Code Editor]uppgraderingar**: Uppdaterade HTML- och JSON-redigerare med syntaxmarkering och radnumrering.
 
@@ -36,6 +36,8 @@ För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare up
 * **Beständig sökning och filter**: Lägger till alternativ för beständig sökning och filtrering för sessioner.
 
 Från och med 9 januari 2025 får alla [!DNL Target]-kunder tillgång till det nya användargränssnittet, med möjlighet att vid behov växla tillbaka till den aktuella versionen av användargränssnittet.
+
+Mer information finns i [Erbjudanden](/help/main/c-experiences/c-manage-content/manage-content.md) och underartiklarna i det här avsnittet.
 
 Här är ett kort videoklipp som visar förändringarna i den här versionen:
 
