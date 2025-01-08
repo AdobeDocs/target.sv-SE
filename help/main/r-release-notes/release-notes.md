@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare up
 * **Förbättrade kort för erbjudanden**: Förbättrade kort för snabb information och detaljer för enklare åtkomst till information.
 
 * **Beständig sökning och filter**: Lägger till alternativ för beständig sökning och filtrering för sessioner.
-
-Från och med 9 januari 2025 får alla [!DNL Target]-kunder tillgång till det nya användargränssnittet, med möjlighet att vid behov växla tillbaka till den aktuella versionen av användargränssnittet.
 
 Mer information finns i [Erbjudanden](/help/main/c-experiences/c-manage-content/manage-content.md) och underartiklarna i det här avsnittet.
 

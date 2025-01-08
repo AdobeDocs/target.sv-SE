@@ -4,9 +4,9 @@ description: Upptäck hur du effektivt kan hantera kod- och bilderbjudanden med 
 title: Hur hanterar jag erbjudanden för kod och bilder?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Upptäck hur du effektivt hanterar kod och bilderbjudanden med hjälp av bibliot
 Om du vill visa biblioteket [!UICONTROL Offers] klickar du på fliken **[!UICONTROL Offers]** högst upp i användargränssnittet för [!DNL Target].
 
 ![Sidan Erbjudanden](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
-
->[!NOTE]
->
->Den här artikeln innehåller det uppdaterade användargränssnittet för [!UICONTROL Offers] som släpptes 9 januari 2025. Om du föredrar att använda det gamla användargränssnittet för [!UICONTROL Offers] växlar du [!UICONTROL Switch to the Old Experience] till den aktuella positionen.
 
 Biblioteket [!UICONTROL Offers] innehåller erbjudanden som har konfigurerats via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) och API:er. Erbjudanden som skapats i [!DNL Target Classic] eller andra lösningar kan redigeras i [!DNL Target Standard/Premium].
 
