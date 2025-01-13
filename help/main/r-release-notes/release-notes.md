@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare up
 
 * **Beständig sökning och filter**: Lägger till alternativ för beständig sökning och filtrering för sessioner.
 
-Mer information finns i [Erbjudanden](/help/main/c-experiences/c-manage-content/manage-content.md) och underartiklarna i det här avsnittet.
+Mer information finns i [Erbjudanden](/help/main/c-experiences/c-manage-content/manage-content.md) och underartiklarna i det här avsnittet. Alla artiklar i det här avsnittet har uppdaterats för att återspegla de här gränssnittsändringarna.
 
 Här är ett kort videoklipp som visar förändringarna i den här versionen:
 
