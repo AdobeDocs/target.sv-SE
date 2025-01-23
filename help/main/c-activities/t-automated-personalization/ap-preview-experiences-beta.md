@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,6 @@ Eftersom [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-aktivit
 
    Du kan välja att exkludera en upplevelse som visar variationer i konflikt eller en upplevelse som inte är estetiskt balanserad.
 
-1. (Villkorligt) Om du vill utesluta flera upplevelser markerar du kryssrutorna för de önskade upplevelserna, klickar sedan på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder-ikonen ](/help/main/assets/icons/MoreSmallList.svg) ) bredvid de upplevelser du vill utesluta och klickar sedan på **[!UICONTROL Exclude]**.
+1. (Villkorligt) Om du vill utesluta flera upplevelser markerar du kryssrutorna för de önskade upplevelserna och klickar sedan på **[!UICONTROL Exclude]**.
 
-1. (Villkorligt) Om du vill inkludera flera upplevelser som har uteslutits markerar du kryssrutorna för de önskade upplevelserna, klickar sedan på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder-ikonen ](/help/main/assets/icons/MoreSmallList.svg) ) bredvid de upplevelser som du vill inkludera och klickar sedan på **[!UICONTROL Include]**.
+1. (Villkorligt) Om du vill inkludera flera upplevelser som har uteslutits markerar du kryssrutorna för de önskade upplevelserna och klickar sedan på **[!UICONTROL Include]**.

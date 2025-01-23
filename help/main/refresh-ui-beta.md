@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,11 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
    * [Översikt över Automatisk målning](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [Skapa en Automatisk målaktivitet](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [Vanliga frågor och svar om Automatiskt mål och felsökning](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-
+* Automated Personalization {#automated-personalization}
+   * [Skapa en Automated Personalization-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity-beta.md)
+   * [Uppskatta den trafik som krävs för att lyckas](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
+   * [Förhandsgranska upplevelser i Automated Personalization-aktiviteter i Visual Experience Composer (VEC)](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
+   * [Automated Personalization-målerbjudanden](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
 +++
 
 <!-- 
