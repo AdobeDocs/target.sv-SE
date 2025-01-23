@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,13 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 
 ## [!UICONTROL Offers Library] uppdatering av användargränssnittet (9 januari 2025)
 
-För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare uppdaterar den här versionen användargränssnittet för [!UICONTROL Offers Library]. Med det senaste [!DNL Adobe Spectrum]-designsystemet standardiserar den här uppdateringen inkonsekventa designmönster och introducerar nya förbättringar, bland annat följande:
+För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare uppdaterar den här versionen användargränssnittet för [!UICONTROL Offers Library].
+
+>[!NOTE]
+>
+>För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. Den första fasen uppgraderade den första gruppen av Target-kunder till det nya gränssnittet för erbjudanden. Efterföljande steg kommer att uppgradera de återstående kunderna.
+
+Med det senaste [!DNL Adobe Spectrum]-designsystemet standardiserar den här uppdateringen inkonsekventa designmönster och introducerar nya förbättringar, bland annat följande:
 
 * **Hantering av masserbjudanden**: Markera och ta bort eller flytta flera erbjudanden samtidigt.
 

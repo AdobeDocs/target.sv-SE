@@ -4,9 +4,9 @@ description: Identifiera varför vissa webbplatser kanske inte kan öppnas på e
 title: Hur använder jag hjälptillägget [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ VEC Helper-webbläsaren är ett [!DNL Chrome]-tillägg. Det här tillägget är 
 >* Det äldre VEC Helper-tillägget [!DNL Target] som beskrivs i den här artikeln skapades med Manifest V2. [!DNL Google] meddelade att tillägg som skapats med Manifest V2 inte längre tillåts från och med juni 2024. Mer information finns i [Manifest V2 support timeline notification](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} from [!DNL Google] på webbplatsen *Chrome for Developers*.
 >
 >* Från och med juni 2024 börjar [!DNL Google] inaktivera tillägg som skapats med Manifest V2, inklusive det tillägg som beskrivs i det här avsnittet. [!DNL Adobe] rekommenderar att kunderna går över till det nyare [hjälptillägget för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) så snart som möjligt.
->
->* Kunder som använder privata Chrome Web Stores bör fortsätta att använda den här versionen av tillägget tills stödet för det här användningsfallet har implementerats i det [nya [!UICONTROL Visual Editing Helper] tillägget](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) i slutet av januari 2025.
 
 ## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 
