@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
    * [Uppskatta den trafik som krävs för att lyckas](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
    * [Förhandsgranska upplevelser i Automated Personalization-aktiviteter i Visual Experience Composer (VEC)](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [Automated Personalization-målerbjudanden](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
+   * [Rapporteringsgrupper i Automated Personalization-beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
+   * [Välj kontroll för din Automated Personalization eller Automatisk målaktivitetsbeta](c-activities/t-automated-personalization/experience-as-control-beta.md)
 +++
 
 <!-- 

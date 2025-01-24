@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1436'
 ht-degree: 2%
 
 ---
@@ -166,7 +166,9 @@ ht-degree: 2%
       + [Hantera undantag](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Hantera undantag - beta](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Erbjud rapporteringsgrupper i Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Rapporteringsgrupper i Automated Personalization-beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Välj kontroll för din Automated Personalization eller Automatisk-Target-beta](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [AUTOMATED PERSONALIZATION FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Felsöka Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Experience Targeting {#experience-targeting}
