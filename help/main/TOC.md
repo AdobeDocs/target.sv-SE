@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1449'
 ht-degree: 2%
 
 ---
@@ -175,9 +175,13 @@ ht-degree: 2%
       + [Experience Targeting - översikt](c-activities/t-experience-target/experience-target.md)
       + Skapa en Experience Targeting-aktivitet {#create-targeting}
          + [Skapa en aktivitet](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [Skapa en activity-beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [Aktivitets-URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [Aktivitets-URL-beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Skapa en upplevelse](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [Skapa en upplevelsebeta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Byta upplevelser i Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Byta upplevelser i Experience Targeting-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Mål och inställningar](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Ange mått](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivariattest {#multivariate-test}
