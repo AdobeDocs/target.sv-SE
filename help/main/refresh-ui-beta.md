@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 438b65368b81f71d684444352035ce73627e698f
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,14 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
    * [Aktivitets-URL-beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
    * [Skapa en upplevelsebeta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
    * [Byta upplevelser i Experience Targeting-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+* Multivariattest (MVT) {#mvt}
+   * [Skapa en testbeta](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
+   * [Beta för aktivitets-URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
+   * [Skapa kombinationer beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
+   * [Förhandsgranska upplevelser för en Multivariate Test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
+   * [Uppskatta den trafik som krävs för en lyckad testbeta](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
+   * [Testa beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
+   * [Ange betaversion av mätvärden](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
 +++
 
 <!-- 

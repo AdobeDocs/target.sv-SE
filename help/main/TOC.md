@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1481'
 ht-degree: 2%
 
 ---
@@ -190,13 +190,20 @@ ht-degree: 2%
       + [Planera ett multivariata test](c-activities/c-multivariate-testing/plan-mvt.md)
       + Skapa ett multivariattest {#create-mvt}
          + [Skapa ett test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
+         + [Skapa en testbeta](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [Aktivitets-URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
+         + [Beta för aktivitets-URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [Skapa kombinationer](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
+         + [Skapa kombinationer beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [Förhandsgranska upplevelser för ett multivariat test](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
+         + [Förhandsgranska upplevelser för en Multivariate Test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [Uppskatta den trafik som krävs för ett lyckat test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
+         + [Uppskatta den trafik som krävs för en lyckad testbeta](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [Testsammanfattning](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
+         + [Testa beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [Mål och inställningar](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Ange mått](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
+         + [Ange betaversion av mätvärden](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [Felsöka multivariata tester](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations-aktivitet](c-activities/recommendations-activity.md)
    + [Redigera en aktivitet eller spara som utkast](c-activities/edit-activity.md)
