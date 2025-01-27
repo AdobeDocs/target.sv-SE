@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
+source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -43,13 +43,13 @@ Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet o
 
 ![Aktivitetsuppdatering](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## [!DNL Recommendations] uppdatering av användargränssnittet (7 februari 2025)
+## [!DNL Recommendations] uppdatering av användargränssnittet (6 februari 2025)
 
 I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] fortsätter är vi glada att kunna meddela att det uppdaterade [!DNL Recommendations]-användargränssnittet är allmänt tillgängligt.
 
 >[!NOTE]
 >
->Från och med torsdagen den 7 februari har kunderna gradvis tillgång till det nya [!UICONTROL Recommendations]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
+>Från och med onsdagen den 6 februari har kunderna gradvis tillgång till det nya [!UICONTROL Recommendations]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
 
 Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
 
