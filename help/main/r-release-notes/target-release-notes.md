@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,53 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 7 januari 2025**
+**Senast uppdaterad: 27 januari 2025**
 
 >[!NOTE]
 >
 >Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+
+## [!UICONTROL Activities] uppdatering av användargränssnittet (6 februari 2025)
+
+I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] fortsätter är vi glada att kunna meddela att det uppdaterade [!UICONTROL Activities]-användargränssnittet är allmänt tillgängligt.
+
+>[!NOTE]
+>
+>Från och med onsdagen den 6 februari har kunderna gradvis tillgång till det nya [!UICONTROL Activities]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
+
+Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
+
+* Omdesignade rapporter för bättre insikter i aktivitetsresultaten
+* Sidan [!UICONTROL Audit] har uppdaterats och information om realtidsinsikter hämtas från [!DNL Audit API]
+* Anpassningsbara listvyer för bättre flexibilitet i olika teambehov
+* Förbättrad snabbinformation och detaljskärmar för enklare åtkomst till information
+* Alternativ för beständig sökning och filtrering
+* [!UICONTROL Visual Editing Composer] har omskapats fullständigt med stöd för de senaste säkerhetsuppdateringarna från webbläsarproviders och ett modernt användargränssnitt
+* Tillägget [!DNL Chrome] med stöd för manifest V3 har uppdaterats för ökad säkerhet och förbättrat stöd för cookies från första part
+
+![Aktivitetsuppdatering](/help/main/r-release-notes/assets/activities-refresh.png)
+
+## [!DNL Recommendations] uppdatering av användargränssnittet (7 februari 2025)
+
+I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] fortsätter är vi glada att kunna meddela att det uppdaterade [!DNL Recommendations]-användargränssnittet är allmänt tillgängligt.
+
+>[!NOTE]
+>
+>Från och med torsdagen den 7 februari har kunderna gradvis tillgång till det nya [!UICONTROL Recommendations]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
+
+Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
+
+* Produktkatalogsökningen innehåller nu en uppdaterad databas som möjliggör synkronisering i realtid av produkter
+* [!UICONTROL Recommendation] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) som skapats över API är nu tillgängliga i gränssnittet
+* Inställningar har konsoliderats under avsnittet [!UICONTROL Administration]
+* Anpassningsbara listvyer för bättre flexibilitet i olika teambehov
+* Uppdaterade kodredigerare för HTML och JSON med syntaxmarkering och radnumrering
+* Förbättrad snabbinformation och detaljskärmar för enklare åtkomst till information
+* Alternativ för beständig sökning och filtrering
+
+![Recommendations UI-uppdatering](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## [!UICONTROL Offers Library] uppdatering av användargränssnittet (9 januari 2025)
 
