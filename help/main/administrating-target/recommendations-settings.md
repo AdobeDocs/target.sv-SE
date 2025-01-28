@@ -8,7 +8,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -31,4 +31,4 @@ Du kan konfigurera följande inställningar:
 * Ange din miniatyrbas-URL
 * Konfigurera anpassade attributnycklar
 
-Mer information finns i [Planera och implementera Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} i **[!DNL Adobe Target]Utvecklarhandbok**.
+Mer information finns i [Planera och implementera Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} i **[!DNL Adobe Target]Utvecklarhandbok**.

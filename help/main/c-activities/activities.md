@@ -4,9 +4,9 @@ description: Anpassa innehåll och testa siddesign för specifika målgrupper me
 title: Hur kan jag personalisera innehåll och testa siddesign med  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,10 @@ Följande tabell hjälper dig att förstå olika element i listan [!UICONTROL Ac
 | [!UICONTROL Property] | Visar [egenskapen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) för aktiviteten.<P>Enterprise-användarbehörigheter är en [Target Premium](/help/main/c-intro/intro.md#premium)-funktion. |
 | [!UICONTROL Estimated Lift in Revenue] | Visar den förväntade intäktsökningen om 100 % av publiken ser den vinnande upplevelsen.<P>Beräknas med följande formel:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>Talet avrundas till en decimal, max, om det komprimerade formuläret bara har en siffra före decimaltalet. Exempel: $1,6 MB, $60 K, $900, $8,5 K, $205 K<P>I den här kolumnen visas &quot;—&quot; för aktiviteter som inte har tillräckligt med data för att ringa till en vinnarshow eller som inte har en kostnadsberäkning.<P>Mer information finns i [Beräknar Lyft i intäkt](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
 | [!UICONTROL Source] | Visar var aktiviteten skapades: [!DNL Adobe Target], [Adobe Target API](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html) eller [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
-| [!UICONTROL Location] | URL:en för aktiviteten identifierar var aktiviteten visas. Med den här kolumnen kan du snabbt identifiera en aktivitet och avgöra om en viss sida redan har en aktivitet som körs på den.<P>Om en aktivitet körs på flera URL-adresser, visar en länk hur många fler URL-adresser som används. Klicka på länken för att visa den fullständiga listan med URL:er för den aktiviteten.<P>Du kan söka baserat på URL-adressen. Använd listrutan bredvid sökrutan och välj [!UICONTROL URL]. |
 | [!UICONTROL Author] | Namnet på den person som skapade aktiviteten. |
 | [!UICONTROL Decisioning Method] | Beslutsmetoden som används i varje aktivitet: [Serversidan](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html) eller [Klientsidan](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
+
+<!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
 ## Typ av aktivitet {#types}
 
