@@ -5,9 +5,9 @@ title: Vad är värdar och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ En värd är en domän från vilken en [!DNL Target]-begäran görs. På en webb
 Som standard begränsar inte [!DNL Target] en värd som kan göra [!DNL Target] förfrågningar och ta emot [!DNL Target] svar. När nya värdar gör förfrågningar fungerar de automatiskt. Den här processen gör det även möjligt att testa på olika domäner som du inte vet eller inte kan förutse. Om du vill åsidosätta det här standardbeteendet kan du konfigurera en tillåtelselista eller blockeringslista för att begränsa vilka värdar som ska arbeta med [!DNL Target].
 
 Om du vill hantera värdar klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
-
-![hosts_list image](assets/hosts_list.png)
 
 ## Känna igen värdar {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
@@ -97,7 +95,7 @@ Du kan också skapa ett blockeringslista som anger värdar (domäner) som inte k
 
 >[!NOTE]
 >
->Listan [!UICONTROL Authorized Hosts] används för både [!DNL Target]-värdar och standardomdirigeringsvärdar. Lägg till alla befintliga domäner som är godkända för att använda JavaScript SDK [!DNL Adobe Target] (at.js) *AND* för alla domäner som används i standardomdirigerings-URL:er för ubox. Lägg till liknande domäner i tillåtelselista i framtiden.
+>Listan [!UICONTROL Authorized Hosts] används för både [!DNL Target]-värdar och standardomdirigeringsvärdar. Lägg till alla befintliga domäner som är godkända för att använda JavaScript SDK [!DNL Adobe Target] (at.js) *AND* för alla domäner som används i Ubox-standardomdirigerings-URL:er. Lägg till liknande domäner i tillåtelselista i framtiden.
 
 ## Ta bort en värd {#section_F56355BA4BC54B078A1A8179BC954632}
 

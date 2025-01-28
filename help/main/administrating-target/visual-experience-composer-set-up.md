@@ -5,9 +5,9 @@ title: Hur konfigurerar jag Visual Experience Composer (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,9 @@ Du öppnar konfigurationssidan för [!UICONTROL Visual Experience Composer] geno
 >
 >Observera att inställningarna på den här sidan gäller för hela [!DNL Target]-kontot.
 
-![Konfigurationssida för Visual Experience Composer](/help/main/administrating-target/assets/vec.png)
-
 ## Allmänna inställningar
 
-Du kan ange allmänna inställningar för Visual Experience Composer.
+Du kan ange allmänna inställningar för [!UICONTROL Visual Experience Composer].
 
 ![Avsnittet Allmänna inställningar](/help/main/administrating-target/assets/general-settings.png)
 

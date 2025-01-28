@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1485'
 ht-degree: 2%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 2%
    + [Vanliga frågor om måloptimering och personalisering](c-intro/cmp-target-standard-cheatsheet.md)
 + Administrera mål {#administer}
    + [Administrera målöversikt](administrating-target/administrating-target.md)
+   + [Administrera målöversikt beta](administrating-target/administrating-target-beta.md)
    + [Administratörssteg](administrating-target/start-target.md)
    + [Konfigurera Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + Rapporterar {#reporting}

@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 0%
 
 ---
@@ -192,18 +192,12 @@ Den nya behörighetsfunktionen kan visas på olika platser i användargränssnit
 
 * **Listrutan Workspace (produktprofil):** Listrutan Workspace visas högst upp på sidorna [!UICONTROL Activities], [!UICONTROL Audiences] och [!UICONTROL Offers]. Välj önskad arbetsyta för att filtrera listan så att endast objekt i den markerade arbetsytan visas.
 
-  ![workspace_drop-down image](assets/workspace_drop-down.png)
-
 * **Skapa aktivitet:** När du skapar en aktivitet skapas den i den markerade arbetsytan. Du ser alternativ för kanalval i den första dialogrutan där du kan välja önskad kanal för aktiviteten: Web, Mobile App, Email eller Other/API.
-
-  ![channel_options, bild](assets/channel_options.png)
 
 * **Målgruppsgenerering:** När du skapar en målgrupp skapas den i den valda arbetsytan.
 * **Mållista:** Du kan flytta målgrupper mellan arbetsytor genom att använda alternativet [!UICONTROL More Actions] > [!DNL Move] på sidan [!UICONTROL Audiences] .
 * **Skapa erbjudande:** När du skapar ett erbjudande skapas det i den valda arbetsytan.
 * **Sidan Egenskaper (Administration > Egenskaper):** Du kan använda rutan [!UICONTROL Search] för att söka i listan [!UICONTROL Property].
-
-  ![properties_list image](assets/properties_list.png)
 
 ## Caveats {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -235,14 +229,14 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 
    * Aktiviteter, målgrupper och koderbjudanden som skapats i [!DNL Target Standard/Premium] är tillgängliga efter att kunden har aktiverats för behörigheter. (Obs! Kunder måste ha rätt till [!DNL Target Premium].)
    * Egenskaper kan läggas till i befintliga aktiviteter i standardversionen av Workspace, men detta kan komma att ändras.
-   * Endast nya resurser (som aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium (efter att Enterprise Permissions (Enterprise Permissions)) har aktiverats kan begränsas av behörigheter.
+   * Endast nya resurser (till exempel aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium (efter att Enterprise Permissions (Enterprise Permissions)) har aktiverats kan begränsas av behörigheter.
    * Externa resurser är bara tillgängliga för användare i Workspace Standard. En användares roll i standardversionen av Workspace gäller globalt (för alla Target-begäranden och alla Target-resurser).
 
 * Följande resurser är *inte* en del av den nya Enterprise Permissions-modellen:
 
    * Bilderbjudanden
    * Alla Recommendations-resurser, inklusive kriteriebibliotek, designbibliotek, katalog, Recommendations Setup.
-   * Befintliga resurser (t.ex. aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium innan Enterprise-behörigheter aktiveras kan kopieras, men kan inte flyttas till andra arbetsytor.
+   * Befintliga resurser (som aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium innan Enterprise Permissions aktiveras kan kopieras, men kan inte flyttas till andra arbetsytor.
    * Aktiviteter, målgrupper, koderbjudanden, bilderbjudanden eller andra resurser som skapats med följande lösningar eller metoder kan inte styras av Enterprise Permissions-modellen, men ingår i standardversionen av Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services och resurser som skapats med API. Resurser som skapas via API omfattar aktiviteter, målgrupper, koderbjudanden och bilderbjudanden).
    * Bilderbjudanden (resurser som lagras under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kan för närvarande inte styras av modellen Enterprise Permissions.
    * clickTracking och omdirigerar arbetet när mållänken eller målsidan är en del av en egenskap som ingår i aktiviteten. ClickTracking fungerar kanske inte heller när funktionen `targetPageParams()` används. `targetPageParamsAll()` är den rekommenderade funktionen.

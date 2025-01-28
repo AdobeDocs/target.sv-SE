@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 438b65368b81f71d684444352035ce73627e698f
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
 >[!DNL Adobe Target]-teamet aktiverar ofta nya funktioner för utvalda kunder i testnings- och feedbacksyfte. När testperioden är klar aktiveras dessa funktioner för alla kunder i framtida [!DNL Target]-versioner och presenteras i versionsinformationen.
 >
 >Informationen i dessa artiklar uppdateras ofta under Beta utan föregående meddelande.
+
+## Administration
+
++++klicka för att expandera
+
+* [Administrera målöversiktsbetaversion](administrating-target/administrating-target-beta.md)
++++
 
 ## Verksamhet
 

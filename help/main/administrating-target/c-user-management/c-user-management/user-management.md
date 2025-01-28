@@ -5,9 +5,9 @@ title: Hur lägger jag till användare och hanterar behörigheter för ett [!DNL
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Administratörsanvändare identifieras i listan [!UICONTROL Users]. Kontakta en 
 Du kan visa en lista över dina aktuella användare i användargränssnittet för [!DNL Target], inklusive deras roller per arbetsyta och e-postadresser.
 
 Om du vill visa sidan [!UICONTROL Users] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
-
-![Användarlista från mål](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ Systemadministratörsanvändare måste lägga till användare i systemet. Använ
 
 1. [Klicka på **[!UICONTROL Products]** i Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) och välj sedan namnet på önskad produkt.
 
-   ![Fliken Produkter](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. Klicka på önskad arbetsyta (till exempel Workspace som standard).
-
-   ![Workspace](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png) som standard
 
    Fliken [!UICONTROL Users] visar alla användare på den arbetsytan.
 
-   ![konfigurationsanvändare](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. Välj önskad behörighetsroll ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] eller [!UICONTROL Publisher]) genom att använda listrutan för varje användare i kolumnen [!UICONTROL Product Role].
-
-   ![Listruta för produktroll](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Roll | Beskrivning |
    |--- |--- |

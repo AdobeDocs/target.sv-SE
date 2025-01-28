@@ -5,9 +5,9 @@ title: Hur implementerar  [!DNL Target]  på min webbplats?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,3 @@ Mer information finns i de olika avsnitten under [Implementeringsmål](/help/mai
 1. Du öppnar sidan [!UICONTROL Implementation] genom att klicka på **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
 1. Mer information om inställningarna på den här sidan finns i [Implementera mål utan tagghanterare](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
-
-![Implementeringssida](/help/main/administrating-target/assets/implementation.png)

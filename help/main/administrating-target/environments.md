@@ -5,9 +5,9 @@ title: Vad är miljöer och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ En miljö, standardmiljön, har förnamnet [!UICONTROL Production]. Den här sta
 När en [!DNL Target]-begäran tas emot från nya webbplatser eller domäner visas alltid dessa nya domäner i [!UICONTROL Production]-miljön. Miljön [!UICONTROL Production] kan inte ha sina inställningar ändrade, så okända eller nya platser garanteras bara se innehåll som är aktivt och klart. Med värdhantering kan du enkelt säkerställa kvaliteten på nya aktiviteter och innehåll i test-, staging- och utvecklingsmiljöer innan du aktiverar aktiviteterna.
 
 Klicka **[!UICONTROL Administration]** > **[!UICONTROL Environments]** om du vill hantera miljöer.
-
-![Miljölista](/help/main/administrating-target/assets/environments.png)
 
 ## Lägga till en miljö {#section_32097D0993724DF3A202D164D3F18674}
 
