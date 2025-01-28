@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 9c6ff35269a81aa0c2ea331985c6f5ddd5c8ccb3
+exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -34,8 +35,6 @@ Andra kriteriealternativ ändras beroende på vilken vertikal du väljer i brans
 ## Algoritmtyp {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 Den algoritmtyp du väljer avgör vilka algoritmer som är tillgängliga.
-
-![Villkorssida](assets/criteria-page-new.png)
 
 I följande tabell förklaras de olika algoritmtyperna och deras tillhörande algoritmer.
 
@@ -75,11 +74,9 @@ Anta till exempel att du vill visa rekommenderade filmer baserat på den film so
 
 Du kan visa villkorsinformation genom att klicka på de önskade villkoren i kolumnen [!UICONTROL Name].
 
-![Villkorskortshovring](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+I avsnitten **[!UICONTROL Attributes]** och Detaljer kan du visa allmän information om de valda villkoren, inklusive dess [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] och senast ändrade information (datum och vem som ändrade algoritmen).
 
-På fliken **[!UICONTROL Algorithm Info]** kan du visa allmän information om de valda villkoren, inklusive dess [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] och senast ändrade information (datum och vem som ändrade algoritmen).
-
-I avsnittet **[!UICONTROL Algorithm Usage]** kan du visa en lista med aktiviteter som refererar till de valda villkoren.
+I avsnittet **[!UICONTROL Usage]** kan du visa en lista med aktiviteter som refererar till de valda villkoren.
 
 >[!NOTE]
 >

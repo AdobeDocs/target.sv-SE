@@ -4,9 +4,9 @@ description: Anpassa innehåll och testa siddesign för specifika målgrupper me
 title: Hur kan jag personalisera innehåll och testa siddesign med  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2218'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,12 @@ Listan [!UICONTROL Activities] är standardvy när du öppnar [!DNL Target]. Du 
 
 Du kan också visa listan [!UICONTROL Activities] genom att klicka på fliken [!UICONTROL Activities] högst upp i användargränssnittet i [!DNL Target].
 
-![Aktivitetslista](/help/main/c-activities/assets/activities-list-new.png)
-
 Listan [!UICONTROL Activities] innehåller en översikt över alla aktiviteter i din [!DNL Target]-implementering och gör att du kan utföra olika åtgärder.
 
 Följande tabell hjälper dig att förstå olika element i listan [!UICONTROL Activities] i användargränssnittet i [!DNL Target]:
 
 | Element | Beskrivning |
 |--- |--- |
-| Vänster navigeringsspår | Växla mellan dina sparade eller aktiva aktiviteter och misslyckade eller [utkast till aktiviteter](/help/main/c-activities/edit-activity.md). |
 | ikonen [!UICONTROL Show filters]<P>![Ikonen Visa filter](/help/main/assets/icons/Filter.svg) | Du kan få åtkomst till filter genom att klicka på ikonen **[!UICONTROL Show Filters]** i den övre delen av listan för att filtrera aktiviteter efter [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] och [!UICONTROL Properties].<P>Mer information finns i [Använda filter i [!UICONTROL Activities] listan ](#filters) nedan. |
 | Sökfält | Hitta snabbt en aktivitet eller minska antalet aktiviteter som visas i listan [!UICONTROL Activity]. Du kan söka efter [!UICONTROL Activity Name], [!UICONTROL URL] eller [!UICONTROL ID] med hjälp av listrutan. |
 | [!UICONTROL Create Activity] | Skapa en aktivitet.<P>Mer information om hur du skapar de olika aktivitetstyperna finns i: <ul><li>[Skapa en [!UICONTROL A/B Test] aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Skapa en [!UICONTROL Auto-Allocate] aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Skapa en [!UICONTROL Auto-Target] aktivitet](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Skapa en [!UICONTROL Automated Personalization] aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Skapa en [!UICONTROL Experience Targeting] aktivitet](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Skapa en aktivitet](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Skapa en [!UICONTROL Recommendations] aktivitet](/help/main/c-recommendations/recommendations.md)</li></ul>Mer information om de olika typerna finns i [Aktivitetstyper](#types) nedan. |

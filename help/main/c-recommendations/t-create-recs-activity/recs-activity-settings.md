@@ -5,9 +5,9 @@ title: Hur konfigurerar jag aktivitetsinställningar för Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,11 @@ ht-degree: 0%
 
 Information om de inställningar du kan använda för att beskriva och kontrollera en [!UICONTROL Recommendations]-aktivitet i [!DNL Adobe Target].
 
-![Recommendations Goals &amp; Settings page](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
-
 I följande avsnitt beskrivs de tillgängliga inställningarna för en [!UICONTROL Recommendations]-aktivitet.
 
 ## Namn
 
-Ange ett beskrivande namn som hjälper dig och ditt team att identifiera aktiviteten.
+Klicka på ikonen Fler åtgärder ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallListVert.svg) ) och klicka sedan på **[!UICONTROL Rename]** för att ange ett beskrivande namn som hjälper dig och ditt team att identifiera aktiviteten.
 
 Följande tecken tillåts inte i aktivitetsnamn:
 

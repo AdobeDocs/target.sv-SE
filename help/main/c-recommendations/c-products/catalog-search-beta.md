@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
-source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Kataloger avser hela produktuppsättningen (enheter). Katalogen kan innehålla m
 
 ## Åtkomst [!UICONTROL Catalog Search]
 
-Du öppnar sidan [!UICONTROL Catalog Search] genom att klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. Du öppnar sidan [!UICONTROL Catalog Search] genom att klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
-![Katalogsöksida](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. (Valfritt) Om du vill använda filter i sökningen klickar du på ikonen **[!UICONTROL Show Filters]** ( ![Visa filter-ikon](/help/main/assets/icons/Filter.svg) ). Du kan filtrera efter [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] och [!UICONTROL Value].
 
 ## Utför en enkel sökning
 
@@ -45,8 +45,6 @@ Du öppnar sidan [!UICONTROL Catalog Search] genom att klicka på **[!UICONTROL 
    > När du gör en katalogsökning i ett anpassat attribut med ett numeriskt värde behandlas det anpassade attributet som en strängtyp i stället för ett numeriskt värde.
    >
    >Det finns för närvarande ingen funktion som gör att du kan ändra attributtypen. Om du vill göra en ändring [öppnar du ett kundproblem](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) som refererar till de attribut som behöver typen ändrad från sträng till numerisk.
-
-   Du kan också använda filter för att hitta önskade produkter. Om du till exempel klickar på ikonen **[!UICONTROL Show Filters]** ( ![Visa filterikon](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), expanderar [!UICONTROL Collections]-aspekten och sedan väljer en eller flera samlingar visas alla produkter som tillhör de valda samlingarna i din katalog.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -110,7 +108,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 Med [miljöer](/help/main/administrating-target/environments.md) kan du ordna dina platser och förproduktionsmiljöer för enkel hantering och separat rapportering.
 
-1. Klicka på ikonen Visa filter ( ![ikonen Visa filter](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
+1. Klicka på ikonen Visa filter ( ![ikonen Visa filter](/help/main/assets/icons/Filter.svg) ).
 
 1. Välj önskad miljö i listrutan **[!UICONTROL Environment]**.
 
@@ -134,10 +132,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Ändra kolumner
 
-Du kan tillfälligt ändra de aktiva kolumnerna på sidan [!UICONTROL Catalog Search].
+Du kan ändra de aktiva kolumnerna på sidan [!UICONTROL Catalog Search].
 
-1. Klicka på ikonen **[!UICONTROL Customize Table]** ( ![Anpassa tabell ](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. Klicka på ikonen **[!UICONTROL Customize Table]** ( ![Anpassa tabell ](/help/main/assets/icons/ColumnSetting.svg) ).
 
 1. Markera eller avmarkera de kolumner som du vill visa eller dölja.
 
-Kom ihåg att alla ändringar du gör endast gäller den aktuella sessionen.
+Alla ändringar du gör är permanenta mellan sessionerna.

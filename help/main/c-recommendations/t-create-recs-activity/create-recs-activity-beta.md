@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,15 @@ Använd [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) för att ska
 
 1. Välj **[!UICONTROL Visual]** om det behövs.
 
-   ![Dialogrutan Skapa Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   Om du föredrar att använda den formulärbaserade Experience Composer väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+   Om du föredrar att använda [!UICONTROL Form-Based Experience Composer] väljer du [!UICONTROL Form]. Mer information finns i [Formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
    >Förutom VEC och [!UICONTROL Form-Based Experience Composer] erbjuder [!DNL Target] VEC:n [!UICONTROL Single Page Application]. Mer information om de olika dispositionerna finns i [Erfarenheter och erbjudanden](/help/main/c-experiences/experiences.md).
    >
    >Felsökningsinformation om VEC finns i [Felsökning av Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) om du har problem.
-   >
-   >Alternativet [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/main/c-intro/intro.md)-funktion. Din organisation har en [!UICONTROL Target Standard]-licens om du inte ser det här alternativet.
 
-1. (Villkorligt) Om du är [målPremium-kund](/help/main/c-intro/intro.md#premium) väljer du en [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Villkorligt) Välj en [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Ange en aktivitets-URL och klicka sedan på **[!UICONTROL Create]**.
 

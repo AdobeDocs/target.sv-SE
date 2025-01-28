@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1493'
 ht-degree: 2%
 
 ---
@@ -363,12 +363,14 @@ ht-degree: 2%
    + Design {#recommendations-design}
       + [Designöversikt](c-recommendations/c-design-overview/design-overview.md)
       + [Skapa en design](c-recommendations/c-design-overview/create-design.md)
-      + [Skapa en design](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [Skapa en betaversion](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Vanliga frågor om design](c-recommendations/c-design-overview/template-faq.md)
       + [Anpassa en design med Snabb](c-recommendations/c-design-overview/customizing-a-template.md)
    + Aktivitet {#recommendations-activity}
       + [Skapa en Recommendations-aktivitet](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Skapa en betaversion av Recommendations-aktivitet](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [Välj villkor](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [Välj villkorsbeta](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [Lägg till kampanjer](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations aktivitetsinställningar](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Förhandsgranska och starta din Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

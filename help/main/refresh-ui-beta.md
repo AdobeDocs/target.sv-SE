@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b25516a9b348fa845e9336f4dccfc2d8fb3344b4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,6 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
       * [Skapa villkor](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md){target="_blank"}
       * [Skapa villkorssekvenser](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md){target="_blank"}
       * [Basera rekommendationen på en rekommendationsnyckel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md){target="_blank"}
-      * [Forskningen bakom Target:s rekommendationsalgoritmer](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md){target="_blank"}
       * [Överför anpassade villkor](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md){target="_blank"}
       * Dynamiska och statiska inkluderingsregler {#dynamic-static}{target="_blank"}
          * [Använd dynamiska och statiska inkluderingsregler](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md){target="_blank"}
@@ -112,11 +111,11 @@ Använd de här länkarna för att komma åt uppdaterad dokumentation som en del
       * [Vanliga frågor om design](c-recommendations/c-design-overview/template-faq.md){target="_blank"}
       * [Anpassa en design med Snabb](c-recommendations/c-design-overview/customizing-a-template.md){target="_blank"}
    * Aktivitet {#recommendations-activity}
-      * [Skapa en Recommendations-aktivitet](c-recommendations/t-create-recs-activity/create-recs-activity.md){target="_blank"}
+      * [Skapa en betaversion av en Recommendations-aktivitet](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md){target="_blank"}
       * [Välj villkor](c-recommendations/t-create-recs-activity/algo-select-recs.md){target="_blank"}
+      * [Välj villkorsbeta](/help/main/c-recommendations/t-create-recs-activity/algo-select-rec-beta.md){target="_blank"}
       * [Lägg till kampanjer](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [Aktivitetsinställningar för Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
-      * [Förhandsgranska och starta din Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
    * [Recommendations som erbjudande](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * Vanliga frågor {#recommendations-faq}
       * [Vanliga frågor om Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}

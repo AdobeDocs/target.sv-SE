@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
+exl-id: d97db163-62ef-4c6b-b0f7-e7e481073cc7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,11 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** för att visa biblioteket [!UICONTROL Designs].
 
 
-1. För musen över kortet för den design du vill skapa och klicka sedan på ikonen **[!UICONTROL Copy]**.
-
-   ![Card_CopyDesign-bild](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
+1. Klicka på ikonen Fler åtgärder ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) för den design du vill skapa och klicka sedan på **[!UICONTROL Copy]**.
 
    Dialogrutan [!UICONTROL Create Design] visas.
 
-1. Lägg till en **[!UICONTROL Content Name]** och en förhandsvisningsbild som du vill visa på designkortet på panelen **[!UICONTROL Information]**.
+1. Skriv in en **[!UICONTROL  Name]** och en förhandsvisningsbild som du vill visa på designkortet.
 
    När du använder en standarddesign visas designnamnet och kopian i fältet **[!UICONTROL Content Name]**. Du kan redigera namnet. Du kan också välja en bild som ska visas på designkortet.
 
@@ -65,7 +64,7 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
    >
    >Det maximala antalet enheter som kan refereras i en design, antingen hårdkodade eller via slingor, är 99.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Create]**.
 
 ### Skapa en egen design
 
@@ -73,21 +72,21 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
 1. Klicka på **[!UICONTROL Create Design]**.
 
-   Om du vill basera din nya anpassade design på en befintlig design för du musen över önskad design och klickar sedan på ikonen [!UICONTROL Copy] . Du kan sedan redigera kopian för att skapa en ny anpassad design.
+   Om du vill basera din nya anpassade design på en befintlig design klickar du på ikonen [!UICONTROL More Actions] ( ![Fler åtgärder-ikon ](/help/main/assets/icons/MoreSmallList.svg) ) för den design du vill skapa och sedan på [!UICONTROL Copy]. Du kan sedan redigera kopian för att skapa en ny anpassad design.
 
-1. Lägg till en **[!UICONTROL Content Name]** och en valfri förhandsvisningsbild.
+1. Lägg till en **[!UICONTROL Name]** och en valfri förhandsvisningsbild.
 
 1. (Villkorligt) Redigera designen **[!UICONTROL Code]** efter behov.
 
    Mer information finns i steg 4 ovan.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Create]**.
 
 ## Redigera, kopiera eller ta bort en design
 
 Kom ihåg att du inte kan redigera eller kopiera en standarddesign. Du kan bara kopiera standarddesigner.
 
-Håll pekaren över önskad design i biblioteket [!UICONTROL Design] och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
+Klicka på ikonen [!UICONTROL More Actions] ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmallList.svg) ) för designen som du vill redigera eller ta bort och klicka sedan på lämplig ikon: [!UICONTROL Edit], [!UICONTROL Copy] eller [!UICONTROL Delete].
 
 Du kan kopiera en befintlig design och skapa en dubblettdesign som du sedan kan ändra. Med den här processen kan du enkelt skapa en liknande design.
 

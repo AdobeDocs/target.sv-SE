@@ -5,9 +5,10 @@ title: Hur använder jag undantag i [!UICONTROL Recommendations] aktiviteter?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -36,23 +37,17 @@ Några exempel på hur du skulle kunna använda undantag är:
 
 1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** för att visa listan över befintliga undantag.
 
-   ![exclusions_list image](assets/exclusions-list.png)
-
    Antalet objekt som rapporteras för varje undantag i listvyn [!UICONTROL Exclusions] är antalet produkter som matchar reglerna för undantaget i den konfigurerade standardvärdgruppen [Recommendations](/help/main/administrating-target/hosts.md) (miljö). Mer information om hur du ändrar standardvärdgruppen finns i [Planera och implementera [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} i *Adobe Target Developer Guide* .
 
-1. (Villkorligt) Klicka på ikonen [!UICONTROL Filter] och välj sedan önskad [miljö](/help/main/administrating-target/environments.md) i listrutan **[!UICONTROL Environment]** när du skapar (eller uppdaterar) ett undantag för att förhandsvisa innehållet i undantaget i den miljön. Som standard visas resultat från standardvärdgruppen.
-
-   ![Skapa undantag](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. (Villkorligt) Klicka på ikonen **[!UICONTROL Show Filters]** ( ![Visa filterikon](/help/main/assets/icons/Filter.svg) ) och välj sedan önskad [miljö](/help/main/administrating-target/environments.md) i listrutan **[!UICONTROL Environment]** när du skapar (eller uppdaterar) ett undantag för att förhandsvisa innehållet i undantaget i den miljön. Som standard visas resultat från standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Exclusion]**.
-
-   ![Skapa exkluderingsdialogruta](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. Skriv ett undantag **[!UICONTROL Name]** och ange en valfri beskrivning.
 
 1. Använd regelverktyget för att skapa undantag.
 
-   Välj en parameter i listan Regler, markera en operator och ange sedan ett eller flera värden för att identifiera produkterna. Avgränsa flera värden med kommatecken.
+   Välj en parameter i listan [!UICONTROL Rules], markera en operator och ange sedan ett eller flera värden för att identifiera produkterna. Avgränsa flera värden med kommatecken.
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -70,9 +65,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Redigera, kopiera eller ta bort ett undantag
 
-Klicka på ikonen **ellips** bredvid önskat undantag i listan och klicka sedan på lämplig ikon: redigera, kopiera eller ta bort.
-
-![Alternativ: redigera, kopiera och ta bort](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+Klicka på ikonen Fler åtgärder ( ![Fler åtgärder ](/help/main/assets/icons/MoreSmallList.svg) ) bredvid önskat undantag i listan och klicka sedan på lämplig ikon: [!UICONTROL Edit], [!UICONTROL Copy] eller [!UICONTROL Delete].
 
 Du kan kopiera ett befintligt undantag för att skapa ett duplicerat undantag som du sedan kan ändra. Med det här alternativet kan du skapa ett liknande undantag utan ansträngning.
 

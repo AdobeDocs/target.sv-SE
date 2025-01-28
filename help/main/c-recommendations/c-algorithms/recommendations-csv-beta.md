@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
@@ -45,15 +46,13 @@ Följande steg förutsätter att du kommer åt skärmen [!UICONTROL Create New C
 
 1. I avsnittet **[!UICONTROL Upload CSV]** väljer du **[!UICONTROL Location]** för CSV-filen.
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+CSV-filen måste vara korrekt formaterad för att överföringen ska lyckas. Klicka på **[!UICONTROL Download the CSV template]** om du vill hämta en korrekt formaterad CSV-fil.
 
-   Det finns två platsalternativ:
+Det finns två platsalternativ:
 
-   * **FTP:** Om du vill överföra din CSV-fil från en FTP-server väljer du **[!UICONTROL FTP]** och anger sedan nödvändig information. Du kan använda SSL, som använder FTPS-protokollet för att överföra CSV-filen på ett säkert sätt.
-
-     ![FTP-alternativ för överföring av CSV-fil](/help/main/c-recommendations/c-algorithms/assets/ftp.png)
-
-   * **URL:** Om du vill överföra din CSV-fil från en URL-adress väljer du **[!UICONTROL URL]** och anger sedan en feed-URL.
+    * **FTP:** Om du vill överföra din CSV-fil från en FTP-server väljer du **[!UICONTROL FTP]** och anger sedan nödvändig information. Du kan använda SSL, som använder FTPS-protokollet för att överföra CSV-filen på ett säkert sätt.
+    
+    * **URL:** Om du vill överföra din CSV-fil från en URL väljer du **[!UICONTROL URL]** och anger sedan en feed-URL.
 
 1. Klicka på **[!UICONTROL Create]**.
 

@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,6 @@ Du kan skicka objektbeskrivningar till [!DNL Target] med hjälp av feeds eller m
 
 Listan [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) innehåller information om alla feeds som du har skapat.
 
-![Sidan Feeds](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 Sidan [!UICONTROL Feeds] innehåller följande kolumner:
 
 * **Namn**: Namnet på den feed som angavs när den skapades. Om du vill redigera namnet på en feed måste du redigera själva feeden. När du sparar feeden med det nya namnet uppdateras feeden.
@@ -48,11 +46,11 @@ Sidan [!UICONTROL Feeds] innehåller följande kolumner:
 * **Schema**: Visar uppdateringsschemat för feed: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] eller [!UICONTROL Never].
 * **Senast uppdaterad**: Visar datum och tid då feeden senast uppdaterades och namnet på den person som uppdaterade feeden.
 
-Klicka på ikonen [!UICONTROL Customize Table] ( ![Anpassa tabell ](/help/main/c-recommendations/c-products/assets/customize-table-icon.png) ) för att markera eller avmarkera kolumner som du vill visa.
+Klicka på ikonen [!UICONTROL Customize Table] ( ![Anpassa tabell ](/help/main/assets/icons/ColumnSetting.svg) ) för att markera eller avmarkera kolumner som du vill visa.
 
-Klicka på ikonen [!UICONTROL Information] för att visa ett kort som visar det senaste överföringsdatumet och feed-URL:en.
+Klicka på ikonen [!UICONTROL Information] ( ![ informationsikon ](/help/main/assets/icons/InfoOutline.svg) ) för att visa ett kort som visar det senaste överföringsdatumet och feed-URL:en.
 
-Klicka på ellipsikonen för att komma åt följande åtgärder: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] och [!UICONTROL Delete].
+Klicka på ikonen [!UICONTROL More Actions] ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmallList.svg) ) för att komma åt följande åtgärder: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] och [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ Skapa en feed om du vill infoga information om dina produkter eller tjänster i 
 
 1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
-   ![Dialogrutan Skapa feed](assets/CreateFeed.png)
-
 1. Ange ett beskrivande namn för feeden.
 1. Välj en **[!UICONTROL Source Type]**.
 
@@ -261,8 +257,6 @@ Skapa en feed om du vill infoga information om dina produkter eller tjänster i 
 
 1. Klicka på pilen **[!UICONTROL Next]** för att visa alternativen för [!UICONTROL Schedule].
 
-   ![Stegresultat](assets/CreateFeedSchedule.png)
-
 1. Välj ett uppdateringsalternativ:
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ Skapa en feed om du vill infoga information om dina produkter eller tjänster i 
    Det här alternativet baseras på den tidszon som används i webbläsaren. Om du vill använda en tid i en annan tidszon måste du beräkna den tiden enligt din tidszon.
 
 1. Klicka på pilen **[!UICONTROL Next]** för att visa [!UICONTROL Mapping]-alternativen och ange sedan hur du vill mappa dina data till [!DNL Target]-definitioner.
-
-   ![Stegresultat](assets/CreatFeedMapping.png)
 
 1. (Valfritt) Om du vill att flödet ska tillhöra en miljö (värdgrupp) väljer du värdgruppen.
 

@@ -5,9 +5,9 @@ title: Hur använder jag Recommendations som erbjudande i andra aktivitetstyper?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,9 @@ Om du vill komma igång skapar du en [!UICONTROL A/B Test]- eller [!UICONTROL Ex
    >
    >För A/B-tester måste du komma ihåg att du kan välja alternativet [Automatisk fördelning](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) för att automatiskt överföra trafik till de bästa rekommendationerna eller alternativet [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) för att tilldela besökare anpassade rekommendationer baserat på deras profil.
 
-1. När du skapar en [upplevelse](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) klickar du på elementet som du vill lägga till en rekommendation till som ett erbjudande, väljer åtgärden **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]** eller **[!UICONTROL Replace With]** och väljer sedan [!UICONTROL Recommendation].
+1. När du skapar en [upplevelse](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) klickar du på elementet som du vill lägga till en rekommendation till som ett erbjudande, klickar på **[!UICONTROL Replace Content]** och väljer sedan **[!UICONTROL Recommendation]**.
 
-   Följande bild visar alternativet [!UICONTROL Insert After > Recommendation].
-
-   ![Infoga rekommendation som ett erbjudande](/help/main/c-recommendations/assets/replace-after-recommendations.png)
+   ![Infoga rekommendation som ett erbjudande](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
 1. Välj bland följande alternativ för att visa vanliga rekommendationer per sidtyp:
 
