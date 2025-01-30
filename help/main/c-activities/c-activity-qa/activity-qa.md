@@ -4,9 +4,9 @@ description: Lär dig hur du använder Adobe [!DNL Target] QA-URL:er för att ut
 title: Hur gör jag QA-aktiviteter?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,7 @@ Med [!UICONTROL Activity QA] kan du testa dina [!DNL Target]-aktiviteter fullst�
 
 1. Klicka på **[!UICONTROL Activity QA]** på sidan [!UICONTROL Overview] för en aktivitet.
 
-   ![Aktivitets-QA-länk](assets/qa_link.png)
-
 1. Konfigurera följande inställningar:
-
-   ![Konfigurationsalternativ för QA-länk](assets/qa_link_config.png)
 
    * **[!UICONTROL Match audience rules to see experiences]:** Ibland vill du bekräfta att målgruppsmatchningen fungerar. Andra gånger vill du kontrollera aktivitetens utseende och känsla. Om den här inställningen växlas till&quot;på&quot;-positionen måste testarna uppfylla målinriktningskraven för att kunna se upplevelserna. För XT-aktiviteter (Experience Targeting) anges en enda aktivitets-URL. Den upplevelse du ser bestäms av om du kvalificerar dig för en av målinriktningsreglerna.
 

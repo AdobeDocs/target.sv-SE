@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1496'
 ht-degree: 2%
 
 ---
@@ -212,6 +212,7 @@ ht-degree: 2%
    + [Aktivitetsinställningar](c-activities/activity-settings.md)
    + Resultatmått {#success-metrics}
       + [Framgångsmått](c-activities/r-success-metrics/success-metrics.md)
+      + [Betaversion av framgångsmått](c-activities/r-success-metrics/success-metrics-beta.md)
       + [Klickspårning](c-activities/r-success-metrics/click-tracking.md)
       + [Hämta poäng](c-activities/r-success-metrics/capture-score.md)
    + [Logg för aktivitetsändring](c-activities/change-log.md)
