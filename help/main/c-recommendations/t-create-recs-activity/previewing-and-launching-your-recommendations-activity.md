@@ -4,9 +4,9 @@ description: Lär dig hur du förhandsgranskar din Adobe [!DNL Target] Recommend
 title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,7 @@ När en aktivitet har skapats kör [!DNL Recommendations] en algoritm för att g
 
 Du kan kontrollera om algoritmen har körts färdigt i översiktsdiagrammet [!UICONTROL Activity], där villkorsstatusen listas. Följande bild visar statusen i aktivitetsdiagrammet på [!UICONTROL Overview]-sidan för en [!DNL Recommendations]-aktivitet:
 
-![Översikt över Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-Följande bild visar statusen på en [!UICONTROL A/B Test]- eller XT-aktivitets [!UICONTROL Overview]-sida:
-
-![Sidan Översikt över A/B-tester](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Översikt över Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 Statusresultaten är följande:
 
@@ -45,7 +41,7 @@ Beteendedatakällan har störst inverkan på bearbetningstiden, enligt följande
 
 Om kryssrutor väljs som datakälla för beteendet körs villkoret omedelbart när det har skapats. Beroende på mängden beteendedata som används och storleken på katalogen kan algoritmen ta upp till 12 timmar att köra. Om du ändrar kriteriekonfigurationen körs vanligtvis algoritmen igen. Beroende på hur ändringarna har gjorts kanske de tidigare beräknade rekommendationerna inte är tillgängliga förrän en omkörning är klar, eller för större ändringar är endast säkerhetskopierings- eller standardinnehåll tillgängligt tills en omkörning är slutförd. Om en algoritm inte ändras körs den automatiskt om med [!DNL Target] var 12:48:e timme, beroende på det valda dataområdet.
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
 Om villkoret använder [!DNL Adobe Analytics] som beteendedatakälla beror tiden för kriteriernas tillgänglighet på om den valda rapportsviten och uppslagsfönstret har använts för andra villkor när de har skapats.
 
@@ -59,9 +55,7 @@ Om villkoret använder [!DNL Adobe Analytics] som beteendedatakälla beror tiden
 
 ## Använda QA-länkar för att förhandsgranska Recommendations
 
-När algoritmen har resultat klara kan du förhandsgranska dessa resultat med funktionen [QA link](/help/main/c-activities/c-activity-qa/activity-qa.md) i [!DNL Adobe Target]. QA-länkar är tillgängliga i avsnittet [!UICONTROL Activity QA] på sidan Aktivitetsöversikt:
-
-![Aktivitets-QA-länk](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+När algoritmen har resultat klara kan du förhandsgranska dessa resultat med funktionen [QA link](/help/main/c-activities/c-activity-qa/activity-qa.md) i [!DNL Adobe Target]. QA-länkar är tillgängliga i avsnittet [!UICONTROL Activity Location] på översiktssidan för [!UICONTROL Activity]:
 
 >[!NOTE]
 >
@@ -103,19 +97,13 @@ För andra algoritmtyper som baseras på ett nyckelvärde, till exempel [!UICONT
 
 ## Aktivera din Recommendations-aktivitet
 
-Klicka på listrutepilen bredvid statusen på fliken [!UICONTROL Activity Overview] och välj sedan **[!UICONTROL Activate]**.
+Klicka på listrutepilen Status på fliken [!UICONTROL Activity Overview] och välj sedan **[!UICONTROL Activate]**.
 
-![Aktivera alternativ](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+Om din [!UICONTROL Recommendations]-aktivitet för närvarande är i läget [!UICONTROL Inactive] heter den nedrullningsbara listan [!UICONTROL Inactive].
 
-Observera att statusen blir [!UICONTROL Activating]:
+Efter några sekunder till några minuter växlar statusen till [!UICONTROL Live].
 
-![Aktiverar](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
-
-Efter några sekunder till några minuter växlar statusen till [!UICONTROL Live]:
-
-![Live](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
-
-Observera att du även kan inaktivera eller arkivera aktiviteten med samma nedrullningsbara lista.
+Du kan även inaktivera eller arkivera aktiviteten med samma nedrullningsbara lista.
 
 ## Undvik avbrott vid ändring av Recommendations-inställningar
 
