@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en flersidig aktivitet i Adobe [!DNL Target]
 title: Hur skapar jag en flersidig aktivitet?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,13 @@ Du kan ange mallregler för varje sida i flersidigt test. Du kan t.ex. köra ett
 
 Så här lägger du till sidor i ett test:
 
-1. Klicka på kugghjulsikonen **[!UICONTROL Configure]**.
+1. Klicka på ikonen **[!UICONTROL Configure]** ( ![Konfigurera ikon](/help/main/assets/icons/Setting.svg) ).
 1. Klicka på **[!UICONTROL Add Additional Pages]**.
 
-   Ett navigeringsfält visas till vänster på skärmen.
+   En [!UICONTROL Pages]-ruta visas till vänster på skärmen.
 
-   ![multipage_nav-bild](assets/multipage_nav.png)
+1. Ange dina sidor och ange standardsida.
 
-1. Använd navigeringsfältet för att ange sidor och för att ange standardsida.
+   Klicka på **[!UICONTROL Add Page]** ( ![Lägg till ikon](/help/main/assets/icons/Add.svg) ) om du vill lägga till ytterligare en sida, ange sidnamnet och URL-adressen och klicka sedan på **[!UICONTROL Save]**.
 
-   Klicka på **[!UICONTROL Add Page]** om du vill lägga till ytterligare en sida.
-
-   Klicka på ikonen med tre lodräta ellipser för att visa en åtgärdsmeny:
-
-   ![multipage_menu-bild](assets/multipage_menu.png)
-
-   Använd den här menyn om du vill byta namn på sidorna, utföra ett omdirigeringstest i flersidesaktiviteten eller ta bort sidan.
-
-1. Använd Visual Experience Composer för att utforma hur erbjudandet ser ut på varje sida.
+1. Använd [!UICONTROL Visual Experience Composer] för att utforma hur erbjudandet ser ut på varje sida.

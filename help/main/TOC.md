@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1519'
 ht-degree: 2%
 
 ---
@@ -261,8 +261,11 @@ ht-degree: 2%
    + [Erfarenheter och erbjudanden - översikt](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Översikt över Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+      + [Visuell Experience Composer - översikt - beta](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Alternativ för Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Betaversion av alternativen i Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [Inkludera samma upplevelse på liknande sidor](c-experiences/c-visual-experience-composer/temtest.md)
+      + [Inkludera samma upplevelse på liknande sidor beta](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [Flersidig aktivitet](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Aktivitetskollisioner](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Ändringar {#modifications}
@@ -281,6 +284,7 @@ ht-degree: 2%
          + [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Omdirigera till en URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
+      + [Omdirigera till en betaversion av en URL](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Skapa karuseller som fungerar i Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Formulärbaserad Experience Composer](c-experiences/form-experience-composer.md)
    + [Visual Experience Composer (SPA) med en sida](c-experiences/spa-visual-experience-composer.md)
