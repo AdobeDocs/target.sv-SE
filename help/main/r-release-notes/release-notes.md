@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,11 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
 
-## [!UICONTROL Offers Library] uppdatering av användargränssnittet (9 januari 2025)
+## Target Standard/Premium 25.1.1 (9 januari 2025)
+
+Den här versionen innehåller följande uppdateringar:
+
+### [!UICONTROL Offers Library] uppdatering av användargränssnittet
 
 För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare uppdaterar den här versionen användargränssnittet för [!UICONTROL Offers Library].
 

@@ -7,9 +7,10 @@ feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+exl-id: baf939d8-1f6d-4586-8323-69f818a5ef1a
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -31,8 +32,15 @@ Det finns två alternativ för din kontroll i dina [!UICONTROL Automated Persona
 ## Ange en specifik upplevelse som kontroll
 
 1. När du skapar eller redigerar en [[!UICONTROL Automated Personalization] aktivitet ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) eller [[!UICONTROL Auto-Target] aktivitet ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) konfigurerar du upplevelserna som du vill.
-1. Välj önskad upplevelse som kontroll på sidan [!UICONTROL Targeting] (steg 2 i det guidade arbetsflödet i tre delar).
-1. Ange önskad trafikallokering för kontrollupplevelsen och andra upplevelser.
+1. På sidan [!UICONTROL Targeting] (steg 2 i det guidade arbetsflödet i tre delar) klickar du på kontrollfunktionen för att visa [!UICONTROL Control] alternativ i den högra rutan.
+
+   ![Kontrollpanelen](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. Välj [!UICONTROL Random Experience] i listrutan [!UICONTROL Control] eller välj önskad upplevelse som du vill använda för kontrollen.
+
+1. Klicka på kontrollen [!UICONTROL Traffic Allocation] och ange sedan önskad trafikallokering för kontrollupplevelsen och andra upplevelser.
+
+   ![Trafikallokeringsspår](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    För en specifik upplevelsekontroll rekommenderas 10 till 30 procent.
 

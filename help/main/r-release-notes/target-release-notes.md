@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 27 januari 2025**
+**Senast uppdaterad: 31 januari 2025**
 
 >[!NOTE]
 >
@@ -23,13 +23,20 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
-## [!UICONTROL Activities] uppdatering av användargränssnittet (6 februari 2025)
+## Target Standard/Premium 25.2.1 (6 februari 2025)
+
+Den här versionen innehåller följande uppdateringar:
+
+* [!UICONTROL Activities] uppdatering av användargränssnittet
+* [!DNL Recommendations] uppdatering av användargränssnittet
+
+### [!UICONTROL Activities] uppdatering av användargränssnittet
 
 I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] fortsätter är vi glada att kunna meddela att det uppdaterade [!UICONTROL Activities]-användargränssnittet är allmänt tillgängligt.
 
 >[!NOTE]
 >
->Från och med onsdagen den 6 februari har kunderna gradvis tillgång till det nya [!UICONTROL Activities]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
+>Från och med torsdagen den 6 februari har kunderna gradvis tillgång till det nya [!UICONTROL Activities]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
 
 Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
 
@@ -43,13 +50,13 @@ Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet o
 
 ![Aktivitetsuppdatering](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## [!DNL Recommendations] uppdatering av användargränssnittet (6 februari 2025)
+### [!DNL Recommendations] uppdatering av användargränssnittet
 
 I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] fortsätter är vi glada att kunna meddela att det uppdaterade [!DNL Recommendations]-användargränssnittet är allmänt tillgängligt.
 
 >[!NOTE]
 >
->Från och med onsdagen den 6 februari har kunderna gradvis tillgång till det nya [!UICONTROL Recommendations]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
+>Från och med torsdagen den 6 februari har kunderna gradvis tillgång till det nya [!UICONTROL Recommendations]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
 
 Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
 
@@ -63,7 +70,11 @@ Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet o
 
 ![Recommendations UI-uppdatering](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## [!UICONTROL Offers Library] uppdatering av användargränssnittet (9 januari 2025)
+## Target Standard/Premium 25.1.1 (9 januari 2025)
+
+Den här versionen innehåller följande uppdateringar:
+
+### [!UICONTROL Offers Library] uppdatering av användargränssnittet
 
 För att förbättra användarupplevelsen för [!DNL Adobe Target]-användare uppdaterar den här versionen användargränssnittet för [!UICONTROL Offers Library].
 
