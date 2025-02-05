@@ -4,7 +4,7 @@ description: Lär dig hur du anger mått i en  [!DNL Adobe Target] [!UICONTROL M
 title: Hur ställer jag in målvärden i en [!UICONTROL Multivariate Test]-aktivitet (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Mer information om framgångsmått finns i [Framgångsmått](/help/main/c-activi
 1. Ange aktivitetens mål.
 1. Välj ett [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![Ange måttlista](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![Ange måttlista](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    På sidan [!UICONTROL Select Metrics] visas de framgångsmått som du kan välja för din aktivitet. Resultaten delas in i följande kategorier:
 
@@ -41,7 +41,7 @@ Mer information om framgångsmått finns i [Framgångsmått](/help/main/c-activi
    Mer information finns i [Resultatmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 1. (Valfritt) Lägg till ytterligare mått.
-1. Klicka på **[!UICONTROL Continue]** när du är klar med att ange mätvärden.
+1. Klicka på **[!UICONTROL Save and Close]** när du är klar med att ange mätvärden.
 
 När du namnger eller byter namn på ett mätresultat tillåts inte följande tecken:
 

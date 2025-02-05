@@ -1,12 +1,12 @@
 ---
 keywords: multivalue;attributes;recommendations;multi-value;multivalue;multi-value
-description: Lär dig hur du arbetar med ett flervärdesfält i Adobe [!DNL Target] Recommendations med hjälp av särskilda flervärdesoperatorer, till exempel, när du rekommenderar filmer med flera skådespelare.
+description: Lär dig hur du arbetar med ett flervärdesfält i [!DNL Target Recommendations] med hjälp av särskilda flervärdesoperatorer.
 title: Kan jag använda attribut med flera värden i Recommendations?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Följande operatorer är tillgängliga för användning med entitets-, profil- o
 
 ### Exempel: Uteslut nyligen bevakade objekt
 
-Anta att du inte vill att filmer som finns i användarens senaste tio bevakade filmer ska kunna rekommenderas. Först skriver du ett profilskript med namnet `user.lastWatchedMovies` för att spåra de tio senast visade filmerna som en JSON-array. Sedan kan du exkludera objekten med följande inkluderingsregel:
+Anta att du vill förhindra att filmer som finns i användarens senaste tio bevakade filmer rekommenderas. Först skriver du ett profilskript med namnet `user.lastWatchedMovies` för att spåra de tio senast visade filmerna som en JSON-array. Sedan kan du exkludera objekten med följande inkluderingsregel:
 
 ```
 `Profile Attribute Matching`
@@ -118,7 +118,7 @@ JSON API-representation av inkluderingsregeln:
 
 ### Exempel: API-generering av villkor som rekommenderar objekt från en användares favoriter
 
-Kriterier med flervärdesfiltreringsregler, precis som alla villkor, kan skapas via Adobe I/O API:er. Ett exempel-API-anrop för att skapa ett villkor där entitetsattributet `id` finns i mbox-parameterlistan `favorites` anges här:
+Kriterier med flervärdesfiltreringsregler, som alla villkor, kan skapas via [!DNL Adobe Target] API:er. Ett exempel-API-anrop för att skapa ett villkor där entitetsattributet `id` finns i mbox-parameterlistan `favorites` anges här:
 
 ```
 curl -X POST \
@@ -158,7 +158,7 @@ curl -X POST \
 Detta paras med JavaScript på sidan för att skicka in favoritinnehållet:
 
 ```
-<!-- pass in the value of mbox parameter “favorites” as JSON array -->
+<!-- pass in the value of mbox parameter "favorites" as JSON array -->
 <script type="text/javascript">
    mboxCreate('myMbox','entity.id=<key>','favorites=["a","b","c"]');
 </script>

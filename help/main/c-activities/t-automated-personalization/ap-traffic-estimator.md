@@ -1,13 +1,13 @@
 ---
 keywords: trafikskattare;automatiserad personalisering;ap;uppskattning av trafik
-description: Använd  [!DNL Adobe Target] [!UICONTROL Traffic Estimator] för att avgöra om du har tillräckligt med trafik för att din [!UICONTROL Automated Personalization]-aktivitet ska lyckas.
+description: Använd [!UICONTROL Traffic Estimator] för att utvärdera om du har tillräckligt med trafik för att en [!UICONTROL Automated Personalization]-aktivitet ska lyckas.
 title: Hur mycket trafik krävs för en lyckad [!UICONTROL Automated Personalization]-aktivitet?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Kom ihåg att [!DNL Target] skickar upplevelser slumpmässigt tills personaliser
 
 ## Använda Traffic Estimator
 
-1. Klicka på ikonen **[!UICONTROL Traffic]** på sidan [!UICONTROL Experiences] i [!UICONTROL Visual Experience Composer] i en [!UICONTROL Automated Personalization] -aktivitet.
+1. Klicka på ikonen **[!UICONTROL Traffic]** ( ![Trafikberäkning](/help/main/assets/icons/Gauge2.svg) ) i det övre vänstra hörnet på [!UICONTROL Experiences]-sidan [!UICONTROL Experiences] i [!UICONTROL Visual Experience Composer] i en [!UICONTROL Automated Personalization] -aktivitet.
 
-   ![Trafik, ikon](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   [!UICONTROL Traffic Estimator] öppnas.
 
-   [!UICONTROL Traffic Estimator] öppnas. Du kan klicka på **[!UICONTROL Traffic]** igen om du vill dölja [!UICONTROL Traffic Estimator].
+   ![Användargränssnittet för trafikberäkning](assets/ap-est.png)
 
-   ![Användargränssnittet för trafikberäkning](assets/ap_est.png)
+   Du kan klicka på ikonen igen om du vill dölja [!UICONTROL Traffic Estimator].
 
 1. Ange typisk konverteringsgrad (eller den konverteringsgrad som du förväntar dig av den här aktiviteten), uppskattade aktivitetsavtryck per dag och testets varaktighet.
 
@@ -45,19 +45,19 @@ Kom ihåg att [!DNL Target] skickar upplevelser slumpmässigt tills personaliser
 
    I närheten av överkanten av [!UICONTROL Traffic Estimator] beräknas de värden du angav och resultaten visas.
 
-   ![Trafikberäkning med värden och resultat visade](assets/ap_est_no.png)
+   ![Trafikberäkning med värden och resultat visade](assets/ap-est-no.png)
 
    När du ändrar siffrorna ändras uppskattningen. Om du till exempel testar många kombinationer och din konverteringsgrad och dina avbildningar är för låga, visar [!UICONTROL Traffic Estimator] hur länge testet måste köras för att lyckas. Om trafiken är låg kan [!UICONTROL Traffic Estimator] föreslå ett lägre antal erbjudandekombinationer så att du kan köra testet på det önskade antalet dagar.
 
    Om du inte har tillräckligt med trafik bör du tänka på följande:
 
-   * Överväg att använda en [Automatisk målaktivitet](/help/main/c-activities/auto-target/auto-target-to-optimize.md) i stället för [!UICONTROL Automated Personalization] för att skapa upplevelser med flera erbjudandeändringar i en upplevelsevariation.
+   * Överväg att använda en [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)-aktivitet i stället för [!UICONTROL Automated Personalization] för att skapa upplevelser med flera erbjudandeändringar i en upplevelsevariation.
    * Minska antalet erbjudandekombinationer i din [!UICONTROL Automated Personalization]-aktivitet.
    * Öka aktivitetens varaktighet.
 
    Justera siffrorna tills [!UICONTROL Traffic Estimator] indikerar att du har tillräckligt med trafik och utforma sedan testet därefter.
 
-   ![Trafikberäkning som visar tillräckligt trafikmeddelande](assets/ap_est_yes.png)
+   ![Trafikberäkning som visar tillräckligt trafikmeddelande](assets/ap-est-yes.png)
 
    Om trafiken är tillräcklig visas en grön kontroll med ikonen [!UICONTROL Traffic]. Om ikonen inte är tillräcklig visas en röd varningsetikett.
 

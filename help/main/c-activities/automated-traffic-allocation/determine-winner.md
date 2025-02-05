@@ -1,17 +1,17 @@
 ---
 keywords: automatiserad trafikallokering;målinriktning;vinnare;statistisk garanti;självförtroende;bestämma vinnare;lyft;självförtroende;standard;standardupplevelse;autoallokera;autoallokera
-description: Lär dig hur du tolkar resultatet av en [!UICONTROL Auto-Allocate] A/B-aktivitet i Adobe [!DNL Target] genom att undersöka viktiga indikatorer, inklusive lyft och förtroende.
+description: Upptäck hur du tolkar [!UICONTROL Auto-Allocate] A/B-aktivitetsresultat, med fokus på nyckelindikatorer som lyft och självförtroende.
 title: Hur tolkar jag [!UICONTROL Auto-Allocate] rapporter?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: e9976135c46f6658030b07fce384364f0c9ff0ed
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
-# Tolka autofördelningsrapporter
+# Tolka [!UICONTROL Auto-Allocate] rapporter
 
 Tolka resultatet av en [!UICONTROL Auto-Allocate] A/B-aktivitet i [!UICONTROL Adobe Target] genom att undersöka viktiga indikatorer, inklusive lyft och förtroende.
 
@@ -23,23 +23,23 @@ Allmän information om hur du deklarerar en vinnare finns i [Tio vanliga A/B-tes
 
 När funktionen [!UICONTROL Auto-Allocate] används visas ett märke längst upp på aktivitetens sida som anger &quot;Ingen vinnare än&quot; tills aktiviteten når det minsta antalet konverteringar med tillräcklig säkerhet. [!DNL Target]
 
-![Inget emblem för vinnare](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![Inget emblem för vinnare](/help/main/c-activities/automated-traffic-allocation/assets/no-winner-new.png)
 
-När en klar vinnare deklareras visar [!DNL Target]&quot;Vinnare: Upplevelse *X*&quot;.
+När en rensad vinnare deklareras visar [!DNL Target] märket &quot;Winner: Experience *X*&quot;.
 
-![vinnarbild](assets/winner.png)
+![Vinnarmärke](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
->Automatisk fördelning av aktiviteter är utformade för att hitta den bästa upplevelsen bland alla alternativ och inte bara för att göra parvisa jämförelser med kontroll.
+>[!UICONTROL Auto-Allocate] aktiviteter är utformade för att hitta den bästa upplevelsen bland alla alternativ och inte bara för att göra parvisa jämförelser med kontroll.
 
-## Statistiska garantier för automatisk fördelning {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Statistiska garantier för [!UICONTROL Auto-Allocate] {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 I slutet av en A/B-aktivitet garanterar [!UICONTROL Auto-Allocate] att den fastställda vinnaren har en faktisk falskt positiv nivå på 5 %. Detta innebär att bara 5 % av tiden är den bestämda vinnaren egentligen inte den bästa upplevelsen bland alla upplevelser i aktiviteten. För ett [A/A-test](/help/main/c-activities/t-test-ab/aa-testing.md) (med identiska upplevelser) avslutar [!DNL Target] ett test som är mindre än 5 % av tiden. Det förväntade beteendet för ett A/A-test (med identiska upplevelser) är att det körs oavbrutet, så vinnarmärket ska aldrig visas.
 
 [!DNL Target] använder inte p-value-baserad konfidens för [!UICONTROL Auto-Allocate].
 
-Kolumnen [!UICONTROL Confidence] i en [!UICONTROL Auto-Allocate]-aktivitet (visas nedan) visar sannolikheten för att en upplevelse blir vinnare inom 1 % felmarginal. Algoritmen använder en minsta mätbar effekt på 1 % mellan den bästa och den näst bästa konverteringsgraden. Algoritmen använder [Bernstein Innequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) för att beräkna den här sannolikheten.
+Kolumnen [!UICONTROL Confidence] i en [!UICONTROL Auto-Allocate]-aktivitet visar sannolikheten för att en upplevelse vinner inom en felmarginal på 1 %. Algoritmen använder en minsta mätbar effekt på 1 % mellan den bästa och den näst bästa konverteringsgraden. Algoritmen använder [Bernstein Innequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) för att beräkna den här sannolikheten.
 
 Normala A/B-tester beräknar tillförlitlighet baserat på p-värden. [!UICONTROL Auto-Allocate] använder inte p-värden. P-värden &quot;löst&quot; beräknar sannolikheten för att en viss upplevelse skiljer sig från kontrollen. Dessa p-värden kan bara användas för att avgöra om en upplevelse kan skilja sig från kontrollen. Dessa värden kan inte användas för att avgöra om en upplevelse skiljer sig från en annan upplevelse (inte kontroll).
 
@@ -82,5 +82,3 @@ En av följande orsaker beskriver varför 0 % visas i rapportens [!UICONTROL Con
 Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; är för närvarande inte tillgängliga på panelen [!UICONTROL A4T] i [!DNL Analysis Workspace]. Dessa emblem är inte heller tillgängliga om samma rapport visas i [!DNL Target]. Ett stjärntecken som visas i en [!DNL Target]-rapport för en [!UICONTROL Auto-Allocate]-aktivitet som använder A4T ska ignoreras.
 
 Mer information om detta och andra begränsningar och anteckningar finns i [Automatisk allokering](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) i *A4T-stöd för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter*.
-
-

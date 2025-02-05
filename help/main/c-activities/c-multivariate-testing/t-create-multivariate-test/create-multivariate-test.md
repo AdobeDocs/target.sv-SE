@@ -4,9 +4,9 @@ description: Lär dig hur du använder [!UICONTROL Visual Experience Composer] (
 title: Hur skapar jag en [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,15 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
 1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**.
 
-   ![Skapa multivariattest](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
-
    >[!NOTE]
    >
    >Mer information om de olika aktivitetstyperna i [!DNL Target] och skillnaderna mellan dem finns i [Aktiviteter](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Se [Målaktivitetstyper](/help/main/c-activities/target-activities-guide.md) som hjälper dig att avgöra vilken aktivitetstyp som bäst uppfyller dina behov.
 
 1. (Villkorligt) Välj leveranstyp: [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email] eller [!UICONTROL Other/API].
 
-1. (Villkorligt) Om du är en [målPremium](/help/main/c-intro/intro.md#premium)-kund [väljer du en arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Villkorligt) Om du är [Target Premium](/help/main/c-intro/intro.md#premium)-kund [väljer du en arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Ange URL:en](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) för sidan som du vill testa och klicka sedan på **[!UICONTROL Next]**.
+1. [Ange URL:en](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) för sidan som du vill testa och klicka sedan på **[!UICONTROL Create]**.
 
    >[!NOTE]
    >
@@ -41,9 +39,8 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
    [!UICONTROL Visual Experience Composer] öppnas.
 
-1. Ange ett namn för aktiviteten.
-
-   ![Aktivitetsnamnfältet](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
+1. 
+   1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 
@@ -71,8 +68,6 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
 1. [Skapa erbjudandena på varje plats](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
-   ![Dialogrutan Redigera text/HTML](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
    Du kan lägga till följande typer av erbjudanden:
 
    * HTML
@@ -81,35 +76,45 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
 1. Klicka på **[!UICONTROL Preview]** för att [förhandsgranska dina upplevelser](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-   ![Förhandsgranska upplevelser](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
+1. Klicka på ikonen **[!UICONTROL Show Experiences]** ( ![ ikonen Visa upplevelser ](/help/main/assets/icons/WebPages.svg) ) för att visa listan med alla upplevelser i den vänstra bildrutan.
 
-   Du kan visa varje upplevelse och utesluta alla som du inte vill ta med i testet. Om du vill utesluta en eller flera upplevelser markerar du de önskade kryssrutorna och klickar sedan på **[!UICONTROL Exclude]** .
+1. Klicka på en specifik upplevelse i listan för att visa den upplevelsen.
 
-   ![Uteslut upplevelser](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
+1. (Villkorligt) Om du vill utesluta en eller flera upplevelser från aktiviteten klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera upplevelser ](/help/main/assets/icons/Experience.svg) ) för att visa dialogrutan [!UICONTROL Manage Experiences].
+
+1. (Villkorligt) I dialogrutan [!UICONTROL Manage Experiences] klickar du på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) bredvid den upplevelse som du vill utesluta och klickar sedan på **[!UICONTROL Exclude]**.
+
+   Du kan välja att exkludera en upplevelse som visar variationer i konflikt eller en upplevelse som inte är estetiskt balanserad.
+
+1. (Villkorligt) Om du vill utesluta flera upplevelser markerar du kryssrutorna för de önskade upplevelserna och klickar sedan på **[!UICONTROL Exclude]**.
 
 1. [Använd Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) för att testa om din testplan är genomförbar.
 
-   ![Trafikindikator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
-
-   Bilden nedan visar att aktiviteten inte har tillräckligt med trafik.
-
-   ![uppskattningsbild](assets/estimator.png)
-
-   Bilden nedan visar att aktiviteten inte har tillräckligt med trafik.
-
-   ![uppskattare2-bild](assets/estimator2.png)
-
 1. Klicka på **[!UICONTROL Next]** om du vill gå vidare till sidan [!UICONTROL Targeting].
 
-1. Välj målgrupp och procentandel kvalificerade besökare som du vill ange aktiviteten för.
+   Steget **Mål** ser bekant ut om du har använt andra [!DNL Target]-aktivitetstyper. Här kan du välja en målgrupp och ange hur många besökare som ska se varje upplevelse.
 
-   ![Målsida i MVT-aktivitet](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   Flödesdiagrammet leder dig genom stegen för att tilldela en målgrupp och dess trafikprocent, välja trafikallokeringsmetod och specificera trafikallokeringen för varje upplevelse i aktiviteten.
+
+1. (Villkorligt) Klicka på kontrollen **[!UICONTROL All Visitors]** för att välja en annan målgrupp för aktiviteten.
+
+   [!UICONTROL All Visitors]-målgruppen är inställd som standard. Om du väljer en annan målgrupp visas dess namn längst till vänster.
+
+   Den högra bildrutan visas, vilket gör att du kan lägga till eller ta bort en målgrupp och tilldela besökarprocenten för aktiviteten.
+
+   1. Om du vill ändra målgruppen klickar du på ikonen **[!UICONTROL Replace]** ( ![ikonen Ersätt](/help/main/assets/icons/Retweet.svg) ) i den högra ramen.
+   1. I dialogrutan [!UICONTROL Add Audience] [väljer du önskad målgrupp](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) och klickar sedan på **[!UICONTROL Assign Audience]**.
+
+      Du kan klicka på **Kombinera målgrupper** för att [skapa en målgrupp som kombinerar flera målgrupper](/help/main/c-target/combining-multiple-audiences.md).
+
+      Om du behöver skapa en ny målgrupp som inte redan finns i [!UICONTROL Audience Library] klickar du på **Skapa målgrupp**. Under arbetsflödet [skapa målgrupper](/help/main/c-target/c-audiences/audiences.md) kan du välja bland följande alternativ:
+
+      * **[!UICONTROL Audience Library]**: Skapa en målgrupp på begäran som sparas i [!UICONTROL Audience Library] som kan återanvändas i andra aktiviteter.
+      * **[!UICONTROL This activity only]**: Skapa en [aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) som inte har sparats i [!UICONTROL Audience Library] och som bara kan användas i den aktuella aktiviteten.
+
+   1. Klicka på **[!UICONTROL Visitor Percentage]** i den högra bildrutan och välj sedan den procentandel kvalificerade besökare som du vill ange aktiviteten för.
 
    Du kan t.ex. begränsa antalet deltagare till 50 % av alla besökare eller 45 % av alla dina&quot;Kalifornier&quot;-målgrupper.
-
-   >[!NOTE]
-   >
-   >Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. [Granska testsammanfattningen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) och gör eventuella ändringar. Klicka sedan på **[!UICONTROL Next]**.
 

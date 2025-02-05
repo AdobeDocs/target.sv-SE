@@ -5,9 +5,9 @@ title: Kan jag använda rapporteringsgrupper för erbjudanden i [!UICONTROL Auto
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -33,26 +33,17 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 
 ## Ställ in rapporteringsgrupper
 
-1. Klicka på ikonen **[!UICONTROL Manage Content]** på sidan **[!UICONTROL Experiences]** i en AP-aktivitet.
-
-   ![Ikonen Hantera innehåll](/help/main/c-reports/assets/ap_manage_content.png)
-
+1. Klicka på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll](/help/main/assets/icons/Experience.svg) ) på sidan **[!UICONTROL Experiences]** i en AP-aktivitet.
 1. Klicka på fliken **[!UICONTROL Offers]** högst upp i dialogrutan [!UICONTROL Manage Content].
-1. (Villkorligt) Lägg till specifika upplevelser i en rapporteringsgrupp genom att hålla markören över det önskade erbjudandet och sedan klicka på mappikonen **[!UICONTROL Reporting Group]**.
+1. (Villkorligt) Lägg till specifika upplevelser i en rapporteringsgrupp genom att klicka på ikonen [!UICONTROL More Actions] ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) för önskat erbjudande och sedan genom att klicka på **[!UICONTROL Reporting Group]**.
 
-   ![Ikon för rapportgrupp](/help/main/c-reports/assets/ap_manage_content_2.png)
+1. (Villkorligt) Gruppera inkluderar upplevelser i en rapportgrupp genom att markera kryssrutorna för de relevanta upplevelserna och sedan klicka på **[!UICONTROL Reporting Group]** längst ned i dialogrutan.
 
-1. (Villkorligt) Gruppera inkluderar upplevelser i en rapportgrupp genom att markera kryssrutorna för relevanta upplevelser och sedan klicka på mappikonen **[!UICONTROL Reporting Group]** i dialogrutans övre högra hörn.
-
-   ![Ikon för rapportgrupp](/help/main/c-reports/assets/ap_manage_content_3.png)
-
-1. Om du vill tilldela det valda erbjudandet till en befintlig rapporteringsgrupp väljer du **[!UICONTROL Existing]**, väljer önskad rapporteringsgrupp i listrutan och klickar sedan på **[!UICONTROL Apply]**.
+1. Om du vill tilldela det valda erbjudandet till en befintlig rapporteringsgrupp väljer du **[!UICONTROL Existing]**, väljer önskad rapporteringsgrupp i listrutan och klickar sedan på **[!UICONTROL Confirm]**.
 
    eller
 
-   Om du vill skapa en rapporteringsgrupp som du kan tilldela det valda erbjudandet till väljer du **[!UICONTROL New]**, namnger den nya rapporteringsgruppen och klickar sedan på **[!UICONTROL Apply]**.
-
-   ![Ny ikon för att skapa en ny rapporteringsgrupp](/help/main/c-reports/assets/ap_reporting_groups.png)
+   Om du vill skapa en rapporteringsgrupp som du kan tilldela det valda erbjudandet till väljer du **[!UICONTROL New]**, namnger den nya rapporteringsgruppen och klickar sedan på **[!UICONTROL Confirm]**.
 
 Du kan använda listan [!UICONTROL Location] för att filtrera erbjudanden efter plats. Använd listan [!UICONTROL Report Group] för att filtrera erbjudanden efter rapporteringsgrupper. Du kan också använda listan [!UICONTROL Report Group] för att filtrera efter [!UICONTROL Unassigned Offers] så att du kan tilldela en rapporteringsgrupp till ett erbjudande som för närvarande inte är tilldelat någon rapporteringsgrupp.
 
@@ -81,5 +72,3 @@ Mer information om att rikta ett erbjudande till specifika målgrupper finns i [
    ![Erbjudandegrupper: Kontroll och målinriktning](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 Mer information om hur du använder [!UICONTROL Automated Personalization]-rapporter (inklusive [!UICONTROL Offer Level]-rapporten) finns i [Sammanfattningsrapporter för Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
-
-

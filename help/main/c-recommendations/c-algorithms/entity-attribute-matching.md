@@ -1,20 +1,20 @@
 ---
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;entitetsattributmatchning
-description: Lär dig hur du filtrerar dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra en pool med potentiella objekt med ett specifikt objekt som användaren har interagerat med.
+description: Lär dig hur du filtrerar dynamiskt i [!DNL Target Recommendations] genom att jämföra en pool med potentiella objekt med ett specifikt objekt som användaren har interagerat med.
 title: Hur filtrerar jag efter entitetsattributmatchning i Recommendations-aktiviteter?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
 # Matchande entitetsattribut
 
-Filtrera dynamiskt i [!DNL Adobe Target] [!DNL Recommendations] genom att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användaren har interagerat med.
+Filtrera dynamiskt i [!DNL Adobe Target Recommendations] genom att jämföra en pool med potentiella rekommendationsobjekt med ett specifikt objekt som användaren har interagerat med.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Rekommendera till exempel endast objekt som matchar det aktuella objektets varum
 
 Om mbox på en varumärkeslandningssida returnerar `entity.brand=brandA` returneras endast produkter av typen Brand A och visas på den sidan. På samma sätt returneras endast produkter av typen Varumärkeslandning för Varumärke B. Med den här typen av regel för dynamisk inkludering behöver användaren bara ange en rekommendationsregel som returnerar relevanta varumärkesresultat på alla varumärkessidor i stället för att ange en samling eller ett statiskt filter som matchar varje varumärkesnamn.
 
-Observera att du måste leverera `entity.brand` i mbox på de landningssidorna för att detta ska fungera.
+Observera att du måste leverera `entity.brand` i mbox på dessa landningssidor för att den här processen ska fungera.
 
 ## Exempel på matchning av enhetsattribut
 
@@ -58,7 +58,7 @@ Om du sedan visar en produktsida för varumärke B återställs värdet `entity.
 
 Anta att du är en klädhandlare och vill uppmuntra användarna att överväga högre priser och därmed mer lönsamma artiklar. Du kan använda operatorerna &quot;equals&quot; och &quot;is between&quot; för att marknadsföra dyrare objekt från samma kategori och samma varumärke. En skohandlare kan till exempel marknadsföra dyrare skor i ett försök att sälja in en besökare som tittar på skor, som i följande exempel:
 
-![Merförsäljning](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
+![Merförsäljning](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
 ```
 Entity Attribute Matching
@@ -75,7 +75,8 @@ value - is between - 100% and 1000% of - current item's - value
 
 Du kan blanda dynamiska och statiska filter för att marknadsföra privata etikettprodukter. Ett kontorsföretag kan till exempel marknadsföra tonerkassetter för företagets varumärke för att få en mer lönsam försäljning för en besökare som tittar på toner - och marknadsföra pennor från företagets varumärke för att få en mer lönsam försäljning för en besökare som tittar på pennor, som i följande exempel:
 
-![House Brand](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
+![House Brand](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
+)
 
 ```
 Entity Attribute Matching

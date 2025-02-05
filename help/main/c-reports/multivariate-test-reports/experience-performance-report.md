@@ -4,26 +4,24 @@ description: Lär dig hur du använder Experience Performance-rapporten för Ado
 title: Hur använder jag Experience Performance Report för multivariata tester?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
-# Experience Performance Report (MVT)
+# [!UICONTROL Experience Performance]-rapport (MVT)
 
-Experience Performance-rapporten visar hur varje upplevelse i aktiviteten fungerar. Rapporten innehåller information om antalet deltagare, konverteringsgraden, lyften och förtroendet.
+Rapporten [!UICONTROL Experience Performance] visar hur varje upplevelse i aktiviteten fungerar. Rapporten innehåller information om antalet deltagare, konverteringsgraden, lyften och förtroendet.
 
 Du kan välja en eller flera upplevelser att jämföra. Klicka på en upplevelse och välj **[!UICONTROL Preview]** för att öppna upplevelsen på en webbläsarflik.
-
-![Experience Performance-rapport i Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 I rapportens övre del visas mätvärden, start- och slutdatum samt målgrupp som används i rapporten. Du kan ändra någon av dessa faktorer.
 
 >[!NOTE]
 >
->Målgrupps- och mätväljarna är bara tillgängliga om Analytics används som rapportkälla.
+>Publiken och mätväljarna är bara tillgängliga om [!DNL Analytics] används som rapportkälla.
 
 Därefter visar ett linjediagram en visuell jämförelse av varje upplevelse med specifika tidsintervall. I det här diagrammet kan du se hur väl varje upplevelse fungerar och hur dagens tid påverkar prestandan.
 

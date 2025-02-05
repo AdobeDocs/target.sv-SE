@@ -4,9 +4,9 @@ description: Lär dig hur du använder platsbidragsrapporten för Adobe [!DNL Ta
 title: Hur använder jag [!UICONTROL Location Contribution]-rapporten för [!UICONTROL Multivariate Test]-aktiviteter?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,10 @@ Rapporten [!UICONTROL Location Contribution] innehåller två tabeller.
 
 Den första tabellen visar den relativa effekten av varje element. I den här tabellen visas vilka av de element du har lagt till erbjudanden som ger flest konverteringar.
 
-![Platsbidragsrapport i Adobe Target](/help/main/c-reports/assets/locationcontributiontop.png)
-
 Den andra tabellen innehåller en rapport på erbjudandenivå. Den visar konverteringsgraden, lyften och förtroendet för varje erbjudande i varje enskilt element. Tabellen hjälper dig att avgöra vilka erbjudanden som är mest framgångsrika. I den andra kolumnen visas värden för det valda måttet (konverteringsgrad, RPV, AOV, order eller interaktionsmått) för erbjudandet och en standardisering.
 
-![Platsbidragsrapport i Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
+## Utbildningsvideo: Skapa ett MVT-test
 
-## Utbildningsvideo: Skapa ett MVT-test ![självstudiekursetikett](/help/main/assets/tutorial.png)
-
-I den här videon visas hur du skapar ett multivariata test med det guidade arbetsflödet i tre steg för Target. Platsbidragsrapporten beskrivs från och med 08:45.
+I den här videon visas hur du skapar ett multivariata test med hjälp av det guidade arbetsflödet i [!DNL Target] i tre steg. Platsbidragsrapporten beskrivs från och med 08:45.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

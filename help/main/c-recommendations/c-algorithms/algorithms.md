@@ -5,18 +5,18 @@ title: Hur använder jag villkor i  [!DNL Target] Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# Kriterier
+# [!UICONTROL Criteria]
 
-Kriterier i [!DNL Adobe Target] [!DNL Recommendations] är regler som avgör vilka produkter eller vilket innehåll som ska rekommenderas utifrån en fördefinierad uppsättning besökarbeteenden. Kriterierna kan baseras på populära trender, en besökares aktuella och tidigare beteenden eller liknande produkter och innehåll. Du kan testa flera rekommendationstyper mot varandra genom att lägga till flera villkor.
+[!UICONTROL Criteria] i [!DNL Adobe Target] [!DNL Recommendations] är regler som avgör vilka produkter eller vilket innehåll som ska rekommenderas baserat på en förbestämd uppsättning besökarbeteenden. Kriterierna kan baseras på populära trender, en besökares aktuella och tidigare beteenden eller liknande produkter och innehåll. Du kan testa flera rekommendationstyper mot varandra genom att lägga till flera villkor.
 
-I följande avsnitt beskrivs mer om villkorsnycklar och den rekommendationslogik du kan använda för varje nyckel. Klicka på länkarna för mer detaljerad information.
+I följande avsnitt beskrivs mer om villkorstangenterna och rekommendationslogiken som du kan använda för varje nyckel. Klicka på länkarna för mer detaljerad information.
 
 ## Branschvertikal {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
@@ -24,26 +24,24 @@ När du skapar villkor väljer du en bransch vertikalt baserad på syftet med di
 
 | Branschvertikal | Mål |
 |--- |--- |
-| Detaljhandel/e-handel | Konvertering som resulterar i inköp |
-| Leadgenerering/B2B/Finansiella tjänster | Konvertering utan köp |
-| Media/publicering | Engagemang |
+| [!UICONTROL Retail/Ecommerce] | Konvertering som resulterar i inköp |
+| [!UICONTROL Lead Generation/B2B/Financial Services] | Konvertering utan köp |
+| [!UICONTROL Media/Publishing] | Engagemang |
 
-Andra kriteriealternativ ändras beroende på vilken vertikal du väljer i branschen. Du kan ställa in din standardbransch vertikalt på sidan **[!UICONTROL Recommendations > Settings]** eller så kan du ange branschvertikal för varje villkor.
+Andra kriteriealternativ ändras beroende på vilken vertikal du väljer i branschen. Du kan ställa in din standardbransch vertikalt på sidan **[!UICONTROL Administration]>[!UICONTROL Recommendations]** eller så kan du ange branschvertikalt för varje villkor.
 
 ## Algoritmtyp {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-Den algoritmtyp du väljer avgör vilka algoritmer som är tillgängliga. Det finns flera algoritmtyper som visas som kriteriekort när du konfigurerar en [!DNL Recommendations]-aktivitet.
-
-![Villkorssida](assets/criteria-page.png)
+Den algoritmtyp du väljer avgör vilka algoritmer som är tillgängliga.
 
 I följande tabell förklaras de olika algoritmtyperna och deras tillhörande algoritmer.
 
 | Algoritmtyp | När ska du använda | Tillgängliga algoritmer |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>Folk som tittade på de här, såg dem</li><li>Folk som såg de här, köpte de där</li><li>Folk som köpte de här, köpte de där</li></ul>Mer information finns i [Kundvagnsbaserad](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) i *Basera rekommendationen på en rekommendationsnyckel*. |
-| [!UICONTROL Popularity-Based] | Utför rekommendationer baserat på hur populärt ett objekt på webbplatsen är eller utifrån hur populärt det är att ha objekt inom en användares favoritkategori, varumärke, genre osv. | <ul><li>Visas bäst på webbplatsen</li><li>Mest visade per kategori</li><li>Mest visad av objektattribut</li><li>De största säljarna på webbplatsen</li><li>De viktigaste säljarna per kategori</li><li>De viktigaste säljarna efter artikelattribut</li><li>Top by Analytics Metric</li></ul> |
-| [!UICONTROL Item-Based] | Rekommendationer baserade på sökning efter liknande objekt för ett objekt som användaren för närvarande visar eller nyligen har visat. | <ul><li>Folk som tittade på det här, såg det</li><li>Folk som såg det här, köpte det</li><li>Folk som köpte den här, köpte den där</li><li>Objekt med liknande attribut</li></ul> |
-| [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>Nyligen visade objekt</li><li>Rekommenderas för dig</li></ul> |
+| [!UICONTROL Cart-Based] | Utför rekommendationer baserat på användarens kundvagnsinnehåll. | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>Mer information finns i [Kundvagnsbaserad](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) i *Basera rekommendationen på en rekommendationsnyckel*. |
+| [!UICONTROL Popularity-Based] | Utför rekommendationer baserat på hur populärt ett objekt på webbplatsen är eller utifrån hur populärt det är att ha objekt inom en användares favoritkategori, varumärke, genre osv. | <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
+| [!UICONTROL Item-Based] | Rekommendationer baserade på sökning efter liknande objekt för ett objekt som användaren för närvarande visar eller nyligen har visat. | <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
+| [!UICONTROL User-Based] | Utför rekommendationer baserat på användarens beteende. | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
 | [!UICONTROL Custom Criteria] | Utför rekommendationer baserat på en anpassad fil som du överför. | <ul><li>Anpassad algoritm</li></ul> |
 
 Mer information om varje algoritm finns i [Basera rekommendationen på en rekommendationsnyckel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
@@ -70,22 +68,14 @@ Anta till exempel att du vill visa rekommenderade filmer baserat på den film so
 
 1. Välj ditt anpassade profilattribut i listan **[!UICONTROL Recommendation Key]** (till exempel [!UICONTROL Last Show Added to Watchlist]).
 
-   ![Dialogrutan Skapa nytt villkor](assets/custom-key1.png)
-
 ## Visa villkorsinformation {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-Du kan visa villkorsinformation på ett snabbkort genom att hålla muspekaren över ett kort och klicka på ikonen Information på ett villkorskort utan att öppna villkoret.
+Du kan visa villkorsinformation genom att klicka på de önskade villkoren i kolumnen [!UICONTROL Name].
 
-![Villkorskortshovring](/help/main/c-recommendations/c-algorithms/assets/criteria_hover.png)
+I avsnitten **[!UICONTROL Attributes]** och Detaljer kan du visa allmän information om de valda villkoren, inklusive dess [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] och senast ändrade information (datum och vem som ändrade algoritmen).
 
-Klicka på fliken **[!UICONTROL Algorithm Info]** om du vill visa allmän information om de valda villkoren, inklusive namn, beskrivningar, industrivertikalt, sidtyp(er), rekommendationsnyckel, rekommendationslogik och algoritm-ID.
-
-![Fliken Information om algoritm](/help/main/c-recommendations/c-algorithms/assets/criteria_info.png)
-
-Klicka på fliken **[!UICONTROL Algorithm Usage]** för att visa en lista över aktiviteter som refererar till de valda villkoren. Kortet innehåller aktiva, inaktiva och utkastsaktiviteter. Klicka på listrutan Aktiva aktiviteter/Inaktiva aktiviteter/Utkastaktiviteter för att visa hela listan med aktiviteter som refererar till det villkoret. Du kan klicka på aktivitetslänken för att öppna aktiviteten för redigering.
-
-![Fliken Algoritmanvändning](/help/main/c-recommendations/c-algorithms/assets/criteria_usage.png)
+I avsnittet **[!UICONTROL Usage]** kan du visa en lista med aktiviteter som refererar till de valda villkoren.
 
 >[!NOTE]
 >
->Funktionen [!UICONTROL Algorithm Usage] stöds för närvarande endast för Recommendations-aktiviteter. Den här funktionen stöds för närvarande inte för A/B Test-, Auto-Allocate-, Auto-Target- och Experience Targeting-aktiviteter (XT) som innehåller [rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>Funktionen [!UICONTROL Algorithm Usage] stöds för närvarande endast för [!DNL Recommendations]-aktiviteter. Den här funktionen stöds för närvarande inte för aktiviteter av typen [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] och [!UICONTROL Experience Targeting] (XT) som innehåller [rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).

@@ -4,9 +4,9 @@ description: Lär dig hur du använder alternativet Omdirigera till URL i Adobe 
 title: Kan jag dirigera om en sida till en annan URL?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,13 @@ Omdirigeringserbjudanden har några begränsningar:
 Så här skapar du ett omdirigeringserbjudande:
 
 1. Skapa en upplevelse.
-1. Håll muspekaren över en upplevelse och klicka sedan på ikonen Omdirigera till URL (![icon_redirect_url-bild](assets/icon_redirect_url.png)).
-
-   ![exp_actions, bild](assets/exp_actions.png)
-
-1. Skriv URL-adressen.
+1. I bildrutan [!UICONTROL Experiences] klickar du på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) för att få önskad upplevelse.
+1. Klicka på **[!UICONTROL Redirect to URL]**.
+1. Skriv URL-adressen i dialogrutan Omdirigera till URL.
 1. Om du vill kan du välja att inkludera aktuella frågeparametrar.
 
    Om det här alternativet är markerat, något efter ? i besökarens URL läggs till i omdirigerings-URL:en vid tidpunkten för omdirigeringen.
 
-   Det här alternativet är markerat som standard.
 1. (Valfritt) Skapa ytterligare regler.
 
    Ytterligare regler kan baseras på något av följande:

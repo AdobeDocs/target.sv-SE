@@ -5,16 +5,16 @@ title: Hur filtrerar jag efter statiska värden i Recommendations-aktiviteter?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Statiskt filter
+# [!UICONTROL Static Filter]
 
-Ange manuellt ett eller flera statiska värden som ska filtreras med inkluderingsregler i [!DNL Adobe Target] [!DNL Recommendations].
+Ange manuellt ett eller flera statiska värden som ska filtreras med inkluderingsregler i [!DNL Adobe Target Recommendations].
 
 Rekommendera t.ex. endast innehåll med graderingen &quot;G&quot; eller &quot;PG&quot; i Motion Picture Association (MPA).
 
@@ -26,6 +26,4 @@ Du kan skapa så många inkluderingsregler som behövs. Inkluderingsreglerna kop
 
 ## Rekommendera innehåll med klassificering G eller PG
 
-Om du vill skapa en inkluderingsregel med statiska värden för att rekommendera innehåll med MPA-klassificeringen &quot;G&quot; eller &quot;PG&quot; (exkludera innehållet &quot;R&quot; och &quot;NC17&quot;) kan du skapa följande filtreringsregler &quot;filmrankning lika med g-rating&quot; och &quot;filmrankning lika med pg-klassificering&quot;, som visas nedan.
-
-![Exempel på filmklassificering](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+Om du vill skapa en inkluderingsregel med statiska värden för att rekommendera innehåll med MPA-klassificeringen &quot;G&quot; eller &quot;PG&quot; (exkludera innehållet &quot;R&quot; och &quot;NC17&quot;), kan du skapa följande filtreringsregler &quot;filmrankning är lika med något av de graderade&quot; och &quot;filmrankning är lika med något av de graderade&quot;.

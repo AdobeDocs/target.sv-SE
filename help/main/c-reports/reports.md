@@ -4,9 +4,9 @@ description: Optimera dina aktiviteter genom att behärska rapportfunktionerna i
 title: Hur visar jag rapporter?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-source-git-commit: 5c963e97dae11326396a5c1c5e32d19f4d463c74
+source-git-commit: bd65cb9339dbe4b79d26c314cfb81d1fc7226fd2
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,19 @@ Rapporterna innehåller information om förloppet och resultaten av dina [!DNL A
 
 1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet i listan.
 
-   Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Method] och [!UICONTROL Activity Source].
+   Om du har många aktiviteter kan du klicka på filterikonen ( ![Filterikon](/help/main/assets/icons/Filter.svg) ) för att filtrera listan genom att välja alternativ i listorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Method] och [!UICONTROL Activity Source] .
 
    Du kan till exempel välja [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting] i listrutan [!UICONTROL Type] och [!UICONTROL Live] i listrutan [!UICONTROL Status] om du bara vill visa [!UICONTROL A/B Test]- och [!UICONTROL Experience Targeting]-aktiviteter som är i aktivt läge.
 
    Följande bild visar listrutan [!UICONTROL Type] med två valda typer: [!UICONTROL A/B Test] och [!UICONTROL Experience Targeting]. Observera att de tre typerna av A/B-tester (Manuellt, [Automatisk fördelning](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) och [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)) är markerade som standard. Du kan avmarkera en eller flera typer efter behov.
 
-   ![Filtrera rapporter efter typ](/help/main/c-reports/assets/report_filters-new.png)
+   ![Filtrera rapporter efter typ](/help/main/c-reports/assets/report-filters-refresh.png)
 
-1. Välj önskad aktivitet i listan.
+1. Klicka på önskad aktivitet i listan för att visa sidan [!UICONTROL Overview].
 
 1. Klicka på fliken **[!UICONTROL Reports]** i den vänstra listen.
+
+   ![A/B-rapport](/help/main/c-reports/assets/reports-refresh.png)
 
    Varje rapport innehåller en förklaring som hjälper dig att förstå rapporten.
 
@@ -42,25 +44,23 @@ Rapporterna innehåller information om förloppet och resultaten av dina [!DNL A
    >
    >Upplevelseresultat visas efter att minst en deltagare har sett upplevelsen.
 
-1. (Valfritt) [Konfigurera rapporten](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) efter behov.
-1. (Valfritt) [Hämta rapporten i CSV-format](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) för analys i Excel och andra verktyg.
+1. (Valfritt) [Konfigurera rapporten](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) genom att klicka på ikonen Rapportinställningar ( ![ikonen Rapportinställningar](/help/main/assets/icons/Setting.svg) ).
+1. (Valfritt) Klicka på ikonen Hämta rapporter ( ![ikonen Hämta rapporter](/help/main/assets/icons/Download.svg) ) för att [hämta rapporten i CSV-format](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) för analys i Excel och andra verktyg.
 
    Följande alternativ är tillgängliga:
 
    * [!UICONTROL Export Report to CSV]
    * [!UICONTROL Export Order Details to CSV]
 
-1. (Valfritt) Klicka på ikonerna **[!UICONTROL Table View]** och **[!UICONTROL Graph View]** för att växla mellan rapporteringsformat.
-
-   ![Ikoner för tabell- och diagramvyn](/help/main/c-reports/assets/table-and-graph-icons.png)
+1. (Valfritt) Klicka på ikonerna **[!UICONTROL Table View]** ( ![ ikonen Tabellvy ](/help/main/assets/icons/Table.svg) ) och **[!UICONTROL Graph View]** ( ![ ikonen Diagramvy ](/help/main/assets/icons/GraphTrend.svg) ) för att växla mellan rapportformaten.
 
    Beroende på vilken typ av rapport du har valt kan det finnas andra vyer och rapporter:
 
    | Typ av rapportering | Visa |
    | --- | --- |
-   | [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Klicka på ikonerna **[!UICONTROL Automated Segments]** eller **[!UICONTROL Important Attributes]**.<ul><li>[[!UICONTROL Automated Segments]-rapporten ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) visar hur olika besökare svarar annorlunda på erbjudanden och upplevelser i din [!UICONTROL Automated Personalization]- eller [!UICONTROL Auto-Target]-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av personaliseringsmodellerna i [!DNL Target] svarade på erbjudanden och upplevelser i aktiviteten.</li><li>Rapporten [[!UICONTROL Important Attributes] ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) visar hur olika attribut är viktigare (eller mindre) för hur modellen bestämmer sig för att personalisera i olika aktiviteter. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse.</li></ul> |
-   | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Förutom [[!UICONTROL Automated Personalization Summary] rapporter ](/help/main/c-reports/personalization-reports/reports-ap.md) kan du klicka på ikonerna **[!UICONTROL Automated Segments]** eller **[!UICONTROL Important Attributes]** .<ul><li>[[!UICONTROL Automated Segments]-rapporten ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) visar hur olika besökare svarar annorlunda på erbjudanden och upplevelser i din [!UICONTROL Automated Personalization]- eller [!UICONTROL Auto-Target]-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av personaliseringsmodellerna i [!DNL Target] svarade på erbjudanden och upplevelser i aktiviteten.</li><li>Rapporten [[!UICONTROL Important Attributes] ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) visar hur olika attribut är viktigare (eller mindre) för hur modellen bestämmer sig för att personalisera i olika aktiviteter. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse.</li></ul> |
-   | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Utöver rapporten [[!UICONTROL Experience Performance] ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) kan du klicka på ikonen [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) för att växla rapporten för att visa bidrag per plats. |
+   | [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Klicka på ikonerna **[!UICONTROL Automated Segments]** ( ![rapporten Automatiska segment ](/help/main/assets/icons/AutomatedSegment.svg) ) eller **[!UICONTROL Important Attributes]** ( ![ikonen Viktiga attribut ](/help/main/assets/icons/ViewList.svg) ).<ul><li>[[!UICONTROL Automated Segments]-rapporten ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) visar hur olika besökare svarar annorlunda på erbjudanden och upplevelser i din [!UICONTROL Automated Personalization]- eller [!UICONTROL Auto-Target]-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av personaliseringsmodellerna i [!DNL Target] svarade på erbjudanden och upplevelser i aktiviteten.</li><li>Rapporten [[!UICONTROL Important Attributes] ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) visar hur olika attribut är viktigare (eller mindre) för hur modellen bestämmer sig för att personalisera i olika aktiviteter. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse.</li></ul> |
+   | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Förutom [[!UICONTROL Automated Personalization Summary] rapporter](/help/main/c-reports/personalization-reports/reports-ap.md) kan du klicka på ikonerna **[!UICONTROL Automated Segments]** ( ![rapporten Automatiska segment ](/help/main/assets/icons/AutomatedSegment.svg) ) eller **[!UICONTROL Important Attributes]** ( ![ikonen Viktiga attribut ](/help/main/assets/icons/ViewList.svg) ).<ul><li>[[!UICONTROL Automated Segments]-rapporten ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) visar hur olika besökare svarar annorlunda på erbjudanden och upplevelser i din [!UICONTROL Automated Personalization]- eller [!UICONTROL Auto-Target]-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av personaliseringsmodellerna i [!DNL Target] svarade på erbjudanden och upplevelser i aktiviteten.</li><li>Rapporten [[!UICONTROL Important Attributes] ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) visar hur olika attribut är viktigare (eller mindre) för hur modellen bestämmer sig för att personalisera i olika aktiviteter. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse.</li></ul> |
+   | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Förutom rapporten [[!UICONTROL Experience Performance] ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) kan du klicka på ikonen [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![Platsbidrag ](/help/main/assets/icons/LocationContribution.svg) ) för att växla rapporten så att den visar bidrag per plats. |
 
 ## Ytterligare rapporteringsinformation för specifika aktivitetstyper {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -78,6 +78,6 @@ Utöver den allmänna rapporteringsinformationen i detta avsnitt och dess undera
 
 ## Blockera rapporteringsdata från angivna IP-adresser
 
-Du kan blockera besökare från angivna IP-adresser från att räknas i rapporter. Detta är till exempel användbart om du vill blockera rapporteringsdata från era interna besökare.
+Du kan blockera besökare från angivna IP-adresser från att räknas i rapporter. Det här alternativet är till exempel användbart om du vill blockera rapportdata från interna besökare.
 
 [Kontakta kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om du vill konfigurera IP-filter. Den här filtreringen gäller inte när [Analytics för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) används som rapportkälla.

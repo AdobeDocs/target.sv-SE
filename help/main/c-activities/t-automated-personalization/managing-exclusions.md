@@ -1,14 +1,14 @@
 ---
 keywords: deduplicera;tillåta dubbletter;exkludera dubblerade erbjudanden;automatiserad personalisering;Tillåt inte dubblerade erbjudanden;exkludera;standardinnehåll;exkluderingsgrupp;
-description: Hantera undantag i  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-aktiviteter. Skapa exkluderingsgrupper och exkludera dubblerade erbjudanden, specifika upplevelser och standardinnehåll.
+description: Hantera undantag i [!UICONTROL Automated Personalization] (AP)-aktiviteter.
 title: Hur hanterar jag undantag i [!UICONTROL Automated Personalization] aktiviteter?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ Du kan också begränsa vilka målgrupper som kan se specifika erbjudanden i AP-
 
 **Så här skapar du en exkluderingsgrupp:**
 
-1. Klicka på **[!UICONTROL Manage Content]** i rubrikfältet när du [skapar eller redigerar en AP-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md).
+1. När du [skapar eller redigerar en AP-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll](/help/main/assets/icons/Experience.svg) ).
 
-   ![Länken Hantera innehåll](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   Dialogrutan [!UICONTROL Manage Content] visas.
+
+1. Klicka på fliken **[!UICONTROL Experiences]**.
 
 1. Klicka på **[!UICONTROL Exclusion Groups]** i dialogrutan [!UICONTROL Manage Content].
 

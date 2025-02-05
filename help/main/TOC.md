@@ -3,10 +3,10 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 2%
+source-wordcount: '1259'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 2%
    + [Systemstatusuppdateringar och proaktiva meddelanden](r-release-notes/system-status-updates.md)
    + [Dokumentationsändringar](r-release-notes/doc-change.md)
    + [Versionsinformation för tidigare versioner](r-release-notes/release-notes-for-previous-releases.md)
-   + [Verksamheter, erbjudanden och Recommendations UI - uppdatera Beta](/help/main/refresh-ui-beta.md)
 + Introduktion {#introduction}
    + [Introduktion till Target](c-intro/intro.md)
    + [Åtkomstmål från Adobe Experience Cloud](c-intro/target-access-from-mac.md)
@@ -47,7 +46,6 @@ ht-degree: 2%
    + [Vanliga frågor om måloptimering och personalisering](c-intro/cmp-target-standard-cheatsheet.md)
 + Administrera mål {#administer}
    + [Administrera målöversikt](administrating-target/administrating-target.md)
-   + [Administrera målöversikt beta](administrating-target/administrating-target-beta.md)
    + [Administratörssteg](administrating-target/start-target.md)
    + [Konfigurera Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + Rapporterar {#reporting}
@@ -117,72 +115,49 @@ ht-degree: 2%
    + [Målaktivitetstyper](c-activities/target-activities-guide.md)
    + A/B-test {#abtest}
       + [Översikt över A/B-tester](c-activities/t-test-ab/test-ab.md)
-      + [Betaversion av A/B-test](c-activities/t-test-ab/test-ab-beta.md)
       + [Hur länge ska du köra ett A/B-test?](c-activities/t-test-ab/sample-size-determination.md)
       + [Tio vanliga A/B-testfall och hur man undviker dem](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A-tester](/help/main/c-activities/t-test-ab/aa-testing.md)
       + Skapa ett A/B-test {#create}
          + [Skapa ett A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-         + [Skapa en betaversion av A/B-test](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [Aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
-         + [Beta för aktivitets-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [Lägg till upplevelse](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [Lägg till upplevelsebetaversion](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [Välj målgrupp](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
-         + [Välj målgruppsbeta](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [Betaversion av mål och inställningar](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Använd analysdata](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Ange mått](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Ange betaversion av mätvärden](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Målgrupper med olika upplevelser i ett A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-         + [En betaversion av flera upplevelser](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Autoallokera {#auto-allocate}
       + [Automatisk allokering - översikt](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
-      + [Skapa en automatiskt fördelad aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Tolka autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Tolka betaversion av autofördelningsrapporter](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [Automatisk allokering kan ge snabbare testresultat och högre intäkter än ett manuellt test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Automatiskt mål {#auto-target}
       + [Översikt över Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-      + [Betaversion av automål](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Skapa en Automatisk målaktivitet](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Skapa en aktivitetsbetaversion av Automatiskt mål](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Vanliga frågor och felsökning för Automatiskt mål](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Rapportering och automatisk målgruppsanpassning](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization - översikt](c-activities/t-automated-personalization/automated-personalization.md)
       + [Slumpmässig skogsalgoritm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Skapa en Automated Personalization-aktivitet](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Skapa en betaversion av Automated Personalization-aktivitet](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Överför data för målpersonaliseringsalgoritmerna](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Datainsamling för målpersonaliseringsalgoritmer](c-activities/t-automated-personalization/ap-data.md)
       + [Uppskatta den trafik som krävs för att lyckas](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Uppskatta den trafik som krävs för betaversionen](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Förhandsgranska upplevelser för ett Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Förhandsgranska upplevelser för en testbeta från Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Automated Personalization erbjudanden](c-activities/t-automated-personalization/ap-target-offers.md)
-      + [Automated Personalization erbjudanden-beta](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [Hantera undantag](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Hantera undantag - beta](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Erbjud rapporteringsgrupper i Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [Rapporteringsgrupper i Automated Personalization-beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Välj kontroll för din Automated Personalization- eller Automatisk målaktivitet](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Välj kontroll för din Automated Personalization eller Automatisk-Target-beta](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [AUTOMATED PERSONALIZATION FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Felsöka Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Experience Targeting {#experience-targeting}
       + [Experience Targeting - översikt](c-activities/t-experience-target/experience-target.md)
       + Skapa en Experience Targeting-aktivitet {#create-targeting}
          + [Skapa en aktivitet](c-activities/t-experience-target/t-xt-create/xt-create.md)
-         + [Skapa en activity-beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [Aktivitets-URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
-         + [Aktivitets-URL-beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Skapa en upplevelse](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [Skapa en upplevelsebeta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Byta upplevelser i Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-         + [Byta upplevelser i Experience Targeting-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Mål och inställningar](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Ange mått](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivariattest {#multivariate-test}
@@ -191,20 +166,13 @@ ht-degree: 2%
       + [Planera ett multivariata test](c-activities/c-multivariate-testing/plan-mvt.md)
       + Skapa ett multivariattest {#create-mvt}
          + [Skapa ett test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-         + [Skapa en testbeta](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [Aktivitets-URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
-         + [Beta för aktivitets-URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [Skapa kombinationer](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
-         + [Skapa kombinationer beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [Förhandsgranska upplevelser för ett multivariat test](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
-         + [Förhandsgranska upplevelser för en Multivariate Test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [Uppskatta den trafik som krävs för ett lyckat test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
-         + [Uppskatta den trafik som krävs för en lyckad testbeta](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [Testsammanfattning](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [Testa beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [Mål och inställningar](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Ange mått](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
-         + [Ange betaversion av mätvärden](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [Felsöka multivariata tester](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations-aktivitet](c-activities/recommendations-activity.md)
    + [Redigera en aktivitet eller spara som utkast](c-activities/edit-activity.md)
@@ -212,7 +180,6 @@ ht-degree: 2%
    + [Aktivitetsinställningar](c-activities/activity-settings.md)
    + Resultatmått {#success-metrics}
       + [Framgångsmått](c-activities/r-success-metrics/success-metrics.md)
-      + [Betaversion av framgångsmått](c-activities/r-success-metrics/success-metrics-beta.md)
       + [Klickspårning](c-activities/r-success-metrics/click-tracking.md)
       + [Hämta poäng](c-activities/r-success-metrics/capture-score.md)
    + [Logg för aktivitetsändring](c-activities/change-log.md)
@@ -261,11 +228,8 @@ ht-degree: 2%
    + [Erfarenheter och erbjudanden - översikt](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Översikt över Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [Visuell Experience Composer - översikt - beta](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Alternativ för Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
-      + [Betaversion av alternativen i Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [Inkludera samma upplevelse på liknande sidor](c-experiences/c-visual-experience-composer/temtest.md)
-      + [Inkludera samma upplevelse på liknande sidor beta](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [Flersidig aktivitet](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Aktivitetskollisioner](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Ändringar {#modifications}
@@ -284,7 +248,6 @@ ht-degree: 2%
          + [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Hjälptillägg för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Omdirigera till en URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [Omdirigera till en betaversion av en URL](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Skapa karuseller som fungerar i Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Formulärbaserad Experience Composer](c-experiences/form-experience-composer.md)
    + [Visual Experience Composer (SPA) med en sida](c-experiences/spa-visual-experience-composer.md)
@@ -329,53 +292,32 @@ ht-degree: 2%
       + [Entitetsattribut](c-recommendations/c-products/entity-attributes.md)
       + [Anpassade entitetsattribut](c-recommendations/c-products/custom-entity-attributes.md)
       + [Feeds](c-recommendations/c-products/feeds.md)
-      + [Betaversion av feeds](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [Katalogsökning](c-recommendations/c-products/catalog-search.md)
-      + [Betaversion av katalogsökning](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [Samlingar](c-recommendations/c-products/collections.md)
-      + [Betaversion av samlingar](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Undantag](c-recommendations/c-products/exclusions.md)
-      + [Betaversion av undantag](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Kriterium {#criteria}
       + [Villkorsöversikt](c-recommendations/c-algorithms/algorithms.md)
-      + [Villkorsöversikt beta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [Skapa villkor](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [Skapa villkorsbetaversion](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [Skapa villkorssekvenser](c-recommendations/c-algorithms/create-criteria-sequence.md)
-      + [Skapa villkorssekvenser beta](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [Basera rekommendationen på en rekommendationsnyckel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [Basera rekommendationen på en betaversion av en rekommendationsnyckel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Forskningen bakom Target:s rekommendationsalgoritmer](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Överför anpassade villkor](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [Ladda upp betaversion av anpassade kriterier](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Dynamiska och statiska inkluderingsregler {#dynamic-static}
          + [Använd dynamiska och statiska inkluderingsregler](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [Använd betaversion av dynamiska och statiska inkluderingsregler](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Matchning av enhetsattribut](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [Enhetsattribut som matchar beta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [Profilattributsmatchning](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [Profilattribut som matchar beta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [Parametermatchning](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
-         + [Parameter som matchar beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [Statiskt filter](/help/main/c-recommendations/c-algorithms/static-value.md)
-         + [Statiskt filter beta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Använd en rekommendation för säkerhetskopiering](c-recommendations/c-algorithms/backup-recs.md)
-      + [Använd en rekommendation för säkerhetskopiering](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [Arbeta med attribut för flera värden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Arbeta med betaversioner av flervärdesattribut](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Använd Adobe Analytics med Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
-      + [Använd Adobe Analytics med Recommendations beta](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + Design {#recommendations-design}
       + [Designöversikt](c-recommendations/c-design-overview/design-overview.md)
       + [Skapa en design](c-recommendations/c-design-overview/create-design.md)
-      + [Skapa en betaversion](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Vanliga frågor om design](c-recommendations/c-design-overview/template-faq.md)
       + [Anpassa en design med Snabb](c-recommendations/c-design-overview/customizing-a-template.md)
    + Aktivitet {#recommendations-activity}
       + [Skapa en Recommendations-aktivitet](c-recommendations/t-create-recs-activity/create-recs-activity.md)
-      + [Skapa en betaversion av Recommendations-aktivitet](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
-      + [Välj villkor](c-recommendations/t-create-recs-activity/algo-select-recs.md)
-      + [Välj villkorsbeta](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [Lägg till kampanjer](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations aktivitetsinställningar](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Förhandsgranska och starta din Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

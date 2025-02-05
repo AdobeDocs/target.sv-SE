@@ -4,30 +4,28 @@ description: Lär dig hur du hämtar data från Adobe [!DNL Target] aktiviteter 
 title: Hur hämtar jag rapportdata i en CSV-fil?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # Hämta data i en CSV-fil
 
-Hämta data i CSV-format för snabb import till Excel, Access eller andra dataanalysprogram.
+Hämta data i CSV-format för snabb import till [!DNL Excel], [!DNL Access] eller andra dataanalysprogram.
 
 Så här hämtar du data i en CSV-fil:
 
 1. Klicka på **[!UICONTROL Activities]** och sedan på önskad aktivitet i listan.
 
-   Om du har många aktiviteter kan du filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] och [!UICONTROL Activity Source].
+   Om du har många aktiviteter klickar du på ikonen Filter ( ![Filterikon](/help/main/assets/icons/Filter.svg) ) för att filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] och [!UICONTROL Activity Source] .
 
 1. Klicka på fliken **[!UICONTROL Reports]**.
-1. Klicka på ikonen **[!UICONTROL Download]** och välj sedan en rapporttyp att hämta för analys i Excel och andra verktyg.
+1. Klicka på ikonen **[!UICONTROL Download]** ( ![ikonen Hämta](/help/main/assets/icons/Download.svg) ) och välj sedan en rapporttyp att hämta för analys i Excel och andra verktyg.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![Hämtningsalternativ](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 

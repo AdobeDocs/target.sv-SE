@@ -1,12 +1,12 @@
 ---
 keywords: flera målgrupper;upplevelseversioner;målversioner
-description: Lär dig att rikta versioner av samma upplevelse till olika målgrupper i [!DNL Adobe Target] A/B-aktiviteter.
+description: Upptäck hur ni kan inrikta er på olika målgruppssegment med versioner av samma upplevelse i A/B-aktiviteter.
 title: Kan jag använda flera Experience-versioner i en A/B-aktivitet?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,9 @@ I det här fallet behöver ni geospecifika versioner av upplevelsen, så att ni 
 
    När du konfigurerar en upplevelse som ska ha flera versioner väljer du målgrupp för varje version, vilket visas i följande steg.
 
-1. Markera upplevelsen och klicka sedan på **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Välj upplevelsen och klicka sedan på **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Alternativet Flera målgrupper](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. Klicka på **[!UICONTROL Add Audience]** och välj sedan den första målgruppen som du vill ha som mål. Upprepa för varje publik.
-
-   ![exp-versions-bild](assets/exp-versions.png)
+1. Klicka på ikonen **[!UICONTROL Add Audience]** ( ![ Lägg till ikon ](/help/main/assets/icons/Add.svg) ) i rutan [!UICONTROL Experience Audiences] och välj sedan den första målgrupp du vill ha. Upprepa för varje publik.
 
    Om målgruppen inte finns än klickar du på [Skapa målgrupp](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) och konfigurerar den.
 

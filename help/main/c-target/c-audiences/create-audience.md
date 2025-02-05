@@ -4,7 +4,7 @@ description: Lär dig hur du skapar anpassade målgrupper och sparar dem i bibli
 title: Hur skapar jag målgrupper?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
+source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Skapa målgrupper i [!DNL Target]
 
-Du kan skapa anpassade målgrupper och spara dem i biblioteket [!DNL Adobe Target] [!UICONTROL Audiences] för användning i dina aktiviteter. Ni kan också kopiera en befintlig målgrupp som ni sedan kan redigera för att skapa en liknande målgrupp och kombinera flera målgrupper.
+Skapa anpassade målgrupper och spara dem i biblioteket [!DNL Adobe Target] [!UICONTROL Audiences] för användning i dina aktiviteter. Ni kan också kopiera en befintlig målgrupp som ni sedan kan redigera för att skapa en liknande målgrupp och kombinera flera målgrupper.
 
 ## Målgruppsöversikt
 
@@ -25,13 +25,13 @@ När du kombinerar regler eller parametrar med ELLER behöver en potentiell mål
 
 Du kan blanda båda booleska operatorer för att skapa komplexa regler, men operatorer på samma regelnivå måste matcha. Användargränssnittet använder automatiskt rätt operator.
 
-Följande regel riktar sig till exempel till besökare som använder antingen Chrome *eller* Firefox på en Windows-dator:
+Följande regel riktar sig till exempel till besökare som använder antingen [!DNL Chrome] *eller* [!DNL Firefox] på en [!DNL Windows]-dator:
 
 ![Skapa målgrupp](assets/audience_create.png)
 
 >[!NOTE]
 >
->Undvik att skapa regler som utesluter alla potentiella målgruppsmedlemmar. Det är till exempel inte möjligt för någon att besöka en sida med Chrome *och* Firefox samtidigt.
+>Undvik att skapa regler som utesluter alla potentiella målgruppsmedlemmar. Det är till exempel inte möjligt för någon att besöka en sida med [!DNL Chrome] *och* [!DNL Firefox] samtidigt.
 
 ## Skapa en målgrupp
 
@@ -43,7 +43,7 @@ Följande regel riktar sig till exempel till besökare som använder antingen Ch
 
    eller
 
-   Om du vill kopiera en befintlig målgrupp går du till listan [!UICONTROL Audiences], klickar på ikonen **[!UICONTROL More Actions]** (ellipsikonen) och sedan på **[!UICONTROL Duplicate]**. Sedan kan ni redigera målgruppen för att skapa en liknande målgrupp.
+   Om du vill kopiera en befintlig målgrupp går du till listan [!UICONTROL Audiences] och klickar på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmallListVert.svg) ) för den målgrupp du vill kopiera och klickar sedan på **[!UICONTROL Duplicate]**. Sedan kan ni redigera målgruppen för att skapa en liknande målgrupp.
 
 1. Skriv ett unikt, beskrivande målgruppsnamn och en valfri beskrivning.
 
@@ -55,7 +55,7 @@ Följande regel riktar sig till exempel till besökare som använder antingen Ch
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Dra och släpp önskade attribut från listan **[!UICONTROL Attributes]** till höger om målgruppsbyggaren.
+1. Dra och släpp önskade attribut från listan **[!UICONTROL Attributes]** till vänster i rutan för målgruppsverktyget.
 
    ![Dra och släpp attribut](assets/drag-attribute.png)
 
@@ -63,7 +63,7 @@ Följande regel riktar sig till exempel till besökare som använder antingen Ch
 
 1. Definiera regelparametrarna.
 
-   Följande målgrupp riktar sig till exempel till besökare från Utah som använder operativsystemet Macintosh.
+   Följande målgrupp riktar sig till exempel till besökare från Utah som använder operativsystemet [!DNL Macintosh].
 
    ![Utah/Macintosh-målgrupp](assets/adience-builder.png)
 

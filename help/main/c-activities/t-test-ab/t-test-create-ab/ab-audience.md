@@ -1,84 +1,67 @@
 ---
 keywords: målgrupp;utvalda målgrupper;välj målgrupp;Väljare
-description: Publiken avgör vilka besökare som läggs in i din Adobe [!DNL Target] -aktivitet.
+description: Definiera vilka webbplatsbesökare som går med i din Adobe [!DNL Target] aktivitet baserat på målgruppskriterier.
 title: Hur väljer jag en publik i en [!DNL Target] A/B-aktivitet?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
 # Välj målgrupp
 
-Publiken avgör vilka webbplatsbesökare som är registrerade i din [!DNL Adobe Target]-aktivitet.
+Publiken avgör vilka kvalificerade besökare som registreras i din [!DNL Adobe Target]-aktivitet.
 
->[!NOTE]
->
->Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+Steg [!UICONTROL Targeting] i det guidade arbetsflödet i tre delar när [en aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) skapas visas ett flödesdiagram som leder dig genom stegen för att tilldela en målgrupp och dess trafikprocent, välja trafikallokeringsmetod och ange trafikallokeringen för varje upplevelse i aktiviteten.
 
-1. Klicka på ikonen **[!UICONTROL Edit]** (den lodräta ellipsen) i rutan [!UICONTROL Audience] och klicka sedan på **[!UICONTROL Replace Audience]**.
+![Åtgärd för A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   ![Ersätt publik, alternativ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+Mer information om alla alternativ i flödesdiagrammet finns i [Skapa en A/B-testaktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Målgrupper väljs ut från målgruppsbiblioteket eller så kan du skapa en målgrupp som bara är aktiv. Målgruppsbiblioteket innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är fördefinierade som en del av [!DNL Target].
+## Välj en målgrupp för aktiviteten
 
-1. Välj eller skapa önskad målgrupp:
+1. Klicka på kontrollen **[!UICONTROL All Visitors]** för att välja en annan målgrupp för aktiviteten.
 
-   * Välj en målgrupp i biblioteket
-   * [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [Skapa en ny målgrupp](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [Skapa en målgrupp som bara är aktiv](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   [!UICONTROL All Visitors]-målgruppen är inställd som standard. Om du väljer en annan målgrupp visas dess namn längst till vänster.
 
    Välj standardvärdet [!UICONTROL All Visitors] för ett A/B-test utan specifik målgruppsanpassning.
 
-   Du kan också redigera eller kopiera en målgrupp genom att hålla markören över den önskade målgruppen i dialogrutan [!UICONTROL Add Audience], vilket visas nedan.
+   Den högra bildrutan visas, vilket gör att du kan lägga till eller ta bort en målgrupp och tilldela besökarprocenten för aktiviteten.
 
-   Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringar och sedan spara den som en ny målgrupp. Den här hovringsfunktionen finns även i andra aktivitetstyper.
+1. Om du vill ändra målgruppen klickar du på ikonen **[!UICONTROL Replace]** ( ![ikonen Ersätt](/help/main/assets/icons/Retweet.svg) ) i den högra ramen.
 
-   ![Målgruppshovring](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+1. I dialogrutan [!UICONTROL Add Audience] [väljer du önskad målgrupp](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) och klickar sedan på **[!UICONTROL Assign Audience]**.
 
-   När du skapar en målgrupp kan du välja en plats (mbox) och ange parametrar för den platsen. Under [!UICONTROL Custom Parameters] markerar du mbox och anger önskade parametrar.
+   Som standard är alla besökare er målgrupp. Men ni kan ändra målgruppen. Publiker väljs från [!UICONTROL Audience Library] eller så kan du skapa en målgrupp som bara innehåller aktiviteter. [!UICONTROL Audience Library] innehåller målgrupper som tidigare har definierats, inklusive några vanliga målgrupper som är fördefinierade som en del av [!DNL Target].
 
-   >[!NOTE]
-   >
-   >Publiken importeras automatiskt i bakgrunden när du öppnar målgruppslistan och de importerade målgrupperna är mer än tio minuter gamla.
+1. (Villkorligt) Klicka på **Kombinera publiker** för att [skapa en målgrupp som kombinerar flera målgrupper](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Villkorligt) Ange den procentandel kvalificerade besökare som ska inkluderas i aktiviteten.
+1. (Villkorligt) Om du vill skapa en ny publik som inte redan finns i [!UICONTROL Audience Library] klickar du på **Skapa publik**, definierar målgruppen och klickar sedan på **[!UICONTROL Done]**.
 
-   Du kan till exempel välja att ta med 50 % av alla besökare.
+   Under [målgruppsarbetsflödet](/help/main/c-target/c-audiences/audiences.md) kan du välja bland följande alternativ:
 
-   ![Målgruppsprocent](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   * **[!UICONTROL Audience Library]**: Skapa en målgrupp på begäran som sparas i [!UICONTROL Audience Library] som kan återanvändas i andra aktiviteter.
+   * **[!UICONTROL This activity only]**: Skapa en [aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) som inte har sparats i [!UICONTROL Audience Library] och som bara kan användas i den aktuella aktiviteten.
 
-   Du kan också välja att låta mål [tilldela trafik automatiskt](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+1. Klicka på **[!UICONTROL Visitor Percentage]** i den högra rutan och ange sedan hur många procent kvalificerade besökare som ska inkluderas i aktiviteten.
 
-## Utbildningsvideor
+1. När du är nöjd med målgruppen klickar du på **[!UICONTROL Next]** för att gå till det tredje steget i det guidade arbetsflödet i tre steg.
 
-I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
+>[!NOTE]
+>
+>Publiker importeras automatiskt i bakgrunden när du öppnar listan [!UICONTROL Audience] och de importerade målgrupperna är mer än tio minuter gamla.
 
-### Använda målgrupper i Adobe Target (6:21) ![märket Översikt](/help/main/assets/overview.png)
+## Visa information om en viss målgrupp
 
-I den här videon förklaras hur du använder målgrupper i [!DNL Target Standard/Premium].
+1. I dialogrutan [!UICONTROL Add Audiences] klickar du på ikonen **[!UICONTROL Information]** ( ![informationsikonen ](/help/main/assets/icons/InfoOutline.svg) ) bredvid en målgrupp för att visa information om den målgruppen, inklusive dess källa och attribut.
 
-* Förklara termen&quot;Målgrupp&quot;
-* Förklara de två sätt på vilka målgrupper används för optimering
-* Hitta målgrupper i publiklistan
-* Rikta en aktivitet mot en målgrupp
-* Använd målgrupper för passiv rapportering i en aktivitet
+1. Klicka på **[!UICONTROL View Full Details]** om du vill visa mer information om målgruppen. Detaljerna innehåller publikens attribut, målgruppens beskrivning, arbetsyta, typ och källa samt en lista över aktiviteter som refererar till den här målgruppen. Du kan visa information om varje målgrupp, inklusive aktivitetsnamn, status, arbetsyta och när målgruppen senast ändrades och av vem.
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+## Redigera eller kopiera en målgrupp
 
-### Aktivitetsarbetsflöde - Målinriktning (2:14) ![Självstudiekurs](/help/main/assets/tutorial.png)
+Du kan redigera eller kopiera en målgrupp genom att klicka på ikonen [!UICONTROL More Actions] ( ![Fler åtgärder ](/help/main/assets/icons/More.svg) ) bredvid den önskade målgruppen i dialogrutan [!UICONTROL Add Audience] och sedan klicka på [!UICONTROL Edit] eller [!UICONTROL Copy].
 
-Den här videon innehåller information om hur du konfigurerar målgrupper.
-
-* Tilldela en målgrupp till din aktivitet
-* Begränsa trafiken uppåt eller nedåt
-* Välj trafikallokeringsmetod
-* Fördela trafik mellan olika upplevelser
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-Mer information finns i [Publiker](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Det är praktiskt att kopiera en målgrupp om du vill skapa en liknande målgrupp som en befintlig målgrupp. Ni kan göra en kopia av målgruppen, göra redigeringar och sedan spara den som en ny målgrupp.

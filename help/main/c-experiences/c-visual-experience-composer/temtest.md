@@ -4,9 +4,9 @@ description: Lär dig hur du använder Adobe [!DNL Target] Visual Experience Com
 title: Kan jag inkludera samma upplevelse på liknande sidor?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ För att funktionen ska fungera på rätt sätt måste den användas på sidor s
 
 >[!IMPORTANT]
 >
->Om du använder den här funktionen för att ändra element mellan olika sidor kommer det troligtvis att leda till oväntade resultat.
+>Om du använder den här funktionen för att ändra element mellan olika sidor kan det leda till oväntade resultat.
 
 Du kan till exempel använda den här funktionen för att göra något av följande:
 
@@ -32,31 +32,29 @@ Du kan ange sidor som innehåller ändringselementen eller tillämpa ändringen 
 
 1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Om du vill ange på vilka sidor upplevelsen ska visas klickar du på kugghjulsikonen i [!UICONTROL Visual Experience Composer] (VEC) och väljer sedan **[!UICONTROL Page Delivery]**.
+1. Om du vill ange vilka sidor som upplevelsen ska visas på klickar du på ikonen [!UICONTROL Configure] ( ![Konfigurera ikon](/help/main/assets/icons/Setting.svg) ) i [!UICONTROL Visual Experience Composer] (VEC) och väljer sedan **[!UICONTROL Page Delivery]**.
 
-   ![Kugghjulsikon > Sidleverans](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
-
-1. Klicka på **[!UICONTROL Add Template Rule]** och ange sedan villkoren för sidorna som du vill lägga till upplevelsen i.
+1. Klicka på **[!UICONTROL Add Rule]** och ange sedan villkoren för sidorna som du vill lägga till upplevelsen i.
 
 1. Ange sidintervall. Sidintervallet kan vara något av följande:
 
-   * URL (Mer information om hur Target utvärderar URL:er finns i [Vanliga frågor om mål och målgrupper](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-   * Domän
-   * Bana
-   * Hash-fragment (#) (ange den del av en URL som följer efter symbolen # som mål.)
-   * Fråga
-   * Parameter
+   * [!UICONTROL URL] (Mer information om hur [!DNL Target] utvärderar URL:er finns i [Vanliga frågor om mål och målgrupper](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * [!UICONTROL Domain]
+   * [!UICONTROL Path]
+   * [!UICONTROL Hash (#) Fragment] (ange den del av en URL som följer efter #-symbolen som mål.)
+   * [!UICONTROL Query]
+   * [!UICONTROL Custom]
 
 1. Välj en operator.
 
    Operatorn anger hur objekten efter operatorn relaterar till sidintervallet. Tillgängliga operatorer:
 
-   * Innehåller
-   * Innehåller inte
-   * Är (skiftlägeskänsligt)
-   * Är inte
-   * Börjar med
-   * Slutar med
+   * [!UICONTROL Contains]
+   * [!UICONTROL Does not contain]
+   * [!UICONTROL Is (case sensitive)]
+   * [!UICONTROL Is not]
+   * [!UICONTROL Starts with]
+   * [!UICONTROL Ends with]
 
 1. Skriv strängarna som definierar var upplevelsen läggs till, till exempel domänen eller strängarna som finns i sidnamnet.
 
@@ -68,7 +66,7 @@ Du kan ange sidor som innehåller ändringselementen eller tillämpa ändringen 
    >
    >Flera objekt använder ELLER-logik, vilket innebär att villkoret är sant för alla objekt i listan.
 
-1. Om du vill kan du ange ytterligare villkor genom att klicka på **[!UICONTROL Add Template Rule]** och upprepa proceduren i föregående steg.
+1. Om du vill kan du ange ytterligare villkor genom att klicka på **[!UICONTROL Add Rule]** och upprepa proceduren i föregående steg.
 
    Flera villkor förenas med AND-logik. [!DNL Target] lägger till upplevelsen på alla sidor som matchar det angivna villkoret.
 
@@ -90,21 +88,8 @@ Du kan överväga att använda mallregler för att återge samma aktivitet i hel
 
 1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Om du vill ange den domän där upplevelsen ska visas klickar du på kugghjulsikonen i Visual Experience Composer och väljer sedan **[!UICONTROL Page Delivery]**.
+1. Om du vill ange den domän där upplevelsen visas klickar du på ikonen [!UICONTROL Configure] ( ![Konfigurera ikon](/help/main/assets/icons/Setting.svg) ) i [!UICONTROL Visual Experience Composer] och väljer sedan **[!UICONTROL Page Delivery]**.
 
-1. Klicka på **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
+1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**.
 
 1. Välj **[!UICONTROL Contains]** i listrutan **[!UICONTROL Choose evaluator]** och ange sedan domänen.
-
-   ![Domänen innehåller](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
-
-## Utbildningsvideo: Visual Experience Composer (2 av 2) (7:29) ![Tutorial badge](/help/main/assets/tutorial.png)
-
-* Byta namn på och duplicera en upplevelse
-* Skapa en omdirigeringsupplevelse
-* Anpassa en aktivitet till en enskild URL-adress eller en grupp URL-adresser
-* Skapa en flersidig aktivitet
-* Förgranska och skapa upplevelser för responsiva webbplatser
-* Använda övertäckningar för att markera typer av element
-
->[!VIDEO](https://video.tv.adobe.com/v/17401)

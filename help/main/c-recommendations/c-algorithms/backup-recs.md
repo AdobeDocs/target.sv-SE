@@ -1,20 +1,20 @@
 ---
 keywords: rekommendation;säkerhetskopia;säkerhetskopiera
-description: Lär dig hur du använder rekommendationer för säkerhetskopiering i Adobe [!DNL Target] Recommendations. Rekommendationer som inte har tillräckligt många rekommenderade objekt visar resultatet av säkerhetskopieringsalgoritmen.
-title: Hur använder jag en rekommendation för säkerhetskopiering i Recommendations?
+description: Lär dig hur du använder rekommendationer för säkerhetskopiering i Adobe [!DNL Target Recommendations].
+title: Hur använder jag en rekommendation för säkerhetskopiering i  [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # Använd en rekommendation för säkerhetskopiering
 
-Om du använder funktionen för rekommenderad säkerhetskopiering i [!DNL Adobe Target] kommer standardinnehåll inte att visas i rekommendationer som inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
+Om du använder funktionen för rekommenderad säkerhetskopiering i [!DNL Adobe Target], visas inte standardinnehåll om du rekommenderar att du inte har tillräckligt många rekommenderade objekt. Rekommendationer visar i stället resultatet av säkerhetskopieringsalgoritmen.
 
 Om du inte använder en rekommendation för säkerhetskopiering och en rekommendation inte har tillräckligt många objekt för att fylla skärmen, visas standardinnehållet för användaren.
 
@@ -22,11 +22,11 @@ Om du inte använder en rekommendation för säkerhetskopiering och en rekommend
 >
 >Ytterligare information finns i avsnittet [Innehåll i avsnittet Skapa villkor](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), inklusive en matris som förklarar resultaten du kommer att se när du använder alternativen [!UICONTROL Partial Design Rendering] och [!UICONTROL Show Backup Recommendations] tillsammans eller separat.
 
-Funktionen för rekommendation av säkerhetskopiering använder alltid de mest visade objekten på webbplatsen för att fylla i återstående platser efter att algoritmens data har använts. Mallen är till exempel konfigurerad att visa fem rekommenderade objekt och du använder algoritmen *Inköpstillhörigheter*. Men du har bara tillräckligt med data för att fylla två av de fem kortplatserna, så funktionen för rekommendation av säkerhetskopiering fyller de andra tre platserna med toppvisade objekt.
+Funktionen för rekommendation av säkerhetskopiering använder alltid de mest visade objekten på webbplatsen för att fylla i eventuella återstående platser efter att algoritmens data har använts. Mallen är till exempel konfigurerad att visa fem rekommenderade objekt och du använder algoritmen *Inköpstillhörigheter*. Men du har bara tillräckligt med data för att fylla två av de fem kortplatserna, så funktionen för rekommendation av säkerhetskopiering fyller de andra tre platserna med toppvisade objekt.
 
 Rekommendationer för säkerhetskopiering väljs slumpmässigt bland de 500 mest visade produkterna på hela webbplatsen. Datatidperioden för rekommendationer för säkerhetskopiering är en vecka.
 
-De 500 mest visade resultaten ordnas sekventiellt och delas sedan upp i grupper om 20. Facken serveras i ordning, men resultaten inom varje hink slumpmässigt och returneras till sidan. Om användarna uppdaterar sidan visas nya, slumpmässiga resultat. Om resultatmängden från samlingens union och filtreringsreglerna är mindre än 20, väljs den slumpmässigt från samlingen.
+De 500 mest visade resultaten ordnas sekventiellt och delas sedan upp i grupper om 20. Facken serveras i ordning, men resultaten inom varje hink slumpmässigt och returneras till sidan. Om användarna uppdaterar sidan visas nya, slumpmässiga resultat. Om resultatmängden från samlingens union och filtreringsreglerna är mindre än 20 väljs de slumpmässigt från samlingen.
 
 Denna låsningsprocess innebär att rekommendationer för säkerhetskopiering visas i följande ordning:
 

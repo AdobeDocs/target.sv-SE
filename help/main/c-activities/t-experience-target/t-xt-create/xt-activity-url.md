@@ -4,9 +4,9 @@ description: Lär dig hur du anger den [!UICONTROL Activity URL] som avgör vilk
 title: Vad är [!UICONTROL Activity URL] i en [!UICONTROL Experience Targeting] (XT) aktivitet?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 24513d8cb39d38dcfbc74bf40961d5517cc90a4b
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 0%
 
 1. (Villkorligt) Om du vill visa en annan sida efter att VEC har öppnats klickar du på **[!UICONTROL Configure]**, väljer **[!UICONTROL Page Delivery]** och anger sedan URL:en i fältet [!UICONTROL URL].
 
-   ![Dialogrutan Sidleverans](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
-
    >[!NOTE]
    >
    >Om du ändrar URL:en efter att ha gjort ändringar på en sida för en eller flera upplevelser, återställs upplevelsen med den nya sidan och ändringarna du gjorde går förlorade.
 
-1. (Villkorligt) Klicka på **[!UICONTROL Add Template Rule]** om du vill lägga till fler sidor eller avsnitt i aktiviteten.
+1. (Villkorligt) Klicka på **[!UICONTROL Add Rule]** om du vill lägga till fler sidor eller avsnitt i aktiviteten.
 
    Ytterligare regler kan baseras på något av följande:
 

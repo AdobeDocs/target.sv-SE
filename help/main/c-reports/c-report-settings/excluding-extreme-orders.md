@@ -4,7 +4,7 @@ description: Lär dig hur du exkluderar extrema värden från att påverka rappo
 title: Hur utesluter jag extrema värden i rapporter?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -29,10 +29,8 @@ När ett värde är markerat som extremt ersätts dess ordervärde med det genom
 
 **Så här exkluderar du extrema värden från dina rapporter:**
 
-1. Öppna en aktivitet som innehåller mättyper för Intäkter eller engagemang och klicka sedan på fliken **[!UICONTROL Reports]**.
-1. Klicka på kugghjulsikonen för att visa dialogrutan **[!UICONTROL Settings]**.
-
-   ![Stegresultat](assets/exclude_extreme_values.png)
+1. Öppna en aktivitet som innehåller [!UICONTROL Revenue] eller [!UICONTROL Engagement] mätningstyper och klicka sedan på fliken **[!UICONTROL Reports]**.
+1. Klicka på ikonen Rapportinställningar ( ![ikonen Rapportinställningar](/help/main/assets/icons/Setting.svg) ) för att visa dialogrutan **[!UICONTROL Settings]**.
 
 1. Dra **[!UICONTROL Exclude Extreme Values]**-växeln till läget&quot;på&quot; eller&quot;av&quot; efter behov.
 1. Klicka på **[!UICONTROL Save]**.

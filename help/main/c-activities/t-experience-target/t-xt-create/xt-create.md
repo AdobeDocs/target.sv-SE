@@ -4,9 +4,9 @@ description: Lär dig hur du använder [!UICONTROL Visual Experience Composer] (
 title: Hur skapar jag en [!UICONTROL Experience Targeting]-aktivitet?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,13 @@ Mer information om [!UICONTROL Experience Targeting], ett användningsscenario o
 
 1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]** i listan [!UICONTROL Activities].
 
-   ![Skapa aktivitet > Upplevelsemål](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
-
    >[!NOTE]
    >
-   >Vilka aktivitetstyper som är tillgängliga beror på ditt [!DNL Target]-konto. Vissa aktivitetstyper kanske inte visas i listan. [!UICONTROL Automated Personalization] är till exempel en [målpremiumfunktion](/help/main/c-intro/intro.md#premium).
+   >Vilka aktivitetstyper som är tillgängliga beror på ditt [!DNL Target]-konto. Vissa aktivitetstyper kanske inte visas i listan. [!UICONTROL Automated Personalization] är till exempel en [Target Premium-funktion](/help/main/c-intro/intro.md#premium).
    >
    >Mer information om de olika aktivitetstyperna i [!DNL Target] och skillnaderna mellan dem finns i [Aktiviteter](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Se [Målaktivitetstyper](/help/main/c-activities/target-activities-guide.md) som hjälper dig att avgöra vilken aktivitetstyp som bäst uppfyller dina behov.
 
-1. Välj **[!UICONTROL Visual (Default)]** om det behövs.
+1. Välj **[!UICONTROL Visual]** om det behövs.
 
    Om du föredrar att använda [formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md) väljer du [!UICONTROL Form].
 
@@ -53,11 +51,7 @@ Mer information om [!UICONTROL Experience Targeting], ett användningsscenario o
 
    VEC-filen öppnas och den sida som anges i URL-adressen visas.
 
-   ![Upplev målaktiviteter i VEC](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
-
-1. Ange ett namn för aktiviteten i det angivna utrymmet.
-
-   ![Namnfält](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 

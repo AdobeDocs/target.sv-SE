@@ -1,13 +1,13 @@
 ---
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning
-description: Lär dig hur en [!UICONTROL Auto-Target]-aktivitet i [!DNL Target] ger den mest anpassade upplevelsen för varje besökare baserat på kundprofiler och beteendet hos liknande besökare.
+description: Lär dig hur en [!UICONTROL Auto-Target]-aktivitet ger varje besökare den mest anpassade upplevelsen baserat på kundprofiler och beteendet hos liknande besökare.
 title: Vad är en [!UICONTROL Auto-Target]-aktivitet?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Läs mer om hur du använder [!UICONTROL Auto-Target] för att öka lyft och int
 
 När du [skapar en A/B-aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) med det guidade arbetsflödet i tre steg, väljer du alternativet **[!UICONTROL Auto-Target for personalized experiences]** på sidan **[!UICONTROL Targeting]** (steg 2).
 
-![Automatiskt mål för personaliserade upplevelser ](/help/main/c-activities/assets/auto-target-ui-new.png)
+![Inställningar för trafikallokeringsmetod](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 Alternativet [!UICONTROL Auto-Target] i A/B-aktivitetsflödet gör att du kan anpassa maskininlärningen utifrån en uppsättning marknadsföringsdefinierade upplevelser med ett klick. [!UICONTROL Auto-Target] är utformat för att leverera maximal optimering, jämfört med traditionell A/B-testning eller [!UICONTROL Auto Allocate], genom att avgöra vilken upplevelse som ska visas för varje besökare. Till skillnad från en A/B-aktivitet där målet är att hitta en enskild vinnare, avgör [!UICONTROL Auto-Target] automatiskt den bästa upplevelsen för en viss besökare. Den bästa upplevelsen bygger på besökarens profil och annan sammanhangsbaserad information för att leverera en mycket personaliserad upplevelse.
 
@@ -52,7 +52,7 @@ Det finns några viktiga saker att tänka på när du använder [!UICONTROL Auto
 
   Trafik från en andra uppsättning modeller byggs för varje modellgrupp (AP) eller upplevelse (AT). För var och en av dessa modeller beaktas träffar och konverteringar i alla miljöer.
 
-  Förfrågningar hanteras med samma modell, oavsett miljö, men trafikens mångfald bör komma från standardmiljön för att säkerställa att den identifierade övergripande vinnande upplevelsen överensstämmer med verkliga beteenden.
+  Förfrågningar hanteras med samma modell, oavsett miljö. Den mångsidiga trafiken bör dock komma från standardmiljön för att säkerställa att den identifierade övergripande vinnarupplevelsen överensstämmer med det verkliga beteendet.
 
 * Använd minst två upplevelser.
 
@@ -82,21 +82,21 @@ Beroende på vad din aktivitet har för mål kan du välja en annan trafikförde
 
 I listrutan [!UICONTROL Custom Allocation] kan du välja mellan följande alternativ:
 
-* [!UICONTROL Evaluate Personalization Algorithm]
-* [!UICONTROL Maximize Personalization Traffic]
+* [!UICONTROL Evaluate Personalization Algorithm (50/50)]
+* [!UICONTROL Maximize Personalization Traffic (90/10)]
 * [!UICONTROL Custom Allocation]
 
-![Listruta för allokeringsmål](/help/main/c-activities/assets/split-new.png)
+![Listruta för allokeringsmål](/help/main/c-activities/assets/split-new-ui.png)
+
+I följande tabell förklaras de tre alternativen:
 
 | Aktivitetsmål | Föreslagen trafikallokering | Överlåtelser |
 |--- |--- |--- |
-| **Utvärdera Personalization-algoritm (50/50)**: Om ditt mål är att testa algoritmen använder du en 50/50-procentig delning av besökare mellan kontrollen och målalgoritmen. Denna delning ger den mest korrekta uppskattningen av hissen. Föreslagna för användning med&quot;slumpmässiga upplevelser&quot; som er kontroll. | 50 % kontroll/50 % personlig upplevelsedelning | <ul><li>Maximerar lyften mellan kontroll och personalisering</li><li>relativt färre besökare har en personaliserad upplevelse</li></ul> |
-| **Maximera Personalization-trafik (90/10)**: Om målet är att skapa en&quot;alltid på&quot;-aktivitet ska 10 % av besökarna kontrolleras för att se till att det finns tillräckligt med data för att algoritmerna ska kunna fortsätta lära sig över tid. Hantverket här är att i utbyte mot att personalisera en större andel av trafiken har ni mindre precision i det exakta lyftet. Oavsett vilket mål du har är detta den rekommenderade trafikdelningen när du använder en specifik upplevelse som kontroll. | Det bästa sättet är att använda en 10-30 % kontroll/70-90 % personaliserad upplevelsedelning | <ul><li>Maximerar antalet besökare som har en personaliserad upplevelse</li><li>Maximerar lyft</li><li>Mindre noggrannhet vad hissen är för aktiviteten</li></ul> |
+| **[!UICONTROL Evaluate Personalization Algorithm (50/50)]**: Om ditt mål är att testa algoritmen ska du använda en 50/50-procentig delning av besökare mellan kontrollen och målalgoritmen. Denna delning ger den mest korrekta uppskattningen av hissen. Föreslagna för användning med&quot;slumpmässiga upplevelser&quot; som er kontroll. | 50 % kontroll/50 % personlig upplevelsedelning | <ul><li>Maximerar lyften mellan kontroll och personalisering</li><li>relativt färre besökare har en personaliserad upplevelse</li></ul> |
+| **[!UICONTROL Maximize Personalization Traffic (90/10)]**: Om ditt mål är att skapa en alltid aktiverad aktivitet ska 10 % av besökarna ha kontrollen för att se till att det finns tillräckligt med data för att algoritmerna ska kunna fortsätta lära sig över tid. Hantverket här är att i utbyte mot att personalisera en större andel av trafiken har ni mindre precision i det exakta lyftet. Oavsett vilket mål du har är detta den rekommenderade trafikdelningen när du använder en specifik upplevelse som kontroll. | Det bästa sättet är att använda en 10-30 % kontroll/70-90 % personaliserad upplevelsedelning | <ul><li>Maximerar antalet besökare som har en personaliserad upplevelse</li><li>Maximerar lyft</li><li>Mindre noggrannhet vad hissen är för aktiviteten</li></ul> |
 | **Anpassad allokering** | Dela procentandelen manuellt efter behov. | <ul><li>Du kanske inte uppnår det önskade resultatet. Om du är osäker kan du följa förslagen för något av de föregående alternativen</li></ul> |
 
-Om du vill justera procentandelen [!UICONTROL Control] klickar du på ikonerna i kolumnen [!UICONTROL Allocation]. Du kan inte minska kontrollgruppen till mindre än 10 %.
-
-![Ändra automatiskt måltrafikallokering](/help/main/c-activities/assets/auto-target-control.png)
+Om du vill justera procentandelen för [!UICONTROL Control] klickar du på [!UICONTROL Experiences] i rutan [!UICONTROL Traffic Allocation] och justerar sedan procentsatserna efter behov. Du kan inte minska kontrollgruppen till mindre än 10 %.
 
 Du kan [välja en specifik upplevelse som ska användas som kontroll](/help/main/c-activities/t-automated-personalization/experience-as-control.md) eller använda alternativet Slumpmässig upplevelse.
 
@@ -113,7 +113,7 @@ Det finns flera scenarier där du kanske föredrar att använda [!UICONTROL Auto
 ### Algoritmen optimerar för ett positivt resultat vid varje besök.
 
 * Algoritmen förutser besökarens benägenhet för konvertering (eller beräknade intäkter från konvertering) för att ge bästa möjliga upplevelse.
-* En besökare är berättigad till en ny upplevelse vid slutet av en befintlig session (såvida inte besökaren är i kontrollgruppen, i vilket fall den upplevelse som besökaren tilldelas vid det första besöket förblir densamma för efterföljande besök).
+* En besökare är berättigad till en ny upplevelse vid slutet av en befintlig session (såvida inte besökaren är i kontrollgruppen, i vilket fall upplevelsen som besökaren tilldelas vid det första besöket förblir densamma för efterföljande besök).
 * Under en session ändras inte förutsägbarheten, vilket ger en bättre visuell enhetlighet.
 
 ### Algoritmen anpassas till förändringar i besökarens beteende.
@@ -158,20 +158,8 @@ För [!UICONTROL Auto-Target] kan enkla tumregler användas för att förstå tr
 ### [!UICONTROL Auto-Target] tillhandahåller ett omfattande ramverk för onlinetestning.
 
 * Flerarmsbanken ingår i ett större ramverk för onlinetestning som gör att [!DNL Adobe] datavetare och forskare kan förstå fördelarna med sina kontinuerliga förbättringar i verkliga förhållanden.
-* I framtiden kommer denna testbädd att tillåta oss att öppna [!DNL Adobe] maskininlärningsplattform för datagunda klienter så att de kan ta in sina egna modeller för att förstärka [!DNL Target]-modellerna.
+* I framtiden kommer denna testbädd att göra det möjligt för oss att öppna maskininlärningsplattformen [!DNL Adobe] för dataskunniga klienter så att de kan ta in sina egna modeller för att förstärka [!DNL Target]-modellerna.
 
 ## Rapportering och [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 Mer information finns i [Rapportering och Automatiskt mål](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
-
-## Utbildningsvideo: Förstå aktiviteter med automål
-
-I den här videon förklaras hur du konfigurerar en [!UICONTROL Auto-Target] A/B-aktivitet.
-
-När du är klar med kursen bör du kunna:
-
-* Definiera [!UICONTROL Auto-Target]-testning
-* Jämför och kontrastera [!UICONTROL Auto-Target] med [!UICONTROL Automated Personalization]
-* Skapa [!UICONTROL Auto-Target] aktiviteter
-
->[!VIDEO](https://video.tv.adobe.com/v/18558)

@@ -5,9 +5,9 @@ title: Hur använder jag Automated Personalization Sammanfattningsrapporter?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Specialiserade sammanfattningsrapporter är tillgängliga för användare av [!U
 
 1. Klicka på **[!UICONTROL Activities]**, klicka på önskad [!UICONTROL Automated Personalization]-aktivitet i listan och klicka sedan på fliken **[!UICONTROL Reports]**.
 
-   Om du har många aktiviteter kan du filtrera listan genom att välja [!UICONTROL Automated Personalization] i listrutan [!UICONTROL Type].
+   Om du har många aktiviteter klickar du på ikonen Filter ( ![Filterikon](/help/main/assets/icons/Filter.svg) ) för att filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] och [!UICONTROL Activity Source] .
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** för att hämta sammanfattningsvyn (till exempel för att jämföra trafik med styrning och mål) uppdelat efter alla tillgängliga framgångsmått.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** ( ![ ikonen Hämta ](/help/main/assets/icons/Download.svg) ) för att hämta sammanfattningsvyn (till exempel en jämförelse av Kontroll- och Riktad trafik) uppdelad efter alla tillgängliga framgångsmått.
 
 [!UICONTROL Automated Personalization] innehåller följande rapporter:
 
@@ -37,8 +37,6 @@ Specialiserade sammanfattningsrapporter är tillgängliga för användare av [!U
 
 Rapporten [!UICONTROL Activity Level] jämför den sammanställda prestandan för användning av en [!UICONTROL Automated Personalization]-algoritm med slumpmässigt hanterat innehåll (kontroll).
 
-![Aktivitetsnivårapport](/help/main/c-reports/assets/box_plot_ap.png)
-
 Standardreglerna för resultattolkning för A/B-tester gäller fortfarande, inklusive lyft, förtroende, trender, varaktighet och så vidare. Mer information om hur du tolkar resultat finns i [Statistiska beräkningar i A/Bn-tester](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Erbjudandenivårapport {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -46,8 +44,6 @@ Standardreglerna för resultattolkning för A/B-tester gäller fortfarande, inkl
 I rapporten [!UICONTROL Offer Level] för funktionen Slumpmässig skog jämförs prestandan för varje algoritmtillämpat erbjudande med samma slumpmässiga erbjudande (Kontroll). Erbjudandena bör därför inte jämföras med varandra i denna vy.
 
 Klicka på upplevelsealgoritmen (Slumpmässig skog eller kontroll) för att visa [!UICONTROL Offer Level]-rapporten.
-
-![Erbjudandenivårapport i Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -59,15 +55,11 @@ Erbjudanden kan visas i [rapporteringsgrupper](/help/main/c-activities/t-automat
 
 Klicka på ikonen [!UICONTROL Automated Segments]. Den här rapporten visar hur olika besökare svarar annorlunda på erbjudanden/upplevelser i din AP/AT-aktivitet. Den här rapporten visar hur olika automatiserade segment som definierats av Target personaliseringsmodeller svarade på erbjudandena/upplevelserna i aktiviteten.
 
-![Ikon för automatiserade segment](/help/main/c-reports/assets/icon-automated-sements-ap.png)
-
 Mer information finns i [Rapporten om automatiserade segment](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Viktiga attribut
 
 Klicka på ikonen [!UICONTROL Important Attributes]. Den här rapporten visar hur olika attribut är viktigare (eller mindre) i olika aktiviteter för hur modellen bestämmer sig för att personalisera. Den här rapporten visar de viktigaste attributen som påverkade modellen och deras relativa betydelse.
-
-![Ikon för viktiga attribut](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 Mer information finns i [Rapport om viktiga attribut](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

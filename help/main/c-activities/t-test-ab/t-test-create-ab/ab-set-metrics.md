@@ -1,12 +1,12 @@
 ---
 keywords: A/B;aktivitetsmått;mätvärden;ange mått;målmått;aktivitetsinställningar;framgångsmått;konvertering;intäkt;engagemang
-description: Lär dig hur du anger mätvärden i en [!DNL Adobe Target] A/B-aktivitet för att avgöra när ett besök lyckas, till exempel [!UICONTROL Conversion], [!UICONTROL Revenue] och [!UICONTROL Engagement].
+description: Upptäck hur du ställer in mätvärden i en A/B-aktivitet för att avgöra om besöket lyckades, inklusive [!UICONTROL Conversion], [!UICONTROL Revenue] och [!UICONTROL Engagement].
 title: Hur ställer jag in målvärden i en A/B-aktivitet?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,7 @@ Använd mätvärden i en [!DNL Adobe Target] A/B-aktivitet för att avgöra när
 
 Mer information om framgångsmått finns i [Framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. Välj ett [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) i avsnittet **[!UICONTROL Reporting Settings]** på sidan **[!UICONTROL Goals & Settings]**
-
-   ![Välj framgångsmått](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
+1. Välj ett [framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) i avsnittet **[!UICONTROL Reporting Settings]** på sidan **[!UICONTROL Goals & Settings]**.
 
    Alternativet [!UICONTROL Select Metrics] visar de framgångsmått som du kan välja för din aktivitet. Resultaten delas in i följande kategorier:
 
@@ -53,13 +51,3 @@ När du namnger eller byter namn på ett mätresultat tillåts inte följande te
 | + | Plus |
 | - | Minus |
 | @ | Vid tecken |
-
-## Utbildningsvideo: Aktivitetsmått (7:43) ![Självstudiekursens badge](/help/main/assets/tutorial.png)
-
-Den här videon innehåller information om hur du arbetar med framgångsmått.
-
-* Förstå målvärden
-* Förstå och bygga mått för konvertering, intäkter och engagemang
-* Bygg ett klickspårningsmått
-
->[!VIDEO](https://video.tv.adobe.com/v/17380)

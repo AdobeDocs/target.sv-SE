@@ -4,9 +4,9 @@ description: Utforska de tillgängliga alternativen i  [!DNL Adobe Target] [!UIC
 title: Hur använder jag alternativen för [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -17,23 +17,104 @@ När du klickar på ett sidelement i [!DNL Adobe Target] [!UICONTROL Visual Expe
 
 De olika [!UICONTROL Visual Experience Composer]-åtgärderna (VEC) grupperas i lämpliga menyalternativ för att göra jobbet snabbare och effektivare:
 
-![VEC-alternativmenyn](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
+![VEC-alternativmenyn](/help/main/c-experiences/c-visual-experience-composer/assets/vec-options.png)
 
 >[!NOTE]
 >
->Vilka alternativ som är tillgängliga beror på vilken typ av aktivitet du skapar eller redigerar.
+>Vilka alternativ som är tillgängliga beror på vilken aktivitetstyp och vilket element du skapar eller redigerar. Följande avsnitt innehåller information om de olika alternativen för bilder och text.
 
-## [!UICONTROL Edit]
+## Bildalternativ
 
-Följande alternativ är tillgängliga:
+Om du klickar på en bild i en [!UICONTROL A/B Test]-aktivitet ser VEC ut så här:
 
-### [!UICONTROL Text/HTML] {#edit-text-html}
+![VEC med bild markerad](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
 
-Ändra HTML-koden för elementet, till exempel texten för ett textområde, en knapp eller en länk.
+Välj komponenter i komponentbildrutan till vänster om du vill infoga följande element:
+
+* Grundläggande (avgränsare, HTML, bild).
+* Text (rubrik, stycke, länk).
+* Dynamisk ([rekommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML).
+
+Med menyn längst upp i bilden kan du göra följande:
+
+* Infoga en länk ( ![Infoga länkikon](/help/main/assets/icons/Link.svg) ).
+* Ändra bilden ( ![Välj bildikon](/help/main/assets/icons/Images.svg) ).
+* Lägg till personalisering ( ![Lägg till Personalization-ikon](/help/main/assets/icons/PersonalizationField.svg) ).
+* Ta bort bilden ( ![ikonen Ta bort](/help/main/assets/icons/Delete.svg) ).
+
+Bildrutan till höger gör att du kan konfigurera bildens egenskaper ytterligare.
+
+Med ikonerna längst upp i bildrutan kan du göra följande:
+
+* Redigera HTML ( ![ikonen Infoga HTML](/help/main/assets/icons/Code.svg) ). Mer information finns i [Redigera HTML](#html) nedan.
+* Duplicera bilden ( ![Duplicera ikon](/help/main/assets/icons/Code.svg) ).
+* Ta bort bilden ( ![ikonen Ta bort](/help/main/assets/icons/Delete.svg) ).
+* Dölj bilden ( ![Dölj ikon](/help/main/assets/icons/VisibilityOff.svg) ).
+
+Med alternativen i den högra ramen kan du göra följande:
+
+* Redigera CSS-klassen.
+* Konfigurera bildens egenskaper (källa, rubrik, alt-text).
+* Redigera länkens URL.
+* Konfigurera bildens storlek (höjd och bredd). Klicka på [!UICONTROL Show Advanced Options] om du vill konfigurera bildens minsta och största storlek, bredd, höjd, spill och objektpassning.
+* Konfigurera bildens position på sidan (absolut, fast, relativ, statisk eller klisterkänslig).
+* Konfigurera elementets avstånd, inklusive marginal och utfyllnad.
+* Konfigurera elementets effekter (opacitet). Klicka på [!UICONTROL Show Advanced Options] om du vill konfigurera värdena för sepia, gråskala, kontrast, intensitet och oskärpa i bilden. Du kan också invertera eller rotera bilden.
+* Konfigurera bildens textbundna format.
+
+## Textalternativ
+
+Om du klickar på text i en [!UICONTROL A/B Test]-aktivitet ser VEC ut så här:
+
+![VEC med markerad text](/help/main/c-experiences/c-visual-experience-composer/assets/vec-text.png)
+
+Välj komponenter i bildrutan [!UICONTROL Components] till vänster om du vill infoga följande element:
+
+* Grundläggande (avgränsare, HTML, bild).
+* Text (rubrik, stycke, länk).
+* Dynamisk ([rekommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML).
+
+Klicka på ikonen [!UICONTROL Show Modifications] ( ![ ikonen Visa ändringar ](/help/main/assets/icons/History.svg) ) för att visa ändringarna av upplevelsen.
+
+Med menyn längst upp i textelementet kan du göra följande:
+
+* Konfigurera textens egenskaper (rubriknivå, stycke, blockcitat eller fast teckenbredd)
+* Markera textens färg ( ![ikonen Textfärg](/help/main/assets/icons/TextColor.svg) )
+* Konfigurera textens attribut (fet, kursiv, understruken eller genomstruken) ( ![Välj ikonen för textattribut](/help/main/assets/icons/Text.svg) ).
+* Konfigurera textens justering (vänster, mitten, höger, justera) ( ![Textjusteringsikon](/help/main/assets/icons/TextAlignCenter.svg) ).
+* Infoga en länk ( ![Infoga länkikon](/help/main/assets/icons/Link.svg) ).
+* Ersätt innehållet med ett HTML-erbjudande, [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) eller [Rekommendation]/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Redigera HTML ( ![ikonen Infoga HTML](/help/main/assets/icons/Code.svg) ).
+* Lägg till personalisering ( ![Lägg till Personalization-ikon](/help/main/assets/icons/PersonalizationField.svg) ).
+* Ta bort bilden ( ![ikonen Ta bort](/help/main/assets/icons/Delete.svg) ).
+
+Med ramen till höger kan du konfigurera textegenskaperna ytterligare.
+
+Med ikonerna längst upp i bildrutan kan du göra följande:
+
+* Redigera HTML ( ![ikonen Infoga HTML](/help/main/assets/icons/Code.svg) ). Mer information finns i [Redigera HTML](#html) nedan.
+* Duplicera texten ( ![Duplicera ikon](/help/main/assets/icons/Code.svg) ).
+* Ta bort texten ( ![ikonen Ta bort](/help/main/assets/icons/Delete.svg) ).
+* Dölj texten ( ![Dölj ikon](/help/main/assets/icons/VisibilityOff.svg) ).
+
+Med alternativen i den högra ramen kan du göra följande:
+
+* Redigera CSS-klassen.
+* Konfigurera textens bakgrundsfärg och bild.
+* Konfigurera textens typografi (rubrikformat, teckenstorlek, teckenbredd, radhöjd, justering, textfärg, textformat (fet, kursiv, understruken eller genomstruken)).
+* Konfigurera listor, inklusive punktlistor, numrerade listor eller A,B,C.
+* Välj kantfärg.
+* Konfigurera textrutans storlek (höjd och bredd). Klicka på [!UICONTROL Show Advanced Options] om du vill konfigurera textrutans minsta och största storlek, bredd, höjd, spill och objektpassning.
+* Konfigurera textrutans position på sidan (absolut, fast, relativ, statisk eller klisterkänslig) och ange antalet pixlar uppifrån, till höger, nedåt och till vänster.
+* Konfigurera elementets avstånd, inklusive marginal och utfyllnad.
+* Konfigurera elementets effekter (opacitet). Klicka på [!UICONTROL Show Advanced Options] om du vill konfigurera värdena för sepia, gråskala, kontrast, intensitet och oskärpa i bilden. Du kan också invertera eller rotera texten.
+* Konfigurera textbundna format.
+
+## Redigera HTML {#html}
 
 Förutom HTML-kod kan du redigera och mata in anpassad JavaScript.
 
-Flera formateringsalternativ för formaterad text är tillgängliga när du redigerar text och HTML för [!UICONTROL A/B]- och [!UICONTROL Experience Targeting]-aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och den avancerade redigeringsvyn för HTML.
+Flera formateringsalternativ för formaterad text är tillgängliga när du redigerar text och HTML för [!UICONTROL A/B]- och [!UICONTROL Experience Targeting]-aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och redigeringsvyn för HTML.
 
 Följande HTML5-taggar kan kapslas:
 
@@ -44,371 +125,394 @@ Följande HTML5-taggar kan kapslas:
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-### [!UICONTROL Background Color]
-
-Använd färgväljaren för att välja eller konfigurera en bakgrundsfärg. Du kan välja en färgruta och justera den med hjälp av RGB-värden eller färghexkoder. Det röda krysset i färgväljaren gör bakgrunden genomskinlig.
-
-**Obs!** Det här alternativet är inte tillgängligt för ett element där en bakgrundsbild har angetts.
-
-### [!UICONTROL Styles] {#styles}
-
-Använd panelen [!UICONTROL Styles] om du vill visa eller redigera värdet för befintliga format för det markerade elementet. Du kan också lägga till ytterligare format.
-
-Om du vill öppna panelen [!UICONTROL Styles] klickar du på ett sidelement i VEC och sedan på **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
-
-Panelen [!UICONTROL Styles] visas till höger om VEC. Panelen innehåller en lista med format som du kan använda för att redigera eller lägga till i det markerade elementet. Med en CSS-redigerare i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.
-
-![Panelen Format](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
-
-När du använder olika format kan du alltid återställa ändringarna genom att klicka på ikonen [!UICONTROL Revert] som visas i det övre högra hörnet av panelen [!UICONTROL Styles] när du har ändrat något avsnitt. Om du klickar på ikonen [!UICONTROL Revert] återställs alla ändringar på panelen för det aktuella avsnittet.
-
-Expandera varje avsnitt om du vill redigera eller lägga till format, vilket förklaras nedan. Om du vill spara ändringarna klickar du på ikonen [!UICONTROL Back] längst upp på panelen för att gå tillbaka till panelens huvudvy och klickar sedan på **[!UICONTROL Save]**.
-
-De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avsnittspanelerna anger att du har ändrat motsvarande format. Den här visuella indikatorn gör det enkelt för dig att granska dina ändringar innan du klickar på [!UICONTROL Save].
-
->[!NOTE]
->
->Snabbåtgärder för layoutändringar, bakgrundsfärg, storleksändring och flyttning finns också tillgängliga som separata åtgärder på VEC-menyn. Dessa alternativ kan användas som separata åtgärder eller så kan du använda menyn Format, vilket förklaras här.
-
-* **[!UICONTROL Background]**
-
-  Ändra bakgrundsfärg och bild.
-
-   * Färg (ange färgkoden eller använd färgväljaren)
-   * Bild (välj en bild i bildväljaren)
-   * Bildkälla (ange en extern URL)
-   * Bilaga
-      * Klicka på den övre listrutan för att välja rullning, fast eller lokal
-      * Klicka på den nedre listrutan för att välja upprepning, upprepning-x, upprepning-y, ingen upprepning, mellanrum eller rund
-   * Klipp
-      * Klicka på den övre listrutan för att välja kantlinje, utfyllnadslåda, innehållslåda eller text
-      * Klicka på den nedre listrutan för att välja automatiskt ljud eller ljud
-
-* **[!UICONTROL Typography]**
-
-  Ändra ett elements typografi. Det går snabbt och enkelt att redigera typografi.
-
-  Även om RTF-redigeraren (Redigera text/HTML) är tillgänglig för finjustering är snabbåtgärder för att ändra hela elementet tillgängliga med det här alternativet. Om du bara vill använda typografiska ändringar på en del av texten (inte på den fullständiga texten) använder du [RTF-redigeraren](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
-
-  Du kan redigera följande typografiska format:
-
-   * [!UICONTROL Font size]
-   * [!UICONTROL Font weight]
-   * [!UICONTROL Font style]
-   * [!UICONTROL Color] (ange färgkoden eller använd färgväljaren)
-   * [!UICONTROL Word spacing]
-   * [!UICONTROL Line height]
-   * [!UICONTROL Text alignment]
-
-* **[!UICONTROL Margin]**
-
-  Ändra marginalen för det markerade elementet. Du kan ändra marginalerna för vänster, höger, under och över.
-
-  Klicka på listruteikonen för varje marginal för att välja mellan följande alternativ:
-
-   * [!UICONTROL Auto]
-   * [!UICONTROL Value] (dra skjutreglaget för att ange marginalen eller ange antalet pixlar för varje marginal)
-
-  Marginalen har stöd för positiva och negativa värden.
-
-  Target har också stöd för andra storleksenheter, som rem, pc, em. Mer information om de här enheterna finns i [CSS-tips och -tricks för webbformatmallar](https://www.w3.org/Style/Examples/007/units.en.html).
-
-* **[!UICONTROL Padding]**
-
-  Ändra utfyllnaden för det markerade elementet. Du kan ändra utfyllnaden för vänster, höger, nederkant och överkant.
-
-  Ange utfyllnaden genom att dra i skjutreglaget eller ange antalet pixlar för utfyllnaden.
-
-  Utfyllnaden har stöd för breddskalor från 0 och framåt.
-
-  Målet har också stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), till exempel rem, pc, em.
-
-* **[!UICONTROL Border]**
-
-  Klicka på kantikonerna högst upp på panelen om du vill ändra det markerade elementets kantlinje.
-
-  Du kan redigera följande format för varje kantlinje (överkant, höger, nederkant och vänster):
-
-   * [!UICONTROL Border style] (ingen, dold, prickad, streckad, heldragen eller dubbel)
-   * [!UICONTROL Border color] (ange färgkoden eller använd färgväljaren)
-   * [!UICONTROL Border width] (dra skjutreglaget för att välja en kantbredd eller ange bredden i pixlar)
-
-  Kantlinje har stöd för breddskalor från 0 och framåt.
-
-  Målet har också stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), till exempel rem, pc, em.
-
-* **[!UICONTROL Position]**
-
-  Flytta det markerade elementet från dess aktuella position. Du kan ändra elementets placering i över-, under-, vänster-, höger- och [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) -led.
-
-  Klicka på listrutan [!UICONTROL Static] för att välja bland följande placeringsalternativ:
-
-   * [!UICONTROL Static]
-   * [!UICONTROL Relative]
-   * [!UICONTROL Absolute]
-   * [!UICONTROL Sticky]
-   * [!UICONTROL Fixed]
-
-  Klicka på listruteikonen för varje position för att välja bland följande alternativ:
-
-   * [!UICONTROL Auto]
-   * [!UICONTROL Value] (dra skjutreglaget för att placera elementet eller ange antalet pixlar som du vill flytta elementet)
-
-  Position stöder positiva och negativa värden.
-
-  Målet har också stöd för [andra storleksenheter](https://www.w3.org/Style/Examples/007/units.en.html), till exempel rem, pc, em.
-
-* **[!UICONTROL Size]**
-
-  Ändra det markerade elementets bredd och höjd.
-
-  Klicka på listruteikonen bredvid [!UICONTROL Width] och [!UICONTROL Height] för att välja bland följande alternativ:
-
-   * [!UICONTROL Auto]
-   * [!UICONTROL Value] (dra skjutreglaget för att ändra storlek på elementet eller ange antalet pixlar för varje dimension)
-
-* **[!UICONTROL Filter]**
-
-  Dra skjutreglaget för varje filteralternativ eller ange önskad procentsats:
-
-   * [!UICONTROL Sepia]
-   * [!UICONTROL Contrast]
-   * [!UICONTROL Brightness]
-   * [!UICONTROL GrayScale]
-   * [!UICONTROL Blur]
-   * [!UICONTROL Opacity]
-   * [!UICONTROL Invert]
-*[!UICONTROL  Hue-rotate]
-   * [!UICONTROL Saturate]
-
-* **[!UICONTROL CSS Editor]**
-
-  Med CSS Editor i realtid kan du visa ändringar och lägga till format om du känner dig bekväm med att använda CSS (Cascading Style Sheets) eller om du tar emot kod från utvecklaren.
-
-  CSS Editor visar alla ändringar som du gör på formatpanelen. Som framgår av bilden nedan har teckensnittsstorleken, den övre kanten och bildstorleken ändrats:
-
-  ![CSS-redigerare med ändringar](/help/main/c-experiences/c-visual-experience-composer/assets/css-changes.png)
-
-  Lägg märke till de blå punkterna bredvid alternativen [!UICONTROL Typography], [!UICONTROL Border] och [!UICONTROL Size] i föregående bild. Dessa punkter indikerar att du har ändrat de här avsnitten. Om du öppnar de här avsnittspanelerna visas blå punkter bredvid de specifika alternativ som du har ändrat.
-
-  Du kan skriva egen kod om det önskade formatet inte är tillgängligt som standard i [!UICONTROL Styles].
-
-  CSS Editor visar endast information för den aktuella sessionen. Om du sparar ändringarna och sedan öppnar redigeraren igen visas inte information om den tidigare ändringen i redigeraren, även om du väljer samma element igen.
-
-  >[!IMPORTANT]
-  >
-  >Du kan använda en bakgrundsbild med CSS Editor, men det kan orsaka flimmer. Testa ändringarna före driftsättningen.
-
-### [!UICONTROL CSS Class]
-
-Ange den fördefinierade CSS-klass som används för elementet. Om du har markerat mer än ett element avgränsar du flera CSS-klasser med ett blanksteg.
-
-Tillgängligt för [!UICONTROL A/B]-, [!UICONTROL Automated Personalization]- och [!UICONTROL Multivariate Test]-aktiviteter.
-
-### [!UICONTROL Link]
-
-Ändra URL-adressen i länken.
-
-Använd Redigera länk för att uppdatera väljaren så att den pekar på samma bildelement. Det går dock inte att länka till ett annat bildelement. Om du vill länka till ett annat bildelement tar du bort den ursprungliga åtgärden från kodredigeraren och använder [!UICONTROL Visual Experience Composer] för att tillämpa åtgärden på det andra bildelementet.
-
-## [!UICONTROL Insert Before]
-
-Följande alternativ är tillgängliga:
-
-### [!UICONTROL Offer Decision]
-
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
-
-**Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
-
-Mer information finns i [Använda offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
-
-### [!UICONTROL Image], [!UICONTROL HTML] och [!UICONTROL Text]
-
-Lägg till vilket element som helst på sidan förutom att ändra befintligt innehåll. Lägg till text, kod, listor med mera för att skapa helt olika upplevelser att testa.
-
-Markera ett element på sidan, klicka sedan på [!UICONTROL Insert Before] och välj om du vill infoga en bild, HTML eller text. Det infogade elementet visas före det markerade elementet.
-
-Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkonfigurationsalternativ. Du måste ange HTML för att sidan ska visas korrekt. Testa alltid sidan när du har infogat ett objekt för att se till att den visas som förväntat.
-
-[!UICONTROL Recommendations] stöder [!UICONTROL Insert Before] innehållet i DIV-, SECTION- och Article-taggar.
-
-**Obs!** Om du infogar en bild måste [!DNL Adobe Scene7 Publishing System] vara aktiverat så att du har tillgång till bildbiblioteket.
-
-### Rekommendation
-
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
-
-### [!UICONTROL Experience Fragment]
-
-Infoga upplevelsefragment som har skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target]-aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
-
-## [!UICONTROL Insert After]
-
-Följande alternativ är tillgängliga:
-
-### [!UICONTROL Offer Decision]
-
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
-
-**Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
-
-Mer information finns i [Använda offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
-
-### [!UICONTROL Image], [!UICONTROL HTML] och [!UICONTROL Text]
-
-Lägg till vilket element som helst på sidan förutom att ändra befintligt innehåll. Lägg till text, kod, listor med mera för att skapa helt olika upplevelser att testa.
-
-Markera ett element på sidan, klicka sedan på [!UICONTROL Insert After] och välj om du vill infoga en bild, HTML eller text. Det infogade elementet visas efter det markerade elementet.
-
-Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkonfigurationsalternativ. Du måste ange HTML för att sidan ska visas korrekt. Testa alltid sidan när du har infogat ett objekt för att se till att den visas som förväntat.
-
-[!UICONTROL Recommendations] stöder [!UICONTROL Insert After] innehållet i DIV-, SECTION- och Article-taggar.
-
-**Obs!** Om du infogar en bild måste [!DNL Adobe Scene7 Publishing System] vara aktiverat så att du har tillgång till bildbiblioteket.
-
-### Rekommendation
-
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
-
-### [!UICONTROL Experience Fragment]
-
-Infoga upplevelsefragment som har skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target]-aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
-
-## [!UICONTROL Replace Content]
-
-Följande alternativ är tillgängliga:
-
-### [!UICONTROL Offer Decision]
-
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
-
-**Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
-
-Mer information finns i [Använda offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
-
-### [!UICONTROL Image]
-
-Välj en annan bild i innehållsbiblioteket. De bilder som är tillgängliga för växling omfattar de bilder som har överförts till resursmappen Experience Cloud eller som har överförts till innehållsbiblioteket i Target.
-
-När den inledande aktiviteten skapas är den URL som visas inte den URL som används för leverans. Vid aktivitetssynkronisering uppdateras den URL:en till en Scene7-produktionswebbadress.
-
-Den inledande URL:en kan till exempel se ut som i följande exempel:
-
-`https://test.marketing.adobe.com/content/dam/mac/scholasticinc/Aug_MBM.jpeg?ch_ck=1470774943867`
-
-Efter aktivitetssynkronisering kan leverans-URL:en se ut som i följande exempel:
-
-`http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
-
-Recommendations stöder Ersätt med i DIV-, SECTION- och Article-taggar.
-
-**Obs!** Byte av bilder kräver ett Adobe Scene7 Publishing System-konto.
-
-### [!UICONTROL HTML Offer]
-
-Välj ett annat erbjudande från [!UICONTROL Content Library].
-
-**Obs!** HTML-erbjudanden lagras på [!DNL Target] servrar.
-
-Ett HTML-erbjudande kan vara upp till 256 kB.
-
-### Rekommendation
-
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
-
-### [!UICONTROL Experience Fragment]
-
-Infoga upplevelsefragment som har skapats i [!DNL Adobe Experience Manager] (AEM) i [!DNL Target]-aktiviteter för att underlätta optimering eller personalisering. Mer information finns i [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
-
-## [!UICONTROL Layout]
-
-Följande alternativ är tillgängliga:
-
-### [!UICONTROL Rearrange]
-
-Dra elementet till en annan plats inuti samma överordnade element eller DIV. Andra element flyttas för att skapa utrymme för det omordnade elementet.
-
-**Obs!** Klickspårning fungerar inte för omsorterade objekt.
-
-För närvarande antar vissa VEC-åtgärder, som [!UICONTROL Rearrange] och [!UICONTROL Move], att elementen på samma nivå i de överordnade källelementen och målelementen är helt inlästa. Om lat inläsningsbeteende inträffar under det överordnade DOM-elementet (källa eller mål) kan dessa VEC-åtgärder orsaka inkonsekvent beteende. Vi arbetar på en mer tillförlitlig strategi för att få VEC-åtgärder att fungera i lazy-fyllda DOM-element. Som en tillfällig lösning kan du använda [!UICONTROL Custom Code] i de här scenarierna för att återge dina upplevelser.
-
-### [!UICONTROL Resize]
-
-Ändra storlek på ett element på sidan. När du väljer [!UICONTROL Resize] visas ett handtag i elementets nedre högra hörn som du kan dra i hörnet för att ändra storlek på. Håll ned Skift om du vill behålla samma proportioner.
-
-**Obs!** Det går inte att ändra storlek på infogade element.
-
-### [!UICONTROL Move] {#move}
-
-Flytta element på sidan. Till skillnad från alternativet [!UICONTROL Rearrange] flyttas inte andra element i [!UICONTROL Move] för att ge plats åt det element som flyttas. Använd piltangenterna för att finjustera flyttningen. (Planerad förbättring: stöd för att säkerställa att flyttade element inte döljs bakom andra element.)
-
-I vissa situationer, t.ex. när en CSS-begränsning kräver att ett element ska finnas i det överordnade elementet, kan du inte flytta elementet utanför det överordnade elementet. Ett element kan inte flyttas utanför en behållare som har följande CSS-egenskap: `overflow: hidden`.
-
-Se [!UICONTROL Rearrange] ovan för mer information om inkonsekvent beteende med [!UICONTROL Move] och [!UICONTROL Rearrange] åtgärder på grund av lat inläsande av DOM-element.
-
-### [!UICONTROL Hide]
-
-Dölj elementet. Det tomma utrymmet återstår, men innehållet tas bort.
-
-### [!UICONTROL Remove]
-
-Ta bort elementet. Det tomma utrymmet bakom bilden tas bort och det utrymme där elementet var komprimerat.
-
-**Obs!** Det går inte att ta bort objekt i en klassisk mbox (en mbox som skapats i en Target Classic-kampanj) med det här alternativet.
-
-## [!UICONTROL Expand Section]
-
-Markera det överordnade elementet förutom det ursprungligen markerade elementet. När du markerar ett överordnat element markeras alla underordnade element automatiskt. Du kan expandera markeringen flera gånger.
-
-## [!UICONTROL Navigate to Link]
-
-Öppna länkens mål.
-
-## [!UICONTROL Undo]/[!UICONTROL Redo]
-
-Ångra ändringar du gör i dina aktiviteter under en redigeringssession. Du kan också göra om ändringar som tidigare har ångrats.
-
-## Överväganden {#considerations}
-
-* Om ett erbjudande innehåller HTML finns mer information i&quot;How at.js renders offers with HTML content&quot; i [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}.
-
-## Stöd för anpassade element {#custom}
-
-VEC har stöd för [webbkomponenter](https://developer.mozilla.org/en-US/docs/Web/Web_Components) så att du kan skapa och testa personaliserade upplevelser och erbjudanden för anpassade element och för element inuti anpassade element. Den här funktionen är tillgänglig i VEC för alla [!DNL Target] aktivitetstyper.
-
->[!NOTE]
->
->VEC-stöd för anpassade element stöds i [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (eller senare){target=_blank}. Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder hjälptillägget [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) måste det också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
->
->VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
-
-De flesta VEC-åtgärder stöds för anpassade händelser och i anpassade händelser, med följande undantag:
-
-Följande åtgärder är inte tillgängliga för anpassade element:
-
-* [!UICONTROL Edit]
-   * [!UICONTROL Text/HTML]
-   * [!UICONTROL Link]
-   * [!UICONTROL Edit Source]
-
-* [!UICONTROL Replace Content]
-
-Följande åtgärd är inte tillgänglig i anpassade element:
-
-* [!UICONTROL Layout]
-   * [!UICONTROL Rearrange]
-
 ## Navigera mellan element med DOM-sökvägen {#dom-path}
 
 När du klickar på ett element på sidan visas VEC-alternativmenyn. När du klickar på ett element visas dessutom motsvarande DOM-sökväg längst ned på sidan.
 
-![DOM-sökväg](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path.png)
+![DOM-sökväg](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path-refresh.png)
+
+Om du inte ser DOM-sökvägen klickar du på ikonen [!UICONTROL Show DOM] ( ![Visa DOM-ikon](/help/main/assets/icons/LayersBringToFront.svg) ).
 
 Du kan använda DOM-sökvägen för att snabbt visa information om det markerade elementet (typ, ID och klass) och flytta upp eller ned DOM-sökvägen för att markera det önskade elementet.
 
-När du hovrar över DOM-banan markeras motsvarande element i VEC med en blå ruta. När du klickar på elementet markeras elementet med en orange ruta och VEC-alternativmenyn visas, vilket förklaras ovan.
+<!--When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.-->
 
 Du kan enkelt navigera till alla överordnade, jämställda eller underordnade element inom VEC med DOM-sökvägen.
 
 DOM-sökvägsfunktionen är också tillgänglig när du konfigurerar [klickspårning](/help/main/c-activities/r-success-metrics/click-tracking.md).
+
+<!--## [!UICONTROL Edit]
+
+The following options are available:
+
+### [!UICONTROL Text/HTML] {#edit-text-html}
+
+Change the HTML code for the element, such as the text for a text area, button, or link.
+
+In addition to HTML code, you can edit and inject custom JavaScript.
+
+Several rich text formatting options are available when editing text and HTML for [!UICONTROL A/B] and [!UICONTROL Experience Targeting] activities. You can choose a font, select a font style, change text alignment, and other standard text formatting options. When modifying HTML, you can toggle between the code view and rich-editing view of the HTML.
+
+The following HTML5 tags can be nested:
+
+|Tag|Allowed Nested Tags|
+| --- | --- |
+|`<a>`|`<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>`|
+|`<ins>`|`<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`|
+|`<del>`|`<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>`|
+|`<label>`|`<p>`|
+
+### [!UICONTROL Background Color]
+
+Use the color picker to select or configure a background color. You can select a color swatch, and adjust it using RGB values or color hex codes. The red x in the color picker makes the background transparent.
+
+**Note:** This option is not available for an element where a background image is set. 
+
+### [!UICONTROL Styles] {#styles}
+
+Use the [!UICONTROL Styles] panel to view or edit the value of existing styles for the selected element. You can also add additional styling.
+
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+
+The [!UICONTROL Styles] panel displays on the right side of the VEC. The panel contains a list of styles that lets you edit or add to the selected element. A real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
+
+![Styles panel](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
+
+As you apply different styles, you can always revert your changes by clicking the [!UICONTROL Revert] icon that displays at the top-right corner of the [!UICONTROL Styles] panel after you change any section. Clicking the [!UICONTROL Revert] icon reverts all changes on the current section's panel.
+
+Expand each section to edit or add styles, as explained below. To save your changes, click the [!UICONTROL Back] icon at the top of the panel to return to the panel's main display, then click **[!UICONTROL Save]**. 
+
+Blue dots on the main panel and next to each option on the various section panels indicate that you have changed the corresponding styles. This visual indicator makes it easy for you to review your changes before clicking [!UICONTROL Save].
+
+>[!NOTE]
+>
+>Quick actions for layout changes, background color, resizing, and move are also available as separate actions in the VEC menu. These options can be used as separate actions or you can use the Styles menu, as explained here.
+
+* **[!UICONTROL Background]**
+
+  Change the background color and image.
+
+  * Color (specify the color code or use the color picker)
+  * Image (select an image from the image picker)
+  * Image source (specify an external URL)
+  * Attachment
+    * Click the top drop-down list to select scroll, fixed, or local
+    * Click the bottom drop-down list to select repeat, repeat-x, repeat-y, no-repeat, space, or round
+  * Clip
+    * Click the top drop-down list to select border-box, padding-box, content-box, or text
+    * Click the bottom drop-down list to select auto audio or audio
+
+* **[!UICONTROL Typography]**
+
+  Change the typography of an element. Typography edits are quick and easy. 
+
+  Although the rich text editor (Edit Text/HTML) is available for fine tuning, quick actions to change the entire element is available via this option. If you want to apply typography changes to only a part of the text (not to the full text), use the [rich text editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md). 
+
+  You can edit the following typography styles:
+
+  * [!UICONTROL Font size]
+  * [!UICONTROL Font weight]
+  * [!UICONTROL Font style]
+  * [!UICONTROL Color] (specify the color code or use the color picker)
+  * [!UICONTROL Word spacing]
+  * [!UICONTROL Line height]
+  * [!UICONTROL Text alignment]
+
+* **[!UICONTROL Margin]**
+
+  Change the margin for the selected element. You can change the left, right, bottom, and top margins.
+
+  Click the drop-down icon for each margin to choose from the following options:
+
+  * [!UICONTROL Auto] 
+  * [!UICONTROL Value] (drag the slider to set the margin or specify the number of pixels for each margin)
+
+  Margin supports positive and negative values.
+
+  Target also supports other size units, such as rem, pc, em. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+
+* **[!UICONTROL Padding]**
+
+  Change the padding for the selected element. You can change the left, right, bottom, and top padding.
+
+  Drag the slider to set the padding or specify the number of pixels for padding.
+
+  Padding supports width scales from 0 onwards.
+
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
+
+* **[!UICONTROL Border]**
+
+  Click the border icons at the top of the panel to change the selected element's border.
+
+  You can edit the following styles for each border (top, right, bottom, and left):
+
+  * [!UICONTROL Border style] (none, hidden, dotted, dashed, solid, or double)
+  * [!UICONTROL Border color] (specify the color code or use the color picker)
+  * [!UICONTROL Border width] (drag the slider to select a border width or specify the width in pixels)
+
+  Border supports width scales from 0 onwards.
+
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
+
+* **[!UICONTROL Position]**
+
+  Move the selected element from its current position. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+
+  Click the [!UICONTROL Static] drop-down list to choose from the following position options:
+
+  * [!UICONTROL Static]
+  * [!UICONTROL Relative]
+  * [!UICONTROL Absolute]
+  * [!UICONTROL Sticky]
+  * [!UICONTROL Fixed]
+
+  Click the drop-down icon for each position to choose from the following options:
+
+  * [!UICONTROL Auto] 
+  * [!UICONTROL Value] (drag the slider to position the element or specify the number of pixels you want to move the element)
+
+  Position supports positive and negative values.
+
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
+
+* **[!UICONTROL Size]**
+
+  Change the selected element's width and height.
+
+  Click the drop-down icon next to [!UICONTROL Width] and [!UICONTROL Height] to choose from the following options:
+
+  * [!UICONTROL Auto] 
+  * [!UICONTROL Value] (drag the slider to size the element or specify the number of pixels for each dimension)
+
+* **[!UICONTROL Filter]**
+
+  Drag the slider for each filter option or specify the desired percentage:
+
+  * [!UICONTROL Sepia]
+  * [!UICONTROL Contrast]
+  * [!UICONTROL Brightness]
+  * [!UICONTROL GrayScale]
+  * [!UICONTROL Blur]
+  * [!UICONTROL Opacity]
+  * [!UICONTROL Invert]
+  *[!UICONTROL  Hue-rotate]
+  * [!UICONTROL Saturate]
+
+* **[!UICONTROL CSS Editor]**
+
+  The real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
+
+  The CSS Editor displays any changes that you make in the Styles panel. As shown in the illustration below, the font size, top border, and image size have been changed:
+
+  ![CSS editor with changes](/help/main/c-experiences/c-visual-experience-composer/assets/css-changes.png)
+
+  Notice the blue dots next to the [!UICONTROL Typography], [!UICONTROL Border], and [!UICONTROL Size] options in the preceding illustration. These dots indicate that you have changed these sections. If you open these section panels, blue dots display next to the specific options that you changed.
+
+  You can type your own code if your desired style is not available by default in the [!UICONTROL Styles].
+
+  The CSS Editor shows details for the current session only. If you save changes and then reopen the editor, details about your previous change do not display in the editor, even if you select the same element again.
+
+  >[!IMPORTANT]
+  >
+  >You can apply a background image using the CSS Editor, but it might cause flicker. Test your changes before deployment.
+
+### [!UICONTROL CSS Class]
+
+Specify the predefined CSS class used for the element. If more than one element is selected, separate multiple CSS classes with a space.
+
+Available for [!UICONTROL A/B], [!UICONTROL Automated Personalization], and [!UICONTROL Multivariate Test] activities.
+
+### [!UICONTROL Link]
+
+Change the URL in the link.
+
+Use Edit Link to update the selector to point to the same image element. However, linking to a different image element is not supported. To link to a different image element, delete the original action from the code editor and use the [!UICONTROL Visual Experience Composer] to apply the action on the other image element.
+
+## [!UICONTROL Insert Before]
+
+The following options are available:
+
+### [!UICONTROL Offer Decision]
+
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+
+**Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
+
+For more information, see [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image], [!UICONTROL HTML], and [!UICONTROL Text]
+
+Add any kind of element to your page in addition to modifying existing content. Add text, code, lists, and more to create entirely different experiences to test.
+
+Select an element on the page, then click [!UICONTROL Insert Before] and choose whether you want to insert an image, HTML, or text. The inserted element appears before the selected element.
+
+The behavior of the inserted element depends on the structure of your page, your CSS, and other page configuration options. Valid HTML is required to make your page appear correctly. Always test your page after inserting an item to make sure it appears as expected.
+
+[!UICONTROL Recommendations] supports [!UICONTROL Insert Before] the contents of DIV, SECTION, and ARTICLE tags.
+
+**Note:** Inserting an image requires that [!DNL Adobe Scene7 Publishing System] is enabled so you have access to the image library.
+
+### Recommendation
+
+Include recommendations inside A/B Test (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities. For more information, see [Recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md).
+
+### [!UICONTROL Experience Fragment]
+
+Insert experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization. For more information, see [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+
+## [!UICONTROL Insert After]
+
+The following options are available:
+
+### [!UICONTROL Offer Decision]
+
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+
+**Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
+
+For more information, see [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image], [!UICONTROL HTML], and [!UICONTROL Text]
+
+Add any kind of element to your page in addition to modifying existing content. Add text, code, lists, and more to create entirely different experiences to test.
+
+Select an element on the page, then click [!UICONTROL Insert After] and choose whether you want to insert an image, HTML, or text. The inserted element appears after the selected element.
+
+The behavior of the inserted element depends on the structure of your page, your CSS, and other page configuration options. Valid HTML is required to make your page appear correctly. Always test your page after inserting an item to make sure it appears as expected.
+
+[!UICONTROL Recommendations] supports [!UICONTROL Insert After] the contents of DIV, SECTION, and ARTICLE tags.
+
+**Note:** Inserting an image requires that [!DNL Adobe Scene7 Publishing System] is enabled so you have access to the image library.
+
+### Recommendation
+
+Include recommendations inside A/B Test (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities. For more information, see [Recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md).
+
+### [!UICONTROL Experience Fragment]
+
+Insert experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization. For more information, see [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+
+## [!UICONTROL Replace Content]
+
+The following options are available:
+
+### [!UICONTROL Offer Decision]
+
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+
+**Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
+
+For more information, see [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image]
+
+Select a different image from the Content Library. The images available for swapping include the images uploaded to the Experience Cloud assets folder or uploaded in the Content Library in Target.
+
+During initial activity creation, the URL displayed is not the URL used for delivery. Upon activity synching, that URL is updated to a production Scene7 URL.
+
+For example, the initial URL might look like the following example:
+
+`https://test.marketing.adobe.com/content/dam/mac/scholasticinc/Aug_MBM.jpeg?ch_ck=1470774943867`
+
+After activity syncing, the delivery URL might look like the following example:
+
+`http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
+
+Recommendations supports Replace With in DIV, SECTION, and ARTICLE tags.
+
+**Note:** Swapping images requires an Adobe Scene7 Publishing System Account.
+
+### [!UICONTROL HTML Offer]
+
+Select a different offer from the [!UICONTROL Content Library].
+
+**Note:** HTML Offers are stored on [!DNL Target] servers.
+
+An HTML offer can be up to 256 KB.
+
+### Recommendation
+
+Include recommendations inside A/B Test (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities. For more information, see [Recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md).
+
+### [!UICONTROL Experience Fragment]
+
+Insert experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization. For more information, see [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+
+## [!UICONTROL Layout]
+
+The following options are available:
+
+### [!UICONTROL Rearrange]
+
+Drag the element to another location inside the same parent element or DIV. Other elements shift location to make space for the rearranged element.
+
+**Note**: Click-tracking does not work on rearranged items.
+
+Currently, certain VEC actions, such as [!UICONTROL Rearrange] and [!UICONTROL Move], assume that the sibling elements of the source and destination parent elements are completely loaded. If lazy loading occurs under the parent DOM elements (source or destination), these VEC actions can cause inconsistent behavior. We are working on a more reliable approach to make VEC actions work in lazy-loaded DOM elements. As a temporary workaround, you can use [!UICONTROL Custom Code] in these scenarios to render your experiences.
+
+### [!UICONTROL Resize]
+
+Resize an element on your page. When you select [!UICONTROL Resize], a handle appears in the bottom-right corner of the element that lets you drag that corner to resize. Hold the Shift key to retain the same aspect ratio.
+
+**Note:** Inline elements cannot be resized.
+
+### [!UICONTROL Move] {#move}
+
+Move elements on your page. Unlike the [!UICONTROL Rearrange] option, [!UICONTROL Move] does not shift other elements to make room for the element being moved. Use the arrow keys to fine tune the move. (Planned enhancement: support to ensure moved elements are not hidden behind other elements.)
+
+In certain situations, such as when a CSS restriction requires an element to remain inside its parent element, you cannot move the element outside its parent. An element cannot be moved outside of a container that has following CSS property: `overflow: hidden`.
+
+See [!UICONTROL Rearrange] above for more information about inconsistent behavior with the [!UICONTROL Move] and [!UICONTROL Rearrange] actions due to lazy loading of DOM elements.
+
+### [!UICONTROL Hide]
+
+Hide the element. The white space remains, but the content is removed.
+
+### [!UICONTROL Remove]
+
+Remove the element. The white space behind the image is removed and the space where the element was is collapsed.
+
+**Note:** Items within a "classic" mbox (an mbox created within a Target Classic campaign) cannot be removed using this option.
+
+## [!UICONTROL Expand Section]
+
+Select the parent element in addition to the originally selected element. When you select any parent element, all children of that element are automatically selected. You can expand the selection multiple times.
+
+## [!UICONTROL Navigate to Link]
+
+Open the destination of the link.
+
+## [!UICONTROL Undo]/[!UICONTROL Redo]
+
+Undo changes you make to your activities during an editing session. You can also redo changes that have been previously undone.
+
+## Considerations {#considerations}
+
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
+
+## Custom element support {#custom}
+
+The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) to let you create and test personalized experiences and offers on custom elements and on elements inside custom elements. This functionality is available in the VEC for all [!DNL Target] activity types.
+
+>[!NOTE]
+>
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+
+Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
+
+The following actions are not available on custom elements:
+
+* [!UICONTROL Edit]
+  * [!UICONTROL Text/HTML]
+  * [!UICONTROL Link]
+  * [!UICONTROL Edit Source]
+
+* [!UICONTROL Replace Content]
+
+The following action is not available inside custom elements:
+
+* [!UICONTROL Layout]
+  * [!UICONTROL Rearrange]-->

@@ -4,9 +4,9 @@ description: Lär dig mer om framgångsmått i Adobe [!DNL Target] som hjälper 
 title: Vad är Success Metrics?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Vissa mätvärden, som [!UICONTROL Custom Scoring] och [!UICONTROL Revenue Per V
 
 Använd de avancerade inställningarna för att hantera hur du mäter framgång. Du kan lägga till beroenden, välja om du vill behålla användaren i aktiviteten eller ta bort dem och om mätvärdet ska räknas en gång per deltagare eller vid varje intryck.
 
-Klicka på **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]** om du vill komma åt alternativen för [!UICONTROL Advanced Settings].
+Om du vill komma åt alternativen för [!UICONTROL Advanced Settings] klickar du på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmallListVert.svg) ) och sedan på **[!UICONTROL Advanced Settings]**.
 
-![Menyn Avancerade inställningar](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![Menyn Avancerade inställningar](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
 >[!NOTE]
 >
@@ -68,8 +68,6 @@ Klicka på **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]
 ### Lägg till beroende
 
 Du kan använda de avancerade inställningarna för att skapa beroende framgångsmått och bara öka ett mätvärde om en besökare når ett annat mätvärde först.
-
-![Lägg till beroende](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 En testkonvertering kan till exempel bara vara giltig om en besökare klickar på erbjudandet eller når en viss sida innan konverteringen.
 
@@ -83,7 +81,7 @@ Beroendefunktionen stöds *inte* för följande:
 Beroende framgångsmått konverteras inte i följande fall:
 
 * Om du skapar ett cirkelberoende där metrisk1 är beroende av metrisk2 och metrisk2 är beroende av metrisk1, kan inget av dem konverteras.
-* Automated Personalization-aktiviteter frigör användare och startar om aktiviteten när konverteringsmåtten nås, så att inga mått som är beroende av konverteringsmåttet konverteras.
+* [!UICONTROL Automated Personalization] aktiviteter frigör användare och startar om aktiviteten när konverteringsmått nås, så att inga mått som är beroende av konverteringsmåttet konverteras.
 
 ### Vad händer efter att en användare har påträffat det här målmåttet?
 
