@@ -5,9 +5,9 @@ title: Var hittar jag frågor och svar om  [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3506'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # RECOMMENDATIONS FAQ
 
 Lista med vanliga frågor och svar om [!DNL Adobe Target] [!DNL Recommendations] aktiviteter.
+
+## Skapas [!DNL Recommendations] objekt via API-visning i [!DNL Target]-gränssnittet?
+
+Ja, [!UICONTROL Recommendations] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) som skapats över API är nu tillgängliga i gränssnittet.
 
 ## Kan jag hantera [!DNL Target] visuella erbjudanden som har skapats i användargränssnittet med API:erna i [!DNL Target]?
 

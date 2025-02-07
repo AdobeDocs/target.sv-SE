@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4562e10183f141fd78eb1e6daa95bd4e17be430
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] f
 
 Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
 
-* Omdesignade rapporter för bättre insikter i aktivitetsresultaten
+* [Omdesignad rapportering](/help/main/administrating-target/reporting.md) för bättre insikter i aktivitetsresultat
 * Sidan [!UICONTROL Audit] har uppdaterats och information om realtidsinsikter hämtas från [!DNL Audit API]
-* Anpassningsbara listvyer för bättre flexibilitet i olika teambehov
-* Förbättrad snabbinformation och detaljskärmar för enklare åtkomst till information
-* Alternativ för beständig sökning och filtrering
-* [!UICONTROL Visual Editing Composer] har omskapats fullständigt med stöd för de senaste säkerhetsuppdateringarna från webbläsarproviders och ett modernt användargränssnitt
-* Tillägget [!DNL Chrome] med stöd för manifest V3 har uppdaterats för ökad säkerhet och förbättrat stöd för cookies från första part
+* [Anpassningsbara listvyer](/help/main/c-activities/activities.md) för bättre flexibilitet i olika teambehov
+* [Förbättrade snabbinformations- och detaljskärmar](/help/main/c-activities/activities.md) för enklare åtkomst till information
+* [Alternativ för beständig sökning och filtrering](/help/main/c-activities/activities.md)
+* Fullt [har omskapats [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) med stöd för de senaste säkerhetsuppdateringarna från webbläsarproviders och ett modernt användargränssnitt
+* [Uppdaterat [!DNL Chrome] tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som stöder manifest V3 för ökad säkerhet och förbättrat stöd för cookies från första part
 
 ![Aktivitetsuppdatering](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -60,11 +60,11 @@ I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] f
 
 Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
 
-* Produktkatalogsökningen innehåller nu en uppdaterad databas som möjliggör synkronisering i realtid av produkter
-* [!UICONTROL Recommendation] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) som skapats över API är nu tillgängliga i gränssnittet
-* Inställningar har konsoliderats under avsnittet [!UICONTROL Administration]
+* [produktkatalogsökningen](/help/main/c-recommendations/c-products/catalog-search.md) innehåller nu en uppdaterad databas som tillåter synkronisering i realtid av produkter
+* [!UICONTROL Recommendations] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) [ som skapats över API är nu tillgängliga i gränssnittet ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Recommendations-inställningarna](/help/main/administrating-target/recommendations-settings.md) har konsoliderats under avsnittet [!UICONTROL Administration]
 * Anpassningsbara listvyer för bättre flexibilitet i olika teambehov
-* Uppdaterade kodredigerare för HTML och JSON med syntaxmarkering och radnumrering
+* Uppdaterade kodredigerare för HTML och JSON med [syntaxmarkering och radnumrering](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * Förbättrad snabbinformation och detaljskärmar för enklare åtkomst till information
 * Alternativ för beständig sökning och filtrering
 

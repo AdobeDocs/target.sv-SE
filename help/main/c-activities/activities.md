@@ -4,9 +4,9 @@ description: Anpassa innehåll och testa siddesign för specifika målgrupper me
 title: Hur kan jag personalisera innehåll och testa siddesign med  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2237'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Följande tabell hjälper dig att förstå olika element i listan [!UICONTROL Ac
 
 | Element | Beskrivning |
 |--- |--- |
-| ikonen [!UICONTROL Show filters]<P>![Ikonen Visa filter](/help/main/assets/icons/Filter.svg) | Du kan få åtkomst till filter genom att klicka på ikonen **[!UICONTROL Show Filters]** i den övre delen av listan för att filtrera aktiviteter efter [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] och [!UICONTROL Properties].<P>Mer information finns i [Använda filter i [!UICONTROL Activities] listan ](#filters) nedan. |
-| Sökfält | Hitta snabbt en aktivitet eller minska antalet aktiviteter som visas i listan [!UICONTROL Activity]. Du kan söka efter [!UICONTROL Activity Name], [!UICONTROL URL] eller [!UICONTROL ID] med hjälp av listrutan. |
+| ikonen [!UICONTROL Show filters]<P>![Ikonen Visa filter](/help/main/assets/icons/Filter.svg) | Du kan få åtkomst till filter genom att klicka på ikonen **[!UICONTROL Show Filters]** i den övre delen av listan för att filtrera aktiviteter efter [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] och [!UICONTROL Properties].<P>De filter du konfigurerar är beständiga under hela sessionen.<P>Mer information finns i [Använda filter i [!UICONTROL Activities] listan ](#filters) nedan. |
+| Sökfält | Hitta snabbt en aktivitet eller minska antalet aktiviteter som visas i listan [!UICONTROL Activity]. Du kan söka efter [!UICONTROL Activity Name], [!UICONTROL URL] eller [!UICONTROL ID] med hjälp av listrutan.<P>De sökalternativ du konfigurerar är beständiga under hela den aktuella sessionen. |
 | [!UICONTROL Create Activity] | Skapa en aktivitet.<P>Mer information om hur du skapar de olika aktivitetstyperna finns i: <ul><li>[Skapa en [!UICONTROL A/B Test] aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Skapa en [!UICONTROL Auto-Allocate] aktivitet](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Skapa en [!UICONTROL Auto-Target] aktivitet](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Skapa en [!UICONTROL Automated Personalization] aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Skapa en [!UICONTROL Experience Targeting] aktivitet](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Skapa en aktivitet](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Skapa en [!UICONTROL Recommendations] aktivitet](/help/main/c-recommendations/recommendations.md)</li></ul>Mer information om de olika typerna finns i [Aktivitetstyper](#types) nedan. |
 | [!UICONTROL Create mobile preview link]<P>![Menyn Fler åtgärder](/help/main/assets/icons/MoreVertical.svg) | Använd [länkar för förhandsgranskning av mobiler](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview) för att utföra enkla QA-åtgärder från början till slut för mobilappsaktiviteter.<P>Klicka på ikonen **Fler alternativ** , markera **Skapa länk för förhandsvisning av mobila enheter** och välj sedan de aktiviteter du vill testa på mobila enheter. |
 | Anpassa tabell<P>![Ikonen Anpassa tabell](/help/main/assets/icons/ColumnSetting.svg) | Ändra vilka kolumner som ska visas i listan [!UICONTROL Activity] genom att klicka på ikonen **[!UICONTROL Customize Table]** längst upp till höger på sidan och sedan markera eller avmarkera de kolumner du vill visa.<P>Ändringarna tillämpas på ditt konto och förblir aktiva även efter att du loggat ut från [!DNL Target]. |
