@@ -3,10 +3,8 @@ keywords: activity url;url;different url
 description: Upptäck hur du ställer in [!UICONTROL Activity URL] för att definiera testsidor och säkerställa korrekt testdesign.
 title: Vad är aktivitets-URL:en i en A/B-aktivitet?
 feature: A/B Tests
-hide: true
-hidefromtoc: true
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%

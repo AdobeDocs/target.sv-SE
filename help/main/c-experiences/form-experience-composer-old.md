@@ -6,7 +6,7 @@ feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
@@ -23,45 +23,17 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
 1. Välj **[!UICONTROL Form]** i dialogrutan [!UICONTROL Create Activity].
 
-1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) i listrutan **[!UICONTROL Choose Workspace]** .
+1. (Villkorligt) Välj en arbetsyta och en egenskap.
 
-   Alternativet [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) är en [ Target Premium](/help/main/c-intro/intro.md)-funktion och kanske inte visas om din organisation har en [!UICONTROL Target Standard]-licens.
-
-1. Välj en egenskap.
-
-1. Klicka på **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Next]**.
 
    [!UICONTROL Form-Based Experience Composer] öppnas.
 
+   ![location_refinements, bild](assets/location_refinements.png)
+
    Den här skärmen är annorlunda om du skapar en [!UICONTROL Recommendations]-aktivitet. [!UICONTROL Recommendations] aktiviteter inkluderar inte upplevelser.
 
-1. 
-   1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
-
-   Aktivitetsnamnet får inte börja med något av följande tecken:
-
-   | Tecken | Beskrivning |
-   |--- |--- |
-   | `=` | Lika med |
-   | `+` | Plus |
-   | `-` | Minus |
-   | `@` | Vid tecken |
-
-   Aktivitetsnamnet får inte innehålla någon av följande teckensekvenser:
-
-   | Teckensekvens | Beskrivning |
-   |--- |--- |
-   | ;= | Semikolon, lika med |
-   | ;+ | Semikolon, Plus |
-   | ;- | Semikolon, minus |
-   | ;@ | Semikolon, tecken |
-   | ,= | Komma, motsvarar |
-   | ,+ | komma, plus |
-   | ,- | Komma, Minus |
-   | ,@ | Komma, Vid tecken |
-   | `[`&quot; | Öppen hakparentes, dubbla citattecken |
-   | &quot;`]` | Dubbla citattecken, avslutande hakparentes |
-
+1. Namnge aktiviteten genom att klicka på [!UICONTROL Untitled Activity].
 1. Välj en plats.
 
    När du klickar i rutan [!UICONTROL Select Location] visas en lista med tillgängliga platser. Välj en av platserna.
@@ -74,9 +46,13 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
 1. Klicka på **[!UICONTROL Add Audience Refinements]**, välj en eller flera [målgrupper](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) för den här aktiviteten och klicka sedan på **[!UICONTROL Done]**.
 
+   ![location_refinements_2 image](assets/location_refinements_2.png)
+
    I [!UICONTROL Form-based Experience Composer] har förbättringarna ersatts med funktioner för fullständig målgrupp. Förfiningar för befintliga aktiviteter har migrerats till [målgrupper som bara är aktiva](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Välj den typ av innehåll som du vill ska visas på den platsen.
+
+   ![form_content, bild](assets/form_content.png)
 
 1. Ange innehållet för den innehållstyp som du valde.
 
@@ -120,7 +96,11 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
    När du väljer Recommendations-villkor i den formulärbaserade Experience Composer finns det nu en direktlänk till det valda kriteriekortet så att du snabbt och enkelt kan redigera villkoren.
 
-   Från sidan [!UICONTROL Targeting] i det guidade arbetsflödet i [!DNL Target] tre steg:
+   ![change_conditions image](assets/change_criteria.png)
+
+   Från målsidan i det guidade arbetsflödet i tre steg:
+
+   ![change_Criteri_2 image](assets/change_criteria_2.png)
 
    **Beslut om att lägga till erbjudande:**
 
