@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 7 februari 2025**
+**Senast uppdaterad: 10 februari 2025**
 
 >[!NOTE]
 >
@@ -41,11 +41,14 @@ I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] f
 Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
 
 * [Omdesignad rapportering](/help/main/administrating-target/reporting.md) för bättre insikter i aktivitetsresultat
-* Sidan [!UICONTROL Audit] har uppdaterats och information om realtidsinsikter hämtas från [!DNL Audit API]
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)-sidan hämtar nu information från [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} för realtidsinsikter
 * [Anpassningsbara listvyer](/help/main/c-activities/activities.md) för bättre flexibilitet i olika teambehov
 * [Förbättrade snabbinformations- och detaljskärmar](/help/main/c-activities/activities.md) för enklare åtkomst till information
 * [Alternativ för beständig sökning och filtrering](/help/main/c-activities/activities.md)
 * Fullt [har omskapats [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) med stöd för de senaste säkerhetsuppdateringarna från webbläsarproviders och ett modernt användargränssnitt
+
+  Mer information om hur den uppdaterade VEC skiljer sig från den tidigare versionen finns i [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+
 * [Uppdaterat [!DNL Chrome] tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som stöder manifest V3 för ökad säkerhet och förbättrat stöd för cookies från första part
 
 ![Aktivitetsuppdatering](/help/main/r-release-notes/assets/activities-refresh.png)
@@ -62,13 +65,13 @@ Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet o
 
 * [produktkatalogsökningen](/help/main/c-recommendations/c-products/catalog-search.md) innehåller nu en uppdaterad databas som tillåter synkronisering i realtid av produkter
 * [!UICONTROL Recommendations] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) [ som skapats över API är nu tillgängliga i gränssnittet ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
-* [Recommendations-inställningarna](/help/main/administrating-target/recommendations-settings.md) har konsoliderats under avsnittet [!UICONTROL Administration]
+* [Rekommendationsinställningar](/help/main/administrating-target/recommendations-settings.md) har konsoliderats under avsnittet [!UICONTROL Administration]
 * Anpassningsbara listvyer för bättre flexibilitet i olika teambehov
-* Uppdaterade kodredigerare för HTML och JSON med [syntaxmarkering och radnumrering](/help/main/c-experiences/c-manage-content/create-json-offer.md)
+* Uppdaterade HTML- och JSON-kodredigerare med [syntaxmarkering och radnumrering](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * Förbättrad snabbinformation och detaljskärmar för enklare åtkomst till information
 * Alternativ för beständig sökning och filtrering
 
-![Recommendations UI-uppdatering](/help/main/r-release-notes/assets/recs-ui-refresh.png)
+![Uppdatering av gränssnittet Rekommendationer](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## Target Standard/Premium 25.1.1 (9 januari 2025)
 
@@ -106,7 +109,7 @@ Den här optimeringen kommer att vara aktiverad för alla nya [!DNL Adobe Experi
 
 >[!IMPORTANT]
 >
->Om du inte kan slutföra implementeringsgranskningen och åtgärda eventuella problem före 3 februari 2025 kan du begära en förlängning på en gång i sex månader. Se till att din ansökan har skickats in senast den 31 januari 2025. Adobe granskar och fattar beslut om din begäran.
+>Om du inte kan slutföra implementeringsgranskningen och åtgärda eventuella problem före 3 februari 2025 kan du begära en förlängning på en gång i sex månader. Se till att din ansökan har skickats in senast den 31 januari 2025. Adobe granskar och fattar beslut om din ansökan.
 
 Om du vill dra nytta av den här optimeringen vid manuell förslagsåtergivning granskar du [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} för att kontrollera att du skickar meddelanden efter manuell återgivning eller när du använder metoden `applyPropositions` (eller motsvarande [!DNL Launch]-åtgärd som en hjälpreda) för att återge upplevelser.
 

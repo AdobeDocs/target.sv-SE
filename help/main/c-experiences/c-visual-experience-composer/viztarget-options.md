@@ -1,19 +1,24 @@
 ---
-keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelser;redigera text;redigera html;redigera text/html;redigera bakgrundsfärg;bakgrundsfärg;infoga element;redigera länk;länk för att redigera disposition;redigera CSS-klass;css-klass;swap offer swap;swap image;remove item remove;item remove;item hide;item hide;flytta element;move move;element;resize element;element) expandera markering;navigera till den här länken;navigera länk;navigera;navigera;länk;ångra;gör om;göra om;anpassade händelser;webbkomponenter;erbjudandebeslut;offer decisioning
+keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelser;redigera text;redigera html;redigera text/html;redigera bakgrundsfärg;bakgrundsfärg;infoga element;redigera länk;länk för att redigera disposition;redigera CSS-klass;css-klass;swap offer swap;swap image;remove item remove;item remove;item hide;item hide;flytta element;move move;element;resize element;element) expandera markering;navigera till den här länken;navigera länk;navigera;navigera;länk;ångra;gör om;göra om;anpassade händelser;webbkomponenter;erbjudandebeslut;erbjudandebeslut
 description: Utforska de tillgängliga alternativen i  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Hur använder jag alternativen för [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
 
 # Alternativ för Visual Experience Composer
 
-När du klickar på ett sidelement i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) visas de alternativ som är tillgängliga för den elementtypen på en meny. Dessutom visas en DOM-sökväg längst ned på sidan, så att du enkelt kan navigera i sidstrukturen.
+När du klickar på ett sidelement i [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) visas de alternativ som är tillgängliga för den elementtypen på en meny. Dessutom visas en DOM-sökväg längst ned på sidan, så att du enkelt kan navigera i sidstrukturen
+
+>[!NOTE]
+>
+>Versionen [!DNL Target Standard/Premium] 25.2.1 (11 februari 2025) innehöll en uppdaterad version av VEC. Mer information om hur den uppdaterade VEC skiljer sig från den tidigare versionen finns i [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+
 
 De olika [!UICONTROL Visual Experience Composer]-åtgärderna (VEC) grupperas i lämpliga menyalternativ för att göra jobbet snabbare och effektivare:
 
@@ -33,7 +38,7 @@ Välj komponenter i komponentbildrutan till vänster om du vill infoga följande
 
 * Grundläggande (avgränsare, HTML, bild).
 * Text (rubrik, stycke, länk).
-* Dynamisk ([rekommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML).
+* Dynamisk ([rekommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML-erbjudande).
 
 Med menyn längst upp i bilden kan du göra följande:
 
@@ -46,7 +51,7 @@ Bildrutan till höger gör att du kan konfigurera bildens egenskaper ytterligare
 
 Med ikonerna längst upp i bildrutan kan du göra följande:
 
-* Redigera HTML ( ![ikonen Infoga HTML](/help/main/assets/icons/Code.svg) ). Mer information finns i [Redigera HTML](#html) nedan.
+* Redigera HTML ( ![Infoga HTML-ikon](/help/main/assets/icons/Code.svg) ). Mer information finns i [Redigera HTML](#html) nedan.
 * Duplicera bilden ( ![Duplicera ikon](/help/main/assets/icons/Code.svg) ).
 * Ta bort bilden ( ![ikonen Ta bort](/help/main/assets/icons/Delete.svg) ).
 * Dölj bilden ( ![Dölj ikon](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -72,7 +77,7 @@ Välj komponenter i bildrutan [!UICONTROL Components] till vänster om du vill i
 
 * Grundläggande (avgränsare, HTML, bild).
 * Text (rubrik, stycke, länk).
-* Dynamisk ([rekommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML).
+* Dynamisk ([rekommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML-erbjudande).
 
 Klicka på ikonen [!UICONTROL Show Modifications] ( ![ ikonen Visa ändringar ](/help/main/assets/icons/History.svg) ) för att visa ändringarna av upplevelsen.
 
@@ -84,7 +89,7 @@ Med menyn längst upp i textelementet kan du göra följande:
 * Konfigurera textens justering (vänster, mitten, höger, justera) ( ![Textjusteringsikon](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Infoga en länk ( ![Infoga länkikon](/help/main/assets/icons/Link.svg) ).
 * Ersätt innehållet med ett HTML-erbjudande, [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) eller [Rekommendation]/help/main/c-recommendations/recommendations-as-an-offer.md).
-* Redigera HTML ( ![ikonen Infoga HTML](/help/main/assets/icons/Code.svg) ).
+* Redigera HTML ( ![Infoga HTML-ikon](/help/main/assets/icons/Code.svg) ).
 * Lägg till personalisering ( ![Lägg till Personalization-ikon](/help/main/assets/icons/PersonalizationField.svg) ).
 * Ta bort bilden ( ![ikonen Ta bort](/help/main/assets/icons/Delete.svg) ).
 
@@ -92,7 +97,7 @@ Med ramen till höger kan du konfigurera textegenskaperna ytterligare.
 
 Med ikonerna längst upp i bildrutan kan du göra följande:
 
-* Redigera HTML ( ![ikonen Infoga HTML](/help/main/assets/icons/Code.svg) ). Mer information finns i [Redigera HTML](#html) nedan.
+* Redigera HTML ( ![Infoga HTML-ikon](/help/main/assets/icons/Code.svg) ). Mer information finns i [Redigera HTML](#html) nedan.
 * Duplicera texten ( ![Duplicera ikon](/help/main/assets/icons/Code.svg) ).
 * Ta bort texten ( ![ikonen Ta bort](/help/main/assets/icons/Delete.svg) ).
 * Dölj texten ( ![Dölj ikon](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -112,7 +117,7 @@ Med alternativen i den högra ramen kan du göra följande:
 
 ## Redigera HTML {#html}
 
-Förutom HTML-kod kan du redigera och mata in anpassad JavaScript.
+Förutom HTML-kod kan du redigera och injicera anpassad JavaScript.
 
 Flera formateringsalternativ för formaterad text är tillgängliga när du redigerar text och HTML för [!UICONTROL A/B]- och [!UICONTROL Experience Targeting]-aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och redigeringsvyn för HTML.
 
