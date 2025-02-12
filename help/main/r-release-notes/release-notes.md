@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,16 @@ I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] f
 
 Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
 
-* [Omdesignad rapportering](/help/main/administrating-target/reporting.md) för bättre insikter i aktivitetsresultat
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)-sidan hämtar nu information från [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} för realtidsinsikter
-* [Anpassningsbara listvyer](/help/main/c-activities/activities.md) för bättre flexibilitet i olika teambehov
-* [Förbättrade snabbinformations- och detaljskärmar](/help/main/c-activities/activities.md) för enklare åtkomst till information
-* [Alternativ för beständig sökning och filtrering](/help/main/c-activities/activities.md)
-* Fullt [har omskapats [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) med stöd för de senaste säkerhetsuppdateringarna från webbläsarproviders och ett modernt användargränssnitt
+* [Omdesignad rapportering](/help/main/administrating-target/reporting.md) för bättre insikter i aktivitetsresultat.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)-sidan hämtar nu information från [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} för realtidsinsikter.
+* [Anpassningsbara listvyer](/help/main/c-activities/activities.md) för bättre flexibilitet i olika teambehov.
+* [Förbättrade snabbinformations- och detaljskärmar](/help/main/c-activities/activities.md) för enklare åtkomst till information.
+* [Alternativ för beständig sökning och filtrering av sessioner](/help/main/c-activities/activities.md).
+* Fullt [har omskapats [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) med stöd för de senaste säkerhetsuppdateringarna från webbläsarproviders och ett modernt användargränssnitt. Mer information finns i [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-  Mer information om hur den uppdaterade VEC skiljer sig från den tidigare versionen finns i [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+  Mer information om hur den uppdaterade VEC skiljer sig från den tidigare versionen finns i [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
-* [Uppdaterat [!DNL Chrome] tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som stöder manifest V3 för ökad säkerhet och förbättrat stöd för cookies från första part
+* [Uppdaterat [!DNL Chrome] tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som stöder manifest V3 för ökad säkerhet och förbättrat stöd för cookies från första part.
 
 ![Aktivitetsuppdatering](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -59,13 +59,13 @@ I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] f
 
 Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
 
-* [produktkatalogsökningen](/help/main/c-recommendations/c-products/catalog-search.md) innehåller nu en uppdaterad databas som tillåter synkronisering i realtid av produkter
-* [!UICONTROL Recommendations] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) [ som skapats över API är nu tillgängliga i gränssnittet ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
-* [Rekommendationsinställningar](/help/main/administrating-target/recommendations-settings.md) har konsoliderats under avsnittet [!UICONTROL Administration]
-* Anpassningsbara listvyer för bättre flexibilitet i olika teambehov
-* Uppdaterade HTML- och JSON-kodredigerare med [syntaxmarkering och radnumrering](/help/main/c-experiences/c-manage-content/create-json-offer.md)
-* Förbättrad snabbinformation och detaljskärmar för enklare åtkomst till information
-* Alternativ för beständig sökning och filtrering
+* [produktkatalogsökningen](/help/main/c-recommendations/c-products/catalog-search.md) innehåller nu en uppdaterad databas som tillåter en realtidssynkronisering av produkter.
+* [!UICONTROL Recommendations] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) [ som skapats över API är nu tillgängliga i gränssnittet ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [Rekommendationsinställningar](/help/main/administrating-target/recommendations-settings.md) har konsoliderats under avsnittet [!UICONTROL Administration].
+* Anpassningsbara listvyer för bättre flexibilitet i olika teambehov.
+* Uppdaterade HTML- och JSON-kodredigerare med [syntaxmarkering och radnumrering](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+* Förbättrad snabbinformation och detaljskärmar för enklare åtkomst till information.
+* Alternativ för sessionsbeständig sökning och filtrering.
 
 ![Uppdatering av gränssnittet Rekommendationer](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 

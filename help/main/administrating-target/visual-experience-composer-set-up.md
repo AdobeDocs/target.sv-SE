@@ -5,14 +5,14 @@ title: Hur konfigurerar jag Visual Experience Composer (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
-# Konfigurera Visual Experience Composer
+# Konfigurera [!UICONTROL Visual Experience Composer]
 
 Konfigurera [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) genom att ange dess allmänna inställningar, konfiguration för mobilvisningsruta och CSS-väljare.
 
