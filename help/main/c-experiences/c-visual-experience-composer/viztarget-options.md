@@ -4,7 +4,7 @@ description: Utforska de tillgängliga alternativen i  [!DNL Adobe Target] [!UIC
 title: Hur använder jag alternativen för [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -17,7 +17,7 @@ När du klickar på ett sidelement i [!DNL Adobe Target] [!UICONTROL Visual Expe
 
 >[!NOTE]
 >
->Versionen [!DNL Target Standard/Premium] 25.2.1 (11 februari 2025) innehöll en uppdaterad version av VEC. Mer information om hur den uppdaterade VEC skiljer sig från den tidigare versionen finns i [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>Versionen [!DNL Target Standard/Premium] 25.2.1 (12 februari 2025) innehöll en uppdaterad version av VEC. Mer information om hur den uppdaterade VEC skiljer sig från den tidigare versionen finns i [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 
 De olika [!UICONTROL Visual Experience Composer]-åtgärderna (VEC) grupperas i lämpliga menyalternativ för att göra jobbet snabbare och effektivare:

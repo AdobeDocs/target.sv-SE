@@ -4,7 +4,7 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -17,12 +17,12 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 ## Uppdateringar
 
-### [!DNL Target Standard/Premium] 25.2.1 (11 februari 2025)
+### [!DNL Target Standard/Premium] 25.2.1 (12 februari 2025)
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
 | 11 februari | [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Ny artikel som förklarar skillnaderna mellan tidigare och uppdaterade versioner av VEC. |
-|  | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation har lagts till för uppdateringen av användargränssnittet [!DNL Target Standard/Premium] 25.2.1 (schemalagd till 11 februari 2025). Många artiklar har uppdaterats för att återspegla ändringar i användargränssnittet. |
+|  | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation har lagts till för uppdateringen av användargränssnittet [!DNL Target Standard/Premium] 25.2.1 (schemalagd till 12 februari 2025). Många artiklar har uppdaterats för att återspegla ändringar i användargränssnittet. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)
 
