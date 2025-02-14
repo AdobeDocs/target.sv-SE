@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 13 februari | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Uppdateringen av användargränssnittet i [!DNL Target Standard/Premium] 25.2.1 ändrades till 17 februari 2025. |
 | 12 februari | [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Uppdaterade hela avsnittet för att förklara den uppdaterade VEC som introducerades i version [!DNL Target Standard/Premium] 25.2.1 (12 februari 2025). |
 |  | [Webbläsare som stöds](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Lagt till information om vilka webbläsare som stöds i en Target-implementering med [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Ny artikel som förklarar skillnaderna mellan tidigare och uppdaterade versioner av VEC. |
-|  | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation har lagts till för uppdateringen av användargränssnittet [!DNL Target Standard/Premium] 25.2.1 (schemalagd till 12 februari 2025). Många artiklar har uppdaterats för att återspegla ändringar i användargränssnittet. |
+|  | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation har lagts till för uppdateringen av användargränssnittet [!DNL Target Standard/Premium] 25.2.1 (schemalagd till 17 februari 2025). Många artiklar har uppdaterats för att återspegla ändringar i användargränssnittet. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)
 
