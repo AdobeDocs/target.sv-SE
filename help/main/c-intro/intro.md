@@ -6,9 +6,9 @@ short-description: Personanpassa kundernas upplevelse för att maximera intäkte
 title: Vad är Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1019'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Lösningen [!DNL Adobe Target] kan licensieras som [!DNL Target Standard] eller 
 
 De bästa metoderna för branschen är inbyggda i [!DNL Target Standard]. [!DNL Target Standard] är utformat för både nya och erfarna användare. Du kan dela data och resultat och enkelt samarbeta med andra teammedlemmar som använder [!DNL Adobe Experience Cloud].
 
-## Mål Premium {#premium}
+## Target Premium {#premium}
 
 [!BADGE Premium]{type=Positive}
 
@@ -47,9 +47,9 @@ Alla [!DNL Target Premium] artiklar i [!DNL Target]-stödlinjer innehåller mär
 
 [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) använder avancerad maskininlärning för att identifiera flera högpresterande marknadsföringsdefinierade upplevelser. [!UICONTROL Auto-Target] levererar sedan den mest anpassade upplevelsen till varje besökare. Leveransen baseras på enskilda kundprofiler och beteendet hos tidigare besökare med liknande profiler. [!UICONTROL Auto-Target] hjälper till att anpassa innehåll och driva konverteringar.
 
-### Recommendations
+### Rekommendationer
 
-[Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet. [!UICONTROL Recommendations] hjälper kunderna att dirigera till relevanta objekt som de annars kanske inte känner till.
+[Rekommendationer](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet. [!UICONTROL Recommendations] hjälper kunderna att dirigera till relevanta objekt som de annars kanske inte känner till.
 
 En rekommendation avgör hur en produkt föreslås till en kund, beroende på kundens aktiviteter på webbplatsen. Exempel:
 
@@ -65,9 +65,9 @@ En rekommendation avgör hur en produkt föreslås till en kund, beroende på ku
 
   Visa andra produkter som köpts in efter att ha tittat på en produkt utan att visa den första produkten i rekommendationerna, med hjälp av&quot;personer som tittade på den här produkten också&quot;.
 
-### Recommendations som erbjudande
+### Rekommendationer som ett erbjudande
 
-Med [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md) kan du inkludera rekommendationer i aktiviteter av typen [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] och [!UICONTROL Experience Targeting] (XT).
+[Rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md) gör att du kan inkludera rekommendationer i aktiviteter av typen [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] och [!UICONTROL Experience Targeting] (XT).
 
 Den här funktionen öppnar upp helt nya funktioner, som:
 
@@ -88,21 +88,21 @@ Med funktionen [Enterprise-användarbehörigheter](/help/main/administrating-tar
 
 Artiklar i [!DNL Target]-guider som beskriver Beta-funktioner innehåller Beta-märket överst på varje sida eller infogat nära den berörda texten. Beta-märket kan klickas och innehåller en länk till det här avsnittet.
 
-## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+## Klassiska rekommendationer {#section_9554068100054D2DBDB298CBE5A0E413}
 
 >[!IMPORTANT]
 >
 >[!DNL Recommendations Classic] är en äldre produkt och är inte längre licensierad till nya kunder. Uppgradera till [!DNL Recommendations] aktiviteter som är tillgängliga i [!DNL Adobe Target Premium] för att få bästa möjliga [!DNL Recommendations]-upplevelse. Se beskrivningen ovan.
 
-[!DNL Recommendations Classic] visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet på din webbplats. Recommendations hjälper kunderna att hänvisa till objekt de annars kanske inte känner till, vilket förbättrar försäljningen på er webbplats.
+[!DNL Recommendations Classic] visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet på din webbplats. Rekommendationer hjälper kunderna att dirigera till objekt de annars kanske inte känner till, vilket förbättrar försäljningen som genereras på er webbplats.
 
-Mer information finns i [Recommendations Classic-dokumentationen](/help/main/assets/adobe-recommendations-classic.pdf).
+Mer information finns i [Rekommendationer Classic-dokumentationen](/help/main/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: Välkomstpaketet Adobe [!DNL Target] {#kit}
+## Experience League: Adobe [!DNL Target] välkomstpaket {#kit}
 
 Bygg ditt optimerings- och personaliseringsprogram på [!DNL Adobe Target] med det här välkomstpaketet. Välkomstpaketet innehåller viktig information, verktyg och resurser som hjälper dig att förbereda och starta din första [!DNL Target]-aktivitet. Paketet innehåller idéer för snabba vinster på kort sikt och långsiktiga optimeringsstrategier.
 
-[Adobe Target välkomstpaket](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target Welcome Kit](/help/main/c-intro/target-welcome-kit.md)
 
 ## Utbildningsvideo: Aktivitetstyper (9:03) ![Märket Översikt](/help/main/assets/overview.png)
 

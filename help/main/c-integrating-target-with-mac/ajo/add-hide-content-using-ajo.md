@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
+exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ Det här användningsexemplet är utformat för att visa hur du utför välkänd
 
 >[!NOTE]
 >
->Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*.
+>Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*.
 >
 >Videon längst ned på sidan är särskilt användbar.
 
@@ -94,6 +95,5 @@ Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](http
 
 >[!MORELIKETHIS]
 >
->[Redigera webbinnehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} i *Journey Optimizer-dokumentationen*
->[Instruktionsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} i *Journey Optimizer-dokumentationen*
->[Skapa en kampanj ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer Tutorials*
+>[Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*
+>[Skapa en kampanj](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer-självstudiekurser*

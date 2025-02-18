@@ -4,9 +4,9 @@ description: Använd [!DNL Target] rapportering i [!DNL Adobe Customer Journey A
 title: Vad är  [!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De främsta fördelarna med att använda [!DNL Customer Journey Analytics] som r
 
 * Marknadsförarna kan när som helst dynamiskt tillämpa [!DNL Customer Journey Analytics]-framgångsmått på [!DNL Target]-aktivitetsrapporter. Du behöver inte ange allt innan du kör aktiviteten.
 * Marknadsförarna kan utnyttja [!DNL Customer Journey Analytics] funktioner, som [panelen Experimentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, för att ytterligare analysera webbplatspersonaliseringen.
-* Marknadsförare kan ha en enda rapportkälla för [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} och [!DNL Target]. Båda personaliseringsprodukterna kan anslutas till [!DNL Customer Journey Analytics] för en mer helhetsbild av din webbpersonalisering.
+* Marknadsförare kan ha en enda rapportkälla för [!DNL Adobe Journey Optimizer] och [!DNL Target]. Båda personaliseringsprodukterna kan anslutas till [!DNL Customer Journey Analytics] för en mer helhetsbild av din webbpersonalisering.
 
 ## Överväganden
 
@@ -53,7 +53,7 @@ Tänk på följande information innan du använder integreringen [!DNL Customer 
 
 ## Aktivitetstyper som stöds {#supported-activities}
 
-Följande aktivitetstyper stöds när du använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} eller JavaScript-biblioteket [ at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
+Följande aktivitetstyper stöds när du använder JavaScript-biblioteket [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} eller [ at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} :
 
 | Typ av aktivitet | Stöds? |
 |--- |--- |
@@ -63,7 +63,7 @@ Följande aktivitetstyper stöds när du använder [Adobe Experience Platform We
 | [Experience Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |
 | [Multivariata tester (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja |
 | [Automated Personalization-aktivitet (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nej |
-| [Recommendations-aktivitet](/help/main/c-recommendations/recommendations.md) | Ja |
+| [Rekommendationsaktivitet](/help/main/c-recommendations/recommendations.md) | Ja |
 
 ## Skapa en aktivitet som använder [!DNL Customer Journey Analytics] som rapportkälla
 
@@ -92,7 +92,7 @@ Att skapa en [!DNL Target]-aktivitet som använder [!DNL Customer Journey Analyt
 
    Välj ett framgångsmått som ska användas som mål för varje aktivitet. Du kan välja ett av [!DNL Target]-konverteringsmåtten eller använda ett [!DNL Customer Journey Analytics]-mått.
 
-   ![Använd ett måttalternativ för Customer Journey Analytics under Målmått](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
+   ![Använd ett Customer Journey Analytics-måttalternativ under Målmått](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
 1. Klicka på **[!UICONTROL Save & Close]**.
 

@@ -4,9 +4,9 @@ description: Läs tips från vår expertpanel om hur du använder Adobe [!DNL Ta
 title: Var hittar jag tips och tricks för att använda Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Att blanda målgrupper som lever i olika [!DNL Adobe Experience Cloud]-lösninga
 
 Se [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md) för stegvisa instruktioner.
 
-**Bra att veta**: [!DNL Adobe Audience Manager] målgrupper är automatiskt tillgängliga i [!DNL Target]. Men målgruppsdelning för [!DNL Adobe Analytics] kräver lite manuell konfiguration. Markera bara kryssrutan&quot;Make this an Experience Cloud publik&quot; under målgruppsprocessen i [!DNL Analytics]. Klicka sedan på Importera målgrupper från [!DNL Target].
+**Bra att veta**: [!DNL Adobe Audience Manager] målgrupper är automatiskt tillgängliga i [!DNL Target]. Men målgruppsdelning för [!DNL Adobe Analytics] kräver lite manuell konfiguration. Markera bara rutan&quot;Gör detta till en Experience Cloud-målgrupp&quot; under målgruppsprocessen i [!DNL Analytics]. Klicka sedan på Importera Experience Cloud-målgrupper från [!DNL Target].
 
 ## Tips 3: Exportera data från [!DNL Target] som ska användas med verktyg från tredje part.
 
@@ -79,7 +79,7 @@ Se [Flersidig aktivitet](/help/main/c-experiences/c-visual-experience-composer/m
 
 Med Experience Versions kan ni göra ett test med variationer för så många målgrupper ni vill. Du kan t.ex. skapa en banner-annons som erbjuder fri frakt - med bild- och valutavariationer för kunder i USA, Storbritannien och USA - utan att behöva göra tester för tre olika målgrupper.
 
-Se efter [flera olika upplevelsemålgrupper i ett A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) och [Experience-versioner i Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) om du vill ha stegvisa instruktioner.
+Se efter [flera olika upplevelsemålgrupper i ett A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) för steg-för-steg-instruktioner.
 
 ## Tips 8: Spara tid genom att replikera aktivitetsupplevelser på liknande sidor.
 
@@ -145,7 +145,7 @@ Ett test är meningslöst om du inte är säker på hur du ska agera på data. D
 
 Framgångsrika optimeringsorganisationer tror på begreppet testning och förstår att deras yrkesmässiga åsikter om vilken upplevelse som vinner testet inte alltid visar sig vara sanna. De avgör vinnaren baserat på en stabil grund av data och är angelägna och villiga att publicera den vinnande upplevelsen när resultatet är inne, även om det inte är i linje med deras förväntningar eller verkar vara kontraintuitivt.
 
-En Adobe-vårdkund visade till exempel nyligen värdet av testning genom att visa hur en hjältebanderoll som teamet hade ansett vara en nedbantad bild faktiskt påverkade konverteringen negativt. Om ni ännu inte helt har accepterat testning är det bäst att först utföra enklare, mindre tester så att förändringar från testresultaten kan göras stegvis.
+En av Adobe kunder inom hälso- och sjukvården visade t.ex. nyligen värdet av testning genom att visa hur en hjältebanderoll som teamet hade ansett vara en riktig nedslagring faktiskt påverkade konverteringen negativt. Om ni ännu inte helt har accepterat testning är det bäst att först utföra enklare, mindre tester så att förändringar från testresultaten kan göras stegvis.
 
 ## Tips 19: Meddela alla att du har startat ett test för att undvika problem när webbplatsen ändras.
 

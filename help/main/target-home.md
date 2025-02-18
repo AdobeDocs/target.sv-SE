@@ -4,9 +4,9 @@ title: Användarhandbok om Adobe Target Business Practitioner
 description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa kundernas upplevelse och maximera intäkterna på webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -75,5 +75,5 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 
 | Adobe [!DNL Target]-lösningar hjälper dig | [!DNL Adobe Experience Cloud] resurser |
 |--- |--- |
-| <ul><li>[Adobe Target studiematerial och support](https://helpx.adobe.com/support/target.html)</li><li>[Premiumrekommendationer](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Sök&amp;Befordra](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Mål-API-dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Målforum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Hjälp - startsida](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe Utbildning och självstudiekurser](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target studiematerial och support](https://helpx.adobe.com/support/target.html)</li><li>[Premiumrekommendationer](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Sök&amp;Befordra](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Mål-API-dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Målforum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Hjälp - startsida](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Utbildning och självstudiekurser](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
 
