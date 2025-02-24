@@ -1,10 +1,10 @@
 ---
 keywords: kontakt;juridisk;teknisk support;teknisk support;support;service;funktion;fakturering;feedback
-description: Läs mer om ytterligare resurser som kan hjälpa dig att lära dig mer om funktionerna i Adobe [!DNL Target] och hur du kontaktar Adobe om du behöver hjälp med  [!DNL Target].
+description: Läs om ytterligare resurser som hjälper dig att lära dig mer om Adobe [!DNL Target] funktioner och hur du kontaktar Adobe om du behöver hjälp med [!DNL Target].
 title: Var kan jag hitta resurser och kontaktinformation för Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
+source-git-commit: 562eeb4a3c9b27aeb9f606ac5ba8b6802bce0564
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
@@ -22,10 +22,10 @@ Target Community är er enda butik för allt som Adobe Target har att erbjuda.
 Med användarforumet kan du:
 
 * Läs mer om vad Target har att erbjuda
-* Kommunicera med kollegor och Adobe-experter
+* Kommunicera med kollegor och Adobe Experts
 * Rösta eller skicka in en egen idé om en framtida Target-release
 
-Gå till [målforumet](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) för att komma igång.
+Gå till [målforumet](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) för att komma igång.
 
 ## Target Basics Webinar Series {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -36,16 +36,16 @@ Registreringsinformation och länkar till tidigare sessioner i Target Basics Web
 
 ## Adobe kundtjänsttimmar {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
-&quot;Kontorstid&quot; är ett initiativ som leds av kundtjänstteamet på Adobe. Sessionerna är avsedda att informera såväl som hjälpa deltagare att felsöka problem och ge tips och råd för att lyckas med Adobe Experience Cloud lösningar, inklusive Target.
+&quot;Kontorstid&quot; är ett initiativ som leds av Adobe kundtjänstteam. Sessionerna är avsedda att informera såväl som hjälpa deltagare att felsöka problem och ge tips och råd för att lyckas med Adobe Experience Cloud lösningar, inklusive Target.
 
-Mer information om hur du registrerar dig för kommande sessioner och för att se inspelade sessioner finns i [Adobe Customer Care Office Hours](https://helpx.adobe.com/customer-care-office-hours.html).
+Information om hur du registrerar dig för kommande sessioner och om hur du tittar på inspelade sessioner finns i [Adobe Customer Care Office Hours](https://helpx.adobe.com/customer-care-office-hours.html).
 
 Aktuella målsessioner inkluderar:
 
 | Ämne/Körtid/Inspelningsdatum | Vad du kommer att lära dig |
 |--- |--- |
 | [at.js tips och översikt](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 juni 2019 | Du kommer att lära dig:<ul><li>Fördelar med att använda at.js</li><li>at.js-inställningar</li><li>Hantering av flimmer</li><li>Felsöka på.js</li><li>Kända fel</li><li>Vanliga frågor</li></ul>Mer information finns i [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
-| [Premium-målarbetsytor](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 september 2018 | Du kommer att lära dig:<ul><li>Skapa en arbetsyta (produktprofil)</li><li>Skapa egenskaper</li><li>Lägga till användare</li><li>Uppdaterar implementering</li></ul>Mer information finns i [Företagsanvändarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
+| [Target Premium Workspaces](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 september 2018 | Du kommer att lära dig:<ul><li>Skapa en arbetsyta (produktprofil)</li><li>Skapa egenskaper</li><li>Lägga till användare</li><li>Uppdaterar implementering</li></ul>Mer information finns i [Företagsanvändarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>December 2017 | Du kommer att lära dig:<ul><li>Hur VEC fungerar</li><li>Hur man undviker vanliga problem med VEC</li><li>Sätter att kringgå arbetet som du kan använda med VEC</li></ul>Mer information finns i [Erfarenheter](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Januari 2018 | Du kommer att lära dig:<ul><li>Konfigurera och verifiera att integreringen fungerar </li><li>Hur integreringen fungerar</li><li>Läs mer om de idealiska rapporterna som ska användas i Analytics</li><li>Svar på vanliga frågor om A4T</li></ul>Mer information finns i [Adobe Analytics som Reporting Source för Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js: Fördelar och bästa praxis för implementering](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>April 2018 | Du kommer att lära dig: <ul><li>Så fungerar biblioteket at.js</li><li>Fördelarna med at.js jämfört med den ersatta mbox.js</li><li>Hur at.js hanterar flimmer</li><li>Felhantering i at.js</li><li>Felsökningsmetoder</li><li>Kända fel och framtida färdplan</li></ul> |
@@ -54,7 +54,7 @@ Aktuella målsessioner inkluderar:
 >
 >Publiceringsdatumet anger när sessionen spelades in. Vissa funktioner kan ha ändrats och ytterligare funktioner har lagts till sedan publiceringsdatumet.
 
-Dessutom finns det sessioner om Target, och det finns andra sessioner för andra Adobe-lösningar, bland annat Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager med flera.
+Dessutom finns det sessioner om Target, andra Adobe-lösningar, bland annat Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager.
 
 ## Kontakta Adobe kundtjänst {#reference_ACA3391A00EF467B87930A450050077C}
 
@@ -66,7 +66,7 @@ Om du stöter på problem eller har frågor när du använder Target har du ett 
 
 Om du har frågor kan du fråga Adobe Target experter i [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
 
-Om du har tekniska problem eller vill logga ett fel kan du kontakta Kundtjänst. Ring 1-800-497-0335 om du vill kontakta kundtjänst. Avgiftsfria telefonnummer utanför USA finns på [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) -sidan. När du blir ombedd att välja ett alternativ för produkten trycker du på 3 för att kontakta Target-teamet.
+Om du har tekniska problem eller vill logga ett fel kan du kontakta Kundtjänst. Ring 1-800-497-0335 om du vill kontakta kundtjänst. Avgiftsfria nummer utanför USA finns på [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) -sidan. När du blir ombedd att välja ett alternativ för produkten trycker du på 3 för att kontakta Target-teamet.
 
 Skicka e-post till kundtjänst på [!DNL customercare@adobe.com].
 
@@ -75,7 +75,7 @@ Om du vill få tillgång till din snabbaste utgåva bör du ha följande grundl�
 | Information | Information |
 | --- | --- |
 | Sammanfattning | Sammanfattning av den övergripande frågan |
-| Kontoinformation | Företagsnamn<br>Adminnummer<br>Kampanjnamn<br>Typ av kampanj<br>Report Suite/Report Suite-ID (om det gäller integrering mellan mål och SiteCatalyst) |
+| Kontoinformation | Företagsnamn<br>Adminnummer<br>Kampanjnamn<br>Typ av kampanj<br>Report Suite/Report Suite-ID (om det gäller en mål-till-SiteCatalyst-integrering) |
 | Steg som ska återskapas | Inkludera så detaljerad information som möjligt, inklusive URL:er som behövs för att duplicera samt det förväntade resultatet.<br>Ta med tillräckligt med information om att någon som inte känner till Target ska kunna följa anvisningarna och återskapa problemet. |
 | Prioritet | P1 (viktigaste) till P4 (minst viktiga). |
 | Affärspåverkan | Vilken effekt har ditt företag? Finns det till exempel någon lösning som kan användas? |
@@ -85,7 +85,7 @@ Information om innehållsleveransproblem finns i [Felsöka innehållsleverans](/
 
 ### Vid ett utbrott {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Om du misstänker ett driftstopp ska du först kontrollera [Experience Cloud-systemstatus](https://status.adobe.com) ( [!DNL https://status.adobe.com]) Detta innehåller en lista över alla driftavbrott, incidenter och underhåll för Experience Cloud Solutions, inklusive Target, samt de senaste uppdateringarna från vårt Tech Ops-team. Om du fortfarande behöver hjälp, se till att du vet följande, förutom den information som listas ovan, när du kontaktar Kundtjänst:
+Om du misstänker ett driftstopp ska du först kontrollera sidan [Experience Cloud systemstatus](https://status.adobe.com) ( [!DNL https://status.adobe.com]) Den här filen innehåller information om alla driftavbrott, incidenter och underhåll för Experience Cloud Solutions, inklusive Target, och innehåller de senaste uppdateringarna från vårt Tech Ops-team. Om du fortfarande behöver hjälp, se till att du vet följande, förutom den information som listas ovan, när du kontaktar Kundtjänst:
 
 * Tidsavbrott påbörjades
 * Förklaring av vad som händer
@@ -100,14 +100,14 @@ Information som kan hjälpa dig att kontakta Adobe och förstå juridiska frågo
 
 Adobe Experience Cloud kundtjänstteam är här för att hjälpa dig och tillhandahåller ett antal mekanismer som de kan använda:
 
-* [Gå till hjälpsidorna för Experience Cloud för råd, tips och vanliga frågor](https://helpx.adobe.com/marketing-cloud.html)
+* [Gå till Experience Cloud hjälpsidor för råd, tips och vanliga frågor](https://helpx.adobe.com/marketing-cloud.html)
 * [Öppna ett supportärende och få hjälp](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [Kontakta kundtjänst direkt](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [Kontrollera tillgänglighet och status för Experience Cloud-lösningar](https://status.adobe.com/)
 
 Anmäl dig till produktuppdateringen Adobe Priority om du vill få förhandsmeddelanden om kommande produktförbättringar:
 
-[Adobe Prioritet - produktuppdatering](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe Priority-produktuppdatering](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### Service, kapacitet och fakturering {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -124,6 +124,6 @@ Vi välkomnar alla förslag och all feedback om den här lösningen. Förbättri
 
 [Användarvillkor](https://www.adobe.com/legal/terms.html)
 
-Adobe och Adobe logotypen är antingen registrerade varumärken eller varumärken som tillhör Adobe Systems Incorporated i USA och/eller andra länder. Varumärkessymbol (®, ™ osv.) betecknar ett Adobe-varumärke.
+Adobe och Adobe logotyp är antingen registrerade varumärken eller varumärken som tillhör Adobe Systems Incorporated i USA och/eller andra länder. Ett varumärkessymbol (®, ™ osv.) betecknar ett Adobe-varumärke.
 
 Alla varumärken tillhör sina respektive ägare. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
