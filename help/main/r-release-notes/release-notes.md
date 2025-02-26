@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,27 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)
+
+Den här versionen innehåller följande uppdateringar:
+
+* Ett problem som förhindrade aktivitetsuppdateringar efter [!DNL Target] 25.2.1-utgåvan för vissa aktiviteter har åtgärdats. (TGT-51781)
+* Ett problem där alla ändringar av målgrupper i det aktuella läget togs bort när processen att skapa aktiviteten avbröts (välj [!UICONTROL Cancel] i stället för [!UICONTROL Add Audience]) har åtgärdats. (TGT-51769 &amp; TGT-51770)
+* Ett problem där [!UICONTROL Visual Experience Composer] (VEC) inte kunde läsas in för vissa aktiviteter har åtgärdats, särskilt när anpassad kod användes.  ett problem uppstod när VEC visade en tom skärm eller gränssnittet [!DNL Target] återgick till den äldre versionen. (TGT-51758)
+* Ett problem där ändringar togs bort efter redigering av sidleverans för målgrupper har åtgärdats. (TGT-51756)
+* Ett problem där alla icke-mätbara målgrupper (sid- och upplevelsemålgrupper) togs bort från aktiviteter när en måtttyp ändrades på sidan [!UICONTROL Goals & Settings] har åtgärdats. (TGT-51753)
+* Ett problem där klickning på [!UICONTROL Cancel] när en aktivitet redigerades gick till [!UICONTROL Activities List] i stället för sidan [!UICONTROL Activity Details] i målgränssnittet. (TGT-51731)
+* Ett problem som hindrade kunder från att hämta rapporter via alternativet [!UICONTROL Export Reports to CSV] har åtgärdats. (TGT-51708)
+* Löste ett problem i den formulärbaserade Experience Composer där [!DNL Target Standard] kunder felaktigt visades använda funktionen [!UICONTROL Properties], en [!DNL Target Premium]. (TGT-51678)
+* Korrigerade ett problem som blockerade [!DNL Adobe Experience Platform] attribut från att visas när nya erbjudanden skapades. (TGT-51665)
+* Alla aktiva filter för [!DNL Recommendations]-lagret flyttades till snabbsökningen och användargränssnittet justerades med [!UICONTROL Catalog Search] i stället för [!UICONTROL Filter]. (TGT-50723)
+
+## at.js version 2.11.7 (26 februari 2025)
+
+Den här versionen innehåller följande uppdatering:
+
+* Loggning av telemetri när `localStorage` inte är tillgänglig har åtgärdats. Telemetry orsakade ett problem för vissa kunder som hade `localStorage` inaktiverat i sina webbläsare.
 
 ## Target Standard/Premium 25.2.1 (17 februari 2025)
 
