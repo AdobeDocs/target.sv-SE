@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 |--- |--- |--- |
 | 26 februari | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Tillagd information för följande versioner:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)</li><li>at.js version 2.11.7 (26 februari 2025)</li></ul> |
 |  | [versionsinformation för at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Information har lagts till för version 2.11.7 (26 februari 2025) av at.js. |
+|  | [Aktivitets-QA-bokmärke](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | Uppdaterade Activity QA-bokmärket för at.js 2.x. |
 | 13 februari | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Uppdateringen av användargränssnittet i [!DNL Target Standard/Premium] 25.2.1 ändrades till 17 februari 2025. |
 | 12 februari | [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Uppdaterade hela avsnittet för att förklara den uppdaterade VEC som introducerades i version [!DNL Target Standard/Premium] 25.2.1 (12 februari 2025). |
 |  | [Webbläsare som stöds](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Lagt till information om vilka webbläsare som stöds i en Target-implementering med [!DNL Adobe Experience Platform Web SDK]. |
