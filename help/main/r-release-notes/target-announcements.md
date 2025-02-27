@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -207,16 +207,14 @@ Under 2022 har systemen nått en vändpunkt när det gäller möjligheten att ti
 
 Läs om hur artificiell intelligens fortsätter att omdefiniera konsumenternas förväntningar, eftersom maskininlärningsmodeller och datainsikter öppnar nya dörrar för marknadsförare, utvecklare och produktägare att engagera konsumenterna med personaliserade upplevelser som är viktiga. Ta en stegvis genomgång av [!DNL Adobe Analytics] + [!DNL Adobe Target]-arbetsflöden för personalisering, målinriktning och testning.
 
-* [Inspelningslänk](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++Information
 
-  +++Information
+Gå med i Jordan Ison (Principal Expert Solution Consultant på [!DNL Adobe]) och diskutera:
 
-  Gå med i Jordan Ison (Principal Expert Solution Consultant på [!DNL Adobe]) och diskutera:
-
-   * Hur marknadsförare, utvecklare och produktteam kan öppna den svarta rutan i AI för att utveckla framtida strategier för testning och personalisering
-   * Övervinn utmaningarna med optimering av webben, mobilappar, e-post, sakernas internet och varje digital kontaktyta för högre konvertering och engagemang
-   * Stegvis guidad genomgång av [!DNL Adobe Analytics]- och [!DNL Target]-arbetsflöden för personalisering, målinriktning och testning
-   * De viktigaste användningsområdena för att låsa upp vilka attribut som förutsäger besökarnas beteende och vilka attribut som är viktigast för nyckelvisualiseringar och segmenteringsanalys
+* Hur marknadsförare, utvecklare och produktteam kan öppna den svarta rutan i AI för att utveckla framtida strategier för testning och personalisering
+* Övervinn utmaningarna med optimering av webben, mobilappar, e-post, sakernas internet och varje digital kontaktyta för högre konvertering och engagemang
+* Stegvis guidad genomgång av [!DNL Adobe Analytics]- och [!DNL Target]-arbetsflöden för personalisering, målinriktning och testning
+* De viktigaste användningsområdena för att låsa upp vilka attribut som förutsäger besökarnas beteende och vilka attribut som är viktigast för nyckelvisualiseringar och segmenteringsanalys
 
 +++
 
