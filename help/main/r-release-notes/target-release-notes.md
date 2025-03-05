@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
+source-git-commit: 82e10bdecbaff95e16c34ae5b4b0acad9f2b6e5e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,27 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 3 mars 2025**
+**Senast uppdaterad: 5 mars 2025**
 
 >[!NOTE]
 >
 >Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+
+## [!DNL Target Standard/Premium] 25.3.2 (6 mars 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Ett problem har korrigerats där kopiering av en aktivitet med en målgrupp som endast är aktiv inte kunde skapa en ny aktivitet. Den ursprungliga aktivitetens målgrupp användes av misstag. (TGT-51855)
+* Korrigerade ett problem som förhindrade redigering av [!UICONTROL Experience Targeting] (XT)-aktiviteter med enbart aktivitet. (TGT-51846)
+* Ett problem har korrigerats där [!UICONTROL Visual Experience Composer] (VEC) inte kunde använda ändringar på en upplevelse korrekt vid den första redigeringen. (TGT-51843)
+* Ett problem som utlöste ett ID-fel när du klickade på vissa element i VEC har korrigerats. (TGT-51814)
+* Felhanteringen i VEC uppdaterades när aktiviteten skapades. (TGT-51759)
+* Korrigerade ett problem där en vy som saknas på panelen [!UICONTROL Modifications] orsakade ett fel av typen ogiltig användarinmatning när aktiviteten sparades. (TGT-51827)
+* Ett problem som gjorde att rekommendationskriterier inte kunde skapas har korrigerats. (TGT-51834)
+* Ett bekräftelsemeddelande lades till innan omdirigering till en annan URL. (TGT-51703)
+* Problem med GraphQL integrationstester i erbjudanden och mappar har åtgärdats. (TGT-51839)
 
 ## [!DNL Target Standard/Premium] 25.3.1 (3 mars 2025)
 

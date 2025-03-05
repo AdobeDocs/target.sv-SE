@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
+source-git-commit: 82e10bdecbaff95e16c34ae5b4b0acad9f2b6e5e
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-|  | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.1 har lagts till. |
+| 5 mars | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation för version [!DNL Target Standard/Premium] 25.3.2 har lagts till. |
+| 3 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.1 har lagts till. |
 
 
 ### [!DNL Target Standard/Premium] 25.2.1 (17 februari 2025)
