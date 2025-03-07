@@ -4,9 +4,9 @@ description: Se en lista över funktioner, förbättringar och korrigeringar som
 title: Vilka funktioner ingår i tidigare versioner?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
 workflow-type: tm+mt
-source-wordcount: '38891'
+source-wordcount: '39655'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,94 @@ Versionsinformationen ordnas i fallande ordning efter månad och år då den sl�
 >Mer information om den aktuella månadens Target-utgåvor (plattform och Target Standard/Premium) finns i [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionsinformation - 2025
+
+### [!DNL Target Standard/Premium] 25.3.1 (3 mars 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* En kombinerad målgrupp kan innehålla undergrupper, där var och en innehåller flera målgrupper. Den här versionen åtgärdade ett problem som förhindrade att undergrupper kunde visas i dialogrutan [!UICONTROL Rules]. (TGT-51813)
+* Ett problem där vissa upplevelsemålgrupper ersattes med [!UICONTROL All Visitors] när äldre aktiviteter öppnades har åtgärdats. (TGT-51812)
+* Löste ett problem som förhindrade redigering av aktiviteter med enbart aktivitetsgrupper. (TGT-51807)
+* Ett problem som förhindrade redigering av sidhuvudets ändringar i det uppdaterade [!DNL Target]-gränssnittet har åtgärdats. (TGT-51797)
+* Ett null-fel som uppstod när en upplevelse skulle dupliceras, en annan upplevelse tas bort och sedan försöker spara aktiviteten har åtgärdats. (TGT-51796)
+* Ett problem som förhindrade att regler för målgruppsundantag visades i målgruppens informationspanel under [!UICONTROL Targeting]-steget för att skapa aktiviteter har åtgärdats. (TGT-51579)
+* Uppdaterade felmeddelanden på koreanska. (TGT-51701 &amp; TGT-51699)
+
+### [!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)
+
+Den här versionen innehåller följande uppdateringar:
+
+* Ett problem som förhindrade aktivitetsuppdateringar efter [!DNL Target] 25.2.1-utgåvan för vissa aktiviteter har åtgärdats. (TGT-51781)
+* Ett problem där alla ändringar av målgrupper i det aktuella läget togs bort när processen att skapa aktiviteten avbröts (välj [!UICONTROL Cancel] i stället för [!UICONTROL Add Audience]) har åtgärdats. (TGT-51769 &amp; TGT-51770)
+* Ett problem där [!UICONTROL Visual Experience Composer] (VEC) inte kunde läsas in för vissa aktiviteter har åtgärdats, särskilt när anpassad kod användes.  ett problem uppstod när VEC visade en tom skärm eller gränssnittet [!DNL Target] återgick till den äldre versionen. (TGT-51758)
+* Ett problem där ändringar togs bort efter redigering av sidleverans för målgrupper har åtgärdats. (TGT-51756)
+* Ett problem där alla icke-mätbara målgrupper (sid- och upplevelsemålgrupper) togs bort från aktiviteter när en måtttyp ändrades på sidan [!UICONTROL Goals & Settings] har åtgärdats. (TGT-51753)
+* Ett problem där klickning på [!UICONTROL Cancel] när en aktivitet redigerades gick till [!UICONTROL Activities List] i stället för sidan [!UICONTROL Activity Details] i målgränssnittet. (TGT-51731)
+* Ett problem som hindrade kunder från att hämta rapporter via alternativet [!UICONTROL Export Reports to CSV] har åtgärdats. (TGT-51708)
+* Löste ett problem i den formulärbaserade Experience Composer där [!DNL Target Standard] kunder felaktigt visades använda funktionen [!UICONTROL Properties], en [!DNL Target Premium]. (TGT-51678)
+* Korrigerade ett problem som blockerade [!DNL Adobe Experience Platform] attribut från att visas när nya erbjudanden skapades. (TGT-51665)
+* Alla aktiva filter för [!DNL Recommendations]-lagret flyttades till snabbsökningen och användargränssnittet justerades med [!UICONTROL Catalog Search] i stället för [!UICONTROL Filter]. (TGT-50723)
+
+### at.js version 2.11.7 (26 februari 2025)
+
+Den här versionen innehåller följande uppdatering:
+
+* Loggning av telemetri när `localStorage` inte är tillgänglig har åtgärdats. Telemetry orsakade ett problem för vissa kunder som hade `localStorage` inaktiverat i sina webbläsare.
+
+Mer information om detta och tidigare at.js-versioner finns i [at.js versionsinformation](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
+
+### Target Standard/Premium 25.2.1 (17 februari 2025)
+
+Den här versionen innehåller följande uppdateringar:
+
+* [!UICONTROL Activities] uppdatering av användargränssnittet
+* [!DNL Recommendations] uppdatering av användargränssnittet
+
+#### [!UICONTROL Activities] uppdatering av användargränssnittet
+
+I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] fortsätter är vi glada att kunna meddela att det uppdaterade [!UICONTROL Activities]-användargränssnittet är allmänt tillgängligt.
+
+>[!NOTE]
+>
+>Från och med den 17 februari får kunderna gradvis tillgång till det nya [!UICONTROL Activities]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
+
+Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
+
+* [Omdesignad rapportering](/help/main/administrating-target/reporting.md) för bättre insikter i aktivitetsresultat.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)-sidan hämtar nu information från [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} för realtidsinsikter.
+* [Anpassningsbara listvyer](/help/main/c-activities/activities.md) för bättre flexibilitet i olika teambehov.
+* [Förbättrade snabbinformations- och detaljskärmar](/help/main/c-activities/activities.md) för enklare åtkomst till information.
+* [Alternativ för beständig sökning och filtrering av sessioner](/help/main/c-activities/activities.md).
+* Fullt [har omskapats [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) med stöd för de senaste säkerhetsuppdateringarna från webbläsarproviders och ett modernt användargränssnitt.
+
+  Mer information om hur den uppdaterade VEC skiljer sig från den tidigare versionen finns i:
+
+   * [Ändringar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+   * [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+
+* [Uppdaterat [!DNL Chrome] tillägg](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som stöder manifest V3 för ökad säkerhet och förbättrat stöd för cookies från första part.
+
+![Aktivitetsuppdatering](/help/main/r-release-notes/assets/activities-refresh.png)
+
+#### [!DNL Recommendations] uppdatering av användargränssnittet
+
+I takt med att moderniseringen av användargränssnittet i [!DNL Adobe Target] fortsätter är vi glada att kunna meddela att det uppdaterade [!DNL Recommendations]-användargränssnittet är allmänt tillgängligt.
+
+>[!NOTE]
+>
+>Från och med den 17 februari får kunderna gradvis tillgång till det nya [!UICONTROL Recommendations]-gränssnittet. För att säkerställa en sömlös driftsättning för alla kunder kommer den här versionen att distribueras i kontrollerade faser. I det första steget uppgraderas den första gruppen med [!DNL Target] kunder till det nya [!UICONTROL Activities]-gränssnittet. Efterföljande steg kommer att uppgradera de återstående kunderna.
+
+Uppdateringen är baserad på det senaste [!DNL Adobe Spectrum]-designsystemet och standardiserar tidigare inkonsekventa designmönster, samtidigt som nya förbättringar läggs till, till exempel:
+
+* [produktkatalogsökningen](/help/main/c-recommendations/c-products/catalog-search.md) innehåller nu en uppdaterad databas som tillåter en realtidssynkronisering av produkter.
+* [!UICONTROL Recommendations] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) [ som skapats över API är nu tillgängliga i gränssnittet ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [Rekommendationsinställningar](/help/main/administrating-target/recommendations-settings.md) har konsoliderats under avsnittet [!UICONTROL Administration].
+* Anpassningsbara listvyer för bättre flexibilitet i olika teambehov.
+* Uppdaterade HTML- och JSON-kodredigerare med [syntaxmarkering och radnumrering](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+* Förbättrad snabbinformation och detaljskärmar för enklare åtkomst till information.
+* Alternativ för sessionsbeständig sökning och filtrering.
+
+![Uppdatering av gränssnittet Rekommendationer](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ### Target Standard/Premium 25.1.1 (9 januari 2025)
 
