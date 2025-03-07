@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
+source-git-commit: 7196b966c46043db536313c7841fe8611268d373
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,15 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!DNL Target Standard/Premium] 25.3.4 (7 mars 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Ett problem har korrigerats där målgrupper som bara har aktiviteten inte var synliga på panelen [!UICONTROL Audiences], vilket förhindrar redigering eller återanvändning. (TGT-51860)
+* Ett problem som blockerade [!DNL Target Standard]-kunder från att skapa aktiviteter med hjälp av [!UICONTROL Analytics for Target] (A4T)-rapportering har åtgärdats. (TGT-51854)
+* Korrigerade ett problem som uteslöt lokala ID-räknare från nyttolasten under gruppskapnings- och redigeringsåtgärder. (TGT-51867)
+* Förbättrade tillgänglighetsrapporter genom att integrera [!DNL Axe Developer Hub], förbättra täckning, rapportering, teamsamarbete, stöd för manuell testning, efterlevnadsstandarder och användarupplevelse.
 
 ## [!DNL Target Standard/Premium] 25.3.2 (6 mars 2025)
 
