@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
+source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Versionsinformationen innehåller information om funktioner, förbättringar och
 
 Den här versionen innehåller följande korrigeringar och uppdateringar:
 
-* Korrigerade ett fel i den uppdaterade [!UICONTROL Visual Experience Composer] (VEC) där vägbeskrivningar inte alltid visades längst ned i redigeraren, vilket medförde problem med att välja element exakt. (TGT-51844)
 * Ett problem som hindrade användare från att ändra erbjudanden på panelen [!UICONTROL Modifications] har åtgärdats. (TGT-51800)
 * Ett problem där funktionsmakron visades felaktigt i den vänstra panelen för upplevelser och målgrupper, inklusive i [!UICONTROL ClickTrack]-läge, har åtgärdats. (TGT-51895)
 * Ett problem där [!UICONTROL ClickTrack] väljare inte tillämpades på rätt målgruppssida har åtgärdats. (TGT-51871)

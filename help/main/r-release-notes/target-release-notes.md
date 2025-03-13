@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
+source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 
 Den här versionen innehåller följande korrigeringar och uppdateringar:
 
-* Korrigerade ett fel i den uppdaterade [!UICONTROL Visual Experience Composer] (VEC) där vägbeskrivningar inte alltid visades längst ned i redigeraren, vilket medförde problem med att välja element exakt. (TGT-51844)
 * Ett problem som hindrade användare från att ändra erbjudanden på panelen [!UICONTROL Modifications] har åtgärdats. (TGT-51800)
 * Ett problem där funktionsmakron visades felaktigt i den vänstra panelen för upplevelser och målgrupper, inklusive i [!UICONTROL ClickTrack]-läge, har åtgärdats. (TGT-51895)
 * Ett problem där [!UICONTROL ClickTrack] väljare inte tillämpades på rätt målgruppssida har åtgärdats. (TGT-51871)
