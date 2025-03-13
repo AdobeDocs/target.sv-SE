@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0cf160d93e2ed23de704dcb1065adf304ab78be4
+source-git-commit: a9c4264672b44da815c721c08c735a2692b2cb33
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 13 mars | [Webbläsare som stöds](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Uppdaterade webbläsare som stöds och lade till avsnittet&quot;Krav för visuell redigering&quot;. |
 | 11 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.5 har lagts till. |
 | 7 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.4 har lagts till. |
 | 6 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.2 har lagts till. |
