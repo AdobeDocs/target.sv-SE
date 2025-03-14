@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
+source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,18 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!DNL Target Standard/Premium] 25.3.6 (14 mars 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Löste ett fel om ogiltig användarinmatning i [!UICONTROL Visual Experience Composer] (VEC)-aktiviteter med [!UICONTROL Click Tracking] aktiverat när samma [!UICONTROL ClickTrack]-väljare används flera gånger. (TGT-51921)
+* Felet &quot;Ogiltig användarinmatning&quot; i VEC-aktiviteter med delade platser (till exempel HEAD-väljare) och identiska erbjudanden har åtgärdats. (TGT-51879)
+* Ett problem som orsakade att upplevelseändringar delades mellan olika målgrupper har åtgärdats. (TGT-51815)
+* Löste valideringsfel när aktiviteter skapades på grund av konflikter mellan segment-ID. Felen uppstod när [!DNL Target] upptäckte befintliga aktiviteter med anonyma segment. (TGT-51784)
+* Ett problem som förhindrar [!DNL Target] från att spara aktiviteter med undantagsregler i en målgrupp har åtgärdats. (TGT-51581)
+* Ett problem som gjorde att kunder inte kunde skapa, ta bort eller flytta mappar utan åtkomst till standardarbetsytan har åtgärdats. (TGT-51499)
+* Ett problem som medförde att GET-begäranden misslyckades när [!DNL Analytics]-mätningslistan hämtades har åtgärdats. (TGT-51106)
 
 ## [!DNL Target Standard/Premium] 25.3.5 (11 mars 2025)
 
