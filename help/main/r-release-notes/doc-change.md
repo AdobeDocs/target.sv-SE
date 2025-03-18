@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 18 mars | [A4T-stöd för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Anteckning har lagts till i avsnittet *Målmått som stöds*. |
 | 14 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.6 har lagts till. |
 | 13 mars | [Webbläsare som stöds](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Uppdaterade webbläsare som stöds och lade till avsnittet&quot;Krav för visuell redigering&quot;. |
 | 11 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.5 har lagts till. |
