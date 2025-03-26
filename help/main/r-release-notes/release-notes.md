@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,30 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!DNL Target Standard/Premium] 25.3.7 (26 mars 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Ett problem som blockerade sparande av flersidiga aktiviteter om en sida togs bort efter ändringar har åtgärdats. (TGT-51988)
+* Ett fel som uppstod när en aktivitet redigerades: `default message [Invalid optionLocalIds: xx]]` har åtgärdats. (TGT-51985)
+* Ett problem där nya ändringar i en aktivitet togs bort när befintliga ändringar lades till har åtgärdats. (TGT-51981)
+* Ett problem där felet&quot;Duplicera målgrupper tillåts inte&quot; uppstod när en målgrupp skulle ersättas med [!UICONTROL All visitors]&quot; när aktiviteten skapades eller redigerades. (TGT-51978)
+* Ett problem som orsakade ett fel av typen &quot;Ogiltig användarinmatning&quot; när en [!UICONTROL A/B Test]-aktivitet sparades har åtgärdats. (TGT-51976)
+* Ett problem som gjorde att beräknade värden inte kunde visas korrekt på sidan [!UICONTROL Goals & Settings] har åtgärdats. (TGT-51975)
+* Löste ett problem som förhindrade matchning av `companyName` och `reportSuite` i [!DNL Analytics]-konfigurationen för måttet `pageviews`. (TGT-51965)
+* Löste ett problem där växling av upplevelser i en aktivitet tog bort ändringar. (TGT-51945)
+* Ett problem har korrigerats där [!UICONTROL ClickTrack] väljare togs bort när en sidpublik togs bort. (TGT-51935)
+* Ett problem som gjorde en aktivitet icke-redigerbar efter att sidan [!UICONTROL Overview] öppnades har åtgärdats. (TGT-51931)
+* Ett problem som orsakade ett `[Unused optionLocalIds: 0]]`-fel när aktiviteten skapades har åtgärdats. (TGT-51920)
+* Ett problem där vissa ändringar inte översattes korrekt efter att textformatsändringar hade tagits bort har åtgärdats. (TGT-51876)
+* Ett problem som hindrade målgrupper från att uppdatera korrekt i [!UICONTROL Form-Based Experience Composer] har åtgärdats. (TGT-51845)
+* Ett problem har korrigerats där URL:en i [!UICONTROL Visual Experience Composer] inte uppdaterades korrekt under aktivitetsnavigeringen. (TGT-51832)
+* Ett problem som gjorde att erbjudanden inte kunde visas i användargränssnittet för [!UICONTROL Offers] har åtgärdats, trots att de visades korrekt när en aktivitet skapades och erbjudanden lades till. (TGT-51805)
+* Ett problem där vissa aktiviteter saknade en reservskärm för att visa standardinnehåll när det inte gick att leverera anpassat eller målinriktat innehåll har åtgärdats. (TGT-51638)
+* Ett problem som gjorde att direkterbjudanden och vissa mappar inte kunde visas korrekt i användargränssnittet för [!UICONTROL Offers] har åtgärdats. (TGT-51628)
+* Ett problem som gjorde att vissa URL-strängar och goURL:er inte kunde lokaliseras korrekt har åtgärdats. (TGT-35741)
+* Ett problem som gjorde att roller ([!UICONTROL Approver], [!UICONTROL Editor] och [!UICONTROL Observer]) inte kunde lokaliseras korrekt i användargränssnittet för [!DNL Target] har åtgärdats. (TGT-29925)
 
 ## [!DNL Target Standard/Premium] 25.3.6 (14 mars 2025)
 
